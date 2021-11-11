@@ -72,14 +72,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Novidades ou alterações no Supply Chain Management
                   items:
-                    - name: Novidades ou mudanças na home page do Supply Chain Management
+                    - name: Novidades ou alterações na home page do Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (novembro de 2021)
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (outubro de 2021)
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: Supply Chain Management 10.0.20 (agosto de 2021)
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Recursos removidos ou preteridos
                   items:
                     - name: Home page de recursos removidos ou preteridos
@@ -1645,7 +1645,7 @@
                   href: master-planning/planning-optimization/get-started.md
                 - name: Processo de liberação da Otimização de Planejamento e histórico de versões
                   href: master-planning/planning-optimization/release-process.md
-                - name: Análise de ajuste da Otimização do Planejamento
+                - name: Análise de ajuste da Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Diferenças entre planejamento mestre interno e Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Planejamento mestre com contratos comerciais de compra
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Parâmetros de data e hora usados pela Otimização de Planejamento
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Margens de segurança
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Tolerância a atraso (dias negativos)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar o catálogo de endereços global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configuração de endereço
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Perguntas frequentes sobre catálogos de endereços
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar catálogos de endereços
@@ -2427,19 +2431,7 @@
                       href: production-control/release-production-orders.md
                     - name: Relatar ordens de produção como concluídas
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Configurar e usar a interface de execução de piso de produção
-                      items:
-                        - name: Configurar a interface de execução de piso de produção
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Criar a interface de execução de piso de produção
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Configurar um dispositivo para executar a interface de execução de piso de produção
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Como os trabalhadores usam a interface de execução de piso de produção
-                          href: production-control/production-floor-execution-use.md
-                        - name: Criar estilo para a interface de execução de piso de produção
-                          href: production-control/production-floor-execution-styles.md
-                    - name: Configurar a ficha de trabalho para dispositivos
+                    - name: Configurar o cartão de trabalho para dispositivos
                       href: production-control/config-job-card-device.md
                     - name: Relatar como concluído no dispositivo de ficha de trabalho
                       href: production-control/report-finished-job-device.md
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Lançamento de produção
                       href: cost-management/production-posting.md
+            - name: Configurar e usar a interface de execução de piso de produção
+              items:
+                - name: Configurar a interface de execução de piso de produção
+                  href: production-control/production-floor-execution-configure.md
+                - name: Criar a interface de execução de piso de produção
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Configurar um dispositivo para executar a interface de execução de piso de produção
+                  href: production-control/production-floor-execution-setup.md
+                - name: Como os trabalhadores usam a interface de execução de piso de produção
+                  href: production-control/production-floor-execution-use.md
+                - name: Criar estilo para a interface de execução de piso de produção
+                  href: production-control/production-floor-execution-styles.md
         - name: Gerenciamento de reembolsos
           items:
             - name: Visão geral do módulo de gerenciamento de reembolsos
@@ -3311,7 +3315,7 @@
                   items:
                     - name: Políticas de trabalho
                       href: warehousing/warehouse-work-policies.md
-                    - name: Movimento de estoque com trabalho associado no Gerenciamento de depósitos
+                    - name: Movimento de estoque com trabalho associado no Gerenciamento de depósito
                       href: warehousing/move-inventory-associated-work.md
                     - name: Criar uma classe de trabalho
                       href: warehousing/tasks/create-work-class.md
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Personalizar títulos e instruções de etapas para o aplicativo móvel Warehouse Management
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: Configurar campos promovidos para as etapas no dispositivo móvel
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Configurar desvios para as etapas nos itens de menu do dispositivo móvel
+                      href: warehousing/warehouse-app-detours.md
                     - name: Recebimento da placa de licença pelo aplicativo móvel Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Parâmetros de dispositivo móvel global
                   href: warehousing/mobile-device-parameters.md
+                - name: Contas de usuário do dispositivo móvel
+                  href: warehousing/mobile-device-work-users.md
                 - name: Configurações do usuário do dispositivo móvel
                   href: warehousing/mobile-device-user-settings.md
                 - name: Processamento de eventos do aplicativo de depósito
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gerenciamento de depósito
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: Âncora de confiança para caminho de certificação não encontrada ao configurar conexão de aplicativo
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: Âncora de confiança para caminho de certificação não encontrada ao atualizar e migrar para o WMS
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: O aviso de reserva automática para o número do lote é mostrado mesmo com estoque disponível
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Não é possível desbloquear o trabalho de separação devido ao trabalho de reabastecimento não concluído
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: Não é possível mover o estoque para um local controlado por placa de licença
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Âncora de confiança para caminho de certificação não encontrada ao configurar conexão de aplicativo
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: Não é possível encontrar perfil de cluster
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: Não é possível processar a correção da nota de entrega
@@ -3819,8 +3833,6 @@
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: Não é possível cancelar a reserva de estoque em uma linha de ordem de venda
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: Âncora de confiança para caminho de certificação não encontrada ao atualizar e migrar para o WMS
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Não é possível confirmar uma remessa porque o cliente está em espera
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: Não é possível confirmar uma remessa porque as linhas de carga têm quantidade zero

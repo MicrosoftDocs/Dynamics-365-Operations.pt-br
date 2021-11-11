@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novidades ou alterações em Platform updates
               items:
-                - name: Novidades ou mudanças na home page de Platform updates
+                - name: Novidades ou alterações na home page de Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para a versão 10.0.23
+                  href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: Platform updates para a versão 10.0.22 (novembro de 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: Platform updates para a versão 10.0.21 (outubro de 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: Platform updates para a versão 10.0.20 (agosto de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-20.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -32,42 +32,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Fim do suporte base ao Microsoft Dynamics AX 2009 e 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: Eventos de negócios
-          items:
-            - name: Visão geral sobre eventos de negócios
-              href: business-events/home-page.md
-            - name: Eventos de negócios de aplicativos
-              href: business-events/app-business-events.md
-            - name: Eventos de negócios de fluxos de trabalho
-              href: business-events/business-events-workflow.md
-            - name: Eventos de negócios em lotes
-              href: business-events/system-business-events.md
-            - name: Alertas como eventos de negócios
-              href: business-events/alerts-business-events.md
-            - name: Eventos de negócios no Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: Documentação do desenvolvedor de eventos de negócios
-              href: business-events/business-events-dev-doc.md
-            - name: Solucionar problemas de eventos de negócios
-              href: business-events/troubleshooting.md
-            - name: Casos de uso de eventos de negócios
-              href: business-events/potential-use-cases.md
-            - name: Tutoriais
-              items:
-                - name: Eventos de negócios e Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: Eventos de negócios e Grade de Eventos do Azure
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: Eventos de negócios e Barramento de Serviço do Azure
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: Eventos de negócios e aprovações de fluxo de trabalho
-                  href: business-events/how-to/how-to-workflow.md
-                - name: Eventos de negócios e Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: Eventos de negócios e Hubs de Eventos do Azure
-                  href: business-events/how-to/event-hub.md
-                - name: Eventos de negócios no fechamento do período financeiro
-                  href: business-events/how-to/period-close.md
         - name: Entrega contínua
           items:
             - name: Home page da Entrega contínua
@@ -592,11 +556,11 @@
               items:
                 - name: Suporte à linguagem X++
                   items:
-                    - name: Requisitos do Visual Studio 2017 para X++
+                    - name: Requisitos do Visual Studio para X++
                       href: dev-tools/developer-tools-vs2017.md
                     - name: Depurar código X++
                       href: dev-tools/debug-xpp.md
-                    - name: Classes EventHandlerResult em cenários de solicitação ou resposta
+                    - name: Classes de EventHandlerResult em cenários de solicitação ou resposta
                       href: dev-tools/event-handler-result-class.md
                     - name: Escrever lógica comercial usando código-fonte C# e X++
                       href: dev-tools/write-business-logic.md
@@ -606,9 +570,11 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: Propriedades do Explorador de Aplicativos
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: Atributo SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: Referência da linguagem X++
                   items:
-                    - name: Visão geral da Referência da linguagem X++
+                    - name: Visão geral da referência da linguagem X++
                       href: dev-ref/xpp-language-reference.md
                     - name: Variáveis e tipos de dados
                       items:
@@ -1038,6 +1004,10 @@
           items:
             - name: Integração do Microsoft Power Platform com o Finance and Operations
               href: power-platform/overview.md
+            - name: Habilitando a integração do Power Platform
+              href: power-platform/enable-power-platform-integration.md
+            - name: Autenticação e autorização
+              href: power-platform/authentication-and-authorization.md
             - name: Gravação dupla
               items:
                 - name: Home page da gravação dupla
@@ -1084,6 +1054,8 @@
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Editar uma entidade legal após configuração de gravação dupla
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Pausar gravação dupla para manutenção
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: Gerenciamento de erros e notificações de alerta
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Gerenciamento do ciclo de vida de aplicativos
@@ -1174,8 +1146,10 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Solucionar problemas de atualizações de aplicativos do Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Verificar a configuração da gravação dupla nos aplicativos do Finance and Operations e do Dataverse
+                        - name: Verificar a configuração da gravação dupla nos aplicativos do Finance and Operations e no Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Códigos de erro para a verificação de integridade do mapa de tabela
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: Perguntas frequentes sobre gravação dupla
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Entidades virtuais
@@ -1186,12 +1160,52 @@
                   href: power-platform/entity-modeling.md
                 - name: Gerenciamento do ciclo de vida de aplicativos
                   href: power-platform/application-lifecycle-management.md
-                - name: Referência de administração do Finance and Operations e do Dataverse
+                - name: Configurar entidades virtuais do Dataverse
                   href: power-platform/admin-reference.md
+                - name: Habilitar entidades virtuais do Dataverse
+                  href: power-platform/enable-virtual-entities.md
                 - name: Portais do Power Apps com o Finance and Operations
                   href: power-platform/power-portal-reference.md
                 - name: Perguntas frequentes sobre entidades virtuais do Finance and Operations
                   href: power-platform/faq.md
+            - name: Eventos de negócios
+              items:
+                - name: Visão geral sobre eventos de negócios
+                  href: business-events/home-page.md
+                - name: Eventos de negócios de aplicativos
+                  href: business-events/app-business-events.md
+                - name: Eventos de negócios de fluxos de trabalho
+                  href: business-events/business-events-workflow.md
+                - name: Eventos de negócios em lotes
+                  href: business-events/system-business-events.md
+                - name: Alertas como eventos de negócios
+                  href: business-events/alerts-business-events.md
+                - name: Eventos de dados
+                  href: business-events/data-events.md
+                - name: Eventos de negócios no Power Automate
+                  href: business-events/business-events-flow.md
+                - name: Documentação do desenvolvedor de eventos de negócios
+                  href: business-events/business-events-dev-doc.md
+                - name: Solucionar problemas de eventos de negócios
+                  href: business-events/troubleshooting.md
+                - name: Casos de uso de eventos de negócios
+                  href: business-events/potential-use-cases.md
+                - name: Tutoriais
+                  items:
+                    - name: Eventos de negócios e Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: Eventos de negócios e Grade de Eventos do Azure
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: Eventos de negócios e Barramento de Serviço do Azure
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: Eventos de negócios e aprovações de fluxo de trabalho
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: Eventos de negócios e Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: Eventos de negócios e Hubs de Eventos do Azure
+                      href: business-events/how-to/event-hub.md
+                    - name: Eventos de negócios no fechamento do período financeiro
+                      href: business-events/how-to/period-close.md
             - name: Suplementos
               items:
                 - name: Visão geral de suplementos
@@ -1582,11 +1596,13 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: Cancelar um trabalho em lotes em execução
                   href: sysadmin/batch-abort.md
+                - name: OData API de lote
+                  href: sysadmin/batch-odata-api.md
             - name: Assistente de otimização
               items:
-                - name: Visão geral do Supervisor de otimização
+                - name: Visão geral do Assistente de otimização
                   href: sysadmin/optimization-advisor-overview.md
-                - name: Criar regras para o Supervisor de otimização
+                - name: Criar regras para o Assistente de otimização
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Relatar uma interrupção de produção
               href: lifecycle-services/report-production-outage.md

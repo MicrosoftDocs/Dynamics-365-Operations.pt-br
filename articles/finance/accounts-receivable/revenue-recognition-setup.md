@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c395aabfc8705b4713cf1041b5644ac478d8c1a4c4c211334aea3572f1618b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759008"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675169"
 ---
 # <a name="revenue-recognition-setup"></a>Configuração do reconhecimento de receita
 [!include [banner](../includes/banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "6759008"
 Um novo módulo **Reconhecimento de receita** foi adicionado e inclui itens de menu para todas as configurações necessárias. Este tópico descreve as opções de configuração e as implicações referentes a elas.
 
 > [!NOTE]
-> O recurso Reconhecimento de receita não pode ser ativado por meio do Gerenciamento de recursos. No momento, você deve usar as chaves de configuração para ativá-lo.
-
-> O reconhecimento de receita, incluindo a funcionalidade de pacote, não é compatível com o uso em canais do Commerce (comércio eletrônico, PDV, call center). Os itens configurados com reconhecimento de receita não devem ser adicionados a ordens ou transações criadas em canais do Commerce.
+> O recurso Reconhecimento de receita agora está habilitado por padrão pelo Gerenciamento de recursos. Se a sua organização não usar esse recurso, você poderá desativá-lo no espaço de trabalho **Gerenciamento de recursos**.
+>
+> O reconhecimento de receita, incluindo a funcionalidade de pacote, não é compatível com o uso em canais do Commerce (comércio eletrônico, PDV e call center). Os itens que são configurados para o reconhecimento de receita não devem ser adicionados a ordens ou transações que foram criadas nos canais do Commerce.
 
 O módulo **Reconhecimento de receita** apresenta as seguintes opções de configuração:
 
@@ -38,14 +38,18 @@ O módulo **Reconhecimento de receita** apresenta as seguintes opções de confi
 - Configuração do estoque
 
     - Grupos de itens e produtos lançados
-    - Definir a agenda de receita
-    - Definir o preço de receita
+    - Definindo a agenda de receita
+    - Definindo o preço de receita
+    - Configuração do estoque
 
-        - Perfis de lançamentos
-        - Pacotes
+        - Definindo a agenda de receita
+        - Definindo o preço de receita
 
-    - Componentes de pacote
-    - Item de pacote
+    - Perfis de lançamentos
+    - Pacotes
+
+        - Componentes de pacote
+        - Item de pacote
 
 - Configuração de projeto
 
@@ -89,22 +93,29 @@ Insira os valores descritivos nos campos **Agenda de receita** e **Descrição**
 - **Ocorrências** — Insira o número de meses ou de ocorrências em que a receita foi adiada.
 - **Bloqueio automático** — Marque essa caixa de seleção se todas as linhas da agenda de receita forem automaticamente colocadas em espera quando a fatura for lançada. O bloqueio deve ser removido manualmente de cada linha da agenda antes que a receita adiada da linha possa ser reconhecida.
 - **Termos de contrato automático** — Marque essa caixa de seleção se as datas de início e término do contrato forem definidas automaticamente. Essas datas são definidas automaticamente somente para produtos lançados do tipo receita **Suporte pós-contrato**. A data de início do contrato é definida automaticamente como a data de remessa solicitada da linha da ordem de venda, e a data de término do contrato é configurada automaticamente como a data inicial mais o número de meses ou de ocorrências definido na configuração da agenda da receita. Por exemplo, o produto na linha da ordem de venda é para uma garantia de um ano. A agenda de receita padrão é **12M** (12 meses) e a caixa de seleção **Termos de contrato automático** está marcada para essa agenda de receita. Se a linha da ordem de venda tiver uma data de remessa solicitada de 16 de dezembro de 2019, a data de início padrão do contrato é 16 de dezembro de 2019 e a data de término padrão do contrato é 15 de dezembro de 2020.
-- **Base de reconhecimento** — A base de reconhecimento determina como o preço da receita será alocado entre as ocorrências.
+- **Base de reconhecimento** — a base de reconhecimento determina como o preço da receita será alocado entre as ocorrências.
 
-    - **Mensalmente por datas** — O valor é alocado com base nos dias de cada mês.
-    - **Mensal** — O valor é alocado igualmente pelo número de meses definido nas ocorrências.
-    - **Ocorrências** — O valor é alocado igualmente entre as ocorrências, mas pode incluir um período adicional se você selecionar **Data de início real** como convenção de reconhecimento.
+    - **Mensalmente por dias** — o valor é alocado com base nos dias de cada mês do calendário.
+    - **Mensal** — o valor é alocado igualmente pelo número de meses definido nas ocorrências.
+    - **Ocorrências** — o valor é alocado igualmente entre as ocorrências, mas pode incluir um período adicional se você selecionar **Data de início real** como convenção de reconhecimento.
+    - **Período fiscal por dias** — o valor é alocado com base nos dias de cada período fiscal. 
 
-- **Convenção de reconhecimento** — A convenção de reconhecimento determina datas padrão que são definidas na agenda de receita para a fatura.
+    Os resultados de **Mensais por dias** e **Período fiscal por dias** serão os mesmos quando os períodos fiscais seguirem meses do calendário. A única exceção é quando a convenção de reconhecimento é definida como **Fim do mês/período**, e os campos **Data de início do contrato** e **Data de término** são deixados em branco em uma linha da ordem de venda.
 
-    - **Data de início real** — A agenda será criada usando-se a data de início do contrato (para itens de suporte pós-contrato \[PCS\]) ou a data da fatura (para itens e essenciais e não essenciais).
-    - **Primeiro dia do mês** — A data na primeira linha da agenda é a data de início do contrato (ou da fatura). Entretanto, as linhas de agendas subsequentes são criadas para o primeiro dia do mês.
-    - **Divisão do meio do mês** — A data na primeira linha da agenda depende da data da fatura. Se a fatura for lançada na primeira metade do mês, a agenda de receita será criada usando-se o primeiro dia do mês. Se a fatura for lançada na segunda metade do mês, a agenda de receita será criada usando-se o primeiro dia do mês seguinte.
-    - **Primeiro dia do mês seguinte** — A data na agenda é o primeiro dia do mês seguinte.
+- **Convenção de reconhecimento** — a convenção de reconhecimento determina as datas que são definidas na agenda de receita para a fatura.
 
-Selecione o botão **Detalhes da agenda da receita** para visualizar os períodos gerais e as porcentagens reconhecidas em cada período. Por padrão, o valor **Reconhecer porcentagem** é dividido igualmente pelo número de períodos. Se a base de reconhecimento for definida como **Mensal** ou **Ocorrências**, a porcentagem de reconhecimento pode ser alterada. Ao alterar a porcentagem de reconhecimento, uma mensagem de aviso informa que o total não equivale a 100%. Caso receba a mensagem, você pode continuar editando as linhas. No entanto, a porcentagem total deve equivaler a 100 antes de fechar a página.
+    - **Data de início real** — a agenda será criada usando-se a data de início do contrato (para itens de suporte pós-contrato \[PCS\]) ou a data da fatura (para itens essenciais e não essenciais).
+    - **Primeiro dia do mês/período** — a data na primeira linha da agenda é a data de início do contrato (ou da fatura). Entretanto, as linhas de agendas subsequentes são criadas para o primeiro dia do mês ou do período fiscal.
+    - **Divisão do meio do mês** — a data na primeira linha da agenda depende da data da fatura. Se a fatura for lançada na primeira metade do mês, a agenda de receita será criada usando-se o primeiro dia do mês. Se a fatura for lançada na segunda metade do mês, a agenda de receita será criada usando-se o primeiro dia do mês seguinte.
 
-[![Detalhes da agenda de receita.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+        **Divisão do meio do mês** não poderá ser selecionada se a base de reconhecimento for definida como **Período fiscal por dias**.
+
+    - **Primeiro dia do mês/período** — a data na qual agenda começa é o primeiro dia do mês ou do período fiscal seguinte.
+    - **Fim do mês/período** — a data na primeira linha da agenda é a data de início do contrato (ou da fatura). Entretanto, todas as linhas de agenda subsequentes são criadas para o último dia do mês ou do período fiscal. 
+
+Selecione o botão **Detalhes da agenda da receita** para exibir os períodos gerais e as porcentagens reconhecidas em cada período. Por padrão, o valor **Reconhecer porcentagem** é dividido igualmente pelo número de períodos. Se a base de reconhecimento for definida como **Mensal**, a porcentagem de reconhecimento poderá ser alterada. Ao alterar a porcentagem de reconhecimento, uma mensagem de aviso informa que o total não equivale a 100%. Se receber essa mensagem, você poderá continuar editando as linhas. No entanto, a porcentagem total deve equivaler a 100 antes de fechar a página.
+
+[![Detalhes da agenda de receita.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Configuração do estoque
 
