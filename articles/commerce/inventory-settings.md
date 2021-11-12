@@ -2,7 +2,7 @@
 title: Aplicar configurações de estoque
 description: Este tópico abrange as configurações de estoque e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f57f1f941fe0c0c70394d1ecbf8d88a13c7a3682fdfa8b5439a4f3830f616876
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765257"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647575"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configurações de estoque
 
@@ -39,7 +39,7 @@ No construtor de sites do Commerce, os limites de estoque e intervalos podem ser
 
 ## <a name="inventory-settings"></a>Configurações de estoque
 
-No Commerce, as configurações de estoque são definidas em **Configurações do Site \> Extensões \> Gerenciamento de Estoque** no construtor de sites. Há cinco configurações de estoque, uma das quais está obsoleta (preterida):
+No Commerce, as configurações de estoque são definidas em **Configurações do Site \> Extensões \> Gerenciamento de Estoque** no construtor de sites. Há seis configurações de estoque, uma das quais está obsoleta (preterida):
 
 - **Habilitar verificação de estoque no aplicativo** – essa configuração ativa uma verificação de estoque de produto. Os módulos caixa de compras, carrinho e separação na loja verificarão então o estoque do produto e só permitirão que um produto seja adicionado ao carrinho se o estoque estiver disponível.
 - **Nível de estoque baseado em** – essa configuração define como os níveis de estoque são calculados. Os valores disponíveis são **Total Disponível**, **Físico Disponível** e **Limite de esgotado**. No Commerce, o limite e os intervalos de estoque podem ser definidos para cada produto e categoria. As APIs de estoque retornam informações de estoque de produtos para a propriedade **total Disponível** e a propriedade **Físico Disponível**. O varejista decide se o **Total Disponível** ou **Físico Disponível** deve ser usado para determinar a contagem de estoque e os intervalos correspondentes para os status em estoque e esgotado.
@@ -48,8 +48,13 @@ No Commerce, as configurações de estoque são definidas em **Configurações d
 
 - **Nível de estoque para vários depósitos** – esta configuração permite que o nível de estoque seja calculado com relação ao depósito padrão ou a vários depósitos. A opção **Com base em depósito individual** calculará os níveis de estoque com base no depósito padrão. Como alternativa, um site de comércio eletrônico pode apontar para vários depósitos para facilitar o atendimento. Nesse caso, a opção **Baseado em agregado para depósitos de remessa e de retirada** é usada para indicar a disponibilidade de estoque. Por exemplo, quando um cliente compra um item e seleciona "remessa" como o modo de entrega, o item pode ser enviado de qualquer depósito no grupo de atendimento que tem estoque disponível. A página Detalhes do produto (PDP) mostrará uma mensagem "Em estoque" para remessa se qualquer depósito de remessa disponível no grupo de atendimento tiver estoque. 
 
-> [!IMPORTANT] 
-> A configuração **Nível de estoque para vários depósitos** está disponível a partir do Commerce versão 10.0.19. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+    > [!IMPORTANT] 
+    > A configuração **Nível de estoque para vários depósitos** está disponível a partir do Commerce versão 10.0.19. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+- **Configurações de estoque para páginas de lista de produtos** – essa configuração define como os produtos fora de estoque são mostrados em listas de produtos renderizadas por coleção de produtos e módulos de resultados de pesquisa. Os valores disponíveis são **Exibidos em ordem com outros produtos**, **Ocultar produtos fora de estoque da lista** e **Exibir produtos fora de estoque no final da lista**. Para usar essa configuração, primeiro você precisa definir algumas configurações de pré-requisitos no Commerce Headquarters. Para obter mais informações, consulte [Habilitar o reconhecimento de estoque para o módulo de resultados de pesquisa](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+
+    > [!IMPORTANT] 
+    > A configuração **Configurações de estoque para páginas de listagem de produtos** está disponível a partir do Commerce versão 10.0.20. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Intervalos de estoque** – essa configuração define os intervalos de estoque em que a mensagem é mostrada nos módulos de site. Isso só se aplicará se o valor **Total Disponível** ou o valor **Físico Disponível** for selecionado para a configuração **Nível de estoque com base em**. Os valores disponíveis são **Todos**, **Baixo e esgotado** e **Esgotado**.
 

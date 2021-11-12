@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569328"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678680"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Como os trabalhadores usam a interface de execução de piso de produção
 
@@ -93,7 +93,6 @@ A guia **Minha máquina** tem as colunas a seguir. Os números correspondem aos 
 1. **Registrar tempo de inatividade** – selecione este botão para abrir uma caixa de diálogo na qual é possível registrar o tempo de inatividade da máquina. Você poderá selecionar um código de motivo e inserir um período de data/hora para o tempo de inatividade. O registro de tempo de inatividade da máquina é usado para calcular a eficiência do ativo de máquina.
 1. **Exibir ou editar** – selecione este botão para abrir uma caixa de diálogo na qual é possível editar ou exibir registros de tempo de inatividade existentes.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Como iniciar e concluir trabalhos de produção
 
 Os trabalhadores iniciam um trabalho de produção selecionando um trabalho na guia **Todos os trabalhos** e selecionando **Iniciar trabalho** para abrir a caixa de diálogo **Iniciar trabalho**.
@@ -109,6 +108,32 @@ Os trabalhadores podem iniciar um trabalho que esteja em qualquer status. Quando
 Quando um trabalhador concluir ou concluir parcialmente um trabalho, ele poderá relatar as quantidades de mercadorias que foram produzidas selecionando um trabalho na guia **Trabalhos ativos** e selecionando **Progresso do relatório**. Em seguida, na caixa de diálogo **Progresso do relatório**, o trabalhador insere a quantidade de mercadorias usando o teclado numérico. A quantidade está em branco por padrão. Depois que uma quantidade for inserida, o trabalhador poderá atualizar o status do trabalho para *Em andamento*, *Parado* ou *Concluído*.
 
 ![Caixa de diálogo Progresso do relatório.](media/pfei-report-progress-dialog.png "Caixa de diálogo Progresso do relatório")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Relatar quantidades de mercadorias em ordens de lote que têm coprodutos e subprodutos
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+Os trabalhadores podem usar a interface de execução de piso de produção para relatar o progresso das ordens de lote. Isso inclui um relatório sobre coprodutos e subprodutos.
+
+Alguns fabricantes, especialmente nas indústrias de processamento, usam ordens de lote para gerenciar seus processos de produção. As ordens de lote são criadas com base em fórmulas, e essas fórmulas podem ser definidas de modo que tenham coprodutos e subprodutos como saída. Quando comentários sobre essas ordens de lote forem relatados, o valor de saída deverá ser registrado no item de fórmula e também nos coprodutos e subprodutos.
+
+Quando um trabalhador concluir ou concluir parcialmente um trabalho em uma ordem de lote, ele poderá relatar as quantidades de mercadorias ou sucatas de cada produto definido como saída para a ordem. Os produtos definidos como saída para uma ordem de lote podem ser do tipo *Fórmula*, *Coproduto* ou *Subproduto*.
+
+Para relatar quantidades de mercadorias nos produtos, um trabalhador seleciona um trabalho na guia **Trabalhos ativos** e, em seguida, seleciona **Relatar progresso**.
+
+Depois, na caixa de diálogo **Relatar progresso**, o trabalhador pode selecionar entre os produtos definidos como saída para a ordem de lote a ser relatada. Ele pode selecionar um ou vários produtos na lista e, em seguida, selecionar **Relatar progresso**. Para cada produto, a quantidade fica em branco por padrão e o trabalhador pode usar o teclado numérico para inserir a quantidade. Ele pode usar os botões **Anterior** e **Próximo** para mover-se entre os produtos selecionados. Depois que a quantidade for inserida para cada produto, o trabalhador poderá atualizar o status do trabalho para *Em andamento*, *Parado* ou *Concluído*.
+
+![Relatar coprodutos e subprodutos.](media/report-co-by-products.png "Relatar coprodutos e subprodutos")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Relatar ordens de lote para itens de planejamento
+
+Quando um trabalhador concluir um trabalho em uma ordem de lote para um item de planejamento, ele relatará quantidades somente em coprodutos e subprodutos, pois os itens de planejamento não contêm um item do tipo *Fórmula*.
+
+### <a name="reporting-co-product-variation"></a>Relatar variação de coprodutos
+
+Se uma ordem de lote for criada com base em uma versão de fórmula em que a opção **Variações de coprodutos** estiver definida como *Sim*, o trabalhador poderá relatar coprodutos que não fazem parte da definição das ordens de lote. Essa funcionalidade é usada nos cenários em que uma saída de produto inesperada pode ocorrer no processo de produção.
+
+Nesse caso, o trabalhador pode especificar o coproduto e a quantidade a ser relatada selecionando **Variações de coprodutos** na caixa de diálogo Relatar progresso. Em seguida, ele pode selecionar entre todos os produtos lançados definidos como coprodutos.
 
 ## <a name="reporting-scrap"></a>Como relatar sucata
 

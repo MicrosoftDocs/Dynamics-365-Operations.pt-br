@@ -1,7 +1,7 @@
 ---
 title: Contas de lançamento de aquisição de ativo fixo
-description: Este artigo explica como configurar a contabilidade para lançar a aquisição de ativos.
-author: ShylaThompson
+description: Este artigo explica como configurar a Contabilidade para lançar a aquisição de ativos.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f2e87404fb7ae6439c2e04dc2ca5e369a58d87ba7743252586620111cfa6ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7718ab6ad40dd135a79d2d07def19465aef68b33
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714463"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675015"
 ---
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Contas de lançamento de aquisição de ativo fixo
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo explica como configurar a contabilidade para lançar a aquisição de ativos.
+Este artigo explica como configurar a Contabilidade para lançar a aquisição de ativos.
 
 As contas usadas para lançamento de aquisições de ativo fixo podem variar dependendo do método usado para a aquisição do ativo. Na página Perfis de lançamentos de ativo fixo, na guia Contas contábeis, selecione Aquisição e Ajuste de aquisição para configurar as contas de ativo fixo para lançamento no razão. 
 

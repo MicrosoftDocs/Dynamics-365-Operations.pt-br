@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579751"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678656"
 ---
 # <a name="manage-standard-cost-updates"></a>Gerenciamento de atualizações de custo padrão
 
@@ -43,8 +43,6 @@ O exemplo a seguir ilustra como as abordagens de uma versão e de duas versões 
 Este exemplo usou uma versão de avaliação de custo adicional para gerenciar atualizações durante o ano de 2020. Mais de uma versão de custo adicional pode ser usada, como uma versão separada para cada lote de atualizações. Quando mais de uma avaliação de custo adicional forem usadas, o fallback deve ser expresso como os custos ativos, pois os custos ativos são difundidos em diversas versões de avaliação de custos.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Dimensões financeiras para a reavaliação de custo padrão
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 A ativação de um novo preço padrão geralmente reavalia o valor de estoque disponível por transações de reavaliação de custo padrão. Normalmente, as dimensões financeiras do item são lançadas nas transações. No entanto, se quiser controlar se e como as dimensões financeiras são lançadas, use o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso chamado *Opções de dimensões financeiras de uso padrão para reavaliação de custo padrão de estoque*. Depois de habilitar esse recurso, acesse **Gerenciamento de custos > Configuração das políticas contábeis de estoque > Parâmetros** e defina a nova lista suspensa **Origem de dimensão financeira** com um dos seguintes valores:
 

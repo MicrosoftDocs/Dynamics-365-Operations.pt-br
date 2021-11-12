@@ -2,7 +2,7 @@
 title: Visão geral de trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612355"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675360"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -68,6 +68,9 @@ Quando você seleciona uma entidade, é necessário selecionar o formato de dado
 | Excel                  | Excel                                      | \-NA-                     |
 | XML                    | \-NA-                                      | Elemento XML Atributo XML |
 | Delimitado, largura fixa | Vírgula, ponto e vírgula, guia, barra vertical, dois pontos | \-NA-                     |
+
+> [!NOTE]
+> É importante selecionar o valor correto para **Delimitador de linha**, **Delimitador de coluna** e **Qualificador de texto**, se a opção **Formato de arquivo** estiver definida como **Delimitado**. Verifique se os dados não contêm o caractere usado como delimitador ou qualificador, pois isso pode resultar em erros durante a importação e a exportação.
 
 ### <a name="sequence-the-entities"></a>Definir sequências das entidades
 As entidades podem ser sequenciadas em um modelo de dados, ou em trabalhos de importação e exportação. Quando você executa um trabalho que contém mais de uma entidade de dados, você deve garantir que as entidades de dados estão sequenciadas corretamente. Você define a sequência, de forma que possa tratar todas as dependências funcionais entre entidades. Se as entidades se não tiverem dependências funcionais, elas podem ser programadas para importação ou exportação paralela.
@@ -160,7 +163,7 @@ Para acelerar a importação de dados, o processamento paralelo da importação 
 
     - No campo **Entidade**, selecione a entidade legal.
     - No campo **Contagem de registros do limite de importação**, insira a contagem de registros de limite para a importação. Isso determina a contagem de registros a ser processada por um thread. Se um arquivo tiver 10 mil registros, uma contagem de registros equivalente a 2500 com uma contagem de tarefas igual a 4 indica que cada thread processará 2500 registros.
-    - No campo **Contagem de tarefas de importação**, insira a contagem de tarefas de importação. Isto não deve ultrapassar o máximo de segmentos de lote alocados para o processamento em lote em **Administração do sistema \> Configuração do servidor**.
+    - No campo **Contagem de tarefas de importação**, insira a contagem de tarefas de importação. Isto não deve ultrapassar o máximo de segmentos de lote alocados para o processamento em lote em **Administração do sistema\>Configuração do servidor**.
 
 ## <a name="job-history-clean-up"></a>Limpeza do histórico de trabalhos 
 A funcionalidade de limpeza de histórico de trabalho no gerenciamento de dados deve ser usada para agendar uma limpeza periódica do histórico de execução. Esta funcionalidade substitui a funcionalidade de limpeza da tabela de preparo anterior, que agora é obsoleta. As tabelas a seguir serão limpadas pelo processo de limpeza.

@@ -2,7 +2,7 @@
 title: Suporte ao recurso de imposto para a ordens de transferência
 description: Este tópico explica o novo suporte a recursos de imposto para ordens de transferência usando o serviço de cálculo de imposto.
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500067"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647704"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Suporte ao recurso de imposto para a ordens de transferência
 
@@ -31,7 +31,7 @@ Este tópico fornece informações sobre cálculo de impostos e integração de 
 Para configurar e usar esse recurso, você deve seguir três etapas principais:
 
 1. **Configuração do RCS:** no serviço de configuração regulatória, defina o recurso de imposto, os códigos de imposto e a aplicabilidade dos códigos de imposto para determinar o código de imposto em ordens de transferência.
-2. **Configuração de finanças:** no Microsoft Dynamics 365 Finance, ative o recurso **Imposto em ordem de transferência**, configure os parâmetros do serviço de imposto do estoque e defina os principais parâmetros de imposto.
+2. **Configuração do Dynamics 365 Finance:** no Finance, habilite o recurso **Imposto em ordem de transferência**, configure os parâmetros do serviço de cálculo de imposto para estoque e defina os principais parâmetros de imposto.
 3. **Configuração de estoque:** defina a configuração de estoque para transações de ordem de transferência.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Configurar o RCS para transações de ordem de transferência e imposto
@@ -39,8 +39,6 @@ Para configurar e usar esse recurso, você deve seguir três etapas principais:
 Siga estas etapas para configurar o imposto envolvido em uma ordem de transferência. No exemplo mostrado, a ordem de transferência é dos Países Baixos para a Bélgica.
 
 1. Na página **Recursos de impostos**, na guia **Versões**, selecione o rascunho da versão do recurso e selecione **Editar**.
-
-    ![Depois de selecionar Editar.](../media/tax-feature-support-01.png)
 
 2. Na página **Configuração dos recursos de impostos**, na guia **Códigos de impostos**, selecione **Adicionar** para criar códigos de impostos. Nesse exemplo, três códigos de imposto são criados: **NL-Exempt**, **BE-RC-21** e **BE-RC+21**.
 
@@ -51,9 +49,8 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
         2. Selecione **Por valor líquido** no campo **Componente de imposto**.
         3. Selecione **Salvar**.
         4. Selecione **Adicionar** na tabela **Taxa**.
-        5. Altere o campo **É Isento** para **Sim** na seção **Geral**.
-
-           ![Código de imposto NL-Exempt.](../media/tax-feature-support-02.png)
+        5. Defina **É Isento** como **Sim** na seção **Geral**.
+        6. No campo **Código de Isenção**, insira **EC**.
 
     - Quando uma ordem de transferência é recebida em um depósito na Bélgica, o mecanismo de cobrança revertido é aplicado usando os códigos de imposto **BE-RC-21** e **BE-RC+21**.
         
@@ -63,10 +60,8 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
         3. Selecione **Salvar**.
         4. Selecione **Adicionar** na tabela **Taxa**.
         5. Insira **-21** no campo **Taxa tributária**.
-        6. Altere o campo **É Encargo Reverso** para **Sim** na seção **Geral**.
+        6. Defina **É Encargo Reverso** como **Sim** na seção **Geral**.
         7. Selecione **Salvar**.
-
-           ![Código de imposto BE-RC-21 para cobranças revertidas.](../media/tax-feature-support-03.png)
         
         Crie o código de imposto **BE-RC+21**.
         1. Selecione **Adicionar**, insira o código **BE-RC-21** no campo **Código de imposto**.
@@ -76,16 +71,26 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
         5. Insira **21** no campo **Taxa tributária**.
         6. Selecione **Salvar**.
 
-           ![Código de imposto BE-RC+21 para cobranças revertidas.](../media/tax-feature-support-04.png)
-
-3. Defina a aplicabilidade dos códigos de imposto.
+3. Defina o grupo de impostos.
+    1. Selecione **Gerenciar colunas** e, em seguida, selecione o campo de linha **Grupo de Impostos**.
+    2. Selecione **->** e, em seguida, selecione **OK**.
+    3. Selecione **Adicionar** para adicionar um grupo de impostos.
+    4. Na coluna **Grupo de Impostos**, insira **AR-EU** e selecione o código de imposto **Isento de NL**.
+    5. Selecione **Adicionar** para adicionar um grupo de impostos.
+    6. Na coluna **Grupo de Impostos**, insira **RC-VAT** e selecione os códigos de imposto **BE-RC-21** e **BE-RC+21**.
+4. Defina o Grupo de impostos do item.
+    1. Selecione **Gerenciar colunas** e, em seguida, selecione o campo de linha **Grupo de Impostos do Item**.
+    2. Selecione **->** e, em seguida, selecione **OK**.
+    3. Selecione **Adicionar** para adicionar um grupo de impostos de item.
+    4. Insira **CHEIO** na coluna **Grupo de Impostos do Item**. Selecione os códigos de imposto **BE-RC-21**, **BE-RC+21** e **Isento de NL**.
+5. Defina a aplicabilidade do grupo de impostos.
 
     1. Selecione **Gerenciar colunas** e selecione as colunas que devem ser usadas para criar a tabela de aplicabilidade.
 
         > [!NOTE]
         > Adicionar as colunas **Processo comercial** e **Direções de imposto** à tabela. As duas colunas são essenciais para a funcionalidade do imposto em ordens de transferência.
 
-    2. Inclua regras de aplicabilidade. Não deixe os campos **Códigos de imposto**, **Grupo de impostos** e **Grupo de impostos sobre o item** em branco.
+    2. Inclua regras de aplicabilidade. Não deixe o campo **Grupo de impostos** em branco.
         
         Inclua uma nova regra para a remessa da ordem de transferência.
         1. Selecione **Adicionar** na tabela **Regras de aplicabilidade**.
@@ -93,8 +98,7 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
         3. No campo **Enviar do país/região**, insira **NLD**.
         4. No campo **Enviar para país/região**, insira **BEL**.
         5. No campo **Direção de imposto**, selecione **Saída** para tornar a regra aplicável à remessa da ordem de transferência.
-        6. No campo **Códigos de imposto**, selecione **NL-Exempt**.
-        7. No campo **Grupo de impostos** e no **Grupo de impostos sobre o item**, insira o grupo de impostos sobre vendas relacionado e o grupo de impostos sobre vendas do item que são definidos no seu sistema financeiro.
+        6. No campo **Grupo de Impostos**, selecione **AR-EU**.
         
         Inclua outra regra para o recebimento da ordem de transferência.
         
@@ -103,45 +107,48 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
         3. No campo **Enviar do país/região**, insira **NLD**.
         4. No campo **Enviar para país/região**, insira **BEL**.
         5. No campo **Direção de imposto**, selecione **Entrada** para tornar a regra aplicável ao recebimento da ordem de transferência.
-        6. No campo **Códigos de imposto**, selecione **BE-RC+21** e **BE-RC-21**.
-        7. No campo **Grupo de impostos** e no **Grupo de impostos sobre o item**, insira o grupo de impostos sobre vendas relacionado e o grupo de impostos sobre vendas do item que são definidos no seu sistema financeiro.
+        6. No campo **Grupo de Impostos**, selecione **RC-VAT**.
 
-           ![Regras de aplicabilidade.](../media/image5.png)
+6. Defina a aplicabilidade do grupo de impostos de item.
 
-4. Conclua e publique a nova versão do recurso de imposto.
+    1. Selecione **Gerenciar colunas** e selecione as colunas que devem ser usadas para criar a tabela de aplicabilidade.
+    2. Inclua regras de aplicabilidade. Não deixe o campo **Grupo de Impostos do Item** em branco.
+        
+        Inclua uma nova regra para a remessa e recebimento da ordem de transferência.
+        1. Na página **Regras de aplicabilidade**, selecione **Adicionar**.
+        2. No campo **Processo comercial**, selecione **Estoque** para tornar a regra aplicável para a ordem de transferência.
+        3. No campo **Grupo de Impostos do Item**, selecione **COMPLETO**.
+7. Conclua e publique a nova versão do recurso de imposto.
 
-    [![Alteração do status da nova versão.](../media/image6.png)](../media/image6.png)
 
-## <a name="set-up-finance-for-transfer-order-transactions"></a>Configure as Finanças para transações de ordem de transferência e imposto
+## <a name="set-up-finance-for-transfer-order-transactions"></a>Configure o Finance para transações de ordem de transferência e imposto
 
 Siga estas etapas para habilitar e configurar os impostos para ordens de transferência.
 
-1. Em Finanças, acesse **Espaços de trabalho** > **Gerenciamento de recursos**.
+1. No Finance, acesse **Espaços de trabalho** > **Gerenciamento de recursos**.
 2. Na lista, localize e selecione o recurso **Imposto em ordem de transferência** e selecione **Habilitar agora** para ativá-lo.
 
     > [!IMPORTANT]
-    > O recurso **Imposto em ordem de transferência** depende totalmente do serviço de imposto. Portanto, ele pode ser ativado somente após a instalação do serviço de imposto.
+    > O recurso **Imposto em ordem de transferência** depende totalmente do serviço de cálculo de imposto. Portanto, ele só poderá ser ativado após a instalação do serviço de cálculo de imposto.
 
     ![Recurso de impostos em ordem de transferência.](../media/image7.png)
 
-3. Habilite o serviço de imposto e selecione o processo comercial **Estoque**.
+3. Habilite o serviço de cálculo de imposto e selecione o processo comercial **Estoque**.
 
     > [!IMPORTANT]
-    > Você deve concluir esta etapa para cada entidade legal no departamento financeiro em que deseja que o serviço de imposto e a funcionalidade do imposto sobre as ordens de transferência estejam disponíveis.
+    > Você deve concluir esta etapa para cada entidade legal no Finance em que deseja que o serviço de cálculo de imposto e a funcionalidade do imposto sobre as ordens de transferência estejam disponíveis.
 
-    1. Acesse **Imposto** > **Configuração** > **Configuração do imposto** > **Configuração do serviço de imposto**.
+    1. Acesse **Imposto** > **Configuração** > **Configuração de imposto** > **Parâmetros de cálculo de imposto**.
     2. No campo **Processo comercial**, selecione **Estoque**.
-
-      ![Configuração do campo Processo comercial.](../media/image8.png)
 
 4. Verifique se o mecanismo de reversão da cobrança está configurado. Acesse **Contabilidade** \> **Configuração** \> **Parâmetros** e, na guia **Reverter cobrança**, verifique se a opção **Habilitar a reversão da cobrança** está definida para **Sim**.
 
     ![Habilite a opção de reversão da cobrança.](../media/image9.png)
 
-5. Verifique se os códigos de imposto relacionados, grupos de impostos, grupos de impostos do item e números de registro do IVA foram configurados em Finanças de acordo com a orientação do serviço de imposto.
+5. Verifique se os códigos de imposto relacionados, grupos de impostos, grupos de impostos do item e números de registro do IVA foram configurados no Finance de acordo com a orientação do serviço de cálculo de imposto.
 6. Configure uma conta de trânsito provisória. Essa etapa é necessária apenas quando o imposto aplicado a uma ordem de transferência não é aplicável a um mecanismo isento de imposto ou de cobrança revertida.
 
-    1. Acesse **Imposto** > **Configuração** > **Imposto** \ **Grupos de lançamento do razão**.
+    1. Acesse **Imposto** > **Configuração** > **Imposto** > **Grupos de lançamento do razão**.
     2. No campo **Trânsito provisório**, selecione uma conta contábil.
 
        ![Selecionar uma conta de trânsito provisória.](../media/image10.png)

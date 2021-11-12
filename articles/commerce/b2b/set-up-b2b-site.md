@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720998"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713739"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Configurar um site de comércio eletrônico B2B
 
@@ -37,7 +37,7 @@ Sites de comércio eletrônico B2B (entre empresas) fornecem alguns recursos imp
 
 É possível acessar as configurações no nível do site no construtor de sites, em **Configurações do site \> Extensões**. As duas configurações no nível do site a seguir aplicam-se a cenários B2B:
 
-- **Habilitar pagamentos da conta de cliente** – Essa propriedade permite que os usuários paguem pelas ordens usando contas de cliente. Os valores disponíveis são **Habilitado para clientes B2B**, **Habilitado para clientes B2C**, **Habilitado para todos os clientes** e **Desabilitado para todos os clientes**. Se o site B2B oferecer suporte a contas de cliente, você deverá selecionar **Habilitado para clientes B2C**.
+- **Habilitar pagamentos da conta de cliente** – Essa propriedade permite que os usuários paguem pelas ordens usando contas de cliente. Os valores disponíveis são **Habilitado para clientes B2B**, **Habilitado para clientes B2C**, **Habilitado para todos os clientes** e **Desabilitado para todos os clientes**. Se o site B2B oferecer suporte a contas de cliente, você deverá selecionar **Habilitado para clientes B2B**.
 - **Habilitar limites de quantidade da ordem** – Essa propriedade permite definir limites no número de itens que podem ser pedidos para cada produto ou categoria. Os valores disponíveis são **Habilitado para clientes B2B**, **Habilitado para clientes B2C**, **Habilitado para todos os clientes** e **Desabilitado para todos os clientes**.
 
 > [!NOTE]

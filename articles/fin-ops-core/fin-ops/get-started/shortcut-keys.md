@@ -2,7 +2,7 @@
 title: Atalhos de teclado
 description: Este tópico fornece uma visão geral das combinações de teclas de atalho que você pode usar ao trabalhar com aplicativos do Finance and Operations.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743162"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647527"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Os atalhos de teclado a seguir podem ajudá-lo e inserir vários dados com rapidez e eficiência em aplicativos do Finance and Operations.
 
@@ -147,15 +148,16 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Executar a ação padrão em uma grade<blockquote>[!NOTE] Este atalho será habilitado quando o foco estiver em uma célula que contenha um hiperlink e todas as células nessa coluna tiverem hiperlinks.</blockquote> | Inserir                           |
 | Alterna o foco entre a linha selecionada e a linha do cabeçalho                                                               | Alt+Shift+H                     |
 | Torna a coluna atual maior/menor (com foco na linha do cabeçalho)                                                  | Seta para a direita/Seta para esquerda        |
-| Abrir a filtragem de grade para a coluna atual (com foco na linha do cabeçalho)                                              | Inserir                           |
+| Abrir a filtragem de grade para a coluna atual (com foco na linha do cabeçalho)                                              | Enter                           |
+| Redimensionar a coluna atual para ajustar o conteúdo (com foco na linha de cabeçalho)                                           | A                               |
 
 ## <a name="input-control-shortcuts"></a>Atalhos do controle de entrada
 
-| Para                                                                   | Pressione                         |
+| Para                                                                   | Pressionar                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Abrir o hiperlink                                                           | Ctrl+Enter                    |
-| Inserir a data da sessão em um campo de data                                       | D                         |
-| Inserir a data atual em um campo de data                                       | F                         |
+| Inserir a data da sessão em um campo de data                                       | D                             |
+| Inserir a data atual em um campo de data                                       | F                             |
 | Abrir a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa                         | Alt+Seta para baixo                |
 | Fechar a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa                        | Esc                           |
 | Mover o foco para uma pesquisa (quando a pesquisa já estiver aberta)                   | Alt+Seta para baixo                |
@@ -202,8 +204,8 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Use a ferramenta Mover (quando estiver no modo de personalização)                                                                       | M                                   |
 | Selecionar o controle atual como aquele para mover-se (ao usar a ferramenta Mover e nenhum controle foi selecionado ainda para mover-se)  | Espaço ou Enter                      |
 | Desmarcar o controle para mover-se (ao usar a ferramenta Mover)                                                                   | Esc                                 |
-| Mover para a próxima posição do controle selecionado (ao usar a ferramenta Mover)                                          | Guia ou Seta para a direita ou Seta para baixo    |
-| Mover para a posição anterior do controle selecionado (ao usar a ferramenta Mover)                                      | Shift+Tab ou Seta para a esquerda ou Seta para cima |
+| Mover o controle selecionado para a próxima posição (ao usar a ferramenta Mover)                                              | Guia ou Seta para a direita ou Seta para baixo    |
+| Mover o controle selecionado para a posição anterior (ao usar a ferramenta Mover)                                          | Shift+Tab ou Seta para a esquerda ou Seta para cima |
 | Use a ferramenta Ocultar (quando estiver no modo de personalização)                                                                       | H                                   |
 | Alternar se o controle atual é visível ou ocultar (ao usar a ferramenta Ocultar)                                     | Espaço ou Enter                      |
 | Usar a ferramenta Ignorar (quando estiver no modo de personalização)                                                                       | K                                   |

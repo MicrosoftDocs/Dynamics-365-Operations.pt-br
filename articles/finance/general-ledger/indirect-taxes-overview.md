@@ -1,7 +1,7 @@
 ---
 title: Visão geral de imposto
 description: Este tópico fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto.
-author: ShylaThompson
+author: kailiang
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18b5103c78234b0470fa7255e6987b57e82248ff4b7879d795f405fa021d2a91
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aa1f3f261459bca9321e0f71ac328ac0734b96f
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715085"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726826"
 ---
 # <a name="sales-tax-overview"></a>Visão geral de imposto
 

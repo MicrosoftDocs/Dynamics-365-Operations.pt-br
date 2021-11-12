@@ -1,7 +1,7 @@
 ---
-title: Recalcular os custos e valores segurados para grupos de ativos fixos
-description: Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
-author: ShylaThompson
+title: Recalcular custos de substituição e valores segurados para grupos de ativos fixos
+description: Este tópico explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
+author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,21 @@ ms.reviewer: roschlom
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 074a976e3d815211f4a4fe24268ffc7ac7e9c4f4b4449167d288876a93749e1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763133"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674867"
 ---
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalcular os custos e valores segurados para grupos de ativos fixos
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalcular custos de substituição e valores segurados para grupos de ativos fixos
 
 [!include [banner](../includes/banner.md)]
 
-Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
+Este tópico explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
 
 Periodicamente, você pode ser notificado que o custo para substituir ou segurar ativos fixos específicos foi alterado. Por exemplo, seu gerente pode informar que a inflação foi de 3 por cento no ano passado, então você terá de aumentar o custo de substituição em 3 por cento para todos os ativos fixos. 
 

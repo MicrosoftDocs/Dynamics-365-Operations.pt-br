@@ -2,7 +2,7 @@
 title: Destinos de Relatório eletrônico (ER)
 description: Este tópico fornece informações sobre o gerenciamento de destinos de relatório eletrônico, os tipos de destinos com suporte e considerações de segurança.
 author: nselin
-ms.date: 05/19/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743302"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647084"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de Relatório eletrônico (ER)
 
@@ -28,7 +28,7 @@ ms.locfileid: "6743302"
 
 Você pode configurar uma meta para cada configuração de formato de relatório eletrônico (ER)e seu componente de saída (uma pasta ou um arquivo). Os usuários que têm direitos de acesso apropriados também podem modificar configurações de destino em tempo de execução. Este tópico explica o gerenciamento de destinos de ER, os tipos de destinos que têm suporte e considerações de segurança.
 
-As configurações de formato de ER geralmente contêm pelo menos um componente de saída: um arquivo. Normalmente, as configurações contêm vários componentes de saída de arquivos de diferentes tipos (por exemplo, XML, TXT, XLSX, DOCX ou PDF) que são agrupados em uma única pasta ou em várias pastas. Gerenciamento de destino do ER permite pré-configurar o que ocorre quando cada componente é executado. Por padrão, quando uma configuração é executada, aparece uma caixa de diálogo que permite salvar ou abrir o arquivo. O mesmo comportamento também ocorre quando você importa uma configuração de ER e não configura destinos específicos para ele. Após a criação de um destino para um componente de saída principal, esse destino substitui o comportamento padrão e a pasta ou o arquivo é enviado de acordo com as configurações do destino.
+As configurações de formato de ER geralmente contêm pelo menos um componente de saída: um arquivo. Normalmente, as configurações contêm vários componentes de saída de arquivos de diferentes tipos (por exemplo, XML, TXT, XLSX, DOCX ou PDF) que são agrupados em uma única pasta ou em várias pastas. Gerenciamento de destino do ER permite pré-configurar o que ocorre quando cada componente é executado. Por padrão, quando uma configuração é executada, aparece uma caixa de diálogo que permite salvar ou abrir o arquivo. O mesmo comportamento também ocorre quando você importa uma configuração ER e não configura destinos específicos para ele. Após a criação de um destino para um componente de saída principal, esse destino substitui o comportamento padrão e a pasta ou o arquivo é enviado de acordo com as configurações do destino.
 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilidade e pré-requisitos gerais
 
@@ -49,7 +49,7 @@ Também existe um tipo de destino [Impressão](er-destination-type-print.md). Pa
 
 ## <a name="overview"></a>Visão geral
 
-Você pode configurar destinos somente para as configurações de ER [importadas](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) para a instância atual do Finance e para os formatos disponíveis na página **Configurações de Relatórios eletrônicos**. A funcionalidade de gerenciamento de destino de ER está disponível em **Administração da organização** \> **Relatório eletrônico** \> **Destino de relatório eletrônico**.
+Você pode configurar destinos somente para as configurações ER [importadas](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) para a instância atual do Finance e para os formatos disponíveis na página **Configurações de Relatórios eletrônicos**. A funcionalidade de gerenciamento de destino de ER está disponível em **Administração da organização** \> **Relatório eletrônico** \> **Destino de relatório eletrônico**.
 
 ### <a name="default-behavior"></a>Comportamento padrão
 
@@ -109,7 +109,7 @@ No momento, os destinos a seguir são aceitos para os formatos de ER. Você pode
 
 ## <a name="applicability"></a>Aplicabilidade
 
-Você pode configurar destinos somente para configurações de ER que foram importadas e para os formatos que estão disponíveis na página **Configurações de relatório eletrônicas**.
+Você pode configurar destinos somente para configurações ER que foram importadas e para os formatos que estão disponíveis na página **Configurações de relatório eletrônicas**.
 
 > [!NOTE]
 > Os destinos configurados são específicos da empresa. Se você planeja usar um formato de ER em diferentes empresas da instância atual do Finance, deve configurar destinos para esse formato de ER para cada uma dessas empresas.
@@ -164,12 +164,12 @@ Para disponibilizar a opção de conversão em PDF na instância atual do Financ
 
 ### <a name="applicability"></a>Aplicabilidade
 
-A opção de conversão em PDF pode ser ativada somente para componentes de arquivo usados para gerar saída em formato do Office (Excel ou Word) (**arquivo do Excel**). Quando esta opção está ativada, a saída gerada no formato do Office é convertida automaticamente para o formato PDF. Nas versões do Finance **antes da versão 10.0.18**, você pode ativar essa opção somente para componentes do tipo **Excel\\Arquivo**, usados para gerar saída no formato do [Excel](er-fillable-excel.md) ou do [Word](er-design-configuration-word.md). No entanto, na **versão 10.0.18 e posterior**, também é possível ativar essa opção para componentes do tipo **Arquivo\\Comum**.
+Nas versões do Finance **antes da versão 10.0.18**, a opção de conversão do PDF pode ser ativada apenas para componentes **Excel\\Arquivo** usados para gerar saída no formato do Office (Excel ou Word). Quando esta opção está ativada, a saída gerada no formato do Office é convertida automaticamente para o formato PDF. No entanto, na **versão 10.0.18 e posterior**, também é possível ativar essa opção para componentes do tipo **Arquivo\\Comum**.
 
 > [!NOTE]
 > Preste atenção à mensagem de aviso recebida ao ativar a opção de conversão em PDF para um componente ER do tipo **Arquivo\\Comum**. Esta mensagem informa que não há como garantir, em tempo de design, que o componente de arquivo selecionado exporá o conteúdo no formato PDF ou o conteúdo convertido por PDF no runtime. Portanto, você deve ativar a opção somente se tiver certeza de que o componente de arquivo selecionado foi configurado para expor o conteúdo no formato PDF ou o conteúdo convertido em PDF no runtime.
 > 
-> Se você ativar a opção de conversão de PDF para um componente do tipo **Excel\\Arquivo**, se esse componente expuser conteúdo em um formato diferente de PDF, e se o conteúdo exposto não puder ser convertido em formato PDF, ocorrerá uma exceção no runtime. A mensagem recebida informa que o conteúdo gerado não pode ser convertido para o formato PDF.
+> Se você ativar a opção de conversão de PDF para um componente do formato, se esse componente expuser conteúdo em um formato diferente de PDF, e se o conteúdo exposto não puder ser convertido em formato PDF, ocorrerá uma exceção no runtime. A mensagem recebida informa que o conteúdo gerado não pode ser convertido para o formato PDF.
 
 ### <a name="limitations"></a>Limitações
 
@@ -189,16 +189,26 @@ Para ativar a conversão em PDF para um destino de arquivo, marque a caixa de se
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Selecione uma orientação de página para conversão em PDF</a>
 
-Se você gerar uma configuração ER no formato Excel e quiser convertê-la em formato PDF, poderá especificar a orientação de página do documento PDF. Quando você marca a caixa de seleção **Converter para PDF** para ativar a conversão em PDF para um arquivo de destino que produz um arquivo de saída no formato Excel, o campo **Orientação da página** fica disponível na página **Configurações de conversão para PDF**. No campo **Orientação da página**, você pode selecionar a orientação de sua preferência.
+Se você gerar uma configuração ER no formato Excel e quiser convertê-la em formato PDF, poderá especificar explicitamente a orientação de página do documento PDF. Quando você marca a caixa de seleção **Converter para PDF** para ativar a conversão em PDF para um arquivo de destino que produz um arquivo de saída no formato Excel, o campo **Orientação da página** fica disponível na página **Configurações de conversão para PDF**. No campo **Orientação da página**, você pode selecionar a orientação de sua preferência.
 
 [![Selecionando uma orientação de página para conversão em PDF.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-> [!NOTE]
-> Para ter a opção de selecionar a orientação da página PDF, você deve instalar o Finance versão 10.0.10 ou posterior.
->
-> A orientação de página selecionada é aplicada a todas as configurações ER geradas no formato Excel e, em seguida, convertidas para o formato PDF.
->
-> Se uma uma configuração ER no formato Word for convertida para o formato PDF, a orientação de página do documento PDF será baseada do documento do Word.
+Para ter a opção de selecionar a orientação da página PDF, instale o Finance versão 10.0.10 ou posterior. Nas versões do Finance **antes da versão 10.0.23**, essa opção oferece as seguintes opções de orientação de página:
+
+- Retrato
+- Paisagem
+
+A orientação de página selecionada é aplicada a todas as páginas de um documento de saída gerado no formato Excel e, em seguida, convertidas para o formato PDF.
+
+No entanto, na **versão 10.0.23 e posterior**, a lista de opções de orientação de página foi estendida da seguinte maneira:
+
+- Retrato
+- Paisagem
+- Específico da planilha
+
+Quando você seleciona a opção **Específico para a planilha**, todas as planilhas de uma pasta de trabalho do Excel gerada são convertidas para PDF usando a orientação de página configurada para essa planilha no modelo usado no Excel. Portanto, você pode ter um documento PDF final contendo página com orientação retrato e paisagem. 
+
+Se uma configuração ER no formato Word for convertida para o formato PDF, a orientação de página do documento PDF será sempre baseada do documento do Word.
 
 ## <a name="output-unfolding"></a>Desdobramento de saída
 
@@ -210,11 +220,11 @@ Para tornar a opção de desdobramento de saída disponível na atual instância
 
 ### <a name="applicability"></a>Aplicabilidade
 
-A opção de desdobramento de saída pode ser configurada somente para os componentes de formato do tipo **Pasta**. Quando você começa a configurar um componente **Pasta**, a FastTab **Geral** fica disponível na página **Destino do relatório eletrônico**. 
+A opção de desdobramento de saída pode ser configurada somente para os componentes de formato do tipo **Pasta**. Quando você começa a configurar um componente **Pasta**, a Guia Rápida **Geral** fica disponível na página **Destino do relatório eletrônico**. 
 
 ### <a name="use-the-output-unfolding-option"></a>Usar a opção de desdobramento de saída
 
-Na FastTab **Geral**, no campo **Enviar pasta como**, selecione um dos seguintes valores:
+Na Guia Rápida **Geral**, no campo **Enviar pasta como**, selecione um dos seguintes valores:
 
 - **Arquivo ZIP** – entrega um arquivo gerado como um arquivo zip.
 - **Arquivos separados** – entrega cada arquivo de um arquivo zip gerado como um arquivo individual.
@@ -258,11 +268,11 @@ O destino do **Arquivo** é usado para controlar uma caixa de diálogo do navega
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Pode dar um exemplo de fórmula que se refere a uma conta de fornecedor que eu possa enviar e-mail para?
 
-A fórmula é específica da configuração de ER. Por exemplo, se você usa a configuração de transferência de crédito ISO 20022, você pode usar **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID** ou **model.Payments.Creditor.Identification.SourceID** para obter uma conta de fornecedor associada.
+A fórmula é específica da configuração ER. Por exemplo, se você usa a configuração de transferência de crédito ISO 20022, você pode usar **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID** ou **model.Payments.Creditor.Identification.SourceID** para obter uma conta de fornecedor associada.
 
 ### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-grouped-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Uma das minhas configurações de formato contém vários arquivos agrupados em uma pasta (por exemplo, Pasta1 contém Arquivo1, Arquivo2 e Arquivo3). Como posso configurar destinos de forma que a Pasta1.zip não seja criada, o Arquivo1 seja enviado por email, o Arquivo2 seja enviado ao SharePoint e eu possa abrir o Arquivo3 logo depois que a configuração for executada?
 
-O formato deve estar disponível primeiro nas configurações de ER. Se esse pré-requisito for atendido, abra a página **Destino de relatório eletrônico** e crie uma nova referência para a configuração. Em seguida, você deve ter quatro destinos de arquivo, um para cada componente de saída. Crie o destino do arquivo primeiro, dê a ele um nome como **Pasta** e selecione um nome de arquivo que representa uma pasta na sua configuração. Depois, selecione **Configurações** e certifique-se de que todos os destinos estão desabilitados. Para este destino do arquivo, a pasta não será criada. Por padrão, por causa das dependências hierárquicas entre os arquivos e pastas pai, os arquivos irão se comportar da mesma maneira. Em outras palavras, eles não serão enviados em qualquer lugar. Para substituir esse comportamento padrão, você deve criar três destinos mais de arquivo, um para cada arquivo. Nas configurações de destino de cada um, você deve habilitar o destino em que o arquivo deve ser enviado para.
+O formato deve estar disponível primeiro nas configurações ER. Se esse pré-requisito for atendido, abra a página **Destino de relatório eletrônico** e crie uma nova referência para a configuração. Em seguida, você deve ter quatro destinos de arquivo, um para cada componente de saída. Crie o destino do arquivo primeiro, dê a ele um nome como **Pasta** e selecione um nome de arquivo que representa uma pasta na sua configuração. Depois, selecione **Configurações** e certifique-se de que todos os destinos estão desabilitados. Para este destino do arquivo, a pasta não será criada. Por padrão, por causa das dependências hierárquicas entre os arquivos e pastas pai, os arquivos irão se comportar da mesma maneira. Em outras palavras, eles não serão enviados em qualquer lugar. Para substituir esse comportamento padrão, você deve criar três destinos mais de arquivo, um para cada arquivo. Nas configurações de destino de cada um, você deve habilitar o destino em que o arquivo deve ser enviado para.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

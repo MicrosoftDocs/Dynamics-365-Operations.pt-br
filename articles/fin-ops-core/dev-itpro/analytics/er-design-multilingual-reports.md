@@ -15,24 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473396"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674420"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Projetar relatórios multilíngues em Relatórios eletrônicos
 
 [!include[banner](../includes/banner.md)]
 
-[!include[banner](../includes/preview-banner.md)]
-
 ## <a name="overview"></a>Visão Geral
 
 Como um usuário comercial, você pode usar a estrutura de [Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar formatos para documentos de saída que precisam ser gerados de acordo com os requisitos legais de vários países ou regiões. Quando esses requisitos exigirem que os documentos de saída sejam gerados em diferentes idiomas para países ou regiões diferentes, você poderá configurar um único [formato](general-electronic-reporting.md#FormatComponentOutbound) de ER que contenha recursos dependentes de idioma. Dessa forma, você pode reutilizar o formato para gerar documentos de saída para vários países ou regiões. Você também pode usar um único formato de ER para gerar um documento de saída em diferentes idiomas para clientes, fornecedores, subsidiárias ou outros participantes correspondentes.
 
-Você pode configurar os modelos de dados de ER e mapeamentos de modelo como fontes de dados dos formatos de ER configurados para definir o fluxo de dados que especifica quais dados de aplicativo são colocados em documentos gerados. Como um [provedor](general-electronic-reporting.md#Provider) de configuração de ER, você pode [publicar ](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) [modelos de dados](general-electronic-reporting.md#data-model-and-model-mapping-components), [mapeamentos de modelo](general-electronic-reporting.md#data-model-and-model-mapping-components) e [formatos](general-electronic-reporting.md#FormatComponentOutbound) configurados como componentes de uma solução de ER para gerar documentos de saída específicos. Você também pode permitir que os clientes [carreguem](general-electronic-reporting-manage-configuration-lifecycle.md) a solução de ER publicada de forma que ela possa ser usada e personalizada. Se esperar que talvez os clientes falem em outros idiomas, você poderá configurar os componentes de ER para que eles contenham recursos dependentes de idioma. Dessa forma, o conteúdo de um componente de ER editável pode ser apresentado no idioma preferencial do usuário do cliente em tempo de design.
+Você pode configurar os modelos de dados de ER e mapeamentos de modelo como fontes de dados dos formatos de ER configurados para definir o fluxo de dados que especifica quais dados de aplicativo são colocados em documentos gerados. Como um [provedor](general-electronic-reporting.md#Provider) de configuração ER, você pode [publicar ](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) [modelos de dados](general-electronic-reporting.md#data-model-and-model-mapping-components), [mapeamentos de modelo](general-electronic-reporting.md#data-model-and-model-mapping-components) e [formatos](general-electronic-reporting.md#FormatComponentOutbound) configurados como componentes de uma solução de ER para gerar documentos de saída específicos. Você também pode permitir que os clientes [carreguem](general-electronic-reporting-manage-configuration-lifecycle.md) a solução de ER publicada de forma que ela possa ser usada e personalizada. Se esperar que talvez os clientes falem em outros idiomas, você poderá configurar os componentes de ER para que eles contenham recursos dependentes de idioma. Dessa forma, o conteúdo de um componente de ER editável pode ser apresentado no idioma preferencial do usuário do cliente em tempo de design.
 
 Você pode configurar recursos dependentes do idioma como etiquetas de ER. Em seguida, você poderá usar essas etiquetas para configurar os componentes de ER para as seguintes finalidades:
 
@@ -48,7 +46,7 @@ Você pode configurar recursos dependentes do idioma como etiquetas de ER. Em se
 
 As etiquetas de ER podem ser configuradas em cada [configuração](general-electronic-reporting.md#Configuration) de ER que contém componentes diferentes. As etiquetas podem ser mantidas independentemente da lógica configurada dos modelos de dados de ER, dos mapeamentos de modelo de ER e dos componentes de formato de ER.
 
-Cada etiqueta de ER é identificada por uma ID exclusiva no escopo da configuração de ER que contém essa etiqueta. Cada etiqueta pode conter texto para cada idioma com suporte na instância atual do Microsoft Dynamics 365 Finance. Esses idiomas com suporte incluem os idiomas das personalizações implantadas.
+Cada etiqueta de ER é identificada por uma ID exclusiva no escopo da configuração ER que contém essa etiqueta. Cada etiqueta pode conter texto para cada idioma com suporte na instância atual do Microsoft Dynamics 365 Finance. Esses idiomas com suporte incluem os idiomas das personalizações implantadas.
 
 ## <a name="entry"></a>Entrada
 
@@ -163,7 +161,7 @@ O ER oferece suporte a diferentes maneiras de especificar um idioma para um rela
 
 ## <a name="culture-specific-formatting"></a>Formatação específica da cultura
 
-O ER oferece suporte a diferentes maneiras de especificar a cultura para um relatório gerado. Portanto, a formatação específica da cultura correta pode ser usada para valores de data, hora e numéricos. Ao criar um formato ER, na guia **Formatar** , no campo **Preferências de cultura**, você pode selecionar um dos seguintes valores para cada componente de formato do tipo **Arquivo\\Comum**, **Arquivo\\Excel**, **Arquivo\\PDF** ou **Fusão de\\PDFs**:
+O ER oferece suporte a diferentes maneiras de especificar a cultura para um relatório gerado. Portanto, a formatação específica da cultura correta pode ser usada para valores de data, hora e numéricos. Ao criar um formato ER, na guia **Formatar**, no campo **Preferências de cultura**, você pode selecionar um dos seguintes valores para cada componente de formato do tipo **Arquivo\\Comum**, **Arquivo\\Excel**, **Arquivo\\PDF** ou **Fusão de\\PDFs**:
 
 - **Preferência do usuário** – formate os valores de acordo com a cultura preferencial do usuário. Essa cultura é definida no campo **Formato de data, hora e número** na guia **Preferências** da página **Opções do usuário**.
 
@@ -196,27 +194,27 @@ Ao adicionar uma etiqueta de ER no [painel](#TextTranslationPane) **Tradução d
 
 ### <a name="automatic-translation"></a>Tradução automática
 
-A configuração de um componente de ER é feita na versão de rascunho da configuração de ER na qual o componente de ER editável reside.
+A configuração de um componente de ER é feita na versão de rascunho da configuração ER na qual o componente de ER editável reside.
 
-![Página Configurações de ER oferecendo acesso à versão da configuração no status Rascunho.](./media/er-multilingual-labels-configurations.png)
+![Página Configurações ER oferecendo acesso à versão da configuração no status Rascunho.](./media/er-multilingual-labels-configurations.png)
 
-Conforme descrito anteriormente neste tópico, você pode adicionar etiquetas de ER necessárias a um componente de ER editável. Dessa forma, você pode especificar o texto das etiquetas ER no idioma EN-US. Em seguida, você poderá exportar as etiquetas do componente de ER usando a função de ER interna. Selecione a versão de rascunho de uma configuração de ER que contém o componente de ER editável e selecione **Câmbio \> Exportar etiquetas**.
+Conforme descrito anteriormente neste tópico, você pode adicionar etiquetas de ER necessárias a um componente de ER editável. Dessa forma, você pode especificar o texto das etiquetas ER no idioma EN-US. Em seguida, você poderá exportar as etiquetas do componente de ER usando a função de ER interna. Selecione a versão de rascunho de uma configuração ER que contém o componente de ER editável e selecione **Câmbio \> Exportar etiquetas**.
 
-![Página Configurações de ER que permite exportar etiquetas de ER da versão de configuração selecionada.](./media/er-multilingual-labels-export.png)
+![Página Configurações ER que permite exportar etiquetas de ER da versão de configuração selecionada.](./media/er-multilingual-labels-export.png)
 
 Você pode exportar todas as etiquetas ou as etiquetas de um único idioma especificado no início da exportação. As etiquetas são exportadas como um arquivo zip que contém arquivos XML. Todo arquivo XML contém etiquetas para um único idioma.
 
 ![Exemplo do arquivo exportado que contém as etiquetas de ER para o idioma DE-AT.](./media/er-multilingual-labels-in-xml.png)
 
-Esse formato é usado para a tradução automática de etiquetas por serviços de tradução externos, como o [Dynamics 365 Translation Service](../lifecycle-services/translation-service-overview.md). Ao receber as etiquetas traduzidas, você poderá importá-las novamente para a versão de rascunho de uma configuração de ER que contém os componentes de ER que possuem essas etiquetas. Selecione a versão de rascunho de uma configuração de ER que contém o componente de ER editável e selecione **Câmbio \> Carregar etiquetas**.
+Esse formato é usado para a tradução automática de etiquetas por serviços de tradução externos, como o [Dynamics 365 Translation Service](../lifecycle-services/translation-service-overview.md). Ao receber as etiquetas traduzidas, você poderá importá-las novamente para a versão de rascunho de uma configuração ER que contém os componentes de ER que possuem essas etiquetas. Selecione a versão de rascunho de uma configuração ER que contém o componente de ER editável e selecione **Câmbio \> Carregar etiquetas**.
 
-![Página Configurações de ER que permite importar etiquetas de ER para a versão de configuração selecionada.](./media/er-multilingual-labels-load.png)
+![Página Configurações ER que permite importar etiquetas de ER para a versão de configuração selecionada.](./media/er-multilingual-labels-load.png)
 
-As etiquetas traduzidas serão importadas para a configuração de ER selecionada. As etiquetas traduzidas que existem na configuração de ER são substituídas. Se houver alguma etiqueta traduzido na configuração de ER, ela será anexada.
+As etiquetas traduzidas serão importadas para a configuração ER selecionada. As etiquetas traduzidas que existem na configuração ER são substituídas. Se houver alguma etiqueta traduzido na configuração ER, ela será anexada.
 
 ## <a name="lifecycle"></a>Ciclo de vida
 
-As etiquetas de um componente de ER que podem ser editadas são mantidas, juntamente com outro conteúdo para o componente, na versão apropriada de uma configuração de ER.
+As etiquetas de um componente de ER que podem ser editadas são mantidas, juntamente com outro conteúdo para o componente, na versão apropriada de uma configuração ER.
 
 Etiquetas de um componente ER base podem ser referenciadas em uma versão derivada do componente de ER que você cria para apresentar suas modificações.
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: db1d9d2cddfab5ca5abb50cc3ecb9c841e06b8b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580975"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647305"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
@@ -46,7 +46,7 @@ A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos]
 
 A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. Cada um deles fornece uma melhoria incremental para um recurso existente. Por serem apenas melhorias, não estão listados no [plano de liberação](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Contudo, para garantir que esses aprimoramentos não entrem em conflito com suas personalizações ou preferências existentes, cada um deles é desativado por padrão (a menos haja indicação contrária). Se você quiser usar qualquer um desses recursos, deve ativá-los explicitamente em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Área de recursos | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
+| Módulo | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
 |---|---|---|
 | Planejamento Mestre | Autorização paralela da previsão de demanda ajustada | Este recurso permite a autorização paralela da previsão de demanda ajustada da página **Previsão de demanda ajustada**. A intenção deste recurso é aumentar o desempenho quando um grande número de previsões está sendo autorizado. Ao autorizar, o usuário pode especificar o **Número de threads** na caixa de diálogo de autorização. |
 | Planejamento Mestre | (Versão preliminar) Consolidação executável em lote e consolidação para ordens planejadas em massa e em lote | Este recurso permite usar trabalhos em lotes para consolidar ordens planejadas em massa e em pacote. |

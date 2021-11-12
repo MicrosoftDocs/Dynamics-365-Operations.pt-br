@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7638461"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647206"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management versão 10.0.19 (junho de 2021)
 
@@ -48,7 +48,7 @@ A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos]
 
 A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. Cada um deles fornece uma melhoria incremental para um recurso existente. Por serem apenas melhorias, não estão listados no [plano de liberação](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Contudo, para garantir que esses aprimoramentos não entrem em conflito com suas personalizações ou preferências existentes, cada um deles é desativado por padrão (a menos haja indicação contrária). Se você quiser usar qualquer um desses recursos, deve ativá-los explicitamente em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Área de recursos | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
+| Módulo | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
 |---|---|---|
 | Vendas e marketing | Melhorias no desempenho da limpeza do histórico de vendas | A limpeza do histórico de vendas pode demorar muito se executada com pouca frequência em ambientes com um alto volume de atualizações de vendas. Para reduzir a duração e melhorar a confiabilidade, esse recurso divide a limpeza em lotes que são executados por um período limitado. Sempre que possível, os recursos do banco de dados serão aproveitados para minimizar o bloqueio e evitar a junção de tabelas transacionais durante a limpeza. Para obter mais informações, consulte [Aprimoramentos de desempenho de limpeza de vendas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Vendas e marketing | Atualizar a Data de recebimento solicitada com a Data confirmada para ordens intercompanhia | Este recurso permite que você controle o que acontecerá com os valores dos campos de data de venda e compra ao usar a entrega direta entre empresas. Você pode escolher se o sistema atualizará as datas solicitadas ou ignorar a atualização. Se você ignorar a atualização, as datas solicitadas representarão o que o cliente solicitou. Se você habilitar a atualização, as datas solicitadas (ao usar o controle de data de entrega) representam apenas inicialmente o que o cliente solicitou. Quando diferente de *Nenhum*, o controle da data de entrega substituirá o que foi inicialmente solicitado. É possível definir essa opção usando a nova configuração **Atualizar a data de recebimento solicitada com a data confirmada** nas configurações do fornecedor intercompanhia ou do cliente.<br><br>Se o recurso estiver desativado, o sistema substituirá a data de recebimento solicitada nas ordens de venda originais com base na regra de controle de data de entrega, mas a data de envio solicitada permanecerá como está. |

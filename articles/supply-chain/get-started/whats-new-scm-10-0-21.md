@@ -2,7 +2,7 @@
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.21 (outubro de 2021)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
-ms.date: 08/09/2021
+ms.date: 10/28/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
+ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579727"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7715245"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.21 (outubro de 2021)
 
@@ -38,7 +38,7 @@ A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos]
 | Estoque&nbsp;e&nbsp;logística | [A Contabilidade de estoque global é um suplemento para o Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Home page de Contabilidade de Estoque Global](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Estoque&nbsp;e&nbsp;logística | [Ajustes de lançamento disponível usando códigos associados a contrapartidas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Exibir códigos de motivo de contagem de estoque](../warehousing/reason-codes-for-counting-journals.md) |
 | Estoque&nbsp;e&nbsp;logística | [Política de exportação de dados referenciada de cotação de venda](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Escolha se as alterações aos dados referenciados pelas cotações não farão com que essas cotações de venda relacionadas (ou linhas) sejam incluídas na próxima exportação incremental. As exportações incrementais serão executadas mais rapidamente se você optar por não incluir essas cotações ou linhas.<br><br>Este recurso adiciona uma configuração chamada **Ignorar dados de cotação de venda referenciados durante o controle de alterações** à página **Parâmetros de contas a receber**. |
-| Estoque&nbsp;e&nbsp;logística | Lances lacrados <!-- KFM: Add RP link when available --> | [Lance selado para RFQs](../procurement/sealed-bidding.md) |
+| Estoque&nbsp;e&nbsp;logística | [Lances lacrados](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Lance selado para RFQs](../procurement/sealed-bidding.md) |
 | Estoque&nbsp;e&nbsp;logística | [Digitalizar códigos de barras no depósito usando padrões de formato GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Códigos de barras de GS1 e códigos QR](../warehousing/gs1-barcodes.md) |
 | Estoque&nbsp;e&nbsp;logística | [Reserva fácil para o Suplemento Visibilidade de Estoque](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Reservas de Visibilidade de Estoque](../inventory/inventory-visibility-reservations.md) |
 | Estoque&nbsp;e&nbsp;logística | [Melhorias de dedução e de peso variável para gerenciamento de reembolsos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Gerenciar deduções usando a bancada de dedução](../rebate-management/deduction-workbench.md )<br><br>[Processar, revisar e lançar reembolsos](../rebate-management/process-review-post.md)<br><br>[Negociações de gerenciamento de reembolsos](../rebate-management/rebate-management-deals.md) |
@@ -50,7 +50,7 @@ A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos]
 
 A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. Cada um deles fornece uma melhoria incremental para um recurso existente. Por serem apenas melhorias, não estão listados no [plano de liberação](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Contudo, para garantir que esses aprimoramentos não entrem em conflito com suas personalizações ou preferências existentes, cada um deles é desativado por padrão (a menos haja indicação contrária). Se você quiser usar qualquer um desses recursos, deve ativá-los explicitamente em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Área de recursos | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
+| Módulo | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
 |---|---|---|
 | Gerenciamento de custo | Detalhes do andamento de fechamento de estoque | Esta versão prévia do recurso habilita uma exibição detalhada do progresso de fechamento de estoque. |
 | Compras | Impedir consumo excessivo de reservas de orçamento geral quando várias requisições de compra estão no fluxo de trabalho | Esse versão prévia do recurso melhora a verificação de erros quando os usuários enviam e aprovam requisições de compra que excedem o saldo restante de uma linha de reserva de orçamento geral. Isso ajuda a evitar o consumo em excesso de reservas de orçamento gerais quando várias requisições de compra estão no fluxo de trabalho. |
@@ -59,6 +59,64 @@ A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. 
 | Gerenciamento de depósito | Dissocie o trabalho de armazenamento de ASNs | Esse recurso é necessário para enviar e receber avisos de remessa antecipada (ASNs) quando você está executando uma carga de trabalho do gerenciamento de depósito em uma unidade de escala (como parte de uma topologia híbrida distribuída). Isso adiciona uma nova tabela de banco de dados dedicada ao armazenamento de informações sobre o trabalho de armazenamento. Anteriormente, essas informações eram armazenadas em tabelas que também são usadas para os ASNs. |
 | Gerenciamento de depósito | Unidades mistas de slots | Permite que o sistema encaixe itens em locais que incluam unidades mistas (que incluem caixas e ocorrências). Para cada linha de modelo de encaixe, este recurso permite que você escolha se a linha deve encaixar itens em locais de unidade mista ou única. |
 | Gerenciamento de depósito | Usar API mais rápida para fechamento/reabertura de contêineres na estação de embalagem | Quando esta versão prévia do recurso é habilitada, são criadas transações de estoque relacionadas a contêineres usando o novo e leve processo, que melhora o desempenho de fechamento ou de reabertura de contêineres durante o processamento manual da estação de embalagem. |
+
+## <a name="features-turned-on-by-default-in-this-release"></a>Recursos ativados por padrão nesta versão
+
+A tabela a seguir lista os recursos ativados por padrão na versão 10.0.21. A maioria dos recursos ativados atomicamente pode ser desativada no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| Nome do recurso | Habilitar data | Recurso adicionado em | Estado do recurso | Módulo |
+| :--- | :--- | :--- | :--- | :--- |
+| Armazenamento de relatório de estoque disponível | 01/09/2021 | 01/04/2020 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Cancelamento da ordem de transferência | 01/09/2021 | 13/07/2020 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Desbloquear Diário de Estoque | 01/09/2021 | 17/08/2020 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Exibições salvas do Gerenciamento de estoque | 01/09/2021 | 30/9/2020 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Navegação para a versão da BOM a partir de linhas da BOM. | 01/09/2021 | 11/11/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Usando unidade de medida e quantidade de unidades em diários de estoque. | 01/09/2021 | 11/11/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Permitir valores de atributos de lote vazios | 01/09/2021 | 11/11/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Incrementar automaticamente os números de linha das linhas de ordens de transferência de estoque. | 01/09/2021 | 11/10/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Fluxo de trabalho de aprovação do diário de estoque | 01/09/2021 | 06/01/2020 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Habilitar o recurso de aviso de parâmetros de gerenciamento de qualidade de estoque | 01/09/2021 | 07/10/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Criar ordem de transferência a partir da linha de venda | 01/09/2021 | 31/08/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Seleção de modelo de previsão nos detalhes de Previsão de demanda | 01/09/2021 | 11/10/2019 | Ativado por padrão | Planejamento Mestre |
+| Visualização do progresso do planejamento mestre | 01/09/2021 | 07/10/2019 | Ativado por padrão | Planejamento Mestre |
+| Confirmação automática da Otimização de Planejamento | 01/09/2021 | 11/10/2019 | Ativado por padrão | Planejamento Mestre |
+| Confirmação paralela das ordens planejadas | 01/09/2021 | 31/08/2019 | Ativado por padrão | Planejamento Mestre |
+| Mensagem de êxito de envio de lance | 01/09/2021 | 15/05/2019 | Ativado por padrão | Compras |
+| Link de referência de RFQ adicionado à OC | 01/09/2021 | 31/08/2019 | Ativado por padrão | Compras |
+| Capacidade de confirmar ordens de compra aceitas da colaboração do fornecedor em lote | 01/09/2021 | 10/09/2019 | Ativado por padrão | Compras |
+| Aprimoramentos ao cXML de compra | 01/09/2021 | 11/11/2019 | Ativado por padrão | Compras |
+| Exibir o link &quot;Abrir solicitações de cotação publicadas&quot; como um bloco | 01/09/2021 | 30/9/2020 | Ativado por padrão | Compras |
+| Perguntas e respostas de RFQ | 01/09/2021 | 19/02/2020 | Ativado por padrão | Compras |
+| Informações sobre produtos com materiais perigosos e documentação de remessa | 01/09/2021 | 14/06/2020 | Ativado por padrão | Gerenciamento de informações sobre o produto |
+| Validação estrita em quantidades de ordem padrão | 01/09/2021 | 24/06/2020 | Ativado por padrão | Gerenciamento de informações sobre o produto |
+| Recurso de gerenciamento de país de origem | 01/09/2021 | 13/07/2020 | Ativado por padrão | Gerenciamento de informações sobre o produto |
+| Exibições salvas para produtos liberados | 01/09/2021 | 30/9/2020 | Ativado por padrão | Gerenciamento de informações sobre o produto |
+| Aprimoramentos nas caixas de diálogo Aprovar e Transferir trabalhos | 01/09/2021 | 11/10/2019 | Ativado por padrão | Controle de produção |
+| Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho | 01/09/2021 | 31/08/2019 | Ativado por padrão | Controle de produção |
+| Um novo botão Parar intervalo foi adicionado à página Terminal de Ficha de Trabalho. | 01/09/2021 | 19/02/2020 | Ativado por padrão | Controle de produção |
+| Habilite o recebimento parcial de itens subcontratados e corrija um problema com o cálculo de sucata das linhas de BOM do tipo Fornecedor. | 01/09/2021 | 11/11/2019 | Ativado por padrão | Controle de produção |
+| Exibições salvas para controle de produção | 01/09/2021 | 17/08/2020 | Ativado por padrão | Controle de produção |
+| Dynamics 365 Guides para Fabricação | 01/09/2021 | 13/07/2020 | Ativado por padrão | Controle de produção |
+| Execução do piso de produção | 01/09/2021 | 30/9/2020 | Ativado por padrão | Controle de produção |
+| Recurso para bloqueio de dispositivo de ficha de trabalho e terminal de ficha de trabalho para que eles possam ser limpos. | 01/09/2021 | 10/05/2020 | Ativado por padrão | Controle de produção |
+| Alocação de encargos em uma ordem de venda | 01/09/2021 | 30/9/2020 | Ativado por padrão | Vendas e marketing |
+| Limitar o número de ordens de venda que podem ser selecionadas para lançamento | 01/09/2021 | 01/09/2021 | Ativado por padrão | Vendas e marketing |
+| Limpar histórico de atualizações de ordens de venda | 01/09/2021 | 01/09/2021 | Ativado por padrão | Vendas e marketing |
+| Alterar a sequência numérica do trabalho de contagem cíclica | 01/09/2021 | 07/10/2019 | Ativado por padrão | Gerenciamento de depósito |
+| Reabastecimento de demanda de onda baseado em tarefa | 01/09/2021 | 07/10/2019 | Obrigatório | Gerenciamento de depósito |
+| Ocultar o campo Valor Total nas páginas &quot;Todas as Cargas&quot; e &quot;Detalhes da Carga&quot; | 01/09/2021 | 07/10/2019 | Ativado por padrão | Gerenciamento de depósito |
+| Impressão de etiqueta do ciclo | 01/09/2021 | 19/02/2020 | Obrigatório | Gerenciamento de depósito |
+| Associar transações de estoque da ordem de compra com carga | 01/09/2021 | 06/01/2020 | Obrigatório | Gerenciamento de depósito |
+| Layouts aprimorados da etiqueta da placa de licença | 01/09/2021 | 19/02/2020 | Ativado por padrão | Gerenciamento de depósito |
+| Bloqueio de trabalho em toda a organização | 01/09/2021 | 19/02/2020 | Obrigatório | Gerenciamento de depósito |
+| Detalhes da linha de trabalho | 01/09/2021 | 11/10/2019 | Ativado por padrão | Gerenciamento de depósito |
+| Tornar editável o campo de status do estoque de movimento do dispositivo móvel | 01/09/2021 | 16/10/2019 | Ativado por padrão | Gerenciamento de depósito |
+| Confirmar remessas de saída de trabalhos em lote | 01/09/2021 | 13/07/2020 | Ativado por padrão | Gerenciamento de depósito |
+| Controlar se uma página de resumo do recebimento deve ser exibida em dispositivos móveis | 01/09/2021 | 01/04/2020 | Ativado por padrão | Gerenciamento de depósito |
+| Aviso para resolver nomes ambíguos de &#39;Loc/LP&#39; | 01/09/2021 | 01/04/2020 | Ativado por padrão | Gerenciamento de depósito |
+| Capturar grades de produtos e dimensões de rastreamento no aplicativo de depósito durante o recebimento do item de carga | 01/09/2021 | 10/05/2020 | Ativado por padrão | Gerenciamento de depósito |
+| Não permita a criação de cargas que não atendam aos requisitos do modelo de criação de carga de onda. | 01/09/2021 | 17/08/2020 | Ativado por padrão | Gerenciamento de depósito |
+| Avaliar todas as ações para diretivas de localização de várias SKUs | 01/09/2021 | 30/9/2020 | Ativado por padrão | Gerenciamento de depósito |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 

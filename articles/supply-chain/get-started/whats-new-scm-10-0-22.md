@@ -1,5 +1,5 @@
 ---
-title: Versão preliminar do Dynamics 365 Supply Chain Management 10.0.22 (novembro de 2021)
+title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.22 (Novembro de 2021)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.22.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3f5166338aebe784fe7f95372a437d4ed660de77
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579703"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678826"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.22 (novembro de 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.22 (Novembro de 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico lista os recursos novos ou alterados na versão preliminar da versão 10.0.22 do Microsoft Dynamics 365 Supply Chain Management. Esta versão tem um número de compilação de 10.0.995 e está disponível da seguinte maneira:
+Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.22. Esta versão tem um número de compilação de 10.0.995 e está disponível da seguinte maneira:
 
 - **Versão preliminar:** setembro de 2021
 - **Disponibilidade geral da versão (autoatualização):** outubro de 2021
@@ -40,13 +39,12 @@ A tabela a seguir lista os recursos incluídos nesta versão. A coluna *Recurso*
 
 A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. Cada um desses aprimoramentos fornece uma melhoria incremental para um recurso existente. Por serem apenas aprimoramentos, não estão listados no [plano de versão](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Contudo, para garantir que esses aprimoramentos não entrem em conflito com suas personalizações ou preferências existentes, cada um deles é desativado por padrão (a menos haja indicação contrária). Se você quiser usar qualquer um desses recursos, deve habilitá-los explicitamente em [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Área de recursos | Nome do recurso no gerenciamento de recursos | Mais informações |
+| Módulo | Nome do recurso no gerenciamento de recursos | Mais informações |
 |---|---|---|
 | Gerenciamento de custo | Criar comprovantes relacionados para reavaliações de arredondamento de custo padrão | <p>Quando um lançamento financeiro de estoque (como uma fatura de ordem de venda ou transação de estoque) é feito, esse recurso faz com que o sistema crie um comprovante separado para quaisquer reavaliações de arredondamento de custo padrão relacionadas e o anexa ao comprovante de lançamento financeiro como um comprovante relacionado.</p><p>Sem esse recurso, o sistema registra reavaliações de arredondamento de custo padrão no mesmo lançamento do comprovante. Esse comportamento às vezes pode causar informações conflitantes da data, porque as reavaliações usam a sessão ou a data do sistema, enquanto as postagens financeiras usam a data de lançamento.</p> |
 | Topologia híbrida distribuída | *(O gerenciamento de recursos não é necessário).* | <p>Esta versão expande os recursos de planejamento de carga de saída da carga de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda.</p><p>Para obter mais informações, consulte [Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Gerenciamento de alteração de engenharia | Geração de grades para produtos de engenharia | <p>Esse recurso permite gerar várias variantes para um produto de engenharia, com base na cor, no tamanho, no estilo ou nas dimensões de configuração.</p><p>Para obter mais informações, consulte [Gerar variantes para produtos de engenharia](../engineering-change-management/engineering-variants.md).</p> |
 | Gerenciamento de depósito e estoque | Integração da Visibilidade de Estoque com compensação da reserva | <p>Esse recurso só poderá ser habilitado após a habilitação do recurso *Integração da Visibilidade do Estoque*. Ele fornece funcionalidade para reservas compensadas criadas na Visibilidade do Estoque.</p><p>Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](../inventory/inventory-visibility-reservations.md).</p> |
-| Vendas e marketing | Limitar o número de ordens de venda que podem ser selecionadas para lançamento | <p>Esse recurso é habilitado automaticamente. Ele adiciona um campo **Número máx. de ordens de venda para lançamento** à página **Parâmetros de contas a receber**. Esse campo permite definir o número máximo de solicitações de venda que podem ser selecionados quando confirmações, listas de separação, guias de remessa e faturas são lançados da página de lista de ordens de venda. O valor padrão é *100*.</p><p>Esse recurso ajuda a melhorar o desempenho da página de lista de ordens de venda quando um número substancial de ordens de venda é selecionado. Não tem impacto no número de ordens de venda que podem ser processadas por uma tarefa periódica.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 
@@ -63,7 +61,7 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para os aplicativos do Finance and Operations
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.22 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.22 dos aplicativos do Finance and Operations (novembro de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md). <!-- KFM: Confirm link -->
+O Microsoft Dynamics 365 Supply Chain Management 10.0.22 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.22 dos aplicativos do Finance and Operations (novembro de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 

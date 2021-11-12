@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a60fc00642a77d3dc595a6222727637f0d7cd588
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 0457190f2fc8cd0ed39e109e6720509b77b83566
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475051"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678510"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Usar o aplicativo Visibilidade de Estoque
 
@@ -63,8 +63,6 @@ Para lançar uma consulta disponível, insira a consulta no corpo da solicitaç�
 ![Configurações de consulta de disponíveis](media/inventory-visibility-query-settings.png "Configurações de consulta de disponíveis")
 
 ### <a name="reservation-posting"></a>Lançamento de reserva
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Use a guia **Lançamento de reserva** para lançar uma solicitação de reserva. Para poder lançar uma solicitação de reserva, você deverá ativar o recurso *OnHandReservation*. Para obter mais informações sobre esse recurso, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md).
 

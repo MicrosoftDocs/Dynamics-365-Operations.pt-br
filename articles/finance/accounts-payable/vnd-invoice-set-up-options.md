@@ -1,8 +1,8 @@
 ---
 title: Configurar opções para automação de fatura de fornecedor (Versão preliminar)
 description: Este tópico descreve as opções disponíveis para definir e configurar a automação de fatura de fornecedor.
-author: abruer
-ms.date: 10/16/2020
+author: sunfzam
+ms.date: 10/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32f105ffcf41f5e39ec34ec6500040e28673086d25196a32690975ee0234ab43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724270"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675460"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Configurar opções para automação de fatura de fornecedor
 
@@ -27,12 +27,18 @@ ms.locfileid: "6724270"
 
 Este tópico descreve as opções disponíveis para definir e configurar a automação de fatura de fornecedor. Os recursos de automação de fatura usam os seguintes tipos de parâmetros de configuração:
 
+- Parâmetros para aplicar automaticamente pagamentos antecipados em faturas importadas.
 - Parâmetros para enviar faturas de fornecedor importadas para o sistema de fluxo de trabalho e conciliar linhas de recebimento de produtos lançadas para linhas de fatura de fornecedor pendentes.
 - Parâmetros para processamento de tarefas de automação em segundo plano. A estrutura de automação de processos é usada para enviar faturas de fornecedor importadas para o sistema de fluxo de trabalho. Também é usado para fazer a correspondência automática das linhas de recebimento de produtos lançadas em linhas de fatura de fornecedor pendente e para executar a validação da conciliação de faturas para faturas manuais que foram correspondidas automaticamente nas linhas de recebimento de produtos. Processos comerciais diferentes usam essa estrutura para definir a frequência de execução de um processo selecionado. As frequências disponíveis para os processos em segundo plano **Conciliar recebimento do produto com linhas da fatura** e **Enviar faturas do fornecedor para fluxo de trabalho** incluem **Hora** e **Diariamente**.
 
 Para configurar ou exibir informações sobre uma tarefa em segundo plano, Acesse **Administração do sistema \> Configuração \> Processar automações** e selecione a guia **Tarefa em segundo plano**.
 
 Para obter automação sem contato do processo de importação por meio do lançamento de fatura de fornecedor, você deve configurar um Fluxo de trabalho de fatura de fornecedor. Para configurar um fluxo de trabalho, Acesse **Contas a pagar > Configurar > Fluxos de trabalho do contas a pagar**. Para garantir que a fatura possa ser processada do início ao fim sem intervenção manual, você deve incluir uma tarefa de lançamento automatizada na configuração do fluxo de trabalho.
+
+## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>Parâmetros para aplicar automaticamente pagamentos antecipados em faturas importadas
+
+- **Aplicar pagamento antecipado automaticamente para faturas importadas** – quando essa opção for definida como **Sim**, o sistema pesquisará automaticamente pagamentos antecipados existentes para uma ordem de compra correspondente quando as faturas de fornecedor forem importadas. Se houver pagamentos antecipados que possam ser aplicados, uma linha adicional será adicionada para aplicar os pagamentos antecipados às faturas do fornecedor que estão sendo importadas.
+- **Bloquear o processo de automação de acompanhamento no caso de falha do aplicativo de pagamento antecipado** – quando essa opção for definida como **Sim**, as faturas serão bloqueadas se um pagamento antecipado não puder ser aplicado. Como outros processos automatizados, como o processo de correspondência de recebimento e o envio a um processo de fluxo de trabalho, o processo de automação de fatura não pega as faturas bloqueadas até que o pagamento antecipado seja aplicado manualmente. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Parâmetros para enviar faturas de fornecedor importadas para o sistema de fluxo de trabalho
 

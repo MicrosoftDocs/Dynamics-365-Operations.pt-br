@@ -2,7 +2,7 @@
 title: Visão geral do Cálculo de Imposto
 description: Este tópico explica o escopo geral e os recursos do recurso Cálculo de Imposto.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394577"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647048"
 ---
 # <a name="tax-calculation-overview"></a>Visão geral do Cálculo de Imposto
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 O Cálculo de Imposto é um serviço multilocatário hiperescalável que permite que o Global Tax Engine automatize e simplifique o processo de determinação e cálculo de imposto. O mecanismo de cálculo de imposto é totalmente configurável. Os elementos que podem ser configurados incluem, entre outros, o modelo de dados tributável, o código de imposto, a matriz de aplicabilidade do imposto e a fórmula de cálculo do imposto. O mecanismo de cálculo de imposto é executado na plataforma de serviços principais do Microsoft Azure e oferece tecnologia moderna e escalabilidade exponencial.
 
@@ -115,10 +113,14 @@ As seguintes transações são compatíveis na versão 10.0.21:
     - Encargos diversos do cabeçalho da solicitação de cotação
     - Encargos diversos da linha da solicitação de cotação
 
-- Inventário
+- Estoque
 
     - Ordem de transferência – enviar
     - Ordem de transferência – receber
+
+As seguintes transações são compatíveis na versão 10.0.23: 
+
+- Fatura de texto livre
 
 ## <a name="supported-countriesregions"></a>Países/regiões com suporte
 
@@ -145,6 +147,28 @@ Os seguintes países/regiões do endereço principal de uma entidade legal têm 
 - Suíça
 - Reino Unido
 - Estados Unidos
+
+Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.22:
+
+- Austrália
+- Bahrein
+- Canadá
+- Egito
+- RAE de Hong Kong
+- Kuwait
+- Nova Zelândia
+- Omã
+- Catar
+- Arábia Saudita
+- África do Sul
+- Emirados Árabes Unidos
+
+Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.23:
+
+- Tailândia
+- Japão
+- Malásia
+- Cingapura
 
 ## <a name="related-resources"></a>Recursos relacionados
 

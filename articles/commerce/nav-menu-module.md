@@ -2,7 +2,7 @@
 title: Módulo do menu de navegação
 description: Este tópico abrange os módulos do menu de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761577"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713843"
 ---
 # <a name="navigation-menu-module"></a>Módulos de menu de navegação
 
@@ -41,8 +41,8 @@ A ilustração a seguir mostra um exemplo de um menu de navegação para o site 
 |---------------------------|-----------------------|-------------|
 | Origem                  | **Varejo**, **Criação manual**, **Varejo e criação manual** | O valor **Varejo** permite que a hierarquia de navegação de canal da matriz do Commerce seja exibida no menu de navegação. O valor **Criação manual** permite que os itens de menu estático sejam organizados. O valor **Criação manual e de varejo** permite uma combinação de ambos. |
 | Mostrar imagens da categoria | **Verdadeiro** ou **Falso**    | Quando habilitada, essa propriedade exibe imagens de categoria no menu de navegação, conforme definido na matriz do Commerce para cada categoria. Adicionado ao Commerce Release 10.0.14. |
-| Mostrar promoções | **Verdadeiro** ou **Falso** | Quando esta propriedade é habilitada, as promoções podem ser configuradas usando imagens, links e texto. Essa propriedade foi adicionada na versão 10.0.17 do Commerce. |
-| Adicionar promoções | Texto, imagem ou link | Quando a propriedade **Mostrar promoções** é habilitada, você pode adicionar texto, uma imagem ou um link como conteúdo promocional no menu de navegação. |
+| Mostrar imagens promocionais | **Verdadeiro** ou **Falso** | Quando esta propriedade é habilitada, as promoções podem ser configuradas usando imagens, links e texto. Essa propriedade foi adicionada na versão 10.0.17 do Commerce. |
+|Adicionar conteúdo promocional da categoria | Texto, imagem ou link | Quando a propriedade **Mostrar imagens promocionais** é habilitada, você pode adicionar texto, uma imagem ou um link como conteúdo promocional no menu de navegação. |
 | Habilitar menu de navegação de vários níveis | **Verdadeiro** ou **Falso** | Quando esta propriedade estiver habilitada, o menu de navegação poderá mostrar vários níveis da hierarquia de navegação. Este recurso está disponível nas versão 10.0.15 do Commerce. |
 | Número de níveis | inteiro | Essa propriedade define os números de níveis que deverão ser mostrados se a propriedade **Habilitar menu de navegação de vários níveis** estiver definida como **Verdadeira**. |
 | Item de menu estático| Matriz de valores| Os itens de menu estático que associam um nome de item de menu a um link para uma página de site estática. Você pode criar itens de menu abaixo de outros itens de menu. Por padrão, os menus estáticos aparecem no nível raiz e serão acrescentados à hierarquia de navegação de canal, caso exista. |

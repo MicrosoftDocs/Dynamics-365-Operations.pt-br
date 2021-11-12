@@ -1,7 +1,7 @@
 ---
 title: Processamento do diário geral
 description: Este tópico descreve os recursos do Microsoft Dynamics 365 Finance que podem facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.
-author: ShylaThompson
+author: kweekley
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7e9c8981968cbe36070c336d57f0b086b9ab930d0287d11faaeb0f32ee46364
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742870"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726765"
 ---
 # <a name="general-journal-processing"></a>Processamento do diário geral
 
@@ -90,7 +90,7 @@ Para obter mais informações, consulte os seguintes tópicos:
 - [Processar diário de alocação do razão](tasks/process-ledger-allocation-journal.md)
 
 ## <a name="simulate-posting"></a>Simular lançamento
-Você pode encontrar **Simular lançamento** no menu **Validar** da maioria dos diários. Quando você validar um diário usando a função **Validar** , o sistema testa o lançamento para condições de erro específicas. Se você usar a função **Simular lançamento** , o sistema executa os mesmos processos realizados durante lançamento sem realmente lançar o diário. Você poderá revisar as mensagens de lançamentos que foram exibidas, corrigir os erros detectados e abrir o menu **Lançar** para lançar o diário. 
+Você pode encontrar **Simular lançamento** no menu **Validar** da maioria dos diários. Quando você validar um diário usando a função **Validar**, o sistema testa o lançamento para condições de erro específicas. Se você usar a função **Simular lançamento**, o sistema executa os mesmos processos realizados durante lançamento sem realmente lançar o diário. Você poderá revisar as mensagens de lançamentos que foram exibidas, corrigir os erros detectados e abrir o menu **Lançar** para lançar o diário. 
 
 **Simular lançamento** não está disponível para processamento em lotes. Porém, há um código disponível para simular o lançamento em lote e os desenvolvedores podem ampliar o código para adicionar essa funcionalidade.  
 

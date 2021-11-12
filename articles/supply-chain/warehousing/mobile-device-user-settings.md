@@ -15,20 +15,20 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769410"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647476"
 ---
 # <a name="mobile-device-user-settings"></a>Configurações do usuário do dispositivo móvel
 
 [!include [banner](../../includes/banner.md)]
 
-O novo aplicativo móvel de Gerenciamento de Depósito tem um conjunto de configurações específicas do aplicativo que ajudam a personalizar a experiência do usuário. Como o aplicativo pode ser usado em dispositivos com tamanhos de tela e configurações diferentes (como tablet, smartphone ou portátil), pode ser útil gerenciar centralmente essas configurações no Microsoft Dynamics 365 Supply Chain Management.
+O novo aplicativo móvel Warehouse Management tem um conjunto de configurações específicas do aplicativo que ajudam a personalizar a experiência do usuário. Como o aplicativo pode ser usado em dispositivos com tamanhos de tela e configurações diferentes (como tablet, smartphone ou portátil), pode ser útil gerenciar centralmente essas configurações no Microsoft Dynamics 365 Supply Chain Management.
 
-O recurso de *configurações de usuário do dispositivo móvel* permite definir as configurações de usuário globais que serão usadas em todos os dispositivos. Você também pode definir configurações de usuário mais granulares para marcas de dispositivos individuais, modelos de dispositivo e/ou trabalhadores. Quando um trabalhador entra no aplicativo móvel de Gerenciamento de Depósito, o aplicativo busca e aplica o perfil de configurações mais específico armazenado no Supply Chain Management para a marca, o dispositivo e/ou ID de usuário correspondente.
+O recurso de *configurações de usuário do dispositivo móvel* permite definir as configurações de usuário globais que serão usadas em todos os dispositivos. Você também pode definir configurações de usuário mais granulares para marcas de dispositivos individuais, modelos de dispositivo e/ou trabalhadores. Quando um trabalhador entra no aplicativo móvel Warehouse Management, o aplicativo busca e aplica o perfil de configurações mais específico armazenado no Supply Chain Management para a marca, o dispositivo e/ou ID de usuário correspondente.
 
 Este recurso pode ajudar os trabalhadores a iniciar de forma mais rápida sempre que começarem a usar um novo dispositivo. Eis alguns exemplos:
 
@@ -37,7 +37,7 @@ Este recurso pode ajudar os trabalhadores a iniciar de forma mais rápida sempre
 - No Supply Chain Management, os administradores podem exibir e editar todas as configurações armazenadas, mesmo para trabalhadores individuais. Esse recurso pode ajudá-los a solucionar problemas ou ajustar novos recursos.
 
 > [!IMPORTANT]
-> O recurso *configurações de usuário do dispositivo móvel* é aplicável somente ao novo aplicativo móvel de Gerenciamento de Depósito. Ele não funciona com o antigo aplicativo de depósito.
+> O recurso *configurações de usuário do dispositivo móvel* é aplicável somente ao novo aplicativo móvel Warehouse Management. Ele não funciona com o antigo aplicativo de depósito.
 
 ## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Ativar o recurso de configurações de usuário do dispositivo móvel
 
@@ -54,7 +54,7 @@ Você também pode definir um perfil de configurações que se aplica a todas as
 
 Siga estas etapas para criar e gerenciar configurações de usuário para dispositivos móveis.
 
-1. Acesse **Gerenciamento de depósito \> Dispositivo móvel \> Configurações de usuário do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Configurações de usuário do dispositivo móvel**.
 1. Selecione um perfil de configurações de usuário existente no painel de lista para abrir o registro. Como alternativa, selecione **Novo** no Painel de Ações para criar um perfil.
 
     Cada perfil no painel de lista é identificado para indicar a marca, o modelo e/ou a ID de usuário à qual o perfil se aplica. Perfis mais gerais têm um valor *Todos* para algumas ou todas essas características.
@@ -83,19 +83,19 @@ Use a página **Marcas de dispositivo móvel** para exibir, criar e gerenciar as
 
 Siga estas etapas para criar e gerenciar marcas e modelos de dispositivos móveis.
 
-1. Acesse **Gerenciamento de depósito \> Dispositivo móvel \> Marcas de dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Marcas de dispositivo móvel**.
 1. No painel de lista, selecione uma marca de dispositivo móvel para abrir seu registro. Como alternativa, selecione **Novo** no Painel de Ações para criar uma marca.
 1. Na seção do cabeçalho do registro da marca do dispositivo novo ou selecionado, defina os seguintes campos:
 
     - **Nome da marca do dispositivo** – O nome da marca do dispositivo, como *Microsoft Corporation*.
     - **Descrição** – Você pode inserir uma descrição para ajudar a diferenciar nomes de marcas.
 
-1. A FastTab **Modelos de dispositivo móvel** mostra todos os modelos da marca de dispositivo selecionada. Use os botões da barra de ferramentas para adicionar linhas à grade ou para removê-las. Para cada linha, você pode definir os seguintes campos:
+1. A Guia Rápida **Modelos de dispositivo móvel** mostra todos os modelos da marca de dispositivo selecionada. Use os botões da barra de ferramentas para adicionar linhas à grade ou para removê-las. Para cada linha, você pode definir os seguintes campos:
 
     - **ID do modelo do dispositivo** – A ID do modelo do dispositivo, como *Surface Book 2*.
     - **Descrição** – Você pode inserir uma descrição para ajudar a diferenciar IDs de modelos.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Instalar e conectar o aplicativo móvel Gerenciamento de Depósito](install-configure-warehouse-management-app.md)
+- [Instalar e conectar o aplicativo móvel Warehouse Management](install-configure-warehouse-management-app.md)
 - [Atribuir títulos e ícones de etapa ao aplicativo móvel Warehouse Management](step-icons-titles.md)

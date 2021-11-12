@@ -2,7 +2,7 @@
 title: Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B
 description: Este tópico descreve como administradores podem adicionar, editar e excluir usuários de parceiros comerciais em sites de comércio eletrônico entre empresas (B2B).
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734934"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713684"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B
 
@@ -68,6 +68,18 @@ Para aprovar e configurar um usuário administrador de parceiro comercial na sed
 1. Acesse **TI de Varejo e Comércio \> Agenda de distribuição** e execute o trabalho **1010** (**Clientes**) para enviar os registros de cliente recém-criado e de hierarquia cliente para o banco de dados do canal.
 
 Depois que a solicitação for aprovada, e os registros de cliente e de hierarquia do cliente forem sincronizados com o banco de dados do canal, o solicitante poderá entrar no site de comércio eletrônico B2B usando o endereço de email fornecido ao enviar a solicitação. Os usuários podem usar o fluxo de inscrição para definir a senha da conta. Para habilitar o registro de provedor de identidade (Azure AD B2C) a ser vinculado ao registro de cliente B2B criado na inscrição ou na entrada, siga as instruções em [Habilitar vinculação automática de registros de identidade a contas de clientes](../identity-record-linking.md).
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Notificar clientes potenciais B2B quando forem aprovados ou rejeitados
+
+Ao aprovar ou rejeitar uma solicitação de integração de clientes potenciais B2B, você pode enviar automaticamente uma notificação por email ao cliente potencial. 
+
+Para configurar notificações por email no Commerce Headquarters para eventos do tipo de notificação de cliente potencial B2B aprovado ou rejeitado, siga estas etapas.
+
+1. Crie modelos para emails que serão enviados para clientes potenciais quando o tipo de notificação de cliente potencial B2B aprovado ou rejeitado for disparado.
+
+    Para obter informações sobre os espaços reservados com suporte dos tipos de notificação de cliente potencial B2B aprovado ou rejeitado, consulte [Tipos de notificação](../email-templates-transactions.md#notification-types). Para obter informações sobre como criar modelos de email, consulte [Criar um modelo de email](../email-templates-transactions.md#create-an-email-template). 
+
+1. Adicione os tipos de notificação de cliente potencial B2B aprovado e rejeitado ao seu perfil de notificação por email e mapeie-os para os modelos de email que você criou. Para obter mais informações sobre perfis de notificação, consulte [Configurar um perfil de notificação por email](../email-notification-profiles.md). 
 
 ## <a name="onboard-additional-business-partner-users"></a>Integrar usuários adicionais do parceiro comercial
 

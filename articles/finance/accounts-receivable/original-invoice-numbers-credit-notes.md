@@ -2,7 +2,7 @@
 title: Referências a faturas originais em notas de crédito
 description: Este tópico explica como configurar e imprimir os números de fatura originais nas notas de crédito relacionadas.
 author: ilkond
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723838"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700346"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Referências a faturas originais em notas de crédito
 
@@ -49,7 +49,7 @@ A funcionalidade descrita neste tópico aplica-se aos seguintes documentos:
 Siga estas etapas para definir o parâmetro que controla se as referências às faturas originais são impressas em notas de crédito relacionadas.
 
 1. Acesse **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber**.
-2. Na guia **Atualizações**, na FastTab **Fatura**, defina a opção **Aplicar o layout de faturamento de crédito para vendas e relatórios de faturas de projetos** como **Sim**.
+2. Na guia **Atualizações**, na Guia Rápida **Fatura**, defina a opção **Aplicar o layout de faturamento de crédito para vendas e relatórios de faturas de projetos** como **Sim**.
 
 ![Configurar Parâmetros de contas a receber.](media/original-invoice-number-in-credit-note.jpg)
 
@@ -95,5 +95,10 @@ Quando você imprime notas de crédito de texto livre, cliente e projeto, elas i
 > [!NOTE]
 > Verifique se os formatos imprimíveis dos documentos estão configurados corretamente, supondo que as referências a faturas originais serão impressas.
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>Referências a faturas originais em notas de débito
+
+Por padrão, as referências a faturas originais podem ser inseridas para notas de crédito. Por exemplo, você pode inserir referências ao criar correções negativas (decrescentes) de faturas originais.
+
+Para inserir referências ao fazer correções positivas (crescentes) de faturas originais, você deve habilitar o recurso **Referências a faturas originais no recurso de notas de débito** no espaço de trabalho **Gerenciamento de recursos**.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

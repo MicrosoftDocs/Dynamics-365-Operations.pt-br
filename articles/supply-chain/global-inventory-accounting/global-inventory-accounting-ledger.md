@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e956bac61df4b694ef347b804fed139e9e22e6f95d1bac7ea483a07946cb110f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b29bb1aea9e96b5ef39303025cb286f0d1fde12c
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722430"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678874"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Razão do Contabilidade de estoque global
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 A Contabilidade de estoque global tem seu próprio conjunto de razões. Toda vez que uma transação relacionada ao inventário é processada para uma entidade legal relevante, o sistema pode considerar essa transação em qualquer número de razões da Contabilidade de estoque global, conforme necessário.
 
@@ -31,7 +31,7 @@ Para configurar os razões contábeis de estoque global, Acesse **Contabilidade 
 - **Nome** – Digite o nome do razão.
 - **Descrição** – Digite uma descrição do razão.
 - **Calendário fiscal** – Especifique o calendário fiscal do razão.
-- **Moeda e tipo de taxa de câmbio** – Use os campos nesta FastTab para selecionar a moeda contábil usada pelo razão e o tipo de taxa de câmbio. A moeda selecionada pode ser diferente da moeda usada pela entidade legal. Na Contabilidade de estoque global, os usuários podem definir quantos razões de custo forem necessários. A Contabilidade de estoque global oferece suporte a estatísticas de estoque em várias moedas e em várias avaliações. Defina os seguintes campos:
+- **Moeda e tipo de taxa de câmbio** – Use os campos nesta Guia Rápida para selecionar a moeda contábil usada pelo razão e o tipo de taxa de câmbio. A moeda selecionada pode ser diferente da moeda usada pela entidade legal. Na Contabilidade de estoque global, os usuários podem definir quantos razões de custo forem necessários. A Contabilidade de estoque global oferece suporte a estatísticas de estoque em várias moedas e em várias avaliações. Defina os seguintes campos:
 
     - **Moeda** – Selecione a moeda de custo na qual os valores relacionados ao estoque são mantidos. Esses valores incluem o valor de estoque, o custo dos produtos vendidos, o estoque em trânsito e todos os tipos de variação.
     - **Tipo de taxa de câmbio** – Selecione a taxa de câmbio que o sistema deve usar para converter o valor da transação na moeda da transação e o custo padrão dos itens na moeda de custo.

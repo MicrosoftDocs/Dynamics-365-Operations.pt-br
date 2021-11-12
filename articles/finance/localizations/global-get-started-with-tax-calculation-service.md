@@ -2,7 +2,7 @@
 title: Introdução ao Cálculo de Imposto
 description: Este tópico explica como configurar o Cálculo de Imposto.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562117"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647425"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introdução ao Cálculo de Imposto
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Este tópico fornece informações sobre como começar a usar o Cálculo de Imposto. Ele orienta você nas etapas de configuração no Microsoft Dynamics Lifecycle Services (LCS), no Regulatory Configuration Service (RCS) e no Dynamics 365 Finance e Dynamics 365 Supply Chain Management. Depois, ele analisa o processo comum para usar recursos de Cálculo de Imposto em transações do Finance e do Supply Chain Management.
 
@@ -41,29 +39,10 @@ A configuração consiste em quatro etapas principais:
 
 Antes de concluir os procedimentos deste tópico, os pré-requisitos devem estar em vigor para cada tipo de ambiente.
 
-### <a name="for-a-production-environment"></a>Para um ambiente de produção
-
-Para um ambiente de produção, os seguintes pré-requisitos devem ser atendidos:
+Estes pré-requisitos devem ser atendidos:
 
 - Você deve ter acesso à conta do LCS e deve ter um projeto do LCS implantado com ambiente com Camada 2 ou superior que executa o Dynamics 365 versão 10.0.21 ou posterior.
 - Você deve criar um ambiente de RCS para sua organização e deve ter acesso à sua conta. Para obter mais informações sobre como criar um ambiente de RCS, consulte [Visão geral do Regulatory Configuration Service](rcs-overview.md).
-- Os recursos a seguir devem ser ativados no espaço de trabalho **Gerenciamento de recursos** de seu ambiente do Finance ou Supply Chain Management com base em suas necessidades de negócios:
-
-    - Serviço de Cálculo de Imposto
-    - Oferecer suporte a vários números de inscrição de IVA
-    - Imposto na ordem de transferência
-
-- Os recursos a seguir devem ser ativados no espaço de trabalho **Gerenciamento de recursos** do seu ambiente RCS implantado.
-
-    - Recursos de globalização
-
-### <a name="for-a-test-environment-public-preview"></a>Para um ambiente de teste (Versão Preliminar Pública)
-
-Para um ambiente de teste, os seguintes pré-requisitos devem ser atendidos:
-
-- Você precisa ter acesso à conta do LCS e deve um projeto do LCS implantado com ambiente com Camada 2 ou superior que executa o Dynamics 365 versão 10.0.21 ou uma versão posterior.
-- Você deve criar um ambiente de RCS para sua organização e deve ter acesso à sua conta. Para obter mais informações sobre como criar um ambiente de RCS, consulte [Visão geral do Regulatory Configuration Service](rcs-overview.md).
-- Você deve entrar em contato com a Microsoft, enviando email para <taxcalc@microsoft.com> para habilitar a liberação de versões no ambiente do Finance ou Supply Chain Management implantado.
 - Os recursos a seguir devem ser ativados no espaço de trabalho **Gerenciamento de recursos** de seu ambiente do Finance ou Supply Chain Management com base em suas necessidades de negócios:
 
     - Serviço de Cálculo de Imposto

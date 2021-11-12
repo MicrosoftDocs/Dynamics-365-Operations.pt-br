@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576919"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647180"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -75,9 +75,15 @@ Este recurso permite adicionar um campo de pesquisa à lista de trabalhos. Os tr
 
 - Pesquisa de trabalho para a interface de execução do piso de produção
 
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Habilitar relatório sobre coprodutos e subprodutos
+
+Este recurso permite que os trabalhadores usem a interface de execução de piso de produção para relatar o progresso das ordens de lote. Isso inclui um relatório sobre coprodutos e subprodutos. Para usar esse recurso, ative o recurso a seguir no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Relatório sobre coprodutos e subprodutos da interface de execução do piso de produção
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabalhar com configurações de execução de piso de produção
 
-Para criar e manter configurações de dispositivo, Acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**. A página **Configurar execução de piso de produção** mostra uma lista das configurações existentes. Nessa página , você pode executar as seguintes ações:
+Para criar e manter configurações de dispositivo, Acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**. A página **Configurar execução de piso de produção** mostra uma lista das configurações existentes. Nessa página, você pode executar as seguintes ações:
 
 - Selecione qualquer configuração de piso de produção listada na coluna à esquerda para exibi-la e editá-la.
 - Selecione **Novo** no Painel de Ações para adicionar uma nova configuração de dispositivo à lista. Em seguida, no campo **Configuração**, insira um nome para identificar a nova configuração. O nome inserido deve ser exclusivo entre todas as configurações de dispositivo e você não poderá editá-lo posteriormente.

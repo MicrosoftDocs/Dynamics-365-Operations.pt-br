@@ -2,7 +2,7 @@
 title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. É necessário habilitar o novo recurso de grade para ter acesso a esses recursos.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483845"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700128"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 O novo controle de grade fornece vários recursos úteis e eficientes que você pode usar para melhorar a produtividade do usuário, construir exibições mais interessantes dos dados e obter insights significativos sobre seus dados. Este artigo abordará os seguintes recursos: 
@@ -32,6 +33,8 @@ O novo controle de grade fornece vários recursos úteis e eficientes que você 
 -  Avaliação de expressões matemáticas 
 -  Agrupar dados tabulares (habilitados separadamente com o recurso **Agrupamento em grades**)
 -  Congelar colunas
+-  Ajustar automaticamente a largura da coluna
+-  Colunas alongáveis
 
 ## <a name="calculating-totals"></a>Calculando totais
 Nos aplicativos do Finance and Operations, os usuários podem ver os totais na parte inferior das colunas numéricas em grades. Esses totais são mostrados em uma seção de rodapé na parte inferior da grade. 
@@ -43,7 +46,7 @@ Existe uma área de rodapé na parte inferior de cada grade tabular nos aplicati
 - Totais gerais na parte inferior das colunas numéricas configuradas
 - O número de linhas no conjunto de dados 
 
-Esse rodapé é ocultado por padrão, mas pode ser ativado. Para mostrar o rodapé de uma grade, clique com o botão direito do mouse em um cabeçalho de coluna na grade e selecione a opção **Mostrar rodapé**. Depois de ativar o rodapé de uma determinada grade, essa configuração será lembrada até que o usuário oculte o rodapé. Para ocultar o rodapé, clique com o botão direito do mouse em um cabeçalho de coluna e selecione **Ocultar rodapé**.  (O posicionamento da ação **Mostrar rodapé/Ocultar rodapé** pode mudar em uma atualização futura. 
+Esse rodapé é ocultado por padrão, mas pode ser ativado. Para mostrar o rodapé de uma grade, selecione o botão **Opções de grade** no cabeçalho de grade e, depois, a opção **Mostrar rodapé**. Depois de ativar o rodapé de uma determinada grade, essa configuração será lembrada até que o usuário opte por ocultar o rodapé. Para ocultar o rodapé, selecione **Ocultar rodapé** no menu **Opções de grade**.  
 
 ### <a name="specifying-columns-with-totals"></a>Especificando colunas com totais
 No momento, nenhuma coluna mostra os totais por padrão. Pelo contrário, essa atividade é considerada de configuração única, semelhante ao ajuste das larguras das colunas em grades. Após especificação de que deseja ver os totais de uma coluna, essa configuração será lembrada na próxima vez que você visitar a página.  
@@ -82,7 +85,7 @@ Para dar suporte a esse novo comportamento, uma nova coluna para o status da lin
 Quando os usuários inserem dados antes do local em que o servidor está processando, eles podem esperar algumas degradações na experiência de entrada de dados, como a falta de pesquisas, a validação no nível de controle e a entrada de valores padrão. Recomenda-se que os usuários que precisam de uma lista suspensa para localizar um valor aguardem até que o servidor volte para a linha atual. A validação do nível de controle e a entrada de valores padrão também ocorrerão quando o servidor processar essa linha.   
 
 ### <a name="pasting-from-excel"></a>Colando a partir do Excel
-Os usuários sempre foram capazes de exportar dados de grades em aplicativos do Finance and Operations para o Excel usando o mecanismo de **Exportação para o Excel**. No entanto, a capacidade de inserir dados antes do sistema permite que a nova grade dê suporte à cópia de tabelas do Excel e colando-as diretamente em grades em aplicativos do Finance and Operations. A célula de grade na qual a operação de colagem é iniciada determina onde a tabela copiada começa a ser colada. O conteúdo da grade é substituído pelo conteúdo da tabela copiada, exceto em dois casos:
+Os usuários sempre foram capazes de exportar dados de grades em aplicativos do Finance and Operations para o Microsoft Excel usando o mecanismo de **Exportação para o Excel**. No entanto, a capacidade de inserir dados antes do sistema permite que a nova grade dê suporte à cópia de tabelas do Excel e colando-as diretamente em grades em aplicativos do Finance and Operations. A célula de grade na qual a operação de colagem é iniciada determina onde a tabela copiada começa a ser colada. O conteúdo da grade é substituído pelo conteúdo da tabela copiada, exceto em dois casos:
 
 - Se o número de colunas na tabela copiada exceder o número de colunas que permanecem na grade, iniciando a partir do local de colagem, o usuário será notificado de que as colunas extras foram ignoradas. 
 - Se o número de linhas na tabela copiada exceder o número de linhas na grade, a partir do local de colagem, as células existentes serão sobrescritas pelo conteúdo colado e todas as linhas extras da tabela copiadas serão inseridas como novas linhas na parte inferior da grade. 
@@ -125,6 +128,9 @@ Para congelar uma coluna, clique com o botão direito do mouse no cabeçalho da 
 Para descongelar uma coluna, clique com o botão direito do mouse no cabeçalho da coluna congelada e selecione **Descongelar coluna**. 
 
 Observe que a seleção de linha e as colunas de status de linha e status na nova grade ficam sempre congeladas como as duas primeiras colunas. Portanto, quando essas colunas são incluídas em uma grade, elas sempre estarão visíveis para os usuários, independentemente da posição de rolagem horizontal na grade. Essas duas colunas não podem ser reordenadas.
+
+## <a name="autofit-column-width"></a>Ajustar automaticamente a largura da coluna
+Como no Excel, os usuários podem forçar o redimensionamento automático de uma coluna com base no conteúdo mostrado atualmente nessa coluna. Para isso, clique duas vezes nas alças de dimensionamento na coluna ou focalize o cabeçalho da coluna e pressione **A** (para ajuste automático). Esse recurso está disponível a partir da versão 10.0.23.  
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Como habilitar o novo controle de grade no meu ambiente? 

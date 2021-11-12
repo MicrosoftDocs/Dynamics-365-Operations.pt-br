@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1fcea155f330fa1eced8035f11f7cf204d3b2de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 382814eb3d4322ed52bd39fcb22740201335614e
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575694"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678996"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Agendamento com seleção de recursos com base na capacidade
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Ao especificar os requisitos de recursos para uma operação de um roteiro de produção, você define o que é necessário para executar essa operação. Por exemplo, uma operação pode exigir um recurso específico ou um grupo de recursos ou uma combinação de habilidades ou capacidades. Este tópico descreve a seleção de recursos durante o agendamento de capacidade infinita quando você especifica capacidades como requisitos de recursos para uma operação.
 

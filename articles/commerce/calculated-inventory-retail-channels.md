@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 1b1e0ea264dd74f6583d3b7fd3ecce551c73fbae
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472162"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674666"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular disponibilidade de estoque para canais de varejo
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Este tópico descreve como uma empresa pode usar o Microsoft Dynamics 365 Commerce para verificar a disponibilidade estimada de produtos nos canais online e na loja.
 
@@ -94,7 +93,7 @@ Embora outras APIs disponíveis no Commerce possam ser utilizadas diretamente no
 Para definir como a quantidade de produto deve ser retornada na saída da API, siga estas etapas.
 
 1. Acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**.
-1. Selecione a guia **Estoque** e, em seguida, na FastTab **APIs de disponibilidade de estoque para comércio eletrônico** configure o valor da configuração **Quantidade na saída da API**.
+1. Selecione a guia **Estoque** e, em seguida, na Guia Rápida **APIs de disponibilidade de estoque para comércio eletrônico** configure o valor da configuração **Quantidade na saída da API**.
 1. Execute o trabalho **1070** (**configuração do canal**) para sincronizar a última configuração para os canais.
 
 A configuração **Quantidade na saída da API** fornece três opções:
@@ -123,7 +122,7 @@ Para configurar a operação do **Pesquisa de inventário** do PDV na matriz do 
 
 1. Acesse **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**.
 1. Selecione um perfil de funcionalidade.
-1. Na FastTab **Funções**, na seção **Cálculo da disponibilidade de estoque**, altere o valor do campo **Modo de cálculo da disponibilidade de estoque** de **Serviço em tempo real** para **Canal**. Por padrão, todos os perfis de funcionalidade usam chamadas de serviço em tempo real. Você deve alterar o valor desse campo se quiser usar a lógica de cálculo do canal. Toda loja de varejo vinculada ao perfil de funcionalidade selecionado será afetada por essa alteração.
+1. Na Guia Rápida **Funções**, na seção **Cálculo da disponibilidade de estoque**, altere o valor do campo **Modo de cálculo da disponibilidade de estoque** de **Serviço em tempo real** para **Canal**. Por padrão, todos os perfis de funcionalidade usam chamadas de serviço em tempo real. Você deve alterar o valor desse campo se quiser usar a lógica de cálculo do canal. Toda loja de varejo vinculada ao perfil de funcionalidade selecionado será afetada por essa alteração.
 
 Você deve sincronizar as alterações nos canais usando o processo de agenda de distribuição no headquarters executando as seguintes etapas:
 

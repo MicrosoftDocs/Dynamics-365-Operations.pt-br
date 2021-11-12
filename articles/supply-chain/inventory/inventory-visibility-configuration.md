@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474667"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678462"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Visibilidade de Estoque
 
@@ -366,16 +366,12 @@ O índice permite consultar o estoque disponível das seguintes maneiras:
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuração de reserva (opcional)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 A configuração da reserva será necessária se você desejar usar o recurso de reserva flexível. A configuração consiste em duas partes fundamentais:
 
 - Mapeamento de reserva flexível
 - Hierarquia de reserva flexível
 
 ### <a name="soft-reservation-mapping"></a>Mapeamento de reserva flexível
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Ao fazer uma reserva, você pode querer saber se o estoque em mãos está disponível para reserva. A validação está ligada a uma medida calculada que representa uma fórmula de cálculo de uma combinação de medidas físicas.
 
@@ -446,8 +442,6 @@ Portanto, se você tentar fazer reservas em `iv.SoftReservOrdered` e a quantidad
 > Ao chamar a API de reserva, você pode controlar a validação da reserva especificando o parâmetro booliano `ifCheckAvailForReserv` no corpo da solicitação. Um valor `True` significa que a validação é necessária, enquanto um valor `False` significa que a validação não é necessária. O valor padrão é `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Hierarquia de reserva flexível
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 A hierarquia de reservas descreve a sequência de dimensões que deve ser especificada quando as reservas são feitas. Ele funciona da mesma forma que a hierarquia de índice do produto funciona para consultas disponíveis.
 
@@ -747,8 +741,6 @@ A tabela a seguir mostra a configuração do índice padrão.
 Esta seção descreve a configuração de reserva padrão.
 
 #### <a name="reservation-mapping"></a>Mapeamento de reserva
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 A tabela a seguir mostra o mapeamento de reserva padrão.
 

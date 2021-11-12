@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722782"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647109"
 ---
 # <a name="vendor-invoices-overview"></a>Visão geral de faturas de fornecedor
 
@@ -72,12 +72,9 @@ Sua organização pode usar os fluxos de trabalho para gerenciar o processo de r
 A seguir, veja várias formas de impedir que uma fatura seja enviada para um fluxo de trabalho.
 
 - **O total da fatura e o total registrado não são iguais.** A pessoa que enviou a fatura receberá um alerta informando que os totais não são iguais. O alerta dá uma oportunidade de corrigir os saldos antes de reenviar a fatura para o fluxo de trabalho. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o total da fatura e o total da fatura registrada não forem iguais** na página **Gerenciamento de recursos** estiver ativado. 
-
 - **A fatura contém encargos não alocados.** A pessoa que enviou a fatura receberá um alerta de que os totais a fatura contém encargos não alocados, para que possam corrigir a fatura antes de reenviá-la para o fluxo de trabalho. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando houver encargos não alocados em uma fatura de fornecedor** na página **Gerenciamento de recursos** estiver ativado.
-
 - **A fatura contém o mesmo número de fatura de outra fatura lançada.** A pessoa que enviou a fatura receberá uma mensagem indicando que uma fatura com um número duplicado foi encontrada. O número duplicado pode ser corrigido antes do reenvio da fatura para o fluxo de trabalho. Esse alerta será exibido quando o parâmetro **Verificar o número de fatura usado** do Contas a pagar estiver definido como **Rejeitar duplicata**. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o número da fatura já existir em uma fatura lançada e o sistema não estiver configurado para aceitar números de fatura duplicados** na página **Gerenciamento de recursos** estiver ativado.
-
-- **A fatura contém uma linha em que a quantidade da fatura é menor que a quantidade de recebimento de produto correspondente.** A pessoa que envia a fatura ou tenta postar receberá uma mensagem de que as quantidades não são iguais. Esta mensagem fornece uma oportunidade para corrigir os valores antes de reenviar a fatura para o fluxo de trabalho. Este recurso está disponível se o parâmetro **Bloquear o lançamento e o envio de faturas de fornecedores para o fluxo de trabalho** na página **Gerenciamento de recursos** e o parâmetro **Bloquear postagem e envio ao fluxo de trabalho** na página **Parâmetros de contas a pagar** estiverem ativados.  
+- **A fatura contém uma linha em que a quantidade da fatura é menor que a quantidade de recebimento de produto correspondente.** A pessoa que envia a fatura ou tenta postar receberá uma mensagem de que as quantidades não são iguais. Esta mensagem fornece uma oportunidade para corrigir os valores antes de reenviar a fatura para o fluxo de trabalho. Este recurso está disponível se o parâmetro **Bloquear o lançamento e o envio de faturas de fornecedores para o fluxo de trabalho** na página **Gerenciamento de recursos** e o parâmetro **Bloquear postagem e envio ao fluxo de trabalho** na página **Parâmetros de contas a pagar** estiverem ativados.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Conciliando faturas de fornecedor com os recebimentos de produtos
 
@@ -122,9 +119,32 @@ Uma instância de fluxo de trabalho que foi interrompida por causa de um erro ir
 Você pode usar a página **Histórico do fluxo de trabalho** para redefinir o status do fluxo de trabalho como **Rascunho**. Você pode abrir essa página desde **Fatura de fornecedor** ou da navegação **Comum > Consultas > Fluxo de trabalho**. Para redefinir o status de fluxo de trabalho como **Rascunho**, selecione **Cancelar**. Você também pode redefinir o status de fluxo de trabalho como Rascunho ao selecionar a ação **Cancelar** na página **Fatura de fornecedor** ou **Faturas de fornecedor pendentes**. Depois que o status do fluxo de trabalho é redefinido como **Rascunho**, ele fica disponível para edição na página **Fatura de fornecedor**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Exibição do total da fatura na página Faturas de fornecedor pendentes
+
 Você pode exibir o total da fatura na página **Faturas de fornecedor pendentes** ao habilitar o parâmetro **Exibir total da fatura em faturas de fornecedor pendentes** na página **Parâmetros de contas a pagar**. 
 
+## <a name="vendor-open-transactions-report"></a>Relatório de transações abertas do fornecedor
 
+O relatório **Transações abertas do fornecedor** fornece informações detalhadas sobre as transações abertas para cada fornecedor a partir da data especificada. Esse relatório é geralmente usado durante o procedimento de auditoria para verificar saldos entre transações de livros de fornecedores e transações de contas contábeis.
+
+Para cada transação, o relatório inclui os seguintes detalhes:
+
+- Número da fatura
+- Data da transação
+- Número do comprovante
+- Valor da transação na moeda da transação e na moeda contábil
+- Saldo de crédito na moeda da transação e na moeda contábil
+- Saldo de débito na moeda da transação e na moeda contábil
+- O valor do subtotal na moeda contábil
+- Data de vencimento do pagamento
+
+### <a name="filter-the-data-on-the-report"></a>Filtrar os dados no relatório
+
+Quando você gera o relatório **Transações abertas do fornecedor**, os seguintes parâmetros padrão são disponibilizados. Você pode usá-los para filtrar os dados que serão incluídos no relatório.
+
+- **Excluir liquidação futura** – marque esta caixa de seleção para excluir as transações que são liquidadas após a data inserida no campo **Transações abertas por**.
+- **Transações abertas por** – insira uma data para incluir transações que estão abertas a partir dessa data. Se você não inserir uma data, esse campo será definido como a data máxima. A data máxima é a última data que o sistema aceitará, 31 de dezembro de 2154. Por padrão, na próxima vez que o relatório for executado, esse campo será definido como a última data inserida nele.
+
+Você pode usar os filtros do campo **Registro a ser incluído** para limitar ainda mais os dados da transação incluídos no relatório.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

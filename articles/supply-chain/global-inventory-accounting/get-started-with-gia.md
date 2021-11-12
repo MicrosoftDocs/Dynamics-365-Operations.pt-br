@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773278"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678850"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introdução à Contabilidade de estoque global
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 A Contabilidade de estoque global de custos permite realizar múltiplas contabilidades de inventário nos razões da Contabilidade de estoque global. É necessário associar cada razão da Contabilidade de estoque global a uma *convenção*. Uma convenção é uma coleção dos seguintes tipos de políticas de contabilidade:
 
@@ -60,9 +60,9 @@ Antes de habilitar a funcionalidade de suplemento, você deve se integrar ao Mic
 1. Na caixa de diálogo **Configuração do ambiente do Power Platform**, marque a caixa de seleção e selecione **Configuração**. Normalmente, a configuração leva entre 60 e 90 minutos.
 1. Após a configuração do ambiente do Microsoft Power Platform ser concluída, a página mostra o nome do seu ambiente. Além disso, a seção **Integração do Power Platform** mostra a afirmação: "A configuração de ambiente do Power Platform foi concluída." A Contabilidade de estoque global não requer um aplicativo de gravação dupla.
 
-Para obter mais informações, consulte [Configuração após a implantação do ambiente](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+Para obter mais informações, consulte a página [Habilitar após a implantação do ambiente](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Configurar o Dataverse
+### <a name="set-up-dataverse"></a>Configurar Dataverse
 
 Antes de configurar o Dataverse, adicione os princípios do Contabilidade de estoque global ao seu locatário seguindo essas etapas.
 
@@ -107,11 +107,11 @@ Siga estas etapas para instalar o suplemento para que você possa usar a Contabi
 1. Acesse **Detalhes completos**.
 1. Acesse **Integração do Power Platform** e selecione **Configuração**.
 1. Na caixa de diálogo **Configuração do ambiente do Power Platform**, marque a caixa de seleção e selecione **Configuração**. Normalmente, a configuração leva entre 60 e 90 minutos.
-1. Após a configuração do ambiente do Microsoft Power Platform ser concluída, na FastTab **Suplementos do ambiente**, selecione **Instalar um novo suplemento**.
+1. Após a configuração do ambiente do Microsoft Power Platform ser concluída, na Guia Rápida **Suplementos do ambiente**, selecione **Instalar um novo suplemento**.
 1. Selecione **Contabilidade de estoque global**.
 1. Acompanhe o guia de instalação e concorde com os termos e condições.
 1. Selecione **Instalar**.
-1. Na FastTab **Suplementos do ambiente**, você verá que o Contabilidade de estoque global está sendo instalado. Após alguns minutos, o status deve mudar de *Instalando* para *Instalado*. (Talvez seja necessário atualizar a página para ver essa alteração.) Nesse momento, a Contabilidade de estoque global já está pronto para uso.
+1. Na Guia Rápida **Suplementos do ambiente**, você verá que o Contabilidade de estoque global está sendo instalado. Após alguns minutos, o status deve mudar de *Instalando* para *Instalado*. (Talvez seja necessário atualizar a página para ver essa alteração.) Nesse momento, a Contabilidade de estoque global já está pronto para uso.
 
 ## <a name="set-up-the-integration"></a>Configurar a integração
 

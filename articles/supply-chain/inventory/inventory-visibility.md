@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575162"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678900"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Visão geral do Suplemento Visibilidade de Estoque
 
@@ -45,8 +45,6 @@ Existem duas abordagens para exibir seu estoque:
 - Exibir a lista bruta disponível. Essa lista é sincronizada periodicamente de uma instância em cache e é visível no Dataverse. Para obter mais informações, consulte [Aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>Reservas flexíveis
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 A reserva flexível é aplicada quando uma empresa deve reservar uma quantidade específica de produtos para dar suporte, por exemplo, ao atendimento de ordens de venda de modo a evitar vendas excessivas. Quando uma ordem de venda é criada e confirmada no Supply Chain Management ou em outros sistemas de gerenciamento de ordens, uma solicitação para reservar a quantidade é enviada ao Visibilidade de Estoque. O Visibilidade de Estoque permite que você reserve produtos com detalhes de dimensão e tipos de transação de estoque específicos. (Para obter mais informações, consulte [Aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md).) Depois que a quantidade for reservada com êxito, uma ID de reserva será retornada. Você pode usar essa ID de reserva para vincular de volta ao solicitação original no Supply Chain Management ou outros sistemas de gerenciamento de ordens.
 

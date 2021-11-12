@@ -1,7 +1,7 @@
 ---
 title: Métodos e convenções de depreciação
 description: Este artigo oferece uma visão geral das convenções e dos métodos de depreciação com suporte no Microsoft Dynamics 365 Finance.
-author: ShylaThompson
+author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daa8f70e12a8c837a599ead5ef8b98aaf13e8cc827853de8b0332611ed2e257e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6abf98b4c1eee3657960a1912445171acc0686a
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713225"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674517"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Métodos e convenções de depreciação
 
@@ -32,7 +32,7 @@ Você pode selecionar vários métodos de depreciação e convenções. A finali
 
 Se você estiver usando convenções de depreciação e modificar a última data de execução da depreciação para um ativo, o que ignora algumas depreciações, a depreciação do último ano poderá ser maior ou menor que o esperado. A depreciação é ajustada pelo número de períodos de depreciação afetados pela modificação da última data de execução.
 
-Por exemplo, se você estiver usando a convenção de depreciação de meio ano durante três anos, a depreciação normalmente ocorrerá em 3 1/2 anos. Se você alterar a última data de execução de depreciação durante os 3 1/2 anos, o último ano de depreciação sairá do número de períodos afetados. Se você mover a data em três meses, o último ano terá nove meses de depreciação, quando geralmente haveria seis meses de depreciação.
+Por exemplo, se você estiver usando a convenção de depreciação de meio ano durante três anos, a depreciação normalmente ocorrerá em três anos e meio. Se você alterar a última data de execução de depreciação durante os três anos e meio, o último ano de depreciação sairá do número de períodos afetados. Se você mover a data em três meses, o último ano terá nove meses de depreciação, quando geralmente haveria seis meses de depreciação.
 
 Você pode selecionar uma das convenções de depreciação a seguir.
 
@@ -77,7 +77,7 @@ Você pode selecionar um dos seguintes métodos de depreciação.
 
 [Depreciação da vida útil linear restante](straight-line-life-remaining-depreciation.md)
 
-[depreciação com declínio de 125%](125-percent-reducing-balance-depreciation.md)
+[Depreciação por declínio de 125%](125-percent-reducing-balance-depreciation.md)
 
 [depreciação com declínio de 150%](150-percent-reducing-balance-depreciation.md)
 

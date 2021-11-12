@@ -2,7 +2,7 @@
 title: Pesquisa de produto e de cliente no ponto de venda (PDV)
 description: Este tópico fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716380"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700080"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
@@ -47,7 +47,7 @@ Uma pesquisa local do produto faz a pesquisa dentro das seguintes propriedades d
 - Código de barras
 - Pesquisar nome
 
-### <a name="additional-local-product-search-capabilities"></a>Recursos adicionais de pesquisa local de produtos
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Recursos adicionais de pesquisa local do produto (pesquisa de texto completo de SQL convencional) 
 
 - Para pesquisa de várias palavras-chave (isto é, para pesquisas que usam termos de pesquisa) os varejistas podem configurar se os resultados da pesquisa incluem resultados que correspondem a *qualquer* termo de pesquisa ou somente a resultados que correspondem a *todos* os termos da pesquisa. A configuração desta funcionalidade está disponível no perfil da funcionalidade de PDV, em um novo grupo chamado **Pesquisa de produto**. A configuração padrão é **Corresponder qualquer termo de pesquisa**. Esta configuração também é a configuração recomendada. Quando a configuração **Corresponder a qualquer termo da pesquisa** for usada, todos os produtos que correspondam totalmente ou parcialmente um ou mais termos de pesquisa são retornados como resultados. Os resultados são classificados em ordem crescente automaticamente de produtos com a maioria de resultados da palavra-chave (total ou parcial.)
 
@@ -55,6 +55,8 @@ Uma pesquisa local do produto faz a pesquisa dentro das seguintes propriedades d
 
     - A pesquisa é feita em propriedades de produto individuais. Por exemplo, somente os produtos que têm todas as palavras-chave pesquisadas em pelo menos uma propriedade de produto são retornados.
     - As dimensões não são pesquisadas.
+> [!NOTE]
+> As configurações a seguir de **Corresponder qualquer termo de pesquisa**/**Corresponder todos os termos de pesquisa** nos perfis de funcionalidade de PDV só são aplicáveis a pesquisas de produtos **locais** (pesquisa de texto completo de SQL convencional). Essa configuração não tem efeito nas experiências de pesquisa habilitadas na nuvem. O novo mecanismo de pesquisa tem seu próprio algoritmo avançado que reforça a relevância da pesquisa para os resultados da pesquisa de produtos. 
 
 - Fornecedores podem configurar a pesquisa de produtos para mostrar sugestões de pesquisa como nomes de produto do tipo de usuário. Uma nova configuração para esta funcionalidade está disponível no perfil da funcionalidade de PDV, em um grupo chamado **Pesquisa de produto**. A configuração é chamada **Mostrar sugestões de pesquisa ao digitar**. Esta funcionalidade pode ajudar funcionários a encontrar rapidamente o produto que eles estão pesquisando, porque eles não precisam digitar o nome completo manualmente.
 - O algoritmo de pesquisa do produto agora também procura os termos pesquisados na propriedade **Pesquisar nome** do produto.
@@ -76,7 +78,7 @@ Entre essas propriedades, o nome fornece a maior flexibilidade para pesquisas de
 
 Por padrão, uma pesquisa de cliente é feita em catálogos de endereços do cliente associados ao armazenamento. Este tipo de pesquisa é conhecido como *pesquisa local do cliente*. Porém, os funcionários também podem pesquisar os clientes globalmente. Em outras palavras, eles podem pesquisar nos armazenamentos da empresa e em outras entidades legais. Este tipo de pesquisa é conhecido como *pesquisa remota do cliente*.
 
-Para pesquisar globalmente, os funcionários podem selecionar o botão **Resultados de filtragem** na parte inferior da página e selecionar a opção **Pesquisa todos os armazenamentos** , conforme mostra a ilustração que segue. Nesse caso, não são retornados apenas os clientes. Todos os tipos de participantes que fazem parte do catálogo de endereços da sede também são retornados. Esses participantes incluem trabalhadores, fornecedores, contatos e concorrentes.
+Para pesquisar globalmente, os funcionários podem selecionar o botão **Resultados de filtragem** na parte inferior da página e selecionar a opção **Pesquisa todos os armazenamentos**, conforme mostra a ilustração que segue. Nesse caso, não são retornados apenas os clientes. Todos os tipos de participantes que fazem parte do catálogo de endereços da sede também são retornados. Esses participantes incluem trabalhadores, fornecedores, contatos e concorrentes.
 
 > [!NOTE]
 > Um número mínimo de quatro caracteres deve ser inserido para uma pesquisa remota de cliente para retornar os resultados.
@@ -147,7 +149,5 @@ A lista a seguir mostra como a funcionalidade de pesquisa habilitada para a nuve
 > O recurso de pesquisa de cliente usando o serviço de pesquisa cognitiva do Azure está disponível em regiões limitadas para visualização. O recurso de pesquisa do cliente *não está* disponível nas seguintes regiões:
 > - Brasil
 > - Índia
-> - Canadá
-> - Reino Unido
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
