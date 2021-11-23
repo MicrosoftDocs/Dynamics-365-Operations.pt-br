@@ -2042,7 +2042,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/commerce/toc.json
                     - name: Compactar documentos de saída grandes
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Inspecione os componentes de ER configurados
+                - name: Inspecionar os componentes de ER configurados
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/commerce/toc.json
                 - name: Caminho relativo em associações de dados
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/commerce/toc.json
@@ -2532,12 +2532,14 @@
                   items:
                     - name: Práticas recomendadas para desenvolvimento do Dynamics 365 Commerce
                       href: e-commerce-extensibility/best-practices-dev.md
-                    - name: Perguntas frequentes do SDK online do Dynamics 365 Commerce
+                    - name: Perguntas frequentes sobre o SDK online do Dynamics 365 Commerce
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Práticas recomendadas de depuração para desenvolvimento do Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
             - name: SDK do Retail
               items:
+                - name: Migrar para o SDK do Commerce
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: Arquitetura do SDK do Retail
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Configurar um pipeline de build para o SDK de compactação independente

@@ -547,11 +547,11 @@
           items:
             - name: Entidades de destino
               href: asset-management/data-management/target-entities.md
-        - name: Contabilidade de custos
+        - name: Contabilização de custos
           items:
-            - name: Home page da contabilidade de custos
+            - name: Home page da contabilização de custos
               href: ../finance/cost-accounting/cost-accounting-home-page.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Terminologia de contabilidade de custos
+            - name: Terminologia de contabilização de custos
               href: ../finance/cost-accounting/terms-cost-accounting.md?toc=/dynamics365/supply-chain/toc.json
             - name: 'Calendários, anos e períodos fiscais'
               href: ../finance/budgeting/fiscal-calendars-fiscal-years-periods.md?toc=/dynamics365/supply-chain/toc.json
@@ -589,7 +589,7 @@
               href: ../finance/cost-accounting/tasks/configure-access-rights-cost-object-controller.md?toc=/dynamics365/supply-chain/toc.json
             - name: Definir unidades de controle de custos
               href: ../finance/cost-accounting/tasks/define-cost-control-units.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Criar um razão de Contabilidade de custos
+            - name: Criar um razão de Contabilização de custos
               href: ../finance/cost-accounting/tasks/create-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: ​Membros estatísticos de dimensões e modelos de fornecedores de medidas estatísticas​
               href: ../finance/cost-accounting/statistical-measure-provider-template.md?toc=/dynamics365/supply-chain/toc.json
@@ -603,7 +603,7 @@
               href: ../finance/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md?toc=/dynamics365/supply-chain/toc.json
             - name: Criar uma política de acúmulo de custo
               href: ../finance/cost-accounting/tasks/create-cost-rollup-policy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Gerenciar fonte de dados para o razão de Contabilidade de custos
+            - name: Gerenciar fonte de dados para o razão de Contabilização de custos
               href: ../finance/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
             - name: Processar e rastrear dados de origem
               href: ../finance/cost-accounting/tasks/process-trace-source-data.md?toc=/dynamics365/supply-chain/toc.json
@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: Ajustar valores de custo de estoque disponível
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Relatório de armazenamento de valor de estoque
+                - name: Relatórios de valor de estoque
                   href: cost-management/inventory-value-report-storage.md
+                - name: Exemplos de relatório de valor de estoque e lógica
+                  href: cost-management/inventory-value-report-examples.md
                 - name: Armazenamento de relatório de classificação por vencimento do estoque
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Exemplos de relatório de classificação por vencimento do estoque e lógica
@@ -1371,7 +1373,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Compactar documentos de saída grandes
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Inspecione os componentes de ER configurados
+                - name: Inspecionar os componentes de ER configurados
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Caminho relativo em associações de dados
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/supply-chain/toc.json
@@ -1673,7 +1675,9 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Agendamento com seleção de recursos com base na capacidade
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Marca de estoque com Otimização de Planejamento
+                - name: Planejamento baseado em prioridade
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: Marca de estoque com a Otimização de Planejamento
                   href: master-planning/planning-optimization/marking.md
                 - name: Planejamento intercompanhia
                   href: master-planning/planning-optimization/Intercompany-planning.md
@@ -1719,11 +1723,13 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Atendimento de estoque de segurança para itens
                   href: master-planning/safety-stock-replenishment.md
+                - name: Usar o diário de estoque de segurança para atualizar a cobertura mínima para os itens
+                  href: master-planning/safety-stock-journal.md
                 - name: Atrasos
                   href: master-planning/delays.md
                 - name: Cancelar um trabalho mestre de planejamento
                   href: master-planning/cancel-master-planning-job.md
-                - name: Use o rastreamento para detalhamento
+                - name: Usar o rastreamento para detalhamento
                   href: master-planning/trace-explosion.md
                 - name: Mensagens de ação
                   href: master-planning/action-messages.md
@@ -2351,6 +2357,8 @@
               href: production-control/unified-job-ids.md
             - name: Invocar fluxos de automação de processo para criar ordens de qualidade
               href: production-control/process-automation-quality-orders.md
+            - name: Integrar com sistemas de execução de fabricação de terceiros
+              href: production-control/mes-integration.md
             - name: Fabricação discreta
               items:
                 - name: Manter dados mestres de produção
@@ -2649,6 +2657,8 @@
                   href: production-control/production-floor-execution-use.md
                 - name: Criar estilo para a interface de execução de piso de produção
                   href: production-control/production-floor-execution-styles.md
+                - name: Personalizar a interface de execução de piso de produção
+                  href: production-control/production-floor-execution-customize.md
         - name: Gerenciamento de reembolsos
           items:
             - name: Visão geral do módulo de gerenciamento de reembolsos

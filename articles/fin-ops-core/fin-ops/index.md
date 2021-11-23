@@ -1,25 +1,25 @@
 ---
 title: Documentação de aplicativos do Finance and Operations
 description: Documentação para aplicativos do Finance and Operations.
-author: robinarh
+author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0746b420d770896ee6010c0e5f5fe17d2e6e52bf0b5d10bf831df7901060c983
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739422"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782123"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentação de aplicativos do Finance and Operations
 
@@ -73,7 +73,7 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynami
 <p><a href="../../finance/budgeting/budgeting-overview.md">Orçamento</a></p>
 <p><a href="../../finance/cash-bank-management/cash-bank-management.md">Gerenciamento de caixa e bancos</a></p>
 <p><a href="../../finance/general-ledger/audit-policy-rules.md">Conformidade</a></p>
-<p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Contabilidade de custos</a></p>
+<p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Contabilização de custos</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Ativos fixos</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Contabilidade</a></p>
 <p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Gerenciamento de projetos</a></p>

@@ -2,7 +2,7 @@
 title: Home page do Finance
 description: Este tópico oferece uma lista de tópicos da Ajuda e outros recursos para o gerenciamento financeiro do Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 08/18/2021
+ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394554"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753712"
 ---
 # <a name="finance-home-page"></a>Home page do Finance
 
@@ -38,15 +38,13 @@ Escolha uma área de recursos para saber mais a respeito.
         - [Arrendamento de ativos](asset-leasing/asset-leasing-homepage.md)
         - [Orçamento](budgeting/budgeting-overview.md) 
         - [Gerenciamento de caixa e bancos](cash-bank-management/cash-bank-management.md)
-        - [Contabilidade de custos](cost-accounting/cost-accounting-home-page.md)
+        - [Contabilização de custos](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Gerenciamento de despesas](/dynamics365/project-operations/prod-exp/expense-management)
         - [Relatórios financeiros](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Ativos fixos](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Contabilidade e relatórios financeiros](general-ledger/general-ledger.md) 
-        - [Gerenciamento e contabilidade do projeto](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Setor público](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -66,11 +64,19 @@ Confira os vídeos de instruções que agora estão disponíveis no [canal do Mi
 
 ### <a name="countryregion-functionality"></a>Funcionalidade de país/região
 
-As regulamentações do país/região afetam a configuração dos impostos e outras áreas de gerenciamento financeiro. Consulte a seção [Recursos de localização e regulatórios](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) de nosso conteúdo de ajuda para conhecer a funcionalidade específica de país/região.
+As regulamentações do país/região afetam a configuração dos impostos e outras áreas de gerenciamento financeiro. Para saber mais sobre a funcionalidade específica de país/região, consulte [Recursos de localização e regulatórios](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
 
 ### <a name="additional-content"></a>Conteúdo adicional
 
-A funcionalidade de Supply Chain Management aborda partes do processo de compra ao pagamento que inclui a requisição, o pedido, o recebimento, o faturamento e o pagamento dos bens e serviços que sua organização comprar. Consulte a [home page do Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) para obter informações sobre os recursos para gerenciar as compras, o estoque e a fabricação.
+A funcionalidade Gerenciamento da cadeia de fornecimento cobre partes do processo de compras a pagar que incluem:
+
+   - Requisição
+   - Pedido 
+   - Recebimento
+   - Faturamento
+   - Pagando pelos bens e serviços que sua organização compra 
+    
+Para obter informações sobre os recursos para gerenciar as compras, o estoque e a fabricação, consulte a [home page do Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 

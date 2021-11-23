@@ -1166,12 +1166,14 @@
                   href: power-platform/enable-virtual-entities.md
                 - name: Portais do Power Apps com o Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: Perguntas frequentes sobre entidades virtuais do Finance and Operations
+                - name: Perguntas frequentes sobre as entidades virtuais do Finance and Operations
                   href: power-platform/faq.md
             - name: Eventos de negócios
               items:
-                - name: Visão geral sobre eventos de negócios
+                - name: Visão geral de eventos de negócios
                   href: business-events/home-page.md
+                - name: Gerenciando pontos de extremidade de eventos de negócios
+                  href: business-events/managing-business-event-endpoints.md
                 - name: Eventos de negócios de aplicativos
                   href: business-events/app-business-events.md
                 - name: Eventos de negócios de fluxos de trabalho
@@ -1198,12 +1200,16 @@
                       href: business-events/how-to/how-to-eventgrid.md
                     - name: Eventos de negócios e Barramento de Serviço do Azure
                       href: business-events/how-to/how-to-servicebus.md
+                    - name: Eventos de negócios e Fila do Barramento de Serviço do Azure
+                      href: business-events/how-to/how-to-servicebus-queue.md
                     - name: Eventos de negócios e aprovações de fluxo de trabalho
                       href: business-events/how-to/how-to-workflow.md
                     - name: Eventos de negócios e Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
                     - name: Eventos de negócios e Hubs de Eventos do Azure
                       href: business-events/how-to/event-hub.md
+                    - name: Inscrever-se em eventos no Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
                     - name: Eventos de negócios no fechamento do período financeiro
                       href: business-events/how-to/period-close.md
             - name: Suplementos
@@ -1654,8 +1660,6 @@
                   items:
                     - name: Tornar o delimitador do plano de contas exclusivo
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: Atualizar diários de comprovante único e reavaliações de moeda
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: Modelo de dados de agendamento de recursos de projeto
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Alterações no subsistema de fluxo de trabalho
