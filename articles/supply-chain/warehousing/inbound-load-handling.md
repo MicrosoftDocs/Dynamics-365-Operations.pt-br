@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577831"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778050"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
@@ -267,7 +267,7 @@ Esses cenários exigem o recurso _Vários lançamentos de recebimento de produto
 
 1. Abra o espaço de trabalho **Gerenciamento de recursos**. (Para obter detalhes completos sobre como encontrar e usar esse espaço de trabalho, consulte [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Ative o recurso _Associar transações de estoque da ordem de compra à carga_, listado da seguinte maneira:
+1. Verifique se o recurso _Associar transações de estoque da ordem de compra à carga_ está ativado. Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, está ativado por padrão e não poderá ser desativado novamente. No entanto, o recurso ainda está listado em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) da seguinte forma:
 
     - **Módulo:** _Gerenciamento de Depósito_
     - **Nome do recurso:** _Associar transações de estoque da ordem de compra à carga_

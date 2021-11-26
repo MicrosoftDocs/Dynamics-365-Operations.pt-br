@@ -2,7 +2,7 @@
 title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488129"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731629"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -85,6 +85,8 @@ Na guia **Mapeamento** do designer de operação do ER, você pode configurar a 
 
 O componente **Intervalo** indica um intervalo do Excel que deve ser controlado por esse componente ER. O nome do intervalo é definido na propriedade **Intervalo do Excel** deste componente.
 
+### <a name="replication"></a>Replicação
+
 A propriedade **Direção da replicação** especifica se e como o intervalo será repetido em um documento gerado:
 
 - Se a propriedade **Direção da replicação** estiver definida como **Sem replicação**, o intervalo do Excel apropriado não será repetido no documento gerado.
@@ -92,6 +94,8 @@ A propriedade **Direção da replicação** especifica se e como o intervalo ser
 - Se a propriedade **Direção da replicação** estiver definida como **Horizontal**, o intervalo do Excel apropriado será repetido no documento gerado. Todo intervalo replicado é colocado à direita do intervalo original em um modelo do Excel. O número de repetições é definido pelo número de registros em uma fonte de dados do tipo **Lista de registros** que está associada a este componente ER.
 
 Para saber mais sobre a replicação horizontal, siga as etapas em [Usar intervalos expansíveis horizontalmente para adicionar colunas dinamicamente nos relatórios do Excel](tasks/er-horizontal-1.md).
+
+### <a name="nested-components"></a>Componentes aninhados
 
 O componente **Intervalo** pode ter outros componentes ER aninhados que são usados para inserir valores nos intervalos nomeados apropriados do Excel.
 
@@ -105,11 +109,40 @@ O componente **Intervalo** pode ter outros componentes ER aninhados que são usa
     > [!NOTE]
     > Use este padrão para permitir que o aplicativo Excel formate valores inseridos com base na localidade do computador local que abre o documento de saída.
 
+### <a name="enabling"></a>Habilitando
+
 Na guia **Mapeamento** do designer de operação do ER, você pode configurar a propriedade **Habilitado** para um componente **Intervalo** para especificar se o componente deve ser colocado em um documento gerado:
 
 - Se uma expressão da propriedade **Habilitado** estiver configurada para retornar **Verdadeiro** no tempo de execução ou se nenhuma expressão for configurada, o intervalo apropriado será preenchido no documento gerado.
 - Se uma expressão da propriedade **Habilitado** estiver configurada para retornar **Falso** no tempo de execução e se esse intervalo não representar as linhas ou colunas inteiras, o intervalo apropriado não será preenchido no documento gerado.
 - Se uma expressão da propriedade **Habilitado** estiver configurada para retornar **Falso** no tempo de execução e se esse intervalo representar as linhas ou colunas inteiras, o documento gerado conterá essas linhas e colunas como linhas e colunas ocultas.
+
+### <a name="resizing"></a>Alinhamento
+
+Você pode configurar o modelo do Excel para usar células para apresentar dados textuais. Para garantir que todo o texto em uma célula fique visível em um documento gerado, você pode configurar essa célula para quebrar automaticamente o texto dentro dela. Você também poderá configurar a linha que contém essa célula para ajustar automaticamente a altura se o texto disposto não estiver totalmente visível. Para obter mais informações, consulte a seção "Quebrar texto automaticamente em uma célula" em [Corrigir dados cortados em células](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+
+> [!NOTE]
+> Por causa de uma [limitação do Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) conhecida, mesmo se você configurar células para quebrar texto automaticamente e configurar as linhas contendo essas células para ajustar automaticamente a altura de acordo com o texto disposto, talvez não consiga usar os recursos **Autoajuste** e **Quebra automática de texto** do Excel para células mescladas e as linhas que as contêm. 
+
+A partir do Dynamics 365 Finance versão 10.0.23, é possível forçar o ER a calcular, em um documento gerado, a altura de cada linha configurada para ajustar automaticamente a altura ao conteúdo de células aninhadas sempre que essa linha contém pelo menos uma célula mesclada que foi configurada para incluir o texto nela. A altura calculada é usada para redimensionar a linha para garantir que todas as células da linha fiquem visíveis no documento gerado. Para começar a usar essa funcionalidade ao executar formatos ER configurados para usar modelos do Excel para gerar documentos de saída, siga estas etapas.
+
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
+3. Na página **Parâmetros de relatório eletrônico**, na guia **Runtime**, defina a opção **Autoajuste da altura da linha** como **Sim**.
+
+Quando desejar alterar essa regra para um único formato ER, atualize a versão de rascunho desse formato seguindo essas etapas.
+
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Na página **Configurações de localização**, na seção **Configurações**, selecione **Configurações de relatórios**.
+3. Na página **Configurações**, na árvore de configurações no painel esquerdo, selecione uma configuração ER criada para usar um modelo do Excel para gerar documentos de saída.
+4. Na FastTab **Versões**, selecione a versão de configuração com o status **Rascunho**.
+5. No Painel de Ação, selecione **Designer**.
+6. Na página **Designer de formato**, na árvore de formatos no painel esquerdo, selecione o componente Excel que está vinculado a um modelo do Excel.
+7. Na guia **Formatar**, no campo **Ajustar altura da linha**, selecione um valor para especificar se ER deve ser forçado, no runtime, para alterar a altura de linhas em um documento de saída gerado pelo formato ER editado:
+
+    - **Padrão** – use a configuração geral que está configurada no campo **Autoajuste da altura da linha** na página **Parâmetros de relatório eletrônicos**.
+    - **Sim** – substitui a configuração geral e altera a altura da linha no runtime.
+    - **Não** – substitui a configuração geral e não altera a altura da linha no runtime.
 
 ## <a name="cell-component"></a>Componente Célula
 

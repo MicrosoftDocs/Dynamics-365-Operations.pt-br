@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6752d79a71a673fedb0caff7b6ad1023093269c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570168"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790857"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Criar a interface de execução de piso de produção
 
@@ -53,13 +53,13 @@ Para criar e configurar uma nova guia, siga estas etapas:
 
 1. Faça as seguintes configurações no cabeçalho da página:
 
-    - **Nome da guia** - Especifique um nome para a guia.
-    - **Exibição principal** - Selecione entre as duas listas de trabalhos predefinidas (*Trabalhos ativos*, *Todos os trabalhos* ou *Minha máquina*).
-    - **Exibição detalhada** - Selecione entre um valor em branco ou **Detalhes do trabalho**. Se você selecionar o valor em branco, não haverá uma exibição detalhada na guia. Se você selecionar **Detalhes do trabalho**, a exibição detalhada conterá uma descrição detalhada do trabalho selecionado na lista de trabalhos na exibição principal.
+    - **Nome da guia** – Especifique um nome para a guia.
+    - **Exibição principal** – Selecione entre as listas de trabalho predefinidas (*Trabalhos ativos*, *Todos os trabalhos* e *Minha máquina*).
+    - **Exibição detalhada** – Selecione entre um valor em branco ou **Detalhes do trabalho**. Se você selecionar o valor em branco, não haverá uma exibição detalhada na guia. Se você selecionar **Detalhes do trabalho**, a exibição detalhada conterá uma descrição detalhada do trabalho selecionado na lista de trabalhos na exibição principal.
 
 1. Na seção **Barra de ferramentas principal**, escolha quais botões devem estar disponíveis na barra de ferramentas principal. A coluna **Ações disponíveis** mostra uma lista de todos os botões que podem ser adicionados. As colunas **Ações selecionadas** mostram uma lista de todos os botões incluídos na configuração atual. Use os botões para mover itens selecionados entre as colunas, conforme necessário. Use os botões para cima e para baixo ao lado da coluna **Ações selecionadas** para controlar a ordem na qual os botões são apresentados na interface do usuário.
 
-1. Na seção **Barra de ferramentas** **secundária**, escolha quais botões devem estar disponíveis na barra de ferramentas secundária. A coluna **Ações disponíveis** mostra uma lista de todos os botões que podem ser adicionados. As colunas **Ações selecionadas** mostram uma lista de todos os botões incluídos na configuração atual. Use os botões para mover itens selecionados entre as colunas, conforme necessário. Use os botões para cima e para baixo ao lado da coluna **Ações selecionadas** para controlar a ordem na qual os botões são apresentados na interface do usuário.
+1. Na seção **Barra de ferramentas secundária**, escolha quais botões devem estar disponíveis na barra de ferramentas secundária. A coluna **Ações disponíveis** mostra uma lista de todos os botões que podem ser adicionados. As colunas **Ações selecionadas** mostram uma lista de todos os botões incluídos na configuração atual. Use os botões para mover itens selecionados entre as colunas, conforme necessário. Use os botões para cima e para baixo ao lado da coluna **Ações selecionadas** para controlar a ordem na qual os botões são apresentados na interface do usuário.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Associar uma guia a uma configuração
 

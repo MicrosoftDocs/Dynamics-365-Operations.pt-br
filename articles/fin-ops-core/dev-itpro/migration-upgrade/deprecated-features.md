@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745167"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753017"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
@@ -84,7 +84,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: até 1 de outubro de 2020, planejamos não dar mais suporte ao método **setUtcString()**. Os desenvolvedores devem usar o método **setUtcDateTime()** em seu lugar. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Relatório da lista de bloqueios (TI) – Referência de recursos IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Relatório da lista de bloqueios (TI) – Referência de recursos IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

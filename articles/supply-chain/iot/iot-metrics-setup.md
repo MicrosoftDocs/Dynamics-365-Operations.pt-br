@@ -1,24 +1,24 @@
 ---
 title: Configurar métricas para Inteligência da IoT
 description: Este tópico explica como configurar métricas para a Inteligência da IoT.
-author: robinarh
+author: tonyafehr
 ms.date: 04/25/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f623e49422dfb238415ae450fd0ab354b68c38b
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 85db0211c32ad4e27c3a9a65d2c74c5a39687f9c
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651929"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783089"
 ---
 # <a name="set-up-metrics-for-iot-intelligence"></a>Configurar métricas para Inteligência da IoT
 

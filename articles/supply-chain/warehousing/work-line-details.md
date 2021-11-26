@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3a932e4443521d67edb5c08c2d8eb563c6feb555
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568270"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778272"
 ---
 # <a name="work-line-details"></a>Detalhes da linha de trabalho
 
@@ -28,9 +28,9 @@ A página **Detalhes da linha de trabalho** mostra uma lista abrangente, classif
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Ativar o recurso de detalhes da linha de trabalho
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
 
-- **Módulo:** *Gerenciamento de Depósito*
+- **Módulo:** *Gerenciamento de depósito*
 - **Nome do recurso:** *Detalhes da linha de trabalho*
 
 ## <a name="open-and-use-the-work-line-details-page"></a>Abrir e usar a página Detalhes da linha de trabalho

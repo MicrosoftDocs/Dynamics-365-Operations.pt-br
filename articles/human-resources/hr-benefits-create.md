@@ -1,8 +1,8 @@
 ---
 title: Criar um novo benefício
 description: Essa tarefa mostrará como criar elementos de benefício que será usado ao criar um novo benefício.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBen
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 6296a7b3bfd802230ccf2fc8166c46be9e5227d93ae8dac77f75b09b15507e26
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d180ecd9b2f199e8bd85fb5e1e88ce550458bc0
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764923"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771450"
 ---
 # <a name="create-a-new-benefit"></a>Criar um novo benefício
 
@@ -28,30 +28,30 @@ Essa tarefa mostrará como criar elementos de benefício que será usado ao cria
 
 
 ## <a name="create-benefit-elements"></a>Criar elementos do benefício
-1. Acesse Recursos humanos > Benefícios > Configuração > Elementos do benefício.
-2. Clique em Novo.
-3. No campo Tipo, digite o nome do tipo de benefício que está sendo criado.
-4. No campo Descrição, digite um valor.
-5. No campo Inscrição de concorrente, selecione uma opção.
-    * Para restringir a capacidade dos funcionários de inscrever-se em vários planos médicos, selecione um registro por tipo.  
-6. No campo Categoria da folha de pagamento, selecione uma opção.
-7. Clique na guia Planos.
-8. Clique em Novo.
-9. No campo Plano, digite um valor.
-10. No campo Descrição, digite um valor.
-11. No campo Tipo, insira ou selecione um valor.
-12. No campo Impacto da folha de pagamento, selecione uma opção.
-13. Clique em Salvar.
+
+1. Acesse **Recursos humanos \> Benefícios \> Configuração \> Elementos do benefício**.
+2. Selecione **Novo**.
+3. No campo **Tipo**, insira o nome do tipo de benefício que você está criando.
+4. No campo **Descrição**, insira um valor.
+5. No campo **Inscrição de concorrente**, selecione uma opção.
+
+    Para restringir a capacidade dos funcionários de inscrever-se em vários planos médicos, selecione **Um registro por tipo**.
+
+6. No campo **Categoria da folha de pagamento**, selecione uma opção.
+7. Na guia **Planos**, selecione **Novo**.
+8. No campo **Plano**, insira um valor.
+9. No campo **Descrição**, insira um valor.
+10. No campo **Tipo**, insira ou selecione um valor.
+11. No campo **Impacto da folha de pagamento**, selecione uma opção.
+12. Selecione **Salvar**.
 
 ## <a name="create-a-benefit"></a>Criar um benefício
-1. Feche a página.
-2. Ir para Recursos humanos > Benefícios > Benefícios.
-3. Clique em Novo para abrir a caixa de diálogo suspensa.
-4. No campo Plano, insira ou selecione um valor.
-5. No campo Opção, insira ou selecione um valor.
-6. No campo Efetivo, insira uma data e hora.
-7. Clique em Criar benefício.
 
-
+1. Acesse **Recursos humanos \> Benefícios \> Benefícios**.
+2. Selecione **Novo**.
+3. Na caixa de diálogo suspensa, no campo **Plano**, insira ou selecione um valor.
+4. No campo **Opção**, insira ou selecione um valor.
+5. No campo **Efetivo**, insira uma data e hora.
+6. Selecione **Criar benefício**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

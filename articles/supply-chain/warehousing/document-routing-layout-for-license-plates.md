@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 03489629a74d33147ac77dd18b59efbfc9c9e4b5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5311c13154baafdc7225ee869b3ef524eecc0d00
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574656"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778344"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout de roteiro de documentos para etiquetas de placa de licença
 
@@ -53,7 +53,7 @@ Várias ferramentas de geração de etiquetas amplamente disponíveis podem ajud
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Ative este recurso para o seu sistema
 
-Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Layouts de etiqueta da placa de licença aprimorados*.
+Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Layouts de etiqueta da placa de licença aprimorados*. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
 
 ## <a name="custom-number-formats"></a>Formatos de número personalizados
 

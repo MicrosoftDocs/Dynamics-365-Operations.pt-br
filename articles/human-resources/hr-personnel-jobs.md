@@ -1,26 +1,26 @@
 ---
 title: Configurar os componentes de um trabalho
-description: Este artigo descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização.
-author: andreabichsel
-ms.date: 06/24/2021
+description: Este tópico descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754767"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731531"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Configurar os componentes de um trabalho
 
@@ -60,7 +60,7 @@ Junções de trabalho descrevem categorias funcionais de alto nível e direitos 
 Você mantém funções de trabalho usando a página **Funções de trabalho**. Na página **Funções de trabalho**, insira um código de identificação e uma breve descrição para a função de trabalho.
 
 ## <a name="compensation"></a>Remuneração
-Para atribuir um plano de remuneração fixa a um funcionário que tem um cargo em um trabalho, você deve definir os níveis de remuneração no trabalho. O nível de remuneração é usado quando os valores mínimo, intermediário e máximo são definidos em uma estrutura de remuneração (grade de remuneração). Quando um plano de remuneração fixa é criado, a estrutura de remuneração é selecionada. A estrutura de remuneração também inclui o nível de remuneração. Quando você seleciona um plano de remuneração fixa para um funcionário, os níveis de remuneração disponíveis para seleção dependem do trabalho ao qual o cargo do funcionário está associado. Para obter mais informações sobre como configurar a remuneração, consulte [Planos de remuneração](hr-compensation-overview.md).
+Para atribuir um plano de remuneração fixa a um funcionário que tem um cargo em um trabalho, você deve definir os níveis de remuneração no trabalho. O **Nível salarial** é usado quando os valores mínimo, intermediário e máximo são definidos em uma estrutura de remuneração (grade de remuneração). Quando um plano de remuneração fixa é criado, a estrutura de remuneração é selecionada. A estrutura de remuneração também inclui o nível de remuneração. Quando você seleciona um plano de remuneração fixa para um funcionário, os níveis de remuneração disponíveis para seleção dependem do trabalho ao qual o cargo do funcionário está associado. Para obter mais informações sobre como configurar a remuneração, consulte [Planos de remuneração](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Habilidades de trabalho
 As habilidades de trabalho descrevem as habilidades necessárias para executar um trabalho. Um nível de habilidade deve ser associado a todas as habilidades de trabalho. Os níveis de habilidade são definidos pelo usuário. Eles indicam o nível de conhecimento ou proficiência necessário para a habilidade. Por exemplo, as empresas podem configurar níveis numéricos, como 1 a 5, em que **1** indica um principiante e **5** indica um especialista. Como alternativa, as empresas podem configurar níveis que são rotuladas como **Principiante**, **Intermediário** ou **Especialista**. Depois que o nível de habilidade é definido, a importância da habilidade também pode ser definida. Por exemplo, se for necessário que um contador tenha um bom conhecimento de Microsoft Excel, uma habilidade denominada **Conhecimento de Excel** poderá ser criada. O nível de habilidade pode ser definido como **Intermediário** e a importância pode ser definida como a **Mais alta**.

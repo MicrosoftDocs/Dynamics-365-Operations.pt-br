@@ -2,7 +2,7 @@
 title: Atalhos de teclado
 description: Este tópico fornece uma visão geral das combinações de teclas de atalho que você pode usar ao trabalhar com aplicativos do Finance and Operations.
 author: jasongre
-ms.date: 10/12/2021
+ms.date: 11/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
+ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647527"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7800184"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
@@ -128,8 +128,10 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 
 ## <a name="grid-shortcuts"></a>Atalhos de grade
 
-| Para                                                                                                             | Pressione                           |
+| Para                                                                                                             | Pressionar                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Rolagem vertical                                                                                                     | Roda do mouse                     |
+| Rolagem horizontal                                                                                                   | Shift + Roda do mouse             |
 | Mover para a coluna anterior/próxima                                                                                       | Tab / Shift+Tab                 |
 | Mover para a linha anterior/próxima                                                                                          | Seta para Cima/Seta para Baixo           |
 | Mover para a linha anterior/próxima sem selecionar<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote> | Ctrl+Seta para cima/ Ctrl+Seta para baixo |
@@ -141,15 +143,15 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Mover para o primeiro registro                                                                                               | Ctrl+Home                       |
 | Mover para o último registro                                                                                                | Ctrl+End                        |
 | Selecionar ou limpar todas as linhas                                                                                               | Ctrl+Shift+M                    |
-| Mover para a primeira linha marcada                                                                                           | Alt+Shift+M, F                    |
-| Mover para a próxima linha marcada                                                                                            | Alt+Shift+M, L                    |
-| Mover para a linha anterior marcada                                                                                        | Alt+Shift+M, P                    |
-| Mover para a última linha marcada                                                                                           | Alt+Shift+M, N                    |
+| Mover para a primeira linha marcada                                                                                           | Alt+Shift+M, F                  |
+| Mover para a próxima linha marcada                                                                                            | Alt+Shift+M, L                  |
+| Mover para a linha anterior marcada                                                                                        | Alt+Shift+M, P                  |
+| Mover para a última linha marcada                                                                                           | Alt+Shift+M, N                  |
 | Executar a ação padrão em uma grade<blockquote>[!NOTE] Este atalho será habilitado quando o foco estiver em uma célula que contenha um hiperlink e todas as células nessa coluna tiverem hiperlinks.</blockquote> | Inserir                           |
 | Alterna o foco entre a linha selecionada e a linha do cabeçalho                                                               | Alt+Shift+H                     |
 | Torna a coluna atual maior/menor (com foco na linha do cabeçalho)                                                  | Seta para a direita/Seta para esquerda        |
 | Abrir a filtragem de grade para a coluna atual (com foco na linha do cabeçalho)                                              | Enter                           |
-| Redimensionar a coluna atual para ajustar o conteúdo (com foco na linha de cabeçalho)                                           | A                               |
+| Redimensionar a coluna atual para ajustar o conteúdo (com foco na linha de cabeçalho)                                           | A (ou clique duas vezes na alça de dimensionamento da coluna) |
 
 ## <a name="input-control-shortcuts"></a>Atalhos do controle de entrada
 

@@ -1,8 +1,8 @@
 ---
 title: Solicitar folga
 description: Solicitar folga no Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756091"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771403"
 ---
 # <a name="request-time-off"></a>Solicitar folga
 
@@ -42,7 +42,7 @@ Você pode enviar solicitações de folga, exibir os saldos de férias e licenç
 
 6. Selecione **Enviar** quando estiver pronto para enviar sua solicitação. Caso contrário, selecione **Salvar rascunho**.
 
-Os funcionários que enviam uma nova solicitação de licença podem selecionar tipos de licença diferentes para construir a solicitação de licença. No entanto, todos os tipos de licença selecionados como parte de uma solicitação de licença única devem ter a mesma unidade de licença. Os funcionários podem visualizar a unidade de licença para cada tipo de licença no formulário **Solicitar folga**.
+Os funcionários que enviam uma nova solicitação de licença podem selecionar tipos de licença diferentes para construir a solicitação de licença. No entanto, todos os tipos de licença selecionados como parte de uma solicitação de licença única devem ter a mesma unidade de licença. Os funcionários podem visualizar a unidade de licença para cada tipo de licença na página **Solicitar folga**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Adicionar um anexo a uma solicitação existente
 
@@ -58,13 +58,13 @@ Ao atualizar uma solicitação de folga existente, você pode adicionar um anexo
 
 1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Mais** (...) no grupo **Saldos de folgas**.
 
-2. Para exibir suas solicitações de licença aprovada, selecione **Licença aprovada**. Para exibir suas solicitações de licença pendentes, selecione **Solicitações de licença**.
+2. Para exibir suas solicitações de folga aprovada, selecione **Folga aprovada**. Para exibir suas solicitações de folga pendentes, selecione **Solicitações de folga**.
 
 ## <a name="cancel-time-off-requests"></a>Cancelar solicitações de folga
 
 1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Exibir folga** no bloco **Saldos de folgas**.
 
-2. No formulário **Folga**, selecione uma ou mais solicitações de cancelamento de folga.
+2. Na página **Folga**, selecione uma ou mais solicitações de cancelamento de folga.
 
 3. Selecione o botão **Cancelar**.
 

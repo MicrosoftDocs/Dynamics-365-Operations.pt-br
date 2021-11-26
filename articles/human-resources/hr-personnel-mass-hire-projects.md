@@ -1,8 +1,8 @@
 ---
 title: Projetos de contratação em massa
-description: Os projetos de contratação em massa permitem que especialistas em recursos humanos criem várias posições e contratem com eficiência trabalhadores para essas posições.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Este tópico descreve os projetos de contratação em massa, que permitem que especialistas em recursos humanos criem várias posições e contratem com eficiência trabalhadores para essas posições.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3e6c2addcf3f43c843692013489afcc1912b9baac1dbdfa6b4d4a1afc4398cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e0a8bba2227136995542d08f4b3f1e9d6d48ad5
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754791"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728644"
 ---
 # <a name="mass-hire-projects"></a>Projetos de contratação em massa
 
@@ -43,19 +43,19 @@ Ao contratar vários funcionários em algum momento, como ocorre em contrataçõ
 
 Em o verão, você contrata geralmente 15-20 estudantes universitário de meio expediente preencha fases disponíveis em sua empresa. Este ano, você deseja contratar cinco contadores, cinco processadores da ordem, e os caixas. Em vez de criar cada registro de posição e registro de trabalhador separadamente, você cria um projeto de contratação em massa denominado "SummerInterns". As datas inicial e final do projeto estão correlacionadas ao início e fim final de durações de posição para as posições criadas para o projeto de contratação em massa.
 
-Na página **Projetos de contratação em massa**, selecione o projeto "SummerInterns" e clique em **Abrir projeto**. No projeto de contratação em massa aberto, clique em **Criar posições** e insira informações sobre a posição de contador. Você pode indicar que cinco posições de contador devem ser criadas usando as mesmas informações e então clique em OK. Repita este processo para as posições de processamento e de caixa da ordem.
+Na página **Projetos de contratação em massa**, selecione o projeto **SummerInterns** e selecione **Abrir projeto**. No projeto de contratação em massa aberto, selecione **Criar posições** e insira informações sobre a posição de contador. Você pode indicar que cinco posições de contador devem ser criadas e que as mesmas informações deverão ser usadas em cada uma delas. Em seguida, selecione **OK**. Repita este processo para as posições de processamento e de caixa da ordem.
 
-Depois de selecionar alunos para contratar para posições de estágio, insira as informações de cada aluno nos **Detalhes da posição** para a posição para a qual eles estão sendo contratados. Depois de inserir todos os detalhes da posição, selecione a posição na página Projetos de contratação em massa e clique em **Contratar**. Um registro de posições será criado para cada cargo e um registro de funcionário será criado e o atribuiu a posição correta para cada pessoa que você contrata.
+Depois de selecionar alunos para contratar para posições de estágio, você irá inserir as informações de cada aluno nos detalhes da posição para a posição para a qual eles estão sendo contratados. Depois de inserir todos os detalhes da posição, selecione a posição na página **Projetos de contratação em massa** e selecione **Contratar**. Um registro de posições será criado para cada cargo e um registro de funcionário será criado e o atribuiu a posição correta para cada pessoa que você contrata.
 
 ## <a name="mass-hire-project-statuses"></a>Status do projeto de contração em massa
 
 um projeto de contratação em massa pode ter os seguintes status.
 
-- Criado em
-- Abertas
+- Criado
+- Aberto
 - Fechado
 
-Na página **Projeto de contratação em massa**, clique em **Abrir projeto** ou em **Fechar projeto** para alterar o status de um projeto de contratação em massa. A tabela a seguir descreve o que é possível fazer com um projeto de acordo com seu status.
+Na página **Projeto de contratação em massa**, selecione **Abrir projeto** ou em **Fechar projeto** para alterar o status de um projeto de contratação em massa. A tabela a seguir descreve o que é possível fazer com um projeto de acordo com seu status.
 
 <table>
 <thead>
@@ -75,8 +75,8 @@ Na página **Projeto de contratação em massa**, clique em **Abrir projeto** ou
 </tr>
 <tr>
 <td>Fechado</td>
-<td>Não é possível adicionar posições ao projeto. Para adicionar posições ao projeto de contratação em massa, abra-o novamente. Este é o status de projetos concluídos.
-<blockquote>[!NOTE] Para fechar um projeto de contratação em massa, todas as linhas do projeto deverão ter o status Criado ou Fechado.</blockquote>
+<td><p>Não é possível adicionar posições ao projeto. Para adicionar posições ao projeto de contratação em massa, abra-o novamente. Este é o status de projetos concluídos.</p>
+<p><strong>Observação:</strong> antes de fechar um projeto de contratação em massa, todas as posições do projeto deverão ter o status <b>Criada</b> ou <b>Fechada</b>.</p>
 </td>
 </tr>
 </tbody>

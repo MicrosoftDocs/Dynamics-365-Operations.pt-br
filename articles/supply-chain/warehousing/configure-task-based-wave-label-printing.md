@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735887"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777856"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Agendar a impressão da etiqueta de ciclo durante o ciclo
 
@@ -33,7 +33,7 @@ Quando você usa o recurso *Impressão de etiqueta de ciclo baseada em tarefa*, 
 Para usar os recursos que são descritos neste tópico, eles devem ser ativados para o seu sistema. Use o espaço de trabalho [Gerenciamento de recurso](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os recursos na seguinte ordem:
 
 1. *Impressão de etiqueta de ciclo* – Este recurso é necessário para habilitar o método de processo de ciclo para impressão de etiqueta de ciclo.
-1. *Bloqueio de trabalho em toda a organização* - Este recurso é necessário para a configuração manual e automática da criação de trabalho agendado.
+1. *Bloqueio de trabalho em toda a organização* - Este recurso é necessário para a configuração manual e automática da criação de trabalho agendado. (Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, é ativado por padrão e não pode ser desativado novamente.)
 1. *Impressão de etiqueta de ciclo baseada em tarefas* – Esse recurso é necessário para dividir a impressão da etiqueta de ciclo em um escopo de transação separado.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>Habilitar manualmente o novo método de etapa do ciclo

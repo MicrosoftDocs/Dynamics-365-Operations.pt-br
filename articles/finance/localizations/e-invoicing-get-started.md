@@ -2,7 +2,7 @@
 title: Introdução ao Faturamento eletrônico
 description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700370"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779685"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Introdução ao Faturamento eletrônico
 
@@ -57,7 +57,12 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 
 Dependendo do país ou da região, o recurso de Faturamento eletrônico pode exigir configuração específica. 
 
-Para obter as etapas específicas, consulte a documentação "Introdução" que está disponível para seu país ou região.
+> [!NOTE]
+> Quando você habilita o recurso de faturamento Eletrônico para a Finlândia, não há suporte para parâmetros específicos do aplicativo nas pesquisas. Para resolver esse problema, no módulo de **Relatório eletrônico**, examine as configurações dos formatos da fatura de venda e da fatura do projeto. Configure manualmente o campo calculado para mapeamento de **$PaymentMethodSubstitution** e, em seguida, vincule aquele campo ao campo **EpiPaymentMeansCode** dos formatos da fatura de venda e da fatura do projeto.
+>
+> Quando você habilita o recurso de faturamento Eletrônico para a Itália, não há suporte para parâmetros específicos do aplicativo nas pesquisas. Para resolver esse problema, no módulo **Relatório eletrônico**, configure manualmente o campo calculado para o mapeamento de **$NaturaReverseCharge**.
+>
+> Para obter as etapas específicas relacionadas a outros locais, consulte a documentação de "Introdução" que está disponível para seu país ou região.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Importar as configurações de mapeamentos de modelo de Relatórios eletrônicos
 
@@ -241,6 +246,14 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 
 3. Selecione uma fatura na grade e, depois, selecione **Consultar** \> **Detalhes de envio**.
 
+## <a name="download-an-electronic-document-file"></a>Baixe um arquivo de documento eletrônico
+
+1. Acesse **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Log de envio de documentos eletrônicos**.
+2. No campo **Tipo de documento**, selecione a tabela que contém as faturas.
+3. Selecione um documento na grade e, em seguida, selecione **Documento eletrônico** \> **Baixar arquivo**. Um arquivo que contém o arquivo de documento eletrônico será sugerido para download.
+
+> [!NOTE]
+> Antes de baixar os arquivos, a opção **Exportar resultado** deve ser ativada para a ação relacionada na configuração do recurso de faturamento Eletrônico no RCS.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

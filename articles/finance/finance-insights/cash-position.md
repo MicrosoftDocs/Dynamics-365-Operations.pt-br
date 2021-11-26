@@ -2,7 +2,7 @@
 title: Posição de caixa
 description: Este tópico descreve como o recurso de previsão de fluxo de caixa prevê a posição de pagamento à vista de uma organização para horários específicos. Também descreve as opções disponíveis para mostrar previsões para períodos diferentes.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386305"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752871"
 ---
 # <a name="cash-position"></a>Posição de caixa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Posição de pagamento à vista é a projeção do fluxo de caixa que é a previsão para o próximo termo. Ele se baseia na projeção de recebimentos à vista de clientes que pagam faturas e ordens pendentes, e também na projeção de pagamentos à vista que são pagos para fornecedores para faturas e ordens de compra.
 
@@ -44,8 +45,5 @@ A seção inferior da guia **Posição de pagamento à vista** mostra detalhes d
 - A grade **Conta bancária** mostra o impacto de entradas e saídas de caixa esperada no saldo do banco.
 
 Para salvar e editar a posição de pagamento à vista, crie um instantâneo. FoPara obter mais informações sobre como trabalhar instantâneos, consulte [Visão geral de instantâneos](payment-snapshots.md).
-
-#### <a name="privacy-notice"></a>Aviso de privacidade
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

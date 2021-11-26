@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f4a7ee091d73e2104571ac9134a9de9bab0a7074
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575455"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777758"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Aprimoramentos ao cXML de compra
 
@@ -28,7 +28,7 @@ O recurso _Aprimoramentos ao cXML de compra_ se baseia na [funcionalidade de cat
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>Ativar o recurso Aprimoramentos ao cXML de compra
 
-Para ativar o recurso, abra a página **[Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** e procure o recurso chamado *Aprimoramentos ao cXML de compra*. Selecione o recurso e, em seguida, **Habilitar agora** para ativá-lo.
+Para ativar o recurso, abra a página **[Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** e procure o recurso chamado *Aprimoramentos ao cXML de compra*. Selecione o recurso e, em seguida, **Habilitar agora** para ativá-lo. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
 
 Depois de ativar o recurso, você deve definir as configurações nas três áreas a seguir:
 

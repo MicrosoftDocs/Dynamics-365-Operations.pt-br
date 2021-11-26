@@ -1,8 +1,8 @@
 ---
 title: Criar e abrir requisição de trabalho aberta
 description: Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento.
-author: andreabichsel
-ms.date: 02/03/2021
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruiting
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df60f6461c52e45849d3de89fde4ae53f915dbc3cce417a30790acf443c5fecc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778763"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731552"
 ---
 # <a name="create-and-open-job-requisition"></a>Criar e abrir requisição de trabalho aberta
 
@@ -39,7 +39,7 @@ Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento.
 6. Na lista, localize e selecione o registro.
 7. Na lista, selecione o link na linha selecionada.
 8. Escolha **Selecionar**.
-9. No campo Departamento, selecione o botão suspenso para abrir a pesquisa.
+9. No campo **Departamento**, selecione o botão suspenso para abrir a pesquisa.
 10. Na lista, selecione o link na linha selecionada.
 11. No campo **Trabalho**, selecione o botão suspenso para abrir a pesquisa.
 12. Na lista, localize e selecione o registro.
@@ -58,10 +58,10 @@ Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento.
 25. No campo **Data final**, insira uma data.
 26. Selecione **Salvar**.
 27. Feche a página.
-28. Selecione anúncios de emprego.
+28. Selecione **Anúncios de emprego**.
 29. Selecione **Salvar**.
 30. Feche a página.
-31. Marque ou desmarque a caixa de seleção **Exibir no autoatendimento para funcionários**. Marque a caixa de seleção **Exibir no autoatendimento para funcionários**. Esta seleção torna o projeto de recrutamento visível aos funcionários nas páginas Autoatendimento para funcionários.
+31. Marque ou desmarque a caixa de seleção **Exibir em Autoatendimento para funcionários**. Marque a caixa de seleção **Exibir em Autoatendimento para funcionários**. Esta seleção torna o projeto de recrutamento visível aos funcionários na página **Autoatendimento para funcionários**.
 32. Selecione **Status do projeto de recrutamento**.
 33. Selecione **Iniciar**. O status **Iniciado** significa que o projeto está pronto para receber solicitações de emprego.  
 34. Selecione **OK**.

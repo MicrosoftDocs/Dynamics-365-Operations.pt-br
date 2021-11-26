@@ -1,7 +1,7 @@
 ---
 title: Liquidar pendências
 description: Você pode liquidar o valor restante da atividade de liquidação aplicando esse valor a uma conta contábil.
-author: mikefalkner
+author: roschlom
 ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 1eb82c1f5982b30052acb2cb7659f6c07f2a4da54b68f602a2afb4e499fbcc73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719779"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754087"
 ---
 # <a name="settle-remainder"></a>Liquidar pendências
 
@@ -33,7 +33,7 @@ Você deve habilitar o recurso Liquidação de pendências e definir as configur
 2)  Selecione a guia **Liquidação** e clique em **Habilitar a liquidação de pendências**
 3)  Em **Código de motivo padrão**, selecione um código de motivo padrão. Os códigos de motivo já devem ter sido configurados em **Contas a receber > Configuração > Códigos de motivo de baixa contábil** ou **Contas a pagar > Configuração > Códigos de motivo de baixa contábil de cliente**. A **Conta de liquidação de pendências padrão** será padronizada como a conta atribuída ao código de motivo de baixa.
 3)  Atualize a **Conta de liquidação de pendências padrão** conforme necessário.
-4)  Em **Nome padrão do diário**, selecione um diário de pagamento que será usado se você desejar criar um diário de pagamentos quando você estiver apenas liquidando transações abertas. Se você habilitar o recurso do restante do acordo, deverá adicionar um nome de diário padrão.
+4)  Em **Nome padrão do diário**, selecione um diário de pagamento que será usado se você quiser criar um diário de pagamentos quando você liquidar somente transações abertas. Se você habilitar o recurso do restante do acordo, deverá adicionar um nome de diário padrão.
 
 ## <a name="settle-remainder-from-a-journal"></a>Liquidar pendências de um diário
 Se não habilitar o recurso **Liquidar pendências**, você ainda poderá inserir uma transação em um diário e liquidar transações nele, como fez no passado. Quando você clica no botão **OK**, o saldo aberto na fatura é reduzido pelo valor em dinheiro. Se o pagamento à vista não liquidar totalmente a fatura, ela será deixada aberta com um valor restante a ser liquidado posteriormente.

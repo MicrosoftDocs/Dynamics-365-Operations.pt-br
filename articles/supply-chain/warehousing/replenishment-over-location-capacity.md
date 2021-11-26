@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576103"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778198"
 ---
 # <a name="replenishment-over-location-capacity"></a>Reabastecimento sobre a capacidade do local
 
@@ -32,7 +32,7 @@ O recurso permite que mais trabalho de reabastecimento seja criado do que caber�
 
 Para disponibilizar este recurso, ative os seguintes recursos no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nesta ordem):
 
-1. Bloqueio de trabalho em toda a organização
+1. Bloqueio de trabalho em toda a organização (Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, está ativado por padrão e não poderá ser desativado novamente.)
 1. Reabastecimento sobre a capacidade do local
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurar o recurso para o cenário de exemplo

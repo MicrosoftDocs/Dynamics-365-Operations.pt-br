@@ -1,8 +1,8 @@
 ---
-title: Distribuir e agendar questionários
-description: Este artigo explica como distribuir questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os concluirão.
-author: andreabichsel
-ms.date: 04/04/2017
+title: Distribuir e planejar questionários
+description: Este tópico explica como distribuir os questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os preencherão.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60354a3e7fed5403321d5ec4440cece84b13233bef80fcd5c5f61d72e5e3aa85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755506"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728994"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Distribuir e agendar questionários
+# <a name="distribute-and-schedule-questionnaires"></a>Distribuir e planejar questionários
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artigo explica como distribuir questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os concluirão. 
+Este tópico explica como distribuir os questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os preencherão. 
 
 Há várias formas de distribuir um questionário:
 
--   Marcar o questionário como ativo. O questionário é disponibilizado a todos os funcionários, a menos que um grupo de questionários esteja configurado para restringir o acesso ao questionário.
+-   Marque o questionário como **Ativo**. O questionário é disponibilizado a todos os funcionários, a menos que um grupo de questionários esteja configurado para restringir o acesso ao questionário.
 -   Atribuir direitos a um grupo de questionários. O questionário ficará disponível a todos os membros do grupo selecionado.
 -   Criar sessões de resposta planejadas. O questionário está disponível a apenas uma pessoa em particular.
 -   Criar uma agenda. O questionário poderá estar disponível para vários contatos.

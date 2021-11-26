@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 503ba8ae95119f3ce9533f81cdd16c34cf3a9223
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574536"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752823"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar um dispositivo para executar a interface de execução de piso de produção
 
@@ -28,9 +28,9 @@ A interface de execução de piso de produção é configurada para todos os dis
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Definir a configuração e os filtros para um dispositivo específico
 
-Para definir a configuração e os filtros de trabalho para um dispositivo, entre na página **Execução de piso de produção** usando uma conta com uma função de segurança que inclua o direito *Manter supervisor de tempo*. (Entre as funções de segurança prontas para uso, somente o *Supervisor de chão de fábrica* tem esse direito). Em seguida, siga estas etapas.
+Para definir a configuração e os filtros de trabalho para um dispositivo, entre na página **Execução de piso de produção** usando uma conta com uma função de segurança que inclua o direito *Manter supervisão de tempo*. (Entre as funções de segurança prontas para uso, somente o *Supervisor de chão de fábrica* tem esse direito). Em seguida, siga estas etapas.
 
-1. Acesse o dispositivo que deseja configurar e entre no Microsoft Dynamics 365 Supply Chain Management como um supervisor de chão de fábrica. (Use uma conta que inclua o direito *Manter de supervisor de tempo*).
+1. Acesse o dispositivo que deseja configurar e entre no Microsoft Dynamics 365 Supply Chain Management como um supervisor de chão de fábrica. (Use uma conta que inclua o direito *Manter supervisão de tempo*.)
 1. Verifique se há uma configuração disponível para o dispositivo que você está configurando. Se não houver nenhuma configuração, uma configuração padrão será fornecida. Para obter mais informações sobre como definir uma configuração, consulte [Configurar a interface de execução de piso de produção](production-floor-execution-configure.md).
 1. Acesse **Controle de produção \> Execução de fabricação \> Execução de piso de produção**.
 

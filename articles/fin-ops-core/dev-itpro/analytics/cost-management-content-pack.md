@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78be9c67eeac1307d67d70ef75751adebbc246ee69e093b1b9dbc8f408d63258
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726324"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752631"
 ---
 # <a name="cost-management-power-bi-content"></a>Conteúdo de gerenciamento de custos do Power BI
 
@@ -30,11 +30,6 @@ ms.locfileid: "6726324"
 ## <a name="overview"></a>Visão Geral
 
 O conteúdo de **Gerenciamento de custos** do Microsoft Power BI destina-se a contadores de estoque ou às pessoas da organização responsáveis ou interessadas pelo status do estoque ou do WIP (trabalho em andamento) ou ainda a pessoas que sejam responsáveis ou tenham interesse na análise de variações de custo padrão.
-
-> [!NOTE]
-> O conteúdo de **Gerenciamento de custos** do Power BI descrito neste tópico aplica-se ao Dynamics 365 Finance and Operations 8.0.
-> 
-> O pacote de conteúdo de **Gerenciamento de custos** do Power BI disponível no site do AppSource foi substituído. Para obter mais informações sobre essa substituição, consulte [Recursos removidos ou obsoletos no Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Este conteúdo do Power BI fornece um formato categorizado que ajuda a monitorar o desempenho dos estoques e visualizar o fluxo de custos. Você pode ganhar insights gerenciais, como o índice de giro, o número de dias que o estoque está disponível, a precisão, e a "classificação ABC" ao nível agregado preferido (empresa, item, grupo de itens, ou o site). As informações disponibilizadas também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
 

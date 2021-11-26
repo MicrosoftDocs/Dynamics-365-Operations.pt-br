@@ -1,8 +1,8 @@
 ---
 title: Configurar parâmetros de recursos do Human Resources
 description: Este tópico explica como configurar parâmetros específicos da empresa no Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739242"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771426"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurar parâmetros de recursos do Human Resources
 
@@ -65,7 +65,7 @@ As configurações na guia **Geral** definem a aparência das informações sobr
 
 As configurações na guia **Recrutamento** definem os tipos de documento usados para correspondência enviados automaticamente aos candidatos. Você também pode indicar o projeto de recrutamento usado para solicitações de emprego não solicitadas.
 
-O período definido para o vencimento do projeto de recrutamento determina os projetos de recrutamento incluídos no bloco **Projetos de vencimento** no espaço de trabalho **Gerenciamento de recrutamento**. O período definido para o aviso de prazo da solicitação de emprego é usado para exibir projetos de recrutamento que estão se aproximando do prazo final para solicitação de emprego no bloco **Prazo final para solicitação de emprego se aproximando** no espaço de trabalho **Recrutamento**.
+O período definido para o **Vencimento do projeto de recrutamento** determina os projetos de recrutamento incluídos no bloco **Projetos de vencimento** no espaço de trabalho **Gerenciamento de recrutamento**. O período definido para o aviso de prazo da solicitação de emprego é usado para mostrar os projetos de recrutamento que estão se aproximando do prazo no bloco **Prazo final para solicitação de emprego se aproximando** no espaço de trabalho **Recrutamento**.
 
 Para obter mais informações sobre recrutamento, consulte [Recrutar candidatos ao trabalho](hr-personnel-recruit.md).
 
@@ -107,20 +107,20 @@ Na guia FMLA, defina requisitos de direito FMLA e horas de direito FMLA. Para ob
 
 ## <a name="employee-self-service"></a>Autoatendimento para funcionários
 
-As configurações na guia **Autoatendimento para funcionários** afetam como o Autoatendimento para funcionários aparece para funcionários. Nesta guia, você pode:
+As configurações na guia **Autoatendimento para funcionários** afetam como o **Autoatendimento para funcionários** aparece para funcionários. Nessa guia, você pode executar estas tarefas:
 
-- Inserir um nome para o espaço de trabalho de Autoatendimento para funcionários
+- Inserir um nome para o espaço de trabalho **Autoatendimento para funcionários**
 - Selecionar as informações que um gerente pode inserir para funcionários
 - Adicionar links úteis para funcionários
 - Restringir a adição ou edição de detalhes de contato comercial por funcionários. Para obter mais informações, consulte [Restringir a edição de informações pessoais](hr-employee-self-service-restrict-editing.md).
 
-Para obter mais informações sobre como configurar o Autoatendimento para funcionários, consulte [Visão geral de autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md).
+Para obter mais informações sobre como configurar o **Autoatendimento para funcionários**, consulte [Visão geral de autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md).
 
 ![Guia Autoatendimento para funcionários.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Autoatendimento para gerentes
 
-As configurações na guia **Autoatendimento para gerentes** afetam o que gerentes visualizam em Autoatendimento para gerentes. Nessa guia, você pode configurar as seguintes opções:
+As configurações na guia **Autoatendimento para gerentes** afetam o que gerentes veem em **Autoatendimento para gerentes**. Nessa guia, você pode configurar as seguintes opções:
 
 - O intervalo de registros em vencimento
 - Os gerentes de informações podem ver em registros em vencimento
@@ -128,13 +128,13 @@ As configurações na guia **Autoatendimento para gerentes** afetam o que gerent
 - Exibições de trabalhadores saindo da empresa
 - Links úteis para gerentes
 
-Para obter mais informações sobre como configurar o Autoatendimento para gerentes, consulte [Visão geral de autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md).
+Para obter mais informações sobre como configurar o **Autoatendimento para gerentes**, consulte [Visão geral de autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md).
 
 ![Guia Autoatendimento para gerentes.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Gerenciamento de benefícios
 
-Na guia Gerenciamento de benefícios, você pode configurar opções de email para o Gerenciamento de benefícios. Para obter mais informações sobre como configurar e usar o Gerenciamento de benefícios, consulte [Visão geral do Gerenciamento de benefícios](hr-benefits-management-overview.md).
+Na guia **Gerenciamento de benefícios**, você pode configurar opções de email para o Gerenciamento de benefícios. Para obter mais informações sobre como configurar e usar o Gerenciamento de benefícios, consulte [Visão geral do Gerenciamento de benefícios](hr-benefits-management-overview.md).
 
 ![Guia Gerenciamento de benefícios.](./media/hr-setup-parameters-benefits-management.png)
 

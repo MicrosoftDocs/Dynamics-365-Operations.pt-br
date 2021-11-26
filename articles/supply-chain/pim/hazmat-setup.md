@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ac6a9b4316fa260a86c124f86d04645625e9b808
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577423"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778000"
 ---
 # <a name="set-up-hazardous-materials"></a>Configurar materiais perigosos
 
@@ -27,7 +27,7 @@ Para usar a funcionalidade de materiais perigosos, você deve primeiro configura
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Ativar o recurso materiais perigosos para o sistema
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
 
 - **Módulo:** *Gerenciamento de informações sobre produtos*
 - **Nome do recurso:** *Informações do produto e documentação de remessa sobre materiais perigosos*

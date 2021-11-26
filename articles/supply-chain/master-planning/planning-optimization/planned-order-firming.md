@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764827"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778512"
 ---
 # <a name="firm-planned-orders"></a>Confirmar ordens planejadas
 
@@ -39,7 +39,7 @@ A maioria dos recursos de ordem planejada estão disponíveis em todas as instal
 
 A confirmação paralelizada ajuda a acelerar o processo de confirmação ao paralelizá-la em vários threads. Essa abordagem pode ser útil quando muitas ordens planejadas são confirmadas.
 
-Para disponibilizar esta funcionalidade no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Confirmação paralela de ordens planejadas*.
+Para disponibilizar esta funcionalidade no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Confirmação paralela de ordens planejadas*. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Habilitar confirmação de ordem planejada com filtragem
 
@@ -51,7 +51,7 @@ Para disponibilizar esta funcionalidade no sistema, acesse [Gerenciamento de rec
 
 A confirmação automática permite que você confirme ordens planejadas como parte do processo de planejamento mestre durante o limite de tempo de confirmação. A confirmação automática sempre tem suporte para o mecanismo de planejamento criado no Supply Chain Management. No entanto, para também usá-la com a Otimização de Planejamento, você deve ativar o recurso.
 
-Para disponibilizar esta funcionalidade no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Confirmação automática para Otimização de Planejamento*.
+Para disponibilizar esta funcionalidade no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Confirmação automática para Otimização de Planejamento*. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
 
 ## <a name="manually-firm-planned-orders"></a>Confirmar manualmente ordens planejadas
 

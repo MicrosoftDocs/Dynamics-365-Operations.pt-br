@@ -2,7 +2,7 @@
 title: Visão geral de organizações e hierarquias organizacionais
 description: As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa.
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715980"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798337"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Visão geral de organizações e hierarquias organizacionais
 
@@ -64,9 +64,19 @@ Uma equipe é uma organização cujos membros compartilham uma responsabilidade,
 
 Configure as hierarquias organizacionais para exibir e fazer relatório da empresa sob perspectivas diferentes. Por exemplo, você pode configurar uma hierarquia de entidades legais para relatórios de impostos, legais ou estatutários. Configure uma hierarquia com base em unidades operacionais para relatar informações financeiras que não são necessárias legalmente, mas que são usadas para o controle interno. Por exemplo, é possível criar uma hierarquia de compra para controlar as diretivas de compras, regras e processos comerciais.
 
+> [!NOTE]
+> Após a adição de uma unidade operacional a uma hierarquia, a unidade operacional não poderá ser excluída. 
+
 A cada hierarquia é atribuída uma finalidade. A finalidade de uma hierarquia determina os tipos de organizações que podem ser incluídos na hierarquia. A finalidade também define os cenários de aplicativo nos quais a hierarquia pode ser usada.
 
 As organizações em uma hierarquia podem compartilhar parâmetros, políticas e transações. Uma organização pode herdar ou substituir os parâmetros de sua organização primária. No entanto, os dados mestres compartilhados, como produtos e catálogos de endereços, aplicam-se à organização inteira e não podem ser substituídos para organizações individuais. A criação de organizações e hierarquias exigem planejamento cuidadoso. Para obter mais informações, consulte [Planejar sua hierarquia organizacional](plan-organizational-hierarchy.md).
+
+## <a name="additional-resources"></a>Recursos adicionais
+- [Planejar sua hierarquia da organização](plan-organizational-hierarchy.md)
+- [​Criar uma hierarquia da organização​](tasks/create-organization-hierarchy.md)
+- [Criar uma entidade legal](tasks/create-legal-entity.md)
+- [Criar uma unidade operacional](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

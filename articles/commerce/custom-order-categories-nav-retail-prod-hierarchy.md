@@ -12,20 +12,20 @@ ms.reviewer: josaw
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d9b0e66397d132315ee8a8d9c4b051b5012df8027b8060d0237ade16d65d703c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724547"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779533"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alterar a ordem de classificação das entidades de venda
 
 
-[!include [banner](includes/banner.md)]
+[!Include [banner](includes/banner.md)]
 
 Os varejistas consideram a descoberta de produtos a principal ferramenta para a interação com os clientes em todos os canais. Várias funcionalidades podem ajudar os clientes a descobrir facilmente os produtos. Por exemplo, eles podem procurar categorias, pesquisar e filtrar.
 

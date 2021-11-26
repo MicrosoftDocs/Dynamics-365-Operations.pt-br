@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a15c913c876e961c6824c1e8812ab2be2d6ffa4333cd0d4e6f80cae8bac79394
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746738"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777657"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Processamento adiado de movimento de estoque manual
 
@@ -32,7 +32,7 @@ O processamento em segundo plano é obtido usando o [recurso Processar eventos d
 
 Para disponibilizar esse recurso, ative os recursos a seguir no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md): Você deve ativá-los nesta ordem:
 
-1. Bloqueio de trabalho em toda a organização
+1. Bloqueio de trabalho em toda a organização (Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, está ativado por padrão e não poderá ser desativado novamente.)
 1. Processar eventos do aplicativo de depósito
 1. Operações put diferidas
 1. Processamento adiado da operação de movimentação de estoque manual

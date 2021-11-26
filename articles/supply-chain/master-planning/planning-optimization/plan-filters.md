@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: c2fbaa6945cf46b7ef09232e6004f09b487ea7c822e72225dc00d3d28ecb008e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780189"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729018"
 ---
 # <a name="apply-filters-to-a-plan"></a>Aplicar filtros a um plano
 
@@ -43,7 +43,7 @@ Um filtro de plano é configurado para incluir os itens A, B e C. Em seguida, s�
 - **Filtro de runtime que inclui todos os itens (filtros em branco):** os itens A, B e C são incluídos na execução do planejamento, e a saída do planejamento anterior para os itens A e B é substituída.
 
 > [!NOTE]
-> Você deve evitar definir um filtro de plano no plano selecionado como **Plano mestre dinâmico atual** na página **Parâmetros de planejamento mestre**. Caso contrário, a funcionalidade de plano mestre dinâmico ficará limitada aos itens filtrados. Por exemplo, se os requisitos líquidos forem atualizados para um item e não fizerem parte do filtro de plano, nenhum resultado será gerado.
+> Se você definir um filtro de plano no plano selecionado como o **Plano mestre dinâmico atual** na página **Parâmetros de planejamento mestre**, a funcionalidade do plano mestre dinâmico ficará limitada aos itens filtrados. Por exemplo, se os requisitos líquidos forem atualizados para um item e não fizerem parte do filtro de plano, nenhum resultado será gerado.
 
 ## <a name="related-resources"></a>Recursos relacionados
 

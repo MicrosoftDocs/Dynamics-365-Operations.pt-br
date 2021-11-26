@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37d78e97a6c7f9152ab0b893a35a3ae70d5adabc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579631"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778024"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Faça ajustes manuais para a previsão estatística
 
@@ -67,7 +67,7 @@ A página **Detalhes de previsão de demanda** mostra as seguintes informações
 
 **Observações:**
 
--   Se você habilitar **Seleção do modelo de previsão nos detalhes da previsão de Demanda** do gerenciamento de Recursos, você poderá selecionar os modelos de previsão a serem incluídos para a previsão histórica na página **Detalhes de previsão de demanda**.
+-   Se você habilitar **Seleção do modelo de previsão nos detalhes da previsão de Demanda** do gerenciamento de Recursos, você poderá selecionar os modelos de previsão a serem incluídos para a previsão histórica na página **Detalhes de previsão de demanda**. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
 -   O intervalo de confiança exibido na seção **Previsão** da página representa a diferença entre os limites superior e inferior do intervalo de confiança. Para ver os valores dos limites superior e inferior, focalize o gráfico na seção **Demanda histórica e previsão graficamente**.
 -   Se você usar o Aprendizado de Máquina do Microsoft Azure de previsão de Demanda, você pode especificar a porcentagem do nível de confiança que a previsão que é gerada deve ter. Um intervalo de confiança consiste em um intervalo de valores que representam boas estimativas para a previsão de demanda. Um nível de confiança de 95% indica que há um risco de 5% de que a previsão de demanda fique fora do intervalo de confiança.
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715245"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777928"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.21 (outubro de 2021)
 
@@ -70,10 +70,10 @@ A tabela a seguir lista os recursos ativados por padrão na versão 10.0.21. A m
 | Cancelamento da ordem de transferência | 01/09/2021 | 13/07/2020 | Ativado por padrão | Gerenciamento de estoque e depósito |
 | Desbloquear Diário de Estoque | 01/09/2021 | 17/08/2020 | Ativado por padrão | Gerenciamento de estoque e depósito |
 | Exibições salvas do Gerenciamento de estoque | 01/09/2021 | 30/9/2020 | Ativado por padrão | Gerenciamento de estoque e depósito |
-| Navegação para a versão da BOM a partir de linhas da BOM. | 01/09/2021 | 11/11/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
-| Usando unidade de medida e quantidade de unidades em diários de estoque. | 01/09/2021 | 11/11/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Navegação para a versão da BOM a partir de linhas da BOM | 01/09/2021 | 11/11/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Usando unidade de medida e quantidade de unidades em diários de estoque | 01/09/2021 | 11/11/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
 | Permitir valores de atributos de lote vazios | 01/09/2021 | 11/11/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
-| Incrementar automaticamente os números de linha das linhas de ordens de transferência de estoque. | 01/09/2021 | 11/10/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
+| Incrementar automaticamente os números de linha das linhas de ordens de transferência de estoque | 01/09/2021 | 11/10/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
 | Fluxo de trabalho de aprovação do diário de estoque | 01/09/2021 | 06/01/2020 | Ativado por padrão | Gerenciamento de estoque e depósito |
 | Habilitar o recurso de aviso de parâmetros de gerenciamento de qualidade de estoque | 01/09/2021 | 07/10/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
 | Criar ordem de transferência a partir da linha de venda | 01/09/2021 | 31/08/2019 | Ativado por padrão | Gerenciamento de estoque e depósito |
@@ -93,12 +93,12 @@ A tabela a seguir lista os recursos ativados por padrão na versão 10.0.21. A m
 | Exibições salvas para produtos liberados | 01/09/2021 | 30/9/2020 | Ativado por padrão | Gerenciamento de informações sobre o produto |
 | Aprimoramentos nas caixas de diálogo Aprovar e Transferir trabalhos | 01/09/2021 | 11/10/2019 | Ativado por padrão | Controle de produção |
 | Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho | 01/09/2021 | 31/08/2019 | Ativado por padrão | Controle de produção |
-| Um novo botão Parar intervalo foi adicionado à página Terminal de Ficha de Trabalho. | 01/09/2021 | 19/02/2020 | Ativado por padrão | Controle de produção |
+| Um novo botão Parar intervalo foi adicionado à página Terminal de Ficha de Trabalho | 01/09/2021 | 19/02/2020 | Ativado por padrão | Controle de produção |
 | Habilite o recebimento parcial de itens subcontratados e corrija um problema com o cálculo de sucata das linhas de BOM do tipo Fornecedor. | 01/09/2021 | 11/11/2019 | Ativado por padrão | Controle de produção |
 | Exibições salvas para controle de produção | 01/09/2021 | 17/08/2020 | Ativado por padrão | Controle de produção |
 | Dynamics 365 Guides para Fabricação | 01/09/2021 | 13/07/2020 | Ativado por padrão | Controle de produção |
 | Execução do piso de produção | 01/09/2021 | 30/9/2020 | Ativado por padrão | Controle de produção |
-| Recurso para bloqueio de dispositivo de ficha de trabalho e terminal de ficha de trabalho para que eles possam ser limpos. | 01/09/2021 | 10/05/2020 | Ativado por padrão | Controle de produção |
+| Recurso para bloqueio de dispositivo de ficha de trabalho e terminal de ficha de trabalho para que eles possam ser limpos | 01/09/2021 | 10/05/2020 | Ativado por padrão | Controle de produção |
 | Alocação de encargos em uma ordem de venda | 01/09/2021 | 30/9/2020 | Ativado por padrão | Vendas e marketing |
 | Limitar o número de ordens de venda que podem ser selecionadas para lançamento | 01/09/2021 | 01/09/2021 | Ativado por padrão | Vendas e marketing |
 | Limpar histórico de atualizações de ordens de venda | 01/09/2021 | 01/09/2021 | Ativado por padrão | Vendas e marketing |

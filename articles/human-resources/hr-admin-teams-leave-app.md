@@ -1,8 +1,8 @@
 ---
 title: Aplicativo Human Resources no Teams
 description: Este tópico apresenta o aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams.
-author: andreabichsel
-ms.date: 02/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3b717cf2fb8663ed8e4981981d563672c9e645c4f9b592ee1896cfef4236396
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e44b9fa40971710d8316c055c4d2ac51f9ab266
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772708"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771497"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicativo Human Resources no Teams
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite aos funcionários solicitar folgas rapidamente, além de visualizar suas informações de saldo de folgas no Microsoft Teams. Os funcionários podem interagir com um bot para solicitar informações. A guia **Folga** fornece informações mais detalhadas. Além disso, eles podem enviar às pessoas informações sobre suas próximas folgas em equipes e bate-papos fora do aplicativo do Human Resources.
+O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite aos funcionários solicitar folgas rapidamente, além de exibir suas informações de saldo de folgas no Microsoft Teams. Os funcionários podem interagir com um bot para solicitar informações. A guia **Folga** fornece informações mais detalhadas. Além disso, eles podem enviar às pessoas informações sobre suas próximas folgas em equipes e bate-papos fora do aplicativo do Human Resources.
 
 ![Bot do aplicativo de licenças do Human Resources Teams.](./media/hr-teams-leave-app-bot.png)
 
@@ -106,7 +106,7 @@ Os seguintes itens de trabalho foram lançados para versões futuras:
 | --- | --- |
 | O saldo exibido ao enviar folga para uma data futura está incorreto. | A previsão ainda não está disponível. O saldo é exibido para a data atual. |
 | Não é possível cancelar uma solicitação **Em revisão**. | Atualmente, essa funcionalidade não tem suporte e será adicionada em uma versão futura. |
-| As informações de saldo são calculadas a partir de hoje. | O sistema atualmente não exibe os saldos a partir do período de acúmulo, mesmo se estiver configurado nos parâmetros de Licença e ausência. |
+| As informações de saldo são calculadas a partir de hoje. | No momento, o sistema não mostra os saldos a partir do período de acúmulo, mesmo se estiver configurado na página **Parâmetros de licença e ausência**. |
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
@@ -118,7 +118,7 @@ Se um usuário entrar em contato com você porque não consegue entrar no aplica
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Erro ao aprovar solicitações de licença no aplicativo do Human Resources no Teams
 
-Se um usuário receber um erro ao tentar aprovar solicitações de licença no aplicativo do Teams, teste as seguintes etapas de solução de problemas:
+Se um usuário receber um erro ao tentar aprovar solicitações de licença no aplicativo do Teams, experimente as seguintes etapas de solução de problemas:
 
 1. Verifique se a sua conta do Teams é a mesma usada para acessar o Human Resources.
 
@@ -130,15 +130,15 @@ Se um usuário receber um erro ao tentar aprovar solicitações de licença no a
 
 2. Verifique se os usuários estão conectados na guia **Chats** com as mesmas credenciais usadas para aprovar solicitações de licença. Use as mensagens "sair" e "entrar" para conectar-se com as credenciais corretas.
 
-3. Se o problema persistir, verifique o status do trabalho em lote do sistema de eventos comerciais como um administrador do sistema. Se estiver em um estágio de espera ou de execução, verifique novamente em alguns minutos. Se o status permanecer inalterado, registre um tíquete de suporte para que nossa equipe possa ajudar a resolver o problema.
+3. Se o problema persistir, verifique o status do trabalho em lote **Sistema de Eventos Comerciais** como um administrador do sistema. Se estiver em um estágio **Aguardando** ou **Executando**, verifique novamente em alguns minutos. Se o status permanecer inalterado, registre um tíquete de suporte para que nossa equipe possa ajudar a corrigir o problema.
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Serviço Inteligente de Reconhecimento Vocal (LUIS) da Microsoft
 
-Com o bot do Dynamics 365 Human Resources no Microsoft Teams, as entradas de texto do usuário são analisadas para compreender a consulta/intenção subjacente. A entrada do usuário, como "Pesquisar conta Contoso", é encaminhada para um Serviço Cognitivo da Microsoft, chamado de Serviço Inteligente de Reconhecimento Vocal (LUIS). Leia mais sobre o LUIS  [aqui](https://www.luis.ai/). O serviço LUIS exclui a ambiguidade ou compreende a intenção da entrada do usuário (nesse caso, a intenção é encontrar informações) e a entidade de destino (nesse caso, a entidade pretendida é uma conta chamada Contoso). Em seguida, essas informações são passadas para o [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/) da Microsoft, que interage com os dados do Dynamics 365 Human Resources e recupera as informações desejadas para a consulta do usuário.
+Com o bot do Dynamics 365 Human Resources no Microsoft Teams, as entradas de texto do usuário são analisadas para compreender a consulta/intenção subjacente. A entrada do usuário, como "Pesquisar conta Contoso", é encaminhada para um Serviço Cognitivo da Microsoft chamado LUIS (Serviço Inteligente de Reconhecimento Vocal). Leia mais sobre o LUIS  [aqui](https://www.luis.ai/). O serviço LUIS exclui a ambiguidade ou compreende a intenção da entrada do usuário (nesse caso, a intenção é encontrar informações) e a entidade de destino (nesse caso, a entidade pretendida é uma conta chamada Contoso). Em seguida, essas informações são passadas para o [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/) da Microsoft, que interage com os dados do Dynamics 365 Human Resources e recupera as informações desejadas para a consulta do usuário.
 
-Ao instalar e permitir o acesso ao uso do bot, você permite que o serviço LUIS e a estrutura de bot do Azure processem a intenção por trás da entrada, o que resulta em uma experiência aprimorada de conversa do usuário. O serviço LUIS e a estrutura de bot do Azure têm vários níveis de conformidade em comparação com o Dynamics 365 Human Resources. Embora o serviço LUIS tenha acesso a somente às consultas do usuário e não tenha sido desenvolvido para se conectar aos dados ou à conta do usuário do Dynamics 365 Human Resources, um usuário do bot do Dynamics 365 Human Resources poderia voluntariamente inserir uma consulta contendo Dados do Cliente, Dados Pessoais ou outros dados, e esse conteúdo da consulta poderia ser enviado para o serviço LUIS e para a estrutura de bot do Azure. 
+Ao instalar e permitir o acesso ao uso do bot, você permite que o serviço LUIS e a estrutura de bot do Azure processem a intenção por trás da entrada, o que resulta em uma experiência aprimorada de conversa do usuário. O serviço LUIS e a estrutura de bot do Azure têm vários níveis de conformidade em comparação com o Dynamics 365 Human Resources. Embora o serviço LUIS tenha acesso a somente às consultas do usuário e não tenha sido desenvolvido para se conectar aos dados ou à conta do usuário do Dynamics 365 Human Resources, um usuário do bot do Dynamics 365 Human Resources poderia voluntariamente inserir uma consulta contendo Dados do Cliente, Dados Pessoais ou outros dados, e esse conteúdo da consulta poderia ser enviado para o serviço LUIS e para o Azure Bot Framework. 
 
 O conteúdo das consultas e das mensagens do usuário é mantido no sistema do LUIS por até 30 dias, criptografado em repouso e não é usado para treinamento ou melhoria de serviço. Leia mais sobre o Cognitive Services [aqui](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 

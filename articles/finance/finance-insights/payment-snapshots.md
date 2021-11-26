@@ -2,7 +2,7 @@
 title: Visão geral de instantâneos
 description: Este tópico descreve o recurso de instantâneos, que permite salvar uma previsão de fluxo de caixa para análise ou comparação com dados efetivos posteriormente. Ao gerar uma previsão de fluxo de caixa, você poderá salvar essa previsão como um "instantâneo". Em seguida, você pode usar esses instantâneos para editar as contas que foram incluídas na previsão ou comparar a previsão no instantâneo com os valores reais.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752748"
 ---
 # <a name="snapshots-overview"></a>Visão geral de instantâneos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Os instantâneos permitem que as organizações editem e salvem informações sobre sua posição de caixa e previsões de dinheiro em um ponto no tempo. Você pode comparar o instantâneo com os financeiros reais, examinar a variação e usar essas informações para melhorar as previsões de fluxo de caixa ao longo do tempo. Mais especificamente, os instantâneos podem ser usados das seguintes formas:
 
@@ -40,8 +41,6 @@ Você pode criar um instantâneo selecionando **Novo instantâneo** na guia **Po
 
 Os fluxos de entrada e saída de caixa nos instantâneos podem ser editados a qualquer momento. Quando um valor de entrada ou de saída de caixa é editado, o valor atualizado é rateado para as contas de liquidez que fizeram o saldo original. Quando você terminar de editar um instantâneo, selecione **Salvar** para salvar as alterações.
 
-Para comparar vários instantâneos, selecione **Comparar instantâneos**. Você pode comparar dois instantâneos ao mesmo tempo. Selecione os dois instantâneos que devem ser comparados e selecione **OK**. A página **Comparar instantâneo** mostrará uma comparação dos instantâneos selecionados. O gráfico na seção superior da página mostra uma comparação entre as entradas de caixa, as saídas de caixa e os saldos bancários nos períodos sobrepostos entre os dois instantâneos. A grade na seção inferior mostra uma comparação detalhada das duas previsões para cada valor de liquidez. A coluna **Variação** na grade mostra a diferença entre os saldos em um período.
-
-Para comparar os resultados financeiros reais com uma previsão salva como um instantâneo, selecione **Comparar com reais**. A página **Comparar instantâneo** mostrará uma comparação entre os valores reais e a previsão. O gráfico na seção superior da página mostra uma comparação entre as entradas de caixa, as saídas de caixa e os saldos bancários nos períodos sobrepostos entre os dois instantâneos. A grade na seção inferior mostra uma comparação detalhada dos saldos reais por período e o saldo previsto para cada valor de liquidez. A coluna **Variação** na grade mostra a diferença entre o saldo real em um período e o saldo previsto.
+Para comparar os resultados financeiros reais com uma previsão salva como um instantâneo, selecione **Comparar com reais**. A página **Comparar com dados reais** mostrará uma comparação entre os valores reais e a previsão. O gráfico na seção superior da página mostra uma comparação entre as entradas de caixa, as saídas de caixa e os saldos bancários nos períodos sobrepostos entre os dois instantâneos. A grade na seção inferior mostra uma comparação detalhada dos saldos reais por período e o saldo previsto para cada valor de liquidez. A coluna **Variação** na grade mostra a diferença entre o saldo real em um período e o saldo previsto.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

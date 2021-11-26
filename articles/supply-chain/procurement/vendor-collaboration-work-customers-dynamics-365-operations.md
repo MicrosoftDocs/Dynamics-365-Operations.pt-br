@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575378"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777585"
 ---
 # <a name="vendor-collaboration-with-customers"></a>​Colaboração de fornecedores com clientes​
 
@@ -102,7 +102,7 @@ As pessoas que trabalham no setor público podem ver RFQs abertas e expiradas qu
 
     Se você foi convidado para o lance, pode encontrar a mesma RFQ na página **Novos convites do lance**. Às vezes, você quer fazer um lance em uma RFQ em aberto, mas ainda não foi convidado para fazer o lance. Nesse caso, você pode se convidar, desde que o cliente tenha ativado o autoconvite para o caso de RFQ.
 
-    Aprimore a acessibilidade do link **Solicitações de cotações em aberto publicadas** ativando o recurso **Exiba o link "Solicitações de cotações em aberto publicadas" como um bloco**. Esse recurso converte o link em um bloco e o move para um local proeminente, de modo que seja fácil de encontrar.
+    Aprimore a acessibilidade do link **Solicitações de cotações em aberto publicadas** ativando o recurso **Exiba o link "Solicitações de cotações em aberto publicadas" como um bloco**. Esse recurso converte o link em um bloco e o move para um local proeminente, de modo que seja fácil de encontrar. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
 
 - Selecione o link **Solicitações de cotações fechadas publicadas** para ver uma lista de RFQs fechadas disponíveis ao público. Uma RFQ fechada é aquela que expirou. Você pode encontrar a data de vencimento e a hora no cabeçalho da RFQ.
 

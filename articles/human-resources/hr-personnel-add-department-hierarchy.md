@@ -1,8 +1,8 @@
 ---
 title: Criar departamentos e incluí-los na hierarquia de departamentos
-description: Um departamento é uma unidade operacional que representa uma categoria ou uma área funcional de uma organização. Um departamento é responsável por uma área específica da organização, como vendas, contabilidade ou recursos humanos. Você pode usar departamentos para relatar áreas funcionais. Os departamentos podem ter a responsabilidade de lucros e perdas.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Um departamento é uma unidade operacional que representa uma categoria ou uma área funcional de uma organização. Um departamento é responsável por uma área específica da organização, como vendas, contabilidade ou recursos humanos.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1fa6d2b18a1b92236a153e453560430cc0d4c1c6e2cde0431c1e1cc68128bd0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2caa4f1e7be4be54766921a9e38c97d22b8200c7
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727008"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731603"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Criar departamentos e incluí-los na hierarquia de departamentos
 
@@ -32,15 +32,15 @@ Um departamento pode incluir um grupo de centros de custo. As posições podem s
 
 | Campo               | Descrição                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nome                | Insira o nome para o departamento.                                                                                                                                                                                  |
-| Número de departamento   | Um valor padrão poderá ser gerado automaticamente se um código de sequência numérica for atribuído à referência **Número da organização** na página **Sequências numéricas**.                                                 |
-| Nome de pesquisa         | Insira um nome ou um acrônimo que possa ser usado para procurar o departamento.                                                                                                                                            |
-| Memorando                | Insira quaisquer informações adicionais aqui.                                                                                                                                                                            |
-| Na hierarquia        | Uma caixa de seleção marcada indica que o departamento está incluído na hierarquia de departamentos. Para obter informações sobre como adicionar um departamento à hierarquia de departamentos, consulte as informações posteriormente neste artigo. |
-| Número de DUNS         | DUNS significa Data Universal Number System (número universal do sistema de numeração). Este é um número de nove dígitos que é emitido pela Dun & Bradstreet.                                                                                                     |
-| Gerente             | Insira a persona que gerencia o departamento.                                                                                                                                                                    |
-| Endereços           | Adicione as informações de endereço do departamento. Por exemplo, adicione o endereço para correspondência da compilação que o departamento está localizado.                                                                          |
-| Informações do contato | Adicione as informações de contato do departamento. Por exemplo, adicione um número de telefone da mesa de serviço no departamento.                                                                                           |
+| **Nome**                | Insira o nome para o departamento.                                                                                                                                                                                  |
+| **Número de departamento**   | Um valor padrão poderá ser gerado automaticamente se um código de sequência numérica for atribuído à referência **Número da organização** na página **Sequências numéricas**.                                                 |
+| **Nome de pesquisa**         | Insira um nome ou um acrônimo que possa ser usado para procurar o departamento.                                                                                                                                            |
+| **Memorando**                | Insira quaisquer informações adicionais aqui.                                                                                                                                                                            |
+| **Na hierarquia**        | Uma caixa de seleção marcada indica que o departamento está incluído na hierarquia de departamentos. Para obter informações sobre como adicionar um departamento à hierarquia de departamentos, consulte as informações posteriormente neste artigo. |
+| **Número DUNS**         | DUNS significa Data Universal Number System (número universal do sistema de numeração). Este é um número de nove dígitos que é emitido pela Dun & Bradstreet.                                                                                                     |
+| **Gerente**             | Insira a persona que gerencia o departamento.                                                                                                                                                                    |
+| **Endereços**           | Adicione as informações de endereço do departamento. Por exemplo, adicione o endereço para correspondência da compilação que o departamento está localizado.                                                                          |
+| **Informações do contato** | Adicione as informações de contato do departamento. Por exemplo, adicione um número de telefone da mesa de serviço no departamento.                                                                                           |
 
 Para adicionar um departamento à hierarquia de departamentos, siga estas etapas.
 

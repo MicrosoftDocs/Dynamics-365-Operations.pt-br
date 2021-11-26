@@ -2,7 +2,7 @@
 title: Previsões de pagamento do cliente
 description: Este tópico descreve o recurso de previsões de pagamento que pode ajudar a entender melhor as práticas de pagamento típicas de um cliente. Esse recurso também pode ajudar a identificar as circunstâncias que devem causar o início de processos de cobrança antes do que você espera.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 21a773b37020aeff969469e29be68e7f7ef44d93
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386652"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752727"
 ---
 # <a name="customer-payment-predictions"></a>Previsões de pagamento do cliente
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve o recurso de previsões de pagamento que pode ajudar a entender melhor as práticas de pagamento típicas de um cliente. Esse recurso também pode ajudar a identificar as circunstâncias que devem causar o início de processos de cobranças antes do que você espera.
 
@@ -67,11 +68,5 @@ Em muitas empresas, o processo de cobranças tem sido uma atividade reativa. Em 
 ## <a name="methodology"></a>Metodologia
 
 No passado, normalmente era difícil desenvolver e implantar uma solução de IA (inteligência artificial). O processo exigia uma equipe com cientistas de dados, especialistas no assunto (SMEs) e engenheiros trabalhando por um período extenso para formular, desenvolver, implantar e manter uma solução útil de IA. As previsões de pagamento do cliente facilitam a implantação e o uso de uma solução de IA no Microsoft Dynamics 365 Finance. A Microsoft está pré-embalando soluções de IA criadas com base no Microsoft AI Builder. Portanto, os usuários podem implantar a solução de IA em um único clique do mouse para aproveitar as vantagens das previsões inteligentes. Se você não estiver satisfeito com a precisão das previsões, um usuário avançado poderá (novamente, com um único clique do mouse) entrar na experiência de extensão do AI builder e então marcar ou desmarcar os campos usados para gerar previsões. Quando estiver pronto, você poderá "treinar" o modelo e publicar as alterações. O modelo recentemente treinado será automaticamente retirado para gerar previsões no Dynamics 365 Finance.
-
-## <a name="release-details"></a>Detalhes da liberação
-
-A versão preliminar pública do Finance Insights está disponível para implantações de avaliação nos Estados Unidos da América, na Europa e no Reino Unido. A Microsoft está adicionando suporte para outras regiões de forma incremental.
-
-Os recursos de versão preliminar pública devem ser ativados somente em ambientes de área restrita de Camada 2. A Configuração e os Modelos de IA criados em um ambiente de área restrita podem não ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

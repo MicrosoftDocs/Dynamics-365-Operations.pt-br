@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6b75dcb7d56648f3be291cb1c09ec57a53477ec0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344165"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778074"
 ---
 # <a name="wave-label-printing"></a>Impressão de etiqueta do ciclo
 
@@ -53,9 +53,9 @@ Esses aprimoramentos tornam mais eficiente a etiquetagem de caixas antes da pale
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Ativar o recurso Impressão de etiquetas de onda
 
-Para que você possa usar o recurso *Impressão de etiquetas de onda*, ele deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, está ativado por padrão e não poderá ser desativado novamente. No entanto, o recurso ainda está listado em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) da seguinte forma:
 
-- **Módulo:** *Gerenciamento de Depósito*
+- **Módulo:** *Gerenciamento de depósito*
 - **Nome do recurso:** *Impressão de etiquetas de onda*
 
 ## <a name="scenario-1-wave-label-printing-where-a-single-wave-label-is-generated"></a>Cenário 1: Impressão de etiquetas de onda na qual uma única etiqueta de onda é gerada

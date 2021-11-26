@@ -1,8 +1,8 @@
 ---
-title: Configurar um ambiente para pesquisa de dados mestres
-description: Este tópico explica como configurar seu ambiente para usar o recurso de busca de dados mestres de Cálculo de Imposto.
+title: Habilitar pesquisa de dados mestres para configuração de cálculo de imposto
+description: Este tópico explica como configurar e habilitar o recurso de pesquisa de dados mestres do cálculo de imposto.
 author: kai-cloud
-ms.date: 10/26/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
+ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700395"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749501"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>Configurar um ambiente para pesquisa de dados mestres
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Habilitar pesquisa de dados mestres para configuração de cálculo de imposto 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar seu ambiente para usar o recurso de busca de dados mestres de Cálculo de Imposto.
+Este tópico explica como configurar e habilitar o recurso de pesquisa de dados mestres do cálculo de imposto. Uma lista suspensa está disponível para selecionar valores na configuração de cálculo de imposto para campos como **Conta de Fornecedor**, **Código do item** e **Prazo de entrega**. Esses valores são provenientes do ambiente conectado do Microsoft Dynamics 365 Finance usando a fonte de dados do Microsoft Dataverse.
 
 1. Configure a integração do Microsoft Power Platform ao Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações, consulte [Integração do Microsoft Power Platform — Visão geral dos suplementos](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Depois de concluir esta etapa, o nome de um ambiente do Microsoft Power Platform será exibido na seção **Integração do Power Platform**.
 2. Vá para o [centro de administração do Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) e selecione o nome do ambiente. A URL do ambiente foi fornecida.

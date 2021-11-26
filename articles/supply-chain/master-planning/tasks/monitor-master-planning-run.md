@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd1906200038c27e63f9434bba27e7146f4c80c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575599"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778122"
 ---
 # <a name="monitor-a-master-planning-run"></a>Monitorar a execução de um planejamento mestre
 
@@ -33,7 +33,7 @@ Na página **Exibir andamento de planejamento mestre**, você pode exibir detalh
 Para usar essa funcionalidade, siga estas etapas.
 
 1. No espaço de trabalho **Gerenciamento de recursos**, na guia **Novo**, selecione **Visualização do andamento de planejamento mestre** na lista. Se o recurso não aparecer na guia **Novo** , examine as guias **Não habilitado** e **Tudo**.
-1. Selecione **Habilitar agora**. Como alternativa, selecione **Agenda** e selecione a hora em que você deseja que o recurso seja ativado.
+1. Selecione **Habilitar agora**. Como alternativa, selecione **Agenda** e selecione a hora em que você deseja que o recurso seja ativado. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
 
 A página **Exibir andamento de planejamento mestre** pode exibir trabalhos de planejamento históricos e trabalhos de planejamento ativos. 
 

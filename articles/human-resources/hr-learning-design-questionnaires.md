@@ -1,8 +1,8 @@
 ---
 title: Criar questionários
-description: Este artigo descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Este tópico descreve o processo para criar um questionário.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c2a8c156aa75b02b69da3ee70a1ee60ea9d73a8aa67c70babdaaad88d6eb81f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755549"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729042"
 ---
 # <a name="create-questionnaires"></a>Criar questionários
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artigo descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas. 
+Este tópico descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas. 
 
 Um questionário cuidadosamente desenvolvido pode ajudar a aumentar a qualidade dos dados coletados. Por meio da criação cuidadosa, você pode selecionar melhor as opções adequadas no tempo apropriado de um questionário. Os seguintes pontos podem ajudá-lo a planejar um questionário eficaz:
 
@@ -63,7 +63,7 @@ Alguns pré-requisitos devem ser atendidos antes que seja possível criar questi
 
 ### <a name="questionnaire-types"></a>Tipos de questionários
 
-Os tipos de questionário são necessários e devem ser atribuídos ao criar um questionário. Os tipos de questionário ajudam você a gerenciar e classificar o questionário de maneira mais fácil. Use os tipos de questionário para classificar os questionários e diferenciá-los uns dos outros. Por exemplo, se você tiver vários questionários para selecionar, você pode filtrá-los por tipo para ajudar a facilitar a localização de um questionário específico. Veja aqui alguns exemplos de tipo de questionário:
+Os **Tipos de questionário** são necessários e devem ser atribuídos na criação de um questionário. Os **Tipos de questionário** ajudam você a gerenciar e classificar o questionário com mais facilidade. Use os tipos de questionário para classificar os questionários e diferenciá-los uns dos outros. Por exemplo, se você tiver vários questionários para selecionar, você pode filtrá-los por tipo para ajudar a facilitar a localização de um questionário específico. Veja aqui alguns exemplos de tipo de questionário:
 
 -   Desenvolvimento de recursos humanos
 -   Pesquisas sobre clientes
@@ -71,9 +71,9 @@ Os tipos de questionário são necessários e devem ser atribuídos ao criar um 
 
 ### <a name="question-types"></a>Tipos de perguntas
 
-Os tipos de pergunta são necessários e devem ser atribuídos ao criar uma pergunta. 
+Os **Tipos de pergunta** são necessários e devem ser atribuídos ao criar uma pergunta. 
 
-Use os tipos de pergunta para categorizar as perguntas do relatório. Os tipos de pergunta facilitam a localização de perguntas, pois é possível usar tipos como filtros na página **Perguntas**. Veja aqui alguns exemplos de tipo de pergunta:
+Use os **Tipos de pergunta** para categorizar as perguntas do relatório. Os **Tipos de pergunta** facilitam a localização de perguntas, pois é possível usar tipos como filtros na página **Perguntas**. Veja aqui alguns exemplos de tipo de pergunta:
 
 -   Recursos humanos
 -   Gerenciamento de negócios
@@ -105,7 +105,7 @@ Para fornecer uma lista de respostas possíveis para perguntas fechadas, você p
 
 Os grupos de respostas e as respostas são componentes que compõem o corpo principal de informações a partir do qual as perguntas são criadas. Depois que você criar um grupo de resposta, poderá associá-lo a uma pergunta no campo **Grupo de respostas** na página **Perguntas**. 
 
-Um grupo de respostas pode ser usado para mais de uma pergunta no mesmo questionário e em mais de uma questionário. 
+Um **Grupo de respostas** pode ser usado para mais de uma pergunta no mesmo questionário e em mais de uma questionário. 
 
 > [!NOTE]
 > Se você modificar o texto de resposta em grupos de respostas que já foram usados em questionários preenchidos, poderá ser difícil avaliar os dados e os resultados do questionário talvez não sejam mais válidos. Se você precisar alterar um grupo de respostas, considere criar um novo grupo de respostas em vez de alterar o existente. Não é possível excluir grupos de resposta anexados a uma pergunta ou a uma resposta, ou que foram respondidos.
@@ -171,7 +171,7 @@ Em um questionário, você não pode excluir os seguintes tipos de pergunta:
 
 ### <a name="result-groups"></a>Grupos de resultados
 
-Os grupos de resultados são opcionais ao anexar perguntas a um questionário. 
+Os **Grupos de resultados** são opcionais ao anexar perguntas a um questionário. 
 
 Um grupo de resultados é usado para calcular pontos e categorizar os resultados de um questionário. Se você usar grupos de resultados, você pode executar as seguintes tarefas:
 

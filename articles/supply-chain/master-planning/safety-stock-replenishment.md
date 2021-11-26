@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-oldolg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 28f902c589cd80f1c34dc2758232548309db9aca
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474619"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790929"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Atendimento de estoque de segurança para itens
 
@@ -189,5 +189,9 @@ O atendimento da transação de requisito de estoque de segurança tem a priorid
 Durante a fase de cobertura de planejamento mestre, o reabastecimento do estoque de segurança não terá mais a prioridade cancelada. O estoque disponível poderá ser usado antes de qualquer outro tipo de demanda. Durante o cálculo de atraso, uma nova lógica será adicionada para verificar as linhas de vendas em atraso, os requisitos da linha de BOM e todos os outros tipos de demanda para determinar se podem ser enviadas no prazo, considerando que este estoque de segurança será usado. Se o sistema identificar que isso pode minimizar atrasos usando o estoque de segurança, então as linhas de vendas ou as linhas da BOM substituirão a cobertura inicial com o estoque de segurança, e o sistema acionará o reabastecimento do estoque de segurança.
 
 Se plano ou item não for configurado para o cálculo atrasado, então a restrição de estoque de segurança terá a mesma prioridade que outros tipos de demanda. Isso significa que há uma reserva de disponível e de outro estoque disponível antes de outros tipos de demanda.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+- [Usar o diário de estoque de segurança para atualizar a cobertura mínima para os itens](safety-stock-journal.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647180"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777952"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -39,7 +39,7 @@ A interface de execução de piso de produção e várias configurações opcion
 
 ### <a name="the-production-floor-execution-interface"></a>A interface de execução de piso de produção
 
-Este é o principal recurso descrito neste tópico. Ele adiciona a interface de execução de piso de produção ao seu sistema. Para habilitá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Este é o principal recurso descrito neste tópico. A partir do Supply Chain Management versão 10.0.21, ele é ativado por padrão. Ele adiciona a interface de execução de piso de produção ao seu sistema. Para habilitá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Execução de piso de produção
 
@@ -47,19 +47,19 @@ Este é o principal recurso descrito neste tópico. Ele adiciona a interface de 
 
 Estes recursos disponibilizam a funcionalidade de placas de licença para a interface de execução de piso de produção. Se você quiser usá-los, ative os seguintes recursos no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nesta ordem):
 
-1. Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho
+1. Placa de licença para relatório de conclusão adicionado ao Dispositivo de Ficha de Trabalho (a partir do Supply Chain Management versão 10.0.21, este recurso é ativado por padrão.)
 1. Habilitar a geração automática do número da placa de licença ao concluir o relatório de conclusão no dispositivo de ficha de trabalho
 
 ### <a name="print-labels"></a>Imprimir etiquetas
 
 Estes recursos disponibilizam a funcionalidade de impressão de etiquetas para a interface de execução de piso de produção. Se você quiser usá-los, ative os seguintes recursos no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nesta ordem):
 
-1. Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho
+1. Placa de licença para relatório de conclusão adicionado ao Dispositivo de Ficha de Trabalho (a partir do Supply Chain Management versão 10.0.21, este recurso é ativado por padrão.)
 1. Imprimir etiqueta do Dispositivo de Ficha de Trabalho
 
 ### <a name="allow-locking-the-touch-screen"></a>Permitir o bloqueio da tela touch
 
-Este recurso adiciona um botão à interface de execução de piso de produção que permite aos funcionários limpar a tela touch. Se você quiser usá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Ele adiciona um botão à interface de execução de piso de produção que permite aos funcionários limpar a tela sensível ao toque. Se você quiser usá-lo, certifique-se de que o seguinte recurso foi ativado no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Recurso para bloqueio de dispositivo de ficha de trabalho e terminal de ficha de trabalho para que eles possam ser limpos
 

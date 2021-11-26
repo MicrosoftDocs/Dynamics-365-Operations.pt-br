@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576031"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777580"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito
 
@@ -77,7 +77,7 @@ Quando este recurso estiver ativado, os itens do menu do dispositivo móvel do r
 - **Exibir um resumo detalhado** – Durante o recebimento da placa de licença, os trabalhadores verão uma página extra que mostra as informações completas do ASN.
 - **Ignorar o resumo** – Os funcionários não verão as informações completas do ASN. Os trabalhadores de depósito também não poderão definir um código de disposição nem adicionar exceções durante o processo de recebimento.
 
-Para tornar esta funcionalidade disponível no sistema, você deve ativar o recurso *Controlar se é necessário exibir uma página de resumo de recebimento em dispositivos móveis* no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para tornar esta funcionalidade disponível no sistema, você deve ativar o recurso *Controlar se uma página de resumo do recebimento deve ser exibida em dispositivos móveis* no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Impedir que as placas de licença remetidas da ordem de transferência sejam usadas em depósitos diferentes do depósito de destino
 

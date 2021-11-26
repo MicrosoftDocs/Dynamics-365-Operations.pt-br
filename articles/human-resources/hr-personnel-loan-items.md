@@ -1,8 +1,8 @@
 ---
 title: Gerenciar itens emprestados aos trabalhadores
 description: Os itens de empréstimo são registros que ajudam os gerentes a rastrear os itens físicos que sua empresa empresta aos trabalhadores.
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760577"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728750"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Gerenciar itens emprestados aos trabalhadores
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760577"
 
 Os itens de empréstimo são registros que ajudam os gerentes a rastrear os itens físicos que sua empresa empresta aos trabalhadores. 
 
-Os pontos a seguir são exemplos de itens que uma empresa pode emprestar aos trabalhadores:
+Aqui estão alguns exemplos de itens que uma empresa pode emprestar aos trabalhadores:
+
 -   Telefones celulares
 -   Automóveis
 -   Equipamentos de informática
@@ -37,7 +38,7 @@ Cada item físico deve ter um item de empréstimo correspondente. Cada registro 
 
 Ao emprestar um item, insira a data que ele foi emprestado e a data de devolução planejada. Quando o item for devolvido, insira a data real da devolução.
 
-Os funcionários podem exibir os registros dos itens que foram emprestados a eles usando o espaço de trabalho de autoatendimento para funcionários. Eles também podem editar os registros existentes ou inserir novos itens de empréstimo, se receberem itens físicos adicionais.  O fluxo de trabalho poderá ser configurado para rotear as alterações a itens de empréstimo novos ou existentes por meio de um processo de aprovação. 
+Os funcionários podem usar o espaço de trabalho **Autoatendimento para funcionários** para exibir os registros dos itens que foram emprestados a eles. Eles também poderão editar os registros existentes ou inserir novos itens de empréstimo se receberem itens físicos adicionais. Um fluxo de trabalho poderá ser configurado para rotear as alterações a itens de empréstimo novos ou existentes por meio de um processo de aprovação. 
 
 Os gerentes podem exibir itens emprestados para seus subordinados diretos. Eles também podem ter permissão para adicionar novos itens de empréstimo em nome dos funcionários.
 

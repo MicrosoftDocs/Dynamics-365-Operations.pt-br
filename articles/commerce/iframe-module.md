@@ -2,7 +2,7 @@
 title: Módulo iframe
 description: Este tópico abrange o módulo iframe e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767281"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754005"
 ---
 # <a name="iframe-module"></a>Módulo Iframe
 
@@ -66,7 +66,10 @@ Para adicionar um módulo iframe a uma página para mostrar um vídeo externo, s
 1. Defina outras propriedades, como **Título** e **Altura**, conforme necessário.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Acesse a página de marketing do site. Você verá que o vídeo é processado no módulo iframe.
- 
+
+> [!NOTE]
+> Como o módulo iframe hospeda conteúdo externo, os autores do site devem garantir que o conteúdo hospedado em um módulo iframe não viole as políticas de restrição de conteúdo no respectivo mercado. Se houver uma violação de conteúdo em uma página que usa o módulo iframe, o autor do site poderá remover o módulo iframe abrindo a página no construtor de sites, selecionando **Remover módulo** no slot do módulo iframe e salvando e republicando a página.
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral da biblioteca de módulos](starter-kit-overview.md)

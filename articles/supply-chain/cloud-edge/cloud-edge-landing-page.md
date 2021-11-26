@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471731"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733430"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escala em uma topologia híbrida distribuída
 
@@ -32,8 +32,8 @@ As empresas que trabalham com fabricação e distribuição devem ser capazes de
 
 Uma topologia híbrida distribuída introduz o conceito de *unidades de escala*, que permite a distribuição de cargas de trabalho de chão de fábrica e de execução de depósito em diferentes ambientes. Essa funcionalidade pode ajudar a melhorar o desempenho, prevenir interrupções de serviço e maximizar o tempo de atividade. As unidades de escala são fornecidas pelos seguintes suplementos para a assinatura do Supply Chain Management:
 
-- Suplemento da Unidade de Escala de Nuvem para Dynamics 365 Supply Chain Management (*disponível em abril de 2021*)
-- Suplemento da Unidade de Escala de Borda para Dynamics 365 Supply Chain Management (*disponível em breve*)
+- Suplemento de unidade de escala de nuvem para o Dynamics 365 Supply Chain Management
+- Suplemento de unidade de escala de borda para o Dynamics 365 Supply Chain Management
 
 Os recursos de carga de trabalho estão sendo liberados continuamente por meio de melhorias incrementais.
 
@@ -51,21 +51,12 @@ Você pode configurar seu ambiente de hub e unidades de escala de nuvem para car
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Recursos dedicados de carga de trabalho de gerenciamento de depósito em uma unidade de escala
 
-A carga de trabalho de gerenciamento de depósito é a primeira carga de trabalho distribuída para unidades de escala que foi liberada para disponibilidade geral.
-
-Para o gerenciamento de depósito, as unidades de escala fornecem os seguintes recursos:
-
-- O sistema pode processar métodos de ciclo selecionados para ordens de venda e reabastecimento de demanda.
-- Os trabalhadores de depósito podem executar o trabalho de depósito de reabastecimento de demanda e vendas usando o aplicativo móvel do Gerenciamento de Depósito.
-- Os trabalhadores de depósito podem consultar o estoque disponível usando o aplicativo móvel do Gerenciamento de Depósito.
-- Os trabalhadores de depósito podem criar e executar movimentações de estoque usando o aplicativo móvel do Gerenciamento de Depósito.
-- Os trabalhadores de depósito podem registrar ordens de compra e fazer armazenamento usando o aplicativo móvel do Gerenciamento de Depósito.
-
+A carga de trabalho de gerenciamento de depósito permite que você execute processos de gerenciamento de depósito em uma implantação isolada.
 Para obter mais informações, consulte [Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Recursos dedicados de carga de trabalho de execução de fabricação em uma unidade de escala
 
-A primeira versão da carga de trabalho de fabricação está atualmente na versão preliminar e oferece os seguintes recursos:
+A carga de trabalho de fabricação oferece os seguintes recursos:
 
 - Os operadores de máquina e os supervisores de chão de fábrica podem acessar o plano de produção operacional.
 - Os operadores de máquina podem manter o plano atualizado ao executar trabalhos de fabricação discretos e de processo.
@@ -191,17 +182,33 @@ A Microsoft revisará a solicitação e informará sobre as próximas etapas env
 
 Depois que a integração for concluída, você poderá usar a porta para configurar unidades de escala e cargas de trabalho.
 
-### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gerenciar unidades de escala de nuvem e cargas de trabalho usando o portal de Gerente de Unidade de Escala
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gerenciar unidades de escala e cargas de trabalho usando o portal de Gerente de Unidade de Escala
 
 Acesse o [portal do Gerente e Unidade de Escala](https://aka.ms/SCMSUM) e entre usando sua conta de locatário. Na página **Configurar unidades de escala**, você poderá adicionar um ambiente de hub, caso ainda não esteja listado. Você pode selecionar o hub a ser configurado com unidades de escala e cargas de trabalho.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Experiência de gerenciamento de unidade de escala e carga de trabalho.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Portal do Gerente de Unidade de Escala, página Configurar unidades de escala.":::
 
 Para adicionar uma ou mais unidades de escala que estejam disponíveis em suas assinaturas, selecione **Adicionar unidades de escala**.
 
 Na guia **Cargas de trabalho definidas**, use o botão **Criar carga de trabalho** para adicionar uma carga de trabalho de gerenciamento de depósito a uma das unidades de escala. Para cada carga de trabalho, você deve especificar o contexto dos processos que serão propriedade da carga de trabalho. Para cargas de trabalho de gerenciamento de depósito, o contexto é um depósito específico em um site e uma entidade legal específicos.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Criação de carga de trabalho.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Definir caixa de diálogo de cargas de trabalho.":::
+
+#### <a name="manage-workloads"></a>Gerenciar cargas de trabalho
+
+Quando uma ou mais cargas de trabalho são habilitadas, use a opção **Gerenciar cargas de trabalho** para iniciar e gerenciar processos como os listados na tabela a seguir.
+
+| Processar | Descrição |
+|---|---|
+| Pausar a comunicação da unidade de escala | Pausar mensagens de pipeline entre o hub e uma unidade de escala. Esse processo interromperá a comunicação e drenará o pipeline de dados entre o hub e as unidades de escala. Você deve executar esse processo antes de executar uma operação de serviço do Supply Chain Management no hub ou na unidade de escala, mas isso também pode ser usado em outras situações. |
+| Continuar a comunicação da unidade de escala | Continuar as mensagens de pipeline entre o hub e uma unidade de escala. Talvez seja necessário usar esse processo, por exemplo, depois de executar uma operação de serviço do Supply Chain Management no hub ou na unidade de escala. |
+| Atualizar cargas de trabalho | Sincronizar nova funcionalidade entre as cargas de trabalho da unidade de escala e do hub. Talvez seja necessário usar esse processo, por exemplo, quando a manutenção tiver causado a alteração das consultas de troca de dados e/ou tiver adicionado novas tabelas ou campos à carga de trabalho. |
+| Transferir cargas de trabalho para uma unidade de escala | Agende uma carga de trabalho que está sendo executada no momento no hub para ser movida para uma unidade de escala. Quando esse processo for executado, a sincronização de dados fluirá e o hub e a unidade de escala serão definidos para alterar a propriedade da carga de trabalho. |
+| Transferir unidade de escala para o hub | Agende uma carga de trabalho que está sendo executada no momento em uma unidade de escala a ser movida para o hub. Quando esse processo for executado, a sincronização de dados fluirá e o hub e a unidade de escala serão definidos para alterar a propriedade da carga de trabalho.
+| Transição de emergência para hub | <p>Transfira imediatamente uma carga de trabalho existente para o hub. *Esse processo alterará a propriedade apenas dos dados disponíveis no momento no hub.*</p><p><strong>Aviso:</strong> esse processo pode causar perda de dados para dados não sincronizados e falha no processamento comercial. Portanto, ele deve ser usado somente em emergências, nas quais os processos comerciais devem ser processados no hub porque a unidade de escala tem uma interrupção que não pode ser atenuada em um período razoável.</p> |
+| Topologia de desativação distribuída | Remova uma implantação de unidade de escala e execute somente no hub, sem o processamento da carga de trabalho. |
+
+:::image type="content" source="media/sum-manage-workloads.png" alt-text="Experiência de gerenciamento de unidade de escala e carga de trabalho.":::
 
 > [!TIP]
 > Com o tempo, melhorias incrementais serão adicionadas à experiência do Gerente de Unidade de Escala para facilitar as operações de gerenciamento do ciclo de vida. Os recursos específicos da versão atual estão documentados em um manual integrado disponível para clientes que estão no processo de integração à topologia híbrida distribuída do Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

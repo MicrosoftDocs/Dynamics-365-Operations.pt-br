@@ -2,7 +2,7 @@
 title: Habilitar previsão de fluxo de caixa
 description: Este tópico explica como habilitar o recurso de previsões de fluxo de caixa no Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,45 +15,37 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b5e54772b132b4098df8259e954a484a0838ee38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: d968f28126cf205a487d84301aa28f1251713386
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386702"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752679"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Habilitar previsão de fluxo de caixa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico explica como habilitar o recurso de previsões de fluxo de caixa no Finance Insights.
+Este tópico explica como ativar o recurso Previsões de fluxo de caixa no Finance Insights.
 
 > [!NOTE]
 > Para usar previsões de pagamento no fluxo de caixa, você deve configurar o recurso de previsões de pagamento de cliente conforme descrito em [Habilitar previsões de pagamento de cliente](enable-cust-paymnt-prediction.md).
-
-1. Use as informações da página de ambiente no Microsoft Dynamics Lifecycle Services (LCs) para se conectar à instância principal do Azure SQL para esse ambiente. Execute o comando Transact-SQL (T-SQL) a seguir para ativar as versões piloto no ambiente de área restrita. (Talvez seja necessário ativar o acesso ao seu endereço IP no LCS antes de se conectar remotamente ao servidor de objetos de aplicativo \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
-
-    > [!NOTE]
-    > Ignore esta etapa se você estiver usando a versão 10.0.20 ou posterior, ou se você estiver usando uma implantação do Service Fabric. A equipe do Finance Insights já deve ter ativado a versão piloto para você. Se você não vir o recurso no espalho de trabalho **Gerenciamento de recurso**, ou se você tiver problemas ao tentar ativá-lo, entre em contato com <fiap@microsoft.com>.
   
-2. Abra o espaço de trabalho **Gerenciamento de recursos** e siga estas etapas:
+1. Abra o espaço de trabalho **Gerenciamento de recursos** e siga estas etapas:
 
     1. Selecione **Verificar se há atualizações**.
-    2. Ativar os seguintes recursos:
+    2. Na guia **Tudo**, procure **Previsões de fluxo de caixa**. Se você não encontrar esse recurso, procure **(Versão preliminar) Previsões de fluxo de caixa**. 
+    3. Ative o recurso.
 
-        - Novo controle de grade
-        - Agrupamento em grades (versão prévia) 
-        - Previsões de pagamento do cliente (versão preliminar)
-        - Previsões de fluxo de caixa (versão preliminar)
-
-3. Acesse **Gerenciamento de caixa e bancário \> Configuração de previsão do fluxo de caixa** e adiciona as contas de liquidez que deveriam ser incluídas nas previsões.
+2. Acesse **Gerenciamento de caixa e bancário \> Configuração de previsão do fluxo de caixa** e adiciona as contas de liquidez que deveriam ser incluídas nas previsões. Configure também a conta de liquidez para pagamentos nas guias **Contas a receber** e **Contas a pagar**. Lembre-se de recalcular a previsão de fluxo de caixa.
 
     > [!NOTE]
     > Se as contas de liquidez não estiverem configuradas, o fluxo de caixa não poderá ser gerado.
+    >
+    > Para obter mais informações sobre como configurar previsões de fluxo de caixa, consulte [Previsão de fluxo de caixa](../cash-bank-management/cash-flow-forecasting.md).
 
-4. Acesse **Gerenciamento de caixa e bancário \> Configuração \> Finance Insights (versão prévia) \> Previsões de fluxo de caixa (versão prévia)** e siga estas etapas:
+3. Acesse **Gerenciamento de caixa e bancário \> Configuração \> Finance Insights (versão prévia) \> Previsões de fluxo de caixa (versão prévia)** e siga estas etapas:
 
     1. Na guia **Previsão de fluxo de caixa**, selecione **Habilitar recurso**.
     2. Selecione **Criar modelo de previsão**.

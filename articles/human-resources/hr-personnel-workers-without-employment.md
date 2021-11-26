@@ -1,8 +1,8 @@
 ---
 title: Trabalhadores sem emprego
-description: Os trabalhadores sem emprego futuro, ativo ou histórico com a sua organização aparecem no formulário Trabalhadores sem emprego.
-author: andreabichsel
-ms.date: 04/06/2021
+description: Os trabalhadores sem emprego futuro, ativo ou histórico com a sua organização aparecem na página Trabalhadores sem emprego.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: ''
 ms.prod: ''
 ms.technology: ''
@@ -10,23 +10,23 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45841c35780960f524cc232dad16f94dbc8ec1c2df75fa2a5c2520e5522d4e3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d282c0fac00d6bc410717dd156aef9ffce352c6d
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724955"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771281"
 ---
 # <a name="workers-without-employment"></a>Trabalhadores sem emprego
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Os trabalhadores sem emprego futuro, ativo ou histórico com a sua organização aparecem no formulário **Trabalhadores sem emprego**. Os trabalhadores com esse status podem aparecer quando você importa trabalhadores sem um registro de emprego ou quando exclui um emprego de trabalhador por meio de **Trabalhadores > Histórico de emprego**.
+Os trabalhadores sem emprego futuro, ativo ou histórico com a sua organização aparecem na página **Trabalhadores sem emprego**. Os trabalhadores desse tipo podem aparecer quando você importa trabalhadores sem um registro de emprego ou quando exclui um emprego de trabalhador por meio de **Trabalhadores \> Histórico de emprego**.
 
-Por padrão, o formulário **Trabalhadores sem emprego** está disponível para as seguintes funções:
+Por padrão, a página **Trabalhadores sem emprego** está disponível para as seguintes funções:
 
 - Assistente de Recursos Humanos
 - Gerente de Recursos Humanos

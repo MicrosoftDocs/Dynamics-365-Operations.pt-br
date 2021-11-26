@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675384"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733454"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Configurar os parâmetros de um formato de ER por entidade legal
 
@@ -226,15 +226,6 @@ Você também pode usar esta abordagem exportar-importar para transferir parâme
 Se você configurar parâmetros específicos do aplicativo para uma versão de um formato ER e importar uma versão mais recente do mesmo formato para a instância atual do Finance, os parâmetros específicos do aplicativo existentes não serão aplicados à versão importada, a menos que você use o recurso **Usar parâmetros específicos do aplicativo das versões anteriores de formatos ER**. Para obter mais informações, consulte a seção [Reutilizar parâmetros existentes](#reuse-existing-parameters) posteriormente neste tópico.
 
 Quando você seleciona um arquivo para importação, a estrutura dos parâmetros específicos do aplicativo nesse arquivo é comparada com a estrutura das fontes de dados correspondentes do tipo **Pesquisa** no formato ER selecionado para importação. Por padrão, a importação é concluída somente se a estrutura de cada parâmetro específico do aplicativo corresponder à estrutura da fonte de dados correspondente no formato ER selecionado para importação. Se as estruturas não corresponderem, uma mensagem de aviso informará que não é possível concluir a importação. Se você forçar a importação, os parâmetros específicos do aplicativo existentes para o formato ER selecionado serão eliminados e você deverá configurá-los desde o início.
-
-A partir do Dynamics 365 Finance versão 10.0.23, você pode alterar o comportamento padrão para evitar receber uma mensagem de aviso habilitando o recurso **Alinhar parâmetros específicos do aplicativo ER durante a importação** no espaço de trabalho **Gerenciamento de recursos**. Quando esse recurso está habilitado, se a estrutura dos parâmetros específicos do aplicativo importados for diferente da estrutura das fontes de dados correspondentes no formato ER de destino selecionado para importação, a importação será realizada nos seguintes casos:
-
-- A estrutura do formato ER de destino foi alterada adicionando novas colunas de condição a qualquer fonte de dados existente do tipo **Pesquisa**. Quando a importação é concluída, os parâmetros específicos do aplicativo são atualizados. Em todos os registros importados de parâmetros específicos do aplicativo, os valores em cada coluna de condição adicionada são inicializados com o valor padrão para o [tipo de dados](er-formula-supported-data-types-primitive.md) dessa coluna.
-- A estrutura do formato ER de destino foi alterada removendo algumas colunas de condição de qualquer fonte de dados existente do tipo **Pesquisa**. Quando a importação é concluída, os parâmetros específicos do aplicativo são atualizados. Em todos os registros importados de parâmetros específicos do aplicativo, os valores em cada coluna de condição removida são excluídos.
-- A estrutura do formato ER de destino foi alterada adicionando novas fontes de dados do tipo **Pesquisa**. Quando a importação é concluída, as pesquisas adicionadas são acrescentadas aos parâmetros específicos do aplicativo.
-- A estrutura do formato ER de destino foi alterada removendo algumas fontes de dados existentes do tipo **Pesquisa**. Quando a importação é concluída, todos os artefatos relacionados às fontes de dados do tipo **Pesquisa** que foram removidas do formato ER de destino são excluídos dos parâmetros específicos do aplicativo importados.
-
-Quando a importação é concluída, além das alterações descritas, o estado dos parâmetros específicos do aplicativo importados é alterado para **Em andamento**. Uma mensagem de aviso informa que os parâmetros específicos do aplicativo ajustados automaticamente devem ser editados manualmente.
 
 ### <a name="reuse-existing-parameters"></a>Reutilizar parâmetros existentes
 

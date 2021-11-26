@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678826"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778148"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.22 (Novembro de 2021)
 
@@ -41,7 +41,6 @@ A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. 
 
 | Módulo | Nome do recurso no gerenciamento de recursos | Mais informações |
 |---|---|---|
-| Gerenciamento de custo | Criar comprovantes relacionados para reavaliações de arredondamento de custo padrão | <p>Quando um lançamento financeiro de estoque (como uma fatura de ordem de venda ou transação de estoque) é feito, esse recurso faz com que o sistema crie um comprovante separado para quaisquer reavaliações de arredondamento de custo padrão relacionadas e o anexa ao comprovante de lançamento financeiro como um comprovante relacionado.</p><p>Sem esse recurso, o sistema registra reavaliações de arredondamento de custo padrão no mesmo lançamento do comprovante. Esse comportamento às vezes pode causar informações conflitantes da data, porque as reavaliações usam a sessão ou a data do sistema, enquanto as postagens financeiras usam a data de lançamento.</p> |
 | Topologia híbrida distribuída | *(O gerenciamento de recursos não é necessário).* | <p>Esta versão expande os recursos de planejamento de carga de saída da carga de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda.</p><p>Para obter mais informações, consulte [Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Gerenciamento de alteração de engenharia | Geração de grades para produtos de engenharia | <p>Esse recurso permite gerar várias variantes para um produto de engenharia, com base na cor, no tamanho, no estilo ou nas dimensões de configuração.</p><p>Para obter mais informações, consulte [Gerar variantes para produtos de engenharia](../engineering-change-management/engineering-variants.md).</p> |
 | Gerenciamento de depósito e estoque | Integração da Visibilidade de Estoque com compensação da reserva | <p>Esse recurso só poderá ser habilitado após a habilitação do recurso *Integração da Visibilidade do Estoque*. Ele fornece funcionalidade para reservas compensadas criadas na Visibilidade do Estoque.</p><p>Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](../inventory/inventory-visibility-reservations.md).</p> |

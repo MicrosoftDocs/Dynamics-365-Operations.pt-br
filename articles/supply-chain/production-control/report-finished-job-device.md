@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569278"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778222"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Relatar como concluído no dispositivo de ficha de trabalho
 
@@ -218,7 +218,7 @@ Os processos de depósito avançados podem usar a dimensão de placa de licença
 
 Para usar os recursos descritos nesta seção, você deverá usar o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os seguintes recursos (nesta ordem):
 
-1. Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho
+1. Placa de licença para relatório de conclusão adicionado ao Dispositivo de Ficha de Trabalho (a partir do Supply Chain Management versão 10.0.21, este recurso é ativado por padrão.)
 1. Habilitar a geração automática do número da placa de licença ao concluir o relatório de conclusão no dispositivo de ficha de trabalho
 1. Imprimir etiqueta do Dispositivo de Ficha de Trabalho
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d1bd846dae767b47280310fc8d9ca5ee82337ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568846"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778296"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Fluxos de trabalho de aprovação de diário de estoque
 
@@ -31,7 +31,7 @@ Este tópico descreve como configurar e usar fluxos de trabalho de aprovação d
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Ativar o recurso de fluxos de trabalho de aprovação de diário de estoque
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
 
 - **Módulo:** *Gerenciamento de estoque e depósito*
 - **Nome do recurso:** *Fluxo de trabalho de aprovação de diário de estoque*

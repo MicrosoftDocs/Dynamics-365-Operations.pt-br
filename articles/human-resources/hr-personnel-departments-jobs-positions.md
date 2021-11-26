@@ -1,8 +1,8 @@
 ---
-title: ​Organizar sua força de trabalho usando departamentos, trabalhos e posições
-description: Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este artigo descreve informações conceituais sobre esses elementos.
-author: andreabichsel
-ms.date: 06/20/2017
+title: Organizar sua força de trabalho usando departamentos, trabalhos e posições
+description: Este tópico descreve informações conceituais sobre departamentos, trabalhos e posições, que são elementos organizacionais mantidos nos Recursos Humanos.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: cd50bf7e8e03d72d6d0e1e2b0b065a5d9c7a3ef44e96f92a5fc342a0d820d8e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778787"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731799"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar sua força de trabalho usando departamentos, trabalhos e posições
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este artigo descreve informações conceituais sobre esses elementos. 
+Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este tópico descreve informações conceituais sobre esses elementos. 
 
 O exemplo a seguir é usado para ilustrar os conceitos descritos neste artigo.
 
@@ -49,7 +49,6 @@ Um departamento é uma unidade operacional que representa uma categoria ou uma �
 ## <a name="jobs-and-positions"></a>Trabalhos e cargos
 Um trabalho é um conjunto de tarefas e responsabilidades exigidas de uma pessoa que realiza um trabalho. Um cargo é uma instância individual de um trabalho. Aspectos como áreas de responsabilidade, tarefas de trabalho, funções de trabalho, habilidades, informações de formação educacional e certificados, que são necessários para um trabalho, também são necessários para os cargos associados a um trabalho.
 ### <a name="job-tasks"></a>Tarefas do trabalho
-
 Você pode criar tarefas de trabalho que descrevem as tarefas básicas que devem ser realizadas por um trabalhador em um cargo desse trabalho. A mesma tarefa de trabalho pode ser adicionada a vários trabalhos, e os cargos desses trabalhos herdarão as tarefas de trabalho. Exemplos de tarefas de trabalho são listados na tabela a seguir.
 
 <table>
@@ -106,24 +105,21 @@ Os cargos são um elemento importante do nível inferior de uma hierarquia organ
 -   Você pode configurar o fluxo de trabalho de forma que as adições e alterações de cargo possam exigir aprovação.
 
 ### <a name="position-duration"></a>Duração da posição
-
 Cada cargo tem um período em que permanece efetivo. Esse período é conhecido como duração. Por exemplo, os cargos de férias podem ter duração de 1º de maio de 2015 até 31 de agosto de 2015.
 
 ### <a name="worker-assignments"></a>Atribuições do trabalhador
-
 Quando você atribui um trabalhador a um cargo, você preenche aquele cargo. Você pode atribuir trabalhadores a vários cargos, mas apenas um trabalhador pode ser atribuído a um cargo por vez.
 
 ### <a name="reporting-relationships"></a>Relações de subordinação
+Os cargos são elementos importantes do nível inferior de uma hierarquia organizacional. Na página **Cargo**, você pode especificar o cargo ao qual um cargo é subordinado. Quando você atribui um trabalhador a um cargo que está subordinado a outro cargo, você cria uma relação de subordinação entre os trabalhadores atribuídos aos dois cargos. Por exemplo, o cargo "Contador-" está subordinado ao cargo "Supervisor de contabilidade". Ana Bowman foi atribuída ao cargo "Supervisor de contabilidade", e Felix Henderson foi atribuído ao cargo "Contador-A". Isso significa que Felix Henderson é subordinado a Ana Bowman. 
 
-Os cargos são elementos importantes do nível inferior de uma hierarquia organizacional. No formulário Cargo, você pode especificar o cargo ao qual um cargo está subordinado. Quando você atribui um trabalhador a um cargo que está subordinado a outro cargo, você cria uma relação de subordinação entre os trabalhadores atribuídos aos dois cargos. Por exemplo, o cargo "Contador-" está subordinado ao cargo "Supervisor de contabilidade". Kim Akers está atribuído ao cargo "Supervisor de contabilidade", e Sanjay Patel está atribuído ao cargo "Contador-A". Isso significa que Sanjay Patel está subordinado a Kim Akers. 
+Se a organização usar uma hierarquia de matriz ou outra hierarquia personalizada, você poderá configurar tipos de hierarquia de cargos e adicionar relações de subordinação a cargos de cada tipo de hierarquia que você configurou. Por exemplo, Olivia Wilson é um gerente geral na Adventure Works e recebeu o cargo de "gerente geral". Olivia gerencia o desenvolvimento de um produto usado para limpar widgets. Olivia precisa que um contador ajude com as finanças para desenvolver o produto. Portanto, ela recrutou Felix Henderson como seu contador. Felix reporta-se diretamente a Ana Bowman, mas também trabalha com Olivia Wilson em seu trabalho relacionado às finanças para desenvolver o limpador de widgets. 
 
-Se a organização usar uma hierarquia de matriz ou outra hierarquia personalizada, você poderá configurar tipos de hierarquia de cargos e adicionar relações de subordinação a cargos de cada tipo de hierarquia que você configurou. Por exemplo, Lori Penor é um gerente geral na Adventure Works e recebeu o cargo de "Gerente geral". Lori gerencia o desenvolvimento de um produto usado para limpar widgets. Lori precisa que um contador ajude com as finanças para desenvolver o produto. Portanto, ela recrutou Sanjay Patel como seu contador. Sanjay reporta-se diretamente a Kim Akers, mas também trabalha com Lori Penor em seu trabalho relacionado às finanças para desenvolver o limpador de widgets. 
-
-Para o exemplo anterior, você executaria as seguintes tarefas para configurar a relação de subordinação entre Sanjay Patel e Lori Penor:
+Para o exemplo anterior, você executaria as seguintes tarefas para configurar a relação de subordinação entre Felix Henderson e Ana Bowman:
 1.  Crie um tipo de hierarquia de cargos personalizado chamado "Widget" para criar uma hierarquia que inclui cargos responsáveis por trabalhar no limpador de widgets.
 2.  Atribua o cargo Gerente geral como o cargo a quem o Contador-A se reporta na hierarquia Widget.
 
-Use a hierarquia de cargos para exibir a estrutura de subordinação dos cargos. Se você tiver várias hierarquias de cargos, poderá exibir a hierarquia para cada tipo de hierarquia na hierarquia de cargos. Além disso, você poderá procurar um cargo por ID do cargo ou pelo nome do trabalhador que está atribuído ao cargo. A hierarquia de cargos é uma hierarquia organizacional.
+Use a página **Hierarquia de posições** para exibir a estrutura de subordinação das posições. Se você tiver várias hierarquias de posições, poderá exibir a hierarquia para cada tipo de hierarquia na **Hierarquia de posições**. Além disso, você poderá procurar um cargo por ID do cargo ou pelo nome do trabalhador que está atribuído ao cargo. A **Hierarquia de posições** é uma hierarquia organizacional.
 
 ## <a name="date-effective-records"></a>Registros de data de efetivação
 Para alguns registros, é possível especificar futuras alterações no registro. As informações a seguir são de data de efetivação.
@@ -148,20 +144,12 @@ Para alguns registros, é possível especificar futuras alterações no registro
 <td>Cargos</td>
 <td><ul>
 <li>Algumas informações detalhadas do cargo</li>
-<li>Atribuições de trabalhador</li>
+<li>Atribuições do trabalhador</li>
 <li>Durações da posição</li>
 <li>Hierarquias do cargo</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-
-Você pode modificar as informações mencionadas na tabela anterior para um cargo ou um trabalho e especificar uma data em que as modificações feitas no cargo ou no trabalho entrarão em vigor. Por exemplo, um cargo só pode ser atribuído a um trabalhador, mas Sanjay Patel, que está atribuído ao cargo Contador-A, sairá em duas semanas. Joe Healy substituirá Sanjay Patel quando Sanjay deixar a empresa. Mesmo que Sanjay ainda esteja atribuído ao cargo, você poderá atribuir Joe Healy ao mesmo cargo de forma que a atribuição entre em vigor somente após o último dia de Sanjay.
-
-
-
-
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

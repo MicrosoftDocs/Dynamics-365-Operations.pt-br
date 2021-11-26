@@ -1,8 +1,8 @@
 ---
-title: Criar um projeto integrador de dados
-description: Este tópico explica como criar um projeto de integrador de dados.
+title: Criar um projeto de integração de dados
+description: Este tópico explica como criar um projeto de integração de dados.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,25 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b08af906c18f6c0790ca56c69a833733f48cd88c
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386353"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752655"
 ---
-# <a name="create-a-data-integrator-project"></a>Criar um projeto integrador de dados
+# <a name="create-a-data-integration-project"></a>Criar um projeto de integração de dados
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico explica como criar um projeto de integrador de dados.
+Este tópico explica como criar um projeto de integração de dados.
 
 1. Entre no Microsoft Dynamics 365 Finance.
 2. Acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione **Entidades de dados**. Aguarde até que todas as entidades de dados tenham sido atualizadas antes de passar para a próxima etapa.
 3. Abra o [portal do Power Apps](https://make.powerapps.com/) e siga estas etapas:
 
     1. Selecione o ambiente apropriado.
-    2. No painel de navegação esquerdo, selecione **Dados \> Conexões**.
+    2. No painel de navegação esquerdo, selecione **Dataverse \> Conexões**.
     3. Conecte a instâncias apropriadas dos seguintes itens:
 
         - Dynamics 365
@@ -41,7 +42,7 @@ Este tópico explica como criar um projeto de integrador de dados.
 
 4. Abra os [ambientes do Power Apps](https://admin.powerapps.com/environments) e siga estas etapas:
 
-    1. Selecione **Integrador de dados**.
+    1. Selecione **Integração de dados**.
     2. Selecione **Conjuntos de conexão**.
     3. Selecione **Novo conjunto de conexão**.
     4. Digite o nome da conexão.
@@ -57,8 +58,7 @@ Este tópico explica como criar um projeto de integrador de dados.
 
     1. Crie projetos de integração de dados para os seguintes modelos usando o conjunto de conexões que você acabou de criar:
 
-        - Resultados de insights de pagamentos de clientes (CDS para Fin and Ops)
-            - Se você estiver usando a versão 10.0.17 ou posterior, será necessário usar o modelo chamado Resultado de insights de pagamentos de clientes (CDS para Fin and Ops 10.0.17+).
+        - Resultado dos insights de pagamentos de clientes (CDS para Fin and Ops 10.0.17+)
         - Resultados de série temporal de fluxo de caixa (CDS a Fin e Ops)
         - Resultados de série temporal de orçamento (CDS a Fin e Ops)
 

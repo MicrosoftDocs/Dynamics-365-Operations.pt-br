@@ -1,27 +1,27 @@
 ---
 title: Espaço de trabalho de gerenciamento de pessoal
 description: Este tópico descreve os elementos conceituais do Espaço de trabalho de gerenciamento de pessoal.
-author: andreabichsel
-ms.date: 07/01/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: anbichse
-ms.reviewer: anbichse
+ms.author: twheeloc
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 923d4a980c3f8f9b3bf5be1f77d8910081123fa08b068f1fd8fa935312d3a101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754801"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771329"
 ---
 # <a name="personnel-management-workspace"></a>Espaço de trabalho de gerenciamento de pessoal
 
@@ -33,11 +33,11 @@ O espaço de trabalho **Gerenciamento de pessoal** inclui uma grande quantidade 
 
 A guia **Atividade** contém seções que agrupam trabalhadores com base na fase do processo de emprego:
 
-- Candidatos a contratar
-- Inicia em breve
-- Contratações recentes
-- Saindo
-- Demitido
+- **Candidatos a contratar**
+- **Inicia em breve**
+- **Contratações recentes**
+- **Saindo**
+- **Demitido**
 
 Quando um trabalhador estiver em um desses estágios, ações específicas ficarão disponíveis na forma de um botão no cartão ou no menu exibido quando você selecionar as reticências (**...**) no canto superior direito. As subseções a seguir descrevem as seções da guia **Atividade** e listam as ações disponíveis.
 
@@ -51,9 +51,9 @@ A seção **Candidatos a contratar** do espaço de trabalho é preenchida em vá
 
 Quando os candidatos aparecerem na seção **Candidatos a contratar**, você poderá executar as seguintes ações selecionando as reticências no cartão do candidato:
 
-- Ignorar o candidato
-- Não contratar
-- Contratar
+- **Ignorar o candidato**
+- **Não contratar**
+- **Contratar**
 
 > [!NOTE]
 > Se a lista de candidatos estiver sendo preenchida com base no Microsoft Dataverse, os mesmos candidatos serão exibidos em todas as entidades legais porque uma entidade legal não foi associada ao candidato.
@@ -65,7 +65,7 @@ A seção **Começará em breve** lista os trabalhadores que têm uma data de in
 Se o gerente não aparecer no cartão, significa que uma posição não foi atribuída ao trabalhador.
 
 > [!NOTE] 
-> É recomendável atribuir uma posição a um trabalhador antes de aplicar uma lista de verificação, pois as tarefas de integração às vezes são atribuídas ao um gerente de um funcionário contratado recentemente. No entanto, se nenhuma posição for atribuída, o gerente do novo funcionário não poderá ser determinado. Nesse caso, as tarefas de integração destinadas ao gerente serão atribuídas ao proprietário da lista de verificação.
+> É recomendável atribuir uma posição a um trabalhador antes de aplicar uma lista de verificação. Às vezes, as tarefas de integração são atribuídas a um gerente de funcionário contratado recentemente. No entanto, se nenhuma posição for atribuída, o gerente do novo funcionário não poderá ser determinado. Nesse caso, as tarefas de integração destinadas ao gerente serão atribuídas ao proprietário da lista de verificação.
 
 Quando os trabalhadores aparecerem na seção **Começará em breve**, as seguintes ações ficarão disponíveis para elas:
 
@@ -85,7 +85,7 @@ A seção **Contratações recentes** lista os trabalhadores que têm uma data d
 Por padrão, a lista mostra os trabalhadores que foram contratados nos últimos sete dias. Para alterar essa configuração, na página **Parâmetros de recursos humanos**, na guia **Geral**, defina um período para **Contratações recentes**. Os dados na seção **Contratações recentes** podem ser mostrados para um número específico de dias, meses ou anos. Por exemplo, para exibir a lista de trabalhadores contratados nos últimos 14 dias, defina o campo **Período** como **14** e o campo **Unidade** como **Dias**.
 
 > [!NOTE]
-> As configurações da página **Parâmetros de Recursos Humanos** são específicas a cada empresa. Portanto, o período pelo qual você exibe contratações recentes pode variar conforme a empresa. Por exemplo, na empresa USMF, pode ser interessante exibir todas novas contratações dos últimos sete dias. No entanto, na empresa USSI, pode ser interessante exibir todas novas contratações dos últimos 14 dias. Nesse caso, você deve abrir a página **Parâmetros de recursos humanos** em cada empresa e definir os parâmetros, conforme necessário.
+> As configurações da página **Parâmetros de Recursos Humanos** são específicas a cada empresa. Portanto, o período pelo qual você exibe contratações recentes pode variar conforme a empresa. Por exemplo, na empresa USMF, pode ser interessante exibir todas novas contratações dos últimos sete dias. No entanto, na empresa USSI, pode ser interessante exibir todas novas contratações dos últimos 14 dias. Nesse caso, abra a página **Parâmetros de recursos humanos** em cada empresa e defina os parâmetros, conforme necessário.
 
 Se o gerente não aparecer no cartão, significa que uma posição não foi atribuída ao trabalhador.
 
@@ -132,13 +132,9 @@ Quando o trabalhador aparecer na seção **Desligados**, as seguintes ações fi
 
 A guia **Alterações do funcionário** fornece uma lista de todas as ações de funcionário. Essa lista não está disponível por padrão. Para habilitar a funcionalidade, na página **Parâmetros de recursos humanos compartilhados**, na guia **Ações de pessoal**, defina a opção **Habilitar ações de trabalhadores** como **Sim**.
 
-Para obter mais informações sobre ações de pessoal, consulte (link para a página Ações de Pessoal).
-
 ## <a name="position-changes-tab"></a>Guia Alterações de vaga
 
 A guia **Alterações de vaga** fornece uma lista de todas as ações de vaga. Essa lista não está disponível por padrão. Para habilitar a funcionalidade, na página **Parâmetros de recursos humanos compartilhados**, na guia **Ações de pessoal**, defina a opção **Habilitar ações de vaga** como **Sim**.
-
-Para obter mais informações sobre ações de pessoal, consulte (link para a página Ações de Pessoal).
 
 ## <a name="open-positions-tab"></a>Guia Vagas
 
@@ -151,11 +147,11 @@ A guia **Vagas** lista todas as vagas disponíveis. Para que a vaga apareça na 
 
 A guia **Registros que estão vencendo** lista todos os itens vencidos ou que estão vencendo para os trabalhadores na empresa à qual o usuário está conectado. Os seguintes itens aparecem na lista:
 
-- Certificados
-- Identificação
-- Períodos de experiência
-- Triagens
-- Testes
+- **Certificados**
+- **Identificação**
+- **Períodos de experiência**
+- **Triagens**
+- **Testes**
 
 Para especificar se a lista deve mostrar registros vencidos ou que estão vencendo, na página **Parâmetros de recursos humanos**, na guia **Geral**, defina um período para os **Registros que estão vencendo** ou **Registros vencidos**. Os dados na guia **Registros que estão vencendo** podem ser mostrados para um número específico de dias. Por exemplo, para exibir a lista de registros que vão expirar nos próximos 14 dias, defina o campo **Número de dias** como **14**.
 

@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386676"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781335"
 ---
 # <a name="party-and-global-address-book"></a>Catálogo de endereços global e dos participantes
 
@@ -26,16 +26,16 @@ ms.locfileid: "7386676"
 
 ## <a name="party"></a>Participante
 
-Um participante é uma pessoa ou uma organização que está envolvida em uma empresa. Quando o conceito de participante é usado, uma pessoa ou organização pode realizar mais de uma função em uma empresa (por exemplo, trabalhador, cliente, fornecedor ou contato). A função se baseia no contexto e na finalidade. Veja aqui alguns exemplos de funções de duas empresas fictícias, a Contoso e a Fabrikam:
+Um participante é uma pessoa ou uma organização que está envolvida em uma empresa. Quando o conceito de participante é usado, uma pessoa ou organização pode realizar mais de uma função em uma empresa (por exemplo, trabalhador, cliente, fornecedor ou contato). A função se baseia no contexto e na finalidade. Estes são alguns exemplos de funções de duas empresas fictícias, a Contoso e a Fabrikam:
 
 + **Trabalhador** – um funcionário. Um exemplo é um funcionário da Contoso.
 + **Fornecedor** – uma organização fornecedora ou um único proprietário que fornece mercadorias ou serviços a uma empresa. Por exemplo, se a Fabrikam vender suprimentos para a Contoso, a Fabrikam será um fornecedor da Contoso.
-+ **Contato** – uma pessoa para contato. Por exemplo, se a Contoso comprar equipamentos da Fabrikam, funcionários da Contoso falarão com o contato na Fabrikam.
-+ **Cliente** – uma pessoa ou empresa que compra itens de uma empresa. Por exemplo, se a Contoso comprar equipamentos da Fabrikam, a Contoso será uma cliente da Fabrikam.
++ **Contato** – uma pessoa para contato. Por exemplo, se a Contoso comprar equipamentos da Fabrikam, os funcionários da Contoso falarão com o contato na Fabrikam.
++ **Cliente** – uma pessoa ou empresa que compra itens de uma empresa. Por exemplo, se a Contoso comprar suprimentos da Fabrikam, a Contoso será uma cliente da Fabrikam.
 
 O modelo de participante geralmente é usado para representar relacionamentos médios e complexos entre organizações e pessoas, especialmente quando um participante realiza mais de uma função. Veja aqui alguns exemplos comuns:
 
-+ Um participante pode ser tanto um cliente quanto um fornecedor. Por exemplo, na América do Norte, a Fabrikam vende fios elétricos para a Contoso e compra alto-falantes montados da Contoso. Na Europa, a Fabrikam vende peças para a Contoso, mas não compra itens da Contoso.
++ Um participante pode ser tanto um cliente quanto um fornecedor. Por exemplo, na América do Norte, a Fabrikam vende fios elétricos para a Contoso e compra caixas de som montadas da Contoso. Na Europa, a Fabrikam vende peças para a Contoso, mas não compra itens da Contoso.
 + Um participante pode ser tanto um funcionário quanto um cliente. Por exemplo, um funcionário da Contoso compra eletrônicos da Contoso para uso pessoal.
 + Pode haver um relacionamento de muitos para muitos (N:N) entre uma pessoa e uma organização. Por exemplo, a Fabrikam fornece especialistas em serviço e emprega um coordenador de posicionamento. O coordenador de posicionamento faz a correspondência de especialistas com solicitações de diversos clientes da Fabrikam. A Contoso é um dos clientes da Fabrikam. Quando a Contoso solicita um especialista em serviço, ela fala com o coordenador de posicionamento, que facilita a solicitação. Como o coordenador de posicionamento controla as solicitações de todos os clientes, há um relacionamento N:N envolvido.
 

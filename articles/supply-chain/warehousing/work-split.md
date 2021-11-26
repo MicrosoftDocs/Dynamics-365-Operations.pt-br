@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579871"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778248"
 ---
 # <a name="work-split"></a>Divisão do trabalho
 
@@ -33,9 +33,9 @@ A funcionalidade de divisão do trabalho permite dividir grandes IDs de trabalho
 
 Antes de usar a funcionalidade de divisão do trabalho, você deve ativar o recurso e seu recurso de pré-requisito em seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status dos recursos e ativá-los se necessário.
 
-Primeiro, ative o recurso de pré-requisito *Bloqueio de trabalho em toda a organização* se ainda não estiver ativado. No espaço de trabalho **Gerenciamento de recursos**, este recurso está listado da seguinte forma:
+Primeiro, ative o recurso de pré-requisito *Bloqueio de trabalho em toda a organização* se ainda não estiver ativado. Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, está ativado por padrão e não poderá ser desativado novamente. No entanto, o recurso ainda está listado em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) da seguinte forma:
 
-- **Módulo:** *Gerenciamento de Depósito*
+- **Módulo:** *Gerenciamento de depósito*
 - **Nome do recurso:** *Bloqueio de trabalho em toda a organização*
 
 > [!NOTE]

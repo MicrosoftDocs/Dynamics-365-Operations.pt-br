@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746810"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777806"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Criar ordens de transferência do aplicativo de depósito
 
@@ -36,7 +36,7 @@ Antes de poder usar esse recurso, ele e seus pré-requisitos deverão estar habi
 1. Em seguida, habilite o recurso *Criar ordens de transferência do aplicativo de depósito*, que está listado como:
     - **Módulo** - gerenciamento de Depósito
     - **Nome do recurso** - crie e processe ordens de transferência do aplicativo de depósito
-1. Para automatizar o processamento das remessas de saída, você também deve habilitar o recurso [Confirmar remessas de saída do trabalho em lotes](confirm-outbound-shipments-from-batch-jobs.md). Esse recurso está listado como:
+1. Para automatizar o processamento das remessas de saída, você também deve habilitar o recurso [Confirmar remessas de saída do trabalho em lotes](confirm-outbound-shipments-from-batch-jobs.md). A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
     - **Módulo** - gerenciamento de Depósito
     - **Nome do recurso** - confirme remessas de saída de trabalhos em lote
 

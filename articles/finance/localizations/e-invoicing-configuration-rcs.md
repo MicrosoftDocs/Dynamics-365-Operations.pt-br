@@ -2,7 +2,7 @@
 title: Configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS)
 description: Este tópico explica como configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS) do Dynamics 365.
 author: gionoder
-ms.date: 07/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757965"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779661"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS)
 
@@ -73,6 +73,7 @@ A tabela a seguir mostra os recursos de faturamento eletrônico que estão geral
 | Espanha          | Fatura eletrônica espanhola (ES)      | Faturas de vendas e de projetos |
 | Europa         | Fatura eletrônica PEPPOL            | Faturas de vendas e de projetos PEPPOL |
 | Europa         | Fatura de fornecedor PEPPOL                | Faturas de fornecedor de importação PEPPOL |
+| Arábia Saudita   | Fatura da Arábia Saudita (SA)| Faturas de vendas e de projetos |
 
 ### <a name="preview-features"></a>Recursos de versão preliminar
 
@@ -196,6 +197,11 @@ A lista a seguir mostra as configurações de formato ER disponíveis para os re
 
 - Fatura de venda (ES)
 - Fatura de projeto (ES)
+
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Fatura eletrônica da Arábia Saudita (SA): faturas de vendas e de projeto da Arábia Saudita
+
+- Fatura eletrônica de venda (SA)
+- Fatura eletrônica de projeto (SA)
 
 Além das configurações de formato ER disponíveis pronto para uso com o serviço de faturamento eletrônico, você também pode criar suas próprias configurações de formato do ER. No entanto, as configurações de formato criadas para usar com os recursos de faturamento eletrônico não dão suporte à referência direta a tabelas do Supply Chain Management ou de qualquer metadado correspondente. Há suporte somente para referências ao mapeamento do modelo de ER.
 

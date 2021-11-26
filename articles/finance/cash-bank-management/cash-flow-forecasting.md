@@ -2,7 +2,7 @@
 title: Previsão de fluxo de caixa
 description: Este tópico fornece uma visão geral do processo de previsão de fluxo de caixa. Também explica como a previsão de fluxo de caixa é integrada a outros módulos no sistema.
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547946"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752895"
 ---
 # <a name="cash-flow-forecasting"></a>Previsão de fluxo de caixa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 É possível usar as ferramentas de previsão de fluxo de caixa para analisar o fluxo de caixa futuro e requisitos de moeda, de forma que você possa estimar a necessidade futura de caixa da empresa. Para obter uma previsão de fluxo de caixa, você deve concluir as seguintes tarefas:
 
@@ -93,9 +94,12 @@ As entradas de registro de orçamento podem ser incluídas na previsão de fluxo
 A fonte e previsões de demanda de estoque podem ser incluídas em previsões de fluxo de caixa. Na guia **Gerenciamento de estoque** da página **Configuração da previsão de fluxo de caixa**, selecione os modelos de previsão para incluir na previsão de fluxo de caixa. A inclusão na previsão de fluxo de caixa pode ser substituída em linhas de previsão de demanda e suprimento individual.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configurando dimensões para previsão de fluxo de caixa
-Uma nova guia na página **Configuração de previsão de fluxo de caixa** permite controlar as dimensões financeiras a serem usadas para filtragem no espaço de trabalho **Previsão de fluxo de caixa**. Esta guia só será exibida quando o recurso de previsões de fluxo de caixa estiver habilitado. 
+Uma nova guia na página **Configuração da previsão de fluxo de caixa** permite controlar as dimensões financeiras a serem usadas para filtragem no espaço de trabalho **Previsão de fluxo de caixa**. Esta guia só é exibida quando o recurso de previsões de Fluxo de caixa estiver habilitado no Finance insights. 
 
 Na guia **Dimensões**, escolha na lista de dimensões a ser usada para filtragem e use as teclas de seta para movê-las para a coluna à direita. Somente duas dimensões podem ser selecionadas para filtrar dados de previsão de fluxo de caixa. 
+
+### <a name="setting-up-external-source"></a>Configurando fonte externa
+Os dados externos podem ser inseridos ou importados para previsões de fluxo de caixa. Antes que os dados externos sejam inseridos ou importados, as origens externas devem ser configuradas. Na guia **Fonte externa**, configure categorias externas de fluxo de caixa. Uma categoria pode ser de **Saída** ou de **Entrada**. A **liquidez** deve ser selecionada como o tipo de lançamento. Na grade **Configurações da entidade legal**, selecione as entidades legais e as contas principais correspondentes às quais as categorias externas de fluxo de caixa se aplicam.
 
 ### <a name="project-management-and-accounting"></a>Gerenciamento e contabilidade do projeto
 

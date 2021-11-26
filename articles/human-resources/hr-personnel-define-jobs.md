@@ -1,8 +1,8 @@
 ---
 title: Definir novos trabalhos
 description: Essa tarefa se concentra na criação de um novo trabalho.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 088f49d7887616300b4a9ea07f91598d65afbf6899e678b2c5c51797b4966ef0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 844661db4798c23b0b25d4ce7c2cc1862893a5dc
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770447"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771353"
 ---
 # <a name="define-new-jobs"></a>Definir novos trabalhos
 
@@ -28,48 +28,54 @@ ms.locfileid: "6770447"
 
 Essa tarefa se concentra na criação de um novo trabalho. Será concluída usando a entrada manual e a cópia da funcionalidade de modelo. A empresa de dados demo usada para criar esta tarefa é USMF. A tarefa é destinada ao especialista dos recursos humanos.
 
-1. Ir para Recursos humanos > Trabalhos > Trabalhos.
-2. Clique em Novo.
-3. No campo Trabalho, digite um valor.
-4. No campo Descrição, digite um valor.
-5. Selecione um cargo padrão a ser usado para o trabalho. 
-    * O título inserido será usado como um padrão para novas posições atribuídas ao trabalho.  
-6. Na lista, localize e selecione o PDV desejado.
-7. Na lista, clique no link na linha selecionada.
-8. O número máximo de grupo de posições, selecione 'Máximo de posições'.
+1. Acesse **Recursos humanos \> Trabalhos \> Trabalhos**.
+2. Selecione **Novo**.
+3. No campo **Trabalho**, insira um valor.
+4. No campo **Descrição**, insira um valor.
+5. Selecione um cargo padrão a ser usado para o trabalho.
+
+    Esse título será usado como um valor padrão para novas posições atribuídas ao trabalho.
+
+6. Na lista, localize e selecione o registro desejado.
+7. Na lista, selecione o link na linha selecionada.
+8. No grupo **Número máximo de posições**, selecione **Posições máximas**.
 9. Insira o número máximo de posições. 
-    * As atribuições de posição não serão permitidas acima do valor máximo inserido aqui.  
-10. Alternar a expansão da seção Descrição.
-11. No campo Nota, insira 'Inserir uma descrição padrão para o Trabalho'.
-    * A descrição se aplica a todas as posições atribuídas ao trabalho definido aqui.  
-12. Alternar a expansão da seção Classificação de trabalho.
-13. Selecione uma função de trabalho que é usada em relatórios padrão em Recursos humanos.
-14. Na lista, localize e selecione o registro desejado.
-15. Na lista, clique no link na linha selecionada.
-16. Selecione um tipo de trabalho para classificar mais trabalho na sua organização. 
-    * Os tipos de trabalho podem ser usados no relatório em todos Recursos humanos.  
-17. Na lista, localize e selecione o PDV desejado.
-18. Na lista, clique no link na linha selecionada.
-19. Alternar a expansão da seção Remuneração.
-20. Selecione um nível de remuneração.
-    * O nível de remuneração definirá o mínimo e máximo de remuneração que um funcionário pode ter para o trabalho. As regras de remuneração determinarão se a remuneração de funcionários pode ser fora do intervalo.  
-21. Na lista, localize e selecione o PDV desejado.
-22. Na lista, clique no link na linha selecionada.
-23. Alternar a expansão da seção Habilidades.
-    * Observe que os campos nas habilidades, os certificados e a formação educacional FastTabs estão em branco. Depois de copiar informações de um modelo de trabalho, as informações nos campos será inserida em uma única etapa.   
-24. Clique em Salvar.
-25. Clique em Copiar de.
-26. Clique em Copiar do modelo.
-27. No campo Modelo de trabalho, clique no botão suspenso para abrir a pesquisa.
-28. Na lista, localize e selecione o registro desejado.
-29. Na lista, clique no link na linha selecionada.
-30. Clique na opção Nota.
-    * Somente os itens que você seleciona serão copiados para o trabalho selecionado.    
-31. Clique em OK.
-32. Alternar a expansão da seção Certificados.
-33. Alternar a expansão da seção Educação.
-34. Clique em Salvar.
 
+    As atribuições de posição que excederem esse número não serão permitidas.
 
+10. Na seção **Descrição**, no campo **Observação**, insira **Inserir uma descrição padrão para o trabalho**.
+
+    Essa descrição se aplica a todas as posições atribuídas ao trabalho que você está definindo.
+
+11. Na seção **Classificação do trabalho**, selecione uma função de trabalho que será usada em relatórios padrão em Recursos humanos.
+12. Na lista, localize e selecione o registro desejado.
+13. Na lista, selecione o link na linha selecionada.
+14. No campo **Tipo de trabalho**, selecione um tipo de trabalho para classificar mais trabalho em sua organização.
+
+    Os tipos de trabalho podem ser usados no relatório em todos Recursos humanos.
+
+15. Na lista, localize e selecione o registro desejado.
+16. Na lista, selecione o link na linha selecionada.
+17. Na seção **Remuneração**, selecione um nível de remuneração.
+
+    O nível de remuneração definirá a remuneração mínima e máxima que um funcionário pode ter para o trabalho. As regras de remuneração determinarão se a remuneração de funcionários pode ser fora do intervalo.
+
+18. Na lista, localize e selecione o registro desejado.
+19. Na lista, selecione o link na linha selecionada.
+20. Na seção **Habilidades**, observe que os campos das Guias Rápidas **Habilidades**, **Educação** e **Certificados** estão em branco. Depois de copiar informações de um modelo de trabalho, as informações desses campos será inserida em uma única etapa.
+21. Selecione **Salvar**.
+22. Selecione **Copiar de**.
+23. Selecione **Copiar do modelo**.
+24. No campo **Modelo de trabalho**, selecione a seta suspensa para abrir a pesquisa.
+25. Na lista, localize e selecione o registro desejado.
+26. Na lista, selecione o link na linha selecionada.
+27. Selecione a opção **Observação**.
+
+    Somente os itens que você seleciona serão copiados para o trabalho selecionado.
+
+28. Selecione **OK**.
+29. Expanda a seção **Certificados**.
+30. Expanda a seção **Educação**.
+31. Selecione **Salvar**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

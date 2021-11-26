@@ -1,8 +1,8 @@
 ---
 title: Desenvolver um plano de carreira
 description: À medida que sua organização crescer, inicie o planejamento de carreira.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca1d9dda75038d937e2a3dad4582feefa617aac9f7f3f1a75ffd274c69c68ae9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed10813c30b9a49b84a7e8e333fbac3d1e26720a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768206"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731507"
 ---
 # <a name="develop-a-succession-plan"></a>Desenvolver um plano de carreira
 
@@ -35,8 +35,8 @@ ms.locfileid: "6768206"
 7. Selecione **Pessoa**.
 8. No campo **Pessoa**, digite um nome ou selecione na lista suspensa.
 9. Selecione **OK**.
-10. Expanda a FastTab **Certificados** para exibir ou editar os certificados incluídos no mapeamento de habilidades.
-11. Expanda a FastTab **Habilidades** para exibir ou editar as habilidades a serem incluídas.
+10. Expanda a Guia Rápida **Certificados** para exibir ou editar os certificados incluídos no mapeamento de habilidades.
+11. Expanda a Guia Rápida **Habilidades** para exibir ou editar as habilidades a serem incluídas.
 12. Na lista, marque a primeira linha. Exemplo: Contabilidade.
 13. Marque a caixa de seleção **Opcional**.
 14. No campo **Importância**, selecione uma opção. Quando você marcar uma habilidade como opcional, selecione o nível de importância da habilidade.  
@@ -48,8 +48,8 @@ ms.locfileid: "6768206"
 20. No campo **Importância**, selecione uma opção.
 21. Na lista, selecione a linha 4.
 22. Marque a caixa de seleção **Opcional**.
-23. No campo Importância, selecione uma opção.
-24. Expanda a FastTab **Educação** para exibir ou editar as competências de formação educacional a serem incluídas no mapeamento de habilidades.
+23. No campo **Importância**, selecione uma opção.
+24. Expanda a Guia Rápida **Educação** para exibir ou editar as competências de formação educacional a serem incluídas no mapeamento de habilidades.
 25. Selecione **Executar**.
 26. Selecione **OK**.
 27. Selecione **Resultado**.
