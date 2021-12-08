@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar a armazenagem para implantações locais
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: Aplicativos do Finance and Operations operados pela 21Vianet na China
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Aplicativos do Finance and Operations na França
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Novidades ou alterações
               items:
                 - name: Novidades ou alterações nos aplicativos do Finance and Operations
@@ -496,10 +492,12 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: Configurar e gerar informações de classificação por vencimento de contas a receber
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: Instantâneo de classificação por vencimento de cliente
+            - name: Instantâneo de classificação por vencimento do cliente
               href: accounts-receivable/customer-aging-snapshot.md
-            - name: Relatório de classificação por vencimento de clientes
+            - name: Relatório de classificação por vencimento do cliente
               href: accounts-receivable/customer-aging.md
+            - name: Armazenamento dos dados de classificação por vencimento do cliente
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Criar um diário de baixa para um cliente
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Gerenciamento de notas avançadas
@@ -1476,6 +1474,10 @@
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Relatório da Alemanha
+                          items:
+                            - name: Declaração de IVA
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Relatórios dos Países Baixos
                           items:
                             - name: Declaração de IVA
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Ajustes de depreciação para aquisições adicionais no segundo ano
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: Declaração de IVA
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: Transmissão eletrônica da declaração de IVA (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Intrastat alemão
                   href: localizations/emea-deu-intrastat.md
-                - name: Declaração de IVA para a Alemanha
+                - name: Demonstrativo de IVA
                   href: localizations/emea-de-vat-declaration.md
                 - name: Relatório de faturas eletrônicas do cliente
                   href: localizations/emea-deu-e-invoices.md

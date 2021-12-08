@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: 'Estender, personalizar e colaborar na ajuda'
                   href: help/contributor-guide.md
+            - name: Considerações sobre implantação
+              items:
+                - name: Opções de implantação de nuvem local e autônoma para Dynamics 365 Finance e Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance e Supply Chain Management na GCC (Nuvem da Comunidade Governamental) nos EUA
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance e Supply Chain Management operado pela 21Vianet na China
+                  href: deployment/china-local-deployment.md
+                - name: Aplicativos do Finance and Operations na França
+                  href: deployment/france-local-deployment.md
         - name: Desenvolver e personalizar
           items:
             - name: Home page Desenvolver e personalizar
@@ -1116,8 +1126,10 @@
                       href: data-entities/dual-write/party-gab.md
                     - name: Usando portais do Microsoft Power Apps com o modelo de dados de participantes
                       href: data-entities/dual-write/party-gab-portal.md
-                    - name: Atualizar para o modelo de catálogo de endereços global e de participantes
+                    - name: Fazer upgrade para o modelo de catálogo de endereços global e de participantes
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Exibir dados do participante
+                      href: data-entities/dual-write/view-party.md
                     - name: Integração de observações
                       href: data-entities/dual-write/notes-integration.md
                     - name: Referência de mapeamento
@@ -1584,7 +1596,7 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Criar trabalhos em lotes
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Habilitando tentativas automáticas em trabalhos em lotes
+                - name: Habilitar novas tentativas de lote
                   href: sysadmin/retryable-batch.md
                 - name: Copiar um trabalho em lotes
                   href: sysadmin/copy-batch-job.md

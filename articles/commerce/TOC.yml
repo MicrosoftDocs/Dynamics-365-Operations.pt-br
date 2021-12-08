@@ -74,10 +74,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Orientações de implementação do Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: Aplicativos do Finance and Operations operados pela 21Vianet na China
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: Aplicativos do Finance and Operations na França
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Obter suporte
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Upgrade e suporte N-1
@@ -1274,6 +1270,8 @@
               href: set-up-rfm-analysis.md
             - name: Configurar o Microsoft Clarity no Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: Análise do Commerce (Versão preliminar)
+              href: commerce-analytics.md
         - name: Globalização
           items:
             - name: Visão geral da integração fiscal do canal do Commerce
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: Gerenciamento de informações do cliente para a Rússia
                   href: localizations/rus-customer-information.md
+            - name: Arábia Saudita
+              items:
+                - name: Gerar códigos QR e imprimi-los nos recibos para a Arábia Saudita
+                  href: localizations/emea-sau-qr-code.md
             - name: Suécia
               items:
                 - name: Funcionalidade de caixa registradora
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Práticas recomendadas de depuração para desenvolvimento do Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: Testar páginas de site de comércio eletrônico para perdas de memória
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: SDK do Retail
               items:
                 - name: Migrar para o SDK do Commerce
