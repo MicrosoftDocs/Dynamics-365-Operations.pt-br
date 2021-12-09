@@ -2,7 +2,7 @@
 title: Home page do Finance Insights
 description: O Finance Insights fornece modelos configuráveis e extensíveis para ajudar você a prever de forma precisa e inteligente o fluxo de caixa da sua empresa, prever quando receberá o pagamento de contas a receber pendentes e gerar uma proposta de orçamento que pode acelerar o processo de orçamento. Todos esses recursos se baseiam nos modelos inteligentes de aprendizado de máquina.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3c6320043000dc07eea3128a10c16cfd54b13334
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752847"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813730"
 ---
 # <a name="finance-insights-home-page"></a>Home page do Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-O Finance Insights fornece modelos configuráveis e extensíveis para ajudá-lo a prever de forma inteligente o fluxo de caixa da sua empresa, prever quando receberá o pagamento de contas a receber pendentes e gerar uma proposta de orçamento que pode acelerar o processo de orçamento. Todos esses recursos se baseiam nos modelos inteligentes de aprendizado de máquina. Quando esses novos recursos são combinados com a automação em pagamentos e cobranças de fornecedores, eles fornecem um sistema financeiro avançado e inteligente que conduz a tomada de decisões e ajuda você a tomar ações para responder com eficiência a desafios de negócios atuais e antecipados.
+O Finance Insights fornece soluções configuráveis e extensíveis para ajudá-lo a prever de forma inteligente o fluxo de caixa da sua empresa, prever quando você poderá receber o pagamento de contas a receber pendentes e gerar uma proposta de orçamento que pode ajudar a acelerar o processo de orçamento. Esses recursos usam modelos inteligentes de aprendizado de máquinas para criar modelos usando dados fornecidos (incluindo dados de terceiros, como informações de relatório de consumidores de um bureau). Esses recursos inteligentes informam a tomada de decisões e ajudam você a executar ações para responder efetivamente a desafios de negócios atuais e antecipados. Você é responsável por quaisquer dados usados com, ou saídas do Finance insights.
 
 > [!NOTE]
 > A versão preliminar do Finance Insights está disponível para implantação nos Estados Unidos da América, Canadá, Reino Unido, Europa, Pacífico Asiático, Japão, Austrália e Nova Zelândia. A Microsoft está adicionando suporte para mais regiões de forma incremental.

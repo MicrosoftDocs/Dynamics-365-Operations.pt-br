@@ -2,7 +2,7 @@
 title: Configuração do Finance Insights
 description: Este tópico explica as etapas de configuração que permitirão que o sistema use os recursos disponíveis nos insights do Finance.
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752969"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827019"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuração do Finance Insights
 
@@ -43,14 +43,34 @@ Para implantar os ambientes, siga estas etapas.
 
 2. Se você estiver configurando o Finance Insights em um ambiente de área restrita, talvez você precise copiar os dados de produção nesse ambiente para que as previsões funcionem. O modelo de previsão usa vários anos de dados para criar previsões. Os dados de demonstração da Contoso não contêm dados históricos suficientes para treinar o modelo de previsão corretamente. 
 
+## <a name="configure-your-azure-ad-tenant"></a>Configurar o locatário do Azure AD
+
+O Azure Active Directory (Azure AD) deve ser configurado de forma que possa ser usado com o Dataverse e os aplicativos da Microsoft Power Platform. Esta configuração exige que a função **Proprietário do Projeto** ou **Gerente do Ambiente** esteja atribuída ao usuário conectado no campo **Função de segurança do projeto** no LCS.
+
+Verifique se a seguinte configuração foi concluída:
+
+- Você tem acesso de **Administrador do sistema** e de **Personalizador do Sistema** no centro de administração do Power Portal.
+- A licença do Dynamics 365 Finance ou equivalente está sendo aplicada ao usuário que está instalando o suplemento Finance Insights.
+
+Os seguintes aplicativos do Azure AD estão registrados no Azure AD.
+
+|  Solicitação de Emprego                             | ID do Aplicativo                               |
+|------------------------------------------|--------------------------------------|
+| CDS de Microsserviços de ERP do Microsoft Dynamics | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>Configurar o Dataverse
 
 Para configurar o Dataverse para Finance Insights, siga estas etapas:
 
 - No LCS, abra a página do ambiente e verifique se a seção **Integração do Power Platform** já está configurado.
 
-    - Se ela já estiver configurada, o nome do ambiente do Dataverse que está vinculado ao ambiente deve do Finance deve aparecer na lista.
-    - Se ela não estiver configurada, selecione **Configurar**. A configuração do ambiente do Dataverse pode levar até uma hora. Quando a configuração for concluída com êxito, o nome do ambiente do Dataverse que está vinculado ao ambiente do Finance deve aparecer na lista.
+    - Se o Dataverse já tiver sido configurado, o nome do ambiente do Dataverse que está vinculado ao ambiente do Finance deve aparecer na lista.
+    - Se o Dataverse ainda não tiver sido configurado, selecione **Configurar**. A configuração do ambiente do Dataverse pode levar até uma hora. Quando a configuração for concluída com êxito, o nome do ambiente do Dataverse que está vinculado ao ambiente do Finance deve aparecer na lista.
+    - Se essa integração tiver sido configurada com um ambiente da Microsoft Power Platform existente, entre em contato com o administrador para verificar se o ambiente vinculado não está no estado desabilitado.
+
+        Para obter mais informações, consulte [Habilitando a integração com a Power Platform](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md). 
+
+        Para acessar o site admin da Microsoft Power Platform, vá para <https://admin.powerplatform.microsoft.com/environments>.
 
 ## <a name="configure-the-finance-insights-add-in"></a>Configurar o suplemento do Finance Insights
 

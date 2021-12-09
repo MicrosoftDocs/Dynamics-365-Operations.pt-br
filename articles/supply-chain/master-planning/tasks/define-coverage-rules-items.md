@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567214"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860604"
 ---
 # <a name="define-coverage-rules-for-items"></a>Definir regras de cobertura para itens
 
@@ -113,6 +113,7 @@ Crie regras de cobertura de item da seguinte maneira:
 1. No campo **Tempo de compra**, insira '5'.
 1. Selecione **Salvar**.
 
-
+> [!NOTE]
+> Para itens fabricados, o **Prazo de entrega da produção** será usado se não houver um roteiro para o item. Se um roteiro ativo tiver sido associado ao item, o planejamento mestre agendará o pedido e calculará as datas de acordo com o tempo do roteiro e a capacidade dos recursos (se aplicável).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

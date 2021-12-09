@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 268ee58583306bdd99e5d5cd5bb436a328a5648b
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678486"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860474"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Página inicial da Contabilidade de estoque global
 
 [!INCLUDE [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 As organizações internacionais estão sob crescente pressão das autoridades para cumprir as normas contábeis locais e globais. A valorização do estoque desempenha um papel significativo na garantia da conformidade. O Complemento Contabilidade de estoque global para Microsoft Dynamics 365 Supply Chain Management fornece uma solução abrangente que permite que as organizações (especialmente organizações internacionais) usem vários razões contábeis para fazer contabilidade de estoque. Dessa forma, essas organizações podem cumprir várias normas contábeis e realizar a contabilidade de gestão interna ao mesmo tempo.
 

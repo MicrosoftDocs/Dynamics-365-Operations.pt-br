@@ -2,19 +2,19 @@
 title: Descrição do serviço para aplicativos do Finance and Operations
 description: Este tópico fornece a descrição de serviço para aplicativos do Finance and Operations.
 author: tomhig
-ms.date: 09/29/2021
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581807"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825391"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrição do serviço para aplicativos do Finance and Operations
 
@@ -50,7 +50,7 @@ O modelo de operação de aplicativos do Finance and Operations define funções
 
 ### <a name="customer-activities"></a>Atividades do cliente
 
-Os clientes trabalham com seu parceiro e [Microsoft FastTrack](/dynamics365/fasttrack/) seguindo a estrutura [Success by Design](/dynamics365/fasttrack/success-by-design-overview) e usando as ferramentas e os modelos de práticas recomendadas fornecidos no [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) para implementar sua solução. As atividades comuns incluem:
+Os clientes trabalham com seus parceiros e o [Microsoft FastTrack](/dynamics365/fasttrack/) seguindo o [Guia de Implementação do Dynamics 365](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), a estrutura e ferramentas e modelos de melhores práticas no [Success by Design](/dynamics365/fasttrack/success-by-design-overview) fornecidos no [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) para implementar sua solução. As atividades comuns incluem:
 
 - Gerenciamento de segurança e identidades de usuário
 - Definir, desenvolver e operar processos comerciais

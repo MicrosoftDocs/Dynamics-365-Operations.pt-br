@@ -2,7 +2,7 @@
 title: Localização do Commerce para o Brasil
 description: Este tópico fornece uma visão geral da localização do Microsoft Dynamics 365 Commerce para o Brasil.
 author: akviklis
-ms.date: 06/10/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,20 +13,22 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b85f66b8b85f741b12bf162cc35f87f13aadfa270adb9f070c01e4f83c014737
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 112c48954816febe0bc9b6b75e2099d94a5e35ce
+ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712419"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7862758"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 
-[!include[banner](../includes/banner.md)]
+[!Include[banner](../includes/banner.md)]
 
-Este tópico descreve o escopo da funcionalidade do Microsoft Dynamics 365 Commerce específico do Brasil. Ele inclui informações sobre os recursos e a funcionalidade que foram criados para tratar impostos federais específicos, de varejo, contábeis, financeiros ou estatutários ou regulamentações que geralmente afetam as empresas de varejo no Brasil (no escopo da [Localização Brasileira](../../finance/localizations/latam-bra-scope.md#brazilian-localization-strategy)).
+Este tópico descreve o escopo da funcionalidade do Microsoft Dynamics 365 Commerce específico do Brasil. Ele inclui informações sobre os recursos e a funcionalidade que foram criados para tratar impostos federais específicos, de varejo, contábeis, financeiros ou estatutários ou regulamentações que geralmente afetam as empresas de varejo no Brasil no escopo da [Localização brasileira](../../finance/localizations/latam-bra-scope.md#brazilian-localization-strategy).
 
-Porém, o Commerce não trata de todas as leis, regulamentos ou requisitos comerciais do Brasil, pois as leis e os regulamentos variam na forma como afetam as organizações. Para obter mais informações, consulte o [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/dynamics_365_international_availability_deck).
+O Commerce não atende a todas as leis, regulamentos ou requisitos comerciais no Brasil. As leis e regulamentos variam na maneira que afetam as organizações. Para obter mais informações, consulte o [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/dynamics_365_international_availability_deck).
+
+Para saber mais sobre os recursos de ponto de venda (PDV) disponíveis para os clientes em todos os países ou regiões, consulte a [página inicial do Commerce](../index.md).
 
 ## <a name="capabilities-of-the-commerce-localization-for-brazil"></a>Recursos da localização do Commerce para o Brasil
 
@@ -38,33 +40,16 @@ Os seguintes recursos do Commerce headquarters e do ponto de venda (PDV) estão 
 - Geração de documentos fiscais eletrônicos da Nota Fiscal do Consumidor eletrônica - NFC-e para vendas de varejo (modelo 65), envio dos documentos fiscais eletrônicos por meio dos serviços Web do governo e impressão dos recibos de DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) NFC-e.
 - Cancelamento de vendas de varejo por meio dos serviços Web do governo no prazo permitido.
 - Geração de documentos fiscais eletrônicos da NF-e (Nota Fiscal eletrônica) para devoluções de varejo (modelo 55), envio de documentos fiscais eletrônicos por meio dos serviços Web do governo e impressão dos recibos DANFE.
-- Geração de documentos fiscais eletrônicos do CF-e (Cupom Fiscal eletrônico) para vendas de varejo em São Paulo (modelo 59) e registro de documentos fiscais eletrônicos no dispositivo fiscal SAT (Sistema Autenticador e Transmissor de Cupons Fiscais Eletrônicos).
-- Integração de transferência eletrônica de fundos (TEF) para o PDV. Esse recurso inclui integração com provedores de pagamento locais e globais populares, e suporte para pagamentos com cartão de crédito e débito.
+- Geração de documentos fiscais eletrônicos do CF-e (Cupom Fiscal eletrônico) para vendas de varejo no estado de São Paulo (modelo 59) e registro de documentos fiscais eletrônicos no dispositivo fiscal SAT (Sistema Autenticador e Transmissor de Cupons Fiscais Eletrônicos). Para obter mais informações, consulte [Sobre SAT](https://portal.fazenda.sp.gov.br/servicos/sat).
+- Integração de transferência eletrônica de fundos (TEF) para o PDV. Esse recurso inclui a integração com o provedor de pagamentos de Adyen, que fornece recursos básicos como suporte para pagamentos com cartão de crédito e débito e para salvar dados relacionados a pagamento em transações de vendas. Para obter mais informações, consulte [Dynamics 365 Payment Connector para Adyen no PDV do Commerce para o Brasil](latam-bra-adyen.md)
 - Gerenciamento de números de registro de clientes específicos do Brasil. Esse recurso inclui recursos para inserir, exibir e modificar os números de registro de impostos do CNPJ (Cadastro Nacional da Pessoa Jurídica)/CPF (Cadastro de Pessoas Físicas) ou IDs de Estrangeiro, e para registrar esses números em NFC-e, NF-e, CF-e e em recibos impressos.
 - Registro adiado de documentos fiscais eletrônicos, no caso de falhas de rede (modo de contingência offline) e a transmissão subsequente de documentos fiscais eletrônicos na contingência do Commerce headquarters.
 - Controle de documentos fiscais eletrônicos no Commerce headquarters. Esse recurso inclui recursos para descartar os documentos e registrar um cancelamento por substituição.
-- Geração e envio de documentos fiscais eletrônicos para ordens de clientes.
-- A capacidade de emitir NF-e vinculada para todos os tipos de documentos fiscais registrados.
-- Suporte de N-1, para que os clientes que executam o Microsoft Dynamics AX 2012 R3 em suas lojas possam trabalhar com a sede do Microsoft Dynamics 365 Commerce após uma atualização.
-- Suporte para campos específicos do Brasil, como números de registro de impostos do CNPJ/CPF, quando os registros do cliente principais forem mesclados em um call center.
-
-### <a name="supported-scenarios"></a>Cenários com suporte
-
-Os cenários a seguir têm suporte da localização do Commerce para o Brasil:
-
-- Vendas de mercadorias por cash-and-carry
-- Cancelamentos e devoluções de vendas de mercadorias por cash-and-carry
-- Vendas de mercadorias por cash-and-carry no modo de contingência offline
-- Cancelamento por substituição
-- Emissão de vales-presentes e pagamentos por vales-presentes
-- Registro e processamento de ordens de cliente no PDV
-- Lançamento de documentos fiscais em demonstrativos de varejo no Commerce headquarters
-- Vendas via lojas de comércio eletrônico
-- Vendas do call center
+- Busca de clientes por números de registro no PDV.
 
 ### <a name="fiscal-registration-for-brazil"></a>Registro fiscal do Brasil
 
-O registro fiscal é o registro imediato de vendas de varejo por leis fiscais locais que têm como objetivo impedir a fraude fiscal no setor varejista. Os seguintes métodos de registro fiscal principal estão disponíveis no Brasil:
+O registro fiscal é o registro imediato de vendas de varejo por leis fiscais locais que têm como objetivo impedir a fraude fiscal no setor varejista. Os seguintes métodos de registro fiscal estão disponíveis no Brasil:
 
 - Geração de um documento fiscal eletrônico NFC-e para uma venda de varejo e envio do documento para autoridades fiscais (SEFAZ \[Secretaria de Fazenda\]) por meio de um serviço Web dedicado mantido pela SEFAZ.
 - Registro de uma venda de varejo, em um dispositivo fiscal SAT conectado ao PDV, usando um documento fiscal eletrônico CF-e.
@@ -77,54 +62,34 @@ O Commerce oferece suporte ao registro fiscal por meio da [Estrutura de integra�
 
 ## <a name="availability-of-commerce-localization-features-for-brazil"></a>Disponibilidade dos recursos de localização do Commerce para o Brasil
 
-| Recurso                                                                  | Disponibilidade geral (GA) | Lançamento-Disponibilidade Geral | Não planejado |
-|--------------------------------------------------------------------------|---------------------------|---------|-------------|
-| Gerenciamento de produtos de varejo e cálculo e configuração de imposto                 | X                         |         |             |
-| NFC-e (modelo 65) e DANFE para vendas de varejo                              | X                         |         |             |
-| Comunicação com a SEFAZ                                                 | X                         |         |             |
-| Demonstrativos de varejo no Commerce Headquarters                               | X                         |         |             |
-| Tratamento de informações do cliente fiscal (por exemplo, CPF/CNPJ)          | X                         |         |             |
-| NF-e (modelo 55) e DANFE para devoluções de vendas                              | X                         |         |             |
-| A contingência de NFC-e/NF-e no PDV (modo offline)                         | X                         |         |             |
-| Transmissão de NFC-e/NF-e em contingência do Commerce headquarters     | X                         |         |             |
-| Cancelamento de NFC-e                                                       | X                         |         |             |
-| Cancelamento de NFC-e por substituição, descarte                              |                           | X       |             |
-| Integração de TEF (Adyen e recursos básicos)                           |                           | X       |             |
-| CF-e (modelo 59) para vendas em São Paulo e integração com um dispositivo SAT |                           | X       |             |
-| Busca de clientes por números de registro no PDV               |                           | X       |             |
-| Integração de TEF (recursos avançados e provedores adicionais)         |                           | X       |             |
-| Documentos fiscais para ordens de cliente do PDV                        |                           | X       |             |
-| NF-e vinculada a NFC-e/CF-e e DANFE                                      |                           | X       |             |
-| Suporte de N-1 para atualização do AX 2012 R3                                  |                           | X       |             |
-| Recursos de comércio eletrônico para o Brasil                                       |                           | X       |             |
-| Mesclagem de CNPJ/CPF nos registros principais do cliente no call center           |                           | X       |             |
-| Documentos fiscais de varejo em demonstrativos do livro fiscal\*                      |                           |         | X           |
-| Integração do PDV com impressoras fiscais (PAF-ECF)\*\*                |                           |         | X           |
+| Recurso                                                                        | Liberado | Pode ser adicionado em versões futuras | Não planejado |
+|--------------------------------------------------------------------------------|:----------:|:---------------------------------:|:-------------:|
+| Gerenciamento de produtos de varejo e cálculo e configuração de imposto                       | X        |                                  |             |
+| NFC-e (modelo 65) e DANFE para vendas de varejo                                    | X        |                                  |             |
+| Comunicação com a SEFAZ                                                       | X        |                                  |             |
+| Demonstrativos de varejo no Commerce Headquarters                                     | X        |                                  |             |
+| Tratamento de informações do cliente fiscal (por exemplo, CPF/CNPJ)                | X        |                                  |             |
+| NF-e (modelo 55) e DANFE para devoluções de vendas                                    | X        |                                  |             |
+| A contingência de NFC-e/NF-e no PDV (modo offline)                               | X        |                                  |             |
+| Transmissão de NFC-e/NF-e em contingência do Commerce headquarters           | X        |                                  |             |
+| Cancelamento de NFC-e                                                             | X        |                                  |             |
+| Cancelamento de NFC-e por substituição, descarte                                    | Х        |                                  |             |
+| Integração de TEF (Adyen e recursos básicos)                                 | Х        |                                  |             |
+| CF-e (modelo 59) para vendas no estado de São Paulo e integração com um dispositivo SAT | Х        |                                  |             |
+| Busca de clientes por números de registro no PDV                     | X        |                                  |             |
+| Integração de TEF (recursos avançados e provedores adicionais de Adyen)         |          | X                                |             |
+| Documentos fiscais para ordens de cliente do PDV                              |          | X                                |             |
+| NF-e vinculada a NFC-e/CF-e e DANFE                                            |          | X                                |             |
+| Suporte de N-1 para atualização do AX 2012 R3                                        |          | X                                |             |
+| Recursos de comércio eletrônico para o Brasil                                             |          | X                                |             |
+| Mesclagem de CNPJ/CPF nos registros principais do cliente no call center                 |          | X                                |             |
+| Documentos fiscais de varejo em demonstrativos do livro fiscal\*                            |          |                                  | X           |
+| Integração do PDV com impressoras fiscais (PAF-ECF)\*\*                      |          |                                  | X           |
 
 \* *Demonstrativos do livro fiscal* são demonstrativos de remuneração e restituição do SPED (Sistema Público de Escrituração Digital) Fiscal, de Contribuições de SPED e ICMS-ST (Imposto sobre Circulação de Mercadorias e Serviços - Substituição Tributária) para os estados suportados.
 
 \*\* *PAF-ECF* significa Programa Aplicativo Fiscal – Emissor de Cupom Fiscal.
 
-## <a name="commerce-functionality-for-brazil"></a>Funcionalidade de comércio para o Brasil
-
-A funcionalidade de comércio para o Brasil consiste nas seguintes partes:
-
-- Os recursos de POS comuns disponíveis aos clientes em todos os países ou regiões.
-- Recursos específicos ao Brasil, como a comunicação com a SEFAZ
-
-### <a name="common-pos-features"></a>Recursos de POS comuns
-
-Para saber mais sobre os recursos de POS disponíveis para os clientes em todos os países ou regiões, consulte a [página inicial do Commerce](../index.md).
-
-### <a name="brazil-specific-pos-features"></a>Recursos de POS específicos ao Brasil
-
-Os seguintes recursos de POS específicos ao Brasil são habilitados após a localização do Commerce para o Brasil ser configurada e implantada:
-
-- Funcionalidade de documento fiscal NFC-e
-- Gerenciamento de informações do cliente
-- Cancelamento e devolução de documentos NFC-e
-- Registro adiado da NFC-e emitida no moto de contingência
-- Postagem e controle de documentos fiscais eletrônicos
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -139,5 +104,9 @@ Os seguintes recursos de POS específicos ao Brasil são habilitados após a loc
 [Registro adiado de notas NFC-e emitidas no modo de contingência offline](latam-bra-nfce-contingency-mode.md)
 
 [Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce](latam-bra-retail-statements.md)
+
+[Sobre SAT](https://portal.fazenda.sp.gov.br/servicos/sat)
+
+[Dynamics 365 Payment Connector para Adyen no PDV do Commerce para o Brasil](latam-bra-adyen.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

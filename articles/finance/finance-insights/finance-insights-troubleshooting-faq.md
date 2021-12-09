@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752608"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827044"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Solucionar problemas de configuração do Finance Insights
 
@@ -70,3 +70,26 @@ A função de previsão de fluxo de caixa em Gerenciamento de caixa e de banco e
 Primeiro, configure e habilite as contas de previsão de fluxo de caixa e de liquidez. Para obter mais informações, consulte [Previsão de fluxo de caixa](../cash-bank-management/cash-flow-forecasting.md). Se essa configuração tiver sido concluída, mas você não vir os resultados esperados, consulte [Solucionar problemas da configuração de previsão de fluxo de caixa](../cash-bank-management/cash-flow-forecasting-tsg.md) para obter mais informações.
 
 Em seguida, confirme se o recurso Previsões de fluxo de caixa do Finance Insights (**Gerenciamento de caixa e banco \> Configuração \> Finance Insights \> Previsões de fluxo de caixa**) foi habilitado e se o treinamento do modelo de IA foi concluído. Se o treinamento não tiver sido concluído, selecione **Previsão agora** para iniciar o processo de treinamento do modelo.
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Sintoma: por que o botão instalar um novo suplemento está visível nos Microsoft Dynamics Lifecycle Services?
+
+### <a name="resolution"></a>Resolução
+
+Primeiro, verifique se a função **Gerente do Ambiente** ou **Proprietário do Projeto** está atribuída ao usuário conectado no campo **Função de segurança do projeto** no Microsoft Dynamics Lifecycle Services (LCS). A instalação dos novos suplementos requer uma dessas funções de segurança do projeto.
+
+Se a função de segurança correta do projeto estiver atribuída a você, talvez seja necessário atualizar a janela do navegador para ver o botão **Instalar novo suplemento**.
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Sintoma: parece que o suplemento do Finance insights não está instalado. Por que?
+
+### <a name="resolution"></a>Resolução
+
+As etapas a seguir devem ter sido concluídas.
+
+- Verifique se você tem acesso de **Administrador do sistema** e de **Personalizador do Sistema** no centro de administração do Power Portal.
+- Verifique se uma licença do Dynamics 365 Finance ou equivalente está sendo aplicada ao usuário que está instalando o suplemento.
+- Verifique se o seguinte aplicativo do Azure AD está registrado no Azure AD: 
+
+  | Solicitação de Emprego                  | ID do Aplicativo           |
+  | ---------------------------- | ---------------- |
+  | CDS de Microsserviços de ERP do Microsoft Dynamics | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+  

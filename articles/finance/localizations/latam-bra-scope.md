@@ -2,7 +2,7 @@
 title: Escopo da localização brasileira
 description: Este tópico descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis no Brasil.
 author: sndray
-ms.date: 09/09/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 93b6b9731a6714b3f3be7a274c0cb5e96028fff2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: cf9181601a014b61a19298fb5eb8f8286606b18d
+ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487060"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7862789"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
@@ -235,44 +235,36 @@ As seções a seguir listam os recursos que são específicos do Brasil. As seç
 | Nota fiscal para créditos de ICMS 1/48 | Sim | Sim |
 | Relatórios:<br>- Livro diário<br>- Razão analítico<br>- Balancete | Sim | Não |
 
-### <a name="enterprise-pos"></a>PDV Empresarial
+### <a name="commerce"></a>Commerce
 
-| Item  | AX 2012 R3 |  Finance | 
-| ---- | ---------- | -------- |
-| CPF/CNPJ do cliente em cupons fiscais | Sim | Não |
+| Item | AX 2012 R3 EPOS |  D365 CPOS/MPOS | 
+| ---- | :---------------: | :-----------------: |
+| CPF/CNPJ do cliente em cupons fiscais | Sim | Sim |
 | Geração de arquivos para a Nota Fiscal Paulista | Sim | Não |
-| Cálculo do imposto de acordo com a configuração do Microsoft Dynamics AX 2012 | Sim | Não |
+| Cálculo de imposto de acordo com a configuração do Commerce Headquarters | Sim | Sim |
 | Integração de impressora fiscal para impressoras Daruma, nos modelos FS600, FS700 (H, L e M), FS800i, Mach 1, Mach 2 e Mach 3 | Sim | Não |
 | Integração de impressora fiscal para impressoras Bematech, nos modelos MP2100 FI TH FI e MP4200 TH FI II | Sim | Não |
 | Requisitos legais de PDV de acordo com a lei PAF-ECF "ATO COTEPE/ICMS N° 9" de 2013, exceto para as atividades de varejo identificadas como fora do escopo na seção [Fora do escopo](#out-of-scope) deste tópico | Sim | Não |
 | Requisitos legais de PDV de acordo com a lei PAF-ECF "ATO COTEPE/ICMS N° 46" de 2014, exceto para as atividades de varejo identificadas como fora do escopo na seção [Fora do escopo](#out-of-scope) | Sim | Não |
 | Exibição de impostos aproximados em recibos fiscais | Sim | Não |
+| Exibir impostos aproximados no DANFE/CF-e-SAT | Sim | Sim |
 | Cancelar último recibo fiscal | Sim | Não |
-| Pagamentos com vários cartões de crédito | Sim | Não |
+| Pagamentos com vários cartões de crédito | Sim | Sim |
 | Integração de TEF com o software de terceiros D-TEF Dedicado, versão 8.1.37.2, comercializado pela Direção Processamento de Dados Ltda | Sim | Não |
 | Integração de TEF com o software de terceiros SiTef, versão 4.0.111.6, comercializado pela Software Express Informática Ltda <br>Pré-vendas de acordo com a lei PAF‑ECF "ATO COTEPE/ICMS N° 46" de 2014 | Sim | Não |
-| Emissão de NF‑e de devolução no EPOS para devoluções de vendas | Sim | Não |
-| Emissão de NF-e vinculada ao cupom fiscal no EPOS | Sim | Não |
+| Integração de TEF ao software de terceiros Adyen, recursos básicos | Não | Sim |
+| Emissão de NF‑e de devolução no POS para devoluções de vendas | Sim | Sim |
+| Emissão de NF-e vinculada ao cupom fiscal no POS | Sim | Não |
 | AOS configurável para a troca de mensagens de NF‑e/NFC‑e com a SEFAZ | Sim | Não |
-| O serviço de TEF deve ser contratado diretamente do fornecedor terceirizado e não é incluído em nenhuma licença de software da Microsoft.<br> **Observação**: nem todas as operações do PDV Empresarial são permitidas no Brasil devido a conflitos com a legislação do PAF-ECF. Para obter mais detalhes, consulte o [white paper Retail and Enterprise POS Localization for Brazil (Localização do Retail e PDV Empresarial para o Brasil)](https://www.microsoft.com/download/details.aspx?id=42938). | Sim | Não |           
-
-### <a name="nfc-e-nota-fiscal-ao-consumidor-eletrnica-in-enterprise-pos"></a>NFC‑e (Nota Fiscal do Consumidor Eletrônica) no PDV Empresarial
-
-| Item  | AX 2012 R3 |  Finance | 
-| ---- | ---------- | -------- |
-| Suporte para NFC‑e layout 4.0 | Sim | Não |
-| Modo de contingência: offline | Sim | Não |
-| Modo de contingência para SP: SAT (modelo 59) | Sim | Não |
-| Tipo de presença de venda: pessoal | Sim | Não |
-
-### <a name="commerce"></a>Commerce
-
-| Item  | AX 2012 R3 |  Finance | 
-| ---- | ---------- | -------- |
+| O serviço de TEF deve ser contratado diretamente do fornecedor terceirizado e não é incluído em nenhuma licença de software da Microsoft.<br><br>**Observação**: nem todas as operações do PDV Empresarial são permitidas no Brasil devido a conflitos com a legislação do PAF-ECF. Para obter mais detalhes, consulte o [white paper Retail and Enterprise POS Localization for Brazil (Localização do Retail e PDV Empresarial para o Brasil)](https://www.microsoft.com/download/details.aspx?id=42938). | Sim | Sim |           
+| Suporte para layout da NFC-e (Nota Fiscal do Consumidor Eletrônica) 4.0 | Sim | Sim |
+| Modo de contingência: offline | Sim | Sim |
+| Modo de contingência para SP: SAT (modelo 59) | Sim | Sim |
+| Tipo de presença de venda: pessoal | Sim | Sim |
 | Gerenciamento de itens de comércio:<br>- Produtos lançados por categoria<br>- Planilha de atualização em massa<br>- Hierarquia de produtos | Sim | Sim |
-| SAT (modelo 59) para o estado de São Paulo com layout 0.07 | Sim | Não |
-| Suporte para apenas um equipamento SAT por EPOS | Sim | Não |
-| Suporte para DLLs selecionadas de SAT, para compatibilidade com várias marcas | Sim | Não |
+| SAT (modelo 59) para o estado de São Paulo com layout 0.07 | Sim | Sim |
+| Suporte para apenas um equipamento SAT por POS | Sim | Sim |
+| Suporte para DLLs selecionadas de SAT, para compatibilidade com várias marcas | Sim | Sim |
 | Referência de cupom fiscal | Sim | Não |
 | Configuração automática de impressora fiscal | Sim | Não |
 

@@ -1,59 +1,45 @@
 ---
-title: Enviar e aprovar orçamento de projeto
+title: Criar e enviar um fluxo de trabalho de orçamento do projeto
 description: Este procedimento mostra como criar e enviar o orçamento para um projeto.
 author: Henrikan
-ms.date: 08/13/2019
-ms.topic: business-process
-ms.prod: ''
-ms.technology: ''
+ms.date: 11/22/2021
+ms.topic: article
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a4f8102a954fa8337aa7f5de0f8dcd2b3a288
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6f410d824be717537e6dfb5dbd8b71ff7d992e0a
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569361"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860400"
 ---
-# <a name="submit-and-approve-project-budget"></a>Enviar e aprovar orçamento de projeto
+# <a name="create-and-submit-a-project-budget-workflow"></a>Criar e enviar um fluxo de trabalho de orçamento do projeto
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimento mostra como criar e enviar o orçamento para um projeto. 
+Ao criar um orçamento do projeto, você pode inserir receitas e custos estimados para o projeto e usar os valores para controlar as transações reais do projeto. O orçamento do projeto requer que todos os orçamentos originais e revisões devem sejam enviados ao fluxo de trabalho do projeto para aprovação. O fluxo de trabalho aumenta o seu controle sobre o orçamento e cria um registro de histórico de alteração. Após [criar um projeto](/dynamicsax-2012/appuser-itpro/create-a-project), use este procedimento para criar e enviar o orçamento.
 
-Quando você cria um orçamento do projeto, você pode inserir receitas e custos estimados para um projeto e, em seguida, usá-los para controlar as transações reais do projeto. No orçamento do projeto, todos os orçamentos originais e revisões devem ser enviados ao fluxo de trabalho do projeto para aprovação. O fluxo de trabalho oferece maior controle sobre o processo e cria um registro de histórico de alteração.
-
-Essa tarefa foi criada usando o conjunto de dados de USSI.
-
-1. No **Painel de navegação**, acesse **Módulos > Gerenciamento e contabilidade do projeto > Projetos > Todos os projetos**.
-2. Na lista, localize e selecione o PDV desejado.
-3. Na lista, clique no link na linha selecionada.
-4. No **Painel de Ação**, clique em **Plano**.
-5. Clique em **Orçamento do projeto**.
-6. No campo **Descrição**, digite um valor.
-7. Expanda a Guia Rápida **Custo**.
-8. Clique em **Novo**.
-9. No campo **Tipo de transação**, selecione uma opção.
-10. No campo **Categoria**, insira ou selecione um valor.
-11. No campo **Orçamento original**, insira um número.
-12. Expanda a Guia Rápida **Receitas**.
-13. Clique em **Novo**.
-14. Na lista, marque a linha selecionada.
-15. No campo **Tipo de transação**, selecione uma opção.
-16. No campo **Categoria**, insira ou selecione um valor.
-17. No campo **Orçamento original**, insira um número.
-18. Clique em **Salvar**.
-19. Clique em **Fluxo de trabalho**.
-20. Clique em **Enviar**.
-21. No campo **Comentário**, digite um valor.
-22. Clique em **Enviar**.
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+1. Vá para **Módulos** > **Gerenciamento e contabilidade do projeto** > **Projetos** > **Todos os projetos**.
+1. Na lista de projetos, selecione o projeto.
+1. Na página detalhes do projeto, selecione a guia **Plano**.
+1. No grupo de **Orçamento**, selecione **Orçamento do projeto**.
+1. Na Guia Rápida **Geral**, insira as seguintes informações:
+   - Na caixa **Descrição**, digite um valor.
+   - Selecione a opção para o **Orçamento original**.
+   - Selecione a opção para o **Orçamento restante**.
+1. Expanda a FastTab **Custos** e selecione **Novo**. Em seguida, defina as seguintes configurações:
+   - Selecione uma opção para **Tipo de transação**.
+   - Selecione uma **Categoria** apropriada.
+   - Insira um valor no **Orçamento original**.
+1. Expanda a FastTab **Receitas** e selecione **Novo**. Em seguida, defina as seguintes configurações:
+   - Selecione uma opção para **Tipo de transação**.
+   - Selecione uma **Categoria**.
+   - Insira um valor para **Orçamento original**.
+1. Selecione **Salvar**.
+1. Selecione **Fluxo de trabalho \> Enviar**.
+1. Na página **Revisar fluxo de trabalho de orçamento original - Enviar**, informe um **Comentário** e selecione **Enviar**.

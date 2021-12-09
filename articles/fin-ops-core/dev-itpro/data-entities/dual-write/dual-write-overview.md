@@ -10,12 +10,12 @@ ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 69abd2b6d4026ef1b5b85d52c561bb060cf82123
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781455"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817352"
 ---
 # <a name="dual-write-overview"></a>Visão geral da gravação dupla
 
@@ -68,11 +68,7 @@ A gravação dupla cria um mapeamento entre conceitos em aplicativos do Finance 
 + Capacidade de procurar disponibilidade e detalhes de estoque disponíveis
 + Experiência de projeto com pagamento à vista
 + Capacidade de lidar com vários endereços e funções por meio do conceito de participante
-+ Gerenciamento de fonte única para usuários
-+ Canais integrados de varejo e marketing
-+ Visibilidade de promoções e descontos
-+ Funções de solicitação de serviço
-+ Operações de serviço simplificadas
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>Principais motivos para usar a gravação dupla
 

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641151"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813714"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -290,7 +290,8 @@ A seguinte tabela resume quais cenários de produção do gerenciamento de depó
 |---------|-----|------------------------------|
 | Relatar como finalizado e guardar mercadorias finalizadas | Sim | Sim |
 | Armazenamento de coproduto e subproduto | Sim | Sim |
-| <p>Todos os outros processos do gerenciamento de depósito que são relacionados à produção, incluindo:</p><li>Liberar para o depósito</li><li>Processamento de ciclos de produção</li><li>Separação de matéria-prima</li><li>Armazenamento kanban</li><li>Separação kanban</li><li>Começar ordem de produção</li><li>Sucata de produção</li><li>Último palete de produção</li><li>Registrar consumo de materiais</li><li>Kanban vazio</li></ul> | Sim | Não |
+| Começar ordem de produção | Sim | Sim |
+| <p>Todos os outros processos do gerenciamento de depósito que são relacionados à produção, incluindo:</p><li>Liberar para o depósito</li><li>Processamento de ciclos de produção</li><li>Separação de matéria-prima</li><li>Armazenamento kanban</li><li>Separação kanban</li><li>Sucata de produção</li><li>Último palete de produção</li><li>Registrar consumo de materiais</li><li>Kanban vazio</li></ul> | Sim | Não |
 | Reabastecimento de matéria-prima | Não | Não |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Manter unidades de escala para execução de depósito

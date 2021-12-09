@@ -2,7 +2,7 @@
 title: Configurar Mensagens eletrônicas
 description: Este tópico fornece informações sobre como configurar a funcionalidade Mensagens eletrônicas (EM).
 author: liza-golub
-ms.date: 07/07/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2b62efabfae26a6cc004604e687a49bce992d78a30f0d441aa74fa5cde70e063
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752166"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860549"
 ---
 # <a name="set-up-electronic-messages"></a>Configurar Mensagens eletrônicas
 
@@ -34,6 +34,7 @@ Se não importar um pacote de entidades de dados, você poderá configurar a fun
 - [Campos adicionais](#additional)
 - [Configurações de classe executável](#executable)
 - [Ações de preencher registros](#populate)
+- [Preencher registros de várias empresas](#multiple-companies-populate)
 - [Aplicativos Web](#applications)
 - [Configurações de serviço Web](#settings)
 - [Ações de processamento de mensagens](#actions)
@@ -139,6 +140,38 @@ Na FastTab **Configuração de fontes de dados**, adicione uma linha para cada f
 | Empresa                | Esse campo está disponível quando o recurso **Consultas interempresariais para ações de preencher registros** está ativado no espaço de trabalho **Gerenciamento de recursos**. Use este recurso para configurar fontes de dados entre empresas para as ações de preencher registros. Os dados podem ser obtidos de várias empresas. |
 | Consulta do usuário             | <p>Se você configurar uma consulta selecionando **Editar consulta** acima da grade e especificar os critérios que devem ser aplicados à tabela mestra selecionada da qual os dados são preenchidos, esta caixa de seleção será marcada automaticamente. Caso contrário, todos os registros serão preenchidos a partir da tabela mestra selecionada.</p><p>Quando o recurso **Consultas interempresariais para ações de preencher registros** está ativado no espaço de trabalho **Gerenciamento de recursos** e os registros devem ser coletados de várias empresas, adicione uma linha para cada entidade legal adicional que deve ser incluída no relatório. Para cada nova linha, selecione **Editar consulta** e especifique um critério relacionado que seja específico para a entidade legal especificada no campo **Empresa** na linha. Quando terminar, a grade de **Configuração de fontes de dados** conterá linhas para todas as entidades legais que devem ser incluídas no relatório.</p> |
 
+## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a>Preencher registros de várias empresas
+
+Se a sua empresa dever relatar várias pessoas jurídicas no mesmo banco de dados de Finanças, configure a opção [preencher ações de registros](#populate) para todas as pessoas jurídicas das quais os dados devem ser incluídos no relatório.
+
+Para habilitar esta capacidade no ambiente de Finanças, siga estas etapas. 
+
+1. Acesse **Espaços de trabalho** \> **Gerenciamento de recursos**.
+2. Localize e selecione as **Consultas interempresariais para o recurso de ações de preencher registros** na lista.
+3. Selecione **Habilitar agora**. 
+
+Para configurar as ações de [preencher registros](#populate) para várias empresas das quais os dados devem ser incluídos no relatório, siga estas etapas.
+
+1. Acesse **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Ações de preencher registros**.
+
+    Quando o recurso **Consultas interempresariais para as ações de preencher registros** está habilitada, a grade de **Configuração de fontes de dados** na página **Ação de preencher registros** inclui um campo **Empresa**. Para os registros existentes que foram criados durante a configuração geral das [ações de preencher registros](#populate), este campo mostra o identificador da entidade legal atual.
+
+2. Na grade **Configuração de fontes de dados**, adicione uma linha para cada entidade legal da subsidiária que deve ser incluída no relatório e defina os campos a seguir.
+
+    | Nome do campo             | Valor |
+    |------------------------|-------|
+    | Nome                   | Insira um texto que o ajudará a compreender a origem deste registro. Por exemplo, insira um **Nome para a fonte de dados - Subsidiária 1**. |
+    | Tipo de item de mensagem      | Selecione o tipo de item de mensagem necessário para o processamento de EM. |
+    | Tipo de conta           | Especifique o tipo de conta necessário para o processamento de EM. Se o processamento de EM não tiver tipos de conta específicos, selecione **Todos**. |
+    | Nome da tabela mestra      | Especifique o nome da tabela mestra necessária para o processamento de EM. |
+    | Campo de número do documento  | Especifique o campo que contém o número do documento em registros de seu processamento de EM. |
+    | Campo de data do documento    | Especifique o campo que contém a data do documento em registros de seu processamento de EM. |
+    | Campo de conta do documento | Especifique o campo que contém a conta do documento em registros de seu processamento de EM. |
+    | Empresa                | Selecione o ID da entidade legal da subsidiária. |
+    | Consulta do usuário             | Esta caixa de seleção é selecionada automaticamente quando você define critérios selecionando **Editar consulta**. |
+
+3. Para cada nova linha, selecione **Editar consulta** e especifique os critérios relacionados para a entidade legal especificada no campo **Empresa** na linha.
+
 ## <a name="web-applications"></a><a id="applications"></a>Aplicativos Web
 
 Use configurações de aplicativo Web para configurar um aplicativo Web de modo que ele ofereça suporte ao Open Authorization (OAuth) 2.0. OAuth é o padrão aberto que permite que os usuários concedam "acesso delegado seguro" ao aplicativo em seu nome, sem compartilhar as credenciais de acesso. Você também pode passar pelo processo de autorização obtendo um código de autorização e um token de acesso. É possível definir configurações de aplicativo Web acessando **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Aplicativos Web**.
@@ -214,6 +247,7 @@ As tabelas a seguir descrevem os campos da página **Ações de processamento de
 | Classe executável                          | Selecione uma configuração de classe executável existente. Este campo só está disponível para ações dos tipos **Nível de execução de item de mensagem** e **Nível de execução de item de mensagem** . |
 | Ação de preencher registros                   | Selecione uma ação de preencher registros existente. Esse campo só está disponível para ações do tipo **Preencher registros**. |
 | Serviço Web                               | Selecione um serviço Web existente. Esse campo só está disponível para ações do tipo **Serviço Web**. |
+| Nome do arquivo a ser enviado                         | Insira o nome do anexo para uma mensagem eletrônica que deve ser enviada por esta ação. Se vários anexos tiverem o mesmo nome de arquivo original, o mais recente será enviado. Se não for encontrado nenhum anexo com o nome de arquivo original especificado, a solicitação será enviada sem conteúdo. Esse campo só está disponível para ações do tipo **Serviço Web**. |
 | Nome do arquivo                                 | Especifique o nome do arquivo que será o resultado da ação. Esse arquivo pode ser a resposta do servidor Web ou o relatório que é gerado. Este campo só está disponível para ações dos tipos **Serviço Web** e **Mensagem de exportação de relatório eletrônico**. |
 | Anexar arquivos a documentos de origem          | Marque esta caixa de seleção para anexar os arquivos gerados aos registros em uma tabela mestra referenciada para itens de EM. Este campo só está disponível para ações dos tipos **Exportação de relatório eletrônico** e **Serviço Web**. |
 | Anexar arquivos do arquivo morto de saída aos itens | Marque esta caixa de seleção para extrair arquivos XML separados do arquivo de saída e anexá-los aos itens de mensagem eletrônica correspondentes. Este campo só está disponível para ações do tipo **Exportação de relatório eletrônico**. |
