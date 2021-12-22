@@ -2,7 +2,7 @@
 title: Configuração do reconhecimento de receita
 description: Este tópico descreve as opções de configuração para o reconhecimento de receita e as implicações referentes a elas.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675169"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867211"
 ---
 # <a name="revenue-recognition-setup"></a>Configuração do reconhecimento de receita
 [!include [banner](../includes/banner.md)]
@@ -61,11 +61,11 @@ O primeiro ocorre após todas as obrigações contratuais terem sido atendidas, 
 
 O segundo cenário ocorre quando um diário é criado após a realocação. A realocação ocorre quando uma linha da ordem de venda é adicionada a uma ordem de venda faturada anteriormente, ou quando uma nova ordem de venda é criada e inclui uma linha que faça parte do contrato original. Se uma fatura for lançada antes que a nova linha de ordem de venda seja adicionada, uma entrada contábil de correção deve ser criada para a fatura de cliente lançada.
 
-O diário é configurado na página **Nomes de diários** (**Reconhecimento de receita \> Configuração \> Nomes de diários**). O tipo de diário deve ser definido como **Reconhecimento de receita**. O diário de reconhecimento de receita permite selecionar o nível de lançamento.
+O diário é configurado na página **Nomes de diários** (**Reconhecimento de receita \> Configuração \> Nomes de diários**). O tipo de diário deve ser definido como **Reconhecimento de receita**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Parâmetros para o reconhecimento de receita
 
-As configurações de reconhecimento de receita são configuradas na guia **Reconhecimento de receita** da página **Parâmetros de contabilidade** (**Reconhecimento de receita \> Configuração \> Parâmetros de contabilidade**). As seguintes configurações estão disponíveis:
+As configurações de reconhecimento de receita são definidas na guia **Reconhecimento de receita** da página **Parâmetros de contabilidade** (**Reconhecimento de receita \> Configuração \> Parâmetros de contabilidade**). As seguintes configurações estão disponíveis:
 
 - **Nome do diário de reconhecimento de receita** — Selecione o diário que foi criado para o reconhecimento de receita. O diário é necessário quando a receita é reconhecida na agenda de receita, ou quando você faz a realocação para uma ordem de venda que foi faturada anteriormente.
 - **Habilitar o método de alocação de desconto** — Defina essa opção como **Sim** para determinar o preço de receita através da alocação do valor de mercado justo definido no preço de receita para cada produto liberado. Essa alocação inclui a alocação das linhas de descontos para os itens. Se essa opção for definida como **Não**, o sistema usará o preço médio definido no preço de receita para cada produto liberado. Se essa opção estiver definida como **Não**, mas nenhum preço médio estiver configurado para os produtos lançados, a alocação do preço de receita não ocorre.

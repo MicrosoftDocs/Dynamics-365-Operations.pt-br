@@ -92,7 +92,9 @@
                   items:
                     - name: Novidades ou alterações na home page do Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: Commerce 10.0.24 (fevereiro de 2022)
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: Commerce 10.0.23 (janeiro de 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (novembro de 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,6 +546,8 @@
                       href: duplicate-payment-protection.md
                     - name: Visão geral de pagamentos de omnicanal
                       href: omni-channel-payments.md
+                    - name: Várias formas de pagamento disponíveis para retirada na loja
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Pagamentos de ordens de omnicanal do Commerce
                       href: dev-itpro/commerce-payments.md
                     - name: Arquivar dados de transações de cartão de crédito
@@ -814,6 +818,10 @@
           items:
             - name: Gerenciamento de clientes nas lojas
               href: customer-mgmt-stores.md
+            - name: Modo de criação de cliente assíncrono
+              href: async-customer-mode.md
+            - name: Converter clientes assíncronos em clientes síncronos
+              href: convert-async-to-sync.md
             - name: Clientes
               items:
                 - name: Visão geral de clientes
@@ -1330,7 +1338,9 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Lançar notas fiscais brasileiras via demonstrativos de varejo no Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
-                - name: Dynamics 365 Payment Connector para Adyen no PDV do Commerce para o Brasil
+                - name: Nota fiscal CF-e e integração com a funcionalidade SAT no Commerce POS para o Brasil
+                  href: localizations/latam-bra-cf-e-sat.md
+                - name: Dynamics 365 Payment Connector para Adyen no Commerce POS para o Brasil
                   href: localizations/latam-bra-adyen.md
             - name: Europa Oriental
               items:
@@ -1378,8 +1388,10 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Suporte para upgrade e N-1 para a Índia
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: Gerar códigos QR e imprimi-los nos recibos
+                - name: Gerar códigos QR e imprimi-los nos recibos para a Índia
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: Integração de impostos sobre bens e serviços (GST) para sites de comércio eletrônico
+                  href: localizations/apac-ind-e-commerce.md
             - name: Itália
               items:
                 - name: Exemplo de integração da impressora fiscal para a Itália
@@ -1616,6 +1628,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
                     - name: List
                       items:
                         - name: Funções de listagem
