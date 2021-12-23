@@ -2,7 +2,7 @@
 title: Habilitar pesquisa de dados mestres para configuração de cálculo de imposto
 description: Este tópico explica como configurar e habilitar o recurso de pesquisa de dados mestres do cálculo de imposto.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749501"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867343"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Habilitar pesquisa de dados mestres para configuração de cálculo de imposto 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar e habilitar o recurso de pesquisa de dados mestres do cálculo de imposto. Uma lista suspensa está disponível para selecionar valores na configuração de cálculo de imposto para campos como **Conta de Fornecedor**, **Código do item** e **Prazo de entrega**. Esses valores são provenientes do ambiente conectado do Microsoft Dynamics 365 Finance usando a fonte de dados do Microsoft Dataverse.
+Este tópico explica como configurar e habilitar o recurso de pesquisa de dados mestres do cálculo de imposto. Uma lista suspensa está disponível para selecionar valores na configuração do cálculo de imposto para campos como **Entidade legal**, **Conta de fornecedor**, **Código do item** e **Prazo de entrega**. Esses valores são provenientes do ambiente conectado do Microsoft Dynamics 365 Finance usando a fonte de dados do Microsoft Dataverse.
+
+> [!NOTE] 
+> A funcionalidade de pesquisa de dados mestres do cálculo de imposto é opcional. É possível ignorar as etapas a seguir se você desabilitar o recurso **Suporte à fonte de dados do Serviço de Imposto do Dataverse** no RCS (Regulatory Configuration Service). No entanto, nesse caso, a lista suspensa não estará disponível na configuração de cálculo de imposto.
 
 1. Configure a integração do Microsoft Power Platform ao Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações, consulte [Integração do Microsoft Power Platform — Visão geral dos suplementos](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Depois de concluir esta etapa, o nome de um ambiente do Microsoft Power Platform será exibido na seção **Integração do Power Platform**.
 2. Vá para o [centro de administração do Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) e selecione o nome do ambiente. A URL do ambiente foi fornecida.

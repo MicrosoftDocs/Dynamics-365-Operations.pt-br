@@ -2,7 +2,7 @@
 title: Instalar o tema da Adventure Works
 description: Este tópico descreve como instalar o tema Adventure Works no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763827"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913693"
 ---
 # <a name="install-the-adventure-works-theme"></a>Instalar o tema da Adventure Works
 
@@ -32,7 +32,7 @@ Este tópico descreve como instalar o tema Adventure Works no Microsoft Dynamics
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de instalar o tema Adventure Works, é necessário ter um ambiente do Dynamics 365 Commerce (Commerce versão 10.0.20 ou posterior) que inclui o Retail Cloud Scale Unit (RCSU), o kit de desenvolvimento de software (SDK) online para o Commerce e a biblioteca de módulos do Commerce. Para obter informações sobre como instalar o SDK e a biblioteca de módulos do Commerce, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md). 
+Antes de instalar o tema Adventure Works, é necessário ter um ambiente do Dynamics 365 Commerce (Commerce versão 10.0.20 ou posterior) que inclui o Retail Cloud Scale Unit (RCSU), o kit de desenvolvimento de software (SDK) online para o Commerce e a biblioteca de módulos do Commerce. Para obter informações sobre como instalar o SDK e a biblioteca de módulos do Commerce, consulte [Configurar um ambiente de desenvolvimento](e-commerce-extensibility/setup-dev-environment.md). 
 
 ## <a name="installation-steps"></a>Etapas de instalação
 
@@ -48,11 +48,19 @@ O pacote de temas Adventure Works está disponível no feed **dynamics365-commer
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Para instalar o pacote no seu ambiente local, execute o comando a seguir no prompt de comando. Este comando atualiza automaticamente o arquivo package.json de forma que inclua a dependência.
+Para instalar o pacote no seu ambiente local, execute o comando `yarn add THEME_PACKAGE@VERSION` no prompt de comando, em que **THEME_PACKAGE** é o pacote de tema (@msdyn365-commerce-theme/adventureworks-theme-kit) e **VERSION** é o número de versão da biblioteca de módulos que está sendo usada. É importante que as versões do pacote de tema e da biblioteca de módulos sejam correspondentes. Para encontrar o número de versão correto da biblioteca de módulos a ser usada, abra o arquivo package.json e localize o valor **starter-pack** na seção **dependências**. No exemplo a seguir, o arquivo package.json usa a versão 9.32 da biblioteca de módulos que é mapeada para a versão 10.0.22 do Dynamics 365 Commerce.  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-No arquivo **package.json**, é necessário atualizar a versão do tema para uma versão específica.
+O exemplo a seguir mostra como executar o comando `yarn add` para adicionar a versão 9.32 do tema Adventure Works. O comando atualiza automaticamente o arquivo package.json de forma que inclua a dependência.
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+Para obter mais informações sobre como atualizar a versão da biblioteca de módulos, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md). 
 
 > [!IMPORTANT]
 > - A versão do tema deve corresponder à versão da biblioteca do módulo para garantir que todos os recursos funcionem conforme o esperado. 

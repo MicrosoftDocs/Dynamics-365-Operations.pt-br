@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605420"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903241"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Falha no lançamento do diário devido ao desequilíbrio
 
@@ -52,13 +52,13 @@ Em um cenário com suporte, um comprovante pode ter mais de uma moeda de transa�
 
 Se todas as linhas de um comprovante tiverem a mesma moeda de transação e se os valores da moeda da transação estiverem equilibrados, o sistema verificará se os valores da moeda contábil estão equilibrados. Se o comprovante for inserido em uma moeda estrangeira, a taxa de câmbio nas linhas do comprovante será usada para converter os valores da moeda da transação para a moeda contábil. Primeiro, cada linha do comprovante é traduzida e arredondada para duas casas decimais. Em seguida, as linhas são somadas para determinar os débitos totais e os créditos totais. Como cada linha é traduzida, os débitos totais e os créditos totais podem não ser equilibrados. No entanto, se o valor absoluto da diferença estiver dentro do valor de **Diferença de centavos máxima** definido na página **Parâmetros da contabilidade**, o comprovante será lançado, e a diferença será lançada automaticamente na conta de Diferença de centavos.
 
-Se o comprovante tiver mais de uma moeda de transação, cada linha do comprovante será convertida para a moeda contábil e arredondado para duas casas decimais, e as linhas serão somadas para determinar o total de débitos e créditos. Para serem considerados equilibrados, os débitos e os créditos devem ser equilibrados, seja como traduzidos ou quando a diferença de arredondamento da moeda contábil é incluída.
+Se o comprovante tiver mais de uma moeda de transação, cada linha do comprovante será convertida para a moeda contábil e arredondado para duas casas decimais, e as linhas serão somadas para determinar o total de débitos e créditos. Para serem considerados balanceados, os débitos e os créditos devem ser equilibrados na moeda contábil.  Para equilibrar os débitos e créditos, diferenças mínimas nunca são adicionadas ao comprovante na moeda contábil. 
 
 ### <a name="reporting-currency"></a>Moeda de relatório
 
 Se todas as linhas de um comprovante tiverem a mesma moeda de transação e se os valores da moeda da transação estiverem equilibrados, o sistema verificará se os valores da moeda de relatório estão equilibrados. Se o comprovante for inserido em uma moeda estrangeira, a taxa de câmbio nas linhas do comprovante será usada para converter os valores da moeda da transação para a moeda de relatório. Primeiro, cada linha do comprovante é traduzida e arredondada para duas casas decimais. Em seguida, as linhas são somadas para determinar os débitos totais e os créditos totais. Como cada linha é traduzida, os débitos totais e os créditos totais podem não ser equilibrados. No entanto, se a diferença estiver dentro do valor de **Arredondamento máximo de centavos na moeda de relatório** definido na página **Parâmetros da contabilidade**, o comprovante será lançado, e a diferença será lançada automaticamente na conta de Diferença de centavos.
 
-Se o comprovante tiver mais de uma moeda de transação, cada linha do comprovante será convertida para a moeda de relatório e arredondado para duas casas decimais, e as linhas serão somadas para determinar o total de débitos e créditos. Para serem considerados equilibrados, os débitos e os créditos devem ser equilibrados, seja como traduzidos ou quando a diferença de arredondamento da moeda de relatório é incluída.
+Se o comprovante tiver mais de uma moeda de transação, cada linha do comprovante será convertida para a moeda de relatório e arredondado para duas casas decimais, e as linhas serão somadas para determinar o total de débitos e créditos. Para serem considerados balanceados, os débitos e os créditos devem ser equilibrados na moeda de relatório.  Para equilibrar os débitos e créditos, diferenças mínimas nunca são adicionadas ao comprovante na moeda de relatório.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Exemplo de desequilíbrio de moeda contábil
 

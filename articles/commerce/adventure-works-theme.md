@@ -2,7 +2,7 @@
 title: Visão geral do tema Adventure Works
 description: Este tópico fornece uma visão geral do tema Adventure Works e descreve como aplicá-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5bade39b1b327a0784272669ce074d9762a318c2cad6d4105f0d186c91d2593f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9065860555cd07f6bacbdf7c8bd7892a3f2e1b89
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733219"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891538"
 ---
 # <a name="adventure-works-theme-overview"></a>Visão geral do tema Adventure Works
 

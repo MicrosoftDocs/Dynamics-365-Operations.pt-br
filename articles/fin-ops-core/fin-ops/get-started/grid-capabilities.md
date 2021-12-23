@@ -2,7 +2,7 @@
 title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. É necessário habilitar o novo recurso de grade para ter acesso a esses recursos.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700128"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890847"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -119,6 +119,9 @@ Da mesma forma que você pode selecionar (ou cancelar) todas as linhas na grade,
 
 ### <a name="hiding-column-names"></a>Ocultar nomes de coluna
 Ao agrupar dados, o comportamento padrão é mostrar o nome da coluna na linha de cabeçalho do grupo. Você pode optar por suprimir o nome da coluna em linhas do cabeçalho de grupo, selecionando **Opções de grade** > **Ocultar nome da coluna do grupo**.
+
+### <a name="grouping-on-date-and-time-columns"></a>Agrupamento em colunas de data e hora
+A partir da versão 10.0.24, para os campos Data ou DateTime, a opção foi adicionada para agrupar por Ano, Mês ou Dia. O grupo "valor", na linha de cabeçalho correspondente, corresponderá ao formato desse campo. Além disso, para os campos DateTime e Hora, você poderá agrupar por Hora, Minuto ou Segundo.    
 
 ## <a name="freezing-columns"></a>Congelar colunas
 Algumas colunas em uma grade podem ser tão importantes para o contexto que você não quer que elas saiam de vista conforme a rolagem. Mas, talvez deseje que os valores dessas colunas fiquem sempre visíveis. O recurso **Congelar colunas na grade** oferece essa flexibilidade aos usuários. 

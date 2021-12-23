@@ -2,7 +2,7 @@
 title: Visão geral de controle de orçamento
 description: Este tópico apresenta um recurso de controle de orçamento e oferece informações para ajudar você a configurar o controle de orçamento para otimizar o gerenciamento dos recursos financeiros da organização.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772870"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890691"
 ---
 # <a name="budget-control-overview"></a>Visão geral de controle de orçamento
 
@@ -78,9 +78,7 @@ Em seguida, na guia **Permissões de orçamento excedido**, você pode especific
 Em seguida, na guia **Fundos disponíveis de orçamento**, você pode definir a fórmula usada para calcular de orçamento de fundos disponíveis. Com base no nível de conservadorismo com que uma organização gerencia os recursos financeiros, ou considerando as regulamentações ou os requisitos do setor, o cálculo pode incluir documentos de rascunho ou não lançados. 
 
 > [!NOTE]
-> Se esse cálculo for alterado durante um ciclo orçamentário, os documentos que porventura tenham passado em verificações de controle de orçamento e sido lançados ou concluídos, permanecerão nesse estado. Na versão 10.0.17 do aplicativo, um novo recurso de **Rastrear valores apenas em fundos de orçamento disponíveis para cálculo** foi disponibilizado para clientes limitados. Esse recurso permite que você altere os dados que são rastreados nas tabelas BudgetSourceTracking. Quando o recurso está ativado, os valores são armazenados apenas se forem selecionados para serem usados no cálculo de fundos de orçamento disponíveis. Para solicitar que o recurso de **Rastrear valores apenas de fundos de orçamento disponíveis para cálculo** seja habilitado, entre em contato com o suporte. 
-
-### <a name="documents-and-journals"></a>Documentos e diários
+> Se esse cálculo for alterado durante um ciclo orçamentário, os documentos que porventura tenham passado em verificações de controle de orçamento e sido lançados ou concluídos permanecerão nesse estado. Um recurso chamado **Rastrear valores apenas de fundos de orçamento disponíveis para cálculo** permite alterar quais dados são rastreados nas tabelas BudgetSourceTracking. Quando o recurso está ativado, os valores são armazenados apenas se forem selecionados para serem usados no cálculo de fundos de orçamento disponíveis. Para obter mais informações, consulte [Fundos de orçamentos disponíveis](budget-funds-available.md).
 
 Em seguida, na guia **Documentos e diários**, você pode selecionar quais documentos de origem e diários estarão sujeitos a verificações de controle de orçamento, e se a verificação ocorrerá na entrada de linha ou para o documento inteiro. 
 

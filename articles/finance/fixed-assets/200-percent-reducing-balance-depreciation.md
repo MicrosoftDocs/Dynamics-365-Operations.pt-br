@@ -1,7 +1,7 @@
 ---
 title: Depreciação com declínio de 200%
-description: Este artigo oferece uma visão geral do método de saldo de reduzem de 200 de porcentagem de depreciação.
-author: saraschi2
+description: Este tópico apresenta uma visão geral do método de depreciação de redução de 200% do saldo.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f7d821dbd6603eba7a228e5caa6def6d783e4774c72687839bd198f4e228633
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766995"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883484"
 ---
-# <a name="200-percent-reducing-balance-depreciation"></a>depreciação com declínio de 200%
+# <a name="200-percent-reducing-balance-depreciation"></a>Depreciação com declínio de 200%
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo oferece uma visão geral do método de saldo de reduzem de 200 de porcentagem de depreciação.
+Este tópico apresenta uma visão geral do método de depreciação de redução de 200% do saldo.
 
 Ao configurar um perfil de depreciação de ativos fixos e selecionar **declínio de 200%** no campo **Método** na página **Perfis de depreciação**, os ativos fixos que são atribuídos ao perfil de depreciação são depreciados pela mesma porcentagem em cada período de depreciação. A porcentagem é calculada com base na vida útil do ativo. Por exemplo, se um ativo tiver uma vida útil de cinco anos, será calculada uma porcentagem de 40% (200%/5). 
 

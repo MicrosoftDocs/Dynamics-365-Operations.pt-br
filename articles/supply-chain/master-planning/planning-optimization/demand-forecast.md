@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474835"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867238"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planejamento mestre com previsões de demanda
 
@@ -88,7 +88,7 @@ Para incluir uma previsão em um plano mestre e selecionar o método usado para 
 
 - Nenhuma
 - Percentual – chave de redução
-- Transações – chave de redução (ainda não há suporte com Otimização de Planejamento)
+- Transações – chave de redução
 - Transações – período dinâmico
 
 As próximas seções fornecem mais informações sobre cada opção.

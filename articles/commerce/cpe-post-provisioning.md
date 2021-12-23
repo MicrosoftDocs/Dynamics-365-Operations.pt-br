@@ -2,7 +2,7 @@
 title: Configurar um ambiente de avaliação do Dynamics 365 Commerce
 description: Este tópico explica como configurar um ambiente de avaliação do Microsoft Dynamics 365 Commerce após ter sido provisionado.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416470"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913718"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurar um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -39,6 +39,7 @@ Depois que o ambiente de avaliação do Commerce for provisionado de ponta a pon
 1. Selecione seu ambiente na lista.
 1. Nas informações sobre o ambiente à direita, selecione **Fazer logon no ambiente**. Você será direcionado para a sede do Commerce.
 1. Verifique se a entidade legal **USRT** está selecionada no canto superior direito.
+2. Acesse **Parâmetros do Commerce > Parâmetros de configuração** e verifique se há uma entrada para **ProductSearch.UseAzureSearch** definida como **true**. Se essa entrada estiver ausente, você poderá adicioná-la e executar **Banco de dados do canal > Sincronização total** do Commerce Scale Unit associado ao site de comércio eletrônico.
 
 Durante as atividades de pós-provisionamento na sede do Commerce, garanta que a entidade legal **USRT** esteja sempre selecionada.
 
@@ -105,6 +106,12 @@ Para habilitar trabalhos no Commerce, siga estas etapas.
     1. Selecione o registro.
     1. No Painel de Ação, na guia **Trabalho em lotes**, selecione **Alterar status**.
     1. Selecione **Cancelar** e, em seguida, selecione **OK**.
+
+1. Se o status do trabalho for **Retido**, siga estas etapas:
+
+    1. Selecione o registro.
+    1. No Painel de Ação, na guia **Trabalho em lotes**, selecione **Alterar status**.
+    1. Selecione **Aguardando** e, depois, **OK**.
 
 Opcionalmente, você também pode definir o intervalo de recorrência como um (1) minuto para os seguintes trabalhos:
 

@@ -2,7 +2,7 @@
 title: Visão geral de Relatório eletrônico (ER)
 description: Este tópico oferece uma visão geral da ferramenta ER. Ele descreve os principais conceitos, os cenários com suporte e os formatos que fazem parte da solução.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562167"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867269"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visão geral de Relatório eletrônico (ER)
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562167"
 
 Este tópico oferece uma visão geral da ferramenta ER (Relatório eletrônico). Ele inclui informações sobre os principais conceitos, os cenários com suporte do ER e uma lista de formatos projetados e liberados como parte da solução ER.
 
-O ER é uma ferramenta que você pode usar para configurar formatos de documentos eletrônicos de entrada e de saída de acordo com os requisitos legais de vários países/regiões. ER permite que você gerencie esses formatos durante seu ciclo de vida. Por exemplo, você pode adotar novos requisitos normativos e gerar documentos de negócios no formato exigido para trocar informações, eletronicamente, com outras pessoas, bancos e órgãos do governo.
+O ER é uma ferramenta configurável que ajuda a criar e a manter pagamentos e relatórios eletrônicos regulatórios. Ele se baseia nos três conceitos a seguir:
+
+- Configuração em vez de codificação:
+
+    - A configuração pode ser feita por um usuário comercial e não exige um desenvolvedor.
+    - O modelo de dados é definido em termos comerciais.
+    - Os editores visuais são usados para criar todos os componentes da configuração de ER.
+    - O idioma usado para a transformação de dados é semelhante ao idioma usado no Microsoft Excel.
+
+- Uma configuração para várias versões do Dynamics 365 Finance:
+
+    - Gerencie um modelo de dados específico de domínio definido em termos comerciais.
+    - Isole os detalhes da versão do aplicativo em mapeamentos de modelos de dados dependentes de versão.
+    - Manter uma configuração de formato para vários lançamentos da versão atual, com base no modelo de dados.
+
+- Atualização fácil ou automática:
+
+    - O controle de versão de configurações de ER é compatível.
+    - A biblioteca de ativos do Microsoft Dynamics Lifecycle Services (LCS) pode ser usada como um repositório para configurações de ER, para a troca de versão.
+    - As localizações baseadas nas configurações originais de ER podem ser introduzidas como versões filhas.
+    - Uma árvore de configuração de ER é fornecida como uma ferramenta que ajuda a controlar dependências para versões.
+    - As diferenças na localização ou na configuração delta são registradas para habilitar a atualização automática para uma nova versão da configuração original de ER.
+    - É fácil resolver manualmente conflitos descobertos durante a atualização automática de versões de localização.
+
+O ER permite definir estruturas em formato eletrônico e descrever como as estruturas devem ser preenchidas usando dados e algoritmos. Você pode usar um idioma de fórmula semelhante ao da linguagem do Excel para transformação de dados. Para tornar o mapeamento de banco de dados para formato mais gerenciável, reutilizável e independente das alterações de formato, um conceito de modelo de dados intermediário é introduzido. Esse conceito permite que os detalhes da implementação sejam ocultados do mapeamento de formato e permite que um único modelo de dados seja reutilizado para vários mapeamentos de formato.
+
+Você pode usar ER para configurar formatos de documentos eletrônicos de entrada e de saída de acordo com os requisitos legais de vários países e regiões. ER permite que você gerencie esses formatos durante seu ciclo de vida. Por exemplo, você pode adotar novos requisitos normativos e gerar documentos de negócios no formato exigido para trocar informações, eletronicamente, com outras pessoas, bancos e órgãos do governo.
 
 O mecanismo de ER se destina a usuários de negócios e não aos desenvolvedores. Como você configura formatos, em vez de códigos, os processos de criação e ajuste de formatos para documentos eletrônicos são mais rápidos e mais fáceis.
 
-O ER atualmente suporta os formatos de planilha texto, XML, documento do Microsoft Word e OPENXML. No entanto, uma interface de extensão oferece suporte a formatos adicionais.
+O ER é compatível com os formatos de planilha TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel e OPENXML.
 
 ## <a name="capabilities"></a>Capacidades
 
@@ -48,6 +74,10 @@ O mecanismo ER tem os seguintes recursos:
 
 ## <a name="key-concepts"></a>Conceitos principais
 
+### <a name="main-data-flow"></a>Fluxo de dados principal
+
+[![Fluxo de dados principal de ER.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Componentes
 
 O ER oferece suporte aos seguintes tipos de componentes:
@@ -59,74 +89,6 @@ O ER oferece suporte aos seguintes tipos de componentes:
 
 Para obter mais informações, consulte [Componentes do Relatório eletrônico](er-overview-components.md).
 
-#### <a name="data-model-and-model-mapping-components"></a>Componentes de modelo de dados e mapeamento de modelos
-
-Um componente de modelo de dados é uma representação abstrata de uma estrutura de dados. Ele é usado para descrever uma área específica de domínio corporativo com detalhes suficientes para atender aos requisitos de relatórios para o domínio. Um componente de modelo de dados é composto pelas seguintes partes:
-
-- <a name="DataModelComponent"></a>Um modelo de dados como um conjunto de entidades comerciais específicas de domínio, bem como a definição hierarquicamente estruturada de relações entre essas entidades.
-- <a name="ModelMappingComponent"></a>Um mapeamento de modelo que liga fontes de dados selecionadas do aplicativo a elementos individuais de um modelo de dados que especifica o fluxo de dados em tempo de execução e as regras de preenchimento de dados comerciais para o componente do modelo de dados.
-
-Uma entidade comercial do modelo de dados é representada por um contêiner (registro). As propriedades da entidade comercial são representadas como itens de dados (campos). Cada item de dados tem um nome exclusivo, um rótulo, uma descrição e um valor. O valor de cada item de dados pode ser projetado para que seja reconhecido como cadeia de caracteres, inteiro, real, data, enumeração, booliano e assim por diante. Além disso, ele pode ser outro registro ou registros de lista.
-
-Um único componente de modelo de dados pode conter várias hierarquias de entidades comerciais específicas de domínio. Também pode conter mapeamentos de modelo que oferecem suporte a um fluxo de dados específico do relatório em tempo de execução. As hierarquias são diferenciadas por um único registro que foi selecionado como uma raiz de mapeamento de modelo. Por exemplo, o modelo de dados da área de domínio de pagamento pode dar suporte aos seguintes mapeamentos:
-
-- Empresa \> Fornecedor \> Transações de pagamento de domínio AP
-- Cliente \> Empresa \> Transações de pagamento de domínio AR
-
-Observe que as entidades de negócios, como transações de pagamento e de empresa, são projetadas uma vez. Mapeamentos diferentes, em seguida, reutilize-os.
-
-Um mapeamento de modelo que oferece suporte a documentos eletrônicos de saída tem os seguintes recursos:
-
-- Ele pode usar diferentes tipos de dados como fontes de dados para um modelo de dados. Por exemplo, ele pode usar tabelas, entidades de dados, métodos ou enumerações.
-- Ele suporta parâmetros de entrada do usuário que podem ser definidos como fontes para um modelo de dados quando alguns dados devem ser especificados em tempo de execução.
-- Ele oferece suporte à transformação dos dados para os grupos necessários. Também permite filtrar, classificar e somar dados, além de acrescentar, com lógica calculada, campos que são criados por meio de fórmulas que se assemelham às do Microsoft Excel. Para obter mais informações, consulte [Designer de fórmulas no ER (Relatórios eletrônicos)](general-electronic-reporting-formula-designer.md).
-
-Um mapeamento de modelo que oferece suporte a documentos eletrônicos de entrada tem os seguintes recursos:
-
-- Pode usar elementos de dados atualizáveis diferentes como metas. Esses elementos de dados incluem tabelas, entidades de dados e exibições. Os dados podem ser atualizados usando os dados dos documentos eletrônicos de entrada. Diversos destinos podem ser usados em um único mapeamento de modelo.
-- Ele suporta parâmetros de entrada do usuário que podem ser definidos como fontes para um modelo de dados quando alguns dados devem ser especificados em tempo de execução.
-
-Um componente do modelo de dados é criado para cada domínio corporativo que deve ser usado como fonte de dados unificada para relatórios que isole os relatórios da implementação física das fontes de dados. Ele representa conceitos e funcionalidades comerciais específicas de domínio de uma forma que torna o design inicial do formato de relatório e a manutenção adicional mais eficientes.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Componentes de formato para documentos eletrônicos de saída
-
-Um componente de formato é o esquema de saída do relatório que será gerado em tempo de execução. Um esquema é composto dos seguintes elementos:
-
-- Um formato que define a estrutura e o conteúdo do documento eletrônico de saída gerado em tempo de execução.
-- Fontes de dados, como um conjunto de parâmetros de entrada do usuário e um modelo de dados de domínio específico que usa um mapeamento de modelo selecionado.
-- Um mapeamento de formato, como um conjunto de associações de fontes de dados do formato, com elementos individuais de formato que especificam, em tempo de execução, o fluxo de dados e as regras de geração de saída do formato.
-- Uma validação de formato, como um conjunto de regras configuráveis que controla a geração de relatórios no tempo de execução, dependendo do contexto em execução. Por exemplo, pode haver uma regra que interrompe a geração de saída de pagamentos de um fornecedor e lança uma exceção quando os atributos específicos do fornecedor selecionado estão pendentes, como o número da conta bancária.
-
-Um componente de formato suporta as seguintes funções:
-
-- Criação de relatórios de saída como arquivos individuais em vários formatos, como texto, XML, Documento do Microsoft Word ou planilha.
-- Criação de vários arquivos separadamente e o encapsulamento desses arquivos em arquivos zip.
-
-Um componente de formato permite anexar arquivos específicos que podem ser usados na saída do relatório da seguinte maneira:
-
-- Contendo pastas de trabalho da planilha do Excel como um modelo para saídas no formato de planilha OPENXML;
-- Arquivos de Word contendo um documento que pode ser usado como modelo para saída no formato de documento do Microsoft Word
-- Os arquivos que podem ser incorporados na saída do formato como arquivos predefinidos
-
-A ilustração a seguir mostra como os dados fluem para esses formatos.
-
-[![Fluxo de dados para os componentes de formato de saída.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Para executar uma única configuração de formato ER e gerar um documento eletrônico de saída é preciso identificar o mapeamento da configuração de formato.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Componentes de formato para documentos eletrônicos de entrada
-
-Um componente de formato é o esquema do documento de entrada que é importado em tempo de execução. Um esquema é composto dos seguintes elementos:
-
-- Um formato que define a estrutura e o conteúdo do documento eletrônico de entrada que contém dados importados em tempo de execução. Um componente de formato é usado para analisar um documento de entrada em vários formatos, como texto e XML.
-- Um mapeamento de formato que vincula os elementos de formato individuais aos elementos de um modelo de dados de domínio específico. Em tempo de execução, os elementos no modelo de dados especificam o fluxo de dados e as regras para importar dados de um documento de entrada e, em seguida, armazenar os dados em um modelo de dados.
-- Uma validação de formato, como um conjunto de regras configuráveis que controla a importação de dados em tempo de execução, dependendo do contexto em execução. Por exemplo, pode haver uma regra que interrompe a importação de dados de um extrato bancário com os pagamentos do fornecedor e lança uma exceção quando os atributos de um fornecedor específico estão pendentes, como o código de identificação do fornecedor.
-
-A ilustração a seguir mostra como os dados fluem para esses formatos.
-
-[![Fluxo de dados para os componentes de formato de entrada.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Para executar uma única configuração de formato de ER para importar dados de um documento eletrônico de entrada, é preciso identificar o mapeamento desejado de uma configuração de formato, e também o ponto de integração de um mapeamento de modelo. Você pode usar o mesmo mapeamento de modelo e destinos juntamente com diferentes formatos para diferentes tipos de documentos recebidos.
 
 #### <a name="component-versioning"></a>Controle de versão em componentes
 

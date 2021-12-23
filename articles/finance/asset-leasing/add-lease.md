@@ -2,7 +2,7 @@
 title: Adicionar ou copiar arrendamentos (Versão preliminar)
 description: Este tópico descreve como criar um novo arrendamento inserindo informações sobre arrendamento de ativos ou copiando informações de um arrendamento existente.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761317"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893636"
 ---
 # <a name="add-or-copy-leases-preview"></a>Adicionar ou copiar arrendamentos (Versão preliminar)
 
@@ -35,6 +35,8 @@ Siga estas etapas para criar um arrendamento no arrendamento do ativo.
 1. Na página **Resumo de arrendamento**, no Painel de Ação, selecione **Novo**.
 2. Insira as informações sobre o arrendamento. Os campos necessários têm bordas vermelhas.
 
+> A data de início do pagamento do arrendamento não pode ser anterior à data de início do arrendamento. Se inserir uma data de início do pagamento do arrendamento que for anterior à data de início do arrendamento, você receberá uma mensagem de erro.
+  
 ## <a name="create-a-lease-schedule"></a>Crie uma agenda de arrendamento
 
 Depois de concluir a inserção das informações para o arrendamento, siga estas etapas para criar uma agenda de arrendamento.

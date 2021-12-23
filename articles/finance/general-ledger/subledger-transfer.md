@@ -2,7 +2,7 @@
 title: Transferir razão auxiliar para a contabilidade
 description: Este tópico descreve recursos que estão relacionados ao processo de transferência do razão auxiliar na contabilidade.
 author: rcarlson
-ms.date: 07/20/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 03c04a5eb8b544b582019ddd204382900b162d952842c901f69ed4a853bd8183
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716636"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900713"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transferir razão auxiliar para a contabilidade
 
@@ -39,7 +39,7 @@ Na versão 10.0.8, foram feitas melhorias para aprimorar o desempenho da opção
 
 A funcionalidade para a transferência assíncrona de lotes do razão auxiliar ajuda a melhorar a transferência de dados do razão auxiliar para a contabilidade. Ao agrupar conjuntos de transações menores e transferir as transações em grupos, a funcionalidade processa as transações com mais eficiência. Quando as transações são agrupadas, os recursos do servidor de lote são usados com mais eficiência.
 
-A transferência assíncrona de lotes do razão auxiliar requer que o servidor de lote seja configurado, esteja online e em funcionamento. Caso contrário, a opção de transferência **Assíncrona** não funcionará.
+A transferência assíncrona de lotes do razão auxiliar requer que o servidor de lote seja configurado, esteja online e em funcionamento porque as tarefas em lotes são criadas para execução imediata no servidor de lote. Quando o recurso **Transferência do razão auxiliar para a otimização do desempenho da Contabilidade** estiver habilitado, o trabalho em lotes do sistema de **Automação de processos** chamado **Trabalho de sistema de sondagem de automação do processo** também deverá estar habilitado. Para obter mais informações, consulte [Automação de processos](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 A alteração de eficiência no nível do lote usa um único trabalho em lotes recorrente para todas as entidades legais no sistema. No tempo de execução, um novo trabalho em lotes é criado para processar os registros necessários que ainda não foram transferidos. Mais configurações podem ser controladas na página **Automação de processo**, na administração do sistema. Nessa página, é possível modificar o processo em segundo plano, alterar a frequência e definir um período de suspensão.
 

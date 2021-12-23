@@ -1,5 +1,5 @@
 ---
-title: Versão preliminar do Dynamics 365 Supply Chain Management 10.0.23
+title: Versão preliminar do Dynamics 365 Supply Chain Management 10.0.23 (janeiro de 2022)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777782"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891784"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.23
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.23 (janeiro de 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,6 +26,7 @@ Este tópico lista os recursos novos ou alterados na versão preliminar da vers�
 
 - **Versão preliminar:** outubro de 2021
 - **Disponibilidade geral da versão (atualização automática):** dezembro de 2021
+- **Disponibilidade geral da versão (atualização automática):** janeiro de 2022
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
@@ -53,7 +54,8 @@ Se você quiser ativar ou desativar qualquer um desses recursos, será necessár
 | Gerenciamento de estoque e depósito | \[Rússia\] Lançar transações de estoque financeiro Storno de acordo com o sinalizador de correção no comprovante financeiro para ordens de venda | Esse recurso afeta a funcionalidade de correções de notas de crédito para a Rússia. Ele habilita o lançamento de transações de estoque para faturas de venda de acordo com a opção de correção na contabilidade. Quando esse recurso está habilitado, não há mais discrepâncias entre o sinalizador **Correção** no comprovante financeiro da transação de estoque e o sinalizador **Estorno** nas transações de estoque. |
 | Gerenciamento de estoque e depósito | (Rússia) Fazer cálculo do relatório de giro de saldo de estoque em lote | Para localizações do Supply Chain Management na Rússia, este recurso oferece a possibilidade de executar o relatório *Giro de saldo de estoque* em lote, armazená-lo e exibir os relatórios gerados anteriormente. |
 | Gerenciamento de estoque e depósito | (Rússia) Usar traduções para idioma local nos principais formulários específicos de um país ou região no Gerenciamento de estoque | Para as localizações do Supply Chain Management na Rússia, este recurso permite o uso de traduções em russo de nomes de produto/item e unidades de medida nas seguintes impressões de estoque específicas da Rússia: Lista de contagem (INV-3), Lista de contagem (INV-5) e Lista de contagem (INV-6). |
-| Compras | Limpar histórico de atualizações de ordens de compras | Esse recurso permite que você limpe registros históricos temporários relacionados a atualizações de ordens de compra. Ele adiciona um novo botão chamado **Limpar histórico de atualização de compra** ao Painel de Ações na página **Todas as ordens de compra**. Esse recurso é habilitado por padrão. |
+| Planejamento Mestre | Serviço do Azure Machine Learning para previsão de demanda. | Esse recurso permite que o Serviço do Azure Machine Learning gere previsões de demanda com base em dados históricos. Para obter mais informações, consulte [Configuração da previsão de demanda](../master-planning/demand-forecasting-setup.md). |
+| Compras | Limpar histórico de atualizações de ordens de compra | Esse recurso permite que você limpe registros históricos temporários relacionados a atualizações de ordens de compra. Ele adiciona um novo botão chamado **Limpar histórico de atualização de compra** ao Painel de Ações na página **Todas as ordens de compra**. Esse recurso é habilitado por padrão. |
 | Controle de produção | (Versão preliminar) Separação automática de materiais habilitados de depósito para listas de separação lançadas automaticamente | Este recurso permite que você separe automaticamente e resolva dimensões de estoque para diários de lista de separação derivados e de fluxo inverso lançados automaticamente. |
 | Controle de produção | Validar vencimento de matérias-primas em relação à data de consumo planejada | Este recurso altera como as datas de vencimento do lote são validadas ao reservar um lote de matéria-prima a ser usada durante a produção. Quando este recurso estiver habilitado, a data de vencimento do lote será validada em relação à data de consumo planejada (a data da matéria-prima), conforme estabelecida na linha da BOM de produção ou na linha da fórmula da ordem de lote. Quando esse recurso estiver desabilitado, a data de vencimento do lote será validada em relação à data de entrega planejada da ordem de produção ou de lote (como anteriormente). |
 | Vendas e marketing | Limpar histórico de atualizações de vendas com base na idade | Esse recurso permite definir a idade máxima dos registros a serem mantidos durante a execução da tarefa periódica **Limpeza do histórico de atualizações de vendas**. Os registros mais antigos serão excluídos. Isso é útil quando você define que a tarefa seja executada periodicamente porque a idade é sempre calculada em relação à data em que a tarefa é executada. Sem esse recurso, você só pode definir uma data específica para que os registros mais antigos sejam mantidos. |

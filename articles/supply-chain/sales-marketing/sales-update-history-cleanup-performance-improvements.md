@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3dc36c8562f39a076bd4871524e2d132d1883d28
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860708"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891759"
 ---
 # <a name="saleshistorycleanupperformanceimprovements"></a>Melhorias no desempenho de limpeza do histórico de vendas
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] 
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 <!-- KFM: Preview until GA with 10.0.24 -->
 
 O trabalho em lote periódico **Limpeza do histórico de vendas** pode demorar muito se for executada com pouca frequência em ambientes com um alto volume de atualizações de vendas. Nessas situações, o recurso *Aperfeiçoamentos de desempenho da limpeza de vendas* pode ajudar a reduzir a duração da execução e melhorar a confiabilidade.

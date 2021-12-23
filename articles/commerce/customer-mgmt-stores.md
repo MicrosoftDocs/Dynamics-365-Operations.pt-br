@@ -1,8 +1,8 @@
 ---
 title: Gerenciamento de clientes em lojas
 description: Este tópico explica como os varejistas podem habilitar os recursos de gerenciamento de clientes no ponto de venda (PDV) no Microsoft Dynamics 365 Commerce.
-author: josaw1
-ms.date: 09/01/2021
+author: gvrmohanreddy
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 395bc7049ba32c1e572730e482b81613a4873c59
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 29e45419f712e25092b473e34144ac1146e4ed9b
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675216"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913617"
 ---
 # <a name="customer-management-in-stores"></a>Gerenciamento de clientes em lojas
 
@@ -42,38 +42,13 @@ Os varejistas podem usar a página **Todas as lojas** no Commerce Headquarters (
 
 Os associados de vendas podem capturar vários endereços para um cliente. O nome e o número de telefone do cliente são herdados das informações de contato associadas a cada endereço. A Guia Rápida **Endereços** de um registro de cliente inclui um campo **Finalidade** que os associados de vendas podem editar. Se o tipo de cliente for **Pessoa**, o valor padrão será **Residência**. Se o tipo de cliente for **Organização**, o valor padrão será **Empresa**. Outros valores para os quais esse campo oferece suporte incluem: **Residência**, **Escritório** e **Caixa postal**. O valor do campo **País** para um endereço é herdado do endereço principal especificado na página **Unidade operacional** do Commerce Headquarters em **Administração da organização \> Organizações \> Unidades operacionais**.
 
-## <a name="sync-customers-and-async-customers"></a>Sincronizar clientes e clientes assíncronos
 
-> [!IMPORTANT]
-> Sempre que o PDV ficar offline, o sistema cria automaticamente os clientes de forma assíncrona, mesmo se o modo de criação de cliente Assíncrono estiver desabilitado. Portanto, independentemente da seleção entre criação de clientes Síncrona e Assíncrona, os administradores da matriz do Commerce precisam criar e programar um trabalho em lotes recorrente para o **trabalho P**, o trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono** (anteriormente denominado trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono**) e o trabalho **1010**, para que todos os clientes Assíncronos sejam convertidos para clientes Síncronos na matriz do Commerce.
-
-No Commerce, há dois modos de criação de clientes: Síncrono e Assíncrono. Por padrão, os clientes são criados de forma síncrona. Em outras palavras, eles são criados no Commerce Headquarters em tempo real. O modo Síncrono de criação de clientes é benéfico porque novos clientes são pesquisados imediatamente nos canais. No entanto, ele também tem uma desvantagem. Como ele gera chamadas do [Commerce Data Exchange: Serviço em tempo real](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) para o Commerce Headquarters, o desempenho poderá ser afetado se várias chamadas simultâneas de criação de clientes forem feitas.
-
-Se a opção **Criar cliente no modo assíncrono** estiver definida como **Sim** no perfil de funcionalidade da loja (**Varejo e Comércio \> Configuração do canal \> Configuração da loja online \> Perfis de funcionalidade**), as chamadas do Serviço em Tempo Real não são usadas para criar registros de cliente no banco de dados do canal. O modo Assíncrono de criação de clientes não afeta o desempenho do Commerce Headquarters. Um GUID (identificador global exclusivo) temporário é atribuído a cada novo registro de cliente Assíncrono e usado como a ID da conta do cliente. Esse GUID não é exibido aos usuários do PDV. Em vez disso, esses usuários verão **Sincronização pendente** como a ID da conta do cliente. 
-
-### <a name="convert-async-customers-to-sync-customers"></a>Converter clientes Assíncronos em clientes Síncronos
-
-Para converter clientes Assíncronos em clientes Síncronos, primeiro você precisará executar o **trabalho P** para enviar os clientes Assíncronos para a matriz do Commerce. Em seguida, execute o trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono** (anteriormente denominado trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono**) para criar IDs de conta de cliente. Por fim, execute o trabalho **1010** para sincronizar as novas IDs da conta de cliente para os canais.
-
-### <a name="async-customer-limitations"></a>Limitações do cliente Assíncrono
-
-No momento, a funcionalidade de cliente Assíncrono tem as seguintes limitações:
-
-- Os registros de clientes Assíncronos não podem ser editados a menos que o cliente tenha sido criado no Commerce Headquarters e a nova ID da conta do cliente tenha sido sincronizada novamente com o canal. Portanto, o endereço não poderá ser salvo para um cliente Assíncrono até que ele seja sincronizado com a matriz do Commerce, porque a adição de um endereço de cliente é implementada internamente como uma operação de edição no perfil do cliente. No entanto, se o recurso **Habilitar a criação assíncrona para endereços de clientes** estiver habilitado, os endereços dos clientes também poderão ser salvos para clientes Assíncronos.
-- As afiliações não podem ser associadas a clientes Assíncronos. Portanto, novos clientes Assíncronos não herdam as afiliações do cliente padrão.
-- Os cartões-fidelidade não podem ser emitidos para clientes Assíncronos a menos que a nova ID da conta do cliente tenha sido sincronizada novamente para o canal.
-- Não é possível capturar endereços de email e números de telefone secundários para clientes Assíncronos.
-
-Embora algumas das limitações mencionadas anteriormente possam incentivar você a escolher a opção de cliente de Síncrono para a sua empresa, a equipe do Commerce está trabalhando para que os recursos dos clientes Assíncronos correspondam melhor aos recursos dos clientes Síncronos. Por exemplo, a partir da versão 10.0.22 do Commerce, um novo recurso **Habilitar a criação assíncrona para endereços de clientes** que você pode habilitar no espaço de trabalho **Gerenciamento de recursos** salva assincronamente endereços de clientes recém-criados para clientes de Síncronos e Assíncronos. Para salvar esses endereços no perfil do cliente na matriz do Commerce, você precisa agendar um trabalho em lotes recorrente para o **trabalho P**, o trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono** e o trabalho **1010**, para que todos os clientes Assíncronos sejam convertidos em clientes Síncronos na matriz do Commerce.
-
-### <a name="customer-creation-in-pos-offline-mode"></a>Criação de cliente no modo offline do PDV
-
-Sempre que o PDV ficar offline, o sistema cria automaticamente os clientes de forma assíncrona, mesmo se o modo de criação de cliente Assíncrono estiver desabilitado. Portanto, como mencionamos anteriormente, os administradores da matriz do Commerce devem criar e agendar um trabalho em lotes recorrente para o **trabalho P**, o trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono** e o trabalho **1010**, para que todos os clientes Assíncronos sejam convertidos em clientes Síncronos na matriz do Commerce.
-
-> [!NOTE]
-> Se a opção **Filtrar tabelas de dados do cliente compartilhadas** for definida como **Sim** na página **Esquema de canal do Commerce** (**Varejo e Comércio \> Configuração do Headquarters \> Agendador do Commerce \> Grupo de bancos de dados do canal**), os registros de cliente não serão criados no modo offline de PDV. Para obter mais informações, consulte [Exclusão de dados offline](dev-itpro/implementation-considerations-cdx.md#offline-data-exclusion).
 
 ## <a name="additional-resources"></a>Recursos adicionais
+
+[Modo de criação de cliente assíncrono](async-customer-mode.md)
+
+[Converter clientes assíncronos em clientes síncronos](convert-async-to-sync.md)
 
 [Atributos de clientes](dev-itpro/customer-attributes.md)
 

@@ -1,7 +1,7 @@
 ---
 title: depreciação com declínio de 150%
-description: Este artigo fornece uma visão geral do método de saldo de reduzem de 150 de porcentagem de depreciação.
-author: saraschi2
+description: Este tópico apresenta uma visão geral do método de depreciação de redução de 150% do saldo.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c9d1db1099b2c118f67a74a49fc104b8b1761288f66543ab55d5001fc43ec31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747146"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883303"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>depreciação com declínio de 150%
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece uma visão geral do método de saldo de reduzem de 150 de porcentagem de depreciação.
+Este tópico apresenta uma visão geral do método de depreciação de redução de 150% do saldo.
 
 Ao configurar um perfil de depreciação de ativos fixos e selecionar **declínio de 150%** no campo **Método** na página **Perfis de depreciação**, os ativos fixos que são atribuídos ao perfil de depreciação são depreciados pela mesma porcentagem em cada período de depreciação. Essa porcentagem é calculada com base na vida útil do ativo. Por exemplo, se um ativo tiver uma vida útil de cinco anos, será calculada uma porcentagem de 30% (150% ÷ 5). 
 

@@ -2,7 +2,7 @@
 title: Atalhos de teclado
 description: Este tópico fornece uma visão geral das combinações de teclas de atalho que você pode usar ao trabalhar com aplicativos do Finance and Operations.
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800184"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913509"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Os atalhos de teclado a seguir podem ajudá-lo e inserir vários dados com rapidez e eficiência em aplicativos do Finance and Operations.
 
@@ -150,6 +149,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Executar a ação padrão em uma grade<blockquote>[!NOTE] Este atalho será habilitado quando o foco estiver em uma célula que contenha um hiperlink e todas as células nessa coluna tiverem hiperlinks.</blockquote> | Inserir                           |
 | Alterna o foco entre a linha selecionada e a linha do cabeçalho                                                               | Alt+Shift+H                     |
 | Torna a coluna atual maior/menor (com foco na linha do cabeçalho)                                                  | Seta para a direita/Seta para esquerda        |
+| Mover a coluna atual para a posição anterior/próxima posição (com foco na linha de cabeçalho)                                   | Ctrl+Shift+Seta para a direita/Ctrl+Shift+Seta para a esquerda |
 | Abrir a filtragem de grade para a coluna atual (com foco na linha do cabeçalho)                                              | Enter                           |
 | Redimensionar a coluna atual para ajustar o conteúdo (com foco na linha de cabeçalho)                                           | A (ou clique duas vezes na alça de dimensionamento da coluna) |
 

@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 112c48954816febe0bc9b6b75e2099d94a5e35ce
-ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
+ms.openlocfilehash: 93968bb7c42447301869bb8569f96f2137ff5d48
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7862758"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891401"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 
@@ -106,6 +106,8 @@ O Commerce oferece suporte ao registro fiscal por meio da [Estrutura de integra�
 [Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce](latam-bra-retail-statements.md)
 
 [Sobre SAT](https://portal.fazenda.sp.gov.br/servicos/sat)
+
+[Funcionalidade de documento fiscal CF-e no PDV do Commerce para o Brasil](latam-bra-cf-e-sat.md)
 
 [Dynamics 365 Payment Connector para Adyen no PDV do Commerce para o Brasil](latam-bra-adyen.md)
 

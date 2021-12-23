@@ -2,7 +2,7 @@
 title: Recursos removidos ou obsoletos do Dynamics 365 Finance
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Finance.
 author: roschlom
-ms.date: 04/14/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7ce7353de5795fd82e53bb1b7919c95dae4fe0ab6b8f536361613a7bcae19101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781192"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890944"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou obsoletos do Dynamics 365 Finance
 
@@ -32,6 +32,58 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 > [!NOTE]
 > Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Recursos removidos ou substituídos na versão 10.0.24 do Finance
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>Relatório de impostos sobre vendas para a Suécia (design baseado em códigos de relatório)
+
+[Relatório de impostos sobre vendas para a Suécia](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para a Suécia](../localizations/emea-swe-vat-declaration-sweden.md) |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte ao relatório de impostos sobre vendas para a Suécia (layout de relatório sueco). Os formatos de Relatório Eletrônico (ER) **XML de declaração de IVA (SE)** e **Excel de declaração de IVA (SE)** são introduzidos no modelo **Declaração de imposto**. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Demonstrativo de IVA para a Áustria (design baseado em códigos de relatório)
+
+[Detalhes de demonstrativo de IVA para a Áustria](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para a Áustria](../localizations/emea-aut-vat-declaration-austria.md) |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte ao formato de Relatório Eletrônico (ER) **Declaração de IVA (AT)** no **modelo de declaração de IVA**. Os novos formatos **XML de declaração de IVA (AT)** e **Excel de declaração de IVA (AT)** são introduzidos no modelo **Declaração de imposto**. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Declaração ELSTER para a Alemanha (design baseado em códigos de relatório)
+
+[Demonstrativo de IVA](../localizations/emea-de-vat-declaration.md)</br>
+[Configurar declaração eletrônica de impostos para a Alemanha](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[Transmissão eletrônica da declaração de IVA (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para a Alemanha](../localizations/emea-deu-vat-declaration-germany.md) |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte aos formatos de Relatório Eletrônico (ER) **Elster (DE)** e **Modelo Elster**. Os novos formatos **XML de declaração de IVA (DE)** e **Excel de declaração de IVA (DE)** são introduzidos no modelo **Declaração de imposto**. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Declaração OB para os Países Baixos (design baseado em códigos de relatório)
+
+[Declaração OB](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para os Países Baixos](../localizations/emea-nl-vat-declaration-netherlands.md) |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte aos formatos de Relatório Eletrônico (ER) **Declaração OB (NL)** e **Modelo de declaração OB**. Os novos formatos **XML de declaração de IVA (NL)** e **Excel de declaração de IVA (NL)** são introduzidos no modelo **Declaração de imposto**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Recursos removidos ou substituídos na versão 10.0.20 do Finance
 

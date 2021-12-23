@@ -1,7 +1,7 @@
 ---
 title: Instalar e conectar o aplicativo de depósito
 description: Este tópico explica como instalar o aplicativo de depósito em cada um dos seus dispositivos móveis e configurá-lo para se conectar ao ambiente do Microsoft Dynamics 365 Supply Chain Management. Você pode configurar os dispositivos manualmente ou importar as configurações de conexão usando um arquivo ou digitalizando um código QR.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 094d7f0f5642653c6e059952783041b1430e98d6
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384626"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902262"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar e conectar o aplicativo de depósito
 
@@ -138,9 +138,9 @@ Você pode importar configurações de conexão de um arquivo ou código QR. Par
 | ActiveDirectoryResource | Especifique a URL raiz do Supply Chain Management. |
 | ActiveDirectoryTenant | Especifique o nome de domínio do Azure AD que você está usando com o servidor do Supply Chain Management. Esse valor tem o formulário `https://login.windows.net/<your-Azure-AD-domain-name>`. Este é um exemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. Para obter mais informações sobre como encontrar o nome de domínio do Azure AD, consulte [Localizar IDs importantes para um usuário](/partner-center/find-ids-and-domain-names). |
 | Empresa | Especifique a entidade legal no Supply Chain Management à qual você quer que o aplicativo se conecte. |
-| ConnectionType | (Opcional) Especifique se a configuração de conexão deve usar um certificado ou um segredo de cliente para se conectar a um ambiente. Os valores válidos são *"certificate"* e *"clientsecret"*. O valor padrão é *'certificate'*.<p>**Observação:** não é possível importar segredos do cliente.</p> |
-| IsEditable | (Opcional) Especifique se o usuário do aplicativo deve ter permissão para editar a configuração de conexão. Os valores válidos são *"true"* e *"false"*. O valor padrão é *true*. |
-| IsDefault | (Opcional) Especifique se a conexão é a conexão padrão. Uma conexão definida como padrão será automaticamente pré-selecionada quando o aplicativo for aberto. Somente uma conexão pode ser definida como padrão. Os valores válidos são *"true"* e *"false"*. O valor padrão é *false*. |
+| ConnectionType | (Opcional) Especifique se a configuração de conexão deve usar um certificado ou um segredo de cliente para se conectar a um ambiente. Os valores válidos são *"certificate"* e *"clientsecret"*. O valor padrão é *"certificate"*.<p>**Observação:** não é possível importar segredos do cliente.</p> |
+| IsEditable | (Opcional) Especifique se o usuário do aplicativo deve ter permissão para editar a configuração de conexão. Os valores válidos são *"true"* e *"false"*. O valor padrão é *"true"*. |
+| IsDefault | (Opcional) Especifique se a conexão é a conexão padrão. Uma conexão definida como padrão será automaticamente pré-selecionada quando o aplicativo for aberto. Somente uma conexão pode ser definida como padrão. Os valores válidos são *"true"* e *"false"*. O valor padrão é *"false"*. |
 | CertificateThumbprint | (Opcional) Para dispositivos Windows, é possível especificar a impressão digital do certificado para a conexão. Para dispositivos Android, o usuário do aplicativo deve selecionar o certificado na primeira vez em que uma conexão for usada. |
 
 O exemplo a seguir mostra um arquivo de configurações de conexão válido que contém duas conexões. Como pode ver, a lista de conexões (chamada *"ConnectionList"* no arquivo) é um objeto que tem uma matriz que armazena cada conexão como um objeto. Cada objeto deve ser colocado entre chaves ({}) e separado por vírgulas, e a matriz deve estar entre colchetes (\[\]).

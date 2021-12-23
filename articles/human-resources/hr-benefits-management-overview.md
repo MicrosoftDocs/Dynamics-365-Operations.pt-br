@@ -2,7 +2,7 @@
 title: Visão geral do gerenciamento de benefícios
 description: Este tópico fornece uma visão geral do recurso de gerenciamento de Benefícios no Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: dc06fd2ef4992b4ef2e20ace4f5c6bcc0bffb9d2
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417383"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892493"
 ---
 # <a name="benefits-management-overview"></a>Visão geral do gerenciamento de benefícios
 
@@ -109,21 +109,29 @@ Para obter mais informações sobre como configurar os planos de benefícios, co
 
 ## <a name="configure-required-employee-information"></a>Configurar informações de funcionário obrigatórias
 
-Para poder inscrever funcionários em benefícios, você deve fornecer as informações. Cada funcionário deve ter uma posição. Você deve inscrever funcionários em um plano de compensação fixo na data inicial ou deve ter um valor de salário anual de benefícios. Além disso, na seção **Detalhes do emprego** da página **Trabalhador**, você deve selecionar um valor no campo **Frequência de pagamento de benefício**.
+Para poder inscrever funcionários em benefícios, você deve fornecer as informações. 
 
-Se você tem um funcionário que recebe remuneração suplementar, como comissões, é possível adicionar um valor de **Salário de benefícios anual** do registro do funcionário. O Human Resources usará o valor do **Salário de benefícios anual** para determinar valores de cobertura em vez do valor anual da remuneração fixa. O **Salário de benefícios anual** deve ser válido a partir da data de início do funcionário ou do início do período de benefício, o que for mais recente. Se um valor de salário de benefícios anual e remuneração fixa for registrado para um funcionário, o salário de benefícios anual será usado para determinar os valores de cobertura.
+O funcionário deve ter uma **Posição** atribuída a ele. Uma **Posição** pode ser atribuída ao funcionário nas páginas **Trabalhador** ou **Posição**, atualizando a **Atribuição do trabalhador**. 
+
+Depois disso, os funcionários serão inscritos em um plano de compensação fixo na data de início ou deve ter um valor de **Valor do salário de benefícios anual**. Antes de atribuir **Remuneração fixa** a um funcionário, uma **Posição** deve ser atribuída. 
+
+> [!NOTE] 
+> A **Data de início de remuneração fixa** não pode ser anterior à **Data de atribuição da posição**.
+
+Como alternativa, se você tem um funcionário que recebe remuneração suplementar, como comissões, é possível adicionar um valor de **Salário de benefícios anual** do registro do funcionário. O Human Resources usará o valor do **Salário de benefícios anual** para determinar valores de cobertura em vez do valor de **Remuneração fixa anual**. O **Salário de benefícios anual** deve ser válido a partir da data de início do funcionário ou do início do período de benefício, o que for mais recente. No entanto, não é necessário uma posição para atribuir o **Salário de benefícios anual**. Para habilitar o recurso **Salário de benefícios anual**, acesse a página **Parâmetros compartilhados do Human Resources**, na guia **Gerenciamento de benefícios** . Esse recurso está desativado por padrão.
+
+> [!IMPORTANT]
+> Se um valor de **Remuneração fixa** e um valor de **Salário de benefícios anual** é inserido para um funcionário, o **Salário de benefícios anual** será usado para determinar os valores de cobertura. Na seção **Detalhes do emprego** da página **Trabalhador**, você deve selecionar um valor no campo **Frequência de pagamento de benefício**.
 
 ## <a name="configure-optional-employee-information"></a>Configurar informações opcionais de funcionário
-
 Quando você cria um plano de benefícios que usa taxas baseadas em sexo ou idade, você deve inserir uma data de nascimento e um sexo para que o funcionário calcule o custo de benefício.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Processar funcionários para determinar a qualificação
+Antes que os funcionários possam se inscrever nos planos, o processamento de elegibilidade é executado para determinar para quais planos eles estão qualificados. Você pode visualizar os resultados do processo de elegibilidade no **Visualizador de resultados do processo**. Para obter mais informações, consulte [Processar elegibilidade de inscrição](hr-benefits-process-enrollment-eligibility.md).
 
-Antes que os funcionários possam se inscrever nos planos, o processamento de elegibilidade é executado para determinar para quais planos eles estão qualificados. Você pode visualizar os resultados do processo de elegibilidade no visualizador de resultados do processo. Para obter mais informações, consulte [Processar elegibilidade de inscrição](hr-benefits-process-enrollment-eligibility.md).
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Os funcionários selecionam planos usando o **Autoatendimento para funcionários** (opcional)
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>Os funcionários selecionam planos por meio do auto-atendimento para funcionários (opcional)
-
-Quando ocorre a inscrição aberta, os funcionários são recém-contratados, ou ocorre um evento de vida, os funcionários podem selecionar ou atualizar seus benefícios por meio do autoatendimento dos funcionários. Para obter mais informações, consulte [Configurar o autoatendimento do funcionário](hr-benefits-setup-employee-self-service.md).
+Quando ocorre a inscrição aberta, os funcionários são recém-contratados, ou ocorre um evento de vida, os funcionários podem selecionar ou atualizar seus benefícios usando o **Autoatendimento para funcionários**. Para obter mais informações, consulte [Configurar o autoatendimento do funcionário](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Confirmar seleções de plano de funcionário
 

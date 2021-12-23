@@ -2,7 +2,7 @@
 title: Criar modelos de email para eventos transacionais
 description: Este tópico descreve como criar, carregar e configurar modelos de email para eventos transacionais no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 10/26/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 69ba8821cde6788d6e0accb37288f92acdfc776c
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 25d7fcb803645f50ee4f5c608f5b6e789dfe3c31
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713788"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913743"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Criar modelos de email para eventos transacionais
 
@@ -136,7 +136,7 @@ O tipo de notificação de aprovação de cliente potencial B2B oferece suporte 
 | `storename`        | O nome do canal em que o cliente potencial foi criado. |
 | `storeurl`         | Vazio por padrão. Uma extensão personalizada deve ser criada para que este espaço reservado seja usado. |
 
-### <a name="b2b-prospect-approved"></a>Cliente potencial B2B aprovado
+### <a name="b2b-prospect-rejected"></a>Cliente potencial B2B rejeitado
 
 O tipo de notificação *cliente potencial B2B rejeitado* é disparado quando uma solicitação de integração de um cliente potencial é rejeitada na matriz do Commerce. Para obter mais informações sobre como aprovar ou rejeitar clientes potenciais B2B, consulte [Configurar o usuário administrador para um novo parceiro comercial](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
 

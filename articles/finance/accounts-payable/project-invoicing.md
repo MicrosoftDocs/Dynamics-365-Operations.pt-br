@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: zezhangzhao
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d8f0e027761a42871f9fc543319ba47fe457f23b8b7f937b8f847cc16922610e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737250"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883559"
 ---
 # <a name="project-invoicing"></a>Faturamento do projeto
 
@@ -58,7 +58,7 @@ Você pode criar propostas de fatura para as seguintes transações:
 
 Você pode criar transações de taxa em uma proposta de fatura. Você também pode alterar o preço de venda por hora, despesa, de itens e transações de taxa. Quando você lança uma proposta de fatura, os preços e as transações atualizadas são adicionados aos relatórios do projeto e ao histórico de transações. 
 
-Para criar várias faturas de cliente para um projeto, você deve criar uma proposta de fatura para cada fatura. Por exemplo, você pode criar faturas com base no tipo de transação. Para especificar as horas em uma fatura de cliente e itens em outra fatura, você deve criar propostas de fatura separadas para transações de hora e transações de taxa. 
+Para criar várias faturas de cliente para um projeto, você deve criar uma proposta de fatura para cada fatura. Por exemplo, você pode criar faturas com base no tipo de transação. Para especificar as horas em uma fatura de cliente e itens em outra fatura, você deve criar propostas de fatura separadas para transações de horas e transações de taxa. 
 
 Se um projeto tiver mais de uma fonte de financiamento, será possível criar uma proposta de fatura separada para cada fonte de financiamento. Na página **Alocações da regra de financiamento**, você pode definir a porcentagem do valor da transação para alocar a cada fonte de financiamento, e a origem na qual lançar as diferenças de arredondamento.
 

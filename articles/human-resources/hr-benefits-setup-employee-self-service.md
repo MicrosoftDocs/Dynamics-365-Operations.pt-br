@@ -1,8 +1,8 @@
 ---
-title: Configurar autoatendimento para funcionários
+title: Configurar o Autoatendimento para funcionários
 description: No Microsoft Dynamics 365 Human Resources, você pode configurar blocos para navegação de alto nível no autoatendimento para funcionários.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423295"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898431"
 ---
 # <a name="configure-employee-self-service"></a>Configurar autoatendimento para funcionários
 
@@ -34,19 +34,16 @@ No Microsoft Dynamics 365 Human Resources, você pode configurar blocos para nav
 
 2. Selecione a guia **Configuração do bloco de planos de benefícios** e depois **Novo**.
 
-3. Especifique valores para os seguintes campos:
+3. Especifique valores para os seguintes campos.
 
    | Campo | Descrição |
    | --- | --- |
+   | **Código do tipo de plano** | O tipo de plano que é exibido quando este bloco é selecionado em **Autoatendimento de benefícios**. |
    | **ID do bloco** | O identificador exclusivo para o bloco. |
-   | **Texto de rótulo de bloco** | O texto que aparecerá para o bloco no **Autoatendimento do funcionário**. |
+   | **Texto de rótulo de bloco** | O texto que aparecerá para o bloco no **Autoatendimento de benefícios**. |
    | **Descrição** | Uma descrição do bloco. |
-   | **Endereço na Internet** | Digite a URL para a página de **Autoatendimento do funcionário**. |
-   | **Tamanho do arquivo** | O tamanho do bloco: pequeno, médio ou grande. |
-   | **Alvo** | Especifica se a página deve abrir em uma nova janela ou na janela atual. |
    | **Imagem de plano de fundo de bloco** | A URL da imagem a ser usada para o bloco (opcional). |
-   | **Início** | A data e hora de início do bloco devem estar disponíveis. |
-   | **End** | A data e hora de término do bloco devem estar disponíveis. |
+   | **Rastrear o registro aberto** | Selecione esta opção para rastrear o progresso do registro aberto para este tipo de plano. Por exemplo, você pode ter planos criados em que **Tipo de plano = Outro**. Esses planos podem ser planos opcionais para os quais você não deseja rastrear o andamento do registro. Se você não selecionar esse tipo de plano, ele será ignorado ao rastrear o progresso ou a conclusão do registro na guia **Registro aberto**. Essa configuração se aplica ao tipo de plano selecionado para todos os períodos e entidades legais. |
 
 4. Selecione **Salvar**.
 
@@ -56,19 +53,16 @@ No Microsoft Dynamics 365 Human Resources, você pode configurar blocos para nav
 
 2. Selecione a guia **Configuração do bloco de plano de crédito flexível** e depois **Novo**.
 
-3. Especifique valores para os seguintes campos:
+3. Especifique valores para os seguintes campos.
 
    | Campo | Descrição |
    | --- | --- |
+   | **ID do crédito do benefício** | Os planos do programa de crédito flexível que serão exibidos quando este bloco for selecionado em **Autoatendimento de benefícios**. |
    | **ID do bloco** | O identificador exclusivo para o bloco. |
-   | **Texto de rótulo de bloco** | O texto que aparecerá para o bloco no **Autoatendimento do funcionário**. |
+   | **Texto de rótulo de bloco** | O texto que aparecerá para o bloco no **Autoatendimento de benefícios**. |
    | **Descrição** | Uma descrição do bloco. |
-   | **Endereço na Internet** | Digite a URL para a página de **Autoatendimento do funcionário**. |
-   | **Tamanho do arquivo** | O tamanho do bloco: pequeno, médio ou grande. |
-   | **Alvo** | Especifica se a página deve abrir em uma nova janela ou na janela atual. |
    | **Imagem de plano de fundo de bloco** | A URL da imagem a ser usada para o bloco (opcional). |
-   | **Início** | A data e hora de início do bloco devem estar disponíveis. |
-   | **End** | A data e hora de término do bloco devem estar disponíveis. |
+   | **Rastrear o registro aberto** | Selecione esta opção para rastrear o progresso do registro aberto para este tipo de plano. Por exemplo, você pode ter planos criados em que **Tipo de plano = Outro**. Esses planos podem ser planos opcionais para os quais você não deseja rastrear o andamento do registro. Se você não selecionar esse tipo de plano, ele será ignorado ao rastrear o progresso ou a conclusão do registro na guia **Registro aberto**. Essa configuração se aplica ao tipo de plano selecionado para todos os períodos e entidades legais. |
 
 4. Selecione **Salvar**.
 

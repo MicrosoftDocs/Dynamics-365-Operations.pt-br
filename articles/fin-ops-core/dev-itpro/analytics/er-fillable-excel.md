@@ -2,7 +2,7 @@
 title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
-ms.date: 10/29/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731629"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890856"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
 [!include[banner](../includes/banner.md)]
 
-Você pode criar uma configuração de formato de [relatório eletrônico (ER)](general-electronic-reporting.md) que tem um ER [componente de formato](general-electronic-reporting.md#FormatComponentOutbound) que pode ser configurado para gerar um documento de saída em um formato de pasta de trabalho do Microsoft Excel. Componentes de formato ER específicos devem ser usados com essa finalidade.
+Você pode criar uma configuração de formato de [relatório eletrônico (ER)](general-electronic-reporting.md) que tem um componente de formato de ER que pode ser configurado para gerar um documento de saída em um formato de pasta de trabalho do Microsoft Excel. Componentes de formato ER específicos devem ser usados com essa finalidade.
 
 Para saber mais sobre esse recurso, siga as etapas no tópico, [Criar uma configuração para gerar relatórios no formato OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
@@ -330,6 +330,40 @@ Quando um documento de saída é gerado em um formato de pasta de trabalho do Mi
 6. Gere um documento de impressão FTI e analise o rodapé do documento gerado.
 
     ![Análise do rodapé de um documento gerado no formato do Excel.](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Exemplo 2: Corrigir o problema de EPPlus de células mescladas
+
+Você pode executar um formato de ER para gerar um documento de saída em um formato de pasta de trabalho do Excel. Quando o recurso **Habilitar uso da biblioteca de EPPlus em estrutura eletrônica de relatórios** estiver habilitado no workspace **Gerenciamento de recursos**, a [biblioteca de EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) será usada para gerar a saída do Excel. No entanto, devido ao [comportamento do Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) conhecido e a uma limitação da biblioteca de EPPlus, você pode encontrar a seguinte exceção: "Não é possível excluir/substituir células mescladas. Um intervalo é mesclado parcialmente com o outro intervalo mesclado." Para saber qual tipo de modelos do Excel podem causar essa exceção e como você pode corrigir o problema, conclua o exemplo a seguir.
+
+1. No aplicativo de área de trabalho do Excel, crie uma nova pasta de trabalho do Excel.
+2. Na planilha **Sheet1**, adicione o nome **ReportTitle** para a célula **A2**.
+3. Mescle as células **A1** e **A2**.
+
+    ![Revisão dos resultados das células de mesclagem A1 e A2 na pasta de trabalho do Excel criada no aplicativo de área de trabalho do Excel.](./media/er-fillable-excel-example2-1.png)
+
+3. Na página **Configurações**, [adicione um novo formato de ER](er-fillable-excel.md#add-a-new-er-format) para gerar um documento de saída em um formato de pasta de trabalho do Excel.
+4. Na página **Designer de formato**, [importe](er-fillable-excel.md#template-import) a pasta de trabalho do Excel criada para o formato de ER adicionado como um novo modelo para documentos de saída.
+5. Na guia **Mapeamento**, configure a associação para o componente **ReportTitle** do tipo de [célula](er-fillable-excel.md#cell-component).
+6. Execute o formato de ER configurado. Observe que a seguinte exceção é lançada: "Não é possível excluir/substituir células mescladas. Um intervalo é mesclado parcialmente com o outro intervalo mesclado."
+
+    ![Revisão dos resultados da execução do formato de ER configurado na página Designer de formato.](./media/er-fillable-excel-example2-2.png)
+
+Você pode corrigir o problema de uma das seguintes maneiras:
+
+- **Mais fácil, mas não recomendado:** no workspace **Gerenciamento de recursos**, desative o recurso **Habilitar uso da biblioteca de EPPlus em estrutura de Relatório eletrônico**. Embora essa abordagem seja mais fácil, você poderá ter outras saídas se usá-la, pois há suporte para algumas funcionalidades de ER somente quando o recurso **Habilitar uso da biblioteca de EPPlus em estrutura de Relatório eletrônico** está habilitado.
+- **Recomendado:** siga estas etapas:
+
+    1. No aplicativo de área de trabalho do Excel, modifique a pasta de trabalho do Excel de uma das seguintes maneiras:
+
+        - Na planilha **1**, desfaça a mesclagem das células **A1** e **A2**.
+        - Altere a referência do nome **ReportTitle** de **=Sheet1!$A$2** para **=Sheet1!$A$1**.
+
+        ![Revisão dos resultados da alteração da referência na pasta de trabalho do Excel criada no aplicativo de área de trabalho do Excel.](./media/er-fillable-excel-example2-3.png)
+
+    2. Na página **Designer de formato**, [importe](er-fillable-excel.md#template-import) a pasta de trabalho do Excel modificada para o formato de ER editável a fim de atualizar o modelo existente.
+    3. Execute o formato de ER modificado.
+
+        ![Revisão do documento gerado no aplicativo de área de trabalho do Excel.](./media/er-fillable-excel-example2-4.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

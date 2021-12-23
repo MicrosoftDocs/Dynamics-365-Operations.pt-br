@@ -2,7 +2,7 @@
 title: Visão geral do Cálculo de Imposto
 description: Este tópico explica o escopo geral e os recursos do recurso Cálculo de Imposto.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647048"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892415"
 ---
 # <a name="tax-calculation-overview"></a>Visão geral do Cálculo de Imposto
 
@@ -64,6 +64,20 @@ O Cálculo de Imposto é implantado nas regiões do Azure a seguir. Mais regiõe
 
 > [!NOTE]
 > O Cálculo de Imposto não oferece suporte à versões anteriores do Dynamics 365, como Dynamics AX 2012 ou implantações locais do Dynamics 365.
+
+## <a name="versions"></a>Versões
+É recomendável importar e configurar sua configuração de Cálculo do Imposto com a versão que corresponde à sua versão do Finance ou do Supply Chain Management.
+
+| Versão do Finance ou Supply Chain Management | Versão da configuração de imposto               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | Configuração de Imposto - Europa 30.12.82     |
+| 10.0.19         | Configuração de Cálculo do Imposto 36.38.193 |
+| 10.0.20         | Configuração de Cálculo do Imposto 40.43.208 |
+| 10.0.21         | Configuração de Cálculo do Imposto 40.48.215 |
+| 10.0.22         | Configuração de Cálculo do Imposto 40.48.215 |
+| 10.0.23         | Configuração de Cálculo do Imposto 40.50.221 |
+| 10.0.24         | Configuração de Cálculo do Imposto 40.50.225 |
+
 
 ## <a name="data-flow"></a>Fluxo de dados
 
@@ -168,7 +182,11 @@ Os seguintes países/regiões do endereço principal de uma entidade legal têm 
 - Tailândia
 - Japão
 - Malásia
-- Cingapura
+- Singapura
+
+Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.24:
+
+- México
 
 ## <a name="related-resources"></a>Recursos relacionados
 

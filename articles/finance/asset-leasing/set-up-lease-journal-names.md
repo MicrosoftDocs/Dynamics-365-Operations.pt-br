@@ -2,7 +2,7 @@
 title: Configurar nomes de diário de arrendamento
 description: Este tópico explica como definir nomes de diário de arrendamento. Os nomes de diários de arrendamento especificam os diários em que as entradas originadas em Arrendamento de ativo são lançadas.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343205"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890741"
 ---
 # <a name="set-up-lease-journal-names"></a>Configurar nomes de diário de arrendamento
 
@@ -33,12 +33,13 @@ Os nomes de diários de arrendamento especificam os diários em que transações
 O sistema bloqueia certos campos financeiros da edição para evitar variações entre as transações e os agendamentos. Alguns campos bloqueados incluem: **Conta**, **Valores**, **Dimensões financeiras**, **Moeda** e **Tipo de transação**. Além disso, não será possível adicionar ou excluir linhas de entrada de diário em qualquer entrada de diário de leasing de Ativo, pois isso poderá causar variações entre as agendas e as transações.
 
 
-Para configurar nomes de diário de arrendamento, siga estas etapas.
+Para configurar nomes de diário de arrendamento, siga as etapas abaixo.
 
 1. Acesse **Gerenciamento de ativos \> Configuração \> Parâmetros de gerenciamento de ativos**.
 2. Na guia **Geral**, no campo **Nome do diário de reconhecimento inicial**,selecione um diário. Todas as entradas do diário de reconhecimento inicial serão lançadas nesse nome de diário.
 3. No campo **Nome de diário de fatura**, selecione um diário. Se a opção **Pagar ao fornecedor** for definida como **Sim** para o registro de arrendamento, as faturas de pagamento de arrendamento e despesa serão lançadas nesse nome de diário.
 4. No campo **Nome de diário de arrendamento**, selecione um diário. Todas as entradas de depreciação, juros e reclassificação de curto prazo serão lançadas nesse nome de diário. Se a opção **Pagar ao fornecedor** for definida como **Não** para o registro de arrendamento, as entradas de pagamento do arrendamento e de pagamento da despesa também serão lançadas nesse nome de diário.
+5. No campo **Nome do diário de modificação do arrendamento**, selecione um diário. As transações de ajuste, rescisão e redução ao valor recuperável do arrendamento serão lançadas neste diário. O nome do diário selecionado não pode ter um fluxo de trabalho ou aprovação atribuído a ele. Se o nome do diário de modificação do arrendamento não for definido, as transações de ajuste, rescisão e redução ao valor recuperável do arrendamento serão lançadas no diário selecionado no campo **Nome do diário de arrendamento**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

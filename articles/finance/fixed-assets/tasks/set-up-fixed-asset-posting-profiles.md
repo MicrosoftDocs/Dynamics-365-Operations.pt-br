@@ -1,7 +1,7 @@
 ---
 title: Configurar perfis de lançamento de ativos fixos
-description: Este guia de tarefa definirá os perfis de postagem de ativo fixo.
-author: saraschi2
+description: Este procedimento mostra como configurar perfis de lançamentos de ativos fixos.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2708997848352205cab2e425c9ae1fb531b8a566ba86a65ba2cbeb7e0b5c2b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767614"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883759"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Configurar perfis de lançamento de ativos fixos
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia de tarefa definirá os perfis de postagem de ativo fixo.  Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.  Os exemplos dados no guia da tarefa são para um perfil de lançamentos básicos, embora os perfis de lançamento devam ser criados para seus requisitos do plano de contas e específico de relatórios financeiros.
+Este procedimento mostra como configurar perfis de lançamentos de ativos fixos. Os exemplos dados no tópico são para um perfil de lançamentos básicos, embora os perfis de lançamentos devam ser criados de acordo com os requisitos do seu plano de contas e dos relatórios financeiros.
 
 1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Configuração > Perfis de lançamento de ativo fixo**.
 2. Clique em **Novo**.

@@ -2,19 +2,19 @@
 title: Descrição do serviço para aplicativos do Finance and Operations
 description: Este tópico fornece a descrição de serviço para aplicativos do Finance and Operations.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825391"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898380"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrição do serviço para aplicativos do Finance and Operations
 
@@ -314,9 +314,9 @@ Os planos e procedimentos de Recuperação de Desastre da Microsoft são examina
 | A Microsoft provisiona um ambiente secundário no datacenter emparelhado do Azure quando a instância de produção principal é implantada. Para obter mais informações, consulte [BCDR (continuidade dos negócios e recuperação de desastre: regiões emparelhadas do Azure)](/azure/best-practices-availability-paired-regions). | Nenhuma |
 | A Microsoft permite a redundância geográfica do Armazenamento de Blobs do Azure e do SQL do Azure quando a instância de produção principal é implantada. | Nenhuma |
 | A Microsoft permite o backup automático nos bancos de dados SQL do Azure. | Nenhuma |
-| <p>Quando ocorre uma interrupção, a Microsoft determina se um failover deve ser realizado para o cliente e se haverá perda de dados. A perda de dados pode ser de até cinco segundos. Para obter mais informações, consulte [Restauração de localização geográfica do banco de dados SQL do Azure](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>No caso de perda de dados, a Microsoft solicitará a aprovação do cliente para um failover.</p> | No caso de perda de dados, o cliente poderá ter de fornecer uma aprovação por escrito para disparar o failover. |
+| <p>Quando ocorre uma interrupção, a Microsoft determina se um failover deve ser realizado para o cliente e se haverá perda de dados. Os clientes podem ter problemas de perda de dados por até 15 minutos, dependendo da natureza e do tempo da interrupção. | No caso de perda de dados, talvez o cliente tenha que fornecer uma aprovação por escrito para disparar o failover. |
 | Quando ocorrer um failover, o serviço aplicável funcionará no modo limitado. A manutenção da atualização não poderá ser disparada no modo de failover. | O cliente não poderá solicitar implantações de pacotes ou outras solicitações de manutenção regulares no modo de failover. |
-| Quando o datacenter tornar-se operacional, a Microsoft reverterá a instância de produção na região principal do Azure. As operações normais serão retomadas. | O cliente poderá ter de fazer logoff no failback para a instância de produção na região principal do Azure. |
+| Quando o datacenter tornar-se operacional, a Microsoft reverterá a instância de produção na região principal do Azure. As operações normais serão retomadas. | Talvez o cliente tenha que fazer a aprovação no failback para a instância de produção na região principal do Azure. |
 
 ## <a name="finance-and-operations-support-offerings"></a>Ofertas de suporte do Finance and Operations
 

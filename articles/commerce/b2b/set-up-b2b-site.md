@@ -2,7 +2,7 @@
 title: Configurar um site de comércio eletrônico B2B
 description: Este tópico descreve como configurar um site de comércio eletrônico B2B no Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713739"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891376"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Configurar um site de comércio eletrônico B2B
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Sites de comércio eletrônico B2B (entre empresas) fornecem alguns recursos importantes que otimizam o fluxo de trabalho para um usuário de B2B. Este tópico descreve como configurar um site de comércio eletrônico B2B no Microsoft Dynamics 365 Commerce. Ele descreve os módulos e as configurações de site que devem ser configurados para habilitar cenários específicos de B2B.
 
@@ -306,6 +307,30 @@ Para adicionar um módulo de adição rápida a uma página de carrinho no const
 
 > [!NOTE] 
 > O módulo de adição rápida está disponível a partir do Commerce versão 10.0.17. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Adicionar um módulo de compra em massa a uma página de detalhes do produto
+
+O módulo de compra em massa em uma página de detalhes do produto (PDP) oferece uma experiência com base em matriz, que permite ao comprador adicionar rapidamente variantes de um produto ao carrinho. Quando um usuário do site precisa encomendar variantes do mesmo produto, essa experiência elimina a necessidade de selecionar a combinação de dimensões do produto, definir a quantidade, adicionar a variante ao carrinho e repetir o processo para outras combinações.
+
+Para adicionar o módulo de compra em massa a uma PDP no construtor de sites do Commerce, siga estas etapas.
+
+1. Acesse **Modelos** e selecione o modelo da PDP do seu site.
+1. Selecione **Editar**.
+1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Compra em massa** e, depois, **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
+1. Acesse **Páginas** e selecione a PDP do seu site.
+1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No painel de propriedades do módulo **Contêiner**, em **Largura**, selecione **Preencher contêiner**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Compra em massa** e, depois, **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
+
+> [!NOTE] 
+> O módulo de compra em massa está disponível a partir da versão 10.0.24 do Commerce. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

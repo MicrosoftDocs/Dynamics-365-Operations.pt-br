@@ -2,7 +2,7 @@
 title: Reduzir ativos de direito de uso ao valor recuperável
 description: Este tópico descreve a funcionalidade que registra uma redução ao valor recuperável e ajusta o plano de depreciação de ativo de um arrendamento operacional do Tópico 842 da Codificação de Padrões Contábeis (ASC 842).
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 816f65cff77339ef8684c0449ed2e5f0762b17a2e22174412d5ea9f2a1a62069
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723814"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890821"
 ---
 # <a name="impair-right-of-use-assets"></a>Reduzir ativos de direito de uso ao valor recuperável
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Se um valor de transporte do ativo de direito de uso (DDU) não for recuperável, talvez seja necessário testar se o ativo teve redução ao valor recuperável. Se você determinar que o ativo teve redução ao valor recuperável, o Arrendamento de ativos poderá registrar a redução ao valor recuperável e ajustar a agenda de depreciação de forma adequada. Este tópico descreve a funcionalidade que registra a redução ao valor recuperável e ajusta o plano de depreciação de ativo de um arrendamento operacional do Tópico 842 da Codificação de Padrões Contábeis (ASC 842). O mesmo método também se aplica a arrendamentos do Padrão Internacional de Relatórios Financeiros 16 (IFRS 16).
 
@@ -37,13 +38,16 @@ O saldo restante do ativo DDU será amortizado linearmente para o número de per
 3. Na caixa de diálogo exibida, no campo **Valor de redução ao valor recuperável**, insira o valor da redução ao valor recuperável do ativo. Para diminuir o ativo DDU, você deve inserir um valor positivo.
 4. No campo **Data da transação**, insira a data em que a entrada da redução ao valor recuperável deve ser lançada.
 5. No campo **Períodos restantes**, insira o número restante de meses a amortizar.
-6. Ative o parâmetro **Lançar** se desejar que o sistema lance automaticamente a entrada do diário de despesas de redução ao valor recuperável. Se você deixar esse parâmetro desativado, o sistema criará a entrada mas não a lançará. Em seguida, você poderá lançar a entrada na página **Diários de arrendamento de ativos**.
-7. Defina a opção **Visualizar antes do lançamento** como **Sim** para exibir a entrada proposta antes de sua criação ou lançamento.
-8. Defina a opção **Fechar registro** como **Sim** para fechar o registro de arrendamento. Você não poderá desfazer essa ação. As entradas não podem ser lançadas em arrendamentos fechados e os arrendamentos fechados não podem ser ajustados.
-9. Selecione **OK** para criar ou lançar a entrada de redução ao valor recuperável.
-10. Para exibir a agenda de depreciação do ativo com redução ao valor recuperável, abra a agenda de depreciação de ativo para esse registro de arrendamento. O ativo agora será depreciado linearmente sobre o número de meses que você inseriu no campo **Períodos restantes**.
-11. Para exibir a entrada do diário de despesas com redução ao valor recuperável, selecione **Diário de arrendamento de ativo** no Painel de Ação do registro de arrendamento com redução ao valor recuperável. O sistema cria uma entrada de diário que gera um débito na conta de lançamento de despesas e credita na conta de lançamento de ativo de arrendamento.
-12. Para exibir o novo valor de transporte do ativo DDU, selecione **Transações de ativo** no Painel de Ação do registro de arrendamento.
+6. Defina a opção **Visualizar** para exibir a entrada financeira e de ativos fixos proposta antes de sua criação ou lançamento.
+7. Defina a opção **Fechar registro** como **Sim** para fechar o registro de arrendamento. Você pode desfazer essa ação usando o status **Reabrir arrendamento**. As entradas não podem ser lançadas em arrendamentos fechados e os arrendamentos fechados não podem ser ajustados. 
+8. Selecione **Lançar** para criar ou lançar a entrada de redução ao valor recuperável.
+
+    > [!NOTE]
+    > Depois que a transação de redução ao valor recuperável for lançada, uma nova versão do registro será criada.
+
+9. Para exibir a agenda de depreciação do ativo com redução ao valor recuperável, abra a agenda de depreciação de ativo para o registro de arrendamento. O ativo agora será depreciado linearmente sobre o número de meses que você inseriu no campo **Períodos restantes**.
+10. Para exibir a entrada do diário de despesas com redução ao valor recuperável, selecione **Diário de arrendamento de ativo** no Painel de Ação do registro de arrendamento com redução ao valor recuperável. O sistema cria uma entrada de diário que gera um débito na conta de lançamento de despesas e credita na conta de lançamento de ativo de arrendamento. 
+11. Para exibir o novo valor de transporte do ativo DDU, selecione **Transações de ativo** no Painel de Ação do registro de arrendamento.
 
 ## <a name="example-of-rou-asset-impairment"></a>Exemplo de redução ao valor recuperável do ativo DDU
 

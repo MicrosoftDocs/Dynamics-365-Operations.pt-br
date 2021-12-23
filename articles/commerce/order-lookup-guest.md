@@ -2,7 +2,7 @@
 title: Habilitar pesquisa de ordem para finalização de compra do convidado
 description: Este tópico descreve como habilitar a pesquisa de ordem para finalização de compra do convidado no Microsoft Dynamics 365 Commerce.
 author: stuharg
-ms.date: 09/01/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674967"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891489"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Habilitar pesquisa de ordem para finalização de compra do convidado
 
@@ -58,11 +58,21 @@ A Guia Rápida **Pesquisa de ordem** na página **Ordens do cliente** na matriz 
 > [!NOTE]
 > Estas opções determinam quando dados pessoais, como o endereço do cliente e os quatro últimos dígitos do número do cartão de crédito do cliente, são mostrados para usuários convidados anônimos. Para ajudar a proteger a privacidade de clientes registrados, é recomendável selecionar a opção **Somente ordens de convidado**. No entanto, a opção mais segura é **Nunca**.
 
-Depois de alterar o valor do campo **Incluir dados pessoais na pesquisa de ordem do convidado**, você deve executar o trabalho 1070 (**Configuração de canal**) na matriz Commerce, acessando **Retail e Commerce \> TI de Retail e Commerce \> Agenda de distribuição**.
+Depois de alterar o valor do campo **Incluir dados pessoais na pesquisa de ordem do convidado**, execute o trabalho 1070 (**Configuração do canal**) na sede do Commerce, acessando **Varejo e comércio \> TI de varejo e comércio \> Agenda de distribuição**.
 
 ## <a name="configure-the-order-lookup-module"></a>Configurar o módulo de pesquisa de ordem
 
 O módulo de pesquisa de ordem na biblioteca de módulos do Commerce é usado para renderizar o formulário que os usuários convidados usam para pesquisar ordens. O módulo de pesquisa de ordem pode ser incluído no slot de corpo de qualquer página que não exija entrada do cliente. Para obter informações sobre como configurar o módulo, consulte [Módulo de pesquisa de ordem](order-lookup-module.md).
+
+## <a name="configure-the-order-details-page"></a>Configurar a página de detalhes da ordem
+
+Antes que os usuários convidados possam ver os detalhes da ordem, a página de detalhes da ordem no site de comércio eletrônico deve ser configurada para que não exija credenciais. Para desativar a solicitação de credenciais na página de detalhes da ordem, abra a página no construtor de sites do Commerce, selecione o slot **Página padrão (obrigatório)** no modo de exibição de árvore e desmarque a caixa de seleção **Requer entrada?** na parte inferior do painel de propriedades à direita.
+
+## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Adicionar um link para os detalhes da ordem nos emails transacionais
+
+Em emails relacionados a ordens, você pode fornecer um link ou um botão que leva os clientes à página de detalhes da ordem. Para adicionar esse link ou botão, crie um hiperlink HTML que leve à página de detalhes da ordem no seu site de comércio eletrônico e transmita o ID de confirmação da ordem e o endereço de email do cliente como parâmetros da URL, conforme o exemplo a seguir.
+
+`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

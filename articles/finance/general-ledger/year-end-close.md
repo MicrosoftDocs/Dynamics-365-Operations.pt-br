@@ -2,7 +2,7 @@
 title: Fechamento do exercício
 description: Este tópico descreve a configuração e as etapas necessárias para executar o processo de fechamento do exercício da contabilidade.
 author: kweekley
-ms.date: 07/10/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5677ebeee6b8260280d4c9c7c8a7a0e18e7bd78f68a42d23967948a2e75120cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778257"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892468"
 ---
 # <a name="year-end-close"></a>Fechamento anual
 
@@ -44,7 +44,7 @@ Na página **Conta principal**:
 Na página **Parâmetros da contabilidade** em **Fechamento do ano fiscal**:
 
 - A opção **Excluir entradas de fechamento do exercício existentes ao fechar novamente o ano** é usada para especificar se a transação de abertura de um fechamento do exercício anterior gerada pelo sistema deve ser excluída quando o fechamento do exercício for executado novamente. Se essa opção estiver definida como **Sim**, as transações de abertura e as transações de fechamento opcionais anteriores serão excluídas e uma nova transação de abertura ou de fechamento será criada com base nos saldos atuais. Se essa opção estiver definida como **Não**, as transações de abertura e as transações de fechamento opcionais anteriores serão mantidas e uma nova transação de abertura ou de fechamento será criada para migrar os saldos das transações de ajuste que foram lançadas após o fechamento do exercício anterior.
-- A opção **Criar transações de fechamento durante a transferência** é usada para criar transações de fechamento no ano fiscal que está sendo fechado para zerar os saldos das contas de lucros e perdas. Se essa opção estiver definida como **Sim**, ambas as transações de abertura e fechamento serão criadas. Se essa opção estiver definida como **Não**, somente a transação de abertura será criada no próximo ano fiscal para transferir os saldos. Os saldos das contas de lucros e perdas continuam no final do ano fiscal.
+- A opção **Criar transações de fechamento durante a transferência** é usada para criar transações de fechamento no ano fiscal que está sendo fechado para zerar os saldos de todas as contas principais. Se essa opção estiver definida como **Sim**, ambas as transações de abertura e fechamento serão criadas. Se essa opção estiver definida como **Não**, somente a transação de abertura será criada no próximo ano fiscal para transferir os saldos. Os saldos das contas principais continuam no final do ano fiscal.
 - A opção **Mudar o status do ano fiscal para permanentemente fechado** é usada para mudar o ano fiscal para o status de permanentemente fechado. Use essa opção com cuidado, pois os períodos que tiverem um status de permanentemente fechados não poderão ser reabertos. Portanto, os ajustes não poderão ser lançados no ano fiscal. Como uma prática recomendada, essa opção deve ser definida como **Não**.
 - A opção **O número do comprovante deve ser preenchido** foi removida. Um comprovante agora é necessário quando o processo de fechamento do exercício é executado. Nesse momento, o número do comprovante é inserido manualmente.
 

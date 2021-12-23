@@ -1,7 +1,7 @@
 ---
 title: Dividir um ativo fixo
 description: Este tópico explica como dividir uma porcentagem do registro de ativos em um novo registro de ativos.
-author: saraschi2
+author: moaamer
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJourna
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ac7bc9ae9040f9668c36c570be795ebeb7c6970049ff911b1caeadd06f31d0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2fbca50342196dd9f5acb53027fb9c0052a81de
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778981"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883534"
 ---
 # <a name="split-a-fixed-asset"></a>Dividir um ativo fixo
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como dividir uma porcentagem do registro de ativos em um novo registro de ativos. Usa os dados de função de contador e de demonstração de USMF.
+Este tópico explica como dividir uma porcentagem do registro de ativos em um novo registro de ativos. 
 
 ## <a name="create-a-new-fixed-asset"></a>Criar um novo ativo fixo
 

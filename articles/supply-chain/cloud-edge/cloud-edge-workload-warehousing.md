@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.openlocfilehash: ae8e9791b590a32581b66853f55ea11bc389bb19
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813714"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891742"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -50,6 +50,11 @@ Dependendo dos processos de negócios, o mesmo registro de dados pode alterar a 
 > Alguns dados podem ser criados tanto no hub quanto na unidade de escala. Os exemplos incluem **Placas de licença** e **Números de lote**. O tratamento de conflitos dedicado é fornecido no caso de um cenário no qual o mesmo registro exclusivo é criado no hub e em uma unidade de escala durante o mesmo ciclo de sincronização. Quando isso ocorre, há falha na próxima sincronização e é necessário acessar **Administração do sistema > Consultas > Consultas de carga de trabalho > Registros duplicados**. Lá, é possível exibir e mesclar os dados.
 
 ## <a name="outbound-process-flow"></a>Fluxo do processo de saída
+
+Antes de implantar uma carga de trabalho de gerenciamento de depósito em uma em uma unidade de escala de nuvem ou de borda, verifique se você tem o recurso *Suporte à unidade de escala para liberação para de ordens de saída para o depósito* habilitado no seu hub empresarial. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+
+- **Módulo:** *Gerenciamento de depósito*
+- **Nome do recurso:** *Suporte à unidade de escala para liberação de ordens de saída para o depósito*
 
 O processo de propriedade dos dados de saída depende de você estar usando o processo de planejamento de carga. Em todos os casos, o hub é proprietário dos *documentos de origem*, como ordens de venda e de transferência, bem como do processo de alocação da ordem e dos dados de transação da ordem relacionados. Mas quando você usar o processo de planejamento de carga, as cargas serão criadas no hub e, portanto, inicialmente pertencerão a ele. Como parte do processo *Liberar para o depósito*, a propriedade dos dados de carga é transferida para a implantação da unidade de escala dedicada, que se tornará o proprietário do *processamento de ciclos de remessa* subsequente (como alocação de trabalho, trabalho de reabastecimento e criação de trabalho por demanda). Portanto, os operadores do depósito só podem processar vendas de saída e trabalho de ordem de transferência usando um aplicativo móvel Warehouse Management conectado à implantação que está executando a carga de trabalho da unidade de escala específica.
 
@@ -202,7 +207,7 @@ A tabela a seguir mostra quais recursos de saída têm suporte e onde, quando as
 | Impressão de documentos relacionados ao carregamento                           | Sim | Sim|
 | Conhecimento de embarque e geração de ASN                            | Não  | Sim|
 | Confirmação de remessa                                             | Não  | Sim|
-| Confirmação de remessa com "confirmar e transferir"            | Não  | Não |
+| Confirmação de remessa com "confirmar e transferir"            | Não  | Sim|
 | Processamento de guia de remessa e faturamento                        | Sim | Não |
 | Separação curta (ordens de venda e de transferência)                    | Não  | Sim, sem remover reservas de documentos de origem|
 | Separação em excesso (ordens de venda e de transferência)                     | Não  | Sim|
@@ -212,8 +217,8 @@ A tabela a seguir mostra quais recursos de saída têm suporte e onde, quando as
 | Etiqueta da onda                                                   | Não  | Sim|
 | Divisão do trabalho                                                   | Não  | Sim|
 | Processamento de trabalho - Dirigido por "carregamento de transporte"            | Não  | Não |
-| Reduzir quantidade separada                                       | Não  | Não |
-| Reverter trabalho                                                 | Não  | Não |
+| Reduzir quantidade separada                                       | Não  | Sim|
+| Reverter trabalho                                                 | Não  | Sim|
 | Estornar confirmação da remessa                                | Não  | Sim|
 
 ### <a name="inbound"></a>Entrada
@@ -227,7 +232,7 @@ A tabela a seguir mostra quais recursos de entrada têm suporte e onde, quando a
 | Recebimento de custo de entrega de mercadorias em trânsito                       | Sim | Não |
 | Confirmação de remessa de entrada                                    | Sim | Não |
 | Liberação da ordem de compra para depósito (processamento de ordem de depósito) | Sim | Não |
-| Cancelamento de linhas da ordem de depósito<p>Observe que só haverá suporte quando nenhum registro tiver ocorrido contra a linha</p> | Sim | Não |
+| Cancelamento de linhas da ordem de depósito<p>Observe que só haverá suporte quando nenhum registro tiver ocorrido em relação à linha ao processar a operação de *solicitação para cancelar*</p> | Sim | Não |
 | Recebimento e armazenamento do item da ordem de compra                       | <p>Sim,&nbsp;quando&nbsp;não há&nbsp;uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | <p>Sim, quando uma ordem de compra não faz parte de uma <i>carga</i></p> |
 | Recebimento da linha da ordem de compra e armazenamento                       | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | <p>Sim, quando uma ordem de compra não faz parte de uma <i>carga</i></p></p> |
 | Recebimento e armazenamento da ordem de devolução                              | Sim | Não |
@@ -246,7 +251,7 @@ A tabela a seguir mostra quais recursos de entrada têm suporte e onde, quando a
 | Recebimento com a criação de trabalho de *Qualidade na verificação de qualidade*       | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |
 | Recebimento com a criação de ordem de qualidade                            | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |
 | Processamento de trabalho - Dirigido por *armazenamento de cluster*                 | Sim | Não |
-| Processamento de trabalho com *separação curta*                               | Sim | Não |
+| Processamento de trabalho com *separação curta*                               | Sim | Sim |
 | Carregamento da placa de licença:                                           | Sim | Sim |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Operações de depósito e tratamento de exceções
