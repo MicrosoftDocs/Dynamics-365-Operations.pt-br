@@ -1,8 +1,8 @@
 ---
 title: Configurar e gerenciar o log de banco de dados
 description: É possível rastrear alterações em tabelas e campos no Dynamics 365 Human Resources com o log de banco de dados.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781648"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924811"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurar e gerenciar o log de banco de dados
 
@@ -93,14 +93,14 @@ Você pode excluir todos os logs de banco de dados ou parte deles, usando as seg
 Para configurar a limpeza do log de banco de dados, siga estas etapas: 
 
 1. Acesse **Administração do sistema > Links > Banco de dados > Log de banco de dados**. Selecione **Limpar log**.
+2. No cabeçalho **Registros a serem incluídos**, selecione **Filtro**.
+3. Escolha o método que será usado para selecionar os logs a serem excluídos. Insira uma das seguintes opções:
 
-2. Escolha um método de seleção de logs a serem excluídos, inserindo uma das seguintes opções:
-
-   - ID da Tabela
+   - ID da tabela
    - Tipo de log
    - Data e hora de criação
 
-3. Use a guia **Limpeza de log de banco de dados** para determinar quando a tarefa de limpeza de log deve ser executada. Por padrão, os logs do banco de dados ficam disponíveis por 30 dias.
+4. Use a guia **Limpeza de log de banco de dados** para determinar quando a tarefa de limpeza de log deve ser executada. Por padrão, os logs do banco de dados ficam disponíveis por 30 dias.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,81 +1,119 @@
 ---
-title: Verificador de consistência das transações de varejo
-description: Este tópico descreve a funcionalidade do verificador de consistência das transações no Dynamics 365 Commerce.
-author: josaw1
-ms.date: 10/07/2020
+title: Validar transações de loja para cálculo de demonstrativo
+description: Este tópico descreve a funcionalidade para validar transações da loja no Microsoft Dynamics 365 Commerce.
+author: analpert
+ms.date: 12/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgriffin
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: josaw
+ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c8ba0f99743984860119deb96c889f5d62e1728c8772b9e6786d371690b61489
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741723"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924762"
 ---
-# <a name="retail-transaction-consistency-checker"></a>Verificador de consistência das transações de varejo
+# <a name="validate-store-transactions-for-statement-calculation"></a>Validar transações de loja para cálculo de demonstrativo
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve a funcionalidade do verificador de consistência das transações no Microsoft Dynamics 365 Commerce. O verificador de consistência identifica e isola as transações inconsistentes antes que elas sejam coletadas pelo processo de lançamento de demonstrativo.
+Este tópico descreve a funcionalidade para validar transações da loja no Microsoft Dynamics 365 Commerce. O processo de validação identifica e marca as transações que causarão erros de lançamento, antes que sejam selecionados pelo processo de lançamento do demonstrativo.
 
-Quando um demonstrativo é lançado, pode haver falha no lançamento devido a dados inconsistentes nas tabelas de transações de comércio. O problema nos dados pode ser causado por imprevistos no aplicativo de ponto de venda (PDV) ou pela importação incorreta das transações de sistemas POS de terceiros. Exemplos de como essas inconsistências podem ser exibidas: 
+Quando você tenta lançar um demonstrativo, o processo de validação pode falhar devido a dados inconsistentes nas tabelas de transação comercial. Veja a seguir alguns exemplos de fatores que podem causar essas inconsistências:
 
-- O total da transação na tabela do cabeçalho não corresponde ao total da transação nas linhas.
-- A contagem de linhas na tabela do cabeçalho não corresponde ao número de linhas na tabela de transações.
-- Os impostos na tabela do cabeçalho não correspondem ao valor do imposto nas linhas. 
+- O total da transação na tabela de cabeçalho não corresponde ao total da transação nas linhas.
+- O número de itens especificado na tabela de cabeçalho não corresponde ao número de itens na tabela de transações.
+- Os impostos na tabela de cabeçalho não correspondem ao valor do imposto nas linhas. 
 
-Quando transações inconsistentes são coletadas pelo processo de lançamento de demonstrativo, diários de pagamentos e faturas de vendas inconsistentes são criados e, consequentemente, o processo inteiro falha. Recuperar os demonstrativos desse estado envolve correções complexas de dados em várias tabelas de transações. O verificador de consistência das transações evita esses problemas.
+Se transações inconsistentes forem escolhidas pelo processo de lançamento de demonstrativo, as faturas de venda e os diários de pagamento criados poderão causar falha no lançamento de demonstrativo. O processo **Validar transações de loja** evita esses problemas, garantindo que somente as transações que passam nas regras de validação de transação sejam passadas para o processo de cálculo do demonstrativo de transação.
 
-O gráfico a seguir ilustra o processo de lançamento com o verificador de consistência das transações.
+A ilustração a seguir mostra os processos diurnos recorrentes para carregar transações, validar transações, bem como calcular e lançar demonstrativos de transação e os processos de fim de dia para cálculo e lançamento do demonstrativo financeiro.
 
-![Processo de lançamento do demonstrativo com verificador de consistência de transação.](./media/validchecker.png "Processo de lançamento do demonstrativo com verificador de consistência de transação de varejo")
+![Ilustração mostrando os processos diurnos recorrentes para carregar transações, validar transações, bem como calcular e lançar demonstrativos de transação e os processos de fim de dia para cálculo e lançamento do demonstrativo financeiro](./media/valid-checker-statement-posting-flow.png)
 
-O processo em lote **Validar transações de loja** verifica a consistência das tabelas de transações de comércio para os cenários a seguir.
+## <a name="store-transaction-validation-rules"></a>Regras de validação de transação de loja
 
-- **Conta de cliente** - valida se a conta de cliente nas tabelas de transações de varejo existe no cliente mestre da matriz.
-- **Contagem de linhas** - valida se o número de linhas, como capturado na tabela de cabeçalho de transações, corresponde ao número de linhas nas tabelas de transações de vendas.
-- **Preço inclui imposto** — valida se o parâmetro **Preço inclui imposto** está consistente em todas as linhas de transação e se o preço na linha de vendas está de acordo com a configuração de preço inclui imposto e de isenção de imposto.
-- **Valor do pagamento** — valida se os registros de pagamento correspondem ao valor do pagamento no cabeçalho, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
-- **Valor bruto** — valida se o valor bruto no cabeçalho é a soma dos valores líquidos nas linhas mais o valor do imposto, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
-- **Valor líquido** — valida se o valor líquido no cabeçalho é a soma dos valores líquidos nas linhas, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
-- **Pagamento a maior/a menor** — valida se a diferença entre o valor bruto no cabeçalho e o valor do pagamento não excede a configuração de pagamento maior/a menor máximo, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
-- **Valor de desconto** — valida se o valor de desconto nas tabelas do desconto e o valor de desconto na linha das tabelas de linha de transação são consistentes e se o valor de desconto no cabeçalho é a soma dos valores dos descontos nas linhas, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
-- **Desconto de linha** — valida se o desconto de linha na linha de transação é a soma de todas as linhas na tabela de descontos que corresponde à linha de transação.
-- **Item do cartão-presente** - o Commerce não oferece suporte à devolução de itens do cartão-presente. No entanto, o saldo em um cartão-presente pode ser resgatado. Haverá falha no processo de lançamento de demonstrativo em qualquer item de cartão-presente que seja processado como uma linha de devolução em vez de uma linha de resgate. O processo de validação de itens de cartão-presente ajuda a garantir que somente os itens de cartão-presente devolvidos nas tabelas de transação sejam linhas de resgate de cartão-presente.
-- **Preço negativo** - valida se não há nenhum preço negativo nas linhas de transação.
-- **Item e grade** — valida se os itens e as grades nas linhas de transação existem no item e no arquivo mestre da grade.
-- **Valor do imposto** — valida se os registros de impostos correspondem aos valores de imposto nas linhas.
-- **Número de série** — valida se o número de série. está presente nas linhas de transação dos itens que são controlados por número de série.
-- **Sinal** — valida se o sinal na quantidade e no valor líquido são iguais em todas as linhas de transação.
-- **Data comercial** — valida se os períodos financeiros para todas as datas comerciais para as transações estão abertos.
-- **Encargos** — valida se o cabeçalho e o valor dos encargos da linha estão de acordo com o preço, incluindo a configuração de imposto e de isenção de imposto.
-
-## <a name="set-up-the-consistency-checker"></a>Configurar o verificador de consistência
-
-Configure o processo em lote "Validar transações de loja" em **Retail e Commerce \> TI de Retail e Commerce \> Lançamento do PDV** para execuções periódicas. O trabalho em lotes pode ser agendado com base na hierarquia da organização da loja, semelhante a como os processos "Calcular demonstrativos em lote" e "Lançar demonstrativos em lote" são configurados. É recomendável configurar esse processo em lote para ser executado várias vezes em um dia e agendá-lo de forma que isso ocorra ao final de cada execução de trabalho P.
-
-## <a name="results-of-validation-process"></a>Resultados do processo de validação
-
-Os resultados da verificação de validação pelo processo em lote são marcados na transação apropriada. O campo **Status de validação** do registro de transação é definido como **Êxito** ou **Erro** e a data da última execução de validação aparece no campo **Hora da última validação**.
-
-Para exibir um texto de erro mais descritivo referente a uma falha de validação, selecione o registro de transação da loja relevante e clique no botão **Erros de validação**.
-
-As transações que forem reprovadas na verificação de validação e as que ainda não tiverem sido validadas não serão incluídas nos demonstrativos. Durante o processo "Calcular demonstrativo", os usuários serão notificados se houver transações que poderiam ter sido incluídas no demonstrativo, mas não foram.
-
-Se um erro de validação for encontrado, a única maneira de corrigi-lo é entrar em contato com o Suporte da Microsoft. Em uma versão futura, será adicionado um recurso para que os usuários possam corrigir os registros com falha por meio da interface do usuário. Recursos de registro e auditoria também serão disponibilizados para rastrear o histórico de modificações.
+O processo em lote **Validar transações de loja** verifica a consistência das tabelas de transações de comércio, com base nas regras de validação a seguir.
 
 > [!NOTE]
-> Regras de validação adicionais para oferecer suporte a mais cenários serão adicionadas em uma versão futura.
+> As regras de validação continuarão sendo adicionadas em versões subsequentes.
 
+### <a name="transaction-header-validation-rules"></a>Regras de validação de cabeçalho de transação
+
+A tabela a seguir lista as regras de validação de cabeçalho de transação que são verificadas em relação ao cabeçalho das transações de varejo antes que essas transações sejam passadas para o lançamento de demonstrativo.
+
+| Título | Descrição |
+|-------|-------------|
+| Data comercial | Essa regra valida que a data comercial da transação está associada a um período fiscal aberto no razão. |
+| Arredondamento de moedas | Essa regra valida que os valores da transação são arredondados de acordo com a regra de arredondamento de moeda. |
+| Conta do cliente | Essa regra valida que o cliente usado na transação existe no banco de dados. |
+| Valor do desconto | Essa regra valida que o valor do desconto no cabeçalho é igual à soma dos valores de desconto das linhas. |
+| Status de lançamento de nota fiscal (Brasil) | Essa regra valida que a nota fiscal pode ser lançada com êxito. |
+| Valor bruto | Essa regra valida que o valor bruto no cabeçalho de transação corresponde ao valor líquido, incluindo o imposto, das linhas de transação mais os encargos. |
+| Líquido | Essa regra valida que o valor líquido no cabeçalho de transação corresponde ao valor líquido, excluindo o imposto, das linhas de transação mais os encargos. |
+| Líquido + imposto | Essa regra valida que o valor bruto no cabeçalho de transação corresponde ao valor líquido, excluindo o imposto, das linhas de transação mais todos os impostos e encargos. |
+| Número de itens | Essa regra valida que o número de itens especificado no cabeçalho de transação corresponde à soma das quantidades nas linhas de transação. |
+| Valor do pagamento | Essa regra valida que o valor do pagamento no cabeçalho de transação corresponde à soma de todas as transações de pagamento. |
+| Cálculo de isenção de imposto | Essa regra valida que a soma do valor calculado e da isenção do valor do imposto das linhas do encargo é igual ao valor calculado original. |
+| Preço incluído no imposto | Essa regra valida que o sinalizador **Imposto está incluído no preço** está consistente em todo o cabeçalho de transação e nas transações de imposto. |
+| Transação não vazia | Essa regra valida que a transação contém linhas e que, pelo menos, uma linha não está anulada. |
+| Pagamento a maior/a menor | Essa regra valida que a diferença entre o valor bruto e o valor do pagamento não é maior que a configuração máxima de pagamento maior/a menor. |
+
+### <a name="transaction-line-validation-rules"></a>Regras de validação de linha de transação
+
+A tabela a seguir lista as regras de validação de linha de transação que são verificadas em relação aos detalhes da linha das transações de varejo antes que essas transações sejam passadas para o lançamento de demonstrativo.
+
+| Título | Descrição |
+|-------|-------------|
+| Código de barras | Essa regra valida que todos os códigos de barras do item usados nas linhas de transação existem no banco de dados do. |
+| Linhas de encargo | Essa regra valida que a soma do valor calculado e da isenção do valor do imposto das linhas do encargo é igual ao valor calculado original. |
+| Devoluções de cartão-presente | Essa regra valida que não há devoluções de cartões-presente na transação. |
+| Grade de itens | Essa regra valida que todos os itens e todas as grades de item usados nas linhas de transação existem no banco de dados do. |
+| Desconto de linha | Essa regra valida que o valor do desconto de linha corresponde à soma das transações de desconto. |
+| Imposto de linha | Essa regra valida que o valor do imposto de linha corresponde à soma das transações de imposto. |
+| Preço negativo | Essa regra valida que nenhum preço negativo é usado nas linhas de transação. |
+| Controlado por número de série | Essa regra valida que o número de série está presente na linha de transação dos itens que são controlados por número de série. |
+| Dimensão de números de série | Essa regra valida que nenhum número de série será fornecido se a dimensão de número de série do item estiver inativa. |
+| Contradição de sinal | Essa regra valida que o sinal da quantidade e o sinal do valor líquido são iguais em todas as linhas de transação. |
+| Isenção de imposto | Essa regra valida que a soma do preço do item de linha e da isenção do valor do imposto é igual ao preço original. |
+| Atribuição de grupo de impostos | Essa regra valida que a combinação do grupo de impostos sobre vendas e do grupo de impostos sobre itens produz uma interseção de impostos válida. |
+| Conversões de unidade de medida | Essa regra valida que a unidade de medida de todas as linhas tem uma conversão válida para a unidade de medida de estoque. |
+
+## <a name="enable-the-store-transaction-validation-process"></a>Habilitar o processo de validação de transação de loja
+
+Configure o trabalho **Validar transações de loja** para execuções periódicas na matriz do Commerce (**Retail e Commerce \> TI de Retail e Commerce \> Lançamento do PDV**). O trabalho em lotes é agendado com base na hierarquia da organização da loja. É recomendável configurar esse processo em lotes para ser executado na mesma frequência que os trabalhos em lotes **Trabalho P** e **Cálculo de demonstrativo transacional**.
+
+## <a name="results-of-the-validation-process"></a>Resultados do processo de validação
+
+Os resultados do processo em lote **Validar transações de loja** podem ser exibidos em cada transação de loja de varejo. O campo **Status de validação** no registro de transação é definido como **Êxito**, **Erro** ou **Nenhum**. O campo **Hora da última validação** mostra a data da última execução de validação.
+
+A tabela a seguir descreve cada status de validação.
+
+| Status de validação | Descrição |
+|-------------------|-------------|
+| Êxito | Todas as regras de validação habilitadas foram aprovadas. |
+| Erro | Uma regra de validação habilitada identificou um erro. Você pode exibir mais detalhes sobre o erro selecionando **Erros de validação** no Painel de Ações. |
+| Nenhum | O tipo de transação não requer que as regras de validação sejam aplicadas. |
+
+![A página de transações de loja mostrando o campo Status de validação e o botão Erros de validação.](./media/valid-checker-validation-status-errors.png)
+
+Somente as transações com um status de validação de **Êxito** serão inseridas nos demonstrativos transacionais. Para exibir transações com um status de **Erro**, revise o bloco **Falhas na validação de cash and carry** no espaço de trabalho **Finanças da loja**.
+
+![Blocos no espaço de trabalho Finanças da loja.](./media/valid-checker-cash-carry-validation-failures.png)
+
+Para obter mais informações sobre como corrigir falhas de cash and carry, confira [Editar e auditar transações cash and carry e de gerenciamento de caixa](edit-cash-trans.md).
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Editar e auditar transações cash and carry e de gerenciamento de caixa](edit-cash-trans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

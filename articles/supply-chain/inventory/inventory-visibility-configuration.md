@@ -2,7 +2,7 @@
 title: Configurar Visibilidade de Estoque
 description: Este tópico descreve como configurar o Visibilidade de Estoque.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678462"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920289"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Visibilidade de Estoque
 
@@ -61,7 +61,7 @@ Depois que a configuração for concluída, selecione **Atualizar Configuração
 Cada fonte de dados representa um sistema de onde vêm seus dados. Exemplos de nomes de fonte de dados incluem `fno` (que significa "aplicativos do Dynamics 365 Finance and Operations") e `pos` (que significa "ponto de venda"). Por padrão, o Supply Chain Management é configurado como uma fonte de dados padrão (`fno`) no Visibilidade de Estoque.
 
 > [!NOTE]
-> A fonte de dados `fno` é reservada para o Dynamics 365 Supply Chain Management.
+> A fonte de dados `fno` é reservada para o Supply Chain Management. Se o Suplemento de Visibilidade de Estoque estiver integrado a um ambiente do Supply Chain Management, recomendamos que você não exclua as configurações relacionadas a `fno` na fonte de dados.
 
 Para adicionar uma fonte de dados, siga estas etapas.
 
@@ -273,17 +273,17 @@ A saída `MyCustomAvailableforReservation` com base na configuração de cálcul
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Configuração de partição
 
-A configuração da partição consiste em uma combinação de dimensões básicas. Ela define o padrão de distribuição de dados. As operações de dados na mesma partição dão suporte a alto desempenho e não custam muito. Portanto, bons padrões de partição podem contribuir com benefícios significativos.
-
-O Visibilidade de Estoque fornece a configuração de partição padrão a seguir.
+No momento, a configuração da partição consiste em duas dimensões base (`SiteId` e `LocationId`) que indicam como os dados são distribuídos. As operações na mesma partição podem oferecer melhor desempenho a um custo menor. A tabela a seguir mostra a configuração de partição padrão fornecida pelo Suplemento de Visibilidade de Estoque.
 
 | Dimensão base | Hierarquia |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> A configuração da partição padrão é apenas para referência. Você não precisa defini-la no Visibilidade de Estoque. No momento, não há suporte para a atualização da configuração da partição.
+A solução inclui essa configuração de partição por padrão. Portanto, *você não precisa defini-la*.
+
+> [!IMPORTANT]
+> Não personalize a configuração de partição padrão. Se você excluí-la ou alterá-la, provavelmente causará um erro inesperado.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Configuração de hierarquia de índice de produtos
 

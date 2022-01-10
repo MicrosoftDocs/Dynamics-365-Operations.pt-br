@@ -1,8 +1,8 @@
 ---
 title: Criação de ordens baseadas em um fluxo constante para transações de loja de varejo
 description: Este tópico descreve a criação de ordens baseadas em um fluxo constante para transações de loja no Microsoft Dynamics 365 Commerce.
-author: josaw1
-ms.date: 09/04/2020
+author: analpert
+ms.date: 12/14/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,43 +15,49 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 900480c926df58cc1eaca052903384ceeadcccbdc3a0ede8a35f4b2a8ff87556
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719432"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921229"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Criação de ordens baseadas em um fluxo constante para transações de loja de varejo
 
 [!include [banner](includes/banner.md)]
 
-No Dynamics 365 Retail versões 10.0.4 e anteriores, o lançamento de demonstrativo de varejo é uma operação de fechamento do dia e todas as transações são lançadas nos registros no final do dia. As grandes transações devem ser processadas em uma janela de tempo limitado, ocasionalmente resultando em falhas no lançamento de demonstrativo e bloqueios de carga. Os varejistas também podem não reconhecer receitas e pagamentos em seu registros durante o dia.
+No Microsoft Dynamics 365 Commerce versão 10.0.5 e posterior, é recomendável fazer a transição de todos os processos de lançamento de demonstrativo para os processos de lançamento de demonstrativo baseados em fluxo constante. Os benefícios comerciais e o desempenho significativo estão associados ao uso da funcionalidade do fluxo constante. As transações de venda são processadas durante todo o dia. As transações de gerenciamento de caixa e meio de pagamento são processadas no demonstrativo financeiro no final do dia. A funcionalidade de fluxo constante permite o processamento contínuo de ordens de venda, faturas e pagamentos. Portanto, o estoque, a receita e os pagamentos podem ser atualizados e reconhecidos em tempo quase real.
 
-Com a criação de ordens baseadas em um fluxo constante apresentada no Retail versão 10.0.5, as transações são processadas durante o dia e somente a reconciliação financeira dos meios de pagamento e outras transações de gerenciamento de caixa são processadas no final do dia. Essa funcionalidade divide a carga de criação de ordens de venda, faturas e pagamentos durante o dia, proporcionando melhor desempenho percebido e a possibilidade de reconhecer receitas e pagamentos nos registros quase que em tempo real. 
+## <a name="use-trickle-feed-based-posting"></a>Usar o lançamento baseado em um fluxo constante
 
+> [!IMPORTANT]
+> Antes de habilitar o lançamento baseado em fluxo constante, você deve garantir que não existam demonstrativos calculados e não lançados. Lance todos os demonstrativos antes de habilitar o recurso. Você pode verificar se há demonstrativos abertos no espaço de trabalho **Finanças da loja**.
 
-## <a name="how-to-use-trickle-feed-based-posting"></a>Como usar o lançamento baseado em um fluxo constante
-  
-1. Para habilitar o lançamento de transações de varejo baseado em um fluxo constante, habilite o recurso chamado **Demonstrativos de varejo — Fluxo constante** usando o gerenciamento de recursos.
+Para habilitar o lançamento de transações de varejo baseado em fluxo constante, habilite o recurso **Demonstrativos de varejo – Fluxo constante** no espaço de trabalho **Gerenciamento de recursos**. O demonstrativo será dividido em dois tipos: demonstrativos transacionais e demonstrativos financeiros.
 
-    > [!IMPORTANT]
-    > Antes de habilitar o recurso, verifique se não há nenhum demonstrativo pendente aguardando para ser lançado.
+### <a name="transactional-statements"></a>Demonstrativos transacionais
 
-2. O documento do demonstrativo atual será dividido em dois tipos: demonstrativo transacional e demonstrativo financeiro.
+O processamento do demonstrativo transacional é destinado a ser executado em uma frequência alta ao longo do dia, de modo que os documentos sejam criados quando as transações forem carregadas na matriz do Commerce. As transações são carregadas das lojas na matriz do Commerce quando você executa o **Trabalho P**. Você também deve executar o trabalho **Validar transações de loja** para validar transações de modo que o demonstrativo transacional as escolha.
 
-      - O demonstrativo transacional pegará todas as transações de varejo não lançadas e validadas e criará ordens de venda, faturas de vendas, diários de pagamentos e de desconto e transações de receita/despesa na cadência que você configurar. Configure esse processo para ser executado com alta frequência para que os documentos sejam criados quando as transações forem carregadas no Headquarters pelo trabalho P. Com o demonstrativo transacional que já cria ordens de venda e faturas de vendas, não há necessidade real de configurar o trabalho em lotes **Lançar estoque**. No entanto, você ainda poderá usá-lo para atender a necessidades comerciais específicas que possa ter.  
-      
-     - O demonstrativo financeiro foi projetado para ser criado no final do dia e oferece suporte somente ao método de fechamento **Turno**. Esse demonstrativo estará limitado à reconciliação financeira e criará somente os diários para os valores de diferenças entre o valor contado e o valor da transação dos diferentes meios de pagamento, juntamente com os diários para outras transações de gerenciamento de caixa.   
+Agende os seguintes trabalhos para serem executados em uma frequência alta:
 
-3. Para calcular o demonstrativo transacional, acesse **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos transacionais em lote**. Para lançar os demonstrativos transacionais em lote, acesse **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
+- Para calcular um demonstrativo transacional, execute o trabalho **Calcular demonstrativos transacionais em lote** (**Retail e Commerce \> TI de Retail e Commerce \> Lançamento do PDV \> Calcular demonstrativos transacionais em lote**). Esse trabalho selecionará todas as transações não lançadas e validadas e as adicionará a um novo demonstrativo transacional.
+- Para lançar demonstrativos transacionais em um lote, execute o trabalho **Lançar demonstrativos transacionais em lote** (**Retail e Commerce \> TI de Retail e Commerce \> Lançamento do PDV \> Lançar demonstrativos transacionais em lote**). Esse trabalho executará o processo de lançamento e criará ordens de venda, faturas de venda, diários de pagamento, diários de desconto e transações de receita/despesa para demonstrativos não lançados que não contêm erros. 
 
-4. Para calcular o demonstrativo financeiro, acesse **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos financeiros em lote**. Para lançar os demonstrativos financeiros em lote, acesse **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
+### <a name="financial-statements"></a>Demonstrativos financeiros
 
-> [!NOTE]
-> Os itens de menu **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos em lote** e **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos em lote** foram removidos com este novo recurso.
+O processamento do demonstrativo financeiro destina-se a ser um processo de fechamento do dia. Esse tipo de processamento de demonstrativo oferece suporte somente ao método de fechamento de **Turno** e selecionará somente turnos fechados. Os demonstrativos são limitados à reconciliação financeira. Eles criarão somente os diários para os valores de diferença entre o valor contado e o valor da transação de meios de pagamento, e diários para outras transações de gerenciamento de caixa.
 
-Como alternativa, os tipos de demonstrativo transacional e financeiro podem ser criados manualmente. Acesse **Retail e Commerce > Canais > Lojas** e clique em **Demonstrativos**. Clique em **Novo** e escolha o tipo de demonstrativo que deseja criar. Os campos na página **Demonstrativos** e as ações no **Grupo de demonstrativos** da página mostrarão os dados relevantes e as ações baseadas no tipo de demonstrativo selecionado.
+Agendar as horas inicial e final dos seguintes trabalhos de demonstrativo financeiro com base no final esperado do dia:
 
+- Para calcular um demonstrativo financeiro, execute o trabalho **Calcular demonstrativos financeiros em lote** (**Retail e Commerce \> TI de Retail e Commerce \> Lançamento do PDV \> Calcular demonstrativos financeiros em lote**). Este trabalho coletará todas as transações financeiras não lançadas e as adicionará a um novo demonstrativo financeiro.
+- Para lançar demonstrativos financeiros em um lote, execute o trabalho **Lançar demonstrativos financeiros em lote** (**Retail e Commerce \> TI de Retail e Commerce \> Lançamento do PDV \> Lançar demonstrativos financeiros em lote**).
+
+### <a name="manually-create-statements"></a>Criar demonstrativos manualmente
+
+Os tipos de demonstrativo transacional e financeiro também podem ser criados manualmente. 
+
+1. Acesse **Retail e Commerce \> Canais \> Lojas** e selecione **Demonstrativos**. 
+2. Selecione **Novo** e, em seguida, selecione o tipo de demonstrativo a ser criado. Os campos na página **Demonstrativos** mostrarão os dados relevantes ao tipo de demonstrativo selecionado, bem como as ações em **Grupo de demonstrativos** mostrarão ações relevantes.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

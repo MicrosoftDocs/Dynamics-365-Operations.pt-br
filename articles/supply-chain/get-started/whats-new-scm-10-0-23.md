@@ -1,5 +1,5 @@
 ---
-title: Versão preliminar do Dynamics 365 Supply Chain Management 10.0.23 (janeiro de 2022)
+title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.23 (janeiro de 2022)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891784"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920191"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.23 (janeiro de 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.23 (janeiro de 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico lista os recursos novos ou alterados na versão preliminar da versão 10.0.23 do Microsoft Dynamics 365 Supply Chain Management. Esta versão tem um número de compilação de 10.0.1037 e está disponível da seguinte maneira:
+Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.23. Esta versão tem um número de compilação de 10.0.1037 e está disponível da seguinte maneira:
 
 - **Versão preliminar:** outubro de 2021
 - **Disponibilidade geral da versão (atualização automática):** dezembro de 2021

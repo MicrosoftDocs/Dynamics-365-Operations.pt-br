@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fd874f3c6c1f4d25b3257d6465686dcb8e95b933
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576007"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920589"
 ---
 # <a name="wave-allocation"></a>Alocação de ciclo
 
@@ -77,7 +77,7 @@ O processamento de alocação paralela exige que o processamento do ciclo seja e
 
 Se necessário, você poderá desfazer cada uma das configurações feitas por padrão quando o recurso *Paralelização do ciclo para o método Alocar Ciclo* estiver habilitado automaticamente para sua instância. Para fazer isto:
 
-- Acesse **Gerenciamento do depósito\> Configuração \> Parâmetros de gerenciamento de depósito**. Na guia **Processamento do ciclo**, aplique os valores preferidos para **Processar ciclos em lotes** e **Aguardar bloqueio (ms)**.
+- Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**. Na guia **Processamento do ciclo**, aplique os valores preferidos para **Processar ciclos em lotes** e **Aguardar bloqueio (ms)**.
 - Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**. Selecione o método `allocateWave`. No Painel de Ações, selecione **Configuração da tarefa** para abrir uma página que liste cada depósito no qual o método está definido para ser executado em paralelo. Modifique ou exclua o número de tarefas em lotes e o grupo de ciclos atribuído a cada depósito listado, conforme necessário.
 
 ## <a name="troubleshooting"></a>Solução de problemas
