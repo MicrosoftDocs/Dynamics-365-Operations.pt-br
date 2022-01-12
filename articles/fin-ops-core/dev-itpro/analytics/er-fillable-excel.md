@@ -2,7 +2,7 @@
 title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890856"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943603"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -364,6 +364,22 @@ Você pode corrigir o problema de uma das seguintes maneiras:
     3. Execute o formato de ER modificado.
 
         ![Revisão do documento gerado no aplicativo de área de trabalho do Excel.](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>Limitações
+
+### <a name="known-epplus-library-limitations"></a>Limitações conhecidas da biblioteca EPPlus
+
+#### <a name="external-data-sources"></a>Fontes de dados externas
+
+Se um dos seus modelos contiver uma Tabela Dinâmica baseada em um modelo do PowerPivot que se refere a uma [fonte de dados externa](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b) e o recurso **Habilitar o uso da biblioteca EPPlus na estrutura do Relatório Eletrônico** estiver habilitado, você receberá a seguinte mensagem de erro ao executar um formato de ER que usa esse modelo para gerar um documento de saída no formato Excel: "A fonte de cache não é uma planilha". Para solucionar esse problema, você tem estas opções:
+
+- **Recomendado:** Recrie a solução do Excel que você está usando:
+
+    1. Isole a parte que contém pivôs em uma pasta de trabalho separada do Excel (pasta de trabalho A). 
+    2. Use ER para gerar uma segunda pasta de trabalho do Excel (pasta de trabalho B) do Finance com os detalhes necessários. 
+    3. Consulte a pasta de trabalho B na pasta de trabalho A assim que a pasta de trabalho B for gerada.
+
+- Use uma opção diferente de EPPlus para desativar o recurso. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -4,6 +4,34 @@
       items:
         - name: Home page do Dynamics 365 Supply Chain Management
           href: index.md
+        - name: Novidades ou alterações
+          items:
+            - name: Novidades ou alterações nos aplicativos do Finance and Operations
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Novidades ou alterações no Supply Chain Management
+              items:
+                - name: Novidades ou alterações na home page do Supply Chain Management
+                  href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.24 (fevereiro de 2022)
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: Supply Chain Management 10.0.23 (janeiro de 2022)
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: Supply Chain Management 10.0.22 (novembro de 2021)
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: Supply Chain Management 10.0.21 (outubro de 2021)
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: Recursos removidos ou preteridos
+              items:
+                - name: Home page de recursos removidos ou preteridos
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Recursos removidos ou preteridos do Dynamics 365 Supply Chain Management
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: Recursos removidos ou preteridos em versões anteriores
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Recursos do AX 2012 que foram postergados
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Fim do suporte base ao Microsoft Dynamics AX 2009 e 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: Introdução
           items:
             - name: Descrição do serviço
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar a armazenagem para implantações locais
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Novidades ou alterações
-              items:
-                - name: Novidades ou alterações nos aplicativos do Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Novidades ou alterações no Supply Chain Management
-                  items:
-                    - name: Novidades ou alterações na home page do Supply Chain Management
-                      href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.24 (fevereiro de 2022)
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: Supply Chain Management 10.0.23 (janeiro de 2022)
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: Supply Chain Management 10.0.22 (novembro de 2021)
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: Supply Chain Management 10.0.21 (outubro de 2021)
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: Recursos removidos ou preteridos
-                  items:
-                    - name: Home page de recursos removidos ou preteridos
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Recursos removidos ou preteridos do Dynamics 365 Supply Chain Management
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Recursos removidos ou preteridos em versões anteriores
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Recursos do AX 2012 que foram postergados
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Fim do suporte base ao Microsoft Dynamics AX 2009 e 2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Recursos de documentação
               items:
                 - name: Sistema de ajuda
@@ -1617,6 +1617,8 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: APIs públicas de Visibilidade de Estoque
                   href: inventory/inventory-visibility-api.md
+                - name: Dicas de Visibilidade de Estoque
+                  href: inventory/inventory-visibility-tips.md
         - name: Inteligência da IoT
           items:
             - name: Home page de Inteligência da IoT
@@ -3571,9 +3573,11 @@
                   href: troubleshooting/inventory/the-field-last-test.md
                 - name: 'Na divisão de uma quantidade de peso variável, a quantidade mínima é usada em vez da quantidade nominal'
                   href: troubleshooting/inventory/while-splitting-the.md
-            - name: Planejamento mestre
+            - name: Planejamento Mestre
               items:
-                - name: O detalhamento da lista de materiais se comporta de forma diferente para ordens de produção confirmadas e estimadas
+                - name: O sistema não pode encontrar uma ordem planejada ao operar em várias ordens
+                  href: troubleshooting/planning/planned-order-not-exist.md
+                - name: O detalhamento da BOM se comporta de forma diferente para ordens de produção confirmadas e estimadas
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: O valor de atraso não é atualizado quando você reprograma uma ordem planejada
                   href: troubleshooting/planning/delay-value-not-updated.md

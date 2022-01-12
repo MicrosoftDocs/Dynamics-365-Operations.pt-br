@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 680d5ed929a396bfb2d3c7f05351ab6c93d29256c825c618cb166aac444aa5d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726888"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920514"
 ---
 # <a name="product-dimensions"></a>Dimensões do produto
 
@@ -78,7 +78,7 @@ Uma empresa vende jeans denim. O item *Jeans* usa as dimensões cor e tamanho do
 
 ## <a name="the-version-product-dimension"></a>A dimensão do produto de versão
 
-A versão é uma dimensão de produto pretendida para ajudar a manter e rastrear várias versões de um produto em toda a cadeia de suprimentos. O controle de versões é essencial para o sucesso dos fabricantes que operam em um mundo para reduzir constantemente os ciclos de vida do produto, aumentar os requisitos de qualidade e confiabilidade e aumentar o foco na segurança do produto.
+A versão é uma dimensão de produto pretendida para ajudar a manter e rastrear várias versões de um produto em toda a cadeia de suprimentos. O controle de versão é essencial para o sucesso dos fabricantes que operam em um mundo com ciclos de vida de produtos cada vez menores, requisitos de qualidade e confiabilidade maiores e um foco maior na segurança dos produtos.
 
 Como uma dimensão de produto padrão, a versão terá comportamento semelhante às dimensões do produto existentes (tamanho, estilo, cor e configuração). Portanto, você pode usá-lo para outras finalidades além de rastrear versões de produtos.
 

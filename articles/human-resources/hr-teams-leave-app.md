@@ -2,7 +2,7 @@
 title: Gerenciar solicitações de licença no Teams
 description: Este tópico mostra como solicitar licenças no aplicativo do Dynamics 365 Human Resources no Microsoft Teams.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771522"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924738"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gerenciar solicitações de licença no Teams
 
@@ -35,6 +35,9 @@ Você pode encontrar o aplicativo Dynamics 365 Human Resources na loja do Teams.
 1. No Microsoft Teams, navegue até a lista de aplicativos.
  
 2. Procure Dynamics 365 Human Resources, e selecione o título **Human Resources**.
+
+> [!NOTE]
+> A partir de 20 de dezembro de 2021, os serviços de bot do aplicativo Human Resources (versão 1.1.4) hospedados no locatário da Microsoft serão desativados. A extensão mais atualizada (versão 1.1.5) está disponível para instalação. Para obter mais informações, consulte [Gerenciar solicitações de licença no Teams](hr-admin-teams-leave-app.md#update-app).
 
 3. Selecione o botão **Adicionar** para instalar o aplicativo.
 

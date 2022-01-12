@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 25507a482b2db7c01f56679bf3e8454249de3a6b9965f9c359a2ebe2cc8445ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec5e0ac8dd097e5ebf016683fc5c17df7ecb2305
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711678"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920389"
 ---
 # <a name="quantity-that-youre-trying-to-update-exceeds-the-receiveddelivered-quantity"></a>A quantidade que você está tentando atualizar excede a quantidade recebida/entregue
 
@@ -62,8 +62,8 @@ Use o seguinte procedimento para ajustar a quantidade da linha de carga.
 
 1. Acesse **Gerenciamento de depósito \> Cargas \> Todas as cargas**.
 1. Selecione a carga para a qual a guia de remessa não pode ser gerada.
-1. No Painel de Ações, na guia  **Enviar e receber**, no grupo  **Reverter**, selecione  **Confirmação de envio reverso**.
-1. Na guia  **Linhas de carga**, selecione a linha de carga para o item que causa um problema.
+1. No Painel de Ações, na guia **Enviar e receber**, no grupo **Reverter**, selecione **Confirmação de remessa reversa**.
+1. Na guia **Linhas de carga**, selecione a linha de carga para o item que causa um problema.
 1. Selecione **Reduzir a quantidade escolhida** para ajustar a quantidade escolhida.
 1. Defina o campo **Reduzir linha de carga** para refletir os ajustes na linha de carga.
 
@@ -75,5 +75,5 @@ Use o procedimento a seguir para reverter o registro de escolha.
 
 1. Acesse **Contas a receber \> Ordens \> Todas as ordens**.
 1. Selecione a ordem de venda para a qual você não pode postar uma guia de remessa para a carga.
-1. Na guia  **Linhas de ordem de venda**, selecione a linha de ordem de venda para a qual o registro de escolha foi feito.
+1. Na guia **Linhas de ordem de venda**, selecione a linha de ordem de venda para a qual o registro de escolha foi feito.
 1. Selecione **Atualizar linha \> Escolher** para cancelar a seleção dos itens.

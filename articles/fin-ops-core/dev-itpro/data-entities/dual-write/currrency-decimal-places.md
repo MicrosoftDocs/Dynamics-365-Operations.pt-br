@@ -2,19 +2,19 @@
 title: Migração de tipo de dados de moeda para gravação dupla
 description: Este tópico descreve como alterar o número de casas decimais que a gravação dupla permite para moeda.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782798"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917721"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migração de tipo de dados de moeda para gravação dupla
 
@@ -83,9 +83,20 @@ Se quiser que a precisão de uma moeda específica seja diferente da precisão d
 
 ![Configurações de moeda para uma localidade específica.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>tabelas: coluna Moeda
+### <a name="tables-currency-column"></a>Tabelas: coluna Moeda
 
 O número de casas decimais que podem ser configuradas para colunas de moeda específicas é limitado a quatro.
 
+### <a name="default-currency-decimal-precision"></a>Precisão decimal da moeda padrão
+Para obter o comportamento esperado da precisão decimal da moeda padrão em cenários de migração e de não migração, consulte a tabela a seguir. 
+
+| Data de criação  | Campo decimal da moeda    | Organização existente (campo Moeda não migrado) | Organização existente (campo Moeda migrado) | Nova organização criada após o build 9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Campo Moeda criado antes do build 9.2.21111.00146  |     |  |       |
+|    | Precisão máxima visível na interface do usuário   | 4 dígitos    | 10 dígitos    | N/D    |
+| | Precisão máxima visível no banco de dados e na interface do usuário de resultados da consulta de BD         | 4 dígitos   | 10 dígitos   | N/D    |
+| Campo Moeda criado depois do build 9.2.21111.00146 |    |  |     |   |
+|   | Precisão decimal máxima visível na interface do usuário     | 4 dígitos   | 10 dígitos   | 10 dígitos     |
+|          | Precisão decimal máxima visível no banco de dados e na interface do usuário de resultados da consulta de BD | 10 dígitos. No entanto, somente 4 são significativos com todos os zeros além dos 4 dígitos decimais. Isso permite uma migração mais simples e rápida da organização, se necessário. | 10 dígitos      | 10 dígitos     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

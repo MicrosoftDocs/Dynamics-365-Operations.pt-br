@@ -2,7 +2,7 @@
 title: Aplicativo Human Resources no Teams
 description: Este tópico apresenta o aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913480"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924713"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicativo Human Resources no Teams
 
@@ -41,6 +41,21 @@ Você pode encontrar o aplicativo Dynamics 365 Human Resources na loja do Teams.
 Para obter informações sobre como gerenciar permissões de aplicativo no Teams, consulte [Gerenciar políticas de permissão de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
 
 Se desejar que os usuários exibam o Calendário de licenças e ausências no aplicativo, habilite o **Calendário de licenças e ausências no Teams** no Gerenciamento de recursos. Para obter mais informações sobre como habilitar recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>Atualizar aplicativo
+>[!NOTE]
+> A partir de 20 de dezembro de 2021, os serviços de bot do aplicativo Human Resources hospedados no locatário da Microsoft serão desativados. Não haverá nenhum impacto para uma extensão atualizada (versão 1.1.5) que está disponível para instalação. O impacto principal será na extensão desatualizada (versão 1.1.4). O bot de chat desta versão deixará de funcionar. A guia **Folga** continuará funcionando em ambas as extensões.
+
+Para a versão 1.1.4, o bot de chat deixa de responder a todas as mensagens. Por exemplo, **Entrar**, **Exibir saldos** e **Ver folga**. O aplicativo deve ser atualizado manualmente para a versão mais recente. Para obter mais informações, consulte [Atualizar aplicativos no Microsoft Teams](/MicrosoftTeams/apps-update-experience).
+
+Para atualizar para a versão 1.1.5, siga estas etapas:
+1. No Microsoft Teams, vá para **Aplicativos**.
+2. Encontre o aplicativo **Human Resources**.
+3. Selecione **Atualizar**.
+
+Para verificar a versão do aplicativo Human Resources, acesse a guia **Sobre** ou a seção **Aplicativo pessoal**. 
+
+![Guia **Sobre** do Human Resources.](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Habilitar notificações para o aplicativo de recursos humanos no Teams
 

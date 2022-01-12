@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (novembro de 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21 (outubro de 2021)
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Recursos removidos ou preteridos
                   items:
                     - name: Home page de recursos removidos ou preteridos
@@ -842,7 +840,7 @@
           items:
             - name: Visão geral de demonstrativos
               href: retail-statements.md
-            - name: Verificador de consistência de transações
+            - name: Validar transações de loja para cálculo de demonstrativo
               href: valid-checker.md
             - name: Desabilitar regras no verificador de consistência das transações de varejo
               href: disable-consistency-check-rule.md
@@ -1286,6 +1284,8 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Configurar integração fiscal do canal do Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Configurar pipeline de build para exemplo de integração fiscal
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Perfis de certificado definidos pelo usuário para lojas de varejo
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory Configuration Service (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: Exemplo de integração de serviços de registro fiscal para a Áustria
                   href: localizations/emea-aut-fi-sample.md
+                - name: Diretrizes de implantação para o exemplo de integração fiscal da Áustria (herdada)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasil
               items:
                 - name: Localização do Commerce para o Brasil
@@ -1358,12 +1360,16 @@
                   items:
                     - name: Exemplo de integração de serviços de registro fiscal para a República Tcheca
                       href: localizations/emea-cze-fi-sample.md
+                    - name: Diretrizes de implantação para o exemplo de integração fiscal da República Tcheca (herdada)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Polônia
                   items:
                     - name: Exemplo de integração da impressora fiscal para a Polônia
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Gerenciamento de informações do cliente para a Polônia
                       href: localizations/emea-pol-customer-information.md
+                    - name: Diretrizes de implantação para o exemplo de integração fiscal da Polônia (herdada)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: França
               items:
                 - name: Funcionalidade de caixa registradora
@@ -1380,9 +1386,11 @@
               items:
                 - name: Exemplo de integração de serviços de registro fiscal para a Alemanha
                   href: localizations/emea-deu-fi-sample.md
+                - name: Diretrizes de implantação para o exemplo de integração fiscal da Alemanha (herdada)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Índia
               items:
-                - name: Integração de impostos sobre bens e serviços (GST) para caixas registradoras
+                - name: Integração de GST (Imposto sobre Bens e Serviços) para caixas registradoras
                   href: localizations/apac-ind-cash-registers.md
                 - name: Diretrizes de implantação para caixas registradoras
                   href: localizations/apac-ind-loc-deployment-guidelines.md
@@ -1390,7 +1398,7 @@
                   href: localizations/apac-ind-n-1-for-india.md
                 - name: Gerar códigos QR e imprimi-los nos recibos para a Índia
                   href: localizations/ind-generate-qr-code-print-receipt.md
-                - name: Integração de impostos sobre bens e serviços (GST) para sites de comércio eletrônico
+                - name: Integração de GST (Imposto sobre Bens e Serviços) para sites de comércio eletrônico
                   href: localizations/apac-ind-e-commerce.md
             - name: Itália
               items:
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Gerenciamento de informações do cliente para a Itália
                   href: localizations/emea-ita-customer-information.md
+                - name: Diretrizes de implantação para o exemplo de integração fiscal da Itália (herdada)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: México
               items:
                 - name: Faturas eletrônicas globais de CFDI para o México
@@ -1407,6 +1417,8 @@
                 - name: Funcionalidade de caixa registradora
                   href: localizations/emea-nor-cash-registers.md
                 - name: Diretrizes de implantação para caixas registradoras
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: Diretrizes de implantação para caixas registradoras (herdadas)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rússia
               items:
@@ -1432,6 +1444,8 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Exemplo de integração da unidade de controle para a Suécia
                   href: localizations/emea-swe-fi-sample.md
+                - name: Diretrizes de implantação para o exemplo de integração da unidade de controle da Suécia (herdada)
+                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Exemplo para integração do Retail POS com unidades de controle (herdado)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Relatórios e integrações do Power BI
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: Criar um gancho de plug-in de pipeline de solicitação
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: Componente de imagem
+                      href: e-commerce-extensibility/image-component.md
                 - name: Desenvolver ações de dados
                   items:
                     - name: Visão geral de ações de dados
@@ -2574,9 +2590,11 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Baixar amostras e pacotes do GitHub e NuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Configurar um agente de compilação do Visual Studio 2017 para criar Modern POS
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: Perguntas frequentes sobre o SDK do Retail
                   href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: Extensibilidade de ponto de venda (PDV)
+            - name: Extensibilidade do PDV (Ponto de Venda)
               items:
                 - name: Layouts da tela de PDV
                   href: pos-screen-layouts.md

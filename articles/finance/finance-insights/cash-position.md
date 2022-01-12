@@ -2,7 +2,7 @@
 title: Posição de caixa
 description: Este tópico descreve como o recurso de previsão de fluxo de caixa prevê a posição de pagamento à vista de uma organização para horários específicos. Também descreve as opções disponíveis para mostrar previsões para períodos diferentes.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752871"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945780"
 ---
 # <a name="cash-position"></a>Posição de caixa
 
@@ -45,5 +45,17 @@ A seção inferior da guia **Posição de pagamento à vista** mostra detalhes d
 - A grade **Conta bancária** mostra o impacto de entradas e saídas de caixa esperada no saldo do banco.
 
 Para salvar e editar a posição de pagamento à vista, crie um instantâneo. FoPara obter mais informações sobre como trabalhar instantâneos, consulte [Visão geral de instantâneos](payment-snapshots.md).
+
+## <a name="details-of-the-cash-position-capability"></a>Detalhes do recurso de posição de caixa 
+
+O recurso de posição de caixa inclui a funcionalidade a seguir. 
+
+- A posição de caixa mostra o fluxo de caixa com base em documentos existentes no sistema e nas linhas de entrada e saída importadas dos sistemas externos.
+- Facilita a integração de dados de fluxo de caixa de sistemas externos para o Dynamics 365 Finance. A posição de caixa também podem usar a estrutura de importação-exportação de dados. Esta estrutura facilita a integração com o Excel/OData. Também é possível combinar dados de várias fontes para criar uma solução de posição de caixa abrangente.
+- Introduz a posição de caixa à vista inteligente. A posição de caixa é criada com base no comportamento de pagamento do cliente para prever quando uma empresa pode esperar dinheiro chegar em suas contas.
+- Para ordens e faturas do cliente, a funcionalidade de IA de previsão de pagamento do cliente é usada para determinar o comportamento histórico de pagamento do cliente quando uma ordem ou fatura for paga.
+- Para ordens e faturas do fornecedor, usamos o tempo médio entre a remessa e a fatura e o pagamento de uma fatura por fornecedor para determinar quando uma ordem ou fatura do fornecedor será paga, fazendo com que as saídas de caixa sejam mais precisas.
+
+Isso cria uma visão mais precisa do fluxo de caixa com base no comportamento do pagamento histórico do tesoureiro. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

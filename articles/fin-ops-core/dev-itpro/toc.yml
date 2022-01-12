@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Arquivos da memória de tradução
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Extensão do Azure DevOps (versão preliminar pública)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Integração do Microsoft Power Platform
           items:
             - name: Visão Geral
@@ -1602,6 +1604,8 @@
                   href: sysadmin/retryable-batch.md
                 - name: Copiar um trabalho em lotes
                   href: sysadmin/copy-batch-job.md
+                - name: Agendamento de lotes com base na prioridade
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Períodos de lote ativos
                   href: sysadmin/activeperiod.md
                 - name: Suporte ao horário de verão para períodos de lote ativos

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 7d462992816a5a2dee73979ed4cb1521ca4ce4f7
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752895"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945745"
 ---
 # <a name="cash-flow-forecasting"></a>Previsão de fluxo de caixa
 
@@ -37,6 +37,7 @@ Depois de concluir estas tarefas, você pode calcular e analisar previsões de f
 A previsão de fluxo de caixa pode ser integrada com Contabilidade, Contas a pagar, Contas a receber, Orçamento e gerenciamento de estoque. O processo de previsão usa informações de transação inseridas no sistema e o processo de cálculo prevê o efeito esperado de caixa de cada transação. Os seguintes tipos de transações são considerados quando o fluxo de caixa é calculado:
 
 - **Ordens de venda** – Ordens de venda que ainda não foram faturadas e que resultam em vendas físicas ou financeiras.
+- **Faturas de texto livre** – Faturas de texto livre que ainda não foram lançadas e que resultam em vendas financeiras. 
 - **Ordens de compra** – Ordens de compra que ainda não foram faturadas e que resultam em compras físicas ou financeiras.
 - **Contas a receber** – Transações de cliente abertas (notas fiscais que não foram pagas).
 - **Contas a pagar** – Transações do fornecedor abertas (notas fiscais que não foram pagas).
@@ -44,7 +45,9 @@ A previsão de fluxo de caixa pode ser integrada com Contabilidade, Contas a pag
 - **Entradas de registro de orçamento** – Entradas de registro de orçamento marcadas para previsões de fluxo de caixa.
 - **Previsões de demanda** – Linhas do modelo de previsão de estoque selecionadas para previsões de fluxo de caixa.
 - **Previsões de fornecimento** – Linhas do modelo de previsão de estoque selecionadas para previsões de fluxo de caixa.
+- **Fonte de dados externa** – Dados externos inseridos ou importados para as previsões de fluxo de caixa usando modelos de planilha.
 - **Previsões do projeto**- previsões de gerenciamento e contabilidade de projetos usando o modelo de previsão.
+- **Pagamentos da autoridade de imposto do fluxo de caixa** – Valores previstos de pagamentos da autoridade de imposto que resultam em pagamentos financeiros. Habilite o recurso de pagamentos da autoridade de imposto do fluxo de caixa.
 
 ## <a name="configuration"></a>Configuração
 
@@ -94,7 +97,7 @@ As entradas de registro de orçamento podem ser incluídas na previsão de fluxo
 A fonte e previsões de demanda de estoque podem ser incluídas em previsões de fluxo de caixa. Na guia **Gerenciamento de estoque** da página **Configuração da previsão de fluxo de caixa**, selecione os modelos de previsão para incluir na previsão de fluxo de caixa. A inclusão na previsão de fluxo de caixa pode ser substituída em linhas de previsão de demanda e suprimento individual.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configurando dimensões para previsão de fluxo de caixa
-Uma nova guia na página **Configuração da previsão de fluxo de caixa** permite controlar as dimensões financeiras a serem usadas para filtragem no espaço de trabalho **Previsão de fluxo de caixa**. Esta guia só é exibida quando o recurso de previsões de Fluxo de caixa estiver habilitado no Finance insights. 
+Uma nova guia na página **Configuração da previsão de fluxo de caixa** permite controlar as dimensões financeiras a serem usadas para filtragem no espaço de trabalho **Previsão de fluxo de caixa** . Esta guia só será exibida quando o recurso de previsões de fluxo de caixa estiver habilitado.
 
 Na guia **Dimensões**, escolha na lista de dimensões a ser usada para filtragem e use as teclas de seta para movê-las para a coluna à direita. Somente duas dimensões podem ser selecionadas para filtrar dados de previsão de fluxo de caixa. 
 
@@ -108,6 +111,10 @@ Na versão 10.0.17, um novo recurso permite a integração com Gerenciamento e c
 Após a ativação do recurso Previsão de fluxo de caixa do projeto, a previsão de fluxo de caixa pode ser exibida para cada projeto na página **Todos os projetos**. No Painel de Ações, na guia **Planejar**, no grupo de **Previsões**, selecione **Previsão de fluxo de caixa**. Nos espaços de trabalho **Visão geral de caixa** (consulte a seção [Relatórios](#reporting) posteriormente neste tópico), o tipo de transação previsão de projeto mostra os fluxos (receita de previsão do projeto) e as saídas (custos de previsão do projeto). Os valores só podem ser incluídos se o campo **Estágio do projeto** nos espaços de trabalho **Visão geral de caixa** estiver definido como **Em processo**.
 
 As transações do projeto ainda são incluídas na previsão de fluxo de caixa de várias formas, independentemente de o recurso **Previsão de fluxo de caixa do projeto** estar ativado. As notas fiscais de projeto são lançadas na previsão como parte das transações de cliente abertas. As ordens de venda e ordens de compra iniciadas pelo projeto são incluídas na previsão como ordens abertas após serem inseridas no sistema. Você também pode transferir previsões de projeto para um modelo de orçamento do razão. Esse modelo de orçamento de razão está incluído na previsão de fluxo de caixa como parte das entradas de registro de orçamento. Se você ativou o recurso **Previsão de fluxo de caixa de projeto**, não transfira previsões de projeto para um modelo de orçamento do razão porque essa ação fará com que as previsões de projeto sejam contabilizadas duas vezes.
+
+### <a name="sales-tax-authority-payments"></a>Pagamentos da autoridade de imposto 
+
+O recurso de pagamentos da autoridade de imposto do fluxo de caixa prevê o impacto no fluxo de caixa dos pagamentos de imposto. Ele usa transações de imposto não pagas, períodos de liquidação de imposto e a duração do período do imposto para prever a data e o valor de pagamentos do fluxo de caixa. 
 
 ### <a name="calculation"></a>Cálculo
 

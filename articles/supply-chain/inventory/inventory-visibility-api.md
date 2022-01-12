@@ -2,7 +2,7 @@
 title: APIs públicas de Visibilidade de Estoque
 description: Este tópico descreve as APIs públicas fornecidas pela visibilidade do Estoque.
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678778"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920091"
 ---
 # <a name="inventory-visibility-public-apis"></a>APIs públicas de Visibilidade de Estoque
 
@@ -41,8 +41,8 @@ A tabela a seguir lista as APIs disponíveis no momento:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Lançar | [Definir/substituir quantidades disponíveis](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Lançar | [Criar um evento de reserva](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Lançar | [Criar vários eventos de reserva](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Obter | [Consultar usando o método post](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand/indexquery | Lançar | [Consultar usando o método get](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | Lançar | [Consultar usando o método post](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | Obter | [Consultar usando o método get](#query-with-get-method) |
 
 A Microsoft forneceu uma coleção de solicitações do *Postman* pronta para uso. Você pode importar essa coleção para o seu software *Postman* usando o seguinte link compartilhado: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
@@ -476,7 +476,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Consultar disponíveis
 
-A API _Consultar disponíveis_ é usada para buscar dados de estoque disponível atuais para seus produtos.
+Use a API _Consultar disponíveis_ para buscar dados de estoque disponível atuais para seus produtos. No momento, a API oferece suporte à consulta de até 100 itens individuais por valor de `ProductID`. Diversos valores `SiteID` e `LocationID` também podem ser especificados em cada consulta. O limite máximo é definido como `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Consultar usando o método post
 
@@ -551,7 +551,7 @@ Os exemplos a seguir mostram como consultar todos os produtos em um site e local
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +568,7 @@ Query(Url Parameters):
 Este é um exemplo de obtenção de URL. Essa solicitação get é exatamente igual ao exemplo de lançamento fornecido anteriormente.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

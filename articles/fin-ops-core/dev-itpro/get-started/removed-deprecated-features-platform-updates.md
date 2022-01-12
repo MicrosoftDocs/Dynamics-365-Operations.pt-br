@@ -2,7 +2,7 @@
 title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
-ms.date: 10/28/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725040"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927470"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -74,7 +74,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Não há um controle para executar esse evento. |
-| **Substituída por outro recurso?**   | Sim, mover métodos existentes inscritos pelo evento **OnDBSynchronzie** para uma classe estendida SysSetup. |
+| **Substituída por outro recurso?**   | Sim, mover métodos existentes inscritos pelo evento **OnDBSynchronize** para uma classe estendida SysSetup. |
 | **Áreas afetadas do produto**         | Sincronização de banco de dados |
 | **Opção de implantação**              | Tudo |
 | **Status**                         | Preterido. A data de remoção planejada é outubro de 2022. |

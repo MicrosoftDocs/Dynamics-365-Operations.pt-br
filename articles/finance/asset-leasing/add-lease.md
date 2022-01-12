@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893636"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931972"
 ---
 # <a name="add-or-copy-leases-preview"></a>Adicionar ou copiar arrendamentos (Versão preliminar)
 
@@ -50,6 +50,9 @@ Depois de concluir a inserção das informações para o arrendamento, siga esta
     A página **Detalhes do registro** mostra como o arrendamento é contabilizado pelos livros que foram alocados para ele. A partir daqui, você pode exibir as agendas de arrendamento.
 
     A agenda de pagamento contém as entradas da guia **Linhas da agenda de pagamento** na página **Adicionar arrendamento**. Você ainda pode alterar cada valor do pagamento e pagamento variável. A responsabilidade com o arrendamento é calculada com base na agenda de pagamento.
+    
+> [!NOTE]
+> A data de início do pagamento do arrendamento deve ser igual ou posterior à data inicial do arrendamento. Você receberá uma mensagem de erro se a data de início do pagamento for anterior à data de início do arrendamento. 
 
 4. Depois de concluir a revisão da agenda de pagamento, selecione **Confirmar agenda**. Depois que a agenda for confirmada, o arrendamento não estará mais disponível para edição.
 
