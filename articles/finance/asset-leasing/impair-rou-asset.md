@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890821"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947331"
 ---
 # <a name="impair-right-of-use-assets"></a>Reduzir ativos de direito de uso ao valor recuperável
 
@@ -44,6 +44,8 @@ O saldo restante do ativo DDU será amortizado linearmente para o número de per
 
     > [!NOTE]
     > Depois que a transação de redução ao valor recuperável for lançada, uma nova versão do registro será criada.
+
+    > Se o arrendamento for classificado como um arrendamento operacional, a depreciação mensal após a redução ao valor recuperável será calculada usando a depreciação linear.
 
 9. Para exibir a agenda de depreciação do ativo com redução ao valor recuperável, abra a agenda de depreciação de ativo para o registro de arrendamento. O ativo agora será depreciado linearmente sobre o número de meses que você inseriu no campo **Períodos restantes**.
 10. Para exibir a entrada do diário de despesas com redução ao valor recuperável, selecione **Diário de arrendamento de ativo** no Painel de Ação do registro de arrendamento com redução ao valor recuperável. O sistema cria uma entrada de diário que gera um débito na conta de lançamento de despesas e credita na conta de lançamento de ativo de arrendamento. 
@@ -100,6 +102,7 @@ As tabelas a seguir mostram os valores definidos nas guias **Geral** e **Linhas 
     | Fechar registro             | Não       |
 
 6. Uma entrada de diário de despesas de redução ao valor recuperável foi criada e lançada. Para exibi-la, Acesse o diário de arrendamento do ativo no registro de arrendamento. Observe que o valor da redução ao valor recuperável foi debitado da conta de lançamento de despesas de redução ao valor recuperável e a conta de lançamento do ativo DDU foi creditada.
+
 7. Para exibir o efeito líquido da redução ao valor recuperável, acesse as tabelas de transações de ativos e passivos. Observe que a despesa de redução ao valor recuperável diminuiu o ativo DDU, mas o valor de carregamento da responsabilidade com arrendamento não foi alterado.
 
 A redução ao valor recuperável tem um outro efeito que deve ser considerado. Como o valor do ativo DDU agora é muito menor do que a responsabilidade com arrendamento, o valor deverá ser depreciado de maneira diferente da de antes. Especificamente, o ativo agora é depreciado em um modo linear ao longo dos 84 meses restantes do arrendamento, a partir da data da transação.

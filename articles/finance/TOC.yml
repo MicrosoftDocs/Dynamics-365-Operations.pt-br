@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Habilitar Previsão de fluxo de caixa
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Dados externos em previsões de fluxo de caixa
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Habilitar Propostas de orçamento
                   href: finance-insights/enable-budget-proposal.md
                 - name: Criar projeto integrador de dados
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: Posição de caixa
                   href: finance-insights/cash-position.md
-                - name: Previsão de fluxo de caixa
+                - name: Previsão de caixa
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Usar dados externos em previsões de fluxo de caixa
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Previsões de pagamento do cliente
                   href: finance-insights/payment-insights-overview.md
                 - name: Usar Previsões de pagamento do cliente
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Introdução ao Faturamento Eletrônico da Arábia Saudita
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: Configurar a integração direta da FatturaPA italiana com SDI
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Usar o serviço de faturamento eletrônico para importar faturas de fornecedor
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Configurar Faturamento Eletrônico
@@ -1512,6 +1514,10 @@
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-gbr-vat-declaration.md
+                        - name: Relatórios da Noruega
+                          items:
+                            - name: Declaração de IVA
+                              href: localizations/emea-nor-vat-declaration.md
                     - name: Habilitar cálculo de imposto para ordem de transferência
                       items:
                         - name: Suporte a recursos de imposto para ordens de transferência
@@ -1557,7 +1563,7 @@
                 - name: Demonstrativo de IVA
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Relatório de serviços internacionais
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Intrastat austríaca
                   href: localizations/emea-aut-intrastat.md
                 - name: Impostos de compra
@@ -1824,11 +1830,11 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Métodos de depreciação de ativos fixos
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: ​Importar a entidade de dados do Golden Tax chinês​
+                - name: Importar os arquivos do Golden Tax chinês
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
-                - name: ​Modelo de custo médio mensal​
+                - name: Modelo de custo médio mensal
                   href: localizations/apac-chn-monthly-average-cost-model.md
-                - name: ​Lançar contas principais de estoque por site​
+                - name: Lançar contas principais de estoque por site
                   href: localizations/apac-chn-post-inventory-main-accounts-by-site.md
                 - name: Lançar comprovantes de outros módulos
                   href: localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: Relatório de pagamento de impostos da Finlândia
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Intrastat finlandesa
+                  href: localizations/emea-fin-intrastat.md
             - name: França
               items:
                 - name: Visão geral da França
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: Declaração de IVA para a Indonésia
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Relatório de imposto retido na fonte para a Indonésia
+                  href: localizations/apac-idn-wht-declaration.md
             - name: Itália
               items:
                 - name: Visão geral da Itália
@@ -3414,7 +3424,7 @@
                       href: localizations/tasks/purchase-order-reverse-charge-vat.md
                     - name: Criar uma ordem de venda que inclui itens sujeitos a IVA de encargos revertidos
                       href: localizations/tasks/gb-00002-sales-order.md
-                    - name: Configurar grupos de impostos de item para IVA de encargos revertidos
+                    - name: Configurar grupos de impostos do item para IVA de encargos revertidos
                       href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
                     - name: 'Configurar grupos, regras e parâmetros de itens de IVA de encargos revertidos'
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md

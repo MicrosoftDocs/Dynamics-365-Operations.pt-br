@@ -1,8 +1,8 @@
 ---
 title: Perfis de lançamentos de cliente
-description: Perfis de postagem de cliente controlam o lançamento de transações de cliente na contabilidade.
-author: ShivamPandey-msft
-ms.date: 08/22/2017
+description: Este tópico descreve perfis de lançamento o cliente, que controla o lançamento de transações do cliente para a contabilidade.
+author: JodiChristiansen
+ms.date: 12/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,124 +12,125 @@ ms.reviewer: roschlom
 ms.custom: 24651
 ms.assetid: cb82245e-8c02-429c-b36e-8db0e3e6f7e5
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a42e26464a35ef72b416aaff7a410f2318602aea38767dbe5e06b4f032dc08be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91432a401a8f8a499e9f5e2bbe7157408faac822
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769002"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952562"
 ---
 # <a name="customer-posting-profiles"></a>Perfis de lançamentos de cliente
 
 [!include [banner](../includes/banner.md)]
 
-Perfis de postagem de cliente controlam o lançamento de transações de cliente na contabilidade.
+Este tópico descreve perfis de lançamento o cliente, que controla o lançamento de transações do cliente para a contabilidade.
 
 ## <a name="customer-posting-profiles"></a>Perfis de lançamentos de cliente
 
-Os perfis de lançamento de cliente permitem que você atribua configurações de documento e de contas de contabilidade a todos os clientes, um grupo de clientes ou um único cliente. Essas configurações serão usadas ao criar ordens de venda, faturas de texto livre, pagamentos em dinheiro, cartas de cobrança e notas de juros. Para algumas transações, você pode selecionar um perfil de lançamento diferente dos perfis de lançamento configurados para as transações nesta página e que seja prioritário. 
+Os perfis de lançamento de cliente permitem que você atribua configurações de documento e de contas de contabilidade a todos os clientes, um grupo de clientes ou um único cliente. Essas configurações serão usadas ao criar faturas de ordens de venda, faturas de texto livre, faturas do projeto, diários de pagamento, cartas de cobranças e notas de juros. 
 
-O perfil de lançamento padrão é definido na Guia Rápida Razão e Imposto na página Parâmetros de contas a receber. O perfil de lançamento padrão é incluído automaticamente no cabeçalho dos novos documentos onde você pode alterá-lo para um perfil de lançamento diferente, se necessário.
+O perfil de lançamento padrão é definido na guia **Razão e Imposto** da página **Parâmetros de contas a receber**. Em seguida, ele é automaticamente incluído no cabeçalho de novos documentos. Você pode alterá-lo se for necessário um perfil de lançamento diferente. 
 
-Você também pode associar definições de lançamento com os tipos de lançamento de transação na página Definições de lançamento da transação. As definições de lançamento controlam o lançamento de transações de cliente na contabilidade em vez de perfis de lançamento.
+As organizações que aceitam pagamentos antecipados de clientes geralmente configuram um segundo perfil de lançamentos para pagamentos antecipados e o vinculam nos parâmetros como o perfil de lançamento padrão para pagamentos antecipados. Para obter mais informações, consulte [Pagamentos antecipados do cliente](customer-prepayments.md).
+
+Você também pode associar definições de lançamento com os tipos de lançamento de transação na página **Definições de lançamento da transação**. As definições de lançamento são usados, em vez de perfis de lançamento para controlar o lançamento de transações do cliente para a contabilidade. Para obter mais informações, consulte [Definições de lançamento](../general-ledger/posting-definitions.md).
 
 ## <a name="creating-a-posting-profile"></a>Criando um perfil de lançamento
 Especifique as contas contábeis que são usadas no lançamento de transações que usam o perfil de lançamento selecionado. Selecione um código de conta e, sempre que possível, uma conta ou número de grupo para o perfil de lançamento selecionado. No processo de lançamento, o perfil de lançamento mais apropriado para cada transação é localizado procurando a combinação de código de conta, número de conta, grupo e número mais específica segundo esta prioridade:
 
-| Valor do campo **Código de conta** | Valor do campo **Conta/número de grupo**            | Prioridade de pesquisa |
-|------------------------------|-------------------------------------------------|-----------------|
-| **Tabela**                    | Conta de cliente específico                       | 1               |
-| **Grupo**                    | Grupo de clientes atribuído ao cliente | 2               |
-| **Todos**                      | Em Branco                                           | 3               |
+| Valor do campo Código de conta | Valor do campo Conta/número de grupo                | Prioridade de pesquisa |
+|--------------------------|-------------------------------------------------|-----------------|
+| Tabela                    | Conta de cliente específico                       | 1               |
+| Agrupar                    | Grupo de clientes atribuído ao cliente | 2               |
+| Tudo                      | Em Branco                                           | 3               |
 
-Se desejar que todas as transações de clientes tenham o mesmo perfil de lançamento, configure somente um perfil de lançamento com a opção Todos no campo Código de conta. Especifique os seguintes valores para configurar o perfil de lançamento:
+Se quiser que todas as transações de fornecedores tenham o mesmo perfil de lançamento, configure somente um perfil de lançamento com **Tudo** no campo **Código de conta**. Especifique os valores a seguir para configurar o perfil de lançamento.
 
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Campo</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><strong>Perfil de lançamentos</strong></td>
+<tr>
+<td>Perfil de lançamento</td>
 <td>Insira um código para o perfil de lançamento. Por exemplo, você pode criar dois perfis de lançamento para obter uma conta para os saldos de cliente na moeda nacional e outra para os saldos de cliente em uma moeda estrangeira. Você poderia chamar uma conta de Nacional e a outra de Estrangeira.</td>
 </tr>
-<tr class="even">
-<td><strong>Descrição</strong></td>
+<tr>
+<td>Descrição</td>
 <td>Insira uma descrição do perfil de lançamento. É usado apenas para melhor identificar o perfil de lançamento quando você o exibe nessa página.</td>
 </tr>
-<tr class="odd">
-<td><strong>Código da conta</strong></td>
+<tr>
+<td>Código da conta</td>
 <td>Especifique se o perfil de lançamento se aplica a um único cliente, um grupo de clientes ou todos os clientes:
 <ul>
-<li><strong>Tabela</strong> – O perfil de lançamento se aplica a um único cliente. Selecione a conta de cliente no campo Conta/número de grupo.</li>
-<li><strong>Grupo</strong> – O perfil de lançamento se aplica a um grupo de cliente. Selecione o grupo de cliente no campo Conta/número de grupo.</li>
-<li><strong>Todos</strong> – O perfil de lançamento se aplica a todos os clientes. Deixe o campo Conta/número de grupo em branco.</li>
-</ul></td>
+<li><b>Tabela</b> – O perfil de lançamento se aplica a um único cliente. Selecione a conta de cliente no campo <b>Conta/Número de grupo</b>.</li>
+<li><b>Grupo</b> – O perfil de lançamento se aplica a um grupo de cliente. Selecione o grupo de clientes no campo <b>Conta/Número de grupo</b>.</li>
+<li><b>Todos</b> – O perfil de lançamento se aplica a todos os clientes. Deixe o campo <b>Número de conta/grupo</b> em branco.</li>
+</ul>
+</td>
 </tr>
-<tr class="even">
-<td><strong>Número de conta/grupo</strong></td>
-<td>Se Tabela for selecionado no campo Código de conta, selecione o número de conta do cliente que está associado ao perfil de lançamento. Se Grupo for selecionado, selecione o grupo de clientes. Se Todos for selecionado, deixe este campo em branco.</td>
+<tr>
+<td>Número de conta/grupo</td>
+<td>Se <b>Tabela</b> for selecionada no campo <b>Código da conta</b>, selecione o número de conta do cliente que está associado ao perfil de lançamento. Se <b>Grupo</b> for selecionado, selecione o grupo de clientes. Se <b>Todos</b> estiver selecionado, deixe este campo em branco.</td>
 </tr>
-<tr class="odd">
-<td><strong>Conta resumo</strong></td>
-<td>Selecione a conta contábil que será usada com conta resumo para os clientes associados ao perfil de lançamento.</td>
+<tr>
+<td>Conta resumo</td>
+<td>Selecione a principal conta que será usada com conta comercial de Contas a receber para os clientes associados ao perfil de lançamento. Esta conta é a conta do tipo de lançamento de <b>Saldo do cliente</b>.</td>
 </tr>
-<tr class="even">
-<td><strong>Liquidar conta</strong></td>
+<tr>
+<td>Conta de liquidez para pagamentos</td>
 <td>Selecione a conta contábil de liquidez usada para previsões de fluxo de caixa. Este campo só aparecerá se as previsões de fluxo de caixa estiverem habilitadas.</td>
 </tr>
-<tr class="odd">
-<td><strong>Pagamentos antecipados de imposto</strong></td>
-<td>Selecione a conta para imposto sobre vendas para os pagamentos recebidos antecipadamente.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Observação" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Observação</strong></th>
+<tr>
+<td>Pagamentos antecipados de imposto</td>
+<td><p>Selecione a conta para imposto sobre vendas para os pagamentos recebidos antecipadamente.</p>
+<p><strong>Observação:</strong> Use a página <b>Parâmetros de contas a receber</b> para especificar o perfil de lançamento a ser usado quando um pagamento for marcado como pagamento antecipado.</p>
+</td>
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Use a página Parâmetros de contas a receber para especificar o perfil de lançamento a ser usado quando um pagamento for marcado como pagamento antecipado.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
-</tr>
-<tr class="even">
-<td><strong>Passivos para conta de desconto</strong></td>
+<tr>
+<td>Passivos para conta de desconto</td>
 <td>Selecione a conta contábil para passivos de desconto.</td>
 </tr>
-<tr class="odd">
-<td><strong>Sequência de cartas de cobrança</strong></td>
+<tr>
+<td>Sequência de cartas de cobrança</td>
 <td>Selecione o identificador da sequência de cartas de cobrança a ser usado para clientes aos quais o perfil de lançamento é atribuído.</td>
 </tr>
-<tr class="even">
-<td><strong>Código de juros</strong></td>
+<tr>
+<td>Código de juros</td>
 <td>Selecione o código de juros a ser usado para o cálculo de juros para clientes aos quais o perfil de lançamento é atribuído.</td>
 </tr>
 </tbody>
 </table>
 
+## <a name="posting-examples"></a>​Exemplos de lançamento​
 
-### <a name="table-restrictions"></a>**Restrições da tabela**
+A tabela a seguir mostra exemplos dos tipos de lançamento padrão com as principais contas e descrições da amostra. A coluna **Débito/crédito** indica se a transação normalmente Debita ou Credita ou em alguns casos, pode lançar. A coluna **Conta de compensação** indica que o tipo de lançamento é uma conta de compensação. Isso significa que o valor lançado nessa conta é revertido automaticamente quando uma transação posterior é lançada. 
+
+| Tipo de lançamento | Exemplo de conta principal | Exemplo de nome de conta principal | Tipo de conta | Débito/Crédito | Conta de compensação | Descrição |
+|--------------|----------------------|---------------------------|--------------|--------------|------------------|-------------|
+| Saldo do cliente | 130100 | Comércio de contas a receber | Ativo | Ambos | Não | Especifique a conta no campo **Conta resumo**.|
+| Nenhum | 110110 | Conta Bancária | Ativo | Ambos | Não | Especifique a conta principal no campo **Conta de liquidez para pagamentos**. Essa conta não é usada para lançamentos. Ela é usada apenas para a previsão de fluxo de caixa. |
+| Pagamentos antecipados de imposto | 202900 | Compensação de imposto | Passivo | Ambos | Sim | Selecione a conta para imposto sobre vendas para os pagamentos recebidos antecipadamente. |
+| Passivos para conta de desconto | 250600 | Receita e Descontos Diferidos | Passivo | Ambos | Sim | Selecione a conta contábil para passivos de descontos.|     
+
+### <a name="table-restrictions"></a>Restrições da tabela
 
 Para as transações com o perfil de lançamento selecionado, especifique se as transações serão automaticamente liquidadas, os juros calculados, e as cartas de cobrança emitidas. Também é possível selecionar a conta usada quando transações com o perfil de lançamento selecionado forem fechadas.
 
 Especifique os seguintes valores para configurar o perfil de lançamento:
 
-| Campo                 | Descrição                                                                                                                                                                                                                                        |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Liquidação**        | Selecione esta alternância para habilitar a liquidação automática de transações que possuem este perfil de lançamento. Se esta alternância for desmarcada, você deverá liquidar manualmente as transações usando a página Liquidar transações em aberto ou a página Inserir pagamentos de cliente. |
-| **Interesse**          | Selecione esta alternância se os juros precisarem ser calculados sobre saldos em aberto para contas de cliente que usam este perfil. Se esta alternância for desmarcada, os juros não serão calculados para esses clientes.                                           |
-| **Carta de cobrança** | Selecione esta alternância se as cartas de cobrança precisarem ser geradas para contas de cliente que usam este perfil. Se esta alternância for desmarcada, as cartas de cobrança não serão geradas para esses clientes.                                                 |
-| **Fechar**             | Selecione um perfil de lançamento para o qual alternar quando as transações que tiverem este perfil de lançamento forem fechadas. Uma transação é considerada fechada quando tiver sido integralmente liquidada.                                                                           |
+| Campo                 | Descrição                                           |
+|-----------------------|-------------------------------------------------------|
+| Liquidação        | Selecione esta alternância para habilitar a liquidação automática de transações que possuem este perfil de lançamento. Se esta alternância for desmarcada, você deverá liquidar manualmente as transações usando a página **Liquidar transações abertas** ou a página **Inserir pagamentos de cliente**. |
+| Interesse          | Selecione esta alternância se os juros precisarem ser calculados sobre saldos em aberto para contas de cliente que usam este perfil. Se esta alternância for desmarcada, os juros não serão calculados para esses clientes.                                           |
+| Carta de cobrança | Selecione esta alternância se as cartas de cobrança precisarem ser geradas para contas de cliente que usam este perfil. Se esta alternância for desmarcada, as cartas de cobrança não serão geradas para esses clientes.                                                 |
+| Fechar             | Selecione um perfil de lançamento para o qual alternar quando as transações que tiverem este perfil de lançamento forem fechadas. Uma transação é considerada fechada quando tiver sido integralmente liquidada.             |
 
 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937651"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952589"
 ---
 # <a name="engineering-change-management-overview"></a>Visão geral do gerenciamento de alterações de engenharia
 
@@ -71,6 +71,7 @@ Em seguida, ative as chaves de configuração seguindo estas etapas.
 
 1. Se também quiser usar a dimensão de versão, marque a caixa de seleção **Dimensão do produto - Versão**. (Esta caixa de seleção está mais abaixo na lista, não aninhada no nó **Gerenciamento de Alterações de Engenharia**.)
 1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Execute uma sincronização de banco de dados para garantir que as chaves de configuração estejam devidamente habilitadas.
 
 > [!IMPORTANT]
 > A partir de abril de 2022, as chaves de licença de **Gerenciamento de Alterações de Engenharia** e **Dimensão do produto - Versão** serão habilitadas por padrão para todas as novas instalações, mas você ainda poderá desabilitá-las, se necessário.

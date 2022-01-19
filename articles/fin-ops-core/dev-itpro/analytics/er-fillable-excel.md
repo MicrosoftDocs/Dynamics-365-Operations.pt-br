@@ -2,7 +2,7 @@
 title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
-ms.date: 12/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943603"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952643"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -379,7 +379,7 @@ Se um dos seus modelos contiver uma Tabela Dinâmica baseada em um modelo do Pow
     2. Use ER para gerar uma segunda pasta de trabalho do Excel (pasta de trabalho B) do Finance com os detalhes necessários. 
     3. Consulte a pasta de trabalho B na pasta de trabalho A assim que a pasta de trabalho B for gerada.
 
-- Use uma opção diferente de EPPlus para desativar o recurso. 
+- Desativar o recurso, **Habilitar o uso da biblioteca de EPPlus na estrutura eletrônica de relatórios** para usar uma opção que não seja EPPlus. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

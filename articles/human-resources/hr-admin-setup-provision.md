@@ -2,7 +2,7 @@
 title: Provisionar o Human Resources
 description: Este tópico explica o processo de provisionar um novo ambiente de produção para o Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644518"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952693"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -44,7 +44,7 @@ Antes de provisionar sua primeira área restrita ou ambiente de produção, pode
 
 Os ambientes de avaliação fornecem a capacidade de avaliar a funcionalidade de recursos humanos para indivíduos que ainda não têm acesso a um ambiente de Recursos Humanos. Se você estiver provisionando um ambiente de avaliação e o usuário autenticado já tiver acesso a um ou mais ambientes de Recursos Humanos existentes, o usuário será redirecionado para o ambiente existente ou para a lista de ambientes.
 
-Ambientes de avaliação não devem ser usados como ambientes de produção. Eles estão limitados a um período de avaliação de 60 dias. Quando um ambiente de avaliação expirar, o ambiente e todos os dados que estão nele serão excluídos e não poderão ser recuperados. O ambiente não pode ser convertido em uma área restrita ou ambiente de produção. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
+Ambientes de avaliação não devem ser usados como ambientes de produção. Eles estão limitados a um período de avaliação de 30 dias. Quando um ambiente de avaliação expirar, o ambiente e todos os dados que estão nele serão excluídos e não poderão ser recuperados. O ambiente não pode ser convertido em uma área restrita ou ambiente de produção. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
 Ao criar um ambiente de avaliação do Human Resources, um ambiente de avaliação do Power Apps também é criado no locatário e vinculado ao ambiente do Human Resources. O ambiente do Power Apps, chamado de "TestDrive", tem o mesmo período de avaliação do ambiente do Human Resources.
 

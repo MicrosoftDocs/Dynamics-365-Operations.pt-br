@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345361"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947306"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Registrar depreciação de ativo de direito de uso (versão preliminar)
 
@@ -35,7 +35,7 @@ Para arrendamentos reconhecidos no balanço de uma organização, o ativo de dir
 1. Na página **Resumo do arrendamento** , selecione um arrendamento. Em seguida, selecione **Registros \> Agenda de depreciação de ativos** para abrir a página **Agenda de depreciação de ativos**.
 
     A entrada do diário de despesas da depreciação de ativos DDU baseia-se no valor da coluna **Despesa de Depreciação**. Para obter um exemplo de diretrizes para conformidade com o padrão contábil, consulte a seção [Cálculo de despesa de amortização de ativos DDU para arrendamentos mercantis](#calculation-of-rou-asset-amortization-expense-for-finance-leases) posteriormente neste tópico.
-
+    
 2. Selecione o período de depreciação e, em seguida, selecione **Criar diário**. Você recebe uma mensagem que indica que o diário que será usado para registrar a depreciação foi criado.
 3. Selecione **Diários \> Diários de arrendamento de ativos** para abrir a página **Diário de arrendamento de ativos**, onde você pode exibir a entrada de diário de despesas de depreciação que foi criada.
 
@@ -70,6 +70,8 @@ Como mencionado anteriormente, a despesa de arrendamento linear é calculada com
 
 > [!NOTE]
 > De acordo com o ASC 842, a depreciação do ativo DDU de um arrendamento operacional é classificada como uma despesa de arrendamento no demonstrativo de renda. Para obter visibilidade, o Arrendamento de ativos descreve a entrada como a depreciação do ativo DDU. No entanto, a entrada de débito deve ser atribuída a uma conta de despesas de arrendamento operacional, e a entrada de crédito deve ser atribuída diretamente ao ativo DDU para o arrendamento operacional. No entanto, nos parâmetros do arrendamento, você pode especificar que as entradas de crédito devem ser feitas em uma conta de depreciação acumulada para ativos DDU operacionais.
+
+Se o arrendamento for classificado como um arrendamento operacional, a depreciação mensal após a redução ao valor recuperável será calculada usando a depreciação linear.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Cálculo de despesas de amortização de ativos DDU para arrendamentos mercantis
 

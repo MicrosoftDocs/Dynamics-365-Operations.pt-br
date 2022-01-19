@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581856"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952487"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Instalar e configurar Visibilidade de Estoque
 
@@ -71,6 +71,9 @@ Depois de registrar um aplicativo e adicionar um segredo de cliente ao Azure AD,
 1. Concorde com os termos e condições marcando a caixa de seleção **Termos e condições**.
 1. Selecione **Instalar**. O status do suplemento é mostrado como **Instalando**. Quando a instalação for concluída, atualize a página. O status deve mudar para **Instalado**.
 1. No Dataverse, selecione a seção **Aplicativos** na navegação à esquerda e verifique se o Power Apps **Visibilidade de Estoque** foi instalado com êxito. Se a seção **Aplicativos** não existir, entre em contato com a equipe de produto do Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
+
+> [!TIP]
+> Recomendamos que você ingresse no grupo de usuários do Suplemento de Visibilidade de Estoque, no qual é possível encontrar guias úteis, obter nossas atualizações mais recentes e postar perguntas que possam ser obtidas usando a Visibilidade de Estoque. Para entrar, envie um email para a equipe de produto da Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) e inclua sua ID de ambiente do Supply Chain Management.
 
 > [!IMPORTANT]
 > Se você tiver mais de um ambiente LCS, crie um aplicativo Azure AD diferente para cada ambiente. Se você usar a mesma ID de aplicativo e ID de locatário para instalar o Suplemento de Visibilidade de Estoque para ambientes diferentes, ocorrerá uma saída de token para ambientes mais antigos. Somente o último que foi instalado será válido.

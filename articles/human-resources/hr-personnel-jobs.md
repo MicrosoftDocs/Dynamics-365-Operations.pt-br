@@ -15,18 +15,18 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: a4aa7369c84836154b8217a5b70267021f4028b1
+ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731531"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "7948466"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Configurar os componentes de um trabalho
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artigo descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização. 
+Este tópico descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização. 
 
 Antes de você poder criar trabalhos, você deve configurar algumas informações de referência. Você pode criar um trabalho com apenas um nome. No entanto, ao incluir informações adicionais, como título do trabalho, você fornece valores padrão para as posições atribuídas ao trabalho. Além disso, algumas das informações inseridas por você podem ser usadas para filtrar planos de remuneração para trabalhos específicos. Se deseja configurar a qualificação que pode ser usada para filtrar planos de remuneração para um trabalho específico, você deve configurar funções e tipos de trabalho antes de configurar os trabalhos. Com esses valores padrão disponíveis, você economizará tempo ao adicionar posições ao trabalho. 
 

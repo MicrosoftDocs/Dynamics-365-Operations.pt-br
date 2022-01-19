@@ -2,7 +2,7 @@
 title: Introdução ao Cálculo de Imposto
 description: Este tópico explica como configurar o Cálculo de Imposto.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,74 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647425"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952512"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introdução ao Cálculo de Imposto
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre como começar a usar o Cálculo de Imposto. Ele orienta você nas etapas de configuração no Microsoft Dynamics Lifecycle Services (LCS), no Regulatory Configuration Service (RCS) e no Dynamics 365 Finance e Dynamics 365 Supply Chain Management. Depois, ele analisa o processo comum para usar recursos de Cálculo de Imposto em transações do Finance e do Supply Chain Management.
+Este tópico fornece informações sobre como começar a usar o Cálculo de Imposto. As seções neste tópico guiam você pelas etapas de design e configuração de alto nível no Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance e no Dynamics 365 Supply Chain Management. 
 
-A configuração consiste em quatro etapas principais:
+A configuração consiste em três etapas principais.
 
 1. No LCS, instale o suplemento de Cálculo de Imposto.
 2. No RCS, configure o recurso de Cálculo de Imposto. Essa configuração não é específica de uma entidade legal. Ela pode ser configurada entre entidades legais no Finance e no Supply Chain Management.
 3. No Finance e no Supply Chain Management, configure os parâmetros de Cálculo de Imposto por entidade legal.
-4. No Finance e no Supply Chain Management, crie transações, como ordens de venda, e use o Cálculo de Imposto para determinar e calcular impostos.
+
+## <a name="high-level-design"></a>Design de alto nível
+
+### <a name="runtime-design"></a>Design de runtime
+
+A ilustração a seguir mostra o design de runtime de alto nível de Cálculo de Imposto. Como o Cálculo de Imposto pode ser integrado a vários aplicativos do Dynamics 365, a ilustração usa a integração com o Finance como um exemplo.
+
+1. Uma transação, como uma ordem de venda ou ordem de compra, é criada no Finance.
+2. O Finance usa automaticamente os valores padrão do grupo de impostos e o grupo de impostos do item.
+3. Quando o botão **Imposto** é selecionado na transação, o cálculo do imposto é disparado. O Finance, em seguida, envia a carga para o serviço Cálculo de Imposto.
+4. O Serviço de Cálculo de Imposto corresponde à carga com regras predefinidas no recurso de imposto para localizar um grupo de impostos mais preciso e um grupo de impostos do item simultaneamente.
+
+    - Se a carga puder corresponder à matriz de **Aplicabilidade do Grupo de Impostos**, ela substituirá o valor do grupo de impostos pelo valor do grupo de impostos correspondente na regra de aplicabilidade. Caso contrário, ele continuará a usar o valor do grupo de impostos do Finance.
+    - Se a carga puder corresponder à matriz de **Aplicabilidade do Grupo de Impostos do Item**, ela substituirá o valor do grupo de impostos do item pelo valor do grupo de impostos do item correspondente na regra de aplicabilidade. Caso contrário, ele continuará a usar o valor do grupo de impostos do item do Finance.
+
+5. O Serviço de Cálculo de Imposto determina os códigos de impostos finais usando a interseção do grupo de impostos e o grupo de impostos de item.
+6. O Serviço de Cálculo de Imposto calcula o imposto, com base nos códigos de imposto finais que ele determinou.
+7. O Serviço de Cálculo de Imposto retorna o resultado do cálculo de imposto para o Finance.
+
+![Design de runtime de Cálculo de Imposto.](media/tax-calculation-runtime-logic.png)
+
+### <a name="high-level-configuration"></a>Configuração de alto nível
+
+As etapas a seguir fornecem uma visão geral de alto nível do processo de configuração para o Serviço de Cálculo de Imposto.
+
+1. No LCS, instale o suplemento **Cálculo de Imposto** em seu projeto LCS.
+2. No RCS, crie o recurso **Cálculo de Imposto**.
+3. No RCS, configure o recurso **Cálculo de Imposto**:
+
+    1. Selecione a versão de configuração do imposto.
+    2. Crie códigos do imposto.
+    3. Crie um grupo de impostos.
+    4. Crie um grupo de impostos do item.
+    5. Opcional: Crie aplicabilidade de grupo de impostos se desejar substituir o grupo de impostos padrão que é inserido nos dados mestre do cliente ou do fornecedor.
+    6. Opcional: Crie aplicabilidade de grupo de itens, se desejar substituir o grupo de impostos do item padrão que é inserido nos dados mestre do item.
+
+4. No RCS, conclua e publique o recurso **Cálculo de Imposto**.
+5. No Finance, selecione o recurso **Cálculo de Imposto** publicado.
+
+Depois de concluir essas etapas, as configurações a seguir são sincronizadas automaticamente do RCS para o Finance.
+
+- Códigos de imposto
+- Grupos de impostos
+- Grupos de impostos do item
+
+As seções restantes neste tópico fornecem etapas de configuração mais detalhadas.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de concluir os procedimentos deste tópico, os pré-requisitos devem estar em vigor para cada tipo de ambiente.
-
-Estes pré-requisitos devem ser atendidos:
+Antes de poder concluir os procedimentos restantes neste tópico, os seguintes pré-requisitos devem ser atendidos:<!--TO HERE-->
 
 - Você deve ter acesso à conta do LCS e deve ter um projeto do LCS implantado com ambiente com Camada 2 ou superior que executa o Dynamics 365 versão 10.0.21 ou posterior.
 - Você deve criar um ambiente de RCS para sua organização e deve ter acesso à sua conta. Para obter mais informações sobre como criar um ambiente de RCS, consulte [Visão geral do Regulatory Configuration Service](rcs-overview.md).
@@ -72,15 +115,7 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
 5. No campo **Tipo**, selecione **Global**.
 6. Selecione **Abrir**.
 7. Acesse o **Modelo de Dados do Imposto**, expanda a árvore de arquivos e selecione **Configuração de Imposto**.
-8. Selecione a versão de configuração de imposto correta, com base na sua versão do Finance, e selecione **Importar**.
-
-    | Versão de lançamento | Configuração de imposto                       |
-    | --------------- | --------------------------------------- |
-    | 10.0.18         | Configuração de Imposto - Europa 30.12.82     |
-    | 10.0.19         | Configuração de Cálculo do Imposto 36.38.193 |
-    | 10.0.20         | Configuração de Cálculo do Imposto 40.43.208 |
-    | 10.0.21         | Configuração de Cálculo do Imposto 40.48.215 |
-
+8. Selecione a [versão de configuração de imposto](global-tax-calcuation-service-overview.md#versions) correta com base na sua versão do Finance e, em seguida, selecione **Importar**.
 9. No espaço de trabalho **Recursos de globalização**, selecione **Recursos**, selecione o bloco **Cálculo de Imposto** e, em seguida, selecione **Adicionar**.
 10. Selecione um dos seguintes tipos de recurso:
 
@@ -209,42 +244,3 @@ A configuração nesta seção é realizada pela entidade legal. É necessário 
 
 5. Na guia **Vários registros de IVA**, é possível habilitar a declaração de IVA, a lista de Vendas da UE e o Intrastat separadamente para trabalhar em um cenário de registros de IVA múltiplo. Para obter mais informações sobre relatórios de impostos para vários registros de IVA, consulte [Relatórios de vários registros de IVA](emea-reporting-for-multiple-vat-registrations.md).
 6. Salve a configuração e repita as etapas anteriores para cada entidade legal adicional. Quando uma nova versão for publicada e você desejar aplicá-la, defina o campo **Configuração do recurso** na guia **Geral** da página **Parâmetros de cálculo de imposto** (consulte a etapa 2).
-
-## <a name="transaction-processing"></a>Processamento de transações
-
-Depois de concluir todos os procedimentos de configuração, é possível usar o Cálculo de Imposto para determinar e calcular impostos no Finance. As etapas para processar transações continuam as mesmas. As seguintes transações são compatíveis com o Finance versão 10.0.21:
-
-- Processo de Vendas
-
-    - Cotação de Venda
-    - Ordem de Venda
-    - Confirmação
-    - Lista de Separação
-    - Guia de Remessa
-    - Fatura de venda
-    - Nota de Crédito
-    - Ordem de retorno
-    - Encargo de cabeçalho
-    - Encargo da linha
-
-- Processo de compra
-
-    - Ordem de Compra
-    - Confirmação
-    - Lista de Recebimentos
-    - Recebimento de produtos
-    - Fatura de compra
-    - Encargo de cabeçalho
-    - Encargo da linha
-    - Nota de Crédito
-    - Ordem de retorno
-    - Requisição de Compra
-    - Encargo da linha de requisição de compra
-    - Solicitação de cotação
-    - Encargo do cabeçalho da solicitação de cotação
-    - Encargo da linha da solicitação de cotação
-
-- Processo de estoque
-
-    - Ordem de transferência – enviar
-    - Ordem de transferência – receber
