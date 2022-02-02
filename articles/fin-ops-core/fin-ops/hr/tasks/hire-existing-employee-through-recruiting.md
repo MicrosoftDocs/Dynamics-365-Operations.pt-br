@@ -1,43 +1,48 @@
 ---
 title: Contratar funcionários existentes por meio de recrutamento
 description: As vezes, posições abertas podem ser preenchidas por candidatos que já são empregados da sua organização.
-author: andreabichsel
-ms.date: 02/10/2017
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df23be9a657b7001b4974e7802a507c0c54a18dacb46354a68699d759827e941
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49bb7bea167674eb81fd6d1144c6c302a7c29391
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749571"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964899"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Contratar funcionários existentes por meio de recrutamento
 
 [!include [banner](../../includes/banner.md)]
 
-As vezes, posições abertas podem ser preenchidas por candidatos que já são empregados da sua organização. Este procedimento apresenta as etapas para contratar um funcionário existente através do processo de recrutamento. Nesse procedimento, um projeto de recrutamento já foi estabelecido, e um funcionário existente já enviou uma solicitação de emprego ao projeto de recrutamento. A empresa de dados demo usada para criar este procedimento é USMF.
+As vezes, as posições abertas poderão ser preenchidas por candidatos que já sejam funcionários da sua organização. Este procedimento apresenta as etapas para contratar um funcionário existente através do processo de recrutamento. Nesse procedimento, um projeto de recrutamento já foi estabelecido, e um funcionário existente já enviou uma solicitação de emprego ao projeto de recrutamento. A empresa de dados de demonstração **USMF** foi usada para criar este procedimento.
 
-1. Acesse Recursos humanos > Recrutamento > Solicitações de emprego > Solicitações de emprego.
-2. Na lista, encontre a solicitação de emprego do funcionário que você deseja contratar. Exemplo: 00002 John Emory
-3. Clique em Status de solicitação de emprego.
-    * O status da solicitação de emprego indica onde uma solicitação está, dentro do processo de recrutamento.  Cada uma dessas etapas são opcionais. Normalmente, uma solicitação de emprego trocaria de status na seguinte ordem: recebida, confirmada, e entrevistada. Depois do processo de entrevista, uma decisão de contratação seria feita.  
-4. Clique em Alterar cargo.
-5. Selecione o cargo para o qual você está contratando o funcionário.
-6. No campo Data de início da nova alocação, insira a data em que o funcionário irá começar a trabalhar no novo cargo.  
-7. No campo Data de término da alocação, insira a data em que o funcionário irá parar de trabalhar no cargo atual.
-    * A data de início para o novo cargo e a data de término do cargo antigo podem se sobrepor. Isso pode acontecer quando uma pessoa está executando funções em ambos os cargos durante um período de transição.  
-8. Opcionalmente, você pode selecionar um código de motivo. Exemplo: Reorganização
-9. Clique em Alterar cargo.
-    * Você também pode alterar a remuneração neste momento. Se você não atribuir remuneração neste momento, você pode alterar indo ao formulário do trabalhador, selecionando a aba Remuneração, e escolhendo 'Plano Fixo'. Depois que você selecionar 'Trocar de cargo', o status da solicitação de emprego será atualizado para 'Empregado'.  
+1. Acesse **Recursos humanos \> Recrutamento \> Solicitações de emprego \> Solicitações de emprego**.
+2. Na lista, encontre a solicitação de emprego do funcionário que você deseja contratar. Por exemplo, selecione **00002 John Emory**.
+3. Selecione **Status da solicitação de emprego**.
 
+    O status da solicitação de emprego indica quando uma solicitação está em processo de recrutamento. Cada etapa é opcional. Normalmente, uma solicitação de emprego muda de status na seguinte ordem: **Recebido**, **Confirmado** e **Entrevistado**. Depois do processo de entrevista, uma decisão de contratação será feita.
 
+4. Selecione **Alterar posição**.
+5. Selecione a posição para a qual você está contratando o funcionário.
+6. No campo **Nova data de início da atribuição**, insira a data em que o funcionário começará a trabalhar na nova posição.
+7. No campo **Data de término da atribuição**, insira a data em que o funcionário irá parar de trabalhar na posição atual.
+
+    A data de início da nova posição e a data de término da posição antiga podem se sobrepor. Essa sobreposição pode ocorrer quando uma pessoa estiver executando funções em ambas as posições durante um período de transição.
+
+8. Opcional: selecione um código de razão. Por exemplo, selecione **Reorganização**.
+9. Selecione **Alterar posição**.
+
+    Neste momento, você também pode alterar a compensação. Caso contrário, você poderá alterá-la posteriormente selecionando **Plano Fixo** na guia **Compensação** da página **Trabalhador**.
+
+    Depois que você selecionar **Alterar posição**, o status da solicitação de emprego será atualizado para **Empregado**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

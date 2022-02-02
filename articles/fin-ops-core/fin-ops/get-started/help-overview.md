@@ -1,9 +1,9 @@
 ---
 title: Sistema de ajuda (contém vídeo)
-description: Este tópico fornece uma visão geral do sistema de Ajuda para aplicativos do Finance and Operations.
+description: Este tópico fornece uma visão geral do sistema da Ajuda para aplicativos de finanças e operações.
 author: edupont04
 ms.date: 07/20/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemParameters
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d272221cc7a976d48b09b2f78bdb3f7fded2fc53
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 67f2fe493c57cd004b1003c1d95734bd455fde8c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937520"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984425"
 ---
 # <a name="help-system"></a>Sistema de ajuda
 
@@ -50,7 +50,7 @@ Você pode localizar conteúdo em docs.microsoft.com usando qualquer mecanismo d
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ser notificado sobre alterações por meio de um RSS feed
 
-Para assinar um RSS feed de todas as atualizações feitas no conteúdo em docs.microsoft.com nos aplicativos Finance and Operations, use o seguinte link:
+Para assinar um RSS feed de todas as atualizações feitas no conteúdo em docs.microsoft.com nos aplicativos de finanças e operações, use o seguinte link:
 
 [Feed RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 

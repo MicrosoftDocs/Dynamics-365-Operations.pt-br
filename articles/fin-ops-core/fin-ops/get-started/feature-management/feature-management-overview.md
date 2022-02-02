@@ -1,27 +1,26 @@
 ---
 title: Visão geral do gerenciamento de recursos
-description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
+description: Este tópico descreve o Gerenciamento de recursos e como você pode usá-lo.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488169"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984450"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -75,9 +74,9 @@ Os recursos atualizados para **Ativado por padrão** são ativados por padrão, 
 > [!NOTE]
 > Como esses recursos serão habilitados automaticamente, é importante determinar se a organização está pronta para adotá-los ou se é preciso mais tempo. Nesse caso, pode ser necessário desabilitar esses recursos temporariamente. Observe que a transição de um recurso para **Ativado por padrão** geralmente é feita na versão principal antes que ele seja planejado para se tornar **Obrigatório**. Nesse momento, você não terá a opção de desabilitar o recurso. 
 
-### <a name="released-features-mandatory"></a>Recursos liberados (obrigatórios)
+### <a name="mandatory"></a>Obrigatório
 
-**Liberado** é o último estado dos recursos. Ele indica que os recursos estão ativados e que você não pode desabilitá-los sem contatar a Microsoft. Os recursos opcionais devem se tornar obrigatórios após duas versões principais. Excepcionalmente, os recursos críticos podem ser introduzidos como obrigatórios.
+**Obrigatório** é o estado final esperado dos recursos. Ele indica que os recursos estão ativados e que você não pode desabilitá-los sem contatar a Microsoft. Os recursos opcionais devem se tornar obrigatórios após duas versões principais. Excepcionalmente, os recursos críticos podem ser introduzidos como obrigatórios.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Exemplo de ciclos de vida de recursos esperados
 

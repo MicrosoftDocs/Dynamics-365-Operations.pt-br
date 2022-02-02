@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 7434c2ed486fe0546a746afdd2c4c4aacdcc3d5c
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
+ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817279"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "8015706"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Atualizar para o modelo de catálogo de endereços global e de participantes
 
@@ -24,7 +24,7 @@ ms.locfileid: "7817279"
 
 Os [modelos do Microsoft Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) ajudam você a atualizar os dados existentes das tabelas **Conta**, **Contato** e **Fornecedor** em uma gravação dupla para o modelo de catálogo de endereços global e do participante.
 
-Os três modelos de Data Factory a seguir são fornecidos. Eles ajudam a reconciliar os dados dos aplicativos do Finance and Operations e dos aplicativos do Customer Engagement.
+Os três modelos de Data Factory a seguir são fornecidos. Eles ajudam a reconciliar os dados dos aplicativos Finanças e operações e Customer Engagement.
 
 - **[Modelo de participante](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (atualizar dados para esquema Participante-GAB de gravação dupla/arm_template.json)** – esse modelo ajuda a atualizar dados de **Participante** e de **Contato** associados a dados de **Conta**, **Contato** e **Fornecedor**.
 - **[Modelo de endereço postal do participante](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (atualizar dados para participante de esquema Participante-GAB de gravação dupla/atualizar para endereço postal do participante-GAB/arm_template.json)** – esse modelo ajuda a atualizar os endereços postais associados aos dados de **Conta**, **Contato** e **Fornecedor**.
@@ -34,16 +34,16 @@ No final do processo, são gerados os arquivos de valores separados por vírgula
 
 | Nome do arquivo | Finalidade |
 |---|---|
-| FONewParty.csv | Esse arquivo ajuda a criar novos registros de **Participante** no aplicativo do Finance and Operations. |
-| ImportFONewPostalAddressLocation.csv | Esse arquivo ajuda a criar registros de **Localização de endereço postal** no aplicativo do Finance and Operations. |
-| ImportFONewPartyPostalAddress.csv | Esse arquivo ajuda a criar registros de **Endereço postal do participante** no aplicativo do Finance and Operations. |
-| ImportFONewPostalAddress.csv | Esse arquivo ajuda a criar registros de **Endereço postal** no aplicativo Finance and Operations. |
-| ImportFONewElectronicAddress.csv | Esse arquivo ajuda a criar registros de **Endereço eletrônico** no aplicativo do Finance and Operations. |
+| FONewParty.csv | Este arquivo ajuda a criar novos registros de **Participante** no aplicativo Finanças e operações. |
+| ImportFONewPostalAddressLocation.csv | Esse arquivo ajuda a criar registros de **Localização de endereço postal** no aplicativo Finanças e operações. |
+| ImportFONewPartyPostalAddress.csv | Esse arquivo ajuda a criar registros de **Endereço postal do participante** no aplicativo Finanças e operações. |
+| ImportFONewPostalAddress.csv | Esse arquivo ajuda a criar novos registros de **Endereço postal** no aplicativo Finanças e operações. |
+| ImportFONewElectronicAddress.csv | Esse arquivo ajuda a criar novos registros de **Endereço eletrônico** no aplicativo Finanças e operações. |
 
 Este tópico explica como usar os modelos do Data Factory e atualizar seus dados. Se não tiver nenhuma personalização, você poderá usar os modelos no estado em que se encontram. No entanto, se tiver personalizações para dados de **Conta**, **Contato** e **Fornecedor**, você deverá modificar os modelos conforme descrito no tópico.
 
 > [!IMPORTANT]
-> Há instruções especiais se você executar os modelos de Endereço postal do participante e de Endereço eletrônico do participante. Você deve executar o modelo de Participante primeiro, em seguida, o modelo de Endereço postal do participante e, por fim, o modelo de Endereço eletrônico do participante.
+> Há instruções especiais para executar os modelos de Endereço postal do participante e de Endereço eletrônico do participante. Você deve executar o modelo de Participante primeiro, em seguida, o modelo de Endereço postal do participante e, por fim, o modelo de Endereço eletrônico do participante. Cada modelo foi criado para ser importado em um data factory separado.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -61,7 +61,7 @@ Uma atualização requer a seguinte preparação:
 + **Chaves de integração**: as tabelas **Conta (Cliente)**, **Contato** e **Fornecedor** nos aplicativos do Customer Engagement devem estar usando as chaves de integração prontas para uso que são enviadas. Se personalizou as chaves de integração, você deve personalizar o modelo.
 + **Número de participante:** todos os registros de **Conta (Cliente)**, **Contato** e **Fornecedor** que serão atualizados devem ter um número de participante. Os registros sem um número de participante serão ignorados. Se você desejar atualizar esses registros, adicione um número de participante a eles antes de iniciar o processo de upgrade.
 + **Interrupção do sistema**: durante o processo de atualização, será necessário manter os ambientes do Finance and Operations e do Customer Engagement offline.
-+ **Instantâneo:** tire um instantâneo dos aplicativos do Finance and Operations e do Customer Engagement. Você pode usar os instantâneos para restaurar o estado anterior, se necessário.
++ **Instantâneo**: tire instantâneos dos aplicativos Finanças e operações e Customer Engagement. Você pode usar os instantâneos para restaurar o estado anterior, se necessário.
 
 ## <a name="deployment"></a>Implantação
 
@@ -120,7 +120,7 @@ Esta seção descreve a configuração necessária antes de executar os modelos 
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>Configuração para executar o modelo de Endereço postal do participante
 
-1. Faça login nos aplicativos do Customer Engagement e acesse **Configurações** \> **Configurações de Personalização**. Na guia **Geral**, defina a configuração de fuso horário para a conta de administrador do sistema. O fuso horário deve estar no Tempo Universal Coordenado (UTC) para atualizar as datas "válido desde" e "válido até" dos endereços postais dos aplicativos do Finance and Operations.
+1. Faça login nos aplicativos do Customer Engagement e acesse **Configurações** \> **Configurações de Personalização**. Na guia **Geral**, defina a configuração de fuso horário para a conta de administrador do sistema. O fuso horário deve estar no Tempo Universal Coordenado (UTC) para atualizar as datas "válido desde" e "válido até" dos endereços postais dos aplicativos Finanças e operações.
 
     ![Configuração de fuso horário para a conta de administrador do sistema.](media/ADF-1.png)
 
@@ -128,7 +128,7 @@ Esta seção descreve a configuração necessária antes de executar os modelos 
 
     | Número | Nome | Tipo | Valor |
     |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | cadeia de caracteres | Esse parâmetro anexa um número de série a endereços postais criados recém-criados como um prefixo. Certifique-se de fornecer uma cadeia de caracteres que não entre em conflito com endereços postais nos aplicativos do Finance and Operations e nos aplicativos do Customer Engagement. Por exemplo, use **ADF-PAD-**. |
+    | 1 | PostalAddressIdPrefix | cadeia de caracteres | Esse parâmetro anexa um número de série a endereços postais criados recém-criados como um prefixo. Certifique-se de fornecer uma cadeia de caracteres que não entre em conflito com endereços postais nos aplicativos Finanças e operações e nos aplicativos do Customer Engagement. Por exemplo, use **ADF-PAD-**. |
 
     ![Parâmetro global PostalAddressIdPrefix criado na guia Gerenciar.](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ Esta seção descreve a configuração necessária antes de executar os modelos 
 
     | Número | Nome | Tipo | Valor |
     |---|---|---|---|
-    | 1 | IsFOSource | bool | Esse parâmetro determina quais endereços principais do sistema serão substituídos no caso de conflitos. Se o valor for **verdadeiro**, os endereços principais nos aplicativos do Finance and Operations substituirão os endereços principais nos aplicativos do Customer Engagement. Se o valor for **falso**, os endereços principais nos aplicativos do Customer Engagement substituirão os endereços principais nos aplicativos do Finance and Operations. |
-    | 2 | ElectronicAddressIdPrefix | cadeia de caracteres | Esse parâmetro anexa um número de série a endereços eletrônicos criados recém-criados como um prefixo. Certifique-se de fornecer uma cadeia de caracteres que não entre em conflito com endereços eletrônicos nos aplicativos do Finance and Operations e nos aplicativos do Customer Engagement. Por exemplo, use **ADF-EAD-**. |
+    | 1 | IsFOSource | bool | Esse parâmetro determina quais endereços principais do sistema serão substituídos no caso de conflitos. Se o valor for **verdadeiro**, os endereços principais nos aplicativos Finanças e operações substituirão os endereços principais nos aplicativos do Customer Engagement. Se o valor for **falso**, os endereços principais nos aplicativos Customer Engagement substituirão os endereços principais nos aplicativos Finanças e operações. |
+    | 2 | ElectronicAddressIdPrefix | cadeia de caracteres | Esse parâmetro anexa um número de série a endereços eletrônicos criados recém-criados como um prefixo. Certifique-se de fornecer uma cadeia de caracteres que não entre em conflito com endereços eletrônicos nos aplicativos Finanças e operações e nos aplicativos do Customer Engagement. Por exemplo, use **ADF-EAD-**. |
 
     ![Parâmetros globais IsFOSource e ElectronicAddressIdPrefix criados na guia Gerenciar.](media/ADF-4.png)
 
@@ -151,7 +151,7 @@ Esta seção descreve a configuração necessária antes de executar os modelos 
 
 ## <a name="run-the-templates"></a>Executar os modelos
 
-1. Interrompa os mapas de gravação dupla de **Conta**, **Contato** e **Fornecedor** que usam o aplicativo do Finance and Operations:
+1. Interrompa os mapas de gravação dupla de **Conta**, **Contato** e **Fornecedor** que usam o aplicativo do Finanças e operações:
 
     + Clientes V3 (contas)
     + Clientes V3 (contatos)
@@ -161,7 +161,7 @@ Esta seção descreve a configuração necessária antes de executar os modelos 
 
 2. Certifique-se de que os mapas sejam removidos da tabela **msdy_dualwriteruntimeconfig** no Dataverse.
 3. Instale [Soluções de gravação dupla de catálogo de endereços global e de participante](https://aka.ms/dual-write-gab) pelo AppSource.
-4. No aplicativo do Finance and Operations, execute a **Sincronização Inicial** para as tabelas a seguir se elas contiverem dados:
+4. No aplicativo Finanças e operações, execute a **Sincronização inicial** para as tabelas a seguir, se elas tiverem dados:
 
     + Saudações
     + Tipos de caracteres pessoais
@@ -261,10 +261,10 @@ Esta seção descreve a configuração necessária antes de executar os modelos 
     > [!NOTE]
     > Se tiver personalizações para **Conta**, **Contato** e **Fornecedor**, você deverá modificar o modelo.
 
-8. Importe os novos registros de **Participante** para o aplicativo do Finance and Operations.
+8. Importe os novos registros de **Participante** para o aplicativo do Finanças e operações.
 
     1. Baixe o arquivo **FONewParty.csv** do Armazenamento de Blobs do Azure. O caminho é **partybootstrapping/output/FONewParty.csv**.
-    2. Converta o arquivo **FONewParty.csv** em um arquivo do Excel e importe-o para o aplicativo do Finance and Operations. Como alternativa, se a importação de CSV funcionar para você, você poderá importar o arquivo .csv diretamente. Essa etapa pode levar algumas horas para ser concluída, dependendo do volume de dados. Para obter mais informações, consulte [Visão geral de trabalhos de importação e exportação de dados](../data-import-export-job.md).
+    2. Converta o arquivo **FONewParty.csv** em um arquivo do Excel e importe-o para o aplicativo Finanças e operações. Como alternativa, se a importação de CSV funcionar para você, você poderá importar o arquivo .csv diretamente. Essa etapa pode levar algumas horas para ser concluída, dependendo do volume de dados. Para obter mais informações, consulte [Visão geral de trabalhos de importação e exportação de dados](../data-import-export-job.md).
 
     ![Importando os registros de Participante do Dataverse.](media/data-factory-import-party.png)
 
@@ -275,7 +275,7 @@ Esta seção descreve a configuração necessária antes de executar os modelos 
 
     ![Executando os modelos de Endereço postal do participante e de Endereço eletrônico do participante.](media/ADF-7.png)
 
-10. Para atualizar o aplicativo do Finance and Operations com esses dados, você deve converter os arquivos .csv em uma pasta de trabalho do Excel e [importá-los para o aplicativo do Finance and Operations](/data-entities/data-import-export-job). Como alternativa, se a importação de CSV funcionar para você, você poderá importar os arquivos .csv diretamente. Essa etapa pode levar algumas horas para ser concluída, dependendo do volume.
+10. Para atualizar o aplicativo Finanças e operações com esses dados, você deve converter os arquivos .csv em uma pasta de trabalho do Excel e [importá-los para o aplicativo](/data-entities/data-import-export-job). Como alternativa, se a importação de CSV funcionar para você, você poderá importar os arquivos .csv diretamente. Essa etapa pode levar algumas horas para ser concluída, dependendo do volume.
 
     ![Importação com êxito.](media/ADF-8.png)
 
@@ -358,9 +358,9 @@ Esta seção fornece orientações sobre as etapas em cada modelo do Data Factor
 ### <a name="steps-in-the-party-template"></a>Etapas no modelo de Participante
 
 1. As etapas 1 a 6 identificam as empresas habilitadas para a gravação dupla e criam uma cláusula de filtro para elas.
-2. As etapas de 7-1 a 7-9 recuperam dados do aplicativo do Finance and Operations e do aplicativo do Customer Engagement, e transferem os dados para atualização.
-3. As etapas de 8 a 9 comparam o número do participante dos registros de **Conta**, **Contato** e **Fornecedor** entre o aplicativo do Finance and Operations e o aplicativo do Customer Engagement. Os registros sem um número de participante são ignorados.
-4. A etapa 10 gera dois arquivos .csv para os registros de participante que devem ser criados no aplicativo do Customer Engagement e no aplicativo do Finance and Operations.
+2. As etapas de 7-1 a 7-9 recuperam dados do aplicativo do Finanças e operações e do aplicativo Customer Engagement, e transferem os dados para atualização.
+3. As etapas de 8 a 9 comparam o número do participante dos registros de **Conta**, **Contato** e **Fornecedor** entre o aplicativo Finanças e operações e o aplicativo do Customer Engagement. Os registros sem um número de participante são ignorados.
+4. A etapa 10 gera dois arquivos .csv para os registros de participante que devem ser criados no aplicativo do Customer Engagement e no aplicativo Finanças e operações.
 
     - **FOCDSParty.csv** – esse arquivo contém todos os registros de participante de ambos os sistemas, independentemente de a empresa estar habilitada para gravação dupla.
     - **FONewParty.csv** – esse arquivo contém um subconjunto dos registros de participante do qual o Dataverse está ciente (por exemplo, contas do tipo **Cliente potencial**).
@@ -376,12 +376,12 @@ Esta seção fornece orientações sobre as etapas em cada modelo do Data Factor
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Etapas no modelo de Endereço postal do participante
 
-1. As etapas de 1-1 a 1-10 recuperam dados do aplicativo do Finance and Operations e do aplicativo do Customer Engagement, e transferem os dados para atualização.
-2. A etapa 2 desnormaliza os dados do endereço postal no aplicativo do Finance and Operations unindo o endereço postal e o endereço postal do participante.
+1. As etapas de 1-1 a 1-10 recuperam dados do aplicativo do Finanças e operações e do aplicativo Customer Engagement, e transferem os dados para atualização.
+2. A etapa 2 desnormaliza os dados do endereço postal no aplicativo Finanças e operações unindo o endereço postal e o endereço postal do participante.
 3. A etapa 3 elimina duplicatas e mescla os dados de endereço de conta, contato e fornecedor do aplicativo do Customer Engagement.
-4. A etapa 4 cria arquivos .csv para o aplicativo do Finance and Operations criar dados de endereço com base nos endereços de conta, contato e fornecedor.
-5. A etapa 5-1 cria arquivos .csv para o aplicativo do Customer Engagement todos os dados de endereço, com base no aplicativo do Finance and Operations e no aplicativo do Customer Engagement.
-6. A etapa 5-2 converte os arquivos .csv no formato de importação do Finance and Operations para a importação manual.
+4. A etapa 4 cria arquivos .csv para o aplicativo Finanças e operações criar dados de endereço com base nos endereços de conta, contato e fornecedor.
+5. A etapa 5-1 cria arquivos .csv para o aplicativo do Customer Engagement todos os dados de endereço, com base no aplicativo Finanças e operações e no aplicativo do Customer Engagement.
+6. A etapa 5-2 converte os arquivos .csv no formato de importação Finanças e operações para a importação manual.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
@@ -395,13 +395,13 @@ Esta seção fornece orientações sobre as etapas em cada modelo do Data Factor
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Etapas no modelo de Endereço eletrônico do participante
 
-1. As etapas de 1-1 a 1-5 recuperam dados do aplicativo do Finance and Operations e do aplicativo do Customer Engagement, e transferem os dados para atualização.
+1. As etapas de 1-1 a 1-5 recuperam dados do aplicativo do Finanças e operações e do aplicativo Customer Engagement, e transferem os dados para atualização.
 2. A etapa 2 consolida os endereços eletrônicos no aplicativo do Customer Engagement das entidades Conta, Contato e Fornecedor.
-3. A etapa 3 mescla os dados do endereço eletrônico principal do aplicativo do Customer Engagement e do aplicativo do Finance and Operations.
+3. A etapa 3 mescla os dados do endereço eletrônico principal do aplicativo do Customer Engagement e do aplicativo Finanças e operações.
 4. A etapa 4 cria os arquivos .csv.
 
-    - Crie dados de endereço eletrônico para o aplicativo do Finance and Operations com base nos endereços de conta, contato e fornecedor.
-    - Crie dados de endereço eletrônico para o aplicativo do Customer Engagement, com base nos endereços de endereço eletrônico, conta, contato e fornecedor no aplicativo do Finance and Operations.
+    - Crie dados de endereço eletrônico para o aplicativo Finanças e operações com base nos endereços de conta, contato e fornecedor.
+    - Crie dados de endereço eletrônico para o aplicativo do Customer Engagement, com base nos endereços de endereço eletrônico, conta, contato e fornecedor no aplicativo Finanças e operações.
 
 5. A etapa 5-1 importa os endereços eletrônicos para o aplicativo do Customer Engagement.
 6. A etapa 5-2 cria os arquivos .csv para atualizar endereços principais de contas e contatos no aplicativo do Customer Engagement.

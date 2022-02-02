@@ -3,7 +3,7 @@ title: Visão geral de Autoatendimento para funcionários e gerentes
 description: Este artigo fornece uma visão geral do espaço de trabalho de autoatendimento para Funcionários e Gerentes.
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cea92092701f960f12aa74efe4c82c379a2b2c6d
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431202"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992037"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Visão geral de Autoatendimento para funcionários e gerentes
 
@@ -93,7 +93,7 @@ Visualize e gerencie documentos com o bloco **Anexos**. Você pode gerenciar tod
 
 Esta seção fornece links para outras áreas de **Autoatendimento para funcionários**, semelhantes à seção **Minhas informações de carreira**.
 
-Inscreva-se nos benefícios por meio do link **Benefícios**. Para obter mais informações sobre gerenciamento de benefícios, consulte [Visão geral dos benefícios](hr-benefits-management-overview.md)
+Inscreva-se nos benefícios por meio do link **Benefícios**. Para obter mais informações sobre Gerenciamento de benefícios, consulte [Visão geral de benefícios](hr-benefits-management-overview.md).
 
 Em **Desempenho**, você pode selecionar **Diário de desempenho** para criar entradas de diário de desempenho para usar em metas e revisões de desempenho. Você pode selecionar **Enviar comentários** para fornecer comentários a outros funcionários da sua organização. Dependendo das configurações da sua organização, os emails podem ser enviados ao destinatário, remetente e gerentes. Você pode enviar comentários para todos os funcionários da organização. O envio de comentários não é restrito pela empresa.
 

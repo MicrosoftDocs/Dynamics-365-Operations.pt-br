@@ -96,8 +96,6 @@
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (janeiro de 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
-                    - name: Commerce 10.0.22 (novembro de 2021)
-                      href: get-started/whats-new-commerce-10-0-22.md
                 - name: Recursos removidos ou preteridos
                   items:
                     - name: Home page de recursos removidos ou preteridos
@@ -222,7 +220,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Vários ambientes de produção e projetos do LCS em um locatário do Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Implementar projetos do Commerce no Finance and Operations
+                - name: Implementar projetos do Commerce do Finance and Operations
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Configurar novos ambientes, o Azure DevOps e as ramificações para projetos'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -712,6 +710,10 @@
                   href: sync-product-ratings.md
                 - name: Habilitar a publicação manual de classificações e opiniões por um moderador
                   href: manual-publish-rating-reviews.md
+                - name: Importar e exportar classificações e opiniões
+                  href: import-export-reviews.md
+                - name: Configurar autenticação de serviço para serviço
+                  href: service-to-service-auth.md
                 - name: Perguntas frequentes sobre classificações e opiniões
                   href: ratings-reviews-faq.md
             - name: Gerenciar seu estoque
@@ -998,8 +1000,6 @@
                       href: style-presets.md
                     - name: Adicionar um favicon
                       href: add-favicon.md
-                    - name: Adicionar uma mensagem de boas-vindas
-                      href: add-welcome-message.md
                     - name: Adicionar um aviso de direitos autorais
                       href: add-copyright-notice.md
                     - name: Adicionar idiomas

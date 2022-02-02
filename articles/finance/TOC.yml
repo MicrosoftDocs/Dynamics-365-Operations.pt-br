@@ -4,6 +4,30 @@
       items:
         - name: Home page do Dynamics 365 Finance
           href: index.md
+        - name: Novidades ou alterações
+          items:
+            - name: Novidades ou alterações nos aplicativos do Finance and Operations
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: Novidades ou alterações no Finance
+              items:
+                - name: Novidades ou alterações na home page do Finance
+                  href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.24 (fevereiro)
+                  href: get-started/whats-new-changed-10-0-24.md
+                - name: Finance 10.0.23 (janeiro)
+                  href: get-started/whats-new-changed-10-0-23.md
+            - name: Recursos removidos ou preteridos
+              items:
+                - name: Home page de recursos removidos ou preteridos
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                - name: Recursos removidos ou preteridos do Dynamics 365 Finance
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Recursos removidos ou preteridos em versões anteriores
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
+            - name: Recursos do AX 2012 que foram postergados
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Fim do suporte base ao Microsoft Dynamics AX 2009 e 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
         - name: Introdução
           items:
             - name: Descrição do serviço
@@ -62,32 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar a armazenagem para implantações locais
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-            - name: Novidades ou alterações
-              items:
-                - name: Novidades ou alterações nos aplicativos do Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Novidades ou alterações no Finance
-                  items:
-                    - name: Novidades ou alterações na home page do Finance
-                      href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.24 (fevereiro)
-                      href: get-started/whats-new-changed-10-0-24.md
-                    - name: Finance 10.0.23 (janeiro)
-                      href: get-started/whats-new-changed-10-0-23.md
-                    - name: Finance 10.0.22 (novembro de 2021)
-                      href: get-started/whats-new-changed-10-0-22.md
-            - name: Recursos removidos ou preteridos
-              items:
-                - name: Home page de recursos removidos ou preteridos
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Recursos removidos ou preteridos do Dynamics 365 Finance
-                  href: get-started/removed-deprecated-features-finance.md
-                - name: Recursos removidos ou preteridos em versões anteriores
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-            - name: Recursos do AX 2012 que foram postergados
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Fim do suporte base ao Microsoft Dynamics AX 2009 e 2012
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Recursos de documentação
               items:
                 - name: Sistema de ajuda
@@ -836,6 +834,8 @@
                   href: asset-leasing/set-up-lease-books.md
                 - name: Criar grupo de arrendamento
                   href: asset-leasing/create-lease-group.md
+                - name: Tipo de valor do pagamento
+                  href: asset-leasing/Payment-amount-type.md
                 - name: Configurar taxas indexadas
                   href: asset-leasing/set-up-index-rate-types.md
                 - name: Configurar tipos de despesa
@@ -1460,9 +1460,11 @@
                           href: localizations/tax-calculation-import-export-feature.md
                         - name: Configurar um ambiente para pesquisa de dados mestres
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                        - name: Sincronizar a configuração de imposto do Serviço de Cálculo de Imposto com o Finance
+                          href: localizations/global-master-data-sync-tax-calculation-service-finance.md
                     - name: Determinação
                       items:
-                        - name: Modelo de dados de cálculo de impostos
+                        - name: Modelo de dados de cálculo de imposto
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: Aplicabilidade do imposto e lógica de determinação do grupo de impostos
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
@@ -1491,7 +1493,7 @@
                         - name: Relatório da Alemanha
                           items:
                             - name: Declaração de IVA
-                              href: /localizations/emea-deu-vat-declaration-germany.md
+                              href: localizations/emea-deu-vat-declaration-germany.md
                         - name: Relatórios dos Países Baixos
                           items:
                             - name: Declaração de IVA
@@ -1502,6 +1504,8 @@
                           items:
                             - name: 'Fornecimento imediato de informações sobre IVA (Suministro Inmediato de Información del IVA, SII)'
                               href: localizations/emea-esp-sii-spain.md
+                            - name: Declaração de IVA
+                              href: localizations/emea-esp-vat-declaration-spain.md
                         - name: Relatórios da Suécia
                           items:
                             - name: Declaração de IVA
@@ -1530,12 +1534,14 @@
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Adicionar campos de dados à integração de imposto usando extensões
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                        - name: Personalizar configurações de imposto para pesquisa de dados mestre
+                        - name: Personalizar configurações de imposto para pesquisa de dados mestres
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: Perguntas frequentes sobre cálculo de imposto
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Atualizações regulatórias
               href: localizations/regulatory-updates.md
+            - name: Pesquisar atualizações regulatórias
+              href: localizations/search-for-regulatory-updates.md
             - name: Austrália
               items:
                 - name: Visão geral da Austrália
@@ -1560,7 +1566,7 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Taxas de material de embalagem
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: Demonstrativo de IVA
+                - name: Declaração de IVA
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Relatório de serviços internacionais
                   href: localizations/emea-aut-cross-border-services-report.md
@@ -1754,6 +1760,8 @@
                   href: localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
                 - name: Calcular juros e multas em pagamentos de cliente
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+                - name: Configurar números de conta bancária para o Brasil
+                  href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
                 - name: Impostos
                   items:
                     - name: Visão geral de impostos do Brasil
@@ -1780,8 +1788,10 @@
                       href: localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
                     - name: Configurar códigos de ajuste para impostos ICMS em notas fiscais
                       href: localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
-                    - name: 'Complemento de ICMS-ST e processo de declaração e restituição para estados de RS, SC e SP'
+                    - name: 'Complemento de ICMS-ST e processo de declaração e restituição para os estados de RS, SC e SP'
                       href: localizations/latam-bra-complement-restitution.md
+                    - name: Alteração de base nos cálculos de imposto ICMS-DIF para produtos de fornecedores em outros estados
+                      href: localizations/latam-brazil-basis-change-ICMS-DIF-tax-calculation-products-suppliers-other-states.md
                     - name: Configurar códigos de ajuste para impostos IPI
                       href: localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
                     - name: Ativos fixos com PIS e COFINS
@@ -1880,10 +1890,12 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: Atualizar como os valores são exibidos em relatórios e documentos
                   href: localizations/emea-amount-printing-forms.md
-                - name: Demonstrativo de IVA
+                - name: Declaração de IVA
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: Declaração de IVA (República Tcheca)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Intrastat tcheco
+                  href: localizations/emea-cze-intrastat.md
                 - name: Símbolos bancários para contas bancárias
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
                 - name: IVA da UE
@@ -1916,6 +1928,8 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Configurar formato da guia de pagamento
                   href: localizations/tasks/set-up-payment-slip-format.md
+                - name: Intrastat dinamarquês
+                  href: localizations/emea-dnk-intrastat.md
             - name: Egito
               items:
                 - name: Visão geral do Egito
@@ -1936,8 +1950,10 @@
                   href: localizations/estonia.md
                 - name: Solicitações de informações pessoais
                   href: localizations/emea-est-personal-info.md
-                - name: Demonstrativo de IVA
+                - name: Declaração de IVA
                   href: localizations/emea-est-vat-statement-details.md
+                - name: Intrastat estoniano
+                  href: localizations/emea-est-intrastat.md
             - name: Europa
               items:
                 - name: Visão geral da Europa
@@ -2082,8 +2098,10 @@
                       href: localizations/emea-tax-point-date.md
                     - name: Relatório de IVA
                       href: localizations/emea-vat-reporting.md
-                    - name: Criar e enviar um relatório de IVA
+                    - name: Criar e enviar relatório de IVA
                       href: localizations/tasks/create-submit-vat-report.md
+                    - name: Data do registro de IVA do fornecedor
+                      href: localizations/emea-date-vendor-vat-register.md
                 - name: Exibir transações sobre liquidação
                   href: localizations/emea-transactions-settlement-form.md
                 - name: Motivo financeiro
@@ -2188,7 +2206,7 @@
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Intrastat alemão
                   href: localizations/emea-deu-intrastat.md
-                - name: Demonstrativo de IVA
+                - name: Declaração de IVA
                   href: localizations/emea-de-vat-declaration.md
                 - name: Relatório de faturas eletrônicas do cliente
                   href: localizations/emea-deu-e-invoices.md
@@ -2870,17 +2888,19 @@
                   href: localizations/emea-invoices-packing-slips-numbering.md
                 - name: Relatório de impostos sobre recursos naturais
                   href: localizations/emea-lva-tax-natural-resources.md
-                - name: ​Detalhes do demonstrativo de IVA​
+                - name: Detalhes da declaração de IVA
                   href: localizations/emea-lva-vat-statement-details.md
+                - name: Intrastat letão
+                  href: localizations/emea-lva-intrastat.md
             - name: Lituânia
               items:
                 - name: Visão geral da Lituânia
                   href: localizations/lithuania.md
-                - name: ​Demonstrativo de reparo de ativo fixo​
+                - name: Demonstrativo de reparo de ativo fixo
                   href: localizations/emea-ltu-fixed-asset-repair-statement.md
                 - name: Gerar uma transferência de ativo fixo entre documentos de depósitos
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
-                - name: Detalhes do demonstrativo de IVA
+                - name: Detalhes da declaração de IVA
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: Relatório i.SAF para a Lituânia
                   href: localizations/emea-ltu-isaf.md
@@ -2988,7 +3008,7 @@
                   href: localizations/tasks/no-00002-customer-payment-based-payment-id.md
                 - name: Formato de importação Nets
                   href: localizations/emea-nor-nets-import-format.md
-                - name: Demonstrativo de IVA
+                - name: Declaração de IVA
                   href: localizations/emea-nor-sales-tax-payment-report.md
                 - name: Restituição de IVA com envio direto para Altinn
                   items:
@@ -3060,6 +3080,8 @@
                       href: localizations/emea-pol-vdek-reporting.md
                     - name: Detalhes de cenários comerciais específicos no relatório de JPK-V7M
                       href: localizations/emea-pol-vdek-scenarios.md
+                - name: Condições de pagamento no relatório de transações comerciais
+                  href: localizations/emea-pol-payment-terms-report.md
             - name: Catar
               items:
                 - name: Visão geral do Catar
@@ -3356,9 +3378,11 @@
                   href: localizations/emea-esp-report-340.md
                 - name: Relatório 347 de declaração
                   href: localizations/emea-esp-declaration-347-report.md
-                - name: ​Ciclos de vendas e compras​
+                - name: Declaração de IVA 303
+                  href: localizations/emea-esp-vat-declaration-spain.md
+                - name: Ciclos de vendas e compras
                   href: localizations/emea-esp-sales-purchase-cycle.md
-                - name: ​Entradas especiais e folhas de abertura​
+                - name: Entradas especiais e folhas de abertura
                   href: localizations/emea-esp-opening-sheets-spain.md
                 - name: Fornecimento imediato de informações sobre IVA
                   href: localizations/emea-esp-sii.md
@@ -3466,14 +3490,16 @@
           items:
             - name: Visão geral do Human Resources
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
+            - name: Versão de infraestrutura 10.0.25
+              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
             - name: Configurar o Human Resources
               items:
-                - name: Configurar parâmetros de recursos do Human Resources
+                - name: Configurar parâmetros do Human Resources
                   href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar parâmetros compartilhados do Human Resources
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar fluxos de trabalho do Human Resources
-                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
                 - name: Entender os campos de data e hora
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: Gerenciar pessoal
@@ -4723,7 +4749,7 @@
               items:
                 - name: Criar provedores de taxa de câmbio
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-providers.md
-                - name: Criar provedores de taxa de câmbio no Finance and Operations versão 8.0
+                - name: Criar fornecedores de taxa de câmbio no Finance and Operations versão 8.0
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Liquidar transações usando CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
