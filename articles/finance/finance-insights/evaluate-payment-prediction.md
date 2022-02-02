@@ -1,5 +1,5 @@
 ---
-title: Avaliar o modelo de previsão de pagamento inicial do cliente (versão prévia)
+title: Avaliar o modelo de previsão de pagamento inicial do cliente
 description: Este tópico descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f45392d540b6696d23261a6b2197c3185f5ede2b7c646f6b751480145dcacfdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768858"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969103"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Avaliar o modelo de previsão de pagamento inicial do cliente (versão prévia)
+# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Avaliar o modelo de previsão de pagamento inicial do cliente
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ Na página **Parâmetros do Finance Insights** no Microsoft Dynamics 365 Finance
 
 [![Link Melhorar a precisão do modelo.](./media/prediction-model.png)](./media/prediction-model.png)
 
-Este link leva você para o AI Builder, no qual você pode saber mais sobre o modelo atual e também executar etapas para aprimorá-lo. A ilustração a seguir mostra a página que é aberta.
+Este link leva você para o AI Builder, onde você poderá saber mais sobre o modelo atual e também executar etapas para aprimorá-lo. A ilustração a seguir mostra a página que é aberta.
 
 [![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 

@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "10444"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 464092ae2fdcdfd8a0ada254e88f4418c825c1f9
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486961"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983968"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introdução aos Relatórios financeiros 
 
@@ -148,7 +146,7 @@ Você pode criar um número ilimitado de árvores de relatórios para exibir os 
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Atualizar a versão do Financial reporting com a integração
 
-Aplicativos Finance and Operations são atualizados todos os meses. No entanto, o Financial reporting não é necessariamente atualizado nessa cadência. Além disso, os clientes têm mais opções sobre ao implementar atualizações para aplicativos do Finance and Operations. As atualizações do Financial reporting são instaladas automaticamente. O Financial reporting tem uma versão designada consumida em um ambiente de cliente quando uma atualização de serviço é implementada, quando o tempo de inatividade é iniciado ou quando o ambiente de um cliente está em modo de Manutenção. Esse processo é conhecido como *correção* ou *real*, pois todas as implementações de clientes são definidas como a mesma versão do Financial reporting.
+Os aplicativos de finanças e operações são atualizados todos os meses. No entanto, o Financial reporting não é necessariamente atualizado nessa cadência. Além disso, os clientes têm mais opções sobre ao implementar atualizações para aplicativos de finanças e operações. As atualizações do Financial reporting são instaladas automaticamente. O Financial reporting tem uma versão designada consumida em um ambiente de cliente quando uma atualização de serviço é implementada, quando o tempo de inatividade é iniciado ou quando o ambiente de um cliente está em modo de Manutenção. Esse processo é conhecido como *correção* ou *real*, pois todas as implementações de clientes são definidas como a mesma versão do Financial reporting.
 
 As alterações liberadas em cada versão podem ser encontradas em [Novidades ou alterações no Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). As atualizações de plataforma e correção de bugs podem ser encontradas na seção "Recursos Adicionais", na parte inferior da página, para cada liberação.
 

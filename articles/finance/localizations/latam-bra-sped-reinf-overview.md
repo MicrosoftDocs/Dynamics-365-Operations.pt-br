@@ -3,23 +3,22 @@ title: SPED-Reinf (Brasil)
 description: Este tópico fornece informações sobre como usar os Livros fiscais e a estrutura de mensagem eletrônica para configurar eventos do SPED-Reinf.
 author: sndray
 ms.date: 04/09/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 673f5e3ca3c6e3ffc16be6a91b02945b9d641ce1953dcb7e468fd5074f6f6e19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9dd2f11c47c71ba39171e85d9edd343650094df3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767583"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986163"
 ---
 # <a name="sped-reinf-brazil"></a>SPED-Reinf (Brasil) 
 

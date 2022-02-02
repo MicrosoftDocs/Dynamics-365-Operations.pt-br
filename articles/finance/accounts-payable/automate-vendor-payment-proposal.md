@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 483621a5de2980212926ac1011c16f1b82e4a3d075bbe9bcbbe6a0e35f06e5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749093"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966706"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizar propostas de pagamento de fornecedor
 
@@ -32,6 +32,9 @@ Organizações que pagam fornecedores em uma agenda recorrente agora podem autom
 - O diário de pagamentos do fornecedor em que os pagamentos resultantes são salvos
 
 As automatizações de proposta de pagamento não lançam automaticamente os pagamentos. Portanto, você pode continuar a usar qualquer validação e processo de fluxo de trabalho utilizada atualmente para aprovar os pagamentos que são criados.
+
+> [!NOTE]
+> O recurso **Automação de proposta de pagamento de fornecedor** deve estar habilitado no gerenciamento de recursos para a utilização dessa funcionalidade. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Definir a ocorrência de propostas de pagamento de fornecedor
 

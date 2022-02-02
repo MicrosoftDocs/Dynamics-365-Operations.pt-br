@@ -3,23 +3,22 @@ title: Visão geral de alertas (contém vídeo)
 description: Este tópico fornece informações gerais sobre alertas. Você pode usar alertas para manter-se informado sobre os eventos que deseja acompanhar durante o dia útil.
 author: RichdiMSFT
 ms.date: 09/04/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 857a837872abff44c8c7af5e938f7610fa61d94e
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937462"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984959"
 ---
 # <a name="alerts-overview"></a>Visão geral dos alertas
 
@@ -78,13 +77,13 @@ Uma regra de alerta tem cinco componentes:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-O vídeo [Como usar alertas para monitorar dados filtrados](https://youtu.be/ZYKMcv6kl9s) (exibido acima) está na playlist [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo [Como usar alertas para monitorar dados filtrados](https://youtu.be/ZYKMcv6kl9s) (exibido acima) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ### <a name="alert-rule-options"></a>Opções de regras de alerta
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-O vídeo [Opções de regras de alerta](https://youtu.be/cpzimwOjicM) (mostrado acima) está na playlist [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo [Opções de regras de alerta](https://youtu.be/cpzimwOjicM) (mostrado acima) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 
 

@@ -3,7 +3,7 @@ title: Visão geral de Relatório eletrônico (ER)
 description: Este tópico oferece uma visão geral da ferramenta ER. Ele descreve os principais conceitos, os cenários com suporte e os formatos que fazem parte da solução.
 author: NickSelin
 ms.date: 11/02/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867269"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986138"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visão geral de Relatório eletrônico (ER)
 
@@ -66,7 +66,7 @@ O ER é compatível com os formatos de planilha TEXT, XML, JSON, PDF, Microsoft 
 
 O mecanismo ER tem os seguintes recursos:
 
-- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes, e substitui mais de 20 mecanismos diferentes que fazem algum tipo de relatório eletrônico para Finance and Operations.
+- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes e substitui mais de 20 mecanismos diferentes que geram algum tipo de relatório eletrônico para o Finance and Operations.
 - Isso torna o formato do relatório isolado da implementação atual. Em outras palavras, o formato é aplicável a várias versões.
 - Ele suporta a criação de um formato personalizado que é baseado no formato original. Ele também inclui recursos para atualizar automaticamente o formato personalizado quando o formato original é alterado devido aos requisitos de localização/personalização.
 - Ele se torna o padrão principal de suporte de requisitos de localização no relatório eletrônico para a Microsoft e parceiros da Microsoft.
@@ -126,7 +126,7 @@ Uma configuração de ER é compartilhada para empresas do aplicativo.
 
 #### <a name="provider"></a><a name="Provider"></a>Provedor
 
-O provedor de ER é a identificação de uma parte que é usada para indicar o autor (proprietário) de cada configuração de ER. ER permite que você gerencie a lista de provedores de configuração. Configurações de formato que são lançadas para documentos eletrônicos como parte da solução do Finance and Operations são marcadas como pertencentes ao fornecedor de configuração **Microsoft**.
+O provedor de ER é a identificação de uma parte que é usada para indicar o autor (proprietário) de cada configuração de ER. ER permite que você gerencie a lista de provedores de configuração. As configurações de formato que são liberadas para documentos eletrônicos como parte da solução do Finance and Operations são marcadas como pertencentes ao fornecedor de configuração da **Microsoft**.
 
 Para aprender a registrar um novo provedor de ER, execute a guia de tarefas **ER Criar um provedor de configuração e marcá-lo como ativo** (parte do processo comercial **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
@@ -143,7 +143,7 @@ Um repositório armazena as configurações de RE. Os tipos de repositórios de 
 
 Um repositório da **biblioteca compartilhada do LCS** fornece acesso à lista de configurações na biblioteca de ativos compartilhados no Lifecycle Services (LCS). Esse tipo repositório de ER só pode ser registrado para o provedor Microsoft. Por meio da biblioteca de ativos compartilhados do LCS, você pode importar as versões mais recentes das configurações de ER para a instância atual.
 
-Um repositório de **Projeto LCS** fornece acesso à lista de configurações de um projeto LCS específico (biblioteca de ativos do projeto LCS) selecionado quando o repositório foi registrado. O ER permite carregar configurações compartilhadas da instância atual para um repositório específico do **Projeto do LCS**. Você também pode importar configurações de um repositório do **projeto LCS** na instância atual do Finance and Operations.
+Um repositório de **Projeto LCS** fornece acesso à lista de configurações de um projeto LCS específico (biblioteca de ativos do projeto LCS) selecionado quando o repositório foi registrado. O ER permite carregar configurações compartilhadas da instância atual para um repositório específico do **Projeto do LCS**. Você também pode importar configurações de um repositório do **Projeto LCS** para a instância atual de seus aplicativos de finanças e operações.
 
 Um repositório do **Sistema de arquivos** fornece acesso à lista de definições que estão localizadas como arquivos xml na pasta específica do sistema de arquivos local do computador onde o serviço AOS está hospedado. A pasta necessária está selecionada no estágio de registro do armazenamento. Você também pode importar configurações de um repositório do **Sistema de arquivos** na instância atual. 
 

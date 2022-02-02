@@ -3,24 +3,23 @@ title: Visão geral sobre desenvolver e estabelecer contratos de serviço
 description: Os contratos de serviço permitem definir os recursos usados em uma típica visita de serviços e como esses recursos são faturados para o cliente.
 author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54a3612d11976c86ec1412bb0a599c772d7edeb5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 955e360a1c0d6aec51e82598737c847b190e5e1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573240"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985852"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>Visão geral sobre desenvolver e estabelecer contratos de serviço
 

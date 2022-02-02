@@ -1,24 +1,23 @@
 ---
 title: Visão geral de Brasil
 description: Este tópico fornece links para recursos de documentação do Microsoft Dynamics 365 Finance para o Brasil.
-author: ShylaThompson
-ms.date: 07/25/2019
-ms.topic: article
+author: kfend
+ms.date: 01/20/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Brazil
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f12140955edfc62a8335886c262d3a0c73b8f42894d5e0b668b76f770277dcce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 939616c5ae8a8464c5df823c6b65d5b6ed3e0749
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721739"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016112"
 ---
 # <a name="brazil-overview"></a>Visão geral de Brasil
 
@@ -76,6 +75,7 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 - Tarefas para o Brasil
   - [Configurar parâmetros de entidade legal](tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md)
   - [Configurar modelos de texto da nota fiscal](tasks/br-00001-2-set-up-fiscal-document-source-text.md)
+  - [Configurar números de conta bancária para o Brasil](latam-bra-bank-account-number-setup-brazil-localization.md)
   - [Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis de longo prazo)](tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md)
   - [Receber notas fiscais de fornecedor (produtos)](tasks/br-00024-receiving-vendor-fiscal-document-products.md)
   - [Criar e lançar uma nota fiscal complementar de compra](tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md)

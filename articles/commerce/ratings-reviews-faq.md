@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d3642392ed2cf231f261b24428756c6e32a79f98
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c6356f7c085b93e3e3f292e72f813f823e924487
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674565"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968168"
 ---
 # <a name="ratings-and-reviews-faq"></a>Perguntas frequentes sobre classificações e opiniões
 
@@ -41,5 +41,17 @@ Para obter instruções sobre como habilitar e aplicar a publicação manual de 
 [Aceitar o uso das classificações e opiniões](opt-in-ratings-reviews.md)
 
 [Habilitar a publicação manual de classificações e opiniões por um moderador](manual-publish-rating-reviews.md)
+
+[Gerenciar classificações e opiniões](manage-reviews.md)
+
+[Configurar classificações e opiniões](configure-ratings-reviews.md)
+
+[Sincronizar classificações de produto](sync-product-ratings.md)
+
+[Habilitar a publicação manual de classificações e opiniões por um moderador](manual-publish-rating-reviews.md)
+
+[Importar e exportar avaliações e revisões](import-export-reviews.md)
+
+[Configurar autenticação de serviço a serviço](service-to-service-auth.md)
 
 [O refinador de classificações é exibido em resultados de pesquisa e páginas da categoria quando a solução de classificações e opiniões não está habilitada](troubleshoot/hide-ratings-refiner.md)

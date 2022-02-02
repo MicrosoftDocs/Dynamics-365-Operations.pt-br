@@ -3,7 +3,7 @@ title: Modelo de dados de cálculo de impostos
 description: Este tópico fornece informações sobre o modelo de dados de imposto e sobre como os valores de campo de cada modelo de dados são determinados pelo contexto das transações de cálculo de imposto.
 author: kailiang
 ms.date: 10/15/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b9b3e28b9435e9614b06d4fa2855b31d0e38b41
-ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
+ms.openlocfilehash: 2773efaed9ee30ccb27b35f5aa00515ebba1c84a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7864251"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985957"
 ---
 # <a name="tax-calculation-data-model"></a>Modelo de dados de cálculo de impostos
 
 Este tópico fornece informações sobre o modelo de dados de imposto e sobre como os valores de campo de cada modelo de dados de imposto são determinados nas transações de cálculo de imposto.
 
-O *modelo de dados de imposto* é composto de campos que são necessários para cálculos de imposto. A Microsoft fornece o *modelo de dados de cálculo de impostos*, que inclui os campos de cabeçalho e os campos de linha dos documentos de transação nos aplicativos do Finance and Operations. Os campos definidos no modelo de dados de cálculo de impostos são as colunas disponíveis das tabelas de regras de aplicabilidade na configuração da configuração do recurso de cálculo de imposto.
+O *modelo de dados de imposto* é composto de campos que são necessários para cálculos de imposto. A Microsoft fornece o *modelo de dados de cálculo de impostos*, que inclui os campos de cabeçalho e os campos de linha dos documentos de transação nos aplicativos Finanças e operações. Os campos definidos no modelo de dados de cálculo de impostos são as colunas disponíveis das tabelas de regras de aplicabilidade na configuração da configuração do recurso de cálculo de imposto.
 
 > [!NOTE] 
 > Alguns nós definidos no modelo de dados, como **ID do Registro** e **ID da Tabela**, são para fins técnicos. Elas não são colunas disponíveis na configuração do recurso de cálculo de imposto.
@@ -55,7 +55,7 @@ Você também pode exibir o modelo de dados de cálculo de impostos e as colunas
 
     [![Gerenciar colunas.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-O modelo de dados de cálculo de imposto é integrado aos aplicativos do Finance and Operations. Durante cada transação relacionada ao cálculo de imposto, os valores dos campos definidos nas tabelas de regras de aplicabilidade são coletados e enviados ao serviço de cálculo de imposto para cálculo. Na versão 40.46, 57 modelos de dados predefinidos estão disponíveis para os seguintes tipos de transação: ordens de compra, ordens de venda, ordens de transferência, requisições de compra, solicitações de cotação e cotações de venda.
+O modelo de dados de cálculo de imposto é integrado aos aplicativos Finanças e operações. Durante cada transação relacionada ao cálculo de imposto, os valores dos campos definidos nas tabelas de regras de aplicabilidade são coletados e enviados ao serviço de cálculo de imposto para cálculo. Na versão 40.46, 57 modelos de dados predefinidos estão disponíveis para os seguintes tipos de transação: ordens de compra, ordens de venda, ordens de transferência, requisições de compra, solicitações de cotação e cotações de venda.
 
 Os modelos de dados de trinta-um podem ser incluídos como campos no cabeçalho de uma transação. No entanto, nem todos os campos se aplicam a todos os tipos de transação. A tabela a seguir mostra os campos de cabeçalho que estão disponíveis para os tipos de transação específicos. Em alguns casos, o mapeamento de campos deve ser determinado pela lógica predefinida. Quando aplicável, a lógica será fornecida.
 

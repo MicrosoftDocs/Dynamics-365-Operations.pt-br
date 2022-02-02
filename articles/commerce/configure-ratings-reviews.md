@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473540"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968093"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configurar classificações e opiniões
 
@@ -83,13 +83,21 @@ Para obter informações sobre como configurar módulos de classificações e re
 
 [Visão geral de classificações e opiniões](ratings-reviews-overview.md)
 
-[Aceitar usar classificações e opiniões](opt-in-ratings-reviews.md)
+[Aceitar o uso das classificações e opiniões](opt-in-ratings-reviews.md)
 
 [Gerenciar classificações e opiniões](manage-reviews.md)
 
-[Configurar os módulos de classificações e revisões nas páginas de detalhes do produto](ratings-reviews-modules.md)
-
 [Sincronizar classificações de produto no Dynamics 365 Retail](sync-product-ratings.md)
+
+[Habilitar a publicação manual de classificações e opiniões por um moderador](manual-publish-rating-reviews.md)
+
+[Importar e exportar avaliações e revisões](import-export-reviews.md)
+
+[Configurar autenticação de serviço a serviço](service-to-service-auth.md)
+
+[Perguntas frequentes sobre classificações e opiniões](ratings-reviews-faq.md)
+
+[Módulos de classificações e opiniões](ratings-reviews-modules.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

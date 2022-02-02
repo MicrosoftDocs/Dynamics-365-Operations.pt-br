@@ -1,5 +1,5 @@
 ---
-title: Corrigir o erro de mecanismo de agendamento "Não foi possível localizar capacidade suficiente"
+title: Corrigir o erro de mecanismo de agendamento 'Não foi possível localizar capacidade suficiente'
 description: Este tópico fornece informações sobre os motivos e as resoluções para "Não foi possível agendar a ordem de produção %1. Não foi possível localizar capacidade suficiente".
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565750"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985021"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Corrigir o erro de mecanismo de agendamento "Não foi possível localizar capacidade suficiente"
 
@@ -105,5 +105,11 @@ Para revisar a capacidade disponível no grupo de recursos, siga estas etapas.
 
 1. Acesse **Administração da organização \> Recursos \> Grupos de recursos** e selecione um grupo de recursos aplicável à ordem que não pode ser agendada.
 1. No Painel de Ações, na guia **Grupo de recursos**, no grupo **Exibir**, selecione **Carga de capacidade** ou **Carga de capacidade, graficamente** e verifique se há capacidade disponível.
+
+## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>O planejamento mestre reserva um recurso quando o calendário de recursos é fechado
+
+Ao usar o planejamento de operações, o planejamento mestre planejará a capacidade de acordo com o calendário do grupo de recursos principal. Ele reserva a operação secundária ao mesmo tempo que a operação principal e não leva em consideração os calendários ou a capacidade da operação secundária. Isso pode resultar na ordem de produção que está sendo planejada em um calendário fechado ou em um horário em que a operação secundária não está disponível (calendário fechado, sem capacidade).
+
+Ao usar o agendamento de trabalho, o planejamento mestre levará em conta a capacidade e o calendário de operações principal e secundária ao agendar a ordem. Para que a ordem seja agendada, os calendários dos recursos de ambas as operações devem ser abertos e ter capacidade disponível.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

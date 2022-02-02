@@ -2,25 +2,25 @@
 title: Reavaliar pagamentos do arrendamento vinculados a uma taxa indexada
 description: Este tópico descreve o ajuste feito para responsabilidade com arrendamento de um ativo de direito de uso (DDU) quando os pagamentos de arrendamento variáveis são alterados por causa de uma alteração na taxa indexada.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b3eed28ba6fc5af02c1bbf430cc9779426084f0eaf4e027141bbdd18a70dde4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734577"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968043"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Reavaliar pagamentos do arrendamento vinculados a uma taxa indexada
 
@@ -43,7 +43,7 @@ Siga estas etapas para reavaliar pagamentos do arrendamento vinculados a uma tax
 4. Selecione os filtros para selecionar arrendamentos que devem ser incluídos no processamento em segundo plano e selecione **OK**.
 
     A caixa de diálogo **Versão preliminar da reavaliação da taxa indexada** aparece e mostra os arrendamentos que serão reavaliados. Também mostra os ajustes de ativos e passivos ou os ajustes de pagamentos variáveis.
-    
+
 5. Para evitar que os arrendamentos sejam reavaliados, selecione os arrendamentos que **devem** ser reavaliados. Se você não selecionar um arrendamento, todos os arrendamentos serão reavaliados. Quando terminar, selecione **OK** para reavaliar os pagamentos do arrendamento.
 6. Para exibir as transações que foram criadas para um processo de reavaliação do índice específico, selecione a ID do processo e, em seguida, selecione **Transações**.
 
@@ -66,5 +66,7 @@ Você pode exibir a agenda de pagamento recém-gerada que começa na data de rea
 
 A entrada de diário lançou automaticamente a entrada do diário de ajuste na conta para a alteração nos pagamentos de arrendamento que estão relacionados à reavaliação do índice.
 
+> [!NOTE]
+> Se a opção **Valor do pagamento de divisão** estiver habilitada na guia rápida **Geral** da página **Detalhes da concessão** e o livro associado for IFRS 16, o processo de reavaliação do índice adicionará automaticamente um registro na caixa de diálogo **Divisão do valor de pagamento**. O valor refletirá a alteração feita no pagamento por causa da reavaliação do índice. O registro será marcado como **Usado para reavaliação do índice IRFS 16**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,24 +3,23 @@ title: Visão geral de gerenciamento de documentos comerciais
 description: Este tópico fornece informações sobre como usar o recurso de gerenciamento de documentos comerciais da estrutura de ER.
 author: NickSelin
 ms.date: 04/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753067"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986242"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
 
@@ -159,7 +158,7 @@ Use o procedimento a seguir para configurar os parâmetros básicos de todas as 
 O tipo de documento selecionado é específico da empresa e será usado quando o usuário estiver trabalhando com o gerenciamento de documentos comerciais na empresa para a qual o tipo de documento selecionado está configurado. Quando o usuário estiver trabalhando com o gerenciamento de documentos comerciais em outra empresa, o mesmo tipo de documento selecionado será usado se um não tiver sido configurado para esta empresa. Quando um tipo de documento for configurado, ele será usado em vez daquele selecionado no campo **Tipo de documento do SharePoint**.
 
 > [!NOTE]
-> O parâmetro **Tipo de documento do SharePoint** define uma pasta do SharePoint como armazenamento temporário para modelos que são editáveis usando o Microsoft Excel ou Word. Será necessário configurar esse parâmetro se você planeja usar esses aplicativos da área de trabalho do Office para editar modelos. Para obter mais informações, consulte [Editar um modelo no aplicativo da área de trabalho do Office](#EditInOfficeDesktopApp). É possível manter esse parâmetro em branco se você planeja modificar o modelo usando a funcionalidade no Microsoft 365. Para obter mais informações, consulte [Editar um modelo no Microsoft 365](#EditInOffice365).
+> O parâmetro **Tipo de documento do SharePoint** define uma pasta do SharePoint como armazenamento temporário para modelos que são editáveis usando o Microsoft Excel ou Word. Será necessário configurar esse parâmetro se você planeja usar esses aplicativos da área de trabalho do Office para editar modelos. Para obter mais informações, consulte [Editar um modelo no aplicativo da área de trabalho do Office](#EditInOfficeDesktopApp). Será possível manter esse parâmetro em branco se você quiser modificar o modelo usando a funcionalidade no Microsoft 365. Para obter mais informações, consulte [Editar um modelo no Microsoft 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurar permissões de acesso
 
@@ -406,9 +405,9 @@ Ao editar o modelo de um formato de ER que pertence ao provedor ativo atual, voc
 
 ### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Eu selecionei Editar documento, mas em vez de abrir a página Editor de modelo de BDM no Finance, fui direcionado à página da Web do Microsoft 365.
 
-Esse é um problema conhecido de que envolve redirecionamento do Microsoft 365. Isso acontece quando você entra no Microsoft 365 pela primeira vez. Para resolver esse problema, selecione **Voltar** no navegador para retornar à página anterior.
+Esse é um problema conhecido que envolve redirecionamento do Microsoft 365. Isso ocorre quando você entra no Microsoft 365 pela primeira vez. Para resolver esse problema, selecione **Voltar** no navegador para retornar à página anterior.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Entendo como editar um modelo usando o Microsoft 365 na primeira sessão do aplicativo e como usar o modelo na segunda sessão do aplicativo ajustando o modelo para ver como minhas alterações afetam o documento comercial gerado. É possível usar o aplicativo da área de trabalho do Office da mesma forma?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Entendo como editar um modelo usando o Microsoft 365 na primeira sessão do aplicativo e como usar o modelo na segunda sessão do aplicativo e ajustar o modelo para ver como minhas alterações afetam o documento comercial gerado. É possível usar o aplicativo da área de trabalho do Office da mesma forma?
 
 Sim, você pode. Na primeira sessão do aplicativo, selecione **Abrir no Aplicativo de Área de Trabalho**. Seu modelo será armazenado no armazenamento de arquivos temporário e aberto no aplicativo da área de trabalho do Office. Em seguida, conclua as etapas a seguir para visualizar suas alterações de modelo no documento comercial gerado:
 

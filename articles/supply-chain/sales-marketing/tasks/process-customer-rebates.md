@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573336"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969078"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Gerar e processar reembolsos de cliente
 
@@ -69,7 +69,7 @@ Este procedimento demonstra como processar reembolsos de cliente desde a geraç�
 2. Clique em **Acumular**.
 3. No campo **Cliente**, insira ou selecione um valor.
 4. No campo **Data de início**, selecione a data de hoje.
-5. Clique em **OK**. Como resultado da execução da função **Acumular**, o valor de reivindicação estimado foi agora ajustado para levar em consideração o fato de que o volume total de vendas do cliente durante o período relevante é maior do que era quando o primeiro reembolso foi gerado. Mais especificamente, como a quantidade comprada total atingiu 100 unidades, o cliente agora se qualifica para 40 USD por unidade (de acordo com a segunda divisão de quantidade do contrato), ou 400 USD de quantidade total de reembolso. A diferença é registrada como um novo "ajuste" de reivindicação para os 800 USD adicionais. O status das reivindicações de reembolso que foram incluídas na atualização gerada pelo Acumular estão agora definidas como Calculada. 
+5. Clique em **OK**. Como resultado da execução da função **Acumular**, o valor de reivindicação estimado foi agora ajustado para levar em consideração o fato de que o volume total de vendas do cliente durante o período relevante é maior do que era quando o primeiro reembolso foi gerado. Mais especificamente, como a quantidade comprada total atingiu 100 unidades, o cliente agora se qualifica para 40 USD por unidade (de acordo com a segunda divisão de quantidade do contrato), ou 4,000 USD de quantidade total de reembolso. A diferença é registrada como um novo "ajuste" de reivindicação para os 800 USD adicionais. O status das reivindicações de reembolso que foram incluídas na atualização gerada pelo Acumular estão agora definidas como Calculada. 
 6. Na lista, marque todas as linhas.
 7. Clique em **Aprovar**.
 8. Clique em **Processar**.

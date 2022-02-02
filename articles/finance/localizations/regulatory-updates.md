@@ -2,22 +2,22 @@
 title: Atualizações regulatórias
 description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 07/15/2021
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772736"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016091"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -25,7 +25,7 @@ ms.locfileid: "6772736"
 
 Este tópico lista as atualizações regulatórias planejadas e liberadas em localizações compatíveis para o Dynamics 365 Finance. Os cronogramas de entrega podem mudar e a funcionalidade projetada pode ser diferente ou não ser liberada. Para obter mais informações, leia a [política da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre outros recursos planejados ou liberados específicos de um país, consulte os [Planos de versão do Dynamics 365 e Power Platform](/business-applications-release-notes/index).
+Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre recursos planejados ou lançados específicos de um país, consulte os [Planos de liberação da versão do Dynamics 365 e do Power Platform](/business-applications-release-notes/index).
 
 A Microsoft se esforça para implementar novos requisitos regulatórios o mais cedo possível. A data de entrega real depende da data de anúncio da legislação, da disponibilidade dos detalhes da requisição por parte das autoridades locais, da disponibilidade de ferramentas de validação e do tamanho e da complexidade das alterações.
 
@@ -71,7 +71,7 @@ Para obter informações sobre os planos de atualizações regulatórias mais re
 
 
 ## <a name="additional-resources"></a>Recursos adicionais
-- Encontre todas as atualizações regulatórias planejadas e divulgadas [Lifecycle Service - Pesquisa de problemas](https://lcs.dynamics.com/Logon/Index) (logon necessário).
+- Para obter mais informações sobre todas as atualizações regulatórias planejadas e lançadas, consulte [Procurar atualizações regulatórias específicas do país](search-for-regulatory-updates.md). (A entrada é obrigatória.)
 - Para obter uma lista das localizações compatíveis, consulte o [Guia de disponibilidade internacional](https://aka.ms/dynamics_365_international_availability_deck).
 
 

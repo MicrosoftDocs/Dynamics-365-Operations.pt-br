@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a50c09dc9fd8a4c18bbd01c70338279ac0ad9ae6
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473516"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967941"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Sincronizar classificações de produto no Dynamics 365 Commerce
 
@@ -130,6 +130,16 @@ A ilustração a seguir mostra um exemplo de classificações do produto em cana
 [Gerenciar classificações e opiniões](manage-reviews.md)
 
 [Configurar classificações e opiniões](configure-ratings-reviews.md)
+
+[Sincronizar classificações de produto](sync-product-ratings.md)
+
+[Habilitar a publicação manual de classificações e opiniões por um moderador](manual-publish-rating-reviews.md)
+
+[Importar e exportar avaliações e revisões](import-export-reviews.md)
+
+[Configurar autenticação de serviço a serviço](service-to-service-auth.md)
+
+[Perguntas frequentes sobre classificações e opiniões](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

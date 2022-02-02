@@ -1,9 +1,9 @@
 ---
-title: Insights de pagamento de cliente (Visualização)
+title: Insights de pagamento de cliente (versão preliminar)
 description: Este tópico descreve o recurso de insights de pagamento que ajuda a melhorar a compreensão das práticas de pagamento típicas de clientes individuais. O recurso pode ajudá-lo a identificar as circunstâncias que justificam o início de processos de cobrança antes que você tenha feito o contrário.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: ecd368237f949b6cbfbbb7293f6ddc5b1199d6fc0aef7e0bf44f4a2a808a6ccb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737764"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983993"
 ---
 # <a name="customer-payment-insights-preview"></a>Insights de pagamento de cliente (Visualização)
 
@@ -69,7 +69,7 @@ Envie um email para [Insights de pagamento de cliente (versão preliminar)](mail
 
 ## <a name="privacy-notice"></a>Aviso de Privacidade
 
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
+Versões preliminares (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance e de Operations, (2) não estão incluídas no contrato de nível de serviço desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
 
 
 

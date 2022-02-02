@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675040"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968194"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Habilitar a publicação manual de classificações e opiniões por um moderador
 
@@ -68,3 +68,17 @@ A ilustração a seguir mostra um exemplo em que três classificações e opini�
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de classificações e opiniões](ratings-reviews-overview.md)
+
+[Aceitar o uso das classificações e opiniões](opt-in-ratings-reviews.md)
+
+[Gerenciar classificações e opiniões](manage-reviews.md)
+
+[Configurar classificações e opiniões](configure-ratings-reviews.md)
+
+[Sincronizar classificações de produto](sync-product-ratings.md)
+
+[Importar e exportar avaliações e revisões](import-export-reviews.md)
+
+[Configurar autenticação de serviço a serviço](service-to-service-auth.md)
+
+[Perguntas frequentes sobre classificações e opiniões](ratings-reviews-faq.md)

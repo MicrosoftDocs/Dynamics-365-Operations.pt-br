@@ -3,23 +3,22 @@ title: Visão geral do ambiente de avaliação do Dynamics 365 Commerce
 description: Este tópico fornece uma visão geral do ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 07/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f225db13fba91ce78287adfda9c6d084dea20af33e62287f517e51cc5a296352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35cd06070ff73af1c97706bb1cdb67045715d458
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752503"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982630"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Visão geral do ambiente de avaliação do Dynamics 365 Commerce
 

@@ -2,25 +2,25 @@
 title: Configurar parâmetros de arrendamento (Versão Preliminar)
 description: Este tópico descreve as definições de configuração para Arrendamento de ativos, como informações de segurança e configurações de contabilidade.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeasePostingAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e5f0aeddfa9d3f27500b033d4b4fb0fb1731105a28be4a6934b2328d62df6ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a644b3c9d9ed4fc86a816af1ab338b96b1aa7ad
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779029"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968057"
 ---
 # <a name="configure-lease-parameters"></a>Configurar parâmetros de arrendamento
 
@@ -33,7 +33,7 @@ Várias definições de configuração afetam o comportamento do arrendamento de
 
     O parâmetro **Permitir substituição de classificação manual** determina se a classificação de arrendamento pode ser substituída antes da confirmação do plano de pagamento.
 
-    O parâmetro **Lote entre entidades** determina se é possível lançar em outras entidades legais a partir da entidade legal atual. Se esse parâmetro estiver ativado, é possível criar entradas de diário para entidades legais às quais você tem acesso.
+    O parâmetro **Lote entre entidades** determina se é possível lançar em outras entidades legais desde a entidade legal atual. Se esse parâmetro estiver ativado, é possível criar entradas de diário para entidades legais às quais você tem acesso.
 
 3. Defina a opção **Permitir a exclusão de arrendamentos confirmados** como **Sim** para permitir a exclusão de arrendamentos com planos de pagamento confirmados. Os arrendamentos não podem ser excluídos se transações lançadas ou não lançadas estiverem associadas, independentemente da configuração dessa opção. Não é possível restaurar um registro de arrendamento após ele ser excluído. Se você carregar registros de um arrendamento excluído, manualmente ou por meio de entidades de dados, as informações carregadas serão tratadas como novas e não como uma atualização de um arrendamento existente.
 
@@ -44,5 +44,6 @@ Várias definições de configuração afetam o comportamento do arrendamento de
     > [!NOTE]
     > Recomendamos manter essa opção como **Não**. A configuração dessa opção é usada como validação e controle para impedir que uma versão de livro fechada seja depreciada por engano. Ao manter a opção definida como **Não**, você ajuda a manter a precisão do valor líquido contábil e os cálculos de depreciação futuros.
 
+5. Defina a opção **Permitir divisão de valor de pagamento permitido** como **Sim** para permitir uma divisão dos valores de pagamento na Guia Rápida **Linhas da agenda de pagamento** da página **Arrendamento**. Os tipos de divisão de pagamento são definidos em **Configuração** na página **Tipos de valor de pagamento**. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

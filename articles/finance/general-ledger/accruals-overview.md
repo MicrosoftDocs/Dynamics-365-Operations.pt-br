@@ -3,7 +3,7 @@ title: Visão geral das competências
 description: Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações.
 author: aprilolson
 ms.date: 01/11/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAccuralTable
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3eaf49a730586e4d97b0a68cdfebc666933a7a97cb99965d67b00bde464e3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dc3234c1a64155e1d0ad53cb7008d91847f7af7d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778933"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985278"
 ---
 # <a name="accruals-overview"></a>Visão geral das competências
 

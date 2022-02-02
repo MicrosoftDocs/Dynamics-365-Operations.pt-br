@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0a2bd50ef11e92fb427a61a1e8624fcd7d15e163
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920165"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982141"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Agendamento com capacidade infinita
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
-<!--KFM: Preview until 1/14/2022 -->
 
 O recurso *Agendamento de capacidade infinita para Otimização de Planejamento* introduz o agendamento com base nas informações de roteiro. Ele permite que você agende trabalhos com base em uma vasta gama de configurações de roteiro. O Agendamento para Otimização de Planejamento aborda as configurações de roteiro usadas com frequência, incluindo a sequência de operações de roteiro ou os requisitos para recursos de operação de roteiro.
 
@@ -51,7 +49,9 @@ Durante o processo de agendamento, o sistema também considera os *requisitos de
 - Capacidade (Para obter mais informações, consulte [Agendamento com a seleção de recursos com base na capacidade](capability-based-scheduling.md).)
 
 > [!NOTE]
-> Ainda não há suporte para os requisitos relacionados a recursos humanos, como requisitos de habilidades ou certificados.
+>
+> - Se o recurso e/ou o grupo de recursos estiver definido como capacidade infinita, o planejamento mestre irá considerá-lo como capacidade infinita.
+> - Ainda não há suporte para os requisitos relacionados a recursos humanos, como requisitos de habilidades ou certificados.
 
 O recurso também oferece suporte às propriedades operacionais **Tempo de configuração** e **Tempo de execução**. Ao definir essas propriedades em uma operação de roteiro, o processo de agendamento criará os trabalhos de configuração e processo apropriados.
 

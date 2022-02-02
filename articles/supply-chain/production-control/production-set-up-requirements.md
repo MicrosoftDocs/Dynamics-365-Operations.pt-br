@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b0ccbd1781ccb5aa7f5f62ea86888e1673cb77653af57f6c49319a2b5089ebf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfde8b40927ceaa216878d58ef72c5d91e9ebe01
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782434"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968787"
 ---
 # <a name="production-setup-requirements"></a>Requisitos da configuração da produção
 
@@ -39,7 +39,7 @@ As informações em outros módulos devem ser configuradas antes que você possa
 -   Definir grupos de itens.
 -   Configurar contas contábeis de grupos de itens.
 -   Configurar a tabela de item de estoque em Gerenciamento de estoque.
--   Criar listas de materiais (BOMs) e versões de BOM em Gerenciamento de estoque.
+-   Crie listas de materiais (BOMs) e versões de BOM em Gerenciamento de informações sobre produtos.
 
 ## <a name="required-calendar-and-resource-setup"></a>Configuração necessária de calendário e do recurso
 Antes de usar Controle de produção, abra Administração da organização e crie e defina o calendário e os recursos de operações na seguinte ordem:

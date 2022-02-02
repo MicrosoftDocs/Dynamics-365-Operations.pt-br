@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f460ab6ae90b5daa9bee3c2954727a7bcf79321d661f8ce88f5108fd019fbb3e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724571"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964595"
 ---
 # <a name="work-with-css-override-files"></a>Trabalhar com arquivos de substituição do CSS
 
@@ -100,8 +100,6 @@ Para desativar um arquivo de substituição CSS no site, siga estas etapas.
 [Trabalhar com estilos predefinidos](style-presets.md)
 
 [Adicionar um favicon](add-favicon.md)
-
-[Adicionar uma mensagem de boas-vindas](add-welcome-message.md)
 
 [Adicionar um aviso de direitos autorais](add-copyright-notice.md)
 

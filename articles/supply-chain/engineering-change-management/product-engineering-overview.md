@@ -2,23 +2,22 @@
 title: Visão geral do gerenciamento de alteração de engenharia (contém vídeo)
 description: Este tópico fornece uma visão geral do gerenciamento de alterações de engenharia, que ajuda a planejar e gerenciar o controle de versão de produtos e gerenciar ciclos de vida de produtos e alterações de engenharia.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952589"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985203"
 ---
 # <a name="engineering-change-management-overview"></a>Visão geral do gerenciamento de alterações de engenharia
 
@@ -39,9 +38,9 @@ O gerenciamento de alterações de engenharia ajuda a planejar e gerenciar o con
 - Solicitações de alterações de engenharia com suporte dos fluxos de trabalho
 - Ordens de alterações de engenharia com suporte dos fluxos de trabalho
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-O vídeo anterior ([Recursos de gerenciamento de alterações no Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) está incluído na [playlist do Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo anterior ([Recursos de gerenciamento de alterações no Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Ativar os recursos de gerenciamento de alterações de engenharia para o sistema
 
@@ -71,7 +70,9 @@ Em seguida, ative as chaves de configuração seguindo estas etapas.
 
 1. Se também quiser usar a dimensão de versão, marque a caixa de seleção **Dimensão do produto - Versão**. (Esta caixa de seleção está mais abaixo na lista, não aninhada no nó **Gerenciamento de Alterações de Engenharia**.)
 1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Execute uma sincronização de banco de dados para garantir que as chaves de configuração estejam devidamente habilitadas.
+1. O banco de dados deve ser sincronizado para garantir que as chaves de configuração estejam devidamente habilitadas. Execute uma das seguintes etapas, dependendo do tipo de ambiente em que estiver trabalhando:
+    - **Para ambientes de nível 1 (desenvolvimento)**: abra seu projeto no Microsoft Visual Studio e, depois, selecione **Dynamics 365 \> Sincronizar banco de dados \> Sincronizar**.
+    - **Para ambientes de nível 2 (e superior)**: o banco de dados é sincronizado automaticamente após você colocar e retirar o ambiente do modo de manutenção, de forma que possa ignorar esta etapa.
 
 > [!IMPORTANT]
 > A partir de abril de 2022, as chaves de licença de **Gerenciamento de Alterações de Engenharia** e **Dimensão do produto - Versão** serão habilitadas por padrão para todas as novas instalações, mas você ainda poderá desabilitá-las, se necessário.

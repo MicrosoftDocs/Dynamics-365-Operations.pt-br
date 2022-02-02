@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba489358ef2d74e816186f29956aea5538a2432825c7d949e7c9cc23d947b997
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714369"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007598"
 ---
 # <a name="engineering-change-management-faq"></a>Gerenciamento de alteração de engenharia - Perguntas frequentes
 
@@ -63,6 +63,11 @@ As tabelas a seguir mostram os campos copiados durante esses processos.
 | **Variantes de produtos** | Todos os campos na seção **Variante do produto padrão** | Os mesmos campos que são copiados para a empresa de engenharia |
 
 Além dos campos mostrados na tabela anterior, todas as configurações de ordem padrão são copiadas do modelo de item liberado, quando o produto é criado na empresa de engenharia e quando é liberado para uma empresa operacional. (Para exibir as configurações de ordem padrão para um modelo de item liberado, abra a página relevante **Detalhes do produto liberado** e, no Painel de Ações, na guia **Gerenciar estoque**, selecione **Configurações de ordem padrão**.)
+
+> [!NOTE]
+>
+> - A unidade é padronizada de acordo com o modelo.
+> - Para varejistas que usam a funcionalidade do Dynamics 365 Commerce, ao atribuírem uma categoria de varejo a um produto, a categoria de varejo aplica os valores padrão a muitos dos campos para o nível de produto lançado. Esses padrões substituem valores padrão que podem já ter sido definidos pelo modelo ou copiados da engenharia.
 
 ## <a name="should-i-create-a-separate-legal-entity-for-engineering-products-or-use-an-existing-legal-entity"></a>Devo criar uma entidade legal separada para produtos de engenharia ou usar uma entidade legal existente?
 

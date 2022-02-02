@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3916b18c797222c300957fb25cabad78c4fcb9744a29d611a81b0bda3e9834d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724595"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964520"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Adicionar o código de script a páginas do site para oferecer suporte à telemetria
 
@@ -111,8 +111,6 @@ Para adicionar um script externo diretamente a um modelo no site Builder, siga e
 [Trabalhar com arquivos de substituição CSS](css-override-files.md)
 
 [Adicionar um favicon](add-favicon.md)
-
-[Adicionar uma mensagem de boas-vindas](add-welcome-message.md)
 
 [Adicionar um aviso de direitos autorais](add-copyright-notice.md)
 

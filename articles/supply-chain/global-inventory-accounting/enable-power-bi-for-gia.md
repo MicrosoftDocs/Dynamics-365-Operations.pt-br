@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e86294b8b467367d954013764a029f7b20270b95
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860658"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8013825"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Habilitar o Power BI para Contabilidade de estoque global
 
@@ -51,8 +51,9 @@ Siga estas etapas para configurar a integração do Power BI.
 
     1. Acesse **Meu espaço de trabalho**, encontre o conjunto de dados para Contabilidade de estoque global e, em seguida, no menu **Opções**, selecione **Configurações**.
     1. Em **Configurações da Contabilidade de estoque global**, expanda **Parâmetros** e atualize todos os parâmetros conforme necessário. Em particular, verifique as seguintes configurações:
-        1. Substitua os valores padrão de **URL do Dataverse** e **ID do ambiente** pelos valores da página **Detalhes do ambiente** no LCS (na seção **Integração do Power Platform**).
-        1. Selecione o link **Editar credenciais** ao lado da etiqueta **CDs** na seção **Credenciais da fonte de dados**. Em seguida, entre na sua conta do Dataverse usando o método de autenticação **OAuth2**.
+        1. Substitua os valores padrão de **URL do Dataverse** usando os valores encontrados em **Informações do ambiente do Power Platform** no LCS (na seção **Integração do Power Platform**).
+        1. Substitua os valores padrão de **ID do Ambiente** usando os valores encontrados em **Detalhes do ambiente** no LCS (na seção **Gerenciar ambiente**).
+        1. Selecione o link **Editar credenciais** ao lado da etiqueta **CDS** na seção **Credenciais da fonte de dados**. Em seguida, entre na sua conta do Dataverse usando o método de autenticação **OAuth2**.
     1. Verifique se os relatórios do Power BI localizados em **Meu espaço de trabalho \> Relatórios \> Contabilidade de estoque global** agora estão funcionando corretamente e exibem o conteúdo do sistema.
 
 1. Registre o aplicativo conforme descrito em [Configurar integração do PowerBI.com](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
