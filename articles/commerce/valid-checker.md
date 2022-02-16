@@ -2,7 +2,7 @@
 title: Validar transações de loja para cálculo de demonstrativo
 description: Este tópico descreve a funcionalidade para validar transações da loja no Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/15/2021
+ms.date: 01/31/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924762"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087440"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Validar transações de loja para cálculo de demonstrativo
 
@@ -51,7 +51,7 @@ O processo em lote **Validar transações de loja** verifica a consistência das
 
 A tabela a seguir lista as regras de validação de cabeçalho de transação que são verificadas em relação ao cabeçalho das transações de varejo antes que essas transações sejam passadas para o lançamento de demonstrativo.
 
-| Título | Descrição |
+| Regra | Descrição |
 |-------|-------------|
 | Data comercial | Essa regra valida que a data comercial da transação está associada a um período fiscal aberto no razão. |
 | Arredondamento de moedas | Essa regra valida que os valores da transação são arredondados de acordo com a regra de arredondamento de moeda. |
@@ -72,9 +72,9 @@ A tabela a seguir lista as regras de validação de cabeçalho de transação qu
 
 A tabela a seguir lista as regras de validação de linha de transação que são verificadas em relação aos detalhes da linha das transações de varejo antes que essas transações sejam passadas para o lançamento de demonstrativo.
 
-| Título | Descrição |
+| Regra | Descrição |
 |-------|-------------|
-| Código de barras | Essa regra valida que todos os códigos de barras do item usados nas linhas de transação existem no banco de dados do. |
+| Código de barras | Essa regra valida que todos os códigos de barras do item usados nas linhas de transação existem no banco de dados. |
 | Linhas de encargo | Essa regra valida que a soma do valor calculado e da isenção do valor do imposto das linhas do encargo é igual ao valor calculado original. |
 | Devoluções de cartão-presente | Essa regra valida que não há devoluções de cartões-presente na transação. |
 | Grade de itens | Essa regra valida que todos os itens e todas as grades de item usados nas linhas de transação existem no banco de dados do. |

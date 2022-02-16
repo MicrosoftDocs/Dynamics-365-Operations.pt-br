@@ -92,6 +92,8 @@
                   items:
                     - name: Novidades ou alterações na home page do Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.25 (abril de 2022)
+                      href: get-started/whats-new-commerce-10-0-25.md
                     - name: Commerce 10.0.24 (fevereiro de 2022)
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (janeiro de 2022)
@@ -124,8 +126,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: Vídeos
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
-                - name: Glossário
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: Catálogo de aprendizados
               items:
                 - name: Home page de Catálogo de aprendizados
@@ -1936,7 +1936,9 @@
                   items:
                     - name: Criar configurações para importar dados de um arquivo XML externo
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurar a importação de dados no modo de lotes de arquivos localizados no SharePoint
+                    - name: Importar dados de arquivos selecionados manualmente no modo de lote
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
+                - name: Configurar a importação de dados no modo de lote de arquivos localizados no SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: Importar arquivos no formato XML
                   items:
@@ -2166,6 +2168,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
                     - name: Atualização de aplicativo 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
+                    - name: Atualização de aplicativo 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: Especificar um local de armazenamento personalizado para os documentos gerados
                   items:
                     - name: Inscreva-se em um evento para solicitar uma resposta do manipulador de inscrições
@@ -2384,6 +2388,8 @@
               items:
                 - name: Commerce para desenvolvedores e profissionais de TI
                   href: dev-itpro/dev-retail-home-page.md
+                - name: Modernização da pilha de tecnologia do Commerce (white paper)
+                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Configurar um ambiente de desenvolvimento local
                   href: dev-itpro/setup-local-dev-env.md
             - name: Extensibilidade do canal online
@@ -2820,7 +2826,7 @@
               items:
                 - name: Configurar um ambiente de desenvolvimento de comércio eletrônico para depuração em relação a uma VM do Retail Server de Camada 1
                   href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: Desenvolvimento e administração de aplicativos do Finance and Operations
+    - name: Desenvolvimento e administração de aplicativos de finanças e operações
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

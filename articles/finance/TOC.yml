@@ -12,6 +12,8 @@
               items:
                 - name: Novidades ou alterações na home page do Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.25 (abril)
+                  href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (fevereiro)
                   href: get-started/whats-new-changed-10-0-24.md
                 - name: Finance 10.0.23 (janeiro)
@@ -98,12 +100,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Gravador de Tarefas
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/finance/toc.json
-                - name: Criar documentação ou treinamento com o Gravador de Tarefas
+                - name: Criar documentação ou treinamento com o Gravador de tarefas
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: Vídeos
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
-                - name: Glossário
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: Catálogo de aprendizados
               items:
                 - name: Home page de Catálogo de aprendizados
@@ -218,6 +218,8 @@
                   href: accounts-payable/vendor-copy.md
                 - name: Registrar uma fatura de fornecedor no diário de faturas
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
+                - name: Aplicar um pagamento ao diário de faturas
+                  href: accounts-payable/payment-invoice-journal.md
             - name: Auditar faturas e dados-chave em contas a pagar
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: ​Políticas de conciliação tripla​
@@ -1034,8 +1036,10 @@
                   href: general-ledger/one-voucher.md
                 - name: Perguntas frequentes sobre um comprovante
                   href: general-ledger/one-voucher-faq.md
-                - name: Liquidações do razão
+                - name: Liquidações de razão
                   href: general-ledger/ledger-settlements.md
+                - name: Reconhecimento entre a liquidação de razão e o fechamento do exercício
+                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
             - name: Fechamento de período
               items:
                 - name: Fechar a contabilidade ao final do período
@@ -1050,80 +1054,6 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: Perguntas frequentes sobre atividades do exercício
                   href: general-ledger/faq-year-end-activities.md
-            - name: Impostos
-              items:
-                - name: Visão geral de imposto
-                  href: general-ledger/indirect-taxes-overview.md
-                - name: Alíquotas de impostos baseadas em base marginal e métodos de cálculo
-                  href: general-ledger/marginal-base-field.md
-                - name: Pagamentos de impostos e regras de arredondamento
-                  href: general-ledger/round-sales-tax-payments.md
-                - name: Métodos de cálculo de impostos no campo de Origem
-                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Opções de cálculo do valor total e do intervalo para códigos de imposto
-                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Cálculo de imposto nas linhas do diário geral
-                  href: general-ledger/sales-tax-calculation-on-general-journal.md
-                - name: Calcular e ajustar imposto na fatura de fornecedor
-                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Habilitar cálculo de imposto atrasado no diário
-                  href: general-ledger/enable-delayed-tax-calculation.md
-                - name: Criar um pagamento de imposto
-                  href: general-ledger/tasks/create-sales-tax-payment.md
-                - name: Arredondamento da liquidação de imposto com base em casas decimais personalizadas da moeda
-                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                - name: Criar transações de imposto em documentos
-                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Configurar grupos de lançamento contábil do imposto
-                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Configurar autoridades de imposto
-                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Configurar códigos de imposto
-                  href: general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Configurar grupos de impostos e grupos de impostos do item
-                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Configurar códigos de relatório de imposto
-                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Suporte a moeda dupla para imposto
-                  href: general-ledger/dual-currency-for-tax.md
-                - name: Especificação de impostos pelo relatório de transações do razão
-                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                - name: Configurar períodos de liquidação do imposto
-                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Exibir transações de imposto lançadas
-                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: Imprimir pagamento de imposto por relatório de código
-                  href: general-ledger/print-sales-tax-payment-by-code-report.md
-                - name: Solução de problemas de imposto
-                  items:
-                    - name: O imposto não é calculado ou o valor do imposto é zero
-                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                    - name: O desempenho do cálculo de imposto afeta as transações
-                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                    - name: Valor do campo incorreto em TaxTrans
-                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                    - name: O registro de TaxTrans não é gerado
-                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                    - name: O imposto é lançado na conta contábil incorreta no comprovante
-                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                    - name: O comprovante não é gerado
-                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-            - name: Imposto retido na fonte
-              items:
-                - name: Configurar imposto retido na fonte
-                  href: general-ledger/tasks/set-up-withholding-tax.md
-                - name: Imposto retido na fonte global
-                  items:
-                    - name: Visão geral de imposto retido na fonte global
-                      href: general-ledger/global-withholding-tax-overview.md
-                    - name: Configurar imposto retido na fonte global
-                      href: general-ledger/set-up-global-withholding-tax.md
-                    - name: Imposto retido na fonte em transações de compra
-                      href: general-ledger/withholding-tax-in-purchase-transactions.md
-                    - name: Imposto retido na fonte em transações de venda
-                      href: general-ledger/withholding-tax-in-sales-transactions.md
-                    - name: Criar um pagamento de imposto retido na fonte
-                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Bancada de auditoria
               items:
                 - name: Regras de política de auditoria
@@ -1538,6 +1468,82 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: Perguntas frequentes sobre cálculo de imposto
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
+            - name: Imposto
+              items:
+                - name: Impostos
+                  items:
+                    - name: Visão geral de imposto
+                      href: general-ledger/indirect-taxes-overview.md
+                    - name: Alíquotas de impostos baseadas em base marginal e métodos de cálculo
+                      href: general-ledger/marginal-base-field.md
+                    - name: Pagamentos de impostos e regras de arredondamento
+                      href: general-ledger/round-sales-tax-payments.md
+                    - name: Métodos de cálculo de impostos no campo de Origem
+                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                    - name: Opções de cálculo do valor total e do intervalo para códigos de imposto
+                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Cálculo de imposto nas linhas do diário geral
+                      href: general-ledger/sales-tax-calculation-on-general-journal.md
+                    - name: Calcular e ajustar imposto na fatura de fornecedor
+                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Habilitar cálculo de imposto atrasado no diário
+                      href: general-ledger/enable-delayed-tax-calculation.md
+                    - name: Criar um pagamento de imposto
+                      href: general-ledger/tasks/create-sales-tax-payment.md
+                    - name: Arredondamento da liquidação de imposto com base em casas decimais personalizadas da moeda
+                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
+                    - name: Criar transações de imposto em documentos
+                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                    - name: Configurar grupos de lançamento contábil do imposto
+                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                    - name: Configurar autoridades de imposto
+                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                    - name: Configurar códigos de imposto
+                      href: general-ledger/tasks/set-up-sales-tax-codes.md
+                    - name: Configurar grupos de impostos e grupos de impostos do item
+                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                    - name: Configurar códigos de relatório de imposto
+                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                    - name: Suporte a moeda dupla para imposto
+                      href: general-ledger/dual-currency-for-tax.md
+                    - name: Especificação de impostos pelo relatório de transações do razão
+                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                    - name: Configurar períodos de liquidação do imposto
+                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                    - name: Exibir transações de imposto lançadas
+                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                    - name: Imprimir pagamento de imposto por relatório de código
+                      href: general-ledger/print-sales-tax-payment-by-code-report.md
+                    - name: Solução de problemas de imposto
+                      items:
+                        - name: O imposto não é calculado ou o valor do imposto é zero
+                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                        - name: O desempenho do cálculo de imposto afeta as transações
+                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                        - name: Valor do campo incorreto em TaxTrans
+                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                        - name: O registro de TaxTrans não é gerado
+                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                        - name: O imposto é lançado na conta contábil incorreta no comprovante
+                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                        - name: O comprovante não é gerado
+                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+                - name: Imposto retido na fonte
+                  items:
+                    - name: Configurar imposto retido na fonte
+                      href: general-ledger/tasks/set-up-withholding-tax.md
+                    - name: Imposto retido na fonte global
+                      items:
+                        - name: Visão geral de imposto retido na fonte global
+                          href: general-ledger/global-withholding-tax-overview.md
+                        - name: Configurar imposto retido na fonte global
+                          href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Imposto retido na fonte em transações de compra
+                          href: general-ledger/withholding-tax-in-purchase-transactions.md
+                        - name: Imposto retido na fonte em transações de venda
+                          href: general-ledger/withholding-tax-in-sales-transactions.md
+                        - name: Criar um pagamento de imposto retido na fonte
+                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: Atualizações regulatórias
               href: localizations/regulatory-updates.md
             - name: Pesquisar atualizações regulatórias
@@ -3106,6 +3112,10 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: Relatórios de atividades da conta
                       href: localizations/rus-account-activity-reports.md
+                    - name: Padrão Federal de Contabilidade 27-2021
+                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
+                    - name: Habilitar destinos de relatório eletrônico para armazenar documentos financeiros em Russo
+                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: Titulares avançados
                   items:
                     - name: Visão geral de titulares avançados da Rússia
@@ -3208,6 +3218,8 @@
                           href: localizations/rus-not-valuable-assets.md
                         - name: Contabilidade de roupas de trabalho e equipamentos especiais (Rússia)
                           href: localizations/rus-working-clothes-instruments-accounting.md
+                    - name: Integração dos ativos fixos com módulo de Gerenciamento de ativo
+                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: Contas a pagar e a receber
                   items:
                     - name: Correções de nota de crédito (Rússia)
@@ -3242,6 +3254,8 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: Vendas por comissão
                           href: localizations/rus-sales-on-commission.md
+                    - name: Relatórios locais e formulários principais em Contas a receber e contas a pagar
+                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: Estoque
                   items:
                     - name: Mercadorias em trânsito do fornecedor
@@ -3486,170 +3500,6 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: Configurar fornecedores para o relatório 1099
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
-        - name: Human Resources
-          items:
-            - name: Visão geral do Human Resources
-              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Versão de infraestrutura 10.0.25
-              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
-            - name: Configurar o Human Resources
-              items:
-                - name: Configurar parâmetros do Human Resources
-                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar parâmetros compartilhados do Human Resources
-                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar fluxos de trabalho do Human Resources
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Entender os campos de data e hora
-                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
-            - name: Gerenciar pessoal
-              items:
-                - name: Organizar sua força de trabalho
-                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar os componentes de um trabalho
-                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Definir departamentos
-                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
-                - name: Adicionar um departamento a uma hierarquia
-                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: Definir trabalhos
-                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Criar um calendário de horas úteis
-                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: Perguntas frequentes sobre ações de pessoal
-                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Usar fluxos de trabalho para gerenciar informações de funcionários
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Modificar a relação de subordinação de um cargo
-                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
-                - name: Inserir informações do trabalhador
-                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
-                - name: Emprestar itens a trabalhadores
-                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
-                - name: Criar itens de empréstimo
-                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Gerenciar itens de empréstimo
-                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Desenvolver um plano de carreira
-                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
-                - name: Inserir folhas de ponto do projeto
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
-                - name: Projetos de contratação em massa
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
-                - name: Criar um projeto de contratação em massa
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar posições
-                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar informações de ferimentos e doenças
-                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-                - name: Manter informações de ferimentos e doenças de funcionários
-                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-            - name: Candidatos de recrutamento
-              items:
-                - name: Gerenciar processos de recrutamento
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: Projetos de contratação em massa
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: Criar projetos de contratação em massa
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: Inserir manualmente dados do candidato e da solicitação de emprego
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: Desenvolver e abrir requisições de trabalho
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: Configurar posições
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: Contratar candidatos por meio de recrutamento
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: Contratar funcionários por meio de recrutamento
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: Identificar e implantar ferramentas de seleção de candidato
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Configurar planos de remuneração
-              items:
-                - name: Visão geral de planos de remuneração
-                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar grades de remuneração
-                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
-                - name: Desenvolver uma estrutura e plano de remuneração
-                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
-                - name: Criar planos de remuneração fixa
-                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Criar planos de remuneração variável
-                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Inscrever funcionários em um plano de remuneração fixa
-                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
-                - name: Inscrever funcionários em um plano de remuneração variável
-                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
-                - name: Definir o processo de remuneração e calcular resultados
-                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: Processar planos de remuneração
-                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
-            - name: Gerenciar benefícios
-              items:
-                - name: Definir e gerenciar um programa de benefícios
-                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
-                - name: Políticas de qualificação para benefícios
-                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Processo de qualificação para benefícios
-                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
-                - name: Definir regras e políticas de qualificação para o benefício
-                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
-                - name: Entregar um programa de benefícios para funcionários
-                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
-                - name: Criar novos benefícios
-                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
-                - name: Inscrever trabalhadores em benefícios
-                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
-                - name: Gerenciar datas de vencimento de benefício
-                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
-                - name: Gerar relatórios ACA
-                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Desenvolver funcionários
-              items:
-                - name: Visão geral de gerenciamento de desempenho
-                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Alinhar habilidades da força de trabalho
-                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: Adicionar a seu diário de desempenho
-                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
-                - name: Criar uma meta
-                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
-                - name: Criar uma avaliação de desempenho
-                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
-            - name: Criar cursos
-              items:
-                - name: Configurar cursos de treinamento
-                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
-                - name: Visão geral de Questionários
-                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Criar questionários
-                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Distribuir e agendar questionários
-                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Distribuir questionários usando agendamento
-                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
-                - name: Exibir resultados do questionário
-                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Analisar resultados de questionário
-                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Criar uma pergunta aberta
-                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Criar uma pergunta fechada
-                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Criar uma pergunta dependente
-                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
-            - name: Segurança e conformidade do local de trabalho (Estados Unidos)
-              items:
-                - name: Verificação do formulário I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
-                - name: Verificar a qualificação de emprego usando o formulário I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
-                - name: Configurar tipos de documentos do formulário I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
-                - name: Cumprir a lei americana Disabilities Act
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
-                - name: Gerenciar acomodações do trabalhador
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: Relatórios e integrações do Power BI
           items:
             - name: Relatórios e análises com o Power BI
@@ -4005,6 +3855,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                        - name: GetLabelText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -4191,7 +4043,9 @@
                   items:
                     - name: Criar configurações para importar dados de um arquivo XML externo
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar a importação de dados no modo de lotes de arquivos localizados no SharePoint
+                    - name: Importar dados de arquivos selecionados manualmente no modo de lote
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
+                - name: Configurar a importação de dados no modo de lote de arquivos localizados no SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: Importar arquivos no formato XML
                   items:
@@ -4271,6 +4125,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: Executar relatórios
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: Agrupar registros e executar contagem e soma usando fontes de dados GROUPBY
+                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Usar a saída gerada como fonte de dados para executar a contagem e a soma
                       items:
                         - name: Criar formatos
@@ -4423,6 +4279,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                     - name: Atualização de aplicativo 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
+                    - name: Atualização de aplicativo 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: Especificar um local de armazenamento personalizado para os documentos gerados
                   items:
                     - name: Inscreva-se em um evento para solicitar uma resposta do manipulador de inscrições
@@ -4753,9 +4611,11 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Liquidar transações usando CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Desenvolvimento e administração de aplicativos do Finance and Operations
+    - name: Desenvolvimento e administração de aplicativos de finanças e operações
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

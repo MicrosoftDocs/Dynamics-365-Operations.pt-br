@@ -1,6 +1,6 @@
 ---
-title: Documentação de aplicativos do Finance and Operations
-description: Documentação para aplicativos do Finance and Operations.
+title: Documentação do aplicativo do Finance and Operations
+description: Documentação para os aplicativos do Finance and Operations.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782123"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075388"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentação de aplicativos do Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Documentação do aplicativo do Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Saiba como fazer os aplicativos do Finance and Operations trabalharem para sua empresa usando os recursos neste tópico para encontrar um excelente conteúdo para os usuários finais, desenvolvedores e profissionais de TI. 
+Saiba como fazer os aplicativos do Finance and Operations trabalharem para sua empresa usando os recursos neste tópico para encontrar excelente conteúdo para usuários finais, desenvolvedores e profissionais de TI. 
 
 Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynamics 365 Commerce e Dynamics 365 Human Resources. 
 
@@ -39,7 +39,7 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynami
 <tr class="odd">
 <td>
 <h3><a href="get-started/before-you-buy.md">Antes de comprar</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Inscrever-se em uma assinatura de versão prévia</a></p>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Inscrever-se em uma assinatura de versão preliminar</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Escolher uma opção de implantação</a></p>
  <p><a href="get-started/purchase-on-premises.md">Comprar o Finance and Operations (on-premises)</a></p>
 
@@ -80,16 +80,18 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynami
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Setor público</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Recursos regulatórios regionais</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
+<h3><a href="hr/hr-landing-page.md">Recursos Humanos</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Autoatendimento para funcionários</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Gerenciamento de pessoal</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Licença e ausência</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Benefícios</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Desenvolvimento e treinamento de funcionários</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Questionários</a></p>
-<p><a href="hr/manage-recruiting-process.md">Recrutamento</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">Folha de pagamento dos EUA</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Desenvolvimento do funcionário</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Aprendizado</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">Folha de pagamento dos EUA</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Supply Chain Management</a></h3>
+<h3><a href="../../supply-chain/index.md">gerenciamento da cadeia de fornecedores</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Gerenciamento de custos</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">Gerenciamento de estoque</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Planejamento mestre</a></p>
@@ -129,13 +131,8 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynami
 <h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
 <p><a href="../../commerce/call-center-functionality.md">Call center</p>
 <p><a href="../../commerce/define-maintain-retail-channels.md">Configuração e gerenciamento de canal</p>
-<p><a href="../../commerce/retail-peripherals-overview.md">MPOS e PDV em Nuvem</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS e Cloud POS</p>
 <p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Desenvolvedor do Commerce e administração</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Guia do administrador</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Guia do desenvolvedor</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Guia do usuário</a></p>
 
 
 </td>

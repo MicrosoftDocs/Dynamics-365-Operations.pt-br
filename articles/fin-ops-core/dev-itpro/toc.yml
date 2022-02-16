@@ -1,22 +1,24 @@
-- name: Desenvolvimento e administração de aplicativos do Finance and Operations
+- name: Desenvolvimento e administração de aplicativos de finanças e operações
   items:
-    - name: Desenvolvimento e administração de aplicativos do Finance and Operations
+    - name: Desenvolvimento e administração de aplicativos de finanças e operações
       items:
         - name: Documentação do aplicativo do Finance and Operations
           href: ../fin-ops/index.md
-        - name: Desenvolvimento e administração de aplicativos do Finance and Operations
+        - name: Desenvolvimento e administração de aplicativos de finanças e operações
           href: index.md
         - name: Novidades ou alterações
           items:
             - name: Novidades ou alterações nos aplicativos do Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Novidades ou alterações em Platform updates
+            - name: Novidades ou alterações em Atualizações de plataforma
               items:
-                - name: Novidades ou alterações na home page de Platform updates
+                - name: Novidades ou mudanças na home page de Atualizações de plataforma
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates para a versão 10.0.24 (fevereiro de 2022)
+                - name: Atualizações de plataforma para a versão 10.0.25 (abril de 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: Atualizações de plataforma para a versão 10.0.24 (fevereiro de 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: Platform updates para a versão 10.0.23 (janeiro de 2022)
+                - name: Atualizações de plataforma para a versão 10.0.23 (janeiro de 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Recursos removidos ou preteridos
               items:
@@ -370,7 +372,7 @@
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
                     - name: Configurar e implantar ambientes locais (Platform update 41 e posterior)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: Configurar e implantar ambientes locais (Platform updates de 12 a 40)
+                    - name: Configurar e implantar ambientes locais (Atualizações de plataforma de 12 a 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Etapas de instalação dos componentes do canal do Retail em um ambiente local
                       href: deployment/deploy-retail-onprem.md
@@ -426,10 +428,12 @@
               items:
                 - name: Criar pacotes de modelos implantáveis
                   href: deployment/create-apply-deployable-package.md
-                - name: Instalar pacotes implantáveis a partir da linha de comando
+                - name: Instalar pacotes implantáveis pela linha de comando
                   href: deployment/install-deployable-package.md
                 - name: Desinstalar um pacote
                   href: deployment/uninstall-deployable-package.md
+                - name: Executar scripts X++ personalizados com tempo de inatividade zero
+                  href: deployment/run-custom-scripts.md
                 - name: Solucionar problemas de aplicativo do pacote
                   href: deployment/deployable-package-troubleshooting.md
             - name: Implantar ajuda personalizada
@@ -850,10 +854,12 @@
                   href: perf-test/testing-validation.md
                 - name: Testar projetos no Visual Studio
                   href: perf-test/testing-support.md
-                - name: Implantar e usar um ambiente de contínua automação de compilações e testes
+                - name: Implantar e usar um ambiente de automação contínua de compilações e testes
                   href: perf-test/continuous-build-test-automation.md
                 - name: Filtragem de SysTest usando atributos de classe e método
                   href: perf-test/systest-filtering.md
+                - name: Atributo SysTestRow para teste de vários valores
+                  href: perf-test/systest-row.md
                 - name: Biblioteca de testes de aceitação
                   items:
                     - name: Recursos da Biblioteca de testes de aceitação
