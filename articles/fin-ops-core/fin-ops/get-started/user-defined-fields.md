@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: c941fa30662ed54159e303bf2a944026900d8c04107bc800d109a80d9ef456a4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2ab1c402d99c1d9b7d7dc06e64c93fe43c5a1e9f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760701"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071176"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Criar e trabalhar com campos personalizados
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Embora haja um conjunto extensivo de campos predefinidos para gerenciar uma ampla gama de processos empresariais, às vezes uma empresa precisa rastrear informações adicionais no sistema. Embora os programadores possam ser usados para adicionar esses campos como extensões nas ferramentas de desenvolvedor, o recurso de campos personalizados permite que os campos sejam adicionados diretamente da interface de usuário, permitindo, dessa forma, adequar o aplicativo à sua empresa usando o navegador da Web.
 

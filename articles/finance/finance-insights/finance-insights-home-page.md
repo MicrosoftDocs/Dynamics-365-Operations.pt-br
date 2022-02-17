@@ -2,7 +2,7 @@
 title: Home page do Finance Insights
 description: O Finance Insights fornece modelos configuráveis e extensíveis para ajudar você a prever de forma precisa e inteligente o fluxo de caixa da sua empresa, prever quando receberá o pagamento de contas a receber pendentes e gerar uma proposta de orçamento que pode acelerar o processo de orçamento. Todos esses recursos se baseiam nos modelos inteligentes de aprendizado de máquina.
 author: ShivamPandey-msft
-ms.date: 11/15/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968763"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087284"
 ---
 # <a name="finance-insights-home-page"></a>Home page do Finance Insights
 
@@ -37,10 +37,6 @@ O Finance Insights fornece soluções configuráveis e extensíveis para ajudá-
 
 Esta seção lista os requisitos para o uso do Finance insights. Sempre que possível, são fornecidos links para fontes de informações adicionais.
 
-### <a name="legal-requirements"></a>Requisitos legais
-
-Para se inscrever no programa de versão prévia, preencha o [contrato do Finance Insights para o Dynamics 365 Finance](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
-
 ### <a name="system-requirements"></a>Requisitos do sistema
 
 É necessário um ambiente do nível 2 (várias áreas) para visualizar o Finance Insights. Para obter informações de contexto sobre os ambientes, consulte [Planejamento de ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
@@ -48,6 +44,10 @@ Para se inscrever no programa de versão prévia, preencha o [contrato do Financ
 ### <a name="version-requirements"></a>Requisitos da versão
 
 Este tópico se aplica ao Microsoft Dynamics 365 Finance versão 10.0.21 e posterior.
+
+### <a name="license-requirements"></a>Requisitos para licenciamento
+
+O Finance insights usa créditos AI Builder para criar previsões financeiras. Todas as licenças necessárias para isso são incluídas na licença de locatário. Cada locatário do Dynamics 365 Finance recebe 20.000 em créditos AI Builder por mês. Se forem necessários créditos adicionais para as necessidades comerciais, eles poderão ser comprados diretamente do AI Builder.
 
 ### <a name="historical-data-requirements"></a>Requisitos de dados históricos
 

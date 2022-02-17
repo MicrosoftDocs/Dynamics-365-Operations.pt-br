@@ -13,24 +13,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431305"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071403"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Inscrever um funcionário em um plano de remuneração variável
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-O gerente de remuneração e os benefícios podem inserir funcionários em planos de remuneração variável e calcular os prêmios em dinheiro e não provenientes de pagamento à vista para funcionários. Este procedimento pressupõe que um plano de remuneração variável tenha sido criado com o campo **Habilitar inscrição** definido como Sim, e que tenham sido criadas regras de qualificação para esse plano de remuneração variável. A empresa de dados demo usada para criar este procedimento é USMF. Para iniciar este procedimento, acesse **Recursos humanos** > **Trabalhadores** > **Funcionários** > **Remuneração** > **Inscrição de plano variável**.
+O gerente de remuneração e os benefícios podem inserir funcionários em planos de remuneração variável e calcular os prêmios em dinheiro e não provenientes de pagamento à vista para funcionários. Este procedimento pressupõe que um plano de remuneração variável tenha sido criado com o campo **Habilitar inscrição** definido como **Sim**, e que tenham sido criadas regras de qualificação para esse plano de remuneração variável. A empresa de dados demo usada para criar este procedimento é USMF. Para iniciar este procedimento, acesse **Recursos humanos** > **Trabalhadores** > **Funcionários** > **Remuneração** > **Inscrição de plano variável**.
 
 1. Clique em **Novo**.
 2. No campo **Plano**, clique no botão suspenso para abrir a pesquisa.
     * A pesquisa do plano será filtrada para mostrar apenas os planos de remuneração variável em que o funcionário está qualificado com base nas regras de qualificação.  
 3. Na lista, clique no link na linha selecionada.
-4. Alternar a expansão da seção Geral.
+4. Alternar a expansão da seção **Geral**.
 5. No campo **Data efetiva**, insira uma data.
 6. Clique em **Salvar**.
 7. Alterne a expansão da seção **Sobreposição**.

@@ -9,27 +9,27 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25bd2cc0df4940f02313b3a61f69b2273e835639
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782076"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061017"
 ---
 # <a name="company-concept-in-dataverse"></a>Conceito de empresa no Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-No Finance and Operations, o conceito de *empresa* é uma construção legal e uma construção comercial. Ele também é um limite de segurança e de visibilidade de dados. Os usuários trabalham sempre no contexto de uma única empresa e a maioria dos dados são distribuídos por empresa.
+
+No Finance and Operations, o conceito de *empresa* é um conceito legal e um conceito comercial. Ele também é um limite de segurança e de visibilidade de dados. Os usuários trabalham sempre no contexto de uma única empresa e a maioria dos dados são distribuídos por empresa.
 
 O Dataverse não tem um conceito equivalente. O conceito mais próximo é *unidade de negócios*, que é basicamente um limite de segurança e de visibilidade para dados de usuário. Esse conceito não tem as mesmas implicações legais ou comerciais que o conceito de empresa.
 
 Como a unidade de negócios e a empresa não são conceitos equivalentes, não é possível forçar um mapeamento linear (1:1) entre elas com a finalidade de integração do Dataverse. Porém, como os usuários devem, por padrão, ser capazes de ver as mesmas linhas no aplicativo e no Dataverse, a Microsoft apresentou uma nova tabela no Dataverse, chamada cdm\_Company. Essa tabela é equivalente à tabela Empresa no aplicativo. Para ajudar a garantir que a visibilidade das linhas seja imediatamente equivalente entre o aplicativo e o Dataverse, recomendamos a seguinte configuração para dados no Dataverse:
 
-+ Para cada linha de empresa do Finance and Operations habilitado para gravação dupla, é criada uma linha cdm\_Company associada.
++ Para cada linha de empresa do Finance and Operations que é habilitada para gravação dupla, é criada uma linha associada cdm\_Company.
 + Quando uma linha cdm\_Company é criada e habilitada para gravação dupla, uma unidade de negócios padrão é criada com o mesmo nome. Embora uma equipe padrão seja criada automaticamente para essa unidade de negócios, a unidade de negócios não é usada.
 + Uma equipe de proprietário separada é criada com o mesmo nome. Ela também é associada à unidade de negócios.
 + Por padrão, o proprietário de qualquer linha criada e com gravação dupla no Dataverse é definido para a equipe "Proprietário DW" vinculada à unidade de negócios associada.
@@ -43,7 +43,7 @@ Devido a essa configuração, qualquer linha relacionada à empresa USMF será p
 + A função "gerente de vendas" é atribuída aos membros da equipe de "Vendas USMF".
 + Os usuários com a função "Gerente de vendas" podem acessar quaisquer linhas da conta que seja membro da mesma unidade de negócios de que são membros.
 + A equipe "Vendas USMF" está vinculada à unidade de negócios de USMF citada anteriormente.
-+ Assim, os membros da equipe "Vendas USMF" podem ver qualquer conta de propriedade do usuário "USMF DW", que viria da tabela Empresa USMF no Finance and Operations.
++ Portanto, os membros da equipe "Vendas USMF" podem ver qualquer conta que seja de propriedade do usuário "USMF DW", que seria obtida da tabela Empresa USMF no Finance and Operations.
 
 ![Como as equipes podem ser usadas.](media/dual-write-company-2.png)
 

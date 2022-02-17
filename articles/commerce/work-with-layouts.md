@@ -2,7 +2,7 @@
 title: Trabalhar com layouts predefinidos
 description: Este tópico descreve como trabalhar com layouts predefinidos no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0f6effd4dda669041a269d568bd39beda607a2bcc05c65e40bb76c6f1d02cd5e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775303"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090836"
 ---
 # <a name="work-with-preset-layouts"></a>Trabalhar com layouts predefinidos
 
@@ -78,7 +78,7 @@ Uma prática comum é definir um tema padrão para todas as páginas com um layo
 Para definir ou alterar um tema para todas as páginas filho com o layout predefinido, siga estas etapas.
 
 1. No editor do layout, na árvore de estrutura de tópicos à esquerda, selecione o módulo de contêiner. (Normalmente, este módulo é o segundo nó e é chamado **Página padrão**.)
-1. No painel de propriedade à direita, no campo **Tema** , selecione um tema.
+1. No campo **Tema**, do painel de propriedades à direita, selecione um tema.
 
 ## <a name="save-check-in-preview-and-publish-a-preset-layout"></a>Salvar, fazer check-in, visualizar e publicar um layout predefinido
 
@@ -91,12 +91,24 @@ Para visualizar as alterações, abra uma página existente que usa o layout pre
 
 Depois que você visualizou alterações no layout predefinido, siga uma dessas etapas para publicar o layout em seu site ativo:
 
-* Acesse **Layouts**, selecione o layout depois **Publicar**.
-* Selecione o nome do layout para abrir o editor de layout e selecione **Publicar**.
-* Publicar uma página que faça referência ao layout não publicado. O layout será publicado automaticamente.
+1. Acesse **Layouts**, selecione o layout depois **Publicar**.
+1. Selecione o nome do layout para abrir o editor de layout e selecione **Publicar**.
+1. Publicar uma página que faça referência ao layout não publicado. O layout será publicado automaticamente.
 
 > [!WARNING]
 > Os layouts predefinidos podem ser referenciados a várias páginas. Quando você publica um layout predefinido, saiba que pode afetar o layout de várias páginas.
+
+## <a name="rename-a-preset-layout"></a>Renomeie um layout predefinido
+
+Para renomear um layout predefinido no construtor de sites, siga estas etapas.
+
+1. No painel de navegação à esquerda, selecione **Layouts**.
+1. Selecione o nome do layout que você deseja renomear.
+1. Selecione **Editar** para iniciar a edição do layout.
+1. No painel de propriedades do layout, selecione o símbolo da caneta ao lado do nome do layout.
+1. Edite o nome do layout, conforme necessário.
+1. Marque a caixa de seleção para confirmar a alteração do nome.
+1. Selecione **Concluir edição**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

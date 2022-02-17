@@ -10,24 +10,24 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924862"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063253"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Pacote de orquestração de aplicativos com gravação dupla separado
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Anteriormente, o pacote de orquestração de aplicativos com gravação dupla era um pacote único que continha as seguintes soluções:
 
 - Notas do Dynamics 365
 - Âncora Comum do Dynamics 365 Finance and Operations
-- Mapas de Entidade de Gravação Dupla do Dynamics 365 Finance and Operations
+- Mapas de Entidade de Gravação Dupla do Dynamics 365 Finance
 - Aplicativo Dynamics 365 Gerenciamento de ativos
 - Dynamics 365 Gerenciamento de ativos
 - HCM comum
@@ -58,7 +58,7 @@ O pacote de núcleos de aplicativos com gravação dupla permite que os usuário
 
 Os seguintes mapas estão disponíveis neste pacote.
 
-| Aplicativos Finance and Operations     | Aplicativos do Customer Engagement                    |
+| Aplicativos do Finance and Operations     | Aplicativos do Customer Engagement                    |
 |---------------------------------|---------------------------------------------|
 | Unidade operacional                  | msdyn_internalorganizations                 |
 | Hierarquia da organização          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ O pacote do Human Resources com gravação dupla contém as soluções e os mapa
 
 Os seguintes mapas estão disponíveis neste pacote.
 
-| Aplicativos Finance and Operations | Aplicativos do Customer Engagement         |
+| Aplicativos do Finance and Operations | Aplicativos do Customer Engagement         |
 |-----------------------------|----------------------------------|
 | Origens étnicas              | cdm_ethnicorigins                |
 | Função de trabalho de remuneração   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ O pacote do Supply Chain com gravação dupla contém as soluções e os mapas n
 
 Os seguintes mapas estão disponíveis neste pacote.
 
-| Aplicativos Finance and Operations                 | Aplicativos do Customer Engagement                      |
+| Aplicativos do Finance and Operations                 | Aplicativos do Customer Engagement                      |
 |---------------------------------------------|-----------------------------------------------|
 | Unidades                                       | uoms                                          |
 | Cabeçalhos de ordens de venda CDS                     | salesorders                                   |
@@ -197,7 +197,7 @@ O pacote do Finance com gravação dupla contém as soluções e os mapas necess
 
 Os seguintes mapas estão disponíveis neste pacote.
 
-| Aplicativos Finance and Operations             | Aplicativos do Customer Engagement        |
+| Aplicativos do Finance and Operations             | Aplicativos do Customer Engagement        |
 |-----------------------------------------|---------------------------------|
 | Grupos de impostos retidos na fonte                  | msdyn_withholdingtaxgroups      |
 | Contatos do CDS V2 (Cliente)              | contatos                        |
@@ -274,7 +274,7 @@ O pacote do Gerenciamento de ativos com gravação dupla contém as soluções e
 
 Os seguintes mapas estão disponíveis neste pacote.
 
-| Aplicativos Finance and Operations                           | Aplicativos do Customer Engagement                |
+| Aplicativos do Finance and Operations                           | Aplicativos do Customer Engagement                |
 |-------------------------------------------------------|-----------------------------------------|
 | Garantia de gerenciamento de ativos                             | msdyn_warranties                        |
 | Modelos de gerenciamento de ativo                               | msdyn_models                            |

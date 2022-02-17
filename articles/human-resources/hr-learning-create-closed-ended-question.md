@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465164"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071402"
 ---
 # <a name="create-a-closed-ended-question"></a>Criar uma pergunta fechada
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,10 +37,10 @@ As perguntas fechadas permitem que você forneça opções para que o entrevista
 2. Clique em **Novo**.
 3. No campo **Grupo de resposta**, digite um valor.
 4. No campo **Descrição**, digite um valor.
-    * Use a funcionalidade Randomizar para colocar as respostas numa ordem aleatória diferente toda vez que o grupo de repostas for usado para uma questão.  
+    * Use a funcionalidade **Randomizar** para colocar as respostas numa ordem aleatória diferente toda vez que o grupo de repostas for usado para uma questão.  
 5. Clique em **Resposta**.
 6. Clique em **Novo**.
-    * Número de sequência controla a ordem em que as respostas são exibidas, a menos que Randomizar seja selecionada para o Grupo de respostas.  
+    * O número de sequência controla a ordem em que as respostas são exibidas, a menos que a opção **Randomizar** seja selecionada para o **Grupo de respostas**.  
     * Pontos podem ser concedidos pelas respostas para uso na pontuação do questionário.  
 7. No campo **Pontos**, insira um número.
     * A resposta correta pode ser marcada para indicar que a resposta selecionada é a correta. Isso pode ser usado na pontuação do questionário.  
@@ -61,8 +64,8 @@ As perguntas fechadas permitem que você forneça opções para que o entrevista
 ## <a name="create-the-question"></a>Crie a pergunta
 1. Acesse **Questionário** > **Design** > **Perguntas**.
 2. Clique em **Novo**.
-3. Use o campo Tipo para agrupar perguntas relacionadas.
-    * Você pode usar os tipos de entrada de Caixa de seleção, Botão Alternativo, ou Caixa de combinação para perguntas fechadas.  
+3. Use o campo **Tipo** para agrupar perguntas relacionadas.
+    * Você pode usar os tipos de entrada de **Caixa de seleção**, **Botão Alternativo**, ou **Caixa de combinação** para perguntas fechadas.  
 4. No campo **Tipo de entrada**, selecione uma opção.
 5. No campo **Grupo de resposta**, insira ou selecione um valor.
 6. No campo **Texto**, digite um valor.

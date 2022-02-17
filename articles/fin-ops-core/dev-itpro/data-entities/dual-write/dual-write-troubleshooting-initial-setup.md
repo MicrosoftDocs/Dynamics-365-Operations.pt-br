@@ -9,33 +9,33 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c9bf5d9017579b4207e09769cff38361442e3938
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781431"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061458"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem ocorrer durante a configuração inicial da integração de gravação dupla.
+
+Este tópico fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem ocorrer durante a configuração inicial da integração de gravação dupla.
 
 > [!IMPORTANT]
 > Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Não é possível vincular um aplicativo Finance and Operations ao Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Não é possível vincular um aplicativo de Finanças e Operações ao Dataverse
 
-**Função necessária para configurar a gravação dupla:** administrador do sistema nos aplicativos Finance and Operations e Dataverse.
+**Função necessária para configurar a gravação dupla**: administrador do sistema em aplicativos de Finanças e Operações e no Dataverse.
 
 Erros na página **Configurar link para Dataverse** geralmente são causados por configuração incompleta ou problemas de permissão. Verifique se toda a verificação de integridade foi aprovada na página **Configurar link para Dataverse**, conforme mostrado na ilustração a seguir. Não é possível vincular a dupla gravação, a menos que toda a verificação de integridade seja aprovada.
 
 ![Verificação bem-sucedida de integridade.](media/health_check.png)
 
-Você deve ter credenciais de administração de locatário do Azure AD para vincular os ambientes Finance and Operations e Dataverse. Depois de vincular os ambientes, os usuários podem fazer login usando suas credenciais de conta e atualizar um mapa de tabela existente.
+Você deve ter credenciais de administração de locatário do Azure AD para vincular os ambientes do Finance and Operations e do Dataverse. Depois de vincular os ambientes, os usuários podem fazer login usando suas credenciais de conta e atualizar um mapa de tabela existente.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Encontre o limite para o número de tabelas legais ou empresas que podem ser vinculadas para gravação dupla
 
@@ -55,7 +55,7 @@ A gravação dupla não oferece suporte a várias entidades legais/empresas com 
 
 Para desbloquear o cliente, remova os registros duplicados da tabela **cdm_company** no Dataverse. Além disso, se a tabela **cdm_company** tiver registros com nome em branco, remova ou corrija esses registros.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Erro ao abrir a página de gravação dupla nos aplicativos do Finance and Operations
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Erro ao abrir a página Gravação dupla em aplicativos de Finanças e Operações
 
 Você poderá receber a seguinte mensagem de erro quando tentar vincular um ambiente do Dataverse para gravação dupla:
 
@@ -70,7 +70,7 @@ Este erro ocorre quando a etapa de consentimento do aplicativo não é concluíd
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Selecione **Aceitar** como consentimento. Você está fornecendo o consentimento para instalar o aplicativo (com `id=33976c19-1db5-4c02-810e-c243db79efde`) no seu locatário.
-+ Este aplicativo é necessário para o Dataverse se comunicar com os aplicativos do Finance and Operations.
++ Este aplicativo é necessário para o Dataverse se comunicar com aplicativos de Finanças e Operações.
 
     ![Solução de problemas durante a configuração inicial.](media/Initial-sync-setup-troubleshooting-1.png)
 
@@ -81,7 +81,7 @@ Este erro ocorre quando a etapa de consentimento do aplicativo não é concluíd
 
 Você poderá receber a seguinte mensagem de erro:
 
-O ambiente dos aplicativos *Finance and Operations \*\*\*.cloudax.dynamics.com não é detectável.*
+*O ambiente de aplicativos de Finanças e Operações \*\*\*.cloudax.dynamics.com não é detectável.*
 
 Há duas coisas que podem fazer com que um ambiente não seja detectável:
 

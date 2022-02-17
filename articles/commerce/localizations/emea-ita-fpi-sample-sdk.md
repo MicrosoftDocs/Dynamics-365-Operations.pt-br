@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: a7b5f4f042aa5457ff33e9762f0902c5c72f5921
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944831"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076877"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Diretrizes de implantação para o exemplo de integração da impressora fiscal da Itália (herdado)
 
@@ -126,7 +126,7 @@ A finalidade da extensão que é um provedor de documentos fiscais é gerar docu
 
 A extensão do CRT é **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample**.
 
-Para obter mais informações sobre o design da solução de integração fiscal, consulte [Processo de registro fiscal e exemplos de integração fiscal para dispositivos fiscais](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+Para obter mais informações sobre o design da solução de integração fiscal, consulte [Processo de registro fiscal e exemplos de integração fiscal para dispositivos fiscais e serviços](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>Manipulador de solicitações
 

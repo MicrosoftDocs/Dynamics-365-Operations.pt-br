@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781335"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060322"
 ---
-# <a name="party-and-global-address-book"></a>Catálogo de endereços global e dos participantes
+# <a name="party-and-global-address-book"></a>Catálogo de endereços global e de participantes
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-*Participante* e *catálogo de endereços global* são conceitos em aplicativos do Finance and Operations. Um participante pode ser uma organização ou uma pessoa. É conveniente armazenar e gerenciar globalmente propriedades de um participante, como nome, idioma, contatos e endereços. Quando um valor de propriedade é alterado em um local, a alteração se reflete em todos os locais em que o participante está envolvido.
+
+*Participante* e *catálogo de endereços global* são conceitos nos aplicativos de Finanças e Operações. Um participante pode ser uma organização ou uma pessoa. É conveniente armazenar e gerenciar globalmente propriedades de um participante, como nome, idioma, contatos e endereços. Quando um valor de propriedade é alterado em um local, a alteração se reflete em todos os locais em que o participante está envolvido.
 
 ## <a name="party"></a>Participante
 
@@ -46,7 +46,7 @@ A ilustração a seguir mostra o modelo de dados de participante.
 > [!TIP]
 > Ao tentar criar um novo registro de conta, use o campo **Participante** para procurar o registro pelo nome. Dessa forma, se você encontrar o registro, bastará selecioná-lo. O sistema preenche automaticamente todos os dados do participante. Não é necessário definir manualmente todos os campos obrigatórios. Esse comportamento pode ser encontrado nas páginas **Conta**, **Contato** e **Fornecedor**.
 
-A gravação dupla não dá suporte a todas as funções de participante de aplicativos do Finance and Operations. Para obter uma lista completa das funções do participante, consulte [Visão geral do catálogo de endereços global](../../../fin-ops/organization-administration/overview-global-address-book.md).
+A gravação dupla não dá suporte a todas as funções de participante de aplicativos de Finanças e Operações. Para obter uma lista completa das funções do participante, consulte [Visão geral do catálogo de endereços global](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Catálogo de endereços global
 
@@ -75,7 +75,7 @@ A tabela **Contato** pode conter os tipos de linhas a seguir.
 |----------|-------------|
 | Uma pessoa que é um cliente (por exemplo, um contato comercializável ou um cliente B2C) | Um registro de contato distribuído em que o campo **Empresa** não está em branco e o campo **É Cliente** está definido como **Sim**. |
 | Uma pessoa que é um fornecedor (por exemplo, um único proprietário, como um fornecedor) | Um registro de contato distribuído em que o campo **Empresa** não está em branco o campo **É Fornecedor** está definido como **Sim**. |
-| Uma pessoa que é cliente e fornecedor | Um registro de contato distribuído em que o campo **Empresa** não está em branco, o campo **É Cliente** está definido como **Sim** e o campo **É Fornecedor** está definido como **Sim**. Uma pessoa pode ser um produtor de produto e um cliente de outro produto. Tanto os aplicativos de Finance and Operations quanto a gravação dupla oferecem suporte a esse relacionamento. |
+| Uma pessoa que é cliente e fornecedor | Um registro de contato distribuído em que o campo **Empresa** não está em branco, o campo **É Cliente** está definido como **Sim** e o campo **É Fornecedor** está definido como **Sim**. Uma pessoa pode ser um produtor de produto e um cliente de outro produto. Tanto os aplicativos de Finanças e Operações quanto a gravação dupla oferecem suporte a esse relacionamento. |
 | Uma pessoa que é um contato de uma organização, mas não é um cliente ou um fornecedor | Um registro de contato não distribuído em que o campo **Empresa** não está em branco, o campo **É Cliente** está definido como **Não** e o campo **É Fornecedor** está definido como **Não**. |
 
 ## <a name="contact-for-party-table"></a>Tabela Contato do participante
@@ -142,9 +142,9 @@ Você pode usar o botão **Novo Endereço Eletrônico** acima da grade para cria
 Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximos lançamentos, todos os campos de endereço eletrônico e postal serão removidos de outras guias, por exemplo, as guias **Resumo** e **Detalhes**. Os detalhes de contato exibidos na guia **Detalhes** são cópias somente leitura do endereço eletrônico principal, como telefone principal, email principal, telefone principal, fax principal e ID do Twitter principal. Durante o processo de qualificação de clientes potenciais, você pode fornecer um telefone comercial e um número do telefone celular. O telefone comercial é considerado o telefone principal se **IsMobile=No** e o número do telefone celular é considerado o telefone secundário se **IsMobile=Yes**.
 
 > [!TIP]
-> Use as guias **Endereços** e **Endereços Eletrônicos** nos formulários de **Conta** e **Contato** para gerenciar os endereços postal e eletrônico. Isso garante que os dados de endereço sejam sincronizados com os aplicativos do Finance and Operations.
+> Use as guias **Endereços** e **Endereços Eletrônicos** nos formulários de **Conta** e **Contato** para gerenciar os endereços postal e eletrônico. Isso garante que os dados de endereço sejam sincronizados com os aplicativos de Finanças e Operações.
 
-## <a name="setup"></a>Configurar
+## <a name="setup"></a>Configuração
 
 1. Abra o ambiente do aplicativo de participação do cliente.
 
@@ -230,7 +230,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
 
 12. Execute os mapas na ordem a seguir. Se você receber um erro indicando "Falha ao validar projeto. Campo de destino ausente... ", abra o mapa e selecione **Atualizar Tabelas**. Em seguida, execute o mapa.
 
-    Aplicativo Finance and Operations | Aplicativo Customer Engagement  
+    Aplicativo de Finanças e Operações | Aplicativo Customer Engagement  
     ----------------------------|------------------------
     [Participantes do CDS](mapping-reference.md#220) | msdyn_parties
     [Localizações de endereço postal do CDS](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,7 +269,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
 
 Um conjunto de mapas de tabelas funcionam juntos para a interação do participante com o catálogo de endereços global, conforme mostrado na tabela a seguir.
 
-| Aplicativo Finance and Operations | Aplicativo Customer Engagement | Descrição |
+| Aplicativo de Finanças e Operações | Aplicativo Customer Engagement | Descrição |
 |----------------------------|-------------------------|-------------|
 | [Títulos da pessoa de contato](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Clientes V3](mapping-reference.md#101) | contas |
@@ -295,10 +295,10 @@ Para obter mais informações, consulte [Referência de mapeamento de gravação
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
-+ Em aplicativos do Finance and Operations, quando você cria um cliente junto com o endereço e o salva, o endereço pode não ser sincronizado com a tabela **Endereço**. Isso ocorre devido a um problema de sequenciamento de plataforma de gravação dupla. Para solucionar o problema, crie o cliente primeiro e salve-o. Em seguida, adicione o endereço.
-+ Em aplicativos dos Finance and Operations, quando um registro de cliente tem um endereço principal e você cria um novo contato para esse cliente, o registro de contato herda um endereço principal do registro de cliente associado. Isso ocorre para o contato do fornecedor. O Dataverse no momento não dá suporte a esse comportamento. Se a gravação dupla estiver habilitada, os contatos de clientes herdados com um endereço principal do aplicativo Finance and Operations serão sincronizados com o Dataverse junto com o endereço.
++ Em aplicativos de Finanças e Operações, quando você cria um cliente junto com o endereço e o salva, o endereço talvez não seja sincronizado com a tabela **Endereço**. Isso ocorre devido a um problema de sequenciamento de plataforma de gravação dupla. Para solucionar o problema, crie o cliente primeiro e salve-o. Em seguida, adicione o endereço.
++ Em aplicativos de Finanças e Operações, quando um registro de cliente tem um endereço principal e você cria um novo contato para esse cliente, o registro de contato herda um endereço principal do registro de cliente associado. Isso ocorre para o contato do fornecedor. O Dataverse no momento não dá suporte a esse comportamento. Se a gravação dupla estiver habilitada, os contatos de clientes herdados com um endereço principal do aplicativo de Finanças e Operações serão sincronizados com o Dataverse junto com o endereço.
 + Os endereços eletrônicos definidos na guia endereço eletrônico dos formulários **Conta**, **Contato** e **Fornecedor** são obtidos da tabela `msdyn_partyelectronicaddress`. Essas informações não fluem para as transações associadas, como ordem de venda, cotação e ordem de compra. Pretendemos corrigir esse problema em uma versão incremental. Os dados existentes nos campos de endereço eletrônico nos registros de conta e contato continuarão a funcionar em transações como ordem de venda, cotação e ordem de compra.
-+ Em aplicativos do Finance and Operations, você pode criar um registro de contato do formulário **Adicionar Contato**. Quando você tenta criar um novo contato no formulário **Exibir Contato**, a ação falha. Este é um problema conhecido.
++ Em aplicativos de Finanças e Operações, você pode criar um registro de contato do formulário **Adicionar Contato**. Quando você tenta criar um novo contato no formulário **Exibir Contato**, a ação falha. Este é um problema conhecido.
 
     ![Problema conhecido com Adicionar Contato.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Para obter mais informações, consulte [Referência de mapeamento de gravação
 
     ![Problema conhecido com o endereço.](media/party-gab-address-issue.png)
 
-+ Não é possível inserir um endereço postal com data posterior usando um aplicativo do Finance and Operations com dupla gravação porque o Dataverse não dá suporte à efetivação de data. Se você inserir um endereço postal com data futura usando um aplicativo do Finance and Operations, ele será totalmente sincronizado com o Dataverse e você verá logo o endereço na interface do usuário. Todas as atualizações deste registro resultarão em um erro, pois ele tem data futura e não atual no aplicativo do Finance and Operations.
++ Não é possível inserir um endereço postal com data posterior usando um aplicativo de Finanças e Operações com gravação dupla porque o Dataverse não dá suporte à efetivação de data. Se você inserir um endereço postal com data futura usando um aplicativo de Finanças e Operações, ele será totalmente sincronizado com o Dataverse e você verá logo o endereço na interface do usuário. Todas as atualizações deste registro resultarão em um erro, pois ele tem data futura e não atual no aplicativo de Finanças e Operações.

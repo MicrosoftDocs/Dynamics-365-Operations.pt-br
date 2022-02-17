@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 86322fdf14bdefb5c9d4793a69e95ca913843e53
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902524"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087515"
 ---
-# <a name="whats-new-or-changed-in-human-resources"></a>Novidades ou alterações no Human Resources
+# <a name="whats-new-or-changed-in-human-resources"></a>Novidades ou mudanças no Human Resources
+
+> [!IMPORTANT]
+> A funcionalidade mencionada neste tópico está disponível atualmente para clientes individuais de Dynamics 365 Human Resources. Algumas ou todas as funcionalidades estarão disponíveis como parte de uma versão futura na infraestrutura do Finance após a versão Finance 10.0.25.  
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

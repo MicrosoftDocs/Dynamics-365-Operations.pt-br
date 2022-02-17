@@ -9,15 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ceb0a60ccf3d1c989d8663e933faaa5e430d314695e20990c9086cd1b8325ff1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773718"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070137"
 ---
 # <a name="configure-expenditure-reviewers"></a>Configurar revisores de despesas
 [!include[banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 É possível configurar revisores de despesas dinâmicos para as encaminhar despesas para revisão com base no usuário atribuído a uma função de projeto ou na dimensão financeira na qual a despesa está sendo cobrada. O processo de fluxo de trabalho usa a função de projeto ou o proprietário da dimensão financeira especificado para determinar para quem a despesa deverá ser encaminhada.
 

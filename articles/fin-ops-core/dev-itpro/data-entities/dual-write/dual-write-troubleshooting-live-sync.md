@@ -9,27 +9,27 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 69667f8b64c048f5957168d1af21a6c858bc0bad
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782570"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062354"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronização ao vivo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Microsoft Dataverse. Especificamente, ele fornece informações que podem ajudá-lo a corrigir problemas com a sincronização dinâmica.
+
+Este tópico fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Microsoft Dataverse. Especificamente, ele fornece informações que podem ajudá-lo a corrigir problemas com a sincronização dinâmica.
 
 > [!IMPORTANT]
 > Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário do Azure Active Directory (Azure AD). Cada seção explica se uma função ou credenciais específicas são necessárias.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>A sincronização dinâmica mostra um erro ao criar uma linha
 
-Você pode receber a seguinte mensagem de erro ao criar uma linha em um aplicativo Finance and Operations:
+Você pode receber a seguinte mensagem de erro ao criar uma linha em um aplicativo de Finanças e Operações:
 
 *\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"message\\":\\"O usuário não é um membro da organização.\\"}}\], O servidor remoto retornou um erro: (403) Proibido."}}".*
 
@@ -39,11 +39,11 @@ Para corrigir o problema, siga as etapas dos [pré-requisitos e requisitos do si
 
 **Função necessária para corrigir o problema:** administrador do sistema
 
-Você pode receber a seguinte mensagem de erro ao tentar salvar os dados da tabela em um aplicativo do Finance and Operations:
+Você pode receber a seguinte mensagem de erro ao tentar salvar dados da tabela em um aplicativo de Finanças e Operações:
 
 *Não é possível salvar as alterações no banco de dados. A unidade de trabalho não pode confirmar a transação. Não é possível gravar dados no uoms da entidade. As gravações no UnitOfMeasureEntity falharam com a mensagem de erro. Não é possível sincronizar com a entidade uoms.*
 
-Para corrigir o problema, verifique se os dados de referência de pré-requisito existem no aplicativo do Finance and Operations e no Dataverse. Por exemplo, se o registro de um cliente pertencer a um grupo de clientes específico, verifique se o registro do grupo de clientes existe no Dataverse.
+Para corrigir o problema, verifique se os dados de referência de pré-requisito existem no aplicativo de Finanças e Operações e no Dataverse. Por exemplo, se o registro de um cliente pertencer a um grupo de clientes específico, verifique se o registro do grupo de clientes existe no Dataverse.
 
 Se houver dados nos dois lugares e você tiver confirmado que o problema não é relacionado a dados, siga estas etapas.
 
@@ -51,15 +51,15 @@ Se houver dados nos dois lugares e você tiver confirmado que o problema não é
 2. Selecione e exclua os registros com problemas no mapa e projeto de gravação dupla. Haverá dois registros para todos os mapeamentos de gravação dupla.
 3. Publique as alterações usando o suplemento do Excel. Esta etapa é importante porque exclui os registros da entidade e das tabelas subjacentes.
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Manipular erros de privilégio de leitura ou gravação ao criar dados em um aplicativo Finance and Operations
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Tratar erros de privilégio de leitura ou gravação ao criar dados em um aplicativo de Finanças e Operações
 
-Você pode receber uma mensagem de erro "Solicitação Incorreta" ao criar dados em um aplicativo do Finance and Operations.
+Você pode receber uma mensagem de erro "Solicitação Incorreta" ao criar dados em um aplicativo de Finanças e Operações.
 
 ![Exemplo da mensagem inválida de erro de solicitação.](media/error_record_id_source.png)
 
 Para corrigir o problema, você precisa habilitar o privilégio ausente atribuindo o direito de acesso correto à equipe da unidade de negócios do Dynamics 365 Sales ou do Dynamics 365 Customer Service mapeada.
 
-1. No aplicativo Finance and Operations, localize a unidade de negócios mapeada no conjunto de conexões de integração de dados.
+1. No aplicativo de Finanças e Operações, localize a unidade de negócios mapeada no conjunto de conexões de integração de dados.
 
     ![Mapeamento da organização.](media/mapped_business_unit.png)
 
@@ -77,7 +77,7 @@ Para corrigir o problema, você precisa habilitar o privilégio ausente atribuin
 
 **Função necessária para corrigir o problema:** administrador do sistema
 
-Você pode receber a seguinte mensagem de erro ao criar dados em um aplicativo Finance and Operations:
+Você pode receber a seguinte mensagem de erro ao criar dados em um aplicativo de Finanças e Operações:
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Unable para gerar carga de trabalho para a entidade CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Criação de carga de trabalho falhada com erro de URI inválido: O URI está vazio."}\],"isErrorCountUpdated":true}*
 
@@ -85,14 +85,14 @@ Veja uma mensagem de erro no aplicativo de interação com o cliente:
 
 > Ocorreu um erro inesperado no código do ISV. (ErrorType = ClientError) Exceção inesperada do plug-in (Executar): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: falha ao processar conta da entidade – Houve falha em uma tentativa de conexão porque a parte conectada não respondeu adequadamente após um período de tempo ou houve falha na conexão estabelecida porque o host não respondeu.
 
-Este erro ocorre se o ambiente do Dataverse for redefinido incorretamente quando você tenta criar dados no aplicativo do Finance and Operations.
+Este erro ocorrerá se o ambiente do Dataverse for redefinido incorretamente quando você tentar criar dados no aplicativo de Finanças e Operações.
 
 > [!IMPORTANT]
 > Se você tiver vinculado novamente os ambientes, deverá interromper todos os mapas de entidade antes de continuar com as etapas de mitigação.
 
-Para corrigir o problema, conclua as etapas no Dataverse e no aplicativo do Finance and Operations.
+Para corrigir o problema, conclua as etapas no Dataverse e no aplicativo de Finanças e Operações.
 
-1. Siga estas etapas no aplicativo do Finance and Operations.
+1. No aplicativo de Finanças e Operações, siga estas etapas:
 
     1. Abra a entidade **DualWriteProjectConfigurationEntity** usando um suplemento do Excel. Para usar o suplemento, habilite o modo de design no suplemento do Excel no Finance and Operations e adicione **DualWriteProjectConfigurationEntity** a uma planilha. Para obter mais informações, consulte [Exibir e atualizar dados da entidade com o Excel](../../office-integration/use-excel-add-in.md).
     2. Selecione e exclua os registros com problemas no mapa e projeto de gravação dupla. Haverá dois registros para todos os mapeamentos de gravação dupla.
@@ -108,7 +108,7 @@ Para corrigir o problema, conclua as etapas no Dataverse e no aplicativo do Fina
     5. Selecione **Resultados** para exibir as configurações.
     6. Exclua todas as instâncias.
 
-3. Siga estas etapas no aplicativo do Finance and Operations.
+3. No aplicativo de Finanças e Operações, siga estas etapas:
 
     1. Abra a entidade **DualWriteProjectConfigurationEntity** usando um suplemento do Excel. Para usar o suplemento, habilite o modo de design no suplemento do Excel no Finance and Operations e adicione **DualWriteProjectConfigurationEntity** a uma planilha. Para obter mais informações, consulte [Exibir e atualizar dados da entidade com o Excel](../../office-integration/use-excel-add-in.md).
     2. Selecione e exclua os registros com problemas no mapa e projeto de gravação dupla. Haverá dois registros para todos os mapeamentos de gravação dupla.
@@ -189,9 +189,9 @@ while(qRun.next())
 }
 ```
 
-## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Os dados dos aplicativos do Finance and Operations não são sincronizados com o Dataverse
+## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Os dados de aplicativos de Finanças e Operações não são sincronizados com o Dataverse
 
-Durante a sincronização dinâmica, talvez você encontre um problema em que somente parte dos dados são sincronizados dos aplicativos do Finance and Operations com o Dataverse, ou nenhum dado é sincronizado.
+Durante a sincronização dinâmica, talvez você encontre um problema em que somente parte dos dados são sincronizados de aplicativos de Finanças e Operações para o Dataverse, ou nenhum dado é sincronizado.
 
 > [!NOTE]
 > Você precisa corrigir esse problema durante o desenvolvimento.
@@ -200,13 +200,13 @@ Antes de começar a corrigir o problema, revise os seguintes pré-requisitos:
 
 + Verifique se as alterações personalizadas foram gravadas em um único escopo de transação.
 + Os eventos de negócios e a estrutura de gravação dupla não tratam as operações `doinsert()`, `doUpdate()` e `recordset()`, ou os registros em que `skipBusinessEvents(true)` está marcado. Se seu código estiver dentro dessas funções, a gravação dupla não será disparada.
-+ Os eventos de negócios precisam ser registrados para a fonte de dados mapeada. Algumas fontes de dados podem usar uma junção externa e ser marcadas como somente leitura nos aplicativos do Finance and Operations. Essas fontes de dados não são rastreadas.
++ Os eventos de negócios precisam ser registrados para a fonte de dados mapeada. Algumas fontes de dados podem usar uma junção externa e serem marcadas como somente leitura em aplicativos de Finanças e Operações. Essas fontes de dados não são rastreadas.
 + As alterações só serão disparadas se as modificações estiverem nos campos mapeados. As modificações no campo não mapeado não disparam a gravação dupla.
 + Verifique se as avaliações de filtro fornecem um resultado válido.
 
 ### <a name="troubleshooting-steps"></a>Etapas de solução de problemas
 
-1. Revise os mapeamentos de campos na página de administração de gravação dupla. Se um campo não for mapeado dos aplicativos do Finance and Operations para o Dataverse, ele não será rastreado. Por exemplo, na ilustração a seguir, o campo **Descrição** é rastreado do Dataverse, mas não dos aplicativos do Finance and Operations. Nenhuma alteração feita nesse campo dentro dos aplicativos do Finance and Operations será rastreada.
+1. Revise os mapeamentos de campos na página de administração de gravação dupla. Se um campo não for mapeado de aplicativos de Finanças e Operações para o Dataverse, ele não será rastreado. Por exemplo, na ilustração a seguir, o campo **Descrição** é rastreado do Dataverse, mas não de aplicativos de Finanças e Operações. Nenhuma alteração feita nesse campo em aplicativos de Finanças e Operações será rastreada.
 
     ![Campo rastreado.](media/live-sync-troubleshooting-1.png)
 
@@ -220,9 +220,9 @@ Antes de começar a corrigir o problema, revise os seguintes pré-requisitos:
 
 ### <a name="sample-scenario"></a>Cenário de exemplo
 
-Nos aplicativos do Finance and Operations, há uma atualização para o endereço de um registro de contato, mas a alteração de endereço não é sincronizada com o Dataverse. Esse cenário ocorre porque nenhum registro na tabela **BusinessEventsDefinition** tem a combinação da tabela e da entidade afetados. Especificamente, a tabela **LogisticsPostalAddress** não é a fonte de dados direta da entidade **smmContactpersonCDSV2Entity**. A entidade **smmContactpersonCDSV2Entity** tem **smmContactPersonV2Entity** como a fonte de dados, e **smmContactPersonV2Entity**, por sua vez, tem **LogisticsPostalAddressBaseEntity** como a fonte de dados. A tabela **LogisticsPostalAddress** é a fonte de dados para **LogisticsPostalAddressBaseEntity**.
+Em aplicativos de Finanças e Operações, há uma atualização para o endereço de um registro de contato, mas a alteração de endereço não é sincronizada com o Dataverse. Esse cenário ocorre porque nenhum registro na tabela **BusinessEventsDefinition** tem a combinação da tabela e da entidade afetados. Especificamente, a tabela **LogisticsPostalAddress** não é a fonte de dados direta da entidade **smmContactpersonCDSV2Entity**. A entidade **smmContactpersonCDSV2Entity** tem **smmContactPersonV2Entity** como a fonte de dados, e **smmContactPersonV2Entity**, por sua vez, tem **LogisticsPostalAddressBaseEntity** como a fonte de dados. A tabela **LogisticsPostalAddress** é a fonte de dados para **LogisticsPostalAddressBaseEntity**.
 
-Uma situação semelhante pode ocorrer em alguns casos não-padrão, como aqueles em que a tabela sendo modificada nos aplicativos do Finance and Operations não está obviamente vinculada à entidade que a contém. Por exemplo, os dados de endereço principal são computados na entidade **smmContactPersonCDSV2Entity**. A estrutura de gravação dupla tenta determinar como uma alteração em uma tabela subjacente é mapeada de volta para entidades. Normalmente, essa abordagem é suficiente. No entanto, em alguns casos, o vínculo é tão complexo que precisa ser específico. Você deve verificar se a **RecId** da tabela relacionada está disponível diretamente na entidade. Em seguida, adicione um método estático para monitorar alterações na tabela.
+Uma situação semelhante pode ocorrer em alguns casos não-padrão, como quando a tabela modificada em aplicativos de Finanças e Operações não está obviamente vinculada à entidade que a contém. Por exemplo, os dados de endereço principal são computados na entidade **smmContactPersonCDSV2Entity**. A estrutura de gravação dupla tenta determinar como uma alteração em uma tabela subjacente é mapeada de volta para entidades. Normalmente, essa abordagem é suficiente. No entanto, em alguns casos, o vínculo é tão complexo que precisa ser específico. Você deve verificar se a **RecId** da tabela relacionada está disponível diretamente na entidade. Em seguida, adicione um método estático para monitorar alterações na tabela.
 
 Para ver um exemplo, revise o método **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()**. **CustCustomerV3entity** e **VendVendorV2Entity** foram modificadas para tratar dessa situação.
 
@@ -250,17 +250,17 @@ Para corrigir o problema, siga estas etapas.
 5. Interrompa todos os mapas de gravação dupla que são criados na entidade **smmContactPersonCDSV2Entity**.
 6. Inicie o mapa. Você verá a nova tabela (**LogisticsPostalAddress** neste exemplo) que começou a rastrear usando a coluna **RefTableName** para a linha em que o valor **refentityname** é igual a **smmContactPersonCDSV2Entity** na tabela **BusinessEventsDefinition**.
 
-## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Erro ao criar um registro no qual vários registros são enviados de um aplicativo do Finance and Operations para o Dataverse no mesmo lote
+## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Erro ao criar um registro no qual vários registros são enviados de um aplicativo de Finanças e Operações para o Dataverse no mesmo lote
 
-Para qualquer transação, um aplicativo do Finance and Operations cria dados em um lote e os envia como um lote para Dataverse. Se dois registros são criados como parte da mesma transação e eles fazem referência entre si, você poderá receber uma mensagem de erro semelhante ao seguinte exemplo no aplicativo do Finance and Operations:
+Para qualquer transação, um aplicativo de Finanças e Operações cria dados em um lote e os envia como um lote para o Dataverse. Se dois registros forem criados como parte da mesma transação fizerem referência entre si, você poderá receber uma mensagem de erro semelhante ao seguinte exemplo no aplicativo de Finanças e Operações:
 
 *Não é possível gravar dados na entidade aaa_fundingsources. Não é possível procurar ebecsfs_contracts com valores {PC00...}. Não é possível procurar aaa_fundingsources com valores {PC00...}. Falha nas gravações do aaa_fundingsources com a mensagem de erro de exceção: o servidor remoto retornou um erro: (400) solicitação incorreta.*
 
-Para corrigir o problema, crie relações de entidades no aplicativo do Finance and Operations para indicar que as duas entidades estão relacionadas entre si e que os registros relacionados são manuseados na mesma transação.
+Para corrigir o problema, crie relacionamentos de entidades no aplicativo de Finanças e Operações para indicar que as duas entidades estão relacionadas entre si e que os registros relacionados são tratados na mesma transação.
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Habilitar o log detalhado de mensagens de erro
 
-Em um aplicativo do Finance and Operations, é possível encontrar erros relacionados ao ambiente do Dataverse. Talvez a mensagem de erro não contenha o texto completo da mensagem ou outros dados relevantes. Para obter mais informações, habilite o log detalhado definindo o sinalizador **IsDebugMode** presente na entidade **DualWriteProjectConfigurationEntity** em todas as configurações de projeto nos aplicativos do Finance and Operations.
+Em um aplicativo de Finanças e Operações, é possível encontrar erros relativos ao ambiente do Dataverse. Talvez a mensagem de erro não contenha o texto completo da mensagem ou outros dados relevantes. Para obter mais informações, habilite o log detalhado definindo o sinalizador **IsDebugMode** presente na entidade **DualWriteProjectConfigurationEntity** em todas as configurações de projeto em aplicativos de Finanças e Operações.
 
 1. Abra a entidade **DualWriteProjectConfigurationEntity** usando um suplemento do Excel. Para usar o suplemento, habilite o modo de design no suplemento do Excel no Finance and Operations e adicione **DualWriteProjectConfigurationEntity** a uma planilha. Para obter mais informações, consulte [Exibir e atualizar dados da entidade com o Excel](../../office-integration/use-excel-add-in.md).
 2. Defina o sinalizador **IsDebugMode** como **Sim** no projeto.
@@ -270,7 +270,7 @@ Em um aplicativo do Finance and Operations, é possível encontrar erros relacio
 
 ## <a name="error-when-you-add-an-address-for-a-customer-or-contact"></a>Erro ao adicionar um endereço para um cliente ou contato
 
-Talvez você receba a seguinte mensagem de erro ao tentar adicionar um endereço para um cliente ou contato nos aplicativos do Finance and Operations ou no Dataverse:
+Talvez você receba a seguinte mensagem de erro ao tentar adicionar um endereço para um cliente ou contato em aplicativos de Finanças e Operações ou no Dataverse:
 
 *Não é possível gravar dados na entidade msdyn_partypostaladdresses. Falha nas gravações em DirPartyPostalAddressLocationCDSEntity com a mensagem de erro Falha na solicitação com código de status Solicitação Incorreta e código de erro de CDS: mensagem de resposta0x80040265: Ocorreu um erro no plugin. Já existe um registro com a ID de local de valores de atributo. A chave ID da localização da chave da entidade requer que esse conjunto de atributos contenha valores exclusivos. Selecione valores exclusivos e tente novamente.*
 
@@ -290,7 +290,7 @@ Você pode receber a seguinte mensagem de erro ao tentar adicionar um cliente no
 
 *"RecordError0":"Falha na gravação para Clientes v3 da entidade exceção desconhecida – Registro do participante não encontrado para o tipo de participante 'Organização'"}.*
 
-Quando um cliente é criado no Dataverse, um novo número de participante é gerado. A mensagem de erro é mostrada quando o registro do cliente, junto com o participante, é sincronizado com os aplicativos do Finance and Operations, mas já existe um registro de cliente que tem um número de participante diferente.
+Quando um cliente é criado no Dataverse, um novo número de participante é gerado. A mensagem de erro é mostrada quando o registro do cliente, junto com o participante, é sincronizado com aplicativos de Finanças e Operações, mas já existe um registro de cliente com um número de participante diferente.
 
 Para corrigir o problema, localize o cliente por meio da pesquisa do participante. Se o cliente não existir, crie um registro para ele. Se o cliente existir, use o participante existente para criar o novo registro de cliente.
 
@@ -300,7 +300,7 @@ Talvez você receba a seguinte mensagem de erro ao tentar criar um novo cliente,
 
 *Não é possível atualizar o tipo de participante de "DirOrganization" para "DirPerson". Em vez disso, exclua o participante existente e, em seguida, o insira com o novo tipo.*
 
-No Dataverse, há uma sequência numérica na tabela **msdyn_party**. Quando uma conta é criada no Dataverse, um novo participante é criado (por exemplo, **Party-001** do tipo **Organização**). Esses dados são enviados para o aplicativo do Finance and Operations. Se o ambiente do Dataverse for redefinido ou o ambiente do Finance and Operations estiver vinculado a um ambiente diferente do Dataverse e um novo registro de contato for criado no Dataverse, será criado um novo valor de participante que comece com **Party-001**. Desta vez, o registro de participante criado será **Party-001** do tipo **Pessoa**. Quando esses dados são sincronizados, os aplicativos do Finance and Operations mostram a mensagem de erro anterior, pois o registro de participante **Party-001** do tipo **Organização** já existe.
+No Dataverse, há uma sequência numérica na tabela **msdyn_party**. Quando uma conta é criada no Dataverse, um novo participante é criado (por exemplo, **Party-001** do tipo **Organização**). Esses dados são enviados para o aplicativo de Finanças e Operações. Se o ambiente do Dataverse for redefinido, ou o ambiente do Finance and Operations estiver vinculado a outro ambiente do Dataverse, e um novo registro de contato for criado no Dataverse, será criado um novo valor de participante que comece com **Party-001**. Desta vez, o registro de participante criado será **Party-001** do tipo **Pessoa**. Quando esses dados são sincronizados, os aplicativos de Finanças e Operações mostram a mensagem de erro anterior, pois o registro de participante **Party-001** do tipo **Organização** já existe.
 
 Para corrigir o problema, altere a sequência numérica automática do campo **msdyn_partynumber** da tabela **msdyn_party** no Dataverse para uma sequência numérica automática diferente.
 

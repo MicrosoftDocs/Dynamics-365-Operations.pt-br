@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8bbecf85a13056225b0d35023d759456cade40fe10ca1978058abd8e47693ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740899"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070000"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintaxe avançada de filtragem e consulta
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador **correspondências** no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
 
@@ -35,7 +38,7 @@ Este tópico descreve as opções de filtragem e consulta disponíveis quando vo
 <tr>
 <th>Sintaxe</th>
 <th>Descrição de caractere</th>
-<th>descrição</th>
+<th>Descrição</th>
 <th>Exemplo</th>
 </tr>
 </thead>
@@ -119,8 +122,8 @@ Este tópico descreve as opções de filtragem e consulta disponíveis quando vo
 <td>Duas aspas duplas consecutivas (<strong>""</strong>) localiza linhas sem nenhum valor para a coluna atual.</td>
 </tr>
 <tr>
-<td>(<span class="code">Consulta do Finance and Operations</span>) (Consulta do Finance and Operations entre parênteses)</td>
-<td>Correspondendo a uma consulta definida</td>
+<td>(<span class="code">Consulta do Finance and Operations</span>) (consulta do Finance and Operations entre parênteses)</td>
+<td>Corresponder a uma consulta definida</td>
 <td>Digite uma consulta como uma instrução SQL entre parênteses usando a linguagem de consulta do Finance and Operations.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        como um exemplo de sintaxe de uma condição de filtro em um campo da fonte de dados raiz, bem como um campo de uma fonte de dados diferente (para a página Todos os clientes)</td>

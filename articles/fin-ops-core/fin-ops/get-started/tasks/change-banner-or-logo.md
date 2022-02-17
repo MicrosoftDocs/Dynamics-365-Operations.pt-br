@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0cf47b81f10bb74907e12872ef52e01b2d6ef6ae654afd3b5d6c273053ad6678
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee62376da24adbbe09cb039c095197067f2db59c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750475"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069339"
 ---
 # <a name="change-the-banner-or-logo"></a>Alterar a faixa ou o logotipo
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 O procedimento a seguir lista as etapas que os administradores do sistema podem usar para atualizar a imagem da faixa ou do logotipo que é exibida para uma entidade jurídica. A empresa de dados demo usada para criar este procedimento é USMF.
 

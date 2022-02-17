@@ -2,7 +2,7 @@
 title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
-ms.date: 11/08/2021
+ms.date: 01/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777976"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075413"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico explica como você pode personalizar o aplicativo e aborda os seguintes assuntos: 
 
@@ -120,7 +124,9 @@ Estas ferramentas estão disponíveis na barra de ferramentas **Personalização
 - Use a ferramenta **Selecionar** para selecionar e alterar as propriedades de um elemento. Para usar essa ferramenta, clique no botão **Selecionar** na barra de ferramentas e selecione o elemento desejado. A janela de propriedades do elemento será exibida, na qual você poderá modificar qualquer uma das propriedades desse elemento. Você pode repetir o processo para outros elementos que possam ser personalizados nessa página. Observe que algumas propriedades de personalização podem não estar disponíveis em alguns cenários. Por exemplo, não é possível bloquear um campo obrigatório.
 - Use a ferramenta **Ocultar** para ocultar um elemento na página. Para usar essa ferramenta, selecione o botão **Ocultar** na barra de ferramentas e selecione o elemento a ser ocultado. Quando você usa a ferramenta **Ocultar**, todos os elementos que estiverem ocultos no momento ficarão visíveis, mas serão exibidos em um contêiner sombreado. Assim, você pode tornar um elemento visível selecionando-o. Para ver como a aparência da página quando os elementos estiverem ocultos, alterne para outra ferramenta de personalização ou feche a barra de ferramentas de personalização.
 - Use a ferramenta **Adicionar campos** para adicionar campos à página. Ao usar esta ferramenta, você só poderá adicionar os campos que fazem parte da definição da página. Para obter informações sobre como criar novos campos que não fazem parte da definição de página atual, consulte [Criar e trabalhar com campos personalizados](user-defined-fields.md). Depois que selecionar o botão **Adicionar campos** na barra de ferramentas, você deverá primeiramente selecionar a grade ou a seção na qual deseja adicionar um campo. Uma caixa de diálogo exibirá a lista de campos relacionados à grade ou à seção selecionada. Na caixa de diálogo, selecione um ou mais campos para adicioná-los à lista **Campos recomendados** ou **Todos os campos**. Depois de escolher os campos desejados, selecione **Atualizar**. Para remover um campo adicionado anteriormente, repita o processo, mas desmarque a seleção do campo na caixa de diálogo.
-    - A lista **Campos recomendados** mostra os campos que foram adicionados anteriormente por outros usuários da organização. Esta lista de campos é atualizada com base na frequência de recorrência do **Trabalho em lotes de recomendação**. Uma experiência semelhante ocorre ao adicionar novos campos de filtro usando o painel Filtro em uma página.
+
+    A lista **Campos recomendados** mostra os campos que foram adicionados anteriormente por outros usuários da organização. Esta lista de campos é atualizada com base na frequência de recorrência do **Trabalho em lotes de recomendação**. Uma experiência semelhante ocorre ao adicionar novos campos de filtro usando o painel Filtro em uma página.
+
 - Use a ferramenta **Mover** para mover um elemento para um local diferente no grupo atual de elementos. Observe que não é possível mover um elemento para fora de seu grupo pai. Para usar essa ferramenta, selecione o botão **Mover** na barra de ferramentas e selecione o elemento a ser movido. Quando você seleciona um elemento, o aplicativo determina os locais para os quais o elemento pode ser movido. Esses locais são conhecidos como *zonas para soltar*. Quando você arrasta o elemento pelo grupo atual, cada zona para soltar é mostrada como uma linha colorida em negrito ao lado da área em que o elemento pode ser solto.
 - Use a ferramenta **Ignorar** para remover um elemento da sequência de guias de teclado da página. Quando você seleciona o botão **Ignorar** na barra de ferramentas, todos os elementos ignorados no momento são exibidos em um contêiner sombreado. Você pode interativamente remover ou adicionar campos à sequência de guias.
 - Use a ferramenta **Mostrar no cabeçalho** quando desejar que um campo seja exibido na seção de resumo da Guia Rápida. Quando você seleciona o botão **Mostrar no cabeçalho** na barra de ferramentas, todos os campos selecionados como campos de resumo são mostrados em um contêiner sombreado. É possível interativamente adicionar campos ao resumo da Guia Rápida e remover campos do resumo selecionando-os.
@@ -152,7 +158,10 @@ Para algumas páginas que incluem listas, o recurso de personalização **Adicio
 
 - Para adicionar uma lista a um espaço de trabalho, primeiro classifique ou filtre a lista na página de forma que ela mostre as informações como você deseja que apareçam no espaço de trabalho. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Lista**. Após você selecionar **Configurar**, aparecerá uma caixa de diálogo onde você poderá selecionar as colunas que devem aparecer na lista no espaço de trabalho. Você também pode especificar o rótulo usado para a lista no espaço de trabalho.
 - Para adicionar um bloco a um espaço de trabalho, primeiramente filtre a lista na página para que ela mostre os dados que devem ser resumidos ou que você deseja acessar rapidamente. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Bloco**. Após selecionar **Configurar**,uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o bloco no espaço de trabalho. Você também pode especificar se o bloco deve mostrar uma contagem. Depois de ser adicionado ao espaço de trabalho, o bloco poderá ser selecionado para abrir a página atual no espaço de trabalho. Você pode, então, exibir a lista filtrada associada ao bloco.
-- Para adicionar um link a um espaço de trabalho, primeiro filtre a lista na página para que ela mostre os dados do seu interesse. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Link**. Após selecionar **Configurar**, uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o link. Você também pode, opcionalmente, especificar um rótulo para uma nova seção que tenha esse link.
+- Para adicionar um link a um espaço de trabalho, primeiro filtre a lista na página para que ela mostre os dados do seu interesse. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Link**. Após selecionar **Configurar**, uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o link. Você também pode, opcionalmente, especificar um rótulo para a seção na qual este link pode ser colocado. Se essa seção não existir, uma nova seção será criada.
+
+> [!NOTE]
+> A partir da versão 10.0.25, quando você configura a lista, o bloco ou o link, também pode ser necessário selecionar os modos de exibição do espaço de trabalho aos quais você deseja adicionar o elemento, se o recurso **(Versão preliminar) Suporte de exibições salvas para espaços de trabalho** estiver habilitado. Os modos de exibição do espaço de trabalho disponíveis aparecerão na seção **Opções do espaço de trabalho** de cada caixa de diálogo **Configurar**. 
 
 Após adicionar uma lista, um bloco ou um link a um espaço de trabalho, você pode abrir esse espaço de trabalho e reorganizar os elementos nele como desejar.
 
@@ -221,7 +230,7 @@ Se as exibições salvas não estiverem habilitadas, siga estas etapas para copi
 Outra maneira de compartilhar personalizações é por meio de exportação e importação. Os usuários individuais, ou um administrador que atua em seu nome, podem usar este método para exportar personalizações ou exibições e, depois, conceder o arquivo exportado a outros usuários para importação. Como alternativa, os usuários podem fornecer personalizações exportadas a um usuário com privilégios administrativos, e esse usuário pode usar a página de administração **Personalização** para aplicar o arquivo de personalização a vários usuários ao mesmo tempo.
 
 > [!IMPORTANT]
-> Como as personalizações são mantidas entre atualizações, a importação de todas as personalizações após uma atualização de serviço ou em qualquer outro momento é desnecessária e não recomendada.   
+> Como as personalizações são mantidas entre atualizações, a importação de todas as personalizações após uma atualização de serviço ou em qualquer outro momento é desnecessária e não recomendada.
 
 #### <a name="export"></a>Exportar
 
@@ -271,11 +280,8 @@ Para os clientes que tenham o recurso **Exibições salvas** ativado, consulte a
 Para os clientes que ainda não ativaram o recurso [Exibições salvas](saved-views.md), essa página tem quatro guias:
 
 - **Aplicar** – Você pode importar ou selecionar uma personalização de um ou mais usuários. Para aplicar uma personalização a um ou mais usuários, primeiro selecione uma função e os usuários que tenham essa função. Em seguida, selecione uma personalização existente para aplicar aos usuários selecionados ou importe um arquivo de personalização. A personalização será validada e aplicada a todos os usuários selecionados na próxima vez que eles abrirem a página selecionada.
-
 - **Limpar** – você pode limpar todas as personalizações de uma página ou espaço de trabalho para um ou mais usuários. Primeiro, selecione uma página ou espaço de trabalho para ver uma lista de usuários que personalizaram essa página ou espaço de trabalho. Em seguida, selecione os usuários que devem ter as personalizações dessa página ou espaço de trabalho desmarcadas e selecione **Limpar**. Todas as personalizações que os usuários selecionados aplicaram à página ou ao espaço de trabalho selecionado serão excluídas. Essa ação não pode ser desfeita. Entretanto, se uma personalização tiver sido salva para a página ou o espaço de trabalho, essa personalização poderá ser reimportada.
-
 - **Usuários** – Selecione um usuário para ver a lista de páginas que ele personalizou. Você pode habilitar ou desabilitar a capacidade de o usuário selecionado utilizar personalizações para páginas específicas ou para todo o sistema. Também é possível importar, exportar ou limpar uma personalização para o usuário. Além disso, você pode redefinir o recurso de textos explicativos para o usuário. Nesse caso, se o usuário tiver ignorado anteriormente qualquer janela pop-up que apresentava novos recursos, ela será exibida novamente na próxima vez que ele encontrar esses recursos.
-
 - **Sistema** – É possível desativar temporariamente as personalizações de todos os usuários no sistema. Nesse caso, todas as personalizações são excluídas para todos os usuários e todas as páginas são redefinidos para seu estado padrão. Se, mais tarde, você ativar novamente a personalização, todas as personalizações serão reaplicadas. Também é possível excluir permanentemente todas as personalizações de todos os usuários do sistema. Não é possível recuperar as personalizações que foram excluídas. Portanto, antes de executar essa tarefa, verifique se você exportou todas as personalizações de que talvez precise posteriormente.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalizar dimensões de estoque

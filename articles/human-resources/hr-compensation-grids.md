@@ -2,7 +2,7 @@
 title: Configurar grades de remuneração
 description: As grades de remuneração são usadas para definir e manter as estruturas de pagamento para os planos de remuneração fixa.
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483801"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071394"
 ---
 # <a name="set-up-compensation-grids"></a>Configurar grades de remuneração
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -67,28 +70,16 @@ As grades de remuneração são usadas para definir e manter as estruturas de pa
 7. No campo **Tipo de ajuste**, selecione uma opção.
 8. No campo **Valor do ajuste**, insira um número.
 9. Na lista, localize e selecione o registro desejado.
-10. Na lista, localize e selecione o registro desejado.
-11. Na lista, localize e selecione o registro desejado.
-12. Na lista, localize e selecione o registro desejado.
-13. Clique em **Aplicar à grade**.
-14. Na lista, localize e selecione o registro desejado.
-15. Na lista, localize e selecione o registro desejado.
-16. Na lista, localize e selecione o registro desejado.
-17. Clique em **Aplicar à grade**.
-18. Na lista, localize e selecione o registro desejado.
-19. Na lista, localize e selecione o registro desejado.
-20. Clique em **Aplicar à grade**.
-21. Na lista, localize e selecione o PDV desejado.
-22. Clique em Aplicar à grade.
+10. Clique em **Aplicar à grade**.
     * Agora usaremos a função de alteração em massa para ajustar os pontos de referência Mínimo e Máximo para cada nível. Este exemplo usará 50% difundido, dessa forma, o ponto de referência Mínimo será ajustado para -20% o Máximo será ajustado para +20%.  
-23. No campo **Valor do ajuste**, insira um número.
-24. No campo **Ponto de referência**, insira ou selecione um valor.
-25. Na lista, marque ou desmarque todas as linhas.
-26. Clique em **Aplicar à grade**.
-27. No campo **Valor do ajuste**, insira um número.
-28. No campo **Ponto de referência**, insira ou selecione um valor.
-29. Na lista, marque ou desmarque todas as linhas.
-30. Clique em **Aplicar à grade**.
+11. No campo **Valor do ajuste**, insira um número.
+12. No campo **Ponto de referência**, insira ou selecione um valor.
+13. Na lista, marque ou desmarque todas as linhas.
+14. Clique em **Aplicar à grade**.
+15. No campo **Valor do ajuste**, insira um número.
+16. No campo **Ponto de referência**, insira ou selecione um valor.
+17. Na lista, marque ou desmarque todas as linhas.
+18. Clique em **Aplicar à grade**.
 
 
 

@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 883948c6e3f7b205d7e0f1f2b6adef1173616dc1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431084"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071398"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definir processo de remuneração e calcular resultados
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,13 +43,13 @@ Os processos de remuneração são usados para determinar os novos valores e pr�
     * A data ativa da transação é a data na qual as novas taxas de remuneração devem entrar em vigor. Muitas empresas incluem alguns meses entre a fim de um ciclo e o tempo no qual as novas taxas de remuneração entram em vigor. O tempo adicional é usado para processamento e revisão da nova remuneração.  
 8. No campo **Data de ativação da transação**, insira uma data.
     * A data pontual é usada para planos de remuneração de variável que determinam o valor do prêmio de um funcionário com base na taxa de remuneração nesse momento.  
-    * A data de contratação proporcional para pagamento fixo é usada com planos de remuneração fixa com uma regra de contratação de porcentagem.  Os funcionários que são contratados entre o início do ciclo e a data de contratação proporcional para pagamento fixo receberão 100% do aumento calculado de remuneração, em vez de porcentagem proporcional.  
+    * A data de contratação proporcional para pagamento fixo é usada com planos de remuneração fixa com uma regra de contratação de **porcentagem**. Os funcionários que são contratados entre o início do ciclo e a data de contratação proporcional para pagamento fixo receberão 100% do aumento calculado de remuneração, em vez de porcentagem proporcional.  
 9. No campo **Data de contratação proporcional para pagamento fixo**, insira uma data.
     * O prazo da revisão é a data na qual todos os resultados do processo devem ser revisados, de modo que possam ser carregados no registro de remuneração do funcionário antes da data ativa da transação. Este campo serve somente para informar.  
 10. No campo **Prazo final de revisão**, insira uma data.
 11. Clique em **Salvar**.
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configure os planos de remuneração e ações de um processo de remuneração.
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configurar os planos de remuneração e ações de um processo de remuneração
 1. Clique em **Configuração**.
     * A página **Configuração** é usada para selecionar os planos a serem processados como parte desse processo de remuneração, bem como as ações que devem ser executadas em relação a cada plano.  
 2. No campo **Plano**, insira ou selecione um valor.
@@ -56,7 +59,7 @@ Os processos de remuneração são usados para determinar os novos valores e pr�
 6. Clique em **Adicionar**.
 7. No campo **Ação**, selecione um tipo de ação **Mérito**.
     * As ações de remuneração podem ser "encadeadas" juntas usando o campo **Usar resultado anterior** para indicar se a ação selecionada deve usar o pagamento base de funcionários ou o resultado da ação anterior, como ponto de partida para o cálculo dessa ação.  
-8. Selecione **Sim** no campo Usar resultado anterior.
+8. Selecionar **Sim** campo **Usar resultado anterior**.
 9. Clique em **Adicionar**.
 10. No campo **Ação**, selecione um tipo de ação **Geral**.
     * Os diferentes tipos de ação de remuneração permitem campos diferentes. Para um tipo de ação de remuneração Geral, podem ser especificados um valor de aumento ou uma porcentagem de aumento.  
@@ -85,7 +88,7 @@ Os processos de remuneração são usados para determinar os novos valores e pr�
 1. Clique em **Resultados do processo**.
 2. Clique em **Resultados de funcionários**.
 3. Na lista, localize e selecione o PDV desejado.
-4. Expanda a seção Remuneração fixa.
+4. Expandir a seção **Remuneração fixa**.
     * Expanda as Guias Rápidas para exibir os resultados do processo. Se **Habilitar recomendações** foi marcado para uma ação de remuneração, os campos **Recomendação** serão ativados para essa ação.  
 5. Na lista, localize e selecione o PDV desejado.
     * Os resultados de um único funcionário podem ser exibidos clicando no botão **Exibir resultados**.  

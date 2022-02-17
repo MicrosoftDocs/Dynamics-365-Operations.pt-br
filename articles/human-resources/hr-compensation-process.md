@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 413143afb578aed29ce0836aaa3ac98ffc0c6cc3
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484087"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071404"
 ---
 # <a name="process-compensation"></a>Processar remuneração
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Depois que os parâmetros do evento do processo forem salvos, você poderá clic
 
 Clique no botão **Adicionar** na guia **Planos** para adicionar um plano de remuneração ao evento de processo. As colunas **Usar outro aproveitamento**, **Fator de aproveitamento**, e **Descrição do aproveitamento** são usadas apenas para planos de remuneração variável e não serão abordadas neste tópico.
 
-Salve o registro e clique no botão **Adicionar** na guia **Ações** para adicionar ações de remuneração fixa ao plano selecionado. Use a opção **Habilitar recomendação** para inserir um valor diferente do aumento de diretriz calculado para a ação. Para calcular uma ação que se baseie no resultado da ação anterior para vincular várias ações de remuneração, marque a opção **Usar resultado anterior**. As ações de remuneração fixa são tipos de lógica de remuneração às quais você pode dar nomes descritivos. Para os planos Grade e Band, você só pode adicionar ações de remuneração fixa que são dos seguintes tipos:
+Salve o registro e clique no botão **Adicionar** na guia **Ações** para adicionar ações de remuneração fixa ao plano selecionado. Use a opção **Habilitar recomendação** para inserir um valor diferente do aumento de diretriz calculado para a ação. Para calcular uma ação que se baseie no resultado da ação anterior para vincular várias ações de remuneração, marque a opção **Usar resultado anterior**. As ações de remuneração fixa são tipos de lógica de remuneração às quais você pode dar nomes descritivos. Para os planos **Grade** e **Band**, você só pode adicionar ações de remuneração fixa que são dos seguintes tipos:
 
-| Tipo de ação de remuneração fixa | Funcionalidade                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tipo de ação de remuneração fixa | Funcionalidade                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Capital próprio                        | As ações de capital próprio comparam a taxa de remuneração do funcionário a partir da data final do ciclo com o ponto de referência mais baixo para o nível indicado no trabalho do funcionário. Se a taxa de remuneração do funcionário for inferior ao ponto de referência mínimo, o aumento necessário para que o funcionário atinja o ponto mínimo no intervalo será calculado.                                                                                |
 | Mérito                         | As ações de mérito calcularão um aumento com base na taxa de pagamento do funcionário na data final do ciclo e na porcentagem de aumento encontrada no orçamento de aumento fixo para o departamento, sindicato e local do funcionário.                                                                                                                                                                                         |
 | Geral                       | As ações gerais calcularão um aumento com base em uma porcentagem ou darão aos funcionários um valor fixo. Isso é determinado com base nas configurações de **Remuneração fixa** na guia **Geral**.                                                                                                                                                                                                                        |
@@ -53,12 +56,12 @@ Salve o registro e clique no botão **Adicionar** na guia **Ações** para adici
 
 Você só pode adicionar ações **Remuneração fixa** com um tipo de plano Passo a Passo.
 
-| Tipo de ação de remuneração fixa | Funcionalidade                                                                                                                                                                                           |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tipo de ação de remuneração fixa | Funcionalidade                |
+|--------------------------------|------------------------------|
 | Etapa                           | Na guia **Geral**, indique se esta ação de etapa deve mover os funcionários para 0 etapa, 1 etapa ou 2 etapas.                                                                                  |
 |                                | **0 etapas** - O funcionário receberá a taxa de pagamento para a etapa atual em que está.                                                                                                                      |
 |                                | **1 etapa** - O sistema verificará se o funcionário já está no último ponto de referência para o seu nível.                                                                                             |
-|                                | **2 etapas** - O sistema moverá o funcionário em duas etapas em seu nível atual. O sistema só pode mover o funcionário uma ou zero etapas se atingir o último ponto de referência para o seu nível. |
+|                                | **2 etapas** - O funcionário avançará duas etapas em seu nível atual. O funcionário só pode mover uma ou zero etapas se atingir o último ponto de referência para o seu nível. |
 
 ## <a name="run-the-compensation-process"></a>Execute o processo de remuneração
 Após o evento de processo ter sido configurado com os campos, planos e ações de data necessários, clique em **Executar processo** na página **Evento de processo**. Isso abrirá caixa de diálogo **Executar eventos de processo de remuneração**. Clique na opção **Exibir resultados de processamento** para ver como os valores da remuneração foram calculados para cada funcionário. Clicar em **OK** executará o processo de remuneração para todos os funcionários presentes nos planos de remuneração selecionados, na data final do ciclo.

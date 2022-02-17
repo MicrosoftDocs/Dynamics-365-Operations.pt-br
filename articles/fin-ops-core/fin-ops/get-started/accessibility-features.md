@@ -12,16 +12,19 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7381f9b9e84a970e01d44238d9891b5edc0d2d5b24e5140518d3ef302be1c123
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740186"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071049"
 ---
 # <a name="accessibility-features"></a>Recursos de acessibilidade
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências a usar este aplicativo. Por exemplo, há recursos para pessoas que usam tecnologias assistivas visuais, como o Narrador do Microsoft Windows.
 
@@ -52,7 +55,7 @@ Cada ação que é fornecida em uma página pode ser acessada de um teclado pela
 
 Você deseja executar a ação **Log de notificação por email** exibida no grupo **Notificação por email** na guia **Ordem de venda** no Painel de Ação.
 
-![Ação Log de notificação por email no Painel de Ação.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Ação 'Log de notificação por email' no Painel de Ação")
+![Ação Log de notificação por email no Painel de Ação.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Ação 'Log de notificação por email' no Painel de Ações")
 
 Uma opção é usar o teclado. Pressione Ctrl+F6 para mover o foco para o Painel de Ação e, em seguida, pressione Tab repetidamente para se mover por todas as guias e ações, até focalizar a ação **Log de notificação por email**.
 

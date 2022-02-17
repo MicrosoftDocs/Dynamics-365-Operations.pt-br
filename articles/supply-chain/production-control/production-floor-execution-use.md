@@ -2,7 +2,7 @@
 title: Como os trabalhadores usam a interface de execução de piso de produção
 description: Este tópico descreve como usar a interface de execução de piso de produção do ponto de vista de um trabalhador.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 01/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.dyn365.ops.version: 10.0.24
+ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920639"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075010"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Como os trabalhadores usam a interface de execução de piso de produção
 
@@ -138,6 +138,65 @@ Nesse caso, o trabalhador pode especificar o coproduto e a quantidade a ser rela
 Quando um trabalhador concluir ou concluir parcialmente um trabalho, ele poderá relatar a sucata selecionando um trabalho na guia **Trabalhos ativos** e selecionando **Relatar sucata**. Em seguida, na caixa de diálogo **Relatar sucata**, o trabalhador insere a quantidade de sucata usando o teclado numérico. O trabalhador também seleciona um motivo (*Nenhum*, *Máquina*, *Operador* ou *Material*).
 
 ![Caixa de diálogo Relatar sucata.](media/pfei-report-scrap-dialog.png "Caixa de diálogo Relatar sucata")
+
+## <a name="adjust-material-consumption-and-make-material-reservations"></a>Ajustar o consumo de material e fazer reservas de material
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Os trabalhadores podem ajustar o consumo de material para cada trabalho de produção. Essa funcionalidade é usada em cenários em que a quantidade real de materiais consumida por um trabalho de produção era maior ou menor do que a quantidade planejada. Portanto, ela deve ser ajustada para manter atualizados os níveis de estoque.
+
+Os trabalhadores também podem fazer reservas nos números de série e de lote de materiais. Essa funcionalidade é usada em cenários em que um trabalhador deve especificar manualmente o lote de material ou os números de série que foram consumidos, a fim de atender aos requisitos de rastreamento de material.
+
+Os trabalhadores podem especificar a quantidade a ser ajustada selecionando **Ajustar material**. Este botão não está disponível nos seguintes locais:
+
+- Na caixa de diálogo **Relatório de sucata**
+- Na caixa de diálogo **Progresso do relatório**
+- Na barra de ferramentas à direita
+
+### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Ajustar consumo de material das caixas de diálogo Relatório de sucata e Progresso do relatório
+
+Depois que um trabalhador insere a quantidade a ser reportada na caixa de diálogo **Progresso do relatório** ou **Relatório de sucata**, o botão **Ajustar material** fica disponível. Quando o usuário seleciona este botão, a caixa de diálogo **Ajustar material** é exibida. Esta caixa de diálogo lista os itens que estão planejados para serem consumidos quando a quantidade boa ou sucateada é relatada para o trabalho.
+
+A lista na caixa de diálogo mostra as seguintes informações:
+
+- **Número do produto** – O produto mestre e a grade de produto.
+- **Nome do produto** — o nome do produto.
+- **Proposta** – a quantidade estimada de material que será consumida quando o andamento ou a sucata for relatada para a quantidade especificada para o trabalho.
+- **Consumo** – a quantidade real de material que será consumida quando o andamento ou a sucata for relatada para a quantidade especificada para o trabalho.
+- **Reservada** – a quantidade de material que foi fisicamente reservada no estoque.
+- **Unidade** – A unidade da lista de materiais (BOM).
+
+O lado direito da caixa de diálogo mostra as seguintes informações:
+
+- **Número do produto** – O produto mestre e a grade de produto.
+- **Estimada** – A quantidade estimada para consumo.
+- **Iniciada** – A quantidade que foi iniciada no trabalho de produção.
+- **Quantidade restante** – Da quantidade estimada, a quantidade que resta ser consumida.
+- **Quantidade liberada** – A quantidade que foi consumida.
+
+As seguintes ações podem ser executadas:
+
+- O trabalhador pode especificar a quantidade a ser ajustada para um material, selecionando **Ajustar consumo**. Depois que a quantidade é confirmada, a quantidade na coluna **Consumo** é atualizada com a quantidade ajustada.
+- Quando o trabalhador seleciona **Ajustar material**, é criado um diário de lista de separação de produção. Esse diário contém os mesmos itens e quantidades que a lista **Ajustar material**.
+- Quando o trabalhador ajusta uma quantidade na caixa de diálogo **Ajustar material**, o campo **Proposta** na linha do diário correspondente é atualizado com a mesma quantidade. Se o trabalhador selecionar **Cancelar** na caixa de diálogo **Ajustar material**, a lista de separação será excluída.
+- Se o trabalhador selecionar **OK**, a lista de separação não será excluída. Ela será lançada quando o trabalho for informado na caixa de diálogo **Relatório de sucata** ou **Progresso do relatório**.
+- Se o trabalhador selecionar **Cancelar** na caixa de diálogo **Progresso do relatório** ou **Relatório de sucata**, a lista de separação será excluída.
+
+### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Ajustar o material da barra de ferramentas à direita
+
+O botão **Ajustar material** pode ser configurado de forma que apareça na barra de ferramentas à direita. (Para obter mais informações, consulte [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).) Um trabalhador pode selecionar **Ajustar o material** para um trabalho de produção que está em andamento. Nesse caso, a caixa de diálogo **Ajustar material** é exibida, na qual o trabalhador pode fazer os ajustes desejados. Quando a caixa de diálogo é aberta, uma lista de separação de produção que contém linhas para as quantidades ajustadas é criada para a ordem de produção. Se o trabalhador selecionar **Lançar agora**, o ajuste será confirmado e a lista de separação será lançada. Se o trabalhador selecionar **Cancelar**, a lista de separação será excluída e nenhum ajuste será feito.
+
+### <a name="reserve-materials"></a>Reservar materiais
+
+Na caixa de diálogo **Ajustar material** um trabalhador pode fazer e ajustar as reservas de material selecionando **Reservar material**. A caixa de diálogo **Reservar material** que aparece mostra o estoque disponível fisicamente para o item para cada dimensão de armazenamento e rastreamento.
+
+Se o material for habilitado para os processos de depósito avançados, a lista mostrará somente o estoque disponível fisicamente para o local de entrada de produção do material. A localização de entrada de produção é definida no recurso em que o trabalho de produção é planejado. Se o número do item for controlado por lote ou número de série, a lista completa de lotes e números de série disponíveis fisicamente será mostrada. Para especificar uma quantidade a ser reservada, o trabalhador pode selecionar **Reservar material**. Para remover uma reserva existente, o trabalhador pode selecionar **Remover reserva**.
+
+Para obter mais informações sobre como configurar a localização de entrada de produção, consulte a seguinte postagem de blog: [Configurando a localização de entrada de produção](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
+
+> [!NOTE]
+> As reservas feitas por um trabalhador na caixa de diálogo **Reservar material** permanecerão quando o trabalhador selecionar **Cancelar** na caixa de diálogo **Progresso do relatório** ou **Relatório de sucata**.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Como concluir um trabalho e iniciar um novo
 

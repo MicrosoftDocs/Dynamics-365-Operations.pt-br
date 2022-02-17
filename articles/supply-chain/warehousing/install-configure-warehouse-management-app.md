@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901980"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069370"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar e conectar o aplicativo móvel Warehouse Management
 
@@ -143,6 +143,10 @@ A autenticação com o Azure AD fornece uma forma segura de conectar um disposit
 Os certificados podem ser usados como segredos para comprovar a identidade do aplicativo quando um token for solicitado. A parte pública do certificado é carregada no registro de aplicativos no portal do Azure, enquanto o certificado completo deve ser implantado em cada dispositivo no qual o aplicativo Warehouse Management está instalado. A sua organização é responsável por gerenciar o certificado em termos de rotação, e assim por diante. Você pode usar certificados autoassinados, mas deve sempre usar certificados não exportáveis.
 
 É necessário disponibilizar o certificado localmente em cada dispositivo no qual o aplicativo Warehouse Management está sendo executado. Para obter informações sobre como gerenciar certificados para dispositivos controlados pelo Intune se você estiver usando o Intune, consulte [Usar certificados para autenticação no Microsoft Intune](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Configurar o Warehouse Management mobile app para unidades de escala de nuvem e borda
+
+Algumas etapas adicionais são necessárias se você planeja executar o aplicativo Warehouse Management mobile app em uma unidade de escala de nuvem ou de borda. Para mais instruções, consultar [Configurar o Warehouse Management mobile app para unidades de escala de nuvem e borda](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurar o aplicativo ao importar configurações de conexão
 
@@ -306,5 +310,6 @@ Em caso de perda ou comprometimento do dispositivo, será necessário remover o 
 
 - [Configurações do usuário do dispositivo móvel](mobile-device-user-settings.md)
 - [Atribuir títulos e ícones de etapa ao aplicativo móvel Warehouse Management](step-icons-titles.md)
+- [Configurar o Warehouse Management mobile app para unidades de escala de nuvem e borda](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

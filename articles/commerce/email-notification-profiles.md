@@ -2,7 +2,7 @@
 title: Configurar perfil de notificação por email
 description: Este tópico descreve como criar um perfil de notificação de email no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a92c21a93766e6583882f50222837366ed4c9a24c2bbfd93933763bd4ffa46bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a7d796a173a6f9dfcd62e1f73e078cac614145e
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771022"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087858"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar perfil de notificação por email
 
@@ -27,7 +27,7 @@ ms.locfileid: "6771022"
 
 Este tópico descreve como criar um perfil de notificação de email no Microsoft Dynamics 365 Commerce.
 
-Ao criar canais, você pode configurar um perfil de notificação por email. Dessa forma, os emails podem ser enviados para os clientes por vários eventos transacionais, como a criação da ordem, o status de remessa da ordem e a falha de pagamento.
+Ao criar canais, você pode configurar um perfil de notificação por email. O perfil de notificação por email define os eventos de uma transação de venda (como ordem criada, pacote de ordens e eventos faturados de ordem) para os quais você enviará notificações aos clientes. 
 
 Para obter informações adicionais sobre como configurar o email, consulte [Configurar e enviar email](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -43,7 +43,7 @@ Para criar um perfil de notificação por email, siga estas etapas.
 
 ### <a name="create-an-email-template"></a>Criar um modelo de email
 
-Antes que um tipo de notificação por email possa ser habilitado, você deve criar um modelo de email de organização no Commerce Headquarters. Este modelo define o assunto do email, o remetente, o idioma padrão e o corpo do email para cada idioma para o qual você deseja oferecer suporte.
+Antes que um tipo de notificação por email possa ser habilitado, você deve criar um modelo de email de organização na sede do Commerce. Este modelo define o assunto do email, o remetente, o idioma padrão e o corpo do email para cada idioma com suporte.
 
 Para criar um modelo de email, siga estas etapas.
 
@@ -61,6 +61,8 @@ A imagem a seguir mostra alguns exemplos de configurações de modelo de email.
 
 ![Configurações de modelo de email.](media/email-template.png)
 
+Para obter mais informações sobre como criar modelos de email, consulte [Criar modelos de email para eventos transacionais](email-templates-transactions.md). 
+
 ### <a name="create-an-email-event"></a>Criar um evento de email
 
 Para criar um evento de email, siga estas etapas.
@@ -76,10 +78,12 @@ A imagem a seguir mostra alguns exemplos de configurações de notificação de 
 
 ![Configurações de notificação de evento.](media/email-notification-profile.png)
 
+> [!NOTE]
+> O tipo de notificação criado pelo cliente exige uma personalização a ser implementada para que uma notificação por email possa ser enviada.
+
 ### <a name="next-steps"></a>Próximas etapas
 
 Para poder enviar emails, você deve configurar seu serviço de email de saída e configurar um trabalho em lotes. Para obter mais informações, consulte [Configurar e enviar email](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
-
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

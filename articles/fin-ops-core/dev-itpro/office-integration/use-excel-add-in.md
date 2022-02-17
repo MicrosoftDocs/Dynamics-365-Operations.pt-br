@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592656"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068783"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Exibir e atualizar dados da entidade com o Excel 
 
@@ -28,7 +28,10 @@ ms.locfileid: "7592656"
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics. Para abrir dados da entidade, você pode usar o Excel ou os aplicativos do Finance and Operations.
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+
+Este tópico explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics. Para abrir os dados da entidade, você pode iniciar pelo Excel ou pelos aplicativos de Finanças e Operações.
 
 Ao abrir os dados da entidade no Excel, é possível visualizar e editar facilmente os dados utilizando o suplemento do Excel. Esse suplemento requer o Microsoft Excel 2016 ou posterior.
 
@@ -37,15 +40,15 @@ Ao abrir os dados da entidade no Excel, é possível visualizar e editar facilme
 
 Para saber mais sobre como usar o suplemento do Excel, assista ao breve vídeo [Criar um modelo do Excel para padrões de cabeçalho e de linha](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Abrir dados da entidade no Excel ao usar um aplicativo do Finance and Operations
-1. Em uma página de um aplicativo do Finance and Operations, selecione **Abrir no Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Abrir dados da entidade no Excel ao iniciar um aplicativo de Finanças e Operações
+1. Em uma página em um aplicativo de Finanças e Operações, selecione **Abrir no Microsoft Office**.
 
     Se a fonte de dados raiz (tabela) da página for a mesma que a fonte de dados raiz de qualquer entidade, opções **Abrir no Excel** padrões são geradas para a página. Opções **Abrir no Excel** podem ser encontradas em páginas frequentemente usadas, como **Todos os fornecedores** e **Todos os clientes**.
  
 2. Selecione uma opção **Abrir no Excel**, e abra a pasta de trabalho gerada. Essa pasta de trabalho possui informações obrigatórias da entidade, um indicador para seu ambiente e um indicador para o suplemento do Excel.
 3. No Excel, selecione **Habilitar edição** para permitir que o suplemento do Excel seja executado. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
 4. Caso esteja executando o suplemento do Excel pela primeira vez, selecione **Confiar nesse Suplemento**.
-5. Se você for solicitado a entrar, selecione **Entrar** e, em seguida, entre com as mesmas credenciais usadas para entrar no aplicativo do Finance and Operations. O suplemento do Excel usará um contexto de entrada anterior do navegador e conectará você automaticamente, se possível. (Para obter informações sobre o navegador usado com base no sistema operacional, consulte [Navegadores usados por suplementos do Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)). Para garantir que a conexão foi bem-sucedida, verifique o nome de usuário no canto superior direito do suplemento do Excel. 
+5. Se for solicitado que você entre no sistema, selecione **Entrar** e entre usando as mesmas credenciais usadas para entrar no aplicativo de Finanças e Operações. O suplemento do Excel usará um contexto de entrada anterior do navegador e conectará você automaticamente, se possível. (Para obter informações sobre o navegador usado com base no sistema operacional, consulte [Navegadores usados por suplementos do Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)). Para garantir que a conexão foi bem-sucedida, verifique o nome de usuário no canto superior direito do suplemento do Excel. 
 
 O suplemento do Excel lê automaticamente os dados da entidade selecionada. Observe que não haverá dados na pasta de trabalho até que o suplemento do Excel realize a leitura.
 
@@ -54,7 +57,7 @@ O suplemento do Excel lê automaticamente os dados da entidade selecionada. Obse
 2. Na Loja do Office, procure a palavra **Dynamics** e selecione **Adicionar** do lado de Suplemento do **Microsoft Dynamics Office** (o suplemento do Excel).
 3. Caso esteja executando o suplemento do Excel pela primeira vez, selecione **Confiar nesse suplemento** para permitir que o suplemento funcione. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
 4. Selecione **Adicionar informações do servidor** para abrir o painel **Opções**.
-5. No navegador, copie a URL da instância de destino do aplicativo do Finance and Operations, cole-a no campo **URL do Servidor** e, em seguida, exclua tudo após o nome do host. A URL resultante deve ter apenas o nome do host.
+5. No seu navegador, copie a URL da instância desejada do aplicativo de Finanças e Operações, cole-a no campo **URL do Servidor** e, em seguida, exclua tudo após o nome do host. A URL resultante deve ter apenas o nome do host.
 
     Por exemplo, se a URL for `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, exclua tudo, exceto `https://xxx.dynamics.com`.
 
@@ -73,7 +76,7 @@ O suplemento do Excel lê automaticamente os dados da entidade selecionada. Obse
 Depois que o suplemento do Excel ler os dados da entidade na planilha, você poderá atualizar os dados a qualquer momento, selecionando **Atualizar** no suplemento do Excel.
 
 ## <a name="edit-entity-data-in-excel"></a>Editar dados da entidade no Excel
-É possível alterar os dados da entidade conforme necessário e publicá-los novamente nos aplicativos do Finance and Operations selecionando **Publicar** no suplemento do Excel. Para editar um registro, selecione uma célula na planilha e então altere o valor da célula. Para adicionar um novo registro, siga uma dessas etapas:
+É possível alterar os dados da entidade conforme necessário e publicá-los novamente nos aplicativos de Finanças e Operações selecionando **Publicar** no suplemento do Excel. Para editar um registro, selecione uma célula na planilha e então altere o valor da célula. Para adicionar um novo registro, siga uma dessas etapas:
 
 - Clique em qualquer local na tabela de fontes de dados e selecione **Novo** no suplemento do Excel.
 - Clique em qualquer ponto da última linha da tabela de fontes de dados, e pressione a tecla Tab até que o cursor se mova da última coluna dessa linha e uma nova linha seja criada.

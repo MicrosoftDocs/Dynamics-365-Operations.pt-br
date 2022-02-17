@@ -2,27 +2,24 @@
 title: Aprimoramentos na funcionalidade de postagem de demonstrativo
 description: Este tópico descreve as melhorias feitas no recurso de postagem do demonstrativo.
 author: analpert
-ms.date: 12/03/2021
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9a5a7d6394a87eccde8e1c364caaaabdb0297fd2
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982194"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087594"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Aprimoramentos na funcionalidade de postagem de demonstrativo
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico descreve o primeiro conjunto das melhorias feitas no recurso de postagem do demonstrativo. As melhorias estão disponíveis no Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -53,12 +50,24 @@ Como parte das melhorias ao recurso de lançamento do demonstrativo, os três pa
 
 - **Desabilitar contagem necessária** – Quando esta opção está definida como **Sim**, o processo de postagem de uma instrução continua, mesmo que a diferença entre o valor contado e o valor de transação no extrato esteja fora do limite definido na Guia Rápida do **Demonstrativo** para Lojas.
 
+> [!NOTE]
+> A partir da versão 10.0.14 do Commerce, quando o recurso **Demonstrativos de varejo - Fluxo constante** estiver habilitado, o trabalho em lotes **Lançar estoque** não é mais aplicável e não pode ser executado.
+
 Além disso, os parâmetros a seguir foram introduzidos na Guia Rápida **Processamento de lote** na guia **Postagem** da página **Parâmetros do Commerce**: 
 
 - **Número máximo de lançamentos paralelos de demonstrativos** – Esse campo define o número de tarefas de lote que serão usados para postar múltiplos demonstrativos. 
 - **Thread máximo para processamento de pedido por demonstrativo** – Esse campo representa o número máximo de threads usado por um trabalho de lote de postagem de demonstrativo para criar e faturar ordens de venda para um único demonstrativo. O número total de threads que serão usados pelo processo de postagem de demonstrativo serão computador com base no valor nesse parâmetro multiplicado pelo valor no parâmetro **Número máximo de lançamentos paralelos de demonstrativos**. Definir o valor desse parâmetro muito alto pode afetar negativamente o desempenho do processo de postagem do demonstrativo.
 - **Linhas de transação máxima incluída na agregação** – Esse campo define o número de linhas de transação que serão incluídas em uma única transação agregada antes de uma nova ser criada. As transações agregadas são criadas com base em critérios de agregação diferentes como cliente, data do negócio ou dimensões financeiras. É importante observar que as linhas de uma única transação não serão divididas entre transações agregadas diferentes. Isso significa que há uma possibilidade de que o número de linhas em uma transação agregada seja levemente maior ou menor com base nos fatores como o número de produtos distintos.
 - **Número máximo de threads para validar transações de loja** – Esse campo define o número de threads que serão usados para validar transações. Validar transações é uma etapa obrigatória que precisa acontecer antes das transações serem recebidas nos demonstrativos. Você também precisa definir um **Produto para o cartão-presente** na Guia Rápida **Cartão-presente** na guia **Lançamento** da página **Parâmetros do Commerce**. Isso precisa ser definido até se cartões-presente não forem usados pela organização.
+
+A tabela a seguir lista os valores recomendados para os parâmetros anteriores. Esses valores devem ser testados e ajustados para a configuração de implantação e a infraestrutura disponível. Qualquer aumento nos valores recomendados pode afetar negativamente outro processamento em lotes e deve ser validado.
+
+| Parâmetro | Valor recomendado | Detalhes |
+|-----------|-------------------|---------|
+| Número máximo de lançamentos paralelos de demonstrativos | <p>Defina esse parâmetro como o número de tarefas em lotes disponíveis para o grupo de lotes que está executando o trabalho do **Demonstrativo**.</p><p>**Regra geral:** multiplique o número de servidores virtuais do Servidor de Objetos de Aplicativo (AOS) pelo número de tarefas em lotes disponíveis por servidor virtual do AOS.</p> | Esse parâmetro não é aplicável quando o recurso **Demonstrativos de varejo - Fluxo constante** estiver habilitado. |
+| Máximo de threads para o processamento de ordens por demonstrativo | Comece a testar valores em **4**. Normalmente, o valor não deve exceder **8**. | Esse parâmetro especifica o número de threads usados para criar e lançar ordens de venda. Ele representa o número de threads disponíveis para lançamento por demonstrativo. |
+| Máximo de linhas de transação incluídas em agregação | Comece a testar valores em **1000**. Dependendo da configuração da matriz, ordens menores podem ser mais benéficos para o desempenho. | Esse parâmetro determina o número de linhas que serão incluídas em cada ordem de venda durante o lançamento do demonstrativo. Depois que esse número for atingido, as linhas serão divididas em uma nova ordem. Embora o número de linhas de venda não seja exato, porque a divisão ocorre no nível da ordem de venda, ela ficará próxima do número definido. Esse parâmetro é usado para gerar ordens de venda para transações de varejo que não têm um cliente nomeado. |
+| Número máximo de threads para validar transações de loja | É recomendável definir esse parâmetro como **4** e aumentá-lo somente se você não obtiver um desempenho aceitável. O número de threads que esse processo usa não pode exceder o número de processadores disponíveis para o servidor de lote. Se você atribuir muitos segmentos aqui, poderá afetar o processamento em lotes. | Esse parâmetro controla o número de transações que podem ser validadas ao mesmo tempo para uma determinada loja. |
 
 > [!NOTE]
 > Todas as configurações e os parâmetros relacionados às postagens de demonstrativo, e definidos em lojas do Commerce na página **Parâmetros do Commerce**, são aplicáveis ao recurso aprimorado de postagem do demonstrativo.
@@ -161,7 +170,7 @@ A exibição de transações agregadas fornece os seguintes benefícios:
 - O usuário tem visibilidade nas transações agregadas que falharam durante a criação das ordens de venda e ordens de venda que falharam durante o faturamento.
 - O usuário tem a visibilidade de como as transações são agregadas.
 - O usuário tem uma trilha de auditoria concluída, das transações, ordens de venda, a notas fiscais de vendas. Essa trilha de auditoria não está disponível no recurso herdado de lançamento do demonstrativo.
-- O arquivo XML agregado facilita a identificação de problemas durante a criação e faturamento de ordem de venda.
+- O arquivo XML agregado facilita a identificação de problemas durante a criação e faturamento da ordem de venda.
 
 ### <a name="journal-vouchers"></a>Comprovantes de diário
 

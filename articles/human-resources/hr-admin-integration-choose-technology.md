@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414705"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065032"
 ---
 # <a name="choose-a-data-integration-technology"></a>Escolher uma tecnologia de integração de dados
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tópico fornece informações sobre a integração com dados gerenciados pelo Dynamics 365 Human Resources. Ele descreve diferentes tecnologias de integração para ajudá-lo a decidir quais tecnologias atendem melhor às suas necessidades.
 
@@ -68,7 +71,7 @@ As tabelas do Dataverse e as APIs associadas são a melhor opção para acessar 
 
 ### <a name="dmfdixf-entities"></a>Entidades DMF/DIXF
 
-Human Resources, criados principalmente na mesma plataforma que os aplicativos Finance and Operations, fornecem um [Estrutura de gerenciamento de dados (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). A DMF também é conhecida como estrutura de exportação de importação de dados (DIXF). Os Human Resources fornecem um conjunto de entidades de dados que você pode usar para importar e exportar dados de recursos humanos. Embora as tabelas do Dataverse sejam a interface de integração de dados preferida para o Human Resources, as entidades DMF ainda são úteis em algumas circunstâncias, como:
+Human Resources, criado principalmente na mesma plataforma que os aplicativos de Finanças e Operações, fornece uma [Estrutura de gerenciamento de dados (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). A DMF também é conhecida como estrutura de exportação de importação de dados (DIXF). Os Human Resources fornecem um conjunto de entidades de dados que você pode usar para importar e exportar dados de recursos humanos. Embora as tabelas do Dataverse sejam a interface de integração de dados preferida para o Human Resources, as entidades DMF ainda são úteis em algumas circunstâncias, como:
 
 - As tabelas do Dataverse ainda não estão disponíveis.
 
@@ -111,7 +114,7 @@ A abordagem BYOD é apropriada soluções de relatório, integrações de dados,
 
 ### <a name="odata-enabled-entities"></a>Entidades habilitadas para OData
 
-A maioria das entidades DMF também é habilitada para acesso por meio do serviço de dados (OData) do Human Resources. A documentação fornecida para o [serviço Finance and Operations OData](/dynamics365/unified-operations/dev-itpro/data-entities/odata) se aplica a recursos humanos, exceto para criar suas próprias entidades expostas por OData.
+A maioria das entidades DMF também é habilitada para acesso por meio do serviço de dados (OData) do Human Resources. A documentação fornecida para o [serviço OData Finance and Operations](/dynamics365/unified-operations/dev-itpro/data-entities/odata) se aplica a Recursos Humanos, exceto para criar suas próprias entidades expostas por OData.
 
 Embora o Dataverse e a implementação do OData fornecida pelo Dataverse (por meio da [API Web do Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) sejam preferíveis ao serviço de dados do Human Resources, este último atualmente tem uma cobertura de entidade mais completa para os dados do Human Resources.
 
@@ -129,7 +132,7 @@ Os projetos de integradores de dados são apropriados para integrações de lote
 
 ### <a name="power-query"></a>Power Query
 
-O Integrador de Dados aceita o [Power Query](/power-query/power-query-what-is-power-query) por meio de seu [recurso de Consulta Avançada](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). O Power Query oferece filtragem e transformação de dados eficientes e flexíveis, incluindo o idioma de fórmula M avançado. O Power Query deverá ser familiar se você tiver desenvolvido relatórios do Power BI.
+O Integrador de Dados dá suporte ao [Power Query](/power-query/power-query-what-is-power-query) por meio de seu [recurso de consulta avançada](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). O Power Query oferece filtragem e transformação de dados eficientes e flexíveis, incluindo a linguagem de fórmula M avançada. O Power Query deverá ser familiar se você tiver desenvolvido relatórios do Power BI.
 
 ## <a name="deciding-on-an-integration-technology"></a>Decidindo sobre uma tecnologia de integração
 

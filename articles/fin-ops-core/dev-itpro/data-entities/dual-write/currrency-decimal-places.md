@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
-ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
+ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7917721"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061826"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migração de tipo de dados de moeda para gravação dupla
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Você pode aumentar o número de casas decimais com suporte para os valores de moeda para um máximo de 10. O limite padrão é quatro casas decimais. Ao aumentar o número de casas decimais, você ajuda a prevenir a perda de dados usando a gravação dupla para sincronizar dados. O aumento no número de casas decimais é uma alteração de adesão. Para implementá-la, é necessário solicitar assistência da Microsoft.
 
@@ -29,7 +29,7 @@ O processo de alterar o número de casas decimais tem duas etapas:
 1. Solicite a migração da Microsoft.
 2. Altere o número de casas decimais no Dataverse.
 
-O aplicativo Finance and Operations e o Dataverse devem oferecer suporte ao mesmo número de casas decimais nos valores de moeda. Caso contrário, pode haver perda de dados quando essas informações forem sincronizadas entre aplicativos. O processo de migração reconfigura a maneira como os valores de moeda e da taxa de câmbio são armazenados, mas não altera nenhum dado. Após a conclusão da migração, é possível aumentar o número de casas decimais para códigos de moeda e preços, e os dados que os usuários inserem e visualizam poderão ter maior precisão decimal.
+O aplicativo de Finanças e Operações e o Dataverse devem oferecer suporte ao mesmo número de casas decimais e, valores de moeda. Caso contrário, pode haver perda de dados quando essas informações forem sincronizadas entre aplicativos. O processo de migração reconfigura a maneira como os valores de moeda e da taxa de câmbio são armazenados, mas não altera nenhum dado. Após a conclusão da migração, é possível aumentar o número de casas decimais para códigos de moeda e preços, e os dados que os usuários inserem e visualizam poderão ter maior precisão decimal.
 
 A migração é opcional. Se você puder se beneficiar com o suporte para mais casas decimais, recomendamos que considere a migração. As organizações que não exigem valores com mais de quatro casas decimais não precisam migrar.
 
@@ -37,7 +37,7 @@ A migração é opcional. Se você puder se beneficiar com o suporte para mais c
 
 O armazenamento para colunas de moeda existentes no Dataverse não pode oferecer suporte para mais de quatro casas decimais. Portanto, durante o processo de migração, os valores de moeda são copiados para novas colunas internas no banco de dados. Esse processo ocorre continuamente até que todos os dados tenham sido migrados. Internamente, no final da migração, os novos tipos de armazenamento substituem os tipos de armazenamento antigos, mas os valores dos dados permanecem inalterados. As colunas de moeda podem oferecer suporte para até 10 casas decimais. Durante o processo de migração, o Dataverse pode continuar sendo usado sem interrupção.
 
-Ao mesmo tempo, as taxas de câmbio são modificadas para que ofereçam suporte para até 12 casas decimais em vez do limite atual de 10. Essa alteração é necessária para que o número de casas decimais seja o mesmo no aplicativo Finance and Operations e no Dataverse.
+Ao mesmo tempo, as taxas de câmbio são modificadas para que ofereçam suporte para até 12 casas decimais em vez do limite atual de 10. Essa alteração é necessária para que o número de casas decimais seja o mesmo no aplicativo de Finanças e Operações e no Dataverse.
 
 A migração não altera os dados. Depois que as colunas de moeda e taxa de câmbio forem convertidos, os administradores podem configurar o sistema para usar até 10 casas decimais para colunas de moeda ao especificar o número de casas decimais para cada moeda da transação e para preços.
 

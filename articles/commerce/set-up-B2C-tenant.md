@@ -2,7 +2,7 @@
 title: Configurar um locatário B2C do Commerce
 description: Este tópico descreve como configurar os locatários business-to-consumer (B2C) do Azure Active Directory (Azure AD) para a autenticação do site de usuário no Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 01/05/2022
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: dcd5c022c00070922e287a6b8750810ff76bc26f
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952435"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092450"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar um locatário B2C do Commerce
 
@@ -109,7 +109,7 @@ Para criar o aplicativo B2C, siga estas etapas.
 1. Para **URI de Redirecionamento**, insira suas URLs de resposta dedicadas como o tipo **Web**. Para obter informações sobre URLs de resposta e como formatá-las, consulte [URLs de resposta](#reply-urls) abaixo. Um URI de redirecionamento/URL de resposta deve ser inserido para habilitar redirecionamentos do Azure AD B2C de volta ao seu site quando um usuário é autenticado. A URL de resposta pode ser adicionada durante o processo de registro ou pode ser adicionada posteriormente selecionando o link **Adicionar uma URI de Redirecionamento** no menu **Visão geral** na seção **Visão Geral** do aplicativo B2C.
 1. Para **Permissões**, selecione **Conceder consentimento do administrador para permissões OpenID e offline_access**.
 1. Selecione **Registrar**.
-1. Selecione o aplicativo recém-criado e navegue até o menu **Permissões de API**. 
+1. Selecione o aplicativo recém-criado e navegue até o menu **Autenticação**. 
 1. Se for inserida uma URL de resposta, em **Concessão implícita e fluxos híbridos** selecione as opções de **Tokens de acesso** e **Tokens de ID** para habilitá-los para o aplicativo e selecione **Salvar**. Se uma URL de resposta não foi inserida durante o registro, ela também pode ser adicionada à página, selecionando **Adicionar uma plataforma**, selecionando **Web** e inserindo o URI de redirecionamento do aplicativo. A seção **Concessão implícita e fluxos híbridos** estará disponível para selecionar as opções **Tokens de acesso** e **Tokens de ID**.
 1. Acesse o menu **Visão geral** do portal do Azure e copie a **ID do aplicativo (cliente)**. Anote essa ID para as etapas de configuração posteriores (mencionadas posteriormente como a **GUID do Cliente**).
 
@@ -309,19 +309,15 @@ Após configurar o locatário B2C do Azure AD, será necessário configurar o lo
 
 Para coletar as informações necessárias do aplicativo, siga estas etapas.
 
-1. No portal do Azure, Acesse **Página Inicial \> B2C do Azure AD – Aplicativos**,
-1. Selecione o aplicativo e, no painel de navegação à esquerda, selecione **Propriedades** para obter os detalhes do aplicativo.
-1. Na caixa **ID do Aplicativo**, colete a ID do aplicativo B2C criado no seu locatário B2C. Posteriormente, ela será inserida como **GUID do Cliente** no construtor de sites.
-1. Em **URL de resposta**, colete o URL de resposta.
-1. Acesse **Página Inicial \> B2C do Azure AD – Fluxos de usuário (políticas)** e colete os nomes de cada política de fluxo de usuário.
+1. No portal do Azure, acesse **Página Inicial \> B2C do Azure AD – Registros de aplicativos**,
+1. Selecione o aplicativo e, no painel de navegação à esquerda, selecione **Visão geral** para obter os detalhes do aplicativo.
+1. Na referência **ID do Aplicativo (cliente)**, colete a ID do aplicativo do B2C criada no seu locatário do B2C. Posteriormente, ela será inserida como **GUID do Cliente** no construtor de sites.
+1. Selecione **Redirecionar URIs** e colete a URL de resposta mostrada para seu site (a URL de resposta inserida na instalação).
+1. Acesse **Página Inicial \> B2C do Azure AD – Fluxos de usuário** e colete os nomes completos de cada política de fluxo de usuário.
 
-A imagem a seguir mostra um exemplo da página **B2C do Azure AD – Aplicativos**.
+A imagem a seguir mostra um exemplo da página de visão geral do **B2C do Azure AD - Registros de aplicativo**.
 
-![Navegue até o Aplicativo B2C no locatário.](./media/B2CImage_19.png)
-
-A imagem a seguir mostra um exemplo da página **Propriedades** de um aplicativo no B2C do Azure AD. 
-
-![Copiar a ID do Aplicativo nas Propriedades do Aplicativo B2C.](./media/B2CImage_21.png)
+![B2C do Azure AD - página de visão geral de Registros de aplicativos com a ID do aplicativo (cliente) realçada](./media/ClientGUID_Application_AzurePortal.png)
 
 A imagem a seguir mostra um exemplo de políticas de fluxo de usuário na página **B2C do Azure AD – Fluxos de usuário (políticas)**.
 

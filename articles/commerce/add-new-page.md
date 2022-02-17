@@ -2,7 +2,7 @@
 title: Adicionar uma nova página do site
 description: Este tópico descreve como adicionar uma nova página de site no Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725377"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090710"
 ---
 # <a name="add-a-new-site-page"></a>Adicionar uma nova página do site
 
@@ -33,11 +33,11 @@ Após a criação de modelos e fragmentos para o seu site, a próxima etapa é c
 
 Você pode usar um modelo ou um layout para sua nova página. Para obter mais informações, consulte [Visão geral de modelos e layouts](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Nome da página
+## <a name="specify-the-page-name"></a>Especifique o nome da página
 
-O nome da página deve ser exclusivo para sua página. Deve ser descritivo, para que você possa encontrá-lo facilmente e outras pessoas saibam para que serve a página. Escolha o nome da página com cuidado, porque não pode ser alterado posteriormente.
+O nome da página deve exclusivo do seu site e descritivo para permitir a fácil localização e para que outras pessoas saibam para que serve a página. Você pode renomear a página posteriormente editando-a e, depois, selecionando o símbolo da caneta ao lado do nome da página no painel de propriedades.
 
-## <a name="page-url"></a>URL da página
+## <a name="specify-the-page-url"></a>Especifique a URL da página
 
 Você pode ter a opção de inserir uma URL para sua nova página. Ao criar uma página, você poderá inserir uma sequência de caracteres que será usada para formar uma URL completa. Essa sequência de caracteres é conhecida como URL relativa ou campo de dados dinâmico de URL. Uma URL completa é então gerada com base no campo de dados dinâmico da URL e a nova página é atribuída a ele. Você poderá alterar o campo de dados dinâmico da URL posteriormente, antes de publicar a página. Para obter mais informações, consulte [Criar uma URL da página](create-page-URL.md).
 

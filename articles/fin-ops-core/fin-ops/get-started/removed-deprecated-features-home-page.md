@@ -1,6 +1,6 @@
 ---
 title: Home page Recursos removidos ou obsoletos
-description: Este tópico fornece uma lista de tópicos da ajuda sobre recursos preteridos nos aplicativos Finance and Operations.
+description: Este tópico fornece uma lista de tópicos da ajuda sobre recursos preteridos nos aplicativos de Finanças e Operações.
 author: sericks007
 ms.date: 05/27/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a642114d6fee90b084e2d7c3cb432d2b8fb29a95
-ms.sourcegitcommit: 3f77e0b988f6dd0c9edfdec1dbd9815380501dbb
+ms.openlocfilehash: 9beda14bb6ac02534340e4dc5539cc0114c15c0c
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7916933"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087336"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Home page Recursos removidos ou obsoletos
 
 [!include[banner](../includes/banner.md)]
 
-## <a name="removed-or-deprecated-features-in-finance-and-operations-apps"></a>Recursos removidos ou preteridos dos aplicativos Finance and Operations
-Os tópicos a seguir fornecem informações sobre recursos removidos ou preteridos nos aplicativos Finance and Operations:
+## <a name="removed-or-deprecated-features-in-finance-and-operations-apps"></a>Recursos removidos ou preteridos dos aplicativos de Finanças e Operações
+Os tópicos a seguir fornecem informações sobre recursos removidos ou preteridos nos aplicativos de Finanças e Operações:
 
 - [Recursos removidos ou preteridos no Dynamics 365 Commerce](../../../commerce/get-started/removed-deprecated-features-commerce.md)
 - [Recursos removidos ou preteridos no Dynamics 365 Finance](../../../finance/get-started/removed-deprecated-features-finance.md)
 - [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/removed-deprecated-features-scm-updates.md)
-- [Recursos removidos ou preteridos no Dynamics 365 Project Operations](/project-operations/whats-new/removed-depreciated-features-project)
+- [Recursos removidos ou preteridos no Dynamics 365 Project Operations](/dynamics365/project-operations/whats-new/removed-depreciated-features-project)
 - [Recursos de Platform removidos ou preteridos](../../dev-itpro/get-started/removed-deprecated-features-platform-updates.md)
 - [Recursos removidos ou preteridos em versões anteriores](../../dev-itpro/migration-upgrade/deprecated-features.md)
 

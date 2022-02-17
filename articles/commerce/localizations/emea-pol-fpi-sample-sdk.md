@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bff3a6ad74d50e7b706d4df92b17a4a3af36521b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944806"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076979"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Diretrizes de implantação para o exemplo de integração da impressora fiscal para a Polônia (herdado)
 
@@ -116,7 +116,7 @@ No procedimento anterior, você habilitou as extensões que são componentes do 
 
 ## <a name="design-of-extensions"></a>Design de extensões
 
-O exemplo de integração da impressora fiscal para a Polônia se baseia na [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md). Para obter mais informações sobre o design da solução de integração fiscal, consulte a [visão geral de um design de exemplo de integração fiscal](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+O exemplo de integração da impressora fiscal para a Polônia se baseia na [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md). Para obter mais informações sobre o design da solução de integração fiscal, consulte a [visão geral de um design de exemplo de integração fiscal](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>Design de extensão do Commerce Runtime
 
@@ -124,7 +124,7 @@ A finalidade da extensão que é um provedor de documentos fiscais é gerar docu
 
 A extensão do CRT é **Runtime.Extensions.DocumentProvider.PosnetSample**. Essa extensão gera um conjunto de comandos específicos da impressora no formato JSON (JavaScript Object Notation) definido pela especificação POSNET 19-3678.
 
-Para obter mais informações sobre o design da solução de integração fiscal, consulte [Processo de registro fiscal e exemplos de integração fiscal para dispositivos fiscais](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+Para obter mais informações sobre o design da solução de integração fiscal, consulte [Processo de registro fiscal e exemplos de integração fiscal para dispositivos fiscais e serviços](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>Manipulador de solicitações
 

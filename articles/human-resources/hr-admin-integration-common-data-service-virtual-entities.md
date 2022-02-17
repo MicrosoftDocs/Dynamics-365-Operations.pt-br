@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414655"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069137"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurar tabelas virtuais do Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 O Dynamics 365 Human Resources é uma fonte de dados virtual no Microsoft Dataverse. Ele fornece as operações CRUD (criar, ler, atualizar e excluir) completas do Dataverse e do Microsoft Power Platform. Os dados de tabelas virtuais não são armazenados no Dataverse, mas no banco de dado do aplicativo.
 
@@ -119,10 +122,10 @@ A próxima etapa é configurar a fonte de dados de tabela virtual no ambiente do
 
 4. No **Hub de Integridade da Solução** , selecione o ícone **Localização Avançada** no canto superior direito da página do aplicativo.
 
-5. Na página **Localização Avançada**, na lista suspensa **Procurar**, selecione **Configurações de Fonte de Dados Virtual do Finance and Operations**.
+5. Na página **Localização avançada**, na lista suspensa **Procurar**, selecionar **Configurações de Fonte de Dados Virtual do Finance and Operations**.
 
    > [!NOTE]
-   > A instalação do aplicativo de tabela virtual da etapa de configuração anterior pode levar alguns minutos. Se **Configurações de Fonte de Dados Virtual do Finance and Operations** não estiver disponível na lista, aguarde um minuto e atualize a lista.
+   > A instalação do aplicativo de tabela virtual da etapa de configuração anterior pode levar alguns minutos. Se a opção **Configurações de Fonte de Dados Virtual do Finance and Operations** não estiver disponível na lista, aguarde um minuto e atualize a lista.
 
 6. Selecione **Resultados**.
 

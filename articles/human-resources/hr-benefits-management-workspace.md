@@ -2,7 +2,7 @@
 title: Espaço de trabalho de gerenciamento de benefícios
 description: Este tópico descreve o espaço de trabalho Gerenciamento de benefícios no Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/21/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: 424f4a2098e05b4f7dc6fa84df133dda81cc59f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512464"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071399"
 ---
 # <a name="benefits-management-workspace"></a>Espaço de trabalho Gerenciamento de benefícios
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [applies to](../includes/applies-to-hr.md)]
 
@@ -109,11 +112,11 @@ As informações a seguir estão disponíveis na guia **Registro aberto**:
   > [!NOTE]
   > Se você não quiser rastrear o andamento do registro aberto para um **Tipo de plano**, será possível excluí-lo acessando **Gerenciamento de benefícios** > **Links** > **Parâmetros de autoatendimento para funcionários** > **Configuração do bloco de planos de benefícios** e atualizando o campo **Rastrear o progresso do registro aberto**.  Por exemplo, você pode ter planos criados em que **Tipo de plano** = **Outro**. Esses planos podem ser planos opcionais para os quais você não deseja rastrear o andamento do registro. Se você não selecionar esse tipo de plano, os planos desses tipos serão ignorados ao rastrear o andamento ou a conclusão do registro na guia **Registro aberto**. Essa configuração se aplica ao tipo de plano selecionado para todos os períodos e entidades legais.
 
-- **Em andamento** – o bloco **Em andamento** fornece uma contagem de funcionários com eleições em andamento. O bloco **Em andamento** é uma lista filtrada que mostra apenas funcionários com pelo menos um plano renunciado ou selecionado. Os planos obrigatórios são ignorados e não incluídos, pois são selecionados por padrão para o funcionário. Você pode resumir neste bloco para ver os planos selecionados e renunciados na página **Atualização em Massa dos Planos de Benefícios do Trabalhador**.
+- **Em andamento** – o bloco **Em andamento** fornece uma contagem de funcionários com eleições em andamento. O bloco **Em andamento** é uma lista filtrada que mostra apenas funcionários com pelo menos um plano renunciado ou selecionado. Os planos obrigatórios são ignorados e não incluídos, pois são selecionados por padrão para o funcionário. Você pode analisar a partir deste bloco para ver os planos selecionados e renunciados na página **Atualização em massa dos planos de benefícios do Trabalhador**.
 
 - **Registrado em benefícios** – o bloco **Registrado em benefícios** oferece uma contagem de funcionários que são totalmente registrados em benefícios. O formulário **Registrado em benefícios** é uma lista filtrada que mostra os funcionários com todos os planos selecionados ou renunciados. A consulta excluirá planos que não estão sendo rastreados para registro aberto na página **Parâmetros de autoatendimento para funcionários**. Você pode detalhar esse bloco para ver uma lista de funcionários na página **Planos de benefícios do trabalhador**.
 
-- **Seleções não confirmadas** – o bloco **Seleções não confirmadas** mostra uma contagem de funcionários com planos selecionados ou renunciados e que precisam ser confirmados. Você pode detalhar esse bloco para exibir a página **Atualização em Massa dos Planos de Benefícios do Trabalhador**.
+- **Seleções não confirmadas** – o bloco **Seleções não confirmadas** mostra uma contagem de funcionários com planos selecionados ou renunciados e que precisam ser confirmados. Você pode analisar de novo esse bloco para exibir a página **Atualização em massa dos planos de benefícios do trabalhador**.
 
 **Atividade**
 

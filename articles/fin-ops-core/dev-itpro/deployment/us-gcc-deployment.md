@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 17702ada5bf75a44652e194c2555a83e76e7a36b
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817436"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062277"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance e Dynamics 365 Supply Chain Management na Nuvem da Comunidade Governamental dos EUA (GCC)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selecione os produtos Microsoft Dynamics 365 para o governo dos Estados Unidos (EUA) que estão disponíveis para entidades governamentais e particulares qualificadas. Essas entidades estão limitadas aos seguintes tipos:
 
@@ -38,9 +38,9 @@ Depois que a integração inicial for concluída, siga as instruções em [Integ
 
 ## <a name="environment-deployment"></a>Implantação do ambiente
 
-Depois de concluir a integração do projeto, você poderá revisar os recursos adicionais do LCS descritos em [Lifecycle Services (LCS) para clientes de aplicativos do Finance and Operations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Em seguida, siga para a implantação do ambiente.
+Depois de concluir a integração do projeto, você poderá revisar os recursos adicionais do LCS descritos em [Lifecycle Services (LCS) para clientes dos aplicativos de Finanças e Operações](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Em seguida, siga para a implantação do ambiente.
 
-- Para implantar ambientes gerenciados pela Microsoft via LCS, siga as instruções em [Lifecycle Services (LCS) para clientes de aplicativos do Finance and Operations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Para implantar ambientes gerenciados pela Microsoft via LCS, siga as instruções em [Lifecycle Services (LCS) para clientes dos aplicativos de Finanças e Operações](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Para ambientes hospedados na nuvem, consulte [Implantar e acessar ambientes de desenvolvimento](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Você também deve concluir o processo de integração do Gerenciador de Recursos para seus conectores, conforme descrito em [Concluir o processo de integração do Azure Resource Manager para projetos de Lifecycle Services do governo dos EUA](arm-onbarding-us-goverment.md).
 
 > [!NOTE]

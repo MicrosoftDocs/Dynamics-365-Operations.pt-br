@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd9c39bb3b5e221694fe20a8085c9099040cb422
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: b7c2423faa4a0c50d9d319a9e6f489e2946c36a7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431079"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071406"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Inscrever um funcionário em um plano de remuneração fixa
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,8 +34,8 @@ A remuneração ou gerente pode atribuir benefícios de funcionários a planos d
 3. Na lista, clique no link na linha selecionada.
 4. No campo **Posição**, clique no botão suspenso para abrir a pesquisa.
 5. Na lista, clique no link na linha selecionada.
-    * O nível que é é exibido em nível de remuneração dos trabalhos na posição. O nível deve ser definido no trabalho antes da remuneração puder ser atribuída ao funcionário.  
-6. No campo **Plano**, selecione o plano de remuneração fixa do funcionário. A pesquisa do plano é filtrada para mostrar apenas os planos em que o funcionário está qualificado com base nas regras de qualificação.
+    * O nível é exibido a partir da guia rápida **Nível** de remuneração> **>** a partir da **Tarefa** que é atribuída à **posição**. O nível deve ser definido no trabalho antes da remuneração puder ser atribuída ao funcionário.  
+6. No campo **Plano**, selecione o plano de remuneração fixa do funcionário. A pesquisa do **plano** é filtrada para mostrar apenas os planos em que o funcionário está qualificado com base nas **regras de qualificação**.
 7. Na lista, localize e selecione o PDV desejado.
     * As datas **Efetiva** e de **Vencimento** para o padrão de remuneração das datas de início e de término para a atribuição da posição do funcionário. É possível ajustar essas datas conforme necessário.  
     * Se o plano de remuneração fixa é um plano de etapa, selecione a etapa que contém a taxa de pagamento correta para o funcionário. Se o plano de remuneração fixado é um plano de grade ou faixa, insira a taxa de pagamento correta para o funcionário. A taxa de pagamento será validada nas configurações de tolerância para o plano, e os pontos de referência mínimo e máximo para o nível de remuneração de trabalho.  

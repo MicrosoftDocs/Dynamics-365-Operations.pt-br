@@ -2,7 +2,7 @@
 title: Inspecionar o componente de ER configurado para evitar problemas de runtime
 description: Este tópico explica como inspecionar os componentes de Relatório Eletrônico (ER) configurados para evitar problemas de runtime.
 author: NickSelin
-ms.date: 08/26/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488105"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074782"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
 [!include[banner](../includes/banner.md)]
 
-Cada componente de [mapeamento de modelo](general-electronic-reporting.md#data-model-and-model-mapping-components) e [formato](general-electronic-reporting.md#FormatComponentOutbound) de [Relatório Eletrônico (ER)](general-electronic-reporting.md) configurado pode ser [validado](er-fillable-excel.md#validate-an-er-format) durante o design. Durante essa validação, uma verificação de consistência é realizada para ajudar a evitar problemas de runtime, como erros de execução e degradação de desempenho. O caminho de um elemento problemático é fornecido para cada problema encontrado. Alguns problemas têm uma correção automática.
+Cada componente de [mapeamento de modelo](er-overview-components.md#model-mapping-component) e [formato](er-overview-components.md#format-components-for-outgoing-electronic-documents) de [Relatório Eletrônico (ER)](general-electronic-reporting.md) configurado pode ser [validado](er-fillable-excel.md#validate-an-er-format) durante o design. Durante essa validação, uma verificação de consistência é realizada para ajudar a evitar problemas de runtime, como erros de execução e degradação de desempenho. O caminho de um elemento problemático é fornecido para cada problema encontrado. Alguns problemas têm uma correção automática.
 
 Por padrão, a validação é aplicada automaticamente nos seguintes casos para uma configuração de ER que contém os componentes de ER mencionados acima:
 
@@ -236,6 +236,15 @@ A tabela a seguir fornece uma visão geral das inspeções fornecidas pelo ER. P
 <td>Erro</td>
 <td>Há mais de dois componentes de intervalo sem replicação. Remova componentes desnecessários.</td>
 </tr>
+<tr>
+<td><a href='#i18'>Capacidade de execução de uma expressão com função ORDERBY</a></td>
+<td>Capacidade de execução</td>
+<td>Erro</td>
+<td>
+<p>A expressão de lista da função ORDERBY não pode ser consultada.</p>
+<p><b>Erro de runtime:</b> não há suporte para classificação. Valide a configuração para obter mais detalhes sobre esse erro.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -365,7 +374,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 8. Nomeie o novo campo aninhado **$AccNumber** e configure-a para que contenha a expressão `TRIM(Vendor.AccountNum)`.
 9. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a expressão `FILTER(Vendor, Vendor.AccountNum="US-101")` na fonte de dados **Vendor** pode ser consultada.
 
-    ![Verificação se a expressão pode ser consultada na página Designer de mapeamento de modelos.](./media/er-components-inspections-04.gif)
+    ![Verificar se a expressão que tem a função FILTER pode ser consultada na página Designer de mapeamento de modelos.](./media/er-components-inspections-04.gif)
 
 10. Observe que ocorre um erro de validação, porque a fonte de dados **Vendor** contém um campo aninhado do tipo **Campo calculado** que não permite que a expressão da fonte de dados **FilteredVendor** seja convertida na instrução SQL direta.
 
@@ -671,19 +680,19 @@ A ilustração a seguir mostra o erro de runtime exibido se você ignorar o avis
 
 ![Erro de runtime que ocorre durante a execução do mapeamento de formatos na página Designer de formato.](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution&quot;></a>Resolução automática
+### <a name="automatic-resolution"></a>Resolução automática
 
 Nenhuma opção para corrigir esse problema automaticamente está disponível.
 
-### <a name=&quot;manual-resolution&quot;></a>Resolução manual
+### <a name="manual-resolution"></a>Resolução manual
 
-#### <a name=&quot;option-1&quot;></a>Opção 1
+#### <a name="option-1"></a>Opção 1
 
 Remova o sinalizador **Cache** da fonte de dados **Vendor**. A fonte de dados **FilteredVendor** se tornará executável, mas a fonte de dados **Vendor** referenciada na tabela VendTable será acessada toda vez que **FilteredVendor** for chamada.
 
-#### <a name=&quot;option-2&quot;></a>Opção 2
+#### <a name="option-2"></a>Opção 2
 
-Altere a expressão da fonte de dados **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")`para `WHERE(Vendor, Vendor.AccountNum="US-101")`. Nesse caso, a fonte de dados **Vendor** referenciada na tabela VendTable será acessada somente durante a primeira chamada da fonte **Vendor**. No entanto, a seleção de registros será feita na memória. Portanto, essa abordagem pode causar um baixo desempenho.
+Altere a expressão da fonte de dados **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum="US-101")`para `WHERE(Vendor, Vendor.AccountNum="US-101")`. Nesse caso, a fonte de dados **Vendor** referenciada na tabela VendTable será acessada somente durante a primeira chamada da fonte **Vendor**. No entanto, a seleção de registros será feita na memória. Portanto, essa abordagem pode causar um baixo desempenho.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Associação ausente
 
@@ -892,6 +901,47 @@ Nenhuma opção para corrigir esse problema automaticamente está disponível.
 #### <a name="option-1"></a>Opção 1
 
 Modifique o formato configurado alterando a propriedade **Direção da replicação** para todos os componentes do **Intervalo\\do Excel** inconsistentes.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>Capacidade de execução de uma expressão com função ORDERBY
+
+A função interna ER [ORDERBY](er-functions-list-orderby.md) é usada para classificar os registros de uma fonte de dados ER do tipo **[Lista de registros](er-formula-supported-data-types-composite.md#record-list)** que é especificado como um argumento da função.
+
+Argumentos da função `ORDERBY` podem ser [especificados](er-functions-list-orderby.md#syntax-2) para classificar registros de tabelas de aplicativos, exibições ou entidades de dados, fazendo uma única chamada de banco de dados para obter os dados classificados como uma lista de registros. Uma fonte de dados do tipo **Lista de registros** é usada como um argumento da função e especifica a origem do aplicativo para a chamada.
+
+O ER verifica se uma consulta de banco de dados direta pode ser estabelecida com uma fonte de dados referenciada na função `ORDERBY`. Se uma consulta direta não puder ser estabelecida, ocorrerá um erro de validação no designer de mapeamento de modelo de ER. A mensagem recebida informa que a expressão de ER que inclui a função `ORDERBY` não pode ser executada no runtime.
+
+As etapas a seguir mostram como esse problema pode ocorrer.
+
+1. Comece a configurar o componente de mapeamento de modelo de ER.
+2. Adicione uma fonte de dados do tipo **Registros de tabela** \\ do Dynamics 365 for Operations.
+3. Nomeie a nova fonte de dados como **Vendor**. No campo **Tabela**, selecione **VendTable** para especificar que essa fonte de dados solicitará a tabela **VendTable**.
+4. Adicione uma fonte de dados do tipo **Campo calculado**.
+5. Nomeie a nova fonte de dados como **OrderedVendors** e configure-a para que contenha a expressão `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+ 
+    ![Configurar fontes de dados na página Designer de mapeamento de modelo.](./media/er-components-inspections-18-1.png)
+
+6. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a expressão na fonte de dados **OrderedVendors** pode ser consultada.
+7. Modifique a fonte de dados **Vendor** adicionando um campo aninhado do tipo **Campo calculado** para obter o número da conta do fornecedor resumido.
+8. Nomeie o novo campo aninhado **$AccNumber** e configure-a para que contenha a expressão `TRIM(Vendor.AccountNum)`.
+9. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a expressão na fonte de dados **Fornecedor** pode ser consultada.
+
+    ![Verificação se a expressão na fonte de dados Fornecedor pode ser consultada na página Designer de mapeamento de modelos.](./media/er-components-inspections-18-2.png)
+
+10. Observe que ocorre um erro de validação porque a fonte de dados **Fornecedor** contém um campo aninhado do tipo **Campo calculado** que não permite a conversão da expressão da fonte de dados **OrderedVendors** na instrução de banco de dados direta. O mesmo erro ocorrerá no tempo de execução se você ignorar o erro de validação e selecionar **Executar** para executar esse mapeamento de modelo.
+
+### <a name="automatic-resolution"></a>Resolução automática
+
+Nenhuma opção para corrigir esse problema automaticamente está disponível.
+
+### <a name="manual-resolution"></a>Resolução manual
+
+#### <a name="option-1"></a>Opção 1
+
+Em vez de adicionar um campo aninhado do tipo **Campo calculado** à fonte de dados **Fornecedor**, adicione o campo aninhado **$AccNumber** à fonte de dados **FilteredVendors** e configure o campo para que ele contenha a expressão `TRIM(FilteredVendor.AccountNum)`. Dessa forma, a expressão `ORDERBY("Query", Vendor, Vendor.AccountNum)` pode ser executada no nível do banco de dados e o cálculo do campo aninhado **$AccNumber** pode ser feito posteriormente.
+
+#### <a name="option-2"></a>Opção 2
+
+Altere a expressão da fonte de dados **FilteredVendors** de `ORDERBY("Query", Vendor, Vendor.AccountNum)` para `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Não é recomendável alterar a expressão para uma tabela com um grande volume de dados (tabela transacional), pois todos os registros serão buscados e a ordenação dos registros necessários será feita na memória. Portanto, essa abordagem pode causar um baixo desempenho.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

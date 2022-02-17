@@ -2,7 +2,7 @@
 title: Configurar canais de call center
 description: Este tópico oferece informações sobre como processar ordens de call centers usando o Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/06/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5f9afd1b67d6b164facc4dd15a8680866fe8c5b4e4b491d969cda6554eebb1de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750639"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092423"
 ---
 # <a name="set-up-call-center-channels"></a>Configurar canais de call center
 
@@ -56,6 +56,9 @@ Se a definição **Habilitar conclusão de ordem** estiver ativada para o canal 
 Além disso, se a definição **Habilitar conclusão de ordem** estiver ativada, quando os usuários criarem ordens de venda e estiverem no modo de entrada de item de linha, o campo **Origem** estará disponível no cabeçalho principal da ordem de venda. O campo **Origem** é usado para capturar um [código-fonte de catálogo](/dynamics365/unified-operations/retail/call-center-catalogs) em um cenário de venda por marketing direto. Este código pode, então, resultar em preços especiais e promoções.
 
 Mesmo se a configuração **Habilitar conclusão de ordem** estiver desativada, os usuários ainda poderão aplicar um código-fonte a uma ordem de venda. Entretanto, primeiro eles deverão abrir os detalhes do cabeçalho da ordem de venda para acessar o campo **Origem**. Em outras palavras, alguns cliques adicionais são necessários. O mesmo comportamento se aplica a recursos como remeter ordens concluídas e expedidas. Esses recursos estão disponíveis para todas as ordens criadas no call center. Entretanto, quando a definição **Habilitar conclusão de ordem** estiver ativada, os usuários poderão consultar a configuração desses recursos no cabeçalho de venda enquanto estiverem na exibição de entrada de linha. Eles não precisam detalhar o cabeçalho da ordem de venda para encontrar as definições e os campos apropriados.
+
+> [!NOTE]
+> Quando o recurso **Pagamentos de ordens de omnicanal do Commerce** está habilitado, o botão do call center **Habilitar conclusão de ordem** ficará oculto na sede na FastTab **Geral** do seu canal no **Varejo e Comércio \> Canais \> Call Centers**.
 
 ### <a name="enable-direct-selling"></a>Habilitar venda direta
 

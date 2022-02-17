@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23ac3067c03bf2cf336848301e8c27b60da8dc8c
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a9753e220e62794b157340c9f8e6f8a053e9ba7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964822"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067974"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificar e implantar ferramentas de seleção de candidato
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Localizar um grupo de candidatos qualificado para preencher vagas pode ser difícil, principalmente quando uma posição requer um conjunto exclusivo de habilidades. No entanto, os candidatos com as habilidades que você precisa já estão empregadas na sua organização. Você pode procurar uma habilidade específica definida entre funcionários existentes ou novos candidatos. Isso permite que um recruta rapidamente colete e selecione os candidatos que estiverem aplicados para a posição inicial ou final no passado, candidatos ou localizar potenciais do grupo existente dos funcionários. Use este procedimento para saber como a funcionalidade de mapeamento de habilidades pode ajudar a encontrar a pessoa adequada para uma posição em aberto. A empresa de dados de demonstração **USMF** foi usada para criar este procedimento.
 

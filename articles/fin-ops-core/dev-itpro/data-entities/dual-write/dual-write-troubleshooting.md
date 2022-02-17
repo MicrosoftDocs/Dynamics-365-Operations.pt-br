@@ -1,6 +1,6 @@
 ---
 title: Solução de problemas gerais
-description: Este tópico fornece informações gerais de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse.
+description: Este tópico fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781165"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062329"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tópico fornece informações gerais de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse.
+
+Este tópico fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse.
 
 > [!IMPORTANT]
 > Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
@@ -44,13 +44,13 @@ Para exibir o log de rastreamento, siga estas etapas.
 2. Encontre os logs de rastreamento em que a coluna **Nome do Tipo** esteja definida como **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Clique duas vezes em um item para exibir o log completo e, em seguida, na Guia Rápida **Execução** revise o texto do **Bloco de mensagens**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos Finance and Operations
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos de Finanças e Operações
 
 **Função necessária para exibir os erros:** administrador do sistema
 
-Os erros de gravação dupla que originam-se no Dataverse podem aparecer no aplicativo Finance and Operations. Para habilitar o registro detalhado de erros ao seguir estas etapas:
+Os erros de gravação dupla originados no Dataverse podem aparecer no aplicativo de Finanças e Operações. Para habilitar o registro detalhado de erros ao seguir estas etapas:
 
-1. Para todas as configurações de projeto nos aplicativos Finance and Operations há uma propriedade **IsDebugMode** na tabela **DualWriteProjectConfiguration**.
+1. Para todas as configurações de projeto em aplicativos de Finanças e Operações, há um sinalizador **IsDebugMode** na tabela **DualWriteProjectConfiguration**.
 2. Abra a tabela **DualWriteProjectConfiguration** usando um suplemento do Excel. Para usar o suplemento, habilite o modo de design no suplemento do Excel no Finance and Operations e adicione o **DualWriteProjectConfiguration** à planilha. Para obter mais informações, consulte [Exibir e atualizar dados da entidade com o Excel](../../office-integration/use-excel-add-in.md).
 3. Defina **Isdebugmode** como **Sim** no projeto.
 4. Execute o cenário que está gerando erros.
@@ -58,23 +58,23 @@ Os erros de gravação dupla que originam-se no Dataverse podem aparecer no apli
 6. Para pesquisar dados no navegador de tabelas, use o seguinte link: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog` substituindo `999`, conforme necessário.
 7. Atualize novamente após a [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), que está disponível para atualizações de plataforma 37 e posterior. Se você tiver essa correção instalada, o modo de depuração capturará mais logs.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verificar erros de sincronização na máquina virtual para o aplicativo Finance and Operations
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verificar erros de sincronização na máquina virtual para o aplicativo de Finanças e Operações
 
 **Função necessária para exibir os erros:** administrador do sistema
 
 1. Entre Microsoft Dynamics Lifecycle Services (LCS).
 2. Abra o projeto LCS escolhido para realizar testes de gravação dupla.
 3. Selecione o bloco **Ambientes hospedados na nuvem**.
-4. Use área de trabalho remota para fazer login na máquina virtual (VM) do aplicativo Finance and Operations. Use a conta local que é mostrada em LCS.
+4. Use área de trabalho remota para entrar na máquina virtual (VM) do aplicativo de Finanças e Operações. Use a conta local que é mostrada em LCS.
 5. Abra o Visualizador de Eventos.
 6. Selecione **Registros de aplicativos e serviços \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.
 7. Revise a lista de erros recentes.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular e vincular outro ambiente do Dataverse de um aplicativo Finance and Operations
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular e vincular outro ambiente do Dataverse a partir de um aplicativo de Finanças e Operações
 
-**Função necessária para desvincular o ambiente:** administrador do sistema para os aplicativos Finance and Operations ou Dataverse.
+**Função necessária para desvincular o ambiente**: administrador do sistema para aplicativo de Finanças e Operações ou o Dataverse.
 
-1. Entrar no aplicativo Finance and Operations.
+1. Entre no aplicativo de Finanças e Operações.
 2. Acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**.
 3. Selecione todos os mapeamentos em execução e selecione **Parar**.
 4. Selecione **Desvincular ambiente**.

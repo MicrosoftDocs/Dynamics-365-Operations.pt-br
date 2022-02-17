@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471635"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069420"
 ---
 # <a name="message-processor-messages"></a>Mensagens do processador de mensagens
 
@@ -29,7 +29,7 @@ ms.locfileid: "7471635"
 
 As mensagens do processador de mensagens são usadas na execução de unidades de escala de nuvem e de borda para [cargas de trabalho de fabricação](cloud-edge-workload-manufacturing.md) e [cargas de trabalho de gerenciamento de depósito](cloud-edge-workload-warehousing.md).
 
-Uma grande quantidade de dados é trocada entre os ambientes de implantação de unidade de escala e de hub para mantê-los em sincronia, mas somente algumas dessas trocas de dados serão processadas pelo *processador de mensagens*. Você pode exibir as mensagens processadas pelo processador de mensagens indo para **Administração do sistema > Processador de mensagens > Mensagens do processador de mensagens**.
+Os ambientes de implantação de hub e unidade de escala trocam um grande volume de dados para permanecer em sincronia. Algumas dessas trocas de dados dispararão lógica adicional no *processador de mensagens*. Para exibir as mensagens que foram processadas pelo processador de mensagens, vá para **Administração do sistema > Processador de mensagens > Mensagens do processador de mensagens**.
 
 ## <a name="message-grid-columns-and-filters"></a>Colunas e filtros da grade de mensagens
 

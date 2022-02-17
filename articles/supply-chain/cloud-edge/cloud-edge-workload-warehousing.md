@@ -6,7 +6,7 @@ ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
+ms.search.form: PurchTable, InventTransferOrders, SalesTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: ae8e9791b590a32581b66853f55ea11bc389bb19
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891742"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068100"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -36,7 +36,18 @@ Cargas de trabalho de gerenciamento de depósito habilitam unidades de escala de
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
+Antes de começar a trabalhar com a carga de trabalho de gerenciamento de depósito, o sistema deve estar preparado conforme descrito nesta seção.
+
+### <a name="deploy-a-scale-unit-with-the-warehouse-management-workload"></a>Implantar uma unidade de escala com a carga de trabalho de gerenciamento de depósito
+
 Você deve ter um hub do Dynamics 365 Supply Chain Management e uma unidade de escala que tenha sido implantada com a carga de trabalho de gerenciamento de depósito. Para obter mais informações sobre a arquitetura e o processo de implantação, consulte [Unidades de escala em uma topologia híbrida distribuída](cloud-edge-landing-page.md).
+
+### <a name="turn-on-required-features-in-feature-management"></a>Ativar recursos obrigatórios no gerenciamento de recursos
+
+Use o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar ambos os recursos a seguir. (Os dois recursos estão listados no módulo *Gerenciamento de depósito*.)
+
+- Dissocie o trabalho de armazenamento de ASNs
+- (Versão preliminar) Suporte da unidade de escala para ordens de depósito de entrada e saída
 
 ## <a name="how-the-warehouse-execution-workload-works-on-scale-units"></a>Como a carga de trabalho de execução de depósito funciona em unidades de escala
 
@@ -108,6 +119,26 @@ O diagrama a seguir mostra o fluxo de entrada e indica onde ocorrem os processos
 
 [![Fluxo do processamento de entrada](media/wes_inbound_warehouse_processes-small.png "Fluxo do processamento de entrada")](media/wes_inbound_warehouse_processes.png)
 
+## <a name="production-control"></a>Controle de produção
+
+A carga de trabalho de gerenciamento de depósito oferece suporte a estes três fluxos para produção no aplicativo Warehouse Management:
+
+- Relatar como concluído e armazenado
+- Começar ordem de produção
+- Registrar consumo de materiais
+
+### <a name="report-as-finished-and-put-away"></a>Relatar como concluído e armazenado
+
+Os funcionários podem usar o fluxo **Relatar como concluído e armazenado** no aplicativo Warehouse Management para relatar uma ordem de produção ou de lote como concluída. Eles também podem relatar coprodutos e subprodutos em uma ordem de lote como concluída. Quando uma tarefa é relatada como concluída, o sistema costuma gerar o trabalho de depósito de armazenamento na unidade de escala. Se você não exigir trabalho de armazenamento, poderá configurar políticas de trabalho para omiti-lo.
+
+### <a name="start-production-order"></a>Começar ordem de produção
+
+Os funcionários podem usar o fluxo **Iniciar a ordem de produção** no aplicativo Warehouse Management para registrar o início de uma ordem de produção ou de lote.
+
+### <a name="register-material-consumption"></a>Registrar consumo de materiais
+
+Os funcionários podem usar o fluxo **Registrar consumo de material** no aplicativo Warehouse Management para registrar o consumo de material para uma ordem de produção ou de lote. Em seguida, um diário de lista de separação é criado para o material relatado na ordem de produção ou de lote na unidade de escala. As linhas do diário fazem uma reserva física no estoque consumido. Quando os dados são sincronizados entre a unidade de escala e o hub, um diário de lista de separação é gerado e lançado na instância do hub.
+
 ## <a name="supported-processes-and-roles"></a>Processos e funções com suporte
 
 Nem todos os processos de gerenciamento de depósito têm suporte em uma carga de trabalho de execução de depósito em uma unidade de escala. Portanto, é recomendável que você atribua funções que correspondam à funcionalidade disponível para cada usuário.
@@ -139,22 +170,26 @@ Os tipos de trabalho a seguir podem ser criados em uma unidade de escala e, port
 - **Contagem cíclica** – incluindo um processo de aprovação/rejeição de discrepâncias como parte das operações de contagem.
 - **Ordens de compra** – armazene trabalho por meio de uma ordem de depósito quando as ordens de compra não estão associadas a cargas.
 - **Ordens de venda** – separação e carregamento simples.
+- **Recebimento de transferência** – via o processamento de recebimento da placa de licença.
 - **Transferir saída** – separação e carregamento simples.
 - **Reabastecimento** – não incluindo matérias-primas para produção.
 - **Armazenamento de mercadorias acabadas** – após o processo de produção do relatório de conclusão.
 - **Armazenamento de coproduto e subproduto** – após o processo de produção do relatório de conclusão.
+<!-- - **Packed container picking** - After manual packing station processing. -->
 
-No momento, não há suporte para outros tipos de trabalho de depósito e processamento de documento de origem em unidades de escala. Por exemplo, para uma carga de trabalho de execução de depósito em uma unidade de escala, não é possível executar um processo de recebimento de ordem de transferência (recebimento de transferência). Isso precisa ser processado pela instância do hub.
+No momento, não há suporte para outros tipos de trabalho de depósito e processamento de documentos de origem em unidades de escala. Por exemplo, quando você executa em uma carga de trabalho de execução de depósito em uma unidade de escala, não pode usar o processo de recebimento de ordem de devolução de venda para processar ordens de devolução. Em vez disso, esse processamento deve ser feito pela instância de hub.
 
 > [!NOTE]
 > Os botões e itens de menu de dispositivo móvel para funcionalidades sem suporte não são mostrados no _Aplicativo móvel Warehouse Management_ quando ele está conectado a uma implantação de unidade de escala.
-> 
+>
+> Algumas etapas adicionais são necessárias para configurar o aplicativo móvel Warehouse Management em uma unidade de escala de nuvem ou de borda. Para obter mais informações, consulte [Configurar o aplicativo móvel Warehouse Management para unidades de escala de nuvem e de borda](cloud-edge-workload-setup-warehouse-app.md).
+>
 > Quando você executa uma carga de trabalho em uma unidade de escala, não pode executar processos sem suporte para o depósito específico no hub. As tabelas fornecidas posteriormente neste tópico documentam os recursos com suporte.
 >
 > Os tipos de trabalho de depósito selecionados podem ser criados no hub e em unidades de escala, mas só podem ser mantidos pelo hub ou pela unidade de escala titular (a implantação que criou os dados).
 >
 > Mesmo quando um processo específico é compatível com a unidade de escala, lembre-se de que todos os dados necessários podem não ser sincronizados entre o hub e a unidade de escala ou vice-versa, o que pode resultar em processamento inesperado do sistema. Exemplos desse cenário incluem:
-> 
+>
 > - Se você usar uma consulta de diretiva de localização que ingresse em um registro de tabela de dados que existe somente na implantação do hub.
 > - Se você usar as funcionalidades de status de localização e/ou carga volumétrica do local. Esses dados não serão sincronizados entre as implantações e, portanto, só funcionarão ao atualizar o estoque disponível de localização em uma das implantações.
 
@@ -174,16 +209,16 @@ Atualmente, não há suporte para a seguinte funcionalidade de gerenciamento de 
 - Processar com itens de peso variável.
 - Processar com itens habilitados somente para Gerenciamento de transporte (TMS).
 - Processar com estoque disponível negativo.
+- Compartilhamento de dados interempresarial para produtos. <!-- Planned -->
 - Processar trabalho de depósito com notas de remessa.
 - Processar trabalho de depósito com manuseio de material/automação do depósito.
 - Imagens de dados de produto mestre (por exemplo, no aplicativo móvel Warehouse Management).
-- Compartilhamento de dados interempresarial para produtos.
 
 > [!WARNING]
 > Algumas funcionalidades de depósito não estarão disponíveis para depósitos que executam as cargas de trabalho de gerenciamento de depósito em uma unidade de escala e também não terão suporte no hub ou na carga de trabalho da unidade de escala.
-> 
+>
 > Outros recursos podem ser processados em ambos os casos, mas exigirão um uso cuidadoso em alguns cenários, por exemplo, quando o estoque disponível for atualizado para o mesmo depósito no hub e na unidade de escala devido ao processo de atualização de dados assíncronos.
-> 
+>
 > Funcionalidades específicas (como *bloco de trabalho*), que têm suporte no hub e nas unidades de escala, só terão suporte para o proprietário dos dados.
 
 ### <a name="outbound-supported-only-for-sales-and-transfer-orders"></a>Saída (com suporte somente para ordens de venda e de transferência)
@@ -201,7 +236,7 @@ A tabela a seguir mostra quais recursos de saída têm suporte e onde, quando as
 | Manter remessas para o ciclo                                  | Não  | Sim|
 | Processamento de trabalho de depósito (incluindo a impressão da placa de licença)        | Não  | Sim, mas somente para os recursos mencionados anteriormente |
 | Separação de cluster                                              | Não  | Sim|
-| Processamento manual de embalagens, incluindo o processamento do trabalho "separação de contêiner embalado" | Não <P>É possível fazer processamentos parciais depois que um processo de separação inicial é manuseado por uma unidade de escala, mas não é recomendado devido às seguintes operações bloqueadas.</p>  | Não |
+| Processamento manual de embalagens, incluindo o processamento do trabalho "separação de contêiner embalado" | Número <P>É possível fazer processamentos parciais depois que um processo de separação inicial é tratado por uma unidade de escala, mas não é recomendável devido às operações bloqueadas a seguir.</p>  | Não |
 | Remover o contêiner do grupo                                  | Não  | Não |
 | Processamento de classificação de saída                                  | Não  | Não |
 | Impressão de documentos relacionados ao carregamento                           | Sim | Sim|
@@ -210,7 +245,8 @@ A tabela a seguir mostra quais recursos de saída têm suporte e onde, quando as
 | Confirmação de remessa com "confirmar e transferir"            | Não  | Sim|
 | Processamento de guia de remessa e faturamento                        | Sim | Não |
 | Separação curta (ordens de venda e de transferência)                    | Não  | Sim, sem remover reservas de documentos de origem|
-| Separação em excesso (ordens de venda e de transferência)                     | Não  | Sim|
+| Separação em excesso (ordens de venda e de transferência)                     | Número  | Sim|
+| Consolidar placas de licença                                   | Número  | Sim|
 | Alteração de locais de trabalho (ordens de venda e de transferência)         | Não  | Sim|
 | Concluir trabalho (ordens de venda e de transferência)                    | Não  | Sim|
 | Imprimir relatório de trabalho                                            | Sim | Sim|
@@ -218,8 +254,10 @@ A tabela a seguir mostra quais recursos de saída têm suporte e onde, quando as
 | Divisão do trabalho                                                   | Não  | Sim|
 | Processamento de trabalho - Dirigido por "carregamento de transporte"            | Não  | Não |
 | Reduzir quantidade separada                                       | Não  | Sim|
-| Reverter trabalho                                                 | Não  | Sim|
-| Estornar confirmação da remessa                                | Não  | Sim|
+| Reverter trabalho                                                 | Número  | Sim|
+| Estornar confirmação da remessa                                | Número  | Sim|
+| Solicitação para cancelar linhas da ordem de depósito                      | Sim | Não, mas a solicitação será aprovada ou rejeitada |
+| <p>Liberar ordens de transferência para recebimento</p><p>Esse processo ocorrerá automaticamente como parte do processo de remessa da ordem de transferência. No entanto, ele pode ser usado manualmente para habilitar o recebimento da placa de licença em uma unidade organizacional, caso as linhas da ordem de depósito de entrada tenham sido canceladas ou como parte de um novo processo de implantação da carga de trabalho.</p> | Sim | Número|
 
 ### <a name="inbound"></a>Entrada
 
@@ -231,18 +269,18 @@ A tabela a seguir mostra quais recursos de entrada têm suporte e onde, quando a
 | Processamento de gerenciamento de transporte e carga                    | Sim | Não |
 | Recebimento de custo de entrega de mercadorias em trânsito                       | Sim | Não |
 | Confirmação de remessa de entrada                                    | Sim | Não |
-| Liberação da ordem de compra para depósito (processamento de ordem de depósito) | Sim | Não |
-| Cancelamento de linhas da ordem de depósito<p>Observe que só haverá suporte quando nenhum registro tiver ocorrido em relação à linha ao processar a operação de *solicitação para cancelar*</p> | Sim | Não |
+| Liberação da ordem de compra para depósito (processamento de ordem de depósito) | Sim | Número |
+| Solicitação para cancelar linhas da ordem de depósito                            | Sim | Não, mas a solicitação será aprovada ou rejeitada |
+| Processamento do recebimento de produtos de documentos de origem da ordem de compra                        | Sim | Número |
 | Recebimento e armazenamento do item da ordem de compra                       | <p>Sim,&nbsp;quando&nbsp;não há&nbsp;uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | <p>Sim, quando uma ordem de compra não faz parte de uma <i>carga</i></p> |
 | Recebimento da linha da ordem de compra e armazenamento                       | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | <p>Sim, quando uma ordem de compra não faz parte de uma <i>carga</i></p></p> |
 | Recebimento e armazenamento da ordem de devolução                              | Sim | Não |
 | Recebimento e armazenamento de placa de licença mista                       | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Sim |
-| Recebimento do item de carga                                              | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |
-| Recebimento e armazenamento da placa de licença                             | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |
-| Recebimento e armazenamento do item da ordem de transferência                       | Sim | Não |
-| Transferir recebimento e armazenamento do recebimento da linha de ordem                       | Sim | Não |
-| Cancelar trabalho (entrada)                                            | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | <p>Sim, mas somente quando opção <b>Cancelar o registro do recebimento ao cancelar o trabalho</b> (na página <b>Parâmetros de gerenciamento de depósito</b>) estiver desmarcada</p> |
-| Processamento do recebimento de produtos da ordem de compra                        | Sim | Não |
+| Recebimento do item de carga                                              | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Número |
+| Recebimento e armazenamento da placa de licença da ordem de compra              | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Número |
+| Recebimento e armazenamento da placa de licença da ordem de transferência             | Número | Sim |
+| Recebimento e armazenamento do item da ordem de transferência                       | Sim | Número |
+| Transferir recebimento e armazenamento do recebimento da linha de ordem                       | Sim | Número |
 | Recebimento de ordem de compra com entrega insuficiente                      | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Sim, mas somente fazendo uma solicitação de cancelamento no hub |
 | Recebimento de ordem de compra com entrega em excesso                       | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Sim  |
 | Recebimento com a criação de trabalho de *Distribuição integrada*                 | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |
@@ -250,8 +288,9 @@ A tabela a seguir mostra quais recursos de entrada têm suporte e onde, quando a
 | Recebimento com a criação de trabalho de *Amostra de ordem de qualidade*          | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |
 | Recebimento com a criação de trabalho de *Qualidade na verificação de qualidade*       | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |
 | Recebimento com a criação de ordem de qualidade                            | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |
-| Processamento de trabalho - Dirigido por *armazenamento de cluster*                 | Sim | Não |
-| Processamento de trabalho com *separação curta*                               | Sim | Sim |
+| Processamento de trabalho - Dirigido por *armazenamento de cluster*                 | Sim | Número |
+| Processamento de trabalho com *separação curta*                               | Sim | Número |
+| Cancelar trabalho (entrada)                                            | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | <p>Sim, mas somente quando a opção <b>Cancelar o registro do recebimento ao cancelar o trabalho</b> na página <b>Parâmetros de gerenciamento de depósito</b> estiver desmarcada</p> |
 | Carregamento da placa de licença:                                           | Sim | Sim |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Operações de depósito e tratamento de exceções
@@ -274,12 +313,11 @@ A tabela a seguir mostra quais recursos de operações de depósito e tratamento
 | Reimprimir etiqueta (impressão da placa de licença)             | Sim | Sim                          |
 | Criação da placa de licença                                | Sim | Não                           |
 | Interrupção da placa de licença                                | Sim | Não                           |
-| Empacotar em placas de licença aninhadas                                | Sim | Não                           |
+| Empacotar em placas de licença aninhadas                      | Sim | Não                           |
 | Check-in do motorista                                    | Sim | Não                           |
 | Check-out do motorista                                   | Sim | Não                           |
 | Alterar código de disposição em lotes                      | Sim | Sim                          |
 | Exibir lista de trabalhos abertos                             | Sim | Sim                          |
-| Consolidar placas de licença                         | Sim | Não                           |
 | O processamento de reabastecimento de limite mínimo e máximo e de zona| Sim <p>Recomenda-se não incluir os mesmos locais como parte das consultas</p>| Sim                          |
 | Processamento de reabastecimento de slots                  | Sim  | Sim<p>Observe que a configuração deve ser feita na unidade de escala</p>                           |
 | Bloquear e desbloquear trabalho                             | Sim | Sim                          |
@@ -292,28 +330,46 @@ A tabela a seguir mostra quais recursos de operações de depósito e tratamento
 A seguinte tabela resume quais cenários de produção do gerenciamento de depósito são compatíveis atualmente nas cargas de trabalho da unidade de escala.
 
 | Processar | Hub | Carga de trabalho de execução de depósito em uma unidades de escala |
-|---------|-----|------------------------------|
-| Relatar como finalizado e guardar mercadorias finalizadas | Sim | Sim |
-| Armazenamento de coproduto e subproduto | Sim | Sim |
-| Começar ordem de produção | Sim | Sim |
-| <p>Todos os outros processos do gerenciamento de depósito que são relacionados à produção, incluindo:</p><li>Liberar para o depósito</li><li>Processamento de ciclos de produção</li><li>Separação de matéria-prima</li><li>Armazenamento kanban</li><li>Separação kanban</li><li>Sucata de produção</li><li>Último palete de produção</li><li>Registrar consumo de materiais</li><li>Kanban vazio</li></ul> | Sim | Não |
-| Reabastecimento de matéria-prima | Não | Não |
+|---------|-----|----------------------------------------------|
+| Processamento do documento de origem da ordem de produção    | Sim | Número |
+| Liberar para o depósito                           | Sim | Número |
+| Começar ordem de produção                         | Sim | Sim|
+| Criar ordens de depósito                        | Sim | Número |
+| Solicitação para cancelar linhas da ordem de depósito        | Sim | Não, mas a solicitação será aprovada ou rejeitada |
+| Relatar como finalizado e guardar mercadorias finalizadas | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Sim|
+| Armazenamento de coproduto e subproduto             | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Sim|
+| Registrar consumo de materiais                  | Sim | Sim|
+| Processamento de ciclos de produção                     | Sim | Número |
+| Separação de matéria-prima                           | Sim | Número |
+| Armazenamento kanban                                | Sim | Número |
+| Separação kanban                                 | Sim | Número |
+| Kanban vazio                                   | Sim | Número |
+| Sucata de produção                               | Sim | Número |
+| Último palete de produção                         | Sim | Número |
+| Reabastecimento de matéria-prima                     | Número  | Número |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Manter unidades de escala para execução de depósito
 
 Vários trabalhos em lotes são executados no hub e em unidades de escala.
 
-Na implantação do hub, você pode manter manualmente os trabalhos em lotes. Você pode gerenciar estes trabalhos de lote em **Gerenciamento de depósito \> Tarefas periódicas \> Gerenciamento de carga de trabalho back office**:
+Na implantação do hub, você pode manter manualmente os seguintes trabalhos em lotes:
 
-- Processador de mensagens de unidade de escala para hub
-- Registrar recebimentos de ordem de origem
-- Concluir ordens de depósito
+- Gerenciar estes trabalhos em lotes em **Gerenciamento de depósito \> Tarefas periódicas \> Gerenciamento de carga de trabalho back office**:
 
-Na carga de trabalho em unidades de escala, você pode gerenciar estes trabalhos em lotes em **Gerenciamento de depósito \> Tarefas periódicas \> Gerenciamento de carga de trabalho**:
+    - Processador de mensagens de unidade de escala para hub
+    - Registrar recebimentos de ordem de origem
+    - Concluir ordens de depósito
+
+- Gerencie estes trabalhos em lotes em **Gerenciamento de depósito \> Tarefas periódicas \> Gerenciamento de carga de trabalho**:
+
+    - Processador de mensagens da unidade de escala para o hub do depósito
+    - Processar recebimentos de linha de ordem de depósito para lançamento de recebimento de depósito
+
+Em implantações de unidades de escala, você pode gerenciar estes trabalhos em lotes em **Gerenciamento de depósito \> Tarefas periódicas \> Gerenciamento de carga de trabalho**:
 
 - Processar registros de tabela do ciclo
 - Processador de mensagens da unidade de escala para o hub do depósito
-- Processar solicitações de atualização de quantidade para linhas de ordem de depósito
+- Processar recebimentos de linha de ordem de depósito para lançamento de recebimento de depósito
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

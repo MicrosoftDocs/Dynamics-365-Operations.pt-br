@@ -2,7 +2,7 @@
 title: Projetar relatórios multilíngues em Relatórios eletrônicos
 description: Este tópico explica como você pode usar etiquetas de Relatório eletrônico (ER) para criar e gerar relatórios multilíngues.
 author: NickSelin
-ms.date: 09/03/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e5c6b28dc115719922e418cb7a6156032d994d39
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674420"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074933"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Projetar relatórios multilíngues em Relatórios eletrônicos
 
@@ -28,9 +28,9 @@ ms.locfileid: "7674420"
 
 ## <a name="overview"></a>Visão Geral
 
-Como um usuário comercial, você pode usar a estrutura de [Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar formatos para documentos de saída que precisam ser gerados de acordo com os requisitos legais de vários países ou regiões. Quando esses requisitos exigirem que os documentos de saída sejam gerados em diferentes idiomas para países ou regiões diferentes, você poderá configurar um único [formato](general-electronic-reporting.md#FormatComponentOutbound) de ER que contenha recursos dependentes de idioma. Dessa forma, você pode reutilizar o formato para gerar documentos de saída para vários países ou regiões. Você também pode usar um único formato de ER para gerar um documento de saída em diferentes idiomas para clientes, fornecedores, subsidiárias ou outros participantes correspondentes.
+Como um usuário comercial, você pode usar a estrutura de [Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar formatos para documentos de saída que precisam ser gerados de acordo com os requisitos legais de vários países ou regiões. Quando esses requisitos exigirem que os documentos de saída sejam gerados em diferentes idiomas para países ou regiões diferentes, você poderá configurar um único formato de ER que contenha recursos dependentes de idioma. Dessa forma, você pode reutilizar o formato para gerar documentos de saída para vários países ou regiões. Você também pode usar um único formato de ER para gerar um documento de saída em diferentes idiomas para clientes, fornecedores, subsidiárias ou outros participantes correspondentes.
 
-Você pode configurar os modelos de dados de ER e mapeamentos de modelo como fontes de dados dos formatos de ER configurados para definir o fluxo de dados que especifica quais dados de aplicativo são colocados em documentos gerados. Como um [provedor](general-electronic-reporting.md#Provider) de configuração ER, você pode [publicar ](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) [modelos de dados](general-electronic-reporting.md#data-model-and-model-mapping-components), [mapeamentos de modelo](general-electronic-reporting.md#data-model-and-model-mapping-components) e [formatos](general-electronic-reporting.md#FormatComponentOutbound) configurados como componentes de uma solução de ER para gerar documentos de saída específicos. Você também pode permitir que os clientes [carreguem](general-electronic-reporting-manage-configuration-lifecycle.md) a solução de ER publicada de forma que ela possa ser usada e personalizada. Se esperar que talvez os clientes falem em outros idiomas, você poderá configurar os componentes de ER para que eles contenham recursos dependentes de idioma. Dessa forma, o conteúdo de um componente de ER editável pode ser apresentado no idioma preferencial do usuário do cliente em tempo de design.
+Você pode configurar os modelos de dados de ER e mapeamentos de modelo como fontes de dados dos formatos de ER configurados para definir o fluxo de dados que especifica quais dados de aplicativo são colocados em documentos gerados. Como um [provedor](general-electronic-reporting.md#Provider) de configuração ER, você pode [publicar](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) [modelos de dados](general-electronic-reporting.md#data-model-and-model-mapping-components), [mapeamentos de modelo](general-electronic-reporting.md#data-model-and-model-mapping-components) e formatos configurados como componentes de uma solução ER para gerar documentos de saída específicos. Você também pode permitir que os clientes [carreguem](general-electronic-reporting-manage-configuration-lifecycle.md) a solução de ER publicada de forma que ela possa ser usada e personalizada. Se esperar que talvez os clientes falem em outros idiomas, você poderá configurar os componentes de ER para que eles contenham recursos dependentes de idioma. Dessa forma, o conteúdo de um componente de ER editável pode ser apresentado no idioma preferencial do usuário do cliente em tempo de design.
 
 Você pode configurar recursos dependentes do idioma como etiquetas de ER. Em seguida, você poderá usar essas etiquetas para configurar os componentes de ER para as seguintes finalidades:
 
@@ -232,6 +232,19 @@ Conforme descrito anteriormente neste tópico, os atributos **Etiqueta** e **Des
 ## <a name="performance"></a><a name=performance></a>Desempenho
 
 Ao configurar um componente de formato ER para gerar um relatório no seu [idioma](#language) preferencial ou para importar um documento de entrada no qual o conteúdo é analisado pelo seu idioma preferencial, recomendamos que você habilite o recurso **Armazenar em cache o idioma preferencial do usuário atual para execuções de ER** no espaço de trabalho [Gerenciamento de recursos](../../fin-ops/get-started/feature-management/feature-management-overview.md). Esse recurso ajuda a melhorar o desempenho, especialmente para componentes de formato ER que contêm várias referências a etiquetas em associações e fórmulas ER, e várias regras de [validação](general-electronic-reporting-formula-designer.md#TestFormula) para gerar mensagens de usuário no seu idioma preferencial.
+
+Quando você alterar o status de uma versão de configuração ER de **Rascunho** para **Concluído**, se a versão de configuração contiver etiquetas de ER, esses rótulos serão armazenados no banco de dados do aplicativo. O esquema de armazenamento depende do estado do recurso **Acelerar o armazenamento de etiquetas de ER**:
+
+- Se o recurso não estiver habilitado, todas as etiquetas serão armazenadas no campo **LABELXML** da tabela **ERSOLUTIONVERSIONTABLE** como um único snippet XML.
+- Se o recurso estiver habilitado, um registro separado será criado para cada idioma na tabela **ERSOLUTIONVERSIONLABELSTABLE**. O campo **CONTENTS** desta tabela armazena etiquetas por idioma como um snippet XML compactado.
+
+É recomendável habilitar o recurso **Acelerar o armazenamento de etiquetas de ER** no espaço de trabalho **Gerenciamento de recursos**. Este recurso ajuda a melhorar a utilização da largura de banda da rede e o desempenho geral do sistema porque, na maioria dos casos, as etiquetas ER de um único idioma são usadas quando você trabalha com uma única configuração de ER.
+
+Para aplicar o esquema de armazenamento selecionado para manter etiquetas de todas as configurações de ER na instância do Finance atual, conclua as etapas a seguir.
+
+1. Vá para **Administração organizacional** > **Periódico** > **Aplicar o esquema de armazenamento de etiquetas selecionadas a todas as configurações de ER**.
+2. Selecione **OK**.
+
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

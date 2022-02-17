@@ -1,5 +1,5 @@
 ---
-title: Recursos removidos ou obsoletos em versões anteriores
+title: Recursos removidos ou preteridos em versões anteriores
 description: Este tópico descreve os recursos que foram removidos ou que foram planejados para remoção do Dynamics 365 for Finance and Operations e versões anteriores.
 author: sericks007
 ms.date: 02/16/2021
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753017"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063228"
 ---
-# <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou preteridos em versões anteriores
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!IMPORTANT]
-> Este tópico não é mais atualizado. Para ver uma lista atual de recursos que foram removidos ou descontinuados dos aplicativos do Finance and Operations, pesquise o conteúdo **"Recursos removidos ou obsoletos"** relacionado ao aplicativo que você está usando.
+> Este tópico não é mais atualizado. Para ver uma lista atual de recursos que foram removidos ou preteridos de aplicativos de Finanças e Operações, pesquise o conteúdo **"Recursos removidos ou preteridos"** relacionado ao aplicativo que você está usando.
 
 Este tópico descreve os recursos que foram removidos ou descontinuados do Dynamics 365 for Finance and Operations e versões anteriores desse produto.
 
@@ -37,7 +37,7 @@ Este tópico descreve os recursos que foram removidos ou descontinuados do Dynam
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+Informações detalhadas sobre objetos em aplicativos de Finanças e Operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de Finanças e Operações.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 com atualização de plataforma 31
 
@@ -50,7 +50,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Opção de implantação**              | Todas |
 | **Status**                         | Substituído: até 1º de dezembro de 2020, não planejamos mais oferecer suporte à configuração de tipos de comprovantes chineses sem a seleção de Grupos de contas. Obtenha mais detalhes sobre o novo design do recurso em Novidades no 10.0.7 |
 
-## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 com Platform update 30
+## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 com atualização de plataforma 30
 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
@@ -138,7 +138,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 </tbody>
 </table>
 
-## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 com Platform update 29
+## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 com atualização de plataforma 29
 
 ### <a name="us-payroll-tax-updates"></a>Atualizações de impostos de Folha de pagamento dos EUA
 
@@ -163,7 +163,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Opção de implantação**              | Todas  |
 | **Status**                         | Preterido: o período determinado para a remoção da funcionalidade é dezembro de 2020. |
 
-## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 com Platform update 28
+## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 com atualização de plataforma 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>França: exportação de dados de contabilidade de FEC em XML
 
@@ -187,7 +187,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Status**                         | Preterido: a partir de abril de 2020, a barra de navegação herdada não estará mais disponível. Até esse ponto, os clientes podem reverter para a barra de navegação legada por meio das opções **Opções de desempenho do cliente**. |
 
 
-## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 com Platform update 26
+## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 com atualização de plataforma 26
 
 
 ### <a name="legacy-default-action-behavior"></a>Comportamento de ação padrão herdada
@@ -231,7 +231,7 @@ Suporte à criação de ordens de venda baseadas no projeto em que o contrato de
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: o período determinado para a remoção da funcionalidade é abril de 2020. |
 
-## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 com Platform update 25
+## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 com atualização de plataforma 25
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>APIs preteridas e alterações significativas possíveis
 
@@ -256,19 +256,19 @@ Suporte à criação de ordens de venda baseadas no projeto em que o contrato de
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: o aviso se tornará um erro de compilação na Platform update 26. |
 
-## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 com Platform update 24
+## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 com atualização de plataforma 24
 
 ### <a name="renaming-released-products"></a>Renomeação de produtos liberados 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Quando você usa a função **Renomear chave primária** para alterar a ItemId de um produto lançado, apenas as referências diretas à chave estrangeira são atualizadas. Quaisquer outras referências ao produto lançado, como ordens de produção, manterão a antiga ItemId. Como resultado, pode haver dados inconsistentes que por fim bloquearão os processos de negócios. |
 | **Substituída por outro recurso?**   | Nº |
-| **Áreas afetadas do produto**         | Gerenciamento de informações do produto |
+| **Áreas afetadas do produto**         | Gerenciamento de informações sobre produtos |
 | **Opção de implantação**              | Todas  |
 | **Status**                         | Removido a partir do Finance and Operations 10.0.0 com atualização de plataforma 24.|
 
 
-## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 com Platform update 23
+## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 com atualização de plataforma 23
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>Controle ReportViewer do SQL Server Reporting Services
 Os clientes podem usar a ação **Exportar** fornecida pelo controle ReportViewer do SQL Server Reporting Services (SSRS) para baixar documentos produzidos por aplicativos do Finance and Operations. Essa apresentação baseada em HTML do relatório oferece aos usuários uma visualização não paginada do documento.
@@ -302,12 +302,12 @@ Os principais indicadores de desempenho (KPIs) incorporados podem ser modelados 
 | **Substituída por outro recurso?**   | Esse aviso será substituído por um erro de compilação no futuro. |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido : O aviso é um erro de tempo de compilação nas atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations. |
+| **Status**                         | Preterido: o aviso é um erro de tempo de compilação em atualizações de plataforma para a versão 10.0.11 de aplicativos de Finanças e Operações. |
 
 #### <a name="complete-list"></a>Lista completa
 Para acessar a lista completa das APIs que estão sendo substituídas, consulte [Substituição de métodos e elementos de metadados](deprecation-deletion-apis.md).
 
-## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 com Platform update 20
+## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 com atualização de plataforma 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Regras de transferências de lote para entradas de conta no diário-razão auxiliar
 O modo de transferência Síncrono está ficando obsoleto nos parâmetros da Contabilidade.  Esse modo é substituído por lote Assíncrono e programado somente, o que já existe como opções para transferência. Para obter informações adicionais, consulte o blog [Parâmetros da contabilidade — regras de transferência em lote](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
@@ -359,7 +359,7 @@ Recurso para criar modelos para novos registros de impostos de lucro. Este recur
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | O recurso não é compatível com o modelo da extensibilidade do Finance and Operations. |
+| **Motivo para a reprovação/remoção** | O recurso não é compatível com o modelo de extensibilidade do Finance and Operations. |
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Imposto |
 | **Opção de implantação**              | Todas |
@@ -376,7 +376,7 @@ O módulo específico ao país da Rússia para gerenciar as informações de adm
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: prazo alvo para a funcionalidade ser removida é um uma das futuras atualizações da versão 10.0. |
 
-## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 com Platform update 15
+## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 com atualização de plataforma 15
 Nenhum recurso foi removido ou substituído com esta versão. A atualização 15 da plataforma é cumulativa e contém recursos novos ou alterados das atualizações 13, 14 e 15 da plataforma.
 
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise Edition 7.3 com atualização de plataforma 12
@@ -401,7 +401,7 @@ A possibilidade de introduzir funções personalizadas a serem usadas no constru
 | **Substituída por outro recurso?**   | Nenhum. Sempre que uma nova função interna for necessária, uma nova solicitação de extensão deverá ser encaminhada à equipe da estrutura de ER.<br><br>Como um trabalho temporário, enquanto a função solicitada está em desenvolvimento pela equipe do ER, a lógica exigida pode ser programada como método de classe de um aplicativo personalizado. Esse método pode ser acessado em uma expressão de ER como uma propriedade da fonte de dados adicional de ER do tipo **Aplicativo\classe** que se refere àquela classe de aplicativo personalizado.  |
 | **Áreas afetadas do produto**         | Estrutura de relatório eletrônico                                                      |
 | **Opção de implantação**              | Todas                                                                                      |
-| **Status**                         | Removido a partir do Finance and Operations, Enterprise Edition 7.3.    |
+| **Status**                         | Removido a partir do Finance and Operations, Enterprise Edition 7.3    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Relatórios de classificação por vencimento de estoque por grupo de itens e de estoque por dimensão de estoque
 
@@ -514,7 +514,7 @@ A conversão de moeda para contabilidade e moedas de relatórios foi introduzida
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portal de dispositivos móveis do depósito
 
-O portal de dispositivos móveis de depósito (WMDP) é um componente autônomo que foi criado para auto-implantação local. Não há mais suporte para este componente no Finance and Operations. Um aplicativo nativo que melhora a experiência do usuário substituiu a funcionalidade do WMDP.
+O portal de dispositivos móveis de depósito (WMDP) é um componente autônomo que foi criado para auto-implantação local. Esses dois relatórios não têm mais suporte no Finance and Operations. Um aplicativo nativo que melhora a experiência do usuário substituiu a funcionalidade do WMDP.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: d6a7b1b21816db43a92364584e15ec04b891c611
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487832"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065697"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ## <a name="introduction"></a>Introdução
 
@@ -212,7 +215,7 @@ Para obter uma lista de problemas conhecidos com exibições salvas, consulte os
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Como faço para habilitar as exibições salvas no meu ambiente?
 
 > [!NOTE]
-> O recurso **Exibições salvas** exige que o sistema de Personalização no Finance and Operations esteja habilitado. Se a personalização estiver desativada para todo o ambiente, as exibições serão desabilitadas mesmo se você seguir as etapas abaixo. 
+> O recurso **Exibições salvas** exige que o sistema de Personalização no Finanças e Operações esteja habilitado. Se a personalização estiver desativada para todo o ambiente, as exibições serão desabilitadas mesmo se você seguir as etapas abaixo. 
 
 Você pode ativar e desativar o recurso **Exibições salvas** por meio do Gerenciamento de recursos em qualquer ambiente. Após serem ativadas, as exibições salvas serão habilitadas em todas as sessões de usuário subsequentes.
 

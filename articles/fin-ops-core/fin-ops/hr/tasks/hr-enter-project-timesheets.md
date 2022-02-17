@@ -13,14 +13,17 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e33b9216838313e8f294f4f0f196b07a3d5cc9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964925"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070466"
 ---
 # <a name="enter-project-timesheets"></a>Inserir folhas de ponto do projeto
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Este procedimento permite criar uma folha de ponto usando uma página com uma folha de ponto em branco. A nova folha de ponto pode se basear nas informações de uma folha de ponto anterior ou em atribuições de projeto e de atividade na página **Meus favoritos**. Por padrão, a página de lista **Todas as folhas de ponto** mostra todas as suas folhas de ponto do período atual. Você pode usar a lista suspensa do campo **Mostrar** na página **Minhas folhas de ponto** para filtrar a lista de folha de ponto por período ou por projeto, ou para exibir as folhas de ponto que foram criadas em nome de outros trabalhadores. A empresa de dados de demonstração **USSI** foi usada para criar este procedimento.
 

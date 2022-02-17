@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40fc4c06c563415cd5b1a13c145b778276274fd97279dc9f56ff5e3f8954dc76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732000"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067445"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Otimizar consultas de tabela virtual do Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>Problema
 
@@ -47,12 +50,12 @@ Uma causa do baixo desempenho com tabelas virtuais do Dataverse para o Human Res
 Um exemplo em que você pode ver esse impacto está nas consultas sobre a entidade Trabalhador (**mshr_hcmworkerentity**) ou Trabalhador base (**mshr_hcmworkerbaseentity**). Você pode ver o próprio manifesto de problema de desempenho de diferentes maneiras:
 
 - **Execução lenta de consulta**: a consulta na tabela virtual pode retornar os resultados esperados, mas levar um tempo além do esperado para concluir a execução da consulta.
-- **Tempo limite da consulta**: a consulta pode expirar e retornar o seguinte erro: "Foi obtido um token para chamar o Finance and Operations, mas o Finance and Operations retornou um erro do tipo InternalServerError".
+- **Tempo limite da consulta**: a consulta pode atingir o tempo limite e retornar o seguinte erro: "Foi obtido um token para chamada do Finance and Operations, mas o Finance and Operations retornou um erro do tipo InternalServerError".
 - **Erro inesperado**: a consulta pode retornar um tipo de erro 400 com a seguinte mensagem: "Ocorreu um erro inesperado".
 
   ![Tipo de erro 400 em HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Limitação**: a consulta pode usar excessivamente recursos do servidor e ficar sujeita à limitação. Nesse caso, a consulta retorna o seguinte erro: "Foi obtido um token para chamar o Finance and Operations, mas o Finance and Operations retornou um erro do tipo 429". Para obter mais informações sobre a limitação no Human Resources, consulte [Perguntas frequentes sobre limitação](./hr-admin-integration-throttling-faq.md).
+- **Limitação**: a consulta pode usar excessivamente recursos do servidor e ficar sujeita à limitação. Nesse caso, a consulta retorna o seguinte erro: "Foi obtido um token para chamada do Finance and Operations, mas o Finance and Operations retornou um erro do tipo 429". Para obter mais informações sobre a limitação no Human Resources, consulte [Perguntas frequentes sobre limitação](./hr-admin-integration-throttling-faq.md).
 
   ![Tipo de erro 429 em HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -101,7 +104,7 @@ Se você tiver uma das indicações mencionadas anteriormente de baixo desempenh
 4. Na janela Navegador, expanda o nó **Entidades**.
 5. Na caixa de pesquisa, insira **mshr_hcmworkerbaseentity** e selecione a entidade.
 6. Selecione **Transformar Dados**.
-7. Na janela do Editor do Power Query, selecione **Editor Avançado**.
+7. Na janela do Editor do Power Query, selecionar **Editor Avançado**.
 8. Na janela **Editor Avançado**, atualize a consulta para ter a aparência a seguir, adicionando ou removendo colunas da matriz, conforme necessário.
 
    ```
@@ -113,14 +116,14 @@ Se você tiver uma das indicações mencionadas anteriormente de baixo desempenh
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Atualize a consulta no Editor Avançado para o Editor do Power Query.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Atualizar a consulta no Editor Avançado para o Editor do Power Query.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Selecione **Concluído**.
 
    > [!NOTE]
    > Se você recebeu anteriormente um erro do tipo 429 da consulta antes da atualização, talvez precise aguardar o período de novas tentativas antes de atualizar a consulta para que ela seja concluída com êxito.
 
-10. Clique em **Fechar e Aplicar** na faixa de opções de ação do Editor do Power Query.
+10. Clicar em **Fechar e Aplicar** na faixa de opções de ação do Editor Power Query.
 
 Você poderá começar a criar o relatório do Power BI nas colunas selecionadas a partir da tabela virtual.
 

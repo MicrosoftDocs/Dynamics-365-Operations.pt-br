@@ -9,19 +9,23 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49bb7bea167674eb81fd6d1144c6c302a7c29391
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964899"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074904"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Contratar funcionários existentes por meio de recrutamento
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> A funcionalidade mencionada neste tópico está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
+
 
 As vezes, as posições abertas poderão ser preenchidas por candidatos que já sejam funcionários da sua organização. Este procedimento apresenta as etapas para contratar um funcionário existente através do processo de recrutamento. Nesse procedimento, um projeto de recrutamento já foi estabelecido, e um funcionário existente já enviou uma solicitação de emprego ao projeto de recrutamento. A empresa de dados de demonstração **USMF** foi usada para criar este procedimento.
 

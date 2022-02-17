@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781383"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063663"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuração da gravação dupla do Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tópico explica como habilitar a gravação dupla do Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -53,18 +53,18 @@ Siga estas etapas para configurar a gravação dupla da página **Detalhes de am
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Vincular ao ambiente da Power Platform.":::
 
-8. Quando a vinculação for concluída, um hiperlink será exibido. Use a vinculação para entrar na área de administração de gravação dupla no ambiente do Finance and Operations. A partir daí, você pode configurar mapeamentos de entidade.
+8. Quando a vinculação for concluída, um hiperlink será exibido. Use o link para acessar a área de administração de gravação dupla no ambiente do Finance and Operations. A partir daí, você pode configurar mapeamentos de entidade.
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Configurar a gravação dupla para um ambiente do Dataverse existente
 
 Para configurar a gravação dupla para um ambiente do Dataverse existente, você deve criar um [tíquete de suporte](../../lifecycle-services/lcs-support.md) da Microsoft. O tíquete deve incluir:
 
-+ Sua ID de ambiente do Finance and Operations.
++ Seu ID do ambiente do Finance and Operations.
 + O nome do seu ambiente do Lifecycle Services.
 + A ID da organização do Dataverse ou a ID do ambiente da Power Platform a partir do centro de administração da Power Platform. Em seu tíquete, solicite que a ID seja a instância usada para integração da Power Platform.
 
 > [!NOTE]
-> Não é possível desvincular ambientes usando o LCS. Para desvincular um ambiente, abra o espaço de trabalho da **Integração de dados** no ambiente do Finance and Operations e selecione **Desvincular**.
+> Não é possível desvincular ambientes usando o LCS. Para desvincular um ambiente, abrir o espaço de trabalho da **Integração de dados** no ambiente do Finance and Operations e selecionar **Desvincular**.
 
 ## <a name="linking-mismatch"></a>Incompatibilidade de vinculação
 

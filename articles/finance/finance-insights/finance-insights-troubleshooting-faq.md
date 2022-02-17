@@ -2,7 +2,7 @@
 title: Solucionar problemas de configuração do Finance Insights
 description: Este tópico lista problemas que podem ocorrer ao usar os recursos da Finance insights. Ele também explica como corrigir esses problemas.
 author: panolte
-ms.date: 11/03/2021
+ms.date: 01/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968827"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064857"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Solucionar problemas de configuração do Finance Insights
 
@@ -92,3 +92,25 @@ As etapas a seguir devem ter sido concluídas.
   | ---------------------------- | ---------------- |
   | CDS de Microsserviços de ERP do Microsoft Dynamics | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Sintoma: Erro: Não encontramos dados para o intervalo de filtros selecionado. Selecione um intervalo de filtros diferente e tente novamente.  
+
+### <a name="resolution"></a>Resolução
+
+Verificar a configuração do integrador de dados para verificar se ele está funcionando conforme o esperado e a quebra do retorno dos dados de AI Builder ao Finance.  
+Para obter mais informações, consultar [Criar um projeto de integração de dados](../finance-insights/create-data-integrate-project.md).
+
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Sintoma: Falha no treinamento de previsão de pagamento de cliente e nos estados de erro de AI Builder, "a previsão deve ter somente dois valores de resultado distintos para treinar o modelo. Mapear para dois resultados e retreinar ","Problema de relatório de treinamento: IsNotMinRequiredDistinctNonNullValues".
+
+### <a name="resolution"></a>Resolução
+
+Esse erro indica que não há transações históricas suficientes no último ano que representa cada categoria descrita nas categorias **No prazo**, **Atrasado**, e **Muito atrasado**. Para resolver esse erro, ajuste o período da transação para **Muito atrasado**. Se o ajuste do período da transação **Muito atrasado** não corrigir o erro, **as previsões de pagamento do cliente** não serão a melhor solução a ser usada, já que precisa de dados em cada categoria para fins de treinamento.
+
+Para obter mais informações sobre como ajustar as categorias **No prazo**, **Atrasado** e **Muito atrasado**, consulte [Habilitar previsões de pagamento de cliente](../finance-insights/enable-cust-paymnt-prediction.md).
+
+## <a name="symptom-model-training-failed"></a>Sintoma: falha no treinamento do modelo
+
+### <a name="resolution"></a>Resolução
+
+O treinamento do modelo **Previsão de fluxo de caixa** requer dados que se estendam em mais de um ano e contém mais de 100 transações. Essas transações devem impactar as contas de liquidez incluídas na configuração de previsão de fluxo de caixa.
+
+As **Previsões de pagamento do cliente** exigem pelo menos 100 de nota fiscal de cliente e transações de pagamento nos últimos seis a nove meses para criar previsões.  
