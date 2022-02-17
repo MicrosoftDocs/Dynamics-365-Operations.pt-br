@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52740246f745272f238ec3dcf8e53f7310e4b24271da4a5d6388a1b9c4706521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774840"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074958"
 ---
 # <a name="safety-margins"></a>Margens de segurança
 
@@ -61,9 +61,6 @@ Observe que a margem de recebimento não é aplicada quando um estoque disponív
 
 ### <a name="reorder-margin"></a>Margem de segurança
 
-> [!NOTE]
-> **Em breve:** este recurso ainda não tem suporte para a Otimização de Planejamento. Até que seja compatível, todos os valores que são inseridos em **Margem de segurança adicionada ao prazo de entrega do item** serão tratados como *zero* (0).
-
 A ilustração a seguir destaca a margem de segurança.
 
 ![Margem de segurança.](media/safety-margins-3.png)
@@ -71,9 +68,6 @@ A ilustração a seguir destaca a margem de segurança.
 A margem de segurança é adicionada antes do prazo de entrega do item para todos os pedidos planejados durante o planejamento mestre. Portanto, garante mais tempo para que uma ordem de fornecimento seja feita. Essa margem é normalmente usada como um buffer para garantir tempo para outros processos de aprovação ou outros processos internos exigidos durante a criação de ordens de fornecimento. A margem de segurança é colocada entre *data da ordem* de fornecimento e *data de início*.
 
 ### <a name="issue-margin"></a>Margem de saída
-
-> [!NOTE]
-> **Em breve:** este recurso ainda não tem suporte para a Otimização de Planejamento. Até ser compatível todos os valores que são inseridos em **Margem de emissão deduzida da data obrigatória** serão tratados como *zero* (0).
 
 A ilustração a seguir destaca a margem de saída.
 

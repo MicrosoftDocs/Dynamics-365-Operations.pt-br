@@ -4,18 +4,19 @@ description: Este tópico oferece informações sobre unidades de escala de nuve
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
+ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733430"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065755"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escala em uma topologia híbrida distribuída
 
@@ -51,8 +52,7 @@ Você pode configurar seu ambiente de hub e unidades de escala de nuvem para car
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Recursos dedicados de carga de trabalho de gerenciamento de depósito em uma unidade de escala
 
-A carga de trabalho de gerenciamento de depósito permite que você execute processos de gerenciamento de depósito em uma implantação isolada.
-Para obter mais informações, consulte [Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](cloud-edge-workload-warehousing.md).
+A carga de trabalho de gerenciamento de depósito é a primeira carga de trabalho distribuída para unidades de escala a ser liberada para disponibilidade geral. Ela permite que operações de depósito sejam escaladas e executadas em um ambiente resistente usando janelas de manutenção isoladas. A carga de trabalho de gerenciamento de depósito oferece suporte à maioria dos processos de gerenciamento de depósito de hub empresarial. Para obter mais informações, consulte [Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Recursos dedicados de carga de trabalho de execução de fabricação em uma unidade de escala
 

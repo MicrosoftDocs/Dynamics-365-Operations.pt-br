@@ -18,17 +18,17 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: edb4d1217617ee3bcb7f528da4aad42fb4fb6b82
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576895"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062943"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fornecer guias de realidade combinada para trabalhadores na produção
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Os trabalhadores em processos de produção se beneficiarão das instruções relevantes fornecidas no momento certo no contexto do seu trabalho. As *instruções* se aplicam a vários domínios de trabalho, incluindo: montagem, serviço, operações, certificação e segurança. Em todas essas principais funções de negócios, as instruções de treinamento contínuo podem ajudar a capacitar os trabalhadores a produzir mais e a trabalhar melhor.
 

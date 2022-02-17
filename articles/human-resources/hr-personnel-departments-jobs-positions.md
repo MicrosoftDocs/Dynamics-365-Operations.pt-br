@@ -2,7 +2,7 @@
 title: Organizar sua força de trabalho usando departamentos, trabalhos e posições
 description: Este tópico descreve informações conceituais sobre departamentos, trabalhos e posições, que são elementos organizacionais mantidos nos Recursos Humanos.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731799"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071400"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar sua força de trabalho usando departamentos, trabalhos e posições
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -48,34 +51,20 @@ Um departamento é uma unidade operacional que representa uma categoria ou uma �
 
 ## <a name="jobs-and-positions"></a>Trabalhos e cargos
 Um trabalho é um conjunto de tarefas e responsabilidades exigidas de uma pessoa que realiza um trabalho. Um cargo é uma instância individual de um trabalho. Aspectos como áreas de responsabilidade, tarefas de trabalho, funções de trabalho, habilidades, informações de formação educacional e certificados, que são necessários para um trabalho, também são necessários para os cargos associados a um trabalho.
+
 ### <a name="job-tasks"></a>Tarefas do trabalho
+
 Você pode criar tarefas de trabalho que descrevem as tarefas básicas que devem ser realizadas por um trabalhador em um cargo desse trabalho. A mesma tarefa de trabalho pode ser adicionada a vários trabalhos, e os cargos desses trabalhos herdarão as tarefas de trabalho. Exemplos de tarefas de trabalho são listados na tabela a seguir.
 
-<table>
-<thead>
-<tr class="header">
-<th>Trabalho</th>
-<th>Tarefa do trabalho</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Gerente de vendas</td>
-<td><ul>
-<li><span class="input">Avaliação de desempenho</span> – avaliar o desempenho profissional de cada vendedor.</li>
-<li><span class="input">Avaliação de ausências</span> – aprovar ou rejeitar as solicitações ou os registros de ausência de cada vendedor.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Contador</td>
-<td><span class="input">Relatório financeiro</span> – apresentar relatórios financeiros semanais para o diretor financeiro.</td>
-</tr>
-</tbody>
-</table>
+| Trabalho           | Tarefa do trabalho                                                |
+|---------------|-------------------------------------------------------------|
+| Gerente de vendas | Avaliação de desempenho – avaliar o desempenho profissional de cada vendedor.    |
+| Contador    | Avaliação de ausências – aprovar ou rejeitar as solicitações ou os registros de ausência de cada vendedor. |
+
 
 ### <a name="job-functions"></a>Funções de trabalho
 
-As funções de trabalho são como tarefas de trabalho. Uma função de trabalho descreve uma ou várias tarefas, obrigações ou responsabilidades atribuídas a um trabalho. As funções de trabalho podem ser atribuídas a trabalhos e usadas para definir e implementar regras de qualificação para planos de remuneração. Exemplos de funções de trabalho são listados na tabela a seguir.
+As funções de trabalho são como tarefas de trabalho. Uma função de trabalho descreve uma ou diversas tarefas, obrigações ou responsabilidades atribuídas a um trabalho. As funções de trabalho podem ser atribuídas a trabalhos e usadas para definir e implementar regras de qualificação para planos de remuneração. Exemplos de funções de trabalho são listados na tabela a seguir.
 
 | Trabalho           | Função de trabalho                                                |
 |---------------|-------------------------------------------------------------|

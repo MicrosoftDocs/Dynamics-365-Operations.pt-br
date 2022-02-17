@@ -2,7 +2,7 @@
 title: Configurar a importação de dados do SharePoint
 description: Este tópico explica como importar dados do Microsoft SharePoint.
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675336"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074757"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurar a importação de dados do SharePoint
 
@@ -192,11 +192,11 @@ Você também pode abrir a página **Estados dos arquivos das origens** selecion
 
 ## <a name=""></a><a name="limitations">Limitações</a>
 
-A estrutura de ER não permite iniciar um novo trabalho em lote de execução de mapeamento de modelo no modo autônomo para a importação de dados. Para isso, você deve desenvolver uma nova lógica de forma que o mapeamento de modelo de ER configurado possa ser chamado na interface do usuário (IU) do aplicativo para importar dados de arquivos de entrada. Portanto, é necessário algum trabalho de engenharia. 
+Em versões do Dynamics 365 Finance antes da versão 10.0.25, a interface do usuário (IU) da estrutura ER não permitia iniciar um novo trabalho em lote que executasse um mapeamento de modelo para importação de dados em modo autônomo. Em vez disso, você deve desenvolver uma nova lógica de forma que o mapeamento de modelo ER configurado possa ser chamado na IU do aplicativo para importar dados de arquivos de entrada. Para desenvolver essa lógica, é necessário um trabalho de engenharia. 
 
-Se você quiser saber mais sobre a API de ER relevante, consulte a seção [Código para executar mapeamento de formato para importação de dados](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) no tópico [Alterações na API da estrutura de ER para Application update 7.3](er-apis-app73.md).
+Para obter mais informações sobre a API de ER relevante, consulte a seção [Código para executar mapeamento de formato para importação de dados](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) no tópico [Alterações na API da estrutura ER para Atualização de aplicativo 7.3](er-apis-app73.md). Analise o código na classe `BankImport_RU` do modelo `Application Suite` para ver como a lógica personalizada pode ser implementada. A classe `BankImport_RU` estende a classe `RunBaseBatch`. Em particular, analise o método `runER()`, em que o objeto `ERIModelMappingDestinationRun` é criado como o executor de um mapeamento de modelo de ER.
 
-Analise o código na classe `BankImport_RU` do modelo `Application Suite` para ver como a lógica personalizada pode ser implementada. Essa classe estende a `RunBaseBatch`. Em particular, analise o método `runER()` em que o objeto `ERIModelMappingDestinationRun` é criado como o executor de um mapeamento de modelo de ER.
+No Finance versão 10.0.25 e posterior, a estrutura de IU de ER permite iniciar um novo trabalho em lote que executará um mapeamento de modelo para importação de dados em modo autônomo. Para obter mais informações sobre esse processo, consulte [Importar dados no modo de lotes de arquivos selecionados manualmente](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -205,6 +205,8 @@ Analise o código na classe `BankImport_RU` do modelo `Application Suite` para v
 [Alterações na API da estrutura de ER para Application update 7.3](er-apis-app73.md)
 
 [Alterações na API da estrutura de ER para Application update 10.0.23](er-apis-app10-0-23.md)
+
+[Alterações na API da estrutura de ER para Application update 10.0.25](er-apis-app10-0-25.md)
 
 
 

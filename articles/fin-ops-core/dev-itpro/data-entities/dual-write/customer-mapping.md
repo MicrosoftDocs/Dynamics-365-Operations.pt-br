@@ -1,6 +1,6 @@
 ---
 title: Cliente mestre integrado
-description: Este tópico descreve a integração de dados de cliente entre o Finance and Operations e o Dataverse.
+description: Este tópico descreve a integração de dados do cliente entre o Finance and Operations e o Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 48070628aafd7daac65327a484c87dc01ffb3954
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 41e4b6c192b6125a144e4d5ef952ba0975821d44
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781681"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063280"
 ---
 # <a name="integrated-customer-master"></a>Cliente mestre integrado
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Os dados do cliente podem ser dominados em mais de um aplicativo do Dynamics 365. Por exemplo, uma linha de cliente pode se originar durante a atividade de vendas no Dynamics 365 Sales (um aplicativo de engajamento do cliente) ou uma linha pode se originar por meio da atividade de varejo no Dynamics 365 Commerce (um aplicativo de finanças e operações). Não importa onde os dados do cliente se originam, eles são integrados em segundo plano. O cliente mestre integrado oferece a flexibilidade para os dados principais do cliente em qualquer aplicativo Dynamics 365 e fornece uma visão abrangente do cliente no pacote de aplicativos do Dynamics 365.
 
@@ -32,7 +32,7 @@ Os dados do cliente podem ser dominados em mais de um aplicativo do Dynamics 365
 
 Os clientes podem ser classificados amplamente em dois tipos: clientes comerciais/organizacionais e clientes/usuários finais. Esses dois tipos de cliente são armazenados e processados de maneiras diferentes no Finance and Operations e no Dataverse.
 
-No Finance and Operations, os clientes comerciais/organizacionais e os consumidores/usuários finais são dominados em uma única tabela chamada **CustTable** (CustCustomerV3Entity) e classificados com base no atributo **Tipo**. (Se **Tipo** estiver definido como **Organização**, o cliente será um cliente comercial/organizacional. Se **Tipo** estiver definido como **Pessoa**, o cliente terá um cliente/usuário final.) As informações da pessoa de contato principal é manipulada através da tabela SMMContactPersonEntity.
+No Finance and Operations, os clientes comerciais/organizacionais e os clientes/usuários finais são dominados em uma única tabela denominada **CustTable** (CustCustomerV3Entity) e são classificados com base no atributo **Tipo**. (Se **Tipo** estiver definido como **Organização**, o cliente será um cliente comercial/organizacional. Se **Tipo** estiver definido como **Pessoa**, o cliente terá um cliente/usuário final.) As informações da pessoa de contato principal é manipulada através da tabela SMMContactPersonEntity.
 
 No Dataverse, clientes comerciais/organizacionais são dominados na tabela Conta e identificados como clientes quando o atributo **RelationshipType** é definido como **Cliente**. Os clientes/usuários finais e a pessoa de contato são representados pela tabela Contato. Para fornecer uma separação clara entre um consumidor/usuário final e uma pessoa de contato, a tabela **Contato** tem um sinalizador booliano denominado **Comercializável**. Quando **Comercializável** for **Verdadeiro**, o contato será um cliente/usuário final; as cotações e ordens podem ser criadas para esse contato. Quando **Comercializável** for **Falso**, o contato será apenas uma pessoa de contato principal de um cliente.
 

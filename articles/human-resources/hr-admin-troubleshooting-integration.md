@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413359"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071101"
 ---
 # <a name="integration-with-finance-faq"></a>Integração com Perguntas frequentes do Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Esse tópico responde perguntas comuns associadas a quais dados são sincronizados quando o Dynamics 365 Human Resources é integrado ao Dynamics 365 Finance.
 
@@ -86,7 +89,7 @@ Nenhuma configuração especial é necessária para tratamento de exceções. O 
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Posso configurar uma integração bidirecional?
 
-Não, a integração no momento é um caminho com direção única (rHuman Resources a Finance and Operations). Contudo, há um modelo padrão disponível para enviar dados do Human Resources para o Finance.
+Não, a integração atualmente só tem uma direção (Human Resources para Finance and Operations). Contudo, há um modelo padrão disponível para enviar dados do Human Resources para o Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Posso permitir a exclusão de registro como parte da minha integração?
 
@@ -148,7 +151,7 @@ Se a entidade é compatível e os dados estão disponíveis no Dataverse, verifi
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Os endereços de meus funcionários ficaram incorretos depois que importei esses dados para o Finance. O que devo fazer?
 
-A sequência numérica para **ID da localização** usa o mesmo padrão, tanto no Human Resources como no Finance. A sequência numérica deve ser exclusiva nos dois lados para que não haja colisão de endereços ao integrar os dados do Dataverse ao Finance and Operations.
+A sequência numérica para **ID da localização** usa o mesmo padrão, tanto no Human Resources como no Finance. A sequência numérica deve ser exclusiva nos dois lados para que não haja colisão de endereços ao integrar os dados do Dataverse com o Finance and Operations.
 
 Durante a implementação do Human Resources, verifique se as sequências numéricas não são as mesmas no Human Resources e no Finance. Garanta que todas as sequências numéricas não sejam idênticas onde os dados podem ser mantidos em ambos os sistemas.
 

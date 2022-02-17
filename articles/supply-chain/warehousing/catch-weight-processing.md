@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738140"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087361"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -138,7 +138,6 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 - Os produtos de peso variável habilitados para variante não podem ser usados com a funcionalidade para converter unidades de medida variantes.
 - Não é possível marcar produtos de peso variável como um "kit de produto" de comércio.
 - Os produtos de peso variável podem ser usados apenas com um grupo de sequências de unidade que tem unidades de manuseio de material de peso variável e que tem a unidade de peso variável como a sequência mais baixa.
-- Para produtos de peso variável, a unidade de estoque pode ser convertida na unidade de peso variável somente quando a conversão gera uma quantidade nominal maior que 1.
 - A configuração de códigos de barras para produtos de peso variável não suporta uma configuração de peso variável.
 
 ### <a name="order-processing"></a>Processamento de ordens

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec6d47c44136f7a105a702358370dd676d9339c1
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018339"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024558"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Mesclagem de infraestrutura do Dynamics 365 Human Resources – atualização da versão 10.0.25
 
@@ -53,7 +53,7 @@ A mesclagem fornecerá consistência para os usuários do Human Resources das se
     | Imprimir revisões de desempenho | Você pode imprimir avaliações de desempenho em formato PDF. | Geralmente disponível | 
     | Links personalizados em **Autoatendimento para gerentes** | Você pode criar links personalizados que aparecem na seção **Links relacionados** de **Autoatendimento para gerentes**. | Geralmente disponível | 
     | Exibição da remuneração interempresarial | Os usuários podem exibir planos de compensação em **Autoatendimento para gerentes** em todas as entidades legais, sem a necessidade de troca de empresas. | Geralmente disponível | 
-    | Configurar vários níveis de compensação por trabalho\*&dagger; | Agora, os trabalhos dão suporte a vários níveis de compensação. | Geralmente disponível | 
+    | Configurar vários níveis de compensação por trabalho\*&dagger; | Agora, os trabalhos dão suporte a vários níveis de compensação. | Versão preliminar | 
     | Gerenciamento de Tarefas\* | Você pode criar listas de verificação e tarefas para o processo de integração, remoção e transição. | Versão preliminar | 
     | Entrada de funcionário simplificada | Esse recurso oferece uma experiência de usuário atualizada na página **Trabalhador** existente. | Versão preliminar | 
     | Aprimoramentos na experiência do usuário de recursos humanos | Consulte a tabela na próxima seção.  | Versão preliminar | 

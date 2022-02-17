@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: f0c477d869e0bc1e0c3f58a722c140284fbcffca
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 66c5962933387831bbc3f17b9f29128ceaaf750b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782250"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063203"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Sites e depósitos integrados
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tópico descreve a integração de dados do site e do depósito entre o Finance and Operations e o Dataverse. Sites e depósitos operacionais são conceitos comuns em um aplicativo do Supply Chain Management. Eles são usados para modelar a cadeia de fornecedores da sua empresa.
 

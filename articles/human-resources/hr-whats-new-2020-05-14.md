@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754128"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063738"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (14 de maio de 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3244. Os números entre parênteses em alguns cabeçalhos referem-se aos números de suporte do Lifecycle Services (LCS) para referência.
 
 ## <a name="platform-changes"></a>Alterações na plataforma
 
-As alterações de plataforma são incluídas na versão desta semana. Para obter mais informações, consulte [Atualizações de plataforma para a versão 10.0.10 dos aplicativos do Finance and Operations (maio de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Esta versão inclui correções de bug e alterações nas exibições salvas.
+As alterações de plataforma são incluídas na versão desta semana. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.10 dos aplicativos de Finanças e Operações (maio de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Esta versão inclui correções de bug e alterações nas exibições salvas.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Verifique se as listas de separação do Dataverse estão consistentes com as enumerações Licença (436343)
 

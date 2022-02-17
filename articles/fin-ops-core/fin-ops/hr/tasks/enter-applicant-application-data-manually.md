@@ -8,21 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964697"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075441"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Inserir dados do candidato e da solicitação de emprego manualmente
 
-[!include [banner](../../includes/banner.md)]
+> [!IMPORTANT]
+> A funcionalidade mencionada neste tópico está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
+
 
 Este procedimento mostra como manter manualmente as informações sobre os candidatos e a solicitação de emprego. Você pode inserir e manter as informações pessoais, as datas e os horários de entrevista, as referências, as competências e as solicitações de acomodação para candidatos. Você também pode atualizar o status das ordens de candidatos de emprego e criar cartas ou mensagens de email para comunicar-se com os candidatos. Quando você criar um registro do candidato, um registro para o candidato é criado no catálogo de endereços global. A empresa de dados de demonstração **USMF** foi usada para criar este procedimento.
 

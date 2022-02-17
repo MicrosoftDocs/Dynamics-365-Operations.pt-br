@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea77f112413a5b7d5c96768ad46fdb361023bd84
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: b76102111a8506882f2301d76856ae1a34a7c704
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964874"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065672"
 ---
 # <a name="employment-verification-i9-verification"></a>Verificação de verificação i9 de emprego
 
 [!include [banner](../../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../../includes/peap-1.md)]
 
 O Ato de Reforma e Controle de Imigração exige que os empregadores norte-americanos verifiquem o status de elegibilidade para emprego dos funcionários recém-contratados. Este procedimento irá apresentar as etapas que compõem o registro dos documentos necessários para verificação do I-9. Utilize a empresa USMF para esse procedimento.
 

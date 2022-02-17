@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1aac3c50cbe40d65abc9bedcdd2a64a6e5a1c1ad
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 1cf4ed8d2373a71594b9b03306c582ed998b6e39
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431175"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071395"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Criar links personalizados no Autoatendimento para gerentes
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -36,11 +39,11 @@ Para usar esse recurso, habilite **Links personalizados no Autoatendimento para 
 
 1. em **Parâmetros do Human Resources**, selecione **Autoatendimento para gerentes**.
 
-2. Em **Configurar links para Gerentes**, você pode adicionar, editar ou remover um link. Também é possível agrupar os links para que sejam exibidos em um grupo no Autoatendimento para gerentes.
+2. Em **Configurar links para Gerentes**, você pode adicionar, editar ou remover um link. Também é possível agrupar os links para que sejam exibidos em um grupo em **Autoatendimento para gerentes**.
 
    ![Configurar links personalizados no Autoatendimento para gerentes.](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
-3. Para ver os links, acesse a guia **Minha equipe** no Autoatendimento para funcionários.
+3. Para ver os links, acesse a guia **Minha equipe** no **Autoatendimento para funcionários**.
 
    ![Exibir links personalizados no Autoatendimento para gerentes.](./media/hr-employee-manager-self-service-custom-links-view.png)
 

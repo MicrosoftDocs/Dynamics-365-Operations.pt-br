@@ -1,6 +1,6 @@
 ---
 title: Fornecedor mestre integrado
-description: Este tópico descreve a integração de dados do fornecedor entre os aplicativos Finance and Operations e o Dataverse.
+description: Este tópico descreve a integração de dados do fornecedor entre aplicativos do Finance and Operations e o Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782468"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063153"
 ---
 # <a name="integrated-vendor-master"></a>Fornecedor mestre integrado
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 O termo *fornecedor* refere-se a uma organização fornecedora ou a um único proprietário que fornece bens ou serviços a uma empresa. Embora *fornecedor* seja um conceito estabelecido no Microsoft Dynamics 365 Supply Chain Management, nenhum conceito de fornecedor existe nos aplicativos do Customer Engagement. No entanto, você pode sobrecarregar a tabela **Conta/Contato** para armazenar informações do fornecedor. O fornecedor mestre integrado introduz um conceito explícito de fornecedor nos aplicativos do Customer Engagement. Você pode usar o novo design de fornecedor ou armazenar dados do fornecedor na tabela **Conta/Contato**. A gravação dupla oferece suporte às duas abordagens.
 
@@ -37,7 +37,7 @@ Se quiser continuar armazenando dados do fornecedor na tabela **Conta/Contato**,
 ![Fluxo de dados estendidos do fornecedor.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Se você estiver usando os portais do Power Apps para fornecedores de autoatendimento, as informações do fornecedor poderão entrar diretamente nos aplicativos do Finance and Operations.
+> Se você estiver usando os portais do Power Apps para fornecedores de autoatendimento, as informações do fornecedor poderão entrar diretamente nos aplicativos de Finanças e Operações.
 
 ## <a name="templates"></a>Modelos
 
@@ -52,7 +52,7 @@ Aplicativos do Finance and Operations | Aplicativos do Customer Engagement     |
 [Linhas de plano de pagamento](mapping-reference.md#159) | msdyn_paymentschedulelines | Sincroniza dados de referência de linhas de plano de pagamento de clientes e fornecedores.
 [Agenda de pagamento](mapping-reference.md#160) | msdyn_paymentschedules | Este modelo sincroniza dados de referência de planos de pagamento de clientes e fornecedores.
 [Condições de pagamento](mapping-reference.md#161) | msdyn_paymentterms | Este modelo sincroniza dados de referência de condições de pagamento (condições de pagamento) de clientes e fornecedores.
-[Fornecedores V2](mapping-reference.md#202) | msdyn_vendors | As empresas que usam uma solução personalizada para fornecedores podem aproveitar o conceito de fornecedor pronto para uso que está sendo apresentado no Dataverse com a integração de aplicativos do Finance and Operations.
+[Fornecedores V2](mapping-reference.md#202) | msdyn_vendors | As empresas que usam uma solução personalizado para fornecedores podem aproveitar o conceito de fornecedor pronto para uso que está sendo apresentado no Dataverse com a integração de aplicativos do Finance and Operations.
 [Grupos de fornecedores](mapping-reference.md#200) | msdyn_vendorgroups | Este modelo sincroniza informações do grupo de fornecedores.
 [Método de pagamento do fornecedor](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Este modelo sincroniza informações sobre o método de pagamento dos fornecedores.
 

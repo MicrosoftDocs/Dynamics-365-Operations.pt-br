@@ -9,22 +9,22 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: ec5afd92a71c8b12c913de78a513abb0959df88a
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f83a064bfc8896bdf76bcd38f9187ed0e1ea56cf
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782052"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062304"
 ---
 # <a name="troubleshoot-issues-related-to-solution-awareness"></a>Solucionar problemas relacionados ao reconhecimento da solução
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que são relacionados ao reconhecimento da solução.
+
+Este tópico fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que são relacionados ao reconhecimento da solução.
 
 > [!IMPORTANT]
 > Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.

@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: e87bef8994fe1eac0089764c8d4f9b18289c13ea
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423462"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069621"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação 
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -229,7 +232,7 @@ Os períodos definem quando os benefícios estão em vigor e quando os funcioná
 
 ## <a name="configure-programs"></a>Configurar programas
 
-Os programas são um conjunto de planos de benefícios que compartilham um conjunto comum de regras de qualificação. Você pode definir regras de qualificação para todo o programa em vez de para cada plano individual. Por exemplo, um programa FTE da Contoso Canadá ou um programa de nível executivo da Contoso da Europa. 
+Os programas são um conjunto de planos de benefícios que compartilham um conjunto comum de regras de qualificação. Você pode definir regras de qualificação para todo o programa em vez de para cada plano individual. Por exemplo, um programa FTE da Contoso Canadá ou programa executivo da Contoso Europa. 
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Configuração**, selecione **Regras e opções de qualificação**.
 
