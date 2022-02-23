@@ -1,10 +1,12 @@
 ---
 title: Importar catálogos do fornecedor
 description: Este tópico descreve o processo para importar dados do catálogo do fornecedor.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, CatVendorCatalogDetails, CatVendorCatalogReleaseApprovedProducts, CatVendorCMRDetails, CatVendorCatalogProductPerCompanyStatus, CatVendorMaintenanceEventLog, CatVendorCatalogReviewTool, CatVendorCatalogFileUpload, CatVendorCatalogMaintenanceRequest, CatVendorCatalogFileInLegalEntity, CatVendorCatalogSchema, CatVendorCatalogFilePreviewPane, CatVendorCatalogImportParameter
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: fb7e9735ac29fae50a4a3874b713a9a75799605c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6a6fc2b4fe4245a1fe5b5a7eaafe8cc7fd337ab9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570384"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020745"
 ---
 # <a name="import-vendor-catalogs"></a>Importar catálogos do fornecedor
 
@@ -67,6 +69,3 @@ O modelo do arquivo de importação de catálogo é um arquivo XSD usado para cr
 3. Na caixa de diálogo **Salvar como**, selecione o local onde você deseja armazenar o modelo de arquivo de catálogo e salve o arquivo.
 
 Para obter mais informações e ver exemplos, consulte estas postagem de blog: [Catálogos de fornecedor no Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

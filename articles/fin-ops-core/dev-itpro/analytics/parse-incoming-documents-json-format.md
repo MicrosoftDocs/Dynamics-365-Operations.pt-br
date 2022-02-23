@@ -2,9 +2,11 @@
 title: Analisar documentos de entrada no formato JSON
 description: Este tópico explica como configurar formatos de relatórios eletrônicos (ER) para analisar documentos de entrada no formato de Notação de Objeto de JavaScript (JSON).
 author: kfend
+manager: AnnBe
 ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ba30b06cc0c4af230113d532a932594278e13b29a87e6252849483c9dfcbc198
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4ed81bb5527ea8e02caaa1262a57960dd7cdf29
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713909"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685754"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>Analisar documentos de entrada no formato JSON
 
@@ -48,6 +50,3 @@ Além disso, você deverá concluir o guia de tarefas [ER Criar as configuraçõ
 | Cargo                  | Nome do arquivo |
 |------------------------|-----------|
 | Configuração de modelo ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

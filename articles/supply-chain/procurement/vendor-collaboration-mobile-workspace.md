@@ -1,25 +1,27 @@
 ---
 title: Espaço de trabalho móvel de colaboração de fornecedores
 description: Este tópico fornece informações sobre a área de trabalho móvel de colaboração de fornecedor. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: henrikan
+ms.author: riluan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577015"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020827"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espaço de trabalho móvel de colaboração de fornecedores
 
@@ -57,7 +59,7 @@ A área de trabalho móvel **Colaboração de fornecedor** permite ao fornecedor
 Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Pré-requisito para usar o Supply Chain Management
-Se o Supply Chain Management foi implantado para sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Colaboração do fornecedor**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Se o Supply Chain Management foi implantado para sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Colaboração do fornecedor**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usa a versão 1611 do Microsoft Dynamics 365 for Operations com a atualização de plataforma 3 ou posterior
 Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de plataforma 3 ou posterior foi implantado na organização, o administrador do sistema deverá atender aos pré-requisitos a seguir. 
@@ -77,7 +79,7 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de p
 <td>KB 3216943 é uma atualização binária que é necessária se você estiver usando a atualização da plataforma 3. Para implementar este KB, o administrador do sistema deve seguir estas etapas.
 <ol>
 <li>Baixe o KB 3216943 do Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li>Instale a atualização binária, que é entregue como um pacote implantável. Para obter informações sobre como aplicar um pacote implantável, consulte<a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicar um pacote implantável</a>.</li>
+<li>Instale a atualização binária, que é entregue como um pacote implantável. Para obter informações sobre como aplicar um pacote implantável, consulte<a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar um pacote implantável</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -85,14 +87,14 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de p
 <td>Administrador do sistema</td>
 <td>o KB 4013633 é um hotfix de metadados ou uma atualização X++ que contém o espaço de trabalho móvel de <strong>Estoque disponível</strong>. Para implementar o KB 4013633, o administrador do sistema deve seguir estas etapas.
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixe o hotfix de metadados de LCS</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicar o pacote implantável</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Baixe o hotfix de metadados de LCS</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalar o hotfix de metadados</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
+<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar o pacote implantável</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>A área de trabalho móvel <strong>Colaboração de fornecedor</strong> deve ser publicada.</td><td>Administrador do sistema</td>
-<td>Consulte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar um espaço de trabalho móvel</a>.</td>
+<td>Consulte <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publicar um espaço de trabalho móvel</a>.</td>
 </tr>
 <tr class="even">
 <td>O usuário do fornecedor deve ter acesso à interface da web de colaboração do fornecedor no cliente da web e deve configurar um usuário de colaboração do fornecedor.</td><td>Profissionais de compras e o administrador do sistema</td>
@@ -120,12 +122,12 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 4.  Na primeira vez que você iniciar a sessão, será solicitado a você o nome de usuário e senha. Insira suas credenciais.
 5.  Depois de entrar, serão exibidos os espaços de trabalho disponíveis da sua empresa. Observe que se o seu administrador de sistema publica um novo espaço de de trabalho depois, você terá que atualizar a lista dos espaços de trabalho móveis.
 
-    [![Efetue pull para atualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Efetue pull para atualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Use a área de trabalho móvel de colaboração de fornecedor
 Quando você selecionar a área de trabalho **Colaboração de fornecedor**, você verá as seguintes opções.
 
-![Espaço de trabalho móvel de colaboração de fornecedor.](./media/vendor-collaboration-mobile-app.png)
+![Espaço de trabalho móvel de colaboração de fornecedores](./media/vendor-collaboration-mobile-app.png)
 
 A área de trabalho **Colaboração de fornecedor** inclui as seguintes páginas.
 
@@ -167,6 +169,3 @@ Todas as alterações feitas na resposta da linha de ordem são mostradas. No en
 
 ### <a name="open-confirmed-orders"></a>Abrir ordens confirmadas
 Quando a ordem de compra é confirmada pelo cliente (ou seja, o status da ordem de compra é alterado para **Confirmado**), ela aparece na ordem confirmada aberta. Ela permanecerá na lista até que seja registrado como recebido pelo cliente.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,27 @@
 ---
 title: Monitorar o estoque de consignação usando a colaboração de fornecedor
 description: Este procedimento mostra como usar a colaboração de fornecedor para ver as informações sobre o nível de estoque de produtos que você fez na remessa com um cliente.
-author: yufeihuang
+author: RichardLuan
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0d194728805cd1eee741069538352b497867981
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f2e782bed4cd9f2f13e2ee45afffaef277279131
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571824"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020120"
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>Monitorar o estoque de consignação usando a colaboração de fornecedor
 
@@ -29,7 +31,7 @@ Este procedimento mostra como usar a colaboração de fornecedor para ver as inf
 
 
 ## <a name="view-consumed-inventory"></a>Exibir estoque consumido
-1. Acesse Colaboração do fornecedor > Estoque de consignação > Produtos recebidos de estoque de consignação.
+1. Vá para Colaboração do fornecedor > Estoque de consignação > Produtos recebidos de estoque de consignação.
     * A lista mostra as linhas do recebimento de produtos geradas quando a propriedade do estoque foi alterada de remessa do fornecedor para o cliente. Pode ser necessário rolar à direita para consultar as quantidades e outras informações. Você pode usar informações nesta lista para gerar notas fiscais para o cliente. Você também pode exportar dados para o Microsoft Excel.   
 2. Clique em Visualizar ordem de compra.
 3. Expanda a seção Detalhes da linha.
@@ -37,9 +39,6 @@ Este procedimento mostra como usar a colaboração de fornecedor para ver as inf
 4. Feche a página.
 
 ## <a name="view-on-hand-inventory"></a>Exibir estoque disponível
-1. Acesse Colaboração do fornecedor > Estoque de consignação > Estoque de consignação disponível.
+1. Vá para Colaboração do fornecedor > Estoque de consignação > Estoque de consignação disponível.
     * Disponível a página de remessa de estoque mostra o estoque que você possui em depósito de cliente. Você pode mostrar dimensões adicionais, como o site e o depósito, clique na guia dimensões de exibição.   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

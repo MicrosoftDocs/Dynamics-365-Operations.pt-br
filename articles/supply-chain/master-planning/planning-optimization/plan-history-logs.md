@@ -2,13 +2,16 @@
 title: Exibir logs de histórico de plano e de planejamento
 description: Este tópico explica como exibir o histórico de trabalhos de planejamento disparados pela funcionalidade Otimização de Planejamento.
 author: ChristianRytt
+manager: tfehr
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MPSPlanRegenerationJobList, MPSPlanRegenerationJobLogs
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 757d2103bd629c0107a3f29599196a56ea56d431a66cf1e69c7b3cf3d817c087
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4f701a85979cce3fa4840b48279c45ec565612b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724811"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422415"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Exibir logs de histórico de plano e de planejamento
 
@@ -31,30 +34,16 @@ Este tópico explica como exibir o histórico de trabalhos de planejamento dispa
 
 Para exibir o histórico de um plano, abra o plano em **Planejamento mestre** \> **Configuração** \> **Planos** \> **Planos mestres** e selecione **Histórico**. O histórico lista todos os trabalhos do plano selecionado. A lista inclui os trabalhos concluídos e ativos.
 
-O histórico dos trabalhos para execuções de planejamento mestre da Otimização de Planejamento mantém apenas até 60 registros por plano mestre. Sempre que você executa um novo cálculo de planejamento mestre, o registro histórico mais antigo desse plano é excluído.
-
-Além de verificar a hora inicial e o status de trabalhos, você pode exibir o log para um determinado trabalho. O log inclui informações e avisos adicionais. Nem todos os trabalhos têm um log. Para exibir o log para um trabalho, selecione **Log**. As entradas de registro só são armazenadas por 30 dias após a data de término do trabalho, depois disso, são automaticamente excluídas.
-
-Se a opção **Processamento em lotes** na Guia Rápida **Executar em segundo plano** foi habilitada durante a configuração do processamento do planejamento, o log do trabalho em lotes mostrará mais informações sobre quaisquer avisos e erros que foram gerados durante a execução do planejamento mestre. Por exemplo, os erros de confirmação automática são capturados somente no log do trabalho em lotes. Elas não são mostradas nos logs da página **Histórico**.
-
-Para exibir erros de confirmação automática e outros avisos ou erros ocorridos durante a execução de um planejamento mestre, siga estas etapas:
-
-1. Acesse **Administração do sistema \> Consultas \> Trabalhos em lotes**.
-1. Encontre e selecione o registro que representa o planejamento mestre executado no qual você está interessado. (Por exemplo, o valor do campo **Descrição do trabalho** pode começar com *Planejamento mestre*.)
-1. Siga uma destas etapas, dependendo se você estiver usando o *formulário avançado* ou o *formulário herdado (não avançado)* para a página **Trabalhos em lotes**:
-
-    - Se estiver usando o formulário avançado: no Painel de Ações, selecione **Histórico de trabalho em lotes**. Em seguida, na página **Histórico de trabalho em lotes**, no Painel de Ações, selecione **Log**.
-    - Se estiver usando o formulário herdado: no Painel de Ações, na guia **Trabalho em lotes**, selecione **Log**.
-
-1. Selecione **Detalhes da mensagem** para abrir o painel **Detalhes da mensagem**, no qual você poderá exibir todos os avisos e erros capturados durante o processamento.
+Além de verificar a hora inicial e o status de trabalhos, você pode exibir o log para um determinado trabalho. O log inclui informações e avisos adicionais. Nem todos os trabalhos têm um log. Para exibir o log para um trabalho, selecione **Log**.
 
 ## <a name="related-resources"></a>Recursos relacionados
 
-- [Visão geral da Otimização do Planejamento](planning-optimization-overview.md)
-- [Introdução à Otimização do Planejamento](get-started.md)
-- [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
-- [Aplicar filtros a um plano](plan-filters.md)
-- [Cancelar um trabalho de planejamento](cancel-planning-job.md)
+[Visão geral da Otimização de Planejamento](planning-optimization-overview.md)
 
+[Introdução à Otimização de Planejamento](get-started.md)
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
+
+[Aplicar filtros a um plano](plan-filters.md)
+
+[Cancelar um trabalho de planejamento](cancel-planning-job.md)

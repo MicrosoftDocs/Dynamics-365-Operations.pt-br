@@ -1,10 +1,12 @@
 ---
 title: ER Componentes do mapa do formato criado para elementos do modelo de dados (Novembro de 2016)
-description: Este tópico descreve como mapear elementos de modelo de dados para componentes da configuração de relatório eletrônico (ER) criada.
+description: O seguinte procedimento mostra como um usuário na função de Administrador do sistema ou desenvolvedor de Relatório eletrônico pode mapear elementos do modelo de dados para componentes da configuração de Relatório eletrônico (ER) criada, que define um formato de documento eletrônico para o domínio da empresa de pagamentos.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ae4b3123660d123fc5c06cbe0a69d5c66d306252ec2a117a1e6045505022f5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775991"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684322"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Componentes do mapa do formato criado para elementos do modelo de dados (Novembro de 2016)
 
@@ -111,6 +113,3 @@ Cada versão do formato pode ser configurada como disponível para uso a partir 
 1. Expanda a seção Códigos ISO de país/região.
     * Cada acesso ao formato pode ser restringido através da identificação de países/regiões específicos nos quais um formato é aplicável. Quando a lista de países/regiões de um formato específico estiver vazia, esse formato poderá ser usado em qualquer empresa. Quando alguns códigos de países/regiões ISO forem inseridos na lista de países/regiões, o formato somente pode ser usado nas empresas, se os endereços principais estiverem no país/região.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
 title: ​Monitorar precisão da previsão​
 description: Este tópico descreve os tipos de precisão de previsão calculados pelo Dynamics 365 Supply Chain Management e explica como é possível exibir os valores de precisão.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 72863
 ms.assetid: 810a0d63-f4c6-4167-b2b3-a178b74ead89
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4246a277aa5d88193c18336cb1de69916ec2a3c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 60e5425e54f9e0093888f355a51064e7f0057976
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565774"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422412"
 ---
 # <a name="monitor-forecast-accuracy"></a>​Monitorar precisão da previsão​
 
@@ -38,7 +41,8 @@ O Supply Chain Management calcula os seguintes tipos de precisão de previsão:
 > Se você usar o Aprendizado de Máquina do Microsoft Azure de previsão de demanda, o cálculo da precisão do modelo interno se baseará no conjunto de dados de teste. Para especificar tamanho do conjunto de dados de teste, defina o parâmetro **TEST\_SET\_SIZE\_PERCENT** na página **Parâmetros de previsão de demanda**. Por exemplo, se você definir o valor como **20**, os últimos 20% dos dados históricos serão usado para calcular a precisão do modelo interno.
 
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Autorizar uma previsão ajustada](authorize-adjusted-forecast.md)
 
@@ -46,6 +50,3 @@ O Supply Chain Management calcula os seguintes tipos de precisão de previsão:
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

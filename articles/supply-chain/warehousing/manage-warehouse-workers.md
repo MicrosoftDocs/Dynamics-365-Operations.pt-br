@@ -1,32 +1,35 @@
 ---
 title: Gerenciar trabalhadores de depósito
-description: Este artigo descreve como você pode usar o aplicativo móvel do Gerenciamento de Depósito para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
+description: Este artigo descreve como você pode usar o aplicativo de depósito para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
 author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a3261571f7ba43a79ee42afd8cdfe9b69cb83c01de3e4b2b89d2b0aae668ea2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2156b5de6abc3751cae1822b3825acbbd0b9a712
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757509"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422500"
 ---
 # <a name="manage-warehouse-workers"></a>Gerenciar trabalhadores de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve como você pode usar o aplicativo móvel do Gerenciamento de Depósito para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
+Este artigo descreve como você pode usar o aplicativo de depósito para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
 
 Se você estiver usando a funcionalidade no Gerenciamento de depósito, todas as operações do trabalhador do depósito serão referenciadas como *trabalho*. Trabalhos como separação, movimentação e contagem de estoque disponível são registrados por meio de dispositivos móveis. Para que um trabalhador do depósito possa executar um trabalho, ele deve estar associado a um trabalhador do departamento de recursos humanos. Cada conta de **Trabalhador** pode ter vários usuários de trabalho de depósito associados a ela. Esses usuários podem trabalhar em depósitos diferentes e podem ter diferentes níveis de acesso aos vários menus de dispositivos móveis. Considere os usuários de trabalho de depósito como vários logons do trabalhador selecionado. Cada usuário de trabalho tem um depósito padrão; e os fluxos de trabalho específicos são expostos pelos itens de menus que estão disponíveis para esse usuário de trabalho. 
 
@@ -54,6 +57,3 @@ A análise do tempo utilizado para processar itens de trabalho pode ajudar a mel
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

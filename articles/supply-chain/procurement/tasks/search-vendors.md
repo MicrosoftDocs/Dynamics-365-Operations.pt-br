@@ -1,24 +1,26 @@
 ---
 title: Procurar fornecedores
 description: Aprenda como pesquisar fornecedores com base em critérios específicos.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendSearchCriterion, VendSearchAddCategory, VendSearchAddReviewCriterionGroup, VendSearchResults, VendSearchAddReviewCriterion
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9fd2b300586e5a4880a21fa2251342f37726ad0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7caa146532d2bce06b009c45da635327766a88d1
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577135"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020695"
 ---
 # <a name="search-for-vendors"></a>Procurar fornecedores
 
@@ -26,7 +28,7 @@ ms.locfileid: "7577135"
 
 Aprenda como pesquisar fornecedores com base em critérios específicos. Este exemplo mostra como procurar fornecedores que estão aprovados para uma categoria de aquisição específica e têm seu endereço principal em um país/região específico. Você pode executar esse procedimento na empresa de dados demonstrativos USMF, ou usando seus próprios dados. Essa tarefa é tipicamente realizada por um profissional de aquisição.
 
-1. Acesse Aquisição e fornecimento > Fornecedores > Pesquisa de fornecedores.
+1. Vá para Aquisição e fornecimento > Fornecedores > Pesquisa de fornecedores.
 2. Clique no ícone Mais para abrir a página de seleção da categoria de aquisição.  
 3. Na árvore, selecione 'CATEGORIAS DE AQUISIÇÃO CORPORATIVA\MÁQUINAS DE ESCRITÓRIO'.
     * Se você estiver executando este procedimento como um guia de tarefa, você talvez precise clicar no botão Desbloquear antes de poder selecionar o nó correto. Se você não estiver usando USMF, selecione uma das categorias que você tenha.  
@@ -36,6 +38,3 @@ Aprenda como pesquisar fornecedores com base em critérios específicos. Este ex
 6. No campo País/Região, digite um valor.
 7. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

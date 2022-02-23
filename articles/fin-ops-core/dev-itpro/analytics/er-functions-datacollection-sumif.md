@@ -2,8 +2,11 @@
 title: Função SUMIF ER
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) SUMIF é usada.
 author: NickSelin
+manager: kfend
 ms.date: 04/27/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8721e0115ab3c5ebe3071fe0b9ca5a80db766b0878d886b186f3f3d39f4a6397
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52f9cdb78efa6fe0dbebd2ffd78cd6e9185d6b2e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747608"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685342"
 ---
 # <a name="sumif-er-function"></a>Função SUMIF ER
 
@@ -64,6 +67,3 @@ Para obter mais informações e exemplos sobre como usar essa função, consulte
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de coleta de dados](er-functions-category-data-collection.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

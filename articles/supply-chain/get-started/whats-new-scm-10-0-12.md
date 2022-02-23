@@ -2,24 +2,27 @@
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
+manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 89959095eb64c66e92c9d93d0a3f4caabe7d14bf7121683a7d35d3719a3e36ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a210af5e37e12d883054d46719602604870213b4
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728594"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4422487"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
 
@@ -33,25 +36,25 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
-Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
+Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](https://docs.microsoft.com/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
-- [Permitir bloqueio da tela touch da ficha de trabalho para limpeza](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Para obter mais informações, consulte [Configurar ficha de trabalho para dispositivos](../production-control/config-job-card-device.md).
+- [Permitir bloqueio da tela touch da ficha de trabalho para limpeza](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Para obter mais informações, consulte [Configurar ficha de trabalho para dispositivos](../production-control/config-job-card-device.md).
 
-- [Capturar grades de produtos e dimensões de rastreamento no aplicativo de depósito durante recebimento do item de carga](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Para obter mais informações, consulte [Configurar dispositivos móveis para trabalho de depósito](../warehousing/configure-mobile-devices-warehouse.md).
+- [Capturar grades de produtos e dimensões de rastreamento no aplicativo de depósito durante recebimento do item de carga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Para obter mais informações, consulte [Configurar dispositivos móveis para trabalho de depósito](../warehousing/configure-mobile-devices-warehouse.md).
 
 - Nível de cálculo de custo (novo nível de BOM)<br> - Para obter mais informações, consulte [Nível de cálculo de custo](../cost-management/cost-calculation-level.md).
 
-- [Portal do cliente do Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Para obter mais informações, consulte [Visão geral do portal do cliente do Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+- [Portal do cliente do Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Para obter mais informações, consulte [Visão geral do portal do cliente do Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
 
-- [Insights principais de inteligência da IoT](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Para obter mais informações, consulte [Home page de inteligência da IoT](../iot/iot-intelligence-home-page.md).
+- [Insights principais de inteligência da IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Para obter mais informações, consulte [Home page de inteligência da IoT](../iot/iot-intelligence-home-page.md).
 
-- [Aprimoramentos de recebimento da placa de licença para o aplicativo de depósito (continuação)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Aprimoramentos de recebimento da placa de licença para o aplicativo de depósito (continuação)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo de depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Implantação em massa para o Warehouse Mobile App](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obter mais informações, consulte [Instalar e conectar o aplicativo móvel Gerenciamento de Depósito](../warehousing/install-configure-warehouse-management-app.md).
+- [Implantação em massa para o Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obter mais informações, consulte [Visão geral da instalação e configuração do aplicativo de depósito](../warehousing/install-configure-warehousing-app.md).
 
-- [Tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Para obter mais informações, consulte [Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito](../warehousing/onhand-cleanup.md).
+- [Tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Para obter mais informações, consulte [Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito](../warehousing/onhand-cleanup.md).
 
-- [Suporte de Otimização de Planejamento para contratos comerciais de compra](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Para obter mais informações, consulte [Planejamento mestre com contratos comerciais de compra](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [Suporte de Otimização de Planejamento para contratos comerciais de compra](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Para obter mais informações, consulte [Planejamento mestre com contratos comerciais de compra](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -67,7 +70,7 @@ Para obter informações sobre as correções de bug incluídas em cada uma das 
 
 Quer saber sobre os futuros recursos e as funcionalidades lançadas recentemente em nossos aplicativos ou plataforma de negócios?
 
-Confira o [Dynamics 365: plano do ciclo de lançamentos 1 de 2020](/dynamics365-release-plan/2020wave1/index). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
+Confira o [Dynamics 365: plano do ciclo de lançamentos 2 de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 
@@ -79,6 +82,3 @@ O tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Managem
 Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
 
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

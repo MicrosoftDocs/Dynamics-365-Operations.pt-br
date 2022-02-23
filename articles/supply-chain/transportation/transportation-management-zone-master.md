@@ -2,25 +2,28 @@
 title: Mestre de zona de gerenciamento de transporte
 description: Este tópico explica como o gerenciamento de transporte permite dividir localizações geográficas em zonas.
 author: Henrikan
+manager: ''
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSZoneMaster
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-01-09
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f3e50a61f7fc842a2656a443805ef5c9538fef4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: 2112e7131281cd485b580fd71536981c1ba4aefd
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567622"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4422650"
 ---
 # <a name="transportation-management-zone-master"></a>Mestre de zona de gerenciamento de transporte
 
@@ -33,6 +36,3 @@ O gerenciamento de transporte permite dividir localizações geográficas em zon
 - **Otimizar o planejamento de rotas**: atribuindo planos de rota específicos para zonas específicas.
 
 Você define zonas com base nos valores de campo de metadados (como país, intervalo de código postal ou serviço da operadora) que qualificam cada zona. As definições de zona não são necessárias se o preço do transporte não empregar um conceito de zona.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

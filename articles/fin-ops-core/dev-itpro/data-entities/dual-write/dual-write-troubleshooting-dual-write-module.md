@@ -1,33 +1,42 @@
 ---
-title: Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
-description: Este tópico fornece informações sobre solução de problemas que podem ajudá-lo a corrigir problemas no módulo de dupla gravação em aplicativos de Finanças e Operações.
+title: Solucionar problemas com o módulo de gravação dupla em aplicativos do Finance and Operations
+description: Este tópico fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas no módulo de dupla gravação nos aplicativos Finance and Operations.
 author: RamaKrishnamoorthy
-ms.date: 08/10/2021
+manager: AnnBe
+ms.date: 03/16/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061799"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683614"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
+# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Solucionar problemas com o módulo de gravação dupla em aplicativos do Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Este tópico fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse. Especificamente, ele fornece informações que podem ajudá-lo a corrigir problemas no módulo de **dupla gravação** em aplicativos de Finanças e Operações.
+Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas no módulo de **dupla gravação** nos aplicativos Finance and Operations.
 
 > [!IMPORTANT]
 > Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Não é possível carregar o módulo de gravação dupla em um aplicativo de Finanças e Operações
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Não é possível carregar o módulo de gravação dupla em um aplicativo do Finance and Operations
 
 Se você não conseguir abrir a página **Gravação dupla** selecionando o bloco **Gravação dupla** no espaço de trabalho **Gerenciamento de dados**, o serviço de integração de dados está provavelmente desligado. Crie um tíquete de suporte para solicitar uma reinicialização do serviço de integração de dados.
 
@@ -35,9 +44,10 @@ Se você não conseguir abrir a página **Gravação dupla** selecionando o bloc
 
 **Credenciais necessárias para corrigir o problema:** o mesmo usuário que configura a gravação dupla.
 
-A seguinte mensagem de erro poderá ser exibida quando você tentar configurar uma nova tabela para gravação dupla: O único usuário que poderá criar um mapa é o usuário que configurou a conexão de gravação dupla.
+A seguinte mensagem de erro poderá ser exibida quando você tentar configurar uma nova entidade para gravação dupla: O único usuário que poderá criar um mapa é o usuário que configurou a conexão de gravação dupla.
 
-*O código de status de resposta não indica êxito: 401 (Não autorizado).*
+*O código de status de resposta não indica êxito: 401 (Não autorizado)*
+
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Erro ao abrir a interface do usuário de gravação dupla
 
@@ -49,17 +59,13 @@ Para corrigir o problema, faça login usando uma janela InPrivate no Microsoft E
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Erro ao vincular o ambiente para dupla gravação ou adicionar um novo mapeamento de tabela
 
-**Função necessária para corrigir o problema**: administrador do sistema em aplicativos de Finanças e Operações ou no Dataverse.
+**Função necessária para corrigir o problema:** administrador do sistema nos aplicativos Finance and Operations e Dataverse.
 
 Você pode encontrar o seguinte erro ao vincular ou criar mapas:
 
-```dos
-Response status code does not indicate success: 403 (tokenexchange).
-Session ID: \<your session id\>
-Root activity ID: \<your root activity\> id
-```
+*O código de status de resposta não indica êxito: 403 (tokenexchange).<br> ID da sessão: \<your session id\><br> ID da atividade raiz: \<your root activity id\>*
 
-Este erro poderá ocorrer se você não tiver permissões suficientes para vincular duas gravações ou criar mapas. Esse erro também pode ocorrer se o ambiente do Dataverse foi redefinido sem desvincular a gravação dupla. Qualquer usuário com a função de administrador do sistema em aplicativos de Finanças e Operações e no Dataverse pode vincular os ambientes. Somente o usuário que configurou a conexão de gravação dupla poderá adicionar novos mapas de tabela. Após a configuração, qualquer usuário com a função de administrador do sistema poderá monitorar o status e editar os mapeamentos.
+Este erro poderá ocorrer se você não tiver permissões suficientes para vincular duas gravações ou criar mapas. Esse erro também pode ocorrer se o ambiente do Dataverse foi redefinido sem desvincular a gravação dupla. Qualquer usuário com a função de administrador do sistema nos aplicativos Finance and Operations e Dataverse pode vincular os ambientes. Somente o usuário que configurou a conexão de gravação dupla poderá adicionar novos mapas de tabela. Após a configuração, qualquer usuário com a função de administrador do sistema poderá monitorar o status e editar os mapeamentos.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Erro ao interromper o mapeamento de tabela
 
@@ -71,29 +77,13 @@ Este erro ocorre quando o ambiente Dataverse vinculado não está disponível.
 
 Para corrigir o problema, crie um tíquete para a equipe de integração de dados. Anexe o rastreamento de rede para que a equipe de integração de dados possa marcar os mapas como **Não executados** no back-end.
 
-## <a name="errors-while-trying-to-start-a-table-mapping"></a>Erros ao tentar iniciar um mapeamento de tabela
+## <a name="error-while-trying-to-start-an-table-mapping"></a>Erro ao tentar iniciar um mapeamento de tabela
 
-### <a name="unable-to-complete-initial-data-sync"></a>Não é possível concluir a sincronização de dados inicial
-
-Talvez você recebe um erro como o seguinte ao tentar executar a sincronização de dados inicial:
+A seguinte mensagem de erro pode ser exibida ao tentar definir esse estado de um mapeamento como **Em execução**:
 
 *Não é possível concluir a sincronização de dados inicial. Erro: falha de gravação dupla — falha no registro do plug-in: não é possível criar metadados de pesquisa da gravação dupla. A referência do objeto do erro não está definida como uma instância de objeto.*
 
-Quando você tenta definir esse estado de um mapeamento como **Em execução**, você pode receber este erro. A correção depende da causa do erro:
+A correção desse erro depende da causa do erro:
 
 + Se o mapeamento tiver mapeamentos dependentes, certifique-se de habilitar os mapeamentos dependentes deste mapeamento de tabela.
-+ Pode haver colunas de origem ou de destino ausentes no mapeamento. Se um campo no aplicativo de Finanças e Operações estiver ausente, siga as etapas na seção [Problemas de colunas de tabela ausentes em mapas](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se a coluna no Dataverse estiver ausente, clique no botão **Atualizar tabelas** no mapeamento para que as colunas sejam automaticamente preenchidas no mapeamento.
-
-### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Erro de incompatibilidade de versão e atualizando soluções de gravação dupla
-
-Talvez você receba as seguintes mensagens de erro ao tentar executar os mapeamentos de tabela:
-
-+ *Grupos de clientes (msdyn_customergroups): falha de gravação dupla- a solução 'Dynamics365Company' do Dynamics 365 for Sales é incompatível com a versão. Versão: '2.0.2.10' versão necessária: '2.0.133'*
-+ A solução 'Dynamics365FinanceExtended' do *Dynamics 365 for Sales tem incompatibilidade de versão. Versão: '1.0.0.0' versão necessária: '2.0.227'*
-+ A solução 'Dynamics365FinanceAndOperationsCommon' do *Dynamics 365 for Sales tem incompatibilidade de versão. Versão: '1.0.0.0' versão necessária: '2.0.133'*
-+ A solução 'CurrencyExchangeRates' do *Dynamics 365 for Sales tem incompatibilidade de versão. Versão: '1.0.0.0' versão necessária: '2.0.133'*
-+ A solução 'Dynamics365SupplyChainExtended' do *Dynamics 365 for Sales tem incompatibilidade de versão. Versão: '1.0.0.0' versão necessária: '2.0.227'*
-
-Para corrigir os problemas, atualize as soluções de gravação dupla no Dataverse. Certifique-se de atualizar para a última solução que corresponde à versão da solução necessária.
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ O mapeamento pode estar ter campos de origem ou de destino ausentes. Se um campo no aplicativo Finance and Operations estiver ausente, siga as etapas na seção [Problemas de campos de entidade ausentes nos mapas](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Se um campo no Dataverse estiver ausente, clique no botão **Atualizar tabelas** no mapeamento para que os campos sejam automaticamente preenchidos no mapeamento.

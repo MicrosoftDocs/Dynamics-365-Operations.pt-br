@@ -2,23 +2,26 @@
 title: Detalhes da linha de trabalho
 description: Este tópico fornece informações sobre a página Detalhes da linha de trabalho, que mostra uma lista abrangente, classificável e filtrável das linhas de trabalho individuais no sistema.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778272"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422561"
 ---
 # <a name="work-line-details"></a>Detalhes da linha de trabalho
 
@@ -28,9 +31,9 @@ A página **Detalhes da linha de trabalho** mostra uma lista abrangente, classif
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Ativar o recurso de detalhes da linha de trabalho
 
-A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
-- **Módulo:** *Gerenciamento de depósito*
+- **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Detalhes da linha de trabalho*
 
 ## <a name="open-and-use-the-work-line-details-page"></a>Abrir e usar a página Detalhes da linha de trabalho
@@ -75,7 +78,7 @@ Antes de começar a criar o trabalho, verifique se o depósito está configurado
 
 Siga estas etapas para criar alguns trabalhos de separação:
 
-1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Criar** para abrir a caixa de diálogo **Criar ordem de venda**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -125,6 +128,3 @@ Siga estas etapas para criar alguns trabalhos de separação:
 
 > [!IMPORTANT]
 > Se cancelar apenas parte da quantidade de uma linha de trabalho, você também deverá remover a quantidade obsoleta da linha de carga. Caso contrário, a menos que a entrega insuficiente esteja configurada corretamente, a linha de carga poderá ter a remessa confirmada.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

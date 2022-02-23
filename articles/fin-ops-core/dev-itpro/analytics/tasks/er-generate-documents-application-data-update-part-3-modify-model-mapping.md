@@ -1,10 +1,12 @@
 ---
 title: Modificar modelos e mapeamentos para gerar documentos com dados da solicitação de emprego
-description: Este tópico descreve como criar configurações de relatório eletrônico (ER) para gerar um documento eletrônico e atualizar os dados do aplicativo. (Parte 2 - Gerar documentos).
+description: Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, "ER Gerar documentos com atualização de dados de aplicativo (Parte 2 – Gerar documentos)".
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d7df46bab244d11509b86a27eeed3c2725400b5eb4d0fbf50af1750e7de45d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3401ec98ac1b61572d07fbb30d4465de78473fca
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745879"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684562"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modificar modelos e mapeamentos para gerar documentos com dados da solicitação de emprego
 
@@ -29,7 +31,7 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 
 
 ## <a name="modify-data-model"></a>Modifique o modelo de dados
-1. Acesse Administração da organização > Relatório eletrônico > Configurações.
+1. Vá para Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, selecione 'Intrastat (model)'.
     * Você estenderá como usa o modelo de dados. Além de usá-lo como a fonte de dados para gerar o relatório Intrastat, o modelo de dados será usado para obter detalhes sobre o processo de relatório Intrastat. Os detalhes serão usados para atualizar dados do aplicativo.   
 3. Clique em Designer.
@@ -166,6 +168,3 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 66. Feche a página.
 67. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

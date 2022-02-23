@@ -1,27 +1,30 @@
 ---
 title: Estratégia do agente de resolução para configuração de produto
 description: Este tópico descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cb0fc054e0feec4c54c0bd916e01ce3a2a4cd903
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565680"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422414"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estratégia do agente de resolução para configuração de produto
 
@@ -50,7 +53,7 @@ Estudos reais de implementação do cliente mostraram que uma alteração na est
 
 Para alterar a estratégia do agente de resolução, na página **Modelos de configuração de produto**, no Painel de Ação, selecione **Propriedades do modelo**. Em seguida, na caixa de diálogo **Editar os detalhes do modelo**, selecione uma estratégia do agente de resolução.
 
-[![Alterando a estratégia do agente de resolução.](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![Alterando a estratégia do agente de resolução](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Atualmente, não há uma lógica que detecte automaticamente qual estratégia do agente de resolução será a mais eficiente para a configuração de produto com base em restrições. Portanto, você deve testar as estratégias do agente de resolução uma a uma.
 
@@ -70,6 +73,3 @@ A tabela a seguir fornece recomendações sobre qual estratégia do agente de re
 [Heurística](https://techterms.com/definition/heuristic)
 
 [Problema de satisfação de restrição](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,35 +1,39 @@
 ---
-title: Suporte a quadro de transferência kanban para scanners de código de barras
+title: Suporte do quadro de transferência kanban para os scanners de código de barras
 description: O Quadro de transferência do kanban oferece suporte à entrada de scanner de um scanner de código de barras de widget para Selecionar, Iniciar, Concluir e Esvaziar um trabalho kanban.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b18aad4dcdbf8c2d18960ae306556c3ea679d622
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566802"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422410"
 ---
-# <a name="kanban-transfer-board-support-for-bar-code-scanners"></a>Suporte a quadro de transferência kanban para scanners de código de barras
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Suporte do quadro de transferência kanban para os scanners de código de barras
 
 [!include [banner](../includes/banner.md)]
 
 O Quadro de transferência do kanban oferece suporte à entrada de scanner de um scanner de código de barras de widget para Selecionar, Iniciar, Concluir e Esvaziar um trabalho kanban.
 
-## <a name="registration-modes"></a>Modos de registro
+<a name="registration-modes"></a>Modos de registro
+------------------
 
 Na Guia Rápida **Registro do scanner** você pode selecionar o modo do registro, que controla a ação quando você pesquisa um número de cartão kanban ou digita manualmente o número no campo Número do cartão kanban.
 
@@ -40,10 +44,11 @@ Na Guia Rápida **Registro do scanner** você pode selecionar o modo do registro
 | Vazio                 | Registra a unidade de manuseio de material referenciada por um cartão kanban como vazia.              |
 | Selecionar                | Registra um número de cartão kanban e seleciona automaticamente o trabalho referenciado na lista Kanban. |
 
- 
-## <a name="registration-mode-select"></a>Seleção do Modo de registro
+ 
+Seleção do Modo de registro
+------------------------
 
-Quando você usa um leitor de código de barras para selecionar um trabalho, o modo de exibição do quadro kanban é alterado. Nesse modo, as seguintes condições se aplicam:
+Quando você usa um leitor de código de barras para selecionar um trabalho, o modo de exibição do quadro kanban é alterado.Desse modo, as seguintes condições se aplicam:
 
 -   Somente o trabalho kanban verificado é exibido.
 -   Os detalhes do trabalho selecionado são exibidos na Guia Rápida **Detalhes**.
@@ -187,6 +192,3 @@ O status do trabalho selecionado e o status de todos os trabalhos vinculados par
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

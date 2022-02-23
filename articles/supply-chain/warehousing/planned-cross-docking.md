@@ -2,9 +2,11 @@
 title: Distribuição integrada planejada
 description: Este tópico descreve a distribuição integrada planejada avançada, na qual a quantidade de estoque necessária para uma ordem é direcionada diretamente do recebimento ou da criação para a área de preparo ou doca de saída correta. Todo o estoque restante da origem de entrada é direcionado para o local de armazenamento correto por meio do processo normal de armazenamento.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573024"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970297"
 ---
 # <a name="planned-cross-docking"></a>Distribuição integrada planejada
 
@@ -28,29 +30,27 @@ Este tópico descreve a distribuição integrada planejada avançada. A distribu
 
 A distribuição integrada permite aos trabalhadores ignorar o armazenamento de entrada e a separação de saída de um estoque que já esteja marcado para uma ordem de saída. Portanto, o número de vezes que o estoque é tocado é minimizado, sempre que possível. Além disso, como há menos interação com o sistema, a economia de tempo e espaço no chão de fábrica do depósito aumenta.
 
-Antes de executar a distribuição integrada, você deve configurar um novo modelo de distribuição integrada, no qual a fonte de fornecimento e outros conjuntos de requisitos para distribuição integrada sejam especificados. Conforme a ordem de saída é criada, a linha deve ser marcada em relação a uma ordem de entrada que contenha o mesmo item. Você pode selecionar o campo de código de diretriz no modelo de distribuição integrada, semelhante à forma como configura reabastecimento e ordens de compra.
+Para que a distribuição integrada possa ser executada, o usuário deve configurar um novo modelo de distribuição integrada, no qual a fonte de fornecimento e outros conjuntos de requisitos para distribuição integrada sejam especificados. Conforme a ordem de saída é criada, a linha deve ser marcada em relação a uma ordem de entrada que contenha o mesmo item.
 
 No momento do recebimento da ordem de entrada, a configuração da distribuição integrada identifica automaticamente a necessidade de distribuição integrada e cria o trabalho de movimento para a quantidade necessária, com base na configuração da diretiva de localização.
 
 > [!NOTE]
-> As transações de estoque *não* têm seu registro cancelado quando o trabalho de distribuição integrada é cancelado, mesmo que a configuração para esse recurso esteja ativada nos Parâmetros de gerenciamento de depósito.
+> As transações de estoque **não** têm seu registro cancelado quando o trabalho de distribuição integrada é cancelado, mesmo que a configuração para esse recurso esteja ativada nos Parâmetros de gerenciamento de depósito.
 
-## <a name="turn-on-the-planned-cross-docking-features"></a>Ativar os recursos de distribuição integrada planejada
+## <a name="turn-on-the-planned-cross-docking-feature"></a>Ativar o recurso Distribuição integrada planejada
 
-Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative os seguintes recursos nesta ordem:
+Para que você possa usar a distribuição integrada planejada avançada, o recurso deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
 
-1. *Distribuição integrada planejada*
-1. *Modelos de distribuição integrada com diretivas de localização*
-    > [!NOTE]
-    > Este recurso permite que o campo **Código de diretriz** seja especificado no modelo de distribuição integrada, semelhante à forma como você configura os modelos de reabastecimento. Habilitar esse recurso impedirá que você adicione um código de diretriz nas linhas do modelo de trabalho de distribuição integrada para a última linha *Colocar*. Isso garante que o local colocado final possa ser determinado durante a criação do trabalho antes de considerar os modelos de trabalho.
+- **Módulo:** *Gerenciamento de Depósito*
+- **Nome do recurso:** *Distribuição integrada planejada*
 
-## <a name="setup"></a>Configurar
+## <a name="setup"></a>Instalação
 
 ### <a name="regenerate-load-posting-methods"></a>Regenerar métodos de lançamento da carga
 
 A distribuição integrada planejada é implementada como um método de lançamento da carga. Depois de ativar o recurso, você deve regenerar os métodos.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Métodos de lançamento da carga**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Métodos de lançamento da carga**.
 1. No Painel de Ação, selecione **Regenerar métodos**.
 
     Após a conclusão da regeneração, você deverá ver um método com um valor *planCrossDocking* em **Nome do método**.
@@ -59,7 +59,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
 ### <a name="create-a-cross-docking-template"></a>Criar um modelo de distribuição integrada
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelos de distribuição integrada**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelos de distribuição integrada**.
 1. No Painel de Ação, selecione **Novo** para criar um modelo.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -90,10 +90,6 @@ A distribuição integrada planejada é implementada como um método de lançame
 
         Esta opção define se o fornecimento deve ser revalidado durante o recebimento. Se essa opção estiver definida como *Sim*, a janela de tempo máximo e o intervalo de dias para o vencimento serão verificados.
 
-    - **Código de diretiva:** deixe este campo em branco
-
-        Esta opção é habilitada pelo recurso *Modelos de distribuição integrada com diretivas de localização*. O sistema usa diretivas de localização para ajudar a determinar o melhor local de destino para o estoque de distribuição integrada. Você pode configurá-la atribuindo um código de diretiva a cada modelo de distribuição integrada relevante. Se um código de diretiva estiver definido, o sistema pesquisará diretivas de localização por código de diretiva quando o trabalho for gerado. Dessa forma, você pode limitar as diretivas de localização usadas para um modelo de distribuição integrada específico.
-
     - **Validar janela de tempo:** *Sim*
 
         Esta opção define se a janela de tempo máximo deve ser avaliada quando uma fonte de fornecimento é selecionada. Se essa opção estiver definida como *Sim*, os campos relacionados às janelas de tempo máximo e mínimo serão disponibilizados.
@@ -117,12 +113,9 @@ A distribuição integrada planejada é implementada como um método de lançame
     - **Número de sequência:** *1*
     - **Fonte de fornecimento:** *Ordem de compra*
 
-> [!NOTE]
-> Você pode configurar uma consulta para determinar quando um modelo de distribuição integrada específico será usado. A consulta para modelos de distribuição integrada tem somente a tabela *InventTable* (itens) e a tabela interna conjunta *WHSInventTable* (itens WHS). Se quiser adicionar outras tabelas à consulta, você poderá associá-las usando somente *existir junções* ou *não existir junções*. Ao filtrar pelas tabelas conjuntas, um registro da tabela principal é recuperado para cada registro correspondente na tabela conjunta. Se o tipo de junção for *existir junções*, a pesquisa terminará depois que a primeira correspondência for encontrada. Por exemplo, se você unir a tabela de linha da ordem de venda à tabela de itens, o sistema validará e retornará os itens para os quais pelo menos uma linha da ordem de venda tem a condição definida. Basicamente, os dados são recuperados da tabela pai (itens), e não da tabela filho (linha da ordem de venda). Portanto, a filtragem por documentos de origem, como linhas de ordem de venda ou clientes, não pode ser realizada.
-
 ### <a name="create-a-work-class"></a>Criar uma classe de trabalho
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
 1. No Painel de Ação, selecione **Novo** para criar uma classe de trabalho.
 1. Defina os seguintes valores:
 
@@ -132,7 +125,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
 ### <a name="create-a-work-template"></a>Criar um modelo de trabalho
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Defina o campo **Tipo de ordem de serviço** como *Distribuição integrada*.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à guia **Visão geral**.
 1. Na nova linha, defina os valores a seguir:
@@ -154,16 +147,13 @@ A distribuição integrada planejada é implementada como um método de lançame
     - **ID da classe de trabalho:** *CrossDock*
 
 1. Selecione **Salvar** e confirme se a caixa de seleção **Válido** está marcada para o modelo *Distribuição Integrada 51*.
-1. Opcional: selecione **Editar consulta** se quiser definir critérios para controlar quando e onde o modelo de trabalho será usado.
-
-    Você pode configurar uma consulta para determinar quando um modelo de trabalho em particular será usado. Por exemplo, você pode especificar que um modelo possa ser usado para trabalhar somente em um local específico. Se quiser que o modelo de trabalho de distribuição integrada seja aplicado em um local específico, você deverá filtrar o campo **Local inicial**, não o campo **Local**, porque a criação de trabalho para os processos de entrada (compra, distribuição integrada e reabastecimento) inicia a partir da linha put. Quando o trabalho é criado, a diretiva de localização define o campo **Local** para o local de put. No entanto, a localização de separação é armazenada no campo **Local inicial**.
 
 > [!NOTE]
 > As IDs de classe de trabalho dos tipos de trabalho *Separar* e *Colocar* devem ser as mesmas.
 
 ### <a name="create-location-directives"></a>Criar diretivas de localização
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, defina o campo **Tipo de ordem de serviço** como *Distribuição integrada*.
 1. No Painel de Ação, selecione **Novo** e defina os valores a seguir:
 
@@ -209,7 +199,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
 ### <a name="create-a-mobile-device-menu-item"></a>Criar um item de menu de dispositivo móvel
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Na lista de itens de menu no painel esquerdo, selecione **Armazenamento de compra**.
 1. Selecione **Editar**.
 1. Na FastTab **Classes de trabalho**, selecione **Novo** para adicionar uma linha à grade.
@@ -243,7 +233,7 @@ Siga estas etapas para criar uma ordem de compra como fonte de fornecimento.
 
 Siga estas etapas para criar uma ordem de venda como origem de demanda.
 
-1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -284,7 +274,7 @@ Na primeira ID de trabalho criada, o **Tipo de ordem de serviço** tem o valor *
 Na segunda ID de trabalho criada, o **Tipo de ordem de serviço** tem o valor *Ordens de compra* e está vinculado à ordem de compra. Ela tem a quantidade restante de 2 que não passou por distribuição integrada e é direcionada para o armazenamento.
 
 1. Entre no dispositivo móvel como um usuário no depósito *51*.
-1. Acesse **Entrada \> Recebimento de Compra**.
+1. Vá para **Entrada \> Recebimento de Compra**.
 1. No campo **PONum**, insira o número da ordem de compra.
 1. No campo **Qtd.**, insira *5*.
 1. Selecione **OK**.
@@ -300,7 +290,7 @@ Na segunda ID de trabalho criada, o **Tipo de ordem de serviço** tem o valor *O
 
 No momento, ambas as IDs de trabalho têm a mesma placa de licença de destino. Para concluir as próximas etapas, você deve obter a ID de trabalho e a ID da placa de licença de destino. É possível obter essas informações nos detalhes do trabalho da linha de ordem de compra e da linha de ordem de venda. Como alternativa, você pode acessar **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho** e filtrar trabalhos em que o valor de **Depósito** seja *51*.
 
-1. No dispositivo móvel, Acesse **Entrada \> Armazenamento de compra** e insira a placa de licença de destino do trabalho.
+1. No dispositivo móvel, vá para **Entrada \> Armazenamento de compra** e insira a placa de licença de destino do trabalho.
 1. No campo **ID**, insira a ID da placa de licença de destino nos detalhes do trabalho.
 
     A página de separação da distribuição integrada mostra o local de separação (*RECV*), a placa de licença de destino (*placa de licença*), o item (*A0001*) e a quantidade (*3*).
@@ -324,7 +314,4 @@ No momento, ambas as IDs de trabalho têm a mesma placa de licença de destino. 
 
 A ilustração a seguir mostra como o trabalho de distribuição integrada concluído pode aparecer no Microsoft Dynamics 365 Supply Chain Management.
 
-![Trabalho de distribuição integrada concluído.](media/PlannedCrossDockingWork.png "Trabalho de distribuição integrada concluído")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Trabalho de distribuição integrada concluído](media/PlannedCrossDockingWork.png "Trabalho de distribuição integrada concluído")

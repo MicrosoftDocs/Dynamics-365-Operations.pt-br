@@ -2,22 +2,25 @@
 title: Parâmetros do gerenciamento de alteração de engenharia
 description: Este tópico explica como configurar recursos de gerenciamento de alterações de engenharia do Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580999"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4422636"
 ---
 # <a name="engineering-change-management-parameters"></a>Parâmetros do gerenciamento de alteração de engenharia
 
@@ -54,6 +57,3 @@ A tabela a seguir descreve os campos disponíveis na guia **Gerenciamento de alt
 | Regra de severidade | Selecione como a gravidade de uma ordem de alteração de engenharia deve ser estabelecida. Selecione *Manual* se for esperado que o usuário insira um valor no campo **Gravidade**. Selecione *Calcular* para que o sistema calcule o valor do campo **Gravidade** ao selecionar **Calcular gravidade** no Painel de Ações da ordem de alteração de engenharia. Nesse caso, o sistema usará as regras de gravidade definidas na página **Conjunto de regras de gravidade**. Selecione *Calcular automaticamente* para que o valor do campo **Gravidade** seja calculado automaticamente e preenchido de acordo com os conjuntos de regras de gravidade. |
 | Lançar produtos afetados novamente | Este campo é aplicável quando você libera de novo produtos por meio de uma ordem de alteração de engenharia. Você pode selecionar se todos os produtos ou somente os produtos afetados devem ser propostos na caixa de diálogo **Liberações**. |
 | Níveis da BOM a liberar | A profundidade do nível de BOM a ser liberado. Se a BOM tiver mais níveis (ou seja, se for mais profunda) que o valor especificado aqui, somente os níveis até o valor especificado serão liberados. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

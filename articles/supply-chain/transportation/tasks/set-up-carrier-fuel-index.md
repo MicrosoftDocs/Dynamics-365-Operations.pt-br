@@ -1,25 +1,28 @@
 ---
 title: Configurar um índice de combustível da transportadora
 description: Este guia mostra como criar uma região do índice de combustível, um índice de combustível e um índice de combustível da transportadora.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFuelIndexRegion,TMSCarrierFuelIndexTable,TMSFuelIndex
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b67219a6cb19b393dce25f77febc194c5ea2a16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 12ade30b63454dfd997aa47a62cde21b066140fa
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576247"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4422649"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Configurar um índice de combustível da transportadora
 
@@ -29,7 +32,7 @@ Este guia mostra como criar uma região do índice de combustível, um índice d
 
 
 ## <a name="create-a-fuel-index-region"></a>Crie uma região de índice de combustível
-1. Acesse Gerenciamento de transporte > Configurar > Índices de combustível > Regiões de índices de combustível.
+1. Vá para Gerenciamento de transporte > Configurar > Índices de combustível > Regiões de índices de combustível.
     * Primeiro você deve criar as diferentes regiões, onde você opera e calcula as diferentes sobretaxas de combustível.  
 2. Clique em Novo.
 3. No campo Região, digite um valor.
@@ -37,7 +40,7 @@ Este guia mostra como criar uma região do índice de combustível, um índice d
 5. Clique em Salvar.
 
 ## <a name="create-a-fuel-index"></a>Crie um índice de combustível
-1. Acesse Gerenciamento de transporte > Configurar > Índices de combustível > Índices de combustível.
+1. Vá para Gerenciamento de transporte > Configurar > Índices de combustível > Índices de combustível.
     * Para as regiões que você configurou é preciso inserir os preços atuais do combustível.  
 2. Clique em Novo.
 3. No campo Região, clique no botão suspenso para abrir a pesquisa.
@@ -47,7 +50,7 @@ Este guia mostra como criar uma região do índice de combustível, um índice d
 7. Clique em Salvar.
 
 ## <a name="create-a-carrier-fuel-index"></a>Crie um índice de combustível da transportadora
-1. Acesse Gerenciamento de transporte > Configurar > Índices de combustível > Índices de combustível da transportadora.
+1. Vá para Gerenciamento de transporte > Configurar > Índices de combustível > Índices de combustível da transportadora.
 2. Clique em Novo.
 3. No campo Índice de combustível da transportadora, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -64,6 +67,3 @@ Este guia mostra como criar uma região do índice de combustível, um índice d
 12. Na lista, clique no link na linha selecionada.
 13. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,25 +1,28 @@
 ---
 title: Configurar encargos suplementares do hub e mestres suplementares
 description: Este procedimento mostra como criar um mestre suplementar para um hub e usar esse mestre para criar um encargo suplementar do hub.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSCarrierAccessorial,TMSAccessorialMaster, TMSHubAccessorial
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1480dec82912d547bde5db614703164e3f8451c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ad89afe0a21261c57311c439153b969d837748e4
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576223"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4422644"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Configurar encargos suplementares do hub e mestres suplementares
 
@@ -29,7 +32,7 @@ Este procedimento mostra como criar um mestre suplementar para um hub e usar ess
 
 
 ## <a name="set-up-a-hub-master"></a>Configurar um mestre de hub
-1. Acesse Gerenciamento de transporte > Configurar > Classificação > Mestres suplementares.
+1. Vá para Gerenciamento de transporte > Configurar > Classificação > Mestres suplementares.
 2. Clique em Novo.
 3. No campo Mestre suplementar, digite um valor.
 4. No campo Nome, digite um valor.
@@ -38,7 +41,7 @@ Este procedimento mostra como criar um mestre suplementar para um hub e usar ess
 7. Feche a página.
 
 ## <a name="set-up-a-hub-accessorial-charge"></a>Configurar um encargo suplementar do hub
-1. Acesse Gerenciamento de transporte > Configurar > Classificação > Encargos suplementares do hub.
+1. Vá para Gerenciamento de transporte > Configurar > Classificação > Encargos suplementares do hub.
 2. Clique em Novo.
 3. No campo ID suplementar do hub, digite um valor.
 4. No campo Hub, clique no botão suspenso para abrir a pesquisa.
@@ -51,6 +54,3 @@ Este procedimento mostra como criar um mestre suplementar para um hub e usar ess
 9. Clique em Salvar.
 10. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

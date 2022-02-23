@@ -1,27 +1,30 @@
 ---
 title: Configurações de ordem padrão para dimensões e variantes de produto
 description: As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens.
-author: johanhoffmann
+author: t-benebo
+manager: tfehr
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778098"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422476"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>​Configurações de ordem padrão para dimensões e grades de produtos​
 
@@ -31,7 +34,7 @@ As configurações de ordem padrão no Dynamics 365 Supply Chain Management defi
 
 Para definir as configurações da ordem padrão de um produto, siga estas etapas.
 
-1. Acesse **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados**.
+1. Vá para **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados**.
 1. Selecione o produto relevante na grade.
 1. No Painel de Ações, siga uma destas etapas para abrir a página **Configurações Padrão da Ordem** do produto selecionado:
 
@@ -101,7 +104,7 @@ As regras de configurações de ordem padrão têm classificações. Quanto mais
 
 ### <a name="default-order-settings-for-released-products"></a>Configurações de ordem padrão para produtos liberados
 
-Para produtos liberados distintos, você pode definir configurações gerais da ordem ou configurações específicas da ordem. As configurações gerais da ordem terão sempre a classificação zero. Se você definir novas configurações de ordem de venda, de compra e de estoque juntas simultaneamente, é recomendável que você use a **Exibição de detalhes** na página **Configurações de ordem padrão**. Para alternar para a exibição de detalhes, Acesse **Opções** &gt; **Opções da página** &gt; **Alterar exibição** &gt; **Exibição de detalhes**.
+Para produtos liberados distintos, você pode definir configurações gerais da ordem ou configurações específicas da ordem. As configurações gerais da ordem terão sempre a classificação zero. Se você definir novas configurações de ordem de venda, de compra e de estoque juntas simultaneamente, é recomendável que você use a **Exibição de detalhes** na página **Configurações de ordem padrão**. Para alternar para a exibição de detalhes, vá para **Opções** &gt; **Opções da página** &gt; **Alterar exibição** &gt; **Exibição de detalhes**.
 
 ### <a name="site-specific-order-settings"></a>Configurações de ordem específica do site
 
@@ -115,10 +118,10 @@ Você poderá definir regras de configuração de ordem para qualquer dimensão 
 
 Considere o produto de exemplo a seguir:
 
-| Item                                                 | Alíquota                                   |
+|                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
 | **Nome do produto**                                    | Sensor fotoelétrico                    |
-| **Número do item**                                     | XW56                                    |
+| **Nº de itens**                                     | XW56                                    |
 | **Configuração** (usado para indicar o tipo de luz) | C1 – Luz vermelha visível, C2 – Luz infravermelha |
 | **Versão** | V1, V2, V3                              |
 
@@ -188,7 +191,7 @@ A validação restrita aplica-se aos valores **Quantidade de ordem padrão** esp
 
 ### <a name="enable-the-strict-validation-option"></a>Habilitar a opção de validação restrita
 
-A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
+Para que você possa usar a opção de validação restrita, ela deve ser habilitada em seu sistema. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Aqui o recurso está listado como:
 
 - **Módulo** - *Gerenciamento de informações sobre o produto*
 - **Nome do recurso** - *Validação restrita nas quantidades da ordem padrão*
@@ -197,10 +200,7 @@ A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativa
 
 Para definir a opção de validação:
 
-1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Parâmetros de gerenciamento de informações do produto**.
+1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Parâmetros de gerenciamento de informações do produto**.
 1. Na guia **Geral**, defina **Validação nas quantidades da ordem padrão** para um dos seguintes valores:
     - **Restrito** -Selecione esta opção para garantir que todos os valores da **Quantidade da ordem padrão** serão um valor **Múltiplo** de cada guia rápida (**Ordem de compra**, **Estoque** e **Ordem de venda**).
     - **Padrão** - Selecione esta opção para usar a validação padrão (que funciona da mesma maneira quando esse recurso não está habilitado).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

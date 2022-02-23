@@ -1,10 +1,12 @@
 ---
 title: Modificar formatos para gerar documentos com dados de aplicativo
-description: Este tópico descreve como criar configurações de relatório eletrônico (ER) para gerar um documento eletrônico e atualizar os dados do aplicativo.
+description: Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, "ER Gerar documentos com atualização de dados de aplicativo (Parte 3 – Modificar modelo e mapeamento)".
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 312a49fc524cc7359d2c1815597214656df11c018034da384d30bfb9d9efee4b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752402"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684538"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modificar formatos para gerar documentos com dados de aplicativo
 
@@ -29,7 +31,7 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 
 
 ## <a name="modify-format-to-collect-details-of-reporting"></a>Modificar o formato para obter detalhes de relatório
-1. Acesse Administração da organização > Relatório eletrônico > Configurações.
+1. Vá para Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, expanda 'Intrastat (model)'.
 3. Na árvore, selecione 'Intrastat (modelo)\Intrastat (formato)'.
 4. Clique em Designer.
@@ -147,6 +149,3 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 46. Feche a página.
 47. Feche a página.
 48. Feche a página.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

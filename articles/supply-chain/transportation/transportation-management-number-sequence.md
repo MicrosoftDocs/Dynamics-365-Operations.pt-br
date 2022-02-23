@@ -2,22 +2,25 @@
 title: Sequência numérica de gerenciamento de transporte
 description: Este tópico descreve como configurar sequências numéricas para gerenciamento de transporte.
 author: Henrikan
+manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 080f72da1b5b00d189f0c7916354cbf2d7093370
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: 2c3f087ac76412cd2dce93dcb31b796ce2cb3bc4
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576127"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4422647"
 ---
 # <a name="transportation-management-number-sequence"></a>Sequência numérica de gerenciamento de transporte
 
@@ -29,7 +32,7 @@ Use a página **Sequências numéricas** no módulo de gerenciamento de transpor
 
 Para criar uma sequência numérica para um número progressivo, faça o seguinte:
 
-1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Sequências numéricas**.
+1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Sequências numéricas**.
 1. Selecione **Novo** para criar uma sequência numérica.
 1. Digite uma ID exclusiva e um nome descritivo para a sequência numérica.
 1. No campo **Tipo de sequência numérica**, *Número progressivo* é a única opção.
@@ -41,11 +44,8 @@ Para criar uma sequência numérica para um número progressivo, faça o seguint
 
 Para vincular uma sequência numérica a uma transportadora, faça o seguinte:
 
-1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
+1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
 1. Selecione uma transportadora.
 1. Selecione **Editar**.
 1. Na FastTab **Visão geral**, selecione uma opção no campo **Sequência numérica progressiva**.
 1. Feche a página.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

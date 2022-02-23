@@ -1,10 +1,12 @@
 ---
 title: ER Configurar o formato para fazer contagem e soma (Parte 4 - Executar formato)
-description: Este tópico descreve como configurar um formato de relatório eletrônico para contar e somar com base nos dados da saída de texto já gerada. (Parte 4)
+description: As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou de desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para fazer a contagem e soma com base nos dados já gerados do texto de saída.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, IntrastatParameters, Intrastat, InventItemIdLookupSimple, IntrastatCommodityLookup, ERFormatMappingRunLogTable, DocuView
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5202f8be275df08142c9848a2381fe5bc2ed7289a1f1fe1f8e6d349e38c2b14d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f37fc3c611e9c5328f4d99be8c7c63ab59b2f08
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753589"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684634"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>ER Configurar o formato para fazer contagem e soma (Parte 4 - Executar formato)
 
@@ -44,13 +46,13 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 10. Clique em Editar.
 11. Selecione Sim no campo Executar Rascunho.
 12. Clique em Salvar.
-13. Acesse Imposto > Configuração > Comércio exterior > Parâmetros de comércio exterior.
+13. Vá para Imposto > Configuração > Comércio exterior > Parâmetros de comércio exterior.
 14. Expanda a seção Relatório eletrônico.
 15. Selecione a configuração "Intrastat (DE) com contagem e soma".
 16. Selecione a configuração "Intrastat (DE) com contagem e soma".
 17. Clique em Salvar.
 18. Feche a página.
-19. Acesse Imposto > Declarações > Comércio exterior > Intrastat.
+19. Vá para Imposto > Declarações > Comércio exterior > Intrastat.
 20. Clique em Saída.
 21. Clique em Relatório.
     * Execute o processo de geração de relatórios intrastat.  
@@ -77,7 +79,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
     * Examine as saídas criadas com as linhas de resumo no final. Observe que elas foram modificadas em comparação com a primeira execução.  
 
 ## <a name="run-this-configuration-in-debug-mode-to-review-the-collected-counting--summing-data"></a>Execute esta configuração no modo de depuração para analisar os dados de contagem e soma coletados
-1. Acesse Administração da organização > Relatório eletrônico > Configurações.
+1. Vá para Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, expanda 'Modelo intrastat'.
 3. Na árvore, expanda 'Modelo intrastat\Intrastat (DE)'.
 4. Na árvore, selecione "Modelo intrastat\Intrastat (DE)\Intrastat (DE) com contagem e soma".
@@ -86,12 +88,12 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 7. Selecione Sim no campo Executar em modo de depuração.
 8. Clique em OK.
 9. Feche a página.
-10. Acesse Imposto > Declarações > Comércio exterior > Intrastat.
+10. Vá para Imposto > Declarações > Comércio exterior > Intrastat.
 11. Clique em Saída.
 12. Clique em Relatório.
 13. Clique em OK.
 14. Feche a página.
-15. Acesse Administração da organização > Relatório eletrônico > Configurações.
+15. Vá para Administração da organização > Relatório eletrônico > Configurações.
 16. Na árvore, expanda 'Modelo intrastat'.
 17. Na árvore, expanda 'Modelo intrastat\Intrastat (DE)'.
 18. Na árvore, selecione "Modelo intrastat\Intrastat (DE)\Intrastat (DE) com contagem e soma".
@@ -101,6 +103,3 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 21. Clique em Abrir.
     * Examine o arquivo XML criado que contém os detalhes da contagem e soma que foram coletados durante a execução da configuração selecionada.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

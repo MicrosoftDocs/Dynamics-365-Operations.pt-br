@@ -1,23 +1,26 @@
 ---
 title: Alocação automática de encargos
 description: O recurso de encargos no Microsoft Dynamics 365 Supply Chain Management ajuda você a alocar automaticamente encargos a ordens de compra ou ordens de venda.
-author: Henrikan
-ms.date: 09/30/2021
+author: dasani-madipalli
+manager: tfehr
+ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592531"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422483"
 ---
 # <a name="automatic-allocation-of-charges"></a>Alocação automática de encargos
 
@@ -26,16 +29,6 @@ ms.locfileid: "7592531"
 Com base no cliente com o qual você está trabalhando ou no item que você está vendendo, talvez seja necessário aplicar encargos adicionais específicos. O recurso *encargos* no Microsoft Dynamics 365 Supply Chain Management ajuda você a alocar automaticamente encargos a ordens de compra ou ordens de venda.
 
 Os encargos automáticos, são aplicados automaticamente quando você criar uma ordem de venda ou uma ordem de compra. É possível definir encargos automáticos para fornecedores, clientes, grupos de fornecedores ou itens específicos. Você também pode definir os encargos automáticos que se aplicam a todos os fornecedores, clientes ou itens.
-
-## <a name="set-up-parameters"></a>Configurar parâmetros
-
-A página **Parâmetros de compras e fornecimento** terá algumas configurações especialmente relevantes quando você quiser alocar encargos de forma automática. Para concluir essa configuração, siga essas etapas.
-
-1. Acesse **Compras e fornecimento \> Configuração \> Parâmetros de compras**.
-1. Abra a guia **Preços**.
-1. Na Guia Rápida **Preços**, faça as seguintes configurações:
-    - **Localizar encargos automáticos para cabeçalho** – especifica se os encargos devem ser alocados automaticamente para os cabeçalhos da ordem de compra. Defina como *Sim* para usar a alocação automática de encargos.
-    - **Localizar encargos automáticos para linha** – especifica se os encargos devem ser alocados automaticamente para as linhas da ordem de compra. Defina como *Sim* para usar a alocação automática de encargos.
 
 ## <a name="set-up-charges-codes"></a>Configurar códigos de encargos
 
@@ -88,7 +81,7 @@ Para criar grupos de encargos para ordens de compra, siga estas etapas:
 
 Para criar grupos de encargos para ordens de venda, siga estas etapas:
 
-1. Acesse **Contas a receber \> Configuração de encargos \> Grupos de encargos de cliente**.
+1. Vá para **Contas a receber \> Configuração de encargos \> Grupos de encargos de cliente**.
 1. No Painel de Ações, selecione **Novo** para adicionar uma linha à grade e, em seguida, defina os seguintes campos:
 
     - **Grupo de encargos** — insira o nome do grupo de encargos.
@@ -154,7 +147,7 @@ Depois que os códigos de encargos forem configurados, siga estas etapas para de
     - **Local** e **Depósito** — especifique um local e um depósito se os encargos devem ser aplicados somente a um local e a um depósito específicos.
     - **Manter** — marque essa caixa de seleção para manter as transações de encargos depois que o faturamento for concluído, para que o encargo seja aplicado sempre que você criar uma nova fatura para a conta de cliente selecionada.
 
-1. **Somente para ordens de venda:** se quiser calcular encargos diferenciados, consulte [Encargos diferenciados em ordens de venda](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) para obter informações.
+1. **Somente para ordens de venda:** se quiser calcular encargos diferenciados, consulte [Encargos diferenciados em ordens de venda](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) para obter informações.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Alocar encargos do cabeçalho a uma linha
 
@@ -184,6 +177,3 @@ O procedimento a seguir mostra como alocar encargos no nível de cabeçalho a um
         > Ao trabalhar com a grade **Escolher as linhas que serão excluídas da alocação**, certifique-se de deixar a grade aberta até selecionar **Alocar**. Se você fechar a grade antes de selecionar **Alocar**, as configurações na grade serão perdidas. Portanto, os encargos serão alocados com base nos critérios definidos anteriormente.
 
 1. Selecione **Alocar** para aplicar suas configurações e fechar a caixa de diálogo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

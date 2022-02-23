@@ -2,13 +2,16 @@
 title: Reabastecimento com kanbans de retirada
 description: Este tópico descreve como o kanban de retirada é usado para o reabastecimento de material para atividades de fabricação.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422499"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimento com kanbans de retirada
 
@@ -30,12 +33,13 @@ ms.locfileid: "6742575"
 Este tópico descreve como o kanban de retirada é usado para o reabastecimento de material para atividades de fabricação.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Fluxo de trabalho para o reabastecimento de material que usa o kanban de retirada
+-------------------------------------------------------------------
 
 O kanban de retirada pode ser usado para mover um kanban de um único item entre depósitos e locais de produção nos quais o material é consumido. O kanban de retirada oferece suporte a uma solução baseada em pull para reabastecimento de material, no qual um sinal pull é necessário para acionar o fornecimento para uma demanda específica. 
 
 O cenário a seguir mostra um sistema de reabastecimento baseado em pull, no qual um sinal pull aciona a criação de um kanban para reabastecer o material para um processo de produção. 
 
-[![O sinal pull aciona a criação de um kanban para reabastecer o material para um processo de produção.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![O sinal pull aciona a criação de um kanban para reabastecer o material para um processo de produção](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Kanban de retirada
 2.  Local de "origem" e local de colocação Kanban para trabalhos de depósito
@@ -72,7 +76,7 @@ Se a distância entre as localizações de depósito e o local de entrada de pro
 
 No cenário a seguir, a atividade de transferência do kanban de retirada é configurada para transferência entre dois locais do mesmo depósito. A atividade de transferência do kanban de retirada é configurada para que seja concluída automaticamente. 
 
-[![A atividade de transferência é concluída automaticamente quando o trabalho de separação kanban é processado.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![A atividade de transferência é concluída automaticamente quando o trabalho de separação kanban é processado](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Depósitos compartilhados de matérias-primas e produção
 2.  Locais de depósito de matérias-primas
@@ -83,6 +87,3 @@ No cenário a seguir, a atividade de transferência do kanban de retirada é con
 
 Depois de consumido em um local de entrada de produção, o kanban é relatado como vazio, e um novo kanban é adicionado ao fluxo. Quando o kanban é criado, uma linha de onda é adicionada a uma onda kanban. Quando a onda kanban é processada, o trabalho de depósito para a separação kanban é criado. O trabalhador do depósito processa o trabalho para a separação kanban e é direcionado pelo trabalho a separar o material para o kanban em um local de depósito. Na medida em que esse trabalhador do depósito confirma a separação, o kanban é concluído automaticamente, e o trabalhador do depósito é orientado a atrelar o material ao local de entrada de produção.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: Verificar a disponibilidade do estoque
 description: Este procedimento mostra como verificar um valor disponível e o estoque físico disponível de um número de item específico.
-author: yufeihuang
+author: ShylaThompson
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnHandItemListPage, SysQueryForm, InventDimParmFixed, InventSupply, DefaultDashboard, WHSInventPhysicalOnhand, WHSOnHand, InventOnhandItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c1533dc677c53e90d73077e06a67c71cebc1b7e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 28446e32c8f126e76b13f41f379ecf994a7b7a0d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574608"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422452"
 ---
 # <a name="check-the-availability-of-stock"></a>Verificar a disponibilidade do estoque
 
@@ -28,7 +31,7 @@ Este procedimento mostra como verificar um valor disponível e o estoque físico
 
 
 ## <a name="check-on-hand-inventory-for-an-item"></a>Verifique estoque disponível de um item
-1. Acesse **Painel de navegação > Módulos > Gerenciamento de estoque > Consultas e relatórios > Estoque disponível**.
+1. Vá para **Painel de navegação > Módulos > Gerenciamento de estoque > Consultas e relatórios > Estoque disponível**.
 2. Selecione a linha **Número do item**. Para consultar o estoque disponível por número do item, selecione a linha em que a tabela está definida como **Estoque disponível** e o campo está definido como o número do **Item**.
 3. No campo **Critérios**, selecione o item que você deseja consultar. Se você estiver usando a empresa de dados de demonstração USMF, poderá selecionar 'M9201'.  
 4. Clique em **OK**.
@@ -42,7 +45,7 @@ Este procedimento mostra como verificar um valor disponível e o estoque físico
 12. Feche a página.
 
 ## <a name="check-physical-on-hand-inventory"></a>Verifique Estoque disponível físico
-1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Consultas e relatórios > Estoque disponível físico**.
+1. Vá para **Painel de navegação > Módulos > Gerenciamento de depósito > Consultas e relatórios > Estoque disponível físico**.
 2. No campo **Número de item**, digite um valor. Você pode usar os campos de site e depósito para filtrar a lista de itens. 
 3. Atualize a página.
 4. No **Painel de Ações**, clique em **Exibir Dimensões**. A guia Exibir dimensões permite selecionar quantos detalhes você deseja ver sobre seu estoque disponível.
@@ -50,13 +53,10 @@ Este procedimento mostra como verificar um valor disponível e o estoque físico
 6. Feche a página.
 
 ## <a name="check-on-hand-inventory-by-location"></a>Verifique o estoque disponível por localização
-1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Consultas e relatórios > Disponibilidade por localização**.
+1. Vá para **Painel de navegação > Módulos > Gerenciamento de depósito > Consultas e relatórios > Disponibilidade por localização**.
 2. No campo **Depósito**, digite um valor. Se você estiver usando a empresa de dados de demonstração USMF, você pode usar '51'.  
 3. Atualize a página.
 4. Clique em **Exibir Dimensões**.
 5. Clique em **OK**.
 6. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

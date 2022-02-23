@@ -1,10 +1,12 @@
 ---
 title: Gerenciar usuários de colaboração do fornecedor
 description: Este tópico descreve como você pode solicitar o provisionamento de novos usuários de colaboração do fornecedor e como adicionar novos contatos de colaboração do fornecedor.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ff0d11bf2c42f7ae63e3db5f31f3ffea2c28f693
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6356c1d11ba507c0eaa42087bdebe982ef091dbd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578119"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019920"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gerenciar usuários de colaboração do fornecedor
 
@@ -62,7 +64,7 @@ Antes que você possa solicitar que um novo usuário seja provisionado, ele deve
 4. Na seção **Atribuir funções de usuário**, marque a caixa de seleção **Atribuir** para as funções de segurança que o novo usuário deve ter.
 5. Clique em **Enviar**.
 
-Quando a solicitação do usuário fornecedor é enviada, o campo **Acesso à colaboração do fornecedor permitido** é definido como **Sim** para a conta de fornecedor selecionada e um fluxo de trabalho da solicitação de usuário é iniciado. Como parte do fluxo de trabalho, um novo usuário é criado e as funções de segurança são atribuídas. Além disso, um serviço Azure B2B é ativado, o que inicia a interação com o portal do Azure e associa uma conta do AAD nova ou existente à conta de usuário do Supply Chain Management. Para obter mais informações, consulte [O que é a colaboração B2B do Azure AD?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Quando a solicitação do usuário fornecedor é enviada, o campo **Acesso à colaboração do fornecedor permitido** é definido como **Sim** para a conta de fornecedor selecionada e um fluxo de trabalho da solicitação de usuário é iniciado. Como parte do fluxo de trabalho, um novo usuário é criado e as funções de segurança são atribuídas. Além disso, um serviço Azure B2B é ativado, o que inicia a interação com o portal do Azure e associa uma conta do AAD nova ou existente à conta de usuário do Supply Chain Management. Para obter mais informações, consulte [O que é a colaboração B2B do Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Desativar um usuário
 
@@ -91,6 +93,3 @@ Para solicitar que as funções de segurança sejam modificadas para um usuário
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

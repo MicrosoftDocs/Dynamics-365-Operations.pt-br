@@ -1,26 +1,29 @@
 ---
 title: Simulação de preço
 description: Este artigo fornece informações sobre a simulação de preço para cotações. A simulação de preço ajuda a avaliar o efeito de deduções no preço de venda futuro durante o processo de cotação, para que você confirme a um preço específico.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation, SalesQuotationsTableLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580495"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4422485"
 ---
 # <a name="price-simulation"></a>Simulação de preço
 
@@ -79,7 +82,7 @@ A tabela a seguir mostra as linhas de cotação.
 | Margem de contribuição em USD | 318,20 – 184,96                      | 133,24   |
 | Índice de contribuição         | (\[318,20 – 184,96\] ÷ 318,20) × 100 | 41,87%   |
 
-Você executa uma simulação de preços e aplica um desconto total de 15% em toda a cotação ou no cabeçalho da cotação. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço.
+Você executa uma simulação de preços e aplica um desconto total de 15 por cento em toda a cotação ou no cabeçalho da cotação. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço.
 
 |     &nbsp;                                           | Cálculo                               | Resultado   |
 |------------------------------------------------------|-------------------------------------------|----------|
@@ -118,7 +121,7 @@ A tabela a seguir mostra as linhas de cotação.
 | Margem de contribuição total em USD     | 318,20 – 184,96                      | 133,24   |
 | Índice de contribuição total             | \[(318,20 – 184,96) ÷ 318,20\] × 100 | 41,87%   |
 
-Você executa uma simulação de preços e aplica um desconto total de 10% em unidades BR-12. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço para o item de única linha.
+Você executa uma simulação de preços e aplica um desconto total de 10 por cento em unidades BR-12. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço para o item de única linha.
 
 |    &nbsp;                                         | Cálculo                             | Resultado   |
 |---------------------------------------------------|-----------------------------------------|----------|
@@ -142,6 +145,3 @@ A simulação de preço afeta somente a linha na qual ela é aplicada e reduz o 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

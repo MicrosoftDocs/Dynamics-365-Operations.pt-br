@@ -1,24 +1,27 @@
 ---
 title: 'Definir processo de contagem cíclica de localização parcial '
 description: Quando você usa planos de contagem cíclica para criar trabalhos de contagem, você pode orientar operações de contagem real solicitando que somente os produtos e as grades do produto foram contados específicos, em vez de todo estoque disponível no local.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c179b7f6e0b8546e20204a971cb2951c7b62d7b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 39a256a5a88a6d70373d6e23f1f380da6791f418
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422516"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Definir processo de contagem cíclica de localização parcial  
 
@@ -28,7 +31,7 @@ Quando você usa planos de contagem cíclica para criar trabalhos de contagem, v
 
 
 ## <a name="create-a-cycle-counting-work-template"></a>Criar um modelo de trabalho de contagem cíclica
-1. Acesse Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho.
+1. Vá para Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho.
 2. No campo Tipo de ordem de trabalho, selecione "Contagem cíclica".
 3. Clique em Novo.
 4. No campo de número de sequência, insira um número.
@@ -53,7 +56,7 @@ Quando você usa planos de contagem cíclica para criar trabalhos de contagem, v
 21. Feche a página.
 
 ## <a name="create-a-cycle-counting-plan"></a>Criar um plano de contagem cíclica
-1. Acesse Gerenciamento de depósito > Configuração > Contagem cíclica > Planos de contagem cíclica.
+1. Vá para Gerenciamento de depósito > Configuração > Contagem cíclica > Planos de contagem cíclica.
 2. Clique em Novo.
 3. No campo ID do plano de contagem cíclica, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -70,6 +73,3 @@ Quando você usa planos de contagem cíclica para criar trabalhos de contagem, v
 14. Clique em OK.
 15. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

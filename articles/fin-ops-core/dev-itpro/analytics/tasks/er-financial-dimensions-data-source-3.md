@@ -1,10 +1,12 @@
 ---
 title: 'ER Usar dimensões financeiras como uma fonte de dados (Parte 3: Criar o relatório)'
-description: Este tópico descreve como configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER. (Parte 3)
+description: As etapas a seguir explicam como um usuário atribuído ao administrador do sistema ou função do desenvolvedor de relatório eletrônico pode configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605176"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684778"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 3: Criar o relatório)
 
@@ -30,7 +32,7 @@ Para completar essas etapas, primeiro você deve concluir as etapas "Dimensões 
 
 
 ## <a name="design-a-report-to-present-financial-dimensions"></a>Criar um relatório para apresentar dimensões financeiras
-1. Acesse Administração da organização > Relatório eletrônico > Configurações.
+1. Vá para Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, selecione "Modelo de amostra de dimensão financeira".
 3. Clique em Criar configuração para abrir a caixa de diálogo suspensa.
 4. No campo Novo, insira 'Formato baseado no modelo de dados modelo de amostra de dimensões financeiras'.
@@ -92,7 +94,7 @@ Para completar essas etapas, primeiro você deve concluir as etapas "Dimensões 
 59. Clique em Adicionar atributo.
 60. No campo Nome, digite "Desc".
 61. Clique em OK.
-![Árvore da página do designer de formatos.](../media/er-financial-dimensions-guides-format1.png)
+![Página do designer de operações de ER](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Mapear elementos de relatório para fontes de dados
 1. Clique na aba Mapeamento.
@@ -141,8 +143,5 @@ Para completar essas etapas, primeiro você deve concluir as etapas "Dimensões 
 44. Clique em Associar.
 45. Clique em Salvar.
 46. Feche a página.
-![Página Designer de formatação, elementos de relatório mapeados para fontes de dados.](../media/er-financial-dimensions-guides-format2.png)
+![Página do designer de operações de ER](../media/er-financial-dimensions-guides-format2.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

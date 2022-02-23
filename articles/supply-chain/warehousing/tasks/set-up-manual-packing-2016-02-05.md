@@ -1,25 +1,28 @@
 ---
 title: Configurar embalagem manual (fevereiro de 2016 e maio de 2016)
 description: O processo de embalagem permite que você valide e empacote produtos em contêineres.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbcd9653f2f3752f067828918ee61d96f9307c6d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 67e1e99b479752a027c60a878c57bd35d4219981
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576055"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422567"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Configurar embalagem manual (fevereiro de 2016 e maio de 2016)
 
@@ -29,7 +32,7 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 
 
 ## <a name="set-up-location-profiles"></a>Configurar perfis de localização
-1. Acesse Gerenciamento de depósito > Configuração > Depósito > Perfis de localização.
+1. Vá para Gerenciamento de depósito > Configuração > Depósito > Perfis de localização.
 2. Clique em Novo.
     * O perfil de local é usado para estações de embalagem e contém informações e as regras para um local.  
 3. No campo ID do perfil de localização, digite um valor.
@@ -42,14 +45,14 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 10. Feche a página.
 
 ## <a name="set-up-warehouse-management-parameters"></a>Configurar parâmetros para gerenciamento de depósito 
-1. Acesse Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito.
+1. Vá para Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito.
 2. Clique na guia Pacote.
 3. No campo ID de perfil para local de pacote, insira ou selecione um valor.
     * Selecione o perfil de local que deseja usar para separação.  
 4. Feche a página.
 
 ## <a name="set-up-container-types"></a>Configure tipos de contêiner
-1. Acesse Gerenciamento de depósito > Configuração > Recipientes > Tipos de recipiente.
+1. Vá para Gerenciamento de depósito > Configuração > Recipientes > Tipos de recipiente.
 2. Clique em Novo.
     * É possível definir os tipos de contêineres a serem usados. Você pode especificar as dimensões físicas do contêiner, incluindo o peso de tara, o peso máximo, o volume máximo, o tamanho, a largura, e o peso.  Os Atributos são campos personalizáveis que permitem adicionar dimensões extra no tipo de contêiner.     
 3. No campo Código de tipo de contêiner, digite um valor.
@@ -64,7 +67,7 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 12. Feche a página.
 
 ## <a name="set-up-packing-profiles"></a>Configurar perfis de embalagem
-1. Acesse Gerenciamento de depósito > Configuração > Empacotamento > Perfis de empacotamento.
+1. Vá para Gerenciamento de depósito > Configuração > Empacotamento > Perfis de empacotamento.
 2. Clique em Novo.
 3. No campo ID de perfil de pacote, insira um valor.
 4. No campo Descrição, digite um valor.
@@ -79,7 +82,7 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 10. Feche a página.
 
 ## <a name="set-up-container-closing-profiles"></a>Configurar perfis de fechamento de contêiner
-1. Acesse Gerenciamento de depósito > Configuração > Recipientes > Perfis de fechamento de recipientes.
+1. Vá para Gerenciamento de depósito > Configuração > Recipientes > Perfis de fechamento de recipientes.
     * Os perfis de fechamento de contêiner definem o que acontece quando um contêiner é fechado. Você pode configurar perfis de contêiner múltiplos próximos.       
 2. Clique em Novo.
 3. No campo ID de perfil de fechamento de Contêiner, insira um valor.
@@ -92,6 +95,3 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 8. No campo Unidade de peso, insira ou selecione um valor.
 9. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Usar configurações de mapeamento de modelo para cálculos agregados no nível do banco de dados
-description: Este tópico descreve como criar uma nova configuração de mapeamento de modelo de Relatório eletrônico e usar funções de ER internas para obter cálculos agregados eficientes.
+description: Este procedimento fornece informações sobre como criar uma nova configuração de mapeamento de modelo de Relatório eletrônico (ER) e usar funções de ER internas para obter cálculos agregados eficientes.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f4ca926414e36e04e6e908a55eebeca8c24a696da4bca0c1c3a6f836373627d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745855"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684106"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Usar configurações de mapeamento de modelo para cálculos agregados no nível do banco de dados
 
@@ -29,7 +31,7 @@ Este procedimento é criado para usuários com a função atribuída de Administ
 
  Para concluir essas etapas, você deve primeiro concluir as etapas do procedimento "O ER melhora a eficiência de cálculos agregados executando-os no nível do banco de dados (Parte 1: Preparar configurações)".
 
-1. Acesse Administração da organização > Relatório eletrônico > Configurações.
+1. Vá para Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, expanda 'Modelo intrastat'.
 3. Na árvore, selecione "Intrastat model\Intrastat sample mapping".
 4. Clique em Designer.
@@ -114,6 +116,3 @@ Este procedimento é criado para usuários com a função atribuída de Administ
 68. Clique em Salvar.
     * Observe que o campo "Execução em" indica que esse agrupamento será executado no tempo de execução na memória mesmo que não haja nenhuma agregação definida e a fonte de dados selecionada do tipo "Registros da tabela" refira-se à mesma tabela "Intrastat". Isso é porque a fonte de dados contém alguns campos calculados que ainda não podem ser traduzidos para o nível do banco de dados SQL.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,31 +2,34 @@
 title: Políticas de trabalho
 description: Este tópico explica como configurar políticas de trabalho.
 author: perlynne
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571152"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422594"
 ---
 # <a name="work-policies"></a>Políticas de trabalho
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o sistema e o aplicativo móvel Gerenciamento de Depósito para que eles ofereçam suporte a políticas de trabalho. Você pode usar essa funcionalidade para registrar rapidamente o estoque, sem criar o trabalho de armazenamento ao receber ordens de compra ou de transferência ou ao concluir processos de fabricação. Este tópico fornece informações gerais. Para obter informações detalhadas relacionadas ao recebimento da placa de licença, consulte [Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito](warehousing-mobile-device-app-license-plate-receiving.md).
+Este tópico explica como configurar o sistema e o aplicativo de depósito para que eles ofereçam suporte a políticas de trabalho. Você pode usar essa funcionalidade para registrar rapidamente o estoque, sem criar o trabalho de armazenamento ao receber ordens de compra ou de transferência ou ao concluir processos de fabricação. Este tópico fornece informações gerais. Para obter informações detalhadas relacionadas ao recebimento da placa de licença, consulte [Recebimento da placa de licença por meio do aplicativo de depósito](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Uma política de trabalho controla se o trabalho de depósito é criado quando um item fabricado é relatado como concluído ou quando as mercadorias são recebidas usando o aplicativo móvel Gerenciamento de Depósito. Configure cada política de trabalho definindo as condições em que ela se aplica: os tipos e os processos de ordem de trabalho, a localização de estoque e (opcionalmente) os produtos. Por exemplo, uma ordem de compra para o produto *A0001* deve ser recebida no local *RECV* no depósito *24*. Posteriormente, o produto é consumido em outro processo no local *RECV*. Nesse caso, você pode configurar uma política de trabalho para impedir que trabalho de armazenamento seja criado quando um trabalhador relatar o produto *A0001* como recebido no local *RECV*.
+Uma política de trabalho controla se o trabalho de depósito é criado quando um item fabricado é relatado como concluído ou quando as mercadorias são recebidas usando o aplicativo de depósito. Configure cada política de trabalho definindo as condições em que ela se aplica: os tipos e os processos de ordem de trabalho, a localização de estoque e (opcionalmente) os produtos. Por exemplo, uma ordem de compra para o produto *A0001* deve ser recebida no local *RECV* no depósito *24*. Posteriormente, o produto é consumido em outro processo no local *RECV*. Nesse caso, você pode configurar uma política de trabalho para impedir que trabalho de armazenamento seja criado quando um trabalhador relatar o produto *A0001* como recebido no local *RECV*.
 
 > [!NOTE]
 > - Para que uma política de trabalho fique ativa, você deve definir pelo menos uma localização para ela na FastTab **Locais de estoque** da página **Políticas de trabalho**. 
@@ -42,7 +45,7 @@ Para disponibilizar toda a funcionalidade descrita neste tópico no sistema, ati
 
 ## <a name="the-work-policies-page"></a>A página Políticas de trabalho
 
-Para configurar políticas de trabalho, Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**. Em seguida, em cada FastTab, defina os campos conforme descrito nas subseções a seguir.
+Para configurar políticas de trabalho, vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**. Em seguida, em cada FastTab, defina os campos conforme descrito nas subseções a seguir.
 
 ### <a name="the-work-order-types-fasttab"></a>A FastTab Tipos de ordem de trabalho
 
@@ -94,7 +97,7 @@ A configuração **Local de destino** para um item de menu substitui o local de 
 
 Para configurar um item de menu de dispositivo móvel para dar suporte ao recebimento em um local personalizado, siga estas etapas.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Selecione ou crie um item de menu que use um dos processos de criação de trabalho listados anteriormente nesta seção.
 1. Na FastTab **Geral**, defina a opção **Usar dados padrão** como **Sim**.
 1. No Painel de Ações, selecione **Dados padrão**.
@@ -125,7 +128,7 @@ Este cenário usa os dados de demonstração padrão. Então, se desejar trabalh
 
 ### <a name="set-up-a-work-policy"></a>Configurar uma política de trabalho
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**.
 1. Selecione **Novo**.
 1. No campo **Nome da política de trabalho**, digite *Nenhum trabalho de armazenamento de item de compra*.
 1. Selecione **Salvar**.
@@ -146,7 +149,7 @@ Este cenário usa os dados de demonstração padrão. Então, se desejar trabalh
 
 ### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a>Configurar um item de menu do dispositivo móvel para alterar o local de recebimento
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No painel esquerdo, selecione o item de menu **Recebimento de compra** existente.
 1. Na FastTab **Geral**, defina a opção **Usar dados padrão** como *Sim*.
 1. Selecione **Salvar**.
@@ -200,7 +203,7 @@ A ordem de compra é recebida agora, mas nenhum trabalho está associado a ela. 
 
 No exemplo a seguir, há duas ordens de produção, *PRD-001* e *PRD-002*. A ordem de produção *PRD-001* tem uma operação que é chamada *Montagem*, em que o produto *SC1* está sendo relatado como acabado para o local *001*. A ordem de produção *PRD-002* tem uma operação que é chamada *Pintura* e consome o produto *SC1* do local *001*. A ordem de produção *PRD-002* também consome a matéria-prima *RM1* do local *001*. A matéria-prima *RM1* é armazenada na localização de depósito *BULK-001* e será separada para o local *001* pelo trabalho de depósito para a separação de matéria-prima. O trabalho de separação será gerado quando a produção *PRD-002* for liberada.
 
-[![Políticas de trabalho de depósito.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Políticas de trabalho de depósito](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Quando você pretender configurar uma política de trabalho de depósito para este cenário, considere os seguintes pontos:
 
@@ -226,7 +229,7 @@ Este cenário usa os dados de demonstração padrão. Então, se desejar trabalh
 
 Os processos de depósito nem sempre incluem o trabalho do depósito. Ao definir uma política de trabalho, você pode impedir a criação de trabalho para a separação de matéria-prima e o armazenamento de mercadorias acabadas para um conjunto de produtos em locais específicos.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**.
 1. Selecione **Novo**.
 1. No campo **Nome da política de trabalho**, insira *Nenhum trabalho de armazenamento*.
 1. No Painel de ações, selecione **Salvar**.
@@ -256,7 +259,7 @@ Os processos de depósito nem sempre incluem o trabalho do depósito. Ao definir
 
 ### <a name="set-up-an-output-location"></a>Configurar uma localização de saída
 
-1. Acesse **Administração da organização \> Recursos \> Grupos de recursos**.
+1. Vá para **Administração da organização \> Recursos \> Grupos de recursos**.
 1. No painel esquerdo, selecione o grupo de recursos **5102**.
 1. Na FastTab **Geral**, defina os seguintes valores:
 
@@ -270,7 +273,7 @@ Os processos de depósito nem sempre incluem o trabalho do depósito. Ao definir
 
 ### <a name="create-a-production-order-and-report-it-as-finished"></a>Criar uma ordem de produção e relatar quando estiver concluída
 
-1. Acesse **Controle de produção \> Ordens de produção \> Todas ordens de produção**.
+1. Vá para **Controle de produção \> Ordens de produção \> Todas ordens de produção**.
 1. No Painel de Ações, selecione **Nova ordem de produção**.
 1. Na caixa de diálogo **Criar ordem de produção**, defina o campo **Número do item** como *L0101*.
 1. Selecione **Criar** para criar a ordem e feche a caixa de diálogo.
@@ -295,9 +298,6 @@ Quando a ordem de produção é relatada como concluída, nenhum trabalho é ger
 
 Para obter mais informações sobre itens do menu do dispositivo móvel, consulte [Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md).
 
-Para obter mais informações sobre o recebimento da placa de licença e políticas de trabalho, consulte [Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito](warehousing-mobile-device-app-license-plate-receiving.md).
+Para obter mais informações sobre o recebimento da placa de licença e políticas de trabalho, consulte [Recebimento da placa de licença por meio do aplicativo de depósito](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Para obter mais informações sobre o gerenciamento de carga de entrada, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](inbound-load-handling.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

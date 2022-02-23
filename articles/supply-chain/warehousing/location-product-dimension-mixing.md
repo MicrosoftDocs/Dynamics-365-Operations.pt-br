@@ -2,23 +2,26 @@
 title: Combinação de dimensões do produto de localização
 description: Este tópico fornece informações sobre a combinação de dimensões do produto de localização. Essa funcionalidade do perfil de localização ajuda a melhorar o gerenciamento de localização quando grades de produtos ou produtos que têm dimensões são usados, como na indústria da moda. Ela permite decidir se configurações, cores, estilos e tamanhos podem ser combinados para um perfil de localização específico ou se apenas uma dessas dimensões ou uma combinação delas podem ser colocadas no mesmo local.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578551"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422506"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinação de dimensões do produto de localização
 
@@ -39,7 +42,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="configure-location-profiles-to-allow-product-dimension-mixing"></a>Configurar perfis de localização para permitir a combinação de dimensões do produto
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
 1. Na lista de perfis de localização, selecione **MASSA**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na FastTab **Geral**, defina a opção **Habilitar a combinação específica de dimensões do produto de localização** como *Sim*.
@@ -52,7 +55,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Criar um novo produto mestre e grades de produtos
 
-1. Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
+1. Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
 1. No Painel de Ação, selecione **Novo** para criar um produto mestre.
 1. Na caixa de diálogo **Novo produto**, defina os seguintes valores:
 
@@ -86,7 +89,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 ### <a name="update-a-released-product-in-the-usmf-company"></a>Atualizar um produto liberado na empresa USMF
 
 1. Entre na empresa **USMF**.
-1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados** para concluir a criação do produto liberado.
+1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados** para concluir a criação do produto liberado.
 1. Localize e selecione o item de número *B0001* para abrir a página **Detalhes do produto liberado**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na FastTab **Geral**, verifique se o campo **Grupo de modelo do item** está definido como *PEPS*.
@@ -108,7 +111,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="create-a-location-directive"></a>Criar uma diretiva de localização
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, no campo **Tipo de ordem de serviço**, selecione *Ordens de compra*.
 1. Na lista, selecione a diretiva de localização chamada *24 PO Direct*.
 1. Na FastTab **Ações de Diretiva de Localização**, selecione **Novo** para adicionar uma linha à grade.
@@ -141,7 +144,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="create-a-mobile-device-menu-item"></a>Criar um item de menu de dispositivo móvel
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ação, selecione **Novo** para criar um item de menu a ser usado para classificação.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -159,7 +162,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="configure-the-mobile-device-menu"></a>Configurar o menu do dispositivo móvel
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Na lista de menus, selecione **Entrada**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na lista **Menus e Itens de Menu Disponíveis**, localize e selecione o item de menu **Recebimento da linha da OC**.
@@ -176,7 +179,7 @@ Antes de começar, verifique se há locais vazios no depósito *24* que usem o p
 
 Você criará uma ordem de compra com três linhas: duas linhas para o mesmo número de produto, mas diferentes grades de **Tamanho**, e uma terceira linha para um produto diferente que não tem grades.
 
-1. Acesse **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
+1. Vá para **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de compra**, defina os seguintes valores:
 
@@ -204,9 +207,9 @@ Você criará uma ordem de compra com três linhas: duas linhas para o mesmo nú
 
 1.Selecione **Salvar**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Receber linhas da ordem de compra no aplicativo móvel do Gerenciamento de Depósito
+### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Receber linhas da ordem de compra no aplicativo de depósito
 
-1. Entre no aplicativo móvel de Gerenciamento de depósito como um usuário ativado para o depósito *24*.
+1. Entre no aplicativo de depósito como um usuário habilitado para o depósito *24*.
 1. Selecione o menu **Entrada**.
 1. Selecione **Recebimento da Linha da OC**.
 1. Selecione o campo **PONUM** e insira o número da ordem de compra.
@@ -236,5 +239,3 @@ Você criará uma ordem de compra com três linhas: duas linhas para o mesmo nú
 
 > [!TIP]
 > Você pode repetir esse cenário, mas desta vez, defina **Tamanho** - *Não* na FastTab **Permitir combinação de dimensões do produto** nos **Perfis de localização** *MASSA*, para que nenhuma dimensão do produto seja combinada. Nesse caso, quando você receber a ordem de compra, cada grade de produto será colocada em um novo local.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

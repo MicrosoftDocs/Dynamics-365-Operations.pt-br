@@ -2,8 +2,11 @@
 title: Função DATETIMEVALUE ER
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) DATETIMEVALUE é usada.
 author: NickSelin
-ms.date: 09/08/2021
+manager: kfend
+ms.date: 12/03/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a9da0b9461926b1033d6a97b37d4b43a86d8dad
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 30879796b483752a578e516d8afd75f5a690cabc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485513"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684897"
 ---
 # <a name="datetimevalue-er-function"></a>Função DATETIMEVALUE ER
 
 [!include [banner](../includes/banner.md)]
 
-A função `DATETIMEVALUE` retorna um valor *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* que é convertido de um valor de texto determinado no formato especificado e em uma [cultura](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) para um valor de data/hora. Para obter informações sobre os formatos com suporte, consulte [padrão](/dotnet/standard/base-types/standard-date-and-time-format-strings) e [personalizado](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+A função `DATETIMEVALUE` retorna um valor de *DateTime* que é convertido de um valor de texto determinado no formato especificado e em uma [cultura](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) opcionalmente especificada para um valor de data/hora. Para obter informações sobre os formatos com suporte, consulte [padrão](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) e [personalizado](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
 
 ## <a name="syntax-1"></a>Sintaxe 1
 
@@ -41,21 +44,21 @@ DATETIMEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>Argumentos
 
-`text`: *[Cadeia de caracteres](er-formula-supported-data-types-primitive.md#string)*
+`text`: *Cadeia de caracteres*
 
 Texto que representa o valor do formato.
 
 `format`: *Cadeia de caracteres*
 
-O formato de determinado texto. Para obter informações sobre os formatos com suporte, consulte [padrão](/dotnet/standard/base-types/standard-date-and-time-format-strings) e [personalizado](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+O formato de determinado texto.
 
 `culture`: *Cadeia de caracteres*
 
-A cultura usada para a formatação do texto especificado. Para obter informações sobre culturas com suporte, consulte [cultura](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
+A cultura usada para a formatação do texto especificado.
 
 ## <a name="return-values"></a>Valores de retorno
 
-*Data e Hora*
+*Data/Hora*
 
 O valor de data/hora resultante.
 
@@ -76,6 +79,3 @@ Porém, `DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de data e de hora](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

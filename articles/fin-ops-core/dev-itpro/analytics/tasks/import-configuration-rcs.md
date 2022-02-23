@@ -2,9 +2,11 @@
 title: (ER) Importar configurações de RCS
 description: Este tópico fornece informações sobre como um usuário pode importar uma nova versão de configuração de ER de RCS.
 author: NickSelin
+manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5674c418baaac7817c27780e2f0137ce6e7137eb3f1665f768ad843cc5b3114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b591df3d384e8dc59646ebb9d0205001db040a55
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720775"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684178"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) Importar configurações de RCS
 
@@ -26,7 +28,7 @@ ms.locfileid: "6720775"
 
 As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode importar uma nova versão de uma configuração de Relatório eletrônico (ER) do Regulatory Configuration Services (RCS) da Microsoft. Neste exemplo, você vai selecionar a versão da configuração de ER que foi definida em uma instância de RCS e importá-la para a instância atual da empresa de exemplo, Litware, Inc. Estas etapas podem ser executadas em qualquer empresa porque as configurações de ER são compartilhadas entre empresas. Para concluir estas etapas, primeiro conclua as etapas do tópico, [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Para concluir essas etapas, você também deve ter acesso a uma instância de RCS que contenha pelo menos uma configuração de ER no status **Concluído** ou **Compartilhado**.
 
-1. Acesse **Administração da organização** > **Espaços de trabalho** > **Relatório eletrônico**. 
+1. Vá para **Administração da organização** > **Espaços de trabalho** > **Relatório eletrônico**. 
 2. Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no tópico [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). 
 3. Se não tiver o ambiente do RCS provisionado para sua empresa, selecione o link externo **Regulatory services – Configuração** e siga as instruções para provisionar um ambiente do RCS. 
 4. Selecione **Parâmetros de relatório eletrônico**. 
@@ -53,6 +55,3 @@ As etapas a seguir explicam como um usuário na função de Administrador do Sis
 5. Selecione **Fechar**. 
 6. Selecione a versão desejada da configuração de ER e selecione **Importar** para exibi-la na instância atual.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

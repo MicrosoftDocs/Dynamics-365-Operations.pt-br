@@ -1,85 +1,84 @@
 ---
-title: 'Guia: criar uma previsão de linha de base'
+title: Criar uma previsão de linha de base
 description: Um planejador de produção pode criar uma linha de base de previsão usando modelos de previsão das séries temporais ou copiando as demandas históricas.
-author: ChristianRytt
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 843e0b3827851e1251a2c77269859bb7903f69ec
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 47e26a48cdde3a6996f4c0a4ca85222c402f44e2
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578311"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4422623"
 ---
-# <a name="guide-create-a-baseline-forecast"></a>Guia: criar uma previsão de linha de base
+# <a name="create-a-baseline-forecast"></a>Criar uma previsão de linha de base
 
 [!include [banner](../../includes/banner.md)]
 
-Um planejador de produção pode criar uma linha de base de previsão usando modelos de previsão das séries temporais ou copiando as demandas históricas. Este procedimento mostra como criar uma previsão da linha de base para todos os produtos com uma chave de alocação de itens ao copiar a demanda de histórico.
+Um planejador de produção pode criar uma linha de base de previsão usando modelos de previsão das séries temporais ou copiando as demandas históricas. Este procedimento mostra como criar uma previsão da linha de base para todos os produtos com uma chave de alocação de itens ao copiar a demanda de histórico. 
+
 
 ## <a name="set-up-an-item-allocation-key"></a>Configurar uma chave de alocação de item
-
-1. Acesse **Planejamento principal > Configuração > Grupos de planejamento entre empresas**.
-2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre no campo *Nome* com um valor de *10*.
+1. Vá para Planejamento mestre > Configuração > Grupos de planejamento intercompanhia.
+2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Nome com um valor de '10'.
     * A previsão de demanda executa por meio da pessoa jurídica. Por isso é necessário configurar todas as empresas para o qual você deseja gerar previsões em um grupo de planejamento intercompanhia.  
-3. Na lista, localize e selecione o registro desejado.
-4. Selecione **Chaves de alocação de itens**.
+3. Na lista, localize e selecione o PDV desejado.
+4. Clique em Chaves de alocação de item.
     * Selecione todas as chaves de alocação de item para o qual você deseja criar previsões.  
 5. Na lista, marque a linha selecionada.
     * Selecione a chave de alocação de item de D_Aloc.  
-6. Selecione **>**.
+6. Clique em >.
 7. Feche a página.
 8. Feche a página.
 
 ## <a name="set-up-the-demand-forecasting-parameters"></a>Configurar os parâmetros de previsão de demanda
-
-1. Acesse **Planejamento principal > Configuração > Previsão de demanda > Parâmetros de previsão de demanda**.
-2. Expanda a seção **Parâmetros do algoritmo de previsão**.
-3. No campo **Estratégia de geração de previsão**, selecione **Copiar histórico de demanda**.
-4. Selecione **Salvar**.
+1. Vá para Planejamento mestre > Configuração > Previsão de demanda > Parâmetros de previsão de demanda.
+2. Expanda a seção de parâmetros de algoritmo de previsão.
+3. No campo da estratégia de geração de previsão, selecione 'Copiar sobre demanda histórica'.
+4. Clique em Salvar.
 
 ## <a name="create-a-baseline-forecast"></a>Criar uma previsão de linha de base
-
-1. Acesse **Planejamento principal > Previsão > Previsão de demanda > Gerar previsão de linha de base estatística**.
-2. No campo **Data inicial**, insira uma data.
+1. Vá para Planejamento mestre > Previsão > Previsão de demanda > Previsão estatística.
+2. No campo De data, insira uma data.
     * Se você tem ordens de venda que começam desde 1º de janeiro de 2015, insira esta data. Caso contrário, insira a data mais anterior das ordens de venda.  
-3. No campo **Data final**, insira uma data.
-    * Insira a última data de suas ordens de venda, por exemplo *2015-31-03*.  
-4. No campo **Data inicial**, insira uma data.
-    * Digite *2015-01-04*. Essa data será calculada automaticamente como a data de início da próxima da previsão.  
-5. Expanda a seção **Registros a serem incluídos**.
-6. Selecione **Filtro**.
+3. No campo Até, insira uma data.
+    * Insira a última data das ordens de venda, por exemplo, "31-03-2015".  
+4. No campo De data, insira uma data.
+    * Insira "01-04-2015" Essa data será calculada automaticamente como a data de início da próxima da previsão.  
+5. Expanda os Registros para incluir a seção.
+6. Clique em Filtro.
 7. Na lista, marque a linha selecionada.
-    * Marque a linha em que **Campo** = *Grupo de planejamento entre empresas*.  
-8. No campo **Critérios**, digite um valor.
-    * Digite o grupo de planejamento entre empresas (por exemplo, *10*) que você usou na primeira tarefa.  
-9. Na lista, localize e selecione o registro desejado.
-    * Selecione a linha em que **Campo** = *Chave de alocação de item*.  
-10. No campo **Critérios**, digite um valor.
-11. Selecione **OK**.
-12. Expanda a seção **Parâmetros avançados**.
-13. No campo **Bucket de previsão**, selecione *Mês*.
-14. No campo **Horizonte de previsão**, insira *3*.
-15. No campo **Congelar limite de tempo**, insira *1*.
-16. Selecione **OK**.
+    * Marque a linha no campo = grupo de planejamento intercompanhia.  
+8. No campo Critérios, digite um valor.
+    * Digite o grupo de planejamento intercompanhia, por exemplo, 10, que é usado na primeira tarefa.  
+9. Na lista, localize e selecione o PDV desejado.
+    * Selecione a linha em que o campo = chave de alocação de item.  
+10. No campo Critérios, digite um valor.
+11. Clique em OK.
+12. Expanda a seção Parâmetros avançados.
+13. No campo Classificação por Previsão, selecione 'Mês'.
+14. No campo Horizonte de previsão, insira '3'.
+15. No Tempo limite de congelamento, insira '1'.
+16. Clique em OK.
 
 ## <a name="visualize-the-demand-forecast"></a>Visualize a previsão de demanda
-
-1. Acesse **Planejamento principal > Previsão > Previsão de demanda > Previsão de demanda ajustada**.
+1. Vá para Planejamento mestre > Previsão > Previsão de demanda > Previsão de demanda ajustada.
 2. Na tabela de exibição agregada, selecione a célula na linha 1, coluna 2. Este é o segundo mês para o qual você criou uma previsão.
-3. Defina **QtyCell** como *400*.
+3. Definir QtyCell a '400'.
     * Na célula, insira um número diferente de aquele que foi previsto, por exemplo, 400.  
 4. Você tiver feito um ajuste manual para a previsão. Observe a indicação gráfica na próxima etapa.
-5. Selecione **Detalhes da linha de previsão**.
+5. Clique em Detalhes da linha de previsão.
     * Nessa página, você pode ver os valores de precisão, a demanda histórica e a previsão. Você pode fazer alterações para a previsão também.  
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

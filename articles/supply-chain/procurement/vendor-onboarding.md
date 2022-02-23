@@ -1,24 +1,26 @@
 ---
 title: Integração de fornecedores
 description: Este tópico descreve o processo de integração de novos fornecedores. Explica as ações necessárias para várias funções durante este processo.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566878"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019870"
 ---
 # <a name="onboard-vendors"></a>Integração de fornecedores
 
@@ -172,6 +174,3 @@ Usando a ação **Excluir** da solicitação de registro do fornecedor potencial
 |         Aprovada         |                                                                               A solicitação do fornecedor foi aprovada.                                                                               |                                                                                                   A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos.                                                                                                    |
 |         Rejeitada         |                                                                               A solicitação do fornecedor foi rejeitada.                                                                               |                                                                                                   A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos.                                                                                                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

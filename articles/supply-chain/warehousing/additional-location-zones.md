@@ -2,25 +2,28 @@
 title: Zonas de localização adicionais
 description: Este tópico mostra uma visão geral das novas zonas de localização que foram adicionadas ao Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4801077ac498699972244f3f86216790b517b47247fc7fb288614ec143c3c5cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422549"
 ---
 # <a name="additional-location-zones"></a>Zonas de localização adicionais
 
@@ -39,7 +42,7 @@ Para que você possa usar o recurso *Zona de localização adicional*, ele deve 
 
 ## <a name="use-location-zones"></a>Usar zonas de localização
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Assistente de configuração de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Assistente de configuração de localização**.
 2. Defina os seguintes valores:
 
     - No campo **Depósito**, selecione _62_.
@@ -54,7 +57,4 @@ Para que você possa usar o recurso *Zona de localização adicional*, ele deve 
 6. No campo **Número inicial**, insira _1_. No campo **Número final**, insira _5_.
 7. Selecione **Criar**.
 8. Você recebe mensagens indicando que novas localizações foram adicionadas. Selecione o botão **Mostrar mensagens** para exibir as mensagens.
-9. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Localizações**. As novas localizações serão exibidas na lista, e todos os campos de zona estarão disponíveis (ou seja, o campo de zona existente e os novos campos de zona adicionais).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+9. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Localizações**. As novas localizações serão exibidas na lista, e todos os campos de zona estarão disponíveis (ou seja, o campo de zona existente e os novos campos de zona adicionais).

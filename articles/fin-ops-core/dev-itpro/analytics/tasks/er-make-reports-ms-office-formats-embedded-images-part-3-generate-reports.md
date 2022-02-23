@@ -1,10 +1,12 @@
 ---
 title: Gerar relatórios em formato do Office com imagens incorporadas
-description: Este tópico descreve como criar configurações de relatório eletrônico (ER) para gerar documentos eletrônicos no Excel e Word que contenham imagens incorporadas.
+description: As etapas a seguir explicam como um usuário no papel de "Administrador do Sistema" ou "Desenvolvedor de relatório eletrônico" pode criar configurações de Relatório Eletrônico (RE) para gerar os documentos eletrônicos nos formatos do MS Office (Excel e Word) que contenham imagens incorporadas.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ec9f3013c1e365a3ca1a4c6cabe71a22e3e8b730eac38155ef023fe68107524
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735517"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684370"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Gerar relatórios em formato do Office com imagens incorporadas
 
@@ -29,7 +31,7 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
 
 
 ## <a name="run-format-with-initial-model-mapping"></a>Executar formato com mapeamento de modelo inicial
-1. Acesse Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.
+1. Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.
 2. Use o Filtro Rápido para filtrar o campo Conta bancária com o valor 'USMF OPER'.
 3. No Painel de Ação, clique em Configurar.
 4. Clique em Verificar.
@@ -58,7 +60,7 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>Modifique mapeamento do modelo de dados importados
 1. Feche a página.
 2. Feche a página.
-3. Acesse Administração da organização > Relatório eletrônico > Configurações.
+3. Vá para Administração da organização > Relatório eletrônico > Configurações.
 4. Na árvore, selecione "Modelo de cheques'.
 5. Clique em Designer.
 6. Clique em Mapear modelo para fonte de dados.
@@ -82,7 +84,7 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
 23. Feche a página.
 
 ## <a name="run-format-using-the-adjusted-model-mapping"></a>Execute o formato usando o mapeamento de modelo ajustado
-1. Acesse Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.
+1. Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.
 2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Conta bancária com um valor de 'USMF OPER'.
 3. No Painel de Ação, clique em Configurar.
 4. Clique em Verificar.
@@ -93,7 +95,7 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Use o documento do Word MS como um modelo no formato importado
 1. Feche a página.
 2. Feche a página.
-3. Acesse Administração da organização > Relatório eletrônico > Configurações.
+3. Vá para Administração da organização > Relatório eletrônico > Configurações.
 4. Na árvore, expanda "Modelo de cheques'.
 5. Na árvore, selecione 'Modelo para cheques\Formato de impressão de cheques'.
 6. Clique em Designer.
@@ -110,13 +112,10 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
 16. Clique em Editar.
 17. Selecione Sim no campo Executar Rascunho.
 18. Feche a página.
-19. Acesse Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.
+19. Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.
 20. Use o Filtro Rápido para filtrar o campo Conta bancária com o valor 'USMF OPER'.
 21. Clique em Verificar.
 22. Clique em Imprimir teste.
 23. Clique em OK.
     * Revise a saída criada. A saída foi gerada como um documento do Word com imagens incorporadas apresentando o logotipo da empresa, a assinatura de uma pessoa autorizada e o texto selecionado da marca d'água.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

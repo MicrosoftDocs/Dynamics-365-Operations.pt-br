@@ -1,60 +1,53 @@
 ---
 title: Verificar a qualidade de mercadorias
-description: Este tópico descreve como processar ordens de qualidade.
-author: yufeihuang
-ms.date: 03/23/2021
+description: Este tópico explica como processar uma ordem de qualidade.
+author: perlynne
+manager: tfehr
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQualityOrderTable, InventQualityOrderLineResults, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc2fbbedb608b38c6855fbd48ff0c3e26ee3e0bc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ee5f83b2dad60567341f33a73ce63d01e9da8289
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575839"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422444"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Verificar a qualidade de mercadorias
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como processar ordens de qualidade. As inspeções de qualidade costumam ser realizadas por um vendedor de qualidade.
+Este tópico explica como processar uma ordem de qualidade. Você pode executar este guia na empresa USMF de dados de demonstração. Antes de iniciar este procedimento de exemplo, você precisa confirmar a ordem de compra "000016" e lançar um recebimento de produtos. Isso criará automaticamente uma ordem de qualidade. As inspeções de qualidade são realizadas tipicamente por um vendedor de qualidade.
 
-Se os dados de demonstração padrão forem instalados, você poderá usá-los para concluir os procedimentos deste tópico. Para usar os dados de demonstração, selecione a entidade legal *USMF* antes de começar. Você deve confirmar a ordem de compra *000016* e lançar um recebimento de produto. Uma ordem de qualidade é gerada automaticamente.
 
-## <a name="step-1-select-a-quality-order"></a>Etapa 1: Selecione uma ordem de qualidade
+## <a name="select-a-quality-order"></a>Selecione uma ordem de qualidade
+1. No painel de navegação, vá para **Módulos > Gerenciamento de estoque > Tarefas periódicas > Gerenciamento de qualidade > Ordens de qualidade**.
+2. Selecione a ordem de qualidade que foi criada antes do início deste procedimento.  
 
-Para selecionar uma ordem de qualidade, siga estas etapas.
-
-1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
-1. Selecione a ordem de qualidade que foi gerada antes do início deste procedimento.
-
-## <a name="step-2-record-test-results"></a>Etapa 2: Registrar resultados do teste
-
-Para registrar resultados do teste, siga estas etapas.
-
+## <a name="record-test-results"></a>Registrar resultados do teste
 1. Selecione **Resultados**.
-1. Selecione **Editar**.
-1. No campo **Quantidade do resultado**, insira um número.
-1. No campo **Resultado**, selecione o registro desejado. Neste exemplo, o resultado é baseado em um resultado predefinido. Em geral, você registrará um resultado de teste mais específico, como um tamanho ou outra dimensão.
-1. Selecione **Salvar**.
-1. Feche a página.
+2. Selecione **Editar**.
+3. No campo **Quantidade do resultado**, insira um número.
+4. No campo **Resultado**, selecione o registro desejado no menu suspenso.  
+- Neste exemplo o resultado é baseado em um resultado predefinido. Normalmente você registraria um resultado de teste mais específico por exemplo, um tamanho ou outra dimensão.  
+5. Selecione **Salvar**.
+6. Feche a página.
 
-## <a name="step-3-validate-the-quality-order"></a>Etapa 3: Validar a ordem de qualidade
-
-Para validar a ordem de qualidade, siga estas etapas.
-
+## <a name="validate-the-quality-order"></a>Validar a ordem de qualidade
 1. Selecione **Validar**.
-1. No campo **Validado por**, selecione o usuário que está fazendo a inspeção.
-1. Escolha **Selecionar**.
-1. Selecione **OK**.
-1. Feche a página.
+2. No campo **Validado por**, selecione o usuário que executa a inspeção do menu suspenso.  
+3. Clique em **Selecionar**.
+4. Selecione **OK**.
+5. Feche a página.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

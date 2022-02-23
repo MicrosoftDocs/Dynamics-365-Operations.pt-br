@@ -1,25 +1,28 @@
 ---
 title: Configurar uma diretiva de localização para o registro da ordem de compra
 description: Este tópico explica como configurar uma diretiva simples de local.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a363b452cbee539aeee62146f545b1f7c2eb842
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b07cd8af0fd619a71d3fe5188f41d0a0ed954f93
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576199"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422554"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar uma diretiva de localização para o registro da ordem de compra
 
@@ -27,7 +30,7 @@ ms.locfileid: "7576199"
 
 Este tópico explica como configurar uma diretiva simples de local. O exemplo mostrado cria uma diretiva de localização a ser usada para determinar onde colocar os itens recebidos para uma ordem de compra. Você pode executar esse guia de tarefas com os dados mencionados utilizando a empresa de dados de demonstração USMF. Pré-condições: Você deve criar um código de disposição. Nesse procedimento usamos um código de disposição chamado Relabel. Se estiver criando uma diretiva de localização em seus próprios dados, você precisará configurar o gerenciamento de depósito avançado para seu depósito e seus itens. Esse procedimento é destinado ao gerente do depósito.
 
-1. No painel de navegação, Acesse **Módulos > Gerenciamento de depósito > Configuração > Diretivas de localização**.
+1. No painel de navegação, vá para **Módulos > Gerenciamento de depósito > Configuração > Diretivas de localização**.
 2. No campo **Tipo de ordem de trabalho**, selecione **Ordens de compra**.
 
 ## <a name="create-a-location-directive-header"></a>Criar um cabeçalho da diretiva de localização
@@ -83,6 +86,3 @@ Este tópico explica como configurar uma diretiva simples de local. O exemplo mo
 4. No campo **Critérios**, digite um valor.
 5. Selecione **OK**. Você pode continuar adicionando linhas diretivas e ações diretivas até que você tenha considerado todos os possíveis cenários para o depósito.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

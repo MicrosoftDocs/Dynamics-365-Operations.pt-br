@@ -1,25 +1,28 @@
 ---
 title: Registrar itens para um item básico com armazenamento habilitado usando um diário de entrada de itens
 description: Este procedimento mostra como registrar itens usando o diário de entrada de itens quando estiver utilizando "depósito básico" no módulo de gerenciamento de estoque.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, WMSJournalTable, WMSJournalCreate, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dd2bfd57db7dfd5c2baf59a864e59a509a64e0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 940fa33b10c5f60f469187b11dd066091581996f
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577783"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422515"
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Registrar itens para um item básico com armazenamento habilitado usando um diário de entrada de itens
 
@@ -29,7 +32,7 @@ Este procedimento mostra como registrar itens usando o diário de entrada de ite
 
 
 ## <a name="create-item-arrival-journal-header"></a>Criar cabeçalho de diário de entrada de itens.
-1. Acesse Gerenciamento de estoque > Entradas de diário > Chegada de item > Chegada de item.
+1. Vá para Gerenciamento de estoque > Entradas de diário > Chegada de item > Chegada de item.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
     * Se você estiver usando USMF, você pode digitar WHS. Se você estiver usando outros dados, o diário que você escolher o nome precisará ter as seguintes propriedades: Verificar local de separação deve estar definida como Não e Gerenciamento de quarentena deve estar definido como Não.  
@@ -55,6 +58,3 @@ Este procedimento mostra como registrar itens usando o diário de entrada de ite
 2. Clique em Recebimento de produtos.
 3. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

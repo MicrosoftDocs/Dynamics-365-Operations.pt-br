@@ -2,24 +2,27 @@
 title: Liberar linhas de BOM e fórmula para o depósito
 description: Este tópico descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422528"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar linhas de BOM e fórmula para o depósito
 
@@ -61,7 +64,7 @@ Na consulta do trabalho em lotes **Liberação automática das linhas da BOM e d
 
 A ilustração a seguir mostra uma ordem de produção que tem dois trabalhos, 10 e 20, que abrange a montagem e embalagem da ordem de produção. Cada trabalho é configurado para consumir uma quantidade de material. Nesta ilustração, o limite de tempo de liberação que é indicada pela seta verde abaixo da linha do tempo é igual ao número de dias que foi especificado no critério **(LessThanDate())**. Por exemplo, **(LessThanDate (2))** indica que o trabalho deverá procurar quantidades não liberadas somente dentro de um limite de tempo de dois dias.
 
-![Exemplo de uma ordem de produção que tem dois trabalhos em lote.](media/bach-job-setup.PNG)
+![Exemplo de uma ordem de produção que tem dois trabalhos em lote](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Liberando material por número de operação ou em relação ao valor de mercadorias acabadas
 
@@ -78,7 +81,7 @@ Para controlar as operações nas quais o material deve ser liberado, use a pág
 
 A ilustração a seguir mostra uma ordem de produção que tem duas operações, 10 e 20. Neste exemplo, se você limitar a liberação para operação 10, somente o material M9203 será liberado.
 
-![Exemplo da liberação de material por número da operação.](media/two-operations.PNG)
+![Exemplo da liberação de material por número da operação](media/two-operations.PNG)
 
 Para obter uma demonstração rápida de como liberar o material de acordo com a quantidade de mercadorias, assista a esse breve vídeo no YouTube sobre [aprimoramentos no processo de liberação da ordem de produção](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 
@@ -95,6 +98,3 @@ Você pode liberar a matéria-prima para uma quantidade parcial de mercadorias c
     As unidades disponíveis estão definidas no ID do grupo de sequências da unidade da mercadoria acabada.
 
     Por exemplo, uma mercadoria acabada tem a seguinte conversão de unidades entre as libras (lbs.) e o palete (PL): 1 PL = 100 libras. Para criar uma ordem de produção para 10.000 libras das mercadorias acabadas, você pode liberar matérias-primas para o número de paletes que você pretende produzir. Selecione **PL** como a unidade e um número correspondente no campo **Quantidade**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

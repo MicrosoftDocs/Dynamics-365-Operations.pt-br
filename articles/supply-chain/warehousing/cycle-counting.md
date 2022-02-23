@@ -1,26 +1,29 @@
 ---
 title: Contagem cíclica
 description: Este artigo descreve como você pode usar a contagem cíclica com a solução de armazenamento disponível no Gerenciamento de depósito. Este artigo não se aplica à solução de armazenamento disponível no Gerenciamento de estoque.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422522"
 ---
 # <a name="cycle-counting"></a>Contagem cíclica
 
@@ -34,7 +37,7 @@ A contagem cíclica é um processo de depósito que você pode usar para auditar
 2.  **Processar contagem cíclica** ─ depois que o trabalho de contagem cíclica é criado, para executá-lo você deve contar os itens em um local de depósito e usar um dispositivo móvel para inserir o resultado no Dynamics 365 Supply Chain Management. Como alternativa, você pode contar itens em um local de depósito sem criar o trabalho de contagem cíclica. Esse processo é conhecido como *contagem cíclica de ponto*.
 3.  **Resolver uma diferença no valor contado do ciclo** ─ após uma contagem cíclica, todos os itens que possuem diferenças no valor contado terão um status do trabalho **Revisão pendente** na página **Todos os trabalhos**. Você pode resolver essas diferenças na página **Revisão de trabalho restante do ciclo de contagem**.
 
-A ilustração a seguir mostra o processo de contagem cíclica. ![Fluxo de processo para contagem cíclica.](./media/performcyclecountinginawarehouselocation.jpg)
+A ilustração a seguir mostra o processo de contagem cíclica. ![Fluxo de processo para contagem cíclica](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Pré-requisitos da contagem cíclica
 A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes que você possa usar a contagem cíclica.
@@ -137,6 +140,3 @@ Você pode ajustar as diferenças no valor contado e aceitar o valor contado na 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

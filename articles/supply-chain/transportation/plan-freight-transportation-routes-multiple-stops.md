@@ -1,26 +1,29 @@
 ---
 title: Planejar rotas de transporte de frete com várias paradas
 description: Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate, TMSRouteSchedule, TMSRouteRateDetail
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 90013
 ms.assetid: 50d6f58c-f1c8-4321-9e83-8445cec57a85
 ms.search.region: Global
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eff1efd7530c410b392646e39325b58cbd8bcf78
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422578"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planejar rotas de transporte de frete com várias paradas
 
@@ -50,6 +53,3 @@ A Bancada de trabalho de criação de carga utiliza os endereços de clientes e 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

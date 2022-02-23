@@ -1,27 +1,30 @@
 ---
 title: Entidades de dados do produto
 description: Este tópico fornece informações sobre as diferentes entidades que podem ser usadas para importar e exportar dados de produtos.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 2784e552d7984bbea9c74ad800c6305ab2a216e9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 20d067effc6139084c5d89b5d4698e1adf2bbf9f
+ms.sourcegitcommit: e9776095b92d19f214cd6765bbe9bf111432a699
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567142"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4422654"
 ---
 # <a name="product-data-entities"></a>Entidades de dados do produto
 
@@ -42,11 +45,8 @@ Para importar e exportar dados de produto, você deve usar entidades de dados. A
 | Produtos distintos liberados V2 | `EcoResDistinctProductV2Entity` | Esta entidade é usada para exportar produtos distintos. Esses produtos distintos podem ser produtos, produtos de subtipo e grades de produto. |
 | Produtos mestres liberados V2 | `EcoResProductMasterV2Entity` | Esta entidade é usada para importar e exportar produtos mestre. Ela não está habilitada para o gerenciamento de dados. |
 | Item - código de barras | `EcoResProductBarcodeEntityV3` | Esta entidade é usada para exportar produtos e códigos de barras. Esta entidade não permite controle de alterações, atualizações ou exclusões. Para usar o controle de alterações, atualizações ou exclusões em códigos de barras, use a entidade **Associação entre item e código de barras**. |
-| Associação entre item e código de barras | `EcoResProductBarcodeAssociationEntity` | Esta entidade é usada para exportar produtos e códigos de barras. Ela permite controle de alterações, atualizações e exclusões. Para usar a entidade, o recurso *Aprimoramentos de itens e códigos de barras* deve estar habilitado no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Sua chave de entidade é `AssociationID`, que cria a associação entre o código de barras e o produto. Para adicionar suporte a essa chave, a tabela `InventitemBarcodeAssociation` será preenchida para os dados existentes de código de barras do item quando você ativar o recurso. A tabela é preenchida por meio de um trabalho em lotes e se a sua tabela de código de barras tiver muitos registros, talvez seja necessário um tempo significativo para executar o trabalho em lotes. Portanto, é recomendável planejar a habilitação do recurso (e, portanto, executar o trabalho em lotes) em um momento adequado à agenda de trabalho. |
+| Associação entre item e código de barras | `EcoResProductBarcodeAssociationEntity` | Esta entidade é usada para exportar produtos e códigos de barras. Ela permite controle de alterações, atualizações e exclusões. Para usar a entidade, o recurso *Aprimoramentos de itens e códigos de barras* deve estar habilitado no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Sua chave de entidade é `AssociationID`, que cria a associação entre o código de barras e o produto. Para adicionar suporte a essa chave, a tabela `InventitemBarcodeAssociation` será preenchida para os dados existentes de código de barras do item quando você ativar o recurso. A tabela é preenchida por meio de um trabalho em lotes. Se a sua tabela de código de barras tiver muitos registros, talvez seja necessário um tempo significativo para executar o trabalho em lotes. Portanto, é recomendável planejar a habilitação do recurso (e, portanto, executar o trabalho em lotes) em um momento adequado à agenda de trabalho. |
 | Estados do ciclo de vida de produto | `EcoResProductLifecycleSateEntity` | Esta entidade é usada para importar e exportar os diferentes estados do ciclo de vida do produto que podem ser atribuídos a um produto. |
 
 > [!NOTE]
 > Você pode usar a entidade de dados **Produtos lançados V2** para importar produtos para o sistema somente se o produto compartilhado já foi criado. Caso contrário, para importar produtos para o sistema, você deve usar a entidade de dados **Criação de produto**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
 title: Planejamento de trabalho
 description: Este artigo fornece informações sobre o plano de trabalho, que é um formulário mais detalhado de programação do plano de operações. Você pode usar o agendamento de trabalho para agendar trabalhos individuais ou ordens de fábrica e para controlar o ambiente de manufatura.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19431
 ms.assetid: aef37341-91d8-4263-80eb-35d9584be156
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 698fb31b1a2790b737b30f15b50f0f8ecdd59286
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bff966a68001d479b8631e13caa18c9ec8d2bf4c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570240"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422411"
 ---
 # <a name="job-scheduling"></a>Planejamento de trabalho
 
@@ -74,6 +77,3 @@ O agendamento de trabalho considera as porcentagens de eficiência que são espe
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Configurar sequências numéricas para fluxos de depósito
 description: Este tópico oferece uma visão geral da funcionalidade que fornece extensões de sequência numérica para IDs de placa de licença, IDs de etiqueta de onda, IDs de contêiner e IDs de conhecimento de embarque.
 author: GarmMSFT
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e9ba06908b9e82763557e98715e495cfaf649753
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574704"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4422625"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurar sequências numéricas para fluxos de depósito
 
@@ -48,14 +51,14 @@ Para que você possa usar o recurso, ele deve estar ativado no sistema. Os admin
 
 Para configurar extensões de sequência numérica no sistema, siga estas etapas.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Geral**, no campo **Prefixo GS1 da empresa**, insira o prefixo GS1 da sua empresa. Esse valor afetará todas as sequências numéricas nas quais o prefixo GS1 está incluído como um segmento.
 1. Se você deseja gerar números de BOL para etiquetas de onda, na guia **Relatórios**, marque a caixa de seleção **Gerar um número de BOL durante a impressão de etiquetas de onda**.
 
     > [!NOTE]
     > Essa caixa de seleção só estará disponível se a funcionalidade para [impressão de etiquetas de onda](configure-wave-label-printing.md) estiver ativada.
 
-1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Extensões de sequência numérica**
+1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Extensões de sequência numérica**
 1. No Painel de Ação, selecione **Criar configuração padrão**. Uma sequência numérica de BOL em conformidade com o GS1 e três tipos de sequências numéricas de SSCC são criadas. Todas essas sequências numéricas levam em consideração o tamanho do prefixo GS1 da sua empresa.
 
     Para obter mais informações sobre como personalizar essas sequências numéricas padrão e/ou adicionar novas sequências, consulte a próxima seção. Você também pode remover qualquer uma dessas sequências se não precisar delas.
@@ -74,7 +77,7 @@ Na seção anterior, você gerou um conjunto padrão de sequências numéricas. 
 
 Para criar e editar sequências numéricas, siga estas etapas.
 
-1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Extensões de sequência numérica**.
+1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Extensões de sequência numérica**.
 1. No Painel de Ações, selecione **Novo**.
 1. No campo **Extensão de sequência numérica**, insira um nome para a nova sequência. No campo **Descrição**, insira uma descrição.
 1. Na FastTab **Segmentos**, use os botões na barra de ferramentas para montar o formato de numeração, adicionando, excluindo e organizando segmentos. No campo **Segmento** de cada linha, atribua um tipo de segmento para definir a finalidade e o conteúdo desse segmento. A tabela a seguir descreve os tipos de segmentos disponíveis.
@@ -89,6 +92,3 @@ Para criar e editar sequências numéricas, siga estas etapas.
     | Dígito de Verificação | Este tipo de segmento adiciona um dígito de verificação, que é um cálculo de módulo 10. (Esse comportamento corresponde à lógica existente para IDs de placa de licença.) Para este tipo de segmento, o campo **Valor** sempre é definido como um acento circunflexo (*^*) e o campo **Tamanho** sempre é definido como *1*. |
 
 1. Para exibir um exemplo do formato numérico final, inspecione o campo **Formato** na parte inferior da FastTab **Segmentos**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

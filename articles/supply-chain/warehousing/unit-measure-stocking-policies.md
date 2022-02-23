@@ -2,25 +2,28 @@
 title: Unidade de medida e políticas de estoque
 description: Este artigo descreve como as unidades padrão, as sequências de unidade e as conversões de unidade são usadas em processos de depósito.
 author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 29611
 ms.assetid: 4b5ca875-9a06-416d-9ac0-cc3ab8f7338e
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6bd6a3ea9d7b339df99ffa65f058fc4b98b58b9c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714827"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422474"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Unidade de medida e políticas de estoque
 
@@ -47,6 +50,3 @@ Como parte da criação de produtos liberados, você deve selecionar unidades pa
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

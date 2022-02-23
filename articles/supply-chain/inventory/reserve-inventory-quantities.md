@@ -1,26 +1,29 @@
 ---
 title: Reservar quantidades do estoque
 description: Este tópico descreve as diferentes opções disponíveis para reservar estoque.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ea7311ce34fec476ad9953e954a07a86acd13afc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571128"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422455"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar quantidades do estoque
 
@@ -46,7 +49,7 @@ Políticas de reserva de estoque estão definidas na página **Grupos de modelo 
 
 A seção **Políticas de estoque** contém as seguintes políticas de reserva.
 
-| &nbsp;                  | &nbsp;                                                                                                                                     |
+|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Política de reserva**  | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Controlado por data PEPS    | Se você selecionar a opção **Controlado por data PEPS**, a reserva de estoque será controlada por uma data de classificação, de acordo com o princípio PEPS. Lotes são reservados com base na data mais antiga de recebimento de itens, de acordo com o princípio PEPS (primeiro a entrar, primeiro a sair).                                                                                                                                                                                                                                                                       |
@@ -80,6 +83,3 @@ Há duas opções relacionadas a reservas na página **Parâmetros de gerenciame
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Políticas de reserva de estoque na página Parâmetros de produção
 
 O valor do campo **Reserva** na guia **Geral** da página **Parâmetros de produção** determina o ponto padrão no processo de produção em que o estoque deve ser reservado. Por exemplo, o estoque poderá ser reservado quando o trabalho for programado ou quando o trabalho começar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

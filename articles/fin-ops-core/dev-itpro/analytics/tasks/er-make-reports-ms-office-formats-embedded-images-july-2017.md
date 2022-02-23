@@ -1,10 +1,12 @@
 ---
 title: Criar configurações para gerar relatórios em formatos do Office com imagens incorporadas
-description: Este tópico descreve como criar configurações de relatório eletrônico (ER) que gerem documentos eletrônicos nos formatos Excel e Word que contenham imagens incorporadas.
+description: As etapas neste tópico fornecem informações sobre como criar configurações de relatório eletrônico (ER) que geram documentos eletrônicos nos formatos do Microsoft Office (Excel e Word) contendo imagens incorporadas.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 01/23/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,27 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a514c5b616d761ef3eb6347e67e645b23eaa1794911775835e77cded4500ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719336"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684393"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Criar configurações para gerar relatórios em formatos do Office com imagens incorporadas
 
 [!include [banner](../../includes/banner.md)]
 
-Para concluir as etapas neste procedimento, você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo". Este procedimento explica como criar configurações de relatório eletrônico (ER) para gerar um documento do Microsoft Excel ou do Word contendo imagens incorporadas. Nesse procedimento, você criará as configurações de ER necessárias para a empresa de exemplo, a Litware, Inc. Essas etapas podem ser concluídas usando o conjunto de dados USMF. Este procedimento é criado para usuários com a função atribuída de administrador do sistema ou desenvolvedor de relatório eletrônico. Antes de começar, baixe e salve os seguintes arquivos: 
-
-| Descrição                                          | Nome do arquivo                   |
-|------------------------------------------------------|-----------------------------|
-| Configuração do modelo de dados de ER                          | [Modelo para cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)       |
-| Configuração de formato ER                              | [Formato de impressão de cheques.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
-| Imagem do logotipo da empresa                                   | [Company logo.png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png)            |
-| Imagem de assinatura                                      | [Signature image.png](https://download.microsoft.com/download/5/0/9/509151b3-06fc-4870-9408-7c9a43b72771/Signatureimage.png)         |
-| Imagem de assinatura alternativa                          | [Signature image 2.png](https://download.microsoft.com/download/3/0/0/30045bf1-0ff6-4215-9162-b77c2f5dcc7c/Signatureimage2.png)       |
-| Modelo do Microsoft Word para imprimir cheques de pagamento  | [Cheque template Word.docx](https://download.microsoft.com/download/4/4/d/44d9d255-9ad1-42fe-87db-23f319fd8e89/ChequetemplateWord.docx)   |
+Para concluir as etapas neste procedimento, você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo". Este procedimento explica como criar configurações de relatório eletrônico (ER) para gerar um documento do Microsoft Excel ou do Word contendo imagens incorporadas. Nesse procedimento, você criará as configurações de ER necessárias para a empresa de exemplo, a Litware, Inc. Essas etapas podem ser concluídas usando o conjunto de dados USMF. Este procedimento é criado para usuários com a função atribuída de administrador do sistema ou desenvolvedor de relatório eletrônico. Antes de começar, baixe e salve os arquivos listados no tópico da Ajuda [Inserir imagens e formas em documentos gerados usando ER](../electronic-reporting-embed-images-shapes.md). Os arquivos são: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png, e Cheque template Word.docx.
 
 ## <a name="verify-prerequisites"></a>Verificar pré-requisitos  
  1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.  
@@ -65,7 +58,7 @@ Para concluir as etapas neste procedimento, você deve primeiro concluir o proce
  4. Clique em OK.  
 
 ## <a name="configure-cash--bank-management-parameters"></a>Configurar parâmetros de gerenciamento de banco e caixa  
- 1. Acesse Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.  
+ 1. Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.  
  2. Use o Filtro Rápido para filtrar o campo Conta bancária com o valor 'USMF OPER'.  
  3. No Painel de Ação, clique em Configurar.  
  4. Clique em Verificar.  
@@ -93,10 +86,7 @@ Para concluir as etapas neste procedimento, você deve primeiro concluir o proce
  26. Feche a página.  
  27. Feche a página.  
  28. Feche a página.  
- 29. Acesse Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.  
+ 29. Vá para Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.  
  30. Selecione Sim no campo Permitir a criação do pré-registro em contas bancárias inativas:.  
  31. Clique em Salvar.  
  32. Feche a página.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

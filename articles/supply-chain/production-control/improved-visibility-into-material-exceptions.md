@@ -2,24 +2,27 @@
 title: Visibilidade de exceções materiais
 description: Este tópico descreve como você pode obter melhor a visibilidade de exceções para matérias-primas para ordens de produção e ordens de lote.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d3ea260535e76d7ac3d73d4bca930b7b4b2d22b2b2c076d4d1346785eaed85b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726792"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422530"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidade de exceções materiais
 
@@ -57,17 +60,10 @@ Quando você seleciona o bloco, a página **Liberar para o depósito** é aberta
 
 Quando uma BOM ou fórmula é liberada, ela é adicionada a uma nova onda de produção ou a uma onda aberta existente, dependendo da configuração de modelo da onda de produção. Através da configuração de modelo da onda, você também pode configurar uma onda, de forma que seja processada automaticamente quando uma linha de BOM ou fórmula é liberada. Quando a onda é processada, o trabalho de depósito para a separação de matéria-prima é gerada. Se o modelo da onda for configurado, de forma que as ondas não sejam processadas no momento de liberação, a onda permanecerá em um estado não processado. O bloco **Ondas não processadas que precisam de atenção** mostrará o número de Linhas de BOM e fórmula que foi liberado para o depósito nas ondas processadas, e que têm uma data da matéria-prima anterior a ou igual à data do espaço de trabalho. As linhas também devem ser consumidas por um recurso de operação que se aplique ao filtro do espaço de trabalho.
 
-Quando o bloco for selecionado, a página **Todas as ondas de produção** será aberta. Essa página é filtrada pelo número de ondas abertas que contêm linhas de onda das linhas de BOM e fórmula liberadas que atendem aos critérios do bloco.
+Quando o bloco for selecionado, a página **Todas as ondas de produção** será aberta. Essa página é filtrada pelo número de ondas abertas que contêm linhas de onda das linhas de BOM e fórmula liberadas que atendem aos critérios do bloco. Na página **Todas as ondas de produção**, você pode processar manualmente a onda.
 
-### <a name="manually-maintain-production-waves"></a>Manter as ondas de produção manualmente
-
-Na página **Todas as ondas de produção**, você pode usar os botões na guia **Onda** do Painel de Ação para **Processar** e **Liberar** manualmente uma onda. Você também pode usar a opção **Manter produções** para exibir e manter dados do **Grupo BOM de Produção**, que são usados para manipular o processo cíclico.
-
-## <a name="open-warehouse-work-needing-attention"></a>Trabalho de depósito em aberto que precisa de atenção
+## <a name="open-warehouse-work-needing-attention"></a>Abrir trabalho de depósito que precisa de atenção
 
 O bloco **Abrir trabalho de depósito que precisa de atenção** mostrará o número de Linhas de BOM e fórmula liberadas para o depósito, que têm trabalho não processado, e que têm uma data da matéria-prima anterior a ou igual à data do espaço de trabalho. As linhas também devem ser consumidas por um recurso de operação que se aplique ao filtro do espaço de trabalho.
 
 Quando o bloco for selecionado, a página **Todos os trabalhos** será aberta. Essa página é filtrada pelo número de cabeçalhos de trabalho que contêm linhas de trabalho das linhas de BOM e fórmula que atendem aos critérios do bloco. Na página **Todos os trabalhos**, você pode processar manualmente o trabalho.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

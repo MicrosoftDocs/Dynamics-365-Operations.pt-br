@@ -2,23 +2,26 @@
 title: Classificação por vencimento de separação de estoque de diretiva de localização
 description: Este tópico explica como usar as estratégias de diretiva de localização primeiro a entrar, primeiro a sair (FIFO) e último a entrar, primeiro a sair (LIFO) durante a separação.
 author: mirzaab
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 83f73052d1d9d8a29a80ce3cf1035a259cd92c17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422504"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Classificação por vencimento de separação de estoque de diretiva de localização
 
@@ -39,7 +42,7 @@ Para disponibilizar este recurso, ative os seguintes recursos no [gerenciamento 
 
 ## <a name="feature-requirements"></a>Requisitos do recurso
 
-Para usar este recurso, você deve definir a opção **Habilitar o status do local** como *Sim* para cada [perfil de localização](tasks/create-location-profile.md) usado para o estoque de loja. Para definir esta opção para um perfil de localização, Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização** e selecione o perfil de localização. Você pode encontrar a opção na FastTab **Geral**.
+Para usar este recurso, você deve definir a opção **Habilitar o status do local** como *Sim* para cada [perfil de localização](tasks/create-location-profile.md) usado para o estoque de loja. Para definir esta opção para um perfil de localização, vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização** e selecione o perfil de localização. Você pode encontrar a opção na FastTab **Geral**.
 
 ## <a name="feature-scenarios"></a>Cenários de recursos
 
@@ -59,12 +62,12 @@ Você também pode usar esses cenários como orientação para usar o recurso em
 Os dados de demonstração exigem ajustes na configuração e no estoque para dar suporte aos cenários. Siga estas etapas para criar os dados de estoque necessários para trabalhar nos cenários de FIFO e LIFO.
 
 1. Entre em um sistema no qual os dados de demonstração estejam instalados e selecione a entidade legal **USMF**.
-1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na lista de perfis de localização, selecione **FLOOR-05**.
 1. Na FastTab **Geral**, defina a opção **Habilitar o status do local** como *Sim*.
 1. Selecione **Salvar**.
-1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. Na lista de diretivas de localização, selecione **Transporte em contêineres de separação 63**.
 1. Selecione **Editar** para colocar a página no modo de edição.
 1. Na FastTab **Ações de diretiva de localização**, encontre a linha onde o campo **Número de sequência** está definido como *1* e siga uma destas etapas:
@@ -95,14 +98,14 @@ Os dados de demonstração exigem ajustes na configuração e no estoque para da
 
     Essas etapas deixam estoque em dois locais nos dados de demonstração. Cada local tem uma data de classificação por vencimento diferente. O local *FL-001* tem uma data de classificação por vencimento de 15 de abril de 2017, e o local *FL-002* de 29 de janeiro de 2017. Os dois locais contêm o item *A0001*.
 
-    Para ver esses dados, Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível** e filtre pelo depósito *63* e o item *A0001*. Nas linhas em que o campo **Local** está definido como *FL-001* ou *FL-002*, selecione uma linha com valor **Estoque físico** positivo e, no Painel de Ação, selecione **Transações**. O campo **Data física** mostrará uma data que corresponde a uma das datas de classificação por vencimento mencionadas anteriormente.
+    Para ver esses dados, vá para **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível** e filtre pelo depósito *63* e o item *A0001*. Nas linhas em que o campo **Local** está definido como *FL-001* ou *FL-002*, selecione uma linha com valor **Estoque físico** positivo e, no Painel de Ação, selecione **Transações**. O campo **Data física** mostrará uma data que corresponde a uma das datas de classificação por vencimento mencionadas anteriormente.
 
 ### <a name="scenario-1-set-up-and-use-fifo-location-aging"></a><a name="fifo-demo"></a>Cenário 1: configurar e usar a classificação por vencimento local FIFO
 
 A estratégia FIFO encontra o local que contém a data de classificação por vencimento mais antiga e aloca a separação com base nessa data.
 
 1. Se você ainda não fez isso, [prepare os dados de exemplo](#demo-set-up) necessários para este cenário.
-1. Acesse **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
+1. Vá para **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
 1. Selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -117,7 +120,7 @@ A estratégia FIFO encontra o local que contém a data de classificação por ve
 1. Na página **Ordem de venda**, no Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**. Você receberá mensagens informativas. O sistema criará uma remessa, a adicionará a uma nova carga e criará o trabalho necessário.
 1. Na FastTab **Linhas da ordem de venda**, no menu **Depósito**, selecione **Detalhes do trabalho** para abrir o trabalho criado para essa ordem de venda. Observe que a linha na qual o valor **Tipo de trabalho** é *Separar* mostra um valor **Local** de *FL-002*. Esse local contém a placa de licença que tem a data de classificação por vencimento mais antiga (FIFO).
 1. Selecione **Depósito \> Detalhes da remessa**.
-1. Na FastTab **Geral**, anote a ID do ciclo para usá-la no cenário 2.
+1. Na FastTab ***Geral**, tome nota da ID da onda para usá-la no cenário 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Cenário 2: configurar e usar a classificação por vencimento local LIFO
 
@@ -128,7 +131,7 @@ A estratégia LIFO encontra o local que contém a data de classificação por ve
 
     Em seguida, você modificará a onda que foi criada para a ordem de venda no cenário 1 para que ela use a estratégia *Classificação por vencimento local LIFO*.
 
-1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione e abra a onda que contém a ordem criada para o cenário de FIFO.
 1. No Painel de Ação, na guia **Trabalho**, selecione **Cancelar** para cancelar o trabalho criado para o cenário de FIFO.
 1. No Painel de Ação, na guia **Onda**, no grupo **Onda**, selecione **Processar**.
@@ -137,6 +140,3 @@ A estratégia LIFO encontra o local que contém a data de classificação por ve
 1. Observe que a linha na qual o valor **Tipo de trabalho** é *Separar* mostra um valor **Local** de *FL-001*. Esse local contém a placa de licença que tem a data de classificação por vencimento mais nova (LIFO).
 
 Nesses cenários, você viu como a estratégia de classificação por vencimento local direciona o trabalho para a localização de estoque que tem o estoque mais antigo ou o mais recente, dependendo da estratégia selecionada.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

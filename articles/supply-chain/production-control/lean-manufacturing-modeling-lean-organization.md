@@ -1,27 +1,30 @@
 ---
 title: Modelagem da organização de lean manufacturing
 description: O artigo fornece informações sobre os conceitos principais modelagem em uma organização simples.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, KanbanFlowSelection, KanbanFlow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3958d21188163fe95e36ba4b8117ae8314b0fd1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 960ba8851810ff528581144ad863772f18f9fa79
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570192"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422408"
 ---
 # <a name="modeling-a-lean-organization"></a>Modelagem da organização de lean manufacturing
 
@@ -51,7 +54,7 @@ O fluxo de valor de estado futuro pode ser modelado como uma versão do fluxo de
 
 O próprio fluxo de valor é modelado como uma unidade operacional. Consequentemente, o fluxo de valor pode ser usado como uma dimensão financeira.
 
-Para obter mais informações sobre unidades operacionais, consulte [Criar uma unidade operacional](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
+Para obter mais informações sobre unidades operacionais, consulte [Criar uma unidade operacional](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Custo do lean manufacturing com base no fluxo de produção
 A consolidação periódica do custo de um fluxo de produção corrige a conta WIP relacionada e permite a determinação de variações dos produtos fornecidos pelo fluxo de produção.
@@ -64,6 +67,3 @@ Para a implementação de Lean manufacturing, escolhemos uma abordagem de fluxo 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

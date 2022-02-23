@@ -2,28 +2,30 @@
 title: Layout de roteiro de documentos para etiquetas de placa de licença
 description: Este tópico descreve como usar métodos de formatação para imprimir valores em etiquetas.
 author: perlynne
+manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 5311c13154baafdc7225ee869b3ef524eecc0d00
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422520"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout de roteiro de documentos para etiquetas de placa de licença
 
 [!include [banner](../includes/banner.md)]
-
 
 O layout de circulação de documentos define o layout dos rótulos de placa de licença e os dados impressos neles. Os pontos do disparador de impressão são configurados quando você configura itens de menu e modelos de trabalho de dispositivo móvel.
 
@@ -47,13 +49,9 @@ Você pode imprimir etiquetas altamente complexas, desde que o dispositivo de im
 
 Como parte do processo de impressão de etiquetas, o texto `$LicensePlateId$` neste exemplo será substituído por um valor de dados.
 
-Para ver os valores que serão impressos, Acesse **Gerenciamento de depósito \> Consultas e relatórios \> Etiquetas de placa de licença**.
+Para ver os valores que serão impressos, vá para **Gerenciamento de depósito \> Consultas e relatórios \> Etiquetas de placa de licença**.
 
 Várias ferramentas de geração de etiquetas amplamente disponíveis podem ajudá-lo a formatar o texto para o layout da etiqueta. Muitas dessas ferramentas dão suporte ao formato `$FieldName$`. Além disso, o Microsoft Dynamics 365 Supply Chain Management usa lógica de formatação especial como parte do mapeamento de campos para o layout de roteiro de documentos.
-
-## <a name="turn-on-this-feature-for-your-system"></a>Ative este recurso para o seu sistema
-
-Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Layouts de etiqueta da placa de licença aprimorados*. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
 
 ## <a name="custom-number-formats"></a>Formatos de número personalizados
 
@@ -73,7 +71,7 @@ Os exemplos a seguir mostram como é possível personalizar o campo (**Qtd.**) d
 - Para mostrar sempre quatro dígitos (usando zeros como espaços reservados), use `$Qty:0000$`. Por exemplo, se a quantidade for 10, o rótulo mostrará "0010".
 - Para mostrar sempre duas casas decimais, use `$Qty:0.00$`. Por exemplo, se a quantidade for 10, o rótulo mostrará "10,00".
 
-Para obter uma lista completa das cadeias de caracteres de formato de número disponíveis, consulte [Strings de formato numérico personalizado](/dotnet/standard/base-types/custom-numeric-format-strings).
+Para obter uma lista completa das cadeias de caracteres de formato de número disponíveis, consulte [Strings de formato numérico personalizado](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Formatos de sequência de caracteres personalizados
 
@@ -95,7 +93,7 @@ $PrintedDate:dd-MM-yyyy$
 
 Neste exemplo, a data 30 de abril 2020 será impressa como "30-04-2020".
 
-Para obter uma lista completa dos formatos de data/hora disponíveis, consulte [Strings de formato de data e hora personalizados](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Para obter uma lista completa dos formatos de data/hora disponíveis, consulte [Strings de formato de data e hora personalizados](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Imprimir linhas individuais de dados de várias linhas
 
@@ -138,6 +136,3 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Mais informações sobre como imprimir etiquetas
 
 Para obter mais informações sobre como configurar e imprimir etiquetas, consulte [Habilitar impressão de etiqueta de placa de licença](tasks/license-plate-label-printing.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

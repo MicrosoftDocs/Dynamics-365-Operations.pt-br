@@ -1,25 +1,28 @@
 ---
 title: Configurar atribuições suplementares
 description: Este procedimento mostra como iniciar uma atribuição suplementar.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAccessorialAssignment
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0062428cf984a48eeddc8c838f92daac254c4c78
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8d7f48da374a0434130f2cf95bf77a126635cd63
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566038"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422555"
 ---
 # <a name="set-up-accessorial-assignments"></a>Configurar atribuições suplementares
 
@@ -29,7 +32,7 @@ Este procedimento mostra como iniciar uma atribuição suplementar. Normalmente 
 
 
 ## <a name="set-up-accessorial-assignment"></a>Configurar Atribuição suplementar
-1. Acesse Gerenciamento de transporte > Configurar > Classificação > Atribuições suplementares.
+1. Vá para Gerenciamento de transporte > Configurar > Classificação > Atribuições suplementares.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. Ative a expansão da seção Detalhes.
@@ -47,6 +50,3 @@ Este procedimento mostra como iniciar uma atribuição suplementar. Normalmente 
 14. No campo Taxa suplementar, insira um número.
 15. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

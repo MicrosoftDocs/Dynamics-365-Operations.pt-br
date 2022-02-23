@@ -1,10 +1,12 @@
 ---
 title: Criar ordens de compra
 description: Este artigo descreve o processo e as opções quando você criar manualmente uma ordem de compra.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 105d4022e1867f553fcae5e4ae9c0ed7ce4e912d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575503"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022272"
 ---
 # <a name="create-purchase-orders"></a>Criar ordens de compra
 
@@ -65,7 +67,7 @@ Uma linha de OC está sendo usada para devolver um produto ao fornecedor que ter
 Encargos podem ser adicionados automaticamente à linhas da PO, se encargos automáticos foram configurados para o fornecedor ou grupo de encargos do fornecedor, e para o item ou grupo de encargos do item. No entanto, geralmente, encargos são adicionados manualmente no nível da linha da ordem. Para adicionar um encargo, abra a página **Manter encargos** usando a ação **Manter encargos** sobre o menu **Finanças** na exibição **Linhas**. A vantagem de adicionar encargos diretamente no nível da linha da ordem é que o encargo pode ser alocado como um custo de estoque. Para definir os códigos de encargo ao custo do produto de conta, use a opção de débito **Item**. Esses tipos de encargos devem ser alocados do cabeçalho da ordem de compra para as linhas antes que a ordem possa ser confirmada. Por exemplo, você talvez queira alocar encargos com base na quantidade em cada linha. A categoria de custo também afeta como os encargos serão contabilizados. Por exemplo, encargos fixos especificam um valor fixo e porcentagem de encargos calculados como uma porcentagem do valor líquido para a linha da ordem. POs podem ser atribuídos a uma carga e a carga pode incluir uma estimativa da despesa esperada para o custo de transporte. Você pode alocar essa despesa de carga antes das linhas de ordem de compra.
 
 ## <a name="purchase-order-actions"></a>Ações da ordem de compra
-Depois de adicionar o cabeçalho e as linhas para a ordem de compra, você geralmente deve concluir etapas adicionais antes que a ordem esteja pronta para ser confirmada. Como tantas opções estão disponíveis, talvez seja útil usar [Pesquisa de ação](../../fin-ops-core/fin-ops/get-started/action-search.md) para localizar o item de menu relevantes.  
+Depois de adicionar o cabeçalho e as linhas para a ordem de compra, você geralmente deve concluir etapas adicionais antes que a ordem esteja pronta para ser confirmada. Como tantas opções estão disponíveis, talvez seja útil usar [Pesquisa de ação](../../fin-and-ops/get-started/action-search.md) para localizar o item de menu relevantes.  
 
 Você pode configurar produtos na ordem para que eles tenham itens suplementares. Itens suplementares são produtos que devem ou podem ser comprados em conjunto com outros produtos. Produtos suplementares podem ser adicionados gratuitamente como os que acompanham os produtos ou você poderá optar por adicioná-los à ordem ou não. Você pode revisar os itens suplementares após cada linha de ordem adicionada. No entanto, você provavelmente achará mais conveniente revisar e adicionar itens suplementares relevantes para todas as linhas da ordem, usando a página **Itens suplementares**, que pode ser aberta no painel de ação.  
 
@@ -80,7 +82,8 @@ POs podem ser configurados para exigir que fundos de orçamento sejam alocados p
 
 Talvez seja necessário atrasar a conclusão de uma ordem de compra. Por exemplo, você pode requerer informações adicionais sobre produtos ou serviços, ou talvez você precise obter autorização para o gasto. Há várias maneiras de reter um pedido. Por exemplo, você pode esperar para confirmar a ordem. Como alternativa, se estiver sendo usado um fluxo de trabalho de gerenciamento de alterações, não envie o pedido de aprovação. Se você deve bloquear todos os pedidos para um determinado fornecedor, você também pode marcar o fornecedor como **Em espera** para processamento no mestre de fornecedor. Também há circunstâncias que podem impedir que o pedido esteja sendo processado. Por exemplo, o processamento poderá ser impedido se foram excedidos os limites de crédito ou se for necessário fundos de orçamento que não estão disponíveis.
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Visão geral de ordens de compra](purchase-order-overview.md)
 
@@ -92,6 +95,3 @@ Talvez seja necessário atrasar a conclusão de uma ordem de compra. Por exemplo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

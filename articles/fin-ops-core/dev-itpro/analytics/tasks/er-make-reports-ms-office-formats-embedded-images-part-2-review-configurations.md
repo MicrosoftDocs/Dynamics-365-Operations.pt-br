@@ -1,10 +1,12 @@
 ---
 title: Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas
-description: Este tópico descreve como criar configurações de relatório para gerar documentos eletrônicos que contenham imagens incorporadas. (Parte 1 - Configurar parâmetros).
+description: Para concluir essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Criar relatórios nos formatos do MS Office com imagens incorporadas (Parte 1 – Configurar parâmetros)".
 author: NickSelin
+manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f209fcbac310dffb654f7830a4d4b12fa95d7a461b681864b8c9b547f4a4986c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717561"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684346"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas
 
@@ -31,7 +33,7 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
 
 
 ## <a name="review-the-imported-data-model"></a>Revise o modelo de dados importados
-1. Acesse Administração da organização > Relatório eletrônico > Configurações.
+1. Vá para Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, selecione "Modelo de cheques'.
 3. Clique em Designer.
     * Esse modelo é criado para representar cheques de pagamento do ponto de vista comercial e do mapeamento desse modelo para fontes de dados do aplicativo. Examine este modelo através do Designer de operações do ER. Observe os atributos dos elementos do modelo que são apresentados: estrutura, nome, descrição, tipo de dados etc.   
@@ -89,6 +91,3 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
     * Alguns rótulos que são apresentados no formulário pré-impresso do cheque serão incluídos no relatório quando ele for criado para fins de teste. Entretanto, esses rótulos não serão impressos durante a impressão real porque o formulário pré-impresso já os inclui.  
 15. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

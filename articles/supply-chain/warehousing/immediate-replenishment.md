@@ -2,25 +2,28 @@
 title: Reabastecimento imediato
 description: Este tópico descreve como você pode usar o reabastecimento imediato para reabastecer o estoque quando uma diretiva de local não atribua o estoque.
 author: Mirzaab
+manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 15a3cc4c50e49a50c354834761425cd107c23a9d79677e022cb1d339bb48c918
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422575"
 ---
 # <a name="immediate-replenishment"></a>Reabastecimento imediato
 
@@ -44,7 +47,7 @@ O reabastecimento imediato é usado durante a execução de onda se a alocação
 
 ## <a name="set-up-immediate-replenishment"></a>Configurar o reabastecimento imediato
 
-- Acesse **Gerenciamento de depósito** \> **Configuração** \> **Diretivas de local** e, então, na guia **Linhas** , na lista **Modelo de reabastecimento imediato**, selecione um modelo de reabastecimento para demanda da onda.
+- Vá para **Gerenciamento de depósito** \> **Configuração** \> **Diretivas de local** e, então, na guia **Linhas** , na lista **Modelo de reabastecimento imediato**, selecione um modelo de reabastecimento para demanda da onda.
 
 O modelo de reabastecimento só será aplicado se a linha de diretiva de local falhar ao alocar uma unidade de medida dedicada.
 
@@ -54,6 +57,3 @@ Se o reabastecimento imediato estiver selecionado para uma linha de diretiva de 
 
 - Verifique se o modelo de reabastecimento de demanda aplicado foi configurado para usar os modelos de local e de trabalho corretos do tipo **Reabastecimento**.
 - Verifique se há estoque disponível suficiente nos locais onde o modelo de reabastecimento de demanda procura estoque disponível para reabastecimento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Mecanismos de gerenciamento de transporte
 description: Os mecanismos de gerenciamento de transporte definem a lógica usada para gerar e processar taxas de transporte no Gerenciamento de transporte.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bce886b8029b3a00c6572642d339efa9dcad4267
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580111"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422552"
 ---
 # <a name="transportation-management-engines"></a>Mecanismos de gerenciamento de transporte
 
@@ -43,7 +46,8 @@ A tabela a seguir mostra os mecanismos de gerenciamento de transporte disponíve
 | **Tipo de nota de frete**            | Padroniza a fatura de frete e as linhas da nota de frete, e é usado para correspondência automática de nota de frete.                                                                                                                                                                                                                |
 
 
-## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Quais mecanismos devem ser configurados para avaliar uma remessa?
+<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Quais mecanismos devem ser configurados para avaliar uma remessa?
+---------------------------------------------------
 
 Para avaliar uma remessa usando uma transportadora específica, você deve configurar vários mecanismos de gerenciamento de transporte. O **Mecanismo de taxa** é obrigatório, mas outros mecanismos de gerenciamento de transporte podem ser necessários para oferecer suporte ao **Mecanismo de taxa**. Por exemplo, o **Mecanismo de taxa** pode ser usado para recuperar dados do **Mecanismo de quilometragem** para calcular a taxa com base na quilometragem entre a origem e o destino.
 
@@ -61,7 +65,8 @@ Na maioria dos casos, você pode clicar no botão **Parâmetros** nos formulári
 |  <em>MileageEngineCode</em>  |                       Código do mecanismo de quilometragem que identifica o registro do mecanismo de quilometragem no banco de dados.                        |
 | <em>ApportionmentEngine</em> |                        Código do mecanismo genérico que identifica um mecanismo de divisão no banco de dados.                        |
 
-## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Como os metadados são usados nos mecanismos de gerenciamento de transporte?
+<a name="how-is-metadata-used-in-transportation-management-engines"></a>Como os metadados são usados nos mecanismos de gerenciamento de transporte?
+----------------------------------------------------------
 
 Os mecanismos de gerenciamento de transporte que dependem nos dados definidos no Supply Chain Management podem usar diferentes esquemas de dados. O sistema de gerenciamento de transporte permite que diferentes mecanismos de gerenciamento de transporte usem as mesmas tabelas físicas genéricas de banco de dados. Para verificar se a interpretação de tempo de execução dos dados do mecanismo está correta, você pode definir metadados para as tabelas de banco de dados. Isso reduz os custos de criação de novos mecanismos de gerenciamento de transporte, uma vez que tabelas e estruturas de formulário adicionais não são necessárias no Operations.
 
@@ -84,7 +89,7 @@ Os metadados para os mecanismos de gerenciamento de transporte são configurados
 | **Mecanismo de zona**                                | Requer que os metadados sejam configurados diretamente na zona mestre.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Mecanismo de tempo em trânsito** e **Mecanismo de quilometragem** | Recupera os metadados diretamente do formulário de configuração do mecanismo de quilometragem.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Exemplo de metadados para um mecanismo de taxa** O mecanismo de gerenciamento de transporte requer a identificação do endereço de origem, destino do estado e o país/região, e a hora inicial e a empresa de remessa. Usando esses requisitos, os metadados se pareceriam com os dados na tabela a seguir. A tabela também inclui informações sobre qual tipo de dados de entrada é necessário.
+  **Exemplo de metadados para um mecanismo de taxa** O mecanismo de gerenciamento de transporte requer a identificação do endereço de origem, destino do estado e o país/região, e a hora inicial e a empresa de remessa. Usando esses requisitos, os metadados se pareceriam com os dados na tabela a seguir. A tabela também inclui informações sobre qual tipo de dados de entrada é necessário.
 -   Defina esta informação em **Gerenciamento de transporte** &gt; **Configuração** na página **Tipo base da taxa**.
 
 | Seqüência | Nome                          | Tipo de Campo | Tipo de dados | Tipo de pesquisa    | Obrigatório |
@@ -92,14 +97,5 @@ Os metadados para os mecanismos de gerenciamento de transporte são configurados
 | 1        | CEP de origem            | Atribuição | Cadeia de caracteres    | CEP    | Selecionada  |
 | 2        | Estado de destino             | Atribuição | Cadeia de caracteres    | Estadual          |           |
 | 3        | CEP de destino | Atribuição | Cadeia de caracteres    | CEP    | Selecionada  |
-| 4        | CEP final de destino   | Atribuição | Cadeia de caracteres    | CEP    | Selecionadas  |
-| 5        | País/região de destino           | Atribuição | Sequência de caracteres    | País/região |           |
-
-### <a name="whitepaper"></a>White paper
-
-Para obter mais informações, baixe o white paper a seguir (escrito para dar suporte a AX2012, mas ainda é aplicável ao Dynamics 365 Supply Chain Management)
-
-- [Mecanismos de gerenciamento de transporte](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+| 4        | CEP final de destino   | Atribuição | Cadeia de caracteres    | CEP    | Selecionada  |
+| 5        | País/região de destino           | Atribuição | Cadeia de caracteres    | País/região |           |
