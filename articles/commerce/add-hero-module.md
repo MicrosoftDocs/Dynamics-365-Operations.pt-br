@@ -2,12 +2,15 @@
 title: Módulo de bloco de conteúdo
 description: Este tópico abrange os módulos de bloco de conteúdo e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,21 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726430"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410127"
 ---
 # <a name="content-block-module"></a>Módulo de bloco de conteúdo
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de bloco de conteúdo e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 Um módulo de bloco de conteúdo é usado para divulgar produtos ou promoções por meio de uma combinação de imagens e texto. Por exemplo, um varejista pode adicionar um módulo de bloco de conteúdo à home page de um site de comércio eletrônico para promover um novo produto e atrair a atenção dos clientes.
 
@@ -46,15 +52,15 @@ Além disso, o tema pode expor diferentes propriedades de cada layout. Um desenv
 
 A imagem a seguir mostra um exemplo de módulo de bloco de conteúdo com layout de hero.
 
-![Exemplo de um módulo hero.](./media/Hero.PNG)
+![Exemplo de um módulo de herói](./media/Hero.PNG)
 
 A imagem a seguir mostra um exemplo de módulo de bloco de conteúdo com layout de recurso.
 
-![Exemplos de módulos de recursos.](./media/Feature.PNG)
+![Exemplos de módulos de recursos](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Propriedades do módulo de bloco de conteúdo
 
-| Nome da propriedade  | Valores | descrição |
+| Nome da propriedade  | Valores | Descrição |
 |----------------|--------|-------------|
 | Imagem          | Arquivo de imagem | Uma imagem pode ser usada para mostrar um produto ou uma promoção. Uma imagem pode ser carregada na galeria de imagens ou uma imagem existente pode ser usada. |
 | Cabeçalho        | Texto do cabeçalho e tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Todo módulo de hero pode ter um cabeçalho. Por padrão, a tag de cabeçalho **H2** é usada para o cabeçalho. No entanto, a tag pode ser alterada para atender aos requisitos de acessibilidade. |
@@ -73,7 +79,7 @@ A imagem a seguir mostra um exemplo de módulo de bloco de conteúdo com layout 
 
 Para adicionar um módulo de hero a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Acesse **Modelos** e crie um modelo de página chamado **Modelo de bloco de conteúdo**.
+1. Vá para **Modelos** e crie um modelo de página chamado **Modelo de bloco de conteúdo**.
 1. No slot **Principal** da página padrão, adicione um módulo de hero.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Use o modelo de hero recém-criado para criar uma página chamada **Página de bloco de conteúdo**.
@@ -101,6 +107,3 @@ Para adicionar um módulo de hero a uma nova página e definir as propriedades n
 [Módulo de bloco de texto](add-content-rich-block.md)
 
 [Módulo de reprodutor de vídeo](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

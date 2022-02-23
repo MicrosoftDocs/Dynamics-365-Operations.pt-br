@@ -45,6 +45,3 @@ Com esta alteração, o padrão do campo **Ação solicitada por** é agora o us
 ### <a name="ideas-portal-updated"></a>Portal de ideais atualizado
 Os links de aplicativos para enviar uma ideia para o Talent foram atualizados no novo portal de ideias. Todas as ideias inseridas no portal antigo foram migradas, portanto todas as ótimas ideias ainda estão disponíveis para serem votadas por outros.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

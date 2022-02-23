@@ -2,8 +2,11 @@
 title: Função de ER SPLITLIST
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) SPLITLIST é usada.
 author: NickSelin
-ms.date: 03/15/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0b548173a01cc5a15fcfb743dfb29397c1349b3c2926fa6401399459d07026
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776113"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680329"
 ---
 # <a name="splitlist-er-function"></a>Função de ER SPLITLIST
 
@@ -27,16 +30,10 @@ ms.locfileid: "6776113"
 
 A função `SPLITLIST` divide a lista especificada em sublistas (ou lotes) e cada uma delas contém o número de registros especificado. Em seguida, ela retorna o resultado como um novo valor de *Lista de registros* que consiste nos lotes.
 
-## <a name="syntax-1"></a>Sintaxe 1
+## <a name="syntax"></a>Sintaxe
 
 ```vb
 SPLITLIST (list, number)
-```
-
-## <a name="syntax-2"></a>Sintaxe 2
-
-```vb
-SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argumentos
@@ -49,13 +46,9 @@ O caminho válido de uma fonte de dados do tipo *Lista de registros*.
 
 O número máximo de registros por lote.
 
-`on-demand reading flag`: *Booliano*
-
-Um valor *Booliano* que especifica se os elementos de sublistas devem ser gerados sob demanda.
-
 ## <a name="return-values"></a>Valores de retorno
 
-*Registrar lista*
+*Lista de registros*
 
 A lista de registros resultante.
 
@@ -70,8 +63,6 @@ A lista de lotes retornada contém os seguintes elementos:
 - **BatchNumber:** *Inteiro*
 
     O número do lote atual na lista retornada.
-
-Quando o sinalizador de leitura sob demanda é definido como **Verdadeiro**, as sublistas são geradas mediante solicitação, o que permite uma redução no consumo de memória, mas pode afetar o desempenho se os elementos não forem usados sequencialmente.
 
 ## <a name="example"></a>Exemplo
 
@@ -90,6 +81,3 @@ A ilustração a seguir mostra o formato o resultado quando o formato criado é 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

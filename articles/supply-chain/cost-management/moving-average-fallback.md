@@ -2,26 +2,26 @@
 title: Média móvel, sequência de custos de fallback
 description: Este tópico fornece informações sobre sequências de custos de fallback para cálculos de média de movimentos no Microsoft Dynamics 365 Supply Chain Management.
 author: AndersGirke
+manager: tfehr
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d91b3b4b8d49e59aa03d62f4dd101b5a1ec18c41
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 541b7ecca5c1c36999f573d6d0f2dc0c9e901631
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568198"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967574"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Média móvel, sequência de custos de fallback
-
-[!include [banner](../includes/banner.md)]
 
 Uma maneira de calcular o custo do seu estoque é usando uma _média de movimentos_. Até três valores de custo podem ser associados a cada item de estoque:
 
@@ -44,7 +44,4 @@ Para selecionar a sequência de custos de fallback para os cálculos de média d
     - **Custo ativo – Problema mais recente**
     - **Custo ativo – Preço de item** – As organizações podem enfrentar problemas de desempenho se usarem processos de negócios em que o estoque fica negativo regularmente e, ao mesmo tempo, o volume de transações é alto. Essa configuração pode ajudar a mitigar esses problemas de desempenho.
 
-![Parâmetros de contabilidade de estoque.](media/inventory-accounting-parameters.png "Parâmetros de contabilidade de estoque")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Parâmetros de contabilidade de estoque](media/inventory-accounting-parameters.png "Parâmetros de contabilidade de estoque")

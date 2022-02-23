@@ -1,25 +1,28 @@
 ---
 title: Configurar um modelo de trabalho para ordens de compra
 description: Este tópico descreve como configurar um modelo de trabalho simples que será usado no armazenamento dos itens recebidos.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6628936a56619de255ca7dc7b332b5819918c310
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572280"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422394"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Configurar um modelo de trabalho para ordens de compra
 
@@ -27,7 +30,7 @@ ms.locfileid: "7572280"
 
 Este tópico descreve como configurar um modelo de trabalho simples que será usado no armazenamento dos itens recebidos. Modelos de trabalho determinam o conjunto de instruções apresentadas ao trabalhador do depósito em um dispositivo móvel ao mover itens da área de recebimento. Você pode usar esse procedimento com os dados mencionados na empresa de dados de demonstração USMF. Antes de iniciar este guia, crie uma ID de grupo de trabalho. Neste exemplo, uma ID de grupo de trabalho chamada na Entrada é usada. Esse procedimento é destinado ao gerente do depósito.
 
-1. No painel de navegação, Acesse **Módulos > Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**.
+1. No painel de navegação, vá para **Módulos > Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**.
 2. No campo **Tipo de ordem de trabalho**, selecione **Ordens de compra**.
 
 ## <a name="create-a-work-template-header"></a>Criar um cabeçalho do modelo de trabalho
@@ -58,6 +61,3 @@ Este tópico descreve como configurar um modelo de trabalho simples que será us
 6. No campo **ID da classe de trabalho**, digite um valor. As instruções de separação e armazenamento formam um conjunto. Cada conjunto separar/armazenar deve ter a mesma classe de trabalho. Use a mesma classe de trabalho que você forneceu para a instrução de separação.  
 7. Selecione **Salvar**. Note que agora a caixa de seleção **Válido** está marcada.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

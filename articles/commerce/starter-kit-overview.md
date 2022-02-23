@@ -2,30 +2,36 @@
 title: Visão geral da biblioteca de módulos
 description: Este tópico fornece uma visão geral da biblioteca de módulos do Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985750"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410261"
 ---
 # <a name="module-library-overview"></a>Visão geral da biblioteca de módulos
 
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral da biblioteca de módulos do Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão Geral
 
 A biblioteca de módulos do Dynamics 365 Commerce é um conjunto de módulos que pode ser usado para criar um site de comércio eletrônico. Os módulos têm tanto aspectos da interface do usuário (IU) quanto do comportamento funcional.
 
@@ -60,6 +66,3 @@ Os seguintes tipos de módulos são fornecidos na biblioteca de módulos:
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

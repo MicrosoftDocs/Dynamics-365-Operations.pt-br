@@ -1,10 +1,12 @@
 ---
 title: Criar orçamentos de manutenção
 description: Este tópico explica como criar um orçamento de manutenção em Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBudgetLineAdjust, EntAssetBudget, EntAssetBudgetRecalc, EntAssetBudgetCopy, EntAssetBudgetLine, EntAssetBudgetCreate, EntAssetBudgetApprove, EntAssetBudgetCalculateActualCost
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a375eb7c208479615b2d5e7cf78168ffd7ac8b16c52c85a7ef5a41aa69c947d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 602a00060c1e56285d9954981d019bececaf90fd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776935"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020980"
 ---
 # <a name="create-maintenance-budgets"></a>Criar orçamentos de manutenção
 
@@ -50,12 +52,9 @@ Os orçamentos de manutenção são baseados nos tipos de custo usados no Gerenc
     > [!NOTE]
     > Depois de aprovar um orçamento de manutenção, você não poderá recalcular ou ajustar as linhas relacionadas na página **Linhas de orçamento de manutenção**, a menos que primeiro remova a aprovação. Para remover a aprovação de um orçamento de manutenção, selecione-o na página **Orçamentos de manutenção** e selecione **Aprovar**. Em seguida, na caixa de diálogo **Aprovar orçamento**, selecione **OK**.
 
-![Orçamentos de manutenção.](media/01-maintenance-budgets.png)
+![Orçamentos de Manutenção](media/01-maintenance-budgets.png)
 
 Também é possível criar um orçamento de manutenção, copiando um orçamento existente. Na página **Orçamentos de manutenção**, selecione o orçamento a ser copiado e selecione **Copiar**. Essa abordagem é útil se, por exemplo, você criou um orçamento para um mês e deseja copiá-lo para outros meses.
 
 > [!NOTE]
 > O orçamento de manutenção calcula apenas os custos com base nas linhas de agendamento de manutenção. Para calcular custos reais para o mesmo período, você pode fazer esse cálculo na página **Controle de custos de ativos**. 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

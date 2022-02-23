@@ -90,6 +90,3 @@ Para obter mais informações, consulte [Entrada e navegação simplificada de f
 ### <a name="platform-update-29"></a>Update 29 para plataforma
 
 Para obter mais detalhes sobre a atualização de Plataforma 29, consulte [Exibição de recursos na atualização de plataforma 29 do Dynamics 365 for Finance and Operations (outubro de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

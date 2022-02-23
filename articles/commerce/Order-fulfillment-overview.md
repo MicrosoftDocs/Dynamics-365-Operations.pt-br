@@ -1,25 +1,27 @@
 ---
 title: Atendimento da ordem na loja
 description: Este tópico fornece uma visão geral do atendimento da ordem da loja.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 10/30/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983333"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965393"
 ---
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
 
@@ -33,7 +35,7 @@ A operação de atendimento da ordem no ponto de venda fornece uma área de trab
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Acessar atendimento unificado da ordem no ponto de venda
 
-O atendimento da ordem, [ID 928 da Operação](pos-operations.md), pode ser usado para acessar a área de trabalho de atendimento da ordem da loja no ponto de venda.
+O atendimento da ordem, [ID 928 da Operação](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), pode ser usado para acessar a área de trabalho de atendimento da ordem da loja no ponto de venda.
 
 A operação de atendimento da ordem não tem sua própria permissão imediata, mas no futuro, os usuários poderão usar a permissão **Permitir recuperar ordem** para chamar a operação do ponto de venda.
 
@@ -61,7 +63,7 @@ Se várias linhas forem selecionadas, o menu suspenso de detalhes da linha da or
 
 ## <a name="pending-order-lines"></a>Linhas de ordem pendentes
 
-O atendimento unificado da ordem inclui a capacidade de aceitar as ordens manualmente. Por padrão, as ordens para atendimento na loja já foram aceitas. Porém, se os processos comerciais indicam que o trabalhador em nível de loja deve aceitar as ordens, a aceitação manual pode ser ativada em nível de loja de varejo. Para habilitar a aceitação da ordem, Acesse **Varejo e Comércio** \> **Canais** \> **Lojas** \> **Todas as lojas**. Abra a loja desejada e na guia **Geral**, localize o subcabeçalho **Atendimento da ordem**. Este subcabeçalho tem uma opção **Aceitação manual** definida como **Não**, por padrão. Definindo esta opção como **Sim** e sincronizando as alterações para o banco de dados do canal, as linhas de ordem podem passar pelo processo de aceitação.
+O atendimento unificado da ordem inclui a capacidade de aceitar as ordens manualmente. Por padrão, as ordens para atendimento na loja já foram aceitas. Porém, se os processos comerciais indicam que o trabalhador em nível de loja deve aceitar as ordens, a aceitação manual pode ser ativada em nível de loja de varejo. Para habilitar a aceitação da ordem, vá para **Varejo e Comércio** \> **Canais** \> **Lojas** \> **Todas as lojas**. Abra a loja desejada e na guia **Geral**, localize o subcabeçalho **Atendimento da ordem**. Este subcabeçalho tem uma opção **Aceitação manual** definida como **Não**, por padrão. Definindo esta opção como **Sim** e sincronizando as alterações para o banco de dados do canal, as linhas de ordem podem passar pelo processo de aceitação.
 
 Os trabalhadores com a permissão **Permitir ordem de aceitação** podem abrir o atendimento da ordem e selecionar linhas para aceitação. Depois que as linhas forem aceitas, as alterações de status de **Pendente** para **Aceitas** e o restante do processo de atendimento de ordem podem continuar. Quando a **Aceitação manual** for ativada, as ordens não serão processadas enquanto não forem aceitas.
 
@@ -93,7 +95,7 @@ Depois que uma ordem for aceita, as linhas podem ser selecionadas e marcadas com
 
 As listas de separação podem ser impressas no ponto de venda para auxiliar os trabalhadores a executarem o processo de separação. Uma lista de separação impressa pode ser executada com o trabalhador executando a separação, e conforme os produtos são separados, o trabalhador pode marcá-los manualmente como separados na lista de separação.
 
-O formato da lista de separação é configurado no Commerce e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](receipt-templates-printing.md).
+O formato da lista de separação é configurado no Commerce e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Se as linhas forem selecionadas e uma lista de separação for impressa para essas linhas, elas serão atualizadas automaticamente com o status **Separação**.
 
@@ -119,7 +121,7 @@ As linhas de ordem podem ser embaladas em qualquer ponto depois que a linha da o
 - **Status resultante:** Embalada ou parcialmente embalada
 - **Status resultante de back office:** Entregue ou parcialmente entregue
 
-Esta ação marca as linhas como embalada ou parcialmente embaladas e imprime uma guia de remessa. Uma guia de remessa poderá ser impressa para validar os produtos que são embalados juntos. O formato da guia de remessa é configurado no Commerce e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](receipt-templates-printing.md).
+Esta ação marca as linhas como embalada ou parcialmente embaladas e imprime uma guia de remessa. Uma guia de remessa poderá ser impressa para validar os produtos que são embalados juntos. O formato da guia de remessa é configurado no Commerce e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Ação: Marcar como embalada**
 
@@ -215,6 +217,3 @@ O atendimento da ordem no ponto de venda inclui filtragem para ajudar o usuário
 - Data de criação
 - Data de entrega
 - Data de recebimento
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

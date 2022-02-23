@@ -2,23 +2,26 @@
 title: Configurar períodos de liquidação do imposto
 description: Este tópico explica como configurar períodos de liquidação de imposto no Dynamics 365 Finance.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5068c121e921c1586dc6ae003c0021bf41d2254
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732948"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440356"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Configurar períodos de liquidação do imposto
 
@@ -37,7 +40,9 @@ Esta tarefa usa a empresa de demonstração USMF.
 7. No campo **Termos de pagamento**, selecione o registro desejado no menu suspenso. A autoridade do imposto sobre vendas relacionada pode ser configurada como um fornecedor e a liquidação do imposto sobre vendas criará uma nota fiscal de fornecedor aberta. Os Termos de pagamento definem a Data de vencimento para a fatura de fornecedor aberta.  
 8. Selecione o tipo de intervalos de período de liquidação.
 9. Insira o número das Unidades de intervalo de período por período. Por exemplo, um trimestre tem 3 meses.
-10. Marque ou desmarque o **Usar processamento em lotes para liquidação de imposto**. O processo de liquidação para o período de liquidação pode ser processado como trabalhos em lotes no plano de fundo. Isso é recomendável para um grande número de transações de imposto em um intervalo de períodos.
+10. Marque ou desmarque o **Usar processamento em lotes para liquidação de imposto**. O processo de liquidação para o período de liquidação pode ser processado como trabalhos em lotes no plano de fundo. Isso é recomendável para um grande número de transações de imposto em um intervalo de períodos.  
+    > [!NOTE]
+    > No momento, isso não tem suporte na Espanha, no Japão e nos Países Baixos.
 11. Marque ou desmarque a caixa de seleção **Impedir a geração de transações de impostos de contrapartida**. Por padrão, o sistema gera transações de impostos de contrapartida durante o processo de liquidação, o que pode causar um problema de desempenho se houver um grande número de transações de imposto durante um intervalo de período. Marque essa caixa de seleção para impedir a geração de transações de impostos de contrapartida.
 12. Expanda a guia **Intervalos de períodos**.
 13. Selecione **Adicionar**.
@@ -46,6 +51,3 @@ Esta tarefa usa a empresa de demonstração USMF.
 16. Selecione **Novo intervalo do período**. Depois que o primeiro intervalo de período tiver sido inserido, os novos períodos podem ser criados automaticamente. Você pode voltar e adicionar novos intervalos de período conforme necessário.  
 17. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

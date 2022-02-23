@@ -2,9 +2,11 @@
 title: Ações nos processos de aprovação de fluxo de trabalho
 description: Este artigo explica as ações que cada participante em um processo de aprovação de fluxo de trabalho pode executar.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,25 +16,22 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070924"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797593"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Ações nos processos de aprovação de fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Este artigo explica as ações que cada participante em um processo de aprovação de fluxo de trabalho pode executar.
 
 Um fluxo de trabalho pode envolver vários grupos de pessoas: o originador, os destinatários de tarefa, os tomadores de decisão, e os aprovadores. Por exemplo, no fluxo de trabalho de relatório de despesas a seguir, Samuel é o originador; os membros da fila são os destinatários de tarefa; Mateus é um tomador de decisão e Fábio, Manuela e Ana são os aprovadores.
 
-[![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 As seções a seguir explicam as ações de fluxo de trabalho que cada grupo pode executar.
 
@@ -142,6 +141,3 @@ Quando um aprovador solicita uma alteração em um documento, o documento é env
 Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de R$ 12,000, que é atribuído a Manuela. Se Suzana solicitar uma alteração, o relatório de despesas é enviado de volta para Samuel.
 
 Samuel poderá reenviar o relatório de despesas. Ele pode fazer as alterações solicitadas primeiro ou pode reenviar a versão original do relatório de despesas. Se Samuel reenviar o relatório de despesas, ele será enviado a Fábio para aprovação, pois Fábio é o primeiro aprovador do processo de aprovação.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Carregar imagens
-description: Este tópico descreve como carregar imagens no construtor de sites do Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve como carregar imagens no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 12/03/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,18 +17,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891499"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963001"
 ---
 # <a name="upload-images"></a>Carregar imagens
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como carregar imagens no construtor de sites do Microsoft Dynamics 365 Commerce.
+Este tópico descreve como carregar imagens no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão Geral
 
 A Biblioteca de Mídia do assistente para criação de sites do Commerce permite carregar imagens, individualmente ou em massa, usando pastas. Você sempre deve carregar a versão da imagem com a resolução e a qualidade mais altas, porque o componente redimensionador de imagem otimizará automaticamente a imagem em diferentes portas de exibição e seus pontos de interrupção.
 
@@ -41,8 +45,7 @@ Ao carregar uma imagem, as informações a seguir podem ser especificadas.
 - **Publicar ativos após upload**: quando esta caixa de seleção está marcada, a imagem ou as imagens são publicadas imediatamente após o carregamento.
 
 > [!NOTE]
-> - Os ativos de imagem com uma categoria atribuída também são marcados automaticamente com a categoria como uma palavra-chave para ajudar na pesquisa de ativos de uma categoria específica.
-> - Páginas de detalhes do produto geram de forma dinâmica o **Texto alt** usando o nome do produto, portanto, alterar o **Texto alt** para uma imagem do produto não afetará a imagem renderizada.
+> Os ativos de imagem com uma categoria atribuída também são marcados automaticamente com a categoria como uma palavra-chave para ajudar na pesquisa de ativos de uma categoria específica.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Convenções de nomenclatura para imagens de omnicanal 
 
@@ -53,17 +56,9 @@ A convenção de nomenclatura padrão varia de acordo com a categoria:
 - As imagens da categoria devem ser nomeadas como "**/Categories/\{CategoryName\}.png**"
 - As imagens do cliente devem ser nomeadas como "**/Customers/\{CustomerNumber\}.jpg**"
 - As imagens dos funcionários devem ser nomeadas como "**/Workers/\{WorkerNumber\}.jpg**"
-- As imagens do produto devem ser nomeadas como "**/Products/\{ProductNumber\}\_000_001.png**"
+- As imagens do produto devem ser nomeadas como "**/Products/\{ProductNumber\}_000_001.png**"
     - 001 é a sequência da imagem e pode ser 001, 002, 003, 004 ou 005
-- As imagens da grade de produto devem ser nomeadas como "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - Por exemplo: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
-- As imagens de grade de produto com dimensões de configuração devem ser nomeadas "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
-    - Por exemplo: 93039 \^ LB8017_000_001.png
-
-> [!NOTE]
-> Para imagens de grade de produto, se o valor de dimensão estiver vazio, deve haver dois espaços em branco entre os acentos no nome do arquivo.
-
-Os exemplos acima usam a configuração padrão. O caractere separador e as dimensões são configuráveis e o nome exato necessário pode variar entre as implantações. Um método para identificar a convenção de nomenclatura exata necessária é usar o console do desenvolvedor do navegador para inspecionar as solicitações de imagem de grade do produto ao alterar as dimensões do produto na página detalhes do produto da vitrine (PDP).
+- As imagens da grade de produto devem ser nomeadas como "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
 
 ## <a name="upload-an-image"></a>Carregar uma imagem
 
@@ -101,6 +96,3 @@ Para carregar uma pasta de imagens em massa no assistente para criação de site
 [Personalizar pontos focais da imagem](dam-custom-focal-point.md)
 
 [Carregar e atender arquivos estáticos](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

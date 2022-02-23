@@ -2,25 +2,28 @@
 title: Configurar fluxos de trabalho de aprovação de arrendamento
 description: O tópico explica como configurar um fluxo de trabalho de aprovação que será executado quando um novo arrendamento for criado.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WorkflowTableListPageRnr
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f99bb480e6ee2314852965ab9559bae2ad348fb92514d791fca127d91558348
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58c0fd781710b7ab8efeaa7a6874f412279a5924
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733626"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440539"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Configurar fluxos de trabalho de aprovação de arrendamento
 
@@ -50,6 +53,3 @@ O tópico explica como configurar um fluxo de trabalho de aprovação que será 
 14. Na página **Criar fluxo de trabalho**, selecione **Fechar**.
 14. Selecione o novo fluxo de trabalho e depois **Versões**. Em seguida, selecione **Tornar ativo** para garantir que o fluxo de trabalho esteja ativo.
 15. Selecione **Fechar**. A nova versão ativa será exibida.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

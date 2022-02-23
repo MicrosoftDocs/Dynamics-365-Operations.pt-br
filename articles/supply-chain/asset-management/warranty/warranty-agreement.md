@@ -1,10 +1,12 @@
 ---
 title: Contratos de garantia
 description: Este tópico explica contratos de garantia no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8269b9f2084ddd0f69039044c29978ce7940270d5b569456f7a0bfca0a6f1f0b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7080af2059c9c9bcdd11ca0ee9c5e339cef69302
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735294"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021495"
 ---
 # <a name="warranty-agreements"></a>Contratos de garantia
 
@@ -51,7 +53,4 @@ Um contrato da garantia pode incluir diversas linhas de contrato para cobrir a g
     3. No campo **Intervalo**, insira um número. Este campo define o número de períodos para o qual a garantia deve ser válida.
     4. No campo **Porcentagem**, insira a porcentagem de cobertura para a linha de garantia. O percentual indica quanto é coberto por sua empresa.
 
-![Página de garantia.](media/01-warranty.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Página de garantia](media/01-warranty.png)

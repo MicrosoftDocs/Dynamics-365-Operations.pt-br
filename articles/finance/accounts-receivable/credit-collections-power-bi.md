@@ -2,29 +2,32 @@
 title: Conteúdo de gerenciamento de crédito e cobranças do Power BI
 description: Este tópico descreve o que está incluído no conteúdo de gerenciamento de crédito e cobranças do Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 65423f49ba106a152f58c92533c4f1a16d47a318982cfe69bb23f9091fa09846
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
+ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763205"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4440534"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Conteúdo de gerenciamento de crédito e cobranças do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo **Gerenciamento de crédito e cobranças** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
+Este tópico descreve o que está incluído no conteúdo de **Gerenciamento de crédito e cobranças** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -43,11 +46,11 @@ Por padrão, são mostrados o crédito e os dados de cobrança da empresa atual.
 
 A configuração a seguir precisa ser concluída para que os dados sejam exibidos em recursos visuais **Crédito e cobranças de clientes** do Power BI.
 
-1. Acesse **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
-2. Acesse **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
-3. Acesse **Contabilidade > Configuração > Razão** e defina **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
-4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema. Para fazer isso, Acesse **Contabilidade > Moedas > Taxas de câmbio de moedas**.
-5. Acesse **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **CustCollectionsBIMeasurementsV2**.
+1. Vá para **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
+2. Vá para **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
+3. Vá para **Contabilidade > Configuração > Razão** e defina **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
+4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
+5. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **CustCollectionsBIMeasurementsV2**.
 
 >[!NOTE] 
 > As definições de período de classificação por vencimento devem ser configuradas em **Parâmetros de Contas a pagar > Coletas > Padrões de coletas** para habilitar dados de classificação por vencimento no conteúdo do Power BI.
@@ -74,6 +77,3 @@ O conteúdo de **CustCollectionsBICrossCompany** do Power BI tem um relatório q
 | Cartas de cobranças         | <ul><li>Valores de código de cobrança</li><li>Detalhes do valor do código de cobrança</li><li>Valor da cartas de cobrança por empresa</li><li>Valor da carta de cobrança por grupo de clientes</li><li>Valor da carta de cobrança por região</li></ul> |
 
 Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um dashboard](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Prazos finais de entrada da ordem
 description: Este artigo oferece informações sobre prazos finais de entrada de ordem. Um prazo final de entrada de ordem é uma hora de fechamento que determina se uma ordem do cliente será tratado (e atendida) como se tivesse sido recebida no dia atual ou no dia seguinte.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable, MCRAutoTaxRules
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71748cb05346f7a31f51baebb86b9accc11c8478
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5f7d4a99166af112abe26220a700fcf4be79223b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580519"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422014"
 ---
 # <a name="order-entry-deadlines"></a>Prazos finais de entrada da ordem
 
@@ -99,12 +102,10 @@ A tabela a seguir mostra como os prazos finais da ordem de entrada para os sites
 
 **Observação:** Se o ajuste para horário de verão estiver em vigor, os prazos finais de entrada de ordem serão ajustados adequadamente.
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Agendas de entrega](delivery-schedules.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

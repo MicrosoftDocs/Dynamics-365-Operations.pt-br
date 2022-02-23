@@ -2,23 +2,26 @@
 title: Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 description: É possível emitir uma nota fiscal a um cliente que adquiriu ativo fixo do estabelecimento fiscal.
 author: sndray
+manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0199d040099c6780001a1abce126b722369e44c74028bac056b86df2badbcf14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fdcb0ee14fbfa9523ce5831e6375d3d1b9881067
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712135"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408410"
 ---
 # <a name="issue-customer-fiscal-documents-fixed-assets-brazil"></a>Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 
@@ -26,7 +29,7 @@ ms.locfileid: "6712135"
 
 É possível emitir uma nota fiscal a um cliente que adquiriu ativo fixo do estabelecimento fiscal. Nesse caso, a nota fiscal é emitida a partir da fatura de texto livre. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Acesse Contas recebíveis > Faturas > Todas faturas de texto livre.
+1. Vá para Contas recebíveis > Faturas > Todas faturas de texto livre.
 2. Clique em Novo.
 3. No campo ID do estabelecimento fiscal, insira ou selecione um valor.
 4. No campo Conta de cliente, insira ou selecione um valor.
@@ -53,9 +56,6 @@ ms.locfileid: "6712135"
 25. Clique em OK.
 26. Feche a página.
 27. Feche a página.
-28. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+28. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 29. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

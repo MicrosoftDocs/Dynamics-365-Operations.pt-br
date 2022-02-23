@@ -2,23 +2,26 @@
 title: Conteúdo de visão geral do caixa do Power BI
 description: Este tópico descreve o conteúdo de Visão geral do caixa do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 author: saraschi2
+manager: AnnBe
 ms.date: 07/16/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3f7e0c792df8519f3bcb2ade2e29cc4c5c8e4730
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986399"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440389"
 ---
 # <a name="cash-overview-power-bi-content"></a>Conteúdo de visão geral do caixa do Power BI
 
@@ -34,12 +37,12 @@ O conteúdo de **Visão geral do caixa** do Power BI foi criado para as pessoas 
 
 A configuração a seguir precisa ser concluída para que os dados sejam exibidos nos recursos visuais **Visão geral do caixa** e **Gerenciamento bancário** do Power BI .
 
-1. Acesse **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
-2. Acesse **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
-3. Acesse **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
-4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema, moeda contábil e moedas de bancos. Para fazer isso, Acesse **Contabilidade > Moedas > Taxas de câmbio de moedas**.
-5. Configure e execute a previsão de fluxo de caixa. Para obter mais informações sobre como configurar a previsão de fluxo de caixa, consulte [Previsão de fluxo de caixa](./cash-flow-forecasting.md). 
-6. Acesse **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **LedgerCovLiquidityMeasurement**.
+1. Vá para **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
+2. Vá para **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
+3. Vá para **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
+4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema, moeda contábil e moedas de bancos. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
+5. Configure e execute a previsão de fluxo de caixa. Para obter mais informações sobre como configurar a previsão de fluxo de caixa, consulte [Previsão de fluxo de caixa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+6. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 
@@ -76,6 +79,3 @@ A próxima tabela mostra as entidades nas quais foi baseado o conteúdo de **Vis
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Entradas, saídas e saldo resumido usando cada moeda contábil da empresa |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Entradas, saídas e saldo resumido usando a moeda do sistema de todas as empresas |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Valor da transação e saldo de moeda líquida resumidos usando a moeda da transação |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

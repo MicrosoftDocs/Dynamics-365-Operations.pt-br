@@ -1,24 +1,26 @@
 ---
 title: Aprovar fornecedores para produtos específicos
 description: Este procedimento mostra como aprovar fornecedores de produto específico.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4c48bfbcc3fb64bae66fe3cfef1d55d15049bb9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1cc7d8a93bdbdb5a1446fc34beff4b74aa9d11a0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575426"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016644"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Aprovar fornecedores para produtos específicos
 
@@ -26,7 +28,7 @@ ms.locfileid: "7575426"
 
 Este procedimento mostra como aprovar fornecedores de produto específico. Isso permite que você controle fornecedores que podem ser usados quando os produtos são adicionados a uma ordem de compra. Você pode usar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Normalmente essa tarefa é realizada por um Gerente de compras.
 
-1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos liberados**.
+1. No Painel de Navegação, vá para **Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos liberados**.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Expanda a Guia Rápida **Comprar**. Se houver um fornecedor principal mostrado no campo **Fornecedor**, você precisará adicionar esse fornecedor como um fornecedor aprovado nas etapas a seguir. Faça uma nota do número do fornecedor, se for mostrado.  
@@ -50,15 +52,12 @@ Este procedimento mostra como aprovar fornecedores de produto específico. Isso 
 22. Clique em **Salvar**.
 23. Feche a página.
 24. Feche a página.
-25. No Painel de Navegação, Acesse **Módulos > Aquisição e fornecimento > Fornecedores > Relações fornecedor/item > Lista de fornecedores aprovados por item**. Essa página apresenta uma visão geral de todos os produtos e fornecedores aprovados.  
+25. No Painel de Navegação, vá para **Módulos > Aquisição e fornecimento > Fornecedores > Relações fornecedor/item > Lista de fornecedores aprovados por item**. Essa página apresenta uma visão geral de todos os produtos e fornecedores aprovados.  
 26. Feche a página.
-27. No Painel de Navegação, Acesse **Módulos > Compras e fornecimento > Fornecedores > Todos os fornecedores**. Também é possível partir de um fornecedor e ir para a lista de produtos aprovados da conta do fornecedor.  
+27. No Painel de Navegação, vá para **Módulos > Compras e fornecimento > Fornecedores > Todos os fornecedores**. Também é possível partir de um fornecedor e ir para a lista de produtos aprovados da conta do fornecedor.  
 28. Na lista, localize e selecione o PDV desejado.
 29. No Painel de Ações, clique em **Compras**.
 30. Clique em **Lista de fornecedores aprovados por fornecedor**.
 31. Feche a página.
 32. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

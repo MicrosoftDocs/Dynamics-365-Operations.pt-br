@@ -2,26 +2,29 @@
 title: Média ponderada com valor físico e marcação
 description: A média ponderada é um modelo de estoque com base no princípio da média ponderada, no qual as saídas do estoque são avaliadas no valor médio dos itens recebidos no estoque durante o período de fechamento de estoque, mais qualquer estoque disponível do período anterior.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d94e61384ad2d0880a6d62b963e9a99518a41db1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 225379df8bb86522d5817add570d614d09a1a92d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571992"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422023"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Média ponderada com valor físico e marcação
 
@@ -65,7 +68,7 @@ Foram lançados um recebimento e uma saída atualizados financeiramente no cená
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação direta sem a opção Incluir valor físico. 
 
-![DS de média ponderada sem Incluir Valor Físico.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![DS de média ponderada sem Incluir Valor Físico](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.
@@ -99,7 +102,7 @@ As transações a seguir são ilustradas no gráfico abaixo:
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação resumida sem a opção Incluir valor físico. 
 
-![SS de média ponderada sem Incluir Valor Físico.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![SS de média ponderada sem Incluir Valor Físico    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.
@@ -128,7 +131,7 @@ As transações a seguir são ilustradas no gráfico abaixo:
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação direta com a opção Incluir valor físico. 
 
-![DS de média ponderada com Incluir Valor Físico.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![DS de média ponderada com Incluir Valor Físico](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.
@@ -161,7 +164,7 @@ As transações a seguir são ilustradas no gráfico abaixo:
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação resumida sem a opção Incluir valor físico. 
 
-![SS de média ponderada com Incluir Valor Físico.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![SS de média ponderada com Incluir Valor Físico    ](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.
@@ -209,7 +212,7 @@ O novo preço de custo médio reflete a média das transações atualizadas fina
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o modelo de estoque de média ponderada com marcação. 
 
-![Média ponderada com Marcação.](./media/weightedaveragewithmarking.gif) 
+![Média ponderada com Marcação    ](./media/weightedaveragewithmarking.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.
@@ -227,6 +230,3 @@ O diagrama a seguir ilustra essa série de transações com os efeitos de escolh
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

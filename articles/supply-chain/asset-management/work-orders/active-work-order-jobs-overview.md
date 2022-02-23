@@ -1,25 +1,28 @@
 ---
 title: Visão geral dos trabalhos de manutenção ativos de ordem de serviço
 description: Este tópico explica a visão geral dos trabalhos de manutenção ativos de ordem de serviço no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fdfbce3315d98fdb2bd7b980a3281f69fc821376
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 81e5611cd1491ee0c119f049e992afb4b6299991
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982552"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019470"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Visão geral dos trabalhos de manutenção ativos de ordem de serviço
 
@@ -35,10 +38,7 @@ Na coluna **%**, um número mostra a conclusão da ordem de serviço como uma po
 
 A ilustração a seguir mostra um exemplo da página de listagem **Trabalhos de manutenção da ordem de serviço ativos**.
 
-![Figura 1.](media/23-work-orders.png)
+![Figura 1](media/23-work-orders.png)
 
 Para obter uma breve descrição dos botões na página de listagem **Trabalhos de manutenção da ordem de serviço ativos**, consulte [Introdução às ordens de serviço](../work-orders/introduction-to-work-orders.md) em que botões idênticos são descritos.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

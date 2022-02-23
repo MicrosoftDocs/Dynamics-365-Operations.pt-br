@@ -1,26 +1,29 @@
 ---
 title: Lançar com registros de depreciações derivados
 description: Este artigo descreve como usar registros de registros derivadas.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0c7b2ad93f4a9c4ff24052c749f7891f9e915d
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 2b58b2da949211f7eef804af98c866bf5074d47f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675410"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440210"
 ---
 # <a name="post-with-derived-books"></a>Lançar com registros de depreciações derivados
 
@@ -34,7 +37,7 @@ Quando você lança transações para um registro que contém registros derivado
 -   Outros valores do tipo de transação também podem ser aplicados. Por exemplo, se o registro principal e os registros de depreciações derivadas tiverem os mesmos intervalos relativos à venda ou à alienação, todos os tipos de transação de ativo fixo estarão disponíveis para a configuração de um registro derivado.
 
 > [!WARNING]
-> A depreciação lançada no registro derivado terá o mesmo valor que foi lançado para o registro principal. Se os métodos de depreciação forem diferentes, as transações de registros não devem ser geradas usando o processo derivado. |
+> A depreciação lançada no registro de depreciações derivadas terá o mesmo valor que foi lançado para o registro principal. Se os métodos de depreciação forem diferentes, as transações de registros não devem ser geradas usando o processo derivado. |
 
 ## <a name="example"></a>exemplo 
 As informações a seguir descrevem como configurar transações de aquisição com a funcionalidade do registro derivado.
@@ -56,6 +59,3 @@ Para obter mais informações, consulte [Registros derivados](derived-books.md).
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

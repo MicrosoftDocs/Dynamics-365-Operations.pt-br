@@ -2,25 +2,28 @@
 title: Saldo da conta contábil
 description: Este artigo explica duas maneiras de exibir os saldos da conta contábil - a página de listagem do balancete e os relatórios financeiros. Também discute como atualizar os saldos do conjunto de dimensões.
 author: aprilolson
+manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13191
 ms.assetid: ea3650ac-34a0-4516-b75b-801c2164107d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3c1f3832d5e50a709b3032c379298eb32b81649c1c15b5cc426aa5d3afb2ac6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee35db478663f3a5ab114ec133115eccc40b143c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748177"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440465"
 ---
 # <a name="general-ledger-account-balances"></a>Saldo da conta contábil
 
@@ -48,6 +51,3 @@ Para obter mais informações, consulte [Exibir relatórios financeiros](view-fi
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

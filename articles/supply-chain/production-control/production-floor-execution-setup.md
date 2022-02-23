@@ -2,37 +2,39 @@
 title: Configurar um dispositivo para executar a interface de execução de piso de produção
 description: A interface de execução de piso de produção é configurada para todos os dispositivos no piso de produção. Geralmente, as empresas configuram cada dispositivo de forma diferente, dependendo da finalidade à qual o dispositivo serve. Por exemplo, uma empresa pode ter um dispositivo na área da recepção, onde os trabalhadores registram a entrada e a saída, e outro no chão de fábrica, onde os trabalhadores gerenciam seus trabalhos.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752823"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966261"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar um dispositivo para executar a interface de execução de piso de produção
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 A interface de execução de piso de produção é configurada para todos os dispositivos no piso de produção. Geralmente, as empresas configuram cada dispositivo de forma diferente, dependendo da finalidade à qual o dispositivo serve. Por exemplo, uma empresa pode ter um dispositivo na área da recepção, onde os trabalhadores registram a entrada e a saída, e outro no chão de fábrica, onde os trabalhadores gerenciam seus trabalhos.
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Definir a configuração e os filtros para um dispositivo específico
 
-Para definir a configuração e os filtros de trabalho para um dispositivo, entre na página **Execução de piso de produção** usando uma conta com uma função de segurança que inclua o direito *Manter supervisão de tempo*. (Entre as funções de segurança prontas para uso, somente o *Supervisor de chão de fábrica* tem esse direito). Em seguida, siga estas etapas.
+Para definir a configuração e os filtros de trabalho para um dispositivo, entre na página **Execução de piso de produção** usando uma conta com uma função de segurança que inclua o direito *Manter supervisor de tempo*. (Entre as funções de segurança prontas para uso, somente o *Supervisor de chão de fábrica* tem esse direito). Em seguida, siga estas etapas.
 
-1. Acesse o dispositivo que deseja configurar e entre no Microsoft Dynamics 365 Supply Chain Management como um supervisor de chão de fábrica. (Use uma conta que inclua o direito *Manter supervisão de tempo*.)
+1. Vá para o dispositivo que deseja configurar e entre no Microsoft Dynamics 365 Supply Chain Management como um supervisor de chão de fábrica. (Use uma conta que inclua o direito *Manter de supervisor de tempo*).
 1. Verifique se há uma configuração disponível para o dispositivo que você está configurando. Se não houver nenhuma configuração, uma configuração padrão será fornecida. Para obter mais informações sobre como definir uma configuração, consulte [Configurar a interface de execução de piso de produção](production-floor-execution-configure.md).
-1. Acesse **Controle de produção \> Execução de fabricação \> Execução de piso de produção**.
+1. Vá para **Controle de produção \> Execução de fabricação \> Execução de piso de produção**.
 
     Se a interface de execução de piso de produção já tiver sido configurada pelo menos uma vez no dispositivo atual, será exibida uma página de entrada. Caso contrário, será exibida uma página de boas-vindas.
 
@@ -57,7 +59,7 @@ Você pode conceder permissão a trabalhadores específicos para alterar as conf
 
 Para permitir que um trabalhador substitua os filtros de trabalho padrão que foram configurados para um dispositivo, siga estas etapas.
 
-1. Acesse **Hora e atendimento \> Configuração \> Tempo de registro dos trabalhadores**.
+1. Vá para **Hora e atendimento \> Configuração \> Tempo de registro dos trabalhadores**.
 1. Selecione um trabalhador na lista para abrir a página **Trabalhadores com registro de tempo** desse trabalhador.
 1. Na guia **Registro de tempo**, defina a opção **Definir filtros** como *Sim*.
 
@@ -70,13 +72,10 @@ Geralmente, você executará a interface de execução de piso de produção em 
 
 A parte superior da ilustração a seguir mostra como a interface é exibida por padrão. A parte inferior mostra como ele aparece no modo de tela inteira quando o painel de navegação está oculto.
 
-![Interface padrão versus de tela inteira.](media/pfei-full-screen.png "Interface padrão versus de tela inteira")
+![Interface padrão versus de tela inteira](media/pfei-full-screen.png "Interface padrão versus de tela inteira")
 
 ## <a name="extend-the-session-past-12-hours"></a>Estender a sessão além de 12 horas
 
 Por padrão, a interface de execução de piso de produção se desconecta automaticamente se ninguém usá-la em 12 horas. Um usuário do Supply Chain Management deverá entrar novamente. No entanto, você pode estender o tempo limite para até 90 dias.
 
-Para estender o limite de tempo, entre no Supply Chain Management e Acesse **Administração do sistema \> Usuários \> Extensões de sessão**. Especifique a conta de usuário do Supply Chain Management usada para entrar no dispositivo e o número de horas em que a sessão deverá permanecer ativa.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Para estender o limite de tempo, entre no Supply Chain Management e vá para **Administração do sistema \> Usuários \> Extensões de sessão**. Especifique a conta de usuário do Supply Chain Management usada para entrar no dispositivo e o número de horas em que a sessão deverá permanecer ativa.

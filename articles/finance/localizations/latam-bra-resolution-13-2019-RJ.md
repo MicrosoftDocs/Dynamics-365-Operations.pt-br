@@ -1,25 +1,28 @@
 ---
-title: Resolução SPED fiscal 13/2019 RJ
-description: Este tópico fornece informações sobre a resolução 13/2019 e como uma nota fiscal eletrônica (NF-e) deve ser emitida e registrada.
+title: Resolução do SPED fiscal 13/2019 RJ
+description: Este tópico explica como configurar e gerar arquivos de texto do SPED ECD.
 author: v-oloski
+manager: AnnBe
 ms.date: 10/22/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7
-ms.openlocfilehash: 33897ecffe8a2d684029f3c8d882b4ef5bf8c8ec
-ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
+ms.openlocfilehash: 3a3d3b9eb35d380ec26ae38f761ddf4688c96cf1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7601434"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408438"
 ---
-# <a name="sped-fiscal-resolution-132019-rj"></a>Resolução SPED fiscal 13/2019 RJ
+# <a name="sped-fiscal-resolution-132019-rj"></a>Resolução do SPED fiscal 13/2019 RJ
 
 [!include [banner](../includes/banner.md)]
 
@@ -226,13 +229,13 @@ Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED F
 
 Siga estas etapas para configurar os parâmetros dos livros fiscais para cada estado.
 
-1. Acesse **Livros fiscais** \> **Configurar** \> **Parâmetros de livros fiscais por estado**.
+1. Vá para **Livros fiscais** \> **Configurar** \> **Parâmetros de livros fiscais por estado**.
 2. Na Guia Rápida **SPED Fiscal**, na seção **Resolução 13/2019**, defina a opção **Ajuste de nota fiscal** como **Sim**. O sistema agora processará ajustes de notas de acordo com a Resolução 13/2019. Se você não definir esta opção como **Sim**, os requisitos de resolução não serão aplicados.
 3. No campo **Nome**, digite o nome do diário Ajuste geral de imposto/benefício/incentivo. O sistema usa esse nome de diário quando um usuário deve realizar uma operação de transferência de ICMS para outro estabelecimento fiscal.
 
 ## <a name="benefit-code-per-item-or-state"></a>Código de benefício por item ou estado
 
-1. Acesse **Imposto** \> **Configurar** \> **Imposto** \> **Código de benefício por item/estado**.
+1. Vá para **Imposto** \> **Configurar** \> **Imposto** \> **Código de benefício por item/estado**.
 2. Configure **Código de ajuste 5.2**, **Código de ajuste 5.3** e **Código de observação**, conforme necessário.
 
 Essas configurações ajudam a garantir que você obtenha um SPED Fiscal correto de acordo com a resolução.
@@ -250,7 +253,7 @@ Se a opção **Ajuste de nota fiscal** é definida como **Yes** na página **Par
 > - **Base marginal:** valor líquido por linha
 > - **Método de cálculo:** valor total
 
-Quando você lança uma nota fiscal tributária na qual um código de imposto está anexado à linha, o sistema não cria uma transação de comprovante. Quando você executa a operação de sincronização, o sistema cria e lança um diário Ajuste geral de imposto/benefício/incentivo relacionado à nota fiscal de transferência ou apropriação de imposto lançada para transferência do ICMS para outro estabelecimento fiscal. (Para executar a operação de sincronização, Acesse **Livros fiscais** \> **Comum** \> **Período de escrituração** e selecione **Sincronização**.)
+Quando você lança uma nota fiscal tributária na qual um código de imposto está anexado à linha, o sistema não cria uma transação de comprovante. Quando você executa a operação de sincronização, o sistema cria e lança um diário Ajuste geral de imposto/benefício/incentivo relacionado à nota fiscal de transferência ou apropriação de imposto lançada para transferência do ICMS para outro estabelecimento fiscal. (Para executar a operação de sincronização, vá para **Livros fiscais** \> **Comum** \> **Período de escrituração** e selecione **Sincronização**.)
 
 O sistema preenche dados nas linhas do diário no perfil de lançamentos do código de ajuste 5.3. Ele preenche o valor da nota fiscal de transferência ou apropriação de imposto.
 
@@ -259,6 +262,3 @@ O sistema preenche dados nas linhas do diário no perfil de lançamentos do cód
 >
 > - **Para o remetente:** código de ajuste da tabela 5.2 = RJ821231 e código de ajuste da tabela 5.3 = RJ10080002
 > - **Para o destinatário:** código de ajuste da tabela 5.2 = RJ821231 e código de ajuste da tabela 5.3 = RJ10080002
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

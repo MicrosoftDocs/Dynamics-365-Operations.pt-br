@@ -2,25 +2,28 @@
 title: Obter um desconto à vista fora do período de desconto à vista
 description: Este artigo oferece dois cenários que mostram como um desconto à vista pode ser obtido mesmo se o pagamento for feito fora do período de desconto à vista.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14301
 ms.assetid: bad10b7f-e550-4742-9261-8a094c9c624d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9ba9c8176571a8b97b43565c89f8614bd828b3d9e1498a248fd896069d5d5c2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4a166e9a0d43da80986dd63d6739b104745b115
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736975"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440192"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Obter um desconto à vista fora do período de desconto à vista
 
@@ -41,7 +44,7 @@ Alice marca a fatura para pagamento. Nenhum desconto à vista é obtido, pois o 
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**.
 
-| Campo                        | Alíquota     |
+|                              |           |
 |------------------------------|-----------|
 | Data do desconto à vista           | 12/7/2015 |
 | Valor de desconto à vista         | -20,00    |
@@ -59,7 +62,7 @@ Se a fatura e o pagamento tiverem sido lançados, o desconto à vista ainda pode
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**. O valor do desconto a ser obtido é de 20,00, porque o valor a ser liquidado da fatura é o valor padrão, 1.980,00.
 
-| Campo                        | Alíquota     |
+|                              |           |
 |------------------------------|-----------|
 | Data do desconto à vista           | 12/7/2015 |
 | Valor de desconto à vista         | -20,00    |
@@ -76,7 +79,7 @@ Alice atualiza o valor no campo **Valor a ser liquidado** para **-500,00**. O va
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**. O valor no campo **Valor do desconto à vista a ser obtida** é **5,05**, porque o valor a ser liquidado para a fatura foi alterado para o valor do pagamento, 500,00.
 
-| Campo                        | Alíquota     |
+|                              |           |
 |------------------------------|-----------|
 | Data do desconto à vista           | 12/7/2015 |
 | Valor de desconto à vista         | -20,00    |
@@ -88,6 +91,3 @@ As informações do desconto aparecem na parte inferior da página **Liquidar tr
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

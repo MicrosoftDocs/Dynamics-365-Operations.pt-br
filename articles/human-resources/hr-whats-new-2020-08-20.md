@@ -1,32 +1,33 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (20 de agosto 2020)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 20 de agosto de 2020.
-author: andreabichsel
-ms.date: 08/20/2020
+author: Darinkramer
+manager: AnnBe
+ms.date: 8/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a97997212a090f141c7280f7e48fd116a1f31481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062152"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527469"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (20 de agosto 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3478. Os números entre parênteses em alguns cabeçalhos referem-se aos números de suporte do Lifecycle Services (LCS) para referência.
 
@@ -64,15 +65,15 @@ Uma entidade DMF disponível para suspensões de acúmulos.
 
 Você pode tornar campos obrigatórios usando recursos de personalização de Recursos Humanos. Este recurso exige **Exibições salvas**. Para obter mais informações sobre exibições salvas, consulte:
 
-- [Exibições salvas - disponibilidade geral](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) no plano do Dynamics 365 versão 2020 onda 2
-- [Criar formulários que utilizam totalmente as exibições salvas](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
+- [Exibições salvas - disponibilidade geral](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) no plano do Dynamics 365 versão 2020 onda 2
+- [Criar formulários que utilizam totalmente as exibições salvas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
 
 ### <a name="human-resources-application-in-teams"></a>Aplicativo Human Resources no Teams
 
 Os funcionários podem exibir e solicitar tempo fora do trabalho no Microsoft Teams. Eles podem interagir com um bot para criar solicitações de licença. Para obter mais informações, consulte:
 
-- [Licença e ausência do funcionário no Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do Dynamics 365 versão 2020 onda 1
-- [Aplicativo Human Resources no Teams](./hr-admin-teams-leave-app.md)
+- [Licença e ausência do funcionário no Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do Dynamics 365 versão 2020 onda 1
+- [Aplicativo Human Resources no Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
 
 ## <a name="coming-soon"></a>Em breve
 
@@ -82,9 +83,9 @@ Os funcionários podem exibir e solicitar tempo fora do trabalho no Microsoft Te
  
 - **Calendário de folga do gerente**: Os gerentes poderão ver o tempo de folga aprovado e pendente para seus subordinados direto em um modo de exibição de calendário. Esta exibição fornece uma compreensão fácil de quando os membros da equipe estão ausente do trabalho.
 
-### <a name="checklist-entities-included-in-dataverse"></a>Entidades de lista de verificação incluídas no Dataverse
+### <a name="checklist-entities-included-in-common-data-service"></a>Entidades de lista de verificação incluídas no Common Data Service
 
-Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Dataverse.
+Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Common Data Service.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
@@ -116,9 +117,6 @@ Recentemente descobrimos dois problemas com relação à entidade **BenefitsPlan
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

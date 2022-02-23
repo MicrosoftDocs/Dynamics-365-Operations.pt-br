@@ -2,13 +2,16 @@
 title: Realizar rateio de alterações de cabeçalho para linhas de vendas correspondentes
 description: Este tópico descreve recursos adicionais para calcular e aplicar encargos automáticos dos pedidos de canal do Commerce usando o recurso de encargos automáticos avançado.
 author: hhaines
+manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774500"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410063"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Realizar rateio de alterações de cabeçalho para linhas de vendas correspondentes
 
@@ -30,7 +33,7 @@ ms.locfileid: "6774500"
 
 Este tópico descreve a funcionalidade para agrupar encargos automáticos em nível de cabeçalho e realizar rateio dela para as linhas de venda do Commerce. Esta funcionalidade ficará disponível para transações criadas no ponto de venda (POS) na versão 10.0.1 do Retail e vendas criadas em um call center na versão 10.0.2 do Retail.
 
-Esta funcionalidade só estará disponível se o recurso [encargos automáticos avançados](/dynamics365/unified-operations/retail/omni-auto-charges) estiver ativado usando a opção na página **Parâmetros do Commerce**. Além disso, o método de cálculo avançado para encargos automáticos pode ser aplicado apenas a ordens de venda de varejo criadas por meio de canais de comércio (o PDV, um call center, e a plataforma do Dynamics e-Commerce).
+Esta funcionalidade só estará disponível se o recurso [encargos automáticos avançados](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) estiver ativado usando a opção na página **Parâmetros do Commerce**. Além disso, o método de cálculo avançado para encargos automáticos pode ser aplicado apenas a ordens de venda de varejo criadas por meio de canais de comércio (o PDV, um call center, e a plataforma do Dynamics e-Commerce).
 
 Essa nova funcionalidade dá às organizações mais flexibilidade na forma em que os encargos automáticos de nível de cabeçalho são calculados e aplicados para transações de vendas.
 
@@ -38,7 +41,7 @@ Em versões do aplicativo anteriores à versão 10.0.1, os encargos automáticos
 
 Por exemplo, encargos automáticos de nível de cabeçalho são definidos para modo de entrega **99** e modo de entrega **11**. Uma ordem de venda é criada e o modo de entrega **99** é definido no cabeçalho da ordem. Porém, algumas linhas de venda são configuradas de forma que sejam enviadas com o modo de entrega **11**. Neste caso, somente os encargos de nível de cabeçalho vinculados ao modo de entrega **99** são considerados e aplicados à ordem de vendas.
 
-No Commerce, os encargos de nível de cabeçalho têm um recurso adicional que permite definir uma [configuração de encargo em camadas](/dynamics365/unified-operations/retail/configure-call-center-delivery) que é baseada no valor da ordem. Por exemplo, se o valor da ordem está entre US$ 50,00 e US$ 200,00 uma organização pode cobrar US$ 5,00 de frete. Entretanto, se o valor da ordem estiver entre US$ 200,01 e US$ 500,00, o encargo de frete pode ser US$ 4,00.
+No Commerce, os encargos de nível de cabeçalho têm um recurso adicional que permite definir uma [configuração de encargo em camadas](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) que é baseada no valor da ordem. Por exemplo, se o valor da ordem está entre US$ 50,00 e US$ 200,00 uma organização pode cobrar US$ 5,00 de frete. Entretanto, se o valor da ordem estiver entre US$ 200,01 e US$ 500,00, o encargo de frete pode ser US$ 4,00.
 
 Algumas organizações desejam os benefícios de cálculo de encargo em camadas fornecido com encargos de nível de cabeçalho. Entretanto, em cenários envolvendo modes mistos de entrega, eles também desejam garantir que os encargos são calculados com base em uma correspondência com o modo de entrega definido em cada linha de vendas.
 
@@ -56,9 +59,9 @@ Este cenário destaca o comportamento quando a opção **Pró-rateio para corres
 
 Neste cenário, a organização definiu os encargos de nível de cabeçalho para modo de relação de entrega **99** e modo de relação de entrega **11**. Nenhum encargo automático é configurado para modo de entrega **21**.
 
-![Encargos automáticos para modo de entrega 99 na correspondência de pró-rateio de linha está desligado.](media/99_disabled.png)
+![Encargos automáticos para modo de entrega 99 na correspondência de pró-rateio de linha está desligado](media/99_disabled.png)
 
-![Encargos automáticos para modo de entrega 11 na correspondência de pró-rateio de linha está desligado.](media/11_disabled.png)
+![Encargos automáticos para modo de entrega 11 na correspondência de pró-rateio de linha está desligado](media/11_disabled.png)
 
 Uma ordem de venda é criada no call center, e o modo de entrega será **99**. Essa ordem contém cinco itens. Duas linhas de ordem foram configuradas para usar modo de entrega **99**, duas linhas foram configuradas para usar modo de entrega **11**, e uma linha foi configurada para usar modo de entrega **21**, como exibido na tabela a seguir.
 
@@ -72,15 +75,15 @@ Uma ordem de venda é criada no call center, e o modo de entrega será **99**. E
 
 Neste cenário, a ordem inteira é avaliada em relação à tabela de encargos para modo de entrega **99**. O total completo de todas as linhas de vendas é usado para determinar uma camada correspondente na configuração de encargo automático, e esse encargo é aplicado no nível de cabeçalho da ordem. Neste exemplo, o total da ordem é de US$ 165,00 e o frete de US$ 15,00 é aplicado ao cabeçalho da ordem. Encargos automáticos que são configurados para modo de entrega **11** nunca são referenciados ou aplicados.
 
-Neste cenário, se um cliente devolver alguns dos itens na ordem, e se o [código de encargo foi configurado para que ele seja reembolsado](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), o encargo de nível de cabeçalho total é sistematicamente aplicado para o reembolso, mesmo se apenas alguns dos itens são devolvidos.
+Neste cenário, se um cliente devolver alguns dos itens na ordem, e se o [código de encargo foi configurado para que ele seja reembolsado](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), o encargo de nível de cabeçalho total é sistematicamente aplicado para o reembolso, mesmo se apenas alguns dos itens são devolvidos.
 
 ### <a name="scenario-2"></a>Cenário 2
 
 Neste cenário, os encargos de nível de cabeçalho são definidos para modo de relação de entrega **99** e modo de relação de entrega **11**. No entanto, a opção **Pró-rateio para correspondência de linhas de vendas** é definida como **Sim** para essas tabelas de encargo automático.
 
-![Encargos automáticos para modo de entrega 99 na correspondência de pró-rateio de linha está ligado.](media/99_enabled.png)
+![Encargos automáticos para modo de entrega 99 na correspondência de pró-rateio de linha está ligado](media/99_enabled.png)
 
-![Encargos automáticos para modo de entrega 11 na correspondência de pró-rateio de linha está ligado.](media/11_enabled.png)
+![Encargos automáticos para modo de entrega 11 na correspondência de pró-rateio de linha está ligado](media/11_enabled.png)
 
 Esse cenário usa a mesma ordem de venda que contém cinco linhas. O modo de entrega no cabeçalho de ordem é definido como **99**, mas o modo de entrega para cada item na ordem de vendas é configurado como exibido na tabela a seguir.
 
@@ -130,9 +133,9 @@ Como a configuração de encargos automáticos é definida para pró-rata de lin
     - Valor de produto total = US$ 15
     - **Valor do encargo = $0** (Nenhum encargo automático foi configurado para essa combinação de um cliente e um modo de entrega.)
 
-    ![Encargos de modo de entrega 11 caem na camada destacada.](media/step2mode11.png)
+    ![Encargos de modo de entrega 11 caem na camada destacada](media/step2mode11.png)
 
-    ![Encargos de modo de entrega 99 caem na camada destacada.](media/step2mode99.png)
+    ![Encargos de modo de entrega 99 caem na camada destacada](media/step2mode99.png)
 
 3. O sistema calcula o valor do encargo que deve ser aplicado a cada linha, baseado na lógica de pró-rata que considera o valor proporcional da linha em relação ao valor de produto total do grupo.
 
@@ -163,7 +166,7 @@ Como a configuração de encargos automáticos é definida para pró-rata de lin
 
 Portanto, neste exemplo, o item 81334 será atribuído ao encargo de frete de US$ 5,62. Você pode exibir esses encargos na página **Manter encargos** da linha de vendas. A ilustração a seguir mostra como essa página se parece para o item 81334.
 
-![Encargos em pró-rata sobre vendas para o item 81334.](media/proratedlinecharge.png)
+![Encargos em pró-rata sobre vendas para o item 81334](media/proratedlinecharge.png)
 
 Quando esse método de cálculo é usado em um cenário de devolução parcial, se o código de encargo é reembolsável, apenas a parte do encargo atribuído a essa linha será reembolsado quando o item é devolvido.
 
@@ -172,6 +175,3 @@ Quando esse método de cálculo é usado em um cenário de devolução parcial, 
 [Encargos automáticos avançados de omnicanal](omni-auto-charges.md)
 
 [Habilitar e configurar encargos automáticos por canal](auto-charges-by-channel.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,33 +1,38 @@
 ---
 title: Módulo de caixa de compra
-description: Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717786"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517079"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
+Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
-O termo *caixa de compra* geralmente se refere à área de uma página de detalhes de produto (PDP) que está "na primeira página" e que hospeda todas as informações mais importantes necessárias para a compra de um produto. (Uma área que está na "primeira página" fica visível quando a página é carregada pela primeira vez, para que os usuários não precisem rolar para baixo para vê-la.)
+## <a name="overview"></a>Visão geral
+
+O termo *caixa de compra* geralmente se refere à área de uma página de detalhes de produto que está "na primeira página" e que hospeda todas as informações mais importantes necessárias para a compra de um produto. (Uma área que está na "primeira página" fica visível quando a página é carregada pela primeira vez, para que os usuários não precisem rolar para baixo para vê-la.)
 
 Um módulo de caixa de compra é um contêiner especial usado para hospedar todos os módulos mostrados na área da caixa de compra de uma página de detalhes do produto.
 
@@ -35,7 +40,7 @@ A URL da página de detalhes do produto inclui a ID do produto. Todas as informa
 
 A imagem a seguir mostra um exemplo de um módulo de caixa de compra em uma página de detalhes de produtos.
 
-![Exemplo de um módulo de caixa de compra.](./media/ecommerce-pdp-buybox.PNG)
+![Exemplo de um módulo de caixa de compra](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Propriedades e slots do módulo de caixa de compra 
 
@@ -67,16 +72,14 @@ As seguintes configurações de módulo de caixa de compra podem ser definidas e
 
 - **Limite de quantidade de linha de carrinho** – Esta propriedade é usada para especificar o número máximo de cada item que pode ser adicionado ao carrinho. Por exemplo, um varejista pode decidir que apenas 10 de cada produto podem ser vendidos em uma única transação.
 - **Estoque** – para obter informações sobre como aplicar configurações de estoque, consulte [Aplicar configurações de estoque](inventory-settings.md).
-- **Adicionar produto ao carrinho** – Para obter informações sobre como aplicar as configurações de **Adicionar produto ao carrinho**, consulte [configurações de Adicionar produto ao carrinho](add-cart-settings.md).
-
-## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Extensões de definição do módulo de caixa de compra no tema Adventure Works
-
-O módulo de caixa de compra que o tema da Adventure Works fornece tem uma extensão de definição de módulo que oferece suporte à implementação de um módulo de especificações de produtos em um módulo acordeão em uma caixa de compra de PDP. Para exibir atributos de especificação de produto em uma caixa de compra de PDP, adicione um módulo de especificação de produto ao slot do módulo acordeão no slot da caixa de compra.
-
+- **Adicionar produto ao carrinho** – esta propriedade é usada para especificar o comportamento depois que um item é adicionado ao carrinho. Os valores possíveis são **Navegar até página do carrinho**, **Não navegar até página do carrinho** e **Mostrar notificação**. Quando o valor for definido como **Navegar até página do carrinho**, os usuários serão enviados para a página do carrinho após adicionarem um item. Quando o valor for definido como **Não navegar até página do carrinho**, os usuários não serão enviados para a página do carrinho após adicionarem um item. Quando o valor for definido como **Mostrar notificação**, os usuários receberão uma notificação de confirmação e poderão continuar a procurar na página detalhes do produto. 
 
 > [!IMPORTANT]
-> O tema Adventure Works está disponível a partir da versão 10.0.20 do Dynamics 365 Commerce.
+> As configurações de **Adicionar produto ao carrinho** do site estão disponíveis na versão 10.0.11 do Dynamics 365 Commerce. Se estiver atualizando de uma versão mais antiga do Dynamics 365 Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções sobre como atualizar o arquivo appsettings.json, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
+A imagem a seguir mostra um exemplo de notificação de confirmação "adicionado ao carrinho" no site da Fabrikam.
+
+![Exemplo de um módulo de notificação](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
 
@@ -86,7 +89,7 @@ O módulo de caixa de compra recupera informações do produto usando as interfa
 
 Para adicionar um módulo de caixa de compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Caixa de compra**.
 1. Em **Nome do fragmento**, digite o nome **Fragmento de caixa de compra** e selecione **OK**.
 1. No slot **Galeria de Mídia** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
@@ -94,14 +97,14 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 1. No slot **Seletor de loja** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Seletor de loja** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
-1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo PDP** e selecione **OK**.
 1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
 1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
 1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
+1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de PDP**. Em **Nome da página**, insira **Página PDP** e selecione **OK**.
 1. No slot **Principal** da nova página, selecione as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
 1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.
@@ -130,11 +133,6 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 
 [Módulo de compartilhamento social](social-share-module.md)
 
-[Configurações de adicionar produto ao carrinho](add-cart-settings.md)
-
 [Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md)
 
 [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

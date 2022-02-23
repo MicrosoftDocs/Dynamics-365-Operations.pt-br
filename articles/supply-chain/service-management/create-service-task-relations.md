@@ -1,26 +1,29 @@
 ---
 title: Criar relações de tarefas de serviço
 description: Você pode associar tarefas de serviço a contratos de serviço ou ordens de serviço para descrever a tarefa de serviço que deverá ser concluída para o contrato ou a ordem.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b13309816af6984e77f828e827ecffe6266b3ede
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1e50b4322c65097ab4f8aba9c36e4d5e6cc4c01b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576535"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422306"
 ---
 # <a name="create-service-task-relations"></a>Criar relações de tarefas de serviço    
 
@@ -30,13 +33,13 @@ Você pode associar tarefas de serviço a contratos de serviço ou ordens de ser
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Criar uma relação com um contrato de serviço
 
-1.  Acesse **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.
+1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.
 
 2.  Selecione um contrato de serviço existente ou crie um novo.
 
-3.  No Painel de Ações, selecione o botão **Tarefas de serviço**.
+3.  No Painel de Ações, clique no botão **Tarefas de serviço**.
 
-4.  No formulário **Tarefas de serviço**, selecione **Novo** para criar uma nova linha e selecione uma tarefa de serviço na lista **Tarefa de serviço** para anexar a tarefa de serviço ao contrato de serviço.
+4.  No formulário **Tarefas de serviço**, pressione CTRL+N para criar uma nova linha e selecione uma tarefa de serviço na lista **Tarefa de serviço** para anexar a tarefa de serviço ao contrato de serviço.
 
 5.  Na guia **Descrição**, insira todas as descrições de observações internas ou externas nos campos de texto livre.
 
@@ -48,13 +51,13 @@ Uma relação de tarefas de serviço que é criada em um contrato de serviço es
 
 ## <a name="create-a-relation-with-a-service-order"></a>Criar uma relação com uma ordem de serviço
 
-1.  Acesse **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
+1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
 
 2.  Selecione uma ordem de serviço existente ou crie uma nova.
 
-3.  No Painel de Ações, selecione o botão **Tarefas de serviço**.
+3.  No Painel de Ações, clique no botão **Tarefas de serviço**.
 
-4.  No formulário **Tarefas de serviço**, selecione **Novo** para criar uma nova linha e selecione uma tarefa de serviço na lista **Tarefa de serviço** para anexar as tarefas de serviço à ordem de serviço.
+4.  No formulário **Tarefas de serviço**, pressione CTRL+N para criar uma nova linha e selecione uma tarefa de serviço na lista **Tarefa de serviço** para anexar as tarefas de serviço à ordem de serviço.
 
 5.  Na guia **Descrição**, insira todas as descrições de observações internas ou externas nos campos de texto livre.
 
@@ -72,6 +75,3 @@ As relações de tarefas de serviço que são criadas em uma ordem de serviço e
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

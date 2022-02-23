@@ -2,13 +2,16 @@
 title: Configurações do aplicativo de ponto de venda (PDV) e de idioma do usuário
 description: Este tópico descreve como alterar as configurações de idioma no Modern POS (MPOS) e PDV em Nuvem.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774524"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410301"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Configurações do aplicativo de ponto de venda (PDV) e de idioma do usuário
 
@@ -57,11 +60,8 @@ As configurações de idioma do PDV determinam as traduções usadas na interfac
 
 A configuração de idioma do usuário do PDV é definida em **Todos os trabalhadores** na página **Trabalhador** em **Varejo e Comércio &gt; Idioma**. Ela não é definida na guia principal Perfil. Essa configuração não é usada pelo PDV. Se o idioma do usuário não for definido ou for definido como um idioma no qual as traduções não estejam disponíveis, o PDV será revertido para o idioma da loja.
 
-| &nbsp;      | Idioma da interface do usuário                  | Idioma dos dados (produtos, formatos de recibo, exibição de linha etc.) |
+|             | Idioma da interface do usuário                  | Idioma dos dados (produtos, formatos de recibo, exibição de linha etc.) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Empresa** | Padrão                    | Padrão                                                       |
 | **Loja**   | Substitui a empresa          | Substitui a empresa                                             |
 | **Usuário**    | Substitui a loja ou a empresa | Nunca                                                         |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

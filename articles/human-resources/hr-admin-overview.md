@@ -1,36 +1,35 @@
 ---
-title: Visão geral de administração
-description: Este tópico fornece uma lista dos tópicos da ajuda e de outros recursos para configurar, gerenciar e solucionar problemas do Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/11/2021
-ms.topic: overview
+title: Visão geral
+description: Este Guia do Administrador ajuda você a configurar, gerenciar e solucionar problemas do Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068400"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527852"
 ---
-# <a name="administration-overview"></a>Visão geral de administração
+# <a name="overview"></a>Visão geral
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
-
-Este tópico fornece uma lista dos tópicos da ajuda e de outros recursos para configurar, gerenciar e solucionar problemas do Dynamics 365 Human Resources.
+Este Guia do Administrador ajuda você a configurar, gerenciar e solucionar problemas do Dynamics 365 Human Resources.
 
 - [Requisitos do sistema](hr-admin-system-requirements.md)
 
@@ -42,15 +41,15 @@ Este tópico fornece uma lista dos tópicos da ajuda e de outros recursos para c
 
 - Configurar integração de dados
   - [Escolha uma tecnologia de integração de dados](hr-admin-integration-choose-technology.md)
-  - [Configurar integração do Dataverse](hr-admin-integration-common-data-service.md)
+  - [Configurar integração do Common Data Service](hr-admin-integration-common-data-service.md)
   - [Configurar a integração com o Finance](hr-admin-integration-finance.md)
   - [Configurar a integração com o Dayforce](hr-admin-integration-dayforce.md)
   - [Criar um aplicativo de exportação de dados recorrente](hr-admin-integration-recurring-data-export.md)
   - Integrar com o Office
-    - [Tutorial de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Atualizar dados da entidade no Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Criar experiências de Abrir no Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Solucionar problemas de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Tutorial de integração do Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Atualizar dados da entidade no Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Criar experiências de Abrir no Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Solucionar problemas de integração do Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Gerenciar recursos](hr-admin-manage-features.md)
 
@@ -85,7 +84,7 @@ Este tópico fornece uma lista dos tópicos da ajuda e de outros recursos para c
   - [Criar documentação ou treinamento com o Gravador de tarefas](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Solucionar problemas do Human Resources
-  - [Obter suporte](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+  - [Obter suporte](hr-admin-troubleshooting-support.md)
   - [Otimizar o desempenho com tarefas de limpeza automática](hr-admin-troubleshooting-batch-history.md)
   - [Os relatórios analíticos não estão atualizados](hr-admin-troubleshooting-analytic-reports.md)
   - [Não é possível criar um ambiente no Centro de administração do Power Apps](hr-admin-troubleshooting-power-apps.md)
@@ -94,23 +93,12 @@ Este tópico fornece uma lista dos tópicos da ajuda e de outros recursos para c
   - [Executar o processo de remuneração](hr-admin-troubleshooting-compensation.md)
   - [Salvar um Guia de tarefas no LCS](hr-admin-troubleshooting-task-guide.md)
   - [Acessar endereços privados por função de segurança](hr-admin-troubleshooting-private-addresses.md)
-  - [O Human Resources não aparece nos aplicativos do Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources não aparecem nos aplicativos Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [Opções de relatório](hr-admin-troubleshooting-reporting.md)
   - [Perguntas frequentes sobre integração](hr-admin-troubleshooting-integration.md)
 
-## <a name="additional-resources"></a>Recursos adicionais
-
-### <a name="elearning-courses"></a>Cursos de eLearning
-Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Human Resources no Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
-
-### <a name="videos"></a>Vídeos
-
-Confira os vídeos de instruções que agora estão disponíveis no [canal do Microsoft Dynamics 365 no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 ## <a name="see-also"></a>Consulte também
 
-- [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)
+- [Novidades ou alterações em Human Resources](hr-admin-whats-new.md)
 - [Guia do desenvolvedor](hr-developer-overview.md)
 - [Guia do usuário](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

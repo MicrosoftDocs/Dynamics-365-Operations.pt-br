@@ -2,25 +2,28 @@
 title: Pagamentos de fornecedor de uma quantidade parcial
 description: Algumas vezes, você pode fazer um pagamento para um fornecedor que seja menor do que o valor de uma fatura. Este artigo descreve as diversas opções para controlar essa situação.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14321
 ms.assetid: 9a17075e-5325-4d55-a1e5-1791b8c460a0
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd7b7092e0d0baf48a805bbb0cefb0eb77e49946c6dbc44c9f954781ca1259e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 89e025977a0dcd40e35f17448a7b0ebde08cb6c8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777231"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440185"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Pagamentos de fornecedor de um valor parcial
 
@@ -28,7 +31,8 @@ ms.locfileid: "6777231"
 
 Algumas vezes, você pode fazer um pagamento para um fornecedor que seja menor do que o valor de uma fatura. Este artigo descreve as diversas opções para controlar essa situação. As opções disponíveis dependerão dos seus requisitos empresariais e da sua configuração. 
 
-## <a name="cash-discount-amounts"></a>Valores de desconto à vista
+<a name="cash-discount-amounts"></a>Valores de desconto à vista
+---------------------
 
 Um fornecedor poderá oferecer um desconto à vista quando você pagar uma fatura antes da data de vencimento. Por exemplo, você insere uma fatura de 100,00 que especifica um desconto à vista de 2% caso a fatura seja paga em 10 dias. As condições da data de vencimento serão de 30 dias. Se uma proposta de pagamento usa o desconto de caixa como critério para selecionar uma fatura e se a proposta é executada na data de desconto ou antes dela, a fatura é selecionada para pagamento e o pagamento é criado por 98,00. Um desconto de dinheiro também pode ser tomado para um pagamento único que foi criado manualmente.
 
@@ -50,6 +54,3 @@ Você pode fazer um pagamento parcial em que o valor a ser liquidado é muito pe
 
 
 Para saber mais, consulte [Visão geral de pagamentos a fornecedores](../cash-bank-management/tasks/vendor-payment-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

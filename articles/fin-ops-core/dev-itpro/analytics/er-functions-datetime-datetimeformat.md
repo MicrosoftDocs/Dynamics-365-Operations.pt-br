@@ -2,8 +2,11 @@
 title: Função DATETIMEFORMAT ER
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) DATETIMEFORMAT é usada.
 author: NickSelin
-ms.date: 09/08/2021
+manager: kfend
+ms.date: 01/04/2021
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1add2ccb348a9b518e0121be1184fbf6a684a0df
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 90bd2900434b1be509f72ec82375e52ea32bc424
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485537"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4825364"
 ---
 # <a name="datetimeformat-er-function"></a>Função DATETIMEFORMAT ER
 
 [!include [banner](../includes/banner.md)]
 
-A função `DATETIMEFORMAT` retorna um valor da *[String](er-formula-supported-data-types-primitive.md#string)* que apresenta um valor de data/hora determinado como texto no formato especificado e em uma [cultura](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) opcionalmente especificada. Para obter informações sobre os formatos com suporte, consulte [padrão](/dotnet/standard/base-types/standard-date-and-time-format-strings) e [personalizado](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+A função `DATETIMEFORMAT` retorna um valor de *Cadeia de caracteres* que apresenta um valor de data/hora determinado como texto no formato especificado e em uma [cultura](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) opcionalmente especificada. Para obter informações sobre os formatos com suporte, consulte [padrão](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) e [personalizado](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
 
 ## <a name="syntax-1"></a>Sintaxe 1
 
@@ -41,20 +44,20 @@ DATETIMEFORMAT (datetime, format, culture)
 
 ## <a name="arguments"></a>Argumentos
 
-`datetime`: *[DateTime](er-formula-supported-data-types-primitive.md#datetime)*
+`datetime`: *DateTime*
 
 Um valor de data/hora que representa a data e a hora para formatação.
 
 `format`: *Cadeia de caracteres*
 
-O formato da cadeia de caracteres de saída. Para obter informações sobre os formatos com suporte, consulte [padrão](/dotnet/standard/base-types/standard-date-and-time-format-strings) e [personalizado](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+O formato da cadeia de caracteres de saída.
 
 > [!NOTE]
-> A cadeia de caracteres de formato diferencia maiúsculas de minúsculas quando você usa um formato padrão ou um formato personalizado. Por exemplo, o especificador de formato "d" [padrão](/dotnet/standard/base-types/standard-date-and-time-format-strings) retorna a data usando o padrão de data abreviada, enquanto o especificador de formato "D" padrão retorna a data usando o padrão de data por extenso. Além disso, o especificador de formato "M" [personalizado](/dotnet/standard/base-types/custom-date-and-time-format-strings) retorna o mês de 1 a 12, enquanto o especificador "m" de formato personalizado retorna o minuto de 0 a 59.
+> A cadeia de caracteres de formato diferencia maiúsculas de minúsculas quando você usa um formato padrão ou um formato personalizado. Por exemplo, o especificador de formato "d" [padrão](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) retorna a data usando o padrão de data abreviada, enquanto o especificador de formato "D" padrão retorna a data usando o padrão de data por extenso. Além disso, o especificador de formato "M" [personalizado](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) retorna o mês de 1 a 12, enquanto o especificador "m" de formato personalizado retorna o minuto de 0 a 59.
 
 `culture`: *Cadeia de caracteres*
 
-A cultura a ser usada para formatação. Para obter informações sobre culturas com suporte, consulte [cultura](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
+A cultura a ser usada para formatação.
 
 ## <a name="return-values"></a>Valores de retorno
 
@@ -83,6 +86,3 @@ Quando a função `DATETIMEFORMAT` converte um determinado valor de data/hora, e
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de data e de hora](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

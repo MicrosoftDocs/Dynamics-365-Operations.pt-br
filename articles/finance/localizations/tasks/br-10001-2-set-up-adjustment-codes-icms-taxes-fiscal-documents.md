@@ -2,22 +2,25 @@
 title: Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)
 description: Você pode criar códigos de ajuste de imposto para ajustar manualmente valores do ICMS em notas fiscais.
 author: sndray
+manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dd3dc38a77ce74b6e2ef56545e14cfc1ff5811bbc0868eba7863c253052ca18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a0c32d7f862ff95ad41e918c94a791e99054678d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781675"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408468"
 ---
 # <a name="set-up-adjustment-codes-for-icms-taxes-on-fiscal-documents-brazil"></a>Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)
 
@@ -27,7 +30,7 @@ Você pode criar códigos de ajuste de imposto para ajustar manualmente valores 
 
 Quando o arquivo fiscal SPED é gerado, o registro C197 inclui informações sobre ajustes manuais de impostos sobre valor do ICMS do documento fiscal. Esses ajustes em notas fiscais podem ser necessários devido a um adiamento, suspensão, diferenças em taxas de impostos, antecipação e outras situações de exceção do imposto ICMS. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Acesse Livros fiscais > Configuração > Códigos de ajuste de imposto > Ajuste e informações para documentos fiscais.
+1. Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Ajuste e informações para documentos fiscais.
 2. Clique em Novo.
 3. No campo Identificação, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -48,6 +51,3 @@ Quando o arquivo fiscal SPED é gerado, o registro C197 inclui informações sob
 19. Clique em Salvar.
 20. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Demonstrativos de varejo
 description: Este tópico descreve como os demonstrativos são criados e lançados.
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4409811d2ef60174a316db10307dc7af4697398c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738687"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410308"
 ---
 # <a name="retail-statements"></a>Demonstrativos de varejo
 
@@ -31,7 +34,7 @@ No Dynamics 365 Commerce, o processo de lançamento de demonstrativo é usado pa
 
 A ilustração a seguir mostra o processo de lançamento do demonstrativo. Nesse processo, as transações que são registradas no PDV são transmitidas para o cliente usando o agendador do Commerce. Depois que o cliente receber as transações, você poderá criar, calcular e lançar o demonstrativo de transação para a loja.
 
-[![Processo de lançamento de demonstrativo.](./media/retail-statements.png)](./media/retail-statements.png)
+[![Processo de lançamento de demonstrativo](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Criação e lançamento de demonstrativos
 
@@ -85,6 +88,3 @@ Quando você lançar um demonstrativo, as ordens de venda e faturas são criadas
 - As vendas para as quais um cliente foi adicionado à transação no PDV geram ordens de venda e faturas separadas, uma para cada cliente exclusivo.
 
 Os diários de pagamentos são criados automaticamente para os pagamentos no demonstrativo e o estoque é atualizado para a loja POS.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

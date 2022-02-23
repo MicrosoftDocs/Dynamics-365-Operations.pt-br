@@ -2,24 +2,28 @@
 title: Experimentação no Dynamics 365 Commerce
 description: A experimentação habilita a criação, a edição e o gerenciamento do layout de página e dos tratamentos de conteúdo no construtor de sites. O suporte de experimentação de ponta a ponta é habilitado para páginas e entidades de comércio eletrônico em uma página.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 292a8934e735c76389e36603a708fd2a1bbf7691
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986532"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4410328"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Experimentação no Dynamics 365 Commerce
 Use a experimentação no Dynamics 365 Commerce para validar hipóteses sobre a efetividade das suas páginas de comércio eletrônico e tome decisões com a confiança controlada por dados. O Commerce oferece suporte a testes A/B em páginas, módulos e fragmentos e permite que você meça o impacto das alterações propostas no seu site.
@@ -38,7 +42,7 @@ Você pode criar, editar e gerenciar tratamentos de conteúdo e de página, conh
 ## <a name="experimentation-lifecycle"></a>Ciclo de vida da experimentação
 A configuração de um experimento, a criação de variações e a execução de um experimento é um processo iterativo. O diagrama a seguir ilustra o ciclo de vida de experimentação no Commerce e no serviço de terceiros. 
 
-[ ![Ciclo de vida da experimentação.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Ciclo de vida da experimentação](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Para saber mais sobre cada etapa do processo de experimentação, consulte os tópicos a seguir.
 - [Identificar uma hipótese e determinar as métricas para um experimento](experimentation-identify.md)
@@ -53,6 +57,3 @@ Para saber mais sobre cada etapa do processo de experimentação, consulte os t�
 
 ## <a name="next-step"></a>Próxima etapa
 [Identificar uma hipótese e determinar as métricas de sucesso para um experimento](experimentation-identify.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Configurar mapeamentos de modelo de ER dependente do contexto do país
 description: Este tópico explica como você pode configurar os mapeamentos modelo de ER de forma que dependam do contexto de país/região da entidade legal que controla seu uso.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605348"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680866"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurar mapeamentos de modelo de ER dependente do contexto do país
 
@@ -48,7 +50,7 @@ Algumas etapas deste tópico exigem a execução de um formato de ER. Em alguns 
 
 Siga as etapas no [Apêndice 1](#appendix1) deste tópico para projetar os componentes de ER necessários. Agora você tem o mapeamento de modelo **Mapeamento (Geral)** que contém o mapeamento do modelo para a definição **Ponto de entrada 1**.
 
-![Configurações de ER, Formatar para aprender a configuração de mapeamentos.](./media/RCS-Context-specific-mapping-Tree.PNG)
+![Página de configurações de ER](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>Executar o formato configurado
 
@@ -61,7 +63,7 @@ Observe que o navegador se oferece para baixar o arquivo de texto gerado pelo fo
 
 Siga as etapas no [Apêndice 2](#appendix2) deste tópico para projetar os componentes de ER necessários. Agora você tem as configurações de mapeamento do modelo **Mapeamento (Geral)** e **Mapeamento (Geral)**, cada uma com o mapeamento do modelo para a definição **Ponto de entrada 1**.
 
-![Configurações de ER, Configuração personalizada geral de mapeamento.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![Página de configurações de ER](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>Executar o formato configurado
 
@@ -71,7 +73,7 @@ Siga as etapas no [Apêndice 2](#appendix2) deste tópico para projetar os compo
 
 Observe que a execução do formato de ER selecionado não obteve êxito. Uma mensagem de erro que informa mais de um mapeamento de um modelo existente para o **Modelo para aprender mapeamentos** e a definição **Ponto de entrada 1** nas configurações de mapeamentos do modelo **Mapeamento (Geral)** e **Mapeamento (Geral) personalizado**. A mensagem também recomenda que você selecione uma dessas configurações conforme a configuração padrão.
 
-![Configurações de ER com mensagem de erro.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![Página de configurações de ER](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Definir uma configuração padrão de mapeamento
 
@@ -82,7 +84,7 @@ Siga estas etapas para definir a configuração de mapeamento do modelo **Mapeam
 3.  Defina a opção **Padrão do mapeamento de modelo** como **Sim**.
 4.  Selecione **Salvar**.
 
-![Página Configurações de ER, Padrão para o seletor de mapeamento de modelos definido como Sim.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![Página de configurações de ER](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Executar o formato configurado
 
@@ -101,7 +103,7 @@ Siga as etapas no [Apêndice 3](#appendix3) deste tópico para projetar os compo
 
 Observe que a versão 1 do mapeamento do modelo **Mapeamento (FR)** será configurada de forma que se aplique somente aos formatos de ER do modelo **Modelo para aprender mapeamentos modelagem** que são executados em empresas do Finance com o contexto do país/região francês.
 
-![Página Configurações de ER, Configuração de mapeamento de modelos (FR).](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![Página de configurações de ER](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>Executar o formato configurado
 
@@ -121,7 +123,7 @@ Siga estas etapas para definir a configuração de mapeamento do modelo **Mapeam
 3.  Defina a opção **Padrão do mapeamento de modelo** como **Sim**.
 4.  Selecione **Salvar**.
 
-![Página Configurações de ER, Configuração (FR) de mapeamento, Padrão para o ajuste de mapeamento de modelo definido como Sim.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![Página de configurações de ER](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Executar o formato configurado
 
@@ -192,10 +194,10 @@ Na tabela, um sinal de adição (+) indica a presença de uma configuração de 
 
 ### <a name="review-the-er-debug-log"></a>Revisar o log de depuração de ER
 
-1.  No painel de navegação, Acesse **Módulos \> Administração da organização \> Relatórios eletrônicos \> Log de depuração de configuração**.
+1.  No painel de navegação, vá para **Módulos \> Administração da organização \> Relatórios eletrônicos \> Log de depuração de configuração**.
 2.  Selecione o botão **Recarregar esta página**.
 
-![Página de logs de execução de ER.](./media/RCS-Context-specific-mapping-DebugLog.PNG)
+![Página de logs de execução de ER](./media/RCS-Context-specific-mapping-DebugLog.PNG)
 
 Observe que um novo registro foi adicionado ao log de depuração de ER para o formato de ER executado. Como o campo **Nível** deste registro foi definido como **Informações**, o registro é informativo. Como o campo Formatar componente foi definido como **Configuração de mapeamento**, o registro informa sobre um mapeamento do modelo que foi usado durante a execução do formato de ER **Formato para aprender mapeamentos** (selecionado no campo **Nome da configuração**). O conteúdo do campo **Texto gerado** informa que o componente de mapeamento **Mapeamento (FR)** que reside na configuração **Mapeamento (FR)** foi usado para executar esse relatório.
 
@@ -236,7 +238,7 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 14. Na caixa de diálogo suspensa, no campo **Nome**, insira **Descrição da funcionalidade**.
 15. Selecione **Adicionar**.
 
-    ![Página do designer de modelo de dados de ER.](./media/RCS-Context-specific-mapping-Model.PNG)
+    ![Página do designer de modelo de dados de ER](./media/RCS-Context-specific-mapping-Model.PNG)
 
 16. Selecione **Salvar**.
 17. Feche a página.
@@ -276,7 +278,7 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 5.  Selecione **Salvar**.
 6.  Feche a página **Designer de fórmulas**.
 
-    ![Página Designer de mapeamento do modelo de ER, Definição do ponto de entrada 1.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![Página de designer de mapeamento de modelo de ER](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Selecione **Salvar**.
 8.  Feche a página **Designer de mapeamento de modelo**.
@@ -289,12 +291,12 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 15. Selecione **Salvar**.
 16. Feche a página **Designer de fórmulas**.
 
-    ![Página Designer de mapeamento do modelo de ER, Definição do ponto de entrada 2.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![Página de designer de mapeamento de modelo de ER](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Selecione **Salvar**.
 18. Feche a página **Designer de mapeamento de modelo**.
 
-    ![Página Mapeamentos de modelo com definições do ponto de entrada.](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![Página Mapeamentos do modelo de ER](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Feche a página **Mapeamentos de modelo**.
 
@@ -335,7 +337,7 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 2.  Selecione o campo **Descrição de funcionalidade**.
 3.  Selecione **Associar**.
 
-    ![Página de designer de formato de ER.](./media/RCS-Context-specific-mapping-Format.PNG)
+    ![Página de designer de formato de ER](./media/RCS-Context-specific-mapping-Format.PNG)
 
 4.  Selecione **Salvar**.
 5.  Feche a página.
@@ -369,7 +371,7 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 6.  Selecione **Salvar**.
 7.  Feche a página.
 
-    ![Página Designer de mapeamento do modelo de ER, Fórmula personalizada de funcionalidade genérica 1.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![Página de designer de mapeamento de modelo de ER](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  Selecione **Salvar**.
 9.  Feche a página.
@@ -380,12 +382,12 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 14. Selecione **Salvar**.
 15. Feche a página.
 
-    ![Página Designer de mapeamento do modelo de ER, Fórmula personalizada de funcionalidade genérica 2.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![Página de designer de mapeamento de modelo de ER](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. Selecione **Salvar**.
 17. Feche a página.
 
-    ![Página Modelo de ER para a mapeamento de datasource para Mapeamento (Geral) copiar mapeamento.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![Página Mapeamentos do modelo de ER](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Feche a página.
 
@@ -432,7 +434,7 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 7.  Selecione **Salvar**.
 8.  Feche a página.
 
-    ![Página Designer de mapeamento do modelo de ER, Fórmula de funcionalidade 1 FR.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![Página de designer de mapeamento de modelo de ER](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  Selecione **Salvar**.
 10. Feche a página.
@@ -444,12 +446,12 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 16. Selecione **Salvar**.
 17. Feche a página.
 
-    ![Página Designer de mapeamento do modelo de ER, Fórmula de funcionalidade 2 FR.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![Página de designer de mapeamento de modelo de ER](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. Selecione **Salvar**.
 19. Feche a página.
 
-    ![Página Mapeamento de modelo de ER para fonte de dados.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![Página Mapeamentos do modelo de ER](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Feche a página.
 
@@ -494,6 +496,3 @@ Verifique se a configuração de mapeamento do modelo compartilhado não está m
 - Pelo menos uma versão da configuração de mapeamento do modelo de ER tem o status **Concluído** ou **Compartilhado**. Nesse caso, a versão com o número de versão mais alto será usada para a execução do formato de ER.
 - A opção **Executar rascunho** para o mapeamento do modelo de ER está ativada. Nesse caso, a versão com o status **Rascunho** será usada para a execução do formato de ER.
 > A opção **Executar rascunho** se tornará disponível na página **Configurações** para cada configuração de mapeamento do modelo de ER quando o parâmetro de usuário de ER **Executar configuração** estiver ativado.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

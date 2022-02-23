@@ -2,29 +2,34 @@
 title: Cancelar a coleta de eventos da atividade Web
 description: Este tópico explica como você pode permitir que os visitantes do seu site recusem a coleta de eventos de atividade da Web no Microsoft Dynamics 365 Commerce.
 author: aamiral
+manager: AnnBe
 ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: sericks
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d71a184b541f243ccc23914ac2e7c663e5ba61be0a27cf8d41e368fe6a384b9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b0e48307527a8fea729d8dfdcdbc6337be0faf1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729821"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410208"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Cancelar a coleta de eventos da atividade Web
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como você pode permitir que os clientes optem por cancelar a coleção de evento de atividade da Web no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão Geral
 
 O Dynamics 365 Commerce permite que os administradores de sites analisem a atividade da Web de usuários de seus sites de comércio eletrônico. Dessa forma, eles podem compreender melhor como os sites são usados e podem otimizar os sites para proporcionar uma experiência de usuário aprimorada e atender a objetivos comerciais.
 
@@ -40,7 +45,7 @@ No gerenciamento de contas no Commerce headquarters (HQ), os administradores pod
 1. Nos cliente das sedes (HQ), na página **Todos os clientes**, procure e selecione um cliente.
 1. Na página de detalhes do cliente, na Guia Rápida **Varejo**, na seção **Privacidade**, defina a opção **Não rastrear atividade da Web** como **Sim**.
 
-    ![Configurações de privacidade.](media/Disablepersonalizationpart2.png)
+    ![Configurações de privacidade](media/Disablepersonalizationpart2.png)
 
 1. Selecione **Salvar** e feche a página.
 
@@ -51,6 +56,3 @@ Os administradores podem permitir que os usuários autenticados cancelem a colet
 ### <a name="custom-extensions"></a>Extensões personalizadas
 
 Os administradores podem criar suas próprias extensões para gerenciar a experiência de recusa dos usuários. Para obter mais informações, consulte [Chamar APIs do Retail Server](e-commerce-extensibility/call-retail-server-apis.md) e a [extensibilidade de canal online](e-commerce-extensibility/overview.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,39 +1,45 @@
 ---
 title: Novidades ou alterações no Human Resources
-description: A cada duas semanas, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os tópicos listados aqui detalham as alterações feitas toda semana.
-author: twheeloc
-ms.date: 12/09/2021
+description: A cada semana, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os tópicos listados aqui detalham as alterações feitas toda semana.
+author: andreabichsel
+manager: AnnBe
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm, FeatureManagementWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86322fdf14bdefb5c9d4793a69e95ca913843e53
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 675a3f0faed0ce8be4ce2633585ce8e0cf1c9be7
+ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087515"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4669075"
 ---
-# <a name="whats-new-or-changed-in-human-resources"></a>Novidades ou mudanças no Human Resources
-
-> [!IMPORTANT]
-> A funcionalidade mencionada neste tópico está disponível atualmente para clientes individuais de Dynamics 365 Human Resources. Algumas ou todas as funcionalidades estarão disponíveis como parte de uma versão futura na infraestrutura do Finance após a versão Finance 10.0.25.  
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="whats-new-or-changed-in-human-resources"></a>Novidades ou alterações no Human Resources
 
 A cada duas semanas, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os tópicos listados aqui detalham as alterações feitas com cada versão.
 
+>[!NOTE]
+>Para contabilizar feriados, a agenda de lançamentos para novembro e dezembro de 2020 é a seguinte:
+>
+>- Lançamento de novembro: 2 de novembro - 13 de novembro
+>- Lançamento de dezembro: 30 de novembro - 11 de dezembro
+> 
+>A cadência de lançamentos de duas semanas será retomada normalmente em 11 de janeiro de 2021.
+
 Para obter mais informações sobre os recursos futuros ou o processo de atualização do Human Resources, consulte os artigos a seguir: 
 
-- [Visão geral do ciclo de lançamentos 2 de 2021 do Dynamics 365 Human Resources](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)
+- [Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 - [Atualizar processo](hr-admin-setup-update-process.md)
 
@@ -41,34 +47,35 @@ Para obter mais informações sobre os recursos futuros ou o processo de atualiz
 
 ## <a name="human-resources-weekly-releases"></a>Lançamentos semanais do Human Resources
 
-Para descobrir as novidades ou o que foi alterado em cada versão quinzenal do Human Resources, consulte os seguintes tópicos:
+Para descobrir as novidades ou o que foi alterado em cada versão quinzenal do Human Resources, consulte os seguintes artigos:
 
-[29 de novembro de 2021](hr-whats-new-2021-11-29.md)<br>
-[5 de outubro de 2021](hr-whats-new-2021-10-04.md)</br>
-[20 de setembro de 2021](hr-whats-new-2021-09-20.md)</br>
-[6 de setembro de 2021](hr-whats-new-2021-09-06.md)</br>
-[23 de agosto de 2021](hr-whats-new-2021-08-23.md)</br>
-[9 de agosto de 2021](hr-whats-new-2021-08-09.md)</br>
-[26 de julho de 2021](hr-whats-new-2021-07-26.md)</br>
-[12 de julho de 2021](hr-whats-new-2021-07-12.md)</br>
-[22 de junho de 2021](hr-whats-new-2021-06-22.md)</br>
-[20 de maio de 2021](hr-whats-new-2021-05-20.md)</br>
-[3 de maio de 2021](hr-whats-new-2021-05-03.md)</br>
-[19 de abril de 2021](hr-whats-new-2021-04-19.md)</br>
-[5 de abril de 2021](hr-whats-new-2021-04-05.md)</br>
-[22 de março de 2021](hr-whats-new-2021-03-22.md)</br>
-[8 de março de 2021](hr-whats-new-2021-03-08.md)</br>
-[22 de fevereiro de 2021](hr-whats-new-2021-02-22.md)</br>
-[28 de janeiro de 2021](hr-whats-new-2021-01-28.md)</br>
-[21 de janeiro de 2021](hr-whats-new-2021-01-21.md)</br>
-
-
+[02 de dezembro de 2020](hr-whats-new-2020-12-02.md)</br>
+[22 de outubro de 2020](hr-whats-new-2020-10-22.md)</br>
+[16 de setembro de 2020](hr-whats-new-2020-09-16.md)</br>
+[3 de setembro de 2020](hr-whats-new-2020-09-03.md)</br>
+[20 de agosto de 2020](hr-whats-new-2020-08-20.md)</br>
+[6 de agosto de 2020](hr-whats-new-2020-08-06.md)</br>
+[23 de julho de 2020](hr-whats-new-2020-07-23.md)</br>
+[8 de julho de 2020](hr-whats-new-2020-07-08.md)</br>
+[23 de junho de 2020](hr-whats-new-2020-06-23.md)</br>
+[11 de junho de 2020](hr-whats-new-2020-06-11.md)</br>
+[28 de maio de 2020](hr-whats-new-2020-05-28.md)</br>
+[14 de maio de 2020](hr-whats-new-2020-05-14.md)</br>
+[1 de maio de 2020](hr-whats-new-2020-05-01.md)</br>
+[13 de abril de 2020](hr-whats-new-2020-04-13.md)</br>
+[3 de abril de 2020](hr-whats-new-2020-04-03.md)</br>
+[24 de março de 2020](hr-whats-new-2020-03-24.md)</br>
+[19 de março de 2020](hr-whats-new-2020-03-19.md)</br>
+[10 de março de 2020](hr-whats-new-2020-03-10.md)</br>
+[3 de março de 2020](hr-whats-new-2020-03-03.md)</br>
+[25 de fevereiro de 2020](hr-whats-new-2020-02-25.md)</br>
+[18 de fevereiro de 2020](hr-whats-new-2020-02-18.md)</br>
+[12 de fevereiro de 2020](hr-whats-new-2020-02-12.md)</br>
+[7 de fevereiro de 2020](hr-whats-new-2020-02-07.md)</br>
+[3 de fevereiro de 2020](hr-whats-new-2020-02-03.md)
 
 ## <a name="see-also"></a>Consulte também
 
-[Visão geral do ciclo de lançamentos 2 de 2021 do Dynamics 365 Human Resources](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)</br>
+[Visão geral do ciclo de lançamentos 2 de 2020 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

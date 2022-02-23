@@ -1,25 +1,28 @@
 ---
 title: Criar uma regra kanban de evento da linha BOM
 description: Essa tarefa se concentra na configuração necessária para criar uma regra kanban de evento e garantir a fonte para linhas BOM de produção em um ambiente de produção lean e clássico misturado.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdTable, ProdBOM, ProdParmCostEstimation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14cef6279b756ff71872747dfb1ca9e5c8cd8fcc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 698b7af3bc8e2146aaf86fb5e04dd123ea6d5153
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575042"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421907"
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a>Criar uma regra kanban de evento da linha BOM
 
@@ -29,7 +32,7 @@ Essa tarefa se concentra na configuração necessária para criar uma regra kanb
 
 
 ## <a name="create-a-new-kanban-rule"></a>Criar uma nova regra kanban
-1. Acesse Controle de produção > Tarefas periódicas > Cálculo da quantidade kanban > Regras kanban.
+1. Vá para Controle de produção > Tarefas periódicas > Cálculo da quantidade kanban > Regras kanban.
 2. Clique em Novo.
 3. No campo Tipo, selecione "Retirada".
     * O tipo de retirada é usado para criar kanbans de transferência.  
@@ -45,7 +48,7 @@ Essa tarefa se concentra na configuração necessária para criar uma regra kanb
 10. Feche a página.
 
 ## <a name="create-and-modify-a-new-production-order"></a>Criar e modificar uma nova ordem de produção
-1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
 2. Clique em Nova ordem de produção.
 3. No campo Número do item, insira ou selecione um valor.
     * Insira ou selecione 'L0001'. Nós usamos o item L0001 porque o item M0001 é incluído na BOM para o item L0001.  
@@ -72,7 +75,7 @@ Essa tarefa se concentra na configuração necessária para criar uma regra kanb
 2. Clique em OK.
 3. Feche a página.
 4. Feche a página.
-5. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+5. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 6. Na lista, clique no link na linha selecionada.
     * Selecione a regra kanban de evento criada para o item M0001.  
 7. Expanda a seção kanbans.
@@ -80,6 +83,3 @@ Essa tarefa se concentra na configuração necessária para criar uma regra kanb
     * Observe o kanban criado para fornecer M0001 para a ordem de produção prevista.  
     * Esta é a última etapa!  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

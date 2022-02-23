@@ -2,30 +2,36 @@
 title: Configurar um canal online
 description: Este tópico descreve como criar um novo canal online no Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 02/04/2022
+manager: annbe
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092103"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4410340"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar um canal online
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como criar um novo canal online no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 O Dynamics 365 Commerce oferece suporte a vários canais de varejo. Esses canais de varejo incluem lojas online, call centers e lojas de varejo (também chamadas de lojas tradicionais). As lojas online oferecem aos clientes a opção de comprar produtos na loja online do varejista, além das lojas físicas.
 
@@ -37,7 +43,7 @@ Antes de criar um novo site, crie pelo menos uma loja online no Commerce. Para o
 
 Para criar e configurar um novo canal online, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Canais \> Lojas Online**.
+1. No painel de navegação, vá para **Módulos \> Canais \> Lojas Online**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **Nome**, forneça um nome para o novo canal.
 1. Na lista suspensa **Entidade legal**, insira a entidade legal apropriada.
@@ -52,23 +58,19 @@ Para criar e configurar um novo canal online, siga estas etapas.
 
 A imagem a seguir mostra a criação de um novo canal online.
 
-![Novo canal online.](media/channel-setup-online-1.png)
+![Novo canal online](media/channel-setup-online-1.png)
 
 A imagem a seguir mostra um exemplo de canal online.
 
-![Exemplo de canal online.](media/channel-setup-online-2.png)
-
-## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Atribuir o canal a uma Commerce Scale Unit
-
-Seu novo canal deve ser atribuído a uma Commerce Scale Unit. Para obter instruções, consulte [Configurar canais para usar a Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
+![Exemplo de canal online](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Configurar idiomas
 
-Se o seu site de comércio eletrônico der suporte a vários idiomas, expanda a seção **Idiomas** e adicione outros idiomas, conforme necessário.
+Se o seu site de comércio eletrônico der suporte a vários idiomas, expanda a seção **Idiomas** e adicione outros idiomas conforme necessário.
 
 ## <a name="set-up-payment-account"></a>Configurar conta de pagamento
 
-Na seção **Conta de pagamento**, você pode adicionar um provedor de serviço de pagamento terceirizado. Para obter informações sobre como configurar um conector de pagamento Adyen, consulte [Conector de pagamento do Dynamics 365 para Adyen](./dev-itpro/adyen-connector.md).
+Na seção **Conta de pagamento**, você pode adicionar um provedor de serviço de pagamento terceirizado. Para obter informações sobre como configurar um conector de pagamento Adyen, consulte [Conector de pagamento do Dynamics 365 para Adyen](../retail/dev-itpro/adyen-connector.md).
 
 ## <a name="additional-channel-setup"></a>Configuração adicional do canal
 
@@ -76,7 +78,7 @@ Outras tarefas que são necessárias para a configuração do canal online inclu
 
 A imagem a seguir mostra opções de configuração de **Modos de entrega**, **Métodos de pagamento** e **Atribuição de grupo de orçamento** na guia **Configurar**.
 
-![Outras ações de configuração do canal online.](media/channel-setup-online-3.png)
+![Outras ações de configuração do canal online](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Configurar métodos de pagamento
 
@@ -91,7 +93,7 @@ Para configurar métodos de pagamento, siga estas etapas para cada tipo de pagam
 
 A imagem a seguir mostra um exemplo de método de pagamento à vista.
 
-![Exemplo de métodos de pagamento.](media/channel-setup-retail-5.png)
+![Exemplo de métodos de pagamento](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Configurar os modos de entrega
 
@@ -99,13 +101,13 @@ Você pode ver os modos de entrega configurados selecionando **Modos de entrega*
 
 Para alterar ou adicionar um modo de entrega, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Gerenciamento de estoque \> Modos de entrega**.
+1. No painel de navegação, vá para **Módulos \> Gerenciamento de estoque \> Modos de entrega**.
 1. No painel de ação, selecione **Novo** para criar um novo modo de entrega ou selecione um modo existente.
 1. Na seção **Canais de varejo**, selecione **Adicionar linha** para adicionar o canal. Adicionar canais usando nós de organização em vez de adicionar cada canal individualmente pode otimizar esse processo.
 
 A imagem a seguir mostra um exemplo de modo de entrega.
 
-![Configurar os modos de entrega.](media/channel-setup-retail-7.png)
+![Configurar os modos de entrega](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Configurar uma atribuição de grupo de orçamento
 
@@ -119,7 +121,7 @@ Para configurar uma atribuição de grupo de orçamento, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de configuração de atribuição de grupo de orçamento.
 
-![Configurar atribuição de grupo de orçamento.](media/channel-setup-retail-9.png)
+![Configurar atribuição de grupo de orçamento](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -131,7 +133,4 @@ A imagem a seguir mostra um exemplo de configuração de atribuição de grupo d
 
 [Configurar um canal de call center](channel-setup-callcenter.md)
 
-[Conector de Pagamento do Dynamics 365 para Adyen](./dev-itpro/adyen-connector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Conector de Pagamento do Dynamics 365 para Adyen](../retail/dev-itpro/adyen-connector.md)

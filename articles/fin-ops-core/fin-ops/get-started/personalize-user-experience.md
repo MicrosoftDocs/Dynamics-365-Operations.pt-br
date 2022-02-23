@@ -2,9 +2,11 @@
 title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
-ms.date: 01/28/2022
+manager: AnnBe
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -15,20 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075413"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797481"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico explica como você pode personalizar o aplicativo e aborda os seguintes assuntos: 
 
@@ -89,7 +87,7 @@ Algumas das alterações mais comuns e importantes a serem feitas em uma pagina 
 
 Além disso, os tipos mais básicos de personalizações são disponibilizados clicando com o botão direito em um elemento e selecionando **Personalizar**. (Observe que nem todos os elementos na página podem ser personalizados.) Quando você usar esse método de personalização, a *janela de propriedades* do elemento será exibida.
 
-![Personalização de propriedades de um elemento.](./media/cli-element-property-window.png)
+![Personalização de propriedades de um elemento](./media/cli-element-property-window.png)
 
 Você pode usar a janela de propriedades para personalizar um elemento das seguintes maneiras:
 
@@ -102,7 +100,7 @@ Você pode usar a janela de propriedades para personalizar um elemento das segui
 
 A janela de propriedades pode incluir outros recursos de personalização, dependendo do elemento. Por exemplo, a janela de propriedades para um bloco pode permitir que você promova esse bloco para um painel, e as janelas de propriedades para elementos no painel padrão podem permitir que você crie um espaço de trabalho personalizado.
 
-### <a name="personalization-toolbar"></a>Barra de ferramentas de personalização
+### <a name="the-personalization-toolbar"></a>A barra de ferramentas de personalização
 
 Se quiser fazer várias alterações em uma página ou fazer alterações que não estejam disponíveis por meio de outros mecanismos (por exemplo, se você quiser reordenar elementos), você poderá usar a barra de ferramentas **Personalização**. Para abrir a barra de ferramentas **Personalização**, siga uma dessas etapas:
 
@@ -111,7 +109,7 @@ Se quiser fazer várias alterações em uma página ou fazer alterações que n�
 - Selecione **Personalizar esta página** no grupo **Personalizar** da guia **Opções** no Painel de Ação de qualquer página.
 - Selecione o botão **Configurações** (símbolo de engrenagem) na barra de navegação e selecione **Personalizar**.
 
-[![Barra de ferramentas de personalização.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Barra de ferramentas de personalização](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navegação na página
 
@@ -123,10 +121,7 @@ Estas ferramentas estão disponíveis na barra de ferramentas **Personalização
 
 - Use a ferramenta **Selecionar** para selecionar e alterar as propriedades de um elemento. Para usar essa ferramenta, clique no botão **Selecionar** na barra de ferramentas e selecione o elemento desejado. A janela de propriedades do elemento será exibida, na qual você poderá modificar qualquer uma das propriedades desse elemento. Você pode repetir o processo para outros elementos que possam ser personalizados nessa página. Observe que algumas propriedades de personalização podem não estar disponíveis em alguns cenários. Por exemplo, não é possível bloquear um campo obrigatório.
 - Use a ferramenta **Ocultar** para ocultar um elemento na página. Para usar essa ferramenta, selecione o botão **Ocultar** na barra de ferramentas e selecione o elemento a ser ocultado. Quando você usa a ferramenta **Ocultar**, todos os elementos que estiverem ocultos no momento ficarão visíveis, mas serão exibidos em um contêiner sombreado. Assim, você pode tornar um elemento visível selecionando-o. Para ver como a aparência da página quando os elementos estiverem ocultos, alterne para outra ferramenta de personalização ou feche a barra de ferramentas de personalização.
-- Use a ferramenta **Adicionar campos** para adicionar campos à página. Ao usar esta ferramenta, você só poderá adicionar os campos que fazem parte da definição da página. Para obter informações sobre como criar novos campos que não fazem parte da definição de página atual, consulte [Criar e trabalhar com campos personalizados](user-defined-fields.md). Depois que selecionar o botão **Adicionar campos** na barra de ferramentas, você deverá primeiramente selecionar a grade ou a seção na qual deseja adicionar um campo. Uma caixa de diálogo exibirá a lista de campos relacionados à grade ou à seção selecionada. Na caixa de diálogo, selecione um ou mais campos para adicioná-los à lista **Campos recomendados** ou **Todos os campos**. Depois de escolher os campos desejados, selecione **Atualizar**. Para remover um campo adicionado anteriormente, repita o processo, mas desmarque a seleção do campo na caixa de diálogo.
-
-    A lista **Campos recomendados** mostra os campos que foram adicionados anteriormente por outros usuários da organização. Esta lista de campos é atualizada com base na frequência de recorrência do **Trabalho em lotes de recomendação**. Uma experiência semelhante ocorre ao adicionar novos campos de filtro usando o painel Filtro em uma página.
-
+- Use a ferramenta **Adicionar campos** para adicionar campos à página. Ao usar esta ferramenta, você pode adicionar somente os campos que fazem parte da definição da página. Para obter informações sobre como criar novos campos que não fazem parte da definição de página atual, consulte [Criar e trabalhar com campos personalizados](user-defined-fields.md). Depois que selecionar o botão **Adicionar campos** na barra de ferramentas, você deverá primeiramente selecionar a grade ou a seção na qual deseja adicionar um campo. Uma caixa de diálogo exibirá a lista de campos relacionados à grade ou à seção selecionada. Na caixa de diálogo, selecione um ou mais campos a serem adicionados e selecione **Atualizar**. Para remover um campo adicionado anteriormente, repita o processo, mas desmarque a seleção do campo na caixa de diálogo.
 - Use a ferramenta **Mover** para mover um elemento para um local diferente no grupo atual de elementos. Observe que não é possível mover um elemento para fora de seu grupo pai. Para usar essa ferramenta, selecione o botão **Mover** na barra de ferramentas e selecione o elemento a ser movido. Quando você seleciona um elemento, o aplicativo determina os locais para os quais o elemento pode ser movido. Esses locais são conhecidos como *zonas para soltar*. Quando você arrasta o elemento pelo grupo atual, cada zona para soltar é mostrada como uma linha colorida em negrito ao lado da área em que o elemento pode ser solto.
 - Use a ferramenta **Ignorar** para remover um elemento da sequência de guias de teclado da página. Quando você seleciona o botão **Ignorar** na barra de ferramentas, todos os elementos ignorados no momento são exibidos em um contêiner sombreado. Você pode interativamente remover ou adicionar campos à sequência de guias.
 - Use a ferramenta **Mostrar no cabeçalho** quando desejar que um campo seja exibido na seção de resumo da Guia Rápida. Quando você seleciona o botão **Mostrar no cabeçalho** na barra de ferramentas, todos os campos selecionados como campos de resumo são mostrados em um contêiner sombreado. É possível interativamente adicionar campos ao resumo da Guia Rápida e remover campos do resumo selecionando-os.
@@ -154,14 +149,11 @@ Para algumas páginas que incluem listas, o recurso de personalização **Adicio
 > [!NOTE]
 > Se o recurso [Exibições salvas](saved-views.md) estiver ativado, o conteúdo que você enviar por push para um espaço de trabalho será diretamente vinculado a uma exibição. A consulta da exibição é usada para recuperar dados no espaço de trabalho e o bloco ou link correspondente no espaço de trabalho abre a página nessa exibição, de modo que a consulta e as personalizações da exibição sejam aplicadas a ela. Se o modo de exibição for atualizado, os elementos correspondentes do espaço de trabalho serão ajustados para a nova definição de exibição.
 
-[![Adicionar ao espaço de trabalho.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Adicionar ao espaço de trabalho](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Para adicionar uma lista a um espaço de trabalho, primeiro classifique ou filtre a lista na página de forma que ela mostre as informações como você deseja que apareçam no espaço de trabalho. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Lista**. Após você selecionar **Configurar**, aparecerá uma caixa de diálogo onde você poderá selecionar as colunas que devem aparecer na lista no espaço de trabalho. Você também pode especificar o rótulo usado para a lista no espaço de trabalho.
 - Para adicionar um bloco a um espaço de trabalho, primeiramente filtre a lista na página para que ela mostre os dados que devem ser resumidos ou que você deseja acessar rapidamente. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Bloco**. Após selecionar **Configurar**,uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o bloco no espaço de trabalho. Você também pode especificar se o bloco deve mostrar uma contagem. Depois de ser adicionado ao espaço de trabalho, o bloco poderá ser selecionado para abrir a página atual no espaço de trabalho. Você pode, então, exibir a lista filtrada associada ao bloco.
-- Para adicionar um link a um espaço de trabalho, primeiro filtre a lista na página para que ela mostre os dados do seu interesse. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Link**. Após selecionar **Configurar**, uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o link. Você também pode, opcionalmente, especificar um rótulo para a seção na qual este link pode ser colocado. Se essa seção não existir, uma nova seção será criada.
-
-> [!NOTE]
-> A partir da versão 10.0.25, quando você configura a lista, o bloco ou o link, também pode ser necessário selecionar os modos de exibição do espaço de trabalho aos quais você deseja adicionar o elemento, se o recurso **(Versão preliminar) Suporte de exibições salvas para espaços de trabalho** estiver habilitado. Os modos de exibição do espaço de trabalho disponíveis aparecerão na seção **Opções do espaço de trabalho** de cada caixa de diálogo **Configurar**. 
+- Para adicionar um link a um espaço de trabalho, primeiro filtre a lista na página para que ela mostre os dados do seu interesse. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Link**. Após selecionar **Configurar**, uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o link. Você também pode, opcionalmente, especificar um rótulo para uma nova seção que tenha esse link.
 
 Após adicionar uma lista, um bloco ou um link a um espaço de trabalho, você pode abrir esse espaço de trabalho e reorganizar os elementos nele como desejar.
 
@@ -179,97 +171,11 @@ Geralmente, o painel é a primeira página que você vê ao abrir o aplicativo. 
 Um recurso de personalização exclusivo disponível no painel é a possibilidade de adicionar blocos. 
 
 - Se o recurso **Aplicativos de página inteira** estiver desativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um espaço de trabalho**. Um novo bloco do espaço de trabalho será criado na parte inferior do painel. Você poderá renomear esse novo bloco do espaço de trabalho como desejar. Você também poderá adicionar listas, blocos e links ao espaço de trabalho, conforme descrito na seção [Adicionando blocos, listas e links a um espaço de trabalho](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) deste tópico.
-- Se o recurso **Aplicativos de página inteira** estiver ativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um aplicativo**. Na caixa de diálogo, selecione se você deseja adicionar um bloco para um novo espaço de trabalho ou um bloco que tenha conteúdo do Power Apps ou de um site. Em seguida, siga as etapas para configurar a opção selecionada. Um novo bloco será criado na parte inferior do painel. Para obter mais informações sobre como adicionar, editar, excluir e compartilhar esses aplicativos inseridos, consulte [Inserir aplicativos de tela do Power Apps](embed-power-apps.md) e [Inserir aplicativos de terceiros](embed-website.md).
+- Se o recurso **Aplicativos de página inteira** estiver ativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um aplicativo**. Na caixa de diálogo, selecione se você deseja adicionar um bloco para um novo espaço de trabalho ou um bloco que tenha conteúdo do Power Apps ou de um site. Em seguida, siga as etapas para configurar a opção selecionada. Um novo bloco será criado na parte inferior do painel. 
 
 ## <a name="sharing-personalizations"></a>Como compartilhar personalizações
 
-Após personalizar uma página, há alguns métodos que você pode usar para compartilhar as personalizações com outros usuários. Na lista a seguir, os métodos são organizados em ordem, do mais recomendável ao menos recomendado.
-
-1. Publicar exibições para usuários.
-2. Copiar exibições ou personalizações para usuários.
-3. Exportar e importar exibições ou personalizações.
-
-### <a name="publish-views-to-users"></a>Publicar exibições para usuários
-
-Se o recurso [Exibições salvas](saved-views.md) estiver ativado e se a página der suporte a exibições, a melhor maneira de compartilhar personalizações com outros usuários é publicar a exibição para usuários com uma ou mais funções de segurança. Para obter mais informações, consulte [Publicar exibições](saved-views.md#publishing-views).
-
-### <a name="copy-views-or-personalizations-to-users"></a>Copiar exibições ou personalizações para usuários
-
-Se o recurso [Exibições salvas](saved-views.md) estiver desativado ou se a página não der suporte a exibições, a forma recomendável de compartilhar as personalizações será copiá-las entre usuários. Este método está disponível apenas para usuários privilegiados (por exemplo, administradores de sistema). Mas, os administradores podem procurar a personalização de um usuário específico no sistema (incluindo a exibição pessoal do usuário se as exibições salvas estiverem habilitadas) e copiar a configuração para outros usuários.
-
-Se as exibições salvas estiverem habilitadas, siga estas etapas para copiar personalizações.
-
-1. Acesse **Administração do sistema \> Configuração \> Personalização**.
-2. Siga estas etapas para copiar exibições pessoais:
-
-    1. Selecione **Exibições pessoais**.
-    2. Selecione as exibições desejadas na lista.
-    3. Selecione **Copiar para usuários**.
-    4. Selecione os usuários para os quais as exibições serão distribuídas.
-
-    Siga estas etapas para copiar personalizações em páginas que não dão suporte a exibições:
-
-    1. Selecione **Configurações do usuário**.
-    2. Selecione o usuário que tem a personalização a ser distribuída.
-    3. Selecione **Gerenciar todas as personalizações**.
-    4. Selecione as personalizações desejadas na lista.
-    5. Selecione **Copiar para usuários**.
-    6. Selecione os usuários para os quais as personalizações serão distribuídas.
-
-Se as exibições salvas não estiverem habilitadas, siga estas etapas para copiar uma personalização.
-
-1. Acesse **Administração do sistema \> Configuração \> Personalização**.
-2. Selecione **Aplicar**.
-3. Selecione os usuários para os quais a personalização será distribuída.
-4. Selecione **Selecionar personalização existente**.
-5. Localize e selecione a personalização (única) do seu interesse.
-6. Selecione **OK**.
-
-### <a name="export-and-import-views-or-personalizations"></a>Exportar e importar exibições ou personalizações
-
-Outra maneira de compartilhar personalizações é por meio de exportação e importação. Os usuários individuais, ou um administrador que atua em seu nome, podem usar este método para exportar personalizações ou exibições e, depois, conceder o arquivo exportado a outros usuários para importação. Como alternativa, os usuários podem fornecer personalizações exportadas a um usuário com privilégios administrativos, e esse usuário pode usar a página de administração **Personalização** para aplicar o arquivo de personalização a vários usuários ao mesmo tempo.
-
-> [!IMPORTANT]
-> Como as personalizações são mantidas entre atualizações, a importação de todas as personalizações após uma atualização de serviço ou em qualquer outro momento é desnecessária e não recomendada.
-
-#### <a name="export"></a>Exportar
-
-Em geral, você pode exportar uma de suas próprias exibições ou personalizações, abrindo a página apropriada, abrindo a barra de ferramentas **Personalização** e selecionando **Exportar**. Para obter mais informações sobre a barra de ferramentas, consulte a seção [Barra de ferramentas Personalização](#personalization-toolbar) anteriormente neste tópico. Como alternativa, se as [exibições salvas](saved-views.md) estiverem habilitadas, você poderá acessar **Configurações \> Usar opções \> Personalização** para exibir uma lista de todas as suas personalizações no sistema. Deste ponto, você pode selecionar as exibições ou personalizações a serem exportadas e, depois, selecionar **Exportar**.
-
-Além disso, os administradores podem exportar personalizações de outros usuários seguindo essas etapas.
-
-1. Acesse **Administração do sistema \> Configuração \> Personalização**.
-2. Na guia **Usuários**, selecione o usuário desejado.
-3. Localize e selecione a exibição ou personalização do seu interesse.
-4. Selecione **Exportar**.
-
-#### <a name="import"></a>Importar
-
-Para importar uma exibição ou personalização, basta abrir a barra de ferramentas **Personalização** e selecionar **Importar**. Além disso, os administradores podem importar um arquivo e logo fornecê-lo a um ou mais usuários.
-
-Se as exibições salvas estiverem habilitadas, siga estas etapas.
-
-1. Acesse **Administração do sistema \> Configuração \> Personalização**.
-2. No Painel de Ações, selecione **Importar exibições \> Exibições de usuário**.
-3. Selecione o modo de importação:
-
-    - **Selecione usuários específicos** – conceda a exibição ou a personalização aos usuários selecionados.
-    - **Importar como está** – importe a exibição ou a personalização para o mesmo usuário que a exportou.
-
-4. Selecione **Navegar**, localize e selecione a personalização a ser importada.
-5. Selecione **Avançar**.
-6. Se você selecionou **Selecionar usuários específicos** na etapa 3, selecione os usuários para os quais a personalização será importada.
-7. Selecione **Importar**.
-8. Resolva os conflitos conforme necessário.
-
-Se as exibições salvas não estiverem habilitadas, siga estas etapas.
-
-1. Acesse **Administração do sistema \> Configuração \> Personalização**.
-2. Selecione **Aplicar**.
-3. Selecione os usuários para os quais a personalização será distribuída.
-4. Selecione **Importar personalizações de um arquivo**.
-5. Selecione **Navegar**, localize e selecione a personalização a ser importada.
-6. Selecione **OK**.
+Após personalizar uma página, você pode compartilhar as personalizações com outros usuários exportando a página personalizada. Você poderá então solicitar que outros usuários importem o arquivo de personalização. Outra opção é ceder suas personalizações a um usuário que possua privilégios de administrador. Esse usuário pode então aplicar seu arquivo de personalização a vários usuários ao mesmo tempo usando a página de administração **Personalização**.
 
 ## <a name="administration-of-personalizations"></a>Administração de personalizações
 
@@ -289,6 +195,3 @@ Para os clientes que ainda não ativaram o recurso [Exibições salvas](saved-vi
 Quando você personalizar a configuração de dimensões de estoque em uma página, considere as configurações que foram criadas usando a opção **Dimensões de exibição**. Por exemplo, você usou a personalização para ocultar uma coluna para a dimensão de estoque do número de lote, mas a coluna aparecerá na próxima vez que a página for aberta. Esse comportamento ocorre porque as configurações **Exibição de dimensão** controlam as colunas de dimensão do estoque que são exibidas. As configurações de **Exibição de dimensão** se aplicam a todas as páginas e substituem qualquer configuração personalizada de campos de dimensão de estoque em páginas individuais.
 
 Portanto, no exemplo anterior, se você não deseja que a coluna da dimensão de estoque do número de lote apareça na página, limpe essa dimensão como parte da opção **Exibir dimensões** dessa página.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

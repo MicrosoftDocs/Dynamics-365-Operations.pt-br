@@ -2,9 +2,11 @@
 title: Criar e atualizar os intervalos de tempo para retirada pelo cliente
 description: Este tópico descreve como criar, configurar e atualizar os intervalos de tempo para retirada pelo cliente na sede do Commerce.
 author: anupamar-ms
+manager: AnnBe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713412"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828202"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Criar e atualizar os intervalos de tempo para retirada pelo cliente
 
@@ -30,11 +32,11 @@ Este tópico descreve como criar, configurar e atualizar os intervalos de tempo 
 O recurso de intervalos de tempo fornece aos varejistas uma forma de definir um intervalo de tempo para os itens para os quais o modo de entrega de retirada pelo cliente está ativado. Os intervalos de tempo permitem que os varejistas definam os dias e os horários em que as ordens podem ser retiradas em uma loja. Os varejistas também podem definir o número de ordens que podem ser retiradas durante um determinado período. Dessa forma, eles podem limitar o número de ordens que podem ser retiradas em um determinado dia e em um determinado horário. O resultado é uma experiência de melhor qualidade para seus clientes.
 
 > [!NOTE]
-> O recurso de intervalos de tempo está disponível na versão 10.0.15 e posteriores do Microsoft Dynamics 365 Commerce.
+> O recurso de intervalos de tempo está disponível no Microsoft Dynamics 365 Commerce versão 10.0.15 e posteriores.
 
 A ilustração a seguir mostra um exemplo de seleção de intervalo de tempo durante uma finalização de compra no comércio eletrônico.
 
-![Exemplo de seleção de intervalo de tempo durante uma finalização de compra no comércio eletrônico.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Exemplo de seleção de intervalo de tempo durante uma finalização de compra no comércio eletrônico](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Propriedades do intervalo de tempo
 
@@ -60,7 +62,7 @@ Um intervalo de tempo é definido usando as propriedades a seguir:
 - **Dias Ativos** – Especifique os dias da semana em que os intervalos de tempo de retirada estão ativos. Esta propriedade permite que o varejista defina os dias em que deseja oferecer suporte à retirada de ordens.
 - **Canais de Varejo** – Especifique os canais de varejo. Cada intervalo de tempo pode ser associado a uma ou mais lojas de varejo. Dependendo do horário de funcionamento de cada loja, uma ou mais entradas de intervalo de tempo podem ser criadas e associadas a um canal. 
 
-<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Somente um modelo de intervalo de tempo pode ser configurado por canal. Esses canais incluem lojas físicas, call centers, dispositivos móveis e sites e-Commerce.
 
@@ -74,7 +76,7 @@ Os intervalos de tempo devem ser definidos para cada modo de entrega de retirada
 
 Para configurar o recurso de intervalos de tempo na sede do Commerce, siga estas etapas.
 
-1. Acesse **Commerce** \> **Configuração de canal** \> **Intervalo de tempo para retirada na loja**.
+1. Vá para **Commerce** \> **Configuração de canal** \> **Intervalo de tempo para retirada na loja**.
 1. Selecione **Novo** para criar um novo modelo de intervalo de tempo. Para usar um modelo existente, selecione o modelo no painel esquerdo.
 1. Insira os valores nos campos **ID do Intervalo de Tempo** e **Descrição**.
 1. Na FastTab **Retirada de Ordens - Configurações de Tempo**, selecione **Adicionar**.
@@ -85,14 +87,14 @@ Para configurar o recurso de intervalos de tempo na sede do Commerce, siga estas
     > [!NOTE]
     > Você pode criar vários modelos, mas somente um modelo pode ser associado a um único canal ou loja.
 
-    ![Caixa de diálogo Retirada de Ordens - Configurações de Tempo.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Caixa de diálogo Retirada de Ordens - Configurações de Tempo](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Quando terminar, selecione **OK**.
 1. Se os intervalos de tempo em um dia forem variar, crie entradas adicionais na FastTab **Retirada de Ordens - Configurações de Tempo** para garantir que as datas e os horários não se sobreponham.
 1. Na FastTab **Canais de Varejo**, selecione **Adicionar** para associar o modelo de intervalo de tempo às lojas ou aos canais em que ele será usado.
 1. Na caixa de diálogo **Escolher os nós da organização**, use os botões de seta para selecionar (ou limpar a seleção de) lojas, regiões e organizações às quais o modelo deve ser associado.
 
-    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Quando terminar, selecione **OK**.
 1. Na página **Agenda de distribuição**, execute os trabalhos **1070** e **1135** para sincronizar os dados com os canais.
@@ -103,7 +105,7 @@ No PDV, quando uma ordem ou linha de ordem é identificada para retirada, o oper
 
 A ilustração a seguir mostra um exemplo de seleção de intervalo de tempo para uma ordem no PDV.
 
-![Um exemplo de seleção de intervalo de tempo para uma ordem no PDV.](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Um exemplo de seleção de intervalo de tempo para uma ordem no PDV](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>Seleção de intervalo de tempo para ordens no comércio eletrônico
 
@@ -114,17 +116,14 @@ Para obter informações sobre como disponibilizar a seleção de intervalo de t
 
 A ilustração a seguir mostra um exemplo de uma ordem de comércio eletrônico em que um intervalo de tempo de retirada foi selecionado.
 
-![Exemplo de uma ordem de comércio eletrônico em que um intervalo de tempo de retirada foi selecionado.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Exemplo de uma ordem de comércio eletrônico em que um intervalo de tempo de retirada foi selecionado](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Seleção de intervalo de tempo para ordens de call center
 
 No aplicativo de call center, os agentes de call center podem selecionar o local ou o armazenamento de retirada, bem como uma data e um slot de tempo como destacado na ilustração a seguir.
 
-![Exemplo de uma ordem de call center em que um intervalo de tempo de retirada foi selecionado.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Exemplo de uma ordem de call center em que um intervalo de tempo de retirada foi selecionado](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Módulo de informações de retirada](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Módulo de informações sobre retirada](../pickup-info-module.md)

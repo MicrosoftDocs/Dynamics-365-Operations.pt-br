@@ -2,23 +2,26 @@
 title: Receber notas fiscais de fornecedor (produtos) (Brasil)
 description: É possível lançar uma nota fiscal que você recebeu na aquisição de mercadorias de estoque, em que o ICMS, IPI e PIS/COFINS são deduzidos do pagamento de apuração de imposto.
 author: sndray
+manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84826a09946f63f35df048becc99cf6e12fc06cf73fef77fc5e8eaeedfd19643
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0acf95a7289f5260c55e38f4a82b656297a61422
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778836"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408427"
 ---
 # <a name="receive-vendor-fiscal-documents-products-brazil"></a>Receber notas fiscais de fornecedor (produtos) (Brasil)
 
@@ -26,7 +29,7 @@ ms.locfileid: "6778836"
 
 É possível lançar uma nota fiscal que você recebeu na aquisição de mercadorias de estoque, em que o ICMS, IPI e PIS/COFINS são deduzidos do pagamento de apuração de imposto. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Acesse Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
+1. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. No campo Conta de fornecedor, insira ou selecione um valor.
 4. Clique em OK.
@@ -42,7 +45,7 @@ ms.locfileid: "6778836"
 14. Clique em Confirmar.
 15. Feche a página.
 16. Feche a página.
-17. Acesse Contas a pagar > Ordens de compra > Todas as ordens de compra.
+17. Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.
 18. Na lista, clique no link na linha selecionada.
 19. No Painel de Ação, clique em Fatura.
 20. Clique em Fatura.
@@ -57,6 +60,3 @@ ms.locfileid: "6778836"
 29. Feche a página.
 30. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

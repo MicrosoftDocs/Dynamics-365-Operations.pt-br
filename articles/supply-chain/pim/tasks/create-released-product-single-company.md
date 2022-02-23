@@ -1,24 +1,27 @@
 ---
 title: Criar um produto lançado para uma única empresa
 description: Este procedimento demonstra como criar um único produto lançado no contexto de uma unidade legal única.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6755f2112596be661040f1b371cb11f1785815b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 90924c853793a3d70f2f2d46d8a154a19bd7d6bb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577303"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422176"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Criar um produto lançado para uma única empresa
 
@@ -28,7 +31,7 @@ Este procedimento demonstra como criar um único produto lançado no contexto de
 
 
 ## <a name="create-a-released-product"></a>Crie um produto lançado
-1. Acesse Produtos liberados.
+1. Vá para Produtos liberados.
 2. Clique em Novo.
 3. No campo Número do produto, digite um valor.
     * Se um número de produto não é inserido automaticamente no campo Número do produto, digite um número de produto exclusivo. Essa etapa só é necessária se nenhuma sequência numérica foi definida para números de produto.  
@@ -100,6 +103,3 @@ Este procedimento demonstra como criar um único produto lançado no contexto de
 12. Na lista, localize e selecione o registro desejado.
 13. Na lista, clique no link na linha selecionada.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

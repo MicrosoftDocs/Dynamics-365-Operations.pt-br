@@ -2,13 +2,16 @@
 title: Amortização de custos constantes para um item fabricado
 description: Os custos constantes de um item fabricado refletem os tempos de preparação da operação e os componentes com uma quantidade constante ou um valor de sucata constante.
 author: AndersGirke
+manager: tfehr
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 274503
 ms.assetid: 535ab25d-a031-4e8c-84ec-478f2987a1ad
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: d9c539d525639ace6a139716e0644214364a060a2957ac97586cfad617e56ec0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 298b5cbbf955527edb399eae78a1c8e60a8b9ce3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726936"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422390"
 ---
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Amortização de custos constantes para um item fabricado
 
@@ -44,6 +47,3 @@ O valor calculado dos custos constantes amortizados de um item fabricado é deno
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Gerenciar licença
 description: Este procedimento mostra a criação de registros de licença de funcionário.
 author: andreabichsel
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmEmploymentLeave
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 465b2efef89a6a14a76282c782da9e6b4830d70bf463065deeae186aff7b7298
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dd49e4c1c5c97094061fa119ac1dda99ef69e5e4
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752242"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797967"
 ---
 # <a name="manage-leave-of-absence"></a>Gerenciar licença
 
@@ -26,7 +28,7 @@ ms.locfileid: "6752242"
 
 Este procedimento mostra a criação de registros de licença de funcionário. Você pode rastrear tempo de licença para os motivos pelos quais incluem atividades, médicas de formação educacional, ou parentais. A empresa de dados demo usada para criar este procedimento é USMF.
 
-1. Acesse Recursos humanos > Trabalhadores > Funcionários.
+1. Vá para Recursos humanos > Trabalhadores > Funcionários.
 2. Na lista, selecione um funcionário.
 3. Exiba informações detalhadas sobre o funcionário selecionando o nome do funcionário.
 4. Clique na guia Emprego.
@@ -44,6 +46,3 @@ Este procedimento mostra a criação de registros de licença de funcionário. V
     * Por exemplo: Deixar para adoção  
 12. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

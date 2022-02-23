@@ -1,27 +1,30 @@
 ---
 title: Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Supply Chain Management para o Sales
 description: Este tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de fatura de venda diretamente do Dynamics 365 Supply Chain Management para o Dynamics 365 Sales.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6cbc4d86ac41d90480428ec5439d1360c4d67137
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571632"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422058"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizar cabeçalhos e linhas de fatura de venda diretamente do Finance and Operations com o Sales
 
@@ -33,7 +36,7 @@ Este tópico discute os modelos e as tarefas subjacentes que são usados para si
 
 A solução Prospect to cash usa o recurso Integração de dados para sincronizar dados entre as instâncias Supply Chain Management e do Sales. Os modelos de Prospect to cash que estão disponíveis com o recurso Integração de dados permitem o fluxo de dados sobre contas, contatos, produtos, cotações de venda, ordens de venda e faturas de venda entre o Supply Chain Management e o Sales. A ilustração a seguir mostra como os dados são sincronizados entre o Supply Chain Management e o Sales.
 
-[![Fluxo de dados em Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Fluxo de dados em Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
@@ -80,7 +83,7 @@ Antes de sincronizar faturas de venda, é importante atualizar as configuraçõe
 
 ### <a name="setup-in-sales"></a>Configuração no Sales
 
-Acesse **Configurações** > **Administração** > **Configurações do sistema** > **Sales** e verifique se as seguintes configurações foram usadas:
+Vá para **Configurações** > **Administração** > **Configurações do sistema** > **Sales** e verifique se as seguintes configurações foram usadas:
 
 - A opção **Usar sistema de cálculo de precificação do sistema** está definida como **Sim**.
 - O campo **Método de cálculo de desconto** está definido como **Item de linha**.
@@ -116,17 +119,17 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
-![Mapeamento de modelos na integração de dados para SalesInvoiceHeader.](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
+![Mapeamento de modelo na Integração de dados](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="salesinvoiceline"></a>SalesInvoiceLine
 
-![Mapeamento de modelos na integração de dados para SalesInvoiceLine.](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
+![Mapeamento de modelo na Integração de dados](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[De cliente potencial ao pagamento à vista](prospect-to-cash.md)
+[Cliente potencial ao pagamento à vista](prospect-to-cash.md)
 
 [Sincronizar contas diretamente do Sales com clientes no Supply Chain Management](accounts-template-mapping-direct.md)
 
@@ -135,6 +138,3 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 [Sincronizar contatos diretamente do Sales com contatos ou clientes do Supply Chain Management](contacts-template-mapping-direct.md)
 
 [Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

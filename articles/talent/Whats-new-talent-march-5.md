@@ -80,6 +80,3 @@ Em muitas organizações, gerentes de compensação e benefícios só podem aces
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Atualização de plataforma 24 para o Finance and Operations
 Para obter detalhes adicionais sobre a atualização da Plataforma 24 do Finance and Operations, consulte [Novidades ou alterações na atualização da Plataforma 24 do Finance and Operations (março de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

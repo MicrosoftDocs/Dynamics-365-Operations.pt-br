@@ -1,25 +1,28 @@
 ---
 title: Criar um perfil de localização
 description: Este tópico explica como criar um perfil de localização no Dynamics 365 Supply Chain Management.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74141cdad6841a602c7fb061e897646fae072a73
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 320059184dc69c4fd34c4b50265ceb142d47a467
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579991"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422048"
 ---
 # <a name="create-a-location-profile"></a>Criar um perfil de localização
 
@@ -28,7 +31,7 @@ ms.locfileid: "7579991"
 Este tópico explica como criar um perfil de localização no Dynamics 365 Supply Chain Management. Cada local no depósito precisa ter um perfil de local associado a ele, que descreve as propriedades do local, por exemplo, se o local permite itens mistos. Neste procedimento é criaremos um perfil para um local que não exija o controle de matrícula. Nós habilitaremos misturados itens, e o status de estoque e permitimos misturados, a contagem cíclica. Você pode usar este procedimento na empresa USMF de dados de demonstração.
 
 
-1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de depósito > Configuração > Depósito > Perfis de localização**.
+1. No Painel de Navegação, vá para **Módulos > Gerenciamento de depósito > Configuração > Depósito > Perfis de localização**.
 2. Selecione **Novo**.
 3. No campo **ID do perfil de localização**, digite um valor.
 4. No campo **Nome**, digite um valor.
@@ -40,6 +43,3 @@ Este tópico explica como criar um perfil de localização no Dynamics 365 Suppl
 10. Selecione **Sim** no campo **Permitir contagem cíclica**.
 11. Selecione **Salvar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: Criar uma nomenclatura de produtos de grades de produto configuradas
 description: Este procedimento mostra como configurar uma nomenclatura de número de produto para grades de produtos configurados e como ela pode ser anexada a um produto mestre configurável.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductListPage, EcoResProductDetails, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7711d9832288327e700acd47fb30cce0c76e5e9a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5f75d7e493255b9c09c10b121f388854861cb0fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568390"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422180"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>Criar uma nomenclatura de produtos de grades de produto configuradas
 
@@ -26,78 +29,76 @@ ms.locfileid: "7568390"
 
 Este procedimento mostra como configurar uma nomenclatura de número de produto para grades de produtos configurados e como ela pode ser anexada a um produto mestre configurável. O procedimento também demonstra como você pode criar uma nomenclatura de configuração para um componente de modelo de configuração de produto. A empresa de dados demo usada para criar este procedimento é USMF. A nova nomenclatura de número de produto é atribuída ao produto mestre D0004. A tarefa geralmente seria realizada por um designer de produto.
 
-## <a name="create-a-product-number-nomenclature"></a>Criar uma nomenclatura de número de produto
 
-1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Nomenclatura de produto**.
-1. Selecione **Novo**.
-1. No campo **Nome**, digite um valor.
-1. No campo **Descrição**, digite um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Número do produto mestre**.
-1. Selecione **Adicionar**.
-1. Selecione **Constante de texto**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Texto**, digite um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Configuração**.
-1. Feche a página.
+## <a name="create-a-product-number-nomenclature"></a>Criar uma nomenclatura de número de produto
+1. Clique em Definição de modelo de variante de produto.
+2. Clique em Nomenclatura de produto.
+3. Clique em Novo.
+4. No campo Nome, digite um valor.
+5. No campo Descrição, digite um valor.
+6. Clique em Adicionar.
+7. Clique em Número do produto mestre.
+8. Clique em Adicionar.
+9. Clique em Constante de texto.
+10. Na lista, marque a linha selecionada.
+11. No campo Texto, digite um valor.
+12. Clique em Adicionar.
+13. Clique em Configuração.
+14. Feche a página.
 
 ## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a>Atribuir a nomenclatura de número de produto a um produto mestre
-
-1. Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
-1. Use o Filtro Rápido para localizar registros. Por exemplo, filtre no campo **Número do produto** com um valor de 'D'.
-1. Na lista, selecione o link na linha selecionada.
-1. Selecione **Editar**.
-1. Selecione *Sim* no campo **Usar nomenclatura**.
-1. No campo **Nomenclatura de número de grade de produto**, insira ou selecione um valor.
-1. Feche a página.
-1. Feche a página.
+1. Clique em Produtos mestres.
+2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre no campo Número do produto com um valor de "D".
+3. Na lista, clique no link na linha selecionada.
+4. Clique em Editar.
+5. Selecione Sim no campo Usar nomenclatura.
+6. No campo Nomenclatura de número de grade de produto, insira ou selecione um valor.
+7. Feche a página.
+8. Feche a página.
 
 ## <a name="create-nomenclature-for-a-product-configuration-model-component"></a>Criar nomenclatura para um componente de modelo de configuração de produto
+1. Clique em Modelos de configuração do produto.
+2. Na lista, localize e selecione o PDV desejado.
+3. Na lista, clique no link na linha selecionada.
+4. Clique em Editar.
+5. Selecione Sim no campo Usar nomenclatura de configuração.
+6. Clique em Adicionar.
+7. Clique em Valor do atributo.
+8. Na lista, marque a linha selecionada.
+9. No campo Atributo, insira ou selecione um valor.
+10. Clique em Adicionar.
+11. Clique em Constante de texto.
+12. Na lista, marque a linha selecionada.
+13. No campo Texto, digite um valor.
+14. Clique em Adicionar.
+15. Clique em Valor do atributo.
+16. Na lista, marque a linha selecionada.
+17. No campo Atributo, insira ou selecione um valor.
+18. Clique em Adicionar.
+19. Clique em Constante de texto.
+20. Na lista, marque a linha selecionada.
+21. No campo Texto, digite um valor.
+22. Clique em Adicionar.
+23. Clique em Valor do atributo.
+24. Na lista, marque a linha selecionada.
+25. No campo Atributo, insira ou selecione um valor.
+26. Clique em Adicionar.
+27. Clique em Constante de texto.
+28. Na lista, marque a linha selecionada.
+29. No campo Texto, digite um valor.
+30. Clique em Adicionar.
+31. Clique em Valor do atributo.
+32. Na lista, marque a linha selecionada.
+33. No campo Atributo, insira ou selecione um valor.
+34. Clique em Adicionar.
+35. Clique em Constante de texto.
+36. Na lista, marque a linha selecionada.
+37. No campo Texto, digite um valor.
+38. Clique em Adicionar.
+39. Clique em Valor de sequência numérica.
+40. Na lista, marque a linha selecionada.
+41. No campo Sequência numérica, digite ou selecione um valor.
+42. Feche a página.
+43. Feche a página.
+44. Feche a página.
 
-1. Acesse **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
-1. Na lista, localize e selecione o registro desejado.
-1. Na lista, selecione o link na linha selecionada.
-1. Selecione **Editar**.
-1. Selecione *Sim* no campo **Usar nomenclatura de configuração**.
-1. Selecione **Adicionar**.
-1. Selecione **Valor do atributo**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Atributo**, informe ou selecione um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Constante de texto**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Texto**, digite um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Valor do atributo**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Atributo**, informe ou selecione um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Constante de texto**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Texto**, digite um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Valor do atributo**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Atributo**, informe ou selecione um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Constante de texto**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Texto**, digite um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Valor do atributo**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Atributo**, informe ou selecione um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Constante de texto**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Texto**, digite um valor.
-1. Selecione **Adicionar**.
-1. Selecione **Valor de sequência numérica**.
-1. Na lista, marque a linha selecionada.
-1. No campo **Sequência numérica**, informe ou selecione um valor.
-1. Feche a página.
-1. Feche a página.
-1. Feche a página.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

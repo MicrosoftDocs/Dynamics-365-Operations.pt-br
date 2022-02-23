@@ -2,23 +2,26 @@
 title: Descartar um ativo fixo usando uma fatura de texto livre
 description: Este tópico explica como adquirir um ativo fixo usando a proposta de aquisição no Diário de ativos fixos.
 author: saraschi2
+manager: AnnBe
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0466ef3e3077b194cb2855153192567b0f1b94a930d7744d966f633d66c5bb09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7014e3a4384e08b0c218585a3c2110243360ec08
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742968"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440347"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Descartar um ativo fixo usando uma fatura de texto livre
 
@@ -26,7 +29,7 @@ ms.locfileid: "6742968"
 
 Este tópico explica como alienar um ativo fixo usando a fatura de texto livre.
 
-1. No Painel de Navegação, Acesse **Módulos > Contas a receber > Faturas > Todas as faturas de texto livre**.
+1. No Painel de Navegação, vá para **Módulos > Contas a receber > Faturas > Todas as faturas de texto livre**.
 2. Selecione **Novo**.
 3. No campo **Conta de cliente**, insira ou selecione um valor.
 4. Valide a data padrão da **fatura** e edite, se aplicável.
@@ -38,6 +41,3 @@ Este tópico explica como alienar um ativo fixo usando a fatura de texto livre.
 10. Digite ou selecione um valor no campo **Ativo fixo**.
 11. Selecione **Lançar**. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -149,6 +149,3 @@ Geralmente, vários bons candidatos para um trabalho não são selecionados, mas
 1. Na página de solicitação de emprego, selecione **Adicionar a grupo de talentos**. Uma lista de grupos de talentos aos quais você tem acesso é mostrada.
 
 1. Selecione ou pesquise o grupo de talentos e então selecione **Adicionar** para adicionar o candidato a ele.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

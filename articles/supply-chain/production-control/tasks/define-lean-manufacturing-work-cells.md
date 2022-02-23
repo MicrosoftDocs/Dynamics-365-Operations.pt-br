@@ -1,25 +1,28 @@
 ---
 title: Definir células de trabalho de lean manufacturing
 description: Uma célula de trabalho é um formulário específico dos grupos de recursos que podem ser usados em atividades do processo de lean manufacturing.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f1144bd9f99fef44210c2a01f71a39488354ccf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4f460fb42be5cbeda55a82e536e2a83cd2f6b608
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576775"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421886"
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Definir células de trabalho de lean manufacturing
 
@@ -29,7 +32,7 @@ Uma célula de trabalho é um formulário específico dos grupos de recursos que
 
 
 ## <a name="create-a-work-cell"></a>Crie uma célula de trabalho. 
-1. Acesse Administração da organização > Recursos > Grupos de recursos.
+1. Vá para Administração da organização > Recursos > Grupos de recursos.
 2. Clique em Novo.
 3. No campo grupo de Recurso, digite um valor.
     * A ID da célula de trabalho normalmente é um código sistemático e deve ser exclusivo da entidade legal.  
@@ -97,6 +100,3 @@ Uma célula de trabalho é um formulário específico dos grupos de recursos que
 ## <a name="save"></a>Salvar
 1. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

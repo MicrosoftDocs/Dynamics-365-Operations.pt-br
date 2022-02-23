@@ -1,24 +1,27 @@
 ---
 title: Mercadorias de uso duplo
 description: Este tópico explica como monitorar produtos identificados como mercadorias de uso duplo, armazenar números de certificado para cada país de destino e produto relevante e imprimir números de certificado válidos em faturas, guias de remessa e/ou ordens de venda relevantes.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570744"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422382"
 ---
 # <a name="dual-use-goods"></a>Mercadorias de uso duplo
 
@@ -50,7 +53,7 @@ Países diferentes têm requisitos diferentes para mercadorias de uso duplo. Use
 
 Para configurar as informações sobre requisitos de uso duplo para países diferentes, siga estas etapas.
 
-1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Configuração de país de uso duplo**.
+1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Configuração de país de uso duplo**.
 2. Selecione uma configuração de país existente para editá-la ou selecione **Novo** no Painel de Ação para criar uma nova configuração de país.
 3. Defina os valores a seguir para a configuração de país nova ou selecionada.
 
@@ -65,7 +68,7 @@ As mercadorias de uso duplo geralmente devem ser categorizadas de acordo com seu
 
 Para configurar categorias de uso duplo, siga estas etapas.
 
-1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Categorias de uso duplo**.
+1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Categorias de uso duplo**.
 2. Selecione uma categoria existente para editá-la ou selecione **Novo** no Painel de Ação para criar uma nova categoria.
 3. Defina os valores a seguir para a categoria nova ou selecionada.
 
@@ -80,7 +83,7 @@ Para configurar categorias de uso duplo, siga estas etapas.
 
 Para identificar um produto como uma mercadoria de uso duplo e aplicar uma categoria de uso duplo a ele, siga estas etapas.
 
-1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione ou crie um produto para abrir sua página **Detalhes do produto liberado**.
 1. Na Guia Rápida **Comércio exterior**, defina a opção **Produtos de uso duplo** como **Sim** para identificar o produto atual como uma mercadoria de uso duplo.
 1. Defina o campo **Código de uso duplo** como o código que se aplica ao produto atual. (Você definiu esse código na página **Categorias de uso duplo** .)
@@ -91,7 +94,7 @@ Essa configuração é verificada quando você cria uma ordem de venda.
 
 Use a página **Certificados de uso duplo** para configurar e gerenciar os certificados de uso duplo necessários para cada produto e país. Você pode acompanhar os detalhes de cada certificado, como o país e as datas de validade. Você também pode definir opções para especificar onde essas informações devem ser impressas. Por exemplo, as informações podem ser impressas na fatura, na guia de remessa e/ou na ordem de venda. Essa configuração é verificada quando você cria uma ordem de venda.
 
-1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Certificados de uso duplo**.
+1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Certificados de uso duplo**.
 2. Selecione um certificado existente para editá-lo ou selecione **Novo** no Painel de Ação para criar um novo certificado.
 3. Defina os valores a seguir para o certificado novo ou selecionado.
 
@@ -105,6 +108,3 @@ Use a página **Certificados de uso duplo** para configurar e gerenciar os certi
     | Imprimir na fatura | Marque esta caixa de seleção para imprimir o número do certificado nas faturas endereçadas ao país especificado durante o intervalo de datas especificado. |
     | Imprimir na guia de remessa | Marque esta caixa de seleção para imprimir o número do certificado nas guias de remessa endereçadas ao país especificado durante o intervalo de datas especificado. |
     | Imprimir na ordem de venda | Marque esta caixa de seleção para imprimir o número do certificado nas ordens de venda endereçadas ao país especificado durante o intervalo de datas especificado. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

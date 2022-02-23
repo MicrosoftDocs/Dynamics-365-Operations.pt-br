@@ -2,23 +2,26 @@
 title: Registrar uma fatura de fornecedor no diário de faturas
 description: Este guia de tarefa mostrará como registrar as notas fiscais de fornecedor que não estão associadas às ordens de compra.
 author: abruer
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace, LedgerJournalTable, LedgerJournalTransVendInvoice
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9742d8ab3e84b8f9443c7f44a5ffbabdc90a62dc19e523acd0b3b2ffa0c75880
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f2cbe0c9d1609aa3713776f81bafa396fff301
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722950"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645272"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Registrar uma fatura de fornecedor no diário de faturas
 
@@ -26,7 +29,7 @@ ms.locfileid: "6722950"
 
 Este guia de tarefa mostrará como registrar as notas fiscais de fornecedor que não estão associadas às ordens de compra. Exemplos deste tipo de nota fiscal incluem despesas de fornecimentos ou serviços.  Este registro usa a empresa de dados de demonstração USMF.
 
-1. Acesse **Painel de navegação > Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.
+1. Vá para **Painel de navegação > Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.
 2. No **Painel de ação**, clique em **Diário de nova fatura**.
 3. Clique em **Novo**.
 4. No campo **Nome**, insira o nome do diário ou clique no botão suspenso para abrir a pesquisa.
@@ -46,6 +49,3 @@ Este guia de tarefa mostrará como registrar as notas fiscais de fornecedor que 
 12. Clique em **Enviar**.
 13. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

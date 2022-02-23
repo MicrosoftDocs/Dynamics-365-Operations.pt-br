@@ -1,26 +1,29 @@
 ---
 title: Configurar códigos de motivo de devolução
 description: Configurar grupos de código de motivo de devolução.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnReasonCodeGroup, ReturnReasonCode
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc857f7c2e8bbcf396e6bd7eaa7478f12b26ac12
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c55e7dc087870ac414c5cf6ce3a3d10215ac4e8e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573168"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421860"
 ---
 # <a name="set-up-return-reason-codes"></a>Configurar códigos de motivo de devolução   
 
@@ -29,9 +32,9 @@ ms.locfileid: "7573168"
 
 ## <a name="set-up-return-reason-code-groups"></a>Configurar grupos de código de motivo de devolução 
 
-1.  Acesse **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Grupos de códigos de motivo de devolução**.
+1.  Clique em **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Grupos de códigos de motivo de devolução**.
 
-2.  Selecione **Novo** para criar uma linha para um novo grupo de códigos de motivo de devolução.
+2.  Pressione CTRL+N para criar uma linha para um novo grupo de códigos de motivo de devolução.
 
 3.  No campo **Grupo de códigos de motivo de devolução**, digite um identificador para o grupo.
 
@@ -41,7 +44,7 @@ ms.locfileid: "7573168"
 
 Este procedimento ajuda a configurar códigos de motivo de devolução que podem ser usados para indicar por que um produto foi devolvido pelo cliente.
 
-1.  Acesse **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de motivo de devolução**.
+1.  Clique em **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de motivo de devolução**.
 
 2.  Pressione CTRL + N para criar uma nova linha de código de motivo de devolução.
 
@@ -60,6 +63,3 @@ Este procedimento ajuda a configurar códigos de motivo de devolução que podem
  
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

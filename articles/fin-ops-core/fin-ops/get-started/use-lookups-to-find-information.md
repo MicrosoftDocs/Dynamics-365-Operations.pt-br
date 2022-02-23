@@ -1,10 +1,12 @@
 ---
-title: Encontrar informações usando pesquisas
-description: Neste tópico, você aprenderá sobre recursos das pesquisas e receberá algumas dicas úteis para fazer o melhor uso possível delas no sistema.
+title: Localizar informações usando pesquisas
+description: Vários campos têm pesquisas que podem ajudá-lo a encontrar facilmente o valor correto ou desejado. Vários aprimoramentos foram adicionados às pesquisas tornando esses controles mais úteis e os usuários mais produtivos. Neste tópico, você aprenderá sobre esses novos recursos das pesquisas e receberá algumas dicas úteis para fazer o melhor uso possível delas no sistema.
 author: jasongre
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069289"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798133"
 ---
 # <a name="find-information-by-using-lookups"></a>Localizar informações usando pesquisas
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Vários campos têm pesquisas que podem ajudá-lo a encontrar facilmente o valor correto ou desejado. Vários aprimoramentos foram adicionados às pesquisas tornando esses controles mais úteis e os usuários mais produtivos. Neste tópico, você aprenderá sobre esses novos recursos das pesquisas e receberá algumas dicas úteis para fazer o melhor uso possível delas no sistema.
 
@@ -47,15 +46,15 @@ Por exemplo, considere um campo de pesquisa chamado **Cidade**.
 
 Quando o foco estiver no campo **Cidade**, você pode começar a procurar a cidade desejada digitando algumas letras, como "col." Assim que você parar de digitar, a pesquisa abrirá automaticamente, filtrando apenas as cidades que começam com "col".
 
-[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 Nesse momento, o cursor ainda está no campo de pesquisa. Se você continuar digitando o valor "colum", o conteúdo da pesquisa se ajusta automaticamente para refletir o valor mais atual no controle.
 
-![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample](./media/updatefilterlookupexample.png)
 
 Ainda que o foco continue no controle da pesquisa, você também pode utilizar as teclas **Para cima** ou **Para baixo** para realçar a linha que deseja selecionar. Se você apertar **Enter** a linha realçada será selecionada na pesquisa e o valor do controle será atualizado.
 
-![changingSelectionLookup.](./media/changingselectionlookup.png)
+![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Digitando mais que IDs
 
@@ -65,25 +64,22 @@ Por exemplo, considere o campo **Conta do cliente** ao criar uma ordem de venda.
 
 Se o usuário começou a inserir um **ID da conta** no controle da pesquisa, o menu suspenso abriria automaticamente como descrito na seção anterior e o usuário veria a pesquisa como mostrado abaixo.
 
-[![Pesquisa contextual quando um ID da conta do cliente é inserido.](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Pesquisa contextual quando um ID da conta do cliente é inserido](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 No entanto, o usuário agora também pode inserir o início de um **Nome da conta**. Se isso for detectado, o usuário verá a seguinte pesquisa. Observe como a coluna **Nome** é movida para se tornar a primeira coluna na pesquisa, e como a pesquisa é classificada e filtrada com base na coluna **Nome**.
 
-[![Pesquisa contextual quando um nome do cliente é inserido.](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Pesquisa contextual quando um nome do cliente é inserido](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Usando cabeçalhos de coluna da tabela para filtragem e classificação mais avançada
 
 Os aprimoramentos na pesquisa discutidos nas duas seções anteriores aumentam significativamente a habilidade do usuário navegar pelas linhas em uma pesquisa com base em uma busca do tipo "começa com" nos campos **ID** ou **Nome** na pesquisa. No entanto, existem situações em que filtros (ou classificações) mais avançados são necessários para encontrar a linha correta. Nessas situações, o usuário precisa usar as opções de filtragem e classificação nos cabeçalhos de coluna da tabela dentro da pesquisa. Por exemplo, considere um funcionário inserindo uma linha da ordem de venda que precisa localizar o "cabo" certo como produto. Digitar "cabo" no controle **Número do item** não é útil, já que não existem nomes de produtos que começam com "cabo".
 
-![emptyitemlookup.](./media/emptyitemlookup.png)
+![emptyitemlookup](./media/emptyitemlookup.png)
 
 Em vez disso, o usuário precisa limpar o valor do controle da pesquisa, abrir o menu suspenso da pesquisa e filtrar o menu suspenso usando o cabeçalho de coluna da tabela, como mostrado abaixo. Um usuário de mouse (ou de toque) pode simplesmente clicar em qualquer cabeçalho de coluna para acessar as opções de filtragem e classificação para aquela coluna. Para um usuário de teclado, é necessário simplesmente pressionar **Alt**+**seta** **Para baixo** uma segunda vez para mover o foco para o menu suspenso, quando o usuário poderá selecionar a coluna correta utilizando o Tab, e pressionando **Ctrl**+**G** para abrir o menu suspenso do cabeçalho de coluna da tabela.
 
-[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 Assim que o filtro for aplicado (veja a imagem abaixo), o usuário pode encontrar e selecionar a linha como de costume.
 
-![filtereditemlookup.](./media/filtereditemlookup.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![filtereditemlookup](./media/filtereditemlookup.png)

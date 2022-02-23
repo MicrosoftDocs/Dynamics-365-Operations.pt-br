@@ -2,9 +2,11 @@
 title: Solução de desempenho financeiro do PowerBI.com
 description: Este tópico descreve a solução de desempenho financeiro do PowerBI.com.
 author: kweekley
+manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767794"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682736"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solução de desempenho financeiro do PowerBI.com
 
@@ -85,7 +87,4 @@ As entidades a seguir foram usadas como base da solução **Desempenho financeir
 - Razões
 - ChartofAccounts
 
-Essas entidades foram usadas para criar medidas calculadas no modelo de dados. As medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no conteúdo. Por padrão, o conteúdo possui dados dos três últimos anos e do ano futuro. Para incluir cálculos adicionais no painel e nos relatórios, você pode modificar a [pasta de trabalho do Microsoft Excel](/dynamics/s-e/). Essa pasta de trabalho é o modelo de dados padrão usado para criar o conteúdo.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+Essas entidades foram usadas para criar medidas calculadas no modelo de dados. As medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no conteúdo. Por padrão, o conteúdo possui dados dos três últimos anos e do ano futuro. Para incluir cálculos adicionais no painel e nos relatórios, você pode modificar a [pasta de trabalho do Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Essa pasta de trabalho é o modelo de dados padrão usado para criar o conteúdo.

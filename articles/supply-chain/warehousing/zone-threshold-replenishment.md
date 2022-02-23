@@ -2,9 +2,11 @@
 title: Reabastecimento de limite de zona
 description: O reabastecimento baseado em zona usa uma estratégia de reabastecimento mínimo/máximo (mín./máx.), mas ele avalia zonas de depósito inteiras e não apenas locais individuais. Portanto, os gerentes de depósito podem aprender mais rápido quando é necessário um estoque adicional em uma zona de separação.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 2e83d6885bf7400916d633a49d3b19b8843b0269
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568982"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965493"
 ---
 # <a name="zone-threshold-replenishment"></a>Reabastecimento de limite de zona
 
@@ -53,14 +55,14 @@ Os [códigos de diretiva](control-warehouse-location-directives.md) permitem que
 
 #### <a name="view-and-edit-directive-codes"></a>Exibir e editar códigos de diretiva
 
-Para exibir ou editar códigos de diretiva, Acesse **Gerenciamento de depósito \> Configuração \> Códigos de diretiva**.
+Para exibir ou editar códigos de diretiva, vá para **Gerenciamento de depósito \> Configuração \> Códigos de diretiva**.
 
 #### <a name="prepare-demo-data-directive-codes"></a>Preparar códigos de diretiva de dados de demonstração
 
 Este exemplo mostra como preparar um código de diretiva. Se pretende trabalhar no cenário no final deste tópico, use os valores de dados de demonstração fornecidos aqui. Caso contrário, use seus próprios valores.
 
 1. Selecione a entidade legal **USMF** para trabalhar com os dados de demonstração.
-1. Acesse **Gerenciamento de depósito \> Configuração \> Códigos de diretiva**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Códigos de diretiva**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os seguintes valores:
 
@@ -75,14 +77,14 @@ Os [modelos de reabastecimento mín./máx.](tasks/set-up-min-max-replenishment-p
 
 #### <a name="view-and-edit-replenishment-templates"></a>Exibir e editar modelos de reabastecimento
 
-Um modelo de reabastecimento é um conjunto de regras que controlam como e quando um local é reabastecido. Selecione um modelo para controlar quando e como o reabastecimento é feito. Para exibir ou editar modelos de reabastecimento, Acesse **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento**.
+Um modelo de reabastecimento é um conjunto de regras que controlam como e quando um local é reabastecido. Selecione um modelo para controlar quando e como o reabastecimento é feito. Para exibir ou editar modelos de reabastecimento, vá para **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento**.
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Preparar um modelo de reabastecimento de dados de demonstração
 
 Este exemplo mostra como preparar um modelo de reabastecimento. Se pretende trabalhar no cenário no final deste tópico, use os valores de dados de demonstração fornecidos aqui. Caso contrário, use seus próprios valores.
 
 1. Selecione a entidade legal **USMF** para trabalhar com os dados de demonstração.
-1. Acesse **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento**.
 1. Selecione **Editar** para colocar a página no modo de edição.
 1. No Painel de Ações, selecione **Novo** para adicionar uma linha à grade **Visão geral**.
 1. Na nova linha, defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
@@ -138,7 +140,7 @@ Diferente do reabastecimento mín./máx. baseado em local, o reabastecimento mí
 
 #### <a name="view-and-edit-location-directives"></a>Exibir e editar diretivas de localização
 
-Para exibir ou editar diretivas de localização, Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+Para exibir ou editar diretivas de localização, vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 
 Para obter exemplos que mostram como usar as configurações para criar as diretivas de localização de separação e as diretivas de localização de colocação, consulte a próxima seção.
 
@@ -149,7 +151,7 @@ Para preparar dados de demonstração de forma que possam ser usados no cenário
 ##### <a name="create-a-replenishment-pick-directive"></a>Criar uma diretiva de separação de reabastecimento
 
 1. Selecione a entidade legal **USMF** para trabalhar com os dados de demonstração.
-1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, defina o campo **Tipo de ordem de serviço** como _Reabastecimento_.
 1. No Painel de Ações, selecione **Novo** para criar uma nova diretiva.
 1. Defina os seguintes valores:
@@ -276,7 +278,7 @@ Siga estas etapas para verificar se o sistema inclui estoque suficiente para dar
 1. Verifique se há estoque suficiente para o item *A0001* em um local de massa especificado na diretiva de localização de seleção de zona na qual o trabalho de reabastecimento deve separar os itens da ID de zona *MASSA*. O estoque total deve ser superior à quantidade máxima necessária (*150*) que é especificada no modelo de reabastecimento.
 1. Opcional, mas recomendado: siga estas etapas para criar um diário de ajuste de estoque:
 
-    1. Acesse **Gerenciamento de estoque \> Entradas de diário \> Itens \> Ajuste de estoque**.
+    1. Vá para **Gerenciamento de estoque \> Entradas de diário \> Itens \> Ajuste de estoque**.
     1. Selecione **Novo**.
     1. Na caixa de diálogo **Criar diário de estoque**, no campo **Depósito**, selecione *61*.
     1. Selecione **OK**.
@@ -316,7 +318,7 @@ Siga estas etapas para verificar se o sistema inclui estoque suficiente para dar
 
 Quando todos os dados de exemplo de pré-requisito estiverem ativos, você poderá disparar o reabastecimento seguindo essas etapas.
 
-1. Acesse **Gerenciamento de depósito \> Reabastecimento \> Reabastecimentos**.
+1. Vá para **Gerenciamento de depósito \> Reabastecimento \> Reabastecimentos**.
 1. Na caixa de diálogo **Reabastecimento**, na FastTab **Registros a serem incluídos**, selecione **Filtrar**.
 1. Na caixa de diálogo **Consulta**, na guia **Intervalo**, edite a linha da tabela padrão da seguinte maneira:
 
@@ -341,6 +343,3 @@ Aqui estão algumas observações e dicas para trabalhar com o recurso:
 
 - Se você estiver usando locais dinâmicos, o trabalho de reabastecimento será criado para o primeiro local disponível ou para um local que já contenha estoque, se a ação diretiva de localização estiver configurada para usar a estratégia **Consolidar**.
 - Se você estiver usando locais fixos e não zonas, deverá usar o [reabastecimento mín./máx. padrão](tasks/set-up-min-max-replenishment-process.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Relatórios de preços de varejo
 description: Este tópico fornece uma visão geral do recurso de relatório de preços que pode ser usado para exibir as alterações de preço futuras dos produtos variados.
 author: shajain
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 7fa2710d64d632c6e4ef376528aff8316b02a380ce7e2a976d53a3dd39375fa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91c0a96abdd7df9e85e63ca6b1b47a57f3f401eb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767257"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410064"
 ---
 # <a name="retail-price-reports"></a>Relatórios de preços de varejo
 
@@ -41,6 +44,3 @@ Para habilitar o relatório de preço, o parâmetro **Habilitar o relatório de 
 | Exibir produtos com alterações de preço | Definir isso como **Sim** mostrará os preços apenas para as datas em que o preço foi alterado. O preço de *um dia antes* da **data inicial** selecionada sempre será exibido, para que o gerente da loja possa identificar facilmente os produtos que não alteraram os preços durante toda a duração selecionada e também pode exibir o preço atual. |
 
 Depois que o relatório é gerado, o arquivo do Excel pode ser baixado para qualquer necessidade adicional de filtragem. O relatório de preços também pode ser usado para verificar os preços históricos de produtos para datas passadas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

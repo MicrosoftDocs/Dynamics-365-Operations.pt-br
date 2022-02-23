@@ -1,26 +1,29 @@
 ---
 title: Status do estoque
 description: Este artigo descreve como você pode usar o status de estoque para categorizar e manter o controle de estoque.
-author: yufeihuang
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b38ab4674c80da496e09e5179a412d6dcd85a7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eca9d3e4e15d11d2a9a1b531028de230ffc43913
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577663"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594593"
 ---
 # <a name="inventory-statuses"></a>Status do estoque
 
@@ -43,14 +46,7 @@ O status de estoque é uma das dimensões do grupo de dimensão de armazenamento
 
 Você pode usar itens de depósito com o status de estoque disponível ou indisponível para o trabalho de entrada. Por exemplo, você cria um status disponível que é chamado *Pronto*, um status indisponível que é chamado *Danificado* e um status bloqueado que é chamado *Bloqueado*. Quando você cria uma ordem de compra para itens recebidos ou devolvidos, se os item forem danificados ou interrompidos, é possível alterar o status do estoque dos itens para *Danificado* na linha da ordem de compra. Depois que os itens são recebidos, o status é automaticamente definido como *Bloqueado*. Se você pesquisa os itens danificados usando um dispositivo móvel, o Supply Chain Management pode usar diretivas de local e modelos de trabalho para mostrar informações sobre um local apropriado ou intervalo de locais onde você pode armazenar esses itens. Para itens devolvidos, um tipo de problema de *Reserva* é criado na página **Transações do inventário**.
 
-Você pode especificar quais status de estoque estão bloqueando os status usando as caixas de seleção **Bloqueio de estoque** na página **Status de estoque**. Você não pode usar status de estoque como status de bloqueio para ordens de venda, ordens de transferência ou integrações de projeto.
-
-Para trabalho de saída, você pode usar diferentes status de estoque sem bloqueios para controlar o estoque a ser reservado. Se você tiver itens com um status *Bloqueado* e o planejamento mestre for executado nesses itens, os itens serão considerados faltantes e o estoque será reabastecido automaticamente. Além disso, para ordens de qualidade associadas ao trabalho de saída, não é possível atualizar o **Status do estoque** como parte da validação da ordem de qualidade.
-
-> [!NOTE]
-> Não é possível alterar o status do estoque em locais onde o trabalho aberto existe. Por exemplo, se você tiver um recebimento de compra para um item, mas sem etapa de armazenamento, o trabalho aberto existirá para o local de recebimento e você obterá um erro se tiver tentado alterar o status do estoque nessa localização. A conclusão ou o cancelamento do trabalho relacionado permitiria que você alterasse o status.
->
-> Normalmente, o status do estoque disponível relacionado a trabalho de depósito aberto só é alterado por funcionários que usam o aplicativo móvel do Gerenciamento de Depósito, por exemplo, durante a execução de um processo de movimento.
+Para o trabalho de saída, use itens com status de estoque disponível. Se você tiver itens com um status de *Quebrado* e o planejamento mestre for executado nesses itens, os itens serão considerados faltantes e o estoque será reabastecido automaticamente.
 
 Depois de configurar um status de estoque, você pode definir o status de estoque padrão para um local, item e depósito. Você também pode definir um status padrão de venda, transferência e ordens de compra. O status padrão para ordens de venda e a ordem de transferência de saída não pode ter a opção **Bloqueio de estoque** definida como *Sim*. O status de estoque que é herdado das configurações padrão em um site, depósito, item, ordem de compra, ordem de transferência ou ordem de vendas pode ser alterado usando o dispositivo móvel ou na ordem de compra, na ordem de venda ou na linha da ordem de transferência.
 
@@ -61,7 +57,7 @@ Para planejar a cobertura de itens com um status de estoque disponível, selecio
 Você pode alterar os status de estoque usando a página **Disponibilidade por localização** ou a tarefa periódica *Alteração de status do estoque*.
 
 - Ao usar a tarefa periódica *Alteração de status do estoque*, você pode selecionar os registros a serem incluídos e definir a tarefa a ser executada no lote no intervalo desejado.
-- Para alterar o status do estoque como um processo ad hoc, Acesse a página **Disponibilidade por localização**, selecione os registros relevantes e, em seguida, selecione o botão **Alteração de status do estoque**.
+- Para alterar o status do estoque como um processo ad hoc, vá para a página **Disponibilidade por localização**, selecione os registros relevantes e, em seguida, selecione o botão **Alteração de status do estoque**.
 
 > [!NOTE]
 > O recurso *Alterar o status de estoque de itens controlados por dimensões de rastreamento* permite alterar o status de estoque de itens controlados por dimensões de rastreamento, incluindo a capacidade de atualizar somente os registros selecionados. Use o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar o recurso conforme necessário. Quando o recurso estiver habilitado, você poderá fazer o seguinte:
@@ -69,6 +65,3 @@ Você pode alterar os status de estoque usando a página **Disponibilidade por l
 > - Na página **Disponibilidade por localização**, agrupar linhas com base nas dimensões mostradas usando o botão **Exibir dimensões** e alterar o status das linhas selecionadas.
 > - Na página **Disponibilidade por localização**, selecionar vários registros e, em seguida, usar o botão **Alteração de status do estoque** para alterar todos eles de uma só vez.
 > - Na tarefa periódica **Alteração de status do estoque**, filtrar por dimensões de rastreamento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

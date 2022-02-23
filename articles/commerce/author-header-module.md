@@ -2,24 +2,27 @@
 title: Módulo de cabeçalho
 description: Este tópico abrange os módulos de cabeçalho e descreve como criar cabeçalhos de página no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712781"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4410324"
 ---
 # <a name="header-module"></a>Módulo de cabeçalho
 
@@ -27,13 +30,15 @@ ms.locfileid: "6712781"
 
 Este tópico abrange os módulos de cabeçalho e descreve como criar cabeçalhos de página no Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Visão Geral
+
 No Dynamics 365 Commerce, um cabeçalho de página é configurado como um fragmento de página que inclui os módulos de cabeçalho, faixa promocional e consentimento de cookie. 
 
 O módulo de cabeçalho inclui um logotipo do site, links para a hierarquia de navegação, links para outras páginas do site, um módulo de ícone de carrinho, um símbolo de lista de desejos, opções de entrada e a barra de pesquisa. Um módulo de cabeçalho é otimizado automaticamente para o dispositivo onde o site está sendo exibido (ou seja, um dispositivo móvel ou de desktop). Por exemplo, em um dispositivo móvel, a barra de navegação é recolhida em um botão **Menu** (que é conhecido ocasionalmente como *menu hambúrguer*).
 
 A imagem a seguir mostra um exemplo de um módulo de cabeçalho em uma home page.
 
-![Exemplo de um módulo de cabeçalho.](./media/ecommerce-header.png)
+![Exemplo de um módulo de cabeçalho](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Propriedades de um módulo de cabeçalho
 
@@ -58,22 +63,15 @@ Os módulos a seguir podem ser usados em um módulo de cabeçalho:
 - **Seletor de loja** — o módulo seletor de loja pode ser incluído em um slot do seletor de loja do módulo de cabeçalho. Ele permite que os usuários procurem e encontrem lojas próximas. Os usuários também podem especificar uma loja preferida. Essa loja será mostrada no cabeçalho. Quando o módulo seletor de loja é incluído no módulo de cabeçalho, sua propriedade **Modo** deve ser definida como **Localizar lojas**. Para obter mais informações, consulte [Módulo de seletor de loja](store-selector.md).
 
 > [!NOTE]
-> - O suporte ao uso do módulo de ícone de carrinho nos módulos de cabeçalho está disponível a partir da versão 10.0.11 do Dynamics 365 Commerce.
-> - O suporte ao uso do módulo de seletor de site nos módulos de cabeçalho está disponível a partir da versão 10.0.14 do Dynamics 365 Commerce.
-> - O suporte ao uso do módulo de seletor de loja nos módulos de cabeçalho está disponível a partir da versão 10.0.15 do Dynamics 365 Commerce.
-
-## <a name="header-module-in-the-adventure-works-theme"></a>Módulo de cabeçalho no tema Adventure Works
-
-No tema Adventure Works, o módulo de cabeçalho oferece suporte à propriedade **Logotipo móvel**. Esta propriedade permite a especificação de um logotipo para portas de exibição móveis. A propriedade **Logotipo móvel** está disponível como uma extensão de definição de módulo.
-
-> [!IMPORTANT]
-> O tema Adventure Works está disponível a partir da versão 10.0.20 do Dynamics 365 Commerce.
+> - O suporte ao uso do módulo de ícone de carrinho nos módulos de cabeçalho está disponível no Dynamics 365 Commerce versão 10.0.11.
+> - O suporte ao uso do módulo de ícone de selector de site nos módulos de cabeçalho está disponível no Dynamics 365 Commerce versão 10.0.14.
+> - O suporte ao uso do módulo de ícone de selector de loja nos módulos de cabeçalho está disponível no Dynamics 365 Commerce versão 10.0.15.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Criar um fragmento de cabeçalho para uma página
 
 Para criar um fragmento de cabeçalho, siga estas etapas.
 
-1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Contêiner**, insira um nome para o fragmento e, em seguida, selecione **OK**.
 1. Selecione o slot **Contêiner padrão** e, no painel de propriedades à direita, defina a propriedade **Largura** como **Preencher Tela**.
 1. No slot **Contêiner padrão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
@@ -121,6 +119,3 @@ Para ajudar a garantir que um cabeçalho apareça em todas as páginas, siga est
 [Módulo de seletor de site](site-selector.md)
 
 [Módulo de seletor de loja](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

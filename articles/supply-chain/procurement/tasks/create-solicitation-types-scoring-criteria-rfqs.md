@@ -1,24 +1,26 @@
 ---
 title: Criar tipos de solicitação e critérios de avaliação para RFQs
 description: Este guia mostra como criar um tipo da solicitação e associar esse tipo com um método de avaliação.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d55b91def8b8edf8310cfa0bfe9d2bcc321ee6a6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 40625152a579bb269411d026d77d449902c8d4bc
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569304"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016797"
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>Criar tipos de solicitação e critérios de avaliação para RFQs
 
@@ -28,7 +30,7 @@ Este guia mostra como criar um tipo da solicitação e associar esse tipo com um
 
 
 ## <a name="create-a-solicitation-type"></a>Criar um tipo de solicitação.
-1. Acesse Compras > Configuração > Solicitação de cotação > Tipo de solicitação.
+1. Vá para Compras > Configuração > Solicitação de cotação > Tipo de solicitação.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -37,7 +39,7 @@ Este guia mostra como criar um tipo da solicitação e associar esse tipo com um
 7. Feche a página.
 
 ## <a name="use-the-solicitation-type"></a>Use o tipo de solicitação
-1. Acesse Aquisição e fornecimento > Solicitações de cotações > Todas as solicitações de cotações.
+1. Vá para Aquisição e fornecimento > Solicitações de cotações > Todas as solicitações de cotações.
 2. Clique em Novo.
 3. No campo Tipo de solicitação, selecione o tipo de solicitação que você acabou de criar. 
     *   
@@ -49,6 +51,3 @@ Este guia mostra como criar um tipo da solicitação e associar esse tipo com um
 8. Clique em OK.
 9. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

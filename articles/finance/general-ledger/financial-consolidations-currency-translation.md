@@ -1,24 +1,27 @@
 ---
 title: Visão geral de consolidações financeiras e conversão de moeda
 description: Este tópico descreve as consolidações financeiras e a conversão de moeda na contabilidade.
-author: jiwo
-ms.date: 10/07/2021
-ms.topic: overview
+author: aprilolson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982396"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440468"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visão geral de consolidações financeiras e conversão de moeda
 
@@ -66,13 +69,13 @@ Aqui estão alguns dos cenários de consolidação que o Consolidar online permi
 ## <a name="legal-entity-setup"></a>Configuração de entidade legal
 Antes de processar uma consolidação, você deve configurar a entidade legal. Você pode executar a consolidação quantas vezes precisar e todos os dados serão convertidos da moeda contábil da empresa de origem para a moeda definida para a empresa de consolidação. Portanto, para a estrutura organizacional a seguir, se você precisar converter todas as empresas norte-americanas primeiro em dólares americanos (USD) e depois em euros (EUR), a moeda da empresa principal, você deve ter pelo menos duas empresas de consolidação.
 
-![Estrutura organizacional.](./media/organizational-structure.png "Estrutura organizacional")
+![Estrutura organizacional](./media/organizational-structure.png "Estrutura organizacional")
 
 Na estrutura organizacional anterior, você deve ter uma entidade legal para a consolidação na América do Norte, porque as consolidações sempre se consolidam da moeda contábil da empresa de origem para a moeda da empresa de consolidação. No exemplo, se todas as empresas estiverem incluídas em uma única consolidação, a subsidiária mexicana será convertida de pesos mexicanos (MXN) para EUR, não de MXN para USD para EUR.
 
 Ao criar a entidade legal, você pode especificar se a empresa é usada para o processo de consolidação e o processo de eliminação ou para apenas um desses processos. Na ilustração a seguir, a empresa é usada para ambos os processos. Observe que você não pode lançar diários em uma empresa de consolidação, mas pode publicá-los em uma empresa de eliminação. Portanto, você pode querer ter uma empresa de eliminação separada.
 
-![Entidade legal usada para a consolidação e eliminação.](./media/sep-elimination-company.png "Entidade legal usada para a consolidação e alienação")
+![Entidade legal usada para a consolidação e eliminação](./media/sep-elimination-company.png "Entidade legal usada para a consolidação e alienação")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Contas principais e grupos de contas de consolidação
 É preciso escolher como deseja consolidar seu plano de contas. Durante o processo de consolidação, você tem três opções para consolidar as contas principais.
@@ -81,11 +84,11 @@ A primeira opção é usar as contas principais das empresas de origem. Nesse ca
 
 A segunda opção é especificar uma conta de consolidação padrão na página **Contas principais**. A conta será então mapeada para a conta de consolidação. Essa opção pode ser útil quando você tem diferentes planos de contas ou precisa mapear para um gráfico definido pela matriz.
 
-![Conta de consolidação padrão especificada na página Contas principais.](./media/main-accounts.png "Conta de consolidação padrão especificada na página Contas principais")
+![Conta de consolidação padrão especificada na página Contas principais](./media/main-accounts.png "Conta de consolidação padrão especificada na página Contas principais")
 
 A terceira opção é usar grupos de contas de consolidação. Você pode definir quantos grupos de contas de consolidação forem necessários. Depois, na página **Contas de consolidação adicionais**, basta mapear a conta principal do plano de contas para a conta que você precisa para esse grupo.
 
-![Mapeamento na página Contas de consolidação adicionais.](./media/additional-consolidation-accounts.png "Mapeamento na página Contas de consolidação adicionais")
+![Mapeamento na página Contas de consolidação adicionais](./media/additional-consolidation-accounts.png "Mapeamento na página Contas de consolidação adicionais")
 
 ## <a name="consolidating-online"></a>Consolidação online
 Para saber como inserir detalhes de consolidações online, consulte [Consolidações financeiras online](./consolidate-online.md).
@@ -97,7 +100,7 @@ Para exibir os resultados da consolidação, você tem várias opções:
 - Revise a lista **Balancete** na empresa de consolidação.
 - Na lista de transações de consolidação na página **Consolidações**, exiba os saldos criados por data para cada empresa de origem para cada período.
 
-    ![Transações de consolidação na página Consolidações.](./media/managing-consolidation-transactions.png "Transações de consolidação na página Consolidações")
+    ![Transações de consolidação na página Consolidações](./media/managing-consolidation-transactions.png "Transações de consolidação na página Consolidações")
 
 Para executar a consolidação novamente, basta processar a consolidação. Como alternativa, você pode primeiro selecionar **Remover as transações** na página **Consolidações**.
 Caso os saldos da sua conta consolidada não sejam exatos, esses saldos podem ser corrigidos usando a página **Ajustes do período de fechamento**.
@@ -118,15 +121,15 @@ Você pode encontrar a configuração para as eliminações na área **Configura
 
 Você pode definir a data em que a regra de eliminação entra em vigor e a data em que ela expira, conforme necessário. Se quiser que a regra de eliminação esteja disponível no processo de proposta de eliminação, você deve definir a opção **Ativo** como **Sim**. Selecione um nome de diário do tipo **Eliminação**.
 
-![Propriedades básicas de uma regra de eliminação.](./media/ledger-elimination-rule-journal.png "Propriedades básicas de uma regra de alienação")
+![Propriedades básicas de uma regra de eliminação](./media/ledger-elimination-rule-journal.png "Propriedades básicas de uma regra de alienação")
 
 Após a definição das propriedades básicas, selecione **Linhas** para definir as regras de processamento reais. Há duas opções para eliminações: eliminar o valor líquido de modificação ou definir um valor fixo.
 
-Selecione as contas de origem. Você pode usar asterisco (\*) como um caractere curinga. Por exemplo, **1\**_ seleciona todas as contas que começam com _* 1** como a fonte de dados da alocação.
+Selecione as contas de origem. Você pode usar asterisco (\*) como um caractere curinga. Por exemplo, **1\*** seleciona todas as contas que começam com **1** como a fonte de dados da alocação.
 
 Após a seleção das contas de origem, use o campo **Especificação da conta** para especificar a conta usada na empresa de destino. Selecione **Origem** para usar a mesma conta principal definida na conta de origem. Se você selecionar **Definido pelo usuário**, deverá especificar a conta de destino.
 
-![Página Linha de regra de eliminação do razão.](./media/ledger-elimination-rule-line.png "Página Linha de regra de eliminação do razão")
+![Página Linha de regra de eliminação do razão](./media/ledger-elimination-rule-line.png "Página Linha de regra de eliminação do razão")
 
 O campo **Especificação da dimensão** funciona como o campo **Especificação da conta**. Selecione **Origem** para usar as mesmas dimensões da empresa de destino e da empresa de origem. Se você selecionar **Definido pelo usuário**, será necessário especificar as dimensões da empresa de destino, selecionando **Dimensões de destino**. Depois selecione as dimensões de origem e as dimensões financeiras e os valores usados como a fonte de eliminação.
 
@@ -165,8 +168,7 @@ Os clientes que usam o Relatório financeiro para consolidações financeiras e 
 - **Conversão de moeda simplificada** – Após a configuração mínima no Finance, você pode converter qualquer Relatório financeiro em qualquer moeda de relatório configurada. Além disso, você pode configurar um número ilimitado de moedas de relatório.
 - **Lançamento de eliminações na origem** – Você pode criar e imprimir um relatório de eliminação para verificar as transações de eliminação. Você pode lançar quaisquer novas eliminações como transações intercompanhia. Você também pode usar uma entidade legal de eliminação para qualquer transação que não queira em suas entidades legais.
 
-## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Cenários de consolidação com suporte para relatórios financeiros
-
+## <a name="supported-consolidation-scenarios"></a>Cenários de consolidação compatíveis
 Aqui estão alguns dos cenários de consolidação que o Relatório financeiro permite:
 
 - Consolidações de nível único e de vários níveis em entidades legais
@@ -180,18 +182,3 @@ Aqui estão alguns dos cenários de consolidação que o Relatório financeiro p
 
 ## <a name="generating-consolidated-financial-statements"></a>Criação de demonstrativos financeiros consolidados
 Para obter informações sobre os cenários onde você poderá gerar demonstrativos financeiros consolidados, consulte [Gerar demonstrativos financeiros consolidados](./generating-consolidated-financial-statements.md).
-
-## <a name="performance-enhancement-for-large-consolidations"></a>Aprimoramento de desempenho para consolidações grandes
-
-Ambientes que têm várias transações de contabilidade podem ser executadas mais lentamente do que o ideal. Para corrigir esse problema, você pode configurar o processamento paralelo de lotes que usa um número de datas definido pelo usuário. Para garantir que a solução funcione como pretendido, adicione um ponto de extensão à consolidação para retornar um contêiner de intervalos de datas. A implementação básica deve conter um intervalo de datas para o estado inicial e a data final da consolidação. Os intervalos de datas na implementação básica serão validados para garantir que não contenham lacunas ou sobreposições. Os intervalos de datas serão usados para criar pacotes de lote paralelo para cada empresa.
-
-Você pode personalizar o número de intervalos de datas de acordo com as necessidades de sua organização. Ao personalizar o número de intervalos de datas, você pode ajudar a simplificar os testes e minimizar o impacto no código existente, pois não há lógica de alocação. Os únicos testes novos que são necessários para validam a criação de conjuntos de lotes, validam intervalos de datas e testam um subconjunto de intervalos de datas para verificar se os lotes podem ser reunidos para a tarefa em lotes final. 
-
-Esse recurso melhora o processo de consolidação na contabilidade quando o processo é executado em um lote. Esse aprimoramento melhora o desempenho do processo de consolidação de contabilidade, dividindo a consolidação em várias tarefas que podem ser processadas em paralelo. No método padrão para executar uma consolidação, cada tarefa processa oito dias de atividade de contabilidade. No entanto, foi adicionado um ponto de extensão que permite personalizar o número de tarefas criadas.
-
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho **Gerenciamento de recursos** para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
-
-- **Módulo:** contabilidade
-- **Nome do recurso:** aprimoramento de desempenho para consolidações grandes
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

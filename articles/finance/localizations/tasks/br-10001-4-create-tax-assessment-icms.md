@@ -2,9 +2,11 @@
 title: Criar uma apuração de imposto - ICMS (Brasil)
 description: Você pode criar uma apuração de imposto para o ICMS de um período de escrituração selecionado.
 author: sndray
+manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bba49f572fdd4f7a583154fef2c64b37b35b935eb5bac5668f3b76b4cbe8d54
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e772e35584a430f7753978ce1e5aed1c6a9546f2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717433"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964599"
 ---
 # <a name="create-a-tax-assessment---icms-brazil"></a>Criar uma apuração de imposto - ICMS (Brasil)
 
@@ -25,7 +27,7 @@ ms.locfileid: "6717433"
 
 Você pode criar uma apuração de imposto para o ICMS de um período de escrituração selecionado. Este valor do imposto considera o valor de ICMS para recuperar e o valor de ICMS para pagar os documentos fiscais. Para o valor devido após a apuração de imposto, você pode fazer o pagamento do valor para a autoridade fiscal. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Acesse Livros fiscais > Comum > Período de escrituração.
+1. Vá para Livros fiscais > Comum > Período de escrituração.
 2. Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.
 3. No campo Estabelecimento fiscal, insira ou selecione um valor.
 4. No campo Mês, selecione uma opção.
@@ -34,7 +36,7 @@ Você pode criar uma apuração de imposto para o ICMS de um período de escritu
 7. Clique em Sincronizar.
 8. Clique em OK.
 9. Feche a página.
-10. Acesse Livros fiscais > Comum > Apuração de imposto > ICMS.
+10. Vá para Livros fiscais > Comum > Apuração de imposto > ICMS.
 11. Clique em Apuração de imposto ICMS para abrir a caixa de diálogo suspensa.
 12. No campo Período de escrituração, insira ou selecione um valor.
 13. Clique em OK.
@@ -50,6 +52,3 @@ Você pode criar uma apuração de imposto para o ICMS de um período de escritu
 23. Feche a página.
 24. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

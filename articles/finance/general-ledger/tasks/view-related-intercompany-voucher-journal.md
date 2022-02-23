@@ -2,23 +2,26 @@
 title: Exibir comprovante intercompanhia relacionado do diário
 description: A janela de comprovante relacionado mostra o comprovante da empresa de compensação ao lançar uma transação intercompanhia do diário geral.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c41826986aea79206c8ec6ed045078e93a285a90042f0950fb5725c0bd850ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee8385561f9aadae333c05c6df62de0ad1d39010
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772770"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440451"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>Exibir comprovante intercompanhia relacionado do diário
 
@@ -28,7 +31,7 @@ A janela de comprovante relacionado mostra o comprovante da empresa de compensa�
 
 
 ## <a name="post-an-intercompany-journal"></a>Lance um diário intercompanhia
-1. Acesse Diários gerais.
+1. Vá para Diários gerais.
 2. Clique em Novo.
 3. Na lista, marque a linha selecionada.
 4. No campo Nome, digite ou selecione o nome do diário intercompanhia.
@@ -51,6 +54,3 @@ A janela de comprovante relacionado mostra o comprovante da empresa de compensa�
 3. Na lista, marque a linha selecionada.
 4. Clique em Comprovante.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

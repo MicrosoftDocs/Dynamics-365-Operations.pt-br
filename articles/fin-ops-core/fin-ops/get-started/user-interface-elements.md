@@ -2,9 +2,11 @@
 title: Elementos da interface do usuário
 description: Este tópico descreve os elementos da interface do usuário (IU) usados no aplicativo.
 author: tlefor
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,17 +14,14 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069314"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797915"
 ---
 # <a name="user-interface-elements"></a>Elementos da interface do usuário
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico descreve os elementos da interface do usuário (IU) usados no aplicativo. Para que os usuários possam navegar na interface, é importante saber os nomes e funções dos elementos que constituem a interface.
 
@@ -78,7 +77,7 @@ A seguinte imagem mostra exemplos desses tipos de notificações.
 
 - **Caixa de mensagem** - É exibida na interface e você deve interagir com antes que você possa continuar a usar o produto.  
 
-![A imagem a seguir mostra um exemplo da caixa de mensagens.](media/user-interface-07.png)
+![A imagem a seguir mostra um exemplo da caixa de mensagens](media/user-interface-07.png)
 
 ## <a name="toolbars-grids-and-lists"></a>Barras de ferramentas, grades e listas
 
@@ -87,6 +86,3 @@ Uma *barra de ferramentas* contém ferramentas, como a habilidade de adicionar c
 Uma *lista* é o nome dado a uma coleção de registros que você pode visualizar. Você pode trazer esses registros para a página selecionando-os. Geralmente, isso abrirá uma grade.
 
 ![Esta imagem mostra exemplos de barras de ferramentas, grades e listas.](media/user-interface-08.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

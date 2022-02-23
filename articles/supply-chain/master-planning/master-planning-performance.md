@@ -1,14 +1,17 @@
 ---
 title: Aumentar o desempenho de planejamento mestre
 description: Este tópico explica as várias opções que podem ajudar a melhorar o desempenho do planejamento mestre ou a solução de problemas.
-author: ChristianRytt
+author: t-benebo
+manager: tfehr
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570912"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422401"
 ---
 # <a name="improve-master-planning-performance"></a>Melhorar o desempenho de planejamento mestre
 
@@ -39,7 +42,7 @@ Vários parâmetros influenciam o tempo de execução do planejamento mestre e d
 
 O parâmetro **Número de threads** permite ajustar o processo de agendamento do planejamento mestre para ajudá-lo a melhorar o desempenho no conjunto de dados específico. Este parâmetro especifica o número total de threads que serão usados para executar o planejamento mestre. Isso causa paralelização da execução do planejamento mestre que ajuda a reduzir o tempo de execução. 
 
-É possível definir o parâmetro **Número de threads** na caixa de diálogo **Execução do planejamento mestre**. Para abrir esta caixa de diálogo, Acesse **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**. Para determinar o melhor valor para este parâmetro, você terá que contar com um processo de tentativa e erro. Entretanto, você pode usar as seguintes fórmulas para calcular um valor inicial:
+É possível definir o parâmetro **Número de threads** na caixa de diálogo **Execução do planejamento mestre**. Para abrir esta caixa de diálogo, vá para **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**. Para determinar o melhor valor para este parâmetro, você terá que contar com um processo de tentativa e erro. Entretanto, você pode usar as seguintes fórmulas para calcular um valor inicial:
 
 - **Se seu setor for de fabricação:** (Número de threads) = (Número de ordens planejadas ÷ 1.000)
 - **Caso contrário:** (Número de threads) = (Número de itens ÷ 1.000)
@@ -81,7 +84,7 @@ Você pode definir o parâmetro **Uso do cache** na seção **Desempenho** na gu
 
 O parâmetro **Número de ordens em pacote de confirmação** especifica o número total de ordens que serão processadas de cada vez por cada thread/lote. Ele causa paralelização do processo de confirmação automática.
 
-Você pode definir o parâmetro **Número de ordens em pacote de confirmação** na seção **Desempenho** na guia **Geral** da página **Parâmetros de planejamento mestre** (**Planejamento mestre \> Configuração \> Parâmetros de planejamento mestre**). A paralelização do processo de confirmação automática se baseia nas ordens que devem ser processadas juntas. Por exemplo, se este parâmetro for definido como **50**, cada thread ou tarefa em lotes coletará 50 pedidos de cada vez e os processará juntos. Recomenda-se usar um processo da tentativa e erro para localizar o melhor valor. Entretanto, você pode usar a seguinte fórmula para calcular um valor inicial:
+Você pode definir o parâmetro **Número de ordens em pacote de confirmação** na seção **Desempenho** na guia **Geral** da página **Parâmetros de planejamento mestre** (**Planejamento mestre \> Configuração \> Parâmetros de planejamento mestre**). A paralelização do processo de confirmação automática é baseada nas ordens que devem ser processadas juntas. Por exemplo, se este parâmetro for definido como **50**, cada thread ou tarefa em lotes coletará 50 pedidos de cada vez e os processará juntos. Recomenda-se usar um processo da tentativa e erro para localizar o melhor valor. Entretanto, você pode usar a seguinte fórmula para calcular um valor inicial:
 
 (Número de ordens por pacote) = (Número de itens de demanda ÷ Número de threads)
 
@@ -124,7 +127,7 @@ Ao examinar o log da sessão, considere o seguinte:
 
 ## <a name="filtering-of-items"></a>Filtragem de itens
 
-Filtros que são aplicados na caixa de diálogo **Execução do planejamento mestre** afetam a duração da execução do planejamento mestre. Acesse **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**. Para excluir os itens da execução, recomendamos que você filtre por estado do ciclo de vida do item (não por números do item). Ao filtrar por estado do ciclo de vida, o processo de atualização leva menos tempo do que quando você filtra por números de item.
+Filtros que são aplicados na caixa de diálogo **Execução do planejamento mestre** afetam a duração da execução do planejamento mestre. Vá para **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**. Para excluir os itens da execução, recomendamos que você filtre por estado do ciclo de vida do item (não por números do item). Ao filtrar por estado do ciclo de vida, o processo de atualização leva menos tempo do que quando você filtra por números de item.
 
 ## <a name="automatically-filter-by-items-with-direct-demand"></a>Filtrar automaticamente pelos itens com demanda direta
 
@@ -159,6 +162,3 @@ Antes de iniciar a etapa de cobertura, há uma etapa de pré-implementação dur
 - **Uma rotina pesada de cada vez** – Não execute o planejamento mestre junto com outra rotina pesada.
 - **Revise o log da sessão.**
 - **Filtragem de itens** – Use o estado do ciclo de vida para excluir itens da execução do planejamento mestre. (Não use os números do item).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

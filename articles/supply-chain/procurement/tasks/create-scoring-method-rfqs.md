@@ -1,24 +1,26 @@
 ---
 title: Criar um método de avaliação para RFQs
 description: Este procedimento mostra como criar um método de avaliação.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQScoringMethod
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb20f557ffafb00e6711abdea37018bfa8c784b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 738768a6756db83a6855756ef48fffb4a5874b4a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577159"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021370"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Criar um método de avaliação para RFQs
 
@@ -26,7 +28,7 @@ ms.locfileid: "7577159"
 
 Este procedimento mostra como criar um método de avaliação. Um método de avaliação é um grupo de critérios que pode ser usado para comparar as ofertas que são enviadas em resposta a um pedido para a cotação (RFQ). Por exemplo, talvez você queira classificar o desempenho passado de um fornecedor, ou avaliar se a empresa é ambientalmente correta ou uma boa parceira, ou você pode querer comparar lances com base em preços. Se um método de pontuação estiver associado ao tipo de solicitação, esse será o método de pontuação padrão para a RFQs que você estiver criando. Essas tarefas são normalmente realizadas por um Gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
 
-1. Acesse Compras > Configuração > Solicitação de cotação > Método de pontuação.
+1. Vá para Compras > Configuração > Solicitação de cotação > Método de pontuação.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -44,6 +46,3 @@ Este procedimento mostra como criar um método de avaliação. Um método de ava
 14. No campo Variar de, insira um número.
 15. No campo Variar a, insira um número.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

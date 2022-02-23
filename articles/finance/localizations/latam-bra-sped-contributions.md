@@ -2,22 +2,25 @@
 title: Definir contribuições SPED EFD
 description: Este tópico explica como configurar parâmetros e gerar o SPED EFD — demonstrativo de contribuições para o Brasil.
 author: sndray
+manager: AnnBe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 89c389c522a0ccc6889cc43cbdc669f136a4f53704d96e06bdec0177916471b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b326d3888e02d45c95b290f620065cee1dd3d16
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721703"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408433"
 ---
 # <a name="set-sped-efd-contributions"></a>Definir contribuições SPED EFD
 
@@ -93,7 +96,7 @@ A implementação do layout versão 006 altera a forma como o campo 02 (**NAT\_R
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de gerar as avaliações de imposto PIS e COFINS e habilitar a geração de registros M410 e M810 que têm a determinação da fonte de receita correta, Acesse **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \> **Código de fontes de receita** e selecione os seguintes parâmetros.
+Antes de gerar as avaliações de imposto PIS e COFINS e habilitar a geração de registros M410 e M810 que têm a determinação da fonte de receita correta, vá para **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \> **Código de fontes de receita** e selecione os seguintes parâmetros.
 
 <table>
 <thead>
@@ -122,7 +125,7 @@ Antes de gerar as avaliações de imposto PIS e COFINS e habilitar a geração d
 </tbody>
 </table>
 
-Acesse **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \> **Fonte de receita por item** para configurar a determinação da fonte de receita.
+Vá para **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \> **Fonte de receita por item** para configurar a determinação da fonte de receita.
 
 <table>
 <thead>
@@ -151,7 +154,7 @@ Acesse **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \
 
 ## <a name="generate-a-sped-efd---contributions-text-file"></a>Gerar um arquivo de texto SPED EFD - Contribuições
 
-1. Acesse **Livros fiscais** \> **Comum** \> **Período de reserva**.
+1. Vá para **Livros fiscais** \> **Comum** \> **Período de reserva**.
 2. Selecione o período de reserva relacionado e selecione **Obrigações fiscais** \> **Contribuições EFD** \> **Executar**.
 3. No campo **Tipo de situação**, selecione o tipo de situação.
 4. No campo **Tipo de arquivo**, selecione **Original** ou **Substituto**.
@@ -161,6 +164,3 @@ Acesse **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \
 
 > [!NOTE]
 > Para usar o processamento em lotes, selecione **Lote** e especifique as opções para a execução do processamento em lotes. Você poderá usar o processamento em lotes se o arquivo precisar ser gerado posteriormente ou se precisar ser gerado em um servidor, e não no computador.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

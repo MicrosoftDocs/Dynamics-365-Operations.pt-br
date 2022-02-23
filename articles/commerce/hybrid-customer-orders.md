@@ -2,12 +2,15 @@
 title: Ordens de cliente híbrido
 description: Um ordem de cliente híbrido é uma única ordem que contém os produtos que podem ser retirados da loja pelo cliente, além produtos a serem retirados ou enviados posteriormente.
 author: josaw1
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 261164
 ms.assetid: 9d99a5b9-4662-499a-bece-3ea1d6092934
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a4cb448670af9a6ddce8008be008cf3b0ff76bbce65053bf4618ea6668c4568d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c2105aa99e0489d7643d076e84123eec628679e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739520"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410275"
 ---
 # <a name="hybrid-customer-orders"></a>Ordens de cliente híbrido
 
@@ -38,6 +41,3 @@ Se uma linha do carrinho for selecionada e a opção **Separação selecionada**
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Ordens de cliente no Modern POS (MPOS)](customer-orders-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

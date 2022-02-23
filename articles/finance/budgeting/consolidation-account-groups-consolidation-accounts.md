@@ -1,36 +1,40 @@
 ---
 title: Grupos de contas de consolidação e contas adicionais de consolidação
-description: Este tópico fornece informações sobre grupos de contas de consolidação e contas de consolidação adicionais e explica como eles são usados.
-author: panolte
+description: Este tópico fornece informações sobre grupos de contas de consolidação e contas de consolidação adicionais e explica como eles são usados no Microsoft Dynamics 365 Finance.
+author: aprilolson
+manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
-ms.author: roschlom
+ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 489f5417b6044e02d4711a03a17d6c19031cc2ee
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 8db7a60656434aafd8114b08c2c0e9493140f27b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883378"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440473"
 ---
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Grupos de conta de consolidação e contas de consolidação adicionais
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Grupos de contas de consolidação e contas adicionais de consolidação
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre grupos de contas de consolidação e contas de consolidação adicionais e explica como eles são usados.
+Este tópico fornece informações sobre grupos de contas de consolidação e contas de consolidação adicionais e explica como eles são usados no Microsoft Dynamics 365 Finance.
 
-## <a name="consolidation-account-groups"></a>Grupos de contas de consolidação
+<a name="consolidation-account-groups"></a>Grupos de contas de consolidação
+----------------------------
 
-Grupos de contas de consolidação permitem que você crie grupos das contas que deseja usar para consolidar dados. Normalmente, um grupo de contas de consolidação representa um plano de contas exigido pelo governo. Um grupo de contas de consolidação também pode mapear contas para um grupo definido pela matriz da empresa. Você pode encontrar grupos de conta de consolidação na área **Configuração** do módulo **Consolidações**. Ao adicionar um novo grupo, você insere um identificador exclusivo para o grupo de conta, além de um nome.
+Grupos de contas de consolidação permitem que você crie grupos das contas que deseja usar para consolidar dados. Frequentemente, um grupo de contas de consolidação representa um plano de contas exigido pelo governo ou mapeia contas para um grupo definido pela matriz da companhia. Você pode encontrar grupos de conta de consolidação na área **Configuração** do módulo **Consolidações**. Ao adicionar um novo grupo, você insere um identificador exclusivo para o grupo de conta e um nome.
 
 ## <a name="additional-consolidation-accounts"></a>Contas de consolidação adicionais
 Contas de consolidação adicionais permitem atribuir uma conta de um plano de contas existente a um grupo de contas de consolidação. Você pode então especificar um valor e um nome de conta de consolidação. 
@@ -50,6 +54,3 @@ Para obter mais informações, consulte [Criar grupos de consolidação e contas
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

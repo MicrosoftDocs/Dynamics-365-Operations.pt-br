@@ -2,28 +2,29 @@
 title: Visão geral da conversão em custo padrão
 description: Este artigo fornece uma visão geral do processo para ajudar você a configurar e a executar uma conversão de custo padrão. As etapas listadas devem ser concluídas depois que você tiver concluído os pré-requisitos de uma conversão de custo padrão.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "78212"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 78212
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9796449bee4361b2b871af10d30341c2f0760ab1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982680"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422263"
 ---
 # <a name="standard-cost-conversion-overview"></a>Visão geral da conversão em custo padrão
 
@@ -94,12 +95,10 @@ O relatório **Demonstrativo de análise de variação** permite analisar a vari
 -   Analise os movimentos de estoque de datas anteriores. Use o relatório **Data do estoque** para exibir os movimentos de estoque com datas anteriores inseridos após a conversão. A Data de início e a Data de término do relatório devem corresponder à data inicial da transição e à data de conversão, menos um dia. Os critérios de seleção do relatório devem refletir os itens convertidos. O relatório mostra os movimentos de estoque feitos ao custo padrão durante o período de transição.
 
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Pré-requisitos para uma conversão em custo padrão](prerequisites-standard-cost-conversion.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

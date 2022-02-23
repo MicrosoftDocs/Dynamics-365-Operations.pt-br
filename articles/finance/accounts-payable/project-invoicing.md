@@ -2,25 +2,28 @@
 title: Faturamento do projeto
 description: Este tópico fornece uma visão geral de faturamento de projeto para projetos por tempo e material e para projetos de preço fixo. Contém informações sobre propostas de nota fiscal (nota fiscal preliminar), controle de notas fiscais, faturamento por conta, faturamento de fornecedor e notas de crédito.
 author: TaylorVH
+manager: AnnBe
 ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: zezhangzhao
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883559"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440303"
 ---
 # <a name="project-invoicing"></a>Faturamento do projeto
 
@@ -58,7 +61,7 @@ Você pode criar propostas de fatura para as seguintes transações:
 
 Você pode criar transações de taxa em uma proposta de fatura. Você também pode alterar o preço de venda por hora, despesa, de itens e transações de taxa. Quando você lança uma proposta de fatura, os preços e as transações atualizadas são adicionados aos relatórios do projeto e ao histórico de transações. 
 
-Para criar várias faturas de cliente para um projeto, você deve criar uma proposta de fatura para cada fatura. Por exemplo, você pode criar faturas com base no tipo de transação. Para especificar as horas em uma fatura de cliente e itens em outra fatura, você deve criar propostas de fatura separadas para transações de horas e transações de taxa. 
+Para criar várias faturas de cliente para um projeto, você deve criar uma proposta de fatura para cada fatura. Por exemplo, você pode criar faturas com base no tipo de transação. Para especificar as horas em uma fatura de cliente e itens em outra fatura, você deve criar propostas de fatura separadas para transações de hora e transações de taxa. 
 
 Se um projeto tiver mais de uma fonte de financiamento, será possível criar uma proposta de fatura separada para cada fonte de financiamento. Na página **Alocações da regra de financiamento**, você pode definir a porcentagem do valor da transação para alocar a cada fonte de financiamento, e a origem na qual lançar as diferenças de arredondamento.
 
@@ -72,7 +75,7 @@ Se sua organização exige que as propostas de fatura sejam revisadas antes de s
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Exibir informações de concessão em páginas de lista de faturas de projeto
 
-Os usuários do setor público podem adicionar a **ID da concessão** e o **Nome da concessão** nas páginas de lista **Propostas de fatura do projeto** e **Faturas de projeto**. Essas colunas são habilitadas usando o recurso **Adicionar informações de concessão a páginas de lista de faturas de projeto**. Este recurso é desativado por padrão e pode ser ativado em **Espaços de trabalho > Gerenciamento de recursos**. Fale com o administrador do sistema para obter assistência para habilitar este recurso.
+Os usuários do setor público podem adicionar a **ID da concessão** e o **Nome da concessão** nas páginas de lista **Propostas de fatura do projeto** e **Faturas de projeto**. Essas colunas são habilitadas usando o recurso **Adicionar informações de concessão a páginas de lista de faturas de projeto**. Este recurso está desativado por padrão e pode ser habilitado em **Espaços de trabalho > Gerenciamento de recursos**. Fale com o administrador do sistema para obter assistência para habilitar este recurso.
 
 ## <a name="on-account-invoicing"></a>Faturamento por conta
 O valor inserido para um projeto em uma fatura por conta é baseado no controle de tempo, percentual de conclusão e em outras condições de cobrança especificadas no contrato de projeto. O valor não é calculado com base nas horas, itens, despesas ou taxas que são lançadas no projeto. 
@@ -129,6 +132,3 @@ Você pode criar uma fatura com um valor negativo, que se torna uma fatura class
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

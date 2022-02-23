@@ -1,26 +1,29 @@
 ---
 title: Mesclar lotes de estoque
 description: Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado.
-author: yufeihuang
+author: pjacobse
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c7fa6bf596510c3b902c12433cc55842ebe0b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa571fb7392f6f7154f7f1bfd908e11e1bebd3a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571896"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422353"
 ---
 # <a name="merge-inventory-batches"></a>Mesclar lotes de estoque
 
@@ -137,6 +140,3 @@ O lançamento trabalha de duas maneiras, dependendo se você usar um processo de
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Após mesclar um item de peso variável, por que eu não consigo ver as informações de peso variável no diário de estoque?
 Você pode mesclar lotes de itens de peso variável da mesma maneira que todos os outros itens. Entretanto, as informações de peso variável não aparecem no diário de estoque. Recomendamos que você verifique as informações de peso variável antes de transferir a mesclagem de lotes para o diário de estoque.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

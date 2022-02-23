@@ -1,34 +1,35 @@
 ---
 title: Configurar um perfil de visão geral de entradas de item
 description: Esse tópico se concentra na configuração de um perfil de visão geral de entradas.
-author: yufeihuang
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5ecfe132d9b0e096c5fdf015f80a6efb34c9b178
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964797"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961414"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Configurar um perfil de visão geral de entradas de item
 
-[!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
 Esse tópico se concentra na configuração de um perfil de visão geral de entradas. O perfil de visão geral de entradas é um conjunto de regras que serão aplicadas quando a página de Visão geral de entradas for aberta por um usuário. Você pode usar este procedimento na empresa USMF de dados de demonstração. Este procedimento será geralmente executado por um auxiliar de recebimento.
 
-1. No painel de navegação, Acesse **Módulos > Gerenciamento de estoque > Configuração > Distribuição > Perfis de visão geral de entrada**.
+1. No painel de navegação, vá para **Módulos > Gerenciamento de estoque > Configuração > Distribuição > Perfis de visão geral de entrada**.
 2. Selecione **Novo**. Considerando que você quase sempre irá trabalhar no mesmo depósito descarregando cargas de caminhões, você deve criar uma visão geral das chegadas para simplificar o processo de registro de itens recebidos.  
 3. No campo **Nome do perfil de visão geral de entradas**, digite um valor.
 4. No campo **Mostrar linhas**, selecione uma opção. Selecione quais linhas dos recibos devem ser exibidas:  
@@ -52,6 +53,3 @@ Esse tópico se concentra na configuração de um perfil de visão geral de entr
 17. Selecione **Salvar**.
 18. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

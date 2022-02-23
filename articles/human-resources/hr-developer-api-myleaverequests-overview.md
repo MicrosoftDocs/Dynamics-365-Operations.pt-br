@@ -2,31 +2,30 @@
 title: Visão geral de MyLeaveRequests
 description: A entidade MyLeaveRequests no Microsoft Dynamics 365 Human Resources fornece a lista de solicitações de licença no sistema, com escopo (limitado) para as solicitações acessíveis ao usuário atual que consulta a entidade.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 41ef8c6fc0e896e7f2cefd94801abab610083b81
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4bf3b298af9eb39e03514a4005afb43a42908e47
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070845"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417215"
 ---
 # <a name="myleaverequests-overview"></a>Visão geral de MyLeaveRequests
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 A entidade MyLeaveRequests no Microsoft Dynamics 365 Human Resources fornece a lista de solicitações de licença no sistema, com escopo (limitado) para as solicitações acessíveis ao usuário atual que consulta a entidade.
 
@@ -65,5 +64,3 @@ A entidade MyLeaveRequests no Microsoft Dynamics 365 Human Resources fornece a l
 
 - [Enviar uma solicitação de licença para o fluxo de trabalho](hr-developer-api-myleaverequests-submit.md)
 - [Autenticação](hr-developer-api-authentication.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

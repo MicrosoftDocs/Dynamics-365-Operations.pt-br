@@ -1,23 +1,26 @@
 ---
 title: Visão geral de Brasil
 description: Este tópico fornece links para recursos de documentação do Microsoft Dynamics 365 Finance para o Brasil.
-author: kfend
-ms.date: 01/20/2022
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.custom: ''
 ms.search.region: Brazil
-ms.author: kfend
+ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 939616c5ae8a8464c5df823c6b65d5b6ed3e0749
-ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.openlocfilehash: 6f79091a473449e87e72ad45aeb20f7936518825
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "8016112"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968340"
 ---
 # <a name="brazil-overview"></a>Visão geral de Brasil
 
@@ -75,7 +78,6 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 - Tarefas para o Brasil
   - [Configurar parâmetros de entidade legal](tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md)
   - [Configurar modelos de texto da nota fiscal](tasks/br-00001-2-set-up-fiscal-document-source-text.md)
-  - [Configurar números de conta bancária para o Brasil](latam-bra-bank-account-number-setup-brazil-localization.md)
   - [Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis de longo prazo)](tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md)
   - [Receber notas fiscais de fornecedor (produtos)](tasks/br-00024-receiving-vendor-fiscal-document-products.md)
   - [Criar e lançar uma nota fiscal complementar de compra](tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md)
@@ -110,9 +112,6 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Visão geral de Relatório eletrônico](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
-- [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Visão geral de Relatório eletrônico](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Portal de localização do Microsoft Dynamics: relatório da Austrália (exige uma conta CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/brazil.html)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

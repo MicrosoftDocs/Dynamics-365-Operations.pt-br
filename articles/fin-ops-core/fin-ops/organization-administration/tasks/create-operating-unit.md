@@ -2,9 +2,11 @@
 title: Criar uma unidade operacional
 description: Uma unidade operacional é uma organização usada para dividir o controle de recursos econômicos e os processos operacionais em uma empresa.
 author: sericks007
+manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758984"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796721"
 ---
 # <a name="create-an-operating-unit"></a>Criar uma unidade operacional
 
@@ -26,7 +28,7 @@ ms.locfileid: "6758984"
 
 Uma unidade operacional é uma organização usada para dividir o controle de recursos econômicos e os processos operacionais em uma empresa. As pessoas de uma unidade operacional têm um imposto para maximizar o uso de recursos escassos, melhorar os processos e a conta para o desempenho. Os tipos de unidades operacionais incluem centros de custos, unidades de negócios, departamentos e fluxos de valor. Use o procedimento a seguir para criar uma unidade operacional. A empresa de dados demo usada para criar este procedimento é USMF.
 
-1. Acesse **Painel de navegação > Módulos > Administração da organização > Organizações > Unidades operacionais**.
+1. Vá para **Painel de navegação > Módulos > Administração da organização > Organizações > Unidades operacionais**.
 2. Clique em **Novo** para abrir a caixa de diálogo suspensa.
 3. Na lista, localize e selecione o PDV desejado. Selecione o tipo de unidade operacional que você deseja criar.  
 4. Na lista, clique no link na linha selecionada.
@@ -39,6 +41,3 @@ Uma unidade operacional é uma organização usada para dividir o controle de re
     + Insira informação sobre métodos de comunicação, como endereços de e-mail, URLs, e números de telefone. Para inserir um novo registro de comunicação, clique em Novo. Para modificar um registro de comunicação existente, clique em **Mais opções > Avançado**.   
 6. Opcionalmente, altere o **Número da unidade operacional** quando necessário. Observe que esse número é um identificador exclusivo para o registro **Participante** correspondente e não pode ser o mesmo que qualquer outra unidade operacional.
 7. Selecione **Salvar**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,22 +2,25 @@
 title: SPED ECD
 description: Este tópico explica como configurar e gerar arquivos de texto do SPED ECD.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 16ea5bdc96e8d2ae5760f11deba91970aeb4569a3636dd50d9b1a7dff2701489
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e8d591bbb9ff0ae0a5c81704eb8623dbcf416e8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739916"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408432"
 ---
 # <a name="sped-ecd"></a>SPED ECD
 
@@ -120,6 +123,3 @@ Para gerar e validar o arquivo de texto para o demonstrativo SPED ECD, siga esta
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Gerar a obrigação de imposto Sintegra](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/bra-parameters-tax/articles/financials/localizations/latam-bra-set-up-parameters-for-tax-statements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

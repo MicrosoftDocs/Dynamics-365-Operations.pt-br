@@ -2,25 +2,28 @@
 title: Adicionar local e tipos de relacionamento do participante
 description: Este tópico explica como adicionar um novo local e tipo de relacionamento do participante.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a69ace892c55948305419a089cb91ac5b1e3c066177f8ce2ca441f1dd01c2af0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728856"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440380"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Adicionar local e tipos de relacionamento do participante 
 
@@ -32,25 +35,25 @@ Há duas maneiras de adicionar novas funções do local para endereço e informa
 
 -  Adicione-as através da página **Finalidade das informações de endereço e de contato**. A nova função será salva na tabela **LogisticsLocationRole** com tipo = 0, que indica que a função não é definida pelo sistema na enumeração **LogisticsLocationRoleType** e em suas extensões. Um usuário poderá usar esta função ao criar o endereço ou informações de contato.
 
-    ![Finalidade das informações de endereço e de conteúdo.](media/Address-Contact.PNG)
+    ![Finalidade das informações de endereço e de conteúdo](media/Address-Contact.PNG)
 
 -  Adicione-a à extensão de enumeração **LogisticsLocationRoleType** e deixe-a preencher através do processo de sincronização do banco de dados.
 
     1.  Crie uma extensão para a enumeração **LogisticsLocationRoleType** e adicione a nova função na extensão. 
   
-        ![Extensão para a enumeração LogisticsLocationRoleType.](media/Logistics.PNG)
+        ![Extensão para a enumeração LogisticsLocationRoleType](media/Logistics.PNG)
 
     2. Crie um novo arquivo de recursos para a nova função, e atribua um valor para suas propriedades.
      
-     ![Novo arquivo de recurso.](media/Resource.PNG)
+     ![Novo arquivo de recurso](media/Resource.PNG)
         
     3.  Crie uma classe da população de dados e forneça um método do manipulador para preencher a nova função. 
 
-        ![Preenchimento de dados.](media/Dirdata.PNG)
+        ![Preenchimento de dados](media/Dirdata.PNG)
 
     4.  Para testar o preenchimento da nova função do local, você pode criar uma classe executável e chamar DirDataPopulation::insertLogisticsLocationRoles() in Main(). Depois que esse processo for concluído, você deverá ver a nova função preenchida na tabela **LogisticsLocationRole** com tipo \> 0. A nova função será exibida na página **Finalidade das informações de endereço e de contato**.
 
-        ![Inserir novo local.](media/InsertNewLocation.PNG)
+        ![Inserir novo local](media/InsertNewLocation.PNG)
 
 ## <a name="add-party-relationship-types"></a>Adicionar tipos de relacionamento do participante 
 
@@ -58,7 +61,7 @@ Há duas maneiras de adicionar um novo tipo de relacionamento:
 
 -   Adicione-o através da página **Tipos de relacionamento**. O novo relacionamento será salvo na **DirRelationshipTypeTable** com systemtype = 0.
 
-    ![Tipos de relacionamentos.](media/Relationship.PNG)
+    ![Tipos de relacionamentos](media/Relationship.PNG)
 
 -  Adicione-o à extensão da enumeração **DirSystemRelationshipType** e deixe-o preencher através do processo de sincronização do banco de dados.
 
@@ -66,11 +69,8 @@ Há duas maneiras de adicionar um novo tipo de relacionamento:
 
     2. Crie um inicializador para este novo tipo. Você pode encontrar vários exemplos no código principal, um deles é **DirRelationshipTypeChildInitialize**. Esta é uma classe do inicializador para o tipo de relacionamento da parte "Filho". Comece com o inicializador, copiando e colando este código e, em seguida, atualize as áreas destacadas.
     
-    ![Inicializador de DirRelationshipChild.](media/DirRelationship.PNG)
+    ![Inicializador de DirRelationshipChild](media/DirRelationship.PNG)
 
     3.  Para testar o preenchimento do novo tipo de relacionamento você pode criar uma classe executável e chamar DirDataPopulation::insertDirRelationshipTypes() in Main(). Você deve verificar o novo tipo de relacionamento na **DirRelationshipTypeTable** e o novo tipo de relacionamento estará disponível na página **Tipos de relacionamento** .
 
-        ![Classe executável.](media/Runnable.PNG)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+        ![Classe executável](media/Runnable.PNG)

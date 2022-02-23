@@ -2,25 +2,28 @@
 title: Liquidar um pagamento parcial de cliente com descontos em notas de crédito
 description: Este artigo mostra um cenário onde um desconto à vista é aplicado a uma nota de crédito quando a fatura original também tinha um desconto à vista.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6476fed0ac10888c51266128f950fc0e1418b13c743894ab0992d051e733c4e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4440521"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar um pagamento parcial de cliente com descontos em notas de crédito
 
@@ -39,7 +42,7 @@ O cliente 4035 possui uma fatura de 1.000,00 e uma nota de crédito de 100,00. C
 | CCRN-10050 | Nota de crédito      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Liquidar uma nota de crédito com uma fatura
-Na página **Transações do cliente**, Arnie abre a página **Liquidar transações**. Arnie pode usar a página **Liquidar transações** para liquidar a fatura e a nota de crédito. Como parte do processo de liquidação, Arnie visualiza as datas e os valores de desconto em dinheiro. Arnie marca os dois documentos e clica em **Postar** para liquidar as transações. Há um desconto de -1,00 na nota de crédito, pois a Fabrikam permite descontos em notas de crédito.
+Na página **Transações do cliente**, Arnie abre a página **Liquidar transações**. Ele pode usa a página **Liquidar transações** para liquidar a fatura e a nota de crédito. Como parte do processo de liquidação ele exibe as datas e os valores de desconto à vista. Ele marca os dois documentos e clica em **Lançar** para liquidar as transações. Há um desconto de -1,00 na nota de crédito, pois a Fabrikam permite descontos em notas de crédito.
 
 | Marcar     | Usar desconto à vista | Comprovante    | Conta | Data      | Data de conclusão  | Fatura  | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
@@ -58,6 +61,3 @@ A liquidação será de 100,00 e incluirá um pagamento de 99,00 e um desconto d
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

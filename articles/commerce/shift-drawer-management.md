@@ -2,26 +2,29 @@
 title: Gerenciamento de turnos e caixa registradora
 description: Este tópico explica como configurar e utilizar turnos no ponto de venda (PDV) do Commerce.
 author: jblucher
+manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 32b7be42509a2c857f1357eb64a6b488f9cd2269
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779735"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410263"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gerenciamento de turnos e caixa registradora
 
@@ -45,7 +48,7 @@ Tradicionalmente, esse cenário tem sido usado com mais frequência. Ainda é us
 
 Em um turno de "gaveta do caixa flutuante", o turno e a gaveta de dinheiro podem ser movidos de uma caixa registradora à outra. Embora uma caixa registradora possa ter apenas um turno ativo por gaveta de dinheiro, os turnos podem ser suspensos e retomados posteriormente ou em uma caixa registradora diferente.
 
-Por exemplo, uma loja tem duas caixas registradoras. Cada caixa registradora é aberta no início do dia quando o caixa abre um novo turno e fornece o valor inicial. Quando um caixa estiver pronto para fazer uma interrupção, ele suspenderá seu turno e removerá a gaveta da caixa registradora. Essa caixa registradora então ficará disponível para outros caixas. Outro caixa pode entrar e abrir seu próprio turno na caixa registradora. Quando o intervalo do primeiro caixa acabar, ele poderá retomar seu turno quando uma das outras caixas registradoras ficar disponível. Turnos de "gaveta do caixa flutuante" não exigem nenhuma configuração ou permissão especial.
+Por exemplo, uma loja tem duas caixas registradoras. Cada caixa registradora é aberta no início do dia quando o caixa abre um novo turno e fornece o valor inicial. Quando um caixa estiver pronto para fazer uma interrupção, ele suspenderá seu turno e removerá a gaveta do caixa da gaveta de dinheiro. Essa caixa registradora então ficará disponível para outros caixas. Outro caixa pode entrar e abrir seu próprio turno na caixa registradora. Depois do término da interrupção do primeiro caixa, este poderá retomar seu turno quando uma das outras caixas registradoras ficar disponível. Turnos de "gaveta do caixa flutuante" não exigem nenhuma configuração ou permissão especial.
 
 ### <a name="single-user"></a>Usuário único
 
@@ -150,11 +153,8 @@ A maneira como os turnos e a reconciliação de gavetas de dinheiro são usados 
 
 Embora cada varejista tenha necessidades comerciais diferentes, recomendamos configurar o sistema da seguinte maneira para evitar situações em que diferenças desse tipo ocorram:
 
-Acesse **Retail e Commerce \> Canais \> Lojas \> Todas as lojas de varejo \> Demonstrativo/fechamento** e, para cada loja, defina os campos **Método do demonstrativo** e **Método de fechamento** como **Turno**.
+Vá para **Retail e Commerce \> Canais \> Lojas \> Todas as lojas de varejo \> Demonstrativo/fechamento** e, para cada loja, defina os campos **Método do demonstrativo** e **Método de fechamento** como **Turno**.
 
 Essa configuração ajuda a garantir que os demonstrativos do back office incluam as mesmas transações que os turnos no PDV, e que os dados sejam resumidos por esse turno.
 
-Para obter mais informações sobre métodos de demonstrativo e de fechamento, consulte [Configurações de loja para obter demonstrativo do Retail](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Para obter mais informações sobre métodos de demonstrativo e de fechamento, consulte [Configurações de loja para obter demonstrativo do Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).

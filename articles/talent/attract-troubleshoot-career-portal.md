@@ -72,5 +72,3 @@ Atribua a função de usuário de talento à equipe de relacionamento de talento
 
    1. Entre no portal de carreira em uma nova janela do navegador.
    2. Candidatar-se ao emprego no portal de carreiras. 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

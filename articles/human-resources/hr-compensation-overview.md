@@ -1,34 +1,33 @@
 ---
 title: Planos de remuneração
-description: Este tópico descreve como usar o gerenciamento de remuneração para gerenciar e processar planos de remuneração.
-author: twheeloc
-ms.date: 08/25/2021
-ms.topic: overview
+description: Os gerentes de remuneração e de benefícios que podem usar o gerenciamento de remuneração para manter e processar planos de compensação fixos e variáveis para os funcionários da organização.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066891"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417242"
 ---
 # <a name="compensation-plans"></a>Planos de remuneração
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Os gerentes de remuneração e de benefícios que podem usar o **Gerenciamento de remuneração** para manter e processar planos de remuneração fixos e variáveis para os funcionários da organização.
+Os gerentes de remuneração e de benefícios que podem usar o gerenciamento de remuneração para manter e processar planos de compensação fixos e variáveis para os funcionários da organização.
 
 ### <a name="introduction"></a>Introdução
 
@@ -45,7 +44,7 @@ A tabela a seguir lista os componentes do processo de remuneração que podem in
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Mais informações</th>
+<th>Mais informações...</th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +90,7 @@ A tabela a seguir lista os componentes do processo de remuneração que podem in
 </tr>
 <tr class="even">
 <td>Ponto de controle</td>
-<td>O ponto de controle define o que você considera ser a taxa de pagamento ideal para todos os funcionários em um nível de remuneração. Para estruturas de plano graduais, os pontos de controle são, em geral, o ponto intermediário das faixas. As estruturas de faixa raramente usam pontos de controle. Você pode especificar o ponto de controle para um plano de remuneração fixa na página **Planos de remuneração fixa**.</td>
+<td>O ponto de controle define o que você considera ser a taxa de pagamento ideal para todos os funcionários em um nível de remuneração. Para estruturas de plano graduais, os pontos de controle são, em geral, o ponto intermediário das faixas. As estruturas de faixa raramente usam pontos de controle. Você pode especificar o ponto de controle para um plano de remuneração fixa no formulário Planos de remuneração fixa.</td>
 </tr>
 <tr class="odd">
 <td>Funções de trabalho</td>
@@ -123,7 +122,8 @@ A tabela a seguir lista os componentes do processo de remuneração que podem in
 ## <a name="process-events"></a>Eventos de processo
 Um evento de processo calcula as informações de remuneração de um determinado período para todos os funcionários que estão inscritos em um ou mais planos de remuneração fixa ou variável. Você pode executar um evento de processo repetidamente para testar ou atualizar os resultados de remuneração calculados.
 
-## <a name="compensation-events"></a>Eventos de remuneração
+<a name="compensation-events"></a>Eventos de remuneração
+-------------------
 
 Toda vez que um processo de evento é executado, um evento de remuneração é criado.  Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.  Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.
 
@@ -132,6 +132,3 @@ Depois de executar um evento de processo, você pode recomendar ajustes no aumen
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

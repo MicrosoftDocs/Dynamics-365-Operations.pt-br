@@ -1,35 +1,33 @@
 ---
 title: Processar eventos de vida
 description: Durante o ciclo de vida do funcionário no Microsoft Dynamics 365 Human Resources, cada funcionário pode encontrar várias alterações de eventos de vida.
-author: twheeloc
-ms.date: 08/23/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9155795edf657d6589539e58d4c1536f7e9d64c3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069646"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417233"
 ---
 # <a name="process-life-events"></a>Processar eventos de vida
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Durante o ciclo de vida do funcionário no Microsoft Dynamics 365 Human Resources, cada funcionário pode encontrar várias alterações de eventos de vida. Por exemplo, casamento, mudança de emprego ou alteração de dependente/beneficiário. Para usar eventos de vida, você deve habilitar eventos de vida na página **Parâmetros de benefícios**, configurar tipos de eventos de vida e configurar opções de eventos de vida para tipos de plano.
+Durante o ciclo de vida do funcionário no Microsoft Dynamics 365 Human Resources, cada funcionário pode encontrar várias alterações de eventos de vida. Por exemplo, casamento, mudança de emprego ou alteração de dependente/beneficiário. Para usar eventos de vida, você deve habilitar eventos de vida no formulário de parâmetros de benefícios, configurar tipos de eventos de vida e configurar opções de eventos de vida para tipos de plano.
 
 Antes de poder processar eventos de vida, você já deve ter executado a inscrição aberta pelo menos uma vez durante um período de contratação. Nos Estados Unidos, a inscrição aberta costuma ocorrer uma vez por ano. Fora dos Estados Unidos, a inscrição aberta pode ser realizada no momento da contratação. Um trabalhador não precisa selecionar um plano de benefícios para que os eventos de vida sejam processados, mas eles precisam ter sido incluídos no processamento de inscrição aberta. 
 
@@ -59,6 +57,3 @@ Por exemplo, se hoje for 1º de fevereiro, houver um agendamento para que trabal
    4. Selecione **OK**. O processo será executado com os parâmetros definidos por você.
 
 4. Selecione **OK**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

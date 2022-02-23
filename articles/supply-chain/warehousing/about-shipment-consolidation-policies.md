@@ -2,27 +2,28 @@
 title: Políticas de consolidação da remessa
 description: Este tópico fornece uma visão geral da funcionalidade que fornece uma configuração flexível das políticas de consolidação de remessa.
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577951"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654187"
 ---
 # <a name="shipment-consolidation-policies"></a>Políticas de consolidação da remessa
-
-[!include [banner](../includes/banner.md)]
 
 O processo de consolidação de remessa que usa políticas de consolidação de remessa permite a consolidação de remessa automatizada durante a liberação automatizada e manual para o depósito. A consolidação automatizada que estava disponível antes da apresentação deste recurso tinha campos codificados e se baseava no campo **Remessa consolidada em liberação para depósito** que foi definido para um depósito.
 
@@ -134,6 +135,3 @@ A tabela a seguir resume como a consolidação de remessa funciona quando você 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Configurar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Códigos de motivo para ordens de serviço
 description: Use códigos de motivo para ajudar a explicar o status de uma ordem de serviço quando a fase de uma ordem de serviço é atualizada.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAStageTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac21174cc0e6319494f2db0530e68229325b07f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9093cd36ecf667d3ebf6970f7e4b2deb580e3723
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566182"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965846"
 ---
 # <a name="reason-codes-for-service-orders"></a>Códigos de motivo para ordens de serviço   
 
@@ -47,6 +49,3 @@ Os códigos de motivo são opcionais. Você pode decidir se deseja exigir um có
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

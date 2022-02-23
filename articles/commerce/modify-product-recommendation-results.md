@@ -2,13 +2,16 @@
 title: Ajustar resultados da recomendação de produtos com base em IA-ML
 description: Este tópico explica como personalizar os resultados da recomendação do produto com base em aprendizado de máquina de inteligência artificial (AI-ML) para sua empresa.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748513"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410274"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajustar resultados da recomendação de produtos com base em IA-ML
 
@@ -51,7 +54,7 @@ Dependendo do seu negócio, a lista "Mais vendidos" poderá gerar resultados dif
 
 A lista de produtos "Mais vendidos" tem um parâmetro que pode ser alterado:
 
-![Exemplo de parâmetro padrão da lista de Melhor venda.](./media/examplebestsellingparameters.PNG)
+![Exemplo de parâmetro padrão da lista de Melhor venda](./media/examplebestsellingparameters.PNG)
 
 1. **Incluir vendas dos últimos X dias** - As transações de vendas que ocorreram dentro do número especificado de dias, antes da data atual, podem ser usadas para solicitar os produtos. O valor padrão acima sugere que todas as compras de um produto, feitas nos últimos 30 dias, seriam usadas para determinar a colocação do produto na lista de produtos Mais vendidos. 
 
@@ -65,13 +68,13 @@ A lista de produtos "Mais vendidos" tem um parâmetro que pode ser alterado:
 1.  Para adicionar produtos à tabela, selecione **Adicionar linha**. 
 1.  Na coluna Produto, procure um produto pelo **Nome** ou **Número do produto.**
 
-    ![Exemplo de pesquisa de um produto na Nova lista de produtos.](./media/examplenewlistconfiguration1.png)
+    ![Exemplo de pesquisa de um produto na Nova lista de produtos](./media/examplenewlistconfiguration1.png)
 
 1.  Na coluna Tipo de linha, selecione uma das duas opções:
     -   **Incluir** – coloca um produto à frente da lista
     -   **Excluir** – impede que um produto apareça na lista
     
-    ![Exemplo de inclusão ou exclusão de um produto da nova lista de produtos.](./media/examplenewlistconfiguration2.png)
+    ![Exemplo de inclusão ou exclusão de um produto da nova lista de produtos](./media/examplenewlistconfiguration2.png)
 
 1.  Alterar a **Ordem de exibição** alterará a ordem na qual os produtos marcados como **incluir** aparecerão na lista.
     - Se dois produtos tiverem o mesmo valor de **ordem de exibição**, então a ordem final desses dois resultados pode ser diferente do back office.
@@ -87,11 +90,11 @@ Um *produto de origem* é o produto para o qual você deseja gerar resultados. N
 Siga estas etapas para adicionar ou remover manualmente os resultados de um produto de origem:
 1.  Selecione o **Produto de origem**. 
 1.  Na coluna **Produto**, procure um produto por **Nome** ou **Número do produto.**
-![Exemplo de como procurar um produto na lista Frequentemente comprado junto.](./media/exampleFBTlistconfiguration1.png)
+![Exemplo de como procurar um produto na lista Frequentemente comprado junto](./media/exampleFBTlistconfiguration1.png)
 1. Na coluna **Tipo de linha**, selecione uma das duas opções:
     - **Incluir** – coloca um produto à frente da lista
     - **Excluir** – impede que um produto apareça na lista     
-![Exemplo de Como Incluir ou Excluir um produto na lista de Frequentemente comprado junto.](./media/exampleFBTlistconfiguration2.png)
+![Exemplo de Como Incluir ou Excluir um produto na lista de Frequentemente comprado junto](./media/exampleFBTlistconfiguration2.png)
 1.  Para remover os produtos da tabela: selecione a linha para remover e selecione Remover.
 
 
@@ -118,6 +121,3 @@ Siga estas etapas para adicionar ou remover manualmente os resultados de um prod
 [Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

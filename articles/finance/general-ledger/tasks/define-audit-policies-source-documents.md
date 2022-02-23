@@ -2,9 +2,11 @@
 title: Definir políticas de auditoria para documentos de origem
 description: Este tópico explica como configurar e executar regras de diretiva de auditoria.
 author: panolte
+manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722662"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021420"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Definir políticas de auditoria para documentos de origem
 
@@ -26,7 +28,7 @@ ms.locfileid: "6722662"
 
 Este tópico explica como configurar e executar regras de diretiva de auditoria. O exemplo usa relatórios de despesas com o tipo de despesa do hotel. Este procedimento usa a empresa de dados de demonstração USMF. A função do auditor contém as permissões corretas para executar essas tarefas.
 
-1. No Painel de Navegação, Acesse **Módulos > Bancada de auditoria > Configuração > Tipo de regra de política**.
+1. No Painel de Navegação, vá para **Módulos > Bancada de auditoria > Configuração > Tipo de regra de política**.
 2. Selecione **Novo**.
 3. No campo **Nome da regra**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -35,13 +37,13 @@ Este tópico explica como configurar e executar regras de diretiva de auditoria.
 7. No campo **Entidade legal**, selecione **Entidade legal**
 8. No campo **Referência da data do documento**, selecione **Data e hora da modificação**
 9. Selecione **Salvar**.
-10. No Painel de Navegação, Acesse **Módulos > Bancada de auditoria > Configuração > Políticas de auditoria**.
+10. No Painel de Navegação, vá para **Módulos > Bancada de auditoria > Configuração > Políticas de auditoria**.
 11. Selecione **Novo**.
 12. No campo **Nome**, digite um valor.
 13. Expanda a seção **Organizações de política**.
-14. Na árvore, selecione **Contoso Entertainment System USA** e, em seguida, **Adicionar**.
-15. Na árvore, selecione **Contoso Consulting USA** e, em seguida, **Adicionar**.
-16. Na árvore, selecione **Contoso Retail USA** e, em seguida, **Adicionar**.
+14. Na árvore, selecione **Contoso Entertainment System USA** e **Adicionar**.
+15. Na árvore, selecione **Contoso Consulting USA** e **Adicionar**.
+16. Na árvore, selecione **Contoso Retail USA** e **Adicionar**.
 17. Recolha a seção **Organizações de política**.
 18. Expanda a seção **Regras de política**.
 19. Na lista, localize e selecione as regras de diretiva que foram criadas anteriormente.
@@ -80,11 +82,8 @@ Este tópico explica como configurar e executar regras de diretiva de auditoria.
 52. Expanda a seção **Executar em segundo plano**.
 53. Selecione **Sim** no campo **Processamento em lotes**.
 54. Selecione **OK**.
-55. No Painel de Navegação, Acesse **Módulos > Bancada de auditoria > Configuração > Casos de auditoria**.
+55. No Painel de Navegação, vá para **Módulos > Bancada de auditoria > Configuração > Casos de auditoria**.
 56. Na lista, localize e selecione o registro desejado.
 57. Expanda a seção **Associações**.
 58. Na lista, localize e selecione o registro desejado.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

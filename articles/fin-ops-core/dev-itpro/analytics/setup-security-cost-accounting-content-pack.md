@@ -1,10 +1,12 @@
 ---
 title: Configurar segurança do conteúdo do Power BI da análise de Contabilidade de custos
-description: Este tópico explica como você pode propagar a segurança de nível de acesso em Contabilidade de custos para a segurança em nível de linha no Microsoft Power BI.
+description: Este tópico explica como você pode propagar a segurança de nível de acesso em Contabilidade de custos para a segurança em nível de linha no Microsoft Power BI. Essa funcionalidade ajuda a garantir que os usuários vejam apenas os dados do Power BI aos quais eles têm acesso.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,14 +16,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751482"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682180"
 ---
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Configurar segurança do conteúdo da análise de contabilização de custos do Power BI
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Configurar segurança do conteúdo do Power BI da análise de Contabilidade de custos
 
 [!include [banner](../includes/banner.md)]
 
@@ -29,7 +31,7 @@ Este tópico explica como você pode propagar a segurança de nível de acesso e
 
 ## <a name="overview"></a>Visão Geral
 
-O conteúdo da **Análise de contabilidade de custo** do Microsoft Power BI usa a segurança a nível de linha do Power BI para limitar o acesso do usuário. A segurança é baseada na hierarquia organizacional de nível de acesso que é configurada nos parâmetros de contabilidade de custo previsto. Para obter mais informações sobre o conteúdo de **Análise de contabilidade de custo** do Power BI, consulte [Conteúdo de análise de contabilidade de custo do Power BI](cost-accounting-analysis-content-pack.md).
+O conteúdo de **Análise de contabilidade de custo** do Microsoft Power BI usa a segurança a nível de linha do Power BI para limitar o acesso do usuário. A segurança é baseada na hierarquia organizacional de nível de acesso que é configurada nos parâmetros de contabilidade de custo previsto. Para obter mais informações sobre o conteúdo de **Análise de contabilidade de custo** do Power BI, consulte [Conteúdo de análise de contabilidade de custo do Power BI](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>Instalação
 Para propagar a segurança de nível de acesso ao Power BI, o proprietário do conteúdo do Power BI deve seguir estas etapas.
@@ -42,11 +44,11 @@ Para propagar a segurança de nível de acesso ao Power BI, o proprietário do c
 3. Localize o conjunto de dados para o conteúdo de **Análise de contabilidade de custos** do Power BI.
 4. Abra a página de segurança.
 
-    ![Abrindo a página de segurança.](./media/CA-picture-1.png)
+    ![Abrindo a página de segurança](./media/CA-picture-1.png)
 
 5. A função **Controlador de objeto de custo** já está criada. Adicione outros membros que fazem parte da hierarquia organizacional do nível de acesso da contabilidade de custos.
 
-    ![Adicionando membros.](./media/CA-picture-2.png)
+    ![Adicionando membros](./media/CA-picture-2.png)
 
 Os usuários que forem adicionados à função **Controlador de objeto de custo** verão apenas os dados que eles estão autorizados a ver, de acordo com a definição na hierarquia organizacional de nível de acesso da contabilidade de custos.
 
@@ -61,6 +63,3 @@ Suponhamos que sua organização deseja restringir o acesso aos dados. Se, por a
 
 ## <a name="additional-resources"></a>Recursos adicionais
 Para saber mais sobre a segurança em nível de linha do Power BI, consulte [Gerenciar a segurança do seu modelo no Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

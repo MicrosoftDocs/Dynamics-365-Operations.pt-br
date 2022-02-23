@@ -2,13 +2,16 @@
 title: Redefinir números de recibo
 description: Este tópico descreve como redefinir os números de recibo usados para várias ações em uma data desejada (por exemplo, o ano fiscal ou o ano civil).
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733860"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410121"
 ---
 # <a name="reset-receipt-numbers"></a>Redefinir números de recibo 
 
@@ -30,7 +33,7 @@ ms.locfileid: "6733860"
 > [!NOTE]
 > Será necessário selecionar a propriedade **Sequência independente** para todos os tipos de recibos no perfil de funcionalidade antes de usar este recurso. Além disso, o fuso horário do sistema do dispositivo, no qual o PDV está sendo usado, deve corresponder ao fuso horário da loja correspondente. Devido a essas limitações, recomendamos que você não use este recurso na produção enquanto trabalhamos para corrigir esses problemas em uma versão futura. 
 
-Os varejistas geram números de recibo para várias ações na loja, como transações cash and carry, transações de devolução, ordens de cliente, cotações e pagamentos. Embora os varejistas definam seus próprios formatos de recibo, alguns países ou regiões têm regulamentos que colocam restrições nesses formatos de recibo. Por exemplo, esses regulamentos podem limitar o número de caracteres no recebimento, exigir números de recibo consecutivos, restringir alguns caracteres especiais ou exigir a redefinição de números de recibo no início do ano. O Microsoft Dynamics 365 Commerce torna o processo de gerenciar números de recibo muito flexível, para ajudar os varejistas a cumprirem requisitos de regulamentação. Este tópico explica como usar a funcionalidade para redefinir números de recibo.
+Os varejistas geram números de recibo para várias ações na loja, como transações cash and carry, transações de devolução, ordens de cliente, cotações e pagamentos. Embora os varejistas definam seus próprios formatos de recibo, alguns países ou regiões têm regulamentos que colocam restrições nesses formatos de recibo. Por exemplo, esses regulamentos podem limitar o número de caracteres no recebimento, exigir números de recibo consecutivos, restringir alguns caracteres especiais ou exigir a redefinição de números de recibo no início do ano. O Microsoft Dynamics 365 Commerce torna o processo de gerenciar números de recibo muito flexível, para ajudar os varejistas a cumprir requisitos de regulamentação. Este tópico explica como usar a funcionalidade para redefinir números de recibo.
 
 No Commerce, os formatos de recibo podem ser alfanuméricos. Você pode colocar conteúdo estático e conteúdo dinâmico neles. O conteúdo estático inclui caracteres alfabéticos, números e caracteres especiais. O conteúdo dinâmico inclui um ou mais caracteres que representam informações como o número da loja, o número do terminal, a data, o mês, o ano e as sequências numéricas que são incrementadas automaticamente. Os formatos são definidos na seção **Numeração do recibo** do perfil de funcionalidade. A tabela a seguir descreve os caracteres que representam o conteúdo dinâmico.
 
@@ -49,13 +52,13 @@ Você pode redefinir a numeração sequencial do recibo em uma data específica.
 
 Para ativar a redefinição, siga estas etapas.
 
-1. Acesse **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**.
+1. Vá para **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**.
 1. Na Guia Rápida **Numeração de recibo**, selecione **Redefinir data de redefinição de número**.
 1. Na caixa de diálogo suspensa, no campo **Redefinir data**, selecione uma data futura em que a redefinição deverá ocorrer.
 1. No campo **Redefinir tipo de recibo**, selecione **Apenas uma vez** ou **Anual**.
 1. Selecione **OK**.
 
-![Selecionando uma data de redefinição de recibo.](media/Enable_receipt_reset.png "Seleção de uma data de redefinição de recibo")
+![Selecionando uma data de redefinição de recibo](media/Enable_receipt_reset.png "Seleção de uma data de redefinição de recibo")
 
 Depois que você seleciona uma data, ela aparece na coluna **Próxima data de redefinição do número do recibo**. A data de redefinição é aplicável a todos os tipos de transação de recibo. Portanto, a sequência numérica do recibo será redefinida para todos os tipos de recibo.
 
@@ -65,6 +68,3 @@ Você pode usar a funcionalidade **Limpar data de redefinição** para limpar da
 
 > [!NOTE]
 > Dependendo da data de redefinição selecionada e do formato de recibo, você pode ter números de recibo duplicados. Embora o sistema do ponto de venda (PDV) possa lidar com essas situações, elas aumentam o tempo exigido para processar devoluções, pois parceiros de vendas devem selecionar entre os recibos duplicados. Outras complicações relativas à limpeza de dados poderiam ocorrer se os recibos duplicados não fossem uma consequência planejada. Portanto, é recomendável usar caracteres de data dinâmica (por exemplo **ddd**, **MM**, **DD** e **AA**) para ajudar a evitar números de recebo duplicados após uma redefinição.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

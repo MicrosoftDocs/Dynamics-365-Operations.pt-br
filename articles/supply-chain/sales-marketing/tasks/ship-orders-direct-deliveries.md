@@ -1,24 +1,26 @@
 ---
 title: Enviar ordens como entregas diretas
 description: Este tópico demonstra como criar uma entrega direta para uma ordem de venda.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572432"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966096"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Enviar ordens como entregas diretas
 
@@ -27,7 +29,7 @@ ms.locfileid: "7572432"
 Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Você usa a entrega direta quando quiser enviar mercadorias para o cliente diretamente do fornecedor, em vez de enviá-las para seu próprio depósito primeiro. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Para concluir com êxito a segunda subtarefa “Criar entregas diretas de bancada”, certifique-se de que o item que você escolhe na ordem de venda tem um Fornecedor padrão especificado na Guia Rápida Compra do mestre do produto Liberado.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Defina uma ordem individual para a entrega direta
-1. Acesse **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
+1. Vá para **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. Insira ou selecione um valor no campo **Conta de cliente** e então selecione **OK**
 4. Insira ou selecione valores nos campos **Número do item** e **Site**, então selecione **Salvar**.
@@ -65,7 +67,7 @@ Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Vo
 26. Selecione **OK**. Feche as páginas e volte para a home page.
 
 ## <a name="create-direct-deliveries-from-the-workbench"></a>Criar entregas diretas de bancada.
-1. Acesse **Navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
+1. Vá para **Navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. Insira ou selecione um valor no campo **Conta de cliente** e então selecione **OK**.
 4. Insira ou selecione um valor nos campos **Número do item** e **site**.
@@ -79,6 +81,3 @@ Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Vo
     - A página Entrega direta atua como uma bancada que fornece ao agente de compras uma visão geral de todas as linhas da ordem de venda que terão entrega direta e permite que sejam criadas as respectivas ordens de compra. Além disso, as ordens de entrega direta abertas e as ordens confirmadas podem ser exibidas nas guias Confirmação e Entrega.  
     - Depois de criar uma ordem de entrega direta, ela é movida automaticamente para a guia Confirmação. Você pode optar por confirmar a ordem diretamente nessa página. Quando a compra for confirmada, ela será movida automaticamente para a guia Entrega, onde você pode registrar seu recibo.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

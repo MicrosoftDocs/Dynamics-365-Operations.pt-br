@@ -1,32 +1,30 @@
 ---
 title: O cliente desconecta
-description: Este tópico explica o que fazer se o cliente for desconectado do ambiente.
-author: twheeloc
-ms.date: 08/19/2021
+description: Este artigo explica o que fazer se o cliente estiver desconectado de seu ambiente e não sabe o porquê.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071126"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4417369"
 ---
 # <a name="client-disconnects"></a>O cliente desconecta
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Detalhes do ambiente** 
 
@@ -34,7 +32,7 @@ Esse problema pode ocorrer em todos os ambientes.
  
 **Sintoma** 
 
-O cliente é desconectado do ambiente e não sabe por que. O cliente recebe uma das mensagens de erro:
+O cliente estiver desconectado de seu ambiente e não sabe o porquê. O cliente recebe uma das mensagens de erro:
 
 - Perdemos sua conexão. Clique em Fechar para continuar trabalhando.
 - Parece que você perdeu a conectividade de rede. Clique em Repetir para tentar novamente.
@@ -54,6 +52,3 @@ O Microsoft Dynamics 365 Human Resources desconecta os usuários quando duas ses
 Verifique se somente um ambiente está aberto em vez de um navegador de tipo determinado. Os usuários podem abrir mais sessões no mesmo ambiente (ou seja, várias guias no navegador.)
 
 Os usuários que desejam pular entre dois ambientes ao mesmo tempo devem abrir cada ambiente em um tipo de navegador diferente. (Por exemplo, o usuário A pode exibir o ambiente 1 no Chrome e o ambiente 2 no Microsoft Edge.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

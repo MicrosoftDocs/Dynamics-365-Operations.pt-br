@@ -2,12 +2,15 @@
 title: Aceitar usar classificações e opiniões
 description: Este tópico explica como aceitar usar classificações e opiniões em seu site do Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fd6715539693389f25800a40c0beffcdc1b0de72
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: cbdb69202ebec19f4442041cfb1f99857da36d2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967994"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410197"
 ---
-# <a name="opt-in-to-use-ratings-and-reviews"></a>Aceitar o uso das classificações e opiniões
+# <a name="opt-in-to-use-ratings-and-reviews"></a>Aceitar usar classificações e opiniões
 
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como aceitar usar classificações e opiniões em seu site do Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 A solução de classificações e revisões é uma solução de omni-channel que você pode disponibilizar no Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS). O LCS é um portal de administração que os fornecedores usam para gerenciar os ambientes desde o provisionamento até a desativação.
 
@@ -37,11 +42,11 @@ Se desejar usar a solução de classificações e revisões no site do Commerce,
 Para aceitar usar as classificações e opiniões em seu site, siga estas etapas.
 
 1. Siga as etapas em [Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md).
-1. Enquanto ainda estiver no LCS, Acesse **Configuração de implantação do Retail \> Outras configurações**.
+1. Enquanto ainda estiver no LCS, vá para **Configuração de implantação do Retail \> Outras configurações**.
 1. Defina a opção **Habilitar serviço de classificações e opiniões** como **Sim**.
 1. No campo **Grupo de segurança de DAA para moderador de classificações e opiniões (ID do objeto do grupo de segurança)** , insira a ID do grupo de segurança do Microsoft Azure Active Directory (Azure AD) que inclui moderadores de classificações e opiniões.
 
-    ![Aceitar o uso das classificações e opiniões.](media/LCS_RnR_Preference.png)
+    ![Aceitar usar classificações e opiniões](media/LCS_RnR_Preference.png)
 
 1. Conclua o processo de inicialização do comércio eletrônico.
 
@@ -58,13 +63,4 @@ Para aceitar usar as classificações e opiniões em seu site, siga estas etapas
 
 [Sincronizar classificações de produto no Dynamics 365 Commerce](sync-product-ratings.md)
 
-[Habilitar a publicação manual de classificações e opiniões por um moderador](manual-publish-rating-reviews.md)
 
-[Importar e exportar avaliações e revisões](import-export-reviews.md)
-
-[Configurar autenticação de serviço a serviço](service-to-service-auth.md)
-
-[Perguntas frequentes sobre classificações e opiniões](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

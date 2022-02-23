@@ -2,22 +2,25 @@
 title: Configurar, criar e gerenciar custos de absorção
 description: Este tópico fornece informações sobre como configurar, criar e gerenciar custos de absorção para o Brasil.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 09/13/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1b9198772762ce3a9cafedbabfac5b4924c8dfcb8440195115a4ef5f8548c073
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 396332e20f2d66ff682f2545afaf6dcecabb58a8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718205"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408435"
 ---
 # <a name="set-up-create-and-manage-absorption-costs"></a>Configurar, criar e gerenciar custos de absorção 
 
@@ -107,6 +110,3 @@ Use este procedimento para cancelar os custos absorvidos que não são lançados
 2.  No campo **Mês/ano para cancelar**, selecione o mês e ano nos quais os custos absorvidos serão cancelados.
 
 3.  Clique em **OK** para cancelar os custos absorvidos para o mês e o ano selecionados.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -91,6 +91,3 @@ A atividade de conteúdo da Web (iframe) permite que você insira uma solução 
 
 > [!NOTE]
 > A atividade de conteúdo da Web está disponível somente com o complemento de Contratação abrangente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

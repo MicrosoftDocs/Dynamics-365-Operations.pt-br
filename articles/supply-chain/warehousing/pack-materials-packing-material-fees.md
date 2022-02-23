@@ -1,27 +1,30 @@
 ---
 title: Materiais e taxas de embalagem
 description: Este tópico fornece informações sobre as taxas de material de embalagem que são pagas para reciclar empresas em intervalos específicos.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72d07365a5022a67b8868232fbbb04f610701009
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902012"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422067"
 ---
 # <a name="packing-materials-and-fees"></a>Materiais e taxas de embalagem
 
@@ -42,14 +45,14 @@ Para poder calcular os pesos do material de embalagem, as taxas de material de e
 
 1. Ir para **Gerenciamento de estoque \> Configuração \> Parâmetros de gerenciamento de depósito e estoque**.
 1. Na guia **Geral**, na seção **Material de embalagem**, defina a opção **Calcular taxas de material de embalagem** como **Sim**.
-1. Acesse **Gerenciamento de estoque \> Configuração \> Material de embalagem \> Grupos de embalagem**, e crie todos os grupos de embalagem que você usa. Todos os itens de um grupo de embalagens usarão a mesma alocação de material de embalagem. Se você não usar grupos de embalagens, poderá ignorar esta etapa.
+1. Vá para **Gerenciamento de estoque \> Configuração \> Material de embalagem \> Grupos de embalagem**, e crie todos os grupos de embalagem que você usa. Todos os itens de um grupo de embalagens usarão a mesma alocação de material de embalagem. Se você não usar grupos de embalagens, poderá ignorar esta etapa.
 
     > [!TIP]
-    > Depois de criar os grupos de embalagens, é possível atribuir um grupo a cada produto conforme a necessidade. Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos liberados**, selecione um produto e, em seguida, na Guia Rápida **Gerenciar estoque**, no campo **Grupo de embalagens**, selecione o grupo de embalagem apropriado.
+    > Depois de criar os grupos de embalagens, é possível atribuir um grupo a cada produto conforme a necessidade. Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos liberados**, selecione um produto e, em seguida, na Guia Rápida **Gerenciar estoque**, no campo **Grupo de embalagens**, selecione o grupo de embalagem apropriado.
 
-1. Acesse **Gerenciamento de estoque \> Configuração \> Material de embalagem \> Códigos de material de embalagem**, defina cada tipo de material de embalagem que você usa, e especifique a unidade que o material de embalagem é consumida quando você prepara os envios.
-1. Acesse **Gerenciamento de estoque \> Configuração \> Material de embalagem \> Taxas de material de embalagem**, e defina uma taxa para cada tipo de material de embalagem que você acabou de definir. As taxas são calculadas com base no preço por unidade consumido.
-1. Para alocar materiais de embalagem para itens, Acesse **Gerenciamento de estoque \> Configuração \> Material de embalagem \> Alocação de material de embalagem** e crie alocações. Você pode criar quantas alocações forem necessárias. Você pode alocar materiais de embalagem para itens individuais, grupos de itens (grupos de embalagens) ou todos os itens, dependendo de como as suas alocações devem ser detalhadas.
+1. Vá para **Gerenciamento de estoque \> Configuração \> Material de embalagem \> Códigos de material de embalagem**, defina cada tipo de material de embalagem que você usa, e especifique a unidade que o material de embalagem é consumida quando você prepara os envios.
+1. Vá para **Gerenciamento de estoque \> Configuração \> Material de embalagem \> Taxas de material de embalagem**, e defina uma taxa para cada tipo de material de embalagem que você acabou de definir. As taxas são calculadas com base no preço por unidade consumido.
+1. Para alocar materiais de embalagem para itens, vá para **Gerenciamento de estoque \> Configuração \> Material de embalagem \> Alocação de material de embalagem** e crie alocações. Você pode criar quantas alocações forem necessárias. Você pode alocar materiais de embalagem para itens individuais, grupos de itens (grupos de embalagens) ou todos os itens, dependendo de como as suas alocações devem ser detalhadas.
 
     Para cada alocação que você criar, siga estas etapas.
 
@@ -101,14 +104,11 @@ Agora, quando você criar e faturar uma ordem de venda que inclui um ou mais ite
 
 Para os clientes que não devem pagar as taxas de material de embalagem, siga as mesmas etapas, mas apague os números de licença dos campos **Número de licença de obrigação de embalagem** e **Número da licença**. As notas fiscais de clientes que não pagam as taxas de material de embalagem mostram os pesos dos materiais de embalagem, mas não mostram as taxas.
 
-Para gerar um relatório que mostre todas as taxas de material de embalagem que sua empresa deverá ter para um período específico, Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Relatórios de material de embalagem \> Cálculo de taxa do material de embalagem**, especifique uma variedade de datas e selecione **OK**.
+Para gerar um relatório que mostre todas as taxas de material de embalagem que sua empresa deverá ter para um período específico, vá para **Gerenciamento de estoque \> Consultas e relatórios \> Relatórios de material de embalagem \> Cálculo de taxa do material de embalagem**, especifique uma variedade de datas e selecione **OK**.
 
 ## <a name="print-packing-material-weights-on-invoices"></a>Imprimir os pesos do material de embalagem nas notas fiscais
 
 Você pode imprimir os pesos do material de embalagem na fatura e indicar quem está pagando as taxas relacionadas. Os pesos são resumidos por código de embalagem.
 
-1. Acesse **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
+1. Vá para **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
 1. Na guia **Atualizações**, na Guia Rápida **Nota fiscal**, defina a opção **imprimir peso do material de embalagem** como **Sim**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

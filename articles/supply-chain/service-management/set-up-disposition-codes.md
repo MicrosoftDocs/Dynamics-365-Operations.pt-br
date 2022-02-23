@@ -1,26 +1,29 @@
 ---
 title: Configurar códigos de disposição
 description: Você pode configurar códigos de disposição para especificar como processar um item que é devolvido por um cliente.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnDispositionCode
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 973d270d186244904a8390b700aa2ee1fc84cbbc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 16f0ddb9ad956367adc66a952bd8d12551da56a5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576271"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421862"
 ---
 # <a name="set-up-disposition-codes"></a>Configurar códigos de disposição 
 
@@ -31,15 +34,15 @@ Você pode configurar códigos de disposição para especificar como processar u
 
 Você também pode configurar um código de motivo para ajudar a explicar por que um item foi devolvido. Para obter mais informações sobre como configurar os códigos de motivo, consulte [Configurar códigos de motivo de devolução](set-up-return-reason-code.md).
 
-1.  Acesse **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de disposição**.
+1.  Clique em **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de disposição**.
 
-2.  Selecione **Novo** para criar um novo código de disposição.
+2.  Clique em **Novo** ou pressione CTRL+N para criar um novo código de disposição.
 
 3.  Insira um nome exclusivo e descritivo, selecione uma ação e insira uma descrição para o código de disposição.
 
-4.  Se você quiser associar quaisquer encargos de clientes a esse código de disposição, selecione o botão **Encargos** para abrir o formulário **Configurar encargos**.
+4.  Se você deseja associar quaisquer encargos de cliente com esse código de disposição, clique no botão **Encargos** para abrir o formulário **Configurar encargos**.
 
-5.  Se você quiser definir quaisquer códigos externos para corresponder aos códigos de disposição da própria empresa, selecione o botão **Códigos externos** para abrir o formulário **Códigos externos**.
+5.  Se você deseja definir quaisquer códigos externos para corresponder aos códigos de disposição da própria empresa, clique no botão **Códigos externos** para abrir o formulário **Códigos externos**.
 
 ## <a name="see-also"></a>Consulte também
 
@@ -54,6 +57,3 @@ Você também pode configurar um código de motivo para ajudar a explicar por qu
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

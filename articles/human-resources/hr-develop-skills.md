@@ -1,114 +1,64 @@
 ---
-title: Configurar habilidades
-description: Você pode rastrear as habilidades de seu trabalhador no Dynamics 365 Human Resources. Você também pode especificar as habilidades necessárias para um trabalho específico.
-author: twheeloc
-manager: tfehr
-ms.date: 03/23/2021
+title: Alinhe habilidades de força de trabalho com as necessidades comerciais
+description: Você pode rastrear as habilidades que os trabalhadores, candidatos ou pessoas de contato têm ou devem ter, para atender suas funções efetivamente. Você também pode especificar as habilidades necessárias para um trabalho específico.
+author: andreabichsel
+manager: AnnBe
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 13206bb3c961f001620e8b65a8b1bb39bf95ee49
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075062"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417292"
 ---
-# <a name="configure-skills"></a>Configurar habilidades
+# <a name="align-workforce-skills-with-business-needs"></a>Alinhe habilidades de força de trabalho com as necessidades comerciais
 
-> [!IMPORTANT]
-> A funcionalidade mencionada neste tópico está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
+Você pode rastrear as habilidades que os trabalhadores, candidatos ou pessoas de contato têm ou devem ter, para atender suas funções efetivamente. Você também pode especificar as habilidades necessárias para um trabalho específico.
+
+Os exemplos das habilidades que você pode rastrear incluem o seguinte:
+-   Supervisão – capacidade de supervisionar o trabalho de terceiros.
+-   Liderança – capacidade de liderar funcionários e setores empresariais.
+-   Planejamento - capacidade de antever o futuro, formular visões e acompanhá-las.
+-   HTML – Capacidade de gravar o código HTML.
+
+Antes de atribuir uma habilidade a uma pessoa ou a um trabalho, criar uma pesquisa de mapeamento de habilidades ou criar um perfil de habilidades, você deve inserir informações sobre as habilidades na página **Habilidades**. Para cada habilidade, você pode selecionar um tipo de habilidade e um modelo de classificação.
+
+## <a name="rating-models"></a>Modelos de classificação
+Os modelos de classificação ajudam a avaliar o nível real de habilidades de uma pessoa, o nível que ela deveria atingir ou o nível de habilidades necessário para um trabalho. É possível inserir até 10 níveis para um modelo de avaliação.  Cada nível em um modelo de classificação é atribuído um fator.  O valor do fator será usado para normalizar pontuações das habilidades que usam diferentes modelos de avaliação.  O fator deve ser um número de 0 a 9, e cada nível deve ter um fator exclusivo.  Os níveis com valores de fator mais altos têm mais peso em um modelo de avaliação.
+
+## <a name="specify-job-skills"></a>Especifique as habilidades de trabalho
+Ao inserir informações sobre um trabalho, você pode especificar as habilidades que uma pessoa deve ter para que ela realize o trabalho.  Além disso, você pode especificar o nível desejado para cada habilidade, bem como o nível de importância da habilidade. Diferentes trabalhos podem exigir diferentes níveis de importância para a mesma habilidade.
+
+## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Insira habilidades para funcionários, candidatos ou contatos
+Você pode inserir habilidades alvo ou habilidades reais para funcionários, candidatos ou contatos. Uma habilidade alvo é uma habilidade que uma pessoa planeja obter. Uma habilidade real é uma habilidade que uma pessoa tem atualmente.
+
+## <a name="skill-mapping-and-skill-mapping-profiles"></a> Mapeamento de habilidades e perfis de mapeamento de habilidades
+Você pode criar uma pesquisa de mapeamento de habilidades para encontrar um trabalhador, solicitante ou pessoa de contato qualificada para executar um tipo específico de tarefa. Pesquisas de mapeamento de habilidades buscam habilidades, educação, certificados, posições de confiança e experiência de projeto e retornam resultados que correspondem aos critérios inseridos.  Por exemplo, pode ser útil saber quais os trabalhadores da sua organização obtiveram o CPA.
+
+Os perfis de mapeamento de habilidades permitem que você encontre funcionários atuais ou candidatos com qualificações que correspondam diretamente às necessidades do negócio.  Por exemplo, você pode criar um perfil de mapeamento de habilidades para uma posição aberta na sua organização. Criando um perfil para um trabalho específico e copiando as habilidades, formação educacional e certificados desse trabalho para o perfil, é possível pesquisar rapidamente trabalhadores, candidatos e pessoas de contato que correspondem a um ou mais dos critérios inseridos no perfil e exibir uma lista dos candidatos cujas as habilidades mais correspondem às habilidades necessárias para o trabalho.
+
+> **Observação** Somente os trabalhadores, os candidatos e as pessoas de contato selecionados para serem incluídos em pesquisas de mapeamento podem ser exibidos em uma lista dos resultados de um mapeamento de habilidades ou serem incluídos em um perfil de habilidades. Para incluir um trabalhador, candidato ou pessoa de contato em pesquisas de mapeamento de habilidades, defina a seleção **Incluir no mapeamento de habilidades** como Sim nas seguintes páginas:
+> 
+> + Trabalhador
+> + Funcionário
+> + Candidato
+> + Contatos
+
+## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Análise da lacuna de habilidades e análise do perfil de habilidades
+Você pode criar uma análise de perfil de habilidades para exibir uma lista de competências de um trabalhador, candidato ou pessoa de contato como uma data específica. Você pode criar uma análise de lacuna de habilidades para comparar as habilidades de uma pessoa e as habilidades necessárias para um trabalho específico.  
 
 
-Você pode rastrear as habilidades de seu trabalhador no Dynamics 365 Human Resources. Você também pode especificar as habilidades necessárias para um trabalho específico.
-
-Os exemplos das habilidades que você pode rastrear incluem:
-
-- Supervisão – capacidade de supervisionar o trabalho de terceiros.
-- Liderança – capacidade de liderar funcionários e setores empresariais.
-- Planejamento - capacidade de antever o futuro, formular instruções de visões e acompanhá-las.
-- HTML – Capacidade de gravar o código HTML.
-
-Se você ainda não configurou os tipos de habilidades e os modelos de classificação, será necessário adicionar algum antes de criar habilidades.
-
-As seguintes pessoas podem inserir habilidades para um trabalhador:
-
-- Os trabalhadores podem inserir habilidades para si mesmos no Autoatendimento para funcionários. Essas habilidades exigem aprovação do gerente.
-- Os gerentes podem inserir habilidades para seus trabalhadores. Você pode criar um fluxo de trabalho que aprova essas habilidades automaticamente.
-
-## <a name="create-a-skill-type"></a>Criar um tipo de habilidade
-
-Os tipos de habilidades são categorias sob as quais as habilidades individuais se encaixam, como Administração ou Vendas.
-
-1. No espaço de trabalho **Desenvolvimento do funcionário**, selecione **Links**.
-
-2. Em **Configuração de competência**, selecione **Tipos de habilidades**.
-
-3. Selecione **Novo**.
-
-4. Complete os campos a seguir:
-
-   - **Tipo de habilidade**: informe um nome para o tipo de habilidade.
-   - **Descrição**: informe uma descrição para o tipo de habilidade.
-
-5. Selecione **Salvar**.
-
-## <a name="create-a-rating-model"></a>Criar um modelo de classificação
-
-Os modelos de classificação ajudam a avaliar o nível real de habilidades de uma pessoa, o nível que ela deveria atingir ou o nível de habilidades necessário para um trabalho. Cada nível em um modelo de classificação é atribuído um fator.
-
-1. No espaço de trabalho **Desenvolvimento do funcionário**, selecione **Links**.
-
-2. Em **Configuração de competência**, selecione **Modelos de classificação**.
-
-3. Selecione **Novo**.
-
-4. Complete os campos a seguir:
-
-   - **Classificação**: insira um nome para o modelo de classificação, por exemplo, **Habilidades**.
-   - **Descrição**: insira uma descrição para o modelo de classificação, como **Classificações de habilidade**.
-
-5. Na seção **Níveis**, selecione **Novo**. Para cada nível a ser adicionado, preencha os seguintes campos:
-
-   - **Nível**: informe um nome para o nível.
-   - **Descrição**: insira uma descrição para o nível.
-   - **Fator**: insira um valor de fator de 0-9. Os fatores ajudam a normalizar as pontuações das habilidades que usam diferentes modelos de avaliação. Cada nível deve ter um fator exclusivo. Os níveis com valores de fator mais altos têm mais peso em um modelo de avaliação.
-
-   Continue adicionando níveis, conforme a necessidade. É possível inserir até 10 níveis para cada modelo de avaliação.
-
-6. Selecione **Salvar**.
-
-## <a name="create-a-skill"></a>Criar uma habilidade
-
-Antes de atribuir uma habilidade ou criar uma pesquisa de mapeamento de habilidades ou perfil de habilidades, você deve inserir informações sobre as habilidades na página **Habilidades**. Para cada habilidade, você pode selecionar um tipo de habilidade e um modelo de classificação.
-
-1. No espaço de trabalho **Desenvolvimento do funcionário**, selecione **Links**.
-
-2. Em **Configuração de competência**, selecione **Habilidades**.
-
-3. Selecione **Novo**.
-
-4. Complete os campos a seguir:
-
-   - **Habilidade**: informe um nome para a habilidade.
-   - **Descrição**: informe uma descrição para a habilidade.
-   - **Classificação**: selecione o modelo de classificação que você deseja usar para esta habilidade.
-   - **Tipo de habilidade**: selecione na lista de tipos de habilidades.
-
-5. Selecione **Salvar**.
-
-## <a name="see-also"></a>Consulte também
-
-[Inserir habilidades](hr-develop-enter-skills.md)<br>
-[Mapear habilidades](hr-develop-map-skills.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

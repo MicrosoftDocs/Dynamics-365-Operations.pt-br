@@ -2,9 +2,11 @@
 title: Guias de tarefas novos ou atualizados (Dezembro de 2017)
 description: Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados para a Biblioteca Unificada APQC (dezembro de 2016 - todos idiomas) para o Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada.
 author: josaw1
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c24fed0027f1c1f6aeab823b22bc3b36b814f814
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723046"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799053"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Guias de tarefas novos ou atualizados (Dezembro de 2017)
 
@@ -366,6 +368,3 @@ Quando uma linha de BPM for excluída, qualquer guia da tarefa associada à linh
 **Linha da BPM excluída**
 
 - Mover trabalhos kanban agendados
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

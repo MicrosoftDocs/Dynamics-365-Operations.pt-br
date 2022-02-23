@@ -2,25 +2,28 @@
 title: Registrar arrendamentos em moedas estrangeiras
 description: Este tópico explica como registrar arrendamentos em moedas diferentes da moeda contábil ou relatório.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseDetail
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 91bf3f91614f0dd4835c253456128c9ced046749c0e13383590e01dfd436c921
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 92177d4f808bfec88dabe9277c3d584ed02e401e
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766328"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440545"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Registrar arrendamentos em moedas estrangeiras
 
@@ -50,6 +53,3 @@ Quando você cria as entradas do diário de despesas de depreciação em relaç�
 O valor da despesa de depreciação final pode ser calculado usando uma taxa de câmbio levemente diferente, de forma que o ativo DDU seja totalmente depreciado na moeda contábil e na moeda de relatório.
 
 Se o arrendamento tiver sido reclassificado como **Arrendamento diferido**, o sistema limpará automaticamente as taxas de câmbio das moedas contábil e de relatório, caso já tenham sido definidas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

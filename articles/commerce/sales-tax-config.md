@@ -2,12 +2,15 @@
 title: Configurar o imposto para ordens online
 description: Este tópico fornece uma visão geral da seleção do grupo de impostos para diferentes tipos de ordens online no Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 04/02/2021
+manager: AnnBe
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,73 +18,68 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 5801bbfb5b5850cb4c9ae06140bff5adca9b368febdc06d69c538fc49f9ee40a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 40c20bf13779f73289e43df21b763e1b864686a7
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772952"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4530188"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Configurar o imposto para ordens online
 
-[!include [banner](includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Este tópico fornece uma visão geral da seleção de grupos de impostos para diferentes tipos de pedidos online usando configurações de imposto baseadas em destino ou em conta de cliente. 
+Este tópico fornece uma visão geral da seleção do grupo de impostos para diferentes tipos de ordens online. 
 
-Seu canal de comércio eletrônico pode oferecer suporte a opções como entrega ou retirada para pedidos online. A aplicabilidade do imposto é baseada na opção selecionada por seus clientes online. 
+Seu canal de comércio eletrônico pode oferecer suporte a opções como entrega ou retirada para ordens online. A aplicabilidade do imposto é baseada na opção selecionada por seus usuários online. Quando um cliente do site opta por comprar um item online e o envia para um endereço, o imposto é determinado com base na configuração do grupo de impostos do endereço de remessa do cliente. Quando um cliente opta por retirar um item comprado em uma loja, o imposto é determinado com base na configuração do grupo de impostos da loja. 
 
-## <a name="destination-based-taxes-for-online-orders"></a>Impostos baseados no destino para pedidos online
+## <a name="orders-shipped-to-a-customer-address"></a>Ordens enviadas para o endereço de um cliente 
 
-Em geral, os impostos para ordens online que enviam para endereços de clientes são definidos pelo destino. Cada grupo de imposto tem uma configuração de imposto baseada no destino de varejo na qual sua empresa pode definir detalhes de destino, como país ou região, estado e cidade de forma hierárquica.
+Em geral, os impostos para ordens online que enviam para endereços de clientes são definidos pelo destino. Cada grupo de imposto tem uma configuração de imposto com base no destino de varejo na qual sua empresa pode definir detalhes de destino, como região, estado e cidade de forma hierárquica. Quando uma ordem online é feita, o mecanismo de imposto do Commerce usa o endereço de entrega de cada item de linha na ordem e encontra grupos de impostos com critérios de imposto baseados no destino correspondentes. Por exemplo, em uma ordem online com um endereço de entrega de item de linha para São Francisco (Califórnia), o mecanismo de cálculo de impostos encontrará o grupo de impostos e o código do imposto para a Califórnia e calculará o imposto para cada item de linha apropriadamente.  
 
-### <a name="orders-delivered-to-customer-address"></a>Pedidos entregues para o endereço de um cliente
+## <a name="customer-based-tax-groups"></a>Grupos de imposto baseados no cliente
 
-Quando um pedido online é realizado, o mecanismo de imposto do Commerce usa o endereço de entrega de cada item de linha no pedido e encontra grupos de impostos com critérios de imposto baseados no destino correspondentes. Por exemplo, em uma ordem online com um endereço de entrega de item de linha para São Francisco (Califórnia), o mecanismo de cálculo de impostos encontrará o grupo de impostos e o código do imposto para a Califórnia e calculará o imposto para cada item de linha apropriadamente.
+Na sede do Comércio, existem dois locais onde os grupos de imposto do cliente são configurados:
 
-### <a name="order-pick-up-in-store"></a>Retirada de pedidos na loja
+- **Perfil do cliente**
+- **Endereço de remessa do cliente**
 
-Para linhas de pedidos com retirada na loja ou retirada em frente à loja especificada, o grupo de imposto da loja de retirada selecionada será aplicado. Para obter mais informações sobre como definir os impostos para determinada loja, consulte [Definir outras opções de imposto para lojas](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+### <a name="if-a-customers-profile-has-a-tax-group-configured"></a>Se o perfil de um cliente tiver um grupo de imposto configurado
 
-## <a name="customer-account-based-taxes-for-online-orders"></a>Impostos baseados na conta de cliente para pedidos online
+O registro do perfil de um cliente na sede pode ter um grupo de imposto configurado; porém, para ordens online, o grupo de imposto configurado no perfil de um cliente não será usado pelo mecanismo de cálculo de impostos. 
 
-Pode haver um cenário comercial no qual você deseja definir um grupo de impostos sobre uma conta de cliente específica na matriz do Commerce. Há dois locais na matriz nos quais é possível definir o imposto sobre uma conta de cliente. Para acessá-los, primeiro é necessário acessar uma página de informações do cliente em **Varejo e comércio \> Clientes \> Todos os clientes** e selecionando um cliente.
+### <a name="if-a-customers-shipping-address-has-a-tax-group-configured"></a>Se o endereço de remessa de um cliente tiver um grupo de imposto configurado
 
-Os dois locais nos quais é possível definir o imposto sobre uma conta de cliente são:
+Se o registro de endereço de remessa de um cliente tiver um grupo de imposto configurado e uma ordem online (ou item de linha) for enviado ao endereço de remessa do cliente, o grupo de imposto configurado no registro de endereço do cliente será usado pelo mecanismo de cálculo de impostos.
 
-- **Grupo de impostos** na FastTab **Fatura e entrega** da página de informações do cliente. 
-- **Imposto** na FastTab **Geral** da página **Gerenciar endereços**. Para chegar lá pela página de informações do cliente, selecione um endereço específico na FastTab **Endereços** e selecione **Avançado**.
+#### <a name="configure-a-tax-group-for-a-customers-shipping-address-record"></a>Configurar um grupo de imposto para o registro do endereço de remessa de um cliente
 
-> [!TIP]
-> No caso de pedidos online de clientes, se você quiser aplicar somente os impostos baseados no destino e evitar os impostos baseados na conta de cliente, verifique se o campo **Grupo de impostos** está em branco na FastTab **Fatura e entrega** na página de informações do cliente. Para garantir que os novos clientes que se inscrevam usando o canal online não herdem as configurações do grupo de impostos das configurações de cliente ou grupo de clientes padrão, verifique se o campo **Grupo de impostos** também está em branco para as configurações padrão do cliente do canal online e para as configurações de grupo de clientes (**Varejo e comércio \> Clientes \> Grupos de clientes**).
+Para configurar um grupo de impostos para o registro do endereço de remessa de um cliente na sede do Commerce, siga estas etapas:
 
-## <a name="determine-destination-based-tax-or-customer-account-based-tax-applicability"></a>Determinar a aplicabilidade de imposto baseado no destino ou na conta do cliente 
+1. Acesse **Todos os clientes** e selecione o cliente desejado. 
+1. Na FastTab **Endereços**, selecione o endereço desejado e depois escolha **Mais opções \> Avançado**. 
+1. Na guia **Geral** da página **Gerenciar endereços**, defina o valor do imposto conforme necessário.
 
-A tabela abaixo explica se os impostos baseados no destino ou os impostos baseados na conta do cliente são aplicados para pedidos online. 
+> [!NOTE]
+> O grupo de imposto é definido usando o endereço de entrega da linha de ordem e os impostos com base no destino são configurados no próprio grupo de imposto. Para obter mais informações, consulte [Configurar os impostos para as lojas online com base no destino](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
-| Tipo de cliente | Endereço de entrega                   | Cliente > Fatura e a entrega > Grupo de impostos? | Endereço da conta do cliente na matriz? | Endereço do cliente > Avançado > Geral > Grupo de impostos?                                              | Grupo de impostos aplicado      |
-|---------------|------------------------------------|-----------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------|
-| Convidado         | Manhattan, NY                      | Não (em branco)                                                | Não (em branco)                              | Não (em branco)                                                                                                   | NY (impostos baseados em destino) |
-| Conectado     | Austin, TX                          | Não (em branco)                                             | Sim                               | Nenhuma<br/><br/>Novo endereço adicionado pelo canal online.                                                            | TX (impostos baseados em destino) |
-| Conectado     | San Francisco, CA (retirada na loja) | Sim (NY)                                            | Não Aplicável                              | Não Aplicável                                                                                                    | CA (impostos baseados em destino) |
-| Conectado     | Houston, TX                         | Sim (NY)                                            | Sim                               | Sim (NY)<br/><br/>Novo endereço adicionado pelo canal online e grupo de impostos herdado da conta do cliente. | NY (impostos baseados na conta do cliente)  |
-| Conectado     | Austin, TX                          | Sim (NY)                                            | Sim                               | Sim (NY)<br/><br/>Novo endereço adicionado pelo canal online e grupo de impostos herdado da conta do cliente. | NY (impostos baseados na conta do cliente)  |
-| Conectado     | Sarasota, FL                       | Sim (NY)                                            | Sim                               | Sim (WA)<br/><br/>Definido manualmente como WA.                                                                          | WA (impostos baseados na conta do cliente)  |
-| Conectado     | Sarasota, FL                       | Não (em branco)                                                | Sim                               | Sim (WA)<br/><br/>Definido manualmente como WA.                                                                          | WA (impostos baseados na conta do cliente)  |
+## <a name="order-pickup-in-store"></a>Retirada de ordens na loja
+
+Para linhas de ordem com retirada na loja ou retirada em frente à loja especificada, o grupo de imposto da loja de retirada selecionada será aplicado. Para obter detalhes sobre como configurar o grupo de imposto para determinada loja, consulte [Definir outras opções de imposto para lojas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+
+> [!NOTE]
+> Quando uma linha de ordem é retirada em uma loja, as configurações de impostos do endereço do cliente (se configuradas) serão ignoradas pelo mecanismo de cálculo de impostos e a configuração de impostos da loja de coleta será aplicada. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configurar os impostos para as lojas online baseados no destino](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
+[Visão geral de imposto](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json) 
 
-[Visão geral de imposto](../finance/general-ledger/indirect-taxes-overview.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+[Métodos de cálculo de impostos no campo de Origem](https://docs.microsoft.com/dynamics365/finance/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/commerce/toc.json) 
 
-[Métodos de cálculo de impostos no campo de Origem](../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+[ Substituições e atribuições de impostos](https://docs.microsoft.com/dynamics365/supply-chain/procurement/tasks/sales-tax-assignment-overrides?toc=/dynamics365/commerce/toc.json) 
 
-[ Substituições e atribuições de impostos](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
-
-[Opções de cálculo do valor total e do intervalo para códigos de impostos](../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+[Opções de cálculo do valor total e do intervalo para códigos de impostos](https://docs.microsoft.com/dynamics365/finance/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/commerce/toc.json) 
 
 [Cálculo da isenção de imposto](tax-exempt-price-inclusive.md) 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

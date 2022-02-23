@@ -1,24 +1,27 @@
 ---
 title: Emitir notas fiscais de transferência de crédito de imposto ICMS (Brasil)
-description: Este tópico explica como criar e emitir uma nova nota fiscal de transferência e gerar uma nota fiscal eletrônica (NF-e).
+description: Você pode criar uma nota fiscal de transferência ou apropriação de imposto e gerar uma nota fiscal eletrônica (NF-e).
 author: sndray
+manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07e3ad41ae0b040a14e7ed65fd8069fb0e89efe1
-ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
+ms.openlocfilehash: fecac355f789f251bf8f54580629bd1070d2fb95
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7601475"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408416"
 ---
 # <a name="issue-icms-tax-credit-transfer-fiscal-documents-brazil"></a>Emitir notas fiscais de transferência de crédito de imposto ICMS (Brasil)
 
@@ -26,7 +29,7 @@ ms.locfileid: "7601475"
 
 Você pode criar uma nota fiscal de transferência ou apropriação de imposto e gerar uma nota fiscal eletrônica (NF-e). Quando você lança o documento, uma mensagem XML da NF-e é gerada e enviada para a Secretaria da Fazenda (SEFAZ). Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Acesse Contabilidade > Entradas de diário > Todas as notas fiscais de transferência ou apropriação de imposto.
+1. Vá para Contabilidade > Entradas de diário > Todas as notas fiscais de transferência ou apropriação de imposto.
 2. Clique em Novo.
 3. No campo Tipo de documento fiscal de transferência ou apropriação de imposto, selecione uma opção.
     * Selecione o tipo de nota fiscal de transferência de impostos, a transferência de imposto ICMS entre estabelecimentos fiscais ou prestação de crédito de importo de ICMS.  
@@ -51,6 +54,3 @@ Você pode criar uma nota fiscal de transferência ou apropriação de imposto e
 20. Feche a página.
 21. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

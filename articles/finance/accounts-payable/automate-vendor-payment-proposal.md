@@ -2,24 +2,27 @@
 title: Automatizar propostas de pagamento de fornecedor
 description: Este tópico explica como as organizações que pagam fornecedores em uma agenda recorrente podem automatizar o processo de geração de propostas de pagamento de fornecedor.
 author: kweekley
+manager: AnnBe
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
-ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
+ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7966706"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440572"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizar propostas de pagamento de fornecedor
 
@@ -32,9 +35,6 @@ Organizações que pagam fornecedores em uma agenda recorrente agora podem autom
 - O diário de pagamentos do fornecedor em que os pagamentos resultantes são salvos
 
 As automatizações de proposta de pagamento não lançam automaticamente os pagamentos. Portanto, você pode continuar a usar qualquer validação e processo de fluxo de trabalho utilizada atualmente para aprovar os pagamentos que são criados.
-
-> [!NOTE]
-> O recurso **Automação de proposta de pagamento de fornecedor** deve estar habilitado no gerenciamento de recursos para a utilização dessa funcionalidade. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Definir a ocorrência de propostas de pagamento de fornecedor
 
@@ -100,11 +100,11 @@ Recomendamos que você avalie se a automação será benéfica para sua organiza
 
 Depois que a série de automação da proposta de pagamento do fornecedor é criada, as ocorrências para cada pagamento são mostradas na exibição semanal da automação de processo. Para pagamentos de fornecedor, a exibição semanal do processo de automação foi adicionada ao espaço de trabalho **Pagamentos do fornecedor** e à página **Automação de processo**.
 
-[![Exibição semanal da automação do processo no espaço de trabalho de pagamentos de fornecedor.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Exibição semanal da automação do processo no espaço de trabalho de pagamentos de fornecedor](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 A exibição semanal do processo de automação no espaço de trabalho **Pagamentos do fornecedor** mostra somente as automações da proposta de pagamento do fornecedor. Ele mostra todas as ocorrências de pagamentos da semana atual, para todas as entidades legais às quais o usuário conectado tem permissões de segurança. Por exemplo, se o auxiliar de pagamento do AP for responsável por pagamentos nas empresas USMF e USSI, ele verá as ocorrências da automação da proposta de pagamento do fornecedor para essas duas empresas, mas não para outras empresas.
 
-[![Exibição semanal de automação de processos para as empresas USMF e USSI.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![Exibição semanal de automação de processos para as empresas USMF e USSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Cada ocorrência mostra a empresa em que o diário de pagamentos foi ou será criado. Se os pagamentos forem criados usando pagamentos centralizados, a empresa que mostrada será a empresa na qual os pagamentos serão criados. A ocorrência não mostra, necessariamente, quais faturas de empresas serão pagas.
 
@@ -144,6 +144,3 @@ Os direitos e privilégios a seguir foram adicionados para automações de propo
 | Consultar ocorrências da agenda | Auxiliar de pagamento de contas a pagar, assistente de pagamento centralizado de contas a pagar | Esse direito concede os direitos de visualizar as ocorrências de automação da proposta de pagamento por meio dos seguintes privilégios:<ul><li>Visualizar ocorrências da agenda</li><li>Visualizar a exibição semanal de ocorrências</li></ul> |
 | Consultar séries da agenda      | Nemhum(a)                                                                       | Esse direito concede os direitos de visualizar as configurações da série e ocorrências por meio dos seguintes privilégios:<ul><li>Visualizar ocorrências da agenda</li><li>Visualizar a página de listagem de ocorrências</li><li>Visualizar a exibição semanal de ocorrências</li></ul>|
 | Manter ocorrências da agenda     | Nemhum(a)                                                                       | Esse direito concede os direitos de criar e manter uma ocorrência por meio dos seguintes privilégios:<ul><li>Manter ocorrências da agenda</li><li>Visualizar a exibição semanal de ocorrências</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

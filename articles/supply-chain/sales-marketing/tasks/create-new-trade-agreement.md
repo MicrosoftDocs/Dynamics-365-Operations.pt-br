@@ -1,24 +1,27 @@
 ---
 title: Criar um novo contrato comercial
 description: Este procedimento mostra como criar um contrato comercial no qual você registra um novo preço de venda de produtos que você combinou com um cliente específico.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 43426e77c30e46f4dd1cc117c38cf6ba5437655b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573408"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421988"
 ---
 # <a name="create-a-new-trade-agreement"></a>Criar um novo contrato comercial
 
@@ -26,9 +29,9 @@ ms.locfileid: "7573408"
 
 Este procedimento mostra como criar um contrato comercial no qual você registra um novo preço de venda de produtos que você combinou com um cliente específico. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Se você estiver usando seus próprios dados, antes de iniciar esse guia será preciso ter certeza de que um Nome de diário de contratos comerciais existe onde a Relação padrão está definida como "Preços (vendas)".
 
-## <a name="create-and-post-a-new-trade-agreement-journal"></a>Criar e lançar um novo diário de contratos comerciais.
 
-1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Preços e descontos > Diários de contratos comerciais**.
+## <a name="create-and-post-a-new-trade-agreement-journal"></a>Criar e lançar um novo diário de contratos comerciais.
+1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Preços e descontos > Diários de contratos comerciais**.
 2. Clique em **Novo**.
 3. No campo **Nome**, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o PDV desejado.
@@ -58,27 +61,15 @@ Este procedimento mostra como criar um contrato comercial no qual você registra
 20. Clique em **OK**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Exibir contratos comerciais para um produto
-
-1. Acesse **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
+1. Vá para **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
 2. Na lista, localize e selecione o produto cujo preço você acabou de atualizar.
 3. No **Painel de Ação**, clique em **Vender**.
 4. Clique em **Exibir contratos comerciais**.
     
-    Revise os detalhes do contrato comercial de preço que acabou de criar.
+    Revise os detalhes do contrato comercial de preço que acabou de criar.    
 
 5. Feche a página.
 
 ## <a name="additional-resources"></a>Recursos adicionais
-
-### <a name="whitepaper"></a>White paper
-
-Para obter mais informações, baixe o white paper a seguir (escrito para dar suporte a AX2012, mas ainda é aplicável ao Dynamics 365 Supply Chain Management)
-
-- [Contratos Comerciais](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
-
 ### <a name="community-blogs"></a>Blogs da comunidade
-
 - [Preços de venda no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

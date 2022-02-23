@@ -1,10 +1,12 @@
 ---
 title: Sintaxe avançada de filtragem e consulta
-description: Este tópico descreve as opções de filtragem e consulta para a caixa de diálogo Filtro/Classificação Avançada e o operador correspondências no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
+description: Este tópico descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador correspondências no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070000"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798661"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintaxe avançada de filtragem e consulta
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador **correspondências** no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
 
@@ -38,7 +37,7 @@ Este tópico descreve as opções de filtragem e consulta disponíveis quando vo
 <tr>
 <th>Sintaxe</th>
 <th>Descrição de caractere</th>
-<th>Descrição</th>
+<th>descrição</th>
 <th>Exemplo</th>
 </tr>
 </thead>
@@ -122,8 +121,8 @@ Este tópico descreve as opções de filtragem e consulta disponíveis quando vo
 <td>Duas aspas duplas consecutivas (<strong>""</strong>) localiza linhas sem nenhum valor para a coluna atual.</td>
 </tr>
 <tr>
-<td>(<span class="code">Consulta do Finance and Operations</span>) (consulta do Finance and Operations entre parênteses)</td>
-<td>Corresponder a uma consulta definida</td>
+<td>(<span class="code">Consulta do Finance and Operations</span>) (Consulta do Finance and Operations entre parênteses)</td>
+<td>Correspondendo a uma consulta definida</td>
 <td>Digite uma consulta como uma instrução SQL entre parênteses usando a linguagem de consulta do Finance and Operations.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        como um exemplo de sintaxe de uma condição de filtro em um campo da fonte de dados raiz, bem como um campo de uma fonte de dados diferente (para a página Todos os clientes)</td>
@@ -243,6 +242,3 @@ Consulte a tabela na seção a seguir para obter detalhes adicionais sobre os m�
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

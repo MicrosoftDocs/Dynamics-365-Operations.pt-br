@@ -1,33 +1,31 @@
 ---
 title: Criar um plano de licença e ausência
-description: Este tópico descreve como criar planos de licença no Dynamics 365 Human Resources para diferentes tipos de licença.
-author: twheeloc
-ms.date: 10/28/2021
+description: Crie planos de licença no Dynamics 365 Human Resources para diferentes tipos de licença.
+author: andreabichsel
+manager: AnnBe
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070241"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417335"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Criar um plano de licença e ausência
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Defina os planos de licença e ausência no Dynamics 365 Human Resources para cada tipo de licença oferecida. Os planos de licença e ausência podem ser acumulados em frequências diferentes, como anual, mensal ou quinzenal. Você também pode definir um plano como uma concessão, em que um único acúmulo ocorra em uma data específica. Por exemplo, você pode criar um plano que conceda feriados flutuantes anuais.
 
@@ -385,6 +383,3 @@ Saldo previsto (30) = valor da competência (10 × 1) + saldo atual (40) – aju
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Configurar tipos de licença e ausência](hr-leave-and-absence-types.md)
 - [Acumular planos de licença e ausência](hr-leave-and-absence-accrue.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

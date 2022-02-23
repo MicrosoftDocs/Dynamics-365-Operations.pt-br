@@ -141,6 +141,3 @@ Para atualizar o seu modelo existente, rastreie essas etapas.
     9. Na página **Tarefa de mapeamento**, selecione a nova coluna como a fonte para criar outro mapeamento para HIERARCHYTYPENAME.
 
         [![Mapeamento](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Conteúdo do Power BI sobre gerenciamento de despesas
 description: Este tópico descreve o que está incluído no pacote de conteúdo de Gerenciamento de despesas do Power BI.
 author: panolte
+manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -14,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769889"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016443"
 ---
 # <a name="expense-management-power-bi-content"></a>Conteúdo do Power BI sobre gerenciamento de despesas
 
@@ -41,7 +43,7 @@ Dois pacotes de conteúdo do Power BI estão disponíveis para uso com o Gerenci
 Todos os valores são mostrados na moeda da empresa. Os dados de todas as empresas são mostrados, mas se necessário, é possível adicionar um filtro de empresa. 
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Você pode encontrar o conteúdo Painel de Despesas de Administrador.pbix e Painel de Despesas Pessoais.pbix do Power BI na Biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e de seus parceiros](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
+Você pode encontrar o conteúdo Painel de Despesas de Administrador.pbix e Painel de Despesas Pessoais.pbix do Power BI na Biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e de seus parceiros](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 O conteúdo está disponível no espaço de trabalho de despesas Gerenciamento de Despesas como conteúdo integrado do Power BI. Os proprietários de despesas podem acessar suas próprias despesas pessoais, enquanto somente os funcionários e gerentes de Contas a pagar têm acesso ao conteúdo de administrador para exibir dados de despesas de todos os usuários.
 
 ## <a name="refreshing-the-power-bi-content"></a>Atualizando o conteúdo do Power BI
@@ -91,6 +93,3 @@ O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste 
 | Estatísticas do funcionário | Relatórios de despesas por tipo de custo            |
 |                     | Despesas pessoais                       |
 |                     | Relatórios de despesas por grupo de estatísticas     |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

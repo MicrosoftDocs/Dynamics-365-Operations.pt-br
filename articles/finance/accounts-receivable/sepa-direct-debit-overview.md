@@ -2,27 +2,28 @@
 title: visão geral do débito direto do SEPA
 description: A Área Única de Pagamentos em Euros (SEPA) é configurada pela Comissão Europeia e dita que todos os pagamentos eletrônicos são considerados como domésticos, independentemente do país/região onde o indivíduo, a empresa ou a organização e o banco estão localizados. Não há diferença entre pagamentos nacionais e internacionais. A SEPA inclui os 28 países membros da União Europeia (EU), além de Islândia, Liechtenstein, Noruega, Suíça, Mônaco e São Marinho. A SEPA ajuda a formar um mercado único para transações de pagamento na Área Econômica Europeia (EEA). Por fim, espera-se que a SEPA reduza o número de formatos de pagamento com que bancos, empresas e indivíduos devem trabalhar.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "11144"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 11144
 ms.assetid: 3277c9b6-e46e-40c9-aa76-9b0449467842
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f71eca0ca9ee07d43bdf737874f442f0029e87e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fcb7585d344988e00093231f785c1a746226e4e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984369"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440252"
 ---
 # <a name="sepa-direct-debit-overview"></a>visão geral do débito direto do SEPA
 
@@ -30,7 +31,8 @@ ms.locfileid: "7984369"
 
 A Área Única de Pagamentos em Euros (SEPA) é configurada pela Comissão Europeia e dita que todos os pagamentos eletrônicos são considerados como domésticos, independentemente do país/região onde o indivíduo, a empresa ou a organização e o banco estão localizados. Não há diferença entre pagamentos nacionais e internacionais. A SEPA inclui os 28 países membros da União Europeia (EU), além de Islândia, Liechtenstein, Noruega, Suíça, Mônaco e São Marinho. A SEPA ajuda a formar um mercado único para transações de pagamento na Área Econômica Europeia (EEA). Por fim, espera-se que a SEPA reduza o número de formatos de pagamento com que bancos, empresas e indivíduos devem trabalhar.   
 
-## <a name="what-is-the-goal-of-sepa-direct-debits"></a>Qual é o objetivo dos débitos diretos da SEPA?
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>Qual é o objetivo dos débitos diretos da SEPA?
+---------------------------------------
 
 Um débito direto da SEPA permite que um credor colete fundos da conta bancária de um cliente, desde que um mandato assinado tenha sido concedido pelo cliente ao credor. O cliente assina um mandato que autoriza o credor a cobrar um pagamento e instruir o banco do cliente a pagar a cobrança. 
 
@@ -82,6 +84,3 @@ Em ambos os esquemas de Débito Direto da SEPA, os clientes têm determinados di
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

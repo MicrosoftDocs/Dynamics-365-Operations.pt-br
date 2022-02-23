@@ -101,6 +101,3 @@ A habilidade de rastrear as folgas dos funcionários e entender como elas são c
 ### <a name="email-support-for-alerts"></a>Suporte de email para alertas
 
 Na atualização da plataforma 26 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando notificações são disparadas por um evento.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

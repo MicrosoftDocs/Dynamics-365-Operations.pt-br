@@ -2,25 +2,28 @@
 title: Configurar cobranças
 description: Este artigo explica como configurar a funcionalidade das coleções.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e06da265271e2148804c51abc7cd9ffc29a3e20e73dda3a1a23966f0e6586e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f8e066b1df3eb3a26d488e1c014f4ae3f31395a
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769809"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440571"
 ---
 # <a name="set-up-collections"></a>Configurar cobranças
 
@@ -40,7 +43,8 @@ Este artigo explica como configurar a funcionalidade das coleções. Execute alg
 
 Estes pontos são discutidos em mais detalhes ao longo deste tópico. 
 
-## <a name="set-up-aging-period-definitions"></a>Configurar definições de período de classificação por vencimento
+<a name="set-up-aging-period-definitions"></a>Configurar definições de período de classificação por vencimento
+-------------------------------
 
 Configure uma definição de período de classificação por vencimento. Uma definição de período de classificação por vencimento define as colunas que aparecem nas páginas de listagem **Saldos classificados por vencimento**, **Atividades de cobranças** e **Casos de cobranças**. Também define os períodos que aparecem na página **Cobranças**. Se um grupo de clientes for configurado, a definição do período de classificação por vencimento para o grupo será usada. Se nenhum grupo for configurado, a definição do período de classificação por vencimento padrão especificada na página **Parâmetros de contas a receber** será usada. Se nenhuma definição do período de classificação por vencimento padrão for especificada, será usada a primeira definição do período de classificação por vencimento na página **Definições do período de classificação por vencimento**.
 
@@ -111,6 +115,3 @@ Para obter mais informações, consulte os seguintes tópicos:
 
  - [Revisar informações sobre cobranças](tasks/review-collections-information.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,30 +1,35 @@
 ---
-title: Gerenciamento de tarefas no PDV
+title: Gerenciamento de tarefas em PDV
 description: Este tópico descreve o gerenciamento de tarefas no aplicativo de ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3fb7d584b634b0a1e43ef6a02a9edcadc0927b36bd2a814fdfe947fb0e2e1917
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cc685fcd584fe2ab5cd9282e8fbefbd284d5b2a2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772097"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410251"
 ---
-# <a name="task-management-in-pos"></a>Gerenciamento de tarefas no PDV
+# <a name="task-management-in-pos"></a>Gerenciamento de tarefas em PDV
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve o gerenciamento de tarefas no aplicativo de ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 O aplicativo de PDV Dynamics 365 Commerce tem recursos de gerenciamento de tarefas que permitem que gerentes e funcionários de armazenamento gerenciem tarefas e atualizem o status da tarefa. Os trabalhadores do armazenamento podem acessar as tarefas selecionando o bloco **Tarefas** na página inicial do PDV ou selecionando notificações de tarefas. Por padrão, os trabalhadores da loja são levados para a guia **Minhas tarefas**, na qual eles podem exibir as tarefas atribuídas a eles. No entanto, eles podem alternar facilmente para as guias **Tarefas atrasadas**, **Tarefas abertas** e **Listas de tarefas**.
 
@@ -44,11 +49,11 @@ Os trabalhadores de armazenamento podem executar as seguintes operações de tar
 
 A ilustração a seguir mostra a guia **Minhas tarefas** no aplicativo de PDV Commerce.
 
-![Guia Minhas tarefas no aplicativo PDV do Commerce.](media/POS-task-management.png)
+![Guia Minhas tarefas no aplicativo PDV do Commerce](media/POS-task-management.png)
 
 A ilustração a seguir mostra a guia **Listas de tarefas**.
 
-![Guia Listas de tarefas no aplicativo PDV do Commerce.](media/POS-task-lists-management.png)
+![Guia Listas de tarefas no aplicativo PDV do Commerce](media/POS-task-lists-management.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -59,6 +64,3 @@ A ilustração a seguir mostra a guia **Listas de tarefas**.
 [Criar listas de tarefas e adicionar tarefas](task-mgmt-create-lists.md)
 
 [Atribuir listas de tarefas a lojas ou funcionários](task-mgmt-assign-lists.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

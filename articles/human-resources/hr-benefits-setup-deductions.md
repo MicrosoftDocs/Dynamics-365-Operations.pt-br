@@ -1,33 +1,31 @@
 ---
 title: Configurar deduções
 description: Use deduções no Microsoft Dynamics 365 Human Resources para determinar, se houver, quanto deduzir do salário de um funcionário para cada benefício.
-author: twheeloc
-ms.date: 08/24/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf7ddbfb8717c0311fab7388f346f03618a7b43d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7c59fa09e83ca91e0ad866e5875ff06370b7491d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065834"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417201"
 ---
 # <a name="configure-deductions"></a>Configurar deduções
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Use deduções no Microsoft Dynamics 365 Human Resources para determinar, se houver, quanto deduzir do salário de um funcionário para cada benefício. As deduções têm data efetiva, para que você possa manter um registro histórico das informações de dedução. 
 
@@ -48,12 +46,9 @@ Use deduções no Microsoft Dynamics 365 Human Resources para determinar, se hou
    | **Título do valor** | O código de cabeçalho do sistema de folha de pagamento que esse valor de dedução usará para a parte da dedução do funcionário ao processar os benefícios da folha de pagamento. Isso costuma ser usado quando você usa um provedor de folha de pagamento de terceiros. |
    | **Pode excluir** | Especifica se um valor exportado do Dynamics 365 for Finance and Operations pode fazer com que o valor seja excluído no sistema de folha de pagamento. |
    | **Colunas emparelhadas** | Especifica se o valor do cabeçalho e da dedução deve ser exportado em colunas adjacentes emparelhadas para o sistema da folha de pagamento. |
-   | **Alterar a data de efetivação** | A data em que a alteração da dedução do benefício entrará em vigor. Nesta data, as alterações de dedução de benefícios e todos os planos de benefícios associados com essa dedução são atualizados, desde que você execute o processamento da **Atualização de alterações de dedução**. |
+   | **Alterar a data de efetivação** | A data em que a alteração da dedução do benefício entrará em vigor. Nesta data, o sistema altera automaticamente a dedução de benefícios e atualiza todos os planos de benefícios associados a essa dedução, desde que você execute o processamento da **atualização de alterações de dedução**. |
    | **Alteração da dedução concluída** | A caixa de seleção **Alteração de dedução concluída** será selecionada automaticamente assim que as alterações de dedução de benefícios forem concluídas pelo processamento de alterações da atualização de dedução. |
    
 4. Para controlar e manter alterações na configuração das taxas de benefício, selecione **Ações** e **Manter versões**.
 
 5. Selecione **Salvar**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

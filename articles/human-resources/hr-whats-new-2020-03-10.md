@@ -1,32 +1,33 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (10 de março de 2020)
 description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 10 de março de 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6e4d93f89721bd722de523fbba7adfd2ee3f786
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 944481727f3222a10f128ac3078c117f5ae7d193
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061142"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526897"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (10 de março de 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este artigo descreve os recursos novos ou alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.2985. Os números entre parênteses em alguns títulos referem-se aos números de suporte do LCS para referência.
 
@@ -44,7 +45,7 @@ O formulário de manutenção de tarefas do trabalhador lista todas as tarefas d
 
 Exemplo: Benjamin Martins é um administrador de benefícios. Durante a integração do funcionário, as tarefas são criadas para Benjamin a fim de revisar a seleção de benefícios do novo funcionário. Benjamin tem tarefas passadas concluiu e tarefas futuras que ele precisa concluir. Benjamin decide deixar a empresa, portanto, suas tarefas precisam ser reatribuídas ou removidas. O formulário manutenção de tarefas (no painel de ações do formulário **Trabalhador**) permite que todas as tarefas de Benjamin sejam atribuídas novamente a outro trabalhador ou removidas.  
 
-## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>A solução do Dataverse agora está disponível com as seguintes alterações:
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>A solução do Common Data Service agora está disponível com as seguintes alterações:
 
 | descrição | Troco |
 | --- | --- |
@@ -56,18 +57,18 @@ Exemplo: Benjamin Martins é um administrador de benefícios. Durante a integra�
 | Novas entidades de configuração de remuneração variável | <ul><li>**Tipo de plano de remuneração variável**</li><li>**Plano de remuneração variável**</li><li>**Regras de benefício proporcional diferido**</li><li>**Nível do plano de remuneração variável**</li></ul> |
 | Nova entidade **Emprego do calendário do trabalhador** | <ul><li>**Entidade do calendário de trabalho** adicionada</li></ul> |
 | Nova entidade **Detalhe da posição de folha de pagamento** | <ul><li>**Detalhe da posição de folha de pagamento** adicionado</li></ul> |
-| Nova entidade **Bloco** | <ul><li>**Bloco** adicionado</li></ul> A nova entidade **Título** é incluída no Dataverse, mas não é referenciada nas entidades **Posição de trabalho** ou **Trabalho** no momento. |
+| Nova entidade **Bloco** | <ul><li>**Bloco** adicionado</li></ul> A nova entidade **Título** é incluída no Common Data Service, mas não é referenciada nas entidades **Posição de trabalho** ou **Trabalho** no momento. |
 
 > [!NOTE]
-> As dimensões financeiras para as posições e o trabalho fornecem integração unidirecional para atualizações de recursos humanos para Dataverse. As atualizações de dimensões financeiras não são sincronizadas atualmente de Dataverse a Recursos Humanos.
+> As dimensões financeiras para as posições e o trabalho fornecem integração unidirecional para atualizações de recursos humanos para Common Data Service. As atualizações de dimensões financeiras não são sincronizadas atualmente de Common Data Service a Recursos Humanos.
 
-Nas próximas semanas, essas alterações de entidade estarão disponíveis em todos os ambientes. Para instalar manualmente a solução Dataverse mais recente para recursos humanos:
+Nas próximas semanas, essas alterações de entidade estarão disponíveis em todos os ambientes. Para instalar manualmente a solução Common Data Service mais recente para recursos humanos:
 
-1.  Acesse [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com).
+1.  Vá para [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  Selecione **Ambientes**.
 
-3.  Localize o ambiente que você deseja atualizar. O ambiente deve corresponder ao **Nome do ambiente** na seção **informações do Dataverse** no formulário **Sobre** em Recursos Humanos.
+3.  Localize o ambiente que você deseja atualizar. O ambiente deve corresponder ao **Nome do ambiente** na seção **informações do Common Data Service** no formulário **Sobre** em Recursos Humanos.
 
 4.  Selecione o ambiente para exibir os detalhes do ambiente.
 
@@ -102,8 +103,6 @@ Os seguintes recursos de visualização foram disponibilizados em 3 de fevereiro
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

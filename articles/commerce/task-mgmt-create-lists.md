@@ -2,30 +2,35 @@
 title: Criar listas de tarefas e adicionar tarefas
 description: Este tópico descreve como criar listas de tarefas e adicionar tarefas a elas no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756516"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410252"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Criar listas de tarefas e adicionar tarefas
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como criar listas de tarefas e adicionar tarefas a elas no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 Uma *tarefa* define uma parte específica do trabalho ou uma ação que alguém deve concluir em ou antes de uma data de vencimento especificada. No Dynamics 365 Commerce, uma tarefa pode incluir instruções e informações detalhadas sobre uma pessoa para contato. Ele também pode incluir links para operações de Back-Office, operações de ponto de venda (PDV) ou páginas do site para ajudar a melhorar a produtividade e fornecer o contexto que o proprietário da tarefa requer para concluir a tarefa com eficiência.
 
@@ -37,7 +42,7 @@ Os gerentes e trabalhadores podem criar listas de tarefas no back-office do Comm
 
 Para criar uma lista de tarefas, siga estas etapas.
 
-1. Acesse **Retail e Commerce \> Gerenciamento de tarefas \> Administração de gerenciamento de tarefas**.
+1. Vá para **Retail e Commerce \> Gerenciamento de tarefas \> Administração de gerenciamento de tarefas**.
 1. Selecione **Novo**, e depois insira os valores nos campos **Nome**, **Descrição** e **Proprietário**.
 1. Selecione **Salvar**.
 
@@ -49,7 +54,7 @@ Para adicionar tarefas a uma lista de tarefas, siga estas etapas.
 1. Na caixa de diálogo **Criar uma nova tarefa**, no campo **Nome**, insira um nome para a tarefa.
 1. No campo **Deslocamento da data de vencimento a partir da data de destino**, insira um valor inteiro positivo ou negativo. Por exemplo, insira **-2** se a tarefa deve ser concluída dois dias antes da data de vencimento da lista de tarefas.
 1. No campo **Notas**, insira instruções detalhadas.
-1. No campo **Pessoa para contato**, insira o nome de um especialista no assunto com quem o proprietário da tarefa pode entrar em contato se precisar de ajuda.
+1. No campo **Pessoa para contato**, insira o nome de um especialista no assunto que o proprietário da tarefa pode contatar se precisar de ajuda.
 1. No campo **Link de contato**, insira um link, com base na natureza da tarefa.
 
 > [!TIP]
@@ -70,13 +75,13 @@ Para adicionar links de tarefas ao criar uma tarefa, siga estas etapas.
 
 A ilustração a seguir mostra a seleção de links de tarefas na caixa de diálogo **Editar tarefa**.
 
-![Selecionando links de tarefas na caixa de diálogo Editar tarefa.](media/HQ-POS-Tasks-Linking.png)
+![Selecionando links de tarefas na caixa de diálogo Editar tarefa](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>Configurar uma operação de PDV para que possa ser vinculada a uma tarefa
 
 Para configurar uma operação de PDV para que possa ser vinculada a uma tarefa, siga estas etapas.
 
-1. Acesse **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
+1. Vá para **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
 1. Selecione **Editar**, localize a operação de PDV e marque a caixa de seleção **Habilitar gerenciamento de tarefas** para ela.
 
 ## <a name="additional-resources"></a>Recursos adicionais
@@ -88,6 +93,3 @@ Para configurar uma operação de PDV para que possa ser vinculada a uma tarefa,
 [Atribuir listas de tarefas a lojas ou funcionários](task-mgmt-assign-lists.md)
 
 [Gerenciamento de tarefas em PDV](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

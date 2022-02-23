@@ -1,27 +1,30 @@
 ---
 title: Gerenciar trabalhos de subcontratação na produção
 description: Este tópico explica como operações subcontratadas são gerenciadas no Dynamics 365 Supply Chain Management. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup, ProdBOMVendorListPagePreviewPane, ProdBOMVendor
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e80efc751ccf9243163d23ed48fd17923326f89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9119655384cd05e5aa3622712e699b346a43f492
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579370"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422407"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gerenciar trabalhos de subcontratação na produção
 
@@ -100,6 +103,3 @@ Normalmente, o depósito de saída e o local de um grupo de recursos subcontrata
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

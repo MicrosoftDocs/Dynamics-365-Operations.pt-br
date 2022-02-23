@@ -2,9 +2,11 @@
 title: Novidades ou alterações no aplicativo Dynamics AX versão 7.0.1 (maio de 2016)
 description: Este artigo descreve os recursos novos ou alterados no aplicativo Microsoft Dynamics AX versão 7.0.1. Esta versão foi lançada em maio de 2016 e tem um número de compilação 7.0.1265.23014.
 author: sericks007
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748255"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797154"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novidades ou alterações no aplicativo Dynamics AX versão 7.0.1 (maio de 2016)
 
@@ -76,7 +78,7 @@ Este artigo descreve os recursos novos ou alterados no aplicativo Microsoft Dyna
 </tr>
 <tr>
 <td>Suporte para BOMs que incluem itens com dimensões de produto diferentes para o mesmo item.</td>
-<td>Ao usar uma ou várias dimensões de produto na produção, podem ocorrer situações onde você gostaria de produzir um item, com base em uma variante diferente do mesmo item. Para obter mais informações, acesse <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">esse blog</a>.</td>
+<td>Ao usar uma ou várias dimensões de produto na produção, podem ocorrer situações onde você gostaria de produzir um item, com base em uma variante diferente do mesmo item. Para obter mais informações, acesse <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">esse blog</a>.</td>
 </tr>
 <tr>
 <td>Ordens de produção com estruturas circulares no primeiro nível das suas BOMs são excluídas do cálculo de nível da BOM para o planejamento de recursos materiais.</td>
@@ -104,6 +106,3 @@ Este artigo descreve os recursos novos ou alterados no aplicativo Microsoft Dyna
 [Home page de Novidades ou alterações no Finance and Operations](whats-new-changed.md)
 
 [Guias de tarefas novos ou atualizados (maio de 2016)](new-updated-task-guides-available-may-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

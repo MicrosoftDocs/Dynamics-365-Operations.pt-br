@@ -2,23 +2,26 @@
 title: Configurar o cartão de trabalho para dispositivos
 description: Este tópico descreve as várias opções para configurar o dispositivo de ficha de trabalho.
 author: johanhoffmann
+manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777731"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422252"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurar o cartão de trabalho para dispositivos
 
@@ -34,25 +37,25 @@ Algumas das configurações descritas neste tópico devem ser habilitadas no sis
 
 Para disponibilizar este recurso, habilite os seguintes recursos no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (em ordem):
 
-1. Placa de licença para relatório de conclusão adicionado ao Dispositivo de Ficha de Trabalho (a partir do Supply Chain Management versão 10.0.21, este recurso é ativado por padrão.)
+1. Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho
 1. Habilitar a geração automática do número da placa de licença ao concluir o relatório de conclusão no dispositivo de ficha de trabalho
 
 ### <a name="print-label"></a>Imprimir etiqueta
 
 Para disponibilizar este recurso, habilite os seguintes recursos no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (em ordem):
 
-1. Placa de licença para relatório de conclusão adicionado ao Dispositivo de Ficha de Trabalho (a partir do Supply Chain Management versão 10.0.21, este recurso é ativado por padrão.)
+1. Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho
 1. Imprimir etiqueta do Dispositivo de Ficha de Trabalho
 
 ### <a name="allow-locking-of-touch-screen"></a>Permitir o bloqueio da tela de toque
 
-A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Se você quiser usá-lo, certifique-se de que o seguinte recurso foi ativado no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Para disponibilizar este recurso, habilite o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- Recurso para bloqueio de dispositivo de ficha de trabalho e terminal de ficha de trabalho para que eles possam ser limpos
+- (Versão prévia) Recurso para bloqueio de dispositivo de ficha de trabalho e terminal de ficha de trabalho para que eles possam ser limpos
 
 ## <a name="manage-your-device-configurations"></a>Gerenciar suas configurações de dispositivo
 
-Para definir configurações de dispositivo, Acesse **Controle de produção > Configuração > Execução de fabricação > Configurar ficha de trabalho para dispositivos**. A página **Configurar ficha de trabalho para dispositivos** é aberta, que mostra uma lista das configurações existentes. Aqui, você pode fazer o seguinte: 
+Para definir configurações de dispositivo, vá para **Controle de produção > Configuração > Execução de fabricação > Configurar ficha de trabalho para dispositivos**. A página **Configurar ficha de trabalho para dispositivos** é aberta, que mostra uma lista das configurações existentes. Aqui, você pode fazer o seguinte: 
 
 - Selecione qualquer configuração de dispositivo listada na coluna à esquerda para exibi-la e editá-la.
 - Selecione **Novo** no Painel de Ações para adicionar uma nova configuração de dispositivo à lista. Insira um nome no campo **Configuração** para identificar a nova configuração. O valor inserido aqui deve ser exclusivo entre todas as configurações de dispositivo e você não poderá editá-lo posteriormente.
@@ -65,7 +68,7 @@ A Guia Rápida **Geral** permite configurar cada uma das várias opções dispon
 
 - **Quantidade de relatório em registro de saída** - defina isso como **Sim** para que os funcionários relatem comentários sobre os trabalhos em andamento durante o registro de saída. Quando definido como **Não**, os funcionários não serão solicitados.
 - **Bloquear funcionário** - quando esta opção for definida como **Não**, cada trabalhador será desconectado imediatamente depois de criar um registro (como um novo trabalho) e, depois, o dispositivo retornará à página de logon. Quando esta opção for definida como **Sim**, cada trabalhador permanecerá conectado ao dispositivo de ficha de trabalho. No entanto, o trabalhador ainda poderá fazer logout manualmente para permitir que outro trabalhador efetue login enquanto o dispositivo de ficha de trabalho continuar sendo executado na mesma conta de usuário do sistema. Para obter mais informações sobre esses tipos de contas, consulte [Usuários atribuídos](#assigned-users).
-- **Scanner de código de barras** - defina como **Sim** para fornecer uma opção no dispositivo de ficha de trabalho que permita aos trabalhadores registrar o início de um novo trabalho examinando um código de barras.
+- **Scanner de código de barras** - defina isso como **Sim** para fornecer uma opção no dispositivo de ficha de trabalho que permita aos trabalhadores registrar o início de um novo trabalho examinando um código de barras.
 - **Use o tempo real de registro** - defina isso como **Sim** para definir a hora para cada novo registro ser igual ao tempo exato que o registro foi enviado por um trabalhador. Defina como **Não** para usar o tempo de logon. Em geral, você desejará definir isso como **Sim** se tiver habilitado as opções **Bloquear funcionário** e/ou **Trabalhador único**, em que os trabalhadores em geral permanecem registrados por períodos mais longos.
 - **Trabalhador único** - defina esta opção como **Sim** se apenas um trabalhador usar cada dispositivo de ficha de trabalho no qual essa configuração está ativa. Quando esta opção é selecionada, a opção **Bloquear funcionário** é automaticamente definida como **Sim**. Além disso, esta opção remove a necessidade (e a capacidade) de o trabalhador efetuar login usando uma ID de crachá (ou semelhante). Em vez disso, o trabalhador entra no Supply Chain Management usando uma conta de usuário do sistema vinculada a um *Trabalhador com tempo registrado* (da tabela *trabalhadores*) e faz logon no dispositivo de ficha de trabalho como esse trabalhador ao mesmo tempo.  Para obter mais informações sobre esses tipos de contas, consulte [Usuários atribuídos](#assigned-users).
 - **Permitir que os trabalhadores definam filtros pessoais** - defina esta opção como **Sim** para permitir que os trabalhadores filtrem os trabalhos exibidos no dispositivo. O trabalhador pode modificar valores para qualquer um dos três critérios de filtro: **Unidade de produção**, **Grupo de recursos** e **Recurso**. Somente os trabalhos que forem agendados em recursos que correspondam aos critérios de filtragem selecionados aparecerão no dispositivo. Você também pode atribuir valores padrão para qualquer um ou todos esses critérios; eles serão aplicados mesmo se essa opção não estiver selecionada.
@@ -92,6 +95,3 @@ No entanto, como citado anteriormente, quando você usa uma configuração de di
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatar como concluído no dispositivo de ficha de trabalho](report-finished-job-device.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

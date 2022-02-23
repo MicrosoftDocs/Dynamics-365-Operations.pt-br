@@ -2,29 +2,32 @@
 title: Eventos do aplicativo de depósito
 description: Este tópico descreve o processamento de eventos de aplicativos de depósito usado para processar mensagens de eventos do aplicativo de depósito como parte de um trabalho em lotes.
 author: perlynne
+manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1e648b5db9405e749fbd24502f65f344d0549b0f13b48e98c38d1476866db01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 210008c4a1366773f465c59b38eca30f11f0b38c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729977"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422044"
 ---
 # <a name="warehouse-app-event-processing"></a>Processamento de eventos do aplicativo de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Os trabalhos em lotes executados no Supply Chain Management podem usar dados de uma fila para processar eventos emitidos pelo aplicativo móvel Gerenciamento de Depósito para reagir conforme a necessidade dos eventos sinalizados. Esse recurso adiciona eventos relevantes à fila em resposta a certos tipos de ações executadas por trabalhadores usando o aplicativo. Um exemplo é ao usar o recurso *Criar e processar ordens de transferência do aplicativo de depósito*, as linhas e o cabeçalho da ordem de transferência serão criados e atualizados no back-end quando o sistema estiver executando o trabalho em lotes **Processar eventos do aplicativo de depósito**.
+Os trabalhos em lotes executados no Supply Chain Management podem usar dados de uma fila para processar eventos emitidos pelo aplicativo de depósito para reagir conforme a necessidade dos eventos sinalizados. Esse recurso adiciona eventos relevantes à fila em resposta a certos tipos de ações executadas por trabalhadores usando o aplicativo. Um exemplo é ao usar o recurso **Criar e processar ordens de transferência do aplicativo de depósito**, as linhas e o cabeçalho da ordem de transferência serão criados e atualizados no back-end quando o sistema estiver executando o trabalho em lotes **Processar eventos do aplicativo de depósito**.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Habilitar o recurso Processar eventos de aplicativo de depósito
 
@@ -39,7 +42,7 @@ Antes de poder usar esse recurso, ele deverá estar habilitado no seu sistema. O
 
 Configure um trabalho em lotes agendado para processar os eventos do aplicativo de depósito para a criação da ordem de transferência e as atualizações de linha.
 
-1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
+1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
 1. A caixa de diálogo Processar eventos do aplicativo de depósito será aberta. Expanda a guia rápida **Executar em segundo plano** e defina **Processamento em lotes** como **Sim**.
 1. Na guia rápida **Executar em segundo plano**, selecione **Recorrência**.
 1. A caixa de diálogo **Definir recorrência** será aberta. Defina o plano de execução, conforme necessário para a sua empresa.
@@ -48,11 +51,11 @@ Configure um trabalho em lotes agendado para processar os eventos do aplicativo 
 
 ## <a name="query-warehouse-app-events"></a>Consultar eventos do aplicativo de depósito
 
-Você pode exibir a fila de eventos e as mensagens de eventos geradas pelo aplicativo móvel Gerenciamento de Depósito indo para **Gerenciamento de depósito \> Consultas e relatórios \> Logs do dispositivo móvel \> Eventos do aplicativo de depósito**.
+Você pode exibir a fila de eventos e as mensagens de eventos geradas pelo aplicativo de depósito indo para **Gerenciamento de depósito \> Consultas e relatórios \> Logs do dispositivo móvel \> Eventos do aplicativo de depósito**.
 
 ## <a name="the-standard-event-queue-process"></a>O processo da fila de eventos padrão
 
-A fila de eventos de aplicativo de depósito normalmente será usada com o seguinte fluxo descrito:
+A fila de eventos de aplicativos de depósito normalmente será usada com o seguinte fluxo descrito:
 
 1. Um evento é adicionado à fila com uma mensagem de evento. A nova mensagem inicialmente tem um estado de evento de **Espera**, o que significa que o trabalho em lotes **Processar eventos do aplicativo de depósito** não será coletado e processará essa mensagem.
 1. Assim que o estado da mensagem é atualizado para **Enfileirado**, o trabalho em lotes **Processar aplicativo de depósito** irá coletar e processar o evento.
@@ -69,12 +72,9 @@ Para obter um exemplo detalhado, consulte [Criar ordem de transferência do apli
 
 Para redefinir uma mensagem do evento de aplicativo de depósito com falha:
 
-1. Acesse **Gerenciamento de depósito \> Consultas e relatórios \> Logs do dispositivo móvel \> Eventos do aplicativo de depósito**.
+1. Vá para **Gerenciamento de depósito \> Consultas e relatórios \> Logs do dispositivo móvel \> Eventos do aplicativo de depósito**.
 1. Na Guia Rápida **Mensagens de eventos do aplicativo de depósito**, localize e selecione um evento relevante que está mostrando **Com Falha** na coluna **Estado do evento**.
 1. Selecione **Redefinir** na barra de ferramentas **Mensagens de eventos do aplicativo de depósito**.
 1. Continue trabalhando até que todas as mensagens relevantes sejam redefinidas.
 
 Você também pode remover uma mensagem de evento **Com falha** usando a opção **Excluir** na barra de ferramentas **Mensagens de eventos do aplicativo de depósito**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Combinar ordens de serviço
 description: Você pode combinar ordens de serviço.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df9571cb1330489651a28462b747cacd7ac7e46
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 17fbed59b1fe7bec80f25f74451872efd61bed62
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580447"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421971"
 ---
 # <a name="combine-service-orders"></a>Combinar ordens de serviço   
 
@@ -41,14 +44,14 @@ Quando você cria linhas de ordem de serviço automaticamente no formulário de 
 
 Você cria um contrato de serviço com uma data inicial em 31-03-2007. No campo **Combinar ordens de serviço**, você especifica **Por objeto de serviço**. Em seguida, será possível criar estas linhas de contrato de serviço:
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -110,6 +113,3 @@ O agrupamento adicional de linhas de ordem de serviço em ordens de serviço oco
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
 title: Criar um catálogo de compras
 description: Este tópico explica como criar um catálogo de compras.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcCategoryHierarchyManagement, CatProcureCatalogListPage, CatProcureCatalogCreate, CatProcureCatalogEdit, SysPolicyListPage, SysPolicy, CatCatalogPolicyRule, PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqAddItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef3747874d43143925bd08dbecc2d60f4e38701a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eaf8b8d8b369aa704344d6984a0f111af6e4285b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565414"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016468"
 ---
 # <a name="create-a-procurement-catalog"></a>Criar um catálogo de compras
 
@@ -28,11 +30,11 @@ Este tópico explica como criar um catálogo de compras. Essa tarefa é tipicame
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Assegure-se de que uma hierarquia da categoria da obtenção exista
-1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Categorias de compras**. Uma hierarquia de categorias de compras está disponível na empresa de dados de demonstração de USMF e os produtos foram adicionados às **máquinas de escritório/categoria dos computadores**. Se você estiver executando este procedimento como um guia de tarefa você precisará desbloquear o guia se quiser pesquisar entre a categoria. Se uma hierarquia não estava disponível, você a criaria clicando em **Novo**. Isso só pode ser feito uma vez.  
+1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Categorias de compras**. Uma hierarquia de categorias de compras está disponível na empresa de dados de demonstração de USMF e os produtos foram adicionados às **máquinas de escritório/categoria dos computadores**. Se você estiver executando este procedimento como um guia de tarefa você precisará desbloquear o guia se quiser pesquisar entre a categoria. Se uma hierarquia não estava disponível, você a criaria clicando em **Novo**. Isso só pode ser feito uma vez.  
 2. Feche a página.
 
 ## <a name="create-a-catalog"></a>Criar um catálogo
-1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Catálogos > Catálogos de compras**.
+1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Catálogos > Catálogos de compras**.
 2. Selecione **Novo catálogo de compras** para abrir a caixa de diálogo suspensa.
 3. No campo **Nome**, digite um valor.
 4. Selecione **OK**.
@@ -48,13 +50,13 @@ Este tópico explica como criar um catálogo de compras. Essa tarefa é tipicame
 10. Feche a página.
 
 ## <a name="make-the-catalog-visible"></a>Tornar o catálogo visível
-1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
+1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
 2. Selecione **USMF da Política de Aquisição**. Você precisa selecionar a política de compras para a entidade legal em que é permitido ao trabalhador conectado a seu perfil de usuário a pedir produtos. Nos dados de demonstração USMF, o usuário administrador é conectado ao trabalhador chamado **Julia Funderburk**; ela pede produtos em USMF por padrão.  
 3. Selecione o catálogo que você acabou de criar.
 4. Selecione **OK**.
 
 ## <a name="use-the-catalog"></a>Usar o catálogo
-1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Requisições de compras > Todas as requisições de compras**.
+1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Requisições de compras > Todas as requisições de compras**.
 2. Selecione **Novo**.
 3. No campo **Nome**, digite um valor.
 4. Selecione **OK**.
@@ -63,6 +65,3 @@ Este tópico explica como criar um catálogo de compras. Essa tarefa é tipicame
 7. Selecione **Adicionar a linhas**.
 8. Selecione **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

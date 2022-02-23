@@ -2,9 +2,11 @@
 title: Configurar decisões condicionais em um fluxo de trabalho
 description: Use os procedimentos a seguir para configurar as propriedades da decisão condicional.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fa708b4ac1f17a9ed6852a9eeb3e764b750a4a4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3a880d4be461ea9b2caa61b7d038f9b24486a919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070949"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798870"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Configurar decisões condicionais em um fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Use os procedimentos a seguir para configurar as propriedades da decisão condicional.
 
@@ -53,6 +52,3 @@ O sistema determina qual ramificação é usada para avaliar o documento enviado
     2. Selecione um registro na área **Validar condição** do formulário.
     3. Clique em **Teste**. O sistema avaliará o registro para determinar se ele atende às condições definidas.
     4. Clique em **OK** ou em **Cancelar** para retornar ao formulário **Propriedades**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

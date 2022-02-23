@@ -1,25 +1,28 @@
 ---
 title: Criar atividades de processo para lean manufacturing
 description: Crie uma atividade de processo para lean manufacturing.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup, PlanActivityDetails, KanbanJobPickingListPart
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 214e54cc93379948e4c25b3b28d835bbbbd40b72
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3cb096eb25fa449b521c370bcb1677e38e399658
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570144"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421900"
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a>Criar atividades de processo para lean manufacturing
 
@@ -35,7 +38,7 @@ Pré-requisitos:
 
 
 ## <a name="find-the-production-flow-version"></a>Localizar a versão do fluxo de produção
-1. Acesse Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
+1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 
@@ -91,6 +94,3 @@ Pré-requisitos:
 12. Clique em Finish (Concluir).
 13. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

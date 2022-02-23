@@ -52,6 +52,3 @@ O Onboard enviará ao novo contratado um e-mail que indica quais foram as altera
     ![[Enviar as alterações de um modelo de integração para todos os guias criados com base nele](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 As alterações serão visíveis para novas contratações que abrem os guias de integração. Porém, o Onboard não enviará alertas de email para novas contratações para que elas saibam que o guia de integração foi alterado. Para fácil identificação, uma etiqueta **Novo** aparecerá próxima a cada alteração. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

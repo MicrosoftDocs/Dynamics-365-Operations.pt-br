@@ -1,39 +1,37 @@
 ---
 title: Configurar a integração com o Finance
-description: Este tópico descreve a integração entre o Dynamics 365 Human Resources e o Dynamics 365 Finance.
-author: twheeloc
-ms.date: 08/19/2021
+description: Este artigo descreve a funcionalidade disponível para integração de Dynamics 365 Human Resources e Dynamics 365 Finance.
+author: andreabichsel
+manager: AnnBe
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065007"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527901"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar a integração com o Finance
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+Para integrar o Dynamics 365 Human Resources com Dynamics 365 Finance, você pode usar o modelo Human Resources para Finance no [Integrador de Dados](https://docs.microsoft.com/powerapps/administrator/data-integrator). O modelo de Human Resources para Finance permite o fluxo de dados para trabalhos, posições e trabalhadores. O modelo permite que os dados fluam de Human Resources para Finance, mas não permite que os dados fluam de Finance para Human Resources.
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
-
-Para integrar o Dynamics 365 Human Resources com Dynamics 365 Finance, você pode usar o modelo Human Resources para Finance no [Integrador de Dados](/powerapps/administrator/data-integrator). O modelo de Human Resources para Finance permite o fluxo de dados para trabalhos, posições e trabalhadores. O modelo permite que os dados fluam de Human Resources para Finance, mas não permite que os dados fluam de Finance para Human Resources.
-
-![Integração do Human Resources ao fluxo de integração do Finance.](./media/hr-admin-integration-finance-flow.png)
+![Integração do Human Resources ao fluxo de integração do Finance](./media/hr-admin-integration-finance-flow.png)
 
 A solução Human Resources para Finance fornece os seguintes tipos de sincronização de dados:
 
@@ -46,7 +44,7 @@ A solução Human Resources para Finance fornece os seguintes tipos de sincroniz
 
 A solução de integração requer as seguintes versões de Human Resources e Finance: 
 
-- Dynamics 365 Human Resources em Dataverse
+- Dynamics 365 Human Resources em Common Data Service
 - Dynamics 365 Finance versão 7.2 e posterior
 
 ## <a name="template-and-tasks"></a>Modelo e tarefas
@@ -57,7 +55,7 @@ Para acessar o modelo Human Resources para Finance.
 
 2. Selecione **Projetos** e, em seguida, selecione **Novo projeto** no canto superior direito. Criar um novo projeto para cada entidade legal que você deseja integrar em Finance.
 
-3. Selecione o **Human Resources (Human Resources Dataverse para Finance)** para sincronizar registros de Human Resources para Finance.
+3. Selecione o **Human Resources (Human Resources Common Data Service para Finance)** para sincronizar registros de Human Resources para Finance.
 
 O modelo usa as tarefas subjacentes a seguir para sincronizar registros de Human Resources para Finance:
 
@@ -83,14 +81,14 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="job-functions-to-compensation-job-function"></a>Função de trabalho a função de trabalho de compensação
 
-| Tabela do Dataverse (origem) | Entidade do Finance (destino) |
+| Entidade do Common Data Service (origem) | Entidade do Finance (destino) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Nome da função)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Departamentos a Unidade operacional
 
-| Tabela do Dataverse (origem)           | Entidade do Finance (destino) |
+| Entidade do Common Data Service (origem)           | Entidade do Finance (destino) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -99,7 +97,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="job-types-to-compensation-job-type"></a>Tipos de trabalho a tipo de trabalho de compensação
 
-| Tabela do Dataverse (origem)   | Entidade do Finance (destino) |
+| Entidade do Common Data Service (origem)   | Entidade do Finance (destino) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -107,7 +105,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="jobs-to-jobs"></a>Trabalhos a trabalhos
 
-| Tabela do Dataverse (origem)                           | Entidade do Finance (destino)           |
+| Entidade do Common Data Service (origem)                           | Entidade do Finance (destino)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -117,7 +115,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="jobs-to-job-detail"></a>Trabalhos a Detalhes do Trabalho
 
-| Tabela do Dataverse (origem)                             | Entidade do Finance (destino) |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (Tipo de trabalho (Nome do tipo de trabalho))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -128,7 +126,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="position-types-to-position-type"></a>Tipos de posição a tipo de posição
 
-| Tabela do Dataverse (origem)       | Entidade do Finance (destino) |
+| Entidade do Common Data Service (origem)       | Entidade do Finance (destino) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -136,13 +134,13 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="job-positions-to-base-position"></a>Cargos de trabalho a cargo base
 
-| Tabela do Dataverse (origem)           | Entidade do Finance (destino) |
+| Entidade do Common Data Service (origem)           | Entidade do Finance (destino) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Número da posição de cargo) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Cargos de trabalho a detalhes de cargo
 
-| Tabela do Dataverse (origem)              | Entidade do Finance (destino)       |
+| Entidade do Common Data Service (origem)              | Entidade do Finance (destino)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (Número da posição de cargo)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (Cargo (Nome))                                        | JOBID (JOBID)                                    |
@@ -156,7 +154,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="job-positions-to-position-durations"></a>Cargos de trabalho a durações de cargo
 
-| Tabela do Dataverse (origem)             | Entidade do Finance (destino) |
+| Entidade do Common Data Service (origem)             | Entidade do Finance (destino) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Número da posição de cargo)   | POSITIONID (POSITIONID)                      |
 | Ativação calculada (Ativação calculada) | VALIDFROM (VALIDFROM)                        |
@@ -164,7 +162,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="job-positions-to-position-hierarchies"></a>Cargos de trabalho a hierarquias de cargo
 
-| Tabela do Dataverse (origem)        | Entidade do Finance (destino) |
+| Entidade do Common Data Service (origem)        | Entidade do Finance (destino) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Número da posição de cargo)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -174,7 +172,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 
 ### <a name="workers-to-worker"></a>Trabalhadores a Trabalhador
-| Tabela do Dataverse (origem)           | Entidade do Finance (destino)       |
+| Entidade do Common Data Service (origem)           | Entidade do Finance (destino)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -193,7 +191,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="employments-to-employment"></a>Empregos a emprego
 
-| Tabela do Dataverse (origem)                             | Entidade do Finance (destino) |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -203,7 +201,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="employments-to-employment-detail"></a>Empregos a Detalhe de emprego
 
-| Tabela do Dataverse (origem)                             | Entidade do Finance (destino)   |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -221,7 +219,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Atribuição do Trabalhador da Posição a Atribuições do Trabalhador da Posição
 
-| Tabela do Dataverse (origem)                             | Entidade do Finance (destino)   |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (Número da posição de cargo)                   | POSITIONID(POSITIONID)                        |
@@ -230,7 +228,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Endereços de trabalhador a endereço postal do trabalhador V2
 
-| Tabela do Dataverse (origem)                             | Entidade do Finance (destino)   |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -250,12 +248,10 @@ A integração de Human Resources ao Finance tenta coincidir registros com base 
 
 Esse problema pode acontecer com **Trabalhador**, que usa **Número pessoal** para realizar a correspondência e **Posições**. Os trabalhos não usam sequências numéricas. Como resultado, se a mesma ID de trabalho existir em Human Resources e Finance, as informações de recursos humanos substituem as informações de Dynamics 365 Finance. 
 
-Para evitar problemas com IDs duplicadas, você pode adicionar um prefixo na [sequência numérica](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) ou definir um número inicial na sequência numérica que está além do intervalo do outro sistema. 
+Para evitar problemas com IDs duplicadas, você pode adicionar um prefixo na [sequência numérica](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) ou definir um número inicial na sequência numérica que está além do intervalo do outro sistema. 
 
 A identificação de local usada para o endereço de trabalho não faz parte de uma sequência numérica. Ao integrar um endereço de trabalhador de Human Resources a Finance, se o endereço de trabalho já existir em Finance, um registro de endereço duplicado poderá ser criado. 
 
 A ilustração a seguir mostra um exemplo de um mapeamento de modelo no Integrador de dados. 
 
-![Mapeamento de modelo.](./media/IntegrationMapping.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Mapeamento de modelo](./media/IntegrationMapping.png)

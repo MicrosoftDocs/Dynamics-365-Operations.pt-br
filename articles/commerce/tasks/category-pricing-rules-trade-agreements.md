@@ -2,24 +2,27 @@
 title: Regras de preços de categoria para criar contratos comerciais
 description: Este procedimento mostra como criar contratos comerciais de preço de vendas usando uma regra de definição de preços de categoria.
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 39418f9d9c5e3edf1db92a6d8271df2c55be94deca814838c133d0ef6703ec09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730698"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410247"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>Regras de preços de categoria para criar contratos comerciais
 
@@ -56,6 +59,3 @@ Este procedimento mostra como criar contratos comerciais de preço de vendas usa
 24. Clique na guia Regras de preço de categoria.
     * As regras de definição de preços específicas da categoria do canal serão mostradas nesta lista.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

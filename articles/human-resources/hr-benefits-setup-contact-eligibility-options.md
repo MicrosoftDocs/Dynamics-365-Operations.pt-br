@@ -1,35 +1,33 @@
 ---
 title: Configurar opções de qualificação para contato pessoal
-description: Este tópico explica como configurar opções de qualificação para contatos pessoais no Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/24/2021
+description: Configure opções de qualificação para contatos pessoais no Microsoft Dynamics 365 Human Resources. Contatos pessoais podem ser beneficiários ou dependentes.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070341"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417305"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Configurar opções de qualificação para contato pessoal
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Este tópico explica como configurar os tipos de contatos pessoais que podem ser usados em benefícios no Microsoft Dynamics 365 Human Resources. Os contatos pessoais são as pessoas que receberão cobertura dos seus planos (dependentes) ou que se beneficiarão dos seus planos (beneficiários). Normalmente, os dependentes são cônjuges ou filhos. Os beneficiários podem ser cônjuges, filhos, pessoas com as quais tem relações de confiança ou pais.
+Este artigo mostra como configurar tipos de contatos pessoais para usar em benefícios no Microsoft Dynamics 365 Human Resources. Contatos pessoais podem ser beneficiários ou dependentes. 
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Configuração**, selecione **Opções de qualificação para contato pessoal**.
 
@@ -42,11 +40,8 @@ Este tópico explica como configurar os tipos de contatos pessoais que podem ser
    | **Opção de qualificação** | Um nome ou código exclusivo da opção de qualificação para identificar a opção de qualificação. |
    | **Descrição** | Uma breve descrição da opção de qualificação. |
    | **Código de qualificação do contato** | O código do sistema que melhor descreve a opção de qualificação pessoal. As opções são: <ul><li>Relacionamento</li><li>Estudante</li><li>Dependente excedente</li><li>Dependente incapaz maior de idade</li></ul> |
-   | **Status** | O status da opção de qualificação. Se o status de uma opção de qualificação estiver definido como inativo, não será possível selecionar essa opção de qualificação de contato pessoal para contatos pessoais. |
+   | **Status** | O status da opção de qualificação. Se o status de uma opção de qualificação estiver definido como inativo, você não poderá selecionar essa opção de qualificação de contato pessoal para contatos pessoais. |
    | **Relacionamento** | Especifica o relacionamento entre o contato pessoal e o funcionário. Esse campo estará ativo apenas se o código de qualificação do contato estiver definido como Relacionamento. |
    | **Classificar por vencimento** | A idade máxima de um contato pessoal qualificado para o plano de benefícios. Esse campo estará ativo apenas se você selecionar um relacionamento. Essa idade é comparada com a idade calculada do contato pessoal. A idade calculada é: (data de cobertura – data de nascimento do contato pessoal/365). Esse número é sempre um inteiro. |
 
 4. Selecione **Salvar**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Data UEPS com marcação e valor físico
 description: Data UEPS (último a entrar, primeiro a sair) é um modelo de estoque baseado no princípio UEPS. As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque. Ao usar a Data UEPS, se não houver um recebimento antes da saída, a saída será liquidada com relação a qualquer recebimento que ocorra após a data da saída. Várias saídas na mesma data serão liquidadas na ordem última saída, último recebimento.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567550"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967624"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Data UEPS com marcação e valor físico
 
@@ -48,16 +50,14 @@ Neste exemplo, o grupo de modelo de item não está marcado para incluir o valor
 -   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
 -   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
 -   4a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 15,00 (média ponderada de transações atualizadas financeiramente).
--   4b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 15,00 (média ponderada de transações atualizadas financeiramente).
+-   4a. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 15,00 (média ponderada de transações atualizadas financeiramente).
 -   5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   6. O fechamento de estoque é executado. Com base no método da Data UEPS, a última saída atualizada financeiramente será liquidada com o último recebimento atualizado financeiramente por data. Um ajuste de BRL 5,00 será feito na transação de saída. Essas transações serão liquidadas entre si.
 
 O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 15,00. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque de Data UEPS quando a opção **Incluir valor físico** não for usada. 
-
-![Data UEPS sem a opção Incluir valor físico.](./media/lifodatewithoutincludephysicalvalue.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque de Data UEPS quando a opção **Incluir valor físico** não for usada. ![Data UEPS com Incluir Valor Físico](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 
@@ -85,16 +85,14 @@ A ilustração a seguir mostra estas transações:
 -   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
 -   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
 -   4a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 18,33 cada (média ponderada de transações atualizadas financeiramente).
--   4b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 18,33 cada (média ponderada de transações atualizadas financeiramente).
+-   4a. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 18,33 cada (média ponderada de transações atualizadas financeiramente).
 -   5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   6. O fechamento de estoque é executado. Com base no método da Data UEPS, a última saída atualizada será ajustada ou liquidada no último recebimento atualizado por data. Essas transações não serão liquidadas entre si porque a transação de recebimento financeiro será ajustada para uma transação de atualização física. Em vez disso, apenas um ajuste de BRL 6,67 será feito na transação de saída.
 
 O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 20,00. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque UEPS quando a opção **Incluir valor físico** for usada. 
-
-![Data UEPS com a opção Incluir valor físico.](./media/lifodatewithincludephysicalvalue.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque UEPS quando a opção **Incluir valor físico** for usada. ![Data UEPS com Incluir Valor Físico](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 
@@ -140,7 +138,7 @@ A ilustração a seguir mostra essas transações:
 
 O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente em BRL 27,50. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque de UEPS quando é usada uma marcação entre as saídas e os recebimentos. ![Data UEPS com Marcação.](./media/lifodatewithmarking.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque de UEPS quando é usada uma marcação entre as saídas e os recebimentos. ![Data UEPS com Marcação](./media/lifodatewithmarking.gif) 
 
 **Chave para o diagrama**
 
@@ -158,6 +156,3 @@ A ilustração a seguir mostra os efeitos do modelo de estoque de UEPS quando é
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

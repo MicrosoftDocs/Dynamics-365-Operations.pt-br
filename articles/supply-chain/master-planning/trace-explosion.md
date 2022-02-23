@@ -1,27 +1,30 @@
 ---
 title: Use o rastreamento para detalhamento
 description: Este artigo explica como você pode usar o rastreamento para explorar as causas além do resultado de um detalhamento das ordens.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19231
 ms.assetid: 9bc9bfbe-a7a9-437b-a947-826229b0585a
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c42eaf4c9218a186bca30848bc7b09c634f9a69e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 88e777d69c9da8a19c186bca3ca591e59af232f0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567166"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421957"
 ---
 # <a name="use-tracing-for-explosion"></a>Use o rastreamento para detalhamento
 
@@ -38,12 +41,10 @@ Ao habilitar o rastreamento, você pode exibir informações sobre os fatores qu
 
 Você pode exibir detalhes sobre futuros e ações para uma ordem selecionada. Na página **Detalhamento**, as informações de rastreamento estão disponíveis na guia **Explicação** no painel superior. O rastreamento ocorre quando você detalha uma ordem. Para iniciar o rastreamento da ordem planejada, clique em **Atualizar** e e marque a caixa de seleção **Habilitar rastreamento**. Você pode usar o campo **Localizar texto** para pesquisar o log de informações específicas. Os resultados de pesquisa são realçados na árvore.
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Visão geral de planos mestres](master-plans.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

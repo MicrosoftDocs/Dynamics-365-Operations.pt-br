@@ -2,9 +2,11 @@
 title: Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas
 description: Este procedimento mostra como criar uma dimensão financeira de canal de comércio com os valores de dimensão e as etapas para configurar valores de dimensão financeira em lojas.
 author: jashanno
+manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b98c37ad7695e81dbbd9558217287c868e052d08415d6d5c5d6055b5f9755eac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 86fc9c9a400bee1280b32f10b1e8f55e581e1984
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769334"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964736"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas
 
@@ -26,7 +28,7 @@ ms.locfileid: "6769334"
 
 Este procedimento mostra como criar uma dimensão financeira de canal de comércio com os valores de dimensão e as etapas para configurar valores de dimensão financeira em lojas. O tópico não inclui outras etapas relacionadas, como a criação de conjuntos de dimensões e de estruturas de conta. Este procedimento usa a empresa USRT nos dados de demonstração.
 
-1. Acesse Contabilidade > Plano de contas > Dimensões > Dimensões financeiras.
+1. Vá para Contabilidade > Plano de contas > Dimensões > Dimensões financeiras.
 2. Clique em Novo.
 3. No campo Usar valores de, selecione 'Canais de comércio'.
 4. No campo Nome da dimensão, digite um valor.
@@ -37,7 +39,7 @@ Este procedimento mostra como criar uma dimensão financeira de canal de comérc
 9. Feche a página.
 10. Clique em Salvar.
 11. Feche a página.
-12. Acesse Retail e Commerce > Canais > Lojas > Todas as lojas.
+12. Vá para Retail e Commerce > Canais > Lojas > Todas as lojas.
 13. Na lista, clique no link na linha selecionada.
 14. Ative a expansão da seção Dimensões financeiras.
 15. Clique em Editar.
@@ -52,6 +54,3 @@ Este procedimento mostra como criar uma dimensão financeira de canal de comérc
 24. Na lista, clique no link na linha selecionada.
 25. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

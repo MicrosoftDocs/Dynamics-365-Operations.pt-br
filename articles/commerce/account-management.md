@@ -2,12 +2,15 @@
 title: Páginas e módulos de gerenciamento de contas
 description: Este tópico aborda páginas e módulos de gerenciamento de contas no Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 03/17/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b26f9f83ad368a7e0fbc0ffe1263a8fec86f99b8a66ee6c4a28d5e061efbc21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716241"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410109"
 ---
 # <a name="account-management-pages-and-modules"></a>Páginas e módulos de gerenciamento de contas
 
 [!include [banner](includes/banner.md)]
 
 Este tópico aborda páginas e módulos de gerenciamento de contas no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 O gerenciamento de contas refere-se a um grupo de páginas que é usado para gerenciar informações relacionadas à conta do usuário no Dynamics 365 Commerce. As páginas de gerenciamento de contas incluem a página de aterrissagem do gerenciamento de contas, a página de perfil do usuário, a página de endereço do usuário, a página do histórico de ordens, a página de detalhes de ordens, a página de fidelidade e a página da lista de desejos.
 
@@ -39,7 +44,7 @@ A página de aterrissagem do gerenciamento de contas usa os seguintes módulos:
 - **Bloco genérico de conta** - Este módulo pode ser usado para fornecer títulos e links às páginas de gerenciamento de contas, como as páginas "Histórico de pedidos" ou "Meu perfil". O módulo de bloco genérico pode ser usado para configurar um bloco para qualquer página. Na Fabrikam, esse módulo é usado para links a página Histórico de pedidos" e "Meu perfil" na página de aterrissagem do gerenciamento de conta.
 - **Bloco da lista de desejos da conta** – Este módulo é usado para fornecer um resumo dos itens na lista de desejos do cliente. Por exemplo, pode indicar: "Você tem 10 itens na sua lista de desejos". Inclui propriedades para o título e o link "Exibir detalhes". O link "Exibir detalhes" deve ser configurado para redirecionamento à página da lista de desejos. 
 - **Bloco de endereços da conta** – Este módulo é usado para fornecer um resumo dos endereços do usuário. Por exemplo, pode indicar: "Você tem 2 endereços adicionados à sua conta". Inclui propriedades para o título e o link "Exibir detalhes". O link "Exibir detalhes" deve ser configurado para redirecionamento à página de endereços do usuário.
-- **Bloco de fidelidade da conta** – Este módulo é usado para exibir e vincular às informações do programa de fidelidade. Este bloco tem dois estados: um estado mostra links para ingressar em um programa de fidelidade, se o usuário ainda não for um membro. O outro estado mostra links para exibir a página de detalhes do programa de fidelidade quando o usuário já for membro. As propriedades incluem o título, o link "Inscrição" e o link "Exibir fidelidade". O link "Exibir fidelidade" deve ser configurado para redirecionamento à página do programa de fidelidade. O link "Inscrição" deve ser configurado para redirecionamento a uma página onde os usuários podem ingressar no programa de fidelidade. 
+- **Bloco de fidelidade da conta** – Este módulo é usado para exibir e vincular às informações do programa de fidelidade. Este bloco tem dois estados: um estado mostra links para ingressar em um programa de fidelidade se o usuário ainda não for um membro. O outro estado mostra links para exibir a página de detalhes do programa de fidelidade quando o usuário já for membro. As propriedades incluem o título, o link "Inscrição" e o link "Exibir fidelidade". O link "Exibir fidelidade" deve ser configurado para redirecionamento à página do programa de fidelidade. O link "Inscrição" deve ser configurado para redirecionamento a uma página onde os usuários podem ingressar no programa de fidelidade. 
 
 ### <a name="order-history-page"></a>Página de histórico de ordens
 
@@ -49,9 +54,9 @@ A página de histórico de ordens usa o módulo de histórico de ordens para mos
 
 A página de detalhes da ordem fornece informações detalhadas para cada ordem e é acessada na página de histórico de ordens. Ela usa o módulo de detalhes da ordem, que requer a ID da venda ou da transação para recuperar os detalhes da ordem.
 
-### <a name="my-profile-page"></a>Minha Página de Perfil
+### <a name="user-profile-page"></a>Página de perfil do usuário
 
-A página Meu perfil mostra os detalhes do perfil de conta do usuário usando o módulo perfil de conta. A página mostra o endereço de email associado à conta do usuário, bem como as preferências configuradas para a conta. Se você estiver configurando atributos personalizados do cliente, uma seção "Informações Adicionais" também exibirá esses atributos. Os usuários podem editar seu nome, suas preferências ou informações adicionais (se disponíveis).
+A página de perfil do usuário mostra detalhes da conta do usuário, como um nome e endereço de email do usuário. Ela usa os detalhes do perfil de usuário e os módulos de edição do perfil de usuário. Embora o endereço de email não possa ser removido, ele pode ser editado. A página de perfil do usuário também mostra as preferências do usuário que permitem a um usuário aceitar ou recusar o uso de alguns recursos, como personalização de listas de recomendação. 
 
 ### <a name="user-address-page"></a>Página de endereço do usuário
 
@@ -84,6 +89,3 @@ Para ingressar no programa de fidelidade, uma página de marketing pode ser cria
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

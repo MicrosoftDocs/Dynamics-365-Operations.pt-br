@@ -2,9 +2,11 @@
 title: Automação de processos
 description: Este tópico fornece detalhes sobre como a automação de processos permite o agendamento simples de processos que serão executados pelo servidor de lote.
 author: RyanCCarlson2
-ms.date: 04/20/2021
+manager: tonyafehr
+ms.date: 08/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcessScheduleSeries
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: b69fa378539e39053b6f7066ba4b6ae9984157c9bdc4f38b78de4c062c04ad09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 479f621ef05519f4f2c97112a0115dccdbf24c52
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746528"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682500"
 ---
 # <a name="process-automation"></a>Automação de processos
 
@@ -30,13 +32,13 @@ A automação de processos permite o agendamento simples de processos que serão
 
 A página de administração central de todas as automações de processos é encontrada no módulo Administração do Sistema no menu **Configurar**. Essa página listará todos os processos automatizados (série) que estão configurados no sistema. Ela também permitirá que você adicione novas automações de processos diretamente nela. Depois que uma série é configurada, é possível gerenciá-la nesta lista. Você pode optar por editar toda a série, excluí-la, exibir todas as ocorrências em uma exibição de lista ou desabilitar a série se desejar pausar o trabalho agendado por um tempo. 
 
-Qualquer processo desabilitado no gerenciamento de recursos não será exibido quando o recurso for desabilitado. Além disso, o mecanismo de plano de automação do processo não agendará ocorrências ou processos em segundo plano para um recurso desabilitado. A reabilitação do recurso levará qualquer ocorrência agendada ou processo em segundo plano no passado a ser executado imediatamente. O mecanismo de agendamento da automação de processos depende do trabalho em lotes do sistema, **Trabalho de sistema de sondagem de automação do processo** a ser executado. O trabalho não deve ser alterado ou adulterado a qualquer momento. 
+Qualquer processo desabilitado no gerenciamento de recursos não será exibido quando o recurso for desabilitado. Além disso, o mecanismo de plano de automação do processo não agendará ocorrências ou processos em segundo plano para um recurso desabilitado. A reabilitação do recurso levará qualquer ocorrência agendada ou processo em segundo plano no passado a ser executado imediatamente.
 
 ## <a name="calendar-view"></a>Exibição de calendário
 
 Uma das principais vantagens da automação de processos é a capacidade de ver o trabalho agendado em uma exibição de calendário simples.  Essa exibição permite ver o trabalho de uma semana por vez. Você verá essa exibição no lado direito da página **Automação de processos**. Ela será preenchida com o trabalho agendado para a série selecionada. 
 
-[![Calendário da automação de processos.](./media/CalendarView2.png)](./media/CalendarView2.png)
+[![Calendário da automação de processos](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Alterações de ocorrência
 
@@ -45,6 +47,3 @@ Cada ocorrência pode ser modificada sem afetar outras ocorrências definidas pe
 ## <a name="developer-documentation"></a>Documentação do Desenvolvedor
 
 A estrutura de automação de processos permite que os desenvolvedores estendam a estrutura de automação de processos. A documentação [Estrutura de automação de processos](../process-automation/process-automation-framework.md) fornecerá informações sobre como criar processos personalizados que precisam ser executados pelo servidor de lote agendado com o assistente de automação de processos e aparecem na exibição de calendário automaticamente.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

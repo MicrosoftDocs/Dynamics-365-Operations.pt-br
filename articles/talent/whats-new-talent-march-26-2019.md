@@ -97,6 +97,3 @@ Com a atualização de Plataforma 25 do Finance and Operations, os usuários pod
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Verificações de funcionários duplicados: alterações da interface de usuário
 Com esta alteração, as duplicatas são detectadas conforme você digita nos campos de nome, e um status exibe o número de duplicatas localizado. Você pode selecionar o link fornecido para abrir uma nova página a fim de avaliar se deve usar ou não a correspondência detectada. Para evitar a interrupção de entrada de dados, os formulários das duplicatas não são abertos automaticamente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

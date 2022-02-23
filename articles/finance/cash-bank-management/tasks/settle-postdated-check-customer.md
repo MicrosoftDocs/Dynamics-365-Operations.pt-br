@@ -2,23 +2,26 @@
 title: Liquidar um cheque pré-datado de um cliente
 description: É possível liquidar um cheque pré-datado após o cheque ter sido liberado pelo banco.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab591fc3ac529e65c15ee083377954a83363edd528861aff9bc449bfc10c7735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0bc6f90e7adb3facdfa1facb50fecb0de4ccb04d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771719"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440415"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Liquidar um cheque pré-datado de um cliente
 
@@ -40,7 +43,7 @@ A função desta guias de tarefas é Tesoureiro.
 
 Este procedimento usa a empresa de dados de demonstração USMF.
 
-1. Acesse Crédito e cobranças > Consultas e relatórios > Pagamentos > Cheques pré-datados do cliente.
+1. Vá para Crédito e cobranças > Consultas e relatórios > Pagamentos > Cheques pré-datados do cliente.
 2. Clique em Liquidar.
 3. Clique em Liquidar entradas de compensação.
     * Liquide a conta do cliente para a transação do cheque.  
@@ -53,6 +56,3 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 10. Clique em Comprovante.
 11. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

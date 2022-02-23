@@ -1,10 +1,12 @@
 ---
 title: Agendar ordens de serviço
 description: Este tópico explica como agendar ordens de serviço no Gerenciamento de Ativo.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718050"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020220"
 ---
 # <a name="schedule-work-orders"></a>Agendar ordens de serviço
 
@@ -56,7 +58,7 @@ Somente ordens de serviço com um estado de ciclo de vida da ordem de serviço q
 
 *Exemplo:* na figura abaixo, a fórmula inserida no campo **Início esperado** gera o agendamento de ordem de serviço para todas as ordens de serviço com data de início esperada uma semana a partir de agora e posteriormente. Essa fórmula pode ser útil quando você executa a ordem de serviço sempre, mas deseja se certificar que as ordens de serviço agendadas para os próximos 5-6 dias não sejam reagendadas.
 
-![Figura 1.](media/03-work-order-scheduling.png)
+![Figura 1](media/03-work-order-scheduling.png)
 
 O tipo de ordem de serviço relacionado a ordens de serviço pode configurar o plano para um funcionário de manutenção (botão de alternância **Gerenciamento de ativos** > **Configuração** > **Ordens de serviço** > **Tipos de ordem de serviço** > **Um funcionário de manutenção** definido como "Sim"). Isso significa que se o tipo de ordem de serviço é usado em uma ordem de serviço, o botão de alternância **Um funcionário de manutenção** é definido automaticamente como "Sim" automaticamente na página de detalhes **Todas as ordens de serviço** > **Cabeçalho** > exibir Guia Rápida **Agendar**. Durante o planejamento de ordem de serviço, todos os trabalhos de ordem de serviço criados na ordem de serviço serão agendados subsequentemente ao mesmo funcionário de manutenção. Se necessário, você pode editar a seleção no botão de alternância **Um funcionário de manutenção** em **Todas as ordens de serviço** para permitir o agendamento de vários trabalhadores ou de um trabalhador nos trabalhos da ordem de serviço.
 
@@ -135,6 +137,3 @@ Para visualizar e trabalhar com o gráfico de Gantt:
     - Para reagendar uma ordem de serviço exibida, selecione e arraste-a para a nova data e hora apropriadas.
 
 1. Se você fez alguma alteração, selecione **Salvar** no Painel de Ações para salvá-las.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

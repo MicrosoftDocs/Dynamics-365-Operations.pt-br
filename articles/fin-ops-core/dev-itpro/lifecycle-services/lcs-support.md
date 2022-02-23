@@ -1,10 +1,12 @@
 ---
-title: Obter suporte para os aplicativos do Finance and Operations ou o Lifecycle Services (LCS)
-description: Este tópico explica como obter ajuda com os aplicativos do Finance and Operations ou com o Microsoft Dynamics Lifecycle Services (LCS).
+title: Obter suporte para aplicativos do Finance and Operations ou o Lifecycle Services (LCS)
+description: Este tópico explica como obter ajuda com aplicativos do Finance and Operations ou o Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
-ms.date: 08/02/2021
+manager: AnnBe
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -14,21 +16,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e697c574efb0b04db6cb04d01c41066a0ac3974
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2ec326f2df53ee465b5a75b4f3c24ed914b28551
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068025"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679983"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obter suporte para os aplicativos do Finance and Operations ou o Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obter suporte para aplicativos do Finance and Operations ou o Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-2.md)]
-
-Este tópico explica como obter ajuda com os aplicativos do Finance and Operations ou com o Microsoft Dynamics Lifecycle Services (LCS). 
+Este tópico explica como obter ajuda com aplicativos do Finance and Operations ou o Microsoft Dynamics Lifecycle Services (LCS). 
 
 <table>
 <thead>
@@ -51,7 +50,7 @@ Este tópico explica como obter ajuda com os aplicativos do Finance and Operatio
 <td>No <a href="https://lcs.dynamics.com/">LCS</a>, use a ferramenta de <strong>Pesquisa de problemas</strong> para pesquisar rapidamente artigos da Base de Dados de Conhecimento Microsoft, hotfixes e soluções alternativas para problemas relatados. Você pode ver quais problemas relatados estão em processo de correção para uma área funcional específica e quais problemas já foram corrigidos. Para saber mais, consulte <a href="issue-search-lcs.md">Pesquisa de problemas (LCS, Lifecycle Services)</a>.</td>
 </tr>
 <tr>
-<td>Obtenha suporte no seu aplicativo de Finanças e Operações.</td>
+<td>Obter suporte no aplicativo.</td>
 <td>Selecione o botão <strong>Ajuda</strong> (<strong>?</strong>) no canto superior direito do aplicativo, e depois selecione <strong>Suporte</strong>. Os problemas serão informados na guia <strong>Problemas ativos</strong> do LCS. Nessa guia, os administradores podem determinar se devem fornecer suporte interno ou enviar os problemas à Microsoft.</td>
 </tr>
 <tr>
@@ -69,6 +68,3 @@ Este tópico explica como obter ajuda com os aplicativos do Finance and Operatio
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

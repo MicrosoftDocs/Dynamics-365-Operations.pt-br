@@ -2,24 +2,27 @@
 title: Notas fiscais de compra complementares do Brasil
 description: Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira.
 author: sndray
+manager: AnnBe
 ms.date: 08/08/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BrazilParameters, FBFiscalDocument_BR, PurchComplementaryInvoice, PurchComplementaryInvoiceCancel_BR, PurchComplementaryInvoiceListPage
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 269154
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8febea89364f2c1f2dd37b8a2801d56489a612818b88244472dc97710d1f3a05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fc0cfdf24f49ca590fc0951e1ccaefd36f3082fa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765007"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408441"
 ---
 # <a name="purchase-complementary-fiscal-documents-for-brazil"></a>Notas fiscais de compra complementares do Brasil
 
@@ -27,7 +30,8 @@ ms.locfileid: "6765007"
 
 Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira.
 
-## <a name="overview"></a>Visão Geral
+<a name="overview"></a>Visão Geral
+--------
 
 De acordo com as normas fiscais do Brasil, uma nota fiscal específica que é conhecida como nota fiscal complementar é recebida ou emitida para fins de correção. Por exemplo, se os preços de mercadorias ou serviços da nota fiscal original foram registrados incorretamente, uma nota fiscal complementar é necessária para corrigir o erro. Notas fiscais complementares aplicam-se somente se a diferença for positiva. Em outras palavras, aplicam-se somente se os preços ou valores de impostos atuais forem maiores que os preços ou valores dos impostos originais. Porque as notas fiscais deste tipo são consideradas complementos das notas fiscais originais, as notas fiscais originais não devem ser canceladas. As empresas são obrigadas emitir ou receber as faturas complementares para os seguintes motivos:
 
@@ -53,7 +57,7 @@ Antes de criar ou lançar notas fiscais complementares de compra, os seguintes p
 -   **Código de impostos para PIS** – Especifique o código de impostos usado para valor de cálculo do PIS.
 
 ## <a name="examples"></a>Exemplos
-[![Exemplos que mostram uma nota fiscal original junto com notas fiscais complementares de compras de cada um dos três tipos.](./media/purchcomplementary-1024x349.png)](./media/purchcomplementary.png)
+[![Exemplos que mostram uma nota fiscal original junto com notas fiscais complementares de compras de cada um dos três tipos](./media/purchcomplementary-1024x349.png)](./media/purchcomplementary.png)
 
 
 Para obter mais informações, consulte os seguintes tópicos:
@@ -62,6 +66,3 @@ Para obter mais informações, consulte os seguintes tópicos:
 
 [Cancelar uma nota fiscal complementar de compra (Brasil)](tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

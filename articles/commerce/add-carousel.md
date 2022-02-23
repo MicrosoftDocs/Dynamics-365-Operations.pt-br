@@ -1,13 +1,16 @@
 ---
 title: Módulo de carrossel
-description: Este tópico abrange os módulos do carrossel e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este tópico abrange os módulos de carrossel e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721046"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410116"
 ---
-# <a name="carousel-module"></a>Módulo do carrossel
+# <a name="carousel-module"></a>Módulo de carrossel
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos do carrossel e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
+Este tópico abrange os módulos de carrossel e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 Um módulo de carrossel é usado para colocar vários itens promocionais (incluindo imagens sofisticadas) em uma faixa de carrossel rotatória na qual os clientes possam navegar. Por exemplo, um varejista pode usar um módulo de carrossel em uma home page para exibir vários novos produtos ou promoções.
 
@@ -40,7 +45,7 @@ Você pode adicionar módulos de bloco de conteúdo dentro de um módulo de carr
 
 A imagem a seguir mostra um exemplo de um módulo de carrossel que é usado em uma home page. Este módulo de carrossel contém vários itens de bloco de conteúdo.
 
-![Exemplo de um módulo de carrossel.](./media/Hero.PNG)
+![Exemplo de um módulo de carrossel](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Propriedades do módulo de carrossel
 
@@ -56,7 +61,7 @@ A imagem a seguir mostra um exemplo de um módulo de carrossel que é usado em u
 
 Para adicionar um módulo de carrossel a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do Modelo**, insira **Modelo de carrossel** e selecione **OK**.
 1. No slot **Corpo**, adicione um módulo **Página padrão**.
 1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.  
@@ -81,6 +86,3 @@ Para adicionar um módulo de carrossel a uma nova página e definir as proprieda
 [Módulo de bloco de conteúdo](add-hero-module.md)
 
 [Módulo de reprodutor de vídeo](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

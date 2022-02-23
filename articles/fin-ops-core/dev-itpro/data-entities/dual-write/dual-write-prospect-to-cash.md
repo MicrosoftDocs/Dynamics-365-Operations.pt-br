@@ -2,29 +2,40 @@
 title: Cliente potencial com pagamento à vista em gravação dupla
 description: Este tópico fornece informações sobre o cliente potencial com pagamento à vista em gravação dupla.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781782"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959592"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
 [!include [banner](../../includes/banner.md)]
 
+
+
 Um objetivo importante da maioria das empresas é converter clientes potenciais em clientes e, depois, manter um relacionamento contínuo de negócios com esses clientes. Nos aplicativos do Microsoft Dynamics 365, o processo de cliente potencial com pagamento à vista ocorre por meio de cotações ou fluxos de trabalho de processamento de pedidos e as finanças são reconciliadas e reconhecidas. A integração do cliente potencial com pagamento à vista em gravação dupla cria um fluxo de trabalho que recebe uma cotação e uma ordem que se origina no Dynamics 365 Sales ou Dynamics 365 Supply Chain Management e torna a cotação e a ordem disponíveis nos dois aplicativos.
 
 Nas interfaces de aplicativo, você pode acessar os status de processamento e as informações de nota fiscal em tempo real. Portanto, você pode gerenciar mais facilmente as funções como estoque de produtos, manuseio de estoque e preenchimento no Supply Chain Management, sem ter que criar novamente cotações e ordens.
 
-![Fluxo de dados de gravação dupla em cliente potencial com pagamento à vista.](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Fluxo de dados de gravação dupla em cliente potencial com pagamento à vista](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Para obter informações sobre a integração entre cliente e contato, consulte [Cliente mestre integrado](customer-mapping.md). Para obter mais informações sobre a integração de produtos, consulte [Experiência unificada de produtos](product-mapping.md).
 
@@ -37,7 +48,7 @@ Para sincronizar votações de venda, você deve atualizar as seguintes configur
 
 ### <a name="setup-in-sales"></a>Configuração no Sales
 
-Em Vendas, Acesse **Configurações \> Administração \> Configurações do sistema \> Vendas** e certifique-se de que as seguintes configurações sejam usadas:
+Em Vendas, vá para **Configurações \> Administração \> Configurações do sistema \> Vendas** e certifique-se de que as seguintes configurações sejam usadas:
 
 - A opção **Usar sistema de cálculo de precificação do sistema** está definida como **Sim**.
 - A coluna **Método de cálculo de desconto** está definida como **Item de linha**.
@@ -61,7 +72,6 @@ As cotações de venda podem ser criadas em Vendas ou em Supply Chain Management
 + As colunas **Condições de frete**, **Condições de entrega**, **Método de entrega** e **Modo de entrega** não estão incluídas no mapeamento padrão. Para mapear essas colunas, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a tabela está sincronizada.
 
 Se você também estiver usando a solução do Field Service, certifique-se de reabilitar o parâmetro **Criação Rápida de Linha de Cotação**. Habilitar novamente o parâmetro permite que você continue criando linhas de cotação usando a função de criação rápida.
-
 1. Navegue até o aplicativo Dynamics 365 Sales.
 2. Selecione o ícone configurações na barra de navegação superior.
 3. Selecione **Configurações Avançadas**.
@@ -113,25 +123,40 @@ O item Do cliente potencial ao pagamento à vista inclui um conjunto de mapas de
 
 | Aplicativos Finance and Operations | Aplicativos do Customer Engagement | descrição |
 |-----------------------------|-----------------------------------|-------------|
-[Todos os produtos](mapping-reference.md#138) | msdyn_globalproducts | |
-[Clientes V3](mapping-reference.md#101) | contas | |
-[Clientes V3](mapping-reference.md#116) | contatos | |
-[Contatos V2](mapping-reference.md#221) | msdyn_contactforparties | |
-[Cabeçalhos de ordens de venda CDS](mapping-reference.md#217) | salesorders | |
-[Linhas de ordem de venda do CDS](mapping-reference.md#216) | salesorderdetails | |
-[Cabeçalho de cotação de venda CDS](mapping-reference.md#215) | cotações | |
-[Linhas de cotação de venda do CDS](mapping-reference.md#214) | quotedetails | |
-[Produtos liberados V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Cabeçalhos de fatura de venda V2](mapping-reference.md#118) | faturas | A tabela de cabeçalhos da fatura de venda V2 no aplicativo do Finance and Operations contém faturas para ordens de venda e faturas de texto livre. Um filtro é aplicado no Dataverse para a gravação dupla, que filtrará qualquer documento de fatura de texto livre. |
-[Linhas da fatura de venda V2](mapping-reference.md#117) | invoicedetails | |
-[Códigos de origem de ordem de venda](mapping-reference.md#186) | msdyn_salesorderorigins | |
+| Cabeçalhos de fatura de venda V2    | faturas                          | A tabela de cabeçalhos da fatura de venda V2 no aplicativo do Finance and Operations contém faturas para ordens de venda e faturas de texto livre. Um filtro é aplicado no Dataverse para a gravação dupla, que filtrará qualquer documento de fatura de texto livre. |
+| Linhas da fatura de venda V2      | invoicedetails                    |             |
+| Cabeçalhos de ordens de venda CDS     | salesorders                       |             |
+| Linhas de ordem de venda do CDS       | salesorderdetails                 |             |
+| Códigos de origem de ordem de venda    | msdyn\_salesorderorigins          |             |
+| Cabeçalho de cotação de venda CDS  | cotações                            |             |
+| Linhas de cotação de venda do CDS   | quotedetails                      |             |
 
-Para obter mais informações sobre listas de preços, consulte [Experiência unificada de produtos](product-mapping.md).
+Estes são os mapas de tabelas principais relacionados para o item Do cliente potencial ao pagamento à vista:
+
++ [Clientes V3 para contas](customer-mapping.md#customers-v3-to-accounts)
++ [Contatos V2 do CDS para contatos](customer-mapping.md#cds-contacts-v2-to-contacts)
++ [Clientes V3 para contatos](customer-mapping.md#customers-v3-to-contacts)
++ [Produtos liberados V2 para msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
++ [Todos os produtos para msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
++ [Lista de preços](product-mapping.md)
 
 ## <a name="limitations"></a>Limitações
-
 - Não há suporte para ordens de devolução.
 - Não há suporte para notas de crédito.
-- As dimensões financeiras devem ser definidas para os dados mestre, por exemplo, cliente e fornecedor. Quando um cliente é adicionado a uma cotação ou a uma ordem de venda, as dimensões financeiras associadas ao fluxo do registro do cliente para a ordem automaticamente. No momento, a gravação dupla não inclui dados de dimensões financeiras para dados mestre.
+- As dimensões financeiras devem ser definidas para os dados mestre, por exemplo, cliente e fornecedor. Quando um cliente é adicionado a uma cotação ou a uma ordem de venda, as dimensões financeiras associadas ao fluxo do registro do cliente para a ordem automaticamente. No momento, a gravação dupla não inclui dados de dimensões financeiras para dados mestre. 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
+
+[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
+
+[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
+
+[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
+
+[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
+
+[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
+
+[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]

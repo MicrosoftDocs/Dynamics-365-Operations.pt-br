@@ -2,9 +2,11 @@
 title: Depurar fontes de dados de um formato de relatório eletrônico executado para analisar o fluxo de dados e a transformação
 description: Este tópico explica como você pode depurar as fontes de dados de um formato de relatório executado para compreender melhor o fluxo de dados configurado e a transformação.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ba8f20e7b4ca6579016fa60d0bbf69f7b4e9c7d3
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 3a486800f37dda7829aeeaa56a30285a92a61b9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605352"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680773"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Depurar fontes de dados de um formato de relatório eletrônico executado para analisar o fluxo de dados e a transformação
 
@@ -64,7 +66,7 @@ As seguintes configurações de formatos de ER não estão acessíveis no moment
 
 1. Siga as etapas no [Apêndice 3](#appendix3) deste tópico para processar os pagamentos de fornecedores.
 
-    ![Processamento de pagamento do fornecedor em andamento.](./media/er-data-debugger-process-payment.png)
+    ![Processamento de pagamento do fornecedor em andamento](./media/er-data-debugger-process-payment.png)
 
 2. Baixe e salve o arquivo zip no computador local.
 3. Extraia o arquivo de pagamento **ISO20022 Credit transfer.xml** do arquivo zip.
@@ -72,27 +74,27 @@ As seguintes configurações de formatos de ER não estão acessíveis no moment
 
     No arquivo de pagamento, o código do número da conta bancária internacional (IBAN) da conta bancária do fornecedor não contém espaços. Portanto, difere do valor [inserido](#enteredIBANcode) na página **Contas bancárias**.
 
-    ![Código IBAN sem espaços.](./media/er-data-debugger-payment-file.png)
+    ![Código IBAN sem espaços](./media/er-data-debugger-payment-file.png)
 
     Você pode usar o depurador da fonte de dados do ER para saber qual componente da solução de ER é usado para truncar espaços no código IBAN.
 
 ## <a name="turn-on-data-source-debugging"></a>Ativar depuração da fonte de dados
 
-1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Habilitar depuração de dados na execução do formato** como **Sim**.
 
     > [!NOTE]
     > Esse parâmetro é específico do usuário e da empresa.
 
-    ![Caixa de diálogo de parâmetros do usuário.](./media/er-data-debugger-user-parameters.png)
+    ![Caixa de diálogo de parâmetros do usuário](./media/er-data-debugger-user-parameters.png)
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Processar um pagamento de fornecedor para depuração
 
 1. Siga as etapas no [Apêndice 3](#appendix3) deste tópico para processar os pagamentos de fornecedores.
 2. Na caixa de mensagem, selecione **Sim** para confirmar que deseja interromper o processamento de pagamentos de fornecedores e iniciar a depuração da fonte de dados na página **Depurar fontes de dados**.
 
-    ![Caixa de mensagem de confirmação.](./media/er-data-debugger-start-debugging.png)
+    ![Caixa de mensagem de confirmação](./media/er-data-debugger-start-debugging.png)
 
 ## <a name="debug-data-sources-that-are-used-in-payment-processing"></a>Depurar fontes de dados usadas no processamento de pagamentos
 
@@ -115,7 +117,7 @@ As seguintes configurações de formatos de ER não estão acessíveis no moment
 
 7. Selecione **Expandir tudo**.
 
-    ![Valor do campo IBAN no mapeamento de modelos.](./media/er-data-debugger-debugging-model-mapping.png)
+    ![Valor do campo IBAN no mapeamento de modelos](./media/er-data-debugger-debugging-model-mapping.png)
 
     Como pode ver, o mapeamento de modelos não é responsável pelos espaços truncados, pois o código IBAN retornado para a conta bancária do fornecedor inclui espaços. Portanto, é necessário continuar a depuração da fonte de dados.
 
@@ -130,7 +132,7 @@ As seguintes configurações de formatos de ER não estão acessíveis no moment
 7. Selecione **Obter valor**.
 8. Selecione **Expandir tudo**.
 
-    ![Valor do campo IBAN no mapeamento de formato.](./media/er-data-debugger-debugging-format-mapping.png)
+    ![Valor do campo IBAN no mapeamento de formato](./media/er-data-debugger-debugging-format-mapping.png)
 
     Como pode ver, as fontes de dados do mapeamento de formato não são responsáveis pelos espaços truncados, pois o código IBAN retornado para a conta bancária do fornecedor inclui espaços. Portanto, é necessário continuar a depuração da fonte de dados.
 
@@ -142,7 +144,7 @@ As seguintes configurações de formatos de ER não estão acessíveis no moment
 4. Expanda os elementos de formato para selecionar **ISO20022CTReports** \> **XMLHeader** \> **Documento** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** e, em seguida, selecionar **Obter valor**.
 5. Selecione **Expandir tudo**.
 
-    ![Valor do campo IBAN no formato.](./media/er-data-debugger-debugging-format.png)
+    ![Valor do campo IBAN no formato](./media/er-data-debugger-debugging-format.png)
 
    Como pode ver, a associação de formato não é responsável pelos espaços truncados, pois o código IBAN retornado para a conta bancária do fornecedor inclui espaços. Portanto, o elemento **BankIBAN** está configurado para usar uma transformação de formato que trunca os espaços.
 
@@ -150,17 +152,17 @@ As seguintes configurações de formatos de ER não estão acessíveis no moment
 
 ### <a name="review-the-format-transformations"></a>Revise as transformações de formato
 
-1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, selecione **Modelo de pagamento** \> **Transferência de crédito ISO20022**.
 3. Selecione **Designer** e expanda os elementos para selecionar **Documento** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**.
 
-    ![Elemento BankIBAN na página Designer de formato.](./media/er-data-debugger-referred-transformation.png)
+    ![Elemento BankIBAN na página Designer de formato](./media/er-data-debugger-referred-transformation.png)
 
     Como pode ver, o elemento **BankIBAN** está configurado para usar a transformação **remover não alfanuméricos**.
 
 4. Selecione a guia **Transformações**.
 
-    ![Guia Transformações para o elemento BankIBAN.](./media/er-data-debugger-transformation.png)
+    ![Guia Transformações para o elemento BankIBAN](./media/er-data-debugger-transformation.png)
 
     Como pode ver, a transformação **remover não alfanumérico** está configurada para usar uma expressão que trunca os espaços da cadeia de texto fornecida.
 
@@ -168,7 +170,7 @@ As seguintes configurações de formatos de ER não estão acessíveis no moment
 
 Ao configurar uma versão de rascunho do formato de ER que pode ser executado diretamente do Designer da operação, você pode acessar o depurador da fonte de dados selecionando **Iniciar Depuração** no Painel de Ações.
 
-![Botão Iniciar Depuração na página do Designer de formato.](./media/er-data-debugger-run-from-designer.png)
+![Botão Iniciar Depuração na página do Designer de formato](./media/er-data-debugger-run-from-designer.png)
 
 Os componentes do mapeamento de formato e do formato de ER que estão sendo editados estão disponíveis para depuração.
 
@@ -176,7 +178,7 @@ Os componentes do mapeamento de formato e do formato de ER que estão sendo edit
 
 Ao configurar um mapeamento de modelos de ER que pode ser executado diretamente da página **Mapeamento de modelos**, você pode acessar o depurador da fonte de dados selecionando **Iniciar Depuração** no Painel de Ações.
 
-![Botão Iniciar Depuração na página do Designer do mapeamento de modelos.](./media/er-data-debugger-run-from-designer-mapping.png)
+![Botão Iniciar Depuração na página do Designer do mapeamento de modelos](./media/er-data-debugger-run-from-designer-mapping.png)
 
 O componente de mapeamento de modelos do mapeamento de ER que está sendo editado está disponível para depuração.
 
@@ -186,7 +188,7 @@ O componente de mapeamento de modelos do mapeamento de ER que está sendo editad
 
 Se deseja usar uma solução de ER para gerar um arquivo de pagamento eletrônico para um pagamento de fornecedor que já foi processado, você pode [baixar](download-electronic-reporting-configuration-lcs.md) o formato de pagamento de ER **Transferência de crédito ISO20022** disponível na biblioteca de Ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS) ou no repositório Global.
 
-![Importar o formato de pagamento de ER na página do Repositório de configuração.](./media/er-data-debugger-import-from-repo.png)
+![Importar o formato de pagamento de ER na página do Repositório de configuração](./media/er-data-debugger-import-from-repo.png)
 
 Além do formato de ER selecionado, as [configurações](general-electronic-reporting.md#Configuration) a seguir devem ser importadas automaticamente para a instância do Microsoft Dynamics 365 Finance como parte da solução de ER **Transferência de crédito ISO20022**:
 
@@ -197,7 +199,7 @@ Além do formato de ER selecionado, as [configurações](general-electronic-repo
 
 Você pode encontrar essas configurações na página **Configurações** da estrutura do ER (**Administração da organização** \> **Relatório eletrônico** \> **Configurações**).
 
-![Configurações importadas na página Configurações.](./media/er-data-debugger-configurations.png)
+![Configurações importadas na página Configurações](./media/er-data-debugger-configurations.png)
 
 Se qualquer uma das configurações listadas estiver ausente na árvore de configuração, será necessário baixá-la manualmente da biblioteca de Ativos compartilhados do LCS, da mesma forma como baixou o formato de pagamento de ER **Transferência de crédito ISO20022**.
 
@@ -205,7 +207,7 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 
 #### <a name="review-the-model-mapping"></a>Revisar o mapeamento de modelos
 
-1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Modelo de pagamento** \> **Mapeamento de modelos de pagamento 1611**.
 3. Selecione **Designer**.
 4. Selecione o registro de mapeamento **Mapeamento de modelos de pagamento ISO20022 CT**.
@@ -213,28 +215,28 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 
     Observe que o campo **Pagamentos** do modelo de dados está vinculado à fonte de dados **\$notSentTransactions** que retorna a lista de linhas de pagamento de fornecedores que estão sendo processadas.
 
-    ![Campo Pagamentos na página do designer de mapeamento de modelos.](./media/er-data-debugger-model-mapping.png)
+    ![Campo Pagamentos na página do designer de mapeamento de modelos](./media/er-data-debugger-model-mapping.png)
 
 #### <a name="review-the-format-mapping"></a>Revisar o mapeamento de formato
 
-1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Modelo de pagamento** \> **Transferência de crédito ISO20022**.
 3. Selecione **Designer**.
 4. Na guia **Mapeamento**, revise o mapeamento de formato exibido.
 
     Observe que o elemento **Documento** \> **CstmrCdtTrfInitn** \> **PmtInf** do arquivo **ISO20022CTReports** \> **XMLHeader** está associado à fonte de dados **\$PaymentByDebtor** configurada para agrupar registros do campo **Pagamentos** do modelo de dados.
 
-    ![Elemento PmtInf na página Designer de formato.](./media/er-data-debugger-format-mapping.png)
+    ![Elemento PmtInf na página Designer de formato](./media/er-data-debugger-format-mapping.png)
 
 #### <a name="review-the-format"></a>Revisar o formato
 
-1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Modelo de pagamento** \> **Transferência de crédito ISO20022**.
 3. Selecione **Designer** e revise o formato de modelos aberto.
 
     Observe que o elemento do formato em **Documento** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** está configurado para inserir o código IBAN da conta do fornecedor no arquivo de pagamento.
 
-    ![Elemento de formato BankIBAN na página Designer de formato.](./media/er-data-debugger-format.png)
+    ![Elemento BankIBAN na página Designer de formato](./media/er-data-debugger-format.png)
 
 ## <a name="appendix-2-configure-accounts-payable"></a><a name="appendix2"></a>Apêndice 2: Configurar Contas a pagar
 
@@ -245,21 +247,21 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 3. Na FastTab **Identificação**, no campo **IBAN**, <a name="enteredIBANcode"></a>insira **GB33 BUKB 2020 1555 5555 55**.
 4. Selecione **Salvar**.
 
-![Campo IBAN definido na página de Contas bancárias do fornecedor.](./media/er-data-debugger-iban.png)
+![Campo IBAN definido na página de Contas bancárias do fornecedor](./media/er-data-debugger-iban.png)
 
 ### <a name="set-up-a-method-of-payment"></a>Configurar um meio de pagamento
 
-1. Acesse **Contas a pagar** \> **Configuração de pagamento** \> **Métodos de pagamento**.
+1. Vá para **Contas a pagar** \> **Configuração de pagamento** \> **Métodos de pagamento**.
 2. Selecione o método de pagamento **SEPA CT**.
 3. Na FastTab **Formatos de arquivo**, na seção **Formatos de arquivo**, defina a opção **Formato de exportação eletrônico genérico** como **Sim**.
 4. No campo **Exportar configuração de formato**, selecione o formato de ER **Transferência de crédito ISO20022**.
 5. Selecione **Salvar**.
 
-![Configurações de formato de arquivo na página Métodos de pagamento.](./media/er-data-debugger-payment-method.png)
+![Configurações de formato de arquivo na página Métodos de pagamento](./media/er-data-debugger-payment-method.png)
 
 ### <a name="add-a-vendor-payment"></a>Adicionar um pagamento de fornecedor
 
-1. Acesse **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
+1. Vá para **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
 2. Adicione um novo diário de pagamento.
 3. Selecione **Linhas** e adicione uma nova linha de pagamento.
 4. No campo **Conta**, selecione o fornecedor **DE-01002**.
@@ -267,11 +269,11 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 6. No campo **Método de pagamento**, selecione **SEPA CT**.
 7. Selecione **Salvar**.
 
-![Pagamento do fornecedor adicionado à página Pagamentos do fornecedor.](./media/er-data-debugger-payment-journal.png)
+![Pagamento do fornecedor adicionado à página Pagamentos do fornecedor](./media/er-data-debugger-payment-journal.png)
 
 ## <a name="appendix-3-process-a-vendor-payment"></a><a name="appendix3"></a>Apêndice 3: Processar pagamento do fornecedor
 
-1. Acesse **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
+1. Vá para **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
 2. Na página **Diário de pagamentos do fornecedor**, selecione o diário de pagamento criado anteriormente e, em seguida, selecione **Linhas**.
 3. Selecione a linha de pagamento e, depois, **Status do pagamento** \> **Não**.
 4. Selecione **Gerar pagamentos**.
@@ -279,6 +281,3 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 6. No campo **Conta bancária**, selecione **DEMF OPER**.
 7. Na caixa de diálogo **Gerar pagamentos**, selecione **OK**.
 8. Na caixa de diálogo **Parâmetros de relatório eletrônico**, selecione **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

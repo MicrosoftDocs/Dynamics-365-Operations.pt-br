@@ -2,12 +2,15 @@
 title: Solicitar uma licença
 description: Enviar uma solicitação de licença.
 author: andreabichsel
+manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveofAbsenceRequestEntry, EssWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d58e84637dac584b080bd0fa30f7ab6214c26db
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1f50e45a9acaf5295b40648ea5701885ae0ea844
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070266"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417357"
 ---
 # <a name="request-a-leave-of-absence"></a>Solicitar uma licença
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Você pode enviar uma solicitação de licença e ver o status das solicitações de licença no Dynamics 365 Human Resources.
 
@@ -52,13 +50,6 @@ Você pode enviar uma solicitação de licença e ver o status das solicitaçõe
 
 2. Para exibir suas solicitações de licença, selecione **Exibir licença**.
 
-## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Importando solicitações de licença de outros sistemas ou sistemas mais antigos
-
-Para importar solicitações de licença de outro sistema, é necessário passar pelo fluxo de trabalho regular para criar as transações de licença apropriadas. Como alternativa, é possível importar as transações bancárias de licença e as solicitações de licença em um estado concluído. Observe que as transações bancárias de licença não são criadas automaticamente se você importa somente as solicitações de licença.
-
 ## <a name="see-also"></a>Consulte também
 
 [Suspender licença](hr-leave-and-absence-suspend-leave.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

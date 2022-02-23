@@ -1,24 +1,27 @@
 ---
 title: Adicionar uma política de cálculo de quantidade de kanbans a uma regra kanban
 description: Este procedimento foca na criação de uma política de cálculo da quantidade kanban e na sua adição à uma regra kanban visando otimizar as quantidades e tamanho kanban.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanQuantityPolicy, KanbanRules, KanbanQuantityCalculation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a844d455b1e583f234ddc47280f5cac8ee0ab852
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 039c4aaa355cf2b850ded06913e8e39ee8cac543
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579271"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421916"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Adicionar uma política de cálculo de quantidade de kanbans a uma regra kanban
 
@@ -28,7 +31,7 @@ Este procedimento foca na criação de uma política de cálculo da quantidade k
 
 
 ## <a name="create-a-kanban-quantity-calculation-policy"></a>Crie uma política de cálculo de quantidade kanban
-1. Acesse Controle de produção > Tarefas periódicas > Cálculo da quantidade de kanbans > Políticas de cálculo da quantidade de kanbans.
+1. Vá para Controle de produção > Tarefas periódicas > Cálculo da quantidade de kanbans > Políticas de cálculo da quantidade de kanbans.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
     * Por exemplo, tipo Speaker2016.  
@@ -48,7 +51,7 @@ Este procedimento foca na criação de uma política de cálculo da quantidade k
 12. Feche a página.
 
 ## <a name="add-the-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Adicione a política de cálculo da quantidade kanban à uma regra kanban
-1. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione a regra kanban 000020 para esse procedimento.  
 3. Na lista, clique no link na linha selecionada.
@@ -60,6 +63,3 @@ Este procedimento foca na criação de uma política de cálculo da quantidade k
 8. Na lista, clique no link na linha selecionada.
     * Selecione a política Speaker2016 que você acabou de criar na subtarefa anterior.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

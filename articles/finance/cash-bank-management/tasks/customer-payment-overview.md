@@ -1,33 +1,35 @@
 ---
-title: Visão geral de pagamentos de cliente
-description: Este procedimento orienta por vários métodos utilizados para inserir pagamentos de clientes.
+title: Visão geral de pagamentos do cliente
+description: Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394480"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440335"
 ---
-# <a name="customer-payment-overview"></a>Visão geral de pagamentos de cliente
+# <a name="customer-payment-overview"></a>Visão geral de pagamentos do cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimento orienta por vários métodos utilizados para inserir pagamentos de clientes. Esta tarefa usa a empresa de demonstração USMF.
+Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Acesse **Painel de Navegação > Módulos > Contas a receber > Pagamentos > Diário de pagamentos**.
+1. Vá para **Painel de Navegação > Módulos > Contas a receber > Pagamentos > Diário de pagamentos**.
 2. Clique em **Novo**.
 3. Selecione o diário de pagamentos onde os pagamentos do cliente serão salvos.
 4. Selecione ou insira manualmente o diário.
@@ -50,6 +52,3 @@ Este procedimento orienta por vários métodos utilizados para inserir pagamento
 21. No campo **Referência de pagamento**, insira uma referência de pagamento. A referência do pagamento é necessária somente se você marcar para incluir o pagamento em uma guia de depósito.  
 22. No **Painel de Ação**, clique em **Lançar** para lançar os pagamentos do cliente. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

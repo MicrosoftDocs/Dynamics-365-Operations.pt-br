@@ -82,6 +82,3 @@ As organizações podem exigir códigos de motivo para tipos de licença especí
 ### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>Fornecer uma lista de transações de licença e de ausência para o RH
 
 A habilidade de rastrear as folgas dos funcionários e entender como elas são calculadas não somente ajuda o RH a responder dúvidas dos funcionários, como também ajuda a garantir que os funcionários recebam prêmios de folga precisos. Agora o RH tem uma nova exibição em transações (subsídios, competências, ajustes e solicitações), para que a equipe do RH possa ver os motivos por trás dos saldos de folgas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

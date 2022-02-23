@@ -91,6 +91,3 @@ O modelo de processo e contratação requer a atividade Oferta. Para usar o apli
 > O aplicativo Gerenciamento de Ofertas integrado está disponível somente com o complemento de Contratação abrangente. Para obter mais informações, consulte [Qual versão do Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

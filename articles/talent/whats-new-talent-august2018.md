@@ -85,6 +85,3 @@ Informações adicionais sobre esse recurso estão disponível em [Tutorial de i
 ## <a name="other-fixes"></a>Outras correções
 
 Essa versão também inclui um número de correções, a adição de novas entidades, correções de entidades existentes e alterações a etiquetas localizadas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

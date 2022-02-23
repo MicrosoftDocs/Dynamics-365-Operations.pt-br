@@ -1,34 +1,37 @@
 ---
 title: Dividir um ativo fixo
 description: Este tópico explica como dividir uma porcentagem do registro de ativos em um novo registro de ativos.
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2fbca50342196dd9f5acb53027fb9c0052a81de
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883534"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514317"
 ---
 # <a name="split-a-fixed-asset"></a>Dividir um ativo fixo
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como dividir uma porcentagem do registro de ativos em um novo registro de ativos. 
+Este tópico explica como dividir uma porcentagem do registro de ativos em um novo registro de ativos. Usa os dados de função de contador e de demonstração de USMF.
 
 ## <a name="create-a-new-fixed-asset"></a>Criar um novo ativo fixo
 
-1. No painel de navegação, Acesse **Módulos \> Ativos fixos \> Ativos fixos \> Ativos fixos**.
+1. No painel de navegação, vá para **Módulos \> Ativos fixos \> Ativos fixos \> Ativos fixos**.
 2. Selecione **Novo**.
 3. No campo **Grupo de ativo fixo**, insira ou selecione um valor. Anote o número do ativo fixo a ser usado posteriormente no processo de divisão.
 4. No campo **Nome**, insira um valor.
@@ -51,7 +54,7 @@ Antes que um ativo com depreciação total seja dividido, o status do registro d
 
 ## <a name="post-the-journal-transaction"></a>Lançar a transação de diário
 
-1. No Painel de navegação, Acesse **Módulos \> Ativos fixos \> Entradas de diário \> Diário de ativos fixos**.
+1. No Painel de navegação, vá para **Módulos \> Ativos fixos \> Entradas de diário \> Diário de ativos fixos**.
 2. Na lista, selecione o diário criado com o processo de divisão.
 3. Selecione **Linhas**.
 
@@ -60,6 +63,3 @@ Antes que um ativo com depreciação total seja dividido, o status do registro d
     - Uma transação de aquisição é criada para o novo ativo para a mesma quantidade.
 
 4. Selecione **Lançar**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

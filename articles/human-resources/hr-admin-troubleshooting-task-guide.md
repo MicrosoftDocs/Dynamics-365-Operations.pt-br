@@ -1,40 +1,38 @@
 ---
 title: Salvar guias de tarefa no LCS e repeti-las
-description: Este tópico explica como salvar as guias de tarefa para Microsoft Dynamics Lifecycle Services (LCS) e depois repeti-las.
-author: twheeloc
-ms.date: 08/23/2021
+description: Este artigo explica como salvar as guias de tarefa para o Microsoft Dynamics Lifecycle Services (LCS) e depois reproduzi-las.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068350"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417291"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Salvar guias de tarefa no LCS e repeti-las
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Detalhes do ambiente** 
 
 Microsoft Dynamics 365 Human Resources, que foi implantado por meio do Microsoft Dynamics Lifecycle Services (LCS)
 
-**Problema**
+**Saída**
 
-O cliente quer salvar novos registros do trabalho no projeto LCS e, então, reproduzir os guias de tarefa salvos.
+O cliente deseja salvar novas gravações de tarefa para seu projeto LCS, e depois repeti-las às guias de tarefa salvas.
 
 **Resolução**
 
@@ -55,7 +53,7 @@ Siga estas etapas para salvar uma gravação de tarefas ao LCS.
 10. Criar uma gravação de tarefas.
 11. Quando terminar, selecione **Salvar para Lifecycle Services**.
 
-    ![Salvar no Lifecycle Services.](media/task-guides.png)
+    ![Salvar no Lifecycle Services](media/task-guides.png)
 
 12. Selecione a biblioteca e nó de BPM onde deseja salvar a gravação de tarefa.
 
@@ -65,6 +63,3 @@ Rastrear essas etapas para repetir uma guia de tarefas do LCS.
 2. Selecione **Abrir a partir do LCS**.
 3. Selecione a biblioteca e o nó de BPM que têm a guia da tarefa salva.
 4. Abrir a guia de tarefas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

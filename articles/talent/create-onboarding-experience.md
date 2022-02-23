@@ -49,6 +49,3 @@ Para aprender como baixar e usar o Onboard, consulte estes tópicos:
 - [Novidades ou alterações no Dynamics 365 Talent](./whats-new.md)
 - [Planos de versão](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Obter suporte para o Microsoft Dynamics 365 Talent](./talent-support.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

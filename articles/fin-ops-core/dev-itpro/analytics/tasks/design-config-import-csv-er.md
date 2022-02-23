@@ -2,9 +2,11 @@
 title: Criar configurações de ER para importar dados de arquivos CSV externos
 description: Use este procedimento para criar configurações de ER (relatório eletrônico) para importar dados para o aplicativo Finance and Operations de um arquivo externo no formato CSV.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f0cf8c7260c85d405a5dfdcd50323ffee4d4528b982997a802b859ab8327b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747262"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682036"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Criar configurações de ER para importar dados de arquivos CSV externos
 
@@ -122,6 +124,3 @@ Para fins de teste, execute o mapeamento de formato usando o arquivo 1099entries
     * Examine a saída no formato XML, que representa os dados que foram importados do arquivo selecionado e transferidos para o modelo de dados. Observe que todas as 7 linhas do arquivo CSV importado foram processadas. A linha 1 dos títulos de campos foi ignorada, 4 transações foram devidamente analisadas e 2 transações foram reconhecidas como inválidas.
 3. Feche a página.
 4. Feche a página.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

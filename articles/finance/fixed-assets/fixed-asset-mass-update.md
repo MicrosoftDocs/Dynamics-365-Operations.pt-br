@@ -1,25 +1,28 @@
 ---
 title: Atualização em massa de ativos fixos
 description: Ao usar registros, você poderá alterar as convenções de depreciação para grupos de ativos que fazem parte do mesmo registro.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3521
 ms.assetid: 50207ffb-6b89-4fb9-92e9-928bc0729489
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 087f110da6a0d9582ee6b04a59ade24a5ed3fc68
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 30b9aaaabcac09c9147c350422924a23f785c0ce
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675068"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440331"
 ---
 # <a name="fixed-asset-mass-update"></a>Atualização em massa de ativos fixos
 
@@ -39,6 +42,3 @@ Após atualizar a convenção de depreciação para ativos, você poderá proces
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

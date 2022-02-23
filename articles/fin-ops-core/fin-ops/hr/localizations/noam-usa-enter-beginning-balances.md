@@ -1,10 +1,12 @@
 ---
 title: Inserir saldos iniciais de folha de pagamento
-description: Este tópico descreve as etapas para inserir saldos iniciais para códigos de ganhos, deduções, benefícios e impostos.
+description: Este tópico descreve as etapas para inserir saldos iniciais para códigos de ganhos, deduções, benefícios e impostos. Essas informações são importantes para que os Parceiros migrem ou transfiram dados de outro sistema para uma nova implementação de folha de pagamento.
 author: andreabichsel
+manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721867"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797775"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Inserir saldos iniciais de folha de pagamento
 
@@ -164,6 +166,3 @@ O mesmo processo pode ser feito em incrementos trimestrais, se necessário, para
 2. Clique em **Sim** quando a mensagem “Quando você reverte este demonstrativo de pagamento, uma reversão de demonstrativo de pagamento é criada para compensar este demonstrativo de pagamento. Não é possível editar os demonstrativos de pagamento. Deseja reverter este demonstrativo de pagamento?” for exibida. 
 
 Depois de reverter o demonstrativo de pagamento, você poderá gerar um novo demonstrativo de pagamento para o trabalhador a partir da declaração de ganhos criada anteriormente. Corrija qualquer linha incorreta na declaração de ganhos antes de gerar o novo demonstrativo de pagamento e então gere novos demonstrativos de pagamento com os valores corretos. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

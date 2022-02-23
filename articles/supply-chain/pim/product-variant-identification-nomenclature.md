@@ -1,27 +1,30 @@
 ---
 title: Nomenclatura de números e de nomes de grade de produto
 description: Este tópico descreve como você pode configurar uma nomenclatura de número de produto para substituir o formato fixo [Número do produto mestre - Configuração - Tamanho - Cor - Estilo].
-author: t-benebo
+author: roxanadiaconu
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 220104
 ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 90c01e4281246d890ef888c56ca137f83e83741c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569688"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421953"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de números e de nomes de grade de produto
 
@@ -118,7 +121,7 @@ Você cria uma nomenclatura de configuração com os seguintes segmentos:
 2.  Constante de texto: "&"
 3.  Grupo de configuração: grade frontal
 
-Neste caso, a ID de configuração de um gabinete padrão com grade frontal de tecido será M0007&M0021.
+Nesse caso, a ID de configuração para um gabinete padrão com grade frontal de tecido será: M0007&M0021.
 
 ## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Nomenclatura para uma combinação de grades de produto e configurações
 Quando você usa a tecnologia de configuração baseada em restrição ou a tecnologia de configuração baseada em dimensão para configurar grades de produto para um produto mestre, os números das grades de produto podem incluir a nomenclatura da dimensão de configuração. Siga estas etapas para configurar as variantes.
@@ -188,12 +191,10 @@ Dependendo da nomenclatura, o sistema poderá tentar atribuir um número de grad
 
 Durante uma etapa do processo de configuração, o sistema sugere um valor de configuração de acordo com a nomenclatura. Nessa etapa, você alterará manualmente o valor da configuração. Quando você salva a configuração, o sistema verifica se o valor da configuração é exclusivo. Se o valor inserido não for exclusivo, você receberá uma mensagem de erro. Para salvar a configuração, insira um valor de configuração exclusivo.
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Criar uma nomenclatura de produtos de grades de produto predefinidas](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Criar uma nomenclatura de número de produto para grades de produto configuradas](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

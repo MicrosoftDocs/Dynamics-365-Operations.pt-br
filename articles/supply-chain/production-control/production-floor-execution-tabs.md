@@ -2,27 +2,30 @@
 title: Criar a interface de execução de piso de produção
 description: Este tópico descreve como criar o conteúdo da interface do usuário para cada configuração.
 author: johanhoffmann
+manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
-ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.dyn365.ops.version: Release 10.0.16
+ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
+ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790857"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "4664263"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Criar a interface de execução de piso de produção
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Você pode criar o conteúdo da interface do usuário para cada configuração usada pela interface de execução de piso de produção. Por exemplo, os trabalhadores em uma célula de trabalho podem precisar abrir instruções de trabalho no piso de produção, enquanto que, em outra célula de trabalho, instruções não são necessárias. Nesse caso, duas configurações devem ser criadas, uma com um botão para abrir anexos de documentos e uma sem esse botão.
 
@@ -32,7 +35,7 @@ Na página **Configurar execução de piso de produção**, você pode criar e c
 
 Cada guia é dividida em quatro seções, conforme mostrado na ilustração a seguir.
 
-![Layout da guia.](media/pfe-tab-layout.png "Layout da guia")
+![Layout da guia](media/pfe-tab-layout.png "Layout da guia")
 
 Os seguintes elementos são mostrados na ilustração:
 
@@ -43,31 +46,31 @@ Os seguintes elementos são mostrados na ilustração:
 
 Para criar e configurar uma nova guia, siga estas etapas:
 
-1. Acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**.
+1. Vá para **Controle de produção &gt; Configuração &gt; Execução de fabricação**.
 
 1. Selecione **Criar guias** no Painel de Ações para abrir a página **Criar guias**.
 
-    ![A página Criar guias.](media/pfe-design-tabs.png "A página Criar guias")
+    ![A página Criar guias](media/pfe-design-tabs.png "A página Criar guias")
 
 1. Selecione **Novo** no Painel de Ações.
 
 1. Faça as seguintes configurações no cabeçalho da página:
 
-    - **Nome da guia** – Especifique um nome para a guia.
-    - **Exibição principal** – Selecione entre as listas de trabalho predefinidas (*Trabalhos ativos*, *Todos os trabalhos* e *Minha máquina*).
-    - **Exibição detalhada** – Selecione entre um valor em branco ou **Detalhes do trabalho**. Se você selecionar o valor em branco, não haverá uma exibição detalhada na guia. Se você selecionar **Detalhes do trabalho**, a exibição detalhada conterá uma descrição detalhada do trabalho selecionado na lista de trabalhos na exibição principal.
+    - **Nome da guia** - Especifique um nome para a guia.
+    - **Exibição principal** - Selecione entre as duas listas de trabalhos predefinidas (*Trabalhos ativos* ou *Todos os trabalhos*).
+    - **Exibição detalhada** - Selecione entre um valor em branco ou **Detalhes do trabalho**. Se você selecionar o valor em branco, não haverá uma exibição detalhada na guia. Se você selecionar **Detalhes do trabalho**, a exibição detalhada conterá uma descrição detalhada do trabalho selecionado na lista de trabalhos na exibição principal.
 
 1. Na seção **Barra de ferramentas principal**, escolha quais botões devem estar disponíveis na barra de ferramentas principal. A coluna **Ações disponíveis** mostra uma lista de todos os botões que podem ser adicionados. As colunas **Ações selecionadas** mostram uma lista de todos os botões incluídos na configuração atual. Use os botões para mover itens selecionados entre as colunas, conforme necessário. Use os botões para cima e para baixo ao lado da coluna **Ações selecionadas** para controlar a ordem na qual os botões são apresentados na interface do usuário.
 
-1. Na seção **Barra de ferramentas secundária**, escolha quais botões devem estar disponíveis na barra de ferramentas secundária. A coluna **Ações disponíveis** mostra uma lista de todos os botões que podem ser adicionados. As colunas **Ações selecionadas** mostram uma lista de todos os botões incluídos na configuração atual. Use os botões para mover itens selecionados entre as colunas, conforme necessário. Use os botões para cima e para baixo ao lado da coluna **Ações selecionadas** para controlar a ordem na qual os botões são apresentados na interface do usuário.
+1. Na seção **Barra de ferramentas** **secundária**, escolha quais botões devem estar disponíveis na barra de ferramentas secundária. A coluna **Ações disponíveis** mostra uma lista de todos os botões que podem ser adicionados. As colunas **Ações selecionadas** mostram uma lista de todos os botões incluídos na configuração atual. Use os botões para mover itens selecionados entre as colunas, conforme necessário. Use os botões para cima e para baixo ao lado da coluna **Ações selecionadas** para controlar a ordem na qual os botões são apresentados na interface do usuário.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Associar uma guia a uma configuração
 
 Depois de criar todas as guias necessárias, você pode associá-las a uma configuração.
 
-1. Acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**.
+1. Vá para **Controle de produção &gt; Configuração &gt; Configurar execução de piso de produção**.
 
-    ![Configurar execução de chão de produção.](media/pfe-config-prod-floor-execution.png "Configurar execução de chão de produção")
+    ![Configurar execução de chão de produção](media/pfe-config-prod-floor-execution.png "Configurar execução de chão de produção")
 
 1. Na FastTab **Seleção de guias**, selecione **Adicionar**.
 
@@ -76,6 +79,3 @@ Depois de criar todas as guias necessárias, você pode associá-las a uma confi
 1. Continue adicionando outras guias, conforme necessário.
 
 1. Use os botões **Mover para cima** e **Mover para baixo** na barra de ferramentas para organizar as guias, conforme necessário. As guias serão exibidas da esquerda para a direita na ordem mostrada na captura de tela acima (a guia na parte superior é mostrada à esquerda).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

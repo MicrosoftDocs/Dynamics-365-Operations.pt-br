@@ -1,24 +1,27 @@
 ---
 title: Criar ordens de venda
 description: Este procedimento mostra como criar uma ordem de venda.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566280"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421987"
 ---
 # <a name="create-sales-orders"></a>Criar ordens de venda
 
@@ -27,7 +30,7 @@ ms.locfileid: "7566280"
 Este procedimento mostra como criar uma ordem de venda. Você pode usar o procedimento na empresa USMF de dados de demonstração. As ordens de venda são desenvolvidos tipicamente por um processador de ordens de venda. 
 
 ## <a name="enter-sales-order-header-details"></a>Insira detalhes do cabeçalho da ordem de venda
-1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
+1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. No campo **Conta do cliente**, selecione o botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o registro do cliente.
@@ -36,7 +39,7 @@ Este procedimento mostra como criar uma ordem de venda. Você pode usar o proced
 
 ## <a name="enter-sales-order-line-details"></a>Insira detalhes da linha da ordem de venda
     
-Os bens vendidos pela sua organização podem vir em grades diferenciadas por dimensões, como a configuração, cor, o tamanho e o estilo. Além disso, os produtos podem ser configurados para usar dimensões de armazenamento, incluindo o site, depósito e palete, bem como as dimensões de rastreamento, como números de lote e de série. Quando essas dimensões são atribuídas, você deve selecionar os valores das dimensões na linha da ordem. Para aumentar a eficiência de entrada de ordem, você pode adicionar os respectivos campos de dimensão para a grade da ordem.
+Os bens vendidos pela sua organização podem vir em grades diferenciadas por dimensões, como a configuração, cor, o tamanho e o estilo. Além disso, os produtos podem ser configurados para usar dimensões de armazenamento, como o site, depósito, a paleta e as dimensões de racking, como o números de lote e de série. Quando essas dimensões são atribuídas, você deve selecionar os valores das dimensões na linha da ordem. Para aumentar a eficiência de entrada de ordem, você pode adicionar os respectivos campos de dimensão para a grade da ordem.
     
 1. Na seção **Linhas de ordem de venda**, selecione a **Linha da ordem de venda**.
 2. Selecione **Dimensões**.
@@ -65,6 +68,3 @@ Os bens vendidos pela sua organização podem vir em grades diferenciadas por di
     A página **Totais** exibe detalhes sobre a ordem inteira. Isso inclui o valor do subtotal, que é a soma de todos os descontos de linha dos valores líquidos ajustados para os descontos eventuais de linha, o valor total da nota fiscal, que é um valor de subtotal ajustado para desconto, encargos diversos, impostos sobre vendas e eventuais nível de fórmula, situação de limite de crédito do cliente, etc. O valor da nota fiscal é o valor que aparecerá no documento da nota fiscal do cliente.  
     
 3. Selecione **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

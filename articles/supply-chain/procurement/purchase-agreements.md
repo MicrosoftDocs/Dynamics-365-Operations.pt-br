@@ -1,10 +1,12 @@
 ---
 title: Contratos de compra
 description: Este artigo fornece informações sobre contratos de compras. Um contrato de compra é um contrato que compromete uma organização a comprar uma quantidade ou um valor especificado usando várias ordens de compra ao longo do tempo. Em troca desse compromisso, o comprador obtém preços e descontos especiais.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4911bd891c081892e52bda4bcc87984b3fb189b2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570472"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017178"
 ---
 # <a name="purchase-agreements"></a>Contratos de compra
 
@@ -102,13 +104,12 @@ Se você criar uma OC intercompanhia que usa o contrato de compra intercompanhia
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensões financeiras nos contratos de compra
 Você pode copiar as dimensões financeiras para os cabeçalhos de documento ou para as linhas individuais de um contrato de compra. Se você alterar as dimensões no cabeçalho do contrato ou na linha do contrato, a alteração não afetará nenhuma ordem liberada, mas se refletirá em todas as ordens novas.
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
-- [Criar um contrato de compra](tasks/create-purchase-agreement.md)
-- [Aplicar um contrato de compra ao criar uma ordem de compra](tasks/create-purchase-release-order-purchase-agreement.md)
+[Criar um contrato de compra](tasks/create-purchase-agreement.md)
+
+[Criar uma ordem de liberação de compra de um contrato de compra](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,22 +2,25 @@
 title: Criar canais de call center e definir atributos de canal
 description: Este procedimento orienta como criar um novo canal e definir atributos do canal.
 author: mugunthanm
+manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 444ffddab3df2d937725b9e1f3145eaece3db12844f4fb464f06a82db366579d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f99029195a8b783f0d12990d4e8bab0bb348d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716800"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410235"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>Criar canais de call center e definir atributos de canal
 
@@ -27,7 +30,7 @@ Este procedimento orienta como criar um novo canal de comércio e definir atribu
 
 
 ## <a name="create-new-store"></a>Criar nova loja
-1. Acesse Todos os espaços de trabalho > Implementação do canal.
+1. Vá para Todos os espaços de trabalho > Implementação do canal.
 2. Clique em Novo canal.
 3. Clique em Loja.
 4. No campo Nome, digite um valor.
@@ -97,6 +100,3 @@ Este procedimento orienta como criar um novo canal de comércio e definir atribu
 65. Clique em Salvar.
 66. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

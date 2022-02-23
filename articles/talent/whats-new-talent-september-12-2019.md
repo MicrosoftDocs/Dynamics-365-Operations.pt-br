@@ -104,6 +104,3 @@ Agora, esta versão oferece a capacidade de aplicar listas de verificação para
 Esta funcionalidade agora está disponível em ambientes de área restrita. Para ativar este recurso, navegue até **Administração do sistema > Links > Configuração > Parâmetros do sistema > Recursos de visualização**. Selecione **Formulário e a navegação aprimorados do Trabalhador**. Isso habilitará estas alterações para todos os usuários. Você pode desativar esta opção a qualquer momento.
 
 Para obter mais informações, consulte [Entrada e navegação simplificada de funcionário](./streamlined-employee-entry.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

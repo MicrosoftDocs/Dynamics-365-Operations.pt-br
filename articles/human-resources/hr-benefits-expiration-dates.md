@@ -1,33 +1,31 @@
 ---
-title: Gerenciar datas de vencimento de benefício
-description: Este procedimento mostra como os benefícios podem expirar ou ser estendidos e gerenciar as datas de inscrição dos trabalhadores.
-author: twheeloc
-ms.date: 08/23/2021
+title: Gerenciar datas de vencimento do benefício
+description: Este procedimento mostra como é possível ampliar um benefício ou expirar, e gerenciar as datas de registro de funcionários que são inseridas no benefício.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 04751718e22f7339a032ce4a94e919a653876e4b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7332a95e1cd558336dc19bcb269ef89ce3721aa9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065959"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417208"
 ---
-# <a name="manage-benefit-expiration-dates"></a>Gerenciar datas de vencimento de benefício
+# <a name="manage-benefit-expiration-dates"></a>Gerenciar datas de vencimento do benefício
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Este procedimento mostra como os benefícios podem expirar ou ser estendidos e gerenciar as datas de inscrição dos trabalhadores. A empresa de dados demo usada para criar este procedimento é USMF.
+Este procedimento mostra como é possível ampliar um benefício ou expirar, e gerenciar as datas de registro de funcionários que são inseridas no benefício. A empresa de dados demo usada para criar este procedimento é USMF.
 
 ## <a name="benefit-expiration-dates"></a>Datas de vencimento do benefício
 
@@ -48,6 +46,3 @@ Este procedimento mostra como os benefícios podem expirar ou ser estendidos e g
 15. Clique em Benefícios.
 16. Na lista, localize o benefício e selecione o registro. Anote a nova data de término da cobertura.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

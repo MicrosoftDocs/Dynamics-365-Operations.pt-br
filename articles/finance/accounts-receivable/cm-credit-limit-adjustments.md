@@ -1,23 +1,26 @@
 ---
 title: Ajustes do limite de crédito
 description: Este tópico explica como configurar e adicionar ajustes de limite de crédito.
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d55a7c5e24213f70a1b71f89691f0e5be8c36f10
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753889"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440318"
 ---
 # <a name="credit-limit-adjustments"></a>Ajustes do limite de crédito 
 
@@ -121,6 +124,3 @@ Os fluxos de trabalho **Ajustes de limite de crédito** podem ser usados para en
 
 > [!NOTE]
 > Ao criar o fluxo de trabalho **Ajustes de limite de crédito**, você pode configurá-lo para que os ajustes sejam lançados automaticamente depois que as linhas forem aprovadas. Basta incluir a tarefa **Lançar Diário automaticamente** no fluxo de trabalho.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Impostos retidos na fonte em pagamentos de clientes (Brasil)
 description: Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.
 author: sndray
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11a64bcc8779243c9768c04a36c364260b19dd3482f7f1e8ab025bb8c516dd30
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: edcc3a59a0191039532a802540db958abd4e6353
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734496"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964605"
 ---
 # <a name="withholding-taxes-on-customer-payments-brazil"></a>Impostos retidos na fonte em pagamentos de clientes (Brasil)
 
@@ -36,7 +38,7 @@ Use a página Comprovante de diário para inserir e lançar pagamentos recebidos
 8. Clique em Salvar.
 9. Feche a página.
 10. Feche a página.
-11. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+11. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 12. Clique em Novo.
 13. No campo Conta de cliente, insira ou selecione um valor.
 14. Clique em OK.
@@ -60,7 +62,7 @@ Use a página Comprovante de diário para inserir e lançar pagamentos recebidos
 32. Feche a página.
 33. Feche a página.
 34. Feche a página.
-35. Acesse Contas a receber > Pagamentos > Diário de pagamentos.
+35. Vá para Contas a receber > Pagamentos > Diário de pagamentos.
 36. Clique em Novo.
 37. Na lista, marque a linha selecionada.
 38. No campo Nome, insira ou selecione um valor.
@@ -80,6 +82,3 @@ Use a página Comprovante de diário para inserir e lançar pagamentos recebidos
 52. Feche a página.
 53. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Atribuir funções de usuário de arrendamento
 description: Este tópico descreve as funções de segurança usadas no Arrendamento de ativos. Também explica como atribuir usuários a essas funções.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysOperationTemplateForm
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a3443cf9fa5b14ac0b3c4560ed45874939aa50cd665f4db46290f5af04bf6ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b31d0880d4f2cd2b8ad2dffcfe279421f935ed35
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771743"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440559"
 ---
 # <a name="assign-lease-user-roles"></a>Atribuir funções de usuário de arrendamento
 
@@ -38,9 +41,6 @@ Três funções de usuário diferenciam o acesso no Arrendamento de ativos. Uma 
 
 Siga estas etapas para atribuir aos usuários as funções usadas em Arrendamento de ativos.
 
-1. Acesse **Administração do sistema \> Segurança \> Atribuir usuários a funções**.
+1. Vá para **Administração do sistema \> Segurança \> Atribuir usuários a funções**.
 2. Selecione a função **Manter arrendamento**, **Auxiliar de arrendamento** ou **Exibir arrendamento** e depois selecione **Atribuir/excluir usuários manualmente**.
 3. Selecione o usuário a ser atribuído à função e selecione **Atribuir à função**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

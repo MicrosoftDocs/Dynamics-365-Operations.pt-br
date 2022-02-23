@@ -2,9 +2,11 @@
 title: Proprietários de produto
 description: Este tópico fornece informações sobre proprietários de produto. O proprietário de um produto é um grupo de usuários responsáveis por produtos específicos. Somente os membros do grupo podem liberar esses produtos. O proprietário do produto também pode ser usado no fluxo de trabalho de aprovação.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a29ab169e9b24826fbe69fbc316040d4618750ee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567502"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967324"
 ---
 # <a name="product-owners"></a>Proprietários de produto
 
@@ -32,7 +34,7 @@ Os proprietários de produtos são configurações globais. Portanto, estão dis
 
 Para criar um grupo de proprietários de produtos e adicionar membros a ele, siga estas etapas.
 
-1. Acesse **Gerenciamento de alteração de engenharia \> Configuração \> Proprietários de produto**.
+1. Vá para **Gerenciamento de alteração de engenharia \> Configuração \> Proprietários de produto**.
 2. No Painel de Ações, selecione **Novo**.
 3. No campo **Proprietário de produto**, insira um nome para o grupo.
 4. No campo **Nome**, insira uma descrição do grupo.
@@ -58,6 +60,3 @@ Por exemplo, o produto X é atribuído ao grupo de proprietários de produtos *P
 ## <a name="product-owners-and-approvals"></a>Proprietários e aprovações de produtos
 
 Como os proprietários de produtos sabem se as alterações de engenharia específicas se beneficiarão com seus produtos, geralmente faz sentido incluí-las como parte do processo de aprovação no gerenciamento de alterações de engenharia. Você pode implementar essa abordagem configurando os proprietários de produtos como provedores de participantes nos fluxos de trabalho que são usados para o gerenciamento de alterações de engenharia. O sistema atribuirá tarefas de aprovação nos fluxos de trabalho com base nos produtos que estão nas solicitações de alteração de engenharia e nas ordens de alteração de engenharia. Para obter mais informações, consulte [Gerenciar alterações de produtos de engenharia](engineering-change-management.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

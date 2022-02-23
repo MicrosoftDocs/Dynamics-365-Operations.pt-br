@@ -2,28 +2,29 @@
 title: Perfis de classificação
 description: Este tópico descreve como configurar dados para perfis de classificação.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af9051c6bbaed311f1f841a82dfd145633acab2c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3c54e7457813774027debd301d9a0bf8ce1b6d47
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574800"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646359"
 ---
 # <a name="rating-profiles"></a>Perfis de classificação
-
-[!include [banner](../../includes/banner.md)]
 
 Um perfil de classificação se assemelha a um contrato de logística (mas não a um contrato legal). É usado para determinar as tarifas de transporte de cargas. 
 
@@ -35,7 +36,7 @@ Você pode configurar um perfil de classificação usando uma página genérica 
 
 Na página **Perfis de classificação**, você pode revisar todos os perfis de classificação disponíveis. Você também pode editar perfis existentes e criar outros.
 
-1. Acesse **Gerenciamento de transporte \> Configurar \> Classificação \> Perfil de classificação**.
+1. Vá para **Gerenciamento de transporte \> Configurar \> Classificação \> Perfil de classificação**.
 1. No Painel de Ações, selecione **Novo** para adicionar um novo perfil de classificação à grade ou selecione **Editar** para editar um perfil existente.
 1. Na linha do perfil de classificação novo ou existente, defina os seguintes campos:
 
@@ -53,13 +54,10 @@ Na página **Perfis de classificação**, você pode revisar todos os perfis de 
 
 ## <a name="create-a-rating-profile-directly-on-the-shipping-carriers-page"></a>Criar um perfil de classificação diretamente na página das transportadoras
 
-1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
+1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
 1. Selecione uma transportadora na lista.
 1. Na FastTab **Perfis de classificação**, selecione **Novo** para criar um perfil de classificação.
 1. Defina os campos para o novo perfil de classificação. Esses campos correspondem aos campos da página **Perfis de classificação**, conforme descrito na seção anterior deste tópico.
 
 > [!NOTE]
 > Os perfis criados na página **Transportadoras** também são exibidos na página **Perfis de classificação**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,34 +1,37 @@
 ---
 title: Configurar e criar perfis de depreciação
-description: Esse procedimento mostra como os perfis de depreciação determinam o tipo e a frequência de depreciação de um ativo.
-author: moaamer
+description: Os perfis de depreciação determinam o tipo e a frequência de depreciação de um ativo.
+author: saraschi2
+manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92089e366d1772b0a74add95d10f8440586c62bd
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 68aa220896e3d6f598f32cad201cde1aa89f1670
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883455"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440422"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Configurar e criar perfis de depreciação
 
 [!include [banner](../../includes/banner.md)]
 
-Os perfis de depreciação determinam o tipo e a frequência de depreciação de um ativo.
+Os perfis de depreciação determinam o tipo e a frequência de depreciação de um ativo.   A empresa usa esse registro de demonstração de USMF e a função de contador.
 
 
 ## <a name="create-a-depreciation-profile"></a>Criar um perfil de depreciação
-1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Configuração > Perfis de depreciação**.
+1. No Painel de navegação, vá para **Módulos > Ativos fixos > Configuração > Perfis de depreciação**.
 2. Clique em **Novo**.
 3. No campo **Perfil de depreciação**, insira um valor.
 4. No campo **Nome**, digite um valor.
@@ -37,6 +40,3 @@ Os perfis de depreciação determinam o tipo e a frequência de depreciação de
 7. No campo **Frequência de período**, selecione uma opção.
 8. Feche o formulário.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

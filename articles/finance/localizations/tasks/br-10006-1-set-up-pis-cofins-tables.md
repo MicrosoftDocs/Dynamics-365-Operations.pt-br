@@ -2,22 +2,25 @@
 title: Configurar tabelas de PIS e COFINS (Brasil)
 description: Antes da apuração de imposto PIS e COFINS ser criada, você deve configurar as tabelas da fonte de crédito e do tipo de crédito.
 author: sndray
+manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06ea8faec93cf7e3c43dcdaa0e480a482e6310a6f394f0946f92b3ff4a47c366
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d27547b640e77ac42680a2028f7e4da545542a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764204"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408407"
 ---
 # <a name="set-up-pis-and-cofins-tables-brazil"></a>Configurar tabelas de PIS e COFINS (Brasil)
 
@@ -25,7 +28,7 @@ ms.locfileid: "6764204"
 
 Antes da apuração de imposto PIS e COFINS ser criada, você deve configurar as tabelas da fonte de crédito e do tipo de crédito. Como referência, você deve usar as tabelas 4.3.7 e 4.3.6 que são publicadas pela autoridade fiscal. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Acesse Livros fiscais > Configuração > Tabelas de PIS e COFINS > CFOP e Código da base de cálculo do crédito.
+1. Vá para Livros fiscais > Configuração > Tabelas de PIS e COFINS > CFOP e Código da base de cálculo do crédito.
 2. Clique em Novo.
 3. No campo CFOP, digite um valor.
     * Use a tabela 4.3.7 que é publicada pela autoridade fiscal como referência para inserir os valores de origem de crédito por CFOP para apuração de PIS e COFINS.  
@@ -34,7 +37,7 @@ Antes da apuração de imposto PIS e COFINS ser criada, você deve configurar as
 6. No campo Válido a Partir da Data, insira uma data.
 7. Clique em Salvar.
 8. Feche a página.
-9. Acesse Livros fiscais > Configuração > Tabelas de PIS e COFINS > Tipos de crédito.
+9. Vá para Livros fiscais > Configuração > Tabelas de PIS e COFINS > Tipos de crédito.
 10. Clique em Novo.
 11. No campo Tipo de crédito, digite um valor.
     * Use a tabela 4.3.6 que é publicada pela autoridade fiscal como uma referência para inserir os valores de tipos de crédito para apuração de PIS e COFINS.  
@@ -43,6 +46,3 @@ Antes da apuração de imposto PIS e COFINS ser criada, você deve configurar as
 14. Clique em Salvar.
 15. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

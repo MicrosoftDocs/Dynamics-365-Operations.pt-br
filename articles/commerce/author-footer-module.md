@@ -2,24 +2,27 @@
 title: Módulo de rodapé
 description: Este tópico abrange os módulos de rodapés e como criá-los no Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719977"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410169"
 ---
 # <a name="footer-module"></a>Módulo de rodapé  
 
@@ -27,25 +30,27 @@ ms.locfileid: "6719977"
 
 Este tópico abrange os módulos de rodapé e descreve como criá-los no Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Visão geral
+
 O módulo de rodapé é um contêiner especial usado para armazenar os módulos que aparecem no rodapé da página. Por exemplo, pode incluir os links para várias páginas no site, como **Fale conosco** e **Armazenar políticas**.
 
 A imagem a seguir mostra um exemplo de um módulo de rodapé em uma página de site.
 
-![Exemplo de um módulo de rodapé.](./media/ecommerce-footer.PNG)
+![Exemplo de um módulo de rodapé](./media/ecommerce-footer.PNG)
 
-## <a name="footer-module-properties&quot;></a>Propriedades de módulo de rodapé 
+## <a name="footer-module-properties"></a>Propriedades de módulo de rodapé 
 
 Como a maioria dos contêineres, o módulo de rodapé oferece suporte a propriedades para o título e a largura. Também oferece suporte a adição de diversos módulos de categoria de rodapé. Cada módulo de categoria de rodapé que é adicionado é renderizado como uma coluna no módulo de rodapé.
 
-## <a name=&quot;modules-available-in-a-footer-module&quot;></a>Módulos disponíveis em um módulo de rodapé
+## <a name="modules-available-in-a-footer-module"></a>Módulos disponíveis em um módulo de rodapé
 
-**Itens do rodapé** – Um módulo de itens do rodapé pode conter um título, uma figura e um link. O cabeçalho pode ser usados independentemente ou em combinação com uma imagem e um link. Cada link no rodapé pode ser configurado de forma que tenha apenas texto (por exemplo, links de &quot;Fale conosco&quot; e &quot;Privacidade"), de forma que possua um texto e uma imagem (por exemplo, links de mídias sociais.)
+**Itens do rodapé** – Um módulo de itens do rodapé pode conter um título, uma figura e um link. O cabeçalho pode ser usados independentemente ou em combinação com uma imagem e um link. Cada link no rodapé pode ser configurado de forma que tenha apenas texto (por exemplo, links de "Fale conosco" e "Privacidade"), de forma que possua um texto e uma imagem (por exemplo, links de mídias sociais.)
 
 **Voltar para a parte superior** – Um módulo para voltar ao módulo superior fornece um link para navegação rápida ao topo da página. Um destino é necessário. O valor de destino padrão é \#, que leva o usuário ao topo da página.
 
 ## <a name="create-a-footer-module"></a>Criar um módulo de rodapé
 
-1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Contêiner**, insira um nome para o fragmento e, em seguida, selecione **OK**.
 1. No slot **Contêiner padrão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Categoria do rodapé** e, depois, **OK**.
@@ -82,6 +87,3 @@ Ao adicionar o fragmento aos modelos de página, você ajuda a garantir que o ro
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

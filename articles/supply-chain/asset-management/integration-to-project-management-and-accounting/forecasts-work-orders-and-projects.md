@@ -1,10 +1,12 @@
 ---
 title: Previsões, ordens de serviço e projetos
 description: Este tópico explica previsões e integração de ordens de serviço com o módulo Gerenciamento e contabilidade do projeto no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b53dcf4e8796f808283b7bd5ea92b869ee0e59aac5359d74bcdc5de37ea7352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770327"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021007"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Previsões, ordens de serviço e projetos
 
@@ -58,13 +60,13 @@ Algumas dessas informações não pode ser encontradas em uma ordem de serviço.
 
 Por exemplo, na ilustração a seguir, por causa da maneira como o tipo de ativo **Motor de Caminhão** está configurado, cada trabalho da ordem de serviço criado com o tipo de ativo **Motor de Caminhão** será um subprojeto do projeto com a ID 000186.
 
-![Figura 1.](media/01-integration-to-pma.png)
+![Figura 1](media/01-integration-to-pma.png)
 
 A finalidade da ID do projeto no trabalho da ordem de serviço e o número de atividade relacionado é rastrear os custos relacionados ao trabalho da ordem de serviço e o ativo selecionado nela, no módulo **Gerenciamento e contabilidade de projeto**. (Para exibir a ID de projeto e o número da atividade, selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** e selecione a ordem de serviço. Na Guia Rápida **Detalhes da linha**, o campo **ID do projeto** mostra a ID do projeto e o campo **Número da atividade** mostra o número da atividade.) Para obter mais informações sobre controle de custos no Gerenciamento de Ativos, consulte [Controle de custo e data](../controlling-and-reporting/cost-and-date-control.md).
 
 A ilustração a seguir mostra uma visão geral gráfica dos projetos de ordem de serviço e das atividades de projeto relacionadas.
 
-![Figura 2.](media/02-integration-to-pma.png)
+![Figura 2](media/02-integration-to-pma.png)
 
 Quando um trabalho de ordem de serviço é criado em uma ordem de serviço, um projeto de ordem de serviço é criado automaticamente para o trabalho. As dimensões financeiras do ativo relacionadas ao trabalho da ordem de serviço são transferidas automaticamente para o projeto da ordem de serviço.
 
@@ -86,18 +88,15 @@ Para ajudar a garantir o uso correto dos estados de ciclo de vida da ordem de se
 
 As ilustrações a seguir mostram as associações entre grupos de projetos da ordem de serviço, tipos de projetos relacionados, fases de projeto e estados de ciclo de vida da ordem de serviço.
 
-![Figura 3.](media/03-integration-to-pma.png)
+![Figura 3](media/03-integration-to-pma.png)
 
-![Figura 4.](media/04-integration-to-pma.png)
+![Figura 4](media/04-integration-to-pma.png)
 
-![Figura 5.](media/05-integration-to-pma.png)
+![Figura 5](media/05-integration-to-pma.png)
 
 Para obter informações sobre como configurar projetos da ordem de serviço, consulte [Configuração do projeto da ordem de serviço](../setup-for-work-orders/work-order-project-setup.md). Para obter informações sobre como criar estados de ciclo de vida da ordem de serviço, consulte [Estados de ciclo de vida da ordem de serviço](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 A ilustração a seguir mostra uma visão geral gráfica de vários projetos criados no módulo **Gerenciamento de ativos** para permitir a integração com o módulo **Gerenciamento e contabilidade de projeto**. Ela também mostra os processos de trabalho aos quais os projetos estão relacionados.
 
-![Figura 6.](media/06-integration-to-pma.png)
+![Figura 6](media/06-integration-to-pma.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

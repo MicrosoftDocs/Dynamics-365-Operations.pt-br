@@ -2,25 +2,28 @@
 title: Liquidar um pagamento parcial de cliente com vários períodos de desconto
 description: Este artigo mostra como os pagamentos parciais de cliente são liquidados quando há vários períodos de desconto.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14471
 ms.assetid: b633a7c4-c18d-42e7-91cc-adcdc8a3ba98
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d0d517524add5e18b1f0795b2ee2fd7f5b7686b26919a7e8f2e20ac1d243fe9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f4d5178aeb3294fd3b40815bb294a7f2ff08b71
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740113"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440247"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidar um pagamento parcial de cliente com vários períodos de desconto
 
@@ -31,7 +34,7 @@ Este artigo mostra como os pagamentos parciais de cliente são liquidados quando
 A Fabrikam oferece ao cliente 4031 dois períodos de desconto para pagamento à vista. O cliente receberá um desconto à vista de 2% se a fatura for paga em cinco dias, e um desconto à vista de 1% se a fatura for paga em 14 dias. A Fabrikam também oferece descontos à vista para pagamentos parciais. Os parâmetros de pagamento estão localizados na página **Parâmetros de contas a receber**.
 
 ## <a name="invoice"></a>Fatura
-Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 4031. Quando Arnie revisa os descontos em dinheiro para esta fatura, vê que o cliente 4031 receberá um desconto de 20,00 se a fatura for paga até 30 de junho. Se a fatura for paga até 9 de julho, o cliente recebe um desconto de 10,00.
+Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 4031. Quando ele revisa os descontos em dinheiro para essa fatura, Arnie vê que o cliente 4031 recebe um desconto de 20,00 se a fatura for paga até 30 de junho. Se a fatura for paga até 9 de julho, o cliente recebe um desconto de 10,00.
 
 | Data do desconto à vista | Valor de desconto à vista | Valor na moeda da transação |
 |--------------------|----------------------|--------------------------------|
@@ -54,7 +57,7 @@ Em 28 de junho, o Cliente 4031 faz um pagamento parcial de 294,00. Como 28 de ju
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**. Se você não alterar o valor da opção **Valor para liquidar** para **294,00**, os valores da opção **Valor de desconto à vista** que aparecem serão diferentes. No entanto, 6,00 serão obtidos como o desconto à vista quando o pagamento for lançado, pois a liquidação é ajustada automaticamente ao **Valor para liquidar** para você.
 
-| &nbsp;                       | &nbsp;    |
+|                              |           |
 |------------------------------|-----------|
 | Data do desconto à vista           | 30/6/2015 |
 | Valor de desconto à vista         | 20,00     |
@@ -73,7 +76,7 @@ Em 8 de julho, o cliente paga o restante do valor da fatura. Um desconto de 7,00
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-| &nbsp;                       | &nbsp;    |
+|                              |           |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | 30,00     |
@@ -95,6 +98,3 @@ O saldo da fatura agora é de 0,00. Alberto exibe as informações na página **
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

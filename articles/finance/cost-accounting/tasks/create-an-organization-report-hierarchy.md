@@ -2,9 +2,11 @@
 title: Criar uma hierarquia de relatórios da organização
 description: Use este procedimento para criar uma hierarquia do relatório da organização.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e9d5cc6fd6188c988a433fcd7f2bf81bf31668edf762c0ed3bcbf67477a4e35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51cd97ac2b78035224db543e3bcc5d606a16ffde
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719261"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969394"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Criar uma hierarquia de relatórios da organização
 
@@ -25,7 +27,7 @@ ms.locfileid: "6719261"
 
 Use este procedimento para criar uma hierarquia do relatório da organização. A finalidade desta gravação é guiá-lo pela hierarquia de dimensão, de forma que você possa continuar, enquanto toda a estrutura de relatório de organização é criada. Esta gravação usa os dados da empresa de demonstração USP2.
 
-1. Acesse Contabilização de custos > Dimensões > Hierarquias de dimensões.
+1. Vá para Contabilização de custos > Dimensões > Hierarquias de dimensões.
 2. Clique em Novo.
 3. No campo HierarchyTypeComboBox, selecione 'Hierarquia de classificação de dimensões'.
     * Selecione Hierarquia de classificação de dimensões. O tipo de Hierarquia de classificação de dimensões é usado para definir regras e para fins de relatório. Ele oferece suporte a todas as dimensões, como objetos de custos, elementos de custo, dimensões estatísticas.  
@@ -92,6 +94,3 @@ Use este procedimento para criar uma hierarquia do relatório da organização. 
     * Selecione o membro da dimensão que corresponde ao nó.  
 59. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

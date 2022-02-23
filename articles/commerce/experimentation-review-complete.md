@@ -2,12 +2,15 @@
 title: Promover uma variação e concluir um experimento
 description: Este tópico descreve como promover uma variação bem-sucedida e concluir um experimento no Dynamics 365 Commerce.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,18 +18,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738737"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4410332"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Promover uma variação e concluir um experimento
 
 Este tópico descreve como promover a variação que produziu os melhores resultados no seu experimento e como concluí-lo. O diagrama a seguir mostra todas as etapas envolvidas na configuração e execução de um experimento em um site de comércio eletrônico no Dynamics 365 Commerce. Etapas adicionais são abordadas em tópicos separados.
 
-[ ![Jornada do usuário na experimentação - Análise e conclusão.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
+[ ![Jornada do usuário na experimentação - análise e conclusão](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
 Depois de [executar seu experimento](experimentation-run-monitor.md) e retirar dados suficientes para determinar qual variação você deseja usar no seu site ativo, promova a variação e encerre o experimento.
 
@@ -58,6 +61,3 @@ Para excluir um experimento no construtor de sites do Commerce, siga estas etapa
 
 ## <a name="previous-step"></a>Etapa anterior
 [Executar e monitorar um experimento](experimentation-run-monitor.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

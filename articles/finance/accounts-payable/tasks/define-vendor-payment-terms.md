@@ -2,23 +2,26 @@
 title: Definir condições de pagamento de fornecedor
 description: Este tópico explica como configurar condições de pagamento para faturas de fornecedor.
 author: abruer
+manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e70a68ab5e14e8dadfd8d61f696f5971c8e60262d0fd55c5de1589e572ff8085
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e6778f61a9367399e4b71d5b2bb2459c09ba508
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722974"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440189"
 ---
 # <a name="define-vendor-payment-terms"></a>Definir condições de pagamento de fornecedor
 
@@ -26,14 +29,14 @@ ms.locfileid: "6722974"
 
 Este tópico explica como configurar condições de pagamento para faturas de fornecedor. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Acesse **Painel de navegação > Módulos > Contas a pagar > Configuração de pagamento > Condições de pagamento**.
+1. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração de pagamento > Condições de pagamento**.
 2. Selecione **Novo**. A página de condições de pagamento é usada para definir como a data de vencimento será calculada. Não é usada para definir como a data de desconto à vista será calculada.  
 3. No campo **Condições de pagamento**, digite um valor.
 4. No campo **Descrição**, digite um valor.
 5. No campo **Dias**, insira um número. O número inserido aqui será usado para adicionar à data de vencimento, ou ao final do período identificado no método de pagamento. Por exemplo, se você selecionar **Rede**, o número será adicionado à data de vencimento. Se você selecionar **Mês atual**, ele adicionará o número ao último dia do mês atual para calcular a data de vencimento.  
 6. Selecione **Salvar**.
 7. Feche a página.
-8. Acesse **Contas a pagar > Configuração de pagamento > Descontos à vista**.
+8. Vá para **Contas a pagar > Configuração de pagamento > Descontos à vista**.
 9. Selecione **Novo**.
 10. No campo **Desconto à vista**, insira uma ID.
 11. No campo **Descrição**, digite um valor.
@@ -44,6 +47,3 @@ Este tópico explica como configurar condições de pagamento para faturas de fo
 16. Insira a conta principal na qual o desconto à vista será lançado para faturas de clientes. Depois, insira a conta principal na qual o desconto à vista será lançado para faturas de fornecedor. Se **Contas de contrapartida de desconto** estiver definida como **Usar conta principal para desconto do fornecedor**, a conta principal será usada. Se a opção estiver definida como **Contas nas linhas de fatura**, o desconto à vista será lançado nas contas de ativo/despesas nas linhas da fatura.  
 17. Selecione **Salvar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

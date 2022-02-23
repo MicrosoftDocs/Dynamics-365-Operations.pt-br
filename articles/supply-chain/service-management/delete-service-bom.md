@@ -1,39 +1,46 @@
 ---
 title: Excluir uma BOM de serviço
-description: Este tópico fornece um procedimento que mostra como excluir uma BOM de serviço.
-author: kamaybac
+description: Uma ordem de serviço representa uma visita de um técnico de serviço a um local de cliente em uma data específica.
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0b1ea4bd8c035db39763b3c1da9ccfc14030c24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 744f78f2dd088e50c91e1f7ef0e6f68b176f9618
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569062"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422101"
 ---
-# <a name="delete-a-service-bom"></a>Excluir uma BOM de serviço
+# <a name="delete-a-service-bom"></a>Excluir uma BOM de serviço 
 
 [!include [banner](../includes/banner.md)]
 
-1. Acesse **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**. Selecione o contrato de serviço do qual você deseja excluir uma lista de materiais (BOM) de serviço.
-1. No **Painel de Ações**, selecione **Objetos de serviço**.
-1. No formulário **Objetos de serviço**, selecione o objeto de serviço do qual deseja excluir uma BOM de serviço. Selecione **Funções** e depois selecione **Excluir BOM de serviço**.
-1. Selecione **Sim**.
+
+1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**. Selecione o contrato de serviço do qual você deseja excluir uma lista de materiais (BOM) de serviço.
+
+2.  No **Painel de Ação**, clique em **Objetos de serviço**.
+
+3.  No formulário **Objetos de serviço**, selecione o objeto de serviço do qual deseja excluir uma BOM de serviço. Clique em **Funções** e depois selecione **Excluir BOM de Serviço**.
+
+4.  Clique em **Sim**.
 
 
 > [!NOTE]
-> Se você não tiver aplicado uma BOM de modelo, a BOM de serviço poderá ser excluída da página **BOMs de modelo**. Se você tiver aplicado uma BOM de modelo, não será possível excluir a BOM de serviço usando esse método.
+> <P>Se você não tiver aplicado uma BOM de modelo, a BOM de serviço poderá ser excluída do formulário <STRONG>BOMs de modelo</STRONG>. Se você tiver aplicado uma BOM de modelo, não será possível excluir a BOM de serviço usando esse método.</P>
 
 
 
@@ -46,6 +53,3 @@ ms.locfileid: "7569062"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

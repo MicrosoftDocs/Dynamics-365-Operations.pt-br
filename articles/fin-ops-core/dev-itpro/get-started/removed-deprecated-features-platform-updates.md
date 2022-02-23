@@ -2,9 +2,11 @@
 title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
-ms.date: 12/16/2021
+manager: AnnBe
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927470"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689557"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -30,175 +32,24 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
-
-## <a name="feature-removal-effective-october-2021"></a>Remoção de recursos em outubro de 2021
-
-### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Relatórios SQL do Microsoft Azure no LCS (Lifecycle Services)
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Todas as atividades e o monitoramento serão executados internamente pela plataforma, por meio da automação. Isso não exigirá intervenção manual.|
-| **Substituída por outro recurso?**   | Sim, agora existe um sistema automatizado, o que torna esses recursos obsoletos. |
-| **Áreas afetadas do produto**         | Relatórios SQL: DTU Atual, Detalhes de DTU Atuais, Obter Detalhes de Bloqueio, Lista de Guias de Plano Atual, Obter Lista de IDs de Consulta, Obter plano de consulta SQL para uma ID de plano específica, Obter planos de consulta e status de execução, Obter configuração de restrição, Obter estatísticas de espera, Listar consultas mais caras |
-| **Opção de implantação**              | Implantação na nuvem: afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
-| **Status**                         | Removido |
-
-### <a name="azure-sql-actions-in-lcs"></a>Ações do SQL do Azure no LCS
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Estamos substituindo algumas ações SQL no LCS. Todas as atividades e o monitoramento serão executados internamente pela plataforma, por meio da automação. Isso não exigirá intervenção manual. |
-| **Substituída por outro recurso?**   | Sim, agora existe um sistema automatizado, o que torna esses recursos obsoletos. |
-| **Áreas afetadas do produto**         | Ações SQL: Criar um guia de plano para impor a ID do Plano, Criar um guia de plano para adicionar dicas de tabela, Remover guia de Plano, Desabilitar/Habilitar bloqueios de página e escalonamento de bloqueio, Atualizar estatísticas em uma tabela, Recriar Índice, Criar Índice |
-| **Opção de implantação**              | Implantação na nuvem: afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
-| **Status**                         | Removido |
-
-
-## <a name="feature-deprecation-effective-october-2021"></a>Substituição de recursos em outubro de 2021
-
-### <a name="show-related-document-attachments-feature"></a>Recurso "Mostrar anexos de documentos relacionados"
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | O recurso estava retornando resultados inesperados. |
-| **Substituída por outro recurso?**   | Não. Os planos adicionais referentes a essa funcionalidade serão comunicados por meio do nosso processo padrão de divulgação de ciclos de lançamentos. |
-| **Áreas afetadas do produto**         | Cliente Web - Experiência de anexo de documento |
-| **Opção de implantação**              | Tudo |
-| **Status**                         | Preterido  |
-
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.23 dos aplicativos do Finance and Operations
-
-### <a name="ondbsynchronize-event"></a>Evento OnDBSynchronize
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Não há um controle para executar esse evento. |
-| **Substituída por outro recurso?**   | Sim, mover métodos existentes inscritos pelo evento **OnDBSynchronize** para uma classe estendida SysSetup. |
-| **Áreas afetadas do produto**         | Sincronização de banco de dados |
-| **Opção de implantação**              | Tudo |
-| **Status**                         | Preterido. A data de remoção planejada é outubro de 2022. |
-
-
-### <a name="systemnotificationsmanageraddnotification-api"></a>API SystemNotificationsManager.AddNotification
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | A Microsoft requer mais parâmetros ao adicionar notificações. |
-| **Substituída por outro recurso?**   | Sim, a API **SystemNotificationsManager.AddSystemNotification()**. Essa API requer a definição explícita de ExpirationDateTime e RuleID para notificações geradas. |
-| **Áreas afetadas do produto**         | Cliente web |
-| **Opção de implantação**              | Tudo |
-| **Status**                         | Preterido. A data de remoção planejada é abril de 2023. |
-
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.21 dos aplicativos do Finance and Operations
-
-### <a name="skype-for-business-online-support"></a>Suporte do Skype for Business Online
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | O Skype for Business Online foi desativado. Para obter mais informações, consulte [O serviço Skype for Business Online foi desativado](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
-| **Substituída por outro recurso?**   | Atualmente não, embora possamos considerar adicionar a presença do Teams no futuro.|
-| **Áreas afetadas do produto**         | Cliente web |
-| **Opção de implantação**              | Tudo |
-| **Status**                         | Preterido. A configuração **Skype habilitado** foi desativada a partir da versão 10.0.21. A remoção dessa configuração está prevista para abril de 2022; no entanto, o recurso deixará de funcionar depois que a equipe do Skype encerrar o serviço. |
- 
-## <a name="feature-deprecation-effective-august-2021"></a>Substituição de recurso efetiva em agosto de 2021
-
-### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Relatórios SQL do Microsoft Azure no LCS (Lifecycle Services)
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Todas as atividades e o monitoramento serão executados internamente pela plataforma, por meio da automação. Isso não exigirá intervenção manual.|
-| **Substituída por outro recurso?**   | Sim, agora existe um sistema automatizado, o que torna esses recursos obsoletos. |
-| **Áreas afetadas do produto**         | Relatórios SQL: DTU Atual, Detalhes de DTU Atuais, Obter Detalhes de Bloqueio, Lista de Guias de Plano Atual, Obter Lista de IDs de Consulta, Obter plano de consulta SQL para uma ID de plano específica, Obter planos de consulta e status de execução, Obter configuração de restrição, Obter estatísticas de espera, Listar consultas mais caras |
-| **Opção de implantação**              | Implantação na nuvem: afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
-| **Status**                         | Preterido: a data de remoção planejada é outubro de 2021. |
-
-### <a name="azure-sql-actions-in-lcs"></a>Ações do SQL do Azure no LCS
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Estamos substituindo algumas ações SQL no LCS. Todas as atividades e o monitoramento serão executados internamente pela plataforma, por meio da automação. Isso não exigirá intervenção manual. |
-| **Substituída por outro recurso?**   | Sim, agora existe um sistema automatizado, o que torna esses recursos obsoletos. |
-| **Áreas afetadas do produto**         | Ações SQL: Criar um guia de plano para impor a ID do Plano, Criar um guia de plano para adicionar dicas de tabela, Remover guia de Plano, Desabilitar/Habilitar bloqueios de página e escalonamento de bloqueio, Atualizar estatísticas em uma tabela, Recriar Índice, Criar Índice |
-| **Opção de implantação**              | Implantação na nuvem: afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
-| **Status**                         | Preterido: a data de remoção planejada é outubro de 2021. |
-
-## <a name="feature-deprecation-effective-may-2021"></a>Substituição de recurso efetiva em maio de 2021
-
-### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Portal de globalização no Lifecycle Services (LCS)
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Estamos descontinuando o portal de globalização no LCS, pois esse recurso foi substituído por outros serviços baseados no LCS. |
-| **Substituída por outro recurso?**   | Sim, este recurso foi substituído por [Pesquisa de problemas](../lifecycle-services/issue-search-lcs.md) e [Serviço de envio de alertas regulatórios do Dynamics](../lcs-solutions/submit-localization-alerts.md). |
-| **Áreas afetadas do produto**         | Portal de globalização no LCS|
-| **Opção de implantação**              | Implantação de nuvem |
-| **Status**                         | Preterido: a data de remoção planejada é maio de 2022. |
-
-
-## <a name="feature-removed-effective-january-28-2021"></a>Recurso removido em 28 de janeiro de 2021
-
-### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Trabalhos em lotes para tratar da desfragmentação de índice SQL
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Para reduzir a sobrecarga de operação, monitoramento e manutenção do gerenciamento de índices pelos clientes, este recurso foi removido. |
-| **Substituída por outro recurso?**   | A partir de agora, a manutenção do índice será realizada pelos serviços da Microsoft. Isso ocorrerá continuamente sem afetar as cargas de trabalho do usuário. |
-| **Áreas afetadas do produto**         | Aplicativos Finance and Operations|
-| **Opção de implantação**              | Implantação na nuvem - afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
-| **Status**                         | Este recurso foi removido. |
-
-
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.17 dos aplicativos do Finance and Operations
-
-
-### <a name="visual-studio-2015"></a>Visual Studio2015
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Para dar suporte às versões mais recentes do Visual Studio, algumas alterações devem ser feitas nas extensões X++ para Visual Studio. Essas alterações são incompatíveis com o Visual Studio 2015. |
-| **Substituída por outro recurso?**   | O Visual Studio 2017 substituirá o Visual Studio 2015 como a versão implantada e necessária. |
-| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
-| **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: após a atualização, as ferramentas X++ anteriores serão removidas do Visual Studio 2015, e as ferramentas atualizadas não serão instaladas no Visual Studio 2015. Não haverá impacto nos builds hospedados. Para máquinas virtuais de build, o pipeline de build (definição de build) precisa ser atualizado manualmente para alterar a dependência do MSBuild 14.0 (Visual Studio 2015) ao MSBuild 15.0 (Visual Studio 2017) conforme descrito em [Atualizar um pipeline herdado no Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
-
-### <a name="user-avatar"></a>Avatar do usuário 
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | O avatar do usuário exibido no lado direito da barra de navegação foi recuperado usando uma API do controle de cabeçalho do Dynamics 365, que foi preterido. |
-| **Substituída por outro recurso?**   | Em vez disso, os usuários verão suas iniciais em um círculo na barra de navegação. Esse é o mesmo visual usado atualmente em máquinas de desenvolvimento. |
-| **Áreas afetadas do produto**         | Cliente web |
-| **Opção de implantação**              | Todas |
-| **Status**                         | Removido a partir da versão 10.0.17 |
-
-### <a name="enterprise-portal-ep-deprecation"></a>Reprovação do Enterprise Portal (EP)  
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Os artefatos de metadados associados ao Dynamics AX 2012 Enterprise Portal (EP) foram preteridos, pois o EP nunca teve suporte nos aplicativos do Finance and Operations. |
-| **Substituída por outro recurso?**   | Não |
-| **Áreas afetadas do produto**         | Cliente web |
-| **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: todo o código do EP está programado para ser removido na versão de outubro de 2021. |
+Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.15 dos aplicativos do Finance and Operations
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Suporte do Internet Explorer 11 para Dynamics 365 foi substituído
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A partir de dezembro de 2020, o suporte do Internet Explorer 11 da Microsoft para todos os produtos Dynamics 365 é preterido e Internet Explorer 11 não receberá suporte depois de agosto de 2021.<br><br>Isso afetará os clientes que usam os produtos do Dynamics 365 projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não terá suporte para esses produtos do Dynamics 365. |
 | **Substituída por outro recurso?**   | Recomendamos que os clientes façam a transição para o Microsoft Edge.|
 | **Áreas afetadas do produto**         | Todos os produtos do Dynamics 365 |
 | **Opção de implantação**              | Todas|
-| **Status**                         | Preterido: Internet Explorer 11 não terá suporte depois de agosto de 2021.|
+| **Status**                         | Preterido. O Internet Explorer 11 não terá suporte depois de agosto de 2021.|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Suplemento do Visual Studio para aplicar hotfixes de metadados
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Não há mais suporte para hotfixes de metadados com as atualizações de serviço do [One Version](../../fin-ops/get-started/one-version.md) introduzidas em julho de 2018 com a versão 8.1. |
 | **Substituída por outro recurso?**   | Hotfixes de metadados individuais não estão disponíveis para versões com suporte. As atualizações de qualidade cumulativas serão aplicadas. |
@@ -211,7 +62,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="online-users-page"></a>Página de usuários online 
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Esta é uma página herdada criada para a arquitetura anterior de cliente/servidor. As informações nesta página nem sempre são precisas, podem ser confusas e enganosas. |
 | **Substituída por outro recurso?**   | Forneceremos uma nova página em uma atualização futura.|
@@ -225,17 +76,17 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Código personalizado definido nas propriedades do relatório SSRS 
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Em geral, o código personalizado oferece benefícios limitados enquanto que, ao mesmo tempo, requer recursos e uma computação significativos para o suporte. O código personalizado é usado principalmente pelos autores de relatórios para chamar métodos públicos a partir de um assembly de código personalizado. No entanto, o serviço hospedado na nuvem não oferece suporte a referências a assemblies personalizados para relatórios SSRS. |
-| **Substituída por outro recurso?**   | Autores de relatórios podem optar por continuar fazendo referência a APIs públicas do .NET para operações matemáticas, de conversão e de formatação de qualquer expressão de caixa de texto. Para obter mais informações, consulte [Adicionar código a um relatório (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
+| **Substituída por outro recurso?**   | Autores de relatórios podem optar por continuar fazendo referência a APIs públicas do .NET para operações matemáticas, de conversão e de formatação de qualquer expressão de caixa de texto. Para obter mais informações, consulte [Adicionar código a um relatório (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
 | **Áreas afetadas do produto**         | Subconjunto de designs de relatórios de aplicativos definidos no RDL que contêm código personalizado. |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Com a versão 10.0.13, o compilador começará a emitir um aviso para instâncias em que o código personalizado for detectado em uma definição de relatório SSRS. Para corrigir o problema, abra a definição do design do relatório e remova todos os artefatos de código personalizado. Este aviso será substituído por um erro do compilador em uma atualização futura.   |
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Atualização de três bibliotecas de componentes jQuery 
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Três bibliotecas de componentes jQuery estão sendo atualizadas para correções de segurança e para manter a moeda.   
 | **Substituída por outro recurso?**   | As seguintes bibliotecas estão sendo afetadas: jQuery (para a versão 3.5.0 da versão 2.1.4), IU do jQuery (para a versão 1.12.1 da versão 1.11.4), jQuery qTip (para versão 3.0.3 da 2.2.1). As diretrizes de migração foram fornecidas online pelo jQuery.  |
@@ -245,17 +96,17 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="existing-grid-controlforcelegacygrid-api"></a>Controle de grade existente/API forceLegacyGrid()
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O controle de grade existente está sendo substituído pelo novo controle de grade. |
 | **Substituída por outro recurso?**   | O [novo controle de grade](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Na versão 10.0.13, o novo controle de grade está geralmente disponível e os clientes podem ativar esse recurso opcionalmente. O novo controle de grade se tornará ativado, por padrão, com a versão de outubro de 2021. No momento, a intenção é que ele seja obrigatório em abril de 2022. Quando o novo controle de grade se tornar obrigatório, a API **forceLegacyGrid()** não será mais respeitada. |
+| **Status**                         | Na versão 10.0.13, o novo controle de grade está geralmente disponível e os clientes podem ativar esse recurso opcionalmente. O novo controle de grade se tornará obrigatório na versão de outubro de 2021. Quando o novo controle de grade se tornar obrigatório, a API **forceLegacyGrid()** não será mais respeitada. |
 
 ### <a name="personalization-without-saved-views"></a>Personalização sem exibições salvas 
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O subsistema de personalização foi revisado com o recurso de exibições salvas para oferecer um melhor desempenho e recursos adicionais. |
 | **Substituída por outro recurso?**   | Exibições salvas |
@@ -268,7 +119,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensões do formulário de controle de grade ou grupo contendo referências de campo inválidas
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A propriedade de grupo de dados nos controles de grade ou grupo é usada para mostrar automaticamente todos os campos de um grupo de campos. Um controle de grade ou grupo adicionado por extensão pode conter campos que não estejam mais definidos no grupo de campos ou que talvez não tenham campos definidos no grupo de campos. Isso pode causar inconsistência no comportamento em tempo de execução. Agora, as atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations categorizam esse problema como um *aviso* do compilador. Para corrigir esse problema, abra a extensão do formulário e salve-a.
 | **Substituída por outro recurso?**   | Este aviso do compilador será substituído por um erro do compilador em uma atualização futura. |
@@ -280,17 +131,17 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Listas de confiança explícitas para ambientes de autoatendimento
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O processo de movimentação de IP para listas de confiança foi alterado. O autoatendimento não oferece mais suporte a listas de confiança de IP. |
-| **Substituída por outro recurso?**   | Para obter mais informações, consulte [Configuração do acesso condicional ao Azure Active Directory](/appcenter/general/configuring-aad-conditional-access).|
+| **Substituída por outro recurso?**   | Para obter mais informações, consulte [Configuração do acesso condicional ao Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
 | **Áreas afetadas do produto**         | Segurança |
 | **Opção de implantação**              | Nuvem |
-| **Status**                         | Preterido: esse recurso foi totalmente substituído por implantações de autoatendimento. |
+| **Status**                         | **Preterido:** esse recurso foi totalmente substituído por implantações de autoatendimento. |
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Para dar suporte às versões mais recentes do Visual Studio, algumas alterações devem ser feitas nas extensões X++ para Visual Studio. Essas alterações são incompatíveis com o Visual Studio 2015. |
 | **Substituída por outro recurso?**   | O Visual Studio 2017 substituirá o Visual Studio 2015 como a versão implantada e necessária. |
@@ -300,49 +151,44 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Grupos de campos contendo referências de campo inválidas
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Os grupos de campos nas definições de metadados da tabela podem conter referências de campo inválidas. Se esses grupos de campos forem implantados, eles pode causar falhas de tempo de execução no Financial Reporting e no Microsoft SQL Server Reporting Services (SSRS). A platform update 23 apresentou um *aviso* do compilador que permitiu que esse problema de metadados fosse solucionado. As atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations categorizam esse problema como um *erro* do compilador.<p>Para corrigir esse problema, siga estas etapas.</p><ol><li>Remova a referência de campo inválida da definição do grupo de campos da tabela.</li><li>Recompilar.</li><li>Certifique-se de que os erros sejam solucionados.</li></ol> |
 | **Substituída por outro recurso?**   | Este erro do compilador substitui permanentemente o aviso do compilador.  |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: o aviso do compilador é um erro de compilador nas atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations. |
+| **Status**                         | **Preterido:** o aviso do compilador é um erro de compilador nas atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licenças ISV criadas usando o algoritmo de hash SHA1
 
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O processo para criar licenças de fornecedor independente de software (ISV) foi alterado. Para obter mais informações, consulte o [Licenciamento de fornecedor independente de software (ISV)](../dev-tools/isv-licensing.md#appendix-create-self-signed-certificates-for-test-purposes). |
 | **Substituída por outro recurso?**   | Sim. Use o Windows PowerShell para criar licenças. |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido : Licenças ISV criadas usando o algoritmo de hash SHA1. Esse algoritmo dependia de certificados que eram criados usando o utilitário MakeCert, e esse utilitário foi preterido.<br><br>Preterido : O uso de SHA1 para fins de segurança ou hash. O funcionamento do SHA1 será descontinuado no início de 2021. Portanto, não deve mais ser usado.<br><br>Removido: Suporte para solicitações de entrada ou saída do Transport Layer Security (TLS) 1.0 e TLS 1.1. |
+| **Status**                         | <strong>Preterido</strong> : Licenças ISV criadas usando o algoritmo de hash SHA1. Esse algoritmo dependia de certificados que eram criados usando o utilitário MakeCert, e esse utilitário foi preterido.<p><strong>Preterido</strong> : O uso de SHA1 para fins de segurança ou hash. O funcionamento do SHA1 será descontinuado no início de 2021. Portanto, não deve mais ser usado.<p><strong>Removido:</strong> Suporte para solicitações de entrada ou saída do Transport Layer Security (TLS) 1.0 e TLS 1.1. |
 
 ## <a name="platform-update-32"></a>Platform update 32
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Caixa de diálogo Alterar solicitação de fluxo de trabalho não inclui mais a seleção do usuário de lista suspensa
-
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Isso foi um problema de segurança, pois a solicitação de alteração poderia ser enviada para um usuário indesejado. Isso também era um problema de usabilidade porque forçava o usuário a determinar quem foi o originador do fluxo de trabalho e selecioná-los manualmente.  |
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Fluxo de Trabalho |
 | **Opção de implantação**              | Todas |
-| **Status**                         | A lista suspensa de seleção de usuário foi removida da caixa de diálogo alteração de solicitação na platform update 23. Solicitações de alteração de solicitação serão enviadas automaticamente para o originador conforme pretendido. Para obter mais informações sobre essa funcionalidade, consulte [Ações em processos de aprovação de fluxo de trabalho](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change). |
+| **Status**                         | A lista suspensa de seleção de usuário foi removida da caixa de diálogo alteração de solicitação na platform update 23. Solicitações de alteração de solicitação serão enviadas automaticamente para o originador conforme pretendido. Para obter mais informações sobre essa funcionalidade, consulte [Ações em processos de aprovação de fluxo de trabalho](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Links de detalhamento incorporados não são mais compatíveis em documentos paginados renderizados pelo serviço armazenado em nuvem 
-
-| &nbsp;  | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | As URLs de navegação inseridas nos documentos processados pelo serviço podem conter dados comerciais confidenciais. Estamos removendo o suporte para links de detalhamento incorporados em documentos como uma precaução de segurança para proteger ainda mais os dados dos clientes. Os usuários também se beneficiarão do melhor desempenho enquanto produzem documentos interativamente como resultado dessa alteração.  |
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Relatório |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Este recurso está sendo removido ativamente do serviço.<br><br>O cliente moderno oferece várias opções para produzir exibições que incluem links gerados automaticamente para ajudar na navegação do aplicativo. Os documentos paginados processados pelo serviço são recomendados para comunicações externas enviadas por email, arquivadas e impressas para os destinatários. Aperfeiçoamos a experiência de visualização de documentos diretamente no navegador, que oferece acesso direto a impressoras locais. Para obter mais informações, consulte [Visualização de documentos em PDF com um visualizador incorporado](../analytics/preview-pdf-documents.md). |
+| **Status**                         | Este recurso está sendo removido ativamente do serviço.<br><br>O cliente moderno oferece várias opções para produzir exibições que incluem links gerados automaticamente para ajudar na navegação do aplicativo. Os documentos paginados processados pelo serviço são recomendados para comunicações externas enviadas por email, arquivadas e impressas para os destinatários. Aperfeiçoamos a experiência de visualização de documentos diretamente no navegador, que oferece acesso direto a impressoras locais. Para obter mais informações, consulte [Visualização de documentos em PDF com um visualizador incorporado](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/preview-pdf-documents). |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Comunicados anteriores sobre recursos removidos ou obsoletos
 Para saber mais sobre os recursos que foram removidos ou preteridos em versões anteriores, consulte [Recursos removidos ou obsoletos em versões anteriores](../migration-upgrade/deprecated-features.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

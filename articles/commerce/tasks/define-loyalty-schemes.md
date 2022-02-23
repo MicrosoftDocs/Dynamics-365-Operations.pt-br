@@ -2,23 +2,26 @@
 title: Definir esquemas de fidelidade
 description: Este procedimento orienta como definir um esquema de fidelidade.
 author: jashanno
+manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3909213aaefa3a63fedfc90e6c02ef89b893b16ff5841bf10249867d406c894c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2bec8653c05d7684202c0e63d049ddb517e12834
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738639"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410230"
 ---
 # <a name="define-loyalty-schemes"></a>Definir esquemas de fidelidade
 
@@ -26,7 +29,7 @@ ms.locfileid: "6738639"
 
 Este procedimento orienta como definir um esquema de fidelidade. Os esquemas de fidelidade são regras de ganhos e de resgate para um programa de fidelidade. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Acesse Varejo e Comércio > Clientes > Fidelidade > Esquemas de fidelidade.
+1. Vá para Varejo e Comércio > Clientes > Fidelidade > Esquemas de fidelidade.
 2. Clique em Novo.
 3. No campo ID do esquema, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -67,6 +70,3 @@ Este procedimento orienta como definir um esquema de fidelidade. Os esquemas de 
 27. Clique em Salvar.
     * Sempre que alterar os canais para um esquema de fidelidade, você deve executar Processar esquemas de fidelidade. Dessa forma, os canais terão esquemas de fidelidade atualizados.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

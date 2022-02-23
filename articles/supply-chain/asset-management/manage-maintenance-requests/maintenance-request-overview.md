@@ -1,29 +1,34 @@
 ---
 title: Solicitações de manutenção
 description: Este tópico fornece uma visão geral sobre o gerenciamento de solicitações de manutenção no Asset Management
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985244"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019620"
 ---
 # <a name="maintenance-requests"></a>Solicitações de manutenção
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 As solicitações de manutenção são anotações ou declarações criadas para notificar um gerente ou planejador de que um ativo pode exigir um trabalho de manutenção ou de reparo, mas sem a criação de uma ordem de serviço. Se o conteúdo de uma solicitação de manutenção for considerado válido, uma ordem de serviço será criada com base na solicitação de manutenção.
 
@@ -39,7 +44,7 @@ As solicitações de serviço podem ser criadas para qualquer ativo no Asset Man
 
 Para exibir solicitações de manutenção, selecione **Gerenciamento de ativos** \> **Comum** \> **Solicitações de manutenção** \> **Todas as solicitações de manutenção**, **Solicitações de manutenção ativas** ou **Minhas solicitações de manutenção de local funcional**. Cada página de listagem mostra algumas das informações relacionadas a uma solicitação de manutenção.
 
-![Exibir solicitações de manutenção.](media/01-manage-maintenance-requests.png)
+![Exibir solicitações de manutenção](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Use a página de listagem **Minhas solicitações de manutenção de local funcional** para exibir uma lista de solicitações de manutenção que contenham um ou mais locais funcionais aos quais você está relacionado como trabalhador ou ativos instalados em locais funcionais aos quais você está relacionado como trabalhador. Para obter informações sobre como configurar locais funcionais em funcionários de manutenção, consulte [Funcionários de manutenção e grupos de funcionários](../setup-for-objects/workers-and-worker-groups.md).
@@ -48,7 +53,7 @@ Para exibir solicitações de manutenção, selecione **Gerenciamento de ativos*
 
 Para abrir a exibição de detalhes de um registro, na página de listagem **Todas as solicitações de manutenção**, na exibição de grade, selecione um link na coluna **Solicitação de manutenção**.
 
-![Exibição de detalhes da solicitação de manutenção.](media/02-manage-maintenance-requests.png)
+![Exibição de detalhes da solicitação de manutenção](media/02-manage-maintenance-requests.png)
 
 Os botões no Painel de Ação estão organizados em guias. A tabela a seguir descreve brevemente os botões relacionados ao Asset Management.
 
@@ -67,6 +72,3 @@ Os botões no Painel de Ação estão organizados em guias. A tabela a seguir de
 | Enviar ativo de empréstimo                  | Selecione um ativo de empréstimo que deve ser uma substituição temporária para o ativo selecionado na solicitação de manutenção selecionada. |
 | Devolver o ativo de empréstimo                | Registre o ativo de empréstimo como devolvido. |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

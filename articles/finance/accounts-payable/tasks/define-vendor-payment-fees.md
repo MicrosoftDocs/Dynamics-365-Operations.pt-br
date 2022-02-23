@@ -2,23 +2,26 @@
 title: Definir taxas de pagamento de fornecedor
 description: Configure taxas de pagamento de fornecedor.
 author: abruer
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a53124d021e35b05ce720c75924e136acdfadde8ddbad0d544d36662f45cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 404bd1e22caa8098f114a2dcc67dd420509cce2b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777305"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440190"
 ---
 # <a name="define-vendor-payment-fees"></a>Definir taxas de pagamento de fornecedor
 
@@ -26,7 +29,7 @@ ms.locfileid: "6777305"
 
 Configure taxas de pagamento de fornecedor. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Acesse Contas a pagar > Configurar pagamento > Taxa de pagamento.
+1. Vá para Contas a pagar > Configurar pagamento > Taxa de pagamento.
 2. Clique em Novo.
 3. No campo ID da taxa, digite um valor.
     * A ID de taxa deve descrever quando essa taxa será usada, como "EFT_Fee".  
@@ -56,6 +59,3 @@ Configure taxas de pagamento de fornecedor. Esta tarefa usa a empresa de demonst
     * Esta moeda é para a taxa. A moeda do pagamento é usada para definir quando a regra de taxa deverá ser cobrada com base na moeda do pagamento. Por exemplo, seu banco pode cobrar uma taxa quando um pagamento é efetuado em Euro, mas todos pagamentos restantes não são avaliados por uma taxa.  
 18. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

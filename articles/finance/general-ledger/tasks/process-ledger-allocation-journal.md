@@ -2,9 +2,11 @@
 title: Processar diário de alocação do razão
 description: Este tópico explica como processar uma solicitação de alocação no Dynamics 365 Finance.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d37b1a9869cc130786d0e8fde68184e04c881bad1f64c86943174213025db82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a7e8c3ef6fa85daec2a191b433b1ec4ece441ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765659"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968470"
 ---
 # <a name="process-ledger-allocation-journal"></a>Processar diário de alocação do razão
 
@@ -26,7 +28,7 @@ ms.locfileid: "6765659"
 
 Este tópico explica como processar uma solicitação de alocação. Use a página Processar solicitação de alocação para criar um diário de alocação que possa ser revisto e aprovado antes do lançamento na Contabilidade ou que possa ser lançado diretamente na Contabilidade. Antes de criar um diário de alocações, deve haver pelo menos uma regra de alocação do razão ativa. Esta tarefa usa a empresa de demonstração USMF.
 
-1. No painel de navegação, Acesse **Módulos > Contabilidade > Alocações > Processar solicitação de alocação**.
+1. No painel de navegação, vá para **Módulos > Contabilidade > Alocações > Processar solicitação de alocação**.
 2. No campo **Regra**, selecione o registro desejado no menu suspenso.
 3. No campo **A partir da data**, insira uma data.
 
@@ -36,11 +38,8 @@ Este tópico explica como processar uma solicitação de alocação. Use a pági
 4. No campo **Opções de proposta**, selecione **Somente proposta**. Selecione **Somente proposta** para revisar e opcionalmente aprovar o resultado em Diários de alocação antes de lançar a alocação na Contabilidade.  
 5. No campo Lançamento GL, insira uma data.
 6. Selecione **OK**.
-7. No painel de navegação, Acesse **Módulos > Contabilidade > Alocações > Diários de alocação**.
+7. No painel de navegação, vá para **Módulos > Contabilidade > Alocações > Diários de alocação**.
 8. Selecione **Linhas**.
 9. Selecione **Lançar**.
 10. Selecione **Lançar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

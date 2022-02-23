@@ -1,10 +1,12 @@
 ---
 title: Tipo de destino de ER do arquivo
-description: Este tópico fornece informações sobre como configurar um destino de arquivo para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
+description: Este tópico fornece informações sobre como configurar um destino de arquivo para cada componente de PASTA ou ARQUIVO de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -15,22 +17,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e2566fc5115df8b47277fc6b6d7f4698cea0a00bea83bcb17e9d7a9e9b765b65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718324"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679669"
 ---
 # <a name="archive-er-destination-type"></a>Tipo de destino de ER do arquivo
 
 [!include [banner](../includes/banner.md)]
 
-Você pode configurar um destino de arquivo para cada componente de **Pasta** ou **Arquivo** de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída. Com base na configuração de destino, um documento gerado é armazenado como um anexo de um registro da lista de trabalhos do ER. Para exibir os resultados, Acesse **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
+Você pode configurar um destino de arquivo para cada componente de **Pasta** ou **Arquivo** de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída. Com base na configuração de destino, um documento gerado é armazenado como um anexo de um registro da lista de trabalhos do ER. Para exibir os resultados, vá para **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
 
-Você pode usar essa opção para enviar o documento gerado para uma pasta do Microsoft SharePoint ou para o Armazenamento do Microsoft Azure. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os [tipos](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) de documento em **Administração da organização** \> **Gerenciamento de documentos** \> **Tipos de documento**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
+Você pode usar essa opção para enviar o documento gerado para uma pasta do Microsoft SharePoint ou para o Armazenamento do Microsoft Azure. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os [tipos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) de documento em **Administração da organização** \> **Gerenciamento de documentos** \> **Tipos de documento**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
 
-[![Página Tipos de documento.](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
+[![Página Tipos de documento](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 
 O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** for ativado, os resultado poderão ser salvos no Arquivo de trabalho. Você pode exibir os resultados em **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos arquivados de relatórios eletrônicos**.
 
@@ -39,9 +41,9 @@ O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** 
 
 ## <a name="sharepoint"></a>SharePoint
 
-Você pode salvar um arquivo em uma pasta designada do SharePoint. Para definir o servidor padrão do SharePoint, Acesse **Administração da organização** \> **Gerenciamento de documentos** \> **Parâmetros de gerenciamento de documentos**. Na guia **SharePoint**, configure a pasta SharePoint. Em seguida, você pode selecioná-la como a pasta na qual a saída do ER será salva. O local do **SharePoint** deve ser selecionado nesse tipo de documento.
+Você pode salvar um arquivo em uma pasta designada do SharePoint. Para definir o servidor padrão do SharePoint, vá para **Administração da organização** \> **Gerenciamento de documentos** \> **Parâmetros de gerenciamento de documentos**. Na guia **SharePoint**, configure a pasta SharePoint. Em seguida, você pode selecioná-la como a pasta na qual a saída do ER será salva. O local do **SharePoint** deve ser selecionado nesse tipo de documento.
 
-[![Selecionando uma pasta do SharePoint.](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
+[![Selecionando uma pasta do SharePoint](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
 
 ## <a name="azure-storage"></a>Armazenamento do Azure
 
@@ -55,6 +57,3 @@ Quando o local do tipo de documento é definido como **Armazenamento do Azure**,
 - [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 - [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
 - [Configurar gerenciamento de documentos](../../fin-ops/organization-administration/configure-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

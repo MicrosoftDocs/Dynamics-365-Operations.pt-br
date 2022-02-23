@@ -1,10 +1,12 @@
 ---
 title: Estados de ciclo de vida de ativo
 description: Este tópico explica os estados de ciclo de vida de ativo e os modelos do ciclo de vida no Asset Management.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722454"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016543"
 ---
 # <a name="asset-lifecycle-states"></a>Estados de ciclo de vida de ativo
 
@@ -61,12 +63,9 @@ Após a criação dos estados de ciclo de vida do ativo necessários, você pode
 
 5. Na Guia Rápida **Estados de ciclo de vida**, selecione os estados de ciclo de vida de ativo que devem ser incluídos no modelo de ciclo de vida de ativo:
 
-    - Para usar um estado de ciclo de vida para o modelo, selecione-o na seção **Estados de ciclo de vida restantes** e selecione o botão de ![seta para a direita.](media/15-setup-for-objects.png) para movê-lo para a seção **Estados do ciclo de vida selecionado**.
-    - Para usar todos os estados de ciclo de vida disponíveis para o modelo, selecione o botão **Todos os estados de ciclo de vida disponíveis** ![Todos os estados de ciclo de vida disponíveis.](media/20-setup-for-objects.png). Todos os estados de ciclo de vida são transferidos para a seção **Estados de ciclo de vida selecionados**.
-    - Para remover um estado de ciclo de vida do modelo, selecione-o na seção **Estados de ciclo de vida selecionados** e selecione o botão de ![seta para a esquerda.](media/16-setup-for-objects.png) para movê-lo para a seção **Estados do ciclo de vida restantes**.
+    - Para usar um estado de ciclo de vida para o modelo, selecione-o na seção **Estados de ciclo de vida restantes** e selecione o botão de seta para a direita ![Seta para a direita](media/15-setup-for-objects.png) para movê-lo até a seção **Estados de ciclo de vida selecionados**.
+    - Para usar todos os estados de ciclo de vida disponíveis para o modelo, selecione o botão **Todos os estados de ciclo de vida disponíveis** ![Todos os estados de ciclo de vida disponíveis](media/20-setup-for-objects.png). Todos os estados de ciclo de vida são transferidos para a seção **Estados de ciclo de vida selecionados**.
+    - Para remover um estado de ciclo de vida do modelo, selecione-o na seção **estados de ciclo de vida selecionados** e selecione o botão de seta para a esquerda ![Seta para a esquerda](media/16-setup-for-objects.png) para movê-lo até a seção **Estados de ciclo de vida restantes**.
 
 6. Selecione **Atualizações do estado de ciclo de vida** para definir os estados de ciclo de vida de ativo que possam acompanhar um estado de ciclo de vida selecionado.
 7. Use a Guia Rápida **Estado de ativo** se você lidar com ativos recebidos para reparo. Na seção **Entrada/saída**, é possível selecionar estados de ciclo de vida de ativo para indicar o fluxo de trabalho de um ativo recebido para reparo. Se oferecer ativos de empréstimo a clientes ou departamentos, na seção **Empréstimo** , você poderá selecionar estados de ciclo de vida para ativos de empréstimo.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

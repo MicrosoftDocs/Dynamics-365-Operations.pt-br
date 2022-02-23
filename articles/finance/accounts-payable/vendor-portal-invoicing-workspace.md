@@ -2,25 +2,28 @@
 title: Espaço de trabalho de faturamento de colaboração do fornecedor
 description: Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 972edcafb415e272c224b6cce8878769de503b9a278c7de3d003327d5e0c451e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 626607814d6c747d74a13de284db097f0efd8a0c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722734"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440184"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento de colaboração do fornecedor
 
@@ -31,7 +34,8 @@ Este tópico explica como podem exibir faturas de fornecedor e enviar notas fisc
 O espaço de trabalho **Faturamento de colaboração de fornecedor** pode ser usado para exibir informações de fatura de fornecedor e enviar faturas ao sistema usando recursos de fluxo de trabalho.
 
 
-## <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento da colaboração de fornecedores
+<a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento da colaboração de fornecedores
+----------------------------------------
 
 ### <a name="summary-tiles"></a>Blocos do resumo
 
@@ -58,6 +62,3 @@ Para obter mais informações, consulte [Colaboração de fornecedores com forne
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

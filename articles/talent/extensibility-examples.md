@@ -79,6 +79,3 @@ Para baixar o **Aplicativo Referral**, acesse a solução de extensibilidade do 
 
 [A Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [Migrar aplicativos entre locatários e ambientes](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

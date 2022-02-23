@@ -1,30 +1,34 @@
 ---
 title: Preços de venda de subscrição
 description: Quando você cria uma subscrição, o preço de venda é derivado da configuração do preço de venda criada no formulário Subscrição do preço de venda.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASalespriceSubscription
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd63fc290263babafabd6e29441f008d0cf10e13
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f03efbbca4fc9da76c6ead7566457beb79c8c249
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569976"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422107"
 ---
-# <a name="subscription-sales-prices"></a>Preços de venda de subscrição
+# <a name="subscription-sales-prices"></a>Preços de venda de subscrição   
 
 [!include [banner](../includes/banner.md)]
+
 
 Quando você cria uma subscrição, o preço de venda é derivado da configuração do preço de venda criada no formulário **Subscrição do preço de venda**.
 
@@ -32,14 +36,14 @@ No formulário **Subscrição do preço de venda**, você pode criar preços de 
 
 Se o código de período e a moeda forem idênticos para ambas a subscrição e o preço de venda, os preços de venda da subscrição serão selecionados com base nas prioridades listadas na tabela a seguir. Uma célula em branco na tabela indica um campo vazio e um X indica um valor igual ao valor na subscrição da qual a transação é gerada.
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -119,6 +123,7 @@ Se o código de período e a moeda forem idênticos para ambas a subscrição e 
 </tbody>
 </table>
 
+
 Quando uma taxa de subscrição é criada, o preço de venda com o maior nível de detalhe, como observado na tabela acima, é selecionado como o preço de venda da subscrição.
 
 ## <a name="update-and-index-subscription-sales-prices"></a>Atualizar e indexar preços de venda da subscrição
@@ -133,15 +138,15 @@ Quando você cria uma taxa de subscrição, o preço de venda se baseia na confi
 
 Você deseja configurar preços de venda da subscrição de EUR 500 para um novo projeto 9030. No formulário **Preço de venda (subscrição)**, crie uma linha de preço de venda de subscrição como indicado na tabela.
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -172,14 +177,14 @@ Observe que os campos **Categoria** e **Subscrição** estão vazios.
 
 Então, você cria as seguintes subscrições.
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -224,14 +229,14 @@ Taxas de subscrição com um preço de venda de EUR 500 são criadas para as dua
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -272,15 +277,15 @@ Taxas de subscrição com um preço de venda de EUR 500 são criadas para as dua
 
 Posteriormente, você decide que deseja especificar preços de venda para a categoria SubCat1 para o projeto 9030. Assim, cria uma nova linha de preço de venda com um preço de venda de EUR 550 para a combinação do projeto 9030 e a categoria de taxa SubCat1. Há agora duas linhas de preço de venda de subscrição para o projeto 9030, conforme mostrado na tabela.
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -315,18 +320,19 @@ Posteriormente, você decide que deseja especificar preços de venda para a cate
 </tbody>
 </table>
 
+
 Repita o procedimento descrito acima para criar taxas de subscrição para as duas subscrições no grupo de subscrições Sub1. A tabela a seguir mostra as transações criadas para cada subscrição associada ao grupo de subscrições.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -364,10 +370,13 @@ Repita o procedimento descrito acima para criar taxas de subscrição para as du
 </tbody>
 </table>
 
+
 Na primeira transação da subscrição 00020\_135, o preço de venda de EUR 550 é derivado do preço de venda da subscrição configurado para a combinação do projeto e da categoria específicos. Na segunda transação da subscrição 00021\_135, o preço de venda de EUR 500 é usado como preço de venda da subscrição do projeto porque não há um preço configurado para a combinação do projeto 9030 e da categoria SubCat2.
 
 ## <a name="see-also"></a>Consulte também
 
 [Atualizar e indexar preços de venda da subscrição](update-and-index-subscription-sales-prices.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

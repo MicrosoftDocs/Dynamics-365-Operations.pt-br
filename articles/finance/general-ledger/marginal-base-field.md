@@ -1,26 +1,29 @@
 ---
 title: Determinando as alíquotas de imposto com base nos campos Base marginal e Métodos de cálculo
 description: Este tópico explica como os valores com base no método de cálculo marginais dos campos determinam as taxas de impostos sobre vendas e as transações de compra.
-author: kailiang
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55fc5416bafe63d8c32bc19359b4e8ba75b372de
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 8617785ea969f9f4facaccdf81cfaf5344c30839
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727027"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440262"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Determinando as alíquotas de imposto com base nos campos Base marginal e Métodos de cálculo
 
@@ -183,6 +186,3 @@ Para obter mais informações, consulte [Opções de cálculo de intervalo e val
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

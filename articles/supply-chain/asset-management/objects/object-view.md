@@ -1,10 +1,12 @@
 ---
 title: Exibir ativo
 description: Este tópico descreve a exibição de ativos no Asset Management.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTree, EntAssetFunctionalLocationTree
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0256cc86dc306c8addb37d2c8f335470b19177a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765529"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019395"
 ---
 # <a name="asset-view"></a>Exibir ativo
 
@@ -45,6 +47,3 @@ ID de local funcional/ID de local funcional (se houver mais de um local funciona
 Se tiver selecionado um ativo na exibição de árvore, você poderá selecionar **Solicitações ativos** ou **Ordens de serviço ativas** para exibir as solicitações de manutenção ou ordens de serviço relacionadas ao ativo. Você também pode selecionar **Abrir** \> **Localização funcional**, **Ativo** ou **BOM de ativos** para abrir a exibição relacionada.
 
 A opção **Locais funcionais de ativo** que você pode selecionar no campo **Exibir** também está disponível em uma pesquisa de ativos onde você pode selecionar um ativo. O modo de exibição de árvore é mostrado em uma guia **Exibição de ativos**, por exemplo, onde você [cria um ativo](../objects/create-an-object.md), cria uma solicitação de manutenção ou cria uma ordem de serviço.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

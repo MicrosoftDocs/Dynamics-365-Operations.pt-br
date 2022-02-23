@@ -1,10 +1,12 @@
 ---
 title: Ordens de serviço criadas manualmente
 description: Este tópico explica como criar ordens de serviço manualmente no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750091"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017859"
 ---
 # <a name="manually-created-work-orders"></a>Ordens de serviço criadas manualmente
 
@@ -111,7 +113,7 @@ Você pode criar uma ordem de serviço relacionada a uma ordem de serviço exist
 
 A ilustração a seguir mostra um exemplo da caixa de diálogo **Criar ordem de serviço relacionada**.
 
-![Figura 1.](media/03-work-orders.png)
+![Figura 1](media/03-work-orders.png)
 
 >[!NOTE]
 >Se você configurou uma máscara da ordem de serviço relacionada em **Parâmetros de gerenciamento de ativos** > guia **Ordens de serviço** > campo **Máscara da ordem de serviço relacionada**, as IDs da ordem de serviço serão criadas de acordo com a configuração da máscara. Se nenhuma máscara da ordem de serviço relacionada estiver configurada, a próxima ID da ordem de serviço disponível será usada para ordens de serviço relacionadas.
@@ -137,7 +139,7 @@ A ilustração a seguir mostra um exemplo da caixa de diálogo **Criar ordem de 
 
 A ilustração a seguir mostra um exemplo da caixa de diálogo **Copiar ordem de serviço**.
 
-![Figura 2.](media/04-work-orders.png)
+![Figura 2](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Criar uma ordem de serviço com base em uma solicitação de manutenção
@@ -157,12 +159,9 @@ A ilustração a seguir mostra um exemplo da caixa de diálogo **Copiar ordem de
 
 A ilustração a seguir mostra um exemplo da caixa de diálogo **Criar ordem de serviço**.
 
-![Figura 3.](media/05-work-orders.png)
+![Figura 3](media/05-work-orders.png)
 
 
 >[!NOTE]
 >Se quiser que as ordens de serviço sejam criadas automaticamente, você pode agendar trabalhos de plano de manutenção ou pode configurar a opção de criação automática de [planos de manutenção](../preventive-and-reactive-maintenance/maintenance-plans.md) ou [rounds de manutenção](../preventive-and-reactive-maintenance/maintenance-rounds.md) em um ativo. As ordens de serviço criadas com base em solicitações de manutenção na página de listagem **Todos os agendamentos de manutenção** possuem os tipos de trabalho de manutenção selecionados nas solicitações de manutenção.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

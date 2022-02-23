@@ -2,12 +2,15 @@
 title: Atualizar processo
 description: O Microsoft Dynamics 365 Human Resources é um software como serviço (SaaS) que disponibiliza atualizações de serviço contínuas e touchless para alterações de aplicação e plataforma.
 author: andreabichsel
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2af1f710ca010041bd684bca8ecfa6f20ac30d46
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063101"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527788"
 ---
 # <a name="update-process"></a>Atualizar processo
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 O Microsoft Dynamics 365 Human Resources é um software como serviço (SaaS) que disponibiliza atualizações de serviço contínuas e touchless. Essas atualizações contêm alterações no aplicativo e na plataforma, que geralmente oferecem melhorias cruciais para o serviço, incluindo atualizações regulatórias.
 
@@ -38,11 +39,11 @@ As atualizações são lançadas regularmente para todos os ambientes. O Human R
 
 As atualizações do Human Resources são aplicadas a todos os ambientes automaticamente. O Human Resources oferece dois tipos de versão:
 
-- **Atualizações de serviço**: atualizações ocorrem a cada duas semanas e incluem correções de bugs e novos recursos. As atualizações de serviço também incluem atualizações de Plataforma aplicáveis quando são lançadas. Para ter uma ideia de quando as atualizações de Plataforma serão lançadas, consulte [Tabela 3: versões da plataforma](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). As atualizações quinzenais têm uma distribuição global em etapas entre regiões. Para obter mais informações sobre atualizações quinzenais, consulte [Novidades ou alterações do Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Atualizações de serviço**: atualizações ocorrem a cada duas semanas e incluem correções de bugs e novos recursos. As atualizações de serviço também incluem atualizações de Plataforma aplicáveis quando são lançadas. Para ter uma ideia de quando as atualizações de Plataforma serão lançadas, consulte [Tabela 3: versões da plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). As atualizações quinzenais têm uma distribuição global em etapas entre regiões. Para obter mais informações sobre atualizações quinzenais, consulte [Novidades ou alterações do Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Todos os data centers compatíveis são atualizados a cada duas semanas, salvo indicação em contrário. As regiões EUA, Austrália, Europa, Reino Unido, Ásia e Canadá estão inclusas nas atualizações quinzenais. 
 
-- **Atualizações de soluções do Dataverse**: essas atualizações ocorrem aproximadamente a cada seis semanas, conforme a necessidade. Elas incluem novas entidades e alterações às entidades existentes no Dataverse. Essas atualizações são lançadas nas mesmas regiões como as atualizações quinzenais, e levam até seis semanas para serem replicadas em todos os data centers. As atualizações da solução podem ou não estar alinhadas às atualizações de serviço quinzenais.
+- **Atualizações de soluções do Common Data Service**: essas atualizações ocorrem aproximadamente a cada seis semanas, conforme a necessidade. Elas incluem novas entidades e alterações às entidades existentes no Common Data Service. Essas atualizações são lançadas nas mesmas regiões como as atualizações quinzenais, e levam até seis semanas para serem replicadas em todos os data centers. As atualizações da solução podem ou não estar alinhadas às atualizações de serviço quinzenais.
 
 > [!NOTE]
 > As atualizações de solução ficam disponíveis em todos os data centers após serem lançadas. Caso não queira esperar as atualizações serem replicadas automaticamente, você pode aplicá-las manualmente em qualquer ambiente ou data center.
@@ -55,14 +56,14 @@ Quando necessário, o Human Resources também oferece os seguintes tipos de corr
 
 As versões são analisadas, testadas e validadas em um ambiente interno. Após as compilações serem aprovadas, elas são implementadas na produção.
 
-## <a name="release-cadence-exceptions-in-2021"></a>Exceções de cadência da versão em 2021
+## <a name="release-cadence-exceptions-in-2020"></a>Exceções de cadência da versão em 2020
 
-Para contabilizar feriados, a agenda de lançamentos para novembro e dezembro de 2021 é a seguinte:
+Para contabilizar feriados, a agenda de lançamentos para novembro e dezembro de 2020 é a seguinte:
 
-- Lançamento de novembro: 1 de novembro - 14 de novembro
-- Lançamento de dezembro: 29 de novembro - 12 de dezembro
+- Lançamento de novembro: 2 de novembro - 13 de novembro
+- Lançamento de dezembro: 30 de novembro - 11 de dezembro
  
-A cadência de lançamentos de duas semanas será retomada normalmente em 10 de janeiro de 2022.
+A cadência de lançamentos de duas semanas será retomada normalmente em 11 de janeiro de 2021.
 
 ## <a name="communications"></a>Comunicações
 
@@ -70,11 +71,11 @@ Descubra as novidades do Human Resources e o que já foi lançado em:
 
 - [Dynamics 365 Human Resources roteiro](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Planos de Versão do Dynamics 365](/dynamics365/release-plans/)
+- [Planos de Versão do Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
 
 - [Novidades ou alterações no Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [Pesquisa de problemas no Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (somente para bugs relacionados à Plataforma)
+- [Pesquisa de problemas no Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (somente para bugs relacionados à Plataforma)
 
 - [Blog do Human Resources](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -82,7 +83,7 @@ Descubra as novidades do Human Resources e o que já foi lançado em:
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Versões prévias do recurso em um ambiente de área restrita
 
-Você pode validar as versões prévias do recurso em um ambiente de área restrita antes de habilitá-las no ambiente de produção. Para obter mais informações sobre como habilitar os recursos, consulte [Visão geral do gerenciamento de recursos](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Você pode validar as versões prévias do recurso em um ambiente de área restrita antes de habilitá-las no ambiente de produção. Para obter mais informações sobre como habilitar os recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 Todos os novos recursos permanecerão em versão prévia por pelo menos 30 dias e, em geral, por 30 a 60 dias. Os recursos principais estão disponíveis geralmente em outubro e abril de cada ano a partir do período de versão prévia. Assim que vir novos recursos no espaço de trabalho Gerenciamento de recursos, você poderá ativá-los. Alguns recursos podem ser ativados por padrão.
 
@@ -100,10 +101,7 @@ Enquanto estiver testando as versões prévias do recurso ou experimentando nova
 
 ## <a name="see-also"></a>Consulte também
 
-[Planos de Versão do Dynamics 365 e Power Platform](/dynamics365/release-plans)</br>
+[Planos de Versão do Dynamics 365 e Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
 [Novidades ou alterações no Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
-[Política de ciclo de vida do software - Nuvem](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
+[Política de ciclo de vida do software - Nuvem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

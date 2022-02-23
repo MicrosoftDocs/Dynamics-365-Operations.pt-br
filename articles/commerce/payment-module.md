@@ -2,24 +2,27 @@
 title: Módulo de pagamento
 description: Este tópico abrange o módulo do pagamento e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/07/2022
+manager: annbe
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 27b73f7a05605e4e3ee8f8b72400172b7a8bfc33
+ms.sourcegitcommit: ec78608eb96478b7a57928b60aece129d6799c5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952460"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4581903"
 ---
 # <a name="payment-module"></a>Módulo de pagamento
 
@@ -46,9 +49,9 @@ O conector de pagamento de Adyen também dá suporte à Autenticação de Client
 
 A ilustração a seguir mostra um exemplo dos módulos de pagamento vale-presente, fidelidade e Adyen em uma página de finalização de compra.
 
-![Exemplo dos módulos de pagamento vale-presente, fidelidade e Adyen em uma página de finalização de compra.](./media/ecommerce-payments.PNG)
+![Exemplo dos módulos de pagamento vale-presente, fidelidade e Adyen em uma página de finalização de compra](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector para PayPal
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Conector de Pagamento do Dynamics 365 para PayPal
 
 A partir do Commerce versão 10.0.14, o módulo de pagamento também foi integrado ao Conector de Pagamento do Dynamics 365 para PayPal. Para obter mais informações sobre como configurar esse conector de pagamento, consulte [Conector de Pagamento do Dynamics 365 para PayPal](paypal.md).
  
@@ -59,10 +62,10 @@ Quando o módulo de pagamento for configurado para usar o conector de pagamento 
 O conector de pagamento PayPal não requer um módulo de endereço de cobrança porque todas as informações relacionadas à cobrança são tratadas pelo PayPal em seu iFrame. No entanto, os módulos de endereço de remessa e opções de entrega são necessários.
 
 A ilustração a seguir mostra um exemplo de dois módulos de pagamento em uma página de finalização de compra, um configurado com o conector de pagamento Adyen e o outro com o conector de pagamento PayPal.
-![Exemplo de módulos de pagamento com Adyen e PayPal em uma página de finalização de compra.](./media/ecommerce-paypal.png)
+![Exemplo de módulos de pagamento com Adyen e PayPal em uma página de finalização de compra](./media/ecommerce-paypal.png)
 
 A ilustração a seguir mostra um exemplo do iFrame do PayPal invocado usando o botão PayPal. 
-![Exemplo de iFrame do Paypal em uma página de finalização de compra.](./media/ecommerce-paypal-iframe.png)
+![Exemplo de iFrame do Paypal em uma página de finalização de compra](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Propriedades de módulo de pagamento
 
@@ -72,11 +75,11 @@ A ilustração a seguir mostra um exemplo do iFrame do PayPal invocado usando o 
 | Altura do iFrame | Pixels | A altura do iFrame, em pixels. A altura pode ser ajustada conforme necessário. |
 | Mostrar o endereço de cobrança | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **Verdadeiro**, o endereço de cobrança será fornecido por Adyen no módulo de pagamento iFrame. Se for definida como **Falso**, o endereço de cobrança não será fornecido por Adyen e um usuário do Commerce deverá configurar um módulo para mostrar o endereço de cobrança na página de finalização de compra. Para o conector de pagamento PayPal, esse campo não tem impacto, pois o endereço de cobrança é totalmente tratado no PayPal. |
 | Substituição do estilo de pagamento | Código de folhas de estilo em cascata (CSS) | Como o módulo de pagamento está hospedado em um iFrame, há capacidade de estilo limitada. Você pode obter algum estilo usando essa propriedade. Para substituir estilos de site, você deve colar o código de CSS como o valor dessa propriedade. As substituições e os estilos de criação de sites CSS não se aplicam a este módulo. |
-|Tipos de meio de pagamento com suporte| Sequência de caracteres| Se vários conectores de pagamento estiverem configurados, você deverá fornecer a cadeia de caracteres do tipo de meio de pagamento com suporte, conforme definido na configuração do conector de pagamento do Commerce headquarters (consulte a seguinte imagem). Se estiver em branco, o padrão será o conector de pagamento Adyen. Adicionado ao Commerce Release 10.0.14.|
+|Tipos de meio de pagamento com suporte| Sequência de caracteres| Se vários conectores de pagamento estiverem configurados, você deverá fornecer a cadeia de caracteres do tipo de meio de pagamento com suporte, conforme definido na configuração do conector de pagamento na sede do Commerce (consulte a seguinte imagem). Se estiver em branco, o padrão será o conector de pagamento Adyen. Adicionado ao Commerce Release 10.0.14.|
 |É pagamento principal|  **Verdadeiro** ou **Falso** | Se **Verdadeiro**, as mensagens de erro serão geradas a partir do conector de pagamento principal na página de finalização de compra. Se os conectores de pagamento Adyen e PayPal estiverem configurados, defina Adyen como **Verdadeiro**, que foi adicionado no Commerce versão 10.0.14.|
 
 A ilustração a seguir mostra um exemplo do valor **Tipos de meio de pagamento com suporte** definido como "PayPal" na configuração do conector de pagamento na sede do Commerce.
-![Exemplo de tipos de meio de pagamento com suporte na sede do Commerce.](./media/ecommerce-paymenttendertypes.png)
+![Exemplo de tipos de meio de pagamento com suporte na sede do Commerce](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Endereço para cobrança
 
@@ -90,24 +93,7 @@ Semelhante aos módulos de pagamento, uma propriedade **Tipos de meio de pagamen
 
 Um módulo de pagamento pode ser adicionado somente a um módulo de check-out. Para obter mais informações sobre como configurar um módulo de pagamento para uma página de check-out, consulte [Módulo de check-out](add-checkout-module.md).
 
-## <a name="configure-the-adyen-and-paypal-payment-connectors-when-both-are-used"></a>Configurar os conectores de pagamento Adyen e PayPal quando ambos forem usados
-
-Se os conectores de pagamento Adyen e PayPal forem usados para o seu site, siga estas etapas no construtor de sites do Commerce para adicionar módulos de pagamento para cada conector ao módulo de finalização de compra e configure as propriedades de cada módulo.
-
-1. No painel de propriedades do módulo de pagamento do PayPal, siga estas etapas:
-
-    1. No campo da propriedade **Tipos de meio de pagamento com suporte**, digite **PayPal**.
-    1. Desmarque a caixa de seleção da propriedade **É pagamento principal**.
-    1. Marque a caixa de seleção da propriedade **Usar ID do conector**.
-
-1. No painel de propriedades do módulo de pagamento do Adyen, siga estas etapas:
-
-    1. Deixe o campo da propriedade **Tipos de meio de pagamento com suporte** em branco.
-    1. Marque a caixa de seleção da propriedade **É pagamento principal**.
-    1. Marque a caixa de seleção da propriedade **Usar ID do conector**.
-
-> [!NOTE]
-> Ao configurar os conectores Adyen e PayPal para serem usados juntos, a configuração do **Dynamics 365 Payment Connector para Adyen** deve estar na primeira posição na configuração do conector de **Contas de pagamento** do canal online no Commerce Headquarters. Para confirmar ou alterar a ordem de conector, vá para **Lojas Online** e selecione o canal do site. Em seguida, na guia **Configurar**, na Guia Rápida **Contas de pagamento**, em **Conector**, verifique se a configuração do **Dynamics 365 Payment Connector para Adyen** está na primeira posição (ou seja, na linha superior) e se a configuração do **Dynamics 365 Payment Connector para PayPal** está na segunda linha. Adicione ou remova conectores, conforme necessário, para reordenar.
+Se os conectores de pagamento Adyen e PayPal forem necessários, adicione os dois módulos à seção de pagamento. Verifique se o valor da propriedade **Tipos de meio de pagamento com suporte** está configurado para PayPal e deixe-o em branco para Adyen. Além disso, defina a propriedade **É pagamento principal** como **Verdadeiro** para Adyen.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -132,6 +118,3 @@ Se os conectores de pagamento Adyen e PayPal forem usados para o seu site, siga 
 [Conector de Pagamento do Dynamics 365 para PayPal](paypal.md)
 
 [Autenticação de Cliente Forte usando o Adyen](adyen_redirect.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

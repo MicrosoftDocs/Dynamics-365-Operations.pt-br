@@ -2,24 +2,27 @@
 title: Configurar descrições padrão para lançamento automático
 description: Este tópico explica como configurar o texto padrão que é usado para descrever entradas de contabilidade lançadas automaticamente na contabilidade. Você pode configurar o texto padrão de descrição usando o texto livre ou selecionando variáveis fixas.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722686"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440182"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Configurar descrições padrão para lançamento automático
 
@@ -32,7 +35,7 @@ Este tópico explica como configurar o texto padrão que é usado para descrever
 
 ## <a name="set-up-default-descriptions"></a>Configurar descrições padrão
 
-1. Acesse **Administração da organização** \> **Configuração** \> **Descrições padrão**.
+1. Vá para **Administração da organização** \> **Configuração** \> **Descrições padrão**.
 2. No Painel de Ações, selecione **Novo**.
 3. No campo **Descrição**, selecione o tipo de transação para o qual uma descrição padrão será criada.
 4. No campo **Idioma**, selecione o idioma para o qual esta descrição será aplicada.
@@ -84,6 +87,3 @@ Depois de concluir as etapas na seção [Definir descrições padrão](#set-up-d
 2. No campo **Tabela de referência**, selecione a tabela de banco de dados da qual os dados de parâmetros serão adicionados à descrição.
 3. No campo **Tabela de referência**, selecione o campo do qual os dados de parâmetros serão adicionados à descrição.
 4. Repita as etapas 1 a 3 para adicionar mais parâmetros.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

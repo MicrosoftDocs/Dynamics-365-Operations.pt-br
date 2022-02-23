@@ -2,9 +2,11 @@
 title: Criar um perfil de funcionalidade online
 description: Este tópico descreve como criar um perfil de funcionalidade online no Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b0afeabfecb60672156692f3cd809445624020c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716185"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969967"
 ---
 # <a name="create-an-online-functionality-profile"></a>Criar um perfil de funcionalidade online
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico apresenta uma visão geral da configuração de um perfil de funcionalidade online para o Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 O perfil de funcionalidade online fornece várias configurações usadas em canais online. Cada canal online deve especificar um perfil de funcionalidade online.
 
@@ -33,7 +38,7 @@ O perfil de funcionalidade online fornece várias configurações usadas em cana
 
 O procedimento a seguir explica como criar um perfil de funcionalidade online no aplicativo da sede do Commerce.
 
-1. No painel de navegação, Acesse **Módulos \> Configuração de canal \> Configuração de loja online \> Perfis de funcionalidade**.
+1. No painel de navegação, vá para **Módulos \> Configuração de canal \> Configuração de loja online \> Perfis de funcionalidade**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **Perfil**, insira uma ID para o perfil.
 1. No campo **Descrição**, insira um valor ("perfil da Adventure Works" no exemplo da imagem abaixo).
@@ -42,7 +47,7 @@ O procedimento a seguir explica como criar um perfil de funcionalidade online no
 
 A imagem a seguir mostra um exemplo de perfil de funcionalidade online.
   
-![Exemplo de perfil de funcionalidade online.](media/online-functionality-profile.png)
+![Exemplo de perfil de funcionalidade online](media/online-functionality-profile.png)
 
 ## <a name="functions"></a>Funções
 
@@ -61,6 +66,3 @@ A imagem a seguir mostra um exemplo de perfil de funcionalidade online.
 [Configurar um canal de varejo](channel-setup-retail.md)
 
 [Configurar um canal de call center](channel-setup-callcenter.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

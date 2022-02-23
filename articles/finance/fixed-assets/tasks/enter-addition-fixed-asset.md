@@ -2,23 +2,26 @@
 title: Digitar um acréscimo a um ativo fixo
 description: Este procedimento mostra como adicionar um acréscimo a um ativo fixo existente.
 author: saraschi2
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 966fd191ad876aae86ff2511d6981b0437679becbe4984b087c1975dece351b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dc1e13863ae13daaa641f52f7a55e01fc1353dc1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742944"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440364"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Digitar um acréscimo a um ativo fixo
 
@@ -28,7 +31,7 @@ Este procedimento mostra como adicionar um acréscimo a um ativo fixo existente.
 
 O procedimento usa a função de contador e os dados de demonstração da entidade legal de USMF.
 
-1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
+1. No Painel de navegação, vá para **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
 2. Na lista, localize e selecione o ativo fixo que você deseja adicionar.
 3. Na lista, clique no link na linha selecionada.
 4. No Painel de Ação, clique em **Ativo fixo**.
@@ -43,6 +46,3 @@ O procedimento usa a função de contador e os dados de demonstração da entida
     * Defina **Aumenta a vida útil** como **Sim** se a adição aumentar a vida útil do ativo.  
     * Este campo serve somente para informar. Para aumentar a vida útil, modifique a vida útil nos métodos de depreciação e/ou registros de depreciações para o ativo.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

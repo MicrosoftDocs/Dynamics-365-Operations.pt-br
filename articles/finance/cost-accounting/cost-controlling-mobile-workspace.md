@@ -2,25 +2,28 @@
 title: Espaço de trabalho móvel de controle de custo
 description: Este tópico fornece informações sobre o espaço de trabalho móvel do controle de custos. Este espaço de trabalho permite que gerentes de centro de custos exibam informações sobre desempenho de centro de custo a qualquer momento e em qualquer lugar.
 author: AndersGirke
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 267114
 ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cd86fdf640e59885e5e8aea841dc1c1c9604825b0f18d3b741c5a2777f8e9ff8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4fc35feb4f3a67ba9c8c70c2d2f8c07cb944b0f6
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728784"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440573"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Espaço de trabalho móvel de controle de custo
 
@@ -70,13 +73,13 @@ O espaço de trabalho móvel **Controle de custo** fornece as seguintes ações,
 
     Quando você seleciona um link, um cartão será mostrado para cada elemento de custo. Os valores a seguir são mostrados em cada cartão: Real, Orçamento, Variação do Orçamento, % de Variação do Orçamento, Orçamento revisado, Variação do Orçamento Revisado e % de Variação do Orçamento Revisado.
     
-    [![Cartão de um elemento de custo.](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    [![Cartão de um elemento de custo](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 Finance
-Se o Finance foi implantado na organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Controle de custo**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Se o Finance foi implantado na organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Controle de custo**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usa a versão 1611 com a atualização de plataforma 3 ou posterior
 Se a versão 1611 com a atualização de plataforma 3 ou posterior foi implantada na organização, o administrador do sistema deve atender aos seguintes pré-requisitos.
@@ -96,17 +99,17 @@ Se a versão 1611 com a atualização de plataforma 3 ou posterior foi implantad
 
 <td>O KB 4013633 é uma atualização X++ ou hotfix de metadados que contém o espaço de trabalho móvel de <strong>Controle de custo</strong>. Para implementar o KB 4013633, o administrador do sistema deve seguir estas etapas.
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixe o hotfix de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicar o pacote implantável</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Baixe o hotfix de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalar o hotfix de metadados</a>.</li>
+<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
+<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar o pacote implantável</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publicar o espaço de trabalho móvel do <strong>Controle de custo</strong>.</td>
 <td>Administrador do sistema</td>
-<td>Consulte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar um espaço de trabalho móvel</a>.</td>
+<td>Consulte <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publicar um espaço de trabalho móvel</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -125,7 +128,7 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 3.  Na primeira vez que você iniciar a sessão, será solicitado o nome de usuário e a senha. Insira suas credenciais.
 4.  Depois de entrar, serão exibidos os espaços de trabalho disponíveis da sua empresa. Observe que se o seu administrador de sistema publica um novo espaço de de trabalho depois, você terá que atualizar a lista dos espaços de trabalho móveis.
 
-[![Efetue pull para atualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Efetue pull para atualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>Exiba o desempenho do seu centro de custos usando o espaço de trabalho móvel de controle de custo.
 
@@ -142,6 +145,3 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 11. Exiba o desempenho dos elementos de custo individuais.
 12. Você também pode pesquisar elementos de custo específicos.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

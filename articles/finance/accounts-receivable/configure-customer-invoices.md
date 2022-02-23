@@ -1,26 +1,29 @@
 ---
 title: Criar uma fatura de cliente
-description: Uma fatura de cliente para uma ordem de venda é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente.
+description: Uma **fatura de cliente para uma ordem de venda** é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+manager: AnnBe
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 0f5b9866fc7afba205b84b372c6a204ec4c8f64d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087414"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440220"
 ---
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 
@@ -42,23 +45,6 @@ Para obter mais informações, consulte:
 
 
 Uma **fatura pro forma** é uma fatura preparada como uma previsão dos valores da fatura real antes de a fatura ser lançada. Você pode imprimir uma fatura pro forma de uma fatura de cliente de uma ordem de venda ou de uma fatura de texto livre.
-
-## <a name="using-sales-order-customer-invoice-data-entities"></a>Usar entidades de dados de fatura de cliente de ordem de venda
-Você pode usar entidades de dados para importar e exportar informações sobre uma fatura de cliente para uma ordem de venda. Há entidades diferentes para as informações no cabeçalho da fatura de venda e nas linhas da fatura de venda.
-
-As seguintes entidades estão disponíveis para as informações no cabeçalho da fatura de venda:
-
-- Entidade **Cabeçalho de diário de fatura de venda** (SalesInvoiceJournalHeaderEntity)
-- Entidade **Cabeçalhos de fatura de venda V2** (SalesInvoiceHeaderV2Entity)
-
-É recomendável usar a entidade **Cabeçalho de diário de fatura de venda**, pois ela fornece uma experiência melhor para importação e exportação de cabeçalho de venda. Esta entidade não contém a coluna **Valor do imposto** (INVOICEHEADERTAXAMOUNT), que representa o valor do imposto no cabeçalho da fatura de venda. Se o cenário de negócios exigir essas informações, use a entidade **Cabeçalhos de fatura de venda V2** para importar e exportar as informações de cabeçalho da fatura de venda.
-
-As seguintes entidades estão disponíveis para as informações em linhas de fatura de venda:
-
-- Entidade **Linhas de fatura de cliente** (BusinessDocumentSalesInvoiceLineItemEntity)
-- Entidade **Linhas de fatura de venda V3** (SalesInvoiceLineV3Entity)
-
-Ao determinar a entidade de linha a ser usada para exportações, considere se um push completo ou um push incremental será usado. Além disso, considere a composição de dados. A entidade **Linhas de fatura de venda V3** oferece suporte a cenários mais complexos (por exemplo, mapeamento para os campos de estoque). Ele também oferece suporte a cenários de exportação de push completo. Para pushes incrementais, é recomendável usar a entidade **Linhas de fatura de cliente**. Essa entidade contém uma composição de dados mais simples do que a entidade **Linhas de fatura de venda V3** e é preferencial, especialmente se a integração de campo de estoque não é necessária. Devido a diferenças no suporte a mapeamento entre as entidades de linhas, a entidade **Linhas de fatura de cliente** costuma ter um melhor desempenho do que a entidade **Linhas de fatura de venda V3**.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Lançar e imprimir faturas de clientes individuais com base em ordens de venda
 Use este processo para criar uma fatura com base em uma ordem de venda. É possível fazer isso se você decidir faturar o cliente antes de entregar as mercadorias ou os serviços. 
@@ -181,6 +167,3 @@ Os seguintes campos alteram o comportamento do processo de lançamento.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

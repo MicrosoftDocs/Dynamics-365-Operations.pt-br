@@ -1,10 +1,12 @@
 ---
 title: ​Configurar um catálogo externo para PunchOut e-procurement
 description: Este tópico descreve o uso de um catálogo externo ou catálogo PunchOut para coletar informações de cotação de um fornecedor e adicioná-lo a uma requisição.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f1065c68723baa395bc06be6313e45a44661ea3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566903"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016368"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>​Configurar um catálogo externo para PunchOut e-procurement
 
@@ -40,7 +42,7 @@ O catálogo externo deve permitir que um funcionário que insere uma requisiçã
 
 1. Configurar uma hierarquia de categorias de compras. Para obter mais informações, consulte [Configurar políticas para hierarquias de categoria de aquisição](tasks/set-up-policies-procurement-category-hierarchies.md).
 2. Registrar o fornecedor no Supply Chain Management. Antes de estabelecer as configurações para acessar o catálogo externo de um fornecedor, é necessário configurar o fornecedor e o contato do fornecedor no Microsoft Dynamics 365. O fornecedor do catálogo externo também deve ser adicionado à categoria de compras selecionada. Para obter mais informações sobre como registrar fornecedores, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md). Para obter informações sobre como atribuir fornecedores a uma categoria de aquisição, consulte [Aprovar fornecedores para categorias específicas de aquisição](tasks/approve-vendors-specific-procurement-categories.md).
-3. Certifique-se de que as unidades de medida e a moeda que o fornecedor usa estejam configuradas. Para obter informações sobre como criar uma unidade de medida, consulte [Gerenciar unidades de medida](../pim/tasks/manage-unit-measure.md).
+3. Certifique-se de que as unidades de medida e a moeda que o fornecedor usa estejam configuradas. Para obter informações sobre como criar uma unidade de medida, consulte [Gerenciar unidade de medida](../pim/tasks/manage-unit-measure.md).
 4. Configurar o catálogo externo do fornecedor usando os requisitos do site do catálogo externo do fornecedor. Para obter mais detalhes sobre essa tarefa, consulte [Configurar o catálogo de fornecedor externo](#configure-the-external-vendor-catalog).
 5. Teste as configurações do catálogo externo do fornecedor para verificar se as configurações são válidas e se você pode acessar o catálogo externo do fornecedor. Use a ação **Validar configurações** para validar a mensagem de configuração de solicitação que você definiu. Essa mensagem deve fazer com que o site do catálogo externo dos fornecedores seja aberto em uma janela do navegador. Durante a validação, você não pode encomendar itens e serviços do fornecedor. Para encomendar itens e serviços, você deve acessar o catálogo do fornecedor de uma requisição de compra.
 6. Ative o catálogo externo usando o botão **Ativar catálogo** na página **Catálogos externos**. O catálogo externo deve ser ativado antes que os funcionários possam usá-lo. Você pode desativar o catálogo externo a qualquer momento.
@@ -110,5 +112,3 @@ Se um produto do catálogo de fornecedor externo for solicitado, o catálogo de 
 
 - [Aprimoramentos ao cXML de compra](purchasing-cxml-enhancements.md)
 - [​Uso de catálogos externos para PunchOut e-procurement](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,32 @@
 title: Personalizar emails transacionais por modo de entrega
 description: Este tópico descreve como configurar modelos de email personalizados para tipos específicos de notificação e modos de entrega no Microsoft Dynamics 365 Commerce.
 author: stuharg
+manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749898"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594942"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Personalizar emails transacionais por modo de entrega
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico descreve como configurar modelos de email personalizados para tipos específicos de notificação e modos de entrega no Microsoft Dynamics 365 Commerce.
 
@@ -50,7 +54,7 @@ Para esse procedimento, a suposição é que você já tenha criado novos modelo
 
 Para configurar modelos de email para modos de entrega específicos na sede do Commerce, siga estas etapas.
 
-1. Acesse **Perfil de notificação por email do Commerce**.
+1. Vá para **Perfil de notificação por email do Commerce**.
 1. Em **Configurações de notificação de eventos de varejo**, selecione um tipo de notificação existente.
 1. Enquanto o tipo de notificação ainda estiver selecionado, selecione **Configurar modos de entrega**.
 1. Na caixa de diálogo **Modos de entrega**, selecione **Novo**.
@@ -69,6 +73,3 @@ Para configurar modelos de email para modos de entrega específicos na sede do C
 [Criar ordens de call center](tasks/create-call-center-orders.md)
 
 [Alterar modo de entrega no PDV](pos-change-delivery-mode.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

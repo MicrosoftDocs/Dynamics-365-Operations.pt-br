@@ -2,9 +2,11 @@
 title: Auditar violações de política e casos
 description: O artigo explica como os casos de auditoria são gerados de violações de regras de diretiva de auditoria. Também inclui informações sobre as diversas maneiras das políticas de auditoria usarem o intervalo de datas de seleção de documento.
 author: panolte
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 057cb8afe0da5e0810a2d1c87f7cdbe73bc88b9819ca81631d889bfa1cc55e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ddd403bfe82b1a7d3c0c5999f89bde19f1bba5e8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758092"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022096"
 ---
 # <a name="audit-policy-violations-and-cases"></a>Auditar violações de política e casos
 
@@ -28,7 +30,8 @@ ms.locfileid: "6758092"
 
 O artigo explica como os casos de auditoria são gerados de violações de regras de diretiva de auditoria. Também inclui informações sobre as diversas maneiras das políticas de auditoria usarem o intervalo de datas de seleção de documento.
 
-## <a name="how-audit-cases-are-generated"></a>Como os casos de auditoria são gerados
+<a name="how-audit-cases-are-generated"></a>Como os casos de auditoria são gerados
+-----------------------------
 
 As políticas de auditoria são usadas para identificar relatórios de despesas, ordens de compra e faturas de fornecedor que não estão de acordo com as regras comerciais que você define e configura como regras de política de auditoria. 
 
@@ -57,6 +60,3 @@ Para obter mais informações, consulte [Auditar regras da política](audit-poli
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

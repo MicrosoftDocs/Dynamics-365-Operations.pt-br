@@ -1,10 +1,12 @@
 ---
 title: Depreciação de ativo fixo
-description: Este tópico oferece uma visão geral da depreciação em Ativos fixos.
-author: moaamer
-ms.date: 12/03/2021
+description: Este tópico oferece uma visão geral da depreciação de ativos fixos.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -12,26 +14,23 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890971"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969094"
 ---
 # <a name="fixed-asset-depreciation"></a>Depreciação de ativo fixo
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico oferece uma visão geral da depreciação em Ativos fixos.
+Este tópico oferece uma visão geral da depreciação de ativos fixos.
 
 Depreciação é uma transação periódica que normalmente reduz o valor do ativo fixo no balanço e é cobrada como uma despesa em uma conta de lucros e perdas. Portanto, uma conta principal é geralmente usada para creditar a depreciação periódica no balanço. Contrapartida é uma conta na parte de lucros e perdas do plano de contas.
-
-A partir da versão 10.0.24, a opção de configuração de registro de ativos **Calcular depreciação positiva** na página **Registros** permite a depreciação para debitar um ativo fixo que é adquirido com valor contábil negativo (crédito).
 
 ## <a name="depreciation-adjustment"></a>Ajuste de depreciação
 Normalmente, apenas uma correção para uma transação de depreciação já lançada é lançada como sendo um ajuste de depreciação. Portanto, a conta principal e a contrapartida são configuradas como as contas para depreciação. Um ajuste de depreciação pode ser um valor positivo ou negativo, embora a funcionalidade da conta principal (como conta do balanço) e da contrapartida (normalmente, como conta de lucros e perdas) permaneça a mesma.
@@ -57,6 +56,3 @@ Para obter mais informações, consulte [Métodos e convenções de depreciaçã
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

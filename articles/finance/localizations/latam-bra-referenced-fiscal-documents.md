@@ -2,24 +2,27 @@
 title: Notas fiscais referenciadas para o Brasil
 description: Este tópico fornece uma visão geral de notas fiscais referenciadas usadas no Brasil.
 author: sndray
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FiscalDocument_BR, SalesEditLines, TmpFiscalReference_BR
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 270224
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a8a86a1b2184155cf21f5e98ce6e3eb7228db525cd3b80f37ed8903e58767607
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5bc9aa156dd9c3a2817ad6b1a3cc9d48e0ba006
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720484"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408440"
 ---
 # <a name="referenced-fiscal-documents-for-brazil"></a>Notas fiscais referenciadas para o Brasil
 
@@ -94,6 +97,3 @@ Os espaços reservados de texto de nota fiscal são marcas predefinidas que repr
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

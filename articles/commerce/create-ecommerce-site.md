@@ -2,9 +2,11 @@
 title: Criar um site de comércio eletrônico
 description: Este tópico descreve as etapas e informações necessárias para criar um novo site de comércio eletrônico no assistente para criação de sites do Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 02/03/2022
+manager: AnnBe
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +18,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: cf084f90d203d84c91ddf7c0d963780b895ef23d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090760"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963026"
 ---
 # <a name="create-an-e-commerce-site"></a>Criar um site de comércio eletrônico
 
@@ -48,15 +50,8 @@ Para configurar seu site, faça o seguinte.
 | Domínio                              | Selecione um nome de domínio que servirá como o domínio para essa loja online. Se você não tiver configurado quaisquer domínios no LCS, você pode deixar esse campo em branco. Depois de seu domínio ser configurado no LCS, você deve adicioná-lo em sua loja online em **Configurações de site**.  |
 | Caminho                              | Quando o site oferece suporte a mais de um idioma em determinado nome de domínio, use o campo de caminho para criar uma URL de site única para esse domínio e combinação de idioma. Se o idioma especificado no campo **Idioma padrão** é o único idioma para o qual você oferecerá suporte nesse domínio ou continuará a ser o idioma padrão após ter localizado seu site em idiomas adicionais, recomendamos que você deixe essa campo em branco. |
 
+
 Depois que o site for criado, você pode verificar se está associado ao repositório online selecionando a guia **Produtos**. Você deve verificar a classificação do produto que foi atribuída à loja online. Você também pode usar o menu suspenso na parte superior esquerda da página para acessar os produtos alocados por categoria.
-
-## <a name="rename-your-site"></a>Renomear seu site
-
-Para renomear seu site no assistente para criação de sites, siga estas etapas.
-
-1. Para abrir a exibição de lista de sites, selecione **Seletor de site** no canto superior direito e, depois, selecione **Gerenciar sites**. 
-1. Marque a caixa de seleção ao lado do site a ser renomeado e selecione **Renomear** na barra de comandos.
-1. Na caixa de diálogo **Novo nome do site**, insira o novo nome do site e selecione **OK**. A lista de sites será atualizada para mostrar o novo nome do site.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -79,6 +74,3 @@ Para renomear seu site no assistente para criação de sites, siga estas etapas.
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 
 [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

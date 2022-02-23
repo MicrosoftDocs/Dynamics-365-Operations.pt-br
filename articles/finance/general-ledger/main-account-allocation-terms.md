@@ -2,25 +2,28 @@
 title: Condições de Alocação
 description: Este tópico fornece informações sobre o uso de condições de alocação em uma conta principal.
 author: rachel-profitt
+manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount, AllocationTerms
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 957baba1364fbbd4a51c6f51b0fad5bf8db46680fa97b9d3d0474dc015064609
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 637e12f0deaa53811093a8745bc74dbc19e34f6b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776519"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440264"
 ---
 # <a name="allocation-terms"></a>Condições de Alocação
 
@@ -45,7 +48,7 @@ Na guia rápida **Conta contábil de destino**, a conta principal será a mesma 
 
 ## <a name="create-an-allocation-term-on-a-main-account"></a>Criar uma condição de alocação em uma conta principal
 
-1. No **Painel de navegação**, Acesse **Módulos > Contabilidade > Plano de contas > Contas > Contas principais**.
+1. No **Painel de navegação**, vá para **Módulos > Contabilidade > Plano de contas > Contas > Contas principais**.
 2. Na lista, localize e selecione o registro desejado.
 3. Na guia rápida **Substituições da entidade legal**, selecione **Adicionar**.
 4. Selecione a **Empresa** e, em seguida, selecione **Adicionar**.
@@ -67,6 +70,3 @@ Na guia rápida **Conta contábil de destino**, a conta principal será a mesma 
 > Opcionalmente, você pode usar o botão **Copiar** para duplicar a alocação selecionada.
 
 Quando uma condição de alocação for criada para uma conta principal, o sistema lançará automaticamente um novo comprovante quando um comprovante for lançado com as dimensões financeiras de origem nas condições de alocação.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

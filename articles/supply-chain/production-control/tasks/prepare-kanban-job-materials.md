@@ -2,24 +2,27 @@
 title: Preparar um trabalho kanban de processo quando os materiais estão disponíveis para a célula de trabalho
 description: Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas materiais estão disponíveis para a célula de trabalho.
 author: johanhoffmann
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e16272376924da03b0a470d143e03c8319f06d5b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: cd6d5add4d11c917a705e88d10b589e2c43fab89
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573672"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421993"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Preparar um trabalho kanban de processo quando os materiais estão disponíveis para a célula de trabalho
 
@@ -27,7 +30,7 @@ ms.locfileid: "7573672"
 
 Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas materiais estão disponíveis para a célula de trabalho. A empresa de dados demo usada para criar esta tarefa é USMF. Essa tarefa é destinado ao operador da máquina.
 
-1. Acesse o quadro kanban para processar trabalhos.
+1. Vá para o quadro kanban para processar trabalhos.
 2. No campo Célula de trabalho, clique no botão suspenso para abrir a pesquisa.
 3. Na lista, clique no link na linha selecionada.
     * Selecione célula de trabalho 1250 e clique em OK.  
@@ -39,6 +42,3 @@ Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas 
 6. Clique em Preparar.
     * O processo de preparação é concluído agora. A caixa de seleção marcada para todas as linhas da lista de separação indica que o status da fonte será separado.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

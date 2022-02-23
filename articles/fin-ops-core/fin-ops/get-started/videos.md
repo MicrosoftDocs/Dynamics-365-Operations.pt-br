@@ -2,9 +2,11 @@
 title: Vídeos
 description: Essa página lista "como fazer" criados pela Microsoft e conversas tecnológicas em vídeos relacionadas a aplicativos do Finance and Operations que estão disponíveis no YouTube e em outros sites.
 author: sericks007
-ms.date: 09/15/2021
+manager: AnnBe
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487982"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797866"
 ---
 # <a name="videos"></a>Vídeos 
 
@@ -34,6 +36,7 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 
 ### <a name="data-integration"></a>Integração de dados
 
+- [Integração do cliente potencial ao pagamento à vista](https://youtu.be/AVV9x5x-XCg)
 - [Sincronizar uma ordem de serviço entre aplicativos do Dynamics 365 for Field Service e do Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Gerenciamento de dados
@@ -83,12 +86,12 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 
 ## <a name="videos-for-dynamics-365-finance"></a>Vídeos do Dynamics 365 Finance
 
-### <a name="business-document-management"></a>Gerenciamento de documentos comerciais
-- [Criar um documento comercial usando o Gerenciamento de documentos comerciais](https://www.youtube.com/watch?v=gAIYl-mM_pw)
-
 ### <a name="customize-the-app"></a>Personalizar o aplicativo
 - [Adicionar campos personalizados](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Inserir o Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+
+### <a name="expenses"></a>Despesas
+- [Experiência com despesas](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>Relatórios financeiros
 - [Localizar a versão do designer de relatórios](https://www.youtube.com/embed/icfA5Q3kp4w)
@@ -114,9 +117,6 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Vídeos do Dynamics 365 Supply Chain Management
-
-### <a name="business-document-management"></a>Gerenciamento de documentos comerciais
-- [Criar um documento comercial usando o Gerenciamento de documentos comerciais](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Custos
 - [Espaço de trabalho móvel de controle de custos](https://youtu.be/imsuTg8rUVk)
@@ -167,6 +167,3 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 [FastTrack para conversas sobre tecnologia](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) focam em fornecer melhores práticas e tecnologia avançada, que fornece aos clientes e parceiros conhecimento detalhado específico das áreas citadas.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Criar uma BOM de modelo
 description: Você pode criar uma BOM de modelo usando uma variedade de métodos.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c10bf5e758a1752e1c50c602db85e0c53ee3e662
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2e06283f3b95c5ff6b4376bba63cf5a42d5feeb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571488"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422304"
 ---
 # <a name="create-a-template-bom"></a>Criar uma BOM de modelo   
 
@@ -31,9 +34,9 @@ Você pode criar uma BOM de modelo usando qualquer um dos seguintes métodos. Pa
 
 ## <a name="create-a-template-bom-manually"></a>Criar uma BOM de modelo manualmente
 
-1.  Acesse **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **BOMs de modelo**.
+1.  Clique em **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **BOMs de modelo**.
 
-2.  Selecione **Novo** para abrir o formulário **Criar BOM de modelo**.
+2.  Pressione CTRL+N para abrir o formulário **Criar BOM de modelo**.
 
 3.  Em **Copiar linhas de BOM de referência**, selecione a opção **Manual**.
 
@@ -43,15 +46,15 @@ Você pode criar uma BOM de modelo usando qualquer um dos seguintes métodos. Pa
 
 6.  Nos campos **Data de início** e **Data de término**, insira um intervalo de datas no qual a BOM de modelo está ativa.
 
-7.  Selecione **OK**.
+7.  Clique em **OK**.
 
 Uma nova BOM de modelo em branco é criada.
 
 ## <a name="create-a-template-bom-based-on-another-template-bom"></a>Criar uma BOM de modelo baseada em outra BOM de modelo
 
-1.  Selecione **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **BOMs de modelo**.
+1.  Clique em **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **BOMs de modelo**.
 
-2.  Selecione **Novo** para abrir o formulário **Criar BOM de modelo**.
+2.  Pressione CTRL+N para abrir o formulário **Criar BOM de modelo**.
 
 3.  Em **Copiar linhas de BOM de referência**, selecione a opção **BOM de modelo**.
 
@@ -61,15 +64,15 @@ Uma nova BOM de modelo em branco é criada.
 
 6.  Nos campos **Data de início** e **Data de término**, insira um intervalo de datas no qual a BOM de modelo está ativa.
 
-7.  Selecione **OK**.
+7.  Clique em **OK**.
 
 Uma nova BOM de modelo é criada usando linhas que correspondem às linhas da BOM de modelo original.
 
 ## <a name="create-a-template-bom-based-on-an-item-bom"></a>Criar uma BOM de modelo baseada em um BOM de itens
 
-1.  Selecione **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **BOMs de modelo**.
+1.  Clique em **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **BOMs de modelo**.
 
-2.  Selecione **Novo** para abrir o formulário **Criar BOM de modelo**.
+2.  Pressione CTRL+N para abrir o formulário **Criar BOM de modelo**.
 
 3.  Em **Copiar linhas da BOM da referência**, selecione **BOM**.
 
@@ -79,15 +82,15 @@ Uma nova BOM de modelo é criada usando linhas que correspondem às linhas da BO
 
 6.  Nos campos **Data de início** e **Data de término**, insira um intervalo de datas no qual a BOM de modelo está ativa.
 
-7.  Selecione **OK**.
+7.  Clique em **OK**.
 
 Uma nova BOM de modelo é criada usando linhas que correspondem às linhas da BOM listada em **Lista de materiais**.
 
 ## <a name="create-a-template-bom-based-on-a-production-bom"></a>Criar uma BOM de modelo baseada em um BOM de produção
 
-1.  Selecione **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **BOMs de modelo**.
+1.  Clique em **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **BOMs de modelo**.
 
-2.  Selecione **Novo** para abrir o formulário **Criar BOM de modelo**.
+2.  Pressione CTRL+N para abrir o formulário **Criar BOM de modelo**.
 
 3.  Em **Copiar linhas da BOM da referência**, selecione **Produção**.
 
@@ -97,7 +100,7 @@ Uma nova BOM de modelo é criada usando linhas que correspondem às linhas da BO
 
 6.  Nos campos **Data de início** e **Data de término**, insira um intervalo de datas no qual a BOM de modelo está ativa.
 
-7.  Selecione **OK**.
+7.  Clique em **OK**.
 
 Uma nova BOM de modelo é criada usando linhas que correspondem às linhas da BOM listada em **BOM**.
 
@@ -108,6 +111,3 @@ Uma nova BOM de modelo é criada usando linhas que correspondem às linhas da BO
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

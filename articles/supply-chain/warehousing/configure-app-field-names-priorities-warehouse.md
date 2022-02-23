@@ -1,10 +1,12 @@
 ---
-title: Configurar campos para o aplicativo móvel do Gerenciamento de Depósito
-description: Este tópico descreve como definir e configurar os nomes e prioridades de campos mostrados no aplicativo móvel do Gerenciamento de Depósito.
-author: Mirzaab
+title: Configurar nomes de campo de aplicativo no aplicativo de depósito
+description: Este tópico descreve como definir e configurar os nomes e prioridades de campos do aplicativo de depósito no Dynamics 365 Supply Chain Management.
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -13,24 +15,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902287"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963426"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurar campos para o aplicativo móvel do Gerenciamento de Depósito
+# <a name="configure-app-field-names-in-the-warehouse-app"></a>Configurar nomes de campo de aplicativo no aplicativo de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como definir e configurar os nomes e prioridades de campos mostrados no aplicativo móvel do Gerenciamento de Depósito.
+Este tópico descreve como definir e configurar os nomes e prioridades de campos do aplicativo de depósito no Dynamics 365 Supply Chain Management. 
 
 > [!NOTE]
-> Este tópico se aplica a recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. O aplicativo móvel do Gerenciamento de Depósito é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campos do aplicativo móvel do Gerenciamento de Depósito e como eles são usados.
+> Este tópico se aplica a recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. O Warehousing é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campos do aplicativo de depósito e como eles são usados no Warehousing. Para obter informações detalhadas sobre como configurar a conexão com o FWarehousing, consulte o tutorial [Visão geral de instalação e configuração do aplicativo de depósito](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurar nomes de campo do aplicativo de depósito
 
@@ -50,7 +52,7 @@ Ao usar o Warehousing em seu dispositivo móvel, você pode configurar como os m
 <tbody>
 <tr class="odd">
 <td>Modo de entrada preferencial</td>
-<td>Essa opção define se um campo de digitalização ou um campo de saída de entrada manual deve ser mostrado para o nome de campo selecionado. Isso é útil para diferenciar campos, dependendo se os códigos de barra são usados para o campo. <strong>Observação:</strong> para nomes de campo com modo de saída preferencial definido como <strong>Digitalizando</strong>, você pode inserir informações manualmente, se o código de barras for ilegível ou estiver danificado.</td>
+<td>Essa opção define se um campo de digitalização ou um campo de saída de entrada manual deve ser mostrado para o nome de campo selecionado. Isso é útil para diferenciar campos, o que dependerá da utilidade dos códigos de barras para o campo. <strong>Observação:</strong> para nomes de campo com modo de saída preferencial definido como <strong>Digitalizando</strong>, você pode inserir informações manualmente se o código de barras for ilegível ou estiver danificado.</td>
 </tr>
 <tr class="even">
 <td>Tipo de Entrada</td>
@@ -137,9 +139,7 @@ Com base na prioridade de campo do aplicativo de depósito configurada na tabela
 
 Os metadados restantes, como Local, não serão exibidos na página de tarefas, mas o serão em uma página de detalhes. Para saber mais e ver exemplos da interface do usuário, consulte a postagem do blog [Anúncio do Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
-[Instalar e conectar o aplicativo móvel do Gerenciamento de Depósito](../warehousing/install-configure-warehouse-management-app.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Visão geral da instalação e configuração do aplicativo de depósito](install-configure-warehousing-app.md)

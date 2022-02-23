@@ -1,10 +1,12 @@
 ---
 title: Relatório de roll forward de ativo fixo
 description: Este tópico explica como usar o relatório de roll forward de ativos fixos
-author: moaamer
+author: saraschi2
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: b91da4679a23ba0a70c18e2bcae1b7f757f661ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883584"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969144"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Relatório de roll forward de ativo fixo
 
@@ -28,7 +30,7 @@ ms.locfileid: "7883584"
 
 O relatório **Relatório de roll forward de ativos fixos** fornece em um formato de leitura simples do Microsoft Excel, os dados de ativo fixo detalhados que você precisa para fechamento do período, demonstrativos financeiros e relatórios de imposto. O relatório incluir saldos inicial e final de ativos fixos, com movimentações de avaliação do período e novas aquisições do ativo e alienações que ocorreram durante o período. Os dados são relatados para ativos fixos individuais e os valores também são resumidos para grupos de ativos fixos e a entidade legal.
 
-O relatório **Roll forward de ativos fixos** usa a estrutura de Relatório eletrônico (ER). Antes de executar o relatório, as configurações de roll-forward de Ativo fixo e do modelo de Ativos fixos devem ser importadas do Microsoft Dynamics Lifecycle Services (LCS). Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+O relatório **Roll forward de ativos fixos** usa a estrutura de Relatório eletrônico (ER). Antes de executar o relatório, as configurações de roll-forward de Ativo fixo e do modelo de Ativos fixos devem ser importadas do Microsoft Dynamics Lifecycle Services (LCS). Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 Este relatório estará disponível no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, ou como um hotfix para Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Julho de 2017). Três hotfixes devem ser aplicados aos ambientes com a versão de julho de 2017:
 
@@ -64,6 +66,3 @@ A tabela a seguir descreve os campos disponíveis no relatório.
 |           Alienações: Valor de sucata            |                                                                                               O valor de sucata para o registro de ativos fixos com uma alienação - transação de sucata.                                                                                               |
 |           Alienações: Lucros/perdas            |                                                                                 O valor de lucro ou perda calculado como parte da transação de alienação do registro de ativos fixos.                                                                                 |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

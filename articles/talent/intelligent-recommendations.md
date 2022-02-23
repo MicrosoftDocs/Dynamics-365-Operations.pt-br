@@ -56,6 +56,3 @@ As recomendações serão exibidas como cartões na guia **Colaboradores potenci
 > Se você começou a usar o Attract recentemente, será necessário esperar até que tenha 10 ou mais candidatos com perfis ou currículos completos para usar esse recurso.
 
 Para evitar possíveis parcialidades nas recomendações, o Attract somente verifica os perfis dos candidatos para habilidades, qualificações e outras palavras-chave que correspondam à descrição do trabalho. Além disso, o Attract remove informações de identificação pessoal dos perfis dos candidatos antes da avaliação.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

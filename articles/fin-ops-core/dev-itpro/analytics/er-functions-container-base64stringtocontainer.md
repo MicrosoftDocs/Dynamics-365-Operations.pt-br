@@ -2,8 +2,11 @@
 title: Função de ER Base64StringToContainer
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) Base64StringToContainer é usada.
 author: NickSelin
+manager: kfend
 ms.date: 12/14/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3e813c628bfe783fb8e93fc5d7e8b275405245c42710f9ea691d4c06afff0d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0e92ae41a3e0f03cb14d4791ab768f096f2a0523
+ms.sourcegitcommit: e8a46e127d70986539c138b27a641bff6f6874d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772023"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4739056"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Função de ER Base64StringToContainer
 
 [!include [banner](../includes/banner.md)]
 
-A [função](er-formula-language.md#Functions) `BASE64STRINGTOCONTAINER` converte a entrada especificada do tipo *Cadeia de caracteres* em um item de dados do tipo *[Contêiner](er-functions-category-container.md)*.
+A [função](er-formula-language.md#functions) `BASE64STRINGTOCONTAINER` converte a entrada especificada do tipo *Cadeia de caracteres* em um item de dados do tipo *[Contêiner](er-functions-category-container.md)*.
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -72,11 +75,8 @@ Você define as seguintes fontes de dados no mapeamento de modelo:
 
 Neste exemplo, a fonte de dados **\#MediaAsBase64String** codifica o conteúdo binário do anexo de mídia atual como texto que representa um grupo Base64 de esquemas de codificação de binário para texto. A fonte de dados **\#BlobFomBase64** decodifica a cadeia de caracteres Base64 e retorna um valor binário no formato BLOB.
 
-![Exemplo de fonte de dados na página Designer de mapeamento do modelo de ER.](./media/er-functions-container-base64stringtocontainer-1.png)
+![Exemplo de fonte de dados na página Designer de mapeamento do modelo de ER](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de contêiner](er-functions-category-container.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Espaço de trabalho de gerenciamento bancário
-description: Este tópico fornece informações sobre o espaço de trabalho de gerenciamento de banco. Este workspace mostra informações relacionadas a contas bancárias da empresa.
-author: roschlom
+description: Este tópico fornece informações sobre o espaço de trabalho de gerenciamento de banco. Este espaço de trabalho mostra informações relacionadas às contas bancárias da empresa, e inclui uma exibição de Resumo e uma pagina de análise. A exibição de Resumo mostra quadros resumidos, informações de conta bancária, um gráfico do saldo e informações relacionadas. A página de análise usa os recursos do Microsoft Power BI para mostrar os visuais relacionados a saldos da conta bancária.
+author: saraschi2
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: roschlom
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f12f907e6135af60e092a2c20ebfd4d196b2d861
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883328"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4440535"
 ---
-# <a name="bank-management-workspace"></a>Espaço de trabalho de gerenciamento bancário
+# <a name="bank-management-workspace"></a>​Espaço de trabalho de gerenciamento bancário​
 
 [!include [banner](../includes/banner.md)]
 
@@ -61,6 +64,3 @@ A página **Análise** fornece métricas importante sobre contas bancárias da e
 -   Saldo por moeda
 
 Você pode exibir a análise do banco em todas as empresas do espaço trabalho **Visão geral de caixa – todas as empresas**. Para obter mais informações, consulte [Conteúdo de visão geral do caixa do Power BI](Cash-Overview-Power-BI-content.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

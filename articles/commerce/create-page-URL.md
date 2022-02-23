@@ -2,9 +2,11 @@
 title: Criar uma URL da página
 description: Este tópico cobre conceitos básicos e os procedimentos para criar uma página na URL do site.
 author: bicyclingfool
+manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 923723ce6e3f92c5186cd8a562a6e3fee3fdf70dfe8db29c86192cb1db515b1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 062a49df93e442dbe402ac9a78244c966958aaa2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717714"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965244"
 ---
 # <a name="create-a-page-url"></a>Criar uma URL da página
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico cobre conceitos básicos e os procedimentos para criar uma página na URL do site.
+
+## <a name="overview"></a>Visão geral
 
 A URL total ou absoluta que aponta para uma página no site consiste em partes diferentes. Por exemplo, a URL `https://www.contoso.com/en-us/contactus` tem as seguintes partes:
 
@@ -101,6 +106,3 @@ Para redirecionar uma URL a uma URL diferente, siga essas etapas.
 [Configure seu nome de domínio](configure-your-domain-name.md)
 
 [Adicionar idiomas ao seu site](add-languages-to-site.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

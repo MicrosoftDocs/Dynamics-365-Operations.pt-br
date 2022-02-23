@@ -2,9 +2,11 @@
 title: Definir atributos do canal
 description: Enriqueça o canal, adicionando o canal e os atributos do produto.
 author: jashanno
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f50e925689f11f67285c956aec1a7ece235cdb74
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726398"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964686"
 ---
 # <a name="define-channel-attributes"></a>Definir atributos do canal
 
@@ -29,8 +31,8 @@ Enriqueça o canal, adicionando o canal e os atributos do produto. Você deve ad
 
 
 ## <a name="define-channel-product-attribute"></a>Defina o atributo do produto do canal.
-1. Acesse Varejo e Comércio > Configuração de canal > Categorias do canal e atributos de produto.
-2. Na árvore, selecione "Contoso Retail\Fashion\Houston".
+1. Vá para Varejo e Comércio > Configuração de canal > Categorias do canal e atributos de produto.
+2. Na árvore, selecione 'Contoso Retail\Fashion\Houston'.
 3. Clique em Editar.
 4. No campo Hierarquia de categoria, insira ou selecione um valor.
     * A hierarquia de navegação será usada para navegar no produto dentro dos canais.  
@@ -69,6 +71,3 @@ Enriqueça o canal, adicionando o canal e os atributos do produto. Você deve ad
 33. Clique em OK.
 34. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

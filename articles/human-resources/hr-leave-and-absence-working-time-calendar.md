@@ -1,33 +1,31 @@
 ---
 title: Criar um calendário de horário de trabalho
 description: Defina um calendário de horário de trabalho, feriados e horário não comercial no Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068910"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417264"
 ---
 # <a name="create-a-working-time-calendar"></a>Criar um calendário de horário de trabalho
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Um calendário de horário de trabalho no Dynamics 365 Human Resources mostra os dias e as horas em que os funcionários trabalham na sua organização. Quando um funcionário envia uma solicitação de folga, ele não precisa se preocupar com feriados e recessos.
 
@@ -67,7 +65,7 @@ Você pode adicionar ou alterar feriados e recessos separadamente de um calendá
 
 Você pode adicionar ou alterar horários não comerciais separadamente de um calendário de horário de trabalho.
 
-1. Na página **Administração da organização**, selecione **HORÁRIO NÃO COMERCIAL**.
+1. Na página **Administração da organização**, selecione **Horário não comercial**.
 
 2. Selecione **Novo** e insira um nome e o intervalo de tempo para o horário não comercial.
 
@@ -77,6 +75,3 @@ Se você tiver habilitado o recurso de visualização de correções de feriados
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Configurar tipos de licença e ausência](hr-leave-and-absence-types.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

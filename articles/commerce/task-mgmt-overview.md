@@ -2,30 +2,35 @@
 title: Visão geral do gerenciamento de tarefas
 description: Este tópico fornece uma visão geral do gerenciamento de tarefas para gerentes e trabalhadores no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3891d846f51b5335809876a6557dfb5a031272c8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985384"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410253"
 ---
 # <a name="task-management-overview"></a>Visão geral do gerenciamento de tarefas
 
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral do gerenciamento de tarefas para gerentes e trabalhadores no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 Em um ambiente de varejo, é sempre difícil verificar se as tarefas são realizadas pela pessoa certa no momento certo. Os varejistas devem ser capazes de notificar os trabalhadores sobre tarefas futuras e fornecer contexto comercial relacionado, de forma que as tarefas possam ser concluídas corretamente e a tempo.
 
@@ -37,7 +42,7 @@ Os gerentes de armazenamento podem usar o gerenciamento de tarefas para atribuir
 
 A ilustração a seguir mostra a arquitetura conceitual do gerenciamento de tarefas no Commerce.
 
-![Arquitetura conceitual de gerenciamento de tarefas.](media/Tasks-management-conceptual-architecture.png)
+![Arquitetura conceitual de gerenciamento de tarefas](media/Tasks-management-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -48,6 +53,3 @@ A ilustração a seguir mostra a arquitetura conceitual do gerenciamento de tare
 [Atribuir listas de tarefas a lojas ou funcionários](task-mgmt-assign-lists.md)
 
 [Gerenciamento de tarefas em PDV](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

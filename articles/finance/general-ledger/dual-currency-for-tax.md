@@ -2,25 +2,28 @@
 title: Suporte a moeda dupla para imposto
 description: Este tópico explica como estender o recurso de contabilidade de duas moedas no domínio do imposto e o impacto no cálculo e no lançamento do imposto
 author: EricWang
-ms.date: 12/11/2020
+manager: Ann Beebe
+ms.date: 12/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 449ebe55b8be7ee7ea22b4be7c44162d83fc3c2affbd4d20f4cad235ddb0f772
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742195"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440308"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Suporte a moeda dupla para imposto
 [!include [banner](../includes/banner.md)]
@@ -41,10 +44,10 @@ Para obter mais informações sobre moeda dupla, consulte [Moeda dupla](dual-cur
 
 Como consequência do suporte para moedas duplas, dois novos recursos estão disponíveis no gerenciamento de recursos: 
 
-- Conversão de imposto (novo na versão 10.0.13)
-- Inserir dimensões financeiras nas contas de lucro/perda de ajuste de moeda realizada para liquidação de imposto sobre vendas (nova na versão 10.0.17)
+- Conversão de imposto (liberação na versão 10.0.9)
+- Saldo automático de liquidação de imposto na moeda do relatório (liberação na versão 10.0.11)
 
-O suporte de moeda dupla para impostos garante que os impostos sejam calculados com precisão na moeda do imposto e que o saldo de liquidação do imposto seja calculado com precisão na moeda contábil e na moeda de relatório.
+O suporte de moeda dupla para impostos garante que os impostos sejam calculados com precisão na moeda do imposto e que o saldo de liquidação do imposto seja calculado com precisão na moeda contábil e na moeda de relatório. 
 
 ## <a name="sales-tax-conversion"></a>Conversão de imposto
 
@@ -89,10 +92,6 @@ Esse recurso se aplica apenas a novas transações. Em transações fiscais já 
 
 Para evitar o cenário anterior, recomendamos alterar esse valor do parâmetro em um novo período de liquidação de imposto (limpo) que não contenha transações fiscais não definidas. Para alterar esse valor no meio de um período de liquidação de impostos, execute o programa "Liquidar e lançar imposto" para o período atual de liquidação de impostos antes de alterar esse valor de parâmetro.
 
-Este recurso adicionará entradas contábeis que esclarecem ganhos e perdas de trocas de moedas. As entradas serão feitas nas contas de lucros e perdas de ajuste de moeda realizadas quando a reavaliação for feita durante a liquidação do imposto sobre vendas. Para obter mais informações, consulte a seção [Saldo automático de liquidação de imposto na moeda de relatório](#tax-settlement-auto-balance-in-reporting-currency) posteriormente neste tópico.
-
-> [!NOTE]
-> Durante a liquidação, as informações de dimensões financeiras são tiradas de contas de impostos sobre vendas, que são contas de balanço e inseridas em contas de lucros e perdas de ajuste de moeda, que são contas de demonstrativo de lucros e perdas. Como as restrições ao valor das dimensões financeiras diferem entre contas de balanço e contas de demonstrativo de lucros e perdas, um erro pode ocorrer durante o processo de liquidação e lançamento de imposto sobre vendas. Para evitar ter que modificar estruturas de conta, você pode ativar a recurso "Preencher dimensões financeiras para o ajuste de moeda realizado de lucros/perdas para liquidação de imposto sobre vendas". Este recurso forçará a derivação de dimensões financeiras para contas de lucros/perdas de ajuste de moeda. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Acompanhar o valor do imposto da moeda de relatório
 
@@ -110,7 +109,7 @@ Esta versão não incluirá alterações nos relatórios e formulários que most
 
 ## <a name="tax-settlement-auto-balance-in-reporting-currency"></a>Saldo automático de liquidação de imposto na moeda do relatório
 
-Se a liquidação do imposto não for equilibrada na moeda de relatório por algum motivo, como o caminho de conversão do imposto é "Moeda contábil" ou a alteração da taxa de câmbio em um único período de liquidação de imposto, o sistema gerará automaticamente entradas contábeis para ajustar a variação do valor do imposto e compensá-lo com a conta de ganhos/perdas de câmbio realizada, definida na configuração do razão.
+Se a liquidação do imposto não for balanceada na moeda de relatório por algum motivo, como o caminho de conversão do imposto sendo "Moeda contábil" ou a alteração da taxa de câmbio em um único período de liquidação de imposto, o sistema gerará automaticamente entradas contábeis para ajustar a variação do valor do imposto e compensá-lo com a conta de ganhos/perdas de câmbio realizada, configurada na configuração do razão.
 
 Usando o exemplo anterior para demonstrar esse recurso, suponha que os dados na tabela TAXTRANS no momento do lançamento sejam os seguintes:
 
@@ -119,7 +118,7 @@ Usando o exemplo anterior para demonstrar esse recurso, suponha que os dados na 
 | Moeda contábil             | 100                        | 111                       | 83                       | **83.25**          |
 | Moeda de relatório              | 100                        | 111                       | 83                       | **83**             |
 
-Ao executar o programa de liquidação do imposto no fim do mês, a entrada contábil será a seguinte.
+Ao executar o programa de liquidação do imposto no fim do mês, a entrada contábil será o seguinte:
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Cenário: conversão de imposto = "Moeda contábil"
 
 | Conta principal           | Moeda de transação (GBP) | Moeda contábil (USD) | Moeda de relatório (GBP) |
@@ -146,6 +145,3 @@ Para obter mais informações, consulte os seguintes tópicos:
 - [Moeda dupla](dual-currency.md)
 - [Visão geral de imposto](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

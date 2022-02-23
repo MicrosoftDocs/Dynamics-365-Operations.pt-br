@@ -1,40 +1,43 @@
 ---
 title: Criar e adquirir ativos de contas a pagar
-description: Este procedimento orienta na criação e a aquisição de um ativo fixo com o processo de compra.
+description: Esta guia mostrará a criação e a aquisição de um ativo fixo com o processo de compra.
 author: saraschi2
+manager: AnnBe
 ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbac069362a15b5ab1d2dbf88a732a14a3cf709d
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 7cb9a37c65fb8eab4db6084b91a71c13a45ba42c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394634"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440382"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Criar e adquirir ativos de contas a pagar
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimento orienta na criação e a aquisição de um ativo fixo com o processo de compra.  Usa os caixeiros de contador e contas a pagar e a empresa USMF de demonstração.
+Esta guia mostrará a criação e a aquisição de um ativo fixo com o processo de compra.  Usa os caixeiros de contador e contas a pagar e a empresa USMF de demonstração.
 
 
 ## <a name="set-fixed-assets-parameters"></a>Definir parâmetros dos ativos fixos
-1. No **Painel de Navegação**, Acesse **Módulos > Ativos fixos > Configuração > Parâmetros de ativos fixos**.
+1. No **Painel de Navegação**, vá para **Módulos > Ativos fixos > Configuração > Parâmetros de ativos fixos**.
 2. Expanda a Guia Rápida **Ordens de compra**.
 3. Marque a caixa de seleção **Permitir a aquisição de ativos de Compras**.
 4. Marque a caixa de seleção **Criar um ativo durante o recebimento de produtos ou o lançamento de fatura**.
 
 ## <a name="create-a-new-vendor-invoice"></a>Criar uma nova fatura de fornecedor
-1. No **Painel de Navegação**, Acesse **Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.
+1. No **Painel de Navegação**, vá para **Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.
 2. Clique em **Nova fatura de fornecedor**.
 3. No campo **Conta de fatura**, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, clique no link na linha selecionada.
@@ -53,6 +56,3 @@ Este procedimento orienta na criação e a aquisição de um ativo fixo com o pr
 17. Na lista, clique no link na linha selecionada.
 18. Clique em **Enviar**. O ativo fixo será criado e adquirido quando a nota fiscal for lançada.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

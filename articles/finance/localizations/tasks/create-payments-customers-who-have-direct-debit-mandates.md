@@ -2,9 +2,11 @@
 title: Criar pagamentos para um cliente que tenha cartas de ordem de débito direto
 description: Este procedimento exibe como gerar um arquivo de pagamento de débito direito de ISO20022 para clientes com débito direto configurado e fatura a ser paga.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice, CustTableLookup, CustPostInvoiceJob, LedgerJournalTable, LedgerJournalTransCustPaym, SysQueryForm, CustPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ecc28cb11b8c34a438bb47b1cfa9a37e17297e421020b32030261af95b86a49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 934d086661dbbf1c7ba1d868f90caafe5b0bebf2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757925"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964557"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>Criar pagamentos para um cliente que tenha cartas de ordem de débito direto
 
@@ -36,7 +38,7 @@ Este é o quinto dos cinco procedimentos que demonstram o processo de pagamento 
 
 
 ## <a name="post-a-free-text-invoice-with-direct-debit-information"></a>Lançar uma fatura de texto livre com informações de débito direto
-1. Acesse Contas recebíveis > Faturas > Todas faturas de texto livre.
+1. Vá para Contas recebíveis > Faturas > Todas faturas de texto livre.
 2. Clique em Novo.
 3. No campo Conta de cliente, insira ou selecione um valor.
     * Por exemplo, selecione DE-010.  
@@ -51,7 +53,7 @@ Este é o quinto dos cinco procedimentos que demonstram o processo de pagamento 
 11. Clique em OK.
 
 ## <a name="create-a-payment"></a>Criar um pagamento
-1. Acesse Contas a receber > Pagamentos > Diário de pagamentos.
+1. Vá para Contas a receber > Pagamentos > Diário de pagamentos.
 2. Clique em Novo.
 3. No campo Nome, insira ou selecione um valor.
 4. Clique em Linhas.
@@ -65,6 +67,3 @@ Este é o quinto dos cinco procedimentos que demonstram o processo de pagamento 
 11. Clique em OK.
 12. Clique em OK.
 13. Clique em Criar pagamentos.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

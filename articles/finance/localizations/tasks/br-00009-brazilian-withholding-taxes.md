@@ -2,23 +2,26 @@
 title: Impostos retidos na fonte no Brasil
 description: Este procedimento configura um código de imposto retido na fonte, um tipo de imposto retido na fonte e um parâmetro de cálculo para calcular o imposto retido na fonte para pagamentos de serviços da consulta ou de serviço profissional.
 author: sndray
+manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a4ec23230ccbb1fbd6e71d652b1c011cc36949698d859df2d15cb713445f441
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64cb3e23f2e4d808ad2f2bea7e2a9a4b2f0f2257
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721677"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408476"
 ---
 # <a name="brazilian-withholding-taxes"></a>Impostos retidos na fonte no Brasil 
 
@@ -26,7 +29,7 @@ ms.locfileid: "6721677"
 
 Este procedimento configura um código de imposto retido na fonte, um tipo de imposto retido na fonte e um parâmetro de cálculo para calcular o imposto retido na fonte para pagamentos de serviços da consulta ou de serviço profissional. Este procedimento usa a empresa de dados de demonstração BRMF.
 
-1. Acesse Imposto > Configuração > Imposto retido na fonte > Períodos de liquidação de imposto retido na fonte.
+1. Vá para Imposto > Configuração > Imposto retido na fonte > Períodos de liquidação de imposto retido na fonte.
 2. Clique em Novo.
 3. No campo de Período de liquidação, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -41,7 +44,7 @@ Este procedimento configura um código de imposto retido na fonte, um tipo de im
 13. Clique em Novo período.
 14. Clique em Salvar.
 15. Feche a página.
-16. Acesse Imposto > Impostos indiretos > Impostos retidos na fonte > Códigos de impostos retidos na fonte.
+16. Vá para Imposto > Impostos indiretos > Impostos retidos na fonte > Códigos de impostos retidos na fonte.
 17. Clique em Novo.
 18. No campo Impostos retidos na fonte, digite um valor.
 19. No campo Nome do imposto retido na fonte, digite um valor.
@@ -57,14 +60,14 @@ Este procedimento configura um código de imposto retido na fonte, um tipo de im
 29. Clique em Salvar.
 30. Feche a página.
 31. Feche a página.
-32. Acesse Imposto > Impostos indiretos > Imposto retido na fonte > Grupos de impostos retidos na fonte.
+32. Vá para Imposto > Impostos indiretos > Imposto retido na fonte > Grupos de impostos retidos na fonte.
 33. Clique em Novo.
 34. No campo Grupo de impostos retidos na fonte, digite um valor.
 35. No campo Descrição, digite um valor.
 36. No campo Código de imposto retido na fonte, insira ou selecione um valor.
 37. Clique em Salvar.
 38. Feche a página.
-39. Acesse Imposto > Impostos indiretos > Imposto retido na fonte > Grupos de impostos retidos na fonte do item.
+39. Vá para Imposto > Impostos indiretos > Imposto retido na fonte > Grupos de impostos retidos na fonte do item.
 40. Clique em Novo.
 41. No campo Grupo de impostos retidos na fonte do item, digite um valor.
 42. No campo Descrição, digite um valor.
@@ -72,6 +75,3 @@ Este procedimento configura um código de imposto retido na fonte, um tipo de im
 44. Clique em Salvar.
 45. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

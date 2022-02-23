@@ -2,9 +2,11 @@
 title: Trabalhar com grupos de publicações
 description: Este tópico descreve o recurso grupos de publicações no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,18 +16,21 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d757f34d3e16850e4f5de122f63b2b3342f612e49f07c7cf6585362999f03c02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a4f19af0cdf9c72add0ec18be84e36c807af9ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717663"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969867"
 ---
 # <a name="work-with-publish-groups"></a>Trabalhar com grupos de publicações
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve o recurso grupos de publicações no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 Sites de comércio eletrônico são constantemente atualizados com novo conteúdo durante o ano. Geralmente, as atualizações são publicadas em lotes para eventos de comércio eletrônico, como feriados, campanhas de marketing sazonais ou lançamentos promocionais. Essas atualizações geralmente exigem que os grupos de conteúdo do site (por exemplo, páginas, imagens, fragmentos e modelos) sejam testados, validados e publicados simultaneamente em uma única ação.
 
@@ -149,6 +154,3 @@ No momento, o recurso de grupos de publicação oferece suporte somente ao conte
 [Visão geral de modelos e layouts](templates-layouts-overview.md)
 
 [Personalizar a navegação do site](customize-site-navigation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

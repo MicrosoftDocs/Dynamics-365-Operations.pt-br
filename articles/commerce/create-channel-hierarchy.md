@@ -2,24 +2,27 @@
 title: Criar uma hierarquia de navegação de canal
 description: Este tópico descreve como criar uma hierarquia de navegação de canal no Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 04/27/2021
+manager: annbe
+ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749946"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410085"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Criar uma hierarquia de navegação de canal
 
@@ -28,7 +31,7 @@ ms.locfileid: "6749946"
 
 Este tópico descreve como criar uma hierarquia de navegação de canal no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Uma hierarquia de navegação de canal é usada para agrupar e organizar os produtos em categorias, de modo que eles possam ser procurados online ou em pontos de venda (PDV).
 
@@ -36,7 +39,7 @@ Uma hierarquia de navegação de canal é usada para agrupar e organizar os prod
 
 Para criar uma hierarquia de navegação de canal, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Produtos e categorias \> Categorias de navegação de canal**.
+1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Produtos e categorias \> Categorias de navegação de canal**.
 1. No painel de ação, selecione **Novo**.
 1. Na caixa **Nome**, insira um nome.
 1. Na caixa **Descrição**, insira uma descrição.
@@ -49,7 +52,7 @@ Para criar uma hierarquia de navegação de canal, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de nó raiz.
 
-![Nó raiz de exemplo.](media/create-channel-hierarchy-1.png)
+![Nó raiz de exemplo](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Criar nós de categoria de navegação
 
@@ -65,7 +68,7 @@ Para criar outros nós de categoria de navegação para representar as categoria
 
 A imagem a seguir mostra um exemplo de hierarquia de navegação de canal concluída.
 
-![Hierarquia de canal de exemplo.](media/create-channel-hierarchy-2.png)
+![Hierarquia de canal de exemplo](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Adicionar produtos a nós de categoria
 
@@ -77,11 +80,11 @@ Para adicionar produtos a nós de categoria, siga estas etapas.
 1. No painel de ação, selecione **Salvar**.
 
 > [!NOTE]
-> Adicionar produtos a um nó dentro da hierarquia de navegação de canal não é suficiente para os produtos serem mostrados no canal selecionado; eles também devem ser classificados para um canal. Para obter mais informações sobre sortimentos, consulte [Gerenciamento de sortimentos](assortments.md).
+> Adicionar produtos a um nó dentro da hierarquia de navegação de canal não é suficiente para os produtos serem mostrados no canal selecionado; eles também devem ser classificados para um produto.
 
 A imagem a seguir mostra um exemplo de nó com produtos adicionados.
 
-![Produtos adicionados a um nó de categoria.](media/create-channel-hierarchy-3.png)
+![Produtos adicionados a um nó de categoria](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Adicionar grupos de atributo de produto a nós de categoria
 
@@ -97,13 +100,10 @@ Para adicionar um grupo de atributos de produto a um nó de categoria, siga esta
 
 A imagem a seguir mostra um nó de exemplo com grupos de atributo de produto adicionados.
 
-![Grupos de atributo de produto em um nó.](media/create-channel-hierarchy-4.png)
+![Grupos de atributo de produto em um nó](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configurar sortimentos](set-up-assortments.md)
+[Configurar classificações](set-up-assortments.md)
 
 [Gerenciar atributos e grupos de atributos](attribute-attributegroups-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,6 +61,3 @@ Para obter mais detalhes sobre a Atualização de plataforma 29 para o Finance a
 Alterações nos registros de funcionários raramente são efetivadas imediatamente. Você precisa atualizar os dados a partir da data de início do funcionário, que geralmente está no futuro, e também precisa atualizar as informações no passado. Com este modelo de navegação simplificado, você poderá atualizar dados futuros e passados ​​sem navegar para vários formulários ou alterar o contexto dos dados. Esta alteração também promove e exibe dinamicamente as principais informações na área da faixa superior do registro do funcionário.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

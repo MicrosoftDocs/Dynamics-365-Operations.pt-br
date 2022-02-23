@@ -1,24 +1,27 @@
 ---
 title: Configurar registros de depreciação
 description: Este procedimento explica o processo de criação de um registro de depreciações e o associa a um grupo de ativos fixos.
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42b8a15ac60fd2620c600d78b84a25e3caf6d2bf
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883611"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440423"
 ---
 # <a name="set-up-depreciation-books"></a>Configurar registros de depreciação 
 
@@ -27,7 +30,7 @@ ms.locfileid: "7883611"
 Este procedimento explica o processo de criação de um registro de depreciações e o associa a um grupo de ativos fixos. 
 
 ## <a name="create-a-depreciation-book"></a>Crie um registro de depreciação
-1. Acesse Ativos fixos > Configuração > Registros de depreciação.
+1. Vá para Ativos fixos > Configuração > Registros de depreciação.
 2. Clique em Novo.
 3. No campo de registro de depreciação, insira um valor.
 4. No campo Descrição, digite um valor.
@@ -52,6 +55,3 @@ Este procedimento explica o processo de criação de um registro de depreciaçõ
 6. No campo Vida útil, insira um número.
     * Observe que o valor do campo de períodos de depreciação será calculado depois de definir a vida útil.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

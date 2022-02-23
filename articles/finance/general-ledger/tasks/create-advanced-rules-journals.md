@@ -2,23 +2,26 @@
 title: Criar regras avançadas para diários
 description: Este procedimento aborda a criação de regras avançadas para diários.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalControl, CompanyLookup, LedgerJournalPostControl
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe26409ebaa83595885756056810a4a2037045f0f8ad312b52c507343dec3b2d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea6ca24d27bb5b00bbe31060ce2f7e40bf2fb335
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779461"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440427"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Criar regras avançadas para diários
 
@@ -28,7 +31,7 @@ Este procedimento aborda a criação de regras avançadas para diários. Inclui 
 
 
 ## <a name="set-up-journal-control"></a>Configurar controle do diário
-1. No **Painel de Navegação**, Acesse **Módulos > Contabilidade > Configuração do diário > Nomes de diário**.
+1. No **Painel de Navegação**, vá para **Módulos > Contabilidade > Configuração do diário > Nomes de diário**.
 2. Na lista, localize e selecione o registro desejado.
 3. No **Painel de Ações**, clique em **Controle de diário**.
 4. Na Guia Rápida **Que tipos de conta podem ser lançados?**, clique em **Adicionar**.
@@ -55,6 +58,3 @@ Este procedimento aborda a criação de regras avançadas para diários. Inclui 
 4. Na árvore, verifique 'o grupo do qual deseja permitir o lançamento para o nome desse diário'.
 5. Clique em **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

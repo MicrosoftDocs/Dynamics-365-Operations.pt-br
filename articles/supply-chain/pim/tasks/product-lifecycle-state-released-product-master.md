@@ -1,23 +1,26 @@
 ---
 title: Atribuir um estado do ciclo de vida do produto a um produto mestre liberado
 description: Este procedimento mostra como atribuir um estado do ciclo de vida do produto a um produto mestre liberado e suas grades.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 217bab38544c2794d2e57410f8c2a979605106b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2c644f118e0bdb46b296cec7e4a3ea89031f2d52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566998"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422036"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>Atribuir um estado do ciclo de vida do produto a um produto mestre liberado
 
@@ -27,7 +30,7 @@ Este procedimento mostra como atribuir um estado do ciclo de vida do produto a u
 
 
 ## <a name="find-a-released-product-master"></a>Encontre um produto mestre liberado
-1. Acesse Gerenciamento de informações do produto > Produtos > Produtos liberados.
+1. Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.
 2. Na lista, localize e selecione o PDV desejado.
 
 > [!NOTE]
@@ -51,6 +54,3 @@ Este procedimento mostra como atribuir um estado do ciclo de vida do produto a u
 2. Na lista, marque a linha selecionada.
 3. No campo Estado do ciclo de vida do produto, insira ou selecione um valor.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

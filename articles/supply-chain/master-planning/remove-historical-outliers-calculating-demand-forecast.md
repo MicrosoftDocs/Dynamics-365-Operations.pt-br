@@ -1,27 +1,30 @@
 ---
 title: Remover exceções de dados históricos de transação ao calcular uma previsão de demanda
 description: Este artigo descreve como excluir exceções dos dados históricos que são usados para calcular uma previsão de demanda. Ao excluir as exceções, você pode aumentar a precisão de previsão.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastParameters, ReqDemPlanOutlierQuerySetup, ReqDemPlanOutlierQueryPreview
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 72621
 ms.assetid: 88a964af-14eb-4c5c-945b-388e5908362c
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc0826d3a0dd8ded19590867e9a8138bb772c89a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9dec963ed5abd6f77e82029a3ea5ba1a69d44e36
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568630"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422054"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Remover exceções de dados históricos de transação ao calcular uma previsão de demanda
 
@@ -39,7 +42,8 @@ Você pode excluir exceções para melhorar a precisão de previsão. Esta é um
 
 **Observação:** você também pode criar uma consulta com base em uma consulta existente. Selecione a consulta a ser copiada e então clique em **Duplicar**. O campo **Data da consulta** identifica a versão. Você pode usar a consulta como está ou pode clicar em **Editar consulta** para modificar os critérios. Opcionalmente, você pode modificar o nome e a descrição da nova consulta.
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Visão geral da previsão de demanda](introduction-demand-forecasting.md)
 
@@ -47,6 +51,3 @@ Você pode excluir exceções para melhorar a precisão de previsão. Esta é um
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

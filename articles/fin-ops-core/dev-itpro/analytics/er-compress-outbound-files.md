@@ -2,9 +2,11 @@
 title: Compactar documentos grandes que são gerados em relatórios eletrônicos
 description: Este tópico explica como compactar grandes documentos gerados por um formato de relatório eletrônico (ER).
 author: NickSelin
+manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718590"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680845"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Compactar documentos grandes que são gerados em relatórios eletrônicos 
 
 [!include [banner](../includes/banner.md)]
 
-Você pode usar a [estrutura de relatórios eletrônicos (ER)](general-electronic-reporting.md) para configurar uma solução que busca dados transacionais para gerar um documento de saída. Este documento gerado pode ser muito grande. Quando esse tipo de documento é gerado, a memória do [Servidor de Objetos de Aplicativo (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) é usada para mantê-lo. Em algum ponto, o documento deve ser baixado de seu aplicativo do Microsoft Dynamics 365 Finance. Atualmente, o tamanho máximo de um único documento gerado no ER é limitado a 2 gigabytes (GB). Além disso, o Finance atualmente [limita](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) o tamanho de um arquivo baixado a 1 GB. Portanto, é preciso configurar uma solução de ER que reduza a probabilidade de que essas limitações sejam excedidas e de que você receba uma exceção **O fluxo era muito longo** ou **Sobrefluxo ou subfluxo na operação aritmética**.
+Você pode usar a [estrutura de relatórios eletrônicos (ER)](general-electronic-reporting.md) para configurar uma solução que busca dados transacionais para gerar um documento de saída. Este documento gerado pode ser muito grande. Quando esse tipo de documento é gerado, a memória do [Servidor de Objetos de Aplicativo (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) é usada para mantê-lo. Em algum ponto, o documento deve ser baixado de seu aplicativo do Microsoft Dynamics 365 Finance. Atualmente, o tamanho máximo de um único documento gerado no ER é limitado a 2 gigabytes (GB). Além disso, o Finance atualmente [limita](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) o tamanho de um arquivo baixado a 1 GB. Portanto, é preciso configurar uma solução de ER que reduza a probabilidade de que essas limitações sejam excedidas e de que você receba uma exceção **O fluxo era muito longo** ou **Sobrefluxo ou subfluxo na operação aritmética**.
 
 Ao configurar uma solução, é possível ajustar o formato ER no designer de operações adicionando um elemento raiz do tipo **Pasta** para compactar o conteúdo gerado por qualquer um dos seus elementos aninhados. A compactação funciona "na hora certa" para que o pico de uso da memória e o tamanho do arquivo que será baixado possam ser reduzidos.
 
@@ -55,11 +57,11 @@ Antes de concluir os procedimentos deste tópico, as etapas a seguir devem ser c
 1. [Executar o formato importado](er-defer-xml-element.md#run-the-imported-format).
 2. Observe que o tamanho do documento gerado no formato XML é de 3 kilobytes (KB).
 
-    ![Visualização do documento de saída descompactado.](./media/er-compress-outbound-files1.png)
+    ![Visualização do documento de saída descompactado](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Modificar o formato para compactar a saída gerada
 
-1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração, expanda **Modelo para conhecer elementos adiados**.
 3. Selecione a configuração **Formato para conhecer elementos XML adiados**.
 4. Selecione **Designer** para modificar a estrutura do formato.
@@ -80,7 +82,7 @@ Antes de concluir os procedimentos deste tópico, as etapas a seguir devem ser c
     > [!NOTE] 
     > A taxa de compactação do arquivo XML que esse arquivo zip contém é de 87%. A taxa de compactação depende dos dados que estão sendo compactados.
 
-    ![Visualização do documento de saída compactado.](./media/er-compress-outbound-files2.png)
+    ![Visualização do documento de saída compactado](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Se o [destino](electronic-reporting-destinations.md) de ER for configurado para o elemento de formato que gera a saída (o elemento **Relatório** neste exemplo), a compactação da saída será ignorada.
@@ -92,6 +94,3 @@ Antes de concluir os procedimentos deste tópico, as etapas a seguir devem ser c
 [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
 
 [Adiar a execução de elementos XML nos formatos ER](er-defer-xml-element.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

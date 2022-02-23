@@ -2,23 +2,26 @@
 title: Fechar o ano fiscal
 description: Este procedimento aborda o processo de fechamento do exercício que transfere saldos para um novo ano fiscal.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 593ab5b45cc0c2e1a8b876aa89de014fd9df1a13
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440430"
 ---
 # <a name="close-the-fiscal-year"></a>Fechar o ano fiscal
 
@@ -28,7 +31,7 @@ Este procedimento aborda o processo de fechamento do exercício que transfere sa
 
 
 ## <a name="validate-year-end-close-parameters"></a>Valide os parâmetros próximos de final de ano
-1. Acesse **Painel de navegação > Módulos> Contabilidade > Configuração do razão > Parâmetros da contabilidade**.
+1. Vá para **Painel de navegação > Módulos> Contabilidade > Configuração do razão > Parâmetros da contabilidade**.
 2. Expandir a seção **Fechamento do ano fiscal**.
 3. Selecione 'Sim' ou 'Não' para a opção **Excluir transações de fechamento de ano durante a transferência**.
     
@@ -36,7 +39,7 @@ Este procedimento aborda o processo de fechamento do exercício que transfere sa
 
 4. Selecione 'Sim' ou 'Não' para a opção **Criar transações de fechamento durante a transferência**.
 
-    Se definido como Sim, duas transações são criadas. Um comprovante é criado no ano fiscal que está sendo fechado para reduzir os saldos de todas as contas contábeis a zero, e um segundo comprovante é criado no próximo ano fiscal para os saldos iniciais. Se definido para Não, um único comprovante é criado no próximo ano fiscal para o início dos saldos.  
+    Se definido como Sim, duas transações são criadas. Um comprovante é criado no ano fiscal que está sendo fechado para reduzir os saldos de contas contábeis de P&L a zero, e um segundo comprovante é criado no próximo ano fiscal para os saldos iniciais. Se definido para Não, um único comprovante é criado no próximo ano fiscal para o início dos saldos.  
 
 5. Selecione 'Sim' ou 'Não' para a opção **Definir status de ano fiscal como permanentemente fechado**.
 
@@ -47,7 +50,7 @@ Este procedimento aborda o processo de fechamento do exercício que transfere sa
     Se definido como Sim, um número de comprovante deverá ser inserido manualmente durante o processo de fechamento do ano. Uma sequência numérica não será usada para gerar esse número de comprovante. É uma melhor prática defini-lo para Sim.  
 
 7. Feche a página.
-8. Acesse **Contabilidade > Fechamento de período > Fechamento do exercício**.
+8. Vá para **Contabilidade > Fechamento de período > Fechamento do exercício**.
 9. Clique em **Novo** para criar um modelo de fechamento do exercício.
 
     Um modelo podem ser criados para um grupo de entidades legais em que executa o fechamento de fim de ano. Esse método pode ser reutilizado todos os anos.  
@@ -80,6 +83,3 @@ Este procedimento aborda o processo de fechamento do exercício que transfere sa
 23. O fechamento do ano final padrão para executar o lote. É uma prática recomendada executar processos longos no modo de lote. Geralmente é um desses processos, por isso o padrão é usar o modo de lote.  
 24. Clique em **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

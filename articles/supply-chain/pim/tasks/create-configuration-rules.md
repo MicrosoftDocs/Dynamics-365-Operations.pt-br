@@ -1,24 +1,27 @@
 ---
 title: Criar regras de configuração
 description: Esse procedimento cria regras de configuração que podem ser usadas na configuração baseada em dimensão para forçar ou evitar certas combinações de linhas da Lista de Materiais.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1b0bcf126f8b438f13ec7cc3537dfe1dab8c275
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6bc0af4d95e9430d0b5c8b7fc9a4ade076802044
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569592"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422187"
 ---
 # <a name="create-configuration-rules"></a>Criar regras de configuração
 
@@ -26,7 +29,7 @@ ms.locfileid: "7569592"
 
 Esse procedimento cria regras de configuração que podem ser usadas na configuração baseada em dimensão para forçar ou evitar certas combinações de linhas da Lista de Materiais. A empresa de dados demo usada para criar este procedimento é USMF. Este é o sétimo procedimento dos oito que explicam como criar combinações para configuração baseada em dimensão.
 
-1. Acesse Gerenciamento de informações sobre produtos > Lista de materiais e fórmulas > Lista de materiais.
+1. Vá para Gerenciamento de informações sobre produtos > Lista de materiais e fórmulas > Lista de materiais.
 2. Na lista, localize e selecione o PDV desejado.
     * Localize e selecione a Lista de Materiais para a configuração baseada em dimensão.  
 3. No Painel de Ação, clique em Opções.
@@ -52,6 +55,3 @@ Esse procedimento cria regras de configuração que podem ser usadas na configur
     * Selecione o número de item que será selecionado ou desmarcado de acordo com o método escolhido.  
 18. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Baixar configurações ER do repositório global de serviço de configuração
 description: Este tópico explica como baixar as configurações de relatório eletrônico (ER) do repositório global do serviço de configuração.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605322"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679549"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Baixar configurações ER do repositório global de serviço de configuração
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como baixar as [configurações de relatório eletrônico (ER)](general-electronic-reporting.md#Configuration) do repositório global do serviço de configuração. Para obter mais informações, consulte [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, serviço de configuração](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Este tópico explica como baixar as [configurações de relatório eletrônico (ER)](general-electronic-reporting.md#Configuration) do repositório global do serviço de configuração. Para obter mais informações, consulte [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, serviço de configuração](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Abra o repositório de configurações
 
@@ -40,7 +42,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
 3. Na seção **Provedores de configuração**, selecione o bloco **Microsoft**.
 3. No bloco **Microsoft**, selecione **Repositórios**.
 
-    ![Espaço de trabalho de relatório eletrônico.](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Espaço de trabalho de relatório eletrônico](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Na página **Repositórios de configuração**, na grade, selecione o repositório existente do tipo **Global**. Se esse repositório não aparecer na grade, siga estas etapas:
 
@@ -52,7 +54,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
 
 5. Selecione **Abrir** para exibir a lista de configurações de ER para o repositório selecionado.
 
-    ![Página Repositórios de configuração.](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Página Repositórios de configuração](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Importar uma única configuração
 
@@ -63,7 +65,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
     > [!NOTE]
     > O botão **Importar** não está disponível para as versões de configuração do ER que já estão presentes na instância atual do Finance.
 
-    ![Página Repositório de configuração, FastTab Configurações.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Página do repositório de configuração](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Importar configurações filtradas
 
@@ -77,7 +79,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
 4. Na FastTab **Configurações**, selecione **Importar** para baixar as configurações filtradas do repositório global para a instância atual.
 5. Na guia **Configurações**, selecione **Redefinir filtro** para limpar as condições de seleção especificadas.
 
-    ![Página Repositório de configuração, FastTab Versões, botão Importar.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Página do repositório de configuração](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Dependendo das configurações de ER, as configurações são validadas depois que são importadas. Talvez você seja notificado sobre problemas de inconsistências descobertos. Antes de poder usar a versão de configuração importada, você precisa resolver os problemas. Para obter mais informações, consulte a lista de recursos relacionados deste tópico.
@@ -88,6 +90,3 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

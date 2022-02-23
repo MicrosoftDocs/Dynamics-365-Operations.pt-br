@@ -1,26 +1,29 @@
 ---
 title: Distribuições contábeis
 description: Este tópico fornece informações sobre distribuições contábeis e descreve as opções disponíveis para o processamento.
-author: sunfzam
+author: ShylaThompson
+manager: AnnBe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f81444e0865715925dad2483e8c789221bccb2b
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595305"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440506"
 ---
 # <a name="accounting-distributions"></a>Distribuições contábeis
 
@@ -54,6 +57,3 @@ Os recursos de distribuição contábil genéricos fornecem as seguintes opçõe
 Na versão 10.0.13, um recurso adicionado que valida a tabela de distribuição contábil para garantir que os novos campos estejam configurados corretamente. Esse recurso é chamado **Habilitar a validação adicional de dados para documentos usando a estrutura contábil do documento de origem**. Para usar o recurso, você deve habilitá-lo usando o espaço de trabalho **Gerenciamento de recursos**. Para habilitar o recurso, procure o nome do recurso no campo **Pesquisar** na página **Gerenciamento de recursos** e selecione **Habilitar agora**.
 
 Para obter mais informações, consulte [Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

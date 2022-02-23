@@ -2,26 +2,26 @@
 title: Nível de cálculo de custo
 description: Este tópico descreve o nível de BOM (lista de materiais) denominado Nível de cálculo de custos. Esse nível de BOM exclui as ordens de produção e de lotes dos cálculos.
 author: AndersGirke
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-23
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: e08d11c8e9d98e56c5ef076cbab7bb68bedea62a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: 42088d8c005cf3fc04e768f1b8e8c8ca0b8c6993
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581023"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967711"
 ---
 # <a name="cost-calculation-level"></a>Nível de cálculo de custo
-
-[!include [banner](../includes/banner.md)]
 
 O nível da BOM (lista de materiais) denominado **Nível de cálculo de custos** exclui ordens de produção e ordens de lotes dos cálculos. O sistema usa esse nível quando executa cálculos de custo em versões de custo. Em processos como recálculo e fechamento do estoque, o sistema usa o nível de BOM **Nível de custo**.
 
@@ -56,6 +56,3 @@ Uma ordem de produção do produto C é criada e o produto A é adicionado à BO
     - **Produto C:** 2
 
 Esse comportamento garante que as alterações em BOMs da ordem de produção não afetem os cálculos de custo subsequentes.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

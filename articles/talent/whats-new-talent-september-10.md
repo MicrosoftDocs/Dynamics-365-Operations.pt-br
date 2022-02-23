@@ -98,6 +98,3 @@ Esta versão inclui várias correções de bug adicionais:
 - Quando um prestador de serviço é contratado, a guia **Remuneração** não deve estar disponível na página de solicitação/ação.
 - Durante o processo de rescisão de solicitação, você não pode prosseguir até que todos os campos obrigatórios contenham dados.
 - Problemas de exibição de data e ordem de classificação na análise do gerenciamento de equipes foram resolvidos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

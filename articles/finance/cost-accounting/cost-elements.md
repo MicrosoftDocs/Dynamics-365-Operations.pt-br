@@ -2,25 +2,28 @@
 title: Dimensões do elemento de custo
 description: Como uma colunas principal na contabilização de custo estimado, as dimensões do elemento de custo previsto são usados para categorizar e rastrear o fluxo onde os custos.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 223204
 ms.assetid: 1eda0e62-760b-4737-9dfd-3c3c38d80c1a
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 667fb81a2c1c8f564c09fe8fb7921c7aff75920bfa4326e82078583df61576e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e67ce047d08af6d34090ee4e1dc379dd16ecce07
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728760"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440444"
 ---
 # <a name="cost-element-dimensions"></a>Dimensões do elemento de custo
 
@@ -63,7 +66,7 @@ Há dois tipos de elementos de custo previsto: elementos de custo previsto e pri
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensões de elemento de custo previsto e membros da dimensão do elemento de custo previsto
 Elementos de custo previsto são referidos como *dimensões de elemento de custo previsto*. Os valores de dimensão específicos são chamados de *membros da dimensão do elemento de custo previsto*. Por exemplo, você tem um gráfico. de E contracheques. estrutura de contas (COA) que é a base para seu relatório legal. Este COA é usado como a dimensão do elemento de custo previsto. Contas, as quais são elementos de custos principais, previsto são representadas como membros da dimensão do elemento de custo estimado na contabilização de custo previsto. A captura de tela a seguir mostra um exemplo de como contas a dimensão do elemento de custo previsto com as listas principais real como membros da dimensão do elemento de custo previsto. 
 
-[![Captura de tela de Contas Principais como dimensão do elemento de custo.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Captura de tela de Contas Principais como dimensão do elemento de custo](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Membros de custo previsto de dimensão de elemento de importação em dos conectores de dados
 Para facilitar o de instalação de membros da dimensão do elemento de custo estimado na contabilização de custo previsto, você pode usar os conectores de dados que são ou criados anteriormente a compilação personalizado para recuperar os elementos de custo previsto principais de um ou vários sistemas de origem.
@@ -73,6 +76,3 @@ Porque os elementos de custo previsto representam o nível mais baixo de detalhe
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

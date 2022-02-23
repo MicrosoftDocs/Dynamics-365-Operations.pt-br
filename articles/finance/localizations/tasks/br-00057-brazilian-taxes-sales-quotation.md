@@ -2,23 +2,26 @@
 title: Impostos brasileiros nas cotações de venda
 description: Use este procedimento para criar uma cotação de venda que usa impostos brasileiros.
 author: sndray
+manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6caa12b1fa910b6167646b7f41d75997fec712fb641df302f4c470983bdd6208
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21fbf5f0e41300d62b177f08fd1a5c895859dacd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766262"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408478"
 ---
 # <a name="brazilian-tax-in-sales-quotations"></a>Impostos brasileiros nas cotações de venda
 
@@ -26,7 +29,7 @@ ms.locfileid: "6766262"
 
 Use este procedimento para criar uma cotação de venda que usa impostos brasileiros. É possível criar uma cotação especificando as informações fiscais, como o tipo de operação e o CFOP (Código Fiscal de Operações e Prestações). Ao criar uma linha de cotação, é possível selecionar um código de CFOP no campo CFOP. Os códigos de CFOP disponíveis neste campo dependem do estabelecimento fiscal do site selecionado no campo Site. Os grupos de impostos nos campos Grupo de impostos sobre vendas e Imposto do item também são atualizados com base na matriz de imposto. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Acesse Vendas e marketing > Cotações de venda > Todas as cotações.
+1. Vá para Vendas e marketing > Cotações de venda > Todas as cotações.
 2. Clique em Novo.
 3. No campo Tipo de conta, selecione uma opção.
 4. No campo Conta de cliente, insira ou selecione um valor.
@@ -65,6 +68,3 @@ Use este procedimento para criar uma cotação de venda que usa impostos brasile
 35. Feche a página.
 36. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

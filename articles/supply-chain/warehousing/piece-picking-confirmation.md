@@ -1,25 +1,28 @@
 ---
 title: Confirmação de separação de peças
-description: A separação de peças permite que você confirme cada peça de estoque por meio do trabalho de separação ou de contagem em um dispositivo móvel.
+description: Este tópico descreve como configurar e aplicar a confirmação de separação de peças de um dispositivo móvel.
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a925685b80c635cf036f19748e16d415953ed5fdda7b81498baeade35ccbfcab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed63245066799d7d8f14362ab6c9193c0cda7c4a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765993"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422062"
 ---
 # <a name="piece-picking-confirmation"></a>Confirmação de separação de peças
 
@@ -27,9 +30,9 @@ ms.locfileid: "6765993"
 
 A separação de peças permite que você confirme cada peça de estoque por meio do trabalho de separação ou de contagem em um dispositivo móvel. Referente às separações, é possível confirmar desde a quantidade de trabalho a ser processado até a quantidade especificada no trabalho a ser separado. Referente ao trabalho de contagem, é possível verificar o estoque que você está contando e rastrear o valor total.
 
-Ao habilitar a separação de peças, a confirmação do produto é automaticamente selecionada. Referente às separações por tipo de trabalho, você pode definir o número máximo de peças. Isso permite definir um número máximo de peças a ser confirmado durante o processo de trabalho. A quantidade máxima é baseada na unidade de trabalho atual que está sendo processada. O tipo de trabalho de contagem não permite uma quantidade máxima.
+Ao habilitar a separação de peças, a confirmação do produto é automaticamente selecionada. Referente às separações por tipo de trabalho, o número máximo de peças é habilitado. Isso permite definir um número máximo de peças a ser confirmado durante o processo de trabalho. A quantidade máxima é baseada na unidade de trabalho atual que está sendo processada. O tipo de trabalho de contagem não permite uma quantidade máxima.
 
-Você também pode usar a quantidade e a unidade de medida (UOM) associadas a um código de barras verificado. Isso colaborará para o recebimento em fluxos de entrada, incluindo o recebimento de placa de licença mista, item da ordem de compra, item da ordem de transferência e o item de carga. Também colaborará para a separação de peças em que verificar o código de barras adicionará a quantidade ao número total de peças confirmadas na conversão entre a UOM no código de barras e a unidade de trabalho. Ao contar a UOM no código de barras, se for confirmado que a quantidade é permitida para contagem no grupo de sequência, a quantidade será adicionada à contagem total.
+Você também pode usar a quantidade e a unidade de medida (UOM) associadas a um código de barras verificado. Isso colaborará para o recebimento em fluxos de entrada, incluindo o recebimento de placa de licença mista, item da ordem de compra, item da ordem de transferência e o item de carga. Também colaborará para a separação de peças em que verificar o código de barras adicionará a quantidade ao número total de peças confirmadas na conversão entre a UOM no código de barras e a unidade de trabalho. Se, ao contar a UOM no código de barras, for confirmado que a quantidade é permitida para contagem no grupo de foco de sequência, a quantidade será adicionada à contagem total.
 
 ## <a name="where-it-applies"></a>Aplica-se a
 
@@ -48,6 +51,3 @@ As seguintes opções tornam-se disponíveis para seleção quando o tipo de tra
 | Confirmação de separação de peças | Disponível para tipos de trabalho de separação e contagem. A confirmação de produto é selecionada automaticamente. Permite a você confirmar cada peça de estoque do dispositivo móvel. |
 |  Número máximo de peças  |                   Disponível para trabalho de separação se a confirmação de separação de peças estiver habilitada. Define um limite para o número de peças que você deve confirmar.                   |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

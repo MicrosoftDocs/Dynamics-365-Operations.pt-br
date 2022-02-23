@@ -2,9 +2,11 @@
 title: Elementos do fluxo de trabalho
 description: Este tópico descreve os diversos elementos que compõem um fluxo de trabalho.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070441"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797567"
 ---
 # <a name="workflow-elements"></a>Elementos do fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico descreve os diversos elementos que compõem um fluxo de trabalho.
 
@@ -63,7 +62,7 @@ Um *processo de aprovação* consiste em etapas isoladas. Em cada etapa de aprov
 
 Um fluxo de trabalho pode ser criado para processar documentos ou os itens de linha em um documento. Por exemplo, você criou um fluxo de trabalho de aprovação para folhas de ponto. (Faremos referência a esse fluxo de trabalho como *fluxo de trabalho de documento*.) Você pode adicionar um elemento de *fluxo de trabalho de item de linha* a esse fluxo de trabalho de documento. Quando o elemento de item de linha é executado, cada item de linha do documento é enviado para processamento. Talvez seja conveniente que todos os itens de linha sejam processados pelo mesmo fluxo de trabalho de item de linha ou que cada item de linha seja processado por um fluxo de trabalho de item de linha diferente. Suponha que um funcionário tenha enviado uma folha de ponto que se assemelhe à figura a seguir.
 
-![Fluxo de trabalho com itens de linha.](./media/workflow_lineitemworkflow.gif)
+![Fluxo de trabalho com itens de linha](./media/workflow_lineitemworkflow.gif)
 
 Nesse cenário, talvez seja conveniente criar os seguintes fluxos de trabalho de item de linha:
 
@@ -90,6 +89,3 @@ Uma *atividade paralela* é um elemento de fluxo de trabalho que inclui duas ou 
 ### <a name="subworkflow"></a>Subfluxo de trabalho
 
 Um *subfluxo de trabalho* é um fluxo de trabalho executado no contexto de outro fluxo de trabalho.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

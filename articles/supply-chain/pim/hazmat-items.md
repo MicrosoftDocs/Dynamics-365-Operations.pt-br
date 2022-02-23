@@ -1,27 +1,31 @@
 ---
 title: Materiais perigosos em produtos, ordens, remessas e cargas
 description: Este tópico explica como definir propriedades de materiais perigosos para produtos liberados, como colocar limites de estoque em itens perigosos e como incluir materiais perigosos em uma ordem de venda, remessa ou carga.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570696"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422380"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Materiais perigosos em produtos, ordens, remessas e cargas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico explica como definir propriedades de materiais perigosos para produtos liberados, como colocar limites de estoque em itens perigosos e como incluir materiais perigosos em uma ordem de venda, remessa ou carga.
 
@@ -33,7 +37,7 @@ Como parte do processo de associar um item liberado a um material perigoso, voc�
 
 Para configurar um produto liberado como um material perigoso, siga estas etapas.
 
-1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione ou crie um produto para abrir sua página **Detalhes do produto liberado**.
 1. Na FastTab **Gerenciar estoque**, defina a opção **Materiais perigosos** como **Sim**. Esta configuração identifica o item como uma mercadoria perigosa e é usada quando a documentação da remessa é impressa.
 1. No Painel de Ações, na guia **Gerenciar estoque**, no grupo **Conformidade**, selecione **Materiais perigosos de item**.
@@ -151,7 +155,7 @@ A tabela a seguir descreve os campos disponíveis na FastTab **Informações amb
 
 Por motivos de segurança, talvez seja preciso limitar o valor total de determinado produto que pode ser estocado em um único local. Para definir limites de estoque para um produto liberado, siga estas etapas.
 
-1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione um produto para abrir a página **Detalhes do produto liberado**.
 1. No Painel de Ações, na guia **Gerenciar estoque**, no grupo **Conformidade**, selecione **Detalhes do relatório**.
 1. Nos campos **Limite de estoque perigoso** e **Limite de aviso perigoso**, defina os valores apropriados para o produto selecionado.
@@ -217,6 +221,3 @@ Para realizar a verificação de compatibilidade, siga estas etapas.
 1. No Painel de Ações, na guia **Cargas**, no grupo **Ações**, selecione **Verificação de compatibilidade**.
 
 Você recebe uma mensagem informando sobre os resultados da verificação.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

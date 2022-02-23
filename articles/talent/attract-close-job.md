@@ -62,6 +62,3 @@ Se desejar indicar que o cargo foi preenchido, um candidato deve ter aceito uma 
    > Só é possível fechar um trabalho como **Cargo preenchido** quando pelo menos um candidato tenha concluído o estágio de oferta. Se a solicitação de emprego não tiver a opção **Oferta aceita** selecionada, ou se a solicitação de emprego não exibir um status **Aceito** na oferta, a opção **Cargo preenchido** não será exibida no menu suspenso **Motivo** .
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

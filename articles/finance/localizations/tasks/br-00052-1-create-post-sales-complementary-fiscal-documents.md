@@ -2,22 +2,25 @@
 title: Criar e lançar uma nota fiscal complementar de venda (Brasil)
 description: Use este procedimento para criar uma nota fiscal complementar de vendas para ajustar uma nota fiscal de venda que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).
 author: sndray
+manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df326550fe049cf30c4dcf1af95283c3b41b8d1fdf8d322b51e9bf0a4c7ddf5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 00b709e7e01d224016edf20a35144f9219315a74
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716608"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408421"
 ---
 # <a name="create-and-post-a-sales-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de venda (Brasil)
 
@@ -25,7 +28,7 @@ ms.locfileid: "6716608"
 
 Use este procedimento para criar uma nota fiscal complementar de vendas para ajustar uma nota fiscal de venda que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços). Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Acesse Contas a receber > Notas fiscais > Todas as notas fiscais.
+1. Vá para Contas a receber > Notas fiscais > Todas as notas fiscais.
 2. Na lista, clique no link na linha selecionada.
 3. Clique em Nota fiscal complementar.
 4. Clique em Preço.
@@ -37,9 +40,6 @@ Use este procedimento para criar uma nota fiscal complementar de vendas para aju
 9. Feche a página.
 10. Feche a página.
 11. Feche a página.
-12. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+12. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 13. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

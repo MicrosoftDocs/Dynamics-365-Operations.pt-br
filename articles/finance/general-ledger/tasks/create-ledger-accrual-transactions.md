@@ -2,23 +2,26 @@
 title: Criar transações de competências do razão
 description: Este guia de tarefas aborda a criação de transações de competências do razão que são baseadas em esquemas de competência.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransAccrual, LedgerJournalTransAccrualTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6500da88424ea71aa8f8836dfdb7d42ef444637b50efe4401a6f76a876e3e0cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2112336045086d0eb3b2fb0018f33631528a05ec
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750379"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440255"
 ---
 # <a name="create-ledger-accrual-transactions"></a>Criar transações de competências do razão
 
@@ -46,6 +49,3 @@ Este guia de tarefas aborda a criação de transações de competências do raz�
 17. Clique em OK.
 18. Clique em Lançar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

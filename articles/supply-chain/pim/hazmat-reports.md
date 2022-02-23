@@ -1,27 +1,31 @@
 ---
 title: Consultas e relatórios de materiais perigosos
 description: Este tópico explica como trabalhar com os vários relatórios relacionados a materiais perigosos. Muitos desses relatórios são necessários para permanecer em conformidade com várias regulamentações de materiais perigosos durante a remessa e o armazenamento.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568534"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422219"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Consultas e relatórios de materiais perigosos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 O Microsoft Dynamics 365 Supply Chain Management fornece vários relatórios relacionados a materiais perigosos. Muitos desses relatórios são necessários para permanecer em conformidade com várias regulamentações de materiais perigosos durante a remessa e o armazenamento.
 
@@ -29,13 +33,13 @@ Todos esses relatórios, exceto o relatório **Mercadorias perigosas de multimod
 
 A ilustração a seguir mostra a sequência de atividades que ocorrem quando o sistema gera os relatórios de materiais perigosos.
 
-![Sequência de atividades para relatórios de materiais perigosos.](media/hazmat-report-sequence.png "Sequência de atividades para relatórios de materiais perigosos")
+![Sequência de atividades para relatórios de materiais perigosos](media/hazmat-report-sequence.png "Sequência de atividades para relatórios de materiais perigosos")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Configurar relatório de materiais perigosos
 
 Normalmente, se enviar itens que contenham materiais perigosos, você deverá gerar relatórios específicos para ajudar a preservar a segurança e obedecer a regulamentações de transporte de materiais perigosos. Para configurar seus relatórios, siga estas etapas:
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 2. Abra a guia **Relatórios**. Na FastTab **Parâmetro do relatório de materiais perigosos**, defina os campos a seguir.
 
     | Seção | Campo | descrição |
@@ -106,6 +110,3 @@ Quando o recurso materiais perigosos está ativado no sistema, o relatório de *
 ## <a name="packing-list-report"></a>Relatório de lista de remessa
 
 Quando o recurso materiais perigosos está ativado no sistema, as listas de remessa incluem informações adicionais relacionadas ao texto impresso da remessa de um item. Esse relatório está disponível na página **Todas as cargas**, como de costume.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

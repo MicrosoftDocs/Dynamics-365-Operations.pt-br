@@ -1,10 +1,12 @@
 ---
-title: Criar um novo produto no Commerce
+title: Criar um produto no Commerce
 description: Este tópico descreve como criar um novo produto no Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,27 +16,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753713"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965295"
 ---
-# <a name="create-a-new-product-in-commerce"></a>Criar um novo produto no Commerce
+# <a name="create-a-new-product-in-commerce"></a>Criar um produto no Commerce
 
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como criar um novo produto no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Um produto é definido principalmente por um número de produto, nome e descrição. No entanto, outros dados também são necessários para descrever um produto ou serviço:
 
 ## <a name="create-a-new-product"></a>Criar um novo produto
 
-1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Produtos e categorias \> Produtos por categoria**.
+1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Produtos e categorias \> Produtos por categoria**.
 1. No painel de ação, selecione **Novo**.
 1. Na lista suspensa **Tipo de produto**, selecione **Item** ou **Serviço**.
 1. Na lista suspensa **Subtipo de produto**, selecione **Produto** (se o produto não tiver grades) ou **Produto mestre** (se o produto tiver grades).
@@ -49,13 +51,13 @@ Um produto é definido principalmente por um número de produto, nome e descriç
 
 A imagem a seguir mostra um exemplo de produto sendo adicionado.
 
-![Criar um produto.](media/create-new-product.png)
+![Criar um produto](media/create-new-product.png)
 
 Depois que um produto é adicionado, é possível definir outros dados para ele, como **Descrição do produto**, **Grupos de grades**, **Grupos de dimensões**, **Atributos de produto** e **Produtos relacionados**.
 
 A imagem a seguir mostra mais detalhes de um produto.
 
-![Detalhes do produto.](media/create-new-product-2.png)
+![Detalhes do produto](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Criar grades de produtos
 
@@ -74,29 +76,29 @@ Para vender um produto, primeiro ele deve ser liberado para uma entidade legal.
 
 1. Na página do produto, selecione **Liberar produtos**.
 
-    ![Produto liberado.](media/create-new-product-3.png)
+    ![Liberar produto](media/create-new-product-3.png)
 
 1. Selecione o produto a ser liberado e clique em **Avançar**.
 
-    ![Escolher o produto a ser liberado.](media/create-new-product-4.png)
+    ![Escolher o produto a ser liberado](media/create-new-product-4.png)
 
 1. Selecione o conjunto de grades de produto para liberação e clique em **Avançar**.
 
-    ![Escolher as grades a serem liberadas.](media/create-new-product-5.png)
+    ![Escolher as grades a serem liberadas](media/create-new-product-5.png)
 
 1. Selecione a entidade legal e clique em **Avançar**.
 
-    ![Escolher entidade legal.](media/create-new-product-6.png)
+    ![Escolher entidade legal](media/create-new-product-6.png)
 
 1. Selecione **Concluir**.
 
-    ![Concluir liberação de produto.](media/create-new-product-7.png)
+    ![Concluir liberação de produto](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Configurar um produto liberado
 
 Depois que um produto é liberado, ele precisa de mais configurações, entre elas adicionar um preço ao produto.
 
-1. No painel de navegação, Acesse **Módulos \> Varejo e Comércio \> Produtos e categorias \> Produtos lançados por categoria**.
+1. No painel de navegação, vá para **Módulos \> Varejo e Comércio \> Produtos e categorias \> Produtos lançados por categoria**.
 1. Selecione o nó de categoria de produto do produto que foi liberado e, depois, escolha o produto na lista de produtos.
 1. No painel de ação, selecione **Editar**.
 1. Na seção **Compra**, configure todas as propriedades necessárias, inclusive **Unidade**, **Preço** e **Quantidade**.
@@ -105,13 +107,10 @@ Depois que um produto é liberado, ele precisa de mais configurações, entre el
 
 A imagem a seguir mostra um exemplo de configuração de produto liberado.
 
-![Configurar produto liberado.](media/create-new-product-8.png)
+![Configurar produto liberado](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Criar entidades legais](channels-legal-entities.md)
 
 [Criar um grupo de grades](create-variant-group.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

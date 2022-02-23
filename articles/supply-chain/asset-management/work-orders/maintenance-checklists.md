@@ -1,10 +1,12 @@
 ---
 title: Listas de verificação de manutenção
 description: Este tópico descreve listas de verificação de manutenção no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderChecklist, EntAssetMobileWorkOrderLineChecklistDetails
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ece9abcbaed0a1881f6b6a0d1b2357bc87ef181636a37564709f62c6aa38475
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2ec7130fbe8c397c30cdc2a76f34ecfdfdc0737
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760553"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017909"
 ---
 # <a name="maintenance-checklists"></a>Listas de verificação de manutenção
 
@@ -75,8 +77,5 @@ As listas de verificação de manutenção são criadas com base na definição 
 
 A ilustração a seguir mostra um exemplo de uma lista de verificação de manutenção.
 
-![Figura 1.](media/14-work-orders.png)
+![Figura 1](media/14-work-orders.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

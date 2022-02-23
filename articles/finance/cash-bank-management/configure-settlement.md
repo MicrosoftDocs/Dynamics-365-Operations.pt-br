@@ -2,25 +2,28 @@
 title: Configurar liquidação
 description: Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este tópico descreve os parâmetros usados para pagamento de contas a pagar e contas a receber.
 author: kweekley
+manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 323a1e6d426208a880a72dd89f7be04bacbf13a8e6c5d8ab7599217cfc18f2c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720565"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440490"
 ---
 # <a name="configure-settlement"></a>Configurar liquidação
 
@@ -64,6 +67,3 @@ Para evitar entradas contábeis adicionais, o débito e crédito para a mesma co
 
 -   As organizações frequentemente usam dimensões fixas para preencher com zeros uma dimensão fixa que não é necessária. Isso geralmente ocorre para contas de balanço, como contas a receber/contas a pagar. As estruturas de conta podem ser usadas para não rastrear dimensões financeiras que geralmente são preenchidas com zero.  Você pode remover a dimensão financeira de contas de balanço, eliminando a necessidade de usar dimensões fixas.
 -   Se sua organização precisar de dimensões fixas na conta principal de contas a receber/contas a pagar, encontre uma maneira de usar a dimensão fixa como padrão no pagamento, de forma que o valor da dimensão fixa seja armazenado na transação do fornecedor para o pagamento. Isto permitirá que o sistema reconstrua a conta principal de contas a receber/contas a pagar para incluir valores fixos de dimensão. O valor da dimensão fixa pode ser definido como padrão nos fornecedores ou no nome do diário do diário de pagamento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

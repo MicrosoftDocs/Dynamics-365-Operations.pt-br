@@ -2,9 +2,11 @@
 title: Modelos do provedor para membros de dimensão estatística e provedores de medida
 description: Este tópico fornece informações sobre membros da dimensão estatística e modelos de provedores de medidas estatísticas. Os membros da dimensão estatística podem ser utilizados como base de alocação em políticas como distribuição de custos e alocação de custos. Eles também podem ser usados ​​para relatar o consumo de custos não monetários.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767638"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969444"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Modelos do provedor para membros de dimensão estatística e provedores de medida
 
@@ -128,7 +130,7 @@ Antes de poder obter medidas estatísticas em Contabilidade de custos, você dev
 > [!NOTE]
 > Neste exemplo, criaremos uma relação apenas para **Versão atual**.
 
-Acesse **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 Finance - Medidas estatísticas**, pois desejamos extrair dados do Finance.
+Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 Finance - Medidas estatísticas**, pois desejamos extrair dados do Finance.
 
 **Fonte de dados**
 
@@ -158,9 +160,9 @@ Depois que os dados de origem para a medida estatística forem processados, as s
 | 31/01/2017      | 2.00      | FTEs                | Funcionários em horário integral | CC002       |
 | 31/01/2017      | 2.00      | FTEs                | Funcionários em horário integral | CC003       |
 
-**Entradas de estatísticas**
+**Entradas estatísticas**
 
-| Objeto de custo |  descrição  | Data contábil | Membro de dimensão estatística |  descrição        | Magnitude |
+| Objeto de custo |    | Data contábil | Membro de dimensão estatística |  descrição        | Magnitude |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | RH | 31/01/2017      | FTEs                         | Funcionários em horário integral | 1.00      |
 | CC002       | FI | 31/01/2017      | FTEs                         | Funcionários em horário integral | 2.00      |
@@ -216,7 +218,7 @@ Antes de poder obter medidas estatísticas em Contabilidade de custos, você dev
 > [!NOTE]
 > Neste exemplo, criaremos uma relação apenas para **Versão atual**.
 
-Acesse **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 Finance - Medidas estatísticas**, pois desejamos extrair dados do Finance.
+Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 Finance - Medidas estatísticas**, pois desejamos extrair dados do Finance.
 
 **Fonte de dados**
 
@@ -280,7 +282,7 @@ O consumo de eletricidade é registrado no Microsoft Excel usando o formato pred
 
 Se você importou seus dados através do gerenciamento de dados, os dados serão armazenados em uma tabela de teste de contabilidade de custos. Portanto, os dados importados podem ser usados em múltiplos livros de contabilidade. Não é necessário recarregar os dados.
 
-Para importar dados, Acesse **Dados importados** \> **Entidade de dados** \> **Medidas estatísticas importadas**.
+Para importar dados, vá para **Dados importados** \> **Entidade de dados** \> **Medidas estatísticas importadas**.
 
 | Identificador de origem | Data contábil | Magnitude  | Nome do membro da dimensão 1 | Nome do membro da dimensão 2 | Nome do membro da dimensão 5 |
 |-------------------|-----------------|------------|------------------------|------------------------|------------------------|
@@ -293,7 +295,7 @@ Antes de poder obter medidas estatísticas em Contabilidade de custos, você dev
 > [!NOTE]
 > Neste exemplo, criaremos uma relação apenas para **Versão atual**.
 
-Acesse **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para este cenário, selecione o conector de dados **Medidas estatísticas importadas**, porque os dados foram importados de um sistema de terceiros para a contabilidade de custos via Excel.
+Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para este cenário, selecione o conector de dados **Medidas estatísticas importadas**, porque os dados foram importados de um sistema de terceiros para a contabilidade de custos via Excel.
 
 **Origem de dados**
 
@@ -324,9 +326,9 @@ Acesse **Razão da contabilização de custo** \> **Versão atual** \> **Gerenci
 | 31/01/2017      | 4,100.00   | eletricidade  | Consumo de eletricidade | CC002       |
 | 31/01/2017      | 15,000.00  | eletricidade  | Consumo de eletricidade | CC003       |
 
-**Entradas de estatísticas**
+**Entradas estatísticas**
 
-| Objeto de custo | descrição | Data contábil | Membro de dimensão estatística |      descrição                   | Magnitude  |
+| Objeto de custo |    | Data contábil | Membro de dimensão estatística |      descrição                   | Magnitude  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | RH | 31/01/2017      | eletricidade                  | Consumo de eletricidade | 2,450.00   |
 | CC002       | FI | 31/01/2017      | eletricidade                  | Consumo de eletricidade | 4,100.00   |
@@ -334,15 +336,12 @@ Acesse **Razão da contabilização de custo** \> **Versão atual** \> **Gerenci
 
 Se a base de atribuição de membros de dimensão predefinida de eletricidade for atribuída como uma base de alocação em uma regra de distribuição de custos, o custo será distribuído usando o seguinte fator de alocação.
 
-| Objeto de custo | descrição   | Magnitude | Fator de alocação          |
-|-------------|---------------|-----------|----------------------------|
-| CC001       | RH            | 2,450.00  | (2.450 ÷ 21.550) × valor  |
-| CC002       | FI            | 4,100.00  | (4.100 ÷ 21.550) × valor  |
-| CC003       | TE            | 15,000.00 | (15.000 ÷ 21.550) × valor |
+| Objeto de custo |    | Magnitude | Fator de alocação          |
+|-------------|----|-----------|----------------------------|
+| CC001       | RH | 2,450.00  | (2.450 ÷ 21.550) × valor  |
+| CC002       | FI | 4,100.00  | (4.100 ÷ 21.550) × valor  |
+| CC003       | TE | 15,000.00 | (15.000 ÷ 21.550) × valor |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Bases de alocação](allocation-bases.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

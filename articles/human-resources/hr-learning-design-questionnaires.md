@@ -1,35 +1,33 @@
 ---
 title: Criar questionários
-description: Este tópico descreve o processo para criar um questionário.
-author: twheeloc
-ms.date: 10/28/2021
+description: Este artigo descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065192"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417347"
 ---
-# <a name="create-questionnaires"></a>Criar questionários
+# <a name="design-questionnaires"></a>Criar questionários
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Este tópico descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas. 
+Este artigo descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas. 
 
 Um questionário cuidadosamente desenvolvido pode ajudar a aumentar a qualidade dos dados coletados. Por meio da criação cuidadosa, você pode selecionar melhor as opções adequadas no tempo apropriado de um questionário. Os seguintes pontos podem ajudá-lo a planejar um questionário eficaz:
 
@@ -66,7 +64,7 @@ Alguns pré-requisitos devem ser atendidos antes que seja possível criar questi
 
 ### <a name="questionnaire-types"></a>Tipos de questionários
 
-Os **Tipos de questionário** são necessários e devem ser atribuídos na criação de um questionário. Os **Tipos de questionário** ajudam você a gerenciar e classificar o questionário com mais facilidade. Use os tipos de questionário para classificar os questionários e diferenciá-los uns dos outros. Por exemplo, se você tiver vários questionários para selecionar, você pode filtrá-los por tipo para ajudar a facilitar a localização de um questionário específico. Veja aqui alguns exemplos de tipo de questionário:
+Os tipos de questionário são necessários e devem ser atribuídos ao criar um questionário. Os tipos de questionário ajudam você a gerenciar e classificar o questionário de maneira mais fácil. Use os tipos de questionário para classificar os questionários e diferenciá-los uns dos outros. Por exemplo, se você tiver vários questionários para selecionar, você pode filtrá-los por tipo para ajudar a facilitar a localização de um questionário específico. Veja aqui alguns exemplos de tipo de questionário:
 
 -   Desenvolvimento de recursos humanos
 -   Pesquisas sobre clientes
@@ -74,9 +72,9 @@ Os **Tipos de questionário** são necessários e devem ser atribuídos na cria�
 
 ### <a name="question-types"></a>Tipos de perguntas
 
-Os **Tipos de pergunta** são necessários e devem ser atribuídos ao criar uma pergunta. 
+Os tipos de pergunta são necessários e devem ser atribuídos ao criar uma pergunta. 
 
-Use os **Tipos de pergunta** para categorizar as perguntas do relatório. Os **Tipos de pergunta** facilitam a localização de perguntas, pois é possível usar tipos como filtros na página **Perguntas**. Veja aqui alguns exemplos de tipo de pergunta:
+Use os tipos de pergunta para categorizar as perguntas do relatório. Os tipos de pergunta facilitam a localização de perguntas, pois é possível usar tipos como filtros na página **Perguntas**. Veja aqui alguns exemplos de tipo de pergunta:
 
 -   Recursos humanos
 -   Gerenciamento de negócios
@@ -93,9 +91,9 @@ Os códigos de sequência numérica que são usados para organizar perguntas e r
 É preciso definir todos os parâmetros antes de começar a criar seus dados. Você pode alterar as configurações de parâmetros de questionário a qualquer momento.
 
 ## <a name="questionnaire-components"></a>Componentes do questionário
-Os questionários compõem três principais elementos: grupos de respostas que contêm as respostas para questões de múltipla escolha, perguntas e o questionário em si. Se preferir, você poderá agrupar as perguntas de um questionário em grupos de resultados. Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário. 
+Os questionários compõem três principais elementos: grupos de respostas que contêm as respostas para questões de múltipla escolha, perguntas e o questionário em si.  Se preferir, você pode agrupar as perguntas de um questionário em grupos de resultados. Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário. 
 
-[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Grupos de respostas e respostas
 
@@ -108,22 +106,22 @@ Para fornecer uma lista de respostas possíveis para perguntas fechadas, você p
 
 Os grupos de respostas e as respostas são componentes que compõem o corpo principal de informações a partir do qual as perguntas são criadas. Depois que você criar um grupo de resposta, poderá associá-lo a uma pergunta no campo **Grupo de respostas** na página **Perguntas**. 
 
-Um **Grupo de respostas** pode ser usado para mais de uma pergunta no mesmo questionário e em mais de uma questionário. 
+Um grupo de respostas pode ser usado para mais de uma pergunta no mesmo questionário e em mais de uma questionário. 
 
 > [!NOTE]
-> Se você modificar o texto de resposta em grupos de respostas que já foram usados em questionários preenchidos, poderá ser difícil avaliar os dados e os resultados do questionário talvez não sejam mais válidos. Se você precisar alterar um grupo de respostas, considere criar um novo grupo de respostas em vez de alterar o existente. Não é possível excluir grupos de resposta anexados a uma pergunta ou a uma resposta, ou que foram respondidos.
+> Se você modificar o texto de resposta nos grupos de respostas que já foram usados em questionários preenchidos, poderá ser difícil avaliar os dados e os resultados do questionário podem não mais ser válidos. Se você precisar alterar um grupo de respostas, considere criar um novo grupo de respostas em vez de alterar o existente. Não é possível excluir grupos de resposta anexados a uma pergunta ou a uma resposta, ou que foram respondidos.
 
 ### <a name="questions"></a>Perguntas
 
 Um questionário deve conter perguntas. As perguntas podem ser abertas ou fechadas.
 
 -   As perguntas abertas não são controladas, e os respondentes poderão digite as respostas.
--   As perguntas fechadas exigem uma lista de opções predefinidas de respostas, e as perguntas podem ser estruturas para permitir que o participante selecione múltiplas respostas. As perguntas devem ser criadas para extrair informações específicas de um participante e devem estar vinculadas a um grupo de respostas que fornece opções de respostas para cada pergunta fechada. 
+-   As perguntas fechadas exigem uma lista de opções pré-definidas de respostas, e as perguntas podem ser estruturas para permitir que o participante selecione múltiplas respostas. As perguntas devem ser criadas para extrair informações específicas de um participante e devem estar vinculadas a um grupo de respostas que fornece opções de respostas para cada pergunta fechada. 
 
     > [!NOTE]
     > Para poder configurar perguntas fechadas, você deve criar grupos de respostas e respostas.
 
-As perguntas podem ser organizadas em uma hierarquia de perguntas condicionais, de tal modo que as perguntas secundárias sejam dependentes da resposta selecionada por um participante para a pergunta anterior. Você pode escrever as perguntas primeiro e organizá-las em uma hierarquia posteriormente.
+As perguntas podem ser organizadas em uma hierarquia de perguntas condicionais, de tal modo que as perguntas secundárias sejam dependentes da resposta selecionada por um participante para a pergunta anterior. Você pode escrever as perguntas primeiro e então organizá-las em uma hierarquia posteriormente.
 
 ## <a name="setting-up-questionnaires"></a>Configurando questionários
 
@@ -165,7 +163,7 @@ Você pode concluir as seguintes tarefas na página **Questionários**:
 -   Fazer alterações nos grupos de resultados e no número de sequência. 
 
 > [!CAUTION]
-> Cuidado quando você altera os questionários já respondidos. As alterações podem reduzir a precisão de estatísticas e, assim, torná-las uma base insuficiente para avaliação. Considere a criação de uma nova pergunta em vez de alterar uma pergunta que foi respondida anteriormente.
+> Cuidado quando você altera os questionários já respondidos. As alterações podem reduzir a precisão da estatísticas e, consequentemente, torná-las uma base insuficiente para a avaliação. Considere a criação de uma nova pergunta em vez de alterar uma pergunta que foi respondida anteriormente.
 
 Em um questionário, você não pode excluir os seguintes tipos de pergunta:
 
@@ -174,7 +172,7 @@ Em um questionário, você não pode excluir os seguintes tipos de pergunta:
 
 ### <a name="result-groups"></a>Grupos de resultados
 
-Os **Grupos de resultados** são opcionais ao anexar perguntas a um questionário. 
+Os grupos de resultados são opcionais ao anexar perguntas a um questionário. 
 
 Um grupo de resultados é usado para calcular pontos e categorizar os resultados de um questionário. Se você usar grupos de resultados, você pode executar as seguintes tarefas:
 
@@ -190,16 +188,16 @@ Um grupo de resultados é usado para calcular pontos e categorizar os resultados
 -   Definir pontos para respostas nos grupos de respostas que são atribuídos a cada pergunta.
 -   Configurar um questionário.
 
-Para anexar perguntas a um questionário usando grupos de resultados, primeiro configure os grupos de resultados do questionário e adicione questões aos grupos de resultados. Se você não usar grupos de resultados, poderá anexar perguntas diretamente em um questionário. 
+Para anexar perguntas a um questionário usando grupos de resultados, primeiro configure os grupos de resultados do questionário e adicione questões aos grupos de resultados. Se você não usar grupos de resultados, você pode anexar perguntas diretamente no questionário. 
 
-Você pode configurar vários grupos de resultados para avaliar os pontos obtidos por um entrevistado em cada categoria. Depois que um questionário é concluído, você pode exibir os pontos que foram obtidos para cada grupo de resultados. 
+Você pode configurar vários grupos de resultados para avaliar os pontos obtidos por um participante em cada categoria. Depois que um questionário é concluído, você pode exibir os pontos que foram obtidos para cada grupo de resultados. 
 
 > [!TIP]
-> Para avaliar um questionário usando pontos, mas não categorias separadas, você pode adicionar todas as perguntas a um único grupo de resultados. 
+> Para avaliar um questionário usando os pontos, mas não categorias separadas, você pode adicionar todas as perguntas a um único grupo de resultados. 
 
-Para cada grupo de resultados, você também pode configurar uma ou mais mensagens baseadas em pontos que entrevistados recebem após preencherem um questionário. O texto exibido varia de acordo com a pontuação atingida pelo participante em um grupo de resultados. Para usar mensagens baseadas em pontuação, você deve definir intervalos de pontos e uma descrição de cada intervalo. Quando um participante alcança uma pontuação em um intervalo específico, o texto referente ao intervalo é incluído no relatório de resultados. 
+Para cada grupo de resultados, você também pode configurar uma ou mais mensagens baseadas em pontuação que são exibidas a um participante após a conclusão de um questionário. O texto exibido pode variar de acordo com a pontuação atingida pelo participante em um grupo de resultados. Para usar mensagens baseadas em pontuação, você deve definir intervalos de pontos e uma descrição de cada intervalo. Quando um participante alcança uma pontuação em um intervalo específico, o texto referente ao intervalo é incluído no relatório de resultados. 
 
-Como um grupo de resultados está relacionado aos pontos associados a conjuntos específicos de perguntas em um questionário, você só pode usar um grupo de resultados específico para um questionário.
+Como um grupo de resultados está relacionado aos pontos associados a conjuntos específicos de perguntas em um questionário, você também pode usar somente um grupo de resultados específicos para um questionário.
 
 #### <a name="example-pointstexts-for-result-group-3"></a>Exemplo: Pontos/textos para um grupo de resultados 3
 
@@ -231,12 +229,10 @@ As hierarquias de perguntas condicionais são opcionais quando você configura u
 > [!NOTE]
 > Para que você possa definir uma hierarquia de perguntas condicionais, anexe as perguntas com grupos de respostas atribuídos ao questionário. 
 
-Para usar perguntas condicionais para criar uma hierarquia de perguntas em um questionário, você pode fazer a sequência em que as perguntas são apresentadas de acordo com as respostas selecionadas por um entrevistado para cada pergunta. Ao basear a sequência das perguntas na seleção de resposta do participante, você pode modificar o questionário conforme o participante o conclui.
+Para usar perguntas condicionais para criar uma hierarquia de perguntas em um questionário, você pode fazer a sequência em que as perguntas são apresentadas de acordo com as respostas selecionadas por um participante para cada pergunta. Ao basear a sequência das perguntas na seleção de resposta do participante, você pode modificar o questionário conforme o participante o conclui.
 
 #### <a name="examples"></a>Exemplos
 
-Uma entidade legal oferece serviços e itens para os clientes. Como costuma ocorrer nesses casos, alguns clientes compram apenas itens, alguns compram apenas serviços e outros compram itens e serviços. Portanto, quando a entidade legal distribui uma pesquisa de satisfação de cliente, ela aplica uma estrutura condicional ao questionário para impedir que os clientes que só adquirem serviços não precisem responder perguntas sobre itens. 
+Uma entidade legal oferece serviços e itens para seus clientes. Como normalmente ocorre em tais casos, alguns clientes adquirem apenas itens, alguns adquirem apenas serviços, e alguns adquirem itens e serviços. Portanto, quando a entidade legal distribui uma pesquisa de satisfação de cliente, ela aplica uma estrutura condicional ao questionário para impedir que os clientes que só adquirem serviços não precisem responder perguntas sobre itens. 
 
 Como alternativa, você pode definir um questionário para que se um participante selecionar a resposta A para a pergunta 1, a pergunta 2 seja a próxima na sequência de perguntas. No entanto, se o participante selecionar a resposta B para a pergunta 1, a pergunta 5 será a próxima.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

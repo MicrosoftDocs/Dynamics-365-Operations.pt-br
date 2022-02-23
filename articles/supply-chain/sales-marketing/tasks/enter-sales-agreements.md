@@ -1,25 +1,28 @@
 ---
 title: Inserir contratos de venda
 description: Este tópico explica como criar um contrato de venda que compromete um de seus clientes a comprar um produto, com um valor acordado durante um período, em troca de descontos especiais.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm, SalesAgreementCustomerReferencesPart
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee2c1494842c5fd2aa598546ba655c33d6fd3f16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5d69f3eaacea641460b407c1456ee50600262fee
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568294"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421986"
 ---
 # <a name="enter-sales-agreements"></a>Inserir contratos de venda
 
@@ -54,6 +57,3 @@ Este tópico explica como criar um contrato de venda que compromete um de seus c
 11. Selecione **OK**.
 12. Feche a página. O contrato agora está em vigor. Você pode começar a vincular as ordens do cliente ao contrato para deslocar em relação ao destino comprometido.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

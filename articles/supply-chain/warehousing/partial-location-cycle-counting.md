@@ -2,13 +2,16 @@
 title: Contagem cíclica parcial do local
 description: Os planos de contagem cíclica guiam as operações reais de contagem. Você pode solicitar que somente produtos e grades de produtos específicos sejam contados em vez de todo o estoque disponível no local.
 author: perlynne
+manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778425"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666737"
 ---
 # <a name="partial-location-cycle-counting"></a>Contagem cíclica parcial do local
 
@@ -46,7 +49,7 @@ Antes do trabalho de contagem cíclica parcial poder ser processado, você deve,
 Para o processo de contagem do ciclo parcial, a data ou a hora da **Contagem do último ciclo** não será atualizada para a localização, mesmo que todos os itens disponíveis em um determinado local sejam contados. A contagem do ciclo parcial não considera o parâmetro **Dias entre a contagem cíclica** na página **Planos de contagem cíclica**. A contagem de ciclos parciais não oferece suporte à contagem simultânea de vários itens no mesmo local. A funcionalidade de contagem de ciclos parciais pode resultar no mesmo local contado várias vezes para um item quando o **Plano de contagem cíclica do processo** é executado. Para evitar esse cenário, especifique filtros no campo **Selecionar locais**.
 
 > [!NOTE]
-> O aplicativo móvel do Gerenciamento de Depósito não fornece o botão **Adicionar LP ou item** quando você usa o processo de contagem de ciclo parcial.
+> O aplicativo de depósito não fornece o botão **Adicionar LP ou item** quando você usa o processo de contagem de ciclo parcial.
 
 ## <a name="example"></a>Exemplo
 
@@ -59,6 +62,3 @@ Por exemplo, somente o item número A0001 deve ser contado no depósito 61.
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Contagem cíclica](cycle-counting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

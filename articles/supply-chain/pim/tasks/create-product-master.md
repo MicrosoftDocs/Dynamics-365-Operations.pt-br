@@ -1,24 +1,27 @@
 ---
 title: Criar um produto mestre
 description: Crie um produto mestre para as variáveis predefinidas.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e76c367d4aa6c08332371374a26dd6fdbbdb4eb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fdb30b46a0e5a6d4fac997588dd47148f2664c03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577327"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422181"
 ---
 # <a name="create-a-product-master"></a>Criar um produto mestre
 
@@ -28,7 +31,7 @@ Crie um produto mestre para as variáveis predefinidas. A empresa de dados demo 
 
 
 ## <a name="create-a-new-product-master"></a>Criar um novo produto mestre
-1. Acesse **Painel de navegação > Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
+1. Vá para **Painel de navegação > Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
 2. Clique em **Novo**.
 3. No campo **Número do produto**, digite um valor. O número deve ser exclusivo. É possível definir uma sequência numérica para o campo **Número do produto**. Nesse caso, o usuário não precisará inserir um valor.
 4. No campo **Nome do produto**, digite um valor. Insira um nome de produto descritivo. O valor será padronizada pelo nome de pesquisa, mas isso pode ser alterado pelo usuário.
@@ -58,6 +61,3 @@ Crie um produto mestre para as variáveis predefinidas. A empresa de dados demo 
 10. Clique em **Salvar**.
 11. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

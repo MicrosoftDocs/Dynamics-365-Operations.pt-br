@@ -2,30 +2,35 @@
 title: módulo de endereço de remessa
 description: Este tópico abrange o módulo de endereço de remessa e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2021
+manager: annbe
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765185"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4410350"
 ---
-# <a name="shipping-address-module"></a>Módulo de endereço de remessa
+# <a name="shipping-address-module"></a>módulo de endereço de remessa
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve o módulo de endereço de remessa e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão Geral
 
 O módulo de endereço de remessa permite que os clientes adicionem ou selecionem o endereço de remessa para uma ordem durante o o fluxo de finalização de compra. Se o cliente estiver conectado, quaisquer endereços que foram salvos anteriormente para esse cliente serão exibidos e o cliente poderá selecionar entre eles. O cliente também pode adicionar um novo endereço. O módulo de endereço de remessa é usado para todos os itens em uma ordem que exija remessa.
 
@@ -37,16 +42,14 @@ Embora o módulo de endereço de remessa não forneça validação de endereço,
 
 A ilustração a seguir mostra um exemplo de um novo módulo de endereço de remessa em uma página de finalização de compra.
 
-![Exemplo de um módulo de endereço de remessa em uma página de finalização de compra.](./media/ecommerce-shippingaddress.PNG)
+![Exemplo de um módulo de endereço de remessa em uma página de finalização de compra](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Propriedades do módulo
 
 | Nome da propriedade | Valores | descrição |
 |---------------|--------|-------------|
-| Título | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um título opcional para o módulo de endereço de remessa. |
+| Cabeçalho | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um título opcional para o módulo de endereço de remessa. |
 | Mostrar tipo de endereço | **Verdadeiro** ou **Falso** | Se essa propriedade opcional for definida como **Verdadeira**, um tipo de endereço, como **Residencial** ou **Comercial**, será exibido. Se nenhum tipo de endereço for especificado, o endereço será salvo automaticamente como **Tipo**=**Outro**. |
-| Habilitar a sugestão automática| **Verdadeiro** ou **Falso** | Se essa propriedade opcional for definida como **Verdadeira**, sugestões de endereço automático serão fornecidas. Essas sugestões são desenvolvidas pelo Bing Maps. Para obter informações sobre como configurar a integração do Bing Maps para seu site, consulte [Módulo do seletor de armazenamento](store-selector.md). Este recurso está disponível a partir da versão 10.0.15 do Commerce.|
-|Opções de sugestão automática| Um número| Se as sugestões de endereço automático estiverem habilitadas, você poderá especificar opções adicionais, como o número máximo de sugestões que devem ser fornecidas.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Adicionar um módulo de endereço de remessa a uma página de finalização da compra e definir as propriedades necessárias
 
@@ -64,13 +67,8 @@ Um módulo de endereço de remessa pode ser adicionado somente a um módulo de f
 
 [Módulo de opções de entrega](delivery-options-module.md)
 
-[Módulo de informações de retirada](pickup-info-module.md)
+[Módulo de informações sobre retirada](pickup-info-module.md)
 
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 
 [Módulo de cartão-presente](add-giftcard.md)
-
-[Módulo de seletor de loja](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

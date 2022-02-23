@@ -1,38 +1,45 @@
 ---
 title: Configurar ativos fixos
 description: Este tópico fornece uma visão geral da configuração do módulo de ativos fixos.
-author: moaamer
-ms.date: 06/08/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13771
 ms.assetid: 8be64197-fea1-4a34-8af2-d939919c28b1
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 572d104bbc7024da1ea4b219fd3f544f36a88ccddcf1aa5d18065e2e08b93bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754209"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440503"
 ---
 # <a name="set-up-fixed-assets"></a>Configurar ativos fixos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral da configuração do módulo de **Ativos fixos**. 
+Este tópico fornece uma visão geral da configuração do módulo de **Ativos fixos**.
 
-Comportamento geral de controle de parâmetros no módulo Ativos fixos. Grupos de ativos fixos permitem agrupar seus ativos e especificar atributos padrão para cada ativo atribuído a um grupo. Livros são atribuídos a grupos de ativos fixos. Os livros acompanham o valor financeiro de um ativo fixo ao longo de tempo usando a configuração depreciação definida no perfil de depreciação.
+## <a name="overview"></a>Visão Geral
+
+Comportamento geral de controle de parâmetros no módulo Ativos fixos.
+
+Grupos de ativos fixos permitem agrupar seus ativos e especificar atributos padrão para cada ativo atribuído a um grupo. Livros são atribuídos a grupos de ativos fixos. Os livros acompanham o valor financeiro de um ativo fixo ao longo de tempo usando a configuração depreciação definida no perfil de depreciação.
 
 Ativos fixos são atribuídos a um grupo de itens ao serem criados. Por padrão, os ativos atribuídos - grupo de ativo fixo são alocados no fixos - ao ativo fixo. Os livros definidos para o lançamento na contabilidade são associados a um perfil de postagem. Contas contábeis são definidas para cada registro no perfil de lançamento e são usadas quando transações de ativos fixos são lançadas.
 
-![Componentes de ativos fixos.](./media/FAComponents_Updated.png)
+![Componentes de ativos fixos](./media/FAComponents_Updated.png)
 
 ## <a name="depreciation-profiles"></a>Perfis de depreciação
 
@@ -45,8 +52,6 @@ Após os perfis configurados de depreciação, você deve criar registros necess
 Um perfil de depreciação principal está atribuído a cada registro. Os registros também têm um perfil de depreciação alternativo ou de alternativa, se este tipo de perfil é aplicável. Para incluir automaticamente o registro em execuções de depreciação de ativos, você deve habilitar a opção **Calcule a depreciação**. Se essa opção não estiver habilitada para um ativo, a proposta de depreciação o ignora.
 
 Você também pode configurar livros derivados. As transações derivadas especificadas são lançadas nos registros derivados como uma cópia exata da transação principal. Portanto, as transações derivadas são normalmente configuradas para aquisições e eliminações, não para transações de depreciação. Para obter mais informações, consulte [Configurar modelos de valor](tasks/set-up-value-models.md).
-
-Uma opção na página **Parâmetros de ativos fixos** permite ativar ou desativar a funcionalidade de bloqueio. Este recurso é habilitado no **Espaço de trabalho de gerenciamento de recursos**.
 
 ## <a name="fixed-asset-posting-profiles"></a>Perfis de lançamentos de ativo fixo
 
@@ -72,8 +77,6 @@ O campo **Limite de capitalização** determina se os ativos são depreciados. S
 
 Uma opção importante é chamada **Criar automaticamente valores de ajuste da depreciação com alienação**. Quando você define essa opção como **Sim**, a depreciação do ativo é ajustada automaticamente, com base nas configurações de depreciação no momento da alienação do ativo. Outra opção permite deduzir descontos à vista do valor de aquisição quando você adquire ativos fixos usando uma fatura de fornecedor.
 
-O parâmetro **Bloquear livros de ativos em um diário de depreciação** permite que você bloqueie livros de ativos em um diário de depreciação. Quando as transações de depreciação estão sendo lançadas, o sistema verificará se o mesmo livro de ativos não foi adicionado a mais de um diário de depreciação. Se sim, esse livro de ativos será bloqueado e o lançamento será interrompido. Se uma ID do livro de ativos estiver em um diário bloqueado, ela será desbloqueada automaticamente quando o lançamento for concluído para o diário original. Você também pode desbloquear o diário manualmente. 
-
 Na Guia Rápida **Ordens de compra**, você pode configurar como deseja que os ativos sejam criados como parte do processo de compra. A primeira opção é chamada **Permitir a aquisição de ativos de Compras**. Se você definir esta opção como **Sim**, a aquisição de ativo quando a nota fiscal ocorre é lançada. Se você definir esta opção como **Não**, você ainda pode colocar um ativo em uma ordem de compra (PO) e a nota fiscal, mas a aquisição não será lançado. O lançamento deve ser feito como uma etapa separada do diário de ativos fixos. A opção **Criar um ativo durante o recebimento de produtos ou o lançamento de fatura** permite criar um novo ativo “no transporte” durante o lançamento. Portanto, o ativo não precisa ser configurado como um ativo fixo antes da transação. A última opção, **Cheque para a criação de ativos fixos durante a entrada linha** se aplica, somente as requisições de compra.
 
 Você pode configurar códigos razão que são necessários para alterações em um ativo fixo ou para transações de ativo fixo específicas.
@@ -81,6 +84,3 @@ Você pode configurar códigos razão que são necessários para alterações em
 Por fim, na guia **Sequências numéricas**, defina sequências numéricas para ativos fixos. A sequência numérica do **Ativo fixo** pode ser substituída pela sequência numérica do **Grupo de ativos fixos** se tiver sido especificada.
 
 Para saber mais, consulte [Criar um ativo fixo](tasks/create-fixed-asset.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

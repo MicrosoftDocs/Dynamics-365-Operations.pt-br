@@ -2,9 +2,11 @@
 title: SPED fiscal ICMS-IPI layout 014
 description: Este tópico explica como configurar e gerar o layout de demonstrativo 014 do SPED fiscal.
 author: sndray
+manager: AnnBe
 ms.date: 01/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37b913236f12b357b5f2b51dc2dfd84122cb700f9a44e662329d9ed431d0547c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 467b894b6401a368441fbdce5c86e49529619324
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723741"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962573"
 ---
 # <a name="sped-fiscal-icms-ipi-layout-014"></a>SPED fiscal ICMS-IPI layout 014 
 
@@ -25,11 +27,11 @@ ms.locfileid: "6723741"
 
 Este tópico explica como configurar e gerar o layout de demonstrativo 014 do SPED fiscal. Este layout é aplicável a partir de janeiro de 2020, no guia prático, **EFD-ICMS/IPI – versão 3.0.3**.
 
-Para exibir o novo layout, Acesse **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais** \> **SPED Fiscal** \> **Parâmetros do SPED Fiscal** \> **Versão do layout**.
+Para exibir o novo layout, vá para **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais** \> **SPED Fiscal** \> **Parâmetros do SPED Fiscal** \> **Versão do layout**.
 
 ## <a name="record-0002-classification-of-fiscal-establishment"></a>Registro 0002: classificação do estabelecimento fiscal
 
-O registro 0002 é gerado quando o campo **IND\_ATIV** do registro 0000 é definido como **0** (zero) e a classificação do estabelecimento fiscal é configurada e atribuída. Para configurar a classificação e atribuí-la ao estabelecimento fiscal, Acesse **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais** \> **SPED fiscal** \> **Parâmetros do SPED Fiscal** \> **Classificação**.
+O registro 0002 é gerado quando o campo **IND\_ATIV** do registro 0000 é definido como **0** (zero) e a classificação do estabelecimento fiscal é configurada e atribuída. Para configurar a classificação e atribuí-la ao estabelecimento fiscal, vá para **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais** \> **SPED fiscal** \> **Parâmetros do SPED Fiscal** \> **Classificação**.
 
 Se mais de um tipo de classificação se aplicar ao estabelecimento fiscal, selecione a classificação mais relevante.
 
@@ -59,18 +61,18 @@ Antes de habilitar a geração dos registros C180, C185, 1010 e 1250, você deve
 
 Em seguida, siga as etapas abaixo para configurar a regra que permitirá a geração dos registros. A regra deve ser configurada para cada estado.
 
-1. Acesse **Livros fiscais** \> **Configurar** \> **Parâmetros de livros fiscais por estado**.
+1. Vá para **Livros fiscais** \> **Configurar** \> **Parâmetros de livros fiscais por estado**.
 2. Selecione o estado relacionado. Por exemplo, para o estado de São Paulo, selecione **SP**.
 3. Defina a opção **Habilitar registro C180 e C185** como **Sim** para gerar os registros relacionados. Além disso, também serão geradas instâncias do registro H030 com o campo **MOT\_INV** definido como **06**, H005, 1010, 1250 e 1255.
 4. No campo **Algoritmo de cálculo de impostos presumidos do SPED**, selecione o método de cálculo. Os valores calculados no processo de imposto presumido serão relatados no registro C185.
     
-![Página Parâmetros de livros fiscais por estado.](media/bra-sped-Fiscal014-Setup.png)  
+![Página Parâmetros de livros fiscais por estado](media/bra-sped-Fiscal014-Setup.png)   
 
 ### <a name="table-57--reason-code-table-for-complement-and-restitution"></a>Tabela 5.7 – Tabela de códigos de motivo para complemento e restituição
 
-A Tabela 5.7 representa a classificação para complemento e restituição (remuneração) dos valores do ICMS-ST. Essa tabela é implementada por cada estado. Para configurá-la, Acesse **Livros fiscais** \> **Configuração** \> **Código de motivo para complemento e restituição**.
+A Tabela 5.7 representa a classificação para complemento e restituição (remuneração) dos valores do ICMS-ST. Essa tabela é implementada por cada estado. Para configurá-la, vá para **Livros fiscais** \> **Configuração** \> **Código de motivo para complemento e restituição**.
 
-![Página Código de motivo para complemento e restituição.](media/bra-sped-fiscal014-table57-setup.png)
+![Página Código de motivo para complemento e restituição](media/bra-sped-fiscal014-table57-setup.png)
 
 Depois de concluir a configuração da tabela de códigos de motivo (tabela 5.7), acesse **Livros fiscais** \> **Configuração** \> **Determinação da Tabela 5.7** e configure a determinação usando os seguintes critérios:
 
@@ -78,9 +80,9 @@ Depois de concluir a configuração da tabela de códigos de motivo (tabela 5.7)
 - Código CFOP
 - Código de tributação
 
-![Página Determinação da Tabela 5.7.](media/bra-sped-fiscal014-table57-determination-setup.png)
+![Página Determinação da Tabela 5.7](media/bra-sped-fiscal014-table57-determination-setup.png)
 
-### <a name="record-c180"></a>C180 do registro
+### <a name="record-c180"></a>Registro C180
 
 O registro C180 é um novo registro. Ele apresenta informações complementares para os modelos de notas fiscais de entrada 01, 1B, 04 e 55 para transações que incluem o tipo de imposto ICMS-ST. Esse registro é gerado com base nos seguintes critérios:
 
@@ -235,6 +237,3 @@ O registro G140 é gerado para identificar a nota fiscal das operações CIAP. O
 | 7      | VL\_ICMS\_ST\_APLICADO  | O valor do ICMS-ST da nota fiscal de entrada. Esse valor vem da coluna **ICMS-ST** da apuração do CIAP. |
 | 8      | VL\_ICMS\_FRT\_APLICADO | O valor do ICMS da nota fiscal de entrada. Esse valor vem da coluna **ICMS no frete** da apuração do CIAP. |
 | 9      | VL\_ICMS\_DIF\_APLICADO | O valor do ICMS-DIF da nota fiscal de entrada. Esse valor vem da coluna **ICMS-DIF** da apuração do CIAP. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

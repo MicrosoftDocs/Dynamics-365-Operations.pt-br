@@ -2,24 +2,27 @@
 title: Agrupamento do sistema em uma lista de trabalho aberta
 description: Este tópico descreve como filtrar a lista aberta de trabalho em um dispositivo móvel.
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 588744ea19f387b57405030618a6ff176161a8a3639bd58232a657bdaf064a04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733291"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422047"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>Agrupamento do sistema em uma lista de trabalho aberta
 
@@ -39,6 +42,3 @@ Use estas etapas para configurar o agrupamento do sistema em uma lista de trabal
 | Campo de agrupamento do sistema | Disponível se <strong>Permitir trabalhos de sistema</strong> estiver definido como <strong>Sim</strong>. Selecione o campo que determina como o trabalho de escolha será agrupado para os trabalhadores. Por exemplo, se você selecionar o campo <strong>ShipmentId</strong>, o trabalhador verificará a ID da remessa para agrupar o trabalho de separação. Todo o trabalho para a remessa será então atribuído ao trabalhador. Este campo requer que você crie um item de menu para usar o trabalho existente agrupado pelo sistema. Use o campo <strong>Rótulo do agrupamento de sistema</strong> para informar ao trabalhador o que verificar. |
 | Etiqueta de agrupamento do sistema |                       Disponível se <strong>Permitir trabalhos de sistema</strong> estiver definido como <strong>Sim</strong>. Insira as informações para o trabalhador sobre o que verificar quando o trabalho de separação for agrupado. Por exemplo, se você estiver usando o campo <strong>ShipmentId</strong> para agrupar o trabalho de separação por remessa, poderá inserir ID da Remessa no campo. Este campo requer que você crie um item de menu para usar o trabalho existente agrupado pelo sistema. Você também deverá selecionar o campo para agrupar no campo <strong>Agrupamento do sistema</strong>.                       |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

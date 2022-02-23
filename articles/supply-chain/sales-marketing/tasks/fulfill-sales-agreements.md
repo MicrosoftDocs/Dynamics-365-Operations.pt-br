@@ -1,24 +1,27 @@
 ---
 title: Cumprir contratos de venda
 description: Este procedimento mostra como atender a um contrato de venda associando ordens de venda a ele.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesTableListPage, SalesTable, AgreementLine, SalesCreateOrder,  SalesEditLines, SalesAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe26d528e42da61d47fd2448e071bf9025c08f5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7d3a35c7140b886f931df48e583b1582201b6547
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573384"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421985"
 ---
 # <a name="fulfill-sales-agreements"></a>Cumprir contratos de venda
 
@@ -30,7 +33,7 @@ Este procedimento mostra como atender a um contrato de venda associando ordens d
 
 
 ## <a name="release-a-sales-order-from-the-agreement"></a>Liberar uma ordem de venda do contrato
-1. Acesse Vendas e marketing > Contratos de venda > Contratos de venda.
+1. Vá para Vendas e marketing > Contratos de venda > Contratos de venda.
 2. Na lista, abra o contrato com o qual você deseja liberar a ordem.
 3. No Painel de Ação, clique em Contrato de venda.
 4. Clique em Liberar ordem.
@@ -40,7 +43,7 @@ Este procedimento mostra como atender a um contrato de venda associando ordens d
     * A mensagem informa que a ordem de vendas foi criada. Como a ordem não contém nenhuma linha, você deve adicionar os detalhes da linha da ordem para concluir o processo de liberação.   
 6. Feche a página.
 7. Feche a página.
-8. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+8. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 9. Na lista, localize e abra a ordem que foi criada como resultado da versão da ordem na tarefa anterior.
 10. Clique em Adicionar nova linha.
 11. No campo Número de item, clique no botão suspenso para abrir a pesquisa.
@@ -62,7 +65,7 @@ Este procedimento mostra como atender a um contrato de venda associando ordens d
 23. Feche a página.
 
 ## <a name="apply-sales-agreement-in-the-order-process"></a>Aplicar contrato de venda no processo de ordem
-1. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+1. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta do cliente, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o cliente especificado no contrato de venda.
@@ -87,6 +90,3 @@ Este procedimento mostra como atender a um contrato de venda associando ordens d
 23. Clique em Contrato de venda anexado.
 24. Clique na guia Atendimento.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

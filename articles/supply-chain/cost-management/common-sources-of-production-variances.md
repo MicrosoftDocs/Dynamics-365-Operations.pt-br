@@ -2,13 +2,16 @@
 title: Fontes comuns de variações de produção
 description: Este artigo aborda várias fontes típicas de cada tipo de variação de produção.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcVarianceTrans
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 79753
 ms.assetid: 14ac7db4-fb40-43c1-bb0d-1d51fc91d24f
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce352db56fe41264562fd11260f9fa91931babeeb62d352327a588fb622492d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc310f1d5e1f99a320b803f68395d0926d39780b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766185"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422385"
 ---
 # <a name="common-sources-of-production-variances"></a>Fontes comuns de variações de produção
 
@@ -60,6 +63,3 @@ Veja a seguir algumas origens típicas de uma variação **substituição de pro
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

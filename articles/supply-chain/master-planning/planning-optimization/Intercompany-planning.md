@@ -2,13 +2,16 @@
 title: Planejamento intercompanhia
 description: Este tópico descreve o planejamento intercompanhia e explica como configurar o planejamento intercompanhia com a Otimização de Planejamento no Microsoft Dynamics 365 Supply Chain Management.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
+ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777902"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672170"
 ---
 # <a name="intercompany-planning"></a>Planejamento intercompanhia
 
@@ -45,15 +48,15 @@ Se você executar o planejamento mestre a partir de um plano mestre que inclui a
 
 Para usar o planejamento intercompanhia, você deve preparar o sistema da seguinte maneira:
 
-1. Os produtos relevantes devem ser liberados em todas as empresas relevantes. Para obter mais informações, consulte [Configurar e usar comércio intercompanhia no Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) no Microsoft Learn.
-1. A demanda downstream deve ser coberta pelas compras de um fornecedor que tenha uma relação intercompanhia para a empresa de upstream e as dimensões de estoque padrão relevantes (site e depósito) no cliente. Para obter mais informações, consulte [Configurar e usar comércio intercompanhia no Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) no Microsoft Learn.
+1. Os produtos relevantes devem ser liberados em todas as empresas relevantes. Para obter mais informações, consulte [Configurar e usar comércio intercompanhia no Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) no Microsoft Learn.
+1. A demanda downstream deve ser coberta pelas compras de um fornecedor que tenha uma relação intercompanhia para a empresa de upstream e as dimensões de estoque padrão relevantes (site e depósito) no cliente. Para obter mais informações, consulte [Configurar e usar comércio intercompanhia no Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) no Microsoft Learn.
 1. O plano mestre na empresa de upstream deve incluir a demanda de downstream planejada; a empresa e o plano mestre relevantes devem ser especificados nos planos downstream.
 
 ## <a name="include-planned-downstream-demand"></a>Incluir a demanda downstream planejada
 
 Siga estas etapas para configurar seu plano mestre de forma que inclua a demanda downstream planejada.
 
-1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. Selecione ou crie um plano mestre.
 1. Na FastTab **Planejamento intercompanhia**, defina os seguintes campos:
 
@@ -66,7 +69,7 @@ Na vinculação de vários níveis, você pode exibir a vinculação entre empre
 
 Para exibir informações de vinculação de vários níveis, siga estas etapas.
 
-1. Acesse **Planejamento mestre \> Planejamento mestre \> Ordens planejadas**.
+1. Vá para **Planejamento mestre \> Planejamento mestre \> Ordens planejadas**.
 1. Selecione ou abra uma ordem planejada.
 1. No Painel de Ações, na guia **Exibir**, no grupo **Requisitos**, selecione **Vinculação de vários níveis**.
 
@@ -76,7 +79,7 @@ Neste exemplo, uma ordem de produção planejada é criada na empresa USMF para 
 
 A ilustração a seguir mostra como esse exemplo pode aparecer na página **Vinculação de vários níveis** para a ordem de produção planejada.
 
-![Exemplo de intercompanhia que envolve duas empresas.](media/IntercompanyPlanning1.png)
+![Exemplo de intercompanhia que envolve duas empresas](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>Exemplo de intercompanhia que envolve três empresas
 
@@ -84,7 +87,4 @@ Neste exemplo, uma ordem de compra planejada é criada na empresa USMF para cobr
 
 A ilustração a seguir mostra como esse exemplo pode aparecer na página **Vinculação de vários níveis** para a ordem de produção planejada.
 
-![Exemplo de intercompanhia que envolve três empresas.](media/IntercompanyPlanning2.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Exemplo de intercompanhia que envolve três empresas](media/IntercompanyPlanning2.png)

@@ -2,30 +2,35 @@
 title: Trabalhar com módulos
 description: Este tópico descreve como e quando usar os módulos no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728255"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410206"
 ---
 # <a name="work-with-modules"></a>Trabalhar com módulos
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como e quando usar os módulos no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 Módulos são blocos de construção lógicos que compõem a estrutura da sua página e têm vários objetivos e escopos. Alguns módulos são contêineres de alto nível e seu único objetivo é manter e organizar outros módulos (módulos filhos). Outros módulos, como um módulo simples de posicionamento de imagem, têm uma finalidade muito específica. Outros módulos, como um módulo de carrossel, estão em algum lugar entre essas duas categorias.
 
@@ -53,7 +58,7 @@ A maioria das atividades típicas diárias de criação de página e conteúdo e
 
 A ilustração a seguir mostra como os módulos são aninhados nos slots de módulo de contêiner pai.
 
-![Aninhar módulos.](../commerce/media/basic-module-nesting.png)
+![Aninhando módulos](../commerce/media/basic-module-nesting.png)
 
 ## <a name="add-or-remove-modules"></a>Adicionar ou remover módulos
 
@@ -168,6 +173,3 @@ Para configurar um módulo de contêiner em uma página, siga estas etapas.
 
 [Trabalhar com grupos de publicações](publish-groups.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

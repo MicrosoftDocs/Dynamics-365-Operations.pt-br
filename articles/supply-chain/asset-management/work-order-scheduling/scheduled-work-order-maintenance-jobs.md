@@ -1,10 +1,12 @@
 ---
 title: Trabalhos de manutenção da ordem de serviço agendados
 description: Este tópico explica os trabalhos de manutenção de ordem de serviço agendados no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 077ea3c122086ec0f06722f8f166f057ffa36ec60ec55da334c9b563210b362b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 432dfffffb5e8bbf6da42b3a79bd9ea4330640b3
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748024"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017583"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Trabalhos de manutenção da ordem de serviço agendados
 
@@ -47,8 +49,5 @@ A página **Trabalhos de manutenção de ordens de serviço agendadas** mostra u
 
 A captura de tela abaixo mostra um exemplo da página **Trabalhos de manutenção de ordens de serviço agendadas**.
 
-![Figura 1.](media/07-work-order-scheduling.png)
+![Figura 1](media/07-work-order-scheduling.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

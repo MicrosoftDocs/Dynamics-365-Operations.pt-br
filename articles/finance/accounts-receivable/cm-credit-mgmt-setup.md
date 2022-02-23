@@ -1,23 +1,26 @@
 ---
 title: Configuração dos parâmetros de gerenciamento de crédito
 description: Este tópico descreve as opções que você pode usar para configurar o Gerenciamento de crédito de acordo com as necessidades da sua empresa.
-author: JodiChristiansen
-ms.date: 12/10/2021
+author: mikefalkner
+manager: AnnBe
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 0b25bbeb270f33d1d158de2091ab86e7e98be98a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921206"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440316"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuração dos parâmetros de gerenciamento de crédito
 
@@ -31,7 +34,7 @@ Existem quatro FastTabs na seção **Crédito** onde é possível alterar os par
 
 ### <a name="credit-holds"></a>Bloqueios de crédito
 
-- Defina a opção **Permitir a edição das ordens de venda após a liberação do bloqueio da ordem** como **Sim** para exigir que as regras de lançamento sejam verificadas novamente se o valor da ordem de venda (preço bruto) tiver sido aumentada desde que a ordem de venda foi liberada da lista de bloqueio.
+- Defina a opção **Permitir a edição das ordens de venda após a liberação do bloqueio da ordem** como **Sim** para exigir que as regras de lançamento sejam verificadas novamente se o valor da ordem de venda (preço bruto) tiver sido aumentada desde que a ordem de venda foi liberada da lista de bloqueio. .
 - No campo **Motivos das ordens canceladas**, selecione o motivo de liberação que será usado por padrão quando uma ordem de venda que estava em bloqueio de gerenciamento de crédito for cancelada.
 - Defina a opção **Verificar limite de crédito de grupos de crédito de cliente** como **Sim** para verificar o limite de crédito de um grupo de crédito de cliente quando o cliente em uma ordem de venda pertencer a um grupo de crédito de cliente. O limite de crédito do grupo será verificado e, se for suficiente, o limite de crédito do cliente será verificado.
 - Defina a opção **Verificar o limite de crédito quando as condições de pagamento forem estendidas** como **Sim** para verificar as classificações de condições de pagamento a fim de determinar se as condições de pagamento na ordem de venda diferem das condições de pagamento padrão do cliente. Se as novas condições de pagamento tiverem uma classificação superior à das condições de pagamento originais, a ordem será colocada em bloqueio de gerenciamento de crédito.
@@ -72,14 +75,7 @@ Várias estatísticas de gerenciamento de crédito são incluídas no Quadro de 
 
 - No Gerenciamento de crédito, o limite de crédito do cliente é mostrado na moeda do cliente. Você deve definir o tipo de taxa de câmbio para o limite de crédito na moeda do cliente. No campo **Tipo de taxa de câmbio de limite de crédito**, selecione o tipo de taxa de câmbio que deve ser usado para converter o limite de crédito principal para o limite de crédito do cliente.
 - Defina a opção **Permitir a edição manual de limites de crédito** como **Não** para impedir que os usuários editem os limites crédito na página **Cliente**. Se esta opção for definida como **Não**, as alterações no limite de crédito de um cliente só poderão ser feitas lançando transações de ajuste de limite de crédito.
-- Defina a opção **Ignorar reservas de estoque** como **Sim** para desconsiderar as reservas de estoque quando as regras de bloqueio de gerenciamento de crédito são verificadas. Nesse caso, o sistema verificará as quantidades completas de linha e habilitará os períodos de cortesia do ponto de verificação, independentemente da quantidade de reserva de estoque.
-- Quando o gerenciamento de crédito está habilitado, a configuração do campo **Mensagem quando o limite de crédito for excedido** é usada para processar somente faturas de texto livre. Embora as mensagens ainda sejam adicionadas a ordens de venda quando os clientes excederam seu limite de crédito, a presença dessas mensagens não bloqueará a confirmação, a impressão de listas de separação e guias de remessa ou o lançamento de faturas.
-
-    O gerenciamento de crédito é habilitado por padrão, mas você pode desabilitá-lo. Se estiver habilitado, você poderá usar os pontos de verificação e as regras de bloqueio de gerenciamento de crédito para identificar quando os clientes excederam seu limite de crédito. Se estiver desabilitado, as mensagens adicionadas às ordens de venda com base na configuração do campo **Mensagem quando o limite de crédito for excedido** podem ajudá-lo a identificar quando os clientes excederam seu limite de crédito.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Sequências numéricas e parâmetros compartilhados de sequência numérica
 
 Uma ID de diário é necessária para processar ajustes de limite de crédito. Você deve adicionar o número do ajuste de limite de crédito que deve ser usado para gerar a ID do diário.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

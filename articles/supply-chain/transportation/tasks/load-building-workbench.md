@@ -2,28 +2,29 @@
 title: Bancada de criação de carga
 description: Este tópico descreve como trabalhar com a bancada de criação de carga.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574848"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646361"
 ---
 # <a name="load-building-workbench"></a>Bancada de criação de carga
-
-[!include [banner](../../includes/banner.md)]
 
 A bancada de criação de carga permite aplicar estratégias de criação de carga ao criar cargas.
 
@@ -40,7 +41,7 @@ Para usar a estratégia pronta para uso *Estratégia de criação de carga com b
 
 Para elaborar uma estratégia de criação de carga, siga estas etapas.
 
-1. Acesse **Gerenciamento de transporte &gt; Configuração &gt; Criação de carga &gt; Estratégias de criação de carga**.
+1. Vá para **Gerenciamento de transporte &gt; Configuração &gt; Criação de carga &gt; Estratégias de criação de carga**.
 1. No Painel de Ações, selecione **Gerar lista de classes** para verificar se você tem as versões mais recentes de todas as classes disponíveis.
 1. No Painel de Ações, selecione **Novo**.
 1. Insira um nome exclusivo para a estratégia, selecione a classe de estratégia de criação de carga e insira uma descrição.
@@ -55,7 +56,7 @@ Agora você pode atribuir a estratégia de criação de carga a um modelo de cri
 
 ## <a name="use-a-load-building-strategy-in-the-load-building-workbench"></a>Usar uma estratégia de criação de carga na bancada de criação de carga
 
-1. Acesse **Gerenciamento de transporte &gt; Planejamento &gt; Bancada de criação de carga**.
+1. Vá para **Gerenciamento de transporte &gt; Planejamento &gt; Bancada de criação de carga**.
 1. Siga uma destas etapas:
 
     - Selecione uma estratégia no campo **Estratégia de criação de carga**.
@@ -66,6 +67,3 @@ Agora você pode atribuir a estratégia de criação de carga a um modelo de cri
 1. Revise as cargas propostas e as linhas de cargas propostas.
 1. No Painel de Ações, selecione **Criar cargas** para criar cargas com base nas linhas do documento de origem na FastTab **Linhas de cargas propostas**.
 1. Feche a página **Bancada de criação de carga**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

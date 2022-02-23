@@ -1,28 +1,31 @@
 ---
-title: Contrapartidas padrão para faturas de fornecedor e diários de aprovação de fatura
+title: Contrapartidas padrão para diários de faturas de fornecedor e diários de aprovação de faturas
 description: Este tópico ajudará você a decidir onde deve atribuir contas padrão para diários de fatura.
 author: abruer
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 62093
 ms.assetid: 553933ca-928d-4031-bb8c-f9cff458320b
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1b0184850602191da5448df25779437f70e5c3182e1b7b70d92d4c406e08599
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c6ff4e209f1d1c41d7c05cad735aacc320bdeb83
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749019"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440270"
 ---
-# <a name="default-offset-accounts-for-vendor-invoice-and-invoice-approval-journals"></a>Contrapartidas padrão para faturas de fornecedor e diários de aprovação de fatura
+# <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Contrapartidas padrão para diários de faturas de fornecedor e diários de aprovação de faturas
 
 [!include [banner](../includes/banner.md)]
 
@@ -95,6 +98,3 @@ Use a tabela a seguir para ajudar a decidir onde você deve atribuir contas padr
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,48 +1,48 @@
 ---
-title: Dados externos em previsões de fluxo de caixa
-description: Este tópico descreve as etapas de configuração que devem ser concluídas para que os dados externos sejam inseridos ou importados para previsões de fluxo de caixa.
+title: Usar dados externos em previsões de fluxo de caixa (versão prévia)
+description: Este tópico descreve as etapas de configuração que devem ser concluídas para que os dados externos possam ser inseridos ou importados para previsões de fluxo de caixa.
 author: rcarlson
-ms.date: 12/21/2021
+manager: AnnBe
+ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 8284ccd7ac383c53960f7fd6a1333aeb0e7e6f3c
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 801327dc54f6d4cfef7a9f062395e29846783e8f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969003"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644936"
 ---
-# <a name="external-data-in-cash-flow-forecasts"></a>Dados externos em previsões de fluxo de caixa
+# <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Usar dados externos em previsões de fluxo de caixa (versão prévia)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Os dados externos podem ser inseridos ou importados para previsões de fluxo de caixa. Este tópico descreve as etapas de configuração específicas ao uso de dados externos e que permitem que os dados externos sejam incluídos em uma previsão de fluxo de caixa.
 
 ## <a name="external-data-setup"></a>Dados mestres externos
 
-Use a guia **Fonte externa** na página **Configuração de previsão de fluxo de caixa** (**Gerenciamento de caixa e de banco \> Previsão de fluxo de caixa \> Configuração da previsão de fluxo de caixa**) para inserir configurações que dão suporte ao uso de dados externos em previsões de fluxo de caixa.
+Use a guia **Fonte externa** na página **Configuração de previsão de fluxo de caixa** (**Gerenciamento de caixa e de banco \> Previsão de fluxo de caixa**) para inserir configurações que suportam o uso de dados externos em previsões de fluxo de caixa.
 
-Os dados externos podem ser inseridos ou importados para previsões de fluxo de caixa. Antes que os dados externos sejam inseridos ou importados, as origens externas devem ser configuradas. Na guia **Fonte externa**, configure categorias externas de fluxo de caixa. Uma categoria pode ser de **Saída** ou de **Entrada**. A **liquidez** deve ser selecionada como o tipo de lançamento. Na grade **Configurações da entidade legal**, selecione as entidades legais e as contas principais correspondentes às quais as categorias externas de fluxo de caixa se aplicam.
+Para obter mais informações sobre a configuração, consulte [Previsão de fluxo de caixa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting).
 
-Para obter mais informações sobre como configurar previsões de fluxo de caixa, consulte [Previsão de fluxo de caixa](../cash-bank-management/cash-flow-forecasting.md).
+Para inserir dados externos para previsões de fluxo de caixa, você pode usar a experiência Abrir no Excel para inserir e modificar dados externos. Selecione o botão **Dados externos** e selecione **Adicionar dados externos** ou **Editar dados externos existentes**. Quando o arquivo do Microsoft Excel é aberto, você pode inserir informações nos seguintes campos:
 
-## <a name="enter-external-data"></a>Inserir dados externos
-
-Para inserir e modificar dados externos para previsões de fluxo de caixa, você pode usar a experiência **Abrir no Excel**. Selecione o botão **Dados externos** na página **Configuração da previsão de fluxo de caixa** e, depois, selecione **Adicionar Dados Externos** ou **Editar dados externos existentes**. Quando o arquivo do Microsoft Excel é aberto, você pode inserir informações nos seguintes campos:
-
-- **ID da Entrada** (exclusivo)
+- **ID da Entrada**
 - **Descrição** (opcional)
-- **Nome de Origem Externo** – selecione um dos valores na lista que você definiu ao configurar o Finance Insights.
+- **Nome de origem externo** – Selecione um dos valores na lista que você definiu ao configurar o Finance Insights.
 - **Entidade legal**
 - **Data**
 - **Valor na moeda de transação**
@@ -61,4 +61,5 @@ Além disso, se você precisar mover os dados de configuração de um ambiente p
 - Configuração da fonte externa de previsão de fluxo de caixa
 - Configuração da entidade legal de fonte externa de previsão de fluxo de caixa
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+#### <a name="privacy-notice"></a>Aviso de privacidade
+As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.

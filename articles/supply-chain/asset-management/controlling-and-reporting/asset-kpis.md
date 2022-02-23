@@ -1,10 +1,12 @@
 ---
 title: KPIs do ativo
 description: Este tópico explica KPIs de ativo no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778739"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021771"
 ---
 # <a name="asset-kpis"></a>KPIs do ativo
 
@@ -82,11 +84,8 @@ Na tabela abaixo, você encontrará uma descrição dos campos na página **KPIs
 
 A figura abaixo mostra uma captura de tela de um cálculo de KPI para quatro ativos.
 
-![Captura de tela de um cálculo de KPI para quatro ativos.](media/11-controlling-and-reporting.png)
+![Captura de tela de um cálculo de KPI para quatro ativos](media/11-controlling-and-reporting.png)
 
 - Você pode selecionar vários ativos em **Todos os ativos** e clicar no botão **KPIs do ativo** na guia **General**. Em seguida, clique em **OK** na caixa de diálogo **Calcular KPIs de ativo** para calcular KPIs para os ativos selecionados.  
 - Os resultados de um cálculo de KPI podem ou não incluir [registros de tempo de inatividade de manutenção](../work-orders/maintenance-downtime.md), dependendo da configuração e do uso dos códigos de motivo de tempo de inatividade de manutenção. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

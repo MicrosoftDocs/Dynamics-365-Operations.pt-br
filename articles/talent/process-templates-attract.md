@@ -71,6 +71,3 @@ Siga estas etapas para criar um modelo de processo de contratação.
     - Para remover uma atividade, expanda-a e depois selecione o botão de lixeira no cabeçalho da atividade.
 
 8. Selecione **Salvar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

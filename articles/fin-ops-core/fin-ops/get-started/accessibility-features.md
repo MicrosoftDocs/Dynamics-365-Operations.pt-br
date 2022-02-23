@@ -2,9 +2,11 @@
 title: Recursos de acessibilidade
 description: Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071049"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798686"
 ---
 # <a name="accessibility-features"></a>Recursos de acessibilidade
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências a usar este aplicativo. Por exemplo, há recursos para pessoas que usam tecnologias assistivas visuais, como o Narrador do Microsoft Windows.
 
@@ -55,13 +54,13 @@ Cada ação que é fornecida em uma página pode ser acessada de um teclado pela
 
 Você deseja executar a ação **Log de notificação por email** exibida no grupo **Notificação por email** na guia **Ordem de venda** no Painel de Ação.
 
-![Ação Log de notificação por email no Painel de Ação.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Ação 'Log de notificação por email' no Painel de Ações")
+![Ação Log de notificação por email no Painel de Ação](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Ação 'Log de notificação por email' no Painel de Ação")
 
 Uma opção é usar o teclado. Pressione Ctrl+F6 para mover o foco para o Painel de Ação e, em seguida, pressione Tab repetidamente para se mover por todas as guias e ações, até focalizar a ação **Log de notificação por email**.
 
 No entanto, também é possível executar a ação de forma mais direta. Em qualquer lugar da página, pressione Ctrl+Apóstrofo (') para exibir a caixa de pesquisa para ações.
 
-![Caixa de pesquisa para ações.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Caixa de pesquisa para ações")
+![Caixa de pesquisa para ações](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Caixa de pesquisa para ações")
 
 Na caixa de pesquisa, digite palavras que descrevam a ação. A ação será disponibilizada e você poderá executá-la diretamente. Por exemplo, digitando **email**, **notific** (uma palavra parcial) ou **log**, você pode ir para a funcionalidade de log de notificação por email.
 
@@ -98,6 +97,3 @@ Em smartphones e outras telas pequenas, os controles e o layout do formulário s
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Orientações para ajudar os desenvolvedores e clientes a incorporar pensamento acessível em suas personalizações
 
 Para saber mais sobre as práticas recomendadas da Microsoft para ativar a acessibilidade, consulte [Acessibilidade em formulários, produtos e controles](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
 title: Atribuição de imposto e substituições
 description: Este procedimento demonstra como atribuir grupos dos impostos sobre venda aos canais de comércio.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTaxOverrideCode, RetailTaxOverrideGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f72c9ffde760c1bc151ee15fe050f3704e43d83e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1c6e1de5046a3ce5d896ba3686a28d6d474d4268
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577207"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020718"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a> Substituições e atribuições de impostos
 
@@ -26,14 +28,14 @@ ms.locfileid: "7577207"
 
 Este procedimento demonstra como atribuir grupos dos impostos sobre venda aos canais de comércio. Também mostra o processo de criação de uma substituição de impostos e atribuição da mesma ao grupo de substituição de impostos existente. Este procedimento usa a empresa USRT nos dados de demonstração.
 
-1. Acesse Retail e Commerce > Canais > Lojas > Todas as lojas.
+1. Vá para Retail e Commerce > Canais > Lojas > Todas as lojas.
 2. Na lista, clique no link do ID do Canal para "Houston".
 3. Clique em Editar.
     * O campo "Grupo de impostos sobre vendas" contém a lista de grupos de imposto para a empresa atual. O grupo atualmente atribuído é um grupo genérico dos impostos sobre venda de "Texas". Também há grupos de impostos para "Washington" e "Washington, King County". Os grupos de impostos podem incluir impostos aplicáveis a várias municipalidades.  
     * O campo "Substituição de imposto" é onde os grupos de imposto de substituição podem ser mapeados ao canal. Os grupos da substituição dos impostos sobre venda podem ser usados para agrupar junto impostos sobre venda que cancelam esse trabalho para lojas múltiplas. Em vez de atribuir manualmente substituição de impostos sobre venda um por um, o grupo pode ser criado e atribuído diretamente aos canais para ganhar o tempo.  
 4. Clique em Salvar.
 5. Feche a página.
-6. Acesse Retail e Commerce > Configuração de canal > Impostos > Substituições de impostos.
+6. Vá para Retail e Commerce > Configuração de canal > Impostos > Substituições de impostos.
 7. Clique em Novo.
 8. No campo Substituições de impostos, forneça um nome para sua nova substituição.
 9. No campo Descrição, insira uma descrição da substituição.
@@ -44,7 +46,7 @@ Este procedimento demonstra como atribuir grupos dos impostos sobre venda aos ca
     * Agora você pode selecionar "De" e "Para" impostos ou "Do grupo de impostos" e "Para grupo de impostos" para criar sua substituição de impostos. O campo "De" indica o imposto ou o grupo do imposto a ser substituído. Substituição pelo grupo dos impostos sobre venda do artigo fornece opções diferentes do que cancelar pelo grupo dos impostos sobre venda. A substituição dos impostos sobre venda pode estabelecer-se para cancelar impostos em transações inteiras ou em linhas particulares na transação.  
 13. Clique em Salvar.
 14. Feche a página.
-15. Acesse Retail e Commerce > Configuração de canal > Impostos > Grupos de substituições de impostos.
+15. Vá para Retail e Commerce > Configuração de canal > Impostos > Grupos de substituições de impostos.
     * Nesta etapa você atribuiu a ultrapassagem recém-criada dos impostos sobre venda ao grupo da ultrapassagem dos impostos sobre venda atribuído ao canal de Houston.  
 16. Clique em Editar.
 17. Expanda ou recolha a seção Configuração.
@@ -54,6 +56,3 @@ Este procedimento demonstra como atribuir grupos dos impostos sobre venda aos ca
 21. Na lista, clique no link na linha selecionada.
 22. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

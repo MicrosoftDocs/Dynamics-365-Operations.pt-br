@@ -115,6 +115,3 @@ As seguintes entidades serão habilitadas para campos personalizadas no Common D
 - **Tipo de licença**
 - **Conta bancária do trabalhador**
 - **Calendário de trabalho**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

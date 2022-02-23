@@ -2,23 +2,26 @@
 title: Revisar informações sobre cobranças
 description: Este tópico explica como revisar a informações de cobranças, bem como várias opções de instalação e transações de cobranças.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59fcaef39460761dbe68273aecb5cbff8850ef031d43393277a17d07dd92db3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778377"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440371"
 ---
 # <a name="review-collections-information"></a>Revisar informações sobre cobranças
 
@@ -27,7 +30,7 @@ ms.locfileid: "6778377"
 Este tópico explica como revisar a informações de cobranças, bem como várias opções de instalação e transações de cobranças. Este procedimento usa a empresa de dados de demonstração USMF.
 
 ## <a name="create-customer-pools"></a>Crie os grupos de clientes
-1. No painel de navegação, Acesse **Módulos > Crédito e coleções > Configuração > Grupos de clientes**.
+1. No painel de navegação, vá para **Módulos > Crédito e coleções > Configuração > Grupos de clientes**.
 - Use esta página para configurar pools de clientes, que são consultas que definem um grupo de contas de clientes que podem ser exibidas e gerenciadas para cobranças ou processos de classificação por vencimento. Use os grupos de clientes para filtrar informações na página de lista **Cobranças** e nas páginas de lista relacionadas. Você também pode usar grupos de clientes para filtrar as contas de clientes que são incluídas quando os instantâneos de classificação por vencimento são criados.  
 - Você pode usar os grupos de clientes para filtrar as contas de clientes que forem incluídas quando os instantâneos de classificação por vencimento forem criados.  
 2. Selecione **Novo**.
@@ -39,7 +42,7 @@ Este tópico explica como revisar a informações de cobranças, bem como vária
 8. Selecione **Visualizar grupo de clientes**.
 
 ## <a name="create-collections-agents"></a>Crie os agentes de cobranças
-1. No painel de navegação, Acesse **Módulos > Crédito e coleções > Configuração > Agentes de cobranças**.  
+1. No painel de navegação, vá para **Módulos > Crédito e coleções > Configuração > Agentes de cobranças**.  
 - Use esta página para configurar trabalhadores como agentes de cobranças e, como opção, atribuir grupos de clientes a eles. Um *agente de cobranças* é a pessoa que trabalha com clientes para ter certeza de que os pagamentos serão cobrados em tempo hábil.  
 - Os agentes de cobrança que são configurados nessa página são adicionados automaticamente a uma equipe de cobranças. Se uma equipe estiver selecionada no campo **Equipe** na página **Parâmetros de contas a receber**, os agentes de cobranças serão adicionados a essa equipe. Se uma equipe não estiver selecionada, uma nova equipe chamada Cobranças será criada automaticamente e os agentes de cobranças serão adicionados à equipe.  
 2. Selecione o agente desejado, então selecione **Adicionar** na página.
@@ -48,7 +51,7 @@ Este tópico explica como revisar a informações de cobranças, bem como vária
 - Escolha essa opção para incluir todos os grupos de clientes nas listas de filtros para o agente de cobranças selecionado. Se essa opção não estiver selecionada, somente os grupos de clientes atribuídos ao agente de cobranças estarão disponíveis nas listas de filtros.  
 
 ## <a name="create-aging-period-definition"></a>Crie definição do período de classificação por vencimento
-1. No painel de navegação, Acesse **Módulos > Crédito e coleções > Configuração > Definições de período de classificação por vencimento**.
+1. No painel de navegação, vá para **Módulos > Crédito e coleções > Configuração > Definições de período de classificação por vencimento**.
 - Você pode usar definições do período de classificação por vencimento para analisar a maturidade de contas de clientes e contas de fornecedores, com base em uma data digitada. Cada período de classificação por vencimento configurado para a definição do período de classificação por vencimento corresponde a uma coluna na página de listagem ou no formulário ou relatório quando a análise é executada.  
 2. Selecione **Novo**.
 3. No campo **Definição do período de classificação por vencimento**, digite um valor.
@@ -61,7 +64,7 @@ Este tópico explica como revisar a informações de cobranças, bem como vária
   - Voltar - Imprime colunas na ordem inversa em que os títulos aparecem na tabela, começando com a linha inferior.    
 
 ## <a name="setup-collections-parameters"></a>Parâmetros de instalação das cobranças
-1. No painel de navegação, Acesse **Módulos > Crédito e coleções > Configuração > Parâmetros de contas a receber**.
+1. No painel de navegação, vá para **Módulos > Crédito e coleções > Configuração > Parâmetros de contas a receber**.
 2. Selecione a guia **Cobranças**.
 3. Expanda ou recolha a seção **Padrões de cobrança**.
 - Selecione uma definição do período de classificação por vencimento do instantâneo de classificação por vencimento padrão que será usada no formulário **Cobranças**.  
@@ -76,7 +79,7 @@ Este tópico explica como revisar a informações de cobranças, bem como vária
 - Selecione o modelo de email a ser usado quando você enviar uma mensagem de email usando o formulário **Email > Transações** para ação de vendedor no formulário **Cobranças**.  
 
 ## <a name="age-customer-balance"></a>Saldo de cliente por vencimento
-1. No painel de navegação, Acesse **Módulos > Crédito e coleções > Tarefas periódicas > Classificar saldos de cliente por vencimento**.
+1. No painel de navegação, vá para **Módulos > Crédito e coleções > Tarefas periódicas > Classificar saldos de cliente por vencimento**.
 - Selecione uma definição de período de classificação por vencimento. O processo de instantâneo de classificação por vencimento classifica as transações por vencimento de acordo com os períodos de classificação por vencimento definidos na definição do período de classificação por vencimento selecionado.  
 - Selecione um grupo de clientes ou deixe esse campo em branco para criar um instantâneo de classificação por vencimento para todos os clientes. Se um grupo de clientes estiver selecionado, o processo de instantâneo de classificação por vencimento será aplicado somente para as contas de cliente que fazem parte do grupo de clientes. O grupo de clientes selecionado deve ser do tipo Instantâneo de classificação por vencimento.  
 - Selecione o tipo de data no qual basear o instantâneo de classificação por vencimento.  
@@ -89,7 +92,7 @@ Este tópico explica como revisar a informações de cobranças, bem como vária
 2. Selecione **OK**.
 
 ## <a name="view-aged-customer-balances"></a>Exibir saldos antigos de cliente
-1. No painel de navegação, Acesse **Módulos > Crédito e cobranças > Cobranças > Saldos antigos**.
+1. No painel de navegação, vá para **Módulos > Crédito e cobranças > Cobranças > Saldos antigos**.
 - Use esta página da lista para exibir saldos do cliente e valores antigos por período de classificação por vencimento. Essas informações ficam armazenadas em um instantâneo de classificação por vencimento. Os períodos de classificação por vencimento são determinados pela definição do período de classificação por vencimento usada. A definição do período de classificação por vencimento é tirada do grupo de clientes, se tiver sido especificada para a consulta de grupo. Se o grupo de clientes não tiver uma definição do período de classificação por vencimento, a definição do período de classificação por vencimento padrão especificada no formulário Parâmetros de contas a receber será usada.  
 2. Expanda o Quadro de Fatos **Contato**. Aqui, você pode exibir informações de contato:
 - O contato de cobrança do cliente.  
@@ -140,6 +143,3 @@ Este tópico explica como revisar a informações de cobranças, bem como vária
 5. Selecione **Mostrar lista**.
 - Selecione um conta do cliente ou aceite a entrada padrão. Por padrão, esta é a conta de cliente selecionada na página de lista ou no formulário no qual você abriu este formulário. Se você tiver aberto o formulário de uma página de lista, os clientes na lista são os clientes que estão incluídos no grupo de cobranças que é usado na página de lista.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

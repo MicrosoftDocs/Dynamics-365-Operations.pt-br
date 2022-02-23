@@ -2,23 +2,26 @@
 title: Processar juros
 description: Este procedimento mostra como criar, imprimir e lançar notas de juros.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPosting, SysQueryForm, CustInterestNote, SrsReportViewerForm
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b97515e29d04866172216fc29af9a8d992568276c5e01acd67ad9d0028ea0c5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 093fbd23f9fcaf62db9988a98a94b8cebf582768
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764350"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440372"
 ---
 # <a name="process-interest"></a>Processar juros
 
@@ -28,12 +31,12 @@ Este procedimento mostra como criar, imprimir e lançar notas de juros. Esta tar
 
 
 ## <a name="set-up-interest-on-the-posting-profile"></a>Configure o juros no perfil de lançamento
-1. No **Painel de navegação**, Acesse **Módulos > Crédito e coleções > Configuração > Perfis de lançamentos de cliente**.
+1. No **Painel de navegação**, vá para **Módulos > Crédito e coleções > Configuração > Perfis de lançamentos de cliente**.
 2. Clique em **Editar**.
 3. Na **Guia Rápida Configuração**, no campo **Código de juros**, selecione um código de juros na lista suspensa. Se você não desejar que os juros sejam calculados para as transações com o perfil de lançamento, deixe o campo em branco. A guia rápida **Restrição de tabela** permite que você altere o modo como os juros são processados. Se este campo estiver definido como Sim, os juros serão calculados para este perfil de lançamento.  
 
 ## <a name="calculate-interest"></a>Calcular juros
-1. No **Painel de navegação**, Acesse **Módulos > Crédito e coleções > Juros > Criar notas de juros**.
+1. No **Painel de navegação**, vá para **Módulos > Crédito e coleções > Juros > Criar notas de juros**.
 2. Você deve selecionar os tipos de transação para os quais calculará o juros. Todas as transações abertas para esses tipos serão incluídas no cálculo.  
 3. Se você definir **Juros** como "Sim", você calculará juros em juros. Você pode optar por verificar as leis que regem o cálculo de juros em juros antes de incluir essas transações.  
 4. No campo **A partir da data**, insira uma data a partir da qual os juros serão calculados. Se você não especificou uma **Data inicial**, então todas as notas de juros não lançadas serão canceladas e os juros serão recalculados da data da transação.
@@ -49,7 +52,7 @@ Este procedimento mostra como criar, imprimir e lançar notas de juros. Esta tar
 7. Clique em **OK**.
 
 ## <a name="print-interest-notes"></a>Imprimir notas de juros
-1. No **Painel de navegação**, Acesse **Módulos > Crédito e coleções > Juros > Revisar e processar notas de juros**.
+1. No **Painel de navegação**, vá para **Módulos > Crédito e coleções > Juros > Revisar e processar notas de juros**.
 2. No campo **Status**, selecione "Criado".
 3. No campo **Impresso**, selecione "Não impresso".
 4. Clique em **Imprimir**.
@@ -65,6 +68,3 @@ Este procedimento mostra como criar, imprimir e lançar notas de juros. Esta tar
 5. Clique em **OK**.
 6. No campo **Status**, selecione "Lançado".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Alterar convenções de depreciação para ativos fixos múltiplos
 description: Esta tarefa atualiza a convenção de depreciação de um grupo de ativo fixo específico.
 author: saraschi2
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm, SrsReportViewerForm
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffd50104c13972f8d15d3260600ea239d16284447c76d984e78f4aaa4bc08cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39930134782b40de05a92a6ad51c4f628f304a78
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765707"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440207"
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Alterar convenções de depreciação para ativos fixos múltiplos
 
@@ -26,7 +29,7 @@ ms.locfileid: "6765707"
 
 Esta tarefa atualiza a convenção de depreciação de um grupo de ativo fixo específico. Este guia de tarefa usa a empresa demo USMF.
 
-1. Acesse Ativos fixos > Tarefas periódicas > Atualização em massa
+1. Vá para Ativos fixos > Tarefas periódicas > Atualização em massa
 2. No campo Livro de depreciação, clique no botão suspenso para abrir a pesquisa.
 3. Na lista, clique no link na linha selecionada.
 4. No campo Posicionado no início do serviço, insira uma data.
@@ -46,6 +49,3 @@ Esta tarefa atualiza a convenção de depreciação de um grupo de ativo fixo es
 15. Clique em OK.
     *  Os resultados do processo são mostrados no relatório de atualização em massa.     
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

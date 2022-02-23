@@ -1,10 +1,12 @@
 ---
 title: Gerar documentos eletrônicos ER para pagamentos usando uma configuração de formato
-description: Este tópico descreve como usar uma nova configuração de formato de relatório eletrônico (ER) para gerar documentos eletrônicos para processar pagamentos.
+description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode usar uma nova configuração de formato de Relatório Eletrônico (RE) para gerar documentos eletrônicos para processamento de pagamentos.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05295ff36ffd194b3f50fcdd9d7528c787c80f39104f46f9c51890a75a852735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712655"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681724"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Gerar documentos eletrônicos ER para pagamentos usando uma configuração de formato
 
@@ -30,7 +32,7 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "Cri
 
 
 ## <a name="change-the-configuration-of-the-electronic-payment-method"></a>Alterar a configuração do método do pagamento eletrônico
-1. Acesse Contas a pagar > Configurar pagamento > Métodos de pagamento.
+1. Vá para Contas a pagar > Configurar pagamento > Métodos de pagamento.
 2. Ativar/desativar a seção Formato de arquivo para expandi-la, se necessário.
 3. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Método de pagamento com um valor de "Electronic".
 4. Clique em Editar.
@@ -42,7 +44,7 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "Cri
 9. Feche a página.
 
 ## <a name="test-the-format-of-generated-payment-files"></a>Testar o formato de arquivo de pagamento gerado
-1. Acesse Contas a pagar > Pagamentos > Diário de pagamentos.
+1. Vá para Contas a pagar > Pagamentos > Diário de pagamentos.
 2. Clique em Novo.
 3. Na lista, marque a linha selecionada.
 4. No campo Nome, clique no botão suspenso para abrir a pesquisa.
@@ -79,6 +81,3 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "Cri
 25. Clique em OK.
     * Analisar o arquivo de pagamento criada no formato XML. Compare-o com o layout de documento criado e defina atributos da transação de pagamento.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

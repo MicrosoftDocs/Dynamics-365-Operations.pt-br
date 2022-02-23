@@ -2,30 +2,36 @@
 title: Adicionar página de política de privacidade
 description: Este tópico descreve como adicionar uma página de política de privacidade ao seu site no Microsoft Dynamics 365 Commerce.
 author: v-chgri
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: faf2072a5c53aa84f0de2e6d2478557bf96b7832e3433ad4cba971bc3f6e5880
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729162"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410134"
 ---
 # <a name="add-a-privacy-policy-page"></a>Adicionar página de política de privacidade
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como adicionar uma página de política de privacidade ao seu site no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 A conformidade com privacidade inclui medidas organizacionais que informam os usuários do site sobre como os dados são coletados e manipulados. Os usuários podem então decidir como querem que seus dados pessoais sejam manuseados e podem tomar a ação apropriada.
 
@@ -39,7 +45,7 @@ No Dynamics 365 Commerce, há várias maneiras de fornecer aos usuários do site
 
 A diretriz a seguir é um exemplo que mostra como criar uma página de diretiva de privacidade genérica para um site de comércio. Você é responsável por criar e implementar uma solução de página de diretiva de privacidade que atende melhor aos requisitos legais da sua empresa.
 
-Para iniciar, nas ferramentas de criação, Acesse o site para o qual você deseja criar uma página de política de privacidade.
+Para iniciar, nas ferramentas de criação, vá para o site para o qual você deseja criar uma página de política de privacidade.
 
 ### <a name="create-a-template"></a>Criar um modelo
 
@@ -48,7 +54,7 @@ Para iniciar, nas ferramentas de criação, Acesse o site para o qual você dese
 
 Para criar um modelo, siga estas etapas.
 
-1. Acesse **Modelos** e selecione **Novo** para criar um modelo de página.
+1. Vá para **Modelos** e selecione **Novo** para criar um modelo de página.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do Modelo**, insira **Modelo do banner da promoção** e selecione **OK**.
 1. No modelo, adicione os módulos necessários aos slots de página necessários. Para obter orientação, passe o mouse sobre os pontos de exclamação vermelhos. (Por exemplo, o slot **Head do HTML** pode precisar de um módulo **Script externo padrão**.)
 1. No slot **Corpo**, adicione um módulo **Página padrão**.
@@ -60,7 +66,7 @@ Para criar um modelo, siga estas etapas.
 
 Para criar uma página de política de privacidade, siga estas etapas.
 
-1. Acesse **Páginas** e selecione **Novo** para criar uma página.
+1. Vá para **Páginas** e selecione **Novo** para criar uma página.
 1. Na caixa de diálogo **Escolha um modelo**, selecione o modelo para a página da política de privacidade.
 1. Insira um nome de página e a URL da página, e depois selecione **OK**. 
 1. No slot **Principal** da página, adicione um módulo **Bloco de conteúdo sofisticado**.
@@ -73,7 +79,7 @@ Para criar uma página de política de privacidade, siga estas etapas.
 
 Para publicar a URL para a página de política de privacidade, siga estas etapas.
 
-1. Acesse **URLs** e selecione a URL para a página de política de privacidade.
+1. Vá para **URLs** e selecione a URL para a página de política de privacidade.
 1. Selecione **Publicar** para publicar a URL selecionada.
 
 ### <a name="create-a-link-to-the-privacy-policy-page-in-a-footer"></a>Crie um link para a página de política de privacidade em um rodapé
@@ -82,13 +88,13 @@ Você pode adicionar um link à página de política de privacidade a um fragmen
 
 Para adicionar um link a um fragmento de rodapé, siga estas etapas.
 
-1. Acesse **Fragmentos** e selecione **Novo** para criar um fragmento de página.
+1. Vá para **Fragmentos** e selecione **Novo** para criar um fragmento de página.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Rodapé**.
 1. Em **Nome do fragmento**, digite um nome para o fragmento e, em seguida, selecione **OK**.
 1. No slot **Categoria de rodapé**, adicione um módulo de **Item de cabeçalho**.
 1. No painel de propriedades à direita, selecione **Vincular texto**.
 1. Na caixa de diálogo **Vincular texto**, insira o texto de link e destino do link da página de política de privacidade, e depois clique em **OK**.
-1. Para obter a URL da página de política de privacidade, Acesse **Páginas**, Acesse a página de política de privacidade e copie a URL do painel Propriedades.
+1. Para obter a URL da página de política de privacidade, vá para **Páginas**, vá para a página de política de privacidade e copie a URL do painel Propriedades.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
 1. Visualize o fragmento e teste o link da página de política de privacidade.
 
@@ -103,6 +109,3 @@ Agora, o fragmento pode ser referenciado no modelo para outras páginas do site.
 [Compatível com cookies](cookie-compliance.md)
 
 [Substitua os IDs de usuário associados às alterações de conteúdo controladas](replace-IDs-tracked-changes.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

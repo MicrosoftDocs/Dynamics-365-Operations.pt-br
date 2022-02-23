@@ -1,25 +1,29 @@
 ---
 title: Visão geral sobre desenvolver e estabelecer contratos de serviço
 description: Os contratos de serviço permitem definir os recursos usados em uma típica visita de serviços e como esses recursos são faturados para o cliente.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 955e360a1c0d6aec51e82598737c847b190e5e1d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dd17cc0304d58d27afe2cededa5bc0b96557b5e9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985852"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422272"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>Visão geral sobre desenvolver e estabelecer contratos de serviço
 
@@ -75,6 +79,3 @@ Cada linha do contrato de serviço descreve em detalhes o conteúdo do trabalho 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Criar contratos de serviço](create-service-agreements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,39 +1,37 @@
 ---
-title: Distribuir e planejar questionários
-description: Este tópico explica como distribuir os questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os preencherão.
-author: twheeloc
-ms.date: 10/28/2021
+title: Distribuir e agendar questionários
+description: Este artigo explica como distribuir questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os concluirão.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0329b80615eed6efcc22bb0b140970988f5c306a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069520"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417345"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Distribuir e planejar questionários
+# <a name="distribute-and-schedule-questionnaires"></a>Distribuir e agendar questionários
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Este tópico explica como distribuir os questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os preencherão. 
+Este artigo explica como distribuir questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os concluirão. 
 
 Há várias formas de distribuir um questionário:
 
--   Marque o questionário como **Ativo**. O questionário é disponibilizado a todos os funcionários, a menos que um grupo de questionários esteja configurado para restringir o acesso ao questionário.
+-   Marcar o questionário como ativo. O questionário é disponibilizado a todos os funcionários, a menos que um grupo de questionários esteja configurado para restringir o acesso ao questionário.
 -   Atribuir direitos a um grupo de questionários. O questionário ficará disponível a todos os membros do grupo selecionado.
 -   Criar sessões de resposta planejadas. O questionário está disponível a apenas uma pessoa em particular.
 -   Criar uma agenda. O questionário poderá estar disponível para vários contatos.
@@ -133,6 +131,3 @@ Após criar e distribuir um questionário, este poderá ser preenchido por entre
 Os questionários podem ficar disponíveis para usuários específicos, grupos de usuários ou todas as pessoas de uma rede.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

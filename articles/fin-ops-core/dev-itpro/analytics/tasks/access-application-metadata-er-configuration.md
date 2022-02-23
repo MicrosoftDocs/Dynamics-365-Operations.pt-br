@@ -1,10 +1,12 @@
 ---
 title: Acesse metadados de aplicativos usando a configuração de ER
-description: O tópico descreve como um usuário do Regulatory Configuration Service (RCS) pode criar um novo mapeamento de modelo de relatório eletrônico (ER) usando os metadados.
+description: As etapas deste tópico explicam como um usuário do Regulatory Configuration Service (RCS) pode criar um novo mapeamento de modelo de relatório eletrônico (ER) por meio de metadados no Finance and Operations.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ad175f81edcf6b21927d85927c42a3398a0286b4a766e06c88a61952384f75e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa8e9ac4940bbc1252819ebcc3de2e21c9e0933f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754333"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682156"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Acesse metadados de aplicativos usando a configuração de ER
 
@@ -27,7 +29,7 @@ ms.locfileid: "6754333"
 As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelos de relatório eletrônico (ER) por meio dos metadados do aplicativo. Os metadados do aplicativo serão acessados por meio de uma configuração de metadados de ER contendo um conjunto de exemplo de metadados para acessar transações de comércio exterior. Para concluir estas etapas no RCS, primeiro é necessário concluir as etapas no procedimento do tópico, [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Em seguida, conclua as etapas no tópico [Preparar metadados do aplicativo a serem usados no RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
-1. Acesse **Todos os espaços de trabalho** > **Relatório eletrônico**. 
+1. Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**. 
 2. Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). 
 
 ## <a name="import-metadata-configuration"></a>Importar configuração de metadados 
@@ -123,6 +125,3 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 > [!NOTE]
 > Essa forma de obter informações sobre os metadados de aplicativos é a única disponível para aplicativos implantados localmente (quando dados corporativos locais (LBD) ou o modelo de implantação local são usados).
         
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

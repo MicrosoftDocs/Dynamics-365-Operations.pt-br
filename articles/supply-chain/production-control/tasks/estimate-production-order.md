@@ -2,23 +2,26 @@
 title: Estimar uma ordem de produção
 description: Você pode realizar esse procedimento usando a empresa de dados de demonstração USMF ou seu próprio conjunto de dados.
 author: johanhoffmann
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0450186382b6c306910fc6653f67ce313b7cfc2c69a134a9a806d1a232dc0fd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bbb541a09809c1f1bfada42094d840a2f6e7764
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765409"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421881"
 ---
 # <a name="estimate-a-production-order"></a>Estimar uma ordem de produção
 
@@ -28,7 +31,7 @@ Você pode realizar esse procedimento usando a empresa de dados de demonstraçã
 
 
 ## <a name="estimate-a-production-order"></a>Estimar uma ordem de produção
-1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
 2. Selecione uma ordem com o status Criada na grade.
 3. No Painel de Ação, clique em Ordem de produção.
 4. Clique em Estimar.
@@ -39,6 +42,3 @@ Você pode realizar esse procedimento usando a empresa de dados de demonstraçã
 1. No Painel de Ação, clique em Gerenciar custos.
 2. Clique em Exibir detalhes do cálculo.
     * Esta página exibe a divisão de custo. Por exemplo, você pode exibir o preço de custo total por unidade para o produto finalizado na primeira linha. As linhas subsequentes contêm custos de acordo com a lista de materiais, o roteiro de produção e os custos indiretos.  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

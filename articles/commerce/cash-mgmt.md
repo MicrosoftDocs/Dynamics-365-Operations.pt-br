@@ -2,12 +2,15 @@
 title: Aprimoramentos de gerenciamento de pagamento à vista
 description: Este tópico descreve os aprimoramentos de gerenciamento de pagamento à vista no PDV para o Dynamics 365 Commerce.
 author: anpurush
+manager: AnnBe
 ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f878f39e8e9913edbe1da192e199090139a88adb6b7ed9a1e9b779c5748171b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735645"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410154"
 ---
 # <a name="cash-management-improvements"></a>Aprimoramentos de gerenciamento de pagamento à vista
 
@@ -30,7 +33,7 @@ ms.locfileid: "6735645"
 O gerenciamento de pagamento à vista é uma função fundamental para os varejistas em lojas físicas. Os varejistas desejam que suas lojas tenham sistemas que possam ajudá-los a fornecer rastreabilidade completa e responsabilidade de pagamento à vista e seu movimento pelos diferentes registros e caixas em uma loja. Eles devem ser capazes de reconciliar quaisquer diferenças e determinar a responsabilidade.
 
 
-O Microsoft Dynamics 365 Commerce possui recursos de gerenciamento de pagamento à vista em seu aplicativo de ponto de venda (PDV). Contudo, nas versões do Retail anteriores à versão 10.0.3, a funcionalidade de gerenciamento de pagamento à vista não é robusta o suficiente para fornecer rastreabilidade completa dos movimentos de pagamento à vista nas lojas. Embora os varejistas possam reconciliar o pagamento à vista de uma loja, eles não podem determinar com precisão a responsabilidade em caso de discrepância de pagamento à vista.
+O Microsoft Dynamics 365 Commerce tem funcionalidades de gerenciamento de pagamento à vista em seu aplicativo de ponto de venda (PDV). Contudo, nas versões do Retail anteriores à versão 10.0.3, a funcionalidade de gerenciamento de pagamento à vista não é robusta o suficiente para fornecer rastreabilidade completa dos movimentos de pagamento à vista nas lojas. Embora os varejistas possam reconciliar o pagamento à vista de uma loja, eles não podem determinar com precisão a responsabilidade em caso de discrepância de pagamento à vista.
 
 
 No Retail versão 10.0.3 e posterior, os varejistas ganharão rastreabilidade para lidar com pagamento à vista. Como parte dessa rastreabilidade, os varejistas poderão definir cofres, fazer transações de pagamento à vista nos dois lados e reconciliar transações de gerenciamento de pagamento à vista.
@@ -39,9 +42,9 @@ No Retail versão 10.0.3 e posterior, os varejistas ganharão rastreabilidade pa
 
 Para configurar a nova funcionalidade de gerenciamento de pagamento à vista, siga estas etapas para configurar o perfil de funcionalidade para os armazenamentos.
 
-1. Acesse **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade** e selecione um perfil de funcionalidade que esteja vinculado às lojas onde você quer fazer os aprimoramentos de gerenciamento de pagamento à vista.
+1. Vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade** e selecione um perfil de funcionalidade que esteja vinculado às lojas onde você quer fazer os aprimoramentos de gerenciamento de pagamento à vista.
 2. Na Guia Rápida **Funções** do perfil de funcionalidade, em **Gerenciamento de pagamento à vista avançado**, defina a opção **Habilitar rastreabilidade de pagamento à vista** como **Sim**.
-3. Para configurar cofres, Acesse **Varejo e Comércio \> Canais \> Lojas \> Todas as lojas** e selecione uma loja.
+3. Para configurar cofres, vá para **Varejo e Comércio \> Canais \> Lojas \> Todas as lojas** e selecione uma loja.
 4. Na página **Lojas**, no Painel de Ação, na guia **Configurar**, no grupo **Configurar**, selecione **Cofres**. Ao usar essa opção, você pode definir e manter vários cofres para uma loja.
 4. Antes que a funcionalidade possa ser usada, você deve executar o trabalho de agenda de distribuição **1070 Configuração do canal** para sincronizar essas configurações com o banco de dados do canal.
 
@@ -59,6 +62,3 @@ No Retail versão 10.0.3 e posterior, os seguintes recursos relacionados a trans
 - Durante a reconciliação, se a transação selecionada não for equilibrada, o usuário deve inserir uma descrição do motivo da reconciliação desbalanceada. Os usuários podem selecionar uma única transação e reconciliá-la com a descrição do motivo relevante, conforme necessário.
 - Os usuários podem continuar a reconciliar e desestruturar as transações até que a mudança seja encerrada. Depois que um turno é fechado, as transações não podem ser reconciliadas.
 - Quando um usuário escolhe fechar um turno, o Commerce valida que não há transações de gerenciamento de pagamento à vista não reconciliadas no turno. Os usuários não podem fechar um turno se houver transações não reconciliadas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

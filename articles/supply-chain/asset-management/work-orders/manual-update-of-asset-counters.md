@@ -1,10 +1,12 @@
 ---
 title: Atualização manual de contadores de ativo
 description: Este tópico descreve atualização manual de contadores de ativo no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 74d840cbb064018560a6abc2823f520c2f3179ac42b149c0507c9421a4e73391
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5318bac961682f88e192ac70c4993c62b69b399c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776425"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020865"
 ---
 # <a name="manual-update-of-asset-counters"></a>Atualização manual de contadores de ativo
 
@@ -54,13 +56,10 @@ Observe os seguintes pontos:
 
 A ilustração a seguir mostra um exemplo da página **Contadores de ativos**.
 
-![Figura 1.](media/11-work-orders.png)
+![Figura 1](media/11-work-orders.png)
 
 Na página **Contadores de ativos** (**Gerenciamento de ativos** > **Consultas** > **Ativos** > **Contadores de ativos**), você pode criar registros de contador em vários ativos ao mesmo tempo, conforme o necessário.
 
 >[!NOTE]
 >Você pode configurar um intervalo para definir os desvios em registros de contador manuais. Também é possível especificar o tipo de mensagem exibida se os registros estiverem fora do intervalo definido. Para obter mais informações sobre como configurar contadores, consulte [Contadores](../setup-for-objects/counters.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Planejamento mestre com previsões de demanda
 description: Este tópico explica como incluir previsões de demanda durante planejamento mestre com Otimização de Planejamento.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
+ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
+ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867238"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666713"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planejamento mestre com previsões de demanda
 
@@ -36,7 +39,7 @@ Você pode usar uma previsão de demanda junto com a Otimização de Planejament
 
 Para configurar um plano mestre de forma que inclua uma previsão de demanda, siga estas etapas.
 
-1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. Selecione um plano existente ou crie um novo plano.
 1. Na Guia Rápida **Geral**, defina os seguintes campos:
 
@@ -56,7 +59,7 @@ Para configurar um plano mestre de forma que inclua uma previsão de demanda, si
 
 Para configurar um grupo de cobertura para que inclua uma previsão de demanda, siga estas etapas.
 
-1. Acesse **Planejamento mestre \> Configuração \> Planos \> Grupos de cobertura**.
+1. Vá para **Planejamento mestre \> Configuração \> Planos \> Grupos de cobertura**.
 1. Selecione um grupo de cobertura existente ou crie um novo grupo.
 1. Na FastTab **Outro**, defina os seguintes campos:
 
@@ -84,11 +87,11 @@ Esta seção fornece informações sobre os diferentes métodos usados para redu
 
 Quando você inclui uma previsão sobre um plano mestre, pode selecionar como os requisitos de previsão são reduzidos quando a demanda real é incluída. Observe que o planejamento mestre exclui os requisitos de previsão do passado, o que significa todos os requisitos de previsão antes da data atual.
 
-Para incluir uma previsão em um plano mestre e selecionar o método usado para reduzir os requisitos de previsão, Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**. No campo **Modelo de previsão**, selecione um modelo de previsão. No campo **Método usado para reduzir requisitos de previsão**, selecione um método. As opções a seguir estão disponíveis:
+Para incluir uma previsão em um plano mestre e selecionar o método usado para reduzir os requisitos de previsão, vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**. No campo **Modelo de previsão**, selecione um modelo de previsão. No campo **Método usado para reduzir requisitos de previsão**, selecione um método. As opções a seguir estão disponíveis:
 
 - Nenhuma
 - Percentual – chave de redução
-- Transações – chave de redução
+- Transações – chave de redução (ainda não há suporte com Otimização de Planejamento)
 - Transações – período dinâmico
 
 As próximas seções fornecem mais informações sobre cada opção.
@@ -137,85 +140,32 @@ Nesse caso, se você executar o plano de previsão em 1º de janeiro, os requisi
 
 #### <a name="transactions--reduction-key"></a>Transações – chave de redução
 
-Se você definir o campo **Método usado para reduzir requisitos de previsão** como *Transações – chave de redução*, os requisitos de previsão serão reduzidos pelas transações de demanda qualificada que ocorrem durante os períodos definidos pela chave de redução.
-
-A demanda qualificada é definida pelo campo **Reduzir previsão por** na página **Grupos de cobertura**. Se você definir o campo **Reduzir previsão por** como *Ordens*, somente transações de ordem de venda serão consideradas demanda qualificada. Se você defini-lo como *Todas as transações*, todas as transações de estoque de saída intercompanhia serão consideradas demanda qualificada. Se ordens de venda intercompanhia também devem ser consideradas demanda qualificada, defina a opção **Incluir ordens intercompanhia** como *Sim*.
-
-A redução da previsão começa com o primeiro (mais antigo) registro de previsão de demanda no período da chave de redução. Se a quantidade de transações de estoque qualificado for maior do que a quantidade de linhas de previsão de demanda no mesmo período da chave de redução, o saldo da quantidade de transações de estoque será usado para reduzir a previsão de quantidade de demanda no período anterior (se houver uma previsão não consumida).
-
-Se nenhuma previsão não consumida continuar no período da chave de redução anterior, o saldo da quantidade de transações de estoque será usado para reduzir a previsão de quantidade no mês seguinte (se houver uma previsão não consumida).
-
-O valor do campo **Porcentagem** nas linhas da chave de redução não é usado quando o campo **Método usado para reduzir requisitos de previsão** é definido como *Transações – chave de redução*. Somente as datas são usadas para definir o período da chave de redução.
-
-> [!NOTE]
-> Qualquer previsão lançada em ou antes da data de hoje será ignorada e não será usada para criar ordens planejadas. Por exemplo, se a sua previsão de demanda para o mês for gerada em 1º de janeiro e você executar o planejamento mestre que inclui a previsão de demanda em 2 de janeiro, o cálculo ignorará a linha de previsão de demanda com a data de 1º de janeiro.
+Se você seleciona **Transações - chave de redução**, os requisitos de previsão são reduzidos pelas transações que ocorrem durante os períodos definidos pela chave de redução.
 
 ##### <a name="example-transactions--reduction-key"></a>Exemplo: Transações – chave de redução
 
 Este exemplo mostra como as ordens reais que ocorrem durante os períodos definidos pela chave de redução reduzem requisitos de previsão de demanda.
 
-[![Ordens reais e previsão antes da execução do planejamento mestre.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
+Para este exemplo, você seleciona **Transações - chave de redução** no campo **Método usado para reduzir requisitos de previsão** da página **Planos mestre**.
 
-Para este exemplo, você seleciona *Transações - chave de redução* no campo **Método usado para reduzir requisitos de previsão** da página **Planos mestre**.
+As ordens de venda a seguir existem em 1º de janeiro.
 
-As seguintes linhas de previsão de demanda existem em 1º de abril.
+| Mês    | Número de peças pedidas |
+|----------|--------------------------|
+| Janeiro  | 956                      |
+| Fevereiro | 1.176                    |
+| Março    | 451                      |
+| Abril    | 119                      |
 
-| Data      | Número de peças previstas |
-|----------|-----------------------------|
-| 5 de abril  | 100                         |
-| 12 de abril | 100                         |
-| 19 de abril | 100                         |
-| 26 de abril | 100                         |
-| Maio de 3    | 100                         |
-| Maio de 10   | 100                         |
-| Maio de 17   | 100                         |
+Se você usar a mesma previsão de demanda de 1.000 peças por mês que foi usada no exemplo anterior, as quantidades da requisição a seguir serão transferidas para o plano mestre.
 
-As seguintes linhas da ordem de venda existem em abril.
-
-| Data      | Número de peças solicitadas |
-|----------|----------------------------|
-| 27 de abril | 240                        |
-
-[![Fornecimento planejado gerado com base nas ordens de abril.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
-
-As quantidades da requisição a seguir são transferidas para o planejamento mestre quando ele é executado em 1º de abril. Como você pode ver, as transações de previsão de abril foram reduzidas pela quantidade de demanda de 240 em uma sequência, começando pela primeira dessas transações.
-
-| Data      | Número de peças necessárias |
-|----------|---------------------------|
-| 5 de abril  | 0                         |
-| 12 de abril | 0                         |
-| 19 de abril | 60                        |
-| 26 de abril | 100                       |
-| 27 de abril | 240                       |
-| Maio de 3    | 100                       |
-| Maio de 10   | 100                       |
-| Maio de 17   | 100                       |
-
-Agora, suponha que novas ordens foram importadas para o período de maio.
-
-As seguintes linhas da ordem de venda existem em maio.
-
-| Data    | Número de peças solicitadas |
-|--------|----------------------------|
-| Maio de 4  | 80                         |
-| Maio de 11 | 130                        |
-
-[![Fornecimento planejado gerado com base nas ordens de abril e maio.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
-
-As quantidades da requisição a seguir são transferidas para o planejamento mestre quando ele é executado em 1º de abril. Como você pode ver, as transações de previsão de abril foram reduzidas pela quantidade de demanda de 240 em uma sequência, começando pela primeira dessas transações. No entanto, as transações previstas de maio foram reduzidas por um total de 210, a partir da primeira transação de previsão de demanda em maio. No entanto, os totais por período são preservados (400 em abril e 300 em maio).
-
-| Data      | Número de peças necessárias |
-|----------|---------------------------|
-| 5 de abril  | 0                         |
-| 12 de abril | 0                         |
-| 19 de abril | 60                        |
-| 26 de abril | 100                       |
-| 27 de abril | 240                       |
-| Maio de 3    | 0                         |
-| Maio de 4    | 80                        |
-| Maio de 10   | 0                         |
-| Maio de 11   | 130                       |
-| Maio de 17   | 90                        |
+| Mês                | Número de peças necessárias |
+|----------------------|---------------------------|
+| Janeiro              | 44                        |
+| Fevereiro             | 0                         |
+| Março                | 549                       |
+| Abril                | 881                       |
+| Maio até dezembro | 1.000                     |
 
 #### <a name="transactions--dynamic-period"></a>Transações – período dinâmico
 
@@ -299,8 +249,8 @@ Por isso, as ordens planejadas a seguir são criadas.
 
 Uma chave de redução da previsão é usada nos métodos **Transações - chave de redução** e **Percentual - chave de redução** para diminuir os requisitos de previsão. Siga estas etapas para criar e configurar uma chave de redução.
 
-1. Acesse **Planejamento mestre \> Configuração \> Cobertura \> Chaves de redução**.
-2. Selecione **Novo** para criar uma chave de redução.
+1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Chaves de redução**.
+2. Selecione **Nova** pressione **CTRL+N** para criar uma chave de redução.
 3. No campo **Chave de redução**, insira um identificador exclusivo para a chave de redução da previsão. Em seguida, no campo **Nome**, insira um nome. 
 4. Defina os períodos e o percentual da chave de redução em cada período:
 
@@ -312,82 +262,15 @@ Uma chave de redução da previsão é usada nos métodos **Transações - chave
 
 Uma chave de redução da previsão deve ser atribuída ao grupo de cobertura do item. Siga estas etapas para atribuir uma chave de redução ao grupo de cobertura de um item.
 
-1. Acesse **Planejamento mestre \> Configuração \> Cobertura \> Grupos de cobertura**.
+1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Grupos de cobertura**.
 2. Na Guia Rápida **Outro**, no campo **Chave de redução**, selecione a chave de redução para atribuir ao grupo de cobertura. A chave de redução é aplicada a todos os itens que pertencem ao grupo de cobertura.
-3. Para usar uma chave de redução para calcular a redução da previsão durante o agendamento do planejamento mestre, você deve definir esse parâmetro na configuração do plano de previsão ou do plano mestre. Acesse um dos seguintes locais:
+3. Para usar uma chave de redução para calcular a redução da previsão durante o agendamento do planejamento mestre, você deve definir esse parâmetro na configuração do plano de previsão ou do plano mestre. Vá para um dos seguintes locais:
 
-    - **Planejamento mestre \> Configuração \> Planos \> Planos de previsão**
-    - **Planejamento mestre \> Configuração \> Planos \> Planos mestres**
+    - Planejamento mestre \> Configuração \> Planos \> Planos de previsão
+    - Planejamento mestre \> Configuração \> Planos \> Planos mestres
 
 4. Na página **Planos de previsão** ou **Planos mestres**, na Guia Rápida **Geral**, no campo **Método usado para reduzir os requisitos de previsão**, selecione **Percentual - chave de redução** ou **Transações - chave de redução**.
 
 ### <a name="reduce-a-forecast-by-transactions"></a>Reduzir uma previsão por transações
 
 Quando você seleciona **Transações - chave de redução** ou **Transações - período dinâmico** como método para reduzir os requisitos de previsão, pode especificar quais transações reduzem a previsão. Na página **Grupos de cobertura**, na Guia Rápida **Outro**, no campo **Reduzir a previsão por**, selecione **Todas as transações**, se todas as transações tiverem que reduzir a previsão, ou **Ordens**, se somente as ordens de venda devem reduzir a previsão.
-
-## <a name="forecast-models-and-submodels"></a>Modelos e submodelos de previsão
-
-Esta seção descreve como criar modelos de previsão e como combinar vários modelos de previsão, configurando submodelos.
-
-Um *modelo de previsão* nomeia e identifica uma previsão específica. Após criar o modelo de previsão, você pode adicionar linhas de previsão a ele. Para adicionar linhas de previsão para vários itens, use a página **Linhas de previsão de demanda**. Para adicionar linhas de previsão para um item selecionado específico, use a página **Produtos liberados**.
-
-Um modelo de previsão pode incluir previsões de outros modelos de previsão. Para obter esse resultado, você adiciona outros modelos de previsão como *submodelos* de um modelo de previsão pai. Você deve criar cada modelo relevante antes de poder adicioná-lo como um submodelo de um modelo de previsão pai.
-
-A estrutura resultante oferece uma forma poderosa de controlar previsões, pois ela permite combinar (agregar) a entrada de várias previsões individuais. Portanto, do ponto de vista de planejamento, é fácil combinar previsões para simulações. Por exemplo, você pode configurar uma simulação baseada na combinação de uma previsão regular com a previsão para uma promoção de primavera.
-
-### <a name="submodel-levels"></a>Níveis de submodelo
-
-Não há limite para o número de submodelos que podem ser adicionados a um modelo de previsão principal. No entanto, a estrutura pode ter apenas um nível de profundidade. Em outras palavras, um modelo de previsão que é um submodelo de outro modelo de previsão não pode ter seus próprios submodelos. Quando você adiciona submodelos a um modelo de previsão, o sistema verifica se esse modelo de previsão já é um submodelo de outro modelo de previsão.
-
-Se o planejamento mestre encontrar um submodelo que tenha seus próprios submodelos, você receberá uma mensagem de erro.
-
-#### <a name="submodel-levels-example"></a>Exemplo de níveis de submodelo
-
-O modelo de previsão A tem modelo de previsão B como um submodelo. Portanto, o modelo de previsão B não pode ter seus próprios submodelos. Se você tentar adicionar um submodelo ao modelo de previsão B, receberá a seguinte mensagem de erro: "O modelo de previsão B é um submodelo do modelo A".
-
-### <a name="aggregating-forecasts-across-forecast-models"></a>Agregar previsões em modelos de previsão
-
-As linhas de previsão que ocorrem no mesmo dia serão agregadas ao modelo de previsão e a submodelos.
-
-#### <a name="aggregation-example"></a>Exemplo de agregação
-
-O modelo de previsão A tem modelos de previsão B e C como submodelos.
-
-- O modelo de previsão A inclui uma previsão de demanda para 2 peças (pcs) em 15 de junho.
-- O modelo de previsão B inclui uma previsão de demanda de 3 pcs em 15 de junho.
-- O modelo de previsão C inclui uma previsão de demanda para 4 pcs em 15 de junho.
-
-A previsão de demanda resultante será uma demanda simples para 9 pcs (2 + 3 + 4) em 15 de junho.
-
-> [!NOTE]
-> Cada submodelo usa seus próprios parâmetros, não os parâmetros do modelo de previsão pai.
-
-### <a name="create-a-forecast-model"></a>Criar um modelo de previsão
-
-Para criar um modelo de previsão, siga estas etapas.
-
-1. Acesse **Planejamento mestre \> Configuração \> Previsão de demanda \> Modelos de previsão**.
-1. No Painel de Ações, selecione **Novo**.
-1. Defina os seguintes campos para o novo modelo de previsão:
-
-    - **Modelo** – insira um identificador exclusivo para o modelo.
-    - **Nome** – insira um nome descritivo para o modelo.
-    - **Parado** – em geral, você deve definir esta opção como *Não*. Defina-a como *Sim* somente se desejar impedir a edição de todas as linhas de previsão atribuídas ao modelo.
-
-    > [!NOTE]
-    > O campo **Incluir em previsões de fluxo de caixa** e os campos na FastTab **Projeto** não estão relacionados ao planejamento mestre. Portanto, você pode ignorá-las neste contexto. Você deve considerá-las somente quando trabalhar com previsões para o módulo **Gerenciamento e contabilidade de projetos**.
-
-### <a name="assign-submodels-to-a-forecast-model"></a>Atribuir submodelos a um modelo de previsão
-
-Para atribuir submodelos a um modelo de previsão, siga estas etapas.
-
-1. Acesse **Gerenciamento de estoque \> Configuração \> Previsão \> Modelos de previsão**.
-1. No painel de lista , selecione o modelo de previsão para configurar um submodelo.
-1. Na FastTab **Submodelo**, selecione **Adicionar** para adicionar uma linha à grade.
-1. Na nova linha, defina os seguintes campos:
-
-    - **Submodelo** – selecione o modelo de previsão a ser adicionado como um submodelo. Esse modelo de previsão já deve existir e não deve ter submodelos próprios.
-    - **Nome** – insira um nome descritivo para o submodelo. Por exemplo, esse nome pode indicar a relação do submodelo com o modelo de previsão pai.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

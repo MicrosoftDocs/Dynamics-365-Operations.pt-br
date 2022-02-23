@@ -2,9 +2,11 @@
 title: Lançar diários periódicos
 description: Os diários periódicos são as vezes chamados diários de devolução porque o valor, o texto, e outras informações são repetidos toda vez que o diário periódico é recuperado.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 214a7618bbec1d30212f7c53b7086ee0d5da4e6b5de40d11d3bf16399b812597
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99d157e82f8451e2c8f0bc7946ba30ca48e99add
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763109"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968495"
 ---
 # <a name="post-periodic-journals"></a>Lançar diários periódicos
 
@@ -55,6 +57,3 @@ Os diários periódicos são as vezes chamados diários de devolução porque o 
 27. No campo **Número de diário periódico**, insira ou selecione um valor.
 28. Na lista, clique no link na linha selecionada.
 29. Clique em **OK**. O diário do período pode então ser revisto aprovado ou lançado, dependendo do requisito e da configuração.   
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

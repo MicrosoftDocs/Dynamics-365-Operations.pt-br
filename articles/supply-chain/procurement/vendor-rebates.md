@@ -1,24 +1,26 @@
 ---
 title: Reembolsos de fornecedor
 description: Este tópico fornece uma visão geral das tarefas mais comuns que você pode querer executar ao trabalhar com reembolsos de fornecedor. Os reembolsos de fornecedor ajudam as empresas a gerenciar melhor seus programas de reembolsos do fornecedor, automatizando as tarefas que são necessárias para administrar, rastrear e solicitar reembolsos que são obtidos.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566854"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966646"
 ---
 # <a name="vendor-rebates"></a>Reembolsos de fornecedor
 
@@ -53,7 +55,7 @@ Um contrato de reembolso do fornecedor é um registro de um contrato com um forn
 
 Para abrir a página **Contratos de reembolso de fornecedor**, selecione &gt; **Compras** **Reembolsos de fornecedor** &gt; **Contratos de reembolso**.
 
-![Contrato de compra.](media/purchase-agreement.PNG)
+![Contrato de compra](media/purchase-agreement.PNG)
 
 Na página **Contratos de reembolso de fornecedor**, você pode exibir detalhes sobre as condições negociadas de um contrato de fornecedor.
 
@@ -129,7 +131,7 @@ Quando as solicitações são aprovadas, elas podem ser processadas pelo Contas 
 
     Um diário de provisão de reembolso é lançado para o valor da solicitação. Este lançamento debita a conta Reembolsos do fornecedor acumulado a receber para o crédito do fornecedor esperado e credita a conta temporária Reembolsos recebidos do fornecedor acumulado.
 
-    ![Mensagem.](media/message.png)
+    ![Mensagem](media/message.png)
 
 5. Na lista de reembolso, selecione a linha e no Painel de ação, selecione **Transações de reembolso** para ver e navegar para o número de lote do diário para este lançamento de provisão de reembolso.
 
@@ -164,6 +166,3 @@ O processo para processar reembolsos do fornecedor envolve várias tarefas de ac
 - Geração de solicitações de reembolso precisas
 - Aumento do lucro provisório e a receber esperado na contabilidade
 - Atualização do saldo de fornecedor e a declaração de imposto com permissão devida
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Dados principais de fatura no AP usando uma fatura de fornecedor
 description: Este guia de tarefas ajudará você a criar uma fatura de fornecedor a partir de uma ordem de compra e exibir os resultados da conciliação da ordem de compra, do recebimento e da fatura (conciliação tripla).
 author: abruer
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3e27ed41ff1fa44d5e8779cb5e81e45d02110eb3b37be3a3b9938cabfc395bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f80c88b7fb3542f624d233f670cd7cd6ccd48b94
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777279"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440188"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Dados principais de fatura no AP usando uma fatura de fornecedor
 
@@ -28,7 +31,7 @@ Este guia de tarefas ajudará você a criar uma fatura de fornecedor a partir de
 
 
 ## <a name="create-a-purchase-order"></a>Criar uma ordem de compra
-1. No Painel de navegação, Acesse **Módulos > Contas a pagar > Ordens de compra > Todas as ordens de compra**.
+1. No Painel de navegação, vá para **Módulos > Contas a pagar > Ordens de compra > Todas as ordens de compra**.
 2. Clique em **Novo**.
 3. No campo **Conta de fornecedor**, clique no botão suspenso para abrir a pesquisa.
 4. Localize um fornecedor para selecionar. Por exemplo, role para baixo ao US-104.
@@ -49,7 +52,7 @@ Este guia de tarefas ajudará você a criar uma fatura de fornecedor a partir de
 5. Feche a página.
 
 ## <a name="create-a-vendor-invoice"></a>Crie uma fatura de fornecedor
-1. No Painel de navegação, Acesse **Módulos > Contas a pagar > Ordens de compra > Ordens de compra recebidas, mas não faturadas**.
+1. No Painel de navegação, vá para **Módulos > Contas a pagar > Ordens de compra > Ordens de compra recebidas, mas não faturadas**.
 2. Selecione a ordem de compra que você criou.
 3. No Painel de Ação, clique em **Fatura**.
 4. Clique em **Fatura**.
@@ -70,6 +73,3 @@ Este guia de tarefas ajudará você a criar uma fatura de fornecedor a partir de
 19. Clique em **Enviar**.
 20. Feche o formulário. Observe que a ordem de compra não está mais listada como recebida, mas como não faturada.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Agendas de entrega
 description: As agendas de entrega permitem que você rastreie a quantidade da linha da ordem quando estiver usando várias entregas para uma única ordem de venda, cotação de venda ou ordem de compra.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchDeliverySchedule, SalesDeliverySchedule, SalesQuotationDeliverySchedule, SalesQuotationDeliverySchedule
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 213984
 ms.assetid: 44cac104-c36c-4371-a992-9178b3fd65e9
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50558c5da71351082d36276a3185e1f91543f2b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bc25ff113291b2a8a0a7ba15637e4d094feb9aae
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573456"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422346"
 ---
 # <a name="delivery-schedules"></a>Agendas de entrega
 
@@ -28,11 +31,11 @@ ms.locfileid: "7573456"
 
 As agendas de entrega permitem que você rastreie a quantidade da linha da ordem quando estiver usando várias entregas para uma única ordem de venda, cotação de venda ou ordem de compra.
 
-Use um plano de entrega quando a quantidade total em uma linha de ordem ou cotação tiver que ser entregue em várias remessas. Remessas individuais são representadas por linhas de entrega. Duas ou mais linhas de entrega compõem uma agenda de entrega. As linhas de entrega podem ter datas de entrega diferentes, quantidades, modos de entrega e dimensões de armazenamento, como o site e o depósito.  
+Use um plano de entrega quando a quantidade total em uma linha de ordem ou cotação tiver que ser entregue em várias remessas. Remessas individuais são representadas por linhas de entrega. Duas ou mais linhas de entrega compõem uma agenda de entrega. As linhas de entrega podem ter datas de entrega, quantidades, modos de entrega e dimensões de armazenamento diferentes, como o local e o depósito.  
 
 **Exemplo de uma agenda de entrega**
 
-| Item                               | Alíquota                                    |
+|                                   |                                          |
 |-----------------------------------|------------------------------------------|
 | Ordem total (linha da ordem original) | 600 cadeiras                               |
 | Agenda de entrega solicitada       | 100 cadeiras por mês                     |
@@ -54,6 +57,3 @@ Quando você confirmar as cotações de venda, as ordens de venda resultantes mo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

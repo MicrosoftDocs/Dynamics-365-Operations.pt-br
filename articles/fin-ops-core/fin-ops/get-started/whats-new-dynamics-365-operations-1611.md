@@ -2,9 +2,11 @@
 title: Novidades ou alterações no Dynamics 365 for Operations versão 1611 (novembro de 2016)
 description: Este tópico descreve os recursos novos ou alterados no Dynamics 365 for Operations versão 1611.
 author: sericks007
+manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752799"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797186"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novidades ou alterações no Dynamics 365 for Operations versão 1611 (novembro de 2016)
 
@@ -943,6 +945,3 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Home page de Novidades ou alterações no Finance and Operations](whats-new-changed.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

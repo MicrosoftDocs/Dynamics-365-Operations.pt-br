@@ -2,9 +2,11 @@
 title: Adiar a execução de elementos de sequência nos formatos de ER
 description: Este tópico explica como adiar a execução de um elemento de sequência em um formato de ER (Relatório eletrônico).
 author: NickSelin
-ms.date: 04/23/2021
+manager: kfend
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 2af6c95e459246f25574860dc319928380d06cc9fd4fdb68f42203f943b4d386
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa019e20b218fdaad4659fa65d9df629069204b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718406"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680725"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Adiar a execução de elementos de sequência nos formatos de ER
 
@@ -42,7 +44,7 @@ A opção **Execução adiada** não se aplica a sequências que foram configura
 
 ## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Exemplo: Adiar a execução de um elemento de sequência em um formato de ER
 
-As etapas a seguir explicam como um usuário na [função](../sysadmin/tasks/assign-users-security-roles.md) de Administrador do sistema ou de Consultor funcional de relatório eletrônico pode configurar um formato de ER que contém um elemento de sequência em que a ordem da execução difere da ordem na hierarquia de formato.
+As etapas a seguir explicam como um usuário na [função](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) de Administrador do sistema ou de Consultor funcional de relatório eletrônico pode configurar um formato de ER que contém um elemento de sequência em que a ordem da execução difere da ordem na hierarquia de formato.
 
 Essas etapas podem ser executadas na empresa **USMF** no Microsoft Dynamics 365 Finance.
 
@@ -57,18 +59,18 @@ Se você ainda não tiver concluído o exemplo no tópico [Adiar a execução de
 
 | Descrição do conteúdo            | Nome do arquivo |
 |--------------------------------|-----------|
-| Configuração do modelo de dados de ER    | [Modelo para conhecer elementos adiados.versão.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
-| Configuração de mapeamento do modelo de ER | [Mapeamento para conhecer elementos adiados.versão.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
+| Configuração do modelo de dados de ER    | [Modelo para conhecer elementos adiados.versão.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuração de mapeamento do modelo de ER | [Mapeamento para conhecer elementos adiados.versão.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 Antes de começar, você também deve baixar e salvar a configuração a seguir do exemplo da solução ER.
 
 | Descrição do conteúdo     |Nome do arquivo |
 |-------------------------|----------|
-| Configuração de formato ER | [Formato para conhecer sequências adiadas.versão.1.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
+| Configuração de formato ER | [Formato para conhecer sequências adiadas.versão.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importar o exemplo de configurações de ER
 
-1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.
 3. Na página **Configurações**, se a configuração **Modelo para conhecer elementos adiados** não estiver disponível na árvore de configuração, importe a configuração do modelo de dados do ER:
 
@@ -88,20 +90,20 @@ Antes de começar, você também deve baixar e salvar a configuração a seguir 
 6. Na árvore de configuração, expanda **Modelo para conhecer elementos adiados**.
 7. Revise a lista de configurações de ER importadas na árvore de configuração.
 
-    ![Configurações de ER importadas na página Configurações.](./media/ER-DeferredSequence-Configurations.png)
+    ![Configurações de ER importadas na página Configurações](./media/ER-DeferredSequence-Configurations.png)
 
 ### <a name="activate-a-configurations-provider"></a>Ativar um provedor de configurações
 
-1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o [provedor de configuração](general-electronic-reporting.md#Provider) para a empresa de exemplo Litware, Inc. (`http://www.litware.com`) está listado e marcado como ativo. Se esse provedor de configuração não estiver listado, ou se ele não estiver marcado como ativo, siga as etapas no tópico [Criar um provedor de configuração e marcá-lo como ativo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![A empresa de exemplo Litware, Inc. na página Configurações de localização.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
+    ![A empresa de exemplo Litware, Inc. na página Configurações de localização](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Revise o mapeamento do modelo importado
 
 Examine as configurações do componente de mapeamento do modelo de ER que é configurado para acessar as transações de imposto e expor dados acessados na solicitação.
 
-1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração, expanda **Modelo para conhecer elementos adiados**.
 4. Selecione a configuração **Mapeamento para conhecer elemento adiados**.
@@ -117,7 +119,7 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
     - A fonte de dados **Agrupados** do tipo *Agrupar por* é configurada para agrupar transações de imposto filtradas da fonte de dados **Filtrados**.
     - O campo de agregação **TotalSum** da fonte de dados **Agrupados** é configurado para resumir valores do campo **\$TaxAmount** da fonte de dados **Filtrados** para todas as transações de imposto filtradas dessa fonte de dados.
 
-        ![Campo de agregação TotalSum na página Editar parâmetros "GroupBy".](./media/ER-DeferredSequence-GroupByParameters.png)
+        ![Campo de agregação TotalSum na página Editar parâmetros 'GroupBy'](./media/ER-DeferredSequence-GroupByParameters.png)
 
 9. Revise como as fontes de dados configuradas são associadas ao modelo de dados e como elas expõem os dados acessados para torná-los disponíveis em um formato de ER:
 
@@ -125,7 +127,7 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
     - O campo **\$TaxAmount** da fonte de dados **Filtrados** é associado ao campo **Data.List.Value** do modelo de dados.
     - O campo **TotalSum** da fonte de dados **Agrupados** é associado ao campo **Data.Summary.Total** do modelo de dados.
 
-    ![Página do designer de mapeamento de modelo.](./media/ER-DeferredSequence-ModelMapping.png)
+    ![Página do designer de mapeamento de modelo](./media/ER-DeferredSequence-ModelMapping.png)
 
 10. Feche as páginas **Designer de mapeamento de modelo** e **Mapeamentos de modelo**.
 
@@ -138,12 +140,12 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
 
     - O elemento do formato de sequência **Relatório\\Linhas** é configurado para preencher o documento de saída com uma única linha que é gerada dos elementos de sequência aninhados (**Cabeçalho**, **Registro** e **Resumo**).
 
-        ![Elemento do formato de sequência de linhas e elementos aninhados na página Designer de formato.](./media/ER-DeferredSequence-Format.png)
+        ![Elemento do formato de sequência de linhas e elementos aninhados na página Designer de formato](./media/ER-DeferredSequence-Format.png)
 
     - O elemento do formato de sequência **Relatório\\Linhas\\Cabeçalho** é configurado para preencher o documento de saída com uma única linha de cabeçalho que mostra a data e a hora do início do processamento.
     - O elemento do formato de sequência **Relatório \\Linhas\\Registro** é configurado para preencher o documento de saída com uma única linha que mostra os detalhes das transações de imposto individuais. Essas transações de imposto são separadas por um ponto-e-vírgula.
 
-        ![Elemento do formato de sequência de registro que usa um ponto-e-vírgula como delimitador.](./media/ER-DeferredSequence-Format1.png)
+        ![Elemento do formato de sequência de registro que usa um ponto-e-vírgula como delimitador](./media/ER-DeferredSequence-Format1.png)
 
     - O elemento do formato de sequência **Relatório\\Linhas\\Resumo** é configurado para preencher o documento de saída com uma única linha de resumo que inclui a soma dos valores de imposto das transações de imposto processadas.
 
@@ -162,14 +164,14 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
     - O elemento **TotalTaxAmount** é associado a **model.Data.Summary.Total** para gerar a soma dos valores de imposto das transações de imposto processadas.
     - O elemento **ExecutionDateTime** gera a data e a hora (incluindo milissegundos) quando a linha de resumo é adicionada.
 
-    ![Guia Mapeamento na página Designer de formato.](./media/ER-DeferredSequence-Format2.png)
+    ![Guia Mapeamento na página Designer de formato](./media/ER-DeferredSequence-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Executar o formato importado
 
 1. Na página **Designer de formato**, selecione **Executar**.
 2. Baixe o arquivo oferecido pelo navegador da Web e abra-o para revisão.
 
-    ![Arquivo de relatório de exemplo baixado.](./media/ER-DeferredSequence-Run.png)
+    ![Arquivo baixado](./media/ER-DeferredSequence-Run.png)
 
 Observe que a linha de resumo 22 apresenta a soma dos valores de imposto para as transações processadas. Como o formato está configurado para usar a associação **model.Data.Summary.Total** de modo a retornar essa soma, a soma é calculada chamado a agregação **TotalSum** da fonte de dados **Agrupados** do tipo *GroupBy* que usa o mapeamento de modelo. Para calcular essa agregação, o mapeamento de modelos itera em todas as transações que foram selecionadas na fonte de dados **Filtrados**. Ao comparar os tempos de execução das linhas 21 e 22, você pode determinar que o cálculo da soma levou 10 milissegundos (ms). Ao comparar os tempos de execução das linhas 2 e 21, você pode determinar que a geração de todas as linhas transacionais levou 7 ms. Portanto, foi necessário um total de 17 ms.
 
@@ -183,12 +185,12 @@ Se o volume de transações for muito maior do que o volume no exemplo atual, o 
 4. Configure a expressão **Nome da chave de dados coletada** como `WsColumn`.
 5. Configure a expressão **Valor da chave de dados coletada** como `WsRow`.
 
-    ![Elemento da sequência de linhas na página Designer de formato.](./media/ER-DeferredSequence-Format3.png)
+    ![Elemento da sequência de linhas na página Designer de formato](./media/ER-DeferredSequence-Format3.png)
 
 6. Selecione o elemento numérico **Relatório\\Linhas\\Registro\\TaxAmount**.
 7. Configure a expressão **Nome da chave de dados coletada** como `SummingAmountKey`.
 
-    ![Elemento numérico TaxAmount na página Designer de formato.](./media/ER-DeferredSequence-Format4.png)
+    ![Elemento numérico TaxAmount na página Designer de formato](./media/ER-DeferredSequence-Format4.png)
 
     Você pode considerar essa configuração o preenchimento de uma planilha virtual, em que o valor da célula A1 é acrescentado ao valor do imposto de cada transação de imposto processada.
 
@@ -196,13 +198,13 @@ Se o volume de transações for muito maior do que o volume no exemplo atual, o 
 9. Configure a expressão `SUMIF(SummingAmountKey, WsColumn, WsRow)` usando a função interna de ER [SUMIF](er-functions-datacollection-sumif.md).
 10. Selecione **Salvar**.
 
-    ![Expressão SUMIF.](./media/ER-DeferredSequence-FormulaDesigner.png)
+    ![Expressão SUMIF](./media/ER-DeferredSequence-FormulaDesigner.png)
 
 11. Feche a página **Designer de fórmulas**.
 12. Selecione **Salvar** e **Executar**.
 13. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado - Valores de imposto somados.](./media/ER-DeferredSequence-Run1.png)
+    ![Arquivo baixado](./media/ER-DeferredSequence-Run1.png)
 
     A linha 21 contém o total acumulado de valores de imposto que é calculado para todas as transações processadas usando a saída gerada como uma fonte de dados. Essa fonte de dados é iniciada desde o começo do relatório e continua até a última transação de imposto. A linha 22 contém a soma dos valores de imposto para todas as transações processadas que são calculadas no mapeamento de modelo usando a fonte de dados do tipo *GroupBy*. Observe que esses valores são iguais. Portanto, a soma baseada na saída pode ser usada no lugar de **GroupBy**. Ao comparar os tempos de execução das linhas 2 e 21, você pode determinar que a geração de todas as linhas transacionais e a soma levou 9 ms. Portanto, no que diz respeito à geração de linhas detalhadas e à soma dos valores de imposto, o formato modificado é aproximadamente duas vezes mais rápido do que o formato original.
 
@@ -211,7 +213,7 @@ Se o volume de transações for muito maior do que o volume no exemplo atual, o 
 16. Selecione **Salvar** e **Executar**.
 17. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado com fórmula editada.](./media/ER-DeferredSequence-Run2.png)
+    ![Arquivo baixado](./media/ER-DeferredSequence-Run2.png)
 
     Observe que o total acumulado dos valores de imposto na última linha dos detalhes da transação agora é igual à soma na linha de resumo.
 
@@ -224,7 +226,7 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 3. Selecione **Salvar** e **Executar**.
 4. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado para somar no cabeçalho do relatório.](./media/ER-DeferredSequence-Run3.png)
+    ![Arquivo baixado](./media/ER-DeferredSequence-Run3.png)
 
     Observe que a soma dos valores de imposto na linha de resumo 2 agora é igual a 0 (zero), pois a soma agora é calculada com base na saída gerada. Quando a linha 2 é gerada, a saída gerada ainda não contém linhas com detalhes da transação. É possível configurar esse formato para adiar a execução do elemento de sequência **Relatório\\Linhas\\Resumo** até que o elemento de sequência **Relatório\\Linhas\\Registro** tenha sido executado para todas as transações de imposto.
 
@@ -233,12 +235,12 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 1. Na página **Designer de formato**, na guia **Formatar**, selecione o elemento de sequência **Relatório\\Linhas\\Resumo**.
 2. Defina a opção **Execução adiada** como **Sim**.
 
-    ![Opção Execução adiada do elemento de sequência Resumo na página Designer de formato.](./media/ER-DeferredSequence-Format5.png)
+    ![Opção Execução adiada do elemento de sequência Resumo na página Designer de formato](./media/ER-DeferredSequence-Format5.png)
 
 3. Selecione **Salvar** e **Executar**.
 4. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado - execução adiada.](./media/ER-DeferredSequence-Run4.png)
+    ![Arquivo baixado](./media/ER-DeferredSequence-Run4.png)
 
     O elemento de sequência **Relatório\\Linhas\\Resumo** agora é executado somente depois que todos os outros itens que estão aninhados sob seu elemento pai, **Relatório\\Linhas**, tiverem sido executados. Portanto, ele é executado depois que o elemento de sequência **Relatório\\Linhas\\Registro** tiver sido executado para todas as transações de imposto da fonte de dados **model.Data.List**. Os tempos de execução das linhas 1, 2 e 3, e da última linha, 22, revelam esse fato.
 
@@ -247,6 +249,3 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 - [Configurar o formato para contagem e soma](./tasks/er-format-counting-summing-1.md)
 - [Rastrear a execução do formato ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md)
 - [Adiar a execução de elementos XML nos formatos de ER](er-defer-xml-element.md#Example)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

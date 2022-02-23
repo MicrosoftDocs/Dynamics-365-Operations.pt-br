@@ -2,30 +2,35 @@
 title: Habilitar e usar o compartilhamento entre canais
 description: Este tópico descreve como habilitar e usar o recurso de compartilhamento entre canais do construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742407"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4410318"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Habilitar e usar o compartilhamento entre canais
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como habilitar e usar o recurso de compartilhamento entre canais do construtor de sites do Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão Geral
 
 O compartilhamento entre canais permite reutilizar e compartilhar conteúdo entre vários canais de um site. Esse recurso é útil quando os canais de site têm um idioma base compatível, ou quando têm vários itens de conteúdo em comum.
 
@@ -48,15 +53,15 @@ Para habilitar o compartilhamento entre canais no construtor de sites do Commerc
 1. Acesse **Configurações do site \> Recursos**.
 1. Defina a opção para o recurso **Entre Canais** como **Ativado**.
 
-    ![Opção Entre Canais definida como Ativado no construtor de sites do Commerce.](./media/enabling-cross-channel-sharing.png)
+    ![Opção Entre Canais definida como Ativado no construtor de sites do Commerce](./media/enabling-cross-channel-sharing.png)
 
 Depois que você habilitar o compartilhamento entre canais, as informações entre canais aparecerão na seção **Canais** em **Configurações do site \> Recursos**, como mostra o exemplo na ilustração a seguir.
 
-![Informações sobre canais visíveis após o compartilhamento entre canais ser habilitado.](./media/channels-cross-channel.png)
+![Informações sobre canais visíveis após o compartilhamento entre canais ser habilitado](./media/channels-cross-channel.png)
 
 Além disso, depois de habilitar o compartilhamento entre canais, o campo **Canal** no canto superior direito do construtor de sites do Commerce incluirá uma opção **Loja Online Entre Canais** que pode ser usada para gerenciar conteúdo entre canais, conforme mostrado na ilustração a seguir.
 
-![Opção Loja Online Entre Canais no campo Canais após o compartilhamento entre canais ser habilitado.](./media/cross-channel-dropdown.png)
+![Opção Loja Online Entre Canais no campo Canais após o compartilhamento entre canais ser habilitado](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Criar e usar o conteúdo entre canais
 
@@ -66,7 +71,7 @@ Você pode criar e usar conteúdo entre canais de várias maneiras. Por exemplo,
 
 Para criar um fragmento entre canais no construtor de sites do Commerce, siga estas etapas.
 
-1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Faixa promocional** e, em **Nome do fragmento**, insira um nome (por exemplo, **Faixa entre canais**). Em seguida, selecione **OK**.
 1. No painel de propriedades do módulo **Faixa promocional**, selecione **Adicionar Mensagem** e, em seguida, selecione **Mensagem** .
 1. Na caixa de diálogo **Mensagem**, em **Texto**, insira **Entre canais** e selecione **OK**. 
@@ -80,7 +85,7 @@ As páginas entre canais podem ser usadas em qualquer canal do site. Portanto, v
 
 Para criar uma página entre canais no construtor de sites do Commerce que usa conteúdo entre canais, siga estas etapas.
 
-1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
+1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo, como **Marketing**.
 1. Em **Nome da página**, insira um nome para a página (por exemplo, **Página entre canais**).
 1. Em **URL da Página**, insira uma URL de página (por exemplo, **examplepage**) e, em seguida, selecione **OK**.
@@ -95,7 +100,7 @@ Usando o conteúdo entre canais em páginas específicas de canal, você pode cr
 
 Para criar uma página específica do canal no construtor de sites do Commerce que usa conteúdo entre canais, siga estas etapas.
 
-1. Em um canal específico, como a **loja online estendida da Fabrikam**, Acesse **Páginas** e selecione **Novo** para criar uma nova página.
+1. Em um canal específico, como a **loja online estendida da Fabrikam**, vá para **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo, como **Marketing**.
 1. Em **Nome da página**, insira um nome para a página (por exemplo, **Página específica do canal**).
 1. Em **URL da Página**, insira uma URL de página (por exemplo, **channelspecificpage**) e, em seguida, selecione **OK**.
@@ -132,6 +137,3 @@ Agora, se você usar a URL base do canal e ir para a URL da página entre canais
 [Estados de documento e de ciclo de vida](document-states-overview.md)
 
 [Trabalhar com grupos de publicações](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,25 @@
 title: Inserir uma transação CIAP (Brasil)
 description: 'Você pode inserir uma transação CIAP de duas maneiras: lançando uma nota fiscal ou inserindo uma transação.'
 author: sndray
+manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 000089367fdb889b1a6fb46736f041248106e3b4486605c402266eafb18f02b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 931c1622ccda07130c6f9d433f047b98b08ff24f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716606"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408465"
 ---
 # <a name="enter-a-ciap-transaction-brazil"></a>Inserir uma transação CIAP (Brasil)
 
@@ -25,7 +28,7 @@ ms.locfileid: "6716606"
 
 Você pode inserir uma transação CIAP de duas maneiras: lançar um documento fiscal, ou inserir uma transação. Você pode vincular manualmente a uma nota fiscal, conforme necessário. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Acesse Livros fiscais > Comum > Ativos fixos > Todos os ativos fixos do CIAP.
+1. Vá para Livros fiscais > Comum > Ativos fixos > Todos os ativos fixos do CIAP.
 2. Clique em Novo.
 3. No campo Número de ativo fixo, insira ou selecione um valor.
 4. No campo ID do estabelecimento fiscal, insira ou selecione um valor.
@@ -36,7 +39,7 @@ Você pode inserir uma transação CIAP de duas maneiras: lançar um documento f
 9. Clique em Salvar.
 10. Feche a página.
 11. Feche a página.
-12. Acesse Livros fiscais > Comum > Apuração de imposto > ICMS.
+12. Vá para Livros fiscais > Comum > Apuração de imposto > ICMS.
 13. Na lista, marque a linha selecionada.
 14. Clique em Apuração do CIAP.
 15. Clique em Adicionar linha.
@@ -64,6 +67,3 @@ Você pode inserir uma transação CIAP de duas maneiras: lançar um documento f
 37. Feche a página.
 38. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,6 +46,3 @@ Esta versão inclui várias correções de bug adicionais.
 ## <a name="known-issue"></a>Problema conhecido
 
 -   **Problema:** ao adicionar um novo anexo a um trabalhador, os botões **Novo** e **Editar** são esmaecidos. **Solução alternativa:** antes de abrir a página do anexo, verifique se os quadros de fatos na página **Trabalhador** estão fechados. Se os quadros de fatos estiverem fechados quando a página **Trabalhador** for carregada, os botões de anexos serão habilitados. (Esse problema será corrigido na próxima atualização de plataforma.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

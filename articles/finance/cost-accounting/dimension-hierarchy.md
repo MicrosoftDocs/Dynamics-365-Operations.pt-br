@@ -2,13 +2,16 @@
 title: Hierarquia de dimensões
 description: Este tópico fornece informações sobre hierarquias de dimensões. As hierarquias de dimensões são usadas para definir a estrutura de relatórios, as políticas de custo e a configuração de segurança na Contabilização de Custos.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766960"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440268"
 ---
 # <a name="dimension-hierarchy"></a>Hierarquia de dimensões
 
@@ -50,12 +53,12 @@ Uma hierarquia de dimensões pode ser criada para os seguintes tipos de dimensõ
 > [!NOTE]
 > - Você pode criar várias hierarquias de dimensões para a mesma dimensão caso sejam necessárias perspectivas diferentes.
 > - Uma hierarquia de dimensões pode ser associada a uma única dimensão.
-> - Uma hierarquia de dimensões pode ter níveis ilimitados em sua estrutura. Todos os níveis serão disponibilizados no espaço de trabalho **Controle de custos**. Quando você usa o Microsoft Excel ou o Microsoft Power BI para fins de relatório, somente os 15 primeiros níveis da hierarquia de dimensões são exportados. Essa limitação existe porque tanto Excel quanto o Power BI exigem um esquema fixo.
+> - Uma hierarquia de dimensões pode ter níveis ilimitados em sua estrutura. Todos os níveis serão disponibilizados no espaço de trabalho **Controle de custos**. Quando você usa o Microsoft Excel ou Microsoft Power BI para fins de relatório, somente os 15 primeiros níveis da hierarquia de dimensões são exportados. Essa limitação existe porque tanto Excel quanto o Power BI exigem um esquema fixo.
 > - Uma hierarquia de dimensões não é efetiva com relação à data. Portanto, qualquer alteração a uma hierarquia de dimensões é salva imediatamente no registro, e você não pode comparar as datas anterior e posterior.
 
 ## <a name="dimension-hierarchy-type"></a>Tipo de hierarquia de dimensões
 
-Ao criar uma nova hierarquia de dimensões, você deve selecionar o tipo de hierarquia. Acesse **Contabilização de custos** > **Dimensões** > **Hierarquias de dimensões**. Clique em **Novo** e selecione um tipo de hierarquia de dimensões. Você pode selecionar **Hierarquia de categorização de dimensões** ou **Hierarquia de classificação de dimensões**.
+Ao criar uma nova hierarquia de dimensões, você deve selecionar o tipo de hierarquia. Vá para **Contabilização de custos** > **Dimensões** > **Hierarquias de dimensões**. Clique em **Novo** e selecione um tipo de hierarquia de dimensões. Você pode selecionar **Hierarquia de categorização de dimensões** ou **Hierarquia de classificação de dimensões**.
 
 ### <a name="dimension-categorization-hierarchy"></a>Hierarquia de categorização de dimensões
 
@@ -80,7 +83,7 @@ Uma hierarquia de dimensões é criada em uma estrutura de árvore com relaciona
 
 Uma empresa pequena tem a seguinte estrutura de organização, em que os recursos Humanos e Financeiros são departamentos em Administração, e Montagem e Empacotamento são departamentos em Produção.
 
-![Exemplo de uma estrutura organizacional.](./media/dimension-hierarchy-org.png)
+![Exemplo de uma estrutura organizacional](./media/dimension-hierarchy-org.png)
 
 Uma dimensão de objeto de custo representa todos os centros de custo na organização.
 
@@ -122,13 +125,12 @@ Uma hierarquia de dimensões que atende aos requisitos de relatórios da organiz
 
 A hierarquia de dimensões para relatórios pode ser configurada como mostrado aqui.
 
-**Intervalos de membros de dimensão**
-
-|   Nós           |   Membro da dimensão de origem   |   Membro da dimensão de destino   |
+|                   | Intervalos de membros de dimensão   |                         |
 |-------------------|---------------------------|-------------------------|
+| **Nós**         | **Membro da dimensão de origem** | **Membro da dimensão de destino** |
 | Organização      |                           |                         |
 | &nbsp;&nbsp;Administrador         |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Finanças   | CC002                     | CC003                   |
+|&nbsp;&nbsp;&nbsp;&nbsp;Finanças   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;RH        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Produção    |                           |                         |
@@ -145,13 +147,12 @@ Uma hierarquia de dimensões que atende ao requisito de relatório pode ser conf
 
 A hierarquia de dimensões para a política pode ser configurada como mostrado aqui.
 
-**Intervalos de membros de dimensão**
-
-|   Nós           |   Membro da dimensão de origem   |   Membro da dimensão de destino   |
+|                   | Intervalos de membros de dimensão   |                         |
 |-------------------|---------------------------|-------------------------|
+| **Nós**         | **Membro da dimensão de origem** | **Membro da dimensão de destino** |
 | Comportamento de custo     |                           |                         |
 | &nbsp;&nbsp;Custo fixo    | 10001                     | 10011                   |
-| &nbsp;&nbsp;Custo variável | 40001                     | 40010                   |
+|&nbsp;&nbsp;Custo variável | 40001                     | 40010                   |
 
 > [!NOTE]
 > Em **Intervalos de membros de dimensão**, um nó pode conter 1:_n_ intervalos de membros de dimensão. Você pode inserir as IDs de membros de dimensão que ainda não existem como membros de dimensão. Esta abordagem torna a hierarquia resiliente para o futuro.  
@@ -297,10 +298,9 @@ Possivelmente, todos os gerentes poderão acessar dados comerciais altamente con
 
 Uma nova Guia Rápida **Usuários** está disponível no designer de hierarquia. Aqui, você pode inserir uma ou mais IDs de usuário em cada nó na hierarquia.
 
-**Intervalos de usuários e membros de dimensão**
-
-|   Nós         |   ID do usuário        |   Membro de dimensão de origem   |   Membro da dimensão de destino   |
+|                 | Usuários            | Intervalos de membros de dimensão   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
+| **Nós**       | **ID do Usuário**      | **Membro da dimensão de origem** | **Membro da dimensão de destino** |
 | Organização    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administrador         | Abril            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finanças   | Alicia           | CC002                     | CC003                   |
@@ -313,7 +313,7 @@ Uma nova Guia Rápida **Usuários** está disponível no designer de hierarquia.
 > [!NOTE] 
 > Os contadores devem ser atribuídos ao nível de hierarquia superior para que possam consultar todas as entradas na contabilização de custo.
 
-Para habilitar a hierarquia da lista de acesso e as configurações de segurança, Acesse **Contabilização de custos** > **Configuração** > **Parâmetros** > **Geral**. Selecione o parâmetro **Habilitar acesso de visualização para membros de dimensão de objeto de custo**.
+Para habilitar a hierarquia da lista de acesso e as configurações de segurança, vá para **Contabilização de custos** > **Configuração** > **Parâmetros** > **Geral**. Selecione o parâmetro **Habilitar acesso de visualização para membros de dimensão de objeto de custo**.
 
 As configurações da hierarquia da lista de acesso são usadas para controlar os dados que são mostrados nas seguintes áreas:
 
@@ -331,8 +331,5 @@ As configurações da hierarquia da lista de acesso são usadas para controlar o
     - Visualizações de dados do Power BI incorporadas no cliente do Dynamics 365 Finance
 
 > [!NOTE] 
-> - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança no nível de linha do Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança no nível de linha do Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - A hierarquia da lista de acesso não ajuda a garantir a exportação de dados para o Excel. Portanto, essa ferramenta de relatório deve ser usada somente por contadores e gerentes que devem ter acesso total aos dados.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

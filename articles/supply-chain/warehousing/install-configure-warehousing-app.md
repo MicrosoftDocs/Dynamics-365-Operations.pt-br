@@ -1,37 +1,37 @@
 ---
 title: Instalar e conectar o aplicativo de depósito
 description: Este tópico explica como instalar o aplicativo de depósito em cada um dos seus dispositivos móveis e configurá-lo para se conectar ao ambiente do Microsoft Dynamics 365 Supply Chain Management. Você pode configurar os dispositivos manualmente ou importar as configurações de conexão usando um arquivo ou digitalizando um código QR.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902262"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422399"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar e conectar o aplicativo de depósito
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Este tópico descreve como configurar o aplicativo de depósito antigo (que agora está obsoleto). Se você estiver procurando informações de como configurar o novo aplicativo móvel de gerenciamento de depósito, consulte [instalar e conectar o aplicativo móvel de gerenciamento de depósito](install-configure-warehouse-management-app.md).
-
-> [!NOTE]
-> Este tópico descreve como configurar o aplicativo de depósito para implantações na nuvem. Se estiver buscando informações sobre como configurar o aplicativo de depósito para implantações locais, consulte [Depósito para implantações locais](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Este tópico descreve como configurar o depósito para implantações na nuvem. Se estiver buscando informações sobre como configurar o depósito para implantações locais, consulte [Depósito para implantações locais](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 O aplicativo de depósito está disponível na Google Play Store e na Microsoft Store. Ele é fornecido como um componente autônomo. Portanto, você deve baixá-lo em cada dispositivo e configurá-lo para se conectar ao ambiente do Microsoft Dynamics 365 Supply Chain Management.
 
@@ -54,46 +54,46 @@ Use um dos seguintes links para baixar o aplicativo:
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Warehousing na Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 na Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Para implantações menores, você pode instalar o aplicativo da loja relevante em cada dispositivo e configurar manualmente a conexão com os ambientes que estiver usando. No entanto, na versão 1.7.0.0 e posterior do aplicativo de depósito, também é possível automatizar a implantação e/ou a configuração de aplicativos. Essa abordagem pode ser conveniente se você gerencia vários dispositivos e estiver usando um gerenciamento de dispositivos móveis e uma solução de gerenciamento de aplicativos móveis, como o [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Para obter mais informações sobre como usar o Intune para adicionar aplicativos, consulte [Adicionar aplicativos ao Microsoft Intune](/mem/intune/apps/apps-add).
+Para implantações menores, você pode instalar o aplicativo da loja relevante em cada dispositivo e configurar manualmente a conexão com os ambientes que estiver usando. No entanto, na versão 1.7.0.0 e posterior do aplicativo de depósito, também é possível automatizar a implantação e/ou a configuração de aplicativos. Essa abordagem pode ser conveniente se você gerencia vários dispositivos e estiver usando um gerenciamento de dispositivos móveis e uma solução de gerenciamento de aplicativos móveis, como o [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Para obter mais informações sobre como usar o Intune para adicionar aplicativos, consulte [Adicionar aplicativos ao Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Criar um aplicativo de serviço Web no Azure Active Directory
 
 Para permitir que o aplicativo de depósito interaja com um determinado servidor do Supply Chain Management, registre um aplicativo de serviço Web para o locatário do Supply Chain Management no Azure Active Directory (Azure AD). O seguinte procedimento mostra uma forma de concluir esta tarefa. Para obter informações detalhadas e alternativas, consulte os links após o procedimento.
 
-1. Em um navegador da Web, Acesse [https://portal.azure.com](https://portal.azure.com/).
+1. Em um navegador da Web, vá para [https://portal.azure.com](https://portal.azure.com/).
 1. Insira o nome e a senha do usuário que tem acesso à assinatura do Azure.
 1. No portal do Azure, no painel de navegação à esquerda, selecione **Azure Active Directory**.
 
-    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Certifique-se de que esteja trabalhando com a instância do Azure AD usada pelo Supply Chain Management.
 1. Na lista **Gerenciar**, selecione **Registros de aplicativos**.
 
-    ![Registros de aplicativos.](media/app-connect-azure-register.png "Registros de aplicativos")
+    ![Registros de aplicativos](media/app-connect-azure-register.png "Registros de aplicativos")
 
 1. Na barra de ferramentas, selecione **Novo registro** para abrir o assistente **Registrar um aplicativo**.
 1. Insira um nome para o aplicativo, selecione **Contas somente neste diretório organizacional** e clique em **Registrar**.
 
-    ![Assistente Registrar um aplicativo.](media/app-connect-azure-register-wizard.png "Assistente Registrar um aplicativo")
+    ![Assistente Registrar um aplicativo](media/app-connect-azure-register-wizard.png "Assistente Registrar um aplicativo")
 
 1. O novo registro de aplicativo é aberto. Anote o valor da **ID do aplicativo (cliente)**, porque você precisará dele mais tarde. A ID será mencionada posteriormente neste tópico como *ID do cliente*.
 
-    ![ID do aplicativo (cliente).](media/app-connect-azure-app-id.png "ID do aplicativo (cliente)")
+    ![ID do aplicativo (cliente)](media/app-connect-azure-app-id.png "ID do aplicativo (cliente)")
 
 1. Clique na lista **Gerenciar**, selecione **Certificado e segredos**. Em seguida, selecione um dos seguintes botões, dependendo de como deseja configurar o aplicativo para autenticação. (Para obter mais informações, consulte a seção [Autenticar usando um certificado ou segredo do cliente](#authenticate) posteriormente neste tópico.)
 
     - **Carregar certificado** – carregar um certificado para usá-lo como segredo. Recomendamos essa abordagem porque é mais segura e porque também pode ser automatizada de modo mais completo. Se você estiver executando o aplicativo de depósito em dispositivos Windows, anote o valor de **Impressão digital** exibido depois que você carrega o certificado. Você precisará desse valor ao configurar o certificado em dispositivos Windows.
     - **Novo segredo do cliente** – crie uma chave inserindo uma descrição de chave e uma duração na seção **Senhas** e depois clique em **Adicionar**. Faça uma cópia da chave e armazene-a com segurança.
 
-    ![Certificado e segredos.](media/app-connect-azure-authentication.png "Certificado e segredos")
+    ![Certificado e segredos](media/app-connect-azure-authentication.png "Certificado e segredos")
 
 Para obter mais informações sobre como configurar os aplicativos de serviço no Azure AD, consulte os seguintes recursos:
 
-- Para obter instruções que mostram como usar o Windows PowerShell para configurar aplicativos de serviço Web no Azure AD, consulte [Como: usar o Azure PowerShell para criar uma entidade de serviço com um certificado](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Para obter instruções que mostram como usar o Windows PowerShell para configurar aplicativos de serviço Web no Azure AD, consulte [Como: usar o Azure PowerShell para criar uma entidade de serviço com um certificado](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Para obter detalhes completos sobre como criar manualmente um aplicativo de serviço Web no Azure AD, consulte os seguintes tópicos:
 
-    - [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app)
-    - [Como: Usar o portal para criar um aplicativo do Azure AD e uma entidade de serviço que possa acessar recursos](/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
+    - [Como: Usar o portal para criar um aplicativo do Azure AD e uma entidade de serviço que possa acessar recursos](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Criar e configurar uma conta de usuário no Supply Chain Management
 
@@ -101,19 +101,19 @@ Para habilitar o Supply Chain Management para usar o aplicativo do Azure AD, sig
 
 1. Crie um usuário que corresponda às credenciais de usuário do aplicativo de depósito:
 
-    1. No Supply Chain Management, Acesse **Administração do sistema \> Usuários \> Usuários**.
+    1. No Supply Chain Management, vá para **Administração do sistema \> Usuários \> Usuários**.
     1. Crie um usuário.
     1. Atribua o usuário do dispositivo móvel do depósito.
 
-    ![Atribua o usuário do dispositivo móvel do depósito.](media/app-connect-app-users.png "Atribua o usuário do dispositivo móvel do depósito")
+    ![Atribua o usuário do dispositivo móvel do depósito](media/app-connect-app-users.png "Atribua o usuário do dispositivo móvel do depósito")
 
 1. Associe o aplicativo Azure AD ao usuário do aplicativo de depósito:
 
-    1. Acesse **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
+    1. Vá para **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
     1. Criar uma linha.
     1. Insira a ID de cliente para a qual você criou uma nota na seção anterior, atribua um nome a ela e selecione o usuário que acabou de criar. Recomendamos marcar todos os dispositivos. Em seguida, se eles forem perdidos, você conseguirá remover facilmente o acesso ao Supply Chain Management nessa página.
 
-    ![Aplicativos do Azure Active Directory.](media/app-connect-aad-apps.png "Aplicativos do Azure Active Directory")
+    ![Aplicativos do Azure Active Directory](media/app-connect-aad-apps.png "Aplicativos do Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticar usando um certificado ou segredo do cliente
 
@@ -121,7 +121,7 @@ A autenticação com o Azure AD fornece uma forma segura de conectar um disposit
 
 Os certificados podem ser usados como segredos para comprovar a identidade do aplicativo quando um token for solicitado. A parte pública do certificado é carregada no registro de aplicativos no portal do Azure, enquanto o certificado completo deve ser implantado em cada dispositivo no qual o aplicativo de depósito está instalado. A sua organização é responsável por gerenciar o certificado em termos de rotação, e assim por diante. Você pode usar certificados autoassinados, mas deve sempre usar certificados não exportáveis.
 
-É necessário disponibilizar o certificado localmente em cada dispositivo no qual o aplicativo de depósito está sendo executado. Para obter informações sobre como gerenciar certificados para dispositivos controlados pelo Intune se você estiver usando o Intune, consulte [Usar certificados para autenticação no Microsoft Intune](/mem/intune/protect/certificates-configure).
+É necessário disponibilizar o certificado localmente em cada dispositivo no qual o aplicativo de depósito está sendo executado. Para obter informações sobre como gerenciar certificados para dispositivos controlados pelo Intune se você estiver usando o Intune, consulte [Usar certificados para autenticação no Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurar o aplicativo ao importar configurações de conexão
 
@@ -136,11 +136,11 @@ Você pode importar configurações de conexão de um arquivo ou código QR. Par
 | ConnectionName | Especifique o nome da configuração de conexão. O tamanho máximo é de 20 caracteres. Como esse valor é o identificador exclusivo de uma configuração de conexão, certifique-se de que ele seja exclusivo na lista. Se já houver uma conexão com o mesmo nome no dispositivo, ela será substituída pelas configurações do arquivo importado. |
 | ActiveDirectoryClientAppId | Especifique a ID do cliente para a qual criou uma nota enquanto estava configurando o Azure AD na seção [Criar um aplicativo de serviço Web no Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Especifique a URL raiz do Supply Chain Management. |
-| ActiveDirectoryTenant | Especifique o nome de domínio do Azure AD que você está usando com o servidor do Supply Chain Management. Esse valor tem o formulário `https://login.windows.net/<your-Azure-AD-domain-name>`. Este é um exemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. Para obter mais informações sobre como encontrar o nome de domínio do Azure AD, consulte [Localizar IDs importantes para um usuário](/partner-center/find-ids-and-domain-names). |
+| ActiveDirectoryTenant | Especifique o locatário do Azure AD que você está usando com o servidor do Supply Chain Management. Esse valor tem o formulário `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Este é um exemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
 | Empresa | Especifique a entidade legal no Supply Chain Management à qual você quer que o aplicativo se conecte. |
-| ConnectionType | (Opcional) Especifique se a configuração de conexão deve usar um certificado ou um segredo de cliente para se conectar a um ambiente. Os valores válidos são *"certificate"* e *"clientsecret"*. O valor padrão é *"certificate"*.<p>**Observação:** não é possível importar segredos do cliente.</p> |
-| IsEditable | (Opcional) Especifique se o usuário do aplicativo deve ter permissão para editar a configuração de conexão. Os valores válidos são *"true"* e *"false"*. O valor padrão é *"true"*. |
-| IsDefault | (Opcional) Especifique se a conexão é a conexão padrão. Uma conexão definida como padrão será automaticamente pré-selecionada quando o aplicativo for aberto. Somente uma conexão pode ser definida como padrão. Os valores válidos são *"true"* e *"false"*. O valor padrão é *"false"*. |
+| ConnectionType | (Opcional) Especifique se a configuração de conexão deve usar um certificado ou um segredo de cliente para se conectar a um ambiente. Os valores válidos são *"certificate"* e *"clientsecret"*. O valor padrão é *'certificate'*.<p>**Observação:** não é possível importar segredos do cliente.</p> |
+| IsEditable | (Opcional) Especifique se o usuário do aplicativo deve ter permissão para editar a configuração de conexão. Os valores válidos são *"true"* e *"false"*. O valor padrão é *true*. |
+| IsDefault | (Opcional) Especifique se a conexão é a conexão padrão. Uma conexão definida como padrão será automaticamente pré-selecionada quando o aplicativo for aberto. Somente uma conexão pode ser definida como padrão. Os valores válidos são *"true"* e *"false"*. O valor padrão é *false*. |
 | CertificateThumbprint | (Opcional) Para dispositivos Windows, é possível especificar a impressão digital do certificado para a conexão. Para dispositivos Android, o usuário do aplicativo deve selecionar o certificado na primeira vez em que uma conexão for usada. |
 
 O exemplo a seguir mostra um arquivo de configurações de conexão válido que contém duas conexões. Como pode ver, a lista de conexões (chamada *"ConnectionList"* no arquivo) é um objeto que tem uma matriz que armazena cada conexão como um objeto. Cada objeto deve ser colocado entre chaves ({}) e separado por vírgulas, e a matriz deve estar entre colchetes (\[\]).
@@ -198,43 +198,43 @@ Geralmente, os caminhos são criados automaticamente após a primeira execução
 Siga estas etapas para importar configurações de conexão de um arquivo ou código QR.
 
 1. Abra o aplicativo de depósito em seu dispositivo móvel.
-1. Acesse **Configurações da conexão**.
+1. Vá para **Configurações da conexão**.
 1. Defina a opção **Usar modo de demonstração** como _Não_.
 
-    ![Opção Usar modo de demonstração.](media/app-connect-app-demo-mode.png "Opção Usar modo de demonstração")
+    ![Opção Usar modo de demonstração](media/app-connect-app-demo-mode.png "Opção Usar modo de demonstração")
 
 1. Selecione **Selecionar arquivo** ou **Digitalizar código QR**, dependendo de como deseja importar as configurações:
 
     - Se você estiver importando as configurações de conexão de um arquivo, o aplicativo talvez já tenha encontrado o arquivo se o nome e o local padrão tiverem sido usados ao salvá-lo. Caso contrário, selecione **Selecionar arquivo**, navegue até o arquivo em seu dispositivo local e selecione-o. Se você selecionar um local personalizado, o aplicativo o armazenará e o utilizará na próxima vez.
     - Se você estiver importando as configurações de conexão ao digitalizar um código QR, selecione **Digitalizar código QR**. O aplicativo solicita a permissão para usar a câmera do dispositivo. Depois de conceder a permissão, a câmera será iniciada para que você possa usá-la na digitalização. Dependendo da qualidade da câmera do dispositivo e da complexidade do código QR, pode ser difícil obter uma digitalização correta. Nesse caso, tente reduzir a complexidade do código QR gerando apenas uma conexão por código QR. (Atualmente, é possível usar somente a câmera do dispositivo para digitalizar o código QR.)
 
-    ![Importar configurações de conexão.](media/app-connect-app-select-file.png "Importar configurações de conexão")
+    ![Importar configurações de conexão](media/app-connect-app-select-file.png "Importar configurações de conexão")
 
 1. Quando as configurações de conexão forem carregadas com êxito, selecione o botão **Voltar** (seta para esquerda) no canto superior esquerdo da página.
 
-    ![Configurações de conexão carregadas.](media/app-connect-app-settings-loaded.png "Configurações de conexão carregadas")
+    ![Configurações de conexão carregadas](media/app-connect-app-settings-loaded.png "Configurações de conexão carregadas")
 
 1. Se você estiver usando um dispositivo Android e estiver usando um certificado para autenticação, o dispositivo solicitará a seleção do certificado.
 
-    ![Solicitação Escolher certificado em um dispositivo Android.](media/app-connect-app-choose-cert.png "Solicitação Escolher certificado em um dispositivo Android")
+    ![Solicitação Escolher certificado em um dispositivo Android](media/app-connect-app-choose-cert.png "Solicitação Escolher certificado em um dispositivo Android")
 
 1. O aplicativo se conecta ao servidor do Supply Chain Management e mostra a página de entrada.
 
-    ![Página de entrada.](media/app-connect-sign-in.png "Página de entrada")
+    ![Página de entrada](media/app-connect-sign-in.png "Página de entrada")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Configurar o aplicativo manualmente
 
 É possível configurar o aplicativo manualmente no dispositivo para ele se conectar ao servidor do Supply Chain Management por meio do aplicativo do Azure AD.
 
 1. Abra o aplicativo de depósito em seu dispositivo móvel.
-1. Acesse **Configurações da conexão**.
+1. Vá para **Configurações da conexão**.
 1. Defina a opção **Usar modo de demonstração** como _Não_.
 
-    ![Modo de demonstração desativado.](media/app-connect-app-select-file.png "Modo de demonstração desativado")
+    ![Modo de demonstração desativado](media/app-connect-app-select-file.png "Modo de demonstração desativado")
 
 1. Toque no campo **Selecionar conexão** para expandir as configurações necessárias para inserir manualmente os detalhes da conexão.
 
-    ![Campos de conexão manual.](media/app-connect-manual-connect.png "Campos de conexão manual")
+    ![Campos de conexão manual](media/app-connect-manual-connect.png "Campos de conexão manual")
 
 1. Digite as seguintes informações:
 
@@ -248,7 +248,7 @@ Siga estas etapas para importar configurações de conexão de um arquivo ou có
         > [!NOTE]
         > Não finalize esse valor com uma barra (/).
 
-    - **Locatário do Active directory** – Insira o nome de domínio do Azure AD que você está usando com o servidor do Supply Chain Management. Esse valor tem o formulário `https://login.windows.net/<your-Azure-AD-domain-name>`. Este é um exemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. Para obter mais informações sobre como encontrar o nome de domínio do Azure AD, consulte [Localizar IDs importantes para um usuário](/partner-center/find-ids-and-domain-names).
+    - **Locatário do Active directory** – Insira o locatário do Azure AD que está usando com o servidor do Supply Chain Management. Esse valor tem o formulário `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Este é um exemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`.
 
         > [!NOTE]
         > Não finalize esse valor com uma barra (/).
@@ -263,7 +263,7 @@ Siga estas etapas para importar configurações de conexão de um arquivo ou có
 
 Em caso de perda ou comprometimento do dispositivo, será necessário remover o acesso dele ao Supply Chain Management. As etapas a seguir descrevem o processo recomendado para remover o acesso.
 
-1. Acesse **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
+1. Vá para **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
 1. Exclua a linha que corresponde ao dispositivo para o qual você deseja remover o acesso. Anote a ID do cliente usada para o dispositivo removido, pois precisará dela mais tarde.
 
     Se você tiver registrado somente uma ID de cliente e vários dispositivos usarem a mesma ID de cliente, será necessário enviar novas configurações de conexão para esses dispositivos. Caso contrário, eles perderão o acesso.
@@ -274,6 +274,3 @@ Em caso de perda ou comprometimento do dispositivo, será necessário remover o 
 1. Verifique se a ID do cliente do aplicativo é igual à ID do cliente para a qual fez uma anotação na etapa 2.
 1. Na barra de ferramentas, selecione **Excluir**.
 1. Na mensagem de confirmação exibida, selecione **Sim**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

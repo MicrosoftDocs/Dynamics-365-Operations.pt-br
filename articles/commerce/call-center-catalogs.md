@@ -2,13 +2,16 @@
 title: Catálogos do call center
 description: Este tópico descreve a funcionalidade específica de call center para catálogos no Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742503"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4410336"
 ---
 # <a name="call-center-catalogs"></a>Catálogos do call center
 
@@ -37,11 +40,11 @@ As empresas de marketing direto ao consumidor são muito focadas no rastreamento
 
 ## <a name="basic-catalog-setup"></a>Configuração básica do catálogo
 
-Acesse **Varejo e Comércio** \> **Catálogos e classificações** \> **Todos os catálogos** para configurar seu catálogo.
+Vá para **Varejo e Comércio** \> **Catálogos e classificações** \> **Todos os catálogos** para configurar seu catálogo.
 
-Ao criar um novo catálogo, primeiro você deve vincular o catálogo a um ou mais canais. Isso é feito na FastTab **Canais de comércio** do formulário **Configuração de catálogo**. Clique em **Adicionar** e selecione um ou mais canais. Somente os itens vinculados ao canal selecionado [sortimentos](/dynamics365/unified-operations/retail/assortments) podem ser usados ao criar o catálogo.
+Ao criar um novo catálogo, primeiro você deve vincular o catálogo a um ou mais canais. Isso é feito na FastTab **Canais de comércio** do formulário **Configuração de catálogo**. Clique em **Adicionar** e selecione um ou mais canais. Somente os itens vinculados ao canal selecionado [sortimentos](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments) podem ser usados ao criar o catálogo.
 
-Para adicionar produtos a um catálogo, uma hierarquia de navegação será escolhida. A hierarquia de navegação suportará a estrutura da categoria do catálogo. Você deve selecionar de uma das hierarquias de navegação vinculadas aos canais selecionados na FastTab **Canais de comércio** da página **Catálogo**. Se um canal de navegação não foi vinculado a um canal anteriormente, Acesse **Varejo e Comércio** \> **Configuração de canal** \> **Categorias de canal e atributos de produtos** para vincular uma hierarquia de navegação padrão a cada um de seus canais.
+Para adicionar produtos a um catálogo, uma hierarquia de navegação será escolhida. A hierarquia de navegação suportará a estrutura da categoria do catálogo. Você deve selecionar de uma das hierarquias de navegação vinculadas aos canais selecionados na FastTab **Canais de comércio** da página **Catálogo**. Se um canal de navegação não foi vinculado a um canal anteriormente, vá para **Varejo e Comércio** \> **Configuração de canal** \> **Categorias de canal e atributos de produtos** para vincular uma hierarquia de navegação padrão a cada um de seus canais.
 
 Na guia de menu **Catálogos**, na página **Configuração de catálogo**, clique em **Adicionar produtos** para configurar os produtos para adicionar ao catálogo, ou selecione um nó na hierarquia de navegação (selecionar um nó alterará a apresentação da tela e permitirá que você adicionar produtos diretamente a uma categoria no catálogo).
 
@@ -98,6 +101,3 @@ Na guia **Catálogos**, as opções para configurar uma **Agenda de pagamento** 
 ## <a name="additional-notes"></a>Notas adicionais
 
 Atualmente, quando uma ID de código-fonte é aplicada a uma ordem de venda no call center, ela é usada para impulsionar preços, promoções, scripts e vendas/vendas cruzadas específicas do catálogo. O sistema não proibirá nem impedirá que um produto que não esteja no catálogo seja solicitado na ordem de venda. Se for pedido um item que não faz parte do catálogo, primeiro o sistema usará o **Grupo de preços** definido no canal de call center (**Varejo e Comércio** \> **Canais** \> **Call centers** \> **Todos os call centers**) para o preço de item ou promoções. Se nenhum preço de canal específico for encontrado, o preço de venda base do item será usado.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,39 +1,37 @@
 ---
-title: Gerenciar recursos em Recursos Humanos
-description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
-author: twheeloc
-ms.date: 08/19/2021
+title: Gerenciar recursos
+description: Saiba como habilitar ou desabilitar novos recursos no Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069698"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417323"
 ---
-# <a name="manage-features-in-human-resources"></a>Gerenciar recursos em Recursos Humanos
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="manage-features"></a>Gerenciar recursos
 
 Como parte de liberação contínua de novas funcionalidades do Microsoft Dynamics 365 Human Resources, queremos que nossos clientes aproveitem novos recursos o mais rápido possível. Fornecemos recursos de visualização, que estão quase prontos para disponibilidade geral e passam por um teste extenso. Estamos procurando apenas um círculo final de comentários de cliente e validação antes de liberá-los para disponibilidade geral.
 
-Para obter mais informações sobre novos recursos no Human Resources, consulte [Novidades em Human Resources](hr-admin-whats-new.md) e [Dynamics 365 e Plano de versão do Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
+Para obter mais informações sobre novos recursos no Human Resources, consulte [Novidades em Human Resources](hr-admin-whats-new.md) e [Dynamics 365 e Plano de versão do Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
 
-O espaço de trabalho **Gerenciamento de recursos** fornece uma lista de recursos entregues em cada versão. Por padrão, os novos recurso estão desativados. Você pode usar o espaço de trabalho para ativá-los e exibir a documentação deles. Para obter mais informações sobre o Gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+O espaço de trabalho **Gerenciamento de recursos** fornece uma lista de recursos entregues em cada versão. Por padrão, os novos recurso estão desativados. Você pode usar o espaço de trabalho para ativá-los e exibir a documentação deles. Para obter mais informações sobre o Gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 Todos os novos recursos permanecerão em versão prévia por pelo menos 30 dias e, em geral, por 30 a 60 dias. Os recursos principais estão disponíveis geralmente em outubro e abril de cada ano a partir do período de versão prévia. Assim que vir novos recursos no espaço de trabalho **Gerenciamento de recursos**, você poderá ativá-los. Alguns recursos podem ser ativados por padrão.
 
@@ -72,7 +70,7 @@ O gerenciamento de benefícios substitui a funcionalidade do espaço de trabalho
 - **Políticas de qualificação para benefícios**
 - **Eventos de qualificação**
 
-Você pode exibir as informações destas páginas no modo somente leitura. Se desejar editar as informações, você deve primeiro desabilitar o gerenciamento de benefícios (aplicável apenas a ambientes de **Área restrita**).
+Você pode exibir as informações desses formulários no modo somente leitura. Se desejar editar as informações, você deve primeiro desabilitar o gerenciamento de benefícios (aplicável apenas a ambientes de **Área restrita**).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Habilitar ou desabilitar a licença e a ausência
 
@@ -95,6 +93,4 @@ Não inclua dados pessoais (qualquer informação que pode te identificar) em se
 ## <a name="see-also"></a>Consulte também
 
 - [Novidades em Human Resources](hr-admin-whats-new.md)
-- [Dynamics 365 e Plano de versão do Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Dynamics 365 e Plano de versão do Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)

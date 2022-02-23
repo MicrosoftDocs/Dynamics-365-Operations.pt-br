@@ -2,25 +2,28 @@
 title: Configurar carta de ordem de débito direto SEPA
 description: Um débito direto de SEPA (Área Única de Pagamentos em Euros) permite que um credor colete fundos da conta bancária de um cliente, desde que um mandato assinado tenha sido concedido pelo cliente ao credor.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 59491
 ms.assetid: 653a135f-c515-4ae3-9da2-82b5e1f103b5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4f63f88daf65676104384a2d612aa415ae6533044ea52ce85947f75ad876ced
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aba265e69bde9a9c194147d6ee6a806e9b2bd7c2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758912"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440251"
 ---
 # <a name="set-up-sepa-direct-debit-mandate"></a>Configurar carta de ordem de débito direto SEPA
 
@@ -51,6 +54,3 @@ Recursos adicionais
 
 [Criar um mandato de débito direto para um cliente](tasks/create-direct-debit-mandate-customer.md) 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

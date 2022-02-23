@@ -2,25 +2,28 @@
 title: Metodologia de convenção de depreciação semestral
 description: Este tópico descreve o método usado pelos ativos fixos para calcular a depreciação usando a convenção semestral, que calcula seis meses de depreciação durante o primeiro e o último anos de um ativo em serviço.
 author: moaamer
+manager: Ann Beebe
 ms.date: 08/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 5e71beb316494d05a3d8ce6066f2a4c72e32a2ad3d75a4ba3560cb0aebfe4cc8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 55fb03cf08d8ec042aa8fb37fd1fb858d98279b1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746431"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440212"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Metodologia de convenção de depreciação semestral
 
@@ -36,9 +39,6 @@ O primeiro ano de serviço terminará em dezembro de 2020, o que significa que o
 > Depreciação anual 50.000/5 = 10.000 depreciação mensal 10.000/12 = 833,33 <br>
 > A depreciação do primeiro ano 10.000/2 = 5.000 e a depreciação mensal subsequente 5.000/9 = 555,56
 
-   [![Agenda de depreciação para convenção de depreciação semestral.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Agenda de depreciação para convenção de depreciação semestral](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Os períodos de depreciação estendidos adicionados pela convenção semestral fornecem uma alocação mais precisa da depreciação. A convenção semestral representa as despesas de depreciação de forma mais uniforme, o que é útil para relatórios no demonstrativo de lucros e perdas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

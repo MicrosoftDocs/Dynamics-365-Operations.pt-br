@@ -2,25 +2,28 @@
 title: Parâmetros para entidades legais no Brasil
 description: Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações.
 author: sndray
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Accountant_BR, AccountantElectronicAddress_BR, AccountantPostalAddress_BR, BrazilParameters, FiscalEstablishment_BR, FiscalEstablishmentGroup_BR
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 269404
 ms.assetid: af0951b7-078d-49ea-9655-1037dbd0bfe1
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2f1f09f22f3bf8bb1b11d9869954f9be2aa090cb2a033ede0903e75ba1b72974
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e88eda1464a6997964be3e1382650a1f9d60cb3b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717449"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408445"
 ---
 # <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
 
@@ -28,11 +31,12 @@ ms.locfileid: "6717449"
 
 Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações.
 
-## <a name="brazilian-legal-entity-overview"></a>Visão geral da entidade legal brasileira
+<a name="brazilian-legal-entity-overview"></a>Visão geral da entidade legal brasileira
+-------------------------------
 
 Uma entidade legal brasileira está organizada por estabelecimentos fiscais que funcionam da mesma forma e está nas mesmas operações de uma ramificação. Há um estabelecimento fiscal principal que é considerado a matriz e os estabelecimentos fiscais relacionados que estão localizados em outros estados ou fora do Brasil. A ilustração a seguir mostra a estrutura de uma entidade legal brasileira e os estabelecimentos fiscais relacionados. 
 
-[![estrutura de uma entidade legal brasileira e dos estabelecimentos fiscais relacionados.](./media/bralegalentity-236x300.png)](./media/bralegalentity.png)
+[![estrutura de uma entidade legal brasileira e dos estabelecimentos fiscais relacionados](./media/bralegalentity-236x300.png)](./media/bralegalentity.png)
 
 ## <a name="fiscal-establishments"></a>Estabelecimentos fiscais
 Um estabelecimento fiscal é uma localização de uma entidade legal, como subsidiária, filial, fábrica, centro de distribuição, depósito ou loja, que requer um número de inscrição dos impostos do Cadastro Nacional da Pessoa Jurídica (CNPJ) ou da Inscrição Estadual (IE). Uma entidade legal pode ter vários estabelecimentos fiscais. Os estabelecimentos fiscais emitem e recebem notas fiscais e avaliam e pagam os impostos. Você pode executar estas tarefas:
@@ -317,6 +321,3 @@ No Brasil, é necessário especificar os detalhes do contador para o relatório 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,26 @@
 title: Visão geral dos livros fiscais do Brasil
 description: Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED.
 author: sndray
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FBBookingPeriodCreate_BR, FBBookingPeriodListPage_BR, FBBookingPeriodLookup_BR, FBBookingPeriodWizard_BR
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "270004"
-- intro-internal
+ms.custom: 270004
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: caac898030f7016eae64fae432ca044d4177b089
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 8cae660a58c0d317106043b19ba3e68ccb5ef70c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982944"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962585"
 ---
 # <a name="brazil-fiscal-books-overview"></a>Visão geral dos livros fiscais do Brasil
 
@@ -54,6 +54,3 @@ O SPED (Public Digital Bookkeeping System) ou Sistema Público de Escrituração
 -   [Nota fiscal eletrônica para serviços](latam-bra-service-electronic-fiscal-document.md)   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

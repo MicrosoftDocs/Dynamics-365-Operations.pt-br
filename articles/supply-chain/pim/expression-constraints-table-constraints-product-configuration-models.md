@@ -1,27 +1,30 @@
 ---
 title: Restrições de expressão e restrições de tabela nos modelos de configuração do produto
 description: Este tópico descreve o uso de restrições de expressão e de tabela. As restrições controlam os valores de atributo que podem ser selecionados quando você configura produtos para uma ordem de venda, cotação de venda, ordem de compra, ou uma ordem de produção. É possível usar restrições de expressão ou de tabela, dependendo de como você preferir criar as restrições.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8775a9225313c0f5a132dbccbe583470fe23beab
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570720"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422381"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restrições de expressão e restrições de tabela nos modelos de configuração do produto
 
@@ -107,7 +110,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="odd">
 <td>Implies</td>
 <td>Isso ocorre se a primeira condição for falsa, a segunda condição for verdadeira ou ambos.</td>
-<td>Implies[a, b], infixo: a -: b</td>
+<td>Implies[a, b], infix: a -: b</td>
 <td><ul>
 <li><strong>Operador:</strong> Implies[x != 0, y &gt;= 0]</li>
 <li><strong>Notação de infixo:</strong> x != 0 -: y &gt;= 0</li>
@@ -116,7 +119,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="even">
 <td>E</td>
 <td>Isso ocorre apenas se todas as condições forem verdadeiras. If the number of conditions is 0 (zero), ele produzirá <strong>Verdadeiro</strong>.</td>
-<td>And[args], infixo: a &amp; b &amp; ... &amp; z</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
 <li><strong>Operador:</strong> And[x == 2, y &lt;= 2]</li>
 <li><strong>Notação de infixo:</strong> x == 2 &amp; y &lt;= 2</li>
@@ -125,7 +128,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="odd">
 <td>Ou</td>
 <td>Isso será verdadeiro se qualquer condição for verdadeira. Se o número de condições for 0, ele produzirá <strong>Falso</strong>.</td>
-<td>Or[args], infixo: a | b | ... | z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
 <li><strong>Operador:</strong> Or[x == 2, y &lt;= 2]</li>
 <li><strong>Notação de infixo:</strong> x == 2 | y &lt;= 2</li>
@@ -134,7 +137,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="even">
 <td>Mais</td>
 <td>Isso soma as condições. Se o número de condições for 0, ele produzirá <strong>0</strong>.</td>
-<td>Plus[args], infixo: a + b + ... + z</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Operador:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Notação de infixo:</strong> x + y + 2 == z</li>
@@ -143,7 +146,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="odd">
 <td>Menos</td>
 <td>Isso nega o argumento. Deve ter exatamente uma condição.</td>
-<td>Minus[expr], infixo: -expr</td>
+<td>Minus[expr], infix: -expr</td>
 <td><ul>
 <li><strong>Operador:</strong> Minus[x] == y</li>
 <li><strong>Notação de infixo:</strong> -x == y</li>
@@ -156,39 +159,39 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <td><strong>Operador:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Horas</td>
+<td>Tempos</td>
 <td>Leva o produto das condições. Se o número de condições for 0, ele produzirá <strong>1</strong>.</td>
-<td>Times[args], infixo: a * b * ... * z</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Operador:</strong> Times[x, y, 2] == z</li>
 <li><strong>Notação de infixo:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Energia</td>
-<td>Leva um exponencial. Ele aplica a exponenciação da direita para a esquerda. (Ou seja, é associativo à direita). Consequentemente, <strong>Power[a, b, c]</strong> é equivalente a <strong>Power[a, Power[b, c]]</strong>. <strong>Potência</strong> pode ser usada somente se o expoente for uma constante positiva.</td>
-<td>Power[args], infixo: a ^ b ^ ... ^ z</td>
+<td>Potência</td>
+<td>Leva um exponencial. Ele aplica a exponenciação da direita para a esquerda. (Ou seja, ele é associativo à direita.) Então, <strong>Power[a, b, c]</strong> equivale a <strong>Power[a, Power[b, c]]</strong>. <strong>Potência</strong> pode ser usada somente se o expoente for uma constante positiva.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operador:</strong> Power[x, 2] == y</li>
 <li><strong>Notação de infixo:</strong> x ^ 2 == y</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Máx.</td>
+<td>Máx</td>
 <td>Isso gera a condição a maior. Se o número de condições for 0, ele produzirá <strong>Infinito</strong>.</td>
 <td>Max[args]</td>
 <td><strong>Operador:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Mín.</td>
+<td>Min.</td>
 <td>Isso gera a condição menor. Se o número de condições for 0, ele produzirá <strong>Infinito</strong>.</td>
 <td>Min[args]</td>
 <td><strong>Operador:</strong> Min[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
-<td>Não</td>
+<td>Not</td>
 <td>Isso gera a inversão lógica da condição. Deve ter exatamente uma condição.</td>
-<td>Not[expr], infixo: !expr</td>
+<td>Not[expr], infix: !expr</td>
 <td><ul>
 <li><strong>Operador:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Notação de infixo:</strong> !x!(y == 3)</li>
@@ -219,7 +222,7 @@ Os exemplos na tabela a seguir mostram como gravar uma notação de infixo.
 |        (x)        |                           Precedência padrão de sobreposição de parênteses.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Por que minhas restrições de expressão não são validadas corretamente?
-Não é possível usar palavras-chave reservadas como nomes de atributos, componentes ou subcomponentes em um modelo de configuração de produto. Veja uma lista das palavras-chave reservadas que você não pode usar:
+Não é possível usar palavras-chave reservadas como nomes de atributos, componentes ou subcomponentes em um modelo de configuração de produto. Veja uma lista das palavras-chave reservadas que você não pode usar:
 
 -   Teto
 -   Elemento
@@ -242,7 +245,8 @@ Não é possível usar palavras-chave reservadas como nomes de atributos, compon
 -   Meta
 
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Criar uma restrição de expressão](tasks/add-expression-constraint-product-configuration-model.md)
 
@@ -250,6 +254,3 @@ Não é possível usar palavras-chave reservadas como nomes de atributos, compon
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

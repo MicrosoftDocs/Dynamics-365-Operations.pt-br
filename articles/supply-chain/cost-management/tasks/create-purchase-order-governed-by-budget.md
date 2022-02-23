@@ -1,23 +1,25 @@
 ---
 title: Criar uma ordem de compra regida por orçamento
 description: Use este procedimento para criar uma ordem de compra que seja verificada para o orçamento disponível.
-author: AndersGirke
+author: ShylaThompson
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e2bfec4d7d38ef95d1f0ce3bd89938337ecf731
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cbfbbef3bd7c7398f0f17b6cddbbff8c4755638d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572040"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963704"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Criar uma ordem de compra regida por orçamento
 
@@ -27,7 +29,7 @@ Use este procedimento para criar uma ordem de compra que seja verificada para o 
 
 
 ## <a name="review-the-budget-control-configuration"></a>Revise a configuração de controle de orçamento
-1. Acesse Orçamento > Configuração > Controle de orçamento > Configuração de controle de orçamento.
+1. Vá para Orçamento > Configuração > Controle de orçamento > Configuração de controle de orçamento.
 2. Clique na guia disponível dos fundos de orçamento.
 3. Clique na guia Documentos e diários.
 4. Clique na guia Definir regras de controle de orçamento.
@@ -35,7 +37,7 @@ Use este procedimento para criar uma ordem de compra que seja verificada para o 
 6. Feche a página.
 
 ## <a name="create-the-purchase-order-header"></a>Criar o cabeçalho da ordem de compra
-1. Acesse Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
+1. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. No campo Conta de fornecedor, insira ou selecione um valor.
 4. Expanda a seção Geral.
@@ -59,6 +61,3 @@ Use este procedimento para criar uma ordem de compra que seja verificada para o 
 4. Clique em Erros ou avisos da verificação de orçamento.
 5. Clique em Fechar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

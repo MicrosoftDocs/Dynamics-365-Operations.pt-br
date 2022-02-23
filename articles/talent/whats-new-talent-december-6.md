@@ -143,6 +143,3 @@ Os mapeamentos atualizados devem ter a seguinte aparência:
 
 ![Transformação do campo Sexo](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

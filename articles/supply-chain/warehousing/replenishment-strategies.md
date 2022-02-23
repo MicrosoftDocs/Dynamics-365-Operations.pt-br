@@ -2,22 +2,25 @@
 title: Estratégias de reabastecimento
 description: Este tópico fornece informações sobre estratégias de reabastecimento e explica como você pode usar o campo Estratégia de reabastecimento nas linhas do modelo de reabastecimento de demanda do ciclo para selecionar como o reabastecimento é feito.
 author: mirzaab
+manager: tfehr
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
-ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: bd2ddbfeef454f2759ca09d8d763bada36a1fc83
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.16
+ms.openlocfilehash: 45b3b1a4d2e92a52ee69c17865634a6578181ac7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574152"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646124"
 ---
 # <a name="replenishment-strategies"></a>Estratégias de reabastecimento
 
@@ -45,7 +48,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 Para acessar os modelos, acesse **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento**. Na seção **Visão geral**, selecione ou crie um modelo de reabastecimento de demanda de ondas onde o campo **Tipo de reabastecimento** está definido como *Demanda de ciclo*. Em seguida, configure as linhas do modelo de reabastecimento na seção **Detalhes do modelo de reabastecimento**. Para cada linha, no campo **Estratégia de reabastecimento**, selecione a estratégia de reabastecimento que deseja usar.
 
-![Página de modelos de reabastecimento.](media/ReplenTempWaveDmdMaxLocCap.png "Página de modelos de reabastecimento")
+![Página de modelos de reabastecimento](media/ReplenTempWaveDmdMaxLocCap.png "Página de modelos de reabastecimento")
 
 Se a coluna **Estratégia de reabastecimento** não aparecer na grade na seção **Detalhes do modelo de reabastecimento**, verifique se o recurso foi ativado e se o modelo de reabastecimento selecionado tem um tipo de reabastecimento *Demanda de ciclo*.
 
@@ -85,7 +88,7 @@ Se você definir a estratégia de reabastecimento como *Capacidade máxima do lo
 - **Trabalho de reabastecimento 1:** Escolha 4 caixas do local em massa e coloque-as na localização pick-001.
 - **Trabalho de reabastecimento 2:** Escolha 5 caixas do local em massa e coloque-as na localização pick-002.
 
-[![Exemplo 1.](media/ReplenTemp_example_1.png "Exemplo 1")](media/ReplenTemp_example_1_large.png)
+[![Exemplo 1](media/ReplenTemp_example_1.png "Exemplo 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Exemplo 2
 
@@ -109,9 +112,6 @@ Dependendo da configuração da opção **Permitir divisão** nas diretivas de l
 
 Os resultados são diferentes devido às informações disponíveis quando você cria o trabalho. Quando **Permitir divisão** é definida como *Sim* nas diretivas de localização para a separação de reabastecimento, você sabe que gerencia para encontrar 160 pcs. Portanto, você pode criar trabalho para essa quantidade. No entanto, quando a opção **Permitir divisão** está definida como *Não*, você não sabe a existência das 160 pcs. Como a quantidade extra que você decidiu reabastecer era de 3 caixas, você pode soltar essa quantidade extra e tentar a quantidade original novamente.
 
-[![Exemplo 2.](media/ReplenTemp_example_2.png "Exemplo 2")](media/ReplenTemp_example_2_large.png)
+[![Exemplo 2](media/ReplenTemp_example_2.png "Exemplo 2")](media/ReplenTemp_example_2_large.png)
 
 Portanto, para obter a quantidade máxima para os locais reabastecidos, você deve definir a opção **Permitir divisão** como *Sim* nas diretivas de localização para a separação de reabastecimento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

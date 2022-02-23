@@ -2,9 +2,11 @@
 title: Configurar etapas de aprovação em um fluxo de trabalho
 description: Este tópico explica como configurar as propriedades de uma etapa de aprovação.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070768"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797087"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurar etapas de aprovação em um fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico explica como configurar as propriedades de uma etapa de aprovação.
 
@@ -159,7 +158,7 @@ Siga estas etapas para especificar a quem a etapa de aprovação deve ser atribu
 
     - **Aprovador único** – a ação que é aplicada ao documento é determinada pela primeira pessoa que responde. Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000. O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme. Se Suzana for a primeira pessoa a responder ao documento, a ação tomada por ela será aplicada. Se Suzana rejeitar o documento, ele será rejeitado e enviado novamente para Samuel. Se Suzana aprovar o documento, ele será enviado a Ana para aprovação.
 
-        ![Fluxo de trabalho que tem um processo de aprovação.](./media/workflow_multipleusersinstep.gif)
+        ![Fluxo de trabalho que tem um processo de aprovação](./media/workflow_multipleusersinstep.gif)
 
     - **Maioria dos aprovadores** – a ação que é aplicada ao documento é determinada quando a maioria dos aprovadores responde. Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000. O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme. Se Suzana e Joana forem os dois primeiros aprovadores a responder, a ação tomada por ambas será aplicada ao documento.
 
@@ -277,6 +276,3 @@ Se um usuário não executar nenhuma ação em um documento no tempo alocado, o 
 
 5. Repita as etapas de 3 a 4 para cada usuário que deve ser adicionado ao caminho de escalonamento. Você pode alterar a ordem dos usuários.
 6. Se os usuários no caminho de escalonamento não responderem no tempo alocado, o sistema executará uma ação no documento automaticamente. Para especificar a ação que o sistema executará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma ação.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

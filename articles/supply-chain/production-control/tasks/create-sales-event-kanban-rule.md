@@ -1,25 +1,28 @@
 ---
 title: Criar uma regra kanban de evento de vendas
 description: Este procedimento tem como foco a configuração necessária para criar uma regra kanban que é necessária durante a criação da ordem de vendas.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cd2b579e542b9f905fc51b63f2120e5a5c883ae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1759adea6db8120078e2f32bff79178545c2328a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566638"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421896"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Criar uma regra kanban de evento de vendas
 
@@ -31,7 +34,7 @@ Este procedimento tem como foco a configuração necessária para criar uma regr
 
 
 ## <a name="create-a-new-kanban-rule"></a>Criar uma nova regra kanban
-1. Acesse Regras kanban.
+1. Vá para Regras kanban.
 2. Clique em Novo.
 3. No campo Estratégia de reabastecimento, selecione 'Evento'.
     * Selecionar Evento significa que a regra kanban é ativada por um evento, como a criação de uma linha da ordem de venda.   Isso é aplicado a áreas nas quais cada kanban deve cobrir uma demanda específica.  
@@ -71,6 +74,3 @@ Este procedimento tem como foco a configuração necessária para criar uma regr
 2. Clique em Exibir árvore de vinculação.
     * Note que um kanban com a mesma quantidade como a linha de vendas é criado. Você também pode ver as questões materiais necessárias para produzir L0050. Esta é a última etapa do procedimento.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,41 +1,45 @@
 ---
 title: Visão geral da integração com o Microsoft Dynamics 365 Field Service
 description: Este tópico fornece uma visão geral da Integração com o Microsoft Dynamics 365 Field Service.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062666"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528890"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Visão geral da integração com o Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-O Supply Chain Management permite a sincronização de processos de negócios entre o Dynamics 365 Supply Chain Management e o Dynamics 365 Field Service. Os cenários de integração são configurados usando modelos extensíveis do Integrador de dados e o Microsoft Dataverse para permitir a sincronização dos processos de negócios.
-Os modelos padrão podem ser usados para criar projetos de integração personalizados, em que outras colunas e tabelas padrão e personalizadas podem ser mapeadas para ajustar a integração e para atender a necessidades de negócios específicas. 
+O Supply Chain Management permite a sincronização de processos de negócios entre o Dynamics 365 Supply Chain Management e o Dynamics 365 Field Service. Os cenários de integração são configurados usando modelos extensíveis do Integrador de dados e o Common Data Service para permitir a sincronização dos processos de negócios.
+Os modelos padrão podem ser usados para criar projetos de integração personalizados, em que o padrão adicional e os campos e as entidades personalizados podem ser mapeados para ajustar a integração e para atender a necessidades de negócios específicas. 
 
 A integração do Field Service se baseia na funcionalidade existente de pagamento à vista.
 
-![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service.](./media/field-service-integration.png)
+![Sincronização de processos de negócios entre o Supply Chain Management e o Field Service](./media/field-service-integration.png)
 
-A primeira fase da integração entre o Field Service e o Supply Chain Management é centrada em permitir que ordens de serviço e contratos no Field Service sejam faturados no Supply Chain Management. O fluxo com suporte começa no Field Service, onde as informações das ordens de serviço são sincronizadas para o Supply Chain Management como ordens de venda. No Supply Chain Management, as ordens de venda são faturadas para gerar documentos de fatura. Além disso, as informações das faturas de contrato do Field Service são sincronizadas para o Supply Chain Management. O Integrador de dados do Microsoft Dynamics 365 sincroniza os dados usando projetos personalizáveis. Modelos padrão podem ser usados para criar projetos de integração personalizados em que outras colunas e tabelas padrão e personalizadas podem ser mapeadas para ajustar a integração e para atender a requisitos específicos.
+A primeira fase da integração entre o Field Service e o Supply Chain Management é centrada em permitir que ordens de serviço e contratos no Field Service sejam faturados no Supply Chain Management. O fluxo com suporte começa no Field Service, onde as informações das ordens de serviço são sincronizadas para o Supply Chain Management como ordens de venda. No Supply Chain Management, as ordens de venda são faturadas para gerar documentos de fatura. Além disso, as informações das faturas de contrato do Field Service são sincronizadas para o Supply Chain Management. O Integrador de dados do Microsoft Dynamics 365 sincroniza os dados usando projetos personalizáveis. Modelos padrão podem ser usados para criar projetos de integração personalizados em que o padrão adicional e os campos personalizadas, além das entidades, podem ser mapeados para ajustar a integração e para atender a requisitos específicos.
 
 A primeira fase da integração entre o Field Service e o Supply Chain Management permite a sincronização dos seguintes itens:
 
@@ -57,15 +61,15 @@ A funcionalidade adicional nesta segunda fase está centrada em fornecer aos té
 - Projetos do Supply Chain Management conectados a ordens de serviço do Dynamics 365 Field Service
 - Ordens de serviço do Dynamics 365 Field Service com links para projetos do Supply Chain Management, aplicar esse número de projeto à ordem de venda para permitir o faturamento do projeto. 
 
-![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service, incluindo informações de estoque e projeto.](./media/FSv2overview.png)
+![Sincronização de processos de negócios entre o Supply Chain Management e o Field Service](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>O segunda fase da integração entre o Field Service e o Supply Chain Management permite a sincronização com os seguintes modelos:
 - Depósitos (Supply Chain Management para Field Service) - Depósitos do Supply Chain Management para o Field Service [Consulta Avançada] 
-- Estoque de Produtos (Supply Chain Management para Field Service) - Informações de nível de estoque do Supply Chain Management para o Field Service [Consulta Avançada] 
+- Estoque de Produtos (Supply Chain Management para Field Service) - Informações de nível de estoque do Supply Chain Management para Field Service [Consulta Avançada] 
 - Ajuste de Estoque (Field Service para Supply Chain Management) - Ajustes de estoque do Field Service para o Supply Chain Management [Consulta Avançada] 
 - Transferências de Estoque (Field Service para Supply Chain Management) - Transferências de estoque do Field Service para o Supply Chain Management [Consulta Avançada] 
 - Projetos (Supply Chain Management para Field Service) - Lista de projetos do Supply Chain Management para o Field Service 
-- Ordens de serviço com projeto (Field Service para Supply Chain Management) - Ordens de serviço no Field Service para Ordens de venda no  Supply Chain Management, com suporte para o projeto [Consulta Avançada] 
+- Ordens de serviço com projeto (Field Service para Supply Chain Management) - Ordens de serviço no Field Service para Ordens de venda no Supply Chain Management, com suporte para o projeto [Consulta Avançada] 
 - Produtos do Field Service com unidade de estoque (Supply Chain Management para Sales) - 'Produtos lançados comercializáveis' do Supply Chain Management para 'Produtos' do Sales para o Field Service, incluindo a unidade de estoque 
 
 ## <a name="system-requirements"></a>Requisitos do sistema
@@ -81,6 +85,3 @@ Para usar a solução de integração do Field Service, você deve instalar os s
 - Field Service (versão 8.2.0.286) ou versão posterior no Dynamics 365 9.1.x - lançado em novembro de 2018
 - Solução P2C (Prospect to Cash) para Dynamics 365, versão 1.15.0.1 ou uma versão posterior. A solução está disponível para download no [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - Solução 'Integração, projeto e estoque do Field Service' para o Dynamics 365, versão 2.0.0.0 ou uma versão posterior. A solução está disponível para download no [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

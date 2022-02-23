@@ -2,9 +2,11 @@
 title: Pagamentos de impostos no Brasil
 description: Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.
 author: sndray
+manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FBTaxAssessmentPayment_BR, FBTaxAssessmentPaymentOtherDebits_BR
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c2f22996e84be26ab2020e8a0ecf60f831c9a5258543be5603f8e9515731027f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2e8d2d1096aa2c5ac3f9b06abe66154727e4f7e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763065"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964642"
 ---
 # <a name="tax-payments-in-brazil"></a>Pagamentos de impostos no Brasil
 
@@ -28,7 +30,8 @@ ms.locfileid: "6763065"
 
 Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.
 
-## <a name="overview"></a>Visão Geral
+<a name="overview"></a>Visão Geral
+--------
 
 Cada tipo de imposto no Brasil tem seu próprio processo, data de vencimento e informações adicionais de demonstrativo de imposto que é exigido pelas autoridades fiscais. O módulo **Livros fiscais** gera as instruções do Sistema Público de Escrituração Digital (SPED) obrigatórias para os impostos. O processo de pagamento de impostos é separado por tipos de imposto: ICMS, ICMS-ST, ICMS-DIF, IPI, ISS e PIS-COFINS.
 
@@ -41,7 +44,7 @@ A diferença entre o valor do imposto arrecadado em vendas de mercadorias e o va
 -   **Criar a partir da apuração** – Coletar e pagar imposto mensalmente, de acordo com as regras que são estabelecidas pela autoridade fiscal.
 -   **Outros débitos** – coletar e pagar um determinado valor de imposto fora do processo normal quando a autoridade de imposto requer o pagamento.
 
-![Criando pagamentos de impostos.](./media/taxpaymentsbra.jpg) 
+![Criando pagamentos de impostos](./media/taxpaymentsbra.jpg) 
 
 
 ### <a name="overview"></a>Visão Geral
@@ -160,6 +163,3 @@ Para obter mais informações, consulte os seguintes tópicos:
  - [Calcular juros e multas em pagamentos de clientes](tasks/br-00066-2-calculate-interest-fines-customer-payments.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,33 +1,31 @@
 ---
 title: Configurar parâmetros de gerenciamento de benefícios por empresa
-description: Este tópico descreve como configurar parâmetros para o gerenciamento de Benefícios por empresa no Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 8/24/2021
+description: Configure parâmetros para o gerenciamento de benefícios por empresa no Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: tfehr
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f6b3f068c9d3198afa8cd10aaa14bbc7ec9ef3c4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
+ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065809"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692736"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>Configurar parâmetros de gerenciamento de benefícios por empresa
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Para cada organização que ofereça benefícios, você deve definir configurações para emails de confirmação de benefícios.
 
@@ -39,10 +37,8 @@ Para cada organização que ofereça benefícios, você deve definir configuraç
 
    | Campo | descrição |
    | --- | --- |
-   | **Enviar email de confirmação** | Quando este recurso estiver ativado, um email de confirmação será enviado aos funcionários quando eles verificarem a experiência de registro de benefícios no **Autoatendimento para funcionários**. |
+   | **Enviar email de confirmação** | Quando este recurso estiver ativado, um email de confirmação será enviado aos funcionários quando eles verificarem a experiência de registro de benefícios no autoatendimento para funcionários. |
    | **Modelo de email de confirmação** | Selecione o modelo de email da organização a ser usado quando enviar a confirmação do registro. Se você não selecionar um modelo, o seguinte email genérico será enviado:<br><br>%EmployeeFirstName%,<br><br>Parabéns! Você concluiu com êxito o registro de benefícios.<br><br>Obrigado,<br>Benefícios de <nome da empresa/organização> |
    | **Endereço de email padrão do remetente** | O endereço de email a ser usado quando enviar o email de confirmação. |
 
 3. Selecione **Salvar**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

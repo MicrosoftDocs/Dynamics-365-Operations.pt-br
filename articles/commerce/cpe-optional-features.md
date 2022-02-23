@@ -2,24 +2,27 @@
 title: Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
 description: Este tópico explica como configurar recursos opcionais para um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728282"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410084"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -58,7 +61,7 @@ Se quiser avaliar os recursos transacionais de email, os seguintes pré-requisit
 ### <a name="update-the-media-base-url"></a>Atualize a URL base da mídia
 
 1. Entre na sede do Commerce.
-1. Use o menu à esquerda, Acesse **Módulos \> Varejo e comércio \> Configuração do Canal \> Perfis do canal**.
+1. Use o menu à esquerda, vá para **Módulos \> Varejo e comércio \> Configuração do Canal \> Perfis do canal**.
 1. Selecione **Editar**.
 1. Em **Propriedades do perfil**, substitua o valor da propriedade da **URL Base do Servidor de Mídia** com a URL Base de Mídia que você criou anteriormente.
 1. Selecione o canal chamado **scXXXXXXXXX**.
@@ -100,7 +103,7 @@ Para cada evento transacional para o qual você deseja enviar emails, você deve
 
 Você pode desejar personalizar os modelos de email para que eles usem imagens diferentes. Ou, talvez queira atualizar os links nos modelos para que eles levem você ao seu ambiente de avaliação. Esse procedimento explica como baixar os modelos padrão, personalizá-los e atualizar os modelos no sistema.
 
-1. Em um navegador da Web, baixe o [arquivo zip de modelos de email padrão para a Avaliação do Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) no seu computador local. Esse arquivo contém os seguintes documentos HTML:
+1. Em um navegador da Web, baixe o [arquivo zip de modelos de email padrão para Avaliação do Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) no seu computador local. Esse arquivo contém os seguintes documentos HTML:
 
     - Módulo de confirmação da ordem
     - Emitir modelo de vale-presente
@@ -131,7 +134,7 @@ Quando o email é processado, esses tokens são substituídos com valores reais 
 
 Os seguintes tokens se aplicam à ordem de venda geral.
 
-| Nome do token | Token |
+| Nome do token | Token  |
 |-------------------|-------|
 | Número da ordem      | %salesid% |
 | Nome do cliente   | %customername% |
@@ -140,10 +143,10 @@ Os seguintes tokens se aplicam à ordem de venda geral.
 | Data da ordem        | %shipdate% |
 | Modo de entrega     | %modeofdelivery% |
 | Desconto          | %discount% |
-| Impostos         | %tax% |
+| Imposto         | %tax% |
 | Total da ordem       | %total% |
 
-#### <a name="sales-line"></a>Linha de venda 
+#### <a name="sales-line"></a>Linha de venda
 
 Os seguintes tokens são substituídos com valores para cada produto no pedido.
 
@@ -157,7 +160,7 @@ Os seguintes tokens são substituídos com valores para cada produto no pedido.
 | Nome do produto           | %lineproductname% |
 | descrição            | %lineproductdescription% |
 | Quantidade               | %linequantity% |
-| Preço unitário da linha        | %lineprice% (verificar) |
+| Preço unitário da linha        | %lineprice% (verificação) |
 | total do item de linha        | %linenetamount% |
 | desconto de linha          | %linediscount% |
 | Data da remessa              | %lineshipdate% |
@@ -177,13 +180,10 @@ Os seguintes tokens são substituídos com valores para cada produto no pedido.
 
 [Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portal do Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site do Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

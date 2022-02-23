@@ -2,27 +2,31 @@
 title: Visão geral de recomendações de produtos
 description: Este tópico fornece informações gerais sobre as recomendações do produto. As recomendações de produtos permitem que os clientes encontrem com facilidade e rapidez os produtos que desejam e até produtos que não pretendiam comprar originalmente.
 author: Moonma
+manager: AnnBe
 ms.date: 05/26/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7824de50a65370ef4f2f23b9c8e926f9bec2fcc3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410062"
 ---
-# <a name="product-recommendations-overview"></a>Visão geral das recomendações de produtos
+# <a name="product-recommendations-overview"></a>Visão geral de recomendações de produtos
 
 [!include [banner](includes/banner.md)]
 
@@ -31,9 +35,6 @@ O Microsoft Dynamics 365 Commerce pode ser usado para mostrar recomendações de
 As recomendações de produtos permitem que os clientes encontrem com facilidade e rapidez os produtos que desejam, enquanto têm uma experiência que os atende bem. A venda cruzada e a adicional podem até ser usadas para ajudar os clientes a encontrar produtos adicionais que eles não pretendiam comprar originalmente. Quando as recomendações são usadas para aprimorar a descoberta do produto, elas criam mais oportunidades de conversão, ajudam a aumentar a receita de vendas e até a aumentar a satisfação e retenção de clientes.
 
 No comércio eletrônico, as recomendações de produtos são baseadas nas tecnologias de aprendizado de máquina do Microsoft Recommendations em larga escala.
-
-Este serviço é um complemento do Dynamics 365 Commerce. Para obter mais informações, baixe o [Guia de licenciamento mais recente do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
-
 
 ## <a name="recommendation-service"></a>Serviço de recomendação
 
@@ -87,6 +88,3 @@ A tabela a seguir descreve vários tipos de recomendações de produto automatiz
 [Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

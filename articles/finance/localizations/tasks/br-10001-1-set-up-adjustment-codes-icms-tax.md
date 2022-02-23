@@ -2,22 +2,25 @@
 title: Configurar códigos de ajuste para imposto ICMS (Brasil)
 description: No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED), o registro C197 inclui informações sobre ajustes do Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em notas fiscais.
 author: sndray
+manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3670d9284ae9b3f5570a91ac9e9e91b6ba271b1c5c767c645f745d6aa38a2a12
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6875fc935a2b724cdeb1e1fc965a55c7497e08a7
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718195"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668962"
 ---
 # <a name="set-up-adjustment-codes-for-icms-tax-brazil"></a>Configurar códigos de ajuste para imposto ICMS (Brasil)
 
@@ -25,7 +28,7 @@ ms.locfileid: "6718195"
 
 No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED), o registro C197 inclui informações sobre ajustes do Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em notas fiscais. Esses ajustes pode ocorrer devidos a um adiamento, suspensão, diferencial de alíquotas, antecipação, e outras situações de exceção do imposto ICMS. Os ajustes exigem um código de ajuste. Utilize esse procedimento para configurar códigos de ajuste. Este tópico usa a empresa de demonstração BRMF.
 
-1. Acesse **Livros fiscais** > **Configuração** > **Códigos de ajuste de imposto** > **Códigos de ajuste de ICMS, ICMS-ST e ICMS-DIF**.
+1. Vá para **Livros fiscais** > **Configuração** > **Códigos de ajuste de imposto** > **Códigos de ajuste de ICMS, ICMS-ST e ICMS-DIF**.
 2. Selecione **Novo** e no campo **Identificação**, digite um valor.
 3. No campo **Descrição**, digite um valor.
 4. No campo **Estado**, informe ou selecione um valor.
@@ -39,6 +42,3 @@ No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED),
 12. No campo **Conta principal**, especifique os valores desejados.
 13. Selecione **Salvar** e feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

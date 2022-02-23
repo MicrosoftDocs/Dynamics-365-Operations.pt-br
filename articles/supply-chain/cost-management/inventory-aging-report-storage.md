@@ -2,13 +2,16 @@
 title: Armazenamento de relatório de classificação por vencimento do estoque
 description: Este tópico descreve a funcionalidade que permite executar um Relatório de classificação por vencimento de estoque e disponibiliza a saída como um formulário e um gráfico.
 author: AndersGirke
+manager: tfehr
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ddddb0b1e377ed525b7c17fec5a4b3305573d0eba551bc03f075109a2ed769b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c4a1480cf96a4ba753b436c04eb8f7b01379da48
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781101"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422160"
 ---
 # <a name="inventory-aging-report-storage"></a>Armazenamento de relatório de classificação por vencimento do estoque
 
@@ -40,7 +43,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 ## <a name="run-an-inventory-aging-report-storage"></a>Executar um armazenamento de classificação por vencimento de estoque
 
-1. Acesse **Gerenciamento de custos \> Consultas e relatórios \> Armazenamento do relatório de classificação por vencimento de estoque**.
+1. Vá para **Gerenciamento de custos \> Consultas e relatórios \> Armazenamento do relatório de classificação por vencimento de estoque**.
 1. Selecione **Novo**.
 1. No campo **Identificador do Processo – Nome**, insira um nome exclusivo para o relatório.
 1. Selecione o relatório **Identificação – ID** e filtre-o como necessário.
@@ -54,6 +57,3 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
     > O formulário não incluirá os subtotais definidos no layout de relatório.
 
 A entidade de dados **Relatório de classificação por vencimento de estoque** permite exportar as saídas de um relatório **Armazenamento de relatório de classificação por vencimento do estoque** por meio da aplicação de um filtro para o campo **Identificador do processo – Nome** a qualquer formato que dê suporte ao Gerenciamento de dados.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

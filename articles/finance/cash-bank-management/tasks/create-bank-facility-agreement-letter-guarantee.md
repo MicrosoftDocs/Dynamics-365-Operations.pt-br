@@ -2,22 +2,25 @@
 title: Criar um contrato de recursos bancários para a carta de garantia
 description: Essa tarefa cria um contrato de recursos bancários para processar uma carta de garantia.
 author: panolte
+manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b06cc46a6fd0c9125266092592b80b5b7d906fca87369f34be9bea29a1c9890c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 165552cade2a38d9605240ab6a8ff423585786ca
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776543"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440336"
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Criar um contrato de recursos bancários para a carta de garantia
 
@@ -27,7 +30,7 @@ Essa tarefa cria um contrato de recursos bancários para processar uma carta de 
 
 
 ## <a name="create-bank-facility-agreement"></a>Criar um Contrato de recursos bancários
-1. Acesse Gerenciamento de dinheiro e banco > Cartas de garantia > Contratos de recursos bancários.
+1. Vá para Gerenciamento de dinheiro e banco > Cartas de garantia > Contratos de recursos bancários.
 2. Clique em Novo.
 3. No campo Número do contrato, insira o número do contrato do banco para a transação.
 4. No campo Conta bancária, selecione o número da conta bancária para a qual a carta de garantia é aberta. 
@@ -54,6 +57,3 @@ Essa tarefa cria um contrato de recursos bancários para processar uma carta de 
 5. Clique em Salvar.
 6. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

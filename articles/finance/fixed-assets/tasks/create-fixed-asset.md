@@ -2,23 +2,26 @@
 title: Criar um ativo fixo
 description: Este tópico explica como criar um novo registro de ativo fixo na página de listagem Ativo fixo.
 author: moaamer
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bf6e74253d2cf4150914fcb8bcc51aa2f32c0435c563b677def40115e0163fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 481bdb55b813dad5366f382ae35d8345b0e67d9f
+ms.sourcegitcommit: a9efbd69f2670fd6ba0ad0babf304fc206d01249
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758116"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4440579"
 ---
 # <a name="create-a-fixed-asset"></a>Criar um ativo fixo
 
@@ -30,7 +33,7 @@ O sistema atribui o número do ativo, com base na sequência numérica atribuíd
 
 Para criar manualmente um registro de ativo, siga estas etapas.
 
-1. Acesse **Painel de Navegação \> Módulos \> Ativos fixos \> Ativos fixos \> Ativos fixos**.
+1. Vá para **Painel de Navegação \> Módulos \> Ativos fixos \> Ativos fixos \> Ativos fixos**.
 2. No **Painel de ação**, selecione **Novo**.
 3. No campo **Grupo de ativo fixo**, insira ou selecione um valor. O campo **Número** será padrão se você tiver habilitado a **funcionalidade de ativos fixos Autonumber** nos **parâmetros de ativos fixos** e no **grupo de ativos fixos**. Se não, você deve inserir um número exclusivo para identificar o ativo fixo.
 4. No campo **Nome**, insira um valor. Insira informações adicionais que sua empresa precisa para este ativo.
@@ -52,6 +55,3 @@ Se você não tiver definido o número do ativo fixo no modelo do suplemento do 
 
 > [!WARNING]
 > O registro de ativo fixo não será excluído se as transações forem lançadas no registro associado ou se o ativo fixo recém-criado for inserido em uma linha do diário, mas não lançado. 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

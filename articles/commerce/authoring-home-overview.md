@@ -1,31 +1,37 @@
 ---
-title: Visão geral da página Criação
-description: Este tópico fornece uma visão geral da criação de páginas no Microsoft Dynamics 365 Commerce.
+title: Visão geral da página de criação
+description: Este tópico fornece uma visão geral da página de criação no Microsoft Dynamics 365 Commerce.
 author: brendans
+manager: annbe
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984612"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410168"
 ---
-# <a name="authoring-page-overview"></a>Visão geral da página Criação
+# <a name="authoring-page-overview"></a>Visão geral da página de criação
 
   
  [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral da criação de páginas no Microsoft Dynamics 365 Commerce.
+Este tópico fornece uma visão geral da página de criação no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 Sites podem ser criados para oferecer suporte a várias necessidades empresariais. Eles podem representar uma empresa por completo, oferecer um único canal de negócios ou ter como alvo um público ou segmento específico de audiência. Por exemplo, um fabricante de vestuário pode ter um site que apresente todos os tipos de marca que ele possui. O mesmo de fabricante vestuário pode ter um site em separado para cada uma dessas marcas, e também um conjunto de sites que tenha roupas de luxo, roupa casual e roupas de criança.
 
@@ -39,7 +45,7 @@ Atualmente, a página de criação consiste nas seguintes seções.
 
 A ilustração a seguir mostra a página de criação.
 
-![Página de criação do Dynamics 365 Commerce.](../commerce/media/authoring_tools_01.png)
+![Página de criação do Dynamics 365 Commerce](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>Use o botão Início para selecionar uma ferramenta
 
@@ -116,6 +122,3 @@ Depois que a ferramenta de criação é carregada, você pode selecionar **Iníc
 [Considerações de otimização do mecanismo de pesquisa (SEO) para seu site](search-engine-optimization-considerations.md)
 
 [Gerenciar a política de segurança de conteúdo (CSP)](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

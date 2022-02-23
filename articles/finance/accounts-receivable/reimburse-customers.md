@@ -2,25 +2,28 @@
 title: Reembolsar clientes
 description: Este artigo explica como criar transações de reembolso para um grupo de clientes. Se um cliente tiver um saldo de crédito, é possível reembolsar o cliente para o valor do saldo.
 author: JodiChristiansen
+manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14191
 ms.assetid: 53533ee3-470e-458a-ac8b-3815aa4cb502
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c313c03c6f3504f132a836eb6a67207e5f3c5636d43124c5f16d13992b9b604
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770752"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644528"
 ---
 # <a name="reimburse-customers"></a>Reembolsar clientes
 
@@ -46,6 +49,3 @@ Ao criar transações de reembolso, uma fatura de fornecedor é criada para o va
 
 5. Para exibir as transações de reembolso criadas, use o relatório **Reembolso** (**Contas a Receber \> Consultas e relatórios \> relatório Reembolso**).
 6. Em Contas a pagar, crie um pagamento para as faturas de fornecedor que foram criadas pelo processo de reembolso. Para obter informações sobre como pagar fornecedores, consulte [Visão geral de pagamentos do fornecedor](../accounts-payable/Vendor-payments-workspace.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

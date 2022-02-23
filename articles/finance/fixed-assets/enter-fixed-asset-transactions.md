@@ -1,26 +1,29 @@
 ---
 title: Opções de transação de ativo fixo
 description: Este tópico descreve os diferentes métodos disponíveis para criar transações de ativo fixo.
-author: moaamer
-ms.date: 08/10/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 02/07/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c5530bb7b0472aad75ec04c00ba828b8efb877d
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 6f08750c369475f9d8be3c723aaf4eb6cf36eb7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891563"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440288"
 ---
 # <a name="fixed-asset-transaction-options"></a>Opções de transação de ativo fixo
 
@@ -46,7 +49,7 @@ Quando uma ordem compra ou o diário de estoque para ativos fixos é usado para 
 ## <a name="general-ledger"></a>Contabilidade
 Qualquer tipo de transação de ativo fixo pode ser lançado na página Diário geral. Você também pode usar diários de ativos fixos para lançar transações de ativos fixos.
 
-### <a name="options-for-entering-fixed-asset-transaction-types"></a>Opções para inserir tipo de transações de ativos fixos
+## <a name="options-for-entering-fixed-asset-transaction-types"></a>Opções para inserir tipo de transações de ativos fixos
 
 
 | Tipo de transação                    | Módulo                   | Opções                                   |
@@ -58,25 +61,10 @@ Qualquer tipo de transação de ativo fixo pode ser lançado na página Diário 
 | Depreciação                        | Ativos fixos             | Ativos fixos                              |
 |                                     | Contabilidade           | Diário geral                           |
 | Alienação                            | Ativos Fixos             | Ativos Fixos                              |
-|                                     | Contabilidade           | Diário geral                           |
-|                                     | Contas a Receber      | Fatura de texto livre                         |
+| ** **                               | Contabilidade           | Diário geral                           |
+| ** **                               | Contas a Receber      | Fatura de texto livre                         |
 
-O valor restante não é atualizado para os períodos de depreciação de um ativo fixo quando a linha de diário do tipo de transação de depreciação é criada manualmente ou importada por meio de uma entidade de dados. O valor restante é atualizado quando o processo de proposta de depreciação é usado para criar a linha do diário.
+
+O valor restante dos períodos de depreciação do ativo fixo não é atualizado quando uma linha de diário do tipo de transação de depreciação é criada manualmente ou importada por meio de uma entidade de dados. Este valor é atualizado quando o processo de proposta de depreciação é usado para criar a linha do diário.
 
 Para obter mais informações, consulte [Integração de ativos fixos](fixed-asset-integration.md).
-
-O sistema evita a depreciação de lançamento no mesmo período duas vezes. Por exemplo, se dois usuários criarem propostas de depreciação separadamente para Janeiro, a depreciação do primeiro usuário será lançada no primeiro diário. Quando o segundo usuário lança a depreciação no segundo diário, o sistema verifica a data da última vez em que a depreciação foi executada e não lança a depreciação para o mesmo período uma segunda vez.
-
-### <a name="transactions-that-require-a-different-voucher-number"></a>Transações que exigem um número de comprovante diferente
-
-As transações de ativos fixos a seguir usarão números de comprovante diferentes:
-
-- Uma aquisição adicional é feita em um ativo e a depreciação de "atualização" é calculada.
-- Um ativo é dividido.
-- Um parâmetro para calcular a depreciação na alienação é habilitado e, em seguida, o ativo é descartado.
-- A data de serviço de um ativo é anterior à data de aquisição. Portanto, um ajuste de depreciação é lançado.
-
-> [!NOTE]
-> Quando inserir transações, verifique se todas as transações se aplicam ao mesmo ativo fixo. Um comprovante não será lançado se incluir mais de um ativo fixo, mesmo se o campo **Novo Comprovante** tiver sido definido como **Apenas um número de comprovante** na página **Nomes de diários** em Contabilidade. Se incluir mais de um ativo fixo no comprovante, você receberá a mensagem "Só pode haver uma transação de ativo fixo por comprovante", e não será possível lançar o comprovante.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

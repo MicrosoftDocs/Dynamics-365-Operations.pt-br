@@ -1,32 +1,34 @@
 ---
 title: Visão geral de pagamentos de fornecedor
-description: Este procedimento orienta você ao longo de vários métodos usados para criar pagamentos de fornecedor, incluindo como usar uma proposta de pagamento ou inserir manualmente um pagamento único.
+description: Este guia de tarefas irá apresentar vários métodos utilizados para criar pagamentos de fornecedor, incluindo como usar uma proposta de pagamento ou inserir manualmente um pagamento único.
 author: kweekley
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 19cea683058f7fb757ac3a99541959ba06df1963
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394416"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440386"
 ---
 # <a name="vendor-payment-overview"></a>Visão geral de pagamentos de fornecedor
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimento orienta você ao longo de vários métodos usados para criar pagamentos de fornecedor, incluindo como usar uma proposta de pagamento ou inserir manualmente um pagamento único. Este procedimento usa a empresa de dados de demonstração USMF.
+Este guia de tarefas irá apresentar vários métodos utilizados para criar pagamentos de fornecedor, incluindo como usar uma proposta de pagamento ou inserir manualmente um pagamento único. Este procedimento usa a empresa de dados de demonstração USMF.
 
-1. Acesse **Painel de Navegação > Módulos > Contas a pagar > Pagamentos > Diário de pagamentos**.
+1. Vá para **Painel de Navegação > Módulos > Contas a pagar > Pagamentos > Diário de pagamentos**.
 2. Clique em **Novo**.
 3. Selecione o diário de pagamentos para salvar os pagamentos do fornecedor. 
 4. Selecione o diário ou insira-o manualmente.
@@ -61,6 +63,3 @@ Este procedimento orienta você ao longo de vários métodos usados para criar p
 33. Clique em **OK** para gerar os pagamentos.
 34. Clique em **Lançar** se todos os pagamentos foram aprovados e gerados. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,22 +2,25 @@
 title: Calcular juros e multas em pagamentos de clientes (Brasil)
 description: Você pode aplicar juros e multas a pagamentos de cliente que estejam atrasados.
 author: sndray
+manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c934b9bfc44f09ac735655fa591cb1444c93f6294117f28950566c1cfc7ba18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb17ede9020685e01744409251dcedda4d57aba6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748119"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408481"
 ---
 # <a name="calculate-interest-and-fines-on-customer-payments-brazil"></a>Calcular juros e multas em pagamentos de clientes (Brasil)
 
@@ -40,7 +43,7 @@ Você pode aplicar juros e multas a pagamentos de cliente que estejam atrasados.
 11. Clique em Salvar.
 12. Feche a página.
 13. Feche a página.
-14. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+14. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 15. Clique em Novo.
 16. No campo Conta de cliente, insira ou selecione um valor.
 17. Clique em OK.
@@ -58,7 +61,7 @@ Você pode aplicar juros e multas a pagamentos de cliente que estejam atrasados.
 29. Feche a página.
 30. Feche a página.
 31. Feche a página.
-32. Acesse Contas a receber > Pagamentos > Diário de pagamentos.
+32. Vá para Contas a receber > Pagamentos > Diário de pagamentos.
 33. Clique em Novo.
 34. Na lista, marque a linha selecionada.
 35. No campo Nome, insira ou selecione um valor.
@@ -78,6 +81,3 @@ Você pode aplicar juros e multas a pagamentos de cliente que estejam atrasados.
 49. Feche a página.
 50. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

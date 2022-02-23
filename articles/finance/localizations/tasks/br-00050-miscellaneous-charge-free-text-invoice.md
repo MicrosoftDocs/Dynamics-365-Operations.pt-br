@@ -2,9 +2,11 @@
 title: Encargos diversos sobre faturas de texto livre (Brasil)
 description: A legislação brasileira aplica encargos diversos que incluem frete.
 author: sndray
+manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a114942d1a1d80a802a58bf903298f07ca0bce5554a8bef50cadd0bba4c2ce8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6301ea8c38d6e863b6e448658f46c8122bea5ae4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720482"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964602"
 ---
 # <a name="miscellaneous-charges-on-free-text-invoices-brazil"></a>Encargos diversos sobre faturas de texto livre (Brasil)
 
@@ -26,7 +28,7 @@ ms.locfileid: "6720482"
 
 A legislação brasileira aplica encargos diversos que incluem frete. Encargos diversos só podem ser usados em uma fatura de texto livre. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Acesse Contas recebíveis > Faturas > Todas faturas de texto livre.
+1. Vá para Contas recebíveis > Faturas > Todas faturas de texto livre.
 2. Clique em Novo.
 3. No campo ID do estabelecimento fiscal, insira ou selecione um valor.
 4. No campo Conta de cliente, insira ou selecione um valor.
@@ -63,9 +65,6 @@ A legislação brasileira aplica encargos diversos que incluem frete. Encargos d
 35. Clique em OK.
 36. Feche a página.
 37. Feche a página.
-38. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+38. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 39. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

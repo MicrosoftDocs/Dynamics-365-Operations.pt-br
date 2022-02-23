@@ -2,22 +2,25 @@
 title: Mapear uma dimensão do elemento de custo
 description: Um controlador de custo pode usar esse procedimento para mapear uma dimensão do elemento de custo com uma dimensão do elemento de custo na entidade legal MXMF.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81b76d7410de793a9d906677cf2e4e6ce4932a8b66f78a874594818d5c8d0ffe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f8d5356e6c7f8aff507d3fa87bb3c30cb38cf36
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754257"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440483"
 ---
 # <a name="map-a-cost-element-dimension"></a>Mapear uma dimensão do elemento de custo
 
@@ -25,7 +28,7 @@ ms.locfileid: "6754257"
 
 Um controlador de custo pode usar esse procedimento para mapear uma dimensão do elemento de custo com uma dimensão do elemento de custo na entidade legal MXMF. Esta gravação usa os dados da empresa de demonstração USP2.
 
-1. Acesse Contabilização de custos > Dimensões > Dimensões do elemento de custo.
+1. Vá para Contabilização de custos > Dimensões > Dimensões do elemento de custo.
 2. Na lista, localize e selecione o PDV desejado.
     * Para este exemplo, selecione Elementos de custo.  
 3. Clique em Mapeamentos de dimensões.
@@ -41,6 +44,3 @@ Um controlador de custo pode usar esse procedimento para mapear uma dimensão do
     * Neste exemplo, selecione telefone 6001004 de membro de dimensão.  
 11. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

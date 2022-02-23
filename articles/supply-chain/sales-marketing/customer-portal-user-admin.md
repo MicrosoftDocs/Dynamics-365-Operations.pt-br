@@ -1,28 +1,30 @@
 ---
-title: Criar e gerenciar usuários do portal do cliente (contém vídeo)
+title: Criar e gerenciar usuários do portal do cliente
 description: Este tópico explica como criar contas de usuário do portal do cliente e definir permissões para elas.
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062481"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528284"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Criar e gerenciar usuários do portal do cliente
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Na implementação pronta para uso, não é possível o autorregistro de usuários para sites criados usando o portal do cliente. Para entrar e usar um site, os usuários devem ser convidados pelo administrador. A Microsoft bloqueou intencionalmente a capacidade de os usuários fazerem autorregistro.
 
@@ -37,34 +39,34 @@ O vídeo [Convidar clientes para se registrar e usar o portal de cliente](https:
 
 ## <a name="prerequisite-setup"></a>Configuração de pré-requisitos
 
-Os contatos em portais do Power Apps são armazenados como registros na tabela **Contatos** no Microsoft Dataverse. A gravação dupla sincroniza esses registros para o Microsoft Dynamics 365 Supply Chain Management, conforme necessário.
+Os contatos em portais do Power Apps são armazenados como registros na entidade **Contatos** no Common Data Service. A gravação dupla sincroniza esses registros para o Microsoft Dynamics 365 Supply Chain Management, conforme necessário.
 
-![Diagrama de sistema para contatos do portal do cliente.](media/customer-portal-contacts.png "Diagrama de sistema para contatos do portal do cliente")
+![Diagrama de sistema para contatos do portal do cliente](media/customer-portal-contacts.png "Diagrama de sistema para contatos do portal do cliente")
 
-Antes de começar a convidar novos clientes, verifique se você habilitou o mapeamento da tabela **Contato** em gravação dupla.
+Antes de começar a convidar novos clientes, verifique se você habilitou o mapeamento da entidade **Contato** em gravação dupla.
 
 ## <a name="the-invitation-process"></a>O processo de convite
 
-Para convidar um contato existente para o Portal do cliente, siga as etapas em [Convidar contatos para seus portais](/powerapps/maker/portals/configure/invite-contacts)na documentação de portais do Power Apps.
+Para convidar um contato existente para o Portal do cliente, siga as etapas em [Convidar contatos para seus portais](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts)na documentação de portais do Power Apps.
 
-Antes de convidar um cliente para ingressar no portal do cliente, verifique se o [registro de contato](/powerapps/maker/portals/configure/configure-contacts) do cliente está disponível e configurado da seguinte maneira:
+Antes de convidar um cliente para ingressar no portal do cliente, verifique se o [registro de contato](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) do cliente está disponível e configurado da seguinte maneira:
 
 1. Defina o campo **Empresa** como a entidade legal à qual você deseja que o cliente pertença no Supply Chain Management.
 2. Defina o campo **Número da Conta** como o número da conta do cliente que você deseja que o usuário tenha no Supply Chain Management.
 
 Depois que um contato for criado, você poderá vê-lo no Supply Chain Management.
 
-Para obter mais informações, consulte [Configurar um contato para uso em um portal](/powerapps/maker/portals/configure/configure-contacts) na documentação de portais do Power Apps.
+Para obter mais informações, consulte [Configurar um contato para uso em um portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) na documentação de portais do Power Apps.
 
-## <a name="out-of-box-web-roles-and-table-permissions"></a>Funções da Web e permissões de tabelas prontas para uso
+## <a name="out-of-box-web-roles-and-entity-permissions"></a>Funções da Web e permissões de entidade prontas para uso
 
-As funções de usuário em portais do Power Apps são definidas por [funções da Web](/powerapps/maker/portals/configure/create-web-roles) e [permissões de tabela](/powerapps/maker/portals/configure/assign-entity-permissions). Algumas funções são definidas para o portal do cliente prontas para uso. Você pode criar novas funções e pode modificar ou remover funções existentes.
+As funções de usuário em portais do Power Apps são definidas por [funções da Web](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) e [permissões de entidade](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Algumas funções são definidas para o portal do cliente prontas para uso. Você pode criar novas funções e pode modificar ou remover funções existentes.
 
 ### <a name="out-of-box-web-roles"></a>Funções da Web prontas para uso
 
 Esta seção descreve as funções da Web fornecidas com o portal do cliente.
 
-Para obter mais informações sobre como modificar as funções de usuário prontas para uso, consulte [Criar funções da Web para portais](/powerapps/maker/portals/configure/create-web-roles) e [Adicionar segurança baseada em registro usando permissões de tabela para portais](/powerapps/maker/portals/configure/assign-entity-permissions) na documentação de portais do Power Apps.
+Para obter mais informações sobre como modificar as funções de usuário prontas para uso, consulte [Criar funções da Web para portais](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles)e [Adicionar segurança baseada em registro usando permissões de entidade para portais](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) na documentação de portais do Power Apps.
 
 #### <a name="administrator"></a>Administrador
 
@@ -94,6 +96,3 @@ A tabela a seguir mostra quais ordens de venda os usuários em cada função da 
 
 > [!NOTE]
 > Embora os Sam e Jane sejam contatos que trabalham para o cliente X, eles podem ver somente os pedidos feitos por eles mesmos e nada mais. Embora May possa ter uma ordem no sistema, ela não pode ver essa ordem no portal do cliente, pois ela é um usuário não autorizado. (Além disso, ela deve ter feito o pedido por um canal diferente do portal do cliente.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

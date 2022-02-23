@@ -2,34 +2,31 @@
 title: Visão geral de criação de fluxos de trabalho
 description: Este tópico explica como criar um fluxo de trabalho.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom:
-- "195583"
-- intro-internal
+ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d1402019dbaaa60827499fcb6b93ee31440cfc3d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067949"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797643"
 ---
 # <a name="create-workflows-overview"></a>Visão geral de criação de fluxos de trabalho
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico explica como criar um fluxo de trabalho.
 
@@ -37,7 +34,7 @@ Este tópico explica como criar um fluxo de trabalho.
 
 O módulo em que você está trabalhando determina os tipos de fluxo de trabalho que você pode criar. Siga estas etapas para selecionar o tipo de fluxo de trabalho a ser criado e para abrir o editor de fluxo de trabalho.
 
-1. Acesse o módulo para o qual deseja criar um novo fluxo de trabalho. Por exemplo, para criar um fluxo de trabalho para requisições de compra, clique em **Compras e fornecimento**.
+1. Vá para o módulo para o qual deseja criar um novo fluxo de trabalho. Por exemplo, para criar um fluxo de trabalho para requisições de compra, clique em **Compras e fornecimento**.
 2. Clique em **Configuração** &gt; **\[nome do módulo\] fluxos de trabalho**.
 3. Na página de listagem que aparece, no Painel de ação, clique em **Novo**.
 4. Na página **Criar fluxo de trabalho**, selecione o tipo de fluxo de trabalho para criar, e então clique em **Criar fluxo de trabalho**. O editor de fluxo de trabalho aparece. Agora você pode usar os procedimentos a seguir para criar o fluxo de trabalho.
@@ -86,6 +83,3 @@ Quando estiver pronto para salvar e ativar o fluxo de trabalho, siga estas etapa
 
     - Para ativar a versão de fluxo de trabalho, clique em **Ativar a nova versão**. Quando um fluxo de trabalho estiver ativo, os usuários poderão enviar documentos a ele para processamento.
     - Se não quiser ativar a versão, clique em **Não ativar a nova versão**. É possível ativar o fluxo de trabalho posteriormente.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

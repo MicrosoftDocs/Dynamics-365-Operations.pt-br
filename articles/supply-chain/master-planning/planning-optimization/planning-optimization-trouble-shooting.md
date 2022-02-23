@@ -2,13 +2,16 @@
 title: Solução de problemas de otimização de planejamento
 description: Este tópico descreve como corrigir problemas que podem ocorrer ao trabalhar com a otimização de planejamento.
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: bbf21abae60d4adee5a23a8405d14907b91724fa2cbf31c901bb46c589b2ea49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c3dd0bf262f65aac2359c05ff954bdfbd294353f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768086"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421963"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Solução de problemas de otimização de planejamento 
 
@@ -47,6 +50,12 @@ A otimização do planejamento é diferente do design de planejamento mestre inc
 
 **Correção**: execute a análise de ajuste da otimização do planejamento e analise os resultados enquanto consulta a documentação relacionada para compreender o impacto. Para obter mais informações, consulte [Introdução à análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md).
 
+## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>O planejamento mestre não respeita o limite de tempo de cobertura
+
+Isso é causado por um recurso pendente para a otimização do planejamento.
+
+**Correção**: até que o recurso pendente esteja disponível, filtre ou exclua ordens planejadas para remover sugestões de fornecimento fora do limite de tempo de cobertura.
+
 ## <a name="cant-enable-planning-optimization"></a>A Otimização de Planejamento pode ser habilitada
 
 O **Status da conexão** deve ser **Conectado** antes que você possa definir **Usar otimização de planejamento** como **Sim**. Para obter mais informações, consulte [Introdução à Otimização de Planejamento](get-started.md).
@@ -66,6 +75,3 @@ Isso está relacionado a um recurso pendente que está planejado como parte do s
 [Introdução à Otimização de Planejamento](get-started.md)
 
 [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Espaço de trabalho de controle de custos
 description: Este tópico fornece informações sobre o espaço de trabalho de controle de custos. Este espaço de trabalho é um ponto central onde os gerentes responsáveis por controlar um objeto de custo ou um conjunto de objetos de custo dentro de uma dimensão ou nas dimensões podem acessar relatórios.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54afd0d94a56f6306a11e03448cc66c168390c2
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763181"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440574"
 ---
 # <a name="cost-control-workspace"></a>Espaço de trabalho de controle de custos 
 
@@ -53,7 +56,7 @@ Na Guia Rápida **Filtragem de dados**, você define a base de dados do relatór
 |-------------------------------------------------------------------|-------------|
 | Razão de contabilização de custos                                            | A **Razão da contabilização de custos** na qual o relatório está baseado. O valor é obtido do campo **Unidade de controle de custos**. |
 | Unidade de controle de custo                                                 | O valor que você selecionar determinará o razão de contabilização de custos e os objetos de custos no qual este relatório está baseado. |
-| Hierarquia da dimensão estatística, hierarquia da dimensão do elemento de custo | Um registro de configuração do espaço trabalho **Controle de custos** pode relatar valores monetários ou não monetários, mas não no mesmo layout. Selecione um valor no campo **Hierarquia da dimensão de elemento de custo** para relatar valores monetários. Selecione um valor no campo **Hierarquia da dimensão estatística** para relatar valores não monetários. O registro da hierarquia da dimensão selecionada determina a estrutura de relatório e os níveis agregação.<blockquote>[!NOTE]<br>Para exibir valores monetários e não monetários lado a lado, você poderá exportar dados para o Microsoft Excel do pacote de conteúdo do Microsoft Power BI.</blockquote> |
+| Hierarquia da dimensão estatística, hierarquia da dimensão do elemento de custo | Um registro de configuração do espaço trabalho **Controle de custos** pode relatar valores monetários ou não monetários, mas não no mesmo layout. Selecione um valor no campo **Hierarquia da dimensão de elemento de custo** para relatar valores monetários. Selecione um valor no campo **Hierarquia da dimensão estatística** para relatar valores não monetários. O registro da hierarquia da dimensão selecionada determina a estrutura de relatório e os níveis agregação.<blockquote>[!NOTE]<br>Para exibir valores monetários e não monetários lado a lado, você pode exportar dados para o Microsoft Excel do pacote de conteúdo do Microsoft Power BI.</blockquote> |
 | Hierarquia da dimensão de objeto de custo                                   | Selecione a hierarquia de dimensões da dimensão do objeto de custo que se ajusta ao objetivo do relatório que você está definindo. |
 | Versão original do orçamento                                           | Selecione a ID da versão de orçamento que atua como o orçamento original no contexto deste relatório. |
 | Versão revisada do orçamento                                            | Selecione a ID da versão de orçamento que atua como o orçamento revisado no contexto deste relatório. |
@@ -116,7 +119,7 @@ O espaço trabalho **Controle de custos** é criado como um relatório da Web. P
 
 A lista dos relatórios disponíveis para usuários, como gerentes, é controlada pela configuração da opção **Publicado** na página **Configurações do espaço de trabalho de controle de custo**.
 
-![Um relatório que os usuários podem consultar no espaço de trabalho de Controle de custo.](./media/report-cost-control.png)
+![Um relatório que os usuários podem consultar no espaço de trabalho de Controle de custo](./media/report-cost-control.png)
 
 O gerente poderá selecionar o período do calendário fiscal para exibir. A data da sessão é usada para determinar o período atual padrão.
 
@@ -140,7 +143,7 @@ Dois gráficos mostram um resumo do custo real versus orçamento e variação de
 
 Os usuários podem clicar em **Entradas de custo** para fazer busca detalhada na entrada, conforme necessário.
 
-![Entradas de custo.](./media/cost-entries.png)
+![Entradas de custo](./media/cost-entries.png)
 
 Por exemplo, aluguel é uma despesa que é distribuída para centros de custos. Um usuário que quer entender o custo de aluguel que seu centro custo de custos deve ter pode fazer uma busca detalhada para saber como aluguel foi calculado.
 
@@ -148,13 +151,10 @@ Se os usuários clicarem em **Base de alocação** na página **Entradas de cust
 
 No exemplo a seguir, a base de alocação é do tipo **Base de alocação da fórmula** e a fórmula é mostrada. Os fatores que definem a fórmula são listados. Além disso, uma grade mostra o cálculo que é feito por objeto de custo.
 
-![Cálculos por objeto de custo.](./media/cost-entries-allocation-base.png)
+![Cálculos por objeto de custo](./media/cost-entries-allocation-base.png)
 
 Recursos adicionais 
 
 [Definir direitos de acesso para controladores do objeto de custo](access-rights-cost-object-controller.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

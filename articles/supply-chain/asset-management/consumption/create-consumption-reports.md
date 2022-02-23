@@ -1,26 +1,29 @@
 ---
 title: Criar relatórios de consumo
 description: Este tópico explica como criar relatórios de consumo no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e54511932ee9487cccae12a479dd210b5978c593dd7000ec2dfe09c3c4014670
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d28acbccc35b3f59f9cca7236dd721a1d9bdead8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711968"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422299"
 ---
 # <a name="create-consumption-reports"></a>Criar relatórios de consumo
 
@@ -75,6 +78,3 @@ Após o cancelamento do consumo nas ordens de serviço, é possível imprimir um
 >[!NOTE]
 >Você também pode gerar um [relatório de ordem de serviço](../work-orders/work-order-report.md), que contém mais detalhes sobre a ordem de serviço.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

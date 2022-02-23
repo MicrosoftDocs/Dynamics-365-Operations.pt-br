@@ -2,13 +2,16 @@
 title: Gerenciar atributos e grupos de atributos
 description: Este tópico descreve como usar atributos para fornecer uma forma de descrever um produto e suas características por meio de campos definidos pelo usuário.
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727645"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410170"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gerenciar atributos e grupos de atributos
 
@@ -64,22 +67,22 @@ Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifi
 ### <a name="set-up-attribute-types"></a>Configurar tipos de atributos
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Acesse **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Tipos de atributos**.
+2. Vá para **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Tipos de atributos**.
 3. Crie dois tipos de atributos do tipo **Texto**, defina a opção **Lista fixa** como **Sim** e adicione uma lista de valores:
 
     - Nomeie um tipo de atributo **Formato de lente** e adicione os seguintes valores: **Oval**, **Quadrado** e **Retangular**.
     - Nomeie o outro tipo de atributo **Marca de óculos escuros** e adicione os seguintes valores: **Ray-Ban**, **Aviador** e **Oakley**.
 
-![Tipos de atributos.](media/AttributeType.png)
+![Tipos de atributos](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Configurar um atributo
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Acesse **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Atributos**.
+2. Vá para **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Atributos**.
 3. Crie um atributo chamado **Lente**.
 4. Defina o campo **Tipo de atributo** como **Formato de lente**.
 
-![Atributos.](media/Attribute.png)
+![Atributos](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Metadados de atributo
 
@@ -101,7 +104,7 @@ Estas são as outras opções de metadados de atributo na página **Atributos**:
 
 Essas opções foram originalmente destinadas a melhorar a funcionalidade de pesquisa da vitrine online. Embora o Commerce não inclua a vitrine online pronta para uso, ele vem com o Software Development Kit (SDK) para publicação de comércio eletrônico. Os clientes podem usar esse SDK para colocar produtos em um índice de pesquisa de sua escolha. Embora os dados do produto sejam importados, os clientes ainda poderão distinguir dados pesquisáveis, dados que podem ser consultados e assim por diante. Dessa forma, eles podem construir um índice ideal para garantir que indexem somente os atributos que, *em sua opinião*, devem ser indexados.
 
-Para obter informações sobre a finalidade dessas outras opções, consulte [Visão geral do esquema de pesquisa no SharePoint Server 2013](/SharePoint/search/search-schema-overview).
+Para obter informações sobre a finalidade dessas outras opções, consulte [Visão geral do esquema de pesquisa no SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Configurações de filtro para atributos
 
@@ -134,7 +137,7 @@ A página **Preferências de exibição do filtro** inclui os seguintes campos:
     - 200 – 500
     - 500 ou mais
 
-![Configurações de filtro do atributo.](media/AttributeFilterSettings.PNG)
+![Configurações de filtro do atributo](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Grupos de atributos
 
@@ -142,12 +145,12 @@ Depois que os atributos forem definidos, poderão ser atribuídos a grupos de at
 
 Você também pode definir valores padrão para atributos que estejam incluídos em um grupo de atributos. Por exemplo, você adiciona um atributo para cor a um grupo de atributos e seleciona **Azul** como o valor do atributo padrão. Nesse caso, quando o grupo de atributos for adicionado a um produto que inclua cor como um de seus atributos, **Azul** aparecerá como a cor padrão desse produto.
 
-![Grupos de atributos.](media/AttributeGroup.png)
+![Grupos de atributos](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Criar um grupo de atributos
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Acesse **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Grupos de atributos**.
+2. Vá para **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Grupos de atributos**.
 3. Crie um grupo de atributos chamado **Óculos escuros**.
 4. Adicione os seguintes atributos: **Formato de lente** e **Marca de óculos escuros**.
 
@@ -155,12 +158,12 @@ Você também pode definir valores padrão para atributos que estejam incluídos
 
 Um ou mais grupos de atributo podem ser associados a nós de categoria nos seguintes tipos de hierarquias de categorias: Hierarquia de produtos de comércio, Hierarquia de categoria de navegação de canal e Hierarquia de categoria de produtos complementares. Então, quando os produtos são categorizados, eles herdam os atributos incluídos nos grupos de atributos.
 
-![Hierarquia de produtos – Grupos de atributo de produto.](media/AGRetailProdHierarchy.PNG)
+![Hierarquia de produtos – Grupos de atributo de produto](media/AGRetailProdHierarchy.PNG)
 
 Siga estas etapas para atribuir grupos de atributo a categorias na Hierarquia de produtos de comércio.
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Acesse **Varejo e Comércio** &gt; **Gerenciamento de categorias e produtos** &gt; **Hierarquia de produtos de comércio**.
+2. Vá para **Varejo e Comércio** &gt; **Gerenciamento de categorias e produtos** &gt; **Hierarquia de produtos de comércio**.
 3. Selecione **Hierarquia de navegação de moda**.
 4. Em **Menswear**, selecione a categoria **Calças** e, em seguida, na Guia Rápida **Grupos de atributo de produto**, adicione um grupo de atributos chamado **Cintos masculinos**.
 5. Selecione a categoria **Óculos escuros** e verifique os novos atributos no grupo de atributos **Óculos escuros** selecionando **Exibir atributos**.
@@ -182,7 +185,7 @@ Siga estas etapas para atribuir grupos de atributo a categorias na Hierarquia de
 Um ou mais grupos de atributo podem ser associados a uma ou mais lojas na hierarquia de lojas. Assim, quando os produtos são enriquecidos para lojas específicas, eles herdam os atributos incluídos nos grupos de atributo.
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Acesse **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Categorias do canal e atributos de produto**.
+2. Vá para **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Categorias do canal e atributos de produto**.
 3. Atribuir grupos de atributos ao canal Houston:
 
     1. Selecione o canal **Houston**.
@@ -200,7 +203,7 @@ Um ou mais grupos de atributo podem ser associados a uma ou mais lojas na hierar
     3. Selecione o nó de categoria **Acessórios de moda**, a categoria **Óculos escuros** e, em seguida, na Guia Rápida **Atributos de produto do canal**, selecione **Incluir atributo** para cada atributo.
     4. Selecione o nó de categoria **Menswear**, a categoria **Calças** e, em seguida, na Guia Rápida **Atributos de produto do canal**, selecione **Incluir atributo** para cada atributo.
 
-![Categorias do canal e atributos de produto – Grupos de atributos.](media/CCPAttrGrp.png)
+![Categorias do canal e atributos de produto – Grupos de atributos](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Substituição de valores de atributo
 
@@ -209,17 +212,17 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 ### <a name="override-the-attribute-values-of-an-individual-product"></a>Substituir os valores de atributo de um produto individual
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Acesse **Varejo e Comércio** &gt; **Gerenciamento de categorias e produtos** &gt; **Produtos liberados por categoria**.
+2. Vá para **Varejo e Comércio** &gt; **Gerenciamento de categorias e produtos** &gt; **Produtos liberados por categoria**.
 3. Selecione o nó de categoria **Moda** &gt; **Acessórios de moda** &gt; **Óculos escuros**.
 4. Selecione o produto obrigatório na grade. Em seguida, no Painel de Ação, na guia **Produto**, no grupo **Configurar**, selecione **Atributos de produto**.
 5. Selecione um atributo no painel esquerdo e atualize seu valor no painel direito.
 
-![Página de detalhes do produto – Grupos de atributos do produto.](media/ProdDetailsProdAttrValues.png)
+![Página de detalhes do produto – Grupos de atributos do produto](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Substituir os valores de atributo de produtos em um catálogo
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Acesse **Varejo e Comércio** &gt; **Gerenciamento de catálogo** &gt; **Todos os catálogos**.
+2. Vá para **Varejo e Comércio** &gt; **Gerenciamento de catálogo** &gt; **Todos os catálogos**.
 3. Selecione o catálogo **Fabrikam Base Catalog**.
 4. Selecione o nó de categoria **Moda** &gt; **Acessórios de moda** &gt; **Óculos escuros**.
 5. Na Guia Rápida **Produtos**, selecione o produto obrigatório e, em seguida, selecione **Atributos** acima da grade do produto.
@@ -233,12 +236,12 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
     > [!NOTE]
     > Se mídia de produto e atributos de produto compartilhados forem criados, eles se aplicarão a todos os produtos.
 
-![Grupos de atributos de produto do catálogo.](media/CatalogProdAttrValues.png)
+![Grupos de atributos de produto do catálogo](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Substituir os valores de atributo de produtos em um canal
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Acesse **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Categorias do canal e atributos de produto**.
+2. Vá para **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Categorias do canal e atributos de produto**.
 3. Selecione o canal **Houston**.
 4. Na Guia Rápida **Produtos**, selecione o produto obrigatório e, em seguida, selecione **Atributos** acima da grade do produto.
 
@@ -254,6 +257,3 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 
     > [!NOTE]
     > Se mídia de produto e atributos de produto compartilhados forem criados, eles se aplicarão a todos os produtos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

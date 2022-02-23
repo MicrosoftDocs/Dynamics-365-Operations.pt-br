@@ -2,9 +2,11 @@
 title: Perguntas frequentes sobre catálogos de endereços
 description: Este tópico fornece respostas a perguntas frequentes sobre catálogos de endereços.
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463604"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796889"
 ---
 # <a name="address-books-faq"></a>Perguntas frequentes sobre catálogos de endereços
 
@@ -65,13 +67,3 @@ Você pode inserir registros de participante no catálogo de endereços global o
 ## <a name="can-i-translate-address-information-for-party-records"></a>Posso traduzir as informações de endereço para os registros de participante?
 
 Você pode configurar traduções de informações de endereço para que as informações apareçam em seu idioma de usuário (idioma do sistema) no programa, mas em outro idioma em documentos, como ordens de venda. Você pode inserir traduções para nomes de países/regiões, endereços e sequências de nomes. Por exemplo, o idioma do sistema é dinamarquês e você cria uma ordem de venda para um cliente na França. Nesse caso, você pode exibir o registro de cliente em dinamarquês no programa, e exibir as informações de endereço em francês na ordem de venda impressa. Ao configurar as traduções, você deve inserir uma tradução para cada item na lista. Os itens para os quais você não inserir uma tradução aparecerão no idioma do sistema. Por exemplo, o idioma do sistema é dinamarquês e você envia um documento para um cliente na Espanha. Se você não inseriu traduções de espanhol (ESP) para informações de endereço, elas serão exibidas em dinamarquês no seu sistema e no documento impresso.
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Depois de importar os endereços, por que não consigo editar os registros?
-
-Quando você importa endereços, há um campo chamado **IsLocationOwner**. Esse campo indica se o participante associado ao local (endereço) é o proprietário do endereço. Se o participante for o proprietário do endereço, o endereço poderá ser editado quando o participante for usado no catálogo de endereços global ou na página do registro mestre (como o cliente, fornecedor ou trabalhador). Se o participante não for o proprietário do endereço, o registro não poderá ser editado. 
-
-Ao importar endereços, o campo **IsLocationOwner** deverá ser definido como **Sim**, se você quiser que o endereço seja editado usando o participante associado. Se esse campo for importado incorretamente, o proprietário do local poderá ser atualizado no catálogo de endereços global.
-
-Para obter mais informações sobre como alterar o proprietário do local de um endereço importado, consulte [Gerenciar proprietários de local](./global-address-book-location-owner.md).
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

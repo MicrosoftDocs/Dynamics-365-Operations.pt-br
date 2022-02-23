@@ -2,23 +2,26 @@
 title: Configurar razões
 description: Este tópico fornece informações sobre como configurar razões para cada entidade legal. Ele inclui informações sobre como selecionar moedas, calendários fiscais, o plano de contas e as estruturas de conta que devem ser usadas com cada entidade legal.
 author: kweekley
+manager: ''
 ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 929ab7ae66a217de836ce49373faed76325c4d3a
+ms.sourcegitcommit: ac0a676c91e3053ad7f9432d576c9af3ff98a99a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712210"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4440568"
 ---
 # <a name="configure-ledgers"></a>Configurar razões
 
@@ -32,7 +35,7 @@ Para cada entidade legal no Microsoft Dynamics 365 Finance, é necessário confi
 
 Se as entidades legais precisarem ter diferentes planos de contas ou estruturas de conta diferentes, o recurso substituição da entidade legal pode ser útil. Ao usar o mesmo plano de contas e estruturas de conta para várias entidades legais e, depois, gerenciar as exceções por substituições da entidade legal, você pode simplificar a manutenção ao longo do tempo.
 
-Para configurar o plano de contas para uma entidade legal, Acesse **Razão geral \> Configuração do razão \> Razão**. Na página **Razão**, selecione um **Plano de contas**, e depois selecione os planos de contas que serão usados. Observe que o plano de contas não pode ser alterado depois que você seleciona um valor e lança transações na entidade legal.
+Para configurar o plano de contas para uma entidade legal, vá para **Razão geral \> Configuração do razão \> Razão**. Na página **Razão**, selecione um **Plano de contas**, e depois selecione os planos de contas que serão usados. Observe que o plano de contas não pode ser alterado depois que você seleciona um valor e lança transações na entidade legal.
 
 Para obter mais informações sobre como planejar e configurar o plano de contas e as contas principais, consulte [Planejar o plano de contas](plan-chart-of-accounts.md).
 
@@ -79,6 +82,3 @@ Se você usar duas moedas ou se usar uma única moeda, mas as transações forem
 Os ganhos e perdas realizados são lucros e perdas feitas a partir de transações concluídas. Eles são registrados no demonstrativo de lucros e perdas. Os ganhos e perdas não realizados são lucros e perdas que foram materializados, mas a transação não foi concluída. Por exemplo, você lançou uma nota fiscal, mas a nota fiscal ainda não foi liquidada e paga. Os ganhos e perdas não realizados são registrados no balanço.
 
 Para obter mais informações sobre como usar duas moedas, consulte [Moeda dupla](dual-currency.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

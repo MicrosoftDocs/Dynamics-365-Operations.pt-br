@@ -1,23 +1,26 @@
 ---
 title: Criar um modelo de fatura de texto livre
 description: Este procedimento demonstra como criar um modelo de fatura de texto livre.
-author: abruer
+author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 05/29/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1477227228ae9f79314d1e3b6da73446d660d108
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 8281de3cb336d9392a6a97f98e51a2a139a384c5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753683"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440217"
 ---
 # <a name="create-a-free-text-invoice-template"></a>Criar um modelo de fatura de texto livre
 
@@ -27,7 +30,7 @@ Para este passo a passo, use a empresa de demonstração USMF. Este procedimento
 
 ## <a name="create-a-template"></a>Criar um modelo
 
-1. Acesse Contas a receber > Faturas > Faturas recorrentes > Modelos de fatura de texto livre.
+1. Vá para Contas a receber > Faturas > Faturas recorrentes > Modelos de fatura de texto livre.
     * Use este formulário para criar modelos de fatura de texto livre que podem incluir linhas da fatura, encargos, um modelo de distribuição contábil e informações da conta contábil.  
 2. Clique em 'Novo' para criar um novo modelo de fatura de texto livre.
 3. No campo Nome de modelo, digite um valor.
@@ -65,6 +68,3 @@ Para este passo a passo, use a empresa de demonstração USMF. Este procedimento
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Salvar uma fatura de texto livre como modelo
 Você também pode salvar uma fatura de texto livre existente como um modelo. Quando selecionar Salvar no modelo na guia Fatura, forneça um nome e uma descrição para o modelo. Se um modelo com o nome já existir, uma notificação de que um modelo com esse nome já existe será exibida. Você ainda poderá clicar em OK para substituí-lo. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

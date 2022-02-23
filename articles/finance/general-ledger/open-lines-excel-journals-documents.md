@@ -2,25 +2,28 @@
 title: Publicar linhas de diário e documentos do Excel
 description: Este tópico explica como inserir e publicar linhas de diários gerais do Microsoft Excel. Inclui informações sobre os vários modelos que podem ser usados, dependendo do tipo de transação que você está inserindo.
 author: kweekley
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 62213
 ms.assetid: 211874a7-4bf0-4a0c-96c2-fa05042777d3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ad4d44030e49b9c07c0827e916d9b4f31fb54fce8b1121e9f69ea754e099591
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5619460a36d23a25c793c660a54e98593820c46
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727267"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440405"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Publicar linhas de diário e documentos do Excel
 
@@ -30,8 +33,9 @@ Este tópico explica como inserir e publicar linhas de diários gerais do Micros
 
 Os usuários podem inserir e publicar linhas para diários financeiros do Microsoft Excel. Depois que um usuário cria um diário, o botão **Abrir linhas no Excel** exibe modelos que estão disponíveis. Os modelos são criados para oferecer suporte a cenários específicos, porém nem todas combinações de tipo de conta são suportadas no diário. A tabela a seguir mostra os modelos disponíveis e os tipos de conta às quais oferecem suporte.
 
-| Modelo             | Tipos de conta compatíveis | Como acessar o modelo                                                          |
+|                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| **Modelo**             | **Tipos de conta compatíveis**                                                                                             | **Como acessar o modelo**                                                          |
 | Linhas do diário-razão     | Conta: razão, cliente, fornecedor, contrapartida do banco: razão, cliente, fornecedor, intercompanhia de banco é suportada.       | Diário geral                                                                         |
 | Registro de fatura         | Contas: Contrapartida de fornecedor: Razão intercompanhia não é suportada.                                                    | Registro de fatura AP                                                                     |
 | Diário de faturas          | Contas: Contrapartida de fornecedor: Razão intercompanhia é suportada.                                                      | Diário de faturas AP                                                                      |
@@ -45,12 +49,9 @@ Os usuários podem inserir e publicar linhas para diários financeiros do Micros
 
 Quando as linhas são publicadas, foram validadas para garantir que elas são compatíveis com as regras definidas nos diários financeiros. Depois que as linhas são publicadas, os usuários podem editar ou lançar os comprovantes do Dynamics 365 Finance. 
 
-Para adicionar dimensões financeiras a um modelo, alterações adicionais são necessárias. Para obter informações adicionais, consulte [Adicionar dimensões ao modelo do Microsoft Excel](../../fin-ops-core/dev-itpro/financial/add-dimensions-excel-templates.md). Depois que as dimensões são adicionadas à entidade, estarão disponíveis no designer do Excel e poderão ser adicionadas ao modelo.
+Para adicionar dimensões financeiras a um modelo, alterações adicionais são necessárias. Para obter informações adicionais, consulte [Adicionar dimensões ao modelo do Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). Depois que as dimensões são adicionadas à entidade, estarão disponíveis no designer do Excel e poderão ser adicionadas ao modelo.
 
 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

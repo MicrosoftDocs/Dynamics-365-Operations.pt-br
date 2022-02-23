@@ -2,25 +2,28 @@
 title: Reduzir depreciação por declínio após uma divisão
 description: Este tópico descreve o método usado em Ativos fixos para calcular a depreciação depois que um ativo é dividido usando o método por declínio.
 author: moaamer
+manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737692"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650647"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Reduzir depreciação por declínio após uma divisão
 
@@ -37,11 +40,8 @@ Por exemplo, as seguintes condições estão em vigor:
 - A depreciação do primeiro ano fiscal é igual a US$ 18.000, a depreciação mensal é igual a US$ 150 e o ativo é depreciado até novembro de 2019, no valor de US$ 738,75.
 - Em novembro de 2019, 80% do ativo é dividido para outro ativo fixo.
 
-[![Reduzir depreciação por declínio após uma divisão.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Reduzir depreciação por declínio após uma divisão](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 O valor a ser depreciado para o ativo original é de US$ 1.822,25. Esse valor é igual ao NBV antes da transação dividida ser lançada (US$ 9.111,25), além do ajuste de aquisição que é gerado durante o lançamento da transação dividida (-US$ 8.000), mais o ajuste de depreciação gerado durante a transação dividida (US$ 711). Portanto, a depreciação para o segundo ano é de (1.822,25 × 18%) ÷ 12 = US$ 27,33.
 
 O valor a ser depreciado para o novo ativo fixo no primeiro ano é de (8.000 × 18%) ÷ 12 = US$ 120.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

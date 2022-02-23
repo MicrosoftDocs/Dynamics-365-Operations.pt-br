@@ -2,24 +2,27 @@
 title: Preço base e contratos comerciais
 description: Este procedimento orienta na criação de contratos comerciais de preço de venda específicos para o canal.
 author: josaw1
+manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 282cbe0cb115d6204137613f4754068b8a9a321400d24808eb67266a83d7bcc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730722"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410249"
 ---
 # <a name="base-price-and-trade-agreements"></a>Preço base e contratos comerciais
 
@@ -27,7 +30,7 @@ ms.locfileid: "6730722"
 
 Este procedimento orienta na criação de contratos comerciais de preço de venda específicos para o canal. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. No **Painel de navegação**, Acesse **Módulos > Varejo e Comércio > Gerenciamento de preços e descontos > Grupos de preços > Todos os grupos de preços**. Os grupos de preço são como os contratos comerciais são atribuídos a canais específicos. O uso de grupos de preços para atribuir contratos comerciais a um canal habilita a definição de preços específica para o canal.  
+1. No **Painel de navegação**, vá para **Módulos > Varejo e Comércio > Gerenciamento de preços e descontos > Grupos de preços > Todos os grupos de preços**. Os grupos de preço são como os contratos comerciais são atribuídos a canais específicos. O uso de grupos de preços para atribuir contratos comerciais a um canal habilita a definição de preços específica para o canal.  
 2. Clique em **Novo**.
 3. No campo **Grupos de preços**, digite um valor.
 4. No campo **Nome**, digite um valor.
@@ -43,7 +46,7 @@ Este procedimento orienta na criação de contratos comerciais de preço de vend
 14. Clique em **Salvar**.
 15. Feche a página.
 16. Feche a página.
-17. No **Painel de navegação**, Acesse **Módulos > Varejo e Comércio > Produtos e categorias > Produtos lançados por categoria**.
+17. No **Painel de navegação**, vá para **Módulos > Varejo e Comércio > Produtos e categorias > Produtos lançados por categoria**.
 18. Na lista, clique no link na linha selecionada.
 19. Clique em **Editar**.
 20. Expanda a Guia Rápida **Vender**.
@@ -67,6 +70,3 @@ Este procedimento orienta na criação de contratos comerciais de preço de vend
 38. No **Painel de Ações**, clique em Vender.
 39. Clique em **Preço de venda**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

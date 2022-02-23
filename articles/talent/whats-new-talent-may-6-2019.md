@@ -93,6 +93,3 @@ A habilidade de rastrear as folgas dos funcionários e entender como elas são c
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Indica o tipo da instância ao provisionar o Talent
 
 A provisionar uma nova instância do Talent, poderá indicar se o tipo de instância é **Produção** ou **Área restrita**, para testes antecipados de novos recursos. Todas as instâncias do Talent existentes serão atualizadas para o tipo de instância de Produção. Se quiser que uma de suas instâncias existentes sejam atualizadas para o tipo de instância de Área restrita, entre em contato com o Suporte para iniciar a solicitação de alteração.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

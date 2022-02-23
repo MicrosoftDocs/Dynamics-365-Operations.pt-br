@@ -1,24 +1,27 @@
 ---
 title: Configurar um formato da guia de pagamento para faturas de projeto
-description: Este tópico explica como anexar guias de pagamento impressas a faturas de projeto e fornecer uma referência de pagamento para lançamento e liquidação.
+description: Geralmente, as empresas anexam guias de pagamento impressas a faturas para ajudar os clientes e fornecer uma referência de pagamento para lançamento e liquidação.
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, CustFormletterParameters
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 88bdce7697e47fc49b6ffb2fe6a8a468860f41f3
-ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
+ms.openlocfilehash: c843f3b504d8390b26fdc94dd747a73de75df6a9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7601491"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440394"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Configurar um formato da guia de pagamento para faturas de projeto
 
@@ -32,7 +35,7 @@ Esta funcionalidade está disponível para entidades legais cujo endereço princ
 
 
 ## <a name="set-up-a-creditor-id-number"></a>Configurar um número de identificação do credor
-1. Acesse Administração da organização > Organizações > Entidades legais.
+1. Vá para Administração da organização > Organizações > Entidades legais.
 2. Expandir ou recolher a seção Informações de conta bancária.
 3. Clique em Editar.
 4. No campo ID do FI-Credor, digite um valor.
@@ -40,7 +43,7 @@ Esta funcionalidade está disponível para entidades legais cujo endereço princ
 6. Feche a página.
 
 ## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a>Configurar um formato da guia de pagamento para faturas, notas, letras e demonstrativos
-1. Acesse Contas a receber > Configuração > Formulários > Configuração de formulário.
+1. Vá para Contas a receber > Configuração > Formulários > Configuração de formulário.
 2. Clique na guia Fatura.
 3. No campo Anexo do pagamento associado na fatura de cliente, selecione uma opção.
     * Nenhum – Não imprime uma guia de pagamento. Escolha esta opção se o valor do pagamento estiver em uma moeda diferente da coroa dinamarquesa (DKK).   FIK 751 – Imprima uma guia de pagamento FIK 751, se você pretende gravar manualmente o valor de pagamento e a data de vencimento na guia de pagamento.   FIK 752 – imprime uma guia de pagamento FIK 752, se você pretende usar uma guia de pagamento gerada pelo computador com um valor de pagamento e uma data de vencimento pré-impressos.  
@@ -63,6 +66,3 @@ Esta funcionalidade está disponível para entidades legais cujo endereço princ
 16. Clique em Salvar.
 17. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

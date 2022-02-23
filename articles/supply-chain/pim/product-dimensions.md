@@ -2,13 +2,16 @@
 title: Dimensões do produto
 description: Existem cinco dimensões do produto - cor, configuração, tamanho, estilo e versão. Você combina dimensões de produto em grupos de dimensões e atribui grupos de dimensões a produtos mestres. As combinações de dimensões de produto determinam como as variantes de produto serão definidas.
 author: t-benebo
+manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920514"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421956"
 ---
 # <a name="product-dimensions"></a>Dimensões do produto
 
@@ -51,9 +54,9 @@ Geralmente, as versões do produto são criadas para versões específicas à me
 
 As dimensões do produto também podem ser criadas e mantidas na página **Dimensões do produto**, que podem ser acessadas dos seguintes locais:
 
-- Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**. No Painel de Ações, selecione **Dimensões do produto**.
-- Acesse **Gerenciamento de informações do produto \> Produtos \> Todos os produtos e produtos mestres**. Selecione um produto mestre. No Painel de Ações, selecione **Dimensões do produto**.
-- Acesse **Gerenciamento de informações do produto \> Produtos liberados**. Selecione um produto mestre. No Painel de Ações, na guia **Produto**, no grupo **Produto mestre**, selecione **Dimensões do produto**.
+- Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**. No Painel de Ações, selecione **Dimensões do produto**.
+- Vá para **Gerenciamento de informações do produto \> Produtos \> Todos os produtos e produtos mestres**. Selecione um produto mestre. No Painel de Ações, selecione **Dimensões do produto**.
+- Vá para **Gerenciamento de informações do produto \> Produtos liberados**. Selecione um produto mestre. No Painel de Ações, na guia **Produto**, no grupo **Produto mestre**, selecione **Dimensões do produto**.
 
 O número de variantes que você pode criar para um item é limitado pelo número de possíveis combinações de dimensão do produto.
 
@@ -78,7 +81,7 @@ Uma empresa vende jeans denim. O item *Jeans* usa as dimensões cor e tamanho do
 
 ## <a name="the-version-product-dimension"></a>A dimensão do produto de versão
 
-A versão é uma dimensão de produto pretendida para ajudar a manter e rastrear várias versões de um produto em toda a cadeia de suprimentos. O controle de versão é essencial para o sucesso dos fabricantes que operam em um mundo com ciclos de vida de produtos cada vez menores, requisitos de qualidade e confiabilidade maiores e um foco maior na segurança dos produtos.
+A versão é uma dimensão de produto pretendida para ajudar a manter e rastrear várias versões de um produto em toda a cadeia de suprimentos. O controle de versões é essencial para o sucesso dos fabricantes que operam em um mundo para reduzir constantemente os ciclos de vida do produto, aumentar os requisitos de qualidade e confiabilidade e aumentar o foco na segurança do produto.
 
 Como uma dimensão de produto padrão, a versão terá comportamento semelhante às dimensões do produto existentes (tamanho, estilo, cor e configuração). Portanto, você pode usá-lo para outras finalidades além de rastrear versões de produtos.
 
@@ -104,22 +107,22 @@ Quando estiver testando soluções para a compatibilidade com a dimensão de ver
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Mapas:** se algum mapa usar as dimensões de estoque, o mapeamento de relações correspondente a esses mapas deverá ser atualizado para incluir a dimensão de versão. No modelo estendido ou nas extensões de tabela, procure nas tabelas nas quais os campos incluam as dimensões de estoque.
-1. **Funcionalidade do Microsoft Dynamics 365 Commerce:** depois de ativada, a dimensão de versão aparecerá durante todo o código específico do Commerce no Dynamics 365 Supply Chain Management. No entanto, a dimensão de versão ainda não tem suporte do banco de dados de canal do Commerce ou nos aplicativos de ponto de venda (PDV) e comércio eletrônico. Esses aplicativos específicos do Commerce não oferecem suporte a usuários que vendem/enviam ou devolvem/recebem estoque por dimensão de versão. As funções de pesquisa de disponibilidade de estoque não distinguem estoque por dimensão de versão em aplicativos do Commerce. Esse comportamento é semelhante ao comportamento atual da dimensão de configuração no Commerce.
+1. **Funcionalidade do Microsoft Dynamics 365 Commerce:** depois que ela for ativada, a dimensão da versão aparecerá durante todo o código específico do Commerce no Dynamics 365 Supply Chain Management. No entanto, a dimensão de versão ainda não tem suporte do banco de dados de canal do Commerce ou nos aplicativos de ponto de venda (PDV) e comércio eletrônico. Esses aplicativos específicos do Commerce não oferecem suporte a usuários que vendem/enviam ou devolvem/recebem estoque por dimensão de versão. As funções de pesquisa de disponibilidade de estoque não distinguem estoque por dimensão de versão em aplicativos do Commerce. Esse comportamento é semelhante ao comportamento atual da dimensão de configuração no Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Ativar a dimensão de versão
 
 Para que você possa usar a dimensão de versão, ela deve estar ativada no sistema. Esta tarefa requer permissões de administrador.
 
-1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
+1. Vá para **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
 1. Ative o recurso que é denominado *Versão da dimensão do produto*. (Para obter mais informações, consulte [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 1. Coloque o sistema em [modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Acesse **Administração de sistema \> Configurar \> Configuração de licença**.
+1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
 1. Na guia **Chaves de configuração**, expanda **Comércio** e marque a caixa de seleção **Dimensão do produto - versão**.
 1. Desative o [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Áreas em que não há suporte para a dimensão da versão
 
-As áreas a seguir não oferecem suporte à dimensão de versão (ainda é possível usar essas áreas, mas você não poderá adicionar produtos com versão (produtos em que a dimensão de versão é usada) a elas). Por exemplo, não é possível adicionar um item com versão a um catálogo de fornecedor. Isso porque a adição de produtos com a dimensão de versão a essas áreas causaria alterações na falha.
+As seguintes áreas não dão suporte à dimensão de versão porque a apresentação dessa dimensão causaria alterações da falha:
 
 - Demonstrativo de objeto de custo mensal
 - Cache de demonstrativos de objeto de custo
@@ -143,6 +146,3 @@ A dimensão da versão funciona como as outras dimensões do produto. No entanto
 
 > [!IMPORTANT]
 > Se você ativar e usar a dimensão de versão, algumas soluções que fazem referência a dimensões de estoque poderão parar de funcionar conforme esperado. Para confirmar e corrigir esses problemas, fale com o fornecedor de software independente (ISV) para obter as soluções afetadas. Para obter mais informações, consulte [Habilitar a dimensão da versão](#enable-version-dim).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,31 @@
 ---
 title: Aprimoramentos na funcionalidade de postagem de demonstrativo
 description: Este tópico descreve as melhorias feitas no recurso de postagem do demonstrativo.
-author: analpert
-ms.date: 01/31/2022
+author: josaw1
+manager: AnnBe
+ms.date: 05/14/2019
 ms.topic: article
-audience: Application User, Developer, IT Pro
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
-ms.author: analpert
+ms.search.industry: retail
+ms.author: anpurush
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087594"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410260"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Aprimoramentos na funcionalidade de postagem de demonstrativo
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tópico descreve o primeiro conjunto das melhorias feitas no recurso de postagem do demonstrativo. As melhorias estão disponíveis no Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -27,7 +33,7 @@ Este tópico descreve o primeiro conjunto das melhorias feitas no recurso de pos
 
 Por padrão, durante a implementação de Finance and Operations 7.3.2, o programa é configurado para usar o recurso herdado para postagens do demonstrativo. Para habilitar o recurso aprimorado de postagem da instrução, você deve ativar a chave de configuração para ele.
 
-- Acesse **Administração de sistemas** \> **Configuração** \> **Configuração de licença**, e depois, no nó **Retail e Commerce**, desmarque a caixa de seleção **Demonstrativos (herdados)**, e marque a caixa de seleção **Demonstrativos**.
+- Vá para **Administração de sistemas** \> **Configuração** \> **Configuração de licença**, e depois, no nó **Retail e Commerce**, desmarque a caixa de seleção **Demonstrativos (herdados)**, e marque a caixa de seleção **Demonstrativos**.
 
 Quando a nova chave de configuração **Demonstrativos** é ligada, um novo item de menu nomeado **Demonstrativos** está disponível. Esse item de menu permite criar, calcular e lançar demonstrativos manualmente. Qualquer instrução que cause um erro quando o processo de postagem de lotes é usado também estará disponível por meio deste item de menu. (Quando a chave de configuração **Demonstrativos (herdado)** é ligada, o item de menu é nomeado **Demonstrativos abertos**.)
 
@@ -50,24 +56,12 @@ Como parte das melhorias ao recurso de lançamento do demonstrativo, os três pa
 
 - **Desabilitar contagem necessária** – Quando esta opção está definida como **Sim**, o processo de postagem de uma instrução continua, mesmo que a diferença entre o valor contado e o valor de transação no extrato esteja fora do limite definido na Guia Rápida do **Demonstrativo** para Lojas.
 
-> [!NOTE]
-> A partir da versão 10.0.14 do Commerce, quando o recurso **Demonstrativos de varejo - Fluxo constante** estiver habilitado, o trabalho em lotes **Lançar estoque** não é mais aplicável e não pode ser executado.
-
 Além disso, os parâmetros a seguir foram introduzidos na Guia Rápida **Processamento de lote** na guia **Postagem** da página **Parâmetros do Commerce**: 
 
 - **Número máximo de lançamentos paralelos de demonstrativos** – Esse campo define o número de tarefas de lote que serão usados para postar múltiplos demonstrativos. 
 - **Thread máximo para processamento de pedido por demonstrativo** – Esse campo representa o número máximo de threads usado por um trabalho de lote de postagem de demonstrativo para criar e faturar ordens de venda para um único demonstrativo. O número total de threads que serão usados pelo processo de postagem de demonstrativo serão computador com base no valor nesse parâmetro multiplicado pelo valor no parâmetro **Número máximo de lançamentos paralelos de demonstrativos**. Definir o valor desse parâmetro muito alto pode afetar negativamente o desempenho do processo de postagem do demonstrativo.
-- **Linhas de transação máxima incluída na agregação** – Esse campo define o número de linhas de transação que serão incluídas em uma única transação agregada antes de uma nova ser criada. As transações agregadas são criadas com base em critérios de agregação diferentes como cliente, data do negócio ou dimensões financeiras. É importante observar que as linhas de uma única transação não serão divididas entre transações agregadas diferentes. Isso significa que há uma possibilidade de que o número de linhas em uma transação agregada seja levemente maior ou menor com base nos fatores como o número de produtos distintos.
+- **Linhas de transação máxima incluída na agregação** – Esse campo define o número de linhas de transação que serão incluídas em uma única transação agregada antes de uma nova ser criada. As transações agregadas são criadas com base em critérios de agregação diferentes como cliente, data do negócio ou dimensões financeiras. É importante observar que as linhas de uma única transação não serão divididas entre transações agregadas diferentes. Isso significa que há uma possibilidade de que o número de linhas em uma transação agregada é levemente maior ou menor com base nos fatores como o número de produtos distintos.
 - **Número máximo de threads para validar transações de loja** – Esse campo define o número de threads que serão usados para validar transações. Validar transações é uma etapa obrigatória que precisa acontecer antes das transações serem recebidas nos demonstrativos. Você também precisa definir um **Produto para o cartão-presente** na Guia Rápida **Cartão-presente** na guia **Lançamento** da página **Parâmetros do Commerce**. Isso precisa ser definido até se cartões-presente não forem usados pela organização.
-
-A tabela a seguir lista os valores recomendados para os parâmetros anteriores. Esses valores devem ser testados e ajustados para a configuração de implantação e a infraestrutura disponível. Qualquer aumento nos valores recomendados pode afetar negativamente outro processamento em lotes e deve ser validado.
-
-| Parâmetro | Valor recomendado | Detalhes |
-|-----------|-------------------|---------|
-| Número máximo de lançamentos paralelos de demonstrativos | <p>Defina esse parâmetro como o número de tarefas em lotes disponíveis para o grupo de lotes que está executando o trabalho do **Demonstrativo**.</p><p>**Regra geral:** multiplique o número de servidores virtuais do Servidor de Objetos de Aplicativo (AOS) pelo número de tarefas em lotes disponíveis por servidor virtual do AOS.</p> | Esse parâmetro não é aplicável quando o recurso **Demonstrativos de varejo - Fluxo constante** estiver habilitado. |
-| Máximo de threads para o processamento de ordens por demonstrativo | Comece a testar valores em **4**. Normalmente, o valor não deve exceder **8**. | Esse parâmetro especifica o número de threads usados para criar e lançar ordens de venda. Ele representa o número de threads disponíveis para lançamento por demonstrativo. |
-| Máximo de linhas de transação incluídas em agregação | Comece a testar valores em **1000**. Dependendo da configuração da matriz, ordens menores podem ser mais benéficos para o desempenho. | Esse parâmetro determina o número de linhas que serão incluídas em cada ordem de venda durante o lançamento do demonstrativo. Depois que esse número for atingido, as linhas serão divididas em uma nova ordem. Embora o número de linhas de venda não seja exato, porque a divisão ocorre no nível da ordem de venda, ela ficará próxima do número definido. Esse parâmetro é usado para gerar ordens de venda para transações de varejo que não têm um cliente nomeado. |
-| Número máximo de threads para validar transações de loja | É recomendável definir esse parâmetro como **4** e aumentá-lo somente se você não obtiver um desempenho aceitável. O número de threads que esse processo usa não pode exceder o número de processadores disponíveis para o servidor de lote. Se você atribuir muitos segmentos aqui, poderá afetar o processamento em lotes. | Esse parâmetro controla o número de transações que podem ser validadas ao mesmo tempo para uma determinada loja. |
 
 > [!NOTE]
 > Todas as configurações e os parâmetros relacionados às postagens de demonstrativo, e definidos em lojas do Commerce na página **Parâmetros do Commerce**, são aplicáveis ao recurso aprimorado de postagem do demonstrativo.
@@ -125,17 +119,9 @@ Um demonstrativo passa por várias operações (por exemplo, Criar, Calcular, Li
 
 ### <a name="aggregated-transactions"></a>Transações agregadas
 
-Durante o processo de lançamento, as transações cash-and-carry são agregadas por cliente e produto. Portanto, o número de ordens de venda e de linhas criadas é reduzido. As transações agregadas são armazenadas no sistema e usadas para criar ordens de vendas. Cada transação agregada cria uma ordem de venda correspondente no sistema. 
+Durante o processo de lançamento, as transações de venda são agregadas na configuração. Essas transações agregadas são armazenadas no sistema e usadas para criar ordens de vendas. Cada transação agregada cria uma ordem de venda correspondente no sistema. Você pode exibir as transações agregadas usando o botão **Transações agregadas** no grupo **Detalhes de execução** do demonstrativo.
 
-Se um demonstrativo não for totalmente lançado, você poderá exibir as transações agregadas no demonstrativo. No Painel de Ações, na guia **Demonstrativo**, no grupo **Detalhes da execução**, selecione **Transações agregadas**.
-
-![Botão Transações agregadas para um demonstrativo que não foi totalmente lançado.](media/aggregated-transactions.png)
-
-Para os demonstrativos lançados, você poderá exibir as transações agregadas na página **Demonstrativos lançados**. No Painel de Ações, selecione **Consultas** e, em seguida, selecione **Transações agregadas**.
-
-![Comando Transações agregadas para demonstrativos lançados.](media/aggregated-transactions-posted-statements.png)
-
-A Guia Rápida **Detalhes da ordem de venda** de uma transação agregada mostra as seguintes informações:
+A guia **Detalhes da ordem de venda** de uma transação agregada mostra as seguintes informações:
 
 - **ID de registro** O ID da transação agregada.
 - **Número de demonstrativo** – O demonstrativo a qual a transação agregada pertence.
@@ -144,33 +130,17 @@ A Guia Rápida **Detalhes da ordem de venda** de uma transação agregada mostra
 - **Número de linhas agregadas** – O número total de linhas da transação agregada e ordem de vendas.
 - **Status** – O status mais recente da transação agregada.
 - **ID de fatura** – Quando a ordem de vendas da transação agregada é faturada, o ID de fatura das vendas. Se este campo estiver em branco, a fatura da ordem de venda não foi postada.
-- **Código de erro** – esse campo é definido se a agregação estiver em um estado de erro.
-- **Mensagem de erro** – esse campo é definido se a agregação estiver em um estado de erro. Ele mostra detalhes sobre o que causou a falha do processo. Você pode usar as informações no código de erro para corrigir o problema e reiniciar o processo manualmente. Dependendo do tipo de resolução, pode ser necessário excluir as vendas agregadas e processá-las em um novo demonstrativo.
 
-![Campos na Guia Rápida Detalhes da ordem de venda de uma transação agregada.](media/aggregated-transactions-error-message-view.png)
+A guia **Detalhes de transação** de uma transação agregada exibe todas as transações que foram colocadas na transação agregada. As linhas agregadas na transação agregada mostram todos os registros agregados das transações. As linhas agregadas também mostram detalhes como item, variante, quantidade, preço, valor líquido, unidade e depósito. Basicamente, cada linha agregada corresponde a uma linha de ordem de venda.
 
-A Guia Rápida **Detalhes da transação** de uma transação agregada exibe todas as transações que foram colocadas na transação agregada. As linhas agregadas na transação agregada mostram todos os registros agregados das transações. As linhas agregadas também mostram detalhes como item, variante, quantidade, preço, valor líquido, unidade e depósito. Basicamente, cada linha agregada corresponde a uma linha de ordem de venda.
+Na página **Transações agregadas**, você pode baixar o XML para uma transação agregada específica usando o botão **XML da ordem de venda de exportação**. Você pode usar o XML para depurar problemas que envolvam a criação e postagem da ordem de venda. Apenas baixe o XML, carregue-o a um ambiente de teste e depure o problema no ambiente de teste. A funcionalidade para baixar o XML de transações agregadas não está disponível para instruções lançadas.
 
-![Guia Rápida Detalhes da transação de uma transação agregada.](media/aggregated-transactions-sales-details.png)
-
-Em algumas situações, pode haver falha nas transações agregadas durante o lançamento da ordem de venda consolidada. Nessas situações, um código de erro será associado ao status do demonstrativo. Para exibir somente as transações agregadas com erros, você pode habilitar o filtro **Mostrar somente as falhas** na exibição de transações agregadas, marcando a caixa de seleção. Ao habilitar esse filtro, você limita os resultados a transações agregadas com erros que exigem resolução. Para obter informações sobre coo corrigir esses erros, consulte [Editar e auditar transações da ordem do cliente assíncronas e ordem online](edit-order-trans.md).
-
-![Caixa de seleção do filtro Mostrar somente falhas na exibição de transações agregadas.](media/aggregated-transactions-failure-view.png)
-
-Na página **Transações agregadas**, você pode baixar o XML para uma transação agregada específica selecionando **Exportar dados da agregação**. Você pode examinar o XML em qualquer formatador XML para ver os detalhes reais de dados que envolvem a criação e o lançamento da ordem de venda. A funcionalidade para baixar o XML de transações agregadas não está disponível para instruções lançadas.
-
-![Exportar dados da agregação na página Transações agregadas.](media/aggregated-transactions-export.png)
-
-No caso de não ser possível corrigir o erro corrigindo dados na ordem de venda ou os dados que oferecem suporte à ordem de venda, um botão **Excluir ordem do cliente** estará disponível. Para excluir uma ordem, selecione a transação agregada com falha e selecione **Excluir ordem do cliente**. A transação agregada e a ordem de venda correspondente serão excluídas. Agora você pode examinar as transações usando a funcionalidade de edição e auditoria. Como alternativa, elas podem ser reprocessadas por meio de um novo demonstrativo. Depois que todas as falhas forem corrigidas, você poderá continuar o lançamento do demonstrativo executando a função Lançar demonstrativo para o demonstrativo relevante.
-
-![Botão Excluir ordem do cliente na exibição de transações agregadas.](media/aggregated-transactions-delete-cust-order.png)
-
-A exibição de transações agregadas fornece os seguintes benefícios:
+A exibição agregada de transação a seguir fornece os benefícios:
 
 - O usuário tem visibilidade nas transações agregadas que falharam durante a criação das ordens de venda e ordens de venda que falharam durante o faturamento.
 - O usuário tem a visibilidade de como as transações são agregadas.
 - O usuário tem uma trilha de auditoria concluída, das transações, ordens de venda, a notas fiscais de vendas. Essa trilha de auditoria não está disponível no recurso herdado de lançamento do demonstrativo.
-- O arquivo XML agregado facilita a identificação de problemas durante a criação e faturamento da ordem de venda.
+- O arquivo XML agregado facilita a identificação de problemas durante a criação e faturamento de ordem de venda.
 
 ### <a name="journal-vouchers"></a>Comprovantes de diário
 
@@ -202,8 +172,5 @@ Além disso, melhorias finais que os usuários podem ver foram feitas no recurso
 - Recomendamos que você ative o estoque físico negativo no grupo de modelo de item, para que você tenha uma experiência de lançamento perfeita. Em algumas situações, demonstrativos negativos não conseguirão ser lançados a menos que houvesse um estoque físico negativo. Por exemplo, em tese, se houver apenas uma unidade de um item em estoque e ela for uma transação de venda e uma transação de devolução do item, a transação deverá ser capaz ser lançada se o estoque negativo estiver ativado. Porém, como o processo de postagem de demonstrativo recebe a transação de vendas e a transação de devolução em uma única ordem de cliente, não há garantia de que a linha de vendas será lançada primeiro, acompanhada por linha de devolução. Portanto, erros podem ocorrer. Se o estoque negativo for ativado neste cenário, a postagem da transação não é afetada negativamente e o sistema refletirá corretamente o estoque.
 - Recomenda-se usar a agregação enquanto você calcula e lança demonstrativos. Portanto, as seguintes configurações são recomendadas para alguns dos parâmetros de agregação:
 
-    - Acesse **Varejo e Comércio** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de comércio**. Depois, na guia **Lançamento**, na Guia Rápida **Atualização de estoque**, no campo **Nível de detalhes**, selecione **Resumo**.
-    - Acesse **Varejo e Comércio** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de comércio**. Em seguida, na guia **Lançamento**, na guia Rápida **Agregação**, defina a opção **Transações de comprovante** como **Sim**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    - Vá para **Varejo e Comércio** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de comércio**. Depois, na guia **Lançamento**, na Guia Rápida **Atualização de estoque**, no campo **Nível de detalhes**, selecione **Resumo**.
+    - Vá para **Varejo e Comércio** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de comércio**. Em seguida, na guia **Lançamento**, na guia Rápida **Agregação**, defina a opção **Transações de comprovante** como **Sim**.

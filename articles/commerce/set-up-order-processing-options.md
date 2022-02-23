@@ -2,13 +2,16 @@
 title: Configurar canais de call center
 description: Este tópico oferece informações sobre como processar ordens de call centers usando o Dynamics 365 Commerce.
 author: josaw1
-ms.date: 02/04/2022
+manager: AnnBe
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: 28954eab857a06da3978ca362081dfc3c525354d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092423"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410265"
 ---
 # <a name="set-up-call-center-channels"></a>Configurar canais de call center
 
@@ -37,7 +40,7 @@ Os usuários deverão estar vinculados a um canal de call center para usar os re
 
 Um perfil de notificação por email pode ser configurado no canal de call center. O perfil define o conjunto de modelos de email usado quando o email é enviado para os clientes que fazem pedidos por meio do canal de call center. Os disparos de email podem ser configurados em relação a eventos do sistema, como a emissão ou a remessa da ordem.
 
-Antes que as vendas possam ser corretamente processadas em um canal de call center, os [métodos de pagamento](/dynamics365/unified-operations/retail/work-with-payments) e os modos de entrega corretos devem ter sido definidos para o canal.
+Antes que as vendas possam ser corretamente processadas em um canal de call center, os [métodos de pagamento](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-payments) e os modos de entrega corretos devem ter sido definidos para o canal.
 
 No nível do canal de call center, você pode definir outros valores padrão relacionados às dimensões financeiras que serão vinculadas às ordens criadas pelo canal.
 
@@ -47,18 +50,15 @@ Três definições na configuração de um call center têm um efeito principal 
 
 ### <a name="enable-order-completion"></a>Habilitar conclusão de ordem
 
-A definição de **Habilitar conclusão de ordem** no canal de call center tem um efeito fundamental no fluxo de processamento das ordens de venda inseridas para o canal. Quando essa definição estiver ativada, todas as ordens de venda deverão passar por um conjunto de regras de validação antes que possam ser confirmadas. Execute essas regras selecionando o botão **Concluir** adicionado ao Painel de Ações da página da ordem de venda. Todas as ordens de venda criadas quando a definição **Habilitar conclusão de ordem** estiver ativada deverão passar pelo processo de conclusão de ordem. Esse processo impõe a captura da lógica de pagamento e de validação do pagamento. Além da imposição de pagamento, o processo de emissão da ordem pode disparar [verificações de fraude](/dynamics365/unified-operations/retail/set-up-fraud-alerts) configuradas no sistema. As ordens que falharem nas validações de pagamento ou de fraude serão colocadas em espera e não poderão ser liberadas para processamento adicional (como separação ou o envio) até que o problema que causou o bloqueio seja resolvido.
+A definição de **Habilitar conclusão de ordem** no canal de call center tem um efeito fundamental no fluxo de processamento das ordens de venda inseridas para o canal. Quando essa definição estiver ativada, todas as ordens de venda deverão passar por um conjunto de regras de validação antes que possam ser confirmadas. Execute essas regras selecionando o botão **Concluir** adicionado ao Painel de Ações da página da ordem de venda. Todas as ordens de venda criadas quando a definição **Habilitar conclusão de ordem** estiver ativada deverão passar pelo processo de conclusão de ordem. Esse processo impõe a captura da lógica de pagamento e de validação do pagamento. Além da imposição de pagamento, o processo de emissão da ordem pode disparar [verificações de fraude](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts) configuradas no sistema. As ordens que falharem nas validações de pagamento ou de fraude serão colocadas em espera e não poderão ser liberadas para processamento adicional (como separação ou o envio) até que o problema que causou o bloqueio seja resolvido.
 
-Quando a definição **Habilitar conclusão de ordem** estiver ativada para o canal de call center, se os itens de linha forem inseridos em uma ordem de venda e se o usuário do canal tentar fechar ou sair do formulário da ordem de venda sem selecionar **Concluir**, o sistema forçará o processo de conclusão da ordem ao abrir a página de recapitulação da ordem de venda, exigindo que o usuário emita a ordem corretamente. Se a ordem não puder ser emitida corretamente com o pagamento, o usuário poderá usar a funcionalidade [bloqueios da ordem](/dynamics365/unified-operations/retail/work-with-order-holds) para colocar a ordem em espera. Se o usuário estiver tentando cancelar a ordem, deverá cancelá-la corretamente usando a função Cancelar ou a função Excluir, dependendo da função permitida pela segurança do usuário.
+Quando a definição **Habilitar conclusão de ordem** estiver ativada para o canal de call center, se os itens de linha forem inseridos em uma ordem de venda e se o usuário do canal tentar fechar ou sair do formulário da ordem de venda sem selecionar **Concluir**, o sistema forçará o processo de conclusão da ordem ao abrir a página de recapitulação da ordem de venda, exigindo que o usuário emita a ordem corretamente. Se a ordem não puder ser emitida corretamente com o pagamento, o usuário poderá usar a funcionalidade [bloqueios da ordem](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) para colocar a ordem em espera. Se o usuário estiver tentando cancelar a ordem, deverá cancelá-la corretamente usando a função Cancelar ou a função Excluir, dependendo da função permitida pela segurança do usuário.
 
 Se a definição **Habilitar conclusão de ordem** estiver ativada para o canal de call center, o campo **Status do pagamento** será acompanhado na ordem. O sistema calcula o **Status do pagamento** quando a ordem de venda é emitida. Somente as ordens com um status de pagamento aprovado podem se mover pelo sistema para etapas adicionais de processamento de ordem, como separação e remessa. Se os pagamentos forem recusados, o sinalizador **não processar** será habilitado no status detalhado da ordem, colocando a ordem em espera até o problema com o pagamento ser resolvido.
 
-Além disso, se a definição **Habilitar conclusão de ordem** estiver ativada, quando os usuários criarem ordens de venda e estiverem no modo de entrada de item de linha, o campo **Origem** estará disponível no cabeçalho principal da ordem de venda. O campo **Origem** é usado para capturar um [código-fonte de catálogo](/dynamics365/unified-operations/retail/call-center-catalogs) em um cenário de venda por marketing direto. Este código pode, então, resultar em preços especiais e promoções.
+Além disso, se a definição **Habilitar conclusão de ordem** estiver ativada, quando os usuários criarem ordens de venda e estiverem no modo de entrada de item de linha, o campo **Origem** estará disponível no cabeçalho principal da ordem de venda. O campo **Origem** é usado para capturar um [código-fonte de catálogo](https://docs.microsoft.com/dynamics365/unified-operations/retail/call-center-catalogs) em um cenário de venda por marketing direto. Este código pode, então, resultar em preços especiais e promoções.
 
 Mesmo se a configuração **Habilitar conclusão de ordem** estiver desativada, os usuários ainda poderão aplicar um código-fonte a uma ordem de venda. Entretanto, primeiro eles deverão abrir os detalhes do cabeçalho da ordem de venda para acessar o campo **Origem**. Em outras palavras, alguns cliques adicionais são necessários. O mesmo comportamento se aplica a recursos como remeter ordens concluídas e expedidas. Esses recursos estão disponíveis para todas as ordens criadas no call center. Entretanto, quando a definição **Habilitar conclusão de ordem** estiver ativada, os usuários poderão consultar a configuração desses recursos no cabeçalho de venda enquanto estiverem na exibição de entrada de linha. Eles não precisam detalhar o cabeçalho da ordem de venda para encontrar as definições e os campos apropriados.
-
-> [!NOTE]
-> Quando o recurso **Pagamentos de ordens de omnicanal do Commerce** está habilitado, o botão do call center **Habilitar conclusão de ordem** ficará oculto na sede na FastTab **Geral** do seu canal no **Varejo e Comércio \> Canais \> Call Centers**.
 
 ### <a name="enable-direct-selling"></a>Habilitar venda direta
 
@@ -84,6 +84,3 @@ Depois de concluir a configuração do canal call center e de definir os usuári
 > [!NOTE]
 > Para usar a funcionalidade do centro de chamada, a chave da configuração deve ser habilitada para **Diversos endereços de remessa**. Essa chave de configuração pode ser encontrada nas chaves **Configuração de troca** em **Administração do sistema**\> **Configuração** \> **Configurações do sistema**. Isso é necessário devido à funcionalidade do centro de chamada que executa várias validações com base no endereço de entrega configurado no nível da linha da ordem de venda. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: Definir pontos de premiação de fidelidade
 description: Este procedimento orienta na definição de pontos de recompensa de fidelidade.
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 509db13f1bae9f41537a5d91aeba862ed2e4291d72739e83e22fb860791d6355
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e40ebcbf3ab1befc641ae34571a8b974bd0425a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738663"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410232"
 ---
 # <a name="define-loyalty-reward-points"></a>Definir pontos de premiação de fidelidade
 
@@ -27,7 +30,7 @@ ms.locfileid: "6738663"
 
 Este procedimento orienta na definição de pontos de recompensa de fidelidade. Você deve definir pontos de recompensa de fidelidade antes de configurar um programa de fidelidade. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Acesse Varejo e Comércio > Clientes > Fidelidade > Pontos de premiação de fidelidade.
+1. Vá para Varejo e Comércio > Clientes > Fidelidade > Pontos de premiação de fidelidade.
 2. Clique em Novo.
 3. No campo ID do ponto de recompensa, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -43,6 +46,3 @@ Este procedimento orienta na definição de pontos de recompensa de fidelidade. 
 10. No campo Unidade do período de validade, selecione uma opção.
 11. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

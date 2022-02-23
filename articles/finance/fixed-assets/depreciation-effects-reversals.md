@@ -1,26 +1,29 @@
 ---
 title: Efeitos de depreciação em reversões
 description: Este artigo discute implicações potenciais para reverter uma transação de ativo fixo.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: dd4c4a9e7e89b34b1311b38310877b45e4d95b22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674541"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440236"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Efeitos de depreciação em reversões
 
@@ -30,14 +33,14 @@ Este artigo discute implicações potenciais para reverter uma transação de at
 
 Você pode reverter transações de ativo fixo e transações associadas a um ativo fixo. Você também pode revogar uma transação revertida. 
 
-Você pode reverter ou revogar uma transação que não seja a transação lançada mais recentemente nas depreciações para o ativo. Determine primeiro se alguma transação de depreciação foi lançada após a transação que está sendo revertida. Essa etapa é necessária porque a depreciação não é recalculada durante a reversão de uma transação. Portanto, a depreciação normalmente é superestimada ou subestimada após a reversão, como mostram os exemplos. 
+Você pode reverter ou revogar uma transação que não seja a transação lançada mais recentemente nas depreciações para o ativo. Você deve determinar primeiro se alguma transação de depreciação foi lançada após a transação que está sendo revertida. Isso ocorre porque a depreciação não é recalculada durante a reversão de uma transação. Portanto, a depreciação normalmente é superestimada ou subestimada após a reversão, como mostram os exemplos. 
 
 Para garantir que a depreciação está correta ao reverter uma transação, não continue com a reversão se receber uma mensagem durante esse processo indicando que a depreciação não será recalculada. Em vez disso, primeiro estorne a transação de depreciação lançada após a transação que tentou reverter e, depois, continue com a devolução. Você não será avisado sobre recálculos da depreciação e poderá continuar com a reversão. 
 
 Os exemplos a seguir mostram os cálculos feitos se você continuar após a mensagem de aviso, sem primeiro reverter as transações de depreciação.
 
 ## <a name="example-1-depreciation-is-overstated"></a>Exemplo 1: a depreciação é superestimada
-Um ativo é configurado com uma vida útil de cinco anos e uma depreciação linear (60 períodos de depreciação). Neste exemplo, a depreciação é superestimada.
+Um ativo é configurado com uma vida útil de 5 anos e uma depreciação linear (60 períodos de depreciação). Neste exemplo, a depreciação é superestimada.
 #### <a name="asset-transaction-history"></a>Histórico de transações de ativo
 
 | Data       | Tipo de transação                                                          | Valor                                    |
@@ -61,7 +64,7 @@ Um ativo é configurado com uma vida útil de cinco anos e uma depreciação lin
 A depreciação é superestimada em 16,95 (1000 - 983,05).
 
 ## <a name="example-2-depreciation-is-understated"></a>Exemplo 2: a depreciação é subestimada
-Um ativo é configurado com uma vida útil de cinco anos e uma depreciação linear (60 períodos de depreciação). Neste exemplo, a depreciação é subestimada.
+Um ativo é configurado com uma vida útil de 5 anos e uma depreciação linear (60 períodos de depreciação). Neste exemplo, a depreciação é subestimada.
 #### <a name="asset-transaction-history"></a>Histórico de transações de ativo
 
 | Data       | Tipo de transação                                                          | Valor                                      |
@@ -86,12 +89,10 @@ A depreciação é subestimada em 16,95 (983,62 - 966,67).
 
 
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Depreciação de ativo fixo](fixed-asset-depreciation.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

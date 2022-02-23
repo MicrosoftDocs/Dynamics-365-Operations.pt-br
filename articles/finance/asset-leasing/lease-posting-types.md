@@ -2,25 +2,28 @@
 title: Tipos de lançamento de arrendamento
 description: Este tópico descreve os tipos de lançamento usados para transações de arrendamento de ativo.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeasePostingAccounts
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 721463000c05eb1774335ccce1af39468c2aed9f179e5e88d8725f4d265d6870
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceb4fbeb4dbf2f535e05a9d46c84169435d2803b
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718238"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440560"
 ---
 # <a name="lease-posting-types"></a>Tipos de lançamento de arrendamento
 
@@ -89,6 +92,15 @@ A conta é associada à conta de contra-ativo do ativo DDU. Essa conta é credit
 **Débito:** despesa de depreciação XXX<br>
 **Crédito:** depreciação acumulada XXX
 
+## <a name="retained-earnings"></a>Lucros Retidos
+
+A conta é associada a ganhos retidos. Essa conta pode ser debitada ou creditada em uma entrada de diário de ajuste de transição usando o método de retrospectiva completa ou o método A de opção de atualização cumulativa. A diferença entre o ativo DDU inicial e a responsabilidade com arrendamento está registrada para ganhos retidos. Em casos raros, os ganhos retidos também podem ser afetados durante a modificação do arrendamento, caso a classificação de um arrendamento seja alterada de mercantil para operacional a fim de gravar o ativo DDU valorizando-o ou desvalorizando-o, de forma que ele seja igual à responsabilidade com arrendamento.
+
+**Exemplo de entradas de diário:** ajuste de transição (retrospectiva completa ou método A de opção de atualização cumulativa)<br>
+**Débito:** responsabilidade com arrendamento XXX<br>
+**Crédito:** ativo de arrendamento XXX<br>
+**Crédito:** ganhos retidos XXX
+
 ## <a name="variable-payment"></a>Pagamento variável
 
 A conta está associada a pagamentos do arrendamento variáveis produzidos por uma reavaliação de índice sob os arrendamentos ASC 842, ASC 840 e IAS 17. Na agenda do pagamento do arrendamento, os pagamentos variáveis são incluídos na coluna **Pagamento variável**. Essa conta é debitada quando uma fatura é criada em uma linha da agenda de pagamento que contém um pagamento variável.
@@ -142,6 +154,3 @@ A conta selecionada para cada tipo de despesa é debitada quando um pagamento pa
 
 > [!NOTE]
 > A contrapartida é selecionada no nível do arrendamento nas linhas da agenda de pagamento de custo de execução. Essa contrapartida pode ser associada ao fornecedor ou a uma conta contábil.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

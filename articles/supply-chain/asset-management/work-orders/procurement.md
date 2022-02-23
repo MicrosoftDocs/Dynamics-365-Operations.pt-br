@@ -1,10 +1,12 @@
 ---
 title: Compras
 description: Este tópico explica compras no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743641"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020195"
 ---
 # <a name="procurement"></a>Compras
 
@@ -36,7 +38,7 @@ A página de listagem **Requisição de compra de ordem de serviço** (**Gerenci
 
 A ilustração abaixo mostra um exemplo da página de listagem **Requisição de compra da ordem de serviço**.
 
-![Figura 1.](media/08-work-orders.png)
+![Figura 1](media/08-work-orders.png)
 
 
 A página de listagem **Compra de ordem de serviço** (**Gerenciamento de ativos** > **Comum** > **Compras** > **Requisição de compra de ordem de serviço**) mostra uma lista de ordens de compra que estão relacionadas a ordens de serviço. Ao selecionar um trabalho de ordem de serviço nessa página, você pode usar os botões no grupo **Exibir** na guia Painel de ações da **Compra da ordem de serviço** para realizar várias ações:
@@ -47,7 +49,7 @@ A página de listagem **Compra de ordem de serviço** (**Gerenciamento de ativos
 
 A ilustração a seguir mostra um exemplo da página de listagem **Compra da ordem de serviço**.
 
-![Figura 2.](media/09-work-orders.png)
+![Figura 2](media/09-work-orders.png)
 
 
 Na página de listagem **Compra da ordem de serviço** e **Requisição de compra da ordem de serviço**, um símbolo relacionado ao controle da data de entrega aparece do lado direito de cada linha. Se o símbolo for um ponto de exclamação em um círculo vermelho, a entrega da ordem de compra ou requisição de compra relacionada pode sofrer atrasos.
@@ -93,10 +95,7 @@ Para visualizar ou inserir o número da atividade relacionada à linha da ordem 
 
 A ilustração abaixo mostra um exemplo da página **Ordem de compra**, com enfoque no **Número da atividade**.
 
-![Figura 3.](media/10-work-orders.png)
+![Figura 3](media/10-work-orders.png)
 
 Da mesma forma, para visualizar ou inserir o número da atividade relacionada à linha da requisição de compra da ordem de serviço, na página de listagem **Requisição de compra da ordem de serviço**, selecione o registro de requisição de compra e, na coluna **Requisição de compra**, selecione o link para a requisição de compra. Você pode localizar o campo **Número da atividade** na guia **Projeto** na Guia Rápida **Detalhes da linha**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

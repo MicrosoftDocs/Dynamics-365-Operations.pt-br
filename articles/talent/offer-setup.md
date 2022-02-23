@@ -209,6 +209,3 @@ Há várias partes do processo de criação da oferta que podem ser configuradas
 
 
 Para saber mais sobre o processo de criação da oferta, consulte [Criar, aprovar e assinar ofertas](./creating-offers.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

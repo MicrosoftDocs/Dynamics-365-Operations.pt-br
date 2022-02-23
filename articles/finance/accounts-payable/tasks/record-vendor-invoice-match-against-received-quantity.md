@@ -2,23 +2,26 @@
 title: Registrar fatura de fornecedor e corresponder com a quantidade recebida
 description: Ao receber uma fatura de um fornecedor para bens em uma ordem de compra, seus processos de negócios podem necessitar que os bens ou serviços sejam recebidos antes que a nota fiscal possa ser aprovada para pagamento.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 352e188dcd25b486a1284be6958f44a5543f222c358153557366f9bdcc209f05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa79ab46e9fdc6f8a2b4524d372949314ac2d200
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722902"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440295"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Registrar fatura de fornecedor e corresponder com a quantidade recebida
 
@@ -62,6 +65,3 @@ Este procedimento usa a empresa de dados de demonstração USMF. A função gere
 10. No Painel de Ação, clique em Revisar.
 11. Clique em Detalhes da conciliação.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

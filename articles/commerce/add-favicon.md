@@ -2,30 +2,35 @@
 title: Adicionar um favicon
 description: Este tópico explica como adicionar um favicon ao seu site.
 author: bicyclingfool
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964723"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410123"
 ---
 # <a name="add-a-favicon"></a>Adicionar um favicon
 
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como adicionar um favicon ao seu site.
+
+## <a name="overview"></a>Visão geral
 
 Um favicon é um pequeno arquivo gráfico que é mostrado em uma guia do navegador da Web, na barra de endereços, no histórico de navegação e em indicadores ou favoritos, entre outros lugares. Recomendamos que você adicione um favicon ao seu site, porque ele representa e reforça sua marca e ajuda a distinguir seu site de outros sites visitados por seus clientes.
 
@@ -57,18 +62,18 @@ Para criar o HTML do favicon, use a seguinte cadeia de caracteres de código de 
 
 Para criar um fragmento que contenha uma marca meta para o seu favicon, siga estas etapas.
 
-1. Acesse **Fragmentos** e selecione **Novo**.
+1. Vá para **Fragmentos** e selecione **Novo**.
 1. Na caixa de diálogo **Novo fragmento**, selecione **Marcas meta** como o módulo no qual o fragmento se baseia.
 1. Informe um nome para o fragmento e selecione **OK**.
 1. Na árvore de hierarquia de fragmento, selecione o filho **Padrão de marcas meta**.
-1. No painel à direita, em **Marcas meta**, selecione **Adicionar** e, em seguida, insira a cadeia de caracteres HTML criada anteriormente para o favicon. 
+1. No painel à direita, em **Marcas meta**, selecione **Adicionar** e, em seguida, insira a cadeia de caracteres HTML criada anteriormente para o favicon. 
 1. Selecione **Concluir edição** e, em seguida, selecione **Publicar** para publicar o fragmento.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Adicionar o fragmento da marca meta à seção head do HTML de suas páginas
 
 Para adicionar o fragmento da marca meta à seção **head** do HTML de suas páginas, siga estas etapas.
 
-1. Acesse **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu favicon e seleciona **Editar**.
+1. Vá para **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu favicon e seleciona **Editar**.
 1. Na árvore de hierarquia de modelos, selecione o botão de reticências (**...**) à direita do contêiner **Head do HTML** e, em seguida, selecione **Adicionar fragmento**.
 1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento da marca meta criado anteriormente e, em seguida, selecione **OK**.
 1. Selecione **Concluir edição** e depois selecione **Publicar** para publicar o modelo.
@@ -86,12 +91,11 @@ Ao visualizar páginas baseadas no modelo ao qual você adicionou o fragmento de
 
 [Trabalhar com arquivos de substituição CSS](css-override-files.md)
 
+[Adicionar uma mensagem de boas-vindas](add-welcome-message.md)
+
 [Adicionar um aviso de direitos autorais](add-copyright-notice.md)
 
 [Adicionar idiomas ao seu site](add-languages-to-site.md)
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,40 +2,46 @@
 title: Implantar um novo locatário de comércio eletrônico
 description: Este tópico descreve como implantar um novo site de comércio eletrônico do Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
+manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750705"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517273"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Implantar um novo locatário de comércio eletrônico
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como implantar um novo site de comércio eletrônico do Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS).
 
+## <a name="overview"></a>Visão Geral
+
 Microsoft Dynamics Lifecycle Services (LCS) é um espaço de trabalho colaborativo baseado em nuvem que parceiros e clientes podem usar para gerenciar seus produtos e ambientes, exibir as informações mais recentes de produtos e serviços do Microsoft Dynamics, e criar, rastrear e navegar em incidentes de suporte. Os recursos de gerenciamento de comércio eletrônico são integrados no LCS.
 
-Para saber mais sobre LCS, consulte [Guia do usuário do Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
+Para saber mais sobre LCS, consulte [Guia do usuário do Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
     
 ## <a name="get-started"></a>Iniciado
 
 Antes de iniciar o comércio eletrônico, inicialize um projeto, um ambiente e um Retail Cloud Scale Unit (RCSU). Para realizar a inicialização em LCS, você deve ter permissões para a função do gerente Proprietário do Projeto ou de Ambiente. As topologias de produção e do ambiente do sandbox são suportadas.
 
-Para obter mais informações sobre os ambientes, consulte [Planejamento de ambiente](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Para obter mais informações sobre RCSU, consulte [Inicializar Retail Cloud Scale Unit](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
+Para obter mais informações sobre os ambientes, consulte [Planejamento de ambiente](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Para obter mais informações sobre RCSU, consulte [Inicializar Retail Cloud Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
 ## <a name="initialize-e-commerce"></a>Inicializar comércio eletrônico
 
@@ -70,7 +76,7 @@ Após coletar as informações obrigatórias, siga estas etapas para inicializar
 1. Na seção **Ambientes**, selecione o ambiente.
 1. Em **Recursos de ambiente**, selecione o link **Gerente de retail**.
 1. Na guia **Comércio eletrônico**, selecione **Configuração**. É exibida uma caixa de diálogo, onde você pode inserir as informações que são necessárias para provisionamento.
-1. Preencha as informações necessárias, e Acesse a próxima página.
+1. Preencha as informações necessárias, e vá para a próxima página.
 1. Na página a seguir, preencha as informações necessárias e depois envie o formulário. Você volta para a guia **Comércio online**, onde você pode ver que a inicialização foi iniciada.
 1. Para exibir o status de inicialização, **Atualize** ou retorne para a guia **Comércio online** posteriormente.
     
@@ -78,7 +84,7 @@ Quando o comércio eletrônico é inicializado do LCS, o sistema provisiona vár
 
 ## <a name="access-commerce-site-builder"></a>Acessar o assistente para criação de sites do Commerce
 
-Para acessar o assistente para criação de sites do Commerce, Acesse a guia **Comércio eletrônico** na página **Gerenciamento de varejo** no LCS e selecione o link **Ferramenta de gerenciamento de site de comércio eletrônico**. A página de aterrissagem do assistente para criação de sites mostra uma exibição no nível de locatário. Nesta página, você pode:
+Para acessar o assistente para criação de sites do Commerce, vá para a guia **Comércio eletrônico** na página **Gerenciamento de varejo** no LCS e selecione o link **Ferramenta de gerenciamento de site de comércio eletrônico**. A página de aterrissagem do assistente para criação de sites mostra uma exibição no nível de locatário. Nesta página, você pode:
 
 - Modifique configurações no nível de locatário.
 - Navegar para qualquer site que você criou e tem permissão para exibir. 
@@ -106,6 +112,3 @@ Para acessar o assistente para criação de sites do Commerce, Acesse a guia **C
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 
 [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

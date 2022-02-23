@@ -1,24 +1,27 @@
 ---
 title: Reavaliação de moeda estrangeira do banco
 description: Este tópico fornece uma visão geral do processo de reavaliação bancária de moeda estrangeira. Ele inclui informações sobre a configuração, a execução do processo, os cálculos do processo e a reversão das transações de reavaliação.
-author: roschlom
+author: mikefalkner
+manager: AnnBe
 ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3df6a22e06abbfa75a12ffddac242dd34f5beba5
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: f99a5ed82fd4d74a5d20620dbe19b4f18e332432
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754111"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440447"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Reavaliação de moeda estrangeira do banco
 
@@ -85,6 +88,3 @@ A transação de reavaliação de moeda estrangeira também é dividida entre as
 Se for necessário reverter a transação de reavaliação, selecione o botão **Reverter transação** na página **Reavaliação de moeda estrangeira**. Um novo registro histórico de reavaliação de moeda estrangeira será criado para manter a trilha de auditoria histórica de quando a reavaliação ocorreu ou foi revertida.
 
 Para reverter várias reavaliações, você deverá reverter a reavaliação mais atual primeiro. Depois, continue a reverter as reavaliações mais antigas por ordem de data. É possível processar novas reavaliações para os períodos que foram revertidos.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,28 @@
 ---
 title: Executar trabalhos do processo kanban
 description: Esse procedimento se concentra em executar trabalhos de processo do kanban.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ac6f0f6139fe17532f6fbd996b314e0b14f3d90
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a1c32b577007c400f3528a110436eb97aaabefe2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566570"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422230"
 ---
 # <a name="execute-kanban-process-jobs"></a>Executar trabalhos do processo kanban
 
@@ -29,7 +32,7 @@ Esse procedimento se concentra em executar trabalhos de processo do kanban. O pr
 
 
 ## <a name="select-a-kanban-job"></a>Selecionar trabalho kanban
-1. Acesse Controle de produção > Kanban > Quadro Kanban para trabalhos de processo.
+1. Vá para Controle de produção > Kanban > Quadro Kanban para trabalhos de processo.
 2. No campo Célula de trabalho, clique no botão suspenso para abrir a pesquisa.
 3. Clique na linha com grupo de recursos 1250. Isso filtra a Lista de trabalhos para exibir somente os trabalhos para a célula de trabalho 1250.
     * Marque a linha que tem o status do trabalho planejado.  
@@ -54,6 +57,3 @@ Esse procedimento se concentra em executar trabalhos de processo do kanban. O pr
 6. No campo Quantidade de mercadoria, insira um número.
 7. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

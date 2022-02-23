@@ -2,13 +2,16 @@
 title: Habilitar recomendações de "comprar looks semelhantes"
 description: Este tópico descreve como habilitar recomendações de "comprar looks semelhantes" de produtos no Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721991"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410262"
 ---
-# <a name="enable-shop-similar-looks-recommendations"></a>Habilitar recomendações de "comprar itens semelhantes"
+# <a name="enable-shop-similar-looks-recommendations"></a>Habilitar recomendações de "comprar looks semelhantes"
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como habilitar recomendações de "comprar looks semelhantes" de produtos no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão Geral
 
 O recurso de recomendações de "comprar looks semelhantes" no Dynamics 365 Commerce usa o poder da inteligência artificial e do machine learning (IA-ML) para fornecer recomendações de produtos visualmente semelhantes para os clientes. Ao disponibilizar as recomendações de "comprar looks semelhantes" para todos os canais de varejo no Commerce, os varejistas podem aumentar a satisfação do cliente ajudando-os a encontrar o que desejam com facilidade.
 
@@ -68,7 +73,7 @@ Para habilitar o recurso de recomendações de "comprar looks semelhantes" na se
 
 A ilustração a seguir mostra o recurso **Comprar looks semelhantes** na página **Gerenciamento de recursos** na sede do Commerce.
 
-![O recurso "Comprar looks semelhantes" na página "Gerenciamento de recursos" na sede do Commerce.](./media/enableshopsimilarlooks.png)
+![O recurso "Comprar looks semelhantes" na página "Gerenciamento de recursos" na sede do Commerce](./media/enableshopsimilarlooks.png)
 
 Depois que as tarefas anteriores forem concluídas, os terminais de PDV serão aprimorados automaticamente com um painel contextual **Comprar looks semelhantes**. Ao selecionar **Ver mais**, os usuários do terminal de PDV podem ser levados a uma página dedicada de "Comprar looks semelhantes" que pode ser filtrada ainda mais.
 
@@ -88,7 +93,7 @@ Para adicionar um botão **Comprar looks semelhantes** e uma PDP usando o constr
 
 A ilustração a seguir mostra a caixa de seleção **Habilitar Link para Comprar Looks Semelhantes** e o botão **Comprar looks semelhantes** em um exemplo de PDP no construtor de sites.
 
-![Caixa de seleção Habilitar Link para Comprar Looks Semelhantes e o botão Comprar looks semelhantes em uma PDP no construtor de sites.](./media/SSLecomtooling.png)
+![Caixa de seleção Habilitar Link para Comprar Looks Semelhantes e o botão Comprar looks semelhantes em uma PDP no construtor de sites](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -111,6 +116,3 @@ A ilustração a seguir mostra a caixa de seleção **Habilitar Link para Compra
 [Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

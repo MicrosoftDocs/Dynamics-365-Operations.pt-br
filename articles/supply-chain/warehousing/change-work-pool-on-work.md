@@ -2,23 +2,26 @@
 title: Alterar pool de trabalho no trabalho
 description: Este tópico explica como você pode usar o botão Alterar pool de trabalho para itens de trabalho a fim de alterar o pool de trabalho do trabalho existente.
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566014"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422221"
 ---
 # <a name="change-work-pool-on-work"></a>Alterar pool de trabalho no trabalho
 
@@ -43,7 +46,7 @@ Para usar este recurso, você deve ter alguns pools de trabalho configurados. Vo
 
 Os pools de trabalho permitem organizar itens de trabalho por tipo. Para trabalhar com o recurso *Alterar pool de trabalho no trabalho*, você deve ter pelo menos dois pools de trabalho disponíveis. Para exibir e adicionar pools de trabalho, siga estas etapas.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Pools de trabalho**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Pools de trabalho**.
 1. Se você estiver trabalhando com dados de demonstração da empresa **USMF** e for trabalhar no cenário de exemplo posteriormente neste tópico, adicione dois pools de trabalho com as seguintes configurações:
 
     - Pool de trabalho 1:
@@ -62,7 +65,7 @@ Os pools de trabalho permitem organizar itens de trabalho por tipo. Para trabalh
 
 Para cada um dos modelos de trabalho, você pode definir um pool de trabalho padrão, conforme necessário. Para cada modelo relevante, você atribui um pool de trabalho na coluna **ID do pool de trabalho**. Nesse caso, todos os itens de trabalho gerados por meio de um determinado modelo herdam automaticamente o pool de trabalho atribuído. Se você estiver trabalhando com os dados de demonstração da empresa **USMF** e for trabalhar no cenário de exemplo posteriormente neste tópico, siga estas etapas.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. No Painel de Ação, selecione **Editar** para colocar a página no modo de edição.
 1. Edite o modelo definindo os seguintes valores:
 
@@ -77,7 +80,7 @@ Este cenário mostra como alterar o fluxo de processamento de um item de trabalh
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Criar uma ordem de venda e liberá-la para o depósito
 
-1. Confirme se há estoque disponível suficiente para os itens *A0001* e *A0002* no depósito *62*. Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível** e edite os filtros, conforme mostrado aqui:
+1. Confirme se há estoque disponível suficiente para os itens *A0001* e *A0002* no depósito *62*. Vá para **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível** e edite os filtros, conforme mostrado aqui:
 
     - O valor de **Depósito** começa com *62*.
     - O valor de **Número do item** é *A001* ou *A002*.
@@ -86,7 +89,7 @@ Este cenário mostra como alterar o fluxo de processamento de um item de trabalh
 
     Em seguida, você deve criar uma ordem de venda.
 
-1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -115,7 +118,7 @@ Este cenário mostra como alterar o fluxo de processamento de um item de trabalh
 
 ### <a name="review-the-outbound-wave"></a>Revisar a onda de saída
 
-1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Na grade, procure a ID da onda que foi criada com base na liberação da ordem de venda.
 1. Selecione a ID da onda para exibir os detalhes.
 1. Na FastTab **Linhas da onda**, verifique se uma ID de remessa é mostrada para a ordem de venda.
@@ -129,7 +132,7 @@ Este cenário mostra como alterar o fluxo de processamento de um item de trabalh
 
 Você pode usar a página **Detalhes do trabalho** para exibir o trabalho criado e gerenciar o pool de trabalho.
 
-1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. Selecione a linha para o trabalho que acabou de criar. A coluna **Número da ordem** mostrará o número da ordem de venda.
 
     O campo **ID do pool de trabalho** será definido como a ID do pool de trabalho que foi configurado no modelo de trabalho.
@@ -146,6 +149,3 @@ Você pode usar a página **Detalhes do trabalho** para exibir o trabalho criado
 > Quando a caixa de diálogo **Alterar pool de trabalho** for exibida, o campo **ID do pool de trabalho** poderá estar em branco por padrão. Se o campo estiver em branco quando você selecionar **OK** para aplicar as alterações, o pool de trabalho será completamente removido do trabalho.
 >
 > Além de alternar pools de trabalho, você pode usar esse procedimento para adicionar um pool de trabalho a qualquer item de trabalho que não tenha um ou para remover um pool de trabalho de qualquer item de trabalho que tenha um.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

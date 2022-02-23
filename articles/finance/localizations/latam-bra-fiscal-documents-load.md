@@ -2,22 +2,25 @@
 title: Gerar documentos fiscais para uma carga
 description: Este tópico explica como gerar gerar documentos fiscais para uma carga do Brasil.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/05/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 32294eee0b7aba01810ee0acbef0ff621506c4644955b48a7322eda2d980d6d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3e7c4e760f27dadbe74cefc16b3c3ffb43e6c33
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744921"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408450"
 ---
 # <a name="generate-fiscal-documents-for-a-load"></a>Gerar documentos fiscais para uma carga 
 
@@ -137,6 +140,3 @@ Se você não tiver acesso às páginas que são usadas para concluir essa taref
 | Chaves de configuração            | Clique em **Administração do sistema** &gt; **Configuração** &gt; **Licença** &gt; **Configuração do sistema**. Expanda a chave de licença de **Comércio** e selecione a chave de configuração **gerenciamento de Depósito e Transporte**. |
 | Funções de segurança e direitos     | Para executar essa tarefa, você deve ser membro da função de segurança que inclui o direito **Manter transações da fatura de cliente** (CustInvoiceCustomerInvoiceTransMaintain). |
 | Funções de segurança e privilégios | Para executar essa tarefa, você deve ser membro de uma função de segurança que inclua o privilégio **Cargas** (WHSLoadTableInvoicePost\_BR). |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

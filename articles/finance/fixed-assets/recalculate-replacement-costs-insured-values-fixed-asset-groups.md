@@ -1,31 +1,34 @@
 ---
-title: Recalcular custos de substituição e valores segurados para grupos de ativos fixos
-description: Este tópico explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
-author: moaamer
+title: Recalcular os custos e valores segurados para grupos de ativos fixos
+description: Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a9dd04072b4845fe5df2a918b64ba1835ea584dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674867"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440409"
 ---
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalcular custos de substituição e valores segurados para grupos de ativos fixos
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalcular os custos e valores segurados para grupos de ativos fixos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
+Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
 
 Periodicamente, você pode ser notificado que o custo para substituir ou segurar ativos fixos específicos foi alterado. Por exemplo, seu gerente pode informar que a inflação foi de 3 por cento no ano passado, então você terá de aumentar o custo de substituição em 3 por cento para todos os ativos fixos. 
 
@@ -75,6 +78,3 @@ No dia seguinte, seu gerente informa que os computadores diminuíram em 8 por ce
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Nível e descrição de serviço
 description: Este tópico explica nível de serviço e descrição no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758679"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019370"
 ---
 # <a name="service-level-and-description"></a>Nível e descrição de serviço
 
@@ -45,7 +47,7 @@ Quando você cria uma ordem de serviço, você pode desejar definir os níveis d
 8. Para definir uma hora final para a ordem de serviço, além de uma data de término, defina **Definir hora final** como **Sim**. Insira a hora final no campo **Hora final**. Se você definir a opção como **Não**, a hora atual será usada.
 9. Selecione **Salvar**.
 
-![Página do nível de serviço das ordens de serviço.](media/19-setup-for-work-orders.png)
+![Página do nível de serviço das ordens de serviço](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Criar uma descrição
 
@@ -53,6 +55,3 @@ Quando você cria uma ordem de serviço, você pode desejar definir os níveis d
 2. Selecione **Novo**.
 3. No campo **Descrição**, insira a descrição.
 4. Selecione **Salvar**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

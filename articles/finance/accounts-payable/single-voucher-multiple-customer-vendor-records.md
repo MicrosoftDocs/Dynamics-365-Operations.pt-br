@@ -2,24 +2,27 @@
 title: Comprovante único com vários registros de cliente ou de fornecedor
 description: Este tópico fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras do Microsoft Dynamics 365 Finance, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737032"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4440514"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Comprovante único com vários registros de cliente ou de fornecedor
 
@@ -208,6 +211,8 @@ No comprovante relacionado para o desconto à vista, as dimensões financeiras s
 | ARP-00001   | 403300-002-023- | Desconto à vista do cliente | 2.00      |            |
 | ARP-00001   | 130100-002-     | Saldo do cliente       |           | 2.00       |
 
+### 
+
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Um comprovante com uma remuneração para vários clientes e fornecedores
 A remuneração pode ser útil quando uma organização compra e vende para a mesma empresa. Em vez de pagar faturas do fornecedor e aguardar para receber o pagamento das faturas do cliente, as faturas do fornecedor e do cliente são remuneradas. A transação de remuneração é liquidada em relação aos saldos pendentes. 
 
@@ -228,6 +233,3 @@ Para evitar problemas indesejados com futuros pagamentos para esta transação, 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

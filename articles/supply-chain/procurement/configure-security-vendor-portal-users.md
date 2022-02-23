@@ -1,10 +1,12 @@
 ---
 title: Segurança de usuário do portal do fornecedor
 description: Este artigo explica como configurar a segurança para fornecedores externos que usam o Portal do fornecedor. Estas informações se aplicam somente às versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30231
 ms.assetid: 3574db17-81c7-4c5a-999b-0098aa0b9cda
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e73e9e874fbb8df029e4eccce922a660513c1bf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1be210728a6d5fa9a26daf9f13865ff08de03d2d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568078"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018164"
 ---
 # <a name="vendor-portal-user-security"></a>Segurança do usuário no portal de fornecedor
 
@@ -40,12 +42,10 @@ Antes de criar uma conta de usuário para alguém que usará o portal do fornece
 
 Se a mesma pessoa precisar de acesso ao portal do fornecedor em várias contas de fornecedor (para entidades legais diferentes, talvez), cada uma das contas de usuário dessa pessoa deverá ser associada com à mesma pessoa de contato registrada. A função **Fornecedor (externo)** inclui todos os recursos básicos necessários para usar a funcionalidade disponibilizada no portal do fornecedor. Essa configuração garante que a interface do usuário exibida para o usuário externo terá como foco apenas o cenário desejado.
 
-## <a name="additional-resources"></a>Recursos adicionais
+<a name="additional-resources"></a>Recursos adicionais
+--------
 
 [Colaborar com fornecedores por meio do portal do fornecedor](collaborate-vendors-vendor-portal.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

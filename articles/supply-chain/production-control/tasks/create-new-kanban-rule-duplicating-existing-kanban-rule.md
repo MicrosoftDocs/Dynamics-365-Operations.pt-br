@@ -1,25 +1,28 @@
 ---
 title: Criar uma nova regra kanban duplicando uma regra kanban existente
 description: Este procedimento tem como foco a criação de uma duplicata de uma regra kanban existente.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 578ce8bfd5a9ede85670ac0e345f428d705f7914
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 84a0093d95c2f7084c7a0ed17f8b2f86d654b5d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575018"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421903"
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Criar uma nova regra kanban duplicando uma regra kanban existente
 
@@ -29,7 +32,7 @@ Este procedimento tem como foco a criação de uma duplicata de uma regra kanban
 
 
 ## <a name="select-a-kanban-rule"></a>Selecionar uma regra kanban
-1. Acesse Regras kanban.
+1. Vá para Regras kanban.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione a regra kanban 000017 para produto M0006.  
 
@@ -41,6 +44,3 @@ Este procedimento tem como foco a criação de uma duplicata de uma regra kanban
 3. Clique em OK.
     * Note que uma duplicata da regra kanban 000017 é criada.    
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

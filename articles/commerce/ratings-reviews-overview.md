@@ -2,30 +2,37 @@
 title: Visão geral de classificações e opiniões
 description: Este tópico abrange classificações e opiniões no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1248ce660d765ddade1df7d79786202235019990
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982243"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410291"
 ---
 # <a name="ratings-and-reviews-overview"></a>Visão geral de classificações e opiniões
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange classificações e opiniões no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 As classificações e opiniões são importantes para clientes de comércio eletrônico que querem saber como os outros clientes identificam um produto. Elas também podem auxiliar na decisões de compra dos consumidores. No Dynamics 365 Commerce, a solução de classificações e opiniões permite que os varejistas capturem dos clientes as classificações e as opiniões sobre o produto. Os varejistas podem mostrar a média das classificações e revisar informações no site de comércio eletrônico.
 
@@ -35,7 +42,7 @@ A funcionalidade de classificações e opiniões no Dynamics 365 Commerce é uma
 
 A ilustração a seguir mostra como a solução de classificações e opiniões funcionam no Dynamics 365 Commerce.
 
-![Classificações e opiniões no Dynamics 365 for Commerce.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Classificações e opiniões no Dynamics 365 for Commerce](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 A solução de classificações e opiniões no Dynamics 365 Commerce usa os Azure Cognitive Services para oferecer moderação automática de palavras profanas em 40 idiomas. Como a aprovação humana não é necessária, os custos de moderação são reduzidos. O sistema também fornece ferramentas do moderador que podem ser usadas para responder aos interesses, comentários e solicitações de desativação do cliente e tratar solicitações de dados dos usuários.
 
@@ -52,14 +59,3 @@ A solução de classificações e opiniões também fornecem um modelo do busine
 [Configurar classificações e opiniões](configure-ratings-reviews.md)
 
 [Sincronizar classificações de produto no Dynamics 365 Commerce](sync-product-ratings.md)
-
-[Habilitar a publicação manual de classificações e opiniões por um moderador](manual-publish-rating-reviews.md)
-
-[Importar e exportar avaliações e revisões](import-export-reviews.md)
-
-[Configurar autenticação de serviço a serviço](service-to-service-auth.md)
-
-[Perguntas frequentes sobre classificações e opiniões](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,35 @@
 title: Módulo de contêiner
 description: Este tópico abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715431"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410125"
 ---
 # <a name="container-module"></a>Módulo de contêiner
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 Um módulo de contêiner é um módulo dentro do qual outros módulos são hospedados. O objetivo principal de um módulo de contêiner é definir, por meio das suas propriedades definidas para isso, o layout dos módulos contidos nele. Por exemplo, esses módulos podem aparecer lado a lado em um layout de duas colunas, três colunas, quatro colunas ou seis colunas. Eles também podem ser limitados à largura do contêiner ou podem preencher a tela. Um cabeçalho também pode ser adicionado a cada módulo de contêiner.
 
@@ -42,7 +47,7 @@ Há suporte para três módulos: contêiner, contêiner com 2 slots e contêiner
 
 A imagem a seguir mostra um exemplo de um módulo contêiner que contém um módulo carrossel no assistente para criação de sites do Commerce. Neste exemplo, a propriedade **Largura** do módulo contêiner está definida como **Preencher Tela**.
 
-![Exemplo de um módulo contêiner.](./media/ecommerce-container.PNG)
+![Exemplo de um módulo contêiner](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Propriedades de módulo de contêiner
 
@@ -97,12 +102,12 @@ Propriedades adicionais podem ser usadas para otimizar o layout para diferentes 
 
 Para adicionar um módulo de reprodução de contêiner a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo de contêiner** e selecione **OK**.
 1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo. 
-1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
+1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo de reprodutor de vídeo que você criou. Em **Nome da página**, insira **Página Contêiner** e selecione **OK**.
 1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
@@ -137,6 +142,3 @@ Para adicionar um módulo de reprodução de contêiner a uma nova página e def
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

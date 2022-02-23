@@ -57,6 +57,3 @@ Se os seus trabalhos não forem exibidos no LinkedIn depois de 24 horas, tente e
 [Criar, aprovar e lançar trabalhos no Attract](./creating-jobs-attract.md)
 
 [Solucionar problemas de integração entre o LinkedIn e o Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

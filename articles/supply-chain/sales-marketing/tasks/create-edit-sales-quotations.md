@@ -1,24 +1,27 @@
 ---
 title: Criar e editar cotações de venda
 description: Este procedimento demonstrativos como criar e atualizar uma cotação de venda.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SalesQuotationTotals, SalesQuotationPriceSimulation, SalesQuotationEditLines, SrsReportViewerForm, smmSetNumSeqIfManual, CustTable, SalesTable, CustQuotationConfirmationJournal, CustQuotationJournal, CustSalesLines, SalesQuotationCopying, SalesQuotationDeleteQuotations, SalesQuotationListPagePreviewPane, SalesQuotationTypeGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c409d294565f89eac95e42f6207573d22859100
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 73c15b41a4b0979ec79c8dbd8d88627bffcf6ed3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578935"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421989"
 ---
 # <a name="create-and-edit-sales-quotations"></a>Criar e editar cotações de venda
 
@@ -28,7 +31,7 @@ Este procedimento demonstrativos como criar e atualizar uma cotação de venda. 
 
 
 ## <a name="create-a-sales-quotation"></a>Criar uma cotação de venda
-1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Cotações de venda > Todas as cotações**.
+1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Cotações de venda > Todas as cotações**.
 2. Clique em **Novo**.
 3. No campo **Tipo de conta**, selecione 'Cliente potencial'.
 4. No campo **Cliente potencial**, insira ou selecione um valor.
@@ -52,7 +55,7 @@ Este procedimento demonstrativos como criar e atualizar uma cotação de venda. 
 20. Clique em **OK**. O relatório pode levar um minuto para ser gerado. Não feche a página até que isso ocorra.
 
 ## <a name="update-a-sales-quotation"></a>Atualizar uma cotação de venda
-1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Cotações de venda > Todas as cotações**.
+1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Cotações de venda > Todas as cotações**.
 2. No **Painel de Ação**, clique em **Acompanhamento**.
 3. Clique em **Converter em cliente**.
 4. No campo **Conta de cliente**, digite um valor.
@@ -67,6 +70,3 @@ Este procedimento demonstrativos como criar e atualizar uma cotação de venda. 
 13. Clique em **Ordens de venda**.
 14. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

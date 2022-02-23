@@ -1,49 +1,51 @@
 ---
 title: Instalar, configurar e atualizar o portal do cliente
 description: Este tópico oferece detalhes de licenciamento e instruções de configuração para o portal do cliente.
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060603"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529521"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Instalar, configurar e atualizar o portal do cliente
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="licensing-requirements"></a>Requisitos de licenciamento
 
 Para implementar o portal do cliente, você deve ter as seguintes licenças:
 
-- Portais do **Power Apps** – essa licença é necessária para hospedar o portal do cliente. Os portais são licenciados com base no uso. Para obter mais informações, consulte os [requisitos de licenciamento de portais do Power Apps](/power-platform/admin/powerapps-flow-licensing-faq#portals).
-- **Gravação dupla** – você deve ter as licenças necessárias para habilitar a gravação dupla para tabelas do Supply Chain Management. Para obter mais informações, consulte os [requisitos do sistema para gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
+- Portais do **Power Apps** – essa licença é necessária para hospedar o portal do cliente. Os portais são licenciados com base no uso. Para obter mais informações, consulte os [requisitos de licenciamento de portais do Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **Gravação dupla** – você deve ter as licenças necessárias para habilitar a gravação dupla para entidades do Supply Chain Management. Para obter mais informações, consulte os [requisitos do sistema para gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Dependências de gravação dupla e de portais do Power Apps
 
 O portal do cliente depende de portais do Power Apps e da gravação dupla, conforme mostrado na ilustração a seguir.
 
-![Dependências do portal do cliente.](media/customer-portal-elements.png "Dependências do portal do cliente")
+![Dependências do portal do cliente](media/customer-portal-elements.png "Dependências do portal do cliente")
 
-Diferente de outros recursos do Supply Chain Management, o modelo de portal do cliente reside em portais do Power Apps. Portanto, o portal do cliente é limitado pela funcionalidade e recursos fornecidos pelos portais do Power Apps e pelas tabelas em gravação dupla.
+Diferente de outros recursos do Supply Chain Management, o modelo de portal do cliente reside em portais do Power Apps. Portanto, o portal do cliente é limitado pela funcionalidade e recursos fornecidos pelos portais do Power Apps e pelas entidades em gravação dupla.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Configuração necessária para habilitar o portal do cliente
 
-Após verificar que tem as licenças necessárias, você pode configurar a gravação dupla, conforme descrito nas [instruções de sincronização inicial de gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
+Após verificar que tem as licenças necessárias, você pode configurar a gravação dupla, conforme descrito nas [instruções de sincronização inicial de gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
 
-Certifique-se de habilitar os seguintes mapeamentos de tabela em gravação dupla:
+Certifique-se de habilitar os seguintes mapeamentos de entidade em gravação dupla:
 
 - Cabeçalho de ordem de venda
 - Detalhes de ordem de venda
@@ -57,7 +59,7 @@ Após a conclusão dessa configuração, você poderá provisionar o modelo de p
 
 Antes de começar, verifique se você já concluiu a [configuração necessária](#required-setup). Em seguida, siga estas etapas para provisionar o portal do cliente.
 
-1. Acesse [make.powerapps.com](https://make.powerapps.com/).
+1. Vá para [make.powerapps.com](https://make.powerapps.com/).
 2. Verifique se você está usando o ambiente no qual ativou a gravação dupla.
 3. Na guia **Criar**, role para baixo até a seção **Iniciar do modelo** e selecione o modelo denominado **Portal do Cliente**.
 4. Siga as instruções na tela.
@@ -75,15 +77,12 @@ Mais funcionalidades poderão ser adicionadas ao portal do cliente posteriorment
 
 Para saber como você pode configurar e personalizar o portal do cliente, comece analisando a seguinte documentação para as tecnologias subjacentes:
 
-- [Documentação de portais do Power Apps](/powerapps/maker/portals/overview)
+- [Documentação de portais do Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
 - [Documentação da gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-Para gerenciar com eficiência seus portais, você deve compreender os portais do Power Apps e o ciclo de vida do Microsoft Dataverse. Para obter mais informações, consulte os seguintes recursos:
+Para gerenciar com eficiência seus portais, você deve compreender os portais do Power Apps e o ciclo de vida do Common Data Service. Para obter mais informações, consulte os seguintes recursos:
 
-- [Sobre o ciclo de vida do portal](/powerapps/maker/portals/admin/portal-lifecycle)
-- [Atualizar um portal](/powerapps/maker/portals/admin/upgrade-portal)
-- [Migrar configuração do portal](/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Sobre o ciclo de vida do portal](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
+- [Atualizar um portal](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
+- [Migrar configuração do portal](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gerenciamento do ciclo de vida da solução: Dynamics 365 para aplicativos do Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

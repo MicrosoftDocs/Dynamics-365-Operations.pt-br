@@ -2,9 +2,11 @@
 title: Criar uma proposta de depreciação
 description: Este tópico descreve como as propostas de depreciação em lote funcionam e explica como propor a depreciação para ativos fixos.
 author: abruer
+manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6cf285e8764af8c6525fb3f9cbec7306917e57e832777588e8c2c1d4aeed818
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b3d62e982d26afbec7ac04dd80592a73f4a3286f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719237"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968894"
 ---
 # <a name="create-a-depreciation-proposal"></a>Criar uma proposta de depreciação
 
@@ -28,7 +30,7 @@ Este tópico descreve como as propostas de depreciação em lote funcionam e exp
 
 
 ## <a name="create-a-depreciation-proposal"></a>Criar uma proposta de depreciação
-1. No Painel de Navegação, Acesse **Módulos > Ativos fixos > Entradas de diário > Criar proposta de depreciação**.
+1. No Painel de Navegação, vá para **Módulos > Ativos fixos > Entradas de diário > Criar proposta de depreciação**.
 2. No campo **Nome do diário**, selecione uma opção no menu suspenso.
 3. No campo **Data final**, insira uma data.
 
@@ -40,11 +42,8 @@ Este tópico descreve como as propostas de depreciação em lote funcionam e exp
 4. Selecione **Criar diário**.
 
 ## <a name="review-depreciation-entries"></a>Entradas de depreciação de revisão
-1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Entradas de diário > Diário de ativos fixos**.
+1. No Painel de navegação, vá para **Módulos > Ativos fixos > Entradas de diário > Diário de ativos fixos**.
 2. Na lista, localize e selecione o registro desejado.
 3. Selecione **Linhas**.
 4. Selecione **Lançar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

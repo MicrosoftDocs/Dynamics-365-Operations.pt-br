@@ -1,10 +1,12 @@
 ---
-title: Recursos removidos ou preteridos em versões anteriores
-description: Este tópico descreve os recursos que foram removidos ou que foram planejados para remoção do Dynamics 365 for Finance and Operations e versões anteriores.
+title: Recursos removidos ou obsoletos em versões anteriores
+description: Este tópico descreve os recursos que foram removidos ou que foram planejados para remoção do Dynamics 365 for Finance and Operations e versões anteriores desse produto.
 author: sericks007
-ms.date: 02/16/2021
+manager: AnnBe
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,21 +16,21 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063228"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679947"
 ---
-# <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou preteridos em versões anteriores
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
-> Este tópico não é mais atualizado. Para ver uma lista atual de recursos que foram removidos ou preteridos de aplicativos de Finanças e Operações, pesquise o conteúdo **"Recursos removidos ou preteridos"** relacionado ao aplicativo que você está usando.
+> Este tópico não é mais atualizado. Para ver uma lista atual de recursos que foram removidos ou descontinuados dos aplicativos do Finance and Operations, pesquise o conteúdo **"Recursos removidos ou obsoletos"** relacionado ao aplicativo que você está usando.
 
 Este tópico descreve os recursos que foram removidos ou descontinuados do Dynamics 365 for Finance and Operations e versões anteriores desse produto.
 
@@ -37,7 +39,7 @@ Este tópico descreve os recursos que foram removidos ou descontinuados do Dynam
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos em aplicativos de Finanças e Operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de Finanças e Operações.
+Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 com atualização de plataforma 31
 
@@ -50,7 +52,7 @@ Informações detalhadas sobre objetos em aplicativos de Finanças e Operações
 | **Opção de implantação**              | Todas |
 | **Status**                         | Substituído: até 1º de dezembro de 2020, não planejamos mais oferecer suporte à configuração de tipos de comprovantes chineses sem a seleção de Grupos de contas. Obtenha mais detalhes sobre o novo design do recurso em Novidades no 10.0.7 |
 
-## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 com atualização de plataforma 30
+## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 com Platform update 30
 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
@@ -84,7 +86,7 @@ Informações detalhadas sobre objetos em aplicativos de Finanças e Operações
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: até 1 de outubro de 2020, planejamos não dar mais suporte ao método **setUtcString()**. Os desenvolvedores devem usar o método **setUtcDateTime()** em seu lugar. |
 
-### <a name="blocklist-report-it--feature-reference-it-00001"></a>Relatório da lista de bloqueios (TI) – Referência de recursos IT-00001
+### <a name="blacklist-report-it--feature-reference-it-00001"></a>Relatório da lista de bloqueios (TI) – Referência de recursos IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -92,7 +94,7 @@ Informações detalhadas sobre objetos em aplicativos de Finanças e Operações
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Localização em italiano |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: até 1º de outubro de 2020, nós planejamos não oferecer mais suporte a este relatório. |
+| **Status**                         | Preterido: até 1 de outubro de 2020, planejamos não dar mais suporte a **Relatório da lista de bloqueios (TI) – Referência de recursos IT-00001**. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Relatório de imposto doméstico – Referência de recursos IT-00003
 
@@ -104,41 +106,8 @@ Informações detalhadas sobre objetos em aplicativos de Finanças e Operações
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: até 1 de outubro de 2020, planejamos não dar mais suporte a **Relatório de imposto doméstico – Referência de recursos IT-00003**. |
 
-## <a name="october-2019-deprecation-announcement"></a>Anúncio de depreciação de outubro de 2019
 
-### <a name="flowchart-diagrams-in-business-process-modeler"></a>Diagramas do fluxograma no modelador de processo de negócios
-
-<table>
-<tbody>
-<tr>
-<td><strong>Motivo para a reprovação/remoção</strong></td>
-<td>Estamos preterindo o componente de diagramas de fluxograma no BPM (Business Process Modeler), porque o projeto herdado causou baixo uso.</td>
-</tr>
-<tr>
-<td><strong>Substituída por outro recurso?</strong></td>
-<td>Não</td>
-</tr>
-<tr>
-<td><strong>Áreas afetadas</strong></td>
-<td>Modelador de processo de negócios</td>
-</tr>
-<tr>
-<td><strong>Status</strong></td>
-<td>Preterido: o componente de diagramas de fluxograma no BPM deve ser removido em 2020. A seguinte funcionalidade estará indisponível:
-<ul>
-<li>Todos os fluxogramas serão somente leitura e não estarão disponíveis para edição. As propriedades de forma associadas a atividades de fluxograma também não estarão disponíveis. Esses fluxogramas incluem os fluxogramas padrão gerados automaticamente e personalizados que são modificados com base nesses fluxogramas padrão.</li>
-<li>As etapas do processo serão somente leitura e não estarão disponíveis para edição.</li>     
-<li>O recurso análise de lacuna/ajuste herdado não estará disponível. Portanto, nenhuma lista de lacunas será criada automaticamente ou estará disponível para exportação.
-<p><strong>Observação:</strong> este recurso foi substituído anteriormente e substituído pelas integrações do Microsoft Azure DevOps.</p>
-</li>
-<li>O histórico da versão do fluxograma não estará disponível.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 com atualização de plataforma 29
+## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 com Platform update 29
 
 ### <a name="us-payroll-tax-updates"></a>Atualizações de impostos de Folha de pagamento dos EUA
 
@@ -163,7 +132,7 @@ Informações detalhadas sobre objetos em aplicativos de Finanças e Operações
 | **Opção de implantação**              | Todas  |
 | **Status**                         | Preterido: o período determinado para a remoção da funcionalidade é dezembro de 2020. |
 
-## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 com atualização de plataforma 28
+## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 com Platform update 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>França: exportação de dados de contabilidade de FEC em XML
 
@@ -180,21 +149,21 @@ Informações detalhadas sobre objetos em aplicativos de Finanças e Operações
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Alinhamento de cabeçalho com outros produtos do Dynamics e Office. Para obter mais detalhes, consulte [Barra de navegação atualizada que se alinha com o cabeçalho do Office](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Motivo para a reprovação/remoção** | Alinhamento de cabeçalho com outros produtos do Dynamics e Office. Para obter mais detalhes, consulte [Barra de navegação atualizada que se alinha com o cabeçalho do Office](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Substituída por outro recurso?**   | A partir da atualização 24 da plataforma, uma barra de navegação reestilizada que apresenta a pesquisa foi introduzida. |
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: a partir de abril de 2020, a barra de navegação herdada não estará mais disponível. Até esse ponto, os clientes podem reverter para a barra de navegação legada por meio das opções **Opções de desempenho do cliente**. |
 
 
-## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 com atualização de plataforma 26
+## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 com Platform update 26
 
 
 ### <a name="legacy-default-action-behavior"></a>Comportamento de ação padrão herdada
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | O comportamento herdado de ações padrão nas grades faz com que uma coluna inesperada tenha o link de ação padrão depois que as colunas da grande forem reordenadas por meio de personalização. O novo recurso de ação de aderência padrão corrige isso. Para obter mais detalhes, consulte [Ações de aderência padrão em grades](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Motivo para a reprovação/remoção** | O comportamento herdado de ações padrão nas grades faz com que uma coluna inesperada tenha o link de ação padrão depois que as colunas da grande forem reordenadas por meio de personalização. O novo recurso de ação de aderência padrão corrige isso. Para obter mais detalhes, consulte [Ações de aderência padrão em grades](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Substituída por outro recurso?**   | A partir da Platform update 21, foi introduzido um recurso para "ações de aderência padrão". Esse recurso pode ser habilitado na página **Opções de desempenho do cliente**. |
 | **Áreas afetadas do produto**         | Grades no cliente Web |
 | **Opção de implantação**              | Todas |
@@ -205,7 +174,7 @@ Informações detalhadas sobre objetos em aplicativos de Finanças e Operações
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A experiência de filtragem “é um de” foi remodelada na Platform update 22, sendo que o plano é que esta seja a única experiência de filtragem "é um de". |
-| **Substituída por outro recurso?**   | A partir da Platform update 22, foi disponibilizada uma experiência de filtragem "é um de" aprimorada na página **Opções de desempenho do cliente**. Para obter mais informações, consulte [Experiência de filtragem "é um de" otimizada](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Substituída por outro recurso?**   | A partir da Platform update 22, foi disponibilizada uma experiência de filtragem "é um de" aprimorada na página **Opções de desempenho do cliente**. Para obter mais informações, consulte [Experiência de filtragem "é um de" otimizada](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: a partir de abril de 2020, a experiência aprimorada "é um de" será o comportamento padrão, sem um mecanismo para reverter ao comportamento herdado. |
@@ -231,7 +200,7 @@ Suporte à criação de ordens de venda baseadas no projeto em que o contrato de
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: o período determinado para a remoção da funcionalidade é abril de 2020. |
 
-## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 com atualização de plataforma 25
+## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 com Platform update 25
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>APIs preteridas e alterações significativas possíveis
 
@@ -256,19 +225,19 @@ Suporte à criação de ordens de venda baseadas no projeto em que o contrato de
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: o aviso se tornará um erro de compilação na Platform update 26. |
 
-## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 com atualização de plataforma 24
+## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 com Platform update 24
 
 ### <a name="renaming-released-products"></a>Renomeação de produtos liberados 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Quando você usa a função **Renomear chave primária** para alterar a ItemId de um produto lançado, apenas as referências diretas à chave estrangeira são atualizadas. Quaisquer outras referências ao produto lançado, como ordens de produção, manterão a antiga ItemId. Como resultado, pode haver dados inconsistentes que por fim bloquearão os processos de negócios. |
 | **Substituída por outro recurso?**   | Nº |
-| **Áreas afetadas do produto**         | Gerenciamento de informações sobre produtos |
+| **Áreas afetadas do produto**         | Gerenciamento de informações do produto |
 | **Opção de implantação**              | Todas  |
 | **Status**                         | Removido a partir do Finance and Operations 10.0.0 com atualização de plataforma 24.|
 
 
-## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 com atualização de plataforma 23
+## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 com Platform update 23
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>Controle ReportViewer do SQL Server Reporting Services
 Os clientes podem usar a ação **Exportar** fornecida pelo controle ReportViewer do SQL Server Reporting Services (SSRS) para baixar documentos produzidos por aplicativos do Finance and Operations. Essa apresentação baseada em HTML do relatório oferece aos usuários uma visualização não paginada do documento.
@@ -302,12 +271,12 @@ Os principais indicadores de desempenho (KPIs) incorporados podem ser modelados 
 | **Substituída por outro recurso?**   | Esse aviso será substituído por um erro de compilação no futuro. |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: o aviso é um erro de tempo de compilação em atualizações de plataforma para a versão 10.0.11 de aplicativos de Finanças e Operações. |
+| **Status**                         | Preterido : O aviso é um erro de tempo de compilação nas atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations. |
 
 #### <a name="complete-list"></a>Lista completa
 Para acessar a lista completa das APIs que estão sendo substituídas, consulte [Substituição de métodos e elementos de metadados](deprecation-deletion-apis.md).
 
-## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 com atualização de plataforma 20
+## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 com Platform update 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Regras de transferências de lote para entradas de conta no diário-razão auxiliar
 O modo de transferência Síncrono está ficando obsoleto nos parâmetros da Contabilidade.  Esse modo é substituído por lote Assíncrono e programado somente, o que já existe como opções para transferência. Para obter informações adicionais, consulte o blog [Parâmetros da contabilidade — regras de transferência em lote](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
@@ -359,24 +328,14 @@ Recurso para criar modelos para novos registros de impostos de lucro. Este recur
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | O recurso não é compatível com o modelo de extensibilidade do Finance and Operations. |
+| **Motivo para a reprovação/remoção** | O recurso não é compatível com o modelo da extensibilidade do Finance and Operations. |
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Imposto |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Removido a partir do Finance and Operations 8.1 com atualização de plataforma 20. |
 
-### <a name="payroll-and-human-resources-for-russia"></a>Folha de pagamento e Recursos Humanos para a Rússia
-O módulo específico ao país da Rússia para gerenciar as informações de administração dos funcionários, os detalhes da folha de ponto para funcionários, contabilidade de folha de pagamento e criar declarações de pagamento. 
 
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | A folha de pagamento não é incluída no foco estratégico global do portfólio do Dynamics 365. Os parceiros e ISVs estão na melhor posição para oferecer a funcionalidade de folha de pagamento que esteja em conformidade com regulamentos locais e atualizações de impostos.|
-| **Substituída por outro recurso?**   | Não|
-| **Áreas afetadas do produto**         | Gerenciamento da Folha de Pagamento e Recursos Humanos Russos |
-| **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: prazo alvo para a funcionalidade ser removida é um uma das futuras atualizações da versão 10.0. |
-
-## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 com atualização de plataforma 15
+## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 com Platform update 15
 Nenhum recurso foi removido ou substituído com esta versão. A atualização 15 da plataforma é cumulativa e contém recursos novos ou alterados das atualizações 13, 14 e 15 da plataforma.
 
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise Edition 7.3 com atualização de plataforma 12
@@ -401,7 +360,7 @@ A possibilidade de introduzir funções personalizadas a serem usadas no constru
 | **Substituída por outro recurso?**   | Nenhum. Sempre que uma nova função interna for necessária, uma nova solicitação de extensão deverá ser encaminhada à equipe da estrutura de ER.<br><br>Como um trabalho temporário, enquanto a função solicitada está em desenvolvimento pela equipe do ER, a lógica exigida pode ser programada como método de classe de um aplicativo personalizado. Esse método pode ser acessado em uma expressão de ER como uma propriedade da fonte de dados adicional de ER do tipo **Aplicativo\classe** que se refere àquela classe de aplicativo personalizado.  |
 | **Áreas afetadas do produto**         | Estrutura de relatório eletrônico                                                      |
 | **Opção de implantação**              | Todas                                                                                      |
-| **Status**                         | Removido a partir do Finance and Operations, Enterprise Edition 7.3    |
+| **Status**                         | Removido a partir do Finance and Operations, Enterprise Edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Relatórios de classificação por vencimento de estoque por grupo de itens e de estoque por dimensão de estoque
 
@@ -416,12 +375,12 @@ Esses dois relatórios não têm mais suporte no Finance and Operations. Em vez 
 | **Status**                       | Preterido: Os itens de menu de dois relatórios foram removidos na versão 7.3. Porém, o código dos relatórios permanece no produto. O plano é remover o código em uma versão futura. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Pacotes de conteúdo do Power BI disponíveis no AppSource
-Os pacotes de conteúdo **Gerenciamento de custos**, **Desempenho financeiro** e **Desempenho do canal de varejo**, disponíveis no site do [Microsoft AppSource](https://appsource.microsoft.com), foram preteridos em consequência de atualizações do produto no Microsoft Power BI. Os formulários de administração de sistema usados para implantar esses pacotes de conteúdo no PowerBI.com também estão sendo preteridos no Finance and Operations.
+Os pacotes de conteúdo de **Gerenciamento de custos**, **Desempenho financeiro** e **Retail Channel Performance**, disponíveis no site do [Microsoft AppSource](https://appsource.microsoft.com), foram substituídos em consequência de atualizações do produto no Microsoft Power BI. Os formulários de administração de sistema usados para implantar esses pacotes de conteúdo no PowerBI.com também estão sendo preteridos no Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Atualizações do produto no Microsoft Power BI. |
-| **Substituída por outro recurso?**   | Os pacotes de conteúdo de **Gerenciamento de custos**, **Desempenho financeiro** e **Desempenho do canal de varejo**, disponíveis no site do [AppSource](https://appsource.microsoft.com), estão sendo substituídos por aplicativos analíticos que permitem integrações de solução no nível de banco de dados. Para obter mais informações sobre aplicativos analíticos, consulte [Power BI incorporado em espaços de trabalho](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Substituída por outro recurso?**   | Os pacotes de conteúdo de **Gerenciamento de custos**, **Desempenho financeiro** e **Retail Channel Performance**, disponíveis no site do [AppSource](https://appsource.microsoft.com), estão sendo substituídos por aplicativos analíticos que permitem integrações de solução no nível de banco de dados. Para obter mais informações sobre aplicativos analíticos, consulte [Power BI incorporado em espaços de trabalho](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Áreas afetadas do produto**         | Gerenciamento de custo, Finanças e Varejo                                                                                               |
 | **Opção de implantação**              | Somente nuvem (não há mais suporte para a integração com o PowerBI.com nas implantações locais).                                                                                                            |
 | **Status**                         | Preterido: O período determinado de destino para a remoção de funcionalidade é T2 de 2018.    |
@@ -514,7 +473,7 @@ A conversão de moeda para contabilidade e moedas de relatórios foi introduzida
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portal de dispositivos móveis do depósito
 
-O portal de dispositivos móveis de depósito (WMDP) é um componente autônomo que foi criado para auto-implantação local. Esses dois relatórios não têm mais suporte no Finance and Operations. Um aplicativo nativo que melhora a experiência do usuário substituiu a funcionalidade do WMDP.
+O portal de dispositivos móveis de depósito (WMDP) é um componente autônomo que foi criado para auto-implantação local. Não há mais suporte para este componente no Finance and Operations. Um aplicativo nativo que melhora a experiência do usuário substituiu a funcionalidade do WMDP.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -960,7 +919,7 @@ Este aplicativo móvel permite que os usuários revisem as principais métricas 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Esta funcionalidade foi substituída por outro recurso.   |
-| **Substituída por outro recurso?**   | O pacote de conteúdo Monitorar desempenho financeiro para Microsoft Power BI incluirá as principais métricas financeiras que estavam disponíveis anteriormente no Business Analyzer. |
+| **Substituída por outro recurso?**   | O pacote de conteúdo de desempenho financeiro do Monitor para Microsoft Power BI incluirá as principais métricas financeiras que estavam disponíveis anteriormente no Business Analyzer. |
 | **Áreas afetadas do produto**         | Contabilidade      |
 | **Status**                         | Preterido: O uso do Business Analyzer foi preterido.    |
 
@@ -1011,7 +970,7 @@ Esta ferramenta era usada para integrar dados de chave do Microsoft Dynamics CRM
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Esta funcionalidade foi substituída por outro recurso. |
-| **Substituída por outro recurso?**   | Dataverse                                      |
+| **Substituída por outro recurso?**   | Common Data Service                                      |
 | **Áreas afetadas do produto**         | Conector do Dynamics                         |
 | **Status**                         | Removido a partir do Dynamics AX 7.0.                           |
 
@@ -1376,7 +1335,7 @@ Os serviços de sites permitem criar os sites que estendem seus processos comerc
 
 ### <a name="virtual-company-accounts"></a>Contas virtuais da empresa
 
-Não há mais suporte para o recurso de empresas virtuais no Dynamics AX. O recurso virtual das empresas habilitou os usuários a configurar as tabelas a serem compartilhadas por um conjunto de empresas. Você pode encontrar uma descrição do recurso aqui: [Contas da empresa e contas virtuais da empresa](../../fin-ops/get-started/ax4-content-retired.md). O recurso funciona através do agrupamento de tabelas em coleções que são atribuídas a empresas virtuais, que são grupos de empresas "reais" existentes. As consultas são criadas de forma que todas as empresas na empresa virtual possam acessar os dados nas tabelas das cobranças de tabelas associadas.
+Não há mais suporte para o recurso de empresas virtuais no Dynamics AX. O recurso virtual das empresas habilitou os usuários a configurar as tabelas a serem compartilhadas por um conjunto de empresas. Você pode encontrar uma descrição do recurso aqui: [Contas da empresa e contas virtuais da empresa](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). O recurso funciona através do agrupamento de tabelas em coleções que são atribuídas a empresas virtuais, que são grupos de empresas "reais" existentes. As consultas são criadas de forma que todas as empresas na empresa virtual possam acessar os dados nas tabelas das cobranças de tabelas associadas.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1414,6 +1373,3 @@ O aplicativo para tablet com Windows 8 fornece a funcionalidade da entrada e a a
 |     <strong>Áreas afetadas do produto</strong>     |                                              Contabilidade                                              |
 |             <strong>Status</strong>             |                                      Removido a partir do Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

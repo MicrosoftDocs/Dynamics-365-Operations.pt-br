@@ -2,13 +2,16 @@
 title: Gerenciamento de horário e de presença no Retail
 description: Este tópico descreve os cenários com suporte para o Gerenciamento de horário e presença no in Dynamics 365 Commerce.
 author: aamirallaqaband
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cca5e3232450e75f931a621b278c134129fc745c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762659"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410307"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Gerenciamento de horário e de presença no Retail
 
@@ -38,9 +41,9 @@ Este tópico descreve os cenários com suporte para o Gerenciamento de horário 
 
 ### <a name="plan-worker-schedules"></a>Planejar agendas do trabalhador
 
-- Aplique perfis usando o planejador de trabalho. Para obter mais informações, consulte [Aplicar perfis usando o planejador de trabalho](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
+- Aplique perfis usando o planejador de trabalho. Para obter mais informações, consulte [Aplicar perfis usando o planejador de trabalho](https://technet.microsoft.com/library/aa551234.aspx).
 
-Para obter informações sobre as etapas de configuração, consulte [Configurando tempo e presença](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
+Para obter informações sobre as etapas de configuração, consulte [Configurando tempo e presença](https://technet.microsoft.com/library/aa496971.aspx).
 
 ### <a name="commerce-specific-configuration"></a>Configuração específica do Commerce
 
@@ -97,7 +100,7 @@ Para obter informações sobre as etapas de configuração, consulte [Configuran
         </tbody>
         </table>
 
-        [![Estados do relógio de ponto.](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![Estados do relógio de ponto](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - Exiba a mensagem de confirmação e valide que o tempo da atividade atual está correto.
 - Livro de registros:
@@ -135,7 +138,4 @@ Um usuário do Commerce segue o fluxo de trabalho para calcular, aprovar e trans
 - Saída em massa
 - Registrar ausência
 
-Para obter mais informações sobre como processar registros de tempo e presença, consulte [Processar os registros de tempo e presença](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Para obter mais informações sobre como processar registros de tempo e presença, consulte [Processar os registros de tempo e presença](https://technet.microsoft.com/library/aa573180.aspx).

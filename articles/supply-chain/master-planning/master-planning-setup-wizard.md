@@ -1,14 +1,17 @@
 ---
-title: Assistente de configuração do planejamento mestre (contém vídeo)
-description: Este tópico descreve como executar o assistente de configuração do planejamento mestre para configurar o planejamento mestre.
-author: ChristianRytt
+title: Assistente de configuração do planejamento mestre
+description: Este tópico descreve várias estratégias e parâmetros importantes que são usados para configurar o planejamento mestre.
+author: t-benebo
+manager: tfehr
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937624"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422313"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistente de configuração do planejamento mestre
 
@@ -45,13 +48,13 @@ A primeira página do assistente solicita os requisitos específicos da empresa.
 
 Se o número de threads calculado exceder 75% do número de threads disponíveis, ele será limitado a 75% do número de threads disponíveis para cada cliente. (O número de threads disponíveis será determinado para cada cliente).
 
-Para obter mais informações, consulte [Número de threads](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Para obter mais informações, consulte [Número de threads](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Tamanho do pacote
 
 O tamanho de pacote será definido como **1**. O valor é normalmente o aconselhável, já que ele ajuda a melhorar o desempenho do planejamento mestre.
 
-Para obter mais informações, consulte [Número de tarefas no pacote de tarefas auxiliares](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Para obter mais informações, consulte [Número de tarefas no pacote de tarefas auxiliares](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Como confirmar o tamanho do pacote
 
@@ -64,7 +67,7 @@ Cálculo do pacote = (Número de ordens planejadas × (Limite de tempo de confir
 
 O tamanho do cache será definido como **Máximo**. O valor é normalmente o aconselhável, já que ele ajuda a melhorar o desempenho do planejamento mestre.
 
-Para obter mais informações, consulte [Alocar tempo para trabalhos em um pacote de trabalho](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Para obter mais informações, consulte [Alocar tempo para trabalhos em um pacote de trabalho](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Configuração de fabricação
 
@@ -88,7 +91,7 @@ As perguntas restantes nessa página e as respostas acompanham o mesmo esquema:
 - **Sim, como definido neste plano mestre** – a opção **Plano de previsão (limite de tempo)** será definida como **Sim**. O número de dias inserido será usado e substituirá os valores definidos nos grupos de cobertura.
 - **Sim, como definido no grupo de cobertura** – a opção **Plano de previsão (limite de tempo)** será definida como **Não**.
 
-Para obter mais informações, consulte [Planejamento de trabalho](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Para obter mais informações, consulte [Planejamento de trabalho](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Opções de agendamento
 
@@ -99,7 +102,7 @@ Sua resposta para a primeira a pergunta nessa página ("Você precisa agendar op
 - **Sim** – o planejamento de trabalho será usado.
 - **Não** – o planejamento de operações será usado.
 
-Para obter mais informações, consulte [Planejamento de operações](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) e [Planejamento de trabalho](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Para obter mais informações, consulte [Planejamento de operações](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) e [Planejamento de trabalho](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Atualizações de demanda e fornecimento
 
@@ -206,6 +209,3 @@ No assistente, os valores a seguir são inseridos para a Contoso Retailer:
     - **Resposta:** "Sim, como definido no plano mestre." **1 dia** é inserido.
 
     A Contoso usa as requisições aprovadas de suas lojas para criar ordens de compra planejadas para reabastecer essas lojas. Como o planejamento mestre é executado todos os dias, as requisições do último dia serão incluídas no planejamento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

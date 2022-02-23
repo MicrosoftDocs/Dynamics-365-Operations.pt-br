@@ -157,6 +157,3 @@ Siga estas etapas para criar um trabalho.
 
 13. Para ativar o trabalho, selecione **Ativar**.
 14. Para lançar o trabalho, vá para **Lançamentos** e selecione **Lançar Agora** site do Talent Careers ou no LinkedIn.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

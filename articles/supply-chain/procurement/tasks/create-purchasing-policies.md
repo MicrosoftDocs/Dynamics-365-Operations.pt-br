@@ -1,24 +1,26 @@
 ---
 title: Criar políticas de compras
 description: Este tópico mostra como criar políticas de compra para alinhar com seus processos de negócios de compra.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPurposeRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dde2df0f04ea8ed1b200ae731df7143cc8de3aae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 86ffdff4cdb256fdae39de6228555da5fb88c707
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579487"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017025"
 ---
 # <a name="create-purchasing-policies"></a>Criar políticas de compras
 
@@ -28,11 +30,11 @@ Este tópico mostra como criar políticas de compra para alinhar com seus proces
 
 
 ## <a name="set-up-policy-parameters"></a>Configurar parâmetros de política
-1. No painel de navegação, Acesse **Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
+1. No painel de navegação, vá para **Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
 2. No Painel de Ações, selecione **Parâmetros**.
 - As regras de precedência da política aplicam-se aos níveis diferentes em sua organização. As unidades de organização em que são mostrados dependem de sua hierarquia de organização, e em que níveis na hierarquia foram atribuídos a finalidade do controle interno da obtenção. Por exemplo, sua organização pode ter entidades legais, centros de custo, regiões e departamentos, mas pode ser que somente alguma destes tenha uma finalidade da hierarquia do controle interno da obtenção. Como padrão, a organização do tipo empresa está disponível.  
 3. Selecione a guia **Parâmetros do tipo de regra de política**.
-4. Na árvore, Acesse **Política de compras > Regra de controle de requisição de compra**.
+4. Na árvore, vá para **Política de compras > Regra de controle de requisição de compra**.
 - Você define a ordem de precedência da resolução da política no nível da política. No entanto, para alguns tipos de política, você pode substituir a ordem de precedência para tipos de regras de política individuais. Por exemplo, você definiu precedência de políticas de compras nesta ordem: centro de custo, departamento, empresa. Para a regra de política de catálogo, você deseja que a ordem de precedência esteja nesta ordem: departamento, centro de custo, empresa. Você pode alterar a ordem de precedência para a regra de política de catálogo. Quando um trabalhador cria uma requisição, o catálogo que é indicado está determinado pelas políticas que são associadas com o departamento do trabalhador, então seu centro de custo, e então sua empresa.  
 - Se há mais de um nível de organização alistado, você pode usar as setas para cima/baixo para ajustar a ordem de precedência para a regra do controle da requisição da compra.  
 5. Feche a página.
@@ -54,6 +56,3 @@ Este tópico mostra como criar políticas de compra para alinhar com seus proces
 4. Selecione **Fechar**.
 - Agora você pode estabelecer outras regras da política para a política de compras. Note que um tipo da regra da política não pode ter as regras de sobreposição que são ativas ao mesmo tempo dentro de uma única política de obtenção.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Cálculo de custos indiretos
 description: Este tópico descreve processos comuns para calcular e alocar os custos gerais indiretos.
 author: AndersGirke
+manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
-ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "7551793"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440461"
 ---
 # <a name="overhead-calculation"></a>Cálculo de custos indiretos
 
@@ -29,7 +32,8 @@ ms.locfileid: "7551793"
 
 Este tópico descreve processos comuns para calcular e alocar os custos gerais indiretos.
 
-## <a name="term-definition"></a>Definição de termo
+<a name="term-definition"></a>Definição de termo
+---------------
 
 Os custos gerais indiretos são aqueles que foram incorridos para realizar um negócio, mas não podem ser diretamente atribuídos a qualquer atividade comercial, produto ou serviço específico. Os custos gerais indiretos fornecem suporte crítico para geração de atividades produtivas. Eis alguns exemplos de custos gerais:
 
@@ -48,7 +52,7 @@ O cálculo de custos gerais indiretos executa as políticas de contabilização 
 
 O cálculo de custos gerais indiretos é executado independentemente da versão. Portanto, você pode calcular a versão de orçamento antes da versão atual. O cálculo de custos gerais indiretos consiste em quatro etapas, conforme mostrado na ilustração. Em cada etapa, um cabeçalho de diário é criado com entradas de diário. Esse cabeçalho de diário mantém dados de entrada para cada etapa de cálculo. As políticas e regras são aplicadas a cada linha do diário e as entradas de custo são geradas como saídas. Portanto, você sempre terá rastreabilidade total. 
 
-[![Cálculo de custos indiretos.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Cálculo de custos gerais indiretos](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calcular e alocar os custos gerais indiretos de Eletricidade
 Na contabilidade financeira, alguns custos, como eletricidade, são registrados como um valor total. Portanto, a visão administrativa detalhada não é fornecida para a contabilização de custo. Na contabilização de custo, para fornecer a visão administrativa correta em todas as unidades organizacionais e níveis, os custos devem passar pelas unidades organizacionais. Este fluxo deve ser baseado em qualquer um registro exato do consumo ou de uma previsão justa. Na contabilidade, um custo de eletricidade pode ser lançado, conforme mostrado na tabela.
@@ -618,7 +622,7 @@ Para obter mais informações, consulte [Realizar cálculo de custos indiretos](
 
 A alocação é usada para alocar o saldo de um objeto de custo a outros objetos de custo pela aplicação de uma base de alocação. O Finance oferece suporte ao método de alocação recíproco. No método de alocação recíproco, os serviços mútuos que os objetos de custo auxiliar trocam são totalmente reconhecidos. O sistema determina automaticamente a ordem correta realizar as alocações. O saldo de um objeto de custo é alocado por uma base de alocação única. As alocações entre as dimensões de objetos de custo e os respectivos membros são suportadas. A ordem de alocação é controlada pela unidade de controle de custo. 
 
-[![Método recíproco.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Método recíproco](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Defina a alocação de custo
 
@@ -1328,18 +1332,86 @@ A tabela a seguir mostra o resultado quando os serviços de Embalagem são aplic
 ## <a name="conclusion"></a>Conclusão
 Na contabilidade financeira, um custo de 10,000.00 para a eletricidade é lançado para um ID fictício de centro de custos. Portanto, os contadores de custo saberão que esses custos devem ser alocados. Na contabilização de custo, os custos fluem nas unidades organizacionais e nos níveis, com base nas políticas e regras que são aplicadas. Cada custo foi associado a uma base de alocação que fornece a melhor apuração para a alocação de custos.
 
-Elemento de custo | Objeto de custo<br>CC099 | Objeto de custo<br>CC001 | Objeto de custo<br>CC002 | Objeto de custo<br>CC003 | Objeto de custo<br>CC004 | Objeto de custo<br>Proj. 1 | Objeto de custo<br>Proj. 2 | Objeto de custo<br>Prod. 1 | Objeto de custo<br>Prod. 2 | Total
----|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
-10001 Eletricidade | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10,00 | 7,770.57 | 2,189.43 | 10,000.00 |
-Não classificado | 0,00 |  |  |  |  |  |  |  |  |  |
-Custo fixo | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Custo variável | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+<table>
+<thead>
+<tr>
+<th colspan="2" rowspan="2">Elemento de custo</th>
+<th colspan="9">Objeto de custo</th>
+<th rowspan="2">Total</th>
+</tr>
+<tr>
+<th>CC099</th>
+<th>CC001</th>
+<th>CC002</th>
+<th>CC003</th>
+<th>CC004</th>
+<th>Proj. 1</th>
+<th>Proj. 2</th>
+<th>Prod. 1</th>
+<th>Prod. 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">10001 Eletricidade</td>
+<td style="text-align: right;"><strong>0,00</strong></td>
+<td style="text-align: right;"><strong>0,00</strong></td>
+<td style="text-align: right;"><strong>0,00</strong></td>
+<td style="text-align: right;"><strong>0,00</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>30.00</strong></td>
+<td style="text-align: right;"><strong>10.00</strong></td>
+<td style="text-align: right;"><strong>7,770.57</strong></td>
+<td style="text-align: right;"><strong>2,189.43</strong></td>
+<td style="text-align: right;"><strong>10,000.00</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: left;">Não classificado</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">Custo fixo</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">776.36</td>
+<td style="text-align: right;">223.64</td>
+<td style="text-align: right;"><strong>1,000.00</strong></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">Custo variável</td>
+<td style="text-align: right;">000</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">30,00</td>
+<td style="text-align: right;">10,00</td>
+<td style="text-align: right;">6,994.21</td>
+<td style="text-align: right;">1,965.79</td>
+<td style="text-align: right;"><strong>9,000.00</strong></td>
+</tr>
+</tbody>
+</table>
 
 > [!NOTE]
 > Esse tópico mostra como um elemento de custo principal, 10001 Eletricidade flui pelos objetos de custo. Portanto, esse custo geral indireto é alocado no nível mais baixo na organização. Em outras palavras, os objetos de custo no nível mais baixo assumem o custo. Se você exigir um fluxo visual de custo entre objetos de custo, é possível usar as regras de política de acúmulo de custos para visualizar o fluxo de custo. Para obter mais informações, consulte [Política de acúmulo de custo e cálculo de custos indiretos](cost-rollup.md).
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

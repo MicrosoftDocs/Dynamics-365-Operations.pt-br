@@ -2,9 +2,11 @@
 title: Atributos de impostos do Brasil
 description: Este tópico explica como configurar informações fiscais para endereços, entidades legais, clientes e fornecedores, e para os produtos que são liberados para uma entidade legal do Brasil. Essas informações são necessárias para o cálculo de imposto, e para as notas fiscais e outras instruções necessárias que você envia dos livros fiscais.
 author: sndray
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7ad390d146f20fed0ededf2abbe95ce2b03dcced397e849f2713dbe7bea3b2e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b56b643e131daafba2c051796fe6aa68333a7da8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752892"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964645"
 ---
 # <a name="tax-attributes-for-brazil"></a>Atributos de impostos do Brasil
 
@@ -28,7 +30,8 @@ ms.locfileid: "6752892"
 
 Este tópico explica como configurar informações fiscais para endereços, entidades legais, clientes e fornecedores, e para os produtos que são liberados para uma entidade legal do Brasil. Essas informações são necessárias para o cálculo de imposto, e para as notas fiscais e outras instruções necessárias que você envia dos livros fiscais.
 
-## <a name="tax-address-attributes"></a>Atributos de endereço para imposto
+<a name="tax-address-attributes"></a>Atributos de endereço para imposto
+----------------------
 
 Para qualquer entidade legal que tenha um endereço no Brasil, o código do IBGE (Instituto Brasileiro de Geografia e Estatística) deve estar configurado no estado e/ou cidade. O código do IBGE é usado para identificar a região na qual o endereço está localizado, para que os impostos corretos sejam considerados. As informações do código IBGE vem do IBGE, que é uma organização oficial que mapeia a geografia brasileira.
 
@@ -93,6 +96,3 @@ Os seguintes campos na página **Informações sobre produtos** são necessário
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Verificação de integridade para serviços e periféricos PDV
 description: Este tópico fornece uma visão geral da operação de verificação de integridade no ponto de venda (PDV).
-author: BrianShook
+author: rubendel
+manager: AnnBe
 ms.date: 03/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779863"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4410313"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Verificação de integridade para serviços e periféricos PDV
 
@@ -32,7 +35,7 @@ Este tópico descreve a operação de verificação de integridade no ponto de v
 
 Os armazenamentos de varejo podem ser ambientes complexos nos quais vários aplicativos e dispositivos são usados. À medida que as operações crescem, pode se tornar difícil garantir que as operações sejam sempre executadas suavemente, devido a dependências, por exemplo, periféricos que podem quebrar ou ser acidentalmente desconectados durante o dia. A solução de problemas relacionados a dispositivos e serviços pode ser cara para comerciantes maiores e igualmente frustrante para operações menores.
 
-As versões 10.0.10 e posteriores do Microsoft Dynamics 365 Commerce incluem uma operação de verificação de integridade que pode ajudar a evitar alguns desses custos e frustração. Esta operação fornece um método para testar dispositivos diretamente do PDV fora das operações normais. Portanto, ele pode ajudar os varejistas a detectar problemas antes que eles ocorram.
+As versões 10.0.10 do Microsoft Dynamics 365 Commerce e posteriores incluem uma operação de verificação de integridade que pode ajudar a evitar alguns desses custos e frustração. Esta operação fornece um método para testar dispositivos diretamente do PDV fora das operações normais. Portanto, ele pode ajudar os varejistas a detectar problemas antes que eles ocorram.
 
 ## <a name="key-terms"></a>Condições principais
 
@@ -80,6 +83,3 @@ As verificações de integridade personalizadas também podem ser criadas para t
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Disparadores e impressão do Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

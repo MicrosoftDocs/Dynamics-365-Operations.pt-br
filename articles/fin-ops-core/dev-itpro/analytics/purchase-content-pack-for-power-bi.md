@@ -1,10 +1,12 @@
 ---
 title: Conteúdo de análise de gastos em compras do Power BI
-description: Este tópico descreve o que está incluído no conteúdo do Power BI de análise de gastos da compra.
+description: Este tópico descreve o que está incluído no conteúdo do Power BI de análise de gastos da compra. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 author: FrankDahl
+manager: AnnBe
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a40d4f39a7119def9ed0393d4ced2be1f7e801a5c1c3f984b002e5224299915a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f556cf2e506c57e465c2a86485d2cdd4cf8b65e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716103"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680605"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Conteúdo de análise de gastos em compras do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo **Análise de gastos em compras** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
+Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI de **análise de gastos da compra**. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -152,6 +154,3 @@ As principais dimensões a seguir no conteúdo são usadas como filtros para cor
 | Datas                  | Datas, Compensação anual                                    |
 
 Por padrão, o conteúdo exibe dados do ano atual. Entretanto, poderá modificar o filtro de data na seção filtros de relatório. Você também pode alterar o filtro da empresa.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

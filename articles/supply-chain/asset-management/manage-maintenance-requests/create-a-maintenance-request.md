@@ -1,10 +1,12 @@
 ---
 title: Crie solicitações de manutenção
 description: Este tópico explica como criar uma solicitação de manutenção em Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b48a0504b79d2edf7815296312c7839052092e7d6773b7ebd5d38cbb59c9428
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714971"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019169"
 ---
 # <a name="create-maintenance-requests"></a>Crie solicitações de manutenção
 
@@ -30,7 +32,7 @@ ms.locfileid: "6714971"
 
 As solicitações de manutenção poderão ser usadas se os funcionários de manutenção ou os funcionários de produção descobrirem que o equipamento exige reparo, mas o reparo não puder ser feito imediatamente.
 
-**Exemplo:** enquanto um funcionário de manutenção está fazendo um reparo, eles descobrem que outro ativo no mesmo local deve ser atendido. Entretanto, a funcionária de manutenção não tem o tempo ou as peças sobressalentes necessárias para realizar o trabalho de reparo. Então, eles criam uma solicitação de manutenção no ativo e inserem uma breve descrição do problema.
+**Exemplo:** ao fazer um reparo, uma funcionária de manutenção descobre que outro ativo no mesmo local deve ser atendido. Entretanto, a funcionária de manutenção não tem o tempo ou as peças sobressalentes necessárias para realizar o trabalho de reparo. Assim, ela cria uma uma solicitação de manutenção no ativo e insere uma breve descrição do problema.
 
 A seção **Solicitações de manutenção de ativos** do painel **Informações relacionadas** no lado direito da página **Todos os ativos** ou **Ativos ativos** (**Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**) mostra solicitações de manutenção de ativos anexadas ao ativo selecionado.
 
@@ -52,7 +54,7 @@ A seção **Solicitações de manutenção de ativos** do painel **Informações
 11. No campo **Notas**, insira notas adicionais necessárias.
 12. Selecione **OK**.
 
-![Criar solicitação de manutenção.](media/03-manage-maintenance-requests.png)
+![Criar solicitação de manutenção](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Processamento subsequente de solicitações de manutenção
 
@@ -67,10 +69,7 @@ Na exibição de detalhes, é possível atualizar várias informações. Eis alg
 - Selecione um tipo de trabalho de manutenção e, se essas informações forem relevantes, uma grade de trabalho de manutenção relacionada e um comércio de trabalho.
 - Nos campos **Latitude** e **Longitude**, insira coordenadas geográficas. Todas as coordenadas adicionadas a uma solicitação de manutenção são transferidas automaticamente a uma ordem de serviço relacionada. 
 
-![Atualizar solicitação de manutenção.](media/04-manage-maintenance-requests.png)
+![Atualizar solicitação de manutenção](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Se você selecionar um ativo ao criar uma solicitação de manutenção, poderá adicionar uma falha no ativo. Quando a solicitação de manutenção for criada, você poderá adicionar mais falhas, conforme necessário. Para adicionar falhas, selecione **Falha de ativo** na página **Todas as solicitações de manutenção**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

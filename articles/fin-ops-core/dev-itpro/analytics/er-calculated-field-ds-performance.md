@@ -2,9 +2,11 @@
 title: Melhorar o desempenho de soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados
 description: Este tópico explica como você pode melhorar o desempenho das soluções de relatório eletrônico (ER) adicionando fontes de dados de CAMPO CALCULADO parametrizado.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753661"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681271"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Melhorar o desempenho de soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados
 
@@ -56,7 +58,7 @@ A primeira etapa é importar a solução ER de exemplo para gerar um relatório 
     2. Selecione **Procurar** e o arquivo apropriado para a configuração ER no formato XML.
     3. Selecione **OK**.
 
-![Configurações importadas na página Configurações.](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Configurações importadas na página Configurações](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>Revisar a solução ER de exemplo
 
@@ -76,7 +78,7 @@ A primeira etapa é importar a solução ER de exemplo para gerar um relatório 
 
     O mapeamento do modelo nesta configuração implementa o modelo de dados de base para qualquer formato de ER criado para esse modelo e executado no Finance. Portanto, o conteúdo da fonte de dados **Trans** é exposto para formatos de ER, como fontes de dados **modelo**.
 
-    ![Fonte de dados Trans na página Designer de mapeamento do modelo.](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Fonte de dados Trans na página Designer de mapeamento do modelo](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. Feche a página **Designer de mapeamento de modelo**.
 5. Feche a página **Modelo para mapeamento de fonte de dados**.
@@ -90,7 +92,7 @@ A primeira etapa é importar a solução ER de exemplo para gerar um relatório 
 
     Este formato ER foi projetado para gerar um relatório de transações de fornecedor no formato XML.
 
-    ![Formatar fontes de dados e associações configuradas de elementos de formato na página Designer de formato.](media/er-calculated-field-ds-performance-format.png)
+    ![Formatar fontes de dados e associações configuradas de elementos de formato na página Designer de formato](media/er-calculated-field-ds-performance-format.png)
 
 5. Feche a página **Designer de formato**.
 
@@ -103,11 +105,11 @@ Imagine que você tenha terminado de criar a primeira versão da solução de ER
 1. Selecione a empresa **DEMF**.
 2. Siga as etapas em [Ativar o rastreamento de desempenho ER](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) para gerar um rastreamento de desempenho enquanto um formato ER é executado.
 
-    ![Caixa de diálogo de parâmetros do usuário.](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Caixa de diálogo de parâmetros do usuário](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>Executar o formato de ER
 
-1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração, selecione **Formato de aperfeiçoamento de desempenho**.
 3. No Painel de Ação, selecione **Executar**.
 
@@ -124,7 +126,7 @@ Novas informações estão disponíveis para alguns itens da fonte de dados do m
 - O tempo real gasto ao obter dados usando a fonte de dados
 - O mesmo tempo expresso como uma porcentagem do tempo total gasto na execução do mapeamento do modelo inteiro
 
-![Detalhes do tempo de execução na página Designer de mapeamento de modelo.](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Detalhes do tempo de execução na página Designer de mapeamento de modelo](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 A grade **Estatísticas de desempenho** mostra que a fonte de dados **Trans** chama a tabela VendTrans uma vez. O valor **\[265\]\[Q:265\]** da fonte de dados **Trans** indica que 265 transações do fornecedor foram obtidas na tabela do aplicativo e devolvidas ao modelo de dados.
 
@@ -137,7 +139,7 @@ A grade **Estatísticas de desempenho** também mostra que o mapeamento do model
 
 - A tabela de fornecedores é chamada para cada transação de fornecedor iterada, mesmo que as transações obtidas tenham sido lançadas somente para cinco fornecedores. Das 530 chamadas, 525 são duplicatas. A ilustração a seguir mostra a mensagem recebida sobre chamadas duplicadas (solicitações de banco de dados).
 
-![Mensagem sobre solicitações de banco de dados duplicadas na página Designer de mapeamento de modelo.](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Mensagem sobre solicitações de banco de dados duplicadas na página Designer de mapeamento de modelo](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Do tempo de execução do mapeamento total do modelo (cerca de oito segundos), observe que mais de 80% (cerca de seis segundos) foi gasto na recuperação de valores da tabela do aplicativo VendTable. Essa porcentagem é muito grande para dois atributos de cinco fornecedores, em comparação com o volume de informações da tabela do aplicativo VendTrans.
 
@@ -172,7 +174,7 @@ Siga estas etapas para usar o cache e uma fonte de dados do tipo **Campo calcula
     3. Na caixa de diálogo, no campo **Nome** , digite **Box**.
     3. Selecione **OK**.
 
-    ![Fonte de dados Box na página Designer de mapeamento do modelo.](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Fonte de dados Box na página Designer de mapeamento do modelo](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. Siga estas etapas para adicionar uma fonte de dados parametrizada do tipo **Campo calculado**:
 
@@ -208,7 +210,7 @@ Siga estas etapas para usar o cache e uma fonte de dados do tipo **Campo calcula
 
 9. Selecione **Salvar**.
 
-    ![Fonte de dados Vend na página Designer de mapeamento do modelo.](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Fonte de dados Vend na página Designer de mapeamento do modelo](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. Feche a página **Designer de mapeamento de modelo**.
 11. Feche a página **Mapeamentos de modelo**.
@@ -232,11 +234,11 @@ Repita as etapas na seção [Executar o formato de ER](#run-format) anterior nes
 
 Observe que os ajustes feitos no mapeamento do modelo eliminaram consultas duplicadas no banco de dados. O número de chamadas para tabelas de banco de dados e fontes de dados para esse mapeamento do modelo também foi reduzido.
 
-![Informações de rastreamento na página Designer de mapeamento do modelo 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Informações de rastreamento na página Designer de mapeamento do modelo 1](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 O tempo de execução total foi reduzido em torno de 20 vezes (de 8 segundos para 400 milissegundos). Portanto, o desempenho de toda a solução ER melhorou.
 
-![Informações de rastreamento na página Designer de mapeamento do modelo 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Informações de rastreamento na página Designer de mapeamento do modelo 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>Apêndice 1: baixar os componentes da solução ER de exemplo da Microsoft
 
@@ -244,9 +246,9 @@ Você deve baixar os arquivos a seguir e armazená-los localmente.
 
 | Arquivo                                        | Conteúdo |
 |---------------------------------------------|---------|
-| Aperfeiçoamento de desempenho model.version.1     | [Configuração do modelo de dados de ER de exemplo](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
-| Aperfeiçoamento de desempenho mapping.version.1.1 | [Configuração do mapeamento do modelo de ER de exemplo](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
-| Aperfeiçoamento de desempenho format.version.1.1  | [Configuração de formato de ER de exemplo](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
+| Aperfeiçoamento de desempenho model.version.1     | [Configuração do modelo de dados de ER de exemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Aperfeiçoamento de desempenho mapping.version.1.1 | [Configuração do mapeamento do modelo de ER de exemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Aperfeiçoamento de desempenho format.version.1.1  | [Configuração de formato de ER de exemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>Apêndice 2: configurar a estrutura de ER
 
@@ -254,7 +256,7 @@ Antes de começar a usar a estrutura de ER para melhorar o desempenho da soluç�
 
 ### <a name="configure-er-parameters"></a><a id="ConfigureParameters"></a>Configurar parâmetros de ER
 
-1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
 3. Na página **Parâmetros de relatório eletrônico**, na guia **Geral**, defina a opção **Habilitar modo de design** como **Sim**.
 4. Na guia **Anexos**, defina os seguintes parâmetros:
@@ -273,13 +275,13 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a id="ReviewProvidersList"></a>Examinar a lista de provedores de configuração de ER
 
-1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Tabela de provedores de configuração**, cada registro de provedor tem um nome e uma URL exclusivos. Examine o conteúdo dessa página. Se já existir um registro para **Litware, Inc.**, ignore o próximo procedimento, [Adicionar um novo provedor de configuração ER](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="ActivateProvider"></a>Adicionar um novo provedor de configuração de ER
 
-1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Provedores de configuração**, selecione **Novo**.
 4. No campo **Nome**, insira **Litware, Ltda.**
@@ -288,7 +290,7 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="activate-an-er-configuration-provider"></a><a id="ActivateAddedProvider"></a>Ativar um provedor de configuração de ER
 
-1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Litware, Ltda.** e, depois, **Definir como ativo**.
 
 Para obter mais informações sobre provedores de configuração de ER, consulte [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
@@ -298,6 +300,3 @@ Para obter mais informações sobre provedores de configuração de ER, consulte
 - [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
 - [Rastrear a execução de formatos de ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md)
 - [Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo calculado](er-calculated-field-type.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

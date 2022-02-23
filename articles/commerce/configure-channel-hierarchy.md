@@ -2,24 +2,27 @@
 title: Configurar um canal para usar uma hierarquia de navegação de canal
 description: Este tópico descreve como configurar um canal para usar uma hierarquia de navegação de canal no Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713983"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410093"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurar um canal para usar uma hierarquia de navegação de canal
 
@@ -28,7 +31,7 @@ ms.locfileid: "6713983"
 
 Este tópico descreve como configurar um canal para usar uma hierarquia de navegação de canal no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 As hierarquias de navegação de canal organizam os produtos em categorias para que os produtos possam ser procurados em um site de comércio eletrônico ou em pontos de venda (PDV). Os canais de varejo e online devem ser configurados com hierarquias de navegação de canal.
 
@@ -36,7 +39,7 @@ As hierarquias de navegação de canal organizam os produtos em categorias para 
 
 Para configurar um canal para usar uma hierarquia de navegação de canal, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
+1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
 1. Selecione o canal a configurar.
 1. No painel de ação, selecione **Definir metadados de atributo**.
 1. Na lista suspensa **Hierarquia de categoria**, selecione a hierarquia de navegação de canal apropriada.
@@ -45,7 +48,7 @@ Para configurar um canal para usar uma hierarquia de navegação de canal, siga 
 
 A imagem a seguir mostra como configurar um canal para usar uma hierarquia de navegação de canal.
 
-![Exemplo de configuração de canal.](media/configure-channel-hierarchy-1.png)
+![Exemplo de configuração de canal](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Definir metadados de atributo
 
@@ -61,7 +64,7 @@ Para definir metadados de atributo, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de conjunto de atributos de produto de canal configurados em um nó de categoria de canal.
 
-![Atributos de canal em um nó de categoria de canal.](media/configure-channel-hierarchy-2.png)
+![Atributos de canal em um nó de categoria de canal](media/configure-channel-hierarchy-2.png)
 
 ## <a name="publish-changes"></a>Publicar alterações
 
@@ -74,13 +77,10 @@ Para publicar alterações, siga estas etapas.
 
 A imagem a seguir mostra como publicar atualizações de canal.
 
-![Publicar atualizações de canal.](media/configure-channel-hierarchy-3.png)
+![Publicar atualizações de canal](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Criar uma hierarquia de navegação de canal](create-channel-hierarchy.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Liquidar um pagamento parcial de fornecedor e liquidar o pagamento final em sua totalidade antes da data do desconto
 description: Este artigo mostra um cenário no qual os pagamentos parciais são feitos para uma nota fiscal de fornecedor, e um desconto à vista será obtido.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14431
 ms.assetid: 6b8e3420-b4c9-4e02-9588-598fe6d3df0d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46d5025af229c9002967973a0d897708cd3d67dd7d22d887cc611c5c8213d2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737056"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4440513"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar um pagamento parcial de fornecedor e liquidar o pagamento final em sua totalidade antes da data do desconto
 
@@ -139,6 +142,3 @@ Alice lança o diário de pagamento e analisa e as transações do fornecedor na
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Processamento do diário geral
 description: Este tópico descreve os recursos do Microsoft Dynamics 365 Finance que podem facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726765"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440464"
 ---
 # <a name="general-journal-processing"></a>Processamento do diário geral
 
@@ -42,14 +45,14 @@ Na página **Nomes de diário**, você pode configurar os seguintes elementos:
 
 Um nome de diário pode ser usado somente para ajustes. Nesse caso, você pode especificar qual apenas o tipo de conta **Razão** é válido em todas as empresas. 
 
-[![Tipos de contas de controle de diário.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Tipos de contas de controle de diário](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Um nome de diário pode ser usado somente para um segmento específico ou para um intervalo de contas principais. 
 
-[![Segmento de controle de diário.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Segmento de controle de diário](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 A opção **Estorno automático** está disponível em diários gerais. Por exemplo, você tem um ajuste de competência em que o documento real ainda não foi processado, conforme mostrado na ilustração.
-[![Processamento do Diário geral.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Processamento do Diário geral](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 O suplemento do Microsoft Excel para a entrada de diário fornece um nível adicional de automação e facilita a entrada de dados. A ação **Abrir linhas no Excel** está disponível nas páginas **Diário geral** e **Comprovante de diário**. 
 
@@ -90,7 +93,7 @@ Para obter mais informações, consulte os seguintes tópicos:
 - [Processar diário de alocação do razão](tasks/process-ledger-allocation-journal.md)
 
 ## <a name="simulate-posting"></a>Simular lançamento
-Você pode encontrar **Simular lançamento** no menu **Validar** da maioria dos diários. Quando você validar um diário usando a função **Validar**, o sistema testa o lançamento para condições de erro específicas. Se você usar a função **Simular lançamento**, o sistema executa os mesmos processos realizados durante lançamento sem realmente lançar o diário. Você poderá revisar as mensagens de lançamentos que foram exibidas, corrigir os erros detectados e abrir o menu **Lançar** para lançar o diário. 
+Você pode encontrar **Simular lançamento** no menu **Validar** da maioria dos diários. Quando você validar um diário usando a função **Validar** , o sistema testa o lançamento para condições de erro específicas. Se você usar a função **Simular lançamento** , o sistema executa os mesmos processos realizados durante lançamento sem realmente lançar o diário. Você poderá revisar as mensagens de lançamentos que foram exibidas, corrigir os erros detectados e abrir o menu **Lançar** para lançar o diário. 
 
 **Simular lançamento** não está disponível para processamento em lotes. Porém, há um código disponível para simular o lançamento em lote e os desenvolvedores podem ampliar o código para adicionar essa funcionalidade.  
 
@@ -102,6 +105,3 @@ A capacidade de cancelar um diário em um fluxo de trabalho com o status "irrecu
 
 ## <a name="delete-journal-lines"></a>Excluir linhas do diário
 A capacidade de excluir todas as linhas do diário rapidamente é habilitada em um diário, em **Funções** > **Excluir linhas do diário**. Para habilitar esse recurso, em **Gerenciamento de recursos**, selecione **Excluir otimizações de desempenho do diário**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,32 +1,35 @@
 ---
 title: depreciação com declínio de 150%
-description: Este tópico apresenta uma visão geral do método de depreciação de redução de 150% do saldo.
-author: moaamer
+description: Este artigo fornece uma visão geral do método de saldo de reduzem de 150 de porcentagem de depreciação.
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883303"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440327"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>depreciação com declínio de 150%
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico apresenta uma visão geral do método de depreciação de redução de 150% do saldo.
+Este artigo fornece uma visão geral do método de saldo de reduzem de 150 de porcentagem de depreciação.
 
 Ao configurar um perfil de depreciação de ativos fixos e selecionar **declínio de 150%** no campo **Método** na página **Perfis de depreciação**, os ativos fixos que são atribuídos ao perfil de depreciação são depreciados pela mesma porcentagem em cada período de depreciação. Essa porcentagem é calculada com base na vida útil do ativo. Por exemplo, se um ativo tiver uma vida útil de cinco anos, será calculada uma porcentagem de 30% (150% ÷ 5). 
 
@@ -64,7 +67,7 @@ Se você selecionar **Fiscal** como o ano de depreciação, as opções a seguir
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>Exemplo de depreciação com declínio de 150%
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | Custo de Aquisição               | 11.000 |
 | valor residual                  | 1.000  |
@@ -81,10 +84,7 @@ O método por declínio de 150% divide 150% pelos anos de vida útil. Essa porce
 | Ano 3 | 4.900 × 30% = 1.470                           | 5.900 – 1.470 = 4.430  | 4.900 – 1.470 = 3.430                 |
 
 > [!NOTE]
-> Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 150% se torna menor do que o valor que será calculado usando o método linear, há uma conversão para o método linear método para a vida restante.
+> Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 150%, ele se torna menor do que o valor que será calculado usando o método linear. Há uma conversão para o método linear método para a vida restante.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

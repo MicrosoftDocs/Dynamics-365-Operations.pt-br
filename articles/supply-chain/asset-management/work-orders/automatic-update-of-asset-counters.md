@@ -1,10 +1,12 @@
 ---
 title: Atualização automática de contadores de ativos
 description: Este tópico descreve a atualização automática de contadores de ativos no Gerenciamento de Ativos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a3814a575fbe4379b59723f269d83379a253ede71962c0c82b5f4cc55d36e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3e8619439545cf3ea42f84a6dd7ee6ffdf1026e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738286"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021921"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Atualização automática de contadores de ativo
 
@@ -49,7 +51,7 @@ Como mencionado acima, os contadores automáticos podem ser atualizados por meio
 
     A ilustração a seguir mostra um exemplo do diálogo **Atualizar contadores de ativos**.
 
-    ![Figura 1.](media/12-work-orders.png)
+    ![Figura 1](media/12-work-orders.png)
 
 5. Selecione **OK**. 
 
@@ -59,7 +61,7 @@ Na página **Valor agregado de ativo**, você pode obter uma visão geral do reg
 
 A ilustração a seguir mostra um exemplo da página **Valor agregado do ativo**.
 
-![Figura 2.](media/13-work-orders.png)
+![Figura 2](media/13-work-orders.png)
 
 Observe os seguintes pontos:
 
@@ -67,6 +69,3 @@ Observe os seguintes pontos:
 
 - Você pode configurar os contadores relacionados a outro contador. Nesse caso, quando um contador é atualizado, os contadores relacionados são atualizados automaticamente ao mesmo tempo. Para obter mais informações sobre como configurar contadores relacionados, consulte [Contadores](../setup-for-objects/counters.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

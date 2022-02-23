@@ -2,24 +2,27 @@
 title: Começar uma ordem de produção
 description: Esse procedimento mostra como iniciar uma ordem de produção no chão de fábrica.
 author: johanhoffmann
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationStartJob
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa47510d84e5ee156d4f38a076ce17fad8359d147997349de023b64483d66160
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47915a93151b1adc99ddb4e3facb29bf8db49dd6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735126"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422103"
 ---
 # <a name="start-a-production-order"></a>Começar uma ordem de produção
 
@@ -29,7 +32,7 @@ Esse procedimento mostra como iniciar uma ordem de produção no chão de fábri
 
 
 ## <a name="start-a-production-order"></a>Começar uma ordem de produção
-1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
     * Selecione uma ordem de produção com o status Liberada.  
 2. No Painel de Ação, clique em Ordem de produção.
 3. Clique em Iniciar.
@@ -68,6 +71,3 @@ Esse procedimento mostra como iniciar uma ordem de produção no chão de fábri
 7. Clique em Lançar.
 8. Clique em OK.
     * No diário de cartão de roteiro, é registrado o tempo gasto em operações individuais. A quantidade de erros e acertos também pode ser informada.  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,85 +1,69 @@
 ---
 title: Configurar posições
-description: Este tópico descreve como as posições são um elemento importante do nível inferior de uma hierarquia organizacional.
-author: twheeloc
-ms.date: 10/28/2021
+description: Os cargos são um elemento importante do nível inferior de uma hierarquia organizacional.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart, HcmAllWorkersListPart, HcmPosition, HcmPositionNewPosition, HcmJobLookup, HcmPositionReportsToDialog, HcmPositionLookup, FinancialDimensionDefaultTemplatesLookup, DimensionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67682b6ea949183c2697b658bb77925a791e7da1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6c078060984169d14a0fb64cf54fc134e8f26ccb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071407"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417293"
 ---
 # <a name="set-up-positions"></a>Configurar posições
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
 Os cargos são um elemento importante do nível inferior de uma hierarquia organizacional. Um cargo é uma instância individual de um trabalho. Por exemplo, a posição, "Gerente de vendas (Leste)", é uma das posições associadas ao trabalho, "Gerente de vendas". Uma posição existe em um departamento e pode ter somente um trabalhador associado a ela. Nesta tarefa mostraremos as etapas necessárias para criar uma posição. Esse procedimento é destinado ao Especialista de recursos humanos.
 
-1. Selecione **Gerenciamento da força de trabalho**.
-2. Selecione **Abrir posições**.
-3. Selecione **Novo** para abrir a caixa de diálogo suspensa.
-4. No campo **Trabalho**, insira ou selecione um valor.
+1. Clicar em Gerenciamento da força de trabalho.
+2. Clique em Abrir posições.
+3. Clique em Novo para abrir a caixa de diálogo suspensa.
+4. No campo Trabalho, insira ou selecione um valor.
+    * A descrição do trabalho, o título, e o fator de emprego equivalente a tempo integral são copiados automaticamente do trabalho selecionado na posição.  
+5. Resolver altera o Trabalho.
+6. Clique em Criar posição.
+7. No campo Departamento, insira ou selecione um valor.
+8. No campo Tipo de posição, insira ou selecione um valor.
+9. No campo Região de compensação, insira ou selecione um valor.
+    * O campo Região de remuneração determina as regras de qualificação de compensação e os orçamentos de aumento fixo que se aplicam a um funcionário naquela posição.  
+10. No campo Disponível para atribuição, insira uma data e hora.
+11. Expanda a seção Duração da posição.
+    * A duração da posição é inserida por padrão com base na ativação e nas datas de aposentadoria inseridas anteriormente  
+12. Expanda a seção Relatórios para posição.
+    * Quando você atribui um trabalhador a um cargo que está subordinado a outro cargo, você cria uma relação de subordinação direta entre os trabalhadores atribuídos aos dois cargos.  
+13. Clique em Novo para abrir a caixa de diálogo suspensa.
+14. No campo Subordinado a, insira ou selecione um valor.
+15. Clique em Criar.
+16. Expanda a seção Atribuir trabalhador.
+17. Expanda a seção Relacionamentos.
+    * Se a organização usar uma hierarquia de matriz ou outra hierarquia personalizada, você poderá configurar tipos de hierarquia de cargos e adicionar relações de subordinação a cargos de cada tipo de hierarquia que você configurou.  
+18. Clique em Adicionar.
+19. Na lista, marque a linha selecionada.
+20. No campo Nome da hierarquia, insira ou selecione um valor.
+21. No campo Relatórios para posição, insira ou selecione um valor.
+22. Expandir a seção Folha de pagamento.
+23. No campo Ciclo de pagamento, insira ou selecione um valor.
+24. No campo Pago por, insira ou selecione um valor.
+25. No campo Horas regulares anuais, insira um número.
+    * Este é o número de horas pagas regularmente que o funcionário na posição deve trabalhar todos os anos.  
+26. Expanda a seção Sindicato.
+27. Recolha a seção Sindicato.
+28. Expanda a seção Dimensões financeiras.
+29. No campo Modelo de distribuição, insira ou selecione um valor.
+30. No campo Departamento, insira ou selecione um valor.
+31. Clique em Salvar.
 
-    Os campos **Descrição do trabalho**, **Título** e **Fator de emprego equivalente a tempo integral** são copiados automaticamente do trabalho selecionado na posição.
-
-5. Selecione **Criar posição**.
-6. No campo **Departamento**, insira ou selecione um valor.
-7. No campo **Tipo de posição**, insira ou selecione um valor.
-8. No campo **Região de remuneração**, insira ou selecione um valor.
-
-    O campo **Região de remuneração** determina as regras de qualificação de remuneração e os orçamentos de aumento fixo que se aplicam a um funcionário naquela posição.
-
-9. No campo **Disponível para atribuição**, insira uma data e hora.
-10. Expanda a seção **Duração da posição**.
-
-    A duração da posição é inserida por padrão com base na ativação e nas datas de aposentadoria inseridas anteriormente.
-
-11. Expanda a seção **Relatórios para posição**.
-
-    Quando você atribui um trabalhador a um cargo que está subordinado a outro cargo, você cria uma relação de subordinação direta entre os trabalhadores atribuídos aos dois cargos.
-
-12. Selecione **Novo em** para abrir a caixa de diálogo suspensa.
-13. No campo **Subordinado a**, insira ou selecione um valor.
-14. Selecione **Criar**.
-15. Expanda a seção **Atribuição de trabalhador**.
-16. Expanda a seção **Relacionamentos**.
-
-    Se a organização usar uma hierarquia de matriz ou outra hierarquia personalizada, você poderá configurar tipos de hierarquia de cargos e adicionar relações de subordinação a cargos de cada tipo de hierarquia que você configurou.
-
-17. Selecione **Adicionar**.
-18. Na lista, marque a linha selecionada.
-19. No campo **Nome da hierarquia**, insira ou selecione um valor.
-20. No campo **Relatórios para posição**, insira ou selecione um valor.
-21. Expanda a seção **Folha de pagamento**.
-22. No campo **Ciclo de pagamento**, insira ou selecione um valor.
-23. No campo **Pago por**, insira ou selecione um valor.
-24. No campo **Horas regulares anuais**, insira um número.
-
-    O valor inserido é o número de horas pagas regularmente que o funcionário na posição deve trabalhar todos os anos.
-
-25. Expanda a seção **Sindicato**.
-26. Recolha a seção **Sindicato**.
-27. Expanda a seção **Dimensões financeiras**.
-28. No campo **Modelo de distribuição**, insira ou selecione um valor.
-29. No campo **Departamento**, insira ou selecione um valor.
-30. Selecione **Salvar**.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

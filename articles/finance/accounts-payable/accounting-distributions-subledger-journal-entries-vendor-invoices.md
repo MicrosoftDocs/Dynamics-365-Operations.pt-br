@@ -1,34 +1,38 @@
 ---
-title: Distribuições contábeis e entradas no diário para faturas de fornecedor
+title: Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor
 description: As distribuições contábeis são usadas para definir como um valor será contabilizado, por exemplo, como a receita, os impostos ou os encargos serão contabilizados em uma fatura de fornecedor. Cada valor a ser contabilizado quando a fatura de fornecedor é lançada no diário terá uma ou várias distribuições contábeis.
-author: sunfzam
+author: abruer
+manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594681"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440495"
 ---
-# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Distribuições contábeis e entradas no diário para faturas de fornecedor
+# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor
 
 [!include [banner](../includes/banner.md)]
 
 As distribuições contábeis são usadas para definir como um valor será contabilizado, por exemplo, como a receita, os impostos ou os encargos serão contabilizados em uma fatura de fornecedor. Cada valor a ser contabilizado quando a fatura de fornecedor é lançada no diário terá uma ou várias distribuições contábeis. 
 
-## <a name="accounting-distributions"></a>Distribuições contábeis 
+<a name="accounting-distributions"></a>Distribuições contábeis 
+-------------------------
 
 Você pode usar os botões a seguir na página Fatura de fornecedor para exibir e, possivelmente, modificar as distribuições contábeis para cada valor da fatura de fornecedor.
 -   **Distribuir valores** – Exibir e modificar as distribuições contábeis para uma linha individual e todas as linhas filho, como impostos ou encargos. Também é possível exibir e modificar as distribuições contábeis para a linha filho diretamente da página Transações de imposto ou Transações de encargos.
@@ -226,7 +230,8 @@ Quando você insere uma fatura de fornecedor, cada valor é distribuído da form
 </table>
 
 
-## <a name="distributing-taxes"></a>Impostos de distribuição
+<a name="distributing-taxes"></a>Impostos de distribuição
+------------------
 
 As distribuições contábeis de impostos não podem ser criadas até que os impostos sejam calculados. Para calcular impostos, você deve concluir uma das seguintes tarefas na página Fatura de fornecedor:
 -   Exibir total da fatura.
@@ -245,6 +250,3 @@ Se a entrada no diário-razão auxiliar estiver incorreta quando você a visuali
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

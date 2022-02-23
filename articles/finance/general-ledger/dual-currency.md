@@ -2,23 +2,26 @@
 title: Moeda dupla
 description: Este tópico fornece informações sobre moeda dupla, em que a moeda de relatório é usada como uma segunda moeda contábil para o Microsoft Dynamics 365 Finance.
 author: kweekley
+manager: AnnBe
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b20c45952d2c0c28a1b785fd92bf47cfb25251fa3a3308d14130ad0f1c78305d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762058"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440198"
 ---
 # <a name="dual-currency"></a>Moeda dupla
 
@@ -206,6 +209,3 @@ Na consolidação da Contabilidade, uma nova opção foi adicionada para consoli
 -  Agora você pode optar por usar a moeda contábil ou a moeda de relatório da empresa de origem como a moeda da transação na empresa de consolidação.
 
 - Os valores da moeda contábil ou de relatório da empresa de origem serão copiados diretamente nos valores da moeda contábil ou de relatório na empresa de consolidação, se uma das moedas for a mesma. Os valores da moeda contábil e de relatório na empresa de consolidação são calculados usando a taxa de câmbio, se nenhuma das moedas for a mesma.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

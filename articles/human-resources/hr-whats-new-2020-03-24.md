@@ -1,32 +1,33 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (24 de março de 2020)
 description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 24 de março de 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dec2f270f53968292ec25cca43c216f26cfc8087
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 87b7ea660d94c6d564a8f09d4133b098e0ecedf9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061402"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526896"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (24 de março de 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este artigo descreve os recursos novos ou alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3073. Os números entre parênteses em alguns cabeçalhos referem-se aos números de suporte do Lifecycle Services (LCS) para referência.
 
@@ -58,7 +59,7 @@ Os seguintes recursos de visualização foram disponibilizados em 3 de fevereiro
 
 - **Recurso de visualização de gerenciamento de benefícios** - para obter mais informações, incluindo problemas conhecidos, consulte [Visão geral do gerenciamento de benefícios](hr-benefits-management-overview.md).
 
-## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>A solução do Dataverse agora está disponível com as seguintes alterações:
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>A solução do Common Data Service agora está disponível com as seguintes alterações:
 
 | descrição | Troco |
 | --- | --- |
@@ -70,14 +71,14 @@ Os seguintes recursos de visualização foram disponibilizados em 3 de fevereiro
 | Novas entidades de configuração de remuneração variável | <ul><li>**Tipo de plano de remuneração variável**</li><li>**Plano de remuneração variável**</li><li>**Regras de benefício proporcional diferido**</li><li>**Nível do plano de remuneração variável**</li></ul> |
 | Nova entidade **Emprego do calendário do trabalhador** | <ul><li>**Entidade do calendário de trabalho** adicionada</li></ul> |
 | Nova entidade **Detalhe da posição de folha de pagamento** | <ul><li>**Detalhe da posição de folha de pagamento** adicionado</li></ul> |
-| Nova entidade **Bloco** | <ul><li>**Bloco** adicionado</li></ul>A nova entidade **Título** é incluída no Dataverse, mas não é referenciada nas entidades **Posição de trabalho** ou **Trabalho** no momento. |
+| Nova entidade **Bloco** | <ul><li>**Bloco** adicionado</li></ul>A nova entidade **Título** é incluída no Common Data Service, mas não é referenciada nas entidades **Posição de trabalho** ou **Trabalho** no momento. |
 
 > [!NOTE]
-> As dimensões financeiras para as posições e o trabalho fornecem integração unidirecional para atualizações de recursos humanos para Dataverse. As atualizações de dimensões financeiras não são sincronizadas atualmente de Dataverse a Recursos Humanos.
+> As dimensões financeiras para as posições e o trabalho fornecem integração unidirecional para atualizações de recursos humanos para Common Data Service. As atualizações de dimensões financeiras não são sincronizadas atualmente de Common Data Service a Recursos Humanos.
 
-Nas próximas semanas, essas alterações de entidade estarão disponíveis em todos os ambientes. Para instalar manualmente a solução Dataverse mais recente para recursos humanos:
+Nas próximas semanas, essas alterações de entidade estarão disponíveis em todos os ambientes. Para instalar manualmente a solução Common Data Service mais recente para recursos humanos:
 
-1.  Acesse [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com).
+1.  Vá para [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  Selecione **Ambientes**.
 
@@ -118,8 +119,6 @@ A entidade **Detalhes de emprego** foi atualizada com os campos a seguir: **PayF
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

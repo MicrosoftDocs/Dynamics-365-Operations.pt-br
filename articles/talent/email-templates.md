@@ -81,6 +81,3 @@ Quando a equipe de contratação envia um email, ela pode usar modelos criados p
 
 > [!NOTE] 
 > Para os emails que são enviados automaticamente, vários modelos podem ser criados. Porém, apenas um modelo pode ser definido como o modelo ativo. Como esse processo é disparado por eventos, somente o administrador pode determinar que modelo será usado, com base na combinação de selos **Padrão** e **Enviado automaticamente** na biblioteca de modelos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

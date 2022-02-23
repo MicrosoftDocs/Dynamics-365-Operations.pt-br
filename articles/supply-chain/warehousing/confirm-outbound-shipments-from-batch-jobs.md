@@ -2,22 +2,25 @@
 title: Confirmar remessas de saída de trabalhos em lote
 description: Este tópico descreve como configurar um trabalho em lotes que automaticamente confirma remessas de ordem de transferência de saída para cargas prontas para a remessa.
 author: perlynne
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 41dbfb90b7b19c964e725ee0a4c769402414fb17
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778464"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421948"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Confirmar remessas de saída de trabalhos em lote
 
@@ -27,7 +30,7 @@ Este tópico descreve como configurar um trabalho em lotes que automaticamente c
 
 ## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Habilitar o recurso Confirmar remessas de saída de trabalhos em lote
 
-A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
+Antes de poder usar esse recurso, ele deverá estar habilitado no seu sistema. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. O recurso está listado como:
 
 - **Módulo** - *Gerenciamento de depósito*
 - **Nome do recurso** - *Confirmar remessas de saída de trabalhos em lote*
@@ -36,7 +39,7 @@ A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativa
 
 Para configurar um trabalho em lotes agendado para executar a confirmação de remessa de saída para cargas prontas para remessa:
 
-1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
+1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
 1. A caixa de diálogo **Confirmar remessa** é aberta. Na Guia Rápida **Registros a incluir**, selecione **Filtro**.
 1. A caixa de diálogo do editor de consultas é aberta. Na guia **Intervalo**, adicione uma linha com os seguintes valores:
     - **Tabela** - *Cargas*
@@ -51,6 +54,3 @@ Para configurar um trabalho em lotes agendado para executar a confirmação de r
 1. Selecione **OK** na caixa de diálogo **Confirmar remessa** para adicionar o trabalho em lotes à fila de lotes.
 
 Para obter mais informações, consulte [Visão geral do processamento em lotes](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

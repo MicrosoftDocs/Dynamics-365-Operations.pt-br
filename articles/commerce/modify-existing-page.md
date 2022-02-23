@@ -2,32 +2,38 @@
 title: Modificar uma página de site existente
 description: Este tópico descreve como modificar uma página do site existente no Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751534"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410269"
 ---
 # <a name="modify-an-existing-site-page"></a>Modificar uma página de site existente
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como modificar uma página do site existente no Microsoft Dynamics 365 Commerce.
 
-Quando tiver que modificar uma página, a primeira etapa é abri-la no editor de páginas. Acesse o site que contém sua página e, em seguida, na lista de páginas, localize a página que você deseja. Se você não conseguir encontrar a página, use a funcionalidade de pesquisa sofisticada da ferramenta de criação. Digite o nome exato da página, ou digite as primeiras letras dela e um asterisco (\*). Uma lista filtrada de páginas é exibida. Você pode usar essa lista para localizar a página que deseja. Depois que você encontrar a página correta, selecione o nome da página para abrir a página no editor de páginas.
+## <a name="overview"></a>Visão geral
+
+Quando tiver que modificar uma página, a primeira etapa é abri-la no editor de páginas. Vá para o site que contém sua página e, em seguida, na lista de páginas, localize a página que você deseja. Se você não conseguir encontrar a página, use a funcionalidade de pesquisa sofisticada da ferramenta de criação. Digite o nome exato da página, ou digite as primeiras letras dela e um asterisco (\*). Uma lista filtrada de páginas é exibida. Você pode usar essa lista para localizar a página que deseja. Depois que você encontrar a página correta, selecione o nome da página para abrir a página no editor de páginas.
 
 > [!TIP]
 > Se sua página estiver visível no inspetor de páginas, você pode selecionar **Editar** e verificar a página antes de abri-la no editor de páginas. Dessa forma, você pode fazer check-out de várias páginas ao mesmo tempo.
@@ -80,9 +86,4 @@ O exemplo a seguir mostra como modificar a home page alterando o vídeo que apar
 
 [Enriquecer uma página de aterrissagem da categoria](enrich-category-page.md)
 
-[Verificar acessibilidade do conteúdo da página](verify-accessibility.md)
-
-[Criar páginas dinâmicas de comércio eletrônico com base nos parâmetros da URL](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Verificar acessibilidade de conteúdo da página](verify-accessibility.md)

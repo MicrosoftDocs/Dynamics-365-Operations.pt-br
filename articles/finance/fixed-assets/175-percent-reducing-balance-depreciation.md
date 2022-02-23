@@ -1,32 +1,35 @@
 ---
-title: Depreciação por declínio de 175%
-description: Este tópico apresenta uma visão geral do método de depreciação de redução de 175% do saldo.
-author: moaamer
+title: Depreciação por declínio de 175 por cento
+description: Este tópico fornece uma visão geral do método de depreciação de redução de 175% do saldo.
+author: saraschi2
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99bd47192d389c373b29a98f5344e1e0c1ab04e6
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3a21c315aa9a7193c20e4184da20d4d6d38386c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883253"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440388"
 ---
-# <a name="175-percent-reducing-balance-depreciation"></a>Depreciação por declínio de 175%
+# <a name="175-percent-reducing-balance-depreciation"></a>Depreciação por declínio de 175 por cento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico apresenta uma visão geral do método de depreciação de redução de 175% do saldo.
+Este tópico fornece uma visão geral do método de depreciação de redução de 175% do saldo.
 
 Ao configurar um perfil de depreciação de ativos fixos e selecionar **declínio de 175%** no campo **Método** na página **Perfis de depreciação**, os ativos fixos que são atribuídos ao perfil de depreciação são depreciados pela mesma porcentagem em cada período de depreciação. 
 
@@ -64,9 +67,9 @@ Se você selecionar **Fiscal** como o ano de depreciação, as opções a seguir
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Exemplo de depreciação com declínio de 175%
 
-| Campo                          | Alíquota  |
+|                                |        |
 |--------------------------------|--------|
-| Custo de Aquisição               | 11,000 |
+| Custo de Aquisição               | 11.000 |
 | valor residual                  | 1.000  |
 | Base de depreciação              | 10.000 |
 | Anos de vida útil             | 5      |
@@ -76,15 +79,12 @@ O método de depreciação por declínio de 175% divide 175% pelos anos de vida 
 
 | Período | Cálculo do valor de depreciação anual | Valor Contábil                  | Valor líquido contábil no final do ano |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| Ano 1 | (11.000 – 1.000) × 35% = 3.500                | 11.000 – 3.500 = 7.500      | 11.000 – 1.000 – 3.500 = 6.500        |
-| Ano 2 | 6.500 × 35% = 2.275                           | 7.500 – 2.275 = 5.225       | 6.500 – 2.275 = 4.225                 |
-| Ano 3 | 4.225 × 35% = 1.478,75                        | 5.225 – 1.478,75 = 3.746,25 | 4.225 – 1.478,75 = 2.746,25           |
+| Ano 1 | (11.000 – 1.000) × 35% = 3.500                | 11.000 – 3.500 = 7.500      | 11.000 – 1.000 – 3.500 = 6.500        |
+| Ano 2 | 6.500 × 35% = 2.275                           | 7.500 – 2.275 = 5.225       | 6.500 – 2.275 = 4.225                 |
+| Ano 3 | 4.225 × 35% = 1.478,75                        | 5.225 – 1.478,75 = 3.746,25 | 4.225 – 1.478,75 = 2.746,25           |
 
 > [!NOTE] 
 > Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 175% se torna menor do que o valor que será calculado usando o método linear, há uma conversão para o método linear método para a vida restante.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

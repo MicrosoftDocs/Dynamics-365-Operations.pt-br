@@ -1,24 +1,27 @@
 ---
 title: Trabalhos de produção sequencial para manufatura de processos
 description: Este procedimento usa produtos de pintura como um exemplo para mostrar como sequenciar ordens planejadas de acordo com a prioridade de cor e de tamanho de pacote.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage, PMFSeqReqRoute, PMFSeqReqRouteChanges, PMFSeqReqSchedDetailsFactBox, PMFSequenceGroup, PMFSequenceItemTable, PMFSequenceTable, PmfSeqWrkCtrCapRes
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e54cfa60fa9efd511aef8c074484b9b1a738e8cb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: db2c881f60b6e5251e2bcdf198da9e1c9f39a0e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572736"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422141"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Trabalhos de produção sequencial para manufatura de processos
 
@@ -28,7 +31,7 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
 
 
 ## <a name="run-master-planning-for-uspi"></a>Executar planejamento mestre para USPI
-1. Acesse Planejamento mestre > Planejamento mestre > Executar > Planejamento mestre.
+1. Vá para Planejamento mestre > Planejamento mestre > Executar > Planejamento mestre.
 2. No campo Plano mestre, clique no botão suspenso para abrir a pesquisa.
 3. Na lista, clique no link na linha selecionada.
     * Selecionar MasterPlan.  
@@ -36,7 +39,7 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
     * Isso inicia o planejamento mestre, incluindo o processo de sequência. Esse processo pode levar alguns minutos.  
 
 ## <a name="view-planned-orders-for-the-paint-products"></a>Exibir ordens planejadas para os produtos de pintura
-1. Acesse Planejamento mestre > Planejamento mestre > Ordens planejadas.
+1. Vá para Planejamento mestre > Planejamento mestre > Ordens planejadas.
 2. Expanda a FactBox detalhes do item.
 3. Expanda a FactBox detalhes da programação.
 4. No campo Plano, clique no botão suspenso para abrir a pesquisa.
@@ -48,7 +51,7 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
 
 ## <a name="sequence-planned-orders-for-paint"></a>Ordens planejadas em sequência para pintura
 1. Feche a página.
-2. Acesse Planejamento mestre > Planejamento mestre > Ordens planejadas sequenciais.
+2. Vá para Planejamento mestre > Planejamento mestre > Ordens planejadas sequenciais.
 3. Expanda a FactBox detalhes do item.
 4. Expanda a FactBox detalhes da programação.
     * Observação: Aqui você verá que a data de início/hora das ordens planejadas é arranjada na sequência de acordo com a cor e tamanho da embalagem dentro de um período de classificação de 28 dias. Os períodos são definidos por um número no campo Campanha. O formulário de ordem planejada sequenciado atua como o formulário de ordem planejada típico, e o planejador de produção pode confirmar ordens planejadas aqui.  
@@ -58,7 +61,7 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
 
 ## <a name="verify-the-sequence-of-the-planned-orders"></a>Verifique a sequência das ordens planejadas
 1. Feche a página.
-2. Acesse Planejamento mestre > Planejamento mestre > Ordens planejadas.
+2. Vá para Planejamento mestre > Planejamento mestre > Ordens planejadas.
 3. Expanda a FactBox detalhes do item.
 4. Expanda a FactBox detalhes da programação.
 5. No campo Plano, clique no botão suspenso para abrir a pesquisa.
@@ -68,6 +71,3 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
 8. Use o Filtro Rápido para filtrar o campo Número do item com o valor 'P300'.
     * Observe que as ordens são arranjadas agora na sequência de acordo com a prioridade de cor e tamanho e as ordens planejadas se iniciam na data de ordem mais antiga e data de entrega. Validar a data da coluna da ordem ou a data de início em FactBbox detalhes do plano.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

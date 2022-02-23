@@ -1,30 +1,34 @@
 ---
 title: Especificar o destino dos itens devolvidos
 description: Especificar o destino dos itens devolvidos.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2b1468328433a67253bafc21ac9c9b3a2398872
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571300"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421852"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Especificar o destino dos itens devolvidos
+# <a name="specify-how-to-dispose-of-returned-items"></a>Especificar o destino dos itens devolvidos 
 
 [!include [banner](../includes/banner.md)]
+
 
 Ao lidar com uma ordem de devolução, você deve especificar um código de motivo de devolução para identificar porque o produto está sendo devolvido. Você também deve especificar um código de disposição e uma ação de disposição para determinar o que deve ser feito com o produto devolvido.
 
@@ -34,9 +38,9 @@ Você pode definir quaisquer códigos de disposição necessários para dar supo
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -124,8 +128,8 @@ Para cada código de disposição definidos por você, selecione uma ação de d
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -161,15 +165,21 @@ Para cada código de disposição definidos por você, selecione uma ação de d
 </tbody>
 </table>
 
+
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Selecione um código de disposição para uma ordem de quarentena
 
-1. Acesse **Gerenciamento de estoque** \> **Periódico** \> **Gerenciamento de qualidade** \> **Ordens de quarentena**.
-1. Para uma ordem de quarentena existente, selecione uma ação do campo **Código de disposição** na guia **Visão geral**.
+1.  Clique em **Gerenciamento de estoque** \> **Periódico** \> **Gerenciamento de qualidade** \> **Ordens de quarentena**.
+
+2.  Para uma ordem de quarentena existente, selecione uma ação do campo **Código de disposição** na guia **Visão geral**.
+
+
 
 ## <a name="see-also"></a>Consulte também
 
-[Ordem de quarentena (formulário)](/dynamicsax-2012//quarantine-order-form)
+[Ordem de quarentena (formulário)](https://technet.microsoft.com/library/aa554073(v=ax.60))
 
 [Códigos de disposição (formulário)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

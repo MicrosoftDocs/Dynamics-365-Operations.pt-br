@@ -1,25 +1,28 @@
 ---
 title: Criar uma regra kanban usando um evento de linha de kanban
 description: Este procedimento cria uma regra kanban usando a linha kanban de evento que ajusta-se para provocar a tração de uma atividade do processo.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7aaf959db0f0a136fc615f9a57ec787ef6cf2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5a6c4b7103874a6d955b21e99b8e219a039d4b55
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579151"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421905"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Criar uma regra kanban usando um evento de linha de kanban
 
@@ -29,7 +32,7 @@ Este procedimento cria uma regra kanban usando a linha kanban de evento que ajus
 
 
 ## <a name="create-a-kanban-rule"></a>Criar uma regra kanban
-1. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Clique em Novo.
 3. No campo Estratégia de reabastecimento, selecione 'Evento'.
     * Isto gera kanbans diretamente na procura. É usado para estabelecer as regras que definem uma encenação por encomenda.  
@@ -45,7 +48,7 @@ Este procedimento cria uma regra kanban usando a linha kanban de evento que ajus
 10. Clique em Salvar.
 
 ## <a name="create-sales-order-and-trigger-kanban-chain"></a>Crie a corrente kanban da ordem e do disparador de vendas
-1. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+1. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta de cliente, insira ou selecione um valor.
     * Selecione a conta de Cliente US-003, Forest Wholesales.  
@@ -60,12 +63,9 @@ Este procedimento cria uma regra kanban usando a linha kanban de evento que ajus
 9. Clique em Salvar.
 
 ## <a name="view-the-kanban-generated-by-the-kanban-rule"></a>Veja o kanban gerado pela regra kanban
-1. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Na lista, localize e selecione o PDV desejado.
 3. Expanda a seção kanbans.
     * Observe que um kanban de 27 foi criado para processar a atividade baseada na regra kanban criada.  
     * Esta é a última etapa.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

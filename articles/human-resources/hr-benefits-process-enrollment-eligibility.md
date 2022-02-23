@@ -1,35 +1,33 @@
 ---
 title: Processar qualificação da inscrição
-description: Este tópico explica como executar o processo de qualificação da inscrição.
-author: twheeloc
-ms.date: 08/23/2021
+description: Este artigo explica como executar o processo de qualificação da inscrição.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067620"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417237"
 ---
 # <a name="process-enrollment-eligibility"></a>Processar qualificação da inscrição
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Este tópico explica como executar o processo de qualificação da inscrição.
+Este artigo explica como executar o processo de qualificação da inscrição.
 
 1. No espaço de trabalho **Gerenciamento de benefícios**, em **Processando**, selecione **Processamento da qualificação da inscrição**.
 
@@ -56,11 +54,11 @@ Este tópico explica como executar o processo de qualificação da inscrição.
 
 ## <a name="view-process-results"></a>Exibir resultados do processo
 
-Este tópico explica como exibir os resultados do processo de qualificação.
+Este artigo explica como exibir os resultados de processo de qualificação.
 
 1.  No espaço de trabalho **Gerenciamento de benefícios**, em **Processando**, selecione **Resultados do processo**.
 
-2.  Na página **Resultados do processo**, os seguintes campos são especificados:
+2.  No formulário **Resultados do processo**, os seguintes campos são especificados:
 
    | Campo | descrição |
    | --- | --- |
@@ -74,6 +72,3 @@ Este tópico explica como exibir os resultados do processo de qualificação.
    | **Status do resultado** | Ele será Qualificado ou Não qualificado. O status do resultado será inelegível se o trabalhador não atender aos critérios da regra de qualificação, se o trabalhador estiver sem informações necessárias, como uma frequência de pagamento ou uma remuneração fixa, ou se houver informações ausentes no plano de benefícios que impedem que os trabalhadores sejam inscritos. |
    | **Mensagem de resultado** | Indica por que um trabalhador não é elegível para um plano de benefícios ou se a regra de qualificação foi aprovada. |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

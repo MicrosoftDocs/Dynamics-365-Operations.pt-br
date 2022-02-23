@@ -2,22 +2,25 @@
 title: Criar uma política de acúmulo de custo
 description: Este procedimento mostra como criar uma política de acúmulo de custo e criar regras para a política.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd7a390ced7b7b4997d9c86b9218f1fa83ee14729e450e1ae1cb53dbbd605edb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b6d32cc2c1844c6c334dd00b249c736e153f13d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755657"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440488"
 ---
 # <a name="create-a-cost-rollup-policy"></a>Criar uma política de acúmulo de custo
 
@@ -27,7 +30,7 @@ Este procedimento mostra como criar uma política de acúmulo de custo e criar r
 
 
 ## <a name="create-a-policy"></a>Criar uma política
-1. Acesse Contabilização de custos > Políticas > Políticas de acúmulo de custo.
+1. Vá para Contabilização de custos > Políticas > Políticas de acúmulo de custo.
 2. Clique em Novo.
 3. No campo Nome da política, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -65,6 +68,3 @@ Este procedimento mostra como criar uma política de acúmulo de custo e criar r
     * Continue até todos os centros de custos serem mapeados aos elementos de custo secundários correspondentes.  
 16. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

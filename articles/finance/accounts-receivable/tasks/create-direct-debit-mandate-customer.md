@@ -2,23 +2,26 @@
 title: Criar um mandato de débito direto para um cliente
 description: Essa guia de tarefa demonstra como criar uma carta da ordem de débito direto e usá-la em uma nota fiscal.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, BankAccountTable, CustPaymMode, CustDirectDebitMandate, BankAccountTableLookUp, SrsReportViewerForm,  LogisticsAddressCityLookup, CustFreeInvoice, CustTableLookup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51fea2b9a0f25b078abc3ca83ee02c585eaf465128bebba0234ffadb030ef42a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 86d29782f616219b5d84e3567910cb28c60b65ae
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740041"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440244"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Criar um mandato de débito direto para um cliente
 
@@ -28,7 +31,7 @@ Essa guia de tarefa demonstra como criar uma carta da ordem de débito direto e 
 
 
 ## <a name="create-a-bank-account"></a>Criar uma conta bancária
-1. No **Painel de Navegação**, Acesse **Módulos > Contas a receber > Clientes > Todos os clientes**.
+1. No **Painel de Navegação**, vá para **Módulos > Contas a receber > Clientes > Todos os clientes**.
 2. Na lista, selecione um registro. Por exemplo, selecione US-001
 3. No Painel de Ações, clique em **Cliente**.
 4. Clique em **Contas bancárias**.
@@ -39,7 +42,7 @@ Essa guia de tarefa demonstra como criar uma carta da ordem de débito direto e 
 9. No campo **Moeda**, digite um valor.
 10. Clique em **Salvar**.
 11. Feche a página.
-12. No **Painel de Navegação**, Acesse **Módulos > Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias**.
+12. No **Painel de Navegação**, vá para **Módulos > Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias**.
 13. Na lista, localize e selecione o registro desejado.
 14. Na lista, clique no link na linha selecionada.
 15. Clique em **Editar**.
@@ -50,7 +53,7 @@ Essa guia de tarefa demonstra como criar uma carta da ordem de débito direto e 
 20. Feche a página.
 
 ## <a name="define-the-electronic-payment-method"></a>Definir o método de pagamento eletrônico
-1. No **Painel de Navegação**, Acesse **Módulos > Contas a receber > Configuração de pagamentos > Formas de pagamento**.
+1. No **Painel de Navegação**, vá para **Módulos > Contas a receber > Configuração de pagamentos > Formas de pagamento**.
 2. Clique em **Novo**.
 3. No campo **Método de pagamento**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -59,7 +62,7 @@ Essa guia de tarefa demonstra como criar uma carta da ordem de débito direto e 
 7. Feche a página.
 
 ## <a name="add-a-direct-debit-mandate-to-a-customer"></a>Adicionar um mandato de ordem de débito ao cliente.
-1. No **Painel de Navegação**, Acesse **Módulos > Contas a receber > Clientes > Todos os clientes**.
+1. No **Painel de Navegação**, vá para **Módulos > Contas a receber > Clientes > Todos os clientes**.
 2. Na lista, selecione um registro. Por exemplo, selecione US-001
 3. Clique em **Editar**.
 4. Expanda a Guia Rápida **Padrões de pagamento**.
@@ -82,11 +85,8 @@ Essa guia de tarefa demonstra como criar uma carta da ordem de débito direto e 
 21. Feche a página.
 
 ## <a name="create-a-free-text-invoice-with-mandate"></a>Criar uma fatura de texto livre com mandato
-1. No **Painel de Navegação**, Acesse **Módulos > Contas a receber > Faturas > Todas as faturas de texto livre**.
+1. No **Painel de Navegação**, vá para **Módulos > Contas a receber > Faturas > Todas as faturas de texto livre**.
 2. Clique em **Novo**.
 3. Selecione o cliente para o qual você adicionou a carta da ordem.
 4. No campo **Carta de ordem de débito direto**, insira ou selecione um valor.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

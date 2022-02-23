@@ -2,30 +2,33 @@
 title: Criar um código de juros com um intervalo
 description: Os códigos de juros podem ser configurados para calcular os valores diferentes de juros com base em um intervalo de valores.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b20870ade99dd48e72c8aa63f563bc51dc93bd9601d309c474af93cee6eddedb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771839"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440243"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Criar um código de juros com um intervalo
 
 [!include [banner](../../includes/banner.md)]
 Os códigos de juros podem ser configurados para calcular os valores diferentes de juros com base em um intervalo de valores. Este procedimento mostrará como adicionar um código de juros e adicionar um intervalo a ele.
 
-1. Acesse Crédito e cobranças > Juros > Configurar códigos de juros.
+1. Vá para Crédito e cobranças > Juros > Configurar códigos de juros.
 2. Clique em Novo.
 3. No campo Código de juros, insira o nome do código de juros.
 4. No campo Descrição, insira uma descrição para o código de juros.
@@ -48,6 +51,3 @@ Os códigos de juros podem ser configurados para calcular os valores diferentes 
 21. Insira a porcentagem de juros por mês que será usada para calcular os juros a partir do mês 7. Para este exemplo, será 2,5.
 22. Clique em Fechar para finalizar a configuração.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

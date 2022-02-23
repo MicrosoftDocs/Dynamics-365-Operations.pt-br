@@ -1,27 +1,30 @@
 ---
 title: Perguntas frequentes sobre cálculos para modelos de configuração de produto
 description: Este tópico descreve os cálculos para os modelos de configuração de produto e explica como usar os cálculos juntamente com as restrições.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCConstraintEditor, PCProductConfigurationModelDetails, PCRuntimeConfigurator
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19191
 ms.assetid: 8993f9a1-d1c0-49f5-afd3-5e1077ded0fe
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9463fac363f6bb25c1bd2afebe5737e47aa8b3cf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f7fac3ec6df53dcc6e459f62f76d856a11d294b6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570792"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421849"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Perguntas frequentes sobre cálculos para modelos de configuração de produto
 
@@ -102,6 +105,3 @@ Os cálculos não são incluídos na validação. É necessário testar o modelo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

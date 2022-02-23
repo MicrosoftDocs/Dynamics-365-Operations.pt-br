@@ -2,23 +2,26 @@
 title: Gerenciamento de bonificação comercial
 description: Este tópico descreve o gerenciamento de bonificação comercial do Dynamics 365 Supply Chain Management.
 author: t-benebo
+manager: tfehr
 ms.date: 08/17/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTable, MCRRoyaltyVendTrans, PdsCustRebateGroup, PdsRebateAgreement, TAMCopyTradePromotions, TAMDeduction, TAMDeductionCreate, TAMDeductionDenyReason, TAMDeductionParmDeny, TAMDeductionParmMassUpdate, TAMDeductionParmMatch, TAMDeductionParmSplit, TAMDeductionParmWriteOff, TAMDeductionType, TAMDeductionWriteOffReason, TAMFundManagement, TAMFundUsage, TAMListPage, TAMMarketingObjective, TAMMerchEventType, TAMOneTimePromotion, TAMPromoCompareGraph, TAMPromoStatistic, TAMPromotionAnalysisSummary, TAMPromotionParameters, TAMPromotionPeriod, TAMTemplateListPage, TAMTradePromotionAnalysis, TAMTradePromotions, TAMWhatIfPromotionAnalysis
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 15c003109814d9b4dc2857910e69754e5927ec11138d215056be64424998bf00
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13b665427a4caf206e0a3b3aca6b04c1529b9206
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771266"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422139"
 ---
 # <a name="trade-allowance-management"></a>Gerenciamento de bonificação comercial
 
@@ -59,7 +62,7 @@ Um contrato de bonificação comercial é um programa de incentivo no qual recom
 
 Os fundos alocados para contratos de bonificação comercial são registrados na página **Fundos**. Para abrir a página **Fundos**, selecione **Vendas e marketing** \> **Incentivos comerciais** \> **Fundos** \> **Fundos**.
 
-![Página de fundos.](./media/trade-allowance-management-funds-page.png "Página de fundos")
+![Página de fundos](./media/trade-allowance-management-funds-page.png "Página de fundos")
 
 Na página **Fundos**, você pode exibir os detalhes de fundos promocionais.
 
@@ -75,7 +78,7 @@ Após a definição do fundo, a próxima etapa no planejamento da promoção é 
 
 Os contratos de bonificação comercial são registrados na página **Contratos de bonificação comercial**. Para abrir a página **Contratos de bonificação comercial**, selecione **Vendas e marketing** \> **Incentivos comerciais** \> **Contratos de bonificação comercial**.
 
-![Página de contratos de bonificação comercial.](./media/trade-allowance-management-agreements-page.png "Página de contratos de bonificação comercial")
+![Página de contratos de bonificação comercial](./media/trade-allowance-management-agreements-page.png "Página de contratos de bonificação comercial")
 
 #### <a name="header"></a>Cabeçalho
 
@@ -103,7 +106,7 @@ A guia **Eventos de merchandising** mostra os tipos de eventos cobertos por um c
 
 Quando você seleciona o evento de merchandising e, em seguida, seleciona a guia **Valores**, os detalhes do evento são encontrados.
 
-![Linhas de contrato de bonificação comercial.](./media/trade-allowance-management-agreements-lines.png "Linhas de contrato de bonificação comercial")
+![Linhas de contrato de bonificação comercial](./media/trade-allowance-management-agreements-lines.png "Linhas de contrato de bonificação comercial")
 
 Na seção **Linhas de bonificação comercial**, você especifica as faixas de quantidade ou valor que o cliente deve atingir para que as definições obtenham as recompensas.
 
@@ -197,6 +200,3 @@ Para obter uma visão geral mais analítica das várias medidas de desempenho pa
 
 Para obter uma visão geral mais analítica das várias medidas de desempenho para a promoção, você pode usar a exibição Análise. Para acessar a exibição Análise, clique em **Vendas e marketing** \> **Incentivos comerciais** \> **Contratos de bonificação comercial**. No Painel de Ação, clique em **Análise**. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

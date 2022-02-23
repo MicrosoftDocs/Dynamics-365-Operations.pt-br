@@ -2,13 +2,16 @@
 title: Operação de estoque de saída no POS
 description: Este tópico descreve os recursos da operação de saída do estoque do ponto de venda (POS).
 author: hhaines
+manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,19 +19,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581128"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410075"
 ---
-# <a name="outbound-inventory-operation-in-pos"></a>Operação de estoque de saída no PDV
+# <a name="outbound-inventory-operation-in-pos"></a>Operação de estoque de saída no POS
 
 [!include [banner](includes/banner.md)]
 
 
-Na versão 10.0.10 e posterior do Microsoft Dynamics 365 Commerce, as operações de entrada e saída no ponto de venda (PDV) substituem a operação de separação e recebimento.
+No Microsoft Dynamics 365 Commerce versão 10.0.10 e posterior, as operações de entrada e saída no ponto de venda (PDV) substituem a operação de separação e recebimento.
 
 > [!NOTE]
 > Na versão 10.0.10 e posteriores, todos os novos recursos do aplicativo do POS que estão relacionados ao recebimento do estoque do repositório em relação às ordens de compra e às ordens de transferência serão adicionados à operação de Operações de entrada. Se você estiver usando a operação de separação e recebimento no PDV, recomendamos que você crie uma estratégia para mover-se dessa operação para as novas operações de entrada e saída. Embora a operação de separação e recebimento não seja removida do produto, não haverá mais investimentos nela, de uma perspectiva funcional ou de desempenho, após a versão 10.0.9.
@@ -46,7 +49,7 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 
 ### <a name="create-and-configure-a-number-sequence"></a>Criar e configurar uma sequência numérica
 
-1. Acesse **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
+1. Vá para **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
 2. Na página **Sequências numéricas**, crie uma sequência numérica.
 3. Nos campos **Código de sequência numérica** e **Nome**, insira valores definidos pelo usuário.
 4. Na Guia Rápida **Referências**, selecione **Adicionar**.
@@ -61,7 +64,7 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 
 Os trabalhos em lotes que você criar serão usados para processar documentos que falharam ou expiram. Eles também serão usados quando o número de documentos de estoque ativos que estão sendo processados no PDV exceder um valor configurado pelo sistema.
 
-1. Acesse **Administração do sistema \> Consultas \> Trabalhos em lotes**.
+1. Vá para **Administração do sistema \> Consultas \> Trabalhos em lotes**.
 2. Na página **Trabalho em lotes**, crie dois trabalhos em lote:
 
     - Configure um trabalho para executar a classe **RetailDocumentOperationMonitorBatch**.
@@ -71,7 +74,7 @@ Os trabalhos em lotes que você criar serão usados para processar documentos qu
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Pré-requisito: adicionar a operação de saída ao layout da tela do POS
 
-Antes que a sua organização possa usar a funcionalidade de operação de saída, ela deve configurar a operação do POS da **Operação de saída** em um ou mais [layouts de tela do POS](/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implantar a nova operação em um ambiente de produção, certifique-se de testá-la exaustivamente e treine os usuários para usá-la.
+Antes que a sua organização possa usar a funcionalidade de operação de saída, ela deve configurar a operação do POS da **Operação de saída** em um ou mais [layouts de tela do POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implantar a nova operação em um ambiente de produção, certifique-se de testá-la exaustivamente e treine os usuários para usá-la.
 
 ## <a name="overview"></a>Visão geral
 
@@ -116,13 +119,13 @@ Na exibição **Lista de ordem completa**, você pode selecionar manualmente uma
 
 ### <a name="over-delivery-shipping-validations"></a>Validações de remessa de entrega excedente
 
-As validações ocorrem durante o processo de atendimento para as linhas do documento. Eles incluem validações para entrega excedente. Se um usuário tentar remeter um estoque maior que o solicitado na ordem de transferência, mas a entrega excedida não tiver sido configurada ou se a quantidade recebida exceder a tolerância de entrega excedida configurada para a linha da ordem de transferência, o usuário receberá uma mensagem de erro e não conseguirá remeter a quantidade em excesso.
+As validações ocorrem durante o processo de recebimento para as linhas do documento. Eles incluem validações para entrega excedente. Se um usuário tentar receber um estoque maior que o solicitado na ordem de compra, mas a entrega excedida não tiver sido configurada ou se a quantidade recebida exceder a tolerância de entrega excedida configurada para a linha da ordem de compra, o usuário receberá uma mensagem de erro e não conseguirá receber a quantidade em excesso.
 
 ### <a name="underdelivery-close-lines"></a>Linhas de fechamento insuficiente
 
 No Commerce versão 10.0.12, a funcionalidade foi adicionada, que permite aos usuários do PDV fechar ou cancelar quantidades restantes durante a remessa da ordem de saída se o depósito de saída determinar que ele não pode remeter a quantidade total solicitada. As quantidades também podem ser fechadas ou canceladas posteriormente. Para usar esse recurso, a empresa deve ser configurada para permitir a entrega de ordens de transferência. Além disso, uma porcentagem de entrega insuficiente deve ser definida para a linha da ordem de transferência.
 
-Para configurar a empresa para permitir a subentrega de ordens de transferência, na Sede do Commerce (HQ), Acesse **Gerenciamento de estoque \> Configuração \> Parâmetros de gerenciamento de estoque e depósito**. Na página **Parâmetros de gerenciamento de estoque e de depósito**, na guia **Transferir pedidos**, ative o parâmetro **Aceitar entrega insuficiente**. Em seguida, execute o trabalho do agendador de distribuição **1070** para sincronizar as alterações de parâmetro no canal de armazenamento.
+Para configurar a empresa para permitir a subentrega de ordens de transferência, na Sede do Commerce (HQ), vá para **Gerenciamento de estoque \> Configuração \> Parâmetros de gerenciamento de estoque e depósito**. Na página **Parâmetros de gerenciamento de estoque e de depósito**, na guia **Transferir pedidos**, ative o parâmetro **Aceitar entrega insuficiente**. Em seguida, execute o trabalho do agendador de distribuição **1070** para sincronizar as alterações de parâmetro no canal de armazenamento.
 
 As porcentagens de entrega insuficiente para uma linha da ordem de transferência podem ser predefinidas em produtos como parte da configuração do produto na Sede do Commerce. Como alternativa, eles podem ser definidos ou substituídos em uma linha de ordem de transferência específica por meio da Sede do Commerce (HQ).
 
@@ -190,6 +193,3 @@ As ordens de transferência totalmente remetidas são movidas para a guia **Conc
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Operação de estoque de entrada no POS](pos-inbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

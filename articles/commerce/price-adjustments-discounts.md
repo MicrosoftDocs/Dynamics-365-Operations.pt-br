@@ -2,13 +2,16 @@
 title: Ajustes de preço e descontos
 description: Este artigo oferece informações sobre ajustes de preço e descontos no Dynamics 365 Commerce.
 author: scott-tucker
-ms.date: 06/11/2021
+manager: AnnBe
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15891
 ms.assetid: bab5adf3-ddf0-4c22-a2eb-b4d25b88de99
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 96a695df250cda514b7bd8b9716c0f03fb2bfd28d3af4daedaf1335c3099fbb6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
+ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748489"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4584306"
 ---
 # <a name="price-adjustments-and-discounts"></a>Ajustes de preço e descontos
 
@@ -48,13 +51,3 @@ Há muitos tipos de descontos:
 - **Desconto de remessa** – Um desconto aplicado quando o total da transação é maior do que um valor especificado e um modo de entrega específico (por exemplo, remessa em dois dias ou remessa em 24h) é usado na ordem.
 
 Os ajustes de preço e descontos podem ser associados aos grupos de preços. Os grupos de preços podem ser associados aos canais, aos catálogos, às afiliações e aos programas de fidelidade.
-
-> [!NOTE]
-> O desconto mixo e o desconto limite têm propriedades chamadas "Contar produtos não passíveis de desconto" e "Contar produtos não passíveis de desconto em relação ao limite", respectivamente. Se essas propriedades forem habilitadas, um item que não está qualificado para qualquer outro desconto ainda pode ajudar a qualificar uma transação do desconto, mas o item não qualificado não obterá o desconto. 
-> 
-> Por exemplo, se você criar um desconto misto com duas linhas, A e B, em que um cliente deva obter 10% de desconto em ambos os itens, mas o item A tem uma configuração "Impedir todos os descontos" marcada, isso normalmente impediria que o item A fosse incluso no desconto. No entanto, se a propriedade "Contar produtos não passíveis de desconto" for habilitada, o item A pode ser usado para qualificar para o desconto misto, mas o desconto de 10% será aplicado somente ao item B. Uma lógica semelhante aplica-se ao desconto limite. 
->
-> No entanto, a propriedade "Contar produtos não passíveis de desconto em relação ao limite" tem uma funcionalidade adicional quando comparada com a propriedade "Contar produtos não passíveis de desconto" dos descontos mixos. Se o desconto limite estiver habilitado e não houver um item que tem um desconto existente que impediria qualquer outro desconto ao item, o preço pago para este item será qualificado para o limite, mas o item não obterá o desconto adicional.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

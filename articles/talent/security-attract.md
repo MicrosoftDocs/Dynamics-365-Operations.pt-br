@@ -157,6 +157,3 @@ Candidatos são os contatos que foram adicionados a um grupo de talento, mas nã
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Perfil - detalhes do candidato | Criar, ler, atualizar e excluir | Criar, ler, atualizar e excluir | Sem acesso   |
 | Documentos                   | Criar, ler, atualizar e excluir | Criar, ler, atualizar e excluir | Sem acesso   |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

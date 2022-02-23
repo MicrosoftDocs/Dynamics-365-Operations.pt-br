@@ -1,32 +1,35 @@
 ---
 title: Códigos de motivo de contagem de estoque
 description: Este tópico descreve como configurar e aplicar códigos de motivo para tarefas de contagem.
-author: perlynne
-ms.date: 08/02/2021
+author: Mirzaab
+manager: tfehr
+ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountingReasonCodePolicy, InventCountingReasonCode
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 1025dd00db2e8b87e3c76e3047a7cf470a2d6641
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500581"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421978"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Códigos de motivo de contagem de estoque
 
 [!include [banner](../includes/banner.md)]
 
-Os códigos de motivo permitem analisar os resultados de um processo de contagem e quaisquer discrepâncias que ocorrem durante esse processo. Você pode especificar o motivo da contagem como um palete quebrado ou um ajuste de estoque que é baseado nas amostras de estoque. Ao mesmo tempo, você pode usar a funcionalidade de ajuste para lançar o valor de ajustes de estoque disponível na contrapartida apropriada, com base no motivo para cada ajuste de estoque.
+Os códigos de motivo permitem analisar os resultados de um processo de contagem e quaisquer discrepâncias que ocorrem durante esse processo. Você pode especificar o motivo da contagem como um palete quebrado ou um ajuste de estoque que é baseado nas amostras de estoque.
 
 ## <a name="recommendation"></a>Recomendação
 
@@ -35,30 +38,17 @@ Antes de você configurar o sistema, recomendamos que você defina uma estratég
 - Os códigos de motivos devem ser obrigatórios nos depósitos?
 - Os códigos de motivo devem ser obrigatórios ou opcionais em alguns itens?
 - Quantos códigos de motivo você precisa?
-- Você precisa selecionar previamente uma lista limitada de códigos de motivo para ajustes?
 - Como os usuários do scanner de código de barras usam os códigos de motivo? Os códigos de motivo devem ser pré-selecionados, obrigatórios ou não editáveis?
 - Os funcionários do depósito precisam de código de motivo diferente nos scanners móveis? Se a resposta for sim, você pode criar mais itens de menu e atribuí-los a pessoas diferentes.
-- Os códigos de motivo devem acionar o lançamento da contrapartida financeira?
 
-## <a name="turn-on-reason-code-features-in-your-system"></a>Ativar recursos de código de motivo no seu sistema
+## <a name="where-reason-codes-apply"></a>Onde os códigos de motivo se aplicam
 
-Se você não vir todos os recursos descritos neste tópico no seu sistema, provavelmente precisará ativar o recurso *Ajustes de lançamento disponível usando códigos de motivo configuráveis associados a contrapartidas*. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Você pode criar várias políticas de código de motivo e cada uma pode ter duas políticas de código de montagem de contagem. As políticas de código de motivo de contagem podem ser usadas para o nível de item ou o nível de depósito.
 
-- **Módulo:** *Gerenciamento de depósito*
-- **Nome do recurso:** *Ajustes de lançamento disponível usando códigos de motivo configuráveis associados a contrapartidas*
+## <a name="set-up-reason-code-policies"></a>Configurar políticas de código de motivo
 
-## <a name="set-up-reason-codes"></a>Configurar códigos de motivo
-
-### <a name="set-up-reason-code-policies"></a>Configurar políticas de código de motivo
-
-Você pode criar várias políticas de código de motivo para controlar quando e como os códigos de motivo de contagem são aplicados. Cada diretiva de código de motivo pode ter um dos dois tipos de código de motivo de contagem (*Opcional* ou *Obrigatório*). As políticas de código de motivo de contagem podem ser usadas para o nível de item ou de depósito.
-
-Para criar uma diretiva de código de motivo, siga estas etapas.
-
-1. Acesse **Gerenciamento de estoque** \> **Configuração** \> **Estoque** \> **Políticas de código de motivos para contagem**.
-1. No Painel de Ação, selecione **Novo** para adicionar uma política à grade.
-1. Defina o campo **Nome** para a nova política.
-1. No campo **Tipo de código de motivo de contagem**, selecione *Obrigatório* ou *Opcional* para especificar se a seleção de um código de motivo deve ser opcional ou obrigatório em um destes processos de ajuste de estoque:
+1. Selecione **Gerenciamento de estoque** \> **Configuração** \> **Estoque** \> **Políticas de código de motivo de contagem** e crie uma nova política de código de motivo.
+2. No campo **Tipo de código de motivo de contagem** , selecione **Obrigatório** ou **Opcional** para especificar se a seleção de um código de motivo deve ser uma ação opcional ou obrigatória em um destes diários de contagem:
 
     - Contagem cíclica do (dispositivo móvel)
     - Contagem pontual (dispositivo móvel)
@@ -66,63 +56,34 @@ Para criar uma diretiva de código de motivo, siga estas etapas.
     - Ajuste de Entrada (dispositivo móvel)
     - Ajuste de Saída (dispositivo móvel)
     - Diário de Contagem (cliente avançado)
-    - Ajuste de quantidade/contagem online (cliente avançado)
 
-Você pode configurar políticas de código de motivo para depósitos individuais e para produtos. A configuração de código de motivo para um produto pode anular a configuração do depósito do produto.
+Você também pode configurar códigos de motivo para depósitos individuais e para produtos. A configuração de código de motivo para produtos pode desconsiderar a configuração de depósitos.
 
-> [!NOTE]
-> Para depósitos e itens em que o campo **Política de código de motivo para contagem** esteja definido como *Obrigatório*, o diário de contagem não poderá ser concluído e fechado até que um código de motivo seja fornecido. Para obter mais informações, consulte a próxima seção.
+## <a name="mandatory-reason-codes"></a>Códigos de motivo obrigatórios
 
-### <a name="assign-counting-reason-code-policies-to-warehouses"></a>Atribuir políticas do código de motivo da contagem a depósitos.
+Se o parâmetro **Obrigatório** estiver definido na configuração de códigos de motivo para depósitos ou itens, o diário de contagem não poderá ser concluído e fechado até que um código de motivo seja fornecido.
 
-Para atribuir uma política de código de motivo de contagem a um depósito, siga estas etapas.
+### <a name="set-up-reason-codes-for-warehouses"></a>Configurar códigos de motivo para depósitos
 
-1. Acesse **Gerenciamento do estoque** \> **Configuração** \> **Divisão do estoque** \> **Depósitos**.
-1. No painel da lista, selecione um depósito.
-1. No Painel de Ação, na guia **Depósito**, no grupo **Configurar**, selecione **Política de código de motivo para contagem**. Em seguida, na caixa de diálogo **Atribuir política de código de motivo para contagem**, siga uma destas etapas:
+1. Selecione **Gerenciamento de Estoque** \> **Configuração** \> **Divisão de estoque** \> **Depósitos**.
+2. Na guia **Depósito**, no campo **Política de código de motivo de contagem**, selecione uma das seguintes opções:
 
-    - Para usar a configuração de política para cada item e determinar se os diários de contagem são obrigatórios, não insira um valor (ou exclua o valor existente).
-    - Para exigir um código de motivo em diários de contagem para o depósito, selecione uma política de motivo na qual o campo **Tipo de código de motivo para contagem** esteja definido como *Obrigatório*.
-    - Se um código de motivo for opcional em diários de contagem para o depósito, selecione uma política de motivo na qual o campo **Tipo de código de motivo para contagem** esteja definido como *Opcional*.
+    - **Em branco** – O parâmetro configurado para o item é usado para determinar se os diários de contagem são obrigatórios para o produto.
+    - **Obrigatório** – Um código de motivo é sempre necessário em diários de contagem do depósito.
+    - **Opcional** – Um código de motivo não é necessário em diários de contagem do depósito.
 
-### <a name="assign-counting-reason-code-policies-to-products"></a>Atribuir políticas do código de motivo da contagem a produtos.
+### <a name="set-up-reason-codes-for-products"></a>Configurar códigos de motivo para produtos
 
-Para atribuir uma política de código de motivo de contagem a um produto, siga estas etapas.
+1. Selecione **Gerenciamento de informações sobre produto** \> **Produtos** \> **Produtos liberados**.
+2. Na guia **Produto**, selecione **Política de código de motivo de contagem** e, em seguida, selecione uma das seguintes opções:
 
-1. Acesse **Gerenciamento de informações do produto** \> **Produtos** \> **Produtos liberados**.
-1. Selecione um produto na grade.
-1. No Painel de Ação, na guia **Produto**, no grupo **Configurar**, selecione **Política de código de motivo para contagem**. Em seguida, na caixa de diálogo **Atribuir política de código de motivo para contagem**, siga uma destas etapas:
+    - **Em branco** – O parâmetro configurado para o depósito é usado para determinar se os diários de contagem são obrigatórios para o produto.
+    - **Obrigatório** – Um código de motivo é sempre necessário em diários de contagem do produto. Essa configuração substitui qualquer configuração de código de motivo em nível de depósito.
+    - **Opcional** – Um código de motivo não é necessário em diários de contagem do produto. Essa configuração substitui qualquer configuração de código de motivo em nível de depósito.
 
-    - Para usar a configuração de política para o depósito e determinar se os diários de contagem são obrigatórios para o produto, não insira um valor (ou exclua o valor existente).
-    - Para exigir um código de motivo em diários de contagem para o produto, selecione uma política de motivo na qual o campo **Tipo de código de motivo para contagem** esteja definido como *Obrigatório*. Essa configuração substitui qualquer configuração de código de motivo em nível de depósito.
-    - Se um código de motivo for opcional em diários de contagem para o produto, selecione uma política de motivo na qual o campo **Tipo de código de motivo para contagem** esteja definido como *Opcional*. Essa configuração substitui qualquer configuração de código de motivo em nível de depósito.
+### <a name="use-reason-codes-in-counting-journals"></a>Usar códigos de motivo em diários de contagem
 
-### <a name="set-up-counting-reason-codes"></a>Configurar códigos de motivo para contagem
-
-Para configurar os códigos de motivo para contagem, siga estas etapas.
-
-1. Acesse **Gerenciamento de estoque** \> **Configuração** \> **Estoque** \> **Códigos de motivos para contagem**.
-1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade.
-1. Defina os campos **Código de motivo para contagem** e **Descrição** para a nova linha.
-1. Para atribuir uma contrapartida, insira ou selecione um valor no campo **Contrapartida**.
-
-    > [!NOTE]
-    > Se uma contrapartida for atribuída a um código de motivo para contagem, quando você lançar um diário de contagem usando o código de motivo para contagem, o valor será lançado na contrapartida atribuída, e não na conta de perfil de lançamentos de estoque padrão.
-
-### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Configurar grupos de código de motivo para contagem
-
-Os *Grupos de códigos de motivo para contagem* podem ser usados como parte dos itens de menu *Ajuste de entrada* e *Ajuste de saída* no aplicativo móvel Warehouse Management para limitar a lista de códigos de motivo para contagem. (Para obter mais informações sobre grupos de código de motivo para contagem, consulte a seção [Configurar itens de menu do dispositivo móvel para ajuste de saída e de entrada](#setup-adjustment-in-out) posteriormente neste tópico.)
-
-1. Acesse **Gerenciamento de estoque** \> **Configuração** \> **Estoque** \> **Grupos de código de motivos para contagem**.
-1. No Painel de Ações, selecione **Novo** para adicionar um grupo.
-1. Defina os campos **Grupo de motivo para contagem** e **Descrição do grupo** para o novo grupo.
-1. No Painel de ações, selecione **Salvar**.
-1. Na seção **Detalhes**, selecione **Novo** na barra de ferramentas para adicionar uma linha à grade. Depois, defina o campo **Código de motivo para contagem** para a nova linha. 
-1. Repita a etapa anterior para atribuir mais códigos, conforme necessário. Se você tiver que remover um código do grupo, selecione-o e depois selecione **Excluir** na barra de ferramentas.
-
-### <a name="set-up-reason-codes-for-mobile-device-menu-items"></a>Configurar códigos de motivo para itens de menu do dispositivo móvel
-
-Você pode configurar códigos de motivo para os seguintes tipos de ajuste disponíveis:
+Em um diário de contagem, você pode adicionar códigos de motivo a contagem dos seguintes tipos:
 
 - Contagem Cíclica
 - Contagem Pontual
@@ -130,92 +91,56 @@ Você pode configurar códigos de motivo para os seguintes tipos de ajuste dispo
 - Ajuste de Entrada
 - Ajuste de Saída
 
-Na maioria dos casos, você pode definir as seguintes informações para cada item de menu de dispositivo móvel relevante:
+Os códigos de motivo são adicionados às linhas do diário nos diários de contagem do tipo **Diário de contagem** .
+
+1. Selecione **Gerenciamento de estoque** \> **Entradas de diário** \> **Contagem de itens** \> **Contagem**.
+2. Nos detalhes da linha do diário de contagem, no campo **Código de motivo de contagem**, selecione uma opção.
+
+### <a name="view-the-counting-history-as-its-recorded-by-reason-codes"></a>Exiba o histórico de contagem como é registrado pelos códigos de motivo
+
+- Selecione **Gerenciamento de estoque** \> **Consultas e relatórios** \> **Histórico de contagem** e no campo **Código de motivo de contagem**, exiba o histórico de contagem que foi registrado através de um código de motivo.
+
+### <a name="use-a-reason-code-for-a-quantity-adjustment"></a>Use um código de motivo para um ajuste de quantidade
+
+1. Na página **Estoque disponível**, selecione **Ajustar quantidade**. Você pode abrir a página **Estoque disponível** de várias formas. Por exemplo, selecione **Gerenciamento de estoque** \> **Consultas e relatórios** \> **Estoque disponível**.
+2. Selecione **Ajustar quantidade** e no campo **Código de motivo de contagem**, selecione um código de motivo.
+
+### <a name="configure-reason-codes-for-mobile-device-menu-items"></a>Configurar códigos de motivo para itens de menu de dispositivo móvel
+
+Você pode configurar códigos de motivo para qualquer tipo de contagem em um item de menu de dispositivo móvel. A configuração de itens de menu de dispositivo móvel inclui as seguintes informações:
 
 - Se o código será for mostrado ao trabalhador do dispositivo móvel durante a contagem.
 - O código de motivo padrão que é mostrado em um item de menu do dispositivo móvel.
 - Se o usuário pode editar o código de motivo.
 
-#### <a name="set-up-mobile-device-menu-items-for-a-counting-process"></a>Configurar itens de menu do dispositivo móvel para um processo de contagem
+### <a name="set-up-reason-codes-on-a-mobile-device"></a>Configurar códigos de motivo em um dispositivo móvel
 
-Para configurar um item de menu do dispositivo móvel para um processo de contagem, siga as etapas a seguir.
-
-1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
-1. Selecione o item de menu relevante no painel de lista ou crie um novo item de menu.
-1. No Painel de Ação, selecione **Contagem cíclica**.
-1. No campo **Código de motivo de contagem padrão** , defina o código de motivo padrão que deve ser registrado quando o item de menu de dispositivo móvel é usado para fazer a contagem.
-1. No campo **Exibir código de motivo para contagem**, selecione um dos valores a seguir:
-
-    - *Linha* – Mostra o código de motivo após cada variação ser registrada.
-    - *Ocultar* – Não mostra o código de motivo.
-
-1. Defina a opção **Editar código de motivo para contagem** como *Sim* para permitir que o trabalhador edite o código de motivo quando ele for mostrado no dispositivo móvel durante a contagem. Defina-o como *Não* para impedir que o trabalhador edite o código.
+1. Selecione **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
+2. Na guia **Contagem cíclica** , selecione **Contagem cíclica**.
+3. No campo **Código de motivo de contagem padrão** , defina o código de motivo padrão que deve ser registrado quando contagem é feita usando o item de menu de dispositivo móvel.
+4. No campo **Exibir código de motivo de contagem** , selecione **Linha** para mostrar o código de motivo após cada variação ser registrada. Como alternativa, selecione **Ocultar** se o código de motivo não tiver que ser mostrado.
+5. Defina a opção **Editar código de motivo de contagem** como **Sim** ou **Não**. Se você definir esta opção como **Sim**, o trabalhador poderá editar o código de motivo quando ele for mostrado no dispositivo móvel durante a contagem.
 
 > [!NOTE]
-> O botão **Contagem cíclica** pode ser habilitado em qualquer item de menu de dispositivo móvel onde a contagem pode ser feita. Os exemplos incluem itens de menu para contagens pontuais, trabalho direcionado ao usuário e trabalho direcionado ao sistema.
+> O botão **Contagem cíclica** pode ser habilitado em qualquer item de menu de dispositivo móvel onde a contagem pode ser feita. O exemplo inclui itens de menu para contagens pontuais, trabalho direcionado ao usuário e trabalho direcionado ao sistema.
 
-#### <a name="set-up-mobile-device-menu-items-for-adjustment-in-and-adjustment-out"></a><a name="setup-adjustment-in-out"></a>Configurar os itens de menu do dispositivo móvel para Ajuste de entrada e Ajuste de saída
+## <a name="cycle-count-approvals"></a>Aprovações de contagem cíclica
 
-Para configurar um item de menu do dispositivo móvel para ajuste de entrada e de saída, siga as etapas a seguir.
+Antes de uma contagem ser aprovada, o usuário pode alterar o código de motivo associado à contagem. Quando a contagem for aprovada, o código de motivo será inserido nas linhas de diário da contagem.
 
-1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
-1. No Painel de Ação, selecione **Novo** para criar um item de menu.
-1. Defina os campos **Nome do item móvel** e **Cargo** para o novo item de menu.
-1. Defina o campo **Modo** como *Trabalho*.
-1. Defina a opção **Usar trabalho existente** como *Não*.
-1. No campo **Processo de criação de trabalho**, selecione *Ajuste de entrada* ou *Ajuste de saída*.
-1. Na Guia Rápida **Geral**, defina os seguintes campos. (Todos esses campos são adicionados quando você seleciona *Ajuste de entrada* ou *Ajuste de saída* no campo **Processo de criação de trabalho**.)
+### <a name="modify-cycle-count-approvals"></a>Modificar aprovações de contagem cíclica
 
-    - **Usar guia de processos** – Se você estiver criando um processo de *Ajuste de saída*, certifique-se de definir esta opção como *Sim*. Se você estiver criando um processo de *Ajuste de saída*, esta opção será sempre definida como *Sim*.
-    - **Código de motivo de contagem padrão** - Defina o código de motivo padrão que deve ser registrado quando o item de menu de dispositivo móvel é usado para fazer a contagem.
-    - **Exibir código de motivo para contagem** - Selecione um dos valores a seguir:
+1. Selecione **Gerenciamento de depósito** \> **Contagem cíclica** \> **Trabalho de contagem cíclica com revisão pendente**.
+2. Selecione **Contagem cíclica** e, em seguida, no campo **Código de motivo**, selecione um novo código de motivo.
 
-        - *Linha* – Mostra o código de motivo após cada variação ser registrada.
-        - *Ocultar* – Não mostra o código de motivo.
+### <a name="modify-the-mobile-device-menu-item-for-adjustment-in-and-adjustment-out"></a>Modificar o item de menu do dispositivo móvel para Ajuste de entrada e Ajuste de saída
 
-    - **Editar código de motivo para contagem** - Defina esta opção como *Sim* para permitir que o trabalhador edite o código de motivo quando ele for mostrado no dispositivo móvel durante a contagem. Defina-o como *Não* para impedir que o trabalhador edite o código.
-    - **Grupo de códigos de motivo para contagem** – Selecione um grupo de códigos de motivo se quiser limitar a lista de opções que é apresentada aos trabalhadores. Para obter informações sobre como configurar grupos de códigos de motivo, consulte a seção [Configurar grupos de códigos de motivo para contagem](#reason-groups) anteriormente neste tópico. 
+1. Selecione **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel** e depois **Ajuste de entrada e saída**.
+2. Defina a opção **Usar trabalho existente** como **Não**.
+3. No campo **Processo de criação de trabalho**, selecione **Ajuste de entrada**.
 
-> [!NOTE]
-> Quando você atribui um grupo de códigos de motivo para contagem aos itens de menu *Ajuste de entrada* e *Ajuste de saída* em que a opção **Usar guia de processos** esteja definida como *Sim*, você pode obter uma lista limitada dos códigos de motivo para contagem como parte do processamento no aplicativo móvel Warehouse Management.
->
-> A opção **Usar guia de processos** também pode ajudar a evitar que grandes quantidades de ajuste ocorram por engano. (Por exemplo, um trabalhador pode digitalizar acidentalmente um código de barras de um número de item em vez de um valor de quantidade.) Para definir essa funcionalidade, defina a opção **Usar guia de processos** como *Sim* para cada item de menu relevante. Em seguida, Acesse **Gerenciamento de depósito \> Configuração \> Trabalhador** e defina o campo **Limite de quantidade do ajuste** para cada trabalhador de depósito relevante para especificar a quantidade de ajuste máximo que o trabalhador pode registrar.
+Os campos a seguir serão adicionados ao item de menu do dispositivo móvel quando **Ajuste de entrada** ou **Ajuste de saída** for selecionado durante o processo de criação de trabalho:
 
-## <a name="processing-that-uses-counting-reason-codes"></a>Processamento que usa códigos de motivo para contagem
-
-Quando os trabalhadores usam o aplicativo móvel Warehouse Management, os códigos de motivo são registrados. A menos que um processo de aprovação de contagem tenha sido definido, os códigos de motivo registrados são usados imediatamente como parte do lançamento do diário de contagem, a seguir.
-
-### <a name="cycle-count-approvals"></a>Aprovações de contagem cíclica
-
-Antes de uma contagem ser aprovada, o trabalhador pode alterar o código de motivo associado à contagem. Quando a contagem for aprovada, o código de motivo será inserido nas linhas de diário da contagem.
-
-#### <a name="modify-reason-codes-for-cycle-count-approvals"></a>Modificar códigos de motivo para aprovações de contagem de ciclos
-
-Para modificar uma aprovação de contagem de ciclo, siga estas etapas.
-
-1. Acesse **Gerenciamento de depósito** \> **Contagem cíclica** \> **Trabalho de contagem cíclica com revisão pendente**.
-1. Selecione um contagem de ciclo na grade.
-1. No Painel de ações, na guia **Trabalho**, selecione **Contagem cíclica**. Em seguida, no código **Motivo**, selecione um novo código de motivo.
-
-Os códigos de motivo são adicionados às linhas do diário nos diários de contagem do tipo *Diário de contagem* .
-
-1. Acesse **Gerenciamento de estoque** \> **Entradas de diário** \> **Contagem de itens** \> **Contagem**.
-2. Nos detalhes da linha do diário de contagem, no campo **Código de motivo para contagem**, selecione o código de motivo que corresponde à sua situação atual.
-
-### <a name="view-the-reason-codes-recorded-in-the-counting-history"></a>Visualizar os códigos de motivo registrados no histórico de contagem
-
-Para exibir os códigos de motivo que foram registrados no histórico de contagem, siga estas etapas.
-
-1. Acesse **Gerenciamento de estoque** \> **Consultas e relatórios** \> **Histórico de contagem**.
-1. Selecione um registro de contagem de itens no painel de lista.
-1. No campo **Código de motivo de contagem**, exiba o histórico de contagem que foi registrado por meio de um código de motivo.
-
-### <a name="use-reason-codes-for-quantity-adjustment-or-online-counting"></a>Usar códigos de motivo para ajuste de quantidade ou contagem online
-
-Para usar um código de motivo para um ajuste de quantidade ou contagem online, siga estas etapas.
-
-1. Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível**.
-1. No Painel de Ações, selecione **Ajuste de quantidade**.
-1. Selecione **Ajuste de quantidade** e no campo **Código de motivo de contagem**, selecione um código de motivo.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- Código de motivo de contagem padrão
+- Exibir código de motivo de contagem
+- Editar código de motivo de contagem

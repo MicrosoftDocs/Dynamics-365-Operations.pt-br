@@ -1,24 +1,26 @@
 ---
 title: Criar uma requisição que use um RFQ
 description: Este tópico explica como adicionar o preço e a informação do vendedor a uma requisição da compra de um processo do RFQ.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqLineRelatedDocuments, EcoResCategorySingleLookup, PurchReqWorkflowDropDialog, WorkflowSubmitDialog, WorkflowStatus, WorkflowWorkItemActionDialog, WorkflowUserListLookup, PurchReqCopyRFQ, SysDataAreaSelectLookup, PurchRFQCaseTable, PurchRFQEditLines, PurchRFQReplyTable, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f88d50c24e84b94128aa3fd567562f3240832910
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 05ff98b5fd95fa345d344e54d9116c73434e5de5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578047"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018887"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Criar uma requisição que use um RFQ
 
@@ -28,7 +30,7 @@ Este tópico explica como adicionar o preço e a informação do vendedor a uma 
 
 
 ## <a name="create-a-requisition"></a>Criar um requisito
-1. No Painel de Navegação, Acesse **Módulos > Aquisição e fornecimento > Requisições de compra > Requisições de compra preparadas por mim**.
+1. No Painel de Navegação, vá para **Módulos > Aquisição e fornecimento > Requisições de compra > Requisições de compra preparadas por mim**.
 2. Selecione **Novo**.
 3. No campo **Nome**, digite um valor.
 4. No campo **Data solicitada**, insira uma data.
@@ -96,6 +98,3 @@ A tarefa seguinte é criar um RFQ para obter ofertas dos vendedores para o produ
 8. Selecione a página.
 9. Selecione Concluído.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

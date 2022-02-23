@@ -2,25 +2,28 @@
 title: Relatório Especificação de imposto por transação do razão
 description: Este tópico explica como usar o relatório Especificação de imposto por transação do razão para exibir e imprimir informações sobre transações do razão para as quais o imposto é calculado.
 author: ericwang
+manager: Ann Beebe
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: f835f06c190f1d174fbde6b68f189b0484a7b39610bc2edc0676a3e2fa320268
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 438a640124e778b839c660f5e161efa22c319af0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721746"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440202"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>Relatório Especificação de imposto por transação do razão
 [!include [banner](../includes/banner.md)]
@@ -54,7 +57,4 @@ Quando você gera o relatório, os seguintes campos padrão são disponibilizado
 
 Para mostrar apenas contas não fiscais no relatório, configure uma condição de filtro, como um asterisco (\*), conforme mostrado na ilustração a seguir.
 
-![Relatório mostrando contas não fiscais.](media/taxspecperledgertrans.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Relatório mostrando contas não fiscais](media/taxspecperledgertrans.png)

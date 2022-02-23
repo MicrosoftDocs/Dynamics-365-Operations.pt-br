@@ -1,32 +1,35 @@
 ---
-title: Valor de arredondamento de cálculos de depreciação
-description: Este tópico discute o campo Arredondar depreciação, encontrado nas páginas da Configuração de registro.
-author: moaamer
+title: Valor de arredondamento para cálculos de depreciação
+description: Este artigo discute o campo Arredondar depreciação, encontrado nas páginas no registro de depreciações.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3df48fc7bb092b0257c4652a8c67d1d740dbcfe
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 40fd019b1b5900fbd15866d9d3c32ed6d88147b4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674324"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440407"
 ---
-# <a name="round-off-amount-for-depreciation-calculations"></a>Valor de arredondamento de cálculos de depreciação
+# <a name="round-off-amount-for-depreciation-calculations"></a>Valor de arredondamento para cálculos de depreciação
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico discute o campo **Arredondar depreciação**, encontrado nas páginas da **Configuração de registro**.
+Este artigo discute o campo Arredondar depreciação, encontrado nas páginas no registro de depreciações.
 
 Montantes de amortização arredondados são definidos para cada livro. Os valores de depreciação arredondados são usados no perfil de depreciação de ativo fixo que mostra a depreciação e o valor futuro do ativo fixo, e também nas propostas de depreciação. Insira o menor valor de depreciação que é permitido para o registro. 
 
@@ -47,6 +50,3 @@ Depreciação sem arredondamento é calculada como 2.444,44. Como mostrado na ta
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

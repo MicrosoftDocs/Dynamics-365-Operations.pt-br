@@ -2,9 +2,11 @@
 title: Diagnóstico de segurança de gravações de tarefas
 description: Este tópico fornece informações sobre como analisar e gerenciar requisitos de permissão de segurança com base em uma gravação de tarefas.
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745111"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679781"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnóstico de segurança de gravações de tarefas
 
@@ -30,7 +32,7 @@ Este tópico fornece informações sobre como analisar e gerenciar requisitos de
 
 ## <a name="manage-security-for-a-task-recording"></a>Gerenciar a segurança de um registro de tarefa
 
-1. Acesse **Administração do sistema** > **Segurança** > **Diagnóstico de segurança para registro de tarefa**.
+1. Vá para **Administração do sistema** > **Segurança** > **Diagnóstico de segurança para registro de tarefa**.
 2. Abra o registro de tarefa a partir da localização. Selecione **Abrir neste PC** ou **Abrir a partir do Lifecycle Services** e selecione **Fechar**.
 3. Isso abrirá a página **Detalhes do item de menu segurança** que lista os objetos de segurança necessários para o processo.
 
@@ -39,7 +41,7 @@ Este tópico fornece informações sobre como analisar e gerenciar requisitos de
 
 4. No campo **ID de usuário**, selecione um usuário. Se o usuário não tiver permissões para alguns itens de menu, o campo **Permissões ausentes** será atualizado para **Sim**.
   
-  ![Página de detalhes do item de menu de segurança.](../media/Security-Menu-Item-Details.png)
+  ![Página de detalhes do item de menu de segurança](../media/Security-Menu-Item-Details.png)
 
 5. Selecione **Adicionar referência** para ver uma lista dos objetos de segurança, incluindo as funções, as obrigações e os privilégios que concedem a permissão ausente.
 6. Selecione um objeto de segurança na lista:
@@ -47,6 +49,3 @@ Este tópico fornece informações sobre como analisar e gerenciar requisitos de
     - Se a **função** for selecionada, selecione **Adicionar função ao usuário**. Isso abrirá a página **Atribuir usuários a funções**. Para obter mais informações, consulte a página [Atribuir usuários a funções de segurança](assign-users-security-roles.md).
     - Se **Obrigação** estiver selecionado, selecione **Adicionar obrigação à função**, selecione as funções às quais o imposto deve ser adicionado e, em seguida, selecione **OK**.
     - Se **Privilégio** estiver selecionado, selecione **Adicionar privilégio a obrigações**, selecione as funções às quais o imposto deve ser adicionado e, em seguida, selecione **OK**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

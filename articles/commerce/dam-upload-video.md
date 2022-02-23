@@ -1,13 +1,16 @@
 ---
 title: Carregar vídeos
-description: Este tópico descreve como carregar vídeos no construtor de sites do Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve como carregar vídeos no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 06/09/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735621"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594299"
 ---
 # <a name="upload-videos"></a>Carregar vídeos
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como carregar vídeos no construtor de sites do Microsoft Dynamics 365 Commerce.
+Este tópico descreve como carregar vídeos no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão Geral
 
 A Biblioteca de Mídia do assistente para criação de sites do Commerce permite carregar vídeos. Você sempre deve carregar a versão de um vídeo com a taxa de bits e a resolução mais altas, porque o vídeo será convertido automaticamente para se adequar a diferentes portas de exibição e seus pontos de interrupção.
 
@@ -35,7 +40,7 @@ A Biblioteca de Mídia do assistente para criação de sites do Commerce permite
 Ao carregar um vídeo, as informações a seguir podem ser especificadas.
 
 - **Título, descrição, palavras-chave**: metadados do vídeo.
-- **Gerar legenda oculta automaticamente**: especifica se a legenda oculta deve ser gerada automaticamente para o vídeo (somente o idioma inglês é compatível). 
+- **Gerar automaticamente legendas ocultas**: especifica se as legendas ocultas devem ser geradas automaticamente para o vídeo.
 - **Legenda Oculta**: especifica as legendas ocultas a serem usadas.
 - **Áudio Regular**: especifica a trilha de áudio comum a ser usada.
 - **Miniatura**: especifica a miniatura do vídeo. Se não especificada, será gerada automaticamente.
@@ -68,6 +73,3 @@ Se você estiver carregando vários tipos de ativos simultaneamente (por exemplo
 [Personalizar pontos focais da imagem](dam-custom-focal-point.md)
 
 [Carregar e atender arquivos estáticos](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

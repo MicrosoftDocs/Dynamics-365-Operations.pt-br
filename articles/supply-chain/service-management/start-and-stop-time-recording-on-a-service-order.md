@@ -1,26 +1,29 @@
 ---
 title: Iniciar e parar a folha de ponto em uma ordem de serviço
 description: Iniciar e parar a folha de ponto em uma ordem de serviço.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f6a704629b70fceb6cf0c3d1b689a750bbcb468
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9590a4924442ceccf6f30c35e1dce907f54d368e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567814"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421853"
 ---
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>Iniciar e parar a folha de ponto em uma ordem de serviço 
 
@@ -62,6 +65,3 @@ Use este procedimento para iniciar e parar a o registro de uma ordem serviço pa
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,30 +2,36 @@
 title: Configurar um depósito
 description: Este tópico descreve como configurar um depósito a ser usado com um novo canal no Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734010"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410181"
 ---
 # <a name="warehouse-set-up"></a>Configuração do depósito
+
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como configurar um depósito a ser usado com um novo canal no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
 
 Cada canal do Commerce requer que um depósito configurado seja associado a ele. Os procedimentos a seguir fornecem a configuração mínima necessária para um depósito de um canal do Commerce. Para obter mais informações sobre configuração de depósitos, consulte a [Visão geral de gerenciamento de depósito](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -35,7 +41,7 @@ Antes de configurar um depósito, você precisa configurar um site de depósito.
 
 Para configurar um site de depósito, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Sites**.
+1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Sites**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **Site**, insira um valor.
 1. No campo **Nome**, insira um valor.
@@ -45,13 +51,13 @@ Para configurar um site de depósito, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de site de depósito.
 
-![Exemplo de site de depósito.](media/warehouse-site.png)
+![Exemplo de site de depósito](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse&quot;></a>Configurar um depósito
+## <a name="set-up-a-warehouse"></a>Configurar um depósito
 
 Para configurar um depósito, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
+1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **Depósito**, insira um valor.  No caso de um mapeamento 1:1 para uma loja, use o nome da loja ou o nome de um centro de distribuição regional.
 1. No campo **Nome**, insira um valor.
@@ -61,14 +67,14 @@ Para configurar um depósito, siga estas etapas.
     - Se você quiser definir um **Depósito de trânsito**, primeiro, precisará seguir estas etapas para criar um depósito adicional no qual o **Tipo** seja definido como **Trânsito**.
 1. No painel de ação, selecione **Salvar**.
 
-## <a name=&quot;set-up-inventory-aisles&quot;></a>Configurar corredores do estoque
+## <a name="set-up-inventory-aisles"></a>Configurar corredores do estoque
 
 Para configurar corredores de estoque, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Configuração de localização \> Corredores de estoque**.
+1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Configuração de localização \> Corredores de estoque**.
 1. No painel de ação, selecione **Novo**.
 1. Na lista suspensa **Depósito**, selecione o depósito criado anteriormente.
-1. No campo **Corredor**, insira um nome (por exemplo, &quot;Padr").
+1. No campo **Corredor**, insira um nome (por exemplo, "Padr").
 1. No campo **Nome**, insira um nome (por exemplo, "Corredor padrão").
 1. No painel de ação, selecione **Salvar**.
 
@@ -76,7 +82,7 @@ Para configurar corredores de estoque, siga estas etapas.
 
 Para configurar localizações de estoque no depósito para estoque padrão, danificado e devolvido, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
+1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
 1. Selecione o estoque criado anteriormente.
 1. No painel de ação, selecione **Editar**.
 1. No painel de ação, selecione **Depósito** e, depois, **Localização de estoque**.
@@ -98,13 +104,13 @@ Para configurar localizações de estoque no depósito para estoque padrão, dan
     
 A imagem a seguir mostra uma configuração de localização de estoque no depósito de São Francisco.
 
-![Exemplo de configuração de localização no estoque.](media/warehouse-inventory-locations.png)
+![Exemplo de configuração de localização no estoque](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Concluir a configuração de depósito
 
 Para concluir a configuração do depósito, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
+1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
 1. Selecione o estoque criado anteriormente.
 1. No painel de ação, selecione **Editar**.
 1. Em **Gerenciamento de estoque e depósito**:
@@ -121,7 +127,7 @@ Para concluir a configuração do depósito, siga estas etapas.
 
 A imagem a seguir mostra detalhes de um depósito configurado.
 
-![Exemplo de depósito configurado.](media/warehouse-sample.png)
+![Exemplo de depósito configurado](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -141,6 +147,3 @@ A imagem a seguir mostra detalhes de um depósito configurado.
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: " Cancelar notas fiscais do fornecedor"
 description: Este tópico fornece informações sobre como cancelar uma nota fiscal do fornecedor para o Brasil.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/05/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: f5b2d1971ef64726bedbc1eb042dd189b26db28648142015eadfc3dc603a5dab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 162f8310685e0ef1f67e14a20e207d15e8e8527c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962591"
 ---
 # <a name="cancel-vendor-fiscal-documents"></a> Cancelar notas fiscais do fornecedor
 [!include [banner](../includes/banner.md)]
@@ -43,6 +45,3 @@ Você pode cancelar as notas fiscais incorretas de fornecedor que uma entidade l
 [Cancelar uma nota fiscal complementar de compra](https://github.com/MicrosoftDocs/DynamicsAX2012-technet/blob/master/dynamicsax2012-technet/bra-cancel-a-purchase-complementary-fiscal-document.md)
 
 [Cancelar uma nota fiscal de cliente](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/bra-cancel-cus-fis-doc/articles/financials/localizations/latam-bra-cancel-customer-fiscal-documents.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

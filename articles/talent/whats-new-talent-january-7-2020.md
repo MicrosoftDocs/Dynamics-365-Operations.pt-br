@@ -53,6 +53,3 @@ Esta alteração adiciona uma opção de exclusão no formulário **Trabalhadore
 5. Defina a permissão **Excluir** para Conceder.
 6. Selecione a guia **Objetos não publicados**.
 7. Selecione **Publicar tudo**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

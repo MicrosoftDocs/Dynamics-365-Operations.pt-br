@@ -1,32 +1,30 @@
 ---
 title: Otimizar o desempenho com tarefas de limpeza automática
-description: Este tópico explica como melhorar o desempenho com o Microsoft Dynamics 365 Human Resources limpando o histórico de trabalhos em lotes.
-author: twheeloc
-ms.date: 08/21/2021
+description: Este artigo explica como resolver alguns problemas de desempenho com o Microsoft Dynamics 365 Human Resources limpando o histórico de trabalhos em lotes.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a293b128364b8b0b293da03495d55e46f6b01fd6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a983fde8ba393ab25f2b330014e04a1379f0e4d0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066084"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417230"
 ---
-# <a name="optimize-performance-with-auto-cleanup-tasks"></a>Otimizar o desempenho com tarefas de limpeza automática
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="optimize-performance-with-auto-cleanup-tasks"></a>Otimizar o desempenho com tarefas automáticas de limpeza
 
 **Emissão**
 
@@ -44,28 +42,25 @@ Agende uma tarefa automática limpar o histórico de trabalhos em lotes. Recomen
 
 2. Na barra **Pesquisa** , insira **Limpeza de histórico de trabalhos em lote**.
 
-   ![Pesquisar limpeza de histórico de trabalhos em lotes.](media/talent-batch-history-cleanup-search-bar.png)
+   ![Pesquisar limpeza de histórico de trabalhos em lotes](media/talent-batch-history-cleanup-search-bar.png)
 
 3. No **Limite de histórico (dias)**, insira **30**.
 
-   ![Defina o limite de histórico como 30.](media/talent-batch-history-cleanup-history-limit.png)
+   ![Defina o limite de histórico como 30](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Selecione **Executar em segundo plano** e **Recorrência**.
 
-   ![Definir a recorrência.](media/talent-batch-history-cleanup-recurrence.png)
+   ![Definir a recorrência](media/talent-batch-history-cleanup-recurrence.png)
 
 5. Em **Definir a recorrência**, defina a **Data inicial** e a **Hora inicial** para ocorrer fora do horário comercial ou no final de semana e selecione **NENHUMA DATA DE TÉRMINO**. 
 
-   ![Definir a data e a hora de início da recorrência.](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definir a data e a hora de início da recorrência](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. Em **PADRÃO DE RECORRÊNCIA**, selecione **Dias** e **REPETIR APÓS O INTERVALO ESPECIFICADO** como **7**.
 
-   ![Definir limpeza para ser repetida semanalmente.](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Definir limpeza para ser repetida semanalmente](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. Selecione **OK**.
 
 8. Altere quaisquer outros parâmetros em **Executar em segundo plano** conforme necessário e selecione **OK**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

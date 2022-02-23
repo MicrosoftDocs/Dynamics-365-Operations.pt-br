@@ -2,9 +2,11 @@
 title: NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
 description: Este tópico fornece informações sobre as vantagens e isenções de imposto ICMS em notas fiscais para o Brasil.
 author: gionoder
+manager: AnnBe
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 309ad74a5fa00ca94d4edab54eb98338044eb6b3fc61d8a86dae5a5dea720351
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfb5c474c84cb95a21ce8a2c83a24e615f058140
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751240"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968349"
 ---
 # <a name="nt2019001---tax-benefits-and-exemptions-rules-for-nf-enfc-e"></a>NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
 
@@ -51,7 +53,7 @@ Por meio deste recurso, os usuários executarão as seguintes tarefas:
 > [!NOTE]
 > Essas informações só se aplicam ao Microsoft Dynamics 365 Finance e ao Dynamics 365 Supply Chain Management.
 
-1. Acesse **Administração da organização \> Organizações \> Estabelecimentos fiscais \> Estabelecimentos fiscais**.
+1. Vá para **Administração da organização \> Organizações \> Estabelecimentos fiscais \> Estabelecimentos fiscais**.
 2. Selecione o estabelecimento fiscal.
 3. Na FastTab **NF-e e NFC-e federal**, selecione **Editar**.
 4. Na seção **Notas técnicas da NF-e**, defina a opção **Habilitar nota técnica de NF-e** como **Sim**.
@@ -73,17 +75,17 @@ O novos parâmetros a seguir foram introduzidos:
 
 Os parâmetros **Adicionar marcas isentas** e **Validar códigos de benefício** devem ser configurados para a mesma autoridade que está configurada no estabelecimento e a autoridade deve ser do mesmo estado do endereço do estabelecimento.
 
-1. Acesse **Administração da organização \> Organizações \> Documentos fiscais eletrônicos \> Parâmetros de NF-e federal**.
+1. Vá para **Administração da organização \> Organizações \> Documentos fiscais eletrônicos \> Parâmetros de NF-e federal**.
 2. Na guia **Serviços Web**, no campo **Autoridade**, selecione a mesma autoridade que está configurada no estabelecimento.
 3. Na guia **Estados atendidos**, marque ou desmarque as caixas de seleção **Adicionar marcas de isenção** e **Validar códigos de benefício** de acordo com a legislação estadual.
 
-![Configurações de estabelecimento fiscal e de autoridade.](media/bra_tax_benefits_from_NT2019_001_parameters.png)
+![Configurações de estabelecimento fiscal e de autoridade](media/bra_tax_benefits_from_NT2019_001_parameters.png)
 
 ## <a name="set-up-benefit-codes"></a>Configurar códigos de benefícios
 
 Os códigos de benefício fornecidos pela tabela **cBenef x CST** devem ser inseridos como códigos de ajuste especiais no módulo **Livros fiscais**.
 
-1. Acesse **Livros fiscais \> Configuração \> Códigos de ajuste do imposto \> Ajuste e informações de documentos fiscais**.
+1. Vá para **Livros fiscais \> Configuração \> Códigos de ajuste do imposto \> Ajuste e informações de documentos fiscais**.
 2. Selecione **Novo** para adicionar um código de ajuste e defina os seguintes valores:
 
     - **Tipo de imposto:** Selecione **ICMS**.
@@ -93,34 +95,34 @@ Os códigos de benefício fornecidos pela tabela **cBenef x CST** devem ser inse
     - **Código de ocorrência:** Insira a parte numérica do código de benefício fornecida pela tabela **cBenef x CST**.
     - **Código de ajuste:** Este código é formado pelo estado e pelo código de ocorrência. Esse código deve corresponder ao código de benefício fornecido pela tabela **cBenef x CST**.
 
-![Propriedades dos códigos de ajuste.](media/bra_tax_benefits_from_NT2019_001_adjustment_codes.png)
+![Propriedades dos códigos de ajuste](media/bra_tax_benefits_from_NT2019_001_adjustment_codes.png)
 
 Observe as seguintes propriedades especiais dos códigos de ajuste:
 
 - **Código de ajuste literal** – defina esta opção como **Sim** somente em cenários em que você emite modelos de notas fiscais eletrônicas 55 e 65 que têm tributação regular sem nenhum benefício ou isenção, quando a tabela **cBenef x CST** requer ou permite que o código de ajuste seja usado como um valor fixo ou uma palavra literal, como "nulo" ou "sem BENEF", na marca **\<cBenef\>**.
 - **Suprimir código** – defina esta opção como **Sim** somente em cenários nos quais você emite modelos de notas fiscais eletrônicas 55 e 65 que têm tributação regular sem nenhum benefício ou isenção, quando a tabela **cBenef x CST** requer ou permite que a marca **\<cBenef\>** vazia seja usada.
 
-![Propriedades especiais dos códigos de ajuste.](media/bra_tax_benefits_from_NT2019_001_adjustment_codes_special_controls.png)
+![Propriedades especiais dos códigos de ajuste](media/bra_tax_benefits_from_NT2019_001_adjustment_codes_special_controls.png)
 
 ## <a name="set-up-taxation-code-by-benefit-code"></a>Configurar código de tributação por código de benefício
 
 O código de tributação por código de benefício fornecidos pela tabela **cBenef x CST** deve ser inserido como código de ajuste no módulo **Livros fiscais**.
 
-1. Acesse **Livros fiscais \> Configuração \> Códigos de ajuste do imposto \> Ajuste e informações de documentos fiscais**.
+1. Vá para **Livros fiscais \> Configuração \> Códigos de ajuste do imposto \> Ajuste e informações de documentos fiscais**.
 2. Selecione **Adicionar** para inserir **Código de tributação** para o código de ajuste.
 
-![Guia de códigos de tributação na página Ajuste e informações para documentos fiscais.](media/bra_tax_benefits_from_NT2019_001_adjustment_codes_CST.png)
+![Guia de códigos de tributação na página Ajuste e informações para documentos fiscais](media/bra_tax_benefits_from_NT2019_001_adjustment_codes_CST.png)
 
 ## <a name="set-up-benefit-codes-by-itemstate"></a>Configurar códigos de benefício por item/estado
 
 Siga estas etapas para configurar regras para validar os códigos de benefício por CST para um determinado Estado, conforme descrito na tabela **cBenef x CST**.
 
-1. Acesse **Imposto \> Configuração \> Imposto \> Código de benefício por item/estado**.
+1. Vá para **Imposto \> Configuração \> Imposto \> Código de benefício por item/estado**.
 2. Selecione **Novo**.
 3. Na página **Parâmetros federais de NF-e**, no campo **Estado**, selecione um valor.
 4. Selecione **Adicionar** para informar uma nova relação.
 
-![Campo de estado na página código de Benefício por item/estado.](media/bra_tax_benefits_from_NT2019_001_benefit_codes_per_item_state.png)
+![Campo de estado na página código de Benefício por item/estado](media/bra_tax_benefits_from_NT2019_001_benefit_codes_per_item_state.png)
 
 ## <a name="validations-that-are-done-when-fiscal-documents-are-posted"></a>Validações efetuadas quando as notas fiscais são lançadas
 
@@ -138,6 +140,3 @@ A validação ocorre para as regras configuradas na página **Código de benefí
 ## <a name="validation-exceptions"></a>Exceções de validação
 
 A Nota técnica NT 2019.001 especifica regras de exceção que são adotadas a critério de cada estado. Para obter mais informações sobre as regras de validação, consulte as regras N12-85, N12-86, N12-90, N12-94, N12-97 e N12-98 na nota técnica.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

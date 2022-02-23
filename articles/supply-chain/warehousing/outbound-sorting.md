@@ -2,9 +2,11 @@
 title: Classificação de saída
 description: Este tópico contém informações sobre classificação de saída. Esta funcionalidade facilita a manipulação de pequenos contêineres e ajuda os trabalhadores do depósito a planejar e organizar melhor a capacidade dos paletes no caminhão.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 004224090d8244028b6df7f32e1853ad60371cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 2b0049269b69c0777420b3ecd9b1f649c4a1ab11
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575186"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963401"
 ---
 # <a name="outbound-sorting"></a>Classificação de saída
 
@@ -43,7 +45,7 @@ Para este cenário, você deve usar dados de demonstração **USMF** padrão e o
 
 Esta configuração processa a onda automaticamente e cria um trabalho quando uma linha é liberada para o depósito.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Na lista de modelos, selecione **Depósito 62**.
 1. Na FastTab **Geral**, verifique se a opção **Processar onda na liberação para o depósito** está definida como *Sim*.
 
@@ -54,7 +56,7 @@ A estação de embalagem é considerada um local. Os trabalhadores do depósito 
 > [!NOTE]
 > Essas etapas supõem que o usuário já existe no sistema e que foi associado a um funcionário ou trabalhador no módulo **Recursos Humanos**.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalhador**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalhador**.
 1. Selecione **Novo**.
 1. No campo **Trabalhador**, selecione o usuário de destino na lista de funcionários.
 1. Escolha **Selecionar**.
@@ -78,7 +80,7 @@ A estação de embalagem é considerada um local. Os trabalhadores do depósito 
 
 ### <a name="create-a-location-type"></a>Criar um tipo de localização
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Tipos de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Tipos de localização**.
 1. No Painel de Ação, selecione **Novo** para criar um tipo de localização e defina os seguintes valores:
 
     - **Tipo de localização:** *CLASSIFICAR*
@@ -88,13 +90,13 @@ A estação de embalagem é considerada um local. Os trabalhadores do depósito 
 
 ### <a name="set-up-warehouse-management-parameters"></a>Configurar parâmetros de Gerenciamento de depósito
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Geral**, na FastTab **Tipos de localização**, defina o campo **Tipo de localização de classificação** como *CLASSIFICAR*.
 1. No Painel de ações, selecione **Salvar**.
 
 ### <a name="set-up-a-location-profile"></a>Configurar um perfil de localização
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -112,7 +114,7 @@ A estação de embalagem é considerada um local. Os trabalhadores do depósito 
 
 ### <a name="set-up-a-location"></a>Configurar uma localização
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Localizações**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Localizações**.
 1. No cabeçalho, desmarque a caixa de seleção **Gerar dígitos de verificação para localização**.
 1. No Painel de Ação, selecione **Novo** para criar uma localização e defina os seguintes valores:
 
@@ -128,7 +130,7 @@ O modelo de classificação de saída determina se o trabalho é criado fora da 
 
 Para este cenário, você criará um modelo de classificação de saída para criar paletes após a estação de embalagem.
 
-1. Acesse **Gerenciamento de Depósito \> Configuração \> Embalagem \> Modelo de classificação de saída**.
+1. Vá para **Gerenciamento de Depósito \> Configuração \> Embalagem \> Modelo de classificação de saída**.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho do novo modelo, defina os seguintes valores:
 
@@ -177,7 +179,7 @@ Para este cenário, você criará um modelo de classificação de saída para cr
 
 ### <a name="set-up-container-packing-policies"></a>Configurar políticas de embalagem de contêiner
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Contêineres \> Políticas de embalagem de contêiner**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Contêineres \> Políticas de embalagem de contêiner**.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho da nova política, defina os seguintes valores:
 
@@ -198,7 +200,7 @@ Para este cenário, você criará um modelo de classificação de saída para cr
 
 Crie um novo perfil de embalagem que será usado junto com a funcionalidade de classificação.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Embalagem \> Perfis de embalagem**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Embalagem \> Perfis de embalagem**.
 1. No Painel de Ação, selecione **Novo** para criar uma linha e defina os seguintes valores:
 
     - **ID do perfil de embalagem:** *Classificar*
@@ -214,7 +216,7 @@ Crie um novo perfil de embalagem que será usado junto com a funcionalidade de c
 
 Configure uma classe de trabalho que será usada junto com a classificação.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
 1. No Painel de Ação, selecione **Novo** para criar uma classe de trabalho e defina os seguintes valores:
 
     - **ID da classe de trabalho:** *Classificar*
@@ -229,7 +231,7 @@ Configure uma classe de trabalho que será usada junto com a classificação.
 
 Crie um item de menu de dispositivo móvel para criar paletes durante a classificação.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -256,7 +258,7 @@ Crie um item de menu de dispositivo móvel para criar paletes durante a classifi
 
 Em seguida, crie um item de menu que permita aos usuários mover os itens de estoque classificados para a localização de remessa.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -277,7 +279,7 @@ Em seguida, crie um item de menu que permita aos usuários mover os itens de est
 
 Agora, você deve adicionar os novos itens de menu ao menu do dispositivo móvel.
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Selecione o menu **Saída**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na coluna **Menus e itens de menu disponíveis**, localize e selecione **Criação do palete**.
@@ -292,7 +294,7 @@ As *diretivas de localização* são regras que ajudam a identificar localizaç�
 
 #### <a name="set-up-a-single-sku-directive"></a>Configurar uma diretiva de SKU única
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, altere o valor do campo **Tipo de ordem de serviço** para *Separação do estoque classificado*.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho, defina os seguintes valores:
@@ -327,7 +329,7 @@ As *diretivas de localização* são regras que ajudam a identificar localizaç�
 
 #### <a name="set-up-a-multiple-sku-directive"></a>Configurar uma diretiva de várias SKUs
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, altere o valor do campo **Tipo de ordem de serviço** para *Separação do estoque classificado*.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho, defina os seguintes valores:
@@ -362,7 +364,7 @@ As *diretivas de localização* são regras que ajudam a identificar localizaç�
 
 ### <a name="set-up-work-templates"></a>Configurar modelos de trabalho
 
-1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Altere o valor do campo **Tipo de ordem de serviço** para *Separação do estoque classificado*.
 1. No Painel de Ação, selecione **Novo** para criar um modelo de trabalho.
 1. Na guia **Visão geral**, defina os seguintes valores:
@@ -392,7 +394,7 @@ Este cenário simula uma situação em que os contêineres embalados devem ser c
 
 #### <a name="create-sales-order-1"></a>Criar ordem de venda 1
 
-1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -424,7 +426,7 @@ Este cenário simula uma situação em que os contêineres embalados devem ser c
 
 #### <a name="sales-order-2"></a>Ordem de venda 2
 
-1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -455,7 +457,7 @@ Este cenário simula uma situação em que os contêineres embalados devem ser c
 
 #### <a name="get-the-work-ids-from-the-work-details"></a>Obter as IDs de trabalho nos detalhes do trabalho
 
-1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. A página mostra as IDs de trabalho que foram criadas com base nas ordens de venda. Use as IDs de onda e as IDs de remessa das ordens de venda que você criou para encontrar a ID de trabalho de cada onda e remessa. Anote essas IDs de trabalho, pois elas serão necessárias nas próximas etapas. Observe que duas IDs de trabalho foram criadas para a segunda ordem de venda. Se forem separados itens diferentes de locais diferentes, serão geradas IDs de trabalho separadas.
 
 ### <a name="pick-items-for-the-sales-orders"></a>Separar itens para as ordens de venda
@@ -498,7 +500,7 @@ Conclua o trabalho criado usando o dispositivo móvel para mover os itens à est
 
 #### <a name="pack-sales-order-1-into-containers"></a>Embalar a ordem de venda 1 em contêineres
 
-1. Acesse **Gerenciamento de depósito \> Remessa e transporte em contêineres \> Embalar**.
+1. Vá para **Gerenciamento de depósito \> Remessa e transporte em contêineres \> Embalar**.
 
     É exibida a caixa de diálogo **Selecionar estação de embalagem**. Por padrão, o campo **Trabalhador** deve ser definido com o nome do trabalhador configurado anteriormente.
 
@@ -558,7 +560,7 @@ Conclua o trabalho criado usando o dispositivo móvel para mover os itens à est
 1. Na caixa de diálogo **Fechar contêiner**, selecione **Obter peso do sistema** para o sistema atualizar o campo **Peso bruto**.
 1. Selecione **OK**. O contêiner muda para o local *CLASSIFICAR* e está pronto para classificação.
 
-Para ver os detalhes do contêiner, Acesse **Gerenciamento de depósito \> Remessa e transporte em contêineres \> Contêineres** e procure as IDs de contêiner criadas durante a embalagem.
+Para ver os detalhes do contêiner, vá para **Gerenciamento de depósito \> Remessa e transporte em contêineres \> Contêineres** e procure as IDs de contêiner criadas durante a embalagem.
 
 ### <a name="sort-the-containers"></a>Classificar os contêineres
 
@@ -583,7 +585,7 @@ Para ver os detalhes do contêiner, Acesse **Gerenciamento de depósito \> Remes
     Você receberá uma mensagem "Trabalho concluído".
 
 > [!TIP]
-> Para exibir a posição de classificação e a LP nela, Acesse **Gerenciamento de depósito \> Remessa e transporte em contêineres \> Atribuições de posição de classificação de saída**.
+> Para exibir a posição de classificação e a LP nela, vá para **Gerenciamento de depósito \> Remessa e transporte em contêineres \> Atribuições de posição de classificação de saída**.
 >
 > A página **Atribuições de posição de classificação de saída** mostra todas as posições de classificação que estão ativas. O campo **Classificar transações de posição** mostra a LP associada a cada posição de classificação e os contêineres que estão na posição de classificação. Observe que no momento existe uma posição de classificação e que a FastTab **Classificar critérios de posição** mostra um critério de **Remessa – Serviço da transportadora – Via Aérea**.
 
@@ -631,7 +633,7 @@ Quando todo o estoque for classificado, a posição deverá ser fechada para que
 
 #### <a name="close-a-position-from-outbound-sorting-position-assignments"></a>Fechar uma posição nas atribuições de posição de classificação de saída
 
-1. Acesse **Gerenciamento de depósito \> Remessa e transporte em contêineres \> Atribuições de posição de classificação de saída**.
+1. Vá para **Gerenciamento de depósito \> Remessa e transporte em contêineres \> Atribuições de posição de classificação de saída**.
 1. Na coluna esquerda, selecione **SP02**. Essa linha da posição de classificação de saída é a que você fechará.
 1. No Painel de Ação, selecione **Fechar posição**. O registro da posição de classificação é fechado e não é mais exibido.
 
@@ -664,6 +666,3 @@ Você deve concluir o trabalho de separação do estoque classificado. Quando el
     O trabalho foi concluído.
 
 Desse ponto para a frente, todos os demais processos de depósito se aplicam.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

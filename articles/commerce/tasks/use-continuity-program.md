@@ -2,24 +2,27 @@
 title: Usando programas de continuidade
 description: Este procedimento aborda a venda de um programa de continuidade e o processamento relacionados às ordens de venda.
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b8e3903aac99d32bbf4d065e6db1c3f3aab998c04d052d08338eb3f54ccc96f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2baf0127a35cc62952fd78daaf8204d35ec8d2b3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761529"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410218"
 ---
 # <a name="using-continuity-program"></a>Usando programas de continuidade
 
@@ -27,7 +30,7 @@ ms.locfileid: "6761529"
 
 Este procedimento aborda a venda de um programa de continuidade e o processamento relacionados às ordens de venda. Para concluir o procedimento, o usuário precisa estar configurado como usuário de call center. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Acesse Varejo e Comércio > Clientes > SAC.
+1. Vá para Varejo e Comércio > Clientes > SAC.
 2. No campo SearchText, digite "Karen" e depois pressione a tecla Tab.
     * A caixa de diálogo de pesquisa avançada deve aparecer. Caso isso não ocorra, clique em Pesquisa à direita desse campo.  
 3. Na lista, marque a linha selecionada.
@@ -48,10 +51,10 @@ Este procedimento aborda a venda de um programa de continuidade e o processament
 13. Clique em Enviar.
     * Você acabou de criar uma ordem de continuidade. Em seguida, você executará dois processos de lote que serão usados para processar as ordens de continuidade.  
 14. Feche a página.
-15. Acesse Varejo e Comércio > Continuidade > Processar pagamentos de continuidade.
+15. Vá para Varejo e Comércio > Continuidade > Processar pagamentos de continuidade.
 16. No campo Item de continuidade, digite "88000" e depois pressione a tecla Tab.
 17. Clique em OK.
-18. Acesse Varejo e Comércio > Continuidade > Criar ordens filho de continuidade.
+18. Vá para Varejo e Comércio > Continuidade > Criar ordens filho de continuidade.
     * Esse processo criará ordens de venda com base nas configurações dos seus programas de continuidade.  
 19. No campo Item de continuidade, digite "88000" e depois pressione a tecla Tab.
     * O item "88000" é um item de continuidade nos dados de demonstração da USRT.  
@@ -59,6 +62,3 @@ Este procedimento aborda a venda de um programa de continuidade e o processament
     * Insira o número da ordem de venda que você anotou anteriormente no procedimento. Isso reduzirá o tempo de processamento ao mínimo para este procedimento. O campo Ordem de venda é opcional - você pode processar todas as ordens de qualquer programa.  
 21. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

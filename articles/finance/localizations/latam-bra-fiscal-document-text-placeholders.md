@@ -2,23 +2,26 @@
 title: Espaços reservados em textos da nota fiscal do Brasil
 description: Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos. Você poderá incluir os espaços reservados no campo <strong>Texto </strong>da página <strong>Modelos de textos da nota fiscal </strong>quando você criar um modelo de textos da nota fiscal.
 author: sndray
+manager: AnnBe
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 268684
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 41d32239bbadf5928524eaff38b6c3288230d55236fdd0f9cec7a5064f67d1a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f01352cdc63ff94761532c14fb8cdedd44f8632e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772759"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408454"
 ---
 # <a name="fiscal-document-text-placeholders-for-brazil"></a>Espaços reservados em textos da nota fiscal do Brasil
 
@@ -30,7 +33,8 @@ Você também pode incluir espaços reservados no campo **Observação** na pág
 
 As tabelas a seguir contêm as marcas predefinidas que têm suporte para texto da nota fiscal e seu valor.
 
-## <a name="tags-that-support-fiscal-document-text-for-referenced-processes"></a>As marcas que têm suporte para texto da nota fiscal para processos mencionados
+<a name="tags-that-support-fiscal-document-text-for-referenced-processes"></a>As marcas que têm suporte para texto da nota fiscal para processos mencionados
+---------------------------------------------------------------
 
 | Marca predefinida                  | Alíquota                                 |
 |---------------------------------|---------------------------------------|
@@ -162,6 +166,3 @@ As tabelas a seguir contêm as marcas predefinidas que têm suporte para texto d
 |--------------------------------|----------------------------------------------------------------------|
 | %Substituto\_ICMS\_tax\_amount | O valor do imposto presumido do ICMS do substituto do ICMS.                |
 | %Substituto\_FCP\_tax\_amount  | O valor presumido do FCP do substituto do ICMS.                     |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

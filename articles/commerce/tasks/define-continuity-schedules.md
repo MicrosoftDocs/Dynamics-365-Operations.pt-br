@@ -2,24 +2,27 @@
 title: Definir agendas de continuidade
 description: Este tópico aborda a configuração de um programa de continuidade (também conhecido como pedidos recorrentes).
 author: josaw1
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRContinuitySchedule, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7b05bc82acfad89c9b50777bd0c5fd85f7bda90efd73f278f122c9aa0d073df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 06fd1e23ad84fdc5e94e309717d5a96fbff45035
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724482"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410234"
 ---
 # <a name="define-continuity-schedules"></a>Definir agendas de continuidade
 
@@ -29,7 +32,7 @@ Este tópico aborda a configuração de um programa de continuidade (também con
 
 
 ## <a name="create-continuity-program"></a>Criar programa de continuidade
-1. Acesse Varejo e Comércio > Continuidade > Programas de continuidade.
+1. Vá para Varejo e Comércio > Continuidade > Programas de continuidade.
 2. Clique em Novo.
 3. No campo ID da Agenda, digite a ID da agenda de continuidade.
 4. No campo Início da ordem, selecione "Primeiro evento".
@@ -51,7 +54,7 @@ Este tópico aborda a configuração de um programa de continuidade (também con
 17. Clique em Salvar.
 
 ## <a name="assign-to-continuity-item"></a>Atribuir ao item de continuidade
-1. Acesse Gerenciamento de informações do produto > Produtos > Produtos liberados.
+1. Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.
 2. Selecione o item "0016".
     * Nesse procedimento, você selecionará o item nº 0016. Geralmente, você terá criado um produto liberado com lógica comercial de continuidade adicional aplicada ao ser colocada em uma ordem de venda em call center.  
 3. Na lista, clique no link na linha selecionada.
@@ -61,6 +64,3 @@ Este tópico aborda a configuração de um programa de continuidade (também con
     * Quando esse item é vendido em um call center, a lógica comercial adicional é aplicada a partir do programa de continuidade selecionado.  
 7. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

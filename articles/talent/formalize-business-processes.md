@@ -73,6 +73,3 @@ Para criar ou copiar um modelo de processo comercial, ou iniciar um processo com
 
 Para exibir os processos ativos e as tarefas associadas, abra o espaço de trabalho **Processos comerciais**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
