@@ -1,76 +1,44 @@
-- name: Desenvolvimento e administração de aplicativos para o Finance and Operations
+- name: Desenvolvimento e administração de aplicativos de finanças e operações
   items:
-    - name: Desenvolvimento e administração de aplicativos para o Finance and Operations
+    - name: Desenvolvimento e administração de aplicativos de finanças e operações
       items:
-        - name: Documentação de aplicativos do Finance and Operations
+        - name: Documentação do aplicativo do Finance and Operations
           href: ../fin-ops/index.md
-        - name: Desenvolvimento e administração de aplicativos para o Finance and Operations
+        - name: Desenvolvimento e administração de aplicativos de finanças e operações
           href: index.md
         - name: Novidades ou alterações
           items:
             - name: Novidades ou alterações nos aplicativos do Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Novidades ou alterações em Platform updates
+            - name: Novidades ou alterações em Atualizações de plataforma
               items:
-                - name: Novidades na home page de Platform updates
+                - name: Novidades ou mudanças na home page de Atualizações de plataforma
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates para 10.0.16 (fevereiro de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: Platform updates para 10.0.15 (janeiro de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
-                - name: Platform updates para 10.0.14 (novembro de 2020)
-                  href: get-started/whats-new-platform-updates-10-0-14.md
-            - name: Recursos removidos ou obsoletos
+                - name: Atualizações de plataforma para a versão 10.0.25 (abril de 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: Atualizações de plataforma para a versão 10.0.24 (fevereiro de 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: Atualizações de plataforma para a versão 10.0.23 (janeiro de 2022)
+                  href: get-started/whats-new-platform-updates-10-0-23.md
+            - name: Recursos removidos ou preteridos
               items:
-                - name: Recursos de Platform removidos ou obsoletos
+                - name: Home page de recursos removidos ou preteridos
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+                - name: Recursos de Platform removidos ou preteridos
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: Recursos removidos ou obsoletos em versões anteriores
+                - name: Recursos removidos ou preteridos em versões anteriores
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Recursos do AX 2012 que foram postergados
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Fim do suporte base ao Microsoft Dynamics AX 2009 e 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: Eventos de negócios
-          items:
-            - name: Visão geral sobre eventos de negócios
-              href: business-events/home-page.md
-            - name: Eventos de negócios de aplicativos
-              href: business-events/app-business-events.md
-            - name: Eventos de negócios de fluxos de trabalho
-              href: business-events/business-events-workflow.md
-            - name: Alertas como eventos de negócios
-              href: business-events/alerts-business-events.md
-            - name: Eventos de negócios no Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: Documentação do desenvolvedor de eventos de negócios
-              href: business-events/business-events-dev-doc.md
-            - name: Solucionar problemas de eventos de negócios
-              href: business-events/troubleshooting.md
-            - name: Casos de uso de eventos de negócios
-              href: business-events/potential-use-cases.md
-            - name: Tutoriais
-              items:
-                - name: Eventos de negócios e Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: Eventos de negócios e Grade de Eventos do Azure
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: Eventos de negócios e Barramento de Serviço do Azure
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: Eventos de negócios e aprovações de fluxo de trabalho
-                  href: business-events/how-to/how-to-workflow.md
-                - name: Eventos de negócios e Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: Eventos de negócios e Hubs de Eventos do Azure
-                  href: business-events/how-to/event-hub.md
-                - name: Eventos de negócios no fechamento do período financeiro
-                  href: business-events/how-to/period-close.md
         - name: Entrega contínua
           items:
             - name: Home page da Entrega contínua
               href: dev-tools/continuous-delivery-home-page.md
             - name: Perguntas frequentes sobre entrega contínua e desenvolvimento
               href: dev-tools/continuous-delivery-faq.md
-            - name: ​Excluir pacotes de teste da saída de compilação
+            - name: Excluir pacotes de teste da saída de compilação
               href: dev-tools/exclude-test-packages.md
             - name: Gerenciar modelos de terceiros e pacotes de tempo de execução usando o controle de origem
               href: dev-tools/manage-runtime-packages.md
@@ -80,7 +48,7 @@
               href: dev-tools/version-models-build.md
         - name: Integração de dados
           items:
-            - name: Escolher uma estratégia de integração de dados (importação/exportação)
+            - name: Integração entre aplicativos do Finance and Operations e serviços de terceiros
               href: data-entities/integration-overview.md
             - name: Limitação baseada em prioridade
               hreF: data-entities/priority-based-throttling.md
@@ -112,7 +80,7 @@
                   items:
                     - name: Visão geral de integração de dados usando entidades de dados
                       href: data-entities/data-management-integration-data-entity.md
-                    - name: ​Desenvolver uma entidade para migração de dados​
+                    - name: Desenvolver uma entidade para migração de dados
                       href: data-entities/develop-entity-for-data-migration.md
                     - name: Desenvolver entidades de dados compostas
                       href: data-entities/develop-composite-data-entities.md
@@ -122,182 +90,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Criar registros usando modelos de registros
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Integração de dados usando o Common Data Service
+                - name: Integrador de Dados
                   items:
-                    - name: Visão geral da integração de dados usando o Common Data Service
-                      href: data-entities/data-integration-cds.md
-                    - name: Integração da gravação dupla
+                    - name: Configurar um cenário de cliente potencial ao pagamento à vista
                       items:
-                        - name: Home page da gravação dupla
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Novidades ou alterações na gravação dupla
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Visão geral de gravação dupla
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: Configuração da gravação dupla
-                          items:
-                            - name: Requisitos do sistema para gravação dupla
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Orientações sobre como configurar a gravação dupla
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: Considerações para a sincronização inicial
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Configuração da gravação dupla do Lifecycle Services
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: Habilitar gravação dupla para aplicativos do Finance and Operations existentes
-                              items:
-                                - name: Habilitar gravação dupla para aplicativos do Finance and Operations existentes
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: Pré-requisitos e requisitos do sistema
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: Como usar o assistente de gravação dupla para vincular seus ambientes
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: Habilitar mapa de entidade para gravação dupla
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: Migração do tipo de dados de moeda para gravação dupla
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: Configurar o mapeamento dos campos de status da ordem de venda
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: Filtrar ordens intercompanhia para evitar sincronizar Ordens e Linhas da Ordem
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: Gerenciando a gravação dupla
-                          items:
-                            - name: Personalizar mapeamentos de entidades e campos
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: Manuseando múltiplos mapas de entidades
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: Editar uma entidade legal após configuração de gravação dupla
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: Gerenciamento de erros e notificações de alerta
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: Gerenciamento do ciclo de vida de aplicativos
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: Mapeamento de conceitos entre aplicativos
-                          items:
-                            - name: Cliente mestre integrado
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: Integração do fornecedor
-                              items:
-                                - name: Fornecedor mestre integrado
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Alternar entre designs de fornecedor
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: Cartões-fidelidade do cliente e pontos de premiação
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: Integração do produto
-                              items:
-                                - name: Experiência unificada do produto
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Sites e depósitos integrados
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Integração da empresa
-                              items:
-                                - name: Conceito de empresa no Common Data Services
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Inicializar com dados da empresa
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Hierarquia da organização no Common Data Service
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Dados financeiros e tributários
-                              items:
-                                - name: Acesso a dados de referência financeira e tributária
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Razão integrado
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Impostos integrados
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: Do cliente potencial ao pagamento à vista em gravação dupla
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Sincronizar com o mecanismo de preços sob demanda do Dynamics 365 Supply Chain Management
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: Use o mecanismo de preços do Dynamics 365 Commerce com o Dynamics 365 Sales
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: Ativos internos para manutenção
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: 'Trabalhador, trabalho e cargo integrados'
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: Disponibilidade de estoque
-                              href: data-entities/dual-write/inventory-availability.md
-                        - name: Suporte para gravação dupla
-                          items:
-                            - name: Suporte para soluções do Field Service e do Project Service Automation
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Solução de problemas
-                              items:
-                                - name: Verifique se a gravação dupla está configurada nos aplicativos Finance and Operations e Common Data Service
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Solucionar problemas durante a configuração inicial
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: Solucionar problemas durante a sincronização inicial
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Solucionar problemas com o módulo de gravação dupla em aplicativos do Finance and Operations
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: Solucionar problemas de sincronização ao vivo
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: Solucionar problemas relacionados ao reconhecimento da solução
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Solucionar problemas relacionados a atualizações de aplicativos do Finance and Operations
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: Solução de problemas gerais
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Perguntas frequentes sobre gravação dupla
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: Integração com o Power Platform
+                        - name: De cliente potencial ao pagamento à vista
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Sincronizar contas diretamente do Sales com clientes no Finance and Operations
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Sincronizar produtos diretamente do Finance and Operations com produtos do Sales
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Sincronizar contatos diretamente do Sales com contatos ou clientes do Finance and Operations
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Sincronizar cabeçalhos e linhas de cotação de venda diretamente do Sales para o Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Sincronização de ordens de venda diretamente entre o Sales e o Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Finance and Operations para o Sales
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Configurar a integração com o Field Service
                       items:
-                        - name: Configurar um cenário de cliente potencial ao pagamento à vista
-                          items:
-                            - name: De cliente potencial ao pagamento à vista
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Sincronizar contas diretamente do Sales com clientes do Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Sincronizar produtos diretamente do Finance and Operations com produtos do Sales
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Sincronizar contatos diretamente do Sales com contatos ou clientes do Finance and Operations
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Sincronizar cabeçalhos e linhas de cotação de venda diretamente do Sales com o Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Sincronização de ordens de venda diretamente entre o Sales e o Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Sincronizar cabeçalhos e linhas de fatura de venda diretamente do Finance and Operations com o Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: Configurar a integração com o Field Service
-                          items:
-                            - name: Visão geral de configuração da integração com o Field Service
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Sincronizar produtos do Finance and Operations com produtos do Field Service
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Sincronizar ordens de serviço do Field Service com ordens de venda do Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Sincronizar faturas de contrato do Field Service para faturas de livre do Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Sincronizar transferências e ajustes de estoque do Field Service com o Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Sincronizar informações no nível de estoque do Finance and Operations com o Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Sincronizar produtos com unidade de estoque do Finance and Operations com o Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Sincronizar lista de projetos do Finance and Operations com o Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Sincronizar depósitos do Finance and Operations com o Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Sincronizar ordens de serviço com projeto do Field Service com o Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: Configurar integração do Project Service Automation
-                          items:
-                            - name: Visão geral do Project Service Automation
-                              href: ../../finance/project-management/PSA-integration.md
-                            - name: Parâmetros de integração do Project Service Automation
-                              href: ../../finance/project-management/PSA-parameters.md
-                            - name: Sincronizar contratos de projeto e projetos
-                              href: ../../finance/project-management/project-contracts-templates.md
-                            - name: Sincronizar tarefas do projeto
-                              href: ../../finance/project-management/project-tasks-template.md
-                            - name: Sincronizar categorias de despesas do projeto
-                              href: ../../finance/project-management/project-categories-templates.md
-                            - name: Sincronizar estimativas de projeto para previsões de projeto
-                              href: ../../finance/project-management/project-estimates-templates.md
-                            - name: Sincronizar números reais do projeto com o diário de integração do projeto
-                              href: ../../finance/project-management/project-actuals-templates.md
+                        - name: Visão geral de configuração da integração com o Field Service
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: Sincronizar produtos no Finance and Operations com produtos no Field Service
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: Sincronizar ordens de trabalho no Field Service com ordens de venda no Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Sincronizar faturas de contrato no Field Service com faturas de texto livre no Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Sincronizar transferências e ajustes de estoque do Field Service no Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Sincronizar informações do nível de estoque do Finance and Operations no Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Sincronizar produtos com unidade de estoque do Finance and Operations no Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Sincronizar lista de projetos do Finance and Operations no Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Sincronizar depósitos do Finance and Operations no Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Sincronizar ordens de trabalho com o projeto do Field Service no Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Configurar integração do Project Service Automation
+                      items:
+                        - name: Visão geral do Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Parâmetros de integração do Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: Sincronizar contratos de projeto e projetos
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: Sincronizar tarefas do projeto
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: Sincronizar categorias de despesas do projeto
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: Sincronizar estimativas de projeto para previsões de projeto
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: Sincronizar números reais do projeto com o diário de integração do projeto
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Consumo de serviços Web externos
               href: data-entities/consume-external-web-service.md
             - name: Mensagens eletrônicas
@@ -338,8 +186,12 @@
               items:
                 - name: Visão geral de trabalhos de importação e exportação de dados
                   href: data-entities/data-import-export-job.md
-                - name: ​Práticas recomendadas para importar comprovantes usando a entidade Diário geral​
+                - name: Sincronizar data e hora em trabalhos de importação
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: Importando comprovantes usando a entidade Diário geral
                   href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: Otimizando a migração de dados para aplicativos do Finance and Operations
+                  href: sysadmin/optimize-data-migration.md
             - name: Desenvolvimento para entidades de dados
               items:
                 - name: Princípios e práticas recomendadas de Design para entidades de dados
@@ -350,19 +202,19 @@
                   href: data-entities/behavioral-properties-data-entities.md
                 - name: Criar colunas computadas e campos virtuais
                   href: data-entities/data-entity-computed-columns-virtual-fields.md
-                - name: ​Comportamento interempresarial​
+                - name: Comportamento interempresarial
                   href: data-entities/cross-company-behavior.md
                 - name: Manuseio de códigos de países/regiões
                   href: data-entities/countryregion-codes-configuration-keys.md
-                - name: ​Padrões de herança​
+                - name: Padrões de herança
                   href: data-entities/support-super-type-sub-type.md
                 - name: Regras do assistente de entidade de dados
                   href: data-entities/data-entity-wizard-rules.md
-                - name: ​Propriedades de metadados​
+                - name: Propriedades de metadados
                   href: data-entities/behavioral-properties-data-entities.md
-                - name: '​Validações, padrões e campos não mapeados​'
+                - name: 'Validações, padrões e campos não mapeados'
                   href: data-entities/validations-defaults-unmapped-fields.md
-                - name: ​Segurança e entidades de dados​
+                - name: Segurança e entidades de dados
                   href: data-entities/security-data-entities.md
                 - name: Usar o utilitário de teste de serviço de terceiros
                   href: data-entities/third-party-service-test.md
@@ -380,17 +232,19 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Visão geral do Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: Configurar a exportação para o Azure Data Lake
+            - name: Visão geral da Exportação para o Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Instalar suplemento Exportar para o Azure Data Lake
               href: data-entities/configure-export-data-lake.md
             - name: Aplicativos do Finance and Operations no Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Disponibilizar repositório de entidades como um Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Alterar dados no Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Operações de movimento de banco de dados
           items:
-            - name: Visão geral
+            - name: Visão Geral
               href: database/dbmovement-operations.md
             - name: Kit de ferramentas de movimento de banco de dados
               href: database/database-movement-toolkit.md
@@ -472,8 +326,14 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: Solucionar problemas de ambientes implantados por meio da implantação de autoatendimento
                       href: deployment/troubleshoot-newinfrastructure.md
-                - name: Integração completa do Azure Resource Manager
+                    - name: Perguntas frequentes sobre manutenção planejada em ambientes de autoatendimento
+                      href: deployment/plannedmaintenance-selfservice.md
+                    - name: Continuidade dos negócios e recuperação de desastres
+                      href: sysadmin/business-continuity-disaster-recovery.md
+                - name: Concluir o processo de integração do Azure Resource Manager
                   href: deployment/arm-onboarding.md
+                - name: Concluir o processo de integração do Azure Resource Manager para projetos do LCS do governo dos EUA
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute e Finance and Operations
                   href: deployment/expressroute.md
                 - name: Arquitetura do Finance and Operations
@@ -482,6 +342,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Aplicar atualizações e extensões à Commerce Scale Unit (nuvem)
                   href: deployment/Update-retail-channel.md
+                - name: Atualização automática para Commerce Scale Unit (nuvem)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Inicializar a Commerce Scale Unit (nuvem)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Migrar canais para uma Commerce Scale Unit diferente
@@ -494,10 +356,12 @@
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: Preparar para implantações locais
                   items:
-                    - name: Visão geral da Implantação local
+                    - name: Visão geral da implantação local
                       href: deployment/on-premises-overview.md
                     - name: Planejar e preparar para implantações locais
                       href: deployment/plan-onprem-deployment.md
+                    - name: Software com suporte ao Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-compatibility.md
                     - name: Requisitos de dimensionamento de hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Autenticação no Dynamics 365 Finance + Operations (on-premises)
@@ -506,13 +370,15 @@
                   items:
                     - name: Configurar projetos locais no LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Configurar e implantar ambientes locais
+                    - name: Configurar e implantar ambientes locais (Platform update 41 e posterior)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: Configurar e implantar ambientes locais (Atualizações de plataforma de 12 a 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Etapas de instalação dos componentes do canal do Retail em um ambiente local
                       href: deployment/deploy-retail-onprem.md
                     - name: Desenvolver e implantar modelos personalizados em ambientes locais
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Manutenção do ambiente
+                - name: Operações de ambiente
                   items:
                     - name: Aplicar atualizações a uma implantação local
                       href: deployment/apply-updates-on-premises.md
@@ -522,6 +388,8 @@
                       href: user-interface/client-disconnected.md
                     - name: Configurar nós do AOS Somente em lote e Somente interativos em implantações locais
                       href: deployment/onprem-batchonly.md
+                    - name: Configurar a alta disponibilidade para os nós do SQL Server Reporting Services (SSRS)
+                      href: deployment/onprem-SSRSHA.md
                     - name: Configurar proxies para ambientes locais
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnósticos locais
@@ -538,12 +406,16 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Reutilizar a mesma instância do AD FS em vários ambientes
                       href: deployment/onprem-reuseadfs.md
+                    - name: Atualizar a instância do SQL Server de ambientes do Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Agente local
                   items:
-                    - name: Compatibilidade entre AD FS e o Microsoft 365
+                    - name: Compatibilidade entre AD FS e Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
                     - name: Scripts de agente local de pré-implantação e pós-implantação
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: Configurações de implantação para o agente local
+                      href: deployment/onprem-localagent-options.md
                     - name: Atualizar o agente local
                       href: lifecycle-services/update-local-agent.md
                 - name: Solução de problemas
@@ -556,10 +428,12 @@
               items:
                 - name: Criar pacotes de modelos implantáveis
                   href: deployment/create-apply-deployable-package.md
-                - name: Instalar pacotes implantáveis a partir da linha de comando
+                - name: Instalar pacotes implantáveis pela linha de comando
                   href: deployment/install-deployable-package.md
                 - name: Desinstalar um pacote
                   href: deployment/uninstall-deployable-package.md
+                - name: Executar scripts X++ personalizados com tempo de inatividade zero
+                  href: deployment/run-custom-scripts.md
                 - name: Solucionar problemas de aplicativo do pacote
                   href: deployment/deployable-package-troubleshooting.md
             - name: Implantar ajuda personalizada
@@ -588,13 +462,23 @@
                   href: help/language-locale.md
                 - name: 'Estender, personalizar e colaborar na ajuda'
                   href: help/contributor-guide.md
+            - name: Considerações sobre implantação
+              items:
+                - name: Opções de implantação de nuvem local e autônoma para Dynamics 365 Finance e Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance e Supply Chain Management na GCC (Nuvem da Comunidade Governamental) nos EUA
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance e Supply Chain Management operados pela 21Vianet na China
+                  href: deployment/china-local-deployment.md
+                - name: Aplicativos do Finance and Operations na França
+                  href: deployment/france-local-deployment.md
         - name: Desenvolver e personalizar
           items:
-            - name: Home page Desenvolver e personalizar
+            - name: Home page de Desenvolver e personalizar
               href: dev-tools/developer-home-page.md
             - name: Pilha de aplicativos e arquitetura do servidor
               href: dev-tools/application-stack-server-architecture.md
-            - name: ​Obter cópias de avaliação​
+            - name: Obter cópias de avaliação
               href: dev-tools/get-evaluation-copy.md
             - name: Inscrever-se em assinaturas de versão preliminar
               href: dev-tools/sign-up-preview-subscription.md
@@ -604,9 +488,7 @@
                   href: dev-tools/access-instances.md
                 - name: Configurar ambientes de desenvolvimento de uma caixa
                   href: dev-tools/configure-developer-vm.md
-                - name: Criar novos usuários em computadores de desenvolvimento
-                  href: dev-tools/enable-development-machine.md
-                - name: Perguntas Frequentes sobre desenvolvimento e compilação de VMs que não permitem o acesso do administrador
+                - name: Perguntas frequentes sobre desenvolvimento e compilação de VMs que não permitem o acesso do administrador
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Renomear ambientes locais para acessar o Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
@@ -632,6 +514,10 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Criar uma conexão do Lifecycle Services (LCS) no Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Atualizar tarefas de autenticação de conexão do LCS para MSAL no Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
+                - name: Atualizar o Azure Pipeline hospedado para novos pacotes NuGet
+                  href: dev-tools/pipeline-nuget-split.md
                 - name: Atualizar um pipeline herdado no Azure Pipelines
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Aplicativo de exemplo de Gerenciamento de Frota
@@ -656,17 +542,17 @@
                   href: dev-tools/build-operations.md
                 - name: Recursos do Editor de códigos
                   href: dev-tools/code-editor.md
-                - name: ​Criar modelos e elementos de modelo de dados​
+                - name: Criar modelos e elementos de modelo de dados
                   items:
-                    - name: Visão geral de ​Criar modelos e elementos de modelo de dados​
+                    - name: Visão geral de Criar modelos e elementos de modelo de dados
                       href: dev-tools/create-data-model-elements.md
                     - name: Diretrizes de nomenclatura para extensões
-                      href: extensibility/NamingGuidelines.md
-                    - name: ​Desativar a personalização de modelos e substituir a funcionalidade​
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                    - name: Desativar a personalização de modelos e substituir a funcionalidade
                       href: dev-tools/lock-models.md
-                - name: ​Relatório de Análise de Personalizações​
+                - name: Relatório de Análise de Personalizações
                   href: dev-tools/customization-analysis-report.md
-                - name: ​Designers de elementos​
+                - name: Designers de elementos
                   href: dev-tools/element-designers.md
                 - name: Comandos para determinar o uso de elementos
                   href: dev-tools/element-usage.md
@@ -684,25 +570,27 @@
                   href: dev-tools/update-development-tools.md
             - name: Linguagem de programação X++
               items:
-                - name: Recursos de X++ e depurador
-                  href: dev-tools/new-x-debugger-features.md
-                - name: Depurar código X++
-                  href: dev-tools/debug-xpp.md
-                - name: Classes EventHandlerResult em cenários de solicitação ou resposta
-                  href: dev-tools/event-handler-result-class.md
-                - name: Escrever lógica comercial usando código-fonte C# e X++
-                  href: dev-tools/write-business-logic.md
-                - name: Alterações em X++ e no compilador X++
-                  href: dev-tools/programming-language-support.md
-                - name: Provedor LINQ para C#
-                  href: dev-tools/linq-provider-c.md
-                - name: Escrever regras de práticas recomendadas
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Propriedades do Explorador de Aplicativos
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: Suporte à linguagem X++
+                  items:
+                    - name: Requisitos do Visual Studio para X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: Depurar código X++
+                      href: dev-tools/debug-xpp.md
+                    - name: Classes de EventHandlerResult em cenários de solicitação ou resposta
+                      href: dev-tools/event-handler-result-class.md
+                    - name: Escrever lógica comercial usando código-fonte C# e X++
+                      href: dev-tools/write-business-logic.md
+                    - name: Provedor LINQ para C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: Escrever regras de práticas recomendadas
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Propriedades do Explorador de Aplicativos
+                      href: dev-ref/application-explorer-aot-properties.md
+                    - name: Atributo SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: Referência da linguagem X++
                   items:
-                    - name: Visão geral da Referência da linguagem X++
+                    - name: Visão geral da referência da linguagem X++
                       href: dev-ref/xpp-language-reference.md
                     - name: Variáveis e tipos de dados
                       items:
@@ -744,11 +632,11 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Bibliotecas
                           href: dev-ref/xpp-library-objects.md
-                        - name: Eventos
+                        - name: Eventos e delegados
                           href: dev-ref/xpp-events.md
-                    - name: Manipulação e seleção de dados da X++
+                    - name: Manipulação e seleção de dados de X++
                       items:
-                        - name: Visão geral da manipulação e seleção de dados da X++
+                        - name: Visão geral da manipulação e seleção de dados de X++
                           href: dev-ref/xpp-data/xpp-data-home-page.md
                         - name: Instrução Select
                           href: dev-ref/xpp-data/xpp-select-statement.md
@@ -780,88 +668,34 @@
                       href: dev-ref/xpp-cs-comparison.md
                     - name: Sintaxe da X++
                       href: dev-ref/xpp-syntax.md
-            - name: '​Referência de API, classes e tabelas​'
+            - name: 'Referência de API, classes e tabelas'
               items:
-                - name: '​Recursos de API, classes e tabelas​'
+                - name: 'Recursos de API, classes e tabelas'
                   href: dev-ref/api-reference.md
                 - name: Funções em tempo de compilação da X++
                   href: dev-ref/xpp-compile-time-functions.md
                 - name: Funções em tempo de execução da X++
                   items:
-                    - name: Recursos de Funções em tempo de execução da X++​
+                    - name: Recursos de Funções em tempo de execução da X++
                       href: dev-ref/xpp-run-time-functions.md
-                    - name: ​Funções de negócios em tempo de execução da X++​
+                    - name: Funções de negócios em tempo de execução da X++
                       href: dev-ref/xpp-business-run-time-functions.md
-                    - name: ​Funções de contêiner em tempo de execução da X++​
+                    - name: Funções de contêiner em tempo de execução da X++
                       href: dev-ref/xpp-container-run-time-functions.md
                     - name: Funções de conversão em tempo de execução da X++
                       href: dev-ref/xpp-conversion-run-time-functions.md
                     - name: Funções de data em tempo de execução da X++
                       href: dev-ref/xpp-date-run-time-functions.md
-                    - name: ​Funções matemáticas em tempo de execução da X++​
+                    - name: Funções matemáticas em tempo de execução da X++
                       href: dev-ref/xpp-math-run-time-functions.md
-                    - name: ​Funções de reflexão em tempo de execução da X++​
+                    - name: Funções de reflexão em tempo de execução da X++
                       href: dev-ref/xpp-reflection-run-time-functions.md
-                    - name: ​Funções de sessão em tempo de execução da X++​
+                    - name: Funções de sessão em tempo de execução da X++
                       href: dev-ref/xpp-session-run-time-functions.md
                     - name: Funções de cadeia de caracteres em tempo de execução da X++
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: Tabelas do sistema
                   href: dev-ref/system-tables.md
-                - name: Classes do sistema
-                  items:
-                    - name: Lista de classes do sistema
-                      href: dev-ref/system-classes/toc.yml
-                    - name: Classes do sistema agrupadas alfabeticamente
-                      items:
-                        - name: Classes A
-                          href: dev-ref/a-classes.md
-                        - name: Classes B
-                          href: dev-ref/b-classes.md
-                        - name: Classes C
-                          href: dev-ref/c-classes.md
-                        - name: Classes D
-                          href: dev-ref/d-classes.md
-                        - name: Classes E
-                          href: dev-ref/e-classes.md
-                        - name: Classes F
-                          href: dev-ref/f-classes.md
-                        - name: Classes G
-                          href: dev-ref/g-classes.md
-                        - name: Classes H
-                          href: dev-ref/h-classes.md
-                        - name: Classes I
-                          href: dev-ref/i-classes.md
-                        - name: Classes J
-                          href: dev-ref/j-classes.md
-                        - name: Classes K
-                          href: dev-ref/k-classes.md
-                        - name: Classes L
-                          href: dev-ref/l-classes.md
-                        - name: Classes M
-                          href: dev-ref/m-classes.md
-                        - name: Classes N
-                          href: dev-ref/n-classes.md
-                        - name: Classes O
-                          href: dev-ref/o-classes.md
-                        - name: Classes P
-                          href: dev-ref/p-classes.md
-                        - name: Classes Q
-                          href: dev-ref/q-classes.md
-                        - name: Classes R
-                          href: dev-ref/r-classes.md
-                        - name: Classes S
-                          href: dev-ref/s-classes.md
-                        - name: Classes T
-                          href: dev-ref/t-classes.md
-                        - name: Classes U
-                          href: dev-ref/u-classes.md
-                        - name: Classes V
-                          href: dev-ref/v-classes.md
-                        - name: Classes W
-                          href: dev-ref/w-classes.md
-                        - name: Classes X
-                          href: dev-ref/x-classes.md
             - name: Extensibilidade
               items:
                 - name: Home page da extensibilidade
@@ -936,7 +770,7 @@
                       href: extensibility/register-subclass-factory-methods.md
                     - name: Responder usando EventHandlerResult
                       href: extensibility/respond-event-handler-result.md
-                    - name: Estender a classe RunBase​
+                    - name: Estender a classe RunBase
                       href: extensibility/extend-runbase-class.md
                     - name: Personalizar a inicialização do aplicativo usando delegados
                       href: extensibility/startup-customizations.md
@@ -960,7 +794,7 @@
                       href: extensibility/change-caption-form.md
                     - name: Modificar propriedades de controle de formulário
                       href: extensibility/modify-control-properties.md
-                    - name: ​Estender o escopo das sequências numérica​s
+                    - name: Estender o escopo das sequências numéricas
                       href: extensibility/extend-number-sequence-scope.md
                     - name: Adicionar novas dimensões de estoque
                       href: extensibility/inventory-dimensions.md
@@ -1000,15 +834,13 @@
                       href: extensibility/compatibility-checker-tool.md
             - name: Desempenho
               items:
-                - name: Fazer rastreamentos usando o Analisador de Rastreamento
+                - name: Fazer rastreamentos usando o Analisador de rastreamento
                   href: perf-test/trace-trace-tutorial.md
-                - name: Teste de um único usuário com o Gravador de Tarefas e o SDK do Performance
+                - name: Teste de um único usuário usando o SDK de desempenho e o Gravador de Tarefas
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Teste de vários usuários com o SDK do Performance e um controlador de teste local
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Teste de vários usuários com o SDK do Performance e o Azure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Guia de solução de problemas de teste de um único usuário ou de vários usuários com o SDK do Performance
+                - name: Teste de vários usuários usando o SDK de desempenho
+                  href: perf-test/perfsdk-multi-user-testing.md
+                - name: Guia de solução de problemas para testes com o SDK de desempenho
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Testes de SDK do Performance e de multiusuários em ambientes locais
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1022,10 +854,12 @@
                   href: perf-test/testing-validation.md
                 - name: Testar projetos no Visual Studio
                   href: perf-test/testing-support.md
-                - name: Implantar ambientes que ofereçam suporte à contínua automação de compilações e testes
+                - name: Implantar e usar um ambiente de automação contínua de compilações e testes
                   href: perf-test/continuous-build-test-automation.md
                 - name: Filtragem de SysTest usando atributos de classe e método
                   href: perf-test/systest-filtering.md
+                - name: Atributo SysTestRow para teste de vários valores
+                  href: perf-test/systest-row.md
                 - name: Biblioteca de testes de aceitação
                   items:
                     - name: Recursos da Biblioteca de testes de aceitação
@@ -1052,11 +886,17 @@
                       href: perf-test/atl-faq.md
             - name: Efetividade de data
               href: dev-tools/date-effectivity.md
-            - name: Licenciamento do ISV
-              href: dev-tools/isv-licensing.md
-            - name: Licenciamento do ISV local
-              href: dev-tools/isv-licensing-on-prem.md
-        - name: Regulamento Geral sobre a Proteção de Dados (GDPR)
+            - name: Desenvolvimento para fornecedores de software independentes
+              items:
+                - name: Home page de desenvolvimento de ISVs
+                  href: dev-tools/isv-dev-home-page.md
+                - name: Vincular módulos de X++ a pacotes usando ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: Licenciamento do ISV
+                  href: dev-tools/isv-licensing.md
+                - name: Licenciamento do ISV local
+                  href: dev-tools/isv-licensing-on-prem.md
+        - name: Regulamento Geral sobre a Proteção de Dados (RGPD)
           items:
             - name: Visão geral do Regulamento Geral sobre a Proteção de Dados (GDPR)
               href: gdpr/gdpr-guide.md
@@ -1072,7 +912,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Gerenciar o acesso a dados confidenciais
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: ​Responder a solicitações de dados pessoais usando o Human Resources
+                - name: Responder a solicitações de dados pessoais usando o Human Resources
                   href: gdpr/respond-dsr-request-talent.md
                 - name: Responder a solicitações de dados pessoais no AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -1088,12 +928,18 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS para parceiros
                   href: lifecycle-services/getting-started-lcs.md
+                - name: APIs RESTful
+                  items:
+                    - name: Iniciar e interromper ambientes
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Buscar metadados de ambiente
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Buscar histórico de ambiente
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Buscar ZIP de certificado de RSAT do ambiente
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Novidades ou alterações no Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Problemas conhecidos
-                  href: lifecycle-services/known-issues.md
-                - name: Recursos removidos ou obsoletos do Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Guia do usuário do Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Integração do Project
@@ -1130,7 +976,7 @@
                   href: lifecycle-services/synchronize-bpm-vsts.md
                 - name: Criar bibliotecas de teste de aceitação de usuário usando o BPM e os guias de tarefas
                   href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-                - name: ​Fluxogramas no modelador de processo de negócios​
+                - name: Fluxogramas no modelador de processo de negócios
                   href: lifecycle-services/flowcharts-business-process-modeler.md
                 - name: Carregar processos de negócios personalizados no Modelador de processo de negócios
                   href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
@@ -1143,9 +989,11 @@
                 - name: Perguntas frequentes sobre a janela de manutenção planejada
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Monitoramento e diagnóstico
-              href: lifecycle-services/monitoring-diagnostics.md
-            - name: Relatório de análise de impacto
-              href: lifecycle-services/impact-analysis-report.md
+              items:
+                - name: Ferramentas de monitoramento e diagnóstico
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Usar o Azure Data Explorer para consultar logs de informações brutas
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Reiniciar serviços de ambiente
               href: lifecycle-services/restart-environment-services.md
             - name: Relatar uma interrupção de produção
@@ -1158,6 +1006,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Guia de consultas
               href: lifecycle-services/querycookbook.md
+            - name: Assinaturas expiradas e exclusão de dados
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Visão geral do Dynamics 365 Translation Service
@@ -1168,20 +1018,230 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Arquivos da memória de tradução
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Extensão do Azure DevOps (versão preliminar pública)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Integração do Microsoft Power Platform
           items:
-            - name: Integração do Microsoft Power Platform com o Finance and Operations
+            - name: Visão Geral
               href: power-platform/overview.md
-            - name: Modelagem de entidade
-              href: power-platform/entity-modeling.md
-            - name: Gerenciamento do ciclo de vida de aplicativos
-              href: power-platform/application-lifecycle-management.md
-            - name: Referência de administração do Finance and Operations e do Common Data Service
-              href: power-platform/admin-reference.md
-            - name: Portais do Power Apps com o Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: Perguntas frequentes sobre entidades virtuais do Finance and Operations
-              href: power-platform/faq.md
+            - name: Habilitando a integração do Power Platform
+              href: power-platform/enable-power-platform-integration.md
+            - name: Autenticação e autorização
+              href: power-platform/authentication-and-authorization.md
+            - name: Gravação dupla
+              items:
+                - name: Home page da gravação dupla
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: Novidades ou alterações na gravação dupla
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: Visão geral da gravação dupla
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: Configuração da gravação dupla
+                  items:
+                    - name: Requisitos do sistema para gravação dupla
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: Orientações sobre como configurar a gravação dupla
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: Considerações para a sincronização inicial
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Limites de sincronização ao vivo
+                      href: data-entities/dual-write/sync-limits.md
+                    - name: Configuração da gravação dupla do Lifecycle Services
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: Habilite gravação dupla para aplicativos existentes do Finance and Operations
+                      items:
+                        - name: Habilite gravação dupla para aplicativos existentes do Finance and Operations
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: Pré-requisitos e requisitos do sistema
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: Como usar o assistente de gravação dupla para vincular seus ambientes
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: Habilitar mapa de entidade para gravação dupla
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: Pacote de orquestração de aplicativos com gravação dupla separado
+                      href: data-entities/dual-write/separated-solutions.md
+                    - name: Migração do tipo de dados de moeda para gravação dupla
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: Configurar o mapeamento dos campos de status da ordem de venda
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: Filtrar ordens intercompanhia para evitar sincronizar Ordens e Linhas da Ordem
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: Gerenciando a gravação dupla
+                  items:
+                    - name: Personalizar mapeamentos de entidades e campos
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: Orientações de personalização da gravação dupla
+                      href: data-entities/dual-write/custom-best-practices.md
+                    - name: Manuseando múltiplos mapas de entidades
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: Editar uma entidade legal após configuração de gravação dupla
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Pausar gravação dupla para manutenção
+                      href: data-entities/dual-write/pause-for-maintenance.md
+                    - name: Gerenciamento de erros e notificações de alerta
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: Gerenciamento do ciclo de vida de aplicativos
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Proprietário da equipe especificado pelo usuário
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Desvincular e vincular novamente os ambientes de gravação dupla
+                      href: data-entities/dual-write/relink-environments.md
+                - name: Mapeamento de conceitos entre aplicativos
+                  items:
+                    - name: Cliente mestre integrado
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: Integração do fornecedor
+                      items:
+                        - name: Fornecedor mestre integrado
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: Alternar entre designs de fornecedor
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: Cartões-fidelidade do cliente e pontos de premiação
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: Integração do produto
+                      items:
+                        - name: Experiência unificada do produto
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: Sites e depósitos integrados
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: Integração da empresa
+                      items:
+                        - name: Conceito de empresa no Dataverse
+                          href: data-entities/dual-write/company-data.md
+                        - name: Inicializar dados da empresa
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Hierarquia da organização no Dataverse
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: Dados financeiros e tributários
+                      items:
+                        - name: Acesso a dados de referência financeira e tributária
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: Razão integrado
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: Impostos integrados
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Integrar aquisição no Supply Chain Management com o Field Service
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: Sincronizar sob demanda com o mecanismo de preços do Supply Chain Management
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: Do cliente potencial ao pagamento à vista em gravação dupla
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: Use o mecanismo de preços do Dynamics 365 Commerce com o Dynamics 365 Sales
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: Ativos internos para manutenção
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: Disponibilidade de estoque
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 'Trabalhador, trabalho e cargo integrados'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: Catálogo de endereços global e de participantes
+                      href: data-entities/dual-write/party-gab.md
+                    - name: Usando portais do Microsoft Power Apps com o modelo de dados de participantes
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: Fazer upgrade para o modelo de catálogo de endereços global e de participantes
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Exibir dados do participante
+                      href: data-entities/dual-write/view-party.md
+                    - name: Integração de observações
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: Referência de mapeamento
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: Suporte à gravação dupla
+                  items:
+                    - name: Suporte para soluções Field Service e Project Service Automation
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: Migrar dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: Solução de problemas
+                      items:
+                        - name: Solução de problemas gerais
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Solucionar problemas durante a configuração inicial
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: Solucionar problemas durante a sincronização inicial
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Solucionar problemas de sincronização dinâmica
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Solucionar problemas de participantes e de catálogos de endereços globais
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
+                        - name: Solucionar problemas relacionados ao reconhecimento da solução
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: Solucionar problemas de atualizações de aplicativos do Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: Verificar a configuração de gravação dupla em aplicativos do Finance and Operations e no Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Códigos de erro para a verificação de integridade do mapa de tabela
+                          href: data-entities/dual-write/table-map-health-check.md
+                - name: Perguntas frequentes sobre gravação dupla
+                  href: data-entities/dual-write/dual-write-faq.md
+            - name: Entidades virtuais
+              items:
+                - name: Visão geral de entidades virtuais
+                  href: power-platform/virtual-entities-overview.md
+                - name: Modelagem de entidade
+                  href: power-platform/entity-modeling.md
+                - name: Gerenciamento do ciclo de vida de aplicativos
+                  href: power-platform/application-lifecycle-management.md
+                - name: Configurar entidades virtuais do Dataverse
+                  href: power-platform/admin-reference.md
+                - name: Habilitar entidades virtuais do Dataverse
+                  href: power-platform/enable-virtual-entities.md
+                - name: Portais do Power Apps com o Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: Perguntas frequentes sobre entidades virtuais do Finance and Operations
+                  href: power-platform/faq.md
+            - name: Eventos de negócios
+              items:
+                - name: Visão geral de eventos de negócios
+                  href: business-events/home-page.md
+                - name: Gerenciando pontos de extremidade de eventos de negócios
+                  href: business-events/managing-business-event-endpoints.md
+                - name: Eventos de negócios de aplicativos
+                  href: business-events/app-business-events.md
+                - name: Eventos de negócios de fluxos de trabalho
+                  href: business-events/business-events-workflow.md
+                - name: Eventos de negócios em lotes
+                  href: business-events/system-business-events.md
+                - name: Alertas como eventos de negócios
+                  href: business-events/alerts-business-events.md
+                - name: Eventos de dados
+                  href: business-events/data-events.md
+                - name: Eventos de negócios no Power Automate
+                  href: business-events/business-events-flow.md
+                - name: Documentação do desenvolvedor de eventos de negócios
+                  href: business-events/business-events-dev-doc.md
+                - name: Solucionar problemas de eventos de negócios
+                  href: business-events/troubleshooting.md
+                - name: Casos de uso de eventos de negócios
+                  href: business-events/potential-use-cases.md
+                - name: Tutoriais
+                  items:
+                    - name: Eventos de negócios e Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: Eventos de negócios e Grade de Eventos do Azure
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: Eventos de negócios e Barramento de Serviço do Azure
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: Eventos de negócios e Fila do Barramento de Serviço do Azure
+                      href: business-events/how-to/how-to-servicebus-queue.md
+                    - name: Eventos de negócios e aprovações de fluxo de trabalho
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: Eventos de negócios e Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: Eventos de negócios e Hubs de Eventos do Azure
+                      href: business-events/how-to/event-hub.md
+                    - name: Inscrever-se em eventos no Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
+                    - name: Eventos de negócios no fechamento do período financeiro
+                      href: business-events/how-to/period-close.md
+            - name: Suplementos
+              items:
+                - name: Visão geral de suplementos
+                  href: power-platform/add-ins-overview.md
+            - name: Políticas e comunicações
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Plataforma móvel
           items:
             - name: Recursos da plataforma móvel
@@ -1414,18 +1474,26 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Usar a Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
+            - name: Manter casos de teste na Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Validar valores esperados
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Agrupar casos de teste
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Casos de teste derivados
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Tutorial sobre a Regression Suite Automation Tool e outros recursos
-              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: Atualizar os arquivos de parâmetros
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Tutorial sobre a Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-tutorial.md
+            - name: Configurar usuários que não sejam administradores
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: Práticas recomendadas
               href: perf-test/rsat/rsat-best-practices.md
             - name: Testes independentes de dados usando a Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Executar a ferramenta Regression Suite Automation Tool (RSAT) com execução paralela
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Solução de problemas
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Liberar soluções usando o Lifecycle Services
@@ -1464,25 +1532,27 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Suporte
           items:
-            - name: Obter suporte para o Finance and Operations e Lifecycle Services
+            - name: Obter suporte para o Finance and Operations e o Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Visão geral do suporte do Dynamics 365
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: Obter suporte para o Finance and Operations operado pela 21Vianet na China
               href: lifecycle-services/21vianet-support.md
-            - name: Configurar suporte técnico para os aplicativos do Finance and Operations
+            - name: Configurar o suporte técnico para os aplicativos do Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Gerenciar experiências de suporte para os aplicativos do Finance and Operations
+            - name: Gerenciar experiências de suporte para aplicativos do Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Suporte e monitoramento de produção
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Administração do sistema
           items:
             - name: Home page de Administração do sistema
               href: sysadmin/system-administration-home-page.md
             - name: Adicionar links aos termos legais e à política de privacidade
               href: sysadmin/legal-terms-privacy-statement.md
-            - name: ​Relatório de códigos de licença e chaves de configuração​
+            - name: Relatório de códigos de licença e chaves de configuração
               href: sysadmin/license-codes-configuration-keys-report.md
-            - name: ​Compartilhamento de dados interempresarial​
+            - name: Compartilhamento de dados interempresarial
               href: sysadmin/cross-company-data-sharing.md
             - name: Modo de manutenção
               href: sysadmin/maintenance-mode.md
@@ -1490,6 +1560,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Exportar usuários B2B para o Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Manutenção de dados
+              href: sysadmin/DataMaintenancePortal.md
             - name: Segurança
               items:
                 - name: Segurança baseada em função
@@ -1506,6 +1578,8 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: Gerenciamento de sessões do usuário
                   href: sysadmin/user-session-management.md
+                - name: Bloquear acesso por local com o Acesso Condicional do Azure AD
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Importar usuários em massa
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Configurar diferenciação de direitos
@@ -1524,6 +1598,8 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: Manter a conformidade com os requisitos de licenciamento do usuário
               href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: Exibir status da licença do fornecedor de software independente
+              href: sysadmin/view-isv-license-status.md
             - name: Automação de processos
               href: sysadmin/process-automation.md
             - name: Processamento em lotes
@@ -1534,29 +1610,33 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Criar trabalhos em lotes
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Habilitar novas tentativas de lote
+                  href: sysadmin/retryable-batch.md
                 - name: Copiar um trabalho em lotes
                   href: sysadmin/copy-batch-job.md
+                - name: Agendamento de lotes com base na prioridade
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Períodos de lote ativos
                   href: sysadmin/activeperiod.md
                 - name: Suporte ao horário de verão para períodos de lote ativos
                   href: sysadmin/batch-active-period-dst.md
                 - name: Função de segurança do gerente de lotes
                   href: sysadmin/runby.md
-                - name: Trabalhos em lotes para tratar da desfragmentação de índice SQL
-                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: Configurar alertas em lotes
                   href: sysadmin/alerts.md
                 - name: Formulários de lote aprimorados
                   href: sysadmin/enhanced-forms.md
                 - name: Limpar o histórico de lotes
                   href: sysadmin/batch-history-cleanup.md
-                - name: Anular um trabalho em lotes em execução
+                - name: Cancelar um trabalho em lotes em execução
                   href: sysadmin/batch-abort.md
-            - name: Supervisor de otimização
+                - name: OData API de lote
+                  href: sysadmin/batch-odata-api.md
+            - name: Assistente de otimização
               items:
-                - name: Visão geral do Supervisor de otimização
+                - name: Visão geral do Assistente de otimização
                   href: sysadmin/optimization-advisor-overview.md
-                - name: Criar regras para o Supervisor de otimização
+                - name: Criar regras para o Assistente de otimização
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Relatar uma interrupção de produção
               href: lifecycle-services/report-production-outage.md
@@ -1574,11 +1654,11 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Upgrade do AX 2012
               items:
-                - name: Upgrade do AX 2012 para o Finance and Operations
+                - name: ​Upgrade do AX 2012 para o Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
-                - name: Upgrade do AX 2012 - Planejamento usando a ferramenta Analisador de atualizações
+                - name: Upgrade do AX 2012 — Planejamento usando a ferramenta Analisador de atualizações
                   href: migration-upgrade/upgrade-analyzer-tool.md
-                - name: Upgrade do AX 2012 - Estimar o esforço usando o serviço Atualização de código
+                - name: Upgrade do AX 2012 — Estimar o esforço usando o serviço Atualização de código
                   href: migration-upgrade/analyze-code-upgrade.md
                 - name: Upgrade do AX 2012 — Implantar um ambiente de demonstração para análise
                   href: migration-upgrade/analysis-sandbox.md
@@ -1586,10 +1666,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Upgrade do AX 2012 — Lista de verificação de pré-atualização para a atualização de dados
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Upgrade do AX 2012 — Atualização de dados em ambientes de área restrita usando o processo DACPAC
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
-                - name: Upgrade do AX 2012 — Atualização de dados em ambientes de área restrita
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: Upgrade do AX 2012 — Atualização de dados em ambientes de autoatendimento
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: Upgrade do AX 2012 — Ambientes locais
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Upgrade do AX 2012 — Testes de substituição
@@ -1598,17 +1676,17 @@
                   href: migration-upgrade/app-validation-process.md
                 - name: Upgrade do AX 2012 — Teste funcional aprovado
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: Upgrade do AX 2012 - ​Preparar para o Go Live​
+                - name: Upgrade do AX 2012 — Preparar para o Go Live
                   href: migration-upgrade/upgrade-go-live-prep.md
-                - name: Upgrade do AX 2012 — Ativar
+                - name: Upgrade do AX 2012 — Go Live
                   href: migration-upgrade/2012-upgrade-cutover.md
-                - name: Alterações que afetam a atualização do AX 2012
+                - name: Upgrade do AX 2012 — Perguntas frequentes sobre o upgrade de dados
+                  href: migration-upgrade/upgrade-faq.md
+                - name: Alterações que afetam o upgrade do AX 2012
                   items:
-                    - name: O delimitador do plano de contas deve ser exclusivo
+                    - name: Tornar o delimitador do plano de contas exclusivo
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: ​Atualizar diários de comprovante único e reavaliações de moeda
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
-                    - name: ​Modelo de dados de agendamento de recursos de projeto​
+                    - name: Modelo de dados de agendamento de recursos de projeto
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Alterações no subsistema de fluxo de trabalho
                       href: migration-upgrade/workflow-subsystem.md
@@ -1622,9 +1700,9 @@
               items:
                 - name: Migrar dados do AX 2009 para o Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
-                - name: Migração do AX 2009 - Instalar a Ferramenta de migração de dados
+                - name: Migração do AX 2009 — Instalar a Ferramenta de migração de dados
                   href: migration-upgrade/install-dmt.md
-                - name: Migração do AX 2009 - Gerar mapas
+                - name: Migração do AX 2009 — Gerar mapas
                   href: migration-upgrade/generate-maps.md
                 - name: Migração do AX 2009 — Criar modelos
                   href: migration-upgrade/create-package-templates-dmt.md
@@ -1688,7 +1766,7 @@
                   href: dev-tools/update-development-tools.md
             - name: Substituições
               items:
-                - name: Recursos removidos ou obsoletos
+                - name: Recursos removidos ou preteridos
                   href: migration-upgrade/deprecated-features.md
                 - name: Substituição de métodos e elementos de metadados
                   href: migration-upgrade/deprecation-deletion-apis.md
@@ -1788,9 +1866,9 @@
                   href: user-interface/form-pattern-add-ins.md
             - name: Padrões de formulário
               items:
-                - name: ​Diretrizes gerais de formulário​
+                - name: Diretrizes gerais de formulário
                   href: user-interface/general-form-guidelines.md
-                - name: ​Padrão de formulário Mestre Detalhado​
+                - name: Padrão de formulário Mestre Detalhado
                   href: user-interface/details-master-form-pattern.md
                 - name: Padrão de formulário Transação Detalhada
                   href: user-interface/details-transaction-form-pattern.md
@@ -1890,7 +1968,7 @@
                   href: user-interface/build-workspaces.md
                 - name: Cache de blocos e listas para espaços de trabalho
                   href: user-interface/tile-list-caching-workspaces.md
-            - name: ​Gravador de Tarefas​
+            - name: Gravador de Tarefas
               items:
                 - name: Recursos do Gravador de Tarefas
                   href: user-interface/task-recorder.md
