@@ -2,25 +2,25 @@
 title: Datas de fatura de fornecedor
 description: Este tópico descreve as datas exibidas nas faturas de fornecedor. Também explica como configurar o sistema para que ele ajuste automaticamente a data de lançamento.
 author: sunfzam
-ms.date: 08/30/2021
+ms.date: 2/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: a066f828b47f297b8ad520b9eb0f4f311d49b111
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647874"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105454"
 ---
 # <a name="vendor-invoice-dates"></a>Datas de fatura de fornecedor
 
@@ -50,6 +50,9 @@ Siga estas etapas para habilitar o sistema a ajustar automaticamente a data de l
     - **Sempre alterar a data de lançamento para a data do sistema** – o sistema altera automaticamente a data de lançamento para a data do sistema durante o lançamento.
     - **Alterar data de lançamento para a data do sistema quando o período de data de lançamento estiver fechado ou em espera** – o sistema altera a data de lançamento para a data do sistema durante o lançamento, mas somente se o período correspondente da data de lançamento tiver um status **Fechado** ou **Em espera**.
     - **Alterar data de lançamento para o primeiro dia do novo período quando o período de data de lançamento estiver fechado ou em espera** – o sistema altera a data de lançamento para o primeiro dia do novo período aberto, mas somente se o período correspondente da data de lançamento tiver um status **Fechado** ou **Em espera**.
+
+> [!NOTE]
+> Se a nova data de lançamento ajustada automaticamente estiver em um novo ano fiscal, a data de lançamento da fatura não será atualizada. O usuário receberá uma mensagem de erro "O ano fiscal foi alterado. Verifique e insira novamente a data de lançamento." A data de lançamento da fatura deve ser atualizada para a nova data do ano fiscal a fim de lançá-la.
 
 ## <a name="impact-of-posting-date-changes"></a>Impacto do lançamento de alterações de data
 

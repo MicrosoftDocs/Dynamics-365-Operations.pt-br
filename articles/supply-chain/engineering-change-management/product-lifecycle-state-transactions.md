@@ -2,26 +2,23 @@
 title: Estados e transações de ciclo de vida do produto
 description: Este tópico explica como você pode controlar quais transações são permitidas para cada estado do ciclo de vida conforme um produto de engenharia passa pelo seu ciclo de vida.
 author: t-benebo
-manager: tfehr
-ms.date: 09/28/2020
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
+ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422635"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322735"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Estados e transações de ciclo de vida do produto
 
@@ -33,7 +30,7 @@ Para um produto de engenharia, as alterações no estado do ciclo de vida são a
 
 ## <a name="create-and-manage-product-lifecycle-states"></a>Criar e gerenciar estados do ciclo de vida do produto
 
-Para trabalhar com estados do ciclo de vida de produtos, vá para **Gerenciamento de alteração de engenharia \> Configuração \> Estado de ciclo de vida de produtos**. Siga uma destas etapas.
+Para trabalhar com estados do ciclo de vida de produtos, Acesse **Gerenciamento de alteração de engenharia \> Configuração \> Estado de ciclo de vida de produtos**. Siga uma destas etapas.
 
 - Para criar um novo estado do ciclo de vida, selecione **Novo** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.
 - Para editar um estado do ciclo de vida existente, selecione-o no painel de listas, selecione **Novo** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.
@@ -76,3 +73,33 @@ Os campos a seguir estão disponíveis para cada processo listado na Guia rápid
 | Apólice | Selecione um dos seguintes valores para controlar se e como o processo atual será permitido para produtos que estão neste estado do ciclo de vida:<ul><li>**Habilitado** – O processo comercial é permitido.</li><li>**Bloqueado** – O processo não é permitido. Se um usuário tentar usar o processo em um produto que esteja neste estado do ciclo de vida, o sistema bloqueará a tentativa e mostrará um erro. Por exemplo, você pode bloquear a compra de produtos de fim de vida útil.</li><li>**Habilitado com aviso** – O processo é permitido, mas um aviso será exibido. Por exemplo, você pode querer que um produto protótipo seja colocado em uma ordem de produção criada pelo departamento de pesquisa e desenvolvimento. No entanto, outros departamentos devem estar cientes de que ainda não devem produzir o produto.</li></ul> |
 
 Se você estiver adicionando mais regras de estado do ciclo de vida como uma personalização, poderá exibir essas regras na interface do usuário, selecionando **Atualizar processos** no painel superior. O botão **Atualizar processos** está disponível somente para administradores.
+
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Estados de ciclo de vida para produtos lançados e variantes de produtos
+
+Para um produto que tem variantes (principal e variantes), o produto (principal) terá um estado de ciclo de vida e cada uma das variantes também pode ter um estado de ciclo de vida diferente.
+
+Para processos específicos, se a variante ou o produto estiver bloqueado, o processo também será bloqueado. Especificamente, para determinar se um processo está bloqueado, o sistema fará as seguintes verificações:
+
+- Para produtos controlados pela engenharia:
+  - Se a versão de engenharia atual estiver bloqueado, bloqueie o processo.
+  - Se a variante atual estiver bloqueada, bloqueie o processo.
+  - Se o produto lançado estiver bloqueado, bloqueie o processo.
+- Para produtos padrão:
+  - Se a variante atual estiver bloqueada, bloqueie o processo.
+  - Se o produto lançado estiver bloqueado, bloqueie o processo.
+
+Por exemplo, suponha que você quer vender apenas uma variante (vermelha) de um certo produto (camiseta) e bloquear a venda de todas as outras variantes por ora. Você pode implementar isso seguindo esta configuração:
+
+- Atribua ao produto um estado de ciclo de vida que permita o processo. Por exemplo, atribua ao produto camiseta um estado de ciclo de vida *Comercializável*, que permite o processo de negócios *Pedido de venda*.
+- Atribua à variante comercializável um estado de ciclo de vida que permita o processo. Por exemplo, atribua também à variante vermelha um estado de ciclo de vida *Comercializável*.
+- Todas as outras variantes receberão um outro estado de ciclo de vida em que o processo é bloqueado. Por exemplo, atribua à variante branca (e todas as outras) um estado de ciclo de vida de *Não comercializável*, que bloqueia o processo de negócios *Pedido de venda*.
+
+## <a name="default-product-lifecycle-states"></a>Estados de ciclo de vida do produto padrão
+
+O estado do ciclo de vida padrão de uma versão de engenharia é especificado por sua categoria de engenharia. O estado será padronizado quando você criar uma nova versão de engenharia, incluindo a primeira versão de um novo produto.
+
+Ao criar um novo produto ou uma nova engenharia, você também pode definir o estado do ciclo de vida padrão especificando-o no modelo liberado resultante da política de lançamento atribuída ao produto.
+
+Nesse caso, é possível para o produto ter um estado de ciclo de vida diferente do que a versão ao criar um novo produto de engenharia.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

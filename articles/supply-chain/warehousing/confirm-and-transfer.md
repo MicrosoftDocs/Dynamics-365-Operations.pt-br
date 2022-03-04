@@ -2,26 +2,23 @@
 title: Confirmar e transferir
 description: Este tópico explica como usar o recurso Confirmar e transferir, que permite aos usuários enviar cargas do depósito antes de concluir todo o trabalho associado a elas.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421950"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103579"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar e transferir
 
@@ -48,20 +45,17 @@ Você só pode dividir cargas que atendam a todos os seguintes critérios:
 
 - Uma ou mais linhas de carga têm quantidades separadas.
 - O status da carga é menor do que o carregado.
-- Não há dados de linha de carga. (Esses dados são criados por meio da consolidação da placa de licença no local de preparo, e o recurso *Confirmar e transferir* não oferece suporte à consolidação de placas de licença.)
-- No momento, não há estoque aguardando para ser embalado em um local de embalagem. (O recurso *Confirmar e transferir* não oferece suporte para estoque que foi separado para a estação de embalagem, mas que ainda não foi embalado.)
+- Não há dados de linha de carga. (Esses dados são criados por meio da consolidação da placa de licença no local de preparo, e o recurso Confirmar e transferir não oferece suporte à consolidação de placas de licença.)
+- No momento, não há estoque aguardando para ser embalado em um local de embalagem. O recurso *Confirmar e transferir* não oferece suporte ao estoque que foi separado para a estação de pacote, mas ainda não foi embalado, a menos que os contêineres incluídos sejam colocados em locais de preparo com trabalho de carregamento criado.
 
 > [!NOTE]
 > Essa funcionalidade é diferente da funcionalidade de carga de transporte, que deve ser usada em depósitos que nunca podem planejar e criar cargas antes da separação, mas que, em vez disso, carregam o espaço de transporte disponível depois que a separação é finalizada.
 >
 > Use o recurso *Confirmar e transferir* em situações nas quais as cargas normalmente são planejadas e criadas com antecedência, mas em que, às vezes, ocorrem exceções quando a carga não cabe no transporte disponível (em um caminhão, por exemplo).
 
-## <a name="turn-on-confirm-and-transfer"></a>Habilitar confirmar e transferir
+## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Ativar ou desativar o recurso de confirmação e transferência
 
-Para que você possa usar o recurso *Confirmar e transferir*, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Confirmar e transferir*
+Para usar a funcionalidade descrita neste tópico, o recurso *Confirmar e transferir* deve estar ativado no sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Confirmar e transferir* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-confirm-and-transfer"></a>Configurar confirmar e transferir
 
@@ -69,7 +63,7 @@ Para usar o recurso *Confirmar e transferir*, você deve ativá-lo em cada model
 
 ### <a name="prepare-your-load-templates"></a>Preparar os modelos de carga
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Carga \> Modelos de carga**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Carga \> Modelos de carga**.
 1. No Painel de Ação, selecione **Editar** para colocar a página no modo de edição.
 1. Marque a caixa de seleção **Permitir divisão de carga durante confirmação de remessa** para cada modelo existente no qual você deseja ativar o recurso. Se preferir, selecione **Novo** para criar um novo modelo e configurá-lo conforme necessário. Todas as cargas criadas com esse modelo herdarão esta funcionalidade. (Se estiver trabalhando com os dados de demonstração da **USMF**, ative o recurso para o modelo de carga **Contêiner 20'**.)
 
@@ -77,7 +71,7 @@ Para usar o recurso *Confirmar e transferir*, você deve ativá-lo em cada model
 
 Esta configuração não é necessária em todas as situações. O exemplo mostrado aqui garante que o trabalho possa ser dividido por remessa para dar suporte ao cenário de exemplo apresentado mais adiante neste tópico. Também há outras maneiras de conseguir esse resultado.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Na grade na parte superior da página, selecione um modelo de trabalho existente no qual você deseja configurar o recurso *Confirmar e transferir*. (Se você estiver trabalhando com os dados de demonstração da **USMF**, selecione o modelo de trabalho **51 Estágio de separação**). Outra opção é criar um novo modelo de trabalho.
 1. No Painel de Ação, selecione **Editar consulta** para abrir a caixa de diálogo **Vendas**.
 1. Na caixa de diálogo **Vendas**, na guia **Classificação**, selecione **Adicionar** para adicionar uma linha à grade.
@@ -114,7 +108,7 @@ Para poder usar esta funcionalidade, você deve ter uma carga que contenha vári
 
 Para criar uma carga de qualificação, primeiro crie três ordens de venda seguindo essas etapas.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ação, selecione **Novo** para abrir a caixa de diálogo **Criar ordem de venda**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores (no mínimo):
 
@@ -147,7 +141,7 @@ Para criar uma carga de qualificação, primeiro crie três ordens de venda segu
 
 A bancada de planejamento de carga usará a ID do modelo de carga para criar as remessas e liberar as linhas de ordem de venda para o depósito.
 
-1. Vá para **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
+1. Acesse **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
 1. No campo **Depósito**, selecione *51*.
 
     Agora você irá montar a carga para as ordens de venda que acabou de criar.
@@ -202,7 +196,7 @@ Agora as duas IDs de trabalho serão fechadas (carregadas).
 
 Nesta etapa, você confirmará as duas ordens de venda e o trabalho que foram concluídos para a carga a fim de enviar os itens separados da carga e criar uma nova carga para os itens não separados. A confirmação da remessa de saída deve ser feita na página **Detalhes da carga**.
 
-1. Vá para **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
+1. Acesse **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
 1. Na seção **Cargas**, na grade, selecione a linha da ID da carga que você criou.
 1. Selecione o link da ID da carga para abrir a página **Detalhes da carga**.
 1. Na página **Detalhes da carga**, no Painel de Ação, na guia **Enviar e receber**, no grupo **Confirmar**, selecione **Remessa de saída** para iniciar a confirmação.
@@ -230,3 +224,6 @@ Também é possível confirmar que as relações de transação foram atualizada
 - A opção **Dividir quantidade para nova carga** também funciona quando alguns dos cabeçalhos de trabalho restantes têm o status *Em andamento*. Portanto, você ainda poderá usar a funcionalidade mesmo se os trabalhadores já estiverem executando as ordens de separação.
 - Se você selecionar **Cancelar quantidade não atendida** enquanto houver trabalho restante com o status *Aberto* ou *Em andamento*, a seguinte mensagem de erro será exibida: "Não é possível cancelar quantidade pendente para carga. Existe trabalho para a carga."
 - Se você selecionar **Cancelar quantidade não atendida** quando não houver trabalho restante, mas houver linhas de carga não liberadas na carga, receberá a seguinte mensagem de erro: "Não foi possível confirmar a remessa da carga porque a quantidade do item excede a porcentagem definida para entrega insuficiente." Para evitar o erro, você pode definir a porcentagem de **Entrega insuficiente** na linha de carga não liberada como 100%. As linhas não liberadas não serão movidas para uma nova carga, mas a carga atual será confirmada com entrega insuficiente. Nesse caso, não será possível liberar a ordem original novamente. Por isso você terá que processá-la de outra forma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

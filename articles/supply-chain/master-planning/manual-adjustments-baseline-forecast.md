@@ -1,12 +1,10 @@
 ---
 title: Faça ajustes manuais para a previsão estatística
 description: Este tópico explica como é possível fazer ajustes manuais em uma previsão de linha de base e exibir os detalhes da previsão.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afdcbb98c96b2a685f64a16886b9a064ed13c2c0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d00061efa551c9fe2ad9d0e441bba44e70b071c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967021"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103754"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Faça ajustes manuais para a previsão estatística
 
@@ -69,14 +67,13 @@ A página **Detalhes de previsão de demanda** mostra as seguintes informações
 
 **Observações:**
 
--   Se você habilitar **Seleção do modelo de previsão nos detalhes da previsão de Demanda** do gerenciamento de Recursos, você poderá selecionar os modelos de previsão a serem incluídos para a previsão histórica na página **Detalhes de previsão de demanda**.
--   O intervalo de confiança exibido na seção **Previsão** da página representa a diferença entre os limites superior e inferior do intervalo de confiança. Para ver os valores dos limites superior e inferior, focalize o gráfico na seção **Demanda histórica e previsão graficamente**.
--   Se você usar o Aprendizado de Máquina do Microsoft Azure de previsão de Demanda, você pode especificar a porcentagem do nível de confiança que a previsão que é gerada deve ter. Um intervalo de confiança consiste em um intervalo de valores que representam boas estimativas para a previsão de demanda. Um nível de confiança de 95% indica que há um risco de 5% de que a previsão de demanda fique fora do intervalo de confiança.
+- O recurso *Seleção do modelo de previsão nos detalhes da Previsão de demanda* adiciona configurações na página **Detalhes da previsão de demanda** que permite selecionar os modelos de previsão a serem incluídos. A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Seleção de modelo de previsão nos detalhes de Previsão de demanda* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- O intervalo de confiança exibido na seção **Previsão** da página representa a diferença entre os limites superior e inferior do intervalo de confiança. Para ver os valores dos limites superior e inferior, focalize o gráfico na seção **Demanda histórica e previsão graficamente**.
+- Se você usar o Aprendizado de Máquina do Microsoft Azure de previsão de Demanda, você pode especificar a porcentagem do nível de confiança que a previsão que é gerada deve ter. Um intervalo de confiança consiste em um intervalo de valores que representam boas estimativas para a previsão de demanda. Um nível de confiança de 95% indica que há um risco de 5% de que a previsão de demanda fique fora do intervalo de confiança.
 
 Você também pode fazer ajustes manuais na previsão na página **Detalhes de previsão de demanda**, modificando os valores na linha **Previsão** da seção **Previsão**.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [​Monitorar precisão da previsão​](monitor-forecast-accuracy.md)
 
@@ -84,3 +81,6 @@ Você também pode fazer ajustes manuais na previsão na página **Detalhes de p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

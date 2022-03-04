@@ -1,26 +1,23 @@
 ---
 title: Configuração de gerenciamento de crédito
 description: Este tópico descreve a configuração necessária para o Gerenciamento de crédito.
-author: mikefalkner
-manager: AnnBe
-ms.date: 09/04/2019
+author: JodiChristiansen
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440222"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182419"
 ---
 # <a name="credit-management-setup"></a>Configuração de gerenciamento de crédito 
 
@@ -28,7 +25,7 @@ ms.locfileid: "4440222"
 
 ## <a name="credit-management-workflows"></a>Fluxos de trabalho de gerenciamento de crédito
 
-Vá para **Crédito e cobranças \> Configuração \> Fluxos de trabalho de gerenciamento de crédito** para definir os fluxos de trabalho usados para gerenciar ajustes de limite de crédito.
+Acesse **Crédito e cobranças \> Configuração \> Fluxos de trabalho de gerenciamento de crédito** para definir os fluxos de trabalho usados para gerenciar ajustes de limite de crédito.
 
 - Você pode criar um fluxo de trabalho que permita aprovar um lote de ajustes de limites de crédito com uma única aprovação.
 - Você pode adicionar um fluxo de trabalho no nível da linha para que os ajustes de limite de crédito possam ser aprovados individualmente.
@@ -42,7 +39,7 @@ Você pode colocar uma ordem de venda em espera se as condições de pagamento n
 
 Se as classificações das condições de pagamento estiverem ativas, e as condições de pagamento na ordem tiverem uma classificação superior à das condições de pagamento padrão do cliente, as ordens de venda serão mantidas em espera.
 
-Para configurar as classificações de condições de pagamento, acesse **Crédito e cobranças \> Configuração \> Configuração de gerenciamento de crédito \> Classificar condições de pagamento**  
+Para configurar as classificações de condições de pagamento, vá para **Crédito e cobranças \> Configuração \> Configuração de gerenciamento de crédito \>Classificar condições de pagamento**.  
 
 ### <a name="ranking-settlement-discounts"></a>Classificando descontos de liquidação
 
@@ -89,7 +86,7 @@ Você pode criar status de conta na página **Status da conta** (**Crédito e co
 
 ## <a name="scoring-groups"></a>Grupos de pontuação
 
-Você pode configurar grupos de pontuação para definir fatores de risco e os critérios usados para mensurá-los. Quando as informações sobre um cliente são aplicadas a um grupo de pontuação, uma pontuação é calculada para cada fator de risco e usada para colocar o cliente em um grupo de risco. O grupo de risco pode ser usado para identificar a confiabilidade de crédito e calcular limites de crédito automáticos.
+Você pode configurar **Grupos de pontuação** para definir fatores de risco e os critérios usados para mensurá-los. Quando as informações sobre um cliente são aplicadas a um grupo de pontuação, uma pontuação é calculada para cada fator de risco e usada para colocar o cliente em um grupo de risco. O grupo de risco pode ser usado para identificar a confiabilidade de crédito e calcular limites de crédito automáticos.
 
 Você pode criar grupos de pontuação na página **Grupos de pontuação** (**Crédito e cobranças \> Configuração \> Configuração de gerenciamento de crédito \> Risco \> Grupos de pontuação**).
 
@@ -153,3 +150,6 @@ Siga estas etapas para adicionar linhas que representem o limite de crédito a s
 2. Selecione o operador de comparação que define como as informações do grupo de pontuação devem ser avaliadas.
 3. Insira o valor que deve ser comparado ao valor especificado para o grupo de pontuação.
 4. Insira o limite de crédito que deverá ser atribuído se as informações do cliente corresponderem ao valor especificado para o grupo de pontuação. Por exemplo, você cria um limite de crédito automático para o grupo de pontuação **Baixa**. Se anos na empresa é um dos grupos de pontuação, você pode definir uma linha que atribua um limite de crédito de 100.000 se o cliente estiver no negócio há cinco anos e outra linha que atribua um limite de crédito de 200.000 se o cliente estiver no negócio há 10 anos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

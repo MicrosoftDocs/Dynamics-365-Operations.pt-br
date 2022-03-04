@@ -2,52 +2,49 @@
 title: Configurar políticas de fatura de fornecedor
 description: Este tópico explica como configurar políticas de fatura de fornecedor.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/11/2019
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58518f5291b70c63506c20717034daff0268901b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440369"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109747"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Configurar políticas de fatura de fornecedor
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como configurar políticas de fatura de fornecedor. As políticas de fatura de fornecedor são executadas quando você lança uma fatura de fornecedor usando a página de fatura do fornecedor e quando você abre a página de violações de política da fatura de fornecedor. Você também pode configurar o fluxo de trabalho da fatura do fornecedor para executar as políticas de fatura do fornecedor todas as vezes que você enviar uma fatura para o fluxo de trabalho. 
+Este tópico explica como configurar políticas de fatura de fornecedor. As políticas de fatura de fornecedor são executadas quando você lança uma fatura de fornecedor usando a página **Fatura do fornecedor** e quando você abre a página **Violações de política** da fatura de fornecedor. Você também pode configurar o fluxo de trabalho da fatura do fornecedor para executar as políticas de fatura do fornecedor todas as vezes que você enviar uma fatura para o fluxo de trabalho. 
 
 - As políticas de fatura do fornecedor não se aplicam às faturas que foram criadas no registro de fatura ou no diário de faturas.  
-- A validação de conciliação de fatura não usa as políticas da fatura do fornecedor, mas é configurada na página de parâmetros de contas a pagar.  
-- Este registro usa a empresa de dados de demonstração USMF. A função gerente de contas a pagar ou gerente de contabilidade executaria estas etapas. Antes de começar, verifique se a configuração conciliação de faturas está marcada.
+- A validação de conciliação de fatura não usa as políticas da fatura do fornecedor, mas é configurada na página **Parâmetros de contas a pagar**.  
+- Este registro usa a empresa de dados de demonstração USMF. A função gerente de contas a pagar ou gerente de contabilidade executaria estas etapas. Antes de começar, verifique se a chave **Configuração conciliação de faturas** está marcada.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Preparar para criar políticas de fatura do fornecedor
-1. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração > Parâmetros de contas a pagar**.
+1. Acesse **Painel de navegação > Módulos > Contas a pagar > Configuração > Parâmetros de contas a pagar**.
 2. Selecione a guia **Validação de fatura**.
 3. Marque ou desmarque a caixa de seleção **Atualizar automaticamente cabeçalho de fatura**.
 4. Selecione **OK**.
 5. No campo **Lançar fatura com discrepâncias**, selecione uma opção.
 6. Feche a página.
-7. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração de política > Políticas de fatura de fornecedor**.
+7. Acesse **Painel de navegação > Módulos > Contas a pagar > Configuração de política > Políticas de fatura de fornecedor**.
 8. Selecione **Parâmetros**.
 9. Selecione **Adicionar**.
 10. Feche a página para voltar à home page.
 
 ## <a name="create-policy-rule-types-for-vendor-invoices"></a>Criar tipos de regras de política para faturas de fornecedor
-1. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração de política > Tipos de regra de política de fatura de fornecedor**.
+1. Acesse **Painel de navegação > Módulos > Contas a pagar > Configuração de política > Tipos de regra de política de fatura de fornecedor**.
 2. Selecione **Novo**.
 3. Nos campos **Nome da regra** e **Descrição**, digite valores.
 4. No campo **Nome da consulta**, selecione o botão suspenso para abrir a pesquisa e então selecione o registro desejado.
@@ -55,7 +52,7 @@ Este tópico explica como configurar políticas de fatura de fornecedor. As pol�
 6. Feche a página para voltar à home page.
 
 ## <a name="define-a-vendor-invoice-policy"></a>Definir uma política de fatura de fornecedor
-1. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração de política > Políticas de fatura de fornecedor**.
+1. Acesse **Painel de navegação > Módulos > Contas a pagar > Configuração de política > Políticas de fatura de fornecedor**.
 2. Selecione **Novo**.
 3. Nos campos **Nome** e **Descrição**, digite valores.
 4. Expanda ou recolha a seção de **Organizações de política**.
@@ -73,3 +70,6 @@ Este tópico explica como configurar políticas de fatura de fornecedor. As pol�
 16. Selecione **OK**.
 17. Feche as páginas para voltar à home page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

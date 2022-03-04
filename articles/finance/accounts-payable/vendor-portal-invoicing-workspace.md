@@ -2,40 +2,36 @@
 title: Espaço de trabalho de faturamento de colaboração do fornecedor
 description: Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho.
 author: abruer
-manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 626607814d6c747d74a13de284db097f0efd8a0c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1d9415b7118efb06099b775f68ce7ca9fb6673ed
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440184"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182620"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento de colaboração do fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho.
+Este tópico explica como podem exibir faturas de fornecedor e enviar faturas no espaço de trabalho **Faturamento da colaboração de fornecedores**.
 
 O espaço de trabalho **Faturamento de colaboração de fornecedor** pode ser usado para exibir informações de fatura de fornecedor e enviar faturas ao sistema usando recursos de fluxo de trabalho.
 
 
-<a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento da colaboração de fornecedores
-----------------------------------------
+## <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento da colaboração de fornecedores
 
 ### <a name="summary-tiles"></a>Blocos do resumo
 
@@ -49,11 +45,11 @@ Clique em um quadro abrirá uma exibição filtrada da página **Lista de notas 
 
 ### <a name="tabular-lists"></a>Listas tabulares
 
-Na seção **Listas Tabular**, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: Rascunho, e listas enviadas não aprovadas. Quando o estado de rascunho, uma nota fiscal pode ser enviada ao fluxo de trabalho ou ser excluída. A última lista tabular é uma opção para encontrar faturas. Você pode filtrar enquanto pesquisa, para permitir pesquisas mais rápidas.
+Na seção **Listas tabulares**, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: **Rascunho** e listas **Enviadas** e **Não aprovadas**. Quando o estado **Rascunho**, uma fatura pode ser enviada ao fluxo de trabalho ou ser excluída. A última lista tabular é uma opção para encontrar faturas. Você pode filtrar enquanto pesquisa, para permitir pesquisas mais rápidas.
 
 ### <a name="all-vendor-invoices-list-page"></a>Página Todas faturas de fornecedor
 
-É possível exibir todas as faturas de fornecedor lançadas na página de listagem **Faturas de colaboração do fornecedor**. Você pode usar esta página de lista para visualizar o status de pagamento das faturas. Os status de pagamento inclui Não feito, e parcialmente pagas totalmente paga.
+É possível exibir todas as faturas de fornecedor lançadas na página de listagem **Faturas de colaboração do fornecedor**. Você pode usar esta página de lista para visualizar o status de pagamento das faturas. Os status de pagamento inclui **Não lançadas**, **Não pagas**, **Parcialmente pagas** e **Totalmente pagas**.
 Criar uma nova fatura a partir de uma ordem de compra
 
 Você pode criar uma nova nota fiscal do fornecedor selecionando **Novo** a ação **Faturamento de colaboração de fornecedor** no espaço de trabalho. A ordem de compra e o número de nota fiscal devem ser fornecidos pelo fornecedor. Por padrão, todas as linhas de ordem de compra de fornecedores aparecerão em nova nota fiscal. A quantidade e as informações de custo podem ser editadas antes de enviar a nota fiscal de fornecedor para o fluxo de trabalho. Você pode anexar arquivos, notas, imagens e URLs a uma nota fiscal antes enviá-la.
@@ -62,3 +58,6 @@ Para obter mais informações, consulte [Colaboração de fornecedores com forne
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

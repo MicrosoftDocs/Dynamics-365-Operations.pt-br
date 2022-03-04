@@ -1,12 +1,10 @@
 ---
 title: Parâmetros de gerenciamento de ativos
 description: Em Gerenciamento de Ativos, os parâmetros gerais relacionadas a ativos, ordens de trabalho e ao agendamento de ordens de trabalho devem estar configurados.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020643"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105480"
 ---
 # <a name="asset-management-parameters"></a>Parâmetros de gerenciamento de ativos
 
@@ -51,7 +49,7 @@ A guia **Ordens de serviços** fornece as seguintes configurações:
 - **Tipo de ordem de serviço padrão** define as configurações padrão ao criar uma ordem de serviço.  
 - **Tipo de ordem de serviço preventiva** define o tipo de ordem de serviço usado ao criar ordens de serviço a partir dos planos de manutenção. Se este campo estiver em branco, será usado o tipo da ordem de serviço no campo **Tipo de ordem de serviço padrão**.  
 - No campo **Máscara da ordem de serviço relacionada**, você define o número máximo de ordens de serviço que podem ser relacionadas a uma ordem de serviço. Por exemplo, ## permite ter até 99 ordens de serviço relacionadas. Se você definir uma máscara conforme descrito aqui, as ordens de serviço relacionadas estarão numeradas [ID de ordem de serviço à qual uma ordem de serviço está relacionada]-01, -02, -03 etc. Se você não definir uma máscara neste campo, a ordem de serviço relacionada obterá a próxima ID sequencial da ordem de serviço.  
-- Selecione **Sim** de **Copiar falhas** para copiar as falhas registradas automaticamente em ordens de serviço relacionadas a solicitações de manutenção. 
+- Selecione **Sim** para **Copiar falhas** se quiser copiar automaticamente as falhas registradas em solicitações de manutenção para ordens de serviço relacionadas. 
 - No campo **Nível**, defina o nível de local funcional que é automaticamente inserido em uma ordem de serviço se todos os trabalhos de ordem de serviço relacionadas estiverem relacionadas ao mesmo local funcional. Se nem todos os trabalhos de ordem de serviço estiverem relacionados ao mesmo local funcional no nível definido, o campo **Local funcional** ficará em branco na ordem de serviço. Por exemplo, se você inserir o número "1" neste campo, que é o nível superior de uma estrutura de local funcional. Se você inserir o número "0" neste campo, significa que não definiu um nível de local funcional específico. Mas todos os trabalhos de ordem de serviço em uma ordem de serviço devem estar relacionados ao mesmo local funcional para que esse local funcional seja adicionado à ordem de serviço.  
 - Diários usados para lançar consumo em uma ordem de serviço podem ser selecionados na Guia Rápida **Geral** nos campos **Hora**, **Item** e **Despesa**.  
 - No campo **Origem de idioma de produto**, selecione o idioma a ser usado para nomes de produto em Gerenciamento de Ativos. Você pode selecionar o idioma configurado na conta da empresa ou a configuração de idioma para o usuário atualmente conectado.  
@@ -101,8 +99,11 @@ Os campos descritos na lista abaixo listam todas as classificações calculadas,
 
 ## <a name="the-document-types-tab"></a>A guia Tipos de documento
 
-Selecione os tipos de documentos que devem estar disponíveis para imprimir anexos relacionados a um relatório de ordem de serviço. Isso é feito selecionando um tipo de documento na seção **Disponível** e selecionando ![seta para frente](media/15-setup-for-objects.png). Se desejar remover um tipo de documento selecionado, selecione o tipo de documento na seção **Selecionado** e selecione ![seta voltar](media/16-setup-for-objects.png) .
+Selecione os tipos de documentos que devem estar disponíveis para imprimir anexos relacionados a um relatório de ordem de serviço. Isso é feito selecionando um tipo de documento na seção **Disponível** e selecionando ![seta para frente.](media/15-setup-for-objects.png). Se desejar remover um tipo de documento selecionado, selecione o tipo de documento na seção **Selecionado** e selecione ![seta voltar](media/16-setup-for-objects.png) .
 
 ## <a name="the-number-sequences-tab"></a>A guia Sequências numéricas
 
 Selecione as sequências numéricas necessárias nesta seção. Há duas sequências numéricas para ativos: uma para ativos criados manualmente e outra para ativos criados por meio de ativos pendentes.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

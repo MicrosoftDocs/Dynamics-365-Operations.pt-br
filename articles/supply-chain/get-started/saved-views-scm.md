@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 943eee819c08704212ceb5e02921c36e7f1032dc
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777830"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103679"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Exibições salvas padrão para o Supply Chain Management
 
@@ -37,9 +37,9 @@ Para obter mais informações sobre como personalizar e renomear exibições sal
 
 ## <a name="available-saved-views-and-how-to-enable-them"></a>Exibições salvas disponíveis e como habilitá-las
 
-Para usar o recurso de exibições salvas, independentemente de usar as exibições salvas padrão ou não, você deverá ativar o recurso *Exibições salvas* no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para qualquer exibição salva, independentemente de usar as exibições salvas padrão ou não, você deverá ativar o recurso *Exibições salvas* no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (a partir da versão 10.0.21, este recurso será habilitado por padrão).
 
-As seções restantes deste tópico fornecem tabelas que descrevem as exibições salvas padrão disponíveis no momento para cada módulo relevante. Cada tabela mostra o nome de cada exibição salva, a página na qual você pode encontrá-la e uma descrição dela. Cada tabela também mostra o nome do recurso que inclui a exibição salva. Para ver uma exibição salva padrão no sistema, você deve ativar o recurso especificado no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+As seções restantes deste tópico fornecem tabelas que descrevem as exibições salvas padrão disponíveis no momento para cada módulo relevante. Cada tabela mostra o nome de cada exibição salva, a página na qual você pode encontrá-la e uma descrição dela. Cada tabela também mostra o nome do recurso que inclui a exibição salva. Para ver uma exibição salva padrão no sistema, você deve ativar o recurso especificado no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partir da versão 10.0.25, todas as exibições listadas serão ativadas por padrão.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Exibições salvas para o módulo Gerenciamento de estoque
 
@@ -47,15 +47,15 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Ger
 
 | Página | Nome da exibição | Descrição da exibição | Nome do recurso |
 |---|---|---|---|
-| Lista disponível | Finanças | Esta exibição simplificada permite que você se concentre nas informações financeiras enquanto gerencia o estoque disponível. | Exibições salvas para gerenciamento de estoque (opção ativada por padrão a partir da versão 10.0.21.) |
-| Lista disponível | Controle de qualidade | Esta exibição simplificada permite que você se concentre no controle de qualidade enquanto gerencia o estoque disponível. | Exibições salvas para gerenciamento de estoque (opção ativada por padrão a partir da versão 10.0.21.) |
-| Lista disponível | Recebimento | Esta exibição simplificada permite que você se concentre nas operações de recebimento enquanto gerencia o estoque disponível. | Exibições salvas para gerenciamento de estoque (opção ativada por padrão a partir da versão 10.0.21.) |
-| Lista disponível | Entrega | Esta exibição simplificada permite que você se concentre nas operações de remessa enquanto gerencia o estoque disponível. | Exibições salvas para gerenciamento de estoque (opção ativada por padrão a partir da versão 10.0.21.) |
-| Transações | Simplificado | Esta exibição simplificada permite que você analise o status do estoque sem se distrair com informações financeiras e outros campos usados com menos frequência. | Exibições salvas para gerenciamento de estoque (opção ativada por padrão a partir da versão 10.0.21.) |
-| Ordens de transferência | Entrega | Esta exibição simplificada permite que você se concentre nas operações de remessa enquanto gerencia ordens de transferência. | Exibições salvas para gerenciamento de estoque (opção ativada por padrão a partir da versão 10.0.21.) |
-| Ordens de transferência | Recebimento | Esta exibição simplificada permite que você se concentre nas operações de recebimento enquanto gerencia ordens de transferência. | Exibições salvas para gerenciamento de estoque (opção ativada por padrão a partir da versão 10.0.21.) |
-| Ordens de transferência | Controle de qualidade | Esta exibição simplificada permite que você se concentre no controle de qualidade enquanto gerencia ordens de transferência. | Exibições salvas para gerenciamento de estoque (opção ativada por padrão a partir da versão 10.0.21.) |
-| Ordens de transferência | Finanças | Esta exibição simplificada permite que você se concentre nas informações financeiras enquanto gerencia ordens de transferência. | Exibições salvas para gerenciamento de estoque (opção ativada por padrão a partir da versão 10.0.21.) |
+| Lista disponível | Finanças | Esta exibição simplificada permite que você se concentre nas informações financeiras enquanto gerencia o estoque disponível. | Exibições salvas do Gerenciamento de estoque<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Lista disponível | Controle de qualidade | Esta exibição simplificada permite que você se concentre no controle de qualidade enquanto gerencia o estoque disponível. | Exibições salvas do Gerenciamento de estoque<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Lista disponível | Recebimento | Esta exibição simplificada permite que você se concentre nas operações de recebimento enquanto gerencia o estoque disponível. | Exibições salvas do Gerenciamento de estoque<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Lista disponível | Entrega | Esta exibição simplificada permite que você se concentre nas operações de remessa enquanto gerencia o estoque disponível. | Exibições salvas do Gerenciamento de estoque<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Transações | Simplificado | Esta exibição simplificada permite que você analise o status do estoque sem se distrair com informações financeiras e outros campos usados com menos frequência. | Exibições salvas do Gerenciamento de estoque<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Ordens de transferência | Entrega | Esta exibição simplificada permite que você se concentre nas operações de remessa enquanto gerencia ordens de transferência. | Exibições salvas do Gerenciamento de estoque<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Ordens de transferência | Recebimento | Esta exibição simplificada permite que você se concentre nas operações de recebimento enquanto gerencia ordens de transferência. | Exibições salvas do Gerenciamento de estoque<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Ordens de transferência | Controle de qualidade | Esta exibição simplificada permite que você se concentre no controle de qualidade enquanto gerencia ordens de transferência. | Exibições salvas do Gerenciamento de estoque<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Ordens de transferência | Finanças | Esta exibição simplificada permite que você se concentre nas informações financeiras enquanto gerencia ordens de transferência. | Exibições salvas do Gerenciamento de estoque<br><br>(Ativado por padrão a partir da versão 10.0.21) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Exibições salvas para o módulo Planejamento mestre
 
@@ -63,8 +63,8 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Pla
 
 | Página | Nome da exibição | Descrição da exibição | Nome do recurso |
 |---|---|---|---|
-| Ordens planejadas: página Detalhes de ordens planejadas | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência para trabalhar com os detalhes de uma única ordem planejada. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para ordens planejadas |
-| Ordens planejadas: página Lista de ordens planejadas | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência para trabalhar com a lista de ordens planejadas. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para ordens planejadas |
+| Ordens planejadas: página Detalhes de ordens planejadas | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência para trabalhar com os detalhes de uma única ordem planejada. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para ordens planejadas<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Ordens planejadas: página Lista de ordens planejadas | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência para trabalhar com a lista de ordens planejadas. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para ordens planejadas<br><br>(Ativado por padrão a partir da versão 10.0.25) |
 
 ## <a name="saved-views-for-the-procurement-and-sourcing-module"></a>Exibições salvas para o módulo Compras e fornecimento
 
@@ -72,10 +72,10 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Com
 
 | Página | Nome da exibição | Descrição da exibição | Nome do recurso |
 |---|---|---|---|
-| Detalhes da ordem de compra | Criação de ordens | Esta exibição simplificada é otimizada para a criação de novas ordens de compra. | Exibições salvas para ordens de compra |
-| Detalhes da ordem de compra | Gerenciamento de estoque | Esta exibição simplificada é otimizada para executar atividades relacionadas ao estoque, como acompanhamento de estoque recebido, recebimento de estoque, verificação de requisições líquidas e ajuste de quantidades de ordens. | Exibições salvas para ordens de compra |
-| Detalhes da ordem de compra | Gerenciamento financeiro | Esta exibição simplificada é otimizada para executar atividades relacionadas às finanças, como faturamento e verificação de preços, totais e encargos. | Exibições salvas para ordens de compra |
-| Detalhes da ordem de compra | Aprovação de ordens | Esta exibição simplificada é otimizada para a aprovação de ordens de compra. | Exibições salvas para ordens de compra |
+| Detalhes da ordem de compra | Criação de ordens | Esta exibição simplificada é otimizada para a criação de novas ordens de compra. | Exibições salvas para ordens de compra<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Detalhes da ordem de compra | Gerenciamento de estoque | Esta exibição simplificada é otimizada para executar atividades relacionadas ao estoque, como acompanhamento de estoque recebido, recebimento de estoque, verificação de requisições líquidas e ajuste de quantidades de ordens. | Exibições salvas para ordens de compra<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Detalhes da ordem de compra | Gerenciamento financeiro | Esta exibição simplificada é otimizada para executar atividades relacionadas às finanças, como faturamento e verificação de preços, totais e encargos. | Exibições salvas para ordens de compra<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Detalhes da ordem de compra | Aprovação de ordem | Esta exibição simplificada é otimizada para a aprovação de ordens de compra. | Exibições salvas para ordens de compra<br><br>(Ativado por padrão a partir da versão 10.0.25) |
 
 ## <a name="saved-views-for-the-product-information-management-module"></a>Exibições salvas para o módulo Gerenciamento de informações do produto
 
@@ -83,11 +83,11 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Ger
 
 | Página | Nome da exibição | Descrição da exibição | Nome do recurso |
 |---|---|---|---|
-| Lista de produtos liberados | Criação do produto | Uma exibição de página simplificada que só inclui os campos mais usados ao criar produtos. | Exibições salvas para produtos liberados (opção ativada por padrão a partir da versão 10.0.21.) |
-| Detalhes do produto liberado | Criação do produto | Uma exibição de página simplificada que só inclui os campos mais usados ao criar produtos. | Exibições salvas para produtos liberados (opção ativada por padrão a partir da versão 10.0.21.) |
-| Detalhes do produto liberado | Gerenciamento de informações logísticas | Uma exibição de página simplificada que só inclui os campos mais usados ao gerenciar informações logísticas para produtos. | Exibições salvas para produtos liberados (opção ativada por padrão a partir da versão 10.0.21.) |
-| Detalhes do produto liberado | Gerenciamento de informações de compra | Uma exibição de página simplificada que só inclui os campos mais usados ao gerenciar informações de compra de produtos. | Exibições salvas para produtos liberados (opção ativada por padrão a partir da versão 10.0.21.) |
-| Detalhes do produto liberado | Gerenciamento de informações de venda | Uma exibição de página simplificada que só inclui os campos mais usados ao gerenciar informações relativas a vendas de produtos. | Exibições salvas para produtos liberados (opção ativada por padrão a partir da versão 10.0.21.) |
+| Lista de produtos liberados | Criação do produto | Uma exibição de página simplificada que só inclui os campos mais usados ao criar produtos. | Exibições salvas para produtos liberados<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Detalhes do produto liberado | Criação do produto | Uma exibição de página simplificada que só inclui os campos mais usados ao criar produtos. | Exibições salvas para produtos liberados<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Detalhes do produto liberado | Gerenciamento de informações logísticas | Uma exibição de página simplificada que só inclui os campos mais usados ao gerenciar informações logísticas para produtos. | Exibições salvas para produtos liberados<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Detalhes do produto liberado | Gerenciamento de informações de compra | Uma exibição de página simplificada que só inclui os campos mais usados ao gerenciar informações de compra de produtos. | Exibições salvas para produtos liberados<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Detalhes do produto liberado | Gerenciamento de informações de venda | Uma exibição de página simplificada que só inclui os campos mais usados ao gerenciar informações relativas a vendas de produtos. | Exibições salvas para produtos liberados<br><br>(Ativado por padrão a partir da versão 10.0.21) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Exibições salvas para o módulo Controle de produção
 
@@ -95,10 +95,10 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Con
 
 | Página | Nome da exibição | Descrição da exibição | Nome do recurso |
 |---|---|---|---|
-| Página BOM de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para o controle de produção (opção ativada por padrão a partir da versão 10.0.21.) |
-| Página Detalhes de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para o controle de produção (opção ativada por padrão a partir da versão 10.0.21.) |
-| Página Lista de separação de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para o controle de produção (opção ativada por padrão a partir da versão 10.0.21.) |
-| Página Lista de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para o controle de produção (opção ativada por padrão a partir da versão 10.0.21.) |
+| Página BOM de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para controle de produção<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Página Detalhes de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para controle de produção<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Página Lista de separação de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para controle de produção<br><br>(Ativado por padrão a partir da versão 10.0.21) |
+| Página Lista de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para controle de produção<br><br>(Ativado por padrão a partir da versão 10.0.21) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Exibições salvas para o módulo Vendas e marketing
 
@@ -106,10 +106,10 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Ven
 
 | Página | Nome da exibição | Descrição da exibição | Nome do recurso |
 |---|---|---|---|
-| Diário de Guias de Remessa | Análise de diários | Esta exibição simplificada inclui somente os campos usados com mais frequência para analisar diários de guia de remessa. | Exibições salvas para vendas e marketing |
-| Ordem de Venda | Criação de ordens | Esta exibição simplificada inclui somente os campos usados com mais frequência para criar ordens de venda. | Exibições salvas para vendas e marketing |
-| Ordem de Venda | Análise de ordens | Esta exibição simplificada inclui somente os campos usados com mais frequência para analisar ordens de venda. | Exibições salvas para vendas e marketing |
-| Cotação de Venda | Criação de cotações | Esta exibição simplificada inclui somente os campos usados com mais frequência para criar cotações de venda. | Exibições salvas para vendas e marketing |
+| Diário de Guias de Remessa | Análise de diários | Esta exibição simplificada inclui somente os campos usados com mais frequência para analisar diários de guia de remessa. | Exibições salvas para vendas e marketing<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Ordem de venda | Criação de ordens | Esta exibição simplificada inclui somente os campos usados com mais frequência para criar ordens de venda. | Exibições salvas para vendas e marketing<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Ordem de venda | Revisão de ordens | Esta exibição simplificada inclui somente os campos usados com mais frequência para analisar ordens de venda. | Exibições salvas para vendas e marketing<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Cotação de Venda | Criação de cotação | Esta exibição simplificada inclui somente os campos usados com mais frequência para criar cotações de venda. | Exibições salvas para vendas e marketing<br><br>(Ativado por padrão a partir da versão 10.0.25) |
 
 ## <a name="saved-views-for-the-warehouse-management-module"></a>Exibições salvas para o módulo Gerenciamento de depósito
 
@@ -117,13 +117,13 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Ger
 
 | Página | Nome da exibição | Descrição da exibição | Nome do recurso |
 |---|---|---|---|
-| Todas as cargas | Processamento de entrada | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar cargas de entrada. | Exibições salvas para o processamento de carga |
-| Todas as cargas | Processamento de saída | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar cargas de saída. | Exibições salvas para o processamento de carga |
-| Todas as remessas | Processamento de entrada | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar remessas de entrada. | Exibições salvas para o processamento de remessa |
-| Todas as remessas | Processamento de saída | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar remessas de saída. | Exibições salvas para o processamento de remessa |
-| Todas as ondas | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva para o processamento de ciclo |
-| Bancada do planejamento de carga | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva da bancada de planejamento da carga |
-| Detalhes do trabalho | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva da página de detalhes do trabalho |
+| Todas as cargas | Processamento de entrada | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar cargas de entrada. | Exibições salvas para o processamento de carga<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Todas as cargas | Processamento de saída | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar cargas de saída. | Exibições salvas para o processamento de carga<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Todas as remessas | Processamento de entrada | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar remessas de entrada. | Exibições salvas para o processamento de remessa<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Todas as remessas | Processamento de saída | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar remessas de saída. | Exibições salvas para o processamento de remessa<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Todas as ondas | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva para o processamento de ciclo<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Bancada do planejamento de carga | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva da bancada de planejamento da carga<br><br>(Ativado por padrão a partir da versão 10.0.25) |
+| Detalhes do trabalho | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva da página de detalhes do trabalho<br><br>(Ativado por padrão a partir da versão 10.0.25) |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

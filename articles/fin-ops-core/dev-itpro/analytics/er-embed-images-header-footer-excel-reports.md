@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344111"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323766"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Criar um formato de ER para gerar um relatório no formato Excel com imagens incorporadas em cabeçalhos ou rodapés de página
 
@@ -153,9 +153,9 @@ Para adicionar as configurações de ER padrão à instância atual do Dynamics 
 3. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura**.
 4. Além do formato de ER selecionado da **Fatura de texto livro (Excel)**, outras configurações de ER necessárias foram importadas. Verifique se as seguintes configurações de ER estão disponíveis na árvore de configuração:
 
-    - **Modelo de fatura** – Esta configuração contém o componente de ER [modelo de dados](general-electronic-reporting.md#data-model-and-model-mapping-components) que representa a estrutura de dados do domínio corporativo de faturamento.
-    - **Mapeamento de modelos de fatura** – Esta configuração contém o componente de ER [mapeamento de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) que descreve como o modelo de dados é preenchido com dados de aplicativos em tempo de execução.
-    - **Fatura de texto livre (Excel)** – Esta configuração contém os componentes de ER de [formato](general-electronic-reporting.md#FormatComponentOutbound) e de mapeamento de formato. O componente de formato especifica o layout do relatório, com base em um modelo no formato Excel. O componente mapeamento de formato contém a fonte de dados do modelo e especifica como essa fonte de dados é usada para preencher o layout do relatório no runtime.
+    - **Modelo de fatura** – Esta configuração contém o componente de ER de modelo de dados que representa a estrutura de dados do domínio comercial de faturamento.
+    - **Mapeamento de modelos de fatura** – Esta configuração contém o componente de ER de mapeamento de modelos que descreve como o modelo de dados é preenchido com dados de aplicativos em tempo de execução.
+    - **Fatura de texto livre (Excel)** – Esta configuração contém os componentes de ER de formato e mapeamento de formato. O componente de formato especifica o layout do relatório, com base em um modelo no formato Excel. O componente mapeamento de formato contém a fonte de dados do modelo e especifica como essa fonte de dados é usada para preencher o layout do relatório no runtime.
 
 ![Configurações de ER importadas na página Configurações.](./media/er-embed-images-header-footer-excel-reports-imported-solution.png)
 

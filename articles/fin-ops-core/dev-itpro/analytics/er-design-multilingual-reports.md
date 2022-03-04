@@ -2,11 +2,9 @@
 title: Projetar relatórios multilíngues em Relatórios eletrônicos
 description: Este tópico explica como você pode usar etiquetas de Relatório eletrônico (ER) para criar e gerar relatórios multilíngues.
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7934f36877247460ec843201a08d4670456889f9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
+ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679693"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8313682"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Projetar relatórios multilíngues em Relatórios eletrônicos
 
@@ -30,9 +28,9 @@ ms.locfileid: "4679693"
 
 ## <a name="overview"></a>Visão Geral
 
-Como um usuário comercial, você pode usar a estrutura de [Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar formatos para documentos de saída que precisam ser gerados de acordo com os requisitos legais de vários países ou regiões. Quando esses requisitos exigirem que os documentos de saída sejam gerados em diferentes idiomas para países ou regiões diferentes, você poderá configurar um único [formato](general-electronic-reporting.md#FormatComponentOutbound) de ER que contenha recursos dependentes de idioma. Dessa forma, você pode reutilizar o formato para gerar documentos de saída para vários países ou regiões. Você também pode usar um único formato de ER para gerar um documento de saída em diferentes idiomas para clientes, fornecedores, subsidiárias ou outros participantes correspondentes.
+Como um usuário comercial, você pode usar a estrutura de [Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar formatos para documentos de saída que precisam ser gerados de acordo com os requisitos legais de vários países ou regiões. Quando esses requisitos exigirem que os documentos de saída sejam gerados em diferentes idiomas para países ou regiões diferentes, você poderá configurar um único formato de ER que contenha recursos dependentes de idioma. Dessa forma, você pode reutilizar o formato para gerar documentos de saída para vários países ou regiões. Você também pode usar um único formato de ER para gerar um documento de saída em diferentes idiomas para clientes, fornecedores, subsidiárias ou outros participantes correspondentes.
 
-Você pode configurar os modelos de dados de ER e mapeamentos de modelo como fontes de dados dos formatos de ER configurados para definir o fluxo de dados que especifica quais dados de aplicativo são colocados em documentos gerados. Como um [provedor](general-electronic-reporting.md#Provider) de configuração de ER, você pode [publicar ](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) [modelos de dados](general-electronic-reporting.md#data-model-and-model-mapping-components), [mapeamentos de modelo](general-electronic-reporting.md#data-model-and-model-mapping-components) e [formatos](general-electronic-reporting.md#FormatComponentOutbound) configurados como componentes de uma solução de ER para gerar documentos de saída específicos. Você também pode permitir que os clientes [carreguem](general-electronic-reporting-manage-configuration-lifecycle.md) a solução de ER publicada de forma que ela possa ser usada e personalizada. Se esperar que talvez os clientes falem em outros idiomas, você poderá configurar os componentes de ER para que eles contenham recursos dependentes de idioma. Dessa forma, o conteúdo de um componente de ER editável pode ser apresentado no idioma preferencial do usuário do cliente em tempo de design.
+Você pode configurar os modelos de dados de ER e mapeamentos de modelo como fontes de dados dos formatos de ER configurados para definir o fluxo de dados que especifica quais dados de aplicativo são colocados em documentos gerados. Como [provedor](general-electronic-reporting.md#Provider) de configuração de ER, você pode [publicar](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) modelos de dados, mapeamentos de modelo e formatos configurados como componentes de uma solução de ER para gerar documentos de saída específicos. Você também pode permitir que os clientes [carreguem](general-electronic-reporting-manage-configuration-lifecycle.md) a solução de ER publicada de forma que ela possa ser usada e personalizada. Se esperar que talvez os clientes falem em outros idiomas, você poderá configurar os componentes de ER para que eles contenham recursos dependentes de idioma. Dessa forma, o conteúdo de um componente de ER editável pode ser apresentado no idioma preferencial do usuário do cliente em tempo de design.
 
 Você pode configurar recursos dependentes do idioma como etiquetas de ER. Em seguida, você poderá usar essas etiquetas para configurar os componentes de ER para as seguintes finalidades:
 
@@ -48,7 +46,7 @@ Você pode configurar recursos dependentes do idioma como etiquetas de ER. Em se
 
 As etiquetas de ER podem ser configuradas em cada [configuração](general-electronic-reporting.md#Configuration) de ER que contém componentes diferentes. As etiquetas podem ser mantidas independentemente da lógica configurada dos modelos de dados de ER, dos mapeamentos de modelo de ER e dos componentes de formato de ER.
 
-Cada etiqueta de ER é identificada por uma ID exclusiva no escopo da configuração de ER que contém essa etiqueta. Cada etiqueta pode conter texto para cada idioma com suporte na instância atual do Microsoft Dynamics 365 Finance. Esses idiomas com suporte incluem os idiomas das personalizações implantadas.
+Cada etiqueta de ER é identificada por uma ID exclusiva no escopo da configuração ER que contém essa etiqueta. Cada etiqueta pode conter texto para cada idioma com suporte na instância atual do Microsoft Dynamics 365 Finance. Esses idiomas com suporte incluem os idiomas das personalizações implantadas.
 
 ## <a name="entry"></a>Entrada
 
@@ -56,11 +54,11 @@ Quando um modelo de dados de ER é projetado, um mapeamento de modelo de ER ou u
 
 A ilustração a seguir mostra como essa tradução é feita em um modelo de dados de ER editável. Neste exemplo, o atributo **Descrição** do campo **PurchaseOrder** do **Modelo de fatura** editável é traduzido nos idiomas alemão austríaco (de-at) e japonês (ja).
 
-![Como fornecer tradução de uma etiqueta de ER no designer de modelos de dados de ER](./media/er-multilingual-labels-refer.png)
+![Como fornecer tradução de uma etiqueta de ER no designer de modelos de dados de ER.](./media/er-multilingual-labels-refer.png)
 
 Somente o texto da etiqueta para etiquetas que residem em um componente de ER editável pode ser traduzido. Por exemplo, se você selecionar **Traduzir** para o atributo de etiqueta de uma fonte de dados de mapeamento do modelo de ER e selecionar uma etiqueta de ER que reside no modelo de dados de ER pai, verá o conteúdo da etiqueta, mas não poderá alterá-lo. Nesses casos, o campo **Texto traduzido** não estará disponível, conforme mostrado na ilustração a seguir.
 
-![Como analisar a tradução fornecida de uma etiqueta de ER no designer de mapeamento de modelo de ER](./media/er-multilingual-labels-refer-mapping.png)
+![Como analisar a tradução fornecida de uma etiqueta de ER no designer de mapeamento de modelo de ER.](./media/er-multilingual-labels-refer-mapping.png)
 
 > [!NOTE]
 > Não é possível usar os designers para excluir etiquetas que foram inseridos em um componente de ER editável.
@@ -73,19 +71,19 @@ Somente o texto da etiqueta para etiquetas que residem em um componente de ER ed
 
 Ao configurar um modelo de dados de ER, você poderá adicionar etiquetas de ER a ele. Os atributos **Etiqueta** e **Descrição** do item de modelo, de cada campo de modelo e de cada <a id="LinkModelEnum"></a>valor de enumeração de modelo podem ser vinculados a uma etiqueta de ER que é adicionado ao modelo de dados de ER.
 
-![Como fornecer tradução para o atributo Descrição no designer de modelos de dados de ER](./media/er-multilingual-labels-refer.png)
+![Como fornecer tradução para o atributo Descrição no designer de modelos de dados de ER.](./media/er-multilingual-labels-refer.png)
 
 Quando um modelo de dados de ER é configurado dessa forma, seu conteúdo será apresentado aos usuários do designer de modelos de dados de ER no idioma preferencial de cada usuário. Portanto, a manutenção do modelo é simplificada. As ilustrações a seguir mostram como essa funcionalidade funciona para usuários que têm DE-AT e JA definidos como seu idioma preferido.
 
-![Layout do designer de modelos de dados de ER para um usuário com DE-AT definido como o idioma preferencial](./media/er-multilingual-labels-refer-de.png)
+![Layout do designer de modelos de dados de ER para um usuário com DE-AT definido como o idioma preferencial.](./media/er-multilingual-labels-refer-de.png)
 
-![Layout do designer de modelos de dados de ER para um usuário com JA definido como seu idioma preferencial](./media/er-multilingual-labels-refer-ja.png)
+![Layout do designer de modelos de dados de ER para um usuário com JA definido como seu idioma preferencial.](./media/er-multilingual-labels-refer-ja.png)
 
 ### <a name="model-mapping-component"></a>Componente de mapeamento de modelos
 
 Como o mapeamento do modelo de ER se baseia em um modelo de dados de ER, as etiquetas dos elementos do modelo de dados referenciados são exibidas no idioma preferencial do usuário no designer de mapeamento do modelo. A ilustração a seguir mostra como o significado do campo **PurchaseOrder** é explicado no mapeamento do modelo editável usando a etiqueta do atributo **Descrição** que foi adicionado ao modelo de dados configurado. Observe que essa etiqueta é apresentada no idioma preferencial do usuário (DE-AT, neste exemplo).
 
-![Layout do designer de mapeamento de modelo de ER para um usuário com DE-AT definido como o idioma preferencial](./media/er-multilingual-labels-show-mapping.png)
+![Layout do designer de mapeamento de modelo de ER para um usuário com DE-AT definido como o idioma preferencial.](./media/er-multilingual-labels-show-mapping.png)
 
 Quando o atributo **Etiqueta** da fonte de dados **Parâmetro de entrada do usuário** é configurado como vinculado a uma etiqueta de ER, o campo de parâmetro correspondente a essa fonte de dados é apresentado na caixa de diálogo do usuário em runtime para os usuários no idioma preferencial.
 
@@ -102,21 +100,21 @@ Como o formato de ER ER se baseia em um modelo de dados de ER, as etiquetas refe
 
 Quando o atributo **Etiqueta** da fonte de dados **Parâmetro de entrada do usuário** é configurado como vinculado a uma etiqueta de ER, o campo de parâmetro correspondente ao parâmetro na caixa de diálogo do usuário em runtime é apresentado ao usuário como um prompt. As ilustrações a seguir mostram como é possível vincular o atributo **Etiqueta** da fonte de dados **Parâmetro de entrada do usuário** em tempo de design a uma etiqueta de ER, para que os usuários sejam solicitados a fornecer o parâmetro em diferentes idiomas preferenciais do usuário (mostrados para os idiomas inglês dos Estados Unidos (en-US) e DE-AT) em runtime.
 
-![Como fornecer tradução de atributos de um parâmetro de entrada do usuário no designer de Operação do ER](./media/er-multilingual-labels-refer-format.png)
+![Como fornecer tradução de atributos de um parâmetro de entrada do usuário no Designer de operações de ER.](./media/er-multilingual-labels-refer-format.png)
 
-![Processamento de pagamento de Fornecedor de ER em runtime para o idioma preferencial do usuário EN-US](./media/er-multilingual-labels-show-runtime-en.png)
+![Processamento de pagamento de Fornecedor de ER em runtime para o idioma preferencial do usuário EN-US.](./media/er-multilingual-labels-show-runtime-en.png)
 
-![Processamento de pagamento de Fornecedor de ER em runtime para o idioma preferencial do usuário DE-AT](./media/er-multilingual-labels-show-runtime-de.png)
+![Processamento de pagamento de Fornecedor de ER em runtime para o idioma preferencial do usuário DE-AT.](./media/er-multilingual-labels-show-runtime-de.png)
 
 ### <a name="expressions"></a>Expressões
 
 Para usar uma etiqueta em uma [expressão](er-formula-language.md) de ER, você deverá usar a sintaxe **@"GER\_LABEL:X"**, em que o prefixo **@** indica que o operando se refere a uma etiqueta, **GER\_LABEL** indica que uma etiqueta de ER está envolvida e **X** é a ID da etiqueta de ER.
 
-![Como configurar uma expressão de ER contendo uma referência a uma etiqueta de ER no designer de fórmulas de ER](./media/er-multilingual-labels-expression1.png)
+![Como configurar uma expressão de ER contendo uma referência a uma etiqueta de ER no designer de fórmulas de ER.](./media/er-multilingual-labels-expression1.png)
 
 Para fazer referência a uma etiqueta de sistema (aplicativo), use a sintaxe **@"X"**, em que o prefixo **@** indica que o operando se refere a uma etiqueta, e **X** é a ID da etiqueta do sistema.
 
-![Como configurar uma expressão de ER contendo uma referência a uma etiqueta de aplicativo designer de fórmulas de ER](./media/er-multilingual-labels-expression2.png)
+![Como configurar uma expressão de ER contendo uma referência a uma etiqueta de aplicativo designer de fórmulas de ER.](./media/er-multilingual-labels-expression2.png)
 
 #### <a name="model-mapping"></a>Mapeamento de modelo
 
@@ -128,19 +126,19 @@ Se uma etiqueta referenciado não tiver tradução para o idioma do contexto de 
 
 Uma expressão de ER de um formato de ER pode ser configurada usando etiquetas. Quando esse formato é executado para gerar um documento de saída, o contexto da execução inclui um código de idioma. Uma etiqueta de expressão configurada será preenchida com o texto da etiqueta que foi configurada para o idioma desse contexto.
 
-![Como fornecer tradução de uma etiqueta de ER da expressão de ER editável no designer de fórmulas de ER](./media/er-multilingual-labels-refer-in-expression.png)
+![Como fornecer tradução de uma etiqueta de ER da expressão de ER editável no designer de fórmulas de ER.](./media/er-multilingual-labels-refer-in-expression.png)
 
-![Exemplo de associação de dados que se refere a uma etiqueta de ER no designer de Operação do ER](./media/er-multilingual-labels-refer-in-binding.png)
+![Exemplo de associação de dados que se refere a uma etiqueta de ER no designer de Operação do ER.](./media/er-multilingual-labels-refer-in-binding.png)
 
 Você pode configurar o componente **ARQUIVO** de um formato de ER para gerar o relatório no idioma preferencial do usuário.
 
-![Configure o componente ARQUIVO no designer de Operação do ER para gerar o relatório no idioma preferencial do usuário](./media/er-multilingual-labels-language-context-user.png)
+![Configure o componente ARQUIVO no designer de Operação do ER para gerar o relatório no idioma preferencial do usuário.](./media/er-multilingual-labels-language-context-user.png)
 
 Se você configurar um formato de ER dessa forma, o relatório será gerado usando o texto correspondente das etiquetas de ER. As ilustrações a seguir mostram exemplos de relatórios para os idiomas do usuário EN-US e DE-AT.
 
-![A visualização do relatório que foi gerada no idioma preferencial do usuário EN-US](./media/er-multilingual-labels-report-preview-en.png)
+![A visualização do relatório que foi gerada no idioma preferencial do usuário EN-US.](./media/er-multilingual-labels-report-preview-en.png)
 
-![A visualização do relatório que foi gerada no idioma preferencial do usuário DE-AT](./media/er-multilingual-labels-report-preview-de.png)
+![A visualização do relatório que foi gerada no idioma preferencial do usuário DE-AT.](./media/er-multilingual-labels-report-preview-de.png)
 
 Se uma etiqueta referenciada não tiver tradução para o idioma do contexto de execução de formato, será usado o texto da etiqueta no idioma EN-US.
 
@@ -150,16 +148,41 @@ O ER oferece suporte a diferentes maneiras de especificar um idioma para um rela
 
 - **Preferência da empresa** – gere um relatório em um idioma especificado pela empresa.
 
-    ![Especificar no designer de Operação do ER um idioma preferencial da empresa como o idioma de um relatório gerado](./media/er-multilingual-labels-language-context-company.png)
+    ![Especificar no designer de Operação do ER um idioma preferencial da empresa como o idioma de um relatório gerado.](./media/er-multilingual-labels-language-context-company.png)
 
 - **Preferência do usuário** – gere um relatório no idioma preferencial do usuário.
 - **Explicitamente definido** – gere um relatório em um idioma especificado no tempo de design.
 
-    ![Especificar no designer de Operação do ER um idioma definido em tempo de design como o idioma de um relatório gerado](./media/er-multilingual-labels-language-context-fixed.png)
+    ![Especificar no designer de Operação do ER um idioma definido em tempo de design como o idioma de um relatório gerado.](./media/er-multilingual-labels-language-context-fixed.png)
 
 - **Definido em runtime** – gere um relatório em um idioma especificado em runtime. Se você selecionar esse valor, no campo **Idioma**, configure uma expressão de ER que retorne o código do idioma, como o idioma do cliente correspondente.
 
-    ![Especificar no designer de Operação do ER um idioma definido em runtime como o idioma de um relatório gerado](./media/er-multilingual-labels-language-context-runtime.png)
+    ![Especificar no designer de Operação do ER um idioma definido em runtime como o idioma de um relatório gerado.](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Formatação específica da cultura
+
+O ER oferece suporte a diferentes maneiras de especificar a cultura para um relatório gerado. Portanto, a formatação específica da cultura correta pode ser usada para valores de data, hora e numéricos. Ao criar um formato ER, na guia **Formatar**, no campo **Preferências de cultura**, você pode selecionar um dos seguintes valores para cada componente de formato do tipo **Arquivo\\Comum**, **Arquivo\\Excel**, **Arquivo\\PDF** ou **Fusão de\\PDFs**:
+
+- **Preferência do usuário** – formate os valores de acordo com a cultura preferencial do usuário. Essa cultura é definida no campo **Formato de data, hora e número** na guia **Preferências** da página **Opções do usuário**.
+
+    ![Definir a cultura preferencial do usuário como a cultura de um relatório gerado no designer de Operação do ER.](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Explicitamente definido** – formate os valores de acordo com a cultura especificada no tempo de design.
+
+    ![Definir a cultura especificada no tempo de design como a cultura de um relatório gerado no designer de Operação do ER.](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Definido em runtime** – formate os valores de acordo com a cultura especificada em runtime. Se você selecionar este valor, na guia **Mapeamento**, no campo **Formato de data, hora e número**, configure uma expressão ER que retorne o código de cultura para a cultura, como a cultura do cliente correspondente.
+
+    ![Definir a cultura definida em runtime como a cultura de um relatório gerado no Designer de operações de ER.](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> Um componente ER para o qual você define uma cultura específica pode conter componentes de ER filhos que foram configurados para preencher um valor de texto. Por padrão, a cultura do componente pai é usada para formatar os valores desses componentes. Você pode usar as seguintes funções de ER internas para configurar associações para esses componentes e aplicar uma cultura alternativa para a formatação de valores:
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> Na versão 10.0.20 e posterior, a localização de componentes de formato dos tipos **Arquivo\\Comum** e **Arquivo\\Excel** é usada para formatar valores durante a [conversão em PDF](electronic-reporting-destinations.md#OutputConversionToPDF) de um documento gerado.
 
 ## <a name="translation"></a>Tradução
 
@@ -171,27 +194,27 @@ Ao adicionar uma etiqueta de ER no [painel](#TextTranslationPane) **Tradução d
 
 ### <a name="automatic-translation"></a>Tradução automática
 
-A configuração de um componente de ER é feita na versão de rascunho da configuração de ER na qual o componente de ER editável reside.
+A configuração de um componente de ER é feita na versão de rascunho da configuração ER na qual o componente de ER editável reside.
 
-![Página Configurações de ER oferecendo acesso à versão da configuração no status Rascunho](./media/er-multilingual-labels-configurations.png)
+![Página Configurações ER oferecendo acesso à versão da configuração no status Rascunho.](./media/er-multilingual-labels-configurations.png)
 
-Conforme descrito anteriormente neste tópico, você pode adicionar etiquetas de ER necessárias a um componente de ER editável. Dessa forma, você pode especificar o texto das etiquetas ER no idioma EN-US. Em seguida, você poderá exportar as etiquetas do componente de ER usando a função de ER interna. Selecione a versão de rascunho de uma configuração de ER que contém o componente de ER editável e selecione **Câmbio \> Exportar etiquetas**.
+Conforme descrito anteriormente neste tópico, você pode adicionar etiquetas de ER necessárias a um componente de ER editável. Dessa forma, você pode especificar o texto das etiquetas ER no idioma EN-US. Em seguida, você poderá exportar as etiquetas do componente de ER usando a função de ER interna. Selecione a versão de rascunho de uma configuração ER que contém o componente de ER editável e selecione **Câmbio \> Exportar etiquetas**.
 
-![Página Configurações de ER que permite exportar etiquetas de ER da versão de configuração selecionada](./media/er-multilingual-labels-export.png)
+![Página Configurações ER que permite exportar etiquetas de ER da versão de configuração selecionada.](./media/er-multilingual-labels-export.png)
 
 Você pode exportar todas as etiquetas ou as etiquetas de um único idioma especificado no início da exportação. As etiquetas são exportadas como um arquivo zip que contém arquivos XML. Todo arquivo XML contém etiquetas para um único idioma.
 
-![Exemplo do arquivo exportado que contém as etiquetas de ER para o idioma DE-AT](./media/er-multilingual-labels-in-xml.png)
+![Exemplo do arquivo exportado que contém as etiquetas de ER para o idioma DE-AT.](./media/er-multilingual-labels-in-xml.png)
 
-Esse formato é usado para a tradução automática de etiquetas por serviços de tradução externos, como o [Dynamics 365 Translation Service](../lifecycle-services/translation-service-overview.md). Ao receber as etiquetas traduzidas, você poderá importá-las novamente para a versão de rascunho de uma configuração de ER que contém os componentes de ER que possuem essas etiquetas. Selecione a versão de rascunho de uma configuração de ER que contém o componente de ER editável e selecione **Câmbio \> Carregar etiquetas**.
+Esse formato é usado para a tradução automática de etiquetas por serviços de tradução externos, como o [Dynamics 365 Translation Service](../lifecycle-services/translation-service-overview.md). Ao receber as etiquetas traduzidas, você poderá importá-las novamente para a versão de rascunho de uma configuração ER que contém os componentes de ER que possuem essas etiquetas. Selecione a versão de rascunho de uma configuração ER que contém o componente de ER editável e selecione **Câmbio \> Carregar etiquetas**.
 
-![Página Configurações de ER que permite importar etiquetas de ER para a versão de configuração selecionada](./media/er-multilingual-labels-load.png)
+![Página Configurações ER que permite importar etiquetas de ER para a versão de configuração selecionada.](./media/er-multilingual-labels-load.png)
 
-As etiquetas traduzidas serão importadas para a configuração de ER selecionada. As etiquetas traduzidas que existem na configuração de ER são substituídas. Se houver alguma etiqueta traduzido na configuração de ER, ela será anexada.
+As etiquetas traduzidas serão importadas para a configuração ER selecionada. As etiquetas traduzidas que existem na configuração ER são substituídas. Se houver alguma etiqueta traduzido na configuração ER, ela será anexada.
 
 ## <a name="lifecycle"></a>Ciclo de vida
 
-As etiquetas de um componente de ER que podem ser editadas são mantidas, juntamente com outro conteúdo para o componente, na versão apropriada de uma configuração de ER.
+As etiquetas de um componente de ER que podem ser editadas são mantidas, juntamente com outro conteúdo para o componente, na versão apropriada de uma configuração ER.
 
 Etiquetas de um componente ER base podem ser referenciadas em uma versão derivada do componente de ER que você cria para apresentar suas modificações.
 
@@ -206,7 +229,27 @@ Conforme descrito anteriormente neste tópico, os atributos **Etiqueta** e **Des
 - O valor de uma etiqueta de ER vinculado aos atributos **Etiqueta** é armazenado no campo **Etiqueta** do registro retornado.
 - O valor de uma etiqueta de ER vinculada aos atributos **Descrição** é armazenado no campo **Descrição** do registro retornado.
 
+## <a name="performance"></a><a name=performance></a>Desempenho
+
+Ao configurar um componente de formato ER para gerar um relatório no seu [idioma](#language) preferencial ou para importar um documento de entrada no qual o conteúdo é analisado pelo seu idioma preferencial, recomendamos que você habilite o recurso **Armazenar em cache o idioma preferencial do usuário atual para execuções de ER** no espaço de trabalho [Gerenciamento de recursos](../../fin-ops/get-started/feature-management/feature-management-overview.md). Esse recurso ajuda a melhorar o desempenho, especialmente para componentes de formato ER que contêm várias referências a etiquetas em associações e fórmulas ER, e várias regras de [validação](general-electronic-reporting-formula-designer.md#TestFormula) para gerar mensagens de usuário no seu idioma preferencial.
+
+Quando você alterar o status de uma versão de configuração ER de **Rascunho** para **Concluído**, se a versão de configuração contiver etiquetas de ER, esses rótulos serão armazenados no banco de dados do aplicativo. O esquema de armazenamento depende do estado do recurso **Acelerar o armazenamento de etiquetas de ER**:
+
+- Se o recurso não estiver habilitado, todas as etiquetas serão armazenadas no campo **LABELXML** da tabela **ERSOLUTIONVERSIONTABLE** como um único snippet XML.
+- Se o recurso estiver habilitado, um registro separado será criado para cada idioma na tabela **ERSOLUTIONVERSIONLABELSTABLE**. O campo **CONTENTS** desta tabela armazena etiquetas por idioma como um snippet XML compactado.
+
+É recomendável habilitar o recurso **Acelerar o armazenamento de etiquetas de ER** no espaço de trabalho **Gerenciamento de recursos**. Este recurso ajuda a melhorar a utilização da largura de banda da rede e o desempenho geral do sistema porque, na maioria dos casos, as etiquetas ER de um único idioma são usadas quando você trabalha com uma única configuração de ER.
+
+Para aplicar o esquema de armazenamento selecionado para manter etiquetas de todas as configurações de ER na instância do Finance atual, conclua as etapas a seguir.
+
+1. Vá para **Administração organizacional** > **Periódico** > **Aplicar o esquema de armazenamento de etiquetas selecionadas a todas as configurações de ER**.
+2. Selecione **OK**.
+
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
-- [Funções do Relatório eletrônico](er-formula-language.md#functions)
+- [Funções do Relatório eletrônico](er-formula-language.md#Functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

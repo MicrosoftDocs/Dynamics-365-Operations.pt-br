@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737966"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323916"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Suprimir controles de conteúdo do Word em relatórios gerados
 
 [!include [banner](../includes/banner.md)]
 
-Para gerar relatórios como documentos do Microsoft Word, você deverá criar um modelo para os relatórios como um documento do Word. Esse modelo deve conter controles de conteúdo do Word como espaços reservados para os dados que serão preenchidos no runtime. Para usar um documento do Word criado como um modelo para seus relatórios, você poderá [configurar](er-design-configuration-word.md) uma nova [solução](er-quick-start1-new-solution.md) de [Relatório eletrônico (ER)](general-electronic-reporting.md). A solução deve incluir uma [configuração](general-electronic-reporting.md#Configuration) ER que contenha um componente de [formato](general-electronic-reporting.md#FormatComponentOutbound) ER. Esse formato ER deve ser configurado para usar o modelo projetado para a geração de relatórios.
+Para gerar relatórios como documentos do Microsoft Word, você deverá criar um modelo para os relatórios como um documento do Word. Esse modelo deve conter controles de conteúdo do Word como espaços reservados para os dados que serão preenchidos no runtime. Para usar um documento do Word criado como um modelo para seus relatórios, você poderá [configurar](er-design-configuration-word.md) uma nova [solução](er-quick-start1-new-solution.md) de [Relatório eletrônico (ER)](general-electronic-reporting.md). A solução deve incluir uma [configuração](general-electronic-reporting.md#Configuration) de ER que contenha um componente de formato de ER. Esse formato ER deve ser configurado para usar o modelo projetado para a geração de relatórios.
 
 Na versão 10.0.6 e posterior do Dynamics 365 Finance, você pode configurar fórmulas no formato ER para suprimir alguns controles de conteúdo do Word em documentos gerados.
 

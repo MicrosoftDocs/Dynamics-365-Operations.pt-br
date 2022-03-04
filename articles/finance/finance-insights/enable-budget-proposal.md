@@ -1,50 +1,42 @@
 ---
-title: Habilitar propostas de orçamento (versão prévia)
+title: Habilitar proposta de orçamento
 description: Este tópico explica como habilitar o recurso de proposta de orçamento no Finance Insights.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/24/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d8443c4e3e6f3d3a90acedc7c05b2846d6b68369
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: cd0ba4307f93148c241810759df9a95578592ba9
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646196"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109545"
 ---
-# <a name="enable-budget-proposals-preview"></a>Habilitar propostas de orçamento (versão prévia)
+# <a name="enable-budget-proposal"></a>Habilitar proposta de orçamento
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico explica como habilitar o recurso de proposta de orçamento no Finance Insights.
 
-1. Use as informações da página de ambiente no Microsoft Dynamics Lifecycle Services (LCs) para se conectar à instância principal do Azure SQL para esse ambiente. Execute o comando Transact-SQL (T-SQL) a seguir para ativar as versões piloto no ambiente de área restrita. (Talvez seja necessário ativar o acesso ao seu endereço IP no LCS antes de se conectar remotamente ao servidor de objetos de aplicativo \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Se a sua implantação do Microsoft Dynamics 365 Finance for uma implantação do Service Fabric, você pode ignorar essa etapa. A equipe do Finance Insights já deve ter ativado a versão piloto para você. Se você não vir o recurso no espaço de trabalho **Gerenciamento de recursos** ou se tiver problemas ao tentar ativá-lo, envie um email para a [Equipe de versão prévia do aplicativo Finance Insights](mailto:fiap@microsoft.com).
-
-2. Abra o espaço de trabalho **Gerenciamento de recursos** e siga estas etapas:
+1. Abra o espaço de trabalho **Gerenciamento de recursos** e siga estas etapas:
 
     1. Selecione **Verificar se há atualizações**.
-    2. Procure por **Propostas de orçamento** e ative esse recurso.
+    2. Na guia **Tudo**, procure **Proposta de orçamento**. Se você não encontrar esse recurso, procure **(Versão preliminar) Proposta de orçamento**. 
+    3. Ative o recurso.
 
-3. Acesse **Orçamento \> Configuração \> Orçamento básico \> Proposta de orçamento (versão prévia)** e selecione **Habilitar recurso**.
+2. Acesse **Orçamento \> Configuração \> Orçamento Básico \> Proposta de orçamento** e selecione **Habilitar recurso**.
 
-#### <a name="privacy-notice"></a>Aviso de privacidade
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
+> [!NOTE]
+> O recurso **Proposta de orçamento** exige um mínimo de três anos de orçamento ou dados reais. Este recurso usa de três a dez anos de dados nas projeções. Dados de mais de três anos apresentarão resultados melhores. Os dados em si funcionam melhor quando há variação nos valores. Se os dados contiverem todos os dados constantes, como uma despesa de arrendamento, o treinamento poderá falhar porque a falta de variação não exige a IA para projetar os valores.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

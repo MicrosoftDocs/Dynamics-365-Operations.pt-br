@@ -2,26 +2,23 @@
 title: Posicionamento da placa de licença de localização
 description: O posicionamento da placa de licença de localização permite ver onde há uma placa de licença em uma localização com vários paletes, como um que usa um rack de paletes com profundidade dupla.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422505"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102779"
 ---
 # <a name="location-license-plate-positioning"></a>Posicionamento da placa de licença de localização
 
@@ -33,12 +30,9 @@ O recurso adiciona um número de sequência a cada placa de licença colocada em
 
 Este tópico apresenta um cenário que mostra como configurar e usar o recurso.
 
-## <a name="turn-on-the-location-license-plate-positioning-feature"></a>Ativar o recurso de posicionamento da placa de licença de localização
+## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Ativar ou desativar recurso de posicionamento da placa de licença de localização
 
-Para que você possa usar o posicionamento da placa de licença de localização, o recurso deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Posicionamento da placa de licença de localização*
+Para usar a funcionalidade descrita neste tópico, o recurso *Posicionamento da placa de licença de localização* deve estar ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade pesquisando o recurso *Posicionamento da placa de licença de localização* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Cenário de exemplo
 
@@ -54,7 +48,7 @@ Execute os procedimentos a seguir para configurar o recurso *Posicionamento da p
 
 O recurso deve estar ativado no perfil de localização de cada localização onde ele será usado.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
 1. Na lista de perfis de localização no painel esquerdo, selecione **MASSA-06**.
 1. Na FastTab **Geral**, duas novas opções foram adicionadas pelo recurso. Defina os seguintes valores:
 
@@ -70,7 +64,7 @@ O recurso deve estar ativado no perfil de localização de cada localização on
 
 #### <a name="location-directives"></a>Diretivas de localização
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, verifique se o campo **Tipo de ordem de trabalho** está definido como *Ordens de venda*.
 1. Na lista de diretivas de localização, selecione **Ordem de separação de OV 61**.
 1. No Painel de Ações, selecione **Editar**.
@@ -91,7 +85,7 @@ O recurso deve estar ativado no perfil de localização de cada localização on
 1. Com **Placa de licença** ainda selecionada, selecione **Adicionar junção de tabela**.
 1. Na lista de tabelas exibida, na coluna **Relação**, selecione **Posicionamento da placa de licença de localização (Placa de licença)**. Depois, clique em **Selecionar** para adicionar **Posicionamento da placa de licença de localização** à junção de tabela **Dimensões de estoque**.
 
-    ![Junções de tabela](media/LpTableJoin.png "Junções de tabela")
+    ![Junções de tabela.](media/LpTableJoin.png "Junções de tabela")
 
 1. Selecione **OK** para confirmar as tabelas associadas atualizadas e fechar o editor de consultas.
 1. Na FastTab **Ações de Diretiva de Localização**, selecione **Editar consulta** novamente para reabrir o editor de consultas.
@@ -103,7 +97,7 @@ O recurso deve estar ativado no perfil de localização de cada localização on
     - **Campo:** *Posição da LP*
     - **Critérios:** *1*
 
-    ![Novo intervalo](media/LpPositionCriteria.png "Novo intervalo")
+    ![Novo intervalo.](media/LpPositionCriteria.png "Novo intervalo")
 
 1. Selecione **OK** para confirmar as alterações e fechar o editor de consultas.
 
@@ -116,7 +110,7 @@ Como o recurso *Posicionamento da placa de licença de localização* adiciona u
 #### <a name="spot-count-the-first-location"></a>Contagem pontual da primeira localização
 
 1. Abra o aplicativo móvel de depósito e entre no depósito *61*.
-1. Vá para **Estoque \> Contagem Pontual**.
+1. Acesse **Estoque \> Contagem Pontual**.
 1. Na página **Contagem Pontual**, defina o campo **Localização** como *01A01R1S1B*.
 1. Selecione **OK**.
 
@@ -183,7 +177,7 @@ Agora o trabalho está concluído.
 > As contagens pontuais do aplicativo móvel criam um trabalho de contagem cíclica no Microsoft Dynamics 365. O trabalho exige que as contagens sejam aceitas antes de serem lançadas no estoque.
 
 1. Entre no Dynamics 365 Supply Chain Management.
-1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. Na guia **Visão geral**, procure as linhas com os seguintes valores:
 
     - **Tipo de ordem de trabalho:** *Contagem cíclica*
@@ -228,7 +222,7 @@ Agora o trabalho está concluído.
 
 #### <a name="on-hand-by-location"></a>Disponibilidade por localização
 
-1. Vá para **Gerenciamento de depósito \> Consultas e relatórios \> Disponível por local**.
+1. Acesse **Gerenciamento de depósito \> Consultas e relatórios \> Disponível por local**.
 1. Defina os seguintes valores:
 
     - **Local:** *6*
@@ -248,7 +242,7 @@ Agora o trabalho está concluído.
 
 Agora que o recurso *Posicionamento da placa de licença de localização* foi configurado e o estoque foi preparado, você deve criar uma ordem de venda para gerar um trabalho de separação que orientará o trabalhador do depósito a separar o item *A0002* da localização de estoque em que a ID do palete está na posição *1*.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -274,10 +268,13 @@ Agora que o recurso *Posicionamento da placa de licença de localização* foi c
 ### <a name="sales-picking-scenario"></a>Cenário de separação de venda
 
 1. Abra o aplicativo móvel e entre no depósito *61*.
-1. Vá para **Saída \> Separação de venda**.
+1. Acesse **Saída \> Separação de venda**.
 1. Na página **Digitalizar uma ID de trabalho/ID de placa de licença**, selecione o campo **ID** e insira a ID de trabalho na linha de venda.
 1. Observe que o trabalho de separação leva você a selecionar o item *A0002* da localização *01A01R1S2B*. Você recebe essa instrução porque o item *A0002* está em uma placa de licença na posição *1* dessa localização.
 
-    ![Localização da posição 1](media/LocationLicensePlatePositioning.png "Localização da posição 1")
+    ![Localização da posição 1.](media/LocationLicensePlatePositioning.png "Localização da posição 1")
 
 1. Insira a ID da placa de licença que você criou para a localização e siga os prompts para separar a ordem de venda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

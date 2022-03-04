@@ -1,35 +1,32 @@
 ---
 title: Pagamentos centralizados para Contas a pagar
-description: As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
+description: As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este tópico fornece exemplos que mostram como ocorre o lançamento de pagamentos centralizados em diversos cenários.
 author: abruer
-manager: AnnBe
-ms.date: 02/12/2017
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.custom: 14341
 ms.assetid: 7bd02e32-2416-4ac6-8a60-85525267fdb7
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a4632056d6873cfeb748251c77becc410f5cf54
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3030bc7d2501e2162758c94c0dc1a073655c9c0f
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440399"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182496"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Pagamentos centralizados para Contas a pagar
 
 [!include [banner](../includes/banner.md)]
 
-As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
+As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este tópico fornece exemplos que mostram como ocorre o lançamento de pagamentos centralizados em diversos cenários.
 
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Além disso, a organização economiza tempo, já que o processo de pagamento é simplificado.
 
@@ -301,3 +298,6 @@ A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

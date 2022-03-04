@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920714"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102704"
 ---
 # <a name="firm-planned-orders"></a>Confirmar ordens planejadas
 
@@ -35,17 +35,15 @@ Este tópico descreve cada método em detalhes.
 
 A maioria dos recursos de ordem planejada estão disponíveis em todas as instalações padrão do Microsoft Dynamics 365 Supply Chain Management que usam a Otimização do Planejamento. No entanto, alguns dos recursos descritos neste tópico devem estar habilitados no gerenciamento de recursos para que você possa usá-los.
 
-### <a name="enable-parallelized-firming-of-planned-orders"></a>Habilitar confirmação paralelizada de ordens planejadas
+### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Ativar ou desativar a confirmação paralelizada de ordens planejadas
 
-A confirmação paralelizada ajuda a acelerar o processo de confirmação ao paralelizá-la em vários threads. Essa abordagem pode ser útil quando muitas ordens planejadas são confirmadas.
-
-Para disponibilizar esta funcionalidade no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Confirmação paralela de ordens planejadas*. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
+A confirmação paralelizada ajuda a acelerar o processo de confirmação ao paralelizá-la em vários threads. Essa abordagem pode ser útil quando muitas ordens planejadas são confirmadas. Para usar essa funcionalidade, o recurso *Confirmação paralela de ordens planejadas* deve estar ativado no sistema. A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, poderá ativar ou desativar essa funcionalidade acessando [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e pesquisando o recurso *Confirmação paralela de ordens planejadas*.
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Habilitar confirmação de ordem planejada com filtragem
 
 A confirmação de ordens planejadas com filtragem permite definir critérios lógicos para selecionar quais ordens planejadas devem ser confirmadas. Você também pode visualizar quais ordens planejadas foram selecionadas, executar o processo em segundo plano e/ou agendá-la como um trabalho em lotes.
 
-Para disponibilizar esta funcionalidade no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Confirmação de ordem planejada com filtragem*.
+A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Confirmação paralela de ordens planejadas* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Habilitar confirmação automática para Otimização do Planejamento
 

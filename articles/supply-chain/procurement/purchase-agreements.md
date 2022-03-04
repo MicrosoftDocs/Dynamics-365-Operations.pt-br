@@ -1,12 +1,10 @@
 ---
 title: Contratos de compra
 description: Este artigo fornece informações sobre contratos de compras. Um contrato de compra é um contrato que compromete uma organização a comprar uma quantidade ou um valor especificado usando várias ordens de compra ao longo do tempo. Em troca desse compromisso, o comprador obtém preços e descontos especiais.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017178"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103729"
 ---
 # <a name="purchase-agreements"></a>Contratos de compra
 
@@ -43,10 +41,7 @@ Para impedir que seu contrato de compra seja usado e confirmado, marque o status
 Você pode identificar um trabalhador responsável principal e um trabalhador responsável secundário na classificação do contrato de compra. Esses valores serão herdados pelo contrato de compra resultante. Não é necessário adicionar trabalhadores responsáveis ao contrato de compra, e eles podem ser modificados diretamente a cada caso no próprio contrato de compra. Não é possível especificar um trabalhador responsável secundário sem um trabalhador responsável principal, embora você não precise ter um trabalhador responsável secundário. Não é possível especificar o mesmo trabalhador como o trabalhador responsável principal e secundário.
 
 > [!IMPORTANT]
-> Para que você possa usar o recurso de participante responsável, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-> 
-> - **Módulo:** *Tarefas de compras e fornecimento*
-> - **Nome do recurso:** *participante responsável pelo contrato de compra*
+> Para usar o recurso de participante responsável, ele deve estar ativado no sistema. A partir do Supply Chain Management 10.0.25, este recurso será ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Participante responsável pelo Contrato de compra* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Tipos de compromisso
 Cada linha em um contrato de compra é um compromisso para comprar algum item. É possível usar linhas de várias ordens de compra (OCs) para atender ao compromisso. Existem quatro tipos de compromisso:
@@ -104,12 +99,13 @@ Se você criar uma OC intercompanhia que usa o contrato de compra intercompanhia
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensões financeiras nos contratos de compra
 Você pode copiar as dimensões financeiras para os cabeçalhos de documento ou para as linhas individuais de um contrato de compra. Se você alterar as dimensões no cabeçalho do contrato ou na linha do contrato, a alteração não afetará nenhuma ordem liberada, mas se refletirá em todas as ordens novas.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
-[Criar um contrato de compra](tasks/create-purchase-agreement.md)
-
-[Criar uma ordem de liberação de compra de um contrato de compra](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Criar um contrato de compra](tasks/create-purchase-agreement.md)
+- [Aplicar um contrato de compra ao criar uma ordem de compra](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Gerenciar alterações em produtos de engenharia
 description: Este tópico fornece informações sobre o gerenciamento de alterações de engenharia. O gerenciamento de alterações de engenharia fornece processos estruturados para o gerenciamento de alterações em produtos de engenharia, a proposta, a solicitação e a realização de alterações, a revisão e a aprovação das alterações, a avaliação do impacto sobre transações existentes e a acompanhamento delas.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 314563e083434832ee04d9c19deb17cec221ae02
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422640"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102901"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gerenciar alterações em produtos de engenharia
 
@@ -77,7 +74,7 @@ Para adicionar uma linha à grade, selecione **Novo** na barra de ferramentas ac
 
 A tabela a seguir descreve os campos em cada linha.
 
-| Campo | descrição |
+| Campo | Descrição |
 |---|---|
 | Data e hora de criação | A data e a hora em que a linha foi criada. |
 | Tipo | O tipo de informação para o qual a linha foi criada (arquivo, imagem, nota ou URL). |
@@ -95,9 +92,13 @@ Esta lista é meramente informativa. Portanto, você pode adicionar quantos prod
 
 A FastTab **Fonte** permite rastrear o ponto inicial da solicitação de alteração. Ela será útil se, por exemplo, você desejar saber se a solicitação de alteração foi criada a partir de uma ordem de venda, quem a criou e a empresa na qual ela foi criada.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Avaliar o impacto comercial de uma solicitação de alteração
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Avaliar o impacto comercial de uma solicitação de alteração e enviar notificações
 
-Ao revisar uma solicitação de alteração, você pode procurar dependências. Dessa forma, você pode avaliar o impacto da alteração solicitada nas transações abertas, como ordens de venda, ordens de produção e estoque disponível.
+Ao revisar uma solicitação de alteração, você pode procurar dependências. Dessa forma, você pode avaliar o impacto da alteração solicitada nas transações abertas, como ordens de venda, ordens de produção e estoque disponível. Ao analisar as solicitações de alteração, você pode enviar notificações às pessoas que são responsáveis por cumprir os vários tipos de ordens relacionadas.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Revisar as transações afetadas, bloquear transações selecionadas e enviar notificações
+
+Para revisar as transações afetadas, bloquear transações selecionadas e enviar notificações relacionadas, siga estas etapas.
 
 1. Acesse **Gerenciamento de alterações de engenharia \> Comum \> Gerenciamento de alterações de engenharia \> Solicitações de alteração de engenharia**.
 1. Abra uma solicitação de alteração existente ou selecione **Novo** no Painel de Ações para criar uma nova solicitação de alteração.
@@ -106,7 +107,36 @@ Ao revisar uma solicitação de alteração, você pode procurar dependências. 
     - **Pesquisa** – examina todas as transações abertas e abre a caixa de diálogo **Impacto comercial para transações abertas**, que lista todas as transações que serão afetadas pela alteração.
     - **Exibir pesquisa anterior** – abra a caixa de diálogo **Impacto comercial para transações abertas**, que lista os resultados da pesquisa anterior. (Não é feita uma nova pesquisa).
 
-1. Se o problema que exigir uma alteração for considerado crítico, você poderá bloquear as transações abertas ou notificar o usuário responsável usando os botões da barra de ferramentas na caixa de diálogo **Impacto comercial para transações abertas**.
+1. A caixa de diálogo **Impacto comercial para transações abertas** fornece um conjunto de guias, cada uma das quais mostra uma lista de transações afetadas de um tipo específico (**Ordens de venda**, **Ordens de compra**, **Ordens de produção**, **Estoque**, etc.). Cada guia também mostra um número que indica o número de transações afetadas desse tipo. Selecione uma guia para exibir a lista relevante.
+1. Para trabalhar com uma transação na lista, selecione-a e, em seguida, selecione um dos botões a seguir na barra de ferramentas:
+
+    - **Exibir transação** – abra o registro de transação selecionado.
+    - **Ordem de bloqueio** – este botão está disponível apenas na guia **Ordens de venda**. Selecione-o para bloquear a ordem de venda selecionada.
+    - **Linha de bloqueio** – este botão está disponível apenas na guia **Ordens de venda**. Selecione-o para bloquear a linha da ordem de compra selecionada.
+    - **Notificar responsável** – este botão só está disponível na **guia ordens de venda**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela ordem de venda selecionada. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
+    - **Notificar responsável** – este botão só está disponível na guia **Ordens de compra**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela ordem de venda selecionada. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
+    - **Notificar produção** – este botão está disponível apenas na guia **Ordens de produção**. Diferentemente das ordens de venda e ordens de compra, as ordens de produção não têm um único usuário definido como responsável por eles de ponta a ponta. Em vez disso, vários supervisores ou planejadores geralmente se apropriam de um site específico ou de uma parte específica da produção (por exemplo, para recursos ou grupos de recursos específicos). Portanto, quando você seleciona este botão, todos os usuários responsáveis por qualquer recurso relacionado à ordem de produção selecionada recebem uma notificação de alteração. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
+    - **Notificar preparador** – este botão só está disponível na guia **Requisição de compra**. Selecione-o para enviar uma notificação de alteração para o usuário definido como preparador pela requisição de compra selecionada. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
+    - **Notificar responsável pela venda** – este botão só está disponível na guia **Cotações**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela cotação selecionada. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
+    - **Sucata** – este botão só está disponível na guia **Estoque**. Selecione-o para sucatear o estoque selecionado.
+    - **Exibir histórico** – abre um histórico de ações que foram executadas na transação selecionada usando a caixa de diálogo **Impacto comercial para transações abertas**. (Por exemplo, o histórico mostra se as notificações foram enviadas ou as transações foram bloqueadas.) 
+    - **Exibir todas as transações** – abre a lista completa de todas as transações, não apenas as transações abertas.
+
+> [!IMPORTANT]
+> O botão **Notificar produção** só estará disponível se o recurso *Notificações de engenharia para produção* estiver ativado no sistema. Para obter instruções sobre como ativar ou desativar esse recurso e seus pré-requisitos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Analisar e processar notificações de alteração para transações
+
+Você pode ler e processar as notificações de alteração recebidas das seguintes maneiras:
+
+- Exceto no caso de ordens de produção, altere as notificações para as transações que você é responsável por aparecer na Central de ações. O botão **Mostrar mensagens** (símbolo de sino) no lado direito da barra de navegação indica quando uma mensagem está disponível para você na Central de ações. Selecione o botão **Mostrar mensagens** para abrir a Central de ações e revisar as mensagens.
+- Para exibir todas as ordens de produção para as quais uma notificação de engenharia foi enviada, Acesse **Ordens de produção \> Ordens de produção \> Todas as ordens de produção**. Em seguida, na Página de Ações na guia **Ordem de produção**, no grupo **Solicitação de alteração de engenharia**, selecione **Notificações de engenharia** para abrir a página **Notificações de engenharia**.
+- Para ordens de produção, você pode optar por revisar somente as notificações de alteração que se aplicam aos recursos de produção que você gerencia. No espaço de trabalho **Gerenciamento de chão de fábrica**, no Painel de Ações, selecione **Configurar meu espaço de trabalho** para filtrar a página de forma que mostre apenas informações sobre as unidades de produção, grupos e/ou recursos que você gerencia. Na seção **Resumo**, um bloco denominado **Ordens de produção com produtos alterados** mostra uma contagem de notificações que correspondem às suas configurações de filtro. Selecione este bloco para abrir a página **Notificações de engenharia**, que mostra a lista completa de transações que atendem aos critérios do filtro.
+
+Ao revisar as notificações de ordem de produção na página **Notificações de engenharia**, você pode seguir links para ordens de alteração relacionadas ou ordens de produção selecionando valores de coluna ou usando os comandos relacionados no Painel de Ações. Depois de concluir a avaliação de uma alteração e depois de ter cancelado ou modificado as ordens de produção, conforme necessário, você poderá marcar uma notificação como resolvida. Selecione a notificação e, no Painel de Ações, selecione **Resolver**. A notificação é removida das exibições de todos os usuários.
+
+> [!IMPORTANT]
+> A capacidade de enviar notificações para ordens de produção exige que o recurso *Notificações de engenharia para produção* esteja ativado no sistema. Para obter instruções sobre como ativar ou desativar esse recurso e seus pré-requisitos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Criar uma ordem de alteração de uma solicitação de alteração
 
@@ -142,13 +172,14 @@ Enquanto estiver revisando uma solicitação de alteração, no Painel de Açõe
 
 Como é descrito em [Empresas de engenharia e regras de propriedade de dados](engineering-org-data-ownership-rules.md), os dados de produtos que podem ser editados variam, de acordo com o tipo de entidade legal em que você está trabalhando (uma empresa de engenharia x uma empresa operacional). As regras de propriedade de dados também são aplicadas às ordens de alteração de engenharia. Portanto, dependendo da entidade legal em que você cria uma ordem de alteração de engenharia, diferentes tipos de alterações podem ser feitas. Eis alguns exemplos:
 
-- Para ordens de alteração de engenharia em uma **empresa de engenharia**, você pode fazer alterações básicas nos dados de engenharia. Por exemplo, você pode criar novas versões de um produto, alterar a estrutura de um produto por meio da BOM e alterar os valores de atributo de engenharia. Para cada produto afetado, selecione um dos seguintes valores no campo **Impacto**:
+- Para ordens de alteração de engenharia em uma *empresa de engenharia*, você pode fazer alterações básicas nos dados de engenharia. Por exemplo, você pode criar novas versões de um produto, alterar a estrutura de um produto por meio da BOM e alterar os valores de atributo de engenharia. Para cada produto afetado, selecione um dos seguintes valores no campo **Impacto**:
 
     - **Nenhum** – atualize a versão do produto existente (atualização na versão).
     - **Nova versão** – crie uma nova versão baseada na versão do produto selecionada.
-    - **Novo produto** – crie um produto ou uma grade de produtos totalmente nova com base na versão do produto selecionada.
+    - **Novo produto** – crie um produto totalmente novo com base na versão do produto selecionada.
+    - **Nova grade** – crie uma nova grade baseada na versão do produto selecionada. As informações de BOM e de roteiro serão copiadas.
 
-- Para ordens de alteração de engenharia em uma **empresa operacional**, você pode alterar os dados logísticos do produto. Por exemplo, você pode enriquecer a BOM existente com as configurações de origem, adicionar roteiros locais ou BOMs locais, e até enriquecer uma BOM adicionando novas linhas de BOM para o material de embalagem local, fluidos de lubrificação ou instruções no idioma local. Os aprimoramentos que os usuários fazem na empresa operacional serão preservados quando novas atualizações forem enviadas da empresa de engenharia. Para obter mais informações, consulte [Empresas de engenharia e regras de propriedade de dados](engineering-org-data-ownership-rules.md).
+- Para ordens de alteração de engenharia em uma *empresa operacional*, você pode alterar os dados logísticos do produto. Por exemplo, você pode enriquecer a BOM existente com as configurações de origem, adicionar roteiros locais ou BOMs locais, e até enriquecer uma BOM adicionando novas linhas de BOM para o material de embalagem local, fluidos de lubrificação ou instruções no idioma local. Os aprimoramentos que os usuários fazem na empresa operacional serão preservados quando novas atualizações forem enviadas da empresa de engenharia. Para obter mais informações, consulte [Empresas de engenharia e regras de propriedade de dados](engineering-org-data-ownership-rules.md).
 
     Quando as ordens de alteração de engenharia são processadas na empresa de engenharia, os produtos são criados e/ou atualizados somente na empresa de engenharia. Portanto, se os dados do produto mestre também precisarem ser atualizados, você também deverá liberar os produtos para empresas operacionais.
 
@@ -185,3 +216,6 @@ A maioria dos campos em ordens de alteração de engenharia são iguais aos camp
 | Integridade e segurança ambientais | Especifique se as regras de segurança e de integridade ambientais são aplicáveis à alteração. Em caso afirmativo, você poderá selecionar as regras aplicáveis. |
 
 Você pode usar o botão **Manter/copiar informações de alteração** para copiar informações de alteração entre os produtos afetados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

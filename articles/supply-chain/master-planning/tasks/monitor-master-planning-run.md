@@ -1,27 +1,24 @@
 ---
 title: Monitorar a execução de um planejamento mestre
 description: Este tópico explica como o planejador de produção pode ver se a execução de um planejamento mestre está em andamento.
-author: josaw1
-manager: tfehr
+author: ChristianRytt
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421959"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103154"
 ---
 # <a name="monitor-a-master-planning-run"></a>Monitorar a execução de um planejamento mestre
 
@@ -31,23 +28,22 @@ ms.locfileid: "4421959"
 
 Na página **Exibir andamento de planejamento mestre**, você pode exibir detalhes de execuções históricas do planejamento mestre como um gráfico de Gantt. Esta funcionalidade pode ajudar a entender o tempo decorrido nas várias fases de planejamento mestre. Para um trabalho de planejamento ativo atual, a página **Exibir andamento de planejamento mestre** pode ser usada para controlar o andamento e exibir o tempo estimado restante.
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Ativar e usar o recurso de visualização do andamento de Planejamento mestre
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Ativar ou desativar o recurso Visualização do andamento do plano mestre
 
-Para usar essa funcionalidade, siga estas etapas.
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Visualização do andamento do plano mestre* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-1. No espaço de trabalho **Gerenciamento de recursos**, na guia **Novo**, selecione **Visualização do andamento de planejamento mestre** na lista. Se o recurso não aparecer na guia **Novo** , examine as guias **Não habilitado** e **Tudo**.
-1. Selecione **Habilitar agora**. Como alternativa, selecione **Agenda** e selecione a hora em que você deseja que o recurso seja ativado.
+### <a name="use-the-master-plan-progress-visualization-feature"></a>Usar o recurso Visualização do andamento do plano mestre
 
 A página **Exibir andamento de planejamento mestre** pode exibir trabalhos de planejamento históricos e trabalhos de planejamento ativos. 
 
 Para exibir trabalhos históricos de planejamento, há duas opções. 
 
 1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres** e, depois, no Painel de Ação, selecione **Histórico**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
-1. Vá para **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no bloco Planejamento mestre, clique em **Histórico**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
+1. Acesse **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no bloco Planejamento mestre, clique em **Histórico**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
 
 Para exibir trabalhos de planejamento ativos, há duas opções. 
-1. Vá para **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no Painel de Ação, selecione **Processo de planejamento inacabado**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**.
-1. Vá para **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no bloco Planejamento mestre, clique em **Exibir andamento**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
+1. Acesse **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no Painel de Ação, selecione **Processo de planejamento inacabado**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**.
+1. Acesse **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no bloco Planejamento mestre, clique em **Exibir andamento**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
 
 Observe que você só poderá exibir os trabalhos ativos quando um trabalho de planejamento estiver em processamento.
 
@@ -127,3 +123,6 @@ A cor é mostrada somente no nível mais baixo no gráfico de Gantt. Selecione *
 1. Na grade, selecione a linha em que o campo **Campo** é definido como **Número do item**.
 1. No campo **Critérios**, insira um valor.
 1. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

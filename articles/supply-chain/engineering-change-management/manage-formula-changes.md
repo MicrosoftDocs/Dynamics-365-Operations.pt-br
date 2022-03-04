@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c65f929120d2501fa3873880179a9b53ab79c60c73fd4d597fb6151b1c5bb2b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720387"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103030"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Gerenciar alterações nas fórmulas e seus ingredientes
 
@@ -27,12 +27,9 @@ Se você estiver usando os recursos de fabricação de processos do Microsoft Dy
 - **Coprodutos e subprodutos:** edite as quantidades e outras informações dos coprodutos e subprodutos em uma fórmula.
 - **Itens de peso variável:** gerencie alterações para itens de peso variável.
 
-## <a name="turn-on-this-feature-in-your-system"></a>Ative este recurso no seu sistema
+## <a name="turn-this-feature-on-or-off"></a>Ativar ou desativar este recurso
 
-Para usar esse recurso, você deve concluir as seguintes tarefas:
-
-1. Habilite o recurso *Gerenciamento de alterações de engenharia* e sua chave de configuração conforme descrito em [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md). Conforme mencionado neste tópico, certifique-se de ativar também a chave de licença **Gerenciamento de alterações para fabricação de processos**, que está aninhada abaixo da chave de licença principal **Gerenciamento de Alterações de Engenharia**.
-1. Ative o recurso *Gerenciar alterações nas fórmulas e seus ingredientes* em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+A funcionalidade descrita neste tópico exige que os recursos *Gerenciamento de Alterações de Engenharia* e *Gerenciar modificações em fórmulas e seus ingredientes* estejam ativados no sistema. Para obter detalhes sobre como ativar ou desativar esses recursos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Convenções de nomenclatura de recursos
 

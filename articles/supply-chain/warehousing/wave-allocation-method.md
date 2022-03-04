@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 527bd24d7f2e9a05f6e617c222005186520f9968
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920589"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103779"
 ---
 # <a name="wave-allocation"></a>Alocação de ciclo
 
@@ -67,7 +67,7 @@ Para configurar o processamento paralelo:
 
 ## <a name="enable-or-disable-parallelization-across-all-legal-entities"></a>Habilitar ou desabilitar a paralelização em todas as entidades legais
 
-Recomendamos que você defina o método `allocateWave` a ser executado em paralelo em todas as entidades legais porque isso ajuda a melhorar o desempenho do processamento do ciclo. A partir do Supply Chain Management versão 10.0.17, o recurso *Paralelização de ciclo para o método Alocar Ciclo* é habilitado por padrão para todas as instalações novas e atualizadas e não poderá ser desativado novamente. Depois que esse recurso for habilitado, ocorrerá o seguinte:
+Recomendamos que você defina o método `allocateWave` a ser executado em paralelo em todas as entidades legais porque isso ajuda a melhorar o desempenho do processamento do ciclo. A partir do Supply Chain Management versão 10.0.17, o recurso *Paralelização de ciclo para o método Alocar Ciclo* é ativado por padrão para todas as instalações novas e atualizadas e não poderá ser desativado novamente. Depois que esse recurso for habilitado, ocorrerá o seguinte:
 
 - O método `allocateWave` é atualizado para incluir uma configuração de tarefa que permite usar a página **Métodos do processo do ciclo** para definir o número de tarefas que serão executadas simultaneamente, equivalente ao número de processos paralelos. Como resultado, o tempo usado na etapa de ciclo de alocação (que, em geral, é de 30% a 60% do tempo de processamento total) é reduzido por um fator equivalente ao número de tarefas. Também é possível selecionar qual lote será atribuído para processar essas tarefas. É importante observar que todas as entidades legais serão configuradas para processar ciclos em lotes. Para os depósitos que já foram configurados para processar ciclos em lotes, e para os depósitos que já foram configurados para usar o método `allocateWave` em paralelo, a configuração existente será mantida.
 - Por padrão, todas as novas entidades legais são configuradas para processar ciclos em lotes. Todos os novos depósitos com a opção **Processos de gerenciamento de depósito** habilitada terão o método `allocateWave` configurado para ser executado em paralelo por padrão.

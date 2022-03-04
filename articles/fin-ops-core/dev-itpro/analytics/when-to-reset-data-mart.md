@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre redefinições do data mart
 description: Este tópico fornece respostas a algumas perguntas frequentes sobre redefinições do data mart.
 author: jinniew
-ms.date: 07/16/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e5a40342306eb9888b456a865ab2220dccfe65f8ccecc67bf8fc16f907e06977
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767746"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119503"
 ---
 # <a name="data-mart-resets-faq"></a>Perguntas frequentes sobre redefinições do data mart
 
@@ -35,8 +35,9 @@ Para garantir que os dados antigos não sejam inseridos, uma redefinição do da
 
 Se uma ou mais das seguintes declarações se aplicarem à sua situação, sua organização poderá se beneficiar de uma redefinição do data mart:
 
-- O banco de dados do aplicativo foi restaurado.
-- Você abriu um tíquete de suporte e foi orientado por um engenheiro de suporte a redefinir o data mart como parte de uma etapa de solução de problemas.
+- **O banco de dados do aplicativo foi restaurado**
+- **Você abriu um tíquete de suporte** – Um engenheiro de suporte orientou você a redefinir o data mart como parte de uma etapa de solução de problemas.
+- **Grande porcentagem de registros obsoletos** – Os registros obsoletos por si só não justificam necessariamente uma redefinição de data mart. Altas porcentagens de dados obsoletos podem degradar a geração geral de relatórios e o desempenho da integração, além de aumentar o uso de espaço no banco de dados. É recomendável concluir uma redefinição do data mart para remover os dados obsoletos quando houver mais de 80% de dados obsoletos no data mart.
  
 > [!NOTE]
 > O processo de redefinição de um data mart é afetado pelo número da contabilidade e das transações de orçamento em seu banco de dados. Dependendo do número de transações no sistema, uma redefinição de data mart pode ser concluída em apenas 15 minutos, ou pode levar até quatro horas. No entanto, se a redefinição levar mais de quatro horas, recomendamos contatar o suporte.
@@ -45,13 +46,12 @@ Se uma ou mais das seguintes declarações se aplicarem à sua situação, sua o
 
 Veja algumas circunstâncias em que não é recomendável redefinir o data mart:
 
-- Você está enfrentando problemas de desempenho associados a uma sincronização de dados.
+- Você está enfrentando problemas de desempenho da integração de dados.
 - Você vê um padrão de redefinição recorrente por qualquer um dos seguintes motivos:
 
-    - **Dados ausentes** – Se você notar que há dados faltando, abra um tíquete de suporte com a Microsoft para analisar o formato do seu relatório e possíveis problemas de sincronização de dados.
+    - **Dados faltando ou inesperados no relatório** – Se você notar que há dados faltando, abra um tíquete de suporte com a Microsoft para analisar o formato do seu relatório e possíveis problemas de sincronização de dados.
     - **Estado de integração travado**
-    - **Registros obsoletos** – Os registros obsoletos por si só não justificam necessariamente uma redefinição de data mart. Se você tiver um grande conjunto de dados, o processo de redefinição levará algum tempo para ser executado, mas é improvável que isso resulte em melhorias.
-
+   
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Se redefinir o data mart, perderei os relatórios já criados?
 
 Não. Seus relatórios são armazenados em tabelas de SQL que não são afetadas por uma redefinição do data mart. Se estiver preocupado em perder os relatórios que criou, você poderá fazer backup daqueles que não deseja perder. Para fazer backups de projetos, abra o Report Designer e acesse **Empresa \> Empresas \> Blocos de construção \> Exportar**.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571968"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103604"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Habilitar gerenciamento de modificações em produtos existentes
 
@@ -27,12 +27,9 @@ Este tópico explica como você pode habilitar o gerenciamento de alterações p
 
 Ao habilitar o gerenciamento de alterações para um produto existente, você pode criar versões desse produto e rastrear as alterações feitas a ele durante toda a sua vida. Portanto, você pode rastrear essas alterações usando ordens de alteração. Para habilitar o gerenciamento de alterações, você deve converter os produtos relevantes em *itens de engenharia* (também conhecidos como produtos de engenharia). Os produtos de engenharia são produtos com versão e que são gerenciados por meio do gerenciamento de alterações. Um assistente é fornecido para orientar você durante o processo de conversão.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
+## <a name="turn-this-feature-on-or-off"></a>Ativar ou desativar este recurso
 
-Para usar esse recurso, você deve concluir as seguintes tarefas:
-
-1. Habilite o recurso Gerenciamento de alterações de engenharia e sua chave de configuração conforme descrito em [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
-1. Ative o recurso *Habilitar o gerenciamento de alterações em produtos existentes* no gerenciamento de recursos. Para obter mais informações, consulte [Visão geral do Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+A funcionalidade descrita neste tópico requer que os recursos *Gerenciamento de Alterações de Engenharia* e *Habilitar gerenciamento de modificações em produtos existentes* estejam ativados no sistema. Para obter detalhes sobre como ativar ou desativar esses recursos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Restrições e limitações
 

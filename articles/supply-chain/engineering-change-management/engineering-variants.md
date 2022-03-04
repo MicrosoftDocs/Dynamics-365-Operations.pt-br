@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7471827"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103629"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Gerar grades para produtos de engenharia
 
@@ -23,15 +23,9 @@ ms.locfileid: "7471827"
 
 Este tópico descreve como gerar grades para produtos de engenharia.
 
-## <a name="turn-on-variant-generation-for-engineering-products"></a>Ativar a geração de grades para produtos de engenharia
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Ativar ou desativar a geração de grades para produtos de engenharia
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Gerenciamento de alteração de engenharia*
-- **Nome do recurso:** *Geração de grades para produtos de engenharia*
-
-> [!IMPORTANT]
-> O recurso *Geração de grade para produtos de engenharia* ficará visível no seu sistema somente depois que você habilitar a chave de configuração *Gerenciamento de alterações de engenharia* . Para obter instruções, consulte [Visão geral do gerenciamento de alteração de engenharia](product-engineering-overview.md).
+A funcionalidade descrita neste tópico requer que os recursos *Gerenciamento de Alterações de Engenharia* e *Geração de grades para produtos de engenharia* estejam ativados no sistema. Para obter detalhes sobre como ativar ou desativar esses recursos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Gerar uma ou mais variantes novas de um produto de engenharia
 

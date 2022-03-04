@@ -2,11 +2,9 @@
 title: Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito
 description: Este tópico descreve o trabalho de limpeza de entradas disponíveis, que ajuda a melhorar o desempenho do sistema identificando e excluindo registros relacionados, mas não necessários.
 author: perlynne
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -14,15 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014474"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103854"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito
+
+[!include [banner](../includes/banner.md)]
 
 O desempenho das consultas que são usadas para calcular o estoque disponível é afetado pelo número de registros nas tabelas envolvidas. Uma forma de ajudar a melhorar o desempenho é reduzir o número de registros que o banco de dados deve considerar.
 
@@ -58,7 +58,7 @@ No entanto, a melhoria de desempenho que o trabalho de limpeza fornece deve comp
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Disponibilizar a configuração de tempo de execução máximo
 
-Por padrão, a configuração **Tempo de execução máximo** não está disponível. Se quiser usá-la, você deverá usar o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso relacionado no sistema. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+A configuração de **Tempo de execução máximo** só estará disponível quando o recurso *Tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito* estiver ativado. A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade procurando o recurso *Tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito*
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

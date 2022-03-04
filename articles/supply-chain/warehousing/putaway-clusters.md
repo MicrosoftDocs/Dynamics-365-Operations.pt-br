@@ -2,25 +2,22 @@
 title: Clusters de armazenamento
 description: Os clusters de armazenamento oferecem uma forma de separar várias chapas de licença ao mesmo tempo e, depois, levá-las para armazenamento em locais diferentes. Elas podem ser muito úteis para empresas de varejo, nas quais as chapas de licença normalmente não são paletes completos de estoque.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512321"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103654"
 ---
 # <a name="putaway-clusters"></a>Clusters de armazenamento
 
@@ -28,12 +25,9 @@ ms.locfileid: "4512321"
 
 Os clusters de armazenamento oferecem uma forma de separar várias chapas de licença ao mesmo tempo e, depois, levá-las para armazenamento em locais diferentes. Esse processo geralmente é conhecido como *entrega programada*. Os clusters de armazenamento podem ser muito úteis para empresas de varejo, nas quais as chapas de licença normalmente não são paletes completos de estoque. 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>Ativar o recurso de cluster de armazenamento
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Ativar ou desativar o recurso de cluster de armazenamento
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Recurso de cluster de armazenamento*
+Para usar a funcionalidade descrita neste tópico, o recurso *Armazenamento de cluster* deve estar ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Armazenamento de cluster* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Configuração do cenário de exemplo
 
@@ -41,7 +35,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 O perfil de cluster de armazenamento determina para onde um item irá, com base na localização atribuída ao item no momento do recebimento. Se forem necessários diferentes clusters, clusters de armazenamento diferentes deverão ser criados, um para cada item de menu de dispositivo móvel.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Perfis de cluster**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Perfis de cluster**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na exibição do **Cabeçalho**, defina os seguintes valores:
 
@@ -131,7 +125,7 @@ Criar um novo item de menu de dispositivo móvel para receber estoque e classifi
 > - Recebimento do item da ordem de compra
 > - Recebimento do item de carga
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na exibição do **Cabeçalho**, defina os seguintes valores:
 
@@ -157,7 +151,7 @@ Criar um novo item de menu de dispositivo móvel para receber estoque e classifi
 
 Crie um novo item de menu de dispositivo móvel para colocar o cluster fora depois que ele tiver sido atribuído.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na exibição do **Cabeçalho**, defina os seguintes valores:
 
@@ -178,7 +172,7 @@ Crie um novo item de menu de dispositivo móvel para colocar o cluster fora depo
 
 Adicione os itens de menu que acabou de criar ao menu de entrada do aplicativo móvel.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na lista de menus, selecione **Entrada**.
 1. Na lista **Menus e Itens de Menu Disponíveis**, localize e selecione **Receber e classificar cluster**.
@@ -196,7 +190,7 @@ Esse cenário simula o processamento de cluster de armazenamento.
 
 ### <a name="create-a-purchase-order"></a>Criar uma ordem de compra
 
-1. Vá para **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
+1. Acesse **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de compra**, defina os seguintes valores:
 
@@ -231,7 +225,7 @@ Esse cenário simula o processamento de cluster de armazenamento.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Receber e classificar o estoque em um cluster
 
-1. Entre no aplicativo de depósito como um usuário definido para o depósito *61*.
+1. Entre no aplicativo móvel de Gerenciamento de depósito como um usuário definido para o depósito *61*.
 1. No menu principal, selecione **Entrada**.
 1. No menu **Entrada**, selecione **Receber e classificar cluster**.
 1. No campo **Ponum**, insira o número da ordem de compra.
@@ -259,12 +253,12 @@ Esse cenário simula o processamento de cluster de armazenamento.
 
 Antes que os itens no cluster possam ser descartados, o cluster deve ser fechado.
 
-1. No Supply Chain Management, vá para **Gerenciamento de depósito \> Trabalho \> Saída \> Clusters de trabalho**.
+1. No Supply Chain Management, Acesse **Gerenciamento de depósito \> Trabalho \> Saída \> Clusters de trabalho**.
 1. Na página **Clusters de trabalho**, na seção **Cluster de trabalho**, pesquise o campo **ID do cluster** para a ID do cluster inserida anteriormente.
 1. Se o cluster não for exibido, talvez ele já tenha sido fechado. Para determinar se o cluster foi fechado, marque a caixa de seleção **Mostrar trabalho fechado** e procure a ID do cluster inserida anteriormente. E então, siga uma destas etapas:
 
-    - Se o cluster tiver sido fechado, pule as etapas restantes deste procedimento e vá para o próximo procedimento, [Armazenar o cluster](#put-the-cluster-away).
-    - Se o cluster não tiver sido fechado, siga as etapas restantes deste procedimento para fechar o cluster manualmente. Em seguida, vá para o procedimento a seguir.
+    - Se o cluster tiver sido fechado, pule as etapas restantes deste procedimento e Acesse o próximo procedimento, [Armazenar o cluster](#put-the-cluster-away).
+    - Se o cluster não tiver sido fechado, siga as etapas restantes deste procedimento para fechar o cluster manualmente. Em seguida, Acesse o procedimento a seguir.
 
 1. Na seção **Cluster de trabalho**, selecione a ID de cluster inserida anteriormente.
 1. No Painel de Ação, selecione **Fechar cluster**.
@@ -273,7 +267,7 @@ Antes que os itens no cluster possam ser descartados, o cluster deve ser fechado
 
 #### <a name="put-the-cluster-away"></a>Armazenar o cluster
 
-1. Entre no aplicativo de depósito como um usuário definido para o depósito *61*.
+1. Entre no aplicativo móvel de Gerenciamento de depósito como um usuário definido para o depósito *61*.
 1. No menu principal, selecione **Entrada**.
 1. No menu **Entrada**, selecione **Cluster de armazenamento**.
 1. Selecione **ID do cluster** e digite a ID do cluster que você inseriu anteriormente para o cluster fechado.
@@ -287,7 +281,7 @@ Antes que os itens no cluster possam ser descartados, o cluster deve ser fechado
 
     Você tem as opções padrão para substituir ou passar nesta etapa.
 
-    ![Cluster de armazenamento: Página put](media/Cluster_putaway-Put.png "Cluster de armazenamento: Página put")
+    ![Cluster de armazenamento: inserir página.](media/Cluster_putaway-Put.png "Cluster de armazenamento: Página put")
 
 1. Selecione **OK** para confirmar o armazenamento do cluster.
 
@@ -296,3 +290,6 @@ Antes que os itens no cluster possam ser descartados, o cluster deve ser fechado
 ## <a name="notes-and-tips"></a>Observações e dicas
 
 Nos casos em que a ID do cluster se torna a placa de licença pai de um palete aninhado, a posição de put é automaticamente fornecida quando a ID do cluster é verificada. Nenhuma placa de licença adicional deverá ser verificada, mesmo se a geração da placa de licenças estiver definida como manual.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

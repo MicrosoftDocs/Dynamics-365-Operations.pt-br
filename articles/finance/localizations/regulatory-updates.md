@@ -1,26 +1,23 @@
 ---
 title: Atualizações regulatórias
 description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 11/13/2020
+author: VStamberg
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 663b7d3162af6d385bc9c445b1e98cf5f74a1471
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517491"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105555"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -28,7 +25,7 @@ ms.locfileid: "4517491"
 
 Este tópico lista as atualizações regulatórias planejadas e liberadas em localizações compatíveis para o Dynamics 365 Finance. Os cronogramas de entrega podem mudar e a funcionalidade projetada pode ser diferente ou não ser liberada. Para obter mais informações, leia a [política da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre outros recursos planejados ou liberados específicos de um país, consulte os [Planos de versão do Dynamics 365 e Power Platform](https://docs.microsoft.com/business-applications-release-notes/index).
+Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre recursos planejados ou lançados específicos de um país, consulte os [Planos de liberação da versão do Dynamics 365 e do Power Platform](/business-applications-release-notes/index).
 
 A Microsoft se esforça para implementar novos requisitos regulatórios o mais cedo possível. A data de entrega real depende da data de anúncio da legislação, da disponibilidade dos detalhes da requisição por parte das autoridades locais, da disponibilidade de ferramentas de validação e do tamanho e da complexidade das alterações.
 
@@ -41,49 +38,44 @@ Atualizações regulatórias que são liberadas como parte da atualização mens
 Para obter informações sobre os planos de atualizações regulatórias mais recentes, consulte a tabela a seguir.   
 
 |País/Região|Data da liberação|Versão de lançamento|Atualização regulatória|
-|--------------------|---------------|-------|-------|
-|      Áustria         |   2020 de setembro      | 10.0.15      |   O formato de declaração de IVA U30 foi atualizado para relatórios de 2020   |
-|      Bahrein         |   2020 de junho      | 10.0.13      |   Prazo final de emissão da fatura (GCC)   |
-|      Bahrein         |   2020 de setembro      | 10.0.13      |   Fatura de projeto para o Bahrein   |
-|      Bahrein         |   2020 de junho      | 10.0.13      |   Declaração de IVA para o Bahrein - Habilitar descrição da transação   |   
-|      Brasil         |   Agosto de 2020      | 10.0.14, 10.0.13      |   PR da declaração ADRCST   |
-|      Brasil         |   Maio de 2020      | 10.0.13      |   Layout 6 de SPED ECF   |
-|      Brasil         |   Julho de 2020      | 10.0.13      |   SPED Fiscal — Registro C176 — Estado do RS   |
-|      Brasil         |   2020 de outubro      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT 2019.001 v 1,51 - adoção das regras de validação no Código de benefício pelo Distrito Federal   |
-|      Brasil         |   2020 de outubro      | 10.0.16      |   SPED Fiscal - Layout 015   |
-|      Brasil         |   Novembro de 2020      | 10.0.15HF      |   Atualização C176 do registro SPED Fiscal ICMS/IPI para o estado do RS   |
-|      Brasil         |   2020 de outubro      | 10.0.16      |   Declaração DRCST SC - SEF 262/2020   |
-|      Brasil         |   2020 de outubro      | 10.0.16      |   Registro C176 do SPED Fiscal ICMS/IPI   |
-|      República Tcheca      |   Julho de 2020      | 10.0.13      |   Alterações do demonstrativo de controle de IVA no esquema XML (listagem de faturas)   |
-|      República Tcheca         |   Julho de 2020      | 10.0.13      |   Declaração de IVA em XML, visualização da declaração de IVA no Excel e formatos XML do demonstrativo de controle de IVA com base no modelo de declaração de Imposto   |
-|      Europa        |   Agosto de 2020       | 10.0.14      |   Transferir ID do IVA do Parceiro para o Intrastat  |
-|      Finlândia         |   Julho de 2020       | 10.0.13      |   Suporte de faturas eletrônicas para a Finlândia  |
-|      Índia         |   Julho de 2020      | 10.0.13      |   TCS nas Vendas de Mercadorias de acordo com a seção 206C (1H) – Limite de acordo com o acúmulo de transações baseado em PAN.  |
-|      Índia         |   Agosto de 2020, junho de 2020      | 10.0.13      |   Nota de crédito/débito relacionada à fatura de exportação  |
-|      Índia         |   Agosto de 2020      | 10.0.13      |   Fatura eletrônica em GST  |
-|      Índia         |   Julho de 2020      | 10.0.13      |   Nova ferramenta offline GSTR (ANX-1 e ANX-2) (versão Beta)  |
-|      Índia         |   2020 de outubro      | 10.0.14HF, 10.0.13HF      |   Nota fiscal eletrônica sob GST na ordem de transferência de estoque para a Índia|
-|      Índia         |   2020 de outubro      | 10.0.14HF, 10.0.13HF      |   Nota fiscal eletrônica sob GST para a Índia com vários registros GSTIN|
-|      Índia         |   2020 de setembro      | 10.0.13HF      |   Taxa de imposto retido na fonte em 3/5 casas decimais|
-|      Índia         |   2020 de setembro      | 10.0.14HF      |   Grupo de sequências numéricas: "GSTNSG", tipo de transação: "Fatura GST" a ser configurada para o grupo de sequências numéricas de referência GST de informações sobre impostos "0073"|
-|      Itália         |   Julho de 2020      | 10.0.13      |   Alterações no formato das faturas eletrônicas italianas — FatturaPA |
-|      Malásia         |   Julho de 2020      | 10.0.13      |   Relatório SST |
-|      México         |   2020 de setembro      | 10.0.13HF      |   Localização do esquema de URL CFDI com base no documento Anexo 20 |
-|      Países Baixos         |   2020 de outubro      | 10.0.16     |   O formato Intrastat será atualizado a partir de 2021 |
-|      Noruega         |   Agosto de 2020      | 10.0.14     |   SAF-T - o nível de agrupamento de transações por "Comprovante" deve ser informado no nível do elemento "Transação", em vez de "Diário" |
-|      Polônia          |   2020 de setembro     | 10.0.14     |   Polônia: JPK-V7M (VDEK) formato do Excel – para substituir o relatório SSRS  |
-|      Polônia          |   Julho de 2020     | 10.0.15, 10.0.14HF, 10.0.13     |   Aprimoramentos de pagamento dividido voluntariamente |
-|      Polônia          |   2020 de outubro     | 10.0.13HF     |   Aprimoramentos de pagamento dividido obrigatório |
-|      Polônia          |   Novembro de 2020     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) - tipo de documento de venda FP e RO para transações do Retail |
-|      Polônia          |   2020 de setembro     | 10.0.15     |   Polônia: JPK-V7M (VDEK) - desbloqueie a possibilidade de executar a geração de relatórios por partes |
-|      Polônia          |   2020 de outubro     | 10.0.16     |   Relatório JPK-V7M (VDEK) - tomada de parâmetro "Pagamento dividido voluntariamente" |
-|      Rússia          |   Agosto de 2020     | 10.0.14    |   O formato do relatório de contabilidade mudará a partir do ano 2020  |
-|      Rússia          |   Julho de 2020     | 10.0.13    |   Cálculo da depreciação na base do Custo de aquisição e nos principais reparos com a aplicação do Bônus de depreciação na Contabilização de imposto  |
-|      Rússia          |   Novembro de 2020     | 10.0.16    |   O formato da declaração de IVA foi atualizado para a versão 5.07 a partir do relatório do T4 2020|
+|--------------------|---------------|-------|-------| 
+|      Áustria         |   Agosto de 2021      | 10.0.22      |   Declaração de IVA em XML e visualização no Excel   |
+|      Áustria         |   2021 de setembro      | 10.0.22HF      |   O formato Intrastat será atualizado a partir de 2022 – País de origem e ID do IVA de parceiro se tornam obrigatórios em expedições   |
+|      Bélgica        |   2021 de outubro      | 10.0.22HF     |   Os códigos de transação Intrastat serão alterados para 2 dígitos a partir de 2022  |
+|      Brasil         |   Agosto de 2021      | 10.0.22      |   NF-e NT2020.006  - Identificação do intermediário de plataforma digital (atualizações de regras de validação e layout)   |
+|      Brasil         |   2021 de dezembro         | 10.0.22, 10.0.23, 10.0.24         |    Layout do SPED Fiscal de 2022  |
+|      República Tcheca         |   2021 de outubro         | 10.0.23HF         |     O formato Intrastat será atualizado a partir de 2022 – País de origem e ID do IVA de parceiro se tornam obrigatórios em expedições  |
+|      Dinamarca         |   2021 de dezembro         | 10.0.22HF         |    O formato Intrastat será atualizado a partir de 2022  |
+|      Estônia         |   2021 de dezembro      | 10.0.22HF      |   O formato Intrastat será atualizado a partir de 2022 – País de origem e ID do IVA de parceiro se tornam obrigatórios em expedições  |
+|      Finlândia         |   Novembro de 2021         | 10.0.22HF         |    O formato Intrastat será atualizado a partir de 2022.  |
+|      Alemanha        |   Agosto de 2021       | 10.0.22HF      |   O formato INSTAT XML será atualizado a partir de 2022. O formato Intrastat TXT não será aplicável a partir de 01.07.2021  |
+|      Alemanha        |   2021 de outubro       | 10.0.23      |   A declaração de IVA em XML e a visualização no Excel (novo design com valores na moeda do código de imposto, em funcionamento pronto para uso com recurso de encargos revertidos, podem ser executadas em entidades legais não relacionadas a DE e podem coletar transações de imposto de várias entidades legais)  |
+|      Itália         |   Novembro de 2021         | 10.0.22HF, 10.0.23HF, 10.0.24         |    Faturamento eletrônico para transações internacionais  |
+|      México         |   Novembro de 2021      | 10.0.22      |   Conjunto de Carta de Porte em documentos de CFDI   |
+|      México         |   2021 de dezembro      | 10.0.24      |   Complemento de Carta de Porte versão 2.0  |
+|      Países Baixos        |   2021 de outubro      | 10.0.22HF      |   Códigos de transação de dois dígitos no formato de arquivo Intrastat de 2022  |
+|      Nova Zelândia         |   Agosto de 2021      | 10.0.22    |   Formulário GST101A para declaração GST  |
+|      Noruega        |   Novembro de 2021      | 10.0.24      |   Formato de declaração de IVA de 2022 com envio direto – Dynamics 365 Finance |
+|      Omã         |   Agosto de 2021      | 10.0.22      |   Declaração de IVA – Versão 1 |
+|      Polônia          |   2021 de outubro     | 10.0.23, 10.0.24     |   JPK_V7M – Nova versão do esquema de janeiro de 2022 |
+|      Polônia          |   Novembro de 2021     | 10.0.24HF     |   Relatório anual nas datas de pagamento em transações comerciais |
+|      Polônia          |   2021 de outubro     | 10.0.24     |   Formato eletrônico da lista de vendas da UE (IVA-UE) |
+|      Rússia          |   2021 de outubro     | 10.0.22HF, 10.0.23, 10.0.24    |   Alterações em vendas, registros de compra e diários de faturas|
+|      Rússia          |   2021 de outubro     | 10.0.24HF    |   Alteração nos formatos de declaração de IVA com apêndices|
+|      Rússia          |   Novembro de 2021     | 10.0.24    |   Padrões Federais de Contabilidade 6/2020 (ativos fixos)|
+|      Arábia Saudita          |   Novembro de 2021     | 10.0.22HF, 10.0.23    |   Geração de faturamento eletrônico na Arábia Saudita – Fase 1|
+|      Arábia Saudita          |   Novembro de 2021     | 10.0.22HF, 10.0.23HF, 10.0.24    |   Varejo – Faturamento eletrônico na Arábia Saudita – Fase 1|
+|      Espanha          |   2021 de outubro     | 10.0.23    |    Modelo 303 de declaração de IVA em TXT e visualização no Excel|
+|      Espanha          |   2021 de setembro     | 10.0.22    |    O formato Intrastat será atualizado para relatórios de 2022 – País de origem e ID do IVA de parceiro serão obrigatórios em expedições|
+|      Suécia          |   2021 de outubro     | 10.0.22HF    |    O formato Intrastat será atualizado a partir de 2022 – País de origem e ID do IVA de parceiro se tornam obrigatórios em expedições. Serão usados códigos de transação de dois dígitos.|
+|      Reino Unido          |   Agosto de 2021     | 10.0.22    |    Reino Unido – Prevenção de fraudes MTD de 2021)|
 
 
 
 ## <a name="additional-resources"></a>Recursos adicionais
-- Encontre todas as atualizações regulatórias planejadas e divulgadas [Lifecycle Service - Pesquisa de problemas](https://lcs.dynamics.com/Logon/Index) (logon necessário).
+- Para obter mais informações sobre todas as atualizações regulatórias planejadas e lançadas, consulte [Procurar atualizações regulatórias específicas do país](search-for-regulatory-updates.md). (A entrada é obrigatória.)
 - Para obter uma lista das localizações compatíveis, consulte o [Guia de disponibilidade internacional](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

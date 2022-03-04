@@ -2,26 +2,23 @@
 title: Verificação de qualidade
 description: Este tópico fornece informações sobre o recurso Verificação de qualidade. Este recurso permite que os trabalhadores de depósito​ façam verificações por amostragem para saber a qualidade ao receberem itens para a área de doca de entrada.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422581"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103279"
 ---
 # <a name="quality-check"></a>Verificação de qualidade
 
@@ -38,16 +35,13 @@ Quando você usa esse recurso, a entrada e a verificação de qualidade ocorrem 
 1. Ocorre uma das seguintes ações:
 
     - Se a verificação de qualidade for aprovada, a placa de licença será aceita e dirigida a um local de recebimento, como de costume.
-    - Se a verificação de qualidade falhar, a placa de licença será rejeitada e o trabalho de armazenamento existente será redirecionado para um local alternativo para uma inspeção adicional. Uma nova ordem de qualidade é criada. Para exibir a ordem de qualidade criada por meio da verificação de qualidade com falha, vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
+    - Se a verificação de qualidade falhar, a placa de licença será rejeitada e o trabalho de armazenamento existente será redirecionado para um local alternativo para uma inspeção adicional. Uma nova ordem de qualidade é criada. Para exibir a ordem de qualidade criada por meio da verificação de qualidade com falha, Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 
 Esse processo também pode ser configurado de forma que todas as placas de licença verificadas sejam imediatamente desviadas para o local da verificação de qualidade.
 
-## <a name="turn-on-the-quality-check-feature"></a>Ativar o recurso Verificação de qualidade
+## <a name="turn-the-quality-check-feature-on-or-off"></a>Ativar ou desativar o recurso Verificação de qualidade
 
-Para que você possa usar o recurso *Verificação de qualidade*, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Verificação de qualidade*
+Para usar a funcionalidade descrita neste tópico, o recurso *Verificação de qualidade* deve estar ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Verificação de qualidade* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurar o recurso para o cenário de exemplo
 
@@ -61,7 +55,7 @@ Para trabalhar com o [cenário de exemplo](#example-scenario) usando os registro
 
 O modelo de verificação de qualidade define as regras para fazer verificações por amostragem rápidas de qualidade no momento da recepção.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de verificação de qualidade**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de verificação de qualidade**.
 1. Selecione **Novo** para adicionar um modelo à grade.
 1. Defina os seguintes valores para definir o novo modelo:
 
@@ -90,7 +84,7 @@ O modelo de verificação de qualidade define as regras para fazer verificaçõe
 
 Classes de trabalho são usadas para direcionar e/ou limitar os tipos de linhas da ordem de serviço que trabalhadores de depósito podem processar em um dispositivo móvel.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
 1. Selecione **Novo** para criar uma classe de trabalho.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -118,7 +112,7 @@ Os modelos de trabalho permitem definir as operações de trabalho a serem execu
 
 #### <a name="purchase-orders"></a>Ordens de Compra
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. No cabeçalho, defina o campo **Tipo de ordem de serviço** como *Ordens de compra*.
 1. No Painel de Ações, selecione **Editar**.
 1. Selecione um modelo de trabalho que deve incluir uma etapa de verificação de qualidade. Na seção **Visão geral**, no campo **Modelo de trabalho**, selecione *Recibo de OC 51*.
@@ -182,7 +176,7 @@ Para obter mais informações sobre modelos de trabalho, consulte [Controlar o t
 
 As diretivas de localização são regras que ajudam a identificar locais de separação e armazenamento para a movimentação do estoque. Por exemplo, em uma transação de ordem de venda, uma diretiva de localização determina onde os itens serão separados e onde os itens separados serão colocados. Você deve configurar uma regra de diretiva de localização para definir como as verificações de qualidade de falha serão tratadas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, defina o campo **Tipo de ordem de trabalho** como *Ordens de compra* para trabalhar com diretivas de localização desse tipo.
 1. No Painel de Ações, selecione **Novo** para criar uma diretiva de localização para verificações de qualidade.
 1. No cabeçalho, defina os seguintes valores:
@@ -231,7 +225,7 @@ Configure um item de menu para que os dispositivos móveis possam executar a fun
 
 #### <a name="purchase-putaway"></a>Armazenamento de compra
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Na lista, selecione o item de menu **Armazenamento de compra**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na seção **Classes de trabalho**, selecione **Novo** para adicionar uma linha à grade.
@@ -247,7 +241,7 @@ Configure um item de menu para que os dispositivos móveis possam executar a fun
 
 #### <a name="purchase-order-line-receiving"></a>Recebimento da linha da ordem de compra
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -266,7 +260,7 @@ Configure um item de menu para que os dispositivos móveis possam executar a fun
 
 #### <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Adicionar o item de menu ao menu de um dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. No painel esquerdo, selecione o menu **Entrada**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na coluna **Menus e itens de menu disponíveis**, selecione o novo item de menu **Recebimento da linha da OC**.
@@ -302,8 +296,8 @@ Depois que a ordem de compra for criada, ela poderá ser recebida usando o item 
 
 #### <a name="receive-pallet-1"></a>Receber palete 1
 
-1. Entre no aplicativo do depósito como um usuário do depósito *51*. (Insira *51* como a ID do usuário e *1* como a senha.)
-1. Vá para **Entrada \> Recebimento da linha da OC**.
+1. Entre no aplicativo móvel do Gerenciamento de Depósito como um usuário para o depósito *51*. (Insira *51* como a ID do usuário e *1* como a senha.)
+1. Acesse **Entrada \> Recebimento da linha da OC**.
 1. No campo **PONUM**, insira o número da ordem de compra.
 1. Confirme o número da ordem de compra.
 1. No campo **LINENUM**, insira o número da linha da ordem de compra que está sendo recebida. Como a ordem tem apenas uma linha neste cenário, você inserirá *1* no campo **LINENUM** para cada etapa de recebimento.
@@ -313,7 +307,7 @@ Depois que a ordem de compra for criada, ela poderá ser recebida usando o item 
 
     A página **Verificação de qualidade** que aparece não tem campos de entrada. Ela tem apenas o botão de confirmação (marca de seleção) na parte inferior e o botão de menu (**≡**) na parte superior. (Às vezes, o botão de menu é referenciado como hambúrguer ou botão de hambúrguer.) Para agilizar o processo de verificação de qualidade, quando o palete passa pela verificação de qualidade, o usuário apenas confirma a página **Verificação de qualidade**.
 
-    ![Página Verificação de qualidade](media/quality-check.png "Página Verificação de qualidade")
+    ![Página Verificação de qualidade.](media/quality-check.png "Página Verificação de qualidade")
 
 1. Selecione o botão de confirmação para passar a verificação de qualidade para o palete 1 da linha 1.
 
@@ -361,7 +355,7 @@ Neste cenário, o palete 2 será rejeitado.
 
     Na página **Tarefa** para recebimento de linha da ordem de compra, você recebe uma mensagem "Trabalho Concluído". O campo **LINENUM** está disponível para que você comece a receber o próximo palete.
 
-Você acabou de concluir a verificação de qualidade e criou uma ordem de qualidade para o palete rejeitado. Para exibir a ordem que foi criada, vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
+Você acabou de concluir a verificação de qualidade e criou uma ordem de qualidade para o palete rejeitado. Para exibir a ordem que foi criada, Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 
 O teste da ordem de qualidade pode ser processado agora. O teste de qualidade não é abordado neste tópico.
 
@@ -397,3 +391,6 @@ Neste cenário, o palete 3 será aceito.
 1. Selecione o botão de menu (**≡**) na parte superior da página e, no menu, selecione **Cancelar** para voltar ao menu.
 
 Agora você pode fechar o aplicativo móvel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

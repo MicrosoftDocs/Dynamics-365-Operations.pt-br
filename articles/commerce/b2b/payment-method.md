@@ -1,8 +1,8 @@
 ---
 title: Configurar o método de pagamento da conta do cliente para sites de comércio eletrônico B2B
-description: Este tópico descreve como configurar o método de pagamento da conta do cliente para sites de comércio eletrônico business-to-business (B2B).
+description: Este tópico descreve como configurar a forma de pagamento da conta de cliente no Microsoft Dynamics 365 Commerce. Ele também mostra como os limites de crédito afetam a captura de pagamento por conta nos sites de comércio eletrônico entre empresas (B2B).
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,26 +14,29 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 628f3b3b2d86154190dfdcc82b8b391c2facce103f607519514c65b5fba26653
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738044"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323346"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurar o método de pagamento da conta do cliente para sites de comércio eletrônico B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como configurar o método de pagamento da conta do cliente para sites de comércio eletrônico business-to-business (B2B).
+Este tópico descreve como configurar a forma de pagamento da conta de cliente no Microsoft Dynamics 365 Commerce. Ele também mostra como os limites de crédito afetam a captura de pagamento por conta nos sites de comércio eletrônico entre empresas (B2B).
 
-Os varejistas podem aceitar vários tipos de pagamento em troca de produtos e serviços vendidos em um canal de comércio eletrônico. Cada tipo de pagamento que o varejista aceita deve ser configurado no Microsoft Dynamics 365 Commerce quando o sistema for configurado. O método de pagamento da conta do cliente (ou "por conta") deve ter suporte em sites de comércio eletrônico B2B. 
+Os varejistas podem aceitar vários tipos de pagamento em troca de produtos e serviços vendidos em um canal de comércio eletrônico. Cada tipo de pagamento que o varejista aceita deve ser configurado no Dynamics 365 Commerce quando o sistema for configurado. A forma de pagamento da conta do cliente (ou "por conta") deve ter suporte em sites de comércio eletrônico B2B. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
 1. Adicione o método de pagamento da conta do cliente na sede do Commerce.
 2. Associe o método de pagamento da conta do cliente ao canal de comércio eletrônico.
-3. Verifique se **Permitir por conta** está habilitado para o cliente em **Varejo e Comércio \> Clientes \> Todos os clientes \> Padrões de pagamentos** na sede do Commerce. Verifique também se os parâmetros de **Limite de crédito** estão definidos corretamente para o cliente em **Varejo e Comércio \> Clientes \> Todos os clientes \> Crédito e Coleções** na sede do Commerce. 
+3. Verifique se a propriedade **Permitir por conta** está habilitada para o cliente em **Varejo e Comércio \> Clientes \> Todos os clientes \> Padrões de pagamentos** no Commerce Headquarters.
+
+    > [!NOTE]
+    > Se todos os clientes tiverem permissão para ativar a forma de pagamento por conta, você poderá definir a propriedade **Permitir por conta** como **Sim** para o cliente padrão do canal associado ao site B2B. 
 
 ## <a name="enable-the-customer-account-payment-method-in-commerce-site-builder"></a>Habilitar o método de pagamento da conta do cliente no assistente para criação de sites do Commerce 
 
@@ -63,11 +66,42 @@ Para confirmar que o método de pagamento da conta do cliente foi ativado e publ
 1. Adicione um produto ao carrinho.
 1. Acesse a página de finalização de compra. Você deve ver o novo método de pagamento da **Conta do Cliente**.
 
+## <a name="work-with-credit-limits"></a>Trabalhar com limites de crédito
+
+Quando os recursos de pagamentos de contas de clientes são ativados no site B2B, as organizações normalmente querem mostrar informações sobre limites de crédito e saldos de limite de crédito durante o processo de captura da ordem. O limite de crédito de um cliente é definido pela propriedade **Limite de crédito** na guia rápida **Crédito e cobranças** do registro de cliente no Commerce Headquarters. No entanto, em cenários B2B, uma ordem de um cliente geralmente deve ser faturada para a conta da organização à qual o cliente pertence. Portanto, você deve definir a propriedade **Conta de faturamento** na guia rápida **Fatura e entrega** do registro do cliente para a ID da conta de cliente da organização. Depois, quando o cliente fizer uma ordem no site B2B, ela será faturada para a organização. O site B2B também usará o limite de crédito da organização em vez do limite de crédito definido no registro do cliente.
+
+O cálculo e o saldo do limite de crédito mostrados no site B2B dependem da configuração da propriedade do **Tipo de limite de crédito** no Commerce Headquarters. A localização dessa propriedade varia, dependendo se o recurso **Gerenciamento de crédito** está habilitado no espaço de trabalho **Gerenciamento de recursos**:
+
+- Se o recurso **Gerenciamento de crédito** estiver habilitado, a propriedade estará na guia rápida **Limites de crédito** em **Créditos e cobranças \> Configuração \>Parâmetros de crédito e cobrança \> Crédito**. 
+- Se o recurso **Gerenciamento de crédito**, a propriedade estará em **Avaliação de crédito** em **Contas a receber \> Configuração \> Parâmetros de contas a receber \> Avaliação de crédito**.
+
+Os valores aos quais a propriedade **Tipo de limite de crédito** oferece suporte são **Nenhum**, **Saldo**, **Saldo + guia de remessa ou recebimento de produtos** e **Saldo + Todos**. Para obter mais informações sobre esses valores, consulte [Valores de tipo de limite de crédito](/dynamics365/supply-chain/sales-marketing/credit-limits-customers).
+
+> [!NOTE]
+> Recomendamos que você defina a propriedade **Tipo de limite de crédito** como **Saldo + guia de remessa ou guia de produto** para que as ordens de venda abertas não entrem para o cálculo do saldo. Em seguida, se os clientes fizerem ordens futuras, não precisarão se preocupar se essas ordens afetarão o saldo atual.
+
+Outra propriedade que afeta a ordem por conta é a propriedade **Limite de crédito obrigatório**, que está localizada na guia rápida **Crédito e cobranças** do registro do cliente. Ao definir essa propriedade como **Sim** para clientes específicos, você pode forçar o sistema a verificar seu limite de crédito, mesmo se a propriedade **Tipo de limite de crédito** tiver sido definida como **Nenhum**, para especificar que o limite de crédito não deve ser verificado para qualquer cliente.
+
+No momento, os sites B2B nos quais a propriedade **Limite de crédito obrigatório** está habilitada têm funcionalidade adicional. Se a propriedade estiver habilitada em um registro de cliente, quando o cliente fizer uma ordem, o site B2B impedirá o uso da forma de pagamento por conta para pagar mais do que o saldo de crédito restante. Por exemplo, se o saldo de crédito restante do cliente for US$ 1.000, mas a ordem for de US$1.200, o cliente poderá pagar somente US$ 1.000 usando a forma por conta. Ele deve usar outra forma de pagamento para quitar o saldo. Se a propriedade **Limite de crédito obrigatório** for desabilitada em um registro de cliente, o cliente poderá pagar qualquer valor usando a forma de pagamento por conta. No entanto, mesmo que um cliente possa fazer ordens, o sistema não permitirá que elas sejam efetivadas se excederem o limite de crédito. Se você precisar verificar o limite de crédito de todos os clientes qualificados para pagamentos por conta, recomendamos que você defina a propriedade **Tipo de limite de crédito** como **Saldo + guia de remessa ou guia do produto** e a propriedade **Limite de crédito obrigatório** como **Não**.
+
+O módulo **Crédito e cobrança** tem novos recursos de gerenciamento de crédito. Para ativar esses recursos, habilite o recurso de **Gerenciamento de crédito** no espaço de trabalho **Gerenciamento de recursos**. Um dos novos recursos permite que as ordens de venda sejam colocadas em espera com base nas regras de bloqueio. O gerente de crédito poderá então liberar ou rejeitar as ordens após uma análise adicional. No entanto, a capacidade de colocar ordens de venda em espera não é aplicável a ordens do Commerce, pois as ordens de venda geralmente têm um pagamento antecipado e o recurso de **gerenciamento de crédito** não oferece suporte total a cenários de pagamento antecipado. 
+
+Independentemente da ativação do recurso de **Gerenciamento de crédito**, se o saldo do cliente ultrapassar o limite de crédito durante a efetivação da ordem, as ordens de venda não ficarão em espera. Em vez disso, o Commerce gerará uma mensagem de aviso ou uma mensagem de erro, dependendo do valor do campo **Mensagem ao exceder o limite de crédito** na guia rápida **Limites de crédito**.
+
+A propriedade **Excluir do gerenciamento de crédito** que impede que as ordens de venda do Commerce entrem em espera está localizada no cabeçalho da ordem de venda (**Varejo e comércio\> Clientes \> Todas as ordens de venda**). Se esta propriedade for definida como **Sim** (o valor padrão) para ordens de venda do Commerce, as ordens serão excluídas do fluxo de trabalho em espera do gerenciamento de crédito. Observe que, embora a propriedade seja denominada **Excluir do gerenciamento de crédito**, o limite de crédito definido ainda será usado durante a efetivação da ordem. As ordens só não ficarão em espera.
+
+A capacidade de colocar ordens de venda do Commerce em espera com base nas regras de bloqueio é planejada para versões futuras do Commerce. Até que ela seja suportada, se você precisar forçar ordens de venda do Commerce a percorrer os novos fluxos de gerenciamento de crédito, poderá personalizar os seguintes arquivos XML na solução do Visual Studio. Nos arquivos, modifique a lógica para que o sinalizador **CredManExcludeSalesOrder** seja definido como **Não**. Dessa forma, a propriedade **Excluir do gerenciamento de crédito** será definida como **Não**, por padrão, para ordens de venda do Commerce.
+
+- RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
+- RetailCallCenterOrderExtensions_CredMan_Extension.xml
+
+Observe que, se o sinalizador **CredManExcludeSalesOrder** estiver definido como **Não**, e um cliente B2B puder comprar de repositórios usando o aplicativo do PDV (ponto de venda), o lançamento das transações cash-and-carry poderá falhar. Por exemplo, há uma regra de bloqueio no tipo de pagamento à vista e o cliente B2B comprou alguns itens na loja usando dinheiro. Nesse caso, a ordem de venda resultante não será faturada com êxito porque ela ficará em espera. Portanto, o lançamento falhará. Por esse motivo, recomendamos que você faça os testes de ponta a ponta após a implementação dessa personalização.
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Configurar um site de comércio eletrônico B2B](set-up-b2b-site.md)
 
-[Criar hierarquias de modelagem de organização para organizações B2B](org-model.md)
+[Gerenciar parceiros de negócios B2B usando hierarquias do cliente](partners-customer-hierarchies.md)
 
 [Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B](manage-b2b-users.md)
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579919"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103504"
 ---
 # <a name="wave-creation-and-processing"></a>Criação e processamento de ciclo
 
@@ -190,9 +190,9 @@ Se necessário, você pode cancelar um ciclo que foi processado. Para cancelar u
 
 Use a página **Detalhes do trabalho em lotes do ciclo** para inspecionar os trabalhos em lotes e as tarefas relacionadas a qualquer ciclo. Isso é especialmente útil para solucionar problemas de um ciclo que falhou. Sem esse recurso, somente administradores normalmente terão acesso aos detalhes do trabalho em lotes. A página **Detalhes do trabalho em lotes do ciclo** pode ser disponibilizada para usuários não administradores e fornece uma exibição somente leitura de trabalhos em lotes e tarefas relacionadas.
 
-### <a name="enable-the-wave-batch-job-details-page"></a>Habilitar a página Detalhes do trabalho em lotes do ciclo
+### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Ativar ou desativar a página Detalhes do trabalho em lotes do ciclo
 
-Se o sistema ainda não incluir a página **Detalhes do trabalho em lotes do ciclo**, Acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Detalhes do trabalho em lotes do ciclo*.
+A partir do Supply Chain Management versão 10.0.25, a página **Detalhes do trabalho em lotes do ciclo** está ativada por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Detalhes do trabalho em lotes do ciclo* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Usar a página Detalhes do trabalho em lotes do ciclo
 

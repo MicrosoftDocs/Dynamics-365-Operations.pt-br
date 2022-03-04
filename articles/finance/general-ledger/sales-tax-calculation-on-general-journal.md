@@ -1,29 +1,26 @@
 ---
 title: Cálculo de imposto nas linhas do diário geral
 description: Este tópico explica como os impostos são calculados para diferentes tipos de conta (fornecedor, cliente, razão e projeto) nas linhas do diário geral.
-author: EricWang
-manager: Ann Beebe
-ms.date: 08/14/2019
+author: EricWangChen
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 51d43c8e6d16201e1f8c392c13ead20287782dcc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 684b38a4940ff00978201334d1db0cef87b79b35
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440204"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311945"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Cálculo de imposto nas linhas do diário geral
 [!include [banner](../includes/banner.md)]
@@ -58,7 +55,7 @@ Caso contrário, a direção do imposto será Imposto a Receber.
 
 O diagrama a seguir ilustra a regra graficamente.
 
-![Possibilidades de direção do imposto para contas do projeto](media/Sales-Tax-Direction-Vendor.jpg)
+![Possibilidades de direção do imposto para contas do projeto.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Tipo de conta é Fornecedor
 
@@ -76,23 +73,13 @@ Caso contrário, a direção do imposto será Imposto a Receber.
 
 O diagrama a seguir ilustra a regra graficamente.
 
-![Possibilidades de direção do imposto para contas de fornecedor](media/Sales-Tax-Direction-Vendor.jpg)
+![Possibilidades de direção do imposto para contas de fornecedor.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Tipo de conta é Cliente
 
-Se um comprovante tiver uma linha de diário, onde o tipo de conta for **Cliente**, todas as linhas do diário no comprovante aplicarão a mesma direção de imposto. Os seguintes pontos mostram as possíveis direções de imposto para contas de cliente.
+Se um comprovante tiver uma linha de diário, onde o tipo de conta for **Cliente**, todas as linhas do diário no comprovante aplicarão a mesma direção de imposto. 
 
-•   Se o código do imposto for isenção de imposto, a direção do imposto será Compra Isenta de Imposto.
-
-•   Se o código do imposto for IVA intracom, a direção do imposto será Imposto a Receber.
-
-•   Se o código do imposto for encargo revertido, a direção do imposto será Imposto a Receber.
-
-Caso contrário, a direção do imposto será Imposto a Pagar.
-
-O diagrama a seguir ilustra a regra graficamente.
-
-![Possibilidades de direção do imposto para contas de cliente](media/Sales-Tax-Direction-Customer.jpg)
+Se o código do imposto for isenção de imposto, a direção do imposto será Vendas Isentas de Imposto. Caso contrário, a direção do imposto será Imposto a Pagar.
 
 ### <a name="account-type-is-ledger"></a>Tipo de conta é Razão
 
@@ -106,21 +93,21 @@ Caso contrário, se o valor do diário for débito (positivo), a direção do im
 
 O diagrama a seguir ilustra a regra graficamente.
 
-![Possibilidades de direção do imposto para contas de razão](media/Sales-Tax-Direction-Ledger.jpg)
+![Possibilidades de direção do imposto para contas de razão.](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>Substituir a direção do imposto
 
 Você poderá substituir a direção do imposto quando o comprovante contiver apenas linhas onde o tipo de conta for **Razão**.
 
-Vá para **Contabilidade \> Plano de contas \> Contas \> Contas principais** e selecione a guia rápida **Substituições da entidade legal**.
+Acesse **Contabilidade \> Plano de contas \> Contas \> Contas principais** e selecione a guia rápida **Substituições da entidade legal**.
 
 ## <a name="determine-the-sales-tax-amount"></a>Determinar o valor do imposto
 
 Esta seção descreve como o valor do sinal do imposto é calculado.
 
-![Página Transações de imposto](media/sales-tax-amount-sign.jpg)
+![Página Transações de imposto.](media/sales-tax-amount-sign.jpg)
 
-A tabela a seguir mostra a regra genérica para determinar o sinal de valores do imposto na tabela temporária de impostos.
+A tabela a seguir mostra a regra genérica para determinar a direção do imposto e o sinal de valores do imposto na tabela temporária de impostos.
 
 | Valor da linha do diário | Direção de imposto  | Sinal do valor do imposto |
 |---------------------|----------------------|-----------------------|
@@ -129,7 +116,7 @@ A tabela a seguir mostra a regra genérica para determinar o sinal de valores do
 | Negativo            | Imposto a Receber | Negativo              |
 | Negativo            | Imposto a Pagar    | Positivo              |
 
-Há uma regra especial para os comprovantes que têm apenas as linhas **Projeto** ou **Razão**, quando um grupo de impostos de item é selecionado na linha **Razão**. A regra é controlada pelo recurso Habilitar cálculo de imposto independente para diários gerais. Quando esse recurso está desativado, o valor do imposto da linha **Razão** usa a direção de débito/crédito da linha **Projeto**. Quando o recurso está ativado, o valor do imposto da linha **Razão** usa sua própria direção de débito/crédito. As tabelas a seguir mostram a regra para cada cenário. 
+Há uma regra especial para os comprovantes que têm apenas as linhas **Projeto** ou **Razão**, quando um grupo de impostos de item é selecionado na linha **Razão**. Essa regra é controlada pelo recurso **Habilitar cálculo de impostos independente para diários gerais**. Quando esse recurso está desativado, o valor do imposto da linha **Razão** usa a direção de débito/crédito da linha **Projeto**. Quando o recurso está ativado, o valor do imposto da linha **Razão** usa sua própria direção de débito/crédito. As tabelas a seguir mostram a regra para cada cenário. 
 
 **Regra quando o recurso estiver ativado**
 
@@ -157,3 +144,6 @@ A tabela a seguir mostra a regra genérica.
 | Imposto a Receber | Negativo              | Contas de Imposto a Receber | Negativo (Crédito)  |
 | Imposto a Pagar    | Positivo              | Conta de Imposto a Pagar    | Negativo (Crédito)  |
 | Imposto a Pagar    | Negativo              | Conta de Imposto a Pagar    | Positivo (Débito)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

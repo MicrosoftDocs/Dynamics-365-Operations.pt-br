@@ -1,16 +1,13 @@
 ---
 title: Módulo de trilha de navegação
-description: Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517151"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109722"
 ---
 # <a name="breadcrumb-module"></a>Módulo de trilha de navegação
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
+Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 
 Os módulos de trilha de navegação são usados para fornecer navegação secundária em páginas do site. Em geral, são mostradas na parte superior de uma página, abaixo do cabeçalho. Embora os módulos de trilha de navegação possam ser adicionados a qualquer página, eles costumam ser usados em páginas de detalhes do produto (PDPs), para mostrar a hierarquia de categoria de produtos e fornecer uma maneira rápida de se movimentar em um site. Um módulo de trilha de navegação também pode ser usado para mostrar um link "Voltar para resultados" quando os usuários abrem um PDP de uma página de pesquisa ou de listagem. Dessa forma, os usuários podem retornar rapidamente à página de listagem filtrada para continuar comprando.
 
@@ -42,7 +37,7 @@ Nas páginas que têm contexto de categoria de produto, como as páginas PDPs e 
 
 A imagem a seguir mostra um exemplo de um módulo de trilha de navegação que mostra a hierarquia de categoria em um PDP.
 
-![Exemplo de um módulo de trilha de navegação](./media/ecommerce-breadcrumb.PNG)
+![Exemplo de um módulo de trilha de navegação.](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Configurações do módulo de trilha de navegação
 
@@ -66,12 +61,12 @@ O módulo de trilha de navegação depende da configuração de **Tipo de exibi�
 
 Para adicionar um módulo de trilha de navegação a um PDP e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Configurações do Site \> Extensões**. Depois, para a configuração **Tipo de exibição de trilha de navegação em PDP**, selecione **Mostrar hierarquia de categoria**.
-1. Vá para **Modelos** e selecione o modelo PDP.
+1. Acesse **Configurações do Site \> Extensões**. Depois, para a configuração **Tipo de exibição de trilha de navegação em PDP**, selecione **Mostrar hierarquia de categoria**.
+1. Acesse **Modelos** e selecione o modelo PDP.
 1. No slot **Contêiner** que contém o módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Trilha de navegação** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e abra um PDP que utilize o modelo PDP. Se ainda não existir um PDP, crie um.
+1. Acesse **Páginas** e abra um PDP que utilize o modelo PDP. Se ainda não existir um PDP, crie um.
 1. No slot **Contêiner** que contém o módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Trilha de navegação** e, depois, **OK**.
 1. No painel de propriedades do slot **Trilha de navegação**, em **Raiz**, selecione **Texto do link**.
@@ -86,7 +81,7 @@ Para adicionar um módulo de trilha de navegação a um PDP e definir as proprie
 
 [Módulos de menu de navegação](nav-menu-module.md)
 
-[Módulo de seletor de site](site-selector.md)
+[Módulo de seletor de sites](site-selector.md)
 
 [Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa](category-search-page-overview.md)
 
@@ -95,3 +90,6 @@ Para adicionar um módulo de trilha de navegação a um PDP e definir as proprie
 [Módulo de caixa de compra](add-buy-box.md)
 
 [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

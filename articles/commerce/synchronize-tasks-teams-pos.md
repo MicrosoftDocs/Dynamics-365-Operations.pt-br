@@ -2,7 +2,7 @@
 title: Sincronizar o gerenciamento de tarefas entre o Microsoft Teams e o PDV do Dynamics 365 Commerce
 description: Este tópico descreve como sincronizar o gerenciamento de tarefas entre o Microsoft Teams e o ponto de venda (PDV) do Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9abebbf8d6c5dd6695b9697361e1a9a9e6005dc3ded16c4211c9c5c9e34a0b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c07ca28b45335de5e327305b7426d1b6de8ce5c7
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730866"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323488"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Sincronizar o gerenciamento de tarefas entre o Microsoft Teams e o PDV do Dynamics 365 Commerce
 
@@ -54,6 +54,9 @@ Para obter mais informações, consulte [Publicar listas de tarefas para criar e
 ## <a name="link-pos-and-teams-for-task-management"></a>Vincular PDV e o Teams para o gerenciamento de tarefas
 
 Para vincular os aplicativos de PDV e do Microsoft Teams para o gerenciamento de tarefas na sede do Commerce, siga estas etapas.
+
+> [!NOTE]
+> Antes de tentar integrar o Gerenciamento de tarefas ao Microsoft Teams, habilite a [integração do Dynamics 365 Commerce e do Microsoft Teams](enable-teams-integration.md). 
 
 1. Acesse **Varejo e Comércio \> Gerenciamento de tarefas \> Integração de tarefas com o Microsoft Teams**.
 1. No Painel de Ações, selecione **Editar**.

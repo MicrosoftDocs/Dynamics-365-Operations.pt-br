@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571704"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103086"
 ---
 # <a name="category-requests-from-vendors"></a>Solicitações de categoria de fornecedores
 
@@ -26,11 +26,11 @@ O processo de solicitação de categoria permite que os fornecedores que solicit
 
 As solicitações de categoria são iniciadas por fornecedores no espaço de trabalho **Informações do fornecedor**. Em seguida, eles são enviados para a agência para revisão e aprovação. As categorias aprovadas são adicionadas à lista de categorias de compras para a conta do fornecedor.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Ativar ou desativar o recurso de solicitações de categoria de fornecedores
 
-Se o sistema ainda não incluir o recurso descrito neste tópico, Acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Permitir que os fornecedores se apliquem às categorias de compras por meio da colaboração do fornecedor*.
+A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade procurando o recurso *Permitir que os fornecedores solicitem categorias de compras por meio da colaboração do fornecedor* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Depois que o recurso for ativado, você ainda poderá adicionar categorias de compras manualmente a contas de fornecedor. Para obter mais informações, consulte [Aprovar fornecedores para categorias específicas da compras](tasks/approve-vendors-specific-procurement-categories.md).
+Se esse recurso for ativado, você ainda poderá adicionar categorias de compras manualmente a contas de fornecedor. Para obter mais informações, consulte [Aprovar fornecedores para categorias específicas da compras](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Requisitos de colaboração do fornecedor
 

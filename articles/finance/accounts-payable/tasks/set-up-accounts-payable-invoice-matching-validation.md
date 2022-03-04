@@ -2,26 +2,23 @@
 title: Configurar a Validação da conciliação de faturas de contas a pagar
 description: Este tópico fornece informações sobre como configurar a validação na Conciliação de faturas de contas a pagar.
 author: abruer
-manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440292"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182546"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurar a Validação da conciliação de faturas de contas a pagar
 
@@ -38,7 +35,7 @@ Quatro tipos de validação de conciliação diferentes estão disponíveis.
 - **Totais de preço para conciliação de item de linha** – Este tipo de conciliação é útil para empresas que receberão normalmente várias faturas para uma linha de ordem de compra. Se você receber apenas em uma fatura por linha de ordem de compra, este tipo de conciliação não é necessária. Esta conciliação exige que a conciliação dupla ou tripla esteja ativada e funcione como uma validação de valor líquido com limite máximo, com base em uma porcentagem de tolerância e valores.  Você pode comparar as informações de preço para o valor líquido de cada linha da fatura e todas as linhas na fatura pendentes e lançadas anteriormente, com o valor líquido da linha da ordem de compra correspondente. O valor líquido é determinado pela seguinte fórmula: (Preço unitário * Quantidade da linha) + Encargos da linha - Descontos da linha. Ao combinar os totais de preços por porcentagem, o sistema compara os valores usando a moeda da transação. Ao combinar totais de preço por valor, o sistema compara os valores usando a moeda contábil.
 
 ## <a name="set-up-parameters-to-enable-invoice-matching-validation"></a>Configure parâmetros para habilitar a validação de conciliação de faturas
-1. Vá para **Contas a pagar > Configuração > Parâmetros de contas a pagar**.
+1. Acesse **Contas a pagar > Configuração > Parâmetros de contas a pagar**.
 2. Selecione a guia **Validação de fatura**.
 3. Marque ou desmarque a caixa de seleção **Habilitar validação da conciliação de faturas**.
     * Selecione se deseja exigir aprovação antes que uma fatura que contém discrepâncias na conciliação de faturas seja lançada. Se **Permitir com aviso** estiver definido, a indicação visual será exibida quando uma discrepância na conciliação de faturas exceder a tolerância. No entanto, você poderá lançar a nota fiscal. Para usar fluxos de trabalho junto com a validação de conciliação de faturas, verifique se o campo **Lançar fatura com discrepâncias** está definido como **Permitir com aviso** para evitar precisar aprovar várias vezes.  
@@ -57,11 +54,11 @@ Quatro tipos de validação de conciliação diferentes estão disponíveis.
 12. No campo **Total tolerância de preços de compra** , insira um valor em moeda contábil. Esse campo só estará disponível quando **Conciliar totais de preço** estiver definido como **Valor** ou **Porcentagem e valor**.
 13. No campo **Exibir ícone de conciliação do total de preço**, selecione quando um ícone é exibido se a discrepância para a conciliação de faturas exceder a tolerância para o preço unitário líquido. O ícone pode ser exibido quando uma discrepância positiva exceder a tolerância ou quando uma discrepância positiva ou negativa exceder a tolerância.
 Por exemplo, a tolerância é 5 por cento e o total do preço da linha na ordem de compra for de 10,00. Portanto, um ícone de conciliação do preço será exibido se preço total da linha na fatura exceder 10,50. Se você selecionar **Se maior que ou menor que a tolerância**, um ícone também será mostrado se o valor da fatura for menor que 9,50.
-13. Defina a Conciliação de encargos.
+13. Defina a **Conciliação de encargos**.
 14. Para conciliar os encargos reais com os encargos esperados, com base nas informações nas ordens de compra, marque a caixa de seleção **Conciliar encargos**.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Configure porcentagens de tolerância de preços unitários
-Vá para **Contas a pagar > Configuração > Configuração de conciliação de faturas > Tolerâncias de preço** para definir porcentagens de tolerância de preços permitidos. Se você usar uma diretiva de conciliação da linha de correspondência ou da conciliação dupla ou tripla, você pode configurar percentuais de tolerância de preços para a pessoa jurídica, itens e fornecedores, na página de tolerância de preços de item. Quando as faturas são comparadas com as informações em ordens de compra, a porcentagem da tolerância de preço aplicável é procurada. A busca é realizada na seguinte ordem:
+Acesse **Contas a pagar > Configuração > Configuração de conciliação de faturas > Tolerâncias de preço** para definir porcentagens de tolerância de preços permitidos. Se você usar uma diretiva de conciliação da linha de correspondência ou da conciliação dupla ou tripla, você pode configurar percentuais de tolerância de preços para a pessoa jurídica, itens e fornecedores, na página de tolerância de preços de item. Quando as faturas são comparadas com as informações em ordens de compra, a porcentagem da tolerância de preço aplicável é procurada. A busca é realizada na seguinte ordem:
 * Tabela/Tabela
 * Tabela/Grupo
 * Tabela/Tudo
@@ -78,7 +75,7 @@ Por padrão, as discrepâncias de preço negativo são permitidas. No entanto, v
 
 ## <a name="set-up-matching-policy-override"></a>Configure a substituição da política de conciliação
 
-Vá para **Contas a pagar > Configuração > Configuração de conciliação de faturas > Política de conciliação** para definir a entrada padrão para o campo Política de conciliação para linhas no formulário Ordem de compra. Esta é uma configuração opcional. Use este formulário para configurar uma conciliação dupla ou tripla para itens, fornecedores, ou combinações de item e fornecedor. Essas entradas permitem que você defina políticas de conciliação mais granuladas do que a política de conciliação de entidade legal definida na página **Parâmetros de contas a pagar**. A política de conciliação da linha de entidade legal padrão aplica-se a todos os itens e fornecedores, exceto aqueles para os quais uma política de conciliação de linha diferente é especificado nessa página.
+Acesse **Contas a pagar > Configuração > Configuração de conciliação de faturas > Política de conciliação** para definir a entrada padrão para o campo **Política de conciliação** para linhas na página **Ordem de compra**. Esta é uma configuração opcional. Use esta página para configurar uma conciliação dupla ou tripla para itens, fornecedores ou combinações de item e fornecedor. Essas entradas permitem que você defina políticas de conciliação mais granuladas do que a política de conciliação de entidade legal definida na página **Parâmetros de contas a pagar**. A política de conciliação da linha de entidade legal padrão aplica-se a todos os itens e fornecedores, exceto aqueles para os quais uma política de conciliação de linha diferente é especificado nessa página.
 
 Nesta página, selecione o **Nível de política de conciliação**. Selecione o nível na hierarquia da política de conciliação para definir as políticas de conciliação de linha.
 
@@ -94,7 +91,10 @@ A seguinte hierarquia é usada para determinar a política de conciliação que 
   
 ## <a name="set-up-invoice-totals-matching-tolerance-for-vendors"></a>Configure a tolerância de conciliação de totais de faturas de fornecedores
 
-Vá para **Contas a pagar > Configuração > Configuração de conciliação de faturas > Tolerâncias de totais de fatura** para especificar tolerâncias específicas de fornecedor para conciliação de totais de fatura. O cálculo de conciliação usa a porcentagem de tolerância de totais de fatura da conta de fornecedor especificada como a conta da ordem na fatura de fornecedor. Se a conta do fornecedor não tiver uma porcentagem de tolerância especificada para totais de fatura, a porcentagem de tolerância de totais de fatura especificada para a entidade legal na página **Parâmetros de contas a pagar** será usada.
+Acesse **Contas a pagar > Configuração > Configuração de conciliação de faturas > Tolerâncias de totais de fatura** para especificar tolerâncias específicas de fornecedor para conciliação de totais de fatura. O cálculo de conciliação usa a porcentagem de tolerância de totais de fatura da conta de fornecedor especificada como a conta da ordem na fatura de fornecedor. Se a conta do fornecedor não tiver uma porcentagem de tolerância especificada para totais de fatura, a porcentagem de tolerância de totais de fatura especificada para a entidade legal na página **Parâmetros de contas a pagar** será usada.
 
 1. Para especificar tolerâncias para fornecedores individuais que substituam a tolerância padrão, selecione uma **Conta do fornecedor**.
 2. Insira a porcentagem de variação que será aceita para este fornecedor.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

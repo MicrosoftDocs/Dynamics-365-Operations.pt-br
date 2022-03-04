@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901863"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103704"
 ---
 # <a name="mobile-device-user-settings"></a>Configurações do usuário do dispositivo móvel
 
@@ -39,12 +39,9 @@ Este recurso pode ajudar os trabalhadores a iniciar de forma mais rápida sempre
 > [!IMPORTANT]
 > O recurso *configurações de usuário do dispositivo móvel* é aplicável somente ao novo aplicativo móvel Warehouse Management. Ele não funciona com o antigo aplicativo de depósito.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Ativar o recurso de configurações de usuário do dispositivo móvel
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Ativar ou desativar o recurso de configurações de usuário do dispositivo móvel
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *configurações do usuário, ícones e títulos de etapa do novo aplicativo de depósito*
+Para usar a funcionalidade descrita neste tópico, o recurso *Configurações de usuário, ícones e títulos de etapas para o novo aplicativo de depósito* deve estar ativado para o seu sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Configurações de usuário, ícones e títulos de etapas do novo aplicativo de depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Criar e gerenciar configurações de usuário
 

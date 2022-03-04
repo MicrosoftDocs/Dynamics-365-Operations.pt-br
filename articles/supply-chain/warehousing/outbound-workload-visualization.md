@@ -2,24 +2,22 @@
 title: Visualização da carga de trabalho de saída
 description: Este tópico fornece informações sobre a visualização de carga de trabalho de saída. Essa funcionalidade permite que os gerentes e supervisores de depósito criem gráficos de carga de trabalho personalizados que podem ser usados para monitorar o andamento do trabalho atual e a quantidade restante dele. Os gerentes de depósito podem criar várias exibições e configurar a atualização automática, conforme necessário.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965543"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102879"
 ---
 # <a name="outbound-workload-visualization"></a>Visualização da carga de trabalho de saída
 
@@ -29,12 +27,9 @@ Recursos de configuração avançados acessíveis por meio da página **Visualiz
 
 Essa funcionalidade pode ser usada para acompanhar o andamento do trabalho de separação. O recurso está integrado ao gerenciamento de mão de obra e, se este estiver configurado, as visualizações de cargas de trabalho de saída poderão mostrar um cálculo do número de horas restantes para o trabalho de separação exibido (filtrado).
 
-## <a name="turn-on-the-outbound-workload-visualization-feature"></a>Ativar o recurso Visualização de carga de trabalho de saída
+## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Ativar ou desativar o recurso Visualização da carga de trabalho de saída
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações do [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Visualização de carga de trabalho de saída*
+A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Visualização da carga de trabalho de saída* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Configurar visualizações de cargas de trabalho de saída
 
@@ -42,7 +37,7 @@ Para configurar suas visualizações, crie uma coleção de filtros (exibições
 
 Para configurar uma visualização de carga de trabalho de saída, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Relatórios de monitoramento de depósito \> Visualização de carga de trabalho de saída**.
+1. Acesse **Gerenciamento de depósito \> Relatórios de monitoramento de depósito \> Visualização de carga de trabalho de saída**.
 
     A página **Visualização de carga de trabalho de saída** será exibida. Depois que você criar alguns filtros, essa página mostrará sua visualização. Você pode criar quantos filtros desejar. Todos os filtros criados por você são salvos na sua conta de usuário, para que possa usá-los posteriormente. Em outras palavras, cada usuário terá seu próprio conjunto de filtros que criou. Esses filtros não serão compartilhados com outros usuários.
 
@@ -62,7 +57,7 @@ Para configurar uma visualização de carga de trabalho de saída, siga estas et
     - **Dias a incluir** – Insira o número de dias no passado para o qual o gráfico deve ser gerado.
     - **Tipo de ordem de serviço** – Selecione os tipos de ordem de serviço de saída a serem filtrados.
 
-    ![Página Configurar filtros](media/work-viz-filters-1.png "Página Configurar filtros")
+    ![Página Configurar filtros.](media/work-viz-filters-1.png "Página Configurar filtros")
 
 1. Feche a página **Configurar filtros** para retornar à página **Visualizações de cargas de trabalho de saída**.
 
@@ -72,11 +67,11 @@ Para configurar uma visualização de carga de trabalho de saída, siga estas et
     - **Última atualização** – Este campo mostra a data e a hora da última atualização das informações do gráfico.
     - **Tempo estimado/real** – Se os padrões de mão de obra estiverem configurados no sistema, defina esta opção como *Sim* para mostrar os tempos de separação estimados acumulados na parte superior de cada coluna no gráfico. Se você não estiver usando padrões de mão de obra, essa opção não estará disponível.
 
-    ![Visualização de exemplo](media/work-viz-chart.png "Visualização de exemplo")
+    ![Visualização de exemplo.](media/work-viz-chart.png "Visualização de exemplo")
 
 1. Selecione qualquer barra no gráfico para exibir os detalhes da linha de trabalho associada.
 
-    ![Detalhes da linha de trabalho](media/work-viz-work-details.png "Detalhes da linha de trabalho")
+    ![Detalhes da linha de trabalho.](media/work-viz-work-details.png "Detalhes da linha de trabalho")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Exemplo: Visualização de carga de trabalho de saída para zonas
 
@@ -94,6 +89,9 @@ Para este exemplo, você deseja configurar uma visualização que mostre linhas 
 
 A ilustração a seguir mostra um exemplo do gráfico resultante.
 
-![Visualização Zona vs. Status do trabalho](media/work-viz-chart.png "Visualização Zona vs. Status do trabalho")
+![Visualização Zona vs. Status do trabalho.](media/work-viz-chart.png "Visualização Zona vs. Status do trabalho")
 
 Este gráfico mostra duas zonas chamadas **FLOOR** e **BULK**, além de uma zona chamada **Em branco**. A zona **Em branco** representa todas as linhas de trabalho que não são membros de nenhuma zona. O gráfico sempre mostra todos os dados filtrados não relacionados como **Em branco**, para fornecer o máximo de visibilidade possível. Na zona **FLOOR**, o gráfico mostra três linhas fechadas e quatro linhas abertas. Na zona **BULK**, o gráfico mostra quatro linhas fechadas, uma linha aberta e 24 linhas canceladas. Por fim, o gráfico mostra oito linhas fechadas que não fazem parte de nenhuma zona e, portanto, são listadas como **Em branco**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

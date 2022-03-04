@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069370"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103404"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar e conectar o aplicativo móvel Warehouse Management
 
@@ -39,12 +39,9 @@ O aplicativo móvel Warehouse Management está disponível nos sistemas operacio
 - Windows 10 (Plataforma Universal do Windows \[UWP\]) Atualização de outubro de 2018 1809 (build 10.0.17763) ou posterior
 - Android 4.4 ou posterior
 
-## <a name="turn-on-the-feature"></a>Ativar o recurso
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Habilitar ou desabilitar recursos do Warehouse Management mobile app no Supply Chain Management
 
-Para que você possa usar o aplicativo, ele deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *configurações do usuário, ícones e títulos de etapa do novo aplicativo de depósito*
+Para usar o aplicativo móvel Warehouse Management, o recurso *Configurações de usuário, ícones e títulos de etapas do novo aplicativo de depósito* deve estar ativado no sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Configurações de usuário, ícones e títulos de etapas do novo aplicativo de depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Baixe o aplicativo móvel Warehouse Management
 

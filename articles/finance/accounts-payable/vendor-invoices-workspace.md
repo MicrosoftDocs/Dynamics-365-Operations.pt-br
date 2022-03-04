@@ -1,43 +1,40 @@
 ---
-title: Workspace de entrada de fatura de fornecedor
-description: Este tópico explica como configurar o workspace que está relacionado às faturas de fornecedor e que mostra as informações que estão disponíveis pelo Microsoft Power BI.
+title: Espaço de trabalho de automação de faturas de fornecedores
+description: Este tópico explica como configurar o espaço de trabalho que está relacionado às faturas de fornecedor e que mostra as informações que estão disponíveis pelo Microsoft Power BI.
 author: abruer
-manager: AnnBe
-ms.date: 09/28/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4440510"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182570"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Workspace de entrada de fatura de fornecedor
+# <a name="vendor-invoice-automation-workspace"></a>Espaço de trabalho de automação de faturas de fornecedores
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico explica como configurar o workspace que está relacionado às faturas de fornecedor e que mostra as informações que estão disponíveis pelo Microsoft Power BI. As informações de fatura de fornecedor neste workspace estão filtradas por usuário e são mostradas em um formato gráfico.
+Este tópico explica como configurar o espaço de trabalho que está relacionado às faturas de fornecedor e que mostra as informações que estão disponíveis pelo Microsoft Power BI. As informações de fatura de fornecedor neste workspace estão filtradas por usuário e são mostradas em um formato gráfico.
 
 ## <a name="overview"></a>Visão Geral
 
-O workspace **Entrada de fatura de fornecedor** mostra informações relacionadas ao processamento da fatura de fornecedor. Ele inclui uma exibição **Meu trabalho** e uma página **Análise - Todas as empresas**. A visualização **Meu trabalho** mostra quadros resumidos, grades de transação de fornecedor, e informações relacionadas do fornecedor. A página **Análise - Todas as empresas** usa recursos do Power BI para mostrar as visualizações relacionadas a faturas de fornecedor.
+O espaço de trabalho **Automação de faturas de fornecedores** mostra informações relacionadas ao processamento de faturas de fornecedores. Ele inclui uma exibição **Meu trabalho** e uma página **Análise - Todas as empresas**. A visualização **Meu trabalho** mostra quadros resumidos, grades de transação de fornecedor, e informações relacionadas do fornecedor. A página **Análise - Todas as empresas** usa recursos do Power BI para mostrar as visualizações relacionadas a faturas de fornecedor.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Configurar o workspace para mostrar conteúdo do Power BI
 
-Você deve concluir essa configuração antes que os dados possam ser mostrado em visualizações do Power BI no workspace **Entrada de fatura de fornecedor**.
+Você deve concluir esta configuração para que os dados possam ser mostrados em visualizações do Power BI no espaço de trabalho **Automação de faturas de fornecedores**.
 
 1. No workspace **Gerenciamento de recursos**, filtre a lista para localizar o recurso **Automação de fatura de fornecedor**.
 3. Selecione **Habilitar agora**.
@@ -57,20 +54,20 @@ Para exibir as informações mostradas no workspace, você deve ter a função d
 
 ### <a name="company-selection"></a>Seleção da empresa
 
-Quando o recurso **Automatizar faturas de fornecedor** é ativado, um campo **Empresa** aparece na parte superior do workspace. A seleção no campo **Empresa** afeta todas as informações exibidas no workspace. Por padrão, o modo de exibição mostra informações da empresa na qual você fez login. Ao selecionar uma empresa diferente no campo **Empresa**, você poderá mostrar informações daquela empresa no workspace. Em seguida, você poderá selecionar um bloco no workspace para ir para a página relacionada na empresa selecionada.
+Quando o recurso **Automação de faturas de fornecedores** é ativado, um campo **Empresa** aparece na parte superior do espaço de trabalho. A seleção no campo **Empresa** afeta todas as informações exibidas no workspace. Por padrão, o modo de exibição mostra informações da empresa na qual você fez login. Ao selecionar uma empresa diferente no campo **Empresa**, você poderá mostrar informações daquela empresa no workspace. Em seguida, você poderá selecionar um bloco no workspace para ir para a página relacionada na empresa selecionada.
 
 ### <a name="summary-tiles"></a>Blocos do resumo
 
 Os blocos na seção **Resumo de faturas pendentes** do modo de exibição **Meu trabalho** fornece uma visão geral do estado das faturas de fornecedor. Você pode ver diários que ainda não foram lançados e faturas em espera. Além disso, há quatro blocos que estão associados ao recurso Automação de fatura de fornecedor:
 
-- Conciliação de recebimento manual necessária
-- Falha na validação da conciliação
-- Faturas não enviadas para o fluxo de trabalho
-- Faturas não importadas
+- **Conciliação de recebimento manual necessária**
+- **Falha na validação da conciliação**
+- **Faturas não enviadas para o fluxo de trabalho**
+- **Faturas não importadas**
 
-(Esses quatro blocos exigem que o recurso Automação de fatura de fornecedor seja ativado no Gerenciamento de recursos.)
+(Esses quatro blocos exigem que o recurso Automação de fatura de fornecedor seja ativado no **Gerenciamento de recursos**.)
 
-Para usar o bloco **Recuperar faturas de fornecedor**, o recurso deve estar ativado nos Parâmetros de contas a pagar. Acesse **Contas a pagar \> Parâmetros de contas a pagar** e na guia **Fatura**, defina a opção **Permitir recuperação de fatura de fornecedor** como **Sim**.
+Para usar o bloco **Recuperar faturas de fornecedor**, o recurso deve estar ativado nos **Parâmetros de contas a pagar**. Acesse **Contas a pagar \> Parâmetros de contas a pagar** e na guia **Fatura**, defina a opção **Permitir recuperação de fatura de fornecedor** como **Sim**.
 
 Quando o recurso estiver ativado, você também terá três blocos agrupados no workspace em uma seção chamada **Diários**. Os blocos são denominados **Diários**, **Diários - Atribuídos a mim** e **Grupo de faturas**. 
 
@@ -117,3 +114,6 @@ A tabela a seguir mostra as visualizações disponíveis em cada página de rela
 | Faturas com falha de importação | <ul><li>Faturas com falha de importação</li><li>Faturas com falha de importação por empresa</li></ul> |
 | Motivos da falha de automação | <ul><li>Faturas com falha</li><li>Faturas com falha por empresa</li><li>Faturas com falha por grupo de fornecedores</li></ul> |
 | Status do fluxo de trabalho                | <ul><li>Faturas no fluxo de trabalho</li><li>Instâncias de fluxo de trabalho de fatura de fornecedor</li><li>Atribuição por aprovador</li><li>Fluxo de trabalho de fatura de fornecedor por empresa</li><li>Média de dias no fluxo de trabalho por aprovador</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

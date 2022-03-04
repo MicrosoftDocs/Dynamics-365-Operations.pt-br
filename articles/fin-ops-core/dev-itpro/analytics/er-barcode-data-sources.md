@@ -2,11 +2,9 @@
 title: Usar fontes de dados de Códigos de Barras para gerar imagens de código de barras
 description: Este tópico explica como usar fontes de dados de Códigos de Barras para gerar imagens de código de barras.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681415"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323943"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Usar fontes de dados de Códigos de Barras para gerar imagens de código de barras
 
 [!include[banner](../includes/banner.md)]
 
-Você pode usar a estrutura de [Relatório eletrônico (ER)](general-electronic-reporting.md) para projetar [componentes de formato de ER](general-electronic-reporting.md#FormatComponentOutbound) que podem ser executados para gerar documentos de saída eletrônicos e imprimíveis necessários. Para gerar um documento de saída no formato do Microsoft Office, você deverá especificar o layout do relatório usando um documento do Microsoft Excel ou um documento do Microsoft Word como modelo de relatório. O [designer de Operações de ER](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) permite anexar um documento do Excel ou do Word como um modelo para um formato de ER. Os seguintes elementos nomeados no modelo anexado estão associados aos elementos do componente de formato configurado:
+Use a estrutura do [Relatório Eletrônico (ER)](general-electronic-reporting.md) para projetar componentes de formato de ER que você pode executar para gerar os documentos de saída eletrônicos e para impressão necessários. Para gerar um documento de saída no formato do Microsoft Office, você deverá especificar o layout do relatório usando um documento do Microsoft Excel ou um documento do Microsoft Word como modelo de relatório. O [designer de Operações de ER](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) permite anexar um documento do Excel ou do Word como um modelo para um formato de ER. Os seguintes elementos nomeados no modelo anexado estão associados aos elementos do componente de formato configurado:
 
 - Controles de conteúdo no Word
 - Planilhas, intervalos, células, formas e imagens nomeados no Excel
@@ -39,7 +37,7 @@ Agora, o ER oferece suporte ao tipo de fonte de dados **Código de Barras**. Por
 
 Os espaços reservados a seguir podem ser usados em modelos de relatório para inserir imagens de código de barras:
 
-- Controle de conteúdo [Imagem](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) para Word
+- Controle de conteúdo [Imagem](/office/client-developer/word/content-controls-in-word) para Word
 - Objeto [Imagem](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) no Excel
 
 Usando uma fonte de dados do tipo **Código de Barras**, você pode gerar códigos de barras nos seguintes formatos:
@@ -118,25 +116,25 @@ Se você ainda não tiver concluído o exemplo no tópico [Inserir imagens e for
 
 | Descrição do conteúdo         | Nome do arquivo                   |
 |-----------------------------|-----------------------------|
-| Configuração do modelo de dados de ER | Modelo para cheques.xml       |
-| Configuração de formato ER     | Formato de impressão de cheques.xml |
+| Configuração do modelo de dados de ER | [Modelo para cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| Configuração de formato ER     | [Formato de impressão de cheques.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 Além disso, baixe o seguinte arquivo do Excel que contém o modelo modificado para a solução de ER fornecida.
 
 | Descrição do conteúdo | Nome do arquivo                 |
 |---------------------|---------------------------|
-| Modelo de relatório     | Modelo de cheque do Excel.xlsx |
+| Modelo de relatório     | [Modelo de cheque do Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Ativar um provedor de configuração
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o [provedor de configuração](general-electronic-reporting.md#Provider) para a empresa de exemplo **Litware, Inc.** está listado e marcado como ativo. Se esse provedor de configuração não estiver listado, ou se ele não estiver marcado como ativo, siga as etapas no tópico [Criar um provedor de configuração e marcá-lo como ativo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![Configuração da empresa de exemplo a ser ativada na página Configurações de localização](./media/er-barcode-data-source-active-provider.png)
+![Configuração da empresa de exemplo a ser ativada na página Configurações de localização.](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Importar a solução de ER fornecida
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, se a configuração **Modelo para cheques** não estiver disponível na árvore de configuração, siga estas etapas para importar a configuração do modelo de dados de ER:
 
@@ -153,7 +151,7 @@ Além disso, baixe o seguinte arquivo do Excel que contém o modelo modificado p
 
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque"></a>Gerar um cheque de pagamento
 
-1. Vá para **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**.
+1. Acesse **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**.
 2. Na página **Contas bancárias**, selecione a conta **USMF OPER**.
 3. Na página de detalhes da conta bancária, no Painel de Ação, na guia **Configurar**, no grupo **Layout**, selecione **Cheque**.
 4. Na página **Layout do cheque**, selecione **Editar**.
@@ -162,14 +160,14 @@ Além disso, baixe o seguinte arquivo do Excel que contém o modelo modificado p
 7. No Painel de Ação, selecione **Teste de impressão**.
 8. Na caixa de diálogo, defina a opção **Formato de cheque negociável** como **Sim** e, em seguida, selecione **OK**.
 
-    ![Caixa de diálogo Layout de cheque - imprimir teste](./media/er-barcode-data-source-check-layout.png)
+    ![Caixa de diálogo Layout de cheque - Imprimir teste.](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Analisar o cheque de pagamento gerado
 
 - Abra o cheque gerado no Excel.
 2. Analise o cheque gerado.
 
-    ![Cheque de pagamento gerado no Excel](./media/er-barcode-data-source-cheque1.png)
+    ![Cheque de pagamento gerado no Excel.](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>Modificar o formato da solução de ER fornecida
 
@@ -177,18 +175,18 @@ Além disso, baixe o seguinte arquivo do Excel que contém o modelo modificado p
 
 Você pode usar o aplicativo de área de trabalho do Excel para abrir o arquivo **Modelo de cheque do Excel.xlsx** que você importou anteriormente. Observe que esse modelo é diferente do modelo que você usou para gerar um cheque de pagamento na solução de ER fornecida. Além disso, inclui um elemento **AmountBarcode** para a imagem de código de barras.
 
-![Elemento AmountBarcode no modelo do Excel](./media/er-barcode-data-source-cheque2.png)
+![Elemento AmountBarcode no modelo do Excel.](./media/er-barcode-data-source-cheque2.png)
 
 Agora, você deve modificar a solução de ER e [reaplicar](modify-electronic-reporting-format-reapply-excel-template.md) o modelo modificado.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração, expanda **Modelo para cheques** e selecione **Formato de impressão de cheques**.
 4. No Painel de Ação, selecione **Designer**.
 5. No designer de Operação do ER, selecione a guia **Mapeamento**, no lado direito da página e, em seguida, no painel de árvore de formatos à esquerda, selecione **Expandir/recolher**.
 6. Observe que todos os elementos de formato de célula estão associados às fontes de dados apropriadas.
 
-    ![Associação de elementos de formato de célula a fontes de dados no designer de Operação do ER](./media/er-barcode-data-source-cells-bound.png)
+    ![Associação de elementos de formato de célula a fontes de dados no designer de Operação do ER.](./media/er-barcode-data-source-cells-bound.png)
 
 7. Selecione a guia **Formato**, no lado direito da página.
 8. No Painel de Ação, selecione as reticências (**...**) e, em seguida, selecione **Importar**.
@@ -197,7 +195,7 @@ Agora, você deve modificar a solução de ER e [reaplicar](modify-electronic-re
 11. Selecione a guia **Mapeamento**, no lado direito da página e, em seguida, no painel de árvore de formatos à esquerda, selecione **Expandir/recolher**.
 12. Observe que o elemento de célula **AmountBarcode** foi adicionado ao formato. Esse elemento está associado ao elemento **AmountBarcode** que foi adicionado ao modelo modificado do Excel como um espaço reservado para uma imagem de código de barras.
 
-    ![Elemento de célula AmountBarcode adicionado ao formato no designer de Operações do ER](./media/er-barcode-data-source-cell-added.png)
+    ![Elemento de célula AmountBarcode adicionado ao formato no designer de Operações do ER.](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>Adicionar uma nova fonte de dados Código de Barras
 
@@ -206,14 +204,14 @@ Em seguida, você deverá adicionar uma nova fonte de dados do tipo **Código de
 1. No designer de Operações do ER, na guia **Mapeamento**, no lado direito da página, selecione a fonte de dados de **impressão**.
 2. Selecione **Adicionar** e, em seguida, no grupo **Funções**, selecione o tipo de fonte de dados **Código de Barras**.
 
-    ![Como selecionar o tipo de fonte de dados Código de Barras](./media/er-barcode-data-source-add.png)
+    ![Como selecionar o tipo de fonte de dados Código de Barras.](./media/er-barcode-data-source-add.png)
 
 3. Na caixa de diálogo, no campo **Nome** , digite **código de barras**.
 4. No **Formato de código de barras**, selecione **Código 128**.
 5. No campo **Largura**, insira **500**.
 6. Selecione **OK**.
 
-    ![Caixa de diálogo Propriedades da fonte de dados](./media/er-barcode-data-source-add2.png)
+    ![Caixa de diálogo Propriedades da fonte de dados.](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>Associar um novo elemento de formato
 
@@ -224,7 +222,7 @@ Em seguida, você deve associar o novo elemento formato à fonte de dados que ac
 3. No Painel de Ação, selecione **Mostrar detalhes**.
 4. Observe que, como a fonte de dados **Código de Barras** é representada na associação como uma função que contém um único parâmetro, o nome do elemento de formato associado foi automaticamente levado como o argumento desse parâmetro.
 
-    ![Detalhes da fonte de dados Código de Barras no designer de Operações do ER](./media/er-barcode-data-source-bind1.png)
+    ![Detalhes da fonte de dados Código de Barras no designer de Operações do ER.](./media/er-barcode-data-source-bind1.png)
 
 5. Selecione **Editar fórmula** para ajustar a associação.
 
@@ -234,7 +232,7 @@ Em seguida, você deve associar o novo elemento formato à fonte de dados que ac
 7. Selecione **Salvar** e então feche o [designer de Fórmula do ER](general-electronic-reporting-formula-designer.md).
 8. Observe que a associação foi ajustada.
 
-    ![Associação ajustada no designer de Operações do ER](./media/er-barcode-data-source-bind2.png)
+    ![Associação ajustada no designer de Operações do ER.](./media/er-barcode-data-source-bind2.png)
 
 9. Selecione **Salvar** e então feche o designer de Operações do ER.
 
@@ -248,7 +246,7 @@ Se você deseja continuar a trabalhar com a versão de rascunho atual, mas preci
 
 ##### <a name="complete-the-modified-format-version"></a><a name="CompleteToRun"></a>Concluir a versão de formato modificada
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração, expanda **Modelo para cheques** e selecione **Formato de impressão de cheques**.
 4. Na Guia Rápida **Versões**, selecione o registro com o status **Concluído**.
@@ -259,7 +257,7 @@ O status da versão atual é alterado de **Rascunho** para **Concluído**, e uma
 
 ##### <a name="make-the-draft-version-available-for-use"></a><a name="MarkToRun"></a>Disponibilizar a versão de rascunho para uso
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione **Configurações de relatórios**.
 3. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 4. Na caixa de diálogo, defina a opção **Executar configuração** como **Sim** e, em seguida, selecione **OK**.
@@ -271,7 +269,7 @@ A versão de rascunho do formato selecionado é marcada como disponível para us
 
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque2"></a>Gerar um cheque de pagamento
 
-1. Vá para **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**.
+1. Acesse **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**.
 2. Na página **Contas bancárias**, selecione a conta **USMF OPER**.
 3. Na página de detalhes da conta bancária, no Painel de Ação, na guia **Configurar**, no grupo **Layout**, selecione **Cheque**.
 4. Na página **Layout do cheque**, no Painel de Ação, selecione **Imprimir teste**.
@@ -279,7 +277,7 @@ A versão de rascunho do formato selecionado é marcada como disponível para us
 6. Selecione **OK**.
 7. Analise o cheque gerado. Observe que um código de barras foi gerado para codificar o valor a pagar do cheque.
 
-    ![Cheque de pagamento gerado com código de barras no Excel](./media/er-barcode-data-source-cheque3.png)
+    ![Cheque de pagamento gerado com código de barras no Excel.](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > Uma exceção é lançada se o argumento de uma fonte de dados **Código de Barras** não estiver em conformidade com as necessidades apropriadas específicas ao formato do código de barras. Por exemplo, quando a fonte de dados **Código de Barras** é chamada para gerar um código de barras [EAN-8](https://wikipedia.org/wiki/EAN-8) para o texto fornecido, uma exceção será lançada se o comprimento do texto exceder sete caracteres.
@@ -290,7 +288,7 @@ Conforme descrito no tópico [Gerar formulários de impressão FTI](er-generate-
 
 No entanto, quando você usa a fonte de dado **Código de Barras** para produzir códigos de barras, a renderização desses códigos de barras não dependerá de nenhuma fonte. Portanto, você pode converter facilmente documentos que contêm os códigos de barras no formato PDF. A ilustração a seguir mostra a visualização de um cheque de pagamento gerado que foi [convertido](electronic-reporting-destinations.md#OutputConversionToPDF) em PDF, com base na configuração do [destino](electronic-reporting-destinations.md) de ER configurado.
 
-![Visualização do PDF de um cheque de pagamento](./media/er-barcode-data-source-cheque4.png)
+![Visualização do PDF de um cheque de pagamento.](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>Limitações
 
@@ -303,3 +301,6 @@ No entanto, quando você usa a fonte de dado **Código de Barras** para produzir
 - [Destinos de Relatório eletrônico](electronic-reporting-destinations.md)
 - [Linguagem da fórmula de relatório eletrônico](er-formula-language.md)
 - [Função NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
