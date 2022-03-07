@@ -1,12 +1,10 @@
 ---
 title: Configurar a experiência de ajuda para aplicativos do Finance and Operations
-description: Este tópico fornece informações sobre os componentes do sistema de ajuda para alguns aplicativos do Microsoft Dynamics 365. Ele também explica como conectar esses aplicativos e fornece um resumo do processo para criar ajuda personalizada.
+description: Este tópico fornece informações sobre os componentes do sistema de ajuda para alguns aplicativos do Microsoft Dynamics 365.
 author: margoc
-manager: AnnBe
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d000c3f801d382921a027c8ee259fd44ac5cdc80
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798271"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343925"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar a experiência de ajuda para aplicativos do Finance and Operations
 
@@ -34,7 +32,7 @@ Neste tópico, você encontrará uma visão geral dos componentes do sistema de 
 
 Os aplicativos do Finance and Operations incluem visões gerais conceituais e outros tópicos publicados no site [https://docs.microsoft.com/dynamics365](/dynamics365/). Esse conteúdo pode ser acessado no painel **Ajuda** do produto. A ilustração a seguir mostra as partes do sistema de Ajuda.
 
-[![Arquitetura de ajuda](./media/help-architecture.png)](./media/help-architecture.png)
+[![Arquitetura de ajuda.](./media/help-architecture.png)](./media/help-architecture.png)
 
 O sistema de ajuda do produto recebe os artigos de docs.microsoft.com e de outros sites conectados. Ele também reúne guias de tarefas que são armazenadas no BPM (Modelador de processo de negócios) no Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -49,14 +47,14 @@ Na página **Parâmetros do sistema**, os administradores de sistema podem confi
 > - Para configurar a Ajuda, você precisa entrar usando uma conta no mesmo locatário que o locatário em que o aplicativo é implantado.
 > - Uma biblioteca de LCS não pode ser conectada de uma instância do aplicativo que esteja em execução em uma unidade de disco rígido virtual local (VHD).
 
-[![Formulário Parâmetros do Sistema com configurações da Ajuda](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Formulário Parâmetros do Sistema com configurações da Ajuda.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Para configurar guias de tarefas para uma solução, siga estas etapas na página **Parâmetros do sistema**.
 
 > [!IMPORTANT]
 > A primeira vez que você abrir a guia de **Ajuda** é necessário conectar-se ao Lifecycle Services. Selecione o link no meio do formulário, aguarde a conexão, feche a caixa de diálogo e selecione **OK** para acessar a página **Parâmetros do Sistema**.
 >
-> [![Conectar-se ao LCS](./media/connect-to-lcs-crop-1024x365.png "Conectar-se ao LCS")](./media/connect-to-lcs-crop.png)
+> [![Conectar-se ao LCS](./media/connect-to-lcs-crop-1024x365.png "Conectar-se ao LCS."](./media/connect-to-lcs-crop.png)
 
 1. Selecione o projeto do Lifecycle Services para se conectar.
 2. Selecione as bibliotecas do BPM (dentro do projeto selecionado) para recuperar gravações de tarefas delas.
@@ -99,3 +97,6 @@ Se você desejar colaborar com a Microsoft em ferramentas e processos para perso
 [Recursos do Gravador de tarefas](../../dev-itpro/user-interface/task-recorder.md)  
 [Criar documentação ou treinamento com o Gravador de tarefas](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Repositório do GitHub de ajuda personalizada](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

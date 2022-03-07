@@ -1,26 +1,24 @@
 ---
 title: Configurar permissões para solicitar produtos em nome de qualquer outra pessoa
 description: Este tópico explica como conceder a trabalhadores a permissão para preparar requisições da compra em nome de outros trabalhadores.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 585f5c6cf83ad93b649e3f36e0d486a037915cd4
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a29b7ebece8009f29f4313b380889635a87473b5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017283"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577111"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Configurar permissões para solicitar produtos em nome de qualquer outra pessoa
 
@@ -30,7 +28,7 @@ Este tópico explica como conceder a trabalhadores a permissão para preparar re
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>Conceda permissões para inserir requisições de compra em nome de outro trabalhador
-1. No Painel de navegação, vá para **Módulos > Compras e fornecimento > Configuração > Políticas > Permissões de requisição de compra**. Certifique-se de que o campo **Exibição atual** está ajustado **Pelo preparador**. A lista no painel à esquerda mostra as pessoas que podem receber a permissão para preparar requisições em nome de outras pessoas.  
+1. No Painel de navegação, Acesse **Módulos > Compras e fornecimento > Configuração > Políticas > Permissões de requisição de compra**. Certifique-se de que o campo **Exibição atual** está ajustado **Pelo preparador**. A lista no painel à esquerda mostra as pessoas que podem receber a permissão para preparar requisições em nome de outras pessoas.  
 2. Selecione a pessoa para conceder a permissão (o preparador).
 3. Selecione **Adicionar**.
 4. Encontre e selecione a pessoa para adicionar como um solicitador.
@@ -44,3 +42,6 @@ Este tópico explica como conceder a trabalhadores a permissão para preparar re
 2. Use o filtro rápido para encontrar o trabalhador que você apenas adicionou como o solicitador.
 3. Selecione o solicitante. A lista do preparador mostra as pessoas que têm a permissão para pedir artigos em nome do solicitador que é selecionado no painel à esquerda.  Você pode adicionar preparadores adicionais aqui. Esta exibição também permite que a permissão do solicitante crie requisições em entidades legais e unidades operacionais que não são a pessoa da entidade legal primária ou unidade operacional.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

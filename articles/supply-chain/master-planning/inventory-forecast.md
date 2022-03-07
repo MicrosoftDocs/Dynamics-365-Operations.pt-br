@@ -1,7 +1,7 @@
 ---
 title: Previsões de estoque
 description: Este tópico descreve a funcionalidade de previsão de fornecimento e demanda que pode ser usada para criar previsões de estoque no Microsoft Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: crytt
 ms.date: 06/08/2021
 ms.topic: article
 ms.search.form: EcoResProductDetailsExtended, ForecastSales, ForecastPurch, ForecastInvent
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5ce997a0bb3d6766b801f3f4dea8ab3f19085d02
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577543"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306406"
 ---
 # <a name="inventory-forecasts"></a>Previsões de estoque
 
@@ -47,15 +47,15 @@ Como a tabela da etapa 1 mostra, existem diferentes maneiras de acessar as pági
 
     | Entidade | Instruções |
     |---|---|
-    | Produtos liberados | <ol><li>Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.</li><li>Selecione o produto para o qual será criada uma previsão.</li><li>No Painel de Ação, na guia **Plano**, no grupo **Previsão**, selecione **Previsão de demanda**, **Previsão de fornecimento** ou **Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
-    | Grades de produtos liberadas | <ol><li>Acesse **Gerenciamento de informações do produto \> Produtos \> Grades de produtos liberadas**.</li><li>Selecione a grade para a qual será criada uma previsão.</li><li>No Painel de Ação, na guia **Plano**, no grupo **Previsão**, selecione **Previsão de demanda**, **Previsão de fornecimento** ou **Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
-    | Grupos de itens | <ol><li>Acesse **Gerenciamento de estoque \> Configuração \> Divisão de estoque \> Grupos de itens**.</li><li>Selecione o grupo de itens para o qual será criada uma previsão.</li><li>No Painel de Ação, selecione **Previsão \> Demanda**, **Previsão \> Fornecimento** ou **Previsão \> Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
+    | Produtos liberados | <ol><li>Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.</li><li>Selecione o produto para o qual será criada uma previsão.</li><li>No Painel de Ação, na guia **Plano**, no grupo **Previsão**, selecione **Previsão de demanda**, **Previsão de fornecimento** ou **Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
+    | Grades de produtos liberadas | <ol><li>Vá para **Gerenciamento de informações do produto \> Produtos \> Grades de produtos liberadas**.</li><li>Selecione a grade para a qual será criada uma previsão.</li><li>No Painel de Ação, na guia **Plano**, no grupo **Previsão**, selecione **Previsão de demanda**, **Previsão de fornecimento** ou **Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
+    | Grupos de itens | <ol><li>Vá para **Gerenciamento de estoque \> Configuração \> Divisão de estoque \> Grupos de itens**.</li><li>Selecione o grupo de itens para o qual será criada uma previsão.</li><li>No Painel de Ação, selecione **Previsão \> Demanda**, **Previsão \> Fornecimento** ou **Previsão \> Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
     | Chaves de alocação de itens | <ol><li>Acesse **Gerenciamento do estoque \> Configuração \> Previsão**.</li><li>Selecione a chave de alocação do item para a qual será criada uma previsão.</li><li>No Painel de Ações, selecione **Previsão de demanda**.</li></ol> |
     | Clientes | <ol><li>Acesse **Planejamento mestre \> Previsão \> Entrada de previsão manual \> Clientes**.</li><li>Selecione o cliente para o qual será criada uma previsão.</li><li>No Painel de Ações, selecione **Definir previsão de demanda**.</li></ol> |
     | Grupos de clientes | <ol><li>Acesse **Planejamento mestre \> Previsão \> Entrada de previsão manual \> Grupos de clientes**.</li><li>Selecione o grupo de clientes para o qual será criada uma previsão.</li><li>No Painel de Ações, selecione **Definir previsão de demanda**.</li></ol> |
     | Fornecedores | <ol><li>Acesse **Planejamento mestre \> Previsão \> Entrada de previsão manual \> Fornecedores**.</li><li>Selecione o fornecedor para o qual será criada uma previsão.</li><li>No Painel de Ação, selecione **Entrada** para abrir a página **Previsão de fornecimento**.</li></ol> |
     | Grupos de fornecedores | <ol><li>Acesse **Planejamento mestre \> Previsão \> Entrada de previsão manual \> Grupos de fornecedores**.</li><li>Selecione o grupo de fornecedores para o qual será criada uma previsão.</li><li>No Painel de Ação, selecione **Entrada** para abrir a página **Previsão de fornecimento**.</li></ol> | 
-    | Todas as linhas | <ul><li>Acesse **Planejamento mestre \> Previsão \> Linhas de previsão de demanda** ou **Planejamento mestre \> Previsão \> Linhas de previsão de fornecimento**, dependendo do tipo de previsão com a qual você deseja trabalhar.</li></ul> |
+    | Todas as linhas | <ul><li>Vá para **Planejamento mestre \> Previsão \> Linhas de previsão de demanda** ou **Planejamento mestre \> Previsão \> Linhas de previsão de fornecimento**, dependendo do tipo de previsão com a qual você deseja trabalhar.</li></ul> |
 
     Dependendo da sua seleção, a página **Previsão de fornecimento** ou **Previsão de demanda** será exibida. Ela mostra todas as linhas de previsão existentes para o registro selecionado antes da abertura da página.
 
@@ -94,7 +94,7 @@ A tabela a seguir descreve os comandos disponíveis na barra de ferramentas da g
 
 | Comando | descrição |
 |---|---|
-| Alocar previsão | Se você estiver usando um método de alocação, gere as linhas da agenda individuais para a transação de previsão. A quantidade da linha é distribuída por data (de acordo com os intervalos de tempo selecionados), a quantidade e o valor para todo o horizonte de tempo. (Consulte a seção [Alocar previsão](#allocate-forecast) posteriormente neste tópico.) |
+| Alocar previsão | Se você estiver usando um método de alocação, gere as linhas da agenda individuais para a transação de previsão. A quantidade da linha é distribuída por data (de acordo com os intervalos de tempo selecionados), a quantidade e o valor para todo o horizonte de tempo. |
 | Atualização em massa | Abra a página **Editar transações de previsão**. (Consulte a seção [Transações de previsão de atualização em massa](#bulk-update) posteriormente neste tópico.) |
 | Previsão de Estoque | Abra uma exibição da página **Previsão de estoque** filtrada para a combinação de item/modelo selecionada. (Consulte a seção [Previsão de estoque](#inventory-forecast) posteriormente neste tópico.) |
 | Criar requisição de itens | Abra uma caixa de diálogo na qual é possível criar requisições de itens, ordens de venda ou linhas de diário de itens para transações de previsão relacionadas ao projeto. Embora este comando esteja disponível para as linhas de previsão de fornecimento e de demanda, ele não pode ser usado na página **Previsão de fornecimento**. |
@@ -201,7 +201,7 @@ A tabela a seguir descreve os comandos disponíveis na barra de ferramentas da g
 
 | Comando | descrição |
 |---|---|
-| Alocar previsão | Se você estiver usando um método de alocação, gere as linhas da agenda individuais para a transação de previsão. A quantidade da linha é distribuída por data (de acordo com os intervalos de tempo selecionados), a quantidade e o valor para todo o horizonte de tempo. (Consulte a seção [Alocar previsão](#allocate-forecast) posteriormente neste tópico.)|
+| Alocar previsão | Se você estiver usando um método de alocação, gere as linhas da agenda individuais para a transação de previsão. A quantidade da linha é distribuída por data (de acordo com os intervalos de tempo selecionados), a quantidade e o valor para todo o horizonte de tempo. |
 | Atualização em massa | Abra a página **Editar transações de previsão**. (Consulte a seção [Transações de previsão de atualização em massa](#bulk-update) posteriormente neste tópico.) |
 | Previsão de Estoque | Abra uma exibição da página **Previsão de estoque** filtrada para a combinação de item/modelo selecionada. (Consulte a seção [Previsão de estoque](#inventory-forecast) posteriormente neste tópico.) |
 | Criar requisição de itens | Abra uma caixa de diálogo na qual é possível criar requisições de itens, ordens de venda ou linhas de diário de itens para transações de previsão relacionadas ao projeto. |
@@ -296,7 +296,7 @@ A guia **Dimensões de estoque** mostra todos os valores de dimensão de estoque
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>A grade Alocação na página Previsão de demanda
 
-Se você estiver usando uma chave de alocação de itens ou se tiver inserido uma previsão de item para um ou mais períodos futuros, poderá alocar a previsão selecionando **Alocar previsão** na barra de ferramentas da guia **Visão geral**. A quantidade será distribuída na forma indicada pelas linhas na grade **Alocação**. (Consulte a seção [Alocar previsão](#allocate-forecast) posteriormente neste tópico.)
+Se você estiver usando uma chave de alocação de itens ou se tiver inserido uma previsão de item para um ou mais períodos futuros, poderá alocar a previsão selecionando **Alocar previsão** na barra de ferramentas da guia **Visão geral**. A quantidade será distribuída na forma indicada pelas linhas na grade **Alocação**.
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Previsão de Estoque
 
@@ -328,25 +328,6 @@ A tabela a seguir descreve os campos na grade da página **Previsão de estoque*
 | **Sub-BOM** | Número de BOM para sub-BOM específica. |
 | **Sub-roteiro** | Número de roteiro de um sub-roteiro específico. |
 | (Outras dimensões) | Dimensões adicionais podem ser mostradas como colunas na grade. Para selecionar as dimensões adicionais que são mostradas, selecione **Estoque \> Exibir dimensões** no Painel de Ações. |
-
-## <a name="allocate-forecast"></a><a name="allocate-forecast"></a>Alocar previsão
-
-Use o seguinte procedimento para processar linhas de transações de previsão selecionadas. Ao alocar uma previsão, a quantidade será distribuída conforme indicado pelas linhas na grade **Alocação**.
-
-1. Dependendo do tipo de entidade para a qual você está criando uma previsão e do tipo de previsão que deseja criar, abra uma página de previsão de fornecimento ou demanda, conforme descrito em [Exibir e inserir manualmente linhas de previsão](#manual-entry).
-1. Na página de linhas de previsão de fornecimento ou demanda, selecione uma linha de previsão e, na guia **Visão geral**, selecione **Alocar previsão** na barra de ferramentas.
-1. Na caixa de diálogo **Alocar previsão**, defina os campos descritos na tabela a seguir. (O valor selecionado no campo **Método** determina que outros campos estão disponíveis.)
-
-    | Campo | descrição |
-    |---|---|
-    | Método | <p>Selecione o método usado para alocar a transação de previsão:</p><ul><li>**Nenhum** – Nenhuma alocação ocorre.</li><li>**Período** – Preveja a mesma quantidade para cada período. Se você selecionar este valor, especifique uma quantidade no campo **Por** e uma unidade de tempo no campo **Unidade**.</li><li>**Chave** – Aloque a previsão de acordo com a chave de alocação de período especificada no campo **Chave de período**. Use este método quando desejar que as variações sazonais sejam consideradas.</li><ul>|
-    | Por | <p>Insira o número de intervalos de tempo no futuro em que a previsão se estende. Esse campo está disponível somente se você seleciona *Período* no campo **Método**.</p><p>Por exemplo, selecione *Período* no campo **Método**, digite *1* no campo **Por** e selecione *Meses* no campo **Unidade**. Depois, no campo **Finalizar**, especifique uma data de término um ano no futuro. Nesse caso, uma linha de previsão será criada para cada mês do ano seguinte, com base no item e na quantidade que são especificados na linha do cabeçalho. |
-    | Unidade | Selecione a unidade do intervalo de tempo: *Dias*, *Meses* ou *Anos*. A alocação corresponderá ao número de dias, meses ou anos que você especifica no campo **Por**.|
-    | Chave de período | Especifique a chave de alocação de período usada para alocar a previsão. Para obter mais informações, consulte [Alocação de dados do planejamento de orçamento](../../finance/budgeting/budget-planning-data-allocation.md). |
-    | Fim | Especifique a data de término que se aplica às suas configurações nos campos **Por** e **Unidade**. |
-
-1. Selecione **OK** para confirmar suas configurações.
-1. Você pode revisar os resultados na guia **Alocação** para a mesma linha.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Transações de previsão de atualização em massa
 
@@ -380,7 +361,7 @@ Depois de inserir sua previsão de demanda e/ou previsão de fornecimento, você
 
 Para configurar um plano mestre de forma que inclua uma previsão de estoque, siga estas etapas.
 
-1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. Selecione um plano existente ou crie um novo plano.
 1. Na Guia Rápida **Geral**, defina os seguintes campos:
 
@@ -413,7 +394,7 @@ Para executar um plano mestre de forma que inclua uma previsão de estoque, siga
 
 Para exibir os requisitos calculados, abra a página **Requisitos brutos**. Por exemplo, na página **Produtos liberados**, no Painel de Ações, na guia **Plano**, no grupo **Requisitos**, selecione **Requisitos brutos**.
 
-Para exibir as ordens planejadas que são geradas, Acesse **Planejamento mestre \> Comum \> Ordens planejadas** e selecione o plano de previsão apropriado.
+Para exibir as ordens planejadas que são geradas, vá para **Planejamento mestre \> Comum \> Ordens planejadas** e selecione o plano de previsão apropriado.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

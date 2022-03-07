@@ -1,41 +1,38 @@
 ---
 title: ​Visão geral de faturas de fornecedor​
-description: Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços.
+description: Este tópico fornece informações gerais sobre notas fiscais de fornecedor.
 author: abruer
-manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
-ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
+ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "4701667"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841252"
 ---
-# <a name="vendor-invoices-overview"></a>​Visão geral de faturas de fornecedor​
+# <a name="vendor-invoices-overview"></a>Visão geral de faturas de fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços.
+Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As faturas do fornecedor são solicitações para pagamento recebido dos produtos e serviços. As faturas do fornecedor podem representar uma cobrança para serviços em andamento, ou podem se basear em ordens de compra para itens e serviços específicos.
 
 ## <a name="vendor-invoices"></a>Faturas de fornecedor
 
-Uma fatura de fornecedor de uma ordem de compra é uma fatura que é gerada quando produtos ou serviços são recebidos de acordo com uma ordem de compra que foi criada com um fornecedor. A fatura do fornecedor contém um cabeçalho e uma ou mais linhas para itens ou serviços. Uma fatura do fornecedor completa o ciclo da ordem de compra para a nota fiscal do fornecedor.
+Uma fatura do fornecedor de uma ordem de compra é uma fatura que é gerada quando produtos ou serviços são recebidos de acordo com uma ordem de compra que foi criada com um fornecedor. A fatura do fornecedor contém um cabeçalho e uma ou mais linhas para itens ou serviços. Uma fatura do fornecedor completa o ciclo da ordem de compra para a nota fiscal do fornecedor.
 
-Embora algumas faturas de fornecedor estejam associadas a uma ordem de compra, as faturas de fornecedor também podem conter linhas que não correspondem às linhas da ordem de compra. Você também pode criar faturas de fornecedor que não estão associadas com qualquer ordem de compra. Essas faturas de fornecedor podem representar serviços em andamento, como uma conta de serviço público, e não é necessário fazer referência a uma ordem de compra ao adicioná-las.
+Embora algumas faturas de fornecedor sejam associadas a uma ordem de compra, as faturas do fornecedor também podem conter linhas que não correspondem às linhas da ordem de compra. Você também pode criar faturas de fornecedor que não estão associadas com qualquer ordem de compra. Essas faturas de fornecedor podem representar serviços contínuos, como uma cobrança de utilitário. Não é necessário fazer referência a uma ordem de compra ao adicionar um serviço em andamento.
 
 Há várias formas de inserir uma fatura de fornecedor:
 
@@ -48,12 +45,12 @@ A discussão a seguir fornece mais informações sobre como usar a página **Fat
 
 ## <a name="understanding-invoice-line-quantities"></a>Entendendo as quantidades da linha da fatura
 
-Ao abrir uma fatura de fornecedor de uma ordem de compra relacionada, as linhas de fatura são criadas a partir da ordem de compra. Por padrão, as quantidades são tiradas da quantidade de recebimento de produtos. No entanto, você pode usar qualquer um dos seguintes comportamentos padrão:
+Ao abrir uma fatura de fornecedor de uma ordem de compra relacionada, o sistema cria linhas de fatura com base na ordem de compra. Por padrão, o sistema usa as quantidades do recibo de produtos. No entanto, você pode usar qualquer um dos seguintes comportamentos padrão:
 
-- **Quantidade de recebimento atual** – Use esta opção para remessas parciais. O valor padrão no campo **Quantidade** é tirado da quantidade especificada no campo **Receber agora** na ordem de compra.
-- **Quantidade encomendada** – Use esta opção para remessas completas. O valor padrão no campo **Quantidade** é tirado da quantidade especificada no campo **Encomendado** na ordem de compra.
+- **Quantidade de recebimento atual** – Use esta opção para remessas parciais. O sistema define o valor padrão do campo **Quantidade** com base na quantidade especificada no campo **Receber agora** na ordem de compra.
+- **Quantidade encomendada** – Use esta opção para remessas completas. O sistema define o valor padrão do campo **Quantidade** com base na quantidade especificada no campo **Pedido** na ordem de compra.
 - **Quantidade registrada** – Use esta opção se o item exigir registro, conforme especificado na página **Grupos de modelos de item**. O valor padrão no campo **Quantidade** é a quantidade de atualização física que foi registrada.
-- **Quantidade de recebimento de produtos** – Use esta opção se um recebimento de produtos já tiver sido recebido para a ordem. O valor padrão no campo **Quantidade** é tirado da quantidade total dos recebimentos de produtos disponíveis.
+- **Quantidade de recebimento de produtos** – Use esta opção se um recebimento de produtos já tiver sido recebido para a ordem. O sistema usa o valor padrão no campo **Quantidade** com base na quantidade total dos recebimentos de produtos disponíveis.
 - **Quantidade e serviços registrados** – Use esta opção se as quantidades foram registradas em diários de chegada para os itens em estoque ou itens que não estão armazenados. Esta opção também inclui serviços, independente do fato de os serviços estarem registrados ou não.
 
 Se a entidade legal utiliza a conciliação de faturas, você pode exibir os resultados da conciliação de quantidade na coluna **Conciliação de quantidade de recebimento de produtos**. Você também pode usar o botão **Detalhes de conciliação** na guia **Revisão** do Painel de Ação para exibir os resultados da conciliação de quantidade.
@@ -64,23 +61,25 @@ Você pode adicionar uma linha que não estava na ordem de compra para a fatura 
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Enviando uma fatura de fornecedor para revisão
 
-Sua organização pode usar os fluxos de trabalho para gerenciar o processo de revisão para faturas de fornecedores. A revisão de fluxo de trabalho poderá ser necessária para o cabeçalho ou a linha da fatura, ou ambos. Os controles do fluxo de trabalho se aplicam ao cabeçalho ou linha, dependendo de onde o foco estiver ao selecionar no controle. Em vez do botão **Lançar**, você verá o botão **Enviar** que você pode usar para enviar a fatura de fornecedor com o processo de revisão.
+Sua organização pode usar os fluxos de trabalho para gerenciar o processo de revisão para faturas de fornecedores. A revisão de fluxo de trabalho poderá ser necessária para o cabeçalho ou a linha da fatura, ou ambos. Os controles do fluxo de trabalho se aplicam ao cabeçalho ou linha, dependendo de onde o foco estiver ao selecionar no controle. Em vez do botão **Lançar**, um botão **Enviar** é exibido para enviar a fatura do fornecedor usando o processo de revisão.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Impedir que a fatura seja enviada para o fluxo de trabalho 
 
 A seguir, veja várias formas de impedir que uma fatura seja enviada para um fluxo de trabalho.
 
-- **O total da fatura e o total registrado não são iguais.** A pessoa que enviou a fatura receberá um alerta de que os totais não são iguais, para que possam corrigir os saldos antes de reenviar a fatura para o fluxo de trabalho. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o total da fatura e o total da fatura registrada não forem iguais** na página **Gerenciamento de recursos** estiver ativado. 
+- **O total da fatura e o total registrado não são iguais.** A pessoa que enviou a fatura receberá um alerta informando que os totais não são iguais. O alerta dá uma oportunidade de corrigir os saldos antes de reenviar a fatura para o fluxo de trabalho. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o total da fatura e o total da fatura registrada não forem iguais** na página **Gerenciamento de recursos** estiver ativado. 
 
 - **A fatura contém encargos não alocados.** A pessoa que enviou a fatura receberá um alerta de que os totais a fatura contém encargos não alocados, para que possam corrigir a fatura antes de reenviá-la para o fluxo de trabalho. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando houver encargos não alocados em uma fatura de fornecedor** na página **Gerenciamento de recursos** estiver ativado.
 
-- **A fatura contém o mesmo número de fatura de outra fatura lançada.** A pessoa que enviou a fatura receberá um alerta de que uma fatura com um número duplicado foi encontrada, para que possam corrigi-la antes de reenviá-la para o fluxo de trabalho. Esse alerta será exibido quando o parâmetro de Contas a pagar rotulado como **Verificar o número de fatura usado** estiver definido como **Rejeitar duplicata**. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o número da fatura já existir em uma fatura lançada e o sistema não estiver configurado para aceitar números de fatura duplicados** na página **Gerenciamento de recursos** estiver ativado.  
+- **A fatura contém o mesmo número de fatura de outra fatura lançada.** A pessoa que enviou a fatura receberá um alerta de que uma fatura com um número duplicado foi encontrada, para que possam corrigi-la antes de reenviá-la para o fluxo de trabalho. Esse alerta será exibido quando o parâmetro **Verificar o número de fatura usado** do Contas a pagar estiver definido como **Rejeitar duplicata**. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o número da fatura já existir em uma fatura lançada e o sistema não estiver configurado para aceitar números de fatura duplicados** na página **Gerenciamento de recursos** estiver ativado.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Conciliando faturas de fornecedor com os recebimentos de produtos
 
 Você pode inserir e salvar informações para as faturas de fornecedores e pode conciliar linhas de fatura a linhas de recebimento de produtos. Você também pode conciliar quantidades parciais para uma linha.
 
 Você pode criar uma fatura de fornecedor com base nos itens de linha de recebimento de produtos até a data atual, mesmo que todos os itens de determinada ordem de compra ainda não tenham sido recebidos. Por exemplo, é possível usar esta opção se um fornecedor enviar uma fatura por mês cobrindo todas as entregas enviadas pelo fornecedor durante esse mês. Cada recebimento de produtos representa uma entrega parcial ou completa dos itens da ordem de compra.
+
+Quando uma fatura está no fluxo de trabalho, o aprovador pode atualizar as quantidades da fatura para que correspondam ao valor no campo **Quantidade de recebimentos de produtos a serem conciliados**. Para fazer isso, selecione o recurso **Atualizar as quantidades da fatura para conciliar as quantidades do recibo do produto no de fluxo de** no espaço de trabalho **Gerenciamento de recursos**, e selecione **Habilitar**. Se um aprovador no processo do fluxo de trabalho tiver removido todas as conciliações de todos os recibos de produtos da linha da fatura, a linha da fatura será excluída. Quando esse recurso não está habilitado, as quantidades da fatura não são atualizadas para fatura no fluxo de trabalho.
 
 Quando você lança a fatura, a **Quantidade a faturar** de cada item é atualizada com o total das quantidades recebidas dos recebimentos de produtos selecionados. Se a quantidade **A faturar** e a quantidade **A entregar** de todos os itens na ordem de compra for 0 (zero), o status da ordem de compra é alterado para **Faturado**. Se a quantidade **A faturar** for diferente de 0, o status da ordem de compra permanece inalterado, e faturas adicionais podem ser inseridas para ela.
 
@@ -128,3 +127,6 @@ Você pode exibir o total da fatura na página **Faturas de fornecedor pendentes
 - [Dados-chave de fatura em contas a pagar usando um diário de aprovações](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Dados-chave de fatura no sistema de AP usando grupo de faturas](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Registrar uma fatura de fornecedor no diário de faturas](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

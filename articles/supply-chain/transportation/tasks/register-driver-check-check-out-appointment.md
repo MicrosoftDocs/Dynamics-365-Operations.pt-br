@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSDriverLogListPage, TMSDriverCheckIn
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34074a6ad2c929085dc6fd43efa8da620ce18584
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d7d2f368b933054f4ea1248868b97808d05ed229
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422556"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233766"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Registrar check-in e check-out do motorista para um compromisso
 
@@ -46,3 +45,6 @@ Este procedimento mostra como registrar um check-in e o check-out do driver. Iss
 1. Clique em Check-out do motorista.
 2. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

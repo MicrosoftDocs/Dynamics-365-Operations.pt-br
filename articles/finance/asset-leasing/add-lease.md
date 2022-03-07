@@ -2,27 +2,25 @@
 title: Adicionar ou copiar arrendamentos (Versão preliminar)
 description: Este tópico descreve como criar um novo arrendamento inserindo informações sobre arrendamento de ativos ou copiando informações de um arrendamento existente.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969594"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967917"
 ---
 # <a name="add-or-copy-leases-preview"></a>Adicionar ou copiar arrendamentos (Versão preliminar)
 
@@ -37,6 +35,19 @@ Siga estas etapas para criar um arrendamento no arrendamento do ativo.
 1. Na página **Resumo de arrendamento**, no Painel de Ação, selecione **Novo**.
 2. Insira as informações sobre o arrendamento. Os campos necessários têm bordas vermelhas.
 
+A data de início do pagamento do arrendamento não pode ser anterior à data de início do arrendamento. Se inserir uma data de início do pagamento do arrendamento que for anterior à data de início do arrendamento, você receberá uma mensagem de erro.
+
+Por padrão, a opção **Valor de pagamento de divisão** na Guia Rápida **Geral** da página **Detalhes do arrendamento** é definida como **Não** se a opção **Permitir divisão de pagamento** na página **Parâmetros de leasing de ativos** estiver definida como **Sim**. 
+
+Se a opção **Valor do pagamento de divisão** estiver definida como **Sim**, o campo **Valor do pagamento** na Guia Rápida **Linhas da agenda de pagamento** será bloqueado. Ele será definido como o total dos valores de pagamento inseridos posteriormente no catálogo **Divisão do valor de pagamento**.
+
+Selecione **Divisão de valor de pagamento** para abrir uma página na qual é possível adicionar os tipos de pagamento discriminados. O botão **Adicionar totais a valor de pagamento** moverá os totais para o campo **Valor do pagamento**.
+
+> [!NOTE]
+> Se você adicionar um valor de pagamento discriminado e selecionar a tecla **Esc**, os valores inseridos não serão adicionados ao campo **Valor do pagamento** na Guia Rápida **Linhas da agenda de pagamento**. Em vez disso, eles serão armazenados na caixa de diálogo **Divisão do valor de pagamento**. Se desejar que a caixa de diálogo mostre o valor total, selecione a coluna **Valor**, selecione e segure (ou clique com o botão direito do mouse) e, em seguida, selecione **Totalizar esta coluna**. 
+
+O botão **Copiar linha** copiará a divisão de pagamento discriminada.
+
 ## <a name="create-a-lease-schedule"></a>Crie uma agenda de arrendamento
 
 Depois de concluir a inserção das informações para o arrendamento, siga estas etapas para criar uma agenda de arrendamento.
@@ -50,6 +61,9 @@ Depois de concluir a inserção das informações para o arrendamento, siga esta
     A página **Detalhes do registro** mostra como o arrendamento é contabilizado pelos livros que foram alocados para ele. A partir daqui, você pode exibir as agendas de arrendamento.
 
     A agenda de pagamento contém as entradas da guia **Linhas da agenda de pagamento** na página **Adicionar arrendamento**. Você ainda pode alterar cada valor do pagamento e pagamento variável. A responsabilidade com o arrendamento é calculada com base na agenda de pagamento.
+
+    > [!NOTE]
+    > A data de início do pagamento do arrendamento deve ser igual ou posterior à data inicial do arrendamento. Você receberá uma mensagem de erro se a data de início do pagamento for anterior à data de início do arrendamento. 
 
 4. Depois de concluir a revisão da agenda de pagamento, selecione **Confirmar agenda**. Depois que a agenda for confirmada, o arrendamento não estará mais disponível para edição.
 
@@ -88,3 +102,6 @@ Todas as entradas de diário criadas no arrendamento de ativos estão contidas n
 
 > [!NOTE]
 > O diário de arrendamento de ativo não pode ser criado manualmente. Ele é criado automaticamente quando as agendas de arrendamento são criadas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

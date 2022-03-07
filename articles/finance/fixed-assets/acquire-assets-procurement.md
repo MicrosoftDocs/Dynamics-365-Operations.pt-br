@@ -2,28 +2,25 @@
 title: Adquirir ativos por meio de compra
 description: Este tópico descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de aquisições e de ajuste de aquisições para ativos fixos.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b07fdf6e5f4afa4f6df84138c809e402b7944dfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4b1834f0087931760d223a018c93decdea1ddfddca219fdca57c97181d37084c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440325"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727998"
 ---
 # <a name="acquire-assets-through-procurement"></a>Adquirir ativos por meio de compra
 
@@ -109,3 +106,6 @@ Para obter mais informações, consulte [Integração de ativos fixos](fixed-ass
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

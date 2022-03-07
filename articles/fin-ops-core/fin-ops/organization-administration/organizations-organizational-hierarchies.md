@@ -1,28 +1,28 @@
 ---
 title: Visão geral de organizações e hierarquias organizacionais
-description: Uma organização é um grupo da pessoas que está trabalhando em conjunto para realizar um processo comercial ou atingir uma meta. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa.
+description: As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa.
 author: sericks007
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 17291
+ms.custom:
+- "17291"
+- intro-internal
 ms.assetid: 76b7ca45-93d4-45cc-b191-66ee63afa1fd
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 368569f2cdd389b6fc99ddcf05f35cc9a750ec9e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 36b41561069a14936550948e659f211aba7e71be
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797032"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338847"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Visão geral de organizações e hierarquias organizacionais
 
@@ -67,3 +67,6 @@ Configure as hierarquias organizacionais para exibir e fazer relatório da empre
 A cada hierarquia é atribuída uma finalidade. A finalidade de uma hierarquia determina os tipos de organizações que podem ser incluídos na hierarquia. A finalidade também define os cenários de aplicativo nos quais a hierarquia pode ser usada.
 
 As organizações em uma hierarquia podem compartilhar parâmetros, políticas e transações. Uma organização pode herdar ou substituir os parâmetros de sua organização primária. No entanto, os dados mestres compartilhados, como produtos e catálogos de endereços, aplicam-se à organização inteira e não podem ser substituídos para organizações individuais. A criação de organizações e hierarquias exigem planejamento cuidadoso. Para obter mais informações, consulte [Planejar sua hierarquia organizacional](plan-organizational-hierarchy.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

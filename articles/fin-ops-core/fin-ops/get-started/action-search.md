@@ -2,11 +2,9 @@
 title: Pesquisa de ação
 description: Este artigo descreve a funcionalidade de pesquisa de ações. A pesquisa de ação ajudará a encontrar e executar ações em uma página.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 6277c37ac43b8cc05c8b53da5ca0a1909f58c4f9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798638"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070025"
 ---
 # <a name="action-search"></a>Pesquisa de ação
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este artigo descreve a funcionalidade de pesquisa de ações. A pesquisa de ação ajudará a encontrar e executar ações em uma página.
 
@@ -33,7 +34,7 @@ Este artigo descreve a funcionalidade de pesquisa de ações. A pesquisa de aç�
 
 As páginas expõem principalmente comandos em Painéis de Ação: o Painel de Ação padrão que aparece na parte superior de uma página e as barras de ferramentas que aparecem em várias seções da página. Em versões anteriores, um recurso Dicas de Tecla permitia acessar rapidamente qualquer botão de um Painel de Ação pressionando a tecla Alt e depois uma série de letras.
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![keyTipsAX6.](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 O recurso de pesquisa de ações substitui as Dicas de Tecla, que não estão mais disponíveis. Esse novo recurso permite procurar e executar rapidamente um botão em qualquer Painel de Ação visível.
 
@@ -47,7 +48,7 @@ Para usar o recurso de pesquisa de ação, siga estas etapas.
 
 Depois que o botão é executado, o foco retorna à sua última posição na página, para que você possa continuar trabalhando.
 
-[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
+[![action-search-field.](./media/action-search-field.png)](./media/action-search-field.png)
 
 Você também pode iniciar a pesquisa de ação pressionando Ctrl+/ ou Alt+Q. Pressione o atalho de teclado novamente para retornar o foco à sua última posição na página.
 
@@ -63,11 +64,11 @@ Frequentemente, você deve conhecer o local e o contexto de um botão para compr
 
 Por exemplo, você digitou **tot** no campo de **pesquisa de ação** e agora está examinando a lista de resultados. A primeira ocorrência, referente ao botão **Totais**, é realçada. O caminho de botão **Ordem de venda** &gt; **Exibir** também é exibido. A parte da **Ordem de venda** do caminho corresponde à guia **Ordem de venda** no Painel Ação e a parte **Exibir** do caminho corresponde ao grupo **Exibir** daquela guia. Da mesma forma, a parte do botão **Desconto total** (**Vender** &gt; **Calcular**) informa que este botão está localizado no grupo **Calcular** na guia **Vender** do Painel Ação. Portanto, essas informações ajudam você a compreender exatamente qual botão será acionado pela pesquisa de ação (se você selecionar esse botão na lista de resultados).
 
-[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![action-search-field-with-data.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 No exemplo anterior, a pesquisa de ação mostrou resultados do painel de ações padrão na parte superior da página. No entanto, a pesquisa de ação também exibe resultados de barras de ferramentas visíveis que estão em outros locais da página. Por exemplo, você está procurando o botão **Estoque disponível** na guia rápida **Linhas de ordem de venda**. Nesse caso, o caminho do botão na lista de resultados (**Linhas de ordem de venda** &gt; **Estoque** &gt; **Exibir**) informa que esse botão está abaixo do cabeçalho **Exibir** no botão de menu **Estoque**, na guia rápida **Linhas de ordem de venda**.
 
-[![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![on-hand-inventory.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > Existem alguns botões que não aparecem na pesquisa Ação. São botões de caixa de diálogo e botões de subformulários. 
@@ -75,3 +76,6 @@ No exemplo anterior, a pesquisa de ação mostrou resultados do painel de açõe
 ## <a name="action-search-vs-navigation-search"></a>Pesquisa de ação x pesquisa de navegação
 
 Enquanto a pesquisa de ações tem como objetivo localizar e executar ações em uma página, existe um mecanismo de pesquisa específico para localizar e navegar até as páginas. Para obter mais informações sobre esse recurso, consulte o artigo [Pesquisa de navegação](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

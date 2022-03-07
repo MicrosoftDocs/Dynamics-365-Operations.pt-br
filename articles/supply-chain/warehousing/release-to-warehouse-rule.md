@@ -2,26 +2,23 @@
 title: Regra de liberação para o depósito
 description: Este tópico fornece informações sobre o recurso Regra de liberação para o depósito, que oferece flexibilidade durante a liberação para o depósito. Ele adiciona uma opção de configuração que controla se o sistema permite que as linhas de ordem parcialmente reservadas sejam liberadas.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 2fbc292ccf8e1f459bef4d70b8c37b2da8c3dd17
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421977"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580015"
 ---
 # <a name="release-to-warehouse-rule"></a>Regra de liberação para o depósito
 
@@ -47,7 +44,7 @@ Depois que o recurso for ativado no sistema, você deverá inicializá-lo para d
 
 Para inicializar o recurso e definir a regra de liberação para o depósito para todos os depósitos, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na página **Parâmetros de gerenciamento de depósito**, na guia **Geral**, na seção **Informações da empresa**, selecione o link para a regra **Inicializar liberação para o depósito**. (Se esse link não for exibido, o recurso não está ativado ou já foi inicializado.)
 1. Quando for solicitado a confirmar a ação, selecione **Sim** para inicializar o recurso.
 
@@ -55,7 +52,7 @@ Para inicializar o recurso e definir a regra de liberação para o depósito par
 
 Depois que o recurso for ativado e inicializado, todos os seus depósitos terão uma configuração inicial, conforme descrito na seção anterior. Você pode alterar essa configuração para depósitos individuais seguindo estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Selecione o depósito a ser configurado.
 1. Selecione **Editar** para colocar a página no modo de edição.
 1. Na FastTab **Depósito**, na seção **Reservas**, o campo **Requisito para reserva de estoque** controla se a liberação parcial das ordens é permitida. Selecione um dos seguintes valores:
@@ -80,9 +77,9 @@ Você também pode usar estes cenários como orientação para o recurso ao trab
 
 Este cenário mostra como o recurso funciona para depósitos que estão definidos como **Exigir reserva cheia**.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Para o depósito _62_, defina o campo **Requisito para reserva de estoque** como **Exigir reserva cheia**, conforme descrito na seção [Definir a regra de liberação para o depósito para cada depósito](#set-option-warehouse) anteriormente neste tópico.
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -114,9 +111,9 @@ Este cenário mostra como o recurso funciona para depósitos que estão definido
 
 Este cenário mostra como o recurso funciona para depósitos que estão definidos como **Permitir liberação parcial**.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Para o depósito _62_, defina o campo **Requisito para reserva de estoque** como **Permitir reserva parcial**, conforme descrito na seção [Definir a regra de liberação para o depósito para cada depósito](#set-option-warehouse) anteriormente neste tópico.
-1. Como você fez no [cenário anterior](#scenario1), vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda** e crie uma ordem de venda para a conta de cliente _US-004_ do depósito _62_. Adicione estas duas linhas de ordem:
+1. Como você fez no [cenário anterior](#scenario1), Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda** e crie uma ordem de venda para a conta de cliente _US-004_ do depósito _62_. Adicione estas duas linhas de ordem:
 
     - **Linha 1:** defina o campo **Número do item** como _A0001_, o campo **Quantidade** como _2_ e o campo **Unidade** como _Pçs._.
     - **Linha 2:** defina o campo **Número do item** como _A0002_, o campo **Quantidade** como _2_ e o campo **Unidade** como _Pçs._.
@@ -131,3 +128,6 @@ Este cenário mostra como o recurso funciona para depósitos que estão definido
 
 > [!NOTE]
 > O mesmo resultado é esperado quando a segunda linha é parcialmente reservada. Nesse caso, o trabalho será criado para a quantidade da linha reservada, mas não para a quantidade não reservada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e de borda
 description: Este tópico descreve como cargas de trabalho de execução de fabricação funcionam com unidades de escala de nuvem e de borda.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,22 +16,22 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 08c46655d3966ad1433935318c5e60667dd10bb6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967750"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345289"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e de borda
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e borda
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> A carga de trabalho de execução de fabricação está disponível na versão preliminar neste momento.
 > Algumas funcionalidades comerciais não têm suporte total na versão preliminar pública quando unidades de escala de carga de trabalho são usadas.
 
-Na execução de fabricação, as unidades de escala de nuvem e de borda fornecem os seguintes recursos, mesmo quando as unidades de borda não estão conectadas ao hub:
+Na execução de fabricação, as unidades de escala fornecem os seguintes recursos:
 
 - Os operadores de máquina e os supervisores de chão de fábrica podem acessar o plano de produção operacional.
 - Os operadores de máquina podem manter o plano atualizado ao executar trabalhos de fabricação discretos e de processo.
@@ -46,7 +44,7 @@ Este tópico descreve como cargas de trabalho de execução de fabricação func
 
 A ilustração a seguir mostra que o ciclo de vida da fabricação é dividido em três fases: *Planejar*, *Executar* e *Finalizar*.
 
-[![Fases de execução de fabricação quando um único ambiente é usado](media/mes-phases.png "Fases de execução de fabricação quando um único ambiente é usado")](media/mes-phases-large.png)
+[![Fases de execução de fabricação quando um único ambiente é usado](media/mes-phases.png "Fases de execução de fabricação quando um único ambiente é usado.")](media/mes-phases-large.png)
 
 A fase _Planejar_ inclui definição de produtos, planejamento, criação e agendamento de ordens e liberação. A etapa de liberação indica a transição da fase _Planejar_ para a fase _Executar_. Quando uma ordem de produção é liberada, os trabalhos de ordem de produção ficam visíveis no piso de produção e prontos para execução.
 
@@ -56,7 +54,7 @@ Quando um trabalho de produção é marcado como concluído, ele passa da fase _
 
 Conforme ilustrado a seguir, quando as unidades de escala são usadas, a fase _Executar_ é dividida como uma carga de trabalho separada.
 
-[![Fases de execução de fabricação quando unidades de escala são usadas](media/mes-phases-workloads.png "Fases de execução de fabricação quando unidades de escala são usadas")](media/mes-phases-workloads-large.png)
+[![Fases de execução de fabricação quando unidades de escala são usadas](media/mes-phases-workloads.png "Fases de execução de fabricação quando unidades de escala são usadas.")](media/mes-phases-workloads-large.png)
 
 O modelo passa de uma instalação de única instância para um modelo baseado no hub e em unidades de escala. As fases _Planejar_ e _Finalizar_ são executadas como operações back office no hub; a carga de trabalho de execução de fabricação é executada nas unidades de escala. Os dados são transferidos de forma assíncrona entre o hub e as unidades de escala.
 
@@ -73,6 +71,7 @@ As seguintes tarefas de execução de fabricação podem ser executadas no momen
 - Relatório de sucata
 - Atividade indireta
 - Interrupção
+- Relatar como finalizado e guardar (exige que você também execute a carga de trabalho de execução do armazém na sua unidade de escala, consulte também [Relatar como finalizado e guardar em uma unidade de escala](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Trabalhar com cargas de trabalho de execução de fabricação no hub
 
@@ -88,7 +87,7 @@ Embora o trabalho em geral seja executado automaticamente, você pode executá-l
 
 Para revisar o log de processamento do registro, entre no hub e acesse **Controle de produção \> Tarefas periódicas \> Gerenciamento de carga de trabalho back office \> Log de processamento de registro bruto**. A página **Log de processamento de registro bruto** mostra uma lista de registros brutos processados e o status de cada registro.
 
-![Página Log de processamento de registro bruto](media/mes-processing-log.png "Página Log de processamento de registro bruto")
+![Página Log de processamento de registro bruto.](media/mes-processing-log.png "Página Log de processamento de registro bruto")
 
 Você pode trabalhar em qualquer registro na lista selecionando ele e um dos seguintes botões no Painel de Ações:
 
@@ -109,3 +108,27 @@ Para revisar o histórico de trabalhos de fabricação que foram processados em 
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Trabalho Hub de fabricação para processador de mensagens da unidade de escala
 
 O trabalho _Hub de fabricação para processador de mensagens da unidade de escala_ processa dados do hub para a unidade de escala. Esse trabalho é iniciado automaticamente quando a carga de trabalho de execução de fabricação é implantada. No entanto, você pode executá-lo manualmente a qualquer momento, acessando **Controle de produção \> Tarefas periódicas \> Gerenciamento de carga de trabalho back office \> Hub de fabricação para processador de mensagens da unidade de escala**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Relatar como finalizado e guardar em uma unidade de escala
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Na versão atual, as operações de relatar como finalizado e guardar (para produtos acabados, coprodutos e subprodutos) são compatíveis pela [carga de trabalho de execução do armazém](cloud-edge-workload-warehousing.md) (e não a carga de trabalho de execução de fabricação). Portanto, para usar esta funcionalidade quando conectado a uma unidade de escala, você deve fazer o seguinte:
+
+- Instale a carga de trabalho de execução do armazém e a carga de trabalho de execução de fabricação na sua unidade de escala.
+- Use o aplicativo móvel Warehouse Management para relatar como finalizado e processar o trabalho de guardar. No momento, a interface de execução do chão de fábrica não dão suporte a esses processos.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

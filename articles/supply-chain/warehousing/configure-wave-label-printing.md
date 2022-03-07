@@ -1,29 +1,26 @@
 ---
-title: Configurar e usar a impressão de etiquetas de onda
+title: Impressão de etiqueta do ciclo
 description: Este tópico descreve a impressão de etiquetas de onda e explica como configurá-la.
-author: GarmMSFT
-manager: PJacobse
+author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
-ms.reviewer: PJacobse
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4422624"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778074"
 ---
-# <a name="set-up-and-use-wave-label-printing"></a>Configurar e usar a impressão de etiquetas de onda
+# <a name="wave-label-printing"></a>Impressão de etiqueta do ciclo
 
 [!include [banner](../includes/banner.md)]
 
@@ -56,9 +53,9 @@ Esses aprimoramentos tornam mais eficiente a etiquetagem de caixas antes da pale
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Ativar o recurso Impressão de etiquetas de onda
 
-Para que você possa usar o recurso *Impressão de etiquetas de onda*, ele deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, está ativado por padrão e não poderá ser desativado novamente. No entanto, o recurso ainda está listado em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) da seguinte forma:
 
-- **Módulo:** *Gerenciamento de Depósito*
+- **Módulo:** *Gerenciamento de depósito*
 - **Nome do recurso:** *Impressão de etiquetas de onda*
 
 ## <a name="scenario-1-wave-label-printing-where-a-single-wave-label-is-generated"></a>Cenário 1: Impressão de etiquetas de onda na qual uma única etiqueta de onda é gerada
@@ -75,14 +72,14 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 Pode ser necessário regenerar os métodos de processo de onda para tornar o método de impressão de etiquetas de onda disponível.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
 1. Confirme se **waveLabelPrinting** está na lista. Se não estiver, selecione **Regenerar métodos** no Painel de Ação para adicioná-lo.
 
 ### <a name="configure-a-wave-template"></a>Configurar um modelo de onda
 
 Os modelos de onda permitem vincular instâncias específicas de métodos de onda a um modelo de etiqueta de onda correspondente.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Selecione um modelo, como **Padrão de Remessa 62**.
 1. Na FastTab **Métodos**, mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
 1. Na coluna **Métodos selecionados**, selecione o método **Impressão de etiquetas de onda** e defina seu campo **Código da etapa da onda** como *PrintLabel*. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
@@ -91,7 +88,7 @@ Os modelos de onda permitem vincular instâncias específicas de métodos de ond
 
 O layout de etiqueta controla quais informações são impressas na etiqueta e como são apresentadas. Aqui, insira o código ZPL enviado à impressora.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Layouts de etiqueta de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Layouts de etiqueta de onda**.
 1. Crie um registro com as seguintes configurações:
 
     - **ID do layout da etiqueta:** *Caixa*
@@ -208,7 +205,7 @@ Sua etiqueta agora está pronta para uso.
 
 Os tipos de etiqueta de onda são usados para vincular modelos de etiqueta de onda a uma unidade em linhas de grupo de sequências de unidade.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Tipos de etiqueta de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Tipos de etiqueta de onda**.
 1. Adicione um tipo de etiqueta de onda com as seguintes configurações:
 
     - **Tipo de etiqueta:** *Caixa*
@@ -218,7 +215,7 @@ Os tipos de etiqueta de onda são usados para vincular modelos de etiqueta de on
 
 Em seguida, configure o grupo de sequências de unidade para o tipo de etiqueta de onda.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Grupos de sequências de unidade**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Grupos de sequências de unidade**.
 1. Selecione o grupo **Ea Caixa PL**.
 1. Para a linha **Caixa**, defina o campo **Tipo de nível de onda** como *Caixa*.
 
@@ -226,7 +223,7 @@ Em seguida, configure o grupo de sequências de unidade para o tipo de etiqueta 
 
 Em seguida, crie o modelo de etiqueta de onda para o tipo de etiqueta de onda.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Modelos de etiqueta de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Modelos de etiqueta de onda**.
 1. Adicione um modelo de nível de onda e defina os seguintes valores no cabeçalho:
 
     - **Nome do modelo de etiqueta:** *Etiquetas de caixa*
@@ -273,7 +270,7 @@ As extensões de sequência numérica controlam a conformidade com o GS1 de sequ
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Criar uma ordem de venda e liberá-la para o depósito
 
-1. Vá para **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
 1. Crie uma ordem de venda com as seguintes configurações:
 
     - **Conta de cliente:** *US-001*
@@ -336,21 +333,21 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 Pode ser necessário regenerar os métodos de processo de onda para tornar o método de impressão de etiquetas de onda disponível.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
 1. Confirme se **waveLabelPrinting** está na lista. Se não estiver, selecione **Regenerar métodos** no Painel de Ação para adicioná-lo.
 
 ### <a name="set-up-a-wave-template"></a>Configurar um modelo de onda
 
 Os modelos de onda permitem vincular instâncias específicas de métodos de onda a um modelo de etiqueta de onda correspondente.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Selecione um modelo, como **Transporte em Contêineres 63**.
 1. Na FastTab **Métodos**, mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
 1. Na coluna **Métodos selecionados**, selecione o método **Impressão de etiquetas de onda** e defina seu campo **Código da etapa da onda** como *PrintLabel*. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Criar um layout de etiqueta de onda
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Layouts de etiqueta de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Layouts de etiqueta de onda**.
 1. Crie um registro com as seguintes configurações:
 
     - **ID do layout da etiqueta:** *Caixa*
@@ -429,7 +426,7 @@ Sua etiqueta agora está pronta para uso.
 
 ### <a name="create-a-wave-label-template"></a>Criar um modelo de etiqueta de onda
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Modelos de etiqueta de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Modelos de etiqueta de onda**.
 1. Adicione um modelo de nível de onda e defina os seguintes valores no cabeçalho:
 
     - **Nome do modelo de etiqueta:** *Etiquetas de contêiner*
@@ -459,7 +456,7 @@ As extensões de sequência numérica controlam a conformidade com o GS1 de sequ
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Criar uma ordem de venda e liberá-la para o depósito
 
-1. Vá para **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
 1. Crie uma ordem de venda com as seguintes configurações:
 
     - **Conta de cliente:** *US-001*
@@ -525,13 +522,13 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 ### <a name="set-up-a-wave-process-method"></a>Configurar um método de processo de onda
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
 1. Confirme se **waveLabelPrinting** está na lista. Se não estiver, selecione **Regenerar métodos** no Painel de Ação para adicioná-lo.
 1. Para o método **waveLabelPrinting**, marque a caixa de seleção **Tornar o método repetível**.
 
 ### <a name="set-up-a-wave-template"></a>Configurar um modelo de onda
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 2. Selecione um modelo, como **Padrão de Remessa 62**.
 3. Na FastTab **Métodos**, mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
 4. Na coluna **Métodos selecionados**, atribua um valor de **Código da etapa da onda**, como *Caixa*, ao método **Impressão de etiquetas de onda**. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
@@ -540,7 +537,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 ### <a name="create-three-wave-label-layouts"></a>Criar três layouts de etiqueta de onda
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Layouts de etiqueta de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Layouts de etiqueta de onda**.
 1. Crie um registro com as seguintes configurações:
 
     - **ID do layout da etiqueta:** *Caixa*
@@ -755,7 +752,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 ### <a name="create-two-wave-label-types"></a>Criar dois tipos de etiqueta de onda
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Tipos de etiqueta de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Tipos de etiqueta de onda**.
 1. Crie um registro com as seguintes configurações:
 
     - **Tipo de etiqueta:** *Caixa*
@@ -768,14 +765,14 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 ### <a name="set-up-unit-sequence-groups"></a>Configurar grupos de sequências de unidade
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Grupos de sequências de unidade**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Grupos de sequências de unidade**.
 1. Selecione ou crie um grupo **Ea Caixa PL**.
 1. Para a linha **Caixa**, defina o campo **Tipo de nível de onda** como *Caixa*.
 1. Para a linha **PL**, defina o campo **Tipo de nível de onda** como *Palete*.
 
 ### <a name="create-wave-label-templates"></a>Criar modelos de etiqueta de onda
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Modelos de etiqueta de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Roteamento de documentos \> Modelos de etiqueta de onda**.
 1. Crie um modelo de etiqueta com as seguintes configurações:
 
     - **Nome do modelo de etiqueta:** *Etiquetas de caixa*
@@ -889,7 +886,7 @@ As extensões de sequência numérica controlam a conformidade com o GS1 de sequ
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Criar uma ordem de venda e liberá-la para o depósito
 
-1. Vá para **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
 1. Crie uma ordem de venda com as seguintes configurações:
 
     - **Conta de cliente:** *US-001*
@@ -932,3 +929,10 @@ Você pode exibir e reimprimir etiquetas de onda nas páginas a seguir:
 - Histórico da etiqueta de onda
 
 Para a maioria dessas páginas, você pode encontrar a função relevante selecionando **Etiquetas de onda** no grupo **Informações relacionadas** na guia **Remessas** do Painel de Ação.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+- [Reimprimir e anular etiquetas de ciclo](reprint-and-void-wave-labels.md)
+- [Agendar a impressão da etiqueta de ciclo durante o ciclo](configure-task-based-wave-label-printing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

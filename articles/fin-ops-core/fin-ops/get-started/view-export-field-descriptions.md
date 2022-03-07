@@ -2,11 +2,9 @@
 title: Exibir e exportar descrições de campos
 description: Este artigo descreve como exibir descrições dos campos e como usar a página de descrições de campo para exportação de descrições.
 author: rschloma
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
@@ -17,16 +15,19 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39dd9a86ffb04d18f61c75fb2c9634e441dc823b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797889"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069264"
 ---
 # <a name="view-and-export-field-descriptions"></a>Exibir e exportar descrições de campos
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este artigo descreve como exibir descrições dos campos e como usar a página de descrições de campo para exportação de descrições.
 
@@ -45,7 +46,7 @@ Você pode exibir descrições de campo focalizando sobre um campo. Se nenhuma d
 
 A ilustração a seguir mostra a descrição do campo que aparece quando você passa o mouse no campo **Bloquear itens durante a contagem**.
 
-[![Exemplo de uma descrição de campo](./media/field-description.png)](./media/field-description.png)
+[![Exemplo de uma descrição de campo.](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Use a página Descrições de campo para exibir e exportar ajuda de campo
 
@@ -107,3 +108,6 @@ Para obter informações sobre as várias maneiras de filtrar a lista de página
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Personalizar descrições de campos](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,38 +1,34 @@
 ---
 title: Visão geral do controle de orçamento
 description: Este artigo apresenta o controle de orçamento e fornece informações para ajudar você a configurar esse recurso no Microsoft Dynamics 365 Finance para gerenciar recursos financeiros.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440569"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188036"
 ---
-# <a name="budget-control-overview"></a>​Visão geral de controle de orçamento ​
+# <a name="budget-control-overview"></a>Visão geral de controle de orçamento
 
 [!include [banner](../includes/banner.md)]
 
 Este artigo apresenta o controle de orçamento e fornece informações para ajudar você a configurar esse recurso para gerenciar recursos financeiros.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 O controle de orçamento oferece suporte ao gerenciamento dos recursos financeiros de uma organização por meio do plano de contas, de fluxos de trabalho, grupos de usuários, documentos de origem e diários, cálculo configurável de fundos disponíveis, ciclos orçamentários e limites. Quando os controles estão em vigor, uma organização pode planejar, medir, gerenciar e prever os recursos financeiros ao longo do ano fiscal. 
 
@@ -127,3 +123,6 @@ Depois que o controle de orçamento é ativado, os usuários recebem o aviso do 
 Nesta página, os usuários podem entrar na página **Estatísticas de controle de orçamento por período** para ver os detalhes de disponibilidade de orçamento e reservas para uma combinação de dimensão de controle de orçamento selecionado. Os usuários podem também entrar na página **Estatística de controle de orçamento** exibir a disponibilidade de orçamento para todas as combinações de dimensões financeiras que são usadas no controle de orçamento. 
 
 Se o controle de orçamento for ligado nas ordens de compra, o gerente do orçamento pode usar a área de trabalho **Orçamentos razão e previsões** a revisar a fila de todas as ordens de compra não confirmadas que foram verificadas com avisos de orçamento e erros. Se o gerente de orçamento tiver permissões de orçamento configuradas, as ordens de compra podem ser confirmadas diretamente no espaço de trabalho.    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

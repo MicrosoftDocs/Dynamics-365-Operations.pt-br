@@ -1,29 +1,26 @@
 ---
 title: Previsão de posição
 description: As despesas relacionadas a trabalhadores costumam constituir uma grande proporção dos custos de uma organização. A previsão de posição permite planejar as despesas e incluí-las no planejamento de orçamentos.
-author: ShylaThompson
-manager: AnnBe
+author: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d43d0f92e666dd512fc6f2681aa8c7b6446edd5c
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440390"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595477"
 ---
 # <a name="position-forecasting"></a>Previsão de posição
 
@@ -33,7 +30,7 @@ As despesas relacionadas a trabalhadores costumam constituir uma grande proporç
 
 ## <a name="position-forecasting-in-budget-planning"></a>Previsão de posição no planejamento de orçamento
 
-[![Componentes de previsão de posição](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Componentes de previsão de posição.](./media/graphic-top.png)](./media/graphic-top.png) 
 
 A previsão de posição usa três componentes principais para fornecer valores de orçamento exatos para despesas de posições. Esses valores podem ser trazidos para um plano de orçamento para cálculos de orçamento. 
 
@@ -45,16 +42,16 @@ Um **grupo de remuneração** é um componente de configuração opcional que é
 
 ### <a name="position-forecasting-processes"></a>Processos de previsão de posição
 
-[![Ilustração de processos de previsão de posição](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Ilustração de processos de previsão de posição.](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Em um processo típico de previsão da posição, crie primeiro os componentes de configuração (elementos de custo de orçamento e grupos de remuneração). As posições de previsão são geradas com base em posições existentes. É possível fazer ajustes. Por exemplo, você pode adicionar ou finalizar posições, mudar taxas de pagamento e custos de benefício, e adicionar aumentos de salário. Você pode criar várias versões de uma posição de previsão para facilitar comparações entre diferentes cenários de orçamento. Em seguida, você pode incluir as posições de previsão em planos de orçamento e incluir os custos das posições de previsão como linhas do plano de orçamento.
 
 Você pode criar versões adicionais da posição de previsão à medida que planos de orçamento são revisados. Essas novas versões fornecem a base das revisões.
 
 ## <a name="position-forecasting-setup"></a>Configuração da previsão de posição
-[![Ilustração que realça a configuração](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Ilustração que realça a configuração.](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
-### <a name="budget-cost-elements"></a>Elementos de custo do orçamento
+### <a name="budget-cost-elements"></a>Elementos de custo de orçamento
 
 Os elementos de custo de orçamento são usados para definir os detalhes de custo de uma posição de previsão. Esses detalhes incluem o tipo de custo, como os custos são calculados, e se os custos são alocados em várias datas quando a posição de previsão é incluída em um plano de orçamento. 
 
@@ -70,9 +67,9 @@ A organização de Jodi oferece uma bonificação de treinamento de 5% do pagame
 
 Jodi não quer que os gerentes mudem o valor do benefício. Então, ela seleciona **Não permitir alterações de custo** no campo **Substituição da previsão de posição**. A organização deseja que esse custo seja atribuído uniformemente a cada mês. Então, a Jodi seleciona **Trimestral** no campo **Método de alocação**. 
 
-Em seguida, a Jodi adiciona uma linha de cálculo de custo, define as datas e uma conta principal, e insere **5.00** como porcentagem. Sua organização tem uma capitalização de $5.000 por ano de benefício. Portanto, Jodi insere esse valor como o limite anual. 
+Em seguida, a Jodi adiciona uma linha de cálculo de custo, define as datas e uma conta principal, e insere **5.00** como porcentagem. A organização tem um limite de US$ 5.000 por ano para este benefício. Portanto, Jodi insere esse valor como o limite anual. 
 
-Por fim, Jodi adiciona todos os elementos de custo de ganho usados para o pagamento base como as bases de cálculo. Seu elemento de custo de orçamento agora está pronto para ser usado.
+Por fim, Jodi adiciona todos os elementos de custo de ganho usados para o pagamento base como as bases de cálculo. O elemento de custo de orçamento agora está pronto para ser usado.
 
 ### <a name="compensation-groups"></a>Grupos de remuneração
 
@@ -89,7 +86,7 @@ Os campos **Agenda de aumentos** e **Data do aumento** no grupo de remuneração
 O elemento de custo de ganho selecionado no grupo de remuneração é usado quando você cria os ganhos para as previsões de posições no grupo, incluindo o pagamento base e todos os aumentos de etapa. O campo **Plano de remuneração fixa** vincula o grupo de remuneração a um plano de remuneração fixa em Recursos humanos. Esse link pode atribuir as informações de remuneração fixa de um trabalhador a uma previsão de posição, e pode tornar o planejamento de orçamento mais preciso. Lembre-se de que a estrutura da grade de compensação (os níveis e as etapas) para o grupo de remuneração deve corresponder à estrutura do plano de remuneração fixa. Caso contrário, o sistema não pode vincular corretamente o grupo de remuneração e o plano de remuneração fixa.
 
 ## <a name="creating-forecast-positions"></a>Como criar previsões de posições
-[![Ilustração que realça "criar posições de previsão"](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Ilustração que realça "criar posições de previsão".](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Como criar previsões de posições para posições existentes
 
@@ -118,7 +115,7 @@ Quando uma previsão de posição for selecionada, selecione **Copiar a previsã
 Você também pode criar uma previsão de posição totalmente nova. Selecione um trabalho existente, e também o cenário de processamento de planejamento do orçamento e de plano de orçamento. Você pode adicionar outros detalhes a serem adicionados. Mais uma vez, uma nova posição é criada em Recursos humanos ao mesmo tempo.
 
 ## <a name="working-with-forecast-positions"></a>Trabalho com previsões de posições
-[![Ilustração que realça "modificar posições de previsão"](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Ilustração que realça "modificar posições de previsão".](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Várias versões de uma previsão de posição
 
@@ -140,7 +137,7 @@ As linhas de elementos de custo de orçamento devem ser recalculadas quando o va
 
 **Exemplo** 
 
-A organização está considerando duas opções para reduzir o custo de uma posição de contador. Uma opção é encerrar a parte da posição até o final do ano. A outra opção é alterar a posição para metade do ano inteiro. Brad criou uma previsão de posição para a posição de contador existente em um cenário da linha de base. Ele copia esta previsão de posição da linha de base no cenário A, define a data de aposentadoria como 31 de maio e recalcula. Brad copia a previsão de posição da linha de base no cenário B, altera o valor de FTE para **0,50** e recalcula. Agora Brad tem três versões, cada qual com o total de custo alinhado com suas opções.
+A organização está considerando duas opções para reduzir o custo de uma posição de contador. Uma opção é encerrar a parte da posição até o final do ano. A outra opção é alterar a posição para metade do ano inteiro. Brad criou uma previsão de posição para a posição de contador existente em um cenário da linha de base. Brad copia essa posição de previsão da linha base para o cenário A, define a data de suspensão para 31 de maio e refaz o cálculo. Brad copia a previsão de posição da linha de base no cenário B, altera o valor de FTE para **0,50** e recalcula. Agora, Brad tem três versões, cada uma com custos totais alinhados com as opções.
 
 #### <a name="assigning-a-compensation-group"></a>Atribuição de um grupo de remuneração
 
@@ -174,7 +171,7 @@ O processo de recálculo é usado automaticamente em qualquer previsão de posi�
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Como trazer previsões de posições para planos de orçamento
 
-[![Ilustração que realça "Adicionar ao plano de orçamento"](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Ilustração que realça "Adicionar ao plano de orçamento".](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 A finalidade de criar e modificar previsões de posições é adicioná-las a planos de orçamento, de modo que esses planos incluam os valores de orçamento mais precisos. Há dois métodos para adicionar previsões de posições a planos de orçamento. Você pode usar um processo de geração ou um processo de seleção no plano de orçamento.
 
@@ -218,3 +215,6 @@ Para ver em que planos de orçamento uma previsão de posição foi incluída, v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

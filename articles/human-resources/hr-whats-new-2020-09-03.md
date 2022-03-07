@@ -1,12 +1,10 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (03 de setembro de 2020)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 3 de setembro de 2020.
-author: Darinkramer
-manager: tfehr
-ms.date: 9/03/2020
+author: andreabichsel
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,17 +13,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ddffff18e1d6d16bd5a5f7e7021f9a34651307fa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 965f3ca859c601d26470038a889b0f21d2bdff5f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527449"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800108"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (3 de setembro de 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -106,9 +106,9 @@ Esse recurso também promove as opções de fluxo de trabalho que aparecem nos f
 
 ## <a name="coming-soon"></a>Em breve
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Entidades de lista de verificação incluídas no Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Entidades de lista de verificação incluídas no Dataverse
 
-Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Common Data Service.
+Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Dataverse.
 
 ### <a name="benefits-management-reason-codes"></a>Códigos de motivo de gerenciamento de benefícios
 
@@ -120,3 +120,6 @@ Os códigos de motivo de gerenciamento de benefícios serão em breve combinados
 [Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

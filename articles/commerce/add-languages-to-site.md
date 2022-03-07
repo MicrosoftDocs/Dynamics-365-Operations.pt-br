@@ -2,36 +2,30 @@
 title: Adicionar idiomas ao seu site
 description: Este tópico explica como adicionar suporte para idiomas adicionais a um site do Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410128"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964545"
 ---
 # <a name="add-languages-to-your-site"></a>Adicionar idiomas ao seu site
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como adicionar suporte para idiomas adicionais a um site do Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 É possível localizar seu site para qualquer idioma compatível com o Commerce. (A lista de idiomas compatíveis aparece mais adiante neste tópico.) Para adicionar um idioma ao seu site, você deve primeiro adicioná-lo a uma loja online vinculada ao seu site.
 
@@ -40,7 +34,7 @@ Este tópico explica como adicionar suporte para idiomas adicionais a um site do
 Para adicionar um idioma a uma loja online, siga as etapas a seguir.
 
 1. Abra o ambiente do Dynamics 365 Commerce para o seu site.
-1. Vá para **Varejo e Comércio \> Canais \> Lojas online** para acessar a lista de lojas online configuradas para seu ambiente. Como alternativa, insira **lojas online** como um termo de pesquisa.
+1. Acesse **Varejo e Comércio \> Canais \> Lojas online** para acessar a lista de lojas online configuradas para seu ambiente. Como alternativa, insira **lojas online** como um termo de pesquisa.
 1. Selecione a loja online para a qual adicionar um idioma.
 1. Na guia rápida **Idiomas**, selecione **Adicionar**.
 1. No campo **Idioma**, selecione o idioma a ser adicionado.
@@ -171,8 +165,9 @@ O idioma que você adicionou agora estará disponível para que você possa conf
 
 [Adicionar um favicon](add-favicon.md)
 
-[Adicionar uma mensagem de boas-vindas](add-welcome-message.md)
-
 [Adicionar um aviso de direitos autorais](add-copyright-notice.md)
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

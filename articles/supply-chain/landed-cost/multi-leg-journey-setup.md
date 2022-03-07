@@ -5,6 +5,7 @@ author: sherry-zheng
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMLegTable, ITMJourneyTable, ITMActivityTable
 audience: Application User
@@ -13,13 +14,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 57d49af9ca9f2f7e0e4b038c62578ae1993779d6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: e1377b7453622e5bed711753fc2d99258d3c5951
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577567"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833752"
 ---
 # <a name="multi-leg-journey-setup"></a>Configuração de percurso de vários trechos
 

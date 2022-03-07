@@ -1,12 +1,10 @@
 ---
 title: Controle de custo e data
 description: Este tópico explica o controle de custo e data no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
@@ -14,23 +12,21 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 826e0aab8c717bb951d80aff61b2d72dad802189706f720c48e72c8a1c393ead
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019066"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731904"
 ---
 # <a name="cost-and-date-control"></a>Controle de custo e data
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-No Gerenciamento de ativos, é possível calcular os custos para obter uma visão geral dos custos reais em comparação com os custos de orçamento em ativos, locais funcionais e ordens de serviço. Os custos reais são baseados em transações lançadas. 
+No Gerenciamento de ativos, é possível calcular os custos para obter uma visão geral dos custos reais em comparação com os custos de orçamento em ativos, locais funcionais e ordens de serviço. Os custos reais são baseados em transações lançadas.
 
 Você também pode fazer um cálculo de data para comparar datas inicial e final agendadas com datas de início e término reais em ordens de serviço.
 
@@ -48,8 +44,8 @@ Os cálculos efetuados para ativos, locais funcionais e ordens de trabalho são 
 
 5. Você pode usar o campo **Nível** para indicar o nível de detalhamento desejado das linhas de controle de custo em relação aos locais funcionais. 
 
-    Por exemplo, se você inserir o número "1" no campo e tiver uma hierarquia de localização funcional em vários níveis, todas as linhas de controles de custos para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior. 
-    
+    Por exemplo, se você inserir o número "1" no campo e tiver uma hierarquia de localização funcional em vários níveis, todas as linhas de controles de custos para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior.
+
     Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de controle de custos em todo o nível do local funcional ao qual elas estão relacionadas.
 
 6. Selecione "Sim" no botão de alternância **Mostrar custo comprometido aberto** se quiser incluir essa coluna no cálculo.
@@ -62,11 +58,11 @@ Os cálculos efetuados para ativos, locais funcionais e ordens de trabalho são 
 
     A figura abaixo mostra um exemplo da caixa de diálogo **Controle de custos de ativos**.
 
-    ![Caixa de diálogo Controle de custos de ativos](media/01-controlling-and-reporting.png)
+    ![Caixa de diálogo Controle de custos de ativos.](media/01-controlling-and-reporting.png)
 
 10. Na página **Controle de custos de ativos**, clique nos botões **Agrupar por** para mostrar o nível de detalhe necessário do cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 
-## <a name="example"></a>Exemplo
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Exemplo de resultados do cálculo no controle de custos de ativos
 
 A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Controle de custos de ativos**.
 
@@ -75,10 +71,9 @@ A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Contro
 - O campo **Custo comprometido aberto** mostra compromissos de pagamento por itens, horários e serviços que você solicitou ou recebeu, mas ainda não pagou. 
 - O **Custo real** mostra os custos relacionados após o lançamento de todos os registros de consumo.
 
-![Resultados do cálculo de exemplo em Controle de custos de ativos](media/02-controlling-and-reporting.png)
+![Resultados do cálculo de exemplo em Controle de custos de ativos.](media/02-controlling-and-reporting.png)
 
 Outra maneira de fazer um cálculo de custo é selecionar vários ativos em **Todos os ativos** ou **Ativos ativos**. Depois, você clica no botão **Controle de custo** na guia **Geral**. Na caixa de diálogo **Controle de custos de ativos**, os ativos selecionados são inseridos automaticamente no campo **Ativo** na Guia Rápida **Registros a serem incluídos**. Após clicar em **OK**, um cálculo de custo dos ativos selecionados será mostrado. O mesmo procedimento pode ser feito para locais funcionais em **Todos os locais funcionais** ou **Locais funcionais ativos**, e para ordens de serviço **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
-
 
 ## <a name="work-order-date-control"></a>Controle de data da ordem de serviço
 
@@ -96,7 +91,7 @@ Use esta página para obter uma visão geral das datas inicial e final esperadas
 
 6. Clique nos botões **Agrupar por** para mostrar o nível de detalhes necessário para o cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 
-## <a name="example"></a>Exemplo
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Exemplo dos resultados do cálculo no controle de datas da ordem de serviço
 
 A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Controle de data da ordem de serviço**.
 
@@ -104,6 +99,9 @@ A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Contro
 - O campo **Atraso final médio** mostra a diferença de dias entre a data final agendada de uma ordem de serviço e a data final real. Se, por exemplo, a data final real foi três dias após a data final programada, "3" será exibido neste campo.  
 - Os campos **Ocorrências** mostram o número de vezes em que ocorrem desvios em relação à data inicial agendada e real e a data final agendada e real na ordem de serviço.
 
-![Resultados do cálculo de exemplo em Controle de datas da ordem de serviço](media/03-controlling-and-reporting.png)
+![Resultados do cálculo de exemplo em Controle de datas da ordem de serviço.](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

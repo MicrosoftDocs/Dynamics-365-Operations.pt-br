@@ -6,20 +6,18 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ed7ac72d47d5efd60b8a705e7ab0fa7e4edd96a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 605792bdc82a311fff9f7f4b8945ca5dde172c54
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410280"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5642156"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>Catálogo de aprendizado do Dynamics 365 Commerce 
 
@@ -141,3 +139,6 @@ Encontre o treinamento online correto, nos workshops de pessoas e eventos para s
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

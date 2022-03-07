@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421956"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260638"
 ---
 # <a name="product-dimensions"></a>Dimensões do produto
 
@@ -107,7 +106,7 @@ Quando estiver testando soluções para a compatibilidade com a dimensão de ver
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Mapas:** se algum mapa usar as dimensões de estoque, o mapeamento de relações correspondente a esses mapas deverá ser atualizado para incluir a dimensão de versão. No modelo estendido ou nas extensões de tabela, procure nas tabelas nas quais os campos incluam as dimensões de estoque.
-1. **Funcionalidade do Microsoft Dynamics 365 Commerce:** depois que ela for ativada, a dimensão da versão aparecerá durante todo o código específico do Commerce no Dynamics 365 Supply Chain Management. No entanto, a dimensão de versão ainda não tem suporte do banco de dados de canal do Commerce ou nos aplicativos de ponto de venda (PDV) e comércio eletrônico. Esses aplicativos específicos do Commerce não oferecem suporte a usuários que vendem/enviam ou devolvem/recebem estoque por dimensão de versão. As funções de pesquisa de disponibilidade de estoque não distinguem estoque por dimensão de versão em aplicativos do Commerce. Esse comportamento é semelhante ao comportamento atual da dimensão de configuração no Commerce.
+1. **Funcionalidade do Microsoft Dynamics 365 Commerce:** depois de ativada, a dimensão de versão aparecerá durante todo o código específico do Commerce no Dynamics 365 Supply Chain Management. No entanto, a dimensão de versão ainda não tem suporte do banco de dados de canal do Commerce ou nos aplicativos de ponto de venda (PDV) e comércio eletrônico. Esses aplicativos específicos do Commerce não oferecem suporte a usuários que vendem/enviam ou devolvem/recebem estoque por dimensão de versão. As funções de pesquisa de disponibilidade de estoque não distinguem estoque por dimensão de versão em aplicativos do Commerce. Esse comportamento é semelhante ao comportamento atual da dimensão de configuração no Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Ativar a dimensão de versão
 
@@ -122,7 +121,7 @@ Para que você possa usar a dimensão de versão, ela deve estar ativada no sist
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Áreas em que não há suporte para a dimensão da versão
 
-As seguintes áreas não dão suporte à dimensão de versão porque a apresentação dessa dimensão causaria alterações da falha:
+As áreas a seguir não oferecem suporte à dimensão de versão (ainda é possível usar essas áreas, mas você não poderá adicionar produtos com versão (produtos em que a dimensão de versão é usada) a elas). Por exemplo, não é possível adicionar um item com versão a um catálogo de fornecedor. Isso porque a adição de produtos com a dimensão de versão a essas áreas causaria alterações na falha.
 
 - Demonstrativo de objeto de custo mensal
 - Cache de demonstrativos de objeto de custo
@@ -146,3 +145,6 @@ A dimensão da versão funciona como as outras dimensões do produto. No entanto
 
 > [!IMPORTANT]
 > Se você ativar e usar a dimensão de versão, algumas soluções que fazem referência a dimensões de estoque poderão parar de funcionar conforme esperado. Para confirmar e corrigir esses problemas, fale com o fornecedor de software independente (ISV) para obter as soluções afetadas. Para obter mais informações, consulte [Habilitar a dimensão da versão](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

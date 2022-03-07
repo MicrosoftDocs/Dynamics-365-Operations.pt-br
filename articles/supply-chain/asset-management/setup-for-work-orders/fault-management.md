@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 176fbebcf88e7557bf2bafc56524cd2ec015220e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 43f996921ccac0b3c85ecea2460cb9e4614f8c04
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020955"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226800"
 ---
 # <a name="fault-management"></a>Gerenciamento de falhas
 
@@ -132,3 +132,6 @@ Siga estas etapas para criar uma lista de sugestões para correção e reparo qu
 
 > [!NOTE]
 > Você pode alterar os nomes dos sintomas, áreas, tipos, causas e soluções de suas falhas, conforme necessário. As alterações de nome são refletidas automaticamente nos registros de falha relacionados.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

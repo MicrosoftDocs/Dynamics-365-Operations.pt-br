@@ -1,7 +1,7 @@
 ---
 title: Instrumentos de teste de gerenciamento de qualidade
 description: Este tópico descreve como criar instrumentos de teste que possam ser usados para testes em ordens de qualidade no Microsoft Dynamics 365 Supply Chain Management.
-author: yufeihuang
+author: rachel-profitt
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d80a4f784a43e0d83d1f5b42f6740ef6da3add1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3806ca26b8909b03768dad54ddad0084e1cea4a6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565894"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021723"
 ---
 # <a name="quality-management-test-instruments"></a>Instrumentos de teste de gerenciamento de qualidade
 
@@ -37,7 +37,7 @@ Você está executando vários testes em componentes elétricos. Alguns testes s
 
 ## <a name="create-a-test-instrument"></a>Criar um instrumento de teste
 
-1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Instrumentos de teste**.
+1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Instrumentos de teste**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Instrumento de teste** – Insira um nome ou uma ID exclusiva para o instrumento de teste.

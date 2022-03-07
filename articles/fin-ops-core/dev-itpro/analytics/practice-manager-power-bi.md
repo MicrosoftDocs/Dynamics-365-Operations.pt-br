@@ -1,12 +1,10 @@
 ---
 title: Conteúdo de gerente de prática do Power BI
-description: Este tópico descreve o que está incluído no conteúdo Gerente de prática do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
-author: KimANelson
-manager: AnnBe
+description: Este tópico descreve o que está incluído no conteúdo Gerente de prática do Power BI.
+author: kfend
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685696"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500212"
 ---
 # <a name="practice-manager-power-bi-content"></a>Conteúdo de gerente de prática do Power BI
 
@@ -117,3 +115,6 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 | Principal medida agregada       | Campo               | descrição |
 |---------------------------------|---------------------|-------------|
 | Custo planejado de atividade concluído | Sum(TotalCostPrice) | Total de preço de custo em estimativas para todos os tipos de transação de projeto com tarefas concluídas. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Relatórios financeiros de balancete
 description: Este artigo descreve os relatórios padrão para saldos de teste. Ele também descreve os blocos de construção que estão associados a esses relatórios e como você pode modificar os relatórios para atender às suas necessidades de negócios.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12314
 ms.assetid: 3b77d6f3-fd07-41a7-9ddb-1b22d1ae33fc
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b48510febf5a5f9f4a01728b242d9750b3c62c2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440200"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816922"
 ---
 # <a name="trial-balance-financial-reports"></a>Relatórios financeiros de balancete
 
@@ -110,3 +107,6 @@ Cada relatório do balancete usa uma definição da coluna diferente. Essas defi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

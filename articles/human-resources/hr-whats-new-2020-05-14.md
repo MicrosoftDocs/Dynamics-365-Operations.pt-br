@@ -1,43 +1,42 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (14 de maio de 2020)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 14 de maio de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528488"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063738"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (14 de maio de 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3244. Os números entre parênteses em alguns cabeçalhos referem-se aos números de suporte do Lifecycle Services (LCS) para referência.
 
 ## <a name="platform-changes"></a>Alterações na plataforma
 
-As alterações de plataforma são incluídas na versão desta semana. Para obter mais informações, consulte [Atualizações de plataforma para a versão 10.0.10 dos aplicativos do Finance and Operations (maio de 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Esta versão inclui correções de bug e alterações nas exibições salvas.
+As alterações de plataforma são incluídas na versão desta semana. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.10 dos aplicativos de Finanças e Operações (maio de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Esta versão inclui correções de bug e alterações nas exibições salvas.
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Verifique se as listas de separação do Common Data Service estão consistentes com as enumerações Licença (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Verifique se as listas de separação do Dataverse estão consistentes com as enumerações Licença (436343)
 
-Agora as listas de separação do Common Data Service estão consistentes com as enumerações Licença.
+Agora as listas de separação do Dataverse estão consistentes com as enumerações Licença.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>Permita que os usuários configurem o fluxo de trabalho de solicitação de licenças com base no valor da solicitação (300044)
 
@@ -75,7 +74,7 @@ Essa alteração corrige um erro quando um plano de licença tem dois tipos de l
 
 Com essa alteração, a faixa de introdução fica oculta para usuários que não são Administradores do sistema ou Administradores do gerenciamento de dados. 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>A entidade Endereço do Trabalhador do Common Data Service funciona de forma diferente em termos de datas de efetivação de data/hora no Human Resources (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>A entidade Endereço do Trabalhador do Dataverse funciona de forma diferente em termos de datas de efetivação de data/hora no Human Resources (425071)
 
 Essa alteração mantém as informações de endereço alinhadas em determinados cenários, com base nas datas do endereço.
 
@@ -116,6 +115,8 @@ Você pode especificar um tipo de licença postergada para saldos postergados no
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

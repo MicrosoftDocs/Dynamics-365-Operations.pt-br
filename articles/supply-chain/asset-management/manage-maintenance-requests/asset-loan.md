@@ -1,12 +1,10 @@
 ---
 title: Empréstimos de ativos
 description: Este tópico descreve como registrar ativos de empréstimo em Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 65809d9be39372412d5d6b419f7356fe2c9668a1a01ede32ef52cbd66753e6d7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752841"
 ---
 # <a name="asset-loans"></a>Empréstimos de ativos
 
@@ -46,7 +44,7 @@ Se a sua empresa recebe ativos para trabalhos de reparo ou manutenção de locai
 
 Para exibir uma lista de todos os ativos que você emprestou a outros locais ou clientes, selecione **Gerenciamento de ativos** \> **Comum** \> **Empréstimo de ativo** \> **Todos os empréstimos de ativos**. Se a caixa de seleção **Concluído** estiver marcada para um ativo, significa que o ativo foi registrado como devolvido para sua empresa.
 
-![Gerenciar Solicitações de Manutenção](media/06-manage-maintenance-requests.png)
+![Gerenciar Solicitações de Manutenção.](media/06-manage-maintenance-requests.png)
 
 Na página **Empréstimos de ativos em ação**, exiba uma lista de todos os ativos de empréstimo que ainda não foram devolvidos à sua empresa.
 
@@ -57,3 +55,6 @@ Na página **Empréstimos de ativos em ação**, exiba uma lista de todos os ati
 3. No campo **Devolvido**, insira a data e a hora.
 4. Selecione **OK**.
 5. Atualize a página **Empréstimos de ativos em ação** e observe que o empréstimo de ativos não aparece mais na lista.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: Visualização geral da requisição de compra
 description: Este tópico descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 189debe46ea28808cf3081a7d8f49686298e8c8e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020070"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982893"
 ---
 # <a name="purchase-requisition-overview"></a>Visualização geral da requisição de compra
 
@@ -49,7 +49,7 @@ Quando você cria uma requisição de compra, um status é atribuído à ela. Um
 
 O diagrama a seguir mostra os status que são atribuídos a uma requisição de compra e a uma linha da requisição de compra à medida que elas passam pelo processo de fluxo de trabalho.  
 
-[![Status do cabeçalho e da linha da requisição de compra](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Status do cabeçalho e da linha da requisição de compra.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Cabeçalho da requisição de compra e relacionamentos de status da linha
 
@@ -181,7 +181,7 @@ Para criar uma ordem de compra para as linhas da requisição de compra não qua
 
 O processo de consolidação de demanda se inicia quando uma requisição de compra é aprovada em um fluxo de trabalho e, se o controle de orçamento estiver configurado para sua organização, quando as reservas de orçamento e os pré-ônus são registrados. O diagrama a seguir mostra o fluxo de processo para consolidação de demanda.  
 
-[![Fluxo do processo para consolidação de demanda](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Fluxo do processo para consolidação de demanda.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Para consolidar linhas de requisição de compra aprovadas, siga estas etapas:
 
@@ -192,8 +192,7 @@ Para consolidar linhas de requisição de compra aprovadas, siga estas etapas:
 5.  Crie ordens de compra para as linhas de requisição consolidadas ou para linhas de requisição de compra em uma oportunidade de consolidação.
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Criar uma requisição para consumo](tasks/create-requisition-consumption.md)
 
@@ -201,3 +200,6 @@ Para consolidar linhas de requisição de compra aprovadas, siga estas etapas:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

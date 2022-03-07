@@ -1,29 +1,26 @@
 ---
 title: Gerenciador de fontes contábeis
 description: Este artigo fornece informações sobre o explorador de origem da contabilidade, que pode ser usado para análise detalhada das informações de origem, além das entradas contábeis da contabilidade.
-author: ShylaThompson
-manager: AnnBe
+author: rcarlson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15391
 ms.assetid: 57b95899-7298-43c0-8034-45b5d993cbf2
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 904f1f9fb139248205b426aec5a0372f2edb1e59
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab098aa36d6fa6c34beaaa31ecfbb1eb47840e343d7dee3d9cd3034d6ff8f9c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749189"
 ---
 # <a name="accounting-source-explorer"></a>Gerenciador de fontes contábeis
 
@@ -49,5 +46,10 @@ Para documentos de origem que usam o conceito das identidades de referência do 
 
 Para esses documentos, também é possível navegar no documento de origem real do explorador de origem contábil.
 
+> [!NOTE]
+> A partir da versão 10.0.20, o botão **Atualizar** oferece mais dois intervalos para restringir a consulta inicial executada para inserir dados na página. Esses intervalos adicionais também estão disponíveis na versão 10.0.19 como uma atualização de serviço. Estes campos foram incluídos:
+>
+> - De Comprovante, Para Comprovante
+> - De Conta principal, Para Conta principal
 
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

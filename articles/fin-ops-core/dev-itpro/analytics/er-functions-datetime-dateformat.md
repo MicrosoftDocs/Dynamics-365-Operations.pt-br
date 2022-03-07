@@ -3,7 +3,7 @@ title: Função DATEFORMAT ER
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) DATEFORMAT é usada.
 author: NickSelin
 manager: kfend
-ms.date: 01/04/2021
+ms.date: 12/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
-ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
+ms.openlocfilehash: 1fa6bdef2168112aeb17e0edb9f9a6d1b3bd45c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "4826002"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684922"
 ---
 # <a name="dateformat-er-function"></a>Função DATEFORMAT ER
 
@@ -52,22 +52,19 @@ Um valor de data que representa a data do formato.
 
 O formato da cadeia de caracteres de saída.
 
-> [!NOTE]
-> A cadeia de caracteres de formato diferencia maiúsculas de minúsculas quando você usa um formato padrão ou um formato personalizado. Por exemplo, o especificador de formato "d" [padrão](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) retorna a data usando o padrão de data abreviada, enquanto o especificador de formato "D" padrão retorna a data usando o padrão de data por extenso. Além disso, o especificador de formato "M" [personalizado](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) retorna o mês de 1 a 12, enquanto o especificador "m" de formato personalizado retorna o minuto de 0 a 59.
-
 `culture`: *Cadeia de caracteres*
 
 A cultura a ser usada para formatação.
 
 ## <a name="return-values"></a>Valores de retorno
 
-*Sequência de caracteres*
+*Cadeia de caracteres*
 
 O valor da cadeia de caracteres resultante.
 
 ## <a name="usage-notes"></a>Notas de uso
 
-Se a cultura não é definida como um argumento da função chamada, o valor de `culture` é definido pelo contexto de chamada. Por exemplo, se a função `DATEFORMAT` for chamada usando a sintaxe 1 em um formato de relatório eletrônico (ER) para um elemento **FILE** de arquivo configurado para usar a cultura alemã, a conversão será feita usando a cultura alemã. O valor padrão `culture` é **EN-US**.
+Quando a cultura não é definida como um argumento da função chamada, o valor de `culture` é definido pelo contexto de chamada. Por exemplo, se a função `DATEFORMAT` for chamada usando a sintaxe 1 em um formato de relatório eletrônico (ER) para um elemento **FILE** de arquivo configurado para usar a cultura alemã, a conversão será feita usando a cultura alemã. O valor padrão `culture` é **EN-US**.
 
 ## <a name="example-1"></a>Exemplo 1
 

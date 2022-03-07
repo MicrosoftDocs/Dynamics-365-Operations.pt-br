@@ -2,27 +2,24 @@
 title: Visão geral do ambiente de avaliação do Dynamics 365 Commerce
 description: Este tópico fornece uma visão geral do ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bdd634a04b6bbcf50d04cae8d670367268e57f1e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410083"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795874"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Visão geral do ambiente de avaliação do Dynamics 365 Commerce
 
@@ -32,8 +29,6 @@ Este tópico fornece uma visão geral do ambiente de avaliação do Microsoft Dy
 
 > [!NOTE]
 > Os ambientes de avaliação do Commerce não estão disponíveis para o público geral e são concedidos a parceiros e clientes por solicitação. Para obter mais informações, fale com o contato do seu parceiro Microsoft.
-
-## <a name="overview"></a>Visão Geral
 
 O ambiente de avaliação do Commerce é um ambiente opcional de ponta a ponta do Dynamics 365 Commerce, que permite aos parceiros e clientes potenciais experimentar o produto do Commerce.
 
@@ -64,3 +59,6 @@ Para provisionar o ambiente de avaliação do Commerce, consulte [Provisionar um
 [Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

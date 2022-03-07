@@ -1,12 +1,10 @@
 ---
 title: ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 5 - Modificar e executar o formato)
-description: As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para usar arquivos de gerenciamento de documentos (anexos) na saída do ER.
+description: Este tópico descreve como configurar um formato de relatório eletrônico (ER) para usar arquivos de gerenciamento de documentos (anexos) na saída de ER. (Parte 5)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERComponentTypeDropDialog, ERExpressionDesignerFormula, SysQueryForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b949c2629df0e9db8c11322c9d0d090b200edc2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 48175de4e58f9def15bf2bf8b10a1348036c88a1af284eb2a3e5f9fbefd649c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748391"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 5 - Modificar e executar o formato)
 
@@ -34,7 +32,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 
 
 ## <a name="modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format"></a>Modificar o formato para popular anexos para a geração de mensagens no formato binário
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
+1. Acesse Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, expanda 'Modelo de fatura de cliente'.
 3. Na árvore, expanda 'Modelo de fatura de cliente\Modelo de fatura de cliente (personalizada)'.
 4. Na árvore, selecione 'Modelo de fatura de cliente\Modelo de fatura de cliente (personalizada)\Mensagem de exemplo da fatura eletrônica'.
@@ -96,3 +94,6 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 7. Clique em OK.
     * Revise a saída gerada. Observe que, além da mensagem da fatura em formato XML, um único arquivo foi criado para cada anexo. Os arquivos anexos são preenchidos com as saídas compactadas em formato binário.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

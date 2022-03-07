@@ -10,16 +10,17 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 825cc5b9355695a648c857e5197b5b93a21fdb43
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103030"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115164"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Gerenciar alterações nas fórmulas e seus ingredientes
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Se você estiver usando os recursos de fabricação de processos do Microsoft Dynamics 365 Supply Chain Management, também poderá usar os recursos de gerenciamento de fórmula relacionados para gerenciar as seguintes alterações:
 
@@ -27,9 +28,12 @@ Se você estiver usando os recursos de fabricação de processos do Microsoft Dy
 - **Coprodutos e subprodutos:** edite as quantidades e outras informações dos coprodutos e subprodutos em uma fórmula.
 - **Itens de peso variável:** gerencie alterações para itens de peso variável.
 
-## <a name="turn-this-feature-on-or-off"></a>Ativar ou desativar este recurso
+## <a name="turn-on-this-feature-in-your-system"></a>Ative este recurso no seu sistema
 
-A funcionalidade descrita neste tópico exige que os recursos *Gerenciamento de Alterações de Engenharia* e *Gerenciar modificações em fórmulas e seus ingredientes* estejam ativados no sistema. Para obter detalhes sobre como ativar ou desativar esses recursos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
+Para usar esse recurso, você deve concluir as seguintes tarefas:
+
+1. Habilite o recurso *Gerenciamento de alterações de engenharia* e sua chave de configuração conforme descrito em [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md). Conforme mencionado neste tópico, certifique-se de ativar também a chave de licença **Gerenciamento de alterações para fabricação de processos**, que está aninhada abaixo da chave de licença principal **Gerenciamento de Alterações de Engenharia**.
+1. Ative o recurso *Gerenciar alterações nas fórmulas e seus ingredientes* em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Convenções de nomenclatura de recursos
 

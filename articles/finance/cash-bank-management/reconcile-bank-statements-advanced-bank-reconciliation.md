@@ -2,11 +2,9 @@
 title: Reconciliar extratos bancários utilizando a reconciliação bancária avançada
 description: O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 Finance. Este tópico descreve o processo de reconciliação.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92c04a47b134584280736f4d3d2fa401d2a2a9b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fbfa999d2aaa4b6dad711bb57916a68fb37c57d9add09092783ad3a8d6450c1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714439"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Reconciliar extratos bancários usando reconciliação bancária avançada
 
@@ -30,8 +28,7 @@ ms.locfileid: "4969419"
 
 O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Dynamics 365 Finance. Este tópico descreve o processo de reconciliação.  
 
-<a name="import-an-electronic-bank-statement"></a>Importar um extrato bancário eletrônico
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Importar um extrato bancário eletrônico
 
 Você importa seu extrato bancário utilizando a ação **Importar extrato** na página **Extratos bancários**. A conta bancária é identificada no extrato bancário por meio de uma combinação de valores que estão definidos nos detalhes da conta bancária. Esses valores incluem o nome do banco, o número da conta bancária, número de roteamento, código da Sociedade de Telecomunicações Financeiras Interbancárias Mundiais (SWIFT), e o Número Internacional de Conta Bancária (IBAN). 
 
@@ -95,3 +92,6 @@ As transações do extrato bancário que foram marcados como **Nova** na planilh
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

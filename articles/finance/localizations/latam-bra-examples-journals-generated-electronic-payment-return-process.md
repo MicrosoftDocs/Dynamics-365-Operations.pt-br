@@ -2,26 +2,23 @@
 title: Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil
 description: Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.
 author: sndray
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269174
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d4e31771806e8a9050085943940fc4c340090ce8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1d32d9f070af1321182564a24934c0211e999869
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408455"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814000"
 ---
 # <a name="journals-generated-during-the-electronic-payment-return-process-for-brazil"></a>Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil
 
@@ -73,3 +70,6 @@ Ao lançar as linhas de pagamento aprovadas, as três linhas de pagamento são l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

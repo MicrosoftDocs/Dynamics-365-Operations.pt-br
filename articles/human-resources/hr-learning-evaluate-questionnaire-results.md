@@ -1,37 +1,39 @@
 ---
-title: Exibir e avaliar os resultados de questionários
-description: Este artigo explica como você pode exibir e avaliar os resultados dos questionários que os participantes concluem.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+title: Exibir e avaliar os resultados dos questionários
+description: Este tópico explica como você pode exibir e avaliar os resultados dos questionários que os entrevistados concluem.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc71748a5081b90feb69ed0da936c42b4d0e572a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417343"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070693"
 ---
-# <a name="view-and-evaluate-the-results-of-questionnaires"></a>Exibir e avaliar os resultados de questionários
+# <a name="view-and-evaluate-the-results-of-questionnaires"></a>Exibir e avaliar os resultados dos questionários
 
-Este artigo explica como você pode exibir e avaliar os resultados dos questionários que os participantes concluem. 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Este tópico explica como você pode exibir e avaliar os resultados dos questionários que os entrevistados concluem. 
 
 Depois que os entrevistados preencherem um questionário, você poderá exibir e avaliar os resultados do questionário das seguintes maneiras:
 
--   **Sessões de respostas concluídas** – Exiba detalhes sobre os questionários preenchidos pelos participantes e gere relatórios para resumir as respostas, e também quaisquer que sejam os pontos ganhos.
+-   **Sessões de respostas concluídas** – Exiba detalhes sobre os questionários preenchidos pelos entrevistados e gere relatórios para resumir respostas e os pontos ganhos.
 -   **Grupos de resultados** – Exiba detalhes e estatísticas do grupo de resultados de questionários. As estatísticas do grupo de resultados podem ser geradas para uma única sessão de respostas de um questionário ou para todas as sessões de respostas.
 -   **Estatísticas do questionário** – Especifique os critérios para calcular estatísticas para um determinado grupo de entrevistados.
 
@@ -44,7 +46,7 @@ Você também pode gerar diversos relatórios para exibir os resultados classifi
 
 ## <a name="answer-session-results"></a>Resultados da sessão de respostas
 
-Depois que os entrevistados preenchem o questionário, você pode exibir os resultados das sessões de respostas preenchidas. Uma sessão de resposta é a uma resposta do usuário a um questionário. Você pode exibir detalhes sobre as sessões de respostas preenchidas na página **Respostas**. As sessões de respostas que estão inclusas na página **Respostas** serão filtradas de várias maneiras, dependendo de como você abrir a página:
+Depois que os entrevistados preenchem o questionário, você pode exibir os resultados das sessões de respostas preenchidas. Uma sessão de resposta é a uma resposta do usuário a um questionário. Você pode exibir detalhes sobre as sessões de respostas preenchidas na página **Respostas**. As sessões de respostas incluídas na página **Respostas** serão filtradas de várias maneiras, dependendo de como você abrir a página:
 
 -   Todos os questionários
 -   Um questionário específico
@@ -52,9 +54,9 @@ Depois que os entrevistados preenchem o questionário, você pode exibir os resu
 
 Na página **Respostas**, você pode exibir detalhes sobre respostas, pontos ganhos, respostas de um participante em cada grupo de resultados e a hierarquia de perguntas usadas no questionário selecionado, se uma hierarquia de perguntas tiver sido utilizada. Você também pode gerar e imprimir os seguintes relatórios:
 
--   **Relatório de resultados** – Este relatório mostra uma representação gráfica dos pontos obtidos por grupo de resultados para a sessão de respostas selecionada.
+-   **Relatório de resultados** – Este relatório mostra uma representação gráfica dos pontos obtidos por grupo de resultados para a sessão de respostas selecionada.
 -   **Relatório de respostas** – Este relatório mostra as respostas que o participante selecionou para cada pergunta do questionário.
--   **Respostas incorretas** – Este relatório mostra informações relacionadas às respostas incorretas que o participante selecionou.
+-   **Respostas incorretas** – Este relatório mostra informações relativas às respostas incorretas que o entrevistado selecionou.
 
 > [!NOTE]
 > O relatório **Resultados** só estará disponível se você usar grupos de resultados do questionário e se tiver selecionado **Página de resultados** na página **Questionários**. O relatório de **Respostas** e o relatório de **Respostas incorretas** só estarão disponíveis se você selecionou **Relatório de respostas** na página **Questionários**.
@@ -68,7 +70,9 @@ Você pode usar as estatísticas do questionário para analisar os resultados de
     -   Selecione o tipo de gráfico que será usado ao exibir os resultados.
     -   Selecione os tipos de pessoas na rede como, por exemplo, funcionários, pessoas de contato, ou candidatos, para os quais você incluirá respostas. Você também pode incluir as respostas de questionários que foram preenchidos anônima.
     -   Configurar os intervalos com base na idade ou em tempo para analisar os resultados.
--   Selecione ou marque as configurações que refinam o assunto das estatísticas. Por exemplo, ao selecionar um CEP ou código postal, você poderá analisar os resultados de todos os pesquisados dessa área geográfica específica.
+-   Selecione ou marque as configurações que refinam o assunto das estatísticas. Por exemplo, ao selecionar um CEP ou código postal, você pode analisar os resultados de todos os entrevistados dessa área geográfica específica.
 -   Selecione ou marque os critérios para analisar os resultados por ou características do participante do questionário. Por exemplo, selecionando o **CEP/código postal**, você poderá analisar a correção entre o local de um respondente e respostas corretas.
 
 As configurações que você define são salvas e podem ser usadas para recalcular resultados periodicamente.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

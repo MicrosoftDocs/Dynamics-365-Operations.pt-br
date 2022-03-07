@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 94afc339bd156d26c5057c1e401d707aa7d517a041493659a40c7b69ad4d377a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715275"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350369"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>O link de entrada redireciona novamente para um site de comércio eletrônico
 
@@ -38,7 +38,7 @@ Depois de configurar um novo locatário de B2C do Microsoft Azure Active Directo
 
 Para confirmar se a URL de resposta está configurada corretamente no aplicativo Azure AD B2C, siga estas etapas.
 
-1. Acesse o [portal do Azure](https://portal.azure.com/).
+1. Vá para o [portal do Azure](https://portal.azure.com/).
 1. Selecione o aplicativo Azure AD B2C criado para acesso ao site.
 1. Selecione o aplicativo criado durante a configuração do Azure AD B2C.
 1. Em **URL de Resposta**, certifique-se de que a lista inclui entradas para a URL do domínio do site e para a URL gerada pelo comércio eletrônico, conforme mostrado no exemplo da ilustração a seguir.

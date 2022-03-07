@@ -1,12 +1,10 @@
 ---
 title: Registrar consumo
 description: Este tópico explica como registrar o consumo no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020771"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765563"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -56,7 +54,7 @@ Em alguns casos, você pode adicionar ou excluir linhas de previsão em uma orde
 
 A captura de tela a seguir mostra um exemplo de registros de hora e item em uma ordem de serviço em **Diários de ordem de serviço**.
 
-![Figura 1](media/01-consumption.png)
+![Figura 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Horas divididas em ordens de serviço com vários trabalhos de ordem de serviço
@@ -75,13 +73,13 @@ Se uma ordem de serviço contiver vários trabalhos de ordem de serviço, você 
 
 6. Insira o número de horas de trabalho a serem divididas no campo **Horas**.
 
-    ![Figura 2](media/02-consumption.png)
+    ![Figura 2.](media/02-consumption.png)
 
 7. Clique em **OK**.
 
 *Exemplo:* na captura de tela a seguir, as linhas de diário para uma ordem de serviço com três trabalhos de ordem de serviço são mostradas. A primeira linha, com três horas de trabalho, foi dividida e uma hora de trabalho é registrada em cada trabalho de ordem de serviço. Depois que as três linhas de registro de hora tiverem sido criadas, você decidirá o que fazer com a linha de registro de hora original (a primeira linha, no exemplo). É possível mantê-la como está ou excluí-la. 
 
-![Figura 3](media/03-consumption.png)
+![Figura 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Dimensões financeiras em registros de consumo
 
@@ -94,3 +92,6 @@ Quando você cria registros de consumo, as dimensões financeiras relacionados a
 >[!NOTE]
 >Para todos os três tipos de registro, a combinação de dimensão financeira é validada, e as combinações inválidas são anuladas. Esta é a configuração padrão com outros aplicativos do Finance and Operations.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

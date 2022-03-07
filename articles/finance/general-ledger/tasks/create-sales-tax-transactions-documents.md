@@ -2,11 +2,9 @@
 title: Criar transações de imposto em documentos
 description: Os impostos sobre vendas nos documentos são calculados fornecendo um grupo de impostos sobre vendas e um grupo de impostos sobre vendas de itens nas linhas do documento.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, TaxTmpWorkTrans
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a807ee2743f051528b6b96ddf1eaada65283933
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c60913bda66e5facdf05106f621005b06ac4cf9c2d13b9df36eef42615395fa9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729669"
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Criar transações de imposto em documentos
 
@@ -28,7 +26,7 @@ ms.locfileid: "4968645"
 
 Os impostos sobre vendas nos documentos são calculados fornecendo um grupo de impostos sobre vendas e um grupo de impostos sobre vendas de itens nas linhas do documento. Esses padrões derivam dos dados mestre, mas podem ser alterados manualmente, se necessário. Os impostos sobre vendas calculado podem ser feitos em um nível de linha e do documento. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
+1. Acesse Contas a receber > Ordens > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta do cliente, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o PDV desejado.
@@ -59,3 +57,6 @@ Os impostos sobre vendas nos documentos são calculados fornecendo um grupo de i
 29. Clique em Impostos.
 30. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

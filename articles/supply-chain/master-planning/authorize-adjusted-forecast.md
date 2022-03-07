@@ -1,12 +1,10 @@
 ---
 title: Autorizar uma previsão ajustada
 description: Nem todos os dados de previsão precisam ser autorizados imediatamente. Este artigo explica como é possível especificar o período em que uma previsão estará autorizada. Ele também explica como você pode autorizar a previsão para empresas e modelos de previsão específicos.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 72734
 ms.assetid: cb8fd809-605a-4a8b-a390-636edfec21f9
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ab8558f25f5ffd3b7eb3e1bc5680b1a1f8d5139
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1f9ceeb01675a44388862e1dede11551d3a60bdc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961415"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568703"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>Autorizar uma previsão ajustada
 
@@ -41,8 +39,7 @@ Na guia **Detalhes** da página **Autorização**, você pode exibir os detalhes
 
 É muito importante que você compreenda como funciona a caixa de seleção **Salvar os ajustes manuais feitos na previsão de demanda da linha de base**. Se você tiver feito ajustes manuais na previsão estatística, os valores ajustados serão autorizados para uso, mesmo se essa caixa de seleção estiver desmarcada. Contudo, as alterações serão descartadas após a autorização. Portanto, na próxima vez que uma previsão for gerada, ela será apenas uma previsão estatística e não terá nenhuma substituição manual, mesmo se a opção **Transferir ajustes manuais para a previsão de demanda** for selecionada. Portanto, considere a caixa de seleção **Salvar os ajustes manuais feitos na previsão de demanda da linha de base** como um mecanismo que lhe permitirá manter ou descartar qualquer alteração manual.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Faça ajustes manuais para a previsão estatística](manual-adjustments-baseline-forecast.md)
 
@@ -50,3 +47,6 @@ Na guia **Detalhes** da página **Autorização**, você pode exibir os detalhes
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

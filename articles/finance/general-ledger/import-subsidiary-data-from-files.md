@@ -2,9 +2,11 @@
 title: Importar dados da subsidiária de arquivos
 description: Este tópico explica como preparar dados de sistemas externos para que possam ser importados para o Microsoft Dynamics 365 Finance.
 author: jinniew
+manager: AnnBe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4be1e748724331c4e2089da8a08a9ac7e5cf88a2ac6d3d89b37b9fcd4480f516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7ced1b970aefa20a27ab16e005dff8fabace78d1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727291"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988806"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importar dados da subsidiária de arquivos
 
@@ -58,6 +60,3 @@ Este tópico explica como preparar dados de sistemas externos para que possam se
 8. Defina a opção **Processamento em lotes** como **Sim** para executar a consolidação como um trabalho em lotes em uma hora específica. Para executar a consolidação imediatamente, selecione **OK**. 
 
 As transações e os saldos especificados para consolidação nas subsidiárias são adicionados às contas apropriadas na entidade legal consolidada.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

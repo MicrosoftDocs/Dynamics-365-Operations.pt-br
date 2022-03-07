@@ -2,16 +2,13 @@
 title: Política de acúmulo de custos e cálculo de custos indiretos
 description: Este tópico fornece informações sobre como determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4440515"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189036"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 
@@ -152,8 +149,7 @@ As regras de alocação de custo podem ser configuradas como segue.
 | CC001                                | Total         | **Serviços de RH**        |
 | CC002                                | Total         | **Serviços financeiros** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Como o custo flui entre os centros de custo 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Como o custo flui entre os centros de custo 
 
 Se quiser aprender como o custo flui entre os centros de custos na organização, é possível criar elementos de custo do tipo **Secundário** para cada centro de custos. Esses elementos de custo serão usados depois para transferir saldos entre centros de custos durante o cálculo de custos indiretos.
 
@@ -301,3 +297,6 @@ A separação clara entre **Alocação de custo** e **Políticas de acúmulo de 
 -  [Dimensões do elemento de custo](cost-elements.md)
 -  [Hierarquia de dimensões](dimension-hierarchy.md)
 -  [Cálculo de custos indiretos](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

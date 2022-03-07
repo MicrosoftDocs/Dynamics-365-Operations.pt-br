@@ -2,27 +2,24 @@
 title: Configurações de loja para obter demonstrativos de varejo
 description: Este procedimento mostra configurações da loja de Varejo que afetam como as instruções de Commerce foram criadas e lançadas.
 author: jashanno
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: da862af25df241ad42b7e1ade3fdca19f6280278
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410342"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804104"
 ---
 # <a name="store-configurations-for-retail-statements"></a>Configurações de loja para obter demonstrativos de varejo
 
@@ -49,3 +46,6 @@ Este procedimento mostra configurações da loja de Varejo que afetam como as in
 17. Selecione "Sim" em **Método Dividir por Demonstrativo** para obter instruções criadas para cada método do demonstrativo definido. Essa ação poderá ser útil se o desempenho de lançamentos precisar ser aprimorado para armazenamentos com volumes altos de transação, já que criará vários demonstrativos menores que poderão ser processados em paralelo.  
 18. Na Guia Rápida **Geral**, no campo **Cliente padrão**, você pode selecionar a conta de cliente a ser usada para vendas para clientes sem hora marcada.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

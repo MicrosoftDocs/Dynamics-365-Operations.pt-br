@@ -2,28 +2,25 @@
 title: Visão geral da contabilidade e de relatórios financeiros
 description: Use a Contabilidade para definir e gerenciar os registros financeiros da entidade legal.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 65431
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ade10020e4bab02490c9104c37fe1f234d634e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 60ebe19d53e87e385af8e32c32b9c0cc43291eba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440463"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832865"
 ---
 # <a name="general-ledger-home-page"></a>Home page da contabilidade
 
@@ -74,3 +71,6 @@ Confira os vídeos de instruções que agora estão disponíveis no [canal do Mi
 
 - [O que você deve saber sobre o razão no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

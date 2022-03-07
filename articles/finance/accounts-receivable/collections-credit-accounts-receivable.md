@@ -2,28 +2,25 @@
 title: Cobranças em Contas a receber
 description: As informações de cobranças de contas a receber são gerenciadas em uma exibição central usando a página Cobranças do Microsoft Dynamics 365 Finance. Os gerentes de Crédito e cobranças podem usar essa exibição central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças em listas de clientes que são geradas com o uso de critérios de cobrança predefinidos ou na página Clientes.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723910"
 ---
 # <a name="collections-in-accounts-receivable"></a>Cobranças em Contas a receber
 
@@ -102,8 +99,7 @@ A transação de baixa é criada na moeda da transação.
 
 Para obter mais informações, consulte [Criar um diário de baixa para um cliente](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Processar pagamento de insuficiência de fundos (NSF)  
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a>Processar pagamento de insuficiência de fundos (NSF)  
 
 Você pode processar pagamentos NSF ao clicar em Pagamento NSF na página Cobranças. Quando você clica nesse botão, o pagamento é cancelado. Se uma taxa de NSF for aplica ao cliente, uma transação de encargo será criada em um diário de pagamento. O valor da taxa é baseado nas configurações de encargos automáticos. Os encargos automáticas que se aplicam aos pagamentos NSF são especificados pelo grupo de encargos selecionado na página Contas bancárias para a conta bancária afetada.
 
@@ -111,3 +107,6 @@ Você pode processar pagamentos NSF ao clicar em Pagamento NSF na página Cobran
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

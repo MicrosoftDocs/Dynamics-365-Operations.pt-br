@@ -2,16 +2,13 @@
 title: Sincronizar faturas de contrato no Field Service com faturas de texto livre no Supply Chain Management
 description: Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar faturas de contrato no Dynamics 365 Field Service às faturas de texto livre no Dynamics 365 Supply Chain Management.
 author: ChristianRytt
-manager: tfehr
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2d0f671d4b824cb5d38a5d11c4b06b2e97bd0c8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f3066741781bd9058e09d7f577a35df4c9b453d4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528236"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819199"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sincronizar faturas de contrato no Field Service com faturas de texto livre no Supply Chain Management
 
@@ -55,23 +52,23 @@ As sincronização a seguir é necessária antes que a sincronização de fatura
 
 | Field Service  | Gerenciamento da Cadeia de Fornecedores                 |
 |----------------|----------------------------------------|
-| faturas       | Cabeçalhos de fatura de texto livre de cliente CDS |
-| invoicedetails | Linhas de fatura de texto livre de cliente CDS   |
+| faturas       | Cabeçalhos de fatura de texto livre de cliente do Dataverse |
+| invoicedetails | Linhas de fatura de texto livre de cliente do Dataverse   |
 
 ## <a name="entity-flow"></a>Fluxo de entidades
 
-As faturas criadas com base em um contrato no Field Service podem ser sincronizadas com o Supply Chain Management por um projeto de Integração de dados do Common Data Service. As atualizações dessas faturas serão sincronizadas com as faturas de texto livre no Supply Chain Management se o status de contabilidade das faturas de texto livre for **Em processamento**. Depois que as faturas de texto livre forem lançadas no Supply Chain Management e o status da contabilidade for atualizado para **Concluído**, você não poderá mais sincronizar atualizações do Field Service.
+As faturas criadas com base em um contrato no Field Service podem ser sincronizadas com o Supply Chain Management por um projeto de Integração de dados do Microsoft Dataverse. As atualizações dessas faturas serão sincronizadas com as faturas de texto livre no Supply Chain Management se o status de contabilidade das faturas de texto livre for **Em processamento**. Depois que as faturas de texto livre forem lançadas no Supply Chain Management e o status da contabilidade for atualizado para **Concluído**, você não poderá mais sincronizar atualizações do Field Service.
 
 ## <a name="field-service-crm-solution"></a>Solução Field Service CRM
 
-O campo **Tem Linhas com Origem de Contrato** foi adicionado à entidade **Fatura**. Esse campo ajuda a garantir que somente as faturas criadas a partir de um contrato sejam sincronizadas. O valor será **verdadeiro** se a fatura contiver pelo menos uma linha de fatura que seja originária de um contrato.
+A coluna **Tem Linhas com Origem de Contrato** foi adicionada à tabela **Fatura**. Essa coluna ajuda a garantir que somente as faturas criadas a partir de um contrato sejam sincronizadas. O valor será **verdadeiro** se a fatura contiver pelo menos uma linha de fatura que seja originária de um contrato.
 
-O campo **Tem Origem de Contrato** foi adicionado à entidade **Linha da Fatura**. Esse campo ajuda a garantir que somente as linhas de faturas criadas a partir de um contrato sejam sincronizadas. O valor será **verdadeiro** se a linha da fatura for originária de um contrato.
+A coluna **Tem Origem de Contrato** foi adicionada à tabela **Linha de fatura**. Essa coluna ajuda a garantir que somente as linhas de fatura criadas a partir de um contrato sejam sincronizadas. O valor será **verdadeiro** se a linha da fatura for originária de um contrato.
 
-**Data da fatura** é um campo obrigatório no Supply Chain Management. Portanto, o campo deverá ter um valor no Field Service antes que a sincronização ocorra. Para atender a esse requisito, lógica a seguir foi adicionada:
+**Data da fatura** é um campo obrigatório no Supply Chain Management. Portanto, a coluna deverá ter um valor no Field Service antes que a sincronização ocorra. Para atender a esse requisito, lógica a seguir foi adicionada:
 
-- Se o campo **Data da fatura** estiver em branco na entidade **Fatura** (ou seja, se não tiver nenhum valor), ela será definida como a data atual quando uma linha de fatura originária de um contrato for adicionada.
-- O usuário poderá alterar o campo **Data da fatura**. No entanto, quando o usuário tentar salvar uma fatura originária de um contrato, ele receberá uma mensagem de erro de processo comercial se o campo **Data da fatura** estiver em branco na fatura.
+- Se a coluna **Data da fatura** estiver em branco na tabela **Fatura** (ou seja, se não tiver nenhum valor), ela será definida como a data atual quando uma linha de fatura originária de um contrato for adicionada.
+- O usuário poderá alterar a coluna **Data da fatura**. No entanto, quando o usuário tentar salvar uma fatura originária de um contrato, ele receberá uma mensagem de erro de processo comercial se a coluna **Data da fatura** estiver em branco na fatura.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
@@ -108,3 +105,6 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Faturas de contrato (Field Service para Supply Chain Management): Linhas da fatura
 
 [![Mapeamento de modelo na Integração de dados](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Criar um trabalho em lotes
 description: Um trabalho em lotes é um grupo de tarefas que são enviadas para uma instância do Application Object Server (AOS) para processamento automático.
 author: maertenm
-manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4360cd7068658a170f5b44c2ce7c71c39c44fa8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ac91c907f4c2cfa03b9750cb3995851e319a3827f42442402f7c02824209b3b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733700"
 ---
 # <a name="create-a-batch-job"></a>Criar um trabalho em lotes
 
@@ -30,7 +28,7 @@ Um trabalho em lotes é um grupo de tarefas que são enviadas para uma instânci
 
 
 ## <a name="create-the-batch-job"></a>Criar o trabalho em lotes
-1. Vá para **Painel de navegação > Módulos > Administração do sistema > Consultas > Trabalhos em lotes**.
+1. Acesse **Painel de navegação > Módulos > Administração do sistema > Consultas > Trabalhos em lotes**.
 2. Clique em **Novo**.
 3. No campo **Descrição do trabalho**, digite um valor.
 4. No campo **Data/hora inicial agendada**, insira uma data e hora.
@@ -47,10 +45,13 @@ Um trabalho em lotes é um grupo de tarefas que são enviadas para uma instânci
 3. Clique em **OK**.
 
 ## <a name="adjust-batch-job-status"></a>Ajuste o status de trabalho em lotes
-1. Vá para **Administração do sistema > Consultas > Trabalhos em lotes**.
+1. Acesse **Administração do sistema > Consultas > Trabalhos em lotes**.
 2. Selecione o trabalho em lotes apropriado.
 3. No Painel de Ação, clique em **Trabalho em lotes > Funções > Alterar status**.
 4. Selecione o status apropriado:
     - **Reter**: definir o trabalho em lotes como **reter** para que seja retido do agendador de trabalho em lotes. Equivalente a *parar*.
     - **Aguardar**: definir o trabalho em lotes como **aguardar** para que aguarde para ser retirado pelo agendador de trabalho em lotes. Equivalente a *ir*.
 5. Clique em **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

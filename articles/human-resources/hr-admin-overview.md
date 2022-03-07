@@ -1,31 +1,30 @@
 ---
-title: Visão geral
+title: Visão geral de administração
 description: Este Guia do Administrador ajuda você a configurar, gerenciar e solucionar problemas do Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527852"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765605"
 ---
-# <a name="overview"></a>Visão geral
+# <a name="administration-overview"></a>Visão geral de administração
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,15 +40,15 @@ Este Guia do Administrador ajuda você a configurar, gerenciar e solucionar prob
 
 - Configurar integração de dados
   - [Escolha uma tecnologia de integração de dados](hr-admin-integration-choose-technology.md)
-  - [Configurar integração do Common Data Service](hr-admin-integration-common-data-service.md)
+  - [Configurar integração do Dataverse](hr-admin-integration-common-data-service.md)
   - [Configurar a integração com o Finance](hr-admin-integration-finance.md)
   - [Configurar a integração com o Dayforce](hr-admin-integration-dayforce.md)
   - [Criar um aplicativo de exportação de dados recorrente](hr-admin-integration-recurring-data-export.md)
   - Integrar com o Office
-    - [Tutorial de integração do Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Atualizar dados da entidade no Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Criar experiências de Abrir no Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Solucionar problemas de integração do Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Tutorial de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Atualizar dados da entidade no Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Criar experiências de Abrir no Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Solucionar problemas de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Gerenciar recursos](hr-admin-manage-features.md)
 
@@ -84,7 +83,7 @@ Este Guia do Administrador ajuda você a configurar, gerenciar e solucionar prob
   - [Criar documentação ou treinamento com o Gravador de tarefas](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Solucionar problemas do Human Resources
-  - [Obter suporte](hr-admin-troubleshooting-support.md)
+  - [Obter suporte](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Otimizar o desempenho com tarefas de limpeza automática](hr-admin-troubleshooting-batch-history.md)
   - [Os relatórios analíticos não estão atualizados](hr-admin-troubleshooting-analytic-reports.md)
   - [Não é possível criar um ambiente no Centro de administração do Power Apps](hr-admin-troubleshooting-power-apps.md)
@@ -102,3 +101,5 @@ Este Guia do Administrador ajuda você a configurar, gerenciar e solucionar prob
 - [Novidades ou alterações em Human Resources](hr-admin-whats-new.md)
 - [Guia do desenvolvedor](hr-developer-overview.md)
 - [Guia do usuário](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

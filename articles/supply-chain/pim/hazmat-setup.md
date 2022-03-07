@@ -1,37 +1,33 @@
 ---
 title: Configurar materiais perigosos
 description: Este tópico explica como configurar os dados necessários para classificar itens como materiais perigosos. Quando você cria uma ordem de venda que inclui um item classificado como um material perigoso, o sistema gera uma documentação de materiais perigosos para essa ordem de venda quando ela é enviada.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422368"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778000"
 ---
 # <a name="set-up-hazardous-materials"></a>Configurar materiais perigosos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Para usar a funcionalidade de materiais perigosos, você deve primeiro configurar os dados necessários para classificar itens como materiais perigosos. Quando você cria uma ordem de venda que inclui um item classificado como um material perigoso, o sistema gera uma documentação de materiais perigosos para essa ordem de venda quando ela é enviada.
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Ativar o recurso materiais perigosos para o sistema
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
 
 - **Módulo:** *Gerenciamento de informações sobre produtos*
 - **Nome do recurso:** *Informações do produto e documentação de remessa sobre materiais perigosos*
@@ -58,7 +54,7 @@ Esses dados de configuração não são específicos de cada entidade legal (emp
 
 Para cada regulamentação, você pode definir uma lista de materiais e usá-la como uma lista de modelos associada a itens liberados. Para cada regulamentação, você também pode definir uma configuração de impressão. Uma configuração de impressão permite definir como o texto de remessa de um item é construído. A configuração de impressão é usada para construir o texto impresso da remessa para um item liberado.
 
-Para configurar regulamentações de materiais perigosos, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Regulamentação de materiais perigosos**. Na página **Regulamentação de materiais perigosos**, você pode criar qualquer quantidade de regulamentações e configurar cada uma delas usando os campos descritos nas subseções a seguir.
+Para configurar regulamentações de materiais perigosos, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Regulamentação de materiais perigosos**. Na página **Regulamentação de materiais perigosos**, você pode criar qualquer quantidade de regulamentações e configurar cada uma delas usando os campos descritos nas subseções a seguir.
 
 ### <a name="hazardous-material-regulation-header"></a>Cabeçalho da regulamentação de materiais perigosos
 
@@ -110,7 +106,7 @@ Os códigos de material estabelecem configurações relacionadas a um componente
 
 Para gerenciar suas definições de materiais perigosos, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Regulamentação de materiais perigosos**.
+1. Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Regulamentação de materiais perigosos**.
 2. Selecione a regulamentação para configurar uma definição de materiais perigosos.
 3. No Painel de Ações, na guia **Configuração**, selecione **Materiais perigosos**.
 4. No campo **Código de material**, insira um código de material para a definição de materiais perigosos. Você selecionará este valor ao aplicar o código de material a um produto liberado.
@@ -127,7 +123,7 @@ Quando você atribuir o código de um grupo de classificação de materiais peri
 
 Esses dados de configuração não são específicos de cada entidade legal. Portanto, você pode ter um conjunto comum de informações de materiais perigosos que é compartilhado entre todas as entidades legais.
 
-Para configurar grupos de classificação de materiais perigosos, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Grupo de classificação de materiais perigosos**. Na página **Grupo de classificação de materiais perigosos**, você pode criar qualquer quantidade de grupos e configurar cada um deles usando os campos descritos na tabela a seguir.
+Para configurar grupos de classificação de materiais perigosos, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Grupo de classificação de materiais perigosos**. Na página **Grupo de classificação de materiais perigosos**, você pode criar qualquer quantidade de grupos e configurar cada um deles usando os campos descritos na tabela a seguir.
 
 | Campo | descrição |
 |---|---|
@@ -153,7 +149,7 @@ As classes de materiais perigosos funcionam em conjunto com divisões, grupos e 
 - Você pode usar classes de materiais perigosos em conjunto com [grupos de classificação de materiais perigosos](#classification-groups) para estabelecer um modelo de códigos para a configuração de itens.
 - Você pode usar [grupos de compatibilidade de materiais perigosos](#compatibility-groups) para estabelecer quais classes e divisões de materiais perigosos podem ser enviadas juntas.
 
-Para configurar classes de materiais perigosos, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Classe de materiais perigosos**. Na página **Classe de materiais perigosos**, você pode criar qualquer quantidade de classes e configurar cada uma delas usando os campos descritos na tabela a seguir.
+Para configurar classes de materiais perigosos, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Classe de materiais perigosos**. Na página **Classe de materiais perigosos**, você pode criar qualquer quantidade de classes e configurar cada uma delas usando os campos descritos na tabela a seguir.
 
 | Campo | descrição |
 |---|---|
@@ -174,7 +170,7 @@ As divisões de materiais perigosos funcionam em conjunto com classes, grupos e 
 - Você pode usar divisões de materiais perigosos em conjunto com [grupos de classificação de materiais perigosos](#classification-groups) para estabelecer um modelo de códigos para a configuração de itens.
 - Você pode usar [grupos de compatibilidade de materiais perigosos](#compatibility-groups) para estabelecer quais classes e divisões de materiais perigosos podem ser enviadas juntas.
 
-Para configurar divisões de materiais perigosos, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Divisão de materiais perigosos**. Na página **Divisão de materiais perigosos**, você pode criar qualquer quantidade de divisões e configurar cada uma delas usando os campos descritos na tabela a seguir.
+Para configurar divisões de materiais perigosos, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Divisão de materiais perigosos**. Na página **Divisão de materiais perigosos**, você pode criar qualquer quantidade de divisões e configurar cada uma delas usando os campos descritos na tabela a seguir.
 
 | Campo | descrição |
 |---|---|
@@ -188,7 +184,7 @@ Grupos de compatibilidade de materiais perigosos estabelecem quais classes e div
 
 Esses dados de configuração não são específicos de cada entidade legal. Portanto, você pode ter um conjunto comum de informações de materiais perigosos que é compartilhado entre todas as entidades legais.
 
-Para configurar grupos de compatibilidade de materiais perigosos, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Grupo de compatibilidade de materiais perigosos**. Na página **Grupo de compatibilidade de materiais perigosos**, você pode criar qualquer quantidade de grupos de compatibilidade e configurar cada uma delas usando os campos descritos nas subseções a seguir.
+Para configurar grupos de compatibilidade de materiais perigosos, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Grupo de compatibilidade de materiais perigosos**. Na página **Grupo de compatibilidade de materiais perigosos**, você pode criar qualquer quantidade de grupos de compatibilidade e configurar cada uma delas usando os campos descritos nas subseções a seguir.
 
 ### <a name="hazardous-material-compatibility-group-header"></a>Cabeçalho de grupos de compatibilidade de materiais perigosos
 
@@ -222,13 +218,13 @@ Você usará [códigos de material](#hazmat-codes) para estabelecer coleções c
 
 A especificação de *Resposta de emergência de materiais perigosos* indica o que deverá ser feito se algo der errado durante o transporte de um produto contendo determinado material perigoso.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Resposta de emergência de materiais perigosos**. Na página **Resposta de emergência de materiais perigosos**, você pode criar qualquer quantidade de valores e configurar cada um com um código de classificação e uma breve descrição.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Resposta de emergência de materiais perigosos**. Na página **Resposta de emergência de materiais perigosos**, você pode criar qualquer quantidade de valores e configurar cada um com um código de classificação e uma breve descrição.
 
 ### <a name="hazardous-material-identification"></a><a name="identification"></a>Identificação de material perigoso
 
 A especificação *Identificação de materiais perigosos* identifica a classe ou a natureza de um material perigoso. O valor costuma ser um código que se baseia em um padrão das Nações Unidas (ONU). Cada classe é identificada por um código e uma descrição, e pode definir limites para os métodos de transporte. Por exemplo, para identificar um material ou item inflamável, crie uma classe de materiais perigosos que use o código *FL* e a descrição *Inflamável*. Também é possível especificar que a classe não deve ser transportada pelo ar.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Identificação de materiais perigosos**. Na página **Identificação de materiais perigosos**, você pode criar qualquer quantidade de valores e configurar cada um deles usando os campos descritos na tabela a seguir.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Identificação de materiais perigosos**. Na página **Identificação de materiais perigosos**, você pode criar qualquer quantidade de valores e configurar cada um deles usando os campos descritos na tabela a seguir.
 
 | Campo | descrição |
 |---|---|
@@ -241,46 +237,49 @@ Para configurar valores para esta especificação, vá para **Gerenciamento de i
 
 A especificação *Etiqueta de material perigoso* identifica a etiqueta de mercadorias perigosas que deve ser aplicada a produtos liberados relevantes. As etiquetas em si descreverão como o produto deve ser manipulado. Por exemplo, você tem um produto que contém um gás venenoso. Nesse caso, você configura um código de etiqueta que representa a etiqueta de gás venenoso. Você também cria seu processo empresarial para que ele pesquise esse valor quando você enviar produtos.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Etiqueta de materiais perigosos**. Na página **Etiqueta de materiais perigosos**, você pode criar qualquer quantidade de etiquetas e configurar cada uma com um código de identificação e uma breve descrição.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Etiqueta de materiais perigosos**. Na página **Etiqueta de materiais perigosos**, você pode criar qualquer quantidade de etiquetas e configurar cada uma com um código de identificação e uma breve descrição.
 
 ### <a name="hazardous-material-packing-descriptions"></a><a name="packing-description"></a>Descrições de embalagem de material perigoso
 
 A especificação *Descrições de embalagens de materiais perigosos* indica como um item perigoso deve ser embalado. Por exemplo, talvez ele precise ser embalado em um tipo específico de tambor de aço ou outro tipo de embalagem especial.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Descrições de embalagens de materiais perigosos**. Na página **Descrições de embalagens de materiais perigosos**, você pode criar qualquer quantidade de descrições de embalagens e configurar cada uma com um código de identificação e uma breve descrição.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Descrições de embalagens de materiais perigosos**. Na página **Descrições de embalagens de materiais perigosos**, você pode criar qualquer quantidade de descrições de embalagens e configurar cada uma com um código de identificação e uma breve descrição.
 
 ### <a name="hazardous-material-packing-group"></a><a name="packing-group"></a>Grupo de embalagens de material perigoso
 
 A especificação *Grupo de embalagens de materiais perigosos* identifica o grupo de embalagens de um item perigoso. O grupo de embalagens permite definir um código e uma descrição para indicar como os itens de materiais perigosos devem ser embalados durante o transporte ou a remessa. O grupo de embalagens é atribuído ao item por meio da página **Materiais perigosos do item**.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Grupo de embalagens de materiais perigosos**. Na página **Grupo de embalagens de materiais perigosos**, você pode criar qualquer quantidade de grupos de embalagens e configurar cada uma com um código de identificação e uma breve descrição.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Grupo de embalagens de materiais perigosos**. Na página **Grupo de embalagens de materiais perigosos**, você pode criar qualquer quantidade de grupos de embalagens e configurar cada uma com um código de identificação e uma breve descrição.
 
 ### <a name="hazardous-material-packing-instruction"></a><a name="packing-instruction"></a>Instruções de embalagem de material perigoso
 
 A especificação *Instrução de embalagem de materiais perigosos* identifica as instruções de embalagem que devem ser seguidas quando determinado item perigoso é preparado para transporte pelo ar.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Instrução de embalagens de materiais perigosos**. Na página **Instrução de embalagens de materiais perigosos**, você pode criar qualquer quantidade de identificadores de instruções de embalagens e configurar cada um com um código de identificação e uma breve descrição.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Instrução de embalagens de materiais perigosos**. Na página **Instrução de embalagens de materiais perigosos**, você pode criar qualquer quantidade de identificadores de instruções de embalagens e configurar cada um com um código de identificação e uma breve descrição.
 
 ### <a name="hazardous-material-stowage"></a><a name="stowage"></a>Estiva de material perigoso
 
 A especificação *Acondicionamento de materiais perigosos* indica como um produto deve ser armazenado em um navio quando ele é transportado por frete marítimo.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Acondicionamento de materiais perigosos**. Na página **Acondicionamento de materiais perigosos**, você pode criar qualquer quantidade de identificadores de acondicionamento e configurar cada um com um código de identificação e uma breve descrição.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Acondicionamento de materiais perigosos**. Na página **Acondicionamento de materiais perigosos**, você pode criar qualquer quantidade de identificadores de acondicionamento e configurar cada um com um código de identificação e uma breve descrição.
 
 ### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a>Categoria de transporte de material perigoso
 
 A especificação *Categoria de transporte de materiais perigosos* costuma ser usada para agrupar produtos perigosos semelhantes em relatórios. Por exemplo, as categorias de transporte são usadas no relatório **Resumo de remessa**, que pode ser impresso no registro de remessa do depósito.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Categoria de transporte de materiais perigosos**. Na página **Categoria de transporte de materiais perigosos**, você pode criar qualquer quantidade de categorias de transporte e configurar cada uma com um nome de exibição e uma breve descrição.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Categoria de transporte de materiais perigosos**. Na página **Categoria de transporte de materiais perigosos**, você pode criar qualquer quantidade de categorias de transporte e configurar cada uma com um nome de exibição e uma breve descrição.
 
 ### <a name="hazardous-material-technical-name"></a><a name="technical-name"></a>Nome técnico do material perigoso
 
 A especificação *Nome técnico de materiais perigosos* pode ser usada para fornecer um nome da empresa usado com frequência ou interno que descreve cada material.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Nome técnico de materiais perigosos**. Na página **Nome técnico de materiais perigosos**, você pode criar qualquer quantidade de nomes técnicos e configurar cada um com um nome de exibição e uma breve descrição.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Nome técnico de materiais perigosos**. Na página **Nome técnico de materiais perigosos**, você pode criar qualquer quantidade de nomes técnicos e configurar cada um com um nome de exibição e uma breve descrição.
 
 ### <a name="hazardous-material-tunnel"></a><a name="tunnel"></a>Túnel de material perigoso
 
 A especificação *Túnel de materiais perigosos* limita os tipos de túneis em que um material perigoso pode ser transportado, identificando os tipos de túneis que devem ser usados. As categorias de túnel são estabelecidas pelas regulamentações aplicáveis para o transporte de materiais perigosos. Esta especificação em geral se aplica apenas ao transporte rodoviário.
 
-Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Túnel de materiais perigosos**. Na página **Túnel de materiais perigosos**, você pode criar qualquer quantidade de identificadores de túnel e configurar cada um com um código de identificação e uma breve descrição.
+Para configurar valores para esta especificação, Acesse **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Túnel de materiais perigosos**. Na página **Túnel de materiais perigosos**, você pode criar qualquer quantidade de identificadores de túnel e configurar cada um com um código de identificação e uma breve descrição.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

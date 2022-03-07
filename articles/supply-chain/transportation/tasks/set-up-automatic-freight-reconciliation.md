@@ -1,28 +1,25 @@
 ---
 title: Configurar automatização de reconciliação de frete
 description: Este procedimento mostra como definir dados para reconciliação automática de frete.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f11edc15821faad84485d5b81e4a9ded0b7e974
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d1dbe3c683d869f86bc7231c68839f431cc61d6b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421969"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574824"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Configurar automatização de reconciliação de frete
 
@@ -32,7 +29,7 @@ Este procedimento mostra como definir dados para reconciliação automática de 
 
 
 ## <a name="set-up-the-freight-bill-type"></a>Configurar o tipo de conta de frete
-1. Vá para Gerenciamento de transporte > Configuração > Reconciliação de frete > Tipo de nota de frete.
+1. Acesse Gerenciamento de transporte > Configuração > Reconciliação de frete > Tipo de nota de frete.
     * O tipo de conta de fretes define como as contas de frete e faturas de transportadora devem ser correspondidas.  
 2. Clique em Novo.
 3. No campo Tipo de nota de frete, digite um valor.
@@ -48,7 +45,7 @@ Este procedimento mostra como definir dados para reconciliação automática de 
 
 ## <a name="set-up-the-freight-bill-type-assignment"></a>Configurar a atribuição do tipo de conta de frete
 1. Feche a página.
-2. Vá para Gerenciamento de transporte > Configuração > Reconciliação de frete > Atribuições de tipo de nota de frete.
+2. Acesse Gerenciamento de transporte > Configuração > Reconciliação de frete > Atribuições de tipo de nota de frete.
     * A atribuição do tipo de conta de frete é usada para especificar o tipo de conta de frete usado para uma transportadora específica.   
 3. Clique em Novo.
 4. No campo Modo, insira ou selecione um valor.
@@ -57,7 +54,7 @@ Este procedimento mostra como definir dados para reconciliação automática de 
 7. Feche a página.
 
 ## <a name="set-up-the-audit-master"></a>Configure o planejamento de auditoria
-1. Vá para Gerenciamento de transporte > Configuração > Reconciliação de frete > Auditoria mestre.
+1. Acesse Gerenciamento de transporte > Configuração > Reconciliação de frete > Auditoria mestre.
     * O planejamento de auditoria define limites de tolerância para reconciliação automática de frete. Especifique por quanto os valores monetários na conta de frete e na fatura de transportadora pode diferir e ainda conceder a reconciliação. Também define como cuidar de discrepâncias.  
 2. Clique em Novo.
 3. No campo ID da auditoria mestre, digite um valor.
@@ -72,3 +69,6 @@ Este procedimento mostra como definir dados para reconciliação automática de 
 11. No campo Código de motivo de pagamento a menor, insira ou selecione um valor.
 12. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

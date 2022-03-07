@@ -1,12 +1,10 @@
 ---
 title: Agendamento de manutenção
 description: Este tópico explica o agendamento de manutenção no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectCalendarCreateWO, EntAssetObjectCalendarListPagePoolsOpen, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePreviewPart, EntAssetObjectCalendarEdit, EntAssetObjectCalendarAdjust, EntAssetObjectCalendarDiscard, EntAssetObjectCalendarInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d235a3797b1acee9c92c3d81e8b4a20e1f7c5c75
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e2831d4a81f04b19eb894f533ac8768017aa8c98
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017937"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360985"
 ---
 # <a name="maintenance-schedule"></a>Agendamento de manutenção
 
@@ -65,5 +63,8 @@ Para abrir um agendamento de manutenção:
 
 A ilustração a seguir mostra a página da lista **Todos os agendamentos de manutenção**.
 
-![Figura 1](media/16-preventive-maintenance.png)
+![Figura 1.](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

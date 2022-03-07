@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967221"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580906"
 ---
 # <a name="release-product-structures"></a>Liberar estruturas de produtos
 
@@ -76,8 +76,6 @@ Para obter um exemplo de como aceitar um produto, consulte [Revisar e aceitar o 
 ## <a name="release-policies"></a>Políticas de liberação
 
 Nem todas as empresas operacionais precisam dos mesmos dados de produtos. Em geral, as empresas operacionais que fabricam produtos de engenharia exigem uma BOM, enquanto a empresa operacional que apenas vende produtos de engenharia não exigem uma BOM. Você pode usar as diretivas de liberação para estabelecer os parâmetros usados para a liberação de produtos.
-
-Para produtos de engenharia, a política de liberação é atribuída na categoria de produto de engenharia, e o campo é obrigatório. Para produtos padrão, a diretiva é atribuída ao produto compartilhado e o campo é opcional.
 
 Para obter mais informações sobre categorias de produto de engenharia, consulte [Versões de engenharia e categorias de produto de engenharia](engineering-versions-product-category.md).
 
@@ -159,3 +157,6 @@ Esse comportamento se aplica somente quando um produto é selecionado diretament
 Por exemplo, o produto X é atribuído ao grupo de proprietários de produtos *Projetar gabinetes*. O produto X também faz parte da BOM do produto Y, que é atribuída ao grupo de proprietários de produtos de *Design de alto-falantes*. Se um usuário do grupo de proprietários de produtos *Design de alto-falantes* lançar o produto Y e sua BOM, o produto X será liberado junto com o produto Y.
 
 Para obter mais informações, consulte [Proprietários do produto](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

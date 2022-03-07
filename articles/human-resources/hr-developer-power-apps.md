@@ -2,7 +2,7 @@
 title: Estender o Talent com o Power Apps e o Power Automate
 description: Este artigo descreve alguns exemplos de cenários de extensibilidade para o Microsoft Dynamics 365 Human Resources que usam o Microsoft Power Apps e o Microsoft Power Automate.
 author: negudava
-manager: Annbe
+manager: tfehr
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,23 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core;Experience Apps;Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: edc2352fa53ac93c582b608b65fc624ff5dcd2a4
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527017"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467064"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Estender com o Power Apps e o Power Automate
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -51,7 +53,7 @@ Para baixar o aplicativo **Integração com o Microsoft 365, Power Automate**, v
 
 O modelo **Power Automate — Conectar ao SQL e executar** conecta-se ao Microsoft SQL Server e habilita a execução de consultas SQL.
 
-Embora esse modelo leia e atualize tabelas SQL, você pode estendê-las e usá-las em outros cenários. Por exemplo, você pode usá-la para preencher uma tabela de preparação no Common Data Service com registros do SQL Server e para sincronizar periodicamente a tabela de preparação usando um push incremental do SQL Server.
+Embora esse modelo leia e atualize tabelas SQL, você pode estendê-las e usá-las em outros cenários. Por exemplo, você pode usá-la para preencher uma tabela de preparação no Dataverse com registros do SQL Server e para sincronizar periodicamente a tabela de preparação usando um push incremental do SQL Server.
 
 A consulta avançada é integrada ao fluxo para habilitar a transformação de dados e o push incremental.
 
@@ -60,3 +62,5 @@ Para baixar o modelo **Power Automate — Conectar ao SQL e executar**, acesse [
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [A Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

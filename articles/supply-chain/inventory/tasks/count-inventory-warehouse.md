@@ -2,27 +2,24 @@
 title: Contar estoque em um depósito
 description: Este tópico descreve o processo de criação e lançamento de um diário de contagem de estoque para que um item específico em um local do depósito seja contabilizado.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34013783bab79d80f1dac9a7806042608635e617
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1cc89e3773005502c193364a721a835fe01dde9f1f22046e9c10c7d186b508d5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422450"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768134"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Contar estoque em um depósito
 
@@ -32,7 +29,7 @@ Este tópico descreve o processo de criação e lançamento de um diário de con
 
 
 ## <a name="create-an-inventory-counting-journal"></a>Criar diário de contagem de estoque
-1. Vá para **Painel de navegação > Módulos > Gerenciamento de estoque > Entradas de diário > Contagem de itens > Contagem**.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de estoque > Entradas de diário > Contagem de itens > Contagem**.
 2. Selecione **Novo**.
 3. No campo **Nome** , selecione o nome de diário de contagem de estoque a ser usado na lista suspensa. Alguns outros campos serão preenchidos com base na configuração do nome do diário de contagem de estoque que você selecionar.  
 4. No campo **Trabalhador**, selecione o botão suspenso para abrir a pesquisa.
@@ -56,3 +53,6 @@ Este tópico descreve o processo de criação e lançamento de um diário de con
 1. Selecione **Estoque**.
 2. Selecione **Transações**. Aqui é possível ver qualquer transação relacionada que será criada quando você lançar seu diário de contagem de estoque.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

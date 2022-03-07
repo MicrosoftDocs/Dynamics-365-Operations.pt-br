@@ -2,11 +2,9 @@
 title: Configurar formatos de ER para usar parâmetros especificados por entidade legal
 description: Este tópico explica como configurar formatos de relatório eletrônico (ER) para usar parâmetros especificados por entidade legal.
 author: NickSelin
-manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0ed1442403ae82dfc820212e3e235737f37f21a4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679717"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751169"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurar formatos de ER para usar parâmetros especificados por entidade legal
 
@@ -49,14 +47,14 @@ Recomendamos que você conclua as etapas no tópico [Suporte a chamadas parametr
 
 ## <a name="import-er-configurations-into-rcs"></a>Importar configurações de ER para o RCS
 
-No [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=851448), baixe o arquivo compactado **Suporte a chamadas parametrizadas de fontes de dados de ER do tipo CAMPO CALCULADO**. Esse arquivo contém as configurações de ER a seguir que devem ser extraídas e armazenadas localmente.
+Baixe e armazene localmente as seguintes configurações ER.
 
 | **Descrição do conteúdo**                        | **Nome do arquivo**                                        |
 |------------------------------------------------|------------------------------------------------------|
-| Exemplo de arquivo de configuração **Modelo de dados de ER**    | Modelo para conhecer chamadas parametrizadas.versão.1.xml     |
-| Exemplo de arquivo de configuração **Metadados de ER**      | Metadados para conhecer chamadas parametrizadas.versão.1.xml  |
-| Exemplo de arquivo de configuração **Mapeamento de modelos de ER** | Mapeamento para conhecer chamadas parametrizadas.versão.1.1.xml |
-| Exemplo de configuração **Formato de ER**             | Formato para conhecer chamadas parametrizadas.versão.1.1.xml  |
+| Exemplo de arquivo de configuração **Modelo de dados de ER**    | [Modelo para conhecer chamadas parametrizadas.versão.1.xml](https://download.microsoft.com/download/2/d/b/2db913a0-3622-494e-91a2-97fc494af9b9/Modeltolearnparameterizedcalls.version.1.xml)     |
+| Exemplo de arquivo de configuração **Metadados de ER**      | [Metadados para conhecer chamadas parametrizadas.versão.1.xml](https://download.microsoft.com/download/1/b/3/1b343968-5a47-4000-b5a8-6487698ef4c0/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Exemplo de arquivo de configuração **Mapeamento de modelos de ER** | [Mapeamento para conhecer chamadas parametrizadas.versão.1.1.xml](https://download.microsoft.com/download/8/6/6/866e0ab6-2e05-4d98-9d52-d2da2038f6e4/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Exemplo de configuração **Formato de ER**             | [Formato para conhecer chamadas parametrizadas.versão.1.1.xml](https://download.microsoft.com/download/e/3/9/e392eadc-b9b4-4834-95c3-b8066dd00b9c/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 Em seguida, entre em sua instância do RCS.
 
@@ -80,17 +78,17 @@ Neste exemplo, você irá criar uma configuração para a empresa de exemplo Lit
 
     O formato de ER **Formato para conhecer chamadas parametrizadas** gera uma obrigação fiscal no formato XML apresentando vários níveis de tributação (normal, reduzido e nenhum.) Cada nível tem um número diferente de detalhes.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![Vários níveis do formato ER, Formato para conhecer chamadas parametrizadas](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Na guia **Mapeamento**, expanda os itens **Modelo**, **Dados** e **Resumo**.
 
     A fonte de dados **Model.Data.Summary** retorna a lista de transações de imposto. Essas transações são resumidas por código de imposto. Para essa fonte de dados, o campo calculado **Model.Data.Summary.Level** foi configurado para retornar o código do nível de tributação de cada registro resumido. Para qualquer código de imposto que pode ser recuperado da fonte de dados **Model.Data.Summary** em tempo de execução. o campo calculado retorna o código do nível de tributação (**Normal**, **Reduzido**, **Nenhum** ou **Outro**) como um valor de texto. O campo calculado **Model.Data.Summary.Level** é usado para filtrar registros da fonte de dados **Model.Data.Summary** e inserir os dados filtrados em cada elemento XML que representa um nível de tributação usando os campos **Model.Data2.Level1**, **Model.Data2.Level2** e **Model.Data2.Level3**.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![A lista da fonte de dados Model.Data.Summary de transações de imposto](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     O campo calculado **Model.Data.Summary.Level** foi configurado para conter uma expressão de ER. Observe que os códigos de imposto (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** e **InVAT0**) são embutidos em código nesta configuração. Portanto, esse formato de ER depende da entidade legal onde esses códigos de imposto foram configurados.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![O campo Model.Data.Summary.Level calculado com códigos de imposto codificados](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Para dar suporte a um conjunto de códigos de imposto diferente para cada entidade legal, você deve seguir estas etapas:
 
@@ -130,7 +128,7 @@ Em seguida, você adicionará uma nova enumeração de formato de ER. Os valores
 12. Selecione **Adicionar** novamente.
 13. No campo **Nome**, insira **Outro**.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Novo registro na página de Enumerações de formato](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Como os usuários empresariais podem utilizar diferentes idiomas para especificar conjuntos de códigos de imposto dependentes da entidade legal, recomendamos traduzir os valores dessa enumeração para os idiomas configurados como preferenciais para esses usuários no Finance.
 
@@ -143,7 +141,7 @@ Em seguida, você adicionará uma nova enumeração de formato de ER. Os valores
 20. No campo **Texto traduzido**, digite **keine Besteuerung**.
 21. Selecione **Traduzir**.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Extensão Tradução do texto](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. Selecione **Salvar**.
 23. Feche a página **Enumerações de formato**.
@@ -170,13 +168,13 @@ Em seguida, você adicionará uma nova fonte de dados para especificar como os u
 10. Selecione o item **Model.Data.Tax.Code**.
 11. Selecione o botão **Adicionar** (a seta para a direita.)
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Extensão Colunas](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     Você apenas especificou que, para cada regra especificada nessa fonte dados para reconhecimento do nível de tributação, um usuário empresarial deve selecionar um dos códigos de imposto como uma condição. A lista de códigos de imposto que o usuário empresarial pode selecionar será retornada pela fonte de dados **Model.Data.Tax**. Como essa fonte dados contém o campo **Nome**, o nome do código de imposto será mostrado para cada valor de código de imposto na pesquisa apresentada para o usuário empresarial.
     
 12. Selecione **OK**.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Página do designer de pesquisa](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Os usuários empresariais podem adicionar várias regras como registros dessa fonte de dados. Cada registro será numerado por uma linha por código. As regras serão avaliadas em ordem crescente de número de linha.
 
@@ -190,13 +188,13 @@ Em seguida, você adicionará uma nova fonte de dados para especificar como os u
 
     Observe que você adicionou uma nova fonte de dados que retornará o nível de tributação como o valor da enumeração de formato **Lista de níveis de tributação** para qualquer código de imposto passado para a fonte de dados como argumento do parâmetro **Código** do tipo de dados **String**.
     
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Formatar página do designer com nova fonte de dados](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     Observe que a avaliação das regras configuradas depende do tipo de dados dos campos que foram selecionados para definir as condições dessas regras. Quando você selecionar um campo configurado como um campo de tipo de dados **Numérico** ou **Data**, os critérios serão diferentes dos critérios descritos anteriormente para o tipo de dados **String**. Para os campos **Numérico** e **Data**, a regra deve ser especificada como um intervalo de valores. A condição de regra será considerada atendida quando um valor passado para a fonte de dados estiver no intervalo configurado.
     
     A ilustração a seguir mostra um exemplo desse tipo de configuração. Além do campo **Model.Data.Tax.Code** do tipo de dados **String**, o campo **Model.Tax.Summary.Base** do tipo de dados **Real** é usado para especificar as condições para uma fonte de dados de pesquisa.
     
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Página do designer de pesquisa com colunas adicionais](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Como os campos **Model.Data.Tax.Code** e **Model.Tax.Summary.Base** são selecionados para essa fonte dados de pesquisa, cada regra da fonte de dados será configurada da seguinte maneira:
     
@@ -225,7 +223,7 @@ Como os usuários empresariais podem utilizar diferentes idiomas para especifica
 9.  Selecione **Traduzir**.
 10. Selecione **OK**.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Extensão Propriedades da fonte de dados](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Adicionar um novo campo para consumir a pesquisa configurada
 
@@ -238,12 +236,12 @@ Como os usuários empresariais podem utilizar diferentes idiomas para especifica
 7.  No campo **Fórmula**, insira **Model.Selector(Model.Data.Summary.Code)**.
 8.  Selecione **Salvar**.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Adicionando Model.Selector(Model.Data.Summary.Code) à página do designer de fórmulas](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Feche a página **Editor de fórmulas**.
 10. Selecione **OK**.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Formatar página do designer com nova fórmula adicionada](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Observe que o campo calculado **LevelByLookup** que você adicionou retornará o nível de tributação como o valor da enumeração de formato **Lista de níveis de tributação** para cada registro resumido de transações de imposto. O código de imposto do registro será passado para a fonte de dados de pesquisa **Model.Selector** e o conjunto de regras para essa fonte de dados será usado para selecionar o nível de tributação correto.
 
@@ -283,14 +281,14 @@ Em seguida, você modificará o campo calculado existente para que ele use a fon
 
 ## <a name="complete-the-draft-version-of-a-derived-format"></a>Concluir a versão de rascunho de um formato derivado
 
-1.  Na guia rápida **Versões**, selecione **Alterar status**.
+1.  Na FastTab **Versões**, selecione **Alterar status**.
 2.  Selecione **Concluir**.
 3.  Selecione **OK**.
 
 ## <a name="export-completed-version-of-modified-format"></a>Exportar a versão concluída de um formato modificado
 
 1.  Na árvore de configuração, selecione o item **Formato para saber como pesquisar dados de LE**.
-2.  Na guia rápida **Versões**, selecione o registro com o status **Concluído**.
+2.  Na FastTab **Versões**, selecione o registro com o status **Concluído**.
 3.  Selecione **Taxa de câmbio**.
 4.  Selecione **Exportar como arquivo XML**.
 5.  Selecione **OK**.
@@ -309,3 +307,6 @@ Para aprender a usar o formato de ER configurado **Formato para saber como pesqu
 [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
 
 [Configurar os parâmetros de um formato de ER por entidade legal](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

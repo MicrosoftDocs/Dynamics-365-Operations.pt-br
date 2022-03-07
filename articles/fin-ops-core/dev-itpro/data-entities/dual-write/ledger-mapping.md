@@ -1,29 +1,20 @@
 ---
 title: Razão integrado
 description: Este tópico descreve a integração de dados do razão entre o Finance and Operations e outros aplicativos do Dynamics 365 usando o Dataverse.
-author: robinarh
-manager: AnnBe
+author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: rhaertle
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f794d8306a3a752d811d7d84c0ed5f739f423cad
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.author: tfehr
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: e41d600464d707d01a0e319dd3cd343b04aa26b7
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681633"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782371"
 ---
 # <a name="integrated-ledger"></a>Razão integrado
 
@@ -31,60 +22,26 @@ ms.locfileid: "4681633"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 Em um aplicativo de negócios, os dados do razão definem a configuração principal relacionada ao modo como a empresa faz negócios. Por exemplo, os dados do razão descrevem o ano fiscal seguido pela empresa, as moedas usadas nas transações e as contas que ela utiliza. Este tópico descreve a integração desses dados financeiros principais.
 
 ## <a name="templates"></a>Modelos
 
 Os dados do razão incluem um conjunto de mapas de tabelas financeiras centrais que funcionam juntos durante a interação de dados, conforme mostrado na tabela a seguir.
 
-Aplicativos Finance and Operations      | Aplicativo controlado por modelos no Dynamics 365 | descrição
+Aplicativos do Finance and Operations | Aplicativos do Customer Engagement     | descrição
 ---------------------------------|----------------------------------|------------
-Moedas                       | transactioncurrencies            |
-FiscalCalendar                   | msdyn\_fiscalcalendars        |
-FiscalCalendarYear               | msdyn\_fiscalcalendaryears        |
-ExchRateType                     | msdyn\_exchangeratetypes        |
-ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs        |
-FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods        |
-MainAccountCategory              | msdyn\_mainaccountcategory        |
-MainAccount                      | msdyn\_mainaccounts        |
-Razão                           | msdyn\_ledgers        |
-ExchangeRates                    | msdyn\_currencyexchangerates        |
-FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods        |
-DimensionAttributeEntity         | msdyn\_dimensionattributes        |
-DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats        |
-LedgerChartOfAccounts            | msdyn\_chartofaccounts        |
+[Taxas de Câmbio do CDS](mapping-reference.md#123) | msdyn_currencyexchangerates |
+[Plano de Contas](mapping-reference.md#121) | msdyn_chartofaccountses |
+[Moedas](mapping-reference.md#218) | transactioncurrencies |
+[Par de moedas de taxa de câmbio](mapping-reference.md#122) | msdyn_currencyexchangeratepairs |
+[Tipo de taxa de câmbio](mapping-reference.md#129) | msdyn_exchangeratetypes |
+[Formato da dimensão financeira](mapping-reference.md#130) | msdyn_financialdimensionformats |
+[Dimensões financeiras](mapping-reference.md#128) | msdyn_dimensionattributes |
+[Entidade de integração do calendário fiscal](mapping-reference.md#132) | msdyn_fiscalcalendars |
+[Período do calendário fiscal](mapping-reference.md#131) | msdyn_fiscalcalendarperiods |
+[Entidade de integração do ano do calendário fiscal](mapping-reference.md#133) | msdyn_fiscalcalendaryears |
+[Ledger](mapping-reference.md#148) | msdyn_ledgers |
+[Conta principal](mapping-reference.md#152) | msdyn_mainaccounts |
+[Categorias de conta principal](mapping-reference.md#151) | msdyn_mainaccountcategories |
 
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/Currencies-transactioncurrencies.md)]
-
-[!include [Fiscal calendar](includes/FiscalCalendar-msdyn-fiscalcalendars.md)]
-
-[!include [Fiscal calendar year](includes/FiscalCalendarYear-msdyn-fiscalcalendaryears.md)]
-
-[!include [Exchange rate types](includes/ExchRateType-msdyn-exchangeratetypes.md)]
-
-[!include [Exchange rate pair](includes/ExchangeRateCurrencyPair-msdyn-currencyexchangeratepairs.md)]
-
-[!include [Main account category](includes/MainAccountCategory-msdyn-mainaccountcategory.md)]
-
-[!include [Main account](includes/MainAccount-msdyn-mainaccounts.md)]
-
-[!include [Ledger](includes/Ledger-msdyn-ledgers.md)]
-
-[!include [Exchange rates](includes/ExchangeRates-msdyn-currencyexchangerates.md)]
-
-[!include [Financial Calendar Period](includes/FiscalPeriodEntity-msdyn-fiscalcalendarperiods.md)]
-
-[!include [Dimension attribute](includes/DimensionAttributeEntity-msdyn-dimensionattributes.md)]
-
-[!include [Dimension integration format](includes/DimensionIntegrationFormatEntity-msdyn-financialdimensionformats.md)]
-
-[!include [Chart Of Account](includes/LedgerChartOfAccounts-msdyn-chartofaccounts.md)]
-
-
-
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

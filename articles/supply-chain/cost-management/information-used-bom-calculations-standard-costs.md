@@ -2,29 +2,26 @@
 title: Informações usadas em cálculos de BOM com custos padrão
 description: Os cálculos de listas de materiais (BOM) usam dados de várias fontes para calcular os custos padrão de um item fabricado. As fontes incluem informações sobre itens, roteiros de listas, fórmulas de cálculo de custos indiretos e a versão do custo.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc7e4105d085e2af0e8e6e574244f5083d08c15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 56b1aa33c11f7cfbbde2a278bef25189ac697d19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422161"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575114"
 ---
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informações usadas em cálculos de BOM com custos padrão
 
@@ -66,7 +63,7 @@ As informações do roteiro usado em um cálculo de BOM de custo padrão incluem
 -   Categorias de custo para uma operação de roteiro − as informações de recurso de operações sobre categorias de custo são herdadas pelas operações, nas quais elas podem ser substituídas. Os cálculos de BOM usam as informações de categoria de custo especificadas nas operações de roteiro.
 
 As informações de custos gerais indiretos de fabricação usadas em um cálculo de BOM de custo padrão incluem:
--   Sobretaxa − uma fórmula de cálculo de sobretaxa reflete uma porcentagem de valor, como 100 por cento, associada a um grupo de custos específico, como mão-de-obra.
+-   Sobretaxa − uma fórmula de cálculo de sobretaxa reflete uma porcentagem de valor, como 100%, associada a um grupo de custos específico, como mão-de-obra.
 -   Taxa − uma fórmula de cálculo de taxa reflete uma quantidade unitária, como BRL 10,00 por hora, associada a um grupo de custos específico, como mão-de-obra.
 -   Custos gerais indiretos baseados em tempo versus baseado em material − os custos gerais indiretos de fabricação podem ser associados a operações de roteiro ou componentes de materiais.
 
@@ -84,3 +81,6 @@ Várias fontes de informações podem ser especificadas ao iniciar um cálculo d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f8d5356e6c7f8aff507d3fa87bb3c30cb38cf36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e48110182f79195483a0f54b7859ee0cd54e8cf0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440483"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235828"
 ---
 # <a name="map-a-cost-element-dimension"></a>Mapear uma dimensão do elemento de custo
 
@@ -44,3 +43,6 @@ Um controlador de custo pode usar esse procedimento para mapear uma dimensão do
     * Neste exemplo, selecione telefone 6001004 de membro de dimensão.  
 11. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

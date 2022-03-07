@@ -1,35 +1,26 @@
 ---
 title: Alternar entre designs de fornecedor
-description: Este tópico descreve como alternar a integração de dados do fornecedor entre aplicativos do Finance and Operations e o Dataverse.
+description: Este tópico descreve como alternar a integração de dados do fornecedor entre aplicativos de Finanças e Operações e do Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: d2c22123d5f05945b34eb107c5b912852aec387a
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744456"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062741"
 ---
 # <a name="switch-between-vendor-designs"></a>Alternar entre designs de fornecedor
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 
@@ -50,14 +41,14 @@ Para criar processos de fluxo de trabalho usando os modelos de processo de fluxo
 
 1. Crie um processo de fluxo de trabalho para a tabela **Fornecedor** e selecione o modelo de processo de fluxo de trabalho **Criar Fornecedores na Tabela Contas**. Em seguida, selecione **OK**. Este fluxo de trabalho lida com o cenário de criação de fornecedores para a tabela **Conta**.
 
-    ![Processo de fluxo de trabalho Criar Fornecedores na Tabela Contas](media/create_process.png)
+    ![Processo de fluxo de trabalho Criar Fornecedores na Tabela Contas.](media/create_process.png)
 
 2. Crie um processo de fluxo de trabalho para a tabela **Fornecedor** e selecione o modelo de processo de fluxo de trabalho **Atualizar Fornecedores na Tabela Contas**. Em seguida, selecione **OK**. Este fluxo de trabalho lida com o cenário de atualização de fornecedores para a tabela **Conta**.
 3. Crie um processo de fluxo de trabalho para a tabela **Conta** e selecione o modelo de processo de fluxo de trabalho **Criar Fornecedores na Tabela Fornecedores**.
 4. Crie um processo de fluxo de trabalho para a tabela **Conta** e selecione o modelo de processo de fluxo de trabalho **Atualizar Fornecedores na Tabela Fornecedores**.
 5. Você pode configurar os fluxos de trabalho como fluxos de trabalho em tempo real ou em segundo plano de acordo com seus requisitos. Para configurar um fluxo de trabalho como um fluxo de trabalho em segundo plano, selecione **Converter para fluxo de trabalho em segundo plano**.
 
-    ![Botão Converter para fluxo de trabalho em segundo plano](media/background_workflow.png)
+    ![Botão Converter para fluxo de trabalho em segundo plano.](media/background_workflow.png)
 
 6. Ative os fluxos de trabalho que você criou para as tabelas **Conta** e **Fornecedor** a fim de começar a usar a tabela **Conta** para armazenar informações de fornecedores do tipo **Organização**.
 
@@ -78,3 +69,6 @@ Para criar processos de fluxo de trabalho usando os modelos de processo de fluxo
 4. Crie um processo de fluxo de trabalho para a tabela **Contato** e selecione o modelo **Atualizar Fornecedores do tipo Pessoa na Tabela Fornecedores**.
 5. Você pode configurar os fluxos de trabalho como fluxos de trabalho em tempo real ou em segundo plano de acordo com seus requisitos. Para configurar um fluxo de trabalho como um fluxo de trabalho em segundo plano, selecione **Converter para fluxo de trabalho em segundo plano**.
 6. Ative os fluxos de trabalho que você criou nas tabelas **Contato** e **Fornecedor** para começar a usar a tabela **Contato** para armazenar informações de fornecedores do tipo **Pessoa**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

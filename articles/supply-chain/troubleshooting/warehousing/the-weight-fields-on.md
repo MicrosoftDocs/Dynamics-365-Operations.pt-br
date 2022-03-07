@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-05-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f71ac7b2777cb77fccdf1a4c72a47c9b406bbd68b2d20c41ddc96028d2ffc348
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 639b82a9d46b74f179d6904d2c3b8e7dfb813b58
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756694"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924342"
 ---
 # <a name="the-weight-fields-on-load-lines-dont-match-the-weight-fields-on-the-load"></a>Os campos de peso nas linhas de carga não correspondem aos campos de peso na carga
 
@@ -36,7 +36,7 @@ Os campos **Peso líquido** e **Peso da tara** estão definidos como *0* (zero) 
 
 Por padrão, quando uma linha de carga é criada, os campos de peso do produto são inseridos nela. Se o peso for zero, você poderá recalculá-lo usando a funcionalidade *Verificação de consistência do peso da carga do depósito*.
 
-1. Acesse **Administração do sistema \> Tarefas periódicas \> Banco de dados \> Verificação de consistência**.
+1. Vá para **Administração do sistema \> Tarefas periódicas \> Banco de dados \> Verificação de consistência**.
 1. Na caixa de diálogo **Verificação de consistência**, defina o campo **Módulo** como *Gerenciamento de depósito*.
 1. Defina o campo **Verificar/Corrigir** como *Corrigir erro*.
 1. Na lista de caixas de seleção, marque a caixa de seleção **Verificação de consistência do peso da carga do depósito** e verifique se somente a linha dessa caixa de seleção está realçada.

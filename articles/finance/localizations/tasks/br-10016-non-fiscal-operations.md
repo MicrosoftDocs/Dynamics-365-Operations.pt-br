@@ -2,26 +2,23 @@
 title: Operações não fiscais (Brasil)
 description: Use este procedimento para criar transações não fiscais de documentos que serão incluídas no arquivo de texto do Sistema Público de Escrituração Fiscal Digital (SPED EFD).
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50f9f954bd4006adbf8723e0f056ea657468b1bc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f1f056bb188b9d2d0b24db2f3dc8da1ccd09e4b50b20b8566cf88a63667e34a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408466"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758780"
 ---
 # <a name="non-fiscal-operations-brazil"></a>Operações não fiscais (Brasil)
 
@@ -52,11 +49,11 @@ Use este procedimento para criar transações não fiscais de documentos que ser
 21. Clique em Lançar.
 22. Feche a página.
 23. Feche a página.
-24. Vá para Livros fiscais > Comum > Período de escrituração.
+24. Acesse Livros fiscais > Comum > Período de escrituração.
 25. Clique em Operações não fiscais.
 26. Feche a página.
 27. Feche a página.
-28. Vá para Livros fiscais > Comum > Todas as operações não fiscais.
+28. Acesse Livros fiscais > Comum > Todas as operações não fiscais.
 29. Feche a página.
 30. Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.
 31. No campo Estabelecimento fiscal, insira ou selecione um valor.
@@ -64,3 +61,6 @@ Use este procedimento para criar transações não fiscais de documentos que ser
 33. Clique em Sincronizar.
 34. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

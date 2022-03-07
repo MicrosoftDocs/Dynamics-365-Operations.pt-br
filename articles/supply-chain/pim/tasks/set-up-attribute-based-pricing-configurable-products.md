@@ -2,26 +2,23 @@
 title: Configurar definição de preços com base no atributo para os produtos configuráveis
 description: Este tópico explica como configurar preços baseados em atributos.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a75f3afcf4761ac6a9575eae9a620a1e9f01c8e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f54d0ea87d8ce5ffdf5600995004e558ddd86fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422032"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833248"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Configurar definição de preços com base no atributo para os produtos configuráveis
 
@@ -52,3 +49,6 @@ Este tópico explica como configurar preços baseados em atributos. Como pré-re
 8. No campo **Expressão**, digite um valor. Por exemplo, digite `50`. 
 9. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

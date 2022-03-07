@@ -1,12 +1,10 @@
 ---
 title: Preparar os metadados do aplicativo a serem usados no RCS
-description: As etapas deste tópico explicam como um usuário pode criar uma nova configuração de Relatório eletrônico (ER) contendo metadados para criar configurações de mapeamentos do modelo ER no Regulatory Configuration Service (RCS).
+description: Este tópico descreve como criar uma nova configuração de relatório que contenha metadados do aplicativo.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750565"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Preparar os metadados do aplicativo a serem usados no RCS
 [!include [banner](../../includes/banner.md)]
@@ -28,7 +26,7 @@ ms.locfileid: "4684082"
 As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração de Relatório eletrônico (ER) contendo metadados do aplicativo para criar configurações de mapeamentos do modelo ER no Regulatory Configuration Service (RCS). Essa configuração será usada para criar uma configuração de mapeamento do modelo ER de exemplo para acessar transações de comércio exterior. Neste exemplo, você criará uma configuração para a empresa de exemplo, Litware, Inc. Estas etapas podem ser executadas em qualquer empresa. Para concluir estas etapas, primeiro conclua as etapas do tópico, [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
-1.    Vá para **Administração da organização** > **Espaços de trabalho** > **Relatório eletrônico**. 
+1.    Acesse **Administração da organização** > **Espaços de trabalho** > **Relatório eletrônico**. 
 2.    Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). 
 3.    Clique em **Configurações de metadados**. 
 4.    Suponha que o RCS seja usado para criar uma solução de ER para um aplicativo do Finance and Operations que gere documentos eletrônicos contendo informações do domínio de negócios de comércio exterior. Para especificar o mapeamento entre o modelo de dados do ER e fontes de dados necessários, no RCS precisamos ter acesso a metadados do aplicativo Finance and Operations. Portanto, como parte da criação da solução de ER, definimos uma nova configuração de metadados de ER contendo todos os metadados atualmente necessários para a geração de relatórios de ER para o domínio comercial selecionado. 
@@ -80,3 +78,6 @@ Adicionamos informações de metadados sobre a tabela de registros Intrastat.
 3.    Clique em **OK**. 
     
 A configuração de metadados de ER criada foi salva como um arquivo XML que pode ser importado para o RCS e usado como a fonte de informações sobre metadados para o domínio comercial de comércio exterior. Com base nessas informações, podemos especificar o mapeamento entre metadados de aplicativos e o modelo de dados do ER.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

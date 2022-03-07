@@ -2,28 +2,25 @@
 title: Configurar parâmetros de arrendamento (Versão Preliminar)
 description: Este tópico descreve as definições de configuração para Arrendamento de ativos, como informações de segurança e configurações de contabilidade.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f71006570cd8f2bdc0385388eae0800cd29d3ec8
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: e5f0aeddfa9d3f27500b033d4b4fb0fb1731105a28be4a6934b2328d62df6ec1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779029"
 ---
 # <a name="configure-lease-parameters"></a>Configurar parâmetros de arrendamento
 
@@ -46,3 +43,6 @@ Várias definições de configuração afetam o comportamento do arrendamento de
 
     > [!NOTE]
     > Recomendamos manter essa opção como **Não**. A configuração dessa opção é usada como validação e controle para impedir que uma versão de livro fechada seja depreciada por engano. Ao manter a opção definida como **Não**, você ajuda a manter a precisão do valor líquido contábil e os cálculos de depreciação futuros.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

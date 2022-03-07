@@ -2,27 +2,24 @@
 title: Notas fiscais e suas estruturas para o Brasil
 description: Este tópico descreve as notas fiscais do Brasil.
 author: sndray
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FiscalDocument_BR, FiscalDocumentAmounts_BR, FiscalDocumentChargesTotals_BR, FiscalDocumentElectronic_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269094
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6357712a1aa55eae5abb2329c56a49d4d4f3e550
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c8fca3395307f79073d08b26d9e8c04e14016590
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408452"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189627"
 ---
 # <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
 
@@ -30,8 +27,7 @@ ms.locfileid: "4408452"
 
 Este tópico descreve as notas fiscais do Brasil.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 Nota fiscal é um documento legal que registra a transferência de propriedade de um item ou serviço fornecido por um estabelecimento fiscal (emissor) para uma pessoa ou outro estabelecimento fiscal (cliente, fornecedor, subsidiária ou filial). Uma nota fiscal é usada para registrar impostos. Cada estabelecimento fiscal emite e recebe notas fiscais para todas as transações, incluindo vendas, compras, ajustes de impostos e transferências de item ou ativo. As notas fiscais podem ser geradas usando os seguintes formatos:
 -   Nota fiscal impressa – a nota fiscal é impressa em papel.
@@ -70,3 +66,6 @@ Depois que uma nota fiscal for lançada, o usuário poderá ver as informações
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

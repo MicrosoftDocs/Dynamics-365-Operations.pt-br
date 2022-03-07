@@ -2,28 +2,25 @@
 title: Métodos de cálculo de imposto no campo Origem
 description: Este artigo explica as opções no campo Origem na página de códigos de imposto e como os impostos são calculados com base na opção selecionada para um código de imposto.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0eb3671051d9a3be9430050e2a0ad4227b17677e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ac37858c68996c6c8140303327003d93bd357b512f9c634650b7e9df1284496
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440359"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769737"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Métodos de cálculo de imposto no campo Origem
 
@@ -55,8 +52,7 @@ Se o valor líquido for 10,00, o IMPOSTO 1 será 1,00 (10,00 x 10%) e o IMPOSTO 
 | Somente um código de imposto a Origem = Porcentagem do valor bruto pode ser usado para uma transação. Se mais de um código de imposto for determinado por uma transação será exibido um erro informando que os impostos não podem ser calculados. |
 
 
-<a name="percentage-of-sales-tax"></a>Porcentagem do imposto
------------------------
+## <a name="percentage-of-sales-tax"></a>Porcentagem do imposto
 
 Quando você selecionar Porcentagem de imposto no campo Origem, o imposto é calculado como uma porcentagem do imposto selecionado no campo Imposto de imposto. O imposto selecionado no campo Imposto de imposto é calculado primeiro. Em seguida, o segundo imposto sobre vendas é calculado com base no valor do primeiro imposto sobre vendas.
 ### <a name="example"></a>Exemplo
@@ -122,8 +118,7 @@ O documento/diário é definido para Os valores incluem imposto = Não Valor da 
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Determinando as alíquotas de imposto com base nos campos Base marginal e Métodos de cálculo](marginal-base-field.md)
 
@@ -131,3 +126,6 @@ O documento/diário é definido para Os valores incluem imposto = Não Valor da 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

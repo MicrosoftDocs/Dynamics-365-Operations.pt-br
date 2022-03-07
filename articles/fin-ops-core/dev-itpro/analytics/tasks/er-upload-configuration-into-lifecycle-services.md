@@ -1,12 +1,10 @@
 ---
 title: Carregar uma configuração no Lifecycle Services
-description: Este tópico explica como um usuário na função de Administrador do sistema ou Desenvolvedor de relatório eletrônico pode criar uma nova configuração do Relatório eletrônico (ER) e carregá-la no Microsoft Dynamics Lifecycle Services (LCS).
+description: Este tópico explica como criar uma nova configuração de relatório eletrônico (ER) e carregá-la no Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
@@ -15,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720751"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Carregar uma configuração no Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 Este tópico explica como um usuário na função de Administrador do sistema ou Desenvolvedor de relatório eletrônico pode criar uma nova [configuração do Relatório eletrônico (ER)](../general-electronic-reporting.md#Configuration) e carregá-la na [biblioteca Ativo em nível de projeto](../../lifecycle-services/asset-library.md) no Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> O uso do LCS como repositório de armazenamento para configurações de ER está sendo [preterido](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Para mais informações, consulte [Regulatory Configuration Service (RCS) - Suspensão do armazenamento do Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 Neste exemplo, você criará uma configuração e a carregará no LCS para uma empresa de exemplo chamada Litware, Inc. Estas etapas podem ser concluídas em qualquer empresa, pois as configurações ER são compartilhadas entre todas as empresas. Para concluir estas etapas, primeiro conclua as etapas em [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). O acesso ao LCS também é necessário.
 
@@ -35,7 +36,7 @@ Neste exemplo, você criará uma configuração e a carregará no LCS para uma e
     - Desenvolvedor de relatório eletrônico
     - Administrador do sistema
 
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. Selecione **Litware, Inc.** e marque-a como **Ativa**.
 4. Selecione **Configurações**.
 
@@ -47,7 +48,7 @@ Neste exemplo, você criará uma configuração e a carregará no LCS para uma e
 
 ## <a name="create-a-new-data-model-configuration"></a>Criar uma nova configuração de modelo de dados
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, selecione **Criar configuração** para abrir a caixa de diálogo suspensa.
 
     Neste exemplo, você criará uma configuração contendo um modelo de dados de exemplo para documentos eletrônicos. Esta configuração do modelo de dados será carregada no LCS posteriormente.
@@ -105,7 +106,7 @@ Neste exemplo, você criará uma configuração e a carregará no LCS para uma e
 
 ## <a name="upload-a-configuration-into-lcs"></a>Carregar uma configuração no LCS
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Configuração do modelo de exemplo**.
 
     Selecione uma configuração criada que já esteja concluída.
@@ -145,3 +146,6 @@ Neste exemplo, você criará uma configuração e a carregará no LCS para uma e
     A configuração do ER que você carregou deve ser listada.
 
     Observe que a configuração do LCS carregado poderá ser importada para outra instância se os provedores tiverem acesso a esse projeto do LCS.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

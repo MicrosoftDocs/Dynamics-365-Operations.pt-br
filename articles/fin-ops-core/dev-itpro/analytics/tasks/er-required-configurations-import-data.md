@@ -1,12 +1,10 @@
 ---
 title: ER Criar configurações necessárias para importar os dados de um arquivo externo
-description: As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar configurações de relatório eletrônico (ER) para importar dados para o aplicativo Microsoft Dynamics 365 Finance, partindo de um arquivo externo.
+description: Este tópico descreve como criar configurações de ER (relatório eletrônico) para importar dados para o aplicativo do Microsoft Dynamics 365 Finance de um arquivo externo.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
@@ -15,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684267"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720847"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Criar configurações necessárias para importar os dados de um arquivo externo
 
 [!include [banner](../../includes/banner.md)]
 
-As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar configurações de relatório eletrônico (ER) para importar dados para o aplicativo, partindo de um arquivo externo. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no Guia da tarefas, "ER Criar um provedor configuração" e marcá-lo como ativo. Estas etapas podem ser concluídas usando o conjunto de dados de USMF. Você também deve baixar e salvar os seguintes arquivos localmente usando os links do tópico da visão geral do Relatório eletrônico (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml e 1099entries.xlsx.
+As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar configurações de relatório eletrônico (ER) para importar dados para o aplicativo, partindo de um arquivo externo. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no Guia da tarefas, "ER Criar um provedor configuração" e marcá-lo como ativo. Estas etapas podem ser concluídas usando o conjunto de dados de USMF. Você também deve baixar e salvar os arquivos a seguir localmente: 
+
+| Descrição do conteúdo                       | Nome do arquivo                                     |
+|-------------------------------------------|-----------------------------------------------|
+| Configuração do modelo de dados de ER – 1099 | [1099model.xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| Configuração de formato ER – 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| Amostra do documento de entrada no formato XML                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Exemplo de pasta de trabalho para gerenciar dados do documento de entrada                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 O ER oferece aos usuários de negócios a capacidade de configurar o processo de importação de arquivos de dados externos para tabelas no formato .XML ou .TXT. Primeiramente, um modelo de dados abstrato e uma configuração do modelo de dados de ER devem ser criados para representar os dados que você está importando. Em seguida, você precisa definir a estrutura do arquivo que você está importando e o método que usará para transferir os dados do arquivo para modelo de dados abstrato. A configuração de formato de ER que é mapeada ao modelo de dados criado deve ser criada para esse modelo de dados abstrato. Depois, a configuração do modelo de dados deve ser estendida com um mapeamento que descreve como os dados importados persistem como dados do modelo de dados abstratos e como são usados para atualizar as tabelas.  A configuração do modelo de dados de ER deve ser acrescentada com um novo mapeamento de modelo que descreve a associação do modelo de dados a destinos do aplicativo.  
 
@@ -196,7 +201,7 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 27. Feche a página.
 28. Feche a página.
 29. Feche a página.
-30. Vá para Contas a pagar > Tarefas periódicas > Imposto 1099 > Liquidação de fornecedor para impostos 1099.
+30. Acesse Contas a pagar > Tarefas periódicas > Imposto 1099 > Liquidação de fornecedor para impostos 1099.
 
     Este formulário mostra as transações cumulativas na tabela de Tax1099Summary criadas com base nas transações importadas.  
 
@@ -244,7 +249,7 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 24. Clique em Mapear modelo para fonte de dados.
 25. Clique em Executar.
 
-    Se você instalou o hotfix KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), selecione o mapeamento de modelos preferencial no campo de pesquisa. Se você não tiver instalado o hotfix ainda, vá para a etapa seguinte, pois o mapeamento já foi selecionado pela definição da configuração do formato padrão.  
+    Se você instalou o hotfix KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), selecione o mapeamento de modelos preferencial no campo de pesquisa. Se você não tiver instalado o hotfix ainda, Acesse a etapa seguinte, pois o mapeamento já foi selecionado pela definição da configuração do formato padrão.  
     
     Se você não tiver instalado o hotfix, o KB 4012871, observe que a caixa de diálogo contém uma pergunta de mapeamento do modelo adicional que é usada para analisar o arquivo que você está importando. Em seguida, os dados são transferidos da caixa de diálogo para o modelo de dados. Atualmente, você pode escolher qual mapeamento de formato deve ser usado, dependendo do tipo de arquivo que você pretende importar.  
     
@@ -254,3 +259,6 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 27. Feche a página.
 28. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Criar contratos de serviço
 description: Este tópico descreve como usar os recursos em Gerenciamento de serviços e os módulos de Gerenciamento e contabilidade de projetos para criar contratos de serviço.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef5ca8cc9c80581b9f7ef69bd8c4403d3d0296e8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c9a5d580b0bb146bf5d445823b37f607e507f7eb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965947"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569134"
 ---
 # <a name="create-service-agreements"></a>Criar contratos de serviço
 
@@ -33,8 +31,8 @@ Este tópico descreve como usar os recursos em Gerenciamento de serviços e os m
 ## <a name="create-a-service-agreement-from-service-management"></a>Criar um contrato de serviço em Gerenciamento de serviços
 
 1. Navegue até **Gerenciamento de serviço**.
-2. Clique em **Contratos de serviço** para criar uma nova linha de contrato de serviço no cabeçalho da página. 
-3. Clique em **Novo**. Insira uma descrição, selecione uma referência a um projeto no campo **ID do projeto** e preencha os outros campos e as linhas do contrato de serviço. Clique em **Salvar**.
+2. Selecione **Contratos de serviço** para criar uma nova linha de contrato de serviço no cabeçalho da página. 
+3. Selecione **Novo**. Insira uma descrição, selecione uma referência a um projeto no campo **ID do projeto** e preencha os outros campos e as linhas do contrato de serviço. Selecione **Salvar**.
 4. Na guia **Relações**, selecione **Objetos de serviço** ou **Tarefas de serviço** para criar relações de objeto de serviço ou relações de tarefa de serviço para o contrato de serviço. Os objetos e as tarefas de serviço para os quais você criou relações podem ser anexados às linhas do contrato de serviço.
 5. Na metade inferior da página, crie linhas de contrato de serviço copiando linhas de um modelo de serviço, de outro contrato ou criando manualmente as linhas.
 
@@ -45,14 +43,14 @@ Este tópico descreve como usar os recursos em Gerenciamento de serviços e os m
 
 1. Na página **Contratos de serviço**, adicione uma linha de contrato de serviço nas grade de linhas. 
 2. Insira as informações apropriadas para a linha do contrato de serviço. 
-3. Pressione **CTRL+S** para salvar a linha e feche a página.
+3. Selecione **Salvar** para salvar a linha e feche a página.
 
 ## <a name="create-a-service-agreement-from-project"></a>Criar um contrato de serviço em Projeto
 
-1. Clique em **Gerenciamento e contabilidade de projetos**.
-2. Clique em **Todos os projetos**.
+1. Selecione **Gerenciamento e contabilidade do projeto**.
+2. Selecione **Todos os projetos**.
 3. Selecione o projeto na lista.
-4. No **Painel de Ação**, clique em **Gerenciar**. No grupo de Ação **Novo**, clique em **Serviço** e selecione **Contratos de serviço**.
+4. No **Painel de Ações**, selecione **Gerenciar**. No grupo de ação **Novo**, selecione **Serviço** e **Contrato de serviço**.
 5. Siga as etapas na seção intitulada **Crie um contrato de serviço** como descrito anteriormente neste tópico para entrar nas referências de projeto.
 
 
@@ -61,3 +59,6 @@ Este tópico descreve como usar os recursos em Gerenciamento de serviços e os m
 [Visão geral de desenvolvimento e estabelecimento de contratos de serviço](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

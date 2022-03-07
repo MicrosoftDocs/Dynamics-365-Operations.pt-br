@@ -2,16 +2,13 @@
 title: Planejamento mestre com contratos comerciais de compra
 description: Este tópico descreve como a otimização do planejamento pode encontrar o fornecedor e/ou prazo de entrega para uma ordem planejada, com base no melhor preço ou prazo de entrega encontrado nos contratos comerciais de compra.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421961"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757749"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planejamento mestre com contratos comerciais de compra
 
@@ -43,19 +40,19 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 Siga estas etapas para configurar o sistema para aplicar a otimização de planejamento que avalia os contratos comerciais de compra.
 
-1. Vá para **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**. Na guia **Ordens planejadas**, na seção **Fornecedor**, defina os seguintes valores:
+1. Acesse **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**. Na guia **Ordens planejadas**, na seção **Fornecedor**, defina os seguintes valores:
 
     - **Localizar contrato comercial** – defina essa opção como **Sim** para incluir contratos comerciais de compra no planejamento mestre.
     - **Critérios de pesquisa** – selecione o fator que você deseja priorizar para cada contrato comercial de compra: **Prazo de entrega mínimo** ou **Preço unitário mínimo**.
 
 1. Ir para **Compras e fornecimento \> Configuração \> Preços e descontos \> Ativar preço/desconto** e verifique se a opção **Fornecedor** está definida como **Sim**.
-1. Vá para **Gerenciamento de informações do produto \> Configuração \> Grupos de dimensões e variantes \> Grupos de dimensões de armazenamento** e selecione um grupo de dimensões de armazenamento que se aplique aos produtos para os quais o planejamento mestre deve avaliar os contratos comerciais de compra. Verifique se cada dimensão de armazenamento relevante neste grupo tem uma marca de seleção na coluna **Para preços de compra**. Repita esta etapa para cada grupo de dimensões de armazenamento relevante.
+1. Acesse **Gerenciamento de informações do produto \> Configuração \> Grupos de dimensões e variantes \> Grupos de dimensões de armazenamento** e selecione um grupo de dimensões de armazenamento que se aplique aos produtos para os quais o planejamento mestre deve avaliar os contratos comerciais de compra. Verifique se cada dimensão de armazenamento relevante neste grupo tem uma marca de seleção na coluna **Para preços de compra**. Repita esta etapa para cada grupo de dimensões de armazenamento relevante.
 
 ## <a name="prepare-a-released-product-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Preparar um produto lançado para avaliar contratos comerciais de compra durante o planejamento mestre
 
 Depois que o sistema for preparado conforme descrito na seção anterior, siga estas etapas para verificar se cada produto que você deseja usar com esse recurso está configurado corretamente.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados** e abra um produto de destino.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados** e abra um produto de destino.
 1. Na Guia Rápida **Compra**, verifique se nenhum fornecedor foi atribuído no campo **Fornecedor**.
 1. No Painel de Ação, na guia **Plano**, no grupo **Cobertura**, selecione **Cobertura de item** para abrir a página **Cobertura de item** para o produto selecionado. Verifique as seguintes configurações:
 
@@ -70,23 +67,26 @@ Depois que o sistema for preparado conforme descrito na seção anterior, siga e
 1. Repita esse procedimento para cada produto relevante.
 
 > [!NOTE]
-> A moeda na linha de contrato comercial de compra deve corresponder à moeda do fornecedor selecionado. O planejamento mestre só incluirá informações das linhas de compra do contrato comercial em que a moeda corresponde à moeda do fornecedor.
+> A Otimização de Planejamento dá suporte a contratos comerciais de compra de várias moedas. Ao procurar um contrato comercial usando a opção **Preço unitário mínimo**, o sistema considerará comprar linhas de contrato comercial com moedas diferentes, desde que uma taxa de câmbio tenha sido definida entre a moeda da linha do contrato comercial e a moeda contábil da entidade legal. Caso contrário, a linha de contrato comercial será ignorada e você verá um erro durante o planejamento mestre. Portanto, o planejamento mestre incluirá informações de todas as linhas de contrato comercial de compra relevantes, nas quais os preços podem ser convertidos na moeda contábil. É importante observar que as regras de arredondamento não serão consideradas durante a conversão de preço em linha do contrato comercial.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Exemplos de como a Otimização de Planejamento localiza o fornecedor e os prazos de entrega
 
-A tabela a seguir fornece exemplos que mostram como várias configurações para um produto liberado e seus contratos comerciais de compra associados afetam os valores que são encontrados para a ordem de compra planejada resultante. Os valores em **negrito** nas duas colunas mais à direita são os valores selecionados pela Otimização de Planejamento. Os valores em ***negrito e itálico*** nas outras colunas são as configurações que produziram os valores resultantes para cada linha.
+A tabela a seguir fornece exemplos que mostram como várias configurações para um produto liberado e seus contratos comerciais de compra associados afetam os valores que são encontrados para a ordem de compra planejada resultante. Os valores em **negrito** nas duas colunas mais à direita são os valores selecionados pela Otimização de Planejamento. Os valores em **_negrito e itálico_** nas outras colunas são as configurações que produziram os valores resultantes para cada linha.
 
 | Produto liberado: Fornecedor | Configurações de ordem padrão: Prazo de entrega | Cobertura de item: Substituir fornecedor | Cobertura de item: Substituir prazo de entrega | Contrato comercial: Fornecedor | Contrato comercial: Prazo de entrega | Contrato comercial: Ignorar prazo de entrega | Fornecedor resultante | Prazo de entrega resultante |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001*** | ***1*** | Não | Não | US003 | 3 | Não | **US001** | **1** |
-| US001 | 1 | ***Sim: US002*** | ***Sim: 2*** | US003 | 3 | Não | **US002** | **2** |
-| *(Em branco)* | 1 | Não | Não | ***US003*** | ***3*** | Não | **US003** | **3** |
-| *(Em branco)* | ***1*** | Não | Não | ***US003*** | 3 | Sim | **US003** | **1** |
-| *(Em branco)* | ***1*** | ***Sim: US002*** | Não | US003 | 3 | Não | **US002** | **1** |
-| *(Em branco)* | ***1*** | ***Sim: US002*** | Não | US003 | 3 | Não | **US002** | **1** |
-| *(Em branco)* | 1 | Não | Sim: 2 | ***US003*** | ***3*** | Não | **US003** | **3** |
-| *(Em branco)* | 1 | Não | ***Sim: 2*** | ***US003*** | 3 | Sim | **US003** | **2** |
+| ***US001** _ | _*_1_*_ | Não | Não | US003 | 3 | Não | _ *US001** | **1** |
+| US001 | 1 | ***Sim: US002** _ | _*_Sim: 2_*_ | US003 | 3 | Não | _ *US002** | **2** |
+| *(Em branco)* | 1 | Não | Não | ***US003** _ | _*_3_*_ | Não | _ *US003** | **3** |
+| *(Em branco)* | ***1** _ | Não | Não | _*_US003_*_ | 3 | Sim | _ *US003** | **1** |
+| *(Em branco)* | ***1** _ | _*_Sim: US002_*_ | Não | US003 | 3 | Não | _ *US002** | **1** |
+| *(Em branco)* | ***1** _ | _*_Sim: US002_*_ | Não | US003 | 3 | Não | _ *US002** | **1** |
+| *(Em branco)* | 1 | Não | Sim: 2 | ***US003** _ | _*_3_*_ | Não | _ *US003** | **3** |
+| *(Em branco)* | 1 | Não | ***Sim: 2** _ | _*_US003_*_ | 3 | Sim | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Contratos de compra](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

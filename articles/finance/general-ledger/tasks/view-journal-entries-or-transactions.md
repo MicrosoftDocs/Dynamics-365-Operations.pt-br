@@ -2,26 +2,23 @@
 title: Exibir entradas de diário ou transações
 description: Este procedimento mostra como usar a consulta das transações de comprovante para pesquisar por entradas de diário ou transações.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm, LedgerTransVoucher, LedgerTransBase, Originaldocuments
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f463b7764288918609cba364acf342eed28ad929
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 102ba12231271892e5eb6c377e046b668a1eb9aa65751a4991e771ecc0576b69
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771623"
 ---
 # <a name="view-journal-entries-or-transactions"></a>Exibir entradas de diário ou transações
 
@@ -43,3 +40,6 @@ Este procedimento mostra como usar a consulta das transações de comprovante pa
 12. No Painel de Ação, clique em **Documento original**.
 13. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

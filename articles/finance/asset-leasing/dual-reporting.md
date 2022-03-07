@@ -2,28 +2,25 @@
 title: Relatórios duplos
 description: Este tópico apresenta um exemplo que mostra como você pode cumprir os requisitos de relatório do Financial Reporting Standard (IFRS) e relatórios estatutários em arrendamento de ativos.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 96e1d4d460aef2f74422d5e4bd4fc68255466455
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: c9f2bae330e688e1e941277d46ddcbd38916f8c8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440537"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815971"
 ---
 # <a name="dual-reporting"></a>Relatórios duplos
 
@@ -54,7 +51,7 @@ O livro IFRS 16 é configurado de forma que ele cumpra com o padrão de contabil
 
 **Livro fiscal**
 
-O livro fiscal é um registro de base de caixa em que a empresa contará com as despesas de arrendamento como o valor de pagamento à vista pago mensalmente por aluguel. Esse registro não produzirá um ativo de direito de uso (ROU) ou uma responsabilidade de arrendamento.
+O livro fiscal é um registro de base de caixa em que a empresa contará com as despesas de arrendamento como o valor de pagamento à vista pago mensalmente por aluguel. Esse registro não produzirá um ativo de direito de uso (DDU) ou uma responsabilidade de arrendamento.
 
 | Organização                                    | descrição |
 |-----------------------------------------|-------------|
@@ -219,7 +216,7 @@ Para considerar esse arrendamento em duas estruturas, use um nível de lançamen
 </tr>
 <tr>
 <td>6</td>
-<td>Ativo de ROU</td>
+<td>Ativo DDU</td>
 <td></td>
 <td></td>
 <td></td>
@@ -410,7 +407,7 @@ Nessa situação, você cumpriu a conformidade total desse arrendamento mediante
 </tr>
 <tr>
 <td>6</td>
-<td>Ativo de ROU</td>
+<td>Ativo DDU</td>
 <td></td>
 <td></td>
 <td></td>
@@ -523,3 +520,6 @@ Depois que todas essas entradas de diário forem criadas e lançadas, você ver�
 | 11         | Depreciação Acumulada |                                                   |                                                   |                                                   | 0\,00                   |   |                                                 |                                                |                                                |                                                | \-949\,75                                      | \-949\,75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

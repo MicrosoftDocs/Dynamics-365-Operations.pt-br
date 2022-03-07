@@ -2,16 +2,13 @@
 title: ​Gerar uma previsão estatística​
 description: Este tópico fornece informações sobre os parâmetros e filtros usados no cálculo da previsão de demanda.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422426"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189683"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>​Gerar uma previsão estatística​
 
@@ -70,11 +67,13 @@ Se a previsão não for gerada para um grande conjunto de itens, mas, por exempl
 > [!NOTE]
 > Uma previsão aparentemente tranquila talvez deva-se aos dados históricos que precisam ser de um período histórico maior (no mínimo 3 períodos para selecionar padrões, como 3 anos com previsão mensal). Para obter um resultado melhor, tente alterar a granularidade do intervalo de tempo ou aumentar o intervalo de tempo.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 - [Configuração da previsão de demanda](demand-forecasting-setup.md)
 
 - [Faça ajustes manuais para a previsão estatística](manual-adjustments-baseline-forecast.md)
 
 - [Autorizar uma previsão ajustada](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

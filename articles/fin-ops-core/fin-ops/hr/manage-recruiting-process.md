@@ -1,12 +1,10 @@
 ---
 title: Gerenciar processos de recrutamento
-description: Este artigo descreve um conceito que os recrutadores podem usar para controlar as etapas do processo de recrutamento, incluindo os esforços para anunciar posições em aberto e para recrutar candidatos, rastrear informações sobre o candidato e sobre a solicitação de emprego, entrevistar candidatos e selecionar um ou mais candidatos para preencher as vagas em sua organização.
+description: Este tópico descreve um conceito que os recrutadores podem usar para rastrear as etapas em um processo de recrutamento.
 author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
@@ -17,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798034"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075466"
 ---
 # <a name="manage-recruiting-processes"></a>Gerenciar processos de recrutamento
 
-[!include [banner](../includes/banner.md)]
+> [!IMPORTANT]
+> A funcionalidade mencionada neste tópico está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
+
 
 Este tópico descreve um conceito que os recrutadores podem usar para controlar as etapas em um processo de recrutamento, incluindo os esforços para anunciar posições em aberto e para recrutar candidatos, rastrear informações sobre o candidato e sobre a solicitação de emprego, entrevistar candidatos e selecionar um ou mais candidatos para preencher as vagas em sua organização.
 
@@ -44,7 +44,7 @@ Os projetos de recrutamento permitem que os recrutadores acompanhem o progresso 
 - O prazo final da solicitação de emprego
 - A data inicial estimada
 
-O projeto de recrutamento contém o **Anúncio** usado no **Autoatendimento para funcionários** para anunciar a vaga. Para exibir a vaga para funcionários, o projeto de recrutamento deverá ter um **Anúncio de emprego**, o campo **Exibir no autoatendimento para funcionários** deve ser definido como Sim, **Prazo final para solicitação de emprego** deve ser definido como uma data futura e o projeto de recrutamento deve ter um **Status do projeto** Iniciado. A tabela a seguir lista os status de possíveis projetos de recrutamento e sua descrição.
+O projeto de recrutamento contém o valor **Anúncio de emprego** usado na página **Autoatendimento para funcionários** para anunciar a vaga. A vaga poderá ser exibida para funcionários somente se o projeto de recrutamento tiver um valor **Anúncio de emprego**, o campo **Exibir no autoatendimento para funcionários** estiver definido como **Sim**, o campo **Prazo final para solicitação de emprego** estiver definido com uma data futura e o projeto de recrutamento tiver **Status do projeto** com o valor **Iniciado**. A tabela a seguir lista os status de possíveis projetos de recrutamento e sua descrição.
 
 | Status    | Indica que...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Os recrutadores também podem registrar a **Mídia** usada para anunciar a vaga 
 
 ## <a name="applicants"></a>Candidatos
 
-Um candidato é a pessoa que se candidata a um cargo em sua empresa. Os candidatos são compartilhados entre todas as entidades legais em sua organização, oferecendo a você a oportunidade de pesquisar em um grande grupo de talentos. Você pode manter as competências, as referências, as solicitações de acomodação e as informações pessoais dos candidatos. Quando você criar um registro do candidato, um registro para o candidato é criado no catálogo de endereços global. Você pode usar a página **Candidato** para atualizar as seguintes informações do catálogo de endereços global para os candidatos:
+Um candidato é a pessoa que se candidata a um cargo em sua empresa. Os candidatos são compartilhados entre todas as entidades legais da organização. Portanto, você tem um grande grupo de talentos para pesquisar. Você pode manter as competências, as referências, as solicitações de acomodação e as informações pessoais dos candidatos. Quando você criar um registro do candidato, um registro para o candidato é criado no catálogo de endereços global. Você pode usar a página **Candidato** para atualizar as seguintes informações do catálogo de endereços global para os candidatos:
 
 - Informações de endereço
 - Informações de contato
@@ -86,7 +86,7 @@ O status da solicitação de emprego indica quando uma solicitação está em pr
 
 ### <a name="correspondence-actions"></a>Ações de correspondência
 
-Uma ação de correspondência da **Solicitação de emprego** determina o modelo de documento ou de e-mail que você usa para comunicar-se com o candidato que enviou a solicitação. Você pode associar **Indicadores de solicitação de emprego** a ações de correspondência para permitir que você use os valores das páginas Solicitação de emprego, Candidato, Entrevista e Projeto de recrutamento em suas comunicações com os candidatos. **Modelos de email de solicitação de emprego** podem ser criados para as ações de correspondência para enviar emails rapidamente para os candidatos de uma solicitação de emprego com uma determinada combinação de status e de ação de correspondência. Por exemplo, você pode enviar um email de confirmação a todas as solicitações de emprego com **Status** de Recebido e a **Ação de correspondência** de Recebido. Após enviar o email, você tem a opção de atualizar automaticamente o status das solicitações de emprego.
+Uma ação de correspondência da solicitação de emprego determina o modelo de documento ou de email que você usa para comunicar-se com o candidato que enviou a solicitação. Ao associar **indicadores de solicitação de emprego** com ações de correspondência, você pode usar valores das páginas **Solicitação de emprego**, **Candidato**, **Entrevista** e **Projeto de recrutamento** em suas comunicações com os candidatos. Ao criar **modelos de email de solicitação de emprego** para as ações de correspondência, você pode enviar emails rapidamente para os candidatos cujas solicitações de emprego têm uma combinação específica de um status e uma ação de correspondência. Por exemplo, você pode enviar um email de confirmação a todas as solicitações de emprego que têm um **Status** com valor **Recebido** e uma **Ação de correspondência** com valor **Recebido**. Após enviar o email, você tem a opção de atualizar automaticamente o status das solicitações de emprego.
 
 ## <a name="application-routing"></a>Roteamento da solicitação de emprego
 
@@ -103,3 +103,5 @@ As **Entrevistas de candidatos** podem ser agendadas na página **Solicitações
 ## <a name="hiring-applicants"></a>Candidatos de contratação
 
 Use a página **Solicitações de emprego** para contratar um candidato. Quando você contratar um candidato, o registro de solicitação de emprego terá o status **Empregado** e o registro pessoal no catálogo de endereços global do candidato será associado ao registro do novo trabalhador. As alterações nas informações do catálogo de endereços global para o registro de novos funcionários também são exibidos no registro do candidato. Isso pode ajudar a reduzir a entrada de dados se o novo trabalhador se candidatar a um trabalho diferente dentro de sua empresa. Para contratar um trabalhador existente em uma nova posição, clique em **Alterar posição** na lista suspensa **Status da solicitação de emprego** para iniciar o processo de transferência.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

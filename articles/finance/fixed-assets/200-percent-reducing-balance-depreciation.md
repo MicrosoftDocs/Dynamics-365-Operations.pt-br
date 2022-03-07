@@ -1,35 +1,32 @@
 ---
-title: depreciação com declínio de 200%
-description: Este artigo oferece uma visão geral do método de saldo de reduzem de 200 de porcentagem de depreciação.
-author: saraschi2
-manager: AnnBe
+title: Depreciação com declínio de 200%
+description: Este tópico apresenta uma visão geral do método de depreciação de redução de 200% do saldo.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0474a8cecccaf1e23874458c27e0bea991140b6c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440397"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883484"
 ---
-# <a name="200-percent-reducing-balance-depreciation"></a>depreciação com declínio de 200%
+# <a name="200-percent-reducing-balance-depreciation"></a>Depreciação com declínio de 200%
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo oferece uma visão geral do método de saldo de reduzem de 200 de porcentagem de depreciação.
+Este tópico apresenta uma visão geral do método de depreciação de redução de 200% do saldo.
 
 Ao configurar um perfil de depreciação de ativos fixos e selecionar **declínio de 200%** no campo **Método** na página **Perfis de depreciação**, os ativos fixos que são atribuídos ao perfil de depreciação são depreciados pela mesma porcentagem em cada período de depreciação. A porcentagem é calculada com base na vida útil do ativo. Por exemplo, se um ativo tiver uma vida útil de cinco anos, será calculada uma porcentagem de 40% (200%/5). 
 
@@ -69,7 +66,7 @@ Quando **Fiscal** for selecionado como o ano de depreciação, as seguintes opç
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>Exemplo de depreciação com declínio de 200%
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Custo de Aquisição               | 11.000 |
 | valor residual                  | 1.000 |
@@ -81,12 +78,15 @@ O método por declínio de 200% divide 200% pelos anos de vida útil. Essa porce
 
 | Período | Cálculo do valor de depreciação anual | Valor Contábil             | Valor líquido contábil no final do ano |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| Ano 1 | (11.000 – 1.000) × 40% = 4.000                | 11.000 – 4.000 = 7.000 | 11.000 – 1.000 – 4.000 = 6.000        |
-| Ano 2 | 6.000 × 40% = 2.400                           | 7.000 – 2.400 = 4.600  | 6.000 – 2.400 = 3.600                 |
-| Ano 3 | 3.600 × 40% = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
+| Ano 1 | (11.000 – 1.000) × 40% = 4.000                | 11.000 – 4.000 = 7.000 | 11.000 – 1.000 – 4.000 = 6.000        |
+| Ano 2 | 6.000 × 40% = 2.400                           | 7.000 – 2.400 = 4.600  | 6.000 – 2.400 = 3.600                 |
+| Ano 3 | 3.600 × 40% = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
 
 > [!NOTE] 
-> Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 200%, ele se torna menor do que o valor que será calculado usando o método linear. Há uma conversão para o método linear método para a vida restante.
+> Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 200% se torna menor do que o valor que será calculado usando o método linear, há uma conversão para o método linear método para a vida restante.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

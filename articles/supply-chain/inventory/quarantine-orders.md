@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25ba4aa92d968f4dfb0dc23b1ac459cda2d52b61
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 08bb75228c79a0575e8476f41c935d0a03e00f35
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422457"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209601"
 ---
 # <a name="quarantine-orders"></a>Ordens de quarentena
 
@@ -67,3 +66,6 @@ Como parte do processo da ordem de quarentena, você pode sucatear o estoque. Ao
 --------
 
 [Bloqueio de estoque](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 6f78441445baecba279f96eb3935d9ebbb4ff03f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103080"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021875"
 ---
 # <a name="predefined-product-variants"></a>Grades de produtos predefinidas
 
@@ -36,7 +36,7 @@ Para seguir este cenário usando os valores sugeridos aqui, você deve ter dados
 
 Para criar um produto mestre:
 
-1. Acesse **Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
+1. Vá para **Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
 1. Selecione **Novo**.
 1. Se o campo **Número do produto** ainda não mostrar um número, insira um valor. Isso só é necessário se nenhuma sequência numérica foi definida para este campo.
 1. Insira um nome no campo **Nome do produto**.
@@ -77,6 +77,8 @@ Para gerar grades de produtos:
 
 ## <a name="improved-variant-suggestions"></a>Sugestões de grade aprimoradas
 
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
+
 O recurso *Aperfeiçoamentos de páginas de sugestões de grade* melhora a página **Sugestões de grade** para tratar das questões de desempenho e usabilidade de empresas que têm um alto número de combinações de dimensões de produtos. O processo avançado para selecionar os valores de dimensão do produto para os quais gerar sugestões de grade torna mais rápido e fácil identificar e liberar o conjunto relevante de grades de produto.
 
 Os aprimoramentos a seguir são adicionados por esse recurso:
@@ -84,9 +86,12 @@ Os aprimoramentos a seguir são adicionados por esse recurso:
 - **Geração adiada de sugestões de grade:** a página **Sugestões de grade** não mostra mais sugestões quando você a abre pela primeira vez. Em vez disso, você deve escolher explicitamente quais valores serão necessários e, em seguida, selecionar o botão **Sugerir** para gerar as combinações. Isso torna o processo mais visível e interativo.
 - **Seleção de valores de dimensões:** quando você tem vários valores de dimensão, geralmente está interessado em gerar sugestões de grade que incluam apenas alguns deles (como ao introduzir um novo conjunto de cores ou estilos). Com o design aprimorado, você pode selecionar os valores de dimensão para os quais deseja gerar sugestões de grade de produtos. Isso aumenta bastante a relevância das variantes sugeridas e melhora o desempenho do sistema e a produtividade do usuário.
 
-### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>Ativar ou desativar o recurso Aprimoramentos na página de sugestões de grade
+### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a>Habilitar o recurso de aperfeiçoamentos de páginas de sugestões de grade
 
-A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade procurando o recurso *Aprimoramentos na página de sugestões de grade* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para que você possa usar o recurso *Aperfeiçoamentos de página de sugestões de grade*, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+
+- **Módulo:** *Gerenciamento de informações sobre produtos*
+- **Nome do recurso:** *Aperfeiçoamentos de página de sugestões de grade*
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>Trabalhar com as sugestões de grade aprimoradas
 

@@ -1,31 +1,28 @@
 ---
-title: Liquidar um pagamento parcial de fornecedor antes da data do desconto com um pagamento final posterior à data do desconto
+title: Liquidar um pagamento parcial antes da data do desconto e um pagamento final após a data do desconto
 description: Este artigo mostra um cenário na qual vários pagamentos parciais são feitos, alguns no período de desconto à vista e outro fora do período de desconto à vista.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440196"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810333"
 ---
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar um pagamento parcial de fornecedor antes da data do desconto com um pagamento final posterior à data do desconto
+# <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Liquidar um pagamento parcial antes da data do desconto e um pagamento final após a data do desconto
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,7 +46,7 @@ Em 2 de julho, Alice deseja liquidar 300.00 da fatura. O pagamento está qualifi
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | -10,00    |
@@ -74,7 +71,7 @@ Alice paga o restante da fatura em 15 de julho, que ocorre após o período de d
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**. April pode ver que ela já obteve um desconto de 3,00.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | 0,00      |
@@ -100,10 +97,10 @@ Se o fornecedor permitir que April obtenha um desconto, mesmo que ela esteja pag
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
-| Valor de desconto à vista         | 7:00      |
+| Valor de desconto à vista         | 7.00      |
 | Usar desconto à vista            | Sempre    |
 | Desconto à vista obtido          | -3,00     |
 | Valor do desconto à vista a ser obtido | -7,00     |
@@ -122,3 +119,6 @@ April lança o pagamento. Quando ela abre a página **Transações do fornecedor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

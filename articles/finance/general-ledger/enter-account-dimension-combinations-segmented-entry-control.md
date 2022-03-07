@@ -2,11 +2,9 @@
 title: Insira a conta e as combinações de dimensões (controle segmentado de entradas)
 description: Este artigo descreve como inserir a conta e as combinações de dimensões ou contas contábeis. A experiência de entrada é também conhecida como o controle segmentado de entrada.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1e35f5fb4400f849e9a139e1a96b18e8b9df384
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6aad3c6044141c80103fe05706d77af52245432f0374223a75b2ba63b2c9a89b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778909"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Insira a conta e as combinações de dimensões (controle segmentado de entradas)
 
@@ -113,3 +111,6 @@ A tabela a seguir descreve os atalhos de teclado que podem ser usados quando a p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

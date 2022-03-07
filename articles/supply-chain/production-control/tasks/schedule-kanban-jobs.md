@@ -1,27 +1,24 @@
 ---
 title: Agendar trabalhos kanban
 description: Esse procedimento se concentra em trabalhos kanban do processo de agendamento para uma célula de trabalho específica.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookupMultiSelectGrid, KanbanBoardScheduleJobForward
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8342bf6c56adc41cc4944dc709152246ad93a3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2cab3af0802ae6fa942460cfdd9c0819e1d31d4b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422378"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579079"
 ---
 # <a name="schedule-kanban-jobs"></a>Agendar trabalhos kanban
 
@@ -31,7 +28,7 @@ Esse procedimento se concentra em trabalhos kanban do processo de agendamento pa
 
 
 ## <a name="select-kanban-jobs-for-a-work-cell"></a>Selecione trabalhos kanban para uma célula de trabalho
-1. Vá para Controle de produção > Kanban > Agendamento de trabalho Kanban.
+1. Acesse Controle de produção > Kanban > Agendamento de trabalho Kanban.
 2. Expandir o quadro de fatos Capacidade de período
     * Expandir o Quadro de Fatos Kanban.  
 3. No campo Célula de trabalho, clique no botão suspenso para abrir a pesquisa.
@@ -62,3 +59,6 @@ Esse procedimento se concentra em trabalhos kanban do processo de agendamento pa
     * Observe que os trabalhos são adicionados ao período desejado.  
     * Na seção Capacidade do período, você pode ver o carregamento para cada período. O campo Consumo mostra o consumo programado neste período. Se o consumo agendado for maior que a capacidade disponível neste período, o consumo selecionado será sobrecarregado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

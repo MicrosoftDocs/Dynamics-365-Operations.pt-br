@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19821
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45688f1882d2711cd43b9b7c199f1fca7ff089ea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 823d1b356d914eb0477c41d77a690d02fc4ee630
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422384"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243240"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Visão geral de configuração de produtos baseada em dimensão
 
@@ -88,3 +87,6 @@ As seguintes oito guias de tarefa são listadas na ordem em que devem ser conclu
 7.  [Criar regras de configuração](tasks/create-configuration-rules.md)
 8.  [Criar configurações baseadas em dimensão](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

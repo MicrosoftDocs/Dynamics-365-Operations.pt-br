@@ -2,28 +2,25 @@
 title: Configurar estruturas de conta
 description: Este tópico fornece informações sobre estruturas de contas e dimensões financeiras.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8d4d3ebed7cf3f006672454e086fc0f918f2418d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440421"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360655"
 ---
 # <a name="configure-account-structures"></a>Configurar estruturas de conta
 
@@ -49,9 +46,9 @@ Para ilustrar uma prática recomendada para configurar uma estrutura de conta, v
 
 **Estrutura de conta de lucros e perdas**
 
-|Conta principal          | Unidade de negócios    |Departamento          | Centro de custo    |
-|----------------------|-----------|----------------------|-----------|
-|400000..999999 | *;” “|*;” “|*;” “|*;” “|
+|Conta principal          | Unidade de negócios    |Departamento          | Centro de custos    | &nbsp; |
+|----------------------|------------------|--------------------|-----------|---|
+|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
 
 **Regra avançada para adicionar um cliente**
 
@@ -68,7 +65,7 @@ A seção **Segmentos** e **Detalhes de valores permitido** fornece uma grade co
 
 A seção **Detalhes de valores permitidos** o orienta pelos critérios de criação usando os **Operadores** como por exemplo, começa com, está entre, inclui e muitos outros.
 
-[![Permitir valores](./media/account.png)](./media/account.png) 
+[![Permitir valores.](./media/account.png)](./media/account.png) 
 
 Os valores permitidos serão padronizados em um diário ou página de entrada de distribuição contábil quando não houver outros valores possíveis para selecionar de acordo com a configuração da estrutura de conta.
 
@@ -107,3 +104,6 @@ Ao configurar suas estruturas de conta há algumas práticas recomendadas que vo
 Quando estiver satisfeito com sua nova configuração ou com uma alteração em uma estrutura de conta, você deverá ativá-la. Se uma estrutura de conta for atribuída a um razão, essa ativação pode ser um processo de execução longa, pois todas as transações não lançadas no sistema devem ser sincronizadas com a nova estrutura. As transações lançadas não são afetadas com as alterações da estrutura da conta.
 
 Para obter mais informações, consulte [Planejar seu plano de contas](plan-chart-of-accounts.md), [Dimensões financeiras](financial-dimensions.md) e [Inserir a conta e as combinações de dimensões (controle segmentado de entradas)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

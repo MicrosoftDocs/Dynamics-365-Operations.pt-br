@@ -2,42 +2,39 @@
 title: Espaço de trabalho de pagamentos dos fornecedores
 description: Este tópico fornece informações sobre a área de trabalho móvel de pagamentos de fornecedor. A área de trabalho de pagamentos de fornecedor mostra informações relacionadas ao processamento de pagamentos de fornecedores.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 39a9ba54ba26db5904c2cd519be9f83bbc68c037
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.openlocfilehash: 084a18d1af789c7ebb89d9a598754a9478a48b83fb949241c9fc34fefa7c152b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4440523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749261"
 ---
 # <a name="vendor-payments-workspace"></a>Espaço de trabalho de pagamentos dos fornecedores
 
 [!include [banner](../includes/banner.md)]
 
-A área de trabalho **Pagamentos de fornecedor** mostra informações relacionadas ao processamento de pagamentos de fornecedores. Esta área de trabalho inclui uma visualização **Meu trabalho** e uma página **Análise**. A visualização **Meu trabalho** mostra quadros resumidos, grades de transação de fornecedor, e informações relacionadas do fornecedor. A página **Análise** usa recursos do Microsoft Power BI para mostrar os visuais relacionados a pagamentos de fornecedor.
+A área de trabalho **Pagamentos de fornecedor** mostra informações relacionadas ao processamento de pagamentos de fornecedores. Esta área de trabalho inclui uma visualização **Meu trabalho** e uma página **Análise**. A visualização **Meu trabalho** mostra quadros resumidos, grades de transação de fornecedor, e informações relacionadas do fornecedor. A página **Análise** usa recursos do Microsoft Power BI para mostrar os recursos visuais relacionados a pagamentos de fornecedor.
 
 ## <a name="setup-needed-to-view-power-bi-content"></a>Configuração necessária para exibir o conteúdo do Power BI
 
 A configuração a seguir precisa ser concluída para que os dados sejam exibidos em **Pagamentos do fornecedor** em recursos visuais do Power BI.
-1. Vá para **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
-2. Vá para **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
-3. Vá para **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**. 
-4. Defina as taxas de câmbio entre as moedas de transação e a moeda contábil, e entre a moeda contábil e a moeda do sistema. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
-5. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **VendPaymentBIMeasureV2**.
+1. Acesse **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
+2. Acesse **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
+3. Acesse **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**. 
+4. Defina as taxas de câmbio entre as moedas de transação e a moeda contábil, e entre a moeda contábil e a moeda do sistema. Para fazer isso, Acesse **Contabilidade > Moedas > Taxas de câmbio de moedas**.
+5. Acesse **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **VendPaymentBIMeasureV2**.
 
 ## <a name="my-work-view"></a>Visualização Meu trabalho
 
@@ -78,3 +75,6 @@ A tabela a seguir mostra as visualizações disponíveis em cada página de rela
 |    Fornecedor para o saldo de cliente     |                                                                                                                   <ul><li>Fornecedor para o saldo de cliente</li><li>Vendedor para o saldo de cliente por empresa</li><li>Detalhes do saldo do fornecedor para o cliente</li></ul>                                                                                                                    |
 |    Faturas com retenção de pagamento     |                                                                                         <ul><li>Faturas com retenção de pagamento</li><li>Faturas com detalhes de retenção de pagamento</li><li>Faturas com retenção de pagamento por empresa</li><li>Faturas com retenção de pagamento por grupo de fornecedores</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

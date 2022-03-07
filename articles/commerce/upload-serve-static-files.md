@@ -1,35 +1,31 @@
 ---
-title: Carregar e atender arquivos estáticos
-description: Este tópico descreve como carregar um arquivo estático no assistente para criação de sites do Microsoft Dynamics 365 Commerce e como criar uma URL personalizada e um nome de arquivo que podem ser usados para solicitar esse arquivo.
+title: Carregar e fornecer arquivos estáticos
+description: Este tópico descreve como carregar um arquivo estático no assistente para construtor de sites do Microsoft Dynamics 365 Commerce e como criar uma URL personalizada e um nome de arquivo que podem ser usados para solicitar esse arquivo.
 author: StuHarg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 981bbf03480abfd812b4020173b7acfdad0fef14
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594943"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714674"
 ---
-# <a name="upload-and-serve-static-files"></a>Carregar e atender arquivos estáticos
+# <a name="upload-and-serve-static-files"></a>Carregar e fornecer arquivos estáticos
 
-[!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
 
-Este tópico descreve como carregar um arquivo estático no assistente para criação de sites do Microsoft Dynamics 365 Commerce e como criar uma URL personalizada e um nome de arquivo que podem ser usados para solicitar esse arquivo.
+Este tópico descreve como carregar um arquivo estático no assistente para construtor de sites do Microsoft Dynamics 365 Commerce e como criar uma URL personalizada e um nome de arquivo que podem ser usados para solicitar esse arquivo.
 
 Alguns conectores de terceiros exigem que um arquivo seja hospedado e fornecido usando o site de comércio eletrônico. Esses conectores esperam que o arquivo seja retornado por solicitações a um caminho de URL de retorno de chamada e nome de arquivo específicos. Portanto, este tópico explica como carregar e fornecer um arquivo estático que possui uma URL e um nome de arquivo definidos pelo usuário em um site de comércio eletrônico do Dynamics 365 Commerce.
 
@@ -38,7 +34,7 @@ Alguns conectores de terceiros exigem que um arquivo seja hospedado e fornecido 
 Para criar uma URL de site que retorna um arquivo estático no assistente de criação de sites do Commerce, siga estas etapas:
 
 1. Acesse a Biblioteca de Mídia do seu site e carregue o arquivo que deve ser fornecido por solicitações para a URL que você definirá. Se você já carregou o arquivo, pode ignorar essa etapa.
-1. Vá para **URLs** do seu site.
+1. Acesse **URLs** do seu site.
 1. Selecione **Novo \> Nova URL**.
 1. Na caixa de diálogo **Nova URL**, selecione **Ativo de biblioteca de mídia**.
 1. No campo **Caminho da URL**, insira o caminho da URL. Inclua o nome do arquivo no caminho.
@@ -107,3 +103,6 @@ Para alterar o caminho do URL, siga estas etapas:
 [Cortar imagens](dam-crop-images.md)
 
 [Personalizar pontos focais da imagem](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

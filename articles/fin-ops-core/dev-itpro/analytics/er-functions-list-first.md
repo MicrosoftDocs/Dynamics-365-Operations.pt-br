@@ -2,11 +2,9 @@
 title: Função de ER FIRST
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) FIRST é usada.
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5c52d3f999b4c6fbdea0685977ab13fca1e8ffb
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d30c8481866ccf3f7080197b37586a0460a4ad2c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679405"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746570"
 ---
 # <a name="first-er-function"></a>Função de ER FIRST
 
@@ -59,3 +57,6 @@ A expressão `FIRST(SPLIT("",1)).Value` gera uma exceção no tempo de execuçã
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

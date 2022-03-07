@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2c3bd3672d9cfdb4d5e0e639a69b38cebd070e2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7008122636af0dddb72d6d7ba13416de8bc43cc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408424"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975297"
 ---
 # <a name="set-up-nf-e-parameters-for-a-fiscal-establishment-brazil"></a>Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)
 

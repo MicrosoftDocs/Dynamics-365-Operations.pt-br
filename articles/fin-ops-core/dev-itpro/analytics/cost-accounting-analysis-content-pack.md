@@ -1,12 +1,10 @@
 ---
 title: Conteúdo de análise de contabilização de custos do Power BI
-description: Este tópico descreve o que está incluído no conteúdo de análise de contabilização de custos do Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
+description: Este tópico descreve o que está incluído no conteúdo de análise de contabilização de custos do Power BI.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683862"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747360"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo de análise de contabilização de custos do Power BI
 
@@ -42,7 +40,7 @@ Para saber mais sobre contabilização de custos, consulte [Pagina inicial de co
 Definindo a segurança no nível de acesso em Contabilização de custos e combinando-a com a segurança no nível de linha no Power BI, você pode conceder a todos os proprietários de objetos de custo acesso ao conteúdo de **Análise de contabilização de custos** do Power BI. Todos os dados nas visualizações serão então filtrados no nível de acesso que é controlado em Contabilização de custos. Para saber mais sobre a segurança nos níveis de acesso e de linha, consulte [Configurar segurança do conteúdo do Power BI da análise de contabilização de custos](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Você pode encontrar o conteúdo de **Análise de contabilização de custos** do Power BI na biblioteca de ativos compartilhados do Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e de seus parceiros](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Você pode encontrar o conteúdo de **Análise de contabilização de custos** do Power BI na biblioteca de ativos compartilhados do Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e de seus parceiros](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Você deve baixar o conteúdo de **Análise de contabilidade de custos** que se aplica à versão do Microsoft Dynamics 365 que você está usando.
 
@@ -123,3 +121,6 @@ As principais dimensões a seguir são usadas como filtros para cortar as medida
 | Calendários fiscais                   | Calendário, descrição do calendário                                                                                       |
 | Anos fiscais                       | Ano civil                                                                                                        |
 | Períodos fiscais                     | Período de ano civil                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

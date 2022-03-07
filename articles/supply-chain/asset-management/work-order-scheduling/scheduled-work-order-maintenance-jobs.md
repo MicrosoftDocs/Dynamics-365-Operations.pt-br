@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 432dfffffb5e8bbf6da42b3a79bd9ea4330640b3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 7c8cea81d27f1671b54c4947b05bbc387667247c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017583"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263797"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Trabalhos de manutenção da ordem de serviço agendados
 
@@ -51,3 +51,6 @@ A captura de tela abaixo mostra um exemplo da página **Trabalhos de manutençã
 
 ![Figura 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Comprar e vender licenças
 description: No Dynamics 365 Human Resources, você pode enviar solicitações para comprar e vender licenças com base nas políticas de licença de compra e venda configuradas por sua empresa.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cafb9b8f0de535e804b49926b8d572f57f98e457
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417358"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464119"
 ---
 # <a name="buy-and-sell-leave"></a>Comprar e vender licenças
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 No Dynamics 365 Human Resources, você pode enviar solicitações para comprar e vender licenças com base nas políticas de licença de compra e venda configuradas por sua empresa.  
 
@@ -53,3 +55,6 @@ Os saldos serão atualizados automaticamente ou passarão por um processo de apr
 
 [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)</br>
 [Gerenciar políticas de compra e venda de licenças](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

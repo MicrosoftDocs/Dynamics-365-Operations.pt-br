@@ -1,12 +1,10 @@
 ---
 title: Gerenciar o ciclo de vida da configuração de relatório eletrônico (ER)
-description: Este tópico descreve como gerenciar o ciclo de vida de configurações de Relatórios eletrônicos (ER) para a solução do Microsoft Dynamics 365 Finance.
+description: Este tópico descreve como gerenciar o ciclo de vida de configurações de Relatório Eletrônico (ER) para o Dynamics 365 Finance.
 author: NickSelin
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4741784103817c270c4c7f730753ba59a327d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682614"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345729"
 ---
-# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gerenciar o ciclo de vida da configuração de relatório eletrônico (ER)
+# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gerenciar o ciclo de vida da configuração de Relatório eletrônico (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como gerenciar o ciclo de vida de configurações de Relatórios eletrônicos (ER) para a solução do Microsoft Dynamics 365 Finance.
+Este tópico descreve como gerenciar o ciclo de vida de configurações de Relatório Eletrônico (ER) para o Dynamics 365 Finance.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -47,7 +45,7 @@ O relatório eletrônico (ER) é um mecanismo que oferece suporte a documentos e
 
 - Crie um modelo disponível de forma que ele possa ser usado em outras instâncias:
 
-    - Transforme um modelo de documento criado em uma configuração de ER e exporte a configuração da instância atual do aplicativo como um pacote XML que possa ser armazenado localmente ou em LCS.
+    - Transforme um modelo de documento criado em uma configuração de ER e exporte a configuração da instância atual do aplicativo como um pacote XML que possa ser armazenado localmente ou no Lifecycle Services (LCS).
     - Transforme uma configuração de ER em um modelo de documento do aplicativo.
     - Importe um pacote XML armazenado localmente ou em LCS para a instância atual.
 
@@ -80,10 +78,24 @@ Pelos seguintes motivos relacionados a ER, é recomendável projetar configuraç
 - Os usuários nas funções **Desenvolvedor de relatório eletrônico** ou **Consultor funcional de relatório eletrônico** podem editar configurações e executá-las para fins de teste. Este cenário pode ocasionar chamadas de métodos de classes e de tabelas que podem prejudicar os dados de negócios e o desempenho do uso da instância.
 - As chamadas de métodos de classes e de tabelas como fontes de dados de ER das configurações do ER não serão restringidas por pontos de entrada e pelo conteúdo registrado da empresa. Portanto, os dados de negócios confidenciais podem ser acessados pelos usuários que desempenham a função **Desenvolvedor de relatório eletrônico** ou **Consultor funcional de relatório eletrônico**.
 
-As configurações de ER projetadas no ambiente de desenvolvimento podem ser carregadas no ambiente de teste da avaliação da configuração (integração adequada do processo, exatidão dos resultados e desempenho) e do controle de qualidade, como exatidão dos direitos de acesso orientados a funções e segregação de direitos. Os recursos que permitem a troca de configuração de ER podem ser usados com essa finalidade. Por fim, as configurações de ER comprovadas podem ser carregadas no LCS, onde poderão ser compartilhadas com os assinantes de serviço ou no ambiente de produção para uso interno, conforme mostrado na ilustração a seguir.
+As configurações de ER criadas no ambiente de desenvolvimento podem ser [carregadas](#data-persistence-consideration) no ambiente de teste da avaliação da configuração (integração adequada do processo, exatidão de resultados e desempenho) e do controle de qualidade, como exatidão dos direitos de acesso orientados a funções e diferenciação de direitos. Os recursos que permitem a troca de configuração de ER podem ser usados com essa finalidade. As configurações de ER comprovadas podem ser carregadas no LCS para compartilhá-las com assinantes de serviço ou podem ser [importadas](#data-persistence-consideration) para o ambiente de produção para uso interno.
 
-![Ciclo de vida da configuração do ER](./media/ger-configuration-lifecycle.png)
+![Ciclo de vida da configuração de ER.](./media/ger-configuration-lifecycle.png)
+
+## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Consideração de persistência de dados
+
+Você pode [importar](tasks/er-import-configuration-lifecycle-services.md) individualmente [versões](general-electronic-reporting.md#component-versioning) diferentes de uma [configuração](general-electronic-reporting.md#Configuration) ER para sua instância do Finance. Quando uma nova versão de uma configuração ER é importada, o sistema controla o conteúdo da versão de rascunho dessa configuração:
+
+   - Quando a versão importada for anterior à versão mais atual dessa configuração na instância atual do Finance, o conteúdo da versão de rascunho dessa configuração permanecerá inalterado.
+   - Quando a versão importada for mais atual do que outras versões dessa configuração na instância atual do Finance, o conteúdo da versão importada será copiado para a versão de rascunho dessa configuração para que você continue editando a última versão concluída.
+
+Se essa configuração pertencer ao [provedor](general-electronic-reporting.md#Provider) de configuração ativado no momento, a versão de rascunho dessa configuração ficará visível na FastTab **Versões** da página **Configurações** (**Administração organizacional** > **Relatório eletrônico** > **Configurações**). Você pode selecionar a versão de rascunho da configuração e [modificar](er-quick-start2-customize-report.md#ConfigureDerivedFormat) o conteúdo usando o designer de ER relevante. Após você editar a versão de rascunho de uma configuração ER, o conteúdo não coincidirá mais ao conteúdo da versão mais atual dessa configuração na instância atual do Finance. Para evitar a perda de alterações, o sistema exibe um erro informando que a importação não pode continuar porque a versão dessa configuração é posterior à versão mais atual dessa configuração na instância atual do Finance. Quando isso ocorre, por exemplo, com a configuração de formato **X**, o erro **A versão de formato 'X' não foi concluída** é exibido.
+
+Para desfazer as alterações apresentadas na versão de rascunho, selecione a versão concluída mais atual ou compartilhada da configuração ER no Finance na FastTab **Versões** e, depois, selecione a opção **Obter esta versão**. O conteúdo da versão selecionada é copiado na versão de rascunho.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

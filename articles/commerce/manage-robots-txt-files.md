@@ -11,27 +11,23 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: afd7982179dc9845c9adc24e8c7c9951a04460a3
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517443"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477699"
 ---
 # <a name="manage-robotstxt-files"></a>Gerenciar arquivos robots.txt
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como gerenciar os arquivos robots. txt no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 O padrão de exclusão de robôs, ou robots. txt é um padrão que os sites usam para comunicar-se com os robôs da Web. Ele instrui os robôs da Web sobre as áreas de um site que não devem ser visitadas. Os robôs geralmente são usados por mecanismos de pesquisa para indexar sites.
 
@@ -107,3 +103,6 @@ Para excluir um arquivo robots. txt no Commerce, siga estas etapas.
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 
 [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

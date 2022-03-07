@@ -2,29 +2,22 @@
 title: Folhas de custos
 description: A configuração da folha de custos envolve dois objetivos. Como primeiro objetivo, você define o formato para exibir as informações de custo de bens vendidos sobre um item manufaturado ou ordem de produção. A exibição formatada é nomeada folha de custos. Como segundo objetivo, você define a base para calcular custos indiretos. A configuração de folha de custo cria no recurso de grupo de custo para exibir informações e para as fórmulas de cálculo de custo indireto. Os dois objetivos da configuração de folha de custos são descritos neste artigo.
 author: AndersGirke
-manager: tfehr
-ms.date: 06/20/2017
+ms.date: 11/18/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53201
-ms.assetid: e7d72b43-3892-49ae-8821-9eede3f4d24a
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f83c18bb8700e274bcf8cb369a7436a17450bf7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 64b8a9b8b29193f25e706e52424de2af3454aec8
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422469"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825342"
 ---
 # <a name="costing-sheets"></a>Folhas de custos
 
@@ -32,9 +25,18 @@ ms.locfileid: "4422469"
 
 A configuração da folha de custos envolve dois objetivos. Como primeiro objetivo, você define o formato para exibir as informações de custo de bens vendidos sobre um item manufaturado ou ordem de produção. A exibição formatada é nomeada folha de custos. Como segundo objetivo, você define a base para calcular custos indiretos. A configuração de folha de custo cria no recurso de grupo de custo para exibir informações e para as fórmulas de cálculo de custo indireto. Os dois objetivos da configuração de folha de custos são descritos neste artigo. 
 
+A tabela a seguir lista as funções de segurança disponíveis que podem acessar planilhas de custos, incluindo o nível de acesso concedido a cada função pelas configurações padrão.
+
+| Função | Acessar
+|---|---|
+| Gerente de contabilidade | Editar |
+| Auxiliar de contador de estoque | Exibir |
+| Contador de estoque | Exibir |
+
 Uma folha de custos é a exibição de informações formatada sobre o custo de bens vendidos sobre um item manufaturado ou uma ordem de produção. Ao configurar uma folha de custos, você define o formato das informações e também define a base para calcular custos indiretos. A configuração de folha de custos cria recursos do grupo de custo para exibir informações e para as fórmulas que são usadas para calcular custo indireto. Aqui há mais informações sobre os dois objetivos da configuração da folha de custos:
--   **Definir o formato para a folha de custos.** O formato definido pelo usuário para uma folha de avaliação de custo identifica a segmentação de custos que contém o custo dos produtos vendidos de um item fabricado. As informações sobre custo dos produtos vendidos de um item, por exemplo, poderiam ser segmentadas em material, mão-de-obra e custos gerais indiretos, com base nos grupos de custos. Estes grupos de custos são atribuídos aos itens, categorias de custo para operações bancárias e fórmulas de cálculo de custo indireto. O formato para a folha de custos em geral precisa de totais intermediários quando forem definidos vários grupos de custos. Por exemplo, vários grupos de custos relacionados ao material podem ser agregados. A definição de um formato de folha de custos é opcional, mas um formato de folha de custos deve ser definido se custos indiretos serão calculados.
--   **Definir a base para calcular custos indiretos.** Os custos indiretos refletem os custos gerais indiretos de fabricação associados à produção de um item fabricado. Uma fórmula de cálculo de custo indireto pode ser expressa como uma sobretaxa ou uma taxa. Uma sobretaxa representa uma porcentagem de valor, enquanto uma taxa representa um valor por hora para uma operação de roteiro. Um grupo de custos define a base para a fórmula de cálculo, como uma sobretaxa de 100 por cento para um grupo de custo de trabalho ou um preço por hora de BRL 50,00 para um grupo de custos de máquina. Se quiser definir uma fórmula de cálculo e a base do grupo de custos, a configuração da folha de custos exige que você identifique o grupo de custos que representa os custos gerais indiretos e selecione se uma sobretaxa ou abordagem de taxa será usada.
+
+- **Definir o formato para a folha de custos.** O formato definido pelo usuário para uma folha de avaliação de custo identifica a segmentação de custos que contém o custo dos produtos vendidos de um item fabricado. As informações sobre custo dos produtos vendidos de um item, por exemplo, poderiam ser segmentadas em material, mão-de-obra e custos gerais indiretos, com base nos grupos de custos. Estes grupos de custos são atribuídos aos itens, categorias de custo para operações bancárias e fórmulas de cálculo de custo indireto. O formato para a folha de custos em geral precisa de totais intermediários quando forem definidos vários grupos de custos. Por exemplo, vários grupos de custos relacionados ao material podem ser agregados. A definição de um formato de folha de custos é opcional, mas um formato de folha de custos deve ser definido se custos indiretos serão calculados.
+- **Definir a base para calcular custos indiretos.** Os custos indiretos refletem os custos gerais indiretos de fabricação associados à produção de um item fabricado. Uma fórmula de cálculo de custo indireto pode ser expressa como uma sobretaxa ou uma taxa. Uma sobretaxa representa uma porcentagem de valor, enquanto uma taxa representa um valor por hora para uma operação de roteiro. Um grupo de custos define a base para a fórmula de cálculo, como uma sobretaxa de 100% para um grupo de custo de trabalho ou um preço por hora de BRL 50,00 para um grupo de custos de máquina. Se quiser definir uma fórmula de cálculo e a base do grupo de custos, a configuração da folha de custos exige que você identifique o grupo de custos que representa os custos gerais indiretos e selecione se uma sobretaxa ou abordagem de taxa será usada.
 
 Cada fórmula de cálculo deve ser inserida como um registro de custo. O registro de custo consiste em uma versão de avaliação de custo especificada, uma porcentagem de sobretaxa ou um valor de taxa, a base do grupo de custo, um status e uma data efetiva. Quando um registro de custo é inserido inicialmente, ele tem o status **Pendente** e uma data de efetivação. Quando você ativar o registro de custo, o status será atualizado de modo que o registro seja o registro ativo atual, e a data efetiva seja atualizada para a data de ativação. O registro de custo também pode especificar um site para uma fórmula de cálculo específica do site. Como alternativa, você pode deixar o campo **Site** em branco para indicar que a fórmula de cálculo é uma fórmula para toda a empresa. O registro de custo pode consistir opcionalmente em um item especificado ou um grupo de itens quando a fórmula de cálculo for sinalizada como fórmula por item. 
 
@@ -46,7 +48,4 @@ Após definir o formato de folha de custos e os cálculos para os custos indiret
 
 A folha de custos é exibida como parte da página **Calcular custo do item**. A folha de custos pode ser exibida para um registro de custo calculado do item manufaturado na página **Preço de item** ou para um registro de cálculo específico da ordem na página **Resultados de cálculo de BOM**. Ela também pode ser exibida como parte da página **Cálculo de preço** de uma ordem de produção.
 
-
-
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

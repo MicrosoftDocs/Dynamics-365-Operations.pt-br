@@ -2,28 +2,25 @@
 title: Combinar ordens de serviço
 description: Você pode combinar ordens de serviço.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17fbed59b1fe7bec80f25f74451872efd61bed62
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 41b4a3234e4104372f1052d89c2417984e9cd10d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421971"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840548"
 ---
 # <a name="combine-service-orders"></a>Combinar ordens de serviço   
 
@@ -113,3 +110,6 @@ O agrupamento adicional de linhas de ordem de serviço em ordens de serviço oco
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

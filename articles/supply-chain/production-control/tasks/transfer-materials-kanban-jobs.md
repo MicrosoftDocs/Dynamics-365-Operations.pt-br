@@ -1,28 +1,25 @@
 ---
 title: Transferir materiais com trabalhos kanban
 description: Esse procedimento se concentra na execução de um trabalho kanban de retirada para transferir materiais.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 96cb77b7b37fe6519a812735d9a41749da078cf2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11771bbedc9fe4bdfaaa074c449cd329ce1a1d8f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422284"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567982"
 ---
 # <a name="transfer-materials-with-kanban-jobs"></a>Transferir materiais com trabalhos kanban
 
@@ -32,7 +29,7 @@ Esse procedimento se concentra na execução de um trabalho kanban de retirada p
 
 
 ## <a name="display-transfer-jobs"></a>Exibir trabalhos de transferência
-1. Vá para Controle de produção > Kanban > Quadro kanban para trabalhos de transferência.
+1. Acesse Controle de produção > Kanban > Quadro kanban para trabalhos de transferência.
 2. Expandir ou recolher a seção Filtros.
     * Na seção Filtros, você pode especificar quais trabalhos você deseja visualizar filtrando por Fluxo de produção, Nome da atividade, Do depósito e localização, e Para o depósito e localização.  
 3. No campo Do depósito, digite '11'.
@@ -66,3 +63,6 @@ Esse procedimento se concentra na execução de um trabalho kanban de retirada p
 2. Clique em Concluir.
     * Isso irá concluir a transferência de ambos os trabalhos.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Criar uma fatura de texto livre
 description: Este tópico explica como criar faturas de texto livre.
 author: mikefalkner
-manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1ac06e7d702ffe3a8cdb6bd2823f2ffdc055c722
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440218"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763277"
 ---
 # <a name="create-a-free-text-invoice"></a>Criar uma fatura de texto livre
 
@@ -30,7 +27,7 @@ Este tópico explica como criar faturas de texto livre. Para o procedimento, use
 
 ## <a name="create-a-free-text-invoice"></a>Criar uma fatura de texto livre
 
-1. Vá para **Contas recebíveis \> Faturas \> Todas faturas de texto livre**.
+1. Acesse **Contas a receber (ou Razão de Vendas) \> Faturas \> Todas as faturas de texto livre**.
 2. Selecione **Novo**.
 3. No campo **Conta de cliente**, selecione um valor.
 
@@ -85,3 +82,6 @@ Depois de copiar as linhas, você poderá editar as informações conforme neces
 Você pode criar uma fatura de texto livre a partir de um modelo. Quando selecionar **Novo a partir do modelo** na guia **Fatura**, selecione um nome de modelo e a conta do cliente para nova fatura de texto livre. Os valores padrão, como as condições de pagamento e método de pagamento, podem ser preenchidos automaticamente ou você pode usar os valores que foram salvos no modelo.
 
 Uma nova fatura de texto livre é criada e você pode editar os valores conforme necessário.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

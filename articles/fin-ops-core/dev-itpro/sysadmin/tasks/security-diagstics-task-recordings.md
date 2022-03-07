@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 99f9da527e818892eb3f46aceca3cc4588b99e81
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679781"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570972"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnóstico de segurança de gravações de tarefas
 
@@ -49,3 +48,6 @@ Este tópico fornece informações sobre como analisar e gerenciar requisitos de
     - Se a **função** for selecionada, selecione **Adicionar função ao usuário**. Isso abrirá a página **Atribuir usuários a funções**. Para obter mais informações, consulte a página [Atribuir usuários a funções de segurança](assign-users-security-roles.md).
     - Se **Obrigação** estiver selecionado, selecione **Adicionar obrigação à função**, selecione as funções às quais o imposto deve ser adicionado e, em seguida, selecione **OK**.
     - Se **Privilégio** estiver selecionado, selecione **Adicionar privilégio a obrigações**, selecione as funções às quais o imposto deve ser adicionado e, em seguida, selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

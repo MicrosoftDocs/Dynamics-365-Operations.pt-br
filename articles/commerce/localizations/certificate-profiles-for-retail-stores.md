@@ -2,11 +2,9 @@
 title: Perfis de certificado definidos pelo usuário para lojas de varejo
 description: Este tópico fornece uma visão geral sobre como os certificados são usados em lojas de varejo.
 author: josaw
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719921"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perfis de certificado definidos pelo usuário para lojas de varejo
 
@@ -59,7 +57,7 @@ A funcionalidade de perfis de certificado oferece suporte aos seguintes cenário
 O procedimento a seguir explica como configurar perfis de certificado. Antes de usar perfis de certificado nos canais do Commerce, siga estas etapas para definir as configurações.
 
 1. No espaço de trabalho **Gerenciamento de recursos** , ative o recurso **Perfis de certificado definidos pelo usuário para lojas de varejo**.
-2. Vá para **Administração do sistema \> Configurar \> Perfis de certificado**.
+2. Acesse **Administração do sistema \> Configurar \> Perfis de certificado**.
 3. Crie um registro e defina os campos **Perfil de certificado**, **Nome** e **Descrição** para ele.
 
     > [!NOTE]
@@ -81,7 +79,7 @@ Ao adicionar uma nova linha à página **Configurações do perfil de certificad
 - **Certificado do Key Vault** – esse campo será obrigatório se você definir o campo **Tipo de local** como o **Key Vault**. Use-o para especificar um segredo de certificado do Key Vault.
 
     > [!NOTE]
-    > Antes de usar um certificado do cofre de chaves nos perfis de certificado, certifique-se de carregar um certificado para o armazenamento do cofre de chaves e siga as instruções em [Configurar o cliente do Azure Key Vault](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Antes de usar um certificado do cofre de chaves nos perfis de certificado, certifique-se de carregar um certificado para o armazenamento do cofre de chaves e siga as instruções em [Configurar o cliente do Azure Key Vault](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Nome da loja** – esse campo é opcional e só estará disponível se você definir o campo **Tipo de local** como **Certificado local**. Use-o para especificar um nome de armazenamento padrão que deve ser usado para pesquisar certificados locais.
 - **Local da loja** – esse campo é opcional e só estará disponível se você definir o campo **Tipo de local** como **Certificado local**. Use-o para especificar um local de armazenamento padrão que deve ser usado para pesquisar certificados locais.
@@ -121,3 +119,6 @@ Se uma nova versão do certificado for introduzida, mas não puder ser atualizad
 
 > [!NOTE]
 > No Commerce Runtime, a nova versão do certificado será chamada primeiro. Se o certificado ainda não tiver sido atualizado em uma loja específica ou em um terminal específico, a versão anterior será chamada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

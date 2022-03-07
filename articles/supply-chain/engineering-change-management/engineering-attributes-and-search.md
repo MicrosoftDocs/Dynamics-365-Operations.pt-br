@@ -2,9 +2,11 @@
 title: Atributos de engenharia e pesquisa de atributos de engenharia
 description: Este tópico explica como você pode usar atributos de engenharia para especificar todas as características não padronizadas, a fim de garantir que todos os dados mestre do produto possam ser registrados no sistema. Ele também explica como você pode usar a pesquisa de atributos de engenharia para encontrar produtos com facilidade, com base nessas características registradas.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 59710f0366418e240a4109e7cf8fcf84073110bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 32cd2c6d0915df1e48973a22a7d391eb8d62a072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103204"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963679"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Atributos de engenharia e pesquisa de atributos de engenharia
 
@@ -26,13 +28,15 @@ ms.locfileid: "8103204"
 
 Para garantir que todos os dados mestre do produto possam ser registrados no sistema, você deve usar atributos de engenharia para especificar todas as características não padronizadas. Você pode usar a pesquisa de atributos de engenharia para encontrar produtos com facilidade, com base nessas características registradas.
 
-## <a name="create-engineering-attributes-and-attribute-types"></a>Criar atributos de engenharia e tipos de atributo
+## <a name="engineering-attributes"></a>Atributos de engenharia
 
 Normalmente, os produtos de engenharia têm muitas características e propriedades que você deve capturar. Embora seja possível registrar algumas das propriedades usando os campos de produto padrão, você também pode criar novas propriedades de engenharia, conforme a necessidade. Você pode definir seus próprios *atributos de engenharia* e torná-los parte da definição do produto.
 
+### <a name="create-engineering-attributes-and-attribute-types"></a>Criar atributos de engenharia e tipos de atributo
+
 Cada atributo de engenharia deve pertencer a um *tipo de atributo*. Esse requisito existe porque cada atributo de engenharia deve ter um *tipo de dados* que defina os tipos de valores que ele pode manter. Um tipo de atributo de engenharia pode ser um tipo padrão (como texto livre, inteiro ou decimal) ou um tipo personalizado (como texto com um conjunto específico de valores para seleção). Você pode reutilizar cada tipo de atributo com qualquer quantidade de atributos de engenharia.
 
-### <a name="set-up-engineering-attribute-types"></a>Configurar tipos de atributos de engenharia
+#### <a name="set-up-engineering-attribute-types"></a>Configurar tipos de atributos de engenharia
 
 Para exibir, criar ou editar um tipo de atributo de engenharia, siga estas etapas.
 
@@ -46,7 +50,7 @@ Para exibir, criar ou editar um tipo de atributo de engenharia, siga estas etapa
     - **Intervalo de valores** – esta opção só estará disponível se você definir o campo **Tipo** como *Inteiro*, *Decimal* ou *Moeda*. Defina-o como *Sim* para estabelecer os valores mínimo e máximo que serão aceitos para atributos desse tipo. Use a FastTab **Intervalo** para estabelecer os valores mínimo e máximo e (para moeda) a moeda que se aplica aos limites inseridos. Defina esta opção como *Não* para aceitar qualquer valor. 
     - **Unidade de medida** – este campo só estará disponível se você definir o campo **Tipo** como *Inteiro* ou *Decimal*. Selecione a unidade de medida que se aplica a esse tipo de atributo. Se nenhuma unidade for necessária, deixe esse campo em branco.
 
-### <a name="set-up-engineering-attributes"></a>Configurar atributos de engenharia
+#### <a name="set-up-engineering-attributes"></a>Configurar atributos de engenharia
 
 Para exibir, criar ou editar um atributo de engenharia, siga estas etapas.
 
@@ -68,43 +72,17 @@ Para exibir, criar ou editar um atributo de engenharia, siga estas etapas.
     - **Mínimo** – insira o valor mínimo recomendado ou aceito.
     - **Máximo** – insira o valor máximo recomendado ou aceito.
 
-### <a name="engineering-attribute-inheritance"></a>Herança de atributo de engenharia
-
-Para estruturas de produtos, como listas de materiais (BOMs) ou fórmulas, os atributos selecionados podem ser passados dos itens filhos até os itens pai. Você pode pensar nesse processo como "herança reversa".
-
-#### <a name="turn-engineering-attribute-inheritance-on-or-off"></a>Ativar ou desativar a herança de atributos de engenharia
-
-Esse recurso requer que os recursos *Gerenciamento de Alterações de Engenharia* e *Herança de atributo aprimorada para Gerenciamento de Alterações de Engenharia* estejam ativados no sistema. Para obter detalhes sobre como ativar ou desativar esses recursos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
-
-#### <a name="attribute-inheritance-example"></a>Exemplo de atribuição de herança
-
-Para um produto alimentar, como um bolo de cenoura, o sistema precisa registrar todos os alergênicos que o produto contém. O bolo de cenoura pode ser modelado no sistema como um produto de engenharia que tem uma fórmula. Essa fórmula contém os ingredientes do bolo de cenoura, como farinha, leite, cenouras e nozes. Neste exemplo, a empresa fornece dois modelos de bolo de cenoura: um que contém lactose e outro que não contém.
-
-O bolo que contém lactose tem os seguintes atributos no nível de ingrediente:
-
-- Ingrediente "farinha": atributo "glúten" = sim
-- Ingrediente "leite": atributo "lactose" = sim
-- Ingrediente "nozes": atributo "nozes" = sim
-
-O bolo que não contém lactose usa leite sem lactose e tem os seguintes atributos no nível de ingrediente:
-
-- Ingrediente "farinha": atributo "glúten" = sim
-- Ingrediente "leite": atributo "lactose" = não
-- Ingrediente "nozes": atributo "nozes" = sim
-
-Como esses produtos são muito parecidos, talvez seja conveniente passar esses atributos dos produtos filho (as duas variações) para o pai (o bolo de cenoura básico). Para implementar essa "herança reversa", você pode usar a funcionalidade *Herança de atributo*. Essa funcionalidade é definida para cada [versão de engenharia](engineering-versions-product-category.md).
-
-## <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Conectar atributos de engenharia a uma categoria de produto de engenharia
+### <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Conectar atributos de engenharia a uma categoria de produto de engenharia
 
 Alguns atributos de engenharia se aplicam a todos os produtos, enquanto outros são específicos de produtos individuais ou categorias de produtos. Por exemplo, os atributos elétricos não são necessários para produtos mecânicos. Portanto, você pode configurar *categorias de produtos de engenharia*. Uma categoria de produto de engenharia estabelece a coleção de atributos de engenharia que devem fazer parte da definição dos produtos que pertencem a essa categoria. Você também pode especificar quais atributos de engenharia são obrigatórios e se há um valor padrão.
 
 Para obter mais informações sobre como trabalhar com categorias de produtos de engenharia, incluindo informações sobre como conectar atributos a categorias, consulte [Versões de engenharia e categorias de produtos de engenharia](engineering-versions-product-category.md).
 
-## <a name="set-attribute-values-for-engineering-attributes"></a>Definir valores para atributos de engenharia
+### <a name="set-values-for-engineering-attributes"></a>Definir valores para atributos de engenharia
 
 Os atributos de engenharia conectados a uma categoria de produto de engenharia são apresentados quando você cria um novo produto de engenharia que é baseado nessa categoria. Nesse momento, você pode definir valores para os atributos. Posteriormente, esses valores podem ser alterados na página **Versão de engenharia** ou como parte do gerenciamento de alterações de engenharia em uma ordem de alteração de engenharia. Para obter mais informações, consulte [Gerenciar alterações de produtos de engenharia](engineering-change-management.md).
 
-## <a name="create-an-engineering-product"></a>Criar um produto de engenharia
+### <a name="create-an-engineering-product"></a>Criar um produto de engenharia
 
 Para criar um produto de engenharia, abra a página **Produtos liberados**. Em seguida, no Painel de Ações, na guia **Produto**, no grupo **Novo**, selecione **Produto de engenharia**.
 
@@ -115,6 +93,3 @@ Você deve especificar a categoria de engenharia à qual o produto pertence. A c
 Você pode usar a pesquisa de atributos de engenharia para encontrar produtos pesquisando valores de atributos de engenharia. Portanto, você pode encontrar facilmente produtos de engenharia com base nas características deles. Você pode pesquisar nos produtos que pertencem a uma categoria de produto de engenharia ou pode pesquisar em todos os produtos de engenharia.
 
 A pesquisa está disponível nas páginas de dados do produto mestre e em itens transacionais no sistema, como ordens de venda. Para um item transacional, você pode usar a página **Pesquisa de atributo de engenharia** para procurar um produto. Em seguida, você poderá usar o botão **Adicionar como nova linha** para adicionar o produto às linhas da ordem de venda. Os produtos nos resultados da pesquisa também podem ser adicionados diretamente à ordem.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

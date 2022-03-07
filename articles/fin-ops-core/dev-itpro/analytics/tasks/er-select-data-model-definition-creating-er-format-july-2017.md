@@ -2,11 +2,9 @@
 title: Selecionar definições de modelo de dados ao criar formatos
 description: Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, ER Criar um provedor de configuração e marcá-lo como ativo.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44288cc3979a0ac2ed6b4a8478aac21a85aca24e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01f7afb6ca3bd1f317c25202e0cf72231008fca
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684202"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744954"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Selecionar definições de modelo de dados ao criar formatos
 
@@ -98,3 +96,6 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
     * Observe que agora um só item raiz está disponível para mapear fontes de dados do aplicativo. Quando pelo menos um mapeamento de modelo foi introduzido, somente os itens raiz de modelo que são mapeados para fontes de dados do aplicativo poderão ser selecionados como uma definição modelo, quando o formato de ER for adicionado.   
 5. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

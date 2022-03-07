@@ -2,27 +2,24 @@
 title: Configurações de pagamento para obter demonstrativos de varejo
 description: Este procedimento demonstra configurações para os métodos de pagamento da loja do Commerce que afetam como as instruções são criadas e lançadas.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 390ccdfde3f9bb93770d456af7532a42e81955a1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b3c8c7678d88b3c01138aa098b8830336885e6445fb41931b19bcda2b95b86b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410227"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712348"
 ---
 # <a name="payment-configurations-for-retail-statements"></a>Configurações de pagamento para obter demonstrativos de varejo
 
@@ -32,7 +29,7 @@ Este procedimento demonstra configurações para os métodos de pagamento da loj
 
 Este registro usa a empresa de dados de demonstração USRT.
 
-1. Vá para Retail e Commerce > Canais > Lojas > Todas as lojas.
+1. Acesse Retail e Commerce > Canais > Lojas > Todas as lojas.
 2. Na lista, localize e selecione o registro desejado.
 3. Na lista, clique no link na linha selecionada.
 4. No Painel de Ação, clique em Configurar.
@@ -53,3 +50,6 @@ Este registro usa a empresa de dados de demonstração USRT.
     * Selecione a conta para lançar valores de depósito bancário protegidos.  
 8. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

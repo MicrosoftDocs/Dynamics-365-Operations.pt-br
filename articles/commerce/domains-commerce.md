@@ -2,27 +2,24 @@
 title: Domínios no Dynamics 365 Commerce
 description: Este tópico descreve como os domínios são tratados no Microsoft Dynamics 365 Commerce.
 author: BrShoo
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517346"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022827"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domínios no Dynamics 365 Commerce
 
@@ -41,7 +38,7 @@ Ao provisionar um ambiente de comércio eletrônico no [Microsoft Dynamics Lifec
 
 A ilustração a seguir mostra a tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada. 
 
-![Tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada](./media/Domains_ProvisioningeCommerceScreen.png)
+![Tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Você pode criar uma solicitação de serviço para adicionar outros domínios a um ambiente se o provisionamento já tiver ocorrido. Para criar uma solicitação de serviço no LCS, no seu ambiente, vá para **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
 
@@ -154,7 +151,7 @@ A instância do Azure Front Door fornecida pelo Commerce não oferece suporte a 
 
   [Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md)
 
-  [Configurar um canal da loja online](online-stores.md)
+  [Configurar um canal da loja online](./channel-setup-online.md)
 
   [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
@@ -173,3 +170,6 @@ A instância do Azure Front Door fornecida pelo Commerce não oferece suporte a 
   [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 
   [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

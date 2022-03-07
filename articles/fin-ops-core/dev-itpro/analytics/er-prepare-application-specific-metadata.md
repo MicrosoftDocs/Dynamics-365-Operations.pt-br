@@ -2,11 +2,9 @@
 title: Prepare metadados específicos do aplicativo para RCS e ER
 description: Este tópico explica como preparar metadados específicos do aplicativo para o RCS (Regulatory Configuration Service) e ER (relatório eletrônico).
 author: NickSelin
-manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680185"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735589"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Prepare metadados específicos do aplicativo para RCS e ER
 
@@ -97,7 +95,7 @@ Antes de concluir este procedimento, primeiro conclua os seguintes procedimentos
 - [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md)
 - [Preparar metadados do aplicativo que podem ser usados no RCS](#prepare-application-metadata-that-can-be-used-in-rcs)
 
-1. Vá para **Todos os espaços de trabalho \> Relatório eletrônico**.
+1. Acesse **Todos os espaços de trabalho \> Relatório eletrônico**.
 2. Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua o procedimento [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Importe a configuração de metadados de ER que contém metadados do aplicativo e que estão configurados para gerar documentos eletrônicos para o domínio comercial de comércio exterior. Você criou esta configuração de metadados de ER e exportou-a como um arquivo XML no procedimento [Preparar metadados do aplicativo que podem ser usados no RCS](#prepare-application-metadata-that-can-be-used-in-rcs) anteriormente neste tópico.
 
@@ -200,14 +198,14 @@ Conforme necessário, você pode estender o conjunto existente de metadados no a
 
 O procedimento a seguir mostra como um usuário do RCS com a função de **Administrador do Sistema** ou **Desenvolvedor de Relatório Eletrônico** pode criar um novo mapeamento de modelos de ER usando metadados do aplicativo. Os metadados do aplicativo serão acessados online usando o aplicativo conectado do RCS. O mapeamento de modelo ER de exemplo será configurado para acessar transações de comércio exterior.
 
-Para concluir este procedimento, primeiro você deve concluir o procedimento [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md) no RCS. Se você ainda não concluiu o procedimento [Acessar metadados do aplicativo usando a configuração ER](#access-application-metadata-by-using-an-er-configuration) antes neste tópico, vá para a página [Guias de Tarefas de Relatório Eletrônico do Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) para baixar os seguintes arquivos de configuração de ER com antecedência e salvá-los localmente: **Metadados de comércio exterior.xml**, **Modelo de comércio exterior.xml** e **Mapeamento de comércio exterior.xml**.
+Para concluir este procedimento, primeiro você deve concluir o procedimento [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md) no RCS. Se você ainda não concluiu o procedimento [Acessar metadados do aplicativo usando a configuração ER](#access-application-metadata-by-using-an-er-configuration) antes neste tópico, Acesse a página [Guias de Tarefas de Relatório Eletrônico do Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) para baixar os seguintes arquivos de configuração de ER com antecedência e salvá-los localmente: **Metadados de comércio exterior.xml**, **Modelo de comércio exterior.xml** e **Mapeamento de comércio exterior.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Obtenha configurações de ER necessárias
 
 Se você já tiver concluído o procedimento [Acessar metadados do aplicativo usando uma configuração ER](#access-application-metadata-by-using-an-er-configuration) antes neste tópico, já terá todas as configurações ER necessárias (as configurações de metadados de comércio exterior, modelo e mapeamento) na instância do RCS atual. Nesse caso, você poderá ignorar este procedimento.
 
-1. Vá para **Todos os espaços de trabalho \> Relatório eletrônico**.
+1. Acesse **Todos os espaços de trabalho \> Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.
 3. Carregue os arquivos de configuração **Metadados de comércio exterior.xml**, **Modelo de comércio exterior.xml** e **Mapeamento de comércio exterior.xml**, repetindo a seguinte sequência de etapas para cada um deles:
 
@@ -218,7 +216,7 @@ Se você já tiver concluído o procedimento [Acessar metadados do aplicativo us
 
 ### <a name="register-the-connection-with-the-application"></a>Registrar a conexão com o aplicativo
 
-1. Vá para **Todos os espaços de trabalho \> Relatório eletrônico**.
+1. Acesse **Todos os espaços de trabalho \> Relatório eletrônico**.
 2. Selecione **Aplicativos conectados**.
 3. Verifique se o aplicativo configurado baseia-se no Microsoft Azure e se está geralmente acessível para usuários no RCS. O usuário do RCS atual precisa ter acesso ao aplicativo configurado. Para isso, ele deve estar registrado como um usuário desse aplicativo em uma função que conceda privilégios a ele para acessar metadados do aplicativo.
 4. Selecione **Novo**.
@@ -234,7 +232,7 @@ Ao concluir este procedimento e a validação da conexão for bem-sucedida, os d
 
 ### <a name="review-the-existing-model-mapping-configuration"></a>Reveja a configuração de mapeamento do modelo existente
 
-1. Vá para **Todos os espaços de trabalho \> Relatório eletrônico**.
+1. Acesse **Todos os espaços de trabalho \> Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.
 3. Na árvore, selecione **Modelo de comércio exterior \> Mapeamento de comércio exterior**.
 4. Selecione a Guia Rápida **Pré-requisitos**.
@@ -280,3 +278,6 @@ Quando você precisar avaliar esse mapeamento de modelo usando os metadados de u
 ## <a name="additional-resources"></a>Recursos adicionais
 
 Alternativamente, você pode executar a guia de tarefas **Preparar os metadados de aplicativo que podem ser usados no RCS** no aplicativo, bem como as guias de tarefas **Acessar metadados de aplicativos usando uma configuração de ER** e **Acessar metadados de aplicativos usando aplicativos conectados** no RCS. Essas guias de tarefas podem ser baixadas na página [Guias de tarefas de relatórios eletrônicos do Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

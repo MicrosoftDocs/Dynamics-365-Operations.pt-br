@@ -2,11 +2,9 @@
 title: Configurar direitos de acesso para um controlador de objeto de custo
 description: Use este procedimento para configurar direitos de acesso para um controlador de objeto de custo.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d6208e867bd322ddfc4e599856b1905fa8e19b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 70428b653f1263f5c753e0c2d756238b647fe4ba657add467a0142369bbbdd8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969369"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778305"
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Configurar direitos de acesso para um controlador de objeto de custo
 
@@ -29,7 +27,7 @@ Use este procedimento para configurar direitos de acesso para um controlador de 
 
 
 ## <a name="assign-the-cost-object-controller-role"></a>Atribuir a função de controlador de objeto de custo
-1. Vá para Administração do sistema > Usuários > Usuários.
+1. Acesse Administração do sistema > Usuários > Usuários.
 2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre no campo Nome de usuário um valor de "alicia".
 3. Na lista, clique no link na linha selecionada.
 4. Clique em Atribuir funções.
@@ -37,7 +35,7 @@ Use este procedimento para configurar direitos de acesso para um controlador de 
 6. Clique em OK.
 
 ## <a name="enable-access-list-security"></a>Habilitar segurança da lista de acesso
-1. Vá para Contabilização de custos > Dimensões > Hierarquias de dimensões.
+1. Acesse Contabilização de custos > Dimensões > Hierarquias de dimensões.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione Organização.  
 3. Clique em Editar.
@@ -57,14 +55,17 @@ Use este procedimento para configurar direitos de acesso para um controlador de 
 8. Clique em Salvar.
 
 ## <a name="enable-access-rights-in-cost-accounting"></a>Habilitar direitos de acesso na Contabilização de custos
-1. Vá para Contabilização de custos > Configuração > Parâmetros.
+1. Acesse Contabilização de custos > Configuração > Parâmetros.
 2. Clique na guia Geral.
 3. Selecione Sim no campo Habilitar acesso de visualização para membros de dimensão de objeto de custo.
 4. Clique em Salvar.
 5. Feche a página.
-6. Vá para Contabilização de custos > Configuração > Configuração de espaço de trabalho de controle de custo.
+6. Acesse Contabilização de custos > Configuração > Configuração de espaço de trabalho de controle de custo.
 7. Clique em Editar.
 8. Selecione Sim no campo Publicado.
     * Se selecionar Sim, um usuário atribuído a uma das quatro funções poderá consultar os relatórios no espaço de trabalho de controle de custo: gerente de contabilidade de custo, contador de custos, funcionário de contador de custo e controlador de objeto de custo. Se selecionar Não, somente um usuário atribuído a uma das quatro funções poderá consultar os relatórios: gerente de contabilidade de custo, contador de custos e funcionário do contador de custos.    
 9. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

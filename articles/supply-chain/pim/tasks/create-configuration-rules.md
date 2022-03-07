@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6bc0af4d95e9430d0b5c8b7fc9a4ade076802044
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ef9f4d464fb2a61dd03914efcf7a584fe955ae9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422187"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213369"
 ---
 # <a name="create-configuration-rules"></a>Criar regras de configuração
 
@@ -55,3 +54,6 @@ Esse procedimento cria regras de configuração que podem ser usadas na configur
     * Selecione o número de item que será selecionado ou desmarcado de acordo com o método escolhido.  
 18. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

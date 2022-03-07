@@ -2,15 +2,12 @@
 title: Gerenciar licença de funcionário
 description: Gerenciar licença de funcionário no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: ccdf2346e3fdecf4f27fc9f34f0641d3b1fb5b55
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4417372"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067368"
 ---
 # <a name="manage-employee-leave"></a>Gerenciar licença de funcionário
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Você pode gerenciar o tipo de licença de um funcionário. Isso inclui o vencimento de registro de licença e o ajuste dos saldos de tipos de licença. 
 
@@ -45,14 +47,16 @@ Você pode gerenciar o tipo de licença de um funcionário. Isso inclui o vencim
 
 Você pode incluir um código de motivo e um comentário ao ajustar o saldo de licenças de um funcionário. 
 
->[!IMPORTANT]
->A exibição de informações adicionais sobre saldos de licença está na versão prévia. Você precisará habilitá-la no ambiente **Área restrita**. Para obter mais informações sobre as versões prévias do recurso, consulte [Gerenciar recursos](hr-admin-manage-features.md).<br>
->Ao passar o mouse sobre qualquer saldo de licença, você verá:<br>
->- **Disponível**: total deste ano - considere este ano
->- **Total deste ano**: todas as competências, ajustes e postergações para o ano
->- **Obtido este ano**: todas as folgas aprovadas
+Agora, quando você passa o mouse sobre qualquer saldo de licença, as seguintes informações são mostradas:
+
+- **Disponível** – O valor **Total neste ano** menos o valor **Obtido este ano**.
+- **Total neste ano** – Todas as competências, ajustes e postergações para o ano.
+- **Obtido este ano** – Todas as folgas aprovadas.
 
 ## <a name="see-also"></a>Consulte também
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Gerenciar solicitações de licença e ausência](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

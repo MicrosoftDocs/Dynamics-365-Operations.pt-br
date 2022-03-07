@@ -1,29 +1,28 @@
 ---
-title: Insights de pagamento de cliente (Visualização)
+title: Insights de pagamento de cliente (versão preliminar)
 description: Este tópico descreve o recurso de insights de pagamento que ajuda a melhorar a compreensão das práticas de pagamento típicas de clientes individuais. O recurso pode ajudá-lo a identificar as circunstâncias que justificam o início de processos de cobrança antes que você tenha feito o contrário.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644624"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983993"
 ---
 # <a name="customer-payment-insights-preview"></a>Insights de pagamento de cliente (Visualização)
 
@@ -50,11 +49,11 @@ Para cada fatura em aberto, o Insights de pagamento de cliente (versão prelimin
 
 Insights de pagamento de cliente (versão preliminar) também fornece uma exibição agregada dos pagamentos esperados, o que pode ajudar as organizações a compreender o valor total do pagamento que podem esperar de um cliente em um dos três buckets, No prazo, Atrasado e Muito atrasado.
 
-[![Exibição agregada de previsões de pagamento](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Exibição agregada de previsões de pagamento.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Além disso, cada fatura obtém uma probabilidade de pagamento no prazo. Se a probabilidade de pagamento no prazo for inferior a 50%, as faturas serão marcadas com um círculo vermelho para indicar que essas faturas podem exigir atenção da cobrança. 
 
-[![Lista de probabilidades de pagamento](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Lista de probabilidades de pagamento.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 O Insights de pagamento de cliente (versão prévia) também oferece informações contextuais para explicar a previsão, como os principais fatores que influenciaram as previsões, o estado atual dos negócios com o cliente e os detalhes sobre o comportamento histórico de pagamento do cliente. Em muitas empresas, o processo de cobrança tem sido uma atividade reativa; o processo de cobrança não começa até a fatura ficar vencida. 
 
@@ -70,6 +69,9 @@ Envie um email para [Insights de pagamento de cliente (versão preliminar)](mail
 
 ## <a name="privacy-notice"></a>Aviso de Privacidade
 
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
+Versões preliminares (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance e de Operations, (2) não estão incluídas no contrato de nível de serviço desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

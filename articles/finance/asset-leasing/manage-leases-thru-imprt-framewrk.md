@@ -2,28 +2,25 @@
 title: Gerenciar arrendamentos por meio da estrutura de importação de arrendamento
 description: Este tópico explica como usar a Estrutura de importação de arrendamento para ajustar vários arrendamentos ao mesmo tempo.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d7a7d2afd8f352bc167ec8c0a354ee4ac0a9e77b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 534584a7da494b427d48b1bc97bf6554d25f4a79d9d62f59ec5f2afb65e67431
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758888"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Gerenciar arrendamentos por meio da estrutura de importação de arrendamento
 
@@ -54,9 +51,9 @@ Para exibir os dados de preparo de arrendamento antes da execução do processam
 A função comparar permite comparar um registro que está sendo importado com o registro correspondente que já está no sistema. Para comparar um registro de arrendamento individual, selecione um arrendamento e depois **Comparar**. Você deve concluir esta etapa para gerar um relatório **Diferenças** antes de migrar os registros de arrendamento. A funcionalidade Comparar compara os valores dos dados de preparo com os valores para os arrendamentos que estão no sistema no momento.
 
 > [!NOTE]
-> A funcionalidade Comparar não funciona para arrendamentos com o tipo de processo **Adicionar registro**, porque não há nada para comparar ao arrendamento.
+> O recurso Comparar não funcionará para arrendamentos com o tipo de processo **Adicionar registro**, porque não há algo para comparar ao arrendamento.
 >
-> Para comparar vários arrendamentos ao mesmo tempo, acesse **Arrendamento de ativos \> Estrutura de importação de arrendamento \> Periódico \> Comparar** e selecione **Comparar**.
+> Para comparar vários arrendamentos ao mesmo tempo, acesse **Arrendamento de ativos \> Estrutura de importação de arrendamento \> Periódico** e selecione **Comparar**.
 
 Para cada entidade, você pode exibir as diferenças entre o que está atualmente no sistema e o que está nas tabelas de preparo. Para cada entidade nas tabelas de preparo, selecione **Consultar diferenças**. A caixa de diálogo exibida mostra o valor atual e o valor de preparo proposto.
 
@@ -65,17 +62,17 @@ Você também pode atualizar o valor de preparo alterando-o na coluna **Novo Val
 Você pode validar arrendamentos para garantir que os registros possam ser trazidos para o sistema sem introduzir erros. Antes da migração de um registro de arrendamento, o sistema executa várias validações para garantir que o registro seja importado com êxito. Para validar um arrendamento individual, selecione **Validar**.
 
 > [!NOTE]
-> Para validar vários arrendamentos ao mesmo tempo, acesse **Arrendamento de ativos \> Estrutura de importação de arrendamento \> Periódico \> Validar** e selecione **Comparar**.
+> Para validar vários arrendamentos ao mesmo tempo, acesse **Arrendamento de ativos \> Estrutura de importação de arrendamento \> Periódico** e selecione **Validar**.
 
 Para processar um arrendamento individual, selecione **Migrar registros de arrendamento** na página **Importar cabeçalho**. Quando um arrendamento é migrado, o sistema executa a ação especificada no campo **Tipo de processo**.
 
 > [!NOTE]
-> Para validar vários arrendamentos ao mesmo tempo, acesse **Arrendamento de ativos \> Estrutura de importação de arrendamento \> Periódico \> Validar** e selecione **Comparar**.
+> Para migrar vários arrendamentos ao mesmo tempo, acesse **Arrendamento de ativos \> Estrutura de importação de arrendamento \> Periódico** e selecione **Migrar**.
 
 Após a comparação dos arrendamentos, você poderá executar um relatório para exibir as diferenças para cada arrendamento incluído na ID de importação. Para executar o relatório para um arrendamento, selecione o arrendamento nos dados de preparo e selecione **Comparar e exibir relatório \> Relatório de diferenças**.
 
 > [!NOTE]
-> Para validar vários arrendamentos ao mesmo tempo, acesse **Arrendamento de ativos \> Consultas e relatórios \> Relatório de diferenças** e selecione **Comparar**.
+> Para comparar vários arrendamentos ao mesmo tempo, acesse **Arrendamento de ativos \> Estrutura de importação de arrendamento \> Periódico** e selecione **Comparar**. 
 
 ## <a name="set-up-update-fields"></a>Configurar campos de atualização
 
@@ -83,3 +80,6 @@ Se estiver usando a estrutura de importação de arrendamento para atualizar arr
 
 1. Acesse **Arrendamento de ativos \> Estrutura de importação de arrendamento \> Configuração \> Atualização de seleção de campo**.
 2. Na página exibida, selecione os campos a serem atualizados e, em seguida, selecione a seta verde para movê-los para a lista **Campos selecionados**. Somente os campos na lista de **Campos selecionados** podem ser atualizados com o uso do pacote de importação de arrendamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

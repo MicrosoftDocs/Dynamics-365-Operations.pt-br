@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
-ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
+ms.openlocfilehash: 9a52374d52b3dcd435c79033d462a2982316a68b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "4493663"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240849"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Lançar transações de ativo fixo em níveis de lançamento
 
@@ -49,3 +48,6 @@ Para obter mais informações, consulte [Registros derivados](derived-books.md) 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

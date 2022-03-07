@@ -2,27 +2,24 @@
 title: Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo Ordem de compra
 description: Este tópico mostra como estabelecer um item de menu do dispositivo móvel.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFAutoConfirm, WHSRFMenu
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86ccc39cb243354db337a5747701e9731c5ad775
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df02b1ab1ac5531d54641fd523e3e671d83395ec3d627a0aaf7b1f783e9ad24
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735030"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo Ordem de compra
 
@@ -69,3 +66,6 @@ Este tópico mostra como estabelecer um item de menu do dispositivo móvel. Nest
 5. Selecione a seta que aponta para a direita.
 6. Selecione **Salvar**.
 7. Feche a página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

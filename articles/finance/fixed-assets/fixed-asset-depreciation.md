@@ -1,12 +1,10 @@
 ---
 title: Depreciação de ativo fixo
-description: Este tópico oferece uma visão geral da depreciação de ativos fixos.
-author: ShylaThompson
-manager: AnnBe
+description: Este tópico oferece uma visão geral da depreciação em Ativos fixos.
+author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 54da35a39791a9e528896f3decd10476ad5af2d9
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969094"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674991"
 ---
 # <a name="fixed-asset-depreciation"></a>Depreciação de ativo fixo
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece uma visão geral da depreciação de ativos fixos.
+Este tópico oferece uma visão geral da depreciação em Ativos fixos.
 
 Depreciação é uma transação periódica que normalmente reduz o valor do ativo fixo no balanço e é cobrada como uma despesa em uma conta de lucros e perdas. Portanto, uma conta principal é geralmente usada para creditar a depreciação periódica no balanço. Contrapartida é uma conta na parte de lucros e perdas do plano de contas.
 
@@ -56,3 +54,6 @@ Para obter mais informações, consulte [Métodos e convenções de depreciaçã
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

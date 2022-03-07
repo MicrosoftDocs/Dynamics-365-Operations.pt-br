@@ -1,12 +1,10 @@
 ---
 title: Grupos de ordens de serviço
 description: Este tópico descreve como trabalhar com grupos de ordens de serviço no Gerenciamento de ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTablePoolPart, EntAssetWorkOrderPoolReferenceInfoPart, EntAssetWorkOrderPool, EntAssetWorkOrderPoolPreviewPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: afea5b8d0f958c3ab53d6cef8c9a0e9030d7c67b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: dd474451569e123fab811cc3625862d599a07963f3714c72d5a724ffd052983e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733507"
 ---
 # <a name="work-order-pools"></a>Grupos de ordens de serviço
 
@@ -87,7 +85,7 @@ Para excluir todas as linhas da ordem de serviço, defina a opção **Excluir re
 
 A ilustração a seguir mostra um exemplo da página de listagem **Grupo de ordens de serviço**.
 
-![Figura 1](media/22-work-orders.png)
+![Figura 1.](media/22-work-orders.png)
 
 
 ## <a name="add-a-work-order-to-a-work-order-pool"></a>Adicionar uma ordem de serviço a um grupo de ordens de serviço
@@ -108,3 +106,6 @@ Conforme descrito na seção anterior, você poderá adicionar ordens de serviç
 
 Para remover uma ordem de serviço de um grupo de ordens de serviço, repita essas etapas, mas selecione **Remover** na etapa 3.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

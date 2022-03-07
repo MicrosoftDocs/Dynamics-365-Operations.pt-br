@@ -2,26 +2,23 @@
 title: Especificar a taxa cruzada
 description: Este tópico fornece informações sobre taxas cruzadas no Microsoft Dynamics 365 Finance.
 author: abruer
-manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 146794557a3a6ba1801598fe6b814e209d9f5fc6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eafaf660470cec5fd82454660f2f59b86d488d0c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440194"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810285"
 ---
 # <a name="specify-the-cross-rate"></a>Especificar a taxa cruzada
 
@@ -44,3 +41,6 @@ Por exemplo, a moeda contábil é USD, a moeda da fatura é CAD e a moeda do pag
 3.  Para um cliente, na página de listagem **Todos os clientes**, vá para **Coletar > Liquidar transações abertas**. Para um fornecedor, na página de listagem **Todos os fornecedores**, vá para **Fatura > Liquidar transações abertas**. 
 4.  Selecione a transação que é o pagamento principal e clique em **Marcar pagamento**. A caixa de seleção na coluna **Marcar** será marcada e um ícone de informações aparecerá na coluna **Pagamento principal**. 
 5.  No campo **Taxa cruzada**, insira a taxa de câmbio entre a moeda da fatura e a moeda do pagamento, a partir da data de liquidação. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

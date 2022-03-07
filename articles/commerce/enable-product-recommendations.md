@@ -1,6 +1,6 @@
 ---
 title: Habilitar recomendações de produtos
-description: Este tópico explica como fazer recomendações de produto com base aprendizado de máquina de inteligência artificial (AI-ML) disponível para Microsoft Dynamics 365 Commerce.
+description: Este tópico explica como fazer recomendações de produto com base na inteligência artificial-aprendizado de máquina (AI-ML) disponível para clientes do Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
 ms.date: 08/18/2020
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcb3b542d290e01a3cddc73ae163ed2ef420771b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410072"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238774"
 ---
 # <a name="enable-product-recommendations"></a>Habilitar recomendações de produtos
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como fazer recomendações de produto com base aprendizado de máquina de inteligência artificial (AI-ML) disponível para Microsoft Dynamics 365 Commerce. Para obter mais informações sobre listas de recomendações de produtos, consulte [Visão geral das recomendações de produtos.](product-recommendations.md)
+Este tópico explica como fazer recomendações de produto com base na inteligência artificial-aprendizado de máquina (AI-ML) disponível para clientes do Microsoft Dynamics 365 Commerce. Para obter mais informações sobre listas de recomendações de produtos, consulte [Visão geral das recomendações de produtos.](product-recommendations.md)
 
 ## <a name="recommendations-pre-check"></a>Recomendações de pré-verificação
 
@@ -114,3 +113,6 @@ Para saber mais sobre recomendações personalizadas, consulte [Habilitar recome
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Armazenamento em backup de modelos de ER
 description: Este tópico explica como usar o armazenamento de backup de relatórios eletrônicos (ER) para a recuperação de modelos.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681391"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767868"
 ---
 # <a name="backup-storage-of-er-templates"></a>Armazenamento em backup de modelos de ER
 
@@ -67,19 +65,19 @@ Para configurar o parâmetro **Executar automaticamente o procedimento de restau
 > [!NOTE]
 > Esse parâmetro é definido como específico da empresa registrada e do usuário do aplicativo.
 
-![Página de configurações de ER](./media/GER-BackupTemplates-1.png)
+![Página de configurações de ER.](./media/GER-BackupTemplates-1.png)
 
 A ilustração a seguir mostra um exemplo da mensagem que aparece quando o parâmetro **Executar automaticamente o procedimento de restauração de modelos corrompidos em lotes** está definido como **Ativado**.
 
-![Página do diário de pagamentos do fornecedor](./media/GER-BackupTemplates-2.png)
+![Página do diário de pagamentos do fornecedor.](./media/GER-BackupTemplates-2.png)
 
 A ilustração a seguir mostra o processo em lote **Restaurar modelos corrompidos do backup do banco de dados interno** na página **Trabalho em lotes** .
 
-![Página Trabalho em lotes](./media/GER-BackupTemplates-3.png)
+![Página Trabalho em lotes.](./media/GER-BackupTemplates-3.png)
 
 O log de execução do processo em lote **Restaurar modelos corrompidos do backup do banco de dados interno** concluído inclui informações sobre os modelos que foram restaurados do local de armazenamento de backup para o local de armazenamento principal.
 
-![Página Histórico de trabalho em lotes](./media/GER-BackupTemplates-4.png)
+![Página Histórico de trabalho em lotes.](./media/GER-BackupTemplates-4.png)
 
 Por padrão, o processo de criação automática de cópias de backup de modelos que residem em configurações de formato de ER fica ativado. Para parar de fazer cópias de backup de modelos, defina a opção **Parar de fazer cópias de backup de modelos** como **Sim** na guia **Anexos** da página **Parâmetros de relatório eletrônico**. Você pode abrir essa página no espaço de trabalho **Relatório eletrônico**.
 
@@ -87,11 +85,11 @@ Se você definiu a opção **Parar de fazer backup cópias de modelos** como **S
 
 Se você atualizou seu ambiente para o Finance and Operations versão 10.0.5 (outubro de 2019) e deseja migrar para um novo ambiente que inclui as configurações de formato de ER que podem ser executadas, selecione **Preencher o armazenamento de backup** na página **Parâmetros de relatório eletrônico** antes da migração. Esse botão inicia o processo de fazer cópias de backup de todos os modelos disponíveis, de modo que elas possam ser armazenadas no local de armazenamento de backup de ER para modelos.
 
-![Página de parâmetros de relatórios eletrônicos](./media/GER-BackupTemplates-5.png)
+![Página de parâmetros de relatórios eletrônicos.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Recuperação manual
 
-Vá para **Administração da organização** \> **Relatório eletrônico** \> **Restaurar modelos desfeitos** para iniciar manualmente o processo de restaurar modelos de ER do local de armazenamento de backup para o local de armazenamento primário. Antes de iniciar este processo, na página **Restaurar modelos desfeitos**, é possível especificar se ele será executado de forma interativa ou se o processo em lote será agendado para isso.
+Acesse **Administração da organização** \> **Relatório eletrônico** \> **Restaurar modelos desfeitos** para iniciar manualmente o processo de restaurar modelos de ER do local de armazenamento de backup para o local de armazenamento primário. Antes de iniciar este processo, na página **Restaurar modelos desfeitos**, é possível especificar se ele será executado de forma interativa ou se o processo em lote será agendado para isso.
 
 ## <a name="supported-deployments"></a>Implantações com suporte
 
@@ -102,3 +100,6 @@ No Finance and Operations versão 10.0.5, o recurso de armazenamento em backup d
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
 [Configurar a estrutura de ER (Relatórios eletrônicos)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

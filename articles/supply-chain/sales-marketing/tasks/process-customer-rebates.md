@@ -1,33 +1,30 @@
 ---
 title: Gerar e processar reembolsos de cliente
 description: Este procedimento demonstra como processar reembolsos de cliente desde a geração da reivindicação até o momento de passá-las como provisões para Contas a receber.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a8ebc281036842bdc8965e062990438e1fb466ff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422310"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573336"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Gerar e processar reembolsos de cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimento demonstra como processar reembolsos de cliente desde a geração da reivindicação até o momento de passá-las como provisões para Contas a receber. Ele irá apresentar um exemplo específico para explicar como as diversas condições nas linhas de reembolso afetam o valor final que será creditado ao cliente. Você precisa utilizar a empresa de dados demonstrativos USMF, e executar as seguintes tarefas antes de iniciar o guia: (1) Vá para a página Parâmetros de contas a receber, e expanda a aba Preços e então a aba Detalhes do preço, e verifique se a opção Habilitar detalhes do preço está definida como Sim. (2) Vá para a página Contratos de reembolso e selecione o contrato de reembolso do cliente: USMF-000001. Se o campo Status de aprovação do fluxo de trabalho não estiver definido como Aprovado, você precisa clicar em Validação no Painel de Ações para aprová-lo.
+Este procedimento demonstra como processar reembolsos de cliente desde a geração da reivindicação até o momento de passá-las como provisões para Contas a receber. Ele irá apresentar um exemplo específico para explicar como as diversas condições nas linhas de reembolso afetam o valor final que será creditado ao cliente. Você precisa utilizar a empresa de dados demonstrativos USMF, e executar as seguintes tarefas antes de iniciar o guia: (1) Acesse a página Parâmetros de contas a receber, e expanda a aba Preços e então a aba Detalhes do preço, e verifique se a opção Habilitar detalhes do preço está definida como Sim. (2) Acesse a página Contratos de reembolso e selecione o contrato de reembolso do cliente: USMF-000001. Se o campo Status de aprovação do fluxo de trabalho não estiver definido como Aprovado, você precisa clicar em Validação no Painel de Ações para aprová-lo.
 
 
 ## <a name="review-a-customer-rebate-agreement"></a>Revisar um contrato de reembolso do cliente
@@ -42,7 +39,7 @@ Este procedimento demonstra como processar reembolsos de cliente desde a geraç�
 2. Feche a página.
 
 ## <a name="generate-rebate-claims"></a>Gerar reivindicações de reembolso
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
 2. Clique em **Novo**. Para imitar a forma como reivindicações de reembolso são geradas, a próxima tarefa é criar uma ordem de venda, onde o produto e a quantidade irão qualificar o cliente em questão para um reembolso.    
 3. No campo **Conta de cliente**, insira ou selecione um valor.
 4. Clique em **OK**.
@@ -65,7 +62,7 @@ Este procedimento demonstra como processar reembolsos de cliente desde a geraç�
 
 ## <a name="process-rebate-claims"></a>Solicitações de reembolso do processo
 1. Acesse **Painel de Navegação > Módulos > Vendas e marketing > Reembolsos de clientes > Reembolso**.
-    - A página Reembolsos atua como uma bancada na qual você pode revisar, aprovar, e processar reivindicações de reembolso. Agora você processará as reivindicações que foram criadas como resultado da cobrança de uma ordem de venda para o cliente US-009, que é o sujeito do contrato de reembolso USMF-000001.   
+    - A página Reembolsos atua como uma bancada na qual você pode revisar, aprovar e processar reivindicações de reembolso. Agora você processará as reivindicações que foram criadas como resultado da cobrança de uma ordem de venda para o cliente US-009, que é o sujeito do contrato de reembolso USMF-000001.   
     - A primeira linha representa uma reivindicação de reembolso de 800 USD, com base nas vendas de 40 unidades do produto T0020, calculado a 20 USD por unidade. Isso corresponde às condições da primeira divisão de quantidade do acordo de reembolso.  
     - A segunda reivindicação é de 2.400 USD, que se baseia nas vendas de 60 unidades do produto T0020, calculada a 40 USD por unidade, como previsto pela segunda divisão de quantidade do contrato.  
     - Ambas as reivindicações estão no estado "A ser calculada". Isso significa que elas estão associadas a um contrato que rastreia o desempenho de vendas do cliente periodicamente e que elas devem ser calculadas novamente para levar em consideração o volume total de vendas dentro do respectivo período.   
@@ -82,3 +79,6 @@ Este procedimento demonstra como processar reembolsos de cliente desde a geraç�
     - A Conta de provisão de reembolso foi creditada para representar o passivo futuro com o cliente.
     - A Conta de despesa de reembolso foi debitada, em reconhecimento dos custos contraídos em conexão com as vendas.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

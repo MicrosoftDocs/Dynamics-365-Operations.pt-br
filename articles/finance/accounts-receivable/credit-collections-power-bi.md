@@ -2,32 +2,29 @@
 title: Conteúdo de gerenciamento de crédito e cobranças do Power BI
 description: Este tópico descreve o que está incluído no conteúdo de gerenciamento de crédito e cobranças do Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
-ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
+ms.openlocfilehash: aa7056f080fb855894f8b32f667dc3c3062c3c8b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4440534"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833152"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Conteúdo de gerenciamento de crédito e cobranças do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo de **Gerenciamento de crédito e cobranças** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
+Este tópico descreve o que está incluído no conteúdo **Gerenciamento de crédito e cobranças** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -77,3 +74,6 @@ O conteúdo de **CustCollectionsBICrossCompany** do Power BI tem um relatório q
 | Cartas de cobranças         | <ul><li>Valores de código de cobrança</li><li>Detalhes do valor do código de cobrança</li><li>Valor da cartas de cobrança por empresa</li><li>Valor da carta de cobrança por grupo de clientes</li><li>Valor da carta de cobrança por região</li></ul> |
 
 Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um dashboard](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

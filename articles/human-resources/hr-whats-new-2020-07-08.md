@@ -1,33 +1,32 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (08 de julho de 2020)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 8 de julho de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8a574436bc7762fbee722af8be2f923d18d01e5b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528464"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060780"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (8 de julho de 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3382. Os números entre parênteses em alguns títulos referem-se aos números de suporte do LCS para referência.
 
@@ -71,9 +70,9 @@ Os campos do sistema criados e modificados agora estão habilitados na tabela **
 
 Esta versão corrige um erro (referência nula) em uma entrada de funcionário simplificada quando você contrata um funcionário usando a opção **Contratar e adicionar detalhes**.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Alterações feitas na entidade Trabalhador do Common Data Service não são refletidas no Human Resources (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Alterações feitas na entidade Trabalhador do Dataverse não são refletidas no Human Resources (455652)
 
-Agora, as alterações feitas nos seguintes campos da entidade **Trabalhador** do Common Data Service serão mostradas no Human Resources:
+Agora, as alterações feitas nos seguintes campos da entidade **Trabalhador** do Dataverse serão mostradas no Human Resources:
 
 - **Trabalha de casa**
 - **Aniversário de tempo de serviço**
@@ -92,7 +91,7 @@ Agora você pode tornar campos obrigatórios usando recursos de personalização
 
 ## <a name="human-resources-application-in-teams"></a>Aplicativo Human Resources no Teams
 
-Os funcionários podem exibir e solicitar tempo fora do trabalho no Microsoft Teams. Eles podem interagir com um bot para criar solicitações de licença. Para obter mais informações, consulte [aplicativo Human Resources no Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Os funcionários podem exibir e solicitar tempo fora do trabalho no Microsoft Teams. Eles podem interagir com um bot para criar solicitações de licença. Para obter mais informações, consulte [aplicativo Human Resources no Teams](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Entidades da estrutura de gerenciamento de dados (DMF) para gerenciamento de benefícios
  
@@ -131,13 +130,16 @@ Uma entidade DMF disponível para suspensões de acúmulos.
 
 ## <a name="coming-soon"></a>Em breve
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Entidades de lista de verificação incluídas no Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Entidades de lista de verificação incluídas no Dataverse
 
-Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Common Data Service.
+Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Dataverse.
 
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

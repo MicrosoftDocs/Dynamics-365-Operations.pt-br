@@ -2,26 +2,23 @@
 title: Conteúdo de visão geral do caixa do Power BI
 description: Este tópico descreve o conteúdo de Visão geral do caixa do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 author: saraschi2
-manager: AnnBe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440389"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897443"
 ---
 # <a name="cash-overview-power-bi-content"></a>Conteúdo de visão geral do caixa do Power BI
 
@@ -41,7 +38,7 @@ A configuração a seguir precisa ser concluída para que os dados sejam exibido
 2. Vá para **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
 3. Vá para **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
 4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema, moeda contábil e moedas de bancos. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
-5. Configure e execute a previsão de fluxo de caixa. Para obter mais informações sobre como configurar a previsão de fluxo de caixa, consulte [Previsão de fluxo de caixa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. Configure e execute a previsão de fluxo de caixa. Para obter mais informações sobre como configurar a previsão de fluxo de caixa, consulte [Previsão de fluxo de caixa](./cash-flow-forecasting.md). 
 6. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
@@ -79,3 +76,6 @@ A próxima tabela mostra as entidades nas quais foi baseado o conteúdo de **Vis
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Entradas, saídas e saldo resumido usando cada moeda contábil da empresa |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Entradas, saídas e saldo resumido usando a moeda do sistema de todas as empresas |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Valor da transação e saldo de moeda líquida resumidos usando a moeda da transação |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

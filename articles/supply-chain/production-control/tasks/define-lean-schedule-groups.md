@@ -1,28 +1,25 @@
 ---
 title: Definir grupos de agendamento de lean manufacturing
 description: Os grupos de agendamento de lean manufacturing são definidos para agrupar e distinguir produtos na programação do kanban.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9ad470d81d94a0af1c4c4dc6c5072354cfd96d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9d16c0d3192773c32c8dcc57a430607c6b60f97
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421885"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574440"
 ---
 # <a name="define-lean-schedule-groups"></a>Definir grupos de agendamento de lean manufacturing
 
@@ -32,7 +29,7 @@ Os grupos de agendamento de lean manufacturing são definidos para agrupar e dis
 
 
 ## <a name="define-lean-scheduling-group"></a>Definir grupo de agendamento de lean manufacturing
-1. Vá para Gerenciamento de informações do produto > Lean manufacturing > Grupos de agendamento de lean manufacturing.
+1. Acesse Gerenciamento de informações do produto > Lean manufacturing > Grupos de agendamento de lean manufacturing.
 2. Clique em Novo.
 3. No campo Grupo de agendamento, digite um valor.
     * Um grupo de agendamento pode ser definido como o grupo global ou específico para uma célula de trabalho. Neste exemplo simples, definimos um grupo global e a célula de trabalho é mantida em branco. As configurações deste grupo se aplicam a todas as células de trabalho que não tenham grupos de agendamento específicos.  
@@ -56,3 +53,6 @@ Os grupos de agendamento de lean manufacturing são definidos para agrupar e dis
 3. No campo Chave de alocação de itens, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, clique no link na linha selecionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

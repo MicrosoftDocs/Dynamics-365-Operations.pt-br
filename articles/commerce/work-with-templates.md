@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dfbb85c13b24bf09fd23022d11ec017899835671
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410202"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252501"
 ---
 # <a name="work-with-templates"></a>Trabalhar com modelos
 
@@ -31,7 +30,7 @@ ms.locfileid: "4410202"
 
 Este tópico descreve como trabalhar com modelos no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Conforme discutido em [Visão geral de modelos e layouts](templates-layouts-overview.md), modelos definem o conjunto de opções disponíveis para autores downstream. Os modelos são úteis para a equipe de criação na Web de uma empresa por vários motivos, e modelos bem estruturados podem ajudar com todos os seguintes objetivos:
 
@@ -150,3 +149,6 @@ Depois que você visualizou alterações no modelo, siga uma dessas etapas para 
 [Visão geral de modelos e layouts](templates-layouts-overview.md)
 
 [Trabalhar com layouts predefinidos](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

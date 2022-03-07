@@ -1,12 +1,10 @@
 ---
 title: Plano de operações
 description: Este tópico fornece informações sobre agendamento de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966396"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574560"
 ---
 # <a name="operations-scheduling"></a>Plano de operações
 
@@ -76,10 +74,12 @@ Quando você executa o agendamento de operações, você pode cancelar algumas p
 ## <a name="finite-materials"></a>material finito
 Se você estiver trabalhando com material finitos, o agendamento também depende da disponibilidade dos materiais necessários para a produção. se os componentes disponíveis não são suficientes para a produção, a produção pode ser atrasada. Você pode usar o agendamento em uso de materiais especificando o material que devem estar disponíveis para a produção. Quando você otimiza na capacidade do recurso e da disponibilidade de materiais, a produção será calculada de acordo com essas restrições. Uma ordem de produção não pode ser programadas para iniciar até a capacidade e o material está disponível ao mesmo tempo e as quantidades necessárias.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Opções de agendamento de operações](operation-scheduling-options.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

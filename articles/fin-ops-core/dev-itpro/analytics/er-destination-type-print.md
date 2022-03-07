@@ -1,12 +1,11 @@
 ---
 title: Tipo de destino de ER da impressora
-description: Este tópico explica como você pode configurar um destino de impressora para cada componente de ARQUIVO ou PASTA de um formato de ER (Relatório eletrônico) configurado para gerar documentos de saída em PDF ou formatos do Microsoft Office (Excel\Word).
+description: Este tópico explica como configurar um destino de impressora para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 19613d9dfba21d591d96a2df45bedb80c043b3a7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679597"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561941"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino da impressora
 
@@ -49,8 +48,6 @@ O destino da **Impressora** pode ser configurado somente para componentes de arq
 
 ### <a name="limitations"></a>Limitações
 
-Esse recurso está em versão prévia e está sujeito aos termos de uso que são descritos em [Termos de Uso Complementares para Versões Prévias do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
-
 O destino da **Impressora** é implementado somente para implantações em nuvem.
 
 ### <a name="use-the-printer-destination"></a>Usar o destino da Impressora
@@ -70,3 +67,6 @@ Para usar uma [orientação de página](electronic-reporting-destinations.md#Sel
 
 - [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 - [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

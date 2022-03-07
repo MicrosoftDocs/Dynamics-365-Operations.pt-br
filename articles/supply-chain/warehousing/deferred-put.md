@@ -1,27 +1,24 @@
 ---
 title: Processamento adiado de trabalho de depósito
 description: Este tópico descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Dynamics 365 Supply Chain Management.
-author: josaw1
-manager: tfehr
+author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422521"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577855"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Processamento adiado de trabalho de depósito
 
@@ -31,7 +28,7 @@ Este tópico descreve a funcionalidade que disponibiliza o processamento adiado 
 
 A funcionalidade de processamento adiado permite que trabalhadores de depósito continuem a fazer outros trabalhos enquanto a operação colocada é processada em segundo plano. O processamento adiado é útil quando várias linhas de trabalho devem ser processadas e o trabalhador pode deixar esse trabalho ser processado de forma assíncrona. Também é útil quando o servidor pode ter aumentos ad hoc ou não planejados no tempo de processamento e o tempo de processamento maior pode afetar a produtividade do usuário.
 
-O processamento em segundo plano é obtido usando a estrutura SysOperation. Para obter mais informações, consulte [Visão geral da estrutura SysOperation](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+O processamento em segundo plano é obtido usando a estrutura SysOperation. Para obter mais informações, consulte [Visão geral da estrutura SysOperation](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Como configurar políticas de processamento de trabalhos
 
@@ -110,3 +107,9 @@ O espaço de trabalho **Monitoramento do trabalho de saída** apresenta dois blo
 ## <a name="deleting-completed-tasks"></a>Excluindo tarefas concluídas
 
 Você pode excluir tarefas de processamento colocado adiado que foram concluídas, selecionando-as e excluindo-as na página.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+- [Processamento adiado da operação de movimentação de estoque manual](deferred-processing-manual-inventory-movement.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

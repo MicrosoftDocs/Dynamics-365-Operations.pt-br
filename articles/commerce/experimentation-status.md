@@ -2,11 +2,9 @@
 title: Revisar o status de um experimento
 description: Este tópico explica o status de um experimento no ciclo de vida da experimentação no Dynamics 365 Commerce.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5ae29fe5ac49d92c261c59d115664b50e87880a0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f7bdd292893ee42d49bdf977a55d8b10896ca1cd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965093"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792430"
 ---
 # <a name="review-the-status-of-an-experiment"></a>Revisar o status de um experimento
 Há várias etapas envolvidas na configuração e na execução de um experimento no Dynamics 365 Commerce. Para obter informações sobre o ciclo de vida de experimentação, consulte [Experimentação no Dynamics 365 Commerce](experimentation-overview.md).
@@ -44,3 +42,6 @@ Da mesma forma, na coluna **status de terceiros**, os valores a seguir podem ser
 O diagrama a seguir mostra os dois conjuntos de status e como eles se relacionam entre si.
 
 [ ![Status da experimentação](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

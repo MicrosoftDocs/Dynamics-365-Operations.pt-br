@@ -1,30 +1,32 @@
 ---
-title: Executar o processo de remuneração
-description: Este artigo explica como resolver um problema em que o cliente está tentando executar o processo de compensação no Microsoft Dynamics 365 Human Resources mas sem êxito.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+title: Execute o processo de remuneração
+description: Este tópico explica como resolver um problema onde o cliente está tentando executar o processo de remuneração no Microsoft Dynamics 365 Human Resources mas não está conseguindo.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989a08ca8ce83fd01742f6b5ec537ee1fc825fca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c299846b00d034c80b1044271128a08222e5d3f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417229"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065392"
 ---
 # <a name="run-the-compensation-process"></a>Executar o processo de remuneração
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Saída**
 
@@ -40,10 +42,13 @@ Aqui está a documentação para compensação:
 
 - Configuração:
 
-    - [Planos de remuneração](https://docs.microsoft.com/dynamics365/unified-operations/talent/compensation-plans)
-    - [Criar planos de remuneração fixa](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-    - [Criar planos de remuneração variável](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+    - [Planos de remuneração](/dynamics365/unified-operations/talent/compensation-plans)
+    - [Criar planos de remuneração fixa](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+    - [Criar planos de remuneração variável](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
 - Processo:
 
-    - [Processar remuneração](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+    - [Processar remuneração](/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Agendar uma ordem de produção com operações e agendamento de trabalho
 description: Este tópico se concentra em agendar uma ordem de produção com o agendamento de operações e planejamento de trabalho.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdSchedule, ProdTable, ProdRouteJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a69339bc678de8343dbf2646a4d6fe0ace9964c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c27611d7b0c8e4e180ff14d1bd1ca8e36bc82d79d3849494e4de44202bd642b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422142"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774021"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>Agendar uma ordem de produção com operações e agendamento de trabalho
 
@@ -56,3 +53,6 @@ Este tópico se concentra em agendar uma ordem de produção com o agendamento d
 6. No Painel de Ação, selecione **Ordem de produção**.
 7. Selecione **Todos os trabalhos**. Observe que, com base no roteiro ativo, 5 trabalhos são criados com o agendamento do trabalho.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

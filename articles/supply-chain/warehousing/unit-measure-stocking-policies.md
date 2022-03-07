@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 29611
 ms.assetid: 4b5ca875-9a06-416d-9ac0-cc3ab8f7338e
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd6a3ea9d7b339df99ffa65f058fc4b98b58b9c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ad62f57bb6cf952733c1efff15a03f5afee962d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422474"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237074"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Unidade de medida e políticas de estoque
 
@@ -50,3 +49,6 @@ Como parte da criação de produtos liberados, você deve selecionar unidades pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

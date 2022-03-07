@@ -2,26 +2,23 @@
 title: Estimar uma ordem de produção
 description: Você pode realizar esse procedimento usando a empresa de dados de demonstração USMF ou seu próprio conjunto de dados.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bbb541a09809c1f1bfada42094d840a2f6e7764
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8544f468b7870b265b0c206471ad88e219258a03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421881"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828649"
 ---
 # <a name="estimate-a-production-order"></a>Estimar uma ordem de produção
 
@@ -42,3 +39,6 @@ Você pode realizar esse procedimento usando a empresa de dados de demonstraçã
 1. No Painel de Ação, clique em Gerenciar custos.
 2. Clique em Exibir detalhes do cálculo.
     * Esta página exibe a divisão de custo. Por exemplo, você pode exibir o preço de custo total por unidade para o produto finalizado na primeira linha. As linhas subsequentes contêm custos de acordo com a lista de materiais, o roteiro de produção e os custos indiretos.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

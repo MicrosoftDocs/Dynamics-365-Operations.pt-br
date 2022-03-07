@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 496cbe562234efa981d97b0893a47340381fbdfd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966096"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205896"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Enviar ordens como entregas diretas
 
@@ -81,3 +81,6 @@ Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Vo
     - A página Entrega direta atua como uma bancada que fornece ao agente de compras uma visão geral de todas as linhas da ordem de venda que terão entrega direta e permite que sejam criadas as respectivas ordens de compra. Além disso, as ordens de entrega direta abertas e as ordens confirmadas podem ser exibidas nas guias Confirmação e Entrega.  
     - Depois de criar uma ordem de entrega direta, ela é movida automaticamente para a guia Confirmação. Você pode optar por confirmar a ordem diretamente nessa página. Quando a compra for confirmada, ela será movida automaticamente para a guia Entrega, onde você pode registrar seu recibo.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

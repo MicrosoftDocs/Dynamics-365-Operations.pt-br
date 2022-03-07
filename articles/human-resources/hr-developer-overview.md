@@ -1,31 +1,30 @@
 ---
-title: Visão Geral
+title: Visão geral de desenvolvimento
 description: Este guia de desenvolvedor fornece uma referência de campos de API e personalizados. Ele também fornece informações sobre a integração com outros aplicativos.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 639db592344edea5dffc0b2440b81f560015c21749ac1cb5a88f9cc2415c1208
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731976"
 ---
-# <a name="overview"></a>Visão Geral
+# <a name="development-overview"></a>Visão geral de desenvolvimento
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,21 +34,21 @@ Este guia de desenvolvedor fornece uma referência de campos de API e personaliz
 
 - [Estender com o Power Apps e o Power Automate](hr-developer-power-apps.md)
 
-- [Entidades do Human Resources no Common Data Service](hr-developer-entities.md)
+- [Entidades do Human Resources no Dataverse](hr-developer-entities.md)
 
 - [Campos personalizados](hr-developer-custom-fields.md)
 
 - Configurar integração de dados
   - [Escolha uma tecnologia de integração de dados](hr-admin-integration-choose-technology.md)
-  - [Configurar integração do Common Data Service](hr-admin-integration-common-data-service.md)
+  - [Configurar integração do Dataverse](hr-admin-integration-common-data-service.md)
   - [Configurar a integração com o Finance](hr-admin-integration-finance.md)
   - [Configurar a integração com o Dayforce](hr-admin-integration-dayforce.md)
   - [Criar um aplicativo de exportação de dados recorrente](hr-admin-integration-recurring-data-export.md)
   - Integrar com o Office
-    - [Tutorial de integração do Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Atualizar dados da entidade no Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Criar experiências de Abrir no Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Solucionar problemas de integração do Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Tutorial de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Atualizar dados da entidade no Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Criar experiências de Abrir no Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Solucionar problemas de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - Referência da API da Entidade
   - [Autenticação](hr-developer-api-authentication.md)
@@ -62,3 +61,6 @@ Este guia de desenvolvedor fornece uma referência de campos de API e personaliz
 - [Novidades ou alterações em Human Resources](hr-admin-whats-new.md)
 - [Guia do administrador](hr-admin-overview.md)
 - [Guia do usuário](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Limites de estoque de localização
 description: Este tópico descreve a funcionalidade para limites de estoque de localização.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
-ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
+ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "4607270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714153"
 ---
 # <a name="location-stocking-limits"></a>Limites de estoque de localização
 
@@ -84,7 +81,7 @@ Neste exemplo, você executará um fluxo de recebimento de ordem de compra para 
 
 Primeiro, você receberá uma quantidade de *4* da unidade *PL* no tamanho *P* e analisará as localizações das linhas de colocação para o trabalho criado. Depois, você receberá uma quantidade de *4* da unidade *PL* no tamanho *G* e analisará as localizações das linhas de colocação para o trabalho criado.
 
-1. No aplicativo de depósito, entre usando *24* como a ID de usuário e *1* como a senha.
+1. No aplicativo móvel do Gerenciamento de Depósito, entre usando *24* como a ID de usuário e *1* como a senha.
 1. Selecione **Entrada** \> **Recebimento de Compra**.
 1. Receba *4* *PL* do número de item *D0013* no tamanho *P*.
 1. Analise o trabalho de armazenamento que foi criado. Você verá o seguinte resultado:
@@ -104,3 +101,6 @@ Para explicar essa falha aparente, você deve entender os critérios de seleçã
 
 > [!NOTE]
 > Não é possível usar limites de estoque de localização para controlar, por exemplo, o reabastecimento de itens com quantidades diferentes na mesma localização. Nesse caso, use um *modelo de reabastecimento*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

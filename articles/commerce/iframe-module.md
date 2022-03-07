@@ -2,15 +2,12 @@
 title: Módulo iframe
 description: Este tópico abrange o módulo iframe e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665387"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754005"
 ---
-# <a name="iframe-module"></a>Módulo iframe
+# <a name="iframe-module"></a>Módulo Iframe
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange o módulo iframe e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Um módulo iframe fornece um iframe (quadro embutido) que hospeda o conteúdo externo em um site. Por exemplo, ele pode ser usado para hospedar um vídeo do YouTube ou visualizador de arquivos de vídeo de PDF em qualquer página do site. 
 
@@ -42,7 +37,7 @@ Um módulo iframe requer uma URL de destino. Em seguida, ele hospeda o conteúdo
 
 A imagem a seguir mostra exemplos de módulos iframe que demonstram vídeos externos nas páginas do site.
 
-![Exemplo de módulos iframe que demonstram vídeos externos](./media/ecommerce-iframe.PNG)
+![Exemplo de módulos iframe que demonstram vídeos externos.](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>Propriedades do módulo iframe
 
@@ -57,10 +52,10 @@ A imagem a seguir mostra exemplos de módulos iframe que demonstram vídeos exte
 
 Para adicionar um módulo iframe a uma página para mostrar um vídeo externo, siga estas etapas.
 
-1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo de marketing** e selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de marketing**. Em **Nome da página**, informe **página de Marketing** e, em seguida, selecione **OK**.
 1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
@@ -71,9 +66,15 @@ Para adicionar um módulo iframe a uma página para mostrar um vídeo externo, s
 1. Defina outras propriedades, como **Título** e **Altura**, conforme necessário.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Acesse a página de marketing do site. Você verá que o vídeo é processado no módulo iframe.
- 
+
+> [!NOTE]
+> Como o módulo iframe hospeda conteúdo externo, os autores do site devem garantir que o conteúdo hospedado em um módulo iframe não viole as políticas de restrição de conteúdo no respectivo mercado. Se houver uma violação de conteúdo em uma página que usa o módulo iframe, o autor do site poderá remover o módulo iframe abrindo a página no construtor de sites, selecionando **Remover módulo** no slot do módulo iframe e salvando e republicando a página.
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Gerenciar a Política de Segurança de Conteúdo (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

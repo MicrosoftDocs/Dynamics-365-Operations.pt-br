@@ -1,33 +1,34 @@
 ---
-title: Visão geral do autoatendimento para funcionários e gerentes
-description: Este artigo fornece uma visão geral do espaço de trabalho de autoatendimento para funcionários e gerentes.
-author: andreabichsel
-manager: tfehr
-ms.date: 10/20/2020
-ms.topic: article
+title: Visão geral de Autoatendimento para funcionários e gerentes
+description: Este artigo fornece uma visão geral do espaço de trabalho de autoatendimento para Funcionários e Gerentes.
+author: twheeloc
+ms.date: 08/26/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
-ms.custom: 51941
+ms.search.scope: Human Resources
+ms.custom:
+- "51941"
+- intro-internal
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
-ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
+ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4417364"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992037"
 ---
-# <a name="employee-and-manager-self-service-overview"></a>Visão geral do autoatendimento para funcionários e gerentes
+# <a name="employee-and-manager-self-service-overview"></a>Visão geral de Autoatendimento para funcionários e gerentes
 
-Este artigo fornece uma visão geral do espaço de trabalho de autoatendimento para funcionários e gerentes.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Este artigo fornece uma visão geral do espaço de trabalho de autoatendimento para Funcionários e Gerentes.
 
 ## <a name="edit-personal-details"></a>Editar informações pessoais
 
@@ -39,7 +40,7 @@ Se você não tiver vinculado seu usuário a um registro de **Trabalhador** na p
 
 **Sua ID de usuário não está associada ao seu registro de funcionário no sistema. Você não poderá exibir ou atualizar suas informações até que isso seja feito. Entre em contato com seu gerente ou a equipe de suporte para obter ajuda.**
 
-Para associar um usuário a um registro do **Trabalhador**, navegue até **Usuários** e selecione o usuário. Selecione **Editar**, adicione o trabalhador correspondente no campo **Pessoa** no formulário e selecione **Salvar**. Agora você deve ter acesso ao Autoatendimento para funcionários.
+Para associar um usuário a um registro do **Trabalhador**, navegue até **Usuários** e selecione o usuário. Selecione **Editar**, adicione o trabalhador correspondente no campo **Pessoa** na página e selecione **Salvar**. Agora você deve ter acesso ao **Autoatendimento para funcionários**.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Requisitos de segurança para Autoatendimento de Funcionário e Gerente
 
@@ -54,7 +55,7 @@ Autoatendimento de Funcionário e Gerente requer duas funções de segurança:
 
 ## <a name="employee-self-service"></a>Autoatendimento para funcionários
 
-A guia **Minhas informações** exibe as seguintes informações sobre autoatendimento para funcionários.  
+A guia **Minhas informações** exibe as seguintes informações sobre **Autoatendimento para funcionários**.  
 
 ### <a name="summary"></a>Resumo
 
@@ -68,33 +69,33 @@ A guia **Minhas informações** exibe as seguintes informações sobre autoatend
 
 ### <a name="my-career-information"></a>Informações da minha carreira
 
-A seção **Minhas informações de carreira** do autoatendimento para funcionários contém cartões relacionados a licenças e ausências, gerenciamento de desempenho, competências, benefícios, tarefas e anexos.
+A seção **Minhas informações de carreira** do **Autoatendimento para funcionários** exibe blocos relacionados a Licenças e Ausências, Gerenciamento de desempenho, Competências, Benefícios, Tarefas e Anexos.
 
-O cartão **Saldos de folgas** exibe os saldos de todos os planos registrados. Este cartão prevê seu saldo com base no seu método de competência. É possível inserir e enviar solicitações de folga, que passarão por um processo de fluxo de trabalho de aprovação. Para obter mais informações sobre licenças e ausências, consulte [Visão geral de licença e ausência](hr-leave-and-absence-overview.md).
+O bloco **Saldos de folgas** exibe os saldos de todos os planos registrados. Esse bloco prevê seu saldo com base no seu método de competência. É possível inserir e enviar solicitações de folga, que passarão por um processo de fluxo de trabalho de aprovação. Para obter mais informações sobre licenças e ausências, consulte [Visão geral de licença e ausência](hr-leave-and-absence-overview.md).
 
-O cartão **Tarefas** exibe as tarefas atribuídas a você e permite visualizá-las e gerenciá-las.
+O bloco **Tarefas** exibe as tarefas atribuídas a você e permite visualizá-las e gerenciá-las.
 
-O cartão **Próximo curso registrado** exibe o próximo curso no qual você está registrado. É possível exibir e se inscrever em qualquer curso aberto. Todos os cursos abertos para inscrição têm o status **Iniciado** e permitem que os funcionários se registrem automaticamente nesse cartão. Dependendo das configurações da sua organização, sua inscrição no curso talvez passe por um processo de aprovação.
+**Próximo curso registrado** exibe o próximo curso no qual você está registrado. É possível exibir e se inscrever em qualquer curso aberto. Todos os cursos abertos para inscrição têm o status **Iniciado** e permitem que os funcionários se registrem automaticamente. Dependendo das configurações da sua organização, sua inscrição no curso talvez passe por um processo de aprovação.
 
-O cartão **Certificados** exibe o certificado e a data de vencimento do certificado com expiração mais próxima da data atual. Você pode atualizar, adicionar ou remover certificados. Dependendo das configurações da sua organização, as atualizações de certificado talvez passem por um processo de aprovação.
+O bloco **Certificados** exibe o certificado e a data de vencimento do certificado com expiração mais próxima da data atual. Você pode atualizar, adicionar ou remover certificados. Dependendo das configurações da sua organização, as atualizações de certificado talvez passem por um processo de aprovação.
 
-O cartão **Próxima revisão agendada** exibe sua próxima avaliação de desempenho. Você pode iniciar uma nova revisão nesse cartão. Seu gerente ou representante de HR também pode iniciar revisões. Dependendo das configurações da sua organização, você também poderá visualizar, atualizar e enviar revisões de saída nesse cartão.
+**Próxima revisão agendada** exibe sua próxima avaliação de desempenho. Você pode iniciar uma nova revisão nesse bloco. Seu gerente ou representante de HR também pode iniciar revisões. Dependendo das configurações da sua organização, você também poderá visualizar, atualizar e enviar revisões de saída.
 
-Você pode gerenciar suas metas com o cartão **Metas de desempenho**. Esse cartão exibe o número de metas que você tem em cada status (**Não iniciado**, **Em curso** e **Requer aperfeiçoamento**). Você pode criar, atualizar e remover metas, dependendo da segurança baseada em função atribuída. Se desejar, você pode adicionar novas metas de grupos ou modelos. Gerentes e HR também podem criar metas em nome dos funcionários e determinar o grau de detalhamento que cada meta terá. Gerentes e funcionários podem colaborar em metas e atualizar atividades, medidas e status. Você também pode incluir anexos.
+Você pode gerenciar suas metas com **Metas de desempenho**. Esse bloco exibe o número de metas que você tem em cada status (**Não iniciado**, **Em curso** e **Requer aperfeiçoamento**). Você pode criar, atualizar e remover metas, dependendo da segurança baseada em função atribuída. Se desejar, você pode adicionar novas metas de grupos ou modelos. Gerentes e HR também podem criar metas em nome dos funcionários e determinar o grau de detalhamento que cada meta terá. Gerentes e funcionários podem colaborar em metas e atualizar atividades, medidas e status. Você também pode incluir anexos.
 
-Você pode visualizar suas habilidades existentes no cartão **Habilidades**. Você pode atualizar habilidades, adicionar novas ou remover as que não são mais relevantes. Dependendo das configurações da sua organização, as alterações nas suas habilidades talvez passem por um processo de aprovação.
+Você pode visualizar suas habilidades existentes no bloco **Total de habilidades**. Você pode atualizar habilidades, adicionar novas ou remover as que não são mais relevantes. Dependendo das configurações da sua organização, as alterações nas suas habilidades talvez passem por um processo de aprovação.
 
-Você pode visualizar sua remuneração atual por meio do cartão **Remuneração**. Selecione **Mostrar** para visualizar seu pagamento anual e o valor do último aumento. Se você trabalha em mais de uma empresa, cada valor anual é exibido no cartão. Para visualizar seu histórico de remuneração detalhado, selecione o valor do salário anual para abrir o formulário **Histórico de remuneração fixa e variável**. Remunerações futuras não são exibidas nesse formulário. Se você tiver mais de um trabalho, poderá alternar entre empresas nesse formulário para visualizar seu histórico de remuneração sem necessidade de se conectar a cada empresa.
+Você pode visualizar sua remuneração atual em **Remuneração**. Selecione **Mostrar** para visualizar seu pagamento anual e o valor do último aumento. Se você trabalha em mais de uma empresa, cada valor anual é exibido. Para visualizar seu histórico de remuneração detalhado, selecione o valor do **Salário anual** para abrir a página **Histórico de remuneração fixa e variável**. Remunerações futuras não são exibidas nessa página. Se você tiver mais de um trabalho, poderá alternar entre empresas nessa página para visualizar seu histórico de remuneração sem necessidade de se conectar a cada empresa.
 
-Visualize e gerencie documentos com o cartão **Anexos**. Você pode gerenciar todos os anexos **Externo**. HR e funcionários podem adicionar anexos por meio do autoatendimento para funcionários ou do formulário **Trabalhador**. Os anexos estão definidos como **Externo** por padrão.
+Visualize e gerencie documentos com o bloco **Anexos**. Você pode gerenciar todos os anexos **Externo**. RH e funcionários podem adicionar anexos por meio do **Autoatendimento para funcionários** ou da página **Trabalhador**. Os anexos estão definidos como **Externo** por padrão.
 
-### <a name="additional-information"></a>Informações adicionais da Nf-e
+### <a name="additional-information"></a>Outras informações
 
-Esta seção fornece links para outras áreas de autoatendimento para funcionários, semelhantes à seção **Minhas informações de carreira**.
+Esta seção fornece links para outras áreas de **Autoatendimento para funcionários**, semelhantes à seção **Minhas informações de carreira**.
 
-Inscreva-se nos benefícios por meio do link **Benefícios**. Para obter mais informações sobre gerenciamento de benefícios, consulte [Visão geral dos benefícios](hr-benefits-management-overview.md)
+Inscreva-se nos benefícios por meio do link **Benefícios**. Para obter mais informações sobre Gerenciamento de benefícios, consulte [Visão geral de benefícios](hr-benefits-management-overview.md).
 
-Em **Desempenho**, você pode selecionar **Diários de desempenho** para criar entradas de diário de desempenho para usar em metas e revisões de desempenho. Você pode selecionar **Enviar comentários** para fornecer comentários a outros funcionários da sua organização. Dependendo das configurações da sua organização, os emails podem ser enviados ao destinatário, remetente e gerentes. Você pode enviar comentários para todos os funcionários da organização. O envio de comentários não é restrito pela empresa.
+Em **Desempenho**, você pode selecionar **Diário de desempenho** para criar entradas de diário de desempenho para usar em metas e revisões de desempenho. Você pode selecionar **Enviar comentários** para fornecer comentários a outros funcionários da sua organização. Dependendo das configurações da sua organização, os emails podem ser enviados ao destinatário, remetente e gerentes. Você pode enviar comentários para todos os funcionários da organização. O envio de comentários não é restrito pela empresa.
 
 Em **Competências**, você pode fazer alterações em **Cursos**, **Formação**, **Posições de confiança** e **Experiência profissional**. Dependendo das configurações da sua organização, as atualizações dessas competências talvez passem por um processo de aprovação.
 
@@ -102,13 +103,13 @@ Em **Competências**, você pode fazer alterações em **Cursos**, **Formação*
 
 Em **Questionário**, você poderá ver os questionários preenchidos. Também poderá ver questionários da empresa inteira que não foram concluídos. Você poderá optar por preencher um questionário a qualquer momento. O autor do questionário pode determinar o prazo e a quem o questionário se aplica.
 
-Você pode configurar links definidos pelo usuário em **Parâmetros do Human Resources**. Por exemplo, você pode definir links para demonstrativos de pagamento, documentação de fechamento do exercício ou soluções externas. Esses links são exibidos na parte inferior desta seção, mas você pode movê-los usando a personalização.
+Você pode configurar links definidos pelo usuário em **Parâmetros de recursos humanos**. Por exemplo, você pode definir links para demonstrativos de pagamento, documentação de fechamento do exercício ou soluções externas. Esses links são exibidos na parte inferior desta seção, mas você pode movê-los usando a personalização.
 
-Você também pode criar guias adicionais incorporando o Power Apps no espaço de trabalho de autoatendimento para funcionários. Use o menu **Configurações** para personalizar a página com qualquer Power Apps. No menu **Configurações**, você pode optar por adicionar um Power App, concluir os detalhes e inserir o aplicativo. Por padrão, o Power Apps aparece como a primeira guia na sequência. Você pode alterar a ordem usando a personalização padrão.
+Você também pode criar guias adicionais incorporando o Power Apps no espaço de trabalho de **Autoatendimento para funcionários**. Use o menu **Configurações** para personalizar a página com qualquer Power Apps. No menu **Configurações**, você pode optar por adicionar um Power App, concluir os detalhes e inserir o aplicativo. Por padrão, o Power Apps aparece como a primeira guia na sequência. Você pode alterar a ordem usando a personalização padrão.
 
 ## <a name="my-team"></a>Minha equipe
 
-A guia **Minha equipe** exibe as seguintes informações sobre o autoatendimento para gerentes. Apenas os gerentes podem acessar a guia **Minha equipe**.
+A guia **Minha equipe** exibe as seguintes informações sobre o **Autoatendimento para gerentes**. Apenas os gerentes podem acessar a guia **Minha equipe**.
 
 ### <a name="personnel-actions"></a>Ações de pessoal
 
@@ -131,7 +132,7 @@ Também é possível configurar essas opções para passar por um fluxo de traba
 
 ### <a name="summary"></a>Resumo
 
-As informações na seção **Resumo** dependem das opções que o HR selecionou em **Parâmetros de recursos humanos**. Na guia **Autoatendimento para gerentes** da página **Parâmetros do Human Resources**, você pode configurar opções para exibir registros expirados e posições abertas. A habilitação dessas opções determina o que os gerentes podem ver na seção **Resumo**.
+As informações na seção **Resumo** dependem das opções que RH selecionou em **Parâmetros de recursos humanos**. Na guia **Autoatendimento para gerentes** da página **Parâmetros de recursos humanos**, você pode configurar opções para exibir registros expirados e posições abertas. A habilitação dessas opções determina o que os gerentes podem ver na seção **Resumo**.
 
 Você pode configurar os seguintes blocos para gerentes:
 
@@ -159,11 +160,11 @@ Você pode configurar os seguintes blocos para gerentes:
 
 ### <a name="my-team-information"></a>Informações da minha equipe
 
-As informações da minha equipe permitem que os gerentes visualizem e atualizem subordinados diretos e estendidos. Para acessar subordinados estendidos, selecione o funcionário com subordinados diretos e escolha **Exibir equipe** no cartão. Todas as mesmas opções se aplicam a subordinados estendidos como subordinados diretos. 
+**Minha equipe** permitem que os gerentes visualizem e atualizem subordinados diretos e estendidos. Para acessar subordinados estendidos, selecione o funcionário com subordinados diretos e escolha **Exibir equipe** no bloco. Todas as mesmas opções se aplicam a subordinados estendidos como subordinados diretos. 
 
 #### <a name="summary-tab"></a>Guia Resumo
 
-A guia **Resumo** fornece uma visão rápida dos seus subordinados diretos. Se um subordinado direto também tiver trabalhadores se reportando a ele, o cartão exibirá o número de subordinados diretos na seção superior, juntamente com o botão **Exibir equipe**. As opções acima de cada cartão se aplicam ao funcionário selecionado. Por exemplo, se você desejar inserir uma solicitação de licença em nome de um funcionário, selecione o funcionário e escolha **Solicitar folga** acima dos cartões. 
+A guia **Resumo** fornece uma visão rápida dos seus subordinados diretos. Se um subordinado direto também tiver trabalhadores se reportando a ele, o cartão exibirá o número de subordinados diretos na seção superior, juntamente com o botão **Exibir equipe**. As opções acima de cada bloco se aplicam ao funcionário selecionado. Por exemplo, se você desejar inserir uma solicitação de licença em nome de um funcionário, selecione o funcionário e escolha **Solicitar folga**. 
 
 Se você selecionar o botão **Detalhes** após selecionar um funcionário, as seguintes opções serão exibidas:
 
@@ -182,26 +183,26 @@ Dependendo das configurações da sua organização, você pode fazer alteraçõ
 
 #### <a name="position-tab"></a>Guia Posição
 
-A guia **Posições** fornece uma visão resumida dos funcionários em sua posição principal. Nome, bloco e departamento são exibidos na área de cabeçalho de cada cartão. Este cartão inclui:
+A guia **Posição** fornece uma visão resumida dos funcionários em sua posição principal. Nome, cargo e departamento são exibidos na área de cabeçalho de cada bloco. Esse bloco inclui:
 
-- **Aniversário de tempo de serviço**: exibido na seção de resumo do trabalhador do formulário de trabalho
-- **Anos de serviço**: calculados com base na data de início do trabalho do funcionário
-- **Número de posições anteriores**: com base no histórico de posições, a seleção desse número abre a exibição detalhada de todas as posições anteriormente ocupadas
-- **Data de nascimento**: o mês e o dia da data de nascimento do funcionário
+- **Aniversário de tempo de serviço**: exibido na seção de resumo do trabalhador da página **Trabalhador**.
+- **Anos de serviço**: calculados com base na data de início do trabalho do funcionário.
+- **Número de posições anteriores**: com base no histórico de posições, a seleção desse número abre a exibição detalhada de todas as posições anteriormente ocupadas.
+- **Data de nascimento**: o mês e o dia da data de nascimento do funcionário.
 
 Você pode visualizar dados de posição para subordinados diretos e estendidos.
 
 #### <a name="compensation-tab"></a>Guia Remuneração
 
-A guia **Remuneração** exibe o salário anual do funcionário. Um identificador da empresa é exibido abaixo do valor do salário. Se um funcionário tiver mais de um trabalho e estiver sendo pago por várias pessoas jurídicas, ele terá vários planos de remuneração. Para ver todos os planos de remuneração entre entidades legais sem alternar entre empresas, você deve habilitar a remuneração cruzada em **Recursos Humanos > Parâmetros compartilhados > Acesso avançado > Habilitar a remuneração entre empresas**.
+A guia **Remuneração** exibe o salário anual do funcionário. Um identificador da empresa é exibido abaixo do valor do salário. Se um funcionário tiver mais de um trabalho e estiver sendo pago por várias pessoas jurídicas, ele terá vários planos de remuneração. Para ver todos os planos de remuneração entre entidades legais sem alternar entre empresas, você deve habilitar a remuneração cruzada em **Recursos humanos > Parâmetros compartilhados > Acesso avançado > Habilitar a remuneração entre empresas**.
 
-Para visualizar o histórico de remuneração, selecione o valor do salário para abrir o formulário **Detalhes**. Somente os registros de remuneração fixa e variável atuais e históricos são exibidos no formulário **Remuneração**. Se um funcionário tiver mais de um emprego, você poderá alternar entre as empresas para exibir o histórico de remuneração em cada empresa ou habilitar a remuneração cruzada da empresa nos parâmetros compartilhados de recursos humanos para exibir todos os planos de remuneração.
+Para visualizar o histórico de remuneração, selecione **Valor do salário** para abrir a página **Detalhes**. Somente os registros de remuneração fixa e variável atuais e históricos são exibidos na página **Remuneração**. Se um funcionário tiver mais de um trabalho, você poderá alternar entre as empresas para exibir o histórico de remuneração em cada empresa ou habilitar a remuneração cruzada da empresa em **Parâmetros compartilhados de recursos humanos** para exibir todos os planos de remuneração.
 
 Você pode visualizar a remuneração dos subordinados diretos e estendidos.
 
 #### <a name="leave-and-absence-tab"></a>Guia Licença e ausência
 
-A guia **Licença e ausência** exibe os principais saldos dos funcionários que têm atividade. Para executar uma ação ou exibir uma lista completa de atividades, selecione **Detalhes** e, em seguida, selecione **Folga**. No formulário **Folga**, é possível visualizar saldos, solicitações, folgas aprovadas e previsão de saldos para ajudar os funcionários a gerenciar melhor o tempo. Dependendo das configurações da sua organização, você também pode solicitar uma folga para seus subordinados diretos e estendidos.
+A guia **Licença e ausência** exibe os principais saldos dos funcionários que têm atividade. Para executar uma ação ou exibir uma lista completa de atividades, selecione **Detalhes** e, em seguida, selecione **Folga**. Na página **Folga**, é possível visualizar saldos, solicitações, folgas aprovadas e previsão de saldos para ajudar os funcionários a gerenciar melhor o tempo. Dependendo das configurações da sua organização, você também pode solicitar uma folga para seus subordinados diretos e estendidos.
 
 #### <a name="performance-goals-tab"></a>Guia Metas de desempenho
 
@@ -214,3 +215,5 @@ Os gerentes podem ver todas as metas de sua equipe por meio do bloco **Metas de 
 A guia **Revisões** resume as revisões que o funcionário tem em cada estado: **Em andamento**, **Pronto para revisão** e **Revisão final**. Para acessar a revisão de um funcionário, selecione o botão **Detalhes** e selecione as revisões nas quais colaborar. Com base na posição de uma revisão dentro do processo do fluxo de trabalho, você poderá verificar se a revisão está disponível para atualização. 
 
 Você poderá ver todas as revisões da sua equipe por meio do bloco **Avaliações de desempenho da equipe** na seção **Resumo** de **Minha equipe**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

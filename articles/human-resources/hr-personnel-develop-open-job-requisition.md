@@ -1,68 +1,69 @@
 ---
-title: Desenvolver e abrir requisição de trabalho aberta
+title: Criar e abrir requisição de trabalho aberta
 description: Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3207d61536422255b574fd126f16075fcddc2c93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417220"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731552"
 ---
-# <a name="develop-and-open-job-requisition"></a>Desenvolver e abrir requisição de trabalho aberta
+# <a name="create-and-open-job-requisition"></a>Criar e abrir requisição de trabalho aberta
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
+Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento. Depois de criar um projeto de recrutamento, você pode realizar as seguintes tarefas:
 
-Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento. Para cada projeto de recrutamento, você pode configurar informações, como o trabalho para o qual você está fazendo o recrutamento, o nome de recruta, o status do projeto e o departamento que o trabalho será encontrados em. Depois de criar um projeto de recrutamento, você pode criar um anúncio de emprego para o projeto, publicar o anúncio de emprego nas páginas de autoatendimento do funcionário, associar aplicações para emprego com o projeto, e rastrear atividades para aquele projeto. A empresa de dados demo usada para criar este procedimento é USMF. Para iniciar o procedimento, vá para Recursos humanos > Recrutamento > Projetos de recrutamento > Projetos de recrutamento
+- Escrever um anúncio de emprego para o projeto.
+- Publicar o anúncio em páginas de Autoatendimento para funcionários.
+- Associar solicitações de emprego ao projeto.
+- Rastrear atividades para o projeto. 
 
-1. Clique em Novo.
-2. No campo Projeto de recrutamento, insira um valor.
-3. No campo Descrição, digite um valor.
-4. No campo Recrutador, clique no botão suspenso para abrir a pesquisa.
-5. Na lista, localize e selecione o registro desejado.
-6. Na lista, clique no link na linha selecionada.
-7. Clique em Selecionar.
-8. No campo Departamento, clique no botão suspenso para abrir a pesquisa.
-9. Na lista, clique no link na linha selecionada.
-10. No campo Trabalho, clique no botão suspenso para abrir a pesquisa.
-11. Na lista, localize e selecione o registro desejado.
-12. Na lista, clique no link na linha selecionada.
-13. No campo Número de aberturas, insira um número.
-14. No campo Contratar gerente, clique no botão suspenso para abrir a pesquisa.
-15. Na lista, localize e selecione o registro desejado.
-16. Na lista, clique no link na linha selecionada.
-17. Clique em Selecionar.
-18. No campo Prazo final da solicitação de emprego, insira uma data.
-19. Clique em Mídia.
-    * Os projetos de recrutamento incluem a opção para especificar a mídia de comunicação a ser usada para anunciar posições em aberto.  
-20. Clique em Novo.
-21. No campo Mídia, clique no botão suspenso para abrir a pesquisa.
-22. Na lista, clique no link na linha selecionada.
-23. No campo Data de início, insira uma data.
-24. No campo Data final, insira uma data.
-25. Clique em Salvar.
-26. Feche a página.
-27. Clique em Anúncios de trabalho.
-28. Clique em Salvar.
-29. Feche a página.
-30. Marque ou desmarque a caixa de seleção Exibir no autoatendimento para funcionários.
-    * Selecione a caixa de seleção Exibir no autoatendimento para funcionários para tornar o projeto de recrutamento visível a funcionários em suas páginas de autoatendimento de funcionários.  
-31. Clique em Status do projeto de recrutamento.
-32. Clique em Iniciar.
-    * O status Iniciado significa que o projeto está pronto para receber solicitações de emprego.  
-33. Clique em OK.
+1. Acesse **Recursos humanos > Recrutamento > Projetos de recrutamento > Projetos de recrutamento**.
+2. Selecione **Novo**.
+3. No campo **Projeto de recrutamento**, insira um valor.
+4. No campo **Descrição**, insira um valor.
+5. No campo **Recrutador**, selecione o botão suspenso para abrir a pesquisa.
+6. Na lista, localize e selecione o registro.
+7. Na lista, selecione o link na linha selecionada.
+8. Escolha **Selecionar**.
+9. No campo **Departamento**, selecione o botão suspenso para abrir a pesquisa.
+10. Na lista, selecione o link na linha selecionada.
+11. No campo **Trabalho**, selecione o botão suspenso para abrir a pesquisa.
+12. Na lista, localize e selecione o registro.
+13. Na lista, selecione o link na linha selecionada.
+14. No campo **Número de aberturas**, insira um número.
+15. No campo **Gerente da contratação**, selecione o botão suspenso para abrir a pesquisa.
+16. Na lista, localize e selecione o registro.
+17. Na lista, selecione o link na linha selecionada.
+18. Escolha **Selecionar**.
+19. No campo **Prazo final para solicitação de emprego**, insira uma data.
+20. Selecione **Mídia**. Os projetos de recrutamento incluem a opção para especificar a mídia de comunicação a ser usada para anunciar posições em aberto.  
+21. Selecione **Novo**.
+22. No campo **Mídia**, selecione o botão suspenso para abrir a pesquisa.
+23. Na lista, selecione o link na linha selecionada.
+24. No campo **Data inicial**, insira uma data.
+25. No campo **Data final**, insira uma data.
+26. Selecione **Salvar**.
+27. Feche a página.
+28. Selecione **Anúncios de emprego**.
+29. Selecione **Salvar**.
+30. Feche a página.
+31. Marque ou desmarque a caixa de seleção **Exibir em Autoatendimento para funcionários**. Marque a caixa de seleção **Exibir em Autoatendimento para funcionários**. Esta seleção torna o projeto de recrutamento visível aos funcionários na página **Autoatendimento para funcionários**.
+32. Selecione **Status do projeto de recrutamento**.
+33. Selecione **Iniciar**. O status **Iniciado** significa que o projeto está pronto para receber solicitações de emprego.  
+34. Selecione **OK**.
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

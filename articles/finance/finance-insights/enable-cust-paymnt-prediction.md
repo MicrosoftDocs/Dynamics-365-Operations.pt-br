@@ -1,8 +1,8 @@
 ---
-title: Habilitar previsões de pagamento do cliente
+title: Habilitar previsões de pagamento do cliente (versão prévia)
 description: Este tópico explica como habilitar e configurar o recurso de previsões de pagamento de cliente no Finance Insights.
 author: ShivamPandey-msft
-ms.date: 02/11/2022
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,41 +15,46 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b83d1230c94462ca722ad7ceb7b2185afd636aae
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 0b945111f360838dfa35cddb916c4fb34a41f55bdd8f3095bd97c906b7dd3dd7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768882"
 ---
-# <a name="enable-customer-payment-predictions"></a>Habilitar previsões de pagamento do cliente
+# <a name="enable-customer-payment-predictions-preview"></a>Habilitar previsões de pagamento do cliente (versão prévia)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como habilitar e configurar o recurso de previsões de pagamento de cliente no Finance Insights. Você ativa o recurso no espaço de trabalho **Gerenciamento de recursos** e insere definições de configuração na página **Configuração do Finance Insights**. Este tópico também inclui informações que podem ajudar você a usar o recurso com eficiência.
+Este tópico explica como habilitar e configurar o recurso de previsões de pagamento de cliente no Finance Insights. Para ativar o recurso no espaço de trabalho **Gerenciamento de recursos** e inserir definições de configuração, acesse a página **Parâmetros do Financial insights**. Este tópico também inclui informações que podem ajudar você a usar o recurso com eficiência.
 
 > [!NOTE]
 > Antes de concluir as etapas a seguir, certifique-se de concluir as etapas de pré-requisito no tópico [Configuração do Finance Insights](configure-for-fin-insites.md).
 
-1. Ative o recurso Previsões de pagamento do cliente:
+1. Use as informações da página de ambiente no Microsoft Dynamics Lifecycle Services (LCs) para se conectar à instância principal do Azure SQL para esse ambiente. Execute o comando Transact-SQL (T-SQL) a seguir para ativar as versões piloto no ambiente de área restrita. (Talvez seja necessário ativar o acesso ao seu endereço IP no LCS antes de se conectar remotamente ao servidor de objetos de aplicativo \[AOS\].)
 
-    1. Abra o espaço de trabalho **Gerenciamento de recursos**.
-    2. Selecione **Verificar se há atualizações**.
-    3. Na guia **Tudo**, procure **Previsões de pagamento do cliente**. Se você não encontrar esse recurso, procure **(Versão preliminar) Previsões de pagamento do cliente**. 
-    4. Ative o recurso.
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('PayPredEnableFeature', 1)`
 
-    O recurso Previsões de pagamento do cliente agora está ativado e pronto para ser configurado.
+    > [!NOTE]
+    > Ignore esta etapa se você estiver usando a versão 10.0.20 ou posterior, ou se você estiver usando uma implantação do Service Fabric. A equipe do Finance Insights já deve ter ativado a versão piloto para você. Se você não vir o recurso no espalho de trabalho **Gerenciamento de recurso**, ou se você tiver problemas ao tentar ativá-lo, entre em contato com <fiap@microsoft.com>. 
 
-2. Configure o recurso de informações de pagamento do cliente:
+2. Habilite o recurso de informações de pagamento do cliente:
 
-    1. Acesse **Crédito e cobranças \> Configuração \> Finance Insights \> Previsões de pagamento do cliente**.
-    2. Na página **Configuração do Finance Insights**, na guia **Previsões de pagamento do cliente**, selecione **Exibir os campos de dados usados no modelo de previsão** para abrir a página **Campos de dados para o modelo de previsão**. Nela, você pode exibir a lista padrão de campos usados para criar o modelo de previsão de inteligência artificial (AI) para previsões de pagamento do cliente.
+    1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
+    2. Localize o recurso que é chamado de **Informações de pagamento do cliente (versão prévia)**.
+    3. Selecione **Habilitar agora**.
 
-        Para usar a lista de campos padrão para criar o modelo de previsão, feche a página **Campos de dados para o modelo de previsão** e, na página **Configuração do Finance Insights**, defina a opção **Habilitar recurso** como **Sim**.
-        
-   > [!NOTE]
-   > O recurso **Previsões de pagamento de cliente** requer mais de 100 transações nos seis a nove meses anteriores. As transações podem incluir faturas de texto livre, ordens de venda e pagamentos de cliente. Esses dados devem ser distribuídos nas configurações **No prazo**, **Atrasado** e **Muito atrasado**.    
-     
+    O recurso de insights de pagamento do cliente agora está ativado e pronto para ser configurado.
+
+3. Configure o recurso de informações de pagamento do cliente:
+
+    1. Acesse **Crédito e cobranças \> Configuração \> Finance Insights \> Parâmetros do Finance Insights**.
+
+        [![Parâmetros de informações financeiras antes do recurso ser configurado.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+
+    2. Na página **Parâmetros de informações financeiras**, na guia **Informações de pagamento do cliente**, selecione **Exibir os campos de dados usados no link do modelo de previsão** para abrir a página **Campos de dados para o modelo de previsão**. Nela, você pode exibir a lista padrão de campos usados para criar o modelo de previsão de inteligência artificial (AI) para previsões de pagamento do cliente.
+
+        Para usar a lista de campos padrão para criar o modelo de previsão, feche a página **Campos de dados para o modelo de previsão** e, na página **Parâmetros de informações financeiras**, defina a opção **Habilitar recurso** como **Sim**.
 
     3. Especifique o período da transação "Muito atrasado" para definir o que o bucket de previsão **Muito atrasado** significa para seus negócios.
 
@@ -62,13 +67,21 @@ Este tópico explica como habilitar e configurar o recurso de previsões de paga
         > [!NOTE]
         > Se você alterar o período da transação "Atrasado" e selecionar **Alterar limite de atraso** depois que o modelo de previsão de IA para pagamentos do cliente for criado, o modelo de previsão existente será excluído e um novo modelo será criado. O novo modelo de previsão moverá as transações para o período "Muito atrasado", com base nas configurações que foram inseridas para defini-lo.
 
-    4. Depois de concluir a definição do período da transação "Muito atrasado", selecione **Criar modelo de previsão** para criar o modelo de previsão. A seção **Modelo de previsão** na página **Configuração do Finance Insights** mostra o status do modelo de previsão.
+    4. Depois de concluir a definição do período da transação "Muito atrasado", selecione **Criar modelo de previsão** para criar o modelo de previsão. A seção **Modelo de previsão** na página **Parâmetros de informações financeiras** mostra o status do modelo de previsão.
 
         > [!NOTE]
         > A qualquer momento enquanto o modelo de previsão estiver sendo criado, você pode selecionar **Redefinir criação do modelo** para reiniciar o processo.
 
     O recurso foi configurado e agora está pronto para ser usado.
 
-Depois que o recurso for ativado e configurado e o modelo de previsão for criado e estiver funcionando, a seção **Modelo de previsão** da página **Parâmetros do Finance Insights** mostrará a precisão do modelo.
+Depois que o recurso for ativado e configurado e o modelo de previsão tiver sido criado e estiver funcionando, a seção **Modelo de previsão** da página **Parâmetros de informações financeiras** mostrará a precisão do modelo, conforme mostrado na ilustração a seguir.
+
+[![Precisão do modelo de previsão na página Parâmetros de informações financeiras.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+
+## <a name="release-details"></a>Detalhes da liberação
+
+A versão prévia pública do Finance Insights está disponível para implantações de avaliação nos Estados Unidos da América, Europa e Reino Unido. A Microsoft está adicionando suporte para mais regiões de forma incremental.
+
+Os recursos de versão preliminar pública só devem ser ativados em ambientes de área restrita de Camada 2. A Configuração e os Modelos de IA criados em um ambiente de área restrita não podem ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

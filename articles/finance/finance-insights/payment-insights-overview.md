@@ -2,33 +2,31 @@
 title: Previsões de pagamento do cliente (versão preliminar)
 description: Este tópico descreve o recurso de previsões de pagamento que pode ajudar a entender melhor as práticas de pagamento típicas de um cliente. Esse recurso também pode ajudar a identificar as circunstâncias que devem causar o início de processos de cobrança antes do que você espera.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: b321fdc185e175d9fe2673c9f1e16486efd8e798
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 25542e72e620e5273a9cd215d5b6cd2f89a2f364
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645664"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638359"
 ---
 # <a name="customer-payment-predictions-preview"></a>Previsões de pagamento do cliente (versão preliminar)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve o recurso de previsões de pagamento que pode ajudar a entender melhor as práticas de pagamento típicas de um cliente. Esse recurso também pode ajudar a identificar as circunstâncias que devem causar o início de processos de cobranças antes do que você espera.
 
@@ -56,11 +54,11 @@ Para cada fatura aberta, o recurso atribui três probabilidades de pagamento:
 
 O recurso também fornece uma exibição agregada de pagamentos esperados.
 
-[![Exibição agregada de previsões de pagamento](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Exibição agregada de previsões de pagamento.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Cada fatura recebe uma probabilidade de pagamento no prazo. As faturas com uma probabilidade de pagamento no prazo inferior a 50% são marcadas com um círculo vermelho para indicar que elas exigem a atenção de um agente de cobranças.
 
-[![Lista de probabilidades de pagamento](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Lista de probabilidades de pagamento.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 O recurso Previsões de pagamento de cliente também fornece informações contextuais para explicar a previsão. Essas informações incluem os principais fatores que influenciam a previsão, o estado atual de negócios com o cliente e detalhes sobre o comportamento do pagamento histórico do cliente.
 
@@ -74,8 +72,6 @@ No passado, normalmente era difícil desenvolver e implantar uma solução de IA
 
 A versão preliminar pública do Finance Insights está disponível para implantações de avaliação nos Estados Unidos da América, na Europa e no Reino Unido. A Microsoft está adicionando suporte para outras regiões de forma incremental.
 
-Os recursos de versão preliminar pública devem ser ativados somente em ambientes de área restrita de Camada 2. A Configuração e os Modelos de IA criados em um ambiente de área restrita podem não ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Os recursos de versão preliminar pública devem ser ativados somente em ambientes de área restrita de Camada 2. A Configuração e os Modelos de IA criados em um ambiente de área restrita podem não ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
-## <a name="privacy-notice"></a>Aviso de privacidade
-
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

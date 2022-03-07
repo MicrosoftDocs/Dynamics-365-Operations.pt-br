@@ -1,27 +1,24 @@
 ---
 title: 'Definir contagem cíclica '
 description: A contagem cíclica é um processo de depósito que você pode usar para auditar itens de estoque disponíveis.
-author: MarkusFogelberg
-manager: tfehr
+author: Mirzaab
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountThreshold, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSParameters, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8b7f39fc9a91d9fe219445e409d000266e24775
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 45107dca67ac13669c468c4c32fb4adfdab2195b
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422542"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902137"
 ---
 # <a name="define-cycle-counting"></a>Definir contagem cíclica  
 
@@ -31,7 +28,7 @@ A contagem cíclica é um processo de depósito que você pode usar para auditar
 
 
 ## <a name="set-the-priority-of-counting-work"></a>Definir a prioridade do trabalho de contagem
-1. No **Painel de Navegação** vá para **Módulos > Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito**.
+1. No **Painel de Navegação** Acesse **Módulos > Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito**.
 2. Clique na guia **Contagem cíclica**.
 3. No campo **Prioridade de trabalho de contagem cíclica padrão**, insira um número. Esta etapa altera a prioridade de trabalho da contagem cíclica comparada a outros tipos de trabalho no depósito. Inserindo um número menor que o número de outros tipos de trabalho você aumenta a prioridade do trabalho de contagem cíclica.  
 4. Clique em **Salvar**.
@@ -60,7 +57,7 @@ A contagem cíclica é um processo de depósito que você pode usar para auditar
 20. Clique em **Salvar**.
 
 ## <a name="create-a-counting-threshold"></a>Criar um limite de contagem
-1. No **Painel de Navegação**, vá para **Módulos > Gerenciamento de depósito > Configuração > Contagem cíclica > Limites de contagem cíclica**.
+1. No **Painel de Navegação**, Acesse **Módulos > Gerenciamento de depósito > Configuração > Contagem cíclica > Limites de contagem cíclica**.
 2. Clique em **Novo**.
 3. No campo **ID do limite de contagem cíclica**, digite um valor.
 4. Defina a opção **Processar contagem cíclica imediatamente** como Sim.
@@ -73,7 +70,7 @@ A contagem cíclica é um processo de depósito que você pode usar para auditar
 11. Feche a página.
 
 ## <a name="create-a-cycle-count-plan"></a>Criar um plano de contagem cíclica
-1. No **Painel de Navegação**, vá para **Módulos > Gerenciamento de depósito > Configuração > Contagem cíclica > Planos de contagem cíclica**.
+1. No **Painel de Navegação**, Acesse **Módulos > Gerenciamento de depósito > Configuração > Contagem cíclica > Planos de contagem cíclica**.
 2. Clique em **Novo**.
 3. No campo **ID do plano de contagem cíclica**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -96,3 +93,6 @@ A contagem cíclica é um processo de depósito que você pode usar para auditar
 21. Clique em **OK**.
 22. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

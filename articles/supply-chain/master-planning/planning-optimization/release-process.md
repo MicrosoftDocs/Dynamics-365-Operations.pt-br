@@ -1,7 +1,7 @@
 ---
 title: Processo de liberação e histórico de versões da Otimização de Planejamento
 description: Este tópico fornece informações sobre o processo de liberação e o histórico de versões da Otimização de Planejamento.
-author: ChristianRytt
+author: crytt
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f9674bb68d7f577a6efdef3416d1731d743d0555
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 1bf08fc75aa2c05b2f2974ee46ec16609505f696
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087157"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506774"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processo de liberação e histórico de versões da Otimização de Planejamento
 
@@ -33,11 +33,6 @@ Como as notificações não são mostradas quando a Otimização do Planejamento
 
 | Alterações | Detalhes do gerenciamento de recursos | Datas de liberação |
 |---|---|---|
-| <p>Suporte a prioridades de planejamento adicionado para ordens de produção. | Disponível com a versão 10.0.25 como parte do recurso denominado *Suporte ao MRP baseado em prioridade para a Otimização de Planejamento*. | 12-18 de novembro de 2021 |
-| <p>Melhorias gerais de desempenho, qualidade e estabilidade. | O gerenciamento de recursos não é necessário. | 12-18 de novembro de 2021 |
-| <p>Suporte adicionado para fórmulas de cálculo do tempo de processamento, roteiro de produção com sobreposição e número da operação de produção em transações de requisito.</p><p>Mensagens de erro avançadas para o plano de produção relacionado a tempo limite, capacidade não encontrada e roteiro cíclico.</p><p>Maior consistência ao calcular datas de recebimento e datas de emissão em ordens planejadas e ordens confirmadas.</p><p>Melhorias gerais de desempenho, qualidade e estabilidade. | Nome do recurso: *Agendamento da capacidade infinita para a Otimização do Planejamento* | 22 a 27 de outubro de 2021 |
-| <p>Suporte adicionado para considerar porcentagem de sucata no cálculo do tempo de processamento.</p><p>Suporte adicionado ao número de operação e ao uso de materiais durante agendamento. | Nome do recurso: *Agendamento da capacidade infinita para a Otimização do Planejamento* | 5 a 7 de outubro de 2021 |
-| <p>Suporte adicionado a tipos de trabalho de roteiro de produção: **Fila antes**, **Fila depois** e **Tempo de transporte**.</p><p>Melhorias gerais de desempenho, qualidade e estabilidade. | Nome do recurso: *Agendamento da capacidade infinita para a Otimização do Planejamento* | 25 a 30 de setembro de 2021 |
 | <p>Suporte adicionado para planos mestres com o **Método de planejamento** definido como *Plano de operações*.</p><p>Na página **Grupos de roteiros**, respeite as configurações das caixas de seleção **Ativação**, **Período de trabalho** e **Capacidade** para linhas com um **Tipo de roteiro/trabalho** de *Configuração* ou *Processo*. </p><p>Melhorias gerais de desempenho, qualidade e estabilidade. | <p>O plano de operações está disponível no gerenciamento de recursos a partir da versão 10.0.20.</p><p>Nome do recurso: *Agendamento da capacidade infinita para a Otimização do Planejamento*</p>  | 9 a 17 de setembro de 2021 |
 | Melhorias gerais de desempenho, qualidade e estabilidade. | O gerenciamento de recursos não é necessário. | 25 a 30 de agosto de 2021 |
 | <p>Adição do campo **Prazo de entrega** para ordens planejadas.</p><p>Melhorias gerais de desempenho, qualidade e estabilidade.</p> | O gerenciamento de recursos não é necessário. | 12 a 17 de agosto de 2021 |

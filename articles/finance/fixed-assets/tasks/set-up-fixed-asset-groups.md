@@ -1,27 +1,24 @@
 ---
 title: Configurar grupos de ativos fixos
 description: Este tópico explica como criar um novo grupo de ativos fixos.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetGroup, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bcb78158afbf7bb0e9b83b35e37b1532a7c6283
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a39d709d739ac4fea4bf79e3174d2fbe39d4ded
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440203"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883784"
 ---
 # <a name="set-up-fixed-asset-groups"></a>Configurar grupos de ativos fixos
 
@@ -29,7 +26,7 @@ ms.locfileid: "4440203"
 
 Este tópico explica como criar um novo grupo de ativos fixos. Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
 
-1. No Painel de navegação, vá para **Módulos > Ativos fixos > Configuração > Grupos de ativos fixos**.
+1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Configuração > Grupos de ativos fixos**.
 2. Selecione **Novo**.
 3. No campo **Grupo de ativo fixo**, digite um valor.
 4. No campo **Nome**, digite um valor. Os ativos fixos e o código da sequência numérica de Autonumber no grupo de **Ativos fixos** substituirão as configurações nos parâmetros de ativos fixos. Você pode alterá-lo aqui se os ativos no grupo de ativos fixos forem diferentes da numeração de outros grupos.  
@@ -39,3 +36,6 @@ Este tópico explica como criar um novo grupo de ativos fixos. Ela usa a funçã
 8. No campo **Convenção de depreciação**, selecione uma opção.
 9. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

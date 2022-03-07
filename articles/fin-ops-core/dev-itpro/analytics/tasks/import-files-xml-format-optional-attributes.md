@@ -2,11 +2,9 @@
 title: (RCS) Importar arquivos no formato XML com atributos opcionais
 description: Este tópico fornece informações sobre como um usuário pode criar a configuração de formato de ER para importar arquivos em formato XML que contêm atributos opcionais.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1d4c8c1d81faa60193d2339fd6541e752c2e2f9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b9447c827a02acb616bbfdcb2c7305e8bdd013c9811e28bb25256db056d85d6a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684129"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720703"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) Importar arquivos no formato XML com atributos opcionais
 
@@ -28,7 +26,7 @@ ms.locfileid: "4684129"
 
 As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de formato ER para importar arquivos no formato XML contendo atributos opcionais. Para completar essas etapas, você deve primeiro completar as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo". Antes de começar, faça download e salve localmente o arquivo IncomingDocumentToLearnHowToHandleOptionalAttributes.xml do [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
 
-1.    Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**.
+1.    Acesse **Todos os espaços de trabalho** > **Relatório eletrônico**.
 2.    Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
 3.    Clique em **Configurações de relatórios**.
 
@@ -123,3 +121,6 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 
 > [!NOTE]
 > O mesmo arquivo foi importado, já que o design do formato agora considera o atributo "id" para o elemento "document", como opcional.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

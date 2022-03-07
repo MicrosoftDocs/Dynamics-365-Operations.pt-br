@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074985"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7548096"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Criar e faturar uma ordem de venda intercompanhia para um cliente externo
 
@@ -75,18 +75,5 @@ Execute estas etapas na entidade legal B. Este procedimento corresponde à caixa
 1. Selecione a ordem de venda e selecione **OK**.
 
 A fatura de cliente da ordem de venda intercompanhia é lançada automaticamente na entidade legal B. A fatura de fornecedor intercompanhia é criada automaticamente e lançada na entidade legal A. Se a ordem de venda original for configurada em uma entrega direta, a fatura de cliente será criada para a ordem de venda original na entidade legal A.
-
-> [!NOTE]
-> Anteriormente, para cenários de vendas intercompanhia, se o fluxo de trabalho de fatura de fornecedor foi configurado na empresa de compra intercompanhia, a ordem de venda intercompanhia não pôde ser faturada com êxito. Portanto, o fluxo de trabalho de fatura de fornecedor precisava ser desativado para a empresa de compra intercompanhia. 
-> 
-> Essa limitação foi corrigida por um recurso recente na versão 10.0.25. As ordens de venda intercompanhia agora podem ser faturadas quando o fluxo de trabalho de fatura de fornecedor é configurado na empresa de compra intercompanhia.
-> 
-> Para habilitar este recuso, seguir estas etapas.
->
-> 1. Selecionar a entidade legal intercompanhia de vendas.  
-> 2. Ir para **Contas recebíveis \> Clientes \> Todos os clientes**.
-> 3. Selecionar o cliente para a empresa de compra intercompanhia.
-> 4. Ir para **Geral \> Configuração \> Intercompanhia**.
-> 5. Na guia **Políticas de ordem de compra**, selecionar o parâmetro **Fluxo de trabalho da fatura de fornecedor Bypass**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

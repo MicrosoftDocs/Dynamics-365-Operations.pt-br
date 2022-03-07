@@ -1,38 +1,34 @@
 ---
-title: Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre
+title: Distribuições contábeis e entradas de diário para faturas de texto livre
 description: As distribuições contábeis são usadas para definir como um valor será contabilizado, assim como a receita, os impostos ou os encargos serão contabilizados em uma fatura de texto livre. Cada valor que deve ser contabilizado terá uma ou mais distribuições contábeis quando a fatura de texto livre for lançada no diário.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da1d1b41c4da1fafcf20246022c4020b60152917f5df85f8e003e23aaef9433c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440199"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728928"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre
+# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Distribuições contábeis e entradas no razão auxiliar para faturas de texto livre
 
 [!include [banner](../includes/banner.md)]
 
 As distribuições contábeis são usadas para definir como um valor será contabilizado, assim como a receita, os impostos ou os encargos serão contabilizados em uma fatura de texto livre. Cada valor que deve ser contabilizado terá uma ou mais distribuições contábeis quando a fatura de texto livre for lançada no diário.
 
-<a name="accounting-distributions"></a>Distribuições contábeis
-------------------------
+## <a name="accounting-distributions"></a>Distribuições contábeis
 
 Você pode usar os botões a seguir na página Fatura de texto livre para exibir e, possivelmente, alterar as distribuições contábeis de cada valor da fatura de texto livre.
 
@@ -136,3 +132,6 @@ Você pode exibir a entrada contábil total da fatura antes de lançar uma fatur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

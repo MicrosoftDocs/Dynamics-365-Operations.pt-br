@@ -2,11 +2,9 @@
 title: Notas fiscais complementares de vendas para o Brasil
 description: Este tópico descreve a fatura complementar de vendas da localização brasileira.
 author: sndray
-manager: AnnBe
 ms.date: 08/08/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BrazilParameters, FBFiscalDocument_BR, SalesComplementaryInvoice, SalesComplementaryInvoiceCancel_BR, SalesComplementaryInvoiceListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59196b3f55c73fbc2141c4e05b57dd67b9f56db9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 94ae031c9408354c4121fc4b312a88ae4211e654
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968316"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189772"
 ---
 # <a name="sales-complementary-fiscal-documents-for-brazil"></a>Notas fiscais complementares de vendas para o Brasil
 
@@ -30,8 +28,7 @@ ms.locfileid: "4968316"
 
 Este tópico descreve a fatura complementar de vendas da localização brasileira.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 De acordo com as normas fiscais do Brasil, uma nota fiscal específica que é conhecida como nota fiscal complementar é recebida ou emitida para fins de correção. Por exemplo, se os preços de mercadorias ou serviços da nota fiscal original foram registrados incorretamente, uma nota fiscal complementar é necessária para corrigir o erro. Faturas complementares aplicam-se somente se a diferença for positiva. Ou seja aplicam-se somente se os preços ou valores de impostos atuais forem maiores que os preços ou valores dos impostos originais. Porque as notas fiscais deste tipo são consideradas complementos das notas fiscais originais, as notas fiscais originais não devem ser canceladas. As empresas são obrigadas emitir ou receber a fatura complementar para os seguintes motivos:
 
@@ -70,3 +67,6 @@ Para obter mais informações, consulte os seguintes tópicos:
  - [Cancelar uma nota fiscal para cliente (projeto)](tasks/br-00092-cancel-customer-fiscal-document-project.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,9 @@
 title: Função de ER ROUNDUP
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) ROUNDUP é usada.
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d397a43712b349bc6eb5e88f38dbc7d8a5231a909f38608d45b4e08861b6b7b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d23a984bd59c4d2d37c407e3fcfed9c7017dcc7f
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743230"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569326"
 ---
 # <a name="roundup-er-function"></a>Função de ER ROUNDUP
 

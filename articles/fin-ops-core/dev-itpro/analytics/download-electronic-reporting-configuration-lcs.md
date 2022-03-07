@@ -2,11 +2,9 @@
 title: Baixar configurações do Relatório eletrônico no Lifecycle Services
 description: Este tópico explica como baixar configurações de ER (relatório eletrônico) do Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-manager: AnnBe
 ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 719b277fb828ea2085ea80bc4a36c2af3412f66b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ea603d01d05e98ac69d5a0d12802b5f23ee34793bf4c9b4f885f0e4303f77d2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762263"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Baixar configurações de Relatório eletrônico do Lifecycle Services
 
@@ -30,17 +28,20 @@ ms.locfileid: "4683296"
 
 Este tópico explica como baixar a versão mais recente das [configurações de relatório eletrônico (ER)](general-electronic-reporting.md#Configuration) da [biblioteca de ativos compartilhados](../lifecycle-services/asset-library.md) no Microsoft Dynamics Lifecycle Services (LCS).
 
+> [!IMPORTANT]
+> O uso do LCS como repositório de armazenamento para configurações de ER está sendo [preterido](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Para mais informações, consulte [Regulatory Configuration Service (RCS) - Suspensão do armazenamento do Lifecycle Services (LCS)](../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
+
 1. Entre no aplicativo usando uma das seguintes funções:
 
     - Desenvolvedor de relatório eletrônico
     - Consultor funcional de relatório eletrônico
     - Administrador do sistema
 
-2. Vá para **Administração da organização** &gt; **Espaços de trabalho** &gt; **Relatório eletrônico**.
+2. Acesse **Administração da organização** &gt; **Espaços de trabalho** &gt; **Relatório eletrônico**.
 3. Na seção **Provedores de configuração**, selecione o bloco **Microsoft**.
 4. No bloco **Microsoft**, selecione **Repositórios**.
 
-    [![Bloco da Microsoft na página Configurações de localização](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Bloco da Microsoft na página Configurações de localização.](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. Na página **Repositórios de configuração**, na grade, selecione o repositório existente do tipo **LCS**. Se esse repositório não aparecer na grade, siga estas etapas:
 
@@ -54,7 +55,7 @@ Este tópico explica como baixar a versão mais recente das [configurações de 
 
 6. Selecione **Abrir** para exibir a lista de configurações de ER para o repositório selecionado.
 
-    [![Página Repositórios de configuração](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Página Repositórios de configuração.](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > Se você tiver problemas ao acessar o repositório LCS para baixar configurações da biblioteca de ativos compartilhados no LCS, poderá baixar configurações do [Repositório global](er-download-configurations-global-repo.md).
@@ -66,7 +67,7 @@ Este tópico explica como baixar a versão mais recente das [configurações de 
     > [!NOTE]
     > O botão **Importar** não está disponível para as versões de configuração do ER que já estão presentes na instância atual.
 
-    [![Página do repositório de configuração](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Página do repositório de configuração.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
 > Dependendo das configurações de ER, as configurações são validadas depois que são importadas. Talvez você seja notificado sobre problemas de inconsistências descobertos. Você deve resolver esses problemas para que possa usar a versão de configuração importada. Para obter mais informações, consulte a lista de tópicos relacionados deste tópico.
@@ -76,3 +77,6 @@ Este tópico explica como baixar a versão mais recente das [configurações de 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
 [Baixar configurações ER do repositório global de serviço de configuração](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

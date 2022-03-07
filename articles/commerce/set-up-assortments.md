@@ -2,11 +2,9 @@
 title: Configurar classificações
 description: Este artigo descreve o que é um sortimento e explica como configurar sortimentos no Dynamics 365 Commerce.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774476"
 ---
 # <a name="set-up-assortments"></a>Configurar classificações
 
@@ -33,7 +31,7 @@ Este artigo descreve o que é um sortimento e explica como configurar sortimento
 
 Classificação é um conjunto de produtos relacionados atribuídos a um canal de comércio, como uma loja tradicional ou uma loja online. Use classificações para identificar os produtos disponíveis em cada loja. Uma classificação pode incluir categorias de produtos. Portanto, todos os produtos atribuídos a uma categoria específica são incluídos na classificação. Uma classificação também pode incluir produtos específicos e variantes de produtos específicos. Configurando uma classificação, você pode atribuir milhares de produtos aos seus canais ao mesmo tempo, em qualquer combinação que suas lojas exigirem. É possível configurar quantas classificações de produtos forem necessárias. Cada produto pode ser incluído em uma ou várias classificações, e cada classificação pode ser atribuída a um ou mais canais. Por exemplo, você define uma classificação que inclui um conjunto básico de produtos. Todas as lojas recebem essa classificação. Em seguida, você define outra classificação que inclui apenas equipamentos esportivos grandes. Somente as lojas maiores recebem essa classificação. O diagrama a seguir mostra como os produtos podem ser atribuídos a classificações, e como essas classificações podem ser atribuídas aos canais.
 
-![Relações de classificação de produtos](./media/assortments_relationship.gif)
+![Relações de classificação de produtos.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -54,3 +52,6 @@ Depois de concluir os pré-requisitos, você pode criar uma classificação e at
 2. Selecione os canais ou grupos de canais de nível superior aos quais a classificação se aplica.
 3. Adicione categorias de produto, produtos individuais ou variantes de produtos à classificação. Você pode incluir todos os produtos em uma categoria específica ou pode excluir produtos selecionados de uma categoria incluída na classificação.
 4. Publique a classificação. Quando você publica uma classificação, o agendador de classificações é executado automaticamente. Esse processo gera a lista de produtos. Quando esse processo é concluído, os produtos se tornam disponíveis nos canais aos quais a classificação de produtos foi atribuída. Se uma classificação publicada ou os canais aos quais a classificação é atribuída forem alterados, a classificação deverá ser atualizada. Para atualizar a classificação após alterações, você pode executar o agendador de classificações como um trabalho em lotes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

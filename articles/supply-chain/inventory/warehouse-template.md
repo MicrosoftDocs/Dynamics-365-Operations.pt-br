@@ -1,12 +1,10 @@
 ---
 title: Configurar um depósito usando um modelo de configuração de depósito
 description: Este tópico explica como configurar um depósito usando um modelo de configuração de depósito.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -15,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967121"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571080"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Configurar um depósito usando um modelo de configuração de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar um depósito usando um modelo de configuração de depósito. Há vários modelos predefinidos de configuração que você pode usar. Para obter informações sobre como usar esses modelos, consulte [Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md).
+Este tópico explica como configurar um depósito usando um modelo de configuração de depósito. Há vários modelos predefinidos de configuração que você pode usar. Para obter informações sobre como usar esses modelos, consulte [Modelos de dados de configuração](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Cenários onde os modelos de configuração podem ser úteis
 
@@ -90,10 +88,13 @@ Podem baixar um arquivo zip para o pacote de dados. Este arquivo contém todos o
 4. Selecione **+ Adicionar arquivo** e carregue o arquivo zip para o pacote de dados.
 5. Selecione **Importar**. Na exibição **Avançada**, você pode usar a opção **Filtro** rapidamente obter uma visão geral de problemas que podem ocorrer durante a importação.
 
-O log **Exibir execução** fornece informações detalhadas sobre cada entidade de dados que é importada. Você pode usar a exibição de preparação de dados para obter dados de destino rapidamente. Assim, você pode ver os dados importados nas páginas relacionadas no aplicativo. Ao usar os modelos de dados padrão, a sequência de importação de cada entidade de dados em forma predefinida, ajuda a garantir que os dados dependentes são importados primeiro. Se as entidades de dados personalizados fizerem parte do projeto, você deve garantir que a sequência correta foi definida. Para obter mais informações, consulte [Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md).
+O log **Exibir execução** fornece informações detalhadas sobre cada entidade de dados que é importada. Você pode usar a exibição de preparação de dados para obter dados de destino rapidamente. Assim, você pode ver os dados importados nas páginas relacionadas no aplicativo. Ao usar os modelos de dados padrão, a sequência de importação de cada entidade de dados em forma predefinida, ajuda a garantir que os dados dependentes são importados primeiro. Se as entidades de dados personalizados fizerem parte do projeto, você deve garantir que a sequência correta foi definida. Para obter mais informações, consulte [Modelos de dados de configuração](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 Para saber mais sobre como usar o modelo de depósito para copiar a configuração de um depósito de uma empresa para uma nova empresa na mesma a instância, assista a este vídeo de 3 minutos de duração no YouTube sobre [como usar o modelo de depósito para copiar a configuração no Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Tópico relacionado
 
-[Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Modelos de dados de configuração](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

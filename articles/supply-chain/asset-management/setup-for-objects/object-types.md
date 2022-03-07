@@ -1,12 +1,10 @@
 ---
 title: Tipos de ativo
 description: Este tópico explica como criar tipos de ativo no Asset Management. Também mostra os elementos relacionados aos tipos de ativo.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017408"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730361"
 ---
 # <a name="asset-types"></a>Tipos de ativo
 
@@ -47,9 +45,9 @@ Primeiro, você configura os tipos de ativo necessários. Em seguida, você cria
 7. Selecione **Salvar**.
 8. Na Guia Rápida **Tipos de trabalho de manutenção**, selecione os tipos de trabalho de manutenção que devem ser relacionados ao tipo de ativo:
 
-    - Para escolher um tipo de trabalho de manutenção, selecione-o no campo **Tipos de trabalho de manutenção restantes** e, em seguida, selecione o botão de seta para a direita ![Botão de seta para a direita](media/29-setup-for-objects.png) para movê-lo para a seção **Tipos de trabalho de manutenção selecionados**.
-    - Para selecionar todos os tipos de trabalho de manutenção disponíveis, clique no botão ![seta Encaminhar tudo](media/30-setup-for-objects.png). Todos os tipos de trabalho de manutenção são transferidos do campo **Tipos de trabalho de manutenção restantes** para o campo **Tipos de trabalho de manutenção selecionados**.
-    - Para cancelar a seleção de um tipo de trabalho de manutenção, marque-o no campo **Tipos de trabalho de manutenção selecionados** e selecione o botão de seta para a esquerda ![Botão de seta para a esquerda](media/31-setup-for-objects.png) para movê-lo para o campo **Tipos de trabalho de manutenção restantes**.
+    - Para selecionar um tipo de trabalho de manutenção, selecione-o no campo **Tipos de trabalho de manutenção restantes** e selecione o botão ![Botão de seta para a direita.](media/29-setup-for-objects.png) para movê-lo para a seção **Tipos de trabalho de manutenção selecionados**.
+    - Para selecionar todos os tipos de trabalho de manutenção disponíveis, clique no botão ![seta Encaminhar tudo.](media/30-setup-for-objects.png) . Todos os tipos de trabalho de manutenção são transferidos do campo **Tipos de trabalho de manutenção restantes** para o campo **Tipos de trabalho de manutenção selecionados**.
+    - Para cancelar a seleção de um tipo de trabalho de manutenção, selecione-o no campo **Tipos de trabalho de manutenção selecionados** e selecione o botão ![Botão de seta para a esquerda.](media/31-setup-for-objects.png) para movê-lo para o campo **Tipos de trabalho de manutenção restantes**.
 
 9. Você também pode selecionar os contadores que devem estar relacionadas ao tipo de ativo. Na Guia Rápida **Contadores**, faça as seleções usando os métodos descritos para tipos de trabalho de manutenção na etapa 8. Para obter mais informações sobre como configurar contadores, consulte [Contadores](counters.md).
 10. Você também pode selecionar os tipos de atributo que devem estar relacionados ao tipo de ativo. Na Guia Rápida **Tipos de atributo**, faça as seleções usando os métodos descritos para tipos de trabalho de manutenção na etapa 8. Em seguida, para criar a sequência preferencial de tipos de atributo, selecione um atributo no campo **Tipos de atributo selecionados** e use os botões de seta para cima e para baixo para movê-lo. A sequência de tipos de atributo será mostrada nos ativos que usam esse tipo de ativo. Para obter mais informações sobre os atributos de ativo, consulte [Tipos de atributo de manutenção](../setup-for-functional-locations/specification-types.md).
@@ -96,3 +94,6 @@ Na página **Peças sobressalentes**, você também pode criar novas peças sobr
 
 Para ver se a peça sobressalente na linha selecionada será usada em qualquer outro lugar do Asset Management (por exemplo, em relação a ativos e ordens de serviço), selecione a linha da peça sobressalente e selecione **Item onde usado** para abrir a página **Item onde usado**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

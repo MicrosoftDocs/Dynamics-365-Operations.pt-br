@@ -74,6 +74,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Orientações de implementação do Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
+                - name: Aplicativos do Finance and Operations operados pela 21Vianet na China
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
+                - name: Aplicativos do Finance and Operations na França
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Obter suporte
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Upgrade e suporte N-1
@@ -92,12 +96,12 @@
                   items:
                     - name: Novidades ou alterações na home page do Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.25 (abril de 2022)
-                      href: get-started/whats-new-commerce-10-0-25.md
-                    - name: Commerce 10.0.24 (fevereiro de 2022)
-                      href: get-started/whats-new-commerce-10-0-24.md
-                    - name: Commerce 10.0.23 (janeiro de 2022)
+                    - name: Commerce 10.0.23
                       href: get-started/whats-new-commerce-10-0-23.md
+                    - name: Commerce 10.0.22 (novembro de 2021)
+                      href: get-started/whats-new-commerce-10-0-22.md
+                    - name: Commerce 10.0.21 (outubro de 2021)
+                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Recursos removidos ou preteridos
                   items:
                     - name: Home page de recursos removidos ou preteridos
@@ -126,6 +130,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: Vídeos
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
+                - name: Glossário
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: Catálogo de aprendizados
               items:
                 - name: Home page de Catálogo de aprendizados
@@ -220,7 +226,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Vários ambientes de produção e projetos do LCS em um locatário do Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Implementar projetos do Commerce do Finance and Operations
+                - name: Implementar projetos do Commerce no Finance and Operations
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Configurar novos ambientes, o Azure DevOps e as ramificações para projetos'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -236,6 +242,8 @@
                   href: commerce-architecture.md
                 - name: Fluxos de autenticação do Dynamics 365 Commerce
                   href: arch-auth-flow.md
+                - name: Requisitos de controle de versão de componentes do Dynamics 365 Commerce
+                  href: arch-component-versioning.md
                 - name: Arquitetura de comércio sem periféricos
                   href: dev-itpro/retail-server-architecture.md
                 - name: Selecionar uma topologia na loja
@@ -252,8 +260,6 @@
                       href: CDX-package-sort.md
                 - name: Arquitetura do Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Modernização da pilha de tecnologia do Commerce (white paper)
-                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Implementação e solução de problemas offline do Commerce
                   href: dev-itpro/implementation-considerations-offline.md
                 - name: Publicar um catálogo da loja online
@@ -292,28 +298,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Inicializar dados de propagação em novos ambientes do Commerce
                   href: enable-configure-retail-functionality.md
-        - name: Implementação
-          items:
-            - name: Gerenciamento do ciclo de vida de aplicativos
-              items:
-                - name: Requisitos de controle de versão de componentes do Dynamics 365 Commerce
-                  href: arch-component-versioning.md
-            - name: Recomendações de atualização e de ativação
-              items:
-                - name: Visão geral de recomendações de atualização e de ativação
-                  href: go-live/go-live-overview.md
-                - name: Desempenho
-                  items:
-                    - name: Otimizar imagens
-                      href: go-live/performance-optimize-images.md
-                    - name: Reduzir o JavaScript excluindo módulos não usados
-                      href: go-live/performance-reduce-javascript.md
-            - name: Distribuição em fases AX 2012
-              items:
-                - name: Upgrade e suporte N-1 para o Commerce
-                  href: dev-itpro/overview-upgrade-n-minus1.md
-                - name: 'Guia de instalação, configuração e substituição de distribuição em fases (N-1)'
-                  href: dev-itpro/n-1-installation-configuration.md
         - name: Configurar seus canais
           items:
             - name: Visão geral de canais
@@ -386,13 +370,9 @@
                   href: channel-setup-retail.md
                 - name: Configurar trabalhadores de varejo
                   href: tasks/worker.md
-                - name: 'Modern Point of Sale (MPOS), Cloud POS e Store Commerce'
+                - name: Modern Point of Sale (MPOS) e PDV em Nuvem
                   items:
-                    - name: Aplicativo Store Commerce no Microsoft Dynamics 365 Commerce (Versão preliminar)
-                      href: dev-itpro/store-commerce.md
-                    - name: Orientações de implementação de gerenciamento de dispositivos
-                      href: implementation-considerations-devices.md
-                    - name: Escolher entre MPOS e Cloud POS
+                    - name: Escolher entre MPOS e PDV em Nuvem
                       href: MPOS-or-CPOS.md
                     - name: Operações de PDV online e offline
                       href: pos-operations.md
@@ -448,18 +428,6 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: Imagens do cliente no PDV
                           href: pos-image.md
-                        - name: Abrir URL no PDV
-                          href: open-url-in-pos.md
-                    - name: Pagamentos
-                      items:
-                        - name: Cartões-presente
-                          items:
-                            - name: Suporte a cartões-presente externos
-                              href: dev-itpro/gift-card.md
-                    - name: RSAT
-                      items:
-                        - name: Gravador de testes e Regression Suite Automation Tool para o Cloud POS
-                          href: dev-itpro/pos-rsat.md
                     - name: Associados de vendas
                       items:
                         - name: Acompanhar comissões no PDV usando grupos de vendas
@@ -580,8 +548,6 @@
                       href: duplicate-payment-protection.md
                     - name: Visão geral de pagamentos de omnicanal
                       href: omni-channel-payments.md
-                    - name: Várias formas de pagamento disponíveis para retirada na loja
-                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Pagamentos de ordens de omnicanal do Commerce
                       href: dev-itpro/commerce-payments.md
                     - name: Arquivar dados de transações de cartão de crédito
@@ -748,10 +714,6 @@
                   href: sync-product-ratings.md
                 - name: Habilitar a publicação manual de classificações e opiniões por um moderador
                   href: manual-publish-rating-reviews.md
-                - name: Importar e exportar classificações e opiniões
-                  href: import-export-reviews.md
-                - name: Configurar autenticação de serviço para serviço
-                  href: service-to-service-auth.md
                 - name: Perguntas frequentes sobre classificações e opiniões
                   href: ratings-reviews-faq.md
             - name: Gerenciar seu estoque
@@ -856,10 +818,6 @@
           items:
             - name: Gerenciamento de clientes nas lojas
               href: customer-mgmt-stores.md
-            - name: Modo de criação de cliente assíncrono
-              href: async-customer-mode.md
-            - name: Converter clientes assíncronos em clientes síncronos
-              href: convert-async-to-sync.md
             - name: Clientes
               items:
                 - name: Visão geral de clientes
@@ -880,7 +838,7 @@
           items:
             - name: Visão geral de demonstrativos
               href: retail-statements.md
-            - name: Validar transações de loja para cálculo de demonstrativo
+            - name: Verificador de consistência de transações
               href: valid-checker.md
             - name: Desabilitar regras no verificador de consistência das transações de varejo
               href: disable-consistency-check-rule.md
@@ -1038,6 +996,8 @@
                       href: style-presets.md
                     - name: Adicionar um favicon
                       href: add-favicon.md
+                    - name: Adicionar uma mensagem de boas-vindas
+                      href: add-welcome-message.md
                     - name: Adicionar um aviso de direitos autorais
                       href: add-copyright-notice.md
                     - name: Adicionar idiomas
@@ -1286,23 +1246,17 @@
           items:
             - name: Integração do Dynamics 365 Fraud Protection com o Dynamics 365 Commerce
               href: dev-itpro/DFP.md
-        - name: Comércio eletrônico entre empresas
+        - name: Comércio eletrônico B2B
           items:
-            - name: Configurar um site de comércio eletrônico entre empresas
+            - name: Configurar um site de comércio eletrônico B2B
               href: b2b/set-up-b2b-site.md
-            - name: Gerenciar parceiros comerciais B2B usando hierarquias do cliente
-              href: b2b/partners-customer-hierarchies.md
-            - name: Gerenciar usuários parceiros comerciais em sites de comércio eletrônico entre empresas
+            - name: Criar hierarquias de modelagem de organizacional para organizações B2B
+              href: b2b/org-model.md
+            - name: Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B
               href: b2b/manage-b2b-users.md
-            - name: Gerenciar usuários parceiros comerciais em sites de comércio eletrônico entre empresas usando o Dynamics 365 Sales
-              href: b2b/prospect-management-sales.md
-            - name: Inserir ordens de site B2B rapidamente
-              href: b2b/quick-bulk-orders.md
-            - name: Gerenciamento de faturas para sites de comércio eletrônico entre empresas
-              href: b2b/invoice-management.md
-            - name: Configurar a forma de pagamento da conta do cliente para sites de comércio eletrônico entre empresas
+            - name: Configurar a forma de pagamento da conta do cliente para sites de comércio eletrônico B2B
               href: b2b/payment-method.md
-            - name: Definir limites de quantidade de produtos para sites de comércio eletrônico entre empresas
+            - name: Definir limites de quantidade de produtos para sites de comércio eletrônico B2B
               href: b2b/quantity-limits.md
         - name: Monitoramento e análise
           items:
@@ -1320,16 +1274,12 @@
               href: set-up-rfm-analysis.md
             - name: Configurar o Microsoft Clarity no Dynamics 365 Commerce
               href: set-up-clarity.md
-            - name: Análise do Commerce (Versão preliminar)
-              href: commerce-analytics.md
         - name: Globalização
           items:
             - name: Visão geral da integração fiscal do canal do Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Configurar integração fiscal do canal do Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
-            - name: Configurar pipeline de build para exemplo de integração fiscal
-              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Perfis de certificado definidos pelo usuário para lojas de varejo
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory Configuration Service (RCS)
@@ -1366,8 +1316,6 @@
               items:
                 - name: Exemplo de integração de serviços de registro fiscal para a Áustria
                   href: localizations/emea-aut-fi-sample.md
-                - name: Diretrizes de implantação para o exemplo de integração fiscal da Áustria (herdada)
-                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasil
               items:
                 - name: Localização do Commerce para o Brasil
@@ -1384,9 +1332,7 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Lançar notas fiscais brasileiras via demonstrativos de varejo no Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
-                - name: Nota fiscal CF-e e integração com a funcionalidade SAT no Commerce POS para o Brasil
-                  href: localizations/latam-bra-cf-e-sat.md
-                - name: Dynamics 365 Payment Connector para Adyen no Commerce POS para o Brasil
+                - name: Dynamics 365 Payment Connector para Adyen no PDV do Commerce para o Brasil
                   href: localizations/latam-bra-adyen.md
             - name: Europa Oriental
               items:
@@ -1404,16 +1350,12 @@
                   items:
                     - name: Exemplo de integração de serviços de registro fiscal para a República Tcheca
                       href: localizations/emea-cze-fi-sample.md
-                    - name: Diretrizes de implantação para o exemplo de integração fiscal da República Tcheca (herdada)
-                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Polônia
                   items:
                     - name: Exemplo de integração da impressora fiscal para a Polônia
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Gerenciamento de informações do cliente para a Polônia
                       href: localizations/emea-pol-customer-information.md
-                    - name: Diretrizes de implantação para o exemplo de integração fiscal da Polônia (herdada)
-                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: França
               items:
                 - name: Funcionalidade de caixa registradora
@@ -1430,28 +1372,22 @@
               items:
                 - name: Exemplo de integração de serviços de registro fiscal para a Alemanha
                   href: localizations/emea-deu-fi-sample.md
-                - name: Diretrizes de implantação para o exemplo de integração fiscal da Alemanha (herdada)
-                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Índia
               items:
-                - name: Integração de GST (Imposto sobre Bens e Serviços) para caixas registradoras
+                - name: Integração de impostos sobre bens e serviços (GST) para caixas registradoras
                   href: localizations/apac-ind-cash-registers.md
                 - name: Diretrizes de implantação para caixas registradoras
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Suporte para upgrade e N-1 para a Índia
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: Gerar códigos QR e imprimi-los nos recibos para a Índia
+                - name: Gerar códigos QR e imprimi-los nos recibos
                   href: localizations/ind-generate-qr-code-print-receipt.md
-                - name: Integração de GST (Imposto sobre Bens e Serviços) para sites de comércio eletrônico
-                  href: localizations/apac-ind-e-commerce.md
             - name: Itália
               items:
                 - name: Exemplo de integração da impressora fiscal para a Itália
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Gerenciamento de informações do cliente para a Itália
                   href: localizations/emea-ita-customer-information.md
-                - name: Diretrizes de implantação para o exemplo de integração fiscal da Itália (herdada)
-                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: México
               items:
                 - name: Faturas eletrônicas globais de CFDI para o México
@@ -1461,8 +1397,6 @@
                 - name: Funcionalidade de caixa registradora
                   href: localizations/emea-nor-cash-registers.md
                 - name: Diretrizes de implantação para caixas registradoras
-                  href: localizations/emea-nor-fi-deployment.md
-                - name: Diretrizes de implantação para caixas registradoras (herdadas)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rússia
               items:
@@ -1478,18 +1412,12 @@
                   href: localizations/rus-fpi-sample.md
                 - name: Gerenciamento de informações do cliente para a Rússia
                   href: localizations/rus-customer-information.md
-            - name: Arábia Saudita
-              items:
-                - name: Gerar códigos QR e imprimi-los nos recibos para a Arábia Saudita
-                  href: localizations/emea-sau-qr-code.md
             - name: Suécia
               items:
                 - name: Funcionalidade de caixa registradora
                   href: localizations/emea-swe-cash-registers.md
                 - name: Exemplo de integração da unidade de controle para a Suécia
                   href: localizations/emea-swe-fi-sample.md
-                - name: Diretrizes de implantação para o exemplo de integração da unidade de controle da Suécia (herdada)
-                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Exemplo para integração do Retail POS com unidades de controle (herdado)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Relatórios e integrações do Power BI
@@ -1686,8 +1614,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
                     - name: List
                       items:
                         - name: Funções de listagem
@@ -1980,9 +1906,7 @@
                   items:
                     - name: Criar configurações para importar dados de um arquivo XML externo
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
-                    - name: Importar dados de arquivos selecionados manualmente no modo de lote
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurar a importação de dados no modo de lote de arquivos localizados no SharePoint
+                - name: Configurar a importação de dados no modo de lotes de arquivos localizados no SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: Importar arquivos no formato XML
                   items:
@@ -2212,8 +2136,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
                     - name: Atualização de aplicativo 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
-                    - name: Atualização de aplicativo 10.0.25
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: Especificar um local de armazenamento personalizado para os documentos gerados
                   items:
                     - name: Inscreva-se em um evento para solicitar uma resposta do manipulador de inscrições
@@ -2426,355 +2348,187 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
             - name: Dados de data/hora e fusos horários
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
-        - name: Desenvolvimento
+        - name: Extensibilidade
           items:
-            - name: Solução cruzada
+            - name: Desenvolvimento e extensibilidade do Commerce
               items:
-                - name: Visão geral do SDK do Commerce
-                  items:
-                    - name: Exemplos e pacotes de referência
-                      href: dev-itpro/retail-sdk/sdk-github.md
-                    - name: Migração do SDK do Retail antigo
-                      href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
-                    - name: Modernização da pilha de tecnologia do Commerce (white paper)
-                      href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Configuração do ambiente
-                  items:
-                    - name: Ambiente de desenvolvimento local
-                      href: dev-itpro/setup-local-dev-env.md
-                    - name: Pipeline de build do SDK do Commerce
-                      href: dev-itpro/retail-sdk/sdk-build-pipeline.md
-                    - name: Pipeline de build do SDK do Commerce (empacotamento independente)
-                      href: dev-itpro/build-pipeline.md
-                - name: Pagamentos
-                  items:
-                    - name: Implantar conectores de pagamento
-                      href: dev-itpro/deploy-payment-connector.md
-                    - name: Uso de dados do pagamento
-                      href: payment-connector-data-fields.md
-                    - name: Suporte a gorjetas no SDK de pagamentos
-                      href: dev-itpro/tipping.md
-                    - name: Captura incremental para faturamento de ordem
-                      href: dev-itpro/incremental-capture.md
-                - name: Localização
-                  items:
-                    - name: Personalizar recursos de extensão e arquivos de etiquetas do Commerce
-                      href: dev-itpro/extension-resource-localization.md
-            - name: Commerce sem periféricos
+                - name: Commerce para desenvolvedores e profissionais de TI
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Configurar um ambiente de desenvolvimento local
+                  href: dev-itpro/setup-local-dev-env.md
+            - name: Extensibilidade do canal online
               items:
-                - name: Interfaces de programação de aplicativo e referência
+                - name: Visão geral de extensibilidade do canal online
+                  href: e-commerce-extensibility/overview.md
+                - name: Introdução
                   items:
-                    - name: Interfaces de programação de aplicativo de cliente e consumidor da Commerce Scale Unit
-                      href: dev-itpro/retail-server-customer-consumer-api.md
-                    - name: Consumir interfaces de programação de aplicativo do Retail Server em aplicativos externos
-                      href: dev-itpro/consume-retail-server-api.md
-                    - name: Proxies C# e Typescript para Retail POS
-                      href: dev-itpro/typescript-proxy-retail-pos.md
-                    - name: Arquitetura e configuração do Commerce Runtime (CRT)
-                      href: dev-itpro/commerce-runtime-overview.md
-                    - name: Serviços do Commerce Runtime (CRT)
-                      href: dev-itpro/crt-services.md
-                - name: Criar funcionalidade
-                  items:
-                    - name: Criar uma interface de programação de aplicativo do Commerce Scale Unit
-                      href: dev-itpro/retail-server-icontroller-extension.md
-                    - name: Extensibilidade do Commerce Runtime (CRT)
-                      href: dev-itpro/commerce-runtime-extensibility.md
-                    - name: Eventos de extensão de log para o Application Insights
-                      href: dev-itpro/commerce-application-insights.md
-                    - name: Criar interfaces de programação de aplicativo assíncronas do Commerce (CRT)
-                      href: dev-itpro/async-commerce-extension.md
-                    - name: Extensões de banco de dados do canal
-                      href: dev-itpro/channel-db-extensions.md
-                    - name: Estender serviço do Commerce Data Exchange em tempo real
-                      href: dev-itpro/extend-commerce-data-exchange.md
-                - name: Estender a funcionalidade existente
-                  items:
-                    - name: Extensibilidade e gatilhos do Commerce Runtime (CRT)
-                      href: dev-itpro/commerce-runtime-extensibility-trigger.md
-                    - name: Colunas pré-estendidas no banco de dados do canal
-                      href: dev-itpro/extended-columns.md
-                    - name: Habilitar a sincronização de Commerce Data Exchange personalizado via extensão
-                      href: dev-itpro/cdx-extensibility.md
-                    - name: Estender recibos do Store Commerce
-                      href: dev-itpro/retail-sdk/retail-sdk-samples.md
-                    - name: Atributos de clientes
-                      href: dev-itpro/customer-attributes.md
-                    - name: Atributos da ordem
-                      href: dev-itpro/order-attributes.md
-                    - name: Gerenciar segredos para canais de venda
-                      href: dev-itpro/manage-secrets.md
-                - name: Exemplos
-                  items:
-                    - name: Bloquear transações usando gatilhos
-                      href: dev-itpro/trigger-example-blocking-transaction.md
-                    - name: Amostra de extensão de fidelidade
-                      href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-                    - name: Pontos de extensão para guias de remessa durante o processamento da ordem
-                      href: dev-itpro/extensions-shipping-carrier-integration.md
-                - name: Empacotamento e implantação
-                  items:
-                    - name: Remover extensões do Cloud Scale Unit
-                      href: dev-itpro/retail-sdk/remove-csu-package.md
-            - name: Store Commerce
-              items:
-                - name: Visão Geral
-                  items:
-                    - name: Visão geral da extensão de PDV
-                      href: dev-itpro/pos-extension/pos-extension-overview.md
-                    - name: Terminologia e conceitos da extensão de PDV
-                      href: dev-itpro/pos-extension/pos-extension-basics.md
-                    - name: Migrar as extensões de PDV para o SDK do Commerce
-                      href: dev-itpro/pos-extension/migrate-pos-extension.md
-                - name: Configuração do ambiente
-                  items:
-                    - name: Ambiente de desenvolvimento local
-                      href: dev-itpro/setup-local-dev-env.md
-                    - name: Criar um projeto de pacote de extensão de PDV
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Criar um arquivo .appx para um pacote de extensão do Modern POS
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Depurar extensões de PDV
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
-                - name: Interfaces de programação de aplicativo e referência
-                  items:
-                    - name: Exibir informações do pacote de extensões do PDV
-                      href: dev-itpro/view-pos-extension-package-details.md
-                    - name: Interfaces de programação de aplicativo do PDV
-                      href: dev-itpro/pos-apis.md
-                    - name: Usar controles de PDV em extensões
-                      href: dev-itpro/pos-extension/controls-pos-extension.md
-                    - name: Estender a exibição dual do PDV
-                      href: dev-itpro/pos-dual-display-extension.md
-                    - name: Consumir interfaces de programação de aplicativo do Commerce personalizadas e entidades em PDV sem periféricos
-                      href: dev-itpro/pos-extension/consume-apis-pos.md
-                    - name: Consumir bibliotecas externas ou de terceiros em extensões de PDV
-                      href: dev-itpro/pos-extension/knockout-pos-extension.md
-                - name: Criar funcionalidade
-                  items:
-                    - name: Criar uma operação de PDV
-                      href: dev-itpro/add-pos-operations.md
-                    - name: Criar uma exibição personalizada no PDV
-                      href: dev-itpro/pos-extension/custom-pos-view.md
-                    - name: Criar um dispositivo de hardware e integrá-lo ao PDV
-                      href: dev-itpro/hardware-device-extension.md
-                    - name: Criar uma integração de pagamento completa para um terminal de pagamento
-                      href: dev-itpro/end-to-end-payment-extension.md
-                    - name: Criar mensagens de erro localizadas personalizadas para extensões de terminais de pagamento
-                      href: dev-itpro/payment-custom-error-messages.md
-                    - name: Habilitar a proteção de pagamentos duplicados para o conector de pagamento
-                      href: dev-itpro/duplicate-payments-protection.md
-                - name: Estender a funcionalidade existente
-                  items:
-                    - name: Estender exibições de PDV para adicionar colunas personalizadas e botões da barra de aplicativos
-                      href: dev-itpro/pos-view-extension.md
-                    - name: Estender as visões do PDV para adicionar controles personalizados
-                      href: dev-itpro/pos-control-non-screen.md
-                    - name: Estender a barra de cabeçalho de PDV
-                      href: dev-itpro/pos-header-bar.md
-                    - name: Estender notificações de PDV
-                      href: dev-itpro/extend-pos-notification.md
-                    - name: Substituir o manipuladores de solicitações de PDV
-                      href: dev-itpro/pos-handler.md
-                    - name: Gatilhos do PDV
-                      href: dev-itpro/pos-trigger-printing.md
-                    - name: Exibição de carrinho de PDV
-                      items:
-                        - name: Eventos e manipuladores de exibição do carrinho do PDV
-                          href: dev-itpro/cart-view-handlers.md
-                        - name: Adicionar campos personalizados ao painel Totais do PDV
-                          href: dev-itpro/custom-field-pos-totals.md
-                        - name: Adicionar colunas personalizadas a uma grade de transação do PDV
-                          href: dev-itpro/pos-custom-transaction-column.md
-                        - name: Adicionar controles personalizados a exibições de Carrinho do PDV
-                          href: dev-itpro/pos-custom-transaction.md
-                    - name: Adicionar controles personalizados a exibições de PDV
-                      href: dev-itpro/pos-custom-control.md
-                    - name: Extensão de pagamento do PDV
-                      href: dev-itpro/pos-payment-extension.md
-                - name: Empacotamento e implantação
-                  items:
-                    - name: Criar um pacote de extensão do MPOS
-                      href: dev-itpro/pos-extension/mpos-extension-packaging.md
-                    - name: Assinatura de código de um pacote de extensão do MPOS (MSIX)
-                      href: dev-itpro/pos-extension/mpos-extension-signing.md
-                    - name: Criar um pacote de extensão de Cloud POS
-                      href: dev-itpro/pos-extension/cpos-extension-package.md
-            - name: Comércio eletrônico
-              items:
-                - name: Visão Geral
-                  items:
-                    - name: Visão geral de extensibilidade do canal online
-                      href: e-commerce-extensibility/overview.md
-                    - name: Visão geral arquitetônica de comércio eletrônico
-                      href: e-commerce-extensibility/architectural-overview.md
-                    - name: Componentes do comércio eletrônico
-                      href: e-commerce-extensibility/ecommerce-components.md
                     - name: Comece com o desenvolvimento de extensibilidade online de comércio eletrônico
                       href: e-commerce-extensibility/sdk-getting-started.md
                     - name: Requisitos do sistema
                       href: e-commerce-extensibility/system-requirements.md
-                - name: Configuração do ambiente
-                  items:
-                    - name: Ambiente de desenvolvimento
+                    - name: Configurar um ambiente de desenvolvimento
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Configurar um arquivo de ambiente de desenvolvimento (.env)
                       href: e-commerce-extensibility/configure-env-file.md
                     - name: Configurar um ambiente de desenvolvimento de comércio eletrônico em um ambiente de nuvem do Commerce
                       href: e-commerce-extensibility/debug-tier-1.md
-                - name: Interfaces de programação de aplicativo e referência
+                    - name: Configurar o compartilhamento de código do Azure DevOps e criar um pipeline de build
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
+                - name: Visão geral da plataforma
                   items:
+                    - name: Visão geral arquitetônica de comércio eletrônico
+                      href: e-commerce-extensibility/architectural-overview.md
+                    - name: Componentes do comércio eletrônico
+                      href: e-commerce-extensibility/ecommerce-components.md
                     - name: Referência de comandos da CLI
                       href: e-commerce-extensibility/cli-command-reference.md
-                    - name: Anatomia de um módulo
-                      items:
-                        - name: Visão geral de módulos
-                          href: e-commerce-extensibility/modules-overview.md
-                        - name: Arquivo de definição do módulo
-                          href: e-commerce-extensibility/module-definition-file.md
-                        - name: Arquivo do componente React do módulo
-                          href: e-commerce-extensibility/module-react-file.md
-                        - name: Arquivo de exibição do módulo
-                          href: e-commerce-extensibility/module-view-file.md
-                        - name: Arquivo de dados do módulo
-                          href: e-commerce-extensibility/module-data-file.md
-                        - name: Arquivo fictício do módulo
-                          href: e-commerce-extensibility/module-mock-file.md
-                        - name: Arquivo de teste do módulo
-                          href: e-commerce-extensibility/module-test-file.md
-                        - name: Arquivo props.autogenerated.ts do módulo
-                          href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
-                        - name: Predefinições da configuração do módulo
-                          href: e-commerce-extensibility/module-config-presets.md
-                - name: Criar funcionalidade
+                - name: Anatomia de um módulo
                   items:
-                    - name: Módulos
-                      items:
-                        - name: Criar um módulo
-                          href: e-commerce-extensibility/create-new-module.md
-                        - name: Adicionar campos de configuração do módulo
-                          href: e-commerce-extensibility/add-module-config-fields.md
-                        - name: Visualizar e depurar módulos
-                          href: e-commerce-extensibility/test-module.md
-                        - name: Módulos de teste com simulações de módulo
-                          href: e-commerce-extensibility/test-module-mock.md
-                        - name: Testar módulos usando fictícios de páginas
-                          href: e-commerce-extensibility/test-page-mock.md
-                        - name: Módulos de contêiner
-                          href: e-commerce-extensibility/container-modules.md
-                        - name: Criar um módulo de contêiner de layout
-                          href: e-commerce-extensibility/create-layout-container.md
-                        - name: Criar um módulo de contêiner de página
-                          href: e-commerce-extensibility/create-page-containers.md
-                        - name: Localizar um módulo
-                          href: e-commerce-extensibility/localize-module.md
-                        - name: Avançado
-                          items:
-                            - name: Solicitar o objeto de propriedades
-                              href: e-commerce-extensibility/request-properties-object.md
-                            - name: Configurações de aplicativo
-                              href: e-commerce-extensibility/app-settings.md
-                            - name: Definir as configurações globais do construtor de sites com base nos recursos habilitados
-                              href: e-commerce-extensibility/config-settings-for-features.md
-                            - name: Arquivo de configurações da plataforma
-                              href: e-commerce-extensibility/platform-settings.md
-                            - name: Visão geral da interface de programação de aplicativo de cookies
-                              href: e-commerce-extensibility/cookie-api-overview.md
-                            - name: Visão geral de componentes interativos
-                              href: e-commerce-extensibility/interactive-components.md
-                            - name: Simulação do estado conectado durante o desenvolvimento local
-                              href: e-commerce-extensibility/mock-sign-in.md
-                            - name: Configurar propriedades do módulo para serem mostradas com base no contexto
-                              href: e-commerce-extensibility/configure-properties-context.md
-                            - name: Globalizar módulos usando a classe CultureInfoFormatter
-                              href: e-commerce-extensibility/globalize-modules.md
-                            - name: Configurar o Azure Key Vault para o gerenciamento seguro de chaves
-                              href: e-commerce-extensibility/set-up-key-vault.md
-                            - name: Componente de imagem
-                              href: e-commerce-extensibility/image-component.md
-                    - name: Ações de dados
-                      items:
-                        - name: Visão geral de ações de dados
-                          href: e-commerce-extensibility/data-actions.md
-                        - name: Opções de cache de ação de dados
-                          href: e-commerce-extensibility/data-action-cache.md
-                        - name: Testar ações de dados com simulações
-                          href: e-commerce-extensibility/test-data-action-mocks.md
-                        - name: Carregamento da página de ações de dados
-                          href: e-commerce-extensibility/page-load-data-action.md
-                        - name: Ações de dados baseadas em eventos
-                          href: e-commerce-extensibility/event-based-data-actions.md
-                        - name: Ações de dados principais
-                          href: e-commerce-extensibility/core-data-actions.md
-                        - name: Chamar interfaces de programação de aplicativo da Commerce Scale Unit
-                          href: e-commerce-extensibility/call-retail-server-apis.md
-                        - name: Chamar interfaces de programação de aplicativo de extensão do Retail Server
-                          href: e-commerce-extensibility/call-retail-extension-api.md
-                        - name: Avançado
-                          items:
-                            - name: Ações de dados em cadeia
-                              href: e-commerce-extensibility/chain-data-actions.md
-                            - name: Ações de dados em lote
-                              href: e-commerce-extensibility/batch-data-actions.md
-                            - name: Ações de dados observáveis
-                              href: e-commerce-extensibility/create-observable-data-action.md
-                            - name: Compartilhar estado entre módulos
-                              href: e-commerce-extensibility/share-state-across-modules.md
-                            - name: Configurações de cache de ação de dados
-                              href: e-commerce-extensibility/data-action-cache-settings.md
-                            - name: Chamar ações de dados do servidor com o AJAX
-                              href: e-commerce-extensibility/data-actions-with-ajax.md
-                    - name: Temas
-                      items:
-                        - name: Visão geral de temas
-                          href: e-commerce-extensibility/theming.md
-                        - name: Criar um tema
-                          href: e-commerce-extensibility/create-theme.md
-                        - name: Definir configurações de tema
-                          href: e-commerce-extensibility/configure-theme-settings.md
-                        - name: Configurar predefinições de estilo do tema
-                          href: e-commerce-extensibility/theme-style-presets.md
-                        - name: Adicionar recursos personalizados ao seu código de personalização
-                          href: e-commerce-extensibility/add-custom-resources.md
-                    - name: Injetar o script
-                      items:
-                        - name: Injetores de script
-                          href: e-commerce-extensibility/script-injector.md
-                    - name: Conectores
-                      items:
-                        - name: Configurar e habilitar conectores
-                          href: e-commerce-extensibility/connectors.md
-                - name: Estender a funcionalidade existente
+                    - name: Visão geral de módulos
+                      href: e-commerce-extensibility/modules-overview.md
+                    - name: Arquivo de definição do módulo
+                      href: e-commerce-extensibility/module-definition-file.md
+                    - name: Arquivo do componente React do módulo
+                      href: e-commerce-extensibility/module-react-file.md
+                    - name: Arquivo de exibição do módulo
+                      href: e-commerce-extensibility/module-view-file.md
+                    - name: Arquivo de dados do módulo
+                      href: e-commerce-extensibility/module-data-file.md
+                    - name: Arquivo fictício do módulo
+                      href: e-commerce-extensibility/module-mock-file.md
+                    - name: Arquivo de teste do módulo
+                      href: e-commerce-extensibility/module-test-file.md
+                    - name: Arquivo props.autogenerated.ts do módulo
+                      href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Predefinições da configuração do módulo
+                      href: e-commerce-extensibility/module-config-presets.md
+                - name: Desenvolver módulos
                   items:
-                    - name: Módulos
-                      items:
-                        - name: Clonar um módulo da biblioteca de módulos
-                          href: e-commerce-extensibility/clone-starter-module.md
-                        - name: Estender uma definição de módulo
-                          href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Ações de dados
-                      items:
-                        - name: Substituições de ação de dados
-                          href: e-commerce-extensibility/data-action-overrides.md
-                        - name: Ganchos de ação de dados
-                          href: e-commerce-extensibility/data-action-hooks.md
-                    - name: Temas
-                      items:
-                        - name: Estender um tema para adicionar extensões de módulo
-                          href: e-commerce-extensibility/theme-module-extensions.md
-                        - name: Substituir um componente de biblioteca de módulos em um tema
-                          href: e-commerce-extensibility/override-theme-component.md
-                        - name: Estender um tema de um tema base
-                          href: e-commerce-extensibility/extend-theme.md
-                - name: Empacotamento e implantação
+                    - name: Criar um módulo
+                      href: e-commerce-extensibility/create-new-module.md
+                    - name: Clonar um módulo da biblioteca de módulos
+                      href: e-commerce-extensibility/clone-starter-module.md
+                    - name: Adicionar campos de configuração do módulo
+                      href: e-commerce-extensibility/add-module-config-fields.md
+                    - name: Visualizar e depurar módulos
+                      href: e-commerce-extensibility/test-module.md
+                    - name: Módulos de teste com simulações de módulo
+                      href: e-commerce-extensibility/test-module-mock.md
+                    - name: Testar módulos usando fictícios de páginas
+                      href: e-commerce-extensibility/test-page-mock.md
+                    - name: Módulos de contêiner
+                      href: e-commerce-extensibility/container-modules.md
+                    - name: Criar um módulo de contêiner de layout
+                      href: e-commerce-extensibility/create-layout-container.md
+                    - name: Criar um módulo de contêiner de página
+                      href: e-commerce-extensibility/create-page-containers.md
+                    - name: Localizar um módulo
+                      href: e-commerce-extensibility/localize-module.md
+                - name: Tópicos avançados de módulos
+                  items:
+                    - name: Solicitar o objeto de propriedades
+                      href: e-commerce-extensibility/request-properties-object.md
+                    - name: Configurações de aplicativo
+                      href: e-commerce-extensibility/app-settings.md
+                    - name: Definir as configurações globais do construtor de sites com base nos recursos habilitados
+                      href: e-commerce-extensibility/config-settings-for-features.md
+                    - name: Arquivo de configurações da plataforma
+                      href: e-commerce-extensibility/platform-settings.md
+                    - name: Estender uma definição de módulo
+                      href: e-commerce-extensibility/extend-module-definition.md
+                    - name: Visão geral da API de cookies
+                      href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Visão geral de componentes interativos
+                      href: e-commerce-extensibility/interactive-components.md
+                    - name: Simulação do estado conectado durante o desenvolvimento local
+                      href: e-commerce-extensibility/mock-sign-in.md
+                    - name: Configurar propriedades do módulo para serem mostradas com base no contexto
+                      href: e-commerce-extensibility/configure-properties-context.md
+                    - name: Globalizar módulos usando a classe CultureInfoFormatter
+                      href: e-commerce-extensibility/globalize-modules.md
+                    - name: Configurar o Azure Key Vault para o gerenciamento seguro de chaves
+                      href: e-commerce-extensibility/set-up-key-vault.md
+                    - name: Criar um gancho de plug-in de pipeline de solicitação
+                      href: e-commerce-extensibility/request-pipeline-hook.md
+                - name: Desenvolver ações de dados
+                  items:
+                    - name: Visão geral de ações de dados
+                      href: e-commerce-extensibility/data-actions.md
+                    - name: Opções de cache de ação de dados
+                      href: e-commerce-extensibility/data-action-cache.md
+                    - name: Testar ações de dados com simulações
+                      href: e-commerce-extensibility/test-data-action-mocks.md
+                    - name: Carregamento da página de ações de dados
+                      href: e-commerce-extensibility/page-load-data-action.md
+                    - name: Ações de dados baseadas em eventos
+                      href: e-commerce-extensibility/event-based-data-actions.md
+                    - name: Ações de dados principais
+                      href: e-commerce-extensibility/core-data-actions.md
+                    - name: Chamar APIs da Commerce Scale Unit
+                      href: e-commerce-extensibility/call-retail-server-apis.md
+                    - name: Chamar APIs de extensão do Retail Server
+                      href: e-commerce-extensibility/call-retail-extension-api.md
+                - name: Tópicos avançados de ação de dados
+                  items:
+                    - name: Ações de dados em cadeia
+                      href: e-commerce-extensibility/chain-data-actions.md
+                    - name: Ações de dados em lote
+                      href: e-commerce-extensibility/batch-data-actions.md
+                    - name: Ações de dados observáveis
+                      href: e-commerce-extensibility/create-observable-data-action.md
+                    - name: Compartilhar estado entre módulos
+                      href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Configurações de cache de ação de dados
+                      href: e-commerce-extensibility/data-action-cache-settings.md
+                    - name: Substituições de ação de dados
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: Ganchos de ação de dados
+                      href: e-commerce-extensibility/data-action-hooks.md
+                    - name: Chamar ações de dados do servidor com o AJAX
+                      href: e-commerce-extensibility/data-actions-with-ajax.md
+                - name: Desenvolver temas
+                  items:
+                    - name: Visão geral de temas
+                      href: e-commerce-extensibility/theming.md
+                    - name: Criar um tema
+                      href: e-commerce-extensibility/create-theme.md
+                    - name: Definir configurações de tema
+                      href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Configurar predefinições de estilo do tema
+                      href: e-commerce-extensibility/theme-style-presets.md
+                    - name: Estender um tema para adicionar extensões de módulo
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Substituir um componente de biblioteca de módulos em um tema
+                      href: e-commerce-extensibility/override-theme-component.md
+                    - name: Estender um tema de um tema base
+                      href: e-commerce-extensibility/extend-theme.md
+                    - name: Adicionar recursos personalizados ao seu código de personalização
+                      href: e-commerce-extensibility/add-custom-resources.md
+                - name: Injetar o script
+                  items:
+                    - name: Injetores de script
+                      href: e-commerce-extensibility/script-injector.md
+                - name: Conectores
+                  items:
+                    - name: Configurar e habilitar conectores
+                      href: e-commerce-extensibility/connectors.md
+                - name: Desempenho
+                  items:
+                    - name: Configurar cache de página
+                      href: e-commerce-extensibility/page-caching.md
+                    - name: Cache de instância da ação de dados
+                      href: e-commerce-extensibility/instance-cache.md
+                - name: Telemetria e análise
+                  items:
+                    - name: Agente de log de telemetria
+                      href: e-commerce-extensibility/telemetry-logger.md
+                - name: Implantação e manutenção
                   items:
                     - name: Empacotar configurações e implantá-las em um ambiente online
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK e atualizações da biblioteca de módulos
                       href: e-commerce-extensibility/sdk-updates.md
-                    - name: Configurar o compartilhamento de código do Azure DevOps e criar um pipeline de build
-                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
-                - name: 'Práticas recomendadas, desempenho e perguntas frequentes'
+                - name: Práticas recomendadas e perguntas frequentes
                   items:
                     - name: Práticas recomendadas para desenvolvimento do Dynamics 365 Commerce
                       href: e-commerce-extensibility/best-practices-dev.md
@@ -2782,60 +2536,206 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Práticas recomendadas de depuração para desenvolvimento do Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
-                    - name: Testar páginas de site de comércio eletrônico para perdas de memória
-                      href: e-commerce-extensibility/memory-leak-detection.md
-                    - name: Desempenho
-                      items:
-                        - name: Configurar cache de página
-                          href: e-commerce-extensibility/page-caching.md
-                        - name: Cache de instância da ação de dados
-                          href: e-commerce-extensibility/instance-cache.md
-                    - name: Telemetria e análise
-                      items:
-                        - name: Agente de log de telemetria
-                          href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: SDK do Retail
               items:
-                - name: Empacotamento e implantação
-                  items:
-                    - name: Criar pacote de pagamento do Commerce para implantação de Finanças e Operações
-                      href: dev-itpro/payment-connector-package.md
-            - name: SDK do Retail (Herdado)
+                - name: Migrar para o SDK do Commerce
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                - name: Arquitetura do SDK do Retail
+                  href: dev-itpro/retail-sdk/retail-sdk-overview.md
+                - name: Configurar um pipeline de build para o SDK de compactação independente
+                  href: dev-itpro/build-pipeline.md
+                - name: Migrar o SDK do Retail do Visual Studio 2015 para o Visual Studio 2017
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
+                - name: Exemplos de extensibilidade do SDK do Retail
+                  href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                - name: Criar pacotes implantáveis
+                  href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+                - name: Desenvolvimento em ambientes hospedados na nuvem sem acesso de administrador
+                  href: dev-itpro/cloud-dev-box.md
+                - name: Configurar o pipeline de build do SDK do Commerce
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: Baixar amostras e pacotes do GitHub e NuGet
+                  href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Perguntas frequentes sobre o SDK do Retail
+                  href: dev-itpro/retail-sdk/sdk-faq.md
+            - name: Extensibilidade de ponto de venda (PDV)
               items:
-                - name: Visão Geral
+                - name: Layouts da tela de PDV
+                  href: pos-screen-layouts.md
+                - name: Aplicativo Store Commerce no Microsoft Dynamics 365 Commerce
+                  href: dev-itpro/store-commerce.md
+                - name: Abrir URL no PDV
+                  href: Open-URL-in-POS.md
+                - name: Instalar o designer de layout do PDV
+                  href: install-pos-layout-designer.md
+                - name: Estender a exibição dual do PDV
+                  href: dev-itpro/pos-dual-display-extension.md
+                - name: Adicionar controles personalizados a exibições de PDV
+                  href: dev-itpro/pos-custom-control.md
+                - name: Adicionar operações de PDV a layouts de PDV usando o designer da Grade de botões
+                  href: dev-itpro/add-POS-operations.md
+                - name: APIs do PDV
+                  href: dev-itpro/POS-APIs.md
+                - name: Extensão de pagamento do PDV
+                  href: dev-itpro/pos-payment-extension.md
+                - name: Suporte a gorjetas no SDK de pagamentos do PDV
+                  href: dev-itpro/tipping.md
+                - name: Suporte a cartões-presente externos
+                  href: dev-itpro/gift-card.md
+                - name: Criar e aplicar marcas ao aplicativo Retail Experience
+                  href: dev-itpro/create-retail-experience-app.md
+                - name: Instalar o aplicativo POS Hybrid no Android e no iOS
+                  href: dev-itpro/hybridApp.md
+                - name: Substituir o manipulador de solicitações do PDV
+                  href: dev-itpro/pos-handler.md
+                - name: Exibir informações do pacote de extensões do PDV
+                  href: dev-itpro/view-pos-extension-package-details.md
+                - name: Gravador de testes e Regression Suite Automation Tool para o PDV em Nuvem
+                  href: dev-itpro/pos-rsat.md
+                - name: Adicionar campos personalizados ao painel Totais do PDV
+                  href: dev-itpro/custom-field-pos-totals.md
+                - name: Mostrar notificações personalizadas no PDV
+                  href: dev-itpro/extend-pos-notification.md
+                - name: Assinar MPOS com certificado de autenticação de código
+                  href: dev-itpro/pos-app-signing-certificate.md
+                - name: Estender exibições de PDV para adicionar colunas personalizadas e botões da barra de aplicativos
+                  href: dev-itpro/pos-view-extension.md
+                - name: Adicionar controles personalizados a páginas de transação do Modern POS
+                  href: dev-itpro/pos-custom-transaction.md
+                - name: Adicionar colunas personalizadas a uma grade de transação do PDV
+                  href: dev-itpro/pos-custom-transaction-column.md
+                - name: Chamar APIs ou operações de PDV de extensões de PDV
+                  href: dev-itpro/pos-api-extension.md
+                - name: Gatilhos do PDV
+                  href: dev-itpro/pos-trigger-printing.md
+                - name: Adicionar controles personalizados a exibições de PDV fora da tela e baseadas em designer
+                  href: dev-itpro/pos-control-non-screen.md
+                - name: Executar os exemplos do PDV
+                  href: dev-itpro/pos-run-samples.md
+                - name: Orientações de implementação de gerenciamento de dispositivos
+                  href: implementation-considerations-devices.md
+                - name: Eventos e manipuladores de exibição do carrinho do PDV
+                  href: dev-itpro/cart-view-handlers.md
+                - name: Adicionar botões personalizados à barra de cabeçalho do PDV
+                  href: dev-itpro/pos-header-bar.md
+                - name: SDK de empacotamento independente de PDV
                   items:
-                    - name: Kit de desenvolvimento do software (SDK) do Retail
-                      href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                    - name: Amostras de extensão do Retail Software Development Kit (SDK)
-                      href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-                    - name: Perguntas frequentes sobre o SDK do Retail
-                      href: dev-itpro/retail-sdk/sdk-faq.md
-                    - name: Migrar o SDK do Retail do Visual Studio 2015 para o Visual Studio 2017
-                      href: dev-itpro/retail-sdk/migrate-sdk.md
-                - name: Configuração do ambiente
-                  items:
-                    - name: Desenvolvimento em ambientes hospedados na nuvem sem acesso de administrador
-                      href: dev-itpro/cloud-dev-box.md
-                    - name: Executar exemplos do PDV
-                      href: dev-itpro/pos-run-samples.md
-                - name: Referência
-                  items:
-                    - name: Kit de desenvolvimento de software (SDK) de plataforma de comércio eletrônico
-                      href: dev-itpro/ecommerce-platform-sdk.md
-                    - name: Configurar lojas online
-                      href: dev-itpro/configure-online-store.md
-                    - name: Configurar provedores de autenticação
-                      href: dev-itpro/configure-authentication-providers.md
-                - name: Empacotamento e implantação
-                  items:
-                    - name: Criar pacotes implantáveis
-                      href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                    - name: Assinar arquivos MPOS com certificado de autenticação de código
-                      href: dev-itpro/pos-app-signing-certificate.md
-                    - name: Instalar o aplicativo POS Hybrid no Android e no iOS
-                      href: dev-itpro/hybridapp.md
-                    - name: Criar e aplicar marcas ao aplicativo Retail Experience
-                      href: dev-itpro/create-retail-experience-app.md
+                    - name: Visão geral da extensão de PDV
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Introdução às extensões de PDV
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: Criar um projeto de pacote de extensão de PDV
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Criar um arquivo .appx para um pacote de extensão do Modern POS
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: Depurar extensões de PDV
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Empacotamento e implantação de extensão
+                      items:
+                        - name: Criar um pacote de extensão do Modern POS
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: Assinatura de código de um pacote de extensão do Modern POS (MSIX)
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: Criar um pacote de extensão de PDV em Nuvem
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Migrar uma extensão de PDV para o modelo de empacotamento independente
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Guia de desenvolvimento da extensão de PDV
+                      items:
+                        - name: Noções básicas sobre extensão de PDV
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: Criar uma exibição personalizada no PDV
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: Usar controles de PDV em extensões
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Tarefas
+                          items:
+                            - name: Usar knockout.js nas extensões de PDV
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Consumir APIs do Commerce personalizadas sem periféricos
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
+            - name: Extensibilidade do Hardware Station
+              items:
+                - name: Integrar o PDV a um novo dispositivo de hardware
+                  href: dev-itpro/hardware-device-extension.md
+            - name: Extensibilidade do Retail Server
+              items:
+                - name: APIs de cliente e consumidor da Commerce Scale Unit
+                  href: dev-itpro/retail-server-customer-consumer-api.md
+                - name: Criar API de extensão do Retail Server (SDK do Retail versão 10.0.11 e posterior)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Proxies C# e Retail Typescript
+                  href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: APIs de consumo do Retail Server em aplicativos externos
+                  href: dev-itpro/consume-retail-server-api.md
+            - name: Extensibilidade do Commerce Runtime (CRT)
+              items:
+                - name: Arquitetura e configuração do CRT
+                  href: dev-itpro/commerce-runtime-overview.md
+                - name: Serviços do CRT
+                  href: dev-itpro/crt-services.md
+                - name: Padrão de extensão CRT
+                  href: dev-itpro/commerce-runtime-extensibility.md
+                - name: Gerenciar segredos para canais do Retail
+                  href: dev-itpro/manage-secrets.md
+                - name: Extensibilidade e gatilhos do CRT
+                  href: dev-itpro/commerce-runtime-extensibility-trigger.md
+                - name: Bloquear transações usando gatilhos
+                  href: dev-itpro/trigger-example-blocking-transaction.md
+                - name: Extensão de fidelidade
+                  href: dev-itpro/retail-sdk/loyalty-extension-sample.md
+                - name: Pontos de extensão para guias de remessa
+                  href: dev-itpro/extensions-shipping-carrier-integration.md
+                - name: Extensões de banco de dados do canal
+                  href: dev-itpro/channel-db-extensions.md
+                - name: Remover extensões do Cloud Scale Unit
+                  href: dev-itpro/retail-sdk/remove-csu-package.md
+                - name: Habilitar a sincronização de CDX personalizado via extensão
+                  href: dev-itpro/cdx-extensibility.md
+                - name: Definir atributos de ordem
+                  href: dev-itpro/order-attributes.md
+                - name: Atributos de clientes
+                  href: dev-itpro/customer-attributes.md
+                - name: Extensões de recibo
+                  href: dev-itpro/retail-sdk/retail-sdk-samples.md
+                - name: Eventos de extensão de log para o Application Insights
+                  href: dev-itpro/commerce-application-insights.md
+                - name: Criar APIs assíncronas do Commerce (CRT) em sua lógica comercial
+                  href: dev-itpro/async-commerce-extension.md
+                - name: Colunas pré-estendidas no banco de dados do canal
+                  href: dev-itpro/extended-columns.md
+                - name: Estender serviço do Commerce Data Exchange em tempo real
+                  href: dev-itpro/extend-commerce-data-exchange.md
+            - name: Extensibilidade do conector de pagamento
+              items:
+                - name: Criar uma integração de pagamento para um terminal de pagamento
+                  href: dev-itpro/end-to-end-payment-extension.md
+                - name: Implementação de um conector de pagamento e de um dispositivo de pagamento (white paper)
+                  href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
+                - name: Implantar conectores de pagamento
+                  href: dev-itpro/deploy-payment-connector.md
+                - name: Captura incremental para faturamento de back office
+                  href: dev-itpro/incremental-capture.md
+                - name: Criar mensagens de erro localizadas personalizadas para extensões de terminais de pagamento
+                  href: dev-itpro/payment-custom-error-messages.md
+                - name: Criar instaladores do Windows para conectores de pagamento
+                  href: dev-itpro/create-windows-installer-payment-connector.md
+                - name: Uso de dados do pagamento
+                  href: payment-connector-data-fields.md
+                - name: Habilitar a proteção de pagamentos duplicados para o conector de pagamento
+                  href: dev-itpro/duplicate-payments-protection.md
+                - name: Criar pacote de pagamento do Commerce para implantação do Finance and Operations
+                  href: dev-itpro/payment-connector-package.md
+            - name: Extensibilidade do comércio eletrônico de terceiros
+              items:
+                - name: Configurar lojas online
+                  href: dev-itpro/configure-online-store.md
+                - name: Configurar provedores de autenticação
+                  href: dev-itpro/configure-authentication-providers.md
+                - name: SDK de plataforma de comércio eletrônico
+                  href: dev-itpro/ecommerce-platform-sdk.md
+            - name: Localizar recursos de extensão e arquivos de etiquetas do Commerce
+              href: dev-itpro/extension-resource-localization.md
         - name: Solução de problemas
           items:
             - name: Processamento de ordens
@@ -2886,7 +2786,7 @@
               items:
                 - name: Configurar um ambiente de desenvolvimento de comércio eletrônico para depuração em relação a uma VM do Retail Server de Camada 1
                   href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: Desenvolvimento e administração de aplicativos de finanças e operações
+    - name: Desenvolvimento e administração de aplicativos do Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

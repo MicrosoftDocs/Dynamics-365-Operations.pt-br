@@ -1,30 +1,27 @@
 ---
 title: Sincronizar ordens de serviço com projetos do Field Service com o Supply Chain Management
 description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ordens de trabalho com um número de projeto do Dynamics 365 Field Service para o Dynamics 365 Supply Chain Management.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5ebf23c5c831e9dad5d13c72f82eb3eeb30da853
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421992"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572520"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Sincronizar ordens de serviço com projetos do Field Service com o Supply Chain Management
 
@@ -32,9 +29,9 @@ ms.locfileid: "4421992"
 
 Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ordens de trabalho com um número de projeto do Dynamics 365 Field Service para o Dynamics 365 Supply Chain Management.
 
-[![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
+[![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-O modelo **Ordens de serviço com projeto (Field Service para Supply Chain Management)** usado é baseado no modelo **Ordens de serviço (Field Service para Supply Chain Management)**. Para obter mais informações, consulte [Sincronizar ordens de serviço no Field Service com ordens de venda no Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+O modelo **Ordens de serviço com projeto (Field Service para Supply Chain Management)** usado é baseado no modelo **Ordens de serviço (Field Service para Supply Chain Management)**. Para obter mais informações, consulte [Sincronizar ordens de serviço no Field Service com ordens de venda no Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 Este tópico descreve apenas as diferenças entre os dois métodos:
 - **Ordens de serviço com projeto (Field Service para Supply Chain Management)**
@@ -64,16 +61,19 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Ordens de serviço com projeto (Field Service para Supply Chain Management): WorkOrderHeader
 
-[![Mapeamento de modelo na Integração de dados](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![Mapeamento de modelos na Integração de dados, Ordens de serviço com projeto (Field Service para Supply Chain Management): WorkOrderHeader.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Ordens de serviço com projeto (Field Service para Supply Chain Management): WorkOrderHeaderProject
 
-[![Mapeamento de modelo na Integração de dados](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![Mapeamento de modelos na Integração de dados, Ordens de serviço com projeto (Field Service para Supply Chain Management): WorkOrderHeaderProject.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Ordens de serviço com projeto (Field Service para Supply Chain Management): WorkOrderProduct
 
-[![Mapeamento de modelo na Integração de dados](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![Mapeamento de modelos na Integração de dados, Ordens de serviço com projeto (Field Service para Supply Chain Management): WorkOrderProduct.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Ordens de serviço com projeto (Field Service para Supply Chain Management): WorkOrderService
 
-[![Mapeamento de modelo na Integração de dados](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![Mapeamento de modelos na Integração de dados, Ordens de serviço com projeto (Field Service para Supply Chain Management): WorkOrderService.](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

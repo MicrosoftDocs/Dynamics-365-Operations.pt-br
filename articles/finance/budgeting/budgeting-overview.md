@@ -1,29 +1,28 @@
 ---
 title: Home page de Orçamento
 description: Este tópico fornece uma visão geral dos componentes da funcionalidade de orçamento, das ferramentas de orçamento e dos recursos de relatório no Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
+author: panolte
+ms.date: 04/29/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e4cd874cc7e95d09f5109f7ee4cf480158bce845bf9dbcbab1293f2982dbfabe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750427"
 ---
 # <a name="budgeting-home-page"></a>Home page de Orçamento
 
@@ -31,12 +30,11 @@ ms.locfileid: "4528536"
 
 Este tópico fornece uma visão geral dos componentes da funcionalidade de orçamento, das ferramentas de orçamento e dos recursos de relatório. 
 
-<a name="components-of-budgeting-functionality"></a>Componentes da funcionalidade de orçamento
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Componentes da funcionalidade de orçamento
 
 O ciclo de planejamento de recursos para uma empresa consiste, em geral, em planejar, orçar e prever atividades.
 
-[![Componentes da funcionalidade de orçamento](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Componentes da funcionalidade de orçamento.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Os processos de planejamento estratégico de longo prazo e planejamento de orçamento anual têm suporte por meio de um documento de plano de orçamento. Os documentos do plano de orçamento são totalmente integrados ao Microsoft Excel. Os usuários podem configurar cenários monetários e quantitativos ilimitados, além de definir uma hierarquia da organização de orçamento para oferecer suporte aos métodos de orçamento de cima para baixo e de baixo para cima. Após um orçamento ser estabelecido e aprovado no aplicativo, você converte o plano de orçamento em uma entrada de registro de orçamento. As entradas de registro de orçamento fornecem ferramentas para manter o orçamento e manter os valores rastreáveis através de códigos de orçamento. As entradas de registro de orçamento permitem revisar orçamentos originais, executar transferências, e manter valores de orçamento do ano anterior. Com base no orçamento estabelecido, uma empresa por habilitar o controle de orçamento. O nível de controle depende da cultura organizacional e do nível organizacional de maturidade. As organizações que têm um nível de maturidade baixo podem deixar o orçamento "no estado em que se encontra" e talvez sejam mais reativas do que pró-ativas se um orçamento não atender às expectativas. Outras organizações podem habilitar políticas de controle de orçamento que impedem os usuários de fazer compras se os fundos de orçamento não estão disponíveis.
 
@@ -47,10 +45,10 @@ Por fim, as organizações muito maduras podem estabelecer uma cultura organizac
 -   [Visão geral de planejamento de orçamento](budget-planning-overview-configuration.md)
 -   [Previsão de posição](position-forecasting.md)
 -   [Documentos de justificativa de plano de orçamento](budget-planning-justification-docs.md)
--   [Modelos de plano de orçamento para Excel](budget-planning-excel-templates.md)
+-   [Modelos de planejamento de orçamento para Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Ferramentas de orçamento
-[![Ferramentas de orçamento](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Ferramentas de orçamento.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Os recursos adicionais de planejamento e orçamento estão disponíveis e são integrados aos orçamentos do razão.
 
@@ -64,10 +62,13 @@ Para obter informações sobre como exibir dados de planejamento de outros módu
 ## <a name="user-interface-and-reporting-capabilities"></a>Recursos de relatório e de interface de usuário
 Os usuários podem criar planos de orçamento diretamente no cliente (usando uma página configurável do documento do plano de orçamento) ou no Excel. O Excel fornece vários recursos adicionais. Por exemplo, você pode usar dados externos como uma fonte para um plano de orçamento, realizar cálculos personalizados e usar Tabela Dinâmica e gráficos da Microsoft. A maioria das variáveis no processo de planejamento de orçamento podem ser configuradas. 
 
-Por exemplo, você pode definir quem faz o orçamento, o que é orçado e a aparência do processo. Embora você possa usar o Excel para o planejamento de orçamento, o aplicativo é mantido como uma fonte única da verdade e ajuda a evitar problemas de controle de orçamento. Os processos periódicos podem ser usados para levar os dados iniciais do orçamento para o plano de orçamento. Para relatórios, o aplicativo oferece um conjunto de páginas de consulta padrão que permitem exibir e analisar dados do orçamento. Os dados do plano de orçamento podem ser acessados por meio do [Financial Reporting](../general-ledger/financial-reporting-getting-started.md), e cenários de plano de orçamento separados podem ser exibidos como colunas no relatório financeiro.
+Por exemplo, você pode definir quem faz o orçamento, o que é orçado e a aparência do processo. Embora você possa usar o Excel para o planejamento de orçamento, o aplicativo é mantido como uma fonte única da verdade e ajuda a evitar problemas de controle de orçamento. Os processos periódicos podem ser usados para levar os dados iniciais do orçamento para o plano de orçamento. Para relatórios, o aplicativo oferece um conjunto de páginas de consulta padrão que permitem exibir e analisar dados do orçamento. Os dados do plano de orçamento podem ser acessados por meio de [Relatórios financeiros](../general-ledger/financial-reporting-getting-started.md), e cenários de plano de orçamento separados podem ser exibidos como colunas no relatório financeiro.
 
 
 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

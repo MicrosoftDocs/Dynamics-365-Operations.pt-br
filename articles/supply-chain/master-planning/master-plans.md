@@ -2,29 +2,28 @@
 title: Visão geral de planos mestres
 description: Use diversos planos mestre para oferecer suporte a operações de produção diárias da empresa, simular diferentes estratégias de planejamento que deseja monitorar e implementar uma política corporativa, por exemplo, com relação ao desempenho interno ou à satisfação do cliente.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqParameters, ReqPlanSched
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 7911
+ms.custom:
+- "7911"
+- intro-internal
 ms.assetid: a116b7de-3d6d-4321-87ba-5a5d99c2f64e
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70a5b8f0c7e4857aa2904003b458bf6d02b72064
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 022b5dcab8ef431edbed308660f92b841eb972cdb7a53095f057e6718880ceed
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759542"
 ---
 # <a name="master-plans-overview"></a>Visão geral de planos mestres
 
@@ -46,8 +45,7 @@ Também é possível configurar o início do plano dinâmico para ser atualizado
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Configurações de cobertura](coverage-settings.md)
 
@@ -57,3 +55,6 @@ Também é possível configurar o início do plano dinâmico para ser atualizado
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

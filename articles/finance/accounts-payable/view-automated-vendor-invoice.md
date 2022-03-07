@@ -2,11 +2,9 @@
 title: Exibir resultados da automação de fatura de fornecedor (versão preliminar)
 description: Este tópico explica como exibir o status de faturas de fornecedor que estão no processo de envio para fluxo de trabalho automatizado.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e7ec69177cdb4f6304b75016963f4111bbfde6ed975d66ffa702426a68dce640
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728952"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>Exibir resultados da automação de fatura de fornecedor
 
@@ -37,3 +35,6 @@ Se uma fatura importada estiver sujeita ao processo de envio para o fluxo de tra
 - **Pausado** – os processos automatizados definidos na página **Parâmetros de contas a pagar** foram executados, mas pelo menos uma etapa no processo falhou. O status **Pausado** também é aplicado se o campo **Incluir no processamento automatizado** estiver definido como **Não**. Você pode exibir as falhas selecionando o botão **Exibir resultados mais recentes**.
 - **No fluxo de trabalho** – a fatura importada foi enviada para o sistema de fluxo de trabalho, seja pelo processo de envio para fluxo de trabalho automatizado ou manualmente.
 - **Fluxo de trabalho concluído** – o processo de fluxo de trabalho foi concluído para a fatura importada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

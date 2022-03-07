@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4f4535d08ff1bb6f83172efb4ceada5a7d02ebd4
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 41a8506989add6c7c4a5596892bde442c7c7dff2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440578"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248174"
 ---
 # <a name="vendor-transactions-list-page"></a>Página da lista de transações de fornecedor
 
@@ -97,3 +96,6 @@ Cada campo tem um efeito diferente na transação ao editá-lo:
 - **Editar as condições de desconto à vista** - os descontos à vista são alterados, com base na data base e nas condições de desconto à vista.
 
 Quando você terminar de editar as configurações de pagamento, selecione **Fechar** para salvar as alterações.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

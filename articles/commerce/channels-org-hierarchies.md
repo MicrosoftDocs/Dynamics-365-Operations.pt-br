@@ -2,36 +2,30 @@
 title: Configurar hierarquias da organização
 description: Este tópico descreve como configurar hierarquias da organização no Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f6e791ffd15128d2076340515a08b5ea6be70dae
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410150"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345999"
 ---
 # <a name="set-up-organization-hierarchies"></a>Configurar hierarquias da organização
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como configurar hierarquias da organização no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Antes de criar canais, você precisa se certificar de configurar as hierarquias da organização.
 
@@ -60,7 +54,7 @@ Para criar uma hierarquia organizacional, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de hierarquia organizacional criada para um conjunto de lojas "Adventure Works" fictícias.
 
-![Exemplo de hierarquias organizacional](media/organizational-hierarchies.png)
+![Exemplo de hierarquias organizacional.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Adicionar organizações a uma hierarquia
 
@@ -73,7 +67,7 @@ Para adicionar organizações a uma hierarquia, siga estas etapas.
 
 A imagem a seguir mostra uma entidade legal adicionada na raiz da hierarquia, com quatro centros de custo adicionados para os canais "Shopping", "Loja", "Online" e "Call Center". Vários canais online, de varejo e de call center podem ser adicionados a cada um deles.
 
-![Exemplo de designer de hierarquia](media/hierarchy-designer.png)
+![Exemplo de designer de hierarquia.](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -88,3 +82,6 @@ A imagem a seguir mostra uma entidade legal adicionada na raiz da hierarquia, co
 [Visão geral de canais](channels-overview.md)
 
 [Pré-requisitos de configuração de canal](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

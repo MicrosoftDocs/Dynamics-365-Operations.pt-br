@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8c92bf179006d668f8673e9abc3419a10e644184
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d1e648b5db9405e749fbd24502f65f344d0549b0f13b48e98c38d1476866db01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729977"
 ---
 # <a name="warehouse-app-event-processing"></a>Processamento de eventos do aplicativo de depósito
 
@@ -26,9 +26,12 @@ ms.locfileid: "8103254"
 
 Os trabalhos em lotes executados no Supply Chain Management podem usar dados de uma fila para processar eventos emitidos pelo aplicativo móvel Gerenciamento de Depósito para reagir conforme a necessidade dos eventos sinalizados. Esse recurso adiciona eventos relevantes à fila em resposta a certos tipos de ações executadas por trabalhadores usando o aplicativo. Um exemplo é ao usar o recurso *Criar e processar ordens de transferência do aplicativo de depósito*, as linhas e o cabeçalho da ordem de transferência serão criados e atualizados no back-end quando o sistema estiver executando o trabalho em lotes **Processar eventos do aplicativo de depósito**.
 
-## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Ativar ou desativar o recurso Processar eventos de aplicativo de depósito
+## <a name="enable-the-process-warehouse-app-events-feature"></a>Habilitar o recurso Processar eventos de aplicativo de depósito
 
-A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Processar eventos do aplicativo de depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Antes de poder usar esse recurso, ele deverá estar habilitado no seu sistema. Os administradores podem usar a página [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. O recurso Processar eventos de aplicativo de depósito é listado como:
+
+- **Módulo** - gerenciamento de Depósito
+- **Nome do recurso** - Processar eventos de aplicativo de depósito
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Configurar um trabalho em lotes para processar eventos de aplicativo de depósito
 

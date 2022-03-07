@@ -2,25 +2,22 @@
 title: Criar canais de call center e definir atributos de canal
 description: Este procedimento orienta como criar um novo canal e definir atributos do canal.
 author: mugunthanm
-manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2f99029195a8b783f0d12990d4e8bab0bb348d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b053ea3a5792d016cfe4850f07c65de97fbfc9e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410235"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802686"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>Criar canais de call center e definir atributos de canal
 
@@ -100,3 +97,6 @@ Este procedimento orienta como criar um novo canal de comércio e definir atribu
 65. Clique em Salvar.
 66. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

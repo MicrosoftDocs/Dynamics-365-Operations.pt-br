@@ -2,36 +2,30 @@
 title: Implantar um novo locatário de comércio eletrônico
 description: Este tópico descreve como implantar um novo site de comércio eletrônico do Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 0fff5d47d6eb3e08288d17853fcd94f9eab843c3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517273"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801940"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Implantar um novo locatário de comércio eletrônico
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como implantar um novo site de comércio eletrônico do Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS).
-
-## <a name="overview"></a>Visão Geral
 
 Microsoft Dynamics Lifecycle Services (LCS) é um espaço de trabalho colaborativo baseado em nuvem que parceiros e clientes podem usar para gerenciar seus produtos e ambientes, exibir as informações mais recentes de produtos e serviços do Microsoft Dynamics, e criar, rastrear e navegar em incidentes de suporte. Os recursos de gerenciamento de comércio eletrônico são integrados no LCS.
 
@@ -112,3 +106,6 @@ Para acessar o assistente para criação de sites do Commerce, vá para a guia *
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 
 [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

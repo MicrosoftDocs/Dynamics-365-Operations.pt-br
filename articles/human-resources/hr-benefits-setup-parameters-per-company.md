@@ -2,15 +2,12 @@
 title: Configurar parâmetros de gerenciamento de benefícios por empresa
 description: Configure parâmetros para o gerenciamento de benefícios por empresa no Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
-ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
+ms.openlocfilehash: 0c0f9f31006ca83082ddc61da5927841855077737289e31f66708ade6d66acaf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732792"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>Configurar parâmetros de gerenciamento de benefícios por empresa
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Para cada organização que ofereça benefícios, você deve definir configurações para emails de confirmação de benefícios.
 
@@ -42,3 +41,5 @@ Para cada organização que ofereça benefícios, você deve definir configuraç
    | **Endereço de email padrão do remetente** | O endereço de email a ser usado quando enviar o email de confirmação. |
 
 3. Selecione **Salvar**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

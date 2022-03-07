@@ -2,15 +2,12 @@
 title: Processar qualificação da inscrição
 description: Este artigo explica como executar o processo de qualificação da inscrição.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4dd63e755f0afdbce411b3001410d2e56036e432
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417237"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054251"
 ---
 # <a name="process-enrollment-eligibility"></a>Processar qualificação da inscrição
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artigo explica como executar o processo de qualificação da inscrição.
 
@@ -72,3 +71,6 @@ Este artigo explica como exibir os resultados de processo de qualificação.
    | **Status do resultado** | Ele será Qualificado ou Não qualificado. O status do resultado será inelegível se o trabalhador não atender aos critérios da regra de qualificação, se o trabalhador estiver sem informações necessárias, como uma frequência de pagamento ou uma remuneração fixa, ou se houver informações ausentes no plano de benefícios que impedem que os trabalhadores sejam inscritos. |
    | **Mensagem de resultado** | Indica por que um trabalhador não é elegível para um plano de benefícios ou se a regra de qualificação foi aprovada. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

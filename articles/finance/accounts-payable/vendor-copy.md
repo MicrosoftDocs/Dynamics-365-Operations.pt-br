@@ -1,10 +1,12 @@
 ---
 title: Copiar fornecedores usando sequências numéricas compartilhadas
 description: Este tópico explica como usar sequências numéricas compartilhadas para copiar um fornecedor para outra entidade legal mantendo a mesma ID.
-author: sunfzam
+author: mikefalkner
+manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e29932ca34576d15b7350ab6c711563682d8ddf8
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: c528ea166ad634bf4fe8b1e047dbd6696dff029b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753534"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214491"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copiar fornecedores usando sequências numéricas compartilhadas
 

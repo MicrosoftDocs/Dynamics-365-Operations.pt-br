@@ -1,111 +1,108 @@
 ---
-title: Configurar o complemento de faturamento eletrônico
-description: Este tópico explica como configurar o complemento de faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
+title: Configurar Faturamento eletrônico
+description: Este tópico explica como configurar o faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
-manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: cf8d16415968b73300ff7ccc99d57303e5e3687f4a501e87b407f7a9bc66e820
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4440530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776492"
 ---
-# <a name="set-up-the-electronic-invoicing-add-on"></a>Configurar o complemento de faturamento eletrônico
+# <a name="set-up-electronic-invoicing"></a>Configurar Faturamento eletrônico
 
 [!include [banner](../includes/banner.md)]
 
 
-A configuração do recurso complemento eletrônico de faturamento é o processo de criação da configuração necessária por meio do ambiente Regulatory Configuration Services (RCS) e da publicação dessa configuração no servidor de complemento de faturamento eletrônico. A configuração permite criar as regras configuráveis que permitem ao complemento de faturamento eletrônico usar um protocolo seguro na Internet para comunicar e trocar dados com uma entidade de terceiros por meio de serviços Web.
+A configuração do recurso de faturamento eletrônico é o processo de criação da configuração necessária por meio do ambiente do Regulatory Configuration Services (RCS) e da publicação dessa configuração no servidor de faturamento eletrônico. A configuração permite criar as regras configuráveis que permitem ao Faturamento eletrônico usar um protocolo seguro na Internet para comunicar e trocar dados com uma entidade de terceiros por meio de serviços Web.
 
 A capacidade de configuração depende da configuração do formato de relatório eletrônico (ER) como um meio de criar um conteúdo enviado e recebido por meio de arquivos digitais. Ela também depende da orquestração das ações de comunicação para enviar solicitações e receber respostas de serviços Web de terceiros sem exigir que você escreva código.
 
 ## <a name="overview"></a>Visão Geral
 
-O recurso "Complemento de faturamento eletrônico" é o nome genérico do recurso configurado e publicado para consumir o servidor do complemento de faturamento eletrônico. A configuração do recurso combina, entre outras coisas, o uso de formatos de configuração de ER para criar arquivos de exportação e importação configuráveis, e o uso de ações e de fluxos de ações para habilitar a criação de regras configuráveis para enviar solicitações, importar respostas e analisar o conteúdo de respostas.
+O "recurso de Faturamento eletrônico" é o nome genérico do recurso configurado e publicado para consumir o servidor de Faturamento eletrônico. A configuração do recurso combina, entre outras coisas, o uso de formatos de configuração de ER para criar arquivos de exportação e importação configuráveis, e o uso de ações e de fluxos de ações para habilitar a criação de regras configuráveis para enviar solicitações, importar respostas e analisar o conteúdo de respostas.
 
-A ilustração a seguir mostra os principais componentes de um recurso Complemento de faturamento eletrônico.
+A ilustração a seguir mostra os principais componentes de um recurso de Faturamento eletrônico.
 
-![Visão geral do recurso Complemento de faturamento eletrônico](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Visão geral do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Devido a variações nos formatos de fatura e fluxos de ação, a configuração do recurso varia de acordo com o país ou a região, ou de acordo com as necessidades comerciais.
 
-## <a name="set-up-the-electronic-invoicing-add-on-feature"></a>Configurar o recurso Complemento de faturamento eletrônico
+## <a name="set-up-the-electronic-invoicing-feature"></a>Configurar o recurso de Faturamento eletrônico
 
-O processo de configuração deve ser concluído no ambiente RCS. Siga estas etapas para criar um novo recurso Complemento de faturamento eletrônico.
+O processo de configuração deve ser concluído no ambiente RCS. Siga estas etapas para criar um novo recurso de Faturamento eletrônico.
 
 1. Entre no ambiente RCS.
-2. No espaço de trabalho **Recursos de globalização**, na seção **Recursos**, selecione o bloco **Complemento de faturamento eletrônico**.
-3. Na página **Recursos do Complemento de faturamento eletrônico**, selecione **Importar** para importar a configuração do modelo de dados ER do Repositório global.
-4. Selecione **Adicionar** para criar um recurso Complemento de faturamento eletrônico. Você pode criar o recurso do zero ou derivá-lo de um recurso Complemento de faturamento eletrônico existente.
+2. No espaço de trabalho **Recursos de globalização** na seção **Recursos**, selecione o bloco **Faturamento eletrônico**.
+3. Na página **Recursos de Faturamento eletrônico**, selecione **Importar** para importar a configuração do modelo de dados ER do Repositório global.
+4. Selecione **Adicionar** para criar um recurso de Faturamento eletrônico. Você pode criar o recurso do zero ou derivá-lo de um recurso de Faturamento eletrônico existente.
 
-    ![Adicionar um recurso Complemento de faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Adicionar um recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
-> Quando você cria um novo recurso Complemento de faturamento eletrônico, ele tem um número de versão e o status padrão é definido como **Rascunho**.
+> Quando você cria um novo recurso de Faturamento eletrônico, ele tem um número de versão e o status padrão é definido como **Rascunho**.
 
 ### <a name="configurations"></a>Configurações
 
-As configurações contêm as configurações de formato ER que são necessárias para transformações e para criar os arquivos que serão trocados durante a comunicação com serviços Web de terceiros. Um recurso Complemento de faturamento eletrônico pode ter tantas configurações de formato de arquivo ER quantas forem necessárias, com base na especificação técnica de integração fornecida pelo provedor de serviços Web.
+As configurações contêm as configurações de formato ER que são necessárias para transformações e para criar os arquivos que serão trocados durante a comunicação com serviços Web de terceiros. Um recurso de Faturamento eletrônico pode ter tantas configurações de formato de arquivo ER quanto forem necessárias, com base na especificação técnica de integração fornecida pelo provedor de serviços Web.
 
-Siga estas etapas para adicionar formatos ER ao recurso Complemento de faturamento eletrônico.
+Siga estas etapas para adicionar formatos ER ao recurso de Faturamento eletrônico.
 
-1. Na página **Recursos de Complemento de faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar** para adicionar configurações de formato de arquivo ER file para o recurso de Complemento de faturamento eletrônico.
+1. Na página **Recursos de Faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar** para adicionar configurações de formato de arquivo ER para o recurso de Faturamento eletrônico.
 
-    ![Adicionar configurações do recurso de Complemento de faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Adicionar configurações do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
-    > Ao criar um recurso de Complemento de faturamento eletrônico do zero, você deve adicionar manualmente todas as configurações de formato de arquivo ER. Quando você deriva um recurso de complemento de faturamento eletrônico de um recurso existente, as configurações de formato de arquivo ER são criadas automaticamente, pois são herdadas do recurso de complemento de faturamento eletrônico original.
+    > Ao criar um recurso de Faturamento eletrônico do zero, você deve adicionar manualmente todas as configurações de formato de arquivo ER. Quando você deriva um recurso de Faturamento eletrônico de um recurso existente, as configurações de formato de arquivo ER são criadas automaticamente, pois são herdadas do recurso de Faturamento eletrônico original.
 
 2. Selecione **Editar** para abrir a página **Designer de formato**, na qual você pode editar a configuração de formato de arquivo ER.
 
-    ![Editar configurações do recurso Complemento de faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Editar configurações do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Enquanto você edita o formato, o status da versão da configuração é definido como **Rascunho**.
 
-3. Use a página **Designer de formato** para alterar a configuração de formato de arquivo. Para obter mais informações, consulte [Criar configurações do documento eletrônico](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration).
+3. Use a página **Designer de formato** para alterar a configuração de formato de arquivo. Para obter mais informações, consulte [Criar configurações do documento eletrônico](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Página do designer de formatos](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![Página do designer de formatos.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>Configurações do recurso
 
-As configurações de recursos encapsulam as regras de comunicação e segurança com um serviço Web de terceiros. Um recurso Complemento de faturamento eletrônico pode ter a quantidade de configurações de recursos necessárias, com base na regra comercial que você deseja realizar.
+As configurações de recursos encapsulam as regras de comunicação e segurança com um serviço Web de terceiros. Um recurso de Faturamento eletrônico pode ter a quantidade de configurações de recursos necessárias, com base na regra comercial que você deseja realizar.
 
-Siga estas etapas para adicionar configurações de recurso ao recurso Complemento de faturamento eletrônico.
+Siga estas etapas para adicionar configurações de recurso ao recurso de Faturamento eletrônico.
 
-1. Na página **Recursos de Complemento de faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar** para adicionar configurações de recurso para o recurso de Complemento de faturamento eletrônico.
+1. Na página **Recursos de Faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar** para adicionar configurações de recurso para o recurso de Faturamento eletrônico.
 
-    ![Adicionar configurações de recurso Complemento de faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Adicionar configurações do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
-    > Ao criar um recurso de Complemento de faturamento eletrônico do zero, você deve adicionar manualmente todas as configurações de recurso necessárias. Quando você deriva um recurso de Complemento de faturamento eletrônico de um recurso existente, todas as configurações de recurso são criadas automaticamente, pois são herdadas do recurso de Complemento de faturamento eletrônico original.
+    > Ao criar um recurso de Faturamento eletrônico do zero, você deve adicionar manualmente todas as configurações de recurso necessárias. Quando você deriva um recurso de Faturamento eletrônico de um recurso existente, todas as configurações de recurso são criadas automaticamente, pois são herdadas do recurso de Faturamento eletrônico original.
 
 2. Selecione **Editar** para editar a configuração da versão do recurso.
 
-    ![Editar configurações de recurso Complemento de faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Editar configurações do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Use a página **Configuração de versão do recurso** para configurar ações, regras de aplicabilidade e variáveis.
 
-    ![Ações, regras de aplicabilidade e variáveis](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![Ações, regras de aplicabilidade e variáveis.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
 ### <a name="actions"></a>Ações
 
-As ações são uma lista predefinida de operações que são executadas em ordem sequencial. Esta lista representa a divisão das etapas necessárias para a execução total do recurso de Complemento de faturamento eletrônico. As ações podem ser encapsuladas, no mesmo recurso de Complemento de faturamento eletrônico, comunicação nas duas direções: enviar uma solicitação para um destino, receber uma resposta e analisar o conteúdo.
+As ações são uma lista predefinida de operações que são executadas em ordem sequencial. Esta lista representa a divisão das etapas necessárias para a execução total do recurso de Faturamento eletrônico. As ações podem ser encapsuladas, no mesmo recurso de Faturamento eletrônico, comunicação nas duas direções: enviar uma solicitação para um destino, receber uma resposta e analisar o conteúdo.
 
 Cada ação contém uma lista predefinida de parâmetros necessários para a ação que cumprirá a finalidade. Parâmetros adicionais podem ser fornecidos opcionalmente.
 
@@ -116,7 +113,7 @@ Na página **Configuração de versões do recurso**, na guia **Ações**, na Gu
 - Selecione **Novo** ou **Excluir** para adicionar novas ações ou excluir ações existentes.
 - Selecione **Para cima** ou **Para baixo** para mover ações selecionadas para cima ou para baixo na grade e alterar a ordem em que são executadas. As ações são executadas na ordem em que aparecem na grade, de cima para baixo.
 
-![Gerenciar ações](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![Gerenciar ações.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 A tabela a seguir descreve os campos disponíveis na Guia Rápida **Ações**.
 
@@ -132,7 +129,7 @@ A tabela a seguir descreve os campos disponíveis na Guia Rápida **Ações**.
 
 A Guia Rápida **Parâmetros** lista os parâmetros para a ação selecionada na Guia Rápida **Ações**.
 
-![Guia Rápida Parâmetros](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![Guia Rápida Parâmetros.](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 A tabela a seguir descreve os campos disponíveis na Guia Rápida **Parâmetros**.
 
@@ -256,26 +253,26 @@ Os parâmetros disponíveis variam de acordo com a ação selecionada na Guia R�
 
 ### <a name="applicability-rules"></a>Regras de aplicabilidade
 
-As regras de aplicabilidade permitem criar regras lógicas que determinam o contexto de uso da configuração do recurso. Dessa forma, a correspondência entre o contexto fornecido pelo documento comercial enviado para processamento, juntamente com os critérios da regra de aplicabilidade, determina qual recurso de complemento eletrônico de faturamento é usado para processar esse envio.
+As regras de aplicabilidade permitem criar regras lógicas que determinam o contexto de uso da configuração do recurso. Dessa forma, a correspondência entre o contexto fornecido pelo documento comercial enviado para processamento, juntamente com os critérios da regra de aplicabilidade, determina qual recurso de faturamento eletrônico é usado para processar esse envio.
 
 #### <a name="set-up-applicability-rules"></a>Configurar regras de aplicabilidade
 
 1. Na página **Configuração de versão do recurso**, na guia **Regras de aplicabilidade**, selecione **Novo** para adicionar uma regra de aplicabilidade.
 
-    ![Gerenciar regras de aplicabilidade](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![Gerenciar regras de aplicabilidade.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. Na grade, selecione as cláusulas que devem ser agrupadas.
 3. Selecione **Agrupar cláusula**.
 
-    ![Agrupar cláusulas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![Agrupar cláusulas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     Quando as cláusulas são agrupadas, uma nova coluna é adicionada à grade. Esta coluna especifica o operador lógico para as cláusulas agrupadas.
 
-    ![Operador lógico para cláusulas agrupadas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![Operador lógico para cláusulas agrupadas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 Para desagrupar cláusulas, selecione as cláusulas agrupadas para desagrupá-las e selecione **Desagrupar cláusula**.
 
-![Desagrupar cláusulas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![Desagrupar cláusulas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > Ao desagrupar uma cláusula, sempre inicie do nível de agrupamento mais interno.
@@ -291,13 +288,13 @@ A tabela a seguir descreve os campos disponíveis na guia **Regras de aplicabili
 
 ### <a name="variables"></a>Variáveis
 
-Você pode criar variáveis e usá-las como o valor de entrada para um parâmetro de uma ação específica. Você também pode usá-las para trocar informações, entre os serviços de Complemento de faturamento eletrônico e o cliente, são o resultado da execução de uma ação específica como parte do fluxo de envios.
+Você pode criar variáveis e usá-las como o valor de entrada para um parâmetro de uma ação específica. Você também pode usá-las para trocar informações, entre os serviços de Faturamento eletrônico e o cliente, que são o resultado da execução de uma ação específica como parte do fluxo de envios.
 
 #### <a name="set-up-variables"></a>Configurar variáveis
 
 - Na página **Configuração de versão do recurso**, na guia **Variáveis**, selecione **Nova** ou **Excluir** para gerenciar variáveis.
 
-    ![Gerenciar variáveis](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![Gerenciar variáveis.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 A tabela a seguir descreve os campos disponíveis na guia **Variáveis**.
 
@@ -313,51 +310,54 @@ A tabela a seguir descreve os campos disponíveis na guia **Variáveis**.
 
 - Na página **Configuração de versão do recurso**, no Painel de Ações, selecione **Validar** para validar a configuração da versão do recurso.
 
-   ![Selecionar o botão Validar](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![Selecionar o botão Validar.](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 A validação verifica a consistência da configuração inteira. Por exemplo, se um parâmetro específico de uma ação for obrigatório, mas seu valor permanecer em branco, a validação detectará essa inconsistência e você receberá um aviso.
 
 ## <a name="environments"></a>Ambientes
 
-Um ambiente Complemento de faturamento eletrônico deve estar associado ao recurso Complemento de faturamento eletrônico e habilitado para ele. Os ambientes Complemento de faturamento eletrônico devem ser criados e publicados previamente, por meio da configuração de Recursos de globalização na conta RCS da organização.
+Um ambiente de Faturamento eletrônico deve estar associado ao recurso de Faturamento eletrônico e habilitado para ele. Os ambientes de Faturamento eletrônico devem ser criados e publicados previamente, por meio da configuração de Recursos de globalização na conta RCS da organização.
 
-Siga estas etapas para habilitar um ambiente Complemento de faturamento eletrônico para o recurso Complemento de faturamento eletrônico.
+Siga estas etapas para habilitar um ambiente de Faturamento eletrônico para o recurso de Faturamento eletrônico.
 
-1. Na página **Recursos de Complemento de faturamento eletrônico**, na guia **Ambientes**, selecione **Habilitar** para adicionar um ambiente Complemento de faturamento eletrônico.
+1. Na página **Recursos de Complemento de faturamento eletrônico**, na guia **Ambientes**, selecione **Habilitar** para adicionar um ambiente de Faturamento eletrônico.
 2. No campo **Efetivo a partir de**, insira a data em que o novo ambiente entra em vigor.
 
-![Habilitar um ambiente de Complemento de faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Habilitar um ambiente de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Organizações
 
-O recurso Complemento de faturamento eletrônico pode ser compartilhado entre várias organizações.
+O recurso de Faturamento eletrônico pode ser compartilhado entre várias organizações.
 
-- Na página **Recursos de Complemento de faturamento eletrônico**, na guia **Organizações**, selecione **Compartilhar com** para adicionar a organização com a qual deseja compartilhar o recurso de Complemento de faturamento eletrônico.
+- Na página **Recursos de Faturamento eletrônico**, na guia **Organizações**, selecione **Compartilhar com** para adicionar a organização com a qual deseja compartilhar o recurso de Faturamento eletrônico.
 
-Para interromper o compartilhamento do recurso de Complemento de faturamento eletrônico com a organização, selecione **Descompartilhar**.
+Para interromper o compartilhamento do recurso de Faturamento eletrônico com a organização, selecione **Descompartilhar**.
 
 ## <a name="versions"></a>Versões
 
-As versões gerenciam o status para ajudar a controlar o ciclo de vida do recurso de Complemento de faturamento eletrônico. Você pode criar uma nova versão de um recurso de Complemento de faturamento eletrônico existente ou, quando todas as configurações do recurso Complemento de faturamento eletrônico forem concluídas, poderá alterar o status do recurso para **Concluir** e, depois, para **Publicar**.
+As versões gerenciam o status para ajudar a controlar o ciclo de vida do recurso de Faturamento eletrônico. Você pode criar uma nova versão de um recurso de Faturamento eletrônico existente ou, quando todas as configurações do recurso de Faturamento eletrônico forem concluídas, poderá alterar o status do recurso para **Concluir** e, depois, para **Publicar**.
 
-### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Criar uma nova versão de um recurso Complementar de faturamento eletrônico existente
+### <a name="create-a-new-version-of-an-existing-electronic-invoicing-feature"></a>Criar uma nova versão de um recurso de Faturamento eletrônico existente
 
-1. Na página **Recursos de Complemento de faturamento eletrônico**, na grade à esquerda, selecione o recurso de Complemento de faturamento eletrônico.
-2. Na guia **Versões**, selecione **Novo** para adicionar uma nova versão do recurso Complemento de faturamento eletrônico.
+1. Na página **Recursos de Faturamento eletrônico**, na grade à esquerda, selecione o recurso de Faturamento eletrônico.
+2. Na guia **Versões**, selecione **Novo** para adicionar uma nova versão do recurso de Faturamento eletrônico.
 
-### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Alterar o status do recurso Complemento de faturamento eletrônico
+### <a name="change-the-status-of-the-electronic-invoicing-feature"></a>Alterar o status do recurso de Faturamento eletrônico
 
-Siga estas etapas para gerenciar o ciclo de vida do recurso Complemento de faturamento eletrônico.
+Siga estas etapas para gerenciar o ciclo de vida do recurso de Faturamento eletrônico.
 
-1. Na página **Recursos de Complemento de faturamento eletrônico**, na grade à esquerda, selecione o recurso de Complemento de faturamento eletrônico.
+1. Na página **Recursos de Faturamento eletrônico**, na grade à esquerda, selecione o recurso de Faturamento eletrônico.
 2. Na guia **Versões**, selecione **Alterar status** e altere o status de **Rascunho** para **Concluído**.
-3. Você é solicitado a confirmar que deseja preencher o recurso Complemento de faturamento eletrônico e todos os componentes dele. Selecione **Sim** para confirmar a ação ou **Não** para cancelá-la.
+3. Você é solicitado a confirmar que deseja preencher o recurso de Faturamento eletrônico e todos os componentes dele. Selecione **Sim** para confirmar a ação ou **Não** para cancelá-la.
 
     > [!NOTE]
-    > Quando você seleciona **Sim**, o status das versões de configuração, que são componentes do recurso Complemento de faturamento eletrônico, é alterado automaticamente de **Rascunho** para **Concluído**.
+    > Quando você seleciona **Sim**, o status das versões de configuração, que são componentes do recurso de Faturamento eletrônico, é alterado automaticamente de **Rascunho** para **Concluído**.
 
 4. Selecione **Alterar status** e altere o status de **Concluir** para **Publicar**.
-5. Você é solicitado a confirmar que deseja publicar o recurso Complemento de faturamento eletrônico e todos os componentes dele para o Repositório global. Selecione **Sim** para confirmar a ação ou **Não** para cancelá-la.
+5. Você é solicitado a confirmar que deseja publicar o recurso de Faturamento eletrônico e todos os componentes dele para o Repositório global. Selecione **Sim** para confirmar a ação ou **Não** para cancelá-la.
 
     > [!NOTE]
     > Quando você seleciona **Sim**, o status das versões da configuração é alterado automaticamente de **Concluído** para **Compartilhado**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

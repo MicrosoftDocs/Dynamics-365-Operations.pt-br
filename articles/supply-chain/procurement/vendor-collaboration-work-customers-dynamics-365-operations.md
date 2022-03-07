@@ -2,40 +2,36 @@
 title: ​Colaboração de fornecedores com clientes​
 description: Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com OCs e para monitorar o estoque em consignação.
 author: TaylorVH
-manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
-ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654331"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022965"
 ---
 # <a name="vendor-collaboration-with-customers"></a>​Colaboração de fornecedores com clientes​
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 Supply Chain Management. Os fornecedores podem concluir uma série de processos de negócios dos espaços de trabalho a seguir:
 
 - **Confirmação de ordem de compra** – Monitora e responde às ordens de compra (OCs).
 - **Lance do fornecedor** – Exibe solicitações de quotações (RFQs) e as responde inserindo lances.
 - **Informações de fornecedor** – Exibe e atualiza dados mestre do fornecedor.
-- **Faturamento** – Trabalha com faturas. Este tópico não cobre o espaço de trabalho **Faturamento**. Para obter mais informações sobre este espaço de trabalho, consulte [Espaço de trabalho de faturamento da colaboração de fornecedores](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Faturamento** – Trabalha com faturas. Este tópico não cobre o espaço de trabalho **Faturamento**. Para obter mais informações sobre este espaço de trabalho, consulte [Espaço de trabalho de faturamento da colaboração de fornecedores](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Os fornecedores também podem monitoram informações sobre o estoque em consignação.
 
@@ -82,7 +78,7 @@ Se estiver usando o estoque em consignação, você poderá usar a interface de 
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Trabalhando com RFQs (solicitações de cotação) no espaço de trabalho de lance do fornecedor
 
-O espaço de trabalho **Lance de fornecedor** permite que você exiba as RFQs (solicitações de cotação) que sua empresa foi convidada a responder. Você também pode responder às RFQs (solicitações de cotação). 
+O espaço de trabalho **Lance de fornecedor** permite que você exiba as RFQs (solicitações de cotação) que sua empresa foi convidada a responder. Você também pode responder às RFQs (solicitações de cotação).
 
 O espaço de trabalho também mostra todas as RFQs (solicitações de cotação) que você ganhou ou perdeu. Além disso, se o sistema estiver configurado para o setor público, o espaço de trabalho mostrará as RFQs que estão disponíveis publicamente.
 
@@ -104,9 +100,17 @@ As pessoas que trabalham no setor público podem ver RFQs abertas e expiradas qu
 
 - Selecione o link **Solicitações de cotações em aberto publicadas** para ver uma lista de RFQs abertas disponíveis ao público. Uma RFQ em aberto é aquela que ainda não expirou. Você pode encontrar a data de vencimento e a hora no cabeçalho da RFQ.
 
-    Se você foi convidado para o lance, pode encontrar a mesma RFQ na página **Novos convites do lance**. Às vezes, você quer fazer um lance em uma RFQ em aberto, mas ainda não foi convidado para fazer o lance. Nesse caso, você pode se convidar, desde que o cliente tenha ativado o autoconvite para o caso de RFQ.
+    Se você foi convidado para o lance, pode encontrar a mesma RFQ na página **Novos convites do lance**. Às vezes, você quer fazer um lance em uma RFQ em aberto, mas ainda não foi convidado para fazer o lance. Nesse caso, você pode se convidar, desde que o cliente tenha ativado o autoconvite para o caso de RFQ. 
 
-    Aprimore a acessibilidade do link **Solicitações de cotações em aberto publicadas** ativando o recurso **Exiba o link "Solicitações de cotações em aberto publicadas" como um bloco**. Esse recurso converte o link em um bloco e o move para um local proeminente, de modo que seja fácil de encontrar.
+    A página **Novos convites de lances** pode fornecer um filtro que permite exibir as RFQs abertas e identificar as que contêm linhas que correspondem às categorias de compras aprovadas. Para tornar este filtro disponível, você deve ativar o recurso *Permitir que os fornecedores pesquisem RFQs por categoria de aquisição* em seu sistema. Os administradores podem usar o espaço de trabalho **Gerenciamento de recursos** para verificar o status deste recurso e ativá-lo, se necessário. Lá, o recurso está listado da seguinte maneira:
+
+    - **Módulo:** *Contas a pagar*
+    - **Nome do recurso:** *Permitir que os fornecedores pesquisem RFQs por categoria de aquisição* <!-- KFM: I don't see this here, is this right? -->
+
+    Você pode aprimorar a acessibilidade do link **Solicitações de cotações em aberto publicadas** ativando o recurso *Exiba o link "Solicitações de cotações em aberto publicadas" como um bloco*. Esse recurso converte o link em um bloco e o move para um local proeminente, de modo que seja fácil de encontrar. Os administradores podem usar o espaço de trabalho **Gerenciamento de recursos** para verificar o status deste recurso e ativá-lo, se necessário. (Desde a versão 10.0.21 do Supply Chain Management, o recurso é ativado por padrão.) Nesse caso, o recurso é listado da seguinte maneira:
+
+    - **Módulo:** *Tarefas de compras e fornecimento*
+    - **Nome do recurso:** *Exiba o link "Solicitações de cotações em aberto publicadas" como um bloco*
 
 - Selecione o link **Solicitações de cotações fechadas publicadas** para ver uma lista de RFQs fechadas disponíveis ao público. Uma RFQ fechada é aquela que expirou. Você pode encontrar a data de vencimento e a hora no cabeçalho da RFQ.
 
@@ -147,3 +151,6 @@ As informações acessíveis são o nome do fornecedor, endereço, informações
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

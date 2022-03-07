@@ -1,7 +1,7 @@
 ---
 title: Procurar fornecedores
 description: Aprenda como pesquisar fornecedores com base em critérios específicos.
-author: RichardLuan
+author: mkirknel
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,16 +11,17 @@ ms.technology: ''
 ms.search.form: VendSearchCriterion, VendSearchAddCategory, VendSearchAddReviewCriterionGroup, VendSearchResults, VendSearchAddReviewCriterion
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: riluan
+ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7caa146532d2bce06b009c45da635327766a88d1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bc28deb979fe8dc4e31befe6d4d5f6f91388f13e
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020695"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4422610"
 ---
 # <a name="search-for-vendors"></a>Procurar fornecedores
 

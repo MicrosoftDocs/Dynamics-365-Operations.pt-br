@@ -2,26 +2,23 @@
 title: Configurar e gerar informações de classificação por vencimento de contas a receber
 description: Esta guia ajudará a configurar uma definição do período de classificação por vencimento, para classificar por vencimento saldos do cliente e saldos de exibição na lista de saldos classificados por vencimento, além da página das coleções.
 author: mikefalkner
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 439be64a864056cc19fd156f664a4b90601be040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68d2e4a440ba99e52d715b9e5e3cfd77bb61814f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440370"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816163"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Configurar e gerar informações de classificação por vencimento de contas a receber
 
@@ -59,3 +56,6 @@ Esta guia ajudará a configurar uma definição do período de classificação p
 2. Selecione um cliente com um saldo.
 3. Expanda a área da caixa de dados **Classificação por vencimento** para exibir os saldos classificados por vencimento. A definição do período de classificação por vencimento da caixa de fatos são tiradas da definição do período de classificação por vencimento padrão especificado nos parâmetros. Você pode alterá-la usando o menu Coletar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
