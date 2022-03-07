@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 62808c2e488e2c38b7dedfc258d9f2bf3e78c23c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422528"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209290"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar linhas de BOM e fórmula para o depósito
 
@@ -98,3 +97,6 @@ Você pode liberar a matéria-prima para uma quantidade parcial de mercadorias c
     As unidades disponíveis estão definidas no ID do grupo de sequências da unidade da mercadoria acabada.
 
     Por exemplo, uma mercadoria acabada tem a seguinte conversão de unidades entre as libras (lbs.) e o palete (PL): 1 PL = 100 libras. Para criar uma ordem de produção para 10.000 libras das mercadorias acabadas, você pode liberar matérias-primas para o número de paletes que você pretende produzir. Selecione **PL** como a unidade e um número correspondente no campo **Quantidade**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

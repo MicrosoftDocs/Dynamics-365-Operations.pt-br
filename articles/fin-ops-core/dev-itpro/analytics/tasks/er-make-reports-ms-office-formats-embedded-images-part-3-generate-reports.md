@@ -1,12 +1,10 @@
 ---
 title: Gerar relatórios em formato do Office com imagens incorporadas
-description: As etapas a seguir explicam como um usuário no papel de "Administrador do Sistema" ou "Desenvolvedor de relatório eletrônico" pode criar configurações de Relatório Eletrônico (RE) para gerar os documentos eletrônicos nos formatos do MS Office (Excel e Word) que contenham imagens incorporadas.
+description: Este tópico descreve como criar configurações de relatório eletrônico (ER) para gerar documentos eletrônicos no Excel e Word que contenham imagens incorporadas.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 81b93c14fc4819fffd322a1b364feac3d25a0d24
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684370"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751549"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Gerar relatórios em formato do Office com imagens incorporadas
 
@@ -119,3 +117,6 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
 23. Clique em OK.
     * Revise a saída criada. A saída foi gerada como um documento do Word com imagens incorporadas apresentando o logotipo da empresa, a assinatura de uma pessoa autorizada e o texto selecionado da marca d'água.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

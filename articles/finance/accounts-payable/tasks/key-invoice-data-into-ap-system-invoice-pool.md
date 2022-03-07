@@ -2,25 +2,22 @@
 title: Dados-chave de fatura no sistema de AP usando grupo de faturas
 description: Este tópico descreve como usar o registro de fatura para criar faturas.
 author: abruer
-manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd6de42dda650d42d703e905f8d48f73b9e4afd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b9c54f610e45d288ed58fd209d290d73bfe1ff2f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440298"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820656"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Dados-chave de fatura no sistema de AP usando grupo de faturas
 
@@ -68,3 +65,6 @@ Este tópico descreve como usar o registro de fatura para criar faturas. Use o g
 13. Selecione **Transações**.
 14. Selecione a nota fiscal que você criou. O acúmulo de registro de nota fiscal foi estornada e lançada na conta de despesas apropriada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

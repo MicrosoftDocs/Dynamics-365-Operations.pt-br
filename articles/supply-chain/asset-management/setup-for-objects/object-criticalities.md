@@ -1,12 +1,10 @@
 ---
 title: Tipo de severidade do ativo
 description: O tópico explica os tipos de severidade de ativos no Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: baf2c279a656bd67a0850ef9178e1bc984bb9b8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021695"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351480"
 ---
 # <a name="asset-criticality-types"></a>Tipo de severidade do ativo
 
@@ -42,7 +40,7 @@ Para configurar a severidade, primeiro você cria os tipos de severidade que dev
 4. No campo **Nome**, insira um nome para o tipo de severidade.
 5. No campo **Fator**, insira um fator. Esse fator é usado no cálculo de agendamento da ordem de serviço para determinar o registro de severidade que deve ser usado. (O registro com o fator mais alto será sempre usado). Essa configuração será relevante se, conforme mostrado na ilustração, as linhas de severidade forem criadas com o mesmo valor de severidade.
 
-    ![Página Tipos de severidade](media/23-setup-for-objects.png)
+    ![Página Tipos de severidade.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Configurar severidades de ativo
 
@@ -61,3 +59,6 @@ Para configurar a severidade, primeiro você cria os tipos de severidade que dev
 - A severidade em uma ordem de serviço é recalculada sempre que uma linha da ordem de serviço é adicionada ou excluída.
 - Se uma ordem de serviço contiver vários trabalhos de ordem de serviço, a severidade mais alta, de acordo com o campo **Fator** na página **Tipos de severidade**, sempre será usada na ordem de serviço.
 - Geralmente, a severidade do ativo pode mudar em um período. A severidade pode ser afetada pela compra de novo equipamento, restaurações e assim em diante. Considere a reavaliação das severidades do seu ativo em intervalos regulares (por exemplo, uma vez por ano em anos alternados) para garantir que as definições de severidade correspondam à sua configuração de produção atual.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

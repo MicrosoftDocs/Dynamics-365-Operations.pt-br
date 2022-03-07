@@ -2,9 +2,11 @@
 title: Importar comprovantes usando a entidade Diário geral
 description: Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral.
 author: rcarlson
+manager: AnnBe
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065061"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129590"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importar comprovantes usando a entidade Diário geral
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral.
 
@@ -66,6 +65,3 @@ As seções a seguir descrevem o efeito dessas configurações. Elas também exp
 - Se o campo **Número do comprovante** é definido como **Gerado automaticamente**, a importação não tem êxito. A configuração **Gerado automaticamente** para o campo **Número do comprovante** não é suportado.
 
 Por padrão, a entidade de diário geral usa processamento baseado em conjunto. Depois de avaliar os requisitos de negócios para sua organização, você pode alterar a configuração **Processamento baseado em conjunto** clicando em **Entidades de dados** no espaço de trabalho **Gerenciamento de dados**. Processamento baseado em conjunto é usado para acelerar o processo de importação. Se você não usar o processamento baseado em conjunto, a importação da importação de entidade diário geral será mais lenta.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

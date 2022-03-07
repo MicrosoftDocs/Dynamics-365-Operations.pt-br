@@ -1,28 +1,27 @@
 ---
 title: Página inicial de compras
 description: Este tópico oferece uma lista de tópicos da Ajuda e outros recursos disponíveis para Compras e fornecimento.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 50651
+ms.custom:
+- "50651"
+- intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422465"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565486"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de compras
 
@@ -77,21 +76,20 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Criar uma ordem de compra repetida](tasks/create-repeat-purchase-order.md)
 -   [Criar uma ordem de compra de uma ordem de venda](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Criar itens suplementares para uma ordem de compra](tasks/create-purchase-order-one-time-supplier.md)
--   [Criar uma ordem de compra com um agendamento de entrega](tasks/create-purchase-order-delivery-schedule.md)
--   [Criar uma ordem de compra de devolução](tasks/create-purchase-return-order.md)
--   [Criar uma ordem de liberação de compra de um contrato de compra](tasks/create-purchase-release-order-purchase-agreement.md)
--   [Criar uma ordem de liberação de compra durante a criação da ordem de compra](tasks/create-purchase-release-order-creating-purchase-order.md)
--   [Criar nova ordem de reabastecimento de consignação](../inventory/tasks/create-consignment-replenishment-order.md)
+-   [Criar uma ordem de compra com uma agenda de entrega](tasks/create-purchase-order-delivery-schedule.md)
+-   [Criar uma ordem de devolução de compra](tasks/create-purchase-return-order.md)
+-   [Aplicar um contrato de compra ao criar uma ordem de compra](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [Criar uma ordem de reabastecimento de consignação](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>Preços e descontos
 -   [Contratos de compra](purchase-agreements.md)
 -   [Criar um contrato de compra](tasks/create-purchase-agreement.md)
--   [Descontos de fornecedor](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (white paper)
+-   [Descontos de fornecedor](/dynamics/s-e/) (white paper)
 
 ## <a name="product-receipt-and-invoicing"></a>Recebimento e faturamento de produtos
 -   [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
--   [Visão geral de faturas de fornecedor](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Perfis de lançamentos de fornecedores](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Visão geral de faturas de fornecedor](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Perfis de lançamentos de fornecedores](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Fluxos de trabalho de compras
 -   [Visão geral de compras](procurement-sourcing-overview.md)
@@ -104,3 +102,6 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

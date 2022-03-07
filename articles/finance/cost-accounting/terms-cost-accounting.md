@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 948beb7baa19c69530dca52b5d4c119b69f8f011
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6090cb50b603bbfe3947f579e072627e08730a10
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440481"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208622"
 ---
 # <a name="cost-accounting-terminology"></a>Terminologia de contabilidade de custos
 
@@ -205,3 +204,6 @@ Demonstrativos são exibições para os gerentes responsáveis pelo controle de 
 As versões são usadas para simular, exibir e comparar vários resultados. Por padrão, todos os custos reais são exibidos em uma versão base que é conhecida como *real*. No tocante a orçamentos e cálculos, é possível trabalhar com quantas versões forem necessárias. Por exemplo, você pode importar dados orçamentários para uma versão original e depois revisar o orçamento em uma versão revisada. Para cálculos, você pode criar várias versões. Nessas versões, é possível criar os cálculos usando diferentes regras de cálculo que serão aplicadas na alocação de custos.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

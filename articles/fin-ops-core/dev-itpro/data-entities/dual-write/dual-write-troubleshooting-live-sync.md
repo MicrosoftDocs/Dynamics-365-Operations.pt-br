@@ -2,11 +2,9 @@
 title: Solucionar problemas de sincronização ao vivo
 description: Este tópico fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas com a sincronização dinâmica.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: c7de5e6b8c4111b13585cf0f3c58a8f78eb18f73c01294f660b106e13774848f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744604"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756344"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronização ao vivo
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse. Especificamente, ele fornece informações que podem ajudá-lo a corrigir problemas com a sincronização dinâmica.
 
@@ -75,21 +71,21 @@ Se houver dados em ambos os lados e você tiver confirmado que o problema não �
 
 Você pode receber uma mensagem de erro de "solicitação incorreta" que se assemelha ao exemplo a seguir ao criar dados em um aplicativo Finance and Operations.
 
-![Exemplo da mensagem inválida de erro de solicitação](media/error_record_id_source.png)
+![Exemplo da mensagem inválida de erro de solicitação.](media/error_record_id_source.png)
 
 Para corrigir o problema, você deve atribuir o direito de acesso correto à equipe da unidade de negócios do Dynamics 365 Sales ou do Dynamics 365 Customer Service mapeada para habilitar o privilégio ausente.
 
 1. No aplicativo Finance and Operations, localize a unidade de negócios mapeada no conjunto de conexões de integração de dados.
 
-    ![Mapeamento da organização](media/mapped_business_unit.png)
+    ![Mapeamento da organização.](media/mapped_business_unit.png)
 
-2. Faça login no ambiente no aplicativo controlado por modelo no Dynamics 365, navegue até **Definir segurança do \>**, e encontre a equipe da unidade de negócios mapeada.
+2. Faça login no ambiente no aplicativo de interação com o cliente, navegue até **Configurações \> Segurança** e encontre a equipe da unidade de negócios mapeada.
 
-    ![Equipe da unidade de negócios mapeada](media/setting_security_page.png)
+    ![Equipe da unidade de negócios mapeada.](media/setting_security_page.png)
 
 3. Abra a página da equipe para edição, e depois selecione **Gerenciar funções** para abrir a caixa de diálogo **Gerenciar funções de equipe**.
 
-    ![Gerenciar botão de funções](media/manage_team_roles.png)
+    ![Gerenciar botão de funções.](media/manage_team_roles.png)
 
 4. Atribua a função que tem o privilégio de leitura/gravação para as tabelas relevantes e selecione **OK**.
 
@@ -101,7 +97,7 @@ Você pode receber a seguinte mensagem de erro ao criar dados em um aplicativo F
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Unable para gerar carga de trabalho para a entidade CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Criação de carga de trabalho falhada com erro de URI inválido: O URI está vazio."}\],"isErrorCountUpdated":true}*
 
-Esta é a aparência do erro no aplicativo baseado em modelo no Dynamics 365:
+Veja como é uma mensagem de erro no aplicativo de interação com o cliente:
 
 *Ocorreu um erro inesperado no código do ISV. (ErrorType = ClientError) Exceção inesperada do plug-in (Executar): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: falha ao processar conta da entidade — (Houve falha em uma tentativa de conexão porque a parte conectada não respondeu adequadamente após um período de tempo ou houve falha na conexão estabelecida porque o host não respondeu*
 
@@ -127,3 +123,5 @@ Para corrigir o problema, siga estas etapas.
 
 3. Verifique se a coluna **externalenvironmentURL** tem o Dataverse correto ou URL de aplicativo. Exclua as linhas duplicadas que apontam para a URL de Dataverse errada. Exclua as linhas correspondentes nas tabelas DUALWRITEPROJECTFIELDCONFIGURATION e DUALWRITEPROJECTCONFIGURATION.
 4. Interrompa o mapeamento de tabela e reinicie-o
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

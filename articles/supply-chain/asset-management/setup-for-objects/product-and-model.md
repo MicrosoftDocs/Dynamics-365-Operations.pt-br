@@ -1,12 +1,10 @@
 ---
 title: Fabricantes e modelos de ativo
 description: Este tópico explica como configurar fabricantes de ativo e modelos relacionados no Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetProductLookup, EntAssetModelLookup, EntAssetProduct
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1eca3112b95bc7d1a049f101fc1d461272a63aa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 80fcb493d96209d78f842414c198a8275e4818ba365759466034faf5f3405540
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739889"
 ---
 # <a name="asset-manufacturers-and-models"></a>Fabricantes e modelos de ativo
 
@@ -59,3 +57,6 @@ Este tópico explica como configurar fabricantes de ativo e modelos relacionados
 2. Na coluna **Ativo**, selecione o link para o ativo. A página **Detalhes** aparece.
 3. Selecione **Editar**.
 4. Na Guia Rápida **Geral**, selecione valores nos campos **Fabricante** e **Modelo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,16 +15,17 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f6359f41f3b97325db4fda083dc32d39839811297a96a1f2d99a93990c00afae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7bae4ae7c2f3367132b03accb31c01c5f3b673e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747456"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937562"
 ---
 # <a name="check-in-for-pickup-module"></a>Fazer check-in para o módulo de retirada
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico descreve o check-in do módulo de retirada e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 

@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -14,17 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 859f039a928cdc57c9f227885d0f00ef79980f28
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 906a391b3c28d15445f6ddf0fc547ebcf842ba19
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070391"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881751"
 ---
 # <a name="reset-stuck-batch-jobs"></a>Redefinir trabalhos em lote presos
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,11 +47,11 @@ Quando um trabalho em lotes está preso em um estado **Executando** ou **Cancela
 
 5. Na página **Selecionar novo status**, selecione **Aguardando** e depois **OK**.
 
-   ![Selecionar um novo status de trabalho em lotes.](./media/hr-admin-reset-batch-job-status.png)
+   ![Selecionar um novo status de trabalho em lotes](./media/hr-admin-reset-batch-job-status.png)
 
 ## <a name="see-also"></a>Consulte também
 
-[Otimizar o desempenho ao agendar trabalhos em lote após o expediente](hr-admin-troubleshooting-batch-jobs.md)<br>
+[Otimizar o desempenho ao agendar trabalhos em lotes após o expediente](hr-admin-troubleshooting-batch-jobs.md)<br>
 [Otimizar o desempenho com tarefas de limpeza automática](hr-admin-troubleshooting-batch-history.md)
 
 

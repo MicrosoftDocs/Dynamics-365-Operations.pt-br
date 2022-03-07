@@ -2,26 +2,23 @@
 title: Configurar políticas de consolidação de remessa
 description: Este tópico explica como configurar políticas de consolidação de remessa padrão e personalizadas.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, TMSMode, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f2705300925ae475f00861327b9cea9a97416011
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422527"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578671"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar políticas de consolidação de remessa
 
@@ -58,14 +55,14 @@ Ao iniciar este procedimento, o recurso *Políticas de consolidação de remessa
 
 Siga estas etapas para configurar políticas de consolidação de remessa padrão em um ambiente em que os depósitos já foram configurados para consolidação de ordem cruzada.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Na lista, localize e abra o registro de depósito desejado (por exemplo, depósito *24* nos dados de demonstração **USMF**).
 1. No Painel de Ações, selecione **Editar**.
 1. Na Guia Rápida **Depósito**, defina a opção **Consolidar a remessa na liberação para o depósito** como *Sim*.
 1. Repita as etapas 2 a 4 para todos os outros depósitos nos quais a consolidação é necessária.
 1. Feche a página.
 1. Use o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso *Políticas de consolidação de remessa*. No espaço de trabalho **Gerenciamento de recursos**, o recurso é chamado *Consolidar remessa*.
-1. Vá para **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**. Talvez seja necessário atualizar o navegador para ver o novo item de menu **Políticas de consolidação de remessa** depois que você ativar o recurso.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**. Talvez seja necessário atualizar o navegador para ver o novo item de menu **Políticas de consolidação de remessa** depois que você ativar o recurso.
 1. No Painel de Ações, selecione **Criar configuração padrão** para criar as seguintes políticas:
 
     - Uma política **CrossOrder** para o tipo de política *Ordens de venda* (desde que haja pelo menos um depósito configurado para usar o recurso de consolidação anterior)
@@ -85,7 +82,7 @@ Siga estas etapas para configurar políticas de consolidação de remessa padrã
 Siga estas etapas para configurar políticas de consolidação de remessa padrão em um ambiente totalmente novo.
 
 1. Use o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso *Políticas de consolidação de remessa*, caso ainda não tenha ativado esse recurso. No espaço de trabalho **Gerenciamento de recursos**, o recurso é chamado *Consolidar remessa*.
-1. Vá para **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. No Painel de Ações, selecione **Criar configuração padrão** para criar as seguintes políticas:
 
     - Uma política **padrão** para o tipo de política *Ordens de venda*
@@ -108,7 +105,7 @@ Use o gerenciamento de recursos para ativar o recurso, caso ainda não tenha sid
 
 #### <a name="create-two-new-product-filter-codes"></a>Criar dois novos códigos de filtro de produtos
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Filtros de produtos \> Filtros de produtos** e adicionar dois filtros de produtos:
+1. Acesse **Gerenciamento de depósito \> Configuração \> Filtros de produtos \> Filtros de produtos** e adicionar dois filtros de produtos:
 
     - Filtro de produto 1:
 
@@ -120,7 +117,7 @@ Use o gerenciamento de recursos para ativar o recurso, caso ainda não tenha sid
         - **Código do filtro:** *Explosivo*
         - **Título do filtro:** *Código 4*
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Abra o produto que tem número de item *M9200*. (O produto selecionado deve estar habilitado para processos de depósito avançado \[WMS\] e este produto é pré-habilitado para processos WMS em dados de demonstração do **USMF**.)
 1. Na Guia Rápida **Depósito**, defina o campo **Código 4** como *Inflamável*.
 1. Feche a página.
@@ -130,9 +127,9 @@ Use o gerenciamento de recursos para ativar o recurso, caso ainda não tenha sid
 
 #### <a name="create-a-new-transportation-mode-of-delivery"></a>Crie um novo modo de transporte de entrega
 
-1. Vá para **Gerenciamento de transporte \> Configuração \> Transportadoras \> Modo**.
+1. Acesse **Gerenciamento de transporte \> Configuração \> Transportadoras \> Modo**.
 1. Crie um modo de transporte que será usado em consultas de consolidação e nomeie-o *Airways*.
-1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
 1. Crie uma transportadora com as seguintes configurações:
 
     - **Transportadora:** *Airways*
@@ -151,13 +148,13 @@ Use o gerenciamento de recursos para ativar o recurso, caso ainda não tenha sid
 
 #### <a name="create-an-order-pool"></a>Crie um grupo de ordens
 
-1. Vá para **Vendas e marketing \> Configuração \> Ordens de venda \> Grupos de ordens**.
+1. Acesse **Vendas e marketing \> Configuração \> Ordens de venda \> Grupos de ordens**.
 1. Crie um grupo de ordens que será usado para a consulta de consolidação. Esse grupo de ordens deve ter as seguintes configurações:
 
     - **Grupo:** Insira um número inteiro que não esteja sendo usado por outro grupo.
     - **Nome:** *ShipCons*
 
-1. Vá para **Vendas e marketing \> Clientes \> Todos os clientes**.
+1. Acesse **Vendas e marketing \> Clientes \> Todos os clientes**.
 1. Abra o cliente que tem número de conta *US-003*.
 1. Na Guia Rápida **Padrões da ordem de venda**, defina o campo **Grupo de ordens de venda** como o grupo de ordens que você acabou de criar.
 1. Feche a página e, depois, repita as etapas 4 e 5 para o cliente que tem número de conta *US-004*.
@@ -172,7 +169,7 @@ Neste exemplo, você criará uma política *Cliente+Modo* que pode ser usada par
 
 Siga as etapas a seguir para criar a política de consolidação de remessa para este caso de negócios.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. Defina o campo **Tipo de política** como *Ordens de venda*.
 1. No Painel de Ações, selecione **Novo** para criar uma política com as seguintes configurações:
 
@@ -182,7 +179,7 @@ Siga as etapas a seguir para criar a política de consolidação de remessa para
 1. Mantenha a opção **Consolidar com remessas abertas** definida como *Não*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo Editor de consultas, na guia **Intervalo**, na grade, localize a linha na qual o campo **Campo** está definido como *Conta de cliente* e defina o campo **Critérios** dessa linha como *US-001*.
 1. Selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:
@@ -207,7 +204,7 @@ Neste exemplo, você criará uma política *Mercadorias perigosas* que pode ser 
 
 Siga as etapas a seguir para criar a política de consolidação de remessa para este caso de negócios.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. Defina o campo **Tipo de política** como *Ordens de venda*.
 1. No Painel de Ações, selecione **Novo** para criar uma política com as seguintes configurações:
 
@@ -217,7 +214,7 @@ Siga as etapas a seguir para criar a política de consolidação de remessa para
 1. Defina a opção **Consolidar com remessas abertas** como *Sim*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consultas, na guia **Junções**, expanda e selecione **Tabelas \> Carregar detalhes** na árvore.
 1. Selecione **Adicionar junção de tabela**.
@@ -244,7 +241,7 @@ Neste exemplo, você criará uma política *Requisitos de clientes* que pode ser
 
 Siga as etapas a seguir para criar a política de consolidação de remessa para este caso de negócios.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. Defina o campo **Tipo de política** como *Ordens de venda*.
 1. No Painel de Ações, selecione **Novo** para criar uma política com as seguintes configurações:
 
@@ -254,9 +251,9 @@ Siga as etapas a seguir para criar a política de consolidação de remessa para
 1. Defina a opção **Consolidar com remessas abertas** como *Sim*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Requisição do cliente*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. Na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, localize a linha na qual o campo **Campo** está definido como *Conta de cliente* e defina o campo **Critérios** dessa linha como *US-001*.
 1. Selecione **OK** para fechar a caixa de diálogo.
@@ -276,7 +273,7 @@ Neste exemplo, você criará uma política *Clientes permitem consolidação* qu
 
 Siga as etapas a seguir para criar a política de consolidação de remessa para este caso de negócios.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. Defina o campo **Tipo de política** como *Ordens de venda*.
 1. No Painel de Ações, selecione **Novo** para criar uma política com as seguintes configurações:
 
@@ -286,7 +283,7 @@ Siga as etapas a seguir para criar a política de consolidação de remessa para
 1. Mantenha a opção **Consolidar com remessas abertas** definida como *Não*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consulta, na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:
 
@@ -310,7 +307,7 @@ Neste exemplo, você criará uma política *Depósitos permitem consolidação* 
 
 Normalmente, esse caso de negócios pode ser resolvido usando as políticas padrão criadas no [cenário 1](#scenario-1). No entanto, você também pode criar manualmente políticas semelhantes seguindo essas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. Defina o campo **Tipo de política** como *Ordens de venda*.
 1. No Painel de Ações, selecione **Novo** para criar uma política com as seguintes configurações:
 
@@ -320,7 +317,7 @@ Normalmente, esse caso de negócios pode ser resolvido usando as políticas padr
 1. Mantenha a opção **Consolidar com remessas abertas** definida como *Não*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, no campo **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, localize a linha na qual o campo **Campo** está definido como *Depósito* e defina o campo **Critérios** dessa linha como *61, 63*.
 1. Selecione **OK** para fechar a caixa de diálogo.
@@ -329,7 +326,7 @@ Normalmente, esse caso de negócios pode ser resolvido usando as políticas padr
 
 Você criou todas as suas políticas e agora deve estabelecer a ordem em que elas serão aplicadas. Para usar uma abordagem de pirâmide, em que as políticas com mais condições são avaliadas como de maior prioridade, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. Defina o campo **Tipo de política** como *Ordens de venda*.
 1. Selecione cada política listada na coluna esquerda e use os botões **Mover para cima** e **Mover para baixo** no Painel de Ações para organizar as políticas na seguinte ordem:
 
@@ -354,3 +351,6 @@ Os cenários a seguir ilustram como você pode usar as políticas de consolidaç
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

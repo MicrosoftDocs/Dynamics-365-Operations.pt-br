@@ -2,11 +2,9 @@
 title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
-manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797481"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344365"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -87,7 +85,7 @@ Algumas das alterações mais comuns e importantes a serem feitas em uma pagina 
 
 Além disso, os tipos mais básicos de personalizações são disponibilizados clicando com o botão direito em um elemento e selecionando **Personalizar**. (Observe que nem todos os elementos na página podem ser personalizados.) Quando você usar esse método de personalização, a *janela de propriedades* do elemento será exibida.
 
-![Personalização de propriedades de um elemento](./media/cli-element-property-window.png)
+![Personalização de propriedades de um elemento.](./media/cli-element-property-window.png)
 
 Você pode usar a janela de propriedades para personalizar um elemento das seguintes maneiras:
 
@@ -100,7 +98,7 @@ Você pode usar a janela de propriedades para personalizar um elemento das segui
 
 A janela de propriedades pode incluir outros recursos de personalização, dependendo do elemento. Por exemplo, a janela de propriedades para um bloco pode permitir que você promova esse bloco para um painel, e as janelas de propriedades para elementos no painel padrão podem permitir que você crie um espaço de trabalho personalizado.
 
-### <a name="the-personalization-toolbar"></a>A barra de ferramentas de personalização
+### <a name="personalization-toolbar"></a>Barra de ferramentas de personalização
 
 Se quiser fazer várias alterações em uma página ou fazer alterações que não estejam disponíveis por meio de outros mecanismos (por exemplo, se você quiser reordenar elementos), você poderá usar a barra de ferramentas **Personalização**. Para abrir a barra de ferramentas **Personalização**, siga uma dessas etapas:
 
@@ -109,7 +107,7 @@ Se quiser fazer várias alterações em uma página ou fazer alterações que n�
 - Selecione **Personalizar esta página** no grupo **Personalizar** da guia **Opções** no Painel de Ação de qualquer página.
 - Selecione o botão **Configurações** (símbolo de engrenagem) na barra de navegação e selecione **Personalizar**.
 
-[![Barra de ferramentas de personalização](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Barra de ferramentas de personalização.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navegação na página
 
@@ -149,7 +147,7 @@ Para algumas páginas que incluem listas, o recurso de personalização **Adicio
 > [!NOTE]
 > Se o recurso [Exibições salvas](saved-views.md) estiver ativado, o conteúdo que você enviar por push para um espaço de trabalho será diretamente vinculado a uma exibição. A consulta da exibição é usada para recuperar dados no espaço de trabalho e o bloco ou link correspondente no espaço de trabalho abre a página nessa exibição, de modo que a consulta e as personalizações da exibição sejam aplicadas a ela. Se o modo de exibição for atualizado, os elementos correspondentes do espaço de trabalho serão ajustados para a nova definição de exibição.
 
-[![Adicionar ao espaço de trabalho](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Adicionar ao espaço de trabalho.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Para adicionar uma lista a um espaço de trabalho, primeiro classifique ou filtre a lista na página de forma que ela mostre as informações como você deseja que apareçam no espaço de trabalho. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Lista**. Após você selecionar **Configurar**, aparecerá uma caixa de diálogo onde você poderá selecionar as colunas que devem aparecer na lista no espaço de trabalho. Você também pode especificar o rótulo usado para a lista no espaço de trabalho.
 - Para adicionar um bloco a um espaço de trabalho, primeiramente filtre a lista na página para que ela mostre os dados que devem ser resumidos ou que você deseja acessar rapidamente. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Bloco**. Após selecionar **Configurar**,uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o bloco no espaço de trabalho. Você também pode especificar se o bloco deve mostrar uma contagem. Depois de ser adicionado ao espaço de trabalho, o bloco poderá ser selecionado para abrir a página atual no espaço de trabalho. Você pode, então, exibir a lista filtrada associada ao bloco.
@@ -171,11 +169,94 @@ Geralmente, o painel é a primeira página que você vê ao abrir o aplicativo. 
 Um recurso de personalização exclusivo disponível no painel é a possibilidade de adicionar blocos. 
 
 - Se o recurso **Aplicativos de página inteira** estiver desativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um espaço de trabalho**. Um novo bloco do espaço de trabalho será criado na parte inferior do painel. Você poderá renomear esse novo bloco do espaço de trabalho como desejar. Você também poderá adicionar listas, blocos e links ao espaço de trabalho, conforme descrito na seção [Adicionando blocos, listas e links a um espaço de trabalho](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) deste tópico.
-- Se o recurso **Aplicativos de página inteira** estiver ativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um aplicativo**. Na caixa de diálogo, selecione se você deseja adicionar um bloco para um novo espaço de trabalho ou um bloco que tenha conteúdo do Power Apps ou de um site. Em seguida, siga as etapas para configurar a opção selecionada. Um novo bloco será criado na parte inferior do painel. 
+- Se o recurso **Aplicativos de página inteira** estiver ativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um aplicativo**. Na caixa de diálogo, selecione se você deseja adicionar um bloco para um novo espaço de trabalho ou um bloco que tenha conteúdo do Power Apps ou de um site. Em seguida, siga as etapas para configurar a opção selecionada. Um novo bloco será criado na parte inferior do painel. Para obter mais informações sobre como adicionar, editar, excluir e compartilhar esses aplicativos inseridos, consulte [Inserir aplicativos de tela do Power Apps](embed-power-apps.md) e [Inserir aplicativos de terceiros](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Como compartilhar personalizações
 
-Após personalizar uma página, você pode compartilhar as personalizações com outros usuários exportando a página personalizada. Você poderá então solicitar que outros usuários importem o arquivo de personalização. Outra opção é ceder suas personalizações a um usuário que possua privilégios de administrador. Esse usuário pode então aplicar seu arquivo de personalização a vários usuários ao mesmo tempo usando a página de administração **Personalização**.
+Após personalizar uma página, há alguns métodos que você pode usar para compartilhar as personalizações com outros usuários. Na lista a seguir, os métodos são organizados em ordem, do mais recomendável ao menos recomendado.
+
+1. Publicar exibições para usuários.
+2. Copiar exibições ou personalizações para usuários.
+3. Exportar e importar exibições ou personalizações.
+
+### <a name="publish-views-to-users"></a>Publicar exibições para usuários
+
+Se o recurso [Exibições salvas](saved-views.md) estiver ativado e se a página der suporte a exibições, a melhor maneira de compartilhar personalizações com outros usuários é publicar a exibição para usuários com uma ou mais funções de segurança. Para obter mais informações, consulte [Publicar exibições](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Copiar exibições ou personalizações para usuários
+
+Se o recurso [Exibições salvas](saved-views.md) estiver desativado ou se a página não der suporte a exibições, a forma recomendável de compartilhar as personalizações será copiá-las entre usuários. Este método está disponível apenas para usuários privilegiados (por exemplo, administradores de sistema). Mas, os administradores podem procurar a personalização de um usuário específico no sistema (incluindo a exibição pessoal do usuário se as exibições salvas estiverem habilitadas) e copiar a configuração para outros usuários.
+
+Se as exibições salvas estiverem habilitadas, siga estas etapas para copiar personalizações.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. Siga estas etapas para copiar exibições pessoais:
+
+    1. Selecione **Exibições pessoais**.
+    2. Selecione as exibições desejadas na lista.
+    3. Selecione **Copiar para usuários**.
+    4. Selecione os usuários para os quais as exibições serão distribuídas.
+
+    Siga estas etapas para copiar personalizações em páginas que não dão suporte a exibições:
+
+    1. Selecione **Configurações do usuário**.
+    2. Selecione o usuário que tem a personalização a ser distribuída.
+    3. Selecione **Gerenciar todas as personalizações**.
+    4. Selecione as personalizações desejadas na lista.
+    5. Selecione **Copiar para usuários**.
+    6. Selecione os usuários para os quais as personalizações serão distribuídas.
+
+Se as exibições salvas não estiverem habilitadas, siga estas etapas para copiar uma personalização.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. Selecione **Aplicar**.
+3. Selecione os usuários para os quais a personalização será distribuída.
+4. Selecione **Selecionar personalização existente**.
+5. Localize e selecione a personalização (única) do seu interesse.
+6. Selecione **OK**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Exportar e importar exibições ou personalizações
+
+Outra maneira de compartilhar personalizações é por meio de exportação e importação. Os usuários individuais, ou um administrador que atua em seu nome, podem usar este método para exportar personalizações ou exibições e, depois, conceder o arquivo exportado a outros usuários para importação. Como alternativa, os usuários podem fornecer personalizações exportadas a um usuário com privilégios administrativos, e esse usuário pode usar a página de administração **Personalização** para aplicar o arquivo de personalização a vários usuários ao mesmo tempo.
+
+#### <a name="export"></a>Exportar
+
+Em geral, você pode exportar uma de suas próprias exibições ou personalizações, abrindo a página apropriada, abrindo a barra de ferramentas **Personalização** e selecionando **Exportar**. Para obter mais informações sobre a barra de ferramentas, consulte a seção [Barra de ferramentas Personalização](#personalization-toolbar) anteriormente neste tópico. Como alternativa, se as [exibições salvas](saved-views.md) estiverem habilitadas, você poderá acessar **Configurações \> Usar opções \> Personalização** para exibir uma lista de todas as suas personalizações no sistema. Deste ponto, você pode selecionar as exibições ou personalizações a serem exportadas e, depois, selecionar **Exportar**.
+
+Além disso, os administradores podem exportar personalizações de outros usuários seguindo essas etapas.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. Na guia **Usuários**, selecione o usuário desejado.
+3. Localize e selecione a exibição ou personalização do seu interesse.
+4. Selecione **Exportar**.
+
+#### <a name="import"></a>Importar
+
+Para importar uma exibição ou personalização, basta abrir a barra de ferramentas **Personalização** e selecionar **Importar**. Além disso, os administradores podem importar um arquivo e logo fornecê-lo a um ou mais usuários.
+
+Se as exibições salvas estiverem habilitadas, siga estas etapas.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. No Painel de Ações, selecione **Importar exibições \> Exibições de usuário**.
+3. Selecione o modo de importação:
+
+    - **Selecione usuários específicos** – conceda a exibição ou a personalização aos usuários selecionados.
+    - **Importar como está** – importe a exibição ou a personalização para o mesmo usuário que a exportou.
+
+4. Selecione **Navegar**, localize e selecione a personalização a ser importada.
+5. Selecione **Avançar**.
+6. Se você selecionou **Selecionar usuários específicos** na etapa 3, selecione os usuários para os quais a personalização será importada.
+7. Selecione **Importar**.
+8. Resolva os conflitos conforme necessário.
+
+Se as exibições salvas não estiverem habilitadas, siga estas etapas.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. Selecione **Aplicar**.
+3. Selecione os usuários para os quais a personalização será distribuída.
+4. Selecione **Importar personalizações de um arquivo**.
+5. Selecione **Navegar**, localize e selecione a personalização a ser importada.
+6. Selecione **OK**.
 
 ## <a name="administration-of-personalizations"></a>Administração de personalizações
 
@@ -186,8 +267,11 @@ Para os clientes que tenham o recurso **Exibições salvas** ativado, consulte a
 Para os clientes que ainda não ativaram o recurso [Exibições salvas](saved-views.md), essa página tem quatro guias:
 
 - **Aplicar** – Você pode importar ou selecionar uma personalização de um ou mais usuários. Para aplicar uma personalização a um ou mais usuários, primeiro selecione uma função e os usuários que tenham essa função. Em seguida, selecione uma personalização existente para aplicar aos usuários selecionados ou importe um arquivo de personalização. A personalização será validada e aplicada a todos os usuários selecionados na próxima vez que eles abrirem a página selecionada.
+
 - **Limpar** – você pode limpar todas as personalizações de uma página ou espaço de trabalho para um ou mais usuários. Primeiro, selecione uma página ou espaço de trabalho para ver uma lista de usuários que personalizaram essa página ou espaço de trabalho. Em seguida, selecione os usuários que devem ter as personalizações dessa página ou espaço de trabalho desmarcadas e selecione **Limpar**. Todas as personalizações que os usuários selecionados aplicaram à página ou ao espaço de trabalho selecionado serão excluídas. Essa ação não pode ser desfeita. Entretanto, se uma personalização tiver sido salva para a página ou o espaço de trabalho, essa personalização poderá ser reimportada.
+
 - **Usuários** – Selecione um usuário para ver a lista de páginas que ele personalizou. Você pode habilitar ou desabilitar a capacidade de o usuário selecionado utilizar personalizações para páginas específicas ou para todo o sistema. Também é possível importar, exportar ou limpar uma personalização para o usuário. Além disso, você pode redefinir o recurso de textos explicativos para o usuário. Nesse caso, se o usuário tiver ignorado anteriormente qualquer janela pop-up que apresentava novos recursos, ela será exibida novamente na próxima vez que ele encontrar esses recursos.
+
 - **Sistema** – É possível desativar temporariamente as personalizações de todos os usuários no sistema. Nesse caso, todas as personalizações são excluídas para todos os usuários e todas as páginas são redefinidos para seu estado padrão. Se, mais tarde, você ativar novamente a personalização, todas as personalizações serão reaplicadas. Também é possível excluir permanentemente todas as personalizações de todos os usuários do sistema. Não é possível recuperar as personalizações que foram excluídas. Portanto, antes de executar essa tarefa, verifique se você exportou todas as personalizações de que talvez precise posteriormente.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalizar dimensões de estoque
@@ -195,3 +279,6 @@ Para os clientes que ainda não ativaram o recurso [Exibições salvas](saved-vi
 Quando você personalizar a configuração de dimensões de estoque em uma página, considere as configurações que foram criadas usando a opção **Dimensões de exibição**. Por exemplo, você usou a personalização para ocultar uma coluna para a dimensão de estoque do número de lote, mas a coluna aparecerá na próxima vez que a página for aberta. Esse comportamento ocorre porque as configurações **Exibição de dimensão** controlam as colunas de dimensão do estoque que são exibidas. As configurações de **Exibição de dimensão** se aplicam a todas as páginas e substituem qualquer configuração personalizada de campos de dimensão de estoque em páginas individuais.
 
 Portanto, no exemplo anterior, se você não deseja que a coluna da dimensão de estoque do número de lote apareça na página, limpe essa dimensão como parte da opção **Exibir dimensões** dessa página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: Autenticação
 description: Este artigo fornece informações gerais sobre como autenticar com a interface de programa aplicativo (API) do Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3396f0ae6d089f43c39f318dc9d92a88a7db3d7c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417216"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070859"
 ---
 # <a name="authentication"></a>Autenticação
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artigo fornece informações gerais sobre como autenticar com a interface de programa aplicativo (API) do Microsoft Dynamics 365 Human Resources.
 
@@ -82,13 +84,13 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Para aplicativos Web, forneça a URL base do aplicativo. Por exemplo, `http://localhost:31544` pode ser a URL de um aplicativo Web executado no seu computador local. Os usuários utilizam esta URL para entrar em um aplicativo cliente Web.
         - Para aplicativos de cliente público, forneça o URI que o Azure AD usa para retornar respostas de token. Insira um valor específico para seu aplicativo, como `myapp://auth`.
 
-        Para ver exemplos específicos para aplicativos Web ou aplicativos nativos, consulte o início rápido na [plataforma de identidades da Microsoft (antes Azure Active Directory para desenvolvedores)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Para ver exemplos específicos para aplicativos Web ou aplicativos nativos, consulte o início rápido na [plataforma de identidades da Microsoft (antes Azure Active Directory para desenvolvedores)](/azure/active-directory/develop/#quickstarts).
 
 5. Em **Permissões de API**, selecione **Adicionar uma permissão**. Em seguida, na guia **APIs que minha organização utiliza**, procure o **Dynamics 365 Human Resources** e adicione a permissão **user\_impersonation** ao seu aplicativo. A ID do aplicativo para Human Resources é f9be0c49-aa22-4ec6-911a-c5da515226ff. Use esta ID para garantir que você escolheu o aplicativo certo.
 
 6. Selecione **Registrar**.
 
-   [![Registrando um novo aplicativo no portal do Azure](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Registrando um novo aplicativo no portal do Azure.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 O Azure AD atribui uma ID de aplicativo exclusiva (ID de cliente) ao seu aplicativo e o leva à página **Visão geral** do seu aplicativo. Para adicionar mais recursos ao aplicativo, você pode selecionar outras opções de configuração, como opções para identificação de marca, certificados e segredos.
 
@@ -185,3 +187,6 @@ namespace TalentODataPoC
 ```
 
 Após recuperar um token de acesso, você passará o token no cabeçalho de autorização como um token de portador com cada solicitação enviada para a API de dados, conforme descrito acima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

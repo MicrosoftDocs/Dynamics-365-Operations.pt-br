@@ -1,16 +1,13 @@
 ---
 title: Cortar imagens
-description: Este tópico descreve como cortar imagens no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve como cortar imagens no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8f52c22a57d465ce1c2bedac6e8f13db3e856c0
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: cb6049a1d98b7286658403b15a071f6f1389f725a9a7a146aab55d43796be60b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744501"
 ---
 # <a name="crop-images"></a>Cortar imagens
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como cortar imagens no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
+Este tópico descreve como cortar imagens no construtor de sites do Microsoft Dynamics 365 Commerce.
 
 A Biblioteca de Mídia do assistente para criação de sites do Commerce permite cortar imagens para otimizá-las para diferentes tipos de módulo e portas de exibição.
 
@@ -66,3 +61,6 @@ Após a conclusão do corte personalizado, as modificações na imagem têm efei
 [Personalizar pontos focais da imagem](dam-custom-focal-point.md)
 
 [Carregar e atender arquivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

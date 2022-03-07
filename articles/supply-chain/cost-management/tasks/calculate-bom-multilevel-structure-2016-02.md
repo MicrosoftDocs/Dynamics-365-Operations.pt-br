@@ -1,28 +1,25 @@
 ---
 title: Calcular uma BOM usando uma estrutura de vários níveis (Fevereiro de 2016)
 description: Este procedimento mostra como calcular o custo de um produto finalizado usando detalhamento de vários níveis baseado na folha de custos.
-author: ShylaThompson
-manager: tfehr
+author: AndersGirke
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f0ec28a20d32fc38cd6e77a76a02fc9544db3ca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78a8bb51925489015098fc0ce5552107255bc3e4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422262"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572112"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>Calcular uma BOM usando uma estrutura de vários níveis (Fevereiro de 2016)
 
@@ -30,7 +27,7 @@ ms.locfileid: "4422262"
 
 Este procedimento mostra como calcular o custo de um produto finalizado usando detalhamento de vários níveis baseado na folha de custos. Trata-se da sétima tarefa na série de cálculo BOM. A empresa de dados demo usada para criar esta tarefa é USMF.
 
-1. Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.
+1. Acesse Gerenciamento de informações do produto > Produtos > Produtos liberados.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione o produto BOM_1.  
 3. No Painel de Ação, clique em Gerenciar custos.
@@ -49,3 +46,6 @@ Este procedimento mostra como calcular o custo de um produto finalizado usando d
 11. Feche a página.
 12. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

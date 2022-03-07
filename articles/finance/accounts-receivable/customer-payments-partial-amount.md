@@ -2,28 +2,25 @@
 title: Pagamentos de cliente de uma quantidade parcial
 description: Às vezes, os clientes fazem um pagamento inferior ao valor de uma fatura. Este artigo descreve as diversas opções para controlar essa situação. As opções disponíveis dependerão dos seus requisitos empresariais e da sua configuração.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a74803d3adf71ef1495ec5b42753d0988cea4133
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2b4a930f7bb070d3105eff3978774bfd8a3ffbfd2b8eb77097028411da619c64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769026"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Pagamentos de cliente de uma quantidade parcial
 
@@ -31,8 +28,7 @@ ms.locfileid: "4440214"
 
 Às vezes, os clientes fazem um pagamento inferior ao valor de uma fatura. Este artigo descreve as diversas opções para controlar essa situação. As opções disponíveis dependerão dos seus requisitos empresariais e da sua configuração.
 
-<a name="partial-payment-with-no-discount"></a>Pagamento parcial sem desconto
---------------------------------
+## <a name="partial-payment-with-no-discount"></a>Pagamento parcial sem desconto
 
 Os clientes podem fazer um pagamento parcial porque eles simplesmente não têm o dinheiro suficiente para pagar o total da fatura ou porque há uma contestação sobre um item na fatura. Nessa situação, a fatura pode ser parcialmente liquidada com o pagamento. A fatura permanecerá aberta e mostrará um saldo.
 
@@ -60,3 +56,6 @@ Os clientes podem fazer um pagamento parcial onde o valor restante não será pa
 
 
 Para obter mais informações, consulte [Depositar pagamentos de cliente](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

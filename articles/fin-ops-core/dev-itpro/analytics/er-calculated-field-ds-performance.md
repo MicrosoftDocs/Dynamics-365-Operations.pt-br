@@ -2,11 +2,9 @@
 title: Melhorar o desempenho de soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados
 description: Este tópico explica como você pode melhorar o desempenho das soluções de relatório eletrônico (ER) adicionando fontes de dados de CAMPO CALCULADO parametrizado.
 author: NickSelin
-manager: AnnBe
-ms.date: 09/02/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681271"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944819"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Melhorar o desempenho de soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados
 
@@ -246,9 +244,9 @@ Você deve baixar os arquivos a seguir e armazená-los localmente.
 
 | Arquivo                                        | Conteúdo |
 |---------------------------------------------|---------|
-| Aperfeiçoamento de desempenho model.version.1     | [Configuração do modelo de dados de ER de exemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Aperfeiçoamento de desempenho mapping.version.1.1 | [Configuração do mapeamento do modelo de ER de exemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Aperfeiçoamento de desempenho format.version.1.1  | [Configuração de formato de ER de exemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Aperfeiçoamento de desempenho model.version.1     | [Configuração do modelo de dados de ER de exemplo](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
+| Aperfeiçoamento de desempenho mapping.version.1.1 | [Configuração do mapeamento do modelo de ER de exemplo](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
+| Aperfeiçoamento de desempenho format.version.1.1  | [Configuração de formato de ER de exemplo](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>Apêndice 2: configurar a estrutura de ER
 
@@ -300,3 +298,6 @@ Para obter mais informações sobre provedores de configuração de ER, consulte
 - [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
 - [Rastrear a execução de formatos de ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md)
 - [Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo calculado](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

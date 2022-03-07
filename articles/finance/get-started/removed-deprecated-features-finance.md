@@ -2,25 +2,22 @@
 title: Recursos removidos ou obsoletos do Dynamics 365 Finance
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689485"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890944"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou obsoletos do Dynamics 365 Finance
 
@@ -34,13 +31,109 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 > [!NOTE]
-> Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+> Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Recursos removidos ou substituídos na versão 10.0.24 do Finance
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>Relatório de impostos sobre vendas para a Suécia (design baseado em códigos de relatório)
+
+[Relatório de impostos sobre vendas para a Suécia](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para a Suécia](../localizations/emea-swe-vat-declaration-sweden.md) |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte ao relatório de impostos sobre vendas para a Suécia (layout de relatório sueco). Os formatos de Relatório Eletrônico (ER) **XML de declaração de IVA (SE)** e **Excel de declaração de IVA (SE)** são introduzidos no modelo **Declaração de imposto**. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Demonstrativo de IVA para a Áustria (design baseado em códigos de relatório)
+
+[Detalhes de demonstrativo de IVA para a Áustria](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para a Áustria](../localizations/emea-aut-vat-declaration-austria.md) |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte ao formato de Relatório Eletrônico (ER) **Declaração de IVA (AT)** no **modelo de declaração de IVA**. Os novos formatos **XML de declaração de IVA (AT)** e **Excel de declaração de IVA (AT)** são introduzidos no modelo **Declaração de imposto**. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Declaração ELSTER para a Alemanha (design baseado em códigos de relatório)
+
+[Demonstrativo de IVA](../localizations/emea-de-vat-declaration.md)</br>
+[Configurar declaração eletrônica de impostos para a Alemanha](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[Transmissão eletrônica da declaração de IVA (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para a Alemanha](../localizations/emea-deu-vat-declaration-germany.md) |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte aos formatos de Relatório Eletrônico (ER) **Elster (DE)** e **Modelo Elster**. Os novos formatos **XML de declaração de IVA (DE)** e **Excel de declaração de IVA (DE)** são introduzidos no modelo **Declaração de imposto**. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Declaração OB para os Países Baixos (design baseado em códigos de relatório)
+
+[Declaração OB](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para os Países Baixos](../localizations/emea-nl-vat-declaration-netherlands.md) |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte aos formatos de Relatório Eletrônico (ER) **Declaração OB (NL)** e **Modelo de declaração OB**. Os novos formatos **XML de declaração de IVA (NL)** e **Excel de declaração de IVA (NL)** são introduzidos no modelo **Declaração de imposto**. |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Recursos removidos ou substituídos na versão 10.0.20 do Finance
+
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>Configuração de formato do relatório eletrônico (ER) "Solicitação de dados da fatura de consulta do RTIR (HU)"
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Removido do processamento de interoperação do sistema de mensagens eletrônicas com o sistema online de faturamento húngaro |
+| **Substituída por outro recurso?**   | Não |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Descontinuação: até 15 de abril de 2022, planejamos não oferecer mais a configuração de formato "Solicitação de dados para consulta da fatura do RTIR (HU)". |
+
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>Formato de relatório eletrônico (ER) "Arquivo de auditoria francês FEC" para a França no formato "Saída de arquivo de auditoria alemão"
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído pelo novo formato "Arquivo de auditoria FEC (FR)" |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: até 1º de maio de 2022, planejamos interromper o suporte ao formato de relatório eletrônico (ER) "Arquivo de auditoria francês FEC" para a França no formato "Saída de arquivo de auditoria alemão". O novo formato Arquivo de auditoria FEC (FR) foi introduzido no "Modelo de exportação de dados". |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Recursos removidos ou substituídos na versão 10.0.17 do Finance
+
+### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Repositório LCS como uma opção de armazenamento para configurações de Relatório eletrônico
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído pelo novo repositório global do RCS (serviço de configuração regulatória) |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Dynamics 365 Finance, produtos do Supply Chain Management e Project Operations|
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: em 1º de abril de 2022, planejamos não oferecer mais suporte ao repositório do Microsoft Dynamics Lifecycle Services (LCS) como uma opção de armazenamento para configurações de relatório eletrônico (ER). As novas configurações do Microsoft ER serão publicadas para download exclusivamente no repositório global. O repositório global pode ser acessado de produtos e RCS do Dynamics 365. Para obter mais informações, consulte [Importar configurações do ER a partir de RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) e [Regulatory Configuration Service - Suspensão do armazenamento de Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Recursos removidos ou substituídos na versão 10.0.16 do Finance
 
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Formatos de relatório eletrônico "Declaração de IVA (CZ)" e "Exportação de instrução de controle (CZ)" para a República Tcheca
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituídos por novos formatos |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Substituído: até 22 de janeiro de 2022, planejamos não oferecer mais suporte aos formatos de relatório eletrônico (ER) "Declaração de IVA (CZ)" e "Exportação de demonstrativo de controle (CZ)". Em vez disso, os formatos XML de declaração de IVA (CZ), Excel de declaração de IVA (CZ) e Demonstrativo de controle de IVA (CZ) são introduzidos no modelo "Declaração de imposto". |
+
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>O formato de relatório eletrônico "Formato de exportação da transação do razão (BE)" e o respectivo modelo "Exportação de transações do razão (BE)" para a Bélgica
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Substituído pelo novo formato ER, no modelo "Arquivo de Auditoria Padrão (SAF-T)".  |
 | **Substituída por outro recurso?**   | Sim |
@@ -50,7 +143,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Relatório "IVA 100" para o Reino Unido no formato SSRS
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Substituído pelo novo formato ER - o formato "Declaração de IVA Excel (UK)" em "Modelo de declaração de impostos".  |
 | **Substituída por outro recurso?**   | Sim |
@@ -62,7 +155,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Suporte do Internet Explorer 11 para Dynamics 365 foi substituído
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A partir de dezembro de 2020, o suporte do Internet Explorer 11 da Microsoft para todos os produtos Dynamics 365 é preterido e Internet Explorer 11 não receberá suporte depois de agosto de 2021.<br><br>Isso afetará os clientes que usam os produtos do Dynamics 365 projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não terá suporte para esses produtos do Dynamics 365. |
 | **Substituída por outro recurso?**   | Recomendamos que os clientes façam a transição para o Microsoft Edge.|
@@ -72,21 +165,21 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Recursos removidos ou substituídos na versão 10.0.12 do Finance
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Relatórios SSRS poloneses: registro de IVA de saída, registro de IVA de entrada, registro de IVA de resumo da UE – Referência de recurso PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Não preterido: relatórios SSRS poloneses: registro de IVA de saída, registro de IVA de entrada, registro de IVA de resumo da UE – Referência de recurso PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Não é legalmente obrigatório.  |
 | **Substituída por outro recurso?**   | Sim (formato do Excel para arquivo de auditoria padrão com declaração de IVA - JPK_VDEK) |
-| **Áreas afetadas do produto**         | Requerimento |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: até 1º de julho de 2021, planejamos não oferecer mais suporte aos relatórios SSRS: **registro de IVA de saída, registro de IVA de entrada, registro de IVA de resumo da UE – referência de recurso PL-00014**. Em vez disso, o exemplo de formato do Excel para arquivo de auditoria padrão com declaração de IVA (JPK_VDEK) será introduzido. |
+| **Status**                         | Não preterido: a partir de 27 de abril de 2021, planejamos continuar a oferecer suporte aos relatórios SSRS: **registro de IVA de saída, registro de IVA de entrada, registro de IVA de resumo da UE – Referência de recurso PL-00014**. O exemplo de formato do Excel para Arquivo de Auditoria Padrão com declaração de IVA (JPK_VDEK) também foi introduzido. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Recursos removidos ou substituídos na versão 10.0.11 do Finance
 
 ### <a name="norwegian-standard-main-accounts"></a>Contas principais no padrão da Noruega
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Recriar  |
 | **Substituída por outro recurso?**   | Sim (Substituída pelos parâmetros específicos do aplicativo do formato ER) |
@@ -97,7 +190,8 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Recursos removidos ou substituídos na versão 10.0.7 do Finance
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Caixa de diálogo Alterar solicitação de fluxo de trabalho não inclui mais a seleção do usuário de lista suspensa
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Recurso alterado para a seleção de grupos de contas.  |
 | **Substituída por outro recurso?**   | Sim |
@@ -107,3 +201,6 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Comunicados anteriores sobre recursos removidos ou obsoletos
 Para saber mais sobre os recursos que foram removidos ou preteridos em versões anteriores, consulte [Recursos removidos ou obsoletos em versões anteriores](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

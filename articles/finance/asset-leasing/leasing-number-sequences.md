@@ -2,28 +2,25 @@
 title: Atribuir sequências numéricas
 description: Este tópico explica como criar sequências numéricas para IDs de arrendamento. Também explica como criar IDs exclusivas que são usadas no processo de reavaliação do índice.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 66b48723bbff7f176ef192924e8ea2b96641ba56
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 5235979532524a55ddc586b2872ebb28ebd486a280edfcc214e0c3ee0da80bad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733652"
 ---
 # <a name="assign-number-sequences"></a>Atribuir sequências numéricas
 
@@ -36,3 +33,7 @@ Este tópico explica como criar sequências numéricas para IDs de arrendamento.
 3. Selecione **Sequências numéricas** na barra lateral.
 4. Selecione a sequência numérica para a referência **ID do Arrendamento**. Essa sequência numérica será usada para gerar o identificador exclusivo para cada arrendamento.
 5. Selecione a sequência numérica para a referência **ID do Processo**. Essa sequência numérica será usada para gerar o identificador exclusivo para cada processo de reavaliação de índice.
+6. Selecione a sequência numérica para a referência **ID de Proposta de Rescisão**. Essa sequência numérica será usada para gerar o identificador exclusivo de cada proposta de rescisão.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

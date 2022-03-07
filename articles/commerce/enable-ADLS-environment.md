@@ -2,16 +2,13 @@
 title: Habilitar o Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
 description: Este tópico explica como habilitar e testar o Azure Data Lake Storage para um ambiente do Dynamics 365 Commerce, que é um pré-requisito para habilitar recomendações de produto.
 author: bebeale
-manager: AnnBe
 ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ec56a260501c0d33145c23cb9656446bc871f7c448bbbf33330ad591c506e49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775353"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Habilitar o Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como habilitar e testar o Azure Data Lake Storage para um ambiente do Dynamics 365 Commerce, que é um pré-requisito para habilitar recomendações de produto.
-
-## <a name="overview"></a>Visão geral
 
 Na solução Dynamics 365 Commerce, todas as informações de produto e de transação são rastreadas no Repositório de entidades do ambiente. Para tornar esses dados acessíveis a outros serviços do Dynamics 365, como análises de dados, business intelligence e recomendações personalizadas, é necessário conectar o ambiente a uma solução Azure Data Lake Storage Gen 2 de propriedade do cliente.
 
@@ -64,7 +59,7 @@ Para obter uma visão geral mais detalhada das etapas necessárias para habilita
 
 A imagem a seguir mostra um exemplo de configuração do Azure Data Lake Storage.
 
-![Exemplo de configuração do Azure Data Lake Storage](./media/exampleADLSConfig1.png)
+![Exemplo de configuração do Azure Data Lake Storage.](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>Testar a conexão do Azure Data Lake Storage
 
@@ -84,7 +79,7 @@ Para habilitar a atualização automática para o Repositório de entidades, sig
 
 A imagem a seguir mostra um exemplo de Repositório de entidades com atualização automática habilitada.
 
-![Exemplo de Repositório de entidades com atualização automática habilitada](./media/exampleADLSConfig2.png)
+![Exemplo de Repositório de entidades com atualização automática habilitada.](./media/exampleADLSConfig2.png)
 
 O Azure Data Lake Storage agora está configurado para o ambiente. 
 
@@ -115,3 +110,6 @@ Caso ainda não tenha sido concluído, siga as etapas para [habilitar as recomen
 [Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: Criar uma solicitação de cotação
 description: Este procedimento mostra como criar uma solicitação de cotação.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchCreateRFQCase, InventLocationIdLookup, PurchRFQCaseTable, InventItemIdLookupSimple, EcoResCategorySingleLookup, UnitOfMeasureLookup, PurchRFQEditLines, PurchRFQEditLinesPrintOptions, VendRFQJournal, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59202cb6678660ae035f9f76ebe4267bac01d78f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b0e9e4d7c31b1e6905abeac03e462ac185f3f489
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019895"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565366"
 ---
 # <a name="create-a-request-for-quotation"></a>Criar uma solicitação de cotação
 
@@ -30,7 +28,7 @@ Este procedimento mostra como criar uma solicitação de cotação. Isso seria f
 
 
 ## <a name="prepare-a-new-rfq"></a>Preparar uma nova RFQ
-1. Vá para **Painel de navegação > Módulos > Aquisição e fornecimento > Solicitações de cotação > Todas as solicitações de cotação**.
+1. Acesse **Painel de navegação > Módulos > Aquisição e fornecimento > Solicitações de cotação > Todas as solicitações de cotação**.
 2. Clique em **Novo**.
     Os seguintes tipos de compra estão disponíveis: Ordem de compra (este é o padrão): um documento que confirma a oferta para comprar produtos, ou a aceitação de uma oferta para vender produtos em troca de pagamento. Requisição de compra: esse tipo é selecionado automaticamente ao criar uma RFQ diretamente de uma requisição de compra. Se você selecionar essa opção manualmente, receberá uma mensagem de erro. Contrato de compra: um contrato para comprar uma quantidade ou um valor específico de produtos ao longo do tempo. Se você selecionar esta opção, selecione o intervalo de datas que se aplica ao contrato de compra.  
 3. No campo **Título do documento**, digite um valor.
@@ -74,9 +72,12 @@ Depois de ter especificado as informações básicas sobre sua RFQ, você especi
 6. Feche a página.
 
 ## <a name="view-the-rfq-journal"></a>Exibir o diário da RFQ
-1. Vá para **Aquisição e fornecimento > Solicitações de cotação > Acompanhamento de solicitações de cotação > Diários de solicitações de cotação**.
+1. Acesse **Aquisição e fornecimento > Solicitações de cotação > Acompanhamento de solicitações de cotação > Diários de solicitações de cotação**.
 2. Clique em **Visualizar/Imprimir**.
 3. Clique em **Exibição original**.
 4. Feche a página.
 5. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

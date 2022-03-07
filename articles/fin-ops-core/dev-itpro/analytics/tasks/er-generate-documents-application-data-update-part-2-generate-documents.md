@@ -1,12 +1,10 @@
 ---
 title: Criar configurações para gerar documentos com dados da solicitação de emprego
-description: Para concluir as etapas neste procedimento, você deve primeiramente concluir o procedimento, ER Gerar documentos com atualização de dados de aplicativo (Parte 1 – Importar configurações).
+description: Este tópico descreve como criar configurações de relatório eletrônico (ER) para gerar um documento eletrônico. (Parte 1 - Importar configurações).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d099836ba00ffa1d4fd002af4ac3e6045b41c6a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3f335721ee97919af20e73fc9da6c9bf07dcae50aca8f8904d144d75c2f4d7b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726252"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Criar configurações para gerar documentos com dados da solicitação de emprego
 
@@ -41,7 +39,7 @@ Antes de começar, altere o contexto de país para a empresa de DEMF de DEU (Ale
 
 
 ## <a name="run-imported-er-format"></a>Execute o formato de ER importado
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
+1. Acesse Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, expanda 'Intrastat (model)'.
 3. Na árvore, selecione 'Intrastat (modelo)\Intrastat (formato)'.
 4. Clique em Executar.
@@ -51,10 +49,13 @@ Antes de começar, altere o contexto de país para a empresa de DEMF de DEU (Ale
 6. Clique em OK.
     * Revise o arquivo XML gerado.  
 7. Feche a página.
-8. Vá para Imposto > Declarações > Comércio exterior > Intrastat.
+8. Acesse Imposto > Declarações > Comércio exterior > Intrastat.
     * Abra este formulário para exibir as transações Intrastat que são incluídas no documento eletrônico gerado.  
 9. Clique em Arquivo morto Intrastat.
     * Como o formato de ER executado não contém qualquer configuração para a atualização de dados do aplicativo, os detalhes de relatório Intrastat concluídos não foram arquivados.  
 10. Feche a página.
 11. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

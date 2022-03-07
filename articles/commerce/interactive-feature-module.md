@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b18a29ce43e69ec0578602535f21e52388fe3d04ac14673bbdefed9ec8ea161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d00b9173fd1d5faee71e0fec6c9d1546989e41
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749841"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638845"
 ---
 # <a name="interactive-feature-module"></a>Módulo de recurso interativo
 
@@ -63,11 +63,11 @@ O módulo de recurso interativo pode oferecer suporte a vários layouts e estilo
 
 Para adicionar um módulo de recurso interativo a uma nova página e definir as propriedades necessárias criador de sites do Commerce, siga as etapas a seguir.
 
-1. Acesse **Modelos** e abra o modelo de marketing para a página inicial do seu site (ou crie um novo modelo de marketing).
+1. Vá para **Modelos** e abra o modelo de marketing para a página inicial do seu site (ou crie um novo modelo de marketing).
 1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Recurso interativo** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Acesse **Páginas** e abra a página inicial do site (ou crie uma nova página inicial usando o modelo de marketing).
+1. Vá para **Páginas** e abra a página inicial do site (ou crie uma nova página inicial usando o modelo de marketing).
 1. No slot **Principal** da página padrão, selecione o botão de reticências (**...**) e, em seguida, selecione **Adicionar módulo**.
 1. Na caixa de diálogo **Adicionar módulo**, em **Selecionar módulos**, selecione um **Recurso interativo** e depois selecione **OK**.
 1. No painel de propriedades do módulo de recurso interativo, adicione um cabeçalho.

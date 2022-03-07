@@ -2,11 +2,9 @@
 title: Reconciliação financeira em lojas de varejo
 description: Este tópico descreve a reconciliação financeira em lojas de varejo para PDV para o Microsoft Dynamics 365 Commerce.
 author: anpurush
-manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2afe967248136e9b658e1ee18053a54ab3f0d325c088a5eb2e522fac335c01f0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752450"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>Reconciliação financeira em lojas de varejo
 
 [!include [banner](includes/banner.md)]
 
-No Microsoft Dynamics 365 Commerce versão 10.0.10 e anteriores, a funcionalidade que o cliente de PDV (ponto de venda) oferece para os processos de fechamento do dia nas lojas de varejo permite que os gerentes e funcionários de loja realizem operações de fechamento do dia. Por exemplo, eles podem fazer declarações de meios de pagamento e o fechamento cego de turnos, além de reconciliar transações de turno e fechar turnos. No entanto, não existe um recurso no PDV para finalizar as informações financeiras de turnos de forma que elas possam ser usadas para lançar dados financeiros no Commerce Headquarters. Normalmente, os gerentes de loja são responsáveis por realizar essa tarefa. Para poder aprovar um turno, eles devem examinar as informações, fazer as correções necessárias e finalizar os totais do turno. Os totais finalizados devem ser lançados nos módulos financeiros do Commerce Headquarters.
+Na versão 10.0.10 e anterior do Microsoft Dynamics 365 Commerce, a funcionalidade que o cliente de PDV (ponto de venda) oferece para os processos de fechamento do dia nas lojas de varejo permite que os gerentes e funcionários de loja realizem operações de fechamento do dia. Por exemplo, eles podem fazer declarações de meios de pagamento e o fechamento cego de turnos, além de reconciliar transações de turno e fechar turnos. No entanto, não existe um recurso no PDV para finalizar as informações financeiras de turnos de forma que elas possam ser usadas para lançar dados financeiros no Commerce Headquarters. Normalmente, os gerentes de loja são responsáveis por realizar essa tarefa. Para poder aprovar um turno, eles devem examinar as informações, fazer as correções necessárias e finalizar os totais do turno. Os totais finalizados devem ser lançados nos módulos financeiros do Commerce Headquarters.
 
 Além disso, no Commerce versão 10.0.10 e anteriores, os gerentes de loja podem examinar e fazer alguns ajustes nas linhas do demonstrativo no Commerce Headquarters. No entanto, a capacidade é limitada e os gerentes raramente têm acesso ao cliente do Commerce Headquarters. Além disso, a revisão e o ajuste do demonstrativo financeiro de varejo só podem ser feitos quando os demonstrativos são criadas no Commerce Headquarters. Porém, esse processo normalmente é noturno. Por isso os gerentes de loja devem aguardar a aprovação do turno quando os demonstrativos financeiros de varejo no Commerce Headquarters.
 
@@ -61,3 +59,6 @@ Quando é usado o lançamento de demonstrativo com base em um fluxo constante, p
 Os detalhes da reconciliação financeira de um turno são sincronizados com o Commerce Headquarters usando o trabalho P.
 
 As demonstrativos financeiros de varejo no Commerce Headquarters não calculam os totais para mostrar os detalhes nas linhas dos demonstrativos. Em vez disso, os valores finalizados no cliente de PDV são usados para criar e lançar demonstrativos financeiros de varejo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,25 @@
 title: Visão geral de impostos do Brasil
 description: O Microsoft Dynamics 365 Finance calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto.
 author: sndray
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 268704
+ms.custom:
+- "268704"
+- intro-internal
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: efbf974321711b0b5cc2e29bd5b67cd4c5d38d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c3db13383f3cb8e43e5fd3f561d7b172dd12cd1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962598"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982946"
 ---
 # <a name="brazil-taxes-overview"></a>Visão geral de impostos do Brasil
 
@@ -101,3 +101,6 @@ Para transações de venda com códigos de tributação com um valor fiscal **1.
 -   [Impostos retidos na fonte no Brasil ](tasks/br-00009-brazilian-withholding-taxes.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

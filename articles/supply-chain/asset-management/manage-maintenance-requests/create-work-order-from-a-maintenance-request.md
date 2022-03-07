@@ -1,12 +1,10 @@
 ---
 title: Crie ordens de serviço a partir de solicitações de manutenção
 description: Este tópico explica como criar uma ordem de serviço a partir de uma solicitação de manutenção em Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23039306bb827beb861eaacc3177f4917fabc8bf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c360985509f8f1379ed4a9bd17b95f2d8c85340e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018087"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808583"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Crie ordens de serviço a partir de solicitações de manutenção
 
@@ -54,3 +52,6 @@ Depois de criar solicitações de manutenção, você poderá facilmente convert
 
     ![Abrir nova ordem de serviço](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

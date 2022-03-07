@@ -2,16 +2,13 @@
 title: Determinar a combinação ideal de sobreposição de descontos
 description: Quando os descontos se sobrepõem, você deve determinar a combinação dos descontos que produzirão a transação total inferior ou o desconto total maior. Quando o valor de desconto varia de acordo com o preço dos produtos que estão sendo comprados, como no desconto de varejo comum 'Compre 1, leve 1 X por cento de desconto' (BOGO), este processo se torna um problema de otimização combinatória.
 author: kfend
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 69475643a522a89ca4b58cf0ad1cc1f2db6325ff1d3f11830bf5f813290d6240
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733908"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinar a combinação ideal de sobreposição de descontos
 
@@ -42,11 +39,11 @@ Você pode criar um número ilimitado de descontos em um conjunto comum de produ
 
 Neste exemplo, dois produtos são necessários para qualificar-se para cada desconto e os descontos não podem ser combinados. Os descontos no exemplo são descontos **Melhor preço**. Os produtos se qualificam para os dois descontos. Veja os dois descontos.
 
-![Exemplo de dois descontos Melhor preço](./media/overlapping-discount-combo-01.jpg)
+![Exemplo de dois descontos Melhor preço.](./media/overlapping-discount-combo-01.jpg)
 
 Para dois produtos quaisquer, o melhor desses dois descontos depende do preço dos dois produtos. Quando o preço dos produtos é igual ou quase igual, desconto 1 é melhor. Quando o preço de um produto é significativamente menor que o preço de outros produtos, desconto 2 é melhor. Esta é a regra matemática para avaliar esses dois descontos entre si.
 
-![Regra de avaliação dos descontos](./media/overlapping-discount-combo-02.jpg)
+![Regra de avaliação dos descontos.](./media/overlapping-discount-combo-02.jpg)
 
 > [!NOTE]
 > Quando o preço do produto 1 é igual a dois terços do preço do produto 2, os dois descontos são iguais. Neste exemplo, a porcentagem de desconto em vigor para desconto 1 varia de uma porcentagem menor (quando os preços dos produtos forem afastados) a um máximo de 25% (quando os dois projetos tiverem o mesmo preço). A porcentagem de desconto em vigor para desconto 2 é fixa. É sempre 20%. Como a porcentagem de desconto em vigor para desconto 1 tem um intervalo que pode ser maior ou menor do que de desconto 2, o melhor desconto depende de preços dos produtos a serem descontados. Neste exemplo, o cálculo é concluído rapidamente, pois apenas dois descontos são aplicados em apenas dois produtos. Há somente duas combinações possíveis: uma aplicação de desconto 1 ou uma aplicação de desconto 2. Não há permutações para cálculo. O valor da cada desconto é calculado usando ambos produtos e o melhor desconto é usado.
@@ -60,11 +57,11 @@ Em seguida, usaremos quatro produtos e os mesmos dois descontos. Todos os quatro
 
 Para ler as tabelas, use um produto de uma linha e um produto de uma coluna. Por exemplo, na tabela do desconto 1, quando você combina os dois produtos de US$ 20, você receberá US$ 10 de desconto. Na tabela do desconto 2, quando você combina o produto de US$ 15 e o de US$ 5, você receberá US$ 4 de desconto.
 
-![Exemplo que usa quatro produtos para os mesmos dois descontos](./media/overlapping-discount-combo-03.jpg)
+![Exemplo que usa quatro produtos para os mesmos dois descontos.](./media/overlapping-discount-combo-03.jpg)
 
 Primeiro, encontramos o maior desconto disponível de quaisquer dois produtos usando qualquer desconto. As duas tabelas mostram o valor de desconto de todas as combinações dos produtos. As partes protegidas das tabelas representam um dos casos em que um produto é emparelhado com ele mesmo, o que não podemos fazer, ou um emparelhamento reverso de dois produtos que produz o mesmo valor de desconto e pode ser ignorado. Olhando as tabelas, é possível ver que o desconto 1 para os dois itens de US$ 20 é o maior desconto disponível dos dois descontos em todos os quatro produtos. (Esse desconto é realçado em verde na primeira tabela.) Isso deixa apenas o produto de US$ 15 e o de US$ 5. Olhando as duas tabelas novamente, você pode ver que, para esses dois produtos, o desconto 1 oferece um desconto de US$ 2,50, enquanto o desconto 2 oferece um desconto de US$ 4. Portanto, selecionamos o desconto 2. O desconto total é de US$ 14. Para facilitar a visualização dessa discrepância, veja duas tabelas adicionais que mostram o a porcentagem de desconto em vigor para todas as combinações de dois produtos possíveis para os descontos 1 e 2. Somente metade da lista de combinações é incluída, pois, para esses dois descontos, a ordem na qual os dois produtos são colocados no desconto não importa. O desconto mais alto em vigor (25%) é destacado em verde, e o desconto em vigor inferior (10%) é destacado em vermelho.
 
-![Percentual de desconto em vigor para todas as combinações de dois produtos para ambos os descontos](./media/overlapping-discount-combo-04.jpg)
+![Percentual de desconto em vigor para todas as combinações de dois produtos para ambos os descontos.](./media/overlapping-discount-combo-04.jpg)
 
 > [!NOTE]
 > Quando os preços variam e dois ou mais descontos competem, a única maneira de garantir a melhor combinação de descontos é avaliar os dois descontos e compará-los.
@@ -81,6 +78,9 @@ Quando quantidades ainda maiores ou descontos mais sobrepostos são aplicados, o
 
 Para resolver o problema de um número exponencialmente elevado de combinações que devem ser avaliadas, uma otimização existe, que calcula o valor por produto compartilhado de cada desconto no grupo de produtos que dois ou mais descontos pode ser aplicado. Nos referimos a este valor como **valor marginal** do desconto para os produtos compartilhados. O valor marginal é o aumento médio por produto no valor de desconto total quando os produtos compartilhados são incluídos em cada desconto. O valor marginal é calculado pegando o valor de desconto total (DTotal), subtraindo o valor de desconto sem os produtos compartilhados (DMenos\\ Compartilhado) e dividindo a diferença pelo número de produtos compartilhados (ProductsShared).
 
-![Fórmula para calcular o valor marginal](./media/overlapping-discount-combo-06.jpg)
+![Fórmula para calcular o valor marginal.](./media/overlapping-discount-combo-06.jpg)
 
 Após o valor marginal de cada desconto em um grupo compartilhado de produtos ser calculado, os descontos são aplicados aos produtos compartilhados na ordem do valor marginal maior para o menor. Para este método, todas as possibilidades restantes de desconto não são comparadas sempre depois que uma única instância de um desconto é aplicada. Em vez disso, os descontos sobrepostos são comparados uma vez e depois aplicados em ordem. Nenhuma comparação adicional é feita. Você pode configurar o limite para trocar para o método de valor marginal na guia **Desconto** da página **Parâmetros do Commerce**. O tempo aceitável para calcular o desconto total varia entre as indústrias de varejo. Porém, esse tempo geralmente cai na variação de diversos milissegundos a um segundo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

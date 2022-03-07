@@ -1,39 +1,38 @@
 ---
 title: Processamento de cargas de entrada das ordens de compra no depósito
 description: Este tópico descreve o processamento de cargas de entrada das ordens de compra no depósito.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422509"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778050"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
+[!include [banner](../includes/banner.md)]
+
 Este tópico descreve o processamento de cargas de entrada das ordens de compra no depósito.
 
-Para cada carga de entrada, seu sistema já deve incluir uma ordem de venda relacionada e talvez também contenha uma especificação de carga e/ou plano de transporte relacionados. Para obter mais informações sobre como criar e gerenciar cargas de entrada, consulte [Processo comercial: Planejando o transporte para cargas de entrada](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Para cada carga de entrada, seu sistema já deve incluir uma ordem de venda relacionada e talvez também contenha uma especificação de carga e/ou plano de transporte relacionados. Para obter mais informações sobre como criar e gerenciar cargas de entrada, consulte [Processo comercial: Planejando o transporte para cargas de entrada](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Visão geral: Como as cargas de entrada são criadas, registradas e recebidas
 
 A ilustração a seguir mostra o fluxo típico de processamento de cargas de entrada que possuem quantidades de ordens de compra quando chegam ao seu depósito.
 
-![O processamento de cargas de entrada](media/inbound-process.png "O processamento de cargas de entrada")
+![O processamento de cargas de entrada.](media/inbound-process.png "O processamento de cargas de entrada")
 
 1. **O fornecedor confirma a ordem de compra.**
 
@@ -41,11 +40,11 @@ A ilustração a seguir mostra o fluxo típico de processamento de cargas de ent
 
 1. **Um registro de carregamento de entrada é criado para planejar a entrada e seu conteúdo.**
 
-    O registro de carga de entrada representa uma remessa do fornecedor de uma ou mais ordens de compra. Espera-se que a carga chegue ao depósito como uma unidade de transporte físico (como uma carga de caminhão). O registro de carga de entrada é usado para fins de planejamento e permite ao coordenador de logística acompanhar o progresso da carga do fornecedor. Ele também é usado para registrar quantidades de linhas de ordens e gerenciar o progresso nas operações do depósito, como trabalho de entrada e armazenamento. As cargas podem ser criadas automática ou manualmente e podem ser baseadas em uma ordem de compra ou em um aviso de remessa avançada (ASN) do fornecedor. Para obter mais informações, consulte [Criar ou modificar uma carga de entrada](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    O registro de carga de entrada representa uma remessa do fornecedor de uma ou mais ordens de compra. Espera-se que a carga chegue ao depósito como uma unidade de transporte físico (como uma carga de caminhão). O registro de carga de entrada é usado para fins de planejamento e permite ao coordenador de logística acompanhar o progresso da carga do fornecedor. Ele também é usado para registrar quantidades de linhas de ordens e gerenciar o progresso nas operações do depósito, como trabalho de entrada e armazenamento. As cargas podem ser criadas automática ou manualmente e podem ser baseadas em uma ordem de compra ou em um aviso de remessa avançada (ASN) do fornecedor. Para obter mais informações, consulte [Criar ou modificar uma carga de entrada](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **O fornecedor confirma a expedição da carga.**
 
-    Quando o fornecedor expede a carga, o coordenador de logística no depósito de recebimento confirma a remessa da carga. Se a empresa que recebe estiver usando o módulo **Gerenciamento de transporte**, a confirmação da remessa de entrada acionará outros processos de gerenciamento de carga associados às cargas de entrada. Para obter mais informações, consulte [Confirmar uma carga para envio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Quando o fornecedor expede a carga, o coordenador de logística no depósito de recebimento confirma a remessa da carga. Se a empresa que recebe estiver usando o módulo **Gerenciamento de transporte**, a confirmação da remessa de entrada acionará outros processos de gerenciamento de carga associados às cargas de entrada. Para obter mais informações, consulte [Confirmar uma carga para envio](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **A carga chega ao depósito e os funcionários registram as quantidades.**
 
@@ -67,7 +66,7 @@ Quando uma carga de entrada chega primeiro ao depósito, os funcionários do dep
 
 - **Um menu de dispositivo móvel configurado para permitir o recebimento de carga**
 
-    O [aplicativo de depósito](install-configure-warehousing-app.md) para dispositivos móveis é compatível com os seguintes processos de criação de trabalho:
+    O [aplicativo móvel do Gerenciamento de Depósito](../warehousing/install-configure-warehouse-management-app.md) para dispositivos móveis é compatível com os seguintes processos de criação de trabalho:
 
     - Recebimento do item de carga
     - Recebimento e armazenamento do item de carga
@@ -268,7 +267,7 @@ Esses cenários exigem o recurso _Vários lançamentos de recebimento de produto
 
 1. Abra o espaço de trabalho **Gerenciamento de recursos**. (Para obter detalhes completos sobre como encontrar e usar esse espaço de trabalho, consulte [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Ative o recurso _Associar transações de estoque da ordem de compra à carga_, listado da seguinte maneira:
+1. Verifique se o recurso _Associar transações de estoque da ordem de compra à carga_ está ativado. Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, está ativado por padrão e não poderá ser desativado novamente. No entanto, o recurso ainda está listado em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) da seguinte forma:
 
     - **Módulo:** _Gerenciamento de Depósito_
     - **Nome do recurso:** _Associar transações de estoque da ordem de compra à carga_
@@ -286,7 +285,7 @@ Para trabalhar com esses cenários usando os registros e valores de exemplo espe
 
 Antes de os auxiliares de recebimento de depósito poderem usar um dispositivo móvel para registrar o estoque de entrada que está vinculado a uma carga, você deve criar um item de menu do dispositivo móvel para esse fim.
 
-Nesta seção, você criará um item de menu do dispositivo móvel e o adicionará a um menu existente. Um funcionário do depósito pode selecionar o item de menu no aplicativo de depósito.
+Nesta seção, você criará um item de menu do dispositivo móvel e o adicionará a um menu existente. Um trabalhador do depósito pode selecionar o item de menu no aplicativo móvel do Gerenciamento de Depósito.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel** e verifique se o menu do seu dispositivo móvel inclui um item de menu com as seguintes configurações:
 
@@ -296,7 +295,7 @@ Nesta seção, você criará um item de menu do dispositivo móvel e o adicionar
 
     Você pode deixar todas as outras configurações com seus valores padrão.
 
-    ![Configurações do item de menu do dispositivo móvel](media/inbound-mobile-menu-items.png "Configurações do item de menu do dispositivo móvel")
+    ![Configurações do item de menu do dispositivo móvel.](media/inbound-mobile-menu-items.png "Configurações do item de menu do dispositivo móvel")
 
     Para obter mais informações sobre como configurar itens de menu do dispositivo móvel, consulte [Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md).
 
@@ -331,7 +330,7 @@ Neste procedimento, você criará manualmente uma ordem de compra e uma carga as
     - Na FastTab **Carga**, o campo **Status da carga** é definido _Em aberto_.
     - Na seção **Linhas de carga**, existe uma única linha em que o campo **Quantidade** é definido como _10_ e o campo **Quantidade de trabalho criado** é definido como _0_ (zero).
 
-    ![Detalhes da carga](media/inbound-load-details.png "Detalhes da carga")
+    ![Detalhes da carga.](media/inbound-load-details.png "Detalhes da carga")
 
 1. No Painel de ações, na guia **Enviar e receber**, no grupo **Confirmar \> Remessa de entrada**. Observe que o **Status da carga** foi alterado para _Remetida_.
 1. Anote o valor **ID de carga**, para que você possa usá-lo no próximo procedimento.
@@ -403,7 +402,7 @@ Esse cenário também mostra como processar vários lançamentos de recebimento 
 
 Neste procedimento, você habilitará vários lançamentos de recebimento de produtos da mesma carga.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Cargas**, defina o campo **Permitir vários recebimentos de produtos por carga** como _Sim_.
 
 #### <a name="create-two-loads-to-plan-receipt-of-a-purchase-order"></a>Criar duas cargas para planejar o recebimento de uma ordem de compra
@@ -478,3 +477,6 @@ Nesse cenário, o auxiliar de recebimento registrará na entrada uma quantidade 
     - **Qtd.** – Insira _7_, que é a quantidade restante que o fornecedor está autorizado a entregar como parte da quantidade total da ordem de compra de 12 (onde 10 é a quantidade original da ordem e 2 é a quantidade permitida de entrega excedente de 20%). Lembre-se de que 5 pcs já foram registradas na primeira carga.
 
 A segunda carga agora foi atualizada com a quantidade de 7 e pode ser atualizada como produto recebido com base nessa quantidade.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

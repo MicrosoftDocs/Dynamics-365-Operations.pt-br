@@ -2,16 +2,13 @@
 title: Operação de estoque de entrada no POS
 description: Este tópico descreve os recursos da operação de entrada do estoque do ponto de venda (POS).
 author: hhaines
-manager: annbe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +16,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741773"
 ---
-# <a name="inbound-inventory-operation-in-pos"></a>Operação de estoque de entrada no POS
+# <a name="inbound-inventory-operation-in-pos"></a>Operação de estoque de entrada no PDV
 
 [!include [banner](includes/banner.md)]
 
-No Microsoft Dynamics 365 Commerce versão 10.0.10 e posterior, as operações de entrada e saída no ponto de venda (PDV) substituem a operação de separação e recebimento.
+Na versão 10.0.10 e posterior do Microsoft Dynamics 365 Commerce, as operações de entrada e saída no ponto de venda (PDV) substituem a operação de separação e recebimento.
 
 > [!NOTE]
 > Na versão 10.0.10 e posteriores do Commerce, todos os novos recursos do aplicativo do PDV que estão relacionados ao recebimento do estoque da loja em relação às ordens de compra e às ordens de transferência serão adicionados à operação do PDV da **Operação de entrada**. Se você estiver usando a operação de separação e recebimento no PDV, recomendamos que você crie uma estratégia para mover-se dessa operação para as novas operações de entrada e saída. Embora a operação de separação e recebimento não seja removida do produto, não haverá mais investimentos nela, de uma perspectiva funcional ou de desempenho, após a versão 10.0.9.
@@ -48,7 +45,7 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 
 ### <a name="create-and-configure-a-number-sequence"></a>Criar e configurar uma sequência numérica
 
-1. Vá para **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
+1. Acesse **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
 2. Na página **Sequências numéricas**, crie uma sequência numérica.
 3. Nos campos **Código de sequência numérica** e **Nome**, insira valores definidos pelo usuário.
 4. Na Guia Rápida **Referências**, selecione **Adicionar**.
@@ -63,7 +60,7 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 
 Os trabalhos em lotes que você criar serão usados para processar documentos que falharam ou expiram. Eles também serão usados quando o número de documentos de estoque ativos que estão sendo processados no PDV exceder um valor configurado pelo sistema.
 
-1. Vá para **Administração do sistema \> Consultas \> Trabalhos em lotes**.
+1. Acesse **Administração do sistema \> Consultas \> Trabalhos em lotes**.
 2. Na página **Trabalho em lotes**, crie dois trabalhos em lote:
 
     - Configure um trabalho para executar a classe **RetailDocumentOperationMonitorBatch**.
@@ -73,7 +70,7 @@ Os trabalhos em lotes que você criar serão usados para processar documentos qu
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Pré-requisito: adicionar a operação de entrada ao layout da tela do POS
 
-Antes que a sua organização possa usar a funcionalidade de operação de entrada, ela deve configurar a operação do POS da **Operação de entrada** em um ou mais [layouts de tela do POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implantar a nova operação em um ambiente de produção, certifique-se de testá-la exaustivamente e treine os usuários para usá-la.
+Antes que a sua organização possa usar a funcionalidade de operação de entrada, ela deve configurar a operação do POS da **Operação de entrada** em um ou mais [layouts de tela do POS](/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implantar a nova operação em um ambiente de produção, certifique-se de testá-la exaustivamente e treine os usuários para usá-la.
 
 ## <a name="overview"></a>Visão geral
 
@@ -162,9 +159,9 @@ Na versão 10.0.14 e posterior do Commerce, os usuários podem receber um produt
 
 Este recurso só funciona para recebimento da ordem de compra. Não é possível receber itens em ordens de transferência quando os itens não foram previamente encomendados e enviados do depósito de saída.
 
-Os usuários não poderão adicionar novos produtos à ordem de compra durante o recebimento do PDV, se a ordem de compra [fluxo de trabalho do gerenciamento de alteração](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) estiver ativado no Commerce headquarters (HQ). Para habilitar o gerenciamento de alterações, todas as alterações em uma ordem de compra devem ser aprovadas primeiro, antes que o recebimento seja permitido. Como esse processo permite que um destinatário adicione novas linhas à ordem de compra, o recebimento falhará, se o fluxo de trabalho de gerenciamento de alterações estiver habilitado. Se o gerenciamento de alterações estiver habilitado para todas as ordens de compra ou para o fornecedor vinculado à ordem de compra que está sendo recebida ativamente no PDV, o usuário não poderá adicionar novos produtos à ordem de compra durante o recebimento no PDV.
+Os usuários não poderão adicionar novos produtos à ordem de compra durante o recebimento do PDV, se a ordem de compra [fluxo de trabalho do gerenciamento de alteração](../supply-chain/procurement/purchase-order-approval-confirmation.md) estiver ativado no Commerce headquarters (HQ). Para habilitar o gerenciamento de alterações, todas as alterações em uma ordem de compra devem ser aprovadas primeiro, antes que o recebimento seja permitido. Como esse processo permite que um destinatário adicione novas linhas à ordem de compra, o recebimento falhará, se o fluxo de trabalho de gerenciamento de alterações estiver habilitado. Se o gerenciamento de alterações estiver habilitado para todas as ordens de compra ou para o fornecedor vinculado à ordem de compra que está sendo recebida ativamente no PDV, o usuário não poderá adicionar novos produtos à ordem de compra durante o recebimento no PDV.
 
-A funcionalidade que permite a adição de linhas não pode ser usada como solução para o recebimento de quantidades adicionais de produtos que já estão na ordem de compra. O recebimento em excesso é gerenciado por meio das configurações padrão [recebimento em excesso](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) da linha de produto na ordem de compra.
+A funcionalidade que permite a adição de linhas não pode ser usada como solução para o recebimento de quantidades adicionais de produtos que já estão na ordem de compra. O recebimento em excesso é gerenciado por meio das configurações padrão [recebimento em excesso](#over-receiving-validations) da linha de produto na ordem de compra.
 
 Se a opção **Adicionar linhas à Ordem de Compra durante o recebimento do Ponto de Venda** estiver ativada e um usuário estiver recebendo com a **Operação de entrada** no PDV, se o usuário digitalizar ou digitar um código de barras ou número do produto que não é reconhecido como um item na ordem de compra atual, mas é reconhecido como um item válido, o usuário recebe uma mensagem sobre a adição do item à ordem de compra. Se o usuário adicionar o item à ordem de compra, a quantidade inserida em **Recebendo agora** é considerada a quantidade encomendada para a linha da ordem de compra.
 
@@ -221,3 +218,6 @@ Depois que o documento for definido com o status **Solicitado**, ele ficará vis
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Operação de estoque de saída no POS](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

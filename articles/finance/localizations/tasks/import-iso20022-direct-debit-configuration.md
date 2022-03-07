@@ -2,26 +2,23 @@
 title: Configuração do débito direto ISO20022 de importação
 description: Este procedimento demonstra como importar uma configuração de relatório eletrônico de pagamento de cliente.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5d4256b155d3e06d63e425fab63b4025ef2577f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f89e49f8647f69443b789ea4f32ca6e8d4786f698911609e78e6d6a9ade11ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743742"
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Configuração do débito direto ISO20022 de importação
 
@@ -49,3 +46,6 @@ Este é o primeiro dos cinco procedimentos que demonstram o processo de pagament
     * Se o botão Importar não estiver disponível, significa que a configuração já foi importada.  
 9. Clique em Sim.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

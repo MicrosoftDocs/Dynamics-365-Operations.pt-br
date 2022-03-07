@@ -2,11 +2,9 @@
 title: Criar um calendário de horário de trabalho
 description: Defina um calendário de horário de trabalho, feriados e horário não comercial no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67b951cccae7708f8d831ff1d83738dc49360a48
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417264"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794508"
 ---
 # <a name="create-a-working-time-calendar"></a>Criar um calendário de horário de trabalho
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Um calendário de horário de trabalho no Dynamics 365 Human Resources mostra os dias e as horas em que os funcionários trabalham na sua organização. Quando um funcionário envia uma solicitação de folga, ele não precisa se preocupar com feriados e recessos.
 
@@ -75,3 +75,6 @@ Se você tiver habilitado o recurso de visualização de correções de feriados
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Configurar tipos de licença e ausência](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

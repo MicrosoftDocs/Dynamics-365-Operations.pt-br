@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceObjectGroups
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4438487fa234cf093b557bca9455717b2cd3ca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f9d19e29dbddb0bccf3221cc82e6dbb2c05f7e85
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421871"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5266070"
 ---
 # <a name="service-object-groups"></a>Grupos de objetos de serviço 
 
@@ -66,3 +65,6 @@ Você pode atribuir objetos de serviço ao grupo usando o formulário **Objetos 
 [Criar objetos de serviço](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

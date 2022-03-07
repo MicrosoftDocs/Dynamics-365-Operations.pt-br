@@ -2,26 +2,23 @@
 title: Detalhes da linha de trabalho
 description: Este tópico fornece informações sobre a página Detalhes da linha de trabalho, que mostra uma lista abrangente, classificável e filtrável das linhas de trabalho individuais no sistema.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6c99b9f2c6c3ab598eb792ee7b17d2a3873d4cff
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422561"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813594"
 ---
 # <a name="work-line-details"></a>Detalhes da linha de trabalho
 
@@ -128,3 +125,6 @@ Siga estas etapas para criar alguns trabalhos de separação:
 
 > [!IMPORTANT]
 > Se cancelar apenas parte da quantidade de uma linha de trabalho, você também deverá remover a quantidade obsoleta da linha de carga. Caso contrário, a menos que a entrega insuficiente esteja configurada corretamente, a linha de carga poderá ter a remessa confirmada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

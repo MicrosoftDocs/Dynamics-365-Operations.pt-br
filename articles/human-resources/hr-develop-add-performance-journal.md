@@ -2,7 +2,7 @@
 title: Adicionar ao seu diário de desempenho e enviar elogio a alguém
 description: O diário de desempenho retém informações que se refere como você tiver encontrado as metas ou como você executou durante um período.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2a90a5f746e49e1a5df9910867e8cd35feb1147
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a865ee37ed650c564961f6b3dd8773eea4f7b9ea
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417224"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465621"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Adicionar ao seu diário de desempenho e enviar elogio a alguém
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 O diário de desempenho retém informações que se refere como você tiver encontrado as metas ou como você executou durante um período. Você também pode elogiar ações de um colega de trabalho do diário. A empresa de dados demo usada para criar este procedimento é USMF. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
@@ -54,3 +56,6 @@ O diário de desempenho retém informações que se refere como você tiver enco
 20. No campo descrição, insira “agradecimentos a todos na ajuda.!” conferência
 21. Clique em Enviar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

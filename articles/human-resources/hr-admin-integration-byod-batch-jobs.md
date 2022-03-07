@@ -2,35 +2,37 @@
 title: Otimizar trabalhos em lote agendados de BYOD
 description: Este tópico explica como otimizar o desempenho quando estiver usando o recurso Trazer seu próprio banco de dados (BYOD) com o Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: d08762ff40b4da8264bd5bc4a1c16fd2afc4d610
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417265"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067770"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Otimizar trabalhos em lote agendados de BYOD
 
-Este tópico explica como otimizar o desempenho quando estiver usando o recurso Trazer seu próprio banco de dados (BYOD). Para obter mais informações sobre o BYOD, consulte [Trazer seu próprio banco de dados (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Este tópico explica como otimizar o desempenho quando estiver usando o recurso Trazer seu próprio banco de dados (BYOD). Para obter mais informações sobre o BYOD, consulte [Trazer seu próprio banco de dados (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Considerações de desempenho para exportação de dados
 
-Depois que as entidades são publicadas no banco de dados de destino, você pode usar a função de Exportação no espaço de trabalho **Gerenciamento de dados** para mover os dados. A função Exportar permite definir um trabalho de Movimentação de dados que contém uma ou mais entidades. Para obter mais informações sobre exportação de dados, consulte [Visão geral de trabalhos de importação e exportação de dados](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
+Depois que as entidades são publicadas no banco de dados de destino, você pode usar a função de Exportação no espaço de trabalho **Gerenciamento de dados** para mover os dados. A função Exportar permite definir um trabalho de Movimentação de dados que contém uma ou mais entidades. Para obter mais informações sobre exportação de dados, consulte [Visão geral de trabalhos de importação e exportação de dados](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Você pode usar a página **Exportar** para exportar dados para diferentes formatos de dados de destino, como um arquivo CSV (valores separados por vírgulas). Essa página também oferece suporte a bancos de dados SQL como outro destino.
 
@@ -61,7 +63,7 @@ Para obter o melhor desempenho, use sempre a opção **Exportar no lote** na pá
 
 Ao adicionar uma entidade para exportação de dados, você pode fazer um push incremental (exportação) ou um push completo. Um push completo exclui todos os registros existentes de uma entidade do banco de dados do BYOD. Em seguida, o insere o conjunto atual de registros da entidade de Recursos Humanos.
 
-Para fazer um envio incremental, você deve habilitar o controle de alterações para cada entidade na página **Entidades**. Para obter mais informações, consulte [Habilitar controle de alterações para entidades](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+Para fazer um envio incremental, você deve habilitar o controle de alterações para cada entidade na página **Entidades**. Para obter mais informações, consulte [Habilitar controle de alterações para entidades](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Se você selecionar um push incremental, o primeiro push será sempre um push completo. O SQL controla as alterações desse primeiro push completo. Quando um novo registro é inserido ou quando um registro é atualizado ou excluído, a alteração é refletida na entidade de destino.
 
@@ -72,7 +74,7 @@ Estes são os tempos limite padrão para exportações de BYOD:
 - Dez minutos para operações de truncamento
 - Uma hora para operações de inserção em massa
 
-Quando os volumes são altos, essas configurações de tempo limite podem não ser suficientes. Para atualizá-los, vá para **Gerenciamento de dados \> Parâmetros de estrutura \> Trazer seu próprio banco de dados**. Esses tempos limites são específicos da empresa e devem ser definidos separadamente para cada empresa.
+Quando os volumes são altos, essas configurações de tempo limite podem não ser suficientes. Para atualizá-los, Acesse **Gerenciamento de dados \> Parâmetros de estrutura \> Trazer seu próprio banco de dados**. Esses tempos limites são específicos da empresa e devem ser definidos separadamente para cada empresa.
 
 ## <a name="known-limitations"></a>Limitações conhecidas
 
@@ -88,11 +90,20 @@ O recurso de BYOD tem as seguintes limitações:
 
 **Problema:** Quando um push completo ocorre para uma entidade, você vê um grande conjunto de registros no BYOD quando usa uma instrução **Select**. No entanto, ao fazer um push incremental, você verá apenas alguns registros no BYOD. Parece que o push incremental excluiu todos os registros e adicionou somente os registros alterados em BYOD.
 
-**Solução:** As tabelas de controle de alterações do SQL podem não estar no estado esperado. Em casos desse tipo, recomendamos que você desative o controle de alterações para a entidade e ative-o novamente. Para obter mais informações, consulte [Habilitar controle de alterações para entidades](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+**Solução:** As tabelas de controle de alterações do SQL podem não estar no estado esperado. Em casos desse tipo, recomendamos que você desative o controle de alterações para a entidade e ative-o novamente. Para obter mais informações, consulte [Habilitar controle de alterações para entidades](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Tabelas de preparo não são limpas
+
+**Problema:** ao usar o preparo para o projeto, as tabelas de preparo não são limpas corretamente. Os dados nas tabelas continuam a crescer, causando problemas de desempenho.
+
+**Solução:** sete dias de histórico são mantidos nas tabelas de preparo. Os dados históricos com mais de sete dias são automaticamente limpos das tabelas de preparo pelo trabalho em lotes **Limpeza de preparo de importação/exportação**. Se esse trabalho ficar preso, as tabelas não serão limpas corretamente. A reinicialização desse trabalho em lotes continuará o processo para limpar automaticamente as tabelas de preparo.
 
 ## <a name="see-also"></a>Consulte também
 
-[Visão geral do gerenciamento de dados](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
-[Trazer seu próprio banco de dados (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
-[Visão geral de trabalhos de importação e exportação de dados](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
-[Habilitar o controle de alterações para entidades](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+[Visão geral do gerenciamento de dados](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Trazer seu próprio banco de dados (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Visão geral de trabalhos de importação e exportação de dados](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Habilitar o controle de alterações para entidades](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

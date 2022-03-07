@@ -2,7 +2,7 @@
 title: Atribuir trabalhadores a um plano de licença
 description: Atribua funcionários e prestadores de serviço a planos de licença no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3407acc164aab1bd1afb2429fc5a221edd0a2493
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c2bf77e32271102cf908f0588ae4d84ffade20a8
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417338"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116011"
 ---
 # <a name="assign-workers-to-a-leave-plan"></a>Atribuir trabalhadores a um plano de licença
 

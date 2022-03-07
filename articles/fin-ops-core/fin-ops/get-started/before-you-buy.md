@@ -2,11 +2,9 @@
 title: Antes de comprar
 description: Orientações passo a passo que você poderá usar quando estiver considerando a compra do Dynamics 365 Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce.
 author: ShellyBakke
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798540"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874575"
 ---
 # <a name="before-you-buy"></a>Antes de comprar
 
@@ -44,7 +42,7 @@ As seguintes considerações devem ser executadas quando você escolhe locais co
 - [Requisitos do sistema para implantações locais](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Implantações locais não têm suporte em nenhuma infraestrutura de nuvem pública, incluindo o Microsoft Azure.
+> Implantações locais não têm suporte em nenhuma infraestrutura de nuvem pública, incluindo o Microsoft Azure. No entanto, elas têm suporte para serem executadas no [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) e no [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Para obter mais informações, consulte [Opções de implantação](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -88,8 +86,11 @@ Para recursos adicionais, consulte:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Etapa quatro: Saiba mais sobre o FastTrack e planeje sua implantação
 
-O Microsoft FastTrack for Dynamics 365 é nosso serviço de cliente bem-sucedido criado para ajudar você a mudar para o Dynamics 365 perfeita e seguramente para que você possa obter valor comercial de forma mais rápida. Ao participar do programa FastTrack, você receberá orientação sobre práticas recomendadas e como planejar distribuições bem-sucedidas. Você também aprenderá formas de permitir novos usuários e expandir recursos - tudo no seu próprio ritmo. Além disso, você terá acesso a recursos de engenharia do Microsoft para tornar sua experiência com o Dynamics 365 bem-sucedida. Para obter mais informações, consulte [Microsoft FastTrack](fasttrack-dynamics-365-overview.md).
+O Microsoft FastTrack for Dynamics 365 é nosso serviço ao cliente bem-sucedido criado para ajudar você a migrar para o Dynamics 365 de forma perfeita e segura a fim de obter valor comercial mais rapidamente. Ao participar do programa FastTrack, você receberá orientação sobre práticas recomendadas e como planejar distribuições bem-sucedidas. Você também aprenderá formas de permitir novos usuários e expandir recursos - tudo no seu próprio ritmo. Além disso, você terá acesso a recursos de engenharia do Microsoft para tornar sua experiência com o Dynamics 365 bem-sucedida. Para obter mais informações, consulte [Microsoft FastTrack](/dynamics365/fasttrack/).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Se estiver atualizando do Dynamics AX 2012 ou migrando do AX 2009
 
 Se você é um cliente que está atualizando do Microsoft Dynamics AX 2012 ou migrando do Microsoft Dynamics AX 2009, pode estar qualificado para uma avaliação mais longa. Entre em contato com <daxcf@microsoft.com> para obter mais informações.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

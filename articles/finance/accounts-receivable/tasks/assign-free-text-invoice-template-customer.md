@@ -2,11 +2,9 @@
 title: Atribuir um modelo de fatura de texto livre a um cliente
 description: Essa tarefa demonstra como atribuir um modelo de nota fiscal de texto livre a um cliente.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb5dd96cb71dcee6db97ad1074e7e75565ac4101
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb8a683792051a95b443fac47b4670f37c12cc4b4142ee2290b89ee1845662cf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969619"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740089"
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Atribuir um modelo de fatura de texto livre a um cliente
 
@@ -28,7 +26,7 @@ ms.locfileid: "4969619"
 
 Essa tarefa demonstra como atribuir um modelo de nota fiscal de texto livre a um cliente. Esta tarefa usa a empresa de demonstração USMF e é direcionada para o usuário responsável por gerenciar e processar faturas A/R.
 
-1. No **Painel de Navegação**, vá para **Módulos > Contas a receber > Clientes > Todos os clientes**.
+1. No **Painel de Navegação**, Acesse **Módulos > Contas a receber > Clientes > Todos os clientes**.
 2. Na lista, localize e selecione o registro desejado.
 3. No **Painel de Ações**, clique em **Fatura**.
 4. Clique em **Faturas recorrentes**. Use esta página para atribuir modelos de fatura de texto livre para clientes e especificar quão frequentemente as faturas serão enviadas ao cliente.  
@@ -49,3 +47,6 @@ Essa tarefa demonstra como atribuir um modelo de nota fiscal de texto livre a um
     + Anual - Escolha essa opção e insira o número de anos no campo Por. Por exemplo, se você inserir 2, uma fatura será gerada a cada dois anos para esse cliente.  
 14. No campo **Por**, insira um número.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

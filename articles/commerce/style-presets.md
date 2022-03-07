@@ -1,36 +1,31 @@
 ---
-title: Trabalhar com estilos predefinidos
-description: Este tópico descreve como trabalhar com layouts predefinidos de site no Microsoft Dynamics 365 Commerce.
+title: Trabalhar com predefinições de estilo
+description: Este tópico descreve como trabalhar com predefinições de estilo de site no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410257"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964844"
 ---
-# <a name="work-with-style-presets"></a>Trabalhar com estilos predefinidos
+# <a name="work-with-style-presets"></a>Trabalhar com predefinições de estilo
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como trabalhar com layouts predefinidos de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
+Este tópico descreve como trabalhar com predefinições de estilo de site no construtor de sites do Microsoft Dynamics 365 Commerce.
 
 Uma predefinição de estilo é um conjunto armazenado de todos os valores de estilo que pode ser criado no tema de um site. Ele pode ser usado para alterar imediatamente a aparência de um site do construtor de sites. As predefinições de estilo permitem que o criador de sites do Commerce altere, visualize e ative rapidamente um conjunto de valores de estilo no site sem a necessidade de usar folhas de estilo em cascata (CSS) ou implantar temas. Estilos de fonte, estilos de botão e cores de site são exemplos típicos de variáveis de estilo que podem ser gerenciadas por meio de predefinições de estilo.
 
@@ -44,7 +39,7 @@ No construtor de sites, os autores podem selecionar entre as predefinições int
 
 Para visualizar uma predefinição de estilo no seu site no construtor de sites, siga estas etapas.
 
-1. No painel de navegação esquerdo do site, vá para **Configurações do Site \> Design**.
+1. No painel de navegação esquerdo do site, Acesse **Configurações do Site \> Design**.
 1. Na guia **Predefinições de estilo** na parte superior do editor de design, na lista **Predefinições disponíveis**, selecione uma predefinição e, em seguida, selecione **Exibir** para ir para o editor de predefinições.
 
     No momento, se não houver predefinições na lista **Predefinições disponíveis**, consulte [Criar uma predefinição de estilo personalizada](#create-a-custom-style-preset) para obter informações sobre como criar uma predefinição de estilo personalizada.
@@ -66,7 +61,7 @@ Para visualizar uma predefinição de estilo no seu site no construtor de sites,
 
 Para criar uma predefinição de estilo personalizada no construtor de sites, siga estas etapas.
 
-1. No painel de navegação esquerdo do site, vá para **Configurações do Site \> Design**.
+1. No painel de navegação esquerdo do site, Acesse **Configurações do Site \> Design**.
 1. Na guia **Predefinições de estilo** na parte superior do editor de design, na barra de comandos, selecione **Nova predefinição**.
 1. Insira um nome e um descrição para a nova predefinição e selecione **Salvar**. É criada uma nova predefinição personalizável que usa os valores padrão do tema como ponto de partida.
 
@@ -86,7 +81,7 @@ Alguns valores de estilo podem ser exclusivos para um tipo de módulo, ou talvez
 
 Para alterar os valores de tipo global ou de módulo de uma predefinição de estilo no construtor de sites, siga estas etapas.
 
-1. No painel de navegação esquerdo do site, vá para **Configurações do Site \> Design**.
+1. No painel de navegação esquerdo do site, Acesse **Configurações do Site \> Design**.
 1. Na guia **Predefinições de estilo** na parte superior do editor de design, selecione **Exibir** para qualquer predefinição de estilo para ir para o editor de predefinições.
 1. Selecione **Visualização** e, em seguida, siga as etapas de seleção da URL para abrir uma visualização de janela inteira do navegador para a predefinição. Deixe esta janela de visualização do navegador aberta.
 1. No editor de predefinições, selecione **Editar** no canto superior direito.
@@ -121,10 +116,11 @@ Os valores de estilo da predefinição são ativados no seu site público.
 
 [Adicionar um favicon](add-favicon.md)
 
-[Adicionar uma mensagem de boas-vindas](add-welcome-message.md)
-
 [Adicionar um aviso de direitos autorais](add-copyright-notice.md)
 
 [Adicionar idiomas ao seu site](add-languages-to-site.md)
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

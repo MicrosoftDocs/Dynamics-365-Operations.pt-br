@@ -1,12 +1,10 @@
 ---
 title: Status de manutenção
 description: Este tópico explica como calcular o status de manutenção no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetStatusCalculate, EntAssetStatus
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5bac42d5cdc62361ee9a562e59bafa09ca7a215
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018487"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808607"
 ---
 # <a name="maintenance-status"></a>Status de manutenção
 
@@ -67,3 +65,6 @@ Na captura de tela abaixo, foram adicionadas informações sobre locais funciona
 
 ![Exemplo de carga de trabalho mensal com locais funcionais](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

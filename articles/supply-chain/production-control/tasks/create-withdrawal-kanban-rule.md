@@ -2,27 +2,24 @@
 title: Criar uma regra kanban de retirada
 description: Este procedimento mostra a configuração necessária para criar uma regra kanban de saída para transferir o material em um ambiente de lean.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 963a6dce8affc23f001dcb04219821ceff3a2d92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2adbcdbb2d278b25dce1d8c027e66367e9c0930e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421892"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828817"
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a>Criar uma regra kanban de retirada
 
@@ -64,3 +61,6 @@ Este procedimento mostra a configuração necessária para criar uma regra kanba
     * Isso criará dois kanbans.  
     * Note que 2 kanbans, para cada 5, foram criados para essa regra kanban de retirada.  Esta é a última etapa do procedimento.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

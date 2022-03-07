@@ -1,12 +1,10 @@
 ---
-title: Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção
+title: Tipos de trabalhos de manutenção, categorias, variantes, negócios e listas de verificação
 description: Este tópico descreve as categorias do tipo de trabalho de manutenção e os tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetJobTypeDefaultForecast, EntAssetJobTrade, EntAssetJobTypeDefaultCopy, EntAssetChecklistVariableValueLookup, EntAssetChecklistTemplateCreate, EntAssetJobVariant, EntAssetJobTypeDefaultReference, EntAssetJobTypeDefaultChecklist, EntAssetJobTypeDefault, EntAssetJobType, EntAssetJobTypeDefaultChecklistCopy, EntAssetChecklistTemplate, EntAssetJobTypeDefaultDescription, EntAssetJobTypeLookup, EntAssetJobTypeDefaultToolCopy, EntAssetJobTypePreviewPart, EntAssetJobTypeDefaultTool, EntAssetJobTypeDefaultForecastCopy, EntAssetChecklistTemplateLookup, EntAssetJobGroup, EntAssetChecklistVariable
 audience: Application User
@@ -14,21 +12,19 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 252829ac2d070833023f1b49aef615cc376f37b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021260"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344631"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tipos de trabalhos de manutenção, categorias, variantes, negócios e listas de verificação
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Um tipo de ativo está associado a cada ativo. Os tipos de ativos definem os tipos de trabalho de manutenção (e portanto, os trabalhos de manutenção) que podem ser executados nos ativos. Ao criar uma ordem de serviço, você deve selecionar um tipo de trabalho de manutenção. Você pode selecionar somente os tipos de trabalho de manutenção relacionados à configuração do tipo de ativo usado para o ativo.
 
@@ -58,7 +54,7 @@ Primeiro você configura as categorias do tipo de trabalho de manutenção, as g
 
     Após relacionar as categorias do tipo de trabalho de manutenção aos tipos de trabalho de manutenção, o campo **Tipos de trabalho** mostra o número de tipos de trabalho de manutenção relacionados a esta categoria do tipo de trabalho de manutenção.
 
-![Página Categorias do tipo de trabalho de manutenção](media/01-setup-for-work-orders.png)
+![Página Categorias do tipo de trabalho de manutenção.](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>Criar uma grade do tipo de trabalho de manutenção
 
@@ -72,7 +68,7 @@ Primeiro você configura as categorias do tipo de trabalho de manutenção, as g
 
     Na Guia Rápida **Detalhes**, o campo **Tipos de trabalhos** mostrará o número de tipos de trabalho de manutenção que foram adicionados a essa grade do tipo de trabalho de manutenção.
 
-![Página Variantes do tipo de trabalho de manutenção](media/02-setup-for-work-orders.png)
+![Página Variantes do tipo de trabalho de manutenção.](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Criar um ofício do trabalho de manutenção
 
@@ -93,7 +89,7 @@ Primeiro você configura as categorias do tipo de trabalho de manutenção, as g
 
     Na Guia Rápida **Detalhes**, o campo **Certificados** mostrará o número de certificados que foram adicionados a esse ofício do trabalho de manutenção.
 
-![Página Ofício do trabalho de manutenção](media/03-setup-for-work-orders.png)
+![Página Ofício do trabalho de manutenção.](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Crie uma variável a lista de verificação de manutenção
 
@@ -114,7 +110,7 @@ Quando você cria linhas da lista de verificação de manutenção no padrão do
 6. No campo **Valor**, insira uma descrição do valor.
 7. No campo **Resultado**, selecione um resultado da linha.
 
-![Página Variáveis da lista de verificação de manutenção](media/04-setup-for-work-orders.png)
+![Página Variáveis da lista de verificação de manutenção.](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Criar um modelo da lista de verificação de manutenção
 
@@ -143,7 +139,7 @@ Os modelos da lista de verificação de manutenção podem ser usados como um co
 
     Na Guia Rápida **Detalhes**, o campo **Verificações** mostra o número total de linhas da lista de verificação de seu modelo. Este número inclui linhas aninhadas em qualquer modelo existente que você fizer referência em seu modelo.
 
-![Página Modelos da lista de verificação de manutenção](media/05-setup-for-work-orders.png)
+![Página Modelos da lista de verificação de manutenção.](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Criar um tipo de trabalho de manutenção
 
@@ -166,7 +162,7 @@ Os modelos da lista de verificação de manutenção podem ser usados como um co
 
 11. Na Guia Rápida **Tipos de ativos**, você pode adicionar tipos de ativos ao tipo de trabalho de manutenção.
 
-![Página Tipos de trabalho de manutenção](media/06-setup-for-work-orders.png)
+![Página Tipos de trabalho de manutenção.](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Crie linhas do padrão do tipo de trabalho de manutenção e previsões relacionadas, listas de verificação de manutenção, ferramentas, descrição e anexos.
 
@@ -235,7 +231,7 @@ Os modelos da lista de verificação de manutenção podem ser usados como um co
 31. Para copiar um padrão do tipo de trabalho de manutenção para outro, selecione a linha do padrão do tipo de trabalho de manutenção da qual será copiada a configuração, selecione **Copiar configuração** e, em seguida, selecione o padrão do tipo de trabalho de manutenção a ser copiado.
 32. Para exibir uma lista de ativos, planos de manutenção ou rounds de manutenção que atualmente uma uma linha padrão do tipo de trabalho de manutenção, selecione a linha e depois selecione **Usado por**.
 
-![Página Padrões do tipo de trabalho de manutenção](media/07-setup-for-work-orders.png)
+![Página Padrões do tipo de trabalho de manutenção.](media/07-setup-for-work-orders.png)
 
 Quando o sistema seleciona o padrão do tipo de trabalho de manutenção disponível que deve ser usado em uma linha da ordem de serviço, a seleção é baseada no ativo e na configuração do tipo de ativo relacionado. O Gerenciamento de Ativos passa por todos os registros padrão do tipo de trabalho de manutenção relacionados ao tipo de trabalho de manutenção relacionado ao tipo de ativo para verificar uma possível correspondência. Ele sempre verifica a combinação mais específica primeiro. Em outras palavras, para localizar a combinação mais específica, o Gerenciamento de Ativos primeiro verifica uma possível correspondência do campo **Ofício**. Se nenhuma correspondência for encontrada, ele verificará se há uma correspondência para o campo **Variação de tipo de trabalho de manutenção**. Se nenhuma correspondência for encontrada, ele verifica uma correspondência do campo **Tipo de cargo de manutenção** e assim por diante (**Ofício**, em seguida, **Grade do tipo de trabalho de manutenção**, em seguida, **Tipo de trabalho de manutenção**, em seguida, **Ativo**, **Modelo**, **Fabricante** e, em seguida, **Tipo de ativo**). Se nenhuma correspondência for encontrada, será usado o registro padrão onde somente o tipo de trabalho de manutenção está selecionado.
 
@@ -256,7 +252,7 @@ Após criar as combinações padrão do tipo de trabalho de manutenção necess�
 4. Selecione uma combinação do tipo de trabalho de manutenção para ver a configuração relacionada das listas de verificação de manutenção, previsões e ferramentas. A seção **Detalhes** na Guia Rápida **Padrões do tipo de trabalho de manutenção** mostra o número de listas de verificação de manutenção relacionadas, horas previstas, itens etc, que estão relacionados à combinação do tipo de trabalho de manutenção selecionada.
 5. Para exibir detalhes do tipo de trabalho de manutenção selecionado, selecione **Tipos de trabalhos de manutenção**. 
 
-![Página Tipos de trabalho de manutenção do ativo](media/08-setup-for-work-orders.png)
+![Página Tipos de trabalho de manutenção do ativo.](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Atualização automática das previsões do tipo de trabalho de manutenção
 
@@ -266,3 +262,6 @@ No Gerenciamento de Ativos, você pode atualizar automaticamente todas as altera
 2. Na caixa de diálogo **Atualizar previsão do tipo de trabalho de manutenção**, na Guia Rápida **Registros a serem incluídos**, você pode adicionar seleções para tipos de trabalho de manutenção específicos, conforme necessário. Selecione **Filtro** e **Selecionar** para fazer as seleções.
 3. Na Guia Rápida **Executar em segundo plano**, você pode configurar a atualização automática como um trabalho em lote, conforme necessário.
 4. Selecione **OK** para iniciar a atualização da previsão.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

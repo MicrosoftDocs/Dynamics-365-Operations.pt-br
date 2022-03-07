@@ -1,29 +1,25 @@
 ---
 title: Visão geral do gerenciamento de serviço
 description: Use Gerenciamento de serviço para estabelecer contratos de serviço e subscrições de serviço, lidar com ordens de serviço e consultas de cliente e gerenciar e analisar a entrega de serviços a clientes.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 451aeebd46d60251eed940016486509c4aa3f458
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b9b8444c635fe08a224314d1b76de5ac8d9defbc
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421873"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982991"
 ---
 # <a name="service-management-overview"></a>Visão geral do gerenciamento de serviço
 
@@ -50,7 +46,7 @@ Use as ferramentas de relatório para monitorar transações de subscrição e m
 
 O diagrama a seguir ilustra os processos de negócios de alto nível para **Gerenciamento de serviço** e mostra onde os processos de serviço se integram a outros módulos.
 
-[![Diagrama de processos de negócios do gerenciamento de serviços](./media/sm_home_page.gif)](./media/sm_home_page.gif)
+[![Diagrama de processos de negócios do gerenciamento de serviços.](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 
 ## <a name="service-management-at-a-glance"></a>Visão geral do gerenciamento de serviços
 
@@ -67,7 +63,10 @@ O diagrama a seguir ilustra os processos de negócios de alto nível para **Gere
 O gerenciamento de serviços pode ser integrado aos seguintes módulos:
 
   - [Visão geral de vendas e marketing](../sales-marketing/overview-sales-marketing.md)
-  - [Recursos humanos](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
+  - [Recursos humanos](/dynamics365/unified-operations/talent/index)
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

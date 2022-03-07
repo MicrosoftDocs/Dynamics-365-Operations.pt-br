@@ -1,7 +1,7 @@
 ---
 title: Criar uma requisição para consumo
 description: Este tópico descreve o processo de criação de uma requisição.
-author: RichardLuan
+author: mkirknel
 manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -10,16 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: riluan
+ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76a24999eef16f239578dd6c8cf9e2e5a8ca634
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: acc2cdb9b74cccaefe565b0e2ae8ec4c5f2401c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018912"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422051"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Criar uma requisição para consumo
 

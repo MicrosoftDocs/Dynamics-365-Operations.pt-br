@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d27547b640e77ac42680a2028f7e4da545542a1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8fe45f28e4221532b08f8b09e1382185dc938b1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408407"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5265430"
 ---
 # <a name="set-up-pis-and-cofins-tables-brazil"></a>Configurar tabelas de PIS e COFINS (Brasil)
 
@@ -46,3 +45,6 @@ Antes da apuração de imposto PIS e COFINS ser criada, você deve configurar as
 14. Clique em Salvar.
 15. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

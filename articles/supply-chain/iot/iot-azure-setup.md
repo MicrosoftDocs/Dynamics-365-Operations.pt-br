@@ -2,27 +2,24 @@
 title: Configurar recursos do Azure para Inteligência de IoT
 description: Este tópico explica como criar e configurar os recursos do Microsoft Azure necessários para a Inteligência de IOT.
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: ''
-ms.search.scope: Core, Operations
+ms.reviewer: rhaertle
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: b605f283bc53c1c5b87ad88d4f19aeba9737e00563290413f3cb75b4e20dbbde
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422497"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774864"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurar recursos do Azure para Inteligência de IoT
 
@@ -40,7 +37,7 @@ Para verificar se a ID do aplicativo para o aplicativo interno de microsserviço
 
 1. Entre no portal do Azure em <https://portal.azure.com>.
 2. Acesse **Azure Active Directory**.
-3. Vá para **Aplicativos corporativos**.
+3. Acesse **Aplicativos corporativos**.
 4. No campo **Tipo de aplicativo**, selecione **Aplicativos da Microsoft**.
 5. No campo de pesquisa, insira os **microsserviços do Microsoft Dynamics ERP**.
 6. Verifique se **microsserviços do Microsoft Dynamics ERP** estão na lista. Outros aplicativos têm nomes semelhantes. Portanto, certifique se você encontrou a aplicação correta. A ID do aplicativo é **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
@@ -72,7 +69,7 @@ O cofre de chaves é criado em segundo plano.
 
 Para criar um recurso de Hub IoT, siga estas etapas.
 
-1. Crie ou vá para um grupo de recursos.
+1. Crie ou Acesse um grupo de recursos.
 2. Selecione **Adicionar**.
 3. Na página **Novo**, no campo de pesquisa, insira o **Hub Iot**. Depois, selecione **Criar**.
 4. No campo **Nome de Hub IoT**, insira um nome.
@@ -88,7 +85,7 @@ O Hub IoT é criado em segundo plano.
 
 Para criar um recurso de cache Redis, siga estas etapas.
 
-1. Crie ou vá para um grupo de recursos.
+1. Crie ou Acesse um grupo de recursos.
 2. Selecione **Adicionar**.
 3. Na página **Novo**, no campo de pesquisa, insira **Cache do Azure para Redis**. Depois, selecione **Criar**.
 4. No campo **Nome do DNS**, insira um nome.
@@ -137,7 +134,7 @@ Para salvar o segredo da cadeia de conexão do Hub IoT, siga estas etapas.
 1. Em seus recursos, selecione o recurso de Hub IoT.
 2. No painel de navegação esquerdo, selecione **Empresas internas**.
 3. Copie o valor no campo **Ponto de extremidade compatível com Hub de eventos**.
-4. Vá para o recurso de cofre de chaves.
+4. Acesse o recurso de cofre de chaves.
 5. No painel de navegação à esquerda, selecione **Segredos**.
 6. Selecione **Gerar/Importar**.
 7. No campo **Nome**, insira um nome.
@@ -151,7 +148,7 @@ Para salvar o segredo da cadeia de conexão do cache Redis, siga estas etapas.
 1. Em seus recursos, selecione o recurso de cache Redis.
 2. Selecione **Chaves de acesso**.
 3. Copie o valor no campo **Sequência de conexão primária**.
-4. Vá para o recurso de cofre de chaves.
+4. Acesse o recurso de cofre de chaves.
 5. No painel de navegação à esquerda, selecione **Segredos**.
 6. Selecione **Gerar/Importar**.
 7. No campo **Nome**, insira um nome.
@@ -162,3 +159,6 @@ Para salvar o segredo da cadeia de conexão do cache Redis, siga estas etapas.
 > Sempre que você atualizar uma das cadeias de conexão, deverá atualizar também os valores secretos.
 
 Você concluiu o provisionamento dos recursos necessários do Azure. A próxima etapa é [instalar o suplemento de Inteligência de IOT Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

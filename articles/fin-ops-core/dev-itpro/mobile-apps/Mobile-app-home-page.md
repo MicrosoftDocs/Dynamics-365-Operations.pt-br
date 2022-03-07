@@ -2,26 +2,24 @@
 title: Home page de Aplicativo móvel
 description: Este tópico descreve o aplicativo móvel Finance and Operations (Dynamics 365) e fornece links para recursos que podem ajudá-lo a implementá-lo em sua organização.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729699"
 ---
 # <a name="mobile-app-home-page"></a>Home page de Aplicativo móvel
 
@@ -29,8 +27,7 @@ ms.locfileid: "4683449"
 
 Este tópico descreve o aplicativo móvel **Finance and Operations (Dynamics 365)** e fornece links para recursos que podem ajudá-lo a implementá-lo em sua organização.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 O aplicativo móvel permite que sua organização disponibilize os processos empresariais nos dispositivos móveis. Depois que seu administrador de TI habilitar os espaços de trabalho de sua organização, os usuários podem entrar no aplicativo e começar imediatamente a executar os processos comerciais de seus dispositivos móveis. O aplicativo móvel inclui os seguintes recursos que podem ajudar a aumentar a produtividade:
 
@@ -42,7 +39,7 @@ O aplicativo móvel permite que sua organização disponibilize os processos emp
 ## <a name="elements-of-the-mobile-app"></a>Elementos do aplicativo móvel
 A navegação no aplicativo móvel consiste em quatro conceitos básicos: o painel, os espaços de trabalho, as páginas e as ações. 
 
-[![Conceitos de navegação no aplicativo móvel](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Conceitos de navegação no aplicativo móvel.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Quando você inicia o aplicativo, você vai para o **painel**.
 2. No painel, você pode ver uma lista de **espaços de trabalho** que foi publicada.
@@ -56,7 +53,7 @@ A navegação no aplicativo móvel consiste em quatro conceitos básicos: o pain
 ## <a name="implementation-process"></a>Processo de implementação
 A ilustração a seguir mostra o processo de implementação dos espaços de trabalho móveis fornecidos pela Microsoft e dos espaços de trabalho móveis personalizados. 
 
-[![Processo de implementação de aplicativos móveis](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Processo de implementação de aplicativos móveis.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar os espaços de trabalho móveis fornecidos pela Microsoft e os espaços de trabalho móveis personalizados. Os números na primeira coluna correspondem às etapas numeradas na ilustração anterior.
 
@@ -93,8 +90,8 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Espaço de trabalho móvel de estoque disponível</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Espaços de trabalho móveis das ordens de venda</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Espaço de trabalho móvel de colaboração de fornecedores</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Espaço de trabalho móvel de entrada de tempo do projeto</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Espaço de trabalho móvel de gerenciamento de despesas</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Espaço de trabalho móvel de entrada de tempo do projeto</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Espaço de trabalho móvel de gerenciamento de despesas</a></li>
 
 </ul></td>
 </tr>
@@ -151,3 +148,6 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 
 ## <a name="troubleshooting"></a>Solução de problemas
 [Recursos da plataforma móvel](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

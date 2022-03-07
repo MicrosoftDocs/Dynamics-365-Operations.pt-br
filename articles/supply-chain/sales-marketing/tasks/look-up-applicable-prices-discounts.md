@@ -1,26 +1,23 @@
 ---
 title: Pesquisar preços e descontos aplicáveis
 description: Este procedimento mostra como encontrar o preço e/ou desconto para um produto que é válido no momento para um cliente específico, sem criar uma ordem de venda.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c80ae00e1bcbc4498ec4705195c3208170cee1b1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421984"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578911"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Pesquisar preços e descontos aplicáveis
 
@@ -30,7 +27,7 @@ Este procedimento mostra como encontrar o preço e/ou desconto para um produto q
 
 
 ## <a name="find-the-applicable-price"></a>Localizar o preço aplicável
-1. Vá para Vendas e marketing > Preços e descontos > Encontrar preços.
+1. Acesse Vendas e marketing > Preços e descontos > Encontrar preços.
 2. No campo Conta do cliente, clique no botão suspenso para abrir a pesquisa.
 3. Na lista, localize e selecione o cliente US-001.
 4. Na lista, clique no link na linha selecionada.
@@ -54,9 +51,12 @@ Verifique se o campo Conta de cliente contém o número de cliente US-001
     * Verifique se o campo Quantidade está definido como 1.  
     * Os seguintes detalhes de definição de preços mostrados para o produto T0012 vêm de um ou mais contratos comerciais: O preço unitário é 1.000 CAD e a porcentagem de desconto é 5.  
 2. Defina a quantidade como '20'.
-    * A quantidade da ordem aumentada faz com que o desconto de linha que será oferecido ao cliente mude de 5 para 7 por cento.  
+    * A quantidade da ordem aumentada faz com que o desconto de linha que será oferecido ao cliente mude de 5 para 7%.  
     * O Valor líquido é calculado com base no preço unitário, desconto e na quantidade total.  
 3. Clique em Exibir desconto de linha.
-    * Existem dois contratos de linha de desconto para o produto T0012, especificando um desconto de 5 por cento para uma quantidade de linha de ordem de 1 a 10, e 7 por cento para quantidades de ordem acima de 10. Observe que os descontos estão aplicados a um grupo de produtos, neste exemplo, Grupo código 01, do qual o produto T0012 é membro.  
+    * Existem dois contratos de linha de desconto para o produto T0012, especificando um desconto de 5% para uma quantidade de linha de ordem de 1 a 10, e 7% para quantidades de ordem acima de 10. Observe que os descontos estão aplicados a um grupo de produtos, neste exemplo, Grupo código 01, do qual o produto T0012 é membro.  
 4. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

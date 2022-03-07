@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ankubik
 ms.search.validFrom: 2021-06-10
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d039b79684f87e7791fb9dae7cbdc6ced220bc092d9a0ab624616c1c345986da
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4b64af2e30109b8560d40c4c532504611528bbe
+ms.sourcegitcommit: 18ca2df785e9656fdd4e8c0734eca2b2624fda10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756766"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6294013"
 ---
 # <a name="parameters-for-the-master-plan-dont-exist"></a>Parâmetros para o plano mestre não existem
 
@@ -34,4 +34,4 @@ Devido a problemas de configuração, o sistema não consegue encontrar as confi
 
 ## <a name="resolution"></a>Resolução
 
-- Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres** e certifique-se de que um plano que tenha o nome especificado exista.
+- Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres** e certifique-se de que um plano que tenha o nome especificado exista.

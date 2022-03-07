@@ -2,11 +2,9 @@
 title: Lista de funções ER na categoria contêiner
 description: Este tópico fornece informações sobre as funções de contêiner que são compatíveis no relatório eletrônico (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 46d1af85773f6c3d07865658c554dee74fae625f
-ms.sourcegitcommit: e8a46e127d70986539c138b27a641bff6f6874d0
+ms.openlocfilehash: 95f207538ea4f0f7df775bf28d0dcf6529d1a91c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4739055"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753231"
 ---
 # <a name="list-of-er-functions-in-the-container-category"></a>Lista de funções ER na categoria contêiner
 
@@ -43,3 +41,6 @@ As [funções](er-formula-language.md#functions) de [relatório eletrônico (ER)
 [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
 
 [Linguagem da fórmula de relatório eletrônico](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

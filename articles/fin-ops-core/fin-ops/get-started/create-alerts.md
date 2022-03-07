@@ -1,26 +1,24 @@
 ---
 title: Criar regras de alerta
-description: Este tópico fornece informações sobre os alertas e explica como criar uma regra de alerta para que você seja notificado sobre eventos, como uma data do evento ou uma alteração específica que ocorra.
-author: tjvass
-manager: AnnBe
+description: Este tópico oferece informações sobre alertas e explica como criar uma regra de alerta.
+author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736189"
 ---
 # <a name="create-alert-rules"></a>Criar regras de alerta
 
@@ -102,3 +100,8 @@ Não é possível criar alertas para algumas fontes de dados secundárias em for
     ```
 2. Crie um alerta do formulário SysTableBrowser.
 
+### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Os alertas baseados em alterações não funcionam para alterações de status em lotes
+Os Alertas baseados em alteração não funcionam com as alterações de status em lotes porque estão desativados por motivos de desempenho. Em vez disso, você deverá configurar o recurso **Alertas em lotes**. Para obter mais informações, consulte [Configurar alertas para formulários avançados em lotes](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

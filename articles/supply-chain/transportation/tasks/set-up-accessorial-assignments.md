@@ -2,27 +2,24 @@
 title: Configurar atribuições suplementares
 description: Este procedimento mostra como iniciar uma atribuição suplementar.
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAccessorialAssignment
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d7f48da374a0434130f2cf95bf77a126635cd63
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 06139e87596965a481fc7fb2e2f653594be0ac1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422555"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838457"
 ---
 # <a name="set-up-accessorial-assignments"></a>Configurar atribuições suplementares
 
@@ -50,3 +47,6 @@ Este procedimento mostra como iniciar uma atribuição suplementar. Normalmente 
 14. No campo Taxa suplementar, insira um número.
 15. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

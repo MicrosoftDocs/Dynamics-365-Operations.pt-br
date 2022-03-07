@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c0a1ebd51830766332929792ddc0256ab15f5b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ca83d1920a61093012600ff453f35496b96b5e1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422357"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258533"
 ---
 # <a name="project-attached-to-service-agreement"></a>Projeto anexado ao contrato de serviço 
 
@@ -37,3 +36,6 @@ Todas as transações de ordem de serviço são registradas e lançadas por meio
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

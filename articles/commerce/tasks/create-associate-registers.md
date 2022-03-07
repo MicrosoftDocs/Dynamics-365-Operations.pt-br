@@ -2,11 +2,9 @@
 title: Criar e associar registros
 description: Este procedimento demonstra como criar um registro do ponto de venda (POS).
 author: rubencdelgado
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2415945c5a8f73e095627d638fcc572c50ffe8ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ff6fb42cd0b080ff576aa3a784cfce985d69fe0347af44dfa9935b4e8e5ffe00
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964886"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743350"
 ---
 # <a name="create-and-associate-registers"></a>Criar e associar registros
 
@@ -29,7 +27,7 @@ ms.locfileid: "4964886"
 
 Este procedimento demonstra como criar um registro do ponto de venda (POS). Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Vá para Varejo e Comércio > Configuração de canal > Configuração do PDV > Terminais.
+1. Acesse Varejo e Comércio > Configuração de canal > Configuração do PDV > Terminais.
 2. Clique em Novo.
 3. No campo Registrar número, digite uma ID para o novo registro.
     * A identificação do registro inclui tipicamente os códigos que ajudam a traçar o registro à loja que pertence e ao lugar dentro da loja.  
@@ -43,3 +41,6 @@ Este procedimento demonstra como criar um registro do ponto de venda (POS). Este
     * O número do registro da posição de EFT é usado para informar o processador do pagamento ao qual o terminal do pagamento está enviando pedidos da autorização. Este valor é chamado frequentemente de "ID de terminal ou "TID". O TID pode geralmente ser encontrado em uma etiqueta no dispositivo do pagamento.  
 9. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

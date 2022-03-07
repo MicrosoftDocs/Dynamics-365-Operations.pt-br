@@ -2,11 +2,9 @@
 title: Aplicar filtros a um plano
 description: Este tópico explica como usar filtros em um plano quando a funcionalidade Otimização de Planejamento for usada.
 author: ChristianRytt
-manager: tfehr
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0e65d04b7b5261ffe72e67ef5321967f7af0ca20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970372"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729018"
 ---
 # <a name="apply-filters-to-a-plan"></a>Aplicar filtros a um plano
 
@@ -45,7 +43,7 @@ Um filtro de plano é configurado para incluir os itens A, B e C. Em seguida, s�
 - **Filtro de runtime que inclui todos os itens (filtros em branco):** os itens A, B e C são incluídos na execução do planejamento, e a saída do planejamento anterior para os itens A e B é substituída.
 
 > [!NOTE]
-> Você deve evitar definir um filtro de plano no plano selecionado como **Plano mestre dinâmico atual** na página **Parâmetros de planejamento mestre**. Caso contrário, a funcionalidade de plano mestre dinâmico ficará limitada aos itens filtrados. Por exemplo, se os requisitos líquidos forem atualizados para um item e não fizerem parte do filtro de plano, nenhum resultado será gerado.
+> Se você definir um filtro de plano no plano selecionado como o **Plano mestre dinâmico atual** na página **Parâmetros de planejamento mestre**, a funcionalidade do plano mestre dinâmico ficará limitada aos itens filtrados. Por exemplo, se os requisitos líquidos forem atualizados para um item e não fizerem parte do filtro de plano, nenhum resultado será gerado.
 
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -58,3 +56,6 @@ Um filtro de plano é configurado para incluir os itens A, B e C. Em seguida, s�
 [Exibir logs de histórico de plano e de planejamento](plan-history-logs.md)
 
 [Cancelar um trabalho de planejamento](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Criar um grupo de arrendamento
 description: Este tópico explica como configurar grupos de arrendamento. Os grupos de arrendamento são necessários para criar novos arrendamentos.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeaseGroupTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f8512a59d0e9935090f97a0f0237bfefc8473955
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 5ff4892408aa87214231762452c195274192447512525ae9c1f08dad8e318076
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440550"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728094"
 ---
 # <a name="create-a-lease-group"></a>Criar um grupo de arrendamento
 
@@ -50,3 +47,6 @@ Depois de criar grupos de arrendamento, você pode atribuir registros a cada gru
 1. Acesse **Arrendamento de ativo \> Configuração \> Grupo de arrendamento**.
 2. Selecione um grupo de arrendamento e, em seguida, selecione **Registros**.
 3. Selecione **Novo** e, no campo **Tipo de registro**, selecione o registro a ser atribuído ao grupo de arrendamento. Caso seja necessário considerar um arrendamento de maneiras diferentes, você pode atribuir vários registros a um grupo de arrendamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

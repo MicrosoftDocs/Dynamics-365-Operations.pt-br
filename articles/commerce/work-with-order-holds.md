@@ -2,16 +2,13 @@
 title: Configurar e trabalhar com bloqueios de ordem do call center
 description: Este tópico descreve como trabalhar com bloqueios em ordens usando o Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410205"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762587"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configurar e trabalhar com bloqueios de ordem do call center
 
@@ -34,11 +31,11 @@ Este tópico descreve os recursos de bloqueio de ordem do Dynamics 365 Commerce 
 
 ## <a name="configuring-call-center-order-holds"></a>Como configurar bloqueios de ordem do call center
 
-Para usar os recursos de bloqueio de ordem do call center, primeiro defina códigos de bloqueio. Para criar um conjunto de códigos de bloqueio definidos pelo usuário, com base nas suas necessidades comerciais, vá para **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Códigos de bloqueio de ordem**. Opcionalmente, você pode sinalizar um dos códigos de bloqueio como o código de retenção padrão, definindo a opção **Padrão da ordem de venda** como **Sim** para ele. Esse código de bloqueio será usado a qualquer momento em que uma ordem de venda for colocada em espera. Se uma ordem de venda tiver reservado o estoque e as reservas precisarem ser removidas automaticamente se a ordem for colocada em espera por um motivo específico, defina a opção **Remover reservas de estoque** como **Sim** para os códigos de motivo.
+Para usar os recursos de bloqueio de ordem do call center, primeiro defina códigos de bloqueio. Para criar um conjunto de códigos de bloqueio definidos pelo usuário, com base nas suas necessidades comerciais, Acesse **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Códigos de bloqueio de ordem**. Opcionalmente, você pode sinalizar um dos códigos de bloqueio como o código de retenção padrão, definindo a opção **Padrão da ordem de venda** como **Sim** para ele. Esse código de bloqueio será usado a qualquer momento em que uma ordem de venda for colocada em espera. Se uma ordem de venda tiver reservado o estoque e as reservas precisarem ser removidas automaticamente se a ordem for colocada em espera por um motivo específico, defina a opção **Remover reservas de estoque** como **Sim** para os códigos de motivo.
 
-Para especificar o tipo de nota que será capturado quando usuários que colocam uma ordem de venda em espera inserirem notas opcionais, vá para **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber** e, na Guia Rápida **Configuração de vendas**, na guia **Geral**, defina o campo **Tipo de nota**. Use o campo **Status da ordem de venda Em Espera** para definir a cor que será usada para realçar ordens de venda que estão em espera quando são exibidas na página **Atendimento ao cliente**.
+Para especificar o tipo de nota que será capturado quando usuários que colocam uma ordem de venda em espera inserirem notas opcionais, Acesse **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber** e, na Guia Rápida **Configuração de vendas**, na guia **Geral**, defina o campo **Tipo de nota**. Use o campo **Status da ordem de venda Em Espera** para definir a cor que será usada para realçar ordens de venda que estão em espera quando são exibidas na página **Atendimento ao cliente**.
 
-Para criar um conjunto opcional de códigos de motivo de bloqueio, vá para **Varejo e Comércio** \> **Configuração de canal** \> **Códigos informativos**. Esses códigos informativos podem ser usados como um código de motivo secundário para definir mais o código de bloqueio principal. Selecione **Novo** para criar um conjunto de códigos de motivo e selecione **Subcódigos** para definir a lista de motivos adicionais. Para vincular os códigos informativos que você definir para o canal de call center, vá para **Varejo e Comércio** \> **Canais** \> **Call centers** \> **Todos os call centers**. Na Guia Rápida **Geral**, defina o campo **Código de bloqueio**.
+Para criar um conjunto opcional de códigos de motivo de bloqueio, Acesse **Varejo e Comércio** \> **Configuração de canal** \> **Códigos informativos**. Esses códigos informativos podem ser usados como um código de motivo secundário para definir mais o código de bloqueio principal. Selecione **Novo** para criar um conjunto de códigos de motivo e selecione **Subcódigos** para definir a lista de motivos adicionais. Para vincular os códigos informativos que você definir para o canal de call center, Acesse **Varejo e Comércio** \> **Canais** \> **Call centers** \> **Todos os call centers**. Na Guia Rápida **Geral**, defina o campo **Código de bloqueio**.
 
 ## <a name="putting-orders-on-hold"></a>Como colocar ordens em espera
 
@@ -46,7 +43,7 @@ As ordens criadas por usuários de call center no back office do Commerce podem 
 
 Durante a entrada da ordem, mas antes do envio e da confirmação da ordem, os usuários de call center podem colocar manualmente uma ordem em espera para impedir que ela seja liberada para o depósito para processamento. Por exemplo, o cliente que está inserindo a ordem pode não estar pronto para confirmá-la. Ou podem estar faltando dados críticos necessários na ordem para processá-la.
 
-Na página de entrada da ordem, o usuário de call center pode colocar uma ordem em espera usando a opção **Bloqueios de ordem** na guia **Ordem de venda** do menu de entrada da ordem. Outra opção é o usuário selecionar o item de menu **Bloqueio** na página **Resumo da ordem de venda** que aparece quando ele seleciona **Concluir** em uma ordem de venda de call center.
+Na página de entrada da ordem, o usuário de call center pode colocar uma ordem em espera usando a opção **Bloqueios de ordem** na guia **Ordem de venda** do menu de entrada da ordem. Outra opção é o usuário selecionar o item de menu **Bloqueio** na página **Resumo da ordem de venda** que aparece ao selecionar **Concluir** em uma ordem de venda de call center.
 
 Em ambos os casos, a página **Bloqueios da ordem** aparecerá. O usuário pode selecionar **Novo** para criar um bloqueio para a ordem. No campo **Código de bloqueio**, o usuário deve selecionar o código que melhor descreva o motivo do bloqueio. No campo **Código de motivo**, o usuário também pode selecionar um código adicional para fornecer um segundo nível de descrição do bloqueio.
 
@@ -56,7 +53,7 @@ Depois que as informações de bloqueio forem inseridas e salvas, o usuário pod
 
 Se o sinalizador **Habilitar conclusão de ordem** for ativado no canal de call center, o pagamento não precisará ser aplicado a uma ordem que foi colocada em espera. Em contraste, para uma ordem de venda que não esteja em espera, os usuários não poderão sair da página de entrada de ordem de venda até que o pagamento seja aplicado. É claro que o pagamento deverá ser efetuado antes da liberação do bloqueio da ordem.
 
-Além disso, os usuários de call center podem bloquear manualmente ordens suspeitas de fraude por algum motivo. As ordens também podem ser colocadas em espera automaticamente quando correspondem a critérios e regras de fraude. Para saber mais sobre esse tipo de bloqueio de ordem, consulte [Configurar alertas de fraude](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Além disso, os usuários de call center podem bloquear manualmente ordens suspeitas de fraude por algum motivo. As ordens também podem ser colocadas em espera automaticamente quando correspondem a critérios e regras de fraude. Para saber mais sobre esse tipo de bloqueio de ordem, consulte [Configurar alertas de fraude](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Como exibir e gerenciar ordens que estão em espera
 
@@ -73,7 +70,7 @@ Para exibir os detalhes de um bloqueio de ordem individual, os usuários podem a
 
 ### <a name="viewing-all-orders-that-are-on-hold"></a>Como exibir todas ordens que estão em espera
 
-Para exibir todas as ordens que foram colocadas em espera de forma manual ou automática, vá para **Varejo e Comércio** \> **Clientes** \> **Bloqueios de ordem**.
+Para exibir todas as ordens que foram colocadas em espera de forma manual ou automática, Acesse **Varejo e Comércio** \> **Clientes** \> **Bloqueios de ordem**.
 
 A bancada **Bloqueios de ordem** fornece uma exibição de lista de todas as ordens que estão em espera devido a ações de bloqueio manual ou relativo a fraudes. Aproveitando as opções padrão de filtragem e classificação na página, os usuários podem criar exibições que permitam gerenciar ou trabalhar com códigos de bloqueio específicos cuja revisão esteja sob sua responsabilidade. A bancada **Bloqueios de ordem** também indica o número de dias em que uma ordem está em espera. Essas informações podem ajudar os usuários a priorizarem a fila.
 
@@ -102,4 +99,7 @@ Se os usuários quiserem liberar um bloqueio, mas fazer alterações adicionais 
 
 ## <a name="reporting-options"></a>Opções de relatório
 
-Vá para **Varejo e Comércio** \> **Consultas e relatórios** \> **Relatórios de call center** \> **Relatório de bloqueios de ordem** para executar um relatório sobre os bloqueios de ordem por intervalo de datas, código de bloqueio ou outros critérios relacionados.
+Acesse **Varejo e Comércio** \> **Consultas e relatórios** \> **Relatórios de call center** \> **Relatório de bloqueios de ordem** para executar um relatório sobre os bloqueios de ordem por intervalo de datas, código de bloqueio ou outros critérios relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

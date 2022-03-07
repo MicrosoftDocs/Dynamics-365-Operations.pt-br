@@ -2,16 +2,13 @@
 title: Margens de segurança
 description: Este tópico descreve como as margens de segurança podem ser usadas com o Suplemento de Otimização de Planejamento do Microsoft Dynamics 365 Supply Chain Management.
 author: ChristianRytt
-manager: tfehr
 ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422056"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074958"
 ---
 # <a name="safety-margins"></a>Margens de segurança
 
@@ -44,7 +41,7 @@ Existem três tipos de margens de segurança:
 
 A ilustração a seguir mostra como essas margens de segurança se aplicam ao longo do tempo.
 
-![Margens de segurança](media/safety-margins-1.png)
+![Margens de segurança.](media/safety-margins-1.png)
 
 Todas as margens são definidas em dias. O valor padrão, *0* (zero), indica que nenhuma margem é aplicada. Se você configurar várias margens, todas elas somam o tempo desde a *data da ordem* de fornecimento até a *data da necessidade* da demanda. Por exemplo, uma configuração não tem prazo de entrega e todos os três tipos de margem estão definidos como um dia. Nesse caso, haverá três dias entre a data da ordem de fornecimento e a data obrigatória de demanda, portanto, se a data da ordem for 1° de julho, a data da necessidade seria 4 de julho.
 
@@ -54,7 +51,7 @@ A margem de recebimento é provavelmente a mais usada das três margens de segur
 
 A ilustração a seguir destaca a margem de recebimento.
 
-![Margem de recebimento](media/safety-margins-2.png)
+![Margem de recebimento.](media/safety-margins-2.png)
 
 A margem de recebimento é geralmente usada como buffer para garantir o tempo para o registro do depósito ou outros processos lentos que não são capturados como parte do prazo de entrega geral no sistema. Para compras, um benefício que é a *data de entrega* da ordem de compra avança de acordo. Se você aumentar o prazo de entrega em vez de usar uma margem de segurança, o fornecedor ainda será solicitado a entregar no último minuto.
 
@@ -64,23 +61,17 @@ Observe que a margem de recebimento não é aplicada quando um estoque disponív
 
 ### <a name="reorder-margin"></a>Margem de segurança
 
-> [!NOTE]
-> **Em breve:** este recurso ainda não tem suporte para a Otimização de Planejamento. Até que seja compatível, todos os valores que são inseridos em **Margem de segurança adicionada ao prazo de entrega do item** serão tratados como *zero* (0).
-
 A ilustração a seguir destaca a margem de segurança.
 
-![Margem de segurança](media/safety-margins-3.png)
+![Margem de segurança.](media/safety-margins-3.png)
 
 A margem de segurança é adicionada antes do prazo de entrega do item para todos os pedidos planejados durante o planejamento mestre. Portanto, garante mais tempo para que uma ordem de fornecimento seja feita. Essa margem é normalmente usada como um buffer para garantir tempo para outros processos de aprovação ou outros processos internos exigidos durante a criação de ordens de fornecimento. A margem de segurança é colocada entre *data da ordem* de fornecimento e *data de início*.
 
 ### <a name="issue-margin"></a>Margem de saída
 
-> [!NOTE]
-> **Em breve:** este recurso ainda não tem suporte para a Otimização de Planejamento. Até ser compatível todos os valores que são inseridos em **Margem de emissão deduzida da data obrigatória** serão tratados como *zero* (0).
-
 A ilustração a seguir destaca a margem de saída.
 
-![Margem de saída](media/safety-margins-4.png)
+![Margem de saída.](media/safety-margins-4.png)
 
 A margem de saída é deduzida da data obrigatória de demanda durante o planejamento mestre. Isso ajuda a garantir que você tenha tempo para reagir e enviar ordens de demanda de entrada. Essa margem é normalmente usada como buffer para garantir o envio e os processos de depósito de saída relacionados.
 
@@ -90,7 +81,7 @@ Observe que quando uma margem de saída é aplicada, as datas obrigatórias e de
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>Ativar margens de segurança no Gerenciamento de recursos
 
-Antes de poder usar esse recurso com a Otimização de Planejamento, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Antes de poder usar esse recurso com a Otimização de Planejamento, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
 
 - **Módulo:** _Planejamento mestre_
 - **Nome do recurso:** _Margens da Otimização de Planejamento_
@@ -105,7 +96,7 @@ A capacidade para definir a margem no plano mestre pode ser útil quando quiser 
 
 Para aplicar uma margem de segurança a um grupo de cobertura, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Configuração \> Grupos de cobertura**.
+1. Acesse **Planejamento mestre \> Configuração \> Grupos de cobertura**.
 1. No painel de lista, selecione o grupo de cobertura desejado.
 1. Na Guia Rápida **Outro**, na seção **Margens de segurança em dias**, use os campos a seguir para definir as margens de segurança necessárias (em dias):
 
@@ -117,7 +108,7 @@ Para aplicar uma margem de segurança a um grupo de cobertura, siga estas etapas
 
 Para aplicar uma margem de segurança a um plano mestre, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. No painel de lista, selecione o plano mestre desejado.
 1. Na Guia Rápida **Margens de segurança em dias**, na seção Margens de segurança em dias, use os campos a seguir para definir as margens de segurança necessárias (em dias):
 
@@ -129,7 +120,7 @@ Para aplicar uma margem de segurança a um plano mestre, siga estas etapas.
 
 Você pode definir todas as margens de segurança para serem calculadas com base em dias do calendário ou dias úteis.
 
-1. Vá para **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**.
+1. Acesse **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**.
 1. Na guia **Geral**, na seção **Margens de segurança em dias**, defina a opção **Dias úteis** como *Sim* para calcular margens com base em dias úteis. Defina a opção *Não* para calcular margens com base em dias do calendário.
 
 Por exemplo, um calendário é aberto de segunda a sexta e fechado de sábado a domingo. Se houver uma margem de recebimento de um dia, uma data obrigatória na segunda-feira gera uma data de entrega na sexta-feira anterior, porque sábado e domingo não são dias úteis.
@@ -168,7 +159,7 @@ A ilustração a seguir apresenta uma matriz que resume quais calendários se ap
 - **Depósito (WH):** amarelo
 - **Fornecedor (V):** azul
 
-[![Matriz de visão geral da configuração do calendário](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Matriz de visão geral da configuração do calendário.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Calculando atrasos
 
@@ -176,10 +167,13 @@ Os três tipos de margens de segurança são incluídos quando o sistema determi
 
 Por exemplo, um item tem prazo de entrega de um dia e uma margem de recebimento de três dias. Uma ordem de venda para este item é definida como exigida hoje. Nesse caso, o atraso é calculado como *prazo de entrega* + *margem de recebimento* = quatro dias. Portanto, se hoje for 14 de agosto, os quatro dias de atraso geram uma entrega em 18 de agosto. A ilustração a seguir mostra esse exemplo.
 
-![Exemplo de cálculo de atraso](media/safety-margins-delays.png)
+![Exemplo de cálculo de atraso.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Introdução à Otimização de Planejamento](get-started.md)
+[Introdução à Otimização do Planejamento](get-started.md)
 
 [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation, SalesQuotationsTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: a8633d6eec788035997c52322c3268b946fb0bfe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4422485"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218384"
 ---
 # <a name="price-simulation"></a>Simulação de preço
 
@@ -145,3 +144,6 @@ A simulação de preço afeta somente a linha na qual ela é aplicada e reduz o 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Calcular impostos em cotações de compra (Brasil)
 description: Você pode criar uma solicitação de cotação (RFQ) de compra e, ao inserir a resposta do fornecedor, você pode fornecer informações fiscais aplicáveis.
 author: sndray
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0630a4fa18523cb3ee71726e2c5c8c0e90554b29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 284f730e8f51325532b8091ac9a423ce65db6dcef9e2b5c3dd610bbcc0659ac1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750258"
 ---
 # <a name="calculate-tax-on-purchase-quotations-brazil"></a>Calcular impostos em cotações de compra (Brasil)
 
@@ -29,7 +26,7 @@ ms.locfileid: "4408485"
 
 Você pode criar uma solicitação de cotação (RFQ) de compra e, ao inserir a resposta do fornecedor, você pode fornecer informações fiscais aplicáveis. Quando a RFQ é aceita, cria-se uma ordem de compra com as mesmas informações fiscais inseridas no RFQ. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Aquisição e fornecimento > Solicitações de cotações > Todas as solicitações de cotações.
+1. Acesse Aquisição e fornecimento > Solicitações de cotações > Todas as solicitações de cotações.
 2. Clique em Novo.
 3. No campo Título do documento, digite um valor.
 4. No campo Local, insira ou selecione um valor.
@@ -46,7 +43,7 @@ Você pode criar uma solicitação de cotação (RFQ) de compra e, ao inserir a 
 15. Clique em OK.
 16. Feche a página.
 17. Feche a página.
-18. Vá para Compras > Solicitações de cotações > Acompanhamento de solicitações de cotações > Resposta da solicitação de cotação.
+18. Acesse Compras > Solicitações de cotações > Acompanhamento de solicitações de cotações > Resposta da solicitação de cotação.
 19. Na lista, clique no link na linha selecionada.
 20. Clique em Editar.
 21. No campo Quantidade, insira um número.
@@ -64,3 +61,6 @@ Você pode criar uma solicitação de cotação (RFQ) de compra e, ao inserir a 
 33. Feche a página.
 34. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

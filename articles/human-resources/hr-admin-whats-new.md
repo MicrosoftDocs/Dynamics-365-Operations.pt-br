@@ -1,16 +1,13 @@
 ---
 title: Novidades ou alterações no Human Resources
-description: A cada semana, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os tópicos listados aqui detalham as alterações feitas toda semana.
+description: A cada duas semanas, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os tópicos listados aqui detalham as alterações feitas toda semana.
 author: andreabichsel
-manager: AnnBe
-ms.date: 09/01/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm, FeatureManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 675a3f0faed0ce8be4ce2633585ce8e0cf1c9be7
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 9e914334e464a87d9a89680d0ef9998cc1484a4a
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669075"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303431"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novidades ou alterações no Human Resources
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 A cada duas semanas, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os tópicos listados aqui detalham as alterações feitas com cada versão.
 
@@ -39,7 +38,7 @@ A cada duas semanas, fornecemos uma nova versão do Microsoft Dynamics 365 Human
 
 Para obter mais informações sobre os recursos futuros ou o processo de atualização do Human Resources, consulte os artigos a seguir: 
 
-- [Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+- [Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 - [Atualizar processo](hr-admin-setup-update-process.md)
 
@@ -47,9 +46,19 @@ Para obter mais informações sobre os recursos futuros ou o processo de atualiz
 
 ## <a name="human-resources-weekly-releases"></a>Lançamentos semanais do Human Resources
 
-Para descobrir as novidades ou o que foi alterado em cada versão quinzenal do Human Resources, consulte os seguintes artigos:
+Para descobrir as novidades ou o que foi alterado em cada versão quinzenal do Human Resources, consulte os seguintes tópicos:
 
-[02 de dezembro de 2020](hr-whats-new-2020-12-02.md)</br>
+[22 de junho de 2021](hr-whats-new-2021-06-22.md)</br>
+[20 de maio de 2021](hr-whats-new-2021-05-20.md)</br>
+[3 de maio de 2021](hr-whats-new-2021-05-03.md)</br>
+[19 de abril de 2021](hr-whats-new-2021-04-19.md)</br>
+[5 de abril de 2021](hr-whats-new-2021-04-05.md)</br>
+[22 de março de 2021](hr-whats-new-2021-03-22.md)</br>
+[8 de março de 2021](hr-whats-new-2021-03-08.md)</br>
+[22 de fevereiro de 2021](hr-whats-new-2021-02-22.md)</br>
+[28 de janeiro de 2021](hr-whats-new-2021-01-28.md)</br>
+[21 de janeiro de 2021](hr-whats-new-2021-01-21.md)</br>
+[2 de dezembro de 2020](hr-whats-new-2020-12-02.md)</br>
 [22 de outubro de 2020](hr-whats-new-2020-10-22.md)</br>
 [16 de setembro de 2020](hr-whats-new-2020-09-16.md)</br>
 [3 de setembro de 2020](hr-whats-new-2020-09-03.md)</br>
@@ -76,6 +85,9 @@ Para descobrir as novidades ou o que foi alterado em cada versão quinzenal do H
 
 ## <a name="see-also"></a>Consulte também
 
-[Visão geral do ciclo de lançamentos 2 de 2020 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Visão geral do ciclo de lançamentos 2 de 2020 do Dynamics 365 Human Resources](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: ER Usar dimensões financeiras como uma fonte de dados (Parte 2 - Mapeamento de modelo)
-description: As etapas a seguir explicam como um usuário atribuído ao administrador do sistema ou função do desenvolvedor de relatório eletrônico pode configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER.
+description: Este tópico descreve como configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER. (Parte 2)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681676"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605396"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 2 - Mapeamento de modelo)
 
@@ -32,7 +30,7 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "ER 
 
 
 ## <a name="add-required-data-sources-to-model-mapping"></a>Adicionar fontes de dados necessários para criar mapeamento
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
+1. Acesse Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, selecione "Modelo de amostra de dimensão financeira".
 3. Clique em Designer.
 4. Clique em Mapear modelo para fonte de dados.
@@ -58,14 +56,14 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "ER 
 21. Selecione Sim no campo Pedir conta principal.
     * Defina "Solicitar conta principal" como Sim para permitir que usuários selecionem a contra principal como parte da lista de dimensões.   Defina como Não. A contra principal não será incluída na lista de dimensões, e a opção "A conta principal é obrigatória?" será habilitada. Se "A conta principal é obrigatória?" for definida como Sim, inclua a contra principal na lista de dimensões, independentemente da seleção do usuário.  
 22. Clique em OK.
-![Página de designer de mapeamento de modelo de ER](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Propriedades da fonte de dados de detalhes das dimensões financeiras deslizam.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Na árvore, selecione 'Dynamics 365 for Operations\Registros da tabela'.
 24. Clique em Adicionar raiz.
 25. No campo Nome, digite "LedgerJournal".
 26. Selecione Sim no campo Pedir consulta.
 27. No campo Tabela, digite 'LedgerJournalTable'.
 28. Clique em OK.
-![Página de designer de mapeamento de modelo de ER](../media/er-financial-dimensions-guides-model-mapping2.png)
+![Página Designer de mapeamento de Odel, tabela Registros do tipo de fonte de dados.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Mapear elementos de modelo de dados para adicionar fontes de dados
 1. Na árvore, expanda 'Diário'.
@@ -96,7 +94,7 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "ER 
 25. Na árvore, selecione "LedgerJournal\<Relações\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Conta principal e dimensões".
 26. Na árvore, selecione 'Diário\Transação\Dados de dimensões'.
 27. Clique em Associar.
-![Página de designer de mapeamento de modelo de ER](../media/er-financial-dimensions-guides-model-mapping3.png)
+!Página Designer de mapeamento de modelos, guia Mapeamento, árvore Fontes de dados.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Na árvore, selecione "LedgerJournal\<Relações\LedgerJournalTrans\Débito(AmountCurDebit)".
 29. Na árvore, selecione 'Diário\Transações\Débito'.
 30. Clique em Associar.
@@ -135,7 +133,7 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "ER 
 63. No campo expressionAsStringText, insira 'Company.'find()'.'name()''.
     * Empresa.'find()'.'name()'  
 64. Clique em Salvar.
-![Página de designer de mapeamento de modelo de ER](../media/er-financial-dimensions-guides-model-mapping4.png)
+![Página de designer de mapeamento de modelo de ER.](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. Feche a página.
 66. Clique em Salvar.
 67. Feche a página.
@@ -146,4 +144,7 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "ER 
 3. Clique em Alterar status.
 4. Clique em Concluir.
 5. Clique em OK.
-![Página de designer de mapeamento de modelo de ER](../media/er-financial-dimensions-guides-model-mapping5.png)
+![Página de configurações de ER.](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Adquirir e alienar um ativo fixo do CIAP
 description: Os livros fiscais podem adquirir e alienar ativos fixos de ICMS recuperável a longo prazo.
 author: v-gonode
-manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e06da35bfbf1cdd7bb60983eebcbc8622b55e7cf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14809b17b87bfa3bca0c379f31425e4ecfb7aca6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408458"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819542"
 ---
 # <a name="acquire-and-dispose-a-ciap-fixed-asset"></a>Adquirir e alienar um ativo fixo do CIAP
 
@@ -72,3 +69,6 @@ Use esta funcionalidade para registrar no módulo Livros fiscais a alienação d
 14. No **Relatório CIAP**, no campo **Estabelecimento fiscal**, selecione um estabelecimento fiscal.
 15. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

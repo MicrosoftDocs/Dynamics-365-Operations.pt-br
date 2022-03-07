@@ -2,35 +2,30 @@
 title: Visão geral das páginas de carrinho e de finalização da compra
 description: Este tópico fornece uma visão geral páginas de carrinho e de finalização da compra no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410295"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982959"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Visão geral das páginas de carrinho e de finalização da compra
 
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral páginas de carrinho e de finalização da compra no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 A página do carrinho de um site de comércio eletrônico mostra todos os itens que um cliente adicionou ao carrinho. A página do carrinho é criada usando o módulo do carrinho. O módulo do carrinho é um contêiner que hospeda todos os módulos necessários para mostrar itens no carrinho. O módulo do carrinho também pode usar outros módulos para mostrar o resumo do pedido e quaisquer códigos promocionais que foram aplicados ao pedido do cliente.
 
@@ -42,7 +37,7 @@ A página do carrinho serve como sacola de compras e contém todos os itens que 
 
 A ilustração a seguir mostra um exemplo de uma página do carrinho que é criada com a biblioteca de módulos e o tema “Fabrikam”.
 
-![Exemplo de uma página do carrinho](./media/cart2.PNG)
+![Exemplo de uma página do carrinho.](./media/cart2.PNG)
 
 O corpo principal da página do carrinho mostra todos os itens que o cliente adicionou ao carrinho. Todos os descontos aplicáveis são exibidos. Esses descontos incluem descontos complexos. Os exemplos incluem "Compre 3 itens e obtenha 10% de desconto" ou "Compre uma garrafa e uma mochila para obter 10% de desconto". O módulo de resumo do pedido mostra o valor devido após a aplicação de descontos, entrega, impostos etc. Há também um módulo de código promocional que permite ao cliente aplicar ou remover códigos promocionais.
 
@@ -58,7 +53,7 @@ A página de finalização de compra é onde os clientes inserem as informaçõe
 
 A ilustração a seguir mostra um exemplo de uma página de finalização de compra que foi criada usando a biblioteca de módulos.
 
-![Exemplo de uma página de finalização de compra](./media/Checkout.PNG)
+![Exemplo de uma página de finalização de compra.](./media/Checkout.PNG)
 
 O corpo principal da página de finalização de compra é onde todas as informações do pedido são coletadas. Essas informações incluem o endereço de entrega, as opções de entrega, e as informações de pagamento. A finalização de compra tem um fluxo passo a passo, porque as informações devem ser inseridas em um pedido específico para serem processadas. Por exemplo, o endereço de entrega deve ser inserido antes que os custos da entrega possam ser calculados e o pagamento possa ser autorizado.
 
@@ -88,7 +83,7 @@ O cliente pode concluir o processo de finalização como usuário convidado ou c
 
 ### <a name="order-summary"></a>Resumo da ordem
 
-A finalização de compra mostra um resumo dos itens de linha no carrinho, para que o cliente possa verificar o pedido antes de fazer o pedido. Os itens de linha não podem ser editados durante o fluxo de finalização de compra. No entanto, é fornecido um link para o carrinho, caso o usuário queira voltar e editar os itens de linha.
+O check-out mostra um resumo dos itens em linha no carrinho, para que o cliente possa verificar o pedido antes de finalizá-lo. Os itens de linha não podem ser editados durante o fluxo de finalização de compra. No entanto, é fornecido um link para o carrinho, caso o usuário queira voltar e editar os itens de linha.
 
 Depois que o cliente fornece as informações de entrega e cobrança, o resumo do pedido reflete o valor devido após a aplicação de pontos de fidelidade, vales-presentes e outros pagamentos.
 
@@ -107,3 +102,6 @@ Para obter informações sobre como criar uma página de carrinho, consulte [Adi
 [Visão geral das páginas de detalhes do produto](quick-tour-pdp.md)
 
 [Visão geral das páginas de gerenciamento da conta](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

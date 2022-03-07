@@ -1,12 +1,10 @@
 ---
 title: Agendar planos de manutenção
 description: Este tópico explica os planos de manutenção do agendamento no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731310"
 ---
 # <a name="schedule-maintenance-plans"></a>Agendar planos de manutenção
 
@@ -54,14 +52,14 @@ A programação de manutenção preventiva gera entradas de calendário de ativo
 
 5. Clique em **OK** para iniciar a geração de entradas do plano de manutenção de ativos. As entradas geradas serão mostradas na página de lista **Todos os planos de manutenção**. A ilustração a seguir mostra um exemplo da caixa de diálogo **Agendar planos de manutenção**.
 
-![Figura 1](media/09-preventive-maintenance.png)
+![Figura 1.](media/09-preventive-maintenance.png)
 
 - Na caixa de diálogo **Planos de manutenção do plano**, você pode configurar trabalhos em lotes na Guia Rápida **Executar em segundo plano** para gerar automaticamente entradas de calendário em intervalos regulares.  
 - Quando você agendar a manutenção preventiva, linhas de agendamento de manutenção com data e hora planejada de início anterior à data e hora do sistema não será criada.  
 
 A figura abaixo mostra uma ilustração gráfica de um cálculo de custos baseado no plano de manutenção.  
 
-![Figura 2](media/10-preventive-maintenance.jpg)
+![Figura 2.](media/10-preventive-maintenance.jpg)
 
 Com relação a planos de manutenção baseados em contador: nas figuras abaixo, dois ciclos de registro de contador diferentes são exibidos. Eles são baseados em um plano de manutenção configurado para ativo "V0001", esperando o ativo (um carro) executar aprox. 2.000 km todo mês.
 
@@ -71,7 +69,10 @@ Nesta figura, 2.000 ou mais são registrados cada mês. Portanto, três linhas d
 
 Os exemplos descritos aqui mostrar que todos os registros de contados feitos em um ativo mostram uma tendência descrevendo uso e desgaste no ativo. Essa tendência é usada como base de cálculo no momento do agendamento de plano de manutenção.
 
-![Figura 3](media/11-preventive-maintenance.png)
+![Figura 3.](media/11-preventive-maintenance.png)
 
-![Figura 4](media/12-preventive-maintenance.png)
+![Figura 4.](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

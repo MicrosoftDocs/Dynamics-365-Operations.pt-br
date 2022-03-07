@@ -2,7 +2,7 @@
 title: Visão Geral
 description: O Guia do usuário do Dynamics 365 Human Resources fornece instruções sobre como configurar o Human Resources, configurar remuneração e benefícios para seus funcionários e gerenciar sua força de trabalho.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417351"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115237"
 ---
 # <a name="overview"></a>Visão Geral
 
@@ -57,10 +57,9 @@ O Guia do usuário do Dynamics 365 Human Resources fornece instruções sobre co
 [Definir departamentos](hr-personnel-define-departments.md)</br>
 [Definir trabalhos](hr-personnel-define-jobs.md)</br>
 [Usar fluxos de trabalho para gerenciar informações de funcionários](hr-workflow-manage-employee-information.md)</br>
-[Modificar as relações de subordinação de uma posição](hr-personnel-modify-reporting-relationships-position.md)</br>
+[Modificar a relação de subordinação de um cargo](hr-personnel-modify-reporting-relationships-position.md)</br>
 [Inserir informações do trabalhador](hr-personnel-enter-worker-information.md)</br>
 [Emprestar itens a trabalhadores](hr-personnel-loan-item-worker.md)</br>
-[Inserir folhas de ponto do projeto](hr-personnel-enter-project-timesheets.md)</br>
 [Projetos de contratação em massa](hr-personnel-mass-hire-projects.md)</br>
 [Configurar posições](hr-personnel-set-up-positions.md)</br>
 [Configurar informações de ferimentos e doenças](hr-personnel-set-up-injury-illness-information.md)</br>

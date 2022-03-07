@@ -1,29 +1,31 @@
 ---
 title: Criar avaliações de desempenho
 description: Este tópico explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão.
-author: andreabichsel
-manager: AnnBe
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417277"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066941"
 ---
 # <a name="create-performance-reviews"></a>Criar avaliações de desempenho
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 Este tópico explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF.
@@ -66,15 +68,18 @@ Este tópico explica como criar uma previsão dos resultados e descreve a finali
 30. Selecione a guia **Classificações**.  
 
     - A Guia Rápida **Detalhes de classificação** permite que os funcionários se avaliem e que o gerente avalie os funcionários. Se pesos forem usados, o valor do peso dos pontos será calculado automaticamente.  
-    - Para exibir essa seção, habilite as configurações de parâmetro para exibição das classificações do funcionário.  
+    - Para exibir esta seção, habilite as configurações de parâmetro para mostrar as classificações de funcionário na página **Parâmetros compartilhados de recursos humanos**.  
 
-31. Selecione a guia **Aprovações**. Se a revisão usar um fluxo de trabalho, as aprovações aparecerão só depois da conclusão do fluxo de trabalho. Se nenhum fluxo de trabalho for usado, o trabalhador e o gerente estarão listados aqui. A caixa de seleção necessária é selecionada com base nas configurações do tipo de revisão.  
+31. Selecione a guia **Aprovações**. Se a revisão usar um fluxo de trabalho, as aprovações aparecerão só depois da conclusão do fluxo de trabalho. Se nenhum fluxo de trabalho for usado, o trabalhador e o gerente estarão listados aqui. A caixa de seleção **Necessário** para **Aprovações** é selecionada com base nas configurações do tipo de revisão.  
 32. Selecione a guia **Geral**.
 
     - O período de desempenho cria datas inicial e final padrão. Essas datas são editáveis.  
-    - Os status controlam o acesso à revisão. O status **Não iniciado** permite que todos editem a revisão. O status **Em andamento** permite que o funcionário só exiba e edite a revisão. **Aprontar para revisão** permite que somente o gerenciador exiba e edite a revisão. Status **final da revisão** permite que o funcionário e gerente exibam a revisão e também editá-la configuração se o tipo de análise. Os status **Concluído** e **Cancelado** deixam a revisão apenas leitura. Se uma revisão for **Rejeitada** e enviada de volta ao funcionário, o funcionário e o gerente poderão fazer as edições necessárias para que o funcionário possa reenviar.
+    - Os status controlam o acesso à revisão. O status **Não iniciado** permite que todos editem a revisão. O status **Em andamento** permite que o funcionário só exiba e edite a revisão. **Aprontar para revisão** permite que somente o gerenciador exiba e edite a revisão. O status **Revisão final** permite que o funcionário e o gerente exibam e editem a revisão se a opção **Permitir edição na revisão final** estiver selecionada no tipo de revisão. Os status **Concluído** e **Cancelado** deixam a revisão apenas leitura. Se uma revisão for **Rejeitada** e enviada de volta ao funcionário, o funcionário e o gerente poderão fazer as edições necessárias para que o funcionário possa reenviar.
 
 33. No campo **Visão geral**, digite um valor.
 34. Selecione a guia **Revisão**. Como revisão se move com o status, o funcionário e gerente podem adicionar comentários ou para cada meta competência.  
-35. Selecione a guia **Aprovações**. O trabalhador e o gerente podem aprovar a revisão. Quando todos os prazos de conexão exigidos for concluído, o status será alterado para **Concluído** e não poderá mais alteração ser feita.  
+35. Selecione a guia **Aprovações**. O trabalhador e o gerente podem aprovar a revisão. Quando todas as aprovações necessárias forem concluídas, o status será alterado para **Concluído** e nenhuma outra alteração poderá ser feita.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

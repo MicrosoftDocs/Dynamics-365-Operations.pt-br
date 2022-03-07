@@ -2,26 +2,23 @@
 title: Criar esquemas de competência
 description: Este tópico explica como criar um esquema de competência.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a83870c4cec4de2e51e90ff1889d4beff6c23f95
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ab36250365fefe37329f87769f16f546ca7326654db42aa7acb61fb37604ce2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440428"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779487"
 ---
 # <a name="create-accrual-schemes"></a>Criar esquemas de competência
 
@@ -41,3 +38,6 @@ Este tópico explica como criar um esquema de competência. Esta tarefa usa a em
 10. No campo **Número de ocorrências por período**, insira um número.
 11. No campo **Lançar transações**, selecione quando as transações devem ser lançadas, como **Mensalmente**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

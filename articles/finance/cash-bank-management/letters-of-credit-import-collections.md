@@ -2,28 +2,25 @@
 title: Cartas de crédito e coleções de importações
 description: Este artigo fornece informações gerais sobre letras de crédito e de conjuntos de importação. Ambos tipos de documento bancário são frequentemente usados para compra e venda de mercadorias entre as fronteiras internacionais.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 18321
 ms.assetid: 5c97ab81-632b-4043-a940-674bcb496c80
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c31b8af25ea231f23ac5f4968760257b3f5894f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 47309612ea7cbd0bb1047bec9c18f976e7063ce95f1708f27beae540cc3194ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440366"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751317"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Cartas de crédito e coleções de importações
 
@@ -31,8 +28,7 @@ ms.locfileid: "4440366"
 
 Este artigo fornece informações gerais sobre letras de crédito e de conjuntos de importação. Ambos tipos de documento bancário são frequentemente usados para compra e venda de mercadorias entre as fronteiras internacionais.
 
-<a name="letters-of-credit"></a>Cartas de crédito
------------------
+## <a name="letters-of-credit"></a>Cartas de crédito
 
 As cartas de crédito são usadas para transações internacionais e ajudam a garantir que os pagamentos sejam feitos. Uma carta de crédito é um contrato emitido por um banco, no qual o banco garante o pagamento em nome de um comprador, desde que as condições do contrato entre o comprador e o vendedor sejam atendidas. Uma carta de crédito também é conhecida como um crédito documentário (DC).
 
@@ -54,3 +50,6 @@ Uma coleção de importação garante o vendedor será pago quando o comprador r
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

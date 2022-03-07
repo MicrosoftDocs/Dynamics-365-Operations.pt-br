@@ -2,33 +2,31 @@
 title: Previsão de fluxo de caixa (versão preliminar)
 description: Este tópico descreve o recurso de previsão de fluxo de caixa.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/19/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f97b8fc0896f0f7b95bf5609f94367b3a8230ca7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: f4b48122ea54c201888d71afb5fb731ebcab230d
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645239"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638767"
 ---
 # <a name="cash-flow-forecast-preview"></a>Previsão de fluxo de caixa (versão preliminar)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 O fluxo de caixa é fundamental para qualquer negócio. Mesmo empresas lucrativas podem enfrentar insolvência se não mantiverem o fluxo de caixa para atender às necessidades imediatas. O recurso de previsão de fluxo de caixa nos insights de finanças pode ajudar as empresas a monitorar e gerenciar seus saldos de caixa com eficácia. Esse recurso usa o aprendizado de máquina para ajudar as empresas a prever fluxos de caixa com mais precisão do que antes. Também pode ajudar os gerentes a tomar decisões que otimizam as oportunidades no contexto da posição de caixa atual. 
 
@@ -66,5 +64,4 @@ Uma nova guia na página **Configuração de previsão de fluxo de caixa** permi
 
 Na guia **Dimensões**, escolha na lista de dimensões a ser usada para filtragem e use as teclas de seta para movê-las para a coluna à direita. Somente duas dimensões podem ser selecionadas para filtrar dados de previsão de fluxo de caixa. 
 
-#### <a name="privacy-notice"></a>Aviso de privacidade
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

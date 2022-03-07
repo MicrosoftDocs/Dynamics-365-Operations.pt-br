@@ -2,11 +2,9 @@
 title: Criar e atribuir uma política de comportamento de custos para uma unidade de controle de custos
 description: O comportamento de custo é a classificação de custos como fixo ou variável.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostBehaviorRule
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 110ab87586c926d719537d2c30225d1630ce7710
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 77e79b4959d546fd04c9705220c7f7a4c4a0ffd0621a66553adbe1a85b6cce39
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712258"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Criar e atribuir uma política de comportamento de custos para uma unidade de controle de custos
 
@@ -30,7 +28,7 @@ O comportamento de custo é a classificação de custos como fixo ou variável. 
 
 
 ## <a name="create-a-cost-behavior-hierarchy"></a>Criar uma hierarquia de comportamento de custo
-1. Vá para Contabilização de custos > Dimensões > Hierarquias de dimensões.
+1. Acesse Contabilização de custos > Dimensões > Hierarquias de dimensões.
 2. Clique em Novo.
 3. Clique em Criar.
 4. No campo Nome de hierarquia de dimensões, digite "Hierarquia de comportamento de custo".
@@ -63,7 +61,7 @@ O comportamento de custo é a classificação de custos como fixo ou variável. 
 24. Clique em Salvar.
 
 ## <a name="create-the-policy-and-rules"></a>Criar a política e as regras
-1. Vá para Contabilização de custos > Políticas > Políticas de comportamento de custo.
+1. Acesse Contabilização de custos > Políticas > Políticas de comportamento de custo.
 2. Clique em Novo.
 3. No campo Nome da política, digite um valor.
 4. No campo Hierarquia da dimensão de elemento de custo, insira ou selecione um valor.
@@ -85,3 +83,6 @@ O comportamento de custo é a classificação de custos como fixo ou variável. 
 15. No campo Unidade de controle de custo, insira ou selecione um valor.
 16. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

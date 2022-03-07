@@ -1,33 +1,32 @@
 ---
 title: Políticas de qualificação para benefícios
-description: Este artigo fornece informações sobre as diretivas de qualificação de benefício, o que ajuda a definir quem está qualificado para benefícios específicos.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Este tópico fornece informações sobre as diretivas de qualificação de benefício, o que define quem está qualificado para benefícios específicos.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 16441
 ms.assetid: 4ad0106f-5b07-4fd5-bc1a-5834fa9b198e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fd4def17bf60ae2812927221c45547c5ac379f2b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 88b801be5be4f9abcec4632fe1d96dbd83aaec96
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417204"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416920"
 ---
 # <a name="benefit-eligibility-policies"></a>Políticas de qualificação para benefícios
 
-Este artigo fornece informações sobre as diretivas de qualificação de benefício, o que ajuda a definir quem está qualificado para benefícios específicos.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Este tópico fornece informações sobre as diretivas de qualificação de benefício, o que define quem está qualificado para benefícios específicos.
 
 Quando você cria benefícios, você decide qual deles estarão disponíveis para quais funcionários. A tabela a seguir mostra exemplos de benefícios que você pode disponibilizar para funcionários específicos.
 
@@ -49,3 +48,6 @@ Você define o escopo da regra na política. Por exemplo, se você criar um tipo
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Gerenciar usuários e funções de comércio eletrônico
 description: Este tópico explica como conceder aos usuários acesso ao ambiente de criação de seu site do Microsoft Dynamics 365 Commerce .
 author: bicyclingfool
-manager: AnnBe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a1f9abae20d0f2e71790a3b27337338dc042b52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410077"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715397"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Gerenciar usuários e funções de comércio eletrônico
 
@@ -59,7 +56,7 @@ Quando você cria um novo site no Comércio, você deve fornecer um grupo de seg
 
 Depois que o site for criado, apenas os usuários que estão nos grupos de segurança associados às funções de **Administrador do Sistema** e de **Administrador** podem acessar o ambiente de criação desse site. Para atribuir aos usuários as funções de **Produtor da Web**, **Moderador de RnR** e **Leitor** é necessário atribuir grupos de segurança a essas funções. Para adicionar um grupo de segurança a uma função, ou atualizar um grupo de segurança que atualmente está atribuído a uma função, siga estas etapas.
 
-1. Vá para o site que deseja atualizar.
+1. Acesse o site que deseja atualizar.
 1. No **Gerenciamento de site**, abra a página **Segurança**.
 1. Selecione a função a ser modificada.
 1. Adicione grupos de segurança a funções ou remova grupos de segurança de funções.
@@ -71,3 +68,6 @@ Depois que o site for criado, apenas os usuários que estão nos grupos de segur
 [Considerações de otimização do mecanismo de pesquisa (SEO) para seu site](search-engine-optimization-considerations.md)
 
 [Gerenciar a política de segurança de conteúdo (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

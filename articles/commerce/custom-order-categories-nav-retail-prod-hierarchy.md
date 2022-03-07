@@ -2,28 +2,25 @@
 title: Alterar a ordem de classificação das entidades de venda
 description: Este tópico explica os conceitos relacionados ao controle da ordem de exibição de várias entidades relacionadas a merchandising no Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410196"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349665"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alterar a ordem de classificação das entidades de venda
 
@@ -54,9 +51,9 @@ Antes de concluir esse procedimento, os dados de demonstração devem estar inst
 
 A ordem de exibição da hierarquia de navegação do canal será refletida no HQ para a hierarquia de produtos de comércio e produtos liberados por categoria.
 
-![Hierarquia de produtos de classificação personalizada com valores negativos](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Hierarquia de produtos de classificação personalizada com valores negativos.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Produtos liberados por categoria de classificação personalizada com base na hierarquia de produtos](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Produtos liberados por categoria de classificação personalizada com base na hierarquia de produtos.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Configurar a ordem de exibição das categorias na hierarquia de navegação do canal
 
@@ -80,11 +77,14 @@ Antes de concluir esse procedimento, os dados de demonstração devem estar inst
 
 A ordem de exibição da hierarquia de navegação de canal é refletida no HQ, no catálogo e nos canais.
 
-![Hierarquia de navegação do canal personalizada classificada](./media/ChannelNavCustomSorted.png)
+![Hierarquia de navegação do canal personalizada classificada.](./media/ChannelNavCustomSorted.png)
 
-![Hierarquia de navegação do catálogo personalizada classificada com base na hierarquia de navegação do canal](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Hierarquia de navegação do catálogo personalizada classificada com base na hierarquia de navegação do canal.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![PDV com categorias ordenadas personalizadas](./media/POSChannelCategoriesCustomSorted.png)
+![PDV com categorias ordenadas personalizadas.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Por padrão, o recurso de ordem de classificação personalizada será desativado. Para saber como ativar esse recurso e outros, consulte [Gerenciamento de recursos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+> Por padrão, o recurso de ordem de classificação personalizada será desativado. Para saber como ativar esse recurso e outros, consulte [Gerenciamento de recursos](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Gerar um documento de transferência para uma transferência interna de estoque
 description: Este procedimento mostra como criar documentos de transferência para a movimentação de mercadorias em uma empresa.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5cb0d3d51bf30717f05a4daf1a098565d5d48621
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d59521f9647025fb794cd2098782f524f5e1e1c47b98d4c7fca6ff7c50e525f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780312"
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>Gerar um documento de transferência para uma transferência interna de estoque
 
@@ -31,7 +28,7 @@ Este procedimento mostra como criar documentos de transferência para a moviment
 
 
 ## <a name="create-a-transfer-order"></a>Criar uma ordem de transferência
-1. Vá para Gerenciamento de estoque > Ordens de entrada > Ordem de transferência.
+1. Acesse Gerenciamento de estoque > Ordens de entrada > Ordem de transferência.
 2. Clique em Novo.
 3. No campo Depósito de origem, insira ou selecione um valor.
 4. No campo Depósito de destino, insira ou selecione um valor.
@@ -74,3 +71,6 @@ Este procedimento mostra como criar documentos de transferência para a moviment
 10. Clique em Guia de remessa.
 11. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

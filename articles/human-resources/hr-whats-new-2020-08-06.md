@@ -1,55 +1,54 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (06 de agosto 2020)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 06 de agosto de 2020.
-author: darinkramer
-manager: AnnBe
-ms.date: 8/06/2020
+author: andreabichsel
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528416"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062177"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (06 de agosto 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3444. Os números entre parênteses em alguns títulos referem-se aos números de suporte do LCS para referência.
 
 ## <a name="platform-update-1001236-is-now-available"></a>A atualização de plataforma 10.0.12(36) agora está disponível
 
-Para obter mais informações, consulte [Atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations (agosto de 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
+Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.12 dos aplicativos de Finanças e Operações (agosto de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Entidades da estrutura de gerenciamento de dados (DMF) para gerenciamento de benefícios
  
 Entidades de gerenciamento de benefícios estão sendo liberadas. As entidades DMF permitem que você importe e exporte dados para configurar facilmente o gerenciamento de benefícios. Um modelo de gerenciamento de benefícios estará disponível para mover dados. O modelo exporta e importa os dados sequencialmente para respeitar as dependências de dados. Para obter mais informações, consulte:
 
-- [Suporte da entidade DMF](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) no plano do Dynamics 365 versão 2020 onda 1
-- [Visão geral do gerenciamento de dados](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+- [Suporte da entidade DMF](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) no plano do Dynamics 365 versão 2020 onda 1
+- [Visão geral do gerenciamento de dados](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>O Claire cria um fluxo de trabalho para compras e solicitações de venda (446557)
 
 Para obter mais informações, consulte:
 
-- [Permitir que os funcionários comprem e vendam licenças](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) no plano do Dynamics 365 versão 2020 onda 2
-- [Gerenciar políticas de compra e venda de licenças](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Comprar e vender licenças](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Permitir que os funcionários comprem e vendam licenças](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) no plano do Dynamics 365 versão 2020 onda 2
+- [Gerenciar políticas de compra e venda de licenças](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Comprar e vender licenças](./hr-employee-self-service-buy-sell-leave.md)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>A entidade Endereços postais do trabalhador V2 tem acesso a entidades legais com acesso restrito (459126)
@@ -62,7 +61,7 @@ Quando você usa o espaço reservado para abrir uma revisão de desempenho no fl
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Novas entidades para compra e venda de licenças (473180)
 
-As entidades da estrutura de gerenciamento de dados agora estão disponíveis para compra e venda de licenças. Para obter mais informações, consulte [Visão geral do Gerenciamento de dados](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
+As entidades da estrutura de gerenciamento de dados agora estão disponíveis para compra e venda de licenças. Para obter mais informações, consulte [Visão geral do Gerenciamento de dados](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Ao exibir informações de registro e usar filtros avançados, um usuário pode obter acesso a registros de outros funcionários (472490)
 
@@ -96,9 +95,9 @@ Com essa alteração, a detecção de referência circular da hierarquia de posi
 
 Algumas organizações fornecem um benefício que permite que os funcionários comprem ou vendam licenças. Esse processo costuma ser gerenciado manualmente. Esse recurso automatiza o gerenciamento de políticas e solicitações para o departamento de RH. Ele simplifica o processo de gerenciamento de licenças e ajuda a eliminar erros. Para obter mais informações, consulte:
 
-- [Permitir que os funcionários comprem e vendam licenças](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) no plano do Dynamics 365 versão 2020 onda 2
-- [Gerenciar políticas de compra e venda de licenças](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Comprar e vender licenças](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Permitir que os funcionários comprem e vendam licenças](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) no plano do Dynamics 365 versão 2020 onda 2
+- [Gerenciar políticas de compra e venda de licenças](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Comprar e vender licenças](./hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Deixar o acúmulo para uma única empresa ou um plano
 
@@ -126,15 +125,15 @@ Você pode criar uma regra para suspender os acúmulos de licença para funcion�
 
 Você pode tornar campos obrigatórios usando recursos de personalização de Recursos Humanos. Este recurso exige **Exibições salvas**. Para obter mais informações sobre exibições salvas, consulte:
 
-- [Exibições salvas - disponibilidade geral](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) no plano do Dynamics 365 versão 2020 onda 2
-- [Criar formulários que utilizam totalmente as exibições salvas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Exibições salvas - disponibilidade geral](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) no plano do Dynamics 365 versão 2020 onda 2
+- [Criar formulários que utilizam totalmente as exibições salvas](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Aplicativo Human Resources no Teams
 
 Os funcionários podem exibir e solicitar tempo fora do trabalho no Microsoft Teams. Eles podem interagir com um bot para criar solicitações de licença. Para obter mais informações, consulte:
 
-- [Licença e ausência do funcionário no Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do Dynamics 365 versão 2020 onda 1
-- [Aplicativo Human Resources no Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Licença e ausência do funcionário no Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do Dynamics 365 versão 2020 onda 1
+- [Aplicativo Human Resources no Teams](./hr-admin-teams-leave-app.md)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>Entidade DMF disponível para suspensões de acúmulos
 
@@ -142,9 +141,9 @@ Uma entidade DMF disponível para suspensões de acúmulos.
 
 ## <a name="coming-soon"></a>Em breve
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Entidades de lista de verificação incluídas no Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Entidades de lista de verificação incluídas no Dataverse
 
-Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Common Data Service.
+Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Dataverse.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
@@ -172,6 +171,9 @@ O espaço de trabalho **Gerenciamento de recursos** pode estar exibindo recursos
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

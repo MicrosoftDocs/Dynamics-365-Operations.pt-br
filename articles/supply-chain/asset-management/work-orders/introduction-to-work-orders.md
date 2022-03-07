@@ -1,28 +1,26 @@
 ---
 title: Introdução a ordens de serviço
 description: Este tópico oferece uma visão geral de ordens de serviço no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f66786d634bc08f07d1739af5e49c902640a469a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021871"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352777"
 ---
 # <a name="introduction-to-work-orders"></a>Introdução a ordens de serviço
 
@@ -53,7 +51,7 @@ Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **T
 
 A ilustração a seguir mostra um exemplo da página de listagem **Todas as ordens de serviço**.
 
-![Figura 1](media/01-work-orders.png)
+![Figura 1.](media/01-work-orders.png)
 
 Para exibir uma lista apenas de ordens de serviço ativas, selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Ordens de serviço ativas**. 
 
@@ -71,7 +69,7 @@ Aqui estão algumas maneiras pelas quais você pode usar a página **Todas as or
 
 A ilustração a seguir mostra um exemplo da exibição de detalhes **Todas as ordens de serviço**.
 
-![Figura 2](media/02-work-orders.png)
+![Figura 2.](media/02-work-orders.png)
 
 
 Os botões no Painel de Ação estão organizados em guias. A tabela a seguir descreve brevemente os botões relacionados ao Gerenciamento de Ativos:
@@ -118,3 +116,6 @@ Os botões no grupo **Projeto** na guia **Ordem de serviço** do Painel de Açã
 >[!NOTE]
 >Para incluir previsões criadas em uma ordem de serviço ao executar o agendamento do planejamento mestre, use o modelo de previsão selecionado na página **Parâmetros de gerenciamento de ativos**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Solucionar problemas durante a configuração inicial
-description: Este tópico fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem ocorrer durante a configuração inicial da integração entre aplicativos Finance and Operations e Dataverse.
+description: Este tópico fornece informações sobre como solucionar problemas que podem ocorrer durante a configuração inicial da integração de gravação dupla.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685577"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542406"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
@@ -44,7 +42,7 @@ Este tópico fornece informações de solução de problemas para integração d
 
 Erros na página **Configurar link para Dataverse** geralmente são causados por configuração incompleta ou problemas de permissão. Verifique se toda a verificação de integridade foi aprovada na página **Configurar link para Dataverse**, conforme mostrado na ilustração a seguir. Não é possível vincular a dupla gravação, a menos que toda a verificação de integridade seja aprovada.
 
-![Verificação bem-sucedida de integridade](media/health_check.png)
+![Verificação bem-sucedida de integridade.](media/health_check.png)
 
 Você deve ter credenciais de administração de locatário do Azure AD para vincular os ambientes Finance and Operations e Dataverse. Depois de vincular os ambientes, os usuários podem fazer login usando suas credenciais de conta e atualizar um mapa de tabela existente.
 
@@ -71,15 +69,15 @@ Para fornecer consentimento ao aplicativo, siga estas etapas.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Verificar se os dados da empresa e as equipes de gravação dupla estão configurados corretamente durante a vinculação
 
-Para garantir que a gravação dupla funcione corretamente, as empresas selecionadas durante a configuração são criadas no ambiente do Dataverse. Por padrão, essas empresas são apenas leitura e a propriedade **IsDualWriteEnable** está definida como **Verdadeira**. Além disso, o proprietário e a equipe padrão da unidade de negócios são criados e incluem o nome da empresa. Antes de habilitar os mapas, verifique se o proprietário padrão da equipe foi especificado. Para encontrar a entidade **Empresas (Empresa\_CDM)**, siga estas etapas.
+Para garantir que a gravação dupla funcione corretamente, as empresas selecionadas durante a configuração são criadas no ambiente do Dataverse. Por padrão, essas empresas são apenas leitura e a propriedade **IsDualWriteEnable** está definida como **Verdadeira**. Além disso, o proprietário e a equipe padrão da unidade de negócios são criados e incluem o nome da empresa. Antes de habilitar os mapas, verifique se o proprietário padrão da equipe foi especificado. Para encontrar a tabela **Empresas (Empresa\_CDM)**, siga estas etapas.
 
-1. No aplicativo baseado em modelo no Dynamics 365, selecione o filtro no canto superior direito.
+1. No aplicativo de interação com o cliente, selecione o filtro no canto superior direito.
 2. Na lista suspensa, selecione **Empresa**.
 3. Selecione **Executar** para ver os resultados.
 4. Selecione a empresa que estava vinculada quando você configurou a gravação dupla.
-5. Verifique se o campo **Equipe proprietária padrão** tem um valor. Na ilustração a seguir, o campo **Padrão de propriedade da equipe** é definido como **Gravação dupla USMF**.
+5. Verifique se a coluna **Equipe proprietária padrão** tem um valor. Na ilustração a seguir, a coluna **Padrão de propriedade da equipe** é definida como **Gravação dupla USMF**.
 
-    ![Verificando a equipe proprietária padrão](media/default_owning_team.png)
+    ![Verificando a equipe proprietária padrão.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Encontre o limite para o número de tabelas legais ou empresas que podem ser vinculadas para gravação dupla
 
@@ -88,3 +86,6 @@ A seguinte mensagem de erro pode ser exibida ao tentar habilitar os mapas:
 *Falha na gravação dupla - Falha no registro de plug-in: \[(Não foi possível obter mapa de partição para o projeto DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Erro excede as partições máximas permitidas para mapeamento de DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Um ou mais erros ocorreram.*
 
 O limite atual ao vincular os ambientes é de aproximadamente 40 tabelas legais. Este erro ocorre se você tentar habilitar mapas, e mais de 40 tabelas legais serão vinculadas entre os ambientes.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

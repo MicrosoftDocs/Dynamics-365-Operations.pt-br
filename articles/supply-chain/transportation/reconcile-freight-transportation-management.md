@@ -1,12 +1,10 @@
 ---
 title: Reconciliar frete no gerenciamento de transporte
 description: Este tópico descreve o processo de reconciliação de frete.
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSFBDetailReconcile, TMSInvoiceTable,TMSInvoiceLineReconcile,TMSReconcileInvoice, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac07155e4dde77689b1994abfb8b30f45d5a5a30
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: a63bfd34860c6a7c34cbc526c6a621cbc9666efc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014499"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574896"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Reconciliar frete no gerenciamento de transporte
 
@@ -37,13 +35,13 @@ Reconciliação de frete pode ser feita manualmente, ou pode ser configurada par
 
 Taxas de frete são calculadas pelo mecanismo de taxa que está associado com o carro de entrega relevante. Quando uma carga é confirmada, é gerada uma lista de frete e as taxas de frete são transferidas para ela. As taxas de frete são particionadas como encargos diversos para o documento de origem relevante (ordem de compra, ordem de venda e ordem de transferência), dependendo da configuração que é usada para o processo normal de cobrança. O processo de reconciliação de frete (que também é conhecido como o processo de correspondência) pode começar assim que a fatura de frete for recebida da transportadora. A fatura pode ser recebida de forma eletrônica ou em papel. Se a fatura for recebida no papel, você pode gerar uma fatura eletrônica usando a cobrança de frete como um modelo.
 
-[![Processo de reconciliação de frete](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![Processo de reconciliação de frete.](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Reconciliação manual
 
 Se você estiver reconciliando o frete manualmente, você deve corresponder cada linha da fatura com a linha de cobrança de frete ou linhas para a carga que está sendo faturada. Você faz essa correspondência na página **Conciliação de faturas e notas de frete**. Se a quantidade na linha da fatura não coincidir com o valor de cobrança de frete, você deve selecionar um motivo de reconciliação para a diferença. Se existirem vários motivos para reconciliação, você pode dividir o valor incomparável entre elas. O motivo da reconciliação determina como os valores de diferença são lançados na contabilidade. Quando a reconciliação do valor da fatura inteira é contabilizada, ela é enviada para aprovação e o diário é lançado. A ilustração a seguir mostra como gerar uma fatura de frete e executar a reconciliação de frete.
 
-[![Tarefas de reconciliação de frete](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![Tarefas de reconciliação de frete.](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>Reconciliação automática
 
@@ -105,3 +103,6 @@ Outra forma de fazer a correspondência manual para esse exemplo é proceder da 
 1. Corresponder Inv1 e Inv2 com FB uma após a outra. FB é totalmente correspondida.
 
 Como mostra esse exemplo, a correspondência de faturas de frete com valores negativos só deve ser feita manualmente. Isso garantirá que sempre seja possível corresponder as faturas de frete com valores negativos a uma nota de frete não correspondida totalmente porque isso permite controlar a sequência de correspondência.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

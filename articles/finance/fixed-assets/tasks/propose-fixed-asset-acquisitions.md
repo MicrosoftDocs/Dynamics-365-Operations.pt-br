@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0997af638c141661afb677e2407a90a883168aed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 426a5e42c1fc26958ab37eddd915334f8b0e19cc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440206"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205019"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Propor aquisições de ativo fixo
 
@@ -43,3 +42,6 @@ Este tópico descreve como adquirir um ativo fixo usando a proposta de aquisiç�
 - Somente os ativos fixos com a data de aquisição e o preço de aquisição definidos no registro serão incluídos na proposta de aquisição.  
 11. Na página, selecione a guia **Registros**.
 12. Selecione **Lançar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

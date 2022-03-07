@@ -2,28 +2,27 @@
 title: Definir novos trabalhos
 description: Essa tarefa se concentra na criação de um novo trabalho.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 088f49d7887616300b4a9ea07f91598d65afbf6899e678b2c5c51797b4966ef0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770447"
 ---
 # <a name="define-new-jobs"></a>Definir novos trabalhos
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -71,3 +70,6 @@ Essa tarefa se concentra na criação de um novo trabalho. Será concluída usan
 33. Alternar a expansão da seção Educação.
 34. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

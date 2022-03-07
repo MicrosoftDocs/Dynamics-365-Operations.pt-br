@@ -2,28 +2,25 @@
 title: Lançar com registros de depreciações derivados
 description: Este artigo descreve como usar registros de registros derivadas.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b58b2da949211f7eef804af98c866bf5074d47f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f76b30ebf61e0fc709513d1f5a1670930fab54a51d976df80842c35a2ae10b63
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754233"
 ---
 # <a name="post-with-derived-books"></a>Lançar com registros de depreciações derivados
 
@@ -59,3 +56,6 @@ Para obter mais informações, consulte [Registros derivados](derived-books.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

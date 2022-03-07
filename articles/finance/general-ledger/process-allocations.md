@@ -1,35 +1,32 @@
 ---
 title: Processar alocações
-description: Este artigo fornece informações sobre alocações, opções para processamento no Microsoft Dynamics 365 Finance e como elas podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
-author: ShylaThompson
-manager: AnnBe
+description: Este tópico fornece informações sobre alocações, as opções para processá-las no Microsoft Dynamics 365 Finance e como elas podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b79282abd0edf86f1a9f39fd869cf1fab28b9a4
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440358"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726983"
 ---
-# <a name="process-allocations"></a>​Processar alocações​
+# <a name="process-allocations"></a>Processar alocações
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece informações sobre alocações, opções para processamento e como elas podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
+Este tópico fornece informações sobre alocações, as opções para processá-las e como elas podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
 
 Os seguintes recursos oferecem suporte a esse processo:
 
@@ -44,3 +41,6 @@ As regras de alocação do razão podem ser usadas para planos de orçamento. Qu
 > [!NOTE]
 > Você não pode usar as regras de alocação do razão intercompanhia para o planejamento de orçamento.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

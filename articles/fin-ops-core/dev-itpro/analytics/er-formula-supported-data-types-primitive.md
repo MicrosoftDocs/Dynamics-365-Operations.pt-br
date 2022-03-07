@@ -3,19 +3,24 @@ title: Tipos de dados primitivos compatíveis com as fórmulas de relatório ele
 description: Este tópico fornece informações sobre os tipos de dados primitivos que são compatíveis com as fórmulas de relatório eletrônico (ER).
 author: NickSelin
 ms.date: 06/02/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323631"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355313"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Tipos de dados primitivos compatíveis com as fórmulas de relatório eletrônico
 
@@ -101,7 +106,7 @@ Os [operadores](er-formula-language.md#Operators) de comparação são o único 
 
 ## <a name="enumeration"></a><a name="enumeration"></a>Enumeração
 
-O tipo de dados primitivo *enumeração* é uma lista de literais. Você pode usar enumerações definidas no [código-fonte](../dev-ref/xpp-data-primitive.md#enum) do aplicativo. Você também pode introduzir suas próprias enumerações no modelo de dados de ER e nos componentes do formato de ER.
+O tipo de dados primitivo *enumeração* é uma lista de literais. Você pode usar enumerações definidas no [código-fonte](../dev-ref/xpp-data-primitive.md#enum) do aplicativo. Você também pode introduzir suas próprias enumerações no [modelo de dados](general-electronic-reporting.md#data-model-and-model-mapping-components) de ER e nos componentes do [formato](general-electronic-reporting.md#FormatComponentOutbound) de ER.
 
 Uma *enumeração* de aplicativo pode ser usada em expressões de qualquer mapeamento de modelo de ER e formato de ER.
 

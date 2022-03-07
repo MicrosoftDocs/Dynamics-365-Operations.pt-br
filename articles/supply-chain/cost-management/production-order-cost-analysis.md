@@ -2,11 +2,9 @@
 title: Análise de custo da ordem de produção
 description: Este artigo oferece informações sobre a análise de custo que você pode fazer para as ordens de produção concluídas e atuais. Você pode analisar os custos estimados e os custos reais usando a página Cálculo de preço ou o relatório Estimativas de custo e avaliações de custo. É possível visualizar as informações sobre os custos estimados e reais (incluindo a quantidade) para cada item de componente, operação de roteiro e custo indireto.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0858e0e9ed0f09a47954274a05f6da1a2537c4a3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d0a298a8f782ae318971e99c03e864fa5a4ef88
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967274"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343641"
 ---
 # <a name="production-order-cost-analysis"></a>Análise de custo da ordem de produção
 
@@ -43,7 +41,7 @@ As variações refletem uma comparação das atividades de produção relatadas 
 
 O diagrama a seguir mostra as quatro variações consideradas para a diferença entre os custos reais de uma ordem de produção e os custos calculados na registro de custo do item quando a ordem de produção é finalizada. 
 
-![Variações que são consideradas diferenças em uma ordem de produção concluída](./media/control.jpg) 
+![Variações que são consideradas diferenças em uma ordem de produção concluída.](./media/control.jpg) 
 
 Você poderá analisar as variações de produção usando a página **Variação** ou o relatório **Variação de produção**. Use as opções de exibição para exibir as variações detalhadas por item e por recurso de operações ou por grupo de custos. A política de divisão de custos nos parâmetros de estoque determina se as variações serão monitoradas por grupo de custos. Você também pode usar as opções de exibição **única**, **multi** e **total** para exibir variações resumidas. As informações sobre as variações detalhadas podem ajudar a compreender a origem de cada variação. Para prever as variações antes de finalizar uma ordem de produção, analise as informações detalhadas fornecidas no relatório **Estimativas de custo e avaliações de custo**.
 
@@ -57,10 +55,12 @@ Relatórios separados fornecem informações sobre cada tipo de transação. Use
 -   **Itens concluídos em andamento**− o relatório lista ordens de produção atuais e as transações relatadas como concluídas a partir da data de transação especificada.
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Fontes comuns de variações de produção](common-sources-of-production-variances.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Configurar funcionários de manutenção preferenciais
 description: Este tópico explica como configurar funcionários de manutenção preferidos no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734418"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Configurar funcionários de manutenção preferenciais
 
@@ -61,9 +59,12 @@ Quanto mais seleções você fizer no mesmo registro, mais específica será sua
 
     [!NOTE] Geralmente, quando um funcionário de manutenção preferencial é selecionado durante o agendamento da ordem de serviço, o Gerenciamento de Ativos passa por todos os registros de **Funcionários de manutenção preferenciais** verifica a existência uma correspondência possível, verificando sempre a combinação mais específica primeiro. Se nenhuma correspondência for encontrada, o registro "padrão" com uma seleção no campo **Grupo de funcionários de manutenção preferenciais** ou o campo **Funcionário de manutenção preferencial** é usado.
 
-![Figura 1](media/02-work-order-scheduling.png)
+![Figura 1.](media/02-work-order-scheduling.png)
 
 Você também pode configurar funcionários de manutenção *responsáveis*, que podem ser selecionados quando uma solicitação de manutenção ou uma ordem de serviço for criada. É possível editar a seleção em **Todas as ordens de serviço** e **Todas as solicitações de manutenção**, se necessário. Para obter mais informações, consulte [Funcionários de manutenção responsáveis](../setup-for-maintenance-requests/responsible-workers.md).
 
 Durante o agendamento da ordem de serviço, diferentes pontuações são calculadas para determinar quais funcionários devem concluir os trabalhos relacionados a uma ordem de serviço (aquelas pontuações são configuradas no link **parâmetros do Gerenciamento de ativos** > **agendamento da Ordem de serviço**). Se dois ou mais funcionários de manutenção preferenciais ou funcionários de manutenção responsáveis obtiverem a mesma pontuação durante o agendamento da ordem de serviço, um funcionário é selecionado aleatoriamente. Caso contrário, é sempre o funcionário com a pontuação mais alta que é alocado para concluir uma ordem de serviço.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

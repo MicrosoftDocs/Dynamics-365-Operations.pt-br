@@ -1,240 +1,191 @@
 ---
-title: Unidades de escala em uma topologia híbrida distribuída
+title: Unidades de escala de nuvem e de borda para cargas de trabalho de fabricação e depósito
 description: Este tópico oferece informações sobre unidades de escala de nuvem e de borda para cargas de trabalho de gerenciamento de fabricação e depósito.
 author: cabeln
-ms.date: 04/22/2021
+manager: ''
+ms.date: 10/06/2020
 ms.topic: article
-ms.search.form: ScaleUnitWorkloadsWorkspace
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.region: Global
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: SCM
 ms.author: cabeln
-ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
+ms.search.validFrom: 2020-09-23
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 3a23ee452535423684c6d210a448ee768379fa08
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119178"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516728"
 ---
-# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escala em uma topologia híbrida distribuída
+# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unidades de escala de nuvem e de borda para cargas de trabalho de fabricação e depósito
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-> [!IMPORTANT]
-> A capacidade da unidade de escala do Microsoft Dynamics 365 Supply Chain Management é disponibilizada para você de acordo com os termos que regem o uso do serviço. Para obter mais informações, consulte as [Informações Legais do Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927).
->
-> Quando você habilita unidades de escala de nuvem e de borda, você será solicitado a afirmar que entendeu que alguns dados relacionados à configuração e ao processamento de unidades de escala de nuvem e de borda podem ser armazenados em um data center localizado nos Estados Unidos. Para saber mais sobre o processamento de dados para unidades de escala de nuvem e de borda, consulte a seção [Processamento de dados durante o gerenciamento de unidades de escala](#data-processing-management) posteriormente neste tópico.
-
-## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Principal proposta de valor para uma topologia híbrida distribuída
-
-As empresas que trabalham com fabricação e distribuição devem ser capazes de executar os principais processos comerciais 24/7, sem interrupção e em grande escala. Uma topologia híbrida distribuída permite que as empresas executem os principais processos de fabricação e de depósito de missão crítica sem interrupção, mesmo quando enfrentam problemas ocasionais de conectividade de rede ou de latência.
-
-Uma topologia híbrida distribuída introduz o conceito de *unidades de escala*, que permite a distribuição de cargas de trabalho de chão de fábrica e de execução de depósito em diferentes ambientes. Essa funcionalidade pode ajudar a melhorar o desempenho, prevenir interrupções de serviço e maximizar o tempo de atividade. As unidades de escala são fornecidas pelos seguintes suplementos para a assinatura do Supply Chain Management:
+As unidades de escala de nuvem e de borda permitem a distribuição de cargas de trabalho de chão de fábrica e de execução de depósito entre diferentes ambientes. Essa funcionalidade pode ajudar a melhorar o desempenho, prevenir interrupções de serviço e maximizar o tempo de atividade. Ela é fornecido pelos seguintes suplementos:
 
 - Suplemento de unidade de escala de nuvem para o Dynamics 365 Supply Chain Management
 - Suplemento de unidade de escala de borda para o Dynamics 365 Supply Chain Management
 
-Os recursos de carga de trabalho estão sendo liberados continuamente por meio de melhorias incrementais.
+As empresas que trabalham com fabricação e distribuição devem ser capazes de executar os principais processos comerciais 24/7, sem interrupção e em grande escala. As unidades de escala de nuvem e de borda permitem que as empresas executem os principais processos de fabricação e de depósito de missão crítica sem interrupção, mesmo quando enfrentam problemas ocasionais de conectividade de rede ou de latência.
+
+## <a name="public-preview-information"></a>Informações da versão preliminar pública
+
+A versão preliminar oferece um ambiente que funciona como um hub baseado na nuvem do ambiente Dynamics 365 Supply Chain Management e um ambiente que funciona como uma unidade de escala de nuvem.
+
+<!-- You will also be able to use Local Business Data (LBD) to configure an on-premises environment as an edge scale unit for the hub you received as part of the preview program.-->
+
+### <a name="preview-availability"></a>Visualizar disponibilidade
+
+A versão preliminar das unidades de escala de nuvem e de borda é disponibilizada para clientes existentes do Supply Chain Management em outubro de 2020.
+
+Para acessar a versão prévia de outubro 10.0.15/Platform update 39 para implantação no ambiente do [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/v2), você deve fazer parte da prévia do programa de adoção antecipada (também conhecida como PEAP) para o Supply Chain Management. Você poderá participar do PEAP se já for membro do [Dynamics Insider Program](https://experience.dynamics.com/insider) mais amplo. Basta selecionar o programa específico chamado "Finance and Operations: prévia do programa de adoção antecipada (PEAP)".
+
+> [!IMPORTANT]
+> O recurso de unidade de escala para o Supply Chain Management estará disponível somente se você concordar com os [termos de exibição de nuvem e de borda do Finance and Operations](https://Aka.ms/SCMCnETerms).
+
+### <a name="data-processing-for-the-preview"></a>Processamento de dados para a versão preliminar
+
+Durante a versão preliminar pública, alguns serviços de gerenciamento só serão hospedados nos Estados Unidos. No entanto, quando o recurso for disponibilizado no mercado, esses serviços de gerenciamento estarão disponíveis em todas as regiões geográficas com suporte do Supply Chain Management. Isso afeta a transferência e o armazenamento de informações administrativas usadas pelo gerente de unidade de escala, incluindo:
+
+- Nomes e IDs de locatários
+- IDs de projeto LCS
+- Emails do administrador usados para se conectar
+- IDs de ambiente para unidades de hub e escala
+- Configurações de carga de trabalho
+- Métricas coletadas (como latência e taxa de transferência) que são exibidas na página análise de mapa
+
+Os dados transferidos e armazenados nos data centers dos EUA serão excluídos quando os ambientes de visualização forem desligados.
+
+### <a name="sign-up-for-the-preview"></a>Inscrever-se na versão prévia
+
+Para inscrever-se na versão preliminar de nuvem e de borda para o Supply Chain Management, sua organização já deve ter um ambiente de nuvem dinâmico do Supply Chain Management.
+
+Os recursos da unidade de escala estão atualmente em versão preliminar pública. Ao se inscrever, você deve usar uma conta de usuário no locatário específico. Você também deve ser um proprietário de projeto ou um administrador de ambiente no LCS para um projeto LCS ativo do Dynamics 365 nesse locatário.
+
+Ao se inscrever na versão preliminar, você selecionará um locatário e passará pelas etapas de inscrição. Assim que a Microsoft puder alocar o recurso de versão preliminar, enviaremos um email que inclui os detalhes de provisionamento e os códigos promocionais para dois ambientes (um hub e uma unidade de escala) para o projeto LCS adequado. Você poderá implantar os dois ambientes como ambientes de área restrita de nível 2. Esses ambientes serão válidos 60 dias após a data de criação dos códigos promocionais. Você não deverá usar os dois ambientes até que a etapa descrita no próximo parágrafo seja preenchida.
+
+Depois de confirmar com a Microsoft que os dois ambientes foram implantados usando os códigos promocionais, um dos ambientes será configurado para funcionar como um hub e o outro para funcionar como uma unidade de escala. Você poderá configurar as unidades de escala e implantar cargas de trabalho selecionadas de gerenciamento de depósito e fabricação por meio do [portal do Gerente de Unidade de Escala](https://aka.ms/SCMSUM).
+
+Os ambientes de versão preliminar serão excluídos automaticamente após 60 dias. No entanto, eles poderão ser excluídos mais cedo se parecer que não estão em uso. Após a exclusão dos ambientes de visualização, você poderá inscrever-se e candidatar-se a uma nova implantação de versão prévia.
+
+Para inscrever-se na versão prévia, acesse o [portal do Gerente de Unidade de Escala](https://aka.ms/SCMSUM).
+
+### <a name="limitations-that-apply-during-the-preview-period"></a>Limitações que se aplicam durante o período de versão prévia
+
+> [!IMPORTANT]
+> Para a fase inicial do programa de visualização deste recurso, a Microsoft dá suporte somente a hubs que têm unidades de escala de nuvem, e não hubs com unidades de escala de grade. As unidades de escala de grade são instaladas localmente e espera-se que estejam disponíveis durante uma fase futura do programa.
+
+Como as unidades de escala de nuvem e de borda são recursos de visualização, os serviços relacionados a elas estão disponíveis no momento em países e regiões limitados. Ao habilitar unidades de escala de nuvem e de borda, você afirma que entendeu que alguns dados relacionados à configuração e ao processamento de unidades de escala de nuvem e de borda podem ser armazenados em um data center localizado nos Estados Unidos. Ao habilitar unidades de escala de nuvem e de borda, você também concorda com os [termos de exibição de nuvem e de borda do Finance and Operations](https://Aka.ms/SCMCnETerms). Para saber mais sobre unidades de escala de nuvem e de borda, consulte a [documentação](https://aka.ms/scmcne).
+
+Sua privacidade é importante para a Microsoft. Para saber mais, leia nossa [política de privacidade](https://aka.ms/privacy).
+
+> [!IMPORTANT]
+> Algumas funcionalidades comerciais não têm suporte total na versão preliminar pública quando cargas de trabalho são usadas em unidades de escala. Para obter mais informações sobre cargas de trabalho funcionais, consulte as seções mais adiante neste tópico.
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Unidades de escala e cargas de trabalho dedicadas
 
-Unidades de escala estendem o ambiente do hub do Supply Chain Management central adicionando capacidade de processamento dedicado. As unidades de escala podem ser executadas na nuvem. Como alternativa, elas podem ser executadas na borda em suas instalações locais.
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 com unidades de escala":::
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 com unidades de escala.":::
+Unidades de escala estendem o ambiente do hub do Supply Chain Management central adicionando capacidade de processamento dedicado. As unidades de escala podem ser executadas na nuvem. Como alternativa, elas podem ser executadas na borda de instalações locais. As unidades de escala podem ser temporariamente desconectadas do ambiente de hub. Quando estiverem conectadas, as unidades de escala receberão todas as informações necessárias para executar o processamento dedicado de cargas de trabalho atribuídas.
 
-As unidades de escala fornecem resiliência, confiabilidade e dimensionamento para as cargas de trabalho atribuídas. As unidades de escala de borda podem estar temporariamente desconectadas do ambiente de hub de nuvem e os trabalhadores continuam trabalhando nas cargas de trabalho atribuídas na borda.
+:::image type="content" source="media/cloud_edge-previewoptions.png" alt-text="Opções da unidade de escala na versão preliminar pública":::
 
-Uma *carga de trabalho* é um conjunto definido de funcionalidades comerciais que podem ser fatoradas e delegadas a uma unidade de escala. Embora a carga de trabalho para o gerenciamento de depósito tenha sido liberada, a carga de trabalho para a execução de fabricação ainda está na versão preliminar.
+Para a versão preliminar pública, você pode configurar um ambiente de hub com cargas de trabalho selecionadas em uma unidade de escala de nuvem usando o portal do Gerente de Unidade de Escala. Participantes de versão preliminar com acesso a um ambiente local de dados comerciais locais (LBD) também podem configurar o ambiente LBD como uma unidade de escala de borda.
 
-Você pode configurar seu ambiente de hub e unidades de escala de nuvem para cargas de trabalho selecionadas usando o [portal do Gerente de Unidade de Escala](https://sum.dynamics.com). Você também pode atribuir várias cargas de trabalho por unidade de escala. Para obter informações sobre os pré-requisitos e as limitações de unidades de escala de nuvem na versão atual, consulte a seção [Pré-requisitos e limitações de unidades de escala de nuvem](#cloud-scale-unit-prerequisites) posteriormente neste tópico.
+Uma carga de trabalho é um conjunto definido de funcionalidades comerciais que podem ser fatoradas e delegadas a uma unidade de escala. No momento, a versão prévia de recursos apresenta dois tipos de cargas de trabalho:
 
-### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Recursos dedicados de carga de trabalho de gerenciamento de depósito em uma unidade de escala
+- Execução de fabricação
+- Gerenciamento de depósito
 
-A carga de trabalho de gerenciamento de depósito permite que operações de depósito sejam escaladas e executadas em um ambiente resistente usando janelas de manutenção isoladas. A carga de trabalho de gerenciamento de depósito oferece suporte à maioria dos processos de gerenciamento de depósito de hub empresarial. Para obter mais informações, consulte [Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](cloud-edge-workload-warehousing.md).
+Você pode atribuir um de cada tipo de carga de trabalho por unidade de escala. 
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Recursos dedicados de carga de trabalho de execução de fabricação em uma unidade de escala
 
-A carga de trabalho de fabricação oferece os seguintes recursos:
+Para a execução de fabricação, as unidades de escala de nuvem e de borda fornecem os seguintes recursos, mesmo quando as unidades de borda não estão conectadas à nuvem:
 
 - Os operadores de máquina e os supervisores de chão de fábrica podem acessar o plano de produção operacional.
 - Os operadores de máquina podem manter o plano atualizado ao executar trabalhos de fabricação discretos e de processo.
 - O supervisor de chão de fábrica pode ajustar o plano operacional.
 - Os trabalhadores podem acessar o tempo e a presença de entrada e de saída na borda para garantir o cálculo correto do pagamento do trabalhador.
 
-Para obter mais informações, consulte [Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e de borda](cloud-edge-workload-manufacturing.md).
+Para obter mais informações, consulte os [detalhes da carga de trabalho da unidade de escala de fabricação](cloud-edge-workload-manufacturing.md).
 
-## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Considerações antes de habilitar a topologia híbrida distribuída do Supply Chain Management
+### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Recursos dedicados de carga de trabalho de gerenciamento de depósito em uma unidade de escala
 
-Ao habilitar a topologia híbrida distribuída, você faz a transição do ambiente de nuvem do Supply Chain Management para que funcione como um hub. Você também pode associar ambientes adicionais que são configurados como unidades de escala na nuvem ou na borda.
+Para gerenciamento de depósito, as unidades de escala de nuvem e de borda fornecem os seguintes recursos, mesmo quando as unidades de borda não estão conectadas à nuvem:
 
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Pré-requisitos e limitações para unidades de escala de nuvem
+- O processamento de métodos de ciclo selecionados é habilitado para ordens de venda e reabastecimento de demanda.
+- Os trabalhadores de depósito podem executar o trabalho de depósito de reabastecimento de demanda e vendas usando o aplicativo de depósito.
+- Os trabalhadores de depósito podem consultar o estoque disponível usando o aplicativo de depósito.
+- Os trabalhadores de depósito podem criar e executar movimentações de estoque usando o aplicativo de depósito.
+- Os trabalhadores de depósito podem registrar ordens de compra e fazer armazenamento usando o aplicativo de depósito.
 
-Na versão atual das unidades de escala, alguns recursos ainda não estão disponíveis, mas podem ser adicionados em versões incrementais ao longo do tempo.
+Para obter mais informações, consulte os [detalhes da carga de trabalho da unidade de escala de depósito](cloud-edge-workload-warehousing.md).
 
-#### <a name="you-must-be-a-licensed-customer-of-supply-chain-management"></a>Você deve ser um cliente licenciado do Supply Chain Management
+## <a name="onboard-scale-units-for-your-supply-chain-management-environment"></a>Unidades de escala integrada para o ambiente do Supply Chain Management
 
-Para integrar a topologia distribuída, é necessário ter uma licença do Supply Chain Management. Seu ambiente de nuvem existente se tornará o hub na topologia híbrida. Você pode declarar os ambientes de área restrita e de produção como ambientes de hub e adicionar unidades de escala de acordo com os suplementos adquiridos.
+### <a name="deploy-the-preview-for-cloud-and-edge-scale-units"></a>Implantar a versão preliminar para unidades de escala de nuvem e de borda
 
-#### <a name="your-existing-project-must-be-administered-via-the-global-commercial-version-of-lcs"></a>O projeto existente deve ser administrado por meio da versão comercial global do LCS
+A ilustração a seguir mostra o fluxo de inscrição e provisionamento para a versão preliminar pública de unidades de escala de nuvem.
 
-O projeto do Microsoft Dynamics Lifecyle Services (LCS) deve atender aos seguintes requisitos de versão:
+:::image type="content" source="media/cloud_edge-previewsignup.png" alt-text="Visualizar etapas de inscrição":::
 
-- O projeto deve ser administrado por meio da versão comercial global do LCS em [lcs.dynamics.com](https://lcs.dynamics.com).
-- Não há suporte para versões locais do LCS (como [eu.lcs.dynamics.com](https://eu.lcs.dynamics.com) e [fr.lcs.dynamics.com](https://fr.lcs.dynamics.com)).
-- Não há suporte para versões do Governmental Cloud do LCS.
-- Não há suporte para a versão Mooncake do LCS.
+### <a name="select-your-lcs-project-tenant-and-the-detailed-preview-process"></a>Selecione o locatário de projeto LCS e o processo de visualização detalhado
 
-#### <a name="your-current-production-environment-must-be-of-the-self-service-type-in-lcs"></a>O ambiente de produção atual deve ser do tipo autoatendimento no LCS
+Na versão preliminar pública, o [portal do Gerente de Unidade de Escala](https://aka.ms/SCMSUM) mostra a lista de locatários dos quais sua conta faz parte e onde você é um administrador proprietário ou de ambiente para um projeto LCS.
 
-O ambiente de produção atual deve estar marcado com o tipo **Autoatendimento** no LCS. Este tipo indica que o locatário do projeto do LCS já foi convertido para oferecer suporte ao modelo de hospedagem do Azure Service Fabric.
+Se o locatário que você está procurando não estiver nessa lista, acesse [LCS](https://lcs.dynamics.com/v2) e verifique se você é um administrador de ambiente ou um proprietário de projeto do projeto LCS desse locatário. Observe que somente contas do Azure Active Directory (Azure AD) do locatário selecionado estão autorizadas a concluir a experiência de inscrição.
+
+> [!NOTE]
+> Após aplicar alterações ao LCS, poderá levar até 30 minutos para que a lista de locatários reflita as alterações.
+
+Para cada locatário, a lista mostra o status de inscrição.
+
+:::image type="content" source="media/cloud_edge-Signup1.png" alt-text="Opção de inscrição para um locatário":::
+
+Selecione o link **Clique aqui para inscrever-se** para inscrever o locatário do LCS para participar da versão preliminar. Você deve aceitar os termos. Você também deve fornecer um endereço de email comercial em que a Microsoft pode enviar comunicações relacionadas ao processo de inscrição de versão prévia.
+
+:::image type="content" source="media/cloud_edge-Signup2.png" alt-text="Envio de inscrição para um locatário":::
+
+A Microsoft revisará a solicitação e informará sobre as próximas etapas enviando um email para o endereço fornecido no formulário de inscrição.
+
+Após ter acesso ao programa de versão preliminar, você receberá dois códigos promocionais para o projeto LCS. Agora você pode usar esses códigos promocionais para implantar dois ambientes em LCS. Os ambientes devem usar o PEAP versão 10.0.15 ou posterior. Ao terminar de aplicar os códigos promocionais, notifique a Microsoft (conforme orientado) para que possamos concluir a habilitação dos ambientes para as versões prévias do recurso. A Microsoft permitirá que você saiba quando esta etapa de configuração foi concluída.
+
+Você pode começar a configurar unidades de escala e cargas de trabalho no ambiente de visualização.
 
 > [!IMPORTANT]
-> Não há suporte para tipos de ambiente executados como infraestrutura como serviço (IaaS). Esses ambientes são geralmente marcados com o tipo **Gerenciado pela Microsoft** no LCS. Se você tiver ambientes desse tipo, trabalhe com o seu contato da Microsoft para entender a linha do tempo de migração para o tipo **Autoatendimento**.
+> Ao configurar unidades de escala de nuvem, você pode [executar todas as etapas necessárias no portal do Gerente de Unidade de Escala](#scale-unit-manager-portal).
+<!-- >
+> If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
 
-A Microsoft está no processo de transição de todos os ambientes de nuvem do Supply Chain Management do modelo IaaS para uma topologia hospedada no Service Fabric. Essa mudança apresenta melhor escalabilidade e facilita o gerenciamento de serviços. Portanto, as operações de implantação e manutenção são mais rápidas. Da mesma forma, os componentes de serviços estão sendo migrados para o conceito de microsserviços e o modelo de hospedagem de serviços [mudará](/virtualization/windowscontainers/about/containers-vs-vm) de um modelo de máquina virtual (VM) para uma arquitetura conteinerizada leve.
-
-Por fim, a mesma infraestrutura de serviço conteinerizada baseada em Service Fabric capacitará as instâncias de nuvem e borda do serviço, independentemente de uma instância ser um hub na nuvem ou uma unidade de escala na nuvem ou na borda.
-
-Antes de realizar a integração à topologia híbrida que oferece suporte a unidades de escala, o locatário do projeto deve ser transferido para o modelo hospedado pelo Service Fabric. Além disso, qualquer ambiente que atue como hub deverá ser convertido.
-
-> [!TIP]
-> Para obter informações sobre o status do locatário do projeto do LCS, procure o tipo de ambiente no [LCS](https://lcs.dynamics.com/) ou entre em contato com seu parceiro ou contato da Microsoft.
-
-#### <a name="local-business-data-on-premises-environments-arent-supported-as-hubs-for-scale-units"></a>Não há suporte para dados corporativos locais como hubs para unidades de escala
-
-Os ambientes locais não podem funcionar como hubs de unidades de escala. Os ambientes de hub devem ser sempre hospedados em nuvem.
-
-#### <a name="scale-unit-management-capabilities-are-limited"></a>Os recursos de gerenciamento da unidade de escala são limitados
-
-Os recursos de gerenciamento que podem ajudar com a movimentação de cargas de trabalho são limitados. Algumas operações de gerenciamento não são compatíveis por autoatendimento e talvez seja necessário solicitar suporte por seu parceiro ou contato da Microsoft. Os exemplos incluem algumas movimentações de carga de trabalho entre unidades de escala e movimentações ad-hoc temporárias em cenários de desastre.
-
-#### <a name="metrics-and-measurements-arent-yet-available"></a>Métricas e medições ainda não estão disponíveis
-
-Métricas e medidas que podem ajudar você a selecionar o melhor aplicativo para as unidades de escala ainda não estão disponíveis. Trabalhe com seu contato da Microsoft ou parceiro de implantação para selecionar o aplicativo mais apropriado.
-
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Processamento de dados durante o gerenciamento de unidades de escala
-
-Ao habilitar o ambiente do Dynamics 365 para oferecer suporte à topologia híbrida distribuída para unidades de escala de nuvem e borda, alguns serviços de gerenciamento serão hospedados somente nos Estados Unidos, como o LCS. Esse comportamento afeta a transferência e o armazenamento de algumas informações administrativas e de configuração usadas pelo [portal do Gerente de Unidade de Escala](https://sum.dynamics.com). Eis alguns exemplos:
-
-- Nomes e IDs de locatários
-- IDs de projeto do LCS
-- Endereços de email do administrador e do proprietário do projeto usados para entrar
-- IDs de ambiente para unidades de hub e escala
-- Configurações de carga de trabalho, incluindo os nomes e os endereços físicos de entidades legais e instalações, para que a topologia possa ser mostrada em um mapa geográfico
-- Métricas coletadas (como latência e produtividade) que serão mostradas na página de análise do mapa para ajudar você a selecionar o melhor uso das unidades de escala
-
-Os dados transferidos e armazenados nos data centers dos EUA serão excluídos de acordo com as políticas de retenção de dados da Microsoft. Sua privacidade é importante para a Microsoft. Para saber mais, leia nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=521839).
-
-## <a name="onboarding-in-two-stages"></a>Integração em dois estágios
-
-O processo de integração para a topologia híbrida distribuída tem dois estágios. Durante o primeiro estágio, é necessário validar as personalizações para garantir que elas funcionarão na topologia distribuída com unidades de escala. Os ambientes de área restrita e produção são movidos somente durante o segundo estágio.
-
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Estágio 1: avaliar personalizações em ambientes de desenvolvimento de uma caixa
-
-Antes de começar a integrar os ambientes de área restrita ou de produção, recomendamos explorar unidades de escala em uma configuração de desenvolvimento, como um ambiente de uma caixa (também conhecido como ambiente de 1 camada), para poder validar processos, personalizações e soluções. Durante esse estágio, os dados e as personalizações serão aplicadas a ambientes de uma caixa. Um ambiente assume a função do hub e o outro assume a função de uma unidade de escala. Essa configuração oferece a melhor forma de identificar e corrigir problemas. A compilação de acesso antecipado mais recente (PEAP) também pode ser usada para concluir esse estágio.
-
-Para o estágio 1, você deve usar as [ferramentas de implantação da unidade de escala para ambientes de desenvolvimento de uma caixa](https://github.com/microsoft/SCMScaleUnitDevTools). Essas ferramentas permitem configurar as unidades de hub e de escala em um ou dois ambientes de caixa separados. As ferramentas são fornecidas como uma versão binária e no código-fonte no GitHub. Estude a wiki do projeto, que inclui um [guia de uso passo a passo](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) que descreve como as ferramentas são usadas.
-
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Etapa 2: adquirir suplementos e implantar nos ambientes de área restrita e de produção
-
-Para integrar um dos ambientes de área restrita ou de produção à nova topologia, é necessário adquirir suplementos para uma ou mais unidades de escala de nuvem (e, no futuro, para unidade de escala de borda). Os suplementos concederão slots de projeto e de ambiente correspondentes no [LCS](https://lcs.dynamics.com/) para que os ambientes da unidade de escala possam ser implantados.
-
-> [!NOTE]
-> Os suplementos da unidade de escala não são acoplados a um número limitado de usuários, mas podem ser usados por qualquer usuário na assinatura existente, com base nas funções que o administrador atribui.
-
-As unidades de escala são oferecidas em várias unidades de manutenção de estoque (SKUs) e opções de preço. Portanto, você pode escolher a opção que melhor atende ao volume de transação mensal planejado e os requisitos de desempenho.
-
-A SKU de nível de entrada é conhecida como *Básica* e a SKU de melhor desempenho é conhecida como *Padrão*. Cada SKU é pré-carregada com um número específico de transações mensais. No entanto, é possível aumentar o orçamento de transações mensais adicionando suplementos excedentes para cada SKU.
-
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Suplementos de unidades de escala de nuvem.":::
-
-> [!TIP]
-> Para identificar o dimensionamento que melhor atende às suas necessidades, trabalhe com seu parceiro e a Microsoft para compreender o tamanho da transação mensal de que precisa.
-
-A compra de cada suplemento da unidade de escala fornece um volume mensal de transações e também um número específico de slots de ambiente no LCS. Para cada Suplemento da Unidade de Escala de Nuvem, você tem direito a um novo slot de produção e um novo slot de área restrita. Durante o processo de integração, um novo projeto do LCS será adicionado com esses três slots. Os direitos de uso dos slots estão vinculados para que eles sejam usados como unidades de escala com um hub de nuvem.
-
-Os suplementos excedentes não concedem o direito a novos slots de ambiente.
-
-Se você quiser adquirir mais ambientes de área restrita, é possível comprar slots de área restrita regulares adicionais. A Microsoft pode ajudar você a habilitar esses slots como unidades de escala de área restrita para a topologia híbrida.
-
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Integrar à topologia híbrida distribuída do Supply Chain Management
-
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Selecione o locatário de projeto do LCS e o processo de integração detalhado
-
-Após concluir o planejamento de integração à topologia híbrida distribuída do Supply Chain Management, você usará o [portal do Gerente de Unidade de Escala](https://aka.ms/SCMSUM) para iniciar o processo de integração. No portal, selecione a guia **Locatários do Dynamics 365**. Essa guia mostra a lista de locatários dos quais sua conta faz parte e onde você é proprietário ou administrador de ambiente para um projeto do LCS.
-
-Se o locatário que você está procurando não estiver nessa lista, acesse [LCS](https://lcs.dynamics.com/v2) e verifique se você é um administrador de ambiente ou um proprietário de projeto do projeto do LCS desse locatário. Somente contas do Azure Active Directory (Azure AD) do locatário selecionado estão autorizadas a concluir a experiência de inscrição.
-
-> [!NOTE]
-> Após aplicar alterações ao LCS, a lista de locatários poderá levar até 30 minutos para refletir as alterações.
-
-Para cada locatário, a lista mostra o status de integração.
-
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Lista de locatários na guia Locatários do Dynamics 365.":::
-
-Selecione **Clique aqui para começar** para solicitar a integração do locatário do LCS. Você deve aceitar os termos. Você também deve fornecer um endereço de email comercial em que a Microsoft possa enviar comunicações relacionadas ao processo de integração.
-
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Envio de inscrição para um locatário.":::
-
-A Microsoft revisará a solicitação e informará sobre as próximas etapas enviando um email para o endereço fornecido no formulário de inscrição. A Microsoft trabalhará com você para habilitar as unidades de escala na topologia híbrida para seu cenário de negócios.
-
-Depois que a integração for concluída, você poderá usar a porta para configurar unidades de escala e cargas de trabalho.
-
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gerenciar unidades de escala e cargas de trabalho usando o portal de Gerente de Unidade de Escala
+### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gerenciar unidades de escala de nuvem e cargas de trabalho usando o portal de Gerente de Unidade de Escala
 
 Acesse o [portal do Gerente e Unidade de Escala](https://aka.ms/SCMSUM) e entre usando sua conta de locatário. Na página **Configurar unidades de escala**, você poderá adicionar um ambiente de hub, caso ainda não esteja listado. Você pode selecionar o hub a ser configurado com unidades de escala e cargas de trabalho.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Portal do Gerente de Unidade de Escala, página Configurar unidades de escala.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Experiência de gerenciamento de unidade de escala e carga de trabalho":::
 
-Para adicionar uma ou mais unidades de escala que estejam disponíveis em suas assinaturas, selecione **Adicionar unidades de escala**.
+Para adicionar uma ou mais unidades de escala que estejam disponíveis em sua topologia, selecione **Adicionar unidades de escala**. Na versão preliminar, você verá a unidade de escala de nuvem implantada a partir de um dos códigos promocionais recebidos como parte do programa de visualização.
 
-Na guia **Cargas de trabalho definidas**, use o botão **Criar carga de trabalho** para adicionar uma carga de trabalho de gerenciamento de depósito a uma das unidades de escala. Para cada carga de trabalho, você deve especificar o contexto dos processos que serão propriedade da carga de trabalho. Para cargas de trabalho de gerenciamento de depósito, o contexto é um depósito específico em um site e uma entidade legal específicos.
+<!-- > [!IMPORTANT]
+> In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Definir caixa de diálogo de cargas de trabalho.":::
+Na guia **Cargas de trabalho definidas**, use o botão **Criar carga de trabalho** para adicionar um gerenciamento de depósito ou uma carga de trabalho de execução de fabricação a uma das unidades de escala. Para cada carga de trabalho, você deve especificar o contexto dos processos que serão propriedade da carga de trabalho. Para cargas de trabalho de gerenciamento de depósito, o contexto é um depósito específico em um site e uma entidade legal específicos. Para cargas de trabalho de execução de fabricação, o contexto é um site específico em uma entidade legal.
 
-#### <a name="manage-workloads"></a><a name="manage-workloads"></a>Gerenciar cargas de trabalho
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Criação de carga de trabalho":::
 
-Quando uma ou mais cargas de trabalho são habilitadas, use a opção **Gerenciar cargas de trabalho** para iniciar e gerenciar processos como os listados na tabela a seguir.
+> [!IMPORTANT]
+> O portal do Gerente de Unidade de Escala na versão preliminar não permite remover cargas de trabalho de unidades de escala ou cancelar a atribuição de uma unidade de escala de um hub após a atribuição ser feita. Se for necessário remover uma atribuição, contate a pessoa de contato para gerenciamento do programa de visualização.
 
-| Processar | Descrição |
-|---|---|
-| Pausar a comunicação da unidade de escala | Pausar mensagens de pipeline entre o hub e uma unidade de escala. Esse processo interromperá a comunicação e drenará o pipeline de dados entre o hub e as unidades de escala. Você deve executar esse processo antes de executar uma operação de serviço do Supply Chain Management no hub ou na unidade de escala, mas isso também pode ser usado em outras situações. |
-| Continuar a comunicação da unidade de escala | Continuar as mensagens de pipeline entre o hub e uma unidade de escala. Talvez seja necessário usar esse processo, por exemplo, depois de executar uma operação de serviço do Supply Chain Management no hub ou na unidade de escala. |
-| Atualizar cargas de trabalho | Sincronizar nova funcionalidade entre as cargas de trabalho da unidade de escala e do hub. Talvez seja necessário usar esse processo, por exemplo, quando a manutenção tiver causado a alteração das consultas de troca de dados e/ou tiver adicionado novas tabelas ou campos à carga de trabalho. |
-| Transferir cargas de trabalho para uma unidade de escala | Agende uma carga de trabalho que está sendo executada no momento no hub para ser movida para uma unidade de escala. Quando esse processo for executado, a sincronização de dados fluirá e o hub e a unidade de escala serão definidos para alterar a propriedade da carga de trabalho. |
-| Transferir unidade de escala para o hub | Agende uma carga de trabalho que está sendo executada no momento em uma unidade de escala a ser movida para o hub. Quando esse processo for executado, a sincronização de dados fluirá e o hub e a unidade de escala serão definidos para alterar a propriedade da carga de trabalho.
-| Transição de emergência para hub | <p>Transfira imediatamente uma carga de trabalho existente para o hub. *Esse processo alterará a propriedade apenas dos dados disponíveis no momento no hub.*</p><p><strong>Aviso:</strong> esse processo pode causar perda de dados para dados não sincronizados e falha no processamento comercial. Portanto, ele deve ser usado somente em emergências, nas quais os processos comerciais devem ser processados no hub porque a unidade de escala tem uma interrupção que não pode ser atenuada em um período razoável.</p> |
-| Topologia de desativação distribuída | Remova uma implantação de unidade de escala e execute somente no hub, sem o processamento da carga de trabalho. |
+<!-- ### Create an edge scale unit using your custom on-premises hardware appliance
 
-:::image type="content" source="media/sum-manage-workloads.png" alt-text="Experiência de gerenciamento de unidade de escala e carga de trabalho.":::
-
-> [!TIP]
-> Com o tempo, melhorias incrementais serão adicionadas à experiência do Gerente de Unidade de Escala para facilitar as operações de gerenciamento do ciclo de vida. Os recursos específicos da versão atual estão documentados em um manual de integração disponível para clientes que estão no processo de integração à topologia híbrida distribuída do Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->
-
-## <a name="feature-management-considerations-for-workloads"></a>Considerações de gerenciamento de recursos para cargas de trabalho
-
-Esta seção explica alguns aspectos importantes que devem ser considerados ao instalar cargas de trabalho e adicionar ou remover recursos em uma implantação de topologia híbrida distribuída. Diversos cenários podem influenciar se você terá de executar um [upgrade de carga de trabalho](#manage-workloads) depois de fazer alterações. Porém, normalmente isso precisa ser feito quando você atualiza ou adiciona novas consultas de troca de dados e/ou quando adiciona novas tabelas ou campos a uma carga de trabalho já instalada.
-
-### <a name="mandatory-features-for-installing-a-workload"></a>Recursos obrigatórios para instalar uma carga de trabalho
-
-Quando você instala uma carga de trabalho, o processo de instalação cria uma definição de carga de trabalho que contém informações sobre as tabelas de dados usadas quando os dados são sincronizados entre as duas implantações. A criação de uma definição de carga de trabalho é processada automaticamente com base nos recursos habilitados no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A tabela a seguir lista os recursos que devem estar habilitados para gerar as definições de carga de trabalho necessárias para executar uma carga de trabalho de depósito ou de fabricação.
-
-| Recurso obrigatório | Carga de trabalho |
-|---|---|
-| Atribuição automática dos GUIDs na criação de usuários do WHS | Depósito |
-| Bloqueio de trabalho em toda a organização | Depósito |
-| Detalhes da etiqueta do ciclo de remessa | Depósito |
-| Suporte à unidade de escala para listas de trabalho do aplicativos de depósito | Depósito |
-| Execução do piso de produção | Fabricação |
-
-Quando você implantar uma carga de trabalho usando as [ferramentas de implantação de unidade de escala para ambientes de desenvolvimento de uma caixa](https://github.com/microsoft/SCMScaleUnitDevTools) ou o [portal do gerente de unidade de escala](https://sum.dynamics.com), todos os recursos obrigatórios serão habilitados automaticamente. No entanto, se você fizer uma implantação de teste manual que não tenha um ou mais dos recursos obrigatórios, a instalação da carga de trabalho não será bem-sucedida e será exibida uma mensagem listando os recursos ausentes. Nesse caso, você deverá habilitar esses recursos manualmente e disparar a instalação da carga de trabalho mais uma vez.
-
-### <a name="enabling-or-disabling-features-that-have-data-synchronization-dependencies"></a>Habilitando ou desabilitando recursos que têm dependências de sincronização de dados
-
-Os recursos que afetam a seleção de dados sincronizados entre o hub e as respectivas unidades de escala também afetam a maneira como a definição de carga de trabalho é criada. Por isso é importante que esses recursos sejam habilitados antes da instalação da carga de trabalho. Se você habilitar esse tipo de recurso enquanto estiver executando uma carga de trabalho, deverá regenerar a definição da carga de trabalho executando um [upgrade da carga de trabalho](#manage-workloads) depois de habilitar o recurso. Da mesma forma, se você desabilitar um recurso que tem dependências de sincronização de dados enquanto estiver executando uma carga de trabalho, deverá executar um [upgrade da carga de trabalho](#manage-workloads) para remover as informações de sincronização de dados relevantes da definição da carga de trabalho.
-
-[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->

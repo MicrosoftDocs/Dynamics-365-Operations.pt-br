@@ -2,27 +2,24 @@
 title: Módulo de finalização da compra
 description: Este tópico descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 author: anupamar-ms
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410347"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715497"
 ---
 # <a name="checkout-module"></a>Módulo de finalização da compra
 
@@ -30,15 +27,13 @@ ms.locfileid: "4410347"
 
 Este tópico descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 
-## <a name="overview"></a>Visão geral
-
 Um módulo de finalização da compra é um contêiner especial que hospeda todos os módulos necessários para criar um pedido. Apresenta um fluxo passo a passo que um cliente usa para inserir todas as informações relevantes para fazer uma compra. Ele captura o endereço de remessa, o método de remessa e as informações de cobrança. Ele também fornece um resumo do pedido e outras informações relacionadas a um pedido do cliente.
 
 Um módulo de finalização da compra renderiza dados com base na ID de carrinho. Essa ID de carrinho é salva como um cookie do navegador. É necessária uma ID de carrinho para renderizar informações no módulo de finalização da compra, como os itens da ordem, o valor total e os descontos. 
 
 A imagem a seguir mostra um exemplo de um módulo de finalização da compra da Fabrikam em uma página de finalização da compra.
 
-![Exemplo de um módulo de finalização da compra](./media/Checkout.PNG)
+![Exemplo de um módulo de finalização da compra.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Propriedades do módulo de finalização da compra
 
@@ -57,13 +52,13 @@ Um módulo de finalização de compra mostra um resumo do pedido e fornece a fun
 
     A imagem a seguir mostra um exemplo de um módulo de endereço de remessa em uma página de finalização da compra.
 
-    ![Exemplo de módulo de endereço de remessa](./media/ecommerce-shippingaddress.PNG)
+    ![Exemplo de módulo de endereço de remessa.](./media/ecommerce-shippingaddress.PNG)
 
 - **Opções de entrega** – Este módulo permite que um cliente selecione um modo de entrega para um pedido. Para obter mais informações sobre esse módulo, consulte [Módulo de opções de entrega](delivery-options-module.md).
 
     A imagem a seguir mostra um exemplo de um módulo de opções de entrega em uma página de finalização da compra.
  
-    ![Exemplo de um módulo opções de entrega](./media/ecommerce-deliveryoptions.PNG)
+    ![Exemplo de um módulo opções de entrega.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Contêiner da seção de finalização da compra** – Este módulo é um contêiner dentro do qual é possível colocar vários módulos para criar uma seção dentro do fluxo de finalização da compra. Por exemplo, você pode colocar todos os módulos relacionados a pagamento dentro desse contêiner para que eles apareçam como uma seção. Esse módulo afeta apenas o layout do fluxo.
 
@@ -75,7 +70,7 @@ Um módulo de finalização de compra mostra um resumo do pedido e fornece a fun
 
     A imagem a seguir mostra um exemplo de um cartão-presente, pontos de fidelidade e módulos de pagamento em uma página de finalização de compra.
 
-    ![Exemplo de um cartão-presente, pontos de fidelidade e módulos de pagamento em uma página de finalização de compra](./media/ecommerce-payments.PNG)
+    ![Exemplo de um cartão-presente, pontos de fidelidade e módulos de pagamento em uma página de finalização de compra.](./media/ecommerce-payments.PNG)
 
 - **Informações de contato** – Este módulo permite que um cliente adicione ou altere as informações de contato (endereço de email) de uma ordem.
 
@@ -85,7 +80,7 @@ Um módulo de finalização de compra mostra um resumo do pedido e fornece a fun
 
     A imagem a seguir mostra um exemplo de termos e condições em uma página de finalização de compra.
 
-    ![Exemplo de termos e condições em uma página de finalização da compra](./media/ecommerce-checkout-terms.PNG)
+    ![Exemplo de termos e condições em uma página de finalização da compra.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
 
@@ -95,7 +90,7 @@ A maioria das informações de finalização da compra, como endereço e método
 
 Para adicionar um módulo de finalização da compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Finalização da compra**.
 1. Em **Nome do fragmento**, digite o nome **Fragmento de finalização da compra** e selecione **OK**.
 1. Selecione o slot **Módulo de finalização da compra**.
@@ -127,3 +122,6 @@ Para adicionar um módulo de finalização da compra a uma nova página e defini
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 
 [Módulo de cartão-presente](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

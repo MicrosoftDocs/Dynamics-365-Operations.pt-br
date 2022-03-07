@@ -2,28 +2,25 @@
 title: Registrar o recebimento de itens devolvidos
 description: Você pode registrar o recibo de itens devolvidos usando o formulário de Visão geral de entrada ou o formulário de Registro.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview, InventTransRegister
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42ca1d4d2d9b45d79cf479833f83e498e3b73540
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 96532173c003621271f768dcdc64d67b6948ab6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421926"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836029"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>Registrar o recebimento de itens devolvidos 
 
@@ -113,3 +110,6 @@ Como uma alternativa ao usar o formulário de **Visão geral de entrada**, você
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

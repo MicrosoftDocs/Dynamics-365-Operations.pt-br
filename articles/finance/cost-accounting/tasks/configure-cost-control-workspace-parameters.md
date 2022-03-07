@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9861d6bc83d3f1d62091154a36436627eeccad4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 61f25b93440495b2d1b70227ecda011c43c2e564
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969344"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208766"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurar parâmetros de espaço de trabalho de controle de custo
 
@@ -58,3 +58,6 @@ Use este procedimento para configurar o espaço de trabalho de controle de custo
 27. No campo Nó da hierarquia da dimensão de objeto de custo, insira ou selecione um valor.
     * Depois de ter selecionado uma hierarquia de dimensão do objeto de Custo, expanda a hierarquia de dimensão do elemento de custo para ver os valores de custos desejados. Por exemplo, você pode expandir a hierarquia para Custos indiretos de fabricação para ver o valor.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

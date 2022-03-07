@@ -2,11 +2,9 @@
 title: Balanceamento de lote
 description: Este tópico descreve o processo de balanceamento de lote.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8c1f52239b2050425c37a8130507e689b29205a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966546"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780067"
 ---
 # <a name="batch-balancing"></a>Balanceamento de lote
 
@@ -51,7 +49,7 @@ Para associar um atributo base a um produto, a seguinte configuração é necess
 - O atributo que indica os níveis do ingrediente deve ser definido como um atributo de lote específico ao produto.
 
 Para pesquisar e editar o valor real do princípio ativo de um lote:
-1. Vá para **Gerenciamento de estoque \> Consultas e relatórios \> Dimensões de rastreamento \> Lotes**.
+1. Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Dimensões de rastreamento \> Lotes**.
 1. Selecione um número de lote na grade.
 1. No painel de ações, abra a guia **Exibir** e selecione **Atributos de lote do estoque**.
 
@@ -186,3 +184,6 @@ Há duas exceções à regra de que as ordens de lote são aplicáveis ao balanc
 1. Se a unidade de medida da fórmula for diferente da unidade de medida do estoque do princípio ativo, a ordem de lote não será aplicável ao balanceamento de lotes.
 
 Uma ordem de lote não aplicável ao balanceamento de lote passa pelo ciclo de processo normal para ordens de lote.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

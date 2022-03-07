@@ -1,28 +1,25 @@
 ---
 title: Reconciliar frete manualmente
 description: Este procedimento mostra como reconciliar manualmente o frete.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSFreightBillDetail, TMSInvoiceTable, TMSFreightBillInvoiceReconcile, TMSInvoiceJournal, LedgerJournalTable, LedgerJournalTransDaily, TMSFBDetailReconcile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fc4fc51955544df4d0156a4c83bcc5b5a0e13df3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1342f8b26d3f629c9fe4439761ffc26372dce061
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422557"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573096"
 ---
 # <a name="reconcile-freight-manually"></a>Reconciliar frete manualmente
 
@@ -32,7 +29,7 @@ Este procedimento mostra como reconciliar manualmente o frete. Normalmente isso 
 
 
 ## <a name="select-a-load-to-reconcile"></a>Selecione uma carga para reconciliar
-1. Vá para Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
+1. Acesse Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
 2. Desmarque a caixa de seleção Esconder envio e recebido. 
 3. Na lista, selecione custo indireto que tem a identificação ID 00006 de carga.
 
@@ -61,3 +58,6 @@ Quando você reconciliar uma nota fiscal da transportadora e uma conta de frete,
 5. Clique para seguir o link no campo Número de referência do diário.
 6. Clique em Linhas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

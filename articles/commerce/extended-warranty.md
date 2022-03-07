@@ -2,11 +2,9 @@
 title: Criar e configurar garantias estendidas
 description: Este tópico abrange as garantias estendidas e descreve como criá-las e configurá-las no Microsoft Dynamics 365 Commerce.
 author: sijoshi
-manager: annbe
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 772dc1fdda7c34448ffa946237f717e657df6d83d8fda9336049e79d19ed1af0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965104"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745371"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Criar e configurar garantias estendidas
 
@@ -83,7 +81,7 @@ Para criar um item de garantia no Commerce, siga estas etapas:
 
     Por exemplo, para uma garantia de dois anos, defina o campo **Unidade de tempo** como **Ano(s)** e o campo **Duração** como **2**. Como alternativa, defina o campo **Unidade de tempo** como **Mês(es)** e o campo **Duração** como **24**, conforme mostrado na ilustração a seguir.
 
-    ![Página de detalhes do produto de um item de garantia](./media/ew-time-properties.png)
+    ![Página de detalhes do produto de um item de garantia.](./media/ew-time-properties.png)
 
 1. Selecione **Salvar** para salvar o item de garantia.
 1. Libere o produto com garantia para a empresa para que ele possa ser vendido. Para obter mais informações, consulte [Configurar produtos de varejo](set-up-retail-products.md).
@@ -96,7 +94,7 @@ Para criar um item de garantia no Commerce, siga estas etapas:
 
     Por exemplo, a ilustração a seguir mostra o campo **Base da faixa de preço** definido como **Preço base**, o campo **Limite inferior** definido como US$ 500 e o campo **Limite superior** definido como US$ 1.000.
     
-    ![Página de detalhes do produto liberado de um item de garantia](./media/ew-release-product-details.png)
+    ![Página de detalhes do produto liberado de um item de garantia.](./media/ew-release-product-details.png)
 
 1. Classifique o item de garantia para o canal em que ele será vendido. Para saber mais, consulte [Configurar classificações](set-up-assortments.md).
 
@@ -163,11 +161,11 @@ Duas operações de PDV permitem que representantes de vendas vendam itens de ga
 
 A ilustração a seguir mostra um exemplo de uma página de terminal de PDV com um aviso para adicionar um item de garantia para a compra atual de um item com garantia.
 
-![Exemplo de um aviso para adicionar um item de garantia para a compra atual](./media/ew-sell-warranty.png)
+![Exemplo de um aviso para adicionar um item de garantia para a compra atual.](./media/ew-sell-warranty.png)
 
 A ilustração a seguir mostra um exemplo do recurso para adicionar um item de garantia para um item com garantia que foi vendido anteriormente.
 
-![Exemplo do recurso para adicionar um item de garantia para um item com garantia vendido anteriormente](./media/ew-add-warranty-existing.png)
+![Exemplo do recurso para adicionar um item de garantia para um item com garantia vendido anteriormente.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Processar transações de garantia
 
@@ -238,3 +236,6 @@ Uma garantia é um serviço que é fornecido para um produto exclusivo específi
 [Configurar sortimentos](set-up-assortments.md)
 
 [Visão geral de sequências numéricas](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

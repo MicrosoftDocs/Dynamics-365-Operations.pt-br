@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCComponentList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f8b640d63776debbe12367439186a72b231d8ada
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 273f335bc7b75f46911295c950c7f9f323cc9699
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422178"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237933"
 ---
 # <a name="create-product-model-components"></a>Criar componentes de modelo de produto
 
@@ -38,3 +37,6 @@ Modelos de configuração de produto baseada em restrição usam componentes com
 7. No campo Descrição, digite um valor.
 8. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

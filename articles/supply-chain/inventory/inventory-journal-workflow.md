@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421941"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011663"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Fluxos de trabalho de aprovação de diário de estoque
 
@@ -31,6 +30,13 @@ Este tópico descreve como configurar e usar fluxos de trabalho de aprovação d
 
 > [!NOTE]
 > Os fluxos de trabalho de aprovação de diário de estoque se aplicam somente a transações registradas usando o módulo gerenciamento de estoque. Eles não funcionam com diários de estoque iniciados do módulo de gerenciamento de depósito.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Ativar o recurso de fluxos de trabalho de aprovação de diário de estoque
+
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+
+- **Módulo:** *Gerenciamento de estoque e depósito*
+- **Nome do recurso:** *Fluxo de trabalho de aprovação de diário de estoque*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Criar seus fluxos de trabalho de aprovação de diário de estoque
 

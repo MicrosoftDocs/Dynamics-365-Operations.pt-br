@@ -2,11 +2,9 @@
 title: Criar uma ordem de compra regida por orçamento
 description: Use este procedimento para criar uma ordem de compra que seja verificada para o orçamento disponível.
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbfbbef3bd7c7398f0f17b6cddbbff8c4755638d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a79b19ce4ff35ecc1f691edea1bdc5e30010b433
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963704"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821360"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Criar uma ordem de compra regida por orçamento
 
@@ -61,3 +59,6 @@ Use este procedimento para criar uma ordem de compra que seja verificada para o 
 4. Clique em Erros ou avisos da verificação de orçamento.
 5. Clique em Fechar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

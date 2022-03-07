@@ -2,11 +2,9 @@
 title: Apuração de imposto ISS (Brasil)
 description: É possível fazer a avaliação fiscal de ISS de um determinado período de escrituração, considerando o valor de ISS a ser recuperado e o valor de ISS a ser pago a partir das notas fiscais.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64f8f2042b1ed5142aa0089d4223e6df08b70340
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 91b6cced7330a9c889197ccefc87a0b6384d5d1ad925ec780473651aba541361
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731383"
 ---
 # <a name="tax-assessment-for-iss-tax-brazil"></a>Apuração de imposto ISS (Brasil)
 
@@ -28,7 +26,7 @@ ms.locfileid: "4964593"
 
 É possível fazer a avaliação fiscal de ISS de um determinado período de escrituração, considerando o valor de ISS a ser recuperado e o valor de ISS a ser pago a partir das notas fiscais. Quanto ao valor devido após a avaliação fiscal, você pode fazer o pagamento do valor para a autoridade fiscal. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Livros fiscais > Comum > Período de escrituração.
+1. Acesse Livros fiscais > Comum > Período de escrituração.
 2. Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.
 3. No campo Estabelecimento fiscal, insira ou selecione um valor.
 4. No campo Mês, selecione uma opção.
@@ -37,7 +35,7 @@ ms.locfileid: "4964593"
 7. Clique em Sincronizar.
 8. Clique em OK.
 9. Feche a página.
-10. Vá para Livros fiscais > Comum > Apuração de imposto > ISS.
+10. Acesse Livros fiscais > Comum > Apuração de imposto > ISS.
 11. Clique em Apuração de imposto ISS para abrir a caixa de diálogo suspensa.
 12. No campo Período de escrituração, insira ou selecione um valor.
 13. Clique em OK.
@@ -53,3 +51,6 @@ ms.locfileid: "4964593"
 23. Feche a página.
 24. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

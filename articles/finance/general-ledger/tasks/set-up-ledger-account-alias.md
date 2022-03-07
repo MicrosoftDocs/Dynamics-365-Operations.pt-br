@@ -2,11 +2,9 @@
 title: Configurar um alias de conta contábil
 description: Este procedimento mostra como criar um apelido de conta que fornece um atalho para inserir um número de conta.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08fcbc4e7e593c7d1a632183409ae85423545263
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 60e1dc0e61fd11e5498966031fbe7e6e65af2c6f57a820e1c99df05c6ad7f8f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968394"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745787"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Configurar um alias de conta contábil
 
@@ -28,7 +26,7 @@ ms.locfileid: "4968394"
 
 Este procedimento mostra como criar um apelido de conta que fornece um atalho para inserir um número de conta. Este procedimento usa a empresa de dados de demonstração USMF.
 
-1. Vá para Contabilidade > Plano de contas > Contas > Apelido da conta contábil.
+1. Acesse Contabilidade > Plano de contas > Contas > Apelido da conta contábil.
 2. Clique em Novo.
 3. No campo Apelido da conta contábil, digite um valor.
 4. No campo Estrutura de conta, selecione a estrutura à qual a conta e as dimensões pertencem.
@@ -40,3 +38,6 @@ Este procedimento mostra como criar um apelido de conta que fornece um atalho pa
 9. No campo Foco inicial, selecione a dimensão que terá foco quando o apelido é usado.
     * Após digitar o atalho e a conta e as dimensões serem preenchidas, o campo Foco inicial é para onde o cursor ou foco será movido.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

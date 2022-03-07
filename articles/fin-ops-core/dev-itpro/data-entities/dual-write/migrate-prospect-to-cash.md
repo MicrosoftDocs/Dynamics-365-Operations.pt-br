@@ -2,28 +2,19 @@
 title: Migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
 description: Este tópico descreve como migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2021-01-04
-ms.openlocfilehash: f1478f0246e7f1ff8bd72232cbaf4c2034cf4edb
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: d119a9e5874f73e024cedc4cdb581f947e5bf1a0
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959837"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782496"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
 
@@ -98,3 +89,6 @@ Como os dados da tabela **Produtos** são projetados para fluir do aplicativo Fi
 ## <a name="quote-and-quote-product-tables"></a>Tabelas de Cotação e Produto da cotação
 
 Para a tabela **Cotação**, siga as instruções na seção [Tabela de ordens](#order-table) anterior neste tópico. Para a tabela **Produto da cotação**, siga as instruções na seção [Tabela de produtos da ordem](#order-products-table).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

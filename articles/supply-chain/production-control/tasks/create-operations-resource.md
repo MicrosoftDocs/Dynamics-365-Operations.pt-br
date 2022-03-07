@@ -2,27 +2,24 @@
 title: Criar um recurso de operações
 description: Um recurso de operações executa as atividades de um projeto ou um processo de produção.
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2e59b1e6a83d902df98a0b40ee6c572a6567f05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ab91c449293338469fa2832156a85c4c32301fd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421901"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829033"
 ---
 # <a name="create-an-operations-resource"></a>Criar um recurso de operações
 
@@ -81,3 +78,6 @@ Um recurso de operações executa as atividades de um projeto ou um processo de 
 4. No campo Local de entrada, insira ou selecione um valor.
     * Especifique o local no depósito de onde o recurso de operações está consumindo materiais.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

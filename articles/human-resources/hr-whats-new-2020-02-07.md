@@ -1,33 +1,32 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (7 de fevereiro de 2020)
 description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 7 de fevereiro de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42fac6e34db10efb047b4cb0fc3c7752330e5bcf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 70acaaf2218c8b5c0239b968a29a927ac23080f0
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526825"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060805"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (7 de fevereiro de 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Este artigo descreve os recursos novos ou alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.2835. Os números em parênteses em alguns cabeçalhos referem-se aos números de suporte no Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -55,11 +54,11 @@ Os seguintes recursos de visualização foram disponibilizados em 3 de fevereiro
 
 ### <a name="platform-update-32"></a>Update 32 para plataforma 
 
-A atualização da plataforma 32 estará disponível em breve. [Obtenha mais informações sobre a atualização de plataforma 32 aqui](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+A atualização da plataforma 32 estará disponível em breve. [Obtenha mais informações sobre a atualização de plataforma 32 aqui](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
-### <a name="updated-common-data-service-solution"></a>Solução Common Data Service atualizada
+### <a name="updated-dataverse-solution"></a>Solução Dataverse atualizada
 
-Uma nova solução de Common Data Service estará disponível em breve com as seguintes alterações:
+Uma nova solução de Dataverse estará disponível em breve com as seguintes alterações:
 
 | Descrição | Troco |
 | ----------------------------------------- | --- |
@@ -70,11 +69,13 @@ Uma nova solução de Common Data Service estará disponível em breve com as se
 | Novas entidades de configuração de remuneração variável | **Tipo de plano de remuneração variável**</br>**Plano de remuneração variável**</br>**Regras de benefício proporcional diferido**</br>**Nível do plano de remuneração variável** |
 | Nova entidade **Emprego do calendário do trabalhador** | **Entidade do calendário de trabalho** adicionada |
 | Nova entidade **Detalhe da posição de folha de pagamento** | **Detalhe da posição de folha de pagamento** adicionado |
-| Nova entidade **Bloco** | **Bloco** adicionado. A nova entidade **Título** será incluída no processo de sincronização entre Human Resources e Common Data Service. Não será inicialmente referenciada de entidades **Cargo** ou **Trabalho**. |
+| Nova entidade **Bloco** | **Bloco** adicionado. A nova entidade **Título** será incluída no processo de sincronização entre Human Resources e Dataverse. Não será inicialmente referenciada de entidades **Cargo** ou **Trabalho**. |
 
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

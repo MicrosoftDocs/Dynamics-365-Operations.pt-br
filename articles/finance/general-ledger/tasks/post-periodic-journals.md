@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99d157e82f8451e2c8f0bc7946ba30ca48e99add
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 31c801658004f771df6f1ddf70194de131314a64
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968495"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212146"
 ---
 # <a name="post-periodic-journals"></a>Lançar diários periódicos
 
@@ -57,3 +57,6 @@ Os diários periódicos são as vezes chamados diários de devolução porque o 
 27. No campo **Número de diário periódico**, insira ou selecione um valor.
 28. Na lista, clique no link na linha selecionada.
 29. Clique em **OK**. O diário do período pode então ser revisto aprovado ou lançado, dependendo do requisito e da configuração.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

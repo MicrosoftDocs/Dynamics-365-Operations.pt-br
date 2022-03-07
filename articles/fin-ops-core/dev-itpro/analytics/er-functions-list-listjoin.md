@@ -2,11 +2,9 @@
 title: Função LISTJOIN ER
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) LISTJOIN é usada.
 author: NickSelin
-manager: kfend
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682234"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027906"
 ---
 # <a name="listjoin-er-function"></a>Função LISTJOIN ER
 
@@ -33,7 +31,7 @@ A função `LISTJOIN` retorna um valor de *Lista de registros* que representa um
 ## <a name="syntax"></a>Sintaxe
 
 ```vb
-LIST (list 1 [, list 2, …, list N])
+LISTJOIN (list 1 [, list 2, …, list N])
 ```
 
 ## <a name="arguments"></a>Argumentos
@@ -83,3 +81,6 @@ A estrutura dessa lista consiste em um único campo **Valor** do tipo `Real`, po
 [Funções de listagem](er-functions-category-list.md)
 
 [Depurar fontes de dados de um formato de relatório eletrônico executado para analisar o fluxo de dados e a transformação](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

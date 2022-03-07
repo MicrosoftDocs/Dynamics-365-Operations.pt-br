@@ -2,28 +2,19 @@
 title: Cartões-fidelidade do cliente e pontos de premiação
 description: Este tópico descreve a integração de dados sobre cartões de fidelidade do cliente e pontos de recompensa em gravação dupla.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/10/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 28872e9510394cf3d5cee151798d4130b8b6fe27
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 919ce0d57fb306b39cdcdd8655ac9f0b9e26847e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683489"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781655"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>Cartões-fidelidade do cliente e pontos de premiação
 
@@ -35,13 +26,10 @@ As empresas classificam os clientes e fornecem serviços sofisticados, com base 
 
 ## <a name="templates"></a>Modelos
 
-| Aplicativos Finance and Operations | Aplicativos controlados por modelos no Dynamics 365 | descrição |
+Aplicativos do Finance and Operations | Aplicativos do Customer Engagement     | descrição
 |-----------------------------|-----------------------------------|-------------|
-| Cartão-fidelidade                | msdyn\_loyaltycards               | Este modelo sincroniza informações sobre cartões de fidelidade do cliente. |
-| Pontos de premiação de fidelidade       | msdyn\_loyaltyrewardpoints        | Este modelo sincroniza informações sobre pontos de recompensa do cliente. |
+[Cartão-fidelidade](mapping-reference.md#149) | msdyn_loyaltycards | Este modelo sincroniza informações sobre cartões de fidelidade do cliente. |
+[Níveis de fidelidade](mapping-reference.md#226) | msdyn_loyaltylevels | Este modelo sincroniza informações sobre pontos de recompensa do cliente. |
+[Pontos de premiação de fidelidade](mapping-reference.md#150) | msdyn_loyaltyrewardpoints | |
 
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
-
-[!include [mapping reward points](includes/LoyaltyRewardPoints-msdyn-loyaltyrewardpoints.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

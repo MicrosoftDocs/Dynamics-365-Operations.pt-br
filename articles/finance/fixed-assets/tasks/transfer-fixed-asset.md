@@ -1,35 +1,32 @@
 ---
 title: Transferir um ativo fixo
 description: Este guia da tarefa transfere as informações financeiras para um registro de ativo fixo de um conjunto de dimensões financeiras para um novo conjunto de dimensões financeiras.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eb38483d3ac61acb4513e87d8c36ddd0f8863a10
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e573386ddbb97bf60e2e501ba92b225f8716c73a
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440363"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883353"
 ---
 # <a name="transfer-a-fixed-asset"></a>Transferir um ativo fixo
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia da tarefa transfere as informações financeiras para um registro de ativo fixo de um conjunto de dimensões financeiras para um novo conjunto de dimensões financeiras.  Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
+Este guia da tarefa transfere as informações financeiras para um registro de ativo fixo de um conjunto de dimensões financeiras para um novo conjunto de dimensões financeiras.  
 
-1. No Painel de navegação, vá para **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
+1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
 2. Na lista, localize e selecione o ativo fixo que você deseja transferir.
 3. No Painel de Ação, clique em **Ativo fixo**.
 4. Clique em **Transferir ativos fixos**.
@@ -48,3 +45,6 @@ Este guia da tarefa transfere as informações financeiras para um registro de a
     * Revise os resultados antes de transferir os registros de ativo fixo.  
 10. Clique em **Transferir**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,29 +2,28 @@
 title: Visão geral do processo de produção
 description: Este tópico fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro.
 author: cvocph
-manager: tfehr
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 19832
+ms.custom:
+- "19832"
+- intro-internal
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6f0c63459bb61bef9251a677f7fc050120e53fe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42a71d9f8a7229b147d5e322456c44c4d0d7b7f7303d8b13946eed7e68c75343
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776839"
 ---
 # <a name="production-process-overview"></a>Visão geral do processo de produção
 
@@ -77,8 +76,7 @@ As etapas a seguir no ciclo de vida de produção podem ocorrer para todos os ti
 12. **Fechamento do período** – Alguns princípios de contabilização de custos, como a média periódica, custos de fluxo inverso, PEPS ou UEPS, exigem atividades periódicas para fechar o estoque ou o período financeiro. Normalmente, o sistema tenta informar todo consumo de materiais e recursos, e também as correções de estoque e sucata, antes dos períodos serem fechados. Este relatório normalmente é feito usando diários de movimentos de estoque ou diários de ajuste. A meta é avaliar o desempenho econômico de unidades operacionais por período. Em alguns casos, quando são usadas ordens de produção de execução longa que se estendem pelos períodos de relatórios financeiros, os diários de produção são usados para informar o andamento da produção e o consumo de recursos até o fim do período.
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [​Comentários da produção​](production-feedback.md)
 
@@ -88,3 +86,6 @@ As etapas a seguir no ciclo de vida de produção podem ocorrer para todos os ti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

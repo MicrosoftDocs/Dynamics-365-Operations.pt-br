@@ -2,29 +2,26 @@
 title: Visão geral do estado do ciclo de vida do produto
 description: O estado do ciclo de vida de um produto documenta o estado do ciclo de vida de um produto ou grade de produto liberado.
 author: cvocph
-manager: tfehr
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 51a6b19e84f368bf72b664e120f262ddcf7c7611
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 0ebd482ad7dfde5393f4c03541a2ae1bca76ca7c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422642"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340033"
 ---
 # <a name="product-lifecycle-state-overview"></a>Visão geral do estado do ciclo de vida do produto
 
@@ -109,3 +106,6 @@ Use os seguintes critérios para selecionar e atualizar os produtos e grades de 
 - [Atribuir um estado de ciclo de vida do produto a um produto liberado](tasks/product-lifecycle-state-released-product.md)
 - [Localizar grades de produto obsoletos e atribuir um estado do ciclo de vida do produto](tasks/obsolete-product-variants.md)
 - [Criar um estado do ciclo de vida do produto para excluir produtos do Planejamento mestre](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

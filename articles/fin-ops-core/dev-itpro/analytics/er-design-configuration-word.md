@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7bc02a97005f84f7ac01f9fd9371f2a0a29314c4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323866"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346635"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Criar uma nova configuração de (ER) para gerar relatórios no formato Word
 
@@ -28,7 +28,7 @@ Para gerar relatórios como documentos do Microsoft Word, você deve criar um mo
 
 ![Modelo de exemplo para o relatório de controle no aplicativo da área de trabalho Word.](./media/er-design-configuration-word-image1.png)
 
-Para usar um documento do Word como modelo para relatórios no formato Word, você pode configurar uma nova [solução](general-electronic-reporting.md) de [relatório eletrônico (ER)](er-quick-start1-new-solution.md). Essa solução deve incluir uma [configuração](general-electronic-reporting.md#Configuration) de ER que contenha um componente de formato de ER.
+Para usar um documento do Word como modelo para relatórios no formato Word, você pode configurar uma nova [solução](general-electronic-reporting.md) de [relatório eletrônico (ER)](er-quick-start1-new-solution.md). Esta solução deve incluir uma [configuração de ER](general-electronic-reporting.md#Configuration) que contenha um componente de [formato](general-electronic-reporting.md#FormatComponentOutbound) de ER.
 
 > [!NOTE]
 > Ao criar uma nova configuração de formato de ER para gerar relatórios no formato Word, você deve selecionar **Word** como o tipo formato na caixa de diálogo de **Criar configuração** ou deixar o campo **Tipo de formato** em branco.
@@ -46,7 +46,7 @@ Você pode adicionar os elementos aninhados **Excel\\Range** e **Excel\\Cell** p
 
 ![Adicionar elemento aninhados na página Designer de formato.](./media/er-design-configuration-word-image4.gif)
 
-Quando você salva as alterações no formato de ER no momento da criação, a estrutura de formato hierárquico é armazenada no modelo do Word anexado como uma [parte XML personalizada](/visualstudio/vsto/custom-xml-parts-overview) que é denominada **Relatório**. Você deve acessar o modelo modificado, baixá-lo no Finance, armazená-lo localmente e abri-lo no aplicativo da área de trabalho Word. A ilustração a seguir mostra o modelo de exemplo armazenado localmente para o relatório de controle que contém a parte XML personalizada **Relatório**.
+Quando você salva as alterações no formato de ER no momento da criação, a estrutura de formato hierárquico é armazenada no modelo do Word anexado como uma [parte XML personalizada](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) que é denominada **Relatório**. Você deve acessar o modelo modificado, baixá-lo no Finance, armazená-lo localmente e abri-lo no aplicativo da área de trabalho Word. A ilustração a seguir mostra o modelo de exemplo armazenado localmente para o relatório de controle que contém a parte XML personalizada **Relatório**.
 
 ![Pré-visualizar o modelo de exemplo de relatório no aplicativo da área de trabalho Word.](./media/er-design-configuration-word-image5.gif)
 

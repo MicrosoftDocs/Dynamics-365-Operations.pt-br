@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 614f37236bbd0239925e37ebf29f59ac006d09cd
+ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087208"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "7948786"
 ---
 # <a name="task-management"></a>Gerenciamento de tarefas
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 O gerenciamento de tarefas permite criar tarefas que devem ser concluídas para contratar (integrar), demitir (desligar) e transferir (transição) funcionários. O gerenciamento de tarefas usa o conceito de listas de verificação. Uma lista de verificação é uma lista de tarefas de integração, desligamento ou transição. O gerenciamento de tarefas usa listas de verificação para agrupar tarefas e para atribuí-las a indivíduos ou a grupos. A funcionalidade da lista de verificação para integração, desligamento e transições é semelhante.
 

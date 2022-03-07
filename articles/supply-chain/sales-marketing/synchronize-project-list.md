@@ -1,30 +1,27 @@
 ---
 title: Sincronizar lista de projetos do Supply Chain Management com o Field Service
 description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar projetos do Dynamics 365 Supply Chain Management com o Dynamics 365 Field Service.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: d80fce409ee92973a6134d96ce839b9722980918
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b825e2fce61e96b963ba0d41f8db49ca9ba646f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421851"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571584"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>Sincronizar lista de projetos do Supply Chain Management com o Field Service
 
@@ -32,7 +29,7 @@ ms.locfileid: "4421851"
 
 Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar projetos do Dynamics 365 Supply Chain Management com o Dynamics 365 Field Service.
 
-[![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)
+[![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service.](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 O modelo a seguir e as tarefas subjacentes são usados para executar a sincronização de projetos do Supply Chain Management com o Field Service.
@@ -66,4 +63,7 @@ Habilitar o controle de alterações para projetos da entidade Dados.
 
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projetos (Supply Chain Management para Field Service): Projetos
 
-[![Mapeamento de modelo na Integração de dados](./media/FSProject1.png)](./media/FSProject1.png)
+[![Mapeamento de modelo na Integração de dados.](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

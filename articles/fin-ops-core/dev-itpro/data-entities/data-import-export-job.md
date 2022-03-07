@@ -1,29 +1,30 @@
 ---
 title: Visão geral de trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
-author: Sunil-Garg
-manager: AnnBe
-ms.date: 11/02/2020
-ms.topic: article
+author: peakerbl
+ms.date: 10/21/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684051"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071076"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Para criar e gerenciar trabalhos de importação e de exportação de dados, use o espaço de trabalho **Gerenciamento de dados**. Por padrão, o processo de importação e exportação criar uma tabela de preparo para cada entidade no banco de dados de destino. As tabelas de preparo permitem verificar, limpar ou converter dados antes de movê-los.
 
@@ -70,6 +71,9 @@ Quando você seleciona uma entidade, é necessário selecionar o formato de dado
 | XML                    | \-NA-                                      | Elemento XML Atributo XML |
 | Delimitado, largura fixa | Vírgula, ponto e vírgula, guia, barra vertical, dois pontos | \-NA-                     |
 
+> [!NOTE]
+> É importante selecionar o valor correto para **Delimitador de linha**, **Delimitador de coluna** e **Qualificador de texto**, se a opção **Formato de arquivo** estiver definida como **Delimitado**. Verifique se os dados não contêm o caractere usado como delimitador ou qualificador, pois isso pode resultar em erros durante a importação e a exportação.
+
 ### <a name="sequence-the-entities"></a>Definir sequências das entidades
 As entidades podem ser sequenciadas em um modelo de dados, ou em trabalhos de importação e exportação. Quando você executa um trabalho que contém mais de uma entidade de dados, você deve garantir que as entidades de dados estão sequenciadas corretamente. Você define a sequência, de forma que possa tratar todas as dependências funcionais entre entidades. Se as entidades se não tiverem dependências funcionais, elas podem ser programadas para importação ou exportação paralela.
 
@@ -108,7 +112,7 @@ Há duas exibições de mapeamento: **Visualização de mapeamento**, que é a e
 
 Você pode gerar um mapeamento na página, selecionando **Gerar mapeamento de origem**. Um mapeamento gerado atua como um mapeamento automático. Portanto, você deve mapear manualmente todos os campos não mapeados.
 
-![Mapeamento de dados](./media/dixf-map.png)
+![Mapeamento de dados.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Verificar a segurança para seu trabalho de importação ou de exportação
 O acesso ao espaço de trabalho **Gerenciamento de dados** pode ser restrito, de forma que os usuários não administradores possam acessar somente os trabalhos de dados específicos. O acesso a um trabalho de dados implica em acesso completo ao histórico da execução desse trabalho e acesso a tabelas de preparo. Portanto, você deve garantir que os controles de acesso apropriados estão em vigor, ao criar um trabalho de dados.
@@ -134,7 +138,7 @@ Você pode executar um trabalho uma vez, selecionando o botão **Importar** ou *
 ## <a name="validate-that-the-job-ran-as-expected"></a>Validar se o trabalho foi executado conforme esperado
 O histórico de trabalho está disponível para solução de problemas e investigação sobre trabalhos de importação e exportação. As execuções do histórico do trabalho são organizadas por intervalos de tempo.
 
-![Intervalos do histórico de trabalho](./media/dixf-job-history.md.png)
+![Intervalos do histórico de trabalho.](./media/dixf-job-history.md.png)
 
 Cada execução de trabalho fornece os seguintes detalhes:
 
@@ -154,28 +158,16 @@ A partir dos detalhes de execução, você também pode abrir este log de execu�
 ## <a name="parallel-imports"></a>Importações paralelas
 Para acelerar a importação de dados, o processamento paralelo da importação de um arquivo poderá ser habilitado se a entidade oferecer suporte a importações paralelas. Para configurar a importação paralela de uma entidade, execute as etapas a seguir.
 
-1. Vá para **Administração de sistema \> Locais de trabalho \> Gerenciamento de dados**.
+1. Acesse **Administração de sistema \> Locais de trabalho \> Gerenciamento de dados**.
 2. Na seção **Importar/Exportar**, selecione o bloco **Parâmetros da estrutura** para abrir a página **Parâmetros da estrutura de importação/exportação**.
 3. Na guia **Configurações da entidade**, selecione **Configurar parâmetros de execução da entidade** para abrir a página **Parâmetros de execução da importação da entidade**.
 4. Defina os seguintes campos para configurar a importação paralela de uma entidade:
 
     - No campo **Entidade**, selecione a entidade legal.
     - No campo **Contagem de registros do limite de importação**, insira a contagem de registros de limite para a importação. Isso determina a contagem de registros a ser processada por um thread. Se um arquivo tiver 10 mil registros, uma contagem de registros equivalente a 2500 com uma contagem de tarefas igual a 4 indica que cada thread processará 2500 registros.
-    - No campo **Contagem de tarefas de importação**, insira a contagem de tarefas de importação. Isto não deve ultrapassar o máximo de segmentos de lote alocados para o processamento em lote em **Administração do sistema \> Configuração do servidor**.
+    - No campo **Contagem de tarefas de importação**, insira a contagem de tarefas de importação. Isto não deve ultrapassar o máximo de segmentos de lote alocados para o processamento em lote em **Administração do sistema\>Configuração do servidor**.
 
-## <a name="clean-up-the-staging-tables"></a>Limpar as tabelas de preparo
-Começando no Update 29 para plataforma, essa funcionalidade foi substituída. Isso é substituído por uma nova versão da funcionalidade de limpeza de histórico de trabalho explicada abaixo.
-
-Você pode limpar as tabelas de preparo usando o recurso **Limpeza de preparo** no espaço trabalho **Gerenciamento de dados**. Você pode usar as opções para selecionar os registros que devem ser excluídos da tabela de preparo:
-
-- **Entidade** – Se apenas uma entidade for fornecida, todos os registros dessa tabela de preparo da entidade serão excluídos. Selecione esta opção para limpar todos os dados da entidade em todos os projetos de dados e de todos os trabalhos.
-- **ID de trabalho** – Se somente um ID de trabalho for fornecido, todos os registros de todas as entidades no trabalho selecionado serão excluídos das tabelas de preparo apropriadas.
-- **Projetos de dados** – Se apenas um projeto de dados for selecionado, todos os registros de todas as entidades e em todos os trabalhos do projeto de dados selecionado serão excluídos.
-
-Você também pode combinar as opções para restringir mais o conjunto de registros que foi excluído.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>A limpeza de histórico de trabalho (disponível no Update 29 para plataforma e posterior)
-
+## <a name="job-history-clean-up"></a>Limpeza do histórico de trabalhos 
 A funcionalidade de limpeza de histórico de trabalho no gerenciamento de dados deve ser usada para agendar uma limpeza periódica do histórico de execução. Esta funcionalidade substitui a funcionalidade de limpeza da tabela de preparo anterior, que agora é obsoleta. As tabelas a seguir serão limpadas pelo processo de limpeza.
 
 -   Todas as tabelas de preparo
@@ -211,28 +203,22 @@ Ao agendar o processo de limpeza, os parâmetros a seguir devem ser especificado
 > [!NOTE]
 > Se os registros nas tabelas de preparo não forem completamente limpos, verifique se o trabalho de limpeza está programado para ser executado em recorrência. Conforme explicado acima, em qualquer execução de limpeza, o trabalho limpará apenas o maior número possível de IDs de execução dentro das horas máximas fornecidas. Para continuar a limpeza de todos os registros de preparo restantes, o trabalho deve ser agendado para ser executado periodicamente.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Limpeza e arquivamento de histórico de trabalho (disponível para visualização na atualização de plataforma 39 ou versão 10.0.15)
+## <a name="job-history-clean-up-and-archival"></a>Limpeza e arquivamento do histórico de trabalho 
 A funcionalidade de limpeza e arquivamento do histórico de trabalho substitui as versões anteriores da funcionalidade de limpeza. Esta seção explicará esses novos recursos.
 
-Uma das principais alterações feitas na funcionalidade de limpeza é o uso do trabalho em lotes do sistema para limpar o histórico. O uso do trabalho em lotes do sistema permite que aplicativos do Finance and Operations agendem e executem automaticamente o trabalho em lote de limpeza assim que o sistema estiver pronto. Não é mais necessário agendar o trabalho em lotes manualmente. Neste modo de execução padrão, o trabalho em lotes será executado de hora em hora a partir da meia-noite e manterá o histórico de execução dos 7 dias mais recentes. O histórico removido é arquivado para recuperação futura.
-
-> [!NOTE]
-> Como essa funcionalidade está na versão prévia, o trabalho em lotes do sistema não excluirá nenhum histórico de execução até que seja habilitado por meio da versão piloto DMFEnableExecutionHistoryCleanupSystemJob. Quando o recurso estiver amplamente disponível em uma versão futura, essa versão piloto não será necessária e o trabalho em lotes do sistema começará a ser limpo e arquivado depois que o sistema estiver pronto, com base no agendamento definido, conforme explicado acima. 
-
-> [!NOTE]
-> Em uma versão futura, as versões anteriores da funcionalidade de limpeza serão removidas dos aplicativos Finance and Operations.
+Uma das principais alterações feitas na funcionalidade de limpeza é o uso do trabalho em lotes do sistema para limpar o histórico. O uso do trabalho em lotes do sistema permite que aplicativos de finanças e operações agendem e executem automaticamente o trabalho em lote de limpeza assim que o sistema estiver pronto. Não é mais necessário agendar o trabalho em lotes manualmente. Neste modo de execução padrão, o trabalho em lotes será executado de hora em hora a partir da meia-noite e manterá o histórico de execução dos últimos 7 dias. O histórico removido é arquivado para recuperação futura. A partir da versão 10.0.20, este recurso está sempre ativo.
 
 A segunda alteração no processo de limpeza é o arquivamento do histórico de execução removido. O trabalho de limpeza arquivará os registros excluídos no armazenamento de blobs que o DIXF usa para integrações normais. O item arquivado estará no formato de pacote DIXF e ficará disponível por 7 dias no blob durante os quais ele pode ser baixado. A longevidade padrão de 7 dias do item arquivado pode ser alterada para um máximo de 90 dias nos parâmetros.
 
 ### <a name="changing-the-default-settings"></a>Alterar as configurações padrão
 No momento, essa funcionalidade está na versão prévia e deve ser explicitamente ativada habilitando a versão piloto DMFEnableExecutionHistoryCleanupSystemJob. O recurso de limpeza de preparo também deve ser ativado no gerenciamento de recursos.
 
-Para alterar a configuração padrão para a longevidade do item arquivado, vá para o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Defina **Dias para reter o pacote em blob** como um valor entre 7 e 90 (inclusos). Isso entrará em vigor nos arquivos criados depois que essa alteração tiver sido feita.
+Para alterar a configuração padrão para a longevidade do item arquivado, Acesse o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Defina **Dias para reter o pacote em blob** como um valor entre 7 e 90 (inclusos). Isso entrará em vigor nos arquivos criados depois que essa alteração tiver sido feita.
 
 ### <a name="downloading-the-archived-package"></a>Baixar o pacote arquivado
 No momento, essa funcionalidade está na versão prévia e deve ser explicitamente ativada habilitando a versão piloto DMFEnableExecutionHistoryCleanupSystemJob. O recurso de limpeza de preparo também deve ser ativado no gerenciamento de recursos.
 
-Para baixar o histórico de execução arquivado, vá para o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Selecione **Histórico de backup de pacote** para abrir o formulário histórico. Este formulário mostra a lista de todos os pacotes arquivados. É possível selecionar e baixar um arquivo morto ao selecionar o **Baixar pacote**. O pacote baixado estará no formato de pacote DIXF e contém os seguintes arquivos:
+Para baixar o histórico de execução arquivado, Acesse o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Selecione **Histórico de backup de pacote** para abrir o formulário histórico. Este formulário mostra a lista de todos os pacotes arquivados. É possível selecionar e baixar um arquivo morto ao selecionar o **Baixar pacote**. O pacote baixado estará no formato de pacote DIXF e contém os seguintes arquivos:
 
 -   O arquivo da tabela de preparo da entidade
 -   DMFDEFINITIONGROUPEXECUTION
@@ -243,3 +229,6 @@ Para baixar o histórico de execução arquivado, vá para o espaço de trabalho
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -17,26 +17,24 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e6010440599c5e60415c1261927de73f520034
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 254a94548bc75ee6d1eae1d1c9f3ae4bdbf58855
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965946"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470968"
 ---
-# <a name="create-reason-codes"></a>Criar códigos de motivo    
+# <a name="create-reason-codes"></a>Criar códigos de motivo
 
 [!include [banner](../includes/banner.md)]
 
+1. Acesse **Gerenciamento de serviços** \> **Configuração** \> **Ordens de serviço** \> **Códigos de motivo da fase**.
 
-1.  Clique em **Gerenciamento de serviços** \> **Configuração** \> **Ordens de serviço** \> **Códigos de motivo da fase**.
+1. Selecione **Novo** para criar um novo código de motivo.
 
-2.  Pressione CTRL+N para criar um novo código de motivo.
-
-3.  Pressione CTRL+S para salvar o código de motivo.
+1. Selecione **Salvar** para salvar o código de motivo.
 
 Quando for solicitado que você forneça um código de motivo para atualizar uma fase da ordem de serviço, você poderá selecionar qualquer dos códigos de motivo configurados aqui.
 
-  
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

@@ -1,27 +1,25 @@
 ---
 title: Definir processos de contagem de estoque
 description: Este tópico descreve a configuração dos processos de contagem básicos de estoque criando um grupo de contagem e um diário de contagem.
-author: MarkusFogelberg
-manager: tfehr
+author: yufeihuang
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c8550e539a1b3299d89ec2b13550a13e284d807
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee47b04ba7ec9f3d74230b7a41b1c295eaea9313
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961362"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580831"
 ---
 # <a name="define-inventory-counting-processes"></a>Definir processos de contagem de estoque
 
@@ -31,7 +29,7 @@ Este tópico descreve a configuração dos processos de contagem básicos de est
 
 
 ## <a name="create-a-counting-group"></a>Crie um grupo de contagem
-1. No Painel de Navegação, vá para **Módulos > Gerenciamento de estoque > Configuração > Estoque > Grupos de contagem**.
+1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de estoque > Configuração > Estoque > Grupos de contagem**.
 2. Selecione **Novo**.
 3. No campo **Grupo de contagem** da nova linha, digite um valor.
 4. No campo **Nome**, digite um valor.
@@ -47,7 +45,7 @@ Este tópico descreve a configuração dos processos de contagem básicos de est
 6. Selecione **Salvar**.
 
 ## <a name="create-a-counting-journal-name"></a>Criar um nome de diário de contabilidade
-1. No Painel de Navegação, vá para **Módulos > Gerenciamento de estoque > Configuração > Nomes de diário > Estoque**.
+1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de estoque > Configuração > Nomes de diário > Estoque**.
 2. Selecione **Novo**.
 3. No campo **Nome**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -63,13 +61,13 @@ Este tópico descreve a configuração dos processos de contagem básicos de est
 7. Selecione **Salvar**.
 
 ## <a name="set-standard-counting-journal-name"></a>Defina o nome de diário padrão de contagem
-1. No Painel de Navegação, vá para **Painel de navegação > Módulos > Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque**.
+1. No Painel de Navegação, Acesse **Painel de navegação > Módulos > Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque**.
 2. Selecione a guia **Diários**.
 3. No menu suspenso do campo **Contagem**, selecione o diário que você criou anteriormente. Este diário será o diário padrão para diários de estoque do tipo **Contagem**.  
 4. Selecione a guia **Geral**. Opcional: Selecione esta opção para bloquear um item durante o processo de contagem para evitar atualizações para guias de remessa, listas de separação, ou registros de lista de separação.  
 
 ## <a name="set-the-counting-policy-for-an-item"></a>Configure a política de contabilidade para um item
-1. No Painel de Navegação, vá para **Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos liberados**.
+1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos liberados**.
 2. Na lista, selecione o link no número de item dos produtos que você deseja definir sobre diretivas de contagem. Você precisa selecionar um item que é rastreado por estoque. Um produto não estocado não pode ser contabilizado. Se você estiver usando dados de demonstração de USMF você pode selecionar o item A0001.  
 3. Selecione **Editar**.
 4. Alternar a expansão da seção **Gerenciar estoque**.
@@ -84,3 +82,6 @@ Este tópico descreve a configuração dos processos de contagem básicos de est
 5. No menu suspenso do campo **Grupo de contagem**, selecione um grupo de contagem. Você pode selecionar um grupo específico de contagem que será aplicado ao item no depósito específico selecionado. Quando a contagem é feita naquele depósito, essa diretiva de contagem substituirá a diretiva geral do item.  
 6. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

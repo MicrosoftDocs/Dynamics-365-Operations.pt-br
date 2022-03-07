@@ -2,26 +2,23 @@
 title: Criar um contrato de recursos bancários para uma carta de crédito
 description: Essa tarefa caminha com a criação de um contrato de recursos bancários para processar uma carta de crédito.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankDocumentFacilityAgreement, BankAccountTableLookUp, BankDocumentFacilityAgreementExtension, DefaultDashboard
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb624700e0b052de977fabecf9670b3515d32ab7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 582a41a0a4a3c509eae8a05c57b0910446addb26
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440337"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834827"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Criar um contrato de recursos bancários para uma carta de crédito
 
@@ -51,3 +48,6 @@ Essa tarefa caminha com a criação de um contrato de recursos bancários para p
 18. Clique em Estender.
 19. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

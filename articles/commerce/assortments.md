@@ -2,25 +2,22 @@
 title: Gerenciamento de classificação
 description: Este tópico explica os conceitos básicos do gerenciamento de classificação no Dynamics 365 Commerce e apresenta considerações de implementação do projeto.
 author: jblucher
-manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717762"
 ---
 # <a name="assortment-management"></a>Gerenciamento de classificação
 
@@ -38,27 +35,27 @@ A combinação geral de produtos de um canal é determinada pelas classificaçõ
 
 No exemplo a seguir, uma classificação exclusiva é configurada para cada loja. Neste caso, somente o produto 1 está disponível na loja 1, e somente o produto 2 está disponível na loja 2.
 
-![Cada produto está disponível em uma loja](./media/Managing-assortments-figure1.png)
+![Cada produto está disponível em uma loja.](./media/Managing-assortments-figure1.png)
 
 Para disponibilizar o produto 2 na loja 1, você pode adicioná-lo à classificação 1.
 
-![Produto 2 adicionado à classificação 1](./media/Managing-assortments-figure2.png)
+![Produto 2 adicionado à classificação 1.](./media/Managing-assortments-figure2.png)
 
 Como alternativa, você pode adicionar a loja 1 à classificação 2.
 
-![Loja 1 adicionada à classificação 2](./media/Managing-assortments-figure3.png)
+![Loja 1 adicionada à classificação 2.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Hierarquias da organização
 
 Nas situações em que vários canais compartilham as mesmas classificações de produtos, você pode configurar as classificações usando a hierarquia da organização de classificação do Commerce. Quando os nós dessa hierarquia forem adicionados, todos os canais desse nó e seus nós secunDiários serão incluídos.
 
-![Hierarquia da organização](./media/Managing-assortments-figure4.png)
+![Hierarquia da organização.](./media/Managing-assortments-figure4.png)
 
-### <a name="product-categories"></a>Categorias de produtos
+### <a name="product-categories"></a>Categorias de produto
 
 Da mesma forma, no lado do produto, você pode incluir grupos de produtos usando hierarquias de categoria de produto. Você pode configurar classificações incluindo um ou mais nós da hierarquia de categoria. Nesse caso, a classificação incluirá todos os produtos nesse nó de categoria e seus nós secunDiários.
 
-![Categorias de produtos](./media/Managing-assortments-figure5.png)
+![Categorias de produto.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Categorias ou produtos excluídos
 
@@ -67,7 +64,7 @@ Além de incluir produtos e categorias em classificações, você pode usar a op
 > [!NOTE]
 > Se um produto for incluído e excluído em uma ou mais classificações por definição, ele sempre será considerado excluído.
 
-![Produtos excluídos](./media/Managing-assortments-figure6.png)
+![Produtos excluídos.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Produtos globais e liberados
 
@@ -107,3 +104,6 @@ Considere os seguintes requisitos de implementação ao planejar e gerenciar cla
 - **Vendas e devoluções fora de classificações** – Este recurso ajuda os varejistas a gerenciar efetivamente suas classificações permitindo que eles limitem o número de produtos disponíveis para produtos que pertençam à combinação de produtos principal da loja. Esse recurso também ajuda os varejistas a lidar com situações em que um produto tenha sido omitido de uma classificação por engano, ou em que um produto tenha sido devolvido fora das datas efetivas da classificação.
 
 Se os dados do produto não existirem no banco de dados do canal, o PDV realiza chamadas em tempo real à matriz a fim de recuperar as informações necessárias, para que o produto possa ser vendido, devolvido ou colocado em uma ordem de cliente. Informações sobre produtos recuperadas dessa forma estarão disponíveis somente durante o escopo dessa transação. O produto não é adicionado à definição de classificação. Portanto, as chamadas em tempo real subsequentes serão feitas conforme necessário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

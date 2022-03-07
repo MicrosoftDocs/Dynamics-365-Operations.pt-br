@@ -2,15 +2,12 @@
 title: Criar um plano de licença e ausência
 description: Crie planos de licença no Dynamics 365 Human Resources para diferentes tipos de licença.
 author: andreabichsel
-manager: AnnBe
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f0903c77676ce8ce7c8d585f24dfe4f554ca1321cd3e5ecc33a0b792dfcc4a66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417335"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745661"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Criar um plano de licença e ausência
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Defina os planos de licença e ausência no Dynamics 365 Human Resources para cada tipo de licença oferecida. Os planos de licença e ausência podem ser acumulados em frequências diferentes, como anual, mensal ou quinzenal. Você também pode definir um plano como uma concessão, em que um único acúmulo ocorra em uma data específica. Por exemplo, você pode criar um plano que conceda feriados flutuantes anuais.
 
@@ -383,3 +382,6 @@ Saldo previsto (30) = valor da competência (10 × 1) + saldo atual (40) – aju
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Configurar tipos de licença e ausência](hr-leave-and-absence-types.md)
 - [Acumular planos de licença e ausência](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

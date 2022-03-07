@@ -2,37 +2,34 @@
 title: Configurar grupos de subscrições
 description: Configurar grupos de subscrições.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a98d096c0eec6b1d585856b63113fd6dd60c0a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed91d3363f99cc6c7bc7b66ad8fba55adad3c2006fd10571e85a44cd14f43463
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421856"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761725"
 ---
 # <a name="set-up-subscription-groups"></a>Configurar grupos de subscrições 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Clique em **Gerenciamento de serviço** \> **Configuração** \> **Subscrições de serviço** \> **Grupos de subscrições**.
+1.  Acesse **Gerenciamento de serviços** \> **Configuração** \> **Subscrições de serviços** \> **Grupos de subscrições**.
 
-2.  Pressione Ctrl+N ou clique em **Novo** para criar um novo grupo de subscrições.
+2.  Selecione **Novo** para criar um novo grupo de subscrições.
 
 3.  No campo **Grupo de subscrição**, insira um nome para o grupo da nova subscrição.
 
@@ -49,3 +46,6 @@ ms.locfileid: "4421856"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

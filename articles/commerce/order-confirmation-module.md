@@ -10,27 +10,24 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bf33ebf9c0c5136f40fcd7e1012988d186c4169b
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 407fc2724d4b589ef5f611974f9358e879dba7ed
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410352"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257138"
 ---
 # <a name="order-confirmation-module"></a>Módulo de confirmação da ordem
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de confirmação da ordem e descreve como usá-los no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 O módulo de confirmação da ordem é usado para mostrar detalhes da confirmação da ordem após ela ser realizada. Ele mostra a ID de confirmação, as informações de contato e outros detalhes da ordem, como os itens que foram comprados, as informações de pagamento, as opções de retirada e o método de remessa.
 
@@ -87,3 +84,6 @@ Para adicionar um módulo de confirmação da ordem a uma nova página e definir
 [Módulo de informações sobre retirada](pickup-info-module.md)
 
 [Módulo de cartão-presente](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

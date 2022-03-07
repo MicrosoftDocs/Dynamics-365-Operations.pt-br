@@ -1,28 +1,28 @@
 ---
 title: Visão geral de solicitações de cotação (RFQs)
 description: Este tópico fornece uma visão geral das solicitações de cotação (RFQs). As organizações emitem RFQs quando desejam receber ofertas competitivas de vários fornecedores para os itens ou serviços que eles compram.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2154
+ms.custom:
+- "2154"
+- intro-internal
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9965e906bdbbf93cdced66b8b39b85a47c62b080
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016922"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569472"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visão geral de solicitações de cotação (RFQs)
 
@@ -39,13 +39,13 @@ O processo de RFQ consiste nas seguintes tarefas:
 
 A ilustração a seguir mostra uma visão geral do processo de RFQ.
 
-[![Processo RFQ](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![Processo RFQ.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 Você pode criar um caso de RFQ de ordens planejadas, de uma requisição de compra ou por entrada manual. O caso de RFQ é o documento base que você usa para emitir uma RFQ a cada fornecedor.
 
 Após preparar o caso de RFQ e adicionar fornecedores, selecione **Enviar** (**Enviar e publicar** para o setor público) no caso de RFQ. Um diário de RFQ é gerado para cada fornecedor para o qual você enviou a RFQ. Você pode definir as configurações de impressão para a ação de envio de forma que seja impresso um relatório para cada fornecedor em um arquivo ou que seja enviado um relatório para o endereço de e-mail de cada fornecedor. Além disso, você pode usar o diário de RFQ de cada fornecedor para gerar um relatório que você pode enviar ou reenviar a um fornecedor posteriormente. Você também pode configurar a ação Enviar, de forma que ela gere uma planilha de respostas que o fornecedor pode preencher.
 
-Este tópico abrange o processo para tratar RFQ quando a colaboração do fornecedor não for usada. Se o sistema estiver configurado para a colaboração do fornecedor, os fornecedores poderão inserir lances diretamente no Supply Chain Management. Para obter mais informações, consulte [Colaboração de fornecedores com clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).
+Este tópico abrange o processo para tratar RFQ quando a colaboração do fornecedor não for usada. Se o sistema estiver configurado para a colaboração do fornecedor, os fornecedores poderão inserir lances diretamente no Supply Chain Management. Para obter mais informações, consulte [Colaboração de fornecedores com clientes](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).
 
 Se tiver que alterar uma RFQ após enviá-la, você poderá enviá-la novamente para os fornecedores quando tiver terminado usando as duas ações de alteração: Criar e Finalizar.
 
@@ -80,23 +80,23 @@ Na página **Parâmetros de compra**, você seleciona o modelo a ser usado para 
 - %Motivo do retorno do lance%
 - %Motivo do aditamento%
 - %Aditamento preparado por%
-- %Empresa%
+- %Company%
 - %Nome do caso de RFQ%
 - %Data/hora de vencimento%
-- %Data%
+- %Date%
 
-Os tokens %Motivo do retorno do lance% e %Motivo do aditamento% são substituídos pelo texto que o profissional de aquisição pode inserir quando ele concluir o aditamento no assistente **Aditamento**. Os valores dos tokens %Aditamento preparado por% e %Empresa% são automaticamente efetuados da RFQ. O token de %Date% é substituído na data atual.
+Os tokens %Motivo do retorno do lance% e %Motivo do aditamento% são substituídos pelo texto que o profissional de aquisição pode inserir quando ele concluir o aditamento no assistente **Aditamento**. Os valores dos tokens %Amendment prepared by% e %Company% são automaticamente obtidos da RFQ. O token %Date% é substituído pela data atual.
 
 Para cancelar uma RFQ após seu envio, é possível fazer isso no caso de RFQ. Para fazer o cancelamento, um modelo de email é obrigatório para enviar a notificação de cancelamento às pessoas de contato do fornecedor. O modelo deve ser selecionado na página **Parâmetros de compras**. Quando o modelo for criado, ele poderá conter os seguintes tokens de substituição:
 
 - %Motivo do cancelamento%
 - %Caso de RFQ%
 - %RFQ cancelada por%
-- %Empresa%
+- %Company%
 - %Nome do caso de RFQ%
-- %Data%
+- %Date%
 
-O token %Motivo do cancelamento% foi substituído pelo texto que o profissional de compras pode inserir no assistente de **Cancelamento**. O token de %Date% é substituído na data atual.
+O token %Motivo do cancelamento% foi substituído pelo texto que o profissional de compras pode inserir no assistente de **Cancelamento**. O token %Date% é substituído pela data atual.
 
 Se você quiser usar os códigos de motivos em um lance para indicar o motivo de sua rejeição ou aceitação, deverá configurar os códigos de motivos na página **Motivos do fornecedor**.
 
@@ -115,7 +115,7 @@ Um gerente ou agente de compras pode criar e manter tipos de solicitações para
 É possível descrever tipos específicos de informações que você deseja receber de fornecedores quando eles responderem a (cotar) uma solicitação de cotação (RFQ). Os campos marcados como padrão são incluídos no formulário online fornecido para a colaboração do fornecedor. Faça alterações nestas configurações:
 
 1. Se ainda não tiver feito isso, use a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar o recurso *Selecionar campos RFQ para incluir nos formulários de resposta de RFQ do fornecedor*.
-1. Vá para **Compras e fornecimento > Configuração >Parâmetros de compras**.
+1. Acesse **Compras e fornecimento > Configuração >Parâmetros de compras**.
 1. Abra a guia **Solicitação de cotação**.
 1. Selecione o link de campos de resposta **Solicitações de cotação padrão** no título **Configurar valores padrão para solicitações de cotações**.
 1. A caixa de diálogo **Campos de resposta de solicitação de cotação padrão** será aberta.
@@ -167,7 +167,7 @@ Se você configurar o processo de alteração de modo que mais restritivo, antes
 
 Se você configurar o processo de alteração para que seja menos restritivo, não precisará selecionar **Criar** antes de modificar os campos em um caso de RFQ que já foi enviado. Entretanto, você deve adicionar manualmente uma nota de alteração na RFQ e enviar o caso novamente. Lembre-se que esta abordagem pode ser usada somente se nenhuma de respostas (lances) forem editadas. Se você inseriu uma resposta e ela estiver em um estado **Recebido**, o botão **Enviar** não estará disponível. Nesse caso, será necessário selecionar **Criar** e **Finalizar**, como você deve fazer no processo mais restritivo. A resposta é redefinida depois para refletir as alterações no caso de RFQ.
 
-Se os fornecedores usam a interface de colaboração de fornecedor para inserir ofertas, você sempre usar o processo de alteração para notificar fornecedores sobre alterações no caso de RFQ. Esse processo ajuda a evitar a situação em que os fornecedores dão um lance em um caso de RFQ desatualizado, enquanto o lance está em andamento. Para obter mais informações sobre colaboração do fornecedor, consulte [Colaboração do fornecedor com fornecedores externos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Se os fornecedores usam a interface de colaboração de fornecedor para inserir ofertas, você sempre usar o processo de alteração para notificar fornecedores sobre alterações no caso de RFQ. Esse processo ajuda a evitar a situação em que os fornecedores dão um lance em um caso de RFQ desatualizado, enquanto o lance está em andamento. Para obter mais informações sobre colaboração do fornecedor, consulte [Colaboração do fornecedor com fornecedores externos](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Se quiser convidar fornecedores adicionais para fazer o lance, e nenhuma alteração foi feita no caso de RFQ, você poderá usar o botão **Enviar**. Os fornecedores que você adicionou aparecerão na página **Enviar** e receberão o convite por email.
 
@@ -246,3 +246,6 @@ No exemplo abaixo, você pode ver o status mais alto e o mais baixo do caso de R
 | Aceite uma das ofertas. (ou pelo menos uma linha) |                          Recebido                           |                           Aceita                           |                    Recebido                    |                    Aceita                     |                   Recebido                   |                   Aceita                    |
 |           Rejeite todos os outros lances.           |                          Rejeitada                           |                           Aceita                           |                    Rejeitada                    |                    Aceita                     |                   Rejeitada                   |                   Aceito                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

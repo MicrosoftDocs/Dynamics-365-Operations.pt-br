@@ -1,28 +1,25 @@
 ---
 title: Copiar coprodutos de uma versão de fórmula existente
 description: Este procedimento mostra como copiar coprodutos de uma versão de fórmula existente para uma versão da fórmula diferente para um produto liberado.
-author: ShylaThompson
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, BOMConsistOf, PmfFormulaCoBy, BOMRouteCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 79b70ccbdac2061baf3896ecbd9449da3c38842a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 527fd94613d53a3f0ae81834d5bdaad30dca2833
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421911"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579223"
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Copiar coprodutos de uma versão de fórmula existente
 
@@ -32,7 +29,7 @@ Este procedimento mostra como copiar coprodutos de uma versão de fórmula exist
 
 
 ## <a name="find-a-released-product"></a>Localize um produto lançado
-1. Vá para Produtos liberados.
+1. Acesse Produtos liberados.
 2. Clique em Mostrar filtros.
     * Você está prestes a adicionar o campo Tipo de produção na caixa de diálogo do filtro.  
 3. Clique no campo Adicionar filtro para adicionar o campo Tipo de produção.
@@ -54,3 +51,6 @@ Este procedimento mostra como copiar coprodutos de uma versão de fórmula exist
 6. Clique em OK.
 7. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

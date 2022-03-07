@@ -2,25 +2,22 @@
 title: Configurar parâmetros federais de NF-e (Brasil)
 description: É possível configurar serviços de Web da Nota Fiscal eletrônica (NF-e), códigos de rejeição e esquemas para gerar uma NF-e.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 095d053f5d0fb47377f9a45f58811ab2256139b9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d720eb51abc6d524b3c58095555cb0940dd8cb962daf8b8e96bb66577aca327e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736900"
 ---
 # <a name="set-up-nf-e-federal-parameters-brazil"></a>Configurar parâmetros federais de NF-e (Brasil)
 
@@ -30,7 +27,7 @@ ms.locfileid: "4408417"
 
 
 
-1. Vá para Administração da organização > Organizações > Notas fiscais eletrônicas > Parâmetros federais de NF-e.
+1. Acesse Administração da organização > Organizações > Notas fiscais eletrônicas > Parâmetros federais de NF-e.
 2. Clique em Novo.
     * Uma autoridade de imposto deve ser criada por estado.  
 3. No campo Autoridade, digite um valor.
@@ -101,3 +98,6 @@ ms.locfileid: "4408417"
 64. Feche a página.
 65. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

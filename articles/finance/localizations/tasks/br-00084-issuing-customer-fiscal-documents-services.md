@@ -2,26 +2,23 @@
 title: Emitir notas fiscais para clientes (serviços) (Brasil)
 description: É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal.
 author: sndray
-manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690f0ecd24c8d73d5b0c4d1307ad69dce917dd0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ede773a6b7843987836b9c268f722fee8a24810d0ed41763252e9e186182af1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725031"
 ---
 # <a name="issue-customer-fiscal-documents-services-brazil"></a>Emitir notas fiscais para clientes (serviços) (Brasil)
 
@@ -29,7 +26,7 @@ ms.locfileid: "4408412"
 
 É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+1. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta de cliente, insira ou selecione um valor.
 4. Clique em OK.
@@ -52,3 +49,6 @@ ms.locfileid: "4408412"
 21. Feche a página.
 22. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

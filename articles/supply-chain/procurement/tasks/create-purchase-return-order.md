@@ -1,26 +1,24 @@
 ---
 title: Criar uma ordem de devolução de compra
 description: Este procedimento mostra a você como criar uma ordem do retorno de compra usando a ação da nota de crédito para copiar linhas de um documento da fatura do vendedor a uma PO nova.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10b3e695ffcd44909be4781eac5d4eaeef199b03
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a391b8dd122bbc9aed57741879fcbca91b9fc26f0caa561702a92e4aaa517bbd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017050"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738188"
 ---
 # <a name="create-a-purchase-return-order"></a>Criar uma ordem de devolução de compra
 
@@ -29,7 +27,7 @@ ms.locfileid: "5017050"
 Este procedimento mostra a você como criar uma ordem do retorno de compra usando a ação da nota de crédito para copiar linhas de um documento da fatura do vendedor a uma PO nova. Ele igualmente mostra como confirmar a ordem e processar a expedição dos bens de volta ao vendedor. O exemplo mostrado neste procedimento pode ser usado na empresa dos dados do programa demonstrativo de USMF. Normalmente essa tarefa é realizada por um agente de compras.
 
 ## <a name="create-a-new-purchase-return-order"></a>Criar uma nova ordem de devolução
-1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**. A primeira etapa é criar uma ordem de compra nova a ser usada como a ordem do retorno de compra.  
+1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**. A primeira etapa é criar uma ordem de compra nova a ser usada como a ordem do retorno de compra.  
 2. Clique em **Novo**.
 3. No campo **Conta de fornecedor**, digite "US-102".
 4. Clique em **OK**.
@@ -67,3 +65,6 @@ Este procedimento mostra a você como criar uma ordem do retorno de compra usand
 4. No campo **Recebimento de produtos**, digite um valor. Este campo é usado para inserir uma referência que será usada como um comprovante para o diário de recebimentos de produtos.  
 5. Clique em **OK**. Os bens foram gravados agora como enviados na ordem do retorno de compra, e um diário de recebimentos de produtos foi criado. Você pode usar a ação do recibo do produto para rever os jornais criados com a ordem de compra, e ver o que foi recebido ou retornado, e quando.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

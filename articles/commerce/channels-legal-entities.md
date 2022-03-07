@@ -1,6 +1,6 @@
 ---
 title: Criar entidades legais
-description: Este tópico descreve como criar entidades legais no Microsoft Dynamics 365 Commerce. Essas entidades devem ser criadas e configuradas antes da criação de canais.
+description: Este tópico descreve como criar entidades legais no Microsoft Dynamics 365 Commerce, que devem ser criadas e configuradas antes da criação de canais.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -10,28 +10,24 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 016b67631a53139d12d65dfaf594f49b030326b1
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410153"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478203"
 ---
 # <a name="create-legal-entities"></a>Criar entidades legais
 
-
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar entidades legais no Microsoft Dynamics 365 Commerce. Essas entidades devem ser criadas e configuradas antes da criação de canais.
-
-## <a name="overview"></a>Visão geral
+Este tópico descreve como criar entidades legais no Microsoft Dynamics 365 Commerce, que devem ser criadas e configuradas antes da criação de canais.
 
 Uma entidade legal é uma organização que tem uma estrutura legal registrada ou legislada. As entidades legais podem participar de contratos legais e são obrigadas a preparar demonstrativos que registram seu desempenho.
 
@@ -86,3 +82,6 @@ A imagem a seguir mostra detalhes de um exemplo de entidade legal.
 [Visão geral de canais](channels-overview.md)
 
 [Pré-requisitos de configuração de canal](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

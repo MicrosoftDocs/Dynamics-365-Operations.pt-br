@@ -1,10 +1,12 @@
 ---
-title: Módulo de seletor de sites
+title: Módulo de seletor de site
 description: Este tópico abrange o módulo de seletor de sites e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2022
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,18 +17,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 381163fdd6180a76def2e1bfb733f597b611c517
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: ed00836c435bd391e5edef1f6a99889c80f45211
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109697"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985577"
 ---
-# <a name="site-picker-module"></a>Módulo de seletor de sites
+# <a name="site-selector-module"></a>Módulo de seletor de site
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange o módulo de seletor de sites e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão Geral
 
 Quando uma empresa tem sites diferentes em mercados, regiões e locais, os usuários do site precisam de uma maneira fácil de alternar entre sites e selecionar o site de compras preferido. Para acomodar esse cenário, o módulo de seletor de sites permite que os usuários naveguem por vários sites.
 
@@ -37,20 +41,18 @@ O módulo de seletor de sites deve ser configurado com a lista de sites (mercado
 
 A ilustração a seguir mostra um exemplo de um módulo de seletor de sites que é apresentado no cabeçalho de uma página do site.
 
-![Exemplo de um módulo do seletor de site no cabeçalho de uma página do site.](./media/ecommerce-sitepicker.PNG)
+![Exemplo de um módulo do seletor de site no cabeçalho de uma página do site](./media/ecommerce-sitepicker.PNG)
 
-## <a name="site-picker-module-properties"></a>Propriedades do módulo de seletor de sites
+## <a name="site-selector-module-properties"></a>Propriedades do módulo de seletor de sites
 
-| Nome da propriedade | Valor                 | Descrição |
+| Nome da propriedade | Alíquota                 | descrição |
 |---------------|-----------------------|-------------|
-| Título       | Texto                  | O título do módulo. |
+| Cabeçalho       | Texto                  | O título do módulo. |
 | Opções de site  | Nome, Imagem, URL      | Essa propriedade especifica um nome, um link para a home page do site e uma imagem opcional a ser mostrada para cada site incluído no módulo. A imagem pode ser um sinalizador ou alguma representação de mercado, região ou localidade. |
 
-## <a name="add-a-site-picker-module-to-a-page"></a>Adicionar um módulo de seletor de sites a uma página
+## <a name="add-a-site-selector-module-to-a-page"></a>Adicionar um módulo de seletor de sites a uma página
 
-O módulo de seletor de sites pode ser adicionado ao slot **Seletor de sites** do [módulo de cabeçalho](author-header-module.md). Depois que um módulo de seletor de sites for adicionado, você poderá definir as opções de cabeçalho e site do módulo. Geralmente, um módulo de cabeçalho está em um fragmento de cabeçalho que pode ser compartilhado entre páginas de comércio eletrônico de um site. No exemplo a seguir, o módulo de seletor de sites foi adicionado ao slot **Selecionador de sites** de um módulo de cabeçalho que está em um fragmento de cabeçalho chamado **HeaderContainer**.
-
-![Exemplo de um módulo de seletor de sites em um fragmento de cabeçalho.](./media/ecommerce-sitepicker-2.png)
+O módulo de seletor de sites pode ser adicionado ao [módulo Cabeçalho](author-header-module.md) sob o slot de seletor de sites. Depois de adicionado, você pode definir as opções de cabeçalho e site do módulo.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -61,6 +63,3 @@ O módulo de seletor de sites pode ser adicionado ao slot **Seletor de sites** d
 [Módulo de trilha de navegação](add-breadcrumb.md)
 
 [Módulos de menu de navegação](nav-menu-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

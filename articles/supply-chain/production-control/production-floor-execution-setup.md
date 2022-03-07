@@ -2,29 +2,27 @@
 title: Configurar um dispositivo para executar a interface de execução de piso de produção
 description: A interface de execução de piso de produção é configurada para todos os dispositivos no piso de produção. Geralmente, as empresas configuram cada dispositivo de forma diferente, dependendo da finalidade à qual o dispositivo serve. Por exemplo, uma empresa pode ter um dispositivo na área da recepção, onde os trabalhadores registram a entrada e a saída, e outro no chão de fábrica, onde os trabalhadores gerenciam seus trabalhos.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9a5911e81547134d3034d1a47ef94c553ccbb331
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966261"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353955"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar um dispositivo para executar a interface de execução de piso de produção
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 A interface de execução de piso de produção é configurada para todos os dispositivos no piso de produção. Geralmente, as empresas configuram cada dispositivo de forma diferente, dependendo da finalidade à qual o dispositivo serve. Por exemplo, uma empresa pode ter um dispositivo na área da recepção, onde os trabalhadores registram a entrada e a saída, e outro no chão de fábrica, onde os trabalhadores gerenciam seus trabalhos.
 
@@ -72,10 +70,13 @@ Geralmente, você executará a interface de execução de piso de produção em 
 
 A parte superior da ilustração a seguir mostra como a interface é exibida por padrão. A parte inferior mostra como ele aparece no modo de tela inteira quando o painel de navegação está oculto.
 
-![Interface padrão versus de tela inteira](media/pfei-full-screen.png "Interface padrão versus de tela inteira")
+![Interface padrão versus de tela inteira.](media/pfei-full-screen.png "Interface padrão versus de tela inteira")
 
 ## <a name="extend-the-session-past-12-hours"></a>Estender a sessão além de 12 horas
 
 Por padrão, a interface de execução de piso de produção se desconecta automaticamente se ninguém usá-la em 12 horas. Um usuário do Supply Chain Management deverá entrar novamente. No entanto, você pode estender o tempo limite para até 90 dias.
 
 Para estender o limite de tempo, entre no Supply Chain Management e vá para **Administração do sistema \> Usuários \> Extensões de sessão**. Especifique a conta de usuário do Supply Chain Management usada para entrar no dispositivo e o número de horas em que a sessão deverá permanecer ativa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

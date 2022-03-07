@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1fba966434b80c9b64c1f4d9b6b87993d59c0bf
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761505"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022365"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Aplicar configurações de unidade de medida
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange as configurações de unidade de medida e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 
@@ -32,7 +33,7 @@ Um produto pode ser vendido em unidades diferentes, como "cada", "par" e "dúzia
 
 No exemplo da ilustração a seguir, uma unidade de medida de venda de **ea** (cada) foi configurada para um produto na matriz do Commerce.
 
-![Exemplo de um produto configurado com uma unidade de medida na matriz do Commerce.](./media/Productunit-headquarters.PNG)
+![Exemplo de um produto configurado com uma unidade de medida na matriz do Commerce](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > O suporte para a aplicação e a exibição da unidade de medida está disponível a partir do Commerce versão 10.0.19.
@@ -54,11 +55,11 @@ Os módulos que usam as configurações de unidade de medida incluem os módulos
 
 No exemplo da ilustração a seguir, uma página de detalhes do produto (PDP) mostra a unidade de medida (**ea**) de um produto.
 
-![Exemplo de uma PDP que mostra a unidade de medida.](./media/Productunit-PDP.png)
+![Exemplo de uma PDP que mostra a unidade de medida](./media/Productunit-PDP.png)
 
 No exemplo da ilustração a seguir, um módulo de coleção de produtos mostra a unidade de medida (**ea**) de um produto.
 
-![Exemplo de um módulo de coleção de produtos que mostra a unidade de medida.](./media/Productunit-productcollection.png)
+![Exemplo de um módulo de coleção de produtos que mostra a unidade de medida](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -1,27 +1,24 @@
 ---
 title: Lista de estoque disponível
 description: Este tópico descreve como usar a página de listagem disponível para inspecionar os detalhes do estoque disponível. Ele mostra algumas das maneiras pelas quais as várias opções de filtragem e classificação funcionam juntas e como essas opções podem produzir resultados inesperados, às vezes quando são combinadas.
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422599"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573912"
 ---
 # <a name="inventory-on-hand-list"></a>Lista de estoque disponível
 
@@ -31,7 +28,7 @@ Este tópico descreve como usar a página de **listagem disponível** para inspe
 
 ## <a name="query-your-on-hand-inventory"></a>Consulte seu estoque disponível
 
-Para verificar a disponibilidade do estoque, vá para **Gerenciamento de estoque \> Consultas e relatórios \> Listagem disponível**.
+Para verificar a disponibilidade do estoque, Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Listagem disponível**.
 
 A página **Listagem disponível** é atualizada automaticamente quando as transações são feitas no estoque. Essas transações podem ser previstas, físicas ou financeiras.
 
@@ -146,3 +143,6 @@ Esta é a saída resultante.
 | IA0001 | 1 | 2 | 2 |
 
 Observe que as configurações no painel **Filtros** se aplicam à tabela de estoque detalhada (não agregada) que é mostrada no início desta seção. Portanto, o critério **Disponível Físico** \| **menor ou igual a** \| _1_ localiza duas linhas dessa tabela (a primeira e terceira linhas, cada uma mostra um valor **Físico Disponível** de _1_). No entanto, nesse cenário, a página **Lista disponível** não é configurada para mostrar a dimensão do **Depósito**. Portanto, ela agrega as duas linhas originais em uma única linha resultante, porque ambas as linhas têm valores idênticos em todas as dimensões que são mostradas. Essa linha parece violar o critério de filtragem, porque o valor **Físico Disponível** é mostrado como _2_. No entanto, o resultado está correto, pois as configurações no painel **Filtros** se aplicam à tabela de origem, não à tabela agregada que é mostrada na página **Lista disponível**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

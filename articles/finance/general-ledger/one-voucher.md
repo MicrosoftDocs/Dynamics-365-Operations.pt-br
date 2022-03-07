@@ -2,32 +2,30 @@
 title: Um comprovante único
 description: Um comprovante único para diários financeiros (diário geral, diário de ativo fixo, diário de pagamentos do fornecedor etc) permite que você insira várias transações do razão auxiliar no contexto de apenas um comprovante.
 author: kweekley
-manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440406"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344049"
 ---
 # <a name="one-voucher"></a>Um comprovante
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>O que é "Um comprovante único"?
@@ -36,44 +34,45 @@ A funcionalidade existente para diários financeiros (diário geral, diário de 
 
 - Configurar o nome do diário (**Contabilidade** \> **Configuração do diário** \>**Nomes de diário**), de forma que o campo **Novo comprovante** seja definido como **Apenas um número de comprovante**. Cada linha que você adiciona ao diário agora será incluída no mesmo comprovante. Portanto, o comprovante poderá ser inserido como um comprovante multilinha, como uma conta/contrapartida na mesma linha, ou como uma combinação.
 
-    [![Linha única](./media/same-line.png)](./media/same-line.png)
+    [![Linha única.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > A definição de Um comprovante **não** cobre casos onde nomes de diários são definidos como **Apenas um número de comprovante**, mas o usuário insere um comprovante que inclui apenas tipos de contas contábeis. Neste tópico, 'Um comprovante' significa que há um comprovante que contém mais de um fornecedor, cliente, banco, ativo fixo ou projeto.
 
 - Entre em um comprovante combinado onde não haja contrapartida.
 
-    [![Comprovante combinado](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Comprovante combinado.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Entre em um comprovante onde a conta e a contrapartida contêm um tipo de conta de diário-razão auxiliar, como **Fornecedor**/**Fornecedor**, **Cliente**/**Cliente**, **Fornecedor**/**Cliente** ou **Banco**/**Banco**.
 
-    [![Comprovante do diário-razão auxiliar](./media/subledger.png)](./media/subledger.png)
+    [![Comprovante do diário-razão auxiliar.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Problemas com Um comprovante único
 
-A funcionalidade Um comprovante único causa problemas durante liquidação, cálculo de imposto, reversão da transação, reconciliação de um diário-razão auxiliar para a contabilidade, relatório financeiro e muito mais. (Por exemplo, para obter mais informações sobre problemas que podem ocorrer durante a liquidação, consulte [Comprovante único com vários registros de cliente ou de fornecedor](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Para trabalhar e relatar corretamente, os processos e relatórios exigem detalhes de transação. Embora alguns cenários ainda possam funcionar corretamente, dependendo da configuração da organização, geralmente há problemas quando várias transações são inseridas em um comprovante.
+A funcionalidade Um comprovante único causa problemas durante liquidação, cálculo de imposto, reversão da transação, reconciliação de um diário-razão auxiliar para a contabilidade, relatório financeiro e muito mais. (Por exemplo, para obter mais informações sobre problemas que podem ocorrer durante a liquidação, consulte [Comprovante único com vários registros de cliente ou de fornecedor](../accounts-payable/single-voucher-multiple-customer-vendor-records.md).) Para trabalhar e relatar corretamente, os processos e relatórios exigem detalhes de transação. Embora alguns cenários ainda possam funcionar corretamente, dependendo da configuração da organização, geralmente há problemas quando várias transações são inseridas em um comprovante.
 
 Por exemplo, você lança o seguinte comprovante combinado.
 
-[![Exemplo ](./media/example.png)](./media/example.png)
+[![Exemplo de um comprovante de várias linhas.](./media/example.png)](./media/example.png)
 
 Em seguida, você gera o relatório **Despesas por fornecedor** no espaço de trabalho **Insights financeiros**. Neste relatório, saldos da conta de despesa são agrupados por grupo de fornecedor e depois, fornecedor. Ao gerar o relatório, o sistema não pode determinar em quais grupos de fornecedores/fornecedor incorreu a despesa de 250,00. Como os detalhes da transação estão faltando, o sistema assume os 250,00 inteiros de despesa incorridos pelo primeiro fornecedor encontrado no comprovante. Portanto, os 250,00 de despesa, que estão incluídos no saldo da conta principal 600120, são mostrados naquele grupo de fornecedores/fornecedor. No entanto, é muito é provável que o primeiro fornecedor do comprovante não seja o fornecedor correto. Portanto, provavelmente o relatório está incorreto.
 
-[![Despesas](./media/expenses.png)](./media/expenses.png)
+[![Relatório de despesas por fornecedor.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>O futuro de Um comprovante único
 
-Devido às saídas que foram anteriormente indicadas, a funcionalidade Um comprovante único terá ficado obsoleta. Porém, como há lacunas funcionais que dependem desta funcionalidade, a funcionalidade não se tornará obsoleta de uma só vez. Em vez disso, usaremos a seguinte agenda:
+Por causa dos problemas que podem ocorrer quando Um comprovante único é usado, essa funcionalidade no final será preterida. Porém, como há lacunas funcionais que dependem dessa funcionalidade, a substituição não ocorrerá toda de uma vez. Em vez disso, usaremos a seguinte agenda:
 
-- **Versão do começo de 2018** – Por padrão, a funcionalidade será desligada por padrão por meio do parâmetro **Permitir múltiplas transações dentro de um comprovante** na guia **Geral** da página **Parâmetros da contabilidade**. Porém, você pode ativar a funcionalidade, se sua organização tiver um cenário que esteja em uma das lacunas funcionais de negócios listadas posteriormente neste tópico.
+- **Versão da primavera de 2018** – a funcionalidade foi desativada por padrão por meio do parâmetro **Permitir várias transações em um comprovante** na guia **Geral** da página **Parâmetros da contabilidade**. Porém, você poderá reativá-la se sua organização tiver um cenário que esteja em uma das lacunas funcionais de negócios listadas posteriormente neste tópico.
 
-    - Se os clientes tiverem um cenário de negócios que não requer Um comprovante único, eles não devem ativer a funcionalidade. A Microsoft não corrige "bugs" nas áreas que são identificadas antes neste tópico, se essa funcionalidade for usada, mesmo se houver outra solução.
-    - Pare de usar Um comprovante único para integrações, a menos que você precise da funcionalidade para uma das lacunas funcionais.
+    - Se o cenário comercial não exigir um comprovante, recomendamos que você deixe a funcionalidade desativada. Se você usá-lo apesar de existir outra solução, a Microsoft não corrigirá "bugs" nas áreas identificadas mais adiante neste tópico.
+    - É recomendável que você pare de usar um comprovante para integrações, a menos que você precise da funcionalidade para uma das lacunas funcionais documentadas.
 
-- **Versões posteriores** – Todas as lacunas funcionais serão preenchidas. **Depois que os intervalos funcionais são preenchidos e os novos recursos são entregues, demorará pelo menos um ano antes da funcionalidade de Um comprovante ser permanentemente desligada**, pois os clientes e os provedores de software independentes (ISVs) devem ter tempo suficiente para reagir a nova funcionalidade. Por exemplo, pode ser necessário atualizar seus processos comerciais, integrações e entidades.
+- **Versões posteriores** – vários requisitos comerciais podem ser atendidos somente usando um comprovante. A Microsoft deve garantir que todos os requisitos comerciais identificados ainda possam ser atendidos no sistema depois que a funcionalidade for preterida. Portanto, novos recursos provavelmente precisarão ser adicionados para preencher as lacunas funcionais. A Microsoft não pode fornecer uma solução específica, pois cada lacuna de recursos é diferente e deve ser avaliada com base nos requisitos comerciais. Algumas lacunas funcionais provavelmente serão substituídas por recursos que ajudam a atender a necessidades comerciais específicas. No entanto, outras lacunas podem ser preenchidas continuando a permitir a entrada em um diário, como quando um comprovante é usado, mas aperfeiçoando o sistema para rastrear mais detalhes, conforme necessário.
 
-> [!IMPORTANT]
-> A opção **Apenas um número de comprovante** **não** foi removida da configuração do nome de diário. Esta opção ainda é suportada quando o comprovante contém apenas tipos de conta contábil. Os clientes devem ter cuidado ao usar esta configuração porque o comprovante não será lançado, se for usada a opção **Apenas um número de comprovante**, mas, em seguida, inserir mais de um cliente, fornecedor, banco, ativo fixo ou projeto. Além disso, os clientes ainda podem inserir uma mistura de tipos de conta contábil, como um pagamento dentro de um único comprovante que contém tipos de contas de **Fornecedor**/**Banco**.
+Depois que todas as lacunas funcionais forem preenchidas, a Microsoft comunicará que o recurso será preterido. No entanto, a substituição não será efetiva pelo menos um ano após a comunicação. Embora a Microsoft não possa fornecer uma estimativa sobre quando a funcionalidade de um comprovante será preterida, ela provavelmente terá, pelo menos, dois anos antes que a substituição ocorra. A política da Microsoft é deixar pelo menos 12 meses entre o anúncio da funcionalidade preterida e a substituição real, de forma que os clientes e os ISVs (fornecedores independentes de software) tenham tempo de reagir à alteração. Por exemplo, uma organização pode precisar atualizar processos comerciais, entidades e integrações.
+
+A substituição de um comprovante é uma alteração significativa que será amplamente comunicada. Como parte dessa comunicação, a Microsoft atualizará este tópico, lançará uma postagem de blog no blog do Microsoft Dynamics 365 Finance, atualizará o tópico "Recursos removidos ou obsoletos", comunicará a alteração nas conferências apropriadas da Microsoft e assim por diante.
 
 ## <a name="why-use-one-voucher"></a>Por que usar Um comprovante único?
 
@@ -83,7 +82,7 @@ Com base em conversas com clientes, a Microsoft compilou a seguinte lista de cen
 
 Os cenários a seguir podem ser realizados apenas usando a funcionalidade Um comprovante único. Se sua organização tem algum desses cenários, você deve habilitar várias transações a serem inseridas em um comprovante mudando a alteração do parâmetro **Permitir várias transações em um comprovante** na página **Parâmetros de contabilidade**. Essas lacunas funcionais serão preenchidas por outros recursos nas versões posteriores.
 
-> [!Note]
+> [!NOTE]
 > [Para cada um dos seguintes cenários, o campo **Permitir várias transações em um comprovante** deve ser definido como Sim na Guia Rápida **Geral** na página **Parâmetros de contabilidade**].
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Lançar pagamentos do fornecedor ou do cliente em um formulário de resumo para uma conta bancária
@@ -117,15 +116,7 @@ Neste cenário, os clientes do comprovante único são os mesmos clientes porque
 Se a tarefa periódica de reembolso é executada a partir do Módulo de contas a receber, ela cria uma transação para mover o balanço de um cliente para um fornecedor. Para esse cenário, Um comprovante deve ser usado para reembolsar o cliente.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Manutenção de ativo fixo: atualizar depreciação, dividir ativo, calcular depreciação na alienação
-As seguintes transações de ativo fixo também criam várias transações dentro de apenas um comprovante:
-
-- Uma aquisição adicional é feita em um ativo e a depreciação de "atualização" é calculada.
-- Um ativo é dividido.
-- Um parâmetro para calcular a depreciação na alienação é habilitado e, em seguida, o ativo é descartado.
-- A data de serviço de um ativo é anterior à data de aquisição. Portanto, um ajuste de depreciação é lançado.
-
-> [!Note]
-> Quando estiver inserindo transações, verifique se todas as transações se aplicam ao mesmo ativo fixo. O comprovante não será lançado se incluir mais de um ativo fixo, mesmo se o campo **Novo Comprovante** tiver sido definido como Apenas um número de comprovante na página **Nomes de diários** em Contabilidade. Se você incluir mais de um ativo fixo no comprovante, a mensagem **Só pode haver uma transação de ativo fixo por comprovante** será exibida e você não poderá lançar o comprovante.  
+Com a versão 10.0.21 e posterior, as transações de ativos fixos para atualizar a depreciação, dividir um ativo e calcular a depreciação para a alienação de um ativo serão criadas usando diferentes números de comprovante.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a>Notas promissórias e letras de câmbio
 Letras de câmbio e notas promissórias requerem que Um comprovante seja usado, porque as transações movem o saldo do cliente e do fornecedor de um Contas a receber/Contas a pagar contáveis a outro, com base no estado do pagamento.
@@ -186,3 +177,6 @@ Se uma correção tiver que ser feita na conta contábil do contas a receber ou 
 ### <a name="the-system-allows-it"></a>“O sistema permite isso”
 
 Geralmente as organizações usam a funcionalidade Um comprovante único meramente porque o sistema permite que elas utilize, sem entender as implicações.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Cálculo de custos indiretos
 description: Este tópico descreve processos comuns para calcular e alocar os custos gerais indiretos.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2dddc22128621dc148a253cd568430587f294544
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440461"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822894"
 ---
 # <a name="overhead-calculation"></a>Cálculo de custos indiretos
 
@@ -1415,3 +1412,6 @@ Na contabilidade financeira, um custo de 10,000.00 para a eletricidade é lança
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

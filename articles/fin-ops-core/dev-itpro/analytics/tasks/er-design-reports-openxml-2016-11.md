@@ -1,12 +1,10 @@
 ---
 title: ER Projetar uma configuração para gerar relatórios no formato OPENXML (Novembro de 2016)
-description: Este tópico explica como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de Relatório Eletrônico (RE) que contem um modelo para gerar os documentos eletrônicos no formato OPENXML.
+description: Este tópico descreve como criar uma nova configuração de relatório eletrônico (ER) que contém um modelo para gerar documentos de pagamento eletrônico no formato OPENXML.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753019"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Projetar uma configuração para gerar relatórios no formato OPENXML (Novembro de 2016)
 
@@ -30,11 +28,11 @@ Este tópico explica como um usuário no papel de Administrador do Sistema ou De
 
 Neste exemplo, você criará uma configuração para a empresa de exemplo, Litware, Inc. Estas etapas podem ser executadas na empresa GBSI.
 
-Para completar essas etapas, você deve primeiro completar as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo". Você também deve ter um arquivo Excel que é importado ao criar o modelo. Esse arquivo pode ser acessado de [Modelo de relatório de pagamento](https://go.microsoft.com/fwlink/?linkid=862266).
+Para completar essas etapas, você deve primeiro completar as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo". Você também deve ter um arquivo Excel que é importado ao criar o modelo. Esse arquivo pode ser acessado de [Modelo de relatório de pagamento](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Carregar a configuração do modelo de dados de pagamentos
-1. No Painel de Navegação, vá para **Módulos > Administração da organização > Espaços de trabalho > Relatório eletrônico**.
+1. No Painel de Navegação, Acesse **Módulos > Administração da organização > Espaços de trabalho > Relatório eletrônico**.
 2. Na lista, marque o provedor de configuração para a empresa de exemplo, "Litware, Inc." Se você não visualizar o provedor de configuração, você deve primeiro concluir as etapas em [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
 3. Selecione **Definir como ativo**.
 4. Selecione **Repositórios**. Selecione um repositório para o tipo Recursos de operações, se disponível. Se estiver disponível, pule as etapas a seguir sobre criar um novo repositório.  
@@ -121,7 +119,7 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 1. Selecione **Alterar status**.
 2. Selecione **Concluir**.
 3. Selecione **OK**.
-4. No Painel de Navegação, vá para **Módulos > Contas a pagar > Configuração de pagamento > Formas de pagamento**.
+4. No Painel de Navegação, Acesse **Módulos > Contas a pagar > Configuração de pagamento > Formas de pagamento**.
 5. Use o Filtro Rápido para filtrar o campo **Forma de pagamento** com o valor **Eletrônico**.
 6. Selecione **Editar**.
 7. Expanda a seção **Formatos de arquivo**.
@@ -131,7 +129,7 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 11. Feche a página.
 
 ## <a name="use-the-created-configuration-for-testing-of-payment-journals-processing"></a>Use a configuração criada para testar de processar diários de pagamentos
-1. No Painel de Navegação, vá para **Módulos > Contas a pagar > Pagamentos > Diário de pagamentos**.
+1. No Painel de Navegação, Acesse **Módulos > Contas a pagar > Pagamentos > Diário de pagamentos**.
 2. Selecione **Novo** para criar um novo diário de pagamentos.
 3. No campo **Nome**, digite **VendPay**.
 4. Selecione **Linhas**.
@@ -150,3 +148,6 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 17. No campo **Conta bancária**, digite `GBSI OPER`.
 18. Selecione **OK** e **OK** novamente. Revise a planilha criada, incluindo detalhes de linhas de pagamento além do total para cada código de moeda usado na mensagem de pagamento.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

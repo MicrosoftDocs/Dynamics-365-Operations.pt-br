@@ -2,11 +2,9 @@
 title: Item e rastreamento de matérias-primas em estoque, em produção e em vendas
 description: Este tópico descreve como você pode usar o rastreamento de item para identificar onde os itens ou as matérias-primas foram usados, onde estão sendo usados ou onde serão usados em processos de produção e de vendas.
 author: perlynne
-manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9293578144c51baef34204a2b592d517baa3b0dd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c809962b120832fd340d9970b234ce1e087fcf0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967171"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808079"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Item e rastreamento de matérias-primas em estoque, em produção e em vendas
 
@@ -139,3 +137,6 @@ Você pode gerar o relatório **Remetido aos clientes** para identificar o valor
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Posso monitorar coprodutos e subprodutos?
 Você pode rastrear coprodutos, mas não é possível rastrear um subproduto porque as dimensões de rastreamento normalmente não são atribuídas por produtos. Quando você rastreia um item, os detalhes do rastreamento incluem todos os coprodutos relacionados. Um nó que contém um coproduto inclui a palavra "coproduto" nos detalhes. Você também pode exibir detalhes sobre um coproduto selecionando o nó nos detalhes de rastreamento e então clicando na Guia Rápida **Produção**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

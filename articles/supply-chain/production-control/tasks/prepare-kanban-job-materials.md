@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd6d5add4d11c917a705e88d10b589e2c43fab89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bde7a52e092723f9c6a686cb79080656c8de964c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421993"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204583"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Preparar um trabalho kanban de processo quando os materiais estão disponíveis para a célula de trabalho
 
@@ -42,3 +41,6 @@ Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas 
 6. Clique em Preparar.
     * O processo de preparação é concluído agora. A caixa de seleção marcada para todas as linhas da lista de separação indica que o status da fonte será separado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

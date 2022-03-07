@@ -1,29 +1,26 @@
 ---
 title: Configurar cupons para vendas de varejo
-description: Este tópico fornece uma visão geral de cupons e explica como defini-los.
-author: scott-tucker
-manager: AnnBe
-ms.date: 06/04/2020
+description: Este tópico fornece uma visão geral de cupons e explica como defini-los no Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410118"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603114"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar cupons para vendas de varejo
 
@@ -41,6 +38,10 @@ Para criar um cupom, você cria o desconto e o cupom separadamente. Em seguida, 
 
 > [!NOTE]
 > Depois que um cupom é vinculado a um desconto, vários campos na página de desconto do Commerce se tornam somente leitura, pois eles são gerenciados pelas configurações do cupom. Esses campos incluem os campos para o status e os intervalos de datas padrão.
+> 
+> Ao usar o cupom no canal de call center, você precisará selecionar o botão **Recalcular** **(guia Vender > Calcular > Recalcular)** para que o desconto associado ao cupom seja aplicado. Essa etapa adicional será removida em uma versão futura.
+
+Para aplicar um cupom a uma transação de venda no ponto de venda (POS), você pode usar o **Código do cupom** ou o **Código de barras do cupom**. Para usar o **Código de cupom**, a operação **Adicionar código de cupom** deve ser configurada no POS **Transação** [Layout da tela](pos-screen-layouts.md). Selecione **Adicionar código de cupom** e insira o código do cupom. Alternativamente, para usar o **Código de barras do cupom**, digitalize o código de barras ou insira o código de barras usando o teclado numérico na tela **Transação**.
 
 ### <a name="limited-use-coupons"></a>Cupons de uso limitado
 
@@ -82,3 +83,6 @@ A funcionalidade de cupom abrange vários recursos distintos. O Commerce Headqua
 - **O HQ é atualizado parcialmente, mas o Commerce Scale Unit e o PDV não serão atualizados.** Em uma atualização do HQ, as páginas de cupom e desconto são atualizadas, e o mecanismo de preço comercial também é atualizado. Se apenas um desses dois componentes for atualizado, algumas páginas do Commerce não coincidirão com os dados de cálculo do preço. Portanto, cálculos de desconto inesperado ou erros inesperados podem ocorrer durante cálculos de desconto.
 - **O HQ é atualizado, mas o Commerce Scale Unit e o PDV não serão atualizados (N-1).** Como nem todas as lojas podem ser atualizadas ao mesmo tempo, recomendamos que você atualize o HQ antes de atualizar as lojas. No cenário N-1, novas funcionalidades relacionadas a cupons não estarão disponíveis em lojas que ainda não tiverem sido atualizadas. Por exemplo, a funcionalidade do cupom apresenta linhas a serem "excluídas". Se você usar linhas de exclusão em um desconto, elas não serão aplicadas a uma loja que esteja executando uma versão anterior.
 - **O HQ não é atualizado, mas o Commerce Scale Unit e o PDV serão atualizados (N+1).** Como o mecanismo de preço atualizado no Commerce Scale Unit pode lidar com códigos de desconto herdados durante os cálculos de preços, a atualização não deve ter impacto funcional nesse cenário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

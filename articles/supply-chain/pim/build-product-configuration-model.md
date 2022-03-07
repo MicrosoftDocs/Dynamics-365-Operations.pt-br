@@ -1,30 +1,29 @@
 ---
 title: Visão geral de configuração do produto
 description: A necessidade de configurar produtos para atender aos requisitos especiais está se tornando regra, e não exceção, em relações entre negócios e de negócio para consumidor.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, ConfigPartOf
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 75083
+ms.custom:
+- "75083"
+- intro-internal
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b7d1186b4141a18e1283505713e67018927672d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 62411bff436d34e3d311b078b1bf8f886e5902d6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421844"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983358"
 ---
 # <a name="product-configuration-overview"></a>Visão geral de configuração do produto
 
@@ -39,6 +38,7 @@ Um movimento com êxito de uma configuração de fabricação-a-estoque para uma
 Há diversos princípios de modelagem de configuração de produto, como a modelagem baseada em regras, baseada em dimensão e baseada em restrição. Os estudos mostram que a metodologia baseada em restrição pode reduzir em 50% o número de linhas de código em modelos em comparação a outros princípios de modelagem. Então, essa metodologia pode reduzir o custo total de propriedade (TCO). Ao mover de um modelo baseado em regras com base no código X++ para um modelo baseado em restrição, você não requer mais uma licença do desenvolvedor para manter modelos de produto.
 
 ## <a name="product-configuration"></a>Configuração do produto
+
 O período de industrialização resultou em grandes conquistas na geração de produtos de alta qualidade e sofisticados, a preços acessíveis. As economias de escala tornaram possível para a maioria das pessoas no mundo industrializado comprar carros, TVs, aparelhos eletrodomésticos e outros bens que muitos consideram uma parte necessária da vida quotidiana.  
 
 Como vários produtos se tornaram mercadorias, aumentou a necessidade de diferenciá-los. A resposta imediata de fabricantes para este desafio foi criar variantes de cada produto, de forma que os clientes tenham mais alternativas. Essa estratégia resultou em desafios acumulados de previsão, e também em um aumento no custo de estoque e em produtos não vendidos que se tornam obsoletos.  
@@ -47,9 +47,10 @@ Ao adotar uma filosofia de configure para solicitar, os fabricantes têm a oport
 
 O segredo do sucesso aqui é analisar cuidadosamente o portfólio de produtos, e procurar padrões em características do produto e processos. A meta é identificar os componentes genéricos que podem ser fabricados pelo mesmo equipamento e usados em todas as variantes.  
 
-O novo conjunto de recursos de configuração de Produto inclui uma interface do usuário (UI) que fornece uma visão geral visual da estrutura do modelo de configuração do produto, e também uma sintaxe declarativa de restrição que não precisa ser compilada. Assim, as empresas que desejam dar suporte a uma prática de configuração podem começar com mais facilidade. Como as seções a seguir explicam, um designer do produto não precisa mais do suporte de um desenvolvedor para criar um modelo de configuração do produto, testá-lo e liberá-lo para a organização de vendas.
+O conjunto de recursos de configuração de produto inclui uma interface do usuário (UI) que fornece uma visão geral visual da estrutura do modelo de configuração do produto, e também uma sintaxe declarativa de restrição que não precisa ser compilada. Assim, as empresas que desejam dar suporte a uma prática de configuração podem começar com mais facilidade. Como as seções a seguir explicam, um designer do produto não precisa mais do suporte de um desenvolvedor para criar um modelo de configuração do produto, testá-lo e liberá-lo para a organização de vendas.
 
 ## <a name="building-a-product-configuration-model"></a>Criar um modelo de configuração de produto
+
 Há diversas abordagens que um usuário pode adotar para criar um modelo de configuração do produto. Uma opção é seguir um fluxo sequencial, primeiro criando todos os dados de referência, como produtos mestre, produtos distintos e recursos operacionais. Em seguida, incluí-los como componentes, linhas da lista de materiais (BOM), operações de roteiro e outros elementos do modelo de configuração do produto. Como alternativa, você pode selecionar uma abordagem mais iterativa, primeiro criando o modelo e, depois, adicionando dados de referência conforme a necessidade.
 
 ### <a name="components"></a>Componentes
@@ -61,7 +62,7 @@ Um modelo de configuração do produto consiste em um ou mais componentes que s�
 Cada componente tem um ou mais atributos que identificam suas propriedades. Os atributos são o que os usuários escolherão durante o processo de configuração. Os atributos controlam relacionamentos inter e intracomponentes através da inclusão em restrições ou cálculos. Com as condições aplicadas às linhas da BOM, os atributos podem ser usados para determinar as partes físicas que constituem o produto configurado. Além disso, um atributo pode controlar a propriedade de uma linha BOM através de um mecanismo de mapeamento. Existe funcionalidade semelhante para as operações de roteiro, relativas às configurações de inclusão e propriedade.
 
 >[!NOTE]
-> Ao criar tipos de atributo, evite criar um grande número de valores para o tipo de atributo de domínio. Isso pode causar lentidões no configurador de produtos. 
+> Ao criar tipos de atributo, evite criar um grande número de valores para o tipo de atributo de domínio. Isso pode causar lentidões no configurador de produtos.
 
 ### <a name="expression-constraints"></a>Restrições de expressão
 
@@ -98,6 +99,7 @@ As linhas de BOM são incluídas para identificar a BOM de fabricação para cad
 As operações de roteiro são incluídas para identificar o roteiro de fabricação. Uma operação de roteiro deve fazer referência a uma operação definida, e todas as propriedades da operação podem ser definidas como um valor fixo. Todas as propriedades, exceto as requisições de recursos, podem ser mapeadas para um atributo em vez de um valor.
 
 ## <a name="validating-and-testing-a-product-configuration-model"></a>Validação e teste de um modelo de configuração de produto
+
 A validação de um modelo de configuração de produto pode ocorrer em vários níveis no modelo e podem abranger vários escopos. O nível mais baixo é de uma única restrição de expressão. Nesse caso, a validação costuma ser executada no designer do produto para verificar se a sintaxe da expressão está correta.  
 
 Da mesma forma, uma condição de uma linha de BOM ou uma operação de roteiro pode ser validada separadamente.  
@@ -115,6 +117,7 @@ Testar um modelo é semelhante a executar uma sessão de configuração real. O 
 Para navegar entre componentes, clique em **Avançar** ou em um componente na árvore de modelo de configuração do produto para se concentrar nele.
 
 ## <a name="finalizing-a-model-for-configuration"></a>Finalização de um modelo para configuração
+
 Quando um modelo de configuração do produto está pronto para ser usado em cenários configure para solicitar, uma versão deve ser criada. No entanto, há várias opções que podem melhorar a experiência de modelagem.
 
 ### <a name="user-interface"></a>Interface do usuário
@@ -134,32 +137,31 @@ Se o produto for vendido em diferentes países/regiões, as traduções poderão
 A última e mais importante etapa no processo de finalização é criar uma versão do modelo de configuração do produto. A versão representa o relacionamento entre o produto mestre, que pode ser selecionado para configuração em uma ordem ou em uma linha da cotação, e o modelo de configuração do produto. Uma versão deve ser aprovada e ativada antes de ser usada em uma sessão de configuração.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Extensão de um modelo de configuração do produto através da API
-Uma API (interface de programação de aplicativos) dedicada foi implementada, de modo que parceiros e outras pessoas com uma licença de desenvolvedor possam estender os recursos de um modelo de configuração do produto. O objetivo principal foi estabelecer um mecanismo que permita a parceiros e clientes que usam o configurador de produtos existente migrar o código inserido em modelos do Configurador de Produtos para a API. Dessa forma, eles podem migrar os modelos do Configurador de Produtos para uma configuração de produto. No entanto, os novos clientes e parceiros também podem aproveitar o uso da API para estender modelos de configuração de novos produtos.
 
-### <a name="pcadaptor-class"></a>Classe PCAdaptor
+Uma API (interface de programação de aplicativos) dedicada foi implementada, de modo que parceiros e outras pessoas com uma licença de desenvolvedor possam estender os recursos de um modelo de configuração do produto. O objetivo principal foi estabelecer um mecanismo que permita a parceiros e clientes que usam o configurador de produtos existente migrar o código inserido em modelos do Configurador de Produtos para a API. Dessa forma, eles podem migrar os modelos do Configurador de Produtos para uma configuração de produto. No entanto, os novos clientes e parceiros também podem aproveitar o uso da API para estender modelos de configuração de novos produtos.
 
 A API foi implementada usando um conjunto de classes **PCAdaptor** que expõem a estrutura de dados dos modelos de configuração de produtos. Uma instância da classe **PCAdaptor** deve ser criada para cada modelo que será estendido. Após a conclusão de uma sessão de configuração, o sistema verifica se há uma instância dessa classe e executa-a quando localizada.  
 
-O diagrama de fluxo a seguir esboça o processo.  
+O diagrama de fluxo da API a seguir esboça o processo.  
 
-[![Diagrama de fluxo](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![Diagrama de fluxo.](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Diagrama de fluxo da API de configuração do produto
+## <a name="configure-products"></a>Configurar produtos
 
-## <a name="product-configuration"></a>Configuração do produto
-A configuração de produto pode ser executada dos seguintes locais:
+### <a name="configure-one-or-more-products"></a>Configurar um ou mais produtos
 
--   Linha da ordem de venda
--   Linha de cotação de venda
--   Linha da ordem de compra
--   Linha de ordem de produção
--   Linha de requisição do item (projeto)
+Você pode configurar produtos dos seguintes locais:
+
+- Linha da ordem de venda
+- Linha de cotação de venda
+- Linha da ordem de compra
+- Linha de ordem de produção
+- Linha de requisição do item (projeto)
 
 A finalidade da configuração é criar uma variante diferente do produto que atenda ao requisito do cliente. Uma ID exclusiva de configuração é criada para cada configuração nova. Essa ID habilita o rastreamento no estoque.
 
-### <a name="multiple-sites-and-intercompany"></a>Vários sites e intercompanhia
+### <a name="multiple-sites-and-intercompany-considerations"></a>Consideração de vários sites e intercompanhia
 
 Se a configuração for feita em um site, ou mesmo em uma empresa, isso será diferente do site ou da empresa onde ocorre a produção. A BOM e o roteiro serão criados e colocado no site do fornecedor na empresa fornecedora. A variante de produto será liberada em todas as empresas que participam da cadeia de suprimentos.
 
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

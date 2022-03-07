@@ -2,28 +2,25 @@
 title: Adicionar dimensões financeiras ao espaço de trabalho do CFO
 description: Este tópico explica como adicionar dimensões financeiras ao espaço de trabalho do CFO, para que possam ser usadas para relatórios do razão e de orçamento.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3817c6688339735c7478e85786efe15bd2372c91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440329"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823827"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Adicionar dimensões financeiras ao espaço de trabalho do CFO
 
@@ -34,7 +31,7 @@ Este tópico explica como adicionar dimensões financeiras ao espaço de trabalh
 1. No Finance, na página **Repositório de Entidades**, atualize as medidas **LedgerActivityMeasure** e **BudgetActivityMeasure**.
 2. No Microsoft Visual Studio, abra o Explorador de Aplicativos e pesquise por **LedgerCFO**.
 3. Em **Recursos**, abra **LedgerCFOWorkspacePBIX**.
-4. Quando o recurso for aberto na área de trabalho do Microsoft Power BI, selecione **Obter dados**, **Banco de dados do SQL Server** e, em seguida, **Conectar**.
+4. Quando o recurso for aberto no Microsoft Power BI Desktop, selecione **Obter dados**, **Banco de dados do SQL Server** e, em seguida, **Conectar**.
 5. Insira o nome do servidor e insira **AxDW** como o banco de dados. Selecione **DirectQuery** e, em seguida, selecione **OK**.
 6. Procure e selecione **LedgerActivityMeasure\_DimensionCombination** e, em seguida, selecione **Carregar**.
 
@@ -56,3 +53,6 @@ Este tópico explica como adicionar dimensões financeiras ao espaço de trabalh
 16. Crie o projeto e abra o aplicativo para exibir os resultados.
 
     [![Espaço de trabalho concluído](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

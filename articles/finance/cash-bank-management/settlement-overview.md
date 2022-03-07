@@ -2,28 +2,27 @@
 title: Visão geral de liquidação
 description: Este tópico oferece informações gerais sobre o processo de liquidação. Descreve quais tipos de transação podem ser liquidados e o tempo e o processo para a liquidação. Também descreve os resultados do processo de liquidação.
 author: kweekley
-manager: AnnBe
 ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14551
+ms.custom:
+- "14551"
+- intro-internal
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 650b0ef0123cf9acf42c2e7460693b555897744f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 30a96b377d70c74a29e9e90699ccb077c727b20758378b5336660c6c056c6022
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440338"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755681"
 ---
 # <a name="settlement-overview"></a>Visão geral de liquidação
 
@@ -78,3 +77,6 @@ Ao tentar liquidar uma transação, você pode observar um símbolo que indica q
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Liquidar pendências](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

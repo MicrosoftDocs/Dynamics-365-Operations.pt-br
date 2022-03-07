@@ -1,29 +1,28 @@
 ---
 title: Visão geral de imposto
 description: Este tópico fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto.
-author: ShylaThompson
-manager: AnnBe
+author: kailiang
 ms.date: 10/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
-ms.custom: 13111
+ms.custom:
+- "13111"
+- intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440403"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983919"
 ---
 # <a name="sales-tax-overview"></a>Visão geral de imposto
 
@@ -31,14 +30,13 @@ ms.locfileid: "4440403"
 
 Este tópico fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 A estrutura de imposto dá suporte a muitos tipos de impostos indiretos, como imposto sobre vendas, imposto sobre valor agregado (VAT), imposto de bens e serviços (GST), taxas com base em unidades e retenção de imposto. Estes impostos são calculados e documentados as transações de compra e vendas. Periodicamente, eles devem ser reportados e pagos às autoridades do imposto. 
 
 O diagrama a seguir mostra as entidades da configuração de imposto e a forma como estão relacionadas.
 
-[![Diagrama mostrando a visão geral de entidades de configuração de impostos](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagrama mostrando a visão geral de entidades de configuração de impostos.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Para cada imposto que uma empresa deve ser responsável, deve ser definido um código de imposto. Um código de imposto sobre vendas armazena as taxas de imposto e as regras de cálculo do imposto sobre vendas. 
 
@@ -97,3 +95,6 @@ Entretanto, usando o imposto condicional, você liquida a dívida com a autorida
 Se você usar o cheque pré-datado como forma de pagamento, quando o pagamento for criado, a conta bancária não será apagada. Em alguns países, o IVA se torna um passivo "realizado" quando o pagamento apaga o banco, o que significa que o cheque pré-datado é liquidado. Você pode habilitá-lo selecionando **Realizar o imposto condicional quando cheques pré-datados são sacados** em **Gerenciamento de caixa e bancos > Configurar > Parâmetros de gerenciamento de caixa e bancos > Cheques pré-datados**.
 
 Para saber mais, consulte [Configurar imposto retido na fonte](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

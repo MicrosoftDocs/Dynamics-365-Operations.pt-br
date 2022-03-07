@@ -2,26 +2,23 @@
 title: Depositar pagamentos de cliente
 description: Depositar pagamentos de cliente.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustPaym, CustTableLookup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1d903f557fbaeb720dd4a34dc1c772be0dcb56eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7bf44570a0eaceab94765b100bdd8b4d507a0f54
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440344"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822362"
 ---
 # <a name="deposit-customer-payments"></a>Depositar pagamentos de cliente
 
@@ -48,3 +45,6 @@ Depositar pagamentos de cliente. Esta tarefa usa a empresa de demonstração USM
 17. Selecione **OK**. A primeira página é usada para criar a guia de depósito.  
 18. Selecione **OK**. A segunda etapa é imprimir a guia de depósito, mas essa etapa não é necessária.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

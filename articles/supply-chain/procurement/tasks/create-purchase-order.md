@@ -1,26 +1,24 @@
 ---
 title: Criar uma ordem de compra
 description: Este tópico mostra como criar uma ordem de compra manualmente.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a3da6b70054fac878ba6266017bffe75f634f61
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: be4e4a89c5341fd683a0a022ad7c2d4bcbd72981
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016619"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579511"
 ---
 # <a name="create-a-purchase-order"></a>Criar uma ordem de compra
 
@@ -30,7 +28,7 @@ Este tópico mostra como criar uma ordem de compra manualmente. É mais comum pa
 
 
 ## <a name="create-the-purchase-order-header"></a>Criar o cabeçalho da ordem de compra
-1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**.
+1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**.
 2. Selecione **Novo**.
 3. Selecione conta de fornecedor **US-101**. Quando você seleciona um fornecedor, os detalhes do registro de fornecedor como endereço, a conta de nota fiscal, condições de entrega, e o modo de entrega como os valores padrão serão copiados no cabeçalho da ordem. É possível alterar esses valores a qualquer momento.  
 4. Expanda a seção **Geral**.
@@ -73,3 +71,6 @@ Este tópico mostra como criar uma ordem de compra manualmente. É mais comum pa
 
 2. Selecione **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

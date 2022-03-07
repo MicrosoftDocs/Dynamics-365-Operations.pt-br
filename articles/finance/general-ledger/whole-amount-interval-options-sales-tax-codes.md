@@ -1,37 +1,34 @@
 ---
-title: Opções de cálculo de intervalo e valor total para códigos de imposto
-description: Este artigo explica as opções para o campo Método de cálculo em códigos de imposto e como o imposto é calculado para intervalos e valores inteiros.
-author: ShylaThompson
-manager: AnnBe
+title: Opções de cálculo do valor total e do intervalo para códigos de impostos
+description: Este tópico explica as opções para o campo Método de cálculo em códigos de imposto e como o imposto é calculado para intervalos e valores inteiros.
+author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3e18eac934eb109e8f3f509b2bd78f76dd5f74d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 44c4ce480de470b623f6faeff5a763bfcb05aecc
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440354"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726814"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opções de cálculo de intervalo e valor total para códigos de imposto
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opções de cálculo do valor total e do intervalo para códigos de impostos
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo explica as opções para o campo Método de cálculo em códigos de imposto e como o imposto é calculado para intervalos e valores inteiros.
+Este tópico explica as opções para o campo **Método de cálculo** em códigos de imposto e como o imposto é calculado para intervalos e valores inteiros.
 
-Você pode configurar um código de imposto a ser calculado com base em um valor inteiro ou em um intervalo de valores. Na página Códigos de imposto, use o campo Método de cálculo na Guia Rápida Cálculo para selecionar como calcular um código de imposto.
+Você pode configurar um código de imposto a ser calculado com base em um valor inteiro ou em um intervalo de valores. Na página **Códigos de imposto**, use o campo **Método de cálculo** na Guia Rápida **Cálculo** para selecionar o método de cálculo para um código de imposto.
 - Valor total - a taxa de imposto é aplicada ao valor tributável total.
 - Intervalo - o valor tributável é dividido em partes, cada uma dentro de um intervalo que tem uma taxa de imposto sobre vendas específica. A parte do valor inserida em um determinado intervalo é taxada de acordo com a taxa de imposto do intervalo. O imposto sobre vendas é a soma dos valores de imposto calculados para cada intervalo de valor.
   > [!NOTE]                                                                                                                              
@@ -47,9 +44,8 @@ Se um valor for o limite Máximo de um intervalo anterior e o limite Mínimo do 
 ## <a name="example-whole-amount-method-of-calculation"></a>Exemplo: método de cálculo de valor total
 Na página Valores do código de imposto, as taxas de imposto são configuradas nos intervalos a seguir:
 
-|                   |                   |              |
+| Limite mínimo     | Limite máximo     | Taxa de imposto     |
 |-------------------|-------------------|--------------|
-| **Limite mínimo** | **Limite máximo** | **Taxa de imposto** |
 | 0,00              | 50,00             | 30%          |
 | 50,00             | 100,00            | 20%          |
 | 100,00            | 0,00              | 10%          |
@@ -66,9 +62,8 @@ O imposto é calculado sobre o valor tributável total.
 ## <a name="example-interval-method-of-calculation"></a>Exemplo: método de cálculo de intervalo
 Na página Valores, as taxas de imposto são configuradas nos intervalos a seguir:
 
-|                   |                   |              |
+| Limite mínimo     | Limite máximo     | Taxa de imposto     |
 |-------------------|-------------------|--------------|
-| **Limite mínimo** | **Limite máximo** | **Taxa de imposto** |
 | 0,00              | 50,00             | 30%          |
 | 50,00             | 100,00            | 20%          |
 | 100,00            | 0,00              | 10%          |
@@ -90,3 +85,6 @@ Para obter mais informações, consulte [Taxas de imposto baseadas nos métodos 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

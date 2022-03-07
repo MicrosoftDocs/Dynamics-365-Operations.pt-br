@@ -2,26 +2,23 @@
 title: Calcular sugestões de quantidade de kanbans
 description: Este procedimento foca na otimização das quantidades e tamanho kanban para uma regra kanban específica através do uso do cálculo da quantidade kanban.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa6a01d8f918c45aaa454e5234f80c312d7a5061
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 96d68ca4440ac9eea4fa76a963adbe95bd69cf9e134daec64b39954837207eca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421912"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711798"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Calcular sugestões de quantidade de kanbans
 
@@ -31,7 +28,7 @@ Este procedimento foca na otimização das quantidades e tamanho kanban para uma
 
 
 ## <a name="create-a-kanban-quantity-calculation"></a>Crie um cálculo da quantidade kanban
-1. Vá para Controle de produção > Tarefas periódicas > Cálculo da quantidade de kanbans > Calcular quantidade kanban.
+1. Acesse Controle de produção > Tarefas periódicas > Cálculo da quantidade de kanbans > Calcular quantidade kanban.
 2. Clique em Novo.
 3. No campo Nome, digite 'Spearker2016'.
 4. No campo Nome, clique no botão suspenso para abrir a pesquisa.
@@ -75,7 +72,7 @@ Este procedimento foca na otimização das quantidades e tamanho kanban para uma
 4. Feche a página.
 
 ## <a name="validate-change-on-kanban-rule"></a>Valide a alteração na regra kanban
-1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+1. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Na lista, clique no link na linha selecionada.
     * Selecione a regra kanban que foi criada na subtarefa anterior. Esta deve ser a primeira regra kanban na lista classificada por número.  
 3. Ative a expansão da seção Detalhes.
@@ -85,3 +82,6 @@ Este procedimento foca na otimização das quantidades e tamanho kanban para uma
     * Observe que esta é a quantidade kanban fixa de 4 do cálculo da quantidade kanban.  
 5. Clique na guia Painel de Lista.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

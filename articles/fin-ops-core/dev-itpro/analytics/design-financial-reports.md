@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96c1cccccd2b20626dba14d9b0cb97bef10732fd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724434"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749695"
 ---
 # <a name="view-and-design-financial-reports"></a>Exibição e criação de relatórios financeiros
 
@@ -32,7 +32,7 @@ Este artigo contém exercícios de orientação para exibir e criar relatórios 
 
 Para este ano, você estará gerando e explorando um relatório padrão. Este relatório inclui todas as contas e também contém as propriedades da conta (atributos) para as contas. Você poderá fazer buscas nos detalhes da transação, aplicando filtros de dimensão, alterando a moeda no relatório. Primeiro, atualizaremos a ordem de exibição das dimensões dos relatórios financeiros. Isso permite escolher como as dimensões são exibidas não só ao criar e visualizar os relatórios financeiros.
 
-1. Acesse **Configuração da dimensão financeira para integrar aplicativos** nas **Dimensões do plano de contas** na contabilidade.
+1. Vá para **Configuração da dimensão financeira para integrar aplicativos** nas **Dimensões do plano de contas** na contabilidade.
 2. Mova as dimensões para a seguinte ordem:
 
     1. Conta Principal
@@ -44,7 +44,7 @@ Para este ano, você estará gerando e explorando um relatório padrão. Este re
     > As outras dimensões podem permanecer na ordem em que estão.
 
 3. Salve a configuração da dimensão. Em seguida, geraremos um relatório e exploraremos os dados no relatório.
-4. Acesse **Relatórios financeiros** em **Consultas e relatórios** na contabilidade.
+4. Vá para **Relatórios financeiros** em **Consultas e relatórios** na contabilidade.
 5. Selecione a linha do relatório chamado **Detalhe de contabilidade – Padrão**.
 6. Selecione **Editar**.
 
@@ -68,7 +68,7 @@ Para este ano, você estará gerando e explorando um relatório padrão. Este re
 ## <a name="exercise-2-add-additional-account-properties-to-a-report-design"></a>Ano 2: Adicione as propriedades da conta adicionais a um design de relatório
 Neste exercício, você modificará um relatório padrão existente. Você atualizará a definição de linha para incluir todas as contas e atualizará a definição da coluna para conter os atributos da conta. Depois que as atualizações forem concluídas, você gerará um relatório recém-criado e explorarão o relatório. Nós iniciaremos na lista de relatórios financeiros.
 
-1. Acesse **Relatórios financeiros** em Consultas e relatórios na contabilidade.
+1. Vá para **Relatórios financeiros** em Consultas e relatórios na contabilidade.
 2. Selecione a linha para o relatório chamado **Resumo do balanço – Padrão**.
 3. Selecione **Editar**. O **Resumo do balancete resumida – Padrão** será aberto no criador de relatórios
 4. Selecione **Arquivo** e **Salvar como** e nomeie o relatório Balancete detalhado com Atributos.
@@ -109,7 +109,7 @@ Neste exercício, você modificará um relatório padrão existente. Você atual
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Exercício 3: Criar um relatório multidimensional usando uma árvore de relatórios
 Para este ano, você modificará um relatório padrão existente. Você criará uma árvore de relatórios e adicionará a uma definição de relatórios para produzir um demonstrativo do centro de custo/entrada por divisão. Depois de concluir as atualizações, você gerará um demonstrativo do centro de custo e da entrada por divisão e explorará o relatório usando a árvore de relatórios. Nós iniciaremos na lista de relatórios financeiros.
 
-1. Acesse **Relatórios financeiros** em Consultas e relatórios na contabilidade.
+1. Vá para **Relatórios financeiros** em Consultas e relatórios na contabilidade.
 2. Selecione a linha do relatório chamada **Demonstrativo de renda – Padrão**.
 3. Selecione **Editar**. O **Demonstrativo de renda – Padrão** será aberto no criador de relatórios.
 4. No menu **Arquivo**, posicione o cursor em **Novo** e clique em **Definição da árvore de relatórios**.
@@ -145,13 +145,13 @@ Para este ano, você modificará um relatório padrão existente. Você criará 
 ## <a name="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy"></a>Ano 4: Criar um relatório consolidado usando uma hierarquia da organização
 Para este ano, você modificará um relatório padrão existente. Você adicionará uma hierarquia da organização na definição de relatório para produzir um Demonstrativo de receita consolidada e um Balancete. Depois de concluir as atualizações, você gerará um relatório consolidado e explorar o relatório usando uma árvore de relatórios. Nós iniciaremos na lista de relatórios financeiros.
 
-1. Acesse **Relatórios financeiros** em Consultas e relatórios na contabilidade.
+1. Vá para **Relatórios financeiros** em Consultas e relatórios na contabilidade.
 2. Selecione a linha para o relatório chamado **Balancete e Demonstrativo de renda lado a lado - Padrão**.
 3. Selecione **Editar**. **Balanço e demonstrativo de renda lado a lado – Padrão** será aberto no criador de relatórios.
 4. Selecione **Arquivo** &gt; **Salvar como** e nomeie o relatório **Balanço consolidado e o demonstrativo de renda lado a lado**.
 5. Alterar o ano base para 2012.
 6. Clique no menu suspenso de árvore e selecione **Hierarquias da organização**.
-7. Clique no menu suspenso da árvore e selecione **Contoso Holdings**.
+7. Clique no menu suspenso de árvore e selecione **Retenções da Contoso**.
 8. Salve as alterações e gere o relatório. Se solicitado, selecione todas as unidades de relatório. Depois que a geração do relatório for concluída e ele for aberto, é possível explorar o relatório.
 9. Selecione **Opções do relatório**.
 10. Selecione **Adicionar filtro da dimensão** e escolha **Departamento**.
@@ -164,7 +164,7 @@ Para este ano, você modificará um relatório padrão existente. Você adiciona
 ## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>Exercício 5: criar um relatório do departamento lado a lado
 Neste exercício, você criará um relatório. O relatório é um demonstrativo de rendimentos dos departamentos lado a lado. Você usará uma definição de linha existente, mas criará uma definição de relatório e uma nova definição de coluna que usa filtros de dimensão. Nós iniciaremos na lista de relatórios financeiros.
 
-1. Acesse **Relatórios financeiros** em Consultas e relatórios na contabilidade.
+1. Vá para **Relatórios financeiros** em Consultas e relatórios na contabilidade.
 2. Selecione **Novo**. O criador de relatórios será aberto com uma definição do relatório em branco. Sua primeira tarefa será criar a definição da coluna.
 3. Crie uma nova definição da coluna ao clicar em **Arquivo**, **Novo** e em **Definição da coluna**.
 4. Na **Coluna A**, selecione **DESC** para o tipo de coluna.

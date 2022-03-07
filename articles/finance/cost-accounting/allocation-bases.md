@@ -2,16 +2,13 @@
 title: Bases de alocação
 description: Este tópico fornece informações sobre bases de alocação. As bases de alocação são componentes-chave na contabilização de custo e são mais usadas para alocar custos gerais indiretos.
 author: AndersGirke
-manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223174
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fc6f655d17a83db54aa99c834980bf7666e8100d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e51d0320d66a2ae094573735df96bc9bc3f93d359f3bbeab2e5cec3081dddbe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743040"
 ---
 # <a name="allocation-bases"></a>Bases de alocação 
 
@@ -215,7 +212,7 @@ Depois que os dados de origem estatísticos forem processados, as seguintes entr
 
 **Entradas de estatísticas**
 
-| Objeto de custo |    | Data contábil | Membro de dimensão estatística |    descrição          | Magnitude |
+| Objeto de custo | Organização   | Data contábil | Membro de dimensão estatística |    descrição          | Magnitude |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | RH | 31/01/2017      | eletricidade                  | Consumo de eletricidade | 2,450.00  |
 | CC002       | FI | 31/01/2017      | eletricidade                  | Consumo de eletricidade | 4,100.00  |
@@ -407,9 +404,9 @@ Uma função de Visualização permite validar a base de alocação da fórmula 
 
 **Detalhes da base de alocação**
 
-| Objeto de custo |    | Fórmula                                                                                                                             | Magnitude |
+| Objeto de custo |  Organização  | Fórmula                                                                                                                             | Magnitude |
 |-------------|----|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| CC001       | RH | ((2.450,00 \> 10.000,00) × ((10.000,00 × 0,75) + (2.450,00 – 10.000,00) × 1,15)) + ((2.450,00 \<= 10.000,00) × 2.450,00 × 0,75)     | 1,837.50  |
+| CC001       | HR | ((2.450,00 \> 10.000,00) × ((10.000,00 × 0,75) + (2.450,00 – 10.000,00) × 1,15)) + ((2.450,00 \<= 10.000,00) × 2.450,00 × 0,75)     | 1,837.50  |
 | CC002       | FI | ((4.100,00 \> 10.000,00) × ((10.000,00 × 0,75) + (4.100,00 – 10.000,00) × 1,15)) + ((4.100,00 \<= 10.000,00) × 4.100,00 × 0,75)     | 3,075.00  |
 | CC003       | TE | ((15.000,00 \> 10.000,00) × ((10.000,00 × 0,75) + (15.000,00 – 10.000,00) × 1,15)) + ((15.000,00 \<= 10.000,00) × 15.000,00 × 0,75) | 1,3250.00 |
 
@@ -430,3 +427,6 @@ Aqui está um exemplo de uma regra de distribuição de custo, se a base de aloc
 |    CC002    |     FI      | 3,075.00  | (3.075,00 ÷ 18.162,50) × valor  |
 |    CC003    |     TE      | 13,250.00 | (13.250,00 ÷ 18.162,50) × valor |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

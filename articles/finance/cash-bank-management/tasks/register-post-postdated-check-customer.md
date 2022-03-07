@@ -2,25 +2,22 @@
 title: Registrar e lançar um cheque pré-datado para um cliente
 description: É possível registrar os detalhes de um cheque pré-datado recebido de um cliente.
 author: kweekley
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9cb49ac6ebbd04e71215af010cb5a7b6302fe44e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440387"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834683"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrar e lançar um cheque pré-datado para um cliente
 
@@ -50,3 +47,6 @@ ms.locfileid: "4440387"
 15. Clique em Lançar.
 16. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

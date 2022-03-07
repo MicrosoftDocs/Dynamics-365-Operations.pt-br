@@ -2,28 +2,25 @@
 title: Relatórios de arrendamento de ativos
 description: Este tópico lista e descreve brevemente os relatórios disponíveis para arrendamento de ativos.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 7044378a66ed9ff952f4579d375d59576fe09294fc158c000ab28a93f4173421
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440554"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739398"
 ---
 # <a name="asset-leasing-reports"></a>Relatórios de arrendamento de ativos
 
@@ -31,7 +28,7 @@ ms.locfileid: "4440554"
 
 Este tópico lista e descreve brevemente os relatórios disponíveis para arrendamento de ativos. A maioria dos relatórios é exibida ao concluir essas etapas ou etapas que são muito semelhantes, conforme observados. 
 
-- Para exibir a maioria dos relatórios de arrendamento de ativos, vá para **Arrendamento de ativos > consultas e relatórios > relatórios de arrendamento** e selecione um relatório para exibir. Para os relatórios que exigem um caminho de seleção diferente, as etapas para abrir o relatório são incluídas na descrição desse relatório. 
+- Para exibir a maioria dos relatórios de arrendamento de ativos, Acesse **Arrendamento de ativos > consultas e relatórios > relatórios de arrendamento** e selecione um relatório para exibir. Para os relatórios que exigem um caminho de seleção diferente, as etapas para abrir o relatório são incluídas na descrição desse relatório. 
 - Quando você seleciona um relatório para imprimir, é aberta uma página de parâmetros que permite filtrar as informações incluídas no relatório. Insira os critérios de filtragem e selecione **OK** para gerar o relatório. O relatório gerado mostrará as informações que estão nos filtros especificados.
 
 ## <a name="asset-movement"></a>Movimento do ativo
@@ -75,7 +72,7 @@ O relatório de previsão de pagamento descontado de cinco anos mostra os pagame
 |     Depois disso            |     A soma de todos os pagamentos de arrendamento em ou após 61 meses a partir da data do relatório.              |
 
 ## <a name="gaap-cash-flows-report"></a>Relatório de fluxos de caixa GAAP
-O relatório de divulgações do GAAP atende ao requisito de divulgação do GAAP dos EUA especificado em 842-20-50-4 (g) (1). Para exibir esse relatório, vá para **Arrendamento do Ativo > Consultas e relatórios > Divulgações > GAAP – fluxos de caixa**. 
+O relatório de divulgações do GAAP atende ao requisito de divulgação do GAAP dos EUA especificado em 842-20-50-4 (g) (1). Para exibir esse relatório, Acesse **Arrendamento do Ativo > Consultas e relatórios > Divulgações > GAAP – fluxos de caixa**. 
 
 |     Campos de relatório                                 |     descrição                                                                                                                                               |
 |------------------------------------------------   |-----------------------------------------------------------------------------  |
@@ -150,7 +147,7 @@ O relatório de movimento do arrendamento serve como um relatório de roll forwa
 A consulta de transações de arrendamento mostra todas as entradas de diário que foram geradas pelo arrendamento do ativo. Cada entrada de diário é vinculada à ID contábil da qual foi originada. Isso permite associar facilmente a entrada de diário com arrendamento correspondente. As funções de consulta de transações de arrendamento funciona de forma semelhante à página **Transações de comprovante** na contabilidade.
 
 ## <a name="weighted-average-discount-rate-report"></a>Relatório de taxa de desconto média ponderada
-O relatório de taxa de desconto ponderada-médio atende ao requisito de divulgação de acordo com os EUA especificado em ASC 842-20-50-4 (g) (4) para uma taxa de desconto média ponderada. Para exibir esse relatório, vá para **Arrendamento do Ativo > Consultas e relatórios > Divulgações > Taxa de desconto da média ponderada**. O relatório inclui os campos a seguir. 
+O relatório de taxa de desconto ponderada-médio atende ao requisito de divulgação de acordo com os EUA especificado em ASC 842-20-50-4 (g) (4) para uma taxa de desconto média ponderada. Para exibir esse relatório, Acesse **Arrendamento do Ativo > Consultas e relatórios > Divulgações > Taxa de desconto da média ponderada**. O relatório inclui os campos a seguir. 
 
 |     Campos de relatório                     |     descrição                                                           |
 |------------------------------------   |------------------------------------------------------------------------   |
@@ -165,3 +162,6 @@ O relatório de taxa de desconto ponderada-médio atende ao requisito de divulga
 |     Moeda                          |     A abreviação para a moeda da transação usada. Todos os relatórios converterão a moeda transacional na moeda do relatório.  |
 |     Pagamentos de arrendamento restantes          |     O valor total de pagamentos de arrendamento não pagos da agenda de pagamento restantes **A partir da** data.            |
 |     Pagamentos ponderados restantes       |     Os pagamentos do arrendamento restantes multiplicados pela taxa de desconto usada.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

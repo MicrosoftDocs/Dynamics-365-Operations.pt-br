@@ -2,11 +2,9 @@
 title: Liberar uma ordem de produção
 description: Este procedimento mostra como liberar uma ordem de produção.
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmRelease, SrsReportViewerForm, ProdSetupRelease
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82a8316014d28f1c31343a2e54038fc93623cd70
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f6d0db7f93e113d8f41effd68ce19aa065b031fd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966246"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573648"
 ---
 # <a name="release-a-production-order"></a>Liberar uma ordem de produção
 
@@ -28,7 +26,7 @@ ms.locfileid: "4966246"
 
 Este procedimento mostra como liberar uma ordem de produção. A empresa de dados demo usada para criar este procedimento é USMF. Este é o quarto procedimento de sete que explica o ciclo de vida da ordem de produção.
 
-1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
     * Na grade, selecione uma ordem de produção que tem o status Agendado.  
 2. No Painel de Ação, clique em Ordem de produção.
 3. Clique em Liberar.
@@ -40,3 +38,6 @@ Este procedimento mostra como liberar uma ordem de produção. A empresa de dado
 6. Clique em OK.
 7. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

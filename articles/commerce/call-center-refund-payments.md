@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 93eff7a54f9d3851c59b83a28d3aa61a8de7bc41f2a845be21c8bf4d1c6401d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944704"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731022"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Reembolsar processamento de pagamentos em call centers
 
@@ -33,14 +33,11 @@ A lógica do call center determina o método de pagamento da linha de pagamento 
 
 O call center usa o método de pagamento da ordem original para determinar o método de pagamento que deve ser aplicado a uma ordem de devolução. Veja como esse processo funciona para os seguintes métodos de pagamento originais:
 
-- **Normal** (pagamento à vista) ou **Cheque** – quando uma ordem de devolução criada faz referência a uma ordem original que foi paga usando o tipo de pagamento normal (à vista) ou em cheque, o aplicativo de call center faz referência a configurações na página **Métodos de reembolso do call center**. Esta página permite que as organizações definam, por moeda da ordem, como os reembolsos são emitidos para clientes para ordens que foram pagas originalmente usando o tipo de pagamento normal ou em cheque. A página **Métodos de reembolso de call center** também permite que as organizações selecionem se um cheque de reembolso gerado pelo sistema deve ser enviado ao cliente. Nesses cenários, a lógica de call center referencia a moeda da ordem de devolução e usa o valor do **Método de pagamento de varejo** dessa moeda para criar uma linha de pagamento de reembolso na ordem de venda de devolução. Posteriormente, um diário de pagamento de cliente de contas a receber (RA) que usa o método de pagamento RA mapeado é vinculado à moeda.
+- **Normal** (pagamento à vista) ou **Cheque** – quando uma ordem de devolução criada faz referência a uma ordem original que foi paga usando o tipo de pagamento normal (à vista) ou em cheque, o aplicativo de call center faz referência a configurações na página **Métodos de reembolso do call center**. Esta página permite que as organizações definam, por moeda da ordem, como os reembolsos são emitidos para clientes para ordens que foram pagas originalmente usando o tipo de pagamento normal ou em cheque. A página **Métodos de reembolso de call center** também permite que as organizações selecionem se um cheque de reembolso gerado pelo sistema é enviado ao cliente ou se um crédito de conta de cliente é criado em relação ao saldo da conta do cliente interno. Nesses cenários, a lógica de call center referencia a moeda da ordem de devolução e usa o valor do **Método de pagamento de varejo** dessa moeda para criar uma linha de pagamento de reembolso na ordem de venda de devolução. Posteriormente, um diário de pagamento de cliente de contas a receber (RA) que usa o método de pagamento RA mapeado é vinculado à moeda.
 
     A ilustração a seguir mostra a configuração de um cenário em que um cliente devolve produtos de uma ordem de venda vinculada à moeda USD e que foi paga originalmente usando o tipo de pagamento normal ou em cheque. Neste cenário, um reembolso será emitido para o cliente por meio de um cheque de reembolso gerado pelo sistema. O método de pagamento **REF-CHK** foi configurado como um tipo de pagamento de cheque de reembolso.
 
     ![Configuração dos métodos de reembolso de call center para pagamentos originais normal e em cheque.](media/callcenterrefundmethods.png)
-
-    > [!NOTE]
-    > A conta do cliente não é um método de reembolso aceito para pagamentos à vista ou em cheque.
 
 - **Cartão de crédito** – quando uma ordem de devolução criada faz referência a uma ordem original que foi paga usando um cartão de crédito, a lógica de call center para pagamentos de reembolso aplica o mesmo cartão de crédito original à ordem de devolução.
 - **Cartão-fidelidade** – quando uma ordem de devolução criada faz referência a uma ordem original que foi paga usando um cartão-fidelidade, a lógica de call center para pagamentos de reembolso aplica o reembolso mesmo cartão-fidelidade.

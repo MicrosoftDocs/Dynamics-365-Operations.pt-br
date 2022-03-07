@@ -1,35 +1,32 @@
 ---
 title: Criar uma conta principal
-description: Este guia de tarefas aborda a adição de uma conta principal a um plano de contas existente.
+description: Este procedimento orienta na adição de uma conta principal a um plano de contas existente.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440254"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394626"
 ---
 # <a name="create-a-main-account"></a>Criar uma conta principal
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia de tarefas aborda a adição de uma conta principal a um plano de contas existente. Este registro usa a empresa de dados de demonstração USMF.  
+Este procedimento orienta na adição de uma conta principal a um plano de contas existente. Este registro usa a empresa de dados de demonstração USMF.  
 
-1. Vá para **Painel de navegação > Módulos > Contabilidade > Plano de contas > Contas > Contas principais**.
+1. Acesse **Painel de navegação > Módulos > Contabilidade > Plano de contas > Contas > Contas principais**.
 2. Clique em **Novo**.
 3. No campo **Conta principal**, digite um valor.
 4. No campo **Nome**, digite um valor.
@@ -52,3 +49,6 @@ Este guia de tarefas aborda a adição de uma conta principal a um plano de cont
 21. No campo **Tipo de conversão de moeda**, selecione o método de cálculo das taxas de câmbio da conta.
 22. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

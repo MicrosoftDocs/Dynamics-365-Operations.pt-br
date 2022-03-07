@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323999"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595194"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER do email
 
@@ -140,7 +140,7 @@ Para especificar o tipo de endereço de email que deve ser usado no tempo de exe
 
 ### <a name="configuration-email"></a>Email de configuração
 
-Selecione **Configuração de email** como o tipo de endereço de email se a configuração usada tiver um nó nas fontes de dados que retorna um único endereço de email ou vários endereços de email separados por ponto-e-vírgula (;). Você pode usar fontes de dados e [funções](er-formula-language.md#Functions) no designer de fórmulas para obter um endereço de email formatado corretamente ou endereços de email formatados corretamente separados por pontos-e-vírgulas. Por exemplo, se você usar a configuração **Transferência de crédito ISO 20022**, o nó que representa o endereço de email principal de um fornecedor dos detalhes de contato do fornecedor para o qual a carta de material deve ser enviada é `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Selecione **Configuração de email** como o tipo de endereço de email se a configuração usada tiver um nó nas fontes de dados que retorna um único endereço de email ou vários endereços de email separados por ponto-e-vírgula (;). Você pode usar [fontes de dados](general-electronic-reporting.md#FormatComponentOutbound) e [funções](er-formula-language.md#Functions) no designer de fórmulas para obter um endereço de email formatado corretamente ou endereços de email formatados corretamente, separados por ponto-e-vírgulas. Por exemplo, se você usar a configuração **Transferência de crédito ISO 20022**, o nó que representa o endereço de email principal de um fornecedor dos detalhes de contato do fornecedor para o qual a carta de material deve ser enviada é `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
 [![Configurar uma fonte de endereço de email.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

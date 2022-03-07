@@ -2,11 +2,9 @@
 title: Adicionar recomendações de produtos no PDV
 description: Este tópico descreve o uso de recomendações de produtos em um dispositivo de ponto de venda (PDV).
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 08784385dd1fead13f538b4e856b4bac6651a560
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969917"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763731"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Adicionar recomendações de produtos no PDV
 
@@ -41,7 +39,7 @@ As recomendações de produtos são habilitadas para os seguintes cenários de P
 
     - Se um associado da loja acessa uma página de **Detalhes de produto** ao procurar por transações anteriores entre diferentes canais, o serviço de recomendações sugere itens adicionais que provavelmente podem ser comprados juntos.
 
-    [![Recomendações na página Detalhes do produto](./media/proddetails.png)](./media/proddetails.png)
+    [![Recomendações na página Detalhes do produto.](./media/proddetails.png)](./media/proddetails.png)
 
 2. Na página **Transação**:
 
@@ -50,7 +48,7 @@ As recomendações de produtos são habilitadas para os seguintes cenários de P
     > [!NOTE]
     > Para exibir recomendações na página **Transação**, o varejista precisa atualizar o layout da tela no Dynamics 365 Commerce. O controle das **Recomendações** deve ser colocado na página de **Transação**.
 
-    [![Recomendações na página Transação](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Recomendações na página Transação.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configurar o Commerce para permitir recomendações PDV
 
@@ -58,8 +56,8 @@ Para configurar as recomendações de produtos, siga estas etapas:
 
 1. Verifique se o serviço foi atualizado para a **compilação 10.0.6.**
 2. Sigas as instruções sobre como [habilitar recomendações de produtos](../commerce/enable-product-recommendations.md) para sua empresa.
-3. Opcional: Para exibir recomendações na tela de transação, vá para **Layout de tela**, escolha seu layout de tela, inicie o **Designer do layout da tela** e depois deixe o controle de **recomendações** onde necessário.
-4. Vá para **Parâmetros de Commerce**, selecione **Aprendizado de máquina** e **Sim** em **Habilitar recomendações de PDV**.
+3. Opcional: Para exibir recomendações na tela de transação, Acesse **Layout de tela**, escolha seu layout de tela, inicie o **Designer do layout da tela** e depois deixe o controle de **recomendações** onde necessário.
+4. Acesse **Parâmetros de Commerce**, selecione **Aprendizado de máquina** e **Sim** em **Habilitar recomendações de PDV**.
 5. Para consultar recomendações no PDV, rode o trabalho de configuração global **1110**. Para refletir as alterações feitas ao designer de layout de tela do PDV, rode o trabalho de configuração de canal **1070**.
 
 ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Solucionar problemas em que as recomendações de produtos já estejam habilitadas
@@ -91,3 +89,6 @@ Para configurar as recomendações de produtos, siga estas etapas:
 [Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

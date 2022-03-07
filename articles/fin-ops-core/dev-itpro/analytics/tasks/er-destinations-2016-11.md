@@ -2,11 +2,9 @@
 title: Configurar destinos ER
 description: Este procedimento demonstra como configurar e usar os diferentes componentes de saída para eletrônicos (ER), como uma pasta ou um arquivo.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0073033454c7d3054496fe4c38cdb3cff71d8755
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f1e679b52b28ff1ca117c5224fc7e2825feb26e5e5aea1c8b5bc3a88d1eaf235
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681868"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743254"
 ---
 # <a name="er-configure-destinations"></a>Configurar destinos ER
 
@@ -30,7 +28,7 @@ Este procedimento demonstra como configurar e usar os diferentes componentes de 
 
 O formato usado nesse exemplo é a transferência de crédito ISO20022, mas você pode usar qualquer formato que você já importou. Observe que esse procedimento é um exemplo de uma configuração de arquivo e de destino únicos. Mais informações sobre o Gerenciamento do destino de relatório eletrônico podem ser encontradas na ajuda do Dynamics 365 Finance.
 
-1. Vá para Administração da organização > Relatório eletrônico > Destino de relatório eletrônico.
+1. Acesse Administração da organização > Relatório eletrônico > Destino de relatório eletrônico.
 2. Clique em Novo para criar um novo conjunto de metas para um formato.
 3. No campo Referência, selecione um formato para o qual você deseja definir os alvos.
     * Se você não tiver um valor para selecionar, significa que não importou qualquer configuração eletrônica no formato do relatório. Você deve importar uma configuração de formato antes de configurar destinos.  
@@ -60,3 +58,6 @@ O formato usado nesse exemplo é a transferência de crédito ISO20022, mas voc�
 21. No campo Assunto, digite um valor.
 22. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

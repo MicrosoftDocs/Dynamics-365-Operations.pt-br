@@ -1,33 +1,35 @@
 ---
 title: Criar um plano de benefícios
-description: Configure planos de benefícios no Dynamics 365 Human Resources.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+description: Este tópico mostra como configurar planos de benefícios no Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcbf4c1a7f136e5563bf1210b6c09228dad95dea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d3163bf30af9ed0eac2c753ed4aabb15d568ff4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417238"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065317"
 ---
-# <a name="create-a-benefits-plan"></a>Criar um plano de benefícios
+# <a name="create-a-benefit-plan"></a>Criar um plano de benefícios
 
-Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human Resources.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Este tópico mostra como configurar planos de benefícios no Dynamics 365 Human Resources.
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 
@@ -44,9 +46,8 @@ Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human R
    | **Programa** | Especifica um programa ao qual atribuir opcionalmente o plano. |
    | **Pacote** | Especifica um pacote ao qual atribuir opcionalmente o plano. |
    | **Mestre** | Especifica se o plano é o plano mestre no pacote ao qual está atribuído. |
-   | **Status** | Indica o status atual do plano de benefícios. O valor padrão é Ativo. Se você alterar o status para Inativo, o plano não estará disponível como uma seleção durante a inscrição. |
    | **Válido a partir da data e hora** | A data e a hora em que o plano tem início. O valor padrão é a data atual do sistema. |
-   | **Válido até a data e hora** | A data e a hora em que o plano termina (o status é definido como Inativo). O valor padrão é 12/31/2154, o que significa nunca. |
+   | **Válido até a data e hora** | A data e a hora em que o plano é encerrado. O valor padrão é 12/31/2154, o que significa nunca. |
 
 4. Na guia **Configuração**, especifique valores para os seguintes campos, dependendo do tipo de plano que você está criando:
 
@@ -54,18 +55,18 @@ Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human R
    | --- | --- | --- |
    | Médico (médico, odontológico, oftalmológico, HMO) | COBRA | Especifica se o plano é qualificado para COBRA (Consolidated Omnibus Budget Reconciliation Act). |
    | Médico (médico, odontológico, oftalmológico, HMO) | HIPAA | Especifica se o plano é qualificado para HIPAA (Health Insurance Portability and Accountability Act). |
-   | <ul><li>Médico (médico, odontológico, oftalmológico, HMO)</li><li>Outro (Folga remunerada, Bem-estar)</li><li>Outro</li><li>Incapacidade duradoura</li><li>Morte ou invalidez por acidente (vida básica, vida voluntária)</li><li>Poupança (por exemplo, 401(k))</li><li>FSA</li></ul> | Dedução antes do imposto qualificada | Especifica se as contribuições podem ser feitas no plano antes da aplicação dos impostos. |
-   | <ul><li>Médico (médico, odontológico, oftalmológico, HMO)</li><li>Outro (Folga remunerada, Bem-estar)</li><li>Incapacidade duradoura</li><li>Morte ou invalidez por acidente (vida básica, vida voluntária)</li><li>Poupança (por exemplo, 401(k))</li><li>FSA</li></ul> | Dedução depois do imposto qualificada | Especifica se as contribuições podem ser feitas no plano depois da aplicação dos impostos. |
-   | <ul><li>Médico (médico, odontológico, oftalmológico, HMO)</li><li>Outro (Folga remunerada, Bem-estar)</li><li>Incapacidade duradoura</li><li>Morte ou invalidez por acidente (vida básica, vida voluntária)</li><li>Poupança (por exemplo, 401(k))</li><li>FSA</li></ul> | Parceiro | Especifica quem contribui para o plano – o funcionário, o empregador ou ambos. |
-   | <ul><li>Incapacidade duradoura</li><li>Morte ou invalidez por acidente (vida básica, vida voluntária)</li></ul> | Cobertura mínima | A quantidade mínima de cobertura de seguro necessária para o plano. |
-   | <ul><li>Incapacidade duradoura</li><li>Morte ou invalidez por acidente (vida básica, vida voluntária)</li></ul> | Cobertura máxima | A quantidade máxima de cobertura de seguro necessária para o plano. |
-   | <ul><li>Incapacidade duradoura</li><li>Morte ou invalidez por acidente (vida básica, vida voluntária)</li></ul> | Usar incrementos da cobertura | Especifica se é necessário validar se o valor da cobertura corresponde a um valor incremental válido. |
-   | <ul><li>Incapacidade duradoura</li><li>Morte ou invalidez por acidente (vida básica, vida voluntária)</li></ul> | Valor incremental | A quantia incremental de cobertura de seguro para o plano. Por exemplo, se o valor incremental for 1.000, um funcionário não pode ter US$ 200.500 de seguro; seria preciso arredondar para US$ 201.000 ou US$ 200.000. |
-   | <ul><li>Incapacidade duradoura</li><li>Morte ou invalidez por acidente (vida básica, vida voluntária)</li></ul> | Direção incremental | Especifica a direção do arredondamento – para mais ou para menos – quando o valor da cobertura não atender o valor incremental. |
+   | Médico (médico, odontológico, oftalmológico, HMO)<br><br>Outro (Folga remunerada, Bem-estar)<br><br>Outro<br><br>Incapacidade duradoura<br><br>Morte ou invalidez por acidente (vida básica, vida voluntária)<br><br>Poupança (por exemplo, 401(k))<br><br>FSA | Dedução antes do imposto qualificada | Especifica se as contribuições podem ser feitas no plano antes da aplicação dos impostos. |
+   | Médico (médico, odontológico, oftalmológico, HMO)<br><br>Outro (Folga remunerada, Bem-estar)<br><br>Incapacidade duradoura<br><br>Morte ou invalidez por acidente (vida básica, vida voluntária)<br><br>Poupança (por exemplo, 401(k))<br><br>FSA | Dedução depois do imposto qualificada | Especifica se as contribuições podem ser feitas no plano depois da aplicação dos impostos. |
+   | Médico (médico, odontológico, oftalmológico, HMO)<br><br>Outro (Folga remunerada, Bem-estar)<br><br>Incapacidade duradoura<br><br>Morte ou invalidez por acidente (vida básica, vida voluntária)<br><br>Poupança (por exemplo, 401(k))<br><br>FSA | Parceiro | Especifica quem contribui para o plano – o funcionário, o empregador ou ambos. |
+   | Incapacidade duradoura<br><br>Morte ou invalidez por acidente (vida básica, vida voluntária) | Cobertura mínima | A quantidade mínima de cobertura de seguro necessária para o plano. |
+   | Incapacidade duradoura<br><br>Morte ou invalidez por acidente (vida básica, vida voluntária) | Cobertura máxima | A quantidade máxima de cobertura de seguro necessária para o plano. |
+   | Incapacidade duradoura<br><br>Morte ou invalidez por acidente (vida básica, vida voluntária) | Usar incrementos da cobertura | Especifica se é necessário validar se o valor da cobertura corresponde a um valor incremental válido. |
+   | Incapacidade duradoura<br><br>Morte ou invalidez por acidente (vida básica, vida voluntária) | Valor incremental | A quantia incremental de cobertura de seguro para o plano. Por exemplo, se o valor incremental for 1.000, um funcionário não pode ter US$ 200.500 de seguro; seria preciso arredondar para US$ 201.000 ou US$ 200.000. |
+   | Incapacidade duradoura<br><br>Morte ou invalidez por acidente (vida básica, vida voluntária) | Direção incremental | Especifica a direção do arredondamento – para mais ou para menos – quando o valor da cobertura não atender o valor incremental. |
    | Morte ou invalidez por acidente (vida básica, vida voluntária) | Evidência de segurabilidade | Especifica se um funcionário deve fornecer evidências de segurabilidade. |
    | Morte ou invalidez por acidente (vida básica, vida voluntária) | Valor | O valor na moeda contábil. Este campo estará ativo apenas se a caixa de seleção Evidência de segurabilidade estiver marcada. |
-   | <ul><li>Poupança (por exemplo, 401(k))</li><li>FSA</li></ul> | Contribuição anual mínima | O valor mínimo de contribuição necessário para o plano. |
-   | <ul><li>Poupança (por exemplo, 401(k))</li><li>FSA</li></ul> | Contribuição anual máxima | O valor máximo de contribuição necessário para o plano. |
+   | Poupança (por exemplo, 401(k))<br><br>FSA | Contribuição anual mínima | O valor mínimo de contribuição necessário para o plano. |
+   | Poupança (por exemplo, 401(k))<br><br>FSA | Contribuição anual máxima | O valor máximo de contribuição necessário para o plano. |
    | Poupança (por exemplo, 401(k)) | Valor anual máximo do empregador | O valor máximo que um empregador pode contribuir para um plano de economia de funcionários durante um período de benefício. Você deve marcar a caixa de seleção Correspondência do empregador para usar esse campo. |
    | Poupança (por exemplo, 401(k)) | Correspondência do empregador | Especifica se o empregador contribui para um plano de economia de funcionários. |
    | Poupança (por exemplo, 401(k)) | Percentual de correlação do empregador | A porcentagem de uma contribuição de funcionário à qual o empregador corresponderá. |
@@ -120,7 +121,7 @@ Você pode visualizar os trabalhadores inscritos em um plano de benefícios sele
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 
-2. Selecione **Trabalhadores registrados**.
+2. Na guia **Benefícios** na barra de navegação, selecione **Trabalhadores registrados**.
 
 ## <a name="attach-coverage-options"></a>Anexar opções de cobertura
 
@@ -128,7 +129,7 @@ Você pode adicionar opções de cobertura ao plano de benefícios selecionado. 
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 
-2. Selecione **Anexar opções de cobertura**.
+2. Na guia **Benefícios** na barra de navegação, selecione **Anexar opções de cobertura**.
 
 ## <a name="override-eligibility-rules"></a>Substituir regras de qualificação
 
@@ -136,7 +137,7 @@ Você pode adicionar trabalhadores a um plano como exceções às regras de qual
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 
-2. Selecione **Substituição da regra de qualificação**.
+2. Na guia **Benefícios** na barra de navegação, selecione **Substituir regra de elegibilidade**.
 
 ## <a name="view-attached-periods"></a>Exibir períodos anexados
 
@@ -144,18 +145,21 @@ Você pode exibir uma lista dos períodos de benefícios disponíveis.
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 
-2. Selecione **Períodos**.
+2. Selecione a guia **Períodos** na barra de navegação.
 
-## <a name="view-plan-information"></a>Exibir informações do plano
+## <a name="view-plan-description"></a>Exibir descrição do plano
 
-Você pode fornecer uma descrição do plano para ajudar os funcionários com suas seleções de benefícios. As informações do plano inseridas aqui são exibidas no Autoatendimento para funcionários ao passar o mouse sobre o plano na lista de opções de cobertura.
+Você pode fornecer uma descrição do plano para ajudar os funcionários com suas seleções de benefícios. A descrição do plano inserida aqui é exibida no Autoatendimento para funcionários ao passar o mouse sobre o plano na lista de opções de cobertura.
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 
-2. Selecione **Informações do plano**.
+2. Na guia **Benefícios** na barra de navegação, selecione **Descrição do plano**.
 
 ## <a name="view-flex-credit-programs"></a>Exibir programas de crédito flexível
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 
-2. Selecione **Programas de crédito flexível**.
+2. Na guia **Benefícios** na barra de navegação, selecione **Programas de crédito flexíveis**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

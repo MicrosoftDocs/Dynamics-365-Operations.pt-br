@@ -2,27 +2,24 @@
 title: Ciclo de vida da ordem de lotes da criação ao início
 description: Este procedimento o conduz através da primeira parte do ciclo de vida da ordem de lote.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, ProdBOM, PmfProdCoBy, ProdParmCostEstimation, ProdCalcTrans, ProdParmRelease, ProdSchedule, ProdRouteJob, ProdParmStartUp, ProdJournalTransBOM, ProdJournalTransRoute
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e57cd9254185b73f544e8ff4f7658cf743b672f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8d9ed44c9e05ea815e78ae041234ad61f76d89d8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421914"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825029"
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>Ciclo de vida da ordem de lotes da criação ao início
 
@@ -92,3 +89,6 @@ Os pré-requisitos para executar o procedimento com outro conjunto de dados são
 12. Feche a página.
 13. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

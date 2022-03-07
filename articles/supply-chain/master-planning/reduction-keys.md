@@ -1,30 +1,27 @@
 ---
 title: Chaves de redução da previsão
 description: Este tópico traz exemplos que mostram como configurar uma chave de redução. Eles incluem informações sobre as diversas configurações da chave de redução e os resultados de cada uma delas. Você pode usar uma chave de redução para definir como reduzir os requisitos de previsão.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqReduceKeyDefaultDataWizard, ReqReduceKey
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fc2b63bfdec1c663027cb4e551589a705c2164e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cbed77fd1abc0e4ae26e2b9ddcc01d3f4a84889f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422055"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570816"
 ---
 # <a name="forecast-reduction-keys"></a>Chaves de redução da previsão
 
@@ -36,7 +33,7 @@ Este tópico fornece informações sobre os diferentes métodos usados para redu
 
 Quando você inclui uma previsão sobre um plano mestre, pode selecionar como os requisitos de previsão são reduzidos quando a demanda real é incluída. Observe que o planejamento mestre exclui os requisitos de previsão do passado, o que significa todos os requisitos de previsão antes da data atual.
 
-Para incluir uma previsão em um plano mestre e selecionar o método usado para reduzir os requisitos de previsão, vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**. No campo **Modelo de previsão**, selecione um modelo de previsão. No campo **Método usado para reduzir requisitos de previsão**, selecione um método. As opções a seguir estão disponíveis:
+Para incluir uma previsão em um plano mestre e selecionar o método usado para reduzir os requisitos de previsão, Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**. No campo **Modelo de previsão**, selecione um modelo de previsão. No campo **Método usado para reduzir requisitos de previsão**, selecione um método. As opções a seguir estão disponíveis:
 
 - Nenhuma
 - Percentual – chave de redução
@@ -89,7 +86,18 @@ Nesse caso, se você executar o plano de previsão em 1º de janeiro, os requisi
 
 ### <a name="transactions--reduction-key"></a>Transações – chave de redução
 
-Se você seleciona **Transações - chave de redução**, os requisitos de previsão são reduzidos pelas transações que ocorrem durante os períodos definidos pela chave de redução.
+Se você definir o campo **Método usado para reduzir requisitos de previsão** como *Transações – chave de redução*, os requisitos de previsão serão reduzidos pelas transações de demanda qualificada que ocorrem durante os períodos definidos pela chave de redução.
+
+A demanda qualificada é definida pelo campo **Reduzir previsão por** na página **Grupos de cobertura**. Se você definir o campo **Reduzir previsão por** como *Ordens*, somente transações de ordem de venda serão consideradas demanda qualificada. Se você defini-lo como *Todas as transações*, todas as transações de estoque de saída intercompanhia serão consideradas demanda qualificada. Se ordens de venda intercompanhia também devem ser consideradas demanda qualificada, defina a opção **Incluir ordens intercompanhia** como *Sim*.
+
+A redução da previsão começa com o primeiro (mais antigo) registro de previsão de demanda no período da chave de redução. Se a quantidade de transações de estoque qualificado for maior do que a quantidade de linhas de previsão de demanda no mesmo período da chave de redução, o saldo da quantidade de transações de estoque será usado para reduzir a previsão de quantidade de demanda no período anterior (se houver uma previsão não consumida).
+
+Se nenhuma previsão não consumida continuar no período da chave de redução anterior, o saldo da quantidade de transações de estoque será usado para reduzir a previsão de quantidade no mês seguinte (se houver uma previsão não consumida).
+
+O valor do campo **Porcentagem** nas linhas da chave de redução não é usado quando o campo **Método usado para reduzir requisitos de previsão** é definido como *Transações – chave de redução*. Somente as datas são usadas para definir o período da chave de redução.
+
+> [!NOTE]
+> Qualquer previsão lançada em ou antes da data de hoje será ignorada e não será usada para criar ordens planejadas. Por exemplo, se a sua previsão de demanda para o mês for gerada em 1º de janeiro e você executar o planejamento mestre que inclui a previsão de demanda em 2 de janeiro, o cálculo ignorará a linha de previsão de demanda com a data de 1º de janeiro.
 
 #### <a name="example-transactions--reduction-key"></a>Exemplo: Transações – chave de redução
 
@@ -198,8 +206,8 @@ Por isso, as ordens planejadas a seguir são criadas.
 
 Uma chave de redução da previsão é usada nos métodos **Transações - chave de redução** e **Percentual - chave de redução** para diminuir os requisitos de previsão. Siga estas etapas para criar e configurar uma chave de redução.
 
-1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Chaves de redução**.
-2. Selecione **Nova** pressione **CTRL+N** para criar uma chave de redução.
+1. Acesse **Planejamento mestre \> Configuração \> Cobertura \> Chaves de redução**.
+2. Selecione **Novo** para criar uma chave de redução.
 3. No campo **Chave de redução**, insira um identificador exclusivo para a chave de redução da previsão. Em seguida, no campo **Nome**, insira um nome. 
 4. Defina os períodos e o percentual da chave de redução em cada período:
 
@@ -211,9 +219,9 @@ Uma chave de redução da previsão é usada nos métodos **Transações - chave
 
 Uma chave de redução da previsão deve ser atribuída ao grupo de cobertura do item. Siga estas etapas para atribuir uma chave de redução ao grupo de cobertura de um item.
 
-1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Grupos de cobertura**.
+1. Acesse **Planejamento mestre \> Configuração \> Cobertura \> Grupos de cobertura**.
 2. Na Guia Rápida **Outro**, no campo **Chave de redução**, selecione a chave de redução para atribuir ao grupo de cobertura. A chave de redução é aplicada a todos os itens que pertencem ao grupo de cobertura.
-3. Para usar uma chave de redução para calcular a redução da previsão durante o agendamento do planejamento mestre, você deve definir esse parâmetro na configuração do plano de previsão ou do plano mestre. Vá para um dos seguintes locais:
+3. Para usar uma chave de redução para calcular a redução da previsão durante o agendamento do planejamento mestre, você deve definir esse parâmetro na configuração do plano de previsão ou do plano mestre. Acesse um dos seguintes locais:
 
     - Planejamento mestre \> Configuração \> Planos \> Planos de previsão
     - Planejamento mestre \> Configuração \> Planos \> Planos mestres
@@ -227,3 +235,6 @@ Quando você seleciona **Transações - chave de redução** ou **Transações -
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de planos mestres](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

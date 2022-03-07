@@ -2,28 +2,25 @@
 title: Atribuir funções de usuário de arrendamento
 description: Este tópico descreve as funções de segurança usadas no Arrendamento de ativos. Também explica como atribuir usuários a essas funções.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b31d0880d4f2cd2b8ad2dffcfe279421f935ed35
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 16719576dde73f096c0102a89c43cbc75594cc80
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440559"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819833"
 ---
 # <a name="assign-lease-user-roles"></a>Atribuir funções de usuário de arrendamento
 
@@ -44,3 +41,6 @@ Siga estas etapas para atribuir aos usuários as funções usadas em Arrendament
 1. Vá para **Administração do sistema \> Segurança \> Atribuir usuários a funções**.
 2. Selecione a função **Manter arrendamento**, **Auxiliar de arrendamento** ou **Exibir arrendamento** e depois selecione **Atribuir/excluir usuários manualmente**.
 3. Selecione o usuário a ser atribuído à função e selecione **Atribuir à função**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

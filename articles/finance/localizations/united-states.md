@@ -2,26 +2,23 @@
 title: Estados Unidos
 description: Este tópico fornece links para recursos da documentação para os Estados Unidos.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: ''
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c09dd5eff5e97a56465c0e70958dbf726d8a1e01
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: afa8bdd9021787e90d77099f6076e4d31de0539f99c897c2dbd89bf4b7ad491c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757029"
 ---
 # <a name="united-states"></a>Estados Unidos 
 
@@ -34,6 +31,9 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Visão geral de Relatório eletrônico](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Visão geral de Relatório eletrônico](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Portal de localização do Microsoft Dynamics: relatório da Austrália (exige uma conta CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/unitedstates.html)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

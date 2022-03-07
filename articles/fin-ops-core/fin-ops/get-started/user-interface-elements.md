@@ -2,11 +2,9 @@
 title: Elementos da interface do usuário
 description: Este tópico descreve os elementos da interface do usuário (IU) usados no aplicativo.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: feb6d5751bc22c05dbd2f01f47d5a0f99fca07a0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797915"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754719"
 ---
 # <a name="user-interface-elements"></a>Elementos da interface do usuário
 
@@ -86,3 +84,6 @@ Uma *barra de ferramentas* contém ferramentas, como a habilidade de adicionar c
 Uma *lista* é o nome dado a uma coleção de registros que você pode visualizar. Você pode trazer esses registros para a página selecionando-os. Geralmente, isso abrirá uma grade.
 
 ![Esta imagem mostra exemplos de barras de ferramentas, grades e listas.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

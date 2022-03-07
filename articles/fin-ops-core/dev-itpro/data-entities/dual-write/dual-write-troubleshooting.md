@@ -1,61 +1,31 @@
 ---
 title: Solução de problemas gerais
-description: Este tópico fornece informações gerais de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse.
+description: Este tópico fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744532"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062329"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-
-Este tópico fornece informações gerais de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse.
+Este tópico fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse.
 
 > [!IMPORTANT]
 > Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
-
-## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Ao tentar instalar o pacote de gravação dupla usando a ferramenta Package Deployer, nenhuma solução disponível é mostrada
-
-Algumas versões da ferramenta Package Deployer são incompatíveis com o pacote de solução de gravação dupla. Para instalar o pacote com êxito, certifique-se de usar a [versão 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) ou posterior da ferramenta Package Deployer.
-
-Depois de instalar a ferramenta do Package Deployer, instale o pacote de solução seguindo essas etapas.
-
-1. Baixe o arquivo de pacote de solução mais recente de Yammer.com. Depois que o arquivo zip do pacote for baixado, clique nele com o botão direito do mouse e selecione **Propriedades**. Marque caixa de seleção **Desbloquear** e selecione **Aplicar**. Se você não vir a caixa de seleção **Desbloquear**, o arquivo zip já está desbloqueado e você pode ignorar essa etapa.
-
-    ![Caixa de diálogo de propriedades](media/unblock_option.png)
-
-2. Extraia o arquivo compactado no pacote e copie todos os arquivos na pasta **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
-
-    ![Conteúdo da pasta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
-
-3. Cole todos os arquivos copiados na pasta **Ferramentas** da ferramenta Package Deployer. 
-4. Execute **PackageDeployer.exe** para selecionar o ambiente Dataverse e instale as soluções.
-
-    ![Conteúdo da pasta Ferramentas](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite e exiba o log de rastreamento de plug-in no Dataverse para exibir detalhes do erro
 
@@ -63,50 +33,49 @@ Depois de instalar a ferramenta do Package Deployer, instale o pacote de soluç�
 
 Para ativar o log de rastreamento, siga estas etapas.
 
-1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Sistema**, selecione **Administração**.
+1. Entre no aplicativo de interação com o cliente, abra a página **Configurações** e, em **Sistema**, selecione **Administração**.
 2. Na página **Administração**, selecione **Configuração do sistema**.
 3. Na guia **Personalização**, na coluna **Rastreamento de atividade de fluxo de trabalho e plug-in**, selecione **Todos** para habilitar o log de rastreamento de plug-in. Se você deseja registrar logs de rastreamento somente quando ocorrerem exceções, em vez disso, você pode selecionar **Exceção**.
 
 
 Para exibir o log de rastreamento, siga estas etapas.
 
-1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.
+1. Efetue login no aplicativo de interação com o cliente, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.
 2. Encontre os logs de rastreamento em que a coluna **Nome do Tipo** esteja definida como **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Clique duas vezes em um item para exibir o log completo e, em seguida, na Guia Rápida **Execução** revise o texto do **Bloco de mensagens**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos Finance and Operations
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos de Finanças e Operações
 
-**Função necessária para exibir os erros:** erros de gravação dupla do administrador do sistema que se originam no Dataverse e podem ser exibidos no aplicativo Finance and Operations. Em alguns casos, o texto completo da mensagem de erro não está disponível porque a mensagem é muito longa ou contém informações de identificação pessoal (PII). Você pode ativar o registro detalhado de erros ao seguir estas etapas.
+**Função necessária para exibir os erros:** administrador do sistema
 
-1. Todas as configurações de projeto nos aplicativos Finance and Operations têm uma propriedade **IsDebugMode** na tabela **DualWriteProjectConfiguration**. Abra a tabela **DualWriteProjectConfiguration** usando um suplemento do Excel.
+Os erros de gravação dupla originados no Dataverse podem aparecer no aplicativo de Finanças e Operações. Para habilitar o registro detalhado de erros ao seguir estas etapas:
 
-    > [!TIP]
-    > Uma forma simples de abrir a tabela é ativar o modo **Design** no suplemento do Excel e adicionar **DualWriteProjectConfigurationEntity** à planilha. Para obter mais informações, consulte [Abrir os dados da tabela no Excel e atualizá-los usando o suplemento do Excel](../../office-integration/use-excel-add-in.md).
+1. Para todas as configurações de projeto em aplicativos de Finanças e Operações, há um sinalizador **IsDebugMode** na tabela **DualWriteProjectConfiguration**.
+2. Abra a tabela **DualWriteProjectConfiguration** usando um suplemento do Excel. Para usar o suplemento, habilite o modo de design no suplemento do Excel no Finance and Operations e adicione o **DualWriteProjectConfiguration** à planilha. Para obter mais informações, consulte [Exibir e atualizar dados da entidade com o Excel](../../office-integration/use-excel-add-in.md).
+3. Defina **Isdebugmode** como **Sim** no projeto.
+4. Execute o cenário que está gerando erros.
+5. Os logs detalhados são armazenados na tabela **DualWriteErrorLog**.
+6. Para pesquisar dados no navegador de tabelas, use o seguinte link: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog` substituindo `999`, conforme necessário.
+7. Atualize novamente após a [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), que está disponível para atualizações de plataforma 37 e posterior. Se você tiver essa correção instalada, o modo de depuração capturará mais logs.  
 
-2. Defina a propriedade **IsDebugMode** como **Sim** para o projeto.
-3. Execute o cenário que está gerando erros.
-4. Os logs detalhados estão disponíveis na tabela DualWriteErrorLog. Para pesquisar dados no navegador da tabela, use a seguinte URL (substitua **XXX**, conforme apropriado):
-
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
-
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verificar erros de sincronização na máquina virtual para o aplicativo Finance and Operations
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verificar erros de sincronização na máquina virtual para o aplicativo de Finanças e Operações
 
 **Função necessária para exibir os erros:** administrador do sistema
 
 1. Entre Microsoft Dynamics Lifecycle Services (LCS).
 2. Abra o projeto LCS escolhido para realizar testes de gravação dupla.
 3. Selecione o bloco **Ambientes hospedados na nuvem**.
-4. Use área de trabalho remota para fazer login na máquina virtual (VM) do aplicativo Finance and Operations. Use a conta local que é mostrada em LCS.
+4. Use área de trabalho remota para entrar na máquina virtual (VM) do aplicativo de Finanças e Operações. Use a conta local que é mostrada em LCS.
 5. Abra o Visualizador de Eventos.
 6. Selecione **Registros de aplicativos e serviços \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.
 7. Revise a lista de erros recentes.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular e vincular outro ambiente do Dataverse de um aplicativo Finance and Operations
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular e vincular outro ambiente do Dataverse a partir de um aplicativo de Finanças e Operações
 
-**Função necessária para desvincular o ambiente:** administrador do sistema para os aplicativos Finance and Operations ou Dataverse.
+**Função necessária para desvincular o ambiente**: administrador do sistema para aplicativo de Finanças e Operações ou o Dataverse.
 
-1. Entrar no aplicativo Finance and Operations.
-2. Vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**.
+1. Entre no aplicativo de Finanças e Operações.
+2. Acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**.
 3. Selecione todos os mapeamentos em execução e selecione **Parar**.
 4. Selecione **Desvincular ambiente**.
 5. Selecione **Sim** para confirmar a operação.
@@ -118,7 +87,28 @@ Agora você pode vincular um novo ambiente.
 Quando você cria uma ordem de venda no Dynamics 365 Sales, clicar em **Adicionar produtos** talvez redirecione você para o formulário da linha de ordem do Dynamics 365 Project Operations. Não há nenhuma maneira de esse formulário exibir o formulário de **Informações** da linha da ordem de venda. A opção de **Informações** não aparece na lista suspensa **Nova Linha da Ordem** abaixo. Isso ocorre porque o Project Operations foi instalado em seu ambiente.
 
 Para habilitar novamente a opção de formulário de **Informações**, siga estas etapas:
+
 1. Navegue até a tabela **Linha da Ordem**.
-2. Encontre o formulário de **Informações** no nó de formulários. 
-3. Selecione o formulário de **Informações** e clique em **Habilitar funções de segurança**. 
+2. Encontre o formulário de **Informações** no nó de formulários.
+3. Selecione o formulário de **Informações** e clique em **Habilitar funções de segurança**.
 4. Altere a configuração de segurança para **Exibir para todos**.
+
+## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Como habilitar e salvar o rastreamento de rede para que os rastreamentos possam ser anexados a tíquetes de suporte
+
+Talvez a equipe de suporte precise revisar os rastreamentos de rede para solucionar alguns problemas. Siga estas etapas para criar um rastreamento de rede:
+
+### <a name="chrome"></a>Chrome
+
+1. Na guia aberta, pressione **F12** ou escolha **Ferramentas do desenvolvedor** para abrir as ferramentas do desenvolvedor.
+2. Abra a guia **Rede** e digite **integ** na caixa de texto do filtro.
+3. Execute seu cenário e observe as solicitações que estão sendo registradas.
+4. Clique com o botão direito do mouse nas entradas e selecione **Salvar tudo como um Har com conteúdo**.
+
+### <a name="microsoft-edge"></a>Microsoft Edge
+
+1. Na guia aberta, pressione **F12** ou escolha **Ferramentas do desenvolvedor** para abrir as ferramentas do desenvolvedor.
+2. Abra a guia **Rede**.
+3. Execute seu cenário.
+4. Selecione **Salvar** para exportar os resultados como Har.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

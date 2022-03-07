@@ -2,11 +2,9 @@
 title: Processar reembolsos para pagamento
 description: Este procedimento demonstra como converter reembolsos de cliente aprovados e processados para notas de crédito.
 author: omulvad
-manager: tfehr
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1d32d94daef570e37a1a36d948fe18cd4041e46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c617abd6ad715fff658451a7af3e775cf5e83292
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966146"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816451"
 ---
 # <a name="process-rebates-for-payment"></a>Processar reembolsos para pagamento
 
@@ -50,3 +48,6 @@ Este procedimento demonstra como converter reembolsos de cliente aprovados e pro
     * Observe que uma transação para valor negativo, representando o valor total do reembolso, sem referência de fatura foi adicionada ao saldo do cliente.   
 15. Clique em Cancelar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

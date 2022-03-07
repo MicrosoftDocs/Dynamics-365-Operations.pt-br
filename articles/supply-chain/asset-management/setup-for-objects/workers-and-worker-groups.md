@@ -1,12 +1,10 @@
 ---
 title: Funcionários de manutenção e grupos de trabalhadores
 description: Este tópico explica os funcionários de manutenção e os grupos de trabalhadores no Gerenciamento de ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 553dce8df5e91cce58b64e340d8ff72586d8d46d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017383"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838553"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Funcionários de manutenção e grupos de trabalhadores
 
@@ -63,3 +61,6 @@ Você também pode criar grupos de funcionários de manutenção e associar func
 6. Se um grupo de recursos deve estar relacionado ao grupo de funcionários de manutenção selecionado, selecione **Copiar do grupo de recursos**. No campo **Grupo**, selecione o grupo de recursos do qual as configurações de calendário serão copiadas. Em seguida, no campo **Grupo de trabalhadores**, selecione o grupo de trabalhadores para o qual as configurações de calendário do grupo de recursos serão copiadas. Esta etapa é relevante somente se você quiser que os funcionários de manutenção usem o calendário que está relacionado a um recurso (centro de trabalho) durante o agendamento da ordem de serviço.
 
     O campo na Guia Rápida **Detalhes** mostra o número de funcionários de manutenção que foram definidos no grupo de funcionários de manutenção selecionado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

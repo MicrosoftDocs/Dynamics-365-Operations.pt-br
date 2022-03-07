@@ -1,27 +1,24 @@
 ---
 title: Confirmar ordens de venda
 description: Este procedimento demonstra como confirmar ordens de venda.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, CustConfirmJournal, SysQueryForm, SysQueryFieldLookUp, SysLookup, SalesParmIdLookup, SalesUnconfirmedOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d6476271689feaaa00e44f98f17ac34976c46644
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30396c121b67d1b7095a175d85399ed664f68557
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421991"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572496"
 ---
 # <a name="confirm-sales-orders"></a>Confirmar ordens de venda
 
@@ -31,7 +28,7 @@ Este procedimento demonstra como confirmar ordens de venda. Será mostrado a voc
 
 
 ## <a name="confirm-a-single-sales-order"></a>Confirmar uma única ordem de venda
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
 2. Na lista, localize e selecione a ordem que você deseja confirmar.
 3. Clique no link no número da ordem de venda para abrir a ordem selecionada.
 4. No **Painel de Ações**, clique em **Vender**.
@@ -49,7 +46,7 @@ Este procedimento demonstra como confirmar ordens de venda. Será mostrado a voc
 16. Feche a página.
 
 ## <a name="confirm-multiple-sales-orders-at-once"></a>Confirmar várias ordens de venda de uma vez
-1. Vá para **Vendas e marketing > Ordens de venda > Confirmação da ordem > Confirmar ordem de venda**.
+1. Acesse **Vendas e marketing > Ordens de venda > Confirmação da ordem > Confirmar ordem de venda**.
 2. Clique em **Selecionar**.
 3. Na lista da guia **Intervalo**, localize e selecione o registro que faz referência ao campo **Conta de cliente**.
 4. No campo **Critérios**, clique no botão suspenso para abrir a pesquisa.
@@ -64,3 +61,6 @@ Este procedimento demonstra como confirmar ordens de venda. Será mostrado a voc
 11. Clique em **OK**.
 12. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

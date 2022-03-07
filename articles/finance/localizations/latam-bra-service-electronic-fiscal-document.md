@@ -2,28 +2,25 @@
 title: Nota fiscal eletrônica para serviços do Brasil
 description: Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço.
 author: sndray
-manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BrazilParameters, ConfDefGroups_BR, ConfDefGroupWizard_BR, ConfDefLayout_BR, ConfExportDialog_BR, FiscalDocumentType_BR, RPSExport_BR, RPSImport_BR, TaxServiceCode_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269984
 ms.assetid: 46e40a3a-784f-4a1e-b185-c4b8ad63518f
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d0ee14c8fcbb2b4f30142f28dc4a262a3909ed8c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a1a246c3ae8ee6b4ed507e6bcecc4db91383cd5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408436"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822803"
 ---
 # <a name="service-electronic-fiscal-document-for-brazil"></a>Nota fiscal eletrônica para serviços do Brasil
 
@@ -101,3 +98,6 @@ Quando você importa uma nota fiscal eletrônica para serviços, as informaçõe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

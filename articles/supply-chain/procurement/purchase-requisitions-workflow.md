@@ -1,12 +1,10 @@
 ---
 title: fluxo de trabalho de requisição de compra
 description: O processo de fluxo de trabalho move requisições de compra pelo processo de revisão, de um status de Rascunho para um status final de Aprovado. Quando uma requisição de compra é enviada para revisão, o processo de fluxo de trabalho é iniciado. Após a aprovação de uma requisição de compra, uma ordem de compra pode ser gerada para as linhas de requisição de compra e enviadas ao fornecedor para o preenchimento da ordem.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021971"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569448"
 ---
 # <a name="purchase-requisition-workflow"></a>fluxo de trabalho de requisição de compra
 
@@ -53,7 +51,7 @@ A ilustração a seguir mostra como uma requisição de compra pode fluir pelo p
 -   **Agente de compra** – O usuário que executa uma revisão de aquisição e pode aprovar o documento.
 -   **O gerente do solicitante** – O usuário que executa uma revisão administrativa e que pode aprovar o documento.
 
-![Processo de revisão do fluxo de trabalho de requisição de compra](./media/purchreqworkflowoverview_submission.gif)  
+![Processo de revisão do fluxo de trabalho de requisição de compra.](./media/purchreqworkflowoverview_submission.gif)  
 Neste exemplo, o processo de fluxo de trabalho para a requisição de compra inclui as seguintes etapas:
 
 1.  O preparador envia uma requisição de compra para revisão.
@@ -76,7 +74,7 @@ As funções a seguir estão incluídas no processo de fluxo de trabalho deste e
 -   **Gerente de departamento** – O usuário que executa uma revisão de despesas e que pode aprovar o documento.
 -   **Gerente de grupo** – O usuário que executa uma revisão de autoridade de assinatura e que pode aprovar o documento.
 
-![Processo de revisão do fluxo de trabalho da linha de requisição de compra](./media/purchreqlineworkflowoverview.gif)  
+![Processo de revisão do fluxo de trabalho da linha de requisição de compra.](./media/purchreqlineworkflowoverview.gif)  
 Neste exemplo, o processo de fluxo de trabalho para as linhas de requisição de compra inclui as seguintes etapas:
 
 1.  O preparador envia uma requisição de compra para revisão. Cada linha é encaminhada ao revisor configurado no processo para recebê-la no processo do fluxo de trabalho.
@@ -107,8 +105,7 @@ Você pode configurar os revisores de despesa na página **Revisores das despesa
 
 Para usar um dos revisores de despesas que você configura em um fluxo de trabalho, você deverá definir a opção **Tipo de participante** como **Participantes de despesas** nas propriedades **Atribuição** para o elemento de fluxo de trabalho relevante.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Criar uma requisição para consumo](tasks/create-requisition-consumption.md)
 
@@ -120,3 +117,6 @@ Para usar um dos revisores de despesas que você configura em um fluxo de trabal
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

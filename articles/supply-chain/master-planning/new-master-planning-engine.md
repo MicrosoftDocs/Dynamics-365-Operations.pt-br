@@ -2,16 +2,13 @@
 title: Migração para a Otimização de Planejamento para o planejamento mestre
 description: Este tópico fornece informações sobre o novo mecanismo de planejamento mestre, a Otimização de Planejamento, e a migração do mecanismo existente.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645987"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348748"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migração para a Otimização de Planejamento para o planejamento mestre
 
@@ -66,8 +63,12 @@ No momento, as exceções da migração para a Otimização de Planejamento só 
 
 Depois que os recursos necessários forem disponibilizados, a Microsoft fornecerá um período de carência até a expiração da exceção. O administrador do ambiente será informado quando os recursos necessários estiverem disponíveis e o período de carência tiver começado.
 
+O fluxograma abaixo resume as informações fornecidas neste tópico para que você possa decidir rapidamente se deve solicitar uma exceção. Se precisar solicitar uma exceção, preencha e envie a [Questionário de exceção e migração do plano de otimização](https://go.microsoft.com/fwlink/?linkid=2144962).
+
+![Fluxograma de exceção.](media/exception-diagram.png "Fluxograma de exceção")
+
 > [!NOTE]
-> Você só pode solicitar uma exceção para ambientes de produção, não para ambientes de área restrita. Se você precisar desabilitar o erro de exceção da Otimização de Planejamento em um ambiente de área restrita IaaS (infraestrutura como serviço), execute a consulta SQL fornecida em [Ambientes de área restrita](#faq-sandbox).
+> Você só pode solicitar uma exceção para locatários que incluem, ou incluirão, um ambiente de produção, não apenas para locatários com ambientes de área restrita. Se você precisar desabilitar o erro de exceção da Otimização de Planejamento em um ambiente de área restrita IaaS (infraestrutura como serviço), execute a consulta SQL fornecida em [Ambientes de área restrita](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -116,3 +117,6 @@ Estou usando a versão 10.0.16 ou posteriores e recebi a seguinte mensagem de er
 > Preencha o seguinte questionário para começar e, se for o caso, solicitar uma exceção da migração para a Otimização de Planejamento.
 
 **Resposta:** Não, o planejamento mestre não está bloqueado. A execução do planejamento mestre foi concluída com êxito e você pode usar o resultado como de costume. No entanto, para evitar o recebimento dessa mensagem de erro durante futuras execuções do planejamento mestre, você deve migrar para a Otimização de Planejamento imediatamente ou solicitar uma exceção usando o link na mensagem de erro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
-title: Organizar componentes do relatório no designer de relatórios
-description: Depois que você tiver desenvolvido blocos de construção e relatórios gerados, é útil organizar esses objetos para que fiquem mais fácil para os usuários a localizar. Este artigo explica como organizar objetos no report designer, blocos de construção e relatórios existentes.
+title: Organizar componentes de relatório no designer de relatórios
+description: Este tópico explica como organizar objetos no designer de relatórios, blocos de construção e relatórios existentes.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763515"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizar componentes do relatório no designer de relatórios
 
@@ -49,7 +47,7 @@ você pode agrupar definições de relatório para gerar vários relatórios ao 
 ### <a name="create-a-report-group"></a>Criar um grupo de relatórios
 
 1. No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
-2. No menu **Arquivo**, clique em **Novo** &gt; **Definição de grupo de relatório** para abrir um novo grupo de relatório na janela de visualização. Como alternativa, clique no botão **Grupo de Relatórios** ![Grupo de Relatórios](media/report-group.gif "Grupo de Relatórios") na barra de ferramentas.
+2. No menu **Arquivo**, clique em **Novo** &gt; **Definição de grupo de relatório** para abrir um novo grupo de relatório na janela de visualização. Como alternativa, clique no botão **Grupo de Relatórios** ![Grupo de Relatórios.](media/report-group.gif "Grupo de Relatórios") na barra de ferramentas.
 3. Clique na guia **Grupo de relatório**. Para substituir as informações nas definições de relatório individuais para a geração deste relatório, marque a caixa de seleção **Substituir a empresa, os detalhes e as configurações de data das definições de relatório individuais**. As informações de nome da empresa, nível de detalhe, configurações provisórias e data são preenchidas automaticamente, mas você ainda pode fazer atualizações.
 4. Marque a caixa de seleção **Incluir todas as moedas de relatório** se desejar que os vários relatórios gerados exibam essas moedas. Você pode acessar diversas exibições clicando no botão **Moeda** no Visualizador Web quando você exibir o relatório.
 5. No campo **Relatórios no grupo**, clique em **Adicionar** para selecionar os relatórios a serem incluídos no grupo Relatório. Para selecionar vários relatórios na caixa de diálogo **Adicionar**, mantenha pressionada a tecla CTRL enquanto seleciona relatórios. Quando terminar de selecionar os relatórios, clique em **OK**.
@@ -60,7 +58,7 @@ você pode agrupar definições de relatório para gerar vários relatórios ao 
 1. No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
 2. Clique duas vezes no grupo de relatórios a ser modificado.
 3. Clique na guia **Grupo de Relatório** e faça as alterações desejadas.
-4. No menu **Arquivo**, clique em **Salvar** para salvar o grupo de relatórios modificado. Como alternativa, clique no botão **Salvar** ![Salvar](media/save.gif "Salvar") na barra de ferramentas.
+4. No menu **Arquivo**, clique em **Salvar** para salvar o grupo de relatórios modificado. Como alternativa, clique no botão **Salvar** ![Salvar.](media/save.gif "Salvar") na barra de ferramentas.
 
 > [NOTA] Se você agendou relatórios para que sejam gerados em intervalos definidos, pode substituir essas configurações e gerar um relatório imediatamente.
 
@@ -68,7 +66,7 @@ você pode agrupar definições de relatório para gerar vários relatórios ao 
 
 1. No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
 2. Abra o grupo de relatórios a ser gerado.
-3. Clique no botão **Gerar Relatório** ![Gerar Relatório](media/generate-report.gif "Gerar Relatório") para gerar relatórios.
+3. Clique no botão **Gerar Relatório** ![Gerar Relatório.](media/generate-report.gif "Gerar Relatório") para gerar relatórios.
 
 ### <a name="delete-a-report-group"></a>Excluir um grupo de relatório
 
@@ -148,3 +146,6 @@ Somente as configurações do Período Base Padrão são salvas com a definiçã
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

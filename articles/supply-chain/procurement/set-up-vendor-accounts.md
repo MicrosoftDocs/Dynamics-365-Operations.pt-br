@@ -1,12 +1,10 @@
 ---
 title: Configurar contas de fornecedor
 description: Este tópico descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2923dd3f051013fdd5b4f4717a6c954453ccdcf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016568"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565462"
 ---
 # <a name="set-up-vendor-accounts"></a>Configurar contas de fornecedor
 
@@ -117,3 +115,6 @@ Selecione contas padrão na página **Configuração de conta padrão**, que voc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

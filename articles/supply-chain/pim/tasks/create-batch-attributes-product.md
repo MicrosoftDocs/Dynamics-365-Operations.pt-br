@@ -1,27 +1,24 @@
 ---
 title: Criar atributos de lote para um produto
 description: Este procedimento mostra como criar um atributo de lote, atribuir faixas padrões de valores, e incluir o atributo em um grupo.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsBatchAttrib
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8924eedfbb635ca04aa167d7f6c44872fef496fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 71779bf864b4dbe86d90131808014d1d08815155
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422190"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565560"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Criar atributos de lote para um produto
 
@@ -29,7 +26,7 @@ ms.locfileid: "4422190"
 
 Este procedimento mostra como criar um atributo de lote, atribuir faixas padrões de valores, e incluir o atributo em um grupo. A empresa de dados demonstrativos utilizada para criar este procedimento é a empresa USP2.
 
-1. Vá para Gerenciamento de estoque > Configuração > Lote > Atributos de lote.
+1. Acesse Gerenciamento de estoque > Configuração > Lote > Atributos de lote.
 2. Clique em Novo.
 3. No campo Atributo, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -41,7 +38,7 @@ Este procedimento mostra como criar um atributo de lote, atribuir faixas padrõe
 9. No campo Destino, digite um valor.
 10. Clique em Salvar.
 11. Feche a página.
-12. Vá para Gerenciamento de estoque > Configuração > Lote > Grupos de atributos de lote.
+12. Acesse Gerenciamento de estoque > Configuração > Lote > Grupos de atributos de lote.
 13. Clique em Novo.
 14. No campo Grupo de atributos, digite um valor.
 15. No campo Descrição, digite um valor.
@@ -55,3 +52,6 @@ Este procedimento mostra como criar um atributo de lote, atribuir faixas padrõe
 22. Clique em Salvar.
 23. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

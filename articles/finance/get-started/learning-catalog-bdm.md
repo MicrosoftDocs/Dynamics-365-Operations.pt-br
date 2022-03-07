@@ -6,20 +6,18 @@ ms.date: 07/27/2020
 ms.topic: article
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6cf3cad973949a7aa7f0040ec37014380fa5dcdf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c5a7e6ece8b999e6bf04e143d3ec0a9ac7389d5f
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440502"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402487"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-finance"></a>Catálogo de aprendizagem para tomadores de decisões de negócios que consideram o Dynamics 365 Finance
 
@@ -29,16 +27,20 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 
 ## <a name="get-started"></a>Comece a usar<a name="get-started"></a>
 
-| Conteúdo   | descrição   | Formatar    | Extensão    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
-| [Conheça o valor do negócio do Microsoft Dynamics 365 e do Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Quer aprender mais sobre aplicativos de negócios?   Você sabe por onde começar a utilizar os aplicativos Microsoft Dynamics 365 e Power Platform? Saiba como o poder dos aplicativos de negócios pode ajudar a transformar seus negócios.                                                                                                                                                                                            | Caminho de aprendizado online, gratuito, baseado no seu ritmo                                            | 7 horas   |
-| [Conceitos básicos do Dynamics 365 e do Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)                                                  | Quer aprender mais sobre aplicativos de negócios?   Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365.                                                                                                                                                                                                              | Caminho de aprendizado online, gratuito, baseado no seu ritmo                                            | 5.5 horas |
-| [Introdução aos aplicativos Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)                                                       | Aprenda como os aplicativos do Finance and Operations oferecem suporte para que as empresas gerenciem sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e informadas.   Na primeira etapa de sua carreira trabalhando com os aplicativos do Finance and Operations, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada.                                    | Caminho de aprendizado online, gratuito, baseado no seu ritmo                                            | 2 horas   |
-| [Introdução ao Dynamics 365 Finance](https://docs.microsoft.com/learn/modules/get-started-financial-management-dyn365-finance/)                                       | O Dynamics 365 Finance permite que os usuários de negócios se adaptem a ambientes comerciais que mudam rapidamente. Fornece às empresas tudo que elas precisam para controlar as finanças e gerenciar fundos com informações precisas, a qualquer momento para fins de planejamento, e ajuda as empresas a ficarem atualizadas com ferramentas de análises. Como a parte financeira é a essência de qualquer negócio, é importante conhecer os recursos do Dynamics 365 Finance. | Módulo de aprendizado online, gratuito, baseado no seu ritmo                                          | 1 hora    |
-| [Curso MB-900T01-A: Conceitos básicos do Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)                                                                | Este curso apresentará ao aprendiz a funcionalidade e o valor de negócio do Dynamics 365. O curso abrangerá os aplicativos do Dynamics 365, o Power Platform, conceitos de nuvem, o modelo de segurança e considerações de licenciamento.                                                                                                                                                                                                      | Treinamento online ou presencial com instrutor; o preço varia de acordo com a região e o parceiro | 1 dia     |
+| Conteúdo | descrição | Formatar | Extensão |
+|---------|-------------|--------|--------|
+| [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Quer aprender mais sobre aplicativos de negócios? Talvez você não saiba onde começar com Microsoft Dynamics 365 e aplicativos do Power Platform? Saiba como o poder dos aplicativos comerciais pode ajudar a transformar seus negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 7 horas |
+| [Conceitos básicos do Dynamics 365 e do Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Quer aprender mais sobre aplicativos de negócios? Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5.5 horas |
+| [Introdução aos aplicativos do Finance and Operations](/learn/paths/get-started-finance-operations/) | Aprenda como os aplicativos do Finance and Operations oferecem suporte de negócios para gerenciar sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e informadas. Na primeira etapa de sua carreira trabalhando com os aplicativos do Finance and Operations, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
+| [Introdução ao Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | O Dynamics 365 Finance permite que os usuários de negócios se adaptem a ambientes comerciais que mudam rapidamente. Fornece às empresas tudo que elas precisam para controlar as finanças e gerenciar fundos com informações precisas, a qualquer momento para fins de planejamento, e ajuda as empresas a ficarem atualizadas com ferramentas analíticas. Como a parte financeira é a essência de qualquer negócio, é importante conhecer os recursos do Dynamics 365 Finance. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 1 hora |
+| [Comece com o gerenciamento de despesas no Dynamics 365 Project Operations](/learn/modules/get-started-expense-management/) | O módulo de gerenciamento de despesas no Dynamics 365 Project Operations permite que as organizações rastreiem e gerenciem despesas de funcionários. O gerenciamento de despesas permite armazenar informações de pagamento, importar transações de cartão de crédito e rastrear dinheiro gasto por funcionários quando incorrem em despesas para sua organização. Você também pode configurar políticas de despesas, automatizar aprovações e fornecer um processo comercial simplificado usando o Project Operations. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 1 hora |
+| [Introdução ao Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Com o Dynamics 365 Intelligent Order Management, os clientes podem gerenciar a orquestração das ordens até o atendimento. Essas funcionalidades permitem que as organizações orquestrem fluxos de ordens em diferentes plataformas e aplicativos. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 30 minutos |
+| [Curso MB-900T01-A: Conceitos básicos do Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Este curso apresentará ao aprendiz as funcionalidades e o valor comercial do Dynamics 365. Ele abrangerá os aplicativos do Dynamics 365, o Power Platform, conceitos de nuvem, o modelo de segurança e considerações de licenciamento. | Treinamento presencial ou online com instrutor. O preço varia de acordo com a região e o parceiro | 1 dia |
 
 ## <a name="exam"></a>Exame<a name="exam"></a>
 
-| Conteúdo   | descrição   | Formatar    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [Conceitos básicos do Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Prove que você conhece o Microsoft Dynamics 365: o Power Platform; conceitos de nuvem, opções de licenciamento; e opções de implantação e liberação. | Teste; o custo varia por região |
+| Conteúdo | descrição | Formatar |
+|---------|-------------|--------|
+| [Conceitos básicos do Dynamics 365](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Prove que você entende o Microsoft Dynamics 365; o Power Platform; conceitos de nuvem; opções de licenciamento; e opções de implantação e liberação. | O custo do teste varia de acordo com a região |
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

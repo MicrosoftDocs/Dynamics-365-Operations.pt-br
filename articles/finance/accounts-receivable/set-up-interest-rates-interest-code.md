@@ -2,28 +2,25 @@
 title: Configurar taxas de juros para um código de juros
 description: Os códigos de juros contêm configurações que determinam quando os juros são cobrados e como são calculados em contas vencidas.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 59402
 ms.assetid: 3b945333-1eaf-4658-ab5a-1a7791a7eb40
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3ca43503ecbe8e814958576e46ced10bfe9ad49
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09808433140f71bf2d7bfaaca87b6c27adb56d86c4c14ad44b37592d416fa2b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440250"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716708"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Configurar taxas de juros para um código de juros
 
@@ -47,10 +44,19 @@ Você pode configurar taxas de juros para calcular um percentual especificado.
 
 - O valor dos juros se aplica a todas as moedas.
 - Os limites do valor de juros opcional podem ser inseridos.
-- <strong>Porcentagem</strong> é selecionado** <strong>no campo **Calcular juros com base em</strong> na página <strong>Configurar Códigos de juros</strong>.
+- **Porcentagem** é selecionado no campo **Calcular juros com base em** na página **Configurar Códigos de juros**.
 
 Por exemplo, para configurar um código de juros que avalie 5% de juros para cada dois meses, se o pagamento da fatura exceder a data de vencimento da transação, digite 2 no campo **Calcular juros a cada** e selecione **Mês**.
 
+> [!NOTE] 
+> O novo algoritmo para o cálculo da nota de juros é adicionado usando o gerenciamento de Recursos. Para usar esse algoritmo, habilite o recurso **(GBL) Permitir calcular juros por dia como porcentagem anual dividida por 365**. Para obter mais informações sobre como habilitar os recursos, consulte [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> A fórmula para o cálculo do valor da nota de juros é: 
+>  
+> Valor da nota de juros = valor devido * juros anuais % / 365 * número de dias de atraso
+>  
+> Este recurso está disponível na versão 10.0.18 e posterior.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Taxas de juros baseadas em valores
 Você pode configurar taxas de juros que calculam um valor por moeda específico.
 - Um valor de juros é especificado para cada moeda no código de juros.
@@ -84,7 +90,6 @@ Configure as informações do intervalo conforme as informações a seguir.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Exemplo 2: Juros por intervalo = Dias
---------------------------------------------------
 
 Você configura um código de juros que avalia juros uma vez a cada 15 dias que o pagamento da fatura ultrapassar a data de vencimento da transação. Você deseja basear o cálculo de um valor dos juros em valor, de acordo com os intervalos de dia de nível. O valor dos juros será 10,00 para 15 dias durante os primeiros 60 dias, 15,00 para 15 dias durante os dias 61 a 90 e 20,00 para 15 dias do dia 91 e os dias seguintes. Configure os valores do campo código de juros como a seguir.
 
@@ -105,7 +110,6 @@ Configure as informações do intervalo conforme as informações a seguir.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Exemplo 3: Juros por intervalo = Meses
-----------------------------------------------------
 
 Você configura um código de juros que avalia juros uma vez a cada mês que o pagamento da fatura ultrapassar a data de vencimento da transação. Você deseja basear o cálculo de um valor dos juros em porcentagem, de acordo com o mês de nível dos intervalos. O valor dos juros será 1,5 por cento por mês para os três primeiros meses vencidos, 2,0 por cento por mês para os três meses seguintes, e 2,5 por cento por mês para cada mês além dos seis primeiros meses. Configure os valores do campo código de juros como a seguir.
 
@@ -131,3 +135,6 @@ Para exibir versões diferentes, você pode usar a opção de menu **A partir da
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

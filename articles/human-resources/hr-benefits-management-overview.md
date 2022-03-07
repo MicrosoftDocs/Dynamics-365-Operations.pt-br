@@ -2,15 +2,12 @@
 title: Visão geral do Gerenciamento de benefícios
 description: Visão geral do recurso de Gerenciamento de benefícios no Dynamics 365 Human Resources. Ofereça opções de benefícios estendidos aos seus funcionários com uma experiência online fácil de usar.
 author: andreabichsel
-manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b6ace2ce83c668e83ec1b433f8062148a6dfaf4
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417248"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059055"
 ---
 # <a name="benefits-management-overview"></a>Visão geral do Gerenciamento de benefícios
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Para permanecer em um mercado competitivo, é necessário oferecer um conjunto amplo de benefícios para atrair e reter os melhores funcionários. Além dos benefícios padrão, como plano de saúde e odontológico, ofereça serviços expandidos, como assistência à adoção, programas de recreação e auxílio-vestimenta. O Gerenciamento de benefícios do Microsoft Dynamics 365 Human Resources oferece uma solução flexível compatível com uma ampla variedade de opções de benefícios. O Human Resources também inclui uma experiência para funcionários fácil de usar e que mostra as ofertas.
 
@@ -40,6 +39,10 @@ Para permanecer em um mercado competitivo, é necessário oferecer um conjunto a
 - O processamento de eventos de vida útil é compatível com eventos de vida futuros.
 
 Se deseja acessar os dados de demonstração, será necessário implementar novamente o ambiente de área restrita.
+
+>[!NOTE]
+>Agora você pode personalizar formulários de gerenciamento de benefícios. Agora você pode adicionar campos personalizados relacionados a taxas de cobertura ao formulário **Opção cobertura** para planos de benefício. Para obter mais informações sobre como trabalhar com campos personalizados, consulte [Campos personalizados](hr-developer-custom-fields.md).
+>![Campos personalizados de gerenciamento de benefícios](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Habilitar o Gerenciamento de benefícios
 
@@ -97,3 +100,6 @@ Esses artigos mostram como criar planos de benefícios, incluindo pacotes e prog
 - [Processar qualificação para eventos de vida](hr-benefits-process-life-event-eligibility.md)
 - [Processar alterações de taxa](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,43 +1,40 @@
 ---
 title: Criar uma sequência de cartas de cobrança
-description: Use esta guia para criar uma tarefa de sequência de cartas de cobrança.
-author: mikefalkner
-manager: AnnBe
-ms.date: 07/22/2019
+description: Use este procedimento para criar uma sequência de cartas de cobrança.
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d8aa4963026ad55ed3dfccb28b6cc68a872f326
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440245"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921190"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Criar uma sequência de cartas de cobrança
 
 [!include [banner](../../includes/banner.md)]
 
-Use esta guia para criar uma tarefa de sequência de cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
+Use este procedimento para criar uma sequência de cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
 
-1. No Painel de navegação, vá para **Módulos > Crédito e coleções > Configuração > Configurar sequência de cartas de cobrança**.
+1. No Painel de navegação, Acesse **Módulos > Crédito e coleções > Configuração > Configurar sequência de cartas de cobrança**.
 2. Clique em **Novo**.
 3. No campo **Sequência de cartas de cobrança**, insira uma ID de sequência que representará a sequência. Será usada ao configurar um perfil de lançamento.
 4. No campo **Descrição**, digite um valor.  As condições de pagamento são opcionais. Se você inserir um valor aqui, a nota fiscal da taxa de carta de cobrança usará essas condições de pagamento em vez das condições de pagamento estocadas com o cliente.  
 5. No campo **Código da carta de cobrança**, selecione o código para a primeira carta de cobrança a ser enviada. A primeira carta de cobrança é criada de acordo com a data de vencimento na fatura, o valor inserido para o período de carência no campo Dias nessa linha e outras informações inseridas nessa linha.  
-6. No campo **Descrição**, digite um valor. A moeda da taxa padrão para a moeda do cliente. O código da moeda pode ser diferente da moeda da nota fiscal.  
-7. Clique em **Adicionar** para adicionar a próxima carta de cobrança que será enviada na sequência. Em muitos casos, a primeira carta de cobrança é apenas um aviso. Você pode adicionar taxas, se necessário.  
-8. No campo código da carta de cobrança, selecione o próximo código que será enviado na sequência.
-9. No campo **Descrição**, digite um valor.
+6. No campo **Descrição**, digite um valor. 
+7. A moeda padrão do valor é a moeda da entidade legal. O código da moeda pode ser diferente da moeda da nota fiscal.   
+8. Clique em **Adicionar** para adicionar a próxima carta de cobrança que será enviada na sequência. Em muitos casos, a primeira carta de cobrança é apenas um aviso. Você pode adicionar taxas, se necessário.  
+9. No campo **Código da carta de cobrança**, selecione a próxima carta de cobrança será enviada na sequência.
 10. No campo **Conta principal**, selecione a conta de receita que será usada para taxas.
 11. Digite a taxa que será carregada quando esta carta de cobrança é lançada.
 12. No campo **Grupo de impostos do item**, clique no botão suspenso para abrir a pesquisa. Selecione um grupo de impostos sobre vendas do item se o imposto sobre vendas deve ser calculado na taxa.  
@@ -59,3 +56,6 @@ Use esta guia para criar uma tarefa de sequência de cartas de cobrança. Esta t
 26. Expanda a Guia Rápida **Nota**.
 27. Digite o texto a ser exibido na carta de cobrança para o código de carta de cobrança selecionado. Você pode traduzir esse texto nos vários idiomas usando o menu das traduções acima da caixa da nota.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

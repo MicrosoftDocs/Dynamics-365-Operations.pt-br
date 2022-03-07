@@ -2,11 +2,9 @@
 title: Criar uma hierarquia de classificação de produto
 description: Este procedimento mostra como criar uma nova hierarquia de categoria e atribuir um tipo da hierarquia de código de mercadoria.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole, EcoResProductCategory, EcoResCategorySearchList, EcoResCategoryHierarchyFactbox, EcoResCategoryFriendlyName, EcoResCategoryAddProduct
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74be72ac5787273e13692abdb9db18be4c5ccc08
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d4e2fdc62d7faa73efa78092d7754d3fa1213a94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966946"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809365"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Criar uma hierarquia de classificação de produto
 
@@ -66,3 +64,6 @@ Este procedimento mostra como criar uma nova hierarquia de categoria e atribuir 
 8. Na lista, clique no link na linha selecionada.
 9. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

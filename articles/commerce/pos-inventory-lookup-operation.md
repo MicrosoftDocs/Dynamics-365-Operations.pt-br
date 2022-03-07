@@ -2,7 +2,7 @@
 title: Operação de consulta de inventário no POS
 description: Este tópico descreve como usar a operação de consulta de inventário no Dynamics 365 Commerce Ponto de vendas (POS) para visualizar a disponibilidade de inventário em mãos de produtos entre as lojas e armazéns.
 author: boycezhu
-ms.date: 08/12/2021
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b697583f2ebf9950ad805d4f415dafb2c891de8052d4a47563b048059475030f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745323"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Operação de consulta de inventário no POS
 
@@ -38,10 +38,10 @@ Quando a operação de consulta de inventário for iniciada no aplicativo de POS
 
 Para um produto individual, a operação de consulta de inventário fornece uma exibição em lista de consulta de inventário que mostra as seguintes informações de produto em diversos locais:
 
-- **Estoque** — se refere à quantidade "física disponível" de um produto.
-- **Reservado** — se refere à quantidade "física reservada" recuperada da matriz.
-- **Encomendado** — se refere à quantidade "total encomendada" recuperada da matriz.
-- **Unidade** — se refere à unidade de medida de estoque configurada na matriz.
+- **Inventário** - Refere-se à quantidade "física disponível" de um produto.
+- **Reservado** - Refere-se à quantidade "física reservada" recuperada da matriz.
+- **Encomendado** - Refere-se à quantidade "encomendada no total" recuperada da matriz.
+- **Unidade** - Refere-se à unidade de medida do inventário configurada na matriz.
 
 A exibição em lista de locais inclui todas as lojas e armazéns que são configuradas nos grupos de atendimento aos quais a loja atual é vinculada, conforme mostrado na seguinte imagem de exemplo.
 
@@ -52,26 +52,25 @@ A exibição em lista de locais inclui todas as lojas e armazéns que são confi
 
 As seguintes ações estão disponíveis na barra do aplicativo de POS:
 
-- **Classificar** — essa ação permite que o usuário do PDV classifique os dados na exibição de lista com base em vários critérios. A classificação baseada em local é a opção de classificação padrão.
-
-    - **Localização geográfica** (do local mais próximo ao mais distante, com base na distância até a loja atual)
-    - **Nome** (em ordem crescente ou decrescente)
-    - **Número da loja** (em ordem crescente ou decrescente)
-    - **Inventário** (em ordem decrescente)
-    - **Reservado** (em ordem decrescente)
-    - **Encomendado** (em ordem decrescente)
-
-- **Filtrar** — essa ação permite que o usuário do PDV exiba os dados filtrados para um local específico.
-- **Exibir disponibilidade da loja** — essa ação permite que o usuário do PDV exiba as quantidades de ATP (disponível para promessa) de um produto na loja selecionada.
-- **Exibir localização da loja** — essa ação abre uma página separada para mostrar a exibição de mapa, endereço e horário de funcionamento da loja selecionada.
-- **Retirar na loja** — essa ação cria um ordem do cliente para o produto que será retirado na loja selecionada e redireciona o usuário para a tela de transação.
-- **Enviar produto** — essa ação cria uma ordem do cliente para o produto que será enviado da loja selecionada e redireciona o usuário para a tela de transação.
-- **Exibir todas as variantes** — para um produto com variantes, essa ação muda de uma exibição de lista para uma exibição de matriz que exibe informações de estoque de todas as variantes do produto.
-- **Adicionar à transação** — essa ação adiciona o produto ao carrinho e redireciona o usuário para a tela de transação.
+- **Classificar** - Esta ação permite que o usuário do POS classifiquem os dados na exibição em lista com base em diversos critérios. A classificação baseada em local é a opção de classificação padrão. 
+  - **Localização geográfica** (do local mais próximo ao mais distante, em comparação com a loja atual)
+  - **Nome** (em ordem crescente ou decrescente)
+  - **Número da loja** (em ordem crescente ou decrescente)
+  - **Inventário** (em ordem decrescente)
+  - **Reservado** (em ordem decrescente)
+  - **Encomendado** (em ordem decrescente)
+- **Filtrar** - Esta ação permite que o usuário do POS visualize dados filtrados sobre um local específico.
+- **Exibir disponibilidade da loja** - Esta ação permite que o usuário do POS visualize as quantidades disponíveis para promessa (ATP) de um produto na loja selecionada.
+- **Exibir localização da loja** - Esta ação abre uma página separada para exibir a visualização no mapa, o endereço e o horário de funcionamento da loja selecionada.
+- **Retirar na loja** - Esta ação cria uma ordem do cliente para um produto que será retirado na loja selecionada e redireciona o usuário para a tela de transação.
+- **Enviar produto** - Esta ação cria uma ordem do cliente para um produto que será enviado da loja selecionada e redireciona o usuário para a tela de transação.
+- **Visualizar todas as variantes** - Para um produto com variantes, esta ação alterna a exibição em lista para uma exibição em matriz que exibe informações de inventário de todas as informações do produto.
+- **Adicionar à transação** - Esta ação adiciona o produto ao carrinho e redireciona o usuário para a tela de transação.
 
 > [!NOTE]
-> A classificação com base no local que foi introduzida na versão 10.0.17 do Commerce mostra a loja atual na parte superior. Para outras localizações, a distância entre a localização e a loja atual é determinada pelas coordenadas (latitude e longitude) que são definidas na matriz do Commerce. Para uma loja, as informações de localização são definidas no endereço principal da unidade operacional associada à loja. Para um armazém que não é loja, as informações de localização são definidas no endereço do armazém. Antes da versão 10.0.17, a exibição de lista sempre mostra a loja atual na parte superior e classifica outras localizações em ordem alfabética.
->
+> Para uma classificação baseada em localizadas, a distância entre uma localização e a loja atual é determinada pelas coordenadas (latitude e longitude) definidas na matriz do Commerce. Para uma loja, as informações de localização são definidas no endereço principal da unidade operacional associada à loja. Para um armazém que não é loja, as informações de localização são definidas no endereço do armazém. Se as coordenadas da loja atual não estiverem definidas, a opção de classificação baseada na localização exibirá a loja atual no topo da lista e, então, classificará outros locais por nome.
+
+> [!NOTE]
 > As ações **Exibir disponibilidade da loja**, **Exibir localização da loja**, **Retirar na loja** e **Enviar produto** não estão disponíveis para locais que não são lojas.
 
 ## <a name="inventory-lookup-matrix-view-for-variants"></a>Exibição em matriz de consulta de inventário para variantes
@@ -94,12 +93,12 @@ A ordem de exibição dos valores de dimensão na exibição em matriz é basead
 
 As seguintes ações estão disponíveis na célula da exibição em matriz:
 
-- **Vender agora** — essa ação adiciona a variante selecionada ao carrinho e redireciona o usuário para a tela de transação..
-- **Retirar na loja** — essa ação cria uma ordem do cliente para a variante selecionada que será retirada na loja selecionada e redireciona o usuário para a tela de transação.
-- **Enviar produto** — essa ação cria uma ordem do cliente para a variante selecionada que será enviada da loja selecionada e redireciona o usuário para a tela de transação.
-- **Disponibilidade** — essa ação leva o usuário a uma página separada que mostra as quantidades de ATP da variante selecionada na loja selecionada.
-- **Exibir todos os locais** — essa ação muda para a exibição de lista de disponibilidade de estoque padrão, mostrando as informações de estoque da variante selecionada.
-- **Exibir detalhes do produto** — essa ação redireciona o usuário para a PDP (página de detalhes do produto) da variante selecionada.
+- **Vender agora** - Esta ação adiciona a variante selecionada ao carrinho e redireciona o usuário para a tela de transação.
+- **Retirar na loja** - Esta ação cria uma ordem do cliente para a variante selecionada que será retirada na loja selecionada e redireciona o usuário para a tela de transação.
+- **Enviar produto** - Esta ação cria uma ordem do cliente para uma variante selecionada que será enviado da loja selecionada e redireciona o usuário para a tela de transação.
+- **Disponibilidade** - Esta ação leva o usuário a uma página separada exibindo as quantidades ATP da variante selecionada na loja selecionada.
+- **Exibir todos os locais** - Esta ação alterna para a exibição em lista da disponibilidade do inventário padrão exibindo as informações sobre a variante selecionada.
+- **Exibir detalhes do produto** - Esta ação redireciona o usuário para a página de detalhes do produto (PDP) da variante selecionada.
 
 ## <a name="access-inventory-lookup-from-other-pages-in-pos"></a>Acessar a consulta de inventário em outras páginas do POS
 
@@ -125,5 +124,7 @@ Na versão 10.0.09 do Commerce e anterior, o valor **físico disponível** na op
 [Configurações visuais da interface do usuário de PDV](pos-screen-layouts.md)
 
 [Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md)
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

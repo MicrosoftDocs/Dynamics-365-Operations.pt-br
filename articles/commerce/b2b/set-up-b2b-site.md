@@ -2,7 +2,7 @@
 title: Configurar um site de comércio eletrônico B2B
 description: Este tópico descreve como configurar um site de comércio eletrônico B2B no Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 12/03/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e46b04005b03a2a4c1ce50650a51ba4e02d85111
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983308"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270900"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Configurar um site de comércio eletrônico B2B
 
@@ -37,7 +37,7 @@ Sites de comércio eletrônico B2B (entre empresas) fornecem alguns recursos imp
 
 É possível acessar as configurações no nível do site no construtor de sites, em **Configurações do site \> Extensões**. As duas configurações no nível do site a seguir aplicam-se a cenários B2B:
 
-- **Habilitar pagamentos da conta de cliente** – Essa propriedade permite que os usuários paguem pelas ordens usando contas de cliente. Os valores disponíveis são **Habilitado para clientes B2B**, **Habilitado para clientes B2C**, **Habilitado para todos os clientes** e **Desabilitado para todos os clientes**. Se o site B2B oferecer suporte a contas de cliente, você deverá selecionar **Habilitado para clientes B2B**.
+- **Habilitar pagamentos da conta de cliente** – Essa propriedade permite que os usuários paguem pelas ordens usando contas de cliente. Os valores disponíveis são **Habilitado para clientes B2B**, **Habilitado para clientes B2C**, **Habilitado para todos os clientes** e **Desabilitado para todos os clientes**. Se o site B2B oferecer suporte a contas de cliente, você deverá selecionar **Habilitado para clientes B2C**.
 - **Habilitar limites de quantidade da ordem** – Essa propriedade permite definir limites no número de itens que podem ser pedidos para cada produto ou categoria. Os valores disponíveis são **Habilitado para clientes B2B**, **Habilitado para clientes B2C**, **Habilitado para todos os clientes** e **Desabilitado para todos os clientes**.
 
 > [!NOTE]
@@ -94,7 +94,7 @@ Para configurar a página de confirmação da solicitação no construtor de sit
 
 Para adicionar um link à página de confirmação da solicitação no construtor de sites, siga estas etapas.
 
-1. Acesse a página de **Solicitação de parceiro de negócios** que você criou anteriormente e selecione **Editar**. 
+1. Vá para a página de **Solicitação de parceiro de negócios** que você criou anteriormente e selecione **Editar**. 
 1. Selecione o slot do módulo de **Inscrição de parceiro**. No painel de propriedades, em **Vincular à página de confirmação de inscrição**, configure o link para a página de solicitação de parceiro de negócios criada anteriormente. 
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
@@ -104,7 +104,7 @@ Depois de as páginas de solicitação de inscrição e confirmação de parceir
 
 Para adicionar um link de solicitação de parceiro de negócios na página inicial do construtor de sites, siga estas etapas.
 
-1. Acesse a página inicial do seu site e selecione **Editar**.
+1. Vá para a página inicial do seu site e selecione **Editar**.
 1. Selecione um slot do módulo de **Bloco de conteúdo**. No painel de propriedades do módulo, em **Links**, configure um link para a página de solicitação de parceiro de negócios que você criou anteriormente e digite **Inscrever-se como parceiro de negócios** ou um texto semelhante como o texto do link. Adicione uma imagem conforme apropriado.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
@@ -176,7 +176,7 @@ Para criar uma página de saldo do cliente no construtor de sites, siga estas et
 1. No slot do **Contêiner**, adicione um módulo de **Saldo da conta do cliente**. No painel de propriedades do módulo, em **Título**, digite **Saldo da conta**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Publique o URL para a página.
-1. Acesse a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
+1. Vá para a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
 1. No painel Propriedades do módulo de **Bloco de saldo do cliente da conta**, adicione um link à página de saldo do cliente. 
 1. Salve e publique a página.
 
@@ -210,7 +210,7 @@ Para criar uma página de modelos de ordem no construtor de sites, siga estas et
 1. No slot **Contêiner**, adicione um módulo de **Lista de modelos de ordem**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Publique o URL para a página.
-1. Acesse a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
+1. Vá para a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
 1. No painel de propriedades do módulo de **Bloco de modelos de ordem de conta**, em **Links**, configure um link para a página de lista de modelos de ordem que você acabou de criar.
 1. Salve e publique a página.
 
@@ -244,7 +244,7 @@ Para criar uma página de usuários da organização no construtor de sites, sig
 1. No painel de propriedades do módulo de **Lista de organizações de negócios**, habilite as Propriedades **Classificação em tabela** e **Paginação em tabela**. Defina a contagem de paginação como **5**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Publique o URL para a página.
-1. Acesse a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
+1. Vá para a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
 1. No painel de propriedades do módulo de **Bloco de usuários da organização**, em **Links**, configure um link para a página de usuários da organização que você acabou de criar. 
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
@@ -266,7 +266,7 @@ Para criar uma página de lista de faturas no construtor de sites, siga estas et
 1. No slot **Contêiner**, adicione um módulo **InvoicesList**. No painel de propriedades do módulo, em **Título**, digite **Faturas**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Publique o URL para a página.
-1. Acesse a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
+1. Vá para a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
 1. No painel de propriedades do módulo de **Bloco de faturas da conta**, em **Links**, configure um link para a página de lista de faturas que você acabou de criar. 
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
@@ -289,14 +289,14 @@ O módulo de adição rápida oferece uma maneira de adicionar rapidamente vári
 
 Para adicionar um módulo de adição rápida a uma página de carrinho no construtor de sites do Commerce, siga estas etapas.
 
-1. Acesse **Modelos** e selecione o modelo da página de carrinho do seu site.
+1. Vá para **Modelos** e selecione o modelo da página de carrinho do seu site.
 1. Selecione **Editar**.
 1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Adição rápida** e depois **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Acesse **Páginas** e selecione a página de carrinho do seu site.
+1. Vá para **Páginas** e selecione a página de carrinho do seu site.
 1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. No painel de propriedades do módulo **Contêiner**, em **Largura**, selecione **Preencher Contêiner**.
@@ -306,30 +306,6 @@ Para adicionar um módulo de adição rápida a uma página de carrinho no const
 
 > [!NOTE] 
 > O módulo de adição rápida está disponível a partir do Commerce versão 10.0.17. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
-
-## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Adicionar um módulo de compra em massa a uma página de detalhes do produto
-
-O módulo de compra em massa em uma página de detalhes do produto (PDP) oferece uma experiência com base em matriz, que permite ao comprador adicionar rapidamente variantes de um produto ao carrinho. Quando um usuário do site precisa encomendar variantes do mesmo produto, essa experiência elimina a necessidade de selecionar a combinação de dimensões do produto, definir a quantidade, adicionar a variante ao carrinho e repetir o processo para outras combinações.
-
-Para adicionar o módulo de compra em massa a uma PDP no construtor de sites do Commerce, siga estas etapas.
-
-1. Acesse **Modelos** e selecione o modelo da PDP do seu site.
-1. Selecione **Editar**.
-1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
-1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Compra em massa** e, depois, **OK**.
-1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Acesse **Páginas** e selecione a PDP do seu site.
-1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
-1. No painel de propriedades do módulo **Contêiner**, em **Largura**, selecione **Preencher contêiner**.
-1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Compra em massa** e, depois, **OK**.
-1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
-
-> [!NOTE] 
-> O módulo de compra em massa está disponível a partir da versão 10.0.24 do Commerce. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

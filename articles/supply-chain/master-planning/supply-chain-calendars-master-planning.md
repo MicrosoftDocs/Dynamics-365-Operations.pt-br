@@ -1,28 +1,25 @@
 ---
 title: Calendários e planejamento mestre
 description: Este tópico fornece uma visão geral de calendários de cadeia de suprimentos e como afetam o planejamento mestre.
-author: t-benebo
-manager: tfehr
+author: ChristianRytt
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422206"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568606"
 ---
 # <a name="calendars-and-master-planning"></a>Calendários e planejamento mestre
 
@@ -46,17 +43,17 @@ Para todas as datas fechadas, a caixa de seleção **Fechado para retirada** ser
 ### <a name="calendar-for-a-coverage-group"></a>Calendário para um grupo de cobertura
 Um grupo de cobertura indica um conjunto comum de parâmetros usados para o reabastecimento de itens pertencentes ao grupo de cobertura determinado. 
 
-Para adicionar um calendário a um grupo de cobertura, vá para **Planejamento mestre > Configuração > Cobertura > Grupos de cobertura**. Encontre o grupo de cobertura a que deseja atribuir o calendário e o selecione no campo **Calendário** .
+Para adicionar um calendário a um grupo de cobertura, Acesse **Planejamento mestre > Configuração > Cobertura > Grupos de cobertura**. Encontre o grupo de cobertura a que deseja atribuir o calendário e o selecione no campo **Calendário** .
 
 O grupo de cobertura pode ser atribuído em páginas diferentes: 
-    - Na página **Detalhes do produto liberado** de um item. Para ver o grupo de cobertura de um item, vá para **Gerenciamento de informações do produto > Produtos > Produtos liberados** e selecione o item para ir para a página **Detalhes de produtos liberados**. Você pode ver o grupo de cobertura de item na FasTab **Plano**.
+    - Na página **Detalhes do produto liberado** de um item. Para ver o grupo de cobertura de um item, Acesse **Gerenciamento de informações do produto > Produtos > Produtos liberados** e selecione o item para ir para a página **Detalhes de produtos liberados**. Você pode ver o grupo de cobertura de item na FasTab **Plano**.
     - Na página **Cobertura de item**. Na página de detalhes de produtos lançados, clique em **Cobertura de item** para ir para a respectiva página. Na guia visão geral é possível ver diferentes parâmetros para o reabastecimento dependendo de site, depósito e dimensões do produto. O grupo de cobertura para cada item será herdado do grupo de cobertura na página **Detalhes do produto liberado** . Isso pode ser substituído usando **Use configurações específicas** ou **Substituir a configuração de grupo** na guia **Geral** .
     - Na página **Parâmetros de planejamento mestre**. Se um item não tiver um grupo de cobertura definido nas páginas anteriores, o planejamento mestre assumirá a definição geral do grupo de cobertura nos parâmetros de planejamento mestre. Isso é configurado em **Planejamento mestre > Configuração > Parâmetros de planejamento mestre** no campo **Grupo de cobertura geral** . 
 
 ### <a name="calendar-for-a-vendor"></a>Calendário para um fornecedor
 Para indicar os dias úteis de um fornecedor, você pode atribuir um calendário de compra ao fornecedor na página **Padrões de ordem de compra** para um fornecedor. 
 
-Para definir um calendário para um fornecedor, você deve criar o calendário em **Administração da organização > Calendários > Calendários**. Quando o calendário é criado, você precisa atribuí-lo ao fornecedor. Vá para **Contas a pagar > Fornecedores > Todos os fornecedores** e selecione o fornecedor para o qual deseja atribuir o calendário. Em seguida, na página do fornecedor na FastTab **Padrões da ordem de compra** atribua o novo calendário de compra usando o menu suspenso. 
+Para definir um calendário para um fornecedor, você deve criar o calendário em **Administração da organização > Calendários > Calendários**. Quando o calendário é criado, você precisa atribuí-lo ao fornecedor. Acesse **Contas a pagar > Fornecedores > Todos os fornecedores** e selecione o fornecedor para o qual deseja atribuir o calendário. Em seguida, na página do fornecedor na FastTab **Padrões da ordem de compra** atribua o novo calendário de compra usando o menu suspenso. 
 
 O calendário de um fornecedor indica os dias em que ele aceita a apresentação de uma ordem de compra e as datas nas quais ele pode entregar ordens a sua empresa. Portanto, as datas de ordem para ordens de compra do fornecedor com um calendário de compra serão datas definidas como abertas no calendário. As datas de entrega para essas ordens também serão em dias abertos e, portanto, afetarão o prazo de entrega do item comprado. 
 
@@ -70,7 +67,7 @@ Assim, na maioria dos casos não é recomendado selecionar dias úteis para os p
 
 #### <a name="define-lead-times-from-the-trade-agreements-page"></a>Defina os prazos de entrega na página de contratos comerciais
 
-O planejamento mestre pode ser configurado para incluir todos os contratos comerciais de fornecedores. Os contratos comerciais são preços fixos ou descontos acordados que são definidos para um ou mais clientes ou fornecedores para a venda ou a compra de produtos individuais ou de vários produtos. Vá para **Planejamento mestre > Configuração > Parâmetros de planejamento mestre** e, na guia **Ordens Planejadas**, selecione **Localizar contratos comerciais** para incluir os contratos comerciais durante o planejamento. O planejamento mestre pode selecionar o fornecedor com o **Prazo de entrega mínimo** ou com o **Menor preço unitário**.
+O planejamento mestre pode ser configurado para incluir todos os contratos comerciais de fornecedores. Os contratos comerciais são preços fixos ou descontos acordados que são definidos para um ou mais clientes ou fornecedores para a venda ou a compra de produtos individuais ou de vários produtos. Acesse **Planejamento mestre > Configuração > Parâmetros de planejamento mestre** e, na guia **Ordens Planejadas**, selecione **Localizar contratos comerciais** para incluir os contratos comerciais durante o planejamento. O planejamento mestre pode selecionar o fornecedor com o **Prazo de entrega mínimo** ou com o **Menor preço unitário**.
 
 ### <a name="calendar-for-a-warehouse"></a>Calendário para um depósito
 Você pode atribuir um calendário a um depósito para indicar as datas abertas para remessa e recebimento. Se nenhum calendário foi atribuído a um depósito, pressupõe-se que está aberto todos os dias. 
@@ -93,7 +90,7 @@ Para indicar as datas quando um cliente poderá aceitar entregas, você pode atr
 
 Observe que só é possível incluir um calendário por cliente. Caso precise incluir um calendário para cada endereço diferente de um cliente, você pode criar um cliente por endereço e depois atribuir seu respectivo calendário. 
 
-A data de recebimento solicitada nas linhas da ordem de venda é afetada pelo calendário do cliente e pelo método de controle de data de entrega. Você pode ler mais sobre como a primeira data de entrega é calculada em [Promessa de ordem.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+A data de recebimento solicitada nas linhas da ordem de venda é afetada pelo calendário do cliente e pelo método de controle de data de entrega. Você pode ler mais sobre como a primeira data de entrega é calculada em [Promessa de ordem.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Calendário de remessa para uma entidade legal
 Para indicar as datas em que uma entidade legal pode fazer remessa de mercadorias, você pode definir um calendário de remessa em **Administração da organização > Organizações > Entidades legais**. Selecione a entidade legal e adicione o calendário na guia **Comércio exterior e logística** no campo **Calendário de remessa**. O calendário de remessa atua como uma fonte de padrões para todos os calendários de depósito na entidade legal. 
@@ -143,3 +140,6 @@ Em relação ao calendário do grupo de cobertura, é importante lembrar que ele
 
 ### <a name="updating-scm-related-calendars"></a>Atualizando os calendários de SCM relacionados
 Embora seja importante que os calendários relevantes sejam atribuídos em seus locais respectivos (fornecedor, cliente, modo de entrega ou grupo de cobertura), atualizá-los também é importante para que reflitam as alterações. O sistema definirá as datas das ordens de produção, transferência, compra e venda dependendo da combinação dos calendários atribuídos. É uma prática recomendada esclarecer quem é responsável por atribuir e atualizar os calendários nas áreas correspondentes. No caso de uma eventualidade ou qualquer outra mudança incomum em dias úteis, é essencial atualizar os calendários adequadamente. Todas as tarefas que dependem de calendários, como planejamento mestre e planos de produção, devem ser executadas novamente quando os calendários são atualizados. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

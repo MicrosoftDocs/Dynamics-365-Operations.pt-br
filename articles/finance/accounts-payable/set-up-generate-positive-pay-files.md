@@ -2,28 +2,25 @@
 title: Configurar e gerar arquivos de pagamento positivo
 description: Este tópico explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 82f7c8947bcc2dab394ea24e28a3631cc8682e5a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 992c73b1ba1f461542873a7df97f1539b99fc015c3e6ef090993e90212993851
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737176"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Configurar e gerar arquivos de pagamento positivo
 
@@ -142,6 +139,9 @@ Os arquivos de pagamento positivo são criados usando entidades de dados. Antes 
 </xsl:stylesheet>
 ```
 
+> [!NOTE]
+> Os nomes em XML no XSLT devem corresponder à capitalização dos nós no XML. Os arquivos XSLT e XML diferenciam maiúsculas e minúsculas. 
+
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Atribuir o formato de pagamento positivo a uma conta bancária
 Para cada conta bancária que você deseja gerar as informações de pagamento positivo, é necessário atribuir o formato de pagamento positivo que foi especificado na seção anterior. Na página **Contas bancárias**, selecione o formato de pagamento positivo que corresponda à conta bancária. No campo **Data inicial do pagamento positivo**, insira a primeira data para gerar os arquivos de pagamento positivo. É importante que você insira uma data nesse campo. Caso contrário, o primeiro arquivo de pagamento positivo gerado incluirá todos os cheques já criados para essa conta bancária.
 
@@ -165,3 +165,6 @@ Se você tiver de alterar um arquivo de pagamento positivo, poderá cancelá-lo.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

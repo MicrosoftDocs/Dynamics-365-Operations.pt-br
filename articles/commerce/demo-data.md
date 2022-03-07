@@ -2,16 +2,13 @@
 title: Layouts de tela de dados de demonstração no Modern POS (MPOS) e no PDV em Nuvem
 description: Este tópico fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
-ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
+ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "4410345"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761653"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Layouts de tela de dados de demonstração no Modern POS (MPOS) e no PDV em Nuvem
 
@@ -36,13 +33,13 @@ Este tópico fornece informações sobre os layouts de tela que são incluídos 
 
 Os layouts de tela de exemplo incluídos nos dados de demonstração do Commerce fornecem conteúdo que é otimizado para vários segmentos de varejo, funções de trabalho de lojas e dispositivos. Um único layout pode conter vários tamanhos de layout e combinações de grades de botões, para garantir a cobertura à medida que trabalhadores de lojas se movem entre estações e dispositivos. Este tópico destaca as diferenças entre os layouts, as operações oferecidas e as experiências em geral que eles propiciam.
 
-![Layouts de dados de demonstração entre dispositivos](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Layouts de dados de demonstração entre dispositivos.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomia da ID do layout de uma tela
 
-Para encontrar layouts de tela, vá para **Varejo e Comércio** \> **Configuração de canal** \> **Configuração do PDV** \> **PDV** \> **Layouts de tela**.
+Para encontrar layouts de tela, Acesse **Varejo e Comércio** \> **Configuração de canal** \> **Configuração do PDV** \> **PDV** \> **Layouts de tela**.
 
-![Página de layouts de tela](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Página de layouts de tela.](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 As IDs do layout de tela podem ter no máximo 10 caracteres. A ID é uma cadeia de caracteres que consiste em três informações, nesta ordem:
 
@@ -55,8 +52,8 @@ As IDs do layout de tela podem ter no máximo 10 caracteres. A ID é uma cadeia 
 | Carta | Empresa         |
 |--------|-----------------|
 | A      | Adventure Works |
-| F      | Fabrikam        |
-| C      | Contoso         |
+| S      | Fabrikam        |
+| E      | Contoso         |
 
 ### <a name="layout-version"></a>Versão do layout
 
@@ -82,7 +79,7 @@ F4MGR
 
 A ilustração a seguir mostra um exemplo da tela de boas-vindas de um gerente de loja da Fabrikam.
 
-![Tela de boas-vindas do gerente de loja da Fabrikam](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Tela de boas-vindas do gerente de loja da Fabrikam.](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Tamanhos de layout
 
@@ -111,7 +108,7 @@ A tabela a seguir mostra os tamanhos de layout fornecidos para resoluções de t
 > [!TIP]
 > O PDV seleciona automaticamente tamanhos do layout, com base no próximo tamanho disponível para resolução de tela da janela do aplicativo atual. Para localizar a ID do layout da tela e a resolução de layout que estão sendo usadas no momento, no Modern POS (MPOS) ou no Retail Cloud POS (CPOS), abra a página **Configurações** e verifique a seção **Informações da sessão**. Você também pode consultar a resolução da janela real no quadro do aplicativo ou navegador atual. Quando tiver essas informações, você poderá localizar a fonte do conteúdo do layout, acessando **Configuração de canal** \> **Configuração do PDV** \> **PDV** \> **Layouts da tela**.
 
-![Layouts da tela e resoluções/tamanhos de layout no Commerce e no PDV](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Layouts da tela e resoluções/tamanhos de layout no Commerce e no PDV.](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Empresas e marcas
 
@@ -132,19 +129,19 @@ As ilustrações a seguir mostram exemplos da página de boas-vindas e da págin
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Página de boas-vindas de dados de demonstração para a Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Página de boas-vindas de dados de demonstração para a Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Página de transação de dados de demonstração para a Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Página de transação de dados de demonstração para a Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Página de boas-vindas de dados de demonstração para a Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Página de boas-vindas de dados de demonstração para a Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Página de transação de dados de demonstração para a Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Página de transação de dados de demonstração para a Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Layouts de dados de demonstração da Contoso](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Layouts de dados de demonstração da Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Entrada do usuário na matriz
 
@@ -171,8 +168,11 @@ Os usuários receberam os vários layouts de tela. Usando esta tabela, você dev
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

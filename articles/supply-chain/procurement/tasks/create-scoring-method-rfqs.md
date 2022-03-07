@@ -1,26 +1,24 @@
 ---
 title: Criar um método de avaliação para RFQs
 description: Este procedimento mostra como criar um método de avaliação.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQScoringMethod
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 738768a6756db83a6855756ef48fffb4a5874b4a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 2b098975f5557e9b99e7a951c0f8035bbaea5210
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021370"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812077"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Criar um método de avaliação para RFQs
 
@@ -46,3 +44,6 @@ Este procedimento mostra como criar um método de avaliação. Um método de ava
 14. No campo Variar de, insira um número.
 15. No campo Variar a, insira um número.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

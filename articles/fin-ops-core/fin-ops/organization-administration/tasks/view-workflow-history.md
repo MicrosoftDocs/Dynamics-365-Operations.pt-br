@@ -2,11 +2,9 @@
 title: Exibir histórico do fluxo de trabalho
 description: Este tópico descreve as etapas para exibir o status de um documento que foi enviado ao sistema de fluxo de trabalho para processamento e aprovação.
 author: jasongre
-manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
@@ -15,20 +13,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 325478ed89b9c650899001dd08d1c98550fce520
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798971"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069950"
 ---
 # <a name="view-workflow-history"></a>Exibir histórico do fluxo de trabalho
 
 [!include [banner](../../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
+
 Este tópico descreve as etapas para exibir o status de um documento que foi enviado ao sistema de fluxo de trabalho para processamento e aprovação. A empresa de dados demo usada para criar este procedimento é USMF.
 
-1. Vá para **Painel de navegação > Módulos > Comum > Consultas > Fluxo de trabalho > Histórico de fluxo de trabalho**.
+1. Acesse **Painel de navegação > Módulos > Comum > Consultas > Fluxo de trabalho > Histórico de fluxo de trabalho**.
     - Use este formulário para exibir o status de um documento que foi enviado ao sistema de fluxo de trabalho para processamento e aprovação.  
     - A **ID da instância** é o código de identificação da instância do fluxo de trabalho que está processando ou que processou o documento.  
     - O **Status** é o status do fluxo de trabalho do documento.  
@@ -46,3 +47,6 @@ Este tópico descreve as etapas para exibir o status de um documento que foi env
     - O botão **Reatribuir** abre uma caixa de diálogo na qual é possível reatribuir um item de trabalho a outro usuário.  
     - Certifique-se de que a seção **Detalhes do rastreamento** está expandida. Nesta seção você pode exibir o histórico de fluxo de trabalho do documento selecionado.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Criar e lançar uma nota fiscal complementar de compra (Brasil)
 description: Use este procedimento para criar uma nota fiscal complementar de compra para ajustar uma nota fiscal de compra que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7070e79eba834cc8cd6a3c156a1ef5918f09afe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7e8dde46338175360e6b3cac3a0014d0d12a737f1a137fb9121ee545e0b5b7a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779345"
 ---
 # <a name="create-and-post-a-purchase-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de compra (Brasil)
 
@@ -28,7 +25,7 @@ ms.locfileid: "4408487"
 
 Use este procedimento para criar uma nota fiscal complementar de compra para ajustar uma nota fiscal de compra que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços). Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Contas a pagar > Notas fiscais > Todas as notas fiscais.
+1. Acesse Contas a pagar > Notas fiscais > Todas as notas fiscais.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Clique em Nota fiscal complementar.
@@ -46,3 +43,6 @@ Use este procedimento para criar uma nota fiscal complementar de compra para aju
 14. Feche a página.
 15. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

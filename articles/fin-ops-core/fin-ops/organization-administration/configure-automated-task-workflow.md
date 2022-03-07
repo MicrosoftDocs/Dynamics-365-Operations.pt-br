@@ -2,11 +2,9 @@
 title: Configurar tarefas automatizadas em um fluxo de trabalho
 description: Este tópico explica como configurar as propriedades de uma tarefa automatizada.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 003a5d2332aaf12ee7e9352ecb61ef190c04a41f
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 4f02b128036ebc0bd8789ecafd1e72e26fe31436
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798896"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747946"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>Configurar tarefas automatizadas em um fluxo de trabalho
 
@@ -110,3 +108,6 @@ Siga estas etapas para inserir um nome para a tarefa automatizada.
     </table>
 
 8. Repita as etapas de 3 a 7 para cada evento selecionado na etapa 2.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Estágios de ordem de serviço
 description: Definindo fases de uma ordem de serviço e as atribuindo aos trabalhadores, você controla o fluxo de uma ordem de serviço por meio de tarefas que várias pessoas executam na organização de serviço.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAStageTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52bcb72e8222b378198fcd044428fa1a4a0e8944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a43cbe0cf5993a305ff500f34f0da5d3763084c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421867"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576319"
 ---
 # <a name="service-order-stages"></a>Estágios de ordem de serviço   
 
@@ -47,3 +44,6 @@ Ao configurar uma fase de serviço, você poderá criar várias opções ou rami
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

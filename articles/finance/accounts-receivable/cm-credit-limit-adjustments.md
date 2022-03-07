@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d55a7c5e24213f70a1b71f89691f0e5be8c36f10
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31d83e2083806a518928dc2079c31fab6f95872c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440318"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254503"
 ---
 # <a name="credit-limit-adjustments"></a>Ajustes do limite de crédito 
 
@@ -124,3 +123,6 @@ Os fluxos de trabalho **Ajustes de limite de crédito** podem ser usados para en
 
 > [!NOTE]
 > Ao criar o fluxo de trabalho **Ajustes de limite de crédito**, você pode configurá-lo para que os ajustes sejam lançados automaticamente depois que as linhas forem aprovadas. Basta incluir a tarefa **Lançar Diário automaticamente** no fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

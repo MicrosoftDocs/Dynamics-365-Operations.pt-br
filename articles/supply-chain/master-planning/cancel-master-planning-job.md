@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace, ReqProcessList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6f5ce460cc2915d1d4d9b5699723a62ed7f94599
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d5dad766f4c01e993dd77dd762595b29208c6cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422432"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264737"
 ---
 # <a name="cancel-a-master-planning-job"></a>Cancelar um trabalho mestre de planejamento
 
@@ -53,3 +52,6 @@ Eles devem ser usados somente se o cancelamento do trabalho de planejamento mest
 4. Em **Tarefas em lotes**, selecione as tarefas a serem encerradas.
 5. Clique em **Alterar status**, escolha **Cancelar** e clique em **OK**.
 6. Na Guia Rápida **Tarefas em lotes** clique em **Anular**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

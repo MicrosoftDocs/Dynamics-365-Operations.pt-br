@@ -2,11 +2,9 @@
 title: Testes independentes de dados usando a Regression Suite Automation Tool
 description: Este tópico discute as recomendações para testes independentes de dados usando a Regression Suite Automation Tool.
 author: kfend
-manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e4795d11ac370003e48dc845c86ec8a5ba22aa86
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798190"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348646"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Testes independentes de dados usando a Regression Suite Automation Tool
 
@@ -32,7 +30,7 @@ Embora a validação funcional de um aplicativo ERP não possa ser totalmente in
 - Estrutura ATL
 - RSAT (Regression Suite Automation Tool)
 
-[![Pirâmide de classificação de teste](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Pirâmide de classificação de teste.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Visão Geral
 -   **Estrutura SysTest** – A estrutura SysTest é confiável para gravação de testes de unidade. Como os testes de unidade geralmente testam um método ou uma função, eles sempre devem ser independentes de dados e dependentes apenas dos dados de entrada que são fornecidos como parte do teste.
@@ -44,8 +42,11 @@ Embora a validação funcional de um aplicativo ERP não possa ser totalmente in
     - o Informe os identificadores exclusivos, como números de fatura, por sequência numérica ou usando as funções do Microsoft Excel, como =TEXT(NOW(),"yyyymmddhhmm"). Essa função fornecerá um número exclusivo a cada minuto, o que permite rastrear quando a ação aconteceu. Isso pode ser usado para variáveis, como números de recebimento de produto e números de fatura do fornecedor. Esses testes continuam trabalhando no mesmo banco de dados repetidas vezes, sem exigir qualquer restauração.
     - Sempre defina o **Modo de edição** do ambiente para **Leitura** ou **Edição** como o primeiro caso de teste, pois a opção padrão é **Automático**. As opções **Automático** sempre usam a configuração anterior e podem gerar testes não confiáveis. 
  
-    [![Página Opções, guia Desempenho](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Página Opções, guia Desempenho.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Valide apenas depois que você filtrar por uma determinada transação, e não por validação genérica. Por exemplo, para o número de registros, filtre pelo número da transação ou pela data da transação para que a validação exclua todas as outras transações. 
     - Se você estiver verificando o saldo ou controle orçamentário de um cliente, salve o valor primeiro e, em seguida, adicione o valor de transação para validar o resultado esperado em vez de validar um valor fixo esperado. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

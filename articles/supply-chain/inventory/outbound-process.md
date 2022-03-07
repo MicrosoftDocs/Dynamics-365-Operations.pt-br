@@ -1,30 +1,29 @@
 ---
 title: Visão geral do processo de saída
 description: Este tópico fornece uma visão geral do processo de saída no gerenciamento de estoque.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: db1a6887e7742700dd3451c9a877b948b5ab691b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27043828b44cf532d0d8d5091324ba30f3f90cf8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422211"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578503"
 ---
 # <a name="outbound-process-overview"></a>Visão geral do processo de saída
 
@@ -46,33 +45,33 @@ Você pode configurar regras de saída para definir como o programa deve tratar 
 
 ## <a name="picking-route-status-for-sales-and-transfer-orders"></a>Seleção do status do roteiro para vendas e ordens de transferência 
 
-Vá para **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber** e, em seguida, na guia **Atualizações**, selecione um valor no campo **Status do roteiro de separação**.
+Acesse **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber** e, em seguida, na guia **Atualizações**, selecione um valor no campo **Status do roteiro de separação**.
 
-[![Seleção do campo de status de roteiro para ordens de venda](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
+[![Seleção do campo de status de roteiro para ordens de venda.](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
 
 Se o campo **Status do roteiro de separação** for definido como **Concluído**, o processo de separação ocorre automaticamente como parte do processo de geração das listas de separação. Se o campo for definido como **Ativado**, as linhas da lista de separação devem ser atualizadas manualmente.
 
-A mesma configuração se aplica a ordens de transferência. Vá para **Gerenciamento de estoque** \> **Configuração** \> **Parâmetros de gerenciamento de estoque e depósito** e, em seguida, na guia **Transporte**, selecione um valor no campo **Status do roteiro de separação**.
+A mesma configuração se aplica a ordens de transferência. Acesse **Gerenciamento de estoque** \> **Configuração** \> **Parâmetros de gerenciamento de estoque e depósito** e, em seguida, na guia **Transporte**, selecione um valor no campo **Status do roteiro de separação**.
 
-[![Seleção do campo de status de roteiro para ordens de transferência](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
+[![Seleção do campo de status de roteiro para ordens de transferência.](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
 
 ## <a name="end-output-inventory-orders"></a>Finalizar ordens de estoque de saída
 
-Vá para **Gerenciamento de estoque** \> **Configuração** \> **Parâmetros de gerenciamento de estoque e depósito** e na guia **Geral**, defina a opção **Finalizar ordem de estoque de saída**.
+Acesse **Gerenciamento de estoque** \> **Configuração** \> **Parâmetros de gerenciamento de estoque e depósito** e na guia **Geral**, defina a opção **Finalizar ordem de estoque de saída**.
 
-[![Opção Finalizar ordem de estoque de saída](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
+[![Opção Finalizar ordem de estoque de saída.](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
 Quando o trabalhador de depósito reduz as quantidades da lista de separação, as quantidades correspondentes da ordem de estoque são removidas de remessa. Quando a lista de separação for atualizada em dado momento, as quantidades restantes serão relatadas na ordem se a opção **Finalizar ordem de estoque de saída** estiver definida como **Sim**. Se a opção **Finalizar ordem de estoque de saída** estiver definida como **Não**, os valores restantes serão mantidos como uma quantidade de ordem de saída aberta e deverão ser adicionados a uma nova lista de separação como parte da funcionalidade **Abrir ordens de saída**. 
 
-[![Comando Abrir ordens de saída no menu Funções](./media/open-output-order.png)](./media/open-output-order.png)
+[![Comando Abrir ordens de saída no menu Funções.](./media/open-output-order.png)](./media/open-output-order.png)
 
-[![Menu de funções na página Abrir ordens de saída](./media/open-output-order-function.png)](./media/open-output-order-function.png)
+[![Menu de funções na página Abrir ordens de saída.](./media/open-output-order-function.png)](./media/open-output-order-function.png)
 
 ## <a name="reduce-quantity"></a>Reduzir quantidade
 
 O terceiro parâmetro que você pode usar como parte do processo de geração de listas de separação no parâmetro **Reduzir quantidade**. A configuração deste parâmetro trabalha junto com a configuração **Reserva** que aciona um processo de reserva como parte da liberação ao depósito.
 
-[![Parâmetro Reduzir quantidade](./media/reduce-quantity.png)](./media/reduce-quantity.png)
+[![Parâmetro Reduzir quantidade.](./media/reduce-quantity.png)](./media/reduce-quantity.png)
 
 ## <a name="example-of-an-outbound-process-for-a-sales-order"></a>Exemplo de um processo de saída para uma ordem de venda
 
@@ -80,8 +79,11 @@ Por exemplo, há uma ordem de venda para dois itens. Durante a geração de list
 
 O estoque que ainda não foi reservado é reservado durante a geração da lista de separação. O estoque indisponível pode ser removido da ordem de venda ou liberado para o depósito para processamento de saída posteriormente, quando o estoque estiver disponível para separação.
 
-[![Atualizar a lista de separação](./media/update-picking-list.png)](./media/update-picking-list.png)
+[![Atualizar a lista de separação.](./media/update-picking-list.png)](./media/update-picking-list.png)
 
 Assim que todas as linhas de separação forem separadas na página **Registro de lista de separação**, a remessa associada será concluída. O processo para guias de remessa de ordem de venda pode ser inicializado com base em estoque separado.
 
-[![Atualizar remessas de saída](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+[![Atualizar remessas de saída.](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

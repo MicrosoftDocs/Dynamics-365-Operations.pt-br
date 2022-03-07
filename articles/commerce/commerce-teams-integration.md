@@ -3,22 +3,23 @@ title: Visão geral da integração do Dynamics 365 Commerce e do Microsoft Team
 description: Este tópico apresenta uma visão geral da integração do Microsoft Dynamics 365 Commerce e do Microsoft Teams.
 author: gvrmohanreddy
 ms.date: 03/31/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 39de59d182fd6f4cb1616a47a09b44cd249f2187
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984186"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352629"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Visão geral da integração do Dynamics 365 Commerce e do Microsoft Teams
 
@@ -42,7 +43,7 @@ Estes são alguns dos recursos principais que a integração do Commerce e do Mi
 
 Os pré-requisitos a seguir devem estar disponíveis para que você possa começar a usar os recursos de integração do Microsoft Teams:
 
-- Licença do Microsoft 365 Business Standard (essa licença inclui o Teams).
+- Licença padrão comercial da Microsoft 365 (esta licença inclui o Teams.)
 - Contas do Azure Active Directory( Azure AD) para todos os gerentes e trabalhadores de armazenamento
 - Sistemas de ponto de venda (PDV) configurados com a autenticação do Azure AD
 

@@ -1,34 +1,31 @@
 ---
 title: Identificadores do produto
 description: Este tópico fornece informações sobre os vários tipos de identificadores de produtos e explica como adicioná-los aos dados de produtos.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529177"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063332"
 ---
 # <a name="product-identifiers"></a>Identificadores do produto
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [!include [banner](../includes/banner.md)]
 
@@ -42,9 +39,9 @@ No Dynamics 365 Supply Chain Management, o principal identificador de um produto
 
 Em muitos casos, o número do produto não é criado originalmente no Dynamics 365 Supply Chain Management. Em vez disso, é associado a um produto em um sistema de gerenciamento do ciclo de vida do produto (PLM) ou em um sistema de gerenciamento de dados do produto (PDM). Nesse caso, você usa entidades de dados para importar os produtos e as grades de produtos. O Supply Chain Management depois usa os números em todas as operações.
 
-Ao implementar o Supply Chain Management, você deve dar atenção especial à sua estratégia de números de produto. Um bom sistema de numeração melhora os fluxos de logística e ajuda a evitar erros. Um bom identificador de produto tem no máximo 15 caracteres. O ideal é que tenha menos de 10 caracteres e que não inclua mais do que cinco caracteres de classificação. Você também pode usar nomes de pesquisa para habilitar pesquisas rápidas. Um nome de pesquisa é um nome adicional que representa as classificações de um produto.
+Ao implementar o Supply Chain Management, você deve dar atenção especial à sua estratégia de números de produto. Um bom sistema de numeração melhora os fluxos de logística e ajuda a evitar erros. Uma boa identificação do produto geralmente deve ter 20 caracteres ou menos, mas geralmente é recomendável usar menos de 10 caracteres e incluir, no máximo, 5 caracteres de classificação. Você também pode usar nomes de pesquisa para habilitar pesquisas rápidas. Um nome de pesquisa é um nome extra que representa as classificações de um produto.
 
-Quando usar o Common Data Service, o número do produto no Supply Chain Management também será o número do produto no Common Data Service. As grades de produtos são sincronizadas no Common Data Service como produtos distintos.
+Ao usar o Microsoft Dataverse, o número do produto no Supply Chain Management também será o número do produto no Microsoft Dataverse. As grades de produtos são sincronizadas com o Dataverse como produtos distintos.
 
 ## <a name="item-number-and-product-dimensions"></a>Número do item e dimensões do produto
 
@@ -75,7 +72,7 @@ O nome de pesquisa também pode conter uma ID de produto do cliente ou fornecedo
 
 Para produtos liberados, você pode manter os números de item, nomes de item e descrições de item usados pelo cliente ou fornecedor. As referências são mostradas em documentos externos, como ordens de venda, ordens de compra, guias de remessa e faturas. Na versão atual do Supply Chain Management, as referências externas não são mostradas nas páginas de operações centrais. A única exceção é o número de item do fornecedor. Esse número será exibido na caixa de diálogo **Informações sobre o produto** se um fornecedor padrão for definido para o produto liberado.
 
-Você pode manter os identificadores de produtos externos por produto liberado, grade de produto liberado, cliente ou grupo de clientes, ou fornecedor ou grupo de fornecedores.
+Você pode manter os identificadores de produtos externos por produto liberado, grade de produto liberado, cliente, grupo de clientes, fornecedor ou grupo de fornecedores.
 
 Na página **Produtos liberados**, siga uma destas etapas.
 
@@ -90,10 +87,10 @@ Na página **Descrições externas de item**, você pode associar o número de i
 | descrição | O nome que o cliente associa ao item | O nome que o fornecedor associa ao item |
 | Texto de item externo | A descrição do item do cliente | A descrição do item do fornecedor |
 
-Se vários clientes ou fornecedores usarem os mesmos números de item (como no caso de uma associação de compra ou grupo de comércio, por exemplo), você poderá criar grupos de clientes ou fornecedores para simplificar a manutenção de informações sobre produtos externos.
+Se vários clientes ou fornecedores usarem os mesmos números de item (como uma associação de compra ou um grupo de comércio, por exemplo), você poderá criar grupos de clientes ou fornecedores para simplificar a manutenção de informações sobre produtos externos.
 
-- Para grupos de clientes, vá para **Vendas** &gt; **Configuração** &gt; **Itens** &gt; **Descrição externa de item** para criar e manter os grupos e os números de itens relacionados. Para associar clientes a um grupo, vá para **Contas a receber** &gt; **Clientes** &gt; **Todos os clientes** e, em seguida, na Guia Rápida **Padrões da ordem de venda**, especifique um valor no campo **Item - Grupo de clientes**.
-- Para grupos de fornecedores, vá para **Compras e Fornecimento** &gt; **Configuração** &gt; **Grupo de descrições externas de item** para criar e manter os grupos e os números de itens relacionados. Para associar fornecedores a um grupo, vá para **Contas a pagar** &gt; **Fornecedores** &gt; **Todos os fornecedores** e, em seguida, na Guia Rápida **Padrões da ordem de compra**, especifique um valor no campo **Item - Grupo de fornecedores**.
+- Para grupos de clientes, Acesse **Vendas** &gt; **Configuração** &gt; **Itens** &gt; **Descrição externa de item** para criar e manter os grupos e os números de itens relacionados. Para associar clientes a um grupo, Acesse **Contas a receber** &gt; **Clientes** &gt; **Todos os clientes** e, em seguida, na Guia Rápida **Padrões da ordem de venda**, especifique um valor no campo **Item - Grupo de clientes**.
+- Para grupos de fornecedores, Acesse **Compras e Fornecimento** &gt; **Configuração** &gt; **Grupo de descrições externas de item** para criar e manter os grupos e os números de itens relacionados. Para associar fornecedores a um grupo, Acesse **Contas a pagar** &gt; **Fornecedores** &gt; **Todos os fornecedores** e, em seguida, na Guia Rápida **Padrões da ordem de compra**, especifique um valor no campo **Item - Grupo de fornecedores**.
  
 ## <a name="bar-codes"></a>Códigos de Barra
 
@@ -109,7 +106,7 @@ Para manter códigos de barras, na página **Produtos liberados**, na guia **Ger
 
 No comércio eletrônico, é essencial que todos os participantes falem a mesma língua e refiram-se aos produtos usando um conjunto comum de identificadores. Portanto, algumas indústrias dependem do [GTIN](https://www.gs1.org/id-keys/gtin), um sistema global de número de item que é facilitado por GS1.
 
-Recomendamos manter o GTIN como um código de barras. No entanto, também é possível mantê-lo na página **Item - GTIN**. Para abrir essa página, na página **Produtos liberados**, na guia **Gerenciar estoque**, no grupo **Depósito**, selecione **Códigos GTIN**. Observe que o GTIN não é mantido como um número global. Em vez disso, é mantido por entidade legal.
+Recomendamos manter o GTIN como um código de barras. No entanto, também é possível mantê-lo na página **Item - GTIN**. Para abrir essa página, na página **Produtos liberados**, na guia **Gerenciar estoque**, no grupo **Depósito**, selecione **Códigos GTIN**. O GTIN não é mantido como um número global. Em vez disso, é mantido por entidade legal.
 
 No Supply Chain Management, você define as grades de embalagens nas operações de depósito, definindo unidades de medida específicas. Por exemplo, um item pode ser armazenado em partes, em pacotes de seis, em bandejas de 18 ou em paletes cheios. Uma unidade de medida específica será definida para cada uma dessas grades de embalagens. Como o GTIN normalmente está relacionado à unidade de embalagem de um produto, a página **Item - GTIN** permite manter vários códigos GTIN por produto e unidade de medida. No entanto, você não pode usar o mesmo código GTIN mais de uma vez para itens ou grades de produtos diferentes de uma entidade legal.
 
@@ -127,12 +124,12 @@ Infelizmente, não há nenhuma funcionalidade padrão que permite pesquisar prod
 |-------------|--------------------|--------------------|----------|
 | Produtos V2 | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Dependendo das configurações da entidade e da sequência numérica do número do produto, o número do produto pode ser criado automaticamente no momento da importação. |
 | Variantes de produtos | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Dependendo do modelo de nomenclatura de produtos, o número do produto pode ser criado automaticamente no momento da importação. No entanto, você pode importar qualquer número de produto exclusivo, e esse número de produto não precisa seguir a estrutura dos modelos de nomenclatura de produtos. |
-| Traduções do produto | Nome do produto, descrição do produto | Nome do produto, descrição do produto | Essa entidade substitui qualquer idioma. Observe que, quando o nome ou a descrição do idioma principal de uma entidade legal são substituídos, o nome e a descrição do produto são alterados. |
+| Traduções do produto | Nome do produto, descrição do produto | Nome do produto, descrição do produto | Essa entidade substitui qualquer idioma. Quando o nome ou a descrição do idioma principal de uma entidade legal são substituídos, o nome e a descrição do produto são alterados. |
 | Criação de produtos liberados V2 | Número do item, número do produto, nome de pesquisa do item| Número do item, número do produto, nome de pesquisa do item, nome de pesquisa do produto, nome do produto | Essa entidade pode ser um desafio quando sequências numéricas são usadas durante a criação de novos produtos liberados. Tanto a sequência numérica **Número do item** quanto a sequência numérica **Número do produto** têm uma influência. No entanto, a sequência numérica **Número do item** é por entidade legal, enquanto a sequência numérica **Número do produto** é global. Portanto, não é recomendável usar a sequência numérica **Número do item** ao implantar novos produtos liberados. Obviamente, quando a entidade é usada para liberar um produto existente, o número do produto deve ser fornecido na entidade. Para obter mais informações, consulte a seção “Sequências numéricas do item e do produto” neste tópico. |
 | Grades de produtos liberadas | Número do item, dimensões do produto, número do produto | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto, dimensões do produto | Assim como a entidade **Grades de produtos**, essa entidade pode ser usada para criar novos produtos que seguem o modelo de nomenclatura de produtos ou usam seus próprios números de produto para a grade. |
 | Descrição de itens externos para clientes | Número de item do cliente, nome de item do cliente, descrição do cliente, conta de cliente | Número de item do cliente, nome de item do cliente, descrição do cliente, conta de cliente | Um grupo de clientes (por exemplo, uma associação de compradores) pode ser agregado em um grupo usando a entidade **Grupos de clientes para descrição de item externo**. |
 | Descrição de itens externos para fornecedores | Número de item do fornecedor, nome de item do fornecedor, descrição do fornecedor, conta de fornecedor | Número de item do fornecedor, nome de item do fornecedor, descrição do fornecedor, conta de fornecedor | Um grupo de fornecedores (por exemplo, uma associação de vendas ou organização da indústria) pode ser agregado em um grupo usando a entidade **Grupos de fornecedores para descrição de item externo**. |
-| Código de barras do item | Código de barras | Código de barras | Observe que, no momento da importação, você deve fazer referência a uma configuração de código de barras definida no sistema de destino. As referências de código de barras importadas são validadas em relação a essa configuração de código de barras e serão rejeitadas se os códigos de barras não corresponderem aos requisitos definidos nessa configuração. |
+| Código de barras do item | Código de barras | Código de barras | No momento da importação, você deve fazer referência a uma configuração de código de barras definida no sistema de destino. As referências de código de barras importadas são validadas em relação a essa configuração de código de barras e serão rejeitadas se os códigos de barras não corresponderem aos requisitos definidos nessa configuração. |
 | Códigos externos para produtos liberados | Código externo | Código externo, classes de código externo, número do item | Os códigos externos são por entidade legal. Para importar, você deve fazer referência a uma classe de código definida. Importe as classes de código usando a entidade **Classes de código externo para produtos liberados**. |
 | Códigos externos para grades de produtos liberados | Código externo | Código externo, classes de código externo, número do item, dimensões do produto | Os códigos externos são por entidade legal. Para importar, você deve fazer referência a uma classe de código definida. Importe as classes de código usando a entidade **Classes de código externo para produtos liberados**. Essa entidade se refere a grades de produtos pelo número do item e pelas dimensões do produto. |
 | Códigos externos para grades de produtos liberados por identificador de número do produto | Código externo | Código externo, classes de código externo, número do produto | Os códigos externos são por entidade legal. Para importar, você deve fazer referência a uma classe de código definida. Importe as classes de código usando a entidade **Classes de código externo para produtos liberados**. Essa entidade se refere a grades de produtos pelo número do produto da grade. (Da próxima versão principal) |
@@ -161,13 +158,13 @@ A tabela a seguir fornece uma visão geral dos resultados de importação e cria
 | Sequência numérica de número do produto | Sequência numérica de número do item | Mapeamento do número do item | Mapeamento do número do produto | Resultado da importação da entidade | Resultado da criação manual | Conclusão |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
 | Manual = Não | Manual = Não | Nenhum mapeamento | Nenhum mapeamento | Os números do produto usam a sequência numérica **Número do produto**. Os números do item usam a sequência numérica **Número do item**. | Os números do produto usam a sequência numérica **Número do produto**. Os números do item usam a sequência numérica **Número do item**. | Com essa configuração, os números do produto seguirão a sequência do número do produto e os números do item seguirão a sequência do número do item. No entanto, essa configuração não funcionará se houver mais de um item (linha) a ser importado. |
-| Manual = Não | Manual = Sim | Gerar automaticamente | Nenhum mapeamento | Os números do produto e os números do item usam a sequência numérica **Número do item**. | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e do item seguirão a sequência do número do produto. Essa é a abordagem recomendada para importar produtos em massa com a entidade de dados Criação de produtos liberados V2. |
-| Manual = Não | Manual = Sim | Nenhum mapeamento | Nenhum mapeamento | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e do item usarão a sequência do número do produto. No entanto, essa configuração não funcionará se houver mais de um item (linha) a ser importado. |
+| Manual = Não | Manual = Sim | Gerar automaticamente | Nenhum mapeamento | Os números do produto e os números do item usam a sequência numérica **Número do item**. | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e do item seguirão a sequência do número do produto. Essa é a abordagem recomendada para importar produtos em massa com a entidade de dados Criação de produtos liberados V2.<br><br>Você só pode usar essa abordagem ao importar itens em massa (várias linhas) e quando não estiver criando itens por meio da interface do usuário. Se você precisar importar em massa e criar produtos por meio da interface do usuário, use o procedimento na próxima linha desta tabela. Para fazer a transição de uma abordagem de importação em massa para a interface do usuário a fim de importar e criar produtos de forma manual, você deve ajustar manualmente o **Próximo número** na sequência numérica do número do item para que corresponda ao **Próximo número** na sequência numérica do número do produto. Em seguida, você pode alternar para a abordagem na próxima linha desta tabela. |
+| Manual = Não | Manual = Sim | Nenhum mapeamento | Nenhum mapeamento | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e do item usarão a sequência do número do produto. No entanto, essa configuração não funcionará se houver mais de um item (linha) a ser importado.<br><br>Você deve usar essa abordagem se precisar importar produtos usando as entidades (somente uma linha pode ser importada por vez) e criar produtos por meio da interface do usuário. |
 | Manual = Sim | Não Aplicável | Não Aplicável | Gerar automaticamente | Você recebe a seguinte mensagem de erro: "A sequência numérica não pode ser detectada." | De acordo com a sequência numérica **Número do item** | Essa configuração não tem suporte para importação. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Identificador de entidade Produto (Exportar todos os identificadores do produto)
 
-O modelo do identificador de entidade Produto foi criado para habilitar a versão 1.0 do CDS para ser provisionada com todos os identificadores usados para fazer referência a um produto. Para simplificar essa tarefa, todos os identificadores são agregados em uma tabela global de identificadores, para que possam ser exportados como um modelo. Observe que essa versão do CDS não usa o modelo de identificadores de produtos. Portanto, a entidade **Entidade de identificador de Common Data Service de entidade de produto** e esse processo têm uso prático limitado e provavelmente estarão sujeitos a alterações futuramente.
+O modelo do identificador de entidade Produto foi criado para habilitar a versão 1.0 do Dataverse a ser provisionada com todos os identificadores usados para fazer referência a um produto. Para simplificar essa tarefa, todos os identificadores são agregados em uma tabela global de identificadores, para que possam ser exportados como um modelo. Observe que essa versão do Dataverse não usa o modelo de identificadores de produtos. Portanto, a entidade **Entidade de identificador de Common Data Service de entidade de produto** e esse processo têm uso prático limitado e provavelmente estarão sujeitos a alterações futuramente.
 
 A tabela de identificadores de produtos é uma tabela global preenchida a partir de todas as tabelas de referência da Entidade legal principal por meio de um trabalho em lotes recorrente. Você deve selecionar uma entidade legal e uma hierarquia de categoria de produto como a definição do escopo global do produto mestre. A geração da tabela global de identificadores de produtos limita-se aos produtos que são liberados para a entidade legal selecionada e aos produtos que são membros da hierarquia de produtos selecionada para a função **Common Data Service** na hierarquia de categoria de produto.
 
@@ -175,11 +172,11 @@ Esse processo pressupõe que os dados mestres do produto são mantidos principal
 
 Siga estas etapas para configurar o ambiente.
 
-1. Selecione a hierarquia de categoria para o CDS. Na página **Associações de funções de hierarquia de categoria**, se nenhuma hierarquia estiver associada à função **Common Data Service**, você deverá criar uma nova associação. Selecione a função **Common Data Service** e associe a hierarquia de categoria que representa o portfólio de produtos que deverá ser sincronizado ao CDS.
+1. Selecione a hierarquia de categoria para o Dataverse. Na página **Associações de funções de hierarquia de categoria**, se nenhuma hierarquia estiver associada à função **Common Data Service**, você deverá criar uma nova associação. Selecione a função **Common Data Service** e associe a hierarquia de categoria que representa o portfólio de produtos que deverá ser sincronizado com o Dataverse.
 2. Selecione a entidade legal para dados mestres globais do produto. Na página **Parâmetros de gerenciamento de informações do produto**, na guia **Atributos do produto**, selecione a empresa mestre na qual os identificadores do produto e do item são mantidos principalmente.
-3. Defina os tipos de código de identificadores e os códigos que devem ser exportados. Vá para **Gerenciamento de informações sobre produtos** &gt; **Configuração** &gt; **Códigos de identificador de produtos**. Para gerar os tipos de código de identificadores, selecione **Gerar códigos**. Uma entrada de tipo de código é gerada para cada tipo do identificador encontrado na entidade legal selecionada.
+3. Defina os tipos de código de identificadores e os códigos que devem ser exportados. Acesse **Gerenciamento de informações sobre produtos** &gt; **Configuração** &gt; **Códigos de identificador de produtos**. Para gerar os tipos de código de identificadores, selecione **Gerar códigos**. Uma entrada de tipo de código é gerada para cada tipo do identificador encontrado na entidade legal selecionada.
 
-    Observe que, para códigos de barras, um tipo de código é gerado para cada configuração de código de barras. Para códigos externos, um tipo de código é gerado para cada classe de código externo.
+    Para códigos de barras, um tipo de código é gerado para cada configuração de código de barras. Para códigos externos, um tipo de código é gerado para cada classe de código externo.
 
     Agora você pode manter a lista de tipos de código. Você pode alterar o código, o nome e a descrição. Também é possível excluir os tipos de código. Os tipos de código excluídos não serão usados para preencher as tabelas globais de identificadores de entidade Produto.
 
@@ -190,3 +187,6 @@ Agora você pode usar as entidades de dados **Entidade de identificador de Commo
 ## <a name="related-topic"></a>Tópico relacionado
 
 [Procurar produtos e grades de produtos durante uma entrada de ordem](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,22 @@
 ---
 title: Reimprimir e anular etiquetas de onda
 description: Este tópico explica como anular e reimprimir etiquetas de onda existentes.
-author: GarmMSFT
-manager: PJacobse
+author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
-ms.reviewer: PJacobse
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4422626"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572328"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Reimprimir e anular etiquetas de onda
 
@@ -52,7 +49,7 @@ Você pode exibir e reimprimir etiquetas de onda nas páginas a seguir. No Paine
 
 Para reimprimir uma etiqueta de onda por meio do cliente Web, siga estas etapas:
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione a onda da qual deseja reimprimir as etiquetas.
 1. No Painel de Ações, na guia **Onda**, no grupo **Imprimir**, selecione **Etiquetas de onda**.
 1. Siga uma ou ambas as etapas a seguir:
@@ -77,7 +74,7 @@ Antes que os trabalhadores possam reimprimir etiquetas por meio de um dispositiv
 
 Siga estas etapas para criar uma nova coleção de itens de menu para reimprimir etiquetas por meio do aplicativo de depósito.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Crie um item de menu e defina os seguintes valores para ele:
 
     - **Nome do item de menu:** *Reimprimir etiqueta de onda única*
@@ -138,7 +135,7 @@ Siga estas etapas para criar uma nova coleção de itens de menu para reimprimir
 
 Siga estas etapas para adicionar os novos itens de menu ao menu de aplicativo de depósito.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Selecione um menu de **Saída** existente.
 1. Na lista à esquerda, localize os itens de menu para reimpressão que você acabou de criar e use o botão de seta para a direita para adicioná-los à lista à direita.
 1. Feche a página.
@@ -218,3 +215,9 @@ As exceções de trabalho controlam o comportamento da separação insuficiente.
 1. Selecione **Separação insuficiente**.
 1. Selecione o código de exceção do trabalho que você criou para este cenário.
 1. Se você selecionou a exceção correta, a caixa de seleção **Anular e reimprimir** deverá estar disponível. Marque esta caixa e confirme. Após a confirmação, a sequência do rolo de etiquetas identificada pelo campo **ID de criação da etiqueta** é recalculada com base na quantidade da linha do trabalho alterada. Em seguida, ele será reimpressa na impressora especificada.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+- [Impressão de etiqueta do ciclo](configure-wave-label-printing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

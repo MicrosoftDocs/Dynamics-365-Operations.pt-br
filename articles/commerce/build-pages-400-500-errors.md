@@ -1,37 +1,31 @@
 ---
 title: Criar páginas de resposta personalizadas para erros do código de status 4xx/5xx
-description: Este tópico descreve como criar páginas de resposta personalizada para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve como criar páginas de resposta personalizadas para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741132"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Criar páginas de resposta personalizadas para erros do código de status 4xx/5xx
 
-
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar páginas de resposta personalizada para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
+Este tópico descreve como criar páginas de resposta personalizadas para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
 
 Se uma solicitação não tiver êxito, o servidor emite respostas de erro do código de status do HTTP. O código de status 404 é capturado e retornado se uma página não for encontrada e o código de status 500 é capturado e retornado se um erro de servidor ocorrer. No Dynamics 365 Commerce, os usuários do aplicativo podem criar as páginas de resposta de erro de código de status personalizado que são exibidas para usuários dessas respostas de erro de código de status.
 
@@ -46,7 +40,7 @@ Para começar a criar uma página de resposta de erro do código de status, siga
 
 Para criar o modelo para a página de resposta de erro do código de status, siga essas etapas.
 
-1. Vá para **Modelos**.
+1. Acesse **Modelos**.
 1. Selecione **Novo** para criar um modelo de página.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do Modelo**, insira um nome para o novo modelo e selecione **OK**.
 1. Crie modelo, com base na estrutura que deseja que a página de resposta de erro do código de status apareça.
@@ -56,7 +50,7 @@ Para criar o modelo para a página de resposta de erro do código de status, sig
 
 Para criar a página de resposta de erro do código de status, siga essas etapas.
 
-1. Vá para **Páginas**.
+1. Acesse **Páginas**.
 1. Selecione **Novo** para criar uma página.
 1. Na caixa de diálogo **Escolha um modelo**, selecione um modelo e, em **Nome da página**, insira um nome para a página da resposta do erro do código de status. Deixe o campo **URL da Página** em branco.
 1. Crie a página.
@@ -69,7 +63,7 @@ Para criar a página de resposta de erro do código de status, siga essas etapas
 
 Para configurar um redirecionamento para a página de resposta de erro do código de status, siga essas etapas.
 
-1. Vá para **URLs \> Novo \> Novo alias**, e selecione a página de resposta de erro do código de status que você compilou anteriormente.
+1. Acesse **URLs \> Novo \> Novo alias**, e selecione a página de resposta de erro do código de status que você compilou anteriormente.
 1. No campo **Alias**, **default-4xx** ou **default-5xx**, dependendo da página de resposta de erro do código de status para a qual você está configurando o redirecionamento. Essas alias devem ser publicados. Caso contrário, o redirecionamento não funcionará.
 1. Selecione **OK** para enviar o link.
 
@@ -83,3 +77,6 @@ Para configurar um redirecionamento para a página de resposta de erro do códig
 [Adicionar uma nova página do site](add-new-page.md)
 
 [Criar uma URL da página](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

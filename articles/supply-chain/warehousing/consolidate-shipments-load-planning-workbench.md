@@ -1,29 +1,26 @@
 ---
-title: Consolide remessas usando Liberar para o depósito da bancada de planejamento de carga
+title: Consolide remessas liberando para o depósito da bancada de planejamento de carga
 description: Este tópico apresenta um cenário em que várias ordens são liberadas para o depósito na mesma carga e são consolidadas automaticamente em remessas.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 2f1dd5c743664e638c043b600ae7b0f6bce5ddcd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b724b3f040a1b277d99dd067525dfda2b47ca73b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421947"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577879"
 ---
-# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>Consolide remessas usando Liberar para o depósito da bancada de planejamento de carga
+# <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Consolide remessas liberando para o depósito da bancada de planejamento de carga
 
 [!include [banner](../includes/banner.md)]
 
@@ -41,7 +38,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 Comece criando uma coleção de ordens de venda com as quais possa trabalhar. Você deve trabalhar com um depósito habilitado para processos de depósito avançados (WMS). A menos que um depósito diferente seja explicitamente mencionado, esse mesmo depósito deve ser usado para cada um dos conjuntos de ordens a seguir.
 
-Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
+Acesse **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
 
 ### <a name="create-order-set-1"></a>Crie o conjunto de ordens 1
 
@@ -210,7 +207,7 @@ Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma c
 
 Siga estas etapas para criar uma carga para cada conjunto de ordens que você criou para esse cenário e, em seguida, liberá-lo para o depósito.
 
-1. Vá para **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
+1. Acesse **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
 1. Na guia **Linhas de venda**, localize e selecione todas as linhas da ordem de venda em um dos conjuntos de ordens criados para esse cenário.
 1. No Painel de Ações, na guia **Oferta e demanda**, selecione **Adicionar \> Para nova carga** para adicionar as linhas de ordem selecionadas a uma nova carga.
 1. Na caixa de diálogo **Atribuição de modelo de carga**, no campo **ID do modelo de carga**, selecione um modelo de carga, como *Modelo de Carga Padrão*.
@@ -261,3 +258,6 @@ Quatro remessas devem ter sido criadas:
 
 - [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
 - [Configurar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

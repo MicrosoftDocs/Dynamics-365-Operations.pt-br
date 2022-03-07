@@ -1,28 +1,26 @@
 ---
-title: Consolidar remessas quando a política de consolidação de remessa for substituída da página Liberar para depósito
+title: Consolidar remessas quando a política de consolidação de remessa for substituída
 description: Este tópico apresenta um cenário em que uma ou mais linhas de venda devem ser liberadas manualmente para o depósito da página Liberar para depósito e a política de consolidação de remessa definida pelo sistema deve ser substituída antes da liberação.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 4aaaa7949d988607b38dd6e38a3c3497f227b8af
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 606f370277b67a65612d81916f4fcc93ca47224e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963326"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574176"
 ---
-# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Consolidar remessas quando a política de consolidação de remessa for substituída da página Liberar para depósito
+# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Consolidar remessas quando a política de consolidação de remessa for substituída
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,7 +38,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Crie as ordens de venda para este cenário
 
-1. Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie três ordens de venda idênticas com as seguintes configurações:
+1. Acesse **Contas a receber \> Ordens \> Todas as ordens de venda** e crie três ordens de venda idênticas com as seguintes configurações:
 
     - **Conta de cliente:** *US-002*
 
@@ -55,7 +53,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 Siga estas etapas para substituir a política de consolidação de remessa durante a liberação para o depósito.
 
-1. Vá para **Gerenciamento de depósito \> Liberar para depósito \> Liberar para depósito**.
+1. Acesse **Gerenciamento de depósito \> Liberar para depósito \> Liberar para depósito**.
 1. No painel superior, selecione a primeira ordem de venda criada para esse cenário.
 1. Selecione **Adicionar** para adicionar a linha à liberação para o depósito. Observe que a política de consolidação de remessa *padrão* é aplicada no painel inferior.
 1. No painel inferior, selecione **Selecionar nova política de consolidação de remessa**.
@@ -83,3 +81,6 @@ Siga estas etapas para revisar as remessas que foram criadas.
 
 - [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
 - [Configurar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

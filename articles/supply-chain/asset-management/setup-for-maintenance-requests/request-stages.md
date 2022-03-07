@@ -1,12 +1,10 @@
 ---
 title: Estados do ciclo de vida de solicitação de manutenção
 description: Este tópico descreve como configurar estados do ciclo de vida de solicitação de manutenção no Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3c2f717969b938d05e68ac775d31b6a5d5ec26a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3ece0fc1121211706350d804fec59e72ef08282fcba4e65f557a510834738b11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743665"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Estados do ciclo de vida da solicitação de manutenção
 
@@ -50,7 +48,7 @@ Os estados do ciclo de vida de solicitação de manutenção definem os estágio
 
 A ilustração a seguir mostra um exemplo da página **Estados de ciclo de vida de solicitação de manutenção**.
 
-![Página de estados do ciclo de vida da solicitação de manutenção](media/02-setup-for-requests.png)
+![Página de estados do ciclo de vida da solicitação de manutenção.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Os estados do ciclo de vida de solicitação de manutenção, os grupos do estado de ciclo de vida e os tipos estão relacionados a, e são usados da mesma forma que, estados de ciclo de vida da ordem de serviço, grupos de estados de ciclo de vida e tipos. 
@@ -68,9 +66,9 @@ Depois de você criar os estados de ciclo de vida que são necessários para as 
 
 5. Na Guia Rápida **Estados de ciclo de vida**, selecione os estados de ciclo de vida que devem ser incluídos no modelo de ciclo de vida:
 
-    - Para incluir um estado de ciclo de vida no modelo de ciclo de vida, selecione-o na seção **Estados de ciclo de vida restantes** e selecione o botão de seta para a direita ![Seta para a direita](media/03-setup-for-requests.png) para movê-lo até a seção **Estados de ciclo de vida selecionados**.
-    - Para incluir todos os estados de ciclo de vida disponíveis no modelo de ciclo de vida, selecione o botão **Selecionar todos os estados de ciclo de vida disponíveis** ![Selecionar todos os estados de ciclo de vida disponíveis](media/04-setup-for-requests.png). Todos os estados de ciclo de vida são movidos para a seção **Estados de ciclo de vida selecionados**.
-    - Para remover um estado de ciclo de vida do modelo de ciclo de vida, selecione-o na seção **Estados de ciclo de vida selecionados** e selecione o botão de seta para a esquerda ![Seta para a esquerda](media/05-setup-for-requests.png) para movê-lo até a seção **Estados de ciclo de vida restantes**.
+    - Para incluir um estado de ciclo de vida no modelo de ciclo de vida, selecione-o na seção **Estados de ciclo de vida restantes** e selecione o botão de ![seta para a direita.](media/03-setup-for-requests.png) para movê-lo para a seção **Estados do ciclo de vida selecionado**.
+    - Para incluir todos os estados de ciclo de vida disponíveis no modelo de ciclo de vida, selecione o botão **Selecionar todos os estados de ciclo de vida disponíveis** ![Selecionar todos os estados de ciclo de vida disponíveis.](media/04-setup-for-requests.png). Todos os estados de ciclo de vida são movidos para a seção **Estados de ciclo de vida selecionados**.
+    - Para remover um estado de ciclo de vida do modelo de ciclo de vida, selecione-o na seção **Estados de ciclo de vida selecionados** e selecione o botão de ![seta para a esquerda.](media/05-setup-for-requests.png) para movê-lo para a seção **Estados do ciclo de vida restantes**.
 
 6. Na Guia Rápida **Geral**, os campos da seção **Atualizações** serão relevantes se você usar o reparo de depósito.
 
@@ -79,4 +77,7 @@ Depois de você criar os estados de ciclo de vida que são necessários para as 
 
 A ilustração a seguir mostra um exemplo da página **Modelos de ciclo de vida de solicitação de manutenção**.
 
-![Página dos modelos de ciclo de vida de solicitação de manutenção](media/06-setup-for-requests.png)
+![Página dos modelos de ciclo de vida de solicitação de manutenção.](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

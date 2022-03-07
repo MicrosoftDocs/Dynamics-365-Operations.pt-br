@@ -2,15 +2,12 @@
 title: Criar planos de benefícios do trabalhador
 description: É possível criar planos de benefícios do trabalhador no Microsoft Dynamics 365 Human Resources para selecionar planos de benefícios para funcionários e confirmar seleções de planos de benefícios.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanEmployee, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 40ccd16d2c9a986da602bb9f346fb175a92e15c9ba4265ac0e951e57eda03308
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782087"
 ---
 # <a name="create-worker-benefit-plans"></a>Criar planos de benefícios do trabalhador
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 É possível criar planos de benefícios do trabalhador no Microsoft Dynamics 365 Human Resources para selecionar planos de benefícios para funcionários e confirmar seleções de planos de benefícios. Em geral, os funcionários selecionam os próprios planos de benefícios usando o autoatendimento para funcionários e depois um administrador de benefícios confirma as seleções. 
 
@@ -49,3 +48,6 @@ ms.locfileid: "4417235"
    | Planos | A guia rápida Planos contém os planos que atendem aos critérios de filtro especificados. As opções de configuração relevantes definidas pela equipe de RH e as seleções de inscrição escolhidas pelos funcionários estão incluídas em cada linha. O campo Qualificado especifica se há um conflito de validação com a seleção do plano. |
 
 4. Selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

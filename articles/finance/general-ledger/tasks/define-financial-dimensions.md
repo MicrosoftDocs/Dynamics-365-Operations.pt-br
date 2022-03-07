@@ -1,37 +1,34 @@
 ---
 title: Definir dimensões financeiras
-description: Este guia de tarefas demonstra como adicionar uma dimensão financeira apoiada por entidade e dimensão financeira personalizada.
+description: Este procedimento mostra como adicionar uma dimensão financeira apoiada por entidade e dimensão financeira personalizada.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionDetails,  DimensionAttributeTableExtensionActivate, DimensionValueDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6fbe739eec0cfa1e7b0276872640bd4f82be3ef7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed6dad64032c03e638c2090471af825dd18560a1
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440181"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394453"
 ---
 # <a name="define-financial-dimensions"></a>Definir dimensões financeiras
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia de tarefas demonstra como adicionar uma dimensão financeira apoiada por entidade e dimensão financeira personalizada.  Este guia usa a empresa de dados de demonstração USMF.
+Este procedimento mostra como adicionar uma dimensão financeira apoiada por entidade e dimensão financeira personalizada.  Este guia usa a empresa de dados de demonstração USMF.
 
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>Criar uma dimensão financeira apoiada por entidade
-1. Vá para **Painel de navegação > Módulos > Contabilidade > Plano de contas > Dimensões > Dimensões financeiras**.
+1. Acesse **Painel de navegação > Módulos > Contabilidade > Plano de contas > Dimensões > Dimensões financeiras**.
 2. Clique em **Novo**.
 3. No campo **Usar valores de**, selecione uma entidade definida pelo sistema para basear a dimensão financeira. 
 4. No campo **Nome de dimensão**, digite um valor para descrever a dimensão financeira. O nome pode ser diferente da entidade definida pelo sistema, mas não pode conter espaços ou caracteres especiais.
@@ -55,3 +52,6 @@ Este guia de tarefas demonstra como adicionar uma dimensão financeira apoiada p
 9. No campo **Valor da dimensão**, digite um nome para descrever o valor da dimensão financeira.
 10. No campo **Descrição**, digite uma descrição que defina seu valor de dimensão financeira.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

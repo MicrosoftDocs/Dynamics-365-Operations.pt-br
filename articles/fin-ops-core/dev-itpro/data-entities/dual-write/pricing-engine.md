@@ -2,19 +2,28 @@
 title: Sincronizar sob demanda com o mecanismo de preços do Supply Chain Management
 description: Este tópico descreve como usar o mecanismo de preços no Microsoft Dynamics 365 Supply Chain Management do Dynamics 365 Sales.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 03/10/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 134bfc2ec0e69938c945e384a98676d3708c8e17
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-03-10
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783298"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130644"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sincronizar sob demanda com o mecanismo de preços do Supply Chain Management
 
@@ -41,7 +50,7 @@ O Microsoft Dynamics 365 Supply Chain Management inclui um mecanismo de preços 
     + Total de Impostos
     + Valor total do CF -e-SAT
     
-5. Para garantir que o sistema considere os contratos comerciais para calcular o preço:
+5. Para garantir que o sistema considera os contratos comerciais e de venda para calcular o preço:
     1. Navegue até o ambiente Supply Chain Management.
     2. Navegue até **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
     3. Selecione a guia **Preços** na barra de navegação lateral.
@@ -51,7 +60,7 @@ O Microsoft Dynamics 365 Supply Chain Management inclui um mecanismo de preços 
 
 Ao selecionar **Ordem de preço** no Sales, a função **Totais** na guia **Ordem de venda \> Exibir** no Supply Chain Management é chamada para a ordem de venda associada. Os valores no total da ordem no Sales são usados para preencher as colunas correspondentes no Supply Chain Management.
 
-Quando o total das ordens do cliente é calculado no Supply Chain Management, o cálculo avalia os acordos comerciais existentes para o cliente e os produtos listados na ordem de venda. Essas informações são usadas para calcular os totais. Quando a **Ordem de preço** é selecionada, o Sales reflete automaticamente toda a configuração que foi feita no Supply Chain Management.
+Quando o total das ordens do cliente é calculado no Supply Chain Management, o cálculo avalia os acordos comerciais e contratos de vendas existentes para o cliente e os produtos listados na ordem de venda. Essas informações são usadas para calcular os totais. Quando a **Ordem de preço** é selecionada, o Sales reflete automaticamente toda a configuração que foi feita no Supply Chain Management.
 
 ## <a name="limitations"></a>Limitações
 
@@ -60,7 +69,3 @@ Quando as colunas no Sales são preenchidas, as seguintes limitações se aplica
 + A configuração de encargos e alocações de encargos no Supply Chain Management não é replicada no Sales.
 + Os preços não consideram os preços especiais de varejo especificados na coluna **Canal de Varejo** na página da linha de ordem de venda no Supply Chain Management.
 + Os descontos definidos na seção **Gerenciamento de bonificação comercial** do Supply Chain Management não são considerados.
-+ O preço não considera os contratos de venda.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

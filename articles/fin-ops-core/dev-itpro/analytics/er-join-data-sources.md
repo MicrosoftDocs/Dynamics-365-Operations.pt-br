@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b4899cad01a0ed2424dcc5d29e9fb5cca65a6a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723204"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351088"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar as fontes de dados JOIN para obter dados de várias tabelas de aplicativos nos mapeamentos do modelo de relatório eletrônico (ER)
 
@@ -186,7 +186,7 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 ### <a name="execute-er-format"></a><a name="executeERformat"></a> Executar formato de ER
 
 1. Acesse o Finance ou o RCS na segunda sessão do seu navegador da Web, usando as mesmas credenciais e empresa da primeira sessão.
-2. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
+2. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
 3. Expanda a configuração **Modelo para conhecer fontes de dados JOIN**.
 4. Selecione a configuração **Formato para conhecer fontes de dados JOIN**.
 5. Selecione **Designer**.

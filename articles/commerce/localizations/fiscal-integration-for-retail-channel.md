@@ -2,26 +2,25 @@
 title: Visão geral da integração fiscal dos canais do Commerce
 description: Este tópico fornece uma visão geral dos recursos de integração fiscal disponíveis no Dynamics 365 Commerce.
 author: josaw
-manager: annbe
 ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 5c8036b8b802043ca9a2a985f813e5ff8347a27e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017458"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348181"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visão geral da integração fiscal dos canais do Commerce
 
@@ -64,9 +63,9 @@ O exemplo a seguir mostra um típico fluxo de execução de registro fiscal para
 7. O PDV analisa a resposta do serviço ou dispositivo fiscal para determinar se o registro fiscal foi bem-sucedido.
 8. O CRT salva a resposta no banco de dados do canal.
 
-![Esquema da solução](media/emea-fiscal-integration-solution.png "Esquema da solução")
+![Esquema da solução.](media/emea-fiscal-integration-solution.png "Esquema da solução")
 
-## <a name="error-handling"></a>Tratamento de erros
+## <a name="error-handling"></a>Tratamento de erro
 
 A estrutura de integração fiscal fornece as seguintes opções para lidar com as falhas durante o registro fiscal:
 
@@ -149,3 +148,6 @@ A seguinte funcionalidade de integração fiscal também está disponível no SD
 A seguinte funcionalidade de integração fiscal herdada que está disponível no SDK do Retail não usa a estrutura de integração fiscal e será preterida em atualizações posteriores:
 
 - [Exemplo de integração da unidade de controle para a Suécia (herdada)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

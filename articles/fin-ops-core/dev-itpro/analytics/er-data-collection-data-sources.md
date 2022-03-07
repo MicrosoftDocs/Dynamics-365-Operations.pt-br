@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323892"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413580"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>Usar fontes de dados de COLETA DE DADOS em formatos de relatório eletrônico
 
 [!include [banner](../includes/banner.md)]
 
-Você pode usar o Designer de operações da estrutura do [Relatório Eletrônico (ER)](general-electronic-reporting.md) para configurar o componente de formato de uma solução de ER usada para gerar documentos de saída em diferentes formatos. A estrutura hierárquica do componente de formato configurado consiste em vários tipos de elementos de formato. Esses elementos de formato são usados para preencher documentos gerados com as informações necessárias no tempo de execução. Por padrão, quando você executa um formato de ER, os elementos de formato são executados na mesma ordem em que são apresentados na hierarquia de formato: um por um, de cima para baixo.
+Você pode usar o Designer de operações da estrutura do [Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar o componente do [formato](general-electronic-reporting.md#FormatComponentOutbound) de uma solução de ER que é usada para gerar documentos de saída em um formato de texto. A estrutura hierárquica do componente de formato configurado consiste em vários tipos de elementos de formato. Esses elementos de formato são usados para preencher documentos gerados com as informações necessárias no tempo de execução. Por padrão, quando você executa um formato de ER, os elementos de formato são executados na mesma ordem em que são apresentados na hierarquia de formato: um por um, de cima para baixo.
 
-Quando o ER executa um elemento de formato que contém uma associação, a fórmula dessa associação é executada e o elemento de formato adiciona o valor a um documento gerado. Por exemplo, a associação pode passar o valor de um campo do modelo de dados para um elemento de formato. Você pode configurar uma fonte de dados de coleta de dados para coletar valores de campos de modelo de dados no tempo de execução, somar valor e preencher um documento gerado com os valores obtidos. Para usar essa abordagem, altere a associação inicial de forma que a fonte de dados configurada da coleta de dados seja usada para passar o valor de um campo de modelo de dados para um elemento de formato. Ao passar valores por meio da fonte de dados da coleta de dados, você pode coletar detalhes necessários para uso futuro.
+Quando o ER executa um elemento de formato que contém uma associação, a fórmula dessa associação é executada e o elemento de formato adiciona o valor a um documento gerado. Por exemplo, a associação pode passar o valor de um campo do [modelo de dados](general-electronic-reporting.md#data-model-and-model-mapping-components) para um elemento de formato. Você pode configurar uma fonte de dados de coleta de dados para coletar valores de campos de modelo de dados no tempo de execução, somar valor e preencher um documento gerado com os valores obtidos. Para usar essa abordagem, altere a associação inicial de forma que a fonte de dados configurada da coleta de dados seja usada para passar o valor de um campo de modelo de dados para um elemento de formato. Ao passar valores por meio da fonte de dados da coleta de dados, você pode coletar detalhes necessários para uso futuro.
 
 Ao configurar uma fonte de dados de coleta de dados, especifique um tipo de valor que será gerenciado na fonte de dados. Os seguintes [tipos de dados](er-formula-supported-data-types-primitive.md) são atualmente aceitos para coletar valores:
 

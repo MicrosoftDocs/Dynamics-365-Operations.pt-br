@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 19f41020c6e1db8b08c7f69a58d33852c730931447803e2e1e970b1c293b6acd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9912151ef9fc68941858545e39bccc1e5d3e411
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779389"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358305"
 ---
 # <a name="settle-tds-payments-to-tds-authority-vendors-and-generate-tds-challan"></a>Liquidar pagamentos TDS para fornecedores da autoridade TDS e gerar challan TDS
 
@@ -29,7 +29,7 @@ ms.locfileid: "6779389"
 
 Este tópico explica como liquidar pagamentos de imposto deduzido na origem (TDS) para fornecedores de autoridade TDS.
 
-1. Acesse **Contas a pagar \> Pagamentos \> Diário de pagamentos do fornecedor**.
+1. Vá para **Contas a pagar \> Pagamentos \> Diário de pagamentos do fornecedor**.
 
     [![Página do diário de pagamentos do fornecedor.](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
 

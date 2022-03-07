@@ -1,12 +1,10 @@
 ---
 title: Depreciação manual
 description: Este artigo fornece uma visão geral do método de depreciação manual.
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 228e6c94042942a26793eb0bebc1186dd4767e7f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b5b62bbdd5d745bc9d0745cc6fa6d6e8034a61e3
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969020"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674818"
 ---
 # <a name="manual-depreciation"></a>Depreciação manual
 
@@ -32,11 +30,11 @@ Este artigo fornece uma visão geral do método de depreciação manual.
 
 Quando um perfil de depreciação do ativo fixo é configurado e você seleciona **Manual** no campo **Método** da página **Perfis de depreciação**, a depreciação de ativos fixos atribuídos a esse perfil de depreciação é determinada pela porcentagem informada para cada intervalo do ano de calendário. Os intervalos para os quais você configura porcentagens são lançados de acordo com o valor selecionado no campo **Frequência de período** da Guia Rápida **Geral** na página **Perfis de depreciação**. Estes são os valores que você pode selecionar:
 
--   Anualmente
--   Mensalmente
--   Trimestral
--   Semestral
--   Diariamente
+- Anualmente
+- Mensalmente
+- Trimestral
+- Semestral
+- Diariamente
 
 Depois de selecionar a frequência de período, clique em **Planos manuais** e configure as porcentagens de cada intervalo de lançamento. Juntos, os planos manuais e os intervalos de lançamento definem, juntos, o valor da depreciação, como mostram os exemplos posteriormente neste artigo. A depreciação manual sempre é calculada como uma porcentagem do preço de aquisição. Para a depreciação manual, as porcentagens informadas nos intervalos de depreciação não precisam somar 100%. A depreciação manual é um método de depreciação flexível que define um perfil de depreciação extraordinário na página **Registros**, como uma depreciação não periódica para fins especiais (por exemplo, impostos).
 
@@ -75,3 +73,6 @@ O total de porcentagens para todos os intervalos não precisa ser 100. Entretant
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

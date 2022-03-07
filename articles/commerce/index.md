@@ -2,34 +2,33 @@
 title: Home page do Commerce
 description: Página inicial do Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: ''
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 2fc5746d3a05eb85afbcb73079146fee899cebc7
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410337"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595351"
 ---
 # <a name="commerce-home-page"></a>Home page do Commerce
 
 [!include [banner](includes/banner.md)]
-
 
 Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja no call center e digital. Dynamics 365 Commerce permite criar a fidelidade com a marca por meio de envolvimentos de cliente personalizados, aumentar renda com produtividade de funcionário aprimorada, otimizar operações para reduzir custos e impulsionar eficiência de cadeia de fornecimento, e por fim entregando melhores desfechos comerciais.
 
@@ -41,18 +40,23 @@ Esta versão permite a criação das experiências digitais usando criação da 
 
 - **Experiência de omnicanal flexível e inteligente:** unifica comércio físico e digital oferecendo experiências consistentes aos clientes entre pesquisa de nuvem e descoberta, revisões de produto, listas de desejo, inventário, cartões-presente e lealdade. Permite que os clientes comprem quando, como, em onde desejam, em qualquer dispositivo, enquanto fornecem a escolha entre métodos de pagamento modernos e coleção ou entrega de produto.
 
-- **Simplificar operações usando a IA na nuvem:** impulsionem as experiências de comércio omnicanal e integradas, operações de back office otimizada por meio de inteligência de nuvem com base em contexto enraizado e difuso. Use a venda avançada, gerenciamento de estoque, gerenciamento de pedido distribuído e preços e promoção para inovar e se manter à frente da competição. Deriva insights visualizando e analisando dados abrangentes e consistentes entre todos os aspectos de seus negócios. Use tecnologias impulsionadas por IA para fornecer sites acessíveis, proteger sua empresa contra fraude de pagamento e conteúdo gerado por usuário moderado de forma eficiente como classificações e revisões. 
+- **Simplificar operações usando a IA na nuvem:** impulsionem as experiências de comércio omnicanal e integradas, operações de back office otimizada por meio de inteligência de nuvem com base em contexto enraizado e difuso. Use a venda avançada, gerenciamento de estoque, gerenciamento de pedido distribuído e preços e promoção para inovar e se manter à frente da competição. Deriva insights visualizando e analisando dados abrangentes e consistentes entre todos os aspectos de seus negócios. Use tecnologias impulsionadas por IA para fornecer sites acessíveis, proteger sua empresa contra fraude de pagamento e conteúdo gerado por usuário moderado de forma eficiente como classificações e revisões.
 
 ## <a name="core-concepts-and-tasks"></a>Conceitos e tarefas principais
 
 Escolha uma área de recursos para saber mais a respeito.
+
 - [Configurar um ambiente de visualização do Commerce](provisioning-guide.md)
-- [Arquitetura do Commerce](retail-components.md)
+- [Arquitetura do Commerce](./commerce-architecture.md)
 - [Configurar seus canais](channels-overview.md)
-- [Merchandising de seus produtos e serviços](set-up-retail-products.md)
-- [Gerenciar suar ordens](Order-fulfillment-overview.md)
+- [Comercialização de seus produtos e serviços](set-up-retail-products.md)
+- [Gerenciar suas ordens](Order-fulfillment-overview.md)
 - [Gerenciar seus clientes](set-up-customer-loyalty-program.md)
 - [Gerenciar suas finanças](retail-statements.md)
 - [Gerenciar seu site de comércio eletrônico](online-store-overview.md)
 - [Fraud Protection](dev-itpro/DFP.md)
-- [Desenvolvimento de comércio e extensibilidade](dev-itpro/dev-retail-home-page.md)
+- [Desenvolvimento do Commerce e extensibilidade](dev-itpro/dev-retail-home-page.md)
+
+## <a name="elearning-courses"></a>Cursos de eLearning
+
+Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Commerce no Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path).

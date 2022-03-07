@@ -2,11 +2,9 @@
 title: Escolha entre Modern POS (MPOS) e PDV em Nuvem
 description: Este tópico explica as principais diferenças entre o Modern POS e o PDV em Nuvem. Ele também descreve vários fatores que os varejistas que estão implementando o Dynamics 365 Commerce devem considerar para ajudá-los a fazer a melhor escolha de acordo com seus requisitos.
 author: jblucher
-manager: AnnBe
 ms.date: 10/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 330646da075e3fc8c0c3f7fe54b790ed42615395
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f19506d66aef22099dae9396fd345c293bf559b7
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970094"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193062"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Escolha entre Modern POS (MPOS) e PDV em Nuvem
 
@@ -59,7 +57,7 @@ Embora o MPOS e o CPOS sejam em grande parte os mesmos, existem algumas diferen�
 O MPOS em um dispositivo Windows, iOS ou Android é um aplicativo que é empacotado, instalado e atendido no dispositivo.
 
 - **Windows** – O MPOS para aplicativo do Windows contém todos os códigos do aplicativo e o tempo de execução de comércio inserido (CRT). 
-- **iOS/Android** – Nessas plataformas, o aplicativo funciona como um host para o código do aplicativo de CPOS. Em outras palavras, o código do aplicativo será obtido do servidor CPOS no Microsoft Azure ou no Commerce Scale Unit.. Para obter mais informações, consulte [Visão geral da Commerce Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – Nessas plataformas, o aplicativo funciona como um host para o código do aplicativo de CPOS. Em outras palavras, o código do aplicativo será obtido do servidor CPOS no Microsoft Azure ou no Commerce Scale Unit.. Para obter mais informações, consulte [Visão geral da Commerce Scale Unit](dev-itpro/retail-store-system-begin.md).
 
 #### <a name="cpos"></a>CPOS
 
@@ -81,11 +79,11 @@ O Commerce Scale Unit é um componente que hospeda o CRT. O CRT contém toda a l
 
 #### <a name="offline-mode"></a>Modo offline
 
-MPOS para Windows oferece suporte ao modo offline. No modo offline, o PDV pode continuar a processar vendas mesmo desconectado do servidor do Commerce Scale Unit.. Ele pode ser sincronizado com o banco de dados do canal quando a conectividade é restaurada. O MPOS usa sua própria instância inserida do CRT e utiliza temporariamente sua própria fonte de dados local (banco de dados do SQL Server offline). Para obter mais informações sobre recursos offline, consulte [Recursos offline do PDV](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality).
+MPOS para Windows oferece suporte ao modo offline. No modo offline, o PDV pode continuar a processar vendas mesmo desconectado do servidor do Commerce Scale Unit.. Ele pode ser sincronizado com o banco de dados do canal quando a conectividade é restaurada. O MPOS usa sua própria instância inserida do CRT e utiliza temporariamente sua própria fonte de dados local (banco de dados do SQL Server offline). Para obter mais informações sobre recursos offline, consulte [Recursos offline do PDV](pos-offline-functionality.md).
 
 ### <a name="pos-peripheralhardware-considerations"></a>Considerações sobre periférico/hardware de PDV
 
-Os varejistas também devem considerar como o PDV acessará os dispositivos e os periféricos como impressoras, caixas registradoras e terminais de pagamento. Somente o MPOS para Windows permite a comunicação direta com esses dispositivos. MPOS para Windows Phone, iOS ou Android e PDV em Nuvem exigem uma estação de hardware para acessar esses dispositivos. As estações de hardware podem ser dedicadas a um registro de PDV ou compartilhadas entre os registros de uma loja. Para obter mais informações sobre como instalar estações de hardware, consulte [Configurar e instalar uma estação de hardware do Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
+Os varejistas também devem considerar como o PDV acessará os dispositivos e os periféricos como impressoras, caixas registradoras e terminais de pagamento. Somente o MPOS para Windows permite a comunicação direta com esses dispositivos. MPOS para Windows Phone, iOS ou Android e PDV em Nuvem exigem uma estação de hardware para acessar esses dispositivos. As estações de hardware podem ser dedicadas a um registro de PDV ou compartilhadas entre os registros de uma loja. Para obter mais informações sobre como instalar estações de hardware, consulte [Configurar e instalar uma estação de hardware do Retail](retail-hardware-station-configuration-installation.md).
 
 ## <a name="implementation-considerations"></a>Considerações de implementação
 
@@ -102,5 +100,8 @@ Considere as seguintes informações enquanto planeja sua implementação de PDV
     Essas duas opções não são mutuamente exclusivas. Para a topologia mais confiável, os varejistas podem implantar uma RSSU local para reduzir a dependência da conectividade com a Internet ou a disponibilidade do Azure. Também é possível implantar registros de PDV onde o modo offline estiver ativado se houver um problema com o servidor ou rede local.
 
 - **Dispositivos de hardware/periféricos** – Um aspecto importante de um sistema Retail POS é sua capacidade de usar periféricos de PDV, como impressoras, caixas registradoras e terminais de pagamento. Embora todas as opções disponíveis de PDV possam usar dispositivos periféricos, somente o MPOS para Windows pode suportá-las diretamente. Para todos os outros aplicativos, uma ou mais estações de hardware são necessárias. Embora essa abordagem adicione flexibilidade, componentes adicionais devem ser implantados, configurados e ter manutenção.
-- **Requisitos do sistema** – Os requisitos do sistema para o aplicativo de PDV variam. Lembre-se de verificar as informações mais recentes antes de fazer sua escolha. Por exemplo, como o CPOS é executado em um navegador, ele oferece suporte a uma ampla variedade de sistemas operacionais. Para obter mais informações sobre os requisitos do sistema, consulte [Requisitos de sistema para implantações na nuvem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
+- **Requisitos do sistema** – Os requisitos do sistema para o aplicativo de PDV variam. Lembre-se de verificar as informações mais recentes antes de fazer sua escolha. Por exemplo, como o CPOS é executado em um navegador, ele oferece suporte a uma ampla variedade de sistemas operacionais. Para obter mais informações sobre os requisitos do sistema, consulte [Requisitos de sistema para implantações na nuvem](../fin-ops-core/fin-ops/get-started/system-requirements.md).
 - **Implantação e manutenção** – A complexidade dos requisitos de implantação e manutenção pode variar, dependendo das escolhas de aplicativos e implantação. Por exemplo, para uma implementação de CPOS hospedada em nuvem, não é necessário instalação e atualização em cada dispositivo. Portanto, essa abordagem reduz muito a complexidade e os custos. No entanto, se você implantar o MPOS em cada registro e habilitar o modo offline, e também implantar estações de hardware compartilhadas, aumentará muito o número de pontos de extremidade que devem ser gerenciados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

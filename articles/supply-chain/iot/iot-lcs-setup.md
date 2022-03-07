@@ -1,27 +1,25 @@
 ---
 title: Instale o suplemento de Inteligência de IoT no LCS
 description: Este tópico explica como instalar o suplemento de Inteligência de IoT no Microsoft Dynamics Lifecycle Services (LCS).
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d55ca1975589699cbce03dcc7bf81e0762738d24
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963476"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781579"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Instale o suplemento de Inteligência de IoT no LCS
 
@@ -31,17 +29,17 @@ Este tópico explica como instalar o suplemento de Inteligência de IoT no Micro
 
 ## <a name="set-up-the-lcs-environment"></a>Configurar o ambiente LCS
 
-1. Abra o LCS e vá para o seu ambiente do Microsoft Dynamics 365 Supply Chain Management.
+1. Abra o LCS e Acesse o seu ambiente do Microsoft Dynamics 365 Supply Chain Management.
 2. Role até a seção **Suplementos de ambiente**.
 3. Selecione **Instalar um novo suplemento** para mostrar a lista de suplementos que foram habilitados para o ambiente.
 4. Na caixa de diálogo **Selecionar um suplemento para instalar**, selecione a **Inteligência de IoT**.
 5. Na caixa de diálogo **Configuração do suplemento**, forneça os detalhes do seu Hub IoT e do cache de Redis. Você pode encontrar os valores necessários no cofre de chaves criado em [Criar recursos do Azure](iot-azure-setup.md).
 
     + **ID do locatário** – No portal do Azure, acesse o cofre de chaves, e no painel à esquerda, selecione **Visão geral** e copie o valor **ID do diretório**. Cole esse valor na **Suplemento de configuração**.
-    + **URI do cofre de chaves de ponto de extremidade compatível com Hub de eventos IoT** – Vá para o cofre de chaves e, no painel de navegação à esquerda, selecione **Visão geral** e copie o valor **Nome DNS**. Cole esse valor na **Suplemento de configuração**.
-    + **Nome do segredo da empresa compatível com Hub de eventos IoT** – Vá para o cofre de chaves e, no painel de navegação à esquerda, selecione **Segredos** e copie o nome do segredo no qual a sequência de conexão do Hub de eventos do Hub IoT é armazenada. Cole esse valor na **Suplemento de configuração**.
-    + **URI do cofre de chaves de cache Redis** – Vá para o cofre de chaves e, no painel de navegação à esquerda, selecione **Visão geral** e copie o valor **Nome DNS**. Cole esse valor na **Suplemento de configuração**.
-    + **Nome do segredo do cache Redis** – Vá para o cofre de chaves e, no painel de navegação à esquerda, selecione **Segredos** e copie o nome do segredo no qual a sequência de conexão do cache Redis do Hub IoT é armazenada. Cole esse valor na **Suplemento de configuração**.
+    + **URI do cofre de chaves de ponto de extremidade compatível com Hub de eventos IoT** – Acesse o cofre de chaves e, no painel de navegação à esquerda, selecione **Visão geral** e copie o valor **Nome DNS**. Cole esse valor na **Suplemento de configuração**.
+    + **Nome do segredo da empresa compatível com Hub de eventos IoT** – Acesse o cofre de chaves e, no painel de navegação à esquerda, selecione **Segredos** e copie o nome do segredo no qual a sequência de conexão do Hub de eventos do Hub IoT é armazenada. Cole esse valor na **Suplemento de configuração**.
+    + **URI do cofre de chaves de cache Redis** – Acesse o cofre de chaves e, no painel de navegação à esquerda, selecione **Visão geral** e copie o valor **Nome DNS**. Cole esse valor na **Suplemento de configuração**.
+    + **Nome do segredo do cache Redis** – Acesse o cofre de chaves e, no painel de navegação à esquerda, selecione **Segredos** e copie o nome do segredo no qual a sequência de conexão do cache Redis do Hub IoT é armazenada. Cole esse valor na **Suplemento de configuração**.
 
 6. Marque a caixa de seleção para aceitar os termos e condições.
 7. Selecione **Instalar**.
@@ -55,3 +53,6 @@ A configuração do LCS está concluída. A próxima etapa é [configurar os cen
 2. Em LCS, navegue até os detalhes do ambiente Supply Chain Management.
 3. Role até a seção **Suplementos de ambiente**.
 4. Selecione **Desinstalar** para o suplemento de inteligência IOT.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

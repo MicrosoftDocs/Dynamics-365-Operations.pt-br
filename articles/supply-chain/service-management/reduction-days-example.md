@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87c46cd7ee7410e1c7cb88868cd19f5075482f8c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: df528bf7e95ee7ea74a792894b5e1c2f50c57730
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421927"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234744"
 ---
 # <a name="reduction-days-example"></a>Exemplo de dias de redução 
 
@@ -121,3 +120,6 @@ Quando as transações de março de 2011 são faturadas, o preço de venda de 20
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102879"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351408"
 ---
 # <a name="outbound-workload-visualization"></a>Visualização da carga de trabalho de saída
 
@@ -27,9 +27,12 @@ Recursos de configuração avançados acessíveis por meio da página **Visualiz
 
 Essa funcionalidade pode ser usada para acompanhar o andamento do trabalho de separação. O recurso está integrado ao gerenciamento de mão de obra e, se este estiver configurado, as visualizações de cargas de trabalho de saída poderão mostrar um cálculo do número de horas restantes para o trabalho de separação exibido (filtrado).
 
-## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Ativar ou desativar o recurso Visualização da carga de trabalho de saída
+## <a name="turn-on-the-outbound-workload-visualization-feature"></a>Ativar o recurso Visualização de carga de trabalho de saída
 
-A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Visualização da carga de trabalho de saída* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações do [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+
+- **Módulo:** *Gerenciamento de Depósito*
+- **Nome do recurso:** *Visualização de carga de trabalho de saída*
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Configurar visualizações de cargas de trabalho de saída
 
@@ -37,7 +40,7 @@ Para configurar suas visualizações, crie uma coleção de filtros (exibições
 
 Para configurar uma visualização de carga de trabalho de saída, siga estas etapas.
 
-1. Acesse **Gerenciamento de depósito \> Relatórios de monitoramento de depósito \> Visualização de carga de trabalho de saída**.
+1. Vá para **Gerenciamento de depósito \> Relatórios de monitoramento de depósito \> Visualização de carga de trabalho de saída**.
 
     A página **Visualização de carga de trabalho de saída** será exibida. Depois que você criar alguns filtros, essa página mostrará sua visualização. Você pode criar quantos filtros desejar. Todos os filtros criados por você são salvos na sua conta de usuário, para que possa usá-los posteriormente. Em outras palavras, cada usuário terá seu próprio conjunto de filtros que criou. Esses filtros não serão compartilhados com outros usuários.
 

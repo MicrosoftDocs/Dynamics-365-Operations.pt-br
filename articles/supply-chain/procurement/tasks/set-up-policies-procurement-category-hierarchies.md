@@ -1,26 +1,24 @@
 ---
 title: Configurar políticas para hierarquias de categoria de compras
 description: Use este procedimento para configurar regras para encomendar produtos em uma categoria.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee056d7c2a8bdc9bcd2f5a0f4b96a7bf69c8c862
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017078"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577087"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Configurar políticas para hierarquias de categoria de compras
 
@@ -30,7 +28,7 @@ Use este procedimento para configurar regras para encomendar produtos em uma cat
 
 
 ## <a name="find-the-procurement-policy"></a>Encontre a política de obtenção
-1. No Painel de navegação, vá para **Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
+1. No Painel de navegação, Acesse **Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
 2. Clique no link da política do 'USMF da política de aquisição'. Esta é a política que você adicionará a uma regra. Deve ser uma política ativa.  
 
 ## <a name="create-a-category-access-rule"></a>Criar uma regra de acesso de categoria
@@ -51,3 +49,6 @@ Use este procedimento para configurar regras para encomendar produtos em uma cat
 6. No campo **Seleção do fornecedor**, selecione uma opção. Selecione uma regra para controlar quais tipos de vendedores podem ser selecionados para a categoria quando as requisições são criadas.  
 7. Clique em **Fechar**. A regra de política que você definiu foi para requisições do tipo consumo. Se você quis definir políticas para requisições do tipo Reabastecimento, você criaria uma regra para o tipo de regra de política chamado "Regra de política para acessar reabastecimento de categoria".  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

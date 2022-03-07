@@ -2,25 +2,22 @@
 title: Calcular juros e multas sobre pagamentos de fornecedores (Brasil)
 description: Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasados.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 036edbcd41281001f731dae8fda34ef7820b957d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 313a66b871ee375ddad00487504c30787c0f6917f63297d82e52f87217be1e4e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714421"
 ---
 # <a name="calculate-interest-and-fines-on-vendor-payments-brazil"></a>Calcular juros e multas sobre pagamentos de fornecedores (Brasil)
 
@@ -28,7 +25,7 @@ ms.locfileid: "4408429"
 
 Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasados. Os valores dos juros e da multa que se aplicam a um pagamento podem ser calculados quando você faz um pagamento para um fornecedor. Antes de calcular os códigos de juros ou de multa para pagamentos de fornecedor, você deverá configurar uma lista de feriados bancários e de feriados nacionais. Uma data de feriado que é configurada na página Calendário de pagamentos será considerada como um dia que não é útil. Se uma fatura vencer em um dia que não seja útil, a data de vencimento se deslocará para o próximo dia útil no calendário, e os juros e as multas serão calculadas de acordo com essa data. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Contas a pagar > Fornecedores > Todos os fornecedores.
+1. Acesse Contas a pagar > Fornecedores > Todos os fornecedores.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Expandir a seção Pagamento.
@@ -41,7 +38,7 @@ Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasad
 11. Clique em Salvar.
 12. Feche a página.
 13. Feche a página.
-14. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
+14. Acesse Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
 15. Clique em Novo.
 16. No campo Conta de fornecedor, insira ou selecione um valor.
 17. Clique em OK.
@@ -55,7 +52,7 @@ Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasad
 25. Clique em Confirmar.
 26. Feche a página.
 27. Feche a página.
-28. Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.
+28. Acesse Contas a pagar > Ordens de compra > Todas as ordens de compra.
 29. Na lista, clique no link na linha selecionada.
 30. No Painel de Ação, clique em Fatura.
 31. Clique em Fatura.
@@ -67,7 +64,7 @@ Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasad
 37. Clique em Lançar.
 38. Feche a página.
 39. Feche a página.
-40. Vá para Contas a pagar > Pagamentos > Diário de pagamentos.
+40. Acesse Contas a pagar > Pagamentos > Diário de pagamentos.
 41. Clique em Novo.
 42. Na lista, marque a linha selecionada.
 43. No campo Nome, insira ou selecione um valor.
@@ -87,3 +84,6 @@ Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasad
 57. Feche a página.
 58. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

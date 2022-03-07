@@ -1,38 +1,35 @@
 ---
 title: Configurar estágios da ordem de serviço
 description: Configurar estágios da ordem de serviço.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86d60a67b60b1bd3a13666b35f729f88ecfee3d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bf05b86fe0fd08c72351ea753a97d36604a55ac9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421857"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580279"
 ---
 # <a name="set-up-service-order-stages"></a>Configurar estágios da ordem de serviço 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Clique em **Gerenciamento de serviços** \> **Configuração** \> **Ordens de serviço** \> **Fases de serviço**.
+1.  Acesse **Gerenciamento de serviços** \> **Configuração** \> **Ordens de serviço** \> **Fases de serviço**.
 
-2.  Pressione CTRL+N para criar um novo registro.
+2.  Selecione **Novo** para criar um novo registro.
 
 3.  Nos campos **Etapa de serviço** e **Descrição**, especifique uma ID de etapa de serviço e uma descrição.
 
@@ -49,3 +46,6 @@ ms.locfileid: "4421857"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

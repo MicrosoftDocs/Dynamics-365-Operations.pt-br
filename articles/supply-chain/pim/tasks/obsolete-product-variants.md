@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5efd1d471559d320102cd81e4be1ba8c1858f45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 33f16cf8c731dc1a954ed94229b2a833510dac4f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422037"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245170"
 ---
 # <a name="find-obsolete-product-variants"></a>Localizar grades de produtos obsoletos 
 
@@ -73,3 +72,6 @@ Este procedimento mostra como localizar produtos ou grades de produtos liberados
 
 8. Na lista, localize e selecione o PDV desejado.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

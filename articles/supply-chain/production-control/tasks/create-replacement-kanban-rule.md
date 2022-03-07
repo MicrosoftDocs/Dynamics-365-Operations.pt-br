@@ -1,28 +1,25 @@
 ---
 title: Criar uma regra kanban de substituição
 description: Esse procedimento se concentra em substituir uma regra kanban existente por uma nova regra kanban em uma data específica.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae589f81811c1586e0e24de94eaf5f467f19debb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2db44c1b43a6dc5e0ab37a7756c4eecaab468e15
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421897"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570048"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Criar uma regra kanban de substituição
 
@@ -32,7 +29,7 @@ Esse procedimento se concentra em substituir uma regra kanban existente por uma 
 
 
 ## <a name="select-a-kanban-rule-to-replace"></a>Selecionar uma regra kanban para substituir
-1. Vá para Regras kanban.
+1. Acesse Regras kanban.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecionar regra kanban 000022.  
 
@@ -56,3 +53,6 @@ Esse procedimento se concentra em substituir uma regra kanban existente por uma 
 1. Defina Quantidade máxima como '100'.
     * Expanda as quantidades FastTab para ver o campo Quantidade máxima. Alterar a quantidade máxima para 100 permitirá que até 100 kanbans sejam processados.    Esta é a última etapa da tarefa.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

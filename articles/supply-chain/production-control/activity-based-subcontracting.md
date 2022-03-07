@@ -2,11 +2,9 @@
 title: Subcontratação baseada em atividade
 description: Este tópico descreve detalhadamente como usar atividades subcontratadas em um fluxo de produção para lean manufacturing.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule, PlanActivityServiceDetails, PlanActivityServiceWizard
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 010b934821eaf04dc93d803d03a8fbd198de91a6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0be6bff303b057a98c399c36eb35c3df8177376112143052b3c0e5652b62a286
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740614"
 ---
 # <a name="activity-based-subcontracting"></a>Subcontratação baseada em atividade
 
@@ -105,3 +103,6 @@ O Supply Chain Management agora tem suporte para o cálculo da BOM que inclui se
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

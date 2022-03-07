@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 020c2a72515eb112adb33c6b58e3a5084339d040
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410294"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243812"
 ---
 # <a name="product-details-pages-overview"></a>Visão geral das páginas de detalhes do produto
 
@@ -30,7 +29,7 @@ ms.locfileid: "4410294"
 
 Este tópico fornece uma visão geral das páginas de detalhes do produto (PDPs) no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Uma PDP fornece informações detalhadas sobre um produto e permite que os clientes selecionem opções de produtos, como tamanho, estilo e cor. Uma PDP deve mostrar todas as informações do produto que um cliente precisa para tomar uma decisão de compra.
 
@@ -88,3 +87,6 @@ Se o conteúdo de marketing for exclusivo de um produto específico, qualquer m�
 [Visão geral das páginas de gerenciamento da conta](quick-tour-account-management.md)
 
 [Enriquecer uma página de detalhes de produto](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

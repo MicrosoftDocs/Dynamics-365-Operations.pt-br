@@ -2,26 +2,23 @@
 title: Colocar no mural - colocar na loja
 description: Este tópico fornece informações sobre a funcionalidade Colocar no mural - colocar na loja. Essa funcionalidade permite trabalhar com cenários onde você deve consolidar um produto em uma área de preparo do pacote com base em critérios configuráveis. Ela ajuda a diminuir o tempo de separação porque permite separar em uma única placa de licença de destino e pode usar mais posições de colocação do que a separação de cluster.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422518"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823278"
 ---
 # <a name="put-to-wall---put-to-store"></a>Colocar no mural - colocar na loja
 
@@ -525,7 +522,7 @@ Agora que todo o estoque foi colocado na localização de classificação, ele d
 
 Se as posições de classificação tiverem que ser fechadas manualmente, a opção **Posição de classificação de fechamento automático** do modelo de classificação de saída deverá ser definida como *Não* e o fechamento deverá ser feito antes que o estoque possa ser movido para a área da porta da baía. As posições podem ser fechadas de várias maneiras:
 
-- Por meio do aplicativo de depósito:
+- Por meio do aplicativo móvel de Gerenciamento de depósito:
 
     - O usuário pode examinar um dos itens que já estão na posição e selecionar **Fechar** para fechar a posição.
     - Se o usuário examinar um contêiner que já foi classificado, será exibida uma mensagem de erro. No entanto, o usuário ainda poderá continuar para fechar a posição.
@@ -541,3 +538,6 @@ Se as posições de classificação tiverem que ser fechadas manualmente, a opç
 
 > [!IMPORTANT]
 > Depois que o trabalho de movimentação tiver sido criado com base na localização de classificação, você não deverá cancelá-lo. Caso contrário, a posição e os contêineres nela serão excluídos do sistema e ficarão indisponíveis para processamento adicional. O estoque também será removido.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Consolide as remessas manualmente usando a página Consolidar remessas
 description: Este tópico apresenta um cenário em que várias ordens são liberadas para o depósito e consolidadas posteriormente usando a página Consolidar remessas.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ac60bef797d8e0bbe0d20f1585d5c3c0163f8788
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0da98b24b9e0ab1ae19fd353ec226b2e0ab008fe
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421949"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574200"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Consolide as remessas manualmente usando a página Consolidar remessas
 
@@ -41,7 +38,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 Comece criando uma coleção de ordens de venda com as quais possa trabalhar. Você deve trabalhar com um depósito habilitado para processos de depósito avançados (WMS). A menos que um depósito diferente seja explicitamente mencionado, esse mesmo depósito deve ser usado para cada um dos conjuntos de ordens a seguir.
 
-Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
+Acesse **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
 
 ### <a name="create-sales-orders-1-and-2"></a>Criar as ordens de venda 1 e 2
 
@@ -75,7 +72,7 @@ Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma c
 
 Siga estas etapas para liberar cada ordem de venda criada para esse cenário para o depósito.
 
-1. Vá para **Contas a receber \> Ordens \> Todas as ordens de venda**.
+1. Acesse **Contas a receber \> Ordens \> Todas as ordens de venda**.
 1. Encontre e selecione a ordem de venda a ser liberada.
 1. No Painel de Ações, na guia **Depósito**, selecione **Ações \> Liberar para depósito** para liberar a ordem de venda selecionada.
 1. Repita este procedimento para todas as outras ordens de venda criadas para esse cenário.
@@ -98,3 +95,5 @@ Siga estas etapas para liberar cada ordem de venda criada para esse cenário par
 
 - [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
 - [Configurar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

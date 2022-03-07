@@ -1,12 +1,10 @@
 ---
 title: Crie ativos com base em ordens de compra
 description: Este tópico explica como criar uma lista de itens de ativo que pode ser usada como base para a criação de ativos para trabalhos de manutenção em Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectItem, EntAssetPendingAssets
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83419fa5c6b6aee0b321c526565c3518deaf4bd0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 51896f512a00bd41617fd02c2cd364c4e00eb774
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016975"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811149"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Crie ativos com base em ordens de compra
 
@@ -69,3 +67,6 @@ Você pode executar uma **Contagem de ativos pendentes** para verificar os ativo
 3. Você pode configurar este trabalho para executar como um trabalho em lotes, por exemplo, uma vez a cada dia.
 
 **Cuidado:** se os dados forem alterados em uma ordem de compra *após* você criar um ativo com base no item relativo, as alterações não serão refletidas no ativo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

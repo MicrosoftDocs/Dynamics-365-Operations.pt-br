@@ -2,28 +2,25 @@
 title: Princípios de liberação
 description: Este tópico descreve os quatro princípios de liberação usados para o consumo de matéria-prima.
 author: johanhoffmann
-manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f644f26098bf7ac7d13292d6fbabb09a488d61e29fcd5fbd3cf0d261f0529bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422118"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768014"
 ---
 # <a name="flushing-principles"></a>Princípios de liberação
 
@@ -33,7 +30,7 @@ Os princípios de liberação refletem diferentes estratégias de consumo de mat
 
 Antes do consumo do material, os materiais serão movidos para o local de entrada. A ilustração a seguir mostra o processo.
 
-[![scenario4a](./media/scenario4a.png)](./media/scenario4a.png)
+[![scenario4a.](./media/scenario4a.png)](./media/scenario4a.png)
 
 1. Depósito de material
 2. Separação de matéria-prima
@@ -63,3 +60,6 @@ O princípio de liberação Final indica se o material será automaticamente con
 
 ### <a name="available-at-location"></a>Disponível no local
 O princípio de liberação Disponível no local indica se o material será automaticamente consumido quando for registrado como separado para produção. O material é registrado como separado do local quando o trabalho da separação de matéria-prima é concluído ou quando o material está disponível no local de entrada de produção e a linha de material é liberada para o depósito. A lista de separação gerada durante o processo é lançada em um trabalho em lotes. Esse princípio será relevante se, por exemplo, você tiver diversas atividades de separação em uma ordem de produção. Nesse caso, você não precisará atualizar a lista de separação manualmente e poderá obter uma exibição atual do saldo WIP.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

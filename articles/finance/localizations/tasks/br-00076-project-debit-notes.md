@@ -2,26 +2,23 @@
 title: Notas de débito do projeto (Brasil)
 description: Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61ba5dafc8aa7a817a2609eaef6314ebdda487c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 41b6a2cade87b333c3c442e073576d8fcd320ba2b99a1d7a3678008543c7e4fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748925"
 ---
 # <a name="project-debit-notes-brazil"></a>Notas de débito do projeto (Brasil)
 
@@ -29,7 +26,7 @@ ms.locfileid: "4408418"
 
 Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto. A empresa de dados demo usada para criar este procedimento é BRMF.
 
-1. Vá para Gerenciamento e contabilidade de projetos > Diários > Despesa.
+1. Acesse Gerenciamento e contabilidade de projetos > Diários > Despesa.
 2. Clique em Novo.
 3. Na lista, marque a linha selecionada.
 4. No campo Nome, insira ou selecione um valor.
@@ -46,7 +43,7 @@ Você pode gerar notas de débito para projetos para obter reembolso de despesas
 15. Clique em Lançar.
 16. Feche a página.
 17. Feche a página.
-18. Vá para Gerenciamento e contabilidade de projetos > Notas de débito do projeto > Propostas de nota de débito do projeto.
+18. Acesse Gerenciamento e contabilidade de projetos > Notas de débito do projeto > Propostas de nota de débito do projeto.
 19. Clique em Novo.
 20. Clique em Proposta de nota de débito.
 21. No campo Contrato de Projeto, insira ou selecione um valor.
@@ -59,3 +56,6 @@ Você pode gerar notas de débito para projetos para obter reembolso de despesas
 28. Feche a página.
 29. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

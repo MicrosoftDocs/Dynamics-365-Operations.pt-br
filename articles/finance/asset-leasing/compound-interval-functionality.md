@@ -2,28 +2,25 @@
 title: Funcionalidade com intervalo de composição
 description: Este tópico fornece informações que ajudarão você a escolher entre os intervalos de composição mensal, trimestral, semestral e anual.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c37da09f50448c27b20dfacccf2e7134b828f13b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9d0f01748d370dfa5351ceb007a630564ca5d3a76c142830f32ce11951db9088
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716684"
 ---
 # <a name="compounding-interval-functionality"></a>Funcionalidade com intervalo de composição
 
@@ -160,3 +157,6 @@ A tabela a seguir lista os 12 primeiros meses da agenda de pagamento. Observe os
 
 > [!NOTE]
 > Se o tipo de anuidade for alterado para **anuidade devido**, o pagamento será em janeiro em vez de dezembro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

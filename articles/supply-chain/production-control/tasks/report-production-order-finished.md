@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd, ProdSetupReportFinished
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93193e6365bcf82fbbf93af81e2581a358899fa1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f4848093bd4901d3aa801fc09d7ee3e79d65ebb0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421876"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204440"
 ---
 # <a name="report-a-production-order-as-finished"></a>Relatar uma ordem de produção como concluída
 
@@ -52,3 +51,6 @@ Este procedimento mostra como relatar uma ordem de produção como concluída. A
 4. Na lista, clique no link na linha selecionada.
     * O diário Relatório de conclusão é lançado. Se quiser fazer ajustes no diário, você pode criar manualmente um diário no qual é possível fazer alterações.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

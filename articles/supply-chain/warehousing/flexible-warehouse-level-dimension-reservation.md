@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b7d855914e59d90dd082c9e9a027604579a2f411
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422511"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235403"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensão no nível de depósito flexível
 
@@ -854,3 +853,6 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
     - Ordens de transferência e separação de matéria-prima
 
 - A regra de consolidação de contêineres para empacotamento por unidade de diretiva tem limitações. Para as reservas confirmadas na ordem, é recomendável não usar os modelos de compilação de contêiner em que o campo **Empacotar por unidade de diretiva** esteja habilitado. No design atual, as diretivas de local não são usadas quando o trabalho de depósito é criado. Portanto, somente a menor unidade no grupo de sequências de unidades (a unidade de estoque) é aplicada durante a etapa da onda de transporte em contêineres.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

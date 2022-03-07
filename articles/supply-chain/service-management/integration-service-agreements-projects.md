@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 578e4b9fe5ef487e999fd0de28d7566bad21fd89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bd0a7de17e8ff098220fd183b714b77225cc217f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247301"
 ---
 # <a name="integration-for-service-agreements-and-projects"></a>Integração dos contratos de serviço e projetos 
 
@@ -83,3 +82,6 @@ Você também poderá habilitar os campos **Hora de início** e **Hora de térmi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,23 @@
 ---
 title: Visão geral de crédito e cobranças
 description: Este tópico apresenta uma visão geral da funcionalidade de crédito e cobranças.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 09/04/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67e0b3d1058e5fc085f51577ccf0b79e51546de0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 293a6c507c6abd6009a23403384c3b58a1a55a52
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440319"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982603"
 ---
 # <a name="credit-and-collections-overview"></a>Visão geral de crédito e cobranças
 
@@ -77,3 +74,6 @@ Para obter descrições desses conceitos, consulte [Principais conceitos de gere
 [Bloqueios de crédito para ordens de venda](./cm-sales-order-credit-holds.md)
 
 [Tarefas periódicas de gerenciamento de crédito de cliente](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

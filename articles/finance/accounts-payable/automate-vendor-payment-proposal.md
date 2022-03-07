@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: d6a53b2cb48856083f3b2e40fca8adb92f4e5113
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440572"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250641"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizar propostas de pagamento de fornecedor
 
@@ -144,3 +143,6 @@ Os direitos e privilégios a seguir foram adicionados para automações de propo
 | Consultar ocorrências da agenda | Auxiliar de pagamento de contas a pagar, assistente de pagamento centralizado de contas a pagar | Esse direito concede os direitos de visualizar as ocorrências de automação da proposta de pagamento por meio dos seguintes privilégios:<ul><li>Visualizar ocorrências da agenda</li><li>Visualizar a exibição semanal de ocorrências</li></ul> |
 | Consultar séries da agenda      | Nemhum(a)                                                                       | Esse direito concede os direitos de visualizar as configurações da série e ocorrências por meio dos seguintes privilégios:<ul><li>Visualizar ocorrências da agenda</li><li>Visualizar a página de listagem de ocorrências</li><li>Visualizar a exibição semanal de ocorrências</li></ul>|
 | Manter ocorrências da agenda     | Nemhum(a)                                                                       | Esse direito concede os direitos de criar e manter uma ocorrência por meio dos seguintes privilégios:<ul><li>Manter ocorrências da agenda</li><li>Visualizar a exibição semanal de ocorrências</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

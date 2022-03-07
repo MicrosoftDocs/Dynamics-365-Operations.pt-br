@@ -1,30 +1,27 @@
 ---
 title: Alternativas de entrega
 description: Os tomadores de ordem de venda podem usar a página de Alternativas de entrega para descobrir opções alternativos de preenchimento da ordem.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 271623
 ms.assetid: 527f6084-44fe-41bb-924f-4386e926358a
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 48cc8974cc8a8769b3d05f47f82166164e877ae5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f58f7923d82f3aa371ba916352211195870f9a75
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422226"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572616"
 ---
 # <a name="delivery-alternatives"></a>Alternativas de entrega
 
@@ -35,18 +32,20 @@ Os tomadores de ordem de venda podem usar a página de **Alternativas de entrega
 O layout da página **Alternativas de entrega** apresenta uma visão geral melhor de todas as opções alternativas. Também permite que os tomadores de ordem olhe além da empresa atual para obter oportunidades de atendimento. Eles agora podem exibir as oportunidades intercompanhia e as oportunidades dos fornecedores externos. Classificando as opções por data de entrega, os tomadores de ordem de venda podem exibir uma lista inteligente de alternativas de entrega. Além disso, os parâmetros nos ajudam a gerenciar melhor as entregas sugeridas. Como o tempo de transporte pode afetar datas de entrega, os tomadores de ordem de venda podem explorar várias opções de transporte que as transportadoras oferecem. Como as informações detalhadas são mostradas para cada sugestão, os tomadores de ordem podem tomar decisões diretamente da página **Alternativas de entrega**.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Abra a página Alternativas de entrega
+
 Você pode abrir a página **Alternativas de entrega** da linha de ordem de venda.
 
-1.  Clique em **Produtos e fornecimento** &gt; **Alternativas de entrega**.
-2.  Clique em **Detalhes da linha** &gt; **Entrega** &gt; **Alternativas de entrega.**
+1. Selecione **Produtos e fornecimento \> Alternativas de entrega**.
+1. Selecione **Detalhes da linha \> Entrega \> Alternativas de entrega.**
 
-Você também pode abrir a página **Alternativas de entrega** abrindo o espaço de trabalho **Processamento e consulta de ordem de venda** e, em seguida, clicando em &gt; **Ordens e favoritos** **Linhas de ordem atrasadas** &gt; **Alternativas de entrega** **Observação:** você pode abrir as **Alternativas de entrega** somente se as seguintes condições forem atendidas:
+Outra forma de abrir a página **Alternativas de entrega** é abrir o espaço de trabalho **Processamento e consulta de ordem de venda** e clicar em **Ordens e favoritos \> Linhas de ordem atrasadas \> Alternativas de entrega** **Observação:** você só pode abrir a página **Alternativas de entrega** se as seguintes condições forem atendidas:
 
--   Todas as informações da linha de venda obrigatórias são preenchidas.
--   O campo **Controle da data de entrega** é definido para um valor diferente de **Nenhum**.
+- Todas as informações da linha de venda obrigatórias são preenchidas.
+- O campo **Controle da data de entrega** é definido para um valor diferente de **Nenhum**.
 
 ## <a name="delivery-date-control-methods"></a>Métodos de controle da data de entrega
-O método de controle de data de entrega determina como o sistema estabelece as datas de entrega, como as alternativas de entrega são calculadas e quais informações são mostradas. Observe que o controle de dados de entrega leva em consideração os calendários. Portanto, os seguintes calendários podem afetar a data sugerida de recibo: calendário de depósito, calendário de transporte, calendário do fornecedor e calendário do cliente. A tabela a seguir descreve cada método de controle de data de entrega.
+
+O método de controle de data de entrega determina como o sistema estabelece as datas de entrega, como as alternativas de entrega são calculadas e quais informações são mostradas. Observe que o controle de datas de entrega leva em consideração os calendários. Portanto, os seguintes calendários podem afetar a data sugerida de recibo: calendário de depósito, calendário de transporte, calendário do fornecedor e calendário do cliente. A tabela a seguir descreve cada método de controle de data de entrega.
 
 <table>
 <colgroup>
@@ -61,7 +60,7 @@ O método de controle de data de entrega determina como o sistema estabelece as 
 <tr class="even">
 <td><strong>Nenhuma</strong></td>
 <td><ul>
-<li>Alternativas de entrega para linhas de venda não são suportadas. Esta opção desativa o controle de dados da entrega.</li>
+<li>Alternativas de entrega para linhas de venda não são compatíveis. Esta opção desativa o controle de datas da entrega.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -102,54 +101,53 @@ O método de controle de data de entrega determina como o sistema estabelece as 
 </table>
 
 ## <a name="view-information-about-delivery-alternatives"></a>Exibir informações sobre alternativas de entrega
-Esta seção descreve as informações sobre alternativas de entrega que estão disponíveis em cada guia da página **Alternativas de entrega**.
 
-### <a name="products"></a>Produtos
+Esta seção descreve as informações sobre alternativas de entrega que estão disponíveis em cada guia rápida da página **Alternativas de entrega**.
 
-Esta guia mostra um resumo dos produtos e os detalhes da linha de venda atual.
+### <a name="the-product-fasttab"></a>A guia rápida Produtos
 
-### <a name="delivery-alternatives"></a>Alternativas de entrega
+Esta guia rápida mostra um resumo dos produtos e os detalhes da linha de venda atual.
 
-Esta guia mostra uma lista de alternativas de entrega classificada por dados do recibo. Acima da lista, é possível selecionar em quais opções se baseiam as sugestões. Você também pode selecionar o modo de entrega, que determina os dias de transporte. As opções a seguir estão disponíveis:
+### <a name="the-delivery-alternatives-fasttab"></a>A guia rápida Alternativas de entrega
 
--   **Incluir outras variantes de produto** - Esta opção está disponível para produtos que têm variantes do produto. Incluirá alternativas de entrega para outras variantes do produto. Esta opção não está disponível para o CTP.
--   **Incluir quantidade parcial** - Por padrão, somente as sugestões que atendem a quantidade total das linhas de venda são incluídas. Selecione esta opção para incluir as que atendem apenas parcialmente a linha de ordem. Essa opção é útil quando o cliente solicita uma data de entrega anterior e aceita a entrega parcial.
--   **Incluir datas posteriores** - Por padrão, somente são mostradas as sugestões melhores (anteriores) que as datas atuais na linha de venda. Selecione esta opção para incluir as datas posteriores. Essa opção pode ser útil em situações onde os parâmetros diferente da data têm prioridade. Por exemplo, um fornecedor ou depósito específico podem ser preferenciais.
--   **Modo de entrega** - Selecione o modo de entrega preferido para otimizar tempo e custo de transporte. Você verá imediatamente o efeito nas alternativas de entrega sugeridas. Portanto, é fácil comparar as alternativas.
--   **Incluir compras** - Quanto compras for selecionada, as alternativas de entrega sugeridas incluirão opções para comprar de fornecedores externos e de outras companhias da empresa (intercompanhias). A opção **Incluir compras** é suportada para ATP e ATP + controle de data de entrega da margem de saída Estão inclusas as opções de compras do fornecedor de compra padrão do produto e de todos os fornecedores aprovados para o produto.
--   Para fornecedores externos, o cálculo baseia-se no prazo de entrega da compra.
--   Para intercompanhia, o cálculo considera o que está disponível na empresa de fornecimento, com base no controle de data de entrega na empresa de fornecimento.
--   **Tipo de entrega** (Relevante para compras)
-    -   **Estoque** - Os produtos são enviados do depósito de fornecimento para o local/depósito na linha de venda. Em seguida, são enviados do depósito para o cliente.
-    -   **Entrega direta** - os produtos são enviados diretamente do depósito de fornecimento para o cliente.
+Esta guia rápida mostra uma lista de alternativas de entrega classificada por data do recibo. Acima da lista, é possível selecionar em quais opções se baseiam as sugestões. Você também pode selecionar o modo de entrega, que determina os dias de transporte. As opções a seguir estão disponíveis:
 
-### <a name="availability-information"></a>Informações de disponibilidade
+- **Incluir outras variantes de produto** - Esta opção está disponível para produtos que têm variantes do produto. Incluirá alternativas de entrega para outras variantes do produto. Esta opção não está disponível para o CTP.
+- **Incluir quantidade parcial** - Por padrão, somente as sugestões que atendem a quantidade total das linhas de venda são incluídas. Selecione esta opção para incluir as que atendem apenas parcialmente a linha de ordem. Essa opção é útil quando o cliente solicita uma data de entrega anterior e aceita a entrega parcial.
+- **Incluir datas posteriores** - Por padrão, somente são mostradas as sugestões melhores (anteriores) que as datas atuais na linha de venda. Selecione esta opção para incluir as datas posteriores. Essa opção pode ser útil em situações onde os parâmetros diferente da data têm prioridade. Por exemplo, um fornecedor ou depósito específico podem ser preferenciais.
+- **Modo de entrega** - Selecione o modo de entrega preferido para otimizar tempo e custo de transporte. Você verá imediatamente o efeito nas alternativas de entrega sugeridas. Portanto, é fácil comparar as alternativas.
+- **Incluir compras** - Quanto compras for selecionada, as alternativas de entrega sugeridas incluirão opções para comprar de fornecedores externos e de outras companhias da empresa (intercompanhias). A opção **Incluir compras** é suportada para ATP e ATP + controle de data de entrega da margem de saída Estão inclusas as opções de compras do fornecedor de compra padrão do produto e de todos os fornecedores aprovados para o produto.
+- Para fornecedores externos, o cálculo baseia-se no prazo de entrega da compra.
+- Para intercompanhia, o cálculo considera o que está disponível na empresa de fornecimento, com base no controle de data de entrega na empresa de fornecimento.
+- **Tipo de entrega** (Relevante para compras)
+  - **Estoque** - Os produtos são enviados do depósito de fornecimento para o local/depósito na linha de venda. Em seguida, são enviados do depósito para o cliente.
+  - **Entrega direta** - os produtos são enviados diretamente do depósito de fornecimento para o cliente.
 
-As informações desta guia estão relacionadas à linha de entrega alternativa selecionada. As informações a seguir são mostradas, dependendo do controle da data de entrega da linha de venda:
+### <a name="the-availability-information-fasttab"></a>A guia rápida Informações de disponibilidade
 
--   **Prazo de entrega das vendas**
-    -   **Disponível hoje** - mostra o estoque físico disponível atual, físico reservado e físico disponível.
-    -   **Parâmetros** Mostra a unidade de estoque e o prazo de entrega de venda.
+As informações desta guia rápida estão relacionadas à linha de entrega alternativa selecionada. As informações a seguir são mostradas, dependendo do controle da data de entrega da linha de venda:
 
--   **ATP e ATP + margem de saída**
-    -   **Disponível hoje** - mostra o estoque físico disponível atual, físico reservado e físico disponível.
-    -   **Parâmetros** Mostra a unidade de estoque e o prazo de entrega de venda.
-    -   **Disponibilidade futura** - mostra uma representação gráfica da disponibilidade atual e futura para o local e depósito selecionados em **Alternativas de entrega**. Você pode clicar nas colunas do gráfico para ver mais informações detalhadas sobre a futura disponibilidade do produto. O controle deslizante mostra uma lista das ordens de suprimento e demanda relevantes dentro do limite de tempo de ATP.
+- **Prazo de entrega das vendas**
+  - **Disponível hoje** - mostra o estoque físico disponível atual, físico reservado e físico disponível.
+  - **Parâmetros** Mostra a unidade de estoque e o prazo de entrega de venda.
 
--   **CTP**
-    -   **Disponível hoje** - mostra o estoque físico disponível atual, físico reservado e físico disponível.
-    -   **Parâmetros** Mostra a unidade de estoque e o prazo de entrega de venda.
-    -   **Detalhamento** - mostra um detalhamento do suprimento da alternativa de entrega selecionada. É possível usar **Configuração** para alterar os campos e as dimensões de estoque mostradas no detalhamento.
+- **ATP e ATP + margem de saída**
+  - **Disponível hoje** - mostra o estoque físico disponível atual, físico reservado e físico disponível.
+  - **Parâmetros** Mostra a unidade de estoque e o prazo de entrega de venda.
+  - **Disponibilidade futura** - mostra uma representação gráfica da disponibilidade atual e futura para o local e depósito selecionados em **Alternativas de entrega**. Você pode selecionar as colunas do gráfico para ver mais informações detalhadas sobre a futura disponibilidade do produto. O controle deslizante mostra uma lista das ordens de suprimento e demanda relevantes dentro do limite de tempo de ATP.
 
-### <a name="impact-of-selected-alternative"></a>Impacto da alternativa selecionada
+- **CTP**
+  - **Disponível hoje** - mostra o estoque físico disponível atual, físico reservado e físico disponível.
+  - **Parâmetros** Mostra a unidade de estoque e o prazo de entrega de venda.
+  - **Detalhamento** - mostra um detalhamento do suprimento da alternativa de entrega selecionada. É possível usar **Configuração** para alterar os campos e as dimensões de estoque mostradas no detalhamento.
 
-Esta guia destaca o impacto da alternativa de entrega selecionada. Se você clicar em **OK**, a linha de venda será atualizada com valores destacados nas colunas SELECIONADAS. Observe que, se a quantidade na alternativa de entrega selecionada for menor que a quantidade na linha de vendas, uma agenda de entrega será criada, e a linha da ordem será dividida em duas linhas: uma linha para a quantidade selecionada e uma linha para a quantidade pendente. Você também pode atualizar a linha comercial, de forma que ela corresponda às linhas da agenda e afete o preço.
+### <a name="the-impact-of-selected-alternative-fasttab"></a>A guia rápida Impacto da alternativa selecionada
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+Esta guia rápida destaca o impacto da alternativa de entrega selecionada. Se você selecionar **OK**, a linha de venda será atualizada com valores destacados nas colunas SELECIONADAS. Observe que, se a quantidade na alternativa de entrega selecionada for menor que a quantidade na linha de vendas, uma agenda de entrega será criada, e a linha da ordem será dividida em duas linhas: uma linha para a quantidade selecionada e uma linha para a quantidade pendente. Você também pode atualizar a linha comercial, de forma que ela corresponda às linhas da agenda e afete o preço.
+
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Promessa de ordem](delivery-dates-available-promise-calculations.md)
 
 
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Criar um grupo de grades
 description: Este tópico descreve como criar um grupo de grades de tamanho, estilo ou cor para um produto do Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965142"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749922"
 ---
 # <a name="create-a-variant-group"></a>Criar um grupo de grades
 
@@ -31,7 +29,7 @@ ms.locfileid: "4965142"
 
 Este tópico descreve como criar um grupo de grades de tamanho, estilo ou cor para um produto do Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O Dynamics 365 Commerce oferece suporte a várias grades para produtos. O ideal é configurar grupos de grades para as diferentes categorias de produtos. Por exemplo, é possível criar um grupo de tamanhos para camisetas com tamanhos extra pequeno, pequeno, médio, grande e extra grande, ou criar um grupo de cores para incluir todas as cores disponíveis de um produto. Os grupos de grades devem ser adicionados antes de os produtos serem adicionados.
 
@@ -41,7 +39,7 @@ Neste tópico, será criado e configurado um grupo de tamanhos. Procedimentos se
 
 Para criar um grupo de tamanhos, siga estas etapas.
  
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Produtos e categorias \> Grupos de grades \> Grupos de tamanho**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Produtos e categorias \> Grupos de grades \> Grupos de tamanho**.
 1. No painel de ação, selecione **Novo**.
 1. Na caixa **Grupo de tamanhos**, digite um nome para o grupo de tamanhos.
 1. Na caixa **Descrição**, insira uma descrição apropriada.
@@ -51,7 +49,7 @@ Para criar um grupo de tamanhos, siga estas etapas.
 
 Para adicionar atributos a um grupo de tamanhos, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Produtos e categorias \> Grupos de grades \> Grupos de tamanho**
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Produtos e categorias \> Grupos de grades \> Grupos de tamanho**
 1. No painel de navegação, selecione um grupo de tamanhos.
 1. Em **Linhas de grupo de tamanhos**, selecione **Adicionar**.
 1. Na caixa **Tamanho**, insira uma sequência de caracteres que represente o tamanho (por exemplo, "GG").
@@ -63,7 +61,7 @@ Para adicionar atributos a um grupo de tamanhos, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de grupo de tamanhos para "tamanhos de camisas casuais".
 
-![Criar grupo de tamanhos](media/create-variant-group.png)
+![Criar grupo de tamanhos.](media/create-variant-group.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -72,3 +70,6 @@ A imagem a seguir mostra um exemplo de grupo de tamanhos para "tamanhos de camis
 [Configurar produtos de varejo](set-up-retail-products.md)
 
 [Dimensões do produto](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

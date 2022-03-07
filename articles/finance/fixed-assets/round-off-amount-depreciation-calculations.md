@@ -2,28 +2,25 @@
 title: Valor de arredondamento para cálculos de depreciação
 description: Este artigo discute o campo Arredondar depreciação, encontrado nas páginas no registro de depreciações.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40fd019b1b5900fbd15866d9d3c32ed6d88147b4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0bf7cf68c98b14fb6c206c99673168153b32a449
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440407"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830414"
 ---
 # <a name="round-off-amount-for-depreciation-calculations"></a>Valor de arredondamento para cálculos de depreciação
 
@@ -50,3 +47,6 @@ Depreciação sem arredondamento é calculada como 2.444,44. Como mostrado na ta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

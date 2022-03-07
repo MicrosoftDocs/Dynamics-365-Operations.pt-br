@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a092fac4f1b8648c2c93791f1c5efb90708c44e2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: dadc8e69b1ed710f083005ef58bcf894680eb4d5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020170"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253149"
 ---
 # <a name="asset-attribute-overview"></a>Visão geral de atributos de ativos
 
@@ -39,3 +39,6 @@ A página **Visão geral de atributo de ativo** mostra uma linha separada para c
 3. Selecione **OK**. A lista mostra todos os ativos que usam o tipo de ativo selecionado. Para cada ativo, todos os tipos de atributo de ativo relacionados são mostrados na mesma linha.
 
 A página **Atributo de ativo** mostra uma linha separada para cada tipo de atributo usado em um ativo. Para abrir esta página, selecione **Asset Management** \> **Consultas** \> **Ativos** \> **Atributo de ativo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

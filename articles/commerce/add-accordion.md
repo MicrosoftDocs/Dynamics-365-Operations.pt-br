@@ -2,15 +2,12 @@
 title: Módulo de acordeão
 description: Este tópico abrange os módulos de acordeão e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719518"
 ---
-# <a name="accordion-module"></a>Módulo de acordeão
+# <a name="accordion-module"></a>Módulo de Accordion
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de acordeão e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Os módulos de acordeão são como contêineres usados para organizar as informações ou os módulos em uma página, com capacidade semelhante a uma gaveta recolhível. Um módulo de acordeão pode ser usado em qualquer página.
 
@@ -39,7 +34,7 @@ Dentro de cada módulo de acordeão, um ou mais módulos de item acordeão podem
 
 A imagem a seguir mostra um exemplo de um módulo de acordeão usado para organizar informações na página perguntas frequentes de uma loja.
 
-![Exemplo de um módulo de acordeão](./media/ecommerce-accordion.PNG)
+![Exemplo de um módulo de acordeão.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Propriedades do módulo de acordeão
 
@@ -60,7 +55,7 @@ A imagem a seguir mostra um exemplo de um módulo de acordeão usado para organi
 
 Para adicionar um módulo de acordeão a uma página perguntas frequentes e definir suas propriedades no assistente para criação de sites, siga as etapas a seguir.
 
-1. Vá para **Páginas** e use o modelo de marketing da Fabrikam (ou qualquer modelo que não tenha restrições) para criar uma nova página denominada **Perguntas frequentes de loja**.
+1. Acesse **Páginas** e use o modelo de marketing da Fabrikam (ou qualquer modelo que não tenha restrições) para criar uma nova página denominada **Perguntas frequentes de loja**.
 1. No slot **Principal** da **Página padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
@@ -87,3 +82,6 @@ Para adicionar um módulo de acordeão a uma página perguntas frequentes e defi
 [Módulo de guia](add-tab.md)
 
 [Módulo de bloco de texto](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

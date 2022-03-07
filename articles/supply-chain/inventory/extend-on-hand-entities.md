@@ -1,32 +1,29 @@
 ---
 title: Estender entidades de dados disponíveis em estoque
 description: Este tópico fornece um exemplo que mostra como adicionar campos estendidos às exibições INVENTORSITEONHANDENTITY e INVENTWAREHOUSEONHANDENTITY, de forma que os recursos das entidades de dados disponíveis de estoque possam trabalhar com as extensões.
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-27
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 8161d951c3296b63476c4e7b527efca163a4f4b3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422254"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577687"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Estender entidades de dados disponíveis em estoque
 
 [!include [banner](../includes/banner.md)]
 
-O Microsoft Dynamics 365 Supply Chain Management fornece recursos de [extensibilidade](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) que permitem [adicionar campos a tabelas por meio da extensão](../../fin-ops-core/dev-itpro/extensibility/add-field-extension). Este tópico fornece um exemplo que mostra como adicionar campos estendidos às exibições `INVENTORSITEONHANDENTITY` e `INVENTWAREHOUSEONHANDENTITY`, de forma que os recursos das entidades de dados disponíveis de estoque possam trabalhar com as extensões. Para obter mais informações sobre entidades de dados, consulte [Visão geral de gerenciamento de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+O Microsoft Dynamics 365 Supply Chain Management fornece recursos de [extensibilidade](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) que permitem [adicionar campos a tabelas por meio da extensão](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Este tópico fornece um exemplo que mostra como adicionar campos estendidos às exibições `INVENTORSITEONHANDENTITY` e `INVENTWAREHOUSEONHANDENTITY`, de forma que os recursos das entidades de dados disponíveis de estoque possam trabalhar com as extensões. Para obter mais informações sobre entidades de dados, consulte [Visão geral de gerenciamento de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > Esta é uma lista de algumas entidades de dados disponíveis em estoque:
@@ -69,3 +66,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Depois de concluir essas etapas, você pode estender o estoque disponível por site e estoque disponível, por entidades de dados de depósito, adicionando os novos campos. Dessa forma, você garante que os campos estendidos sejam reconhecidos e incluídos durante a migração de dados que usa essas entidades de dados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

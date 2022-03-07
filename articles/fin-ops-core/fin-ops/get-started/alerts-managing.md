@@ -1,25 +1,23 @@
 ---
 title: Processamento de lotes de alertas
 description: Este tópico fornece informações sobre o processamento em lotes de alertas.
-author: tjvass
-manager: AnnBe
-ms.date: 09/10/2010
+author: RichdiMSFT
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0ec2a9bd925ccd7dc7c6a8251629bf565ece2268
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798571"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416420"
 ---
 # <a name="batch-processing-of-alerts"></a>Processamento em lotes de alertas
 
@@ -54,7 +52,7 @@ Por exemplo, você cria um alerta para ser acionado quando o evento for **altera
 
 ### <a name="set-up-processing-for-change-based-alerts"></a>Configurar o processamento para alertas com base em alteração
 
-1. Vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas com base nas alterações**.
+1. Acesse **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas com base nas alterações**.
 2. Na caixa de diálogo **Alertas com base nas alterações** , insira as informações apropriadas.
 
 ## <a name="batch-processing-for-due-date-events"></a>Processamento de lotes de eventos com data de vencimento
@@ -80,5 +78,8 @@ Se você configurar uma janela de processamento em lotes, um alerta será enviad
 
 ### <a name="set-up-processing-for-due-date-alerts"></a>Configurar o processamento para alertas de data de vencimento
 
-1. Vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas de data de vencimento**.
+1. Acesse **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas de data de vencimento**.
 2. Na caixa de diálogo **Alertas de data de vencimento** , insira as informações apropriadas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

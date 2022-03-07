@@ -2,11 +2,9 @@
 title: Criar ordens de call center
 description: Este procedimento orienta como pesquisar um cliente, criar uma nova ordem, pesquisar por um produto e coletar os pagamentos do cliente.
 author: josaw1
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRCustomerService, SalesTable, MCRSourceIdTargetLookup, MCRSalesQuickQuote, MCRSalesOrderRecap, MCRCustPaymDialog, MCRCustPaymLookup
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08a806514a92a99a9f0b18b36817f49a09516ab8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 78cccabb206d938b850e70b7e8057e20cc6158e1d154fc4876de7918dbe44d87
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730650"
 ---
 # <a name="create-call-center-orders"></a>Criar ordens de call center
 
@@ -29,7 +27,7 @@ ms.locfileid: "4964835"
 
 Este procedimento orienta como pesquisar um cliente, criar uma nova ordem, pesquisar por um produto e coletar os pagamentos do cliente. Este procedimento usa a empresa de dados de demonstração USRT e destina-se ao funcionário de ordens de venda. Pré-requisitos: O usuário que conclui o procedimento é configurado como usuário do call center e o catálogo semestral da Fabrikam é publicado com pelo menos um código fonte nele.
 
-1. Vá para **Retail e Commerce \> Clientes \> Customer service**.
+1. Acesse **Retail e Commerce \> Clientes \> Customer service**.
 2. Para **Texto da Pesquisa**, insira os critérios de pesquisa para pesquisar o cliente.
     * Para este procedimento de exemplo, insira "Karen" e selecione **Tab**.  
 3. Selecione Pesquisar.
@@ -61,3 +59,6 @@ Este procedimento orienta como pesquisar um cliente, criar uma nova ordem, pesqu
 
 [Alterar modo de entrega no PDV](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

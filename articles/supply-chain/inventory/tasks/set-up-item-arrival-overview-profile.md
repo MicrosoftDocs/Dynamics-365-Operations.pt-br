@@ -2,11 +2,9 @@
 title: Configurar um perfil de visão geral de entradas de item
 description: Esse tópico se concentra na configuração de um perfil de visão geral de entradas.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5ecfe132d9b0e096c5fdf015f80a6efb34c9b178
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b0394d1b4288dac0ff913b125017571a8c0bc95a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961414"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829827"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Configurar um perfil de visão geral de entradas de item
 
@@ -53,3 +51,6 @@ Esse tópico se concentra na configuração de um perfil de visão geral de entr
 17. Selecione **Salvar**.
 18. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

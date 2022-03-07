@@ -2,11 +2,9 @@
 title: Pesquisa de navegação
 description: Este tópico explica como usar a funcionalidade de pesquisa para navegar até páginas.
 author: aneesmsft
-manager: AnnBe
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799083"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069975"
 ---
 # <a name="navigation-search"></a>Pesquisa de navegação
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico explica como usar a funcionalidade de pesquisa para navegar até páginas.
 
@@ -36,7 +37,7 @@ Para usar esse recurso, clique no ícone **Pesquisa** para exibir a caixa **Pesq
 > [!NOTE]
 > A caixa **Pesquisa** ajuda você a encontrar e navegar para páginas. Ela não ajuda você a encontrar dados ou ações específicos.
 
-[![search-box](media/navigation-search.png "Caixa Pesquisar")
+![search-box.](media/navigation-search.png "Caixa Pesquisar")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Navegar rapidamente até uma página específica
 
@@ -62,3 +63,6 @@ A lista de resultados de pesquisa é limitada a 10 itens. Se você não encontra
 ## <a name="development"></a>Desenvolvimento
 
 De uma perspectiva de desenvolvimento, é muito fácil tirar proveito do recurso de pesquisa de navegação, porque não há praticamente nenhum atraso entre a implantação dos itens de menu e a capacidade aparecer nos resultados da pesquisa. À medida que os itens de menu são vinculados ao painel de navegação ou painel de controle, eles se tornam automaticamente pesquisáveis.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

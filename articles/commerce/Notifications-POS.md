@@ -2,61 +2,66 @@
 title: Mostrar notificações de ordem no ponto de venda (PDV)
 description: Este tópico descreve como habilitar notificações de ordem no ponto de venda e a estrutura de notificação.
 author: ShalabhjainMSFT
-manager: AnnBe
-ms.date: 04/30/2019
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e663a5dca76d570217b7e02444689a2e2d312c41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714129"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificações de ordem no ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
 
-No ambiente de varejo moderno, são atribuídas várias tarefas aos associados da loja, como auxiliar os clientes, inserir transações, executar contagens de estoque e receber ordens na loja. O cliente do ponto de venda (PDV) fornece um único aplicativo no qual os associados podem executar todas essas tarefas e muitas outras. Como várias tarefas devem ser executadas durante o dia, os associados talvez precisem ser notificados quando algo exigir sua atenção. A estrutura de notificação no PDV ajuda, permitindo que os varejistas configurem notificações baseadas em funções. A partir do Dynamics 365 for Retail com a atualização do aplicativo 5, essas notificações podem ser configuradas somente para operações de PDV.
+Os associados da loja podem receber várias tarefas na loja, como atendimento de ordens ou execução de contagens de estoque ou recebimento de estoque. O cliente do ponto de venda (PDV) fornece um único aplicativo no qual os associados podem ser notificados dessas tarefas. A estrutura de notificação no PDV ajuda, permitindo que os varejistas configurem notificações baseadas em funções. Começando no Dynamics 365 Retail com a atualização do aplicativo 5, essas notificações podem ser configuradas somente para operações de PDV.
 
+O sistema pode mostrar notificações para a operação *atendimento da ordem* e começando nas notificações da versão 10.0.18 do Commerce também podem ser mostradas para a operação *Cancelar ordem*. No entanto, como a estrutura é criada para ser extensível, os desenvolvedores poderão [gravar um manipulador de notificação](dev-itpro/extend-pos-notification.md) para qualquer operação e mostrar as notificações para essa operação no PDV.
 
-No momento, o sistema pode mostrar notificações somente para operações de atendimento da ordem. No entanto, como a estrutura é criada para ser extensível, os desenvolvedores poderão gravar um manipulador de notificação para qualquer operação e mostrar as notificações para essa operação no PDV.
+## <a name="enable-notifications-for-order-fulfillment-or-recall-order-operations"></a>Habilitar notificações para operações de atendimento da ordem ou para cancelar a ordem
 
-## <a name="enable-notifications-for-order-fulfillment-operations"></a>Habilitar notificações para operações de atendimento da ordem
+Para habilitar notificações para as operações de atendimento da ordem ou para cancelar a ordem, consulte as seguintes etapas:
 
-Para habilitar as notificações para operações de atendimento da ordem, siga estas etapas.
+1. Acesse **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Operações**.
+1. Procure a operação **Atendimento da ordem** ou **Cancelar ordem** e selecione **Habilitar notificações** para que a operação especifique que a estrutura de notificação deve detectar o manipulador para essa operação. Se o manipulador for implementado, as notificações para essa operação serão mostradas no PDV.
+1. Acesse **Varejo e Comércio \> Funcionários \> Trabalhadores**.
+1. Selecione a guia **Commerce**, selecione uma linha de trabalhador e, em seguida, selecione **Permissões de PDV**. Selecione a guia rápida **Notificações** para expandi-la e adicione as operações para as quais você habilitou notificações. Se estiver configurando uma única notificação para um trabalhador, verifique se o valor **Ordem de exibição** está definido como **1**. Se estiver configurando mais de uma operação, defina os valores da **Ordem de exibição** para indicar a ordem em que as notificações devem ser exibidas. 
 
-1. Vá para **Retail e Commerce** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Operações**.
-2. Procure a operação **Atendimento da ordem** e marque a caixa de seleção **Habilitar notificações** para que ela especifique que a estrutura de notificação deve detectar o manipulador para essa operação. Se o manipulador for implementado, as notificações para essa operação serão mostradas no PDV.
-3. Vá para **Retail e Commerce** &gt; **Funcionários** &gt; **Trabalhadores** &gt;, na guia Commerce, abra as permissões de PDV associadas ao trabalhador. Expanda a Guia Rápida **Notificações**, adicione a operação **Atendimento da ordem** e defina o campo **Ordem de exibição** como **1**. Se mais de uma notificação for configurada, esse campo será usado para organizar as notificações. As notificações que têm um valor de **Ordem de exibição** mais baixo aparecem acima das notificações que têm um valor mais alto. As notificações em que o valor de **Ordem de exibição** é **1** aparecem na parte superior.
-
-    As notificações são mostradas somente para operações adicionadas na Guia Rápida **Notificações**, e você só poderá adicionar operações lá se a caixa de seleção **Habilitar notificações** para essas operações tiver sido selecionada na página **Operações de PDV**. Além disso, as notificações para uma operação são mostradas aos trabalhadores somente se a operação for adicionada às permissões de PDV para esses trabalhadores.
+      As notificações são mostradas somente para as operações adicionadas na guia rápida **Notificações**. Você só poderá adicionar operações ali se as caixas de seleção **Habilitar notificações** para essas operações tiverem sido selecionadas na página **Operações de PDV**. Além disso, as notificações para uma operação são mostradas aos trabalhadores somente se a operação for adicionada às permissões de PDV para esses trabalhadores.
 
     > [!NOTE]
-    > As notificações podem ser substituídas no nível do usuário. Abra o registro do trabalhador, selecione **Permissões do PDV** e, em seguida, edite a subscrição de notificação do usuário.
+    > As notificações podem ser substituídas no nível do usuário. Para fazer isso, abra o registro do trabalhador, selecione **Permissões do PDV** e, em seguida, edite a subscrição de notificação do usuário.
 
-4. Vá para **Retail e Commerce** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de funcionalidade**. No campo **Intervalo de notificação**, especifique a frequência de recebimento de notificações. Para algumas notificações, o PDV deve fazer chamadas em tempo real para o aplicativo de back office. Essas chamadas consomem a capacidade de computação do seu aplicativo de back office. Portanto, ao definir o intervalo de notificação, você deve considerar suas necessidades comerciais e o impacto de chamadas em tempo real no aplicativo de back office. Um valor de **0** (zero) desativa as notificações.
-5. Vá para **Retail e Commerce** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**. Selecione a agenda **1060** (**Equipe**) para sincronizar as configurações de subscrição de notificação e, em seguida, selecione **Executar agora**. Em seguida, selecione a agenda **1070** (**Configuração do canal**) para sincronizar o intervalo de permissão e, em seguida, selecione **Executar agora**.
+1. Acesse **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**. No campo **Intervalo de notificação**, especifique a frequência de recebimento de notificações. Para algumas notificações, o PDV deve fazer chamadas em tempo real para o aplicativo de back office. Essas chamadas consomem a capacidade de computação do seu aplicativo de back office. Portanto, ao definir o intervalo de notificação, você deve considerar suas necessidades comerciais e o impacto de chamadas em tempo real no aplicativo de back office. Um valor de **0** (zero) desativa as notificações.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**. Selecione a agenda **1060** (**Equipe**) para sincronizar as configurações de subscrição de notificação e, em seguida, selecione **Executar agora**. Em seguida, selecione a agenda **1070** (**Configuração do canal**) para sincronizar o intervalo de permissão e, em seguida, selecione **Executar agora**.
 
 ## <a name="view-notifications-in-the-pos"></a>Exibir notificações no PDV
 
-Depois que você concluir as etapas anteriores, os trabalhadores poderão exibir as notificações no PDV. Para exibir as notificações, pressione o ícone de notificação no canto superior direito do PDV. Um centro de notificações aparecerá e mostrará as notificações para a operação de atendimento da ordem. O centro de notificações deve mostrar os seguintes grupos na operação de atendimento da ordem:
+Depois que você concluir as etapas anteriores, os trabalhadores poderão exibir as notificações no PDV. Para exibir as notificações, selecione o ícone de notificação no canto superior direito do PDV. Um painel de notificação aparece e mostra notificações para as operações configuradas para o trabalhador. 
 
-- **Retirada na loja** – Este grupo mostra a contagem de ordens que têm o modo de entrega **Retirada** e cuja retirada está agendada na loja atual. Você pode pressionar o número no grupo para abrir a página **Atendimento da ordem**. Nesse caso, a página será filtrada para mostrar somente as ordens ativas configuradas para retirada na loja atual.
-- **Remeter da loja** – Este grupo mostra a contagem de ordens que têm o modo de entrega **Remessa** e cuja remessa está agendada na loja atual. Você pode pressionar o número no grupo para abrir a página **Atendimento da ordem**. Nesse caso, a página será filtrada para mostrar somente as ordens ativas configuradas para remessa da loja atual.
+Par a operação de **atendimento da ordem**, o painel de notificação mostrará os seguintes grupos:
 
-Quando novas ordens são atribuídas à loja para o atendimento, o ícone de notificação é alterado para indicar que há novas notificações, e a contagem dos grupos apropriados é atualizada. Embora os grupos sejam atualizados em intervalos regulares, os usuários do PDV podem atualizá-los manualmente a qualquer momento selecionando o botão **Atualizar** ao lado do grupo. Por fim, se um grupo tiver um novo item, que o trabalhador atual não viu, então o grupo mostrará um símbolo intermitente para indicar o novo conteúdo.
+- **Retirada na loja** – Este grupo mostra a contagem de linhas de ordem individuais que são agendadas para retirada na loja atual. Você pode selecionar o número no grupo para abrir a operação de **Atendimento da ordem** com um filtro para que mostre somente as linhas de ordem ativas que são configuradas para retirada da loja atual.
+- **Remeter da loja** – esse grupo mostra o número de linhas de ordem individuais que foram configuradas para remeterem da loja atual do usuário. Você pode selecionar o número no grupo para abrir a operação de **Atendimento da ordem** com uma exibição filtrada que mostre somente as linhas de ordem ativas que são configuradas para retirada da loja atual.
+
+Para a operação **cancelar ordem**, o painel de notificação mostrará os seguintes grupos:
+
+- **Ordens a serem atendidas** – esse grupo mostra o número de ordens configuradas para a entrega ou a remessa para a loja atual do usuário. Você pode selecionar o número no grupo para abrir a operação **Cancelar ordem** com uma exibição filtrada que mostra somente as ordens abertas que precisam ser preenchidas pela loja atual do usuário para cenários de retirar na loja ou remeter da loja.
+- **Ordens a serem retiradas** – este grupo mostra a contagem ordens que são agendadas para retirada na loja atual. Você pode selecionar o número no grupo para abrir a operação **Cancelar ordem** com uma exibição filtrada que mostra somente as ordens abertas que precisam ser atendidas para retirada pelo cliente na loja atual do usuário.
+- **Ordens a serem remetidas** – este grupo mostra o número de ordens a serem remetidas da loja atual do usuário. Você pode selecionar o número no grupo para abrir a operação **Cancelar ordem** com uma exibição filtrada que mostra somente as ordens abertas que precisam ser atendidas para remessa pelo cliente na loja atual do usuário.
+
+Para as notificações de atendimento da ordem e cancelamento da ordem, conforme novas ordens são selecionadas pelo processo, o ícone de notificação é alterado para indicar que há novas notificações, e a contagem dos grupos apropriados é atualizada. Embora os grupos sejam atualizados em intervalos regulares, os usuários do PDV podem atualizá-los manualmente a qualquer momento selecionando o botão **Atualizar** ao lado do grupo. Por fim, se um grupo tiver um novo item, que o trabalhador atual não viu, então o grupo mostrará um símbolo intermitente para indicar o novo conteúdo.
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Habilitar conteúdo ao vivo nos botões do PDV
 
@@ -67,13 +72,14 @@ Os botões do PDV agora podem mostrar uma contagem para ajudar os trabalhadores 
 
 A ilustração a seguir mostra as configurações de conteúdo ao vivo no designer da grade de botões.
 
-![Configurações de conteúdo dinâmico no designer de grade de botões](./media/ButtonGridDesigner.png "Configurações de conteúdo dinâmico no designer de grade de botões")
+![Configurações de conteúdo dinâmico no designer de grade de botões.](./media/ButtonGridDesigner.png "Configurações de conteúdo dinâmico no designer de grade de botões")
 
-Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Microsoft Edge, acesse a página **Layout da tela**, encontre a **ID do layout da tela** e a **Resolução do layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ativo**. Vá para **Retail e Commerce \> TI de Retail e Commerce \> Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout.
+Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Microsoft Edge, acesse a página **Layout da tela**, encontre a **ID do layout da tela** e a **Resolução do layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ativo**. Acesse **Retail e Commerce \> TI de Retail e Commerce \> Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout.
 
-
-![Localizar o layout de tela usado pelo PDV](./media/Choose_screen_layout.png "Localizar o layout de tela")
+![Localizar o layout de tela usado pelo PDV.](./media/Choose_screen_layout.png "Localizar o layout de tela")
 
 A ilustração a seguir mostra o efeito de selecionar **Superior direito** versus **Centralizado** no campo **Alinhamento de conteúdo** para botões de vários tamanhos.
 
-![Conteúdo dinâmico nos botões do PDV](./media/ButtonsWithLiveContent.png "Conteúdo dinâmico nos botões do PDV")
+![Conteúdo dinâmico nos botões do PDV.](./media/ButtonsWithLiveContent.png "Conteúdo dinâmico nos botões do PDV")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Estabelecer taxas de pagamento de clientes
 description: Criar taxas de pagamento para pagamentos de clientes.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymFee, CustPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6475671002379d84519df05a0198a17ac000677
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15151987bb398de404994cdd416916c00a8dd1773bbf6d654f6a40160a2f4a49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440342"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768354"
 ---
 # <a name="establish-customer-payment-fees"></a>Estabelecer taxas de pagamento de clientes
 
@@ -31,7 +28,7 @@ Criar taxas de pagamento para pagamentos de clientes.
 
 Esta tarefa usa a empresa de demonstração USMF.
 
-1. No **Painel de Navegação**, vá para **Módulos > Contas a receber > Configuração de pagamentos > Taxa de pagamento**.
+1. No **Painel de Navegação**, Acesse **Módulos > Contas a receber > Configuração de pagamentos > Taxa de pagamento**.
 2. Clique em **Novo**.
 3. No campo **ID de taxa**, insira um ID de taxa. Exibe a ID de taxa em diários de pagamentos, o que o tornam descritivo para compreender a taxa que será avaliada.  
 4. No campo **Nome**, insira um nome de taxa.
@@ -51,3 +48,6 @@ Esta tarefa usa a empresa de demonstração USMF.
 18. No campo **Moeda da taxa**, selecione a moeda da taxa. Esta é a moeda na qual a taxa será criada.  
 19. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

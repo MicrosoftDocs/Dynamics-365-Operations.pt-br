@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8bee320beb411a5ee0829a0e3170de0c7f293172
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d71d436f561f0c9b0d8caef00191d1eb9b56580
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257672"
 ---
 # <a name="collections-management-key-concepts"></a>Principais conceitos de gerenciamento de cobranças
 
@@ -122,3 +121,6 @@ Você pode processar pagamentos NSF selecionando **Pagamento NSF** na página **
 [Bloqueios de crédito para ordens de venda](./cm-sales-order-credit-holds.md)
 
 [Tarefas periódicas de gerenciamento de crédito de cliente](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

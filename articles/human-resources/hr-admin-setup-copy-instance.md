@@ -2,15 +2,12 @@
 title: Copiar uma instância
 description: É possível usar o Microsoft Dynamics Lifecycle Services (LCS) para copiar um banco de dados do Microsoft Dynamics 365 Human Resources para um ambiente de área restrita.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527828"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060813"
 ---
 # <a name="copy-an-instance"></a>Copiar uma instância
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 É possível usar o Microsoft Dynamics Lifecycle Services (LCS) para copiar um banco de dados do Microsoft Dynamics 365 Human Resources para um ambiente de área restrita. Se houver outro ambiente de área restrita, você também poderá copiar o banco de dados daquele ambiente para um ambiente de área restrita direcionado.
 
@@ -39,9 +38,9 @@ Para copiar uma instância, lembre-se destas dicas:
 
 - Você deve ser um administrador no ambiente de destino para que possa fazer login nele depois de copiar a instância.
 
-- Ao copiar o banco de dados de Human Resources, você não copia os elementos (aplicativos ou dados) contidos em um ambiente do Microsoft Power Apps. Para obter informações sobre como copiar elementos em um ambiente do Power Apps, consulte [Copiar um ambiente](https://docs.microsoft.com/power-platform/admin/copy-environment). A ambiente do Power Apps que deseja substituir deve ser um ambiente de área restrita. Você deve ser um administrador de locatário global para alterar um ambiente de produção do Power Apps para um ambiente de área restrita. Para obter mais informações sobre como alterar um ambiente do Power Apps, consulte [Alternar uma instância](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- Ao copiar o banco de dados de Human Resources, você não copia os elementos (aplicativos ou dados) contidos em um ambiente do Microsoft Power Apps. Para obter informações sobre como copiar elementos em um ambiente do Power Apps, consulte [Copiar um ambiente](/power-platform/admin/copy-environment). A ambiente do Power Apps que deseja substituir deve ser um ambiente de área restrita. Você deve ser um administrador de locatário global para alterar um ambiente de produção do Power Apps para um ambiente de área restrita. Para obter mais informações sobre como alterar um ambiente do Power Apps, consulte [Alternar uma instância](/dynamics365/admin/switch-instance).
 
-- Se você copiar uma instância para o ambiente de área restrita e quiser integrar seu ambiente de área restrita com o Common Data Service, você deve reaplicar os campos personalizados às entidades do Common Data Service. Consulte [Aplicar campos personalizados ao Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Se você copiar uma instância no ambiente de área restrita e quiser integrar seu ambiente de área restrita com o Dataverse, reaplique campos personalizados a tabelas do Dataverse. Consulte [Aplicar campos personalizados ao Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Efeitos da cópia de um banco de dados do Human Resources
 
@@ -53,9 +52,9 @@ Os seguintes eventos ocorrem ao copiar um banco de dados do Human Resources:
 
 - Os documentos do armazenamento em Microsoft Azure Blob não são copiados de um ambiente para outro. Como consequência, quaisquer documentos e modelos anexados não serão copiados e permanecerão no ambiente de origem.
 
-- Todos usuários, exceto o usuário Administrador e outras contas de usuário de serviço internas estarão indisponíveis. O usuário administrador pode excluir ou ofuscar dados antes que outros usuários tenham permissão de volta para o sistema.
+- Todos os usuários, exceto aqueles com a função de segurança "Administrador do Sistema" e outras contas de usuário de serviço interno, não estarão disponíveis. O usuário administrador pode excluir ou ofuscar dados antes que outros usuários tenham permissão de volta para o sistema.
 
-- O usuário administrador deve fazer as alterações de configuração necessárias, como reconectar empresas de integração a serviços ou URLs específicos.
+- Qualquer usuário com a função de segurança "Administrador do Sistema" deve fazer as alterações de configuração necessárias, como reconectar pontos de extremidade de integração a serviços ou URLs específicos.
 
 ## <a name="copy-the-human-resources-database"></a>Copiar o banco de dados do Human Resources
 
@@ -72,15 +71,15 @@ Para concluir essa tarefa, primeiro copie uma instância e efetue login na centr
 
 4. No painel de tarefas **Copiar uma instância**, selecione a instância a ser substituída e, em seguida, selecione **Copiar**. Aguarde o valor do campo **Copiar status** ser atualizado para **Concluído**.
 
-   ![[Selecione a instância a ser substituída](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Selecionar a instância a ser substituída.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Selecione **Power Platform**, e entre na central de administração do Microsoft Power Platform.
 
-   ![[Selecione Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Selecionar Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Selecione o ambiente do Power Apps a ser copiada e selecione **Copiar**.
 
-7. Quando o processo de cópia for concluído, efetue login na instância de destino e habilite a integração do Common Data Service. Para saber mais informações e instruções, consulte [Configurar a integração do Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Quando o processo de cópia for concluído, efetue login na instância de destino e habilite a integração do Dataverse. Para saber mais informações e instruções, consulte [Configurar a integração do Dataverse](./hr-admin-integration-common-data-service.md).
 
 ## <a name="data-elements-and-statuses"></a>Elementos de dados e status
 
@@ -112,7 +111,7 @@ Alguns desses elementos não são copiados porque são específicos do ambiente.
 
 Além disso, os seguintes status são alterados ao copiar uma instância:
 
-- Todos os usuários, exceto o administrador, estão definidos como **Desabilitados**.
+- Todos os usuários, exceto aqueles com a função de segurança "Administrador do Sistema", são definidos como **Desabilitado**.
 
 - Todos os trabalhos em lotes, exceto para alguns trabalhos do sistema, são definidos como **Retenção**.
 
@@ -122,13 +121,13 @@ Todos os usuários no ambiente de área de proteção de destino, incluindo os a
 
 Todos os usuários que não são administradores no ambiente de área de proteção de destino são desabilitados para evitar a entrada indesejada no ambiente de área restrita. Os administradores podem habilitar novamente os usuários, se necessário.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Aplicar campos personalizados ao Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>Aplicar campos personalizados ao Dataverse
 
-Se você copiar uma instância para o ambiente de área restrita e quiser integrar seu ambiente de área restrita com o Common Data Service, você deve reaplicar os campos personalizados às entidades do Common Data Service.
+Se você copiar uma instância no ambiente de área restrita e quiser integrar seu ambiente de área restrita com o Dataverse, reaplique campos personalizados a tabelas do Dataverse.
 
-Para cada campo personalizado que é exposto nas entidades do Common Data Service, siga estas etapas:
+Para cada campo personalizado que é exposto em tabelas do Dataverse, siga estas etapas:
 
-1. Vá para o campo personalizado e selecione **Editar**.
+1. Acesse o campo personalizado e selecione **Editar**.
 
 2. Desmarque o campo **Habilitado** para cada entidade cdm_* na qual o campo personalizado está habilitado.
 
@@ -140,9 +139,9 @@ Para cada campo personalizado que é exposto nas entidades do Common Data Servic
 
 6. Selecione **Aplicar Alterações** novamente.
 
-O processo de cancelar a seleção, aplicar alterações, selecionar novamente e reaplicar alterações solicita que o esquema seja atualizado no Common Data Service para incluir os campos personalizados.
+O processo de cancelar a seleção, aplicar alterações, selecionar novamente e reaplicar alterações solicita que o esquema seja atualizado no Dataverse para incluir os campos personalizados.
 
-Para obter mais informações sobre como criar campos personalizados, consulte [Criar e trabalhar com campos personalizados](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+Para obter mais informações sobre como criar campos personalizados, consulte [Criar e trabalhar com campos personalizados](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
 
 ## <a name="see-also"></a>Consulte também
 
@@ -150,3 +149,6 @@ Para obter mais informações sobre como criar campos personalizados, consulte [
 [Remover uma instância](hr-admin-setup-remove-instance.md)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

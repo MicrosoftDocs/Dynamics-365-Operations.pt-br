@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: aec68b9389ee2ef28e8119087392ac5f18ec5dd2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645161"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204776"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transferir razão auxiliar para a Contabilidade
 
@@ -42,3 +41,6 @@ As opções a seguir estão disponíveis para transferir lotes do razão auxilia
 Na versão 10.0.8, foram feitas melhorias para aprimorar o desempenho da opção Assíncrona. Este recurso está habilitado com o nome **Transferência do razão auxiliar para a otimização do desempenho da Contabilidade**. 
  
 Esta funcionalidade aprimora a transferência de dados do razão auxiliar para a contabilidade. Ela permite que o processo seja mais eficiente e agrupa conjuntos de transações menores para a transferência. Isto permite um uso mais eficiente do servidor de lote. Esta funcionalidade requer que o servidor de lote esteja configurado, conectado e funcionando para que a opção de transferência Assíncrona seja executada corretamente. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

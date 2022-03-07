@@ -2,26 +2,23 @@
 title: Atributos de imposto de estabelecimento fiscal (Brasil)
 description: Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal.
 author: sndray
-manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2d0eab7e1a619d25820a10b07739e025553afb0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a9772be032c4dbe05355eca87f2603422ff426f8a7781dd5812182dd841e2d4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759807"
 ---
 # <a name="fiscal-establishment-tax-attributes-brazil"></a>Atributos de imposto de estabelecimento fiscal (Brasil)
 
@@ -29,7 +26,7 @@ ms.locfileid: "4408479"
 
 Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal. Um estabelecimento fiscal requer um número de inscrição fiscal no CNPJ (Cadastro Nacional da Pessoa Jurídica) ou IE (Inscrição Estadual). Você pode agrupar estabelecimentos fiscais e configurar grupos de impostos para cada grupo de estabelecimentos fiscais na página Matriz de impostos. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Administração da organização > Organizações > Entidades legais.
+1. Acesse Administração da organização > Organizações > Entidades legais.
 2. Clique para seguir o link no campo Nome.
 3. Expanda a seção Endereços.
 4. Clique em Adicionar.
@@ -42,13 +39,13 @@ Use este procedimento para criar um ou mais estabelecimentos fiscais para uma en
 11. Clique em OK.
 12. Feche a página.
 13. Feche a página.
-14. Vá para Administração da organização > Organizações > Estabelecimentos fiscais > Grupos de estabelecimentos fiscais.
+14. Acesse Administração da organização > Organizações > Estabelecimentos fiscais > Grupos de estabelecimentos fiscais.
 15. Crie um novo grupo de estabelecimentos fiscais.
 16. No campo Grupo de estabelecimento fiscal, digite um valor.
 17. No campo Descrição, digite um valor.
 18. Clique em Salvar.
 19. Feche a página.
-20. Vá para Administração da organização > Organizações > Estabelecimentos fiscais > Estabelecimentos fiscais.
+20. Acesse Administração da organização > Organizações > Estabelecimentos fiscais > Estabelecimentos fiscais.
 21. Crie um novo estabelecimento fiscal.
 22. No campo ID do estabelecimento fiscal, digite um valor.
 23. No campo Grupo de estabelecimento fiscal, insira ou selecione um valor.
@@ -58,7 +55,7 @@ Use este procedimento para criar um ou mais estabelecimentos fiscais para uma en
 27. No campo IE, insira o IE do estabelecimento fiscal com base no estado do endereço.
 28. Clique em Salvar.
 29. Feche a página.
-30. Vá para Gerenciamento do estoque > Configuração > Divisão do estoque > Sites.
+30. Acesse Gerenciamento do estoque > Configuração > Divisão do estoque > Sites.
 31. Clique em Novo.
 32. No campo Local, digite um valor.
 33. No campo Nome, digite um valor.
@@ -75,7 +72,7 @@ Use este procedimento para criar um ou mais estabelecimentos fiscais para uma en
 44. No campo Filial, insira ou selecione um valor.
 45. Clique em Salvar.
 46. Feche a página.
-47. Vá para Administração da organização > Organizações > Estabelecimentos fiscais > Estabelecimentos fiscais.
+47. Acesse Administração da organização > Organizações > Estabelecimentos fiscais > Estabelecimentos fiscais.
 48. Abrir a caixa de diálogo de seleção avançada de linha
 49. Aplique os seguintes filtros: insira um valor de filtro de "NovaFilial", no campo "ID do estabelecimento fiscal" usando o operador de filtro "é exatamente"
 50. Clique em Tipos de documento fiscal.
@@ -89,3 +86,6 @@ Use este procedimento para criar um ou mais estabelecimentos fiscais para uma en
 58. Feche a página.
 59. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

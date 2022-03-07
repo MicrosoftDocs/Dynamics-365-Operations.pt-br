@@ -1,30 +1,27 @@
 ---
 title: Roteiros e operações
 description: Este tópico fornece informações sobre roteiros e operações.
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
-ms.author: sorenand
+ms.author: johanho
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421994"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891944"
 ---
 # <a name="routes-and-operations"></a>Roteiros e operações
 
@@ -32,8 +29,7 @@ ms.locfileid: "4421994"
 
 Este tópico fornece informações sobre roteiros e operações. Um roteiro define o processo para produção de um produto ou grade de produto. Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas. Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 Um roteiro descreve a ordem de operações necessárias para produzir um produto ou grade de produto. Para cada operação, o roteiro também define os recursos de operações necessários, o tempo necessário para configurar e realizar a operação, e como o custo deve ser calculado. Você pode usar o mesmo roteiro para produzir vários produtos, ou você pode definir um roteiro exclusivo para cada produto ou grade de produto. Você pode ainda ter vários roteiros para o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a quantidade que deve ser produzida. A definição de um roteiro no Supply Chain Management consiste em quatro elementos distintos que, juntos, descrevem o processo de produção:
 
@@ -49,7 +45,7 @@ Um roteiro descreve a ordem de operações usadas para produzir um produto ou gr
 
 Um roteiro simples é sequencial, e existe apenas um ponto de início para o roteiro.  
 
-[![Roteiro simples](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Roteiro simples.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Se você habilitar apenas roteiros simples nos parâmetros de Controle de produção, o Supply Chain Management vai gerar automaticamente os números de operações (10, 20, 30, e assim por diante) quando você definir o roteiro.
 
@@ -57,7 +53,7 @@ Se você habilitar apenas roteiros simples nos parâmetros de Controle de produ�
 
 Se você habilitar as redes de roteiros mais complexas nos parâmetros de Controle de produção, você pode definir roteiros com múltiplos pontos de início e operações que podem acontecer em paralelo.  
 
-[![Rede de roteiro](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rede de roteiro.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Cada operação pode ter apenas uma operação sucessora, e todo o roteiro deve terminar em uma única operação.
@@ -68,13 +64,13 @@ Se você habilitar as redes de roteiros mais complexas nos parâmetros de Contro
 
 Eventualmente, é necessária uma combinação de vários recursos de operações que têm características diferentes para realizar uma operação. Por exemplo, uma operação de montagem pode precisar de uma máquina, uma ferramenta e um trabalhador para cada duas máquinas, para supervisionar a operação. Esse exemplo pode ser modelado usando operações paralelas, onde uma operação é designada como operação primária e as demais como secundárias.  
 
-[![Roteiro que possui operações primária e secundárias](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Roteiro que possui operações primária e secundárias.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Normalmente, a operação primária representa o gargalo de recursos e impõe o tempo de execução para as operações secundárias. No entanto, durante o agendamento que envolve capacidade finita, os recursos agendados para ambas as operações primária e secundárias devem estar disponíveis e ter capacidade livre ao mesmo tempo.  
 
 Tanto a operação primária como as secundárias devem possuir o mesmo número de operação (30 na ilustração anterior).  
 
-No exemplo anterior, o requisito de recurso para a operação primária (30) é a máquina, enquanto os requisitos de recursos para as operações secundárias (30' e 30'') são a ferramenta e o o trabalhador. Uma carga de cinquenta por cento ajuda a garantir que o trabalhador agendado possa supervisionar duas máquinas ao mesmo tempo.
+No exemplo anterior, o requisito de recurso para a operação primária (30) é a máquina, enquanto os requisitos de recursos para as operações secundárias (30' e 30'') são a ferramenta e o o trabalhador. Uma carga de 50% ajuda a garantir que o trabalhador agendado possa supervisionar duas máquinas ao mesmo tempo.
 
 ### <a name="approval-of-routes"></a>Aprovação de roteiros
 
@@ -82,7 +78,7 @@ Um roteiro deve ser aprovado antes que possa ser usado no planejamento ou proces
 
 Cada roteiro pode ser aprovado ou reprovado separadamente. No entanto observe que, quando um roteiro é reprovado, todas as versões de roteiro relacionadas também são reprovadas. Nos parâmetros de Controle de produção, você pode especificar se os roteiros podem ser reprovados, e se os roteiros aprovados podem ser alterados.  
 
-Caso precise manter um registro sobre quem aprova cada roteiro, você pode solicitar assinaturas eletrônicas para aprovação de roteiros. Os usuários terão que confirmar suas identidades utilizando uma [assinatura eletrônica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Caso precise manter um registro sobre quem aprova cada roteiro, você pode solicitar assinaturas eletrônicas para aprovação de roteiros. Os usuários terão que confirmar suas identidades utilizando uma [assinatura eletrônica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Uma operação é uma etapa no processo de produção. Cada operação tem uma ID e uma descrição simples. As tabelas a seguir mostram exemplos típicos de operações em uma oficina mecânica.
@@ -188,7 +184,7 @@ Ao ativar uma versão do roteiro, ela é designada como a versão do roteiro pad
 
 ### <a name="electronic-signatures"></a>Assinaturas eletrônicas
 
-Caso precise manter um registro sobre quem aprova e ativa cada versão do roteiro, você pode solicitar assinaturas eletrônicas para essas tarefas. Os usuários que aprovam e ativam versões de roteiros terão que confirmar suas identidades usando uma [assinatura eletrônica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Caso precise manter um registro sobre quem aprova e ativa cada versão do roteiro, você pode solicitar assinaturas eletrônicas para essas tarefas. Os usuários que aprovam e ativam versões de roteiros terão que confirmar suas identidades usando uma [assinatura eletrônica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Alteração de produto utilizando gerenciamento de caso
 
@@ -227,7 +223,7 @@ Ao utilizar essa abordagem, a página **Relações de operações** se torna seu
 Se você não especificar um recurso de operações ou um grupo de recursos como parte dos requisitos de recurso para uma operação, os recursos aplicáveis podem operar em velocidades diferentes. Portanto, o tempo necessário para processar uma operação poderá variar. Para solucionar esse problema, você pode usar o campo **Fórmula** na relação de operação para especificar como o tempo de processo é calculado. As opções a seguir estão disponíveis:
 
 - **Padrão** – (Opção padrão) O cálculo utiliza apenas os campos da relação de operação e multiplica o tempo de execução pela quantidade da ordem.
-- **Capacidade** – O cálculo inclui o campo **Capacidade** do recurso de operações. Portanto, o tempo depende do recurso. O valor especificado no recurso de operações é a capacidade por hora. O **Tempo de processamento** é calculado como a **Quantidade da ordem** dividida pela **Capacidade**.
+- **Capacidade** – O cálculo inclui o campo **Capacidade** do recurso de operações. Portanto, o tempo depende do recurso. O valor especificado no recurso de operações é a capacidade por hora. O **Tempo de processamento** é calculado como a **Quantidade da ordem** dividida pela **Capacidade**. O valor de capacidade não é específico de uma unidade de medida e, portanto, não é convertido com base no campo **Unidade de capacidade**, que é apenas um campo descritivo e não é usado em cálculos.
 - **Lote** – Uma capacidade de lote é calculada utilizando informação da relação de operações. O número de lotes e, consequentemente, o tempo de processo podem então ser calculados com base na quantidade da ordem.
 - **Lote de recursos** – Essa opção é basicamente a mesma opção que **Lote**. No entanto, o cálculo inclui o campo **Capacidade de lote** do recurso de operações. Portanto, o tempo depende do recurso.
 
@@ -246,7 +242,7 @@ Entre os tipos de trabalho está Sobreposição. A sobreposição permite que di
 Portanto, quando a ativação é selecionada para sobreposição, o restante das configurações (Gerenciamento de trabalho, Horário de trabalho e Capacidade) não afetam o grupo de roteiros. 
 
 > [!NOTE]
-> Quando você atualiza versões, pode se deparar com o seguinte erro: **“Erro de CRL ao invocar o mecanismo de planejamento”**. Se você receber esse erro, vá para a página **Grupos de roteiros** e, para todos os roteiros nos quais ativou **Sobreposição**, desmarque as opções **Gerenciamento de trabalho**, **Horário de trabalho** e **Capacidade**. 
+> Quando você atualiza versões, pode se deparar com o seguinte erro: **“Erro de CRL ao invocar o mecanismo de planejamento”**. Se você receber esse erro, Acesse a página **Grupos de roteiros** e, para todos os roteiros nos quais ativou **Sobreposição**, desmarque as opções **Gerenciamento de trabalho**, **Horário de trabalho** e **Capacidade**. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -256,7 +252,10 @@ Portanto, quando a ativação é selecionada para sobreposição, o restante das
 
 - [Capacidades de recurso](resource-capabilities.md)
 
-- [Visão geral das assinaturas eletrônicas](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Visão geral das assinaturas eletrônicas](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

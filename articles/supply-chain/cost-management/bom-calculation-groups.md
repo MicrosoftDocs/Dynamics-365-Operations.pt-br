@@ -2,16 +2,13 @@
 title: Grupos de cálculos de BOM
 description: Este artigo fornece informações sobre grupos de cálculos para listas de materiais (BOMs) e como configurá-las. Para executar um cálculo de BOM, você deve configurar grupos de cálculo e atribuí-los a itens individuais ou definir um grupo de cálculo padrão. As configurações de cálculo a partir do grupo de cálculo são usadas como valores padrão na página Cálculo de BOM no momento do cálculo de BOM.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 94063
 ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e4f53401d604ce3c8308ed475a0b6147805cb78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 02db6c834654732095fc4d1c63ce377fcb02359b9f9db762c5bff835a996f8de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422389"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725809"
 ---
 # <a name="bom-calculations-groups"></a>Grupos de cálculos de BOM
 
@@ -98,3 +95,6 @@ Você pode definir vários grupos de cálculo de BOM, dependendo dos seus requis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,151 +2,149 @@
 title: UEPS com marcação e valor físico
 description: Último a entrar, Primeiro a sair (UEPS) é um modelo de estoque no qual os últimos (mais recentes) recebimentos são emitidos primeiro. As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque.
 author: AndersGirke
-manager: tfehr
-ms.date: 06/20/2017
+ms.date: 02/02/2022
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 55021
-ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35650dc02ec923994026a3ab7f66dea5a81ed20d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd57d58aa91aa87b1c2feff52a568296fc18ed9b
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967599"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092155"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>UEPS com marcação e valor físico
 
 [!include [banner](../includes/banner.md)]
 
-Último a entrar, Primeiro a sair (UEPS) é um modelo de estoque no qual os últimos (mais recentes) recebimentos são emitidos primeiro. As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque. 
+Primeiro a entrar, primeiro a sair (PEPS) é um método de gerenciamento e validação de estoque no qual o estoque produzido ou adquirido primeiro é vendido, usado ou descartado primeiro. Durante o processo de fechamento de estoque no Microsoft Dynamics 365 Supply Chain Management, o sistema criará liquidações nas quais o último recebimento corresponde à primeira saída e assim por diante. As liquidações e o princípio de correspondência são baseados na data financeira das transações de estoque. Uma avaliação preliminar das liquidações e ajustes pode ser realizada executando o processo de recálculo de estoque.
 
-No modelo UEPS (último a entrar, primeiro a sair), os últimos (mais novos) recebimentos saem primeiro. As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque. Quando você usar UEPS, não precisará usar a regra de UEPS. Em vez disso, você poderá marcar transações de estoque de tal forma que a emissão de um item específico seja liquidado em relação a um recebimento específico. É recomendável um fechamento de estoque periódico quando você usa o modelo de estoque UEPS. 
+Você pode substituir o princípio PEPS, fazendo marcações em transações de estoque de tal forma que o recebimento de um item específico seja liquidado em relação a uma saída específica. Um fechamento periódico de estoque é exigido quando você usa o modelo de estoque PEPS para gerar liquidações e ajustar valores de acordo com o princípio PEPS. Até que você execute o processo de fechamento de estoque, as transações de saída são avaliadas na média de execução quando ocorreram atualizações físicas e financeiras. A menos que você esteja usando marcação, a média de execução é calculada quando a atualização física ou financeira é executada.
 
 Os exemplos a seguir mostram o efeito de usar o UEPS nas três configurações:
 
--   UEPS sem a opção **Incluir valor físico**
--   UEPS com a opção **Incluir valor físico**
--   UEPS com marcação
+- UEPS sem a opção **Incluir valor físico**
+- UEPS com a opção **Incluir valor físico**
+- UEPS com marcação
 
 ## <a name="lifo-without-the-include-physical-value-option"></a>UEPS sem a opção Incluir valor físico
-Neste exemplo, o grupo de modelo de item não está marcado para incluir o valor físico. A ilustração a seguir mostra essas transações:
 
--   1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
--   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
--   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
--   4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
--   4b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
--   5a. Saída física de estoque para uma quantidade de 1 a um preço de custo de BRL 20,00 cada (média ponderada de transações atualizadas financeiramente).
--   5b. Saída financeira de estoque para uma quantidade de 1 a um preço de custo de BRL 20,00 cada (média ponderada de transações atualizadas financeiramente).
--   6. O fechamento de estoque é executado. Com base no método UEPS, a última saída atualizada financeiramente será liquidada para o último recebimento atualizado financeiramente. Um ajuste de BRL 10,00 será feito na transação de saída.
+Neste exemplo, a caixa de seleção **Incluir valor físico** está desmarcada no grupo de modelos de item para o produto liberado. A ilustração a seguir mostra estas transações:
 
-O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 15,00. A ilustração a seguir mostra os efeitos do modelo de estoque LIFO nesta série de transações quando a opção **Incluir valor físico** não é usada. 
+- 1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
+- 2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 22,00 cada.
+- 3a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média ponderada de transações lançadas financeiramente).
+- 3b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média ponderada de transações lançadas financeiramente).
+- 4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
+- 5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 23,00 (média ponderada de transações lançadas financeiramente)
+- 7\. O fechamento de estoque é executado. Com base no método PEPS, a primeira saída atualizada financeiramente será liquidada no último recebimento atualizado financeiramente e assim por diante. Neste exemplo, uma liquidação é criada entre 5b e 3b. Um ajuste de USD – 14,00 será feito para 3b, e o custo final resultante será USD 30,00.
 
-![UEPS sem Incluir Valor Físico](./media/lifowithoutincludephysicalvalue.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque FIFO nesta série de transações quando a opção **Incluir valor físico** não é usada.
+
+![PEPS sem a opção Incluir valor físico.](./media/lifo-without-including-physical-value.png)
 
 **Chave para o diagrama**
 
 - As transações de estoque são representadas por setas verticais.
-- Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
-- Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantidade ao preço unitário.
-- Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
-- Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
+- As transações físicas são representadas por setas cinza menores.
+- As transações financeiras são representadas por setas mais longas em preto.
+- Os recebimentos no estoque são representados por setas verticais sobre o eixo.
+- Saídas fora do estoque são representadas por setas verticais abaixo do eixo.
 - Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
 - Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
-- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
+- Cada data no diagrama é separada por uma linha vertical preta fina. A data é indicada na parte inferior do diagrama.
+- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha.
 - As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
 ## <a name="lifo-with-the-include-physical-value-option"></a>UEPS com a opção Incluir valor físico
-Se a caixa de seleção **Incluir valor físico** for marcada para um item na página **Grupos de modelos do item**, o sistema usará as transações de recebimento físico e financeiro para calcular o preço de custo médio em execução. Quando aplicável, o sistema também fará ajustes para a transação de saída atualizada fisicamente. Quando a caixa de seleção **Incluir valor físico** estiver desmarcada, o fechamento de estoque com o modelo de estoque UEPS liquidará somente as transações atualizadas financeiramente. 
+
+Se a caixa de seleção **Incluir valor físico** for marcada para um item na página **Grupos de modelos do item**, o sistema usará as transações de recebimento físico e financeiro para calcular o preço de custo médio em execução. Quando aplicável, o sistema também ajusta a transação de saída atualizada fisicamente. Quando a caixa de seleção **Incluir valor físico** for desmarcada, o fechamento de estoque que usa o modelo de estoque PEPS liquidará somente transações que são atualizadas financeiramente.
 
 A ilustração a seguir mostra essas transações:
 
--   1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
--   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
--   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
--   4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
--   4b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
--   5a. Saída física de estoque para uma quantidade de 1 a um preço de custo de BRL 21,25 cada (média de transações atualizadas financeiramente e fisicamente).
--   5b. Saída financeira de estoque para uma quantidade de 1 a um preço de custo de BRL 21,25 cada (média de transações atualizadas financeiramente e fisicamente).
--   6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 21,25 cada.
--   7. O fechamento de estoque é executado. Com base no método UEPS, a última transação de saída será ajustada ou liquidada para o último recebimento atualizado.
+- 1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
+- 2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 22,00 cada.
+- 3a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média de transações lançadas financeiramente e fisicamente).
+- 3b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média de transações lançadas financeiramente e fisicamente).
+- 4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
+- 5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 23,67 (média de transações lançadas financeiramente e fisicamente).
+- 7\. O fechamento de estoque é executado. Com base no método PEPS, a primeira saída atualizada financeiramente será liquidada no último recebimento atualizado financeiramente e assim por diante. Neste exemplo, uma liquidação é criada entre 3b e 5b. Um ajuste de USD – 14,00 será feito para 3b, e o custo final resultante será USD 30,00. Além disso, a transação 6a será ajustada para o custo da transação de recebimento de 4a. O sistema não liquidará essas transações, já que o recebimento é atualizado fisicamente, mas não financeiramente. Em vez disso, somente um ajuste de USD-1,33 será lançado na transação de saída física e o custo ajustado resultante será de USD 25,00.
 
-A transação 6a será ajustada para a transação de recebimento 4b. O sistema não liquidará essas transações, já que o recebimento é atualizado fisicamente, mas não financeiramente. Em vez disso, só será lançado um ajuste de BRL 8,75 para a transação de saída física. A transação 5b será ajustada para a transação de recebimento física 3a. O sistema não liquidará essas transações porque elas não estão atualizadas financeiramente. Em vez disso, só será feito um ajuste de BRL –3,75 para essa transação de saída. O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 20,00. 
+A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a opção **Incluir valor físico** é usada.
 
-A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a opção **Incluir valor físico** é usada. 
-
-![UEPS com Incluir Valor Físico](./media/lifowithincludephysicalvalue.gif) 
+![PEPS com a opção Incluir valor físico.](./media/lifo-with-included-physical-value.png)
 
 **Chave para o diagrama**
 
 - As transações de estoque são representadas por setas verticais.
-- Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
-- Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantidade ao preço unitário.
-- Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
-- Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
+- As transações físicas são representadas por setas cinza menores.
+- As transações financeiras são representadas por setas mais longas em preto.
+- Os recebimentos no estoque são representados por setas verticais sobre o eixo.
+- Saídas fora do estoque são representadas por setas verticais abaixo do eixo.
 - Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
 - Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
-- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
+- Cada data no diagrama é separada por uma linha vertical preta fina. A data é referida na parte inferior do diagrama.
+- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha.
 - As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
 ## <a name="lifo-with-marking"></a>UEPS com marcação
-A marcação é um processo do que permite vincular ou marcar uma transação de saída para uma transação de recebimento. A marcação pode ocorrer antes ou depois que a transação for lançada. É possível usar a marcação quando você desejar verificar o custo exato do estoque quando a transação é lançada ou quando o fechamento de estoque é executado. Por exemplo, o departamento de Atendimento ao Cliente aceitou uma ordem urgente de um cliente importante. Como esta é uma ordem urgente, você deverá pagar mais por esse item para atender às solicitações do cliente. 
 
-É necessário garantir que o custo desse item de estoque seja refletido na margem ou no custo dos produtos vendidos (COGS) para essa fatura de ordem de venda. Quando a ordem de compra é lançada, o estoque é recebido ao custo de BRL 120,00. Se esse documento de ordem de vendas for marcado para a ordem de compra antes da guia de remessa ou a fatura ser lançada, o COGS será BRL 120,00, não o custo médio atual para o item. Se a guia de remessa de ordem de vendas ou a fatura for lançada antes que a marcação ocorra, os COGS serão lançados no preço de custo médio. 
+A marcação é um processo que permite vincular ou marcar uma transação de saída para uma transação de recebimento. A marcação pode ocorrer antes ou depois que a transação for lançada. É possível usar a marcação quando você desejar verificar o custo exato do estoque quando a transação é lançada ou quando o fechamento de estoque é executado. Por exemplo, o departamento de Atendimento ao Cliente aceitou uma ordem urgente de um cliente importante. Como esta é uma ordem urgente, você deverá pagar mais pelo item para atender à solicitação do cliente.
 
-Antes que fechamento de estoque seja executado, essas duas transações ainda podem ser marcadas uma para a outra. 
+É necessário garantir que o custo do item de estoque seja refletido na margem ou no custo dos produtos vendidos (COGS) para essa fatura de ordem de venda. Quando a ordem de compra é lançada, o estoque é recebido ao custo de BRL 120,00. Se esse documento de ordem de vendas for marcado para a ordem de compra antes da guia de remessa ou a fatura ser lançada, o COGS será BRL 120,00, não o custo médio atual para o item. Se a guia de remessa de ordem de vendas ou a fatura for lançada antes que a marcação ocorra, os COGS serão lançados no preço de custo médio.
 
-É possível marcar uma transação de saída para um recebimento antes que a transação seja lançada. Você pode fazer isso em uma linha da ordem de venda na página **Detalhes da ordem de venda**. Você pode exibir as transações de recebimento abertas na página **Marcação**. 
+Antes que fechamento de estoque seja executado, essas duas transações ainda podem ser marcadas uma para a outra.
 
-É possível marcar uma transação de saída para um recebimento depois que a transação for lançada. Você pode corresponder ou marcar uma transação de saída para uma transação de recebimento aberta para um item inventariado de um diário de ajuste de estoque lançado. 
+É possível marcar uma transação de saída para um recebimento antes que a transação seja lançada. Você pode fazer essa marcação de uma linha da ordem de venda na página **Detalhes da ordem de venda** ao selecionar **Marcação \> de estoque** na guia rápida **Linhas de ordem de venda**. Você pode exibir as transações de recebimento abertas na página **Marcação**.
+
+É possível marcar uma transação de saída para um recebimento depois que a transação for lançada. Você pode corresponder ou marcar uma transação de saída para uma transação de recebimento aberta para um item inventariado de um diário de ajuste de estoque lançado.
 
 A ilustração a seguir mostra essas transações:
 
--   1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
--   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
--   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
--   4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
--   4b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
--   5a. Saída física de estoque para uma quantidade de 1 a um preço de custo de BRL 21,25 cada (média de transações atualizadas financeiramente e fisicamente).
--   5b. A saída financeira do estoque para uma quantidade de 1 é marcada para o recebimento de estoque 2b antes da transação ser lançada. Essa transação é lançada com o preço de custo de BRL 20,00 cada.
--   6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 21,25 cada.
--   7. O fechamento de estoque é executado. Como as transações PEPS atualizadas financeiramente são marcadas para um recebimento existente, essas transações são liquidadas uma para a outra e nenhum ajuste é feito.
+- 1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
+- 2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 22,00 cada.
+- 3a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média ponderada de transações lançadas financeiramente).
+- 3b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média ponderada de transações lançadas financeiramente).
+- 3c. Saída financeira de estoque para 3b está marcada para saída financeira de estoque para 2b.
+- 4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
+- 5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 23,00 (média ponderada de transações lançadas financeiramente)
+- 7\. O fechamento de estoque é executado. Com base no princípio de marcação que utiliza o método PEPS, as transações selecionadas serão liquidadas uma em função da outra. Neste exemplo, 3b é liquidado contra 2b, e um ajuste para USD 6,00 é lançado em 3b para trazer o valor para USD 22,00. Neste exemplo, nenhuma liquidação adicional é feita, pois o fechamento cria liquidações somente para transações atualizadas financeiramente.
 
-O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 27,50. 
+O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 27,50.
 
-A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a marcação entre saídas e recebimentos é usada. 
+A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a marcação entre saídas e recebimentos é usada.
 
-![UEPS com Marcação    ](./media/lifowithmarking.gif) 
+![PEPS com marcação.](./media/lifo-with-marking.png)
 
 **Chave para o diagrama**
 
 - As transações de estoque são representadas por setas verticais.
-- Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
-- Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantidade ao preço unitário.
-- Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
-- Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
+- As transações físicas são representadas por setas cinza menores.
+- As transações financeiras são representadas por setas mais longas em preto.
+- Os recebimentos no estoque são representados por setas verticais sobre o eixo.
+- Saídas fora do estoque são representadas por setas verticais abaixo do eixo.
 - Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
 - Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
-- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
-- As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
+- Cada data no diagrama é separada por uma linha vertical preta fina. A data é indicada na parte inferior do diagrama.
+- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha.
+- As liquidações e marcações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

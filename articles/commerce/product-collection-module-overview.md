@@ -1,37 +1,31 @@
 ---
 title: Módulos de coleta de produtos
-description: Este tópico fornece uma visão geral das páginas dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
+description: Este tópico fornece uma visão geral dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ea2cd8c168cef40099f611a25367b13247a331b95deea12ff63ca5dd15bc4df
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763803"
 ---
-# <a name="product-collection-modules"></a>Módulos de coleta de produtos
-
+# <a name="product-collection-modules"></a>Módulos de coleção de produtos
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral das páginas dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
+Este tópico fornece uma visão geral dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
 
 A descoberta de produtos é a principal ferramenta usada pelos varejistas para interagir com seus clientes em um site de comércio eletrônico. Os módulos de coleta de produtos ajudam os varejistas a criar experiências atraentes de compras, fornecendo uma interface visual intuitiva que pode ser usada para criar rapidamente coletas de produtos.
 
@@ -46,7 +40,7 @@ As fontes para coletas de produtos podem ser listas dos seguintes quatro tipos:
 
 A ilustração a seguir mostra os diferentes tipos de coletas de produto que estão sendo usadas em um site de comércio eletrônico.
 
-![Exemplo dos diferentes tipos de coletas de produtos em um site de comércio eletrônico](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![Exemplo dos diferentes tipos de coletas de produtos em um site de comércio eletrônico.](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > Sempre use módulos de coleta de produtos para mostrar um grupo de produtos de um tipo semelhante.
@@ -68,11 +62,15 @@ A tabela a seguir descreve vários tipos de módulos de coleta de produtos no Dy
 | As pessoas também gostam           | Inteligência artificial/aprendizado de máquina | Este módulo usa o aprendizado de máquina para analisar padrões de compra do consumidor e recomendar itens relacionados a um determinado produto. Esta lista pode mostrar resultados personalizados para um usuário conectado, caso o autor do site escolha essa opção. |
 | Seleções para Você              | Inteligência artificial/aprendizado de máquina | Este módulo usa o aprendizado de máquina para analisar os padrões de compra do usuário conectado e fornecer recomendações personalizadas que se baseiam nesses padrões de compra. Para um usuário convidado, esta lista será recolhida. |
 
+## <a name="supported-modules"></a>Módulos com suporte 
+
+O módulo de coleção de produtos oferece suporte ao [módulo de exibição rápida](quick-view-module.md), que permite que os usuários vejam informações sobre o produto e adicionem itens ao carrinho usando uma página de coleção de produtos.
+
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Adicionar um módulo de coleta de produtos a uma página de categoria
 
 Para adicionar um módulo de coleta de produtos a uma página de categoria, siga estas etapas.
 
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o mesmo modelo usado pela página de categoria padrão. Em **Nome da página**, insira um nome apropriado e selecione **OK**.
 1. No slot **Sub-rodapé**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
@@ -108,4 +106,9 @@ A tabela a seguir mostra os tipos de lista disponíveis para seleção na caixa 
 
 [Módulo de caixa de compra](add-buy-box.md)
 
-[Visão geral de recomendações de produtos](product-recommendations.md)
+[Visão geral das recomendações de produtos](product-recommendations.md)
+
+[Módulo de exibição rápida](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,24 @@
 ---
 title: Criar uma ordem de venda para um produto configurável
 description: Esse procedimento aborda a aplicação de um modelo de configuração a um produto em uma ordem de venda.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, PCRuntimeConfigurator, PCTemplateConfigurationSelection
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 988d87757019d20dcaf675af925166ed376685f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e42f121d1efa66f85a3dd811606962b907ed177d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422175"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570576"
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>Criar uma ordem de venda para um produto configurável
 
@@ -29,27 +26,27 @@ ms.locfileid: "4422175"
 
 Esse procedimento aborda a aplicação de um modelo de configuração a um produto em uma ordem de venda. Este exemplo usa o modelo do Palestrante D0006 na empresa de dados demo USMF. Normalmente, um processador de ordens de venda usa este procedimento.
 
-
 ## <a name="create-a-sales-order"></a>Criar uma ordem de venda
-1. Clique em Consulta e processamento de ordem de venda.
-2. Clique em Novo.
-3. Clique Ordem de venda.
-4. No campo da conta Cliente, selecione US-001. 
-5. Clique em OK.
-6. No campo Número do item, selecione D0006.
+
+1. Acesse **Vendas e marketing \> Espaços de trabalho \> Consulta e processamento de ordem de venda**.
+1. Selecione **Novo**.
+1. Selecione **Ordem de venda**.
+1. No campo **Conta do cliente**, selecione *US-001*. 
+1. Selecione **OK**.
+1. No campo **Número de item**, selecione *D0006*.
     * Para essa tarefa, você deve selecionar um produto configurável.  
-7. Clique em Produtos e fornecimento.
-8. Clique em Configurar linha.
-    * Observe que o preço foi alterado, com base na configuração selecionada, e ela inclui o campo de cabo agora definido como Verdadeiro.  
+1. Selecione **Produto e fornecimento**.
+1. Selecione **Configurar linha**.
+    * Observe que o preço foi alterado, com base na configuração selecionada, e que o campo **Incluir cabo** agora foi configurado como *Verdadeiro*.  
     * Anote o preço padrão e as configurações que estão selecionadas para o período.  
-9. Clique em Carregar modelo.
-    * Esse exemplo mostra como é possível aplicar um modelo para selecionar uma configuração predefinida. Se você estiver usando este procedimento como um guia de tarefas e deseja consultar outros valores de atributo que estão disponíveis, clique no botão Desbloquear.  
-10. Clique em OK.
-11. Clique em OK.
-12. Expanda a seção Detalhes da linha.
-13. Clique na guia de Produto.
+1. Selecione **Carregar modelo**.
+    * Esse exemplo mostra como é possível aplicar um modelo para selecionar uma configuração predefinida. Se você estiver usando este procedimento como um guia de tarefas e deseja consultar outros valores de atributo que estão disponíveis, selecione o botão **Desbloquear**.  
+1. Selecione **OK**.
+1. Selecione **OK**.
+1. Expanda a seção **Detalhes da linha**.
+1. Selecione a guia **Produto**.
     * A configuração do item está listada agora nas dimensões do produto.  
-14. Feche a página.
+1. Feche a página.
 
-## <a name="select-the-product-configuration"></a>Selecione a configuração do produto
 
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

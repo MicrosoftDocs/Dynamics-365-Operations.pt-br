@@ -1,28 +1,25 @@
 ---
 title: Associar um índice de combustível a uma transportadora como um encargo suplementar
 description: Este guia mostra como criar uma atribuição suplementar, um encargo suplementar da transportadora, um mestre suplementar para sobretaxa de combustível e como associar um índice de combustível da transportadora a uma transportadora.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c91d49c2ccdc274632e3acf94b836e19dc6cdaa8
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 458ee935bec970fc02e3222dcb0c176cf5ddd509
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422558"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580183"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Associar um índice de combustível a uma transportadora como um encargo suplementar
 
@@ -32,14 +29,14 @@ Este guia mostra como criar uma atribuição suplementar, um encargo suplementar
 
 
 ## <a name="create-an-accessorial-master"></a>Crie um mestre suplementar
-1. Vá para Gerenciamento de transporte > Configurar > Classificação > Mestres suplementares.
+1. Acesse Gerenciamento de transporte > Configurar > Classificação > Mestres suplementares.
 2. Clique em Novo.
 3. No campo Mestre suplementar, digite um valor.
 4. No campo Nome, digite um valor.
 5. Clique em Salvar.
 
 ## <a name="create-a-carrier-accessorial-charge"></a>Crie um encargo suplementar da transportadora
-1. Vá para Gerenciamento de transporte > Configurar > Classificação > Encargos suplementares da transportadora.
+1. Acesse Gerenciamento de transporte > Configurar > Classificação > Encargos suplementares da transportadora.
 2. Clique em Novo.
 3. No campo ID suplementar da transportadora, digite um valor.
 4. No campo Transportadora, clique no botão suspenso para abrir a pesquisa.
@@ -70,7 +67,7 @@ Este guia mostra como criar uma atribuição suplementar, um encargo suplementar
 12. Clique em Salvar.
 
 ## <a name="update-the-carrier-rating-profile"></a>Atualize o perfil de classificação da transportadora
-1. Vá para Gerenciamento de transporte > Configuração > Transportadoras > Transportadoras de envio.
+1. Acesse Gerenciamento de transporte > Configuração > Transportadoras > Transportadoras de envio.
 2. Na lista, localize e selecione o PDV desejado.
 3. Ative a expansão da seção Perfis de classificação.
 4. Clique em Editar.
@@ -78,3 +75,6 @@ Este guia mostra como criar uma atribuição suplementar, um encargo suplementar
 6. Na lista, clique no link na linha selecionada.
 7. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

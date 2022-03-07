@@ -1,37 +1,39 @@
 ---
 title: Configurar parâmetros de licença e ausência
-description: Definir parâmetros de recursos humanos para licença e ausência no Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+description: Este tópico descreve como definir parâmetros de recursos humanos para licença e ausência no Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4417373"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067343"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurar parâmetros de licença e ausência
 
-Antes de configurar os planos de licença e ausência no Dynamics 365 Human Resources, convém verificar as configurações de todos os parâmetros de recursos humanos relacionados, incluindo:
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Antes de configurar os planos de licença e ausência no Dynamics 365 Human Resources, convém verificar as configurações de todos os **Parâmetros de recursos humanos** relacionados, incluindo:
 
 - Sequência numérica para solicitações de licença
 - Lei de família de licença e médica (FMLA)
-- Configurações de auto-atendimento para funcionário para solicitações de licença e ausência
+- Configurações de autoatendimento para funcionário para solicitações de licença e ausência
 - Parâmetros de licença e ausência
 
 ## <a name="view-and-change-human-resources-parameters"></a>Exibir e alterar parâmetros de recursos humanos
@@ -75,7 +77,7 @@ Antes de configurar os planos de licença e ausência no Dynamics 365 Human Reso
 
     - Selecione **Cálculo de saldo** para exibir saldos a partir de hoje ou a partir do período de competência. Se você selecionar **Saldo a partir de hoje**, o saldo exibirá o total de todas as competências, ajustes e solicitações a partir de hoje. Se você selecionar **Saldo como período de acumulação**, o saldo exibirá o total de todas as competências, ajustes e solicitações, a partir do período de acumulação definido pela frequência no plano de licença. 
 
-    - Defina a hora inicial do trabalho em lotes de expiração postergada.  
+    - Defina a **Hora de início** do trabalho em lotes **Postergar expiração**.  
     
     - Selecione **Sim** para **Permitir que os funcionários comprem licenças** e **Permitir que os funcionários vendam licença**. Se você selecionar **Sim** para essas opções, poderá criar políticas de licença de compra e venda e permitir que os funcionários enviem solicitações de compra e venda de licenças.
 
@@ -92,3 +94,6 @@ Antes de configurar os planos de licença e ausência no Dynamics 365 Human Reso
 ## <a name="see-also"></a>Consulte também
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

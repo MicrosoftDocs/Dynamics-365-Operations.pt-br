@@ -1,30 +1,29 @@
 ---
 title: Visão geral de entrada
 description: Este tópico fornece informações sobre o recurso Visão geral de entrada. A página Visão geral de entrada faz parte desse recurso e fornece uma visão geral de todos os itens que devem chegar como itens de entrada.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422257"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567430"
 ---
 # <a name="arrival-overview"></a>Visão geral de entrada
 
@@ -37,7 +36,7 @@ A página **Visão geral de entrada** fornece uma visão geral de todos os itens
 ## <a name="business-scenario"></a>Cenário de negócios
 Considere o seguinte cenário nos processos de entrada.
 
-[![Cenário de negócios](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Cenário de negócios.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, um funcionário de recebimento, quer saber o que deve ser recebido no dia atual. Na página **Visão geral de entrada**, Sammy pode obter uma visão geral das tarefas atuais e uma previsão aproximada de quantidades, volume, peso, diferentes tipos de ordem etc. Posteriormente, a entrega chega em uma das docas de entrada e Sammy recebe uma lista da entrega. Na página **Visão geral de entrada**, Sammy pode executar as seguintes tarefas:
 
@@ -69,7 +68,7 @@ Para criar automaticamente os diários de entrada da página **Visão geral de e
 
 -   É necessário especificar um nome de diário para criar um novo diário.
 
-[![Especificando um nome de diário](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Especificando um nome de diário.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Se você especificar valores nos campos **Depósito** e **Local**, esses valores serão aplicados nas linhas do diário. Se você não especificar valores, o sistema usará os valores da dimensão especificada nas transações de estoque.
 
@@ -121,3 +120,6 @@ Quando todos os bens forem registrados, o gerente de depósito ou o gerente de c
 
 ## <a name="summary"></a>Resumo
 A página **Visão geral de entrada** pode ajudar o gerente de depósito e os trabalhadores do depósito a obter uma visão geral do trabalho esperado que deve ser executado como parte de um processo de entrada. A página também pode ser usada para iniciar o processo de entrada de item, para ajudar a garantir que os itens sejam rastreados na primeira entrada no depósito.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Configurar grupos de lançamento contábil do imposto
 description: Os impostos são calculados e lançados nas contas principais que são especificadas nos grupos de lançamentos contábeis.
 author: twheeloc
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e779887a650f4ca79ea4c9f0d69a5abb5533ac69abab38e1fae38e745e4157bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968445"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754161"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Configurar grupos de lançamento contábil do imposto
 
@@ -28,7 +26,7 @@ ms.locfileid: "4968445"
 
 Os impostos são calculados e lançados nas contas principais que são especificadas nos grupos de lançamentos contábeis. Os grupos de lançamentos contábeis são associados a cada código de imposto sobre vendas. Você pode configurar grupos de lançamentos contábeis individuais para cada código de imposto sobre vendas; também pode usar um grupo para todos os códigos ou atribuir múltiplos grupos aos códigos. Este registro usa a empresa de dados de demonstração DEMF. 
 
-1. Vá para **Painel de Navegação > Módulos > Imposto > Configuração > Imposto sobre vendas > Grupos de lançamento do razão**.
+1. Acesse **Painel de Navegação > Módulos > Imposto > Configuração > Imposto sobre vendas > Grupos de lançamento do razão**.
 2. Clique em **Novo**.
 3. No campo grupo de **Lançamento do razão**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -41,3 +39,6 @@ Os impostos são calculados e lançados nas contas principais que são especific
 11. No campo **Desconto de caso de cliente**, selecione a conta principal para lançar o desconto à vista para os **Códigos de impostos sobre vendas** associados a esse grupo de **Lançamentos contábeis**. Isso é opcional e se nenhuma conta for inserida, a conta principal nos **Códigos de desconto à vista** será usada. Pode ser útil usar contas diferentes para o grupo de **Lançamentos contábeis** se usar os impostos sobre vendas que podem ser revertidos na opção de desconto à vista em grupos de **Impostos sobre vendas**.  
 12. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

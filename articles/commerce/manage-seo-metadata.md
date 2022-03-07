@@ -2,36 +2,30 @@
 title: Gerenciar metadados de SEO
 description: Este tópico descreve como gerenciar metadados da otimização do mecanismo de pesquisa (SEO) no Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e03ef346df92a94b0a403f241d0f7d1f64fd210
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410171"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794202"
 ---
 # <a name="manage-seo-metadata"></a>Gerenciar metadados de SEO
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como gerenciar metadados da otimização do mecanismo de pesquisa (SEO) no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 Os metadados de SEO para um site podem ser gerenciados usando mapas do site e metadados da página.
     
@@ -94,4 +88,9 @@ Para modificar os metadados da página, siga estas etapas.
 
 [Enriquecer uma página de aterrissagem da categoria](enrich-category-page.md)
 
-[Verificar acessibilidade de conteúdo da página](verify-accessibility.md)
+[Verificar acessibilidade do conteúdo da página](verify-accessibility.md)
+
+[Criar páginas dinâmicas de comércio eletrônico com base nos parâmetros da URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

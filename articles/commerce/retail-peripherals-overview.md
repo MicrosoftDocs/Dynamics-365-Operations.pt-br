@@ -2,28 +2,27 @@
 title: Periféricos
 description: Este tópico explica os conceitos relacionados aos periféricos do Commerce.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715325"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -122,7 +121,7 @@ Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o 
 -   **Objeto de controle** – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software. A Monroe Serviços de Consultoria ([www.monroecs.com](http://www.monroecs.com/)) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs). Os CCOs são usados para testar o componente de PDV do Commerce. Portanto, o teste ajuda a garantir que, se o Commerce oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo poderão ser aceitos, desde que o fabricante forneça um objeto de serviço que seja desenvolvido para OPOS. Você não precisa explicitamente testar cada tipo do dispositivo.
 -   **Objeto de serviço** – O objeto de serviço fornece comunicação entre o objeto de controle (CCO) e o dispositivo. Normalmente, o objeto de serviço para um dispositivo é fornecido pelo fabricante do dispositivo. Entretanto, em alguns casos, pode ser necessário baixar o objeto de serviço do site do fabricante. Por exemplo, um objeto mais recente de serviço pode estar disponível. Para localizar o endereço do site do fabricante, consulte a documentação do hardware.
 
-[![Objeto de controle e objeto de serviço](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente. 
+[![Objeto de controle e objeto de serviço.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente. 
 
 > [!NOTE]
 > O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS. O Commerce deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.
@@ -146,6 +145,9 @@ A UWP, em caso de periféricos, é relacionada ao suporte do Windows para dispos
 
 Os leitores de cartão de crédito do teclado enviam dados para o computador como se os dados tivessem sido digitados em um teclado. Portanto, por padrão, o campo que fica ativo no PDV receberá os dados digitalizados ou lidos. Em alguns casos, este comportamento pode fazer com que o tipo errado de dado seja digitalizado no campo errado. Por exemplo, um código de barras pode ser digitalizado em um campo que foi criado para a entrada de dados de cartão de crédito. Em muitos casos, há uma lógica no PDV que determina se os dados que são digitalizados ou lidos são um código de barras ou faixa de cartão. Portanto, os dados são controlados corretamente. Entretanto, quando dispositivos são configurados como OPOS em vez de leitores de cartão de crédito do teclado, há mais controle sobre a forma como os dados desses dispositivos podem ser consumidos, pois o dispositivo de origem dos dados é mais "conhecido". Por exemplo, os dados de um scanner de código de barras são reconhecidos automaticamente como um código de barras, e o registro associado no banco de dados é encontrado com mais facilidade e rapidez do que se uma pesquisa de cadeia de caracteres genérica fosse utilizada, como no caso dos leitores de cartão de crédito de teclado.
 
+> [!NOTE]
+> Quando os scanners de leitura do teclado são usados no PDV, eles devem ser programados para enviar um retorno de carro ou **Inserir** evento, após o último caractere digitalizado. Se essa configuração não for realizada, os scanners de leitura do teclado não funcionarão corretamente. Consulte a documentação fornecida pelo fabricante do dispositivo para obter mais informações sobre como acrescentar o evento de retorno de carro.  
+
 ### <a name="native-printer"></a>Impressora nativa
 
 As impressoras nativas (ou "dispositivo", uma vez que o tipo é nomeado no perfil de hardware) podem ser configuradas para que solicitam ao usuário que selecione uma impressora que está configurada para o computador. Quando uma impressora do tipo **Dispositivo** é configurada, se o PDV moderno encontrar um comando de impressão, é solicitado ao usuário que selecione uma impressora em uma lista. Esse comportamento difere do comportamento dos drivers do Windows, pois o tipo de impressora do **Windows** no perfil de hardware não mostra uma lista de impressoras. Em vez disso, ele exige que uma impressora nomeada seja fornecida no campo **Nome do dispositivo**.
@@ -158,7 +160,7 @@ As caixas registradoras endereçáveis por rede, impressoras de recibo e termina
 
 ### <a name="dedicated"></a>Dedicada
 
-Os clientes do Modern POS para Windows e Android incluem estações de hardware **Dedicadas** ou integradas. Esses clientes podem se comunicar diretamente com periféricos usando a lógica de negócios integrada aos aplicativos. O aplicativo Android oferece suporte somente a dispositivos de rede. Para obter mais informações sobre suporte a periféricos para o Android, acesse o artigo [Configurar aplicativo POS Hybrid no Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Os clientes do Modern POS para Windows e Android incluem estações de hardware **Dedicadas** ou integradas. Esses clientes podem se comunicar diretamente com periféricos usando a lógica de negócios integrada aos aplicativos. O aplicativo Android oferece suporte somente a dispositivos de rede. Para obter mais informações sobre suporte a periféricos para o Android, acesse o artigo [Configurar aplicativo POS Hybrid no Android e iOS](./dev-itpro/hybridapp.md).
 
 Para usar a estação de hardware dedicada, atribua um perfil de hardware a um registro que usará o Modern POS para Windows ou aplicativo Android. Em seguida, crie uma estação de hardware do tipo **Dedicada** para a loja onde a registradora será utilizada. Inicie o Modern POS no modo sem gaveta e use a operação **Gerenciar estações de hardware** para acionar os recursos da estação de hardware, a estação de hardware dedicada estará ativa por padrão. Em seguida, faça logoff do Modern POS e entre novamente. Depois, abra um turno e os periféricos configurados no perfil de hardware poderão ser usados. 
 
@@ -199,7 +201,7 @@ Para obter informações, consulte [Configurar, instalar e ativar o Modern POS (
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Instalação e configuração do Modern POS para Android e iOS
 
-Para obter informações, consulte [Configurar o aplicativo POS Hybrid no Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Para obter informações, consulte [Configurar o aplicativo POS Hybrid no Android e iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Instalação e configuração do dispositivo OPOS
 
@@ -494,7 +496,7 @@ Esta configuração é a configuração mais típica para as registradoras PDV f
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS para Android com uma estação de hardware IPC (integrada)
 
-**Novo para 10.0.8** – impressoras de rede Epson e caixas registradoras conectadas a elas via porta DK agora oferecem suporte para Modern POS para o aplicativo Android. Para obter detalhes, acesse o artigo [Configurar o aplicativo POS Hybrid no Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**Novo para 10.0.8** – impressoras de rede Epson e caixas registradoras conectadas a elas via porta DK agora oferecem suporte para Modern POS para o aplicativo Android. Para obter detalhes, acesse o artigo [Configurar o aplicativo POS Hybrid no Android e iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Todos os clientes de Modern POS que possuem uma estação de hardware IIS compartilhada comprometida
 
@@ -614,6 +616,9 @@ Estes periféricos foram testados usando a estação de hardware IPC que é inte
 | Star         | TSP650II | Personalizado    | Conectado via rede   |
 | Star         | mPOP     | OPOS      | Conectado via Bluetooth |
 | HP           | F7M67AA  | OPOS      | Porta USB             |
+
+> [!NOTE]
+> A impressora Star TSP 100 não tem suporte para a estação de hardware integrada. A estação de hardware integrada usa um processo de 64 bits, que é incompatível com os drivers existentes da Star TP 100. 
 
 #### <a name="bar-code-scanner"></a>Scanner de código de barras
 
@@ -762,9 +767,8 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 | Epson        | TM-T88IV | OPOS      |                           |
 | Epson        | TM-T88V  | OPOS      |                           |
 | Epson        | TM-T88   | Personalizado    | Conectado via rede     |
-| Star         | TSP650II | Personalizado    | Conectado via rede     |
-| Star         | TSP100   | OPOS      | Requer drivers do TSP650II |
-| HP           | F7M67AA  | OPOS      | Porta USB               |
+| Star         | TSP650II | Personalizada    | Conectado via rede     |
+| HP           | F7M67AA  | OPOS      | Powered USB               |
 
 #### <a name="payment-terminal"></a>Terminal de pagamento
 
@@ -789,7 +793,7 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 **Solução:** Verifique a lista a seguir com os possíveis pontos de falha:
 
 -   O computador que esta executando o PDV moderno confia no certificado usado no computador que executa a estação de hardware.
-    -   Para verificar essa configuração, em um navegador de Web, vá para o seguinte URL: https://&lt;Nome do Computador&gt;:&lt;Número da Porta&gt;/HardwareStation/ping.
+    -   Para verificar essa configuração, em um navegador de Web, Acesse o seguinte URL: https://&lt;Nome do Computador&gt;:&lt;Número da Porta&gt;/HardwareStation/ping.
     -   Este URL usa um ping para verificar se o computador pode ser acessado, o navegador e indica se o certificado é confiável. (Por exemplo, no Internet Explorer, um ícone de bloqueio é exibido na barra de endereços. Quando você clica nesse ícone, o Internet Explorer verifica se o certificado é confiável atualmente. Você pode instalar o certificado no computador local exibindo os detalhes do certificado que será exibido.)
 -   No computador que executa a estação de hardware, a porta que será usada pela estação de hardware é aberta no firewall.
 -   A estação de hardware instalou corretamente as informações de conta mercante através da ferramenta de instalação de informações de mercante que é executada no final do instalador de estação de hardware.
@@ -831,9 +835,11 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
     6.  Depois que os hosts de DLL tiverem sido fechados, reinicie o PDV moderno.
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Simulador periférico para Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

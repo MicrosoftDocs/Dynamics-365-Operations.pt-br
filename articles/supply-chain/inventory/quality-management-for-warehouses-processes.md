@@ -2,27 +2,26 @@
 title: Gestão de qualidade para processos de depósito
 description: Este tópico fornece informações sobre o recurso Gestão de qualidade para processos de depósito. Ele amplia os recursos de gerenciamento da qualidade e permite que os usuários integrem controles de amostragem de item ao processo de recebimento do depósito, usando o gerenciamento avançado de depósito.
 author: Henrikan
-manager: tfehr
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: d81441fcc8cb86927923e76bd1a4d16a141ddc75
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422459"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571872"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestão de qualidade para processos de depósito
+
+[!include [banner](../includes/banner.md)]
 
 O recurso _Gestão de qualidade para processos de depósito_ permite integrar controles de amostragem de item ao processo de recebimento do depósito, usando o gerenciamento avançado de depósito. O trabalho de depósito pode ser gerado automaticamente para mover o estoque para o local de controle de qualidade, com base em uma porcentagem ou quantidade fixa ou com base na posição que a placa de licença ocupa. Após a conclusão de uma ordem de qualidade, o trabalho pode ser gerado automaticamente para mover o estoque para o próximo local no processo, dependendo dos resultados da qualidade.
 
@@ -46,7 +45,7 @@ O recurso _Gestão de qualidade para processos de depósito_ gera automaticament
 
 Quando o recurso _Gestão de qualidade para processos de depósito_ é ativado, ele altera a configuração das principais entidades de gerenciamento de depósito e gerenciamento de qualidade. A ilustração a seguir fornece uma visão geral das entidades que permitem ordens de qualidade para os processos de depósito. O texto entre parênteses indica ações sugeridas quando o gerenciamento de qualidade foi aplicado antes que o recurso _Gestão de qualidade para processos de gerenciamento de depósito_ fosse ativado.
 
-![Entidades de gerenciamento de qualidade](media/quality-management-entity-diagram.png "Entidades de gerenciamento de qualidade")
+![Entidades de gerenciamento de qualidade.](media/quality-management-entity-diagram.png "Entidades de gerenciamento de qualidade")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Ativadores: os tipos de amostragem de item de qualidade e ordem de serviço de ordem de qualidade
 
@@ -61,7 +60,7 @@ Os tipos de ordem de serviço _Amostragem de item de qualidade_ e _Ordem de qual
 
 Antes que o trabalho de depósito possa ser gerado automaticamente para mover o estoque para o controle de qualidade, siga estas etapas para configurar seu sistema.
 
-1. Crie classes de trabalho separadas para os tipos de ordem de serviço _Amostragem de item de qualidade_ e _Ordem de qualidade_. Dessa forma, você garante que o trabalho apropriado possa ser gerado automaticamente com base nos dois tipos de ordem de serviço e que esse trabalho possa ser executado usando o aplicativo de depósito.
+1. Crie classes de trabalho separadas para os tipos de ordem de serviço _Amostragem de item de qualidade_ e _Ordem de qualidade_. Dessa forma, você garante que o trabalho apropriado possa ser gerado automaticamente com base nos dois tipos de ordem de serviço e que esse trabalho possa ser executado usando o aplicativo móvel do Gerenciamento de Depósito.
 1. Configure um modelo de trabalho para cada tipo de ordem de serviço:
 
     - Configure um modelo de trabalho que use o tipo de ordem de serviço _Amostragem de item de qualidade_ para mover automaticamente o estoque registrado para um local de controle de qualidade.
@@ -76,7 +75,7 @@ Para um exemplo passo a passo que mostra como concluir essa configuração, cons
 
 Antes que o recurso _Gestão de qualidade para processos de depósito_ possa ser aplicado a um depósito específico, você deve seguir as etapas a seguir para disponibilizar o recurso desse depósito.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Selecione o depósito para habilitar o gerenciamento de qualidade.
 1. Na FastTab **Depósito**, defina a opção **Habilitar ordem de qualidade para processos de depósito** como _Sim_. (Observe que essa opção pode ser definida como _Sim_ apenas para depósitos que usam processos de gerenciamento de depósito.)
 
@@ -90,7 +89,7 @@ O recurso _Gestão de qualidade para processos de depósito_ controla várias co
 
 Cada [registro de associação de qualidade](enable-quality-management.md) também define o conjunto de testes, o nível de qualidade aceitável (AQL) e o plano de amostragem que se aplicam às ordens de qualidade geradas. Para configurar um registro de associação de qualidade, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Associações de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Associações de qualidade**.
 1. Crie ou selecione a entrada de associação de qualidade para o item ou grupo com o qual você está trabalhando ou para todos os itens.
 1. Na FastTab **Condições**, defina o campo **Tipo de depósito aplicável** para um dos seguintes valores:
 
@@ -106,8 +105,8 @@ Quando o recurso _Gestão de qualidade para processos de depósito_ é ativado, 
 
 | Grupo de pesquisa | descrição |
 |---|---|
-| Grupo 1 | Para cada associação de qualidade, verifique os valores **Tipo de referência**, **Tipo de evento** e **Correspondência de execução** em relação ao item. Se houver uma correspondência na linha do documento de origem, vá para o grupo 2. |
-| Grupo 2 | Para cada associação de qualidade, verifique o valor **Código do item** (_Tabela_, _Grupo_ ou _Todos_) em relação ao item. _Tabela_ é mais específica que _Grupo_ e _Grupo_ é mais específico que _Todos_. Se houver uma correspondência para _Tabela_ (um item específico), vá para o grupo 3. Se não houver correspondência para _Tabela_, procure uma correspondência para _Grupo_. Se não houver correspondência para _Grupo_, _Todos_ se aplica. Se houver uma correspondência, vá para o grupo 3. |
+| Grupo 1 | Para cada associação de qualidade, verifique os valores **Tipo de referência**, **Tipo de evento** e **Correspondência de execução** em relação ao item. Se houver uma correspondência na linha do documento de origem, Acesse o grupo 2. |
+| Grupo 2 | Para cada associação de qualidade, verifique o valor **Código do item** (_Tabela_, _Grupo_ ou _Todos_) em relação ao item. _Tabela_ é mais específica que _Grupo_ e _Grupo_ é mais específico que _Todos_. Se houver uma correspondência para _Tabela_ (um item específico), Acesse o grupo 3. Se não houver correspondência para _Tabela_, procure uma correspondência para _Grupo_. Se não houver correspondência para _Grupo_, _Todos_ se aplica. Se houver uma correspondência, Acesse o grupo 3. |
 | Grupo 3 | Para cada associação de qualidade, verifique os valores **Código da conta** e **Código do recurso** em relação ao item. A lógica aplicada é semelhante à lógica aplicada ao valor **Código do item**. |
 | Grupo 4 | Para cada associação de qualidade, verifique o valor **Tipo de depósito aplicável** (_Gestão de qualidade somente para processos de depósito_ ou _Todos_) em relação ao item. Se a opção **Habilitar ordem de qualidade para processos de depósito** estiver definida como _Sim_ para o depósito no documento de origem e o item na linha do documento de origem estiver definido como _Usar processos de gerenciamento de depósito_, as associações onde há correspondência para _Gestão de qualidade somente para processos de depósito_ e as associações onde há correspondência para _Todos_ serão aplicáveis em paralelo, se ambos os tipos existirem. Se a opção **Habilitar ordem de qualidade para processos de depósito** estiver definida como _Não_ para o depósito no documento de origem e o item na linha do documento de origem estiver definido como _Usar processos de gerenciamento de depósito_, somente o gerenciamento da qualidade será aplicável. |
 
@@ -146,7 +145,7 @@ Se você definir uma amostragem de item que use o tipo de depósito aplicável _
 
 A amostragem de item controla a frequência com que os itens são enviados para controle de qualidade. O recurso _Gestão de qualidade para processos de depósito_ apresenta o conceito de _escopo de amostragem de item_. O sistema usa o escopo de amostragem de item quando avalia se e como as ordens de qualidade e/ou a amostragem de item de qualidade e o trabalho da ordem de qualidade devem ser criados.
 
-Para configurar a amostragem de item, vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item** e defina o campo **Escopo de amostragem** para um dos seguintes valores:
+Para configurar a amostragem de item, Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item** e defina o campo **Escopo de amostragem** para um dos seguintes valores:
 
 - **Ordem** – A linha do documento de origem será a base para avaliar se e como os pedidos de qualidade e/ou a amostragem de item de qualidade funcionam e o trabalho da ordem de qualidade é criado. Esse valor é o valor padrão e, quando selecionado, o sistema funciona da mesma maneira que quando o recurso _Gestão de qualidade para processos de depósito_ não está ativado.
 - **Carga** – As cargas serão usadas como base para avaliar se e como uma ordem e/ou trabalho de qualidade é criado. Esse valor está disponível apenas quando o recurso _Gestão de qualidade para processos de depósito_ está ativado.
@@ -165,7 +164,7 @@ A opção **Contagem de intervalos por item** controla se a contagem de placas �
 
 O valor do campo **Por enésima placa de licença** controla a frequência com que as ordens de qualidade são criadas em relação ao número de itens registrados. Por exemplo, um valor de *3* enviará cada terceiro item ao controle de qualidade, começando com o primeiro item. O valor deve ser maior que 0 (zero).
 
-Enquanto os trabalhadores recebem itens usando o aplicativo de depósito, o sistema valida se uma associação de qualidade está configurada para cada item recebido. Se uma associação de qualidade for configurada, o sistema utilizará o registro de amostragem de item configurado para essa associação de qualidade para determinar como criar ordens de qualidade, trabalho de amostragem de item de qualidade e trabalho de ordem de compra.
+Enquanto os trabalhadores recebem itens usando o aplicativo móvel do Gerenciamento de Depósito, o sistema valida se uma associação de qualidade está configurada para cada item recebido. Se uma associação de qualidade for configurada, o sistema utilizará o registro de amostragem de item configurado para essa associação de qualidade para determinar como criar ordens de qualidade, trabalho de amostragem de item de qualidade e trabalho de ordem de compra.
 
 > [!NOTE]
 > Quando o registro de recebimento é feito no cliente Web (usando a pequena página de registro ou o diário de entrada de itens para linhas de ordens), nenhum trabalho de amostragem de item de qualidade ou trabalho de ordens será criado, independentemente da configuração. Em vez disso, para itens que correspondem a uma associação de qualidade, a amostragem de item referenciado será usada para controlar apenas a criação de ordens de qualidade.
@@ -180,14 +179,14 @@ O valor **Tipo de referência** para os seguintes exemplos é _Compra_ e o valor
 
 | Escopo de amostragem | Especificação de quantidade | Quantidade por atualização | Por dimensão de armazenamento | Dividir contagem por item | Placa de licença por enésimo | Resultado |
 |---|---|---|---|---|---|---|
-| Ordem | Placa de licença completa | Sim _(bloqueado/não editável)_ | <p>Local: Sim</p><p>Placa de licença: Sim _(bloqueado/não editável)_</p> | Não | 3 | <p>**Quantidade da linha da ordem: 100 EA**</p><ol><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP1<p>Trabalho de amostragem de item de qualidade para 20 EA</p><p>Ordem de qualidade 1 para 20 EA</p></li><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP2<p>Trabalho de ordem de compra para 20 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP3<p>Trabalho de ordem de compra para 20 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP4<p>Trabalho de amostragem de item de qualidade para 20 EA</p></li><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP5<p>Trabalho de ordem de compra para 20 EA (armazenamento)</p></li></ol> |
-| Ordem | Quantidade fixa = 1 | Sim | <p>Local: Sim</p><p>Placa de licença: Sim</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 100**</p><ol><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP1<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP2<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP3<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP4<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para 20 EA, LP5<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 EA (armazenamento)</p></li></ol> |
-| Ordem | Porcentagem = 10 | Não | <p>Local: Não</p><p>Placa de licença: Não</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 100 EA**</p><ol><li>Registrar o recebimento no aplicativo de depósito para 50 EA, LP1<p>Trabalho de amostragem de item de qualidade para 10 EA</p><p>Ordem de qualidade 1 para 10 EA</p><p>Trabalho de ordem de compra para 40 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para 50 EA, LP2<p>Trabalho de ordem de compra para 50 EA (armazenamento)</p></li></ol> |
-| Carregar | Porcentagem = 5 | Sim _(bloqueado/não editável)_ | <p>Local: Não</p><p>Placa de licença: Não</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 500 EA**</p><p>**Duas cargas: primeira carga 200 EA, segunda carga 300 EA**</p><ol><li>Registrar o recebimento no aplicativo de depósito para a primeira carga de 100 EA<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 95 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para a primeira carga de 100 EA<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 95 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para a segunda carga de 300 EA<p>Trabalho de amostragem de item de qualidade para 15 EA</p><p>Ordem de qualidade 1 para 15 EA</p><p>Trabalho de ordem de compra para 285 EA (armazenamento)</p></li></ol> |
-| Ordem | Porcentagem = 10 | Não | <p>Local: Sim</p><p>Placa de licença: Sim</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 100**</p><ol><li>Registrar o recebimento no aplicativo de depósito para 50 EA, LP1<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para 50 EA, LP2<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 (armazenamento)</p></li></ol> |
-| Carregar | Placa de licença completa | Sim _(bloqueado/não editável)_ | <p>Local: Sim</p><p>Placa de licença: Sim _(bloqueado/não editável)_</p> | Não | 3 | <p>**Dois itens:**</p><ul><li>**Quantidade da linha de ordem para o item A: 120 EA (4 paletes)**</li><li>**Quantidade da linha de ordem para o item B: 90 EA (3 paletes)**</li></ul><p>**Uma carga, duas linhas de carga com cada linha de ordem**</p><ol><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP1<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP2<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP3<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP4<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo de depósito para item B, 30 EA, LP5<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para item B, 30 EA, LP6<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP7<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li></ol> |
-| Carregar | Placa de licença completa | Sim _(bloqueado/não editável)_ | <p>Local: Sim</p><p>Placa de licença: Sim _(bloqueado/não editável)_</p> | Sim | 3 | <p>**Dois itens:**</p><ul><li>**Quantidade da linha de ordem para o item A: 120 EA (4 paletes)**</li><li>**Quantidade da linha de ordem para o item B: 90 EA (3 paletes)**</li></ul><p>**Uma carga, duas linhas de carga com cada linha de ordem**</p><ol><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP1<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP2<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP3<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP4<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo de depósito para item B, 30 EA, LP5<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo de depósito para item B, 30 EA, LP6<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para item A, 30 EA, LP7<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li></ol> |
-| Carregar | Porcentagem = 10 | Sim _(bloqueado/não editável)_ | <p>Local: Não</p><p>Placa de licença: Não</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 100 EA**</p><p>**Nenhuma carga é criada. O escopo da ordem é aplicado.**</p><ol><li>Registrar o recebimento no aplicativo de depósito para 50 EA, LP1<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo de depósito para 50 EA, LP2<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 EA (armazenamento)</p></li></ol> |
+| Ordem | Placa de licença completa | Sim _(bloqueado/não editável)_ | <p>Local: Sim</p><p>Placa de licença: Sim _(bloqueado/não editável)_</p> | Não | 3 | <p>**Quantidade da linha da ordem: 100 EA**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP1<p>Trabalho de amostragem de item de qualidade para 20 EA</p><p>Ordem de qualidade 1 para 20 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP2<p>Trabalho de ordem de compra para 20 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP3<p>Trabalho de ordem de compra para 20 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP4<p>Trabalho de amostragem de item de qualidade para 20 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP5<p>Trabalho de ordem de compra para 20 EA (armazenamento)</p></li></ol> |
+| Ordem | Quantidade fixa = 1 | Sim | <p>Local: Sim</p><p>Placa de licença: Sim</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 100**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP1<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP2<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP3<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP4<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 20 EA, LP5<p>Trabalho de amostragem de item de qualidade para 1 EA</p><p>Ordem de qualidade 1 para 1 EA</p><p>Trabalho de ordem de compra para 19 EA (armazenamento)</p></li></ol> |
+| Ordem | Porcentagem = 10 | Não | <p>Local: Não</p><p>Placa de licença: Não</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 100 EA**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 50 EA, LP1<p>Trabalho de amostragem de item de qualidade para 10 EA</p><p>Ordem de qualidade 1 para 10 EA</p><p>Trabalho de ordem de compra para 40 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 50 EA, LP2<p>Trabalho de ordem de compra para 50 EA (armazenamento)</p></li></ol> |
+| Carregar | Porcentagem = 5 | Sim _(bloqueado/não editável)_ | <p>Local: Não</p><p>Placa de licença: Não</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 500 EA**</p><p>**Duas cargas: primeira carga 200 EA, segunda carga 300 EA**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para a primeira carga de 100 EA<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 95 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para a primeira carga de 100 EA<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 95 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para a segunda carga de 300 EA<p>Trabalho de amostragem de item de qualidade para 15 EA</p><p>Ordem de qualidade 1 para 15 EA</p><p>Trabalho de ordem de compra para 285 EA (armazenamento)</p></li></ol> |
+| Ordem | Porcentagem = 10 | Sim | <p>Local: Sim</p><p>Placa de licença: Sim</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 100**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 50 EA, LP1<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 50 EA, LP2<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 (armazenamento)</p></li></ol> |
+| Carregar | Placa de licença completa | Sim _(bloqueado/não editável)_ | <p>Local: Sim</p><p>Placa de licença: Sim _(bloqueado/não editável)_</p> | Não | 3 | <p>**Dois itens:**</p><ul><li>**Quantidade da linha de ordem para o item A: 120 EA (4 paletes)**</li><li>**Quantidade da linha de ordem para o item B: 90 EA (3 paletes)**</li></ul><p>**Uma carga, duas linhas de carga com cada linha de ordem**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP1<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP2<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP3<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP4<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item B, 30 EA, LP5<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item B, 30 EA, LP6<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP7<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li></ol> |
+| Carregar | Placa de licença completa | Sim _(bloqueado/não editável)_ | <p>Local: Sim</p><p>Placa de licença: Sim _(bloqueado/não editável)_</p> | Sim | 3 | <p>**Dois itens:**</p><ul><li>**Quantidade da linha de ordem para o item A: 120 EA (4 paletes)**</li><li>**Quantidade da linha de ordem para o item B: 90 EA (3 paletes)**</li></ul><p>**Uma carga, duas linhas de carga com cada linha de ordem**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP1<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP2<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP3<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP4<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item B, 30 EA, LP5<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item B, 30 EA, LP6<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP7<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li></ol> |
+| Carregar | Porcentagem = 10 | Sim _(bloqueado/não editável)_ | <p>Local: Não</p><p>Placa de licença: Não</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 100 EA**</p><p>**Nenhuma carga é criada. O escopo da ordem é aplicado.**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 50 EA, LP1<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 50 EA, LP2<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 EA (armazenamento)</p></li></ol> |
 
 Quando um trabalhador valida uma das ordens de qualidade mostradas na tabela anterior, o sistema gera automaticamente o trabalho da ordem de qualidade para mover o estoque do local do controle de qualidade para o local definido na diretiva de localização para o tipo de ordem de serviço _Ordem de qualidade_. Você pode configurar qualquer local para esse fim, como um local de devolução ou armazenamento, dependendo do resultado do teste da ordem de qualidade. Para obter um exemplo dessa configuração, consulte o [exemplo de cenário](#example-scenario) no final de esta seção.
 
@@ -239,7 +238,7 @@ No exemplo a seguir, o valor **Tipo de referência** é _Compra_.
     - **Grupo de teste:** *Cone*
     - **Amostragem de item:** *10%*
 
-Uma ordem de compra para uma quantidade de 10 do item A0001 agora é criada para o fornecedor 104. Em seguida, uma linha da ordem de compra com uma quantidade de 10 é registrada como recebida em uma placa de licença usando o aplicativo de depósito. Este é o resultado:
+Uma ordem de compra para uma quantidade de 10 do item A0001 agora é criada para o fornecedor 104. Em seguida, uma linha da ordem de compra com uma quantidade de 10 é registrada como recebida em uma placa de licença usando o aplicativo móvel do Gerenciamento de Depósito. Este é o resultado:
 
 - Há uma ordem de qualidade da primeira associação de qualidade para o grupo de teste *Anexo*. A quantidade é 5. Não há ordem de qualidade da segunda associação de qualidade, porque os critérios para a primeira associação de qualidade são mais específicos em relação ao grupo *Anexo*.
 - Há uma ordem de qualidade da terceira associação de qualidade para o grupo de teste *Impedância*. A quantidade é 10. Não há ordem de qualidade da quarta associação de qualidade, porque os critérios para a primeira associação de qualidade são mais específicos em relação ao grupo *Impedância*.
@@ -274,7 +273,7 @@ Quando as ordens de qualidade são validadas, o sistema tenta criar um trabalho 
 
 Você pode cancelar o trabalho criado para a amostragem de item de qualidade. Para controlar o que ocorre quando esse trabalho é cancelado, siga as etapas a seguir.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Geral**, na FastTab **Trabalho**, defina a opção **Cancelar registro do recebimento ao cancelar o trabalho** para um dos seguintes valores:
 
     - **Sim** – Quando o trabalho de amostragem de item de qualidade é cancelado, a ordem de qualidade associada é excluída e o estoque não é registrado.
@@ -298,7 +297,7 @@ Para solucionar esse cenário, você deve preparar seu sistema da seguinte manei
 - Ativar o recurso _Gestão de qualidade para processos de depósito_ no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Configure o depósito 51 para usar o recurso _Gestão de qualidade para processos de depósito_ seguindo estas etapas:
 
-    1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+    1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
     1. Selecione depósito 51.
     1. Na FastTab **Depósito**, defina a opção **Habilitar ordem de qualidade para processos de depósito** como *Sim*.
 
@@ -315,7 +314,7 @@ Agora você deve preparar uma configuração básica que permita a seu sistema o
 
 #### <a name="work-class-for-quality-in"></a>Classe de trabalho dentro da qualidade
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
 1. Crie uma classe de trabalho e defina os seguintes valores:
 
     - **ID da classe de trabalho:** _QualityIn_
@@ -324,7 +323,7 @@ Agora você deve preparar uma configuração básica que permita a seu sistema o
 
 #### <a name="work-template"></a>Modelo do trabalho
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Defina o campo **Tipo de ordem de serviço** como _Amostragem de item de qualidade_.
 1. Crie um modelo de trabalho e defina os seguintes valores:
 
@@ -343,7 +342,7 @@ Agora você deve preparar uma configuração básica que permita a seu sistema o
 
 #### <a name="location-directive"></a>Diretiva de localização
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. Defina o campo **Tipo de ordem de serviço** como _Amostragem de item de qualidade_.
 1. Crie uma diretiva de localização e defina os seguintes valores:
 
@@ -371,7 +370,7 @@ Agora você deve preparar uma configuração básica que permita a seu sistema o
 
 Em seguida, você deve alterar a sequência das diretivas de localização de ordens de compra existentes para o depósito 51. Os dados da demonstração incluem duas diretivas de localização que possuem um valor **Tipo de ordem de serviço** de _Compra_: uma é chamada de _51 QMS_ e a outra é chamada de _51 PO Direct_. Para garantir que o recurso *Gestão de qualidade para processos de depósito* seja aplicado ao depósito 51, verifique se a diretiva de localização _51 QMS_ não é aplicada. Contudo, em vez de excluir essa diretiva de localização (porque você pode querer usá-la no futuro), basta alterar a sequência.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. Defina o campo **Tipo de ordem de serviço** como _Ordem de serviço_.
 1. Na lista de sequências, selecione o número de sequência 5, para a diretiva de localização _51 PO Direct_.
 1. Mova a sequência selecionada para o número de sequência 4.
@@ -381,7 +380,7 @@ Em seguida, você deve alterar a sequência das diretivas de localização de or
 
 O recurso _Gestão de qualidade para processos de depósito_ adiciona alguns novos recursos de amostragem de item. Agora o valor **Escopo de amostragem** pode ser _Ordem_, _Remessa_ ou _Carga_, e agora o valor **Quantidade de amostragem** pode ser _Placa de licença completa_.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item**.
 1. Crie um registro de amostra do item e defina os seguintes valores:
 
     - **Amostragem de item:** _3ª PL_
@@ -396,7 +395,7 @@ O recurso _Gestão de qualidade para processos de depósito_ adiciona alguns nov
 
 Crie uma associação de qualidade que usará a nova amostragem de item.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Associações de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Associações de qualidade**.
 1. Crie um registro de associação de qualidade e defina os seguintes valores:
 
     - **Tipo de referência:** _Compra_
@@ -433,7 +432,7 @@ Crie uma associação de qualidade que usará a nova amostragem de item.
 
 Para concluir a configuração para mover mercadorias para o local de controle de qualidade, você deve disponibilizar a amostragem de item de qualidade em um item de menu do dispositivo móvel.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Selecione o item de menu do dispositivo móvel **Armazenamento de compra**.
 1. Na FastTab **Classes de trabalho**, adicione a ID da classe de trabalho *QualityIn*.
 
@@ -457,7 +456,7 @@ Agora você definiu uma associação de qualidade que usa o recurso *Gestão de 
     - **Depósito:** *51*
 
 1. Anote o número da ordem de compra para que você possa usá-lo mais tarde.
-1. Acesse um dispositivo móvel ou emulador que esteja executando o aplicativo de depósito e entre no depósito 51 usando *51* como a ID de usuário e *1* como a senha.
+1. Acesse um dispositivo móvel ou emulador que esteja executando o aplicativo móvel do Gerenciamento de Depósito e entre no depósito 51 usando *51* como a ID de usuário e *1* como a senha.
 1. Acesse **Entrada \> Recebimento de compra** e digite os seguintes valores:
 
     - **NúmOrdemDeCompra:** o número da ordem de compra que você acabou de criar
@@ -465,7 +464,7 @@ Agora você definiu uma associação de qualidade que usa o recurso *Gestão de 
     - **Unidade:** *ea*
 
 1. Continue a receber na linha, *5 ea* por vez, até que a linha seja totalmente recebida. (Um total de quatro placas será criado.)
-1. Saia do aplicativo de depósito.
+1. Saia do aplicativo móvel de Gerenciamento de depósito.
 1. Novamente no cliente Web, acesse **Compras e fornecimento \> Ordens de compra \> Todas as ordens de compra**.
 1. Encontre e abra sua ordem de compra.
 1. Na seção **Linhas de ordem de compra**, selecione a linha para o número do item *M9201* e depois selecione **Linhas de ordem de compra \> Detalhes do trabalho**.
@@ -475,7 +474,7 @@ Agora você definiu uma associação de qualidade que usa o recurso *Gestão de 
 
 Você agora moverá as placas de licença para os locais designados. A primeira e a quarta placas de licença são movidas para o local de controle de qualidade, enquanto a segunda e a terceira matrículas são movidas diretamente para o armazenamento.
 
-1. Acesse um dispositivo móvel ou emulador que esteja executando o aplicativo de depósito e entre no depósito 51 usando *51* como a ID de usuário e *1* como a senha.
+1. Acesse um dispositivo móvel ou emulador que esteja executando o aplicativo móvel do Gerenciamento de Depósito e entre no depósito 51 usando *51* como a ID de usuário e *1* como a senha.
 1. Acesse **Entrada \> Armazenamento de compra** e armazene cada placa de licença do procedimento anterior até que você feche todo o trabalho.
 
 #### <a name="summary-process-quality-management-work"></a>Resumo: trabalho de gerenciamento da qualidade do processo
@@ -490,7 +489,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 
 #### <a name="work-class-for-quality-out"></a>Classe de trabalho fora da qualidade
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
 1. Crie uma classe de trabalho e defina os seguintes valores:
 
     - **ID da classe de trabalho:** *QualityOut*
@@ -499,7 +498,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 
 #### <a name="work-templates"></a>Modelos do trabalho
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Altere o valor **Tipo de ordem de serviço** para a *Ordem de qualidade*.
 1. Crie um modelo de trabalho e defina os seguintes valores:
 
@@ -518,7 +517,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 
 #### <a name="location-directives"></a>Diretivas de localização
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. Altere o valor **Tipo de ordem de serviço** para a *Ordem de qualidade*.
 1. Crie uma diretiva de localização e defina os seguintes valores:
 
@@ -589,7 +588,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 
 #### <a name="mobile-device-menu-items-for-quality-out"></a>Itens de menu do dispositivo móvel fora da qualidade
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Selecione o item de menu do dispositivo móvel **Armazenamento de QMS**.
 1. Na FastTab **Classes de trabalho**, adicione a ID da classe de trabalho *QualityPut*.
 
@@ -601,10 +600,10 @@ Você configurou os dados de trabalho e localização para o depósito 51, para 
 
 ### <a name="process-quality-management-work"></a>Trabalho de gerenciamento da qualidade do processo
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Selecione a primeira ordem de qualidade para as quantidades que foram registradas.
 1. Selecione **Validar**. O status do teste é atualizado para *Reprovado*.
-1. Vá para **Gerenciamento de depósito \> Todos os trabalhos**.
+1. Acesse **Gerenciamento de depósito \> Todos os trabalhos**.
 1. Abra o trabalho que você acabou de criar e observe que o valor **Tipo de ordem de serviço** é *Ordem de qualidade*. O trabalho inclui uma linha em que a localização de armazenamento é *Devolução* e o status é *Reprovado*. (Se o status da ordem de qualidade fosse *Aprovado*, o local da venda seria *Massa* em vez disso.)
 1. Retorne para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Selecione a segunda ordem de qualidade para os itens que foram registrados.
@@ -615,10 +614,16 @@ Você configurou os dados de trabalho e localização para o depósito 51, para 
     > [!NOTE]
     > O evento de validação aciona a criação do trabalho da ordem de qualidade para mover a quantidade do local do controle de qualidade para um novo local.
 
-1. Vá para **Gerenciamento de depósito \> Todos os trabalhos**.
+1. Acesse **Gerenciamento de depósito \> Todos os trabalhos**.
 1. Selecione o trabalho que acabou de ser criado e observe que um cabeçalho de trabalho da segunda ordem de qualidade foi criado, em que a localização de armazenamento é *MASSA-001*.
-1. Acesse um dispositivo móvel ou emulador que esteja executando o aplicativo de depósito e entre no depósito 51 usando *51* como a ID de usuário e *1* como a senha.
+1. Acesse um dispositivo móvel ou emulador que esteja executando o aplicativo móvel do Gerenciamento de Depósito e entre no depósito 51 usando *51* como a ID de usuário e *1* como a senha.
 1. Acesse **Qualidade \> Armazenamento de QMS** e processe cada uma das duas placas de licença relacionadas aos dois trabalhos para que todo o trabalho seja fechado.
 
 > [!NOTE]
 > Considere adicionar a entrada fora da qualidade a um item de menu do dispositivo móvel em que o código de atividade é *Exibir lista de trabalhos abertos*. Por exemplo, consulte o item de menu do dispositivo móvel chamado **Lista de trabalho** nos dados de demonstração. Primeiro, adicione a classe de trabalho *Ordem de qualidade* a um item de menu direcionado ao usuário, porque essa classe de trabalho é necessária para que o trabalho seja mostrado na lista de trabalho. Em seguida, adicione a classe de trabalho *Ordem de qualidade* ao item de menu **Lista de trabalho**. Os usuários que têm acesso à lista de trabalho poderão escolher e processar o trabalho gerado automaticamente pela validação da ordem de qualidade.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+- [Visão geral do gerenciamento de qualidade e não conformidade](quality-management-processes.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

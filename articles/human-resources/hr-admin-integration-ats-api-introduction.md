@@ -7,29 +7,26 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e16c781a6e51c57db8ae76dcfe0d28ec709428eb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069923"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055283"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Introdução da API de integração do sistema de acompanhamento de candidatos
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tópico descreve a API de integração do ATS (sistema de acompanhamento de candidatos) do Dynamics 365 Human Resources. A intenção da API é habilitar integrações otimizadas entre o Dynamics 365 Human Resources e ATSs de parceria.
 
-![Fluxo de integração do ATS.](media/hr-admin-integration-ats-api-introduction-flow.png)
+![Fluxo de integração do ATS](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 A experiência integrada começa no Human Resources quando um gerente de contratação cria uma solicitação de recrutamento. Quando a solicitação é ativada, o ATS recebe os detalhes da solicitação para criar um projeto de recrutamento. Ele segue o pipeline de recrutamento para selecionar e contratar um candidato para as posições. Finalmente, o ATS conclui a integração de ida e volta enviando o registro do candidato selecionado para o Human Resources. O registro de candidatos pode passar pela integração de mais validações e fluxos de trabalho para criar o registro de funcionário.
 
@@ -72,7 +69,7 @@ O modelo de dados está centrado em duas entidades principais:
 
 O diagrama a seguir ilustra relacionamentos na API. Vários tipos têm chaves estrangeiras para outras entidades preexistentes no Human Resources que não estão ilustradas aqui. Este documento fornece informações sobre entidades específicas para recrutar cenários de integração. No entanto, há várias outras entidades na API Web do Dataverse para o Dynamics 365 Human Resources que também podem ser relevantes para sua integração. Por exemplo, você também pode precisar de detalhes sobre trabalhadores, cargos, posições ou outras entidades não definidas aqui. Muitas dessas entidades são referenciadas em relações de chave estrangeira ou propriedades de navegação.
 
-![Modelo de dados de API de integração do ATS.](media/hr-admin-integration-ats-api-data-model.png)
+![Modelo de dados de API de integração do ATS](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>Recrutar solicitação, entidades relacionadas e conjuntos de opções
 

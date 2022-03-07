@@ -2,11 +2,9 @@
 title: Remover uma instância
 description: Este artigo mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a6f23adedc287b85018fe0b0af445677f6dc597c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417319"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889899"
 ---
 # <a name="remove-an-instance"></a>Remover uma instância
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artigo mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Human Resources.
 
@@ -81,7 +81,10 @@ Para restaurar o ambiente:
 
 1. Siga as instruções no [ambiente Recuperar o Power Apps](/power-platform/admin/recover-environment.md).
 
-2. Entre em contato com o suporte para restaurar o ambiente de Recursos Humanos. Para obter mais informações, consulte [Obter suporte](hr-admin-troubleshooting-support.md).
+2. Entre em contato com o suporte para restaurar o ambiente de Recursos Humanos. Para obter mais informações, consulte [Obter suporte](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 > [!Warning]
 > Os ambientes do Power Apps só são salvos por sete dias após a exclusão. Você deve recuperar o ambiente no período de sete dias.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

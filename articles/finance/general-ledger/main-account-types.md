@@ -2,28 +2,25 @@
 title: Tipos de conta principal
 description: Os tipos de conta principais determinam como uma conta principal é usada no gráfico de contas.
 author: aprilolson
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3381
 ms.assetid: e55b9c0e-597b-46d4-b453-81c780939b6d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acbe3d6c10891ba8b290f3efdd8e5aab3ca2c1c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 246b746958756fb930ce1dbbd75335ce9a76cb7b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440261"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826537"
 ---
 # <a name="main-account-types"></a>Tipos de conta principal
 
@@ -41,3 +38,6 @@ Para saber mais, consulte [Configurar categorias da conta principal](tasks/set-u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

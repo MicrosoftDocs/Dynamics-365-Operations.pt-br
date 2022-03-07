@@ -1,12 +1,10 @@
 ---
 title: Fluxos de trabalho de Compras
 description: Algumas organizações exigem que as requisições de compra e as ordens de compra sejam aprovadas por um usuário diferente daquele que iniciou a transação. Para configurar um processo de aprovação, você pode criar um fluxo de trabalho.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a3542dda667a7ec6d8c7e74d8caafd1a8fc5cee322d85981f635a1add56152d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775570"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Fluxos de trabalho de compras
 
@@ -49,7 +47,7 @@ Os tipos de fluxo de trabalho a seguir estão disponíveis para Compras.
 | Fluxo de trabalho da solicitação de emprego adicionada pelo fornecedor | Criar fluxos de trabalho da revisão e de aprovação para adicionar novos fornecedores por meio de solicitações de fornecedor. |
 
 > [!IMPORTANT]
-> Ao adicionar um novo fluxo de trabalho, talvez você também veja os seguintes fluxos de trabalho obsoletos listados na caixa de diálogo **Criar fluxo de trabalho**. Eles estão relacionados à funcionalidade *confirmação de recebimento* que estava disponível no [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), mas que agora foi preterida. Não há suporte para esses fluxos de trabalho no momento.
+> Ao adicionar um novo fluxo de trabalho, talvez você também veja os seguintes fluxos de trabalho obsoletos listados na caixa de diálogo **Criar fluxo de trabalho**. Eles estão relacionados à funcionalidade *confirmação de recebimento* que estava disponível no [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), mas que agora foi preterida. Não há suporte para esses fluxos de trabalho no momento.
 > 
 > - Fluxo de trabalho da notificação de data de vencimento da entrega
 > - Fatura recebeu fluxo de trabalho da notificação
@@ -58,7 +56,7 @@ Os tipos de fluxo de trabalho a seguir estão disponíveis para Compras.
 
 ## <a name="creating-a-workflow"></a>Criação de um fluxo de trabalho
 
-Para criar um fluxo de trabalho, vá para Compras &gt; Configuração &gt; Fluxos de trabalho de compras e crie um novo fluxo de trabalho ao selecionar o tipo de fluxo de trabalho que deseja criar. 
+Para criar um fluxo de trabalho, Acesse Compras &gt; Configuração &gt; Fluxos de trabalho de compras e crie um novo fluxo de trabalho ao selecionar o tipo de fluxo de trabalho que deseja criar. 
 
 Na tela do fluxo de trabalho, você pode arrastar elementos de fluxo de trabalho para o designer e vincular os elementos a um fluxo. Os elementos de fluxo de trabalho devem ser configurados. Para os elementos do fluxo de trabalho de aprovação e de tarefa, você pode configurar qual participante deverá executar a ação.
 
@@ -79,3 +77,6 @@ Você pode atribuir uma etapa de aprovação aos grupos de participantes a segui
 - [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
 - [Integração de fornecedores](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

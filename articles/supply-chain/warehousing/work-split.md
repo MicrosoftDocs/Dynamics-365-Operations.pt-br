@@ -10,17 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a530f3887c3c66295177d480a8c486dd0984153
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e74b630e72d70829938f0f34efd624509b1ba7c3
+ms.sourcegitcommit: 531be324bf706ca727d777720df899d6ddd3c2d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965518"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4422657"
 ---
 # <a name="work-split"></a>Divisão do trabalho
 

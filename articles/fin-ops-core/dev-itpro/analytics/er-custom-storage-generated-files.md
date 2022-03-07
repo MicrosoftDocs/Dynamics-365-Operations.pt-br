@@ -2,11 +2,9 @@
 title: Especificar locais de armazenamento personalizado para os documentos gerados
 description: Este tópico explica como estender a lista de locais de armazenamento para documentos gerados pelos formatos de Relatório eletrônico (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680749"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594900"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Especificar locais de armazenamento personalizado para os documentos gerados
 
@@ -29,7 +27,7 @@ A interface de programação de aplicativos (API) da estrutura de relatórios el
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Implante uma topologia que dê suporte à compilação contínua. Para obter mais informações, consulte [Implantar topologias que dão suporte à contínua automação de compilações e testes](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Você também deve ter acesso a essa topologia para uma das seguintes funções:
+Implante uma topologia que dê suporte à compilação contínua. Para obter mais informações, consulte [Implantar topologias que dão suporte à contínua automação de compilações e testes](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Você também deve ter acesso a essa topologia para uma das seguintes funções:
 
 - Desenvolvedor de relatório eletrônico
 - Consultor funcional de relatório eletrônico
@@ -43,18 +41,18 @@ Todas as tarefas deste tópico podem ser concluídas na empresa **USMF**.
 
 Para gerar os documentos aos quais você quer adicionar um local de armazenamento personalizado, [importe](er-download-configurations-global-repo.md) a **configuração do formato de ER de roll forward de ativo fixo** para a topologia atual.
 
-![Página do repositório de configuração](./media/er-custom-storage-generated-files-import-format.png)
+![Página do repositório de configuração.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Gerar o Relatório de roll forward de ativo fixo
 
-1. Vá para **Ativos fixos** \> **Consultas e relatórios** \> **Relatórios de transações** \> **Roll forward de ativo fixo**.
+1. Acesse **Ativos fixos** \> **Consultas e relatórios** \> **Relatórios de transações** \> **Roll forward de ativo fixo**.
 2. No campo **Data inicial**, insira **1/1/2017** (1º de janeiro de 2017).
 3. No campo **Data final**, insira **1/31/2017** (31 de janeiro de 2017).
 4. No **campo Moeda**, selecione a **Moeda contábil**.
 5. No campo **Mapeamento de formato**, selecione **Roll forward de ativo fixo**.
 6. Selecione **OK**.
 
-![Caixa de diálogo de runtime do Relatório de roll forward de ativo fixo](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Caixa de diálogo de runtime do Relatório de roll forward de ativo fixo.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Em Microsoft Excel, revise o documento de saída gerado disponível para download. Esse comportamento é o [comportamento padrão ](electronic-reporting-destinations.md#default-behavior)para um formato de ER em que nenhum [destino](electronic-reporting-destinations.md) está configurado e que está sendo executado no modo interativo.
 
@@ -257,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modifique a classe `AssetRollForwardService` existente e escreva o código para configurar um alocador de destino personalizado para o executor de relatórios. Observe que, quando um alocador de destino personalizado é criado, o parâmetro baseado em aplicativo que especifica uma pasta de destino é enviado. Dessa forma, essa pasta de destino é usada para armazenar os arquivos gerados.
 
     > [!NOTE] 
-    > Verifique se a pasta especificada (**c:\\0** neste exemplo) está presente no sistema de arquivos local do servidor que executa o serviço de AOS. Caso contrário, um erro [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) será exibido no runtime.
+    > Verifique se a pasta especificada (**c:\\0** neste exemplo) está presente no sistema de arquivos local do servidor que executa o serviço de AOS. Caso contrário, um erro [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) será exibido no runtime.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -326,7 +324,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 ## <a name="re-run-the-fixed-asset-roll-forward-report"></a>Gerar novamente o Relatório de roll forward de ativo fixo
 
-1. Vá para **Ativos fixos** \> **Consultas e relatórios** \> **Relatórios de transações** \> **Roll forward de ativo fixo**.
+1. Acesse **Ativos fixos** \> **Consultas e relatórios** \> **Relatórios de transações** \> **Roll forward de ativo fixo**.
 2. No campo **Data inicial**, insira **1/1/2017**.
 3. No campo **Data final**, insira **1/31/2017**.
 4. No **campo Moeda**, selecione a **Moeda contábil**.
@@ -341,3 +339,6 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
 - [Home page da extensibilidade](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

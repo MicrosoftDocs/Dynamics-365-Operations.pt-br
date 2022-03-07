@@ -1,39 +1,49 @@
 ---
-title: Criar tipos de plano
-description: Um tipo de plano no Microsoft Dynamics 365 Human Resources é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano tem um código de tipo de plano que determina as regras para o tipo de plano.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
-ms.topic: article
+title: Visão geral do tipo de plano
+description: Um tipo de plano no Microsoft Dynamics 365 Human Resources é um agrupamento de alto nível de tipos específicos de benefícios.
+author: twheeloc
+ms.date: 08/24/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3496135c22ee135f0e9c1ebdab55360ff248d5d2
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417307"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984712"
 ---
-# <a name="create-plan-types"></a>Criar tipos de plano
+# <a name="plan-type-overview"></a>Visão geral do tipo de plano
 
-Um tipo de plano no Microsoft Dynamics 365 Human Resources é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano tem um código de tipo de plano que determina as regras para o tipo de plano. Por exemplo, a vida básica do tipo de plano teria a vida de código de tipo de plano porque é um tipo de plano de seguro de vida e deve seguir as regras estabelecidas para o código de tipo de plano de vida. Outro tipo de plano pode ser vida complementar, também com vida de código de tipo de plano.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cada tipo de plano indica se um funcionário pode se inscrever em um plano desse tipo ou em vários. Por exemplo, um funcionário provavelmente poderá registrar tanto a vida básica quanto as políticas de vida suplementares do tipo de plano Vida. Um funcionário provavelmente terá permissão para inscrever-se em apenas uma política do tipo médico.
+Um tipo de plano é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano tem um código de tipo de plano que determina as regras para o tipo de plano. Por exemplo, o tipo de plano **Vida básica** terá o código de tipo de plano **Vida** porque é um tipo de plano de seguro de vida e deve seguir as regras que foram estabelecidas para o código de tipo de plano **Vida**. Outro tipo de plano pode ser **Vida complementar**. Este tipo de plano também terá o código de tipo de plano **Vida**.
 
-Se um tipo de plano envolver contatos, o tipo de plano indicará se os contatos são beneficiários ou dependentes. Por exemplo, um tipo de plano de vida básico teria os beneficiários, enquanto um tipo de plano médico básico teria dependentes. Em alguns casos, um plano pode não ter contatos pessoais. Por exemplo, uma conta de despesas flexível ou bonificação de estacionamento.
+Cada tipo de plano indica se um funcionário pode se inscrever em um plano desse tipo ou em vários. Por exemplo, um funcionário provavelmente poderá registrar tanto as políticas de **Vida básico** quanto as de **Vida suplementar** do tipo de plano Vida. Um funcionário provavelmente terá permissão para inscrever-se em apenas uma política do tipo médico.
 
-Um tipo de plano pode definir opções de cobertura. As opções de cobertura são definidas no formulário opção de cobertura. Uma opção de cobertura pode especificar o valor do benefício ou os contatos qualificados para o tipo de plano. Por exemplo, se o tipo de contato for beneficiário, a opção de cobertura deverá definir os termos do que o beneficiário está qualificado para receber quando o benefício é utilizado. Se o tipo de contato for dependente, a opção de cobertura deverá definir o relacionamento entre o dependente e o funcionário. 
+Se um tipo de plano envolver contatos, o tipo de plano indicará se os contatos são beneficiários ou dependentes. Por exemplo, um tipo de plano **Vida básico** teria os beneficiários, enquanto um tipo Plano médico básico teria dependentes. Em alguns casos, um plano pode não ter contatos pessoais. Por exemplo, uma conta de despesas flexível ou bonificação de estacionamento.
+
+
+Um tipo de plano pode definir opções de cobertura. As opções de cobertura são definidas na página **Opções de cobertura**. Uma opção de cobertura pode especificar o valor do benefício ou os contatos qualificados para o tipo de plano. Por exemplo, se o tipo de contato for **Beneficiário**, a opção de cobertura deverá definir os termos do que o beneficiário está qualificado para receber quando o benefício é utilizado. Se o tipo de contato for **Dependente**, a opção de cobertura deverá definir o relacionamento entre o dependente e o funcionário. 
+
+> [!IMPORTANT]
+> A página **Tipos de plano** inclui dados-chave que afetam as opções disponíveis quando um novo plano de benefícios é criado:
+>
+> - **Código de tipo de plano** – Este campo afeta o que é mostrado na guia **Configuração** quando o benefício real é configurado.  
+> - **Registro simultâneo** – Este campo determina se vários registros são permitidos. (Em um plano médico, este campo é tipicamente definido como **Um registro**.)
+> - **Tipo de contato** – Este campo permite que dependentes ou beneficiários sejam adicionados a um plano. Se for definido como **Nenhum**, os funcionários que se inscreverem nos benefícios não terão a opção de selecionar um beneficiário ou um dependente.
+> - **Opções de cobertura** – Use este campo para vincular as opções de cobertura com os tipos de plano. Ele define as pessoas que receberão cobertura desse tipo de plano ou os valores de cobertura que estão disponíveis para este tipo de plano. Por exemplo, você pode especificar que a cobertura para um tipo de plano médico estará disponível apenas para o funcionário, para o funcionário e uma outra pessoa ou para o funcionário e sua família.
+
+## <a name="create-plan-types"></a>Criar tipos de plano
 
 1. No espaço de trabalho **Gerenciamento de benefícios**, em **Configuração**, selecione **Tipos de plano**.
 
@@ -63,3 +73,6 @@ Um tipo de plano pode definir opções de cobertura. As opções de cobertura s�
    | **Janela do relatório** | Especifica a janela do relatório, em dias, do evento de vida. **Observação**: se você não inserir um valor, o sistema assumirá que a janela de relatório é zero e não processará o evento de vida. |
 
 5. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

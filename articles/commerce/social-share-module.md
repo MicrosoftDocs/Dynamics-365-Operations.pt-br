@@ -2,15 +2,12 @@
 title: Módulo de compartilhamento social
 description: Este tópico abrange os módulos de compartilhamento social e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4410319"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730938"
 ---
 # <a name="social-share-module"></a>Módulo de compartilhamento social
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de compartilhamento social e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Os modelos de compartilhamento social permitem que os usuários compartilhem as URLs de páginas de site de comércio eletrônico em mídias sociais, como Facebook, Twitter, Pinterest e LinkedIn. As URLs da página do site também podem ser compartilhadas por email. Os módulos de compartilhamento social são geralmente usados em páginas de detalhes do produto (PDPs) para ajudar os usuários a compartilhar informações.
 
@@ -41,7 +36,7 @@ Cada plataforma de mídia social pode rastrear cookies, portanto, este módulo r
 
 A ilustração a seguir destaca um exemplo de módulo de compartilhamento social usado na página de detalhes de um produto.
 
-![Exemplo de um módulo de compartilhamento social](./media/ecommerce-socialshare.png)
+![Exemplo de um módulo de compartilhamento social.](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>Propriedades do módulo de compartilhamento social
 
@@ -82,3 +77,6 @@ Para adicionar um módulo de compartilhamento social a um módulo de caixa de co
 [Módulo de caixa de compra](add-buy-box.md)
 
 [Compatível com cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

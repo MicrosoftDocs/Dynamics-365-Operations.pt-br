@@ -1,31 +1,33 @@
 ---
 title: Alterar o nome do espaço de trabalho Autoatendimento para funcionários
 description: Este tópico descreve como alterar o nome de exibição do espaço de trabalho Autoatendimento para funcionários no Dynamics 365 Human Resources.
-author: andreabichsel
-manager: AnnBe
-ms.date: 07/09/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ce008c44ba84c919f4538be4d8e4ff95be018e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31e8c3e572e0f95f4331fbd858150897c9ed0105
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417355"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070718"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>Alterar o nome do espaço de trabalho Autoatendimento para funcionários
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Se você tem voluntários ou outras pessoas que não são funcionários, convém alterar o nome do espaço de trabalho **Autoatendimento para funcionários**. Você pode alterar esse espaço de trabalho para **Autoatendimento**.
 
@@ -38,10 +40,13 @@ Se você tem voluntários ou outras pessoas que não são funcionários, convém
 
 3. Em **Nome de exibição**, selecione **Autoatendimento**.
 
-   ![Alterar o nome do espaço de trabalho Autoatendimento para funcionários para Autoatendimento](./media/hr-employee-self-service-workspace-name.png)
+   ![Altere o nome do espaço de trabalho Autoatendimento para funcionários para Autoatendimento.](./media/hr-employee-self-service-workspace-name.png)
 
 4. Selecione **Salvar**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Visão geral do autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md)
+- [Visão geral de Autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

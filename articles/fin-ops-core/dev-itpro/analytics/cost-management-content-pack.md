@@ -2,11 +2,9 @@
 title: Conteúdo de gerenciamento de custos do Power BI
 description: Este tópico descreve o que está incluído no conteúdo de gerenciamento de custos do Power BI.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683886"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752631"
 ---
 # <a name="cost-management-power-bi-content"></a>Conteúdo de gerenciamento de custos do Power BI
 
@@ -32,11 +30,6 @@ ms.locfileid: "4683886"
 ## <a name="overview"></a>Visão Geral
 
 O conteúdo de **Gerenciamento de custos** do Microsoft Power BI destina-se a contadores de estoque ou às pessoas da organização responsáveis ou interessadas pelo status do estoque ou do WIP (trabalho em andamento) ou ainda a pessoas que sejam responsáveis ou tenham interesse na análise de variações de custo padrão.
-
-> [!NOTE]
-> O conteúdo de **Gerenciamento de custos** do Power BI descrito neste tópico aplica-se ao Dynamics 365 Finance and Operations 8.0.
-> 
-> O pacote de conteúdo de **Gerenciamento de custos** do Power BI disponível no site do AppSource foi substituído. Para obter mais informações sobre essa substituição, consulte [Recursos removidos ou obsoletos no Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Este conteúdo do Power BI fornece um formato categorizado que ajuda a monitorar o desempenho dos estoques e visualizar o fluxo de custos. Você pode ganhar insights gerenciais, como o índice de giro, o número de dias que o estoque está disponível, a precisão, e a "classificação ABC" ao nível agregado preferido (empresa, item, grupo de itens, ou o site). As informações disponibilizadas também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
 
@@ -207,3 +200,6 @@ As principais dimensões a seguir são usadas como filtros para dividir as medid
 | Entidades legais                                          | Nomes de entidade legal                              |
 | Calendários fiscais                                        | Calendário fiscal, Ano, Trimestre, Período, Mês   |
 | Site                                                    | ID, Nome, Endereço, Estado, País               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

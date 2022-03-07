@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b9ab4eeacc54d2d0ea8e7dc9eb3dd846ffc9e29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 135611ddf7e54a28a43f5f0795c993581d377550
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440265"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248966"
 ---
 # <a name="ledger-journal-types"></a>​Tipos de diário-razão​
 
@@ -68,3 +67,6 @@ Este tópico descreve os tipos de diário que você pode configurar para diário
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
