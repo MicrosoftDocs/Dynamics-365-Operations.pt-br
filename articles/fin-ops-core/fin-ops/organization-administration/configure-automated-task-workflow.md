@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f02b128036ebc0bd8789ecafd1e72e26fe31436
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c7346649108824eb4e7209a2476456a469affa1c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747946"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066509"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>Configurar tarefas automatizadas em um fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico explica como configurar as propriedades de uma tarefa automatizada.
 

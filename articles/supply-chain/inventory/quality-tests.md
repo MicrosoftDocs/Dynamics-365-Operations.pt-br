@@ -1,7 +1,7 @@
 ---
 title: Testes de gerenciamento de qualidade
 description: Este tópico descreve como criar testes que possam ser usados para ordens de qualidade no Microsoft Dynamics 365 Supply Chain Management.
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f759d051a520b577cb1cf3d595ce64e0dc4668
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c10b67f86fc29b5e8c08081a9b789d4f42c24cf4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021675"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573840"
 ---
 # <a name="quality-management-tests"></a>Testes de gerenciamento de qualidade
 
@@ -46,7 +46,7 @@ Uma empresa de fabricação realiza dois testes em material adquirido: um teste 
 
 Siga estas etapas para criar um teste.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Testes**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Testes**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Teste** – Insira um nome ou uma ID exclusiva para o teste.

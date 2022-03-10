@@ -1,12 +1,10 @@
 ---
 title: Página da lista de transações de fornecedor
 description: Este tópico fornece informações sobre a página Lista de transações de fornecedor para o Microsoft Dynamics 365 Finance.
-author: mikefalkner
-manager: aolson
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 41a8506989add6c7c4a5596892bde442c7c7dff2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6029e67cbbe72bbe95082cb7146834c0d7318261
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248174"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754063"
 ---
 # <a name="vendor-transactions-list-page"></a>Página da lista de transações de fornecedor
 

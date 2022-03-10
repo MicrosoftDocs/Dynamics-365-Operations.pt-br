@@ -1,8 +1,8 @@
 ---
-title: Avaliar o modelo de previsão de pagamento inicial do cliente (versão prévia)
+title: Avaliar o modelo de previsão de pagamento inicial do cliente
 description: Este tópico descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818604"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969103"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Avaliar o modelo de previsão de pagamento inicial do cliente (versão prévia)
+# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Avaliar o modelo de previsão de pagamento inicial do cliente
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico explica como avaliar um modelo de previsão depois de ter ativado o Finance Insights e gerado e treinado seu primeiro modelo. Este tópico aborda modelos para prever pagamentos de cliente. Ele descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
 
@@ -33,32 +32,32 @@ Este tópico explica como avaliar um modelo de previsão depois de ter ativado o
 
 Na página **Parâmetros do Finance Insights** no Microsoft Dynamics 365 Finance, o link **Melhorar a precisão do modelo** aparece ao lado da pontuação de precisão.
 
-[![Link Melhorar a precisão do modelo](./media/prediction-model.png)](./media/prediction-model.png)
+[![Link Melhorar a precisão do modelo.](./media/prediction-model.png)](./media/prediction-model.png)
 
-Este link leva você para o AI Builder, no qual você pode saber mais sobre o modelo atual e também executar etapas para aprimorá-lo. A ilustração a seguir mostra a página que é aberta.
+Este link leva você para o AI Builder, onde você poderá saber mais sobre o modelo atual e também executar etapas para aprimorá-lo. A ilustração a seguir mostra a página que é aberta.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 A página que é aberta mostra as seguintes informações:
 
-- Na seção **Desempenho**, a taxa de desempenho do modelo fornece a perspectiva sobre a qualidade do modelo. Para obter mais informações sobre essa classificação, consulte [Desempenho do modelo de previsão](https://docs.microsoft.com/ai-builder/prediction-performance) na documentação do AI Builder.
+- Na seção **Desempenho**, a taxa de desempenho do modelo fornece a perspectiva sobre a qualidade do modelo. Para obter mais informações sobre essa classificação, consulte [Desempenho do modelo de previsão](/ai-builder/prediction-performance) na documentação do AI Builder.
 - A seção **Dados mais influentes** mostra como os diferentes tipos de dados de entrada são importantes para o seu modelo. É possível avaliar essa lista e as porcentagens correspondentes para determinar se as informações são consistentes com o que você sabe sobre a sua empresa e o mercado.
 
-    [![Seções Desempenho e Dados mais influentes para o modelo de previsão](./media/models.png)](./media/models.png)
+    [![Seções Desempenho e Dados mais influentes para o modelo de previsão.](./media/models.png)](./media/models.png)
 
 - Na seção **Desempenho**, selecione **Ver detalhes** para saber mais sobre a classificação e outras considerações. Na ilustração a seguir, os detalhes mostram que o modelo usa menos informações do que o recomendado. Portanto, o sistema gerou uma mensagem de aviso.
 
-    [![Avisos sobre o desempenho do modelo](./media/details.png)](./media/details.png)
+    [![Avisos sobre o desempenho do modelo.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Aprofundando-se
 
 Embora a precisão seja um bom ponto de partida para avaliar um modelo, e a taxa de desempenho ofereça perspectiva, o AI Builder fornece métricas mais detalhadas que você pode usar para sua avaliação. Para baixar os detalhes, na seção **Desempenho**, selecione o botão de reticências (**...**) ao lado do botão **Usar modelo** e, em seguida, selecione **Baixar métricas detalhadas**.
 
-[![Comando baixar métricas detalhadas](./media/performance.png)](./media/performance.png)
+[![Comando baixar métricas detalhadas.](./media/performance.png)](./media/performance.png)
 
 A ilustração a seguir mostra o formato no qual você pode baixar os dados.
 
-[![Formato dos dados baixados](./media/data-format.png)](./media/data-format.png)
+[![Formato dos dados baixados.](./media/data-format.png)](./media/data-format.png)
 
 Para uma análise mais profunda dos resultados, um bom ponto de partida é revisar a métrica "Matriz de confusão". Por exemplo, estes são os dados mostrados para essa métrica na ilustração anterior.
 
@@ -95,9 +94,5 @@ Depois de compreender melhor os resultados do seu primeiro modelo, talvez você 
 ## <a name="for-more-information"></a>Para obter mais informações
 
 Para obter mais informações sobre como avaliar modelos de previsão, [Resultados de modelos de aprendizado de máquina](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Aviso de privacidade
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

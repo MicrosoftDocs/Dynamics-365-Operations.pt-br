@@ -2,11 +2,9 @@
 title: Definir dimensões diferentes para embalagem e armazenamento
 description: Este tópico mostra como especificar para qual processo (embalagem, armazenamento ou embalagem aninhada) cada dimensão especificada é usada.
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
@@ -15,18 +13,17 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 0e8ce576f21f1f5ea5f3acb7d43bbe68826e6f39
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501285"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580063"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Definir dimensões diferentes para embalagem e armazenamento
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Alguns itens são embalados ou armazenados de forma que pode ser necessário rastrear dimensões físicas de forma diferente para cada processo. O recurso *Dimensões de produtos de embalagem* permite configurar um ou mais tipos de dimensões para cada produto. Cada tipo de dimensão oferece um conjunto de medidas físicas (peso, largura, profundidade e altura) e estabelece o processo em que esses valores de medida física se aplicam. Quando este recurso é habilitado, o sistema oferecerá suporte aos seguintes tipos de dimensões:
 
@@ -60,7 +57,7 @@ Para trabalhar nesse cenário usando os registros e valores de exemplo especific
 
 Adicione uma nova dimensão física a um produto da seguinte forma:
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione o produto com **Número do item** *A0001*.
 1. No Painel de Ação, abra a guia **Gerenciar estoque** e, no grupo **Depósito**, selecione **Dimensões físicas do produto**.
 1. A página **Dimensões físicas do produto** é aberta. No Painel de Ações, selecione **Novo** para adicionar uma nova dimensão à grade com as seguintes configurações:
@@ -109,7 +106,7 @@ Depois de preparar o sistema conforme descrito na seção anterior, você estar�
 
 Neste processo, você criará uma remessa com base nas dimensões de *embalagem* do item, para o qual a altura é inferior a 3.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 

@@ -2,11 +2,9 @@
 title: O registro TaxTrans não é gerado
 description: Este tópico fornece informações sobre como solucionar problemas que podem ajudar quando um registro TaxTrans não é gerado.
 author: qire
-manager: beya
 ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0c7414cc39198ff4d5be9b4c41ca62f9c78c9250
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: 82b00387e39b88e1ab2bc27d9dbc4e36aac3a7a605c04669171997ba236ae39a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751293"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>O registro TaxTrans não é gerado
 
@@ -28,7 +26,7 @@ ms.locfileid: "5947595"
 
 Se você selecionar **Imposto lançado** para uma transação, mas a página **Imposto lançado** não mostrar linhas de imposto ou uma linha de imposto estiver ausente, talvez o registro **TaxTrans** não tenha sido gerado.
 
-[![Página Imposto lançado sem itens de linha](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
+[![Página Imposto lançado sem itens de linha.](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
 
 Para solucionar esse problema, siga as etapas nas seguintes seções, conforme necessário.
 
@@ -36,26 +34,26 @@ Para solucionar esse problema, siga as etapas nas seguintes seções, conforme n
 
 1. Antes de lançar a transação, na página **Lançar fatura**, selecione **Imposto** para verificar o cálculo.
 
-    [![Botão Imposto na página Lançar fatura](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
+    [![Botão Imposto na página Lançar fatura.](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
 
 2. Na página **Transações temporárias de imposto**, revise o resultado do cálculo. Se nenhum imposto for calculado, consulte [O imposto não é calculado ou o valor do imposto é zero](sales-tax-troubleshooting-tax-not-calculated-amount-zero.md).
 
 ## <a name="find-the-taxtrans-record-in-all-posted-sales-tax"></a>Localizar o registro TaxTrans em todos os impostos lançados
 
-1. Vá para **Imposto** \> **Consultas e relatórios** \> **Consultas de imposto** > **Imposto lançado**.
+1. Acesse **Imposto** \> **Consultas e relatórios** \> **Consultas de imposto** > **Imposto lançado**.
 2. No título da coluna **Comprovante**, selecione o símbolo de filtro para localizar o registro **TaxTrans**.
 3. Se você encontrar os registros de impostos que está procurando, verifique a data. Se a data for diferente da data do cabeçalho do diário, crie uma solicitação de serviço da Microsoft para obter suporte adicional.
 
-    [![Página Imposto lançado](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
+    [![Página Imposto lançado.](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
 
 ## <a name="debug-to-check-details"></a>Depurar para verificar detalhes
 
 1. Para obter informações sobre como depurar e determinar se **TmpTaxWorkTrans** e **TaxUncommitted** são gerados corretamente, consulte [O valor de campo em TaxTrans está incorreto](sales-tax-troubleshooting-field-value-taxtrans-incorrect.md).
 2. Se **TaxTmpWorkTrans** ou **TaxUncommitted** for gerado corretamente, adicione um ponto de interrupção em **TaxPost::SaveAndPost()** e **Tax::SaveAndPost** para depurar o motivo pelo qual **TaxTrans** não é inserido.
 
-    [![Pontos de interrupção adicionados no código](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
+    [![Pontos de interrupção adicionados no código.](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
 
-    [![Resultados de pontos de interrupção adicionados](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
+    [![Resultados de pontos de interrupção adicionados.](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
 
 ## <a name="determine-whether-customization-exists"></a>Determinar se há personalização
 

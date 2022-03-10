@@ -3,23 +3,22 @@ title: Visão geral da página de aterrissagem da categoria padrão e da página
 description: Este tópico fornece uma visão geral da página de aterrissagem de categoria padrão e da página de resultados de pesquisa no Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794340"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982425"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa
 
@@ -31,7 +30,7 @@ Este tópico fornece uma visão geral da página de aterrissagem de categoria pa
 
 A página de aterrissagem de categoria padrão é a página para a qual os usuários do site geralmente são levados quando selecionam uma categoria na hierarquia de navegação. A página de categoria permite pesquisar, e você também pode classificar e refinar produtos categorizados.
 
-![Página de aterrissagem da categoria padrão](./media/SimpleCategoryLandingDressCategory.png)
+![Página de aterrissagem da categoria padrão.](./media/SimpleCategoryLandingDressCategory.png)
 
 Na parte superior da página está um cabeçalho que mostra todas as categorias de produtos e outras páginas que o gerente de mercadoria categorizou. A configuração é feita como parte da configuração da hierarquia de navegação de canal. Na parte inferior da página está um rodapé que inclui links rápidos para várias tópicos que podem despertar o interesse de um cliente.
 
@@ -55,7 +54,7 @@ Os componentes a seguir são essenciais para uma categoria:
 
 Se deseja uma página de aterrissagem de categoria com uma experiência mais personalizado para uma categoria específica, você pode "enriquecer" a página de aterrissagem da categoria para essa categoria. Por exemplo, você pode adicionar uma vídeo de marketing e uma categoria para contar histórias para obter a atenção do comprador. Para obter mais informações, consulte [Enriqueça uma página de aterrissagem de categoria](enrich-category-page.md).
 
-![Página de aterrissagem da categoria enriquecida](./media/CategoryLandingPages.png)
+![Página de aterrissagem da categoria enriquecida.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Páginas de sugestão automática e resultados de pesquisa
 
@@ -69,11 +68,11 @@ Aqui estão alguns dos tipos de sugestões que podem ser exibidas:
 - **Produtos** fornece as links diretos a página de detalhes de produto.
 - **Sugestões de pesquisa de categoria no escopo** lista várias categorias e permite que os usuários pesquisem por palavra-chave em uma categoria específica.
 
-![Sugestão automática imersiva](./media/ImmersiveAutoSuggestUX.png)
+![Sugestão automática imersiva.](./media/ImmersiveAutoSuggestUX.png)
 
 Quando os usuários selecionam uma palavra-chave ou sugestões de pesquisa de categoria no escopo, ou quando não houver nenhuma sugestão do termo de pesquisa que devem entrar, são redirecionados a uma página de resultados de busca. Os usuários podem então procurar, classificar e restringir a lista de resultados de pesquisa para localizar o item desejado.
 
-![Aterrissagem de pesquisa](./media/SearchLanding.png)
+![Aterrissagem de pesquisa.](./media/SearchLanding.png)
 
 Os componentes a seguir são essenciais para uma página de resultados de pesquisa:
 
@@ -94,13 +93,13 @@ Os componentes a seguir são essenciais para uma página de resultados de pesqui
 
 >[!NOTE]
 >Esses recursos de pesquisa habilitados para a nuvem estão disponíveis a partir da versão 10.0.8. Verifique se em **Parâmetros do Commerce > Parâmetros de Configuração** há uma entrada para "ProductSearch.UseAzureSearch definido como 'true'". 
-![Parâmetros de configuração para pesquisa habilitada para a nuvem](./media/CloudPoweredSearchConfigurationParameters.png)
+![Parâmetros de configuração para pesquisa habilitada para a nuvem.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral da pesquisa habilitada para a nuvem](cloud-powered-search-overview.md)
 
-[Visão geral da home page](quick-tour-home-page.md)
+[Visão geral da página inicial](quick-tour-home-page.md)
 
 [Visão geral das páginas de detalhes do produto](quick-tour-pdp.md)
 

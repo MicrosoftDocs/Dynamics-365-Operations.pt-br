@@ -1,7 +1,7 @@
 ---
 title: Configurar perfis de lançamento de ativos fixos
-description: Este guia de tarefa definirá os perfis de postagem de ativo fixo.
-author: saraschi2
+description: Este procedimento mostra como configurar perfis de lançamentos de ativos fixos.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,23 +10,23 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f02aa936b7d485dd8c76225b5c4de02a238f9352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813546"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883759"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Configurar perfis de lançamento de ativos fixos
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia de tarefa definirá os perfis de postagem de ativo fixo.  Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.  Os exemplos dados no guia da tarefa são para um perfil de lançamentos básicos, embora os perfis de lançamento devam ser criados para seus requisitos do plano de contas e específico de relatórios financeiros.
+Este procedimento mostra como configurar perfis de lançamentos de ativos fixos. Os exemplos dados no tópico são para um perfil de lançamentos básicos, embora os perfis de lançamentos devam ser criados de acordo com os requisitos do seu plano de contas e dos relatórios financeiros.
 
-1. No Painel de navegação, vá para **Módulos > Ativos fixos > Configuração > Perfis de lançamento de ativo fixo**.
+1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Configuração > Perfis de lançamento de ativo fixo**.
 2. Clique em **Novo**.
 3. No campo **Perfil de lançamento**, insira um valor.
 4. No campo **Descrição**, digite um valor. Será necessário criar um perfil de lançamento para cada tipo de transação de ativo fixo que você utilizará ao trabalhar com ativos fixos. Esta guia será iniciada com tarefas com o tipo de transação de aquisição.  

@@ -1,26 +1,24 @@
 ---
 title: Adicionar produtos de variante a ordens de compra usando pesos de variante
 description: Este procedimento mostra as etapas para usar pesos de variante para preencher automaticamente as linhas da ordem de compra para cada variante de um produto.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0cb0a99b926e1e129c5f7a174cac18e3b93aafa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4f9523410447c102481dd2c709b1fa3dd69d03e8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966996"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565633"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Adicionar produtos de variante a ordens de compra usando pesos de variante
 
@@ -28,7 +26,7 @@ ms.locfileid: "4966996"
 
 Este procedimento mostra as etapas para usar pesos de variante para preencher automaticamente as linhas da ordem de compra para cada variante de um produto. Quando você seleciona a quantidade do produto que você deseja comprar, as linhas da ordem de compra são criadas para todas as variantes do produto com as quantidades sugeridas com base nos pesos configurados nas variantes do produto. Este procedimento não inclui etapas para configurar valores de peso nas dimensões do produto e nas variantes de produto. Este procedimento usa a empresa USRT nos dados de demonstração.
 
-1. Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.
+1. Acesse Contas a pagar > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. No campo Conta de fornecedor, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, clique no link na linha selecionada.
@@ -47,3 +45,6 @@ Este procedimento mostra as etapas para usar pesos de variante para preencher au
 17. Defina a quantidade como '1000'.
 18. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Documentos de justificativa para planejamento de orçamento
 description: Documentos de justificativa fornecem uma narrativa àqueles solicitando um orçamento para explicar por que um orçamento específico é necessário.
-author: ryansandness
-manager: AnnBe
+author: panolte
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 321da6643b421070ddd9f32bddd3e8d72f0adb86
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5eb74b5d2b71372f99dd927ff6e2bee96e199a6f75b3ae920607e5ec37a4241a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440474"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752957"
 ---
 # <a name="budget-planning-justification-documents"></a>Documentos de justificativa para planejamento de orçamento
 
@@ -56,10 +53,10 @@ Um modelo de plano de orçamento é criado pelo gerente de orçamento no Microso
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Configurar o processo de planejamento de orçamento para usar o modelo de justificativa
 
-1.  Vá para **Orçamento** &gt; **Configuração** &gt; **Planejamento de orçamento** &gt; **Modelos de documento de justificativa**.
+1.  Acesse **Orçamento** &gt; **Configuração** &gt; **Planejamento de orçamento** &gt; **Modelos de documento de justificativa**.
 2.  Clique em **Novo** e acesse o documento recém-criado do Microsoft Word.
 3.  Insira nome e descrição de exibição de modelo. Clique em **OK**.
-4.  Vá para **Orçamento** &gt; **Configuração** &gt; **Planejamento do** **orçamento** &gt; **Processo de planejamento de orçamento**.
+4.  Acesse **Orçamento** &gt; **Configuração** &gt; **Planejamento do** **orçamento** &gt; **Processo de planejamento de orçamento**.
 5.  Selecione o processo no qual o modelo de justificativa deve ser usado e clique em **Editar**.
 6.  No campo **Modelo de documento de justificativa**, selecione o modelo apropriado e salve-o.
 
@@ -72,3 +69,6 @@ Um modelo de plano de orçamento é criado pelo gerente de orçamento no Microso
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

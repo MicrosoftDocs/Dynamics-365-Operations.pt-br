@@ -2,28 +2,25 @@
 title: Visão geral do processo de NF-e do Brasil
 description: Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
 author: sndray
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EFDocContingencyMode_BR, EFDocContingencyModeHistory_BR, EFDocCorrectionLetter_BR, EFDocEmailAccountConfiguration_BR, EFDocEmailStatus_BR, EFDocHist_BR, EFDocParameters_BR, EFDocServiceInquire_BR, FiscalDocument_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269114
 ms.assetid: 7cb522a4-2f84-4399-a60d-8692df6e08f3
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f097cfe3bef7361939a60209364e5f1adb69555
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b56ea99cdfccb77f1d71277d1cbafcbca411af55
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408444"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983192"
 ---
 # <a name="brazil-nf-e-process-overview"></a>Visão geral do processo de NF-e do Brasil 
 
@@ -69,3 +66,6 @@ Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seg
  - [NF-e 3.10 (Brasil)](tasks/br-00053-nf-e-3-10.md)
  - [Transmissão automática de notas fiscais eletrônicas (Brasil)](tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

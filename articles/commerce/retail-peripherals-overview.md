@@ -1,9 +1,9 @@
 ---
 title: Periféricos
 description: Este tópico explica os conceitos relacionados aos periféricos do Commerce.
-author: rubencdelgado
-ms.date: 02/06/2020
-ms.topic: article
+author: BrianShook
+ms.date: 02/04/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
@@ -14,19 +14,20 @@ ms.custom:
 - intro-internal
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715325"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092475"
 ---
 # <a name="peripherals"></a>Periféricos
 
 [!include[banner](includes/banner.md)]
+[!include[banner](includes/preview-banner.md)]
 
 Este tópico explica os conceitos relacionados aos periféricos da loja. Descreve as várias formas que os periféricos podem ser conectados ao ponto de venda (PDV) e os componentes responsáveis por gerenciar a conexão com o PDV.
 
@@ -34,15 +35,15 @@ Este tópico explica os conceitos relacionados aos periféricos da loja. Descrev
 
 ### <a name="pos-registers"></a>Terminais de PDV
 
-Navegação: Clique em **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Terminais**. O registro de ponto de venda (PDV) é uma entidade usada para definir as características de uma instância específica do PDV. Essas características incluem o perfil ou configuração de hardware para os periféricos que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.
+Navegação: Vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Registradoras**. O registro de ponto de venda (PDV) é uma entidade usada para definir as características de uma instância específica do PDV. Essas características incluem o perfil ou configuração de hardware para os periféricos que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.
 
 ### <a name="devices"></a>Dispositivos
 
-Navegação: Clique em **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Dispositivos**. Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS. Quando um dispositivo é criado, ele é mapeado para um registro de PDV. A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico. 
+Navegação: Vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Dispositivos**. Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS. Quando um dispositivo é criado, ele é mapeado para um registro de POS. A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico. 
 
-Os dispositivos podem ser mapeados nos seguintes tipos de aplicativo: Retail Modern POS, PDV de nuvem de varejo, Retail Modern POS – Windows Phone, Retail Modern POS – Android e Retail Modern POS – iOS.
+Os dispositivos podem ser mapeados nos seguintes tipos de aplicativo: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Android e Retail Modern POS – iOS.
 
-### <a name="modern-pos"></a>POS moderno
+### <a name="modern-pos"></a>Modern POS
 
 O PDV moderno é o programa de PDV para Microsoft Windows. Pode ser implantado em sistemas operacionais Windows 10 (OSs).
 
@@ -62,20 +63,20 @@ O PDV moderno para Android é uma versão baseada em Android do programa de PDV 
 
 Os periféricos de PDV são dispositivos suportados explicitamente para funções de PDV. Esses periféricos normalmente são divididos em classes específicas. Para obter mais informações sobre essas classes, consulte a seção "Classes de dispositivo" deste tópico.
 
-### <a name="hardware-station"></a>Hardware Station
+### <a name="hardware-station"></a>Estação de hardware
 
-Navegação: Clique em **Varejo e Comércio** &gt; **Canais** &gt; **Lojas** &gt; **Todas as lojas**. Selecione uma loja e clique na Guia Rápida **Estações de hardware**. A configuração **Estação de hardware** é uma configuração a nível de canal utilizada para definir instâncias onde a lógica de periférico será implantada. Esta configuração a nível de canal é usada para determinar as características da estação de hardware. Também é usada para listar as estações de hardware disponíveis para uma instância de PDV moderno em uma loja específica. A estação de hardware é criada nos programas de Modern POS para o Windows e Android. A estação de hardware também pode ser implantada independentemente como um programa autônomo do Microsoft Internet Information Services (IIS). Nesse caso, pode ser acessada pela rede.
+Navegação: Vá para **Varejo e Comércio \> Canais \> Lojas \> Todas as lojas**. Selecione uma loja e selecione a FastTab **Estações de hardware**. A configuração **Estação de hardware** é uma configuração a nível de canal utilizada para definir instâncias onde a lógica de periférico será implantada. Esta configuração a nível de canal é usada para determinar as características da estação de hardware. Também é usada para listar as estações de hardware disponíveis para uma instância de PDV moderno em uma loja específica. A estação de hardware é criada nos programas de Modern POS para o Windows e Android. A estação de hardware também pode ser implantada independentemente como um programa autônomo do Microsoft Internet Information Services (IIS). Nesse caso, pode ser acessada pela rede.
 
 ### <a name="hardware-profile"></a>Perfil de hardware
 
-Navegação: Clique em **Retail e Commerce** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**. O perfil de hardware é uma lista de dispositivos que são configurados para um registro de PDV ou estação de hardware. O perfil de hardware pode ser mapeado diretamente em um registro de PDV ou estação de hardware.
+Navegação: Vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de hardware**. O perfil de hardware é uma lista de dispositivos que são configurados para um registro de PDV ou estação de hardware. O perfil de hardware pode ser mapeado diretamente em um registro de PDV ou estação de hardware.
 
 ## <a name="devices-classes"></a>Classes de dispositivos
 Os periféricos de PDV normalmente são divididos em classes. Esta seção descreve e dá uma visão geral dos dispositivos suportados pelo PDV moderno.
 
 ### <a name="printer"></a>Impressora
 
-As impressoras incluem impressoras tradicionais de recibo de PDV e impressoras de página inteira. As impressoras são suportadas por meio da fixação e incorporação de objetos para Retail POS (OPOS) e interfaces de driver do Microsoft Windows. Até duas impressoras podem ser usadas ao mesmo tempo. Este recurso suporta cenários onde os recebimentos de cliente pague-e-leve são impressos em impressoras de recebimento, enquanto que as ordens de cliente, que têm mais informações, são impressas em uma impressora de página inteira. As impressoras de recebimento podem estar associadas diretamente a um computador via USB, conectadas à rede via Ethernet, ou conectadas via Bluetooth.
+As impressoras incluem impressoras tradicionais de recibo de PDV e impressoras de página inteira. As impressoras são suportadas por meio da Vinculação e Incorporação de Objetos para Retail POS (OPOS) e interfaces de driver do Microsoft Windows. Até duas impressoras podem ser usadas ao mesmo tempo. Este recurso suporta cenários onde os recebimentos de cliente pague-e-leve são impressos em impressoras de recebimento, enquanto que as ordens de cliente, que têm mais informações, são impressas em uma impressora de página inteira. As impressoras de recebimento podem estar associadas diretamente a um computador via USB, conectadas à rede via Ethernet, ou conectadas via Bluetooth.
 
 ### <a name="scanner"></a>Scanner
 
@@ -97,9 +98,9 @@ As exibições de linha são usadas para mostrar produtos, saldos da transação
 
 Os dispositivos de captura de assinatura podem ser vinculados diretamente a um computador via USB ou usando drivers OPOS. Quando a captura de assinatura for configurada, o cliente receberá uma solicitação para efetuar login no dispositivo. Depois que a assinatura for fornecida, ela é mostrada ao caixa para aceitação.
 
-### <a name="scale"></a>Balança
+### <a name="scale"></a>Escala
 
-As escalas podem ser conectadas ao computador via USP usando drivers OPOS. Quando um produto que está marcado como um produto "Ponderado" é adicionado a uma transação, o PDV lê o peso da escala, adiciona o produto à transação e usa a quantidade fornecida pela escala.
+As escalas podem ser conectadas ao computador via USB usando drivers OPOS. Quando um produto que está marcado como um produto "ponderado" é adicionado a uma transação, o PDV lê o peso da escala, adiciona o produto à transação e usa a quantidade fornecida pela escala.
 
 ### <a name="pin-pad"></a>Teclado do PIN
 
@@ -137,9 +138,15 @@ A impressão de recibo no PDV é otimizada para OPOS. O OPOS tende a ser muito m
 
 Se os controles OPOS estiverem disponíveis para a impressora do Windows que você está usando, a impressora ainda deverá funcionar corretamente com o Commerce.
 
-### <a name="universal-windows-platform"></a>Plataforma de universal do Windows
+### <a name="plug-and-play-devices"></a>Dispositivos Plug and play
 
-A UWP, em caso de periféricos, é relacionada ao suporte do Windows para dispositivos Plug and Play. Quando um dispositivo Plug and Play é conectado a uma versão do Windows que oferece suporte a esse tipo de dispositivo, nenhum driver é necessário para que o dispositivo seja usado conforme pretendido. Por exemplo, se o Windows detectar um dispositivo de alto-falante Bluetooth, o sistema operacional sabe que o dispositivo tem o tipo de classe **Alto-falante**. Portanto, ele gerencia esse dispositivo como um alto-falante. Nenhuma configuração adicional é necessária. No caso de dispositivos PDV, vários dispositivos USB podem ser conectados, e o Windows irá reconhecê-los dispositivos (HIDs) de interface humana. Entretanto, ele não consegue determinar os recursos que o dispositivo fornece, pois o dispositivo não especifica a classe ou tipo do dispositivo. No Windows 10, classes de dispositivo para scanner de código de barras e MSRs foram adicionados. Portanto, se um dispositivo se declarar para o Windows 10 como um dispositivo de uma dessas classes, o Windows escutará eventos do dispositivo em horários apropriados. O PDV moderno oferece suporte a MSRs e scanners UWP. Portanto, quando estiver pronto para entrada de um desses dispositivos, e um dispositivo que pertence a uma dessas classes é conectado, o dispositivo pode ser usado. Por exemplo, se um scanner de código de barras UWP for conectado a um computador com Windows 10, e o logon de código de barras estiver configurado para o PDV moderno, o scanner de código de barras ficará ativo na tela de logon. Nenhuma configuração adicional é necessária. As classes adicionais de dispositivos UWP de ponto de serviço estão sendo adicionadas ao Windows. Essas classes incluem classes para caixas registradoras e impressoras de recibo. O suporte para essas novas classes de dispositivo no PDV moderno está pendente.
+Quando um dispositivo Plug and play é conectado a uma versão do Windows que oferece suporte a esse tipo de dispositivo, nenhum driver é necessário para que o dispositivo seja usado conforme pretendido. Por exemplo, se o Windows detectar um dispositivo de alto-falante Bluetooth, o sistema operacional sabe que o dispositivo tem o tipo de classe "Alto-falante" e trata o dispositivo como um alto-falante. Nenhuma configuração adicional é necessária. 
+
+No caso de periféricos de PDV, vários dispositivos USB podem ser conectados e reconhecidos pelo SO do Windows como dispositivos (HIDs) de interface humana. Entretanto, o Windows não consegue determinar os recursos que o dispositivo fornece, pois o dispositivo não especifica a classe ou tipo do dispositivo. No Windows 10, classes de dispositivo para scanner de código de barras e MSRs foram adicionados. Portanto, se um dispositivo se declarar para o Windows 10 como um dispositivo de uma dessas classes, o Windows escutará eventos do dispositivo em horários apropriados.
+
+O PDV moderno oferece suporte a MSRs e scanners UWP. Portanto, quando o Modern POS estiver pronto para entrada de um desses dispositivos, e um dispositivo que pertence a uma dessas classes é conectado, o dispositivo pode ser usado. Por exemplo, se um scanner de código de barras plug and play for conectado a um computador com Windows 10, e as credenciais de código de barras estiverem configuradas para o Modern POS, o scanner de código de barras ficará ativo na tela de entrada. Nenhuma configuração adicional é necessária.
+
+Classes adicionais de periféricos de PDV estão sendo adicionadas ao Windows, como classes para gavetas de caixa e impressoras de recibo. O suporte para essas novas classes de dispositivo no PDV moderno está pendente.
 
 ### <a name="keyboard-wedge"></a>Leitor de cartão de crédito do teclado
 
@@ -148,9 +155,9 @@ Os leitores de cartão de crédito do teclado enviam dados para o computador com
 > [!NOTE]
 > Quando os scanners de leitura do teclado são usados no PDV, eles devem ser programados para enviar um retorno de carro ou **Inserir** evento, após o último caractere digitalizado. Se essa configuração não for realizada, os scanners de leitura do teclado não funcionarão corretamente. Consulte a documentação fornecida pelo fabricante do dispositivo para obter mais informações sobre como acrescentar o evento de retorno de carro.  
 
-### <a name="native-printer"></a>Impressora nativa
+### <a name="device-printers"></a>Impressoras de dispositivo
 
-As impressoras nativas (ou "dispositivo", uma vez que o tipo é nomeado no perfil de hardware) podem ser configuradas para que solicitam ao usuário que selecione uma impressora que está configurada para o computador. Quando uma impressora do tipo **Dispositivo** é configurada, se o PDV moderno encontrar um comando de impressão, é solicitado ao usuário que selecione uma impressora em uma lista. Esse comportamento difere do comportamento dos drivers do Windows, pois o tipo de impressora do **Windows** no perfil de hardware não mostra uma lista de impressoras. Em vez disso, ele exige que uma impressora nomeada seja fornecida no campo **Nome do dispositivo**.
+As impressoras do tipo "Dispositivo" podem ser configuradas para solicitar ao usuário que selecione uma impressora que está configurada para o computador. Quando uma impressora do tipo "Dispositivo" é configurada, se o Modern POS encontrar um comando de impressão, será solicitado ao usuário que selecione uma impressora em uma lista. Esse comportamento difere do comportamento dos drivers do Windows, pois o tipo de impressora do "Windows" no perfil de hardware não mostra ao usuário uma lista de impressoras. Em vez disso, ele exige que uma impressora nomeada seja fornecida no campo **Nome do dispositivo**.
 
 ### <a name="network"></a>Rede
 
@@ -162,7 +169,12 @@ As caixas registradoras endereçáveis por rede, impressoras de recibo e termina
 
 Os clientes do Modern POS para Windows e Android incluem estações de hardware **Dedicadas** ou integradas. Esses clientes podem se comunicar diretamente com periféricos usando a lógica de negócios integrada aos aplicativos. O aplicativo Android oferece suporte somente a dispositivos de rede. Para obter mais informações sobre suporte a periféricos para o Android, acesse o artigo [Configurar aplicativo POS Hybrid no Android e iOS](./dev-itpro/hybridapp.md).
 
-Para usar a estação de hardware dedicada, atribua um perfil de hardware a um registro que usará o Modern POS para Windows ou aplicativo Android. Em seguida, crie uma estação de hardware do tipo **Dedicada** para a loja onde a registradora será utilizada. Inicie o Modern POS no modo sem gaveta e use a operação **Gerenciar estações de hardware** para acionar os recursos da estação de hardware, a estação de hardware dedicada estará ativa por padrão. Em seguida, faça logoff do Modern POS e entre novamente. Depois, abra um turno e os periféricos configurados no perfil de hardware poderão ser usados. 
+Para usar a estação de hardware dedicada, siga estas etapas.
+
+1. Atribua um perfil de hardware a um registro que usará o Modern POS para aplicativo Windows ou Android.
+1. Crie uma estação de hardware do tipo "Dedicada" para a loja onde o registro será utilizado. 
+1. Abra o Modern POS no modo não sacador e use a operação **Gerenciar estações de hardware** para ativar os recursos de estação de hardware. Por padrão, a estação de hardware dedicada estará ativa. 
+1. Saia do Modern POS. Em seguida, entre novamente e abra um turno. Os periféricos configurados no perfil de hardware serão utilizáveis agora. 
 
 ### <a name="shared"></a>Compartilhada 
 
@@ -207,8 +219,8 @@ Para obter informações, consulte [Configurar o aplicativo POS Hybrid no Androi
 
 Para obter mais informações sobre os componentes do OPOS, consulte a seção "Interfaces suportadas" deste documento. Normalmente, os drivers OPOS são fornecidos pelo fabricante do dispositivo. Quando um driver de dispositivo OPOS é instalado, ele adiciona uma chave ao registro do Windows em um dos seguintes locais:
 
--   **Sistema de 32 bits:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **Sistema de 64 bits:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **Sistema de 32 bits:** HKEY\_LOCAL\_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS
+-   **Sistema de 64 bits:** HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\OLEforRetail\ServiceOPOS
 
 Dentro no local de registro ServiceOPOS, os dispositivos configurados são organizados de acordo com a classe de dispositivo OPOS. Vários drivers de dispositivo são salvos.
 
@@ -488,9 +500,9 @@ Esta configuração é a configuração mais típica para as registradoras PDV f
     > [!NOTE]
     > Você não precisa definir outras propriedades na estação de hardware. Todas as outras informações necessárias, como perfil de hardware, serão provenientes da registradora.
 
-4.  Clique em **Retail e Commerce** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**.
-5.  Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
-6.  Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
+4.  Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+5.  Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Selecione **Executar agora** para sincronizar as alterações do PDV.
+6.  Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Selecione **Executar agora** para sincronizar as alterações do PDV.
 7.  Instale e ative o PDV moderno para Windows.
 8.  Inicie o PDV moderno para Windows, e comece a usar os dispositivos periféricos conectados.
 
@@ -515,17 +527,17 @@ Essa configuração pode ser usada para todos os clientes de PDV moderno que pos
     -   **Número de PDV da TEF** – A ID do terminal de TEF a ser usado quando autorizações de TEF forem enviadas. Essa ID é fornecida pelo processador de cartão de crédito.
     -   **Nome do pacote** – O pacote de estação de hardware a ser usado quando a estação de hardware é implantada.
 
-4.  Clique em **Retail e Commerce** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**.
-5.  Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
-6.  Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
+4.  Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+5.  Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Selecione **Executar agora** para sincronizar as alterações do PDV.
+6.  Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Selecione **Executar agora** para sincronizar as alterações do PDV.
 7.  Instale a estação de hardware. Para mais informações sobre como instalar a estação de hardware, consulte [Configurar e instalar o Retail hardware station](retail-hardware-station-configuration-installation.md).
 8.  Instale e ative o PDV moderno. Para obter mais informações sobre como instalar o Modern POS, consulte [Configurar, instalar e ativar o Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 9.  Entre no PDV moderno e selecione **Realizar operações que não são de gaveta**.
 10. Inicie a operação **Gerenciar estações de hardware**.
-11. Clique em **Gerenciar**.
+11. Selecione **Gerenciar**.
 12. Na página de gerenciamento da estação de hardware, defina a opção para ativar a estação de hardware.
-13. Selecione a estação de hardware a ser usada e, em seguida, clique em **Emparelhar**.
-14. Após a estação de hardware ser emparelhada, clique em **Fechar**.
+13. Selecione a estação de hardware a ser usada e, em seguida, selecione **Emparelhar**.
+14. Após a estação de hardware ser emparelhada, selecione **Fechar**.
 15. Na página de seleção da estação de hardware, clique na estação de hardware selecionada recentemente para ativá-la.
 
 ### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Todos os clientes de PDV modernos que possuem uma estação de hardware IIS compartilhada
@@ -538,46 +550,46 @@ Essa configuração pode ser usada para todos os clientes de PDV moderno que com
     -   **Nome do host** – O nome do computador host onde a estação de hardware será executada.
     -   **Descrição** – Texto que ajudará a identificar a estação de hardware, como **Devoluções** ou **Vitrine da loja**.
     -   **Porta** – A porta a ser usada para a estação de hardware se comunicar com o cliente de PDV moderno.
-    -   **Perfil de hardware** – Para as estações de hardware compartilhadas, cada estação de hardware deve ter um perfil de hardware. Os perfis de hardware podem ser compartilhados entre as estações de hardware, mas devem ser mapeados em cada estação de hardware. Além disso, recomendamos que você use turnos compartilhados quando vários dispositivos usarem a mesma estação de hardware compartilhada. Para configurar um turno compartilhado, clique em **Retail e Commerce** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**. Para cada perfil de hardware compartilhado, selecione a caixa registradora, e defina a opção **Gaveta de turno compartilhado** para **Sim**.
+    -   **Perfil de hardware** – Para as estações de hardware compartilhadas, cada estação de hardware deve ter um perfil de hardware. Os perfis de hardware podem ser compartilhados entre as estações de hardware, mas devem ser mapeados em cada estação de hardware. Além disso, recomendamos que você use turnos compartilhados quando vários dispositivos usarem a mesma estação de hardware compartilhada. Para configurar um turno compartilhado, vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de hardware**. Para cada perfil de hardware compartilhado, selecione a caixa registradora, e defina a opção **Gaveta de turno compartilhado** para **Sim**.
     -   **Número de PDV da TEF** – A ID do terminal de TEF a ser usado quando autorizações de TEF forem enviadas. Essa ID é fornecida pelo processador de cartão de crédito.
     -   **Nome do pacote** – O pacote de estação de hardware a ser usado quando a estação de hardware é implantada.
 
 4.  Repita as etapas 2 e 3 para cada estação de hardware adicional necessária na loja.
-5.  Clique em **Retail e Commerce** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**.
-6.  Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
-7.  Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
+5.  Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+6.  Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Selecione **Executar agora** para sincronizar as alterações do PDV.
+7.  Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Selecione **Executar agora** para sincronizar as alterações do PDV.
 8.  Instale a estação de hardware em cada computador host que é configurado nas etapas 2 e 3. Para mais informações sobre como instalar a estação de hardware, consulte [Configurar e instalar o Retail hardware station](retail-hardware-station-configuration-installation.md).
 9.  Instale e ative o PDV moderno. Para obter mais informações sobre como instalar o Modern POS, consulte [Configurar, instalar e ativar o Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 10. Entre no PDV moderno e selecione **Realizar operações que não são de gaveta**.
 11. Inicie a operação **Gerenciar estações de hardware**.
 
-12. Clique em **Gerenciar**.
+12. Selecione **Gerenciar**.
 13. Na página de gerenciamento da estação de hardware, defina a opção para ativar a estação de hardware.
-14. Selecione a estação de hardware a ser usada e, em seguida, clique em **Emparelhar**.
+14. Selecione a estação de hardware a ser usada e, em seguida, selecione **Emparelhar**.
 15. Repita a etapa 14 para cada estação de hardware que o PDV moderno usará.
-16. Após todas as estações de hardware necessárias serem emparelhadas, clique em **Fechar**.
+16. Após todas as estações de hardware necessárias serem emparelhadas, selecionar **Fechar**.
 17. Na página de seleção da estação de hardware, clique na estação de hardware selecionada recentemente para ativá-la. 
 
 > [!NOTE]
-> Se dispositivos usarem frequentemente diferentes estações de hardware, é recomendável configurar o PDV moderno para solicitar aos caixas que selecionem uma estação de hardware quando começarem o processo de meio de pagamento. Clique em **Varejo e Comércio** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**. Selecione a registradora e, em seguida, defina a opção **Selecionar após proposta** para **Sim**. Use a agenda de distribuição **1090** para sincronizar alterações no banco de dados do canal.
+> Se dispositivos usarem frequentemente diferentes estações de hardware, é recomendável configurar o PDV moderno para solicitar aos caixas que selecionem uma estação de hardware quando começarem o processo de meio de pagamento. Acesse **Varejo e comércio \> Configuração de canal \> Configuração do PDV \> Caixas registradoras**. Selecione a registradora e, em seguida, defina a opção **Selecionar após proposta** para **Sim**. Use a agenda de distribuição **1090** para sincronizar alterações no banco de dados do canal.
 
 ## <a name="extensibility"></a>Extensibilidade
-Para obter informações sobre cenários de extensibilidade da estação de hardware, consulte [Extensibilidade da estação de hardware](dev-itpro/hardware-station-extensibility.md).
+Para obter informações sobre cenários de extensibilidade para a estação de hardware, consulte [Integrar o PDV com um novo dispositivo de hardware e gerar o instalador de extensão](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Segurança
 De acordo com os padrões de segurança atuais, as seguintes configurações devem ser usadas em um ambiente de produção: 
 
 ### <a name="hardware-station-installer"></a>Instalador da estação de hardware
 O instalador da estação de hardware fará automaticamente essas edições de registro como parte da instalação no autoatendimento.
- 
+
 -   O SSL (Secure Sockets Layer) deve ser desabilitado.
 -   Somente o TLS (Transport Layer Security) versão 1.2 (ou versão mais atual) deve ser habilitado e usado. 
 
 ### <a name="ssl-and-tls"></a>SSL e TLS
 Por padrão, o SSL e todas as versões do TLS, exceto TLS 1.2, estão desabilitados. Para editar ou habilitar esses valores, siga estas etapas:
     1.  Pressione a tecla de logotipo do Windows+R para abrir uma janela de **Execução**.
-    2.  No campo **Abrir**, digite **Regedit** e, em seguida, clique em **OK**.
-    3.  Se uma caixa de mensagem **Controle de conta de usuário** for exibida, clique em **Sim**.
+    2.  No campo **Abrir**, digite **Regedit** e, em seguida, selecione **OK**.
+    3.  Se uma caixa de mensagem **Controle de Conta de Usuário** for exibida, selecione **Sim**.
     4.  Na janela do **Editor de registro**, navegue até **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. As seguintes chaves foram inseridas automaticamente para permitir somente o TLS 1.2:
         -   TLS 1.2Server:Enabled=1
         -   TLS 1.2Server:DisabledByDefault=0
@@ -609,13 +621,15 @@ Estes periféricos foram testados usando a estação de hardware IPC que é inte
 #### <a name="printer"></a>Impressora
 
 | Fabricante | Modelo    | Interface | Comentários                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
+| ------------ | -------- | --------- | ----------------------- |
 | Epson        | TM-T88V  | OPOS      |                         |
-| Epson        | TM-T88   | Personalizado    | Conectado via rede   |
-| Star         | TSP650II | Personalizado    | Conectado via rede   |
-| Star         | mPOP     | OPOS      | Conectado via Bluetooth |
+| Epson        | TM-T88VI | OPOS      |                         |
+| Epson        | TM-T88   | Personalizada    | Conectado via rede   |
 | HP           | F7M67AA  | OPOS      | Porta USB             |
+| Star         | TSP650II | Personalizada    | Conectado via rede   |
+| Star         | mPOP     | OPOS      | Conectado via Bluetooth |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 > [!NOTE]
 > A impressora Star TSP 100 não tem suporte para a estação de hardware integrada. A estação de hardware integrada usa um processo de 64 bits, que é incompatível com os drivers existentes da Star TP 100. 
@@ -687,13 +701,17 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS dedi
 
 #### <a name="printer"></a>Impressora
 
-| Fabricante | Modelo    | Interface | Comentários                  |
-|--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Epson        | TM-T88V  | Personalizado    | Conectado via rede     |
-| Star         | TSP650II | Personalizado    | Conectado via rede     |
-| HP           | F7M67AA  | OPOS      | Powered USB               |
+| Fabricante | Modelo    | Interface | Comentários              |
+| ------------ | -------- | --------- | --------------------- |
+| Epson        | TM-T88V  | OPOS      |                       |
+| Epson        | TM-T88VI | OPOS      |                       |
+| Epson        | TM-T88V  | Personalizada    | Conectado via rede |
+| HP           | F7M67AA  | OPOS      | Porta USB           |
+| Star         | TSP650II | Personalizada    | Conectado via rede |
+| Toshiba      | HSP100   | OPOS      |                       |
+| Toshiba      | HSP150   | OPOS      |                       |
+
+
 
 #### <a name="bar-code-scanner"></a>Scanner de código de barras
 
@@ -762,13 +780,15 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 
 #### <a name="printer"></a>Impressora
 
-| Fabricante | Modelo    | Interface | Comentários                  |
-|--------------|----------|-----------|---------------------------|
-| Epson        | TM-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Epson        | TM-T88   | Personalizado    | Conectado via rede     |
-| Star         | TSP650II | Personalizada    | Conectado via rede     |
-| HP           | F7M67AA  | OPOS      | Powered USB               |
+| Fabricante | Modelo    | Interface | Comentários              |
+| ------------ | -------- | --------- | --------------------- |
+| Epson        | TM-T88V  | OPOS      |                       |
+| Epson        | TM-T88VI | OPOS      |                       |
+| Epson        | TM-T88   | Personalizada    | Conectado via rede |
+| HP           | F7M67AA  | OPOS      | Porta USB           |
+| Star         | TSP650II | Personalizada    | Conectado via rede |
+| Toshiba      | HSP100   | OPOS      |                       |
+| Toshiba      | HSP150   | OPOS      |                       |
 
 #### <a name="payment-terminal"></a>Terminal de pagamento
 
@@ -788,21 +808,21 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 
 
 ## <a name="troubleshooting"></a>Solução de problemas
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>O Modern POS pode detectar a estação de hardware em sua lista para seleção, mas não pode concluir o emparelhamento
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>O PDV moderno pode detectar a estação de hardware em sua lista para seleção, mas não pode concluir o emparelhamento
 
 **Solução:** Verifique a lista a seguir com os possíveis pontos de falha:
 
 -   O computador que esta executando o PDV moderno confia no certificado usado no computador que executa a estação de hardware.
     -   Para verificar essa configuração, em um navegador de Web, Acesse o seguinte URL: https://&lt;Nome do Computador&gt;:&lt;Número da Porta&gt;/HardwareStation/ping.
-    -   Este URL usa um ping para verificar se o computador pode ser acessado, o navegador e indica se o certificado é confiável. (Por exemplo, no Internet Explorer, um ícone de bloqueio é exibido na barra de endereços. Quando você clica nesse ícone, o Internet Explorer verifica se o certificado é confiável atualmente. Você pode instalar o certificado no computador local exibindo os detalhes do certificado que será exibido.)
+    -   Este URL usa um ping para verificar se o computador pode ser acessado, o navegador e indica se o certificado é confiável. (Por exemplo, no Internet Explorer, um símbolo de bloqueio é exibido na barra de endereços. Quando você seleciona este símbolo, o Internet Explorer verifica se o certificado é confiável atualmente. Você pode instalar o certificado no computador local exibindo os detalhes do certificado que será exibido.)
 -   No computador que executa a estação de hardware, a porta que será usada pela estação de hardware é aberta no firewall.
 -   A estação de hardware instalou corretamente as informações de conta mercante através da ferramenta de instalação de informações de mercante que é executada no final do instalador de estação de hardware.
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>O Modern POS não pode detectar a estação de hardware em sua lista para seleção
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>O PDV moderno não pode detectar a estação de hardware em sua lista para seleção
 
 **Solução:** Um dos seguintes fatores podem causar este problema:
 
--   A estação de hardware não foi configurada corretamente no Headquarters. Use as etapas anteriormente neste tópico para verificar se o perfil da estação de hardware e a estação de hardware foram inseridos corretamente.
+-   A estação de hardware não foi configurada corretamente na sede. Use as etapas anteriormente neste tópico para verificar se o perfil da estação de hardware e a estação de hardware foram inseridos corretamente.
 -   Os trabalhos não foram executados para atualizar a configuração de canal. Neste caso, execute o trabalho 1070 para a configuração de canal.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>O PDV moderno não reflete as novas configurações da caixa registradora.
@@ -823,15 +843,15 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 -   Às vezes, os drivers de dispositivo pode fazer com que objetos comuns de controle (CCOs) parem de funcionar corretamente. Se um dispositivo tiver sido instalado recentemente, mas não estiver funcionando corretamente ou você notar outros problemas, normalmente é possível resolver o problema reinstalando os CCOs. Para baixar os CCOs, acesse <http://monroecs.com/oposccos_current.htm>.
 -   Se você fizer alterações periféricas frequentes durante os testes ou solução de problemas, você pode ter de redefinir o IIS em vez de esperar cache atualizar-se. Para redefinir o IIS, siga estas etapas:
     1.  No menu **Iniciar**, digite **CMD**.
-    2.  Em resultados de pesquisa, clique com o botão direito em **Prompt de comando** e, em seguida, clique em **Executar como administrador**.
+    2.  Em resultados de pesquisa, clique com o botão direito em **Prompt de comando** e, em seguida, selecione **Executar como administrador**.
     3.  Na janela do **Prompt de comando**, digite **iisreset /Restart** e pressione Enter.
     4.  Depois que o IIS reiniciar, reinicie o PDV moderno.
 -   Enquanto você estiver fazendo alterações frequentes nos dispositivos periféricos, se você também iniciar e sair do cliente PDV com frequência, o processo de dllhost da sessão de PDV anterior poderá interferir na sessão atual. Neste caso, um dispositivo não pode ser útil até você feche o host (DLL) da biblioteca de link dinâmico que está gerenciando a sessão anterior. Para fechar o host de DLL, siga essas etapas:
     1.  No menu **Iniciar**, digite **Gerenciador de tarefas**.
-    2.  Em resultados da pesquisa, clique em **Gerenciador de tarefas**.
-    3.  No Gerenciador de tarefas, na guia **Detalhes**, clique no cabeçalho de coluna que está rotulado como **Nome** para classificar a tabela em ordem alfabética.
+    2.  Em resultados da pesquisa, selecione **Gerenciador de tarefas**.
+    3.  No Gerenciador de tarefas, na guia **Detalhes**, selecione o cabeçalho de coluna que está rotulado como **Nome** para classificar a tabela em ordem alfabética.
     4.  Rolar para baixo até você encontrar dllhost.exe.
-    5.  Selecione cada host de DLL e, em seguida, clique em **Encerrar tarefa**.
+    5.  Selecione cada host de DLL e, em seguida, selecione **Encerrar tarefa**.
     6.  Depois que os hosts de DLL tiverem sido fechados, reinicie o PDV moderno.
 
 

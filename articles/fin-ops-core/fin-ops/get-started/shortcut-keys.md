@@ -2,7 +2,7 @@
 title: Atalhos de teclado
 description: Este tópico fornece uma visão geral das combinações de teclas de atalho que você pode usar ao trabalhar com aplicativos de Finanças e Operações.
 author: jasongre
-ms.date: 12/10/2021
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070974"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119543"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
@@ -28,7 +28,7 @@ ms.locfileid: "8070974"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Os atalhos de teclado a seguir podem ajudá-lo e inserir vários dados com rapidez e eficiência em aplicativos de Finanças e Operações.
+Os atalhos de teclado podem ajudá-lo e inserir vários dados com rapidez e eficiência em aplicativos de Finanças e Operações. 
 
 > [!NOTE]
 > As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
@@ -37,11 +37,11 @@ Alguns dos atalhos nesta página são *pressionar simultaneamente*, que signific
 
 ## <a name="finding-a-shortcut"></a>Localizando um atalho
 
-A partir da atualização 11 da Plataforma, os usuários poderão descobrir atalhos disponíveis atualmente diretamente da interface do usuário. Basta clicar com o botão direito do mouse em um controle e selecione **Exibir atalhos**. Será aberta a caixa de diálogo que mostra os atalhos que você pode usar com base no local em que você está na página.
+Os usuários poderão descobrir atalhos disponíveis atualmente diretamente da interface do usuário. Basta clicar com o botão direito do mouse em um controle e selecione **Exibir atalhos**. Será aberta a caixa de diálogo que mostra os atalhos que você pode usar com base no local em que você está na página. Como alternativa, você pode pressionar Alt + Shift + K para abrir essa caixa de diálogo (e pressione Alt + Shift + K novamente para ver todos os atalhos disponíveis no momento para a página).    
 
 ## <a name="action-shortcuts"></a>Atalhos de ação
 
-| Para                                      | Pressione                            |
+| Para                                      | Pressionar                             |
 |-------------------------------------------------|----------------------------------|
 | Abrir pesquisa de ação                              | Ctrl+' ou Alt+Q                  |
 | Mover para o Painel de ação padrão                | Alt+M,A ou Ctrl+F6               |
@@ -256,10 +256,14 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Expandir/recolher o aviso de pop-up animado (ao executar um guia de tarefas)              | Alt+R,C                    |
 | Mostrar mais/menos informações no aviso de pop-up animado (durante a execução de um guia de tarefas) | Alt+R,M                    |
 
+## <a name="focus-management"></a>Gerenciamento de foco 
+O gerenciamento de foco descreve como o foco do usuário é tratado em um aplicativo. Os aplicativos de Finanças e Operações têm comportamentos de foco especializado para otimizar a produtividade do usuário, principalmente para cenários de entrada de dados. Os comportamentos de foco incluem o seguinte:  
+
+-  Quando uma página é carregada, o primeiro controle de entrada editável na página terá o foco e poderá aceitar a entrada do usuário imediatamente. Se não houver nenhum controle de entrada editável na página, a opção de fallback para foco inicial será o primeiro controle de entrada na página seguido pelo primeiro, o controle de foco na página.   
+-  Normalmente, quando um botão é selecionado, a ação é processada e o foco pode retornar à página. Quando isso ocorre, o foco tende a retornar ao controle de botão selecionado. Isso é verdadeiro em aplicativos de Finanças e Operações **exceto** quando o botão está localizado no Painel de Ações ou em uma barra de ferramentas. Nesses casos, quando a ação é concluída, o foco retorna ao último controle *fora* do Painel de Ações (ou da barra de ferramentas) que tinha o foco antes do botão ser selecionado.
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Atalhos de teclado para a análise de conta ausente](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
-
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

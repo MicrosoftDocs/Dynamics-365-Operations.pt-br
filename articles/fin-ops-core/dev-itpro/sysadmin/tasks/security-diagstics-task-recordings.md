@@ -2,7 +2,6 @@
 title: Diagnóstico de segurança de gravações de tarefas
 description: Este tópico fornece informações sobre como analisar e gerenciar requisitos de permissão de segurança com base em uma gravação de tarefas.
 author: Peakerbl
-manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 99f9da527e818892eb3f46aceca3cc4588b99e81
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570972"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745111"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnóstico de segurança de gravações de tarefas
 
@@ -31,7 +30,7 @@ Este tópico fornece informações sobre como analisar e gerenciar requisitos de
 
 ## <a name="manage-security-for-a-task-recording"></a>Gerenciar a segurança de um registro de tarefa
 
-1. Vá para **Administração do sistema** > **Segurança** > **Diagnóstico de segurança para registro de tarefa**.
+1. Acesse **Administração do sistema** > **Segurança** > **Diagnóstico de segurança para registro de tarefa**.
 2. Abra o registro de tarefa a partir da localização. Selecione **Abrir neste PC** ou **Abrir a partir do Lifecycle Services** e selecione **Fechar**.
 3. Isso abrirá a página **Detalhes do item de menu segurança** que lista os objetos de segurança necessários para o processo.
 
@@ -40,7 +39,7 @@ Este tópico fornece informações sobre como analisar e gerenciar requisitos de
 
 4. No campo **ID de usuário**, selecione um usuário. Se o usuário não tiver permissões para alguns itens de menu, o campo **Permissões ausentes** será atualizado para **Sim**.
   
-  ![Página de detalhes do item de menu de segurança](../media/Security-Menu-Item-Details.png)
+  ![Página de detalhes do item de menu de segurança.](../media/Security-Menu-Item-Details.png)
 
 5. Selecione **Adicionar referência** para ver uma lista dos objetos de segurança, incluindo as funções, as obrigações e os privilégios que concedem a permissão ausente.
 6. Selecione um objeto de segurança na lista:

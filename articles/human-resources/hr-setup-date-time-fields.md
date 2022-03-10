@@ -1,16 +1,13 @@
 ---
 title: Entender os campos de data e hora
-description: Entenda o que esperar ao usar os campos Data e Hora no Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: Este tópico explica o que esperar ao usar os campos Data e Hora no Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,48 +15,50 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d843eb8cefcd0f2f45c8956cd451f88ca6336efb
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 7c81155f0c5150af44982f224c8eca2026a78ee7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130438"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060880"
 ---
 # <a name="understand-date-and-time-fields"></a>Entender os campos de data e hora
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Os campos **Data e Hora** são um conceito fundamental no Dynamics 365 Human Resources. É importante compreender como trabalhar com dados de **Data e Hora** em formulários, no Dataverse e em fontes externas.
+
+
+Os campos **Data e Hora** são um conceito fundamental no Microsoft Dynamics 365 Human Resources. É importante compreender como trabalhar com dados de **Data e Hora** em páginas, no Dataverse e em fontes externas.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Compreendendo a diferença entre os tipos de dados do campo Data e Data e Hora
 
-Os campos **Data e Hora** contêm informações de fuso horário, enquanto os campos **Data** não. Os campos **Data** exibem as mesmas informações em qualquer local. Quando você insere uma data no campo **Data**, o Human Resources registra a mesma data no banco de dados.
+Os campos **Data e Hora** contêm informações de fuso horário, enquanto os campos **Data** não. Os campos **Data** mostram as mesmas informações em qualquer local. Quando você insere uma data em um campo **Data**, essa mesma data será gravada no banco de dados.
 
-Ao exibir os dados em um campo **Data e Hora**, o Human Resources ajusta a data e hora com base no fuso horário do usuário definido no formulário **Opções do usuário** (**Comum > Configuração > Opções do usuário**). As informações de data e hora que você insere nesse campo podem não ser as mesmas que são registradas na base de dados.
+Quando os dados forem mostrados em um campo **Data e Hora**, a data e a hora serão ajustadas com base no fuso horário do usuário selecionado na página **Opções do Usuário** (**Comum \> Configuração \> Opções do usuário**). As informações de data e hora que você insere nesse campo podem não ser as mesmas gravadas no banco de dados.
 
-[![Formulário Opções do usuário](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Página Opções do usuário.](./media/Useroptionsform.png)](./media/Useroptionsform.png)
 
-## <a name="understanding-date-and-time-fields-in-forms"></a>Compreendendo os campos Data e Hora nos formulários 
+## <a name="understanding-date-and-time-fields-on-pages"></a>Noções básicas sobre campos Data e Hora em páginas 
 
 Os dados de **Data e Hora** exibidos na tela não serão os mesmos que os dados armazenados no banco de dados se o fuso horário do usuário não estiver definido como Tempo Universal Coordenado (UTC). Os dados dos campos **Data e Hora** sempre são armazenados em UTC.
 
-[![UTC de formulário Trabalhador](./media/worker-form.png)](./media/worker-form.png)
+[![UTC da página Trabalhador.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Compreenda os campos Data e Hora no banco de dados 
 
-Quando o Human Resources registra um valor de **Data e Hora** no banco de dados, os dados são armazenados em UTC. Isso permite que os usuários vejam todos os dados de **Data e Hora** relacionados ao fuso horário definido nas opções do usuário.
+Quando um valor **Data e Hora** for gravado no banco de dados, os dados serão armazenados como UTC. Portanto, os usuários poderão ver todos os dados de **Data e Hora** relacionados ao fuso horário definido nas opções do usuário.
  
 No exemplo acima, a hora de início é um momento específico, e não uma data. Ao alterar o fuso horário do usuário conectado de GMT +12:00 para GMT UTC, o mesmo registro mostra 30/04/2019 12:00:00 em vez de 01/05/2019 12:00:00.
-  
+
 No exemplo abaixo, o início do funcionário 000724 torna-se ativo no mesmo horário independentemente do fuso horário. O funcionário estará ativo em 30/04/2019 no fuso horário GMT, que é o equivalente a 01/05/2019 no fuso horário GMT+12:00. Ambos fazem referência ao mesmo momento e não a uma data específica. 
 
-[![GMT de formulário Trabalhador](./media/worker-form2.png)](./media/worker-form2.png)
+[![GMT da página Trabalhador.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Dados de Data e Hora no Data Management Framework, Excel, Dataverse e Power BI 
 
-Os relatórios do Data Management Framework, do suplemento do Excel, do Dataverse e do Power BI foram desenvolvidos para interagir com os dados diretamente no nível do banco de dados. Como não há um cliente para ajustar dados de **Data e Hora** ao fuso horário do usuário, todos os valores de **Data e Hora** estão em UTC, o que pode resultar em algumas suposições incorretas ao inserir ou exibir dados.  
+Os relatórios do DMF (Data Management Framework), do suplemento do Excel, do Dataverse e do Power BI foram desenvolvidos para interagir com os dados diretamente no nível do banco de dados. Como não há um cliente para ajustar dados de **Data e Hora** ao fuso horário do usuário, todos os valores de **Data e Hora** estão em UTC, o que pode resultar em algumas suposições incorretas ao inserir ou exibir dados.
  
-O banco de dados supõe que dados de **Data e Hora** enviados via DMF, Excel, ou Dataverse estejam em UTC. Isso poderá ocasionar certa confusão quando o valor de **Data e hora** enviado não for exibido conforme esperado, pois o fuso horário do usuário que está visualizando os dados não está definido como UTC. 
+Quando os dados de **Data e Hora** forem enviados pelo DMF, Excel ou Dataverse, o banco de dados suporá que eles estejam em UTC. No entanto, se os usuários que exibem os dados não tiverem o fuso horário definido pelo usuário para o UTC, o valor de **Data e Hora** enviado não aparecerá como esperado e os usuários poderão ficar confusos. 
  
 O mesmo pode ocorrer de maneira reversa mediante a exportação de dados. Os dados de **Data e Hora** na entidade exportada do DMF podem ser diferentes dos exibidos no cliente do Dynamics. 
  
@@ -69,29 +68,32 @@ Ao usar fontes externas, como o DMF, para exibir ou criar dados, é importante s
 
 **Human Resources com fuso horário do usuário definido como UTC**
 
-[![Formulário de trabalhador definido como UTC](./media/worker-form3.png)](./media/worker-form3.png)
+[![Página Trabalhador definida como UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Human Resources com fuso horário do usuário definido como GMT +12:00** 
 
-[![Formulário de trabalhador definido como GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![Página Trabalhador definida como GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel via OData**
 
-[![Excel Via OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel Via OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **Preparação do DMF**
 
-[![Preparação do DMF](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![Preparação do DMF.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **Exportar DMF**
 
-[![Exportação de DMF](./media/DMFexport.png)](./media/DMFexport.png)
+[![Exportação de DMF.](./media/DMFExport.png)](./media/DMFExport.png)
 
 **Excel via Dataverse**
 
-[![Excel via Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel via Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Consulte também
 
-[Dados de data e hora](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
-[Fusos horários de preferência do usuário](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+[Dados de data e hora](/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
+[Fusos horários de preferência do usuário](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

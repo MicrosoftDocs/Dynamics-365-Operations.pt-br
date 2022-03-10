@@ -1,26 +1,24 @@
 ---
 title: Configurar depreciação extra
 description: Este procedimento mostra como criar uma provisão para depreciação especial e associá-la a um registro de ativos fixos.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetGroup, AssetGroupBookSetup, AssetGroupSetupBonus
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6627e7fa9a1eb1a9131ec7e2c3cc823b49b286cc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6bfa433c07a2acb37c8e73dfa5db7d1e1715cd1d
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257552"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883660"
 ---
 # <a name="set-up-bonus-depreciation"></a>Configurar depreciação extra
 
@@ -30,7 +28,7 @@ Este procedimento mostra como criar uma provisão para depreciação especial e 
 
 
 ## <a name="create-a-special-depreciation-allowance"></a>Criar uma provisão para depreciação especial
-1. Vá para Ativos fixos > Configuração > Provisão para depreciação especial.
+1. Acesse Ativos fixos > Configuração > Provisão para depreciação especial.
 2. Clique em Novo.
 3. No campo Provisão para depreciação especial, insira um valor.
 4. No campo Descrição, digite um valor.
@@ -38,7 +36,7 @@ Este procedimento mostra como criar uma provisão para depreciação especial e 
     * Se uma porcentagem não foi indicada, defina um valor.  
 
 ## <a name="associate-a-special-depreciation-allowance-with-a-fixed-asset-group-book"></a>Associar uma provisão para depreciação especial a um registro de grupo de ativos fixos
-1. Vá para Ativos fixos > Configuração > Grupos de ativo fixo.
+1. Acesse Ativos fixos > Configuração > Grupos de ativo fixo.
 2. Na lista, selecione o grupo de ativos fixos a ser associado à provisão para depreciação especial.
 3. Clique em Registros.
 4. Na lista, selecione o registro associado à provisão para depreciação especial.

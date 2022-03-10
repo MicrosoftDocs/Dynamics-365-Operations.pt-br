@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 1a8eebb589372051272573895a0ae5b4203eef62
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472567"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109772"
 ---
 # <a name="countryregion-picker-module"></a>Módulo seletor de país/região
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tópico aborda o módulo seletor de país/região e descreve como configurá-lo no Microsoft Dynamics 365 Commerce.
 
@@ -75,5 +74,9 @@ Para cada URL que você deseja mostrar e recomendar aos clientes, siga estas eta
 [Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de cabeçalho](author-header-module.md)
+
+[Módulo de seletor de sites](site-selector.md)
+
+[Módulo de trilha de navegação](add-breadcrumb.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

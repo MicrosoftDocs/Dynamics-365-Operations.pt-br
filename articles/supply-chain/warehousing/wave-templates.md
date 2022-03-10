@@ -5,7 +5,6 @@ author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -13,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b02283a6e0a4ef0d61be8b66f82be8c125028cb0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: a606f413bf3660a89270c0751b2656fab07cd80d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813618"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575983"
 ---
 # <a name="wave-templates"></a>Modelos de onda
 
@@ -55,7 +54,7 @@ Quando um ciclo é processada, o trabalho de separação criado se baseia no mod
 
 Para configurar um modelo do ciclo, siga estas etapas:
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Ondas** \> **Modelos de onda**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Ondas** \> **Modelos de onda**.
 1. Selecione **Novo** para criar um novo modelo do ciclo.
 1. No campo **Tipo de modelo do ciclo**, selecione uma das seguintes opções:
 

@@ -2,11 +2,9 @@
 title: Comparação de recursos de nuvem e locais
 description: O tópico mostra quais recursos são suportados na Nuvem e locais.
 author: sericks007
-manager: AnnBe
-ms.date: 12/02/2020
+ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736213"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparação de recursos de nuvem e locais
 
@@ -44,9 +42,9 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 |---------------------|-----------------------------|-----------|-----------------|
 | Conformidade e certificações        |                                                                                           | Sim       | Sim             |
 |                                      | Certificação do Tipo 1 SOC 1                                                                | Sim       | Não              |
-| Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             
+| Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             |
 |                                      | Exportar dados para seu próprio depósito de dados                                                    | Sim       | Sim             |
-|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim              |
+|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim             |
 |                                      | Integrações de dados                                                                         | Sim       | Sim             |
 | Gerenciamento de documentos                  |                                                                                           | Sim       | Sim             |
 | Gerenciamento financeiro                 |                                                                                           | Sim       | Sim             |
@@ -63,7 +61,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 |                                      | Espaços de trabalho analíticos                                                                     | Sim       | Não              |
 |                                      | Processo de negócios do Intelligent: Recomendações                                             | Sim       | Não              |
 |                                      | Criação de relatórios do Power BI com OData usando ferramentas do Power BI Desktop ou do Power Query para Excel    | Sim       | Não              |
-|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Não              |
+|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Sim             |
 |                                      | A telemetria é transferida para a nuvem                                                   | Sim       | Não              |
 | Lifecycle Services                   |                                                                                           | Sim       | Sim             |
 |                                      | Processos de negócios configuráveis                                                           | Sim       | Não              |
@@ -86,7 +84,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 
 | **Área**                | **Recurso**             | **Nuvem** | **Local** |
 |-------------------------|-------------------|-----------|-----------------|
-| Gerenciamento de Ativos                     |                                                                                           | Sim       | Não |
+| Gerenciamento de ativos                     |                                                                                           | Sim       | Sim             |
 | Conformidade e certificações        |                                                                                           | Sim       | Sim             |
 |                                      | Certificação do Tipo 1 SOC 1                                                                | Sim       | Não              |
 | Contabilização de custos                      |                                                                                           | Sim       | Sim             |
@@ -97,7 +95,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 | Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             |
 |                                      | Extensão acionada pela configuração                                                            | Sim       | Não              |
 |                                      | Exportar dados para seu próprio depósito de dados                                                    | Sim       | Sim             |
-|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim              |
+|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim             |
 |                                      | Integrações de dados                                                                         | Sim       | Sim             |
 | Gerenciamento de documentos                  |                                                                                           | Sim       | Sim             |
 | Ajuda                                 |                                                                                           | Sim       | Não              |
@@ -112,7 +110,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 |                                      | Espaços de trabalho analíticos                                                                     | Sim       | Não              |
 |                                      | Processo de negócios do Intelligent: Recomendações                                             | Sim       | Não              |
 |                                      | Criação de relatórios do Power BI com OData usando ferramentas do Power BI Desktop ou do Power Query para Excel    | Sim       | Não              |
-|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Não              |
+|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Sim             |
 |                                      | A telemetria é transferida para a nuvem                                                   | Sim       | Não              |
 | Gerenciamento de estoque                 |                                                                                           | Sim       | Sim             |
 | Lifecycle Services                   |                                                                                           | Sim       | Sim             |
@@ -120,6 +118,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 | Localizações                        |                                                                                           | Sim       | Sim             |
 | Fabricação                        |                                                                                           | Sim       | Sim             |
 | Planejamento e previsão mestre      |                                                                                           | Sim       | Sim             |
+| Otimização do planejamento                |                                                                                           | Sim       | Não              |
 | Aplicativo móvel, espaços de trabalho e plataforma |                                                                                           | Sim       | Sim             |
 | Integração do Office                   |                                                                                           | Sim       | Sim             |
 | Administração da organização          |                                                                                           | Sim       | Sim             |
@@ -148,7 +147,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Para ver uma lista de recursos disponíveis em implantações locais, consulte [Recursos do Commerce disponíveis em implantações locais](../../../retail/retail-onprem.md).
+Para ver uma lista de recursos disponíveis em implantações locais, consulte [Recursos do Commerce disponíveis em implantações locais](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
@@ -175,3 +174,6 @@ Para ver uma lista de recursos disponíveis em implantações locais, consulte [
 
 \* Em ambientes locais, o PerfTimer mostra somente os resultados do cliente.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

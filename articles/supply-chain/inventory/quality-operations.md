@@ -1,7 +1,7 @@
 ---
 title: Operações para não conformidades
 description: Este tópico descreve como criar e usar operações para não conformidades.
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a6cc88b80f82d77edac0341cb6a3c0db4b42ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 35619454af8b1cb1b7d383d393362f58d9dd0ea6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022195"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573864"
 ---
 # <a name="operations-for-nonconformances"></a>Operações para não conformidades
 
@@ -51,7 +51,7 @@ Neste exemplo, as seguintes operações podem ser criadas para representar o tra
 
 ## <a name="create-an-operation"></a>Criar uma operação
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Operações**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Operações**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Operação** – Insira um nome ou uma ID exclusiva para a operação.

@@ -2,11 +2,9 @@
 title: Perguntas frequentes sobre fluxo de trabalho
 description: Esse tópico responde perguntas frequentes sobre o sistema de fluxo de trabalho.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,16 +12,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797382"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065571"
 ---
 # <a name="workflow-faq"></a>Perguntas frequentes sobre fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Esse tópico responde perguntas frequentes sobre o sistema de fluxo de trabalho.
 
@@ -47,9 +48,9 @@ Estes são alguns pontos importantes a serem observados para adicionar alertas a
     - Em uma atualização futura, adicionaremos uma mensagem da Central de Ações para que seja atribuído um item de trabalho de fluxo de trabalho a um usuário. 
 - Como adicionar notificações a fluxos de trabalho
     - As mensagens da Central de Ações podem ser criadas para usuários específicos, como uma mensagem criada de um fluxo de trabalho em X++.
-    - [Fluxos de trabalho têm eventos de negócios](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que o cliente pode usar para disparar fluxos com as notificações que ele está procurando.   
+    - [Fluxos de trabalho têm eventos de negócios](../../dev-itpro/business-events/business-events-workflow.md) que o cliente pode usar para disparar fluxos com as notificações que ele está procurando.   
 
-Em resumo, se um usuário não receber a notificação adequada da Central de Ações quando um item de trabalho de fluxo de trabalho for atribuído a ele, aproveite [Eventos de negócios de fluxo de trabalho](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) com o Microsoft Power Automate para fornecer notificações adicionais ou diferentes.
+Em resumo, se um usuário não receber a notificação adequada da Central de Ações quando um item de trabalho de fluxo de trabalho for atribuído a ele, aproveite [Eventos de negócios de fluxos de trabalho](../../dev-itpro/business-events/business-events-workflow.md) com o Microsoft Power Automate para fornecer notificações adicionais ou diferentes.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Por que o editor de fluxo de trabalho não consegue iniciar no AD FS?
 Ao executar no Active Directory Federation Services (AD FS) em um ambiente atualizado, o editor do fluxo de trabalho pode ter problemas ao iniciar. Se isso acontecer, certifique-se de que a URL "https://dynamicsaxworkfloweditor/" seja adicionada à propriedade **Microsoft Dynamics 365 for Operations Local - Fluxo de trabalho - Aplicativo nativo** nas configurações do ADFS.
@@ -59,3 +60,6 @@ O valor padrão do campo para o **Número de itens de fluxo de trabalho por lote
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>O que é o recurso de Erro Avançado do Fluxo de Trabalho?
 O recurso de Erro Avançado do Fluxo de Trabalho na versão 10.0.13 adiciona códigos de erro para diferenciar classes diferentes de erros de fluxo de trabalho. As mensagens de erro relatadas serão quase parecidas, com pequenas diferenças para torná-las mais claras.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

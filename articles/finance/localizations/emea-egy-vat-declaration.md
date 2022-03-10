@@ -2,25 +2,23 @@
 title: Declaração de IVA para o Egito
 description: Este tópico explica como configurar e gerar o formulário de devolução de IVA para o Egito.
 author: sndray
-manager: AnnBe
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: kfend
 ms.search.scope: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7859d5a5e3273cd6e55edd1c1ce9fc4699d7ab33
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574311"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403939"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Declaração de IVA para o Egito (EG-00002)
 
@@ -79,7 +77,7 @@ Os parâmetros específicos do aplicativo permitem estabelecer os critérios de 
 
 Os relatórios de registros de vendas e de compras para o Egito incluem um conjunto de colunas que correspondem a classificações de transação específicas como tipos de operações, produtos e documentos específicos para o Egito. Em vez de incluir essas novas classificações como novos dados de entrada quando as transações são lançadas, as classificações serão determinadas com base nas diferentes pesquisas introduzidas em **Configurações** > **Configurar parâmetros específicos do aplicativo** > **Configuração** para atender aos requisitos de relatórios de IVA para o Egito. 
 
-![Página de parâmetros específicos do aplicativo](media/egypt-vat-declaration-setup1.png)
+![Página de parâmetros específicos do aplicativo.](media/egypt-vat-declaration-setup1.png)
 
 Essas configurações de pesquisa a seguir são usadas para classificar as transações nos relatórios de registros de IVA de compra e de venda:
 
@@ -87,6 +85,7 @@ Essas configurações de pesquisa a seguir são usadas para classificar as trans
 - **VATRateTypeLookup** > Coluna B: Tipo de imposto
 - **VATRateTypeLookup** > Coluna C: Tipo de item de tabela
 - **PurchaseOperationTypeLookup** > Coluna A: Tipo de documento
+- **CustomerTypeLookup** > Coluna A: tipo de documento
 - **SalesOperationTypeLookup** > Coluna N: Tipo de operação
 - **SalesItemTypeLookup** > Coluna O: Tipo de item
 
@@ -100,6 +99,8 @@ Conclua as etapas a seguir para configurar as diferentes pesquisas usadas para g
 6. Repita as etapas 3 a 5 para todas as pesquisas disponíveis.
 7. Selecione **Adicionar** para incluir a linha de registro final e, na coluna **Resultado da pesquisa**, selecione **Não aplicável**. 
 8. Nas colunas restantes, selecione **Não vazio**. 
+9. No campo **Estado**, selecione **Concluído**.
+10. Selecione **Salvar** e feche a página **Parâmetros específicos do aplicativo**.
 
 > [!NOTE]
 > Ao adicionar o último registro, **Não aplicável**, você define a seguinte regra: quando o grupo de impostos sobre vendas, o grupo de impostos sobre vendas do item, o código de imposto e o nome que é passado como um argumento não satisfazem nenhuma das regras anteriores, as transações não são incluídas no registro de IVA de saída. Embora essa regra não seja usada ao gerar o relatório, a regra ajuda a evitar erros na geração de relatórios quando há uma configuração de regra ausente.
@@ -140,7 +141,7 @@ As tabelas a seguir representam um exemplo de configuração sugerida para as co
 | Prestador de serviços       | 7    | VAT_SERV                | *Não vazio* | SaleExempt            |
 | Prestador de serviços       | 8    | VAT_SERV                | *Não vazio* | SalesExemptCreditNote |
 | Ajustes    | 9    | *Em Branco*                 | VAT_ADJ     | Vendas                 |
-| Ajustes    | 10   | *Em Branco*                 | VAT_ADJ     | Compra              |
+| Ajustes    | 10   | *Em Branco*                 | VAT_ADJ     | SalesCreditNote       |
 | Não Aplicável | 11   | *Não vazio*             | *Não vazio* | *Não vazio*           |
 
 **PurchaseItemTypeLookup**
@@ -150,16 +151,14 @@ As tabelas a seguir representam um exemplo de configuração sugerida para as co
 | Mercadorias                  | 1    | VAT_GOODS               | *Não vazio* | Compra                 |
 | Mercadorias                  | 2    | VAT_GOODS               | *Não vazio* | PurchaseCreditNote       |
 | Prestador de serviços               | 3    | VAT_SERV                | *Não vazio* | Compra                 |
-| Prestador de serviços               | 4    | VAT_SERV                | *Não vazio*  | PurchaseCreditNote       |
+| Prestador de serviços               | 4    | VAT_SERV                | *Não vazio* | PurchaseCreditNote       |
 | Máquina e equipamento  | 5    | VAT_M&E                 | *Não vazio* | Compra                 |
 | Máquina e equipamento  | 6    | VAT_M&E                 | *Não vazio* | PurchaseCreditNote       |
 | Máquinas de peças         | 7    | VAT_PARTS               | *Não vazio* | Compra                 |
 | Máquinas de peças         | 8    | VAT_PARTS               | *Não vazio* | PurchaseCreditNote       |
 | Isenções             | 9    | VAT_EXE                 | *Não vazio*  | PurchaseExempt           |
 | Isenções             | 10   | VAT_EXE                 | *Não vazio* | PurchaseExemptCreditNote |
-| Não Aplicável         | 11   | *Em Branco*                 | VAT_ADJ     | *Não vazio*              |
-| Não Aplicável         | 12   | *Não vazio*             | *Não vazio* | *Não vazio*              |
-| Não Aplicável         | 13   | *Em Branco*                 | *Não vazio* | *Não vazio*              |
+| Não Aplicável         | 11   | *Não vazio*             | *Não vazio* | *Não vazio*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -176,6 +175,17 @@ As tabelas a seguir representam um exemplo de configuração sugerida para as co
 | Ajustes    | 9    | *Em Branco*          | VAT_ADJ     | PurchaseCreditNote       |
 | Ajustes    | 10   | *Em Branco*          | VAT_ADJ     | Compra                 |
 | Não Aplicável | 11   | *Não vazio*      | *Não vazio* | *Não vazio*              |
+
+**CustomerTypeLookup**
+
+|    Resultado da pesquisa    | Linha | Grupo de impostos sobre vendas |
+|---------------------|------|-----------------|
+| Organização        |  1   | VAT_LOCAL       |
+| Organização        |  2   | VAT_EXPORT      |
+| Organização        |  3   | VAT_EXE         |
+| Consumidor final      |  4   | VAT_FINALC      |
+| Organização pública |  5   | VAT_PUBLIO      |
+| Não Aplicável      |  6   | *Não vazio*     |
 
 **VATRateTypeLookup**
 
@@ -196,7 +206,7 @@ Para gerar o relatório do formulário de devolução de IVA no formato do Micro
 2. Na guia **Imposto**, na seção **Opções de imposto**, no campo **Mapeamento de formatos do demonstrativo de IVA**, selecione **Declaração de IVA Excel (EG)**. Se você deixar o campo em branco, o relatório de imposto padrão será gerado no formato SSRS.
 3. Selecione a **Hierarquia de categoria**. Esta categoria habilita o código de mercadoria nas transações da guia comércio exterior para permitir que os usuários selecionem e classifiquem bens e serviços. A descrição dessa classificação é detalhada nos relatórios de transações de venda e de compra. Essa configuração é opcional.
 
-![Formulário de declaração](media/egypt-vat-declaration-setup2.png)
+![Formulário de declaração.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>Gerar um relatório de devolução de IVA

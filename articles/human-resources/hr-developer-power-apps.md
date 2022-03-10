@@ -2,15 +2,12 @@
 title: Estender o Talent com o Power Apps e o Power Automate
 description: Este artigo descreve alguns exemplos de cenários de extensibilidade para o Microsoft Dynamics 365 Human Resources que usam o Microsoft Power Apps e o Microsoft Power Automate.
 author: negudava
-manager: tfehr
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,18 +15,21 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edc2352fa53ac93c582b608b65fc624ff5dcd2a4
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: fedf9b35e5dc8372fd82c6308ec5b1452eab7e8f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467064"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070291"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Estender com o Power Apps e o Power Automate
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este artigo descreve alguns exemplos de cenários de extensibilidade para o Microsoft Dynamics 365 Human Resources que usam o Microsoft Power Apps e o Microsoft Power Automate. Você pode importar o pacote da solução associado a cada exemplo para o seu ambiente do Power Apps. Depois, você pode usar os pacotes como orientação ou como pontos de partida para implementar cenários aplicáveis à sua organização.
 
@@ -41,7 +41,7 @@ Este artigo descreve alguns exemplos de cenários de extensibilidade para o Micr
 - Para importar os pacotes, os usuários devem ter a permissão **Criador de Ambiente**.
 - Para exportar ou importar aplicativos, os usuários devem ter uma licença do plano 2 do Power Apps ou uma licença de avaliação do plano 2 do Power Apps.
 
-## <a name="integration-with-microsoft-365-power-automate"></a>Integração com Microsoft 365, Power Automate
+## <a name="integration-with-microsoft-365-power-automate"></a>Integração com o Microsoft 365, Power Automate
 
 O aplicativo **Integração com o Microsoft 365** pode ser usado para extrair informações da equipe para usuários conectados a partir do Microsoft 365. Ele faz referência a trabalhadores no Human Resources para extrair tipos de identificação de funcionário. Os gerentes podem verificar as datas de vencimento dos tipos de ID do funcionário. Eles também podem enviar um lembrete de email se o tipo de ID do funcionário expirar. O Power Automate integra-se ao Power Apps para enviar este lembrete. A confirmação será devolvida ao Power Apps do Power Automate quando o lembrete for enviado. Os tipos de identificação incluem a carteira do motorista, o passaporte e outros formulários aceitáveis de ID.
 
@@ -61,6 +61,6 @@ Para baixar o modelo **Power Automate — Conectar ao SQL e executar**, acesse [
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[A Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+[A Microsoft Power Platform](/power-platform/admin/admin-documentation)</br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

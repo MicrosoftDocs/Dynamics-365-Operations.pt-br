@@ -2,11 +2,9 @@
 title: Dimensões financeiras e lançamento
 description: Ao planejar e configurar seu plano de contas, você deve considerar como os diversos componentes funcionarão em conjunto quando você lançar um documento ou um diário. Esses componentes incluem estruturas de conta, regras avançadas e dimensões fixas e de balanceamento. Este tópico explica o que cada componente é e como eles funcionam em conjunto.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a6179841259186c8438c72bb4a4f9cd2bf5dbaa8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9e7416c1ed69fa9783694e2adee7ada4e25e14054daeb1761428855690eb522f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778957"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensões financeiras e lançamento 
 
@@ -73,29 +71,29 @@ As pessoas frequentemente têm dúvidas sobre a ordem em que os diversos element
 
 A ilustração a seguir mostra a dimensão padrão fixa configurada na conta principal 401100.
 
-[![Dimensões financeiras padrão](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Dimensões financeiras padrão.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Para este exemplo básico, inseriremos um diário geral em que a dimensão do departamento é configurada para usar o valor padrão **023** (Operações). Inseriremos e lançaremos uma conta contábil. A ilustração a seguir mostra a dimensão financeira padrão no cabeçalho de contabilidade.
 
-[![Diários Gerais](./media/general-journal.png)](./media/general-journal.png)
+[![Diários Gerais.](./media/general-journal.png)](./media/general-journal.png)
 
 A dimensão padrão no cabeçalho do diário fará com que o departamento 023 seja aplicado por padrão à linha da conta de vendas, A ilustração a seguir mostra a linha do diário geral, em que o valor da dimensão padrão **023** do cabeçalho é aplicado.
 
-[![Comprovante de diário](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Comprovante de diário.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 No entanto, quando a linha é lançada, a dimensão fixa é aplicada e a linha é lançada no departamento 022. A ilustração a seguir mostra o comprovante lançado, onde a dimensão fixa é aplicada à conta de vendas.
 
-[![Comprovantes de transações](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Transações de voucher com dimensão fixa aplicada.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Exemplo 2
 
 Este exemplo usa a mesma configuração do primeiro exemplo. No entanto, adicionaremos um segundo componente e usaremos a dimensão Departamento como uma dimensão de balanço. Na ilustração a seguir, o **Departamento** é configurado como a dimensão financeira de balanço do razão USMF.
 
-[![Razão](./media/ledger.png)](./media/ledger.png)
+[![Ilustração mostrando o Departamento como a dimensão financeira de saldo.](./media/ledger.png)](./media/ledger.png)
 
 Quando a mesma configuração do cabeçalho de diário é usada e a mesma transação é lançada, a dimensão fixa é aplicada primeiro. Depois, a lógica de balanço é aplicada para ajudar a garantir que cada departamento tenha uma entrada balanceada. A ilustração a seguir mostra as transações de comprovantes que incluem a entrada de balanceamento depois que a dimensão fixa é aplicada.
 
-[![Comprovantes de transações](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Transações de voucher após a entrada de balanceamento ter sido aplicada.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Exemplo 3
 
@@ -103,11 +101,11 @@ Neste exemplo, adicionaremos uma regra avançada. A regra avançada especifica q
 
 Este exemplo é importante devido à ordem. A estrutura de conta é determinada após a conta principal ser inserida. Se você fizer referência à configuração da estrutura de conta, o sistema poderá determinar que a conta principal, a unidade de negócios, o departamento e o centro de custo são relevantes. Neste ponto, a regra avançada não foi disparada, pois as dimensões fixas não são aplicadas até que as dimensões padrão sejam aplicadas ao comprovante do diário durante o lançamento. Na ilustração a seguir, o segmento Cliente não está presente, pois os critérios para a regra avançada não foram atendidos.
 
-[![Conta contábil](./media/drop-down.png)](./media/drop-down.png)
+[![Conta contábil.](./media/drop-down.png)](./media/drop-down.png)
 
 O lançamento não terá êxito, pois a dimensão fixa foi aplicada no final do processo. A validação da dimensão determina que o segmento Cliente será necessário se a conta principal for 401100 e o departamento for 022. O lançamento não pode ocorrer devido ao erro de validação. A ilustração a seguir mostra a mensagem exibida depois que a validação da dimensão determina que o segmento Cliente é necessário.
 
-[![Detalhes da mensagem](./media/message.png)](./media/message.png)
+[![Detalhes da mensagem.](./media/message.png)](./media/message.png)
 
 Neste exemplo, você deve substituir o valor padrão de forma que a regra avançada seja disparada e você possa inserir o segmento Cliente. No entanto, essa solução não é sempre possível, e alguns usuários desconhecem as regras de lançamento. Portanto, é importante que você compreenda a ordem em que as dimensões padrão são aplicadas quando você configura o plano de contas.
 
@@ -121,8 +119,11 @@ Alguns dos recursos a seguir referem-se a uma versão anterior do nosso software
 
 [Planejar seu plano de contas](plan-chart-of-accounts.md) 
 
-[Planejando o plano de contas no AX 2012 (blog)](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – esse link dá acesso à parte 1 de uma série formada por sete partes.
+[Planejando o plano de contas no AX 2012 (blog)](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – esse link dá acesso à parte 1 de uma série formada por sete partes.
 
-[Padronização de dimensão em distribuições contábeis](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Padronização de dimensão em distribuições contábeis](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Padronização de dimensão na estrutura Dimensões](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Padronização de dimensão na estrutura Dimensões](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: feb6d5751bc22c05dbd2f01f47d5a0f99fca07a0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754719"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069314"
 ---
 # <a name="user-interface-elements"></a>Elementos da interface do usuário
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tópico descreve os elementos da interface do usuário (IU) usados no aplicativo. Para que os usuários possam navegar na interface, é importante saber os nomes e funções dos elementos que constituem a interface.
 
@@ -75,7 +78,7 @@ A seguinte imagem mostra exemplos desses tipos de notificações.
 
 - **Caixa de mensagem** - É exibida na interface e você deve interagir com antes que você possa continuar a usar o produto.  
 
-![A imagem a seguir mostra um exemplo da caixa de mensagens](media/user-interface-07.png)
+![A imagem a seguir mostra um exemplo da caixa de mensagens.](media/user-interface-07.png)
 
 ## <a name="toolbars-grids-and-lists"></a>Barras de ferramentas, grades e listas
 

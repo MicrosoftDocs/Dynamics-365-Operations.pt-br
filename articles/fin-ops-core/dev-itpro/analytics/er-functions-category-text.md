@@ -2,7 +2,7 @@
 title: Lista de funções ER na categoria de texto
 description: Este tópico fornece informações sobre as funções de texto que são compatíveis no relatório eletrônico (ER).
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741005"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075491"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lista de funções ER na categoria de texto
 
@@ -35,12 +35,14 @@ As funções de texto de relatório eletrônico (ER) podem ser usadas para reali
 | [Concatenar](er-functions-text-concatenate.md) | Essa função retorna todas as cadeias de caracteres de texto especificadas como um valor de *Cadeia de caracteres* depois que elas são unidas em uma cadeias de caracteres. |
 | [Formato](er-functions-text-format.md) | Essa função retorna a cadeia de caracteres especificada como um valor de *Cadeia de caracteres* após ela ser formatada, substituindo todas as ocorrências de **%N** pelo *N* º argumento. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Essa função procura um valor de *Enum.* específico na fonte de dados de enumeração especificada usando o nome de enumeração especificado como um valor de *Cadeia de caracteres*. Se o valor *Enum.* for encontrado, a função o retornará. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Esta função pesquisa uma etiqueta específica para retornar um valor de *[Cadeia de caracteres](er-formula-supported-data-types-primitive.md#string)* que representa a tradução da etiqueta especificada no idioma especificado. |
 | [GuidValue](er-functions-text-guidvalue.md) | Essa função converte a entrada especificada do tipo *Cadeia de caracteres* em um item de dados do tipo *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Essa função analisa os dados no formato JSON (JavaScript Object Notation) que são acessados no caminho especificado e extrai um valor escalar baseado na ID especificada. Em seguida, ela retorna o valor escalar extraído como um valor de *Cadeia de caracteres*. |
 | [Esquerdo](er-functions-text-left.md) | Essa função retorna um valor de *Cadeia de caracteres* que apresenta o número de caracteres especificado a partir do início da cadeia de caracteres especificada. |
 | [Len](er-functions-text-len.md) | Essa função retorna um valor *Inteiro* que representa o número de caracteres na cadeia de caracteres específica. |
 | [Lower](er-functions-text-lower.md) | Essa função retorna a cadeia de caracteres de texto especificada como um valor de *Cadeia de caracteres* após ser convertida em letras minúsculas. |
-| [Mid](er-functions-text-mid.md) | Essa função retorna um valor de *Cadeia de caracteres* que apresenta o número de caracteres especificado da cadeia de caracteres especificada, a partir da posição especificada. |
+| [Mid](er-functions-text-mid.md) | Essa função retorna um valor de *[Cadeia de caracteres](er-formula-supported-data-types-primitive.md#string)* que apresenta o número de caracteres especificado da cadeia de caracteres especificada, a partir da posição especificada. |
+| [NewGUID](er-functions-text-newguid.md) | Esta função retorna um valor *[GUID](er-formula-supported-data-types-primitive.md#guid)* gerado recentemente. |
 | [NumberFormat](er-functions-text-numberformat.md) | Essa função retorna um valor de *Cadeia de caracteres* que apresenta o número especificado no formato especificado e em uma cultura opcionalmente especificada. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Essa função retorna o número especificado como um valor de *Cadeia de caracteres* após ele ser soletrado (ou seja, convertido em cadeias de caracteres de texto) no idioma especificado. |
 | [PadLeft](er-functions-text-padleft.md) | Essa função retorna um valor de *Cadeia de caracteres* do tamanho especificado, em que o início da cadeia de caracteres especificada é preenchido com uma ou mais instâncias dos caracteres especificados. |

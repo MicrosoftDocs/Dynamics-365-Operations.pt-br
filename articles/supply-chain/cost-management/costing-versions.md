@@ -2,29 +2,28 @@
 title: Visão geral de versões de avaliação de custo
 description: Este artigo fornece informações sobre versões de custos, como mantê-las e os tipos de dados que podem estar incluídos nelas. A finalidade principal de uma versão de custo é conter registros de custo sobre itens, categorias de custo e fórmulas de cálculo para custos indiretos.
 author: AndersGirke
-manager: tfehr
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 54532
+ms.custom:
+- "54532"
+- intro-internal
 ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cefee7d678789f462eedbf9f9a3fbc9b591e25a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27ad1f1d8ae60eef5607bafb9aaf9604784099e4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422472"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983088"
 ---
 # <a name="costing-versions-overview"></a>Visão geral de versões de avaliação de custo
 
@@ -68,3 +67,6 @@ Os registros de preço de compra de itens também são usados para informações
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
 title: Planejar cargas e remessas usando a Bancada de planejamento de carga
 description: Este tópico mostra como usar a bancada de planejamento de carga para criar uma carga para uma ordem de venda.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4fdff8bdc383a85d604fa6e545c625d5782241f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d641ece709d36d8f3ee29cde47918154835a5bb9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976804"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572928"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Planejar cargas e remessas usando a Bancada de planejamento de carga
 
@@ -31,7 +29,7 @@ Este tópico mostra como usar a bancada de planejamento de carga para criar uma 
 
 
 ## <a name="create-a-sales-order"></a>Criar uma ordem de venda
-1. Vá para o **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
+1. Acesse o **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. No campo **Conta do cliente**, selecione o botão suspenso para abrir a pesquisa.
 4. Selecione a conta **US-004**.
@@ -45,7 +43,7 @@ Este tópico mostra como usar a bancada de planejamento de carga para criar uma 
 12. Feche a página.
 
 ## <a name="create-a-new-load"></a>Criar uma nova carga
-1. Vá para o **Painel de navegação > Módulos > Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga**.
+1. Acesse o **Painel de navegação > Módulos > Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga**.
 2. Selecione a guia **Linhas de vendas**. Agora você irá montar a carga para a ordem de venda que você acabou de criar. Cargas podem ser montadas de acordo com a oferta e procura das ordens de compra, ordens de transferência, e ordens de venda.  
 3. No Painel de Ação, selecione **Oferta e demanda**.
 4. Selecione **Para nova carga**.
@@ -60,3 +58,6 @@ Este tópico mostra como usar a bancada de planejamento de carga para criar uma 
 5. Selecionar **Atribuir**.
 6. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

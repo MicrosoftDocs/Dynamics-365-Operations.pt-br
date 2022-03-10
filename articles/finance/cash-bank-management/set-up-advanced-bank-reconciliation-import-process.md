@@ -2,11 +2,9 @@
 title: Configurar o processo de importação de reconciliação bancária avançada
 description: O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 Finance. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70a12148ca324e1e7e1f90d29d46f68cb4144438
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f0efe960bee8f5c2c0b683ad641379345ce6d470180d29893b373acc6e1de8aa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995306"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726029"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar o processo de importação de reconciliação bancária avançada
 
@@ -67,20 +65,20 @@ Para os três formatos, você deve ter os arquivos que convertem o extrato banc�
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Exemplos de formatos de extrato bancário e layouts técnicos
-Estes são exemplos das definições avançadas de layout técnico do arquivo de importação de reconciliação bancária e três arquivos de exemplo de extrato bancário relacionados: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Estes são exemplos das definições avançadas de layout técnico do arquivo de importação de reconciliação bancária e três arquivos de exemplo de extrato bancário relacionados: [Exemplos de arquivo de importação](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
 
 | Definição do layout técnico                             | Arquivo de exemplo de extrato bancário          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| DynamicsAXMT940Layout                                   | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)                |
+| DynamicsAXISO20022Layout                                | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout                                    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)                 |
 
 
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Configurar a importação de extratos bancários ISO20022
 Primeiro, você deve definir o grupo de processamento de formato do extrato bancário para extratos bancários ISO20022 utilizando a estrutura de entidade de dados.
 
-1.  Vá para **Espaços de trabalho** &gt; **Gerenciamento de dados**.
+1.  Acesse **Espaços de trabalho** &gt; **Gerenciamento de dados**.
 2.  Clique em **Importar**.
 3.  Insira um nome para o formato, como **ISO20022**.
 4.  Defina o campo **Formato do dado fonte** para **XML-Element**.
@@ -96,7 +94,7 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 
 Assim que o grupo de processamento do formato for configurado, a próxima etapa é definir as regras de formato do extrato bancário para extratos bancários ISO20022.
 
-1.  Vá para **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
+1.  Acesse **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
 2.  Clique em **Novo**.
 3.  Especifique um formato de extrato, tal como **ISO20022**.
 4.  Digite um nome para o formato.
@@ -105,7 +103,7 @@ Assim que o grupo de processamento do formato for configurado, a próxima etapa 
 
 A última etapa é habilitar a Reconciliação bancária avançada e definir o formato do extrato na conta bancária.
 
-1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
+1.  Acesse **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária, e abra-a para exibir os detalhes.
 3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada** para **Sim**.
 4.  Defina o campo **Formato do extrato** como o formato criado anteriormente, tal como **ISO20022**.
@@ -113,7 +111,7 @@ A última etapa é habilitar a Reconciliação bancária avançada e definir o f
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Configurar a importação de extratos bancários MT940
 Primeiro, você deve definir o grupo de processamento de formato do extrato bancário para extratos bancários MT940 utilizando a estrutura de entidade de dados.
 
-1.  Vá para **Espaços de trabalho** &gt; **Gerenciamento de dados**.
+1.  Acesse **Espaços de trabalho** &gt; **Gerenciamento de dados**.
 2.  Clique em **Importar**.
 3.  Insira um nome para o formato, como **MT940**.
 4.  Defina o campo **Formato do dado fonte** para **XML-Element**.
@@ -131,7 +129,7 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 
 Assim que o grupo de processamento do formato for configurado, a próxima etapa é definir as regras de formato do extrato bancário para extratos bancários MT940.
 
-1.  Vá para **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
+1.  Acesse **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
 2.  Clique em **Novo**.
 3.  Especifique um formato de extrato, tal como **MT940**.
 4.  Digite um nome para o formato.
@@ -140,7 +138,7 @@ Assim que o grupo de processamento do formato for configurado, a próxima etapa 
 
 A última etapa é habilitar a Reconciliação bancária avançada e definir o formato do extrato na conta bancária.
 
-1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
+1.  Acesse **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária, e abra-a para exibir os detalhes.
 3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada** para **Sim**.
 4.  Quando for solicitada a confirmação e permissão para habilitar a Reconciliação bancária avançada, clique em **OK**.
@@ -149,7 +147,7 @@ A última etapa é habilitar a Reconciliação bancária avançada e definir o f
 ## <a name="set-up-the-import-of-bai2-bank-statements"></a>Configurar a importação de extratos bancários BAI2
 Primeiro, você deve definir o grupo de processamento de formato do extrato bancário para extratos bancários BAI2 utilizando a estrutura de entidade de dados.
 
-1.  Vá para **Espaços de trabalho** &gt; **Gerenciamento de dados**.
+1.  Acesse **Espaços de trabalho** &gt; **Gerenciamento de dados**.
 2.  Clique **Importar**.
 3.  Insira um nome para o formato, como **BAI2**.
 4.  Defina o campo **Formato do dado fonte** para **XML-Element**.
@@ -167,7 +165,7 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 
 Assim que o grupo de processamento do formato for configurado, a próxima etapa é definir as regras de formato do extrato bancário para extratos bancários BAI2.
 
-1.  Vá para **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
+1.  Acesse **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
 2.  Clique em **Novo**.
 3.  Especifique um formato de extrato, tal como **BAI2**.
 4.  Digite um nome para o formato.
@@ -176,7 +174,7 @@ Assim que o grupo de processamento do formato for configurado, a próxima etapa 
 
 A última etapa é habilitar a Reconciliação bancária avançada e definir o formato do extrato na conta bancária.
 
-1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
+1.  Acesse **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária, e abra-a para exibir os detalhes.
 3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada** para **Sim**.
 4.  Quando for solicitada a confirmação e permissão para habilitar a Reconciliação bancária avançada, clique em **OK**.
@@ -185,7 +183,7 @@ A última etapa é habilitar a Reconciliação bancária avançada e definir o f
 ## <a name="test-the-bank-statement-import"></a>Testar o arquivo de importação de extrato bancário
 A etapa final é testar se é possível importar seu extrato bancário.
 
-1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
+1.  Acesse **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária para a qual a funcionalidade Reconciliação bancária avançada está ativada.
 3.  Na guia **Reconciliar**, clique em **Extratos bancários**.
 4.  Na página **Extrato bancário**, clique em **Importar extrato**.
@@ -198,3 +196,6 @@ Se a importação for bem-sucedida, você receberá uma mensagem informando que 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

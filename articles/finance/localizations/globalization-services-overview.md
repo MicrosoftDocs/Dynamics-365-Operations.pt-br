@@ -3,7 +3,7 @@ title: Serviços de globalização do Dynamics 365
 description: Este tópico oferece uma visão geral de serviços de globalização do Microsoft Dynamics 365.
 author: JaneA07
 ms.date: 04/12/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization, Electronic invoicing, Tax calculation
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 3fa4d5ea028e4b8bb0981674db2743df40348a9a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 1dfe88bf6eb0cf479f8febd8a599b165b71d932d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336599"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985982"
 ---
 # <a name="dynamics-365-globalization-services"></a>Serviços de globalização do Dynamics 365
 

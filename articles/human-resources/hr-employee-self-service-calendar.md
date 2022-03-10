@@ -1,37 +1,39 @@
 ---
 title: Criar um calendário de equipe
 description: Exibir e criar calendários de equipe no Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: 8ee39f35f9d81f47c5438ddf48451d24ab0c0ed3
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4417371"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065243"
 ---
 # <a name="view-team-and-company-calendars"></a>Exibir calendários da equipe e da empresa
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Você pode exibir calendários da equipe e da empresa no Dynamics 365 Human Resources. Os calendários de equipe só exibem os relatórios diretos, conforme definido na hierarquia de linhas.
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Exibir o calendário da equipe como um funcionário
 
-1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Calendário de ausências da equipe** em **Resumo**.
+- No espaço de trabalho **Autoatendimento para funcionários**, selecione **Calendário de ausências da equipe** em **Resumo**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Exibir o calendário da equipe como um gerente
 
@@ -40,6 +42,21 @@ Você pode exibir calendários da equipe e da empresa no Dynamics 365 Human Reso
 2. Selecione **Licença e ausência** e depois **Exibir calendário de ausências do gerente**.
 
 Os gerentes também podem acessar o calendário da equipe de **Solicitações de licença pendentes de minha equipe**, **Licença aprovada** e **Solicitações de licença**. 
+
+## <a name="view-your-absence-manager-calendar-as-the-absence-manager"></a>Exibir o calendário do gerente de ausências como gerente de ausências
+
+> [!NOTE]
+> Para exibir o calendário do gerente de ausências, é necessário primeiro ativar o recurso **(Versão preliminar) Gerente de ausências para gerenciar a licença** no Gerenciamento de recursos. Para obter mais informações sobre como ativar a versão prévia dos recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
+
+Os usuários na função Gerente de ausências podem exibir solicitações de folga no calendário. Siga estas etapas para acessar o calendário de licenças.
+
+1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Gerenciamento de licenças** e **Calendário do gerente de ausências**.
+
+2. No campo **Data**, insira as datas desejadas.
+
+3. Atualize as opções de exibição, conforme necessário.
+
+O calendário do gerente de ausências mostra todos os registros dos funcionários subordinados ao gerente de ausências na hierarquia de licenças.
 
 ## <a name="view-a-company-calendar"></a>Exibir um calendário da empresa
 
@@ -61,14 +78,15 @@ Os calendários agora contêm filtros e opções adicionais. Todos os calendári
 - Solicitações de folga 
 - Solicitações de licença
 
-A configuração de calendário em parâmetros de licença e ausência determinará as opções de exibição disponíveis.
+A configuração de calendário na página **Parâmetros de licença e ausência** determina as opções de exibição disponíveis.
 
 Também é possível filtrar calendários por gerente ou departamento. A atribuição de posição principal determina os funcionários exibidos quando esses filtros são definidos. 
 
->[!IMPORTANT]
->A exibição de licenças e ausências em empresas está no momento em versão prévia. Você precisará habilitá-la no ambiente **Área restrita**. Para obter mais informações sobre as versões prévias do recurso, consulte [Gerenciar recursos](hr-admin-manage-features.md).<br><br>
->Em seguida, você deve habilitar o recurso em **Parâmetros compartilhados de recursos humanos** para exibir o filtro da entidade legal em calendários. Para obter mais informações, consulte [Configurar parâmetros de licença e ausência](hr-leave-and-absence-parameters.md).<br><br>
->Você pode filtrar o calendário por entidade legal. Se você deseja ver todos os funcionários independentemente da entidade legal, desmarque a caixa de filtro e selecione Inserir. 
+> [!IMPORTANT]
+> Você pode ativar o recurso **Exibição de licença entre empresas** no Gerenciamento de recursos. Em seguida, é necessário habilitar o recurso na página **Parâmetros compartilhados de recursos humanos** para mostrar o filtro da entidade legal em calendários. Para obter mais informações, consulte [Configurar parâmetros de licença e ausência](hr-leave-and-absence-parameters.md).
+> 
+> Você pode filtrar o calendário por entidade legal. Para exibir todos os funcionários, independentemente da entidade legal, limpe o campo de filtro e selecione **Inserir**. 
 
 Para obter informações sobre configurações de calendário, consulte [Configurar parâmetros de calendário](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

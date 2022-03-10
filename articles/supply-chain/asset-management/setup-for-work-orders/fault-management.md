@@ -1,12 +1,10 @@
 ---
 title: Gerenciamento de falhas
 description: Este tópico explica o gerenciamento de falhas no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f996921ccac0b3c85ecea2460cb9e4614f8c04
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 149d4fc8026a2a1878155d2b708cf3a79dd0e5af966db4e7f9339d8ca582da70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711944"
 ---
 # <a name="fault-management"></a>Gerenciamento de falhas
 
@@ -108,7 +106,7 @@ No designer de falhas, você configura os dados das falhas nos tipos de ativos.
 
 7. Selecione **Salvar** para salvar as alterações.
 
-![Página do designer de falha](media/21-setup-for-work-orders.png)
+![Página do designer de falha.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Criar causas de falha
 

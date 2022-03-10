@@ -1,25 +1,23 @@
 ---
 title: Sincronizar data e hora em trabalhos de importação
 description: Use fusos horários UTC em trabalhos de importação para evitar problemas com conversões de fuso horário.
-author: Sunil-Garg
-manager: tfehr
+author: peakerbl
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae04b09a68e64d6d70c0329e689ab08c3903fca0
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798710"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403832"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Sincronizar data e hora em trabalhos de importação
 
@@ -35,8 +33,11 @@ Essa conversão dupla causa a alteração de datas entre os aplicativos. Por exe
 
 3. Em **Formato da data de origem**, selecione **CSV-Unicode**.
 
-   [![Alterar o formato da data de origem para UTC](./media/data-source-date-format.png)](./media/data-source-date-format.png)
+   [![Alterar o formato da data de origem para UTC.](./media/data-source-date-format.png)](./media/data-source-date-format.png)
 
 4. Altere o **Fuso horário** para o **Tempo Universal Coordenado** e altere o **Idioma** para **En-US**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

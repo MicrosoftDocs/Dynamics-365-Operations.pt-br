@@ -1,12 +1,10 @@
 ---
 title: Trabalhos de manutenção da ordem de serviço agendados
 description: Este tópico explica os trabalhos de manutenção de ordem de serviço agendados no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c8cea81d27f1671b54c4947b05bbc387667247c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 077ea3c122086ec0f06722f8f166f057ffa36ec60ec55da334c9b563210b362b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263797"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748024"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Trabalhos de manutenção da ordem de serviço agendados
 
@@ -49,7 +47,7 @@ A página **Trabalhos de manutenção de ordens de serviço agendadas** mostra u
 
 A captura de tela abaixo mostra um exemplo da página **Trabalhos de manutenção de ordens de serviço agendadas**.
 
-![Figura 1](media/07-work-order-scheduling.png)
+![Figura 1.](media/07-work-order-scheduling.png)
 
 
 

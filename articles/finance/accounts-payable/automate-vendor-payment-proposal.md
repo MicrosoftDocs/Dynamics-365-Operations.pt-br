@@ -2,11 +2,9 @@
 title: Automatizar propostas de pagamento de fornecedor
 description: Este tópico explica como as organizações que pagam fornecedores em uma agenda recorrente podem automatizar o processo de geração de propostas de pagamento de fornecedor.
 author: kweekley
-manager: AnnBe
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d6a53b2cb48856083f3b2e40fca8adb92f4e5113
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250641"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966706"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizar propostas de pagamento de fornecedor
 
@@ -34,6 +32,9 @@ Organizações que pagam fornecedores em uma agenda recorrente agora podem autom
 - O diário de pagamentos do fornecedor em que os pagamentos resultantes são salvos
 
 As automatizações de proposta de pagamento não lançam automaticamente os pagamentos. Portanto, você pode continuar a usar qualquer validação e processo de fluxo de trabalho utilizada atualmente para aprovar os pagamentos que são criados.
+
+> [!NOTE]
+> O recurso **Automação de proposta de pagamento de fornecedor** deve estar habilitado no gerenciamento de recursos para a utilização dessa funcionalidade. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Definir a ocorrência de propostas de pagamento de fornecedor
 
@@ -99,11 +100,11 @@ Recomendamos que você avalie se a automação será benéfica para sua organiza
 
 Depois que a série de automação da proposta de pagamento do fornecedor é criada, as ocorrências para cada pagamento são mostradas na exibição semanal da automação de processo. Para pagamentos de fornecedor, a exibição semanal do processo de automação foi adicionada ao espaço de trabalho **Pagamentos do fornecedor** e à página **Automação de processo**.
 
-[![Exibição semanal da automação do processo no espaço de trabalho de pagamentos de fornecedor](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Exibição semanal da automação do processo no espaço de trabalho de pagamentos de fornecedor.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 A exibição semanal do processo de automação no espaço de trabalho **Pagamentos do fornecedor** mostra somente as automações da proposta de pagamento do fornecedor. Ele mostra todas as ocorrências de pagamentos da semana atual, para todas as entidades legais às quais o usuário conectado tem permissões de segurança. Por exemplo, se o auxiliar de pagamento do AP for responsável por pagamentos nas empresas USMF e USSI, ele verá as ocorrências da automação da proposta de pagamento do fornecedor para essas duas empresas, mas não para outras empresas.
 
-[![Exibição semanal de automação de processos para as empresas USMF e USSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![Exibição semanal de automação de processos para as empresas USMF e USSI.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Cada ocorrência mostra a empresa em que o diário de pagamentos foi ou será criado. Se os pagamentos forem criados usando pagamentos centralizados, a empresa que mostrada será a empresa na qual os pagamentos serão criados. A ocorrência não mostra, necessariamente, quais faturas de empresas serão pagas.
 

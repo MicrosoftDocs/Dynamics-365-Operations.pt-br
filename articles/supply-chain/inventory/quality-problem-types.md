@@ -1,12 +1,10 @@
 ---
 title: Tipos de problema para não conformidades
 description: Este tópico descreve como criar e usar tipos de problema para não conformidades.
-author: rachel-profitt
-manager: tfehr
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventProblemType, InventProblemTypeSetup
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df509365f5c900898921acfbda380b5e20c7a251
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956554"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568798"
 ---
 # <a name="problem-types-for-nonconformances"></a>Tipos de problema para não conformidades
 
@@ -54,7 +52,7 @@ Veja alguns exemplos de cenários de tipos de problema que podem ser usados com 
 
 ## <a name="create-a-problem-type-and-assign-it-to-nonconformance-types"></a>Criar um tipo de problema e atribuí-lo a tipos de não conformidade
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Tipos de problema**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Tipos de problema**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Tipo de problema** – Insira um nome ou uma ID exclusiva para o tipo de problema.

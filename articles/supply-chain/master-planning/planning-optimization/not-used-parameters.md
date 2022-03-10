@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: eb7e1b4e6df2c514b55ec101c0edf22590041628
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
+ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645749"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087490"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parâmetros não usados pela Otimização de Planejamento
 
@@ -60,7 +60,7 @@ A Otimização de Planejamento não usa os seguintes parâmetros ou opções na 
 
 - Guia Rápida **Geral**:
 
-  - **Dias positivos** – Suporte a *Dias positivos* pendente.
+  - **Dias positivos** – o valor *Dias positivos* não é usado. Com a Otimização de Planejamento, os dias positivos são considerados infinitos.
   - **Consumir estoque disponível** – Suporte a *Consumo do estoque disponível* pendente.
   - **Usar a versão da BOM ou da fórmula especificada** – Suporte a *Versões de fórmula com Coproduto/Subproduto* pendente.
   - **Usar a versão de roteiro especificada** – Suporte a *Demanda pendente com requisitos específicos de BOM ou de roteiro definidos*.
@@ -160,6 +160,10 @@ A Otimização de Planejamento não usa os seguintes parâmetros ou opções na 
   - **Adicionar o atraso calculado à data da necessidade** (na seção **Ordens de produção planejadas**) – Suporte a *Atrasos calculados* pendente.
   - **Adicionar o atraso calculado à data da necessidade** (na seção **Transferência planejada**) – Suporte a *Atrasos calculados* pendente.
   - **Adicionar o atraso calculado à data da necessidade** (na seção **Kanban planejado**) – Suporte a *Atrasos calculados* pendente.
+
+- FastTab **Mensagem de ação**:
+
+  - **Atualizar data adiada como data da requisição** - este parâmetro é descontinuado com Otimização de Planejamento.
 
 - Guia rápida **Sequenciamento**:
 

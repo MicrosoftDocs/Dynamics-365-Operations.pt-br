@@ -1,7 +1,7 @@
 ---
 title: Criar uma hierarquia de classificação de produto
 description: Este procedimento mostra como criar uma nova hierarquia de categoria e atribuir um tipo da hierarquia de código de mercadoria.
-author: ShylaThompson
+author: t-benebo
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, 
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d4e2fdc62d7faa73efa78092d7754d3fa1213a94
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fb561647efcc21a8287d8246024fb468b8a79a71
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809365"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567094"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Criar uma hierarquia de classificação de produto
 
@@ -28,7 +28,7 @@ Este procedimento mostra como criar uma nova hierarquia de categoria e atribuir 
 
 
 ## <a name="create-the-new-category-hierarchy"></a>Criar a nova hierarquia de categoria
-1. Vá para **Painel de navegação > Módulos > Gerenciamento de informações sobre produtos > Configuração > Categorias e atributos > Hierarquias de categoria**.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de informações sobre produtos > Configuração > Categorias e atributos > Hierarquias de categoria**.
 2. Clique em **Novo**.
 3. No campo **Nome**, digite um valor.
 4. No campo **Descrição**, digite um valor.

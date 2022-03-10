@@ -2,7 +2,7 @@
 title: O que há de novo ou mudou no aplicativo móvel Warehouse Management
 description: Este tópico lista os recursos novos e alterados para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 09/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,58 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901879"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067242"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>O que há de novo ou mudou no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20150"></a>Versão 2.0.15.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Desempenho melhorado com a correção de um problema de vazamento de memória.
+- Corrigido um problema em que alguns valores de campo não foram atualizados corretamente quando selecionado na página de detalhes.
+
+## <a name="version-20140"></a>Versão 2.0.14.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Correção de um problema que desabilitava o botão Enviar padrão.
+
+## <a name="version-20130"></a>Versão 2.0.13.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+ 
+- Melhoria da rolagem entre páginas com animação mais suave.
+- Correção de respostas contra-intuitivas fixas para passar movimentos e congelamentos ocasionais de tela.
+- Combinações aprimoradas de cores de texto e plano de fundo do modo escuro para melhorar a fluência.
+- Correção de um problema em que alguns textos poderiam se tornar muito pequenos ao redimensionar a janela do aplicativo.
+- Correção de um problema que às vezes faz com que o aplicativo falhe ao ler códigos de barras.
+- Adição da possibilidade de substituir um controle deslizante por um botão.
+- Correção de um problema que pode fazer com que o aplicativo mostre a mensagem de erro: "AADSTS7000215: segredo do cliente inválido fornecido".
+- Correção da animação com uma dica mostrando como fechar uma página usando um gesto de deslizar para baixo.
+- Adição da possibilidade de fechar uma página usando um gesto de movimento para baixo.
+- Correção de um problema em que os títulos de lista suspensa não eram exibidos na página **Configurações do usuário**.
+- Correção de um problema de localização em que o aplicativo não reconheceria uma vírgula (,) como um separador decimal.
+- Acessibilidade aprimorada.
+- Correção da navegação na página **Nova conexão** para fornecer acessibilidade aprimorada.
+- Correção de um problema em que o teclado de software (na tela) não aparecia ao selecionar um campo de entrada.
+- Correção de um problema que poderia travar o aplicativo se os usuários redimensionassem a janela rapidamente.
+- Correção de um problema em que uma tecla rápida foi, às vezes, interpretada como um aperto longo.
+- Correção de um problema em que o layout do aplicativo pode ser corrompido devido a personalizações de campo feitas no Supply Chain Management.
+- Correção de um problema em que os locais dos itens não eram exibidos corretamente.
+- Correção de um problema relacionado à separação curta do fluxo de trabalho da grade de produto.
+- Remoção da validação desnecessária de campos que contêm valores predefinidos padrão.
+- Desempenho aprimorado.
+- Adição de uma nova configuração que permite que os usuários escolham como os campos são filtrados e classificados na página do cartão.
 
 ## <a name="version-20110"></a>Versão 2.0.11.0
 

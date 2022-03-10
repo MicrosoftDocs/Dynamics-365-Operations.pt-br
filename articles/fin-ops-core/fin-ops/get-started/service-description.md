@@ -2,19 +2,19 @@
 title: Descrição do serviço para aplicativos do Finance and Operations
 description: Este tópico fornece a descrição de serviço para aplicativos do Finance and Operations.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825391"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952357"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrição do serviço para aplicativos do Finance and Operations
 
@@ -117,7 +117,7 @@ Os aplicativos do Finance and Operations são servidos de várias regiões do Az
 ### <a name="countryregion-specific-considerations"></a>Considerações específicas do país/região
 
 - Os clientes em organizações reguladas no setor ou comercial que fazem negócios com entidades na França que exigem dados de residência local devem revisar o [Finance and Operations na França](../../dev-itpro/deployment/france-local-deployment.md).
-- Os clientes com operações na China devem revisar o [Finance and Operations operado pela 21Vianet na China](../../dev-itpro/deployment/china-local-deployment.md).
+- Os clientes com operações na China devem revisar o [Azure China Playbook](/azure/china/) e o [Finance and Operations operado pela 21Vianet na China](../../dev-itpro/deployment/china-local-deployment.md).
 - Os clientes com operações na Rússia devem revisar a [Legislação de localização de dados pessoais na Rússia](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Regulamento Geral sobre a Proteção de Dados (GDPR)
@@ -314,9 +314,9 @@ Os planos e procedimentos de Recuperação de Desastre da Microsoft são examina
 | A Microsoft provisiona um ambiente secundário no datacenter emparelhado do Azure quando a instância de produção principal é implantada. Para obter mais informações, consulte [BCDR (continuidade dos negócios e recuperação de desastre: regiões emparelhadas do Azure)](/azure/best-practices-availability-paired-regions). | Nenhuma |
 | A Microsoft permite a redundância geográfica do Armazenamento de Blobs do Azure e do SQL do Azure quando a instância de produção principal é implantada. | Nenhuma |
 | A Microsoft permite o backup automático nos bancos de dados SQL do Azure. | Nenhuma |
-| <p>Quando ocorre uma interrupção, a Microsoft determina se um failover deve ser realizado para o cliente e se haverá perda de dados. A perda de dados pode ser de até cinco segundos. Para obter mais informações, consulte [Restauração de localização geográfica do banco de dados SQL do Azure](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>No caso de perda de dados, a Microsoft solicitará a aprovação do cliente para um failover.</p> | No caso de perda de dados, o cliente poderá ter de fornecer uma aprovação por escrito para disparar o failover. |
+| <p>Quando ocorre uma interrupção, a Microsoft determina se um failover deve ser realizado para o cliente e se haverá perda de dados. Os clientes podem ter problemas de perda de dados por até 15 minutos, dependendo da natureza e do tempo da interrupção. | No caso de perda de dados, talvez o cliente tenha que fornecer uma aprovação por escrito para disparar o failover. |
 | Quando ocorrer um failover, o serviço aplicável funcionará no modo limitado. A manutenção da atualização não poderá ser disparada no modo de failover. | O cliente não poderá solicitar implantações de pacotes ou outras solicitações de manutenção regulares no modo de failover. |
-| Quando o datacenter tornar-se operacional, a Microsoft reverterá a instância de produção na região principal do Azure. As operações normais serão retomadas. | O cliente poderá ter de fazer logoff no failback para a instância de produção na região principal do Azure. |
+| Quando o datacenter tornar-se operacional, a Microsoft reverterá a instância de produção na região principal do Azure. As operações normais serão retomadas. | Talvez o cliente tenha que fazer a aprovação no failback para a instância de produção na região principal do Azure. |
 
 ## <a name="finance-and-operations-support-offerings"></a>Ofertas de suporte do Finance and Operations
 
@@ -356,6 +356,7 @@ A Microsoft está comprometida com uma taxa de disponibilidade de 99,9% por mês
 - **[Guia de licenciamento](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – use este guia para saber mais sobre como licenciar o Dynamics 365.
 - **[Suporte ao cliente](https://dynamics.microsoft.com/support/)** – obtenha o suporte líder do setor para seus aplicativos Dynamics 365.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** – gerencie seu ciclo de vida de aplicativos e obtenha implementações previsíveis, reproduzíveis e de alta qualidade.
+- **[Guia de Implementação do Dynamics 365](https://aka.ms/D365ImplementationGuideFlip)** - O Guia de Implementação do Dynamics 365 documenta os princípios do Success by Design testados por tempo e fornece uma orientação prescritiva para arquitetar, criar, testar e implantar soluções do Dynamics 365.
 
 ## <a name="definitions"></a>Definições
 
@@ -428,6 +429,10 @@ O SLA se aplica aos serviços online da Microsoft. Para obter mais informações
 ### <a name="service-update"></a>Atualização de serviço
 
 Os ambientes do Finance and Operations de serviços Microsoft em uma base consistente por meio de atualizações de serviço. Os clientes definem seu próprio calendário de atualização de serviço, com base nas necessidades comerciais. Para obter informações, consulte [Atualizações do serviço One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+A estrutura que orienta sistematicamente uma implementação por meio de uma série de avaliações em estágios críticos para garantir a ótima arquitetura, a segurança, o desempenho e a experiência do usuário para uma solução do Dynamics 365.
 
 ### <a name="user"></a>Usuário
 

@@ -11,14 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ffee79f152141297ceb24e2d7a40523eac18ffaf
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: 85167e3de5f586c341143a43412501377a6c689e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129744"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570888"
 ---
 # <a name="production-planning"></a>Planejamento de produção
+
+[!include [banner](../../includes/banner.md)]
 
 A Otimização de Planejamento oferece suporte a vários cenários de produção. Se você estiver migrando do mecanismo de planejamento principal integrado já existente, é importante estar ciente de alteração no comportamento.
 

@@ -3,7 +3,7 @@ title: Visão geral do módulo de gerenciamento de reembolso
 description: Este tópico fornece uma visão geral do módulo de gerenciamento de reembolso para o Microsoft Dynamics 365 Supply Chain Management.
 author: sherry-zheng
 ms.date: 02/19/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -12,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 75311e137df522c476b938f660b8305004396137
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271044"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985487"
 ---
 # <a name="rebate-management-module-overview"></a>Visão geral do módulo de gerenciamento de reembolso
 
@@ -90,10 +90,9 @@ Os usuários não precisam mais lidar com acordos ou provisões em duas etapas. 
 
 Quando os reembolsos são calculados, o processo cria transações que podem ser analisadas antes do lançamento. Um processo separado lança transações de gerenciamento reembolso. Em seguida, é possível criar um diário, uma nota de crédito ou uma transação de débito durante o lançamento das transações propostas. É possível obter instruções de relatório e listagens de transações para garantir a conformidade, a eficácia e a transparência.
 
-
 ## <a name="guaranteed-royalty-payments"></a>Pagamentos de royalties garantidos
 
-No gerenciamento de reembolsos, a geração automática de pagamento permite que royalties sejam tratados de modo rápido e fácil, mesmo quando a garantia mínima se aplica. 
+No gerenciamento de reembolsos, a geração automática de pagamento permite que royalties sejam tratados de modo rápido e fácil, mesmo quando a garantia mínima se aplica.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Maximização de gastos x reembolsos
 

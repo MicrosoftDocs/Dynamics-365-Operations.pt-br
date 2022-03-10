@@ -1,7 +1,7 @@
 ---
 title: Instalar, configurar e atualizar o portal do cliente
 description: Este tópico oferece detalhes de licenciamento e instruções de configuração para o portal do cliente.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
@@ -9,19 +9,20 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ff23d57a155d79b34074b4c13c8ec9c51fa54e37609d0d8920550bdf3eeb98a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755194"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060603"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Instalar, configurar e atualizar o portal do cliente
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 ## <a name="licensing-requirements"></a>Requisitos de licenciamento
 
@@ -40,7 +41,7 @@ Diferente de outros recursos do Supply Chain Management, o modelo de portal do c
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Configuração necessária para habilitar o portal do cliente
 
-Após verificar que tem as licenças necessárias, você pode configurar a gravação dupla, conforme descrito nas [instruções de sincronização inicial de gravação dupla](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
+Após verificar que tem as licenças necessárias, você pode configurar a gravação dupla, conforme descrito nas [instruções de sincronização inicial de gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
 Certifique-se de habilitar os seguintes mapeamentos de tabela em gravação dupla:
 

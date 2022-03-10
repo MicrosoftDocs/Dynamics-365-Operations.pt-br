@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b9d072914b5effdd733ec2c18e4ada877f932ba8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
+ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350151"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8313558"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Use um caminho relativo em associações de dados de modelos e formatos de ER
 
@@ -26,8 +26,8 @@ ms.locfileid: "6350151"
 
 A ferramenta ER (relatório eletrônico) permite que usuários definam estruturas em formato eletrônico e descrevam como essas estruturas devem ser preenchidas com dados e algoritmos existentes no aplicativo. Para obter mais informações, consulte [Criar configurações do ER (relatório eletrônico)](electronic-reporting-configuration.md). Para especificar o fluxo de dados para recuperar dados do Finance and Operations e usá-los para gerar um documento eletrônico, você precisa fazer o seguinte:
 
-- Associar fontes de dados configurados para elementos do [modelo de dados](general-electronic-reporting.md#data-model-and-model-mapping-components) específico do domínio criado. A estrutura de modelo e as fontes de dados selecionadas podem ser parte de uma estrutura hierárquica complexa. Por causa disso, as associações finais podem ser grandes o suficiente e conter muitos elementos de tipos diferentes (por exemplo, relações, tabelas e métodos). As associações podem ficar menos legíveis e mais complexas para examinar e entender, especialmente para não proprietários. 
-- Associe elementos do modelo de dados com componentes de [formato](general-electronic-reporting.md#FormatComponentOutbound) para definir quais dados serão preenchidos do modelo de dados para a saída do formato gerado.
+- Associar fontes de dados configurados para elementos do modelo de dados específico do domínio criado. A estrutura de modelo e as fontes de dados selecionadas podem ser parte de uma estrutura hierárquica complexa. Por causa disso, as associações finais podem ser grandes o suficiente e conter muitos elementos de tipos diferentes (por exemplo, relações, tabelas e métodos). As associações podem ficar menos legíveis e mais complexas para examinar e entender, especialmente para não proprietários. 
+- Associe elementos do modelo de dados com componentes de formato para definir quais dados serão preenchidos do modelo de dados para a saída do formato gerado.
 
 Para melhorar a usabilidade de designers de mapeamento do ER, o recurso de [caminho relativo](er-formula-language.md#relative-path) foi liberado. Por padrão, a opção da representação de caminho relativo será ativada para qualquer nova instância do aplicativo em que a experiência de design do ER estiver habilitada (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Implementamos o parâmetro de caminho relativo para que os usuários possam continuar usando o caminho completo ao trabalhar com esta apresentação de associações do ER.
 

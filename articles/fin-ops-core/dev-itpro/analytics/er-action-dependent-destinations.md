@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358660"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323970"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de ER dependentes da ação
 
 [!include [banner](../includes/banner.md)]
 
-Você pode configurar [destinos](electronic-reporting-destinations.md) do para cada componente de saída (pasta ou arquivo) de uma [configuração](general-electronic-reporting.md) de [formato](general-electronic-reporting.md#FormatComponentOutbound) de [relatório eletrônico (ER)](general-electronic-reporting.md#Configuration) que é usado para gerar um documento de saída. Os usuários que executam um formato de ER deste tipo e que têm direitos de acesso apropriados também podem alterar as configurações de destino configuradas no tempo de execução.
+Você pode configurar [destinos](electronic-reporting-destinations.md) para cada componente de saída (pasta ou arquivo) de uma [configuração](general-electronic-reporting.md#Configuration) de formato de [Relatório Eletrônico (ER)](general-electronic-reporting.md) usada para gerar um documento de saída. Os usuários que executam um formato de ER deste tipo e que têm direitos de acesso apropriados também podem alterar as configurações de destino configuradas no tempo de execução.
 
 No Microsoft Dynamics 365 Finance **versão 10.0.17 e posterior**, um formato de ER pode ser executado ao [provisionar](er-apis-app10-0-17.md) um código de ação executado pelo usuário executando o formato de ER. Por exemplo, no módulo **Contas a receber**, nas configurações de gerenciamento de impressão, você pode selecionar um formato de ER que gera um documento comercial específico, como uma fatura de texto livre. Em seguida, você poderá selecionar **Exibir** para exibir a fatura ou a **Impressão** e enviá-la para uma impressora. Se uma ação do usuário for aprovada para o formato de ER em execução no tempo de execução, você poderá configurar diferentes destinos de ER para diferentes ações do usuário. Este tópico explica como configurar destinos de ER para este tipo de formato de ER.
 
@@ -95,11 +95,11 @@ Você pode verificar qual ação do usuário, se houver, é fornecida para a exe
 
 Siga estas etapas para verificar o código de ação do usuário fornecido.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros de usuário**, [defina](er-trace-reports-compare-baseline.md#configure-er-parameters-to-use-the-baseline-feature) a opção **Executar no modo de depuração** como **Sim**.
 4. Realizar uma ação do usuário executando um formato de ER. Lembre-se de que os parâmetros de usuário de ER são específico do usuário e da empresa.
-5. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
+5. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
 6. Na página **Logs de depuração de configuração**, filtre os logs de execução de ER para encontrar o log do formato de ER executado.
 7. Revise as entradas de log que devem conter o registro que apresenta o código de ação de usuário fornecido, caso alguma ação tenha sido fornecida para o formato de ER ser executado.
 
@@ -115,7 +115,6 @@ A lista de documentos comerciais a seguir é controlada pelo recurso, **Rotear a
 - Consulta de compra de ordem de compra
 - Confirmação de ordem de venda
 - Nota de carta de cobrança
-- Demonstrativo da conta de cliente
 - Nota de juros
 - Consultoria de pagamento do fornecedor
 - Solicitação de cotação

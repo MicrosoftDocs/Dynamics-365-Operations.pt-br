@@ -1,8 +1,8 @@
 ---
 title: Gerar relatórios de Serviços de Saúde Acessíveis no gerenciamento de benefícios
-description: Este tópico descreve como o gerenciamento de benefícios ajuda a rastrear informações relatadas no formulário 1095-B e no formulário 1095-C para o mandato de empregador da Lei de Serviços de Saúde Acessíveis (ACA).
-author: andreabichsel
-ms.date: 12/28/2020
+description: Este tópico descreve como o gerenciamento de Benefícios rastreia informações relatadas no Formulário 1095-B e no Formulário 1095-C para o mandato de empregador da Affordable Care Act (ACA - Lei de Serviços de Saúde Acessíveis).
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 79bd8e02aeac1be94e735373740cf9508f494a06
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353653"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065984"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Gerar relatórios de ACA no gerenciamento de benefícios
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-O gerenciamento de benefícios ajuda a rastrear informações relatadas no formulário 1095-B e no formulário 1095-C para o mandato de empregador da ACA. Como o recurso de relatório da ACA no espaço de trabalho **Benefícios** anterior, essa funcionalidade se aplica somente a entidades legais nos Estados Unidos.
+O gerenciamento de benefícios rastreia informações relatadas no Formulário 1095-B e no Formulário 1095-C para o mandato de empregador da Affordable Care Act (ACA - Lei de Serviços de Saúde Acessíveis). Como o recurso de relatório da ACA no espaço de trabalho **Benefícios** anterior, essa funcionalidade se aplica somente a entidades legais nos Estados Unidos.
 
 Para usar essa funcionalidade, você deve primeiro ativar o **Gerenciamento Avançado de Benefícios**. Para obter mais informações, incluindo advertências importantes sobre o gerenciamento de benefícios, consulte [Habilitar ou desabilitar o gerenciamento de benefícios](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 

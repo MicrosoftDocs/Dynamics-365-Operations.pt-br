@@ -1,7 +1,7 @@
 ---
 title: Criar um grupo de modelo de serviço
 description: Você pode usr grupos de modelos de serviço para classificar e filtrar modelos de serviço.
-author: ShylaThompson
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28d164b70d0eb2982575c2d33924df7f2d5686ef
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4898ed3091a5255fb106f2aec64e4ff42219ebe1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836341"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566206"
 ---
 # <a name="create-a-service-template-group"></a>Criar um grupo de modelo de serviço  
 

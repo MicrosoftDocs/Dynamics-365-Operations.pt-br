@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 349fed3ca75b94db2f421a1ff3c3553c96c202c37d59857a3d973f3de8f995ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755242"
 ---
 # <a name="product-configuration-model-calculations"></a>Cálculo de modelo de configuração de produto
 
@@ -34,7 +34,7 @@ Um cálculo consiste em uma expressão e em um atributo de destino. Para obter m
 
 Para criar um cálculo para um modelo de produto existente, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Comum \> Modelos de configuração do produto**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Comum \> Modelos de configuração do produto**.
 1. Abra um modelo de configuração de produto e selecione **Editar**.
 1. Na guia rápida **Cálculos**, selecione **Adicionar** para adicionar um cálculo e defina os seguintes campos:
 
@@ -70,7 +70,7 @@ Este exemplo usa o atributo de texto `textFixedList` como o atributo de destino.
 
 A captura de tela a seguir mostra como as configurações desse atributo podem aparecer no seu sistema.
 
-![Configurações de tipo de atributo, por exemplo 2](media/model-calculations-example2.png "Configurações de tipo de atributo, por exemplo 2")
+![Configurações de tipo de atributo, por exemplo 2.](media/model-calculations-example2.png "Configurações de tipo de atributo, por exemplo 2")
 
 O atributo é usado na seguinte instrução condicional:
 
@@ -92,7 +92,7 @@ Este exemplo usa o atributo de texto `textFixedList` do exemplo anterior. Ele ta
 
 A captura de tela a seguir mostra como as configurações desse atributo podem aparecer no seu sistema.
 
-![Configurações de tipo de atributo, por exemplo 3](media/model-calculations-example3.png "Configurações de tipo de atributo, por exemplo 3")
+![Configurações de tipo de atributo, por exemplo 3.](media/model-calculations-example3.png "Configurações de tipo de atributo, por exemplo 3")
 
 O valor do atributo `textFixedList` é calculado usando a seguinte instrução condicional:
 

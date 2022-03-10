@@ -1,12 +1,10 @@
 ---
 title: Tipos de diagnóstico para não conformidades
 description: Este tópico descreve como usar e criar tipos de diagnóstico que possam ser usados com não conformidades.
-author: rachel-profitt
-manager: tfehr
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestDiagnosticType, InventTestCorrection
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19fcd57e28efabd6ca32c444ab961b876bde424d
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: edaa3a8b5c6446f039f33589166d832dcd9d0b9a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956543"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580927"
 ---
 # <a name="diagnostic-types-for-nonconformances"></a>Tipos de diagnóstico para não conformidades
 
@@ -43,7 +41,7 @@ Ao configurar os tipos de diagnóstico, você pode criar vários registros, cada
 
 ## <a name="create-a-diagnostic-type"></a>Criar um tipo de diagnóstico
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Tipos de diagnóstico**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Tipos de diagnóstico**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Diagnóstico** – Insira um nome ou uma ID exclusiva para o tipo de diagnóstico.
