@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6c99b9f2c6c3ab598eb792ee7b17d2a3873d4cff
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813594"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778272"
 ---
 # <a name="work-line-details"></a>Detalhes da linha de trabalho
 
@@ -28,9 +28,9 @@ A página **Detalhes da linha de trabalho** mostra uma lista abrangente, classif
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Ativar o recurso de detalhes da linha de trabalho
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
 
-- **Módulo:** *Gerenciamento de Depósito*
+- **Módulo:** *Gerenciamento de depósito*
 - **Nome do recurso:** *Detalhes da linha de trabalho*
 
 ## <a name="open-and-use-the-work-line-details-page"></a>Abrir e usar a página Detalhes da linha de trabalho
@@ -75,7 +75,7 @@ Antes de começar a criar o trabalho, verifique se o depósito está configurado
 
 Siga estas etapas para criar alguns trabalhos de separação:
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Criar** para abrir a caixa de diálogo **Criar ordem de venda**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 

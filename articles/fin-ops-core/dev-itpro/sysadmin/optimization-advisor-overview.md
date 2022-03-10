@@ -2,28 +2,25 @@
 title: Visão geral do Supervisor de otimização
 description: Este tópico descreve como você pode usar o Assistente de otimização para ajudar a garantir a configuração ideal do Finance and Operations.
 author: roxanadiaconu
-manager: AnnBe
 ms.date: 07/23/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1e53dbae2d139af554b1918102937f8c3579f64a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682528"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984093"
 ---
 # <a name="optimization-advisor-overview"></a>Visão geral do Supervisor de otimização
 
@@ -51,9 +48,9 @@ Para saber mais sobre o Assistente de otimização, assista ao vídeo curto [Ass
 
 ## <a name="optimization-rules"></a>Regras de otimização
 
-Para exibir a lista completa de regras do orientador de otimização e ver com que frequência as regras são avaliadas, vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Manter regra de validação de diagnóstico**. Somente as regras que têm um status **Ativo** são avaliadas. A frequência de avaliação pode ser definida como **Diária**, **Semanal**, **Mensal** ou **Não programada**.
+Para exibir a lista completa de regras do orientador de otimização e ver com que frequência as regras são avaliadas, Acesse **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Manter regra de validação de diagnóstico**. Somente as regras que têm um status **Ativo** são avaliadas. A frequência de avaliação pode ser definida como **Diária**, **Semanal**, **Mensal** ou **Não programada**.
 
-Para acionar a avaliação de regras não programadas ou reavaliar as regras periódicas fora de sua programação predefinida, vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Agendar regra validação de diagnóstico**. Em seguida, na caixa de diálogo **Validação de regra de diagnóstico**, selecione uma frequência de avaliação. Todas as regras com a frequência especificada serão reavaliadas.
+Para acionar a avaliação de regras não programadas ou reavaliar as regras periódicas fora de sua programação predefinida, Acesse **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Agendar regra validação de diagnóstico**. Em seguida, na caixa de diálogo **Validação de regra de diagnóstico**, selecione uma frequência de avaliação. Todas as regras com a frequência especificada serão reavaliadas.
 
 O conjunto de regras de otimização atual pode ser dividido nas seguintes categorias.
 
@@ -94,3 +91,6 @@ Para desativar a avaliação de regras específicas, selecione a oportunidade qu
 [Criar regras para o Supervisor de otimização](./create-rules-optimization-advisor.md)
 
 [Assistente de otimização no Dynamics 365 for Finance and Operations (Vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

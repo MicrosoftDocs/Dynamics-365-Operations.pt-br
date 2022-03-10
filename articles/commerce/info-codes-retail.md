@@ -2,11 +2,9 @@
 title: Códigos de informação e grupos de códigos de informação
 description: Este artigo oferece uma visão geral sobre códigos informativos, grupos de códigos informativos e como usá-los.
 author: mugunthanm
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9f84e3ffc79920fc6ef49a6391f76acdd89252a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2f905fda2224da8fd15a287f20339a9bfd1cab992024c195ca040ce2c1c671d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729110"
 ---
 # <a name="info-codes-and-info-code-groups"></a>Códigos de informação e grupos de códigos de informação
 
@@ -55,3 +53,6 @@ No Commerce, é possível criar grupos de códigos informativos. Os grupos de c�
 **Exemplo 2: Vincular códigos de informações a grupos de códigos de informações**
 
 Ao vender determinados produtos, como dispositivos móveis, você sempre deseja coletar um conjunto específico de informações, como número de telefone, identificador de equipamento móvel (MEID) e número de série. No entanto, você também deseja coletar informações diferentes de um tablet em relação a um telefone celular. É possível configurar um grupo de códigos de informações que inclui avisos sobre o número de telefone, o MEID e o número de série e vincular o grupo de códigos de informações ao código de informações individual. Quando o código de informações específico do produto é disparado, o grupo de códigos de informações pode ser disparado ao lado para permitir a coleta de dados comuns, sem a necessidade de definir vários conjuntos de códigos de informações vinculados para cada dispositivo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

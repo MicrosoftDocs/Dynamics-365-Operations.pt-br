@@ -9,25 +9,26 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 605792bdc82a311fff9f7f4b8945ca5dde172c54
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: 503febd81b1546426e4024f88a40c1f08834f46f
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5642156"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402118"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>Catálogo de aprendizado do Dynamics 365 Commerce 
 
 Encontre o treinamento online correto, nos workshops de pessoas e eventos para sua função como um usuário de aplicativos do Dynamics 365 Commerce.
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### <a name="business-and-technical-decision-makers"></a>Tomadores de Decisões Técnicas e Comerciais
 

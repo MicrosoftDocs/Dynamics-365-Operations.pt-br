@@ -2,11 +2,9 @@
 title: Dimensões do produto
 description: Existem cinco dimensões do produto - cor, configuração, tamanho, estilo e versão. Você combina dimensões de produto em grupos de dimensões e atribui grupos de dimensões a produtos mestres. As combinações de dimensões de produto determinam como as variantes de produto serão definidas.
 author: t-benebo
-manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260638"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920514"
 ---
 # <a name="product-dimensions"></a>Dimensões do produto
 
@@ -53,9 +51,9 @@ Geralmente, as versões do produto são criadas para versões específicas à me
 
 As dimensões do produto também podem ser criadas e mantidas na página **Dimensões do produto**, que podem ser acessadas dos seguintes locais:
 
-- Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**. No Painel de Ações, selecione **Dimensões do produto**.
-- Vá para **Gerenciamento de informações do produto \> Produtos \> Todos os produtos e produtos mestres**. Selecione um produto mestre. No Painel de Ações, selecione **Dimensões do produto**.
-- Vá para **Gerenciamento de informações do produto \> Produtos liberados**. Selecione um produto mestre. No Painel de Ações, na guia **Produto**, no grupo **Produto mestre**, selecione **Dimensões do produto**.
+- Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**. No Painel de Ações, selecione **Dimensões do produto**.
+- Acesse **Gerenciamento de informações do produto \> Produtos \> Todos os produtos e produtos mestres**. Selecione um produto mestre. No Painel de Ações, selecione **Dimensões do produto**.
+- Acesse **Gerenciamento de informações do produto \> Produtos liberados**. Selecione um produto mestre. No Painel de Ações, na guia **Produto**, no grupo **Produto mestre**, selecione **Dimensões do produto**.
 
 O número de variantes que você pode criar para um item é limitado pelo número de possíveis combinações de dimensão do produto.
 
@@ -80,7 +78,7 @@ Uma empresa vende jeans denim. O item *Jeans* usa as dimensões cor e tamanho do
 
 ## <a name="the-version-product-dimension"></a>A dimensão do produto de versão
 
-A versão é uma dimensão de produto pretendida para ajudar a manter e rastrear várias versões de um produto em toda a cadeia de suprimentos. O controle de versões é essencial para o sucesso dos fabricantes que operam em um mundo para reduzir constantemente os ciclos de vida do produto, aumentar os requisitos de qualidade e confiabilidade e aumentar o foco na segurança do produto.
+A versão é uma dimensão de produto pretendida para ajudar a manter e rastrear várias versões de um produto em toda a cadeia de suprimentos. O controle de versão é essencial para o sucesso dos fabricantes que operam em um mundo com ciclos de vida de produtos cada vez menores, requisitos de qualidade e confiabilidade maiores e um foco maior na segurança dos produtos.
 
 Como uma dimensão de produto padrão, a versão terá comportamento semelhante às dimensões do produto existentes (tamanho, estilo, cor e configuração). Portanto, você pode usá-lo para outras finalidades além de rastrear versões de produtos.
 
@@ -112,10 +110,10 @@ Quando estiver testando soluções para a compatibilidade com a dimensão de ver
 
 Para que você possa usar a dimensão de versão, ela deve estar ativada no sistema. Esta tarefa requer permissões de administrador.
 
-1. Vá para **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
+1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
 1. Ative o recurso que é denominado *Versão da dimensão do produto*. (Para obter mais informações, consulte [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 1. Coloque o sistema em [modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
+1. Acesse **Administração de sistema \> Configurar \> Configuração de licença**.
 1. Na guia **Chaves de configuração**, expanda **Comércio** e marque a caixa de seleção **Dimensão do produto - versão**.
 1. Desative o [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 

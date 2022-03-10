@@ -1,12 +1,10 @@
 ---
 title: Modelos de Serviço
 description: Você pode definir um contrato de serviço como um modelo e copiar posteriormente as linhas do modelo para outro contrato ou ordem de serviço.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e1353b3576270e9f0c202b85628fae4f49c882f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 82a19dbee91f13eb3ef56dfd67a775930170b8e7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974276"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576295"
 ---
 # <a name="service-templates"></a>Modelos de Serviço
 
@@ -57,3 +55,6 @@ Quando você copia linhas de um modelo para ordens ou contratos de serviço, os 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Copiar linhas de modelos de serviço](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

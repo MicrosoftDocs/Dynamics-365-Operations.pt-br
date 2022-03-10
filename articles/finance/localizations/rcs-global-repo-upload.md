@@ -2,7 +2,7 @@
 title: Criar configurações de ER no RCS e carregá-las no Repositório global
 description: Este tópico explica como criar a configuração de relatório eletrônico (ER) no Microsoft Regulatory Configuration Services e carregá-lo para o Repositório global.
 author: JaneA07
-ms.date: 09/21/2020
+ms.date: 01/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: eb04362d6d7261af56d2940b085fbc8d43c9d662
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361202"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7965080"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Criar configurações de ER no Regulatory Configuration Services (RCS) e carregá-las no Repositório global
 
@@ -32,24 +32,29 @@ Os procedimentos a seguir explicam como um usuário na função de administrador
 
 Antes de concluir esses procedimentos, conclua os seguintes pré-requisitos:
 
-- Acessar uma instância RCS.
-- Criar um fornecedor de configuração ativa. Para obter mais informações, consulte [Criar provedores de configuração e marcá-los como ativos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+- Ter acesso a um ambiente RCS para sua organização.
+- Criar um provedor de configuração ativo e torná-lo ativo. Para obter mais informações, consulte [Criar provedores de configuração e marcá-los como ativos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Você também deve verificar se um ambiente RCS foi provisionado para sua empresa.
+Você deve verificar se um ambiente RCS foi provisionado para sua organização. Se você não tiver uma instância RCS configurada para sua organização, poderá fazer isso usando as seguintes etapas:
 
-1. Em um aplicativo do Finance and Operations, acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
-2. Se não tiver o ambiente do RCS provisionado para sua empresa, clique no link externo **Regulatory services – Configuração** e siga as instruções para provisionar um.
+1. Em um aplicativo Finance and Operations, vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Em **Links relacionados/Links externos**, selecione **Regulatory services – Configuração** e siga as instruções para **Entrar** para provisionar um.
 
-Se um ambiente RCS já foi provisionado para sua empresa, use a URL da página para acessá-lo, selecionando a opção de entrada.
+Se um ambiente RCS já foi provisionado para sua organização, use a URL da página para acessá-lo e selecione a opção **Entrar**.
 
 ## <a name="create-a-derived-version-of-a-configuration-in-rcs"></a>Criar uma versão derivada de uma configuração no RCS
 
-1. No espaço de trabalho **Relatório eletrônico**, verifique se você tem um provedor de configuração ativo para sua organização. 
-2. Selecione **Configurações de relatórios**.
-3. Selecione a configuração da qual você deseja derivar uma nova versão. Você pode usar o campo de filtro acima da árvore para restringir a pesquisa.
-4. Selecione **Criar configuração** \> **Derivar de Nome**.
-5. Insira um nome e uma descrição e selecione **Criar configuração** para criar uma nova versão derivada.
-6. Selecione a configuração derivada recentemente, adicione uma descrição da versão e, em seguida, selecione **OK**. O status da configuração a é alterado para **Concluído**.
+> [!NOTE]
+> Se estiver usando o RCS pela primeira vez, não terá configuração disponível da qual derivar. Será necessário importar uma configuração do Repositório global. Para obter mais informações, consulte [Baixar configurações ER do repositório global de serviço de configuração](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
+
+1. **Entre** no RCS e selecione o espaço de trabalho **Relatório eletrônico**.
+2. Verifique se você tem um provedor de configuração ativo para sua organização que esteja definido como ativo (ver pré-requisitos). 
+3. Selecione **Configurações de relatórios**.
+4. Selecione a configuração da qual você deseja derivar uma nova versão. Você pode usar o campo de filtro acima da árvore para restringir a pesquisa.
+5. Selecione **Criar configuração** \> **Derivar de Nome**.
+6. Insira um nome e uma descrição e, depois, selecione **Criar configuração** para criar uma nova versão derivada com o status 'Rascunho'.
+7. Selecione a nova configuração derivada e faça alterações adicionais no formato de configuração, se necessário. 
+8. Depois que as alterações forem concluídas, você precisará definir **Alterar status** para a configuração como **Concluído** para poder publicá-la no repositório. Selecione **OK**.
 
 ![Nova versão de configuração no RCS.](media/RCS_CompleteConfig.JPG)
 
@@ -58,7 +63,7 @@ Se um ambiente RCS já foi provisionado para sua empresa, use a URL da página p
 
 ## <a name="upload-a-configuration-to-the-global-repository"></a>Carregar uma configuração para o Repositório global
 
-Para compartilhar uma configuração nova ou derivada com sua organização, você pode carregá-la no Repositório global.
+Para compartilhar uma configuração nova ou derivada com sua organização, você pode carregá-la no Repositório global seguindo estas etapas:
 
 1. Selecione a versão concluída da configuração e, em seguida, selecione **Carregar no repositório**.
 2. Selecione a opção **Global (Microsoft)** e, em seguida, selecione **Carregar**.
@@ -66,9 +71,11 @@ Para compartilhar uma configuração nova ou derivada com sua organização, voc
     ![Carregar em opções de repositório.](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Na caixa de mensagem de confirmação, selecione **Sim**. 
-4. Atualize a descrição da versão conforme necessário e, em seguida, selecione **OK**. 
+4. Atualize a descrição da versão conforme necessário e, em seguida, selecione **OK**. Outra opção é carregar a versão em um aplicativo conectado ou em um repositório do GIT.  
 
-O status da configuração é atualizado para **Compartilhar** e a configuração é carregada no repositório global. A partir daí, você pode trabalhar com ela da seguinte maneira:
+O status da configuração é atualizado para **Compartilhado** e a configuração é carregada no Repositório global. Uma versão de rascunho da configuração carregada também é criada e poderá ser usada se forem necessárias alterações subsequentes.
+
+Depois que a configuração for carregada no Repositório global, você poderá trabalhar com ela, das seguintes maneiras:
 
 - Importe-o para a instância do Dynamics 365. Para obter mais informações, consulte [Importar configurações do ER a partir de RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
 - Compartilhar com terceiros ou com uma organização externa, consulte [Configurações de relatório eletrônico de compartilhamento RCS (ER) com organizações externas](rcs-global-repo-share-configuration.md)

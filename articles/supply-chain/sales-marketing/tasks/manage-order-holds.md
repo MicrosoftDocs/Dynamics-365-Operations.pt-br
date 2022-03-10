@@ -1,26 +1,24 @@
 ---
 title: Gerenciar bloqueios de ordens
 description: Este procedimento demonstra como colocar as ordens de venda do cliente em espera, como trabalhar com check-outs de bloqueio de ordem e como remover bloqueios de ordem.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans, MCRHoldCheckOutOverride, MCRHoldCodeTable, MCRItemListCopying, MCRItemListTable, MCROMHoldList
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 27a5149812a8e478dae1d2385e6c139c9f635202
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 938b21b66b7b61452be104936877278a3bc120f2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010738"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566278"
 ---
 # <a name="manage-order-holds"></a>Gerenciar bloqueios de ordens
 
@@ -32,7 +30,7 @@ Você pode executar esse procedimento na empresa USMF de dados demo, ou usando s
 
 
 ## <a name="set-up-order-holds"></a>Configurar bloqueios de ordem
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Configuração > Ordens de venda > Códigos de bloqueio de ordem**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Configuração > Ordens de venda > Códigos de bloqueio de ordem**.
 2. Clique em **Novo**.
 3. No campo **Código de bloqueio**, digite um valor. Por exemplo, digite "Retorno de chamada".  
 4. No campo **Descrição**, digite um valor.
@@ -41,7 +39,7 @@ Você pode executar esse procedimento na empresa USMF de dados demo, ou usando s
 5. Clique em **Salvar**.
 
 ## <a name="place-order-on-hold"></a>Colocar ordem em espera
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
 2. Clique em **Novo**.
 3. No campo **Conta de cliente**, insira ou selecione um valor.
 4. Clique em **OK**.
@@ -53,12 +51,12 @@ Você pode executar esse procedimento na empresa USMF de dados demo, ou usando s
 10. No campo **Código de bloqueio**, selecione o código que você criou na subtarefa anterior.
 11. Clique em **Salvar**.
 12. Feche a página.
-13. Vá para **Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
+13. Acesse **Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
 14. Na lista, marque a linha selecionada. Ordens que estão atualmente em espera têm os campos "Não processar" e "Em espera" marcados.
 15. No Painel de Ação, clique em **Selecionar e empacotar**.
 
 ## <a name="manage-order-holds"></a>Gerenciar bloqueios de ordens
-1. Vá para **Vendas e marketing > Ordens de venda > Ordens em aberto > Bloqueios da ordem**. A página **Bloqueios da ordem** funciona como uma bancada na qual você pode obter uma visão geral de todos os bloqueios atuais e processados, além de processar esses bloqueios e as ordens de venda associadas.     
+1. Acesse **Vendas e marketing > Ordens de venda > Ordens em aberto > Bloqueios da ordem**. A página **Bloqueios da ordem** funciona como uma bancada na qual você pode obter uma visão geral de todos os bloqueios atuais e processados, além de processar esses bloqueios e as ordens de venda associadas.     
 2. Na lista, marque a linha selecionada.
 3. No **Painel de Ação**, clique em **Bloquear finalização da compra**.
 4. Clique em **Fazer check-out**.
@@ -69,3 +67,6 @@ Você pode executar esse procedimento na empresa USMF de dados demo, ou usando s
     - A ação **Liberar e enviar** só é aplicável quando você usa a funcionalidade de call center.  
 8. Clicar em **Liberar bloqueios**. Agora o bloqueio está liberado na ordem e removido da lista de bloqueios ativos. Para ver todos os bloqueios ou seu subconjunto de acordo com um status específico, mude o valor no campo Mostrar.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

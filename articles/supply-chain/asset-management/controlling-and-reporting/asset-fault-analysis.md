@@ -1,12 +1,10 @@
 ---
 title: Análise de falhas de ativos
 description: Este tópico explica a análise de falhas de ativos no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 880ed35a9780185836218a5c2a7addb2a47eabd737d6bec99794ecb7a0959791
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779269"
 ---
 # <a name="asset-fault-analysis"></a>Análise de falhas de ativos
 
@@ -62,7 +60,7 @@ Na captura de tela abaixo, apenas o botão **Sintoma** está selecionado.
 - Registros de falhas foram feitos com três sintomas de falha: "Vazamento de ar", "Fusível queimado" e "Equipamento danificado".  
 - Na coluna **Probabilidade %**, todas as porcentagens somam 100%. A probabilidade é baseada em todos os registros **Sintoma** nessa análise de falha.
 
-![Figura 1](media/06-controlling-and-reporting.png)
+![Figura 1.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Agrupar por sintomas e período
 
@@ -71,7 +69,7 @@ Na captura de tela abaixo, **Ano** e **Mês** são adicionados para mostrar como
 - Os sintomas de falha agora são mostrados como registros por ano/mês.  
 - Na coluna **Probabilidade %**, se você adicionar todas as porcentagens de cada mês, elas somarão 100%. A probabilidade é baseada nos registros **Sintoma** nessa análise de falha. Se você tiver um grande número de linhas em um ativo, mas uma grande porcentagem se destacar em uma linha, isso seria uma indicação de um sintoma de falha a ser examinado com mais cuidado para encontrar uma maneira de limitar o número de registros desse sintoma de falha.
 
-![Figura 2](media/07-controlling-and-reporting.png)
+![Figura 2.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Agrupar por vários sintomas e ativos
 
@@ -86,7 +84,7 @@ Na captura de tela abaixo, **Ativo** e **Tipo de ativo** foram adicionados para 
 - Os sintomas de falha agora são divididos em combinações **Ativo** / **Tipo de ativo** / **Sintoma**.  
 - Na coluna **Probabilidade %**, se você adicionar todas as porcentagens para a combinação de **Ativo** / **Tipo de ativo** / **Sintoma** respectivamente, cada uma delas somará 100%. A probabilidade é baseada nos registros **Sintoma** nessa análise de falha. Se você tiver um grande número de linhas em um ativo, mas uma grande porcentagem se destacar em uma linha, isso seria uma indicação de um sintoma de falha a ser examinado com mais cuidado para encontrar uma maneira de limitar o número de registros desse sintoma de falha.
 
-![Figura 3](media/08-controlling-and-reporting.png)
+![Figura 3.](media/08-controlling-and-reporting.png)
 
 **Agrupar por dois sintomas, ativo e tipo de ativo**
 
@@ -94,7 +92,7 @@ Na captura de tela abaixo, a **Área** foi adicionada a **Sintoma**, **Ativo** e
 
 - Na coluna **Probabilidade %**, se você adicionar todas as porcentagens para a combinação de **Ativo** / **Tipo de ativo** / **Sintoma** em um ativo, cada uma delas somará 100%. A probabilidade é baseada na combinação de **Sintoma** e **Área** nessa análise de falha. Se você tiver um grande número de linhas em um ativo, mas uma grande porcentagem se destacar em uma linha, isso seria uma indicação de uma área de falha a ser examinada com mais cuidado para encontrar uma maneira de limitar o número de registros dessa área de falha.  
 
-![Figura 4](media/09-controlling-and-reporting.png)
+![Figura 4.](media/09-controlling-and-reporting.png)
 
 **Agrupar por três sintomas, ativo e tipo de ativo**
 
@@ -102,9 +100,12 @@ Na captura de tela abaixo, o **Tipo** foi adicionado e o cálculo mais detalhado
  
 - Na coluna **Probabilidade %**, se você adicionar todas as porcentagens para a combinação de **Ativo** / **Tipo de ativo** / **Sintoma** em um ativo, cada uma delas somará 100%. A probabilidade é baseada na combinação de **Sintoma**, **Área** e **Tipo** nessa análise de falha. Se você tiver um grande número de linhas em um ativo, mas uma grande porcentagem se destacar em uma linha, isso seria uma indicação de um tipo de falha a ser examinado com mais cuidado para encontrar uma maneira de limitar o número de registros desse tipo de falha.
 
-![Figura 5](media/10-controlling-and-reporting.png)
+![Figura 5.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]
 >Para obter uma visão geral de todos os registros de falhas criados em ordens de serviço e solicitações de manutenção, clique em **Gerenciamento de ativos** > **Consultas** > **Falha de ativo** > **Falhas de ativo**. Na página **Falhas de ativo**, selecione um registro de falha de ativo e expanda o painel **Informações relacionadas** para ver informações sobre a ordem de serviço ou solicitação de manutenção relacionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

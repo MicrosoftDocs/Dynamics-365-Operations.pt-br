@@ -1,7 +1,7 @@
 ---
 title: Configurar e gerar informações de classificação por vencimento de contas a receber
 description: Esta guia ajudará a configurar uma definição do período de classificação por vencimento, para classificar por vencimento saldos do cliente e saldos de exibição na lista de saldos classificados por vencimento, além da página das coleções.
-author: mikefalkner
+author: abruer
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68d2e4a440ba99e52d715b9e5e3cfd77bb61814f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816163"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753528"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Configurar e gerar informações de classificação por vencimento de contas a receber
 
@@ -28,7 +28,7 @@ Esta guia ajudará a configurar uma definição do período de classificação p
 
 
 ## <a name="create-an-aging-period-definition"></a>Crie uma definição de período de classificação por vencimento
-1. Vá para **Painel de navegação > Módulos > Crédito e coleções > Configuração > Definições de período de classificação por vencimento**.
+1. Acesse **Painel de navegação > Módulos > Crédito e coleções > Configuração > Definições de período de classificação por vencimento**.
 2. Clique em **Novo**.
 3. No campo **Definição do período de classificação por vencimento**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -42,7 +42,7 @@ Esta guia ajudará a configurar uma definição do período de classificação p
 12. Feche a página.
 
 ## <a name="age-the-balances"></a>Saldos com vencimento
-1. Vá para **Crédito e coleções > Tarefas periódicas > Classificar saldos de cliente por vencimento**.
+1. Acesse **Crédito e coleções > Tarefas periódicas > Classificar saldos de cliente por vencimento**.
 2. No campo **Definição do período de classificação por vencimento**, selecione a definição do período de classificação por vencimento que você criou.
     + Você pode ter um instantâneo ativo para cada definição do período de classificação por vencimento.  
     + Todas os clientes são processados por padrão. Você pode usar essa seleção para calcular um único grupo de conjuntos de clientes.  
@@ -52,7 +52,7 @@ Esta guia ajudará a configurar uma definição do período de classificação p
 4. Clique em **OK** para processar o instantâneo. Levará algum tempo para que o controle deslizante desapareça e verifique o centro da mensagem para uma mensagem.
 
 ## <a name="view-the-balances-on-the-aged-balances-list-and-on-the-collection-page"></a>Exibir os saldos na lista de saldos classificados por vencimento e na página de cobrança
-1. Vá para **Crédito e coleções > Cobranças > Saldos antigos**. A página de listagem mostra os saldos do cliente. O ícone classificação por vencimento mostra o período de classificação por vencimento da transação mais antigo.  
+1. Acesse **Crédito e coleções > Cobranças > Saldos antigos**. A página de listagem mostra os saldos do cliente. O ícone classificação por vencimento mostra o período de classificação por vencimento da transação mais antigo.  
 2. Selecione um cliente com um saldo.
 3. Expanda a área da caixa de dados **Classificação por vencimento** para exibir os saldos classificados por vencimento. A definição do período de classificação por vencimento da caixa de fatos são tiradas da definição do período de classificação por vencimento padrão especificado nos parâmetros. Você pode alterá-la usando o menu Coletar.  
 

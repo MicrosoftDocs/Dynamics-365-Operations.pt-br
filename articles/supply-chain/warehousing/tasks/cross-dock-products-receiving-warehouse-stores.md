@@ -1,27 +1,25 @@
 ---
 title: Produtos de distribuição integrada de recebimento de depósitos para armazenamento
 description: Este procedimento orienta nas etapas para criar e processar uma distribuição integrada dos produtos do local de recebimento de uma ordem de compra para uma ou várias lojas.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 02/17/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPushPerPackage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac93806bc85be92840548e160ddf803e63adbbc4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6e65535a1879eab229f185e0e97d81a304fd292d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977179"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572952"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Produtos de distribuição integrada de recebimento de depósitos para armazenamento
 
@@ -48,3 +46,6 @@ Este procedimento orienta nas etapas para criar e processar uma distribuição i
 15. Na lista, localize e selecione um depósito que tenha recebido produtos.
 16. Clicar em Ordem para exibir as ordens criadas para o depósito selecionado
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

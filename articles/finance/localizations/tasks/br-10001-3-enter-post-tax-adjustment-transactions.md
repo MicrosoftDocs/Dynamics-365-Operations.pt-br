@@ -2,11 +2,9 @@
 title: Inserir e lançar transações de ajuste de imposto (Brasil)
 description: Use este procedimento para criar e lançar transações de ajuste de impostos.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80f1b6752e780bff9b75929fc0f6b189227dbcd4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 925ed3d98f0adde80ed7e1cfaa68db6f182da2c2cbbc455c21e7d73038b6b573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741477"
 ---
 # <a name="enter-and-post-tax-adjustment-transactions-brazil"></a>Inserir e lançar transações de ajuste de imposto (Brasil)
 
@@ -27,7 +25,7 @@ ms.locfileid: "5228046"
 
 Use este procedimento para criar e lançar transações de ajuste de impostos. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Registros financeiros > Diários > Ajuste geral de imposto/benefício/incentivo.
+1. Acesse Registros financeiros > Diários > Ajuste geral de imposto/benefício/incentivo.
 2. Clique em Novo.
 3. Na lista, marque a linha selecionada.
 4. No campo Nome, insira ou selecione um valor.
@@ -44,7 +42,7 @@ Use este procedimento para criar e lançar transações de ajuste de impostos. E
 15. Clique em Lançar.
 16. Feche a página.
 17. Feche a página.
-18. Vá para Registros financeiros > Comum > Apuração de imposto > ICMS.
+18. Acesse Registros financeiros > Comum > Apuração de imposto > ICMS.
 19. Clique em Ajuste.
 20. Feche a página.
 21. Feche a página.

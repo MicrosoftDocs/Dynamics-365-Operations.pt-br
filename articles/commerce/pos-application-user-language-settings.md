@@ -2,11 +2,9 @@
 title: Configurações do aplicativo de ponto de venda (PDV) e de idioma do usuário
 description: Este tópico descreve como alterar as configurações de idioma no Modern POS (MPOS) e PDV em Nuvem.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0f196b3077b0a8d80cac93a8b6b3f8c5c08c3c96
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000550"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774524"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Configurações do aplicativo de ponto de venda (PDV) e de idioma do usuário
 
@@ -59,8 +57,11 @@ As configurações de idioma do PDV determinam as traduções usadas na interfac
 
 A configuração de idioma do usuário do PDV é definida em **Todos os trabalhadores** na página **Trabalhador** em **Varejo e Comércio &gt; Idioma**. Ela não é definida na guia principal Perfil. Essa configuração não é usada pelo PDV. Se o idioma do usuário não for definido ou for definido como um idioma no qual as traduções não estejam disponíveis, o PDV será revertido para o idioma da loja.
 
-|             | Idioma da interface do usuário                  | Idioma dos dados (produtos, formatos de recibo, exibição de linha etc.) |
+| &nbsp;      | Idioma da interface do usuário                  | Idioma dos dados (produtos, formatos de recibo, exibição de linha etc.) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Empresa** | Padrão                    | Padrão                                                       |
 | **Loja**   | Substitui a empresa          | Substitui a empresa                                             |
 | **Usuário**    | Substitui a loja ou a empresa | Nunca                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

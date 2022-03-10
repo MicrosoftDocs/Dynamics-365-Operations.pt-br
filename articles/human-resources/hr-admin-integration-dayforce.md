@@ -1,8 +1,8 @@
 ---
-title: Configurar integração com o Dayforce
-description: A integração entre o Microsoft Dynamics 365 Human Resources e o Ceridian Dayforce depende de várias etapas de configuração descritas neste artigo. Você deve configurar a integração no Human Resources e no Dayforce antes de processar uma execução de pagamento.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Configurar a integração com o Dayforce
+description: Este tópico descreve as etapas de configuração obrigatórias necessárias para a integração entre o Microsoft Dynamics 365 Human Resources e o Ceridian Dayforce.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6d150daa92fe79cf6620ce5ddf1a01f369c64053
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051488"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067067"
 ---
-# <a name="configure-integration-with-dayforce"></a>Configurar integração com o Dayforce
+# <a name="configure-integration-with-dayforce"></a>Configurar a integração com o Dayforce
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-A integração entre o Microsoft Dynamics 365 Human Resources e o Ceridian Dayforce depende de várias etapas de configuração descritas neste artigo. Você deve configurar a integração no Human Resources e no Dayforce antes de processar uma execução de pagamento.
+A integração entre o Microsoft Dynamics 365 Human Resources e o Ceridian Dayforce depende de várias etapas de configuração descritas neste tópico. Você deve configurar a integração no Human Resources e no Dayforce antes de processar uma execução de pagamento.
 
 Ao usar um serviço como o Dayforce para concluir execuções de pagamento, é necessário ativar a integração no Human Resources. A integração requer dados específicos do Human Resources. Portanto, você deve verificar se os dados mapeados para o Dayforce estão configurados no Human Resources de forma compatível com a integração. A integração usa as seguintes categorias amplas de dados:
 
@@ -35,7 +38,7 @@ Ao usar um serviço como o Dayforce para concluir execuções de pagamento, é n
 - Dados da folha de pagamento, como ciclos de pagamento, períodos de pagamento e códigos de ganhos
 - Dados do trabalhador
 
-Este artigo descreve as etapas que você deve seguir para ativar a integração. Também explica os tipos de dados e os detalhes de configuração que a integração requer.
+Este tópico descreve as etapas que devem ser seguidas para habilitar a integração e explica os tipos de dados e os detalhes de configuração necessários para a integração.
 
 ## <a name="enable-the-integration"></a>Habilitar a integração
 
@@ -50,7 +53,7 @@ Para ativar a integração no Human Resources, siga as etapas a seguir.
 
 Quando a integração é ativada, o pacote e os arquivos de exportação de dados são criados e a frequência é configurada. Você pode alterar essa frequência conforme necessário.
 
-Para obter mais informações sobre as contas de armazenamento do Azure e as cadeias de conexão do Armazenamento do Azure, consulte os seguintes artigos do Azure:
+Para obter mais informações sobre as contas de armazenamento do Azure e as cadeias de conexão do Armazenamento do Azure, consulte os seguintes tópicos do Azure:
 
 - [Sobre as contas de armazenamento do Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Configurar cadeias de conexão do Armazenamento do Azure](/azure/storage/common/storage-configure-connection-string)
@@ -59,12 +62,11 @@ Para obter mais informações sobre as contas de armazenamento do Azure e as cad
 
 A ativação da integração da folha de pagamento tem dois efeitos principais:
 
-- Um projeto de exportação de dados denominado "Exportação de integração da folha de pagamento" é criado. Este projeto contém as entidades e os campos necessários para a integração da folha de pagamento. Para revisar o projeto, vá para **Administração do sistema**, selecione o bloco **Gerenciamento de dados** e abra o projeto de dados da lista de projetos.
+- Um projeto de exportação de dados denominado "Exportação de integração da folha de pagamento" é criado. Este projeto contém as entidades e os campos necessários para a integração da folha de pagamento. Para revisar o projeto, Acesse **Administração do sistema**, selecione o bloco **Gerenciamento de dados** e abra o projeto de dados da lista de projetos.
 - Esse trabalho em lotes executa o projeto de exportação de dados, criptografa o pacote de dados resultante e transfere o arquivo do pacote de dados para a empresa de SFTP configurada na tela **Configuração de integração**.
 
 > [!NOTE]
 > O pacote de dados transferido para a empresa de SFTP é criptografado usando uma chave exclusiva para o pacote. A chave é um Azure Key Vault acessível somente pelo Ceridian. Não é possível descriptografar e revisar o conteúdo do pacote de dados. Se você precisar examinar o conteúdo do pacote de dados, exporte manualmente o projeto de dados "Exportação de integração da folha de pagamento", baixe-o e abra-o A exportação manual não aplicará a criptografia nem transferirá o pacote.
-> Para instâncias em que os arquivos de integração são enviados de um ambiente de UAT ou de área restrita do Dynamics 365 Human Resources para um ambiente de teste Ceridian Dayforce, você pode usar a seguinte URL do cofre de chaves: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Configurar seus dados 
 
@@ -122,9 +124,9 @@ O Dayforce cria as deduções a seguir, com base no impacto da folha de pagament
 | Somente contribuição          | Uma dedução de empregador é criada.             |
 | Dedução e contribuição | Deduções de funcionário e empregador são criadas. |
 
-Para obter mais informações sobre como definir e gerenciar um programa de benefícios, consulte os seguintes artigos:
+Para obter mais informações sobre como definir e gerenciar um programa de benefícios, consulte os seguintes tópicos:
 
-- [Entregar um programa de benefícios para funcionários](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Entregar um programa de benefícios do funcionário](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
 - [Criar um novo benefício](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
 - [Definir regras e políticas de qualificação para o benefício](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
 - [Inscrever e remover benefícios de trabalhadores](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
@@ -135,7 +137,7 @@ O gerenciamento de remuneração é usado para controlar o pagamento do salário
 
 O Dayforce usa informações de remuneração para calcular a taxa por hora ou anual de um funcionário. Planos de remuneração fixa e conversões de taxa de pagamento são necessários. Os funcionários devem estar associados a um plano de remuneração fixa.
 
-Para obter mais informações sobre planos de compensação, veja os seguintes artigos:
+Para obter mais informações sobre planos de remuneração, veja os tópicos a seguir:
 
 - [Criar planos de remuneração fixa](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [Criar planos de remuneração variável](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -147,12 +149,12 @@ Para obter mais informações sobre planos de compensação, veja os seguintes a
 
 #### <a name="jobs"></a>Trabalhos 
 
-Um trabalho é um conjunto de tarefas e responsabilidades exigidas de uma pessoa que realiza um trabalho. Para obter mais informações, consulte os seguintes artigos:
+Um trabalho é um conjunto de tarefas e responsabilidades exigidas de uma pessoa que realiza um trabalho. Para obter mais informações, consulte os seguintes tópicos:
 
 - [Configurando os componentes de um trabalho](/dynamics365/unified-operations/talent/create-job)
 - [Definir novos trabalhos](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
-##### <a name="positions"></a>Cargos
+##### <a name="positions"></a>Posições
 
 Um cargo é uma instância individual de um trabalho. Por exemplo, a posição "Gerente de vendas (Leste)" é uma das posições associadas ao trabalho "Gerente de vendas". Uma posição existe em um departamento. Apenas um trabalhador pode ser associado a cada posição.
 
@@ -172,7 +174,7 @@ Considere os seguintes dados e configurações ao configurar as posições:
 
 Se várias posições no mesmo departamento estiverem associadas ao mesmo trabalho, elas serão consolidadas em uma única posição no Dayforce.
 
-Para obter mais informações, consulte os seguintes artigos:
+Para obter mais informações, consulte os seguintes tópicos:
 
 - [Organizar sua força de trabalho usando departamentos, trabalhos e posições](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Configurar posições](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
@@ -181,7 +183,7 @@ Para obter mais informações, consulte os seguintes artigos:
 
 Um departamento é uma unidade operacional que representa uma categoria ou uma área funcional de uma organização. Um departamento é responsável por uma área específica da organização, como vendas, contabilidade ou recursos humanos. Você pode usar departamentos para relatar áreas funcionais. Os departamentos podem ter a responsabilidade de lucros e perdas.
 
-Para obter mais informações, consulte os seguintes artigos:
+Para obter mais informações, consulte os seguintes tópicos:
 
 - [Criar um departamento e associá-lo à hierarquia de departamentos](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Definir novos departamentos](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)

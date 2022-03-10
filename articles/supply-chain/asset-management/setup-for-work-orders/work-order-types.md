@@ -1,12 +1,10 @@
 ---
 title: Tipos de ordem de serviço
 description: Este tópico explica os tipos de ordem de serviço no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderType
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 561ca87740d90590262716f0042fca6b59dafc69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d77effbfe329a449318d6942918245917f22cdc23defadcb5e85f02c6c786f6d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754719"
 ---
 # <a name="work-order-types"></a>Tipos de ordem de serviço
 
@@ -50,7 +48,7 @@ Para obter mais informações sobre os estados de ciclo de vida da ordem de serv
 
 8. Selecione **Salvar**.
 
-![Tipos de ordem de serviço](media/16-setup-for-work-orders.png)
+![Tipos de ordem de trabalho.](media/16-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
-title: Definir a dependência de configurações de ER em outros componentes
-description: Para executar estas etapas, primeiro você deve executar as etapas no guia de tarefas, ER Gerenciar configurações do mapeamento de modelo, e deve ter acesso ao Microsoft Dynamics Lifecycle Services (LCS).
+title: Definir a dependência de configurações ER em outros componentes
+description: Este tópico descreve como criar uma configuração de relatório eletrônico e especificar sua dependência de outros componentes de software.
 author: NickSelin
-manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,14 +12,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717585"
 ---
-# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir a dependência de configurações de ER em outros componentes
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir a dependência de configurações ER em outros componentes
 
 [!include [banner](../../includes/banner.md)]
 
@@ -31,7 +29,7 @@ Este procedimento mostra como criar uma configuração de relatório eletrônico
 
 Esse procedimento é destinado a usuários com a função de Administrador do sistema ou Desenvolvedor de relatório eletrônico. As etapas podem ser realizadas em qualquer empresa, porque as configurações de ER são compartilhadas entre as empresas. 
 
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
+1. Acesse Administração da organização > Relatório eletrônico > Configurações.
     * Verifique se a árvore de configurações contém a configuração de "Modelo de dados de amostra" e subordine os itens. Se não, conclua as etapas na guia de tarefas, ER Gerenciar configurações de mapeamento de modelo, e inicie este guia novamente.   
 
 ## <a name="define-the-dependency-of-er-configurations-from-other-components"></a>Definir a dependência de configurações de ER de outros componentes
@@ -135,7 +133,13 @@ Excluiremos as configurações criadas do sistema e as baixaremos novamente do r
 22. Feche a página.
 23. Feche a página.
 24. Feche a página.
-25. Vá para Administração da organização > Relatório eletrônico > Configurações.
+25. Acesse Administração da organização > Relatório eletrônico > Configurações.
 26. Na árvore, expanda 'Modelo de dados de amostra'.
     * Observe que a configuração de mapeamento do modelo "Mapeamento de amostra" foi baixada com a configuração selecionada do modelo de dados. Os dois arquivos são baixados juntos porque o "Mapeamento de amostra" foi definido como implementação do modelo de dados selecionado e porque é aplicável ao aplicativo. A configuração "Mapeamento de amostra (alternativo)" não foi baixada porque a condição para a versão do aplicativo necessária não foi satisfeita.   
     * Se você se conectar ao Finance and Operations, registrar o mesmo provedor, acessar o mesmo projeto de LCS e baixar a mesma configuração do modelo de dados, a configuração "Mapeamento de amostra (alternativo)" será baixada, enquanto a configuração "Mapeamento de amostra" será ignorada.  
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Gerenciar o ciclo de vida da configuração de Relatório eletrônico (ER)](../general-electronic-reporting-manage-configuration-lifecycle.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

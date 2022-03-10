@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 2da0421bdb1496d51c807e51a26a980238886a42dfec167dac95611cc3df97bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730025"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102818"
 ---
 # <a name="cluster-position-full"></a>Posição de cluster completa
 
@@ -28,14 +28,11 @@ O recurso *Posição de cluster completa* oferece uma alternativa a uma aplicaç
 
 Este recurso introduz a capacidade de executar o botão **Completo** em uma das unidades de trabalho em um cluster. Em versões anteriores, essa opção estava disponível apenas para a separação de ordem normal, não para a separação de cluster. No entanto, este recurso difere do botão **Completo** padrão, pois cancela o trabalho restante. Ele não sugere que o usuário adicione outro compartimento ao mesmo cluster e não cria um novo trabalho automaticamente.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>Ativar o recurso Posição de cluster completa
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Ativar ou desativar o recurso Posição de cluster completa
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para usar a funcionalidade descrita neste tópico, o recurso *Posição de cluster completa* deve estar ativado no sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Posição de cluster completa* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Posição de cluster completa*
-
-## <a name="setup"></a>Configurar
+## <a name="setup"></a>Configuração
 
 Esta seção fornece diretrizes e um exemplo que mostra como configurar e usar o recurso *Posição de cluster completa*.
 

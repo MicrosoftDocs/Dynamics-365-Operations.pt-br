@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cb1e0a4305ed04c1d2483f24cb93bc00e1b880d39dfe244ad9f0e7f9fc57a1ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 475e872a95e544c477063e1850bed2523fc3e2b5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765005"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344646"
 ---
 # <a name="sped-reinf-events"></a>Eventos SPED-Reinf
 
@@ -292,7 +292,7 @@ A geração deste evento requer a adoção da nova semântica para tratamento de
 
 - As notas fiscais são registradas e sincronizadas no estabelecimento fiscal e no período relacionado.
 - As notas fiscais têm o status de **Aprovada** ou **Cancelada**.
-- O modelo de documento fiscal é **04** ou **55** (um número de série entre 920 e 969). 
+- O modelo da nota fiscal é **04** or **55**. 
 - O tipo de imposto é **INSS** e é retido (ou seja, a caixa de seleção **Imposto retido/a recuperar** é marcada).
 - O tipo de imposto é **Outro**, é retido (ou seja, a caixa de seleção **Imposto retido/a recuperar** é marcada), e os impostos GILRAT ou SENAR são identificados.
 

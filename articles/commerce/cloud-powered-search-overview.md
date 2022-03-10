@@ -2,36 +2,29 @@
 title: Visão geral da pesquisa habilitada para a nuvem
 description: Este tópico fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/29/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410066"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983660"
 ---
 # <a name="cloud-powered-search-overview"></a>Visão geral da pesquisa habilitada para a nuvem
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 A descoberta de produto ajuda a garantir que clientes podem encontrar produtos rápido e facilmente navegando em categorias, pesquisa e filtros. Os varejistas consideram a descoberta de produtos a principal ferramenta para a interação com os clientes em todos os canais.
 
@@ -47,7 +40,7 @@ A importância e o desempenho da pesquisa são fatores-chave da experiência de 
 
 A ilustração a seguir mostra um exemplo típico da funcionalidade de consulta e pesquisa.
 
-![Página de aterrissagem de pesquisa](./media/SearchLanding.png)
+![Página de aterrissagem de pesquisa.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Navegação multifacetada e resumo de escolha 
 
@@ -57,7 +50,7 @@ Usando a navegação multifacetada, você pode configurar refinadores para termo
 
 A ilustração a seguir mostra um exemplo na navegação multifacetada usada em uma pesquisa.
 
-![Resumo de escolhas](./media/ChoiceSummary.png)
+![Resumo de escolhas.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Sugestão automática imersiva
 
@@ -67,7 +60,7 @@ Dynamics 365 Commerce também oferece suporte a funcionalidade de resultados da 
 
 A ilustração a seguir mostra um exemplo de sugestão automática mais imersiva sendo usada.
 
-![sugestão automática imersiva](./media/ImmersiveAutoSuggestUX.png)
+![sugestão automática imersiva.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Classificar
 
@@ -75,10 +68,13 @@ A classificação avançada no Dynamics 365 Commerce permite que cliente classif
 
 >[!NOTE]
 >Esses recursos de pesquisa habilitados para a nuvem estão disponíveis a partir da versão 10.0.8. Verifique se em **Parâmetros do Commerce > Parâmetros de Configuração** há uma entrada para "ProductSearch.UseAzureSearch definido como 'true'". 
-![Parâmetros de configuração para pesquisa habilitada para a nuvem](./media/CloudPoweredSearchConfigurationParameters.png)
+![Parâmetros de configuração para pesquisa habilitada para a nuvem.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa](category-search-page-overview.md)
 
 [Gerenciar metadados de SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

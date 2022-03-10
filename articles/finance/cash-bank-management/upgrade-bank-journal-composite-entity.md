@@ -1,34 +1,31 @@
 ---
-title: Atualizar a entidade composta do diário de banco
-description: Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a BankJournalEntity composto.
-author: ShylaThompson
-manager: panolte
+title: ​Atualizar a entidade composta de diário bancário​
+description: Este tópico lista as etapas necessárias para incluir um campo adicional de BankTransactionType a BankJournalEntity composto.
+author: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0d4334e9aa333aad116f0a0291d9175268661f11
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440215"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595425"
 ---
-# <a name="update-the-bank-journal-composite-entity"></a>Atualizar a entidade composta do diário de banco
+# <a name="update-the-bank-journal-composite-entity"></a>​Atualizar a entidade composta de diário bancário​
 
 [!include [banner](../includes/banner.md)]
 
-Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a BankJournalEntity composto.
+Este tópico lista as etapas necessárias para incluir um campo adicional de BankTransactionType a BankJournalEntity composto.
 
 Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a BankJournalEntity composto.
 
@@ -55,3 +52,6 @@ Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

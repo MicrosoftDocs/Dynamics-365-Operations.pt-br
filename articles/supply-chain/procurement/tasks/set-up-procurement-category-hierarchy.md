@@ -1,25 +1,23 @@
 ---
 title: Configurar uma hierarquia de categorias de compras
 description: Este procedimento mostra como criar novos nós em uma hierarquia de categorias de aquisição e como configurar uma categoria de aquisição para ser usada em um processo de aquisição.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a625ae5acc6d47b40a31b986da25df8f2d3fdbc8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017307"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577063"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Configurar uma hierarquia de categorias de compras
 
@@ -29,7 +27,7 @@ Este procedimento mostra como criar novos nós em uma hierarquia de categorias d
 
 
 ## <a name="add-a-new-procurement-category"></a>Adicione uma nova categoria de aquisição.
-1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Consignação > Categorias de compras**.
+1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Consignação > Categorias de compras**.
 2. No Painel de Ações, selecione **Editar hierarquia de categoria**. A hierarquia de categorias de aquisição atual é exibida no lado esquerdo da página. Você está prestes a modificar a hierarquia.  
 3. No Painel de Ações, selecione **Novo nó de categoria**. O sistema seleciona o nó superior por padrão. Se você estiver executando esse procedimento como um guia de tarefa, é possível clicar no botão Desbloquear e selecionar outro nó superior onde irá inserir o novo nó. Assim que isso for feito, bloqueie o guia de tarefa novamente e clique em Novo nó de categoria.  
 4. No campo **Nome**, digite um valor.
@@ -38,9 +36,12 @@ Este procedimento mostra como criar novos nós em uma hierarquia de categorias d
 7. Selecione **Salvar**.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Adicionar produtos a sua nova categoria de aquisição
-1. Vá para **Compras e fornecimento > Consignação > Categorias de compras**. Selecione o nó que você acabou de adicionar. Se você estiver executando este procedimento como um guia de tarefa você talvez precise desbloquear o guia de tarefa para selecionar o nó.  
+1. Acesse **Compras e fornecimento > Consignação > Categorias de compras**. Selecione o nó que você acabou de adicionar. Se você estiver executando este procedimento como um guia de tarefa você talvez precise desbloquear o guia de tarefa para selecionar o nó.  
 2. Ative a expansão da seção **Produtos**.
 3. Selecione **Adicionar** para associar produtos à categoria de compras.
 4. Selecione os produtos que você deseja adicionar à categoria de compras.
 5. Selecione a seta para adicionar os produtos à tabela **Selecionados**.
 6. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

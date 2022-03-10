@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345289"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068835"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e borda
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> A carga de trabalho de execução de fabricação está disponível na versão preliminar neste momento.
+> [!IMPORTANT]
+> A carga de trabalho de execução de fabricação está disponível no momento apenas na versão preliminar.
+>
 > Algumas funcionalidades comerciais não têm suporte total na versão preliminar pública quando unidades de escala de carga de trabalho são usadas.
+>
+> Não é possível executar a carga de trabalho de execução de fabricação de versão preliminar em uma unidade de escala em que a carga de trabalho de execução do depósito também é instalada.
 
 Na execução de fabricação, as unidades de escala fornecem os seguintes recursos:
 
@@ -128,6 +131,22 @@ Na versão atual, as operações de relatar como finalizado e guardar (para prod
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Habilitar e usar a operação de início em uma unidade de escala
+
+Na versão atual, a operação de início para ordens de produção e lote é compatível pela [carga de trabalho de execução do depósito](cloud-edge-workload-warehousing.md) (não a carga de trabalho de execução de fabricação). Portanto, para usar esta funcionalidade em que você está conectado a uma unidade de escala, você deve concluir estas tarefas:
+
+- Instale a carga de trabalho de execução do armazém e a carga de trabalho de execução de fabricação na sua unidade de escala.
+- Habilite o recurso *Iniciar a ordem de produção na carga de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda* em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Use o Warehouse Management Mobile app para iniciar a ordem de produção ou de lote.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Habilitar e usar consumo de material em uma unidade de escala
+
+Na versão atual, o fluxo no Warehouse Management Mobile app para registrar o consumo de material tem suporte da [carga de trabalho de execução de depósito](cloud-edge-workload-warehousing.md) (não a carga de trabalho de execução de fabricação). Portanto, para usar esta funcionalidade em que você está conectado a uma unidade de escala, você deve concluir estas tarefas:
+
+- Instale a carga de trabalho de execução do armazém e a carga de trabalho de execução de fabricação na sua unidade de escala.
+- Habilite o recurso *Registrar consumo de materiais no aplicativo móvel em uma unidade de escala* em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Use o Warehouse Management Mobile app para registrar o consumo de material.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

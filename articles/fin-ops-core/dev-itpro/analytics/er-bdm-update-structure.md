@@ -2,11 +2,9 @@
 title: Atualizar a estrutura de um modelo de documento comercial
 description: Este tópico explica como atualizar a estrutura de um modelo de documento comercial usando o recurso de gerenciamento de documentos comerciais.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
-ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
+ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "4728080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775277"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Atualizar a estrutura de um modelo de documento comercial 
 
@@ -60,7 +58,7 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 
     O novo modelo é aberto para edição no controle incorporado do Excel Online na página Editor de modelos.
 
-[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para iniciar a edição de um modelo de documento comercial](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para iniciar a edição de um modelo de documento comercial.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Analisar a estrutura atual do modelo editável
 
@@ -70,7 +68,7 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 4. No painel **Estrutura de modelos**, expanda **Relatório \> Fatura \> rptHeader \> rptHeaderPart1**.
 5. Observe que, na estrutura de modelos no Finance, o item **rptHeaderCompLogo** tem um item filho de **Relatório \> Fatura \> rptHeader \> rptHeaderPart1**.
 
-[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para analisar a estrutura atual de um modelo editável](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para analisar a estrutura atual de um modelo editável.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Atualizar a estrutura de um modelo de documento comercial excluindo uma imagem
 
@@ -87,7 +85,7 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 4. No painel **Estrutura de modelos**, expanda **Relatório \> Fatura \> rptHeader \> rptHeaderPart1**.
 5. Observe que o item **rptHeaderCompLogo** não está mais incluído na estrutura de modelos no Finance.
 
-[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para excluir uma imagem de um modelo de documento comercial](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para excluir uma imagem de um modelo de documento comercial.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Atualizar a estrutura de um modelo de documento comercial adicionando uma imagem
 
@@ -99,10 +97,13 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 6. No painel **Estrutura de modelos**, expanda **Relatório \> Fatura \> rptHeader \> rptHeaderPart1**.
 7. Observe que a nova imagem agora está incluída como um item na estrutura de modelos no Finance.
 
-[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para adicionar uma imagem a um modelo de documento comercial](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para adicionar uma imagem a um modelo de documento comercial.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Links relacionados
 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
 [Visão geral de gerenciamento de documentos comerciais](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

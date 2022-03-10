@@ -2,11 +2,9 @@
 title: Conteúdo do Power BI real vs orçamento
 description: Este tópico descreve o Conteúdo do Power BI real versus orçamento. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados.
 author: panolte
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093839"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737894"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Conteúdo do Power BI real vs orçamento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o conteúdo **Real vs orçamento** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
+Este tópico descreve o conteúdo **Real vs. orçamento** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -57,3 +55,6 @@ A tabela a seguir fornece detalhes sobre as métricas encontradas em cada págin
 | Razões                   | Razões que podem ser usados para filtrar relatório para o razão atual              |
 | Códigos de orçamento              | Códigos de orçamento para filtrar relatórios                                                |
 | Entidades legais            | Entidades legais que podem ser usadas para filtrar relatório para a entidade legal atual |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

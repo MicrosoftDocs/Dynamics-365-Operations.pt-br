@@ -1,7 +1,7 @@
 ---
 title: Criar um recurso de operações
 description: Um recurso de operações executa as atividades de um projeto ou um processo de produção.
-author: sorenva
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ab91c449293338469fa2832156a85c4c32301fd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90535d3a6cf58fc10309cf035bc74143a96c2add
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829033"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576847"
 ---
 # <a name="create-an-operations-resource"></a>Criar um recurso de operações
 
@@ -27,7 +27,7 @@ ms.locfileid: "5829033"
 
 Um recurso de operações executa as atividades de um projeto ou um processo de produção. Estes procedimentos mostram como definir um recurso de operações. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 
-1. Vá para Recursos.
+1. Acesse Recursos.
 2. Clique em Novo.
 3. No campo Recurso, digite um valor.
 4. No campo Descrição, digite um valor.

@@ -2,7 +2,6 @@
 title: Configurar segurança do conteúdo do Power BI da análise de Contabilidade de custos
 description: Este tópico explica como você pode propagar a segurança de nível de acesso em Contabilidade de custos para a segurança em nível de linha no Microsoft Power BI.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 10b87d01fd1172f4509f6fa803522eb25e73f9f5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559666"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751482"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Configurar segurança do conteúdo da análise de contabilização de custos do Power BI
 
@@ -43,11 +42,11 @@ Para propagar a segurança de nível de acesso ao Power BI, o proprietário do c
 3. Localize o conjunto de dados para o conteúdo de **Análise de contabilidade de custos** do Power BI.
 4. Abra a página de segurança.
 
-    ![Abrindo a página de segurança](./media/CA-picture-1.png)
+    ![Abrindo a página de segurança.](./media/CA-picture-1.png)
 
 5. A função **Controlador de objeto de custo** já está criada. Adicione outros membros que fazem parte da hierarquia organizacional do nível de acesso da contabilidade de custos.
 
-    ![Adicionando membros](./media/CA-picture-2.png)
+    ![Adicionando membros.](./media/CA-picture-2.png)
 
 Os usuários que forem adicionados à função **Controlador de objeto de custo** verão apenas os dados que eles estão autorizados a ver, de acordo com a definição na hierarquia organizacional de nível de acesso da contabilidade de custos.
 

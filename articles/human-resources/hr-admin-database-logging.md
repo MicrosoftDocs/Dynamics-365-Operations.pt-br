@@ -1,16 +1,13 @@
 ---
 title: Configurar e gerenciar o log de banco de dados
 description: É possível rastrear alterações em tabelas e campos no Dynamics 365 Human Resources com o log de banco de dados.
-author: andreabichsel
-manager: tfehr
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 50346cc495fe08f49137dba59dbcbb3f7f838c7b
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129270"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066431"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurar e gerenciar o log de banco de dados
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 É possível rastrear alterações em tabelas e campos no Dynamics 365 Human Resources com o log de banco de dados. Este tópico descreve como:
 
@@ -65,8 +67,23 @@ Para melhorar o desempenho, limite as entradas de log selecionando campos espec�
 
 Você pode usar o assistente **Registrando alterações do banco de dados** para configurar o log de banco de dados. O assistente fornece uma maneira flexível de configurar o log de tabelas ou campos.
 
-1. Vá para **Administração do sistema > Links > Banco de dados > Configuração do log de banco de dados**. Selecione **Novo** para iniciar o assistente **Registrando alterações do banco de dados**.
-2. Conclua o assistente.
+1. Acesse **Administração do sistema > Links > Banco de dados > Configuração do log de banco de dados**. Selecione **Novo** para iniciar o assistente **Registrando alterações do banco de dados**.
+2. Selecione **Avançar**. 
+3. Na página **Tabelas e campos** do assistente, selecione as tabelas e os campos em que deseja habilitar o log de banco de dados e selecione **Avançar**.
+
+   > [!Note]
+   > O log de banco de dados não está disponível em todas as tabelas do banco de dados de Recursos Humanos. Selecionar **Mostrar todas as tabelas** abaixo da lista expande a lista de tabelas e campos para mostrar todas as tabelas do banco de dados para as quais o log de banco de dados está disponível, mas isso será um subconjunto da lista completa de tabelas de banco de dados.
+
+4. Na página **Tipos de alteração** do assistente, selecione as operações de dados para as quais deseja rastrear alterações em cada uma das tabelas e dos campos e, em seguida, selecione **Avançar**. Consulte a tabela abaixo para obter uma descrição das operações de dados disponíveis para registro em log.
+5. Na página **Concluir**, revise as alterações que serão feitas e selecione **Concluir**.
+
+| Operação | descrição |
+| -- | -- |
+| Controlar novas transações | Crie um log para novos registros criados na tabela. |
+| Atualização | Crie um log para atualizações em registros de tabela ou atualizações de campos selecionados individualmente na tabela. Se você optar por registrar em log as atualizações da tabela, um registro em log será criado sempre que uma atualização for feita em qualquer campo de qualquer registro na tabela. Se você optar por registrar em log as atualizações de campos específicos, um registro em log será criado somente quando atualizações forem feitas nesses campos de registros de tabela. |
+| Delete | Crie um log para registros excluídos da tabela. |
+| Renomear chave | Crie um registro em log quando uma chave da tabela for renomeada. |
+
 
 ## <a name="clean-up-database-logs"></a>Limpar logs do banco de dados
 
@@ -78,12 +95,15 @@ Você pode excluir todos os logs de banco de dados ou parte deles, usando as seg
 
 Para configurar a limpeza do log de banco de dados, siga estas etapas: 
 
-1. Vá para **Administração do sistema > Links > Banco de dados > Log de banco de dados**. Selecione **Limpar log**.
+1. Acesse **Administração do sistema > Links > Banco de dados > Log de banco de dados**. Selecione **Limpar log**.
+2. No cabeçalho **Registros a serem incluídos**, selecione **Filtro**.
+3. Escolha o método que será usado para selecionar os logs a serem excluídos. Insira uma das seguintes opções:
 
-2. Escolha um método de seleção de logs a serem excluídos, inserindo uma das seguintes opções:
-
-   - ID da Tabela
+   - ID da tabela
    - Tipo de log
    - Data e hora de criação
 
-3. Use a guia **Limpeza de log de banco de dados** para determinar quando a tarefa de limpeza de log deve ser executada. Por padrão, os logs do banco de dados ficam disponíveis por 30 dias.
+4. Use a guia **Limpeza de log de banco de dados** para determinar quando a tarefa de limpeza de log deve ser executada. Por padrão, os logs do banco de dados ficam disponíveis por 30 dias.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

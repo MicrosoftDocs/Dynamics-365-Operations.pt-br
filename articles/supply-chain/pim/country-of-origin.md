@@ -1,37 +1,34 @@
 ---
 title: País de origem
 description: Muitas organizações emitem certificados para seus fornecedores a fim de garantir que os produtos atendam a padrões de certificação específicos. Esses certificados geralmente dependem do país de origem. Este tópico fornece informações sobre o recurso de país de origem, que permite vincular um produto ao país de origem e monitorar as certificações de produtos.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2eaf0057123cd2cbcad00f95038627291dada517
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007797"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777612"
 ---
 # <a name="country-of-origin"></a>País de origem
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Muitas organizações emitem certificados para seus fornecedores a fim de garantir que os produtos atendam a padrões de certificação específicos. Esses certificados geralmente dependem do país de origem. O recurso de país de origem permite vincular um produto ao país de origem e monitorar as certificações de produtos.
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Ativar o recurso de país de origem
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
 
 - **Módulo:** *Gerenciamento de informações sobre produtos*
 - **Nome do recurso:** *Recurso de gerenciamento do país de origem*
@@ -40,7 +37,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 Antes de emitir um certificado para um produto, você deve vincular o produto ao país de destino e ao país de origem.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> País de origem \> Regras do país de origem**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> País de origem \> Regras do país de origem**.
 2. Selecione uma configuração de país existente para editá-la ou selecione **Novo** no Painel de Ação para criar uma nova configuração de país.
 3. Defina os valores a seguir para o país novo ou selecionado.
 
@@ -60,7 +57,7 @@ Você deve decidir quais documentos de certificado está emitindo e como vai rel
 
 Para configurar as informações sobre o certificado, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> País de origem \> Certificados de fornecedores do país de origem**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> País de origem \> Certificados de fornecedores do país de origem**.
 2. Selecione uma configuração de certificado existente para editá-la ou selecione **Novo** no Painel de Ação para criar uma nova configuração de certificado.
 3. Defina as configurações a seguir para o certificado novo ou selecionado.
 
@@ -80,7 +77,7 @@ Para configurar as informações sobre o certificado, siga estas etapas.
 
 Ao gerar um relatório de BOM, você pode incluir o país de origem de cada peça para a qual especificou países de origem e de destino na página **Regras do país de origem**.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione ou crie um produto para abrir sua página **Detalhes do produto liberado**.
 1. No Painel de Ação, na guia **Engenharia**, no grupo **BOM**, selecione **Designer**.
 1. Na página exibida, no Painel de Ação, selecione **BOM \> Imprimir**.
@@ -89,4 +86,7 @@ Ao gerar um relatório de BOM, você pode incluir o país de origem de cada peç
 
 Um relatório que mostra informações sobre o país de origem de cada peça é gerado e exibido. Veja aqui um exemplo do relatório.
 
-![Relatório sobre o país de origem](media/country-of-origin-report.png "Relatório sobre o país de origem")
+![Relatório sobre o país de origem.](media/country-of-origin-report.png "Relatório sobre o país de origem")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

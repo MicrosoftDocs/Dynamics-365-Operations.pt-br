@@ -2,11 +2,9 @@
 title: Relatar uma ordem de produção como concluída
 description: Este procedimento mostra como relatar uma ordem de produção como concluída.
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd, ProdSetupReportFinished
 audience: Application User
@@ -15,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4848093bd4901d3aa801fc09d7ee3e79d65ebb0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: aa27691942b27886e85c52b7b3a736a62db7b7bd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204440"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580591"
 ---
 # <a name="report-a-production-order-as-finished"></a>Relatar uma ordem de produção como concluída
 
@@ -31,7 +29,7 @@ Este procedimento mostra como relatar uma ordem de produção como concluída. A
 
 
 ## <a name="report-a-production-order-as-finished"></a>Relatar uma ordem de produção como concluída
-1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
     * Selecione uma ordem de produção com o status Iniciada.  
 2. No Painel de Ação, clique em Ordem de produção.
 3. Clique em Relatar como concluído.

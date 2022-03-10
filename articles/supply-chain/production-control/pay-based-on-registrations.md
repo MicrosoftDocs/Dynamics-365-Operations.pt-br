@@ -2,28 +2,25 @@
 title: Pagamento com base em registros
 description: Este tópico explica como o pagamento é calculado com base em registros de trabalhador.
 author: johanhoffmann
-manager: tfehr
 ms.date: 03/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8e92759bd567a973a0d3bce7b8b99be1edbc0e1e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715713"
 ---
 # <a name="pay-based-on-registrations"></a>Pagamento com base em registros
 
@@ -171,9 +168,9 @@ Para configurar o sistema para distinguir bem período padrão e horas extras, e
 
 Na página **Parâmetros de cálculo**, selecione **Hora extra** como o tipo de especificação do perfil, e defina a opção **Período de pagamento** como **Não**, conforme mostrado aqui.
 
-| Especificação de reg. | Tipo de especificação de perfil | Cálculo   |     | Pagamento         |     |
+| Especificação de reg. | Tipo de especificação de perfil | Cálculo   | Configuração | Pagamento         | Configuração |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Horário de trabalho       | Hora extra                   | Período padrão | Sim | Pagar hora     | Não  |
+| Horário de trabalho       | Hora Extra                   | Período padrão | Sim | Pagar hora     | Não  |
 |                    |                            | Pagar hora      | Sim | Pagar hora extra | Sim |
 
 Após você ajustar os parâmetros de cálculo, os itens de pagamento a seguir serão gerados.
@@ -562,7 +559,7 @@ Em contraste, se a caixa seleção **Deduzir hora extra** for desmarcada para o 
 
 O exemplo a seguir mostra como a conta flexível de um trabalhador pode ser reduzida convertendo o período de ausência em um período Flex-.
 
-O trabalhador entra às 07:00 e sai às 13:00. Ele chegou a um acordo com a supervisora de folgar no fim de semana desde que deduza essas horas da sua conta flexível. Quando o trabalhador sai às 13:00, ele é solicitado a selecionar um código de ausência, pois o período de ausência referente ao restante do dia de trabalho que é afetado não faz parte de um período Flex- planejado. Para converter o restante do dia de trabalho em um período Flex-, o trabalhador pode selecionar um código de ausência que está configurado para reduzir sua conta flexível.
+O trabalhador entra às 07:00 e sai às 13:00. O trabalhador tem um contrato segundo o qual ele pode ir para casa no fim de semana se descontar essas horas de sua conta flexível. Quando o trabalhador sai às 13:00, ele é solicitado a selecionar um código de ausência, pois o período de ausência referente ao restante do dia de trabalho que é afetado não faz parte de um período Flex- planejado. Para converter o restante do dia de trabalho em um período Flex-, o trabalhador pode selecionar um código de ausência que está configurado para reduzir sua conta flexível.
 
 Para reduzir o saldo de horas flexíveis dos trabalhadores que registram a ausência em um dia de trabalho, selecione **Horário e presença** &gt; **Configuração** &gt; **Grupos** &gt; **Grupos de ausência** e a caixa de seleção **Reduzir limite flexível**.
 
@@ -599,3 +596,6 @@ Se o trabalhador não aparece para trabalhar em um dia útil, e não há ausênc
 - Inserção automática de ausência
 
 Quando os registros diários são calculados para um trabalhador que está habilitado para horas flexíveis, o código de ausência especificado no campo **Inserção automática de flex-** é usado como um código de ausência padrão. Se o trabalhador não está habilitado para horas flexíveis, o código de ausência especificado no campo **Inserção automática de ausência** é usado. Se uma empresa tem uma combinação de trabalhadores habilitados para horas flexíveis e trabalhadores não habilitados para horas flexíveis, ambos os parâmetros devem ser definidos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

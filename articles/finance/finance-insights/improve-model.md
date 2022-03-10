@@ -1,12 +1,10 @@
 ---
-title: Melhorar o modelo de previsão (versão preliminar)
+title: Melhorar o modelo de previsão
 description: Este tópico descreve recursos que podem ser usados para melhorar o desempenho de modelos de previsão.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1028af6e702f2118fabcbc71b17daca36072c691
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208451"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595028"
 ---
-# <a name="improve-the-prediction-model-preview"></a>Melhorar o modelo de previsão (versão preliminar)
+# <a name="improve-the-prediction-model"></a>Melhorar o modelo de previsão
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve recursos que podem ser usados para melhorar o desempenho de modelos de previsão. Comece a melhorar seu modelo no espaço de trabalho **Previsões de pagamento de cliente** no Microsoft Dynamics 365 Finance. As etapas de melhoria são concluídas no AI Builder.
 
@@ -35,7 +32,7 @@ Este tópico descreve recursos que podem ser usados para melhorar o desempenho d
 
 Primeiro, selecione um ou mais dos três resultados possíveis para faturas: **No prazo**, **Atrasado** e **Muito atrasado**. Todos os três resultados devem ser selecionados. Se você desmarcar a seleção de qualquer um dos resultados, as faturas serão filtradas do processo de treinamento e a precisão da previsão será reduzida.
 
-[![Confirmação de resultados](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Confirmação de resultados.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Se a sua organização exigir apenas dois resultados, altere os limites **Atrasado** e **Muito atrasado** para 0 (zero) dias. Dessa forma, você efetivamente recolhe a predição a um estado binário de **No prazo** ou **Atrasado**.
 
@@ -53,7 +50,7 @@ As seções a seguir mostram os campos disponíveis para as entidades de fatura 
 
 A ilustração a seguir mostra os campos disponíveis para a tabela de fatura.
 
-[![Campos disponíveis para a tabela de fatura](./media/available-fields.png)](./media/available-fields.png)
+[![Campos disponíveis para a tabela de fatura.](./media/available-fields.png)](./media/available-fields.png)
 
 Os campos a seguir não devem ser selecionados para treinamento:
 
@@ -68,7 +65,7 @@ Os campos a seguir não devem ser selecionados para treinamento:
 
 A ilustração a seguir mostra os campos disponíveis para a tabela de clientes.
 
-[![Campos disponíveis para a tabela de clientes](./media/related-entities.png)](./media/related-entities.png)
+[![Campos disponíveis para a tabela de clientes.](./media/related-entities.png)](./media/related-entities.png)
 
 O campo a seguir não deve ser selecionados para treinamento:
 
@@ -76,12 +73,8 @@ O campo a seguir não deve ser selecionados para treinamento:
 
 ## <a name="filters"></a>Filtros
 
-No momento, os filtros não dão suporte ao cenário Previsão de pagamento do cliente. Portanto, selecione **Ignorar esta etapa** e prossiga para a página de resumo.
+Você pode filtrar as faturas que são usadas para treinamento, definindo critérios de filtragem para campos na fatura ou nas tabelas do cliente. Por exemplo, você pode definir um limite para incluir somente faturas em que o total seja igual a ou exceda um valor específico. Como alternativa, você pode excluir as faturas associadas a clientes de um grupo de clientes específico.
 
-[![Modelo de foco com filtros](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
-
-#### <a name="privacy-notice"></a>Aviso de privacidade
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
+Para obter mais informações sobre como filtrar os dados, consulte [criar um modelo de previsão](/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

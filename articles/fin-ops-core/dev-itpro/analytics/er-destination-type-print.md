@@ -2,7 +2,6 @@
 title: Tipo de destino de ER da impressora
 description: Este tópico explica como configurar um destino de impressora para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 19613d9dfba21d591d96a2df45bedb80c043b3a7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561941"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712703"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino da impressora
 
@@ -31,16 +30,16 @@ Você pode enviar um documento gerado diretamente para uma impressora da rede pa
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de começar, você deve instalar e configurar o Agente de Roteamento de Documentos e registrar as impressoras da rede. Para obter mais informações, consulte [Instalar o Agente de Roteamento de Documentos para habilitar a impressão de rede](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent).
+Antes de começar, você deve instalar e configurar o Agente de Roteamento de Documentos e registrar as impressoras da rede. Para obter mais informações, consulte [Instalar o Agente de Roteamento de Documentos para habilitar a impressão de rede](./install-document-routing-agent.md).
 
 ## <a name="make-the-printer-destination-available"></a>Disponibilizar o destino da impressora
 
-Para disponibilizar o destino da **Impressora** na instância atual do Microsoft Dynamics 365 Finance, vá para o espaço de trabalho **Gerenciamento de recursos** e ative os seguintes recursos, nesta ordem:
+Para disponibilizar o destino da **Impressora** na instância atual do Microsoft Dynamics 365 Finance, Acesse o espaço de trabalho **Gerenciamento de recursos** e ative os seguintes recursos, nesta ordem:
 
 1. Converta os documentos de saída do Relatório Eletrônico de formatos do Microsoft Office em PDF.
 2. Agente de Roteamento de Documentos como destino do Relatório Eletrônico para documentos de saída
 
-[![Ativando o recurso de destino da impressora do ER no Gerenciamento de recursos](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Ativando o recurso de destino da impressora do ER no Gerenciamento de recursos.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Aplicabilidade
 
@@ -54,9 +53,9 @@ O destino da **Impressora** é implementado somente para implantações em nuvem
 
 1. Defina a opção **Habilitado** como **Sim** para enviar um documento gerado para uma impressora.
 2. No campo **Nome da impressora**, selecione a impressora de rede necessária.
-3. Defina a opção **Salvar em arquivo de impressão?** como **Sim** para armazenar a saída gerada no arquivo de impressão, de modo que ela esteja disponível para impressão futura. Para acessar posteriormente a saída arquivada, vá para **Administração da organização** \> **Consultas e relatórios** \> **Arquivo de relatório**.
+3. Defina a opção **Salvar em arquivo de impressão?** como **Sim** para armazenar a saída gerada no arquivo de impressão, de modo que ela esteja disponível para impressão futura. Para acessar posteriormente a saída arquivada, Acesse **Administração da organização** \> **Consultas e relatórios** \> **Arquivo de relatório**.
 
-[![Usando o destino da Impressora](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Usando o destino da Impressora.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > A opção **Converter em PDF** não precisa ser ativada quando você configura o destino da **Impressora**. A conversão em PDF para fins de impressão ocorrerá mesmo que a opção seja desativada.

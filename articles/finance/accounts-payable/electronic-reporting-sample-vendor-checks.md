@@ -1,12 +1,10 @@
 ---
 title: Amostra de relatório eletrônico para cheques de fornecedores
 description: Este tópico fornece informações gerais sobre como usar a amostra de relatório eletrônico para formatos de cheque.
-author: ShylaThompson
-manager: AnnBe
+author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 50dbc8c3c2d95ca4ec0dab02e9f790c06e4dbc63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2e1aa349b505713d0502aa90ddd5c3caff1f083c
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003472"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595170"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Amostra de relatório eletrônico para cheques de fornecedores
 
@@ -36,10 +34,13 @@ O Microsoft Dynamics 365 Finance inclui um formato de exemplo no qual o cheque e
 
 ## <a name="what-do-i-have-to-set-up"></a>O que eu tenho que configurar?
 
-- Antes de imprimir cheques usando o ER, ao menos uma configuração ativa do cheque deve ser importada para as suas configurações de ER. Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+- Antes de imprimir cheques usando o ER, ao menos uma configuração ativa do cheque deve ser importada para as suas configurações de ER. Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 - Ao configurar os cheques de Gerenciamento de caixa e bancos para a conta bancária, marque a caixa de seleção **Formato de exportação eletrônico genérico** e, em seguida, selecione o formato de cheque apropriado como uma configuração de formato de exportação.
 - Você também deve especificar o número de linhas de guia que serão impressas na remessa. Certifique-se de incluir as linhas de cabeçalho ao calcular esse número. Para ambas as amostras de formato de cheque, o número recomendado de linhas de guia é 17. Porém, esse número pode variar, dependendo do estoque de cheque e dos drivers de impressora.
 - É recomendável imprimir um cheque de teste para validar o layout do cheque. Para imprimir um cheque de teste, selecione a opção **Imprimir teste**. Os formatos de cheque de exemplo funcionam melhor quando as **Margens** estão definidas como **Nenhuma** nas propriedades avançadas da impressora no Microsoft Excel. Após o cheque de teste ter sido gerado, habilite a edição da saída do Excel e configure o layout da página para que todas as margens sejam definidas como **0** (zero). Compare a cópia de teste dos cheques com o estoque de cheques e ajuste as configurações até ficar satisfeito com o alinhamento.
 - Ao gerar pagamentos para a conta bancária configurada no diário de pagamento, os cheques serão impressos com o formato especificado.
 
-Para obter mais informações, consulte [Modificar um formato de relatório eletrônico](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+Para obter mais informações, consulte [Modificar um formato de relatório eletrônico](../../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

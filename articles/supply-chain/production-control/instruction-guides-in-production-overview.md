@@ -1,34 +1,34 @@
 ---
 title: Fornecer guias de realidade combinada para trabalhadores na produção
 description: Este tópico explica como integrar o módulo de gerenciamento de produção no Microsoft Dynamics 365 Supply Chain Management ao Dynamics 365 Guides.
-author: cabeln
-manager: tfehr
+author: johanhoffmann
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 61943
+ms.custom:
+- "61943"
+- intro-internal
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: cabeln
+ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645135"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062943"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fornecer guias de realidade combinada para trabalhadores na produção
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 Os trabalhadores em processos de produção se beneficiarão das instruções relevantes fornecidas no momento certo no contexto do seu trabalho. As *instruções* se aplicam a vários domínios de trabalho, incluindo: montagem, serviço, operações, certificação e segurança. Em todas essas principais funções de negócios, as instruções de treinamento contínuo podem ajudar a capacitar os trabalhadores a produzir mais e a trabalhar melhor.
 
@@ -60,7 +60,7 @@ As subseções a seguir descrevem alguns cenários selecionados nos quais as emp
 
 ### <a name="assembly"></a>Montagem
 
-![Usar guias em tarefas de montagem](media/instruction-guides-hero-assembly.png "Usar guias em tarefas de serviço")
+![Usar guias em tarefas de montagem.](media/instruction-guides-hero-assembly.png "Usar guias em tarefas de serviço")
 
 As instruções nas operações de montagem mostram aos trabalhadores as ferramentas e as peças necessárias e como usá-las em situações reais de trabalho.
 
@@ -68,7 +68,7 @@ Os gerentes de produção podem criar e atribuir guias, por exemplo, para [rotei
 
 ### <a name="service"></a>Serviço
 
-![Usar guias em tarefas de serviço](media/instruction-guides-hero-service.png "Usar guias em tarefas de serviço")
+![Usar guias em tarefas de serviço.](media/instruction-guides-hero-service.png "Usar guias em tarefas de serviço")
 
 Capacite técnicos com instruções guiadas no local do trabalho, eliminando a necessidade de programar visitas adicionais.
 
@@ -76,7 +76,7 @@ Os gerentes de serviço podem atribuir guias, por exemplo, a [produtos específi
 
 ### <a name="quality"></a>Qualidade
 
-![Usar guias em tarefas de controle de qualidade](media/instruction-guides-hero-quality.png "Usar guias em tarefas de controle de qualidade")
+![Usar guias em tarefas de controle de qualidade.](media/instruction-guides-hero-quality.png "Usar guias em tarefas de controle de qualidade")
 
 Implemente novos processos e garanta maior consistência ao transformar o conhecimento dos funcionários em uma ferramenta repetível.
 
@@ -84,13 +84,13 @@ Os gerentes de controle de qualidade podem atribuir os guias, por exemplo, a [pr
 
 ### <a name="certifications"></a>Certificações
 
-![Usar guias para tarefas relacionadas à certificação](media/instruction-guides-hero-certification.png "Usar guias para tarefas relacionadas à certificação")
+![Usar guias para tarefas relacionadas à certificação.](media/instruction-guides-hero-certification.png "Usar guias para tarefas relacionadas à certificação")
 
 Certifique-se de que cada funcionário atenda a altos padrões, identificando rapidamente quem precisa de ajuda e onde.
 
 ### <a name="safety"></a>Segurança
 
-![Usar guias nas instruções de segurança do trabalho](media/instruction-guides-hero-safety.png "Usar guias nas instruções de segurança do trabalho")
+![Usar guias nas instruções de segurança do trabalho.](media/instruction-guides-hero-safety.png "Usar guias nas instruções de segurança do trabalho")
 
 Forneça instruções que orientem sobre procedimentos perigosos virtualmente antes de tentativas no ambiente físico. Com uma abordagem de realidade misturada, os funcionários podem experimentar procedimentos perigosos virtualmente.
 
@@ -105,15 +105,15 @@ Para habilitar as instruções em processos de produção, o Supply Chain Manage
 Para usar esse recurso, o sistema deve incluir o seguinte:
 
 - Dynamics 365 Supply Chain Management versão 10.0.15 ou posterior
-- [Gravação dupla](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write) para aplicativos do Supply Chain Management.
-- [Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versão 400.0.1.48 ou posterior
+- [Gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md) para aplicativos do Supply Chain Management.
+- [Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versão 400.0.1.48 ou posterior
 
 ### <a name="turn-on-the-feature"></a>Ativar o recurso
 
 Para disponibilizar o recurso no sistema, você deve habilitar suas chaves de configuração. Você precisa fazer isso apenas uma vez. Para isso, um administrador deve fazer o seguinte:
 
 1. Coloque seu sistema em modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
+1. Acesse **Administração de sistema \> Configurar \> Configuração de licença**.
 1. Expanda a seção **Realidade misturada** e marque a caixa de seleção **Guia de realidade misturada**.
 1. Expanda a seção **Gerenciamento de produção** e marque a caixa de seleção **Instruções de produção**.
 1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
@@ -122,7 +122,7 @@ Para disponibilizar o recurso no sistema, você deve habilitar suas chaves de co
 
 Para configurar como os guias são exibidos no chão de fábrica, acesse **Realidade misturada \> Dynamics 365 Guides \> Configurar a integração de guias**.
 
-![Configurar a integração de guias para manufatura](media/instruction-guides-configure-integration.png "Configurar a integração de guias para manufatura")
+![Configurar a integração de guias para manufatura.](media/instruction-guides-configure-integration.png "Configurar a integração de guias para manufatura")
 
 Defina os seguintes campos:
 
@@ -139,7 +139,7 @@ Defina os seguintes campos:
 
 Use a página **Todos os guias** para ver a lista de todos os guias disponíveis na sua organização e todas as atribuições aos seus processos e recursos de produção. Para abri-la, acesse **Realidade misturada \> Guias \> Todos os guias**. A lista na parte superior mostra todos os guias disponíveis, e você pode usar o campo aqui para filtrar a lista. A lista na parte inferior mostra todas as atribuições de guias e fornece uma barra de ferramentas para gerenciá-las.
 
-![Gerenciar guias](media/instruction-guides-allguides.png "Gerenciar guias")
+![Gerenciar guias.](media/instruction-guides-allguides.png "Gerenciar guias")
 
 As seções a seguir descrevem os tipos de objetos para os quais você pode atribuir guias. Cada guia atribuído fornece instruções anexadas automaticamente aos respectivos trabalhos de produção e estarão disponíveis no chão de fábrica.
 
@@ -160,7 +160,7 @@ Para adicionar um guia a um recurso:
 1. Expanda a FastTab **Guias associados**.
 1. Selecione **Adicionar** na barra de ferramentas **Guias associados**. Uma nova linha é adicionada à grade.
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir. Se você tiver muitos guias, poderá filtrar a lista para localizar o que está procurando.
-    ![Gerenciar guias](media/instruction-guides-allguides.png "Gerenciar guias")
+    ![Gerenciar guias.](media/instruction-guides-allguides.png "Gerenciar guias")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Associar um guia a um grupo de recursos
 
@@ -181,7 +181,7 @@ Para adicionar um guia a um grupo de recursos:
 1. Expanda a FastTab **Guias associados**.
 1. Selecione **Adicionar** na barra de ferramentas **Guias associados**. Uma nova linha é adicionada à grade.
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir. Se você tiver muitos guias, poderá filtrar a lista para localizar o que está procurando.
-    ![Adicionar um guia a um grupo de recursos](media/instruction-guides-resourcegroup.png "Adicionar um guia a um grupo de recursos")
+    ![Adicionar um guia a um grupo de recursos.](media/instruction-guides-resourcegroup.png "Adicionar um guia a um grupo de recursos")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Associar um guia a um produto liberado
 
@@ -195,13 +195,13 @@ Os guias de nível de produto ajudam os trabalhadores do chão de fábrica com i
 
 Para adicionar um guia a um produto liberado:
 
-1. Vá para **Gerenciamento de informações de produção \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações de produção \> Produtos \> Produtos liberados**.
 1. Abra o produto ao qual você deseja atribuir um guia.
 1. No Painel de ações, abra a guia **Engenheiro** e, no grupo **Exibir**, selecione **Guias associados**.
 1. A página **Guias associados** é aberta para o produto selecionado.
 1. Selecione **Adicionar** no Painel de ações para adicionar uma nova linha à grade. 
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir.
-    ![Adicionar um guia a um produto liberado](media/instruction-guides-ReleasedProduct-AddGuides.png "Adicionar um guia a um produto liberado")
+    ![Adicionar um guia a um produto liberado.](media/instruction-guides-ReleasedProduct-AddGuides.png "Adicionar um guia a um produto liberado")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Associar um guia a uma fórmula
 
@@ -226,7 +226,7 @@ Para adicionar um guia a uma fórmula:
 1. Expanda a FastTab **Guias associados**.
 1. Selecione **Adicionar** na barra de ferramentas **Guias associados**. Uma nova linha é adicionada à grade.
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir.
-    ![Adicionar um guia a uma fórmula](media/instruction-guides-Formula.png "Adicionar um guia a uma fórmula")
+    ![Adicionar um guia a uma fórmula.](media/instruction-guides-Formula.png "Adicionar um guia a uma fórmula")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Associar um guia a uma versão de fórmula
 
@@ -251,11 +251,11 @@ Para adicionar um guia a uma versão de fórmula:
 1. Abra a guia **Cabeçalho** acima da FastTab superior.
 1. Na FastTab **Versões da fórmula**, selecione a versão à qual você deseja atribuir um guia.
 1. Na barra de ferramentas **Versões de fórmula**, selecione **Guias associados**.
-    ![Abrir os guias associados a uma versão de fórmula selecionada](media/instruction-guides-FormulaVersion.png "Abrir os guia associados a uma versão de fórmula selecionada")
+    ![Abrir os guias associados a uma versão de fórmula selecionada.](media/instruction-guides-FormulaVersion.png "Abrir os guia associados a uma versão de fórmula selecionada")
 1. A página **Guias associados** é aberta para a versão de fórmula.
 1. Selecione **Adicionar** no Painel de ações para adicionar uma nova linha à grade. 
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir.
-    ![Adicionar um guia a uma versão de fórmula](media/instruction-guides-FormulaVersionAddGuide.png "Adicionar um guia a uma versão de fórmula")
+    ![Adicionar um guia a uma versão de fórmula.](media/instruction-guides-FormulaVersionAddGuide.png "Adicionar um guia a uma versão de fórmula")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Associar um guia a uma lista de materiais
 
@@ -278,7 +278,7 @@ Para adicionar um guia a uma lista de materiais:
 1. Expanda a FastTab **Guias associados**.
 1. Selecione **Adicionar** na barra de ferramentas **Guias associados**. Uma nova linha é adicionada à grade.
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir.
-    ![Adicionar um guia a uma BOM](media/instruction-guides-BOM.png "Adicionar um guia a uma BOM")
+    ![Adicionar um guia a uma BOM.](media/instruction-guides-BOM.png "Adicionar um guia a uma BOM")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Associar um guia a uma versão de lista de materiais
 
@@ -300,11 +300,11 @@ Para adicionar um guia a uma versão de lista de materiais:
 1. Abra a guia **Cabeçalho** acima da FastTab superior.
 1. Na FastTab **Versões de BOM**, selecione a versão à qual você deseja atribuir um guia.
 1. Na barra de ferramentas **Versões de BOM**, selecione **Guias associados**.
-    ![Abrir os guias associados a uma versão de BOM selecionada](media/instruction-guides-BOMVersion.png "Abrir os guias associados a uma versão de BOM selecionada")
+    ![Abrir os guias associados a uma versão de BOM selecionada.](media/instruction-guides-BOMVersion.png "Abrir os guias associados a uma versão de BOM selecionada")
 1. A página **Guias associados** é aberta para a versão de BOM.
 1. Selecione **Adicionar** no Painel de ações para adicionar uma nova linha à grade.
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir.
-    ![Adicionar um guia a uma versão de BOM](media/instruction-guides-BOMVersionAddGuide.png "Adicionar um guia a uma versão de BOM")
+    ![Adicionar um guia a uma versão de BOM.](media/instruction-guides-BOMVersionAddGuide.png "Adicionar um guia a uma versão de BOM")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Associar um guia a um roteiro
 
@@ -325,7 +325,7 @@ Para adicionar um guia a um roteiro:
 1. Expanda a FastTab **Guias associados**.
 1. Selecione **Adicionar** na barra de ferramentas **Guias associados**. Uma nova linha é adicionada à grade.
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir.
-    ![Adicionar um guia a um roteiro](media/instruction-guides-Route.png "Adicionar um guia a um roteiro")
+    ![Adicionar um guia a um roteiro.](media/instruction-guides-Route.png "Adicionar um guia a um roteiro")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Associar um guia a uma versão de roteiro
 
@@ -343,11 +343,11 @@ Para adicionar um guia a uma versão de roteiro:
 1. Abra o roteiro ao qual você deseja atribuir um guia.
 1. Na FastTab **Versões**, selecione a versão à qual você deseja atribuir um guia.
 1. Na barra de ferramentas **Versões**, selecione **Guias associados**.
-    ![Abrir os guias associados a uma versão de roteiro selecionada](media/instruction-guides-RouteVersion.png "Abrir os guias associados a uma versão de roteiro selecionada")
+    ![Abrir os guias associados a uma versão de roteiro selecionada.](media/instruction-guides-RouteVersion.png "Abrir os guias associados a uma versão de roteiro selecionada")
 1. A página **Guias associados** é aberta para a versão de BOM.
 1. Selecione **Adicionar** no Painel de ações para adicionar uma nova linha à grade.
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir.
-    ![Adicionar um guia a uma versão de roteiro](media/instruction-guides-RouteVersionAddGuide.png "Adicionar um guia a uma versão de roteiro")
+    ![Adicionar um guia a uma versão de roteiro.](media/instruction-guides-RouteVersionAddGuide.png "Adicionar um guia a uma versão de roteiro")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Associar um guia a uma relação de operação de roteiro
 
@@ -370,8 +370,8 @@ Para adicionar um guia a uma relação de operação de roteiro:
 1. A **Detalhes do roteiro** é aberta para o roteiro selecionado.
 1. Na grade superior, selecione a operação para a qual você deseja oferecer orientações.
 1. Na grade inferior, selecione uma relação específica (ou a relação genérica **Todos**).
-    ![Selecionar uma operação e uma relação](media/instruction-guides-RouteOperationRelation.png "Selecionar uma operação e uma relação")
-1. Acima da grade inferior, abra a guia **Guias associados**. ![A guia Guias associados](media/instruction-guides-RouteOperationRelation-AddGuide.png "A guia Guias associados")
+    ![Selecionar uma operação e uma relação.](media/instruction-guides-RouteOperationRelation.png "Selecionar uma operação e uma relação")
+1. Acima da grade inferior, abra a guia **Guias associados**. ![A guia Guias associados.](media/instruction-guides-RouteOperationRelation-AddGuide.png "A guia Guias associados")
 1. Selecione **Adicionar** na barra de ferramentas na parte superior da grade inferior para adicionar uma nova linha à grade.
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir. No restante da linha, marque a caixa de seleção para cada contexto em que o guia selecionado deve estar disponível.
 
@@ -382,11 +382,11 @@ Para adicionar um guia a uma relação de operação de roteiro:
 
 Quando um trabalhador abre uma lista de trabalhos na interface de execução do chão de fábrica, o Supply Chain Management localiza os guias relevantes para os trabalhos exibidos. Use o botão **Guias** para exibir os guias relevantes.
 
-![O botão Guias na interface de execução do chão de fábrica](media/instruction-guides-Shopfloor1.png "O botão Guias na interface de execução do chão de fábrica")
+![O botão Guias na interface de execução do chão de fábrica.](media/instruction-guides-Shopfloor1.png "O botão Guias na interface de execução do chão de fábrica")
 
 Em seguida, coloque um HoloLens e acesse o respectivo guia ao olhar para o código QR e ative o respectivo guia.
 
-![Código QR para acessar guias usando um HoloLens](media/instruction-guides-Shopfloor2.png "Código QR para acessar guias usando um HoloLens")
+![Código QR para acessar guias usando um HoloLens.](media/instruction-guides-Shopfloor2.png "Código QR para acessar guias usando um HoloLens")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>Resolver a lógica para selecionar guias
 
@@ -409,4 +409,7 @@ Quando o Supply Chain Management gera os trabalhos para o chão de produção, e
 - Se você anexar uma versão de roteiro a uma ordem de produção, qualquer guia associado a essa versão, e também os guias anexados ao roteiro pai dessa versão, será exibido no trabalho.
 - Se você definir várias relações de operação de roteiro que incluem a relação *Todos* e atribuir guias a elas, somente os guias da relação mais específica serão exibidos para o trabalho.  
 
-![Diagrama para resolver os guias relevantes](media/instruction-guides-Resolve.png "Diagrama para resolver os guias relevantes")
+![Diagrama para resolver os guias relevantes.](media/instruction-guides-Resolve.png "Diagrama para resolver os guias relevantes")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

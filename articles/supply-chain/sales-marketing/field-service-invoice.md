@@ -1,7 +1,7 @@
 ---
 title: Sincronizar faturas de contrato no Field Service com faturas de texto livre no Supply Chain Management
 description: Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar faturas de contrato no Dynamics 365 Field Service às faturas de texto livre no Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f3066741781bd9058e09d7f577a35df4c9b453d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70f1c072c3a2a1b201aac1f1d2beea9979a3b792
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819199"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060755"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sincronizar faturas de contrato no Field Service com faturas de texto livre no Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tópico discute os modelos e as tarefas subjacentes usados para sincronizar faturas de contrato no Dynamics 365 Field Service às notas fiscais de texto livre no Dynamics 365 Supply Chain Management.
 
@@ -68,7 +68,7 @@ A coluna **Tem Origem de Contrato** foi adicionada à tabela **Linha de fatura**
 **Data da fatura** é um campo obrigatório no Supply Chain Management. Portanto, a coluna deverá ter um valor no Field Service antes que a sincronização ocorra. Para atender a esse requisito, lógica a seguir foi adicionada:
 
 - Se a coluna **Data da fatura** estiver em branco na tabela **Fatura** (ou seja, se não tiver nenhum valor), ela será definida como a data atual quando uma linha de fatura originária de um contrato for adicionada.
-- O usuário poderá alterar a coluna **Data da fatura**. No entanto, quando o usuário tentar salvar uma fatura originária de um contrato, ele receberá uma mensagem de erro de processo comercial se a coluna **Data da fatura** estiver em branco na fatura.
+- O usuário poderá alterar a coluna **Data da fatura**. No entanto, quando o usuário tentar salvar uma fatura originária de um contrato, ele recebe uma mensagem de erro de processo comercial, se a coluna **Data da Fatura** estiver em branco na fatura.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
@@ -100,11 +100,11 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Faturas de contrato (Field Service para Supply Chain Management): Cabeçalhos de fatura
 
-[![Mapeamento de modelo na Integração de dados](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![Mapeamento de modelos na integração de dados para cabeçalhos da fatura.](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Faturas de contrato (Field Service para Supply Chain Management): Linhas da fatura
 
-[![Mapeamento de modelo na Integração de dados](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![Mapeamento de modelos na integração de dados para linhas da fatura.](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

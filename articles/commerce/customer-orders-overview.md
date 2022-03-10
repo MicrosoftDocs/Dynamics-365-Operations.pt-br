@@ -1,33 +1,35 @@
 ---
-title: Ordens de cliente no Ponto de Venda (PDV)
-description: Este tópico fornece informações sobre ordens de cliente no Ponto de Venda (PDV). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação.
+title: Ordens de cliente no ponto de venda (PDV)
+description: Este tópico fornece informações sobre ordens de cliente no ponto de venda (PDV). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação.
 author: josaw1
-ms.date: 01/06/2021
-ms.topic: article
+ms.date: 08/02/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936721"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982809"
 ---
-# <a name="customer-orders-in-point-of-sale-pos"></a>Ordens de cliente no Ponto de Venda (PDV)
+# <a name="customer-orders-in-point-of-sale-pos"></a>Ordens de cliente no ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre como criar e gerenciar ordens de cliente no Ponto de Venda (PDV). As ordens de cliente podem ser usadas para capturar vendas nas quais os compradores desejam retirar os produtos em uma data posterior, retirar os produtos em um local diferente ou receber os itens. 
+Este tópico fornece informações sobre como criar e gerenciar ordens de cliente no aplicativo do ponto de venda (PDV). As ordens de cliente podem ser usadas para capturar vendas nas quais os compradores desejam retirar os produtos em uma data posterior, retirar os produtos em um local diferente ou receber os itens. 
 
 Em um mundo de canal omni de comércio, muitos varejistas oferecem a opção de ordens de cliente, ou ordens especiais, para cumprir vários requisitos de produto e atendimento. Estes são alguns dos cenários típicos:
 
@@ -44,7 +46,7 @@ Antes de tentar usar a funcionalidade de ordem de cliente no PDV, conclua todas 
 
 Para usar ordens de cliente, você deve configurar os modos de entrega que o canal de loja pode usar. Você deve definir pelo menos um modo de entrega que possa ser usado quando as linhas de ordem forem remetidas a um cliente de uma loja. Você também deve definir pelo menos um modo de entrega de retirada que possa ser usado quando as linhas de ordem forem retiradas na loja. Os modos de entrega são definidos na página **Modos de entrega** na sede do Commerce. Para obter mais informações sobre como configurar modos de entrega para canais do Commerce, consulte [Definir modos de entrega](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Página Modos de entrega](media/customer-order-modes-of-delivery.png)
+![Página Modos de entrega.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Configurar grupos de atendimento
@@ -53,7 +55,7 @@ Algumas lojas ou locais de depósito podem não conseguir atender a ordens de cl
 
 A partir da versão 10.0.12 do Commerce, as organizações podem definir se as combinações de depósito ou depósito e loja definidas em grupos de atendimento podem ser usadas para remessa, retirada ou ambas. Isso permite uma maior flexibilidade para a empresa a fim de determinar quais depósitos podem ser selecionados ao criar uma ordem de cliente para itens para remessa versus lojas selecionadas durante a criação de uma ordem de cliente para os itens a serem retirados. Para usar essas opções de configuração, ative o recurso **Capacidade para especificar locais como "Remessa" ou "Retirada" habilitada no Grupo de atendimento**. Se um depósito vinculado a um grupo de atendimento não for uma loja, ele poderá ser configurado somente como um local de remessa. Ele não poderá ser usado quando ordens para retirada forem configuradas no PDV.
 
-![Página Grupos de atendimento](media/customer-order-fulfillment-group.png)
+![Página Grupos de atendimento.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Definir configurações de canal
 
@@ -65,7 +67,7 @@ Ao trabalhar com ordens de cliente no PDV, você deve considerar algumas das con
 - **Usar imposto baseado no destino** – Esta opção indica se o endereço de remessa é usado para determinar o grupo de impostos que é aplicado às linhas de ordem remetidas ao endereço do cliente.
 - **Usar imposto baseado no cliente** – Esta opção indica se o grupo de impostos definido para o endereço de entrega do cliente é usado para taxar ordens de cliente criadas no PDV para remessa à casa do cliente.
 
-![Configuração de canal de loja na página Lojas](media/customer-order-all-stores.png)
+![Configuração de canal de loja na página Lojas.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Configurar parâmetros de ordens de cliente
 
@@ -80,7 +82,7 @@ Antes de tentar criar ordens de cliente no PDV, você deve configurar os parâme
 - **Código do encargo de remessa** – Se a opção **Usar encargos automáticos avançados** estiver definida como **Sim**, essa configuração de parâmetro não terá efeito. Se essa opção estiver definida como **Não**, os usuários serão solicitados a inserir manualmente um encargo de remessa quando criarem ordens de cliente no PDV. Use esse parâmetro para mapear um código de encargo de Contas a receber que será aplicado às ordens quando os usuários inserirem um encargo de remessa. O código do encargo define a lógica de lançamento financeiro para o encargo de remessa.
 - **Usar encargos automáticos avançados** – Defina esta opção como **Sim** para usar encargos automáticos calculados pelo sistema quando ordens de cliente forem criadas no PDV. Esses encargos automáticos podem ser usados para calcular taxas de remessa e outros encargos específicos de ordens ou itens. Para obter mais informações sobre como configurar e usar encargos automáticos avançados, consulte [Encargos automáticos avançados de omnicanal](./omni-auto-charges.md).
 
-![Guia Ordens de cliente na página Parâmetros do Commerce](media/customer-order-parameters.png)
+![Guia Ordens de cliente na página Parâmetros do Commerce.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Atualizar layouts da tela de transação no PDV
 
@@ -95,7 +97,7 @@ Verifique se o [layout de tela](./pos-screen-layouts.md) do PDV está configurad
 - **Alterar modo de entrega** – Esta operação pode ser usada para alterar rapidamente o modo de entrega das linhas que já foram configuradas para remessa, sem exigir que os usuários passem pelo fluxo "remeter todos os produtos" ou "remeter produtos selecionados" outra vez.
 - **Substituição de depósito** – Esta operação pode ser usada para alterar o valor de depósito que o cliente pagará pela ordem de cliente selecionada.
 
-![Operações na tela de transação do PDV](media/customer-order-screen-layout.png)
+![Operações na tela de transação do PDV.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Trabalhar com ordens de cliente no PDV
 
@@ -130,6 +132,10 @@ As ordens de varejo criadas no canal de loja ou online podem ser canceladas e ed
 > [!IMPORTANT]
 > Nem todas as ordens de varejo podem ser editadas por meio do aplicativo de PDV. As ordens criadas em um canal de call center não poderão ser editadas por meio do PDV se a configuração [Habilitar conclusão de ordem](./set-up-order-processing-options.md#enable-order-completion) estiver ativada para o canal de call center. Para garantir o processamento correto dos pagamentos, as ordens originadas em um canal de call center e que usam a funcionalidade Habilitar conclusão de ordem devem ser editadas por meio do aplicativo de call center na sede do Commerce.
 
+> [!NOTE]
+> Recomendamos que você não edite ordens e cotações no PDV que sejam criadas por um usuário que não seja do call center no Commerce Headquarters. Essas ordens e cotações não usam o mecanismo de preço do Commerce. Portanto, se forem editadas no PDV, o mecanismo de preço do Commerce alterará o preço delas.
+
+
 Na versão 10.0.17 e posterior, os usuários podem editar ordens qualificadas por meio do aplicativo de PDV, mesmo que a ordem seja parcialmente preenchida. No entanto, as ordens faturadas integralmente ainda não podem ser editadas por meio do PDV. Para habilitar esse recurso, ative o recurso **Editar ordens parcialmente atendidas no Ponto de Venda** no espaço de trabalho **Gerenciamento de recursos**. Se esse recurso não estiver habilitado, ou se você estiver usando a versão 10.0.16 ou anterior, os usuários só poderão editar ordens de cliente em PDV se a ordem estiver totalmente aberta. Se o recurso estiver habilitado, você poderá limitar as lojas que podem editar ordens preenchidas parcialmente. A opção para desativar esse recurso para lojas específicas pode ser configurada por meio do **Perfil de funcionalidade** na FastTab **Geral**.
 
 
@@ -140,7 +146,23 @@ Na versão 10.0.17 e posterior, os usuários podem editar ordens qualificadas po
 5. Conclua o processo de edição selecionando uma operação de pagamento.
 6. Para sair do processo de edição sem salvar as alterações, você pode usar a operação **Anular transação**.
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Impacto do preço quando as ordens são editadas
 
+Quando as ordens são colocadas no PDV ou em um site de comércio eletrônico do Commerce, os clientes se comprometem com um valor. Esse valor inclui um preço e também pode incluir um desconto. Um cliente que coloca uma ordem e posteriormente contata o call center para alterar essa ordem (por exemplo, para adicionar outro item), terá expectativas específicas sobre a aplicação de descontos. Mesmo que as promoções das linhas de ordem existentes tenham expirado, o cliente esperará que os descontos que foram originalmente aplicados a essas linhas permanecerão em vigor. No entanto, se nenhum desconto estivesse em vigor quando a ordem foi originalmente colocada, mas um desconto entrou em vigor posteriormente, o cliente esperará que o novo desconto seja aplicado à ordem alterada. Caso contrário, o cliente poderá apenas cancelar a ordem existente e criar uma nova ordem na qual o novo desconto seja aplicado. Como mostra este cenário, os preços e os descontos com os quais os clientes se comprometeram precisam ser preservados. Ao mesmo tempo, os usuários do PDV e do call center precisam ter a flexibilidade de recalcular os preços e os descontos para as linhas da ordem de venda, conforme necessário.
+
+Quando as ordens são canceladas e editadas no PDV, os preços e os descontos das linhas de ordem existentes são considerados "bloqueados". Em outras palavras, elas não são alterados, mesmo que algumas linhas da ordem sejam canceladas ou alteradas, ou novas linhas da ordem sejam adicionadas. Para alterar os preços e os descontos das linhas de venda existentes, o usuário do PDV precisa selecionar **Recalcular**. O bloqueio de preço é então removido das linhas de ordem existentes. No entanto, antes da versão 10.0.21 do Commerce, esse recurso não estava disponível no call center. Em vez disso, as alterações nas linhas da ordem acarretavam o recálculo dos preços e dos descontos.
+
+Na versão 10.0.21 do Commerce, um novo recurso chamado **Impedir o cálculo de preço não intencional para ordens comerciais** está disponível no espaço de trabalho **Gerenciamento de recursos**. Esse recurso está ativado por padrão. Quando ele é ativado, uma nova propriedade **Preço bloqueado** é disponibilizada para todas as ordens de comércio eletrônico. Depois da conclusão da captura de todas as ordens colocadas em qualquer canal, esta propriedade é automaticamente habilitada (ou seja, a caixa de seleção é marcada) para todas as linhas da ordem. O mecanismo de preço do Commerce então exclui essas linhas de ordem de todos os cálculos de preço e de desconto. Portanto, se a ordem for editada, as linhas da ordem serão excluídas do cálculo de preço e de descontos por padrão. No entanto, os usuários do call center podem desabilitar a propriedade (ou seja, desmarcar a caixa de seleção) para qualquer linha da ordem e, em seguida, selecionar **Recalcular** para incluir as linhas de ordem existentes nos cálculos de preço.
+
+Mesmo quando estiverem aplicando um desconto manual a uma linha de venda existente, os usuários do call center precisam desabilitar a propriedade **Preço bloqueado** da linha de venda para que possam aplicar o desconto manual.
+
+Os usuários do call center também podem desabilitar a propriedade **Preço bloqueado** para linhas de ordem em massa selecionando **Remover bloqueio de preço** no grupo **Calcular** na guia **Vender** do painel de ação da página **Ordem de venda**. Nesse caso, o bloqueio de preço é removido de todas as linhas de ordem, exceto daquelas que não podem ser editadas (em outras palavras, as linhas que têm um status de **Parcialmente faturado** ou **Faturado**). Depois de concluir e enviar as alterações à ordem, o bloqueio de preço é reaplicado a todas as linhas da ordem.
+
+> [!IMPORTANT]
+> Quando o recurso **Evitar cálculo de preço não intencional para ordens do Commerce** estiver ativado, a configuração da avaliação do contrato comercial será ignorada nos fluxos de trabalho de definição de preço. Em outras palavras, as caixas de diálogo de avaliação do contrato comercial não mostrarão a seção **Preço relacionado**. Esse comportamento ocorre porque a configuração da avaliação do contrato comercial e o recurso de bloqueio de preço têm uma finalidade semelhante: evitar alterações de preço não intencionais. No entanto, a experiência do usuário para a avaliação do contrato comercial não dimensiona bem para ordens grandes nas quais os usuários devem selecionar uma ou mais linhas da ordem para redefinir o preço.
+
+> [!NOTE]
+> A propriedade **Preço bloqueado** pode ser desabilitada para uma ou mais linhas selecionadas somente quando o módulo **Call center** é usado. O comportamento do PDV permanece inalterado. Em outras palavras, o usuário do PDV não pode desbloquear os preços das linhas de ordem selecionadas. No entanto, eles podem selecionar **Recalcular** para remover o bloqueio de preço de todas as linhas de ordem existentes.
 
 ### <a name="cancel-a-customer-order"></a>Cancelar uma ordem de cliente
 

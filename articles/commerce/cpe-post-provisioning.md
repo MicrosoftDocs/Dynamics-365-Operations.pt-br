@@ -2,11 +2,9 @@
 title: Configurar um ambiente de avaliação do Dynamics 365 Commerce
 description: Este tópico explica como configurar um ambiente de avaliação do Microsoft Dynamics 365 Commerce após ter sido provisionado.
 author: psimolin
-manager: annbe
-ms.date: 07/16/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9b11ab600bb2aa17cf330947304f5b22dd522081
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477964"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913718"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurar um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -36,11 +34,12 @@ Depois que o ambiente de avaliação do Commerce for provisionado de ponta a pon
 ## <a name="before-you-start"></a>Antes de começar
 
 1. Entre no [Portal de LCS](https://lcs.dynamics.com).
-1. Vá para seu projeto.
+1. Acesse seu projeto.
 1. No menu superior, selecione **Ambientes hospedados na nuvem**.
 1. Selecione seu ambiente na lista.
 1. Nas informações sobre o ambiente à direita, selecione **Fazer logon no ambiente**. Você será direcionado para a sede do Commerce.
 1. Verifique se a entidade legal **USRT** está selecionada no canto superior direito.
+2. Acesse **Parâmetros do Commerce > Parâmetros de configuração** e verifique se há uma entrada para **ProductSearch.UseAzureSearch** definida como **true**. Se essa entrada estiver ausente, você poderá adicioná-la e executar **Banco de dados do canal > Sincronização total** do Commerce Scale Unit associado ao site de comércio eletrônico.
 
 Durante as atividades de pós-provisionamento na sede do Commerce, garanta que a entidade legal **USRT** esteja sempre selecionada.
 
@@ -50,7 +49,7 @@ Durante as atividades de pós-provisionamento na sede do Commerce, garanta que a
 
 Para associar um trabalhador à sua identidade, siga estas etapas na sede do Commerce.
 
-1. Use o menu à esquerda, vá para **Módulos \> Varejo e comércio \> Funcionários \> Trabalhadores**.
+1. Use o menu à esquerda, Acesse **Módulos \> Varejo e comércio \> Funcionários \> Trabalhadores**.
 1. Na lista, encontre e selecione o registro a seguir: **000713 - Andrew Collette**.
 1. No Painel de Ação, selecione **Commerce**.
 1. Selecione **Associar identidade existente**.
@@ -92,7 +91,7 @@ Para iniciar a configuração do seu site de avaliação no Commerce, siga estas
 Para habilitar trabalhos no Commerce, siga estas etapas.
 
 1. Entre no ambiente (Matriz).
-1. Use o menu à esquerda, vá para **Varejo e comércio \> Consultas e relatórios \> Trabalhos em lotes**.
+1. Use o menu à esquerda, Acesse **Varejo e comércio \> Consultas e relatórios \> Trabalhos em lotes**.
 
     As etapas restantes deste procedimento devem ser concluídas para cada um dos seguintes trabalhos:
 
@@ -107,6 +106,12 @@ Para habilitar trabalhos no Commerce, siga estas etapas.
     1. Selecione o registro.
     1. No Painel de Ação, na guia **Trabalho em lotes**, selecione **Alterar status**.
     1. Selecione **Cancelar** e, em seguida, selecione **OK**.
+
+1. Se o status do trabalho for **Retido**, siga estas etapas:
+
+    1. Selecione o registro.
+    1. No Painel de Ação, na guia **Trabalho em lotes**, selecione **Alterar status**.
+    1. Selecione **Aguardando** e, depois, **OK**.
 
 Opcionalmente, você também pode definir o intervalo de recorrência como um (1) minuto para os seguintes trabalhos:
 
@@ -130,7 +135,7 @@ Para executar a sincronização completa dos dados no Commerce, siga estas etapa
 Para realizar transações de teste no site, você pode usar as informações do cartão de crédito de teste a seguir:
 
 - **Número do cartão:** 4111-1111-1111-1111
-- **Data de vencimento:** 20/10
+- **Data de vencimento:** 30/10
 - **Código do valor de verificação do cartão (CVV):** 737
 
 > [!IMPORTANT]
@@ -141,6 +146,9 @@ Para realizar transações de teste no site, você pode usar as informações do
 Depois que as etapas de provisionamento e configuração forem concluídas, você poderá começar a usar seu ambiente de avaliação. Use a URL do construtor de sites do Commerce para acessar a experiência de criação. Use a URL do site do Commerce para acessar a experiência de site do cliente de varejo.
 
 Para configurar recursos opcionais para seu ambiente de avaliação do Commerce, consulte [Configurar recursos opcionais para um ambiente de avaliação do Commerce](cpe-optional-features.md).
+
+> [!NOTE]
+> Os ambientes de avaliação do Commerce vêm com um locatário do business-to-consumer B2C pré-carregado do Azure Active Directory (Azure AD) para fins de demonstração. Configurar seu próprio locatário do Azure AD B2C não é necessário para os ambientes de avaliação. No entanto, se você estiver configurando o ambiente de avaliação para usar seu próprio locatário do Azure AD B2C, certifique-se de adicionar ``https://login.commerce.dynamics.com/_msdyn365/authresp`` como uma URL de resposta no aplicativo do Azure AD B2C por meio do Portal do Azure.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -154,13 +162,15 @@ Para configurar recursos opcionais para seu ambiente de avaliação do Commerce,
 
 [Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portal do Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site do Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Configurar um locatário de B2C no Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

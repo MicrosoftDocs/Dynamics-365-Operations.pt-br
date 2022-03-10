@@ -1,7 +1,7 @@
 ---
 title: Página da lista de transações de cliente
 description: Este tópico fornece informações sobre a Página da lista de transações de cliente do Microsoft Dynamics 365 Finance.
-author: mikefalkner
+author: abruer
 ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 9ee8b64375bcd73447206f552df61f9122d949a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4339990d4e2fd89abde4da54b005b212cacff751
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814215"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753865"
 ---
 # <a name="customer-transactions-list-page"></a>Página da lista de transações de cliente
 

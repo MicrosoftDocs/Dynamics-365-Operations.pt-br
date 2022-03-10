@@ -2,26 +2,23 @@
 title: Criar uma entrada de diário usando modelo
 description: Os comprovantes de diário lançados podem ser salvos como modelos de comprovante e ser aplicados em um novo comprovante de diário.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 360df29e6349fd4d42d6d14af646e929b73943bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c015bbba6784f511ac51802ea005d2114e703861370e33350cff62b6005d630c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730521"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Criar uma entrada de diário usando modelo
 
@@ -63,3 +60,6 @@ Os comprovantes de diário lançados podem ser salvos como modelos de comprovant
 29. No campo **Valor**, insira o valor a ser aplicado ao comprovante. O campo **Valor** é apenas exibido se o modelo de comprovante for do tipo Porcentagem.  
 30. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

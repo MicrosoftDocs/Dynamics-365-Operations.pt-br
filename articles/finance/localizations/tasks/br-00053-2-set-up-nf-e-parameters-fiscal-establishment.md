@@ -2,11 +2,9 @@
 title: Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)
 description: Use o procedimento a seguir para configurar os parâmetros para uma Nota Fiscal eletrônica (NF-e) e para um estabelecimento fiscal.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7008122636af0dddb72d6d7ba13416de8bc43cc0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 61a5d116b7f68506bc9b3edc7fadeba761d2d64f882964be5fd0ee97f33e6dab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734491"
 ---
 # <a name="set-up-nf-e-parameters-for-a-fiscal-establishment-brazil"></a>Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)
 
@@ -27,7 +25,7 @@ ms.locfileid: "4975297"
 
 Use o procedimento a seguir para configurar os parâmetros para uma Nota Fiscal eletrônica (NF-e) e para um estabelecimento fiscal. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Administração da organização > Organizações > Estabelecimentos fiscais > Estabelecimentos fiscais.
+1. Acesse Administração da organização > Organizações > Estabelecimentos fiscais > Estabelecimentos fiscais.
 2. Selecione um estabelecimento fiscal para o qual será configurada a NF-e.
 3. Expanda a seção NF-e e NFC-e federal.
 4. Clique em Editar.
@@ -54,3 +52,6 @@ Use o procedimento a seguir para configurar os parâmetros para uma Nota Fiscal 
 18. Clique em Salvar.
 19. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

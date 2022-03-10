@@ -2,11 +2,9 @@
 title: Criar pacotes de produto para ordens de compra
 description: Este procedimento mostra a criação de um pacote de produtos e a utilização dele em uma ordem de compra.
 author: josaw1
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 296b3fb03b20dee5b6024c182df7feb3ce280913
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb10164be8d7a0828169cf3865f884afaa2e8408472edebe4cb0c7d4db059d8c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964661"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723228"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>Criar pacotes de produto para ordens de compra
 
@@ -30,7 +28,7 @@ Este procedimento mostra a criação de um pacote de produtos e a utilização d
 
 
 ## <a name="create-a-product-package"></a>Criar um pacote de produtos
-1. Vá para Varejo e Comércio > Gerenciamento de estoque > Reabastecimento > Pacotes de produto.
+1. Acesse Varejo e Comércio > Gerenciamento de estoque > Reabastecimento > Pacotes de produto.
 2. Clique em Novo.
 3. No campo Número do pacote, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -53,7 +51,7 @@ Este procedimento mostra a criação de um pacote de produtos e a utilização d
 21. Feche a página.
 
 ## <a name="add-package-to-purchase-order"></a>Adicionar o pacote à ordem de compra
-1. Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.
+1. Acesse Contas a pagar > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. No campo Conta de fornecedor, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, selecione o mesmo fornecedor para o qual o pacote de produtos foi criado anteriormente, se um fornecedor foi selecionado.
@@ -72,3 +70,6 @@ Este procedimento mostra a criação de um pacote de produtos e a utilização d
 17. Clique em Criar.
 18. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

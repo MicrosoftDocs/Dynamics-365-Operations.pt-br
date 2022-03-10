@@ -1,27 +1,25 @@
 ---
 title: Configuração do cenário de Inteligência de IoT
 description: Este tópico explica como configurar cenários de Inteligência da IoT no Microsoft Dynamics 365 Supply Chain Management.
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 91deb080121d50794e6ff6fe79f9ca876b76deb4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005243"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782418"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuração do cenário de Inteligência de IoT
 
@@ -44,9 +42,9 @@ O cenário **Tempo de inatividade do equipamento** tem as seguintes dependência
 Para configurar o cenário, siga estas etapas.
 
 1. Entre no Supply Chain Management.
-2. Habilite o sinalizador de recurso de Inteligência de IoT. Para obter mais informações, consulte [Visão geral do Gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+2. Habilite o sinalizador de recurso de Inteligência de IoT. Para obter mais informações, consulte [Visão geral do Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 3. Configurar as métricas. Para obter mais informações, consulte [Como configurar métricas](iot-metrics-setup.md#configure-metrics).
-4. Vá para **Controle de produção \> Configuração \> Inteligência da IoT \> Gerenciamento de cenário** .
+4. Acesse **Controle de produção \> Configuração \> Inteligência da IoT \> Gerenciamento de cenário** .
 6. No bloco **Tempo de inatividade do equipamento** , selecione **Configurar** para abrir o assistente de configuração.
 
    A primeira página no assistente é a página **Definição do esquema do sensor de equipamento**. Nesta página, sua meta é configurar o esquema no Supply Chain Management para que ele corresponda ao formato JSON (JavaScript Object Notation) das mensagens do Hub IoT. Vários esquemas de mensagens podem ser definidos. Para obter mais informações, consulte [Formatos de esquema de mensagens do Hub IoT](iot-schema-format.md). Neste exemplo, o conteúdo da mensagem inclui um lote de mensagens com o formato a seguir.
@@ -142,3 +140,6 @@ Para desabilitar um cenário, siga estas etapas.
 2. No bloco do cenário, selecione **Configurar** .
 3. Selecione **Avançar** para acessar a página do último assistente.
 4. Defina a opção para desabilitar o cenário.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

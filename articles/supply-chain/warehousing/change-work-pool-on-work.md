@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566014"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102854"
 ---
 # <a name="change-work-pool-on-work"></a>Alterar pool de trabalho no trabalho
 
@@ -28,12 +28,9 @@ ms.locfileid: "7566014"
 
 O recurso *Alterar pool de trabalho no trabalho* adiciona um botão **Alterar pool de trabalho** ao Painel de Ação para itens de trabalho. Portanto, os gerentes de depósito podem alterar facilmente o pool de trabalho do trabalho existente. Este recurso permite aos gerentes reagir rapidamente a alterações no chão de fábrica do depósito e ajuda a melhorar sua capacidade de adaptação a situações mutáveis e a necessidade de transferir trabalho para outro pool de trabalho.
 
-## <a name="turn-on-the-change-work-pool-on-work-feature"></a>Ativar o recurso Alterar pool de trabalho no trabalho
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>Ativar ou desativar o recurso Alterar pool de trabalho no trabalho
 
-Antes de começar a configurar ou usar este recurso, você deve verificar se ele está disponível no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Alterar pool de trabalho no trabalho*
+A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Alterar pool de trabalho no trabalho* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Configurar o recurso Alterar pool de trabalho no trabalho
 

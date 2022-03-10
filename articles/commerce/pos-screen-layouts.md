@@ -2,11 +2,9 @@
 title: Configurações visuais da interface do usuário de PDV
 description: Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Dynamics 365 Commerce.
 author: boycezhu
-manager: annbe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
@@ -18,31 +16,31 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
-ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
+ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "5032924"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765871"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurações visuais da interface do usuário de PDV
 
 [!include [banner](includes/banner.md)]
 
 
-A interface de usuário do ponto de venda (PDV) do Microsoft Dynamics 365 Commerce pode ser configurada usando uma combinação de perfis visuais e layouts de tela que são atribuídos a lojas, caixas registradoras e/ou usuários. Este tópico fornece links para obter mais informações sobre essas opções de configuração.
+A interface de usuário do ponto de venda (PDV) do Microsoft Dynamics 365 Commerce pode ser configurada usando uma combinação de perfis visuais e layouts de tela que são atribuídos a lojas, caixas registradoras e usuários. Este tópico fornece links para obter mais informações sobre essas opções de configuração.
 
 A ilustração a seguir mostra as relações entre as várias entidades que compõem os aspectos configuráveis da interface do usuário do PDV.
 
-![Entidades do layout da tela do PDV](../commerce/media/POS-layout-configuration-entities-diagram.png)
+![Entidades do layout da tela do PDV.](../commerce/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Perfil visual
 
 Os perfis visuais são atribuídos às caixas registradoras e usados para especificar os elementos visuais que são específicos da caixa registradora e compartilhados entre os usuários. Todo usuário que entrar na caixa registradora terá o mesmo tema, layout, cores e imagens.
 
-![Tela de boas-vindas do PDV com tema Claro](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
+![Tela de boas-vindas do PDV com tema Claro.](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
-![Tela de transação do PDV com tema Escuro](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
+![Tela de transação do PDV com tema Escuro.](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
 - **Número do perfil** – o número do perfil é o identificador exclusivo do perfil visual.
 - **Descrição** – você pode especificar um nome significativo que ajudará a identificar o perfil correto de sua situação.
@@ -67,15 +65,15 @@ Você precisa executar o trabalho de agendamento de distribuição **1090** (**R
 
 As configurações do layout de tela determinam as ações, conteúdo e posicionamento dos controles de IU na tela de **Boas-vindas** do PDV e na tela de **Transação**.
 
-![Exibição do layout da tela do PDV](../commerce/media/POS-Screen-Layout-View.png)
+![Exibição do layout da tela do PDV.](../commerce/media/POS-Screen-Layout-View.png)
 
 - **Tela de boas-vindas** – na maioria dos casos, a tela de boas-vindas é a página que os usuários verão ao entrar pela primeira vez no PDV. A tela de boas-vindas pode ter uma imagem da marca e grades de botões que fornecem acesso às operações do PDV. Normalmente, operações que não são específicas à transação atual são colocadas nessa tela.
 
-    ![Tela de boas-vindas do PDV](../commerce/media/POS-Welcome-Screen.png)
+    ![Tela de boas-vindas do PDV.](../commerce/media/POS-Welcome-Screen.png)
 
 - **Tela de transação** – a tela de **transação** é a tela principal no PDV para processar transações de vendas e ordens. O conteúdo e o layout são configurados usando-se o designer de layout de tela.
 
-    ![Tela de transação de PDV](../commerce/media/POS-Transaction-Screen.png)
+    ![Tela de Transação do PDV.](../commerce/media/POS-Transaction-Screen.png)
 
 - **Tela inicial padrão** – alguns varejistas preferem que os caixas acessem diretamente a tela de **transação** depois que fizerem logon. A configuração da **Tela inicial padrão** permite especificar a tela padrão que será exibida após o logon para cada layout da tela.
 
@@ -91,7 +89,7 @@ A maioria dos aspectos da interface do usuário do PDV são responsivos, e o lay
 
 Durante a inicialização, o aplicativo de PDV selecionará automaticamente o tamanho de layout mais próximo que estiver configurado para o dispositivo. Um layout de tela também pode conter configurações para os modos paisagem e retrato, e para dispositivos com tamanho de tela normal e compacta. Portanto, é possível atribuir aos usuários um único layout de tela que funciona em vários tamanhos e fatores forma que são usados na loja.
 
-![Tamanhos de layout do PDV](../commerce/media/POS-Screen-Layout-Sizes.png)
+![Tamanhos de layout do PDV.](../commerce/media/POS-Screen-Layout-Sizes.png)
 
 - **Nome** – você pode inserir um nome significativo para identificar o tamanho da tela.
 - **Tipo de layout** – o aplicativo de PDV pode exibir a interface do usuário em vários modos para fornecer a melhor experiência de usuário em um determinado dispositivo.
@@ -104,7 +102,7 @@ Durante a inicialização, o aplicativo de PDV selecionará automaticamente o ta
 > [!TIP]
 > Você pode saber o tamanho de layout necessário para uma tela de PDV vendo a resolução no aplicativo. Inicie o PDV e acesse **Configurações \> Informações da sessão**. O PDV exibirá o layout de tela que está carregado no momento, o tamanho do layout, e a resolução da janela do aplicativo.
 
-![Página de informações da sessão de PDV mostrando o layout de tela, o tamanho de layout e a resolução da janela do aplicativo carregados no momento](../commerce/media/POS-Session-Information.png)
+![Página de informações da sessão de PDV mostrando o layout de tela, o tamanho de layout e a resolução da janela do aplicativo carregados no momento.](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Grades de botões
 
@@ -114,7 +112,7 @@ Em layouts de PDV completos, o posicionamento das grades de botões é especific
 
 Em layouts de PDV compactos, as grades de botões são apresentadas automaticamente de cima para baixo, partindo do número mais baixo (Tela de transação 1) para o número mais alto. Elas podem ser acessadas no menu **Ações** .
 
-![Grades de botões de layout compacto](../commerce/media/Compact-View-Button-Grids.png)
+![Grades de botões de layout compacto.](../commerce/media/Compact-View-Button-Grids.png)
 
 > [!NOTE]
 > Os tamanhos de botão no designer serão dimensionados para se ajustarem ao tamanho da janela; portanto, eles podem não refletir precisamente os botões reais renderizados no PDV. Para melhor simular o layout da grade de botões, ajuste as janelas do designer para o mesmo tamanho que o PDV.
@@ -134,7 +132,7 @@ O designer de layout de tela permite configurar vários aspectos da tela de **tr
 
 O designer de layout completo permite que os usuários arrastem controles de interface do usuário para a tela de **transação** do PDV e definam as configurações desses controles.
 
-![Designer de layout de PDV completo (modo paisagem)](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
+![Designer de layout de PDV completo (modo paisagem).](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
 
 - **Importação de layout/exportação de layout** – você pode importar e exportar designs de layout de tela do PDV como arquivos XML, para que possa reutilizá-los e compartilhá-los nos ambientes com facilidade. É importante importar designs de layout para os tamanhos corretos de layout. Caso contrário, os elementos da interface do usuário podem não se ajustar corretamente à tela.
 - **Paisagem/retrato** – se o dispositivo de PDV permitir que os usuários alternem entre os modos paisagem e retrato, você deverá definir o layout da tela para cada modo. O PDV automaticamente detecta a rotação da tela e mostra o layout correto.
@@ -142,11 +140,11 @@ O designer de layout completo permite que os usuários arrastem controles de int
 - **Zoom do designer** – você pode ampliar ou reduzir o zoom da exibição do designer para melhorar a exibição do conteúdo na tela do PDV. Esse recurso é útil quando a resolução da tela no PDV é muito diferente da resolução da tela usada no designer.
 - **Mostrar/ocultar a barra de navegação** – para layouts de PDV completos, é possível selecionar se a barra de navegação esquerda fica visível na tela de **transação** . Esse recurso é útil para telas que têm uma resolução mais baixa. Para definir a visibilidade, clique com o botão direito do mouse na barra de navegação no designer, e marque ou desmarque a caixa de seleção **Sempre visível**. Se a barra de navegação estiver oculta, os usuários do PDV ainda poderão acessá-la usando o menu na parte superior esquerda.
 
-    ![Mostrar/ocultar a barra de navegação](../commerce/media/Navigation-Bar.PNG)
+    ![Mostrar/ocultar a barra de navegação.](../commerce/media/Navigation-Bar.PNG)
 
 - **Controles do PDV** – o designer de layout de PDV oferece suporte aos controles a seguir. Você pode configurar muitos controles clicando com o botão direito do mouse e usando o menu de atalho.
 
-    ![Controles da interface do usuário do PDV](../commerce/media/POS-UI-Controls.png)
+    ![Controles da interface do usuário do PDV.](../commerce/media/POS-UI-Controls.png)
 
     - **Teclado numérico** – o teclado numérico é o mecanismo principal para as entradas do usuário na tela de **transação** do PDV. Você pode configurar o controle para que o teclado numérico completo seja exibido. Essa opção é ideal para dispositivos com tela touch. Alternativamente, você pode configurá-lo de forma que somente o campo de entrada seja exibido. Nesse caso, um teclado físico é usado para as entradas. As configurações de teclado numérico estão disponíveis somente para layouts completos. Para layouts compactos, o teclado numérico completo é sempre exibido na tela de **transação**.
     - **Painel de totais** – você pode configurar o painel de totais em uma ou duas colunas para exibir valores como contagem de linhas, valor do desconto, encargos, subtotal e imposto. Os layouts compactos oferecem suporte somente a uma única coluna.
@@ -161,13 +159,13 @@ O designer de layout completo permite que os usuários arrastem controles de int
 
 Como o designer de layout, o designer de layout compacto permite que você configure o layout da tela do PDV para telefones e tablets pequenos. No entanto, nesse caso, o layout em si é fixo. Você pode configurar os controles no layout clicando com o botão direito do mouse e usando o menu de atalho. No entanto, não é possível usar operações de arrastar e soltar para o conteúdo adicional.
 
-![Designer de layout compacto](../commerce/media/Compact-Layout-Designer.png)
+![Designer de layout compacto.](../commerce/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Designer de grade de botões
 
 O designer de grade de botões permite que você configure grades de botões que podem ser usadas na tela de boas-vindas do PDV e na tela de **transação** nos layouts completo compacto. A mesma grade de botões pode ser usada em vários layouts e tipos de layout. Como o designer de layout de tela, o designer de grade de botões usa a tecnologia de implantação ClickOnce para baixar, instalar e iniciar a versão mais recente do aplicativo toda vez que o usuário acessá-lo. Certifique-se de verificar os requisitos do navegador para ClickOnce. Alguns navegadores, como o Google Chrome, exigem extensões.
 
-![Designer de grade de botões](../commerce/media/Button-Grid-Designer.png)
+![Designer de grade de botões.](../commerce/media/Button-Grid-Designer.png)
 
 - **Novo botão** – clique para adicionar um novo botão à grade de botões. Por padrão, os novos botões são exibidos no canto superior esquerdo de grade. No entanto, você pode organizar os botões arrastando-os no layout.
 
@@ -180,7 +178,7 @@ O designer de grade de botões permite que você configure grades de botões que
     > [!IMPORTANT]
     > Algumas configurações da grade de botões aplicam-se somente ao PDV Empresarial, não ao Modern POS ou ao PDV em Nuvem.
 
-    ![Propriedades dos botões da grade de botões](../commerce/media/Button-grid-button-properties.png)
+    ![Propriedades dos botões da grade de botões.](../commerce/media/Button-grid-button-properties.png)
 
     - **Ação** – na lista de operações de PDV aplicáveis, selecione a operação que é invocada quando o botão é clicado no PDV.
 
@@ -192,7 +190,7 @@ O designer de grade de botões permite que você configure grades de botões que
     - **Dica de ferramenta** – especifique o texto de ajuda adicional que aparece quando os usuários passam o mouse sobre o botão.
     - **Tamanho em colunas/tamanho em linhas** – você pode especificar a altura e a largura do botão.
 
-        ![Tamanhos de botão do PDV em linhas e colunas](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+        ![Tamanhos de botão do PDV em linhas e colunas.](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
     - **Fonte personalizada** – ao marcar a caixa de seleção **Habilitar fonte personalizada para o PDV**, você poderá especificar uma fonte diferente da fonte padrão do sistema do PDV.
     - **Tema personalizado** – por padrão, os botões do PDV usam a cor de destaque do perfil visual. Ao marcar a caixa de seleção **Usar tema personalizado**, você poderá especificar cores adicionais.
@@ -202,8 +200,11 @@ O designer de grade de botões permite que você configure grades de botões que
 
     - **Imagem do botão** – os botões podem incluir imagens ou ícones. Selecione entre as imagens disponíveis especificadas em **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Imagens**.
 
-![Grade de botões de exemplo no PDV](../commerce/media/Example-Button-Grid-In-POS.png)
+![Grade de botões de exemplo no PDV.](../commerce/media/Example-Button-Grid-In-POS.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Instalar o designer de layout do Retail POS (ponto de venda)](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

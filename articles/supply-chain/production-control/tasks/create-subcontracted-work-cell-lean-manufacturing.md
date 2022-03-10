@@ -1,26 +1,23 @@
 ---
 title: Criar uma célula de trabalho subcontratada para lean manufacturing
 description: Para modelar trabalho subcontratado para o lean manufacturing, você deve criar uma célula de trabalho associada ao fornecedor que fornece o trabalho.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bc1e8551bbebd11cad18d47f9e74a2dedcb908d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f37a38227ef57e6e66a77e90883bf157792e7f81
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421895"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576823"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Criar uma célula de trabalho subcontratada para lean manufacturing
 
@@ -30,7 +27,7 @@ Para modelar trabalho subcontratado para o lean manufacturing, você deve criar 
 
 
 ## <a name="create-a-vendor-resource"></a>Crie um recurso de fornecedor
-1. Vá para Recursos.
+1. Acesse Recursos.
 2. Clique em Novo.
 3. No campo Recurso, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -71,3 +68,6 @@ Para modelar trabalho subcontratado para o lean manufacturing, você deve criar 
 24. No campo Unidade, clique no botão suspenso para abrir a pesquisa.
 25. Resolver altera a Unidade.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

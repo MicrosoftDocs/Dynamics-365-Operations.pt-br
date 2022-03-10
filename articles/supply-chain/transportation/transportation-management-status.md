@@ -2,25 +2,22 @@
 title: Status de gerenciamento de transporte
 description: Este tópico explica como criar um status de transporte e mapear esse status para um status de transportadora.
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
-ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 3f7d471771ec2b4703d878fbf395cd90902b6669
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: 9c5570d3b5b436a35bb57d051bc06cde8b78934e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422646"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569880"
 ---
 # <a name="transportation-management-statuses"></a>Status de gerenciamento de transporte
 
@@ -32,7 +29,7 @@ Configure códigos mestre para status de transporte para interpretar códigos fo
 
 Para criar um status de transporte, siga estas etapas:
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Mestres do status do transporte**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Mestres do status do transporte**.
 1. Selecione **Novo** para criar um mestre de status do transporte.
 1. No campo **Mestre do status do transporte**, insira um código exclusivo para o status de transporte.
 1. No campo **Tipo de transporte**, selecione *Transportadora* ou *Hub* como o tipo de transporte.
@@ -43,9 +40,12 @@ Para criar um status de transporte, siga estas etapas:
 
 Para mapear um status de transporte para um status de transportadora, siga estas etapas:
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Status do transporte da transportadora**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Status do transporte da transportadora**.
 1. Selecione **Novo** para mapear um código de uma transportadora para um código mestre de status da transportadora.
 1. Selecione a ID exclusiva da transportadora e o serviço da transportadora.
 1. Selecione o código de status do transporte a ser mapeado para o código da transportadora selecionada.
 1. Insira o código externo que é usado pela transportadora.
 1. Feche a página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

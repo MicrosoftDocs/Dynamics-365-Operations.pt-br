@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: aa7056f080fb855894f8b32f667dc3c3062c3c8b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 65423f49ba106a152f58c92533c4f1a16d47a318982cfe69bb23f9091fa09846
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763205"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Conteúdo de gerenciamento de crédito e cobranças do Power BI
 
@@ -43,11 +43,11 @@ Por padrão, são mostrados o crédito e os dados de cobrança da empresa atual.
 
 A configuração a seguir precisa ser concluída para que os dados sejam exibidos em recursos visuais **Crédito e cobranças de clientes** do Power BI.
 
-1. Vá para **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
-2. Vá para **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
-3. Vá para **Contabilidade > Configuração > Razão** e defina **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
-4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
-5. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **CustCollectionsBIMeasurementsV2**.
+1. Acesse **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
+2. Acesse **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
+3. Acesse **Contabilidade > Configuração > Razão** e defina **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
+4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema. Para fazer isso, Acesse **Contabilidade > Moedas > Taxas de câmbio de moedas**.
+5. Acesse **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **CustCollectionsBIMeasurementsV2**.
 
 >[!NOTE] 
 > As definições de período de classificação por vencimento devem ser configuradas em **Parâmetros de Contas a pagar > Coletas > Padrões de coletas** para habilitar dados de classificação por vencimento no conteúdo do Power BI.

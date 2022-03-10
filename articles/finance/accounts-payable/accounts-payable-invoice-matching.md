@@ -1,9 +1,9 @@
 ---
 title: Visão geral sobre conciliação de faturas de contas a pagar
 description: A conciliação de faturas de contas a pagar é o processo de conciliar as informações da fatura do fornecedor e do recebimento do produto.
-author: abruer
+author: sunfzam
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c9f7c19d81a22feaeccc31a3f3d390b1a721485083c32e215b155e7896a06d7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a7ffcd731b127b9a51551d4fe966dcfd69a34e54
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737421"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984068"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Visão geral sobre conciliação de faturas de contas a pagar
 

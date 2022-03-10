@@ -2,11 +2,9 @@
 title: Criar entidades legais
 description: Este tópico descreve como criar entidades legais no Microsoft Dynamics 365 Commerce, que devem ser criadas e configuradas antes da criação de canais.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 016b67631a53139d12d65dfaf594f49b030326b1
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740422"
 ---
 # <a name="create-legal-entities"></a>Criar entidades legais
 
@@ -39,14 +37,14 @@ Ao criar um canal, você deve especificar a qual entidade legal ele pertence.
 
 Para criar uma nova entidade legal no Dynamics 365 Commerce, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Configuração da sede \> Entidades legais**.
+1. No painel de navegação, Acesse **Módulos \> Configuração da sede \> Entidades legais**.
 1. No painel de ação, selecione **Novo**. O painel **Nova entidade legal** é exibido à direita.
 1. No campo **Nome**, insira um valor.
 1. No campo **Empresa**, insira um valor.
 1. No campo **País/região**, insira ou selecione um valor.
 1. Selecione **OK**. 
 
-   ![Criação de uma entidade legal](media/legal-entities.png)
+   ![Criação de uma entidade legal.](media/legal-entities.png)
 
 1. Na seção **Geral**, forneça as seguintes informações gerais sobre a entidade legal:: 
    1. Insira um nome de pesquisa, se um nome de pesquisa for necessário. Um nome de pesquisa é um nome alternativo que pode ser usado para procurar essa entidade legal. 
@@ -69,7 +67,7 @@ Para criar uma nova entidade legal no Dynamics 365 Commerce, siga estas etapas.
 
 A imagem a seguir mostra detalhes de um exemplo de entidade legal.
 
-![Seção Geral da entidade legal](media/legal-entities-general.png)
+![Seção Geral da entidade legal.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Recursos adicionais
 

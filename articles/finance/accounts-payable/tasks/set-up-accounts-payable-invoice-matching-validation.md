@@ -2,23 +2,23 @@
 title: Configurar a Validação da conciliação de faturas de contas a pagar
 description: Este tópico fornece informações sobre como configurar a validação na Conciliação de faturas de contas a pagar.
 author: abruer
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 017b0197563b9d7fd03f5fc927353be8d16586090f467cff792016431e0fafad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722854"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182546"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurar a Validação da conciliação de faturas de contas a pagar
 
@@ -54,7 +54,7 @@ Quatro tipos de validação de conciliação diferentes estão disponíveis.
 12. No campo **Total tolerância de preços de compra** , insira um valor em moeda contábil. Esse campo só estará disponível quando **Conciliar totais de preço** estiver definido como **Valor** ou **Porcentagem e valor**.
 13. No campo **Exibir ícone de conciliação do total de preço**, selecione quando um ícone é exibido se a discrepância para a conciliação de faturas exceder a tolerância para o preço unitário líquido. O ícone pode ser exibido quando uma discrepância positiva exceder a tolerância ou quando uma discrepância positiva ou negativa exceder a tolerância.
 Por exemplo, a tolerância é 5 por cento e o total do preço da linha na ordem de compra for de 10,00. Portanto, um ícone de conciliação do preço será exibido se preço total da linha na fatura exceder 10,50. Se você selecionar **Se maior que ou menor que a tolerância**, um ícone também será mostrado se o valor da fatura for menor que 9,50.
-13. Defina a Conciliação de encargos.
+13. Defina a **Conciliação de encargos**.
 14. Para conciliar os encargos reais com os encargos esperados, com base nas informações nas ordens de compra, marque a caixa de seleção **Conciliar encargos**.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Configure porcentagens de tolerância de preços unitários
@@ -75,7 +75,7 @@ Por padrão, as discrepâncias de preço negativo são permitidas. No entanto, v
 
 ## <a name="set-up-matching-policy-override"></a>Configure a substituição da política de conciliação
 
-Acesse **Contas a pagar > Configuração > Configuração de conciliação de faturas > Política de conciliação** para definir a entrada padrão para o campo Política de conciliação para linhas no formulário Ordem de compra. Esta é uma configuração opcional. Use este formulário para configurar uma conciliação dupla ou tripla para itens, fornecedores, ou combinações de item e fornecedor. Essas entradas permitem que você defina políticas de conciliação mais granuladas do que a política de conciliação de entidade legal definida na página **Parâmetros de contas a pagar**. A política de conciliação da linha de entidade legal padrão aplica-se a todos os itens e fornecedores, exceto aqueles para os quais uma política de conciliação de linha diferente é especificado nessa página.
+Acesse **Contas a pagar > Configuração > Configuração de conciliação de faturas > Política de conciliação** para definir a entrada padrão para o campo **Política de conciliação** para linhas na página **Ordem de compra**. Esta é uma configuração opcional. Use esta página para configurar uma conciliação dupla ou tripla para itens, fornecedores ou combinações de item e fornecedor. Essas entradas permitem que você defina políticas de conciliação mais granuladas do que a política de conciliação de entidade legal definida na página **Parâmetros de contas a pagar**. A política de conciliação da linha de entidade legal padrão aplica-se a todos os itens e fornecedores, exceto aqueles para os quais uma política de conciliação de linha diferente é especificado nessa página.
 
 Nesta página, selecione o **Nível de política de conciliação**. Selecione o nível na hierarquia da política de conciliação para definir as políticas de conciliação de linha.
 

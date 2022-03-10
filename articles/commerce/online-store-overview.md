@@ -3,25 +3,24 @@ title: Visão geral de sites de comércio eletrônico
 description: Este tópico fornece uma visão geral do suporte para sites de comércio eletrônico no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353003"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984560"
 ---
 # <a name="e-commerce-site-overview"></a>Visão geral do site de comércio eletrônico
 

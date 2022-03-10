@@ -1,27 +1,26 @@
 ---
 title: Visão geral do estado do ciclo de vida do produto
 description: O estado do ciclo de vida de um produto documenta o estado do ciclo de vida de um produto ou grade de produto liberado.
-author: cvocph
+author: t-benebo
 ms.date: 01/06/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 0ebd482ad7dfde5393f4c03541a2ae1bca76ca7c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340033"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983785"
 ---
 # <a name="product-lifecycle-state-overview"></a>Visão geral do estado do ciclo de vida do produto
 

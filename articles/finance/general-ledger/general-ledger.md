@@ -3,24 +3,26 @@ title: Visão geral da contabilidade e de relatórios financeiros
 description: Use a Contabilidade para definir e gerenciar os registros financeiros da entidade legal.
 author: ShylaThompson
 ms.date: 08/14/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 65431
+ms.custom:
+- "65431"
+- intro-internal
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60ebe19d53e87e385af8e32c32b9c0cc43291eba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832865"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985228"
 ---
 # <a name="general-ledger-home-page"></a>Home page da contabilidade
 
@@ -37,9 +39,9 @@ Você pode alocar, ou distribuir, valores monetários para uma ou mais contas ou
 - [Saldos de conta contábil](general-ledger-account-balances.md)
 - [Dimensões financeiras](financial-dimensions.md)
 
-[![Processo de negócios](./media/GL-process.PNG)](./media/GL-process.PNG)
+[![Processo de negócios.](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-## <a name="sales-tax"></a>Imposto
+## <a name="sales-tax"></a>Impostos
 Cada empresa recolhe e paga impostos a várias autoridades fiscais. As regras e as taxas variam por país/região, estado, região e cidade.
 Além disso, as regras devem ser atualizadas periodicamente quando as autoridades fiscais alterarem seus requisitos. Os códigos de imposto contêm as informações básicas sobre o quanto você recolhe e paga às autoridades. Ao configurar códigos de imposto, defina valores ou porcentagens que devem ser recolhidos. Também é possível definir vários métodos pelo qual esses valores ou porcentagens são aplicados aos valores da transação. Os tópicos desta seção fornecem informações sobre como configurar os códigos de imposto para os métodos e as taxas que as autoridades fiscais exigem.
 
@@ -52,14 +54,14 @@ Além disso, as regras devem ser atualizadas periodicamente quando as autoridade
 
 #### <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
 
-Acesse os [planos de versão do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver quais novos recursos foram planejados. 
+Acesse os [planos de versão do Microsoft Dynamics 365](/dynamics365/release-plans/) para ver quais novos recursos foram planejados. 
 
 #### <a name="financial-reporting"></a>Relatórios financeiros
-Vá para o tópico [Visão geral do Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) para obter informações sobre relatórios financeiros.
+Acesse o tópico [Visão geral do Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) para obter informações sobre relatórios financeiros.
 
 #### <a name="blogs"></a>Blogs
 
-Você pode encontrar opiniões, notícias e outras informações no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+Você encontra opiniões, notícias e outras informações no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog do Microsoft Dynamics 365 Finance and Operations - Finanças](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do Dynamics 365.
 

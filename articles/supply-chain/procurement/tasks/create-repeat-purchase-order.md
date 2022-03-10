@@ -1,26 +1,24 @@
 ---
 title: Criar uma ordem de compra repetida
 description: Este tópico mostra como criar uma ordem de compra (PO) da repetição copiando linhas de um documento de ordem mais adiantado da compra a uma PO nova ou a uma PO existente.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65eb801fb363ce2484dcce4d086d1b2b5ad3388f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3af29594326501359e4722b92d6c5235cf25af9c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017333"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569352"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Criar uma ordem de compra repetida
 
@@ -30,7 +28,7 @@ Este tópico mostra como criar uma ordem de compra (PO) da repetição copiando 
 
 
 ## <a name="create-a-new-repeat-purchase-order"></a>Criar uma nova ordem de devolução
-1. No painel de navegação, vá para **Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**. Primeiramente nós tentaremos a opção para copiar informação de uma ordem nova.  
+1. No painel de navegação, Acesse **Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**. Primeiramente nós tentaremos a opção para copiar informação de uma ordem nova.  
 2. Selecione **Novo**.
 3. No campo **Conta de fornecedor**, insira `US-101`.
 4. Selecione **OK**.
@@ -69,3 +67,6 @@ Em vez de copiar uma ordem inteira, é mais comum criar uma PO nova e uma inform
 4. Selecione a linha da ordem de compra desejada. Observe que a única linha da ordem que está nesta PO também está selecionada.  
 5. Selecione **OK**. A linha adicional da ordem foi adicionada a sua ordem de compra.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

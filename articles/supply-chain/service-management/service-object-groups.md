@@ -1,12 +1,10 @@
 ---
 title: Grupos de objetos de serviço
 description: Grupos de objetos são úteis para classificar e filtrar os dados sobre objetos para relatórios e estatísticas.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectGroups
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9d19e29dbddb0bccf3221cc82e6dbb2c05f7e85
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bfee8bacbf9c62950ff45b90d19258516ec20b20
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266070"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568966"
 ---
-# <a name="service-object-groups"></a>Grupos de objetos de serviço 
+# <a name="service-object-groups"></a>Grupos de objetos de serviço
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,17 +32,17 @@ Grupos de objetos são úteis para classificar e filtrar os dados sobre objetos 
 
 Você pode usar este método de agrupamento para mostrar onde estão localizados os vários objetos diferentes para os quais sua empresa presta serviços. Agrupar objetos por localização geográfica também poderá ser útil se, por exemplo, for necessário identificar os objetos para os quais sua empresa presta serviços em um país/região específico.
 
-## <a name="example"></a>exemplo
+## <a name="example-of-grouping-by-geographical-location"></a>Exemplo de agrupamento por localização geográfica
 
-Um cliente da Bélgica liga para o seu centro de serviço e deseja criar uma contrato de serviço para um objeto, ABC. Você associou um grupo de objetos para localização geográfica, Bélgica, a todos os objetos atendidos na Bélgica. Usando esse grupo como um filtro, você pode pesquisar rapidamente e consultar se já existe um registros para ABC no programa ou se é necessário configurar um novo objeto. 
+Um cliente da Bélgica liga para o seu centro de serviço e deseja criar uma contrato de serviço para um objeto, ABC. Você associou um grupo de objetos para localização geográfica, Bélgica, a todos os objetos atendidos na Bélgica. Usando esse grupo como um filtro, você pode pesquisar rapidamente e consultar se já existe um registros para ABC no programa ou se é necessário configurar um novo objeto.
 
 ## <a name="group-by-type"></a>Agrupar por tipo
 
 Você pode usar este método de agrupamento para mostrar os tipos de objetos que sua empresa presta serviços. Agrupar objetos por tipo também pode ser útil se, por exemplo, você deseja criar um novo objeto com base em objetos semelhantes que já existam no programa.
 
-## <a name="example"></a>exemplo
+## <a name="example-of-grouping-by-type"></a>Exemplo de agrupamento por tipo
 
-Um cliente liga e deseja definir um contrato de serviço para uma máquina de ar-condicionado, HIJ. Você ainda não tem um registro para este computador. No entanto, você configurou um grupo de objetos intitulado Ar-condicionados e associou esse grupo a todos os objetos de ar-condicionado. Portanto, é possível pesquisar rapidamente e identificar todas as outras máquinas de ar-condicionado e usar as informações do modelo desses objetos para criar linhas de contrato de serviço para HIJ. Ao usar grupos de objetos dessa maneira, você pode configurar rapidamente novos objetos e determinar as tarefas de serviço que devem ser realizadas neles. 
+Um cliente liga e deseja definir um contrato de serviço para uma máquina de ar-condicionado, HIJ. Você ainda não tem um registro para este computador. No entanto, você configurou um grupo de objetos intitulado Ar-condicionados e associou esse grupo a todos os objetos de ar-condicionado. Portanto, é possível pesquisar rapidamente e identificar todas as outras máquinas de ar-condicionado e usar as informações do modelo desses objetos para criar linhas de contrato de serviço para HIJ. Ao usar grupos de objetos dessa maneira, você pode configurar rapidamente novos objetos e determinar as tarefas de serviço que devem ser realizadas neles.
 
 ## <a name="create-service-object-groups"></a>Criar grupos de objetos de serviço
 

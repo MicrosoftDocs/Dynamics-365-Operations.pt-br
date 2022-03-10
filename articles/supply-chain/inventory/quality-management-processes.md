@@ -1,26 +1,28 @@
 ---
 title: Visão geral do gerenciamento de qualidade e não conformidade
 description: Este tópico apresenta os recursos de gerenciamento de qualidade e não conformidade no Microsoft Dynamics 365 Supply Chain Management e explica como eles podem ajudar a melhorar a qualidade dos produtos na sua cadeia de suprimentos.
-author: perlynne
+author: yufeihuang
 ms.date: 03/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 11574
+ms.custom:
+- "11574"
+- intro-internal
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ca6f9884b1d977e36f04f6da04ab8a0ea228632
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956221"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985500"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>Visão geral do gerenciamento de qualidade e não conformidade
 
@@ -62,7 +64,7 @@ Veja a seguir algumas das maneiras a qual você pode controlar o processo de ger
 - Documente o custo de gerenciamento de uma não conformidade. Esse custo pode incluir os itens (como as peças sobressalentes), os encargos diversos e as horas da folha de ponto necessárias para corrigir a não conformidade.
 - Agente os processos de correção de erros usando o tratamento de correção vinculado a ordens de qualidade.
 
-[![Processo de gerenciamento de qualidade](media/quality-management-process-diagram.png)](media/quality-management-process-diagram.png)
+[![Processo de gerenciamento de qualidade.](media/quality-management-process-diagram.png)](media/quality-management-process-diagram.png)
 
 ## <a name="product-testing-and-quality-orders"></a>Testes de produto e ordens de qualidade
 

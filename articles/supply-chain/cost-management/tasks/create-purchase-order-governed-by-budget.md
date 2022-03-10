@@ -1,7 +1,7 @@
 ---
 title: Criar uma ordem de compra regida por orçamento
 description: Use este procedimento para criar uma ordem de compra que seja verificada para o orçamento disponível.
-author: ShylaThompson
+author: AndersGirke
 ms.date: 06/20/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a79b19ce4ff35ecc1f691edea1bdc5e30010b433
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e2bfec4d7d38ef95d1f0ce3bd89938337ecf731
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821360"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572040"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Criar uma ordem de compra regida por orçamento
 
@@ -27,7 +27,7 @@ Use este procedimento para criar uma ordem de compra que seja verificada para o 
 
 
 ## <a name="review-the-budget-control-configuration"></a>Revise a configuração de controle de orçamento
-1. Vá para Orçamento > Configuração > Controle de orçamento > Configuração de controle de orçamento.
+1. Acesse Orçamento > Configuração > Controle de orçamento > Configuração de controle de orçamento.
 2. Clique na guia disponível dos fundos de orçamento.
 3. Clique na guia Documentos e diários.
 4. Clique na guia Definir regras de controle de orçamento.
@@ -35,7 +35,7 @@ Use este procedimento para criar uma ordem de compra que seja verificada para o 
 6. Feche a página.
 
 ## <a name="create-the-purchase-order-header"></a>Criar o cabeçalho da ordem de compra
-1. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
+1. Acesse Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. No campo Conta de fornecedor, insira ou selecione um valor.
 4. Expanda a seção Geral.

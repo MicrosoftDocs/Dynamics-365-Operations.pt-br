@@ -1,29 +1,26 @@
 ---
 title: Entidades de destino
 description: Este tópico explica como obter uma visão geral de entidades de destino no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 58027fcb29efbac847f3018ae1eb6677241ed87b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c2d08781ff75b2435e9b71531ce77a59dbee2d90e647087d7c2c58bb4b1227e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772559"
 ---
 # <a name="target-entities"></a>Entidades de destino
 
@@ -37,13 +34,13 @@ No espaço de trabalho **Gerenciamento de dados**, você pode ter uma visão ger
 
 2. Na seção **Importar / Exportar**, clique em **Entidades de dados**. 
 
-    ![Figura 1](media/01-data-management.png)
+    ![Figura 1.](media/01-data-management.png)
 
 3. Na página **Entidades de destino**, busque por "gerenciamento de ativos" no filtro, e pressione Enter para ver uma lista de entidades relacionadas ao Gerenciamento de ativos.
 
     A imagem abaixo mostra algumas das Entidades de gerenciamento de ativos.
 
-   ![Figura 2](media/02-data-management.png)
+   ![Figura 2.](media/02-data-management.png)
 
 4. Selecione uma entidade e clique em **Modificar mapeamento de destino**.
 
@@ -51,5 +48,8 @@ No espaço de trabalho **Gerenciamento de dados**, você pode ter uma visão ger
 
     Na figura abaixo, uma visualização dos campos relacionados à entidade de tipos de ativo é exibida.
 
-    ![Figura 3](media/03-data-management.png)
+    ![Figura 3.](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

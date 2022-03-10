@@ -2,11 +2,9 @@
 title: Configurar códigos de imposto
 description: Este tópico explica como configurar códigos de imposto no Dynamics 365 Finance.
 author: twheeloc
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 594e8f0595ecace748a70860c1ccacaf90b7d279
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222182"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562093"
 ---
 # <a name="set-up-sales-tax-codes"></a>Configurar códigos de imposto
 
@@ -30,7 +28,7 @@ Este tópico explica como configurar códigos de imposto. Códigos de imposto s�
 
 Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para **Painel de navegação > Imposto > Impostos indiretos > Imposto > Códigos de imposto**.
+1. Acesse **Painel de navegação > Imposto > Impostos indiretos > Imposto > Códigos de imposto**.
 2. Selecione **Novo**.
 3. No campo **Código de imposto**, digite um valor.
 4. No campo **Nome**, digite um valor.
@@ -40,11 +38,19 @@ Esta tarefa usa a empresa de demonstração USMF.
 8. No **Painel de Ações**, na parte superior de interface, selecione **Código de imposto**.
 9. Selecione **Valores**.
 10. Insira o valor para esse código de imposto na coluna **valor**.
-    - Na Guia Rápida **Cálculo**, no campo Origem, se Valor por unidade estiver selecionado, o valor será multiplicado pela quantidade da transação para calcular o valor do imposto.  Se o código de imposto não for um imposto baseado na unidade, o valor é uma porcentagem que é aplicada na origem para a qual esse código de imposto calcula o valor do imposto sobre vendas.     
+
+    Na FastTab **Cálculo**, no campo **Origem**, se **Valor por unidade** estiver selecionado, o valor será multiplicado pela quantidade na transação para calcular o valor do imposto.  Se o código de imposto não for um imposto baseado na unidade, o valor será uma porcentagem aplicada na origem para a qual esse código de imposto calcula o valor do imposto sobre vendas.     
+
 11. Selecione **Salvar**.
 12. Feche a página.
 13. Selecione **Salvar**.
 
+A partir do Microsoft Dynamics 365 Finance versão 10.0.22, se você estiver usando o [Serviço de imposto](../../localizations/global-tax-calcuation-service-overview.md) e o recurso [**Oferecer suporte a vários números de inscrição de IVA**](../../localizations/emea-multiple-vat-registration-numbers.md) estiver habilitado no espaço de trabalho **Gerenciamento de recursos**, você poderá usar o campo **Tipo de imposto** para especificar o tipo do código de imposto. Os valores a seguir estão disponíveis:
 
+- IVA Padrão
+- IVA reduzido
+- 0% de IVA
+- Imposto embutido
+- Outro
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

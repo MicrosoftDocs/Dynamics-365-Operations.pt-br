@@ -2,11 +2,9 @@
 title: Acompanhar comissões no POS (ponto de venda) usando grupos de vendas
 description: É uma prática comum de varejo rastrear as vendas associadas pelo associado que trabalhou com o cliente, fornecendo ajuda, venda direta, venda cruzada e processamento da transação.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b020618036951e7033baadbf58b806df7877bdb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ca77ad5564cc93e9fcf335b5a49548f91c7c13face41fd73477ae4083f78be57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770900"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Acompanhar comissões no POS (ponto de venda) usando grupos de vendas
 
@@ -87,3 +85,6 @@ O PDV permite ao usuário configurar grades de botão, que são incluídas em la
 ## <a name="calculating-commissions"></a>Como calcular comissões
 
 A comissão é calculada para os trabalhadores nos grupos de vendas específicos no momento lançamento de demonstrativo ou lançamento de ordem de venda. O valor da comissão é determinado com base no compartilhamento de comissões de trabalhador, conforme definido no grupo de vendas e nas configurações de cálculo de comissão associadas ao cliente e/ou a produtos da transação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

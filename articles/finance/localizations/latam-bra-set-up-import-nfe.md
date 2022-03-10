@@ -2,26 +2,23 @@
 title: Configurar, importar e verificar documentos XML de NF-e e de DANFE
 description: Você pode extrair e importar automaticamente o XML da Nota fiscal Eletrônica (NF-e) e seu DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) de e-mails enviados pelo fornecedor de sua empresa.
 author: v-gonode
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EFDocumentReceivedXML_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: ''
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 943162d4119e46d7f635bc08bfc9332b45598ea8
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: 9a5bb1821fe2ab135c64ae97b15670a73a8be39b70622445bbeb66ace5841339
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727263"
 ---
 # <a name="set-up-import-and-verify-nf-e-xml-documents-and-danfe"></a>Configurar, importar e verificar documentos XML de NF-e e de DANFE
 
@@ -63,3 +60,6 @@ Os arquivos XML e DANFE importados podem ser exibidos na página **Documentos XM
 1. Na página **Consultar status da chave de acesso da NF-e**, no campo **Limite de cancelamento**, insira o número de horas que o fornecedor tem para cancelar a NF-e.
 2. No campo **Intervalo mínimo entre as consultas**, insira o intervalo mínimo em minutos entre as consultas da chave de acesso de NF-e recebida na SEFAZ.
 3. Se necessário, insira os parâmetros de processamento em lotes, as recorrências e a agenda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

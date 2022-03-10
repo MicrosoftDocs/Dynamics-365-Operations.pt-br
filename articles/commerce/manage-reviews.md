@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a649463b853d4ff0ef158167e5a3e0bcc4ddc5e6e9007fddda82dd14a00851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731584"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968218"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gerenciar classificações e opiniões
 
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como gerenciar classificações e opiniões no construtor de site do Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 O Dynamics 365 Commerce usa o Serviço Cognitivo do Microsoft Azure para moderar automaticamente o texto da opinião, redigindo palavras profanas. Além disso, os moderadores podem usar o construtor de site do Dynamics 365 Commerce para implementar as seguintes tarefas manuais:
 
@@ -129,6 +127,14 @@ Para exibir tendências de classificações e opiniões no construtor de site do
 [Configurar classificações e opiniões](configure-ratings-reviews.md)
 
 [Sincronizar classificações de produto no Dynamics 365 Retail](sync-product-ratings.md)
+
+[Habilitar a publicação manual de classificações e opiniões por um moderador](manual-publish-rating-reviews.md)
+
+[Importar e exportar avaliações e revisões](import-export-reviews.md)
+
+[Configurar autenticação de serviço a serviço](service-to-service-auth.md)
+
+[Perguntas frequentes sobre classificações e opiniões](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

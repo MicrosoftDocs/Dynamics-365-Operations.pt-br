@@ -1,7 +1,7 @@
 ---
 title: Criar um produto mestre
 description: Crie um produto mestre para as variáveis predefinidas.
-author: ShylaThompson
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 70008e903763fff35c6cff12c42396fe5fcabbee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e76c367d4aa6c08332371374a26dd6fdbbdb4eb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832073"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577327"
 ---
 # <a name="create-a-product-master"></a>Criar um produto mestre
 
@@ -28,7 +28,7 @@ Crie um produto mestre para as variáveis predefinidas. A empresa de dados demo 
 
 
 ## <a name="create-a-new-product-master"></a>Criar um novo produto mestre
-1. Vá para **Painel de navegação > Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
 2. Clique em **Novo**.
 3. No campo **Número do produto**, digite um valor. O número deve ser exclusivo. É possível definir uma sequência numérica para o campo **Número do produto**. Nesse caso, o usuário não precisará inserir um valor.
 4. No campo **Nome do produto**, digite um valor. Insira um nome de produto descritivo. O valor será padronizada pelo nome de pesquisa, mas isso pode ser alterado pelo usuário.

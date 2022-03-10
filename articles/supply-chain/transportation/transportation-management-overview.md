@@ -1,9 +1,9 @@
 ---
 title: Visão geral de gerenciamento de transporte
 description: Este tópico mostra uma visão geral da funcionalidade de gerenciamento de transporte no Supply Chain Management.
-author: MarkusFogelberg
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e1ab661786591f28c0164bc1485d557cda3047c0cf03f066d752b4ca287b0bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68082a736fd45c6701324a1492087c1b16bf0566
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779077"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985436"
 ---
 # <a name="transportation-management-overview"></a>Visão geral de gerenciamento de transporte
 

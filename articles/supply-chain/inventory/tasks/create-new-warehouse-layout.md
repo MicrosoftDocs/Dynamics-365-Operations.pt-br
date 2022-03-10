@@ -1,28 +1,25 @@
 ---
 title: Criar um novo layout de depósito
 description: Este tópico descreve como configurar informações sobre as localizações em um depósito.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09666e95cc90913f1bf8555b9ff2c48aa55369ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422448"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580879"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Criar um novo layout de depósito
 
@@ -32,7 +29,7 @@ Este tópico descreve como configurar informações sobre as localizações em u
 
 
 ## <a name="set-the-default-location-capacity"></a>Definir a capacidade do local padrão
-1. No Painel de Navegação, vá para **Painel de navegação > Módulos > Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque**.
+1. No Painel de Navegação, Acesse **Painel de navegação > Módulos > Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque**.
 2. Selecione a guia **Localizações**.
 3. No campo **Largura padrão**, digite um número.
 4. No campo **Profundidade padrão**, insira um número.
@@ -41,7 +38,7 @@ Este tópico descreve como configurar informações sobre as localizações em u
 7. Feche a página.
 
 ## <a name="define-the-location-name-format"></a>Definir o formato do nome da localização
-1. No Painel de Navegação, vá para **Módulos > Gerenciamento de estoque > Configuração > Divisão de estoque > Depósitos**.
+1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de estoque > Configuração > Divisão de estoque > Depósitos**.
 2. Selecione **Novo**.
 3. No campo **Depósito**, digite um valor.
 4. No campo **Nome**, digite um valor.
@@ -63,3 +60,6 @@ Este tópico descreve como configurar informações sobre as localizações em u
 7. Feche a página.
 8. Atualize a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

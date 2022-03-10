@@ -2,26 +2,23 @@
 title: Consolidações financeiras online
 description: Este tópico descreve consolidações financeiras online na contabilidade.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7c8a36447670458b2a8fe423f35fafd5f8cff773461f4dff47577e52573abc3a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440345"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758840"
 ---
 # <a name="online-financial-consolidations"></a>Consolidações financeiras online
 
@@ -34,7 +31,7 @@ Depois de concluir sua instalação, insira os detalhes da consolidação na pá
 ## <a name="criteria"></a>Critérios
 Na guia **Critérios** da página **Consolidar [Online]**, você define as contas, os períodos e os tipos de dados que estão sendo consolidados.
 
-![Guia Critérios](./media/criteria-consolidate-online.png "Guia Critérios")
+![Guia Critérios.](./media/criteria-consolidate-online.png "Guia Critérios")
 
 Aqui está uma explicação sobre os vários campos nessa guia:
 
@@ -60,16 +57,16 @@ Aqui está uma explicação sobre os vários campos nessa guia:
 ## <a name="financial-dimensions"></a>Dimensões financeiras
 Na guia **Dimensões financeiras**, você define as dimensões que devem ser incluídas na empresa de consolidação. Para selecionar uma dimensão, defina o campo **Especificação** como **Dimensão** e defina a ordem da dimensão na empresa de consolidação.
 
-![Guia Dimensões financeiras](./media/financial-dimensions-cons.png "Guia Dimensões financeiras")
+![Guia Dimensões financeiras.](./media/financial-dimensions-cons.png "Guia Dimensões financeiras")
 
 Independentemente da ordem que você definir, a **Conta principal** será sempre o primeiro segmento.
 
 ## <a name="legal-entities"></a>Entidades legais
 Na guia **Entidades legais**, você define as empresas que devem ser incluídas na empresa de consolidação. Você também define a porcentagem de participação das empresas. Se você especificar a participação em menos de 100%, o percentual especificado será acumulado para a empresa de consolidação. Para todas as diferenças de conversão, o campo **Tipo de contas das diferenças de conversão** será usado para selecionar a conta principal de instalação na página **Contas para transações automáticas** .
 
-![Guia Entidades legais](./media/legal-entities-cons.png "Guia Entidades legais")
+![Guia Entidades legais.](./media/legal-entities-cons.png "Guia Entidades legais")
 
-![Página Contas para transações automáticas](./media/accounts-for-automatic-cons.png "Página Contas para transações automáticas")
+![Página Contas para transações automáticas.](./media/accounts-for-automatic-cons.png "Página Contas para transações automáticas")
 
 ## <a name="elimination"></a>Eliminação
 Na guia **Eliminação**, você tem três opções para processar eliminações:
@@ -78,7 +75,7 @@ Na guia **Eliminação**, você tem três opções para processar eliminações:
 - Selecione a regra de eliminação e, em seguida, no campo **Opções da proposta**, selecione **Lançar somente**. Esta opção processará a eliminação durante o processo de consolidação e lançará tudo em uma etapa.
 - Use um diário de eliminação para executar uma proposta de eliminação separada do processo de consolidação.
 
-![Guia Eliminação](./media/elimination-cons-onl.png "Guia Eliminação")
+![Guia Eliminação.](./media/elimination-cons-onl.png "Guia Eliminação")
 
 Para obter mais informações sobre eliminações, consulte [Regras de eliminação](./elimination-rules.md).
 
@@ -89,10 +86,13 @@ Na guia **Conversão de moeda**, você define a entidade legal, a conta, o tipo 
 - **Data da transação** – A data de cada transação será usada para selecionar uma taxa de câmbio. Essa opção é a mais usada normalmente para ativos fixos e é também conhecida como uma taxa histórica. Você não terá uma visualização da taxa, porque haverá várias taxas para diversas transações no intervalo de conta.
 - **Taxa definida pelo usuário** – Após selecionar esta opção, você poderá inserir a taxa de câmbio que deseja. Esta opção pode ser útil para as taxas de câmbio médias ou se você estiver realizando uma consolidação em relação a uma taxa de câmbio fixa.
 
-![Guia Conversão de moeda](./media/currency-translation-cons-online.png "Guia Conversão de moeda")
+![Guia Conversão de moeda.](./media/currency-translation-cons-online.png "Guia Conversão de moeda")
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 Para obter mais informações sobre consolidação e conversão de moeda, consulte o tópico principal deste tópico, [Visão geral de consolidações financeiras e conversão de moeda](./financial-consolidations-currency-translation.md).
 
 Para obter informações sobre os cenários onde você poderá gerar demonstrativos financeiros consolidados, consulte [Gerar demonstrativos financeiros consolidados](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

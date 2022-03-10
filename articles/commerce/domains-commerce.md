@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733982"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domínios no Dynamics 365 Commerce
 
@@ -38,9 +38,9 @@ Ao provisionar um ambiente de comércio eletrônico no [Microsoft Dynamics Lifec
 
 A ilustração a seguir mostra a tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada. 
 
-![Tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
-Você pode criar uma solicitação de serviço para adicionar outros domínios a um ambiente se o provisionamento já tiver ocorrido. Para criar uma solicitação de serviço no LCS, no seu ambiente, vá para **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
+Você pode criar uma solicitação de serviço para adicionar outros domínios a um ambiente se o provisionamento já tiver ocorrido. Para criar uma solicitação de serviço no LCS, no seu ambiente, Acesse **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
 
 ## <a name="commerce-generated-urls"></a>URLs geradas pelo Commerce
 
@@ -56,7 +56,7 @@ Ao configurar um site pela primeira vez no construtor de sites, a caixa de diál
 
 A ilustração a seguir mostra a caixa de diálogo **Configurar seu Site** de um site denominado "padrão" quando você acessa o site pela primeira vez no construtor de sites.
 
-![Caixa de diálogo **Configurar seu Site**](./media/Domains_SetupyoursiteScreen.png)
+![Caixa de diálogo **Configurar seu Site**.](./media/Domains_SetupyoursiteScreen.png)
 
 A caixa **Selecionar um domínio** permite que você associe um dos nomes de host com suporte fornecidos para o seu site no LCS ao seu site no construtor de sites.
 
@@ -79,11 +79,11 @@ Depois que o seu site for configurado com um caminho, todas as URLs associadas �
 
 A ilustração a seguir mostra a caixa de diálogo **Nova URL** no construtor de sites com um exemplo de caminho de URL realçado. 
 
-![Caixa de diálogo **Nova URL** no construtor de sites](./media/Domains_PageSetup2a.png)
+![Caixa de diálogo **Nova URL** no construtor de sites.](./media/Domains_PageSetup2a.png)
 
 A ilustração a seguir mostra a página **URLs** no construtor de sites com um exemplo de URL realçado na lista.
 
-![Executar a opção do fluxo de usuário no fluxo da política](./media/Domains_URLsInSiteBuilder2a.png)
+![Executar a opção do fluxo de usuário no fluxo da política.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domínios no construtor de sites
 
@@ -117,7 +117,7 @@ Para usar a instância do Azure Front Door fornecida pelo Commerce, você deve c
 - Para um novo domínio, a verificação de domínio e o certificado SSL podem ser obtidos em uma única etapa. 
 - Para um domínio que atende a um site existente, há um processo de várias etapas necessário para estabelecer a verificação de domínio e o certificado SSL. Esse processo tem um contrato de nível de serviço (SLA) de 7 dias úteis para um domínio entrar no ar, pois ele inclui várias etapas sequenciais.
 
-Para criar uma solicitação de serviço no LCS, no seu ambiente, vá para **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
+Para criar uma solicitação de serviço no LCS, no seu ambiente, Acesse **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
 
 > [!NOTE]
 > Os domínios personalizados com SSL só têm suporte em ambientes de produção. Para ambientes que não são de produção, como os de área restrita e de teste de aceitação do usuário (UAT), use a URL gerada pelo Commerce para acessar o conteúdo publicado em um navegador da Web.

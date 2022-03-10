@@ -2,11 +2,9 @@
 title: Renunciar, restabelecer ou estornar taxas de juros
 description: Este artigo explica como cancelar, reestabelecer, e reverter cobranças de juros e taxas.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInterestJourList
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43b9a612639e6981511acc1cff7fdc3607ceb28a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fb022179a1eb919eaf3d2ea74927ab4d61bd6fffb81348e352af7cf78d4b178c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220026"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754281"
 ---
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Renunciar, restabelecer ou estornar taxas de juros
 

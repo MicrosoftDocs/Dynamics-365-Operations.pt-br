@@ -1,12 +1,10 @@
 ---
 title: Criar estruturas de conta
-description: Este guia de tarefas aborda a criação de uma estrutura de conta.
+description: Este procedimento orienta na criação de uma estrutura de conta.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a8df7d7d9c4555bf46ac1cc3f71695837b1369b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9ba43e243df4ba4b7c0eb6188629686206ff09b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968570"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394530"
 ---
 # <a name="create-account-structures"></a>Criar estruturas de conta
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia de tarefas aborda a criação de uma estrutura de conta. As etapas usam a empresa USMF de dados de demonstração.
+Este procedimento orienta na criação de uma estrutura de conta. As etapas usam a empresa USMF de dados de demonstração.
 
-1. Vá para **Painel de Navegação > Módulos > Contabilidade > Plano de contas > Estruturas > Configurar estruturas de conta**.
+1. Acesse **Painel de Navegação > Módulos > Contabilidade > Plano de contas > Estruturas > Configurar estruturas de conta**.
 2. No **Painel de Ações**, clique em **Novo** para abrir a caixa de diálogo suspensa.
 3. No campo **Estrutura de conta**, digite um nome para descrever a finalidade da estrutura de conta.
 4. No campo **Descrição**, digite uma descrição para especificar a finalidade da estrutura de conta.
@@ -60,3 +58,6 @@ Este guia de tarefas aborda a criação de uma estrutura de conta. As etapas usa
 29. No **Painel de Ações**, clique em **Ativar**.
 30. Clique em **Ativar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

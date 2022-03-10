@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8544f468b7870b265b0c206471ad88e219258a03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0450186382b6c306910fc6653f67ce313b7cfc2c69a134a9a806d1a232dc0fd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828649"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765409"
 ---
 # <a name="estimate-a-production-order"></a>Estimar uma ordem de produção
 
@@ -28,7 +28,7 @@ Você pode realizar esse procedimento usando a empresa de dados de demonstraçã
 
 
 ## <a name="estimate-a-production-order"></a>Estimar uma ordem de produção
-1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
 2. Selecione uma ordem com o status Criada na grade.
 3. No Painel de Ação, clique em Ordem de produção.
 4. Clique em Estimar.

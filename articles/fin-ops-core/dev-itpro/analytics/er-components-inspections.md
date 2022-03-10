@@ -2,7 +2,7 @@
 title: Inspecionar o componente de ER configurado para evitar problemas de runtime
 description: Este tópico explica como inspecionar os componentes de Relatório Eletrônico (ER) configurados para evitar problemas de runtime.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 309e613b707222920936d5af995ac57c4c423b40
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357657"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074782"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
 [!include[banner](../includes/banner.md)]
 
-Cada componente de [mapeamento de modelo](general-electronic-reporting.md#data-model-and-model-mapping-components) e [formato](general-electronic-reporting.md#FormatComponentOutbound) de [Relatório Eletrônico (ER)](general-electronic-reporting.md) configurado pode ser [validado](er-fillable-excel.md#validate-an-er-format) durante o design. Durante essa validação, uma verificação de consistência é realizada para ajudar a evitar problemas de runtime, como erros de execução e degradação de desempenho. O caminho de um elemento problemático é fornecido para cada problema encontrado. Alguns problemas têm uma correção automática.
+Cada componente de [mapeamento de modelo](er-overview-components.md#model-mapping-component) e [formato](er-overview-components.md#format-components-for-outgoing-electronic-documents) de [Relatório Eletrônico (ER)](general-electronic-reporting.md) configurado pode ser [validado](er-fillable-excel.md#validate-an-er-format) durante o design. Durante essa validação, uma verificação de consistência é realizada para ajudar a evitar problemas de runtime, como erros de execução e degradação de desempenho. O caminho de um elemento problemático é fornecido para cada problema encontrado. Alguns problemas têm uma correção automática.
 
 Por padrão, a validação é aplicada automaticamente nos seguintes casos para uma configuração de ER que contém os componentes de ER mencionados acima:
 
@@ -38,37 +38,37 @@ Por padrão, a validação é aplicada automaticamente nos seguintes casos para 
 
 - Opção 1:
 
-    1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+    1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
     2. Na árvore de configurações no painel esquerdo, selecione a configuração de ER desejada que contém o componente de mapeamento de formato ou modelo de ER.
-    3. Na FastTab **Versões**, selecione a versão desejada da configuração de ER selecionada.
+    3. Na Guia Rápida **Versões**, selecione a versão desejada da configuração de ER selecionada.
     4. No Painel de Ações, selecione **Validar**.
 
 - Opção 2, para um formato de ER:
 
-    1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+    1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
     2. Na árvore de configurações no painel esquerdo, selecione a configuração de ER desejada que contém o componente do formato de ER.
-    3. Na FastTab **Versões**, selecione a versão desejada da configuração de ER selecionada.
+    3. Na Guia Rápida **Versões**, selecione a versão desejada da configuração de ER selecionada.
     4. No Painel de Ação, selecione **Designer**.
     5. Na página **Designer de formato**, no Painel de Ações, selecione **Validar**.
 
 - Opção 3, para um mapeamento de modelo de ER:
 
-    1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+    1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
     2. Na árvore de configurações no painel esquerdo, selecione a configuração de ER desejada que contém o componente de mapeamento de modelo de ER.
-    3. Na FastTab **Versões**, selecione a versão desejada da configuração de ER selecionada.
+    3. Na Guia Rápida **Versões**, selecione a versão desejada da configuração de ER selecionada.
     4. No Painel de Ação, selecione **Designer**.
     5. Na página **Modelo para mapeamento de fonte de dados**, no Painel de Ações, selecione **Designer**.
     6. Na página **Designer de mapeamento de modelo**, no Painel de Ações, selecione **Validar**.
 
 Para ignorar a validação quando a configuração for importada, siga estas etapas:
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Validar a configuração após a importação** como **Não**.
 
 Para ignorar a validação quando você alterar o status ou a base da versão, siga estas etapas:
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Ignorar validação na alteração e troca do status de configuração** como **Sim**.
 
@@ -230,6 +230,21 @@ A tabela a seguir fornece uma visão geral das inspeções fornecidas pelo ER. P
 <p><b>Runtime:</b> o último componente configurado é usado no tempo de execução se a versão de rascunho do formato ER configurado for executada.</p>
 </td>
 </tr>
+<tr>
+<td><a href='#i17'>Configuração inconsistente do componente da Página</a></td>
+<td>Integridade dos dados</td>
+<td>Erro</td>
+<td>Há mais de dois componentes de intervalo sem replicação. Remova componentes desnecessários.</td>
+</tr>
+<tr>
+<td><a href='#i18'>Capacidade de execução de uma expressão com função ORDERBY</a></td>
+<td>Capacidade de execução</td>
+<td>Erro</td>
+<td>
+<p>A expressão de lista da função ORDERBY não pode ser consultada.</p>
+<p><b>Erro de runtime:</b> não há suporte para classificação. Valide a configuração para obter mais detalhes sobre esse erro.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -359,7 +374,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 8. Nomeie o novo campo aninhado **$AccNumber** e configure-a para que contenha a expressão `TRIM(Vendor.AccountNum)`.
 9. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a expressão `FILTER(Vendor, Vendor.AccountNum="US-101")` na fonte de dados **Vendor** pode ser consultada.
 
-    ![Verificação se a expressão pode ser consultada na página Designer de mapeamento de modelos.](./media/er-components-inspections-04.gif)
+    ![Verificar se a expressão que tem a função FILTER pode ser consultada na página Designer de mapeamento de modelos.](./media/er-components-inspections-04.gif)
 
 10. Observe que ocorre um erro de validação, porque a fonte de dados **Vendor** contém um campo aninhado do tipo **Campo calculado** que não permite que a expressão da fonte de dados **FilteredVendor** seja convertida na instrução SQL direta.
 
@@ -866,6 +881,67 @@ Modifique o formato configurado excluindo um dos componentes **Excel\\Cabeçalho
 #### <a name="option-2"></a>Opção 2
 
 Modifique o valor da propriedade **Aparência de cabeçalho/rodapé** para um dos componentes **Excel\\Cabeçalho** ou **Excel\\Rodapé** inconsistentes.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Configuração inconsistente do componente da Página
+
+Ao [configurar](er-fillable-excel.md) um componente de formato ER para usar um modelo do Excel para gerar um documento de saída, você pode adicionar a **Página\\do Excel** para paginar um documento gerado usando fórmulas de ER. Para cada componente da **Página\\do Excel** que você adicionar, você pode adicionar vários componentes do [Intervalo](er-fillable-excel.md#range-component) e ainda manter a conformidade com a seguinte [estrutura](er-fillable-excel.md#page-component-structure):
+
+- O primeiro componente do **Intervalo** aninhado pode ser configurado para que a propriedade **Direção da replicação** seja definida como **Sem replicação**. Esse intervalo é usado para criar cabeçalhos de página em documentos gerados.
+- Você pode adicionar muitos outros componentes do **Intervalo** aninhado onde a propriedade **Direção da replicação** é definida como **Vertical**. Esses intervalos são usados para preencher documentos gerados.
+- O último componente do **Intervalo** aninhado pode ser configurado para que a propriedade **Direção da replicação** seja definida como **Sem replicação**. Esse intervalo é usado para criar rodapés de página em documentos gerados e para adicionar as quebras de página necessárias.
+
+Se você não seguir a estrutura de um formato ER no designer de formato ER no tempo de design, ocorrerá um erro de validação e você receberá a seguinte mensagem de erro: "Há mais de dois componentes de intervalo sem replicação. Remova componentes desnecessários."
+
+### <a name="automatic-resolution"></a>Resolução automática
+
+Nenhuma opção para corrigir esse problema automaticamente está disponível.
+
+### <a name="manual-resolution"></a>Resolução manual
+
+#### <a name="option-1"></a>Opção 1
+
+Modifique o formato configurado alterando a propriedade **Direção da replicação** para todos os componentes do **Intervalo\\do Excel** inconsistentes.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>Capacidade de execução de uma expressão com função ORDERBY
+
+A função interna ER [ORDERBY](er-functions-list-orderby.md) é usada para classificar os registros de uma fonte de dados ER do tipo **[Lista de registros](er-formula-supported-data-types-composite.md#record-list)** que é especificado como um argumento da função.
+
+Argumentos da função `ORDERBY` podem ser [especificados](er-functions-list-orderby.md#syntax-2) para classificar registros de tabelas de aplicativos, exibições ou entidades de dados, fazendo uma única chamada de banco de dados para obter os dados classificados como uma lista de registros. Uma fonte de dados do tipo **Lista de registros** é usada como um argumento da função e especifica a origem do aplicativo para a chamada.
+
+O ER verifica se uma consulta de banco de dados direta pode ser estabelecida com uma fonte de dados referenciada na função `ORDERBY`. Se uma consulta direta não puder ser estabelecida, ocorrerá um erro de validação no designer de mapeamento de modelo de ER. A mensagem recebida informa que a expressão de ER que inclui a função `ORDERBY` não pode ser executada no runtime.
+
+As etapas a seguir mostram como esse problema pode ocorrer.
+
+1. Comece a configurar o componente de mapeamento de modelo de ER.
+2. Adicione uma fonte de dados do tipo **Registros de tabela** \\ do Dynamics 365 for Operations.
+3. Nomeie a nova fonte de dados como **Vendor**. No campo **Tabela**, selecione **VendTable** para especificar que essa fonte de dados solicitará a tabela **VendTable**.
+4. Adicione uma fonte de dados do tipo **Campo calculado**.
+5. Nomeie a nova fonte de dados como **OrderedVendors** e configure-a para que contenha a expressão `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+ 
+    ![Configurar fontes de dados na página Designer de mapeamento de modelo.](./media/er-components-inspections-18-1.png)
+
+6. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a expressão na fonte de dados **OrderedVendors** pode ser consultada.
+7. Modifique a fonte de dados **Vendor** adicionando um campo aninhado do tipo **Campo calculado** para obter o número da conta do fornecedor resumido.
+8. Nomeie o novo campo aninhado **$AccNumber** e configure-a para que contenha a expressão `TRIM(Vendor.AccountNum)`.
+9. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a expressão na fonte de dados **Fornecedor** pode ser consultada.
+
+    ![Verificação se a expressão na fonte de dados Fornecedor pode ser consultada na página Designer de mapeamento de modelos.](./media/er-components-inspections-18-2.png)
+
+10. Observe que ocorre um erro de validação porque a fonte de dados **Fornecedor** contém um campo aninhado do tipo **Campo calculado** que não permite a conversão da expressão da fonte de dados **OrderedVendors** na instrução de banco de dados direta. O mesmo erro ocorrerá no tempo de execução se você ignorar o erro de validação e selecionar **Executar** para executar esse mapeamento de modelo.
+
+### <a name="automatic-resolution"></a>Resolução automática
+
+Nenhuma opção para corrigir esse problema automaticamente está disponível.
+
+### <a name="manual-resolution"></a>Resolução manual
+
+#### <a name="option-1"></a>Opção 1
+
+Em vez de adicionar um campo aninhado do tipo **Campo calculado** à fonte de dados **Fornecedor**, adicione o campo aninhado **$AccNumber** à fonte de dados **FilteredVendors** e configure o campo para que ele contenha a expressão `TRIM(FilteredVendor.AccountNum)`. Dessa forma, a expressão `ORDERBY("Query", Vendor, Vendor.AccountNum)` pode ser executada no nível do banco de dados e o cálculo do campo aninhado **$AccNumber** pode ser feito posteriormente.
+
+#### <a name="option-2"></a>Opção 2
+
+Altere a expressão da fonte de dados **FilteredVendors** de `ORDERBY("Query", Vendor, Vendor.AccountNum)` para `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Não é recomendável alterar a expressão para uma tabela com um grande volume de dados (tabela transacional), pois todos os registros serão buscados e a ordenação dos registros necessários será feita na memória. Portanto, essa abordagem pode causar um baixo desempenho.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

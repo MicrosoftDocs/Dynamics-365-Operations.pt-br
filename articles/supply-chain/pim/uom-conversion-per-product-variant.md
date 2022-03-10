@@ -1,27 +1,25 @@
 ---
 title: Conversão de unidade de medida por grade de produto
 description: Este tópico explica como configurar conversões de unidade de medida para grades do produto. Ele iInclui um exemplo da instalação.
-author: johanhoffmann
-manager: tfehr
+author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001690"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579559"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversão de unidade de medida por grade de produto
 
@@ -35,7 +33,7 @@ Anteriormente, as conversões de unidades podiam ser configuradas somente no pro
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
 
-Se você ainda não tiver visto esse recurso no sistema, vá para [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Conversões de unidade de medida para variantes de produtos*.
+Se você ainda não tiver visto esse recurso no sistema, Acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Conversões de unidade de medida para variantes de produtos*.
 
 ## <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Configurar um produto para a conversão de unidade por grade
 
@@ -43,7 +41,7 @@ Grades de produto só podem ser criadas para produtos que são produtos mestre. 
 
 Para configurar um produto mestre para oferecer suporte à conversão de unidades por grade, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
 1. Crie ou abra um produto mestre para ir para a **Página detalhes do produto**.
 1. Defina a opção **Habilitar conversões de unidade de medida** como *Sim*.
 1. No Painel de Ações, na guia **Produto**, no grupo **Configuração**, selecione **Conversões de unidade**.
@@ -58,7 +56,7 @@ Para configurar um produto mestre para oferecer suporte à conversão de unidade
     - **Produto** – Se você selecionar esse valor, você pode configurar uma conversão de unidade para os produtos mestres. Essa conversão de unidade será usada como um fallback para todas as grades de produto para as quais nenhuma conversão de unidade é definida.
     - **Grade de produto** – Se você selecionar esse valor, você pode configurar uma conversão de unidade para uma grade de produto específica. Use o campo **Grade do produto** para selecionar a grade.
 
-    ![Adicionando uma nova conversão de unidades](media/uom-new-conversion.png "Adicionando uma nova conversão de unidades")
+    ![Adicionando uma nova conversão de unidades.](media/uom-new-conversion.png "Adicionando uma nova conversão de unidades")
 
 1. Use os outros campos fornecidos para configurar a conversão de unidades.
 1. Selecione **OK** para salvar a nova conversão de unidades.
@@ -105,4 +103,7 @@ Para exportar conversões de unidade para o Excel, na página **Conversões de u
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Gerenciar unidade de medida](tasks/manage-unit-measure.md)
+[Gerenciar unidades de medida](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

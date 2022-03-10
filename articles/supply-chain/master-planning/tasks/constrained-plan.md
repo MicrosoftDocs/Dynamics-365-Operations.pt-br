@@ -1,27 +1,24 @@
 ---
 title: Gerar um plano restrito
 description: Este tópico explica como criar um plano que leve em consideração restrições de materiais e de capacidade.
-author: ShylaThompson
-manager: tfehr
+author: ChristianRytt
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqPlanSched
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8b9d5712dd1b4f9958de775e1a2224b64485d05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5fea315d41d01cb578d7d60c9eb7006e4b6c3362
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422204"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578335"
 ---
 # <a name="generate-a-constrained-plan"></a>Gerar um plano restrito
 
@@ -53,3 +50,6 @@ A empresa de dados demo usada para criar este procedimento é USMF. Esse procedi
 3. Selecione **OK**.
 4. Selecione **Ordens planejadas**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

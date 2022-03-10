@@ -1,34 +1,34 @@
 ---
 title: O Human Resources não aparece nos aplicativos do Microsoft Dynamics 365
-description: Este artigo explica o que fazer se o cliente não vir o aplicativo Microsoft Dynamics 365 Human Resources entre os aplicativos do Microsoft Dynamics 365.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: Este tópico explica o que fazer se o Microsoft Dynamics 365 Human Resources não estiver listado entre os aplicativos do Microsoft Dynamics 365.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9be1c2b862a01d6f14ad98dbcb01e061649c6af0
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463975"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069671"
 ---
-# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>O Human Resources não aparece nos aplicativos do Microsoft Dynamics 365
+# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>O aplicativo Human Resources não aparece no Microsoft Dynamics 365
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**Emissão**
+**Problema**
 
 O cliente não verá o Dynamics 365 Human Resources entre os aplicativos do Microsoft Dynamics 365.
 
@@ -42,11 +42,11 @@ O usuário deve ser adicionado à função de criador de ambiente do ambiente no
 
 3. Na guia **Segurança**, na guia **Funções de ambiente**, selecione **Criador de ambiente**.
 
-    ![Funções da guia de ambiente](media/environment-roles.png)
+    ![Funções da guia de ambiente.](media/environment-roles.png)
 
 4. Na guia **Usuários**, adicione o usuário ou a organização.
 
-    ![Tabela de usuários](media/environment-maker.png)
+    ![Tabela de usuários.](media/environment-maker.png)
 
 5. Selecione **Salvar**.
 
@@ -54,7 +54,7 @@ O usuário deve ser adicionado à função de criador de ambiente do ambiente no
 
 7. Selecione **Sincronizar** para atualizar os aplicativos do usuário.
 
-    ![Botão de sincronização](media/get-more.png)
+    ![Botão de sincronização.](media/get-more.png)
 
     Após a sincronização ser concluída, Human Resources aparecerá na página inicial.
 

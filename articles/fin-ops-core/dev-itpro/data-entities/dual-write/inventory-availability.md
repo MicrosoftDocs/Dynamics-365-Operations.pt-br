@@ -1,29 +1,20 @@
 ---
 title: Disponibilidade de estoque em gravação dupla
 description: Este tópico fornece informações sobre como verificar a disponibilidade de estoque em gravação dupla.
-author: yijialuan
-manager: AnnBe
+author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: riluan
-ms.dyn365.ops.version: ''
+ms.author: ramasri
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4449767"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782520"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Disponibilidade de estoque em gravação dupla
 
@@ -57,3 +48,21 @@ A caixa de diálogo retorna as informações sobre ATP do Supply Chain Managemen
 - Quantidade recebida
 - Quantidade emitida
 - Quantidade disponível
+
+## <a name="how-it-works"></a>Como funciona
+
+Ao selecionar o botão **Estoque disponível** na página **Cotações**, **Pedidos** ou **Faturas**, uma chamada de gravação dupla será feita para a API **Estoque disponível**. A API calcula o estoque disponível do produto fornecido. O resultado é armazenado nas tabelas **InventCDSInventoryOnHandRequestEntity** e **InventCDSInventoryOnHandEntryEntity** e, em seguida, é registrado no Dataverse por gravação dupla. Para usar essa funcionalidade, é necessário executar os seguintes mapas de gravação dupla. Ignore a sincronização inicial ao executar os mapas.
+
+- Entradas de estoque disponível do CDS (msdyn_inventoryonhandentries)
+- Solicitações de estoque disponível do CDS (msdyn_inventoryonhandrequests)
+
+## <a name="templates"></a>Modelos
+
+Os seguintes modelos estão disponíveis para a exposição de dados de estoque disponível.
+
+Aplicativos do Finance and Operations | Aplicativos do Customer Engagement     | descrição
+---|---|---
+[Entradas de estoque disponível do CDS](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[Solicitações de estoque disponível do CDS](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

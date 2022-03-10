@@ -2,11 +2,9 @@
 title: Certificados de NF-e
 description: Este tópico fornece informações sobre certificados de NF-e para o Microsoft Dynamics 365 Finance e a solução que você deve usar para cada autoridade fiscal estadual.
 author: sndray
-manager: AnnBe
 ms.date: 01/31/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e72e3cc4df3f82c4761c3637654b980c55a8d95d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 81e7598e0d4c12c07e2f12a7bb9f39bc1e4d5fcf29e5d8096350d39c45df186b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732920"
 ---
 # <a name="nf-e-certificates"></a>Certificados de NF-e
 
@@ -55,7 +53,7 @@ O governo brasileiro atualizou a autoridade de certificação (CA) raiz usada pa
 
 Certificados brasileiros devem ser instalados por meio do Azure Key Vault. O Key Vault permite armazenar chaves de criptografia, certificados e segredos (como chaves de autenticação, chaves da conta de armazenamento, chaves de criptografia de dados, arquivos .pxf e senhas) usando chaves protegidas por módulos de segurança de hardware (HSMs).
 
-Para obter mais informações sobre como usar chaves e segredos com o Key Vault, consulte [Sobre chaves, segredos e certificados](https://docs.microsoft.com/rest/api/keyvault/about-keys--secrets-and-certificates).
+Para obter mais informações sobre como usar chaves e segredos com o Key Vault, consulte [Sobre chaves, segredos e certificados](/rest/api/keyvault/about-keys--secrets-and-certificates).
 A tabela a seguir lista todas as autoridades fiscais e as soluções que você deve usar para instalar certificados para elas.
 
 |Autoridade fiscal| Estados| Solução|
@@ -82,3 +80,6 @@ A tabela a seguir lista todas as autoridades fiscais e as soluções que você d
 Sefaz Virtual de Contingência Rio Grande do Sul (SVC-RS)|   AM, BA, CE, GO, MA, MS, MT, PA, PE, PI, PR| Nenhuma solução adicional é necessária|
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

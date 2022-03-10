@@ -2,11 +2,9 @@
 title: Criar e validar diários
 description: Este procedimento cria e valida diários e linhas de diário.
 author: panolte
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2f6cb15b115de9bf076da9062f14fcdf88662946
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8775b5f9b3c1cd2bb65c674b00ddbccdda64f28fff8534340ec45ad0080bf528
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240753"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725041"
 ---
 # <a name="create-and-validate-journals"></a>Criar e validar diários
 
@@ -28,7 +26,7 @@ ms.locfileid: "5240753"
 
 Este procedimento cria e valida diários e linhas de diário. Você pode testar este procedimento usando a empresa de demonstração USMF.  
 
-1. Vá para **Contabilidade > Entradas de diários > Diários gerais**.
+1. Acesse **Contabilidade > Entradas de diários > Diários gerais**.
 2. Clique em **Novo**.
 3. No campo **Nome**, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o registro desejado.

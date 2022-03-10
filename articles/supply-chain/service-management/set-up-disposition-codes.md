@@ -1,12 +1,10 @@
 ---
 title: Configurar códigos de disposição
 description: Você pode configurar códigos de disposição para especificar como processar um item que é devolvido por um cliente.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnDispositionCode
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 973d270d186244904a8390b700aa2ee1fc84cbbc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470682"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576271"
 ---
 # <a name="set-up-disposition-codes"></a>Configurar códigos de disposição 
 
@@ -33,7 +31,7 @@ Você pode configurar códigos de disposição para especificar como processar u
 
 Você também pode configurar um código de motivo para ajudar a explicar por que um item foi devolvido. Para obter mais informações sobre como configurar os códigos de motivo, consulte [Configurar códigos de motivo de devolução](set-up-return-reason-code.md).
 
-1.  Vá para **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de disposição**.
+1.  Acesse **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de disposição**.
 
 2.  Selecione **Novo** para criar um novo código de disposição.
 

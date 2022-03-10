@@ -2,11 +2,9 @@
 title: Alterar modo de entrega no PDV
 description: Este tópico descreve como configurar e usar o modo de alteração da operação de entrega no PDV.
 author: hhainesms
-manager: annbe
 ms.date: 03/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4a56262d37f7d1a37f63d0b8e7c7e3f1642d33c4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714031"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Alterar modo de entrega no PDV
 
@@ -33,7 +31,7 @@ Nas versões 10.0.10 e posteriores do Dynamics 365 Commerce, a operação **Alte
 
 O modo de alteração do recurso de entrega fornece a opção de alterar o modo de entrega de uma ou mais linhas de venda configuradas pela remessa na transação do PDV. Em versões anteriores do Commerce, você precisava passar por todos os fluxos de configuração **Remeter tudo** ou **Remeter selecionados**, se quiser alterar o modo de entrega em uma linha existente que foi configurada para remessa. Esse processo foi demorado e poderia resultar em alterações acidentais na origem da entrega ou nas datas de entrega da linha. A nova funcionalidade fornece um método alternativo para a atualização eficiente do modo de entrega nessas linhas de venda.
 
-Para obter mais informações sobre como adicionar uma operação a um botão na grade de botões PDV, consulte [Layouts de tela para o ponto de venda](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts).
+Para obter mais informações sobre como adicionar uma operação a um botão na grade de botões PDV, consulte [Layouts de tela para o ponto de venda](pos-screen-layouts.md).
 
 Depois que esse recurso é configurado no PDV, quando você seleciona **Alterar modo de entrega**, será apresentado uma página de listagem que permite escolher as linhas da transação para as quais você deseja alterar o modo de entrega. Você pode escolher algumas ou todas as linhas ou sair sem fazer alterações. As linhas de venda que foram previamente configuradas para remessa são as únicas linhas da lista que podem ser alteradas. Se desejar alterar uma linha designada para retirada ou postergado para remessa, você deve usar as operações **Remeter tudo** ou **Remeter selecionados**. Por outro lado, se desejar alterar uma linha designada como remessa para uma retirada ou postergar, você deverá usar as operações **Separar todos**, **Separar selecionados**, **Executar todos** ou **Executar selecionado**.
 

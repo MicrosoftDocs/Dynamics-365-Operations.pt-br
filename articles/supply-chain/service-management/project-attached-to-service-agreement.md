@@ -1,12 +1,10 @@
 ---
 title: Projeto anexado ao contrato de serviço
 description: É possível anexar contratos de serviço a projetos de todos os tipos, exceto o tipo de projeto Tempo.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ca83d1920a61093012600ff453f35496b96b5e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9781eb582b0efb395ec3c994b923651672587de5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258533"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578719"
 ---
 # <a name="project-attached-to-service-agreement"></a>Projeto anexado ao contrato de serviço 
 

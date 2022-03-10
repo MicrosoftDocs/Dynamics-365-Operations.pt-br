@@ -1,12 +1,10 @@
 ---
 title: ​Tipos de diário-razão​
 description: Este tópico descreve os tipos de diário que você pode configurar para diários financeiros.
-author: ShylaThompson
-manager: AnnBe
+author: kweekley
 ms.date: 10/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 135611ddf7e54a28a43f5f0795c993581d377550
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248966"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7727008"
 ---
 # <a name="ledger-journal-types"></a>​Tipos de diário-razão​
 

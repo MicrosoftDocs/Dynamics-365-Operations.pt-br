@@ -1,26 +1,24 @@
 ---
 title: Criar regras de configuração
 description: Esse procedimento cria regras de configuração que podem ser usadas na configuração baseada em dimensão para forçar ou evitar certas combinações de linhas da Lista de Materiais.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ef9f4d464fb2a61dd03914efcf7a584fe955ae9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b1b0bcf126f8b438f13ec7cc3537dfe1dab8c275
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213369"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569592"
 ---
 # <a name="create-configuration-rules"></a>Criar regras de configuração
 
@@ -28,7 +26,7 @@ ms.locfileid: "5213369"
 
 Esse procedimento cria regras de configuração que podem ser usadas na configuração baseada em dimensão para forçar ou evitar certas combinações de linhas da Lista de Materiais. A empresa de dados demo usada para criar este procedimento é USMF. Este é o sétimo procedimento dos oito que explicam como criar combinações para configuração baseada em dimensão.
 
-1. Vá para Gerenciamento de informações sobre produtos > Lista de materiais e fórmulas > Lista de materiais.
+1. Acesse Gerenciamento de informações sobre produtos > Lista de materiais e fórmulas > Lista de materiais.
 2. Na lista, localize e selecione o PDV desejado.
     * Localize e selecione a Lista de Materiais para a configuração baseada em dimensão.  
 3. No Painel de Ação, clique em Opções.

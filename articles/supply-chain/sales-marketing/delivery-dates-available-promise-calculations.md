@@ -1,12 +1,10 @@
 ---
 title: Promessa de ordem
 description: Este tópico fornece informações sobre promessa de ordens. As promessas de ordem ajudam você a prometer, com segurança, datas de entrega aos clientes e lhe fornece flexibilidade para que possa atender a essas datas.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates, SalesCarrier
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79f195c85df2628e54a9bf551715c193705b2694
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0f7535ba28358fef21784956da38cd334a4aebe7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983057"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572592"
 ---
 # <a name="order-promising"></a>Promessa de ordem
 
@@ -80,3 +78,6 @@ Portanto, a data de remessa é definida para 10 dias, a contar de hoje, com base
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

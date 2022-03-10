@@ -1,27 +1,25 @@
 ---
 title: 'Criar relação de atividade: Sucessor'
 description: O fluxo de atividades em um fluxo de produção de lean é documentado por meio de relações de atividade.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup, DefaultDashboard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f23dc0cb4b2ea7a4a298368a56869db90dd044d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8cee0c75de1fee24cfb6df018de62ece102c96cc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981272"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579199"
 ---
 # <a name="create-activity-relation---successor"></a>Criar relação de atividade: Sucessor
 
@@ -37,7 +35,7 @@ Pré-requisitos:
 
 
 ## <a name="find-the-production-flow-version"></a>Localizar a versão do fluxo de produção 
-1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
+1. Acesse Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Na lista, marque a linha selecionada.
@@ -65,3 +63,6 @@ Pré-requisitos:
 12. Feche a página.
 13. Atualize a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

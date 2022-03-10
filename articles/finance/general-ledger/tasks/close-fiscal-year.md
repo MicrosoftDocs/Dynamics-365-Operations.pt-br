@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 013a5b1ac5b99c6a8ac75885e6d65067d5ed4c2ffd5cc5f625a73963666c0a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779485"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902498"
 ---
 # <a name="close-the-fiscal-year"></a>Fechar o ano fiscal
 
@@ -36,7 +36,7 @@ Este procedimento aborda o processo de fechamento do exercício que transfere sa
 
 4. Selecione 'Sim' ou 'Não' para a opção **Criar transações de fechamento durante a transferência**.
 
-    Se definido como Sim, duas transações são criadas. Um comprovante é criado no ano fiscal que está sendo fechado para reduzir os saldos de contas contábeis de P&L a zero, e um segundo comprovante é criado no próximo ano fiscal para os saldos iniciais. Se definido para Não, um único comprovante é criado no próximo ano fiscal para o início dos saldos.  
+    Se definido como Sim, duas transações são criadas. Um comprovante é criado no ano fiscal que está sendo fechado para reduzir os saldos de todas as contas contábeis a zero, e um segundo comprovante é criado no próximo ano fiscal para os saldos iniciais. Se definido para Não, um único comprovante é criado no próximo ano fiscal para o início dos saldos.  
 
 5. Selecione 'Sim' ou 'Não' para a opção **Definir status de ano fiscal como permanentemente fechado**.
 

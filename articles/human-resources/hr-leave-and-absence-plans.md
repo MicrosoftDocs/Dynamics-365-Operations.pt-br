@@ -1,8 +1,8 @@
 ---
 title: Criar um plano de licença e ausência
-description: Crie planos de licença no Dynamics 365 Human Resources para diferentes tipos de licença.
-author: andreabichsel
-ms.date: 09/11/2020
+description: Este tópico descreve como criar planos de licença no Dynamics 365 Human Resources para diferentes tipos de licença.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f0903c77676ce8ce7c8d585f24dfe4f554ca1321cd3e5ecc33a0b792dfcc4a66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745661"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070241"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Criar um plano de licença e ausência
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

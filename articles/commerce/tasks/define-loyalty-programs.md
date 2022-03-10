@@ -2,11 +2,9 @@
 title: Definir programas de fidelidade
 description: Este procedimento mostra como configurar um programa de fidelidade com as duas camadas de fidelidade.
 author: jashanno
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69424cdaae84ffe5ca8157f061ba5876b9eeeff9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ebd2a4ca736862c0262e9b15b375e0677cb52192646d9b524a729536a3f5305f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724458"
 ---
 # <a name="define-loyalty-programs"></a>Definir programas de fidelidade
 
@@ -28,7 +26,7 @@ ms.locfileid: "5256892"
 
 Este procedimento mostra como configurar um programa de fidelidade com as duas camadas de fidelidade. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Vá para Varejo e Comércio > .. > Programas de fidelidade.
+1. Acesse Varejo e Comércio > .. > Programas de fidelidade.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Descrição, digite um valor.

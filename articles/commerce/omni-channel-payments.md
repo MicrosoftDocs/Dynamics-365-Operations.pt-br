@@ -1,28 +1,28 @@
 ---
 title: Visão geral de pagamentos de omni-channel
 description: Este tópico fornece uma visão geral de pagamentos de omni-channel no Dynamics 365 Commerce.
-author: rubendel
-manager: AnnBe
+author: BrianShook
 ms.date: 09/17/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: 141393
+ms.custom:
+- "141393"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 6ecfd518298021e08cf73934b450d175cf699a46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985852"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984157"
 ---
 # <a name="omni-channel-payments-overview"></a>Visão geral de pagamentos de omni-channel
 
@@ -45,11 +45,11 @@ Este tópico fornece uma visão geral de pagamentos de omni-channel no Dynamics 
 
 Em geral, o termo *pagamentos de omni-channel* descreve a capacidade de criar uma ordem em um canal e atendê-la em outro canal. O segredo para o suporte a pagamento de omni-channel é preservar os detalhes de pagamento juntamente com os demais detalhes da ordem e, em seguida, usar esses detalhes de pagamento quando a ordem é recuperada ou processada em outro canal. Um exemplo clássico é o cenário "Comprar online, separar na loja". Nesse cenário, os detalhes de pagamento são adicionados quando a ordem é criada online. Eles são então cancelados no PDV para cobrar o cartão de pagamento do cliente no momento da retirada. 
 
-Todos os cenários descritos neste tópico podem ser implementados usando o kit de desenvolvimento de software (SDK) de pagamentos padrão fornecido com o Commerce. O [Conector de Pagamento do Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) fornece uma implementação pronta para uso de todos os cenários descritos aqui. 
+Todos os cenários descritos neste tópico podem ser implementados usando o kit de desenvolvimento de software (SDK) de pagamentos padrão fornecido com o Commerce. O [Conector de Pagamento do Dynamics 365 para Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) fornece uma implementação pronta para uso de todos os cenários descritos aqui. 
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
-Cada cenário descrito neste tópico requer um conector de pagamento que oferece suporte a pagamentos de omni-channel. O conector para Adyen pronto para uso também pode ser usado, pois oferece suporte aos cenários disponibilizados por meio do SDK de pagamentos. Para obter mais informações sobre como implementar conectores de pagamento e sobre o SDK de varejo em geral, visite a [Página inicial de varejo para profissionais e desenvolvedores de TI](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
+Cada cenário descrito neste tópico requer um conector de pagamento que oferece suporte a pagamentos de omni-channel. O conector para Adyen pronto para uso também pode ser usado, pois oferece suporte aos cenários disponibilizados por meio do SDK de pagamentos. Para obter mais informações sobre como implementar conectores de pagamento e sobre o SDK de varejo em geral, visite a [Página inicial de varejo para profissionais e desenvolvedores de TI](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
 
 #### <a name="supported-versions"></a>Versões com suporte
 
@@ -59,15 +59,15 @@ Os recursos de pagamento de omni-channel descritos neste tópico foram lançados
 
 O SDK de pagamentos depende de dois conjuntos de interfaces de programação de aplicativos (APIs) para pagamentos. O primeiro conjunto de APIs é denominado **iPaymentProcessor**. Ele é usado para implementar conectores de pagamento "cartão não presente" que podem ser usados em call centers e com a plataforma de comércio eletrônico do Microsoft Dynamics. Para obter informações sobre a interface **iPaymentProcessor**, consulte o white paper [Implementar um conector de pagamento e um dispositivo de pagamento](https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device_update.pdf), que abrande pagamentos. 
 
-O segundo conjunto de APIs é denominado **iNamedRequestHandler**. Ele permite a implementação de integrações de pagamento "cartão presente" que usam um terminal de pagamento. Para obter mais informações sobre a interface **iNamedRequestHandler**, consulte [Criar uma integração de pagamento para um terminal de pagamento](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
+O segundo conjunto de APIs é denominado **iNamedRequestHandler**. Ele permite a implementação de integrações de pagamento "cartão presente" que usam um terminal de pagamento. Para obter mais informações sobre a interface **iNamedRequestHandler**, consulte [Criar uma integração de pagamento para um terminal de pagamento](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
 
 ### <a name="setup-and-configuration"></a>Instalação e configuração
 
 Os seguintes componentes e etapas de configuração são necessários:
 
-- **Integração de comércio eletrônico:** é necessária uma integração com o Commerce para dar suporte a cenários em que uma ordem se origina em uma vitrine online. Para obter mais informações sobre o SDK de comércio eletrônico do Retail, consulte [kit de desenvolvimento de software (SDK) da plataforma de comércio eletrônico](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Em um ambiente de demonstração, a vitrine de referência oferece suporte a cenários de pagamento de omni-channel. 
-- **Configuração de pagamentos online:** a configuração do canal online deve incluir um conector de pagamento que foi atualizado para oferecer suporte a pagamentos de omni-channel. Como alternativa, o conector de pagamento pronto para uso pode ser usado. Para obter informações sobre como configurar o conector de pagamento de Adyen para lojas online, consulte [Conector de pagamento de Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Além das etapas de configuração do comércio eletrônico descritas neste tópico, o parâmetro **Permitir salvar informações de pagamento no comércio eletrônico** deve ser definido como **Verdadeiro** nas configurações do conector de Adyen. 
-- **Configuração de pagamentos de omni-channel:** no back office, vá para **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados do Commerce**. Depois, na guia **Pagamentos de omni-channel**, define a opção **Usar pagamentos de omni-channel** como **Sim**. No Commerce versões 10.0.12 e posterior, essa configuração está no espaço de trabalho **Gerenciamento de Recursos**. Selecione o recurso **Pagamentos de omnicanal** e clique em **Habilitar agora**. 
+- **Integração de comércio eletrônico:** é necessária uma integração com o Commerce para dar suporte a cenários em que uma ordem se origina em uma vitrine online. Para obter mais informações sobre o SDK de comércio eletrônico do Retail, consulte [kit de desenvolvimento de software (SDK) da plataforma de comércio eletrônico](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Em um ambiente de demonstração, a vitrine de referência oferece suporte a cenários de pagamento de omni-channel. 
+- **Configuração de pagamentos online:** a configuração do canal online deve incluir um conector de pagamento que foi atualizado para oferecer suporte a pagamentos de omni-channel. Como alternativa, o conector de pagamento pronto para uso pode ser usado. Para obter informações sobre como configurar o conector de pagamento de Adyen para lojas online, consulte [Conector de pagamento de Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Além das etapas de configuração do comércio eletrônico descritas neste tópico, o parâmetro **Permitir salvar informações de pagamento no comércio eletrônico** deve ser definido como **Verdadeiro** nas configurações do conector de Adyen. 
+- **Configuração de pagamentos de omni-channel:** no back office, Acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados do Commerce**. Depois, na guia **Pagamentos de omni-channel**, define a opção **Usar pagamentos de omni-channel** como **Sim**. No Commerce versões 10.0.12 e posterior, essa configuração está no espaço de trabalho **Gerenciamento de Recursos**. Selecione o recurso **Pagamentos de omnicanal** e clique em **Habilitar agora**. 
 - **Serviços de pagamento:** o call center usa o conector de pagamento padrão na página **Serviços de pagamento** para processar pagamentos. Para suportar cenários como "Comprar em uma call center, retirar na loja", esse conector de pagamento padrão deve ser o conector de pagamento de Adyen ou um conector de pagamento que atenda aos requisitos de implementação para pagamentos de omni-channel.
 - **Serviço de TEF:** os pagamentos por meio de um terminal de pagamento devem ser configurados na Guia Rápida **Serviço de TEF** do perfil de hardware. O conector de Adyen oferece suporte a cenários de pagamentos de omni-channel prontos para uso. Outros conectores de pagamento que oferecem suporte à interface **iNamedRequestHandler** também podem ser usados se permitirem pagamentos de omni-channel.
 - **Disponibilidade do conector de pagamento:** quando uma ordem é cancelada, as linhas de proposta de pagamento que são canceladas juntamente com a ordem incluem o nome do conector de pagamento que foi usado para criar as autorizações associadas a essa ordem. Quando a ordem é atendida, o SDK de pagamentos tenta usar o mesmo conector usado para criar a autorização original. Portanto, um conector de pagamento que tenha as mesmas propriedades do comerciante deve estar disponível para captura. 
@@ -221,7 +221,7 @@ Alguns cartões não podem ser usados para pagamentos de omni-channel, porque el
 
 ### <a name="using-a-different-card"></a>Usando um cartão diferente
 
-Um cliente que chega à loja para retirada de ordem tem a opção de usar um cartão diferente. Quando o caixa recebe o prompt **Usar a forma de pagamento disponível** no momento da retirada da ordem, ele pode perguntar se o cliente quer usar o mesmo cartão. Se o cliente tiver perdido o cartão usado para criar a ordem e quiser pagar pela ordem usando um cartão diferente, o caixa poderá selecionar **Usar uma forma de pagamento diferente**. Se o cliente voltar mais tarde para buscar mais itens da mesma ordem, se a autorização original do cartão ainda for válida, o caixa poderá perguntar novamente se o cliente deseja usar esse cartão.
+Um cliente que chega à loja para retirada de ordem tem a opção de usar um cartão diferente. Quando o caixa receber a solicitação **Usar método de pagamento disponível** no momento da retirada do pedido, o caixa pode perguntar se o cliente deseja usar o mesmo cartão. Se o cliente tiver perdido o cartão usado para criar a ordem e quiser pagar pela ordem usando um cartão diferente, o caixa poderá selecionar **Usar uma forma de pagamento diferente**. Se o cliente voltar mais tarde para buscar mais itens da mesma ordem, se a autorização original do cartão ainda for válida, o caixa poderá perguntar novamente se o cliente deseja usar esse cartão.
 
 ### <a name="invalid-authorizations"></a>Autorizações inválidas
 
@@ -233,7 +233,10 @@ Quando uma ordem que tem várias propostas e várias linhas é selecionado, o ca
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Perguntas frequentes sobre pagamentos](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
-- [Conector de Pagamento do Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
+- [Perguntas frequentes sobre pagamentos](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
+- [Conector de Pagamento do Dynamics 365 para Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](./cpe-bopis.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

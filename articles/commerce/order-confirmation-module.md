@@ -2,11 +2,9 @@
 title: Módulo de confirmação da ordem
 description: Este tópico abrange os módulos de confirmação da ordem e descreve como usá-los no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 407fc2724d4b589ef5f611974f9358e879dba7ed
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6914f8c968b03c05a2311a31a4f391c828db5b8b35bc864504dad78f43b3623f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257138"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733837"
 ---
 # <a name="order-confirmation-module"></a>Módulo de confirmação da ordem
 
@@ -50,7 +48,7 @@ Ao criar uma página de confirmação da ordem, você pode adicionar outros mód
 
 Para adicionar um módulo de confirmação da ordem a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira o nome **Modelo de confirmação da ordem** e selecione **OK**.
 1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página padrão** e, depois, **OK**.
@@ -58,7 +56,7 @@ Para adicionar um módulo de confirmação da ordem a uma nova página e definir
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Confirmação da ordem** e, em seguida, **OK**.
 1. Selecione **Salvar** e, em seguida, **Visualizar** para visualizar o modelo. O módulo de confirmação da ordem não será renderizado porque exige o contexto do número de confirmação da ordem.
 1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione **Modelo de confirmação da ordem**. Em **Nome da página**, insira **Página de confirmação da ordem** e selecione **OK**.
 1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Confirmação da ordem** e, em seguida, **OK**.

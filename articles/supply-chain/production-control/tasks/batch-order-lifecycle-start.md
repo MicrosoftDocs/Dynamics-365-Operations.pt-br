@@ -1,7 +1,7 @@
 ---
 title: Ciclo de vida da ordem de lotes da criação ao início
 description: Este procedimento o conduz através da primeira parte do ciclo de vida da ordem de lote.
-author: ShylaThompson
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d9ed44c9e05ea815e78ae041234ad61f76d89d8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7ca259ca8f176cd5bc76081836adcb7d272972b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825029"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579247"
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>Ciclo de vida da ordem de lotes da criação ao início
 
@@ -39,7 +39,7 @@ Os pré-requisitos para executar o procedimento com outro conjunto de dados são
 
 
 ## <a name="create-a-batch-order"></a>Criar uma ordem de lotes
-1. Vá para Todas as ordens de produção.
+1. Acesse Todas as ordens de produção.
 2. Clique em Nova ordem de lote.
 3. No campo Número do item, insira ou selecione um valor.
 4. Clique em Criar.

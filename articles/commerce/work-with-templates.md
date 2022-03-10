@@ -2,11 +2,9 @@
 title: Trabalhar com modelos
 description: Este tópico descreve como trabalhar com modelos no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dfbb85c13b24bf09fd23022d11ec017899835671
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252501"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090785"
 ---
 # <a name="work-with-templates"></a>Trabalhar com modelos
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como trabalhar com modelos no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Conforme discutido em [Visão geral de modelos e layouts](templates-layouts-overview.md), modelos definem o conjunto de opções disponíveis para autores downstream. Os modelos são úteis para a equipe de criação na Web de uma empresa por vários motivos, e modelos bem estruturados podem ajudar com todos os seguintes objetivos:
 
@@ -54,7 +49,7 @@ Conforme discutido em [Visão geral de modelos e layouts](templates-layouts-over
 
 Os modelos são modificados no editor de modelo.
 
-Para abrir o editor de modelo, siga uma dessas etapas:
+Para abrir o editor de modelos no construtor de sites do Commerce, siga uma destas etapas:
 
 - No painel de navegação de site, selecione **Modelos** e o modelo a ser alterado.
 - No editor de páginas de uma página existente, selecione o nó superior na árvore de estrutura de tópicos à esquerda. Em seguida, no painel de propriedades à direita, selecione **Editar Modelo**.
@@ -71,7 +66,7 @@ A exibição em árvore de estrutura de tópicos à esquerda mostra as opções 
 
 ## <a name="create-a-new-template"></a>Criar um novo modelo
 
-Para criar um novo modelo, siga estas etapas.
+Para criar um novo modelo no construtor de sites, siga estas etapas.
 
 1. No painel de navegação de site, selecione **Modelos** para a exibição do inspetor do modelo.
 1. Selecione **Novo Modelo**.
@@ -90,7 +85,7 @@ Por padrão, se você não adicionar nenhum módulo a um slot, todos os tipos de
 
 ## <a name="add-a-header-and-a-footer"></a>Adicionar um cabeçalho e um rodapé
 
-Se o seu site já tiver um fragmento de cabeçalho, siga estas etapas para adicionar um cabeçalho e rodapé a um modelo.
+Se o seu site já tiver um fragmento de cabeçalho, siga estas etapas no construtor de sites para adicionar um cabeçalho e rodapé a um modelo.
 
 1. Na árvore de estrutura de tópicos, expanda o slot **Corpo** e seu módulo de página filho.
 1. Selecione o slot **Cabeçalho**.
@@ -103,7 +98,7 @@ Se seu site ainda não possui um fragmento de cabeçalho, consulte [Criar um fra
 
 ## <a name="change-the-template-theme"></a>Alterar o tema do modelo
 
-Para definir o tema padrão de todas as páginas que usam um modelo, siga estas etapas.
+Para definir o tema padrão de todas as páginas que usam um modelo, siga estas etapas no construtor de sites.
 
 1. Na árvore de estrutura de tópicos à esquerda, expanda o slot **Corpo**.
 1. No slot **Corpo** selecione o módulo de contêiner de página (por exemplo, , **Página Padrão**).
@@ -115,7 +110,7 @@ Por padrão, todas as novas páginas agora usarão o tema selecionado. Para impe
 
 Você pode adicionar elementos de **&lt;script&gt;** HTML que contenham JavaScript em seu modelo. Dessa forma, você pode fornecer comportamentos de script padrão para as seções de cabeçalho, início do corpo e final do corpo de suas páginas.
 
-Para adicionar um script a um modelo, siga estas etapas.
+Para adicionar um script a um modelo no construtor de sites, siga estas etapas.
 
 1. Na árvore de estrutura de tópicos à esquerda, selecione o slot no qual deseja adicionar o elemento **&lt;script&gt;** (por exemplo, o cabeçalho HTML, início do corpo ou fim do corpo).
 1. Selecione o botão de reticências do slot e depois selecione **Adicionar Módulo**.
@@ -128,7 +123,7 @@ Para adicionar um script a um modelo, siga estas etapas.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Salvar, fazer check-in, visualizar e publicar um modelo
 
-Para salvar e fazer check-in em um modelo, siga estas etapas.
+Para salvar e fazer check-in em um modelo no construtor de sites, siga estas etapas.
 
 1. Selecione **Salvar** na parte superior do editor de modelos. As alterações salvas não afetam as páginas downstream até o check-in.
 1. Selecione **Concluir edição**. Suas alterações agora são detectáveis para fluxos de trabalho downstream.
@@ -137,12 +132,24 @@ Para visualizar as alterações, abra uma página existente que usa o modelo ou 
 
 Depois que você visualizou alterações no modelo, siga uma dessas etapas para publicar o modelo em seu site ativo:
 
-* Vá para **Modelos**, selecione o modelo e depois **Publicar**.
+* Acesse **Modelos**, selecione o modelo e depois **Publicar**.
 * Selecione o nome do layout para abrir o editor de layout e selecione **Publicar**.
 * Publicar uma página que faça referência ao modelo não publicado. O modelo será publicado automaticamente.
 
 > [!WARNING]
 > Quando um modelo ou qualquer outro item do sistema de gerenciamento de conteúdo (CMS) é publicado, ele pode ser descoberto na Internet. Não publique documentos ou ativos até estar pronto para publicá-los. As versões do documento que foram salvas e registradas, mas que não foram publicadas, são detectáveis apenas para usuários do sistema autenticados.
+
+## <a name="rename-a-template"></a>Renomear um modelo
+
+Para renomear um modelo existente no construtor de sites, siga estas etapas.
+
+1. No painel de navegação à esquerda, selecione **Modelos**.
+1. Selecione o nome do modelo que você deseja renomear.
+1. Selecione **Editar** para iniciar a edição do modelo. Observe que não é possível editar um modelo, se alguém já estiver editando-o.
+1. No painel de propriedades do modelo, selecione o símbolo da caneta ao lado do nome do modelo.
+1. Edite o nome do modelo, conforme necessário.
+1. Marque a caixa de seleção para confirmar a alteração do nome.
+1. Selecione **Concluir edição**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

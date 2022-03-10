@@ -1,12 +1,10 @@
 ---
 title: Tipos de solicitação de manutenção
 description: Este tópico explica como configurar uma solicitação de manutenção no Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 07/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e4f622cda62cad13a8146cbc26bc2e5f1a45222
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f51c90f72120d236ae9acf3fbcb8ac98fdc8cdf3d3bd032b3a3a3d317483b070
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721478"
 ---
 # <a name="maintenance-request-types"></a>Tipos de solicitação de manutenção
 
@@ -43,7 +41,7 @@ Um tipo do solicitação de manutenção define a afiliação ao grupo de estado
 
 A ilustração a seguir mostra um exemplo da página **Tipos de solicitação de manutenção**.
 
-![Página de tipos de solicitação de manutenção](media/07-setup-for-requests.png)
+![Página de tipos de solicitação de manutenção.](media/07-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

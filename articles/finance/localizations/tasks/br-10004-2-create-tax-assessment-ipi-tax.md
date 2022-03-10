@@ -2,11 +2,9 @@
 title: Criar uma apuração de imposto - imposto IPI (Brasil)
 description: Você pode criar uma avaliação de imposto para o IPI de um período de escrituração específico.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25fc3377bf7c0c6af15f802bf3928b072d3390a4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bdbd0cc9132e2b7ef9ace2b119a400552f5e38cc10b5c5b5ca61fde93dba651a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723735"
 ---
 # <a name="create-a-tax-assessment---ipi-tax-brazil"></a>Criar uma apuração de imposto - imposto IPI (Brasil)
 
@@ -27,7 +25,7 @@ ms.locfileid: "4964590"
 
 Você pode criar uma avaliação de imposto para o IPI de um período de escrituração específico. A avaliação de imposto considera o valor de IPI para recuperar e o valor de IPI para pagar os documentos fiscais. Para o valor devido após a apuração de imposto, crie o pagamento de impostos. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Livros fiscais > Comum > Período de escrituração.
+1. Acesse Livros fiscais > Comum > Período de escrituração.
 2. Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.
 3. No campo Estabelecimento fiscal, insira ou selecione um valor.
 4. No campo Mês, selecione uma opção.
@@ -36,7 +34,7 @@ Você pode criar uma avaliação de imposto para o IPI de um período de escritu
 7. Clique em Sincronizar.
 8. Clique em OK.
 9. Feche a página.
-10. Vá para Livros fiscais > Comum > Apuração de imposto > IPI.
+10. Acesse Livros fiscais > Comum > Apuração de imposto > IPI.
 11. Clique em Apuração de imposto IPI para abrir a caixa de diálogo suspensa.
 12. No campo Período de escrituração, insira ou selecione um valor.
 13. Clique em OK.
@@ -52,3 +50,6 @@ Você pode criar uma avaliação de imposto para o IPI de um período de escritu
 23. Feche a página.
 24. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

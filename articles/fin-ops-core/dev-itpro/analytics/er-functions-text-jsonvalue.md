@@ -2,11 +2,8 @@
 title: Função de ER JSONVALUE
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) JSONVALUE é usada.
 author: NickSelin
-manager: kfend
-ms.date: 12/11/2019
-ms.topic: article
+ms.date: 10/25/2021
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11f9ac680ea00622367ea56106fd22508628d85d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ff33098e5be4dd9748d01d45b596360617305724
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685898"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700054"
 ---
 # <a name="jsonvalue-er-function"></a>Função de ER JSONVALUE
 
@@ -44,18 +41,45 @@ O caminho válido de uma fonte de dados do tipo *Cadeia de caracteres* que cont�
 
 `path`: *Cadeia de caracteres*
 
-O identificador de um valor escalar de dados JSON.
+O identificador de um valor escalar de dados JSON. Use uma barra (/) para separar os nomes de nós JSON relacionados. Use a notação de colchete (\[\]) para especificar o índice de um valor específico em uma matriz JSON. Observe que a numeração baseada em zero é usada para este índice.
 
 ## <a name="return-values"></a>Valores de retorno
 
-*Cadeia de caracteres*
+*Sequência de caracteres*
 
 O valor de texto resultante.
 
-## <a name="example"></a>Exemplo
+## <a name="example-1"></a>Exemplo 1
 
 A fonte de dados **JsonField** contém os seguintes dados no formato JSON: **{"BuildNumber":"7.3.1234.1", "KeyThumbprint":"7366E"}**. Nesse caso, a expressão `JSONVALUE (JsonField, "BuildNumber")` retorna o seguinte valor do tipo de dados *Cadeia de caracteres*: **"7.3.1234.1"**.
+
+## <a name="example-2"></a>Exemplo 2
+
+A fonte de dados **JsonField** do tipo *Campo calculado* contém esta expressão: `"{""workers"": [ {""name"": ""Adam"", ""age"": 30, ""emails"": [""AdamS@Contoso.com"", ""AdamS@Hotmail.com"" ]}, { ""name"": ""John"", ""age"": 21, ""emails"": [""JohnS@Contoso.com"", ""JohnS@Aol.com""]}]}"`
+
+Esta expressão configurada para retornar um valor [*Cadeia de caracteres*](er-formula-supported-data-types-primitive.md#string) que representa os seguintes dados no formato JSON.
+
+```json
+{
+    "workers": [
+        {
+            "name": "Adam",
+            "age": 30,
+            "emails": [ "AdamS@Contoso.com", "AdamS@Hotmail.com" ]
+        },
+        {
+            "name": "John",
+            "age": 21,
+            "emails": [ "JohnS@Contoso.com", "JohnS@Aol.com" ]
+        }
+    ]
+}
+```
+
+Nesse caso, a expressão `JSONVALUE(json, "workers/[1]/emails/[0]")` retorna o seguinte valor do tipo de dados *Cadeia de caracteres*: `JohnS@Contoso.com`.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de texto](er-functions-category-text.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

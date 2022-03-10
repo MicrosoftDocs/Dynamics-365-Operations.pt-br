@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bf44570a0eaceab94765b100bdd8b4d507a0f54
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 776871aad417d26486ec109f8b0b7f51db32d065d801e51459584c82269f9ac7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771767"
 ---
 # <a name="deposit-customer-payments"></a>Depositar pagamentos de cliente
 
@@ -26,7 +26,7 @@ ms.locfileid: "5822362"
 
 Depositar pagamentos de cliente. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para **Painel de Navegação > Módulos > Contas a receber > Pagamentos > Diário de pagamentos**.
+1. Acesse **Painel de Navegação > Módulos > Contas a receber > Pagamentos > Diário de pagamentos**.
 2. Selecione **Novo**.
 3. No campo **Nome**, selecione **CustPay** no menu suspenso.
 4. Selecione **Linhas**.

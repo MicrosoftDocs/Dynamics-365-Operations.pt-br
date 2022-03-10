@@ -3,7 +3,7 @@ title: Visão geral de modelos e layouts
 description: Este tópico aborda modelos e layouts no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 12/12/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 888f5295dce601d4ce5d823f14169bbcdfe48d6b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804032"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986085"
 ---
 # <a name="templates-and-layouts-overview"></a>Visão geral de modelos e layouts
 
@@ -32,7 +32,7 @@ Uma boa maneira de começar a trabalhar com modelos é entender os benefícios f
 
 A ilustração a seguir mostra a hierarquia do modelo de página atrás de uma página da Web renderizada.
 
-![Diagrama do modelo de página](../commerce/media/page-model-diagram.png)
+![Diagrama do modelo de página.](../commerce/media/page-model-diagram.png)
 
 | Entidade        | Função básica |
 |---------------|----------------|
@@ -98,7 +98,7 @@ O layout predefinido e os layouts personalizados são editados em diferentes par
 
 As ilustrações a seguir mostram cenários de layouts predefinidos e personalizados.
 
-![Cenários de layout predefinidos e personalizados](../commerce/media/template-figure1.png)
+![Cenários de layout predefinidos e personalizados.](../commerce/media/template-figure1.png)
 
 Para começar a usar layouts predefinidos, consulte [Trabalhar com layouts predefinidos](work-with-layouts.md).
 

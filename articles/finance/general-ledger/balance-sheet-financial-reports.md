@@ -2,11 +2,9 @@
 title: Relatórios financeiros de balanço
 description: Este artigo descreve os relatórios padrão para balanços. Também mostra os blocos de construção associados a esses relatórios.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d249172c2bc4241a47502b57f2ac20b29111eeba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734505"
 ---
 # <a name="balance-sheet-financial-reports"></a>Relatórios financeiros de balanço
 
@@ -30,8 +28,7 @@ ms.locfileid: "4985003"
 
 Este artigo descreve os relatórios padrão para balanços. Também mostra os blocos de construção associados a esses relatórios. 
 
-<a name="default-balance-sheet-reports"></a>Relatórios do balanço padrão
------------------------------
+## <a name="default-balance-sheet-reports"></a>Relatórios do balanço padrão
 
 Há dois relatórios do balanço padrão. Em um relatório, as seções são empilhadas. No outro relatório, as seções estão lado a lado.
 
@@ -70,8 +67,7 @@ As definições da coluna contêm diferentes tipos de colunas para fornecer nív
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de relatórios financeiros](financial-reporting-getting-started.md)
 
@@ -81,3 +77,6 @@ As definições da coluna contêm diferentes tipos de colunas para fornecer nív
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

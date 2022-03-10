@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f7f80928e1d3f5d4892f72d4bd2fd09b70a26c1f
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270698"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714650"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Editor de fórmula avançado do Relatório eletrônico
 
@@ -41,11 +41,11 @@ Além do [editor de fórmula](general-electronic-reporting-formula-designer.md) 
 
 Conclua as etapas a seguir para começar a usar o editor de fórmula avançado em sua instância do Microsoft Dynamics 365 Finance.
 
-1.  Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1.  Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2.  Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3.  Na caixa de diálogo **Parâmetro de usuário**, na seção **Rastreamento de execução**, defina o parâmetro **Habilitar editor de fórmula avançado** como **Sim**.
 
-[![Caixa de diálogo de parâmetros do usuário, Ativar parâmetro avançado do editor de fórmulas destacado](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![Caixa de diálogo de parâmetros do usuário, Ativar parâmetro avançado do editor de fórmulas destacado.](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > Lembre-se de que esse parâmetro é específico do usuário e da empresa.
@@ -54,11 +54,11 @@ A partir da versão 10.0.19 do Microsoft Dynamics 365 Finance, você pode contro
 
 1.  Abra o espaço de trabalho **Gerenciamento de recursos**.
 2.  Encontre e selecione o recurso **Configurar o editor de fórmula avançado de ER como o padrão para todos os usuários** na lista e selecione **Ativar agora**.
-3.  Vá para **Administração da organização** > **Relatório eletrônico** > **Configurações**.
+3.  Acesse **Administração da organização** > **Relatório eletrônico** > **Configurações**.
 4.  Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 5.  Na caixa de diálogo de **Parâmetros do usuário**, encontre o parâmetro **Desativar editor de fórmula avançado** e verifique se ele está definido como **Não**.
 
-[![Caixa de diálogo de parâmetros do usuário, Desativar parâmetro avançado do editor de fórmulas destacado](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
+[![Caixa de diálogo de parâmetros do usuário, Desativar parâmetro avançado do editor de fórmulas destacado.](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
 
 > [!NOTE]
 > Os valores dos parâmetros **Habilitar editor de fórmula avançado** e **Desabilitar editor de fórmula avançado** são mantidos separados para cada usuário e oferecidos na caixa de diálogo **Parâmetros de usuário** dependendo do status do recurso **Definir o editor de fórmula avançado do ER como o padrão para todos os usuários**.
@@ -67,7 +67,7 @@ A partir da versão 10.0.19 do Microsoft Dynamics 365 Finance, você pode contro
 
 Quando você escreve uma expressão complexa que consiste em várias linhas de código, o recuo de uma nova linha inserida será automático com base no recuo da linha anterior. Você pode selecionar linhas e alterar o respectivo recuo digitando **Tab** ou **Shift+Tab**.
 
-[![Gif do editor de fórmulas de ER mostrando linhas de seleção e alterando o recuo](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![Gif do editor de fórmulas de ER mostrando linhas de seleção e alterando o recuo.](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 A Autoformatação permite manter toda a expressão formatada de modo a facilitar a manutenção adicional e simplificar a compreensão da lógica configurada.
 
@@ -75,7 +75,7 @@ A Autoformatação permite manter toda a expressão formatada de modo a facilita
 
 O editor fornece o preenchimento de palavras, que ajuda você a escrever expressões mais rapidamente e a evitar erros de digitação. Quando você começa a adicionar um novo texto, o editor oferece automaticamente uma lista de funções aceitas nas funções do ER que contêm os caracteres inseridos. Também é possível disparar o IntelliSense em qualquer lugar de uma expressão configurada digitando **CTRL + espaço**.
 
-[![Gif do editor de fórmula de ER mostrando acionamento do IntelliSense](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![Gif do editor de fórmula de ER mostrando acionamento do IntelliSense.](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">Preenchimento de código</a>
 
@@ -85,7 +85,7 @@ O editor fornece automaticamente o preenchimento de código com a:
 - Inserção do segundo símbolo de aspas quando o primeiro é inserido, mantendo o curso dentro das aspas.
 - Inserção do segundo símbolo de aspas duplas quando o primeiro é inserido, mantendo o curso dentro das aspas.
 
-[![Gif do editor de fórmulas de ER mostrando o editor automaticamente fornecendo conclusão de código](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![Gif do editor de fórmulas de ER mostrando o editor automaticamente fornecendo conclusão de código.](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 Quando você aponta para o colchete digitado, o segundo colchete deste par é realçado automaticamente para mostrar a construção permitida.
 
@@ -101,7 +101,7 @@ Por exemplo, para pular para a linha **8**, faça o seguinte:
 
 - Pressione **F1**, digite **G**, selecione **Ir para a linha**, digite o valor **8** e pressione **Enter**.
 
-[![Gif do editor de fórmulas de ER mostrando como localizar partes de uma expressão usando a paleta de comando](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![Gif do editor de fórmulas de ER mostrando como localizar partes de uma expressão usando a paleta de comando.](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">Estruturação de código</a>
 
@@ -123,7 +123,7 @@ Para desdobrar todas as regiões, faça o seguinte:
   
 - Pressione **F1**, digite **UN**, selecione **Desdobrar tudo** e pressione **Enter**
 
-[![Gif do editor de fórmula de ER mostrando o código sendo desdobrado](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![Gif do editor de fórmula de ER mostrando o código sendo desdobrado.](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">Localizar e substituir</a>
 
@@ -151,13 +151,13 @@ Para alterar todas as ocorrências de um determinado texto, selecione o texto na
   
 - Pressione **F1**, digite **C** e selecione a opção necessária para alterar o texto selecionado. Insira o texto alternativo.
 
-[![Gif do editor de fórmula de ER mostrando localizar e substituir](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![Gif do editor de fórmula de ER mostrando localizar e substituir.](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">Colagem de funções e fontes de dados</a>
 
 Você pode selecionar **Adicionar fonte de dados**, que cola na expressão atual uma fonte de dados que está atualmente selecionada no painel esquerdo **Fonte de dados**. Da mesma forma, é possível selecionar **Adicionar função**, que cola na expressão atual uma função que está atualmente selecionada no painel direito **Funções**. Se você usar o editor de fórmula do ER, uma função selecionada ou uma fonte de dados selecionada sempre será colada no final da expressão configurada. Quando você usa o editor de fórmula avançado do ER, uma função selecionada ou uma fonte de dados selecionada pode ser colada em qualquer parte da expressão configurada. Será necessário usar o cursor para especificar onde deseja colar os dados.
 
-[![Gif do editor de fórmulas de ER mostrando como adicionar uma fonte de dados e colar uma função](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![Gif do editor de fórmulas de ER mostrando como adicionar uma fonte de dados e colar uma função.](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">Colorização da sintaxe</a>
 
@@ -165,7 +165,7 @@ Atualmente, diferentes cores são usadas para realçar as seguintes partes das e
 
 - O texto entre colchetes duplos que pode representar uma ID de etiqueta de uma constante de texto.
 
-[![Editor de fórmula do ER](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+[![Editor de fórmula do ER.](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
 
 ## <a name="limitations"></a>Limitações
 

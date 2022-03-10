@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f6e791ffd15128d2076340515a08b5ea6be70dae
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746007"
 ---
 # <a name="set-up-organization-hierarchies"></a>Configurar hierarquias da organização
 
@@ -43,7 +43,7 @@ Para obter mais informações, consulte os tópicos a seguir.
 
 Para criar uma hierarquia organizacional, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de Canal \> Hierarquias da organização**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de Canal \> Hierarquias da organização**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **Nome**, insira um valor.
 1. Na seção **Finalidade**, selecione **Atribuir finalidade**.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e6fff06cb6194f17444025f7ea1f9dbb46e4f3ea
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907634"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777902"
 ---
 # <a name="intercompany-planning"></a>Planejamento intercompanhia
 
@@ -53,7 +53,7 @@ Para usar o planejamento intercompanhia, você deve preparar o sistema da seguin
 
 Siga estas etapas para configurar seu plano mestre de forma que inclua a demanda downstream planejada.
 
-1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. Selecione ou crie um plano mestre.
 1. Na FastTab **Planejamento intercompanhia**, defina os seguintes campos:
 
@@ -66,7 +66,7 @@ Na vinculação de vários níveis, você pode exibir a vinculação entre empre
 
 Para exibir informações de vinculação de vários níveis, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Planejamento mestre \> Ordens planejadas**.
+1. Acesse **Planejamento mestre \> Planejamento mestre \> Ordens planejadas**.
 1. Selecione ou abra uma ordem planejada.
 1. No Painel de Ações, na guia **Exibir**, no grupo **Requisitos**, selecione **Vinculação de vários níveis**.
 
@@ -76,7 +76,7 @@ Neste exemplo, uma ordem de produção planejada é criada na empresa USMF para 
 
 A ilustração a seguir mostra como esse exemplo pode aparecer na página **Vinculação de vários níveis** para a ordem de produção planejada.
 
-![Exemplo de intercompanhia que envolve duas empresas](media/IntercompanyPlanning1.png)
+![Exemplo de intercompanhia que envolve duas empresas.](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>Exemplo de intercompanhia que envolve três empresas
 
@@ -84,7 +84,7 @@ Neste exemplo, uma ordem de compra planejada é criada na empresa USMF para cobr
 
 A ilustração a seguir mostra como esse exemplo pode aparecer na página **Vinculação de vários níveis** para a ordem de produção planejada.
 
-![Exemplo de intercompanhia que envolve três empresas](media/IntercompanyPlanning2.png)
+![Exemplo de intercompanhia que envolve três empresas.](media/IntercompanyPlanning2.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

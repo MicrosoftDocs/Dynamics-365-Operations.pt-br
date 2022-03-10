@@ -1,27 +1,25 @@
 ---
 title: Adicionar uma atividade existente a uma versão de fluxo de produção
 description: Ao criar novas versões de fluxos de produção, você pode escolher adicionar atividades criadas para as versões anteriores à nova versão.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityAddExisting, PlanActivityAddExistingLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ff549fd6ed526eefc5514ce2013cc31a700510f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f73274c6e102df3007793e027587793d87c4f83
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006932"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579295"
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>Adicionar uma atividade existente a uma versão de fluxo de produção
 
@@ -33,7 +31,7 @@ Esta tarefa requer o fluxo de produção com a versão e as atividades já criad
 
 
 ## <a name="create-a-new-production-flow-version"></a>Criar uma nova versão de fluxo de produção
-1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
+1. Acesse Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Clique em Editar.
@@ -55,3 +53,6 @@ Esta tarefa requer o fluxo de produção com a versão e as atividades já criad
 3. No campo Atividade, insira ou selecione um valor.
 4. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

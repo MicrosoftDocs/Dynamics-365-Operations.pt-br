@@ -1,12 +1,10 @@
 ---
 title: Planos de manutenção
 description: Este tópico explica os planos de manutenção no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 7c74505c1771354aba42ddd9df2b7eaff8f5bc4653675244be99c4ef8afa73f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740734"
 ---
 # <a name="maintenance-plans"></a>Planos de manutenção
 
@@ -48,7 +46,7 @@ Se você adicionar um plano de manutenção a tipos de ativos ou tipos de locais
 
 Esta seção descreve como configurar linhas do plano de manutenção e oferece exemplos de como elas podem ser usadas.
 
-1. Vá para **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
+1. Acesse **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
 
 1. Selecione **Novo** para criar uma nova sequência.
 
@@ -147,23 +145,23 @@ Abaixo você encontrará exemplos de configuração de linhas do plano de manute
 
 **Exemplo 1 - Linha do plano de manutenção baseada no tempo:** Um trabalho de lubrificação pode ser configurado em um intervalo fixo, ocorrendo uma vez por semana. Para essa finalidade, selecione "Repetido a partir da data do plano" no campo **Tipo de intervalo**. Veja um exemplo na ilustração a seguir.
 
-![Um trabalho do serviço configurado em um intervalo fixo, que ocorre uma vez por semana](media/02-preventive-maintenance.png "Um trabalho do serviço configurado em um intervalo fixo, que ocorre uma vez por semana")
+![Um trabalho do serviço configurado em um intervalo fixo, que ocorre uma vez por semana.](media/02-preventive-maintenance.png "Um trabalho do serviço configurado em um intervalo fixo, que ocorre uma vez por semana")
 
 **Exemple 2 - Linha do plano de manutenção baseada no tempo:** Um trabalho de inspeção pode ser configurado para ser executado aproximadamente uma vez por semana. Para essa finalidade, selecione "Repetido a partir da última ordem de serviço" no campo **Tipo de intervalo**. Veja um exemplo na ilustração a seguir.
 
-![Um trabalho de inspeção configurado para ser executado aproximadamente uma vez por semana](media/03-preventive-maintenance.png "Um trabalho de inspeção configurado para ser executado aproximadamente uma vez por semana")
+![Um trabalho de inspeção configurado para ser executado aproximadamente uma vez por semana.](media/03-preventive-maintenance.png "Um trabalho de inspeção configurado para ser executado aproximadamente uma vez por semana")
 
 **Exemplo 3 - Linha do plano de manutenção baseada no contador:** A ilustração gráfica a seguir mostra um contador de horas para o qual uma nova linha de agendamento de manutenção é criada a cada 250 horas decorridas. O tipo de intervalo desta linha com base no contador é "Repetido a partir da data de início". A data de início é a data de início dos ativos relacionados na exibição de detalhes **Todos os ativos** \> FastTab **Planos de manutenção do ativo** \> campo **Data de início** ou na exibição de detalhes **Local funcional** FastTab \> **Planos de manutenção** \> campo **Data de início**. Este é um exemplo de um plano de manutenção *preventiva* porque a linha do agendamento de manutenção é criada automaticamente cada vez que o limite (+ 250) for atingido.
 
-![Um contador de horas que periodicamente cria linhas de agendamento de manutenção](media/04-preventive-maintenance.png "Um contador de horas que periodicamente cria linhas de agendamento de manutenção")
+![Um contador de horas que periodicamente cria linhas de agendamento de manutenção.](media/04-preventive-maintenance.png "Um contador de horas que periodicamente cria linhas de agendamento de manutenção")
 
 **Exemplo 4 - Linha do plano de manutenção baseada no contador:** A ilustração gráfica a seguir mostra uma diminuição no valor do contador, medindo o desgaste da pastilha de freio. Uma linha do agendamento de manutenção é criada quando um registro do contador abaixo de 20 mm é criado na pastilha de freio. O tipo de intervalo desta linha com base no contador é "Uma vez atingido abaixo" ou "Uma vez a partir da última data de início". Este é um exemplo de um plano de manutenção *reativo* porque a linha do agendamento de manutenção não é criada até que uma medição abaixo de 20 mm seja registrada.
 
-![Uma redução no valor do contador, medindo o desgaste da pastilha de freio](media/05-preventive-maintenance.png "Uma redução no valor do contador, medindo o desgaste da pastilha de freio")
+![Uma redução no valor do contador, medindo o desgaste da pastilha de freio.](media/05-preventive-maintenance.png "Uma redução no valor do contador, medindo o desgaste da pastilha de freio")
 
 **Exemplo 5 - Linha do plano de manutenção baseada no contador:** A ilustração gráfica a seguir mostra um contador com um limite de -18° Celsius. Uma linha do agendamento de manutenção é criada quando for feito um registro do contador acima de -18° Celsius. O tipo de intervalo desta linha com base no contador é "Uma vez atingido acima". Este é um exemplo de um plano de manutenção *reativo* porque a linha do agendamento de manutenção não é criada até que seja registrada uma medição maior que -18° Celsius.
 
-![Um contador com limite de -18° Celsius](media/06-preventive-maintenance.png "Um contador com limite de -18° Celsius")
+![Um contador com limite de -18° Celsius.](media/06-preventive-maintenance.png "Um contador com limite de -18° Celsius")
 
 - Quando você cria um novo ativo, e esse ativo usa um tipo de ativo relacionado a um plano de manutenção, o plano de manutenção é inserido automaticamente na FastTab **Todos os objetos \> Planos de manutenção do ativo**. Além disso, em **Padrões do tipo de ativo**, na Guia Rápida **Planos de manutenção**, os planos de manutenção relacionados serão inseridos automaticamente.
 - Se você adicionar ou remover tipos de ativos ou tipos de locais funcionais nos **Planos de manutenção**, essa alteração somente será refletida em novos ativos criados após você fazer a alteração.
@@ -171,11 +169,11 @@ Abaixo você encontrará exemplos de configuração de linhas do plano de manute
 
 A ilustração a seguir mostra um exemplo de um plano de manutenção "Assistência a caminhões" na página **Planos de manutenção**.
 
-![Um exemplo de um plano de manutenção de serviço de caminhão](media/07-preventive-maintenance.png "Um exemplo de um plano de manutenção de serviço de caminhão")
+![Um exemplo de um plano de manutenção de serviço de caminhão.](media/07-preventive-maintenance.png "Um exemplo de um plano de manutenção de serviço de caminhão")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Adicionar um plano de manutenção a um ativo
 
-1. Vá para **Gerenciamento de ativos \> Comum \> Ativos \> Todos os ativos** ou **Ativos ativos**.
+1. Acesse **Gerenciamento de ativos \> Comum \> Ativos \> Todos os ativos** ou **Ativos ativos**.
 
 1. Selecione o ativo no qual deseja configurar um plano de manutenção e selecione **Editar**.
 
@@ -189,13 +187,11 @@ A ilustração a seguir mostra um exemplo de um plano de manutenção "Assistên
 
 A ilustração a seguir mostra um exemplo de planos de manutenção configurados em um ativo na página **Todos os ativos**.
 
-![Um exemplo de planos de manutenção configurados em um ativo](media/08-preventive-maintenance.png "Um exemplo de planos de manutenção configurados em um ativo")
+![Um exemplo de planos de manutenção configurados em um ativo.](media/08-preventive-maintenance.png "Um exemplo de planos de manutenção configurados em um ativo")
 
 <a id="counter-based-maintenance"></a>
 
-## <a name="counter-based-maintenance-enhancements"></a>Melhorias de manutenção com base em contadores
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
+## <a name="counter-based-maintenance-enhancements"></a>Aprimoramentos na manutenção com base no contador
 
 O recurso *Melhorias de manutenção com base em contadores* apresenta a seguinte funcionalidade:
 
@@ -208,8 +204,8 @@ O recurso *Melhorias de manutenção com base em contadores* apresenta a seguint
 
 Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
-- **Módulo:** *Gerenciamento de ativos*
-- **Nome do recurso:** *(Versão preliminar) Melhorias de manutenção com base em contadores*
+- **Módulo:** *gerenciamento de ativos*
+- **Nome do recurso:** *Melhorias de manutenção com base em contadores*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Criar e inicializar contadores quando um ativo é criado
 
@@ -231,7 +227,7 @@ Sempre que você criar um ativo, os contadores de ativos relacionados inicializa
 
 Você pode configurar o sistema para redefinir automaticamente um contador sempre que uma ordem de serviço relevante atingir um valor de status selecionado.
 
-1. Vá para **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
+1. Acesse **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
 1. No painel de lista, selecione um plano de manutenção. A redefinição do contador será aplicada a todos os ativos que usam esse plano.
 1. Na seção **Linhas**, encontre uma linha do contador de ativos para o qual deseja redefinir um contador e marque a caixa de seleção **Redefinir contador** para essa linha. (As linhas do contador de ativos têm um valor na coluna **Contador**. O contador especificado nessa coluna é o que será redefinido para o ativo relevante.)
 1. Acesse **Gerenciamento de ativos \> Configuração \> Ordens de serviço \> Estados de ciclo de vida**.

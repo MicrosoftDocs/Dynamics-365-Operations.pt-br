@@ -1,7 +1,7 @@
 ---
 title: Configurar atribuições suplementares
 description: Este procedimento mostra como iniciar uma atribuição suplementar.
-author: ShylaThompson
+author: Henrikan
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06139e87596965a481fc7fb2e2f653594be0ac1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0062428cf984a48eeddc8c838f92daac254c4c78
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838457"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566038"
 ---
 # <a name="set-up-accessorial-assignments"></a>Configurar atribuições suplementares
 
@@ -29,7 +29,7 @@ Este procedimento mostra como iniciar uma atribuição suplementar. Normalmente 
 
 
 ## <a name="set-up-accessorial-assignment"></a>Configurar Atribuição suplementar
-1. Vá para Gerenciamento de transporte > Configurar > Classificação > Atribuições suplementares.
+1. Acesse Gerenciamento de transporte > Configurar > Classificação > Atribuições suplementares.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. Ative a expansão da seção Detalhes.

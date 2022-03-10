@@ -1,27 +1,25 @@
 ---
 title: Configurar uma proposta de transporte
 description: Este procedimento mostra como configurar um meio de pagamento do transporte.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSRouteWorkbench, TMSTransportationTender
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 928f445769f89764725adccb0a797fce0c8fdcee
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6d149225e5ff59b448bb0ebbd97fcfd511242ae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233526"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571176"
 ---
 # <a name="set-up-a-transportation-tender"></a>Configurar uma proposta de transporte
 
@@ -31,7 +29,7 @@ Este procedimento mostra como configurar um meio de pagamento do transporte. Nor
 
 
 ## <a name="select-a-route"></a>Selecione uma rota
-1. Vá para Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
+1. Acesse Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
 2. Desmarque a caixa de seleção Esconder envio e recebido.
 3. Selecione a linha com ID de carga 00006.
 4. Clique em Classificação e roteiro.

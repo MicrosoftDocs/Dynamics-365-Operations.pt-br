@@ -1,29 +1,29 @@
 ---
 title: Visão geral de planejamento mestre e funcionalidade multissite
 description: O planejamento mestre leva em consideração as configurações de dimensões de estoque de local e de depósito.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, InventSite
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2434
+ms.custom:
+- "2434"
+- intro-internal
 ms.assetid: 7f05c031-a446-4168-8cce-03a6305f5c4d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da8db87f44c974b3fee8e249e318669ca8e9f2b8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e594cfd71201c6a629c04d5557c117649e6b19b0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220815"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982320"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Visão geral de planejamento mestre e funcionalidade multissite
 

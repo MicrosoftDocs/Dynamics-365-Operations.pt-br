@@ -2,7 +2,6 @@
 title: Use o modelo de registro para criar um novo registro
 description: Este procedimento mostra como usar um modelo de registro previamente definido para criar um novo registro.
 author: margoc
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c926063b835fb01c551b87f7a78bfc8dc30f31fb
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4e59280c55b78bac49a3d60b9bd9f09ece5a988dc7754f0caf7b4fcdc64b9eaf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716029"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Use o modelo de registro para criar um novo registro
 
@@ -29,7 +28,7 @@ Este procedimento mostra como usar um modelo de registro previamente definido pa
 
 Este procedimento usa a empresa USMF.
 
-1. No **Painel de navegação**, vá para **Ativos fixos > Ativos fixos > Ativos fixos**.
+1. No **Painel de navegação**, Acesse **Ativos fixos > Ativos fixos > Ativos fixos**.
 2. Clique em **Novo**. Será solicitado que você selecione um modelo. Selecione aquele que corresponde à sua necessidade comercial.  
 3. Na lista, localize e selecione o PDV desejado.
 4. Clique em **OK**.

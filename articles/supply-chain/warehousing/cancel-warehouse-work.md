@@ -1,27 +1,24 @@
 ---
 title: Cancelar trabalho de depósito para tratamento de exceções
 description: Este tópico descreve a funcionalidade Cancelar trabalho, que permite que supervisores de depósito tratem o trabalho bloqueado.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: af0c147eefbfe22cb6b6d531f514e6f293d66689
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422545"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572400"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Cancelar trabalho de depósito para tratamento de exceções
 
@@ -45,3 +42,6 @@ Somente o trabalho do tipo **Vendas**, **Emissão de transferência**, **Separa�
 Para desbloquear o trabalho, o sistema cancela todas as linhas de trabalho restantes e corrige os dados de depósito associados à ID do trabalho que o usuário especificou. Todas as operações de manuseio de depósito comuns que envolvem a quantidade de itens afetados podem então ser retomadas.
 
 Para colocar o item afetado em um determinado local depois que o trabalho tiver sido cancelado, o usuário deverá usar uma operação de movimentos de estoque ou de ajuste de quantidade em um dispositivo móvel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

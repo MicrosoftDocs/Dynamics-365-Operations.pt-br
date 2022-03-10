@@ -1,35 +1,32 @@
 ---
 title: Associar um site do Dynamics 365 Commerce a um canal online
-description: Este tópico explica como associar seu site do Microsoft Dynamics 365 Commerce a um ou mais armazenamentos online.
+description: Este tópico explica como associar seu site do Microsoft Dynamics 365 Commerce a uma ou mais lojas online.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737644"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Associar um site do Dynamics 365 Commerce a um canal online
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como associar seu site do Microsoft Dynamics 365 Commerce a um ou mais armazenamentos online. 
+Este tópico explica como associar seu site do Microsoft Dynamics 365 Commerce a uma ou mais lojas online. 
 
 Após provisionar o ambiente de comércio eletrônico do Dynamics 365 Commerce usando o portal do Microsoft Dynamics Lifecycle Services (LCS), você estará pronto para estabelecer seu primeiro site de comércio eletrônico. Como parte da criação inicial do site, você associa o site a um armazenamento online criado anteriormente. Esta etapa associa o site a um canal online e permite que o site mostre a hierarquia de navegação, produtos, categorias, preços, opções de envio e tudo mais que você definiu no armazenamento online.
 
@@ -58,3 +55,6 @@ Depois que o site for criado, você pode verificar se está associado ao reposit
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 
 [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,31 +1,33 @@
 ---
 title: Entregar programa de benefícios do funcionário
-description: Este artigo mostra como criar elementos de benefício que serão usados ao criar um novo benefício.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Este tópico explica como criar elementos de benefício que serão usados ao criar um novo benefício.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 868ddb9b372b90ec75a5f35ebf3c987f2d39bd74
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417310"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066059"
 ---
 # <a name="deliver-employee-benefits-program"></a>Entregar programa de benefícios do funcionário
 
-Este artigo mostra como criar elementos de benefício que serão usados ao criar um novo benefício. A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa está direcionada para uma compensação e beneficia o gerente.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Este tópico explica como criar elementos de benefício que serão usados ao criar um novo benefício. A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa está direcionada para uma compensação e beneficia o gerente.
 
 
 ## <a name="create-benefit-elements"></a>Criar elementos do benefício
@@ -68,3 +70,6 @@ Este artigo mostra como criar elementos de benefício que serão usados ao criar
 16. No campo Base, selecione uma opção.
 17. No campo Valor ou taxa, insira um número.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

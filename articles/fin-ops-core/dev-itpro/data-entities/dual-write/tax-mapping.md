@@ -1,26 +1,26 @@
 ---
 title: Imposto integrado
-description: Este tópico descreve a integração de dados do imposto entre o Finance and Operations e o Dataverse.
-author: robinarh
+description: Este tópico descreve a integração de dados de impostos entre o Finance and Operations e o Dataverse.
+author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: e1b5d62e56dd1f87dbfedc6a8ca7379587481ff4
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542310"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063178"
 ---
 # <a name="integrated-tax"></a>Imposto integrado
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Os dados de configuração de imposto definem a configuração para os impostos indiretos (IVA, GST, imposto) e imposto retido na fonte. Eles descrevem as regras de cálculo de impostos, taxa de imposto, contabilidade de imposto, liquidação e outros conceitos.
 
@@ -28,7 +28,7 @@ Os dados de configuração de imposto definem a configuração para os impostos 
 
 Os dados de imposto incluem um conjunto de mapas de tabelas que funcionam juntos durante a interação de dados, conforme mostrado na tabela a seguir.
 
-| Aplicativos Finance and Operations | Aplicativos do Customer Engagement | descrição |
+| Aplicativos do Finance and Operations | Aplicativos do Customer Engagement | Descrição |
 |-----------------------------|-----------------------------------|-------------|
 [Grupo de impostos do item](mapping-reference.md#196) | msdyn_taxitemgroups | |
 [Autoridades do imposto](mapping-reference.md#193) | msdyn_taxauthorities | |

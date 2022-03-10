@@ -1,8 +1,8 @@
 ---
 title: Inscrever e remover benefícios de trabalhadores
-description: Este procedimento demonstra como um único trabalhador pode ser inserido em um ou mais benefícios, bem como os vários trabalhadores podem ser inseridos em um benefício.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Este procedimento mostra como inscrever um único trabalhador em um ou mais benefícios, bem como inscrever vários trabalhadores em um benefício.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,27 +10,30 @@ ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: a67199663a65ea0184b4feadb4036351a81abc87
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1b99db1e480ea4a53d2bda609eb08105509d95f4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053048"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065367"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Inscrever e remover benefícios de trabalhadores
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-Este procedimento demonstra como um único trabalhador pode ser inserido em um ou mais benefícios, bem como os vários trabalhadores podem ser inseridos em um benefício. A empresa de dados demo usada para criar este procedimento é USMF.
+Este procedimento mostra como inscrever um único trabalhador em um ou mais benefícios, bem como inscrever vários trabalhadores em um benefício. A empresa de dados demo usada para criar este procedimento é USMF.
 
 
 ## <a name="enroll-a-single-worker-in-benefits"></a>Inscrever um trabalhador único nos benefícios
-1. Vá para Recursos humanos > Trabalhadores > Funcionários
+1. Acesse Recursos humanos > Trabalhadores > Funcionários
 2. Na lista, localize e selecione o PDV desejado.
 3. Clique em Benefícios.
 4. Clique em Novo.
@@ -42,7 +45,7 @@ Este procedimento demonstra como um único trabalhador pode ser inserido em um o
 
 ## <a name="enroll-multiple-workers-in-a-benefit"></a>Inscrever vários trabalhadores em um benefício
 1. Feche a página.
-2. Vá para Recursos humanos > Trabalhadores > Funcionários
+2. Acesse Recursos humanos > Trabalhadores > Funcionários
 3. Na lista, marque a linha selecionada.
 4. Na lista, localize e selecione o PDV desejado.
 5. Na lista, localize e selecione o registro desejado.
@@ -52,7 +55,7 @@ Este procedimento demonstra como um único trabalhador pode ser inserido em um o
 9. No campo Data final da cobertura, insira uma data e hora.
 10. Clique em Inscrever-se.
 11. Feche a página.
-12. Vá para Recursos humanos > Benefícios > Inscrição > Resultados da inscrição no benefício
+12. Acesse Recursos humanos > Benefícios > Inscrição > Resultados da inscrição no benefício
 13. Localize o registro dos resultados de benefícios que você está procurando.
 14. Na lista, clique no link na linha selecionada.
 15. Esta página permite exibir os funcionários que foram inscritos no benefício, bem como alguns funcionários que não foram inscritos.

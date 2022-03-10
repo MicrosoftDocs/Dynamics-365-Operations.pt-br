@@ -1,7 +1,7 @@
 ---
 title: Criar uma versão de fluxo de produção
 description: Esse procedimento tem como foco a criação de uma versão de fluxo de produção.
-author: cvocph
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a4b4847046af541644338157d95e6fcba315f9c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b72d6162edd0ae6ccbfdcfe3e63ecff30528454
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828985"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569251"
 ---
 # <a name="create-a-production-flow-version"></a>Criar uma versão de fluxo de produção
 
@@ -28,7 +28,7 @@ Esse procedimento tem como foco a criação de uma versão de fluxo de produçã
 
 
 ## <a name="create-a-production-flow"></a>Criar um fluxo de produção
-1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
+1. Acesse Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Descrição, digite um valor.

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 30f36ccf967c47d6a034c00544d45cdfdc3d1907
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115014"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103379"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -31,7 +31,7 @@ Quando você abre a interface de execução de piso de produção, ela carrega a
 - Em um dispositivo no hall da empresa, os funcionários registram a entrada quando entram no escritório e a saída quando vão embora.
 - Em um dispositivo no chão de fábrica, os operadores de máquina registram-se quando iniciam e concluem trabalhos. Eles também registram pausas e atividades indiretas.
 
-Este tópico descreve as várias opções para configurar dispositivos de ficha de trabalho.
+Este tópico descreve as várias opções de configuração de uma interface de execução de piso de produção para cada dispositivo em uso no seu site.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Ativar a interface de execução de piso de produção e seus recursos opcionais relacionados
 
@@ -39,65 +39,65 @@ A interface de execução de piso de produção e várias configurações opcion
 
 ### <a name="the-production-floor-execution-interface"></a>A interface de execução de piso de produção
 
-Este é o principal recurso descrito neste tópico. Ele adiciona a interface de execução de piso de produção ao seu sistema. Para habilitá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
-
-- Execução de piso de produção
+Este é o principal recurso descrito neste tópico e é um pré-requisito para todos os outros recursos mencionados nesta seção. A partir do Supply Chain Management 10.0.25, ele é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Execução de piso de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="generate-license-plates"></a>Gerar placas de licença
 
 Estes recursos disponibilizam a funcionalidade de placas de licença para a interface de execução de piso de produção. Se você quiser usá-los, ative os seguintes recursos no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nesta ordem):
 
-1. Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho
-1. Habilitar a geração automática do número da placa de licença ao concluir o relatório de conclusão no dispositivo de ficha de trabalho
+1. *Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho*<br>(A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.25, este recurso é obrigatório.)
+1. *Habilitar a geração automática do número da placa de licença ao concluir o relatório de conclusão no dispositivo de ficha de trabalho*<br>(A partir do Supply Chain Management versão 10.0.25, este recurso é obrigatório.)
 
 ### <a name="print-labels"></a>Imprimir etiquetas
 
 Estes recursos disponibilizam a funcionalidade de impressão de etiquetas para a interface de execução de piso de produção. Se você quiser usá-los, ative os seguintes recursos no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nesta ordem):
 
-1. Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho
-1. Imprimir etiqueta do Dispositivo de Ficha de Trabalho
+1. *Placa de licença para relatório de conclusão adicionada ao Dispositivo de ficha de trabalho*<br>(A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.25, este recurso é obrigatório.)
+1. *Imprimir etiqueta do Dispositivo de Ficha de Trabalho*<br>(A partir do Supply Chain Management versão 10.0.25, este recurso é obrigatório.)
 
 ### <a name="allow-locking-the-touch-screen"></a>Permitir o bloqueio da tela touch
 
-Este recurso adiciona um botão à interface de execução de piso de produção que permite aos funcionários limpar a tela touch. Se você quiser usá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Esse recurso permite que os trabalhadores bloqueiem a tela touchscreen para que possam corrigi-la.
 
-- Recurso para bloqueio de dispositivo de ficha de trabalho e terminal de ficha de trabalho para que eles possam ser limpos
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o *Recurso para bloqueio de dispositivo de cartão de trabalho e terminal de cartão de trabalho para que eles possam ser limpos* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Funcionalidade de gerenciamento de ativos para a interface de execução de piso de produção
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Este recurso adiciona uma guia de gerenciamento de ativos à interface de execução de piso de produção. Os trabalhadores podem usar essa guia para selecionar um ativo que esteja conectado a um recurso de máquina dentro do filtro selecionado da lista de trabalhos. Para o ativo de máquina selecionado, o trabalhador pode exibir o estado e a integridade com base em valores de contador para até quatro contadores selecionados. Se você quiser usar esse recurso, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- Funcionalidade de gerenciamento de ativos para a interface de execução de piso de produção
+- *Funcionalidade de gerenciamento de ativos para a interface de execução de piso de produção*<br>(A partir do Supply Chain Management versão 10.0.25, este recurso está ativado por padrão.)
 
 ### <a name="enable-job-search"></a>Habilitar pesquisa de trabalho
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Este recurso permite adicionar um campo de pesquisa à lista de trabalhos. Os trabalhadores podem encontrar um trabalho específico inserindo a ID do trabalho ou encontrar todos os trabalhos para uma ordem específica inserindo a ID da ordem. Os trabalhadores podem inserir a ID usando um teclado ou digitalizando um código de barras. Se você quiser usá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- Pesquisa de trabalho para a interface de execução do piso de produção
+- *Pesquisa de trabalho para a interface de execução do piso de produção*<br>(A partir do Supply Chain Management versão 10.0.25, este recurso está ativado por padrão.)
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Habilitar relatório sobre coprodutos e subprodutos
+
+Este recurso permite que os trabalhadores usem a interface de execução de piso de produção para relatar o progresso das ordens de lote. Isso inclui um relatório sobre coprodutos e subprodutos. Para usar esse recurso, ative o recurso a seguir no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Relatório sobre coprodutos e subprodutos da interface de execução do piso de produção*
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabalhar com configurações de execução de piso de produção
 
-Para criar e manter configurações de dispositivo, vá para **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**. A página **Configurar execução de piso de produção** mostra uma lista das configurações existentes. Nessa página , você pode executar as seguintes ações:
+Para criar e manter as configurações de execução de piso de produção, acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**. A página **Configurar execução de piso de produção** mostra uma lista das configurações existentes. Nessa página, você pode executar as seguintes ações:
 
 - Selecione qualquer configuração de piso de produção listada na coluna à esquerda para exibi-la e editá-la.
-- Selecione **Novo** no Painel de Ações para adicionar uma nova configuração de dispositivo à lista. Em seguida, no campo **Configuração**, insira um nome para identificar a nova configuração. O nome inserido deve ser exclusivo entre todas as configurações de dispositivo e você não poderá editá-lo posteriormente.
+- Selecione **Novo** no Painel de Ações para adicionar uma nova configuração à lista. Em seguida, no campo **Configuração**, insira um nome para identificar a nova configuração. O nome inserido deve ser exclusivo entre todas as configurações e você não poderá editá-lo posteriormente.
 
-Em seguida, defina as várias configurações para a configuração de dispositivo selecionada. Os seguintes campos estão disponíveis:
+Em seguida, defina as várias configurações para a configuração selecionada. Os seguintes campos estão disponíveis:
 
-- **Somente entrada e saída** – Defina esta opção como *Sim* para criar uma interface simplificada que forneça somente a funcionalidade de entrada e saída. Isso desabilita a maioria das outras opções desta página. Você deve remover todas as linhas da FastTab **Seleção de guias** para poder habilitar esta opção.
+- **Somente entrada e saída** – Defina esta opção como *Sim* para criar uma interface simplificada que forneça somente a funcionalidade de entrada e saída. Isso desabilita a maioria das outras opções desta página. Você deve remover todas as linhas da Guia Rápida **Seleção de guias** para poder habilitar esta opção.
 - **Habilitar pesquisa**: defina esta opção como *Sim* para incluir um campo de pesquisa na lista de trabalhos. Os trabalhadores podem encontrar um trabalho específico inserindo a ID do trabalho ou encontrar todos os trabalhos para uma ordem específica inserindo a ID da ordem. Os trabalhadores podem inserir a ID usando um teclado ou digitalizando um código de barras.
 - **Quantidade de relatório em registro de saída** - defina essa opção como *Sim* para que os funcionários façam comentários sobre os trabalhos em andamento durante o registro de saída. Quando definido como *Não*, os funcionários não serão solicitados.
-- **Bloquear funcionário** – quando essa opção for definida como *Não*, os trabalhadores serão desconectados imediatamente depois que fizerem um registro (como um novo trabalho). O dispositivo retornará à página de entrada. Quando esta opção for definida como *Sim*, os trabalhadores permanecerão conectados ao dispositivo de ficha de trabalho. No entanto, um trabalhador pode se desconectar manualmente para que outro trabalhador possa entrar enquanto o dispositivo de ficha de trabalho continua em execução na mesma conta de usuário do sistema. Para obter mais informações sobre esses tipos de contas, consulte [Usuários atribuídos](config-job-card-device.md#assigned-users).
+- **Bloquear funcionário** – quando essa opção for definida como *Não*, os trabalhadores serão desconectados imediatamente depois que fizerem um registro (como um novo trabalho). A interface retornará à página de entrada. Quando esta opção for definida como *Sim*, os trabalhadores permanecerão conectados à interface de execução de piso de produção. No entanto, um trabalhador pode se desconectar manualmente para que outro trabalhador possa entrar enquanto a interface de execução de piso de produção continua em execução na mesma conta de usuário do sistema. Para obter mais informações sobre esses tipos de contas, consulte [Usuários atribuídos](config-job-card-device.md#assigned-users).
 - **Usar o tempo real de registro** - defina essa opção como *Sim* para definir a hora para cada novo registro como a hora exata em que o trabalhador enviou o registro. Quando essa opção for definida como *Não*, a hora de entrada será usada. Em geral, você desejará definir essa opção como *Sim* se tiver definido as opções **Bloquear funcionário** e/ou **Trabalhador único** como *Sim* em casos onde os trabalhadores com frequência permanecem conectados por períodos mais longos.
-- **Trabalhador único** - defina essa opção como *Sim* se apenas um trabalhador usar cada dispositivo de ficha de trabalho onde essa configuração está ativa. Quando essa opção estiver definida como *Sim*, a opção **Bloquear funcionário** será automaticamente definida como *Sim*. Além disso, essa configuração remove o requisito (e a capacidade) de o trabalhador entrar usando uma ID de crachá (ou outra ID semelhante). Em vez disso, o trabalhador entra no Microsoft Dynamics 365 Supply Chain Management usando uma conta de usuário do sistema vinculada a um *trabalhador com tempo registrado* (da tabela *trabalhadores*) e entra no dispositivo de ficha de trabalho como esse trabalhador ao mesmo tempo.
-- **Permitir bloqueio da tela touch** - defina essa opção como *Sim* para permitir que os trabalhadores bloqueiem a tela touch do dispositivo da ficha de trabalho para que possam corrigi-lo. Quando essa opção é definida como *Sim*, um botão **Tela de bloqueio para correção** é adicionado à página de entrada do dispositivo. Quando um trabalhador seleciona esse botão, a tela touch trava temporariamente para evitar a entrada não intencional. Também é mostrado um temporizador de contagem regressiva. Então, o trabalhador pode limpar com segurança o dispositivo e a tela. Quando a contagem regressiva for concluída, a tela touch será automaticamente desbloqueada.
+- **Trabalhador único** – Defina essa opção como *Sim* se apenas um trabalhador usar a interface de execução de piso de produção onde essa configuração está ativa. Quando essa opção estiver definida como *Sim*, a opção **Bloquear funcionário** será automaticamente definida como *Sim*. Além disso, essa configuração remove o requisito (e a capacidade) de o trabalhador entrar usando uma ID de crachá (ou outra ID semelhante). Em vez disso, o trabalhador entra no Microsoft Dynamics 365 Supply Chain Management usando uma conta de usuário do sistema vinculada a um *trabalhador com tempo registrado* (da tabela *Trabalhadores*) e entra na interface de execução de piso de produção como esse trabalhador ao mesmo tempo.
+- **Permitir bloqueio da tela touch** – Defina essa opção como *Sim* para permitir que os trabalhadores bloqueiem a tela touch da interface de execução de piso de produção para que possam corrigi-la. Quando essa opção é definida como *Sim*, um botão **Bloquear tela para correção** é adicionado à página de entrada. Quando um trabalhador seleciona esse botão, a tela touch trava temporariamente para evitar a entrada não intencional. Também é mostrado um temporizador de contagem regressiva. Então, o trabalhador pode limpar com segurança o dispositivo e a tela. Quando a contagem regressiva for concluída, a tela touch será automaticamente desbloqueada.
 - **Duração do bloqueio de tela** - quando a opção **Permitir bloqueio da tela touch** estiver definida como *Sim*, use essa opção para especificar o número de segundos de bloqueio da tela touch para correção. A duração deve ser entre 5 e 120 segundos.
-- **Gerar placa de licença** - defina essa opção como *Sim* para gerar uma nova placa de licença cada vez que um trabalhador usar o dispositivo de ficha de trabalho para relatar como concluído. O número da placa de licença é gerado de uma sequência numérica configurada na página **Parâmetros de gerenciamento de depósito**. Quando essa opção estiver definida como *Não*, os trabalhadores deverão especificar uma placa de licença existente ao relatarem como concluído.
-- **Imprimir etiqueta** - defina essa opção como *Sim* para imprimir uma etiqueta da placa de licença quando um trabalhador usar o dispositivo de ficha de trabalho para relatar como concluído. A configuração da etiqueta é configurada no roteamento de documentos, conforme descrito no [Layout de roteamento de documentos para etiquetas da placa de licença](../warehousing/document-routing-layout-for-license-plates.md).
+- **Gerar placa de licença** – Defina essa opção como *Sim* para gerar uma nova placa de licença cada vez que um trabalhador usar a interface de execução de piso de produção para relatar como concluído. O número da placa de licença é gerado de uma sequência numérica configurada na página **Parâmetros de gerenciamento de depósito**. Quando essa opção estiver definida como *Não*, os trabalhadores deverão especificar uma placa de licença existente ao relatarem como concluído.
+- **Imprimir etiqueta** – Defina essa opção como *Sim* para imprimir uma etiqueta da placa de licença quando um trabalhador usar a interface de execução de piso de produção para relatar como concluído. A configuração da etiqueta é configurada no roteamento de documentos, conforme descrito no [Layout de roteamento de documentos para etiquetas da placa de licença](../warehousing/document-routing-layout-for-license-plates.md).
 - **Seleção de guias** – Use as configurações desta seção para escolher quais guias devem ser exibidas pela interface de execução de piso de produção quando a configuração atual estiver ativa. Você pode criar quantas guias quiser e, em seguida, adicioná-las e organizá-las aqui, conforme necessário. Para obter detalhes sobre como criar guias e trabalhar com as configurações aqui, consulte [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).
 
 ## <a name="clean-up-job-configurations"></a>Limpar configurações de trabalho
@@ -106,7 +106,7 @@ Quando o supervisor de chão de fábrica configura a interface de execução de 
 
 Um trabalho em lotes limpa periodicamente entradas na tabela de referências para dispositivos que não registraram nenhuma atividade nos últimos 60 dias. Você também pode limpar manualmente as entradas a qualquer momento seguindo essas etapas.
 
-1. Vá para **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**.
+1. Acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**.
 1. No Painel de Ação, selecione **Limpar configurações de cliente**.
 1. Na caixa de diálogo **Limpar configuração do cliente**, defina o campo **Número de dias** como o número de dias de inatividade (antes de hoje) a ser considerado. Você removerá todas as configurações e os registros de entrada dos dispositivos que não estavam ativos durante esse tempo.
 1. Selecione **OK** para limpar as configurações relevantes, com base na configuração de **Número de dias**.

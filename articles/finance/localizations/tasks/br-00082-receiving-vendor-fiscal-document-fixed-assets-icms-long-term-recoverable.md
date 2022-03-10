@@ -1,12 +1,10 @@
 ---
 title: Receber notas fiscais de fornecedor (ativos fixos - ICMS recuperável de longo prazo) (Brasil)
-description: Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos.
+description: Este tópico explica como lançar uma nota fiscal recebida da aquisição de ativos fixos e recuperar os impostos ICMS.
 author: sndray
-manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 784b439764dbfbc7a66ac3527615a9e98c7967ac
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 24e34cf52df7ff6bd8248401d93ead480270986b
+ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961546"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7601439"
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---icms-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - ICMS recuperável de longo prazo) (Brasil)
 
@@ -28,7 +26,7 @@ ms.locfileid: "4961546"
 
 Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos. Você pode recuperar o ICMS ou o PIS/COFINS, ou ambos. Você também pode recuperar mensalmente prestações de reembolso. Esses valores são usados para deduzir o valor devido durante a apuração de imposto. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
+1. Acesse Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. No campo Conta de fornecedor, insira ou selecione um valor.
 4. Clique em OK.
@@ -53,7 +51,7 @@ Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos. Voc
 23. Clique em Confirmar.
 24. Feche a página.
 25. Feche a página.
-26. Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.
+26. Acesse Contas a pagar > Ordens de compra > Todas as ordens de compra.
 27. Na lista, clique no link na linha selecionada.
 28. No Painel de Ação, clique em Fatura.
 29. Clique em Fatura.
@@ -68,3 +66,6 @@ Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos. Voc
 38. Feche a página.
 39. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

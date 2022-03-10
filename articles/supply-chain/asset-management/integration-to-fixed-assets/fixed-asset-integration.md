@@ -1,26 +1,23 @@
 ---
 title: Integrar gerenciamento de ativos com ativos fixos
 description: Este tópico explica como integrar os módulos de gerenciamento de ativos e ativos fixos, de forma que você possa vincular ativos fixos com ativos de manutenção.
-author: kamaybac
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: dabourq
+ms.author: johanho
 ms.search.validFrom: 2020-04-17
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: cdda44d361011706fe0ba170309908533aa0c2f7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422074"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567574"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Integrar gerenciamento de ativos com ativos fixos
 
@@ -37,7 +34,7 @@ Essa configuração opcional permite que você defina um local funcional padrão
 
 Para concluir a configuração, siga as etapas abaixo.
 
-1. Vá para **Gerenciamento de ativo \> Configuração \> Parâmetros de gerenciamento de ativo**.
+1. Acesse **Gerenciamento de ativo \> Configuração \> Parâmetros de gerenciamento de ativo**.
 1. Na guia **Ativos fixos**, no campo **Local funcionar**, selecione o local padrão.
 1. No Painel de ações, selecione **Salvar**.
 
@@ -49,7 +46,7 @@ Esta seção fornece um conjunto de procedimentos que mostram várias maneiras q
 
 Para associar um ativo de manutenção existente a um ativo fixo, siga estas etapas.
 
-1. Vá para **Gerenciamento de ativos \> Ativos \> Todos os ativos** (ou **Ativos ativos**).
+1. Acesse **Gerenciamento de ativos \> Ativos \> Todos os ativos** (ou **Ativos ativos**).
 1. Selecionar um ativo.
 1. Na Guia Rápida **Ativo fixo**, no campo **Número do ativo fixo**, selecione um ativo fixo existente.
 1. No Painel de ações, selecione **Salvar**.
@@ -58,7 +55,7 @@ Para associar um ativo de manutenção existente a um ativo fixo, siga estas eta
 
 Para exibir o ativo fixo associado a um ativo de manutenção selecionado, siga estas etapas.
 
-1. Vá para **Gerenciamento de ativos \> Ativos \> Todos os ativos** (ou **Ativos ativos**).
+1. Acesse **Gerenciamento de ativos \> Ativos \> Todos os ativos** (ou **Ativos ativos**).
 1. Selecionar um ativo.
 1. Na Guia Rápida **Ativo fixo**, no campo **Número do ativo fixo**, selecione o link.
 
@@ -68,7 +65,7 @@ Para exibir o ativo fixo associado a um ativo de manutenção selecionado, siga 
 
 Para exibir o ativo de manutenção associado a um ativo fixo selecionado, siga estas etapas.
 
-1. Vá para **Ativos fixos \> Ativos fixos \> Ativos fixos**.
+1. Acesse **Ativos fixos \> Ativos fixos \> Ativos fixos**.
 1. Selecionar um ativo.
 1. No Painel de Ações, na guia **Gerenciamento de ativos**, no grupo **Exibir**, selecione **Ativo de manutenção**.
 
@@ -80,7 +77,7 @@ As ordens de trabalho de gerenciamento de ativos podem ser lançadas para ativos
 
 Para exibir os custos de manutenção que são associados com um ativo fixo, siga estas etapas.
 
-1. Vá para **Ativos fixos \> Ativos fixos \> Ativos fixos**.
+1. Acesse **Ativos fixos \> Ativos fixos \> Ativos fixos**.
 1. Selecionar um ativo.
 1. No Painel de Ações, na guia **Gerenciamento de ativos**, no grupo **Exibir**, selecione **Custo de manutenção**.
 
@@ -90,7 +87,7 @@ Para exibir os custos de manutenção que são associados com um ativo fixo, sig
 
 Para criar um novo ativo de manutenção para um ativo fixo existente, siga estas etapas.
 
-1. Vá para **Ativos fixos \> Ativos fixos \> Ativos fixos**.
+1. Acesse **Ativos fixos \> Ativos fixos \> Ativos fixos**.
 1. Selecionar um ativo.
 1. No Painel de Ações, na guia **Gerenciamento de ativos**, no grupo **Novo**, selecione **Criar ativo de manutenção**. (Se esta opção não estiver disponível, um ativo de manutenção talvez já esteja associado ao ativo fixo selecionado.)
 1. Conclua a criação do ativo, conforme descrito em [Criar um ativo](../objects/create-an-object.md).
@@ -99,7 +96,7 @@ Para criar um novo ativo de manutenção para um ativo fixo existente, siga esta
 
 Para criar um novo ativo fixo e adicionar um novo ativo de manutenção para ele, siga estas etapas.
 
-1. Vá para **Ativos fixos \> Ativos fixos \> Ativos fixos**.
+1. Acesse **Ativos fixos \> Ativos fixos \> Ativos fixos**.
 1. No Painel de Ações, selecione **Novo**.
 1. Conclua a criação do ativo fixo, conforme descrito em [Criar um ativo fixo](../../../finance/fixed-assets/tasks/create-fixed-asset.md).
 1. No Painel de Ações, na guia **Gerenciamento de ativos**, no grupo **Novo**, selecione **Criar ativo de manutenção**.
@@ -111,7 +108,10 @@ Em alguns casos, talvez seja necessário desassociar um ativo de manutenção do
 
 Para remover uma associação existente entre um ativo de manutenção e um ativo fixo, siga estas etapas.
 
-1. Vá para **Gerenciamento de ativos \> Ativos \> Todos os ativos** (ou **Ativos ativos**).
+1. Acesse **Gerenciamento de ativos \> Ativos \> Todos os ativos** (ou **Ativos ativos**).
 1. Localize e abra o ativo fixo.
 1. Na Guia Rápida **Ativos fixos**, limpe o valor do campo **Local funcional**.
 1. No Painel de ações, selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

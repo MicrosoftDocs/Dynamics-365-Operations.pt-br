@@ -1,26 +1,24 @@
 ---
 title: Fluxos de trabalho de aprovação de diário de estoque
 description: Este tópico descreve como configurar e usar fluxos de trabalho de aprovação do diário do estoque para vários tipos de transações de estoque físico. Os fluxos de trabalho de diários de estoque ajudam a garantir que somente diários de estoque aprovados possam ser lançados em transações.
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011663"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778296"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Fluxos de trabalho de aprovação de diário de estoque
 
@@ -33,7 +31,7 @@ Este tópico descreve como configurar e usar fluxos de trabalho de aprovação d
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Ativar o recurso de fluxos de trabalho de aprovação de diário de estoque
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
 
 - **Módulo:** *Gerenciamento de estoque e depósito*
 - **Nome do recurso:** *Fluxo de trabalho de aprovação de diário de estoque*
@@ -46,7 +44,7 @@ Os fluxos de trabalho dão suporte ao controle de versão, e cada um tem uma ID 
 
 Para criar seus fluxos de trabalho de aprovação de diário de estoque:
 
-1. Vá para **Gerenciamento de Estoque \> Configuração\> Fluxos de trabalho de gerenciamento de estoque**.
+1. Acesse **Gerenciamento de Estoque \> Configuração\> Fluxos de trabalho de gerenciamento de estoque**.
 1. Selecione **Novo** no Painel de Ações.
 1. Escolha o tipo de diário de estoque para o qual você deseja configurar um fluxo de trabalho:
     - **Diário de contagem de etiquetas de estoque**
@@ -57,7 +55,7 @@ Para criar seus fluxos de trabalho de aprovação de diário de estoque:
     - **Diário BOM do estoque**
     - **Diário de ajuste de estoque**
 
-    ![A caixa de diálogo Criar fluxo de trabalho](media/journal-workflow-create-workflow.png "A caixa de diálogo Criar fluxo de trabalho")
+    ![A caixa de diálogo Criar fluxo de trabalho.](media/journal-workflow-create-workflow.png "A caixa de diálogo Criar fluxo de trabalho")
 
 1. O aplicativo do editor de fluxo de trabalho é iniciado no seu computador. (Talvez seja solicitado que você aprove esta ação.) Use-o para criar seu fluxo de trabalho, conforme necessário. Para obter detalhes sobre como usar o editor de fluxo de trabalho, consulte [Visão geral do sistema de fluxo de trabalho](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Depois de salvar e fechar o aplicativo do editor de fluxo de trabalho, escolha se a versão do fluxo de trabalho deve ser ativada ou mantida como inativa.
@@ -71,11 +69,11 @@ A próxima etapa é atribuir um fluxo de trabalho de diário de estoque a cada n
 
 Para associar um fluxo de trabalho de diário de estoque a um nome de diário de estoque:
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Nomes do diário \> Estoque**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Nomes do diário \> Estoque**.
 1. Selecione um nome de diário na coluna da lista para abrir a página de configurações.
 1. Na guia rápida **Geral**, defina a opção **Workflow de aprovação** como **Sim**. Se for solicitado para você aprovar a ação, selecione **Sim**.
 
-    ![Atribuir um fluxo de trabalho a um nome de diário](media/journal-workflow-journal-name.png "Atribuir um fluxo de trabalho a um nome de diário")
+    ![Atribuir um fluxo de trabalho a um nome de diário.](media/journal-workflow-journal-name.png "Atribuir um fluxo de trabalho a um nome de diário")
 
 1. Abra a lista suspensa **Fluxo de trabalho** e selecione o fluxo de trabalho apropriado. A lista mostra cada fluxo de trabalho ativo que você criou usando o aplicativo do editor de fluxo de trabalho.
 
@@ -89,7 +87,7 @@ Depois de associar um nome de diário de estoque ao fluxo de trabalho de aprova�
 1. Preencha o diário, conforme necessário.
 1. Quando você cria ou abre um diário de estoque com um fluxo de trabalho de aprovação associado a ele, o botão **Fluxo de trabalho** estará ativo no painel de ações. Quando estiver pronto para enviar o diário para aprovação, selecione o botão **Fluxo de trabalho** para abrir uma caixa de diálogo suspensa e selecione **Enviar**. A solicitação de aprovação será roteada para o aprovador relevante, que será alertado usando o método de notificação configurado para o fluxo de trabalho.
 
-    ![Enviar um diário para aprovação](media/journal-workflow-inventory-journal.png "Enviar um diário para aprovação")
+    ![Enviar um diário para aprovação.](media/journal-workflow-inventory-journal.png "Enviar um diário para aprovação")
 
 Para cancelar uma solicitação de aprovação, abra o diário relevante, selecione o botão **Fluxo de trabalho** e, em seguida, selecione **Cancelar**. Isso redefinirá o fluxo de trabalho.
 
@@ -118,3 +116,6 @@ Para revisar o histórico do fluxo de trabalho para um diário:
 1. No painel de navegação, expanda **Gerenciamento de estoque \> Entradas de diários \> Itens** e selecione um tipo de diário de estoque.
 1. Abra o diário relevante.
 1. Selecione o botão **Fluxo de trabalho** no painel de ações para abrir uma caixa de diálogo suspensa. Selecione **Histórico do fluxo de trabalho**. Para obter mais informações, consulte [Exibir histórico do fluxo de trabalho](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

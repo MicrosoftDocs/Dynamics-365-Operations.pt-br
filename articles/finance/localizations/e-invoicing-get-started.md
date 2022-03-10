@@ -2,25 +2,27 @@
 title: Introdução ao Faturamento eletrônico
 description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cf553f2ffecf18859b88932e68360231ca46410f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840115"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779685"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Introdução ao Faturamento eletrônico
 
@@ -38,14 +40,14 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importar um recurso de faturamento eletrônico do provedor de configuração da Microsoft 
 
 1. Entre na conta RCS (serviço de configuração regulatória).
-2. No espaço de trabalho **Recurso de globalização** na seção **Recursos**, selecione o bloco **Faturamento eletrônico**.
+2. No espaço de trabalho **Recursos de globalização** na seção **Recursos**, selecione o bloco **Faturamento eletrônico**.
 3. Selecione **Importar** e, em seguida, **Sincronizar**.
 4. Filtre a coluna **Provedor de configuração** pelo termo **Microsoft**.
-5. Selecione o nome de um recurso de faturamento eletrônico na tabela no início deste tópico e selecione **Importar**.
+5. Selecione o nome de um recurso de Faturamento eletrônico na tabela e, em seguida, **Importar**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Crie um recurso Faturamento eletrônico para o provedor da sua organização
 
-1. No RCS, na seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Faturamento eletrônico**.
+1. No RCS, na seção **Recursos** do espaço de trabalho **Recursos de globalização**, selecione o bloco **Faturamento eletrônico**.
 2. Selecione **Adicionar** > **Baseado em recurso existente** e, no campo **Nome**, insira o nome do recurso de faturamento eletrônico.
 3. No campo **Descrição**, insira uma descrição do recurso.
 4. No campo **Recurso base**, selecione o recurso de faturamento eletrônico importado do provedor de configuração da Microsoft.
@@ -55,7 +57,12 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 
 Dependendo do país ou da região, o recurso de Faturamento eletrônico pode exigir configuração específica. 
 
-Para obter as etapas específicas, consulte a documentação "Introdução" que está disponível para seu país ou região.
+> [!NOTE]
+> Quando você habilita o recurso de faturamento Eletrônico para a Finlândia, não há suporte para parâmetros específicos do aplicativo nas pesquisas. Para resolver esse problema, no módulo de **Relatório eletrônico**, examine as configurações dos formatos da fatura de venda e da fatura do projeto. Configure manualmente o campo calculado para mapeamento de **$PaymentMethodSubstitution** e, em seguida, vincule aquele campo ao campo **EpiPaymentMeansCode** dos formatos da fatura de venda e da fatura do projeto.
+>
+> Quando você habilita o recurso de faturamento Eletrônico para a Itália, não há suporte para parâmetros específicos do aplicativo nas pesquisas. Para resolver esse problema, no módulo **Relatório eletrônico**, configure manualmente o campo calculado para o mapeamento de **$NaturaReverseCharge**.
+>
+> Para obter as etapas específicas relacionadas a outros locais, consulte a documentação de "Introdução" que está disponível para seu país ou região.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Importar as configurações de mapeamentos de modelo de Relatórios eletrônicos
 
@@ -82,6 +89,7 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 | Fatura eletrônica norueguesa (NO)    | <p>Modelo de contexto de fatura de cliente</p><p>Modelo de fatura</p> |
 | Fatura eletrônica espanhola (ES)      | <p>Modelo de contexto de fatura de cliente</p><p>Modelo de fatura</p> |
 | Fatura eletrônica PEPPOL            | <p>Modelo de contexto de fatura de cliente</p><p>Modelo de fatura</p> |
+| Fatura da Arábia Saudita (SA)| <p>Modelo de contexto de fatura de cliente</p><p>Modelo de fatura</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Definir a configuração do aplicativo
@@ -109,9 +117,10 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
     | Fatura eletrônica holandesa (NL)        | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
     | Fatura eletrônica norueguesa (NO)    | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
     | Fatura eletrônica espanhola (ES)      | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
-    | Fatura eletrônica PEPPOL            | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
+    | Fatura eletrônica PEPPOL            | <p>Fatura de venda</p><p>Fatura do projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura do projeto</p> |
+    | Fatura da Arábia Saudita (SA)| <p>Fatura de venda</p><p>Fatura do projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura do projeto</p> |
 
-7. Para cada nome de tabela criado, selecione e insira um valor de contexto de acordo com a seguinte tabela.
+6. Para cada nome de tabela criado, selecione e insira um valor de contexto de acordo com a seguinte tabela.
 
     | Nome do recurso                         | Documento comercial | Contexto |
     |--------------------------------------|-------------------|---------|
@@ -131,8 +140,9 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
     | Fatura eletrônica norueguesa (NO)    | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
     | Fatura eletrônica espanhola (ES)      | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
     | Fatura eletrônica PEPPOL            | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
+    | Fatura da Arábia Saudita (SA)| <p>Fatura de venda</p><p>Fatura do projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
 
-8. Para cada nome e contexto de tabela, selecione e insira um valor para o mapeamento de documentos comerciais de acordo com a tabela a seguir.
+7. Para cada nome e contexto de tabela, selecione e insira um valor para o mapeamento de documentos comerciais de acordo com a tabela a seguir.
 
     | Nome do recurso                         | Documento comercial | Mapeamento de documento comercial |
     |--------------------------------------|-------------------|---------------------------|
@@ -152,6 +162,7 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
     | Fatura eletrônica norueguesa (NO)    | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
     | Fatura eletrônica espanhola (ES)      | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
     | Fatura eletrônica PEPPOL            | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
+    | Fatura da Arábia Saudita (SA)| <p>Fatura de venda</p><p>Fatura do projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Configuração específica do país para a configuração do aplicativo
@@ -175,11 +186,11 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Implantar o recurso de Faturamento eletrônico ao aplicativo Conectado
 
 1. Na guia **Versões**, selecione uma versão do recurso de faturamento eletrônico que você deseja implantar.
-4. Selecione **Implantar**.
-5. Defina a opção **Implantar para aplicativo conectado** como **Sim**.
-6. No campo **Conectar aplicativo**, selecione a conexão que está associada à sua instância do Finance ou Supply Chain Management.
-7. Defina a opção **Implantar no ambiente de serviço** como **Não**.
-10. Selecione **OK**.
+2. Selecione **Implantar**.
+3. Defina a opção **Implantar para aplicativo conectado** como **Sim**.
+4. No campo **Conectar aplicativo**, selecione a conexão que está associada à sua instância do Finance ou Supply Chain Management.
+5. Defina a opção **Implantar no ambiente de serviço** como **Não**.
+6. Selecione **OK**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Ative o recurso de faturamento eletrônico no Finance ou no Supply Chain Management
 
@@ -205,13 +216,15 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
     | Fatura eletrônica norueguesa (NO)                     | Noruega          |
     | Fatura eletrônica PEPPOL                             | Global          |
     | Fatura eletrônica espanhola (ES)                       | Espanha           |
+    | Fatura da Arábia Saudita (SA)                 | Arábia Saudita    |
+    
 
 4. Selecione **Salvar**.
 
 ## <a name="issue-electronic-invoices"></a>Emitir faturas eletrônicas
 
-1. Vá para **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Enviar documentos eletrônicos**.
-2. Na FastTab **Registros a serem incluídos**, selecione **Filtro**.
+1. Acesse **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Enviar documentos eletrônicos**.
+2. Na Guia Rápida **Registros a incluir**, selecione **Filtro**.
 3. Selecione **Adicionar** para adicionar um nome de tabela ao filtro de consulta.
 4. Selecione a tabela que contém as faturas.
 
@@ -225,7 +238,7 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 
 ## <a name="view-submission-logs"></a>Exibir logs de envio
 
-1. Vá para **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Log de envio de documentos eletrônicos**.
+1. Acesse **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Log de envio de documentos eletrônicos**.
 2. No campo **Tipo de documento**, selecione a tabela que contém as faturas.
 
     > [!NOTE]
@@ -233,6 +246,14 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 
 3. Selecione uma fatura na grade e, depois, selecione **Consultar** \> **Detalhes de envio**.
 
+## <a name="download-an-electronic-document-file"></a>Baixe um arquivo de documento eletrônico
+
+1. Acesse **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Log de envio de documentos eletrônicos**.
+2. No campo **Tipo de documento**, selecione a tabela que contém as faturas.
+3. Selecione um documento na grade e, em seguida, selecione **Documento eletrônico** \> **Baixar arquivo**. Um arquivo que contém o arquivo de documento eletrônico será sugerido para download.
+
+> [!NOTE]
+> Antes de baixar os arquivos, a opção **Exportar resultado** deve ser ativada para a ação relacionada na configuração do recurso de faturamento Eletrônico no RCS.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -242,6 +263,7 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 - [Introdução ao Faturamento eletrônico para o México](e-invoicing-mex-get-started.md)
 - [Introdução ao Faturamento eletrônico para a Itália](e-invoicing-ita-get-started.md)
 - [Faturas eletrônicas do cliente no Egito](emea-egy-e-invoices.md)
+- [Faturas eletrônicas do cliente na Arábia Saudita](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,36 +2,30 @@
 title: Enriquecer uma página de produto
 description: Este tópico descreve como enriquecer uma página de produto no Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0c663498a65832c68b80ea7166da34914ceefb8c70d6a598f3fa648b199ef156
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410113"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777587"
 ---
 # <a name="enrich-a-product-page"></a>Enriquecer uma página de produto
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como enriquecer uma página de produto no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 Por padrão, seu site usa uma página genérica para exibir dados de produto. Essa página inclui informações básicas sobre o produto e controles necessários para vendê-lo. Entretanto, você pode complementar as informações provenientes da Unidade de Escala do Commerce com imagens adicionais ou texto para um produto específico. Esse processo é conhecido como enriquecimento da página de produto.
 
@@ -72,4 +66,9 @@ Para enriquecer uma página de produto, siga estas etapas.
 
 [Enriquecer uma página de aterrissagem da categoria](enrich-category-page.md)
 
-[Verificar acessibilidade de conteúdo da página](verify-accessibility.md)
+[Verificar acessibilidade do conteúdo da página](verify-accessibility.md)
+
+[Criar páginas dinâmicas de comércio eletrônico com base nos parâmetros da URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

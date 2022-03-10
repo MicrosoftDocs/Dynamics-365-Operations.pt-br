@@ -1,8 +1,8 @@
 ---
 title: Relatórios financeiros de balancete
 description: Este artigo descreve os relatórios padrão para saldos de teste. Ele também descreve os blocos de construção que estão associados a esses relatórios e como você pode modificar os relatórios para atender às suas necessidades de negócios.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9bb4977acde8b7a0b2cd6b44c518654fe4a6283b28dfd41216a0173c3aa8b61f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758042"
 ---
 # <a name="trial-balance-financial-reports"></a>Relatórios financeiros de balancete
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816922"
 
 Este artigo descreve os relatórios padrão para saldos de teste. Ele também descreve os blocos de construção que estão associados a esses relatórios e como você pode modificar os relatórios para atender às suas necessidades de negócios. 
 
-<a name="default-trial-balance-reports"></a>Relatórios do balancete padrão
------------------------------
+## <a name="default-trial-balance-reports"></a>Relatórios do balancete padrão
 
 Três relatórios do balancete estão disponíveis no relatório financeiro.
 
@@ -47,6 +46,9 @@ Os relatórios financeiros de balancete usam os seguintes blocos de construção
 | Balancete Detalhado - Padrão               | Balancete - Padrão | Balancete Detalhado - Padrão               |
 | Resumo do Balancete – Padrão                | Balancete - Padrão | Balancete do resumo - Padrão                |
 | Resumo do Balancete Ano a Ano – Padrão | Balancete - Padrão | Resumo do balancete ano a ano - Padrão |
+
+> [!NOTE] 
+> Ao executar o relatório **Balancete** nos relatórios financeiros, marque as caixas de seleção para **Exibir linhas sem valores** e **Exibe relatórios sem linhas ativas** nas guias **Configurações**.
 
 ### <a name="row-definition"></a>Definição de linha
 
@@ -94,10 +96,7 @@ Cada relatório do balancete usa uma definição da coluna diferente. Essas defi
     -   **DF** – Dados financeiros que contêm somente os débitos para o ano anterior
     -   **DF** – Dados financeiros que contêm somente os créditos do ano anterior
 
-
-
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de relatórios financeiros](financial-reporting-getting-started.md)
 

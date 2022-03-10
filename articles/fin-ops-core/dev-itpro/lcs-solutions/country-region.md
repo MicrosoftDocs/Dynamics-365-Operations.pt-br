@@ -1,34 +1,32 @@
 ---
 title: Recursos de globalização
 description: Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades e ofertas específicas de país/região.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/02/2019
+author: kfend
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747506"
 ---
 # <a name="globalization-resources"></a>Recursos de globalização
 
 ## <a name="local-and-regional-deployments"></a>Implantações locais ou regionais
 Caso suas regulamentações governamentais exijam que os dados sejam armazenados ou fornecidos de uma forma diferente daquela exigida por outros países/regiões, talvez você deva considerar certos requisitos de país/região durante a implantação. Considere os seguintes recursos que possam ser relevantes para você:
 
-[Aplicativos do Finance and Operations operados pela 21Vianet na China](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Aplicativos do Finance and Operations operados pela 21Vianet na China](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Recursos regulatórios e de localização
 
@@ -55,7 +53,6 @@ Os recursos a seguir fornecem informações sobre recursos de localização novo
 
 #### <a name="regulatory-updates"></a>Atualizações regulatórias
 -   [Atualizações regulatórias](../../../finance/localizations/regulatory-updates.md)
--   [Portal de localização](https://docs.microsoft.com/dynamics/s-e/) (atualizado semanalmente)
 -   [Pesquisa de problemas no Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (atualizada diariamente)
 
 #### <a name="communication-and-alerts"></a>Comunicação e alertas
@@ -63,7 +60,7 @@ Os recursos a seguir fornecem informações sobre recursos de localização novo
 -   [Enviar alertas sobre recursos regulatórios específicos do país/região](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Planos de versão do Dynamics 365
-Os [planos de versão do Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) fornecem descrições dos recursos novos e aprimorados que são planejados para os aplicativos de negócios do Dynamics 365 e para as plataformas de aplicativos. 
+Os [planos de versão do Dynamics 365](/business-applications-release-notes/) fornecem descrições dos recursos novos e aprimorados que são planejados para os aplicativos de negócios do Dynamics 365 e para as plataformas de aplicativos. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novidades dos aplicativos do Finance and Operations
 A [home page Novidades ou alterações no Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) lista os recursos que estão incluídos em versões específicas dos aplicativos do Finance and Operations.
@@ -133,3 +130,6 @@ Para saber mais, consulte [Sistema de ajuda](../../fin-ops/get-started/help-over
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

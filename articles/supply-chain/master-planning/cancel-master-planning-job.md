@@ -2,11 +2,9 @@
 title: Cancelar um trabalho mestre de planejamento
 description: Este tópico explica como cancelar um trabalho de planejamento ativo que usa funcionalidade de planejamento integrado.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace, ReqProcessList
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3d5dad766f4c01e993dd77dd762595b29208c6cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 27a48473a934e0db9986d6e588fc769ba9d2f605d72b2465976cb20a1ad93d16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264737"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718002"
 ---
 # <a name="cancel-a-master-planning-job"></a>Cancelar um trabalho mestre de planejamento
 
@@ -33,7 +31,7 @@ No Microsoft Dynamics 365 Supply Chain Management, há várias opções para can
 
 ## <a name="preferred-cancel-option"></a>Opção de cancelamento preferencial
 ### <a name="cancel-master-planning-job-from-unfinished-planning-processes-page"></a>Cancelar o trabalho de planejamento mestre a partir da página **Processos de planejamento não concluídos**
-1. Vá para **Planejamento mestre > Consultas e relatórios > Planejamento mestre > Processos de planejamento não concluídos**.
+1. Acesse **Planejamento mestre > Consultas e relatórios > Planejamento mestre > Processos de planejamento não concluídos**.
 2. Selecione a linha com o processo de planejamento que você deseja cancelar.
 3. Clique em **Cancelar**.
 
@@ -41,12 +39,12 @@ No Microsoft Dynamics 365 Supply Chain Management, há várias opções para can
 Eles devem ser usados somente se o cancelamento do trabalho de planejamento mestre da página **Processos de planejamento não concluídos** não foram concluídas em alguns minutos.
 
 ### <a name="delete-master-planning-job-from-the-batch-jobs-page"></a>Excluir trabalho de planejamento mestre da página **Trabalho em lotes**
-1. Vá para **Administração do sistema > Consultas > Trabalhos em lotes**.
+1. Acesse **Administração do sistema > Consultas > Trabalhos em lotes**.
 2. Selecione a linha com o trabalho de planejamento que você deseja excluir.
 3. Clique em **Excluir**.
 
 ### <a name="abort-master-planning-job-task-from-the-batch-jobs-enhanced-page"></a>Cancelar tarefa de planejamento mestre da página **Trabalho em lotes aprimorado**
-1. Vá para **Administração do sistema > Consultas > Trabalhos em lotes**.
+1. Acesse **Administração do sistema > Consultas > Trabalhos em lotes**.
 2. Se a ID do trabalho não for mostrada na lista, clique em **Alterar para formulário avançado**, caso contrário, continue com a próxima etapa.
 3. Abrir o trabalho em lotes. Clique em **ID de trabalho** para o trabalho em lotes com as tarefas que você deseja encerrar.
 4. Em **Tarefas em lotes**, selecione as tarefas a serem encerradas.

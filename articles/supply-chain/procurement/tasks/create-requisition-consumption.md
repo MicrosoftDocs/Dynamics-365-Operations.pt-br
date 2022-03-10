@@ -1,26 +1,23 @@
 ---
 title: Criar uma requisição para consumo
 description: Este tópico descreve o processo de criação de uma requisição.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acc2cdb9b74cccaefe565b0e2ae8ec4c5f2401c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f7ca6e843688e0415f7ef31ed7cd40a77eccdeb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422051"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579439"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Criar uma requisição para consumo
 
@@ -30,7 +27,7 @@ Este tópico descreve o processo de criação de uma requisição. Mostra as dif
 
 
 ## <a name="create-a-new-requisition"></a>Criar uma nova requisição
-1. Vá para **Painel de navegação > Módulos > Aquisição e fornecimento > Requisições de compra > Requisições de compra preparadas por mim**.
+1. Acesse **Painel de navegação > Módulos > Aquisição e fornecimento > Requisições de compra > Requisições de compra preparadas por mim**.
 2. Selecione **Novo**.
 3. No campo **Nome**, forneça o nome da requisição.
 4. No campo **Data solicitada**, insira uma data. Por padrão, a data de solicitação e a data contábil são copiadas para as linhas de requisição de compra. Elas podem ser alteradas no nível da linha. A data de solicitação é a data de entrega da solicitação.  
@@ -92,3 +89,6 @@ Este tópico descreve o processo de criação de uma requisição. Mostra as dif
 6. Feche a página.
 7. Atualize a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

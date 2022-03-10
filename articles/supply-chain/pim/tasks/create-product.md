@@ -1,26 +1,24 @@
 ---
 title: Criar um produto
 description: Este procedimento orienta como criar um novo produto na Hierarquia de produtos de comércio.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductCreate, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90b5d086e2a1bdcd2d915f084a96b329e42b0210
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6e2e66568509e3034b44e065af658ea2ae95e754
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258842"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567070"
 ---
 # <a name="create-a-product"></a>Criar um produto
 
@@ -28,7 +26,7 @@ ms.locfileid: "5258842"
 
 Este procedimento orienta como criar um novo produto na Hierarquia de produtos de comércio. A empresa de dados de demonstração usada para criar essa tarefa é a USRT e esta tarefa é destinada ao gerente de mercadorias e ao designer de produtos.
 
-1. Vá para Varejo e Comércio > .. > Produtos por categoria.
+1. Acesse Varejo e Comércio > .. > Produtos por categoria.
 2. Clique em Novo.
 3. No campo Nome do produto, digite um nome para seu produto.
 4. No campo de categoria, clique no botão suspenso para abrir a pesquisa.

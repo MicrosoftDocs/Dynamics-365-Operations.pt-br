@@ -1,29 +1,26 @@
 ---
 title: Auditar regras da política
 description: Você pode usar as políticas para avaliar relatórios de despesas, faturas de fornecedor e ordens de compra para garantir que eles estejam em conformidade com as regras de política criadas. Todas as regras associadas a uma política de auditoria são executadas em modo de lotes de acordo com uma agenda especificada.  Cada regra de política é uma instância de um tipo de regra de política. Para cada tipo de regra de política, somente uma regra de política pode ficar ativa de cada vez.
-author: ryansandness
-manager: AnnBe
+author: panolte
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de6406029aa88424863dd9a47505f5b3ad27f237
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbf93f5b8b2f8d95102a52178b096d7e334894483c0ac0bacc62653aea845022
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744297"
 ---
 # <a name="audit-policy-rules"></a>Auditar regras da política
 
@@ -31,8 +28,7 @@ ms.locfileid: "4440310"
 
 Você pode usar as políticas para avaliar relatórios de despesas, faturas de fornecedor e ordens de compra para garantir que eles estejam em conformidade com as regras de política criadas. Todas as regras associadas a uma política de auditoria são executadas em modo de lotes de acordo com uma agenda especificada.  Cada regra de política é uma instância de um tipo de regra de política. Para cada tipo de regra de política, somente uma regra de política pode ficar ativa de cada vez. 
 
-<a name="queries-and-query-types"></a>Consultas e tipos de consulta
------------------------
+## <a name="queries-and-query-types"></a>Consultas e tipos de consulta
 
 Quando você cria uma regra de política de auditoria, seleciona primeiro um tipo de regra de política. O tipo de regra de política especifica o aplicativo AOT (Árvore de objetos de aplicativo) para usar como ponto de partida para criar a regra de política. Também especifica o tipo de consulta a ser usado para a regra de política. A consulta determina o documento de origem que a regra de política avalia. Também especifica os campos no documento de origem que identificam a entidade legal e data a ser usada quando os documentos forem selecionados para auditoria. O tipo de consulta controla os campos padrão na página de consulta e na página Auditar regra de política. A tabela a seguir mostra os tipos de consulta disponíveis para as regras de política de auditoria.
 
@@ -94,10 +90,12 @@ Todas as regras de política para uma política de auditoria específica compart
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Auditar violações de política e casos](audit-policy-violations-cases.md)
 [Definir políticas de auditoria para documentos de origem](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

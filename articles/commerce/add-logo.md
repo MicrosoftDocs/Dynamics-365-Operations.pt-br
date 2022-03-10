@@ -2,16 +2,13 @@
 title: Adicionar um logotipo
 description: Este tópico descreve como adicionar um logotipo ao seu site no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15680deb0eab763ba68f2897139c915d1f8a6a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410137"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964570"
 ---
 # <a name="add-a-logo"></a>Adicionar um logotipo
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como adicionar um logotipo ao seu site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 Quando você cria seu site, uma das primeiras coisas que você provavelmente fará é adicionar o logotipo da empresa ou da marca ao cabeçalho do site. A biblioteca de módulos online do Dynamics 365 Commerce fornece um módulo que facilita essa tarefa.
 
@@ -66,11 +61,12 @@ Depois de publicar o fragmento de cabeçalho atualizado, todas as páginas do si
 
 [Adicionar um favicon](add-favicon.md)
 
-[Adicionar uma mensagem de boas-vindas](add-welcome-message.md)
-
 [Adicionar um aviso de direitos autorais](add-copyright-notice.md)
 
 [Adicionar idiomas ao seu site](add-languages-to-site.md)
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
-title: Habilitar o Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
-description: Este tópico explica como habilitar e testar o Azure Data Lake Storage para um ambiente do Dynamics 365 Commerce, que é um pré-requisito para habilitar recomendações de produto.
+title: Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
+description: Este tópico fornece instruções sobre como conectar uma solução do Azure Data Lake Storage Gen2 a um Repositório de entidades do ambiente do Dynamics 365 Commerce. Esta é uma etapa obrigatória para habilitar as recomendações do produto.
 author: bebeale
-ms.date: 04/13/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,42 +16,41 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8ec56a260501c0d33145c23cb9656446bc871f7c448bbbf33330ad591c506e49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775353"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466283"
 ---
-# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Habilitar o Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como habilitar e testar o Azure Data Lake Storage para um ambiente do Dynamics 365 Commerce, que é um pré-requisito para habilitar recomendações de produto.
+Este tópico fornece instruções sobre como conectar uma solução do Azure Data Lake Storage Gen2 a um Repositório de entidades do ambiente do Dynamics 365 Commerce. Esta é uma etapa obrigatória para habilitar as recomendações do produto.
 
-Na solução Dynamics 365 Commerce, todas as informações de produto e de transação são rastreadas no Repositório de entidades do ambiente. Para tornar esses dados acessíveis a outros serviços do Dynamics 365, como análises de dados, business intelligence e recomendações personalizadas, é necessário conectar o ambiente a uma solução Azure Data Lake Storage Gen 2 de propriedade do cliente.
+Na solução Dynamics 365 Commerce, os dados necessários para recomendações, produtos e transações de computação são agregados no Repositório de entidades do ambiente. Para tornar esses dados acessíveis a outros serviços do Dynamics 365, como análises de dados, business intelligence e recomendações personalizadas, é necessário conectar o ambiente a uma solução Azure Data Lake Storage Gen2 de propriedade do cliente.
 
-Como o Azure Data Lake Storage é configurado em um ambiente, todos os dados necessários são espelhados do Repositório de entidades e estão protegidos e sob controle do cliente.
+Depois que as etapas acima tiverem sido concluídas, todos os dados do cliente no Repositório de entidades do ambiente serão automaticamente espelhados na solução Azure Data Lake Storage Gen2 do cliente. Quando os recursos de recomendações são habilitados por meio do espaço de trabalho Gerenciamento de recursos na matriz do Commerce, a pilha de recomendações receberá acesso à mesma solução Azure Data Lake Storage Gen2.
 
-Se as recomendações de produto ou personalizadas também forem habilitadas no ambiente, a pilha de recomendações de produto receberá acesso à pasta dedicada no Azure Data Lake Storage para recuperar os dados do cliente e computar as recomendações com base nela.
+Durante todo o processo, os dados dos clientes permanecem protegidos e sob controle deles.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Os clientes precisam ter o Azure Data Lake Storage configurado em uma assinatura do Azure de propriedade deles. Este tópico não aborda a compra de uma assinatura do Azure nem a configuração de uma conta de armazenamento habilitada para o Azure Data Lake Storage.
+O Repositório de entidades do ambiente do Dynamics 365 Commerce precisa estar conectado a uma conta do Azure Data Lake Gen2 e serviços acompanhantes.
 
-Para obter mais informações sobre o Azure Data Lake Storage, consulte a [documentação oficial do Azure Data Lake Storage Gen2](https://azure.microsoft.com/pricing/details/storage/data-lake).
+Para obter mais informações sobre o Azure Data Lake Storage Gen2 e como configurá-lo, consulte a [documentação oficial do Azure Data Lake Storage Gen2](https://azure.microsoft.com/pricing/details/storage/data-lake).
   
 ## <a name="configuration-steps"></a>Etapas da configuração
 
-Esta seção aborda as etapas de configuração necessárias para habilitar o Azure Data Lake Storage em um ambiente conforme ele se relaciona com recomendações do produto.
-Para obter uma visão geral mais detalhada das etapas necessárias para habilitar o Azure Data Lake Storage, consulte [Disponibilizar o repositório de entidades como um Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+Esta seção aborda as etapas de configuração necessárias para habilitar o Azure Data Lake Storage Gen2 em um ambiente conforme ele se relaciona com recomendações do produto.
+Para obter uma visão geral mais detalhada das etapas necessárias para habilitar o Azure Data Lake Storage Gen2, consulte [Disponibilizar o repositório de entidades como um Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-azure-data-lake-storage-in-the-environment"></a>Habilitar o Azure Data Lake Storage no ambiente
 
 1. Faça logon no portal do back office do ambiente.
 1. Procure **Parâmetros do Sistema** e navegue até a guia **Conexões de dados**. 
 1. Defina **Habilitar a integração do Data Lake** como **Sim**.
-1. Defina **Fluxo para Atualizar Data Lake** como **Sim**.
 1. Em seguida, insira as seguintes informações necessárias:
     1. **ID do Aplicativo** // **Segredo do Aplicativo** // **Nome DNS** - necessárias para se conectar ao KeyVault onde o segredo do Azure Data Lake Storage está armazenado.
     1. **Nome do segredo** - o nome do segredo armazenado no KeyVault e usado para autenticação com o Azure Data Lake Storage.
@@ -67,7 +66,7 @@ A imagem a seguir mostra um exemplo de configuração do Azure Data Lake Storage
 1. Teste a conexão com o Azure Data Lake Storage usando o link **Testar Armazenamento do Azure**.
 
 > [!NOTE]
-> Se os testes falharem, verifique novamente se todas as informações do KeyVault adicionadas acima estão corretas e tente novamente.
+> Se os testes acima falharem, confirme se todas as informações do KeyVault adicionadas acima estão corretas e tente novamente.
 
 Depois que os testes de conexão forem bem-sucedidos, você deverá habilitar a atualização automática para o Repositório de entidades.
 

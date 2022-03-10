@@ -2,11 +2,9 @@
 title: Visão geral de processos automatizados de faturas de fornecedor
 description: Este tópico descreve o recurso para automatizar o processamento de faturas de fornecedores e os benefícios do uso de um processo automatizado.
 author: abruer
-manager: AnnBe
 ms.date: 02/12/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6ad26dbfb4e45e15cd6e6f2ab32bc69f108ffb5a
-ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
+ms.openlocfilehash: 4fef5011ead69028a7f667835fd5e5ba2401408d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "5555150"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985647"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Visão geral de processos automatizados de faturas de fornecedor
 
@@ -35,6 +33,7 @@ Com frequência, as organizações trabalham com terceiros para processar fatura
 
 Os processos de automação podem ser usados para executar estas tarefas:
 
+- Aplicar automaticamente os pagamentos antecipados para faturas de fornecedores
 - Enviar automaticamente faturas importadas para o sistema de fluxo de trabalho.
 - Conciliar recebimentos de produtos a linhas da fatura de fornecedor pendentes.
 - Simular o lançamento antes que uma fatura de fornecedor seja lançada.

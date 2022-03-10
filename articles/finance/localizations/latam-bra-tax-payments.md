@@ -2,28 +2,25 @@
 title: Pagamentos de impostos no Brasil
 description: Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.
 author: sndray
-manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FBTaxAssessmentPayment_BR, FBTaxAssessmentPaymentOtherDebits_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 270254
 ms.assetid: 92223189-69a8-4a40-b867-ef9b4f14c23d
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4239e9d960ba9097f079af69ad18ba7b72e60c0c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c2f22996e84be26ab2020e8a0ecf60f831c9a5258543be5603f8e9515731027f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763065"
 ---
 # <a name="tax-payments-in-brazil"></a>Pagamentos de impostos no Brasil
 
@@ -31,8 +28,7 @@ ms.locfileid: "4408422"
 
 Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 Cada tipo de imposto no Brasil tem seu próprio processo, data de vencimento e informações adicionais de demonstrativo de imposto que é exigido pelas autoridades fiscais. O módulo **Livros fiscais** gera as instruções do Sistema Público de Escrituração Digital (SPED) obrigatórias para os impostos. O processo de pagamento de impostos é separado por tipos de imposto: ICMS, ICMS-ST, ICMS-DIF, IPI, ISS e PIS-COFINS.
 
@@ -45,7 +41,7 @@ A diferença entre o valor do imposto arrecadado em vendas de mercadorias e o va
 -   **Criar a partir da apuração** – Coletar e pagar imposto mensalmente, de acordo com as regras que são estabelecidas pela autoridade fiscal.
 -   **Outros débitos** – coletar e pagar um determinado valor de imposto fora do processo normal quando a autoridade de imposto requer o pagamento.
 
-![Criando pagamentos de impostos](./media/taxpaymentsbra.jpg) 
+![Criando pagamentos de impostos.](./media/taxpaymentsbra.jpg) 
 
 
 ### <a name="overview"></a>Visão Geral
@@ -164,3 +160,6 @@ Para obter mais informações, consulte os seguintes tópicos:
  - [Calcular juros e multas em pagamentos de clientes](tasks/br-00066-2-calculate-interest-fines-customer-payments.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

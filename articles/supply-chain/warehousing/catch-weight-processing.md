@@ -2,35 +2,31 @@
 title: Processamento de produtos de peso variável com gerenciamento de depósito
 description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho é realizado no depósito.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422544"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087361"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
 [!include [banner](../includes/banner.md)]
 
-
 ## <a name="feature-exposure"></a>Exposição de recurso
 
-Para usar o gerenciamento de depósito para processar produtos de peso variável, você deve usar uma chave de configuração de licença para ativar a funcionalidade. Vá para **Administração de sistema \> Configurar \> Configuração de licença**. Em seguida, na guia **Chaves de configuração**, expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção para **Peso variável para depósito**.
+Para usar o gerenciamento de depósito para processar produtos de peso variável, você deve usar uma chave de configuração de licença para ativar a funcionalidade. Acesse **Administração de sistema \> Configurar \> Configuração de licença**. Em seguida, na guia **Chaves de configuração**, expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção para **Peso variável para depósito**.
 
 > [!NOTE]
 > Tanto a chave de configuração de licença de **Gerenciamento de Depósito e Transporte** quanto as chaves de configuração de licença de **Peso variável \> da distribuição de processos** também devem ser ativadas. Para definir as chaves de configuração para peso variável, você também deve ativar o recurso usando o espaço de trabalho **Gerenciamento de recursos**. O principal recurso que deve ser ativado é **Processamento de produtos de peso variável com gerenciamento de depósito**. Dois recursos relacionados, mas opcionais, que talvez você queira ativar são **Alterações de status de estoque para produtos de peso variável** e **Usar as marcas de peso variável existentes ao relatar ordens de produção como concluídas**.
@@ -44,7 +40,7 @@ Para usar o produto no Gerenciamento de depósito, você deve fazer algumas conf
 - Configure um grupo de sequências de unidade em que a unidade de peso variável seja definida como a menor unidade de manutenção de estoque (SKU).
 - Configure uma política de manuseio de itens de peso variável.
 
-Para obter mais informações, consulte [Configurando e mantendo itens de peso variável](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
+Para obter mais informações, consulte [Configurando e mantendo itens de peso variável](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
 
 ## <a name="transaction-adjustments"></a>Ajustes de transação
 
@@ -53,7 +49,7 @@ Como o peso do estoque quando dá entrada em um depósito pode diferir do peso a
 > [!NOTE]
 > A atividade do dispositivo móvel só irá disparar os ajustes de transação se o método de saída de variação de peso da política de manuseio de itens de peso variável do item for **Permitir variação de peso**.
 
-**Exemplo 1**
+### <a name="example-1"></a>Exemplo 1
 
 Durante o processo de produção **Relatar como concluído**, o peso de entrada de uma placa de licença contendo oito caixas de um produto de peso variável é capturado como 80,1 kg. A placa de licença é armazenada na área de mercadorias acabadas e, durante o período de armazenamento, há uma perda de peso.
 
@@ -61,13 +57,13 @@ Posteriormente, como parte de um processo de separação de ordens de venda, o p
 
 Nesse caso, o sistema ajusta a diferença automaticamente lançando uma transação relativa aos 300 gramas perdidos.
 
-**Exemplo 2**
+### <a name="example-2"></a>Exemplo 2
 
 Em sua definição, um produto é configurado para tolerar um peso mínimo de 8 kg e um peso máximo de 12 kg para a unidade de peso variável **Caixa**.
 
 Você tem duas caixas do produto, e elas têm um peso registrado de 16 kg. Se um funcionário do depósito escolher e pesar uma das caixas, e o peso capturado for de 9 kg, a caixa restante pesará 7 kg. Porém, como 7 kg está abaixo do peso mínimo, o sistema faz um ajuste automático para aumentar o peso do estoque disponível em 1 kg.
 
-Para configurar as contas nas quais esses ajustes são lançados, vá para **Gerenciamento de custos \> Configuração das políticas de integração do razão \> Lançamento**. Depois, na guia **Estoque**, defina as seguintes contas:
+Para configurar as contas nas quais esses ajustes são lançados, Acesse **Gerenciamento de custos \> Configuração das políticas de integração do razão \> Lançamento**. Depois, na guia **Estoque**, defina as seguintes contas:
 
 - Conta de perda de peso variável
 - Conta de lucro de peso variável
@@ -107,7 +103,7 @@ Além disso, quando um item é rastreado por marca, há um parâmetro **Método 
 **Quando o rastreamento de marcas de peso variável é utilizado**, sempre deve ser criada uma marca para cada unidade de peso variável recebida, e cada marca sempre deve ser associada a um peso.
 
 Por exemplo, **Caixa** é a unidade de peso variável, e você recebe um palete de oito caixas. Nesse caso, devem ser criadas oito marcas de peso variável exclusivas e um peso deve ser associado a cada uma delas. Dependendo da marca de peso variável de entrada, o peso de todas as oito caixas poderá ser capturado e o peso médio poderá ser distribuído para cada caixa ou um peso único poderá ser capturado para cada caixa.
-Ao usar o recurso **Usar as marcas de peso variável existentes ao relatar ordens de produção como concluídas** com o processo habilitado por meio de um item de menu do dispositivo móvel, o inventário é atualizado com base nas informações existentes da marca de peso variável. Consequentemente, o aplicativo de depósito não solicita a captura dos dados da marca de peso variável como parte de um relatório de produção como uma operação finalizada.
+Ao usar o recurso **Usar as marcas de peso variável existentes ao relatar ordens de produção como concluídas** com o processo habilitado por meio de um item de menu do dispositivo móvel, o inventário é atualizado com base nas informações existentes da marca de peso variável. Consequentemente, o aplicativo móvel do Gerenciamento de Depósito não solicita a captura dos dados da marca de peso variável como parte de um relatório de produção como uma operação finalizada.
 
 **Quando o rastreamento de marcas de peso variável não é usado**, é possível capturar o peso para cada conjunto de dimensões (por exemplo, para cada placa de licença e dimensão de rastreamento). Como alternativa, o peso pode ser capturado com base em um nível agregado, como cinco placas de licença (paletes).
 
@@ -142,7 +138,6 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 - Os produtos de peso variável habilitados para variante não podem ser usados com a funcionalidade para converter unidades de medida variantes.
 - Não é possível marcar produtos de peso variável como um "kit de produto" de comércio.
 - Os produtos de peso variável podem ser usados apenas com um grupo de sequências de unidade que tem unidades de manuseio de material de peso variável e que tem a unidade de peso variável como a sequência mais baixa.
-- Para produtos de peso variável, a unidade de estoque pode ser convertida na unidade de peso variável somente quando a conversão gera uma quantidade nominal maior que 1.
 - A configuração de códigos de barras para produtos de peso variável não suporta uma configuração de peso variável.
 
 ### <a name="order-processing"></a>Processamento de ordens
@@ -195,7 +190,11 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 
 ### <a name="catch-weight-tags"></a>Marcas de peso variável
 
-Uma marca de peso variável pode ser criada usando um processo de aplicativo de depósito, criada manualmente no formulário ou pode ser criada usando um processo de entidade de dados. Se a etiqueta de peso variável for associada a uma linha do documentos de origem de entrada, como a linha de ordem de compra, a marca será registrada. Se a linha for usada para processamento de saída, a marca será atualizada como remetida.
+Uma marca de peso variável pode ser criada usando um processo de aplicativo móvel do Gerenciamento de Depósito, criada manualmente no formulário **Gerenciamento de depósito > Consultas e relatórios > Marca de peso variável** ou pode ser criada usando um processo de entidade de dados. Se a etiqueta de peso variável for associada a uma linha do documentos de origem de entrada, como a linha de ordem de compra, a marca será registrada. Se a linha for usada para processamento de saída, a marca será atualizada como remetida. Você pode exibir todos os eventos de registro de marca de peso variável por meio da opção **Registro de marca de peso variável** na página **Marca de peso variável**.
+
+Você pode usar a opção **Alterar peso capturado da marca** para atualizar manualmente o valor de peso de uma marca de peso variável. Observe que o peso para o estoque disponível não será ajustado como parte desse processo manual, mas você poderá usar facilmente a página **Discrepâncias disponíveis para itens marcados em peso variável** para procurar as discrepâncias entre as marcas de peso variável ativas no momento e o estoque atual.
+
+Outras opções manuais são **Registrar a marca** em uma linha do documento de origem e **Registrar o trabalho** em um depósito existente.
 
 Além das restrições que se aplicam no momento a produtos de peso variável, os produtos de peso variável marcados têm outras restrições aplicáveis.
 
@@ -210,3 +209,6 @@ Além das restrições que se aplicam no momento a produtos de peso variável, o
 
 > [!NOTE]
 > As informações anteriores sobre marcas de peso variável só são válidas se o produto de peso variável tem um método de rastreamento de dimensão de marca de peso variável que é totalmente rastreado (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável está definido como **Dimensões do produto, dimensões de rastreamento e todas as dimensões de armazenamento**). Se o item de peso variável só é parcialmente rastreado por marca (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável estiver definido como **Dimensões do produto, dimensões de rastreamento e status de estoque**), outras restrições são aplicadas. Como nesse caso a visibilidade é perdida entre a marca e o estoque, não há suporte para alguns cenários adicionais.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

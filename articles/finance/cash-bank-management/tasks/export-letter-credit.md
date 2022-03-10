@@ -2,11 +2,9 @@
 title: Exportar carta de crédito
 description: Este procedimento apresenta o processo de exportação de uma carta de crédito.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, DefaultDashboard, SalesTableListPage, SalesCreateOrder, SalesTable, BankLCExport, SalesEditLines,  LedgerJournalTable, LedgerJournalTransCustPaym, CustOpenTrans
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 127f38e7db0a8c0703fd95274f45ff4ca49c131e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 87bcf161e385b66ad725fc0fd915368ed3120a1573d780bebfb48ff73cce7847
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766304"
 ---
 # <a name="export-letter-of-credit"></a>Exportar carta de crédito
 
@@ -38,7 +36,7 @@ Execute o procedimento 'Configurar recursos bancários e perfis de lançamento' 
 
 
 ## <a name="create-sales-order-for-export-letter-of-credit"></a>Criar Ordem de venda para exportação de carta de crédito
-1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
+1. Acesse Contas a receber > Ordens > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta do cliente, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o registro desejado.
@@ -109,13 +107,13 @@ Execute o procedimento 'Configurar recursos bancários e perfis de lançamento' 
     * Observação: O campo 'Documento enviado” deve ser definido como 'Sim'.  
 
 ## <a name="verify-export-letter-of-credit"></a>Verificar carta de crédito de exportação
-1. Vá para Gerenciamento de caixa de bando > Cartas de crédito > Exportar carta de crédito e importar cobranças.
+1. Acesse Gerenciamento de caixa de bando > Cartas de crédito > Exportar carta de crédito e importar cobranças.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
     * Verifique se a Carta de crédito de exportação tem o Status da remessa 'Faturado'.  
 
 ## <a name="customer-payment"></a>Pagamento de cliente
-1. Vá para Contas a receber > Pagamentos > Diário de pagamentos.
+1. Acesse Contas a receber > Pagamentos > Diário de pagamentos.
 2. Clique em Novo.
 3. Na lista, marque a linha selecionada.
 4. No campo Nome, clique no botão suspenso para abrir a pesquisa.
@@ -134,7 +132,7 @@ Execute o procedimento 'Configurar recursos bancários e perfis de lançamento' 
 15. Clique em Lançar.
 
 ## <a name="verify-export-letter-of-credit-after-payment"></a>Verifique a carta de crédito de exportação após o pagamento
-1. Vá para Gerenciamento de caixa de bando > Cartas de crédito > Exportar carta de crédito e importar cobranças.
+1. Acesse Gerenciamento de caixa de bando > Cartas de crédito > Exportar carta de crédito e importar cobranças.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
     * Verifique o Status da remessa = Pagamento recebido e o Valor do saldo = 0,00.  

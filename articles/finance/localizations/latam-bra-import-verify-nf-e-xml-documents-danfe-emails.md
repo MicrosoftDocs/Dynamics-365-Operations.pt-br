@@ -2,27 +2,24 @@
 title: Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil
 description: Este tópico fornece informações sobre como importar e verificar os documentos XML de Nota fiscal eletrônica (NF-e) e o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) que você recebeu.
 author: sndray
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269134
 ms.assetid: d4c1d39b-64ec-4ddf-ba27-c0446f80f031
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0ce0cd132742dc5c295b33b708626d99676217ca
-ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
+ms.openlocfilehash: a716b5a61ff613fa3fe0a6f26ffa08fc8a9f7794e944e99428ebf774f8e14e55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752894"
 ---
 # <a name="import-and-verify-nf-e-xml-documents-and-danfe-files-for-brazil"></a>Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil
 
@@ -66,3 +63,6 @@ Na página **Documentos XML de NF-e recebidos**, selecione **Lançados** para ve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Criar uma regra kanban de retirada
 description: Este procedimento mostra a configuração necessária para criar uma regra kanban de saída para transferir o material em um ambiente de lean.
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adbcdbb2d278b25dce1d8c027e66367e9c0930e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ba30e9d09e9eeb0cd7428aafc1195d6b7e7caaa4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828817"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574464"
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a>Criar uma regra kanban de retirada
 
@@ -29,7 +29,7 @@ Este procedimento mostra a configuração necessária para criar uma regra kanba
 
 
 ## <a name="create-new-kanban-rule"></a>Criar regra kanban
-1. Vá para Regras kanban.
+1. Acesse Regras kanban.
 2. Clique em Novo.
 3. No campo Tipo, selecione "Retirada".
     * O tipo de retirada é usado para que as regras kanban transfiram o material ou as mercadorias.  

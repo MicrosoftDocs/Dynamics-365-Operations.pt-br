@@ -1,26 +1,24 @@
 ---
 title: Inserir e comparar lances RFQ e contratos de prêmio
 description: Este tópico explica como inserir respostas de uma solicitação de cotação (RFQ), marcar e comparar ofertas, além de premiar o contrato a um dos fornecedores.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dc3d21c4e7afc579e908ac770edef7b211abdfc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244102"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579463"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Inserir e comparar lances RFQ e contratos de prêmio
 
@@ -34,7 +32,7 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Inserir uma resposta como um fornecedor
 
-1. No painel, selecione **Lances de fornecedor**.
+1. Acesse **Colaboração de fornecedor \> Espaços de trabalho \> Lances de fornecedor**.
 2. Na lista **Novos convites de lances**, encontre uma RFQ que acabou de ser enviada. Selecione a RFQ para revisar o que foi solicitado.
 3. Selecione **Anexos de RFQ** para revisar todos os anexos que foram adicionados.
 4. Selecione **Lance** para tornar os campos editáveis. Observe que o campo **Andamento do lance** está definido como **Fornecedor está atualizando**.
@@ -51,8 +49,8 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
 
 ## <a name="enter-a-reply-from-a-vendor-as-a-procurement-professional"></a>Inserir a resposta de um fornecedor como profissional de compras
 
-1. Certifique-se de que a permissão para editar os lances de fornecedores esteja configurada. Vá para **Compras e fornecimento \> Configuração \> Parâmetros de compras**. Na guia **Solicitação de cotação**, defina a opção **O comprador pode editar o lance de fornecedores** como **Sim**.
-2. Vá para **Aquisição e fornecimento \> Solicitações de cotação \> Todas as solicitações de cotação**.
+1. Certifique-se de que a permissão para editar os lances de fornecedores esteja configurada. Acesse **Compras e fornecimento \> Configuração \> Parâmetros de compras**. Na guia **Solicitação de cotação**, defina a opção **O comprador pode editar o lance de fornecedores** como **Sim**.
+2. Acesse **Aquisição e fornecimento \> Solicitações de cotação \> Todas as solicitações de cotação**.
 3. Selecione uma RFQ com um status **Enviado** e depois o link no campo **Caso de solicitação de cotação**.
 4. Selecione **Gerenciar respostas**. A página que aparece mostra uma RFQ para cada fornecedor que foi convidado para o lance.
 5. Selecione uma RFQ que não foi respondido. (O campo **Andamento de resposta** deve ser definido como **Não iniciado**.)

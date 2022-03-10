@@ -1,7 +1,7 @@
 ---
 title: Criar um novo contrato comercial
 description: Este procedimento mostra como criar um contrato comercial no qual você registra um novo preço de venda de produtos que você combinou com um cliente específico.
-author: omulvad
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5919932"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573408"
 ---
 # <a name="create-a-new-trade-agreement"></a>Criar um novo contrato comercial
 
@@ -28,7 +28,7 @@ Este procedimento mostra como criar um contrato comercial no qual você registra
 
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Criar e lançar um novo diário de contratos comerciais.
 
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Preços e descontos > Diários de contratos comerciais**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Preços e descontos > Diários de contratos comerciais**.
 2. Clique em **Novo**.
 3. No campo **Nome**, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o PDV desejado.
@@ -59,7 +59,7 @@ Este procedimento mostra como criar um contrato comercial no qual você registra
 
 ## <a name="view-trade-agreements-for-a-product"></a>Exibir contratos comerciais para um produto
 
-1. Vá para **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
+1. Acesse **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
 2. Na lista, localize e selecione o produto cujo preço você acabou de atualizar.
 3. No **Painel de Ação**, clique em **Vender**.
 4. Clique em **Exibir contratos comerciais**.

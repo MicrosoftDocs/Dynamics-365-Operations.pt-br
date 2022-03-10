@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743718"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323833"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Criar uma nova solução ER para imprimir um relatório personalizado
 
@@ -119,19 +121,19 @@ As etapas a seguir explicam como um usuário no administrador do sistema, no des
 
 - [Recursos adicionais](#References)
 
-Neste exemplo, você criará uma nova solução ER para o módulo [Questionário](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Essa nova solução ER permite criar um relatório usando uma planilha do Microsoft Excel como modelo. Em seguida, você pode gerar o relatório **Questionário** no formato Excel ou PDF, além de gerar o relatório Serviços de Relatório do SQL Server (SSRS) existente. Você também pode modificar o novo relatório posteriormente, quando solicitado. Nenhum código é necessário.
+Neste exemplo, você criará uma nova solução ER para o módulo [Questionário](../../../human-resources/hr-learning-questionnaires.md). Essa nova solução ER permite criar um relatório usando uma planilha do Microsoft Excel como modelo. Em seguida, você pode gerar o relatório **Questionário** no formato Excel ou PDF, além de gerar o relatório Serviços de Relatório do SQL Server (SSRS) existente. Você também pode modificar o novo relatório posteriormente, quando solicitado. Nenhum código é necessário.
 
-1. Para executar o relatório existente, vá para **Questionário** \> **Design** \> **Relatório Questionários**.
+1. Para executar o relatório existente, Acesse **Questionário** \> **Design** \> **Relatório Questionários**.
 
-    ![Seleção do item de menu do relatório Questionários no módulo Questionário para executar o relatório SSRS existente](./media/er-quick-start1-application-menu-origin.png)
+    ![Seleção do item de menu de relatório Questionários no módulo Questionário para executar o relatório SSRS existente.](./media/er-quick-start1-application-menu-origin.png)
 
 2. Na caixa de diálogo **Relatório Questionários**, especifique os critérios de seleção. Aplique um filtro para que o relatório inclua somente o questionário **SBCCrsExam**.
 
-    ![Como especificar critérios de seleção na caixa de diálogo Relatório Questionários](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Como especificar critérios de seleção na caixa de diálogo de relatório Questionários.](./media/er-quick-start1-ssrs-report-dialog.png)
 
 A ilustração a seguir mostra a versão gerada do relatório SSRS para o questionário **SBCCrsExam**.
 
-![Relatório SSRS gerado](./media/er-quick-start1-ssrs-report.png)
+![Relatório SSRS gerado.](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>Configurar a estrutura de ER
 
@@ -139,7 +141,7 @@ Como usuário na função de Desenvolvedor de Relatório Eletrônico, você deve
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>Configurar parâmetros de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. No espaço de trabalho **Relatório eletrônico**, selecione **Parâmetros de relatório eletrônico**.
 3. Na página **Parâmetros de relatório eletrônico**, na guia **Geral**, defina a opção **Habilitar modo de design** como **Sim**.
 4. Na guia **Anexos**, defina os seguintes parâmetros:
@@ -158,7 +160,7 @@ Toda configuração de ER é marcada como pertencente a um provedor de configura
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>Examinar a lista de provedores de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. No espaço de trabalho **Relatório eletrônico**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Provedores de configuração**, cada registro de provedor de configuração tem um nome e uma URL únicos. Examine o conteúdo dessa página. Se já existir um registro para **Litware, Ltda.** (`https://www.litware.com`), ignore o próximo procedimento, [Adicionar um novo provedor de configuração de ER](#ActivateProvider).
 
@@ -171,7 +173,7 @@ Toda configuração de ER é marcada como pertencente a um provedor de configura
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>Ativar um provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. No espaço de trabalho **Relatório eletrônico**, selecione o provedor de configuração **Litware, Inc.**.
 3. Selecione **Definir como ativo**.
 
@@ -179,14 +181,14 @@ Para obter mais informações sobre provedores de configuração de ER, consulte
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Criar um modelo de dados de domínio específico
 
-Você deve criar uma nova configuração ER contendo um componente de [modelo de dados](general-electronic-reporting.md#data-model-and-model-mapping-components) para o domínio comercial do **Questionário**. Esse modelo de dados será usado posteriormente como uma fonte de dados quando você criar um formato ER para gerar o relatório **Questionário**.
+Você deve criar uma nova configuração de ER que contenha um componente de modelo de dados para o domínio comercial **Questionário**. Esse modelo de dados será usado posteriormente como uma fonte de dados quando você criar um formato ER para gerar o relatório **Questionário**.
 
 Ao concluir as etapas na seção [Importar uma nova configuração do modelo de dados](#ImportDataModel), você pode importar o modelo de dados necessário do arquivo XML fornecido. Como alternativa, você pode concluir as etapas na seção [Criar uma nova configuração do modelo de dados](#DesignDataModel) para criar esse modelo de dados desde o início.
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importar uma nova configuração de modelo de dados
 
-1. Baixe o arquivo [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salve-o no computador local.
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Baixe o arquivo [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) e salve-o no computador local.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 4. No Painel de Ação, selecione **Câmbio** \> **Carregar de arquivo XML**.
 5. Selecione **Procurar** e, depois, localize e selecione o arquivo **Questionnaires model.version.1.xml**.
@@ -196,7 +198,7 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
 ### <a name="create-a-new-data-model-configuration"></a><a name="DesignDataModel"></a>Criar uma nova configuração de modelo de dados
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 3. Selecione **Criar configuração**.
 4. Na caixa de diálogo suspensa, no campo **Nome**, insira **Modelo de questionário**.
@@ -271,21 +273,21 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
     A ilustração a seguir mostra o modelo de dados editável preenchido na página **Designer do modelo de dados**.
 
-    ![Modelo de dados configurado no designer de modelos de dados ER](./media/er-quick-start1-model2.png)
+    ![Modelo de dados configurado no designer de modelos de dados de ER.](./media/er-quick-start1-model2.png)
 
 7. Salve as alterações.
 8. Feche a página **Designer de modelo de dados**.
 
 #### <a name="complete-the-design-of-the-data-model"></a><a name="CompleteDataModel"></a>Concluir o design do modelo de dados
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Modelo de questionário**.
 3. Na FastTab **Versões**, selecione a versão de configuração com o status **Rascunho**.
 4. Selecione **Alterar status** \> **Concluir**.
 
 O status da versão 1 dessa configuração é alterado de **Rascunho** para **Concluído**. A versão 1 não pode mais ser alterada. Esta versão contém o modelo de dados configurado e pode ser usada como base para outras configurações de ER. A versão 2 dessa configuração é criada e tem um status **Rascunho**. Você pode editar esta versão para ajustar o modelo de dados **Questionário**.
 
-![Versões da configuração do ER editável na página Configurações](./media/er-quick-start1-model-configuration.png)
+![Versões da configuração editável na página Configurações.](./media/er-quick-start1-model-configuration.png)
 
 Para obter mais informações sobre como usar versões para configurações de ER, consulte [Visão geral de relatório eletrônico (ER)](general-electronic-reporting.md#component-versioning).
 
@@ -294,14 +296,14 @@ Para obter mais informações sobre como usar versões para configurações de E
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Criar um mapeamento de modelo para o modelo de dados configurado
 
-Como um usuário na função de desenvolvedor de relatório eletrônico, você deve criar uma nova configuração ER contendo um componente de [mapeamento de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) o modelo de dados **Questionário**. Como esse componente implementa o modelo de dados configurado para o Finance, ele é específico do Finance. Você deve configurar o componente de mapeamento de modelos para especificar os objetos de aplicativo que devem ser usados para preencher o modelo de dados configurado com os dados do aplicativo no tempo de execução. Para concluir essa tarefa, você deve estar ciente dos detalhes da implementação da estrutura de dados do domínio comercial **Questionário** no Finance.
+Como usuário na função de Desenvolvedor de Relatório Eletrônico, você deve criar uma nova configuração de ER que contenha um componente de mapeamento de modelos para o modelo de dados **Questionário**. Como esse componente implementa o modelo de dados configurado para o Finance, ele é específico do Finance. Você deve configurar o componente de mapeamento de modelos para especificar os objetos de aplicativo que devem ser usados para preencher o modelo de dados configurado com os dados do aplicativo no tempo de execução. Para concluir essa tarefa, você deve estar ciente dos detalhes da implementação da estrutura de dados do domínio comercial **Questionário** no Finance.
 
 Ao concluir as etapas na seção [Importar uma nova configuração de mapeamento de modelo](#ImportModelMapping) a seguir, você pode importar a configuração de mapeamento de modelo necessário a partir do arquivo XML fornecido. Como alternativa, você pode concluir as etapas na seção [Criar uma nova configuração de mapeamento do modelo](#CreateModelMapping) para criar esse mapeamento de modelo do zero.
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importar uma nova configuração de mapeamento de modelo
 
-1. Baixe o arquivo [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salve-o no computador local.
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Baixe o arquivo [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) e salve-o no computador local.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 4. No Painel de Ação, selecione **Câmbio** \> **Carregar de arquivo XML**.
 5. Selecione **Procurar** e, depois, localize e selecione o arquivo **Questionnaires mapping.version.1.1.xml**.
@@ -311,7 +313,7 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
 ### <a name="create-a-new-model-mapping-configuration"></a><a name="CreateModelMapping"></a>Criar uma nova configuração de mapeamento de modelo
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Modelo de questionário**.
 3. Selecione **Criar configuração**.
 4. Na caixa de diálogo suspensa, siga estas etapas:
@@ -366,7 +368,7 @@ Você deve configurar fontes de dados para acessar as tabelas do aplicativo que 
     2. Selecione **Adicionar**.
     3. Na caixa de diálogo, no campo **Nome** , insira **\$ResultGroup**.
     4. Selecione **Editar fórmula**.
-    5. No [Editor de fórmula ER](general-electronic-reporting-formula-designer.md), no campo **Fórmula**, insira **FIRSTORNULL(\@."\<Relations'.KMQuestionResultGroup)** para usar o [caminho](er-formula-language.md#paths) da relação um para muitos entre as tabelas KMCollection e KMQuestionResultGroup.
+    5. No [Editor de fórmula ER](general-electronic-reporting-formula-designer.md), no campo **Fórmula**, insira **FIRSTORNULL(\@."\<Relations'.KMQuestionResultGroup)** para usar o [caminho](er-formula-language.md#Paths) da relação um para muitos entre as tabelas KMCollection e KMQuestionResultGroup.
     6. Selecione **Salvar** e feche o editor de fórmula.
     7. Selecione **OK** para adicionar o novo campo calculado.
 
@@ -439,7 +441,7 @@ Você pode adicionar rótulos de ER para configurar algumas fontes de dados para
 5. Feche a caixa de diálogo **Tradução de texto**.
 6. Selecione **Cancelar**.
 
-![Adição de rótulos de ER para o mapeamento de modelo editável](./media/er-quick-start1-adding-labels.png)
+![Adição de rótulos de ER para o mapeamento de modelo editável.](./media/er-quick-start1-adding-labels.png)
 
 Você inseriu rótulos de ER somente para o idioma padrão. Para obter informações sobre como os rótulos ER podem ser traduzidos para outros idiomas, consulte [Criar relatórios multilíngues](er-design-multilingual-reports.md).
 
@@ -473,7 +475,7 @@ Como você deve transformar os resultados da comparação entre valores de enume
     8. Selecione **Salvar** e feche o editor de fórmula.
     9. Selecione **OK** para adicionar a nova fonte de dados.
 
-![Mapeamento de modelo configurado no designer de mapeamento de modelos do ER](./media/er-quick-start1-added-data-sources.png)
+![Mapeamento de modelo configurado no designer de mapeamento de modelos de ER.](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Associar fontes de dados a campos do modelo de dados
 
@@ -524,21 +526,21 @@ Você deve vincular fontes de dados configuradas aos campos do modelo de dados p
 
     A ilustração a seguir mostra o estado final do mapeamento de modelo configurado na página **Designer de mapeamento de modelo**.
 
-    ![Mapeamento de modelo totalmente configurado no designer de mapeamento de modelo do ER](./media/er-quick-start1-mapping2.png)
+    ![Mapeamento de modelo totalmente configurado no designer de mapeamento de modelo de ER.](./media/er-quick-start1-mapping2.png)
 
 7. Salve as alterações.
 8. Feche a página **Designer de mapeamento de modelo**.
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping"></a>Concluir o design de mapeamento de modelo
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Mapeamento de questionário**.
 3. Na FastTab **Versões**, selecione a versão de configuração com o status **Rascunho**.
 4. Selecione **Alterar status** \> **Concluir**.
 
 O status da versão 1.1 dessa configuração é alterado de **Rascunho** para **Concluído**. A versão 1.1 não pode mais ser alterada. Esta versão contém o mapeamento de modelo configurado e pode ser usada como base para outras configurações de ER. A versão 1.2 dessa configuração é criada e tem um status **Rascunho**. Você pode editar esta versão para ajustar a configuração de **Mapeamento de questionário**.
 
-![Versões da configuração do ER editável na página Configurações](./media/er-quick-start1-mapping-configuration.png)
+![Versões da configuração de ER editável na página Configurações.](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > O mapeamento de modelo configurado é a implementação específica do Finance do modelo de dados abstratos que representa o domínio comercial de **Questionário**.
@@ -547,33 +549,33 @@ O status da versão 1.1 dessa configuração é alterado de **Rascunho** para **
 
 A estrutura de ER gera usa modelos predefinidos para gerar relatórios nos formatos do Microsoft Office (pastas de trabalho do Excel ou documentos do Word). Enquanto o relatório necessário está sendo gerado, um modelo é preenchido com os dados necessários de acordo com o fluxo de dados configurado. Portanto, você deve primeiro criar um modelo para o relatório personalizado. Esse modelo deve ser criado como uma pasta de trabalho do Excel cuja estrutura representa o layout de um relatório personalizado. Você deve nomear todos os itens do Excel que pretende preencher com os dados necessários.
 
-1. Baixe o arquivo [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) e salve-o no computador local.
+1. Baixe o arquivo [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) e salve-o no computador local.
 2. Abra o arquivo no Excel e revise a estrutura da pasta de trabalho.
 
 Como mostra a ilustração a seguir, o modelo baixado foi projetado para imprimir questionários especificados que apresentam as perguntas de um questionário junto com as respostas apropriadas.
 
-![Modelo do Excel para imprimir questionários especificados](./media/er-quick-start1-template-layout.png)
+![Modelo do Excel para imprimir questionários especificados.](./media/er-quick-start1-template-layout.png)
 
 Os nomes do Excel foram adicionados a este modelo para preencher os detalhes do questionário. Você pode usar o Gerenciador de nomes para revisar os nomes do Excel.
 
-![Usando o Gerenciador de nomes para revisar nomes do Excel no modelo do Excel fornecido](./media/er-quick-start1-template-names.png)
+![Uso do Gerenciador de nomes para revisar nomes do Excel no modelo do Excel fornecido.](./media/er-quick-start1-template-names.png)
 
 Os rótulos de relatório foram adicionados como texto fixo no idioma inglês. Você pode substituir os rótulos de relatório por novos nomes do Excel que preenchem os rótulos com o texto dependente do idioma, usando os [rótulos](#AddMmLabels) do formato ER, como fez para expressões dependentes de idioma no mapeamento de modelo configurado. Nesse caso, os rótulos de ER devem ser adicionadas ao formato ER editável.
 
 Como mostra a ilustração a seguir, o cabeçalho do relatório personalizado foi especificado para habilitar a paginação do Excel.
 
-![O cabeçalho do relatório personalizado no modelo do Excel fornecido](./media/er-quick-start1-template-header.png)
+![Cabeçalho do relatório personalizado no modelo do Excel fornecido.](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Criar um formato
 
-Como usuário na função de consultor funcional de relatório eletrônico, você deve criar uma nova configuração do ER contendo um componente de [formato](general-electronic-reporting.md#FormatComponentOutbound). Você deve configurar o componente de formato para especificar como um modelo de relatório será preenchido com dados necessários no tempo de execução.
+Como usuário na função de consultor funcional de relatório eletrônico, você deve criar uma nova configuração do ER contendo um componente de formato. Você deve configurar o componente de formato para especificar como um modelo de relatório será preenchido com dados necessários no tempo de execução.
 
 Ao concluir as etapas na seção [Importar uma configuração de formato projetado](#FormatImport), você pode importar o formato necessário a partir do arquivo XML fornecido. Como alternativa, você pode concluir as etapas na seção [Criar uma nova configuração de formato](#FormatCreate) para criar esse formato do zero.
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importar uma configuração de formato criado
 
-1. Baixe o arquivo [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salve-o no computador local.
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Baixe o arquivo [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) e salve-o no computador local.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 4. No Painel de Ações, selecione **Câmbio** \> **Carregar de arquivo XML**.
 5. Selecione **Procurar** e, depois, localize e selecione o arquivo **Questionnaires format.version.1.1.xml**.
@@ -583,7 +585,7 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
 ### <a name="create-a-new-format-configuration"></a><a name="FormatCreate"></a>Criar uma nova configuração de formato
  
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Modelo de questionário**.
 3. Selecione **Criar configuração**.
 4. Na caixa de diálogo suspensa, siga estas etapas:
@@ -612,11 +614,11 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
     2. Localize e selecione arquivo **Questionnaires report template.xslx** salvo localmente e selecione **Abrir**.
     3. Selecione **OK** para importar o modelo.
 
-    ![Importar um modelo de relatório](./media/er-quick-start1-template-import.png)
+    ![Importar um modelo de relatório.](./media/er-quick-start1-template-import.png)
 
 O formato **Excel\\Arquivo** é adicionado automaticamente ao formato editável como um elemento raiz. Além disso, o elemento de formato **Excel\\Intervalo** ou o elemento de formato **Excel\\Célula** é automaticamente adicionado a cada nome do Excel reconhecido do modelo importado. O formato **Excel\\Cabeçalho** que tem o elemento **Cadeia de caracteres** aninhado é automaticamente adicionado para refletir as configurações de cabeçalho do modelo importado.
 
-![Estrutura de formato que inclui elementos adicionados automaticamente no designer de Operação do ER](./media/er-quick-start1-template-import2.png)
+![Estrutura de formato que inclui elementos adicionados automaticamente no designer de Operação de ER.](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Configurar um formato
 
@@ -627,12 +629,12 @@ O formato **Excel\\Arquivo** é adicionado automaticamente ao formato editável 
 
     Para obter informações sobre como especificar o idioma e os contextos de cultura para um processo ER, consulte [Criar relatórios multilíngues](er-design-multilingual-reports.md).
 
-    ![Como definir configurações de idioma e cultura para o relatório criado no designer de Operações do ER](./media/er-quick-start1-template-format-structure1.png)
+    ![Definir configurações de idioma e cultura para o relatório criado no designer de Operações de ER.](./media/er-quick-start1-template-format-structure1.png)
 
 5. Na árvore de formatos, expanda o nó raiz e selecione **ResultsGroup**.
 6. Na guia **Formatar**, no campo **Direção da replicação**, selecione **Sem replicação**, porque você não espera ter vários grupos de resultados para um único questionário.
 
-    ![Como definir a direção de replicação para elementos de formato de intervalo no designer de Operação do ER](./media/er-quick-start1-template-format-structure2.png)
+    ![Como definir a direção de replicação para elementos de formato de intervalo no designer de Operação de ER.](./media/er-quick-start1-template-format-structure2.png)
 
 7. Selecione **Salvar**.
 
@@ -652,7 +654,7 @@ Você deve especificar uma associação de dados para um elemento de formato que
 
 5. Feche o editor de fórmulas.
 
-    ![Como configurar a associação para preencher o título de um relatório gerado](./media/er-quick-start1-add-report-title-label.png)
+    ![Como configurar a associação para preencher o título de um relatório gerado.](./media/er-quick-start1-add-report-title-label.png)
 
 Você pode usar essa técnica para tornar todos os outros rótulos do modelo atual dependentes de idioma. Para obter informações sobre como os rótulos adicionados de uma única configuração de ER podem ser traduzidos em todos os idiomas com suporte, consulte [Criar relatórios multilíngues](er-design-multilingual-reports.md).
 
@@ -662,7 +664,7 @@ Você pode usar essa técnica para tornar todos os outros rótulos do modelo atu
 2. Selecione **Editar**.
 3. Revise as informações na caixa de diálogo **Propriedades da fonte de dados**. Essa fonte de dados representa a versão 1 do componente do modelo de dados **Questionários** que reside na configuração ER do **modelo Questionários**.
 
-![Propriedades da fonte de dados do modelo no designer de Operações do ER](./media/er-quick-start1-model-data-source.png)
+![Propriedades da fonte de dados do modelo no designer de Operações de ER.](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Associar elementos a campos da fonte de dados
 
@@ -678,11 +680,11 @@ Para especificar como um modelo é preenchido no tempo de execução, você deve
 
     O elemento de formato do intervalo **Questionário** é configurado como replicado verticalmente. Quando ele está associado a uma fonte de dados do tipo **Lista de registros**, o intervalo de **Questionário** apropriado do modelo do Excel é repetido para cada registro da fonte de dados associada.
  
-    ![Associação do elemento Formato do intervalo do questionário a fontes de dados de Lista de registros apropriadas no designer de Operação do ER](./media/er-quick-start1-bindings1.png)
+    ![Associação do elemento Formato do intervalo do questionário a fontes de dados de Lista de registros apropriadas no Designer de operações de ER.](./media/er-quick-start1-bindings1.png)
 
     Como o intervalo **Questionário** do modelo do Excel é definido entre as linhas 5 e 14, essas linhas são repetidas para todos os questionários relatados.
 
-    ![Linhas do modelo do Excel que serão repetidas em um relatório gerado para cada registro das fontes de dados da lista de registros](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Linhas do modelo do Excel que serão repetidas em um relatório gerado para cada registro das fontes de dados da lista de registros.](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Configure associações semelhantes para os elementos de formato restantes, conforme descrito na tabela a seguir.
 
@@ -718,7 +720,7 @@ Para especificar como um modelo é preenchido no tempo de execução, você deve
 
 A ilustração a seguir mostra o estado final de associações de dados configuradas na página **Designer de formato**.
 
-![Associações de dados configuradas no designer Operação do ER](./media/er-quick-start1-bindings2.png)
+![Associações de dados configuradas no Designer de operações de ER.](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > Toda a coleção de fontes de dados e associações especificadas representa um componente de mapeamento de formato do formato configurado. Esse mapeamento de formato é chamado quando você executa o formato configurado para a geração de relatórios.
@@ -727,7 +729,7 @@ A ilustração a seguir mostra o estado final de associações de dados configur
 
 Agora você pode executar um formato criado para fins de teste na página **Configurações**.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configuração**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Relatório de questionário**.
 3. Selecione **Designer** para a versão de formato que tem um status **Rascunho**.
 4. Na página **Designer de formato**, selecione **Executar**.
@@ -738,9 +740,9 @@ Agora você pode executar um formato criado para fins de teste na página **Conf
 
 Por [padrão](electronic-reporting-destinations.md#default-behavior), um relatório gerado é entregue como um arquivo do Excel que pode ser baixado. As ilustrações a seguir mostram duas páginas do relatório gerado no formato Excel.
 
-![Exemplo de um relatório gerado no formato Excel, página 1](./media/er-quick-start1-report1a.png)
+![Exemplo de um relatório gerado no formato do Excel, página 1.](./media/er-quick-start1-report1a.png)
 
-![Exemplo de um relatório gerado no formato Excel, página 2](./media/er-quick-start1-report1b.png)
+![Exemplo de um relatório gerado no formato do Excel, página 2.](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Ajustar um formato criado
 
@@ -761,7 +763,7 @@ As perguntas não são ordenadas corretamente em um relatório gerado. Você pod
 1. Na página **Designer de formato**, selecione o item de raiz **Relatório**.
 2. Na guia **Mapeamento**, na árvore de formatos, expanda **Relatório\\Questionário\\Pergunta**.
 
-    ![Elemento de formato da pergunta do tipo de intervalo no designer de Operação do ER](./media/er-quick-start1-bindings3.png)
+    ![Elemento de formato da pergunta do tipo de intervalo no Designer de operações de ER.](./media/er-quick-start1-bindings3.png)
 
 3. Na guia **Mapeamento**, selecione **model.Questionnaire**.
 4. Selecione **Adicionar** \> **Funções\\Campo calculado** e, em seguida, no campo **Nome**, insira **OrderedQuestions**.
@@ -774,7 +776,7 @@ As perguntas não são ordenadas corretamente em um relatório gerado. Você pod
 11. Selecione **Associar** e confirme se o caminho **model.Questionnaire.Questions** atual é substituído pelo novo caminho **model.Questionnaire.OrderedQuestions** em todas as associações de elementos aninhados.
 12. Selecione **Salvar**.
 
-![Associação do elemento de formato da pergunta à fonte de dados OrderedQuestions configurada no designer de Operação do ER](./media/er-quick-start1-bindings4.png)
+![Associação do elemento de formato da pergunta à fonte de dados OrderedQuestions configurada no Designer de operações de ER.](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Executar um formato modificado a partir de ER
 
@@ -788,18 +790,18 @@ Agora você pode executar um formato modificado para fins de teste a partir da e
 
 A ilustração a seguir mostra um relatório gerado no formato Excel, no qual as perguntas estão corretamente ordenadas.
 
-![Relatório gerado no formato Excel com perguntas corretamente ordenadas](./media/er-quick-start1-report2.png)
+![Relatório gerado no formato do Excel com perguntas corretamente ordenadas.](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Concluir a criação do formato
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Relatório de questionário**.
 3. Na FastTab **Versões**, selecione a versão de configuração com o status **Rascunho**.
 4. Selecione **Alterar status** \> **Concluir**.
 
 O status da versão 1.1 dessa configuração é alterado de **Rascunho** para **Concluído**. A versão 1.1 não pode mais ser alterada. Esta versão contém o formato configurado e pode ser usada para imprimir o relatório personalizado. A versão 1.2 dessa configuração é criada e tem um status **Rascunho**. Você pode editar esta versão para ajustar a formatar o relatório **Questionário**.
 
-![Versões da configuração do ER editável na página Configurações](./media/er-quick-start1-format-configuration.png)
+![Configuração de ER editável na página Configurações.](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > O formato configurado é o design do relatório **Questionário** e não contém relações com artefatos específicos do Finance.
@@ -1047,9 +1049,9 @@ Crie seu projeto para disponibilizar um novo item de menu para os usuários.
 
 ### <a name="run-a-format-from-the-application"></a><a name="RunFormatFromApp"></a>Executar um formato do aplicativo
 
-1. Vá para **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
+1. Acesse **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
 
-    ![Seleção do item de menu do relatório Questionários (alimentado pelo ER) no módulo Questionário para executar o formato de ER configurado](./media/er-quick-start1-application-menu-modified.png)
+    ![Seleção do item de menu do relatório Questionários (alimentado pelo ER) no módulo Questionário para executar o formato de ER configurado.](./media/er-quick-start1-application-menu-modified.png)
 
 2. Na caixa de diálogo, no campo **Mapeamento de formato**, selecione **relatório Questionários**.
 3. Selecione **OK**.
@@ -1057,7 +1059,7 @@ Crie seu projeto para disponibilizar um novo item de menu para os usuários.
 5. Selecione **OK** para confirmar a opção de filtragem.
 6. Selecione **OK** para executar o relatório.
 
-    ![Como especificar os critérios de seleção na caixa de diálogo Relatório eletrônico](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Como especificar os critérios de seleção na caixa de diálogo Relatório eletrônico.](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Revise o relatório gerado.
 
@@ -1069,7 +1071,7 @@ Você pode modificar a solução de ER configurada de forma que use a classe de 
 
 #### <a name="add-data-sources-to-access-a-data-contract-object"></a><a name="AddDataSource1"></a>Adicionar fontes de dados para acessar um objeto de contrato de dados
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Mapeamento de questionário**.
 3. Selecione **Designer** para abrir a página **Modelo para mapeamento de fonte de dados**.
 4. Selecione **Designer** para abrir o mapeamento selecionado no designer de mapeamento de modelo.
@@ -1082,7 +1084,7 @@ Você pode modificar a solução de ER configurada de forma que use a classe de 
 
 A fonte de dados adicionada fornece informações sobre a ID de registro do mapeamento de formato de ER em execução.
 
-![Fonte de dados adicionada no designer de mapeamento do modelo de ER](./media/er-quick-start1-mapping3.png)
+![Fonte de dados adicionada no designer de mapeamento do modelo de ER.](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Adicionar uma fonte de dados para acessar registros de mapeamento de formato de ER
 
@@ -1117,7 +1119,7 @@ Continue para editar o mapeamento de modelo selecionado, de forma que o nome do 
 
 Como você utilizou o campo **FormatName**, o mapeamento do modelo configurado agora expõe o nome de um formato de ER que chama esse mapeamento de modelo durante a execução.
 
-![Associação do campo de modelo de dados ao método da fonte de dados adicionada no designer de mapeamento do modelo de ER](./media/er-quick-start1-mapping4.png)
+![Associação do campo de modelo de dados ao método da fonte de dados adicionada no designer de mapeamento do modelo de ER.](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Concluir o design de mapeamento de modelo
 
@@ -1135,7 +1137,7 @@ Você pode modificar o formato de ER configurado de forma que o nome dele apare�
 
 #### <a name="add-a-new-format-element"></a><a name="AddFormatElement"></a>Adicionar um novo elemento de formato
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Relatório de questionário**.
 3. Selecione **Designer**.
 4. Na página **Designer de formato**, selecione o item de raiz **Relatório**.
@@ -1154,7 +1156,7 @@ Você pode modificar o formato de ER configurado de forma que o nome dele apare�
 
 O formato configurado foi modificado para que o nome dele seja inserido no rodapé de um relatório gerado usando o elemento **Rodapé\\Cadeia de caracteres**.
 
-![Adição do elemento de formato do rodapé ao formato configurado no designer de Operação do ER](./media/er-quick-start1-template-format-structure3.png)
+![Adição do elemento de formato do rodapé ao formato configurado no Designer de operações de ER.](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Concluir a criação do formato
 
@@ -1166,7 +1168,7 @@ O status da versão 1.2 dessa configuração é alterado de **Rascunho** para **
 
 ### <a name="run-a-format-from-the-application"></a><a name="RunFormatFromApp2"></a>Executar um formato do aplicativo
 
-1. Vá para **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
+1. Acesse **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
 2. Na caixa de diálogo, no campo **Mapeamento de formato**, selecione **relatório Questionários**.
 3. Selecione **OK**.
 4. Na caixa de diálogo **Parâmetros de ER**, na FastTab **Registros a serem incluídos**, configure a opção de filtragem para que somente o questionário **SBCCrsExam** seja incluído.
@@ -1176,11 +1178,11 @@ O status da versão 1.2 dessa configuração é alterado de **Rascunho** para **
 
 Observe que o rodapé do relatório gerado contém o nome do formato de ER que foi usado para gerá-lo.
 
-![Relatório gerado no formato Excel](./media/er-quick-start1-report4.png)
+![Relatório gerado no formato do Excel.](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Executar um formato de ER
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Relatório de questionário**.
 3. No Painel de Ação, selecione **Executar**.
 4. Na caixa de diálogo **Parâmetros de relatório eletrônico**, na FastTab **Registros a serem incluídos**, configure a opção de filtragem para que somente o questionário **SBCCrsExam** seja incluído.
@@ -1192,16 +1194,16 @@ Observe que o rodapé do relatório gerado não contém o nome do formato de ER 
 
 ### <a name="configure-a-format-destination-for-on-screen-preview"></a><a name="ConfigureDestination"></a>Configurar um destino de formato para versão prévia na tela
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Destino de relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Destino de relatório eletrônico**.
 2. Na página **Destino do relatório eletrônico**, adicione um registro de destino para o formato de ER configurado para o formato de ER **Relatório de questionário**.
 3. Na FastTab **Destino do arquivo**, configure o [destino](er-destination-type-screen.md) da **Tela** para o componente de formato de **Relatório** que foi [adicionado](#AddFormatRootElement) como o elemento-raiz do formato de ER do **Relatório de questionário** configurado.
 4. Na FastTab **Configurações de conversão de PDF**, configure o destino para converter um relatório em [formato PDF](electronic-reporting-destinations.md#OutputConversionToPDF) que usa a orientação de página **Paisagem**.
 
-![Configuração do destino de tela personalizado para o formato de ER na página destino Relatório eletrônico](./media/er-quick-start1-destination.png)
+![Configuração do destino de tela personalizado para o formato de ER na página destino Relatório eletrônico.](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Executar um formato do aplicativo para visualizá-lo como um documento PDF
 
-1. Vá para **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
+1. Acesse **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
 2. Na caixa de diálogo, no campo **Mapeamento de formato**, selecione **relatório Questionários**.
 3. Selecione **OK**.
 4. Na caixa de diálogo **Parâmetros de relatório eletrônico**, na FastTab **Registros a serem incluídos**, configure a opção de filtragem para que somente o questionário **SBCCrsExam** seja incluído.
@@ -1209,12 +1211,12 @@ Observe que o rodapé do relatório gerado não contém o nome do formato de ER 
 
     Na FastTab **Destinos**, observe que o campo **Saída** está definido como **Tela**. Se desejar alterar o destino configurado, selecione **Alterar**.
 
-    ![Caixa de diálogo Tempo de execução de relatório de ER, em que você pode alterar o destino configurado](./media/er-quick-start1-run-settings.png)
+    ![Caixa de diálogo Tempo de execução de relatório de ER, em que você pode alterar o destino configurado.](./media/er-quick-start1-run-settings.png)
 
 6. Selecione **OK** para executar o relatório.
 7. Revise o relatório gerado no formato PDF.
 
-    ![Versão prévia na tela do relatório gerado no formato PDF](./media/er-quick-start1-preview-PDF.png)
+    ![Versão preliminar na tela do relatório gerado no formato PDF.](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Recursos adicionais
 

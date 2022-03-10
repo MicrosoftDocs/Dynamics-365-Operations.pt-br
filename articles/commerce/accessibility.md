@@ -2,36 +2,30 @@
 title: Recursos e funcionalidades de acessibilidade
 description: Este tópico fornece informações sobre os recursos de acessibilidade e funcionalidades no Microsoft Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716267"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Recursos e funcionalidades de acessibilidade
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece informações sobre os recursos de acessibilidade e funcionalidades no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 Recursos de acessibilidade e funcionalidades fornecem os meios funcionais para todos os usuários acessarem e executarem ações para que possam atingir suas metas. Essa variedade de usuários pode exigir ferramentas de assistência para audição, visão, mobilidade ou neurodiversidade.
 
@@ -72,7 +66,7 @@ Para carregar manualmente um arquivo de legendas ocultas quando você carregar u
 Para carregar arquivos de áudio ou descritivos regulares para o vídeo, use o seletor de arquivos na caixa de diálogo **Carregar ativo**.
 
 > [!NOTE]
-> Legendas ocultas, áudio regular e ativos de áudio descritivos também podem ser adicionados depois que um ativo de vídeo for carregado. Vá para **Biblioteca de Mídia**, selecione o ativo de vídeo e depois **Editar** para finalizar a compra. Em seguida, no painel de propriedades do ativo de vídeo, carregue os ativos adicionais.
+> Legendas ocultas, áudio regular e ativos de áudio descritivos também podem ser adicionados depois que um ativo de vídeo for carregado. Acesse **Biblioteca de Mídia**, selecione o ativo de vídeo e depois **Editar** para finalizar a compra. Em seguida, no painel de propriedades do ativo de vídeo, carregue os ativos adicionais.
 
 #### <a name="edit-cc-and-audio-transcript-files"></a>Editar arquivos de transcrição de áudio e CC
 
@@ -80,7 +74,7 @@ Os arquivos de transcrição de CC e de áudio podem ser editados diretamente na
 
 Para editar os arquivos de transcrição de áudio e de CC, siga estas etapas.
 
-1. Vá para **Biblioteca de Mídia** e selecione o nome do arquivo do ativo do vídeo. O editor de conteúdo de transcrição e legendas ocultas é exibido.
+1. Acesse **Biblioteca de Mídia** e selecione o nome do arquivo do ativo do vídeo. O editor de conteúdo de transcrição e legendas ocultas é exibido.
 1. Selecione **Editar**.
 1. Edite as legendas ocultas ou o texto da transcrição.
 1. Quando terminar, selecione **Salvar** e depois **Concluir a edição**.
@@ -92,7 +86,7 @@ Um atributo de metadados de **Idade mínima** pode ser associado a ativos de ví
 
 Para definir o atributo de **Idade mínima** de um ativo de vídeo, siga estas etapas.
 
-1. Vá para **Biblioteca de Mídia** e selecione o ativo de vídeo.
+1. Acesse **Biblioteca de Mídia** e selecione o ativo de vídeo.
 1. Selecione **Editar**.
 1. No painel de propriedades do ativo de vídeo, defina o atributo **Idade mínima**.
 
@@ -101,11 +95,11 @@ Para definir o atributo de **Idade mínima** de um ativo de vídeo, siga estas e
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Acessibilidade em formulários, produtos e controles](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[Acessibilidade em formulários, produtos e controles](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Microsoft Accessibility Center](https://www.microsoft.com/accessibility)
 
-[Central de acessibilidade do Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[Central de acessibilidade do Dynamics 365](/dynamics365/get-started/accessibility/index)
 
 [Visão geral de conformidade](compliance-overview.md)
 
@@ -114,3 +108,6 @@ Para definir o atributo de **Idade mínima** de um ativo de vídeo, siga estas e
 [Adicionar página de política de privacidade](add-privacy-page.md)
 
 [Substitua os IDs de usuário associados às alterações de conteúdo controladas](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

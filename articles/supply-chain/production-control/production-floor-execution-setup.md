@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 9a5911e81547134d3034d1a47ef94c553ccbb331
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353955"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752823"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar um dispositivo para executar a interface de execução de piso de produção
 
@@ -28,11 +28,11 @@ A interface de execução de piso de produção é configurada para todos os dis
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Definir a configuração e os filtros para um dispositivo específico
 
-Para definir a configuração e os filtros de trabalho para um dispositivo, entre na página **Execução de piso de produção** usando uma conta com uma função de segurança que inclua o direito *Manter supervisor de tempo*. (Entre as funções de segurança prontas para uso, somente o *Supervisor de chão de fábrica* tem esse direito). Em seguida, siga estas etapas.
+Para definir a configuração e os filtros de trabalho para um dispositivo, entre na página **Execução de piso de produção** usando uma conta com uma função de segurança que inclua o direito *Manter supervisão de tempo*. (Entre as funções de segurança prontas para uso, somente o *Supervisor de chão de fábrica* tem esse direito). Em seguida, siga estas etapas.
 
-1. Vá para o dispositivo que deseja configurar e entre no Microsoft Dynamics 365 Supply Chain Management como um supervisor de chão de fábrica. (Use uma conta que inclua o direito *Manter de supervisor de tempo*).
+1. Acesse o dispositivo que deseja configurar e entre no Microsoft Dynamics 365 Supply Chain Management como um supervisor de chão de fábrica. (Use uma conta que inclua o direito *Manter supervisão de tempo*.)
 1. Verifique se há uma configuração disponível para o dispositivo que você está configurando. Se não houver nenhuma configuração, uma configuração padrão será fornecida. Para obter mais informações sobre como definir uma configuração, consulte [Configurar a interface de execução de piso de produção](production-floor-execution-configure.md).
-1. Vá para **Controle de produção \> Execução de fabricação \> Execução de piso de produção**.
+1. Acesse **Controle de produção \> Execução de fabricação \> Execução de piso de produção**.
 
     Se a interface de execução de piso de produção já tiver sido configurada pelo menos uma vez no dispositivo atual, será exibida uma página de entrada. Caso contrário, será exibida uma página de boas-vindas.
 
@@ -57,7 +57,7 @@ Você pode conceder permissão a trabalhadores específicos para alterar as conf
 
 Para permitir que um trabalhador substitua os filtros de trabalho padrão que foram configurados para um dispositivo, siga estas etapas.
 
-1. Vá para **Hora e atendimento \> Configuração \> Tempo de registro dos trabalhadores**.
+1. Acesse **Hora e atendimento \> Configuração \> Tempo de registro dos trabalhadores**.
 1. Selecione um trabalhador na lista para abrir a página **Trabalhadores com registro de tempo** desse trabalhador.
 1. Na guia **Registro de tempo**, defina a opção **Definir filtros** como *Sim*.
 
@@ -76,7 +76,7 @@ A parte superior da ilustração a seguir mostra como a interface é exibida por
 
 Por padrão, a interface de execução de piso de produção se desconecta automaticamente se ninguém usá-la em 12 horas. Um usuário do Supply Chain Management deverá entrar novamente. No entanto, você pode estender o tempo limite para até 90 dias.
 
-Para estender o limite de tempo, entre no Supply Chain Management e vá para **Administração do sistema \> Usuários \> Extensões de sessão**. Especifique a conta de usuário do Supply Chain Management usada para entrar no dispositivo e o número de horas em que a sessão deverá permanecer ativa.
+Para estender o limite de tempo, entre no Supply Chain Management e Acesse **Administração do sistema \> Usuários \> Extensões de sessão**. Especifique a conta de usuário do Supply Chain Management usada para entrar no dispositivo e o número de horas em que a sessão deverá permanecer ativa.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

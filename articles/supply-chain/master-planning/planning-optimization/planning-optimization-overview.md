@@ -2,28 +2,25 @@
 title: Visão geral da Otimização de Planejamento
 description: Este tópico mostra uma visão geral da Otimização de Planejamento
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cf64c3dea6fe08c36388f5f7147795221cf85b8a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 49da88be9faff8f327f8079245b3c07db79308e6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224466"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983433"
 ---
 # <a name="planning-optimization-overview"></a>Visão geral da Otimização de Planejamento
 
@@ -35,7 +32,7 @@ Para usar a Otimização de Planejamento, você deverá instalar o Suplemento Ot
 
 A ilustração a seguir mostra a vantagem da execução da Otimização de Planejamento no horário de expediente.
 
-![Vantagem de executar a Otimização de planejamento durante o horário de expediente](media/PlanningOptimization1.png)
+![Vantagem de executar a Otimização de planejamento durante o horário de expediente.](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>Desempenho aprimorado
 
@@ -64,11 +61,11 @@ Se o Suplemento Otimização de Planejamento for desinstalado, todos os dados re
 
 A ilustração a seguir mostra o fluxo de dados.
 
-![Fluxo de dados para execuções de regeneração](media/PlanningOptimization2.png)
+![Fluxo de dados para execuções de regeneração.](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>Recursos relacionados
 
-[Introdução à Otimização de Planejamento](get-started.md)
+[Introdução à Otimização do Planejamento](get-started.md)
 
 [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
 

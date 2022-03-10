@@ -1,12 +1,10 @@
 ---
 title: Módulo de guia
-description: Este tópico abrange os módulos de guia e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este tópico abrange os módulos de guia e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42c3cd99897627dbcdbdec91cfdb03d5743f7388
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723278"
 ---
 # <a name="tab-module"></a>Módulo de guia
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de guia e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
+Este tópico abrange os módulos de guia e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 
 Os módulos de guia são módulos semelhantes aos usados para organizar as informações em uma página de site em guias. Eles podem ser usados em qualquer página em que as informações devem ser apresentadas nas guias.
 
@@ -38,7 +34,7 @@ Em cada módulo de guia, um ou mais módulos de item de guia podem ser adicionad
 
 A imagem a seguir mostra um exemplo de um módulo de guia em uma página de site. Neste exemplo, a guia **Remessa** foi selecionada.
 
-![Exemplo de um módulo de guia](./media/ecommerce-tab.PNG)
+![Exemplo de um módulo de guia.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Propriedades do módulo de guia
 
@@ -83,3 +79,6 @@ Para adicionar um módulo de guia a uma página e definir as propriedades, siga 
 [Módulo de Accordion](add-accordion.md)
 
 [Módulo de bloco de texto](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

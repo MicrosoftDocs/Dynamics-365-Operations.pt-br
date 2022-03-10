@@ -12,20 +12,20 @@ ms.reviewer: josaw
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349665"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779533"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alterar a ordem de classificação das entidades de venda
 
 
-[!include [banner](includes/banner.md)]
+[!Include [banner](includes/banner.md)]
 
 Os varejistas consideram a descoberta de produtos a principal ferramenta para a interação com os clientes em todos os canais. Várias funcionalidades podem ajudar os clientes a descobrir facilmente os produtos. Por exemplo, eles podem procurar categorias, pesquisar e filtrar.
 
@@ -41,7 +41,7 @@ Nas versões do Retail anteriores à versão 10.0.5, a ordem de classificação 
 
 Antes de concluir esse procedimento, os dados de demonstração devem estar instalados no seu ambiente.
 
-1. Vá para **Varejo e Comércio \> Produtos e categorias \> Hierarquia de produtos de comércio**.
+1. Acesse **Varejo e Comércio \> Produtos e categorias \> Hierarquia de produtos de comércio**.
 2. Clique em **Editar hierarquia de categoria**.
 3. Clique em **Editar**.
 4. Na árvore, expanda **ALL (TUDO) \> Action Sports (Esportes de ação)**.
@@ -59,7 +59,7 @@ A ordem de exibição da hierarquia de navegação do canal será refletida no H
 
 Antes de concluir esse procedimento, os dados de demonstração devem estar instalados no seu ambiente.
 
-1. Vá para **Varejo e Comércio \> Produtos e categorias \> Categorias de navegação de canal**.
+1. Acesse **Varejo e Comércio \> Produtos e categorias \> Categorias de navegação de canal**.
 2. Na lista, selecione a hierarquia **Navegação de moda**.
 3. Clique em **Editar hierarquia de categoria**.
 4. Clique em **Editar**.

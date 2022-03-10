@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: f6eaf5f9cbc6eed09f6a3067826f7fa15fb94b2e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760741"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Melhorar rastreamento dos resultados dos relatórios de ER gerados para comparar com valores de linha de base
 
@@ -49,7 +49,7 @@ Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas do
 
 ### <a name="review-added-baseline"></a>Examine a linha de base adicionada
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Linhas de base**.
 
     > [!NOTE]
@@ -61,7 +61,7 @@ A linha de base foi adicionada para o formato selecionado **Formatar para aprend
 
 ### <a name="make-a-new-baseline-rule"></a>Crie uma nova regra de linha de base
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na árvore, expanda **Modelar para aprender linhas de base de ER**.
 3. Na árvore, selecione **Modelar para aprender linhas de base de ER\\Formatar para aprender linhas de base de ER**.
 4. Na Guia Rápida **Versões**, selecione **Executar**.
@@ -95,7 +95,7 @@ Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas no
 
 ### <a name="modify-a-configured-er-format"></a>Modifique o formato de um ER configurado
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na árvore, expanda **Modelar para aprender linhas de base de ER**.
 3. Na árvore, selecione **Modelar para aprender linhas de base de ER\\Formatar para aprender linhas de base de ER**.
 4. Selecione **Designer**.
@@ -123,7 +123,7 @@ Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas no
 
 ### <a name="remove-an-existing-baseline-rule"></a>Remova uma regra da linha de base existente
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Linhas de base**.
 3. Na lista de linhas de base, selecione a linha de base que está configurada no formato **Formato para aprender linhas de base de ER**.
 4. Na Guia Rápida **Linhas de base**, selecione **Excluir** para remover a regra de linha base que você configurou antes.
@@ -155,7 +155,7 @@ Ao configurar parâmetros específicos de ER, você pode suprimir notificações
 
 ### <a name="review-the-generated-baseline-file"></a>Revise o arquivo de linha de base gerado.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Linhas de base**.
 3. Selecione **Anexos**.
     > [!NOTE]
@@ -165,13 +165,13 @@ Ao configurar parâmetros específicos de ER, você pode suprimir notificações
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Execute o formato de ER criado e verifique o log para analisar os resultados
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na árvore, expanda **Modelar para aprender linhas de base de ER**.
 3. Na árvore, selecione **Modelar para aprender linhas de base de ER\\Formatar para aprender linhas de base de ER**.
 4. Na Guia Rápida **Versões**, selecione **Executar**.
 5. No campo **Inserir Id**, digite **1**.
 6. Selecione **OK**.
-7. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
+7. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
 
 O log de execução contém informações sobre os resultados da comparação do arquivo gerado com a linha de base configurada. O log indica que o arquivo gerado e a linha de base são iguais, mesmo que o formato executado contenha a associação para inserir uma data e um valor de tempo constantemente alterados no arquivo de saída.
 

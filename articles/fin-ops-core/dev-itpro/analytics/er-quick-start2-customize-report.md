@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605221"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323808"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajustar um formato de ER para gerar um documento eletrônico personalizado
 
@@ -156,9 +156,9 @@ Para adicionar as configurações de ER padrão à instância atual do Microsoft
 3. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento**.
 4. Observe que, além do formato de ER **BACS (Reino Unido)** selecionado, outras configurações de ER necessárias foram importadas. Verifique se as seguintes configurações de ER estão disponíveis na árvore de configuração:
 
-    - **Modelo de pagamento** – Esta configuração contém o componente de ER [modelo de dados](general-electronic-reporting.md#data-model-and-model-mapping-components) que representa a estrutura de dados do domínio corporativo de pagamento.
-    - **Mapeamento de modelos de pagamento 1611** – Esta configuração contém o componente de ER [mapeamento de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) que descreve como o modelo de dados é preenchido com dados de aplicativos em tempo de execução.
-    - **BACS (Reino Unido)** – Esta configuração contém os componentes de ER [formato](general-electronic-reporting.md#FormatComponentOutbound) e mapeamento de formato. O componente de formato especifica o layout do relatório. O componente mapeamento de formato contém a fonte de dados do modelo e especifica como o layout do relatório é preenchido usando essa fonte de dados no tempo de execução.
+    - **Modelo de pagamento** – Esta configuração contém o componente de ER do modelo de dados que representa a estrutura de dados do domínio comercial de pagamento.
+    - **Mapeamento de modelos de pagamento 1611** – Esta configuração contém o componente de ER do mapeamento de modelos que descreve como o modelo de dados é preenchido com dados de aplicativos em tempo de execução.
+    - **BACS (Reino Unido)** – Esta configuração contém os componentes de ER de formato e mapeamento de formato. O componente de formato especifica o layout do relatório. O componente mapeamento de formato contém a fonte de dados do modelo e especifica como o layout do relatório é preenchido usando essa fonte de dados no tempo de execução.
 
 ![Página Configurações com as configurações de ER especificadas disponíveis na árvore.](./media/er-quick-start2-imported-solution1.png)
 

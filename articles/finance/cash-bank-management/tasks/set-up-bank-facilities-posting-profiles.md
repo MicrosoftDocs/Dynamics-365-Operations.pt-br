@@ -2,11 +2,9 @@
 title: Configurar recursos bancários e perfis de lançamento para cartas de garantia
 description: Essa tarefa cria um Recurso bancário e um perfil de lançamento que são necessários para processar uma carta de garantia.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6da3b9358192997de1d0231e5c9c8eaba92a23b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1a7e60903e31d98e24f578dc381bb0b140944e07a88516a6a81bbba1b8981982
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976257"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742219"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Configurar recursos bancários e perfis de lançamento para cartas de garantia
 
@@ -36,7 +34,7 @@ Esta tarefa usa a empresa de demonstração USMF.
 
 
 ## <a name="general-ledger-parameter"></a>Parâmetro da contabilidade
-1. Vá para Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.
+1. Acesse Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.
 2. Expanda a seção Documento bancário.
 3. Selecione a opção Habilitar carta de garantia.
 4. No campo Diário de transação, clique no botão suspenso para abrir a pesquisa.
@@ -48,7 +46,7 @@ Esta tarefa usa a empresa de demonstração USMF.
 9. Feche a página.
 
 ## <a name="create-bank-facility"></a>Criar Recursos bancários
-1. Vá para Gerenciamento de dinheiro e banco > Configuração > Recursos bancários.
+1. Acesse Gerenciamento de dinheiro e banco > Configuração > Recursos bancários.
 2. Clique em Novo.
 3. No campo Grupo de recursos, insira o nome do grupo de recursos bancários para a transação da carta de garantia.
 4. No campo Descrição, digite um valor.
@@ -65,7 +63,7 @@ Esta tarefa usa a empresa de demonstração USMF.
 15. Feche a página.
 
 ## <a name="bank-posting-profile"></a>Perfil de lançamento bancário
-1. Vá para Gerenciamento de dinheiro e banco > Configuração > Perfil de lançamento de documentos bancários.
+1. Acesse Gerenciamento de dinheiro e banco > Configuração > Perfil de lançamento de documentos bancários.
 2. Clique em Novo.
 3. No campo Número de conta/grupo, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o registro desejado.
@@ -77,3 +75,6 @@ Esta tarefa usa a empresa de demonstração USMF.
 10. Clique em Salvar.
 11. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

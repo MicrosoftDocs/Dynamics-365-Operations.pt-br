@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745397"
 ---
 # <a name="set-up-a-retail-channel"></a>Configurar um canal de varejo
 
@@ -33,7 +33,7 @@ Antes de criar um canal de varejo, certifique-se de seguir os [pré-requisitos d
 
 ## <a name="create-and-configure-a-new-retail-channel"></a>Criar e configurar um novo canal de varejo
 
-1. No painel de navegação, vá para **Módulos \> Canais \> Lojas \> Todas as lojas**.
+1. No painel de navegação, Acesse **Módulos \> Canais \> Lojas \> Todas as lojas**.
 1. No Painel de Ações, selecione **Novo**.
 1. No campo **Nome**, forneça um nome para o novo canal.
 1. No campo **Número da loja**, forneça um número de loja exclusivo. O número pode ser alfanumérico e ter no máximo 10 caracteres.
@@ -106,7 +106,7 @@ Você pode ver os modos de entrega configurados selecionando **Modos de entrega*
 
 Para alterar ou adicionar um modo de entrega, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Gerenciamento de estoque \> Modos de entrega**.
+1. No painel de navegação, Acesse **Módulos \> Gerenciamento de estoque \> Modos de entrega**.
 1. No Painel de Ação, selecione **Novo** para criar um novo modo de entrega ou selecione um modo existente.
 1. Na seção **Canais de varejo**, selecione **Adicionar linha** para adicionar o canal. Adicionar canais usando nós de organização em vez de adicionar cada canal individualmente pode otimizar esse processo.
 
@@ -186,11 +186,11 @@ O novo recurso de formato da ID da transação pode ser habilitado no espaço de
 
 Para habilitar o uso de novas IDs de transação, siga estas etapas:
 
-1. No Commerce headquarters, vá para **Administração do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
+1. No Commerce headquarters, Acesse **Administração do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
 1. Filtrar para o módulo "varejo e comércio".
 1. Procure o nome do recurso **Habilitar nova ID da transação para evitar IDs da transação duplicadas**.
 1. Selecione o recurso e depois **Habilitar Agora** no painel direito.  
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. Execute os trabalhos **Configuração do canal 1070** e **Gravador de tarefas do PDV 1170** para sincronizar o recurso habilitado para os armazenamentos.
 1. Depois que as alterações forem enviadas para os armazenamentos, os terminais de PDV deverão ser fechados e reabertos para usar o novo formato de ID da transação. 
 

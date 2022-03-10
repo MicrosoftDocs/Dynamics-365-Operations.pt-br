@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 509b70b65469bf14714ceaa390f450ddde1d8b76
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f878f39e8e9913edbe1da192e199090139a88adb6b7ed9a1e9b779c5748171b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735645"
 ---
 # <a name="cash-management-improvements"></a>Aprimoramentos de gerenciamento de pagamento à vista
 
@@ -39,9 +39,9 @@ No Retail versão 10.0.3 e posterior, os varejistas ganharão rastreabilidade pa
 
 Para configurar a nova funcionalidade de gerenciamento de pagamento à vista, siga estas etapas para configurar o perfil de funcionalidade para os armazenamentos.
 
-1. Vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade** e selecione um perfil de funcionalidade que esteja vinculado às lojas onde você quer fazer os aprimoramentos de gerenciamento de pagamento à vista.
+1. Acesse **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade** e selecione um perfil de funcionalidade que esteja vinculado às lojas onde você quer fazer os aprimoramentos de gerenciamento de pagamento à vista.
 2. Na Guia Rápida **Funções** do perfil de funcionalidade, em **Gerenciamento de pagamento à vista avançado**, defina a opção **Habilitar rastreabilidade de pagamento à vista** como **Sim**.
-3. Para configurar cofres, vá para **Varejo e Comércio \> Canais \> Lojas \> Todas as lojas** e selecione uma loja.
+3. Para configurar cofres, Acesse **Varejo e Comércio \> Canais \> Lojas \> Todas as lojas** e selecione uma loja.
 4. Na página **Lojas**, no Painel de Ação, na guia **Configurar**, no grupo **Configurar**, selecione **Cofres**. Ao usar essa opção, você pode definir e manter vários cofres para uma loja.
 4. Antes que a funcionalidade possa ser usada, você deve executar o trabalho de agenda de distribuição **1070 Configuração do canal** para sincronizar essas configurações com o banco de dados do canal.
 

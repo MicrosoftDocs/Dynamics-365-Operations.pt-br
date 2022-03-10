@@ -1,8 +1,8 @@
 ---
-title: Resultados de modelos de aprendizado de máquina (versão prévia)
+title: Resultados de modelos de machine learning
 description: Este tópico discute as matrizes de confusão, os problemas de classificação e a acurácia nos modelos ML (aprendizado de máquina). O objetivo é aprimorar sua compreensão da acurácia em resultados de previsão de ML.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 2545f7d043e139606c51bc559e3aacbe73abccfc
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028194"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386628"
 ---
-# <a name="results-of-machine-learning-models-preview"></a>Resultados de modelos de aprendizado de máquina (versão prévia)
+# <a name="results-of-machine-learning-models"></a>Resultados de modelos de machine learning
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico discute as matrizes de confusão, os problemas de classificação e a acurácia nos modelos ML (aprendizado de máquina). O objetivo é aprimorar sua compreensão da acurácia em resultados de previsão de ML. O público-alvo inclui engenheiros, analistas e gerentes que desejam criar conhecimentos e habilidades em ciência de dados.
 
@@ -34,7 +33,7 @@ Depois que um problema de ML é treinado em um conjunto de dados históricos, el
 
 Por exemplo, seu objetivo é prever se um animal de estimação é um cachorro ou um gato, com base em alguns atributos físicos e comportamentais. Se você tiver um conjunto de dados de teste que contém 30 cachorros e 20 gatos, a matriz de confusão pode ser semelhante à ilustração a seguir.
 
-![Exemplo de previsão de espécies](media/species-prediction-matrix.png)
+![Exemplo de previsão de espécies.](media/species-prediction-matrix.png)
 
 Os números nas células verdes representam previsões corretas. Como você pode ver, o modelo previu corretamente uma porcentagem maior dos gatos reais. A acurácia geral do modelo é fácil de calcular. Nesse caso, é 42 ÷ 50 ou 0,84.
 
@@ -44,7 +43,7 @@ A maioria das discussões sobre a matriz de confusão concentra-se em classifica
 
 Em seguida, consideraremos um problema de classificação para um cenário de finanças que tem três estados. O modelo prevê se uma nota fiscal de cliente será paga dentro do prazo, atrasada ou muito atrasada. Por exemplo, de 100 faturas teste, 50 são pagas dentro do prazo, 35 são pagas atrasadas e 15 são pagas muito atrasadas. Nesse caso, um modelo pode produzir uma matriz de confusão que se assemelha à ilustração a seguir.
 
-![Modelo 1](media/payment-prediction-matrix.png)]
+![Modelo 1.](media/payment-prediction-matrix.png)]
 
 Uma matriz de confusão fornece mais informações do que uma métrica de acurácia simples. No entanto, ela ainda é relativamente fácil entender. Uma matriz de confusão informa se você tem um conjunto de dados equilibrado no qual as classes de saída têm contagens semelhantes. Para o cenário de várias classes, ela informa o quanto uma previsão pode estar errada quando as classes de saída são ordinais, como no exemplo anterior sobre pagamentos de cliente.
 
@@ -55,7 +54,7 @@ Como a acurácia é uma métrica fácil de compreender, é um bom ponto de parti
 
 No entanto, para ter uma compreensão mais abrangente, vários desafios associados a acurácia devem ser observados. A utilidade da métrica depende do contexto do problema. Uma pergunta que geralmente surge em relação ao desempenho do modelo é "Qual é a eficácia do modelo?" No entanto, a resposta para essa pergunta não é exatamente simples. Considere a seguinte matriz de confusão (modelo 2).
 
-![Exemplo de previsão de pagamento com uma amostra maior](media/payment-prediction-matrix-2.png)
+![Exemplo de previsão de pagamento com uma amostra maior.](media/payment-prediction-matrix-2.png)
 
 Um cálculo rápido mostra que a acurácia deste modelo é (70 + 10 + 3) ÷ 100 ou 0,83. Na superfície, esse resultado parece ser melhor do que o resultado do modelo de várias classes anterior (modelo 1), que tem uma acurácia de 0,73. Mas é realmente melhor?
 
@@ -100,7 +99,7 @@ A medida f combina precisão e revocação. O resultado é a média harmônica d
 
 Vejamos um exemplo concreto. Anteriormente neste tópico, havia um exemplo de um modelo que previa se um animal era um cachorro ou um gato. A ilustração é repetida aqui.
 
-[![Exemplo de previsão de espécies (repetido)](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Exemplo de previsão de espécies (repetido).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Estes serão os resultados se "cachorro" for usado como a resposta positiva.
 
@@ -114,9 +113,9 @@ Embora a acurácia f não seja tão fácil de entender, ela adiciona nuances ao 
 
 A seção [Acurácia do modelo](#model-accuracy) deste tópico comparou as duas matrizes de confusão a seguir. Embora o primeiro modelo tenha a acurácia menor, ele foi considerado um modelo mais útil, pois mostrou mais melhorias do que a estimativa padrão de um pagamento dentro do prazo.
 
-![Exemplo de previsão de pagamento versus dados reais](media/payment-prediction-matrix.png)
+![Exemplo de previsão de pagamento versus dados reais.](media/payment-prediction-matrix.png)
 
-![Exemplo de previsão de pagamento com uma amostra maior (repetido)](media/payment-prediction-matrix-2.png)
+![Exemplo de previsão de pagamento com uma amostra maior (repetido).](media/payment-prediction-matrix-2.png)
 
 Vamos ver como esses dois modelos se comparam quando a medida f é usada. A medida f considera a precisão e revocação de cada estado, e então o cálculo de macro f calcula a média da medida f em todos os estados para determinar uma medida f geral. Há outras variantes f, mas o mais interessante é considerar a versão do macro, dada a mesma consideração que é dada a todos os três estados.
 
@@ -129,16 +128,12 @@ Para simplificar os cálculos, os conjuntos de amostras foram criados para coinc
 
 Para obter mais detalhes sobre como esse cálculo funciona, aqui está o relatório de classificação sklearn. para o modelo 1. Os três estados, "Dentro do prazo", "Atrasado" e "Muito atrasado", são representados pelas linhas rotuladas 1, 2 e 3, respectivamente. A média da macro é apenas a média da coluna "medida f".
 
-|           | precisão | revocação   | medida f |
+| &nbsp;    | precisão | revocação   | medida f |
 |-----------|-----------|----------|----------|
 | **1**     | 0,83      | 0,80     | 0,82     |
 | **2**     | 0,68      | 0,71     | 0,69     |
 | **3**     | 0,50      | 0,50     | 0,50     |
 
 Conforme mostram os resultados, os dois modelos têm uma pontuação de acurácia de macro f quase idêntica. Neste e em muitos outros casos, a acurácia f fornece um indicador melhor do recurso de um modelo. Quanto à acurácia, a interpretação dos resultados requer que você compreenda o que é mais importante considerar no modelo.
-
-#### <a name="privacy-notice"></a>Aviso de privacidade
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

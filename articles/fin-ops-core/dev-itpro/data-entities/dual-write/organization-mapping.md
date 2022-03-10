@@ -1,6 +1,6 @@
 ---
 title: Hierarquia da organização no Dataverse
-description: Este tópico descreve a integração de dados organizacionais entre aplicativos do Finance and Operations e o Dataverse.
+description: Este tópico descreve a integração de dados organizacionais entre os aplicativos do Finance and Operations e o Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: c7ef3a11817d60343503c80d89493262711524b1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782299"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062077"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Hierarquia da organização no Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Como o Dynamics 365 Finance é um sistema financeiro, a *organização* é um conceito básico. A configuração do sistema começa com a configuração de uma hierarquia da organização. As finanças comerciais podem ser rastreadas em nível organizacional e também em qualquer nível da hierarquia da organização.
 
@@ -32,7 +32,7 @@ Um ecossistema comercial que consiste em aplicativos do Finance and Operations e
 
 ![Imagem de arquitetura.](media/dual-write-data-flow.png)
 
-Os mapas de tabelas da hierarquia da organização estão disponíveis para sincronização unidirecional de dados de aplicativos do Finance and Operations para o Dataverse.
+Os mapas da tabela da hierarquia da organização estão disponíveis para sincronização unidirecional de dados de aplicativos de Finanças e Operações para o Dataverse.
 
 ## <a name="templates"></a>Modelos
 

@@ -1,16 +1,13 @@
 ---
 title: Personalizar pontos focais da imagem
-description: Este tópico descreve como personalizar pontos focais da imagem no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve como personalizar pontos focais da imagem no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727597"
 ---
 # <a name="customize-image-focal-points"></a>Personalizar pontos focais da imagem
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como personalizar pontos focais da imagem no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
+Este tópico descreve como personalizar pontos focais da imagem no construtor de sites do Microsoft Dynamics 365 Commerce.
 
 Quando uma imagem é carregada na Biblioteca de Mídia do assistente para criação de sites do Commerce, o sistema tenta determinar o ponto focal da imagem. Por exemplo, se a imagem tiver uma pessoa, o sistema definirá o ponto focal para o rosto da pessoa por padrão. Na maioria dos casos, o ponto focal definido automaticamente funciona bem para todas as portas de exibição, mas às vezes você pode ajustar o ponto focal para garantir que uma parte específica da imagem esteja sempre visível.
 
@@ -60,3 +55,6 @@ Para definir um ponto focal personalizado de uma imagem, siga as etapas a seguir
 [Cortar imagens](dam-crop-images.md)
 
 [Carregar e atender arquivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

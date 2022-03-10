@@ -1,7 +1,7 @@
 ---
 title: Criar um produto lançado para uma única empresa
 description: Este procedimento demonstra como criar um único produto lançado no contexto de uma unidade legal única.
-author: ShylaThompson
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasure
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe1f34f268c6427c1381a9cfced49334893acc00
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6755f2112596be661040f1b371cb11f1785815b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833272"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577303"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Criar um produto lançado para uma única empresa
 
@@ -28,7 +28,7 @@ Este procedimento demonstra como criar um único produto lançado no contexto de
 
 
 ## <a name="create-a-released-product"></a>Crie um produto lançado
-1. Vá para Produtos liberados.
+1. Acesse Produtos liberados.
 2. Clique em Novo.
 3. No campo Número do produto, digite um valor.
     * Se um número de produto não é inserido automaticamente no campo Número do produto, digite um número de produto exclusivo. Essa etapa só é necessária se nenhuma sequência numérica foi definida para números de produto.  

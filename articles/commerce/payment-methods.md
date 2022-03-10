@@ -1,12 +1,10 @@
 ---
 title: Métodos de pagamento
 description: Cada tipo de pagamento que o varejista aceita deve ser configurado quando o sistema for configurado. Este artigo descreve os tipos de pagamento que você pode configurar e descreve o processo para defini-los para cima.
-author: rubencdelgado
-manager: AnnBe
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 54bff6b7962ade09ea5c1f5f8d7721757dea1fc3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012357"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779561"
 ---
 # <a name="payment-methods"></a>Métodos de pagamento
 
@@ -48,3 +46,11 @@ Para configurar métodos de pagamento, conclua as tarefas a seguir.
 2. Criar tipos e números de cartão no nível da organização. Se cartões de crédito ou de débito forem aceitos, você deve criar um tipo de método de pagamento com cartões e os tipos e números de cartão no nível da organização.
 3. Configurar método de pagamento da loja. Associe métodos de pagamento a cada loja e insira as configurações específicas da loja para cada método de pagamento.
 4. Configurar métodos de pagamento de cartão para lojas. Para todos os métodos de pagamento de cartão que a loja aceita, conclua a configuração do cartão.
+
+## <a name="handle-change-tendering-for-payment-methods"></a>Processar meio de pagamento de troco para métodos de pagamento
+
+Alguns métodos de pagamento não darão suporte a pagamento de alterações diretas se os fundos forem devolvidos aos clientes durante as transações de ponto de venda. Somente os métodos de pagamento **À vista** e **Moeda** podem ser usados para a alteração do meio de pagamento. 
+
+Para lidar com casos em que o meio de pagamento de troco é necessário durante uma transação, mas o método de pagamento não oferece suporte a ele, você pode definir um método de pagamento de **Meio de pagamento de troco**. Ao configurar métodos de pagamento de armazenamento para a loja, selecione o método de pagamento a ser usado. Na seção **Alterar**, no campo **Meio de pagamento de troco**, insira uma opção de pagamento de meio de pagamento de troco. Por exemplo, você pode inserir **1** para indicar que o pagamento à vista pode ser usada como uma opção de pagamento do meio de pagamento de troco.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579415"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102754"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>​Configurações de ordem padrão para dimensões e grades de produtos​
 
@@ -186,12 +186,9 @@ Você pode escolher o rigor que o sistema deve ser ao validar as quantidades ins
 
 A validação restrita aplica-se aos valores **Quantidade de ordem padrão** especificados nas guias rápidas **Ordem de compra**, **Estoque** e **Ordem de venda** da página **Configurações da ordem padrão**. Cada guia rápida tem sua própria configuração **Múltipla** para validar o valor **Quantidade de ordem padrão** especificado para essa guia rápida.
 
-### <a name="enable-the-strict-validation-option"></a>Habilitar a opção de validação restrita
+### <a name="turn-the-strict-validation-option-on-or-off"></a>Ativar ou desativar a opção de validação estrita
 
-Para que você possa usar a opção de validação restrita, ela deve ser habilitada em seu sistema. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Aqui o recurso está listado como:
-
-- **Módulo** - *Gerenciamento de informações sobre o produto*
-- **Nome do recurso** - *Validação restrita nas quantidades da ordem padrão*
+Para usar a validação estrita, o recurso *Validação estrita em quantidades de ordem padrão* deve estar ativado no sistema. A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, poderá ativar ou desativar essa funcionalidade acessando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e procurando o recurso *Validação estrita em quantidades de ordem padrão*.
 
 ### <a name="set-the-validation-option"></a>Definir a opção de validação
 

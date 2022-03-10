@@ -1,5 +1,5 @@
 ---
-title: Consolidar remessas quando são liberadas para o depósito usando a liberação automática de ordens de venda
+title: Consolidar remessas liberadas para o depósito usando a liberação automática de ordens de venda
 description: Este tópico apresenta um cenário em que várias ordens são liberadas para o depósito no mesmo procedimento periódico automatizado de liberação para o depósito.
 author: GarmMSFT
 ms.date: 05/12/2020
@@ -10,17 +10,17 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFi
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 82a95ecf196ef7c33831da7f4d03df629b17fa53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 10c0b8b9478c8b31957cc08a1a827461c4621b8a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807551"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574272"
 ---
-# <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Consolidar remessas quando são liberadas para o depósito usando a liberação automática de ordens de venda
+# <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>Consolidar remessas liberadas para o depósito usando a liberação automática de ordens de venda
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,7 +40,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 Comece criando uma coleção de ordens de venda com as quais possa trabalhar. Você deve trabalhar com um depósito habilitado para processos de depósito avançados (WMS). A menos que um depósito diferente seja explicitamente mencionado, esse mesmo depósito deve ser usado para cada um dos conjuntos de ordens a seguir.
 
-Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
+Acesse **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
 
 ### <a name="create-order-set-1"></a>Crie o conjunto de ordens 1
 
@@ -231,7 +231,7 @@ Para cada conjunto de ordens de venda criadas anteriormente, você concluirá os
 
 #### <a name="update-the-wave-template-that-will-be-used-during-release"></a>Atualize o modelo de onda que será usado durante a liberação
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Defina o campo **Tipo de modelo de onda** como *Remessa*.
 1. Localize e selecione o modelo de onda associado ao depósito que você usou nos conjuntos de ordens criados para esse cenário. Por exemplo, se você usou depósito *24*, selecione o modelo de onda **Padrão de 24 remessas**. Se você usou depósito *61*, selecione o modelo de onda **61 remessas**.
 1. No Painel de Ações, selecione **Editar**.
@@ -239,7 +239,7 @@ Para cada conjunto de ordens de venda criadas anteriormente, você concluirá os
 
 #### <a name="release-to-the-warehouse"></a>Libere para o depósito
 
-1. Vá para **Gerenciamento de depósito \> Liberar para depósito \> Liberação automática de ordens de venda**.
+1. Acesse **Gerenciamento de depósito \> Liberar para depósito \> Liberação automática de ordens de venda**.
 1. Defina o campo **Quantidade para liberação** como *Todos*.
 1. Na Guia Rápida **Registros para incluir**, selecione **Filtro** para abrir a caixa de diálogo de consulta.
 1. Na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:

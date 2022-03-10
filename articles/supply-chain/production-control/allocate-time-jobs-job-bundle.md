@@ -2,11 +2,9 @@
 title: Alocar tempo para trabalhos em um pacote de trabalhos
 description: Em Execução de fabricação, você pode agrupar trabalhos. Você poderá iniciar vários trabalhos ao mesmo tempo na página Lista de trabalhos.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88c75c67cadcde57f981f4e357b40855709d072d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fb0236f9f39afc67cb5c8cedecee5278a6555d03deefb859fc134a4a4160285b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766598"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Alocar tempo para trabalhos em um pacote de trabalhos
 
@@ -82,7 +80,7 @@ A tabela a seguir ilustra a fórmula para calcular o tempo alocado. Esta é a f�
 ## <a name="net-time-allocation-key"></a>Chave de Alocação do Período Líquido
 A tabela a seguir ilustra a fórmula para calcular o tempo alocado. Esta é a fórmula: Tempo calculado por relatório = Tempo do pacote ÷ Número de trabalhos
 
-|                              | 09:00 – 10:00 (1 hora) | 10:00 – 11:00 (1 hora) | 11:00 – 13:00 (2 horas) | 13:00 – 15:00 (2 horas) | Tempo distribuído |
+| Exemplo                       | 09:00 – 10:00 (1 hora) | 10:00 – 11:00 (1 hora) | 11:00 – 13:00 (2 horas) | 13:00 – 15:00 (2 horas) | Tempo distribuído |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Número de trabalhos no grupo | 1                    | 3                    | 2                     | 1                     | Não aplicável |
 | Trabalho 1                        | 1 ÷ 1 = 1 hora       | 1 ÷ 3 = 0,33 hora    | Não aplicável        | Não aplicável        | 1,33 hora     |

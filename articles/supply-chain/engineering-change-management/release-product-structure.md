@@ -2,11 +2,9 @@
 title: Liberar estruturas de produtos
 description: Este tópico explica como você pode liberar estruturas de produtos completas além de lançar produtos juntamente com suas versões de engenharia. Dessa forma, você pode garantir que os dados de produtos relevantes da engenharia possam ser facilmente reutilizados em diferentes entidades legais.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580906"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567478"
 ---
 # <a name="release-product-structures"></a>Liberar estruturas de produtos
 
@@ -83,7 +81,7 @@ Durante o processo de liberação, você pode influenciar as configurações.
 
 ## <a name="create-and-manage-product-release-policies"></a>Criar e gerenciar políticas de preparação do produto
 
-Para trabalhar com diretivas de liberação de produtos, vá para **Gerenciamento de alteração de engenharia \> Configuração \> Políticas de liberação de produtos**. Siga uma destas etapas.
+Para trabalhar com diretivas de liberação de produtos, Acesse **Gerenciamento de alteração de engenharia \> Configuração \> Políticas de liberação de produtos**. Siga uma destas etapas.
 
 - Para criar uma nova política, selecione **Novo** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.
 - Para editar uma política existente, selecione-o no painel de listas, selecione **Editar** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.
@@ -98,13 +96,14 @@ Defina os campos a seguir no cabeçalho de uma política de versão do produto.
 | Organização | Digite um nome para a política. |
 | descrição | Insira uma descrição para a política. |
 
-### <a name="general-fasttab"></a>FastTab Geral
+### <a name="general-fasttab"></a>Guia Rápida Geral
 
 Defina os campos a seguir na Guia rápida **Geral** de uma política de versão do produto.
 
 | Campo | descrição |
 |---|---|
 | Tipo de Produto | Selecione se a diretiva se aplica a produtos do tipo *Item* ou *Serviço*. Não é possível alterar essa configuração após salvar o registro. |
+| Tipo de produção | Este campo é exibido somente quando você habilita [gerenciamento de alterações de fórmula](manage-formula-changes.md) em seu sistema. Selecione o tipo de produção ao qual essa política de liberação se aplica:<ul><li>**Coproduto**: use esta política de liberação para gerenciar coprodutos. Os coprodutos são produzidos durante o processo de fabricação e não são produtos com versão ou de engenharia. As políticas de liberação para coprodutos podem ajudar a garantir que configurações importantes, como **Grupo de dimensões de armazenamento** e **Grupo de dimensões de rastreamento**, sejam configuradas usando um modelo de produto liberado antes de serem liberadas para uma empresa.</li><li>**Subproduto**: use esta política de liberação para gerenciar subprodutos. Os subprodutos são produzidos durante o processo de fabricação e não são produtos com versão ou de engenharia. As políticas de liberação para subprodutos podem ajudar a garantir que configurações importantes, como **Grupo de dimensões de armazenamento** e **Grupo de dimensões de rastreamento**, sejam configuradas usando um modelo de produto liberado antes de serem liberadas para uma empresa.</li><li>**Nenhum**: use esta política para gerenciar produtos padrão que não tenham controle de versão ou produtos de engenharia, ou coprodutos ou subprodutos.</li><li>**Item de planejamento**: use esta política de liberação para gerenciar itens de planejamento que são produzidos usando a fabricação de processos. Os itens de planejamento usam fórmulas. Eles se parecem com itens de fórmula, mas são usados para produzir apenas coprodutos e subprodutos, não produtos acabados.</li><li>**BOM**: use esta política de liberação para gerenciar produtos de engenharia, que não usam fórmulas e geralmente (mas não necessariamente) incluem BOMs.</li><li>**Fórmula**: use esta política de liberação para gerenciar itens acabados que são produzidos usando a fabricação de processos. Esses itens terão uma fórmula, mas não uma BOM.</li></ul> |
 | Aplicar modelos | Selecione uma das opções a seguir para especificar se e como os modelos de liberação de produto devem ser aplicados quando a diretiva for usada:<ul><li>**Sempre** – Um produto de modelo liberado deve sempre ser usado para lançamentos. Se você selecionar esta opção, use a Guia rápida **Todos os produtos** para especificar o modelo usado para cada empresa para a qual você libera. Se você não especificar um modelo para cada empresa listada na guia **Todos os produtos**, receberá um erro quando tentar salvar a diretiva.</li><li>**Opcional** – Se um produto de modelo liberado for especificado para uma empresa listada na guia **Todos os produtos**, esse modelo será usado quando você liberar para essa empresa. Caso contrário, nenhum modelo será usado. Se você selecionar esta opção, poderá salvar a diretiva sem atribuir modelos a todas as empresas. (Nenhum aviso será exibido.)</li><li>**Nunca** – Nenhum produto de modelo liberado será usado para quaisquer empresas para as quais você libera os produtos, mesmo se um modelo for especificado para empresas que estão listadas na Guia rápida **Todos os produtos**. As colunas do modelo não estarão disponíveis.</li></ul> |
 | Com atividade | Use esta opção para ajudar a manter as políticas de versão. Defina como *Sim* para todas as diretivas de versão que você usa. Defina como *Não* para marcar uma política de liberação como inativa quando ela não for usada. Observe que não é possível desativar uma diretiva de versão atribuída a uma categoria de produto de engenharia, e você pode excluir somente as diretivas de liberação inativas. |
 

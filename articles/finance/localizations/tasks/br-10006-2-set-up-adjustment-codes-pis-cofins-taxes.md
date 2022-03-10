@@ -2,25 +2,22 @@
 title: Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)
 description: Você pode criar transações manuais de ajuste para ajustar os valores de crédito ou débito de PIS e COFINS relatados nos registros M220, M225, M620, M625, M110, M115, M510 e M515.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35832fafa98be407adff37d114f315de6fdfdd4c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6fae6c1fd6d56eb82a39fea3339880e9ae2cd51a976b1dbfc6d04bd3cee342ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734489"
 ---
 # <a name="set-up-adjustment-codes-for-pis-and-cofins-taxes-brazil"></a>Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)
 
@@ -28,7 +25,7 @@ ms.locfileid: "4408405"
 
 Você pode criar transações manuais de ajuste para ajustar os valores de crédito ou débito de PIS e COFINS relatados nos registros M220, M225, M620, M625, M110, M115, M510 e M515. Primeiro você deve criar os códigos de ajuste. O governo brasileiro determina os códigos de ajuste com base em critérios de ajuste e tipo de transação de ajuste. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Tabela de códigos de ajuste de PIS e COFINS.
+1. Acesse Livros fiscais > Configuração > Códigos de ajuste de imposto > Tabela de códigos de ajuste de PIS e COFINS.
 2. Expanda a seção Lançamento.
 3. Clique em Novo.
 4. Na lista, marque a linha selecionada.
@@ -44,3 +41,6 @@ Você pode criar transações manuais de ajuste para ajustar os valores de créd
 14. No campo Código de ajuste, digite um valor.
 15. No campo Válido a Partir da Data, insira uma data.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

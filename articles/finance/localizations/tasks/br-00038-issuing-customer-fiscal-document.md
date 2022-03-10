@@ -2,11 +2,9 @@
 title: Emitir notas fiscais para clientes (Brasil)
 description: É possível emitir uma nota fiscal a um cliente que comprou mercadorias do estabelecimento fiscal.
 author: sndray
-manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3abc9185945963adc76e849f30673c3195d9e7ff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a3e0ea6f1b0fe9969d1de901b401d48cf4f13180c6c85505a1b9edf2b7b07a40
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217346"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744266"
 ---
 # <a name="issue-customer-fiscal-documents-brazil"></a>Emitir notas fiscais para clientes (Brasil)
 
@@ -28,7 +26,7 @@ ms.locfileid: "5217346"
 
 É possível emitir uma nota fiscal a um cliente que comprou mercadorias do estabelecimento fiscal. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+1. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta de cliente, insira ou selecione um valor.
 4. Clique em OK.
@@ -57,7 +55,7 @@ ms.locfileid: "5217346"
 27. Feche a página.
 28. Feche a página.
 29. Feche a página.
-30. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+30. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 31. Clique em OK.
 
 

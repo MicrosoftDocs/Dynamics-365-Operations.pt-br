@@ -1,9 +1,9 @@
 ---
 title: Visão geral de liquidação
 description: Este tópico oferece informações gerais sobre o processo de liquidação. Descreve quais tipos de transação podem ser liquidados e o tempo e o processo para a liquidação. Também descreve os resultados do processo de liquidação.
-author: kweekley
-ms.date: 04/10/2020
-ms.topic: article
+author: panolte
+ms.date: 07/30/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 30a96b377d70c74a29e9e90699ccb077c727b20758378b5336660c6c056c6022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 57f2b209a852bb9513218fab3df118c7d7a2a1e7
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755681"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986374"
 ---
 # <a name="settlement-overview"></a>Visão geral de liquidação
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Este tópico oferece informações gerais sobre o processo de liquidação. Descreve quais tipos de transação podem ser liquidados e o tempo e o processo para a liquidação. Também descreve os resultados do processo de liquidação.
 
@@ -74,9 +76,25 @@ As liquidações também pode gerar transações. Por exemplo, a liquidação de
 
 Ao tentar liquidar uma transação, você pode observar um símbolo que indica que a transação está marcada em outro local. Nesse caso, você pode selecionar a transação na página **Liquidar transações** e selecionar **Consultar \> Liquidação de consulta na janela de liquidação**. A exibição dessa consulta mostra diários, ordens de venda, notas fiscais, propostas de pagamento e localizações de clientes que podem estar impedindo a transação da liquidação. Para resolver o problema, você pode selecionar o link para ir diretamente da consulta para o local bloqueado. Em seguida, você pode atualizar o documento com os ajustes necessários para liquidá-lo. Você também pode usar o indicador **Marcado** para identificar outros documentos incluídos no mesmo local de bloqueio.
 
+## <a name="resolve-issues-with-transactions-that-cant-be-settled"></a>Solucionar problemas com transações que não podem ser resolvidas
+
+Às vezes, você não pode liquidar transações porque outra atividade está processando o documento. Se você tenta liquidar as transações, ocorre um erro, pois essas transações estão sendo usadas. Para corrigir esse problema, você pode usar a página **Detalhes da transação marcada** para localizar transações marcadas para liquidação e identificar outros processos que as estejam acessando.
+
+As transações são marcadas para liquidação quando as faturas do fornecedor estão sendo pagas ou quando os clientes pagam suas faturas em aberto. Ocasionalmente, essas faturas podem já estar marcadas para liquidação. Portanto, os usuários não podem selecioná-las para pagamento. As faturas podem ser marcadas por outro diário de pagamento do cliente, ordem de venda, diário de pagamento do fornecedor ou ordem de compra na entidade legal atual ou em outra.
+
+Se uma transação for bloqueada para liquidação quando você inserir um pagamento de cliente, abra a página **Detalhes da transação marcada pelo cliente** (**Contas a receber \> Tarefas periódicas \> Detalhes da transação marcada pelo cliente**). Para identificar rapidamente onde uma transação está bloqueada, você pode definir qualquer um dos seguintes parâmetros de seleção: **Conta de cliente**, **Comprovante**, **Data** ou **Fatura**. Se você não definir nenhum parâmetro de seleção, o sistema mostrará todos os documentos bloqueados da empresa atual ou de outra empresa que você selecionar. Depois que a transação que foi bloqueada para liquidação for identificada, você poderá selecioná-la e selecionar **Desmarcar transações selecionadas**. A transação selecionada é então removida de qualquer diário que a inclua. No entanto, o documento não é removido do outro local. Apenas as informações de marcação são removidas desse diário.
+
+Se uma transação for bloqueada para liquidação quando você inserir um pagamento de um fornecedor, abra a página **Detalhes da transação marcada pelo fornecedor** (**Contas a pagar \> Tarefas periódicas \> Detalhes da transação marcada pelo fornecedor**). Para identificar rapidamente onde uma transação está bloqueada, você pode definir qualquer um dos seguintes parâmetros de seleção: **Conta de fornecedor**, **Comprovante**, **Data** ou **Fatura**. Se você não definir nenhum parâmetro de seleção, o sistema mostrará todos os documentos bloqueados da empresa atual ou de outra empresa que você selecionar. Depois que a transação for identificada, você poderá selecioná-la e selecionar **Desmarcar transações selecionadas** para corrigir o problema de bloqueio. A transação selecionada é então removida de qualquer outro diário em que esteja selecionada. No entanto, o documento não é removido do outro local. Apenas as informações de marcação são removidas desse diário.
+
+Para identificar todos os documentos bloqueados, abra a página **Todos os detalhes da transação marcada** (**Contas a receber \> Tarefas periódicas \> Todos os detalhes da transação marcada** ou **Contas a pagar \> Tarefas periódicas \> Todos os detalhes da transação marcada**). Para identificar rapidamente onde uma transação está bloqueada, você pode definir qualquer um dos seguintes parâmetros de seleção: **Conta de cliente**, **Conta de fornecedor**, **Comprovante**, **Data** ou **Fatura**. Se você não definir nenhum parâmetro de seleção, o sistema mostrará todos os documentos bloqueados da empresa atual ou de outra empresa que você selecionar. Depois que a transação for identificada, você poderá selecioná-la e selecionar **Desmarcar transações selecionadas** para corrigir o problema de bloqueio. A transação selecionada é então removida de qualquer outro diário em que esteja selecionada. No entanto, o documento não é removido do outro local. Apenas as informações de marcação são removidas desse diário.
+
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho **Gerenciamento de recursos** para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+
+- **Módulo:** gerenciamento de caixa e bancos
+- **Nome do recurso:** formulário de detalhes da transação marcada
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Liquidar pendências](settle-remainder.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

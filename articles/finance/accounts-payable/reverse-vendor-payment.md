@@ -2,11 +2,9 @@
 title: Estornar um pagamento do fornecedor
 description: Este artigo descreve as diferenças entre estornar, excluir, anular e rejeitar um pagamento. Além disso, explica os dois métodos para estornar um cheque de fornecedor.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7112a2f68ff0feccc8db84add53a92f0397c2f90
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2303bf5908137a72b53c7d1aab6343e98a4dad0bb7d315c52611f1356e46c5df
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762178"
 ---
 # <a name="reverse-a-vendor-payment"></a>Estornar um pagamento do fornecedor
 
@@ -82,3 +80,6 @@ Se o cheque estornado foi emitido para um reembolso de cliente, o seguinte tamb�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

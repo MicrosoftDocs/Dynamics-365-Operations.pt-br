@@ -1,12 +1,10 @@
 ---
 title: Designer de fórmulas
 description: Este tópico explica como usar o designer de fórmulas para analisar e manter fórmulas em um modo de exibição de árvore.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f14a536cd2860a290ac90469907ded5de26e1991
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246204"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566825"
 ---
 # <a name="formula-designer"></a>Designer de fórmulas
 

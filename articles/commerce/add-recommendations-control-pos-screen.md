@@ -2,11 +2,9 @@
 title: Adicionar recomendações à tela de transação
 description: Este tópico descreve como adicionar um controle de recomendações à tela de transação em um dispositivo do ponto de venda (PDV) usando o designer de layout de tela no Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6085a69132a4687455282a908d613aa98d2e7a8d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209242"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730998"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Adicionar recomendações à tela de transações
 
@@ -37,7 +35,7 @@ Você pode exibir as recomendações de produtos no dispositivo do PDV ao usar o
 
 ## <a name="open-layout-designer"></a>Abrir o designer do layout
 
-1. Vá para **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Layouts da tela**.
+1. Acesse **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Layouts da tela**.
 2. Use o Filtro Rápido para localizar a tela à qual você deseja adicionar o controle. Por exemplo, filtre o campo **ID do layout da tela** usando um valor de **F2CP16:9M**.
 3. Na lista, localize e selecione o registro desejado. Por exemplo, selecione **Nome: F2CP16:9M ID do layout da tela: F2CP16:9M**.
 4. Clique em **Designer de layout**.
@@ -45,7 +43,7 @@ Você pode exibir as recomendações de produtos no dispositivo do PDV ao usar o
 6. Ao entrar, uma página semelhante à abaixo aparecerá. O layout será diferente dependendo as personalizações feitas para o armazenamento.
 
 
-    [![Designer de layout](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Designer de layout.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Escolher um opção de exibição
 
@@ -60,15 +58,15 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 1. Reduza a altura da área de detalhes das linhas de transação para que ela tenha a mesma altura do painel do cliente à esquerda.
 
 
-    [![Altura da área de detalhes das linhas de transação reduzida](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Altura da área de detalhes das linhas de transação reduzida.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. No menu à esquerda, arraste e solte o controle de recomendações entre a área de detalhes de linhas de transação e a grade de botões na parte inferior do centro da tela de transação. Redimensione o controle para que ele caiba no espaço.
 
-    [![Controle de recomendações adicionado ao layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Controle de recomendações adicionado ao layout.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Clique no **X** para salvar e sair do designer do layout.
-4. No Commerce, vá para **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agendas de distribuição**.
+4. No Commerce, Acesse **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agendas de distribuição**.
 5. Na lista, selecione **1090 Registros**.
 6. Clique em **Executar agora**.
 
@@ -79,19 +77,19 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 
 2. Clique em **Personalizar**.
 
-    [![Personalização - Caixa de diálogo Controle de guias](./media/pic-5.png)](./media/pic-5.png)
+    [![Personalização - Caixa de diálogo Controle de guias.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Clique em **Nova guia**.
 4. Localize a nova guia que você acabou de adicionar. Talvez você precise rolar para baixo.
 5. No menu suspenso **Conteúdos**, selecione **Produtos recomendados**.
 
-    [![Seleção de produtos recomendados no campo Conteúdo](./media/pic-6.png)](./media/pic-6.png)
+    [![Seleção de produtos recomendados no campo Conteúdo.](./media/pic-6.png)](./media/pic-6.png)
 
 6. No campo **Etiqueta**, digite um nome para a guia das recomendações. Por exemplo, digite 'Produtos recomendados'.
 7. No campo **Imagem**, selecione a imagem que aparecerá na guia.
 8. Clique em **OK**. A nova guia aparecerá na grade de botões.
 9. Clique no **X** para salvar e sair do designer do layout.
-10. No Commerce, vá para **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agendas de distribuição**.
+10. No Commerce, Acesse **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agendas de distribuição**.
 11. Na lista, selecione **1090 Registros**.
 12. Clique em **Executar agora**.
 

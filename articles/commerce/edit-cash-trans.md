@@ -2,11 +2,9 @@
 title: Editar e auditar transações cash and carry e de gerenciamento de caixa
 description: Este tópico descreve como editar e auditar transações cash and carry e de gerenciamento de caixa no Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c809f379dbd6824542d0b1768cfbf44f37461f4c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 85c4bd4c03b6ac09f2226d1767deabde1879f869e4b7c4d45e4d4c2a1d8effb3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5114718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765329"
 ---
 # <a name="edit-and-audit-cash-and-carry-and-cash-management-transactions"></a>Editar e auditar transações cash and carry e de gerenciamento de caixa
 
@@ -113,10 +111,13 @@ Para editar em massa transações que não estão vinculadas a um demonstrativo 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Editar e auditar transações da ordem online e assíncronas da ordem do cliente](edit-order-trans.md)
+[Editar e auditar transações da ordem do cliente assíncronas e ordem online](edit-order-trans.md)
 
 [Editar dimensões financeiras para transações de varejo](edit-financial-dim.md)
 
 [Criar uma pasta de trabalho do Excel para editar transações de varejo](create-excel-edit.md)
 
 [Adicionar campos a uma pasta de trabalho do Excel para editar transações de varejo](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

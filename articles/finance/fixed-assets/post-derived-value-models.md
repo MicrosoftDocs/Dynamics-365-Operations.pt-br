@@ -1,7 +1,7 @@
 ---
 title: Lançar com registros de depreciações derivados
 description: Este artigo descreve como usar registros de registros derivadas.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f76b30ebf61e0fc709513d1f5a1670930fab54a51d976df80842c35a2ae10b63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef0c7b2ad93f4a9c4ff24052c749f7891f9e915d
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754233"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675410"
 ---
 # <a name="post-with-derived-books"></a>Lançar com registros de depreciações derivados
 
@@ -34,7 +34,7 @@ Quando você lança transações para um registro que contém registros derivado
 -   Outros valores do tipo de transação também podem ser aplicados. Por exemplo, se o registro principal e os registros de depreciações derivadas tiverem os mesmos intervalos relativos à venda ou à alienação, todos os tipos de transação de ativo fixo estarão disponíveis para a configuração de um registro derivado.
 
 > [!WARNING]
-> A depreciação lançada no registro de depreciações derivadas terá o mesmo valor que foi lançado para o registro principal. Se os métodos de depreciação forem diferentes, as transações de registros não devem ser geradas usando o processo derivado. |
+> A depreciação lançada no registro derivado terá o mesmo valor que foi lançado para o registro principal. Se os métodos de depreciação forem diferentes, as transações de registros não devem ser geradas usando o processo derivado. |
 
 ## <a name="example"></a>exemplo 
 As informações a seguir descrevem como configurar transações de aquisição com a funcionalidade do registro derivado.

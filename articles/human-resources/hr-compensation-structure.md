@@ -1,8 +1,8 @@
 ---
 title: Desenvolver uma estrutura de remuneração
-description: Este artigo mostra como criar um plano de remuneração fixa e inserir funcionários no plano com a qualificação.
-author: andreabichsel
-ms.date: 02/10/2020
+description: Este tópico explica como criar um plano de remuneração fixa e inscrever funcionários no plano com regras de qualificação.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,24 @@ ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPar
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e35f4978cc4e8162c56ba05de28ab5b2366ccc7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732360"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065277"
 ---
 # <a name="develop-a-compensation-structure"></a>Desenvolver uma estrutura de remuneração
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artigo mostra como criar um plano de remuneração fixa e inserir funcionários no plano com a qualificação. Este artigo usa os dados de demonstração de USMF e se aplica aos gerentes de remuneração e benefícios.
+Este tópico descreve como criar um plano de remuneração fixa e inscrever funcionários no plano com regras de qualificação. Este tópico usa os dados de demonstração de USMF e se aplica a gerentes de remuneração e benefícios.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Crie um plano de remuneração fixa
 
@@ -42,7 +45,7 @@ Este artigo mostra como criar um plano de remuneração fixa e inserir funcioná
 
 7. No campo **Tipo**, selecione se o plano de remuneração fixa é um plano **Faixa**, **Classificação** ou **Etapa**.
 
-8. A caixa de seleção **Recomendação permitida** atua como um valor padrão para todas as ações adicionadas a esse plano em um evento de processo. Recomendações para permitir que seja possível substituir o valor de diretriz calculado ao processar a compensação.
+8. A caixa de seleção **Recomendação permitida** será o valor padrão para todas as ações adicionadas a esse plano em um evento de processo. Recomendações para permitir que seja possível substituir o valor de diretriz calculado ao processar a compensação.
 
 9. O campo **Fora da tolerância de faixa salarial** permite que você especifique como deseja manipular os valores de remuneração que estejam fora do intervalo especificado da estrutura de remuneração para o nível específico. Definir o campo **Fora da tolerância de faixa salarial** como **Nenhum** permite usar qualquer valor de remuneração. A **tolerância de meios** adverte os usuários se o valor da remuneração for menor que o valor mínimo ou maior que o valor máximo de ponto de referência para esse nível. Os usuários podem ignorar o aviso e continuar. Uma **tolerância em vigor** gera uma mensagem de erro se a remuneração de um funcionário estiver fora dos pontos de referência mínimo e máximo para o nível e ajustará automaticamente a remuneração do funcionário para estar no intervalo.
 

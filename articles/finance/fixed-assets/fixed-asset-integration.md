@@ -1,29 +1,26 @@
 ---
 title: Integração de ativos fixos
 description: Ativos fixos podem ser integrados à Contabilidade, ao Gerenciamento de estoque, a Contas a receber e a Contas a pagar. Você também pode configurar os Ativos fixos para que sejam integrados às ordens de compra.
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fb1348a3a3c47e5fd7df46d9ce4af3725d8896b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e53d171ba0b9be7bbfffa25c27bd21fe036acee
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440334"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674766"
 ---
 # <a name="fixed-assets-integration"></a>Integração de ativos fixos
 
@@ -31,8 +28,7 @@ ms.locfileid: "4440334"
 
 Ativos fixos podem ser integrados à Contabilidade, ao Gerenciamento de estoque, a Contas a receber e a Contas a pagar. Você também pode configurar os Ativos fixos para que sejam integrados às ordens de compra.
 
-<a name="general-ledger"></a>Contabilidade
---------------
+## <a name="general-ledger"></a>Contabilidade
 
 Na Contabilidade, o valor de todos os ativos fixos geralmente é resumido em várias contas principais que são exigidas para relatório financeiro. No entanto, na página **Ativos fixos**, você pode criar muitos registros de ativo fixo. Esses registros podem incluir informações como preço de aquisição, depreciação e avaliação. Toda vez que você lançar uma transação para um ativo fixo, as contas principais adequadas serão atualizadas. As contas principais dos ativos fixos sempre mostram o valor atualizado dos ativos fixos.
 
@@ -95,3 +91,6 @@ Para obter mais informações, consulte [Adquirir ativos por meio de compras](ac
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,33 +1,30 @@
 ---
-title: Recebimento da placa de licença por meio do aplicativo de depósito
-description: Este tópico explica como configurar o aplicativo de depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
+title: Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito
+description: Este tópico explica como configurar o aplicativo móvel Gerenciamento de Depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422566"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103043"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Recebimento da placa de licença por meio do aplicativo de depósito
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o aplicativo de depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
+Este tópico explica como configurar o aplicativo móvel Gerenciamento de Depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
 
 Você pode usar esta funcionalidade para registrar rapidamente o recebimento de um estoque de entrada relacionado a um aviso de embarque (ASN). O sistema automaticamente cria um ASN quando os processos de gerenciamento do depósito forem usados para remeter uma ordem de transferência. Para o processo da ordem de compra, um ASN pode ser registrado manualmente ou importado automaticamente usando um processo de entidade de dados do ASN de entrada.
 
@@ -73,26 +70,24 @@ Para disponibilizar essa funcionalidade no seu sistema, você deverá ativar o r
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Mostrar ou ignorar a página de resumo do recebimento
 
-Você pode usar o recurso *Controlar a exibição de uma página de resumo do recebimento em dispositivos móveis* para usar um fluxo de aplicativo adicional detalhado do Depósito como parte do processo de recebimento da placa de licença.
+Você pode usar o recurso *Controlar a exibição de uma página de resumo do recebimento em dispositivos móveis* para usar um fluxo adicional detalhado do aplicativo móvel Gerenciamento de Depósito como parte do processo de recebimento da placa de licença.
 
 Quando este recurso estiver ativado, os itens do menu do dispositivo móvel do recebimento da placa de licença ou do recebimento e armazenamento da placa de licença fornecerão uma configuração para **Exibir página de resumo do recebimento**. Essa configuração tem as seguintes opções:
 
 - **Exibir um resumo detalhado** – Durante o recebimento da placa de licença, os trabalhadores verão uma página extra que mostra as informações completas do ASN.
 - **Ignorar o resumo** – Os funcionários não verão as informações completas do ASN. Os trabalhadores de depósito também não poderão definir um código de disposição nem adicionar exceções durante o processo de recebimento.
 
-Para tornar esta funcionalidade disponível no sistema, você deve ativar o recurso *Controlar se é necessário exibir uma página de resumo de recebimento em dispositivos móveis* no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esta funcionalidade, o recurso *Controlar se uma página de resumo do recebimento* deve ser ativado para o sistema. A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Controlar se uma página de resumo do recebimento deve ser exibida em dispositivos móveis* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Impedir que as placas de licença remetidas da ordem de transferência sejam usadas em depósitos diferentes do depósito de destino
 
 Um processo de recebimento de placa de licença não pode ser usado se o ASN contiver uma ID de placa de licença já existente e dados físicos disponíveis em um local de depósito diferente do local de depósito no qual o registro da placa de licença ocorre.
 
-Para cenários de ordem de transferência nos quais o depósito de trânsito não rastreia placas de licença (e, portanto, não rastreia o estoque físico disponível por placa de licença), é possível usar o recurso *Impedir que as placas de licença remetidas da ordem de transferência sejam usadas em depósitos diferentes do depósito de destino* para impedir atualizações de placas de licença físicas disponíveis que ainda estão em trânsito.
-
-Para disponibilizar essa funcionalidade no seu sistema, você deverá ativar o recurso *Impedir que placas de licença remetidas em ordem de transferência sejam usadas em depósitos diferentes do que o depósito de destino* no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para cenários de ordem de transferência nos quais o depósito de trânsito não rastreia placas de licença (e, portanto, não rastreia o estoque físico disponível por placa de licença), é possível usar o recurso *Impedir que as placas de licença remetidas da ordem de transferência sejam usadas em depósitos diferentes do depósito de destino* para impedir atualizações de placas de licença físicas disponíveis que ainda estão em trânsito. Para disponibilizar essa funcionalidade, o recurso *Impedir que placas de licença remetidas em ordem de transferência sejam usadas em depósitos diferentes do que o depósito de destino* deve ser ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior a 10.0.25, os administradores poderão ativar ou desativar esse recurso pesquisando-o no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Para gerenciar a funcionalidade quando esse recurso estiver disponível, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Geral** no FastTab **Placas de licença**, defina o campo **Política da placa de licença do depósito de trânsito** com um dos seguintes valores:
 
     - **Permitir reutilização de placa de licença não rastreada** – O sistema funciona da mesma forma quando o recurso *Impedir que as placas de licença remetidas da ordem de transferência sejam usadas em depósitos diferentes do depósito de destino* não está disponível. Esse valor é a configuração padrão quando você ativa o recurso pela primeira vez.
@@ -105,3 +100,6 @@ Para obter mais informações sobre itens do menu do dispositivo móvel, consult
 Para obter mais informações sobre o cenário de produção de *Relatar como concluído*, consulte a [Visão geral de políticas de trabalho de depósito](warehouse-work-policies.md).
 
 Para obter mais informações sobre o gerenciamento de carga de entrada, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

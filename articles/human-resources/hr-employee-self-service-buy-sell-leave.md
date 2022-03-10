@@ -1,31 +1,31 @@
 ---
 title: Comprar e vender licenças
-description: No Dynamics 365 Human Resources, você pode enviar solicitações para comprar e vender licenças com base nas políticas de licença de compra e venda configuradas por sua empresa.
-author: andreabichsel
-manager: tfehr
-ms.date: 08/20/2020
+description: Este tópico descreve como enviar solicitações para comprar e vender licenças no Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveBuyRequestEntry, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cafb9b8f0de535e804b49926b8d572f57f98e457
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 2ddc50540ba0686f18b6e8875e40f11c378c448f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464119"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067470"
 ---
 # <a name="buy-and-sell-leave"></a>Comprar e vender licenças
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -50,6 +50,12 @@ Os saldos serão atualizados automaticamente ou passarão por um processo de apr
 3. Selecione **Enviar** quando estiver pronto para enviar sua solicitação.
 
 Os saldos serão atualizados automaticamente ou passarão por um processo de aprovação antes da atualização. Isso depende de como a política de compras foi configurada.
+
+
+## <a name="troubleshooting"></a>Solução de problemas 
+
+Se um fluxo de trabalho de solicitação de licença de compra ou venda falhar, os usuários com o privilégio **EssLeaveBuySellRequestApprover** podem analisar o registro de mensagens para todas as solicitações de compra e venda de licenças. Para isso, acesse **Licença e ausência > Vínculos > Comprar e vender pedidos de licença > Registro de mensagens** (no canto superior esquerdo). O **Registro de mensagens** mostra aos usuários como as transações foram processadas e o histórico de fluxo de trabalho associado.
+
 
 ## <a name="see-also"></a>Consulte também
 

@@ -2,9 +2,7 @@
 title: Função de ER SESSIONNOW
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) SESSIONNOW é usada.
 author: NickSelin
-manager: kfend
 ms.date: 12/04/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a79e8055a4b5025e1b1c4ab91875cf165fa8b354
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fc532a96c7e52e6a12877ae88d1a6183829a1282d43c7df52dd90e536a7e3d75
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734807"
 ---
 # <a name="sessionnow-er-function"></a>Função de ER SESSIONNOW
 

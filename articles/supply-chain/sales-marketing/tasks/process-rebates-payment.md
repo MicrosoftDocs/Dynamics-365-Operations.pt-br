@@ -1,7 +1,7 @@
 ---
 title: Processar reembolsos para pagamento
 description: Este procedimento demonstra como converter reembolsos de cliente aprovados e processados para notas de crédito.
-author: omulvad
+author: Henrikan
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c617abd6ad715fff658451a7af3e775cf5e83292
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5ce813f0f5d9aa750828b524dd9fdf9b4a9f0854
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816451"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572425"
 ---
 # <a name="process-rebates-for-payment"></a>Processar reembolsos para pagamento
 
@@ -27,7 +27,7 @@ Este procedimento demonstra como converter reembolsos de cliente aprovados e pro
 
 
 ## <a name="convert-rebate-claims-to-credit-note"></a>Converter reivindicações de reembolso para nota de crédito.
-1. Vá para Todos os clientes.
+1. Acesse Todos os clientes.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. No Painel de Ação, clique em Coletar.

@@ -2,11 +2,9 @@
 title: Cancelar um trabalho de planejamento
 description: Este tópico explica como cancelar um trabalho de planejamento ativo que usa a funcionalidade de otimização do planejamento.
 author: ChristianRytt
-manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 5aadf7fb94bb2d836892064837f9cb1c5790d657
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 85dffae7e5484d34d0cfa4bf44649fcdd69fc36804802ad9f02c122adf5d9785
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238005"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771444"
 ---
 # <a name="cancel-a-planning-job"></a>Cancelar um trabalho de planejamento
 
@@ -37,7 +35,7 @@ Para cancelar um trabalho de planejamento ativo, siga estas etapas.
 > [!NOTE]
 > Somente é possível cancelar trabalhos ativos.
 
-1. Vá para **Planejamento mestre \> Configuração \> Planos**.
+1. Acesse **Planejamento mestre \> Configuração \> Planos**.
 2. Selecione um plano apropriado para a execução do planejamento.
 3. Selecione **Histórico**.
 4. Selecione o trabalho de planejamento a ser cancelado.

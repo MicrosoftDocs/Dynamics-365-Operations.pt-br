@@ -1,12 +1,10 @@
 ---
 title: Integração dos contratos de serviço e projetos
 description: Quando você trabalha com contratos de serviço e linhas de contrato de serviço, usa os dados configurados nas áreas em Gerenciamento e contabilidade do projeto.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd0a7de17e8ff098220fd183b714b77225cc217f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a43a8bab6a5e5ea527f4a062feea79b4313cb56f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247301"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578791"
 ---
 # <a name="integration-for-service-agreements-and-projects"></a>Integração dos contratos de serviço e projetos 
 

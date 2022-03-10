@@ -1,29 +1,31 @@
 ---
 title: Criar um calendário de horário de trabalho
 description: Defina um calendário de horário de trabalho, feriados e horário não comercial no Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/01/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 67b951cccae7708f8d831ff1d83738dc49360a48
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794508"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068910"
 ---
 # <a name="create-a-working-time-calendar"></a>Criar um calendário de horário de trabalho
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -65,7 +67,7 @@ Você pode adicionar ou alterar feriados e recessos separadamente de um calendá
 
 Você pode adicionar ou alterar horários não comerciais separadamente de um calendário de horário de trabalho.
 
-1. Na página **Administração da organização**, selecione **Horário não comercial**.
+1. Na página **Administração da organização**, selecione **HORÁRIO NÃO COMERCIAL**.
 
 2. Selecione **Novo** e insira um nome e o intervalo de tempo para o horário não comercial.
 
