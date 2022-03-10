@@ -1,26 +1,24 @@
 ---
 title: Copiar fornecedores usando sequências numéricas compartilhadas
 description: Este tópico explica como usar sequências numéricas compartilhadas para copiar um fornecedor para outra entidade legal mantendo a mesma ID.
-author: mikefalkner
-manager: aolson
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c528ea166ad634bf4fe8b1e047dbd6696dff029b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214491"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358456"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copiar fornecedores usando sequências numéricas compartilhadas
 
@@ -38,9 +36,9 @@ Você também poderá copiar fornecedores entre entidades legais se usar as IDs 
 
 ## <a name="copy-a-vendor"></a>Copiar um fornecedor
 
-Para copiar um fornecedor, selecione **Novo** na página da lista **Todos os fornecedores** para abrir a página **Todos os fornecedores, novo registro**. Observe que a nova ID de fornecedor não é atribuída imediatamente. Esse comportamento difere do comportamento de versões anteriores. Como você ainda não escolheu o grupo de fornecedores, o sistema não pode determinar a sequência numérica correta a ser usada. Além disso, ele não consegue determinar se você está tentando criar um fornecedor ou copiar um já existente. Portanto, a ID de fornecedor não é atribuída até que você escolha **Salvar** na parte inferior da página.
+Para copiar um fornecedor, selecione **Novo** na página da lista **Todos os fornecedores** para abrir a página **Todos os fornecedores, novo registro**. A nova ID de fornecedor não é atribuída imediatamente. Esse comportamento difere do comportamento de versões anteriores. Como você ainda não escolheu o grupo de fornecedores, a sequência numérica correta a ser usada não poderá ser determinada. Além disso, ele não consegue determinar se você está tentando criar um fornecedor ou copiar um já existente. Portanto, a ID de fornecedor não é atribuída até que você escolha **Salvar** na parte inferior da página.
 
-Se você estiver criando um fornecedor, continue preenchendo todos os campos da forma usual. Depois que terminar e **Salvar**, você verá que a ID do fornecedor foi atribuída automaticamente. No caso das sequências numéricas manuais, você verá que a ID manual do fornecedor foi usada.
+Se você estiver criando um fornecedor, continue preenchendo todos os campos da forma usual. Depois de terminar e selecionar **Salvar**, a ID do fornecedor é atribuída automaticamente. No caso das sequências numéricas manuais, você verá que a ID manual do fornecedor foi usada.
 
 Para copiar um fornecedor, insira no campo **Nome** um ou mais caracteres que representam o fornecedor que você está procurando. Uma caixa de diálogo de pesquisa mostra uma lista de participantes que podem ser o fornecedor que você procura. Quando você selecionar um dos participantes, informações adicionais aparecerão no lado direito da caixa de diálogo:
 
@@ -56,11 +54,11 @@ Você pode copiar um participante somente se ele tiver uma função de fornecedo
 
 ## <a name="validation"></a>Validação
 
-Ao copiar um fornecedor, o sistema tenta salvar as novas informações dele. São executadas validações para verificar se os dados que foram copiados estão corretos. Você receberá uma mensagem de erro para que cada validação com falha. As mensagens de erro mostram quais informações devem ser atualizadas. A cópia do fornecedor não pode ser salva até que você corrija os erros de validação.
+Ao copiar um fornecedor, haverá uma tentativa de salvar as informações sobre o novo fornecedor. São executadas validações para verificar se os dados que foram copiados estão corretos. Você receberá uma mensagem de erro para que cada validação com falha. As mensagens de erro mostram quais informações devem ser atualizadas. A cópia do fornecedor não pode ser salva até que você corrija os erros de validação.
 
 ## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a>Copiar um fornecedor usando o recurso de pesquisa do número de isenção de imposto
 
-Você também pode copiar fornecedores usando o recurso de pesquisa do número de isenção de imposto, que é encontrado no grupo **Registro** da guia **Fornecedor**, no Painel de Ações da página **Todos os fornecedores**. A caixa de diálogo **Pesquisa de número de isenção de imposto** exibida mostra os números de isenção de imposto, a ID e o nome do fornecedor, e a entidade legal em que a ID de isenção de imposto é usada. Você pode copiar um fornecedor somente se ele estiver em uma entidade legal que não a atual. Após selecionar um fornecedor que atende a esse critério, realize as etapas a seguir.
+Você também pode copiar fornecedores usando o recurso de pesquisa **Número de isenção de imposto** no grupo **Registro** da guia **Fornecedor**, no Painel de Ações da página **Todos os fornecedores**. A caixa de diálogo **Pesquisa de número de isenção de imposto** exibida mostra os números de isenção de imposto, a ID e o nome do fornecedor, e a entidade legal em que a ID de isenção de imposto é usada. Você pode copiar um fornecedor somente se ele estiver em uma entidade legal que não a atual. Após selecionar um fornecedor que atende a esse critério, realize as etapas a seguir.
 
 1. A opção **Copiar fornecedor** é exibida. Por padrão, essa opção é definida como **Não**. Para copiar o fornecedor para a entidade legal atual, defina-a como **Sim**.
 2. Escolha **Selecionar**. O fornecedor foi criado.
