@@ -2,7 +2,7 @@
 title: Criar um site de comércio eletrônico
 description: Este tópico descreve as etapas e informações necessárias para criar um novo site de comércio eletrônico no assistente para criação de sites do Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 02/03/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090760"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388202"
 ---
 # <a name="create-an-e-commerce-site"></a>Criar um site de comércio eletrônico
 
@@ -30,6 +30,19 @@ ms.locfileid: "8090760"
 Este tópico descreve as etapas e informações necessárias para criar um novo site de comércio eletrônico no assistente para criação de sites do Dynamics 365 Commerce.
 
 Quando você licenciar os recursos do Dynamics 365 Commerce, o construtor de sites será provisionado com um site de início que você poderá usar como base para seu próprio site. Mas se você quiser começar do zero ou estabelecer um segundo site, precisará estabelecer um novo site no ambiente de criação de sites. 
+
+## <a name="site-creation-prerequisites"></a>Pré-requisitos de criação de site
+
+Um usuário do criador de sites deve ter uma conta de usuário do Microsoft Azure Active Directory (Azure AD) incluída no grupo de segurança atribuído do Azure AD para os administradores de sistema de comércio eletrônico. Para obter mais informações, consulte [Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md).
+
+> [!NOTE]
+> Os usuários convidados do Azure AD podem ter permissões de acesso diferentes no seu locatário do Azure AD. Mesmo se incluídos no grupo de segurança atribuído do Azure AD para os administradores de sistema de comércio eletrônico, um usuário convidado talvez precise que as configurações de permissão de **Usuários externos** do Azure AD sejam ajustadas para criar um site de comércio eletrônico no Commerce. 
+
+Para ajustar as configurações de **Usuários externos** do Azure AD, siga estas etapas.
+
+1. No portal do Azure, navegue até o locatário do Azure AD.
+1. Acesse **Configurações de usuário \> Usuários externos** e selecione o link **Gerenciar configurações de colaboração externa**. Isso abre a página **Configurações de colaboração externa**, em que o acesso de usuário convidado, as configurações de convite de convidados e as restrições de colaboração podem ser definidas. 
+1. Ajuste as configurações de colaboração externa de acordo com as políticas de segurança de sua empresa. 
 
 ## <a name="set-up-your-site"></a>Configurar seu site
 

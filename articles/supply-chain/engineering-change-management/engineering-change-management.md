@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102901"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384659"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gerenciar alterações em produtos de engenharia
 
@@ -49,7 +49,7 @@ Uma nova solicitação de alterações é criada. Agora você pode definir campo
 
 A FastTab **Geral** permite que você forneça uma descrição básica da solicitação de alterações. A tabela a seguir descreve os campos nessa FastTab.
 
-| Campo | descrição |
+| Campo | Descrição |
 |---|---|
 | Solicitação de alteração | Insira um nome para a solicitação de alterações de engenharia. |
 | Cargo | Digite o texto que descreve brevemente ou identifica as alterações na solicitação. |
@@ -217,5 +217,15 @@ A maioria dos campos em ordens de alteração de engenharia são iguais aos camp
 
 Você pode usar o botão **Manter/copiar informações de alteração** para copiar informações de alteração entre os produtos afetados.
 
+## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Usar assinaturas eletrônicas para aprovar e ativar BOMs e roteiros
+
+Para usar assinaturas eletrônicas para aprovar e/ou ativar alterações de listas de materiais (BOM) e/ou roteiros, vá para **Administração da organização \> Configuração \> Assinatura eletrônica \> Assinatura eletrônica**. Verifique se cada um dos seguintes itens tem **Assinatura necessária** definida como *Sim*:
+
+- Ativar lista de materiais de produto da ordem de alteração de engenharia
+- Ativar roteiro de produto da ordem de alteração de engenharia
+- Aprovar lista de materiais de produto da ordem de alteração de engenharia
+- Aprovar roteiro de produto da ordem de alteração de engenharia
+- Aprovar lista de materiais da versão de engenharia e versões de lista de materiais
+- Aprovar versão de engenharia e versão do roteiro
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

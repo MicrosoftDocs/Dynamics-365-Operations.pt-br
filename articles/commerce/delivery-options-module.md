@@ -2,7 +2,7 @@
 title: Módulo de opções de entrega
 description: Este tópico abrange os módulos de opções de entrega e explica como configurá-los no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 69d3da5cbee5d7b921b0b0b422d838b9821e9c877d6f1951e85aeb49474bd4bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760891"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349785"
 ---
 # <a name="delivery-options-module"></a>Módulo de opções de entrega
 
@@ -55,6 +55,9 @@ A ilustração a seguir mostra um exemplo de um módulo de opções de entrega e
 ## <a name="add-a-delivery-options-module-to-a-checkout-page-and-set-the-required-properties"></a>Adicionar um módulo de opções de entrega a uma página de finalização da compra e definir as propriedades necessárias
 
 Um módulo de opções de entrega pode ser adicionado somente a um módulo de finalização da compra. Para obter mais informações sobre como configurar o módulo de opções de entrega e adicioná-lo a uma página de finalização da compra, consulte [Módulo de finalização da compra](add-checkout-module.md).
+
+> [!NOTE]
+> Você pode experimentar um tratamento de entrega inconsistente ou talvez não veja encargos no nível de cabeçalho não rateados no canal de comércio eletrônico. Para obter orientação sobre como corrigir esses problemas, consulte [Habilitar o processamento do modo de entrega consistente em canais de comércio eletrônico](consistent-delivery-mode-handling.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

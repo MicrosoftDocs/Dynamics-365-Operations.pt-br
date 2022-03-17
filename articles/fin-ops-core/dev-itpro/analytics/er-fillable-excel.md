@@ -2,7 +2,7 @@
 title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
-ms.date: 01/05/2022
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952643"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388254"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -83,31 +83,48 @@ Na guia **Mapeamento** do designer de operação do ER, você pode configurar a 
 
 ## <a name="range-component"></a>Componente Intervalo
 
-O componente **Intervalo** indica um intervalo do Excel que deve ser controlado por esse componente ER. O nome do intervalo é definido na propriedade **Intervalo do Excel** deste componente.
-
-### <a name="replication"></a>Replicação
-
-A propriedade **Direção da replicação** especifica se e como o intervalo será repetido em um documento gerado:
-
-- Se a propriedade **Direção da replicação** estiver definida como **Sem replicação**, o intervalo do Excel apropriado não será repetido no documento gerado.
-- Se a propriedade **Direção da replicação** estiver definida como **Vertical**, o intervalo do Excel apropriado será repetido no documento gerado. Todo intervalo replicado é colocado abaixo do intervalo original em um modelo do Excel. O número de repetições é definido pelo número de registros em uma fonte de dados do tipo **Lista de registros** que está associada a este componente ER.
-- Se a propriedade **Direção da replicação** estiver definida como **Horizontal**, o intervalo do Excel apropriado será repetido no documento gerado. Todo intervalo replicado é colocado à direita do intervalo original em um modelo do Excel. O número de repetições é definido pelo número de registros em uma fonte de dados do tipo **Lista de registros** que está associada a este componente ER.
-
-Para saber mais sobre a replicação horizontal, siga as etapas em [Usar intervalos expansíveis horizontalmente para adicionar colunas dinamicamente nos relatórios do Excel](tasks/er-horizontal-1.md).
-
 ### <a name="nested-components"></a>Componentes aninhados
 
-O componente **Intervalo** pode ter outros componentes ER aninhados que são usados para inserir valores nos intervalos nomeados apropriados do Excel.
+#### <a name="data-typing"></a>Digitação de dados
+
+O componente **Intervalo** pode ter outros componentes ER aninhados que são usados para inserir valores nos intervalos apropriados.
 
 - Se qualquer componente do grupo **Texto** for usado para inserir valores, o valor será inserido em um intervalo do Excel como um valor de texto.
 
     > [!NOTE]
     > Use este padrão para formatar valores inseridos com base na localidade definida no aplicativo.
 
-- Se o componente **Célula** do grupo **Excel** for usado para inserir valores, o valor será inserido em um intervalo do Excel como um valor do tipo de dados definido pela associação do componente **Célula** (por exemplo, **Cadeia de caracteres**, **Real** ou **Inteiro**).
+- Se o componente **Célula** do grupo **Excel** for usado para inserir valores, o valor será inserido em um intervalo do Excel como um valor do tipo de dados definido pela associação do componente **Célula**. Por exemplo, o tipo de dados pode ser **Cadeia de caracteres**, **Real** ou **Inteiro**.
 
     > [!NOTE]
     > Use este padrão para permitir que o aplicativo Excel formate valores inseridos com base na localidade do computador local que abre o documento de saída.
+
+#### <a name="row-handling"></a>Tratamento de linhas
+
+O componente **Intervalo** pode ser configurado como verticalmente replicado para que várias linhas sejam geradas em uma planilha do Excel. As linhas podem ser geradas pelo componente **Intervalo** principal ou pelos componentes **Intervalo** aninhados.
+
+Na versão 10.0.26 e posterior, você pode forçar uma planilha gerada para manter as linhas geradas na mesma página. No designer de formato ER, defina a opção **Manter linhas juntas** como **Sim** para o componente **Intervalo** principal no formato ER editável. Em seguida, o ER tentará manter todo o conteúdo gerado por esse intervalo na mesma página. Se a altura do conteúdo exceder o espaço restante na página atual, uma quebra de página será adicionada e o conteúdo será iniciado na parte superior da próxima página nova.
+
+> [!NOTE]
+> É recomendável configurar a opção **Manter linhas juntas** somente para intervalos que abranjam toda a largura de um documento gerado.
+>
+> A opção **Manter linhas juntas** é aplicável somente aos componentes **Excel \> Arquivo** que estão configurados para usar um modelo de pasta de trabalho do Excel.
+>
+> A opção **Manter linhas juntas** pode ser usada somente quando o recurso **Habilitar o uso da biblioteca de EPPlus na estrutura de relatório eletrônico** está habilitado.
+>
+> Esse recurso pode ser usado para componentes **Intervalo** que residem no componente **Página**. No entanto, não há garantia de que os [totais do rodapé de página](er-paginate-excel-reports.md#add-data-sources-to-calculate-page-footer-totals) serão calculados corretamente usando fontes de dados de [Coleta de dados](er-data-collection-data-sources.md).
+
+Para saber como usar esta opção, siga as etapas do exemplo em [Criar um formato ER para manter as linhas juntas na mesma página do Excel](er-keep-excel-rows-together.md).
+
+### <a name="replication"></a>Replicação
+
+A propriedade **Direção da replicação** especifica se e como um intervalo será repetido em um documento gerado:
+
+- **Nenhuma replicação** – o intervalo apropriado do Excel não será repetido no documento gerado.
+- **Vertical** – o intervalo apropriado do Excel será repetido verticalmente no documento gerado. Cada intervalo replicado será colocado abaixo do intervalo original em um modelo do Excel. O número de repetições é definido pelo número de registros em uma fonte de dados do tipo **Lista de registros** que está associada a este componente ER.
+- **Horizontal** – o intervalo apropriado do Excel será repetido horizontalmente no documento gerado. Cada intervalo replicado será colocado à direita do intervalo original em um modelo do Excel. O número de repetições é definido pelo número de registros em uma fonte de dados do tipo **Lista de registros** que está associada a este componente ER.
+
+    Para saber mais sobre a replicação horizontal, siga as etapas em [Usar intervalos expansíveis horizontalmente para adicionar colunas dinamicamente nos relatórios do Excel](tasks/er-horizontal-1.md).
 
 ### <a name="enabling"></a>Habilitando
 
@@ -280,12 +297,12 @@ Quando um documento de saída é gerado em um formato de pasta de trabalho do Mi
 
 - Selecione **Automático** para recalcular todas as fórmulas dependentes toda vez que um documento gerado for acrescentado por novos intervalos, células etc.
 
-    >[!NOTE]
+    > [!NOTE]
     > Isso pode causar um problema de desempenho para os modelos do Excel que contêm várias fórmulas relacionadas.
 
 - Selecione **Manual** para evitar o recálculo de fórmulas quando um documento é gerado.
 
-    >[!NOTE]
+    > [!NOTE]
     > O recálculo da fórmula é forçado manualmente quando um documento gerado é aberto para visualização usando o Excel.
     > Não use esta opção se você configurar um destino ER que suponha o uso de um documento gerado sem sua visualização no Excel (conversão em PDF, email, etc.) como o documento gerado pode não conter valores nas células que contêm fórmulas.
 

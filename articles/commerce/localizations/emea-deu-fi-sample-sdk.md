@@ -2,23 +2,24 @@
 title: Diretrizes de implantação para o exemplo de integração do serviço de registro fiscal da Alemanha (herdado)
 description: Este tópico fornece diretrizes para a implantação do exemplo de integração fiscal da Alemanha do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 98641f9989322feb77ab683df66c2c1f9ad50a0d
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c578420783a8d19fe4a1522486e0b0146a390722
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077056"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388175"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Diretrizes de implantação para o exemplo de integração do serviço de registro fiscal da Alemanha (herdado)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este tópico fornece diretrizes para a implantação do exemplo de integração do serviço de registro fiscal da Alemanha do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce em uma máquina virtual de desenvolvedor (VM) no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre este exemplo de integração fiscal, consulte [Exemplo de integração fiscal da Alemanha](emea-deu-fi-sample.md). 
 
@@ -59,7 +60,7 @@ Os componentes de extensão do CRT são incluídos nos exemplos de CRT. Para con
 3. Copie o arquivo assembly para a pasta de extensões do CRT:
 
     - **Commerce Scale Unit:** Copie o arquivo para a pasta **\\bin\\ext** no local do site do Commerce Scale Unit do IIS.
-    - **CRT local no POS moderno:** Copie o arquivo para a pasta **\\ext** no local do agente do cliente CRT local.
+    - **CRT local no PDV moderno:** Copie o arquivo para a pasta **\\ext** no local do agente do cliente CRT local.
 
 4. Localize o arquivo de configuração da extensão do CRT:
 
@@ -85,11 +86,15 @@ Os componentes de extensão do CRT são incluídos nos exemplos de CRT. Para con
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsGermany" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>Habilitar extensões da estação de hardware
+### <a name="enable-fiscal-connector-extensions"></a>Habilitar extensões do conector fiscal
+
+Você pode habilitar extensões do conector fiscal na [estação de hardware](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) ou no [terminal de PDV](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
+
+#### <a name="enable-hardware-station-extensions"></a>Habilitar extensões da estação de hardware
 
 Os componentes de extensão da estação de hardware são incluídos nos exemplos da estação de hardware. Para concluir os procedimentos a seguir, abra a solução **HardwareStationSamples.sln** em **RetailSdk\\SampleExtensions\\HardwareStation**.
 
-#### <a name="efrsample-component"></a>Componente EFRSample
+##### <a name="efrsample-component"></a>Componente EFRSample
 
 1. Encontre o projeto **HardwareStation.Extension.EFRSample** e crie-o.
 2. Na pasta **Extension.EFRSample\\bin\\Debug**, encontre os seguintes arquivos de montagem:
@@ -112,6 +117,30 @@ Os componentes de extensão da estação de hardware são incluídos nos exemplo
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
+
+#### <a name="enable-pos-extensions"></a>Habilitar extensões do PDV
+
+O exemplo de extensão de PDV está localizado na pasta **src\\FiscalIntegration\\PosFiscalConnectorSample** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
+
+Para usar o exemplo de extensão PDV no SDK herdado, siga estas etapas.
+
+1. Copie a pasta **Pos.Extension** na pasta **Extensões** de PDV do SDK herdado (por exemplo, `C:\RetailSDK\src\POS\Extensions`).
+1. Renomeie a cópia da pasta **Pos.Extension** como **PosFiscalConnector**.
+1. Remova as seguintes pastas e arquivos da pasta **PosFiscalConnector**:
+
+    - compartimento
+    - DataService
+    - devDependencies
+    - Bibliotecas
+    - obj
+    - Contoso.PosFiscalConnectorSample.Pos.csproj
+    - RetailServerEdmxModel.g.xml
+    - tsconfig.json
+
+1. Abra a solução **CloudPos.sln** ou **ModernPos.sln**.
+1. No projeto **Pos.Extensions**, inclua a pasta **PosFiscalConnector**.
+1. Abra o arquivo **extensions.json** e adicione a extensão **PosFiscalConnector**.
+1. Crie o SDK.
 
 ### <a name="production-environment"></a>Ambiente de produção
 
@@ -210,3 +239,26 @@ As seguintes configurações são adicionadas:
 - **Endereço do ponto de extremidade** – A URL do serviço de registro fiscal.
 - **Tempo limite** – O período, em milissegundos (ms), que o driver aguardará por uma resposta do serviço de registro fiscal.
 - **Mostrar notificações do registro fiscal** – Se este parâmetro for ativado, as notificações do serviço fiscal serão mostradas como mensagens do usuário no PDV.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Design de extensão do conector fiscal PDV
+
+A finalidade da extensão do conector fiscal PDV é comunicar-se com o serviço de registro fiscal do PDV. Ele usa o protocolo HTTPS para comunicação.
+
+#### <a name="fiscal-connector-factory"></a>Fábrica do conector fiscal
+
+A fábrica do conector fiscal mapeia o nome do conector para a implementação do conector fiscal e está localizada no arquivo **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. O nome do conector deve corresponder ao nome do conector fiscal especificado na sede do Commerce.
+
+#### <a name="efr-fiscal-connector"></a>Conector fiscal EFR
+
+O conector fiscal EFR está localizado no arquivo **Pos.Extension\\Connectors\\Efr \\EfrFiscalConnector.ts**. Ele implementa a interface **IFiscalConnector** que dá suporte às seguintes solicitações:
+
+- **FiscalRegisterSubmitDocumentClientRequest** – Esta solicitação envia documentos para o serviço de registro fiscal e retorna uma resposta dele.
+- **FiscalRegisterIsReadyClientRequest** – Esta solicitação é usada para uma verificação do serviço de registro fiscal.
+- **FiscalRegisterInitializeClientRequest** – Esta solicitação é usada para inicializar o serviço de registro fiscal.
+
+#### <a name="configuration"></a>Configuração
+
+O arquivo de configuração está localizado na pasta **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+
+- **Endereço do ponto de extremidade** – A URL do serviço de registro fiscal.
+- **Tempo limite** – O período, em milissegundos, que o conector aguardará por uma resposta do serviço de registro fiscal.

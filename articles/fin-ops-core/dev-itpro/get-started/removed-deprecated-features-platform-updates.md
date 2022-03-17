@@ -1,8 +1,8 @@
 ---
 title: Recursos de plataforma removidos ou obsoletos
-description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
+description: Este tópico descreve os recursos que foram removidos ou planejados para remoção em atualizações de plataforma de aplicativos de finanças e operações.
 author: sericks007
-ms.date: 12/16/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927470"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384711"
 ---
-# <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
+# <a name="removed-or-deprecated-platform-features"></a>Recursos de Platform removidos ou preteridos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
+Este tópico descreve os recursos que foram removidos ou planejados para remoção em atualizações de plataforma de aplicativos de finanças e operações.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+Informações detalhadas sobre objetos em aplicativos de Finanças e Operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de Finanças e Operações.
 
 ## <a name="feature-removal-effective-october-2021"></a>Remoção de recursos em outubro de 2021
 
@@ -67,7 +67,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Opção de implantação**              | Tudo |
 | **Status**                         | Preterido  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.23 dos aplicativos do Finance and Operations
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.23 de aplicativos de finanças e operações
 
 ### <a name="ondbsynchronize-event"></a>Evento OnDBSynchronize
 
@@ -90,7 +90,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Opção de implantação**              | Tudo |
 | **Status**                         | Preterido. A data de remoção planejada é abril de 2023. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.21 dos aplicativos do Finance and Operations
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.21 de aplicativos de finanças e operações
 
 ### <a name="skype-for-business-online-support"></a>Suporte do Skype for Business Online
 
@@ -145,12 +145,12 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Para reduzir a sobrecarga de operação, monitoramento e manutenção do gerenciamento de índices pelos clientes, este recurso foi removido. |
 | **Substituída por outro recurso?**   | A partir de agora, a manutenção do índice será realizada pelos serviços da Microsoft. Isso ocorrerá continuamente sem afetar as cargas de trabalho do usuário. |
-| **Áreas afetadas do produto**         | Aplicativos Finance and Operations|
+| **Áreas afetadas do produto**         | Aplicativos do Finance and Operations|
 | **Opção de implantação**              | Implantação na nuvem - afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
 | **Status**                         | Este recurso foi removido. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.17 dos aplicativos do Finance and Operations
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.17 de aplicativos de finanças e operações
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
@@ -177,24 +177,25 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Os artefatos de metadados associados ao Dynamics AX 2012 Enterprise Portal (EP) foram preteridos, pois o EP nunca teve suporte nos aplicativos do Finance and Operations. |
-| **Substituída por outro recurso?**   | Não |
+| **Motivo para a reprovação/remoção** | Os artefatos de metadados associados ao Dynamics AX 2012 Enterprise Portal (EP) foram preteridos, pois o EP nunca teve suporte nos aplicativos de finanças e operações. |
+| **Substituída por outro recurso?**   | Número |
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: todo o código do EP está programado para ser removido na versão de outubro de 2021. |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.15 dos aplicativos do Finance and Operations
+## <a name="deprecation-effective-december-2020"></a>Substituição efetiva em dezembro de 2020
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Suporte do Internet Explorer 11 para Dynamics 365 foi substituído
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | A partir de dezembro de 2020, o suporte do Internet Explorer 11 da Microsoft para todos os produtos Dynamics 365 é preterido e Internet Explorer 11 não receberá suporte depois de agosto de 2021.<br><br>Isso afetará os clientes que usam os produtos do Dynamics 365 projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não terá suporte para esses produtos do Dynamics 365. |
+| **Motivo para a reprovação/remoção** | Desde dezembro de 2020, foi preterido o suporte do Microsoft Internet Explorer 11 para todos os produtos do Dynamics 365 e o Dynamics Lifecycle Services (LCS). O Internet Explorer 11 não tem mais suporte desde agosto de 2021.<br><br>Isso afetará os clientes que usam produtos do Dynamics 365 e o LCS projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não tem suporte para esses produtos do Dynamics 365 e o LCS. |
 | **Substituída por outro recurso?**   | Recomendamos que os clientes façam a transição para o Microsoft Edge.|
-| **Áreas afetadas do produto**         | Todos os produtos do Dynamics 365 |
-| **Opção de implantação**              | Todas|
+| **Áreas afetadas do produto**         | Todos os produtos do Dynamics 365 e o LCS |
+| **Opção de implantação**              | Todos|
 | **Status**                         | Preterido: Internet Explorer 11 não terá suporte depois de agosto de 2021.|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.15 de aplicativos de finanças e operações
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Suplemento do Visual Studio para aplicar hotfixes de metadados
 
@@ -207,7 +208,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Status**                         | Com a versão 10.0.15, o suplemento não é mais incluído nas ferramentas do Visual Studio. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.14 dos aplicativos do Finance and Operations
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.14 de aplicativos de finanças e operações
 
 ### <a name="online-users-page"></a>Página de usuários online 
 
@@ -220,7 +221,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Status**                         | Em outubro de 2021 este formulário será removido.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.13 dos aplicativos do Finance and Operations
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.13 de aplicativos de finanças e operações
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Código personalizado definido nas propriedades do relatório SSRS 
@@ -264,19 +265,19 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Status**                         | Na versão 10.0.13/Platform update 37, o recurso de exibições salvas está geralmente disponível e os clientes podem ativar esse recurso opcionalmente. O recurso de exibições salvas se tornará obrigatório na versão de outubro de 2021. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.12 de aplicativos de finanças e operações
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensões do formulário de controle de grade ou grupo contendo referências de campo inválidas
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | A propriedade de grupo de dados nos controles de grade ou grupo é usada para mostrar automaticamente todos os campos de um grupo de campos. Um controle de grade ou grupo adicionado por extensão pode conter campos que não estejam mais definidos no grupo de campos ou que talvez não tenham campos definidos no grupo de campos. Isso pode causar inconsistência no comportamento em tempo de execução. Agora, as atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations categorizam esse problema como um *aviso* do compilador. Para corrigir esse problema, abra a extensão do formulário e salve-a.
+| **Motivo para a reprovação/remoção** | A propriedade de grupo de dados nos controles de grade ou grupo é usada para mostrar automaticamente todos os campos de um grupo de campos. Um controle de grade ou grupo adicionado por extensão pode conter campos que não estejam mais definidos no grupo de campos ou que talvez não tenham campos definidos no grupo de campos. Isso pode causar inconsistência no comportamento em tempo de execução. As atualizações de plataforma para a versão 10.0.12 dos aplicativos de finanças e operações categorizam esse problema como um *aviso* do compilador. Para corrigir esse problema, abra a extensão do formulário e salve-a.
 | **Substituída por outro recurso?**   | Este aviso do compilador será substituído por um erro do compilador em uma atualização futura. |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Um aviso do compilador foi introduzido em atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations. |
+| **Status**                         | Um aviso do compilador foi apresentado em atualizações de plataforma para a versão 10.0.12 dos aplicativos de finanças e operações. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.11 de aplicativos de finanças e operações
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Listas de confiança explícitas para ambientes de autoatendimento
 
@@ -302,11 +303,11 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Os grupos de campos nas definições de metadados da tabela podem conter referências de campo inválidas. Se esses grupos de campos forem implantados, eles pode causar falhas de tempo de execução no Financial Reporting e no Microsoft SQL Server Reporting Services (SSRS). A platform update 23 apresentou um *aviso* do compilador que permitiu que esse problema de metadados fosse solucionado. As atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations categorizam esse problema como um *erro* do compilador.<p>Para corrigir esse problema, siga estas etapas.</p><ol><li>Remova a referência de campo inválida da definição do grupo de campos da tabela.</li><li>Recompilar.</li><li>Certifique-se de que os erros sejam solucionados.</li></ol> |
+| **Motivo para a reprovação/remoção** | Os grupos de campos nas definições de metadados da tabela podem conter referências de campo inválidas. Se esses grupos de campos forem implantados, eles pode causar falhas de tempo de execução no Financial Reporting e no Microsoft SQL Server Reporting Services (SSRS). A platform update 23 apresentou um *aviso* do compilador que permitiu que esse problema de metadados fosse solucionado. As atualizações de plataforma para a versão 10.0.11 dos aplicativos de finanças e operações categorizam esse problema como um *erro* do compilador.<p>Para corrigir esse problema, siga estas etapas.</p><ol><li>Remova a referência de campo inválida da definição do grupo de campos da tabela.</li><li>Recompilar.</li><li>Certifique-se de que os erros sejam solucionados.</li></ol> |
 | **Substituída por outro recurso?**   | Este erro do compilador substitui permanentemente o aviso do compilador.  |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: o aviso do compilador é um erro de compilador nas atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations. |
+| **Status**                         | Preterido: o aviso do compilador é um erro do compilador em atualizações de plataforma para a versão 10.0.11 de aplicativos de finanças e operações. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licenças ISV criadas usando o algoritmo de hash SHA1
 

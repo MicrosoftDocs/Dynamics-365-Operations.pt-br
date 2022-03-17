@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068100"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384475"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -210,9 +210,9 @@ Atualmente, não há suporte para a seguinte funcionalidade de gerenciamento de 
 - Processar com itens habilitados somente para Gerenciamento de transporte (TMS).
 - Processar com estoque disponível negativo.
 - Compartilhamento de dados interempresarial para produtos. <!-- Planned -->
-- Processar trabalho de depósito com notas de remessa.
-- Processar trabalho de depósito com manuseio de material/automação do depósito.
+- Processamento de trabalho de depósito com notas de remessa (por exemplo, notas de embalagem na estação de embalagens).
 - Imagens de dados de produto mestre (por exemplo, no aplicativo móvel Warehouse Management).
+- Processar trabalho de depósito com manuseio de material/automação do depósito.
 
 > [!WARNING]
 > Algumas funcionalidades de depósito não estarão disponíveis para depósitos que executam as cargas de trabalho de gerenciamento de depósito em uma unidade de escala e também não terão suporte no hub ou na carga de trabalho da unidade de escala.
@@ -235,10 +235,9 @@ A tabela a seguir mostra quais recursos de saída têm suporte e onde, quando as
 | Processamento de ciclo remessa                                     | Não  |Sim, exceto **Criação e classificação de carga** |
 | Manter remessas para o ciclo                                  | Não  | Sim|
 | Processamento de trabalho de depósito (incluindo a impressão da placa de licença)        | Não  | Sim, mas somente para os recursos mencionados anteriormente |
-| Separação de cluster                                              | Não  | Sim|
-| Processamento manual de embalagens, incluindo o processamento do trabalho "separação de contêiner embalado" | Número <P>É possível fazer processamentos parciais depois que um processo de separação inicial é tratado por uma unidade de escala, mas não é recomendável devido às operações bloqueadas a seguir.</p>  | Não |
-| Remover o contêiner do grupo                                  | Não  | Não |
-| Processamento de classificação de saída                                  | Não  | Não |
+| Separação de cluster                                              | Número  | Sim|
+| Processamento manual de estação de embalagem  | Número  | Número |
+| Processamento de classificação de saída                                  | Número  | Número |
 | Impressão de documentos relacionados ao carregamento                           | Sim | Sim|
 | Conhecimento de embarque e geração de ASN                            | Não  | Sim|
 | Confirmação de remessa                                             | Não  | Sim|
@@ -258,6 +257,7 @@ A tabela a seguir mostra quais recursos de saída têm suporte e onde, quando as
 | Estornar confirmação da remessa                                | Número  | Sim|
 | Solicitação para cancelar linhas da ordem de depósito                      | Sim | Não, mas a solicitação será aprovada ou rejeitada |
 | <p>Liberar ordens de transferência para recebimento</p><p>Esse processo ocorrerá automaticamente como parte do processo de remessa da ordem de transferência. No entanto, ele pode ser usado manualmente para habilitar o recebimento da placa de licença em uma unidade organizacional, caso as linhas da ordem de depósito de entrada tenham sido canceladas ou como parte de um novo processo de implantação da carga de trabalho.</p> | Sim | Número|
+<!--| Processamento manual da estação de embalagem, incluindo o trabalho de "separação de contêiner embalado"  | Número  | Sim, mas sem manifestação de envio TMS e postagem de guia de remessa de vendas nem notas de embalagem e imagens de produtos |-->
 
 ### <a name="inbound"></a>Entrada
 
@@ -359,6 +359,7 @@ Na implantação do hub, você pode manter manualmente os seguintes trabalhos em
     - Processador de mensagens de unidade de escala para hub
     - Registrar recebimentos de ordem de origem
     - Concluir ordens de depósito
+    - Gerar ordens de depósito de saída ausentes
 
 - Gerencie estes trabalhos em lotes em **Gerenciamento de depósito \> Tarefas periódicas \> Gerenciamento de carga de trabalho**:
 

@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3030bc7d2501e2162758c94c0dc1a073655c9c0f
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: df0d2178d1ebd3dcb154e2c4f7821a4007da55d4
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182496"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8331733"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Pagamentos centralizados para Contas a pagar
 
 [!include [banner](../includes/banner.md)]
 
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este tópico fornece exemplos que mostram como ocorre o lançamento de pagamentos centralizados em diversos cenários.
-
-As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Além disso, a organização economiza tempo, já que o processo de pagamento é simplificado.
 
 Em uma organização de pagamentos centralizados, existem muitos entidade legal para operações, e cada entidade legal operacional gerencia as próprias faturas de fornecedor. Os pagamentos para todas as entidades legais operacionais são gerados de uma única entidade legal, conhecida como a entidade legal do pagamento. Durante o processo de liquidação, as transações a vencer ou vencidas aplicáveis são geradas. Você pode especificar qual entidade legal dentro da organização receberá as transações de ganho ou perda realizada e como são tratadas as transações com desconto à vista relacionadas a pagamentos de empresa cruzada. Na linha do diário de pagamentos centralizado, o **Tipo de conta** deve ser definido como fornecedor. O **Tipo de contrapartida** deve ser definido como banco ou razão. A conta bancária deve estar na empresa atual. 
 

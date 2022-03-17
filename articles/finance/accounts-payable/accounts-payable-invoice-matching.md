@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "27361"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7ffcd731b127b9a51551d4fe966dcfd69a34e54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2959df58dbde71ba516c1a230e64d38b885c23f5
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984068"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358210"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Visão geral sobre conciliação de faturas de contas a pagar
 
@@ -36,24 +36,24 @@ Por exemplo, você insere uma ordem de compra com um item de linha para mil bate
 
 Uma fatura é recebida para 1.000 baterias pelo preço de 1,10 cada. A política da entidade legal permite uma tolerância de preço unitário líquido de 5 por cento para essa categoria de item. Um preço de 1,05 seria aceitável, mas 1,10 não. Quando você inserir as informações da fatura, uma discrepância na conciliação é identificada e você pode salvar a fatura até que a discrepância seja resolvida.
 
-Você pode usar os seguintes tipos de conciliação de faturas de contas a pagar:
+Você pode usar os seguintes tipos de **conciliação de faturas de contas a pagar**:
 
--   Conciliação de totais de fatura – Concilia os valores totais na fatura com valores totais da ordem de compra. Esse tipo de conciliação de faturas inclui o menor valor de detalhe, de forma que você possa usar esta opção para configurar os controles que minimizam o tempo da equipe que são necessários para rever as informações na conciliação de faturas.
--   Conciliação dupla – Concilia as informações sobre preços na fatura com as informações sobre preço na ordem de compra.
--   Conciliação tripla – Concilia as informações sobre preços na fatura com as informações sobre preço na ordem de compra. Também concilia as informações de quantidade na fatura com as informações de quantidade nos recebimentos de produtos que estão selecionados na fatura.
--   Conciliação de encargos – Concilia as informações de encargos (valores) na fatura com as informações de encargo (valores) na ordem de compra.
+-   **Conciliação de totais de fatura** – Concilia os valores totais na fatura com valores totais da ordem de compra. Esse tipo de conciliação de faturas inclui o menor valor de detalhe, de forma que você possa usar esta opção para configurar os controles que minimizam o tempo da equipe que são necessários para rever as informações na conciliação de faturas.
+-   **Conciliação dupla** – Concilia as informações sobre preços na fatura com as informações sobre preço na ordem de compra.
+-   **Conciliação tripla** – Concilia as informações sobre preços na fatura com as informações sobre preço na ordem de compra. Também concilia as informações de quantidade na fatura com as informações de quantidade nos recebimentos de produtos que estão selecionados na fatura.
+-   **Conciliação de encargos** – Concilia as informações de encargos (valores) na fatura com as informações de encargo (valores) na ordem de compra.
 
 > [!NOTE]
 > A validação de outros formulários de fatura pode ser feita usando as políticas de fatura do fornecedor. 
 
 A conciliação dupla e a conciliação tripla conciliam as informações de preço pelo preço da unidade. Você também pode configurar essas políticas de conciliação para informações de preço de conciliação pelo preço total.
--   Conciliação de preço líquido unitário - Concilia as informações de preço para conciliações duplas ou triplas comparando o preço líquido unitário para cada linha na fatura com o preço líquido unitário na ordem de compra. O preço líquido unitário é determinado pela seguinte fórmula: Valor líquido da linha / Quantidade da linha
--   Conciliação dos totais de preço - Concilia as informações de preço para conciliações duplas ou triplas comparando o valor líquido (total do preço) para cada linha na fatura com o valor líquido na ordem de compra. O valor líquido é determinado pela seguinte fórmula: *(Preço unitário \* Quantidade da linha) + Encargos da linha - Descontos da linha*. Ao combinar os totais de preços por porcentagem, o sistema compara os valores usando a moeda da transação. Ao combinar totais de preço por valor, o sistema compara os valores usando a moeda contábil. Quando você fatura parcialmente uma linha da ordem de compra, a validação da conciliação de preço total ocorre na fatura dessa linha. 
+-   **Conciliação de preço líquido unitário** – Concilia as informações de preço para conciliações duplas ou triplas comparando o preço líquido unitário para cada linha na fatura com o preço líquido unitário na ordem de compra. O preço líquido unitário é determinado pela seguinte fórmula: Valor líquido da linha / Quantidade da linha
+-   **Conciliação dos totais de preço** – Concilia as informações de preço para conciliações duplas ou triplas comparando o valor líquido (total do preço) para cada linha na fatura com o valor líquido na ordem de compra. O valor líquido é determinado pela seguinte fórmula: *(Preço unitário \* Quantidade da linha) + Encargos da linha - Descontos da linha*. Ao combinar os totais de preços por porcentagem, o sistema compara os valores usando a moeda da transação. Ao combinar totais de preço por valor, o sistema compara os valores usando a moeda contábil. Quando você fatura parcialmente uma linha da ordem de compra, a validação da conciliação de preço total ocorre na fatura dessa linha. 
 
-Normalmente, os cálculos de conciliação de fatura são executados automaticamente quando você edita as faturas de fornecedor na página Fatura de fornecedor. Como alternativa, a conciliação de faturas pode ser executada sob demanda, conforme necessário. A conciliação de faturas sob demanda é controlada para a entidade legal pela função Atualizar automaticamente o status do cabeçalho da fatura para na página Parâmetros de contas a pagar na guia Validação de fatura. A conciliação de faturas também pode ser realizada como parte de um processo de revisão de fatura. Você pode exibir os resultados da conciliação de faturas na página Fatura de fornecedor e nas páginas de conciliação de faturas relacionadas.
+Normalmente, os cálculos de conciliação de fatura são executados automaticamente quando você edita as faturas de fornecedor na página **Fatura de fornecedor**. Como alternativa, a conciliação de faturas pode ser executada sob demanda, conforme necessário. A conciliação de faturas sob demanda é controlada para a entidade legal pelo status do cabeçalho **Atualizar automaticamente a fatura** na página **Parâmetros de contas a pagar** na guia **Validação de fatura**. A conciliação de faturas também pode ser realizada como parte de um processo de revisão de fatura. Você pode exibir os resultados da conciliação de faturas na página **Fatura de fornecedor** e nas páginas de conciliação de faturas relacionadas.
 
 ## <a name="invoice-totals-matching"></a>Conciliação de totais de fatura
-Você pode usar a conciliação de totais de fatura para ajudar a garantir que os valores totais da fatura não desviem dos valores esperados em um valor maior do que a variação aceitável. Seis totais são comparados na página Detalhes da conciliação de totais de fatura, conforme mostrado na tabela. Se a tolerância permitida para conciliação de totais da fatura for 20%, a porcentagem de variação de 100% para o valor do desconto total é considerada uma discrepância na conciliação.
+Você pode usar a conciliação de totais de fatura para ajudar a garantir que os valores totais da fatura não desviem dos valores esperados em um valor maior do que a variação aceitável. Seis totais são comparados na página **Detalhes da conciliação de totais de fatura**, conforme mostrado na tabela. Se a tolerância permitida para conciliação de totais da fatura for 20%, a porcentagem de variação de 100% para o valor do desconto total é considerada uma discrepância na conciliação.
 
 | Campo Total    | Total da fatura real | Total da fatura esperado | Porcentagem de variação | Status de conciliação |
 |----------------|----------------------|------------------------|---------------------|--------------|
@@ -64,7 +64,7 @@ Você pode usar a conciliação de totais de fatura para ajudar a garantir que o
 | Arredondamento      | 0,00                 | 0,00                   | 0%                  | Aprovado       |
 | Valor da fatura | 699,88               | 687,50                 | 2%                  | Aprovado       |
 
-A conciliação de totais de fatura é controlada para a entidade legal pela alternância dos totais de faturas de correspondência na página Parâmetros de contas a pagar. A conciliação é realizada nos totais da fatura esperada e nos totais da fatura real. Os totais de fatura esperados são calculados com base nos preços, encargos e informações de imposto da ordem de compra e das quantidades da fatura.
+A conciliação de totais de fatura é controlada para a entidade legal pela alternância dos **Totais de faturas de correspondência** na página **Parâmetros de contas a pagar**. A conciliação é realizada nos totais da fatura esperada e nos totais da fatura real. Os totais de fatura esperados são calculados com base nos preços, encargos e informações de imposto da ordem de compra e das quantidades da fatura.
 
 ## <a name="two-way-price-totals-matching"></a>Conciliação de totais de preço dupla
 Use a conciliação dupla para ajudar a garantir que a variação entre as informações de preço na ordem de compra e a invoice está dentro das tolerâncias aceitáveis. Você pode comparar as informações de preço para o valor líquido de cada linha da fatura e todas as linhas na fatura pendentes e lançadas anteriormente, com o valor líquido da linha da ordem de compra correspondente. Isso é chamado de conciliação de totais de preço. 
@@ -74,33 +74,33 @@ A conciliação de totais de preço podem ser baseada em uma porcentagem, um val
 Se uma porcentagem de tolerância do total de preço de compra for especificada, cinco campos são comparados, como mostra a tabela a seguir. Como a porcentagem de tolerância do total de preço de compra é 10%, a porcentagem de variação total do preço de 50% representa uma discrepância na conciliação.
 
 | Status de conciliação | Valor líquido da fatura | Valor líquido esperado | Total de preço de compra não conciliado (valor de variação) | Porcentagem total de preço de compra não conciliado (porcentagem de variação) | Porcentagem de tolerância do total de preço de compra |
-|--------------|--------------------|---------------------|--------------------------------------------------|-----------------------------------------------------------------|----------------------------------------|
-| Aprovado       | 105,00             | 100,00              | 5,00                                             | 5%                                                              | 10%                                    |
-| Falhou       | 150,00             | 100,00              | 50,00                                            | 50%                                                             | 10%                                    |
+|--------------|--------------------|---------------------|--------------------------------------------------|--------------------------------|---------------------------|
+| Aprovado       | 105,00             | 100,00              | 5,00                                             | 5%                             | 10%                 |
+| Falhou       | 150,00             | 100,00              | 50,00                                            | 50%                            | 10%                     |
 
 Se um valor de tolerância do total de preço de compra for especificado, cinco campos são comparados, como mostra a tabela a seguir. Como o valor de tolerância do total de preço de compra é 100,00%, o valor de variação do total do preço de 105,00 representa uma discrepância na conciliação.
 
 | Status de conciliação | Valor líquido da fatura | Valor líquido esperado | Total de preço de compra não conciliado (valor de variação) | Total de preço de compra não conciliado na moeda contábil (valor de variação) | Tolerância do total de preço de compra |
-|--------------|--------------------|---------------------|--------------------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Aprovado       | 150,00             | 100,00              | 50,00                                            | 50,00                                                                   | 100,00                         |
-| Falhou       | 205,00             | 100,00              | 105,00                                           | 105,00                                                                  | 100,00                         |
+|--------------|--------------------|---------------------|-----------------------------------------------|-------------------------------|--------------------------------|
+| Aprovado       | 150,00             | 100,00              | 50,00                                            | 50,00                    | 100,00                         |
+| Falhou       | 205,00             | 100,00              | 105,00                                           | 105,00                  | 100,00                         |
 
 Se a conciliação dos totais do preço estiver definida com uma tolerância de porcentagem e uma tolerância de valor, algumas vezes considerado um valor que não deve ser excedido, ambas tolerâncias são consideradas ao avaliar uma linha como discrepância de conciliação. Se a porcentagem ou o valor excederem a tolerância, como mostrado nas linhas 150,00 e 205,00 na tabela a seguir, a linha tem uma discrepância de conciliação.
 
 | Status de conciliação | Valor líquido da fatura | Valor líquido esperado | Porcentagem total de preço de compra não conciliado (porcentagem de variação) | Porcentagem de tolerância do total de preço de compra | Total de preço de compra não conciliado na moeda contábil (valor de variação) | Tolerância do total de preço de compra |
-|--------------|--------------------|---------------------|-----------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Aprovado       | 105,00             | 100,00              | 5%                                                              | 10%                                    | 5,00                                                                    | 100,00                         |
-| Falhou       | 150,00             | 100,00              | 50%                                                             | 10%                                    | 50,00                                                                   | 100,00                         |
-| Falhou       | 205,00             | 100,00              | 105%                                                            | 10%                                    | 105,00                                                                  | 100,00                         |
+|--------------|--------------------|---------------------|-----------------------------|------------------|----------------------------------|--------------------------------|
+| Aprovado       | 105,00             | 100,00              | 5%                     | 10%                         | 5,00           | 100,00                         |
+| Falhou       | 150,00             | 100,00              | 50%                   | 10%                     | 50,00            | 100,00                         |
+| Falhou       | 205,00             | 100,00              | 105%                 | 10%                      | 105,00                                  | 100,00                         |
 
-A conciliação dupla é controlada para a entidade legal no campo Política de conciliação de linha na página Parâmetros de contas a pagar. Dependendo da seleção no campo Permitir a substituição da política de conciliação, você pode selecionar a conciliação dupla para um fornecedor, item ou combinação de item e fornecedor específica na página Política de conciliação, e para uma ordem de compra específica na página Ordem de compra.
+A conciliação dupla é controlada para a entidade legal no campo **Política de conciliação de linha** na página **Parâmetros de contas a pagar**. Dependendo da seleção no campo **Permitir a substituição da política de conciliação**, você pode selecionar a conciliação dupla para um fornecedor, item ou combinação de item e fornecedor específica na página **Política de conciliação**, e para uma ordem de compra específica na página **Ordem de compra**.
 
-A conciliação de totais de preço é controlada para a entidade legal pela pelo campo Conciliar totais de preço na página Parâmetros de contas a pagar. A porcentagem e o valor de tolerância (valor que não deve ser excedido) do total do preço da compra também são especificados na página.
+A conciliação de totais de preço é controlada para a entidade legal pela pelo campo **Conciliar totais de preço** na página **Parâmetros de contas a pagar**. A porcentagem e o valor de tolerância (valor que não deve ser excedido) do total do preço da compra também são especificados na página.
 
 ## <a name="two-way-net-unit-price-matching"></a>Conciliação de preço líquido unitário
 Use a conciliação dupla para ajudar a garantir que a variação entre as informações de preço na ordem de compra e a invoice está dentro das tolerâncias aceitáveis. Você pode comparar as informações de preço unitário para o preço unitário de cada item na fatura. Isso é chamado de conciliação do preço líquido. 
 
-Nove valores de linha são comparados na página Detalhes da conciliação de fatura, conforme mostrado na tabela. Se a tolerância de preço permitida para conciliação de preço é 10%, a variação 22,61% do preço unitário líquido será considerada uma discrepância na conciliação.
+Nove valores de linha são comparados na página **Detalhes da conciliação de fatura**, conforme mostrado na tabela. Se a tolerância de preço permitida para conciliação de preço é 10%, a variação 22,61% do preço unitário líquido será considerada uma discrepância na conciliação.
 
 | Campo Linha                    | Valor da fatura | Valor da ordem de compra | Porcentagem de variação | Status de conciliação |
 |-------------------------------|---------------|----------------------|---------------------|--------------|
@@ -114,9 +114,9 @@ Nove valores de linha são comparados na página Detalhes da conciliação de fa
 | Valor líquido                    | 271,60        | 221,52               | 22,61%              | Falhou       |
 | Preço líquido unitário                | 67,9000       | 55,3800              | 22,61%              | Falhou       |
 
-A conciliação dupla é controlada para a entidade legal no campo Política de conciliação de linha na página Parâmetros de contas a pagar. Dependendo da seleção no campo Permitir a substituição da política de conciliação, você pode selecionar a conciliação dupla para um fornecedor, item ou combinação de item e fornecedor específica na página Política de conciliação, e para uma ordem de compra específica na página Ordem de compra. 
+A conciliação dupla é controlada para a entidade legal no campo **Política de conciliação de linha** na página **Parâmetros de contas a pagar**. Dependendo da seleção no campo **Permitir a substituição da política de conciliação**, você pode selecionar a conciliação dupla para um fornecedor, item ou combinação de item e fornecedor específica na página **Política de conciliação**, e para uma ordem de compra específica na página **Ordem de compra**. 
 
-A conciliação de preço líquido unitário é controlada para a entidade legal pelo campo Permitir validação de conciliação de fatura na página Parâmetros de contas a pagar. As porcentagens de tolerância de preços líquidos unitários podem ser configuradas para itens, grupos de itens, fornecedores, grupos de fornecedores, combinações de item e fornecedor ou entidade legal usando a página Tolerâncias de preço.
+A conciliação de preço líquido unitário é controlada para a entidade legal pelo campo **Permitir validação de conciliação de fatura** na página **Parâmetros de contas a pagar**. As porcentagens de tolerância de preços líquidos unitários podem ser configuradas para itens, grupos de itens, fornecedores, grupos de fornecedores, combinações de item e fornecedor ou entidade legal usando a página **Tolerâncias de preço**.
 
 ## <a name="two-way-price-totals-matching-and-net-unit-price-matching"></a>Conciliação de totais de preço dupla e conciliação de preços unitários líquidos
 Você pode usar a conciliação de totais de preço e a conciliação de preços unitários juntas. Este exemplo supõe a seguinte configuração:
@@ -162,10 +162,10 @@ Os mesmos valores de linha são comparados na página Detalhes da conciliação 
 | Faturar quantidade               | 4,00          |              |
 | Total de recebimentos de produtos conciliados | 0,00          | Falhou       |
 
-A conciliação tripla é controlada para a entidade legal no campo Política de conciliação de linha na página Parâmetros de contas a pagar. Dependendo da seleção no campo Permitir a substituição da política de conciliação, você pode selecionar a conciliação tripla para um fornecedor, item ou combinação de item e fornecedor específica na página Política de conciliação, e para uma ordem de compra específica na página Ordem de compra.
+A conciliação tripla é controlada para a entidade legal no campo **Política de conciliação de linha** na página **Parâmetros de contas a pagar**. Dependendo da seleção no campo **Permitir a substituição da política de conciliação**, você pode selecionar a conciliação tripla para um fornecedor, item ou combinação de item e fornecedor específica na página **Política de conciliação**, e para uma ordem de compra específica na página **Ordem de compra**.
 
 ## <a name="charges-matching"></a>Conciliação de encargos
-Você pode usar a conciliação de encargos para ajudar a garantir que os valores de encargos não desviem dos valores esperados em um valor maior do que a porcentagem aceitável. Os valores totais para cada código de encargos que se aplicam à fatura e ordem de compra são comparados na página Comparar valores de encargos - Fatura: como mostra a tabela a seguir. Se a tolerância permitida para o código de encargos é 25%, a porcentagem de variação de 99.999.999.999,99% para o código de encargos de licença é considerada uma discrepância na conciliação.
+Você pode usar a conciliação de encargos para ajudar a garantir que os valores de encargos não desviem dos valores esperados em um valor maior do que a porcentagem aceitável. Os valores totais para cada código de encargos que se aplicam à fatura e ordem de compra são comparados na página **Comparar valores de encargos - Fatura:** como mostra a tabela a seguir. Se a tolerância permitida para o código de encargos é 25%, a porcentagem de variação de 99.999.999.999,99% para o **Código de encargos de licença** é considerada uma discrepância na conciliação.
 
 > [!NOTE] 
 > Uma porcentagem de variação de 99.999.999.999,99% significa que o valor esperado com base na ordem de compra é zero e o valor real na fatura é um valor positivo. 
@@ -176,10 +176,10 @@ Você pode usar a conciliação de encargos para ajudar a garantir que os valore
 | Aprovado               | Frete              | 200                           | 200                             | 0               | 0%                  | 25%                  |
 | Falhou               | Agilizar             | 4                             | 2                               | 2               | 100%                | 25%                  |
 
-A conciliação de encargos é controlada para a entidade legal pela alternância dos encargos de correspondência na página Parâmetros de contas a pagar. Você pode configurar as porcentagens de tolerância de variação para os encargos na página Tolerâncias de encargos.
+A conciliação de encargos é controlada para a entidade legal pela alternância dos **Encargos de correspondência** na página **Parâmetros de contas a pagar**. Você pode configurar as porcentagens de tolerância de variação para os encargos na página **Tolerâncias de encargos**.
 
 > [!NOTE]
-> A conciliação de encargos é realizada somente nos códigos de encargos para os quais a opção Comparar ordem de compra com valores da fatura é selecionada na página Código de encargos.
+> A conciliação de encargos é realizada somente nos códigos de encargos para os quais a opção **Comparar ordem de compra com valores da fatura** é selecionada na página **Código de encargos**.
 
 ## <a name="related-functionality"></a>Funcionalidade relacionada
 Geralmente, as faturas de fornecedores se baseiam nos recebimentos de produtos, que representam os envios reais, em vez das ordens de compra. Às vezes, os valores faturados não coincidem com os valores da ordem de compra e, ocasionalmente, as quantidades enviadas não correspondem às quantidades faturadas. Você pode ajudar a gerenciar essas informações das seguintes maneiras:

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 87dec3c142ae296975ab98432421be4548085c80
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e452bda02c814b78c4bb48140b07f0113ab4a571
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647873"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358305"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Gerar linhas de faturas ao importar faturas de fornecedor
 
@@ -29,31 +29,31 @@ ms.locfileid: "7647873"
 
 Este tópico descreve a funcionalidade para gerar automaticamente linhas de fatura em faturas de fornecedor quando as faturas forem importadas.
 
-Às vezes, as faturas de fornecedor contêm informações limitadas, como informações de destinatário e subtotais. No entanto, elas não contêm informações para itens de linha. Quando você importa faturas, o sistema pode gerar linhas de fatura automaticamente, com base nas informações da ordem de compra correspondente.
+Às vezes, as faturas de fornecedor contêm informações limitadas, como informações de destinatário e subtotais. No entanto, elas não contêm informações para itens de linha. Quando você importa faturas, as linhas de fatura serão geradas automaticamente, com base nas informações da ordem de compra correspondente.
 
 Para habilitar a criação automática de linhas de fatura, siga estas etapas.
 
 1.  Acesse **Contas a pagar \> Configuração \> Parâmetros de contas a pagar**.
 2.  Na guia **Automação de fatura de fornecedor**, em **Criação automática de linha para faturas importadas**, defina a opção **Criar linhas da fatura automaticamente** como **Sim**. 
-4.  No campo **Escolher a quantidade padrão para criação automática de linhas de fatura**, selecione a quantidade que o sistema deve usar para gerar linhas de fatura automaticamente:
+4.  No campo **Escolher a quantidade padrão para criação automática de linhas de fatura**, selecione a quantidade que deve ser usada para gerar linhas de fatura automaticamente:
 
-    - **Quantidade encomendada** – o sistema gerará linhas a partir das linhas de ordens de compra. Esse é o valor padrão.
-    - **Quantidade de recebimento de produtos** – o sistema usará os números de ordens de compra para encontrar os recibos de produtos relevantes. Em seguida, ele usará as quantidades de recibos de produtos para gerar linhas de fatura.
+    - **Quantidade encomendada** – as linhas serão geradas a partir das linhas da ordem de compra. Esse é o valor padrão.
+    - **Quantidade de recebimento de produtos** – o número de ordens de compra que será usado para encontrar os recibos de produtos relevantes. Em seguida, ele usará as quantidades de recibos de produtos para gerar linhas de fatura.
 
 ## <a name="data-entity-changes"></a>Alterações da entidade de dados
 
 Para dar suporte à funcionalidade descrita neste tópico, a entidade de dados **Cabeçalho da fatura de fornecedor** foi aprimorada. Três campos foram adicionados:
 
-- **HeaderOnlyImport** – este campo deve ser definido como **Sim** para que o sistema gere linhas para os cabeçalhos de fatura.
+- **HeaderOnlyImport** – este campo deve ser definido como **Sim** para gerar linhas para os cabeçalhos de fatura.
 - **PurchIdRange** – a lista de números de ordens de compra. Os números de nota fiscal podem ser um intervalo, como **INV0001..INV0009** (onde dois pontos separam o início e o fim do intervalo) ou valores discretos, como **INV0001, INV0003, INV0006**. Todas as ordens de compra devem pertencer à mesma conta de fornecedor no cabeçalho da fatura. Caso contrário, a seguinte mensagem de erro será exibida: "Falha ao gerar linhas de fatura. As ordens de compra têm contas de fornecedor diferentes."
-- **PackingslipRange** – a lista de números de recibos de produtos. As linhas da fatura de fornecedor podem ser criadas de recibos de produtos. No entanto, os números de recibos de produtos normalmente não são incluídos nas faturas de fornecedor. Somente Insira os números de recibos de produtos nesse campo se você puder identificar claramente quais recibos de produtos são para as faturas específicas. As linhas da fatura podem ser geradas com base nos recibos de produtos. E, se esse campo for usado, a configuração do campo **Escolher a quantidade padrão para criação automática de linhas de fatura** na página **Parâmetros de contas a pagar** será ignorada. 
+- **PackingslipRange** – a lista de números de recibos de produtos. As linhas da fatura de fornecedor podem ser criadas de recibos de produtos. No entanto, os números de recibos de produtos normalmente não são incluídos nas faturas de fornecedor. Somente Insira os números de recibos de produtos nesse campo se você puder identificar claramente quais recibos de produtos são para as faturas específicas. As linhas da fatura podem ser geradas com base nos recibos de produtos. Se esse campo for usado, a configuração do campo **Escolher a quantidade padrão para criação automática de linhas de fatura** na página **Parâmetros de contas a pagar** será ignorada. 
 
-**Limitação**: se você inserir vários números de recibos de produtos, várias faturas de fornecedor pendentes serão criadas com o mesmo número de fatura. Você deve consolidá-las manualmente antes de processar a fatura. Em lançamentos futuros, planejamos habilitar o sistema para consolidar as faturas automaticamente, portanto, a limitação será removida.
+**Limitação**: se você inserir vários números de recibos de produtos, várias faturas de fornecedor pendentes serão criadas com o mesmo número de fatura. Você deve consolidá-las manualmente antes de processar a fatura. Em lançamentos futuros, planejamos consolidar as faturas automaticamente, portanto, a limitação será removida.
 
 Todos os recibos de produtos devem pertencer à mesma conta de fornecedor no cabeçalho da fatura.
 
 ## <a name="result"></a>Resultado
 
-Se o sistema gerar linhas com êxito, a seguinte mensagem será registrada no histórico de automação de fatura de fornecedor: "Criar linhas da fatura automaticamente: Com êxito".
+Se as linhas são geradas com êxito, a seguinte mensagem será registrada no histórico de automação de fatura de fornecedor: "Criar linhas da fatura automaticamente: Com êxito".
 
-Se o sistema não gerar linhas, a seguinte mensagem de erro será registrada: "Criar linhas da fatura automaticamente: Com falha".
+Se as linhas não forem geradas, a seguinte mensagem de erro será registrada: "Criar linhas da fatura automaticamente: Com falha".

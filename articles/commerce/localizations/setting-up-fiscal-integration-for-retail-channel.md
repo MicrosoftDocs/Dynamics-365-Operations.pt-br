@@ -2,19 +2,19 @@
 title: Configurar a integração fiscal para canais do Commerce
 description: Este tópico fornece diretrizes para configurar a funcionalidade de integração fiscal para canais do Commerce.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd37934e1ebd103d66c5181e0bfb75047f4cb6a3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c15104e0f34c1f6cb6a599d506dad741be3e5e9e
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076954"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388381"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurar a integração fiscal para canais do Commerce
 
@@ -46,6 +46,7 @@ O processo de configuração da integração fiscal inclui as seguintes tarefas:
 - Configure o processo de registro fiscal que define uma sequência de etapas de registro fiscal e os conectores fiscais e provedores de documentos fiscais usados para cada etapa.
 - Atribua o processo de registro fiscal a perfis de funcionalidade de ponto de venda (PDV).
 - Atribua perfis técnicos de conectores a perfis de hardware.
+- Atribua perfis técnicos de conectores a perfis de hardware ou funcionalidade de PDV.
 
 ### <a name="upload-configurations-of-fiscal-document-providers"></a>Carregue configurações de provedores de documentos fiscais
 
@@ -161,10 +162,12 @@ Para atribuir entidades do processo de registro fiscal a perfis de PDV, siga est
 1. No Commerce headquarters, vá para a página **Perfis de funcionalidade de PDV** (**Varejo e Comércio \> Configuração do canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**). 
 1. Atribua o processo de registro fiscal a um perfil de funcionalidade de PDV.
 1. Selecione **Editar** e, na guia **Processo de registro fiscal**, no campo **Número do processo**, selecione um processo.
+1. Na guia **Serviços fiscais**, selecione perfis técnicos de conector com o **Registro** de local do conector.
 1. Vá até a página **Perfil de hardware do PDV** (**Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfil de hardware**).
 1. Atribua perfis técnicos de conectores a um perfil de hardware. 
 1. Selecione **Editar** e, na guia **Periféricos fiscais**, adicione uma linha. 
 1. No campo **Número de perfil**, selecione um perfil técnico do conector.
+1. Na guia **Periféricos fiscais**, selecione perfis técnicos de conector com a **Estação de hardware** de local do conector.
 
 > [!NOTE]
 > Você pode adicionar vários perfis técnicos ao mesmo perfil de hardware. No entanto, um perfil de hardware ou um perfil de funcionalidade de PDV deve ter apenas uma interseção com qualquer grupo de conectores fiscais.
@@ -175,6 +178,17 @@ O fluxo de registro fiscal é definido pelo processo de registro fiscal e també
 - O provedor de documentos fiscais também é responsável por identificar o conector fiscal usado para o registro fiscal. Ele corresponde aos perfis funcionais do conector que estão incluídos no grupo de conectores fiscais especificado para a etapa atual do processo de registro fiscal com o perfil técnico do conector que é atribuído ao perfil de hardware da estação de hardware ao qual o PDV está emparelhado.
 - O provedor de documentos fiscais usa as configurações de mapeamento de dados da configuração do provedor de documento fiscal para transformar dados de transação/evento, como impostos e pagamentos, enquanto um documento fiscal é gerado.
 - Quando o provedor de documentos fiscais gera um documento fiscal, o conector fiscal pode enviá-lo para o dispositivo fiscal como está ou analisá-lo e transformá-lo em uma sequência de comandos da interface de programação de aplicativo (API) do dispositivo, dependendo de como a comunicação é tratada.
+
+### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Configurar registros com restrições de registro fiscal
+
+Você pode selecionar registros em que registros fiscais são proibidos; por exemplo, em casos onde você precisa fornecer somente operações não fiscais, como pesquisa de catálogo de produtos, pesquisa de cliente ou criação de rascunho de transação nesses dispositivos.
+
+Para configurar registros com restrições de registro fiscal, siga estas etapas.
+
+1. Na sede do Commerce, vá para **Varejo e Comércio \> Configuração de canal \> Integração fiscal \> Processos de registro fiscal**.
+1. Selecione o processo obrigatório.
+1. Selecione a guia **Terminais de PDV com restrições de processo fiscal**.
+1. Adicione registros com restrições de processo fiscal, conforme necessário.
 
 ### <a name="validate-the-fiscal-registration-process"></a>Valide o processo de registro fiscal
 

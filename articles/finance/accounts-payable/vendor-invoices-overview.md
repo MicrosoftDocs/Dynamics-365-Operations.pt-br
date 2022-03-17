@@ -2,13 +2,13 @@
 title: ​Visão geral de faturas de fornecedor​
 description: Este tópico fornece informações gerais sobre notas fiscais de fornecedor.
 author: abruer
-ms.date: 06/03/2021
+ms.date: 02/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "13971"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22535f4bc320bde096214e2044cfeb00d4e9fbbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985328"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358408"
 ---
 # <a name="vendor-invoices-overview"></a>Visão geral de faturas de fornecedor
 
@@ -51,10 +51,10 @@ A discussão a seguir fornece mais informações sobre como usar a página **Fat
 
 Ao abrir uma fatura de fornecedor de uma ordem de compra relacionada, o sistema cria linhas de fatura com base na ordem de compra. Por padrão, o sistema usa as quantidades do recibo de produtos. No entanto, você pode usar qualquer um dos seguintes comportamentos padrão:
 
-- **Quantidade de recebimento atual** – Use esta opção para remessas parciais. O sistema define o valor padrão do campo **Quantidade** com base na quantidade especificada no campo **Receber agora** na ordem de compra.
-- **Quantidade encomendada** – Use esta opção para remessas completas. O sistema define o valor padrão do campo **Quantidade** com base na quantidade especificada no campo **Pedido** na ordem de compra.
+- **Quantidade de recebimento atual** – Use esta opção para remessas parciais. O valor padrão do campo **Quantidade** será definido como a quantidade especificada no campo **Receber agora** na ordem de compra.
+- **Quantidade encomendada** – Use esta opção para remessas completas. O valor padrão do campo **Quantidade** será definido com a quantidade especificada no campo **Encomendado** na ordem de compra.
 - **Quantidade registrada** – Use esta opção se o item exigir registro, conforme especificado na página **Grupos de modelos de item**. O valor padrão no campo **Quantidade** é a quantidade de atualização física que foi registrada.
-- **Quantidade de recebimento de produtos** – Use esta opção se um recebimento de produtos já tiver sido recebido para a ordem. O sistema usa o valor padrão no campo **Quantidade** com base na quantidade total dos recebimentos de produtos disponíveis.
+- **Quantidade de recebimento de produtos** – Use esta opção se um recebimento de produtos já tiver sido recebido para a ordem. O valor padrão do campo **Quantidade** é a quantidade total de recebimentos de produtos disponíveis.
 - **Quantidade e serviços registrados** – Use esta opção se as quantidades foram registradas em diários de chegada para os itens em estoque ou itens que não estão armazenados. Esta opção também inclui serviços, independente do fato de os serviços estarem registrados ou não.
 
 Se a entidade legal utiliza a conciliação de faturas, você pode exibir os resultados da conciliação de quantidade na coluna **Conciliação de quantidade de recebimento de produtos**. Você também pode usar o botão **Detalhes de conciliação** na guia **Revisão** do Painel de Ação para exibir os resultados da conciliação de quantidade.
@@ -65,7 +65,7 @@ Você pode adicionar uma linha que não estava na ordem de compra para a fatura 
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Enviando uma fatura de fornecedor para revisão
 
-Sua organização pode usar os fluxos de trabalho para gerenciar o processo de revisão para faturas de fornecedores. A revisão de fluxo de trabalho poderá ser necessária para o cabeçalho ou a linha da fatura, ou ambos. Os controles do fluxo de trabalho se aplicam ao cabeçalho ou linha, dependendo de onde o foco estiver ao selecionar no controle. Em vez do botão **Lançar**, um botão **Enviar** é exibido para enviar a fatura do fornecedor usando o processo de revisão.
+Sua organização pode usar os fluxos de trabalho para gerenciar o processo de revisão para faturas de fornecedores. A revisão de fluxo de trabalho poderá ser necessária para o cabeçalho ou a linha da fatura, ou ambos. Os controles do fluxo de trabalho se aplicam ao cabeçalho ou linha, dependendo de onde o foco estiver ao selecionar no controle. Em vez do botão **Lançar**, um botão **Enviar** envia a fatura do fornecedor por meio do processo de revisão.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Impedir que a fatura seja enviada para o fluxo de trabalho 
 
@@ -102,7 +102,7 @@ Você pode especificar o número de faturas a ser incluído no lote, e o número
 
 ## <a name="working-with-multiple-invoices"></a>Trabalhando com diversas faturas
 
-Você pode trabalhar com várias faturas ao mesmo tempo e lançar todas elas ao mesmo tempo. Se você precisar criar várias faturas, use a página **Faturas de fornecedor pendentes**. Se você precisar lançar e imprimir várias faturas de fornecedor, use o diário de aprovação de faturas. Se você estiver usando o diário de aprovação de fatura, pelo menos um recebimento de produtos deve ser lançado para a ordem de compra, e uma fatura para a ordem de compra deve ser lançada em um registro de fatura. As informações financeiras para a nota fiscal vêm da nota fiscal que foi lançada no registro.
+Você pode trabalhar com várias faturas ao mesmo tempo e lançar todas elas ao mesmo tempo. Se você precisar criar várias faturas, use a página **Faturas de fornecedor pendentes**. Se você precisar lançar e imprimir várias faturas de fornecedor, use o **Diário de aprovação de fatura**. Se você estiver usando o **Diário de aprovação de fatura**, pelo menos um recebimento de produtos deverá ser lançado para a ordem de compra, e uma fatura para a ordem de compra deverá ser lançada em um registro de fatura. As informações financeiras para a nota fiscal vêm da nota fiscal que foi lançada no registro.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Recuperando faturas de fornecedor em uso
 

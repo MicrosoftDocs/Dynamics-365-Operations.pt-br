@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102987"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384529"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.25 (abril de 2022)
 
@@ -34,10 +34,10 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---|---|---|---|
-| Estoque&nbsp;e&nbsp;logística | Aprimoramentos nos materiais perigosos | Esses aperfeiçoamentos se baseiam na funcionalidade de materiais tóxicos existentes para ajudar as empresas a manterem a conformidade com as normas locais ao transportar materiais nocivos em diferentes regiões. <!-- KFM: Update to 2022w1 link when published -->| Gerenciamento de recursos:<br>*Aprimoramentos nos materiais perigosos* |
-| Estoque&nbsp;e&nbsp;logística | Trabalho de embalagem para estações de embalagem | Esse recurso melhora bastante a flexibilidade e a agilidade de suas operações de embalagem e remessa. Durante o processo de remessa, os trabalhadores de depósito podem agora lançar e enviar remessas individuais relacionadas à mesma remessa e carga. As linhas da ordem que fazem parte da mesma remessa não precisam necessariamente ser remetidas, se alguns itens estiverem prontos para serem entregues imediatamente. Uma única ordem pode ser embalada e remetida em vários registros em diferentes horários de remessa, reduzindo assim os tempos de espera e adicionando agilidade.<!-- KFM: Update to 2022w1 link when published --> | Gerenciamento de recursos:<br>*Trabalho de embalagem para estações de embalagem* |
-| Estoque&nbsp;e&nbsp;logística | [Digitalizar códigos de barras no depósito usando padrões de formato GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) <!-- KFM: Update to 2022w1 link when published --> | [Códigos de barras de GS1 e códigos QR](../warehousing/gs1-barcodes.md) | Gerenciamento de recursos:<br>*Digitalizar códigos de barras GS1* |
-| Fabricação | [Reservas e consumo de material na interface de execução do piso de produção](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*(Versão preliminar) Registrar consumo de materiais na interface de execução de piso de produção (habilitado para WMS)* |
+| Estoque&nbsp;e&nbsp;logística | [Aprimoramentos nos materiais perigosos](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Em breve | Gerenciamento de recursos:<br>*Aprimoramentos nos materiais perigosos* |
+| Estoque&nbsp;e&nbsp;logística | [Trabalho de embalagem para estações de embalagem](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Em breve | Gerenciamento de recursos:<br>*Trabalho de embalagem para estações de embalagem* |
+| Estoque&nbsp;e&nbsp;logística | [Digitalizar códigos de barras no depósito usando padrões de formato GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Códigos de barras de GS1 e códigos QR](../warehousing/gs1-barcodes.md) | Gerenciamento de recursos:<br>*Digitalizar códigos de barras GS1* |
+| Fabricação | [Reservas e consumo de material na interface de execução do piso de produção](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*(Versão preliminar) Registrar consumo de material na interface de execução do piso de produção (não WMS)*<br><br>E/ou:<br><br>Gerenciamento de recursos:<br>*(Versão preliminar) Registrar consumo de materiais na interface de execução de piso de produção (habilitado para WMS)* |
 | Fabricação | [Registrar consumo de materiais em unidades de escala](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e borda](../cloud-edge/cloud-edge-workload-manufacturing.md) | Gerenciamento de recursos:<br>*Registrar consumo de materiais no aplicativo móvel em uma unidade de escala* |
 | Planejamento | [Planejando sugestões de otimização para otimizar fornecimento existente](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Mensagens de ação](../master-planning/action-messages.md) | Habilitado por padrão |
 | Planejamento | Ordens planejadas simplificadas | [Ordens planejadas simplificadas](../master-planning/planning-optimization/planned-orders-simplified.md ) | Gerenciamento de recursos:<br>*Ordens planejadas simplificadas* |

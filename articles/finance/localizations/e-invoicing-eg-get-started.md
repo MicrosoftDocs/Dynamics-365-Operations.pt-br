@@ -1,87 +1,112 @@
 ---
-title: Introdução ao Faturamento eletrônico para o Egito
-description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito no Finance e no Supply Chain Management.
+title: Faturamento eletrônico para o Egito
+description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 04/20/2021
+ms.date: 02/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b25a3489d009a02b45d66d4c3a0271a56a92f5ac
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985616"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371347"
 ---
-# <a name="get-started-with-electronic-invoicing-for-egypt"></a>Introdução ao Faturamento eletrônico para o Egito
+# <a name="electronic-invoicing-for-egypt"></a>Faturamento eletrônico para o Egito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito. O tópico guia você pelas etapas de configuração que dependem do país para o Regulatory Configuration Services (RCS) e complementam as etapas descritas em [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito. Ele orienta você pelas etapas de configuração que dependem do país/região para o Regulatory Configuration Service (RCS). Essas etapas complementam as etapas descritas em [Configuração do Faturamento eletrônico](e-invoicing-set-up-overview.md).
 
-## <a name="country-specific-configuration-for-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Configuração específica de país para o recurso Fatura eletrônica do Egito (EG)
+## <a name="prerequisites"></a>Pré-requisitos
 
-Alguns dos parâmetros do **recurso Fatura eletrônica do Egito (EG)** são publicados com valores padrão. Revise os valores e, se necessário, atualize-os para refletir melhor sua operação de negócios antes de implantar o recurso Faturamento eletrônico no ambiente de serviço.
+Antes de começar os procedimentos neste tópico, conclua os seguintes pré-requisitos:
 
-Esta seção complementa a seção **recurso Configuração específica do país para Faturamento eletrônico** no tópico [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+- Familiarize-se com o faturamento eletrônico, conforme descrito na [Visão geral do faturamento eletrônico](e-invoicing-service-overview.md).
+- Inscreva-se no RCS e configure o Faturamento Eletrônico. Para obter mais informações, consulte os seguintes tópicos:
 
-### <a name="prerequisites"></a>Pré-requisitos
+    - [Inscrever-se e instalar o serviço de Faturamento Eletrônico](e-invoicing-sign-up-install.md)
+    - [Configurar recursos do Azure para Faturamento Eletrônico](e-invoicing-set-up-azure-resources.md)
+    - [Instalar o suplemento para microsserviços no Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
+    
+- Ative a integração entre o aplicativo Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management e o serviço de faturamento eletrônico, conforme descrito em [Ativar e configurar a integração com o faturamento eletrônico](e-invoicing-activate-setup-integration.md).
+- Crie um segredo de certificado digital no Azure Key Vault e configure-o conforme descrito em [Certificados e segredos de cliente](e-invoicing-customer-certificates-secrets.md). Para fins de teste, a autoridade de impostos egípcia fornece certificados digitais de teste específicos que devem ser usados somente durante fases de validação de solução e teste. Para obter mais informações, vá para o site da autoridade fiscal egípcia usando o link fornecido em [SDK de faturamento eletrônico egípcio](https://sdk.sit.invoicing.eta.gov.eg/faq/).
 
-Antes de concluir o procedimento nesta seção, você deverá:
+## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Configuração específica de país para o recurso de Faturamento eletrônico do Egito (EG)
 
-- Crie um segredo de certificado digital, conforme descrito na seção **Criar segredo de certificado digital** em [Introdução com a administração do serviço de Faturamento eletrônico](e-invoicing-get-started-service-administration.md). Para fins de teste, a autoridade de impostos egípcia fornece certificados digitais de teste específicos que devem ser usados somente durante fases de validação de solução e teste. Para obter mais informações, consulte o site da autoridade fiscal egípcia usando o link fornecido no [SDK de faturamento eletrônico egípcio](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+Alguns dos parâmetros do recurso de **Fatura eletrônica do Egito (EG)** são publicados com valores padrão. Antes de implantar o recurso de faturamento eletrônico no ambiente de serviço, revise os valores padrão e atualize-os conforme necessário para que reflitam melhor sua operação de negócios.
 
-1. No RCS, na seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Faturamento eletrônico**.
-2. Na página **Recursos do Faturamento eletrônico**, verifique se o recurso **Fatura eletrônica egípcia (EG)** que você criou foi selecionado.
+1. Importe a versão mais recente do recurso globalização **Fatura eletrônica egípcia (EG)**, conforme descrito em [Importar Recursos de importação do repositório Global](e-invoicing-import-feature-global-repository.md).
+2. Crie uma cópia do recurso de globalização importada e selecione seu provedor de configuração para ele, conforme descrito em [Criar um recurso de globalização](e-invoicing-create-new-globalization-feature.md).
 3. Na guia **Versões**, verifique se a versão **Rascunho** está selecionada.
-4. Na guia **Configurações**, na grade, selecione a configuração do recurso **Fatura de venda**.
-5. Selecione **Editar** e, na guia **Ações** do grupo de campos **Ações**, selecione **Assinar documento json para autoridade fiscal egípcia**.
-6. No grupo de campos **Parâmetros**, selecione o parâmetro, **Nome do certificado** e selecione o nome do certificado digital criado para ser usado com o recurso Faturamento eletrônico.
-7. No grupo de campos **Ações**, selecione **Integrar com o serviço ETA egípcio**. Repita essa etapa para as duas ocorrências dessa ação.
-8. No grupo de campos **Parâmetros**, selecione **URL do serviço Web** e **URL do serviço de logon** e, se necessário, analise os parâmetros da URL. Consulte o site da autoridade fiscal egípcia para obter a URL de Testes e Produção usando o link fornecido no [SDK de faturamento eletrônico egípcio](https://sdk.sit.invoicing.eta.gov.eg/faq/).
-9. Selecione **Salvar** e feche a página.
-10. Para implantar o recurso Faturamento eletrônico no ambiente de serviço, consulte [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+4. Na guia **Configurações**, na grade, selecione a configuração do recurso **Derivado da fatura de venda**.
+5. Selecione **Editar**.
+6. Na guia **Pipeline de processamento**, na seção **Pipeline de processamento**, selecione **Assinar documento json para autoridade fiscal egípcia**.
+7. Na seção **Parâmetros**, selecione **Nome do certificado** e, em seguida, selecione o nome do certificado digital criado.
+8. Na seção **Pipeline de processamento**, selecione **Integrar com o serviço ETA egípcio**. Repita essa etapa para as duas ocorrências dessa ação.
+9. Na seção **Parâmetros**, selecione **URL do serviço Web** e **URL do serviço de login**. Em seguida, revise os parâmetros de URL. Para obter a URL de Testes e Produção, consulte o site da autoridade fiscal egípcia usando o link fornecido no [SDK de faturamento eletrônico egípcio](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+10. Selecione **Salvar** e feche a página.
+11. Repita as etapas 4 a 10 para a configuração do recurso **Derivado da fatura do projeto**.
 
-## <a name="country-specific-configuration-of-the-application-setup-for-the-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Configuração específica do país da configuração do aplicativo para o recurso Fatura eletrônica egípcia (EG)
+## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-application-setup"></a>Configuração específica de país para a configuração do aplicativo de Faturamento eletrônico do Egito (EG)
 
-Conclua estas etapas antes de implantar a configuração do aplicativo no aplicativo Finance ou Supply Chain Management conectado.
+Há parâmetros que devem ser configurados no seu ambiente do Finance ou do Supply Chain Management. Você pode concluir essa configuração em um dos seguintes locais:
 
-Esta seção complementa a seção **Configuração específica do país da configuração do aplicativo** no tópico [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+- Diretamente no seu ambiente do Finance ou do Supply Chain Management. Para obter mais informações, consulte [Configurar parâmetros do Faturamento eletrônico](e-invoicing-set-up-parameters.md).
+- No RCS. No escopo da configuração do recurso de faturamento eletrônico, você pode definir todos os parâmetros e implantá-los diretamente no seu ambiente do Finance or Supply Chain Management ao ao implantar o recurso de faturamento eletrônico.
 
-1. No RCS, na seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Faturamento eletrônico**.
-2. Na página **Recursos do Faturamento eletrônico**, verifique se o recurso **Fatura eletrônica egípcia (EG)** está selecionado.
-3. Na guia **Versões**, verifique se a versão **Rascunho** está selecionada.
-4. Na guia **Configurações**, selecione **Configuração do aplicativo** e, no campo **Aplicativo conectado**, selecione o aplicativo onde deseja implantar.
-5. No campo **Nome da tabela**, verifique se o diário de fatura do cliente está selecionado.
-6. Selecione **Tipos de resposta** e selecione **Novo**.
-7. No campo **Tipo de resposta**, insira "Resposta" e, no campo **Descrição**, insira "Descrição".
-8. No campo **Status de envio**, selecione **Pendente**.
-9. No campo **Mapeamento de modelos**, selecione **Mapeamento de modelos de mensagem de resposta**, com **(Versão preliminar) Formato de importação de mensagem de resposta** e, em seguida, selecione **Salvar**.
-10. Selecione **Novo** e, no campo **Tipo de resposta**, insira "ResponseData" como um valor fixo. No campo **Descrição**, insira "Descrição".
-11. No campo **Status de envio**, selecione **Pendente**.
-12. No campo **Nome da entidade de dados**, selecione **Cabeçalhos da fatura de venda V2**.
-13. No campo **Mapeamento de modelos**, selecione **Importação de dados de resposta egípcia**, com **(Versão preliminar) Importação de dados de resposta egípcia** e, em seguida, selecione **Salvar**.
-14. Para implantar a configuração do aplicativo no aplicativo Finance ou Supply Chain Management conectado, consulte [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+Para ambas as opções, os parâmetros são os mesmos. Se você estiver configurando seu primeiro recurso no serviço de faturamento eletrônico, recomendamos que siga estas etapas para configurar os parâmetros no RCS e, em seguida, implante-os no aplicativo conectado.
+
+> [!NOTE]
+> Algumas versões do recurso de faturamento eletrônico podem conter um conjunto predefinido de parâmetros específicos do aplicativo para o Finance ou Supply Chain Management. Nesse caso, você deve verificar se os dados estão corretos. Caso contrário, defina manualmente os parâmetros.
+
+1. Localize a cópia do recurso de globalização **Fatura eletrônica egípcia (EG)** que você criou.
+2. Na guia **Versões**, verifique se a versão **Rascunho** está selecionada.
+3. Na guia **Configurações**, selecione **Configuração do aplicativo**.
+4. No campo **Aplicativos conectados**, selecione o aplicativo onde deseja implantar os parâmetros.
+5. Na página **Tipos de documentos eletrônicos**, selecione **Adicionar** para criar um registro.
+6. No campo **Nome da tabela**, adicione **CustInvoiceJour**.
+7. No campo **Contexto**, adicione uma referência ao nome de mapeamento **Contexto da fatura do cliente**. A configuração é **Modelo de contexto de fatura de cliente**.
+8. No campo **Contexto**, adicione uma referência ao nome de mapeamento **Contexto da fatura do cliente**. A configuração é **Mapeamento de modelo de fatura**.
+9. Selecione **Salvar**.
+10. Na página **Tipos de resposta**, selecione **Adicionar**.
+11. No campo **Tipo de resposta** , insira **Resposta**.
+12. No campo **Descrição**, insira **Processar resposta**.
+13. No campo **Status de envio**, selecione **Pendente**.
+14. No campo **Mapeamento de modelos**, selecione **Importação de mensagem de resposta**. A configuração é **Importação de mensagens de resposta do Egito (EG)**.
+15. Selecione **Salvar**.
+16. Selecione **Adicionar**.
+17. No campo **Tipo de resposta**, insira **ResponseData**.
+18. No campo **Descrição**, insira **Processar dados de resposta**.
+19. No campo **Status de envio**, selecione **Pendente**.
+20. No campo **Nome da entidade de dados**, selecione **SalesInvoiceHeaderV2Entity**.
+21. No campo **Mapeamento de modelos**, selecione **Importação de dados de resposta**. A configuração é **Importação de dados de resposta do Egito (EG)**.
+22. Selecione **Salvar** e feche a página.
+23. Feche a página.
+
+Para implantar um recurso no ambiente de serviço e uma configuração de aplicativo para o aplicativo Finance ou Supply Chain Management, consulte [Concluir, publicar e implantar um recurso de globalização](e-invoicing-complete-publish-deploy-globalization-feature.md)
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
 
-A habilitação do recurso **Fatura eletrônica egípcia (EG)** pode exigir o envio de dados limitados, incluindo a ID de registro de imposto da organização. Esses dados serão transmitidos a agências de terceiros autorizadas pela autoridade fiscal com a finalidade de enviar faturas eletrônicas a essa autoridade fiscal no formato predefinido exigido para integração com o serviço Web do governo. Um administrador pode habilitar e desabilitar o recurso navegando até **Administração da organização** > **Configuração** > **Parâmetros de documento eletrônico**. Na guia **Recursos**, selecione a linha que contém o recurso **Fatura eletrônica egípcia (EG)** e, em seguida, faça a seleção apropriada. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade da documentação de recursos específicos do país para obter mais informações.
+Habilitar o recurso **Fatura eletrônica italiana do Egito (EG)** pode exigir o envio de dados limitados. Esses dados incluem a ID de registro de imposto da organização. Esses dados serão transmitidos a agências de terceiros que foram autorizadas pela autoridade fiscal para enviar faturas eletrônicas a essa autoridade fiscal no formato predefinido exigido para integração com o serviço Web do governo. Um administrador pode habilitar e desabilitar o recurso acessando **Administração da organização** \> **Configuração** \> **Parâmetros de documento eletrônico**. Na guia **Recursos**, selecione a linha que contém o recurso **Fatura eletrônica egípcia (EG)** e, em seguida, faça a seleção apropriada. Os dados importados dos sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Para obter mais informações, consulte a seção "Aviso de privacidade" da documentação de recursos específicos do país.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Visão geral do faturamento eletrônico](e-invoicing-service-overview.md)
+- [Visão geral do Faturamento eletrônico](e-invoicing-service-overview.md)
 - [Introdução à administração de serviço do Faturamento eletrônico](e-invoicing-get-started-service-administration.md)
 - [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md)
 - [Faturas eletrônicas do cliente no Egito](emea-egy-e-invoices.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

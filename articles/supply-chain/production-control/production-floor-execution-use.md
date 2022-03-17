@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075010"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384410"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Como os trabalhadores usam a interface de execução de piso de produção
 
@@ -71,6 +71,18 @@ A lista de trabalhos ativos tem as colunas a seguir:
 - **Concluído** – essa coluna mostra a quantidade que já foi concluída para um trabalho.
 - **Sucateado** – essa coluna mostra a quantidade que já foi sucateada para um trabalho.
 - **Restante** – essa coluna mostra a quantidade que resta para ser concluída para um trabalho.
+
+## <a name="my-jobs-tab"></a>Guia Meus trabalhos
+
+A guia **Meus trabalhos** permite que trabalhadores exibam facilmente todos os trabalhos não iniciados e não concluídos que são atribuídos especificamente a eles. Ele é útil em empresas em que os trabalhos são às vezes ou sempre atribuídos a trabalhadores específicos (recursos humanos) em vez de outros tipos de recursos (como máquinas). 
+
+O sistema de agendamento atribui automaticamente cada trabalho de produção a um registro de recurso específico, e cada registro de recurso tem um tipo (como máquina ou humano). Ao configurar um funcionário como um trabalhador de produção, você pode associar a conta do trabalhador a um registro de recurso humano exclusivo. 
+
+A guia **Meus trabalhos** lista todos os trabalhos não iniciados e não concluídos que foram atribuídos ao registro de recursos humanos do trabalhador conectado, caso algum esteja conectado. Ele nunca lista trabalhos que foram atribuídos a uma máquina ou outro tipo de recurso, mesmo que o trabalhador conectado tenha começado a atuar nesses trabalhos.
+
+Para exibir todos os trabalhos iniciados pelo trabalhador conectado, seja qual for o tipo de recurso atribuído a cada trabalho, use a guia **Trabalhos ativos**. Para exibir todos os trabalhos não concluídos que correspondam à configuração do filtro de trabalho local, independentemente do trabalhador ou do status de início, use a guia **Todos os trabalhos**.
+
+![Guia Meus trabalhos.](media/pfei-my-jobs-tab.png "Guia Meus trabalhos")
 
 ## <a name="my-machine-tab"></a>Guia Minha máquina
 
@@ -133,6 +145,13 @@ Se uma ordem de lote for criada com base em uma versão de fórmula em que a op�
 
 Nesse caso, o trabalhador pode especificar o coproduto e a quantidade a ser relatada selecionando **Variações de coprodutos** na caixa de diálogo Relatar progresso. Em seguida, ele pode selecionar entre todos os produtos lançados definidos como coprodutos.
 
+### <a name="reporting-catch-weight-items"></a>Relatar itens de peso variável
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Os trabalhadores podem usar a interface de execução de piso de produção para relatar o progresso de ordens de lote criadas para itens de peso variável. As ordens de lote são criadas com base em fórmulas, que podem ser definidas para ter itens de peso variável como itens de fórmula, coprodutos e subprodutos. Uma fórmula também pode ser definida para ter linhas de fórmula para ingredientes definidos para peso variável. Os itens de peso variável usam duas unidades de medida para rastrear o estoque: quantidade de peso variável e quantidade de estoque. Por exemplo, no setor de alimentos, a carne na caixa pode ser definida como um item de peso variável, em que a quantidade em peso variável é usada para controlar o número de caixas e a quantidade de estoque é usada para rastrear o peso das caixas.
+
 ## <a name="reporting-scrap"></a>Como relatar sucata
 
 Quando um trabalhador concluir ou concluir parcialmente um trabalho, ele poderá relatar a sucata selecionando um trabalho na guia **Trabalhos ativos** e selecionando **Relatar sucata**. Em seguida, na caixa de diálogo **Relatar sucata**, o trabalhador insere a quantidade de sucata usando o teclado numérico. O trabalhador também seleciona um motivo (*Nenhum*, *Máquina*, *Operador* ou *Material*).
@@ -187,6 +206,13 @@ As seguintes ações podem ser executadas:
 
 O botão **Ajustar material** pode ser configurado de forma que apareça na barra de ferramentas à direita. (Para obter mais informações, consulte [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).) Um trabalhador pode selecionar **Ajustar o material** para um trabalho de produção que está em andamento. Nesse caso, a caixa de diálogo **Ajustar material** é exibida, na qual o trabalhador pode fazer os ajustes desejados. Quando a caixa de diálogo é aberta, uma lista de separação de produção que contém linhas para as quantidades ajustadas é criada para a ordem de produção. Se o trabalhador selecionar **Lançar agora**, o ajuste será confirmado e a lista de separação será lançada. Se o trabalhador selecionar **Cancelar**, a lista de separação será excluída e nenhum ajuste será feito.
 
+### <a name="adjust-material-consumption-for-catch-weight-items"></a>Ajustar consumo de material para itens de peso variável
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Os trabalhadores podem ajustar o consumo de material para itens de peso variável. Essa funcionalidade é usada em cenários em que a quantidade real de um material de peso variável consumida por um trabalho de produção era maior ou menor do que a quantidade planejada. Portanto, ela deve ser ajustada para manter atualizados os níveis de estoque. Quando um trabalhador ajusta o consumo de um item de peso variável, ele pode ajustar a quantidade de peso variável e a quantidade de estoque. Por exemplo, se um trabalho de produção estiver planejado para consumir cinco caixas com peso estimado de 2 quilogramas por caixa, o trabalhador poderá ajustar o número de caixas para consumo e o peso das caixas. O sistema verificará se o peso especificado das caixas está dentro dos limites mínimo e máximo definidos no produto liberado.
+
 ### <a name="reserve-materials"></a>Reservar materiais
 
 Na caixa de diálogo **Ajustar material** um trabalhador pode fazer e ajustar as reservas de material selecionando **Reservar material**. A caixa de diálogo **Reservar material** que aparece mostra o estoque disponível fisicamente para o item para cada dimensão de armazenamento e rastreamento.
@@ -197,6 +223,8 @@ Para obter mais informações sobre como configurar a localização de entrada d
 
 > [!NOTE]
 > As reservas feitas por um trabalhador na caixa de diálogo **Reservar material** permanecerão quando o trabalhador selecionar **Cancelar** na caixa de diálogo **Progresso do relatório** ou **Relatório de sucata**.
+>
+> Não é possível ajustar reservas para itens de peso variável.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Como concluir um trabalho e iniciar um novo
 

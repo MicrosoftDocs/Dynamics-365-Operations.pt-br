@@ -2,7 +2,7 @@
 title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. É necessário habilitar o novo recurso de grade para ter acesso a esses recursos.
 author: jasongre
-ms.date: 02/01/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83d0b6243efd802ffc959f8de14f6232736fc88c
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087565"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384407"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -67,7 +67,10 @@ Se você cometer um erro e não quiser mais ver um total em uma determinada colu
 ### <a name="calculating-totals"></a>Calculando totais
 Quando você acessa uma página com o rodapé visível e as colunas já configuradas para totais, os totais podem ou não ser mostrados no rodapé. O comportamento depende do tamanho do conjunto de dados na página. Se o conjunto de dados for suficientemente pequeno, os totais serão mostrados automaticamente, com o número de linhas no conjunto de dados. Se houver traços no rodapé sob as colunas que você configurou para os totais, significa que o conjunto de dados é muito grande para que o sistema mostre os totais imediatamente e uma ação explícita é necessária para calcular os totais. Para isso, clique no botão **Calcular**, no rodapé, ou clique com o botão direito do mouse em uma coluna para a qual deseja o total e selecione **Totalizar esta coluna**.
 
-Se o cálculo estiver demorando muito, você poderá cancelar a operação selecionando o botão **Cancelar**. Às vezes, no entanto, o conjunto de dados será grande demais para calcular os totais (um limite imposto pela sua organização) e você será notificado para filtrar mais os dados.
+Se o cálculo demorar para ser concluído, você poderá cancelar a operação selecionando o botão **Cancelar**. Às vezes, o conjunto de dados será grande demais para calcular os totais (um limite imposto pela sua organização) e você será notificado para filtrar mais os dados. 
+
+> [!NOTE]
+> As administrações de sistema podem modificar o limite para o número de registros disponíveis para calcular os totais ajustando o parâmetro **Número máximo de registros locais para cada de grade** na página **Opções de desempenho do cliente**. O valor padrão é 25.000 registros. Os administradores devem ter cuidado ao ajustar esse valor porque um valor muito grande pode esgotar a memória disponível na máquina do usuário. A recomendação não deve exceder 50.000 registros.   
 
 Os totais serão atualizados automaticamente à medida que você atualizar, excluir ou criar linhas no conjunto de dados.
 

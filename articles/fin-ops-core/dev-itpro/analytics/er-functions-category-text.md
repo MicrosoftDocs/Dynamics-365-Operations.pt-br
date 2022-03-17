@@ -2,7 +2,7 @@
 title: Lista de funções ER na categoria de texto
 description: Este tópico fornece informações sobre as funções de texto que são compatíveis no relatório eletrônico (ER).
 author: NickSelin
-ms.date: 09/09/2021
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075491"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367758"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lista de funções ER na categoria de texto
 
@@ -51,7 +51,7 @@ As funções de texto de relatório eletrônico (ER) podem ser usadas para reali
 | [Direito](er-functions-text-right.md) | Essa função retorna um valor de *Cadeia de caracteres* que apresenta o número de caracteres especificado a partir do final da cadeia de caracteres especificada. |
 | [Texto](er-functions-text-text.md) | Essa função retorna o número especificado como um valor de *Cadeia de caracteres* após ele ser convertido em uma cadeia de caracteres de texto que é formatada de acordo com as configurações de localidade do servidor da instância atual do aplicativo. |
 | [Traduzir](er-functions-text-translate.md) | Esta função retorna um valor *Cadeia de caracteres* que contém o resultado da substituição do texto especificado em caracteres para outro conjunto de caracteres fornecido. |
-| [Trim](er-functions-text-trim.md) | Essa função retorna a cadeia de caracteres de texto especificada como um valor de *Cadeia de caracteres* após os espaços à direita e à esquerda serem truncados e após vários espaços entre as palavras serem removidos. |
+| [Trim](er-functions-text-trim.md) | Esta função retorna a sequência de texto especificada como um valor de *cadeia de caracteres* após a substituição de guia, retorno de carro, avanço de linha e caracteres de avanço de forma por um único caractere de espaço, após o truncamento dos espaços à esquerda e à direita, e depois da remoção de vários espaços entre as palavras. |
 | [Upper](er-functions-text-upper.md) | Essa função retorna a cadeia de caracteres de texto especificada como um valor de *Cadeia de caracteres* após ser convertida em letras maiúsculas. |
 
 ## <a name="additional-resources"></a>Recursos adicionais

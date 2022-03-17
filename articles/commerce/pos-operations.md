@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5e139b7b12b8f2e549fb9c2c8e39125e190c7396
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311970"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349708"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -43,7 +43,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 > As operações listadas a seguir se aplicam à versão mais recente do Commerce. Algumas operações podem ter mudado ou podem não estar disponíveis nas versões anteriores.
 
 
-| ID | Operação | descrição | Grade de botões | Tela de transação | Tela de boas-vindas | Offline disponível | Específico de localidade |
+| ID | Operação | Descrição | Grade de botões | Tela de transação | Tela de boas-vindas | Offline disponível | Específico de localidade |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
 | 707 | Ativar dispositivo | Ativar o dispositivo atual para que um usuário autenticado forneça informações de conexão e atribua uma identificação do dispositivo e do registro. | Não | Não | Não | Não | Não |
 | 134 | Adicionar afiliação | Adicione uma afiliação pré-selecionada a uma transação. Selecione a afiliação na página **Propriedades do botão**. | Sim | Sim | Não | Sim | Não |
@@ -158,8 +158,8 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 504 | Cancelar transação | Recupere uma transação suspensa anteriormente na loja atual. | Sim | Sim | Não | Sim‡ | Não |
 | 305 | Resgatar pontos de fidelidade | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não aplicável | Não aplicável | Sim |
 | 635 | Reembolsar encargos de remessa | Reembolse encargos de remessa em uma ordem cancelada. | Não | Não | Não | Não | Não |
-| 644 | Remover código do cupom | Solicitar que o usuário remova cupons selecionando-os em uma lista de cupons associados no momento à transação. | Sim | Sim | Não | Sim | Não |
-| 1057 | Reimprimir Z | Reimprimir o relatório Z do deslocamento anterior ou de um turno selecionado. | Sim | Sim | Sim | Não | Não |
+| 644 | Remover código do cupom | Solicitar que o usuário remova cupons selecionando-os em uma lista de cupons associados no momento à transação. | Sim | Sim | Não | Sim | Número |
+| 1057 | Reimprimir Z | Reimprimir o relatório Z do deslocamento anterior. | Sim | Sim | Sim | Número | Número |
 | 1216 | Insira uma nova senha | Esta operação permite ao usuário com a permissão de redefinição de senha redefinir outra senha de funcionário usando uma senha temporária. | Sim | Sim | Sim | Não | Não |
 | 1219 | Abrir URL no PDV | Abra uma URL configurada pelo administrador no PDV. | Sim | Sim | Sim | Sim | Não |
 | 109 | Devolver produto | Executar uma devolução de produtos individuais. O próximo produto verificado é mostrado como produto devolvido com quantidade e preço negativos. | Sim | Sim | Não | Sim | Não |

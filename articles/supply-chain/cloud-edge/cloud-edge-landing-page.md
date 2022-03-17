@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
+ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119178"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376173"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escala em uma topologia híbrida distribuída
 
@@ -40,7 +40,7 @@ Os recursos de carga de trabalho estão sendo liberados continuamente por meio d
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Unidades de escala e cargas de trabalho dedicadas
 
-Unidades de escala estendem o ambiente do hub do Supply Chain Management central adicionando capacidade de processamento dedicado. As unidades de escala podem ser executadas na nuvem. Como alternativa, elas podem ser executadas na borda em suas instalações locais.
+Unidades de escala estendem o ambiente do hub do Supply Chain Management central adicionando capacidade de processamento dedicado. As unidades de escala podem ser executadas na nuvem. Como alternativa, elas podem ser executadas na [borda](cloud-edge-edge-scale-units-lbd.md) em suas instalações locais.
 
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 com unidades de escala.":::
 
@@ -127,31 +127,25 @@ Ao habilitar o ambiente do Dynamics 365 para oferecer suporte à topologia híbr
 
 Os dados transferidos e armazenados nos data centers dos EUA serão excluídos de acordo com as políticas de retenção de dados da Microsoft. Sua privacidade é importante para a Microsoft. Para saber mais, leia nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-## <a name="onboarding-in-two-stages"></a>Integração em dois estágios
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Integrar à topologia híbrida distribuída do Supply Chain Management
 
-O processo de integração para a topologia híbrida distribuída tem dois estágios. Durante o primeiro estágio, é necessário validar as personalizações para garantir que elas funcionarão na topologia distribuída com unidades de escala. Os ambientes de área restrita e produção são movidos somente durante o segundo estágio.
+### <a name="try-out-the-distributed-hybrid-topology"></a>Experimentar a topologia híbrida distribuída
 
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Estágio 1: avaliar personalizações em ambientes de desenvolvimento de uma caixa
+O processo de integração para a topologia híbrida distribuída tem dois estágios. Durante o primeiro estágio, é necessário [experimentar](cloud-edge-try-out.md) a solução e validar as personalizações para garantir que elas funcionarão em uma topologia distribuída que inclua unidades de escala. (É possível usar ambientes de desenvolvimento existentes para fazer a validação). Em seguida, você pode continuar até o segundo estágio, no qual você adquire ambientes de produção.
 
-Antes de começar a integrar os ambientes de área restrita ou de produção, recomendamos explorar unidades de escala em uma configuração de desenvolvimento, como um ambiente de uma caixa (também conhecido como ambiente de 1 camada), para poder validar processos, personalizações e soluções. Durante esse estágio, os dados e as personalizações serão aplicadas a ambientes de uma caixa. Um ambiente assume a função do hub e o outro assume a função de uma unidade de escala. Essa configuração oferece a melhor forma de identificar e corrigir problemas. A compilação de acesso antecipado mais recente (PEAP) também pode ser usada para concluir esse estágio.
-
-Para o estágio 1, você deve usar as [ferramentas de implantação da unidade de escala para ambientes de desenvolvimento de uma caixa](https://github.com/microsoft/SCMScaleUnitDevTools). Essas ferramentas permitem configurar as unidades de hub e de escala em um ou dois ambientes de caixa separados. As ferramentas são fornecidas como uma versão binária e no código-fonte no GitHub. Estude a wiki do projeto, que inclui um [guia de uso passo a passo](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) que descreve como as ferramentas são usadas.
-
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Etapa 2: adquirir suplementos e implantar nos ambientes de área restrita e de produção
-
-Para integrar um dos ambientes de área restrita ou de produção à nova topologia, é necessário adquirir suplementos para uma ou mais unidades de escala de nuvem (e, no futuro, para unidade de escala de borda). Os suplementos concederão slots de projeto e de ambiente correspondentes no [LCS](https://lcs.dynamics.com/) para que os ambientes da unidade de escala possam ser implantados.
-
-> [!NOTE]
-> Os suplementos da unidade de escala não são acoplados a um número limitado de usuários, mas podem ser usados por qualquer usuário na assinatura existente, com base nas funções que o administrador atribui.
+## <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Selecione o locatário de projeto do LCS e o processo de integração detalhado
 
 As unidades de escala são oferecidas em várias unidades de manutenção de estoque (SKUs) e opções de preço. Portanto, você pode escolher a opção que melhor atende ao volume de transação mensal planejado e os requisitos de desempenho.
+
+> [!TIP]
+> Para identificar o dimensionamento que melhor atende às suas necessidades, trabalhe com seu parceiro de implementação e a Microsoft para compreender o tamanho da transação mensal de que precisa.
 
 A SKU de nível de entrada é conhecida como *Básica* e a SKU de melhor desempenho é conhecida como *Padrão*. Cada SKU é pré-carregada com um número específico de transações mensais. No entanto, é possível aumentar o orçamento de transações mensais adicionando suplementos excedentes para cada SKU.
 
 :::image type="content" source="media/SKUs-highlevel.png" alt-text="Suplementos de unidades de escala de nuvem.":::
 
-> [!TIP]
-> Para identificar o dimensionamento que melhor atende às suas necessidades, trabalhe com seu parceiro e a Microsoft para compreender o tamanho da transação mensal de que precisa.
+> [!NOTE]
+> Os suplementos de unidade de escala não são acoplados a um número limitado de usuários. Eles estão disponíveis para qualquer usuário na sua assinatura existente (desde que o administrador tenha atribuído as funções de usuário necessárias a eles).
 
 A compra de cada suplemento da unidade de escala fornece um volume mensal de transações e também um número específico de slots de ambiente no LCS. Para cada Suplemento da Unidade de Escala de Nuvem, você tem direito a um novo slot de produção e um novo slot de área restrita. Durante o processo de integração, um novo projeto do LCS será adicionado com esses três slots. Os direitos de uso dos slots estão vinculados para que eles sejam usados como unidades de escala com um hub de nuvem.
 
@@ -159,9 +153,6 @@ Os suplementos excedentes não concedem o direito a novos slots de ambiente.
 
 Se você quiser adquirir mais ambientes de área restrita, é possível comprar slots de área restrita regulares adicionais. A Microsoft pode ajudar você a habilitar esses slots como unidades de escala de área restrita para a topologia híbrida.
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Integrar à topologia híbrida distribuída do Supply Chain Management
-
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Selecione o locatário de projeto do LCS e o processo de integração detalhado
 
 Após concluir o planejamento de integração à topologia híbrida distribuída do Supply Chain Management, você usará o [portal do Gerente de Unidade de Escala](https://aka.ms/SCMSUM) para iniciar o processo de integração. No portal, selecione a guia **Locatários do Dynamics 365**. Essa guia mostra a lista de locatários dos quais sua conta faz parte e onde você é proprietário ou administrador de ambiente para um projeto do LCS.
 

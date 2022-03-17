@@ -2,7 +2,7 @@
 title: Processamento do diário geral
 description: Este tópico descreve os recursos do Microsoft Dynamics 365 Finance que podem facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.
 author: kweekley
-ms.date: 08/09/2019
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726765"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367870"
 ---
 # <a name="general-journal-processing"></a>Processamento do diário geral
 
@@ -101,7 +101,7 @@ Há um botão disponível na página do diário para desbloquear um diário com 
 A capacidade de cancelar um diário em um fluxo de trabalho com o status "irrecuperável" é habilitada usando o botão **Fluxo de trabalho** em um diário e na página **Histórico do fluxo de trabalho**. Isso é habilitado pelo recurso **Redefinir o status do fluxo de trabalho para diários** na página **Gerenciamento de recursos**.
 
 ## <a name="delete-journal-lines"></a>Excluir linhas do diário
-A capacidade de excluir todas as linhas do diário rapidamente é habilitada em um diário, em **Funções** > **Excluir linhas do diário**. Para habilitar esse recurso, em **Gerenciamento de recursos**, selecione **Excluir otimizações de desempenho do diário**.
+A capacidade de excluir todas as linhas do diário rapidamente é habilitada em um diário, em **Funções** > **Excluir linhas do diário**. Para habilitar esse recurso, em **Gerenciamento de recursos**, selecione **Excluir otimizações de desempenho do diário**. Esse recurso impacta as extensões na tabela **LedgerJournalTrans** e no método **Delete**, já que o conjunto de linhas é removido sem chamar o método **Delete** de cada linha. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

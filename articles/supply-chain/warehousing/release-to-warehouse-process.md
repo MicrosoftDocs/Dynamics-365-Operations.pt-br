@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c8aa0338ab30e6366601e3759141c7e41bf99fb
-ms.sourcegitcommit: ab1455c67f6ee6ca36bec148bea0dbb0f7704eda
+ms.openlocfilehash: 3269bf3f8a5475fb85e6b51514db29006be9aab1
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7428908"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376199"
 ---
 # <a name="release-to-warehouse"></a>Liberar para o depósito
 
@@ -125,6 +125,7 @@ Para configurar o trabalho em lotes que libera ordens de venda, siga estas etapa
     - **Quantidade a ser liberada** – Selecione se toda a quantidade ou somente a quantidade fisicamente reservada deve ser liberada para o depósito.
     - **Permitir a liberação de ordens parcialmente liberadas** – Especifique se as quantidades restantes para ordens parcialmente liberadas devem ser liberadas para o depósito.
     - **Manter reservas em caso de falha na liberação** – Especifique se as quantidades reservadas automaticamente para uma ordem de venda devem permanecer reservadas se o processo de liberação para o depósito falhar.
+    - **Liberações de grupo por cliente** – especifique se o sistema deve processar operações de liberação para o depósito separadamente para cada cliente ou liberar todas as ordens de venda ao mesmo tempo. Quando esta opção estiver definida como *Sim*, o sistema coletará todas as linhas da ordem de venda para um cliente selecionado, liberará essas ordens para o depósito e processará o próximo cliente. Quando esta opção estiver definida como *Não*, o sistema liberará todas as linhas da ordem de venda disponíveis em uma única liberação para a operação de depósito. Ao habilitar esta opção, você pode ajudar a aprimorar o desempenho e a resiliência do processo de liberação para o depósito. No entanto, você deve ter cuidado ao usar essa opção junto com os modelos de ciclo que estão configurados como processar ciclo na liberação para o depósito porque essa combinação deve gerar muitos ciclos de único cliente, cada um com trabalho gerado somente para esse cliente. Se você deseja gerar um trabalho que combine remessas para vários clientes, desative a opção *Liberações de grupo por cliente* ou configure os modelos de ciclo para usar o processamento adiado.
     - **Tratamento de ordens bloqueadas** – Selecione como o sistema deve tratar ordens de venda que estão bloqueadas no momento porque estão sendo editadas por outros usuários ou processos:
 
         - *Aguardar o desbloqueio de ordens* – O sistema deve esperar que as ordens sejam desbloqueadas antes de serem liberadas para o depósito. Nesse caso, o processo de liberação para o depósito pode demorar mais tempo.

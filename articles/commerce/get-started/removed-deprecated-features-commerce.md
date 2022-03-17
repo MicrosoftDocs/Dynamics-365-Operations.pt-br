@@ -2,7 +2,7 @@
 title: Recursos removidos ou obsoletos do Dynamics 365 Commerce
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Commerce.
 author: josaw
-ms.date: 09/27/2021
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559550"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384598"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Recursos removidos ou obsoletos do Dynamics 365 Commerce
 
@@ -31,7 +31,7 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 > [!NOTE]
-> Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+> Informações detalhadas sobre objetos em aplicativos de Finanças e Operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de Finanças e Operações.
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Recursos removidos ou substituídos na versão 10.0.21 do Commerce
 
@@ -59,7 +59,7 @@ O SDK do Retail é fornecido no LCS (Lifecycle Services). Esse modo de distribui
 | **Substituída por outro recurso?**   |  [Baixar exemplos de SDK do Retail e pacotes de referência do GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Áreas afetadas do produto**         | SDK do Retail |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: a partir da versão 10.0.21, o SDK enviado por meio das VMs do LCS será removido em outubro de 2022. |
+| **Status**                         | Preterido: a partir da versão 10.0.21, o SDK enviado por meio de VMs do LCS será removido em abril de 2023. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Pacote implantável do Retail e PDV combinados, Estação de hardware e instaladores do Cloud Scale Unit
 
@@ -82,9 +82,9 @@ Para obter mais informações, consulte:
     + [Cloud Scale Unit](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
     + [PDV, CSU e Estação de hardware](https://github.com/microsoft/Dynamics365Commerce.InStore)
 
-### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln e CloudPOs.sln no SDK do Retail
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln e CloudPos.sln no SDK do Retail
 
-O desenvolvimento de extensão de PDV usando ModernPos.sln, CloudPOs.sln, POS.Extension.csproj e a pasta PDV foi preterido na versão 10.0.21. No futuro, use o SDK de empacotamento independente de PDV para extensões de PDV.
+O desenvolvimento de extensão de PDV usando ModernPos.sln, CloudPos.sln, POS.Extension.csproj e a pasta PDV foi preterido na versão 10.0.21. No futuro, use o SDK de empacotamento independente de PDV para extensões de PDV.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -92,7 +92,7 @@ O desenvolvimento de extensão de PDV usando ModernPos.sln, CloudPOs.sln, POS.Ex
 | **Substituída por outro recurso?**   | [SDK de empacotamento independente de PDV](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Áreas afetadas do produto**         | Implantação e extensão de PDV do Dynamics 365 Commerce |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: a partir da versão 10.0.21, o suporte para pacotes de PDV combinados e modelo de extensão usando ModernPos.Sln, CloudPOs.sln e POS.Extensons.csproj no SDK do Retail será removido em outubro de 2022. |
+| **Status**                         | Preterido: a partir da versão 10.0.21, o suporte a pacotes de PDV combinados e modelo de extensão usando ModernPos.Sln, CloudPOs.sln e POS.Extensons.csproj no SDK do Retail será removido em abril de 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Recursos removidos ou substituídos na versão 10.0.17 do Commerce
 

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982085"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367839"
 ---
 # <a name="europe-overview"></a>Visão geral da Europa
 
@@ -36,13 +36,13 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 - [Editar IDs de fatura em ordens de venda para o Leste Europeu](emea-edit-invoice-id-sales-orders.md)
 - [Certificados de Entrada da UE](emea-entry-certificates.md)
 - [Relatórios da lista de vendas da UE](emea-eu-sales-list.md)
+  - [Exemplo da lista genérica de vendas da UE](emea-eu-sales-list-example.md)
 - [​Ajustes cambiais​](emea-exchange-rate-adjustments.md)
 - [Formatos de arquivo para métodos de pagamento](emea-select-file-formats-for-the-method-of-payments.md)
 - [Orientação de Finanças (Globalização) sobre impacto de Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Integração do serviço fiscal (ESR)](emea-fiscal-service-integration.md)
 - [​Alienação de ativos fixos da Estônia e da Lituânia​](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Gerar um documento de transferência para uma transferência interna de estoque](tasks/transfer-document-internal-inventory-transfer.md)
-- [Gerar o relatório da lista de vendas da UE](tasks/eur-00011-eu-sales-list-report.md)
 - Arquivos ISO20022
   - [​Importar arquivos ISO20022​](emea-ISO20022-file-formats.md)
   - [Configuração do débito direto ISO20022 de importação](tasks/import-iso20022-direct-debit-configuration.md)
@@ -77,7 +77,6 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 - [​Visão geral de transferência de crédito SEPA​](../accounts-payable/sepa-credit-transfer.md)
 - [Visão geral de débito direto SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 - [​Configurar remuneração de cliente e fornecedor​](emea-compensation-customer-vendor-transactions.md)
-- [Configurar relatórios da lista de vendas do UE](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Configurar um formato da guia de pagamento para faturas de projeto](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Configurar signatários para formulários impressos](emea-set-up-signers-for-printing-forms.md)
 - [Contabilidade de estorno](emea-storno.md)

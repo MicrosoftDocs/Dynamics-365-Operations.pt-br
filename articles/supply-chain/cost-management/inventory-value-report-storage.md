@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103931"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384686"
 ---
 # <a name="inventory-value-reports"></a>Relatórios de valor de estoque
 
@@ -102,7 +102,7 @@ Use a página **Relatórios de valor de estoque** para configurar o conteúdo in
         - Itens recebidos e ainda não faturados quando a opção **Lançar estoque físico** é desmarcada para o grupo de modelos de item relevante.
         - Itens recebidos e ainda não faturados quando a opção **Lançar recebimento de produtos no razão** estiver desmarcada na Guia Rápida **Recebimento de produtos** na guia **Geral** da página **Parâmetros de contas a pagar** (**Contas a pagar \> Configuração \> Parâmetros de contas a pagar**).
 
-    - **Calcular custo unitário médio** – defina essa opção como *Sim* para exibir uma coluna que mostre o custo unitário médio. O custo unitário médio é a quantidade total dividida pelo valor total.
+    - **Calcular custo unitário médio** – defina essa opção como *Sim* para exibir uma coluna que mostre o custo unitário médio. O custo unitário médio é o valor total dividido pela quantidade total.
     - **Quantidade e valor totais** – defina essa opção como *Sim* para exibir colunas que mostrem a quantidade total de estoque físico (e as quantidades financeiras) e o valor total de estoque físico (e os valores financeiros). Você só poderá definir essa opção como *Sim* se a opção **Resumir valores físicos e financeiros** estiver definida como *Não*.
     - **Dimensões de estoque** – nessa grade, marque a caixa de seleção **Exibir** para cada dimensão que você deseja exibir no relatório. Somente as dimensões nas quais a opção **Estoque financeiro** está habilitada mostrarão valores no relatório. Outras dimensões só mostrarão colunas em branco. Para as dimensões selecionadas para exibição, você pode marcar a caixa de seleção **Total** para incluir os totais também.
     - **ID do recurso** – defina a opção **Exibir** como *Sim* para exibir uma coluna que identifique o item para cada linha. Defina a opção **Total** como *Sim* para incluir os totais também. Dependendo do tipo de item listado em cada linha, a coluna mostra um dos seguintes tipos de informação:

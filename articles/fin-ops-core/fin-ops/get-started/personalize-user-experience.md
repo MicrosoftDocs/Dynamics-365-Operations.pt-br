@@ -2,7 +2,7 @@
 title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
-ms.date: 01/28/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075413"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384634"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -158,6 +158,7 @@ Para algumas páginas que incluem listas, o recurso de personalização **Adicio
 
 - Para adicionar uma lista a um espaço de trabalho, primeiro classifique ou filtre a lista na página de forma que ela mostre as informações como você deseja que apareçam no espaço de trabalho. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Lista**. Após você selecionar **Configurar**, aparecerá uma caixa de diálogo onde você poderá selecionar as colunas que devem aparecer na lista no espaço de trabalho. Você também pode especificar o rótulo usado para a lista no espaço de trabalho.
 - Para adicionar um bloco a um espaço de trabalho, primeiramente filtre a lista na página para que ela mostre os dados que devem ser resumidos ou que você deseja acessar rapidamente. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Bloco**. Após selecionar **Configurar**,uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o bloco no espaço de trabalho. Você também pode especificar se o bloco deve mostrar uma contagem. Depois de ser adicionado ao espaço de trabalho, o bloco poderá ser selecionado para abrir a página atual no espaço de trabalho. Você pode, então, exibir a lista filtrada associada ao bloco.
+    - A partir da versão 10.0.26, se o recurso **Permitir que usuários selecionem e alterem tamanhos de blocos** estiver habilitado, você poderá selecionar um dos quatro **Tamanhos de bloco** disponíveis na caixa de diálogo **Configurar bloco**. Esse recurso também permite ajustar o tamanho do bloco após sua criação diretamente a partir do espaço de trabalho.   
 - Para adicionar um link a um espaço de trabalho, primeiro filtre a lista na página para que ela mostre os dados do seu interesse. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Link**. Após selecionar **Configurar**, uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o link. Você também pode, opcionalmente, especificar um rótulo para a seção na qual este link pode ser colocado. Se essa seção não existir, uma nova seção será criada.
 
 > [!NOTE]
@@ -168,6 +169,9 @@ Após adicionar uma lista, um bloco ou um link a um espaço de trabalho, você p
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Como adicionar um resumo de um espaço de trabalho a um painel
 
 Alguns espaços de trabalho contêm blocos de contagem (isto é, blocos com números). Talvez você deseje que esse blocos apareçam também no painel. Em um espaço de trabalho, clique com o botão direito do mouse em um bloco de contagem, selecione **Personalizar** e, em seguida, na janela de propriedades do bloco, selecione **Fixar no painel**. Na próxima vez que você abrir e atualizar o painel, a contagem será exibida abaixo do bloco de navegação desse espaço de trabalho. Você pode selecionar essa contagem para ir diretamente para os dados que ela representa.
+
+### <a name="changing-the-size-of-a-tile"></a>Alterar o tamanho de um bloco
+A partir da versão 10.0.26, o recurso **Permitir que usuários selecionem e alterem tamanhos de blocos** permite que os usuários modifiquem o tamanho de qualquer bloco que não seja do KPI por meio da personalização. Em um espaço de trabalho, clique com o botão direito em um bloco e selecione **Personalizar**. Na janela de propriedades do bloco, selecione o tamanho desejado nas opções **Tamanho do bloco**. O tamanho do bloco será ajustado imediatamente. Se o recurso **(Versão preliminar) Suporte de exibições salvas para espaços de trabalho** estiver habilitado, você poderá salvar esta personalização em uma exibição do espaço de trabalho.  
 
 ### <a name="personalizing-your-dashboard"></a>Como personalizar seu painel
 

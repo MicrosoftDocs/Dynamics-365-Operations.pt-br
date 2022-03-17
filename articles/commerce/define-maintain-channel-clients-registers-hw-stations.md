@@ -2,7 +2,7 @@
 title: Conectar periféricos ao ponto de venda (PDV)
 description: O tópico aborda como conectar periféricos ao seu Retail POS.
 author: BrianShook
-ms.date: 06/20/2017
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 66912443c25adfae6fa11e6a25c4a97f63a438ba
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
+ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779509"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370942"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos ao ponto de venda (PDV)
 
@@ -58,21 +58,15 @@ O PDV em nuvem é um PDV com base no navegador. Como ele é executado no navegad
 
 ### <a name="hardware-profile"></a>Perfil de hardware
 
-Navegação: Clique em **Comércio** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
+Navegação: Vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de hardware**.
 
-Um perfil de hardware identifica o hardware que está conectado a uma registradora de POS ou uma estação de hardware. O perfil de hardware também é usado para especificar os parâmetros de processador de pagamento que devem ser usados durante a comunicação com o kit de desenvolvimento de software (SDK) do pagamento. (O pagamento SDK é implantado como parte de uma estação de hardware).
+Um perfil de hardware identifica o hardware que está conectado a um terminal de PDV por meio de uma estação de hardware integrada ou compartilhada. O perfil de hardware também é usado para especificar os parâmetros de processador de pagamento que devem ser usados durante a comunicação com o kit de desenvolvimento de software (SDK) do pagamento. O pagamento SDK é implantado como parte de uma estação de hardware.
 
-### <a name="hardware-station"></a>Hardware Station
+### <a name="hardware-station"></a>Estação de hardware
 
-Navegação: Clique em **Varejo e Comércio** &gt; **Canais** &gt; **Lojas** &gt; **Todas as lojas**. Selecione uma loja e clique na Guia Rápida **Estações de hardware**.
+Navegação: acesse **Varejo e Comércio \> Canais \> Lojas \> Todas as lojas**, selecione uma loja e, em seguida, selecione a Guia Rápida **Estações de hardware**.
 
 Uma estação de hardware é uma instância da lógica de negócios que orienta periféricos de POS. Uma estação de hardware é automaticamente instalada junto com MPOS. Como alternativa, a estação de hardware pode ser instalada como um componente autônomo e então acessada pelo MPOS ou POS de nuvem por meio de um serviço da web. A estação de hardware deve ser definida no nível do canal.
-
-### <a name="hardware-station-profile"></a>Perfil da estação de hardware
-
-Navegação: Clique em **Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis das estações de hardware**.
-
-Enquanto a estação de hardware em si especificada no nível de canal inclui informações específicas de instância, como a URL para a estação de hardware, o perfil de estação de hardware inclui informações que podem ser estáticas ou compartilhadas entre várias estações de hardware. Informações estáticas incluem a porta que deve ser usada, o pacote de estação de hardware e o perfil de hardware. Informações estáticas também incluem uma descrição do tipo de estação de hardware que está sendo implantado, como **Check-out** ou **Retorno**, dependendo do hardware que é necessário para cada estação de hardware específico.
 
 ## <a name="scenarios"></a>Cenários
 
@@ -84,32 +78,29 @@ Para conectar os MPOS periféricos POS em um cenário de POS tradicional fixo, p
 
 Depois de atribuir o perfil de hardware, sincronize as alterações com o banco de dados do canal usando a agenda de distribuição **Terminais**. Você pode encontrar as agendas de distribuição em **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**. 
 
-Em seguida, defina uma estação de hardware "local" no canal. Clique em **Varejo e Comércio** &gt; **Canais** &gt; **Lojas** &gt; **Todas as lojas** e selecione uma loja. 
+Em seguida, defina uma estação de hardware dedicada no canal. Acesse **Varejo e Comércio \> Canais \> Lojas \> Todas as lojas** e selecione uma loja. 
 
-Em seguida, na Guia Rápida **Estações de Hardware**, clique em **Adicionar** para adicionar uma estação de hardware. Insira uma descrição, digite **localhost** como o nome de host e sincronize as alterações com o canal usando a agenda de distribuição **Configuração de canal**. Você pode encontrar as agendas de distribuição em **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**. 
+Em seguida, na Guia Rápida **Estações de Hardware**, selecione **Adicionar** para adicionar uma estação de hardware. Selecione **Dedicado** como tipo de estação de hardware e digite uma descrição. O campo **Perfil de hardware** pode ser deixado em branco, pois o perfil de hardware usado neste cenário é proveniente do próprio terminal de PDV. Em seguida, sincronize as alterações no canal usando a programação de distribuição **Configuração de canal**. Você pode encontrar as agendas de distribuição em **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**. 
 
-Por fim, no MPOS, use a operação **Selecionar estação de hardware** para selecionar a estação de hardware **localhost**. Definir a estação de hardware **Ativo**. O perfil de hardware usado neste cenário deve vir da registradora do POS propriamente dito. Um perfil de estação de hardware não é necessário para esse cenário.
+Por fim, em MPOS, use a operação **Selecionar estação de hardware** para selecionar a estação de hardware que corresponde ao valor inserido anteriormente para a descrição e defina a estação de hardware como **Ativa**. 
 
 > [!NOTE]
-> Algumas alterações de perfil de hardware, como alterações nas registradoras, exigem que um novo turno seja aberto após a sincronização das alterações para o canal.
->
-> O Cloud POS deve usar o Hardware Station independente para se comunicar com os periféricos.
+> - Algumas alterações de perfil de hardware, como alterações nas registradoras, exigem que um novo turno seja aberto após a sincronização das alterações para o canal.
+> - O Cloud POS deve usar o Hardware Station independente para se comunicar com os periféricos.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>Os MPOS ou nuvem POS com uma estação de hardware independente
 
 [![Periféricos compartilhados.](./media/shared-300x254.png)](./media/shared.png)
 
-Nesse cenário, uma estação de hardware independente é compartilhada entre clientes MPOS e POS de nuvem. Esse cenário requer que você crie um perfil de estação de hardware para especificar o pacote de download, a porta e o perfil de hardware que a estação de hardware usa. Você pode localizar o perfil do Hardware Station em **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis do Hardware Station**. 
+Nesse cenário, uma estação de hardware independente é compartilhada entre clientes MPOS e PDV de nuvem. Esse cenário requer que você crie uma estação de hardware compartilhada e especifique o pacote de download, a porta e o perfil de hardware que a estação de hardware usa. Você define uma nova estação de hardware selecionando a Guia Rápida **Estações de hardware** no canal específico (**Varejo e Comércio \> Canais \> Lojas \> Todas as lojas**) e adicionando uma nova estação de hardware do tipo **Compartilhada**. 
 
-Depois de criar o perfil do Hardware Station, navegue até o canal específico (**Varejo e Comércio** &gt; **Canais** &gt; **Lojas** &gt; **Todas as lojas**) e adicione um novo Hardware Station. Mapeie essa nova estação de hardware para o perfil de estação de hardware que foi criado anteriormente. 
+Em seguida, forneça uma descrição que ajudará o caixa identificar a estação de hardware. No campo **Nome do host**, digite a URL do host de máquina no seguinte formato: `https://<MachineName:Port>/HardwareStation`. (Substitua **&lt;MachineName:Port&gt;** pelo nome de máquina real da estação de hardware.) Para uma estação de hardware independente, também é necessário especificar a transferência eletrônica de fundos (TEF) ID do terminal. Este valor identifica o terminal de TEF que é conectado à estação de hardware quando o conector de pagamento se comunica com o provedor de pagamentos. 
 
-Em seguida, forneça uma descrição que ajudará o caixa identificar a estação de hardware. No campo **Nome do host**, digite a URL do host de máquina no seguinte formato: `https://<MachineName:Port>/HardwareStation`. (Substitua **&lt;Nome_Máquina:Porta&gt;** pelo nome de máquina real da estação de hardware e pela porta especificada no perfil de estação de hardware). Para uma estação de hardware independente, você também deve especificar a transferência eletrônica de fundos (TEF) ID do terminal. Este valor identifica o terminal de TEF que é conectado à estação de hardware quando o conector de pagamento se comunica com o provedor de pagamentos. 
-
-Em seguida, na máquina estação hardware real, navegue até o canal e selecione estação de hardware. Em seguida, clique em **Download** e instale a estação de hardware. 
+Em seguida, na máquina que hospedará a estação de hardware, vá para o canal no Headquarters e selecione a estação de hardware. Em seguida, selecione **Download** para baixar o instalador de estação de hardware e instale a estação de hardware. Para mais informações sobre como instalar a estação de hardware, consulte [Configurar e instalar a estação de hardware do Retail](retail-hardware-station-configuration-installation.md). 
 
 Em seguida, dos MPOS ou POS de nuvem, use a operação **Selecionar estação de hardware** para selecionar estação de hardware que foi instalada anteriormente. Selecione **Par** para estabelecer uma relação de segurança entre o POS e a estação de hardware. Essa etapa deve ser concluída uma vez para cada combinação de um POS e uma estação de hardware. 
 
-Depois que a estação de hardware é combinada, a mesma operação é usada para ativar a estação de hardware enquanto ele é usado. Para esse cenário, o perfil de hardware deve ser atribuído ao perfil da estação de hardware em vez de ao próprio registro. Se, por algum motivo, uma estação de hardware não tiver um perfil de hardware atribuído diretamente, será usado o perfil de hardware atribuído ao registro.
+Depois que a estação de hardware é combinada, a mesma operação é usada para ativar a estação de hardware enquanto ele é usado. Para este cenário, o perfil de hardware deve ser atribuído à estação de hardware compartilhada em vez do próprio registro. Se nenhum perfil de hardware for atribuído diretamente a uma estação de hardware por algum motivo, o perfil de hardware atribuído ao registro será usado.
 
 ## <a name="client-maintenance"></a>Manutenção do cliente
 
@@ -160,17 +151,17 @@ O perfil de funcionalidade é definido no nível da loja. É usado para especifi
 
     - Especificar o recebimento de máscaras de numeração, que podem incluir segmentos para o número da loja, o número do terminal, constantes, e se as vendas e cotações, ordens de venda e retorno são impressos em sequências separadas ou se eles todos seguem a mesma sequência.
 
-#### <a name="receipt-profiles"></a>Perfis de recebimento
+#### <a name="receipt-profiles"></a>Perfis de recibo
 
-Os perfis de recibo são atribuídos diretamente às impressoras por meio do perfil de hardware. Eles são usados para especificar os tipos de recebimento que são impressos em uma impressora específica. Os perfis incluem configurações de formatos de recibo que determinam se o recibo será impresso sempre ou se o caixa é solicitado a decidir se o recibo deve ser impresso. Impressoras diferentes também podem usar perfis de recebimento diferente. Por exemplo, 1 impressora é uma impressora de recibos térmica padrão e, portanto, tem menores formatos de recibo. No entanto, impressora 2 é uma impressora de recibos em tamanho normal que é usada para imprimir somente recebimentos de ordem de cliente, que exigem mais espaço.
+Os perfis de recibo são atribuídos diretamente às impressoras por meio do perfil de hardware. Eles são usados para especificar os tipos de recebimento que são impressos em uma impressora específica. Os perfis incluem configurações de formatos de recibo que determinam se o recibo será impresso sempre ou se o caixa é solicitado a decidir se o recibo deve ser impresso. Impressoras diferentes também podem usar perfis de recebimento diferente. Por exemplo, 1 impressora é uma impressora de recibos térmica padrão e, portanto, tem menores formatos de recibo. No entanto, impressora 2 é uma impressora de recibos em tamanho normal que é usada para imprimir somente recebimentos de ordem de cliente, que exigem mais espaço. Para obter mais informações, consulte [Configurar um perfil de recibo](configure-emailed-receipt-formats.md#configure-a-receipt-profile).
 
 #### <a name="hardware-profiles"></a>Perfis de hardware
 
-Perfis de hardware são explicados como um componente de configuração do cliente neste artigo. Perfis de hardware são atribuídos diretamente a registradora do POS ou a um perfil de estação de hardware. Eles são usados para especificar os tipos de registro de dispositivos um POS específico ou estação de hardware usada. Perfis de hardware também são usados para especificar as configurações de TEF que são usadas para se comunicar com o SDK do pagamento.
+Perfis de hardware são explicados como um componente de configuração do cliente neste tópico. Os perfis de hardware são atribuídos diretamente ao terminal de PDV ou a uma estação de hardware compartilhada e são usados para especificar os tipos de dispositivos usados por um determinado terminal de PDV ou estação de hardware. Perfis de hardware também são usados para especificar as configurações de TEF que são usadas para se comunicar com o SDK do pagamento.
 
 #### <a name="visual-profiles"></a>Perfis visuais
 
-Perfis visuais são atribuídos no nível do registro. Eles são usados para especificar o tema para um registro específico. Os perfis incluem configurações para o tipo de aplicativo usado (MPOS ou POS de nuvem), a cor de destaque e tema, o esquema de fontes, o plano de fundo de logon e o plano de fundo do POS.
+Os perfis visuais são usados para especificar o tema para um registro específico e são atribuídos no nível do registro. Os perfis incluem configurações para o tipo de aplicativo usado (MPOS ou POS de nuvem), a cor de destaque e tema, o esquema de fontes, o plano de fundo da página de entrada e o plano de fundo do PDV. Para obter mais informações, consulte [Criar perfis visuais de ponto de venda (PDV)](tasks/create-pos-visual-profile-2016-02.md). 
 
 ### <a name="custom-fields"></a>Campos personalizados
 
@@ -179,10 +170,6 @@ Você pode criar campos personalizados para adicionar campos que não sejam forn
 ### <a name="language-text"></a>Texto do idioma
 
 Você pode substituir cadeias de caracteres padrão no PDV usando entradas de texto do idioma. Para substituir uma sequência de caracteres no PDV, adicione uma nova linha de texto do idioma. Em seguida, especifique uma ID, a sequência padrão que deve ser substituída e o texto que deve ser mostrado no PDV em vez da cadeia de caracteres padrão.
-
-### <a name="hardware-station-profiles"></a>Perfis das estações de hardware
-
-Os perfis de hardware de estação são explicados neste artigo. Eles são usados para atribuir informações específicas de instância, não estações de hardware.
 
 ### <a name="channel-reports-configuration"></a>Configuração de relatórios de canal
 
@@ -202,6 +189,10 @@ Informações adicionais relacionadas à ativação incluem o trabalhador que al
 ### <a name="client-data-synchronization"></a>Sincronização de dados do cliente
 
 Todas as alterações em um cliente de POS, exceto as alterações no status de ativação do dispositivo, devem ser sincronizadas no banco de dados do canal entrem em vigor. Para sincronizar as alterações com o banco de dados de canal, navegue até **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição** e execute a agenda de distribuição necessária. Para alterações de cliente, você deve executar as agendas de distribuição **Terminais** e **Configuração do canal**.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Configurar e instalar Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

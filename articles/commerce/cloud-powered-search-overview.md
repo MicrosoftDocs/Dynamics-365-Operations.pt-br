@@ -2,7 +2,7 @@
 title: Visão geral da pesquisa habilitada para a nuvem
 description: Este tópico fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 06/29/2020
+ms.date: 02/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983660"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371420"
 ---
 # <a name="cloud-powered-search-overview"></a>Visão geral da pesquisa habilitada para a nuvem
 
@@ -26,13 +26,13 @@ ms.locfileid: "7983660"
 
 Este tópico fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.
 
-A descoberta de produto ajuda a garantir que clientes podem encontrar produtos rápido e facilmente navegando em categorias, pesquisa e filtros. Os varejistas consideram a descoberta de produtos a principal ferramenta para a interação com os clientes em todos os canais.
+A descoberta de produto ajuda a garantir que clientes podem encontrar produtos rápido e facilmente navegando em categorias, pesquisa e filtros. Os varejistas consideram a descoberta de produtos uma ferramenta principal para a interação do cliente pelos canais da plataforma Cloud Scale Unit (CSU), como comércio eletrônico e ponto de venda (PDV).
 
-Os clientes são acostumados à resposta quase que instantânea de mecanismos de pesquisa da Web, sites de comércio online sofisticados, aplicativos sociais, sugestões automáticas que aparecem conforme digitam termos de pesquisa, navegação multifacetada e destaques. Se os clientes não conseguem encontrar os produtos que estão procurando rapidamente suficiente em um armazenamento de comércio online, eles não hesitarão em ir para uma loja de comércio online diferente.
+Os clientes são acostumados à resposta quase que instantânea de mecanismos de pesquisa da Web, sites de comércio online sofisticados, aplicativos sociais, sugestões automáticas que aparecem conforme digitam termos de pesquisa, navegação multifacetada e destaques. Se os clientes não encontrarem rapidamente o produto que procuram em uma loja de comércio eletrônico, não hesitarão em ir a uma loja de comércio eletrônico diferente.
 
-A descoberta de produto baseada em nuvem no Dynamics 365 Commerce ajuda os vendedores a continuarem a aumentar retenção de cliente e taxas de conversão entre todos os canais, tanto em canais de comércio online e ponto de venda (PDV).
+A descoberta de produtos baseada na nuvem no Commerce ajuda os varejistas a continuarem a aumentar a retenção de consumidores e as taxas de conversão nos canais da plataforma CSU.
 
-A pesquisa da experiência do Dynamics 365 Commerce melhorou os recursos para ajudar fornecedores a obter melhor descoberta de produto. Simultaneamente, esses recursos entregam a escalabilidade e o desempenho necessário para o tráfego de comércio online.
+A experiência de pesquisa do Commerce tem recursos aprimorados para ajudar varejistas a obter melhor descoberta de produto. Simultaneamente, esses recursos entregam a escalabilidade e o desempenho necessário para o tráfego de comércio eletrônico.
 
 ## <a name="browse-and-search"></a>Navegação e pesquisa
 
@@ -54,9 +54,9 @@ A ilustração a seguir mostra um exemplo na navegação multifacetada usada em 
 
 ## <a name="immersive-autosuggest"></a>Sugestão automática imersiva
 
-A funcionalidade de sugestão automática mostra apenas palavras-chave que inicial uma pesquisa da palavra-chave correspondente. Devido aos novos aprimoramentos no Dynamics 365 Commerce, os clientes podem frequentemente descobrir links de produto antes de terminar a digitação.
+A funcionalidade de sugestão automática mostra apenas palavras-chave que disparam uma pesquisa da palavra-chave correspondente. Devido aos novos aprimoramentos no Commerce, os clientes podem frequentemente descobrir links de produto antes de terminar a digitação.
 
-Dynamics 365 Commerce também oferece suporte a funcionalidade de resultados da palavra-chave em várias categorias. Essa funcionalidade permite que os clientes vejam o número de palavras-chave correspondentes entre categorias e aciona uma pesquisa para uma palavra-chave em outras categorias.
+O Commerce também oferece suporte a funcionalidade de resultados da palavra-chave em várias categorias. Essa funcionalidade permite que os clientes vejam o número de palavras-chave correspondentes entre categorias e aciona uma pesquisa para uma palavra-chave em outras categorias.
 
 A ilustração a seguir mostra um exemplo de sugestão automática mais imersiva sendo usada.
 
@@ -64,10 +64,10 @@ A ilustração a seguir mostra um exemplo de sugestão automática mais imersiva
 
 ## <a name="sort"></a>Classificar
 
-A classificação avançada no Dynamics 365 Commerce permite que cliente classifiquem, pesquisem e naveguem em resultados de busca e refinem por critérios como preço, nome de produto e número de produto. Os clientes também podem classificar resultados baseados em se o produto é novo, muito vendido ou recentemente adicionado.
+A classificação avançada no Commerce permite que cliente classifiquem, pesquisem e naveguem em resultados de busca e refinem por critérios como preço, nome de produto e número de produto. Os clientes também podem classificar resultados baseados em se o produto é novo, muito vendido ou recentemente adicionado.
 
->[!NOTE]
->Esses recursos de pesquisa habilitados para a nuvem estão disponíveis a partir da versão 10.0.8. Verifique se em **Parâmetros do Commerce > Parâmetros de Configuração** há uma entrada para "ProductSearch.UseAzureSearch definido como 'true'". 
+> [!NOTE]
+> Esses recursos de pesquisa habilitados para a nuvem estão disponíveis a partir da versão 10.0.8. Verifique se há uma entrada para "ProductSearch.UseAzureSearch" definida como 'true' em **Parâmetros do Commerce > Parâmetros de Configuração**. 
 ![Parâmetros de configuração para pesquisa habilitada para a nuvem.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
@@ -77,4 +77,4 @@ A classificação avançada no Dynamics 365 Commerce permite que cliente classif
 [Gerenciar metadados de SEO](manage-seo-metadata.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

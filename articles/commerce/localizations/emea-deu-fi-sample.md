@@ -2,23 +2,24 @@
 title: Exemplo de integração de serviços de registro fiscal para a Alemanha
 description: Este tópico fornece uma visão geral do exemplo de integração fiscal da Alemanha no Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 128c94407a283bf45e5626de060cee82430f087b
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65315a9fd6bc1af26bc225220e096aee4da09be2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076852"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388150"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Exemplo de integração de serviços de registro fiscal para a Alemanha
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Este tópico fornece uma visão geral do exemplo de integração fiscal da Alemanha no Microsoft Dynamics 365 Commerce.
 
@@ -317,7 +318,7 @@ O mapeamento de dados padrão a seguir é incluído na configuração do provedo
     | Forma de pagamento | Nome do método de pagamento |
     |----------------|---------------------|
     | 1              | Pagamento à vista                |
-    | 2              | Marcar               |
+    | 2              | Cheque               |
     | 3              | Cartão                |
     | 4              | Conta do cliente    |
     | 5              | Outros               |
@@ -396,14 +397,28 @@ Para configurar um ambiente de desenvolvimento para testar e ampliar o exemplo, 
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Instale as extensões da extensão de hardware:
+1. Instalar extensões do conector fiscal:
 
-    - Na pasta **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**, encontre o instalador **HardwareStation.EFR.Installer**.
-    - Inicie o instalador de extensão na linha de comando:
+    Você pode instalar extensões do conector fiscal na [estação de hardware](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) ou no [terminal de PDV](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. Instale as extensões da extensão de hardware:
+
+        1. Na pasta **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**, encontre o instalador **HardwareStation.EFR.Installer**.
+        1. Inicie o instalador de extensão na linha de comando, executando o comando a seguir.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. Instale extensões do PDV:
+
+        1. Abra a solução de exemplo do conector fiscal PDV em **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** e compile-a.
+        1. Na pasta **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461**, localize o instalador **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**.
+        1. Inicie o instalador de extensão na linha de comando, executando o comando a seguir.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>Ambiente de produção
 
@@ -452,5 +467,28 @@ O conector oferece suporte às seguintes solicitações:
 #### <a name="configuration"></a>Configuração
 
 O arquivo de configuração para o conector fiscal está em **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Design de extensão do conector fiscal PDV
+
+A finalidade da extensão do conector fiscal PDV é comunicar-se com o serviço de registro fiscal do PDV. Ele usa o protocolo HTTPS para comunicação.
+
+#### <a name="fiscal-connector-factory"></a>Fábrica do conector fiscal
+
+A fábrica do conector fiscal mapeia o nome do conector para a implementação do conector fiscal e está localizada no arquivo **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. O nome do conector deve corresponder ao nome do conector fiscal especificado na sede do Commerce.
+
+#### <a name="efr-fiscal-connector"></a>Conector fiscal EFR
+
+O conector fiscal EFR está localizado no arquivo **Pos.Extension\\Connectors\\Efr \\EfrFiscalConnector.ts**. Ele implementa a interface **IFiscalConnector** que dá suporte às seguintes solicitações:
+
+- **FiscalRegisterSubmitDocumentClientRequest** – Esta solicitação envia documentos para o serviço de registro fiscal e retorna uma resposta dele.
+- **FiscalRegisterIsReadyClientRequest** – Esta solicitação é usada para uma verificação do serviço de registro fiscal.
+- **FiscalRegisterInitializeClientRequest** – Esta solicitação é usada para inicializar o serviço de registro fiscal.
+
+#### <a name="configuration"></a>Configuração
+
+O arquivo de configuração está localizado na pasta **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+
+- **Endereço do ponto de extremidade** – A URL do serviço de registro fiscal.
+- **Tempo limite** – O período, em milissegundos, que o conector aguardará por uma resposta do serviço de registro fiscal.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

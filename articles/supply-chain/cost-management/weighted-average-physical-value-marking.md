@@ -2,231 +2,249 @@
 title: Média ponderada com valor físico e marcação
 description: A média ponderada é um modelo de estoque com base no princípio da média ponderada, no qual as saídas do estoque são avaliadas no valor médio dos itens recebidos no estoque durante o período de fechamento de estoque, mais qualquer estoque disponível do período anterior.
 author: AndersGirke
-ms.date: 10/25/2017
+ms.date: 02/21/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 65501
-ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d94e61384ad2d0880a6d62b963e9a99518a41db1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6c124716b70be837573506a738ef2034397f2bda
+ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571992"
+ms.lasthandoff: 02/21/2022
+ms.locfileid: "8330217"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Média ponderada com valor físico e marcação
 
 [!include [banner](../includes/banner.md)]
 
-A média ponderada é um modelo de estoque com base no princípio da média ponderada, no qual as saídas do estoque são avaliadas no valor médio dos itens recebidos no estoque durante o período de fechamento de estoque, mais qualquer estoque disponível do período anterior.
+A média ponderada é um modelo de estoque baseado em uma média que resulta da multiplicação de cada componente (transação de item) por um fator (preço de custo) que reflete sua importância (quantidade). Outra forma de dizer isso é que a média ponderada é um modelo de estoque que atribui o custo de transações de saída com base no valor médio de todo o estoque recebido durante o período, além de qualquer estoque disponível do período anterior.
 
-Quando você executa um fechamento de estoque, todos os recebimentos são liquidados contra uma saída virtual, que armazena a quantidade e o valor totais recebidos. Essa saída virtual possui um recebimento virtual correspondente a partir do qual as saídas são liquidadas. Dessa forma, todas as saídas obtêm o mesmo custo médio. A saída e o recebimento virtuais podem ser vistos como uma transferência virtual, que é chamada de transferência de fechamento de estoque de média ponderada.
+Quando você executa um fechamento de estoque usando o modelo de estoque de média ponderada, há duas maneiras de criar uma liquidação. Em geral, todos os recebimentos são liquidados em relação a uma saída virtual, que armazena a quantidade e o valor totais recebidos. Essa saída virtual possui um recebimento virtual correspondente a partir do qual as saídas são liquidadas. Dessa forma, todas as saídas obtêm o mesmo custo médio. A saída e o recebimento virtuais podem ser vistos como uma transferência virtual, que é chamada de *transferência de fechamento de estoque de média ponderada*. Esse método de liquidação é chamado de *liquidação resumida de média ponderada*. Se houver somente um recebimento, todas as saídas poderão ser liquidadas a partir dele e a transferência virtual não será criada. Esse método de liquidação é chamado de *liquidação direta*. Qualquer estoque disponível após o fechamento do estoque é executado na média ponderada do período anterior e incluído no cálculo de média ponderada no próximo período.
 
-Se houver somente um recebimento, todas as saídas poderão ser liquidadas a partir dele e a transferência virtual não será criada. 
-
-Ao usar a média ponderada, é possível marcar as transações de estoque para que o recebimento de um item específico seja liquidado em vez de usar a regra da média ponderada. 
-
-Recomendamos um fechamento de estoque mensal quando o modelo de estoque de média ponderada for usado. 
+Você pode substituir o princípio de média ponderada, marcando transações de estoque de forma que o recebimento de um item específico seja liquidado em relação a uma saída específica. Um fechamento de estoque periódico é exigido quando você usa o modelo de estoque de média ponderada para gerar liquidações e ajustar valores de acordo com o princípio de média ponderada. Até que você execute o processo de fechamento de estoque, as transações de saída são avaliadas na média de execução quando ocorreram atualizações físicas e financeiras. A menos que você esteja usando marcação, a média de execução é calculada quando a atualização física ou financeira é executada.
 
 O método de custo de estoque da média ponderada é calculado pelo seguinte fórmula:
--   Média ponderada = (Q1\*P1 + Q2\*P2 + Qn\*Pn) / (Q1 + Q2 + Qn)
 
-Transações de estoque deixando saídas de estoque. Isso inclui ordens de venda, diários de estoque, e ordens de produção, que ocorrem a um preço de custo estimado na data de lançamento. Esse preço de custo estimado também é referido como média em execução. No momento do fechamento de estoque, o sistema analisará as transações de estoque para períodos anteriores e atuais, além de determinar quais dos seguintes princípios de fechamento devem ser usados.
--   Liquidação direta
--   Liquidação resumida
+- Média ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*)
+
+Q = quantidade da transação  
+P = preço da transação
 
 As liquidações são lançamentos de fechamento de estoque que ajustam as saídas para a média ponderada correta a partir da data de fechamento. Os seguintes exemplos ilustram o efeito do uso da média ponderada com cinco configurações diferentes:
--   Liquidação direta de média ponderada sem a opção Incluir valor físico
--   Liquidação resumida de média ponderada sem a opção Incluir valor físico
--   Liquidação direta de média ponderada com a opção Incluir valor físico
--   Liquidação resumida de média ponderada com a opção Incluir valor físico
--   Média ponderada com a marcação
+
+- Liquidação direta de média ponderada sem a opção **Incluir valor físico**
+- Liquidação resumida de média ponderada sem a opção **Incluir valor físico**
+- Liquidação direta de média ponderada com a opção **Incluir valor físico**
+- Liquidação resumida de média ponderada com a opção **Incluir valor físico**
+- Média ponderada com a marcação
 
 ## <a name="weighted-average-direct-settlement-without-include-physical-value"></a>Liquidação direta de média ponderada sem incluir valor físico
-O princípio de liquidação direta é o mesmo usado para a média ponderada em versões anteriores. O sistema liquidará diretamente entre recebimentos e saídas. O sistema usa esse princípio de liquidação direta em certas situações específicas:
--   Um recebimento e uma ou mais saídas foram lançadas no período
--   Somente saídas foram lançadas no período e o estoque contém itens disponíveis de um fechamento anterior
 
-Foram lançados um recebimento e uma saída atualizados financeiramente no cenário das seções a seguir. Durante o fechamento de estoque, o sistema liquidará o recebimento diretamente contra a saída e não será necessário nenhum ajuste para o preço de custo na saída. As transações a seguir são ilustradas no gráfico.
--   1a. Recebimento físico de estoque atualizado para uma quantidade de 5 a BRL 10,00 cada
--   1b. Recebimento financeiro de estoque atualizado para uma quantidade de 5 a BRL 10,00 cada
--   2a. Saída física de estoque atualizada para uma quantidade de 2 a BRL 10,00 cada
--   2b. Saída financeira de estoque atualizada para uma quantidade de 2 a BRL 10,00 cada
--   3. O fechamento de estoque é executado usando o método de liquidação direta para liquidar o recebimento financeiro de estoque para a saída financeira de estoque.
+O princípio de liquidação direta cria liquidações diretamente entre recebimentos e saídas sem criar outras transações de estoque. O sistema usa esse princípio de liquidação direta nestas situações:
 
-O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação direta sem a opção Incluir valor físico. 
+- Um recebimento e uma ou mais saídas foram lançadas no período.
+- Somente saídas foram lançadas no período e o estoque contém itens disponíveis de um fechamento anterior.
 
-![DS de média ponderada sem Incluir Valor Físico.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+Neste exemplo, a caixa de seleção **Incluir valor físico** está desmarcada no **Grupo de modelos do item** para o produto liberado. A ilustração a seguir mostra estas transações:
+
+- 1a. Recebimento físico de estoque para uma quantidade de 10 ao custo de BRL 10,00 cada.
+- 1b. Recebimento financeiro de estoque para uma quantidade de 10 ao custo de BRL 10,00 cada.
+- 2a. Recebimento físico de estoque para uma quantidade de 10 ao custo de BRL 20,00 cada.
+- 3a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 10,00 (média ponderada de transações lançadas financeiramente).
+- 3b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de USD 10,00 (média ponderada de transações lançadas financeiramente).
+- 4a. Saída física de estoque para uma quantidade 1 ao preço de custo de USD 10,00 cada (média de transações lançadas financeiramente).
+- 4b. Saída financeira de estoque para uma quantidade 1 ao custo de USD 10,00 cada (média de execução de transações lançadas financeiramente).
+- 5a. Saída física de estoque para uma quantidade 1 ao preço de custo de USD 10,00 cada (média de transações lançadas financeiramente).
+- 6\. O fechamento de estoque é executado. Com base no método de média ponderada, o sistema usa o método de liquidação direta porque somente um recebimento é atualizado financeiramente no período. Neste exemplo, uma liquidação é criada entre 1b e 3b, e outra entre 1b e 4b. Nenhum ajuste é feito porque a média de execução é igual à média ponderada.
+
+O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o modelo de estoque de média ponderada e o princípio de liquidação direta sem a opção **Incluir valor físico**.
+
+![DS de média ponderada sem Incluir Valor físico.](media/weighted-average-direct-settlement-without-include-physical-value.png)
 
 **Chave para o diagrama**
+
 - As transações de estoque são representadas por setas verticais.
-- Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
-- Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
-- Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
-- Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
-- Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
-- Cada seta vertical é rotulada com um identificador seqüencial, como *1a*. Os identificadores indicam a seqüência de lançamentos de transação de estoque na linha do tempo.
-- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta Fechamento de Estoque.
-- As liquidações executadas pelo fechamento de estoque são representadas por setas vermelhas pontilhadas na diagonal de um recebimento para uma saída.
+- As transações físicas são representadas por setas cinza menores.
+- As transações financeiras são representadas por setas mais longas em preto.
+- Os recebimentos no estoque são representados por setas verticais sobre o eixo.
+- Saídas fora do estoque são representadas por setas verticais abaixo do eixo.
+- Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
+- Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
+- Cada data no diagrama é separada por uma linha vertical preta fina. A data é indicada na parte inferior do diagrama.
+- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha.
+- As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Liquidação resumida de média ponderada sem a opção Incluir valor físico
-A média ponderada usa o princípio de liquidação que todos os recebimentos em um período de fechamento são resumidos em uma transação chamada Fechamento de estoque de média ponderada. Todos os recebimentos para o período serão liquidados contra a saída da recém criada transação de transferência de estoque. Todas as saídas para o período serão liquidadas contra o recebimento da nova transação de transferência de estoque. Se o estoque disponível for positivo depois do fechamento de estoque, esse estoque disponível e o valor do estoque são resumidos na nova transação de transferência de estoque (recebimento). Se o estoque disponível for negativo depois do fechamento de estoque, o estoque disponível e o valor do estoque são a soma de saídas individuais que não foram liquidadas completamente. No cenário abaixo, vários recebimentos atualizados financeiramente e uma saída foram lançados. 
 
-Durante o fechamento de estoque, o sistema gerará e lançará a transação de transferência de estoque resumida para liquidar todos os recebimentos para o período contra a transação de saída de transferência de estoque resumida. Todas as saídas lançadas para o período serão liquidadas contra a transação de recebimento de transferência de estoque resumido. A média ponderada é calculada em BRL 15,00. A saída foi lançada originalmente com um preço de custo estimado de R$ 14,67. Portanto, um ajuste de R$ 0,33 negativos será criado e lançado na saída. A partir da data de fechamento do estoque, o estoque disponível é de 3 peças com um valor de BRL 45,00. 
+Quando há vários recebimentos em um período, a média ponderada usa o princípio de liquidação resumido em que todos os recebimentos em um período de fechamento são resumidos em uma transação chamada *fechamento de estoque de média ponderada*. Todos os recebimentos do período serão liquidados em relação à saída da transação de estoque recém-criada. Todas as saídas para o período serão liquidadas em relação ao recebimento da nova transação de estoque. Se houver valor de estoque restante disponível depois do fechamento de estoque, o valor do estoque disponível será incluído na transação de recebimento de transações de fechamento de estoque de média ponderada.
 
-As transações a seguir são ilustradas no gráfico abaixo:
--   1a. Recebimento físico de estoque atualizado para uma quantidade de 2 ao custo de BRL 11,00 cada.
--   1b. Recebimento financeiro de estoque atualizado para uma quantidade de 2 ao custo de BRL 14,00 cada.
--   2a. Recebimento físico de estoque atualizado para uma quantidade de 1 ao custo de BRL 12,00 cada.
--   2b. Recebimento financeiro de estoque atualizado para uma quantidade de 1 ao custo de BRL 16,00 cada.
--   3a. Saída física de estoque atualizada para uma quantidade de 1 ao custo de BRL 14,67 cada (média ponderada).
--   3b. Saída financeira de estoque atualizada para uma quantidade de 1 ao custo de BRL 14,67 cada (média ponderada).
--   4a. Recebimento físico de estoque atualizado para uma quantidade de 1 ao custo de BRL 14,00 cada.
--   4b. Recebimento financeiro de estoque atualizado para uma quantidade de 1 ao custo de BRL 16,00 cada.
--   5. O fechamento de estoque é executado.
--   6a. Saída financeira de “transação de fechamento de estoque de média ponderada” é criada para somar as liquidações para todos os recebimentos financeiros de estoque.
--   6b. Recebimento financeiro de “transação de fechamento de estoque de média ponderada” é criado como compensação para 5a.
+As seguintes transações são ilustradas neste gráfico:
 
-O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação resumida sem a opção Incluir valor físico. 
+- 1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
+- 2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 22,00 cada.
+- 3a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média ponderada de transações lançadas financeiramente).
+- 3b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média ponderada de transações lançadas financeiramente).
+- 4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
+- 5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 23,00 (média ponderada de transações lançadas financeiramente).
+- 7\. O fechamento de estoque é executado.
+- 7a. A saída financeira de transação de fechamento de estoque de média ponderada é criada para somar as liquidações para todos os recebimentos financeiros de estoque.
+  - A transação 1b é liquidada para uma quantidade 1 com um valor liquidado de USD 10,00.
+  - A transação 2b é liquidada para uma quantidade 1 com um valor liquidado de USD 22,00.
+  - A transação 5b é liquidada para uma quantidade 1 com um valor liquidado de USD 30,00.
+  - A transação 7a é criada para uma quantidade 3 com um valor liquidado de USD 62,00. Esta transação desloca a soma das três transações de recibo financeiramente atualizadas no período.
+- 7b. Um recebimento financeiro de transação de fechamento de estoque de média ponderada é criado como a compensação para saídas lançadas financeiramente.
+  - A transação 3b é liquidada para uma quantidade 1 com um valor liquidado de USD 20,67. Essa transação é ajustada por USD 4,67 para passar o valor original de USD 16,00 para 20,67, que é a média ponderada de transações lançadas financeiramente para o período.
+  - A transação 7b é criada para uma quantidade 1 com um valor liquidado de USD 20,67 para compensação 3b. Esta transação desloca a soma de uma transação de saída que é financeiramente atualizada no período.
 
-![SS de média ponderada sem Incluir Valor Físico.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o modelo de estoque de média ponderada e o princípio de liquidação resumida sem a opção **Incluir valor físico**.
+
+![SS de média ponderada sem Incluir valor físico.](media/weighted-average-summarized-settlement-without-include-physical-value.png)
 
 **Chave para o diagrama**
+
 - As transações de estoque são representadas por setas verticais.
-- Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
-- Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
-- Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
-- Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
-- Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
-- Cada seta vertical é rotulada com um identificador seqüencial, como *1a*. Os identificadores indicam a seqüência de lançamentos de transação de estoque na linha do tempo.
-- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta Fechamento de Estoque.
-- As liquidações executadas pelo fechamento de estoque são representadas por setas vermelhas pontilhadas na diagonal de um recebimento para uma saída.
-- As setas vermelhas ilustram as transações de recebimento liquidadas para a transação de saída criada pelo sistema.
-- A seta verde representa a transação de recebimento de compensação gerada pelo sistema para a qual a transação de saída lançada originalmente é liquidada
+- As transações físicas são representadas por setas cinza menores.
+- As transações financeiras são representadas por setas mais longas em preto.
+- Os recebimentos no estoque são representados por setas verticais sobre o eixo.
+- Saídas fora do estoque são representadas por setas verticais abaixo do eixo.
+- Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
+- Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
+- Cada data no diagrama é separada por uma linha vertical preta fina. A data é indicada na parte inferior do diagrama.
+- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha.
+- As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Liquidação direta de média ponderada com a opção Incluir valor físico
-O parâmetro Incluir valor físico funciona de forma diferente com o modelo de inventário médio ponderado do que em versões anteriores do produto. Marque a caixa Incluir valor físico para um item no formulário Grupo de modelo do item. Em seguida, o sistema usará os recebimentos atualizados fisicamente ao calcular o preço de custo estimado, ou a média em execução. As saídas serão lançadas com base nesse preço de custo estimado durante o período. Durante o fechamento de estoque, os recebimentos atualizados financeiramente serão considerados somente no cálculo de média ponderada. É recomendado um fechamento de estoque mensal ao usar o modelo de estoque de média ponderada. Nesse exemplo de liquidação direta de média ponderada, o grupo de modelo de item é marcado para incluir o valor físico. 
 
-As transações a seguir são ilustradas no gráfico abaixo:
--   1a. Recebimento físico de estoque atualizado para uma quantidade de 1 ao custo de BRL 11,00 cada.
--   1b. Recebimento financeiro de estoque atualizado para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   2a. Recebimento físico de estoque atualizado para uma quantidade de 1 ao custo de BRL 15,00 cada.
--   3a. Saída física de estoque atualizada para uma quantidade de 1 ao custo de BRL 12,50 cada (custo médio, uma vez que o valor de recebimento físico é considerado).
--   3b. Saída financeira de estoque atualizada para uma quantidade de 1 ao custo de BRL 12,50 cada (custo médio, uma vez que o valor de recebimento físico é considerado).
--   4. O fechamento de estoque é executado. Durante o fechamento de estoque, o sistema desconsiderará todas as transações de estoque que foram atualizadas fisicamente. Em vez disso, o princípio de liquidação direta será usado porque existe somente um recebimento financeiro. Um ajuste de BRL 2,50 será lançado para as transações de estoque que foram emitidas financeiramente a partir da data de fechamento de estoque. Depois do fechamento de estoque, o estoque disponível será uma quantidade de 1 com um preço de custo médio de BRL 15,00.
+O parâmetro **Incluir valor físico** funciona de forma diferente com o modelo de inventário médio ponderado do que em versões anteriores do produto. Quando você selecionar a opção **Incluir valor físico** para um item no formulário **Grupo de modelos do item**, o sistema usará recebimentos atualizados fisicamente ao calcular o preço de custo de saída estimado ou média de execução. As saídas serão lançadas com base nesse preço de custo estimado durante o período. Durante o fechamento de estoque, os recebimentos atualizados financeiramente serão considerados somente no cálculo de média ponderada.
 
-O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação direta com a opção Incluir valor físico. 
+As seguintes transações são ilustradas neste gráfico:
 
-![DS de média ponderada com Incluir Valor Físico.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+- 1a. Recebimento físico de estoque para uma quantidade de 10 ao custo de BRL 10,00 cada.
+- 1b. Recebimento financeiro de estoque para uma quantidade de 10 ao custo de BRL 10,00 cada.
+- 2a. Recebimento físico de estoque para uma quantidade de 10 ao custo de BRL 20,00 cada.
+- 3a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 15,00 (média de transações lançadas financeiramente e fisicamente).
+- 3b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de USD 15,00 (média de transações lançadas financeiramente e fisicamente).
+- 4a. Saída física de estoque para uma quantidade 1 ao custo de USD 15,00 cada (média de execução de transações lançadas financeira e fisicamente).
+- 4b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de USD 15,00 (média de transações lançadas financeiramente e fisicamente).
+- 5a. Saída física de estoque para uma quantidade 1 ao custo de USD 15,00 cada (média de execução de transações lançadas financeira e fisicamente).
+- 6\. O fechamento de estoque é executado. Com base no método de média ponderada, o sistema usa o método de liquidação direta porque somente um recebimento é atualizado financeiramente no período. Neste exemplo, uma liquidação é criada entre 1b e 3b, e outra entre 1b e 4b. As transações 3b e 4b são ajustadas por USD -5,00 para passar o valor para USD 10,00.
+
+O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o modelo de estoque de média ponderada e o princípio de liquidação direta com a opção **Incluir valor físico**.
+
+![DS de média ponderada com Incluir valor físico.](media/weighted-average-direct-settlement-with-include-physical-value.png)
 
 **Chave para o diagrama**
+
 - As transações de estoque são representadas por setas verticais.
-- Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
-- Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
-- Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
-- Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
-- Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
-- Cada seta vertical é rotulada com um identificador seqüencial, como *1a*. Os identificadores indicam a seqüência de lançamentos de transação de estoque na linha do tempo.
-- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta Fechamento de Estoque.
-- As liquidações executadas pelo fechamento de estoque são representadas por setas vermelhas pontilhadas na diagonal de um recebimento para uma saída.
+- As transações físicas são representadas por setas cinza menores.
+- As transações financeiras são representadas por setas mais longas em preto.
+- Os recebimentos no estoque são representados por setas verticais sobre o eixo.
+- Saídas fora do estoque são representadas por setas verticais abaixo do eixo.
+- Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
+- Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
+- Cada data no diagrama é separada por uma linha vertical preta fina. A data é indicada na parte inferior do diagrama.
+- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha.
+- As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Liquidação resumida de média ponderada com a opção Incluir valor físico
-O parâmetro Incluir valor físico funciona de forma diferente com a média ponderada do que nas versões anteriores. Marque a caixa Incluir valor físico para um item na página Grupo de modelo do item. Em seguida, o sistema usará os recebimentos atualizados fisicamente no cálculo do preço de custo estimado, ou a média em execução. As saídas serão lançadas com base nesse preço de custo estimado durante o período. Durante o fechamento de estoque, os recebimentos atualizados financeiramente serão considerados somente no cálculo de média ponderada. É recomendado um fechamento de estoque mensal ao usar o modelo de estoque de média ponderada. Nesse exemplo de liquidação resumida de média ponderada, o modelo de estoque é marcado para incluir valor físico. 
 
-As transações a seguir são ilustradas no gráfico abaixo:
--   1a. Recebimento físico de estoque atualizado para uma quantidade de 2 ao custo de BRL 11,00 cada.
--   1b. Recebimento financeiro de estoque atualizado para uma quantidade de 2 ao custo de BRL 14,00 cada.
--   2. Recebimento físico de estoque atualizado para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   3a. Recebimento físico de estoque atualizado para uma quantidade de 1 ao custo de BRL 12,00 cada.
--   3b. Recebimento financeiro de estoque atualizado para uma quantidade de 1 ao custo de BRL 16,00 cada.
--   4a. Saída física de estoque atualizada para uma quantidade de 1 ao custo de BRL 13,50 cada (custo médio, uma vez que o valor de recebimento físico é considerado).
--   4b. Saída financeira de estoque atualizada para uma quantidade de 1 ao custo de BRL 13,50 cada (custo médio, uma vez que o valor de recebimento físico é considerado).
--   5a. Recebimento físico de estoque atualizado para uma quantidade de 1 ao custo de BRL 14,00 cada.
--   5b. Recebimento financeiro de estoque atualizado para uma quantidade de 1 ao custo de BRL 16,00 cada.
--   6. O fechamento de estoque é executado. Durante o fechamento de estoque, o sistema desconsiderará todas as transações de estoque são atualizadas somente fisicamente. O princípio de liquidação resumida será usado porque existe somente um recebimento financeiro. Um ajuste de BRL 1,50 será lançado para as transações de estoque que foram emitidas financeiramente a partir da data de fechamento de estoque. Depois do fechamento de estoque, o estoque disponível será uma quantidade de 3 com um preço de custo médio de BRL 15,00.
--   7a. Saída financeira de “transação de fechamento de estoque de média ponderada” é criada para somar as liquidações para todos os recebimentos financeiros de estoque.
--   7b. Recebimento financeiro de “transação de fechamento de estoque de média ponderada” é criado como compensação para 5a.
+O parâmetro **Incluir valor físico** funciona de forma diferente com a média ponderada do que nas versões anteriores. Marque a caixa de seleção **Incluir valor físico** para um item na página **Grupo de modelos do item**. Em seguida, o sistema usará os recebimentos atualizados fisicamente no cálculo do preço de custo estimado, ou a média em execução. As saídas serão lançadas com base nesse preço de custo estimado durante o período. Durante o fechamento de estoque, os recebimentos atualizados financeiramente serão considerados somente no cálculo de média ponderada. É recomendado um fechamento de estoque mensal ao usar o modelo de estoque de média ponderada. Nesse exemplo de liquidação resumida de média ponderada, o modelo de estoque é marcado para incluir valor físico.
 
-O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação resumida sem a opção Incluir valor físico. 
+As seguintes transações são ilustradas neste gráfico:
 
-![SS de média ponderada com Incluir Valor Físico.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+- 1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
+- 2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 22,00 cada.
+- 3a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média de transações lançadas financeiramente e fisicamente).
+- 3b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média de transações lançadas financeiramente e fisicamente).
+- 4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
+- 5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 23,67 (média de transações lançadas financeiramente e fisicamente).
+- 7\. O fechamento de estoque é executado.
+- 7a. A saída financeira de transação de fechamento de estoque de média ponderada é criada para somar as liquidações para todos os recebimentos financeiros de estoque.
+  - A transação 1b é liquidada para uma quantidade 1 com um valor liquidado de USD 10,00.
+  - A transação 2b é liquidada para uma quantidade 1 com um valor liquidado de USD 22,00.
+  - A transação 5b é liquidada para uma quantidade 1 com um valor liquidado de USD 30,00.
+  - A transação 7a é criada para uma quantidade 3 com um valor liquidado de USD 62,00.  
+- 7b. Um recebimento financeiro de transação de fechamento de estoque de média ponderada é criado como a compensação para as transações de saída fechadas financeiramente.
+  - A transação 3b é liquidada para uma quantidade 1 com um valor liquidado de USD 20,67. Essa transação é ajustada por USD 4,67 para passar o valor original de USD 16,00 para 20,67, que é a média ponderada de transações lançadas financeiramente para o período.
+  - A transação 7b é criada para uma quantidade 1 com um valor liquidado de USD 20,67 para compensação 3b.
+
+O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o modelo de estoque de média ponderada e o princípio de liquidação resumida sem a opção **Incluir valor físico**.
+
+![SS de média ponderada com Incluir valor físico.](media/weighted-average-summarized-settlement-with-include-physical-value.png)
 
 **Chave para o diagrama**
+
 - As transações de estoque são representadas por setas verticais.
-- Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
-- Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
-- Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
-- Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
-- Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
-- Cada seta vertical é rotulada com um identificador seqüencial, como 1a. Os identificadores indicam a seqüência de lançamentos de transação de estoque na linha do tempo.
-- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta Fechamento de Estoque.
-- As liquidações executadas pelo fechamento de estoque são representadas por setas vermelhas pontilhadas na diagonal de um recebimento para uma saída.
-- As setas vermelhas ilustram as transações de recebimento liquidadas para a transação de saída criada pelo sistema.
-- A seta verde representa a transação de recebimento de compensação gerada pelo sistema para a qual a transação de saída lançada originalmente é liquidada
+- As transações físicas são representadas por setas cinza menores.
+- As transações financeiras são representadas por setas mais longas em preto.
+- Os recebimentos no estoque são representados por setas verticais sobre o eixo.
+- Saídas fora do estoque são representadas por setas verticais abaixo do eixo.
+- Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
+- Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
+- Cada data no diagrama é separada por uma linha vertical preta fina. A data é indicada na parte inferior do diagrama.
+- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha.
+- As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
 ## <a name="weighted-average-with-marking"></a>Média ponderada com a marcação
-A marcação é um processo que permite vincular ou marcar uma transação de saída para uma transação de recebimento. A marcação pode ocorrer antes ou depois que a transação for lançada. É possível usar a marcação quando desejar verificar o custo exato do estoque quando a transação é lançada ou quando o fechamento de estoque é executado. 
 
-Por exemplo, seu departamento de Atendimento ao Cliente aceitou uma ordem urgente de um cliente importante. Será necessário pagar mais por esse item para atender as solicitações do cliente, pois esta é uma ordem de urgência. É necessário ter certeza de que o custo desse item de estoque é refletido na margem ou no custo dos produtos vendidos (COGS) para essa fatura de ordem de venda. 
+A marcação é um processo que permite vincular ou marcar uma transação de saída para uma transação de recebimento. A marcação pode ocorrer antes ou depois que a transação for lançada. É possível usar a marcação quando desejar verificar o custo exato do estoque quando a transação é lançada ou quando o fechamento de estoque é executado.
 
-Quando a ordem de compra é lançada, o estoque é recebido ao custo de BRL 120,00. Por exemplo, esse documento de ordem de venda é marcado para a ordem de compra antes do lançamento da guia de remessa ou fatura. Em seguida, o COGS será de R$ 120,00 em vez do custo médio atual para o item. Se a guia de remessa de ordem de vendas ou a nota fiscal for lançada antes que a marcação ocorra, os COGS serão lançados no preço de custo médio. 
+Por exemplo, seu departamento de Atendimento ao Cliente aceitou uma ordem urgente de um cliente importante. Será necessário pagar mais por esse item para atender às solicitações do cliente, pois esta é uma ordem urgente. É necessário ter certeza de que o custo desse item de estoque é refletido na margem ou no custo dos produtos vendidos (COGS) para essa fatura de ordem de venda.
 
-Antes que fechamento de estoque seja executado, essas duas transações ainda podem ser marcadas uma para a outra. 
+Quando a ordem de compra é lançada, o estoque é recebido ao custo de BRL 120,00. Por exemplo, esse documento de ordem de venda é marcado para a ordem de compra antes do lançamento da guia de remessa ou fatura. Em seguida, o COGS será de R$ 120,00 em vez do custo médio atual para o item. Se a guia de remessa de ordem de vendas ou a nota fiscal for lançada antes que a marcação ocorra, os COGS serão lançados no preço de custo médio.
 
-Uma transação de recebimento é marcada para uma transação de saída. Em seguida, o método de validação selecionado para o grupo de modelo de item do item será desconsiderado e o sistema liquidará essas transações entre si. 
+Antes que fechamento de estoque seja executado, essas duas transações ainda podem ser marcadas uma para a outra.
 
-É possível marcar uma transação de saída para um recebimento antes que a transação seja lançada. Você pode fazer isso em uma linha da ordem de venda na página Detalhes da ordem de venda. As transações de recebimento abertas são exibidas na página Marcação. 
+Uma transação de recebimento é marcada para uma transação de saída. Em seguida, o método de validação selecionado para o grupo de modelo de item do item será desconsiderado e o sistema liquidará essas transações entre si.
 
-É possível marcar uma transação de saída para um recebimento após a transação ter sido lançada. Você pode corresponder ou marcar uma transação de saída para uma transação de recebimento aberta para um item inventariado de um diário de ajuste de estoque lançado. 
+É possível marcar uma transação de saída para um recebimento antes que a transação seja lançada. Você pode fazer isso em uma linha da ordem de venda na página **Detalhes da ordem de venda**. As transações de recebimento abertas são mostradas na página **Marcação**.
 
-As transações a seguir são ilustradas no gráfico abaixo:
--   1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
--   2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
--   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
--   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
--   4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
--   4b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
--   5a. Saída física de estoque para uma quantidade de 1 a um preço de custo de BRL 21,25 (média de transações atualizadas financeiramente e fisicamente).
--   5b. Saída financeira para uma quantidade de 1 é marcada para o recebimento de estoque 2b antes da transação ser lançada. Essa transação é lançada com um preço de custo de BRL 20,00.
--   6a. Saída física de estoque para uma quantidade de 1 a um preço de custo de BRL 21,25 cada.
--   7 Fechamento de estoque executado. Uma vez que as transações atualizadas financeiramente são marcadas para um recebimento existente, essas transações são liquidadas uma para a outra e nenhum ajuste é feito.
+É possível marcar uma transação de saída para um recebimento após a transação ter sido lançada. Você pode corresponder ou marcar uma transação de saída para uma transação de recebimento aberta para um item inventariado de um diário de ajuste de estoque lançado.
 
-O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente em BRL 27,50. 
+As seguintes transações são ilustradas neste gráfico:
 
-O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o modelo de estoque de média ponderada com marcação. 
+- 1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
+- 2a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
+- 2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 22,00 cada.
+- 3a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média ponderada de transações lançadas financeiramente).
+- 3b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de USD 16,00 (média ponderada de transações lançadas financeiramente).
+- 3c. Saída financeira de estoque para 3b está marcada para saída financeira de estoque para 2b.
+- 4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
+- 5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
+- 6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 23,00 (média ponderada de transações lançadas financeiramente).
+- 7\. O fechamento de estoque é executado. Com base no princípio de marcação que utiliza o método de média ponderada, as transações marcadas são liquidadas entre si. Neste exemplo, 3b é liquidado contra 2b, e um ajuste para USD 6,00 é lançado em 3b para trazer o valor para USD 22,00. Neste exemplo, nenhuma liquidação adicional é feita, pois o fechamento cria liquidações apenas para transações atualizadas financeiramente.
 
-![Média ponderada com Marcação.](./media/weightedaveragewithmarking.gif) 
+O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o modelo de estoque de média ponderada com marcação.
+
+![Média ponderada com Marcação.](media/weighted-average-with-marking.png)
 
 **Chave para o diagrama**
+
 - As transações de estoque são representadas por setas verticais.
-- Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
-- Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato quantidade x preço unitário.
-- Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
-- Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
-- Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
-- Cada seta vertical é rotulada com um identificador seqüencial, como *1a*. Os identificadores indicam a seqüência de lançamentos de transação de estoque na linha do tempo.
-- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta Fechamento de Estoque.
-- As liquidações executadas pelo fechamento de estoque são representadas por setas vermelhas pontilhadas na diagonal de um recebimento para uma saída.
-
-
-
-
-
-
+- As transações físicas são representadas por setas cinza menores.
+- As transações financeiras são representadas por setas mais longas em preto.
+- Os recebimentos no estoque são representados por setas verticais sobre o eixo.
+- Saídas fora do estoque são representadas por setas verticais abaixo do eixo.
+- Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
+- Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
+- Cada data no diagrama é separada por uma linha vertical preta fina. A data é indicada na parte inferior do diagrama.
+- Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha.
+- As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

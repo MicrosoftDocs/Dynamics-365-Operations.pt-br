@@ -2,7 +2,7 @@
 title: Visão geral do Cálculo de Imposto
 description: Este tópico explica o escopo geral e os recursos do recurso Cálculo de Imposto.
 author: wangchen
-ms.date: 11/17/2021
+ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105426"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388486"
 ---
 # <a name="tax-calculation-overview"></a>Visão geral do Cálculo de Imposto
 
@@ -58,6 +58,7 @@ O Cálculo de Imposto é implantado nas regiões do Azure a seguir. Mais regiõe
 - Canadá
 - Europa
 - Japão
+- Suíça
 - Reino Unido
 - Estados Unidos
 
@@ -77,6 +78,7 @@ O Cálculo de Imposto é implantado nas regiões do Azure a seguir. Mais regiõe
 | 10.0.23         | Configuração de Cálculo do Imposto 40.50.221 |
 | 10.0.24         | Configuração de Cálculo do Imposto 40.50.225 |
 | 10.0.25         | Configuração de Cálculo do Imposto 40.50.225 |
+| 10.0.26         | Configuração de Cálculo do Imposto 40.54.234 |
 
 
 ## <a name="data-flow"></a>Fluxo de dados
@@ -136,6 +138,11 @@ As seguintes transações são compatíveis na versão 10.0.23:
 
 - Fatura de texto livre
 
+As seguintes transações são compatíveis na versão 10.0.26: 
+
+- Diários Gerais
+- Diário de faturas de fornecedores
+
 ## <a name="supported-countriesregions"></a>Países/regiões com suporte
 
 O Cálculo de Imposto pode ser habilitado por entidade legal. 
@@ -187,6 +194,12 @@ Os seguintes países/regiões do endereço principal de uma entidade legal têm 
 Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.24:
 
 - México
+
+Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.26:
+
+- China
+- República Tcheca
+- Espanha
 
 ## <a name="related-resources"></a>Recursos relacionados
 

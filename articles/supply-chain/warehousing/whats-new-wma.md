@@ -2,7 +2,7 @@
 title: O que há de novo ou mudou no aplicativo móvel Warehouse Management
 description: Este tópico lista os recursos novos e alterados para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 01/18/2022
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067242"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384354"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>O que há de novo ou mudou no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20170"></a>Versão 2.0.17.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Corrigido um problema em que os códigos de barras seriam digitalizados incorretamente.
+- Corrigido o problema de verificação de GS1 do scanner de câmera.
+- Corrigido o problema de digitalização GS1 para o scanner de código de barras em dispositivos Zebra.
+- Melhorou o fluxo de consulta do desvio; por isso, a seleção de um cartão em um desvio agora retorna ao fluxo principal.
+- Suporte adicionado a um fluxo de consulta de dados genérico.
+- Adicionada uma mensagem para informar os usuários sobre alterações no status da conectividade de rede.
+- Permissões de armazenamento alinhadas com a política de privacidade de armazenamento no Android 10.
+- Para fluxos que precisam dele, o controle giratório de quantidade agora inclui uma posição que permite aos usuários enviar um valor numérico vazio.
+- Saídas fixas com a orientação de controle giratório de quantidade.
+- Corrigido um problema em que o controle giratório da quantidade salta para o valor errado.
+- Corrigido um problema em que a entrada para a página principal se perde quando preenchida na página de detalhes.
+- Corrigido um problema em que o texto do espaço reservado seria tratado como o valor inicialmente selecionado em listas de seleção.
+- O botão "Enviar" em etapas de confirmação será automaticamente habilitado se houver valores pré-selecionados.
+- O cartão de detalhes foi corrigido para mostrar o máximo de linhas possível para campos de texto que têm várias linhas.
+- Corrigida a altura dos botões "Enviar" e "Mais ações"; agora eles ocupam menos espaço na tela.
+- Títulos de lista de seleção ausentes adicionados.
+- Corrigido um problema em que o botão voltar não funcionou.
+- Adicionadas várias correções e aprimoramentos de navegação de teclado, incluindo as seguintes páginas:
+  - Logon do usuário
+  - Selecionar conexão
+  - Editar conexão
+- Rolagem fixa ao usar a navegação do teclado.
+- Acessibilidade avançada, incluindo os seguintes aperfeiçoamentos:
+  - Visibilidade e contraste de cores fixas.
+  - Impedida a perda do foco do teclado quando as páginas de pop-up são fechadas.
+  - Adicionadas mensagens de erro à narração.
+  - Aumentou o tamanho de valores de espaço reservado na faixa de etapa.
+- Corrigido o exemplo da página herdada personalizada no modo de demonstração.
 
 ## <a name="version-20150"></a>Versão 2.0.15.0
 
@@ -39,7 +72,7 @@ Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
 ## <a name="version-20130"></a>Versão 2.0.13.0
 
 Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
- 
+
 - Melhoria da rolagem entre páginas com animação mais suave.
 - Correção de respostas contra-intuitivas fixas para passar movimentos e congelamentos ocasionais de tela.
 - Combinações aprimoradas de cores de texto e plano de fundo do modo escuro para melhorar a fluência.
@@ -73,7 +106,7 @@ Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
 - Cartões de detalhes avançados.
 - Desvios avançados para etapas de itens de menu.
 - Melhorias secundárias na interface do usuário.
-- Corrigido um problema que pode fazer com que o aplicativo falhe ao digitalizar códigos de barras.
+- Corrigido um problema que pode fazer com que o aplicativo falhe ao ler códigos de barras.
 - Vários problemas que poderiam fazer com que o sistema pare de responder foram corrigidos.
 
 ## <a name="version-20100"></a>Versão 2.0.10.0

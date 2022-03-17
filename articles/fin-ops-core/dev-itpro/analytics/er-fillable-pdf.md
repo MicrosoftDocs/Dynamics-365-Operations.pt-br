@@ -2,7 +2,7 @@
 title: Criar configurações de ER a serem preenchidas em modelos de PDF
 description: Este tópico fornece informações sobre como criar um formato de relatório eletrônico (ER) para preencher um modelo PDF.
 author: NickSelin
-ms.date: 03/24/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758279"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367808"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Criar configurações de ER a serem preenchidas em modelos de PDF
 
@@ -294,6 +294,20 @@ A ilustração a seguir mostra um exemplo da primeira página do relatório gera
 A ilustração a seguir mostra um exemplo de outra página do relatório que é gerado.
 
 ![Outra página do relatório gerado.](media/rcs-ger-filloutpdf-generatedreport2.png)
+
+## <a name="limitations"></a>Limitações
+
+Os nomes dos campos preenchíveis devem ser exclusivos no formulário PDF que você pretende usar como um modelo de relatório. Para cada campo, um elemento de formato individual com o nome correspondente é criado no formato ER editável quando um formulário PDF é importado. Se um formulário PDF contiver vários campos com o mesmo nome, um único elemento de formato será criado para não permitir que eles sejam individualmente preenchidos no tempo de execução.
+
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
+
+### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Quando executo o formato ER para gerar um relatório no formato PDF, por que obtenho os seguintes erros:  **Não é possível manipular fluxos iref. A implementação atual do PDFSharp não pode tratar esse recurso PDF apresentado com o Acrobat 6.** e **Um nome PDF deve começar com uma barra (/).**
+
+A estrutura ER usa a versão 1.5 da biblioteca PDFSharp para gerar esses relatórios PDF. Alguns recursos do PDF 1.5 (Adobe Reader 6.0) ainda não foram implementados nesta biblioteca. Portanto, o PDFSharp ainda não pode abrir alguns arquivos marcados como **para PDF 1.5 ou posterior** e isso pode resultar em erros. Use uma das seguintes soluções para resolver o problema:
+
+-   Ao usar seu próprio modelo PDF: faça downgrade do modelo para uma versão anterior do Adobe e comece a usar um novo modelo no formato ER.
+-   Ao usar um modelo de formato ER que foi compartilhado com você por outro provedor de configuração como parte de uma solução ER: contate o proprietário desta solução de ER e forneça uma descrição do problema.
+-   Ao usar a solução de ISV que contém uma versão anterior da biblioteca PDFSharp: contate o proprietário da solução e sugira uma atualização para a versão de PDFSharp mais recente.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

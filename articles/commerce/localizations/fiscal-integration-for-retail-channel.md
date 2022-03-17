@@ -1,22 +1,22 @@
 ---
-title: Visão geral da integração fiscal dos canais do Commerce
+title: Visão geral da integração fiscal de canais do Commerce
 description: Este tópico fornece uma visão geral dos recursos de integração fiscal disponíveis no Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 46e0afd5a8cb692da56a7d5f261ca30d9b3aaa80
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077183"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388304"
 ---
-# <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visão geral da integração fiscal dos canais do Commerce
+# <a name="fiscal-integration-overview-for-commerce-channels"></a>Visão geral da integração fiscal de canais do Commerce
 
 [!include [banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
@@ -27,7 +27,7 @@ A integração fiscal inclui a integração a vários serviços e dispositivos f
 
 - Registrar uma venda em um dispositivo fiscal conectado ao PDV (ponto de venda), como uma impressora fiscal, e imprimir um recibo fiscal para o cliente.
 - Enviar com segurança informações relacionadas a vendas e devoluções concluídas no Retail POS a um serviço Web externo operado pela autoridade fiscal.
-- Ajudar a garantir a inalterabilidade dos dados de transação de vendas por meio de assinaturas digitais.
+- Ajude a garantir a inalterabilidade de dados de transação de vendas por meio de assinaturas digitais.
 
 A funcionalidade de integração fiscal é uma estrutura que fornece uma solução comum para o desenvolvimento e a personalização da integração entre o Retail POS e os serviços e dispositivos fiscais. Ela também inclui exemplos de integração fiscal que oferecem suporte a cenários básicos para países ou regiões específicos e que funcionam com serviços ou dispositivos fiscais específicos. Um exemplo de integração fiscal consiste em várias extensões de componentes do Commerce e está incluído no SDK (Software Development Kit). Para obter mais informações sobre os exemplos de integração fiscal, consulte [Exemplos de integração fiscal no SDK do Commerce](#fiscal-integration-samples-in-the-commerce-sdk). Para obter informações sobre como instalar e usar o SDK do Commerce, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
@@ -46,6 +46,9 @@ Uma amostra de integração fiscal deve conter as extensões Commerce Runtime (C
 - **Configuração do conector fiscal** – Esta configuração define a comunicação física com o dispositivo fiscal específico ou serviço.
 
 Um processo de registro fiscal para um terminal de PDV específico é definido por uma configuração correspondente no perfil de funcionalidade do PDV. Para obter mais detalhes sobre como configurar um processo de registro fiscal, carregar configurações do provedor de documentos fiscais e do conector fiscal e alterar seus parâmetros de configuração, consultar [Configurar um processo de registro fiscal](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+
+> [!NOTE]
+> Se você precisar de dispositivos para operações não fiscais, como pesquisa de catálogo de produtos, pesquisa de cliente ou criação de rascunho de transação, poderá selecionar esses como registros com restrições de processo fiscal. Para obter mais informações, consulte [Configurar registros com restrições de registro fiscal](setting-up-fiscal-integration-for-retail-channel.md#set-up-registers-with-fiscal-registration-restrictions).
 
 O seguinte fluxo de registro fiscal típico começa com um evento no POS (por exemplo, a finalização de uma transação de venda) e implementa uma sequência predefinida de etapas que envolvem outros componentes comerciais (como a estação de CRT e Hardware).
 
