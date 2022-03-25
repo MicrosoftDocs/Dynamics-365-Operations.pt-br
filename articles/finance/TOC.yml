@@ -660,7 +660,7 @@
               href: cost-accounting/cost-objects.md
             - name: Criar objetos de custos
               href: cost-accounting/tasks/create-cost-objects.md
-            - name: Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão
+            - name: ​Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão​
               href: cost-accounting/map-cost-elements-dimension-members.md
             - name: Mapear uma dimensão do elemento de custo
               href: cost-accounting/tasks/map-cost-element-dimension.md
@@ -668,7 +668,7 @@
               href: cost-accounting/dimension-hierarchy.md
             - name: Criar uma hierarquia de relatórios da organização
               href: cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: Direitos de acesso de um controlador de objeto de custo
+            - name: ​Direitos de acesso de um controlador de objeto de custo​
               href: cost-accounting/access-rights-cost-object-controller.md
             - name: Configurar direitos de acesso para um controlador de objeto de custo
               href: cost-accounting/tasks/configure-access-rights-cost-object-controller.md
@@ -676,7 +676,7 @@
               href: cost-accounting/tasks/define-cost-control-units.md
             - name: Criar um razão de Contabilização de custos
               href: cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: Membros estatísticos de dimensões e modelos de fornecedores de medidas estatísticas
+            - name: ​Membros estatísticos de dimensões e modelos de fornecedores de medidas estatísticas​
               href: cost-accounting/statistical-measure-provider-template.md
             - name: Bases de alocação
               href: cost-accounting/allocation-bases.md
@@ -694,7 +694,7 @@
               href: cost-accounting/tasks/process-trace-source-data.md
             - name: Cálculo de custos indiretos
               href: cost-accounting/overhead-calculation.md
-            - name: Política de acúmulo de custos e cálculo de custos indiretos
+            - name: ​Política de acúmulo de custos e cálculo de custos indiretos​
               href: cost-accounting/cost-rollup.md
             - name: Configurar o espaço de trabalho de controle de custo
               href: cost-accounting/cost-control-workspace.md
@@ -1528,7 +1528,11 @@
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-aut-vat-declaration-austria.md
-                        - name: Relatórios da França
+                        - name: Relatório da Dinamarca
+                          items:
+                            - name: Declaração de IVA
+                              href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: Relatório da França
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
@@ -2340,10 +2344,12 @@
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Configurar declarações eletrônicas de impostos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
-                - name: Imprimir um rótulo separado para memorandos de crédito originários de vendas
+                - name: Imprimir uma etiqueta separada para memorandos de crédito originários de vendas
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: Lista de vendas da UE
                   href: localizations/emea-deu-eu-sales-list.md
+                - name: Declaração de IVA
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Hungria
               items:
                 - name: Visão geral da Hungria
@@ -3566,11 +3572,11 @@
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Dimensões de unidade tributária
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: Relatório do IVA de saída
+                - name: Relatórios de IVA
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: Imposto retido na fonte
                   href: localizations/apac-tha-withholding-tax.md
-            - name: Emirados Árabes Unidos (UAE)
+            - name: Emirados Árabes Unidos (EAU)
               items:
                 - name: Configurar e informar imposto sobre valor agregado (IVA)
                   href: localizations/uae-vat-setup-reporting.md
@@ -4285,6 +4291,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Depurar fontes de dados
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
+                - name: Configurar modelos de dados
+                  items:
+                    - name: Dar suporte a chamadas parametrizadas de modelos de dados ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar mapeamentos de modelo
                   items:
                     - name: Configurar mapeamentos do modelo ER dependente do contexto do país
@@ -4353,8 +4363,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar destinos dependentes da ação
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
-                    - name: Configurar destinos de ER específicos do registro de gerenciamento de impressão
+                    - name: Configurar destinos específicos do registro de gerenciamento de impressão
                       href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: Criar uma solução ER para imprimir etiquetas ZPL
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-zpl-labels.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar uma referência a um formato ER
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Validar automaticamente os relatórios gerados

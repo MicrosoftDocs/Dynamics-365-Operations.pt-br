@@ -238,10 +238,12 @@
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Instalar suplemento Exportar para o Azure Data Lake
               href: data-entities/configure-export-data-lake.md
-            - name: aplicativos de Finanças e Operações no Azure Data Lake
+            - name: Aplicativos de Finanças e Operações no Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Disponibilizar repositório de entidades como um Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Eventos de negócios gerados pelo serviço Exportar para o Azure Data Lake (Versão Preliminar)
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: Alterar dados no Azure Data Lake
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Operações de movimento de banco de dados
@@ -1066,8 +1068,10 @@
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: Configurar o mapeamento dos campos de status da ordem de venda
                       href: data-entities/dual-write/sales-status-map.md
-                    - name: Filtrar ordens intercompanhia para evitar sincronizar Ordens e Linhas da Ordem
+                    - name: Filtrar ordens intercompanhia para evitar a sincronização de Ordens e Linhas da Ordem
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: Desinstalar soluções de orquestração de aplicativo de gravação dupla
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: Gerenciando a gravação dupla
                   items:
                     - name: Personalizar mapeamentos de entidades e campos

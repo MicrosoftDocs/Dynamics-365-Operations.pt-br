@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Relatório de comparação de armazenamento de preços de item
                   href: cost-management/compare-item-price.md
+            - name: Metodologias de avaliação de custo
+              items:
+                - name: Preço de custo médio
+                  href: cost-management/running-average-cost-price.md
+                - name: Rastreamento do custo médio por dimensão do estoque
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: PEPS com valor físico e marcação
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: Data de UEPS com valor físico e marcação
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: UEPS com valor físico e marcação
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Média ponderada com valor físico e marcação
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Data da média ponderada com valor físico e marcação
+                  href: cost-management/weighted-average-date.md
+                - name: Média móvel
+                  href: cost-management/moving-average.md
+                - name: Sequência de custos de fallback de média móvel
+                  href: cost-management/moving-average-fallback.md
             - name: Contabilidade de estoque
               items:
+                - name: Atualizações físicas e financeiras
+                  href: cost-management/physical-financial-updates.md
+                - name: Incluir valor físico
+                  href: cost-management/include-physical-value.md
                 - name: Objetos de custo
                   href: cost-management/cost-object.md
                 - name: Exibir saldo do objeto de custo
@@ -759,32 +783,10 @@
                   href: cost-management/cost-entries.md
                 - name: Exibir entradas de custo para um objeto de custo
                   href: cost-management/tasks/view-cost-entries-cost-object.md
-                - name: ​Grupos de custos​
+                - name: Grupos de custos
                   href: cost-management/cost-groups.md
-                - name: PEPS com valor físico e marcação
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Incluir valor físico
-                  href: cost-management/include-physical-value.md
                 - name: Valores de objeto de estoque
                   href: cost-management/physical-quantity.md
-                - name: Data de UEPS com valor físico e marcação
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: UEPS com valor físico e marcação
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Média móvel
-                  href: cost-management/moving-average.md
-                - name: Sequência de custos de fallback de média móvel
-                  href: cost-management/moving-average-fallback.md
-                - name: Atualizações físicas e financeiras
-                  href: cost-management/physical-financial-updates.md
-                - name: Preço de custo médio
-                  href: cost-management/running-average-cost-price.md
-                - name: ​Rastreamento do custo médio por dimensão do estoque​
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Data de média ponderada
-                  href: cost-management/weighted-average-date.md
-                - name: Média ponderada com valor físico e marcação
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Fechamento de estoque
                   href: cost-management/inventory-close.md
                 - name: Ajustar valores de custo de estoque disponível
@@ -1431,6 +1433,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Depurar fontes de dados
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configurar modelos de dados
+                  items:
+                    - name: Dar suporte a chamadas parametrizadas de modelos de dados ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar mapeamentos de modelo
                   items:
                     - name: Configurar mapeamentos do modelo ER dependente do contexto do país
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: Diferença inesperada entre os dados de solicitação e de sessão durante os testes
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: Âncora de confiança para caminho de certificação não encontrada ao configurar conexão de aplicativo
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Âncora de confiança para caminho de certificação não encontrada ao atualizar e migrar para o WMS
