@@ -2,19 +2,19 @@
 title: Declaração de IVA (Alemanha)
 description: Este tópico descreve como configurar e gerar uma declaração de IVA (imposto sobre valor agregado) antecipada para a Alemanha no formato XML oficial.
 author: anasyash
-ms.date: 11/22/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 29c04e1034c05b4672f3657ce0b7bc9d5f6d7c9c
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860874"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402794"
 ---
 # <a name="vat-declaration-germany"></a>Declaração de IVA (Alemanha)
 
@@ -163,6 +163,9 @@ Abra o espaço de trabalho **Relatório eletrônico** e importe as seguintes ver
 ### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a>Configurar parâmetros específicos do aplicativo para campos de declaração de IVA
 
 Para gerar automaticamente uma declaração de IVA, associe os códigos de imposto no aplicativo e os resultados da pesquisa na configuração ER.
+
+> [!NOTE]
+> Recomendamos habilitar o recurso **Usar parâmetros específicos do aplicativo das versões anteriores de formatos ER** no espaço de trabalho **Gerenciamento de recursos**. Quando o recurso está habilitado, os parâmetros configurados para a versão anterior de um formato ER se tornarão aplicáveis automaticamente à versão posterior do mesmo formato. Se o recurso não estiver habilitado, você deverá configurar explicitamente parâmetros específicos do aplicativo para cada versão de formato. O recurso **Usar parâmetros específicos do aplicativo das versões anteriores de formatos ER** está disponível no espaço de trabalho **Gerenciamento de recursos** a partir da versão 10.0.23 do Finance. Para obter mais informações sobre como configurar os parâmetros de um formato ER para cada entidade legal, consulte [Configurar os parâmetros de um formato ER de acordo com a entidade legal](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
 Siga estas etapas para definir quais códigos de impostos geram quais caixas na declaração de IVA.
 

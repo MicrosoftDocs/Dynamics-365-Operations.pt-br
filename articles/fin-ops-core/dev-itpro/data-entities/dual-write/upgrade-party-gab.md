@@ -2,19 +2,19 @@
 title: Atualizar para o modelo de catálogo de endereços global e de participantes
 description: Este tópico descreve como atualizar dados de gravação dupla para o modelo de catálogo de endereços global e do participante.
 author: RamaKrishnamoorthy
-ms.date: 03/31/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060470"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407785"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Atualizar para o modelo de catálogo de endereços global e de participantes
 
@@ -151,13 +151,19 @@ Esta seção descreve a configuração necessária antes de executar os modelos 
 
 ## <a name="run-the-templates"></a>Executar os modelos
 
-1. Interrompa os mapas de gravação dupla de **Conta**, **Contato** e **Fornecedor** que usam o aplicativo do Finanças e operações:
+1. Interrompa os mapas de gravação dupla de **Participante**, **Conta**, **Contato** e **Fornecedor** que usam o aplicativo do Finanças e Operações:
 
+    + Participantes do CDS (msdyn_parties) 
     + Clientes V3 (contas)
     + Clientes V3 (contatos)
     + Contatos V2 do CDS (contatos)
     + Contatos V2 do CDS (contatos)
     + Fornecedores V2 (msdyn_vendor)
+    + Contatos V2 (msdyn_contactforparties)
+    + Locais de endereço postal de parceiros do CDS (msdyn_partypostaladdresses)
+    + Histórico de endereço postal V2 do CDS (msdyn_postaladdresses)
+    + Locais de endereço postal de parceiros do CDS (msdyn_postaladdresscollections)
+    + Contatos do participante V3 (msdyn_partyelectronicaddresses)
 
 2. Certifique-se de que os mapas sejam removidos da tabela **msdy_dualwriteruntimeconfig** no Dataverse.
 3. Instale [Soluções de gravação dupla de catálogo de endereços global e de participante](https://aka.ms/dual-write-gab) pelo AppSource.

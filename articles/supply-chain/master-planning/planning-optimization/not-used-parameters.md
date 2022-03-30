@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087490"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408221"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parâmetros não usados pela Otimização de Planejamento
 
@@ -194,12 +194,6 @@ A Otimização de Planejamento não usa o seguintes parâmetro ou opção na pá
   - **Controle da data de entrega** – A Otimização de Planejamento não oferece suporte à opção *CTP*, suporte a *CTP* pendente.
   - **Prazo de entrega do estoque** – Em versões do serviço Otimização de Planejamento mais antigas do que a versão de 6 de agosto de 2021, a Otimização de Planejamento usa esse parâmetro para calcular as datas de ordem e de entrega corretas, mas não salva o prazo de entrega calculado por si só na ordem planejada. Em versões posteriores, o serviço também usa o prazo de entrega calculado para definir o campo **Prazo de entrega** e a opção **Dias úteis**, conforme necessário para a ordem planejada relevante.
   - **Dias úteis** – Em versões do serviço Otimização de Planejamento mais antigas do que a versão de 6 de agosto de 2021, a Otimização de Planejamento usa esse parâmetro para calcular as datas de ordem e de entrega corretas, mas não salva o prazo de entrega calculado por si só na ordem planejada. Em versões posteriores, o serviço também usa o prazo de entrega calculado para definir o campo **Prazo de entrega** e a opção **Dias úteis**, conforme necessário para a ordem planejada relevante.
-
-## <a name="working-time-calendars-page"></a>Página Calendários de horário de trabalho
-
-A Otimização de Planejamento não usa o seguinte parâmetro na página **Calendários de horas trabalhadas**:
-
-- **Calendário base** – Suporte a *Calendários base* pendente.
 
 ## <a name="batch-disposition-master-page"></a>Página Disposição em lotes principal
 

@@ -1,23 +1,23 @@
 ---
 title: Criar uma fatura de texto livre
 description: Este tópico explica como criar faturas de texto livre.
-author: mikefalkner
-ms.date: 08/24/2018
+author: abruer
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763277"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392876"
 ---
 # <a name="create-a-free-text-invoice"></a>Criar uma fatura de texto livre
 
@@ -68,6 +68,7 @@ Este tópico explica como criar faturas de texto livre. Para o procedimento, use
 
     * Você pode alterar a hora da impressão da fatura. Selecione **Atual** para imprimir cada fatura, conforme for atualizada. Selecione **Depois** para imprimir depois todas as faturas que foram atualizadas.
     * Para alterar como o limite de crédito do cliente é verificado antes de a fatura ser lançada, altere o valor no campo **Tipo de limite de crédito**.
+    * Você pode optar por interromper o lançamento da fatura de texto livre quando ocorrer um erro na guia **Atualizações** na página **Parâmetros de contas a receber** (**Contas a receber > Configuração > Parâmetros de contas a receber**). Selecione **Sim** para o parâmetro **Interromper o lançamento de faturas de texto livre no primeiro erro** para interromper o lançamento de faturas de texto livre quando ocorrer um erro. Se o lançamento for em lote, um erro interromperá o processo de lançamento e o status do lote será definido como **Erro**. Se esta opção não for selecionada, o processo de lançamento ignorará uma fatura com um erro de lançamento e continuará a lançar faturas adicionais. Se o lançamento for em lote, um erro de lançamento não impedirá que outras faturas sejam lançadas. O status do lote será **Terminado**. Um relatório detalhado do processo de lançamento estará disponível para revisão no histórico de trabalhos em lote.
     * Para imprimir a fatura, defina a opção como **Sim**.
     * Para lançar a fatura, defina a opção como **Sim**. Você pode imprimir a fatura sem lançá-la.
 
@@ -82,6 +83,12 @@ Depois de copiar as linhas, você poderá editar as informações conforme neces
 Você pode criar uma fatura de texto livre a partir de um modelo. Quando selecionar **Novo a partir do modelo** na guia **Fatura**, selecione um nome de modelo e a conta do cliente para nova fatura de texto livre. Os valores padrão, como as condições de pagamento e método de pagamento, podem ser preenchidos automaticamente ou você pode usar os valores que foram salvos no modelo.
 
 Uma nova fatura de texto livre é criada e você pode editar os valores conforme necessário.
+
+## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>Redefinindo o status do fluxo de trabalho de faturas de texto livre de Irrecuperável para Rascunho
+Uma instância de fluxo de trabalho que foi interrompida por causa de um erro irrecuperável terá um status de fluxo de trabalho de **Irrecuperável**. Quando o status de um fluxo de trabalho de fatura de texto livre de cliente for **Irrecuperável**, você poderá redefini-lo como **Rascunho** selecionando **Cancelar** nas ações do fluxo de trabalho. Em seguida, você poderá editar a fatura de texto livre do cliente. Esse recurso estará disponível se o parâmetro **Redefinindo o status do fluxo de trabalho de faturas de texto livre de Irrecuperável para Rascunho** na página **Gerenciamento de recursos** estiver ativado.
+
+Você pode usar a página **Histórico do fluxo de trabalho** para redefinir o status do fluxo de trabalho como **Rascunho**. Você pode abrir essa página em **Fatura de texto livre** ou em **Comum > Consultas > Fluxo de trabalho**. Para redefinir o status de fluxo de trabalho como **Rascunho**, selecione **Cancelar**. Você também pode redefinir o status do fluxo de trabalho como **Rascunho** selecionando a ação **Cancelar** na página **Fatura de texto livre** ou na página **Todas as faturas de texto livre**. Depois que o status do fluxo de trabalho for redefinido como **Rascunho**, ele fica disponível para edição na página **Fatura de texto livre**.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

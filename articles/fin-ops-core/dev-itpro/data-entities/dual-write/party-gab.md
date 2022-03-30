@@ -2,19 +2,19 @@
 title: Catálogo de endereços global e dos participantes
 description: Este tópico descreve o recurso Catálogo de endereços global e de participantes de gravação dupla.
 author: RamaKrishnamoorthy
-ms.date: 08/11/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060322"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407756"
 ---
 # <a name="party-and-global-address-book"></a>Catálogo de endereços global e de participantes
 
@@ -226,9 +226,9 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
 
     ![Regra de duplicação para contatos.](media/duplicate-rule-2.PNG)
 
-11. Se você for um usuário de gravação dupla existente, siga as instruções em [Atualizar para o modelo de catálogo de endereços global e de participantes](upgrade-party-gab.md) e atualize seus dados.
+11. Se você for um usuário de gravação dupla existente, siga as instruções em [Atualizar para o modelo de catálogo de endereços global e de participantes](upgrade-party-gab.md) e atualize seus dados. **Não prossiga para a etapa 12 sem concluir esta etapa.** Se você for um novo usuário de gravação dupla, prossiga para a etapa 12.
 
-12. Execute os mapas na ordem a seguir. Se você receber um erro indicando "Falha ao validar projeto. Campo de destino ausente... ", abra o mapa e selecione **Atualizar Tabelas**. Em seguida, execute o mapa.
+12. Se você for um usuário de gravação dupla existente, conclua a etapa 11 e execute os mapas na ordem a seguir. Se você for um novo cliente de gravação dupla, poderá prosseguir diretamente. Se você receber uma mensagem de erro indicando "Falha ao validar projeto. Campo de destino ausente...", abra o mapa e selecione **Atualizar Tabelas**. Depois, execute o mapa.
 
     Aplicativo de Finanças e Operações | Aplicativo Customer Engagement  
     ----------------------------|------------------------

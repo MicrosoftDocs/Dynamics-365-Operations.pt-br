@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720411"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396515"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Este tópico será atualizado à medida que os novos recursos removidos ou obsol
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento.
 
 > [!NOTE]
-> Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+> Informações detalhadas sobre objetos em aplicativos de Finanças e Operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de Finanças e Operações.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Recursos removidos ou substituídos na versão 10.0.19 do Supply Chain Management
@@ -52,7 +52,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Em abril de 2021, o *Dynamics 365 for Finance and Operations - Warehousing* (o aplicativo de depósito) estará obsoleto e só terá suporte até abril de 2022. Ele foi substituído pelo *aplicativo móvel de gerenciamento de depósito*, lançado com a versão 10.0.17 do Supply Chain Management. O novo aplicativo é uma substituição completa, mas usa a mesma estrutura subjacente, o que facilita a migração. Se necessário, os dois aplicativos poderão ser usados lado a lado para ajudar usuários no ajuste gradual à medida que aprendem a usar o novo aplicativo.<br><br>Para obter mais informações sobre o novo aplicativo móvel de gerenciamento de depósito, consulte [Aplicativo móvel de gerenciamento de depósito](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Instale e conecte o Aplicativo móvel de gerenciamento de depósito](../warehousing/install-configure-warehouse-management-app.md). |
+| **Motivo para a reprovação/remoção** | Em abril de 2021, o *Dynamics 365 for Finance and Operations - Warehousing* (o aplicativo de depósito) será preterido e só terá suporte até abril de 2022. Ele foi substituído pelo *aplicativo móvel de gerenciamento de depósito*, lançado com a versão 10.0.17 do Supply Chain Management. O novo aplicativo é uma substituição completa, mas usa a mesma estrutura subjacente, o que facilita a migração. Se necessário, os dois aplicativos poderão ser usados lado a lado para ajudar usuários no ajuste gradual à medida que aprendem a usar o novo aplicativo.<br><br>Para obter mais informações sobre o novo aplicativo móvel de gerenciamento de depósito, consulte [Aplicativo móvel de gerenciamento de depósito](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Instale e conecte o Aplicativo móvel de gerenciamento de depósito](../warehousing/install-configure-warehouse-management-app.md). |
 | **Substituída por outro recurso?**   | Sim, substituído pelo novo aplicativo móvel de gerenciamento de depósito. |
 | **Áreas afetadas do produto**         | Supply Chain Management - aplicativo de depósito |
 | **Opção de implantação**              | Nuvem e local |
@@ -78,7 +78,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Substituída por outro recurso?**   | Sim, a Otimização de Planejamento substituirá o mecanismo de planejamento mestre do Supply Chain Management interno. |
 | **Áreas afetadas do produto**         | Supply Chain Management - Planejamento mestre |
 | **Opção de implantação**              | Somente nuvem. A otimização de planejamento não é suportada com implantações locais. |
-| **Status**                         | Preterido. Até 1º de abril de 2022, os cenários de fabricação não serão mais oferecidos com o mecanismo de planejamento mestre interno do Dynamics 365 Supply Chain Management. Para cenários de fabricação, os clientes devem usar a otimização de planejamento para os cálculos de planejamento mestre. Para obter mais informações, consulte [Introdução à documentação da Otimização de Planejamento](../master-planning/planning-optimization/planning-optimization-overview.md). Os clientes com implantações locais do Dynamics 365 Supply Chain Management podem continuar a usar o mecanismo de planejamento mestre de gerenciamento de cadeia de fornecimento para cenários de fabricação depois de abril de 2022. No entanto, não serão fornecidas mais melhorias de recursos. |
+| **Status**                         | Preterido. Até 1º de abril de 2022, os cenários de fabricação não serão mais oferecidos para o mecanismo de planejamento mestre interno do Supply Chain Management. A partir dessa data, a Microsoft interromperá todo o desenvolvimento ativo em cenários de fabricação para o mecanismo de planejamento interno, não lançará novos recursos e só lançará as correções críticas de erros. Após essa data, todas as empresas que necessitam de suporte para cenários de fabricação devem usar a otimização de planejamento para seus cálculos de planejamento mestre. Espera-se que a otimização do planejamento dê suporte total aos cenários de fabricação até outubro de 2022. Para obter mais informações, consulte a [documentação da Otimização de Planejamento](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>As empresas com implantações locais do Supply Chain Management podem continuar a usar o mecanismo de planejamento mestre interno para cenários de fabricação depois de abril de 2022. No entanto, não serão fornecidas mais melhorias de recursos. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Recursos removidos ou substituídos na versão 10.0.11 do Supply Chain Management
 

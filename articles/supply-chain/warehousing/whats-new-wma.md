@@ -2,7 +2,7 @@
 title: O que há de novo ou mudou no aplicativo móvel Warehouse Management
 description: Este tópico lista os recursos novos e alterados para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384354"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418631"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>O que há de novo ou mudou no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20190"></a>Versão 2.0.19.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Aprimoramento do fluxo de consulta de dados genéricos.
+- Aprimoramento do problema de tremulação nas páginas **Lista de trabalho** e **Consulta de item**.
+- Consumo de bateria reduzido.
+- Remoção do limite do número de campos para cartões de trabalho.
+- Ajuste da altura de cartões de trabalho para que todos tenham o mesmo tamanho, independentemente do número de campos em cada.
+- Correção de um problema em que os caracteres de espaço em códigos de barras seriam cortados.
+- Adição da configuração **Estilo do botão**, que permite alternar entre os modos de exibição do controle deslizante e do botão em todos os tipos de dispositivos.
+- Vários problemas que poderiam fazer com que o aplicativo pare de responder foram corrigidos.
+- Definição do foco automaticamente na primeira caixa de texto nas páginas personalizadas.
+- Aperfeiçoamentos de acessibilidade relacionados a luminosidade, contraste, narração e textos de espaço reservado ausentes.
 
 ## <a name="version-20170"></a>Versão 2.0.17.0
 

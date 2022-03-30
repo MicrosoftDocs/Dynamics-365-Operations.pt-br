@@ -6,7 +6,6 @@ manager: annbe
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +14,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4fbe255a435a83f4f1e28e0bc21b788125b5a6e54e15d4c27d342118e3ea44c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9d82d5c7b9db0eecddf3fc0d8872bae184e7d93
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751581"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407781"
 ---
 # <a name="postponed-registration-of-nfc-e-documents-issued-in-offline-contingency-mode"></a>Registro adiado de documentos NFC-e emitidos no modo de contingência offline
 

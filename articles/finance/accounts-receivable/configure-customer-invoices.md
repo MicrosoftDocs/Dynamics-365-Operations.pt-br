@@ -2,7 +2,7 @@
 title: Criar uma fatura de cliente
 description: Uma fatura de cliente para uma ordem de venda é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087414"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392902"
 ---
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 
@@ -82,6 +82,9 @@ Exiba o status da ordem de venda na página de listagem **Todas as ordens de ven
 Use este processo quando uma ou mais ordens de venda estiverem prontas para serem faturadas, e você desejar consolidá-las em uma única fatura. 
 
 Você pode selecionar várias faturas na página de listagem **Ordem de venda** e, em seguida, usar a função **Gerar faturas** para consolidá-las. Na página **Lançamento de fatura**, você pode alterar a configuração **Ordem resumida** para resumir por número de ordem (onde houver diversas guias de remessa para uma única ordem de venda) ou por valor de fatura (onde houver diversas ordens de venda para uma única conta de fatura). Use o botão **Organizar** para consolidar as ordens de venda em faturas únicas, com base nas configurações de **Ordem resumida**.
+
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Lançar na Conta de receita para linhas de ordem de venda que não têm preço
+Você terá a opção de atualizar a conta de **Receita** na **Contabilidade** para as linhas de ordem de venda que não têm preço. Para configurar ou exibir essas informações, acesse o parâmetro **Lançar na Conta de receita para linhas de fatura de ordem de venda com preço zero** na guia **Razão e imposto** da página **Parâmetros de contas a receber**. (**Contas a receber > Configuração > Parâmetros de contas a receber**). Selecione **Sim** para atualizar a conta de **Receita** das linhas da fatura da ordem de venda que não têm preço. Uma conta de receita é definida na página do parâmetro **Lançamento de estoque**, na guia definição de conta da **Ordem de venda**. Se esta opção não for selecionada, as linhas que não tiverem informações de preço não serão lançadas na conta de **Receita**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Configurações adicionais que alteram o comportamento dos lançamentos
 Os seguintes campos alteram o comportamento do processo de lançamento.

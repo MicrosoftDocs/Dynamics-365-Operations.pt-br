@@ -6,7 +6,6 @@ manager: annbe
 ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +14,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c7b863d5400b264d8d73787b30b9c26155b10bb9
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 74bec38c7d4302bee71ee20ff24531d924925d83
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891400"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407972"
 ---
 # <a name="cancellation-and-return-of-nfc-e-documents-in-commerce-pos-for-brazil"></a>Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil
 

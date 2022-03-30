@@ -6,7 +6,6 @@ manager: annbe
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +14,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 89a2fa3364f42f0711becbad4e78c3b3e47390a187c328bc7274c1b21c5bbe91
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 086a130bdebef3f34676a7a436dba9abb35a3c3e
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713404"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407968"
 ---
 # <a name="post-brazilian-fiscal-documents-via-retail-statements-in-commerce-headquarters"></a>Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce 
 

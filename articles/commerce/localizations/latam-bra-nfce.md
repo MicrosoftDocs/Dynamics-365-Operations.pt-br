@@ -6,7 +6,6 @@ manager: annbe
 ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +14,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560507b718f0b25a14418890f136d051623ee475
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: f9600f6807f214131f836ddc9104280ed56706f1
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891428"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407970"
 ---
 # <a name="nfc-e-fiscal-document-functionality-in-commerce-pos-for-brazil"></a>Funcionalidade de documento fiscal NFC-e no Comércio POS para o Brasil
 

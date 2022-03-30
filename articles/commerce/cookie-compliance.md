@@ -2,7 +2,7 @@
 title: Compatível com cookies
 description: Este tópico descreve considerações sobre conformidade de cookies e as políticas padrão incluídas no Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/30/2021
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
+ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747688"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "8403138"
 ---
 # <a name="cookie-compliance"></a>Compatível com cookies
 
@@ -58,6 +58,7 @@ A tabela a seguir mostra a lista de referência atual de cookies colocados por s
 | \_msdyn365___aud_0                          | Armazena valores de segmento usados pela segmentação e é empregado apenas se a segmentação estiver configurada em uma página ou em um fragmento solicitado por um usuário do site. O cookie é inserido somente quando os valores do segmento são fornecidos por um provedor de segmentação de terceiros.      | 7 dias |
 | \_msdyn365___aud_1                           | Armazena valores de segmento usados pela segmentação e é empregado apenas se a segmentação estiver configurada em uma página ou em um fragmento solicitado por um usuário do site. O cookie é inserido somente quando os valores do segmento são fornecidos por um provedor de segmentação de terceiros.      | 7 dias |
 | \_msdyn365___aud_2                           | Armazena valores de segmento usados pela segmentação e é empregado apenas se a segmentação estiver configurada em uma página ou em um fragmento solicitado por um usuário do site. O cookie é inserido somente quando os valores do segmento são fornecidos por um provedor de segmentação de terceiros.      | 7 dias |
+| d365gi                                       | Esse cookie armazena dados de localização geográfica quando um serviço de geolocalização de terceiros é usado.      | 1 dia |
 
 Se um usuário do site selecionar qualquer link de mídia social em um site, os cookies na seguinte tabela também serão rastreados no navegador.
 
@@ -65,17 +66,17 @@ Se um usuário do site selecionar qualquer link de mídia social em um site, os 
 | Domínio                      | Cookie               | descrição                                                  | Origem                                          |
 | --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | .linkedin.com                | UserMatchHistory         | Sincronização de ID de Anúncios do LinkedIn                                      | Tag do Feed e Insight do LinkedIn                                |
-| .linkedin.com               | li_sugr                  | Identificador do navegador                                           | Tag de Insight do LinkedIn se o endereço IP não estiver em um país designado |
+| .linkedin.com               | li_sugr                  | Identificador do navegador                                           | LinkedIn Insight Tag se o endereço IP não estiver em um país designado |
 | .linkedin.com               | BizographicsOptOut       | Determina o status de recusa do acompanhamento de terceiros.              | Controles de convidados do LinkedIn e páginas de recusa do setor           |
 | .linkedin.com               | \_guid                    | Identificador do navegador do Google Ads.                            | Feed do LinkedIn                                                |
 | .linkedin.com               | li_oatml                 | Identificador indireto do membro para acompanhamento de conversões, redirecionamento e análise. | Tags de Anúncios e Insight do LinkedIn                                |
 | Vários domínios primários | li_fat_id                | Identificador indireto do membro para acompanhamento de conversões, redirecionamento e análise. | Tags de Anúncios e Insight do LinkedIn                                |
-| .adsymptotic.com            | U                        | Identificador do navegador                                           | Tag de Insight do LinkedIn se o endereço IP não estiver em um País Designado |
+| .adsymptotic.com            | U                        | Identificador do navegador                                           | LinkedIn Insight Tag se o endereço IP não estiver em um País Designado |
 | .linkedin.com                | bcookie                  | Cookie da ID do navegador                                            | Solicitações para o LinkedIn                                         |
 | .linkedin.com                | bscookie                 | Cookie de navegador seguro                                        | Solicitações para o LinkedIn                                         |
 | .linkedin.com               | lang                     | Define a localização e o idioma padrão.                                 | Solicitações para o LinkedIn                                         |
 | .linkedin.com                | lidc                     | Usado para roteamento.                                             | Solicitações para o LinkedIn                                         |
-| .linkedin.com               | aam_uuid                 | Cookie do gerenciador de público-alvo da Adobe                                                     | Definir para sincronização de ID                                              |
+| .linkedin.com               | aam_uuid                 | Cookie do Adobe Audience Manager                                                     | Definir para sincronização de ID                                              |
 | .linkedin.com               | \_ga                      | Cookie do Google Analytics                                            | Google Analytics                                             |
 | .linkedin.com               | \_gat                     | Cookie do Google Analytics                                             | Google Analytics                                             |
 | .linkedin.com               | liap                     | Cookie do Google Analytics                                             | Google Analytics                                             |

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344969"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408006"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
@@ -58,7 +58,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Recurso | Questão listada | Explicação | Disponibilidade esperada |
 | --- | --- | --- | --- |
 | Ações | Grupos de cobertura com Cálculo de ações habilitado: _\#_ | Este recurso está pendente. No momento, as ações não são geradas durante o planejamento mestre quando a otimização do planejamento é habilitada, independentemente dessa configuração. A principal finalidade das ações é sugerir alterações nas ordens existentes. Avalie se as ações são aplicadas ativamente como parte de seus processos de negócios ou se as informações de atraso relacionadas às ordens são suficientes. | 2022 de abril |
-| Calendários base | Calendários usando o calendário base: _\#_ | Este recurso está pendente. No momento, o calendário base é ignorado quando a otimização de planejamento é habilitada. Avalie se o calendário base é necessário para seus processos de negócios ou se a configuração direta em calendários é suficiente. | 2022 de abril | 
+| Calendários base | Calendários usando o calendário base: _\#_ | Este recurso agora é suportado. | 2022 de março | 
 | Códigos de disposição em lotes | Mestres de disposição em lotes não-líquidos: _\#_ | Este recurso está pendente. No momento, os códigos de disposição em lotes são ignorados quando a otimização do planejamento é habilitada. | Outubro de 2022 ou posterior |
 | Capacidade de comprometimento (CTP) | Configurações de ordem padrão com controle de data entrega definido como CTP: _\#_ | Este recurso está pendente. No momento, o CTP é ignorado quando a otimização do planejamento é habilitada, independentemente dessa configuração. | 2022 de outubro |
 | Copiar plano estático para dinâmico | A cópia de plano estático para dinâmico está habilitada nos parâmetros do plano mestre. | A otimização do planejamento não copia o plano estático para o plano dinâmico, independentemente dessa configuração. Em geral, esse conceito é menos relevante devido à velocidade e à regeneração completa que a otimização do planejamento oferece. Se dois ou mais planos forem usados, o planejamento mestre deverá ser disparado para cada plano. | 2022 de outubro |

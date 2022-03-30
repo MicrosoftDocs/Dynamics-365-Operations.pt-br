@@ -6,7 +6,6 @@ manager: annbe
 ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4721d13654e619d27a4389cfc0ea6c0e1834efe4
-ms.sourcegitcommit: 013196e9737acfc9a3d1f842f351e95f79f64d36
+ms.openlocfilehash: a323792c52fb22ac3389e99830d32ad8b5bf1b35
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7878883"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407976"
 ---
 # <a name="manage-customer-information-in-pos-for-brazil"></a>Gerenciar informações do cliente no PDV para o Brasil
 

@@ -2,7 +2,7 @@
 title: Criar um site de comércio eletrônico
 description: Este tópico descreve as etapas e informações necessárias para criar um novo site de comércio eletrônico no assistente para criação de sites do Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388202"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402766"
 ---
 # <a name="create-an-e-commerce-site"></a>Criar um site de comércio eletrônico
 
@@ -70,6 +70,14 @@ Para renomear seu site no assistente para criação de sites, siga estas etapas.
 1. Para abrir a exibição de lista de sites, selecione **Seletor de site** no canto superior direito e, depois, selecione **Gerenciar sites**. 
 1. Marque a caixa de seleção ao lado do site a ser renomeado e selecione **Renomear** na barra de comandos.
 1. Na caixa de diálogo **Novo nome do site**, insira o novo nome do site e selecione **OK**. A lista de sites será atualizada para mostrar o novo nome do site.
+
+## <a name="delete-a-site"></a>Excluir um site
+
+Para excluir um site, no construtor de sites, siga estas etapas:
+
+1. Para abrir a exibição de lista de sites, selecione **Seletor de site** no canto superior direito e, depois, selecione **Gerenciar sites**.
+1. Selecione o site listas que você deseja excluir e, em seguida, selecione **Excluir** na barra de comandos..
+1. Na caixa de diálogo **Excluir \<site name\>**, insira o nome do site e selecione **Excluir**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -6,7 +6,6 @@ manager: annbe
 ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +14,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 9da529ffcd17dae93e02c6d187d4b3d4b26eddee
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 4e3c082f7d29f90f04f4cadf5ba64bee4f4a7d7f
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891590"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408106"
 ---
 # <a name="cf-e-fiscal-documents-and-integration-with-sat-functionality-in-commerce-pos-for-brazil"></a>Integração e documentos fiscais CF-e com a funcionalidade de SAT no PDV do Commerce para o Brasil
 
