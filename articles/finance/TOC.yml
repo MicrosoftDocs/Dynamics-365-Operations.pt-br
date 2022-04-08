@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (fevereiro)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (janeiro)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -408,14 +406,26 @@
                   href: accounts-receivable/rev-rec-reallocation-scenario-2.md
                 - name: Realocação de reconhecimento de receita cenário 3
                   href: accounts-receivable/rev-rec-reallocation-scenario-3.md
-                - name: Realocação de reconhecimento de receita cenário 4
+                - name: Realocação de reconhecimento de receita – cenário 4
                   href: accounts-receivable/rev-rec-reallocation-scenario-4.md
             - name: Cobrança de assinatura
               items:
                 - name: Visão geral de cobrança de assinatura
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Configurar agendamento de cobrança
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: Cobrança de contrato recorrente
+                  items:
+                    - name: Criar agendas de cobrança
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: Copiar uma agenda de cobrança
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Cobrança por etapa
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: Encerrar agendas de cobrança
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: Adiamentos de receita e despesa
+                  items: null
+                - name: Alocação de receita de vários elementos
+                  items: null
             - name: Pagamentos e liquidações
               items:
                 - name: Visão geral de pagamentos de cliente
@@ -1443,11 +1453,11 @@
                             - name: Configurar um canal do SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: Configurar e usar o Faturamento Eletrônico com o Finance e o Supply Chain Management
-                          items: null
-                        - name: Ativar e configurar a integração com o Faturamento Eletrônico
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: Configurar os parâmetros do Faturamento Eletrônico
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: Ativar e configurar a integração com o Faturamento Eletrônico
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: Configurar os parâmetros do Faturamento Eletrônico
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Trabalhar com o Faturamento Eletrônico
                           items:
                             - name: Enviar documentos eletrônicos para o Faturamento Eletrônico
@@ -1532,6 +1542,10 @@
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: Relatório da Finlândia
+                          items:
+                            - name: Declaração de IVA
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: Relatório da França
                           items:
                             - name: Declaração de IVA
@@ -1540,12 +1554,16 @@
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-deu-vat-declaration-germany.md
-                        - name: Relatórios dos Países Baixos
+                        - name: Relatório dos Países Baixos
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Lista de vendas da UE
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Relatório da Noruega
+                          items:
+                            - name: Declaração de IVA
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: Relatório da Espanha
                           items:
                             - name: 'Fornecimento imediato de informações sobre IVA (Suministro Inmediato de Información del IVA, SII)'
@@ -1564,10 +1582,6 @@
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: Relatórios da Noruega
-                          items:
-                            - name: Declaração de IVA
-                              href: localizations/emea-nor-vat-declaration.md
                     - name: Habilitar cálculo de imposto para ordem de transferência
                       items:
                         - name: Suporte a recursos de imposto para ordens de transferência
@@ -1694,13 +1708,11 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Taxas de material de embalagem
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: Declaração de IVA
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: Relatório de serviços internacionais
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: Intrastat austríaco
                   href: localizations/emea-aut-intrastat.md
-                - name: Direitos de compra
+                - name: Impostos de compra
                   href: localizations/emea-aut-purchase-duties.md
                 - name: Declaração de IVA
                   href: localizations/emea-aut-vat-declaration-austria.md
@@ -2021,8 +2033,6 @@
                 - name: Atualizar como os valores são exibidos em relatórios e documentos
                   href: localizations/emea-amount-printing-forms.md
                 - name: Declaração de IVA
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: Declaração de IVA (República Tcheca)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Intrastat tcheco
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: Intrastat dinamarquês
                   href: localizations/emea-dnk-intrastat.md
+                - name: Declaração de IVA
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Egito
               items:
                 - name: Visão geral do Egito
@@ -2240,8 +2252,10 @@
                   href: localizations/finland.md
                 - name: Relatório de pagamento de impostos da Finlândia
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
-                - name: Intrastat finlandesa
+                - name: Intrastat finlandês
                   href: localizations/emea-fin-intrastat.md
+                - name: Declaração de IVA
+                  href: localizations/emea-fin-vat-declaration.md
             - name: França
               items:
                 - name: Visão geral da França
@@ -2332,24 +2346,18 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Declaração de IVA
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: Transmissão eletrônica da declaração de IVA (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Intrastat alemão
                   href: localizations/emea-deu-intrastat.md
-                - name: Declaração de IVA
-                  href: localizations/emea-de-vat-declaration.md
                 - name: Relatório de faturas eletrônicas do cliente
                   href: localizations/emea-deu-e-invoices.md
                 - name: Relatório de lista de diários
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Configurar declarações eletrônicas de impostos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
-                - name: Imprimir uma etiqueta separada para memorandos de crédito originários de vendas
+                - name: Imprimir um rótulo separado para memorandos de crédito originários de vendas
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: Lista de vendas da UE
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: Declaração de IVA
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Hungria
               items:
                 - name: Visão geral da Hungria
@@ -2562,6 +2570,8 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: Importar serviços que tenham GST
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: Alocação de encargos na página Conta de importações para ordens de importação
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: Exportar mercadorias que tenham impostos com taxa zero
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: Exportar serviços que tenham impostos com taxa zero
@@ -3116,17 +3126,13 @@
               items:
                 - name: Visão geral dos Países Baixos
                   href: localizations/netherlands.md
-                - name: Declaração de IVA
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: Declarações eletrônicas de impostos (IVA eletrônico)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Integração do Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Arquivo de auditoria (XML Auditfile Financieel, XAF)'
+                - name: Arquivo de auditoria (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: Declaração de IVA (Países Baixos)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Intrastat dos Países Baixos
+                - name: Intrastat
                   href: localizations/emea-nl-intrastat.md
                 - name: Lista de vendas da UE
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: Relatório de pagamento de impostos da Suécia
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: Declaração de IVA para a Suécia
+                - name: Declaração de IVA
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Intrastat sueco
                   href: localizations/emea-swe-intrastat.md

@@ -1709,6 +1709,8 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Reservas de Visibilidade de Estoque
                   href: inventory/inventory-visibility-reservations.md
+                - name: Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque
+                  href: inventory/inventory-visibility-available-to-promise.md
                 - name: APIs públicas de Visibilidade de Estoque
                   href: inventory/inventory-visibility-api.md
                 - name: Dicas de Visibilidade de Estoque
@@ -3867,7 +3869,9 @@
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Âncora de confiança para caminho de certificação não encontrada ao atualizar e migrar para o WMS
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Problemas de processamento ocorrem após a instalação de uma carga de trabalho de unidade de escala da Warehouse
+                - name: Não é possível lançar uma guia de remessa para uma linha de ordem de venda interrompida
+                  href: troubleshooting/warehousing/unable-to-post-packi.md
+                - name: Problemas de processamento ocorrem após a instalação de uma carga de trabalho do depósito de unidade de escala
                   href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: O aviso de reserva automática para o número do lote é mostrado mesmo com estoque disponível
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
