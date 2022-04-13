@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330692"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487571"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integração com sistemas de execução de fabricação de terceiros
 
@@ -64,7 +64,9 @@ Você pode habilitar qualquer ou todos os processos a seguir para integração.
 
 ## <a name="monitor-incoming-messages"></a>Monitorar mensagens de entrada
 
-Para monitorar as mensagens de entrada no sistema, abra a página **Integração de sistemas de execução de fabricação**. Nela, você pode exibir, processar e solucionar problemas.
+Para monitorar as mensagens de entrada no sistema, abra a página **Integração de sistemas de execução de fabricação**. Lá você pode exibir, processar e solucionar problemas.
+
+Todas as mensagens para uma ordem de produção específica são processadas na sequência em que são recebidas. No entanto, as mensagens para ordens de produção diferentes não podem ser processadas na sequência de recebimentos porque os trabalhos em lotes são processados em paralelo. No caso de falha, o trabalho em lotes tentará processar cada mensagem três vezes antes de defini-la como status de *Falha*.
 
 ## <a name="call-the-api"></a>Chamar a API
 
@@ -119,28 +121,28 @@ A tabela a seguir mostra os campos compatíveis com cada linha na seção `Repor
 | `ReportedGoodQuantity` | Opcional | Real|
 | `ReportedErrorCatchWeightQuantity` | Opcional | Real |
 | `ReportedGoodCatchWeightQuantity` | Opcional | Real |
-| `AcceptError` | Opcional |Booliano |
+| `AcceptError` | Opcional | Enum (Sim\|Não) |
 | `ErrorCause` | Opcional | Enum (None \| Material \| Machine \| OperatingStaff), extensível |
 | `ExecutedDateTime` | Opcional | Data e Hora |
 | `ReportAsFinishedDate` | Opcional | Data |
 | `AutomaticBOMConsumptionRule` | Opcional | Enum (FlushingPrincip \| Always \| Never) |
 | `AutomaticRouteConsumptionRule` | Opcional |Enum (RouteDependent \| Always \| Never) |
-| `RespectFlushingPrincipleDuringOverproduction` | Opcional | Booliano |
-| `ProductionJournalNameId` | Opcional | Sequência de caracteres |
-| `PickingListProductionJournalNameId` | Opcional | Sequência de caracteres|
-| `RouteCardProductionJournalNameId` | Opcional | Sequência de caracteres |
+| `RespectFlushingPrincipleDuringOverproduction` | Opcional | Enum (Sim\|Não) |
+| `ProductionJournalNameId` | Opcional | Cadeia de caracteres |
+| `PickingListProductionJournalNameId` | Opcional | Cadeia de caracteres|
+| `RouteCardProductionJournalNameId` | Opcional | Cadeia de caracteres |
 | `FromOperationNumber` | Opcional | Inteiro|
 | `ToOperationNumber` | Opcional | Inteiro|
-| `InventoryLotId` | Opcional | Sequência de caracteres |
-| `BaseValue` | Opcional | Sequência de caracteres |
-| `EndJob` | Opcional | Booliano |
-| `EndPickingList` | Opcional | Booliano |
-| `EndRouteCard` | Opcional | Booliano |
-| `PostNow` | Opcional | Booliano |
-| `AutoUpdate` | Opcional | Booliano |
-| `ProductColorId` | Opcional | Sequência de caracteres|
-| `ProductConfigurationId` | Opcional | Sequência de caracteres |
-| `ProductSizeId` | Opcional | Sequência de caracteres |
+| `InventoryLotId` | Opcional | Cadeia de caracteres |
+| `BaseValue` | Opcional | Cadeia de caracteres |
+| `EndJob` | Opcional | Enum (Sim\|Não) |
+| `EndPickingList` | Opcional | Enum (Sim\|Não) |
+| `EndRouteCard` | Opcional | Enum (Sim\|Não) |
+| `PostNow` | Opcional | Enum (Sim\|Não) |
+| `AutoUpdate` | Opcional | Enum (Sim\|Não) |
+| `ProductColorId` | Opcional | Cadeia de caracteres|
+| `ProductConfigurationId` | Opcional | Cadeia de caracteres |
+| `ProductSizeId` | Opcional | Cadeia de caracteres |
 | `ProductStyleId` | Opcional | Sequência de caracteres |
 | `ProductVersionId` | Opcional | Sequência de caracteres |
 | `ItemBatchNumber` | Opcional | Sequência de caracteres |
@@ -180,8 +182,8 @@ A tabela a seguir mostra os campos compatíveis com cada linha na seção `Picki
 | `ConsumptionDate` | Opcional | Data |
 | `OperationNumber` | Opcional | Inteiro |
 | `LineNumber` | Opcional | Real |
-| `PositionNumber` | Opcional | Sequência de caracteres |
-| `IsConsumptionEnded` | Opcional | Booliano |
+| `PositionNumber` | Opcional | Cadeia de caracteres |
+| `IsConsumptionEnded` | Opcional | Enum (Sim\|Não) |
 | `ErrorCause` | Opcional | Enum (None \| Material \| Machine \| OperatingStaff), extensível |
 | `InventoryLotId` | Opcional | Cadeia de caracteres |
 
@@ -217,9 +219,9 @@ A tabela a seguir mostra os campos compatíveis com cada linha na seção `Route
 | `ConsumptionDate` | Opcional | Data |
 | `TaskType` | Opcional | Enum (QueueBefore \| Setup \| Process \| Overlap \| Transport \| QueueAfter \| Burden) |
 | `ErrorCause` | Opcional | Enum (None \| Material \| Machine \| OperatingStaff), extensível |
-| `OperationCompleted` | Opcional | Booliano |
-| `BOMConsumption` | Opcional | Booliano |
-| `ReportAsFinished` | Opcional | Booliano |
+| `OperationCompleted` | Opcional | Enum (Sim\|Não) |
+| `BOMConsumption` | Opcional | Enum (Sim\|Não) |
+| `ReportAsFinished` | Opcional | Enum (Sim\|Não) |
 
 ### <a name="end-production-order-message"></a>Mensagem Finalizar ordem de produção
 
@@ -227,12 +229,16 @@ Para a mensagem *finalizar ordem de produção*, o valor `_messageType` é `Prod
 
 | Nome do campo | Status | Tipo |
 |---|---|---|
-| `ProductionOrderNumber` | Obrigatório | Sequência de caracteres |
+| `ProductionOrderNumber` | Obrigatório | Cadeia de caracteres |
 | `ExecutedDateTime` | Opcional | Data e Hora |
 | `EndedDate` | Opcional | Data |
-| `UseTimeAndAttendanceCost` | Opcional | Booliano |
-| `AutoReportAsFinished` | Opcional | Booliano |
-| `AutoUpdate` | Opcional | Booliano |
+| `UseTimeAndAttendanceCost` | Opcional | Enum (Sim\|Não) |
+| `AutoReportAsFinished` | Opcional | Enum (Sim\|Não) |
+| `AutoUpdate` | Opcional | Enum (Sim\|Não) |
+
+## <a name="other-production-information"></a>Outras informações de produção
+
+As mensagens suportam ações ou eventos que ocorrem no chão de fábrica. Elas são processadas usando a estrutura de integração MES descrita neste tópico. O design supõe que outras informações de referência a serem compartilhadas com o MES (como informações relacionadas ao produto ou a lista de materiais ou o roteiro (com os horários de configuração e configuração específicos) usados em uma ordem de produção específica) serão recuperadas do sistema usando [entidades de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) via transferência de arquivo ou OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Receber comentários sobre o estado de uma mensagem
 

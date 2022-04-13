@@ -1,22 +1,22 @@
 ---
 title: Métodos de reabastecimento e modificação de quantidade
 description: Este tópico fornece informações sobre os métodos de reabastecimento na Otimização de Planejamento. Também explica como a quantidade múltipla de ordens de um produto afeta o resultado.
-author: ChristianRytt
+author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
 ms.search.form: ReqGroup, ReqItemTable, InventItemOrderSetup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 017dabb46265769bf727056a9bf1a8c0cfdc99f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fc7eb00f62b334ba032af6fef87c243a7ba0835a
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567286"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468515"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Métodos de reabastecimento e modificação de quantidade
 

@@ -1,22 +1,22 @@
 ---
 title: Parâmetros não usados pela Otimização de Planejamento
 description: Este tópico lista os parâmetros que a Otimização de Planejamento atualmente não considera durante sua operação.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408221"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469104"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parâmetros não usados pela Otimização de Planejamento
 
@@ -65,18 +65,6 @@ A Otimização de Planejamento não usa os seguintes parâmetros ou opções na 
   - **Usar a versão da BOM ou da fórmula especificada** – Suporte a *Versões de fórmula com Coproduto/Subproduto* pendente.
   - **Usar a versão de roteiro especificada** – Suporte a *Demanda pendente com requisitos específicos de BOM ou de roteiro definidos*.
 
-- Guia Rápida **Ação**:
-
-  - **Mensagem de ação** – Suporte a *Ações* pendente.
-  - **Tempo limite da ação** – Suporte a *Ações* pendente.
-  - **Adiar margem** – Suporte a *Ações* pendente.
-  - **Avançar margem** – Suporte a *Ações* pendente.
-  - **Base de data** - Suporte a *Ações* pendente.
-  - **Avançar** – Suporte a *Ações* pendente.
-  - **Adiar** – Suporte a *Ações* pendente.
-  - **Diminuir** – Suporte a *Ações* pendente.
-  - **Aumentar** – Suporte a *Ações* pendente.
-  - **Ações derivadas** – Suporte a *Ações* pendente.
 
 - Guia Rápida **Outro**:
 
@@ -149,7 +137,6 @@ A Otimização de Planejamento não usa os seguintes parâmetros ou opções na 
   - **Planejamento de previsões** – Suporte adicional a *Previsão* pendente.
   - **Capacidade** – Suporte a *Agendamento* pendente.
   - **Plano de continuidade** – Suporte a *Agendamento de continuidade* pendente.
-  - **Mensagem de ação** – Suporte a *Ações* pendente.
   - **Atrasos calculados** – Suporte adicional a *Atrasos calculados* pendente.
   - **Sequenciamento** – Suporte a *Produção* pendente.
 

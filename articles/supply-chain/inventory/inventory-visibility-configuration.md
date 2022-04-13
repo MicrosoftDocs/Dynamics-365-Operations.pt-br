@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060992"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524511"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Visibilidade de Estoque
 
@@ -39,22 +39,25 @@ Antes de começar a trabalhar com o Visibilidade de Estoque, você deve concluir
 
 Antes de começar, instale e configure o Suplemento Visibilidade de Estoque conforme descrito em [Instalar e configurar Visibilidade do Estoque](inventory-visibility-setup.md).
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Habilitar recursos de Visibilidade de Estoque no gerenciamento de recursos do Power Apps
-
-O Suplemento de Visibilidade de Estoque adiciona vários recursos novos à sua instalação do Power Apps. Por padrão, esses recursos estão desativados. Para usá-los, abra a página **Configuração** no Power Apps e, na guia **Gerenciamento de Recursos**, ative os seguintes recursos.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Localizar o ponto de extremidade de serviço
-
-Se você não souber o ponto de extremidade de serviço de Visibilidade de Estoque correto, abra a página **Configuração** no Power Apps e selecione **Mostrar Ponto de Extremidade de Serviço** no canto superior direito. A página mostrará o ponto de extremidade de serviço correto.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>A página Configuração do aplicativo Visibilidade de Estoque
 
 No Power Apps, a página **Configuração** do [aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md) ajuda você a definir a configuração disponível e a configuração de reserva flexível. Após a instalação do suplemento, a configuração padrão incluirá o valor do Microsoft Dynamics 365 Supply Chain Management (a fonte de dados `fno`). Você pode analisar as configurações padrão. Além disso, com base nos requisitos comerciais e nos requisitos de lançamento de estoque do sistema externo, você poderá modificar a configuração para padronizar a forma como as alterações de estoque podem ser lançadas, organizadas e consultadas em vários sistemas. As seções restantes deste tópico explicam como usar cada parte da página **Configuração**.
 
 Depois que a configuração for concluída, selecione **Atualizar Configuração** no aplicativo.
+
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Habilitar recursos de Visibilidade de Estoque no gerenciamento de recursos do Power Apps
+
+O Suplemento de Visibilidade de Estoque adiciona vários recursos novos à sua instalação do Power Apps. Por padrão, esses recursos estão desativados. Para usá-los, abra a página **Configuração** e na guia **Gerenciamento de Recursos** ative os recursos a seguir, conforme necessário.
+
+| Nome do Gerenciamento de Recursos | Descrição |
+|---|---|
+| OnHandReservation | Este tópico permite criar reservas, consumir reservas e/ou cancelar a reserva de quantidades de estoque especificadas usando a Visibilidade de Estoque. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md). |
+| OnHandMostSpecificBackgroundService | Este recurso fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados do resumo de estoque serão sincronizados periodicamente de Visibilidade de Estoque. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#inventory-summary). |
+| OnhandChangeSchedule | O recurso habilita o plano de alterações disponível e os recursos disponíveis para promessa (ATP) (opcional). Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md). |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Localizar o ponto de extremidade de serviço
+
+Se você não souber o ponto de extremidade de serviço de Visibilidade de Estoque correto, abra a página **Configuração** no Power Apps e selecione **Mostrar Ponto de Extremidade de Serviço** no canto superior direito. A página mostrará o ponto de extremidade de serviço correto.
 
 ## <a name="data-source-configuration"></a>Configuração de fonte de dados
 
@@ -178,15 +181,21 @@ Para configurar uma medida calculada personalizada, siga estas etapas.
 
 1. Entre no seu ambiente do Power Apps e abra **Visibilidade de Estoque**.
 1. Abra a página **Configuração**.
-1. Na guia **Medida Calculada**, selecione **Nova Medida de Cálculo** para adicionar uma medida calculada. Defina os campos conforme descrito na tabela a seguir.
+1. Na guia **Medida Calculada**, selecione **Nova Medida de Cálculo** para adicionar uma medida calculada.
+1. Defina os seguintes campos para a nova medida calculada:
 
-    | Campo | Alíquota |
-    |---|---|
-    | Nome da nova medida calculada | Insira o nome da medida calculada. |
-    | Fonte de dados | O sistema de consulta é uma fonte de dados. |
-    | Fonte de dados modificadora | Insira a fonte de dados do modificador. |
-    | Modificador | Insira o nome do modificador. |
-    | Tipo de modificador | Selecione o tipo de modificador (*Adição* ou *Subtração*). |
+    - **Nome da nova medida calculada** – Insira o nome da medida calculada.
+    - **Fonte de dados** – selecione a fonte de dados associada ao novo modificador. O sistema de consulta é uma fonte de dados.
+
+1. Selecione **Adicionar** para adicionar um modificador à nova medida calculada.
+1. Defina os seguintes campos para o novo modificador:
+
+    - **Modificador** – Selecione o tipo de modificador (*Adição* ou *Subtração*).
+    - **Fonte de dados** – selecione a fonte de dados em que a medida que fornece o valor do modificador deve ser encontrada.
+    - **Medida** – Selecione o nome da medida (da fonte de dados selecionada) que fornece o valor para o modificador.
+
+1. Repita as etapas 5 a 6 até adicionar todos os modificadores necessários.
+1. Selecione **Salvar**.
 
 Por exemplo, você pode ter o resultado de consulta a seguir.
 
@@ -465,6 +474,10 @@ Nesse exemplo, você pode fazer reserva nas seguintes sequências de dimensão. 
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Uma sequência de dimensão válida deve seguir estritamente a hierarquia de reserva, dimensão por dimensão. Por exemplo, a sequência de hierarquia `(SiteId, LocationId, SizeId)` não é válida porque `ColorId` está ausente.
+
+## <a name="available-to-promise-configuration-optional"></a>Configuração disponível para promessa (opcional)
+
+Você pode configurar a visibilidade do inventário para permitir que você programe futuras alterações disponíveis e calcule as quantidades disponíveis para promessa (ATP). ATP é a quantidade de um item que está disponível e pode ser prometida a um cliente no próximo período. O uso deste cálculo pode aumentar bastante o recurso de atendimento da ordem. Para usar esse recurso, você deve habilitá-lo na guia **Gerenciamento de Recursos** e configurá-lo na guia **Definição de ATP**. Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Concluir e atualizar a configuração
 

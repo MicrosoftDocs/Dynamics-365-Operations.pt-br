@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068783"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464927"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Exibir e atualizar dados da entidade com o Excel 
 
@@ -48,7 +48,7 @@ Para saber mais sobre como usar o suplemento do Excel, assista ao breve vídeo [
 2. Selecione uma opção **Abrir no Excel**, e abra a pasta de trabalho gerada. Essa pasta de trabalho possui informações obrigatórias da entidade, um indicador para seu ambiente e um indicador para o suplemento do Excel.
 3. No Excel, selecione **Habilitar edição** para permitir que o suplemento do Excel seja executado. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
 4. Caso esteja executando o suplemento do Excel pela primeira vez, selecione **Confiar nesse Suplemento**.
-5. Se for solicitado que você entre no sistema, selecione **Entrar** e entre usando as mesmas credenciais usadas para entrar no aplicativo de Finanças e Operações. O suplemento do Excel usará um contexto de entrada anterior do navegador e conectará você automaticamente, se possível. (Para obter informações sobre o navegador usado com base no sistema operacional, consulte [Navegadores usados por suplementos do Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)). Para garantir que a conexão foi bem-sucedida, verifique o nome de usuário no canto superior direito do suplemento do Excel. 
+5. Se for solicitado que você entre no sistema, selecione **Entrar** e entre usando as mesmas credenciais usadas para entrar no aplicativo de Finanças e Operações. O suplemento do Excel usará um contexto de entrada anterior do navegador e conectará você automaticamente, se possível. (Para obter informações sobre o navegador usado com base no sistema operacional, consulte [Navegadores usados por suplementos do Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins)). Para garantir que a conexão foi bem-sucedida, verifique o nome de usuário no canto superior direito do suplemento do Excel. 
 
 O suplemento do Excel lê automaticamente os dados da entidade selecionada. Observe que não haverá dados na pasta de trabalho até que o suplemento do Excel realize a leitura.
 

@@ -1,7 +1,7 @@
 ---
 title: Importar dados históricos para previsões de demanda
 description: Para obter previsões de demanda precisas, você precisará dos dados históricos de demanda por item ou por chave de alocação de item. Este tópico explica como usar entidades de dados para importar dados históricos de demanda de qualquer sistema, de forma que você tenha um histórico de dados de previsão de demanda mais amplo.
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dba31279541c20949dd1e86236103045c48b701
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c52d27d6e3aa8a20d6cc1dc81e4ade981c6a8091
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579655"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470391"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Importar dados históricos para previsões de demanda
 

@@ -1,23 +1,23 @@
 ---
 title: Gerenciar a validação da conta do IBAN (número de conta bancária internacional)
 description: Este tópico explica como gerenciar a validação da conta do IBAN (número de conta bancária internacional).
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860810"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462754"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Gerenciar a validação da conta do IBAN (número de conta bancária internacional)
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860810"
 
 A validação do IBAN aumenta o valor de validação realizada quando você adiciona um IBAN a uma conta bancária.
 
-As informações sobre a estrutura do IBAN são armazenadas no Microsoft Dynamics 365 Finance. Essas informações são carregadas automaticamente quando você usa o IBAN pela primeira vez em contas bancárias. Elas contêm o tamanho do IBAN, as posições iniciais do número de conta bancária e o número de roteamento, além do tamanho do número de conta bancária e do número de roteamento.
+As informações sobre a estrutura do IBAN são armazenadas no Microsoft Dynamics 365 Finance e são automaticamente carregadas quando você usa pela primeira vez o IBAN nas contas bancárias. Elas contêm o tamanho do IBAN, as posições iniciais do número de conta bancária e o número de roteamento, além do tamanho do número de conta bancária e do número de roteamento.
 
 ## <a name="set-up-iban-structures"></a>Configurar estruturas IBAN
 
 1. Acesse **Gerenciamento de dinheiro e banco \> Configuração \> Estruturas IBAN**.
 2. Observe que as estruturas IBAN de cada país ou região foram configuradas automaticamente.
-3. Se desejar personalizar as estruturas de um país ou região específica, você poderá editá-las.
+3. Selecione o botão **Editar**, caso a estrutura precise ser atualizada para um país ou uma região específica.
 4. As definições das estruturas farão parte de cada lançamento. Você pode usar o menu **Redefinir estruturas** para carregar as definições mais recentes após cada atualização.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Validar a estrutura IBAN em uma conta bancária

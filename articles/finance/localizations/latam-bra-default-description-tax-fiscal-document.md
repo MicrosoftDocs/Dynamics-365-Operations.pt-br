@@ -2,7 +2,7 @@
 title: Configurar descrições padrão para o lançamento de documentos fiscais de imposto
 description: Este tópico explica como configurar descrições padrão para transações de comprovante lançadas de documentos fiscais de imposto.
 author: gionoder
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,20 @@ ms.search.region: Brazil
 ms.author: gionoder
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c30acc987903ed46a79892338767b9dc1edcce03
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 0faae8455ae50f573a7e4bd6e0f2a0434fd18efb
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075769"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462397"
 ---
 # <a name="set-up-default-descriptions-for-posting-of-tax-fiscal-documents"></a>Configurar descrições padrão para o lançamento de documentos fiscais de imposto
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
 Seguir estas etapas para configurar descrições padrão para transações de comprovante lançadas de documentos fiscais de imposto.
 
-1. Acesse **Administração da organização** \> **Configuração** \> **Descrições padrão**.
+1. Vá para **Administração da organização** > **Configuração** > **Descrições padrão**.
 2. Selecione **Novo**.
 3. No campo **Descrição**, selecionar **Documento fiscal de imposto**.
 4. No campo **Linguagem**, selecionar uma linguagem.

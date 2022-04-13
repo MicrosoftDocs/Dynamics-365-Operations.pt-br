@@ -1,7 +1,7 @@
 ---
 title: Análise de ajuste da Otimização de Planejamento
 description: Este tópico explica como verificar sua configuração e seus dados atuais em relação aos recursos da funcionalidade Otimização de Planejamento.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408006"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487632"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
@@ -84,7 +84,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Produção | Linhas de fórmula/BOM com consumo de recursos: _\#_ | Este recurso está pendente. No momento, as linhas da BOM e da fórmula que têm consumo de recursos são ignoradas quando a otimização do planejamento for habilitada. Quando esse recurso é compatível, o requisito de material será definido para a data de início da produção. Até que esse recurso seja compatível, os requisitos não serão gerados para materiais marcados com um sinalizador de consumo de recursos. | 2022 de outubro |
 | Produção | Linhas de fórmula/BOM com consumo em etapas: _\#_ | Este recurso está pendente. No momento, consumo de etapa é ignorado na BOM e linhas de fórmula quando a otimização do planejamento for habilitada. | 2022 de outubro |
 | Produção | BOMs com sucata constante ou sucata variável definida: _\#_ | Este recurso está pendente. No momento, a sucata constante e a sucata variável definidas nas BOMs são ignoradas quando a otimização do planejamento for habilitada. | 2022 de outubro |
-| Produção | BOMs com subcontratação: _\#_ | Este recurso está pendente. No momento, a configuração de subcontratação nas BOMs é ignorada quando a otimização do planejamento for habilitada, independentemente dessa configuração. | 2022 de abril |
+| Produção | BOMs com subcontratação: _\#_ | Este recurso agora é suportado. | Suportado |
 | Produção | BOMs sem um site: _\#_ | Este recurso agora é suportado. Para obter informações adicionais, consulte [Planejamento de produção](production-planning.md) | Suportado |
 | Produção | Demanda com requisitos específicos de BOM ou roteiro definidos: _\#_ | Este recurso está pendente. No momento, os requisitos específicos da BOM ou do roteiro definidos na demanda (como uma sub-BOM ou um sub-roteiro em uma ordem de venda) são ignorados quando a otimização do planejamento é habilitada. A BOM ou o roteiro padrão será usado, independentemente dessa configuração. | 2022 de outubro |
 | Produção | Versões de fórmula com Coprodutos/Subprodutos: _\#_ | Este recurso está pendente. No momento, os coprodutos e subprodutos associados à versão da fórmula são ignorados quando a otimização do planejamento é habilitada. | 2022 de outubro |

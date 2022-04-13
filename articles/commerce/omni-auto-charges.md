@@ -2,7 +2,7 @@
 title: Encargos automáticos avançados de omnicanal
 description: Este tópico descreve recursos para gerenciar outras cobranças de pedido para pedidos do canal Commerce usando recursos avançados de cobrança automática.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743422"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489609"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omnicanal
 
@@ -187,6 +187,9 @@ Se os códigos do motivo forem capturados para encargos substituídos, um novo r
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Reembolso de encargos em uma transação de devolução de PDV
 
 Se o parâmetro **Usar encargos automáticos avançados** estiver definido como **Sim**, o parâmetro do Commerce existente **Reembolsar encargos de remessa** não será mais aplicável. Para indicar que os encargos devem ser sistematicamente reembolsados a um cliente ao usar os encargos avançados, certifique-se de que o código de encargos diversos foi configurado como **Reembolsável** na página de configuração **Código de encargos** . Verifique se as configurações foram sincronizadas nos bancos de dados do canal do Commerce através do processamento da agenda de distribuição.
+
+> [!TIP]
+> Para obter diretrizes que o ajudarão a garantir que os encargos reembolsáveis em nível de linha sejam calculados com base na quantidade devolvida, consulte [Os encargos reembolsáveis não são calculados com base na quantidade devolvida](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Reembolso de encargos em uma transação de ordem de devolução
 

@@ -2,52 +2,74 @@
 title: Visão geral do Suplemento Visibilidade de Estoque
 description: Este tópico explica o que é Visibilidade de Estoque e descreve seus recursos.
 author: yufeihuang
-ms.date: 10/26/2020
+ms.date: 03/18/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8871d10dac9103f17780989bc547b6c20ba79b76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9ee6229937ea27adf231dcd1c9921878e53bd981
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985536"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524483"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Visão geral do Suplemento Visibilidade de Estoque
 
 [!include [banner](../includes/banner.md)]
 
-O Suplemento Visibilidade de Estoque (também conhecido como *Visibilidade de Estoque*) é um microsserviço independente e altamente escalonável que permite o acompanhamento de estoque disponível em tempo real. Portanto, ele fornece uma visão global do estoque.
+O Suplemento Visibilidade de Estoque (também referido como *serviço de Visibilidade de Estoque*) oferece um microsserviço independente e altamente escalável que permite os lançamentos de alterações de estoque disponível em tempo real e o controle de visibilidade em todas as suas fontes de dados e canais. Ele fornece uma plataforma que permite gerenciar o seu estoque global usando uma funcionalidade que inclui (mas não se limitando a) a lista a seguir:
 
-Os sistemas externos acessam o serviço por meio de APIs RESTful. Assim, podem consultar informações disponíveis sobre determinados conjuntos de dimensões ou fazer alterações em seu estoque em diferentes fontes de dados personalizadas.
+- Controlar centralmente o status de estoque mais recente (por exemplo, disponível, encomendado, comprado, em trânsito, devolvido e em quarentena) em todas as suas fontes de dados, depósitos e locais ao conectar seu Supply Chain Management ou fontes de dados de logística de terceiros (como sistemas de gerenciamento de ordens, planejamento de recursos corporativos de terceiros \[ERP\], sistemas de ponto de venda \[PDV\] e sistemas de gerenciamento de depósito) ao serviço de visibilidade do estoque.
+- Consulte a disponibilidade e escassez de estoque disponível e obtenha respostas imediatas chamando diretamente ao serviço de visibilidade de estoque.
+- Evite a venda a mais, especialmente quando a demanda vier de diferentes canais, fazendo reservas em tempo real no serviço de Visibilidade de Estoque.
+- Gerencie melhor as ordens prometidas e as expectativas dos clientes fornecendo datas atuais ou próximas disponíveis precisas, para que o recurso do omnicanal disponível para promessa (ATP) possa calcular as datas esperadas de atendimento da ordem.
 
-Como um microsserviço fundamentado no Microsoft Dataverse, o Visibilidade de Estoque fornece extensibilidade. Você pode usar o Power Apps para criar aplicativos. Você também pode aplicar o Power BI para fornecer funcionalidade personalizada que atenda a seus requisitos de negócios.
+## <a name="extensibility"></a>Extensibilidade
 
-Você pode integrar o Visibilidade de Estoque com vários sistemas de terceiros, definindo opções de configuração para dimensões de estoque padronizadas e configurando tipos de transação. O Visibilidade de Estoque também dá suporte à extensibilidade personalizada por meio de quantidades calculadas configuráveis.
+O serviço de Visibilidade de Estoque é altamente extensível porque a entrada e a saída de dados não estão restritas a aplicativos do Microsoft. Os sistemas externos podem acessar o serviço por meio de APIs (interfaces de programação de aplicativo) de RESTful. Além de usar os mapeamentos prontos para uso fornecidos para a fonte de dados e as dimensões do Supply Chain Management, você pode integrar a Visibilidade de Estoque a vários sistemas de terceiros configurando fontes de dados adicionais, os status de estoque medem (chamadas de *medidas físicas* no serviço de Visibilidade de Estoque) e dimensões de estoque via aplicativo de configuração. Dessa forma, você pode fazer uma consulta flexível e alterar suas várias fontes de dados e dimensões de estoque predefinidas.
 
-## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Integração do Visibilidade de Estoque com o Dynamics 365 Supply Chain Management
+Além disso, como a Visibilidade de Estoque é criada no Microsoft Dataverse, seus dados podem ser usados para criar e integrar com o Power Apps. Você também pode usar o Power BI para criar painéis personalizados que atendam a seus requisitos de negócios.
 
-A solução integrada extrai dados de estoque do Dynamics 365 Supply Chain Management e acompanha continuamente as alterações de estoque. Para obter mais informações, consulte [Instalar e configurar Visibilidade do Estoque](inventory-visibility-setup.md) e [Configurar Visibilidade do Estoque](inventory-visibility-configuration.md).
+## <a name="scalability"></a>Escalabilidade
 
-## <a name="get-a-global-view-of-inventory"></a>Obter uma exibição global do estoque
+O serviço de Visibilidade de Estoque pode ser ajustado para cima ou para baixo, dependendo do volume de dados. A experiência de escalabilidade é praticamente perfeita e é conduzida pela equipe da plataforma Microsoft, com base na detecção e avaliação automáticas do volume de dados de transações.
 
-A solução integrada permite definir suas próprias fontes de dados e centralizar os dados de estoque. Para obter mais informações, consulte [Configurar Visibilidade de Estoque](inventory-visibility-configuration.md).
+## <a name="feature-highlights"></a>Destaques do recurso
 
-Existem duas abordagens para exibir seu estoque:
+### <a name="get-a-global-view-of-real-time-inventory"></a>Obter uma exibição de estoque em tempo real
 
-- Enviar uma consulta por meio da API de alto desempenho. Essa API pode retornar dados de estoque quase em tempo real diretamente de uma instância em cache. Você pode encontrar contratos e exemplos em [APIs públicas de Visibilidade de Estoque](inventory-visibility-api.md).
-- Exibir a lista bruta disponível. Essa lista é sincronizada periodicamente de uma instância em cache e é visível no Dataverse. Para obter mais informações, consulte [Aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md).
+A Visibilidade do Estoque garante que você tenha acesso às quantidades de estoque mais atualizadas em todas as horas, em todos os canais, locais e depósitos. Você se beneficiará mais ao usá-la para apoiar seus negócios operacionais diários sempre que precisar obter registros de estoque. O estoque físico disponível, as quantidades vendidas e as quantidades compradas estão todas disponíveis de imediato. Você também pode configurar outras medidas de estoque físico (como retorno, quarentena e dados lançados) conforme necessário, para obter esses detalhes em tempo real. A Visibilidade do Estoque pode processar eficientemente milhões de postagens de alterações de estoque. Esses dados podem ser agregados e refletidos nas últimas quantidades de estoque no serviço imediatamente, por segundo ou por minuto, dependendo do intervalo em que os dados são lançados. Para obter mais informações, consulte [APIs públicas de Visibilidade de Estoque](inventory-visibility-api.md).
 
-## <a name="soft-reservations"></a>Reservas flexíveis
+### <a name="soft-reservation-to-avoid-overselling-across-all-order-channels"></a>Reserva flexível para evitar a venda em todos os canais de ordem
 
-A reserva flexível é aplicada quando uma empresa deve reservar uma quantidade específica de produtos para dar suporte, por exemplo, ao atendimento de ordens de venda de modo a evitar vendas excessivas. Quando uma ordem de venda é criada e confirmada no Supply Chain Management ou em outros sistemas de gerenciamento de ordens, uma solicitação para reservar a quantidade é enviada ao Visibilidade de Estoque. O Visibilidade de Estoque permite que você reserve produtos com detalhes de dimensão e tipos de transação de estoque específicos. (Para obter mais informações, consulte [Aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md).) Depois que a quantidade for reservada com êxito, uma ID de reserva será retornada. Você pode usar essa ID de reserva para vincular de volta ao solicitação original no Supply Chain Management ou outros sistemas de gerenciamento de ordens.
+Uma *reserva flexível* permite que você atribua ou sinalize quantidades específicas para preencher uma ordem ou demanda. Uma reserva temporária não afeta o estoque físico, mas deduz da quantidade de estoque *disponível para reserva* e fornece uma quantidade atualizada para atendimento de ordens futuras. Esse recurso será útil se as solicitações de venda ou ordens forem feitas na sua empresa a partir de um ou mais canais ou fontes de dados que estão fora do sistema de registro de recursos empresariais (ERP).
 
-A funcionalidade é projetada para que uma reserva no Visibilidade de Estoque não altere a quantidade total. Em vez disso, ele sinaliza apenas a quantidade reservada. (Por esse motivo, é chamado de *reserva flexível*.) A quantidade reserva flexível pode ser compensada quando os produtos são consumidos no Supply Chain Management ou em um sistema de terceiros, chamando a API novamente para fazer uma dedução de quantidade e atualizar a quantidade total no Visibilidade de Estoque. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md).
+Se você não usar reservas flexíveis no serviço de Visibilidade de Estoque, você deve aguardar até que a ordem seja sincronizada e processada pelo sistema ERP para obter uma atualização de quantidade de estoque físico. Esse processo normalmente tem grande latência. No entanto, as reservas flexíveis terão efeito imediato toda vez que uma solicitação ou ordem de venda for gerada nos canais de venda. Portanto, elas ajudam a prevenir situações de venda a mais garantindo que suas ordens de omnicanal não interfiram entre si quando chegarem ao sistema ERP. As reservas flexíveis também garantem que você possa atender a todas as ordens que você prometeu. Portanto, elas ajudam a atender a expectativas do cliente e a manter a lealdade do cliente. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md).
+
+### <a name="immediate-response-of-atp-dates-confirmation"></a>Resposta imediata da confirmação de datas de ATP
+
+A visibilidade do estoque projetada futura (incluindo o fornecimento, a demanda e os detalhes disponíveis projetados) é importante, pois ajuda sua empresa a atingir os seguintes objetivos:
+
+- Minimizar os níveis de estoque para reduzir os custos de gerenciamento de estoque.
+- Facilitar o processamento interno de ordens, para que os vendedores possam calcular as datas de remessa e entrega, com base na disponibilidade dos produtos pedidos.
+- Fornecer transparência sobre quando os clientes podem esperar que um item de indisponibilidade de estoque fique disponível, fornecendo a próxima data disponível.
+
+O recurso ATP é fácil de adotar no seu processo diário de preenchimento de ordens. O mais importante, como outras ofertas de Visibilidade de Estoque, o recurso ATP é *global e em tempo real*. Portanto, você pode configurar várias fórmulas de cálculo de ATP para ter consultas de disponibilidade de estoque completo que abranjam todos os canais de negócios e fontes de dados. Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md).
+
+### <a name="compatibility-with-advanced-warehouse-management-items"></a>Compatibilidade com itens de gerenciamento de depósito avançado
+
+A Microsoft pretende fornecer integração pronta com o WHS (Advanced Warehouse Management), de forma que os clientes de WHS também possam desfrutar das vantagens do serviço de Visibilidade de Estoque. De acordo com a versão 2022 do Wave 1 (demonstração pública em março), o serviço de estoque oferece suporte a consultas disponíveis do item de WHS e ATP. O recurso de reserva e alocação flexível terá suporte para clientes de WHS no próximo ciclo. <!-- KFM: Add this link when target is published: For more information, see [Inventory Visibility support for WHS items](inventory-visibility-whs-support.md). -->
+
+## <a name="licensing"></a>Licenciamento
+
+O serviço de Visibilidade de Estoque está disponível nas seguintes versões:
+
+- **Suplemento de Visibilidade de Estoque para o Microsoft Dynamics 365 Supply Chain Management** – para as empresas que têm uma licença do Supply Chain Management válida, a Visibilidade do Estoque está disponível sem custo de licença extra. Você pode começar a experimentá-lo hoje. Para obter detalhes de instalação, consulte [Instalar e configurar a Visibilidade do Estoque](inventory-visibility-setup.md).
+- **Serviço de Visibilidade de Estoque como um componente de IOM** – Esta versão é para clientes do Intelligent Order Management (IOM) ou empresas que não estão usando o Supply Chain Management como seu sistema ERP. A licença está incluída no grupo de IOM. Para obter mais informações, consulte [Visão geral do Intelligent Order Management](/dynamics365/intelligent-order-management/overview).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

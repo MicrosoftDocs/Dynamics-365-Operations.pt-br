@@ -2,25 +2,27 @@
 title: Visão geral dos relatórios financeiros
 description: Este tópico descreve onde acessar relatórios financeiros no Microsoft Dynamics 365 Finance e como usar os recursos de relatório financeiro.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983968"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527303"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introdução aos Relatórios financeiros 
 
@@ -174,7 +176,7 @@ Problema 1: o Designer de Relatórios não inicia quando você seleciona **Novo*
 * No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**, clique em Sites Confiáveis e selecione **Sites**. Em **Adicionar este site à zona**, insira "\*\.dynamics.com" (sem aspas) e selecione **Adicionar**. 
 * No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**. Selecione Sites Confiáveis. Na área Nível de segurança desta zona, mude a opção para **Médio-baixo**.
 * Desabilite o bloqueador de pop-up no navegador.
-* As estações de trabalho devem instalar o Microsoft .NET Framework 4.6.2 ou posterior. Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* As estações de trabalho devem instalar o Microsoft .NET Framework 4.7.2 ou posterior. Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * Se você estiver usando o navegador Chrome, deverá instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo incógnito do Chrome, verifique se a extensão de ClickOnce está habilitada para modo incógnito. Para obter mais informações sobre a Extensão ClickOnce do Chrome, consulte [Requisitos de sistema para implantações na nuvem](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Se você estiver usando o Microsoft Edge com um navegador Chrome, não será necessário instalar uma extensão ClickOnce para o Edge Chromium. No entanto, você deve habilitar a opção ClickOnce a fim de baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062102"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524455"
 ---
 # <a name="inventory-visibility-public-apis"></a>APIs públicas de Visibilidade de Estoque
 
@@ -41,15 +41,17 @@ A tabela a seguir lista as APIs disponíveis no momento:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Lançar | [Definir/substituir quantidades disponíveis](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Lançar | [Criar um evento de reserva](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Lançar | [Criar vários eventos de reserva](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/on-hand/changeschedule | Lançar | [Criar um alteração disponível programada](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Lançar | [Criar várias alterações disponíveis programadas](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Lançar | [Consultar usando o método post](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Obter | [Consultar usando o método get](#query-with-get-method) |
-
-A Microsoft forneceu uma coleção de solicitações do *Postman* pronta para uso. Você pode importar essa coleção para o seu software *Postman* usando o seguinte link compartilhado: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > A parte {environmentId} do caminho é a ID do ambiente em Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > A API em massa pode retornar um máximo de 512 registros para cada solicitação.
+
+A Microsoft forneceu uma coleção de solicitações do *Postman* pronta para uso. Você pode importar essa coleção para o seu software *Postman* usando o seguinte link compartilhado: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Localizar o ponto de extremidade de acordo com o seu ambiente do Lifecycle Services
 
@@ -517,6 +519,9 @@ O parâmetro `groupByValues` deve seguir a configuração para indexação. Para
 
 O parâmetro `returnNegative` controla se os resultados contêm entradas negativas.
 
+> [!NOTE]
+> Se você tiver habilitado o plano de alteração disponível e os recursos disponíveis para a promessa (ATP), a consulta também poderá incluir o parâmetro `QueryATP` booliano, que controla se os resultados da consulta incluirão informações de ATP. Para obter mais informações e exemplos, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md).
+
 O exemplo a seguir mostra o conteúdo do corpo de exemplo.
 
 ```json
@@ -572,5 +577,9 @@ Este é um exemplo de obtenção de URL. Essa solicitação get é exatamente ig
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>Disponível para promessa
+
+É possível configurar a Visibilidade do Estoque para permitir que você agende alterações futuras disponíveis e calcule as quantidades do ATP. ATP é a quantidade de um item que está disponível e pode ser prometida a um cliente no próximo período. O uso do cálculo do ATP pode aumentar bastante o recurso de preenchimento de seu pedido. Para obter informações sobre como habilitar esse recurso e como interagir com a Visibilidade do Estoque por meio de sua API após a habilitação do recurso, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

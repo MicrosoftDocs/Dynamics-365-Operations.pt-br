@@ -1,23 +1,23 @@
 ---
 title: Recursos removidos ou obsoletos do Dynamics 365 Finance
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Finance.
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890944"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466824"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou obsoletos do Dynamics 365 Finance
 
@@ -31,7 +31,21 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 > [!NOTE]
-> Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+> Informações detalhadas sobre objetos em aplicativos de Finanças e Operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de Finanças e Operações.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Recursos removidos ou substituídos na versão 10.0.26 do Finance
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>Relatório de impostos para a Finlândia (design baseado em códigos de relatório)
+
+[Relatório de impostos para a Finlândia](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para a Finlândia](../localizations/emea-fin-vat-declaration.md). |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Aplicativo |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Preterido: até 1º de dezembro de 2023, planejamos não oferecer mais suporte ao relatório de impostos para a Finlândia (layout de relatório finlandês). Os novos formatos de Relatório Eletrônico (ER) **Declaração de IVA em TXT (FI**) e **Declaração de IVA em Excel (FI)** foram introduzidos no modelo **Declaração de imposto**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Recursos removidos ou substituídos na versão 10.0.24 do Finance
 

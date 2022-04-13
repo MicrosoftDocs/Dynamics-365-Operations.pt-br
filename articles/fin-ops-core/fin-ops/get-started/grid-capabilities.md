@@ -2,7 +2,7 @@
 title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. É necessário habilitar o novo recurso de grade para ter acesso a esses recursos.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 81577f54bd7fdc7d683c760dd4410f27da8ee1f0
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384407"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462782"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -151,7 +151,7 @@ Como no Excel, os usuários podem forçar o redimensionamento automático de uma
 
 O recurso **Novo controle de grade** está disponível diretamente em Gerenciamento de recursos em qualquer ambiente. Após habilitar o recurso no gerenciamento de recursos, todas as sessões de usuário subsequentes usarão o novo controle de grade. 
 
-Esse recurso é habilitado por padrão a partir da versão 10.0.21 e deve ser obrigatório na versão 10.0.25. 
+Esse recurso é habilitado por padrão a partir da versão 10.0.21 e deve ser obrigatório em outubro de 2022.  
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desenvolvedor] Impedir que páginas individuais use a nova grade 
 Se a sua organização descobre uma página que tem algumas questões usando a nova grade, uma API está disponível para permitir que um formulário individual use o controle de grade herdado enquanto ainda permite que o restante do sistema utilize o novo controle de grade. Para recusar uma página individual da nova grade, adicione a seguinte postagem de chamada `super()` no método do formulário `run()`.

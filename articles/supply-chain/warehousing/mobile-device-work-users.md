@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902088"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462660"
 ---
 # <a name="mobile-device-user-accounts"></a>Contas de usuário do dispositivo móvel
 
@@ -90,8 +90,8 @@ Quando um trabalhador entra no aplicativo móvel Warehouse Management, o idioma,
 1. No Painel de Ações, selecione **Opções do usuário**.
 1. Na guia **Preferências**, defina os seguintes campos:
 
-    - **Idioma** — selecione o idioma de preferência do trabalhador. Este campo também controla o formato de data mostrado no aplicativo de depósito.
-    - **Formato de data, hora e número** — selecione o idioma que determinará os formatos de número mostrados no aplicativo de depósito. Observe que os formatos de data e hora mostrados no aplicativo de depósito são, na verdade, determinados pelo campo **Idioma**, e não por este campo.
+    - **Idioma** — selecione o idioma de preferência do trabalhador. Este campo também controla o formato de número mostrado no aplicativo de depósito.
+    - **Formato de data, hora e número** – selecione o formato de data e hora que o trabalhador prefere. O aplicativo de depósito usa o formato de número associado ao idioma escolhido para o campo **Idioma**, e não esta configuração.
     - **Fuso horário** — selecione o fuso horário no qual o trabalhador trabalha. Este campo afeta o carimbo de data/hora de todos os registros que o trabalhador faz usando o aplicativo.
 
 > [!NOTE]

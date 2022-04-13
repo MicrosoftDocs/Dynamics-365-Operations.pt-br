@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984560"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487759"
 ---
 # <a name="e-commerce-site-overview"></a>Visão geral do site de comércio eletrônico
 
@@ -86,7 +86,7 @@ Os sites **padrão** e **fabrikam** incluem modelos, fragmentos e páginas pré-
 Para obter informações sobre como gerenciar configurações de sites, consulte os seguintes tópicos:
 
 - [Gerenciar usuários e funções de comércio eletrônico](manage-ecommerce-users-roles.md)
-- [Considerações de otimização do mecanismo de pesquisa (SEO) para seu site](/search-engine-optimization-considerations.md)
+- [Considerações de otimização do mecanismo de pesquisa (SEO) para seu site](search-engine-optimization-considerations.md)
 - [Gerenciar a Política de Segurança de Conteúdo (CSP)](manage-csp.md)
 - [Selecionar um tema de site](select-site-theme.md)
 

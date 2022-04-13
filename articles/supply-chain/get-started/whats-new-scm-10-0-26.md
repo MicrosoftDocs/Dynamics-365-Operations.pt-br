@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: fae25eb1cb9dd4059b9d49e47cbb0060e717c9bc
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8386990"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524427"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.26 (maio de 2022)
 
@@ -35,7 +35,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---|---|---|---|
 | Estoque e logística | [Consulta disponível de visibilidade de estoque para suporte a itens de gerenciamento de depósito avançado](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Em breve | Gerenciamento de recursos:<br>*Habilitar itens de depósito em Visibilidade de Estoque* |
-| Estoque e logística | [Disponível para promessa do suplemento de visibilidade de estoque](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | Em breve | Habilitado por configuração de serviço |
+| Estoque e logística | [Disponível para promessa do suplemento de visibilidade de estoque](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Agendas de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](../inventory/inventory-visibility-available-to-promise.md) | Habilitado por configuração de serviço |
 | Fabricação | [Itens de peso variável para a interface de execução do piso de produção](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*(Versão preliminar) Relatório de itens de peso variável da interface de execução do piso de produção* |
 | Fabricação | Guia Meus trabalhos na interface de execução de piso de produção <!-- KFM: Add link to release plan when available --> | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*Guia Meus trabalhos na interface de execução de piso de produção* |
 

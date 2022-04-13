@@ -1,7 +1,7 @@
 ---
 title: ​Monitorar precisão da previsão​
 description: Este tópico descreve os tipos de precisão de previsão calculados pelo Dynamics 365 Supply Chain Management e explica como é possível exibir os valores de precisão.
-author: ChristianRytt
+author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 72863
 ms.assetid: 810a0d63-f4c6-4167-b2b3-a178b74ead89
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4246a277aa5d88193c18336cb1de69916ec2a3c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 14d23ae800240ebb10ae085acf3ed981a22f1574
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565774"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470279"
 ---
 # <a name="monitor-forecast-accuracy"></a>​Monitorar precisão da previsão​
 

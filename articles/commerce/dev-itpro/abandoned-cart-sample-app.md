@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82848f1ff068cea0adfc6ec1b33fc4bb035f78dc
-ms.sourcegitcommit: 374bbdde90fc9a68c0799158a50409bfbe8ca64e
+ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353354"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489021"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Detectar carrinhos abandonados e enviar notificações aos clientes
 
@@ -127,7 +127,7 @@ Para configurar o aplicativo de exemplo do conector de carrinho abandonado, modi
 
 ### <a name="azurecosmosoptions"></a>AzureCosmosOptions
 
-O status do trabalho de recuperação do carrinho abandonado, as IDs do carrinho e os carimbos de data/hora modificados são armazenados no Azure Cosmos DB. Por padrão, as configurações no arquivo de configuração apontam para a instância do emulador local do Azure Cosmos DB. Ao implantar o conector na produção, é necessário atualizar essas configurações para que elas apontem para a instância do Azure Cosmos DB na sua assinatura do Azure. Para testes locais ou de área restrita, você pode usar o [Azure Cosmos Emulator](/azure/cosmos-db/local-emulator).
+O status do trabalho de recuperação do carrinho abandonado, as IDs do carrinho e os carimbos de data/hora modificados são armazenados no Azure Cosmos DB. Por padrão, as configurações no arquivo de configuração apontam para a instância do emulador local do Azure Cosmos DB. Ao implantar o conector na produção, é necessário atualizar essas configurações para que elas apontem para a instância do Azure Cosmos DB na sua assinatura do Azure. Para testes locais ou de área restrita, você pode usar o [Azure Cosmos DB Emulator](/azure/cosmos-db/local-emulator).
 
 | Propriedade    | Descrição |
 | ----------- | ----------- |

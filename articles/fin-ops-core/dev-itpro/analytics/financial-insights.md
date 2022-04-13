@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416296"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464899"
 ---
 # <a name="financial-analysis"></a>Análise financeira
 
@@ -38,7 +38,7 @@ A **Análise financeira** combina dados da contabilidade e dos razões auxiliare
 
 O espaço de trabalho **Análise financeira** se concentra em permitir que você exiba e filtre os dados em relatórios existentes. Você poderá adicionar novos recursos visuais ao espaço de trabalho **Análise financeira**. O espaço de trabalho **Análise financeira** está disponível para a empresa atual, bem como para todas as empresas para mostrar os dados de todas as entidades legais, independentemente das entidades legais às quais a função tem acesso.
 
-- [Adicionar ou editar visualizações do Power BI no painel](/powerapps-docs/user/add-powerbi-dashboards.md)
+- [Adicionar ou editar visualizações do Power BI no painel](/powerapps/user/add-powerbi-dashboards)
 
 ## <a name="dynamics-365-finance-setup"></a>Configuração do Dynamics 365 Finance
 **Contabilidade**

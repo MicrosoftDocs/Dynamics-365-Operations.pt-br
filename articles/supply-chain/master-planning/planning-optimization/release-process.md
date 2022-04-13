@@ -1,21 +1,21 @@
 ---
 title: Processo de liberação e histórico de versões da Otimização de Planejamento
 description: Este tópico fornece informações sobre o processo de liberação e o histórico de versões da Otimização de Planejamento.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407835"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469691"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processo de liberação e histórico de versões da Otimização de Planejamento
 
@@ -33,7 +33,7 @@ Como as notificações não são mostradas quando a Otimização do Planejamento
 
 | Alterações | Detalhes do gerenciamento de recursos | Datas de liberação |
 |---|---|---|
-| <p>Melhorias gerais de desempenho, qualidade e estabilidade.<p>Manutenção centralizada do calendário para otimização de planejamento<p>Planejando sugestões de otimização para otimizar fornecimento existente | O gerenciamento de recursos não é necessário. | 7 a 11 de março de 2022 |
+| <p>Melhorias gerais de desempenho, qualidade e estabilidade.<p>[Manutenção centralizada do calendário para otimização de planejamento](../supply-chain-calendars-master-planning.md)<p>[Planejando sugestões de otimização para otimizar fornecimento existente](../action-messages.md)<p>[Suporte para otimização de planejamento de subcontratação](../../production-control/manage-subcontract-work-production.md) | O gerenciamento de recursos não é necessário. | 7 a 11 de março de 2022 |
 | <p>Suporte a prioridades de planejamento adicionado para ordens de produção. | Disponível com a versão 10.0.25 como parte do recurso denominado *Suporte ao MRP baseado em prioridade para a Otimização de Planejamento*. | 12-18 de novembro de 2021 |
 | <p>Melhorias gerais de desempenho, qualidade e estabilidade. | O gerenciamento de recursos não é necessário. | 12-18 de novembro de 2021 |
 | <p>Suporte adicionado para fórmulas de cálculo do tempo de processamento, roteiro de produção com sobreposição e número da operação de produção em transações de requisito.</p><p>Mensagens de erro avançadas para o plano de produção relacionado a tempo limite, capacidade não encontrada e roteiro cíclico.</p><p>Maior consistência ao calcular datas de recebimento e datas de emissão em ordens planejadas e ordens confirmadas.</p><p>Melhorias gerais de desempenho, qualidade e estabilidade. | Nome do recurso: *Agendamento da capacidade infinita para a Otimização do Planejamento* | 22 a 27 de outubro de 2021 |

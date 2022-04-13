@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 663b7d3162af6d385bc9c445b1e98cf5f74a1471
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 19aadf844f239ef06ca4d9dbe60b597228d72e52
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105555"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470083"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -37,38 +37,28 @@ Atualizações regulatórias que são liberadas como parte da atualização mens
 
 Para obter informações sobre os planos de atualizações regulatórias mais recentes, consulte a tabela a seguir.   
 
-|País/Região|Data da liberação|Versão de lançamento|Atualização regulatória|
+|País/região|Data da liberação|Versão de lançamento|Atualização regulatória|
 |--------------------|---------------|-------|-------| 
-|      Áustria         |   Agosto de 2021      | 10.0.22      |   Declaração de IVA em XML e visualização no Excel   |
-|      Áustria         |   2021 de setembro      | 10.0.22HF      |   O formato Intrastat será atualizado a partir de 2022 – País de origem e ID do IVA de parceiro se tornam obrigatórios em expedições   |
-|      Bélgica        |   2021 de outubro      | 10.0.22HF     |   Os códigos de transação Intrastat serão alterados para 2 dígitos a partir de 2022  |
-|      Brasil         |   Agosto de 2021      | 10.0.22      |   NF-e NT2020.006  - Identificação do intermediário de plataforma digital (atualizações de regras de validação e layout)   |
-|      Brasil         |   2021 de dezembro         | 10.0.22, 10.0.23, 10.0.24         |    Layout do SPED Fiscal de 2022  |
-|      República Tcheca         |   2021 de outubro         | 10.0.23HF         |     O formato Intrastat será atualizado a partir de 2022 – País de origem e ID do IVA de parceiro se tornam obrigatórios em expedições  |
-|      Dinamarca         |   2021 de dezembro         | 10.0.22HF         |    O formato Intrastat será atualizado a partir de 2022  |
-|      Estônia         |   2021 de dezembro      | 10.0.22HF      |   O formato Intrastat será atualizado a partir de 2022 – País de origem e ID do IVA de parceiro se tornam obrigatórios em expedições  |
-|      Finlândia         |   Novembro de 2021         | 10.0.22HF         |    O formato Intrastat será atualizado a partir de 2022.  |
-|      Alemanha        |   Agosto de 2021       | 10.0.22HF      |   O formato INSTAT XML será atualizado a partir de 2022. O formato Intrastat TXT não será aplicável a partir de 01.07.2021  |
-|      Alemanha        |   2021 de outubro       | 10.0.23      |   A declaração de IVA em XML e a visualização no Excel (novo design com valores na moeda do código de imposto, em funcionamento pronto para uso com recurso de encargos revertidos, podem ser executadas em entidades legais não relacionadas a DE e podem coletar transações de imposto de várias entidades legais)  |
-|      Itália         |   Novembro de 2021         | 10.0.22HF, 10.0.23HF, 10.0.24         |    Faturamento eletrônico para transações internacionais  |
-|      México         |   Novembro de 2021      | 10.0.22      |   Conjunto de Carta de Porte em documentos de CFDI   |
+|      Brasil         |   2021 de dezembro         | 10.0.24, 10.0.25         |    Layout do SPED Fiscal de 2022  |
+|      Brasil         |   2022 de março    | 10.0.24HF, 10.0.25HF         |    Recolhimento de ICMS-DIFAL em operações direcionadas a contribuintes não tributáveis (Lei complementar nº 190/22)  |
+|      Dinamarca         |   2022 de janeiro  | 10.0.25HF         |    Visualização da declaração de IVA no Excel |
+|      França   |   Novembro de 2021 | 10.0.25         |    Exportação de arquivamento de dados da França (FEC) – anexo "Justificativa de números ausentes" |
+|      Itália         |   Novembro de 2021         | 10.0.24         |    Faturamento eletrônico para transações internacionais  |
+|      Itália         |   2022 de fevereiro | 10.0.24HF, 10.0.25HF| Certificação exclusiva – 2022 no Dynamics 365 Finance  |
+|      Lituânia|   2022 de fevereiro | 10.0.24HF, 10.0.25HF | Alterações no i.SAF em 01-01-2022 no Dynamics 365 Finance  |
 |      México         |   2021 de dezembro      | 10.0.24      |   Complemento de Carta de Porte versão 2.0  |
-|      Países Baixos        |   2021 de outubro      | 10.0.22HF      |   Códigos de transação de dois dígitos no formato de arquivo Intrastat de 2022  |
-|      Nova Zelândia         |   Agosto de 2021      | 10.0.22    |   Formulário GST101A para declaração GST  |
 |      Noruega        |   Novembro de 2021      | 10.0.24      |   Formato de declaração de IVA de 2022 com envio direto – Dynamics 365 Finance |
-|      Omã         |   Agosto de 2021      | 10.0.22      |   Declaração de IVA – Versão 1 |
-|      Polônia          |   2021 de outubro     | 10.0.23, 10.0.24     |   JPK_V7M – Nova versão do esquema de janeiro de 2022 |
+|      Polônia          |   2021 de outubro     | 10.0.24     |   JPK_V7M – Nova versão do esquema de janeiro de 2022 |
 |      Polônia          |   Novembro de 2021     | 10.0.24HF     |   Relatório anual nas datas de pagamento em transações comerciais |
 |      Polônia          |   2021 de outubro     | 10.0.24     |   Formato eletrônico da lista de vendas da UE (IVA-UE) |
-|      Rússia          |   2021 de outubro     | 10.0.22HF, 10.0.23, 10.0.24    |   Alterações em vendas, registros de compra e diários de faturas|
+|      Rússia          |   2021 de outubro     | 10.0.24    |   Alterações em vendas, registros de compra e diários de faturas|
 |      Rússia          |   2021 de outubro     | 10.0.24HF    |   Alteração nos formatos de declaração de IVA com apêndices|
 |      Rússia          |   Novembro de 2021     | 10.0.24    |   Padrões Federais de Contabilidade 6/2020 (ativos fixos)|
-|      Arábia Saudita          |   Novembro de 2021     | 10.0.22HF, 10.0.23    |   Geração de faturamento eletrônico na Arábia Saudita – Fase 1|
-|      Arábia Saudita          |   Novembro de 2021     | 10.0.22HF, 10.0.23HF, 10.0.24    |   Varejo – Faturamento eletrônico na Arábia Saudita – Fase 1|
-|      Espanha          |   2021 de outubro     | 10.0.23    |    Modelo 303 de declaração de IVA em TXT e visualização no Excel|
-|      Espanha          |   2021 de setembro     | 10.0.22    |    O formato Intrastat será atualizado para relatórios de 2022 – País de origem e ID do IVA de parceiro serão obrigatórios em expedições|
-|      Suécia          |   2021 de outubro     | 10.0.22HF    |    O formato Intrastat será atualizado a partir de 2022 – País de origem e ID do IVA de parceiro se tornam obrigatórios em expedições. Serão usados códigos de transação de dois dígitos.|
-|      Reino Unido          |   Agosto de 2021     | 10.0.22    |    Reino Unido – Prevenção de fraudes MTD de 2021)|
+|      Rússia          |   2022 de janeiro     | 10.0.24HF, 10.0.25    |   Habilitar o destino de Relatório Eletrônico (ER) para armazenar documentos contábeis em Russo (documentos principais e relatórios contábeis)|
+|      Rússia          |   2021 de dezembro     | 10.0.25    |   Integração do módulo de Ativos fixos (Rússia) com o módulo de Gerenciamento de ativos|
+|      Rússia          |   2022 de fevereiro     | 10.0.24HF, 10.0.25    |  Novo formato de fatura de transporte (Decreto Governamental N 2116 30.11.2021)|
+|      Arábia Saudita          |   Novembro de 2021     | 10.0.24    |   Varejo – Faturamento eletrônico na Arábia Saudita – Fase 1|
+|      Espanha      |   2022 de março| 10.0.24HF, 10.0.25HF | Espanha: alterações no modelo de declaração de IVA 303 em 1º de janeiro de 2022 no Dynamics 365 Finance|
 
 
 
