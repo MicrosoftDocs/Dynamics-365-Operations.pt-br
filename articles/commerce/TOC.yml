@@ -199,7 +199,7 @@
                 - name: Arquitetura para aplicativos de Finanças e Operações
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Microsoft FastTrack
-                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                  href: /dynamics365/fasttrack/
                 - name: Integrar um projeto de implementação
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
                 - name: Planejamento de ambiente
@@ -1548,7 +1548,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
                     - name: Atualizar o Agente de Roteamento de Documentos
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
-                    - name: Instalar dispositivos da impressora de rede em ambientes locais
+                    - name: Instalar dispositivos de impressora de rede em ambientes locais
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
                     - name: 'Geração, publicação e impressão de documentos em implantações locais'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/commerce/toc.json
@@ -2257,7 +2257,7 @@
                 - name: Controle de custo
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Gerenciamento de despesas
-                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: Estoque disponível
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Aprovações de fatura
@@ -2265,11 +2265,11 @@
                 - name: Minha equipe
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Visão geral de aplicativos móveis do Project
-                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: Entrada de hora do projeto
-                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: Project Timesheet
-                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: Aprovação de ordem de compra
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Ordens de venda

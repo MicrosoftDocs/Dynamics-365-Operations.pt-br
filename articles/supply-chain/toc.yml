@@ -887,7 +887,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Atualizar o Agente de Roteamento de Documentos
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Instalar dispositivos da impressora de rede em ambientes locais
+                    - name: Instalar dispositivos de impressora de rede em ambientes locais
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Geração, publicação e impressão de documentos em implantações locais'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/supply-chain/toc.json
@@ -1697,23 +1697,25 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: Arquivar transações de estoque
               href: inventory/archive-inventory-transactions.md
-            - name: Suplemento de Visibilidade de Estoque
+            - name: Suplemento Inventory Visibility
               items:
-                - name: Visão geral do Suplemento de Visibilidade de Estoque
+                - name: Visão geral do Suplemento Inventory Visibility
                   href: inventory/inventory-visibility.md
-                - name: Instalar e configurar Visibilidade de Estoque
+                - name: Instalar e configurar Inventory Visibility
                   href: inventory/inventory-visibility-setup.md
-                - name: Configurar Visibilidade de Estoque
+                - name: Configurar Inventory Visibility
                   href: inventory/inventory-visibility-configuration.md
-                - name: Usar o aplicativo de Visibilidade de Estoque
+                - name: Suporte ao Inventory Visibility para itens de WHS
+                  href: inventory/inventory-visibility-whs-support.md
+                - name: Usar o aplicativo Inventory Visibility
                   href: inventory/inventory-visibility-power-platform.md
-                - name: Reservas de Visibilidade de Estoque
+                - name: Reservas do Inventory Visibility
                   href: inventory/inventory-visibility-reservations.md
-                - name: Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque
+                - name: Agenda de alterações à mão e disponível para promessa do Inventory Visibility
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: APIs públicas de Visibilidade de Estoque
+                - name: APIs públicas do Inventory Visibility
                   href: inventory/inventory-visibility-api.md
-                - name: Dicas de Visibilidade de Estoque
+                - name: Dicas do Inventory Visibility
                   href: inventory/inventory-visibility-tips.md
         - name: Inteligência da IoT
           items:
@@ -2927,13 +2929,13 @@
               href: sales-marketing/trade-allowance.md
             - name: Criar um contrato comercial
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Melhorias no desempenho de limpeza do histórico de vendas
+            - name: Agendar limpeza de dados de histórico de vendas
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Gerenciamento de serviços
           items:
             - name: Visão geral de gerenciamento de serviços
               href: service-management/service-management-home-page.md
-            - name: Configurar o atendimento ao cliente
+            - name: Configurar o SAC
               items:
                 - name: Configurar contratos de serviço
                   items:

@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Atualizações de plataforma para a versão 10.0.25 (abril de 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: Atualizações de plataforma para a versão 10.0.24 (fevereiro de 2022)
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -392,10 +390,12 @@
                       href: user-interface/client-disconnected.md
                     - name: Configurar nós do AOS Somente em lote e Somente interativos em implantações locais
                       href: deployment/onprem-batchonly.md
-                    - name: Configurar a alta disponibilidade para os nós do SQL Server Reporting Services (SSRS)
+                    - name: Configurar a alta disponibilidade para os nós do SSRS (SQL Server Reporting Services)
                       href: deployment/onprem-SSRSHA.md
                     - name: Configurar proxies para ambientes locais
                       href: deployment/onprem-reverseproxy.md
+                    - name: Instalar dispositivos de impressora de rede em ambientes locais
+                      href: analytics/install-network-printer-onprem.md
                     - name: Diagnósticos locais
                       href: deployment/on-premises-diagnostics.md
                     - name: Configuração de recuperação de desastre local
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: Perguntas frequentes sobre desenvolvimento e compilação de VMs que não permitem o acesso do administrador
                   href: sysadmin/VMs-no-admin-access.md
+                - name: Configurar o VHD que pode ser baixado para primeiro uso
+                  href: dev-tools/vhd-setup.md
                 - name: Renomear ambientes locais para acessar o Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: Requisitos do sistema de desenvolvimento
@@ -1028,9 +1030,11 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: Extensão do Azure DevOps (versão preliminar pública)
                   href: lifecycle-services/dts-devops-extension.md
+                - name: Tutorial da extensão do Azure DevOps (versão preliminar pública)
+                  href: lifecycle-services/dts-ado-tutorial.md
         - name: Integração do Microsoft Power Platform
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: power-platform/overview.md
             - name: Habilitando a integração do Power Platform
               href: power-platform/enable-power-platform-integration.md
@@ -1504,8 +1508,10 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: Testes independentes de dados usando a Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Executar a ferramenta Regression Suite Automation Tool (RSAT) com execução paralela
+            - name: Executar a ferramenta RSAT (Regression Suite Automation Tool) com execução paralela
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: Integrar RSAT com pipelines do Azure DevOps
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: Solução de problemas
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Liberar soluções usando o Lifecycle Services
@@ -1986,7 +1992,7 @@
                   href: user-interface/task-recorder.md
                 - name: Referência rápida do Gravador de Tarefas
                   href: user-interface/task-recorder-quick-reference.md
-                - name: Criar documentação ou treinamento por gravações de tarefas
+                - name: Criar documentação ou treinamento por meio de gravações de tarefas
                   href: user-interface/task-recorder-training-docs.md
     - name: Dynamics 365 Supply Chain Management
       href: ../../supply-chain/index.md

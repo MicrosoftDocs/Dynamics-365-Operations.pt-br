@@ -6,7 +6,7 @@
           href: index.md
         - name: Novidades ou alterações
           items:
-            - name: Novidades ou alterações nos aplicativos de Finanças e Operações
+            - name: Novidades ou alterações nos aplicativos de finanças e operações
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Novidades ou alterações no Finance
               items:
@@ -16,13 +16,11 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (abril)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (fevereiro)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Recursos removidos ou preteridos do Dynamics 365 Finance
+                - name: Recursos removidos ou preteridos no Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Recursos removidos ou preteridos em versões anteriores
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Copiar uma agenda de cobrança
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Recursos de agenda de cobrança
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Cobrança por etapa
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Processo de suporte e renovação
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: Agendas de índice de preço ao consumidor
+                      href: accounts-receivable/cpischedules.md
                     - name: Encerrar agendas de cobrança
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: Adiamentos de receita e despesa
-                  items: null
+                  items:
+                    - name: Configurar adiamentos de receita e despesa
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: Agendas de adiamento
+                      items:
+                        - name: Criar cronogramas de adiamento
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: Transações padrão de adiamento
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: Alocação de receita de vários elementos
-                  items: null
+                  items:
+                    - name: Configurar alocação de receita de vários elementos
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Pagamentos e liquidações
               items:
                 - name: Visão geral de pagamentos de cliente
@@ -922,6 +936,8 @@
               items:
                 - name: Planejar seu plano de contas
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Planejar seu plano de contas local
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Contas principais
                   items:
                     - name: Tipos de conta principal
@@ -2286,7 +2302,7 @@
                       href: localizations/emea-fra-fec-audit-file-pre-requisites.md
                     - name: Estrutura de fontes de dados do Finance para o FEC
                       href: localizations/emea-fra-fec-audit-file-structure.md
-                    - name: Prepare seu ambiente para gerar um FEC
+                    - name: Preparar seu ambiente para gerar um FEC
                       href: localizations/emea-fra-fec-audit-file-setup.md
                     - name: Gerar um FEC no Dynamics 365 Finance
                       href: localizations/emea-fra-fec-audit-file-generation.md
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: Versão 3.3 do CFDI
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: Versão 4.0 do CFDI
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: IDs de registro do cliente e outras informações
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: Demonstrativo de declaração DIOT
@@ -3739,7 +3757,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/finance/toc.json
                     - name: Atualizar o Agente de Roteamento de Documentos
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/finance/toc.json
-                    - name: Instalar dispositivos da impressora de rede em ambientes locais
+                    - name: Instalar dispositivos de impressora de rede em ambientes locais
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/finance/toc.json
                     - name: 'Geração, publicação e impressão de documentos em implantações locais'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/finance/toc.json
