@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 03ed2d52f44bd38910b01ffbd3767f750da2cbf8
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: f0f1830c9f667d617b8aae28e61a8e541b17c77f
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920564"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570315"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management versão 10.0.19 (junho de 2021)
 
@@ -50,7 +50,7 @@ A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. 
 
 | Módulo | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
 |---|---|---|
-| Vendas e marketing | Melhorias no desempenho da limpeza do histórico de vendas | A limpeza do histórico de vendas pode demorar muito se executada com pouca frequência em ambientes com um alto volume de atualizações de vendas. Para reduzir a duração e melhorar a confiabilidade, esse recurso divide a limpeza em lotes que são executados por um período limitado. Sempre que possível, os recursos do banco de dados serão aproveitados para minimizar o bloqueio e evitar a junção de tabelas transacionais durante a limpeza. Para obter mais informações, consulte [Melhorias no desempenho da limpeza do histórico de vendas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
+| Vendas e marketing | Melhorias no desempenho da limpeza do histórico de vendas | A limpeza do histórico de vendas pode demorar muito se executada com pouca frequência em ambientes com um alto volume de atualizações de vendas. Para reduzir a duração e melhorar a confiabilidade, esse recurso divide a limpeza em lotes que são executados por um período limitado. Sempre que possível, os recursos do banco de dados serão aproveitados para minimizar o bloqueio e evitar a junção de tabelas transacionais durante a limpeza. Para obter mais informações, consulte [Agendar limpeza de dados de histórico de vendas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Vendas e marketing | Atualizar a Data de recebimento solicitada com a Data confirmada para ordens intercompanhia | Este recurso permite que você controle o que acontecerá com os valores dos campos de data de venda e compra ao usar a entrega direta entre empresas. Você pode escolher se o sistema atualizará as datas solicitadas ou ignorar a atualização. Se você ignorar a atualização, as datas solicitadas representarão o que o cliente solicitou. Se você habilitar a atualização, as datas solicitadas (ao usar o controle de data de entrega) representam apenas inicialmente o que o cliente solicitou. Quando diferente de *Nenhum*, o controle da data de entrega substituirá o que foi inicialmente solicitado. É possível definir essa opção usando a nova configuração **Atualizar a data de recebimento solicitada com a data confirmada** nas configurações do fornecedor intercompanhia ou do cliente.<br><br>Se o recurso estiver desativado, o sistema substituirá a data de recebimento solicitada nas ordens de venda originais com base na regra de controle de data de entrega, mas a data de envio solicitada permanecerá como está. |
 | Gerenciamento de depósito | Arredondar quantidades para baixo para a unidade de vendas mais próxima na liberação para o depósito | Este recurso adiciona uma opção que pode restringir as quantidades da ordem na liberação para o depósito. Quando habilitado, as quantidades da ordem serão arredondadas para baixo para a unidade de venda inteira mais próxima, e as ordens que incluem quantidades para menos de uma unidade de venda serão rejeitadas para liberação. |
 | Gerenciamento de depósito | Método de ciclo "Agendar criação de trabalho" para toda a organização | Ao habilitar este recurso, o método de ciclo *Agendar criação de trabalho* será configurado para funcionar em paralelo em todas as entidades legais. Várias configurações adicionais também serão afetadas. Para obter todos os detalhes, consulte [Agendar a criação de trabalhos durante o ciclo](../warehousing/configure-wave-schedule-work-creation.md). |
@@ -70,9 +70,9 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para os aplicativos do Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.19 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.19 dos aplicativos do Finance and Operations (junho de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.19 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.19 de aplicativos de finanças e operações (Junho de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 

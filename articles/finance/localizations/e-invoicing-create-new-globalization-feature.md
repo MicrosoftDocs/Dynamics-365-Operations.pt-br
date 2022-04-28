@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371523"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603015"
 ---
 # <a name="create-a-globalization-feature"></a>Criar um Recurso de globalização
 
@@ -47,7 +47,7 @@ Para criar um recurso de faturamento eletrônico, siga estas etapas.
 8. Na grade **Configurações**, procure e selecione as configurações de formato necessárias para o pipeline de processamento (por exemplo, para gerar arquivos de fatura eletrônica ou respostas de processo de serviços Web externos).
 9. Selecione **OK**. Agora você pode usar as configurações em ações do pipeline de processamento. Para obter mais informações, consulte [Trabalhar com configurações](e-invoicing-work-configurations.md).
 10. Para adicionar uma configuração de recurso de faturamento eletrônico, crie-a na guia **Configurações** da página **Novo recurso**. Para obter mais informações, consulte [Trabalhar com configurações de recurso](e-invoicing-feature-setup.md).
-11. Conclua a configuração e implante o recurso de faturamento eletrônico no ambiente de serviço. Para obter mais informações, consulte [Concluir, publicar e implantar um Recurso de globalização](e-invoicing-complete-publish-deploy-globalization-feature).
+11. Conclua a configuração e implante o recurso de faturamento eletrônico no ambiente de serviço. Para obter mais informações, consulte [Concluir, publicar e implantar um Recurso de globalização](e-invoicing-complete-publish-deploy-globalization-feature.md).
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>Criar configurações de formato de arquivo derivadas do modelo de fatura existente
 
@@ -91,4 +91,4 @@ As novas configurações de formato de arquivo precisa ser compartilhada com o d
     - Revise as configurações, caso você precise personalizar os formatos de ER e sua associação com mapeamentos de formato para a versão do recurso.
     - Revise a configuração caso você precise personalizar a guia **Ações**, **Regras de aplicabilidade** ou a guia **Variáveis** para a versão do recurso.
 
-9. Conclua a configuração e implante o recurso de faturamento eletrônico no ambiente de serviço. Para obter mais informações, consulte [Concluir, publicar e implantar um Recurso de globalização](e-invoicing-complete-publish-deploy-globalization-feature).
+9. Conclua a configuração e implante o recurso de faturamento eletrônico no ambiente de serviço. Para obter mais informações, consulte [Concluir, publicar e implantar um Recurso de globalização](e-invoicing-complete-publish-deploy-globalization-feature.md).

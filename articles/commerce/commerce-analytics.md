@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349734"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8549998"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce Analytics (Versão preliminar)
 
@@ -352,15 +352,20 @@ A página **Relatório de impressões** inclui as seguintes métricas:
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>Habilitar e configurar o Commerce Analytics (Versão preliminar)
 
-Para instalar o Commerce Analytics (Versão preliminar), você deve ter permissões para criar recursos em uma assinatura do Azure. Você também deve ter permissões para instalar suplementos no LCS. 
+Para instalar o Commerce Analytics (Versão preliminar), você deve ter permissões para criar recursos em uma assinatura do Azure. Você também deve ter permissões para instalar suplementos no LCS.
 
 Para habilitar e configurar o Commerce Analytics (versão preliminar), siga estas etapas.
 
-1. [Habilitar e configurar o suplemento Exportar para o Data Lake](#enableExportToDataLake).
-1. [Instale e configure um Azure Synapse workspace](#configureAzureSynapse).
-1. [Adicionar segredos ao cofre de chaves](#addSecrets).
-1. [Habilite e configure o suplemento Commerce Analytics (Versão preliminar)](#enableCommerceAnalyticsAddin).
-1. [Instale o aplicativo de modelo do Power BI](#powerbi).
+1. [Envie o formulário de ingestão de Versão preliminar do Commerce Analytics (Versão preliminar)](#joinPreview)
+2. [Habilitar e configurar o suplemento Exportar para o Data Lake](#enableExportToDataLake).
+3. [Instale e configure um Azure Synapse workspace](#configureAzureSynapse).
+4. [Adicionar segredos ao cofre de chaves](#addSecrets).
+5. [Habilite e configure o suplemento Commerce Analytics (Versão preliminar)](#enableCommerceAnalyticsAddin).
+6. [Instale o aplicativo de modelo do Power BI](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>Envie o formulário de ingestão de Versão preliminar do Commerce Analytics (Versão preliminar)
+
+Envie o [formulário de ingestão de Versão preliminar do Commerce Analytics (Versão preliminar)](https://forms.office.com/r/vW5VLJGXZ2). Depois que a solicitação for processada, um email de confirmação será enviado para o endereço de email fornecido no formulário.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>Habilitar e configurar o suplemento Exportar para o Data Lake
 

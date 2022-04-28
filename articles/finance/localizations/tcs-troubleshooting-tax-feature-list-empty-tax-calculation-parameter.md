@@ -13,22 +13,21 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 5b87499042c9c4bfe76e182b170adf4f1cfeac4b
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388546"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612279"
 ---
 # <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Lista de recursos de impostos vazia nos parâmetros de Cálculo de imposto
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="symptom"></a>Sintoma
 
-Você publicou um recurso no RCS (Regulatory Configuration Service) para que possa usá-lo no Microsoft Dynamics 365 Finance. Quando você abrir o Finance, vá para **Imposto** \> **Configuração** \> **Configuração de imposto** \> **Parâmetros de cálculo de imposto** e tente selecionar um valor no campo **Nome de configuração do recurso**; a lista de valores está vazia.
+Você publicou um recurso no (Regulatory Configuration Service) (RCS) para que possa usá-lo no Microsoft Dynamics 365 Finance. Quando você abrir o Finance, vá para **Imposto** \> **Configuração** \> **Configuração de imposto** \> **Parâmetros de cálculo de imposto** e tente selecionar um valor no campo **Nome de configuração do recurso**; a lista de valores está vazia.
 
 ## <a name="reason"></a>Motivo
 

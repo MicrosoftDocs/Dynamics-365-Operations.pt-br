@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752799"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548070"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novidades ou alterações no Dynamics 365 for Operations versão 1611 (novembro de 2016)
 
@@ -816,7 +816,7 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 | Como fornecedor, obter informações sobre a quantidade de estoque em consignação que é transferido para o cliente. | Para cobrar um cliente, o fornecedor precisa de informações sobre as matérias-primas que foram compradas do estoque em consignação e sobre a data da compra. O fornecedor também pode monitorar o estoque disponível no site do cliente usando a interface de colaboração de fornecedor. |
 | Mover o estoque de propriedade do fornecedor usando um diário de transferência. | Para rastrear a posição física do estoque de propriedade do fornecedor, você deve ser capaz de registrar a posição no sistema. Usando um diário de transferência, você pode registrar a movimentação física do estoque, como a movimentação de um local em um depósito para outro local nesse depósito. |
 | Ajustar o estoque de propriedade do fornecedor usando o diário de contagem. | É importante que você mantenha o estoque de sistema disponível em sincronia com o estoque físico real. O estoque de propriedade do fornecedor pode ser ajustado interna e externamente por meio de processos de contagem, como ajuste de quantidade e processos de diário de contagem. |
-| Saiba mais sobre o suporte de consignação no Dynamics 365 for Operations | Para obter mais informações sobre o suporte para processos de consignação, consulte [Consignação](../../../supply-chain/inventory/consignment.md), [Configurando consignação](../../../supply-chain/inventory/set-up-consignment.md), [Criar uma ordem de reabastecimento de consignação (guia de tarefas)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) e [Alterar a propriedade de estoque de remessa com base na demanda de produção (guia de tarefas)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Saiba mais sobre o suporte de consignação no Dynamics 365 for Operations | Para obter mais informações sobre o suporte para processos de consignação, consulte [Consignação](../../../supply-chain/inventory/consignment.md), [Configurando consignação](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Criar uma ordem de reabastecimento de consignação (guia de tarefas)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) e [Alterar a propriedade de estoque de remessa com base na demanda de produção (guia de tarefas)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Colaboração do fornecedor (antes conhecida como o portal do fornecedor)
 
@@ -942,7 +942,7 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Home page de Novidades ou alterações no Finance and Operations](whats-new-changed.md)
+[Novidades ou alterações na home page do Finance and Operations](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

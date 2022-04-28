@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 89c389c522a0ccc6889cc43cbdc669f136a4f53704d96e06bdec0177916471b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b240cd0cb4459eea956e10916acd869792b981f3
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721703"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565933"
 ---
 # <a name="set-sped-efd-contributions"></a>Definir contribuições SPED EFD
 

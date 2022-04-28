@@ -2,19 +2,19 @@
 title: Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
 description: Este tópico fornece informações sobre solução de problemas que podem ajudá-lo a corrigir problemas no módulo de dupla gravação em aplicativos de Finanças e Operações.
 author: RamaKrishnamoorthy
-ms.date: 08/10/2021
+ms.date: 04/12/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061799"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565956"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
 
@@ -70,6 +70,21 @@ A seguinte mensagem de erro pode ser exibida ao tentar interromper os mapeamento
 Este erro ocorre quando o ambiente Dataverse vinculado não está disponível.
 
 Para corrigir o problema, crie um tíquete para a equipe de integração de dados. Anexe o rastreamento de rede para que a equipe de integração de dados possa marcar os mapas como **Não executados** no back-end.
+
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Habilite o processamento paralelo em aplicativos de finanças e operações para melhorar o desempenho
+
+A habilitação do processamento paralelo pode reduzir o tempo necessário para importar dados dos aplicativos de finanças e operações para os aplicativos Customer Engagement e Microsoft Dataverse. 
+
+Para habilitar o processamento paralelo em aplicativos de finanças e operações, siga as etapas a seguir.
+
+1. Faça logon no seu ambiente de finanças e operações.
+2. Acesse **Gerenciamento de Dados > Parâmetros de estrutura**.
+3. Selecione **Configurações da entidade** e selecione **Configurar parâmetros de execução de entidade**.
+4. Adicione os parâmetros para processamento paralelo:
+    - **Contagem de registros do limite de importação**: o número de registros que devem ser atendidos antes que o processamento em paralelo seja habilitado.
+    - **Contagem de tarefas de importação**: o número de threads (tarefas) a serem executadas em paralelo.
+5. Selecione **Salvar**.
+
 
 ## <a name="errors-while-trying-to-start-a-table-mapping"></a>Erros ao tentar iniciar um mapeamento de tabela
 

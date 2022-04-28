@@ -15,24 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392954"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612338"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Criar uma nova solução ER para imprimir etiquetas ZPL
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Este tópico explica como um usuário no administrador do sistema, no desenvolvedor de relatórios eletrônicos ou na função consultor funcional de relatórios eletrônicos pode configurar parâmetros da estrutura [Relatório Eletrônico (ER)](general-electronic-reporting.md), criar as [configurações](general-electronic-reporting.md#Configuration) de ER necessárias de uma nova solução ER para acessar os dados do sistema de gerenciamento de depósito e gerar etiquetas de localização de depósito personalizado no formato da Linguagem de Programação Zebra (ZPL) II. Essas etapas podem ser concluídas na empresa **USRT**.
 
 ## <a name="business-scenario"></a>Cenário de negócios
 
-Você representa uma empresa que implementou o gerenciamento de depósito no Microsoft Dynamics 365 Finance. Cada local do depósito deve ser rotulado com uma etiqueta autocolante que inclui um código de barras. Os trabalhadores de depósito usarão leitores de código de barras para ler os códigos de barras.
+Você representa uma empresa que implementou o Warehouse Management no Microsoft Dynamics 365 Finance. Cada local do depósito deve ser rotulado com uma etiqueta autocolante que inclui um código de barras. Os trabalhadores de depósito usarão leitores de código de barras para ler os códigos de barras.
 
 Todos os locais de depósito foram rotulados no escopo de atividades de pré-ativação. No entanto, você também deve ser capaz de imprimir etiquetas de localização de depósito sob demanda, caso as etiquetas existentes sejam danificadas ou as prateleiras de depósito sejam reconfiguradas. Usando a funcionalidade ER recém-liberada, você pode configurar uma nova solução ER que permita a um supervisor de depósito imprimir etiquetas diretamente em uma impressora de etiquetas térmica.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524511"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547778"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Visibilidade de Estoque
 
@@ -51,9 +51,10 @@ O Suplemento de Visibilidade de Estoque adiciona vários recursos novos à sua i
 
 | Nome do Gerenciamento de Recursos | Descrição |
 |---|---|
-| OnHandReservation | Este tópico permite criar reservas, consumir reservas e/ou cancelar a reserva de quantidades de estoque especificadas usando a Visibilidade de Estoque. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md). |
-| OnHandMostSpecificBackgroundService | Este recurso fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados do resumo de estoque serão sincronizados periodicamente de Visibilidade de Estoque. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#inventory-summary). |
-| OnhandChangeSchedule | O recurso habilita o plano de alterações disponível e os recursos disponíveis para promessa (ATP) (opcional). Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md). |
+| *OnHandReservation* | Este tópico permite criar reservas, consumir reservas e/ou cancelar a reserva de quantidades de estoque especificadas usando a Visibilidade de Estoque. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md). |
+| *OnHandMostSpecificBackgroundService* | Este recurso fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados do resumo de estoque serão sincronizados periodicamente de Visibilidade de Estoque. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnhandChangeSchedule* | Esse recurso habilita o plano de alterações disponível e os recursos disponíveis para promessa (ATP). Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md). |
+| *Habilitar itens de depósito em Visibilidade de Estoque* | Esse recurso opcional permite que a visibilidade do estoque dê suporte a itens habilitados para processos de depósito avançados (itens de WHS). Para obter mais informações, consulte [Suporte do Visibilidade de Estoque para itens WHS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Localizar o ponto de extremidade de serviço
 
@@ -61,7 +62,7 @@ Se você não souber o ponto de extremidade de serviço de Visibilidade de Estoq
 
 ## <a name="data-source-configuration"></a>Configuração de fonte de dados
 
-Cada fonte de dados representa um sistema de onde vêm seus dados. Exemplos de nomes de fonte de dados incluem `fno` (que significa aplicativos do "Dynamics 365 Finance e Operations") e `pos` (que significa "ponto de venda"). Por padrão, o Supply Chain Management é configurado como uma fonte de dados padrão (`fno`) no Visibilidade de Estoque.
+Cada fonte de dados representa um sistema de onde vêm seus dados. Exemplos de nomes de fonte de dados incluem `fno` (que significa aplicativos de finanças e operações do "Dynamics 365") e `pos` (que significa "ponto de venda"). Por padrão, o Supply Chain Management é configurado como uma fonte de dados padrão (`fno`) no Visibilidade de Estoque.
 
 > [!NOTE]
 > A fonte de dados `fno` é reservada para o Supply Chain Management. Se o Suplemento de Visibilidade de Estoque estiver integrado a um ambiente do Supply Chain Management, recomendamos que você não exclua as configurações relacionadas a `fno` na fonte de dados.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983408"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570371"
 ---
 # <a name="landed-cost-module"></a>Módulo de custo de entrega
 
@@ -39,7 +39,7 @@ O custo de entrega fornece estimativas de custo precisas e oportunas para custos
 
 ### <a name="voyages"></a>Viagens
 
-No custo de entrega, uma viagem é um movimento distinto de um local de saída, por meio de um conjunto específico de destinos em um período específico, para um local de depósito de entrada especificado. As ordens de compra e linhas de ordem podem ser adicionadas a um único contêiner ou a vários contêineres para uma viagem, e os custos serão corretamente alocados novamente para a linha do item. Também é possível adicionar ordens e linhas de ordem em entidades legais para uma única viagem.
+No custo de entrega, uma viagem é um movimento distinto de um local de saída, por meio de um conjunto específico de destinos em um período específico, para um local de depósito de entrada especificado. As ordens de compra e linhas de ordem podem ser adicionadas a um único contêiner ou a vários contêineres para uma viagem, e os custos serão corretamente alocados novamente para a linha do item. 
 
 ### <a name="item-ownership"></a>Propriedade de item
 

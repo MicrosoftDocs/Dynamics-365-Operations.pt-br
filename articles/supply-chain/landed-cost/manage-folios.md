@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b84237844ec1d8f6c0716a0a13b05c83b358901
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d414ed7ac55afbbc58b8f5542c713f56392f9bc7
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575767"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570426"
 ---
 # <a name="manage-folios"></a>Gerenciar fólios
 
 [!include [banner](../../includes/banner.md)]
 
-Um fólio costuma ser determinado pelas regulamentações alfandegárias. Ele consiste em mercadorias de um fornecedor para uma entidade ou empresa por remessa. As mercadorias em um fólio podem estar em um contêiner ou podem ser espalhadas entre vários contêineres.
+Um fólio costuma ser determinado pelas regulamentações alfandegárias. Ele consiste em mercadorias de um fornecedor para uma entidade ou empresa por remessa. As mercadorias em um fólio são gerenciadas em um contêiner.
 
 Para abrir a página **Todos os fólios**, acesse **Custo de entrega \> Fólios \> Todos os fólios**. Esta página mostra uma lista de todos os fólios atuais. Você pode usar os botões no Painel de Ações para criar, excluir e trabalhar com fólios. Selecione um fólio na lista para exibir os detalhes na página **Fólio**.
 

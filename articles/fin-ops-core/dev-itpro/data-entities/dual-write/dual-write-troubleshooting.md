@@ -2,19 +2,19 @@
 title: Solução de problemas gerais
 description: Este tópico fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 04/07/2020
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062329"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554589"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -29,20 +29,31 @@ Este tópico fornece informações gerais de solução de problemas para a integ
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite e exiba o log de rastreamento de plug-in no Dataverse para exibir detalhes do erro
 
+Os logs de rastreamento podem ser úteis ao solucionar problemas de sincronização ao vivo de gravação dupla entre Finance & Operations e Dataverse. Os logs podem fornecer detalhes específicos às equipes que oferecem suporte técnico e de engenharia para o Dynamics 365. Este artigo aborda como habilitar logs de rastreamento e como exibi-los. Os logs de rastreamento são gerenciados na página Configurações do Dynamics 365 e exigem privilégios de nível de administrador para alteração e exibição. 
+
 **Função necessária para ativar o log de rastreamento e erros de exibição**: administrador do sistema
 
+### <a name="turn-on-the-trace-log"></a>Ativar o log de rastreamento
 Para ativar o log de rastreamento, siga estas etapas.
 
-1. Entre no aplicativo de interação com o cliente, abra a página **Configurações** e, em **Sistema**, selecione **Administração**.
-2. Na página **Administração**, selecione **Configuração do sistema**.
-3. Na guia **Personalização**, na coluna **Rastreamento de atividade de fluxo de trabalho e plug-in**, selecione **Todos** para habilitar o log de rastreamento de plug-in. Se você deseja registrar logs de rastreamento somente quando ocorrerem exceções, em vez disso, você pode selecionar **Exceção**.
+1.  Faça logon no Dynamics 365 e selecione **Configurações** na barra de navegação superior. Na página Sistemas, clique em **Administração**.
+2.  Na página Administração, clique em **Configuração do sistema**.
+3.  Selecione a guia **Personalização** e o plug-in e, na seção de rastreamento de atividade de fluxo de trabalho personalizado, altere o menu suspenso para **Tudo**. Isso irá rastrear todas as atividades e fornecer um conjunto abrangente de dados para as equipes que devem revisar problemas potenciais.
 
+> [!NOTE]
+> A configuração da lista suspensa como **Exceção** só fornecerá informações de rastreamento quando ocorrerem exceções (erros).
 
+Uma vez habilitados, os logs de rastreamento do plug-in continuarão sendo coletados até que sejam manualmente desconectados, retornando a esse local e selecionando **Desativado**.
+
+### <a name="view-the-trace-log"></a>Exiba o log de rastreamento
 Para exibir o log de rastreamento, siga estas etapas.
 
-1. Efetue login no aplicativo de interação com o cliente, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.
-2. Encontre os logs de rastreamento em que a coluna **Nome do Tipo** esteja definida como **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Clique duas vezes em um item para exibir o log completo e, em seguida, na Guia Rápida **Execução** revise o texto do **Bloco de mensagens**.
+1. Na página Configurações do Dynamics 365, selecione **Configurações** na barra de navegação superior. 
+2. Selecione **Log de Rastreamento de Plug-in** na seção **Personalizações** da página.
+3. Você pode encontrar entradas na lista de logs de rastreamento, com base no nome do tipo e/ou no nome da mensagem.
+4. Abra a entrada desejada para exibir o log completo. O bloco de mensagens na seção Execução contém as informações disponíveis para o plug-in. Se disponíveis, os detalhes da exceção também serão fornecidos. 
+
+Você pode copiar o conteúdo dos logs de rastreamento e colá-los em outro aplicativo, como o Bloco de notas, ou outras ferramentas para exibir logs ou arquivos de texto para ver mais facilmente todo o conteúdo. 
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos de Finanças e Operações
 
@@ -69,6 +80,34 @@ Os erros de gravação dupla originados no Dataverse podem aparecer no aplicativ
 5. Abra o Visualizador de Eventos.
 6. Selecione **Registros de aplicativos e serviços \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.
 7. Revise a lista de erros recentes.
+
+## <a name="dual-write-ui-landing-page-showing-blank"></a>Página inicial da interface de usuário de gravação dupla aparece em branco
+Ao abrir a página de gravação dupla no Microsoft Edge ou no Google Chrome, a página inicial não é carregada, e você vê uma página em branco ou um erro como "Algo deu errado".
+Em Devtools, você verá um erro nos logs do console:
+
+>bundle.eed39124e62c58ef34d2.js:37 DOMException: Falha ao ler a propriedade 'sessionStorage' de 'Window': Acesso negado para este documento. at t.storeInSessionStorage (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860 ) at new t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103 ) at ci (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115 ) at Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728 ) at jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191 ) at Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692 ) at Or (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076 ) at Ss (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750 ) at vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130 ) at hs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151 )
+
+A interface do usuário usa o navegador de "armazenamento de sessão" para armazenar alguns valores de propriedade para carregar a Home Page. Para que isso funcione, é necessário permitir cookies de terceiros no navegador do site. O erro indica que a interface do usuário não pode acessar o armazenamento da sessão. Pode haver dois cenários nos quais esse problema é encontrado:
+
+1.  Você está abrindo a interface do usuário no modo Incognito do Edge/Chrome, e os cookies de terceiros no modo Incognito são bloqueados.
+2.  Você bloqueou cookies de terceiros totalmente no Edge/Chrome.
+
+### <a name="mitigation"></a>Redução
+Os cookies de terceiros precisam ser permitidos nas configurações do navegador.
+
+### <a name="google-chrome-browser"></a>Navegador Google Chrome
+Primeira opção:
+1.  Vá para Configurações digitando chrome://settings/ na barra de endereços e navegue até Privacidade e segurança -> Cookies e outros dados do site.
+2.  Selecione "Permitir todos os cookies". Se não desejar fazer isso, vá para a segunda opção.
+
+2ª opção:
+1.  Vá para Configurações digitando chrome://settings/ na barra de endereços e navegue até Privacidade e segurança -> Cookies e outros dados do site.
+2.  Se a opção "Bloquear cookies de terceiros no modo Incognito" ou "Bloquear cookies de terceiros" estiver selecionada, vá para "Sites que sempre podem usar cookies" e clique em **Adicionar**. 
+3.  Adicione o nome do site de seus aplicativos Finance & Operations - https://<your_FinOp_instance>.cloudax.dynamics.com. Marque a caixa de seleção para "Todos os cookies, somente neste site". 
+
+### <a name="microsoft-edge-browser"></a>Navegador Microsoft Edge
+1.  Navegue até Configurações -> Permissões de site -> Cookies e dados do site.
+2.  Desative "Bloquear cookies de terceiros".  
 
 ## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular e vincular outro ambiente do Dataverse a partir de um aplicativo de Finanças e Operações
 
@@ -97,14 +136,14 @@ Para habilitar novamente a opção de formulário de **Informações**, siga est
 
 Talvez a equipe de suporte precise revisar os rastreamentos de rede para solucionar alguns problemas. Siga estas etapas para criar um rastreamento de rede:
 
-### <a name="chrome"></a>Chrome
+### <a name="google-chrome-browser"></a>Navegador Google Chrome
 
 1. Na guia aberta, pressione **F12** ou escolha **Ferramentas do desenvolvedor** para abrir as ferramentas do desenvolvedor.
 2. Abra a guia **Rede** e digite **integ** na caixa de texto do filtro.
 3. Execute seu cenário e observe as solicitações que estão sendo registradas.
 4. Clique com o botão direito do mouse nas entradas e selecione **Salvar tudo como um Har com conteúdo**.
 
-### <a name="microsoft-edge"></a>Microsoft Edge
+### <a name="microsoft-edge-browser"></a>Navegador Microsoft Edge
 
 1. Na guia aberta, pressione **F12** ou escolha **Ferramentas do desenvolvedor** para abrir as ferramentas do desenvolvedor.
 2. Abra a guia **Rede**.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524427"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547863"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.26 (maio de 2022)
 
@@ -34,7 +34,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---|---|---|---|
-| Estoque e logística | [Consulta disponível de visibilidade de estoque para suporte a itens de gerenciamento de depósito avançado](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Em breve | Gerenciamento de recursos:<br>*Habilitar itens de depósito em Visibilidade de Estoque* |
+| Estoque e logística | [Consulta disponível de visibilidade de estoque para suporte a itens de gerenciamento de depósito avançado](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Suporte à visibilidade de estoque para itens de WHS](../inventory/inventory-visibility-whs-support.md) | Gerenciamento de recursos:<br>*Habilitar itens de depósito em Visibilidade de Estoque* |
 | Estoque e logística | [Disponível para promessa do suplemento de visibilidade de estoque](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Agendas de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](../inventory/inventory-visibility-available-to-promise.md) | Habilitado por configuração de serviço |
 | Fabricação | [Itens de peso variável para a interface de execução do piso de produção](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*(Versão preliminar) Relatório de itens de peso variável da interface de execução do piso de produção* |
 | Fabricação | Guia Meus trabalhos na interface de execução de piso de produção <!-- KFM: Add link to release plan when available --> | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*Guia Meus trabalhos na interface de execução de piso de produção* |
@@ -51,7 +51,7 @@ Se quiser ativar o desativar qualquer um desses recursos, você deverá fazer is
 | Compras | Sincronizar dimensões de rastreamento em linhas de ordem de compra e venda intercompanhia | Esse recurso permite controlar se as dimensões de controle de série e de número de lote são sincronizadas entre as linhas da ordem de compra e de venda intercompanhia. Ele adiciona novas configurações às guias **Políticas de ordem de compra** e **Políticas de ordem de venda** da página de configuração **Intercompanhia** para clientes e fornecedores. Ele também atualiza os nomes de algumas configurações relacionadas e próximas para clareza.<br><br>Se você estiver usando o WMS (gerenciamento de depósito avançado), lembre-se de que esse recurso só sincronizará números de lote e de série quando essas dimensões estiverem acima do local na hierarquia de reservas de destino. |
 | Gerenciamento de informações sobre o produto | Limpar valores de atributo de produto | Esse recurso adiciona uma tarefa periódica chamada **Limpar valores de atributo de produto**, que limpa os registros de valor de atributo de produto que não estão mais associados a produtos por meio de uma categoria de produto. |
 | Gerenciamento de estoque e depósito | (Rússia) Evitar discrepâncias ao emitir GTDs para ordens de compra que incluam itens habilitados para o serviço Gerenciamento de Fluxo de Trabalho | Esse recurso se destina apenas a localizações em russo. Ele impede discrepâncias que ocorrem durante a emissão de GTDs (números da declaração alfandegária) russos para importar ordens de compra que incluem itens habilitados para WMS (armazenamento avançado). O processo de emissão de GTD altera alguns valores de dimensão de estoque nas transações de estoque relacionadas para faturas incluídas no diário personalizado, que leva a discrepâncias entre os registros de trabalho para a ordem de compra e as transações de estoque para a compra. Quando esse recurso é habilitado, o processo de emissão de GTD gera um trabalho de ajuste que elimina essas discrepâncias. |
-| Gerenciamento de depósito | Analisador aprimorado de códigos de barra GS1 | Este recurso adiciona um analisador aprimorado para dados de símbolo de GS1. O novo analisador implementa o algoritmo de especificação geral de GS1 para analisar símbolos de GS1 e fornece validação de dados mais forte. |
+| Gerenciamento de depósito | Analisador aprimorado de códigos de barra GS1 | Este recurso adiciona um analisador aprimorado para dados de símbolo de GS1. O novo analisador implementa o algoritmo de especificação geral de GS1 para analisar símbolos de GS1 e fornece validação de dados mais forte. Para obter mais informações, consulte [Digitalização do código de barras GS1](../warehousing/gs1-barcodes.md). |
 | Gerenciamento de depósito | Novas páginas da bancada de planejamento de carga | Adiciona duas novas páginas de bancada de planejamento de carga: **Workbench de planejamento de carga de entrada** e **Workbench de planejamento de carga de saída**. |
 | Gerenciamento de depósito | Aplicativo Warehouse Management – GTD em branco | Esse recurso se destina apenas a localizações em russo. Ele permite que os trabalhadores que usam o aplicativo móvel Warehouse Management deixem GTDs (números de declaração alfandegária) em branco quando necessário. Se a dimensão de rastreamento GTD estiver configurada para permitir valores em branco, o sistema aceitará valores em branco para GTD para que as operações de estoque fornecidas no estoque disponível estejam disponíveis. |
 
@@ -68,7 +68,7 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.26 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.26 de aplicativos de finanças e operações (maio de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).<!-- KFM Confirm link -->
+O Microsoft Dynamics 365 Supply Chain Management 10.0.26 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.26 de aplicativos de finanças e operações (maio de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 

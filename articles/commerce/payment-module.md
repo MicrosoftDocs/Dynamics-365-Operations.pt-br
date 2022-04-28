@@ -2,7 +2,7 @@
 title: Módulo de pagamento
 description: Este tópico abrange o módulo do pagamento e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/07/2022
+ms.date: 04/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952460"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565720"
 ---
 # <a name="payment-module"></a>Módulo de pagamento
 
@@ -74,6 +74,8 @@ A ilustração a seguir mostra um exemplo do iFrame do PayPal invocado usando o 
 | Substituição do estilo de pagamento | Código de folhas de estilo em cascata (CSS) | Como o módulo de pagamento está hospedado em um iFrame, há capacidade de estilo limitada. Você pode obter algum estilo usando essa propriedade. Para substituir estilos de site, você deve colar o código de CSS como o valor dessa propriedade. As substituições e os estilos de criação de sites CSS não se aplicam a este módulo. |
 |Tipos de meio de pagamento com suporte| Sequência de caracteres| Se vários conectores de pagamento estiverem configurados, você deverá fornecer a cadeia de caracteres do tipo de meio de pagamento com suporte, conforme definido na configuração do conector de pagamento do Commerce headquarters (consulte a seguinte imagem). Se estiver em branco, o padrão será o conector de pagamento Adyen. Adicionado ao Commerce Release 10.0.14.|
 |É pagamento principal|  **Verdadeiro** ou **Falso** | Se **Verdadeiro**, as mensagens de erro serão geradas a partir do conector de pagamento principal na página de finalização de compra. Se os conectores de pagamento Adyen e PayPal estiverem configurados, defina Adyen como **Verdadeiro**, que foi adicionado no Commerce versão 10.0.14.|
+|Usar ID do Conector| **Verdadeiro** ou **Falso** | Use esta propriedade se vários conectores de pagamentos estiverem configurados para o site. Se for **True**, os conectores precisarão usar a ID do conector para a correlação de pagamento.|
+|Usar o código de idioma definido para o navegador para o iFrame|  **Verdadeiro** ou **Falso** | (Adyen apenas) Se for **True**, o Adyen iFrame irá renderizar o idioma com base no contexto do navegador do usuário do site, em vez de usar o código de idioma do canal do Commerce configurado para o site. Adicionado ao Commerce Release 10.0.27.|
 
 A ilustração a seguir mostra um exemplo do valor **Tipos de meio de pagamento com suporte** definido como "PayPal" na configuração do conector de pagamento na sede do Commerce.
 ![Exemplo de tipos de meio de pagamento com suporte na sede do Commerce.](./media/ecommerce-paymenttendertypes.png)

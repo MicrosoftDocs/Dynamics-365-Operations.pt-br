@@ -2,7 +2,7 @@
 title: O delimitador do plano de contas deve ser exclusivo
 description: Este tópico explica que não é possível ter o mesmo delimitador para o plano de contas e valores de dimensão. Você deve alterar os valores do delimitador após a atualização.
 author: panolte
-ms.date: 03/23/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 433e9f8a7b0a9f476c74096a4bd7fef03c87dee1
-ms.sourcegitcommit: 0d5ee97670bdeb1986aaea880f32962b5e374751
+ms.openlocfilehash: 6081a62077f1fc6b6920991ed6faae667c25a47c
+ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468038"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8573608"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>O delimitador do plano de contas deve ser exclusivo
 
 [!include [banner](../includes/banner.md)]
 
-No Microsoft Dynamics AX 2012, era possível usar o mesmo delimitador para o plano de contas e os valores de dimensão. Nas versões atuais do Finance and Operations, você não pode ter o mesmo delimitador para o plano de contas e para os valores de dimensão. Se houver um delimitador duplicado, você poderá alterá-lo após a atualização. 
+No Microsoft Dynamics AX 2012, era possível usar o mesmo delimitador para o plano de contas e os valores de dimensão. Nas versões atuais de finanças e operações, você não pode ter o mesmo delimitador para o plano de contas e para os nomes ou valores de dimensão. Se houver um delimitador duplicado, você poderá alterá-lo após a atualização. 
 
 ## <a name="update-delimiter"></a>Atualizar delimitador
 Se houver um conflito com o plano de contas, o delimitador do plano de contas e o formato da ID de projeto/subprojeto poderá ser alterado. Nenhum outro delimitador de dimensão pode ser alterado. 

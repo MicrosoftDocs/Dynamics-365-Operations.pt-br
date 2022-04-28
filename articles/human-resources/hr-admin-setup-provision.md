@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060402"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565618"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -40,6 +40,10 @@ Antes de começar o provisionamento de um novo ambiente de produção, os seguin
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Provisionamento de um ambiente de teste de Recursos Humanos
 
+>[!NOTE]
+> A partir de 2022 de abril, os ambientes de teste de Recursos Humanos não estarão disponíveis no aplicativo independente. Os clientes potenciais interessados em avaliar as funcionalidades dos Recursos Humanos em aplicativos de finanças e operações podem fazer isso usando a avaliação gratuita de 30 dias, junto com os dados de demonstração. O Dynamics 365 Finance incluirá as funcionalidades de Recursos Humanos trazidas para a infraestrutura de finanças por meio da mesclagem do aplicativo autônomo. Para obter mais informações, consulte [Mesclagem de ofertas de RH reúne funcionalidades para os clientes](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Para obter mais informações sobre os testes do Dynamics 365 Finance, consulte o [guia passo a passo](/fin-ops/get-started/before-you-buy). 
+
+
 Antes de provisionar sua primeira área restrita ou ambiente de produção, pode ser interessante provisionar um [ambiente de teste de Recursos Humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) para validar a funcionalidade de Recursos Humanos. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. 
 
 Os ambientes de avaliação fornecem a capacidade de avaliar a funcionalidade de recursos humanos para indivíduos que ainda não têm acesso a um ambiente de Recursos Humanos. Se você estiver provisionando um ambiente de avaliação e o usuário autenticado já tiver acesso a um ou mais ambientes de Recursos Humanos existentes, o usuário será redirecionado para o ambiente existente ou para a lista de ambientes.
@@ -58,7 +62,7 @@ Antes de criar seu primeiro ambiente do Human Resources, você deve planejar cui
 Considerações para ambientes adicionais:
 
 - **Migração de dados**: Talvez seja necessário considerar um ambiente adicional para atividades de migração de dados para permitir que o ambiente de área restrita seja usado para fins de teste durante todo o projeto. Ter um ambiente adicional permite que as atividades de migração de dados continuem, enquanto as atividades de teste e configuração ocorrem simultaneamente em um ambiente diferente.
-- **Integração**: Talvez seja preciso considerar um ambiente adicional para configurar e testar integrações. Isso pode incluir integrações nativas, como as integrações do Ceridian Dayforce LinkedIn Talent Hub, ou integrações personalizadas, como as de folha de pagamento, sistemas de rastreamento de candidatos ou sistemas e provedores de benefícios.
+- **Integração**: Talvez seja preciso considerar um ambiente adicional para configurar e testar integrações. Isso pode incluir integrações nativas, como as integrações do Ceridian Dayforce ou LinkedIn Talent Hub, ou integrações personalizadas, como as de folha de pagamento, sistemas de rastreamento de candidatos ou sistemas e provedores de benefícios.
 - **Treinamento**: Talvez você precise de um ambiente separado que seja configurado com um conjunto de dados de treinamento para treinar funcionários sobre o uso do novo sistema. 
 - **Projeto multi-fase**: Talvez precise de um ambiente adicional para dar suporte a configuração, migração de dados, testes ou outras atividades em uma fase de projeto que é planejada após a ativação inicial do projeto.
 

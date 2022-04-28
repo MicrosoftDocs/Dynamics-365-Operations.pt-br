@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 16ea5bdc96e8d2ae5760f11deba91970aeb4569a3636dd50d9b1a7dff2701489
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 79c7e294739156680f620b13852ac5b7a1dedd46
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739916"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565606"
 ---
 # <a name="sped-ecd"></a>SPED ECD
 

@@ -2,7 +2,7 @@
 title: Introdução ao Cálculo de Imposto
 description: Este tópico explica como configurar o Cálculo de Imposto.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952512"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558303"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introdução ao Cálculo de Imposto
 
@@ -36,7 +36,7 @@ A configuração consiste em três etapas principais.
 
 ## <a name="high-level-design"></a>Design de alto nível
 
-### <a name="runtime-design"></a>Design de runtime
+### <a name="runtime-design"></a><a name="runtime"></a> Design de runtime
 
 A ilustração a seguir mostra o design de runtime de alto nível de Cálculo de Imposto. Como o Cálculo de Imposto pode ser integrado a vários aplicativos do Dynamics 365, a ilustração usa a integração com o Finance como um exemplo.
 
@@ -95,6 +95,14 @@ Antes de poder concluir os procedimentos restantes neste tópico, os seguintes p
 - Os recursos a seguir devem ser ativados no espaço de trabalho **Gerenciamento de recursos** do seu ambiente RCS implantado.
 
     - Recursos de globalização
+
+- As funções a seguir devem ser atribuídas conforme apropriado para os usuários no seu ambiente RCS:
+
+    - Desenvolvedor de relatório eletrônico
+    - Desenvolvedor de recursos de globalização
+    - Desenvolvedor de mecanismo de cálculo de impostos
+    - Consultor funcional de mecanismo de cálculo de impostos
+    - Desenvolvedor de serviço de imposto
 
 ## <a name="set-up-tax-calculation-in-lcs"></a>Configure o Cálculo de Imposto em LCS
 
@@ -203,6 +211,9 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     | Vendas            | DEU       | FRA     | DEU_EU       |
     | Vendas            | BEL       | BEL     | BEL_Domestic |
     | Vendas            | BEL       | FRA     | BEL_EU       |
+    
+    > [!NOTE]
+    > Se o grupo de impostos sobre vendas padrão nas linhas do documento tributável estiver correto, deixe esta matriz em branco. Para obter mais informações, consulte a seção [Design de runtime](#runtime) neste tópico.
 
 22. Na guia **Aplicabilidade do grupo de impostos do item**, selecione as colunas necessárias para determinar o código do imposto correto e selecione **Adicionar**. Insira ou selecione os valores de cada coluna. O campo **Grupo de impostos** será a saída dessa matriz. Se essa guia não estiver configurada, será usado o grupo de impostos do item na linha da transação.
 
@@ -212,6 +223,9 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     | --------- | -------------- |
     | D0001     | Completo           |
     | D0003     | Reduzido        |
+
+    > [!NOTE]
+    > Se o grupo de impostos sobre vendas de itens padrão nas linhas do documento tributável estiver correto, deixe esta matriz em branco. Para obter mais informações, consulte a seção [Design de runtime](#runtime) neste tópico.
 
     Para obter mais informações sobre como os códigos de impostos são determinados no Cálculo do Imposto, consulte [Grupo de impostos e lógica de determinação do grupo de impostos do item](global-sales-tax-group-determination.md).
 

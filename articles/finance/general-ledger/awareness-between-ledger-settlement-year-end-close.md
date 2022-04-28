@@ -2,7 +2,7 @@
 title: Reconhecimento entre a liquidação do razão e o fechamento do exercício
 description: Este tópico fornece informações sobre aperfeiçoamentos que afetam as liquidações do razão e o fechamento anual da contabilidade.
 author: kweekley
-ms.date: 03/18/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462342"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553322"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Reconhecimento entre a liquidação do razão e o fechamento do exercício
 
@@ -48,12 +48,16 @@ Para dar suporte aos novos aperfeiçoamentos, foram feitas alterações na liqui
 
 Devido às alterações na funcionalidade e no modelo de dados, é importante considerar os seguintes pontos antes de habilitar o recurso:
 
+- Como somente as transações liquidadas são trazidas para o saldo inicial, você deve desliquidar transações do ano fiscal atual que são liquidadas com transações no ano fiscal anterior. As transações devem ser reliquidadas em relação a transações no ano fiscal atual. Isso pode ser feito por meio de uma entrada de ajuste no ano fiscal atual. O ajuste inverte os saldos iniciais resumidos e as compensações com a transação detalhada necessária para liquidar as entradas do razão no ano atual. 
+
+  > [!IMPORTANT]
+  > Se isso não for feito, você receberá o erro **sem saldo** quando executar o fechamento do final do ano para o ano fiscal atual. Se não for possível fazer a desliquidação e liquidar novamente as transações do razão com o mesmo ano fiscal, não habilite este recurso até que o fechamento do fim de ano seja concluído. Habilite o recurso imediatamente depois que o fechamento de fim de ano for concluído e antes que as novas transações do razão sejam liquidadas no próximo ano fiscal. 
+  
 - Todas as transações marcadas para liquidação, mas não liquidadas, serão automaticamente desmarcadas quando o recurso for habilitado. Para evitar a perda de trabalho, liquide todas as transações marcadas antes de habilitar o recurso.
 - Algumas organizações executam o fechamento do exercício várias vezes para o mesmo ano fiscal. Não habilite o recurso se o fechamento do exercício já tiver sido executado uma vez e será executado novamente para o mesmo ano fiscal. O recurso deve estar habilitado para que você processe o fechamento do primeiro exercício ou depois de processar o fechamento do exercício para o ano fiscal.
 
   Se você desejar habilitar o recurso, mas o fechamento de exercício já tiver sido executado uma vez, você deverá reverter o fechamento do exercício antes de habilitar o recurso.
 
-- Como a liquidação entre exercícios não é mais permitida, é recomendável habilitar o recurso antes de iniciar o processo de fechamento de exercício. Para garantir que os saldos iniciais do exercício seguinte não sejam afetados pelas liquidações anteriores do exercício, a transação do saldo inicial deve ser liquidada para o exercício que está sendo fechado.
 - Como a liquidação em contas principais não é mais permitida, ajuste o plano de contas ou os processos, conforme necessário, para garantir que a liquidação do razão possa ser feita na mesma conta principal.
 - O recurso não poderá ser habilitado se o processo de fechamento de exercício do setor público estiver sendo usado.
 

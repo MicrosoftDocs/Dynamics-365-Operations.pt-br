@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715221"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547972"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) - Suspensão do armazenamento do Lifecycle Services (LCS)
 
@@ -29,8 +29,8 @@ ms.locfileid: "7715221"
 O uso do Microsoft Dynamics Lifecycle Services (LCS) como repositório de armazenamento para configurações do ER (Relatório Eletrônico) está sendo suspenso. Esta suspensão envolverá as seguintes mudanças:
 
 - As configurações feitas pela Microsoft que são usadas nos aplicativos do Microsoft Dynamics 365 não serão publicadas na Biblioteca de ativos compartilhados no LCS. Em vez disso, elas serão publicadas somente por meio do repositório Global do RCS. No entanto, as configurações para o Dynamics AX 2012 continuarão sendo publicadas na Biblioteca de ativos compartilhados no LCS até que o ciclo de vida de suporte para o AX 2012 termine.
-- Será desativada a funcionalidade que permite a você carregar configurações à Biblioteca de ativos de projeto no LCS de aplicativos do Finance and Operations e do RCS. No entanto, você ainda poderá usar o navegador no LCS para carregar configurações na Biblioteca de ativos de projetos. No entanto, você ainda poderá adicionar o navegador ao LCS para que elas sejam incluídas nos pacotes de solução.
-- A importação das configurações a partir do LCS continuará disponível e com suporte nos aplicativos no Finance and Operations e no RCS por algum tempo. No entanto, essa funcionalidade será suspensa eventualmente. (A data exata da suspensão será anunciada posteriormente.)
+- Será desativada a funcionalidade que permite a você carregar configurações à Biblioteca de ativos de projeto no LCS de aplicativos de finanças e operações e do RCS. No entanto, você ainda poderá usar o navegador no LCS para carregar configurações na Biblioteca de ativos de projetos. No entanto, você ainda poderá adicionar o navegador ao LCS para que elas sejam incluídas nos pacotes de solução.
+- A importação das configurações a partir do LCS continuará disponível e com suporte nos aplicativos de finanças e operações e no RCS por algum tempo. No entanto, essa funcionalidade será suspensa eventualmente. (A data exata da suspensão será anunciada posteriormente.)
 
 ## <a name="deprecation-notice"></a>Aviso de suspensão
 
@@ -52,7 +52,7 @@ Importe todas as configuração necessárias do LCS para o RCS e então publique
 
 1. Se uma instância do RCS ainda não estiver disponível, provisione uma. Para obter mais informações, consulte [Visão geral do RCS](rcs-overview.md).
 2. Na instância provisionada do RCS, para todo projeto do LCS na Biblioteca de ativos que incluir configurações derivadas do ER, registre o repositório do LCS apropriado.
-3. Importe as configurações do ER dos repositórios do LCS para o RCS. Para obter mais informações, consulte [Importar configurações do LCS](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md).
+3. Importe as configurações do ER dos repositórios do LCS para o RCS. Para obter mais informações, consulte [Importar configurações do LCS](/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services).
 4. Se o repositório Global não for obtida automaticamente, registre-o no RCS.
 5. Carregue todas as configurações derivadas da instância atual do RCS para o repositório Global. Use o recurso **Pacotes de configuração** para ajudar no upload. Para obter mais informações, consulte as [Carregar repositório global do RCS](rcs-global-repo-upload.md).
 
@@ -73,7 +73,7 @@ Use o Repositório de globalização para as seguintes finalidades:
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Esta mudança significa que o LCS não pode ser usado como armazenamento central para configurações?
 
-Sim. Será suspensa a funcionalidade que permite a você carregar configurações à Biblioteca de ativos de projeto no LCS de aplicativos do Finance and Operations. No entanto, você ainda pode usar o navegador no LCS para carregar configurações na Biblioteca de ativos de projetos conforme necessário.
+Sim. Será suspensa a funcionalidade que permite a você carregar configurações à Biblioteca de ativos de projeto no LCS de aplicativos de finanças e operações. No entanto, você ainda pode usar o navegador no LCS para carregar configurações na Biblioteca de ativos de projetos conforme necessário.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Eu pensei que o RCS fosse um repositório substituto para importar arquivos de modelo global. Eu não achei que ele fosse usado para armazenar configurações. Qual opção está correta?
 
@@ -81,7 +81,7 @@ O RCS é um serviço de design para a criação e edição de configurações do
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Sem o LCS, qual é a forma sugerida para armazenar configurações, de forma que as configurações "teste" e "produção" possam ser facilmente gerenciadas e transferidas?
 
-O RCS usa o conceito de um *aplicativo conectado*. Um aplicativo conectado forma uma conexão entre o RCS e qualquer instância dos aplicativos do Finance and Operations. Como o RCS pode ser usado para editar configurações, o aplicativo conectado pode ser usado para enviar as configurações diretamente do designer para os ambientes dos aplicativos do Finance and Operations. Portanto, você pode alterar e testar suas configurações rapidamente em vez de precisar passar pelo armazenamento em nível de projeto do LCS.
+O RCS usa o conceito de um *aplicativo conectado*. Um aplicativo conectado forma uma conexão entre o RCS e qualquer instância dos aplicativos de finanças e operações. Como o RCS pode ser usado para editar configurações, o aplicativo conectado pode ser usado para enviar as configurações diretamente do designer para os ambientes dos aplicativos de finanças e operações. Portanto, você pode alterar e testar suas configurações rapidamente em vez de precisar passar pelo armazenamento em nível de projeto do LCS.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Há outros exemplos que mostram a configuração e o gerenciamento?
 
@@ -104,4 +104,4 @@ Para obter mais informações sobre suporte a produtos, consulte [Visão geral d
 
 ### <a name="whats-the-cost-of-using-rcs"></a>Quanto custa para usar o RCS?
 
-O RCS e o Repositório de globalização são fornecidos gratuitamente como parte das licenças existentes do aplicativo do Finance and Operations. Nenhum custo separado está associado ao uso do serviço de design do RCS ou ao armazenamento de configurações no Repositório global. No momento, não há limite para o número de configurações ou aplicativos conectados.
+O RCS e o Repositório de globalização são fornecidos gratuitamente como parte das licenças existentes de aplicativos de finanças e operações. Nenhum custo separado está associado ao uso do serviço de design do RCS ou ao armazenamento de configurações no Repositório global. No momento, não há limite para o número de configurações ou aplicativos conectados.

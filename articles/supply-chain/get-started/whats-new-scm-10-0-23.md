@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920191"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570468"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.23 (janeiro de 2022)
 
@@ -57,7 +57,7 @@ Se você quiser ativar ou desativar qualquer um desses recursos, será necessár
 | Compras | Limpar histórico de atualizações de ordens de compra | Esse recurso permite que você limpe registros históricos temporários relacionados a atualizações de ordens de compra. Ele adiciona um novo botão chamado **Limpar histórico de atualização de compra** ao Painel de Ações na página **Todas as ordens de compra**. Esse recurso é habilitado por padrão. |
 | Controle de produção | (Versão preliminar) Separação automática de materiais habilitados de depósito para listas de separação lançadas automaticamente | Este recurso permite que você separe automaticamente e resolva dimensões de estoque para diários de lista de separação derivados e de fluxo inverso lançados automaticamente. |
 | Controle de produção | Validar vencimento de matérias-primas em relação à data de consumo planejada | Este recurso altera como as datas de vencimento do lote são validadas ao reservar um lote de matéria-prima a ser usada durante a produção. Quando este recurso estiver habilitado, a data de vencimento do lote será validada em relação à data de consumo planejada (a data da matéria-prima), conforme estabelecida na linha da BOM de produção ou na linha da fórmula da ordem de lote. Quando esse recurso estiver desabilitado, a data de vencimento do lote será validada em relação à data de entrega planejada da ordem de produção ou de lote (como anteriormente). |
-| Vendas e marketing | Limpar histórico de atualizações de vendas com base na idade | Esse recurso permite definir a idade máxima dos registros a serem mantidos durante a execução da tarefa periódica **Limpeza do histórico de atualizações de vendas**. Os registros mais antigos serão excluídos. Isso é útil quando você define que a tarefa seja executada periodicamente porque a idade é sempre calculada em relação à data em que a tarefa é executada. Sem esse recurso, você só pode definir uma data específica para que os registros mais antigos sejam mantidos. |
+| Vendas e marketing | Limpar histórico de atualizações de vendas com base na idade | Esse recurso permite definir a idade máxima dos registros a serem mantidos durante a execução da tarefa periódica **Limpeza do histórico de atualizações de vendas**. Os registros mais antigos serão excluídos. Isso é útil quando você define que a tarefa seja executada periodicamente porque a idade é sempre calculada em relação à data em que a tarefa é executada. Sem esse recurso, você só pode definir uma data específica para que os registros mais antigos sejam mantidos. Para obter mais informações, consulte [Agendar limpeza de dados de histórico de vendas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Vendas e marketing | Melhorar o desempenho do relatório dos "100 melhores" clientes | Esse recurso melhora o desempenho do relatório dos **100 principais** clientes executando sempre o relatório em todos os clientes (o que é o uso pretendido) em vez de permitir consultas personalizadas. Quando esse recurso estiver habilitado, todas as configurações **Registros para inclusão** estarão desabilitadas no diálogo do relatório **100 principais**. |
 | Gerenciamento de depósito | Suporte à unidade de escala para liberação para de ordens de saída para o depósito | Quando esse recurso estiver habilitado, as ordens de saída poderão ser liberadas do hub diretamente para a unidade de escala, de onde as ordens serão atendidas. |
 
@@ -79,9 +79,9 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para os aplicativos do Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.23 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.23 dos aplicativos do Finance and Operations (novembro de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.23 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.23 dos aplicativos Finanças e operações (novembro de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 

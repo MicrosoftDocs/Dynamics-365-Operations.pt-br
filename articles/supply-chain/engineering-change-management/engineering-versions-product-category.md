@@ -2,7 +2,7 @@
 title: Versões de engenharia e categorias de produtos de engenharia
 description: Este tópico fornece informações sobre o conceito de versões de engenharia. As versões de engenharia garantem que os diferentes estados de um produto e seus dados sejam mantidos atuais e claros, e que possam ser visualizados no sistema.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572880"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553352"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versões de engenharia e categorias de produtos de engenharia
 
@@ -136,8 +136,8 @@ Para cada linha adicionada à grade, defina os campos a seguir.
 | Campo | descrição |
 |---|---|
 | Organização | Selecione o atributo a ser adicionado. |
-| Alíquota | Selecione o valor padrão para o atributo. |
-| Obrigatório | Para atributos do tipo *booliano*, se esta opção estiver definida como *Sim*, os usuários deverão definir o atributo como *Sim*. Se esta opção estiver definida como *Não*, os usuários poderão definir o atributo como *Sim* ou *Não*. Para outros tipos de dados, a configuração dessa opção é apenas informativa. |
+| Valor | Selecione o valor padrão para o atributo. |
+| Obrigatório | Escolha se o atributo é obrigatório, o que significa que os usuários devem especificar um valor válido para o atributo antes de salvá-lo. O efeito dessa configuração varia um pouco de acordo com o tipo de dados do atributo selecionado, conforme definido na lista a seguir.<ul><li>**Booliano**: defina como *Sim* para exigir que o atributo tenha um valor *Sim* (o sistema se recusará a salvar um produto no qual o atributo está definido como *Não*). Defina como *Não* para aceitar um valor *Sim* ou *Não*. (Atributos do tipo *Booliano* não pode ter um valor vazio.)</li><li>**Inteiro ou decimal**: defina como *Sim* para exigir que os usuários insiram um valor diferente de zero para este atributo. Defina como *Não* para permitir que usuários salvem um valor igual a zero.  (Atributos desses tipos não pode ter um valor vazio.)</li><li>**Lista**: as listas são um tipo de dados de *Texto*, mas também incluem uma lista predefinida de valores possíveis. Portanto, não é possível inserir um valor em branco para os atributos desse tipo. Então, essa configuração não tem efeito e é apenas informativa.</li><li>**Todos os outros tipos de dados**: defina como *Sim* para tornar o atributo obrigatório. Defina como *Não* para permitir que os usuários salvem um produto sem fornecer um valor para ele.</li></ul> |
 | Atributo de lote | Selecione se o atributo deve ser propagado por meio da funcionalidade em lotes. |
 
 ### <a name="readiness-policy-fasttab"></a>FastTab de política de preparo

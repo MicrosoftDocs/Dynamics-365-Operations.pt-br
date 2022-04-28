@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570937"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570412"
 ---
 # <a name="manage-voyages"></a>Gerenciar viagens
 
@@ -66,9 +66,9 @@ A tabela a seguir descreve as ações disponíveis na guia **Gerenciar** do Pain
 | Em trânsito | Atualize o campo **Status da viagem** com o status em trânsito estabelecido na página **[Parâmetros de custo de entrega](landed-cost-parameters.md)**. Não há mais lógica neste processo. Uma viagem também pode ser atualizada automaticamente com o status em trânsito, com base nas configurações do [Centro de controle de acompanhamento](delivery-information-setup.md).
 | Pronto para avaliação de custo | Atualize o campo **Status da viagem** com o status pronto para avaliação de custo estabelecido na página **[Parâmetros de custo de entrega](landed-cost-parameters.md)**. Uma viagem poderá ser orçada quando todas as faturas forem processadas (as faturas de estoque e de custo da viagem) e as mercadorias forem recebidas. Se os custos estimados associados a uma viagem não tiverem sido orçados, ocorrerá um erro quando você tentar processar a avaliação de custo de uma viagem. |
 | Orçado | Limpe as irregularidades de avaliação de custo após a existência de uma fatura para todas as ordens de compra e custos com viagens. Quando você seleciona este botão, a caixa de diálogo **Atualização de viagem - Orçado** é exibida. Você pode optar por lançar na data financeira padrão ou especificar uma data de lançamento e, em seguida, executar a ação. É possível reexecutar a ação quantas vezes você quiser. Você também pode usar a caixa de diálogo **Atualização de viagem - Orçado** para estabelecer uma agenda para executar a ação como uma tarefa periódica (trabalho em lotes). Recomendamos que você execute regularmente a ação, configurando-a como um trabalho em lotes. |
-| Lançar lista de recibos | Lance uma lista de recebimentos para todas as linhas de ordem de compra na viagem. Se as viagens de várias empresas forem usadas, uma nova caixa de diálogo lançamento de lista de recebimentos será aberta para cada empresa e deverá ser processada em cada entidade legal. |
-| Lançar recebimento de produto | Lance um recebimento de produtos para todas as linhas de ordem de compra na viagem. O processo de recebimento de produtos para as linhas da ordem de compra associadas a uma viagem será usado apenas se as mercadorias **não** passarem por processamento de mercadorias em trânsito. Se as mercadorias passarem por processamento de mercadorias em trânsito, você receberá um erro quando tentar lançar o recebimento de produtos para uma linha da ordem de compra. Se as viagens de várias empresas forem usadas, uma nova caixa de diálogo lançamento de nota de entrega será aberta para cada empresa. |
-| Lançar fatura | Lance uma fatura para todas as linhas de ordem de compra na viagem. Se as mercadorias da viagem passarem por processamento de mercadorias em trânsito, as linhas da ordem de compra serão faturadas antes da realização do processo de recebimento. Quando a ordem de compra original for faturada, as ordens de mercadorias em trânsito associadas com as linhas da ordem de compra original serão criadas. Essas ordens podem ser recebidas pelo depósito. Se as remessas de várias empresas forem usadas, uma nova caixa de diálogo lançamento de fatura será aberta para cada empresa. |
+| Lançar lista de recibos | Lance uma lista de recebimentos para todas as linhas de ordem de compra na viagem.  |
+| Lançar recebimento de produto | Lance um recebimento de produtos para todas as linhas de ordem de compra na viagem. O processo de recebimento de produtos para as linhas da ordem de compra associadas a uma viagem será usado apenas se as mercadorias **não** passarem por processamento de mercadorias em trânsito. Se as mercadorias passarem por processamento de mercadorias em trânsito, você receberá um erro quando tentar lançar o recebimento de produtos para uma linha da ordem de compra.  |
+| Lançar fatura | Lance uma fatura para todas as linhas de ordem de compra na viagem. Se as mercadorias da viagem passarem por processamento de mercadorias em trânsito, as linhas da ordem de compra serão faturadas antes da realização do processo de recebimento. Quando a ordem de compra original for faturada, as ordens de mercadorias em trânsito associadas com as linhas da ordem de compra original serão criadas. Essas ordens podem ser recebidas pelo depósito.  |
 | Remeter ordem de transferência | Lance uma viagem de ordem de transferência para todas as linhas de ordem de transferência na viagem. Quando este botão for selecionado, somente as ordens de transferência estarão disponíveis para atualização. |
 | Receber ordem de transferência | Lance um recebimento de ordem de transferência para todas as linhas de ordem de transferência na viagem. |
 | Receber mercadorias em trânsito | Receba todas as linhas de ordem que estão em trânsito na viagem. Este botão é uma das três opções disponíveis para o recebimento de mercadorias em trânsito em uma viagem. (As outras duas opções são o botão **Criar diário de entrada**, descrito posteriormente nesta tabela, e o aplicativo móvel do Gerenciamento de Depósito). Esta opção é a mais simples e processará as mercadorias em trânsito do depósito de mercadorias em trânsito para o depósito de destino final. Se você desejar ter mais controle do processo, use o diário de entrada ou um dispositivo móvel para processar o recebimento de mercadorias. |
@@ -84,7 +84,7 @@ A tabela a seguir descreve os botões disponíveis na guia **Geral** do Painel d
 
 | Botão | Descrição |
 |---|---|
-| Lista de recebimentos | Abra uma lista de recebimentos de produtos para todas as linhas de ordem de compra na viagem. Se as viagens de várias empresas forem usadas, uma nova lista de recebimentos será aberta para cada empresa. Se nenhuma lista de recebimento de produtos tiver sido processada, este botão não estará disponível. |
+| Lista de recebimentos | Abra uma lista de recebimentos de produtos para todas as linhas de ordem de compra na viagem.  Se nenhuma lista de recebimento de produtos tiver sido processada, este botão não estará disponível. |
 | Recebimento de produtos | Abra o registro de recebimento de produtos para as linhas da ordem de compra associadas à viagem, caso esse registro seja usado. Se nenhum recebimento de produtos tiver sido lançado, este botão não estará disponível. O processo de recebimento de produtos não será usado se você estiver usando o processamento de mercadorias em trânsito. |
 | Entrada de item | Abra o diário de entrada de itens, se for usado. |
 | Rastreamento | Abra a página **Acompanhamento de entrada**, na qual você pode atualizar a data de chegada esperada de mercadorias em um contêiner de remessa e uma viagem e, depois, atualizar as datas de entrega esperadas de linhas da ordem de compra. |

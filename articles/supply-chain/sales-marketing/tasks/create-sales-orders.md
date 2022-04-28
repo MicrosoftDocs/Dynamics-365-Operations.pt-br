@@ -2,7 +2,7 @@
 title: Criar ordens de venda
 description: Este procedimento mostra como criar uma ordem de venda.
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566280"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551714"
 ---
 # <a name="create-sales-orders"></a>Criar ordens de venda
 
@@ -66,5 +66,7 @@ Os bens vendidos pela sua organização podem vir em grades diferenciadas por di
     
 3. Selecione **OK**.
 
+## <a name="sales-order-creation-performance-enhancement"></a>Aprimoramento de desempenho da criação da ordem de venda
+O novo recurso introduzido com o aplicativo versão 10.0.26 reduz a criação de registros extras para as tabelas **SourceDocumentHeader** e **SourceDocumentLine**. O desempenho é melhorado e o tamanho do armazenamento é reduzido porque esses registros não são criados. Essas tabelas de estrutura do documento de origem subjacente não são usadas para ordens de venda no produto neste momento, e não há planos para utilizá-las. A habilitação desse recurso é considerada uma alteração segura para melhorar o desempenho. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
