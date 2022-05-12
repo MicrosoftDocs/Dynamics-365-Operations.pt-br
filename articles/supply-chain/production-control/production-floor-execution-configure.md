@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384738"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644322"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -111,17 +111,67 @@ Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de rec
 
 - *(Versão preliminar) Relatório de itens de peso variável da interface de execução do piso de produção*
 
+### <a name="enable-the-my-day-dialog"></a>Habilitar a caixa de diálogo "Meu dia"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+A caixa de diálogo **Meu dia** oferece aos trabalhadores uma visão geral dos registros diários e dos saldos atuais de tempo pago, hora extra paga, ausência e ausência paga.
+
+Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Exibição "Meu dia" da interface de execução de piso de produção*
+
+### <a name="enable-teams"></a>Habilitar equipes
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Quando vários trabalhadores são designados para o mesmo trabalho de produção, eles podem formar uma equipe. A equipe pode designar um trabalhador como coordenador. Os trabalhadores restantes se tornarão automaticamente assistentes desse coordenador. Para a equipe resultante, somente o coordenador deve registrar o status do trabalho. Os registros de hora se aplicam a todos os membros da equipe.
+
+Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Equipes de produção na interface de execução de piso de produção*
+
+### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Habilitar a configuração adicional na interface de execução de piso de produção
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Esse recurso adiciona configurações para a seguinte funcionalidade na página **Configurar execução de piso de produção**:
+
+- Abrir automaticamente a caixa de diálogo **Iniciar trabalho** quando uma pesquisa é concluída.
+- Abrir automaticamente a caixa de diálogo **Progresso do relatório** quando uma pesquisa é concluída.
+- Preencher previamente a quantidade restante na caixa de diálogo **Progresso do relatório**.
+- Permitir os ajustes de consumo de material a partir da caixa de diálogo **Progresso do relatório**. (Essa funcionalidade também requer o recurso *Registrar consumo de material na interface de execução do piso de produção (não WMS)*.)
+- Habilitar pesquisas por ID de projeto.
+
+As informações sobre como usar as configurações são fornecidas mais adiante neste tópico.
+
+Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Configuração adicional na interface de execução de piso de produção*
+
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabalhar com configurações de execução de piso de produção
 
 Para criar e manter as configurações de execução de piso de produção, acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**. A página **Configurar execução de piso de produção** mostra uma lista das configurações existentes. Nessa página, você pode executar as seguintes ações:
 
 - Selecione qualquer configuração de piso de produção listada na coluna à esquerda para exibi-la e editá-la.
-- Selecione **Novo** no Painel de Ações para adicionar uma nova configuração à lista. Em seguida, no campo **Configuração**, insira um nome para identificar a nova configuração. O nome inserido deve ser exclusivo entre todas as configurações e você não poderá editá-lo posteriormente.
+- Selecione **Novo** no Painel de Ações para adicionar uma nova configuração à lista. Em seguida, no campo **Configuração**, insira um nome para identificar a nova configuração. O nome inserido deve ser exclusivo entre todas as configurações e você não poderá editá-lo posteriormente. No campo **Descrição**, você pode inserir uma descrição da configuração.
 
-Em seguida, defina as várias configurações para a configuração selecionada. Os seguintes campos estão disponíveis:
+Em seguida, defina as várias configurações para a configuração selecionada, conforme descrito nas subseções a seguir.
 
-- **Somente entrada e saída** – Defina esta opção como *Sim* para criar uma interface simplificada que forneça somente a funcionalidade de entrada e saída. Isso desabilita a maioria das outras opções desta página. Você deve remover todas as linhas da Guia Rápida **Seleção de guias** para poder habilitar esta opção.
-- **Habilitar pesquisa**: defina esta opção como *Sim* para incluir um campo de pesquisa na lista de trabalhos. Os trabalhadores podem encontrar um trabalho específico inserindo a ID do trabalho ou encontrar todos os trabalhos para uma ordem específica inserindo a ID da ordem. Os trabalhadores podem inserir a ID usando um teclado ou digitalizando um código de barras.
+### <a name="the-general-fasttab"></a>Guia rápida Geral
+
+As configurações a seguir estão disponíveis na guia rápida **Geral**:
+
+- **Somente entrada e saída** – defina esta opção como *Sim* para criar uma interface simplificada que forneça somente a funcionalidade de entrada e saída. Essa configuração desabilita a maioria das outras opções desta página. Você deve remover todas as linhas da Guia Rápida **Seleção de guias** para poder habilitar esta opção.
+- **Habilitar pesquisa** – defina esta opção como *Sim* para incluir um campo de pesquisa na lista de trabalhos. Os trabalhadores podem encontrar um trabalho específico inserindo a ID do trabalho ou encontrar todos os trabalhos para uma ordem específica inserindo a ID da ordem. Os trabalhadores podem inserir a ID usando um teclado ou digitalizando um código de barras.
+- **Habilitar pesquisa por ID de projeto** – defina esta opção como *Sim* para permitir que os trabalhadores pesquisem por ID de projeto (além das IDs do trabalho e da ordem) no campo de pesquisa da interface de execução de piso de produção. Você só poderá definir essa opção como *Sim* se a opção **Habilitar pesquisa** também estiver definida como *Sim*.
+- **Abrir automaticamente a caixa de diálogo inicial** – quando essa opção está definida como *Sim*, a caixa de diálogo **Iniciar trabalho** é automaticamente aberta quando os trabalhadores usam a barra de pesquisa para encontrar um trabalho.
+- **Abrir automaticamente a caixa de diálogo de progresso do relatório** – quando essa opção está definida como *Sim*, a caixa de diálogo **Progresso do relatório** é automaticamente aberta quando os trabalhadores usam a barra de pesquisa para encontrar um trabalho.
+- **Habilitar ajuste de material** – defina essa opção como *Sim* para habilitar o botão **Ajustar material** na caixa de diálogo **Progresso do relatório**. Os trabalhadores podem selecionar esse botão para ajustar o consumo de material para cada trabalho.
 - **Quantidade de relatório em registro de saída** - defina essa opção como *Sim* para que os funcionários façam comentários sobre os trabalhos em andamento durante o registro de saída. Quando definido como *Não*, os funcionários não serão solicitados.
 - **Bloquear funcionário** – quando essa opção for definida como *Não*, os trabalhadores serão desconectados imediatamente depois que fizerem um registro (como um novo trabalho). A interface retornará à página de entrada. Quando esta opção for definida como *Sim*, os trabalhadores permanecerão conectados à interface de execução de piso de produção. No entanto, um trabalhador pode se desconectar manualmente para que outro trabalhador possa entrar enquanto a interface de execução de piso de produção continua em execução na mesma conta de usuário do sistema. Para obter mais informações sobre esses tipos de contas, consulte [Usuários atribuídos](config-job-card-device.md#assigned-users).
 - **Usar o tempo real de registro** - defina essa opção como *Sim* para definir a hora para cada novo registro como a hora exata em que o trabalhador enviou o registro. Quando essa opção for definida como *Não*, a hora de entrada será usada. Em geral, você desejará definir essa opção como *Sim* se tiver definido as opções **Bloquear funcionário** e/ou **Trabalhador único** como *Sim* em casos onde os trabalhadores com frequência permanecem conectados por períodos mais longos.
@@ -130,7 +180,17 @@ Em seguida, defina as várias configurações para a configuração selecionada.
 - **Duração do bloqueio de tela** - quando a opção **Permitir bloqueio da tela touch** estiver definida como *Sim*, use essa opção para especificar o número de segundos de bloqueio da tela touch para correção. A duração deve ser entre 5 e 120 segundos.
 - **Gerar placa de licença** – Defina essa opção como *Sim* para gerar uma nova placa de licença cada vez que um trabalhador usar a interface de execução de piso de produção para relatar como concluído. O número da placa de licença é gerado de uma sequência numérica configurada na página **Parâmetros de gerenciamento de depósito**. Quando essa opção estiver definida como *Não*, os trabalhadores deverão especificar uma placa de licença existente ao relatarem como concluído.
 - **Imprimir etiqueta** – Defina essa opção como *Sim* para imprimir uma etiqueta da placa de licença quando um trabalhador usar a interface de execução de piso de produção para relatar como concluído. A configuração da etiqueta é configurada no roteamento de documentos, conforme descrito no [Layout de roteamento de documentos para etiquetas da placa de licença](../warehousing/document-routing-layout-for-license-plates.md).
-- **Seleção de guias** – Use as configurações desta seção para escolher quais guias devem ser exibidas pela interface de execução de piso de produção quando a configuração atual estiver ativa. Você pode criar quantas guias quiser e, em seguida, adicioná-las e organizá-las aqui, conforme necessário. Para obter detalhes sobre como criar guias e trabalhar com as configurações aqui, consulte [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).
+
+### <a name="the-tab-selection-fasttab"></a>Guia rápida de seleção de guia
+
+Use as configurações na guia rápida **Seleção de guia** para escolher quais guias devem ser exibidas pela interface de execução de piso de produção quando a configuração atual estiver ativa. Você pode criar quantas guias forem necessárias e, em seguida, adicioná-las e organizá-las conforme apropriado usando os botões da barra de ferramentas de Guia rápida. Para obter informações sobre como criar guias e trabalhar com as configurações aqui, consulte [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).
+
+### <a name="the-report-progress-fasttab"></a>Guia rápida Progresso do relatório
+
+As configurações a seguir estão disponíveis na guia rápida **Progresso do relatório**:
+
+- **Habilitar ajuste de material** – defina essa opção como *Sim* para incluir o botão **Ajustar material** na caixa de diálogo **Progresso do relatório**. Os trabalhadores podem selecionar esse botão para ajustar o consumo de material para cada trabalho.
+- **Quantidade restante padrão** – defina essa opção como *Sim* para preencher previamente a quantidade restante esperada para um trabalho de produção na caixa de diálogo **Progresso do relatório**.
 
 ## <a name="clean-up-job-configurations"></a>Limpar configurações de trabalho
 

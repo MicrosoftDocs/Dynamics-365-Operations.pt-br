@@ -2,7 +2,7 @@
 title: Visão geral de trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071076"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644449"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -74,8 +74,11 @@ Quando você seleciona uma entidade, é necessário selecionar o formato de dado
 > [!NOTE]
 > É importante selecionar o valor correto para **Delimitador de linha**, **Delimitador de coluna** e **Qualificador de texto**, se a opção **Formato de arquivo** estiver definida como **Delimitado**. Verifique se os dados não contêm o caractere usado como delimitador ou qualificador, pois isso pode resultar em erros durante a importação e a exportação.
 
+> [!NOTE]
+> Para formatos de arquivo baseados em XML, certifique-se de usar apenas caracteres válidos. Para obter mais detalhes sobre caracteres válidos, consulte [Caracteres válidos no XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). O XML 1.0 não permite nenhum caractere de controle, exceto tabulações, retornos de carro e feeds de linha. Exemplos de caracteres inválidos são colchetes, chaves e barras invertidas. 
+
 ### <a name="sequence-the-entities"></a>Definir sequências das entidades
-As entidades podem ser sequenciadas em um modelo de dados, ou em trabalhos de importação e exportação. Quando você executa um trabalho que contém mais de uma entidade de dados, você deve garantir que as entidades de dados estão sequenciadas corretamente. Você define a sequência, de forma que possa tratar todas as dependências funcionais entre entidades. Se as entidades se não tiverem dependências funcionais, elas podem ser programadas para importação ou exportação paralela.
+As entidades podem ser sequenciadas em um modelo de dados, ou em trabalhos de importação e exportação. Quando você executa um trabalho que contém mais de uma entidade de dados, você deve garantir que as entidades de dados estão sequenciadas corretamente. Você define a sequência, de forma que possa tratar todas as dependências funcionais entre entidades. Se as entidades se não tiverem dependências funcionais, elas podem ser programadas para importação ou exportação paralela. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Unidades de execução, níveis, e sequências
 A unidade de execução, nível na unidade de execução e sequência de ajuda da entidade controlam a ordem em que os dados são exportados ou importados.

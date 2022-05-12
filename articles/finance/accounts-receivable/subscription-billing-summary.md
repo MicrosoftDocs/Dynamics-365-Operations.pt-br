@@ -2,7 +2,7 @@
 title: Visão geral da cobrança de assinatura
 description: Este tópico descreve a cobrança de assinatura no Microsoft Dynamics 365 Finance.
 author: JodiChristiansen
-ms.date: 02/09/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462459"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644517"
 ---
 # <a name="subscription-billing-overview"></a>Visão geral da cobrança de assinatura
 
@@ -33,6 +33,8 @@ A solução tem três módulos que podem ser usados independentemente. Como alte
 - **Cobrança recorrente de contrato** – Este módulo permite o gerenciamento de preços e a cobrança recorrente para oferecer controle sobre os parâmetros de cobrança e de preços, renovação de contrato e o faturamento consolidado.
 - **Diferimentos de receita e despesas** – Este módulo elimina os processos manuais e a dependência de sistemas externos, gerenciando a receita e permitindo uma visão geral em tempo real da receita recorrente mensal.
 - **Alocação de receita de vários elementos** – Este módulo ajuda na conformidade da receita ao lidar com a alocação de receita e preços em vários itens.
+
+Para obter mais informações sobre cobrança de assinatura, consulte [Cobrança de assinatura de conteúdo do Power BI](sub-bill-power-bi.md).
 
 A cobrança de assinatura é habilitada por meio do **Gerenciamento de recursos**. No entanto, não pode ser usada com o recurso **Reconhecimento de receita**. Portanto, você deve desabilitar esse recurso antes de habilitar a cobrança de assinatura.
 

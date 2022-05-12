@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749043"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629390"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Criar pagamentos de fornecedores usando uma proposta de pagamento
 
@@ -48,7 +48,7 @@ A consulta de proposta de pagamento contém diversas guias, cada uma com diferen
 - **Incluir faturas de fornecedor de outras entidades legais** – se sua organização tiver um processo centralizado para pagamento, e se a proposta de pagamento tiver de incluir faturas de outras entidades legais incluídas nos critérios da pesquisa, defina essa opção como **Sim**.
 - **Propõe o pagamento de fornecedor separados por pessoa jurídica** – se essa opção for definida como **Sim**, um pagamento separado será criado para cada entidade legal por fornecedor. O fornecedor no pagamento é o fornecedor da fatura de cada entidade legal. Se essa opção for definida como **Não**, e se o mesmo fornecedor tiver faturas em várias entidades legais, um pagamento será criado para o valor total das faturas selecionadas. O fornecedor no pagamento é o fornecedor na entidade legal atual. Se a conta do fornecedor não existir na entidade legal atual, será usada a conta do fornecedor da primeira fatura que deve ser paga.
 - **Moeda do pagamento** – Esse campo especifica a moeda em que todos os pagamentos são criados. Se uma moeda não for definida, cada fatura será paga na moeda da fatura.
-- **Dia da semana de pagamento** – insira o dia da semana em que o pagamento deve ser feito. Esse campo só será usado se o método de pagamento for configurado para o total de faturas para pagamento em um determinado dia da semana.
+- **Dia da semana de pagamento** – informe o dia da semana em que o pagamento deve ser feito, este campo é usado somente se a forma de pagamento estiver definida como **Semana**. O valor das faturas para pagamento é totalizado no dia da semana especificado para pagamento.
 - **Tipo de contrapartida** e **Contrapartida** – Defina esses campos para definir um tipo de conta específico (como **Razão** ou **Banco**) e a contrapartida (como uma conta bancária específica). O método de pagamento da fatura define o tipo de contrapartida e a contrapartida padrão, mas você pode usar esses campos para substituir os valores padrão.
 - **Data do pagamento resumido** – Isso será usado somente quando o campo **Período** no método de pagamento estiver definido como **Total**. Se uma data for definida, todos os pagamentos serão criados nessa data. O campo **Data de pagamento mínima** será ignorado.
 - **Filtros adicionais** – na Guia Rápida **Registros a serem incluídos**, você pode definir intervalos adicionais de critérios. Por exemplo, se você quiser pagar somente um intervalo de fornecedores, poderá definir um filtro para o intervalo de fornecedores. Essa funcionalidade é frequentemente usada para selecionar faturas para um método específico de pagamento. Por exemplo, se você definir um filtro onde **Método de pagamento** = **Verificação**, somente as faturas com esse método de pagamento serão selecionadas para pagamento, contanto que também satisfaçam outros critérios especificados na consulta.
@@ -116,7 +116,7 @@ O controle de dimensão permite que você controle ao agrupar linhas gerados por
 
 #### <a name="bank-account-selection"></a>Seleção de conta bancária
 
-Você pode definir um padrão que debita a conta de pagamento por método de indiferente contexto do país de pagamento. Isso será definido nas linhas de pagamento geradas pela proposta. Com o recurso de conta bancária, você pode definir várias contas bancárias de débito gerenciadas por dimensão e moeda ou uma combinação delas para usar diferentes contas bancárias de débito, dependendo de cada combinação. Configure essas combinações na página **Métodos de pagamento** usando o botão **Contas bancárias** disponível para cada método de pagamento com **Tipo de lançamento​ de conta** = **Banco**.
+Você pode definir um padrão que debita a conta de pagamento por método de indiferente contexto do país de pagamento. Isso será definido nas linhas de pagamento geradas pela proposta. Com o recurso de conta bancária, você pode definir várias contas bancárias de débito gerenciadas por dimensão e moeda ou uma combinação delas para usar diferentes contas bancárias de débito, dependendo de cada combinação. Configure essas combinações na página **Formas de pagamento** usando o botão **Contas bancárias** disponível para cada método de pagamento com **Tipo de conta de lançamento** = **Banco**.
 
 
 

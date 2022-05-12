@@ -2,24 +2,20 @@
 title: Criar devoluções no POS
 description: Este tópico descreve como iniciar devoluções para transações cash-and-carry ou ordens de clientes no aplicativo Microsoft Dynamics 365 Commerce Point of Sale (POS).
 author: hhainesms
-ms.date: 02/24/2022
+ms.date: 04/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349682"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8648979"
 ---
 # <a name="create-returns-in-pos"></a>Criar devoluções no POS
 
@@ -107,9 +103,64 @@ A lista a seguir fornece os requisitos mínimos de versão para os vários compo
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Habilitar o cálculo de imposto apropriado para devoluções com quantidade parcial
 
 Esse recurso garante que, quando uma ordem é devolvida com várias faturas, os impostos serão basicamente iguais ao valor do imposto cobrado originalmente.
-1.  Acesse o espaço de trabalho **Gerenciamento de recursos** e procure **Habilitar o cálculo de imposto apropriado para devoluções com quantidade parcial**.
-2.  Selecione **Habilitar o cálculo de imposto apropriado para devoluções com quantidade parcial** e clique em **Habilitar**.
 
+1. No espaço de trabalho **Gerenciamento de recursos**, procure **Habilitar o cálculo de imposto apropriado para devoluções com quantidade parcial**.
+1. Selecione o recurso **Habilitar o cálculo de imposto apropriado para devoluções com quantidade parcial** e depois **Habilitar**.
+
+## <a name="set-up-return-locations-for-retail-stores"></a>Configurar locais de devolução para lojas de varejo
+
+O Commerce permite que você configure os locais de devolução com base em códigos informativos de varejo e em códigos de motivo de vendas e marketing. Quando os clientes devolvem as compras, os caixas frequentemente indicam o motivo da devolução. Você pode especificar que os produtos devolvidos devem ser atribuídos a diferentes localizações de devolução em estoque, com base nos códigos informativos e de motivo que os caixas selecionam no registro do PDV.
+
+Por exemplo, um cliente retorna um produto defeituoso, e o caixa processa a transação de devolução. Quando o Retail POS mostra o código informativo das devoluções, o caixa seleciona o subcódigo para devoluções defeituosas. O produto devolvido é, então, atribuído automaticamente a uma localização de devolução específica.
+
+Uma localização de devolução pode ser um depósito, uma localização em um depósito ou mesmo um palete específico, dependendo das localizações de estoque configuradas por sua organização. Você pode mapear cada localização de devolução para um ou mais códigos informativos de varejo e códigos de motivo de vendas e marketing.
+
+### <a name="prerequisites"></a>Pré-requisitos
+
+Antes de configurar as localizações de devolução, é necessário configurar os seguintes elementos:
+
+- **Códigos de informação de varejo** – alertas no registro de PDV que são configurados no módulo **Varejo**. Para obter mais informações, consulte [Configurar códigos informativos](/dynamicsax-2012/appuser-itpro/setting-up-info-codes).
+- **Códigos de motivo de venda e marketing** – alertas no registro de PDV que são configurados no módulo **Vendas e marketing**. Para obter mais informações, consulte [Configurar códigos de motivo](/dynamicsax-2012/appuser-itpro/set-up-return-reason-codes).
+- **Localizações de estoque** – os locais onde o estoque é mantido. Para obter mais informações, consulte [Configurar localizações de estoque](/dynamicsax-2012/appuser-itpro/about-locations).
+    
+### <a name="set-up-return-locations"></a>Configurar localizações de devolução
+
+Para configurar localizações de devolução, siga estas etapas:
+
+1. Go to **Varejo e Comércio \> Configuração de canal \> Depósitos** e selecione depósito.
+1. Na guia rápida **Varejo**, no campo **Localização de devolução padrão**, selecione a localização de estoque a ser usada para devoluções em que os códigos informativos ou códigos de motivo não estão mapeados para os locais de devolução.
+1. No campo **Palete de devolução padrão**, selecione o palete a ser usado para devoluções em que os códigos informativos ou códigos de motivo não estão mapeados para os locais de devolução.
+1. Acesse **Varejo e comércio \> Gerenciamento de estoque \> Localizações de devolução**.
+1. Selecionar **Novo** para criar uma política de localização de devolução.
+1. Digite um nome exclusivo e uma descrição para a localização de devolução.
+
+    > [!NOTE]
+    > Se uma sequência numérica foi configurada para as localizações de devolução, o nome é inserido automaticamente.
+
+1. Na guia rápida **Geral**, defina a opção **Imprimir etiquetas** como **Sim** para imprimir etiquetas para todos os produtos atribuídos às localizações de devolução.
+1. Defina a opção **Bloquear estoque** como **Sim** para manter os produtos devolvidos na localização de devolução padrão fora de estoque e impedir que sejam vendidos.
+1. Para mapear códigos e subcódigos de informações de varejo específicos para as localizações de devolução, realize estas etapas:
+
+    1. Na guia rápida **Códigos de informações de varejo**, selecione **Adicionar**.
+    1. No campo **Códigos de informações**, selecione um código de informação para devoluções.
+    1. No campo **Subcódigo**, selecione um subcódigo do motivo da devolução. O campo **Descrição** mostra uma descrição do subcódigo selecionado.
+    1. No campo **Loja**, selecione a loja na qual o código informativo foi usado.
+    1. Use os campos de **Depósito**, **Local** e **ID de palete** para especificar uma localização de devolução. Por exemplo, para especificar uma localização em uma loja, selecione uma loja no campo **Loja** e uma localização no campo **Localização**.
+    1. Marque a caixa de seleção **Bloquear estoque** para manter os produtos devolvidos fora do estoque e impedir que sejam vendidos.
+
+1. Para mapear códigos de motivo de vendas e marketing para as localizações de devolução, realize estas etapas:
+
+    1. Na guia rápida **Códigos de motivo de vendas e marketing**, selecione **Adicionar**.
+    1. No campo **Código de motivo**, selecione um novo código de motivo para devoluções. O campo **Descrição** mostra uma descrição do código de motivo selecionado.
+    1. No campo **Loja**, selecione a loja na qual o código de motivo foi usado.
+    1. Use os campos de **Depósito**, **Local** e **ID de palete** para especificar uma localização de devolução. Por exemplo, para especificar um palete em uma localização em um depósito, selecione um depósito no campo **Depósito**, uma localização no campo **Localização** e um palete no campo **ID do palete**.
+    1. Marque a caixa de seleção **Bloquear estoque** para manter os produtos devolvidos fora do estoque e impedir que sejam vendidos.
+
+    > [!NOTE]
+    > Se uma política de localização de devolução for usada para um item, mas o motivo de devolução que um caixa selecionar não coincidir com um código especificado na guia rápida **Códigos informativos de varejo** ou **Códigos de motivo de vendas e marketing**, o item será enviado para a localização de devolução padrão definida na página **Depósito**. Além disso, a configuração da caixa de seleção **Bloquear estoque** na guia rápida **Geral** da página **Localizações de devolução** determina se o item devolvido deve ser bloqueado.
+
+1. Vá para **Varejo e comércio \> Hierarquia de produtos de comércio**.
+1. Na guia rápida **Gerenciar propriedades da categoria de estoque**, no campo **Localização de devolução**, selecione um local de devolução. Como várias políticas de localização de devolução podem ser definidas para a mesma loja, o valor selecionado aqui determina a política de local de devolução usada.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

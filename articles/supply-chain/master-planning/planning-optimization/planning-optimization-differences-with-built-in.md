@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468318"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618250"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferenças entre planejamento mestre interno e Otimização de Planejamento
 
@@ -37,6 +37,7 @@ Os resultados da Otimização de Planejamento podem ser diferentes dos resultado
 | Vinculação e requisitos líquidos de estoque de segurança | O tipo de requisito *Estoque de segurança* não está incluído e não é exibido na página **Requisitos líquidos**. O estoque de segurança não representa a demanda e não tem uma data de requisito associada. Em vez disso, ele define uma restrição sobre a quantidade de estoque que deve estar sempre presente. No entanto, o valor do campo **Mínimo** ainda é considerado ao calcular ordens planejadas durante o planejamento mestre. Sugerimos que você inspecione a coluna **Quantidade acumulada** na página **Requisitos líquidos** para ver que esse valor foi considerado. |
 | Calendários de transporte | O valor na coluna **Calendário de transporte** na página **Modos de entrega** é ignorado. |
 | Código de cobertura mín./máx. sem valores| Com o mecanismo de planejamento incorporado, ao usar um código de cobertura mín./máx. onde nenhum valor mínimo ou máximo é definido, o mecanismo de planejamento trata o código de cobertura como um requisito e cria uma ordem para cada requisito. Com a otimização de planejamento, o sistema criará uma ordem por dia para cobrir o valor total desse dia.  |
+| Requisitos líquidos e ordens planejadas criadas manualmente | Com o mecanismo de planejamento incorporado, as ordens de fornecimento criadas manualmente para um item aparecem automaticamente entre os requisitos líquidos para aquele item. Por exemplo, ao criar uma ordem de compra a partir de uma ordem de venda, a ordem de compra aparece na página **Requisitos líquidos** sem exigir ações anteriores. Isso ocorre porque o mecanismo de planejamento integrado registra as transações de estoque na tabela do `inventLogTTS` e mostra as alterações na página **Requisitos líquidos** para planos dinâmicos. No entanto, com a Otimização de Planejamento, as ordens criadas manualmente não aparecerão entre os requisitos líquidos de um item até que a Otimização de Planejamento seja executada (usando um plano que inclui o item) ou até você selecionar **Atualizar \> Planejamento mestre** no Painel de Ações na página **Requisitos líquidos**, que executará o planejamento mestre para o item. Para obter mais informações sobre como trabalhar com a página **Requisitos líquidos**, consulte [Requisitos líquidos e informações de vinculação com a Otimização de Planejamento](net-requirements.md). |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

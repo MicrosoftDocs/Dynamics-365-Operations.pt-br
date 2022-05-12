@@ -2,7 +2,7 @@
 title: Ajustar arrendamentos
 description: O tópico explica como ajustar um arrendamento. O ajuste pode ser necessário, se os prazos de arrendamento forem modificados, o arrendamento for estendido ou outras circunstâncias são alteradas.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729645"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644545"
 ---
 # <a name="adjust-leases"></a>Ajustar arrendamentos
 
@@ -134,5 +134,19 @@ Se um arrendamento tiver sido ajustado, você poderá exibir as diferentes vers�
 2. Para exibir agendas históricas, abra o arrendamento modificado na página **Resumo do arrendamento**, selecione o livro desejado e, no Painel de Ação, selecione **Histórico de versão do livro**.
 3. Na página **Versão do registro**, selecione uma versão e uma agenda a ser exibida.
 
+## <a name="adjust-a-lease-book"></a>Ajustar um registro de arrendamento
+
+Siga estas etapas para ajustar apenas um registro de arrendamento.
+
+1. Acesse **Arrendamento de ativo** \> **Arrendamento** \> **Resumo de arrendamento**.
+2. Selecione e abra um arrendamento.
+3. Na página **Detalhes do arrendamento**, selecione **Registros**.
+4. Na página **Detalhes dos registros**, no Painel de Ações, no grupo **Manter**, selecione **Ajustar registro**. 
+5. Remova as linhas da agenda de pagamento.
+6. No campo **Data da modificação do arrendamento**, insira a data de modificação. Considere a possibilidade de remover todas as considerações adicionais sobre ativos/passivos (custo direto inicial, incentivo ao arrendamento, pagamento antecipado de arrendamento, custo de desmontagem e garantia de valor residual), se houver. 
+7. Para ajudar a evitar cálculos imprecisos para o ajuste de arrendamento, adicione novas linhas da agenda de pagamento para as novas datas de pagamento que correspondam à data de modificação. 
+
+> [!NOTE] 
+> É recomendável usar o assistente **Ajuste de arrendamento** para ajustar um arrendamento. O assistente reduz o número de etapas manuais, fornece uma pré-visualização de saldos após o ajuste e permite alterar os valores antes do lançamento.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

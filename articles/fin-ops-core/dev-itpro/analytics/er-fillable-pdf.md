@@ -2,7 +2,7 @@
 title: Criar configurações de ER a serem preenchidas em modelos de PDF
 description: Este tópico fornece informações sobre como criar um formato de relatório eletrônico (ER) para preencher um modelo PDF.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367808"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645097"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Criar configurações de ER a serem preenchidas em modelos de PDF
 
 [!include[banner](../includes/banner.md)]
 
-Os procedimentos neste tópico são exemplos que mostram como um usuário na função **Administrador do sistema** ou **Desenvolvedor de relatório eletrônico** pode configurar um formato de relatório eletrônico (ER) que gera relatórios como arquivos PDF usando documentos PDF preenchíveis como modelos de relatório. Essas etapas podem ser executadas em qualquer empresa do Dynamics 365 Finance ou serviços de configuração regulatória (RCS).
+Os procedimentos neste tópico são exemplos que mostram como um usuário na função **Administrador do sistema** ou **Desenvolvedor de relatório eletrônico** pode configurar um formato de relatório eletrônico (ER) que gera relatórios como arquivos PDF usando documentos PDF preenchíveis como modelos de relatório. Essas etapas podem ser executadas em qualquer empresa do Dynamics 365 Finance ou de Regulatory Configuration Services (RCS).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -252,10 +252,14 @@ Como as duas propriedades são opcionais para um elemento do formato **Campo**, 
 - Se o atributo **Nome** estiver definido e a expressão **Nome** estiver configurada, o campo PDF com o mesmo nome do valor retornado pela expressão **Nome** do elemento de formato será preenchido.
 
 > [!NOTE]
-> Uma caixa de seleção de PDF pode ser preenchida conforme selecionada das seguintes maneiras:
+> Quando uma caixa de seleção no modelo PDF não pertence a um grupo de caixas de seleção, ela é representada no formato ER editável como um elemento **Campo** aninhado no elemento **Arquivo PDF**. Esse tipo de caixa de seleção de PDF pode ser definido como selecionado das seguintes maneiras:
 >
-> - Quando o elemento **Campo** correspondente está associado a um campo de fonte de dados do tipo de dados **Booleano** que possui o valor **Verdadeiro**.
-> - Quando o elemento de formato **Campo** correspondente contém um elemento de formato **String** aninhado que é associado a um campo de fonte de dados com um valor de texto de **1**, **Verdadeiro** ou **Sim**
+> - O elemento de formato **Campo** correspondente está vinculado a um campo de fonte de dados do tipo de dados *[Booliano](er-formula-supported-data-types-primitive.md#boolean)* que tem um valor de **Verdadeiro**.
+> - O elemento de formato **Campo** correspondente contém um elemento de formato **Cadeia de caracteres** aninhado que é associado a um campo de fonte de dados com um valor de texto de **1**, **Verdadeiro** ou **Sim**.
+>
+> O modelo pode conter um grupo de caixas de seleção em que apenas uma caixa de seleção pode ser selecionada por vez. Essas caixas de seleção são representadas em um modelo PDF como vários campos de formulário do tipo *CAIXA DE SELEÇÃO*. Os campos têm o mesmo nome, mas um valor de exportação diferente. Ao importar o modelo para o formato ER editável, cada caixa de seleção será representada na estrutura hierárquica do formato como um elemento **Item do grupo de caixas de seleção** que está aninhado no mesmo elemento **Grupo de caixas de seleção**. O nome do elemento **Grupo de caixas de seleção** será igual ao nome dos campos de caixa de seleção no modelo PDF. O nome de cada elemento **Item do grupo de caixas de seleção** será igual ao valor de exportação do campo de caixa de seleção correspondente no modelo PDF.
+>
+> Você só pode associar um elemento **Item do grupo de caixas de seleção** a um campo de fonte de dados do tipo de dados *Booliano*.
 
 ## <a name="run-the-format-configuration"></a>Executar a configuração de formato
 

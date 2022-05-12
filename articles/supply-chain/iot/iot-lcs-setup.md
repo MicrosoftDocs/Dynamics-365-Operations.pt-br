@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781579"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645067"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Instale o suplemento de Inteligência de IoT no LCS
 
 [!include [banner](../../includes/banner.md)]
 
 Este tópico explica como instalar o suplemento de Inteligência de IoT no Microsoft Dynamics Lifecycle Services (LCS). Observe que não é possível instalar suplementos em um ambiente de demonstração/avaliação. Para poder instalar o suplemento, você deve [criar os recursos do Azure](iot-azure-setup.md).
+
+Você pode configurar a Inteligência da IoT sem escrever nenhum código. Estas são as etapas básicas.
+
+1. [Configurar recursos do Azure](iot-azure-setup.md) – crie um hub IoT, um cache Redis e um cofre de chaves que possam ser acessados no Supply Chain Management.
+2. [Formatos de esquema de mensagens para o Hub IoT](iot-schema-format.md) – configure seus dispositivos para enviar mensagens ao Hub IoT e defina o formato de mensagem JSON (JavaScript Object Notation).
+3. Em Gerenciamento de Recursos, habilite o sinalizador de recurso de Inteligência da IoT.
+4. Instalar o suplemento Inteligência da IoT no Microsoft Dynamics Lifecycle Services (LCs) – instale o suplemento no LCS e configure os segredos do Azure (conforme descrito neste tópico).
+5. [Configurar métricas](iot-metrics-setup.md) – configure métricas no Supply Chain Management.
+6. [Configuração do cenário](iot-scenario-setup.md) – configure os cenários no Supply Chain Management.
 
 ## <a name="set-up-the-lcs-environment"></a>Configurar o ambiente LCS
 

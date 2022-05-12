@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324078"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661648"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personalizar configurações do relatório eletrônico para gerar um documento eletrônico
 
@@ -61,7 +61,7 @@ Como usuário na função de Consultor Funcional de Relatório Eletrônico ou De
 ### <a name="configure-er-parameters"></a>Configurar parâmetros de ER
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
-2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
+2. Na página **Blueprint de localização**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
 3. Na página **Parâmetros de relatório eletrônico**, na guia **Geral**, defina a opção **Habilitar modo de design** como **Sim**.
 4. Na guia **Anexos**, no campo **Configurações**, selecione **Arquivo**.
 5. Nos campos **Arquivo de trabalho**, **Temporário**, **Linha de base** e **Outros**, selecione o tipo **Arquivo**.
@@ -78,13 +78,13 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 #### <a name="review-the-list-of-er-configuration-providers"></a>Examinar a lista de provedores de configuração de ER
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
-2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
+2. Na página **Blueprint de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Tabela de provedores de configuração**, cada registro de provedor tem um nome e uma URL exclusivos. Examine o conteúdo dessa página. Se já existir um registro para **Litware, Ltda.** (`https://www.litware.com`), ignore o próximo procedimento, [Adicionar um novo provedor de configuração de ER](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Adicionar um novo provedor de configuração de ER
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
-2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
+2. Na página **Blueprint de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Provedores de configuração**, selecione **Novo**.
 4. No campo **Nome**, insira **Litware, Ltda.**
 5. No campo **Endereço na Internet**, insira `https://www.litware.com`.
@@ -93,7 +93,7 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 #### <a name="activate-an-er-configuration-provider"></a>Ativar um provedor de configuração de ER
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
-2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Litware, Ltda.** e, depois, **Definir como ativo**.
+2. Na página **Blueprint de localização**, na seção **Provedores de configuração**, selecione o bloco **Litware, Ltda.** e, depois, **Definir como ativo**.
 
 Para obter mais informações sobre provedores de configuração de ER, consulte [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -102,7 +102,7 @@ Para obter mais informações sobre provedores de configuração de ER, consulte
 Para adicionar as configurações de ER padrão à instância atual do Finance, você deve importá-las do [repositório](general-electronic-reporting.md#Repository) de ER configurado para essa instância.
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
-2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Microsoft** e, depois, selecione **Repositórios** para ver a lista de repositórios do provedor Microsoft.
+2. Na página **Blueprint de localização**, na seção **Provedores de configuração**, selecione o bloco **Microsoft** e, depois, selecione **Repositórios** para ver a lista de repositórios do provedor Microsoft.
 3. Na página **Repositórios de configuração**, selecione o repositório do tipo **Global** e, depois, selecione **Abrir**. Se você precisar de autorização para se conectar ao Regulatory Configuration Service, siga as instruções de autorização.
 4. Na página **Repositório de configuração**, na árvore de configuração no painel esquerdo, selecione a configuração de formato **Fatura de Venda Peppol**.
 5. Na Guia Rápida **Versões**, selecione a versão **11.2.2**.
@@ -116,7 +116,7 @@ Para adicionar as configurações de ER padrão à instância atual do Finance, 
 ### <a name="review-the-imported-er-configurations"></a>Examinar as configurações de ER importadas
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
-2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
+2. Na página **Blueprint de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, expanda a FastTab **Componentes de configuração**.
 4. Na árvore de configuração no painel esquerdo, expanda **Modelo de fatura** e depois **Fatura de Venda UBL**.
 

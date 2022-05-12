@@ -2,7 +2,7 @@
 title: Exibições salvas
 description: Este tópico descreve como usar os recursos de exibições salvas.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065697"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644777"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
@@ -45,7 +45,7 @@ Após a disponibilização de exibições para um ambiente, a parte superior de 
 
 Existem duas variações de tamanho para o seletor de exibição: 
 
-- **Grandes seletores de exibição** – as páginas que apresentam de forma proeminente uma lista terão um seletor de exibição maior por alguns motivos. O mais importante é que o seletor de exibição maior indica as páginas em que a exibição pode incluir filtros definidos pelo usuário. Como os filtros são incluídos nas exibições, o tamanho de seletor maior também é garantido, pois os nomes de exibição geralmente serão a melhor descrição dos dados mostrados na tela, e a expectativa é a de que os usuários alternem entre as exibições com mais frequência nesses tipos de página.
+- **Grandes seletores de exibição** – as páginas que apresentam de forma proeminente uma lista terão um seletor de exibição maior por alguns motivos. O mais importante é que o seletor de exibição maior indica as páginas em que a exibição pode incluir filtros e classificações definidos pelo usuário. Como os filtros e classificações são incluídos nas exibições, o tamanho de seletor maior também é garantido, pois os nomes de exibição geralmente serão a melhor descrição dos dados mostrados na tela, e a expectativa é a de que os usuários alternem entre as exibições com mais frequência nesses tipos de página. O agrupamento em uma grade também pode ser salvo em exibições de uma página com seletores de exibição grandes. 
 - **Seletores de exibição pequenos** – todas as outras páginas inteiras (exceto espaços de trabalho e o painel) têm um seletor de exibição menor que aparece ao lado da legenda da página. As exibições nessas páginas incluem apenas personalizações, não filtros definidos pelo usuário. Nessas páginas, a legenda ou o título do registro costuma ser a informação mais importante na parte superior da página. O tamanho menor do seletor de exibição também reflete a frequência mais baixa de alternância de exibição que é esperada nessas páginas. 
  
 Se você selecionar o nome da exibição, o seletor de exibição será aberto e mostrará a lista de exibições disponíveis para a página.

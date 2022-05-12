@@ -2,7 +2,7 @@
 title: Configurar os parâmetros de um formato de ER por entidade legal
 description: Este tópico explica como configurar os parâmetros de um formato de relatório eletrônico (ER) por entidade legal.
 author: NickSelin
-ms.date: 10/22/2021
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927445"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644489"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Configurar os parâmetros de um formato de ER por entidade legal
 
@@ -30,7 +30,7 @@ ms.locfileid: "7927445"
 
 Para concluir estas etapas, primeiro você deve concluir as etapas em [Configurar formatos ER para usar parâmetros especificados de acordo com a entidade legal](er-app-specific-parameters-configure-format.md).
 
-Para concluir os exemplos deste tópico, você deve ter acesso ao Microsoft Dynamics 365 Finance para uma das seguintes funções:
+Para concluir os exemplos deste tópico, é necessário ter acesso ao Microsoft Dynamics 365 Finance para uma das seguintes funções:
 
 - Desenvolvedor de relatório eletrônico
 - Consultor funcional de relatório eletrônico
@@ -226,7 +226,7 @@ Se você configurar parâmetros específicos do aplicativo para uma versão de u
 Quando você seleciona um arquivo para importação, a estrutura dos parâmetros específicos do aplicativo nesse arquivo é comparada com a estrutura das fontes de dados correspondentes do tipo **Pesquisa** no formato ER selecionado para importação. Por padrão, a importação é concluída somente se a estrutura de cada parâmetro específico do aplicativo corresponder à estrutura da fonte de dados correspondente no formato ER selecionado para importação. Se as estruturas não corresponderem, uma mensagem de aviso informará que não é possível concluir a importação. Se você forçar a importação, os parâmetros específicos do aplicativo existentes para o formato ER selecionado serão eliminados e você deverá configurá-los desde o início.
 
 
-A partir do Dynamics 365 Finance versão 10.0.24, você pode alterar o comportamento padrão para evitar receber uma mensagem de aviso habilitando o recurso **Alinhar parâmetros específicos do aplicativo ER durante a importação** no espaço de trabalho **Gerenciamento de recursos**. Quando esse recurso está habilitado, se a estrutura dos parâmetros específicos do aplicativo importados for diferente da estrutura das fontes de dados correspondentes no formato ER de destino selecionado para importação, a importação será realizada nos seguintes casos:
+A partir do Finance versão 10.0.24, você pode alterar o comportamento padrão e evitar receber uma mensagem de aviso habilitando o recurso **Alinhar parâmetros específicos do aplicativo ER durante a importação** no espaço de trabalho **Gerenciamento de recursos**. Quando esse recurso está habilitado, se a estrutura dos parâmetros específicos do aplicativo importados for diferente da estrutura das fontes de dados correspondentes no formato ER de destino selecionado para importação, a importação será realizada nos seguintes casos:
 
 - A estrutura do formato ER de destino foi alterada adicionando novas colunas de condição a qualquer fonte de dados existente do tipo **Pesquisa**. Quando a importação é concluída, os parâmetros específicos do aplicativo são atualizados. Em todos os registros importados de parâmetros específicos do aplicativo, os valores em cada coluna de condição adicionada são inicializados com o valor padrão para o [tipo de dados](er-formula-supported-data-types-primitive.md) dessa coluna.
 - A estrutura do formato ER de destino foi alterada removendo algumas colunas de condição de qualquer fonte de dados existente do tipo **Pesquisa**. Quando a importação é concluída, os parâmetros específicos do aplicativo são atualizados. Em todos os registros importados de parâmetros específicos do aplicativo, os valores em cada coluna de condição removida são excluídos.
@@ -235,9 +235,33 @@ A partir do Dynamics 365 Finance versão 10.0.24, você pode alterar o comportam
 
 Quando a importação é concluída, além das alterações descritas, o estado dos parâmetros específicos do aplicativo importados é alterado para **Em andamento**. Uma mensagem de aviso informa que os parâmetros específicos do aplicativo ajustados automaticamente devem ser editados manualmente.
 
+#### <a name="replicate-parameters"></a>Replicar os parâmetros
+
+A partir do Finance versão 10.0.27, você pode copiar os parâmetros configurados em uma empresa para outras empresas ao mesmo tempo.
+
+Para copiar os parâmetros, conclua as etapas a seguir.
+
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Selecione **Configurações de relatórios**.
+3. Na árvore de configurações, selecione o formato **Formato para saber como pesquisar dados de LE**.
+4. No Painel de Ação, na guia **Configurações**, no grupo **Parâmetros específicos do aplicativo**, selecione **Configuração**.
+5. Selecione a versão **1.1.1** do formato de ER.
+6. No Painel de Ações, selecione **Replicar**.
+7. Na caixa de diálogo **Replicar**, na guia **Empresas**, selecione as empresas para as quais você deseja copiar parâmetros.
+
+    > [!NOTE]
+    > A lista de empresas de destino é fornecida somente a usuários que recebem uma [função](../sysadmin/role-based-security.md#security-roles) de segurança configurada para conceder acesso a todas as organizações.
+
+8. Selecione **OK**.
+
+    > [!NOTE]
+    > A caixa de diálogo de confirmação informa se algumas empresas de destino contêm parâmetros configurados anteriormente para a versão selecionada de um formato ER. Selecione **Sim** para substituir os parâmetros copiando-os da empresa atual.
+
+    O conjunto configurado de parâmetros específicos do aplicativo é copiado para as empresas selecionadas.
+
 ### <a name="reuse-existing-parameters"></a>Reutilizar parâmetros existentes
 
-A partir do Dynamics 365 Finance versão 10.0.23, você pode reutilizar parâmetros específicos do aplicativo que foram configurados para uma versão de um formato ER ao executar uma versão superior do mesmo formato. Para fazer isso, habilite o recurso **Usar parâmetros específicos do aplicativo das versões anteriores de formatos ER** no espaço de trabalho **Gerenciamento de recursos**. Quando este recurso é habilitado e você executa uma versão de um formato ER que está tentando ler parâmetros específicos do aplicativo, o ER tenta encontrar parâmetros específicos do aplicativo que foram configurados para a versão em execução deste formato. Ou, quando não estiverem disponíveis, para a versão anterior mais próxima deste formato.
+A partir do Finance versão 10.0.23, você pode reutilizar parâmetros específicos do aplicativo que foram configurados para uma versão de um formato ER ao executar uma versão superior do mesmo formato. Para reutilizar os parâmetros existentes, habilite o recurso **Usar parâmetros específicos do aplicativo das versões anteriores de formatos ER** no espaço de trabalho **Gerenciamento de recursos**. Quando este recurso é habilitado e você executa uma versão de um formato ER que está tentando ler parâmetros específicos do aplicativo, o ER tenta encontrar parâmetros específicos do aplicativo que foram configurados para a versão em execução do formato. Se eles não estiverem disponíveis, o ER tentará encontrá-los para a versão inferior mais próxima do formato.
 
 > [!NOTE]
 > Você pode reutilizar parâmetros específicos do aplicativo somente no escopo da entidade legal atual.

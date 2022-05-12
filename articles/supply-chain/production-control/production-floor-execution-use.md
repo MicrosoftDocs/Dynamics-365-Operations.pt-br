@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384410"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644980"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Como os trabalhadores usam a interface de execução de piso de produção
 
@@ -74,9 +74,9 @@ A lista de trabalhos ativos tem as colunas a seguir:
 
 ## <a name="my-jobs-tab"></a>Guia Meus trabalhos
 
-A guia **Meus trabalhos** permite que trabalhadores exibam facilmente todos os trabalhos não iniciados e não concluídos que são atribuídos especificamente a eles. Ele é útil em empresas em que os trabalhos são às vezes ou sempre atribuídos a trabalhadores específicos (recursos humanos) em vez de outros tipos de recursos (como máquinas). 
+A guia **Meus trabalhos** permite que trabalhadores exibam facilmente todos os trabalhos não iniciados e não concluídos que são atribuídos especificamente a eles. Ele é útil em empresas em que os trabalhos são às vezes ou sempre atribuídos a trabalhadores específicos (recursos humanos) em vez de outros tipos de recursos (como máquinas).
 
-O sistema de agendamento atribui automaticamente cada trabalho de produção a um registro de recurso específico, e cada registro de recurso tem um tipo (como máquina ou humano). Ao configurar um funcionário como um trabalhador de produção, você pode associar a conta do trabalhador a um registro de recurso humano exclusivo. 
+O sistema de agendamento atribui automaticamente cada trabalho de produção a um registro de recurso específico, e cada registro de recurso tem um tipo (como máquina ou humano). Ao configurar um funcionário como um trabalhador de produção, você pode associar a conta do trabalhador a um registro de recurso humano exclusivo.
 
 A guia **Meus trabalhos** lista todos os trabalhos não iniciados e não concluídos que foram atribuídos ao registro de recursos humanos do trabalhador conectado, caso algum esteja conectado. Ele nunca lista trabalhos que foram atribuídos a uma máquina ou outro tipo de recurso, mesmo que o trabalhador conectado tenha começado a atuar nesses trabalhos.
 
@@ -87,7 +87,7 @@ Para exibir todos os trabalhos iniciados pelo trabalhador conectado, seja qual f
 ## <a name="my-machine-tab"></a>Guia Minha máquina
 
 A guia **Minha máquina** permite aos trabalhadores selecionar um ativo que esteja conectado a um recurso de máquina no conjunto de filtros na guia **Todos os trabalhos**. O trabalhador então pode exibir o estado e a integridade do ativo selecionado lendo valores de até quatro contadores selecionados e listas de solicitações de manutenção recentes e tempos de inatividade registrados. O trabalhador também pode solicitar manutenção para o ativo selecionado e registrar e editar o tempo de inatividade da máquina. (Este nome de guia é personalizável e pode ser diferente para o seu sistema.)
- 
+
 ![A guia Minha máquina.](media/pfei-my-machine-tab.png "A guia Minha máquina")
 
 A guia **Minha máquina** tem as colunas a seguir. Os números correspondem aos números da ilustração anterior.
@@ -202,9 +202,9 @@ As seguintes ações podem ser executadas:
 - Se o trabalhador selecionar **OK**, a lista de separação não será excluída. Ela será lançada quando o trabalho for informado na caixa de diálogo **Relatório de sucata** ou **Progresso do relatório**.
 - Se o trabalhador selecionar **Cancelar** na caixa de diálogo **Progresso do relatório** ou **Relatório de sucata**, a lista de separação será excluída.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Ajustar o material da barra de ferramentas à direita
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Ajustar o material da barra de ferramentas principal ou secundária
 
-O botão **Ajustar material** pode ser configurado de forma que apareça na barra de ferramentas à direita. (Para obter mais informações, consulte [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).) Um trabalhador pode selecionar **Ajustar o material** para um trabalho de produção que está em andamento. Nesse caso, a caixa de diálogo **Ajustar material** é exibida, na qual o trabalhador pode fazer os ajustes desejados. Quando a caixa de diálogo é aberta, uma lista de separação de produção que contém linhas para as quantidades ajustadas é criada para a ordem de produção. Se o trabalhador selecionar **Lançar agora**, o ajuste será confirmado e a lista de separação será lançada. Se o trabalhador selecionar **Cancelar**, a lista de separação será excluída e nenhum ajuste será feito.
+O botão **Ajustar material** pode ser configurado de forma que apareça na barra de ferramentas principal ou secundária. (Para obter mais informações, consulte [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).) Um trabalhador pode selecionar **Ajustar o material** para um trabalho de produção que está em andamento. Nesse caso, a caixa de diálogo **Ajustar material** é exibida, na qual o trabalhador pode fazer os ajustes desejados. Quando a caixa de diálogo é aberta, uma lista de separação de produção que contém linhas para as quantidades ajustadas é criada para a ordem de produção. Se o trabalhador selecionar **Lançar agora**, o ajuste será confirmado e a lista de separação será lançada. Se o trabalhador selecionar **Cancelar**, a lista de separação será excluída e nenhum ajuste será feito.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Ajustar consumo de material para itens de peso variável
 
@@ -260,6 +260,42 @@ Em ambos os cenários, depois de Shannon confirmar a seleção, ela vai para a p
 Os trabalhadores podem registrar interrupções. As interrupções podem ser definidas com flexibilidade, conforme descrito em [Pagamento com base em registros](pay-based-on-registrations.md).
 
 Um trabalhador registra uma interrupção selecionando **Interrupção** e, em seguida, selecionando o cartão que representa o tipo de interrupção (por exemplo, almoço). Depois que o trabalhador confirma a seleção, o dispositivo mostra a página de entrada ou uma página que aguardará que o trabalhador confirme que retornou da interrupção. A página mostrada dependerá da configuração da interface de execução de piso de produção. (Para obter mais informações, consulte [Configurar a interface de execução de piso de produção](production-floor-execution-configure.md)).
+
+## <a name="view-the-my-day-dialog"></a>Visualizar a caixa de diálogo "Meu dia"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+A caixa de diálogo **Meu dia** fornece aos trabalhadores uma visão geral dos registros e dos saldos. A caixa de diálogo é dividida nas três seções a seguir:
+
+- A seção principal lista os registros feitos pelo trabalhador atual em uma data selecionada. Ela mostra os registros do dia atual e fornece um selecionador de data que permite ao trabalhador exibir outros dias.
+- A seção **Último saldo diário calculado** mostra os saldos atuais do trabalhador para período pago, horas extras pagas, ausência e ausência paga. Esses valores se baseiam nos registros que foram calculados durante o processo de aprovação.
+- A seção **Saldos** fornece uma visão geral dos saldos em um período definido para categorias selecionadas de registros (como férias, hora padrão e hora extra). Esses saldos se baseiam na forma como os saldos estatísticos são configurados no módulo de **Horário e presença**. Para obter mais informações sobre como definir uma configuração, consulte [Mostrar saldos de férias na interface de execução de piso de produção](production-floor-execution-payroll-stats.md).
+
+Os administradores podem adicionar esse recurso à interface colocando o botão **Meu dia** em uma barra de ferramentas para cada guia relevante, conforme descrito em [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).
+
+## <a name="working-in-teams"></a>Trabalhar em equipes
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Quando vários trabalhadores são designados para o mesmo trabalho de produção, eles podem formar uma equipe. A equipe pode designar um trabalhador como coordenador. Os trabalhadores restantes se tornarão automaticamente assistentes desse coordenador. Para a equipe resultante, somente o coordenador deve registrar o status do trabalho. Os registros de hora se aplicam a todos os membros da equipe.
+
+### <a name="prerequisites"></a>Pré-requisitos
+
+Para usar equipes, um administrador deve habilitar a ação de **Assistente** para a barra de ferramentas principal na guia **Todos os trabalhos** da interface de execução de piso de produção. Para obter instruções, consulte [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Formar uma nova equipe com um coordenador e um assistente
+
+Um trabalhador pode se registrar como um assistente selecionando **Assistente** na guia **Todos os trabalhos**. Em seguida, na caixa de diálogo **Selecionar um funcionário para ajudar** que aparece, o trabalhador pode selecionar um coordenador em uma lista de trabalhadores que estão atuando em um trabalho. Depois que o trabalhador confirmar sua seleção, ele se tornará um assistente do trabalhador selecionado, que se tornará o coordenador da nova equipe.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Atribuir um novo coordenador a uma equipe existente
+
+Quando uma equipe deseja selecionar um novo coordenador, o coordenador atual deve indicar a outro trabalhador na equipe como o novo coordenador. Para indicar um novo coordenador, o coordenador atual seleciona **Assistente** na guia **Todos os trabalhos** e, em seguida, na caixa de diálogo **Alterar coordenador**, ele pode selecionar um novo coordenador em uma lista de trabalhadores que já estão na equipe. Depois que o coordenador atual confirmar sua seleção, ele será removido completamente da equipe. No entanto, ele pode reingressar conforme necessário.
+
+### <a name="assistant-clocks-out"></a>Saída do assistente
+
+Quando um trabalhador que atua como assistente faz o registro de saída, ele deixa a equipe. Se as opções **Equipes permanentes** e **Reiniciar registro de entrada** estiverem definidas como *Sim*, um trabalhador que faz o registro de saída reingressará automaticamente na equipe na próxima vez em que fizer o registro de entrada. Essas opções podem ser encontradas na guia **Geral** da página **Parâmetros de horário e presença**.
 
 ## <a name="opening-instructions"></a>Instruções de abertura
 

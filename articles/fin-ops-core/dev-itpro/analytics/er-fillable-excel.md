@@ -2,7 +2,7 @@
 title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388254"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645125"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -141,7 +141,12 @@ Você pode configurar o modelo do Excel para usar células para apresentar dados
 > [!NOTE]
 > Por causa de uma [limitação do Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) conhecida, mesmo se você configurar células para quebrar texto automaticamente e configurar as linhas contendo essas células para ajustar automaticamente a altura de acordo com o texto disposto, talvez não consiga usar os recursos **Autoajuste** e **Quebra automática de texto** do Excel para células mescladas e as linhas que as contêm. 
 
-A partir do Dynamics 365 Finance versão 10.0.23, é possível forçar o ER a calcular, em um documento gerado, a altura de cada linha configurada para ajustar automaticamente a altura ao conteúdo de células aninhadas sempre que essa linha contém pelo menos uma célula mesclada que foi configurada para incluir o texto nela. A altura calculada é usada para redimensionar a linha para garantir que todas as células da linha fiquem visíveis no documento gerado. Para começar a usar essa funcionalidade ao executar formatos ER configurados para usar modelos do Excel para gerar documentos de saída, siga estas etapas.
+A partir do Dynamics 365 Finance versão 10.0.23, ao trabalhar em um documento gerado, é possível forçar o ER a calcular a altura de cada linha configurada para ajustar automaticamente a altura ao conteúdo de células aninhadas sempre que essa linha contiver pelo menos uma célula mesclada que foi configurada para incluir o texto nela. A altura calculada é usada para redimensionar a linha a fim de garantir que todas as células da linha fiquem visíveis no documento gerado.
+
+> [!NOTE]
+> Lembre-se de que essa funcionalidade pode não funcionar como esperado quando uma fonte personalizada for usada para formatar uma célula mesclada. Como o Excel não incorpora fontes personalizadas, ele não fornece informações sobre o tamanho da fonte personalizada. Portanto, o tamanho da célula mesclada pode ser estimado incorretamente.
+
+Para começar a usar essa funcionalidade ao executar formatos ER configurados para usar modelos do Excel para gerar documentos de saída, siga estas etapas.
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
@@ -224,7 +229,7 @@ Ao usar o componente da **Página** para paginação do Excel, você não saber�
 > [!TIP]
 > Para obter esse resultado em um cabeçalho ou rodapé do Excel, usando a [formatação](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especial do Excel para cabeçalhos e rodapés.
 
-Componentes de **Página** configurados não são considerados quando você atualiza um modelo do Excel no formato editável na versão 10.0.22 do Dynamics 365 Finance. Essa funcionalidade é considerada para novas versões de Finanças.
+Os componentes **Página** configurados não são considerados quando você atualiza um modelo do Excel no formato editável no Dynamics 365 Finance versão 10.0.22. Essa funcionalidade é considerada para novas versões de Finanças.
 
 Se você configurar seu modelo do Excel para usar a [formatação condicional](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), talvez ele não funcione como esperado em alguns casos.
 

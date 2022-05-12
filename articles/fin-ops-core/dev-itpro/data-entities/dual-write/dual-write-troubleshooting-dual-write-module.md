@@ -2,19 +2,19 @@
 title: Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
 description: Este tópico fornece informações sobre solução de problemas que podem ajudá-lo a corrigir problemas no módulo de dupla gravação em aplicativos de Finanças e Operações.
 author: RamaKrishnamoorthy
-ms.date: 04/12/2022
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565956"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613872"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
 
@@ -73,7 +73,7 @@ Para corrigir o problema, crie um tíquete para a equipe de integração de dado
 
 ## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Habilite o processamento paralelo em aplicativos de finanças e operações para melhorar o desempenho
 
-A habilitação do processamento paralelo pode reduzir o tempo necessário para importar dados dos aplicativos de finanças e operações para os aplicativos Customer Engagement e Microsoft Dataverse. 
+A habilitação do processamento paralelo pode reduzir o tempo necessário para importar dados dos aplicativos Dynamics 365 Customer Engagement e do Microsoft Dataverse para aplicativos de finanças e operações. 
 
 Para habilitar o processamento paralelo em aplicativos de finanças e operações, siga as etapas a seguir.
 

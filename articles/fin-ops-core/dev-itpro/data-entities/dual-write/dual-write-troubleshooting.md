@@ -2,19 +2,19 @@
 title: Solução de problemas gerais
 description: Este tópico fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554589"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614085"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -131,6 +131,29 @@ Para habilitar novamente a opção de formulário de **Informações**, siga est
 2. Encontre o formulário de **Informações** no nó de formulários.
 3. Selecione o formulário de **Informações** e clique em **Habilitar funções de segurança**.
 4. Altere a configuração de segurança para **Exibir para todos**.
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Como garantir a integração de dados usando o esquema de finanças e operações mais atual
+
+Você pode enfrentar problemas de dados na integração de dados se o esquema mais atual não estiver sendo usado. As etapas a seguir ajudarão você a atualizar a lista de entidades nos aplicativos de finanças e operações e as entidades no integrador de dados.
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Atualizar a lista de entidades no ambiente de finanças e operações
+1.  Faça logon no ambiente de finanças e operações.
+2.  Selecione **Gerenciamento de dados**.
+3.  No Gerenciamento de dados, selecione **Parâmetros de estrutura**.
+4.  Na página **Parâmetros de importação/exportação de dados**, selecione a guia **Configurações da entidade** e, em seguida, selecione **Atualizar lista de entidades**. Isso pode levar mais de 30 minutos para ser atualizado, dependendo do número de entidades envolvidas.
+5.  Navegue até **Gerenciamento de dados** e selecione **Entidades de dados** para validar se as entidades esperadas estão listadas. Se as entidades esperadas não estiverem listadas, valide se as entidades aparecem no ambiente de finanças e operações e restaure as entidades ausentes, conforme necessário.
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Se a atualização não resolver o problema, exclua e adicione novamente as entidades
+
+> [!NOTE]
+> Talvez seja necessário interromper todos os grupos de processamento que estão usando ativamente as entidades antes da exclusão.
+
+1.  Selecione **Gerenciamento de dados** no ambiente de finanças e operações e selecione **Entidades de dados**.
+2.  Pesquise entidades com problemas e anote a entidade de destino, a tabela de preparo, o nome da entidade e outras configurações. Exclua a entidade ou as entidades da lista.
+3.  Selecione **Nova** e adicione novamente a entidade ou as entidades usando os dados da etapa 2. 
+
+#### <a name="refresh-entities-in-data-integrator"></a>Atualizar entidades no integrador de dados
+Faça logon na central de administração do Power Platform e selecione **Integração de dados**. Abra o projeto em que os problemas estão ocorrendo e selecione **Atualizar entidades**.
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Como habilitar e salvar o rastreamento de rede para que os rastreamentos possam ser anexados a tíquetes de suporte
 

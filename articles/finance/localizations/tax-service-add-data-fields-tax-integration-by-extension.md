@@ -2,7 +2,7 @@
 title: Adicionar campos de dados na integração de imposto usando extensões
 description: Este tópico explica como usar as extensões X++ para adicionar campos de dados na integração de imposto.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323514"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649091"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Adicionar campos de dados na integração de imposto usando uma extensão
 
@@ -334,9 +334,10 @@ Estenda o método `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentO
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-Nesse código, `_destination` é o objeto wrapper usado para gerar a solicitação de lançamento, e `_source` é o objeto `TaxIntegrationLineObject`.
+Nesse código, `_destination` é o objeto wrapper usado para gerar a solicitação e `_source` é o objeto `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> Defina a chave usada no formulário de solicitação como **private const str**. A cadeia de caracteres deve ser exatamente a mesma que o nome da medida adicionado no tópico, [Adicionar campos de dados em configurações de imposto](tax-service-add-data-fields-tax-configurations.md)de imposto.
-> Defina o campo no método **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** usando o método **SetField**. O tipo de dados do segundo parâmetro deve ser **string**. Se o tipo de dados não for **string**, converta-o.
-> Se um **tipo de enumeração** X++ for estendido, observe a diferença entre seu valor, rótulo e nome.
+> Defina o nome do campo usado no na solicitação como **private const str**. A cadeia de caracteres deve ser exatamente a mesma que o nome do nó (e não da etiqueta) adicionado no tópico [Adicionar campos de dados em configurações de imposto](tax-service-add-data-fields-tax-configurations.md).
 > 
+> Defina o campo no método **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** usando o método **SetField**. O tipo de dados do segundo parâmetro deve ser **string**. Se o tipo de dados não for **cadeia de caracteres**, converta-o.
+> Se o tipo de dados for **tipo de enumeração** X++, recomendamos que você use o método **enum2Symbol** para converter o valor da enumeração em uma cadeia de caracteres. O valor da enumeração adicionado na configuração de imposto deve ser exatamente igual ao nome da enumeração. Veja a seguir uma lista de diferenças entre o valor da enumeração, a etiqueta e o nome.
+> 
+>   - O nome da enumeração é um nome simbólico no código. **enum2Symbol()** pode converter o valor da enumeração para seu nome.
 >   - O valor da enumeração é inteiro.
->   - O rótulo da enumeração pode ser diferente entre idiomas de preferência. Não use **enum2Str** para converter o tipo de enumeração em cadeia de caracteres.
->   - O nome de enumeração é recomendado, pois é fixo. **enum2Symbol** pode ser usado para converter a enumeração para seu nome. O valor de enumeração adicionado na configuração de imposto deve ser exatamente igual ao nome de enumeração.
+>   - O rótulo da enumeração pode ser diferente entre idiomas de preferência. **enum2Str()** pode converter o valor da enumeração para sua etiqueta.
 
 ## <a name="model-dependency"></a>Dependência de modelo
 
@@ -380,7 +385,7 @@ Depois de concluir as etapas anteriores, você pode validar suas alterações.
 
 1. Em Finanças, vá para **Contas a pagar** e adicione **&debug=vs%2CconfirmExit&** à URL. Por exemplo, https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. O último **&** é essencial.
 2. Abra a página **Ordem de compra** e selecione **Novo** para criar uma ordem de compra.
-3. Defina o valor para o campo personalizado e selecione **Impostos**. Um arquivo de solução de problemas com prefixo, **TaxServiceTroubleshootingLog** será baixado automaticamente. Esse arquivo contém as informações da transação lançadas no Serviço de Cálculo de Imposto. 
+3. Defina o valor para o campo personalizado e selecione **Impostos**. Um arquivo de solução de problemas com prefixo, **TaxServiceTroubleshootingLog** será baixado automaticamente. Esse arquivo contém as informações da transação lançadas no serviço Cálculo de Imposto. 
 4. Verifique se o campo personalizado adicionado está presente na seção **JSON de entrada de cálculo do serviço de imposto** e se o valor está correto. Se o valor não estiver correto, verifique as etapas neste documento.
 
 Exemplo de arquivo:
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

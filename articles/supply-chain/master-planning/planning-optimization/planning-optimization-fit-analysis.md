@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf63069c5f18fe67c7d7f538311853d79c0f4fe8
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487632"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649147"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
@@ -57,7 +57,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 
 | Recurso | Questão listada | Explicação | Disponibilidade esperada |
 | --- | --- | --- | --- |
-| Ações | Grupos de cobertura com Cálculo de ações habilitado: _\#_ | Este recurso está pendente. No momento, as ações não são geradas durante o planejamento mestre quando a otimização do planejamento é habilitada, independentemente dessa configuração. A principal finalidade das ações é sugerir alterações nas ordens existentes. Avalie se as ações são aplicadas ativamente como parte de seus processos de negócios ou se as informações de atraso relacionadas às ordens são suficientes. | 2022 de abril |
+| Ações | Grupos de cobertura com Cálculo de ações habilitado: _\#_ | Este recurso está pendente. No momento, as ações não são geradas durante o planejamento mestre quando a otimização do planejamento é habilitada, independentemente dessa configuração. A principal finalidade das ações é sugerir alterações nas ordens existentes. Avalie se as ações são aplicadas ativamente como parte de seus processos de negócios ou se as informações de atraso relacionadas às ordens são suficientes. | Suportado |
 | Calendários base | Calendários usando o calendário base: _\#_ | Este recurso agora é suportado. | 2022 de março | 
 | Códigos de disposição em lotes | Mestres de disposição em lotes não-líquidos: _\#_ | Este recurso está pendente. No momento, os códigos de disposição em lotes são ignorados quando a otimização do planejamento é habilitada. | Outubro de 2022 ou posterior |
 | Capacidade de comprometimento (CTP) | Configurações de ordem padrão com controle de data entrega definido como CTP: _\#_ | Este recurso está pendente. No momento, o CTP é ignorado quando a otimização do planejamento é habilitada, independentemente dessa configuração. | 2022 de outubro |

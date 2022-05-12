@@ -2,7 +2,7 @@
 title: O que há de novo ou mudou no aplicativo móvel Warehouse Management
 description: Este tópico lista os recursos novos e alterados para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487826"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644722"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>O que há de novo ou mudou no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20210"></a>Versão 2.0.21.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Corrigidos vários problemas que causavam falhas.
+- Corrigido um problema em que alguns caracteres não eram reconhecidos durante a digitalização ou digitação na página padrão.
+- Corrigido um problema em que pressionar a tecla Backspace na página padrão excluía dois caracteres de cada vez.
+- Corrigido um problema em que o campo **Classificar por** da página **Lista de trabalho** exibia um valor incorreto que não correspondia à ordem de classificação real dos cartões.
+- Corrigido um problema em que um layout incorreto era mostrado após o redimensionamento da janela do aplicativo durante a execução no Microsoft Windows.
+- Corrigido um problema em que a rolagem em uma lista pop-up poderia fazer com que alguns itens da lista permanecessem ocultos ou distorcidos.
+- Reformulada a página de entrada para permitir que ela exiba os campos nome de usuário e senha na mesma página, quando executada em exibições maiores.
+- Aprimorada a forma como os controles reagem ao toque rápido.
+- Adicionada uma exibição de log de erros no aplicativo.
+- Adicionados vários aperfeiçoamentos de acessibilidade (narração aprimorada, correção de espaços reservados no Android, habilitada a entrada do teclado para controles deslizantes e muito mais).
 
 ## <a name="version-20200"></a>Versão 2.0.20.0
 

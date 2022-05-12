@@ -2,7 +2,7 @@
 title: Gerenciar metadados de SEO
 description: Este tópico descreve como gerenciar metadados da otimização do mecanismo de pesquisa (SEO) no Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06d2da60695be499971904451fd56fb8a64dfd64c9192d93f87ababb349e9378
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d6f56968e9adfe90142955cba8e6c7ecc50fc92
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751558"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644750"
 ---
 # <a name="manage-seo-metadata"></a>Gerenciar metadados de SEO
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico descreve como gerenciar metadados da otimização do mecanismo de pesquisa (SEO) no Microsoft Dynamics 365 Commerce.
 
@@ -62,17 +63,21 @@ O Dynamics 365 Commerce permite gerenciar metadados de SEO para páginas individ
 ### <a name="modify-page-metadata"></a>Modificar metadados da página
 
 Para modificar os metadados da página, siga estas etapas.
-
 1. Em **Sites**, selecione o **Fabrikam** (ou o nome do seu site).
 1. No painel de navegação à esquerda, selecione **Páginas**.
 1. Selecione a home page para abri-la no editor de páginas.
 1. Na barra de comandos, selecione **Editar**.
-1. No painel de propriedades à direita, expanda **Marcas meta padrão**.
-1. Para adicionar uma nova marca meta, selecione **Adicionar** e informe a marca no campo. Para remover uma marca meta existente, selecione o símbolo da lata de lixo à direita dela.
+1. No editor de página, na parte superior do controle de estrutura de tópicos à esquerda, selecione a **Opção de modo de estrutura de tópicos** (símbolo de engrenagem) e depois a **Exibição de esboço avançado**.
+1. Na exibição de estrutura de tópicos, expanda os controles de árvore para mostrar o conteúdo do slot de **head do HTML**.
+1. No slot de **head do HTML**, selecione o módulo de SEO desejado (por exemplo, **Resumo da página**, **Resumo da página do produto**, **Resumo da página de categoria** ou **Metatags**).
+1. No painel de propriedades à direita, edite os dados de SEO desejados para o módulo de SEO selecionado (por exemplo, **Título**, **Descrição** ou **Imagem compartilhada**).
 1. Selecione **Salvar** e **Finalizar edição**.
-1. No campo **Comentários**, insira **Marcas meta atualizadas** e depois selecione **OK**.
+1. No campo **Comentários**, insira **Dados de SEO atualizados** e depois selecione **OK**.
 1. Selecione **Visualizar** para exibir a página. Quando terminar, feche a guia de visualização para retornar à ferramenta de criação.
 1. Selecione **Publicar**.
+
+> [!TIP]
+> Os autores podem usar a **Opção de modo de estrutura de tópicos** (símbolo de engrenagem) na parte superior do controle da estrutura de tópicos à esquerda no editor de páginas para alternar entre a **Exibição de esboço básico** e a **Exibição de esboço avançado**. A **Exibição de esboço básico** é a configuração padrão e filtra a estrutura de tópicos para que ela mostre somente os módulos no slot de **corpo** HTML de uma página. A **Exibição de esboço avançado** mostra todo o módulo de página, incluindo os slots de **head de HTML**, **início de corpo** e **fim de corpo**. Essa exibição é útil quando os autores devem editar configurações específicas de módulo de script ou SEO para uma página.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

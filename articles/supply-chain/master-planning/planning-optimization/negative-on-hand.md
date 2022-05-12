@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469132"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625374"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planejamento com quantidades disponíveis negativas
 
@@ -75,7 +75,7 @@ O resultado é uma ordem planejada de 25 peças. (= 25 pcs. &minus; 0 pcs.) para
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Planejar quando haverá uma reserva em relação ao estoque disponível negativo
 
-Se você ajustar o estoque enquanto houver reservas físicas, poderá causar uma situação em que uma ordem está fisicamente reservada contra estoque negativo. Nesse caso, como existe uma reserva física, a Otimização do Planejamento supõe que haja suporte para o estoque disponível, mesmo que o recebimento do estoque disponível ainda não esteja registrado no sistema. Portanto, ele supõe que o reabastecimento não é necessário e não cria uma ordem planejada para reabastecer a quantidade da ordem.
+Se você ajustar o estoque enquanto houver reservas físicas, poderá causar uma situação em que uma ordem está fisicamente reservada contra estoque negativo. Nesse caso, como existe uma reserva física, você precisará ter o fornecimento para cobrir a quantidade reservada. Portanto, o reabastecimento é necessário e o sistema criará uma ordem planejada para reabastecer a quantidade que não foi coberta pelo estoque disponível existente ou cobri-la com uma ordem existente para o item.
 
 O exemplo a seguir ilustra esse cenário.
 
@@ -88,7 +88,7 @@ O sistema está configurado da seguinte maneira:
 - Existe uma ordem de venda para uma quantidade de *10* unidades. do produto *FG*.
 - A quantidade da ordem de venda é fisicamente reservada em relação ao estoque disponível existente.
 
-Em seguida, você ajuste a quantidade do produto *FG* para que o estoque disponível se torne 0 (zero). Como o estoque disponível do produto é zero, a quantidade da ordem de venda agora está reservada para o estoque negativo. No entanto, se você executar o planejamento mestre agora, nenhuma ordem planejada será criada para fornecer a ordem de venda, pois a Otimização do Planejamento deduzirá que o estoque disponível necessário existe para fornecer a reserva física.
+Em seguida, ajuste a quantidade do produto *FG* para que o estoque disponível seja 5. Como o estoque disponível do produto é 5, a quantidade da ordem de venda agora está reservada em relação à quantidade indisponível (isso seria semelhante se a quantidade disponível fosse 0, caso em que a ordem de venda seria reservada no estoque negativo). Se você executar o planejamento mestre agora, uma ordem planejada de quantidade 5 para *FG* será criada para fornecer a ordem de venda, pois a Otimização do Planejamento sempre usará o fornecimento existente ou criará uma nova ordem planejada para disponibilizar a reserva física.
 
 ## <a name="related-resources"></a>Recursos relacionados
 

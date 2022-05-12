@@ -2,7 +2,7 @@
 title: Configurar o método de pagamento da conta do cliente para sites de comércio eletrônico B2B
 description: Este tópico descreve como configurar a forma de pagamento da conta de cliente no Microsoft Dynamics 365 Commerce. Ele também mostra como os limites de crédito afetam a captura de pagamento por conta nos sites de comércio eletrônico entre empresas (B2B).
 author: josaw1
-ms.date: 02/16/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323346"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616823"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurar o método de pagamento da conta do cliente para sites de comércio eletrônico B2B
 
@@ -82,20 +82,20 @@ Os valores aos quais a propriedade **Tipo de limite de crédito** oferece suport
 
 Outra propriedade que afeta a ordem por conta é a propriedade **Limite de crédito obrigatório**, que está localizada na guia rápida **Crédito e cobranças** do registro do cliente. Ao definir essa propriedade como **Sim** para clientes específicos, você pode forçar o sistema a verificar seu limite de crédito, mesmo se a propriedade **Tipo de limite de crédito** tiver sido definida como **Nenhum**, para especificar que o limite de crédito não deve ser verificado para qualquer cliente.
 
-No momento, os sites B2B nos quais a propriedade **Limite de crédito obrigatório** está habilitada têm funcionalidade adicional. Se a propriedade estiver habilitada em um registro de cliente, quando o cliente fizer uma ordem, o site B2B impedirá o uso da forma de pagamento por conta para pagar mais do que o saldo de crédito restante. Por exemplo, se o saldo de crédito restante do cliente for US$ 1.000, mas a ordem for de US$1.200, o cliente poderá pagar somente US$ 1.000 usando a forma por conta. Ele deve usar outra forma de pagamento para quitar o saldo. Se a propriedade **Limite de crédito obrigatório** for desabilitada em um registro de cliente, o cliente poderá pagar qualquer valor usando a forma de pagamento por conta. No entanto, mesmo que um cliente possa fazer ordens, o sistema não permitirá que elas sejam efetivadas se excederem o limite de crédito. Se você precisar verificar o limite de crédito de todos os clientes qualificados para pagamentos por conta, recomendamos que você defina a propriedade **Tipo de limite de crédito** como **Saldo + guia de remessa ou guia do produto** e a propriedade **Limite de crédito obrigatório** como **Não**.
+No momento, um cliente que esteja usando a forma de pagamento por conta não poderá pagar mais que o saldo de crédito restante para uma ordem. Por exemplo, se o saldo de crédito restante de um cliente for US$ 1.000, mas o valor da ordem for de US$1.200, o cliente poderá pagar somente US$ 1.000 usando a forma por conta. Ele deve usar outra forma de pagamento para quitar o saldo. Em uma versão futura, uma configuração do Commerce permitirá que os usuários gastem além do limite de crédito ao criar ordens.
 
 O módulo **Crédito e cobrança** tem novos recursos de gerenciamento de crédito. Para ativar esses recursos, habilite o recurso de **Gerenciamento de crédito** no espaço de trabalho **Gerenciamento de recursos**. Um dos novos recursos permite que as ordens de venda sejam colocadas em espera com base nas regras de bloqueio. O gerente de crédito poderá então liberar ou rejeitar as ordens após uma análise adicional. No entanto, a capacidade de colocar ordens de venda em espera não é aplicável a ordens do Commerce, pois as ordens de venda geralmente têm um pagamento antecipado e o recurso de **gerenciamento de crédito** não oferece suporte total a cenários de pagamento antecipado. 
 
 Independentemente da ativação do recurso de **Gerenciamento de crédito**, se o saldo do cliente ultrapassar o limite de crédito durante a efetivação da ordem, as ordens de venda não ficarão em espera. Em vez disso, o Commerce gerará uma mensagem de aviso ou uma mensagem de erro, dependendo do valor do campo **Mensagem ao exceder o limite de crédito** na guia rápida **Limites de crédito**.
 
-A propriedade **Excluir do gerenciamento de crédito** que impede que as ordens de venda do Commerce entrem em espera está localizada no cabeçalho da ordem de venda (**Varejo e comércio\> Clientes \> Todas as ordens de venda**). Se esta propriedade for definida como **Sim** (o valor padrão) para ordens de venda do Commerce, as ordens serão excluídas do fluxo de trabalho em espera do gerenciamento de crédito. Observe que, embora a propriedade seja denominada **Excluir do gerenciamento de crédito**, o limite de crédito definido ainda será usado durante a efetivação da ordem. As ordens só não ficarão em espera.
+A propriedade **Excluir do gerenciamento de crédito** que impede que as ordens de venda do Commerce entrem em espera está localizada no cabeçalho da ordem de venda (**Varejo e comércio\> Clientes \> Todas as ordens de venda**). Se esta propriedade for definida como **Sim** (o valor padrão) para ordens de venda do Commerce, as ordens serão excluídas do fluxo de trabalho em espera do gerenciamento de crédito. Embora a propriedade seja denominada **Excluir do gerenciamento de crédito**, o limite de crédito definido ainda será usado durante a efetivação da ordem. As ordens só não ficarão em espera.
 
 A capacidade de colocar ordens de venda do Commerce em espera com base nas regras de bloqueio é planejada para versões futuras do Commerce. Até que ela seja suportada, se você precisar forçar ordens de venda do Commerce a percorrer os novos fluxos de gerenciamento de crédito, poderá personalizar os seguintes arquivos XML na solução do Visual Studio. Nos arquivos, modifique a lógica para que o sinalizador **CredManExcludeSalesOrder** seja definido como **Não**. Dessa forma, a propriedade **Excluir do gerenciamento de crédito** será definida como **Não**, por padrão, para ordens de venda do Commerce.
 
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml
 
-Observe que, se o sinalizador **CredManExcludeSalesOrder** estiver definido como **Não**, e um cliente B2B puder comprar de repositórios usando o aplicativo do PDV (ponto de venda), o lançamento das transações cash-and-carry poderá falhar. Por exemplo, há uma regra de bloqueio no tipo de pagamento à vista e o cliente B2B comprou alguns itens na loja usando dinheiro. Nesse caso, a ordem de venda resultante não será faturada com êxito porque ela ficará em espera. Portanto, o lançamento falhará. Por esse motivo, recomendamos que você faça os testes de ponta a ponta após a implementação dessa personalização.
+Se o sinalizador **CredManExcludeSalesOrder** estiver definido como **Não** e um cliente B2B puder comprar de lojas usando o aplicativo do PDV (ponto de venda), o lançamento das transações cash-and-carry poderá falhar. Por exemplo, há uma regra de bloqueio no tipo de pagamento à vista e o cliente B2B comprou alguns itens na loja usando dinheiro. Nesse caso, a ordem de venda resultante não será faturada com êxito porque ela ficará em espera. Portanto, o lançamento falhará. Por esse motivo, recomendamos que você faça os testes de ponta a ponta após a implementação dessa personalização.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

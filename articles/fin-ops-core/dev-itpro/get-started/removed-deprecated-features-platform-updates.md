@@ -2,7 +2,7 @@
 title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que foram removidos ou planejados para remoção em atualizações de plataforma de aplicativos de finanças e operações.
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396540"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644594"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de Platform removidos ou preteridos
 
@@ -32,17 +32,29 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 Informações detalhadas sobre objetos em aplicativos de Finanças e Operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de Finanças e Operações.
 
-## <a name="feature-removal-effective-march-14-2022"></a>Remoção de recursos em 14 de março de 2022
+## <a name="feature-deprecation-effective-april-2022"></a>Substituição de recurso efetiva em abril de 2022
+
+### <a name="xml-url-resolution-in-data-management"></a>Resolução de URL XML no Gerenciamento de dados 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Estamos removendo o suporte à resolução de URL XML, pois ele foi identificado como uma vulnerabilidade de segurança potencial. Isso significa que os recursos externos associados a arquivos XML não serão mais resolvidos.  |
+| **Substituída por outro recurso?**   | Não. |
+| **Áreas afetadas do produto**         | Aplicativos do Finance and Operations |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Preterido. |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>Substituição de recurso efetiva em 14 de março de 2022
 
 ### <a name="xslt-scripting-in-data-management"></a>Scripts XSLT no gerenciamento de dados
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | O suporte ao script XSLT no gerenciamento de dados foi preterido para melhorar a segurança e a proteção de dados nos aplicativos de finanças e operações.  |
+| **Motivo para a reprovação/remoção** | O suporte ao script XSLT no Gerenciamento de dados foi preterido para melhorar a segurança e a proteção de dados nos aplicativos de finanças e operações.  |
 | **Substituída por outro recurso?**   | Não. Os clientes e os ISVs devem considerar a reimplementação de suas soluções com base no idioma X++, no lugar do script XSLT. |
-| **Áreas afetadas do produto**         | Aplicativos de finanças e operações. |
-| **Opção de implantação**              | Tudo. |
-| **Status**                         | Preterido: a data de remoção planejada é 14 de março de 2022.<br><br>Exceção: clientes que estão usando scripts XLST no momento. Eles podem continuar a usá-los até que eles sejam atualizados para a versão 10.0.30 ou posterior. Os clientes com essa exceção receberam uma notificação no Centro de mensagens disponível no Centro de administração do Microsoft 365. |
+| **Áreas afetadas do produto**         | Aplicativos do Finance and Operations |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Preterido <br><br>**Exceção**: clientes que estão usando scripts XLST no momento. Eles podem continuar a usá-los até que eles sejam atualizados para a versão 10.0.30 ou posterior. Para versões anteriores, a exceção vai expirar em 31 de janeiro de 2023. Os clientes com essa exceção receberam uma notificação no Centro de mensagens disponível no Centro de administração do Microsoft 365. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Remoção de recursos em outubro de 2021
 

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 2956a9e18e24532c5a26bbbaf61438c9b7550a1a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782418"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644690"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuração do cenário de Inteligência de IoT
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como configurar cenários de Inteligência da IoT no Microsoft Dynamics 365 Supply Chain Management. Antes de configurar os cenários, é necessário [configurar o Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+Este tópico explica como configurar cenários de Inteligência da IoT no Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
 Neste tópico, você configurará o cenário de **Tempo de inatividade do equipamento** para que uma notificação seja gerada no Supply Chain Management quando uma máquina for desativada. O tópico também mostra como configurar o cenário de **Qualidade do produto** para que uma notificação seja gerada se um atributo de um item estiver fora de um intervalo especificado e como configurar o cenário de **Atrasos na produção** para que uma notificação seja gerada se a taxa de transferência da produção ficar abaixo de um valor limite.
 

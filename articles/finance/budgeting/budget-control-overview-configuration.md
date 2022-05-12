@@ -2,7 +2,7 @@
 title: Visão geral de controle de orçamento
 description: Este tópico apresenta um recurso de controle de orçamento e oferece informações para ajudar você a configurar o controle de orçamento para otimizar o gerenciamento dos recursos financeiros da organização.
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986047"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644834"
 ---
 # <a name="budget-control-overview"></a>Visão geral de controle de orçamento
 
@@ -80,7 +80,9 @@ Em seguida, na guia **Fundos disponíveis de orçamento**, você pode definir a 
 > [!NOTE]
 > Se esse cálculo for alterado durante um ciclo orçamentário, os documentos que porventura tenham passado em verificações de controle de orçamento e sido lançados ou concluídos permanecerão nesse estado. Um recurso chamado **Rastrear valores apenas de fundos de orçamento disponíveis para cálculo** permite alterar quais dados são rastreados nas tabelas BudgetSourceTracking. Quando o recurso está ativado, os valores são armazenados apenas se forem selecionados para serem usados no cálculo de fundos de orçamento disponíveis. Para obter mais informações, consulte [Fundos de orçamentos disponíveis](budget-funds-available.md).
 
-Em seguida, na guia **Documentos e diários**, você pode selecionar quais documentos de origem e diários estarão sujeitos a verificações de controle de orçamento, e se a verificação ocorrerá na entrada de linha ou para o documento inteiro. 
+### <a name="documents-and-journals"></a>Documentos e diários
+
+Na guia **Documentos e diários**, você pode selecionar quais documentos de origem e diários estarão sujeitos a verificações de controle de orçamento, e se a verificação ocorrerá na entrada de linha ou no documento inteiro. Além disso, o novo recurso **Aprimoramento na filtragem de documentos do controle de orçamento** disponível no Microsoft Dynamics 365 Finance versão 10.0.27 fornece uma opção de filtro baseada em consulta para cada documento incluído no controle de orçamento. Portanto, você pode especificar quais documentos do controle de orçamento passam por verificação de orçamento. Dessa forma, o recurso permite que apenas um subconjunto de um tipo de documento passe por verificação de orçamento. Por exemplo, você pode verificar somente as ordens de compra em que o campo **Grupo** está definido como **01**. Uma nova coluna adicionada à guia **Documentos e diários** indica se uma consulta está definida para o tipo de documento selecionado. Além disso, dois novos botões adicionados à barra de ferramentas acima da grade do documento permitem que você adicione, edite ou exclua a filtragem. 
 
 Você deve coincidir os documentos de origem selecionados com as caixas de seleção para saldos incluídos no cálculo de fundos de orçamento disponíveis. Por exemplo, se você selecionar **Reservas de orçamento para ônus**, selecione a opção **Ordens de compra**. Quando uma verificação de orçamento é executada para os valores e as contas em uma linha de compra, a categoria de controle de orçamento que é atribuída à reserva é **Ônus**. Quando uma verificação de orçamento é executada para os valores e as contas em uma requisição de compra, a categoria de controle de orçamento que é atribuída à reserva é **Pré-ônus**. 
 

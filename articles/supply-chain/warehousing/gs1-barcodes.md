@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 083748d4aecf551fd326b6c3cbf6d92cf3daf717
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547806"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625268"
 ---
 # <a name="gs1-bar-codes"></a>Códigos de barras de GS1
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- Preview until 10.0.25 GA -->
 
 Geralmente, os trabalhadores de depósito precisam concluir várias tarefas quando usam um scanner de dispositivo móvel para registrar movimentos de um item, uma paleta ou um contêiner. Essas tarefas podem incluir os códigos de barra de verificação e a inserção manual das informações no dispositivo móvel. Os códigos de barras usam um formato específico da empresa que você define e gerencia usando o Microsoft Dynamics 365 Supply Chain Management.
 

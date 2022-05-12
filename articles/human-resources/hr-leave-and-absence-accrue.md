@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533702"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644292"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Acumular planos de licença e ausência
 
@@ -105,8 +105,10 @@ Exclua os registros de acúmulo para um plano e um intervalo de datas específic
 **Auditoria do acúmulo de folgas** é exibido cada vez que você executar ou excluir uma competência para um ou todos os funcionários. A data e a pessoa que executou a ação também são exibidas.
 
 1. Na página **Licença e ausência**, selecione a guia **Links**.
-
 2. Em **Gerenciar licença**, selecione **Excluir auditoria de acúmulo de licença**.
+
+## <a name="leave-accrual-rounding"></a>Arredondamento do acúmulo de licenças
+Quando um funcionário for registrado ou tiver o registro cancelado, o arredondamento de acúmulo de licenças será rateado. Anteriormente, o arredondamento só era permitido quando um plano de licença era definido para rateamento, e um funcionário era registrado ou tinha o registro cancelado durante o período intermediário. Os acúmulos de licenças agora serão arredondados, independentemente do registro/cancelamento do registro no meio do período ou no início de um período.
 
 ## <a name="leave-accrual-transaction-auditing"></a>Auditoria de transações de acúmulo de licenças
 
