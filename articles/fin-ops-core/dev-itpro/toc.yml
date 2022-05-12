@@ -14,6 +14,8 @@
               items:
                 - name: Novidades ou alterações na home page de Atualizações de plataforma
                   href: get-started/whats-new-home-page.md
+                - name: Atualizações de plataforma para a versão 10.0.27 (julho de 2022)
+                  href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: Atualizações de plataforma para a versão 10.0.26 (maio de 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Atualizações de plataforma para a versão 10.0.25 (abril de 2022)
@@ -66,6 +68,8 @@
                   href: data-entities/odata.md
                 - name: Desenvolvimento de serviço personalizado
                   href: data-entities/custom-services.md
+                - name: Rastreamento de solicitação de serviço
+                  href: data-entities/service-request-tracing.md
                 - name: Integrações recorrentes
                   href: data-entities/recurring-integrations.md
                 - name: Testar serviços com utilitários de terceiros
@@ -1710,13 +1714,29 @@
                       href: migration-upgrade/workflow-subsystem.md
                     - name: Agregar os modelos usados em vez de cubos para análise
                       href: migration-upgrade/in-memory-real-time-aggregate-models.md
-                    - name: Migrar upgrades de cubo de vendas para o repositório de entidades
+                    - name: Migrar cubos de vendas que sofreram upgrade para o repositório de entidades
                       href: migration-upgrade/migrate-upgraded-cube-entity-store.md
                     - name: Upgrade de planejamento de orçamento
                       href: migration-upgrade/upgrade-budget-planning.md
+                - name: Solucionar problemas do upgrade
+                  items:
+                    - name: Solucionar problemas em ambientes de desenvolvimento durante o upgrade
+                      href: migration-upgrade/troubleshoot-dev-env.md
+                    - name: Solucionar problemas de upgrades para ambientes de autoatendimento
+                      href: migration-upgrade/troubleshoot-self-service-env.md
+                    - name: Solucionar problemas de scripts de upgrade PreSync e PostSync
+                      href: migration-upgrade/pre-post-upgrade-scripts.md
+                - name: Operações de ambiente
+                  items:
+                    - name: Migrar anexos de documentos
+                      href: migration-upgrade/migrate-doc-attachments-ax-2012.md
+                    - name: Limpar dados de origem para upgrade
+                      href: migration-upgrade/clean-up-source-data-upgrade.md
+                    - name: Compactar tabelas em ambientes do Dynamics AX 2012
+                      href: migration-upgrade/compress-tables-ax-2012.md
             - name: Migrar dados do AX 2009
               items:
-                - name: Migrar dados do AX 2009 para o Finance and Operations
+                - name: Migrar dados do AX 2009 para Finanças e Operações
                   href: migration-upgrade/data-migration-tool.md
                 - name: Migração do AX 2009 — Instalar a Ferramenta de migração de dados
                   href: migration-upgrade/install-dmt.md
@@ -2000,3 +2020,5 @@
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../../human-resources/index.md

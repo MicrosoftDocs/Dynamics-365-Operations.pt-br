@@ -2,7 +2,7 @@
 title: Configuração do reconhecimento de receita
 description: Este tópico descreve as opções de configuração para o reconhecimento de receita e as implicações referentes a elas.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867211"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656711"
 ---
 # <a name="revenue-recognition-setup"></a>Configuração do reconhecimento de receita
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Insira os valores descritivos nos campos **Agenda de receita** e **Descrição**
     - **Ocorrências** — o valor é alocado igualmente entre as ocorrências, mas pode incluir um período adicional se você selecionar **Data de início real** como convenção de reconhecimento.
     - **Período fiscal por dias** — o valor é alocado com base nos dias de cada período fiscal. 
 
-    Os resultados de **Mensais por dias** e **Período fiscal por dias** serão os mesmos quando os períodos fiscais seguirem meses do calendário. A única exceção é quando a convenção de reconhecimento é definida como **Fim do mês/período**, e os campos **Data de início do contrato** e **Data de término** são deixados em branco em uma linha da ordem de venda.
+         - Os resultados de **Mensais por dias** e **Período fiscal por dias** serão os mesmos quando os períodos fiscais seguirem meses do calendário. A única exceção é quando a convenção de reconhecimento é definida como **Fim do mês/período**, e os campos **Data de início do contrato** e **Data de término** são deixados em branco em uma linha da ordem de venda.
 
 - **Convenção de reconhecimento** — a convenção de reconhecimento determina as datas que são definidas na agenda de receita para a fatura.
 
@@ -108,7 +108,7 @@ Insira os valores descritivos nos campos **Agenda de receita** e **Descrição**
     - **Primeiro dia do mês/período** — a data na primeira linha da agenda é a data de início do contrato (ou da fatura). Entretanto, as linhas de agendas subsequentes são criadas para o primeiro dia do mês ou do período fiscal.
     - **Divisão do meio do mês** — a data na primeira linha da agenda depende da data da fatura. Se a fatura for lançada na primeira metade do mês, a agenda de receita será criada usando-se o primeiro dia do mês. Se a fatura for lançada na segunda metade do mês, a agenda de receita será criada usando-se o primeiro dia do mês seguinte.
 
-        **Divisão do meio do mês** não poderá ser selecionada se a base de reconhecimento for definida como **Período fiscal por dias**.
+        - **Divisão do meio do mês** não poderá ser selecionada se a base de reconhecimento for definida como **Período fiscal por dias**.
 
     - **Primeiro dia do mês/período** — a data na qual agenda começa é o primeiro dia do mês ou do período fiscal seguinte.
     - **Fim do mês/período** — a data na primeira linha da agenda é a data de início do contrato (ou da fatura). Entretanto, todas as linhas de agenda subsequentes são criadas para o último dia do mês ou do período fiscal. 

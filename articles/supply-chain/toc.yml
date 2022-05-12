@@ -12,14 +12,12 @@
               items:
                 - name: Novidades ou alterações na home page do Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.27 (julho de 2022)
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (maio de 2022)
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: Supply Chain Management 10.0.25 (abril de 2022)
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (fevereiro de 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (janeiro de 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -1719,15 +1717,13 @@
                   href: inventory/inventory-visibility-tips.md
         - name: Inteligência da IoT
           items:
-            - name: Home page de Inteligência da IoT
+            - name: Página inicial de Inteligência da IoT
               href: iot/iot-intelligence-home-page.md
             - name: Configurar recursos do Azure
               href: iot/iot-azure-setup.md
             - name: Formatos de esquema de mensagem para Hub IoT
               href: iot/iot-schema-format.md
-            - name: Instalar o suplemento no LCS
-              href: iot/iot-lcs-setup.md
-            - name: Configurar medições
+            - name: Configurar métricas
               href: iot/iot-metrics-setup.md
             - name: Configuração de cenário
               href: iot/iot-scenario-setup.md
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Como os trabalhadores usam a interface de execução de piso de produção
                   href: production-control/production-floor-execution-use.md
+                - name: Mostrar saldos de férias na interface de execução de piso de produção
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: Criar estilo para a interface de execução de piso de produção
                   href: production-control/production-floor-execution-styles.md
                 - name: Personalizar a interface de execução de piso de produção
