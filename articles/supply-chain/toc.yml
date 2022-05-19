@@ -86,13 +86,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Comprar o Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurar a armazenagem para implantações locais
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: Recursos de documentação
               items:
-                - name: Sistema de ajuda
+                - name: Sistema da ajuda
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Conectar o Sistema de ajuda
+                - name: Conectar o sistema da Ajuda
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Visão geral da ajuda personalizada
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Registrar itens para um item básico com armazenamento habilitado usando um diário de entrada de itens
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Importar ASNs de entrada por meio da entidade de dados v2
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: Importar ASNs de entrada por meio da entidade de dados V3
+                  href: warehousing/import-asn-data-entity.md
                 - name: Produtos de distribuição integrada de depósitos de recebimento para lojas
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Configurar uma diretiva de localização para o armazenamento da ordem de compra

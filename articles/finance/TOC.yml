@@ -86,13 +86,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Comprar o Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar a armazenagem para implantações locais
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: Recursos de documentação
               items:
-                - name: Sistema de ajuda
+                - name: Sistema da ajuda
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Conectar o Sistema de ajuda
+                - name: Conectar o sistema da Ajuda
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
                 - name: Visão geral da ajuda personalizada
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
@@ -272,9 +270,11 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Perfis de lançamentos de fornecedores
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Criar códigos de encargos
+              href: accounts-receivable/create-charges-codes.md
             - name: Datas de fatura de fornecedor
               href: accounts-payable/vendor-invoice-dates.md
-            - name: Reavaliação de moeda estrangeira para contas a pagar e contas a receber
+            - name: Reavaliação de moeda estrangeira para Contas a pagar e Contas a receber
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Aprovações de fatura móvel
               href: accounts-payable/mobile-invoice-approvals.md
@@ -292,6 +292,8 @@
               items:
                 - name: Pagamentos centralizados de Contas a pagar
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: Configurar e processar pagamentos de transição
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Configurar liquidação
                   href: cash-bank-management/configure-settlement.md
                 - name: Liquidar pendências
@@ -354,9 +356,13 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Lançamento de Contas a receber
+              href: general-ledger/accts-recvble-posting.md
             - name: Perfis de lançamentos do cliente
               href: accounts-receivable/customer-posting-profiles.md
-            - name: Visão geral de débito direto SEPA
+            - name: Criar códigos de encargos
+              href: accounts-receivable/create-charges-codes.md
+            - name: ​Visão geral de débito direto SEPA​
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: Configurar carta de ordem de débito direto SEPA
               href: accounts-receivable/sepa-direct-debit-mandate.md
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Cenários de data de alinhamento
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Divisão de receita
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Adiamentos de receita e despesa
                   items:
                     - name: Configurar adiamentos de receita e despesa
@@ -452,6 +460,8 @@
               items:
                 - name: Visão geral de pagamentos de cliente
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Configurar e processar pagamentos de transição
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Pagamentos centralizados de Contas a receber
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Depositar pagamentos de cliente
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Moeda dupla
                       href: general-ledger/dual-currency.md
+                - name: Perfis de lançamentos
+                  items:
+                    - name: Visão geral de perfis de lançamentos
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Práticas recomendadas para perfis de lançamento
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Contas para transações automáticas
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Regras de alocação
                   items:
                     - name: Regras de alocação do razão

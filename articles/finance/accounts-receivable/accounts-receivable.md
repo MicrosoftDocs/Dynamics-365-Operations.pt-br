@@ -1,28 +1,28 @@
 ---
 title: Home page de Contas a receber
 description: Use Contas a receber para rastrear faturas de clientes e entrada de pagamentos.
-author: roschlom
+author: kfend
 ms.date: 08/18/2017
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "20671"
 - intro-internal
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 946a4e3cab6549af8b6c07248b6889e3b610f27f
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 412b900b5eb9a3a01feb5f4dd67529a5128e52b7
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726933"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711844"
 ---
 # <a name="accounts-receivable-home-page"></a>Home page de Contas a receber
 
@@ -42,7 +42,7 @@ Você pode criar faturas de cliente com base em ordens de venda ou guias de reme
 Use Contas a receber para rastrear faturas de cliente e pagamentos que você recebe dos clientes. É possível definir grupos de clientes, clientes, perfis de lançamentos, notas de juros, cartas de cobrança, comissões e parâmetros referentes a clientes, encargos, entregas e destinos, letras de câmbio e outros tipos de informações de Contas a receber. 
 
 - [Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-- [Perfis de lançamentos de cliente](customer-posting-profiles.md)
+- [Perfis de lançamentos do cliente](customer-posting-profiles.md)
 - [Configuração, autorização e captura de cartão de crédito](credit-card-authorizations.md)
 - [Criar uma fatura de cliente](configure-customer-invoices.md)
 - [Configurar e processar faturas recorrentes](set-up-process-recurring-invoices.md)
@@ -83,7 +83,7 @@ Acesse o [Roteiro do Microsoft Dynamics 365](/dynamics365/release-plans/) para v
 
 #### <a name="blogs"></a>Blogs
 
-Você encontra opiniões, notícias e outras informações sobre Contas a receber e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+Você encontra opiniões, notícias, além de informações sobre Contas a receber e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do Dynamics 365.
 

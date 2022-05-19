@@ -112,9 +112,9 @@
                   href: dev-itpro/RetailSDK-update.md
             - name: Recursos de documentação
               items:
-                - name: Sistema de ajuda
+                - name: Sistema da Ajuda
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Conectar o Sistema de ajuda
+                - name: Conectar o sistema da Ajuda
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
                 - name: Visão geral da ajuda personalizada
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
@@ -598,8 +598,10 @@
                       href: paypal.md
                     - name: Suporte para pagamento de carteira
                       href: wallets.md
-                    - name: Pagamentos avançados em finalização da compra de loja
+                    - name: Aprimoramento de pagamentos em finalização da compra de loja
                       href: dev-itpro/enhanced-sca.md
+                    - name: Configurar pagamentos expressos do PayPal
+                      href: dev-itpro/express-payments-paypal.md
                     - name: Perguntas frequentes sobre pagamentos
                       href: dev-itpro/payments-retail.md
                 - name: Email e notificações
@@ -958,6 +960,8 @@
               href: online-store-overview.md
             - name: Criar um site de comércio eletrônico
               items:
+                - name: Mapear canais para sites de comércio eletrônico
+                  href: map-channels-sites.md
                 - name: Configurar seu nome de domínio
                   href: configure-your-domain-name.md
                 - name: Implantar um novo locatário de comércio eletrônico
@@ -2492,7 +2496,7 @@
                   items:
                     - name: Introdução ao Commerce Scale Unit (CSU) Otimizado
                       href: dev-itpro/CSU-core.md
-                - name: Interfaces de programação de aplicativo e referência
+                - name: APIs e referência
                   items:
                     - name: Interfaces de programação de aplicativo de cliente e consumidor do Commerce Scale Unit
                       href: dev-itpro/retail-server-customer-consumer-api.md
@@ -2560,21 +2564,23 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: Migrar as extensões de PDV para o SDK do Commerce
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Criar um projeto de pacote de extensão de PDV
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
                     - name: Depurar extensões do Store Commerce usando VS Code
                       href: dev-itpro/sc-debug.md
+                    - name: Extensões CPOS e MPOS lacradas
+                      items:
+                        - name: Criar um arquivo .appx para um pacote de extensão do Modern POS
+                          href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                        - name: Depurar Extensões CPOS e MPOS (lacradas)
+                          href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: Configuração do ambiente
                   items:
                     - name: Ambiente de desenvolvimento local
                       href: dev-itpro/setup-local-dev-env.md
-                    - name: Criar um projeto de pacote de extensão de PDV
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Criar um arquivo .appx para um pacote de extensão do Modern POS
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Depurar extensões de PDV
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
-                - name: Interfaces de programação de aplicativo e referência
+                - name: APIs e referência
                   items:
-                    - name: Exibir informações do pacote de extensões do PDV
+                    - name: Exibir informações do pacote de extensão do PDV
                       href: dev-itpro/view-pos-extension-package-details.md
                     - name: Interfaces de programação de aplicativo do PDV
                       href: dev-itpro/pos-apis.md
@@ -2660,7 +2666,7 @@
                       href: e-commerce-extensibility/configure-env-file.md
                     - name: Configurar um ambiente de desenvolvimento de comércio eletrônico em um ambiente de nuvem do Commerce
                       href: e-commerce-extensibility/debug-tier-1.md
-                - name: Interfaces de programação de aplicativo e referência
+                - name: APIs e referência
                   items:
                     - name: Referência de comandos da CLI
                       href: e-commerce-extensibility/cli-command-reference.md
@@ -2834,6 +2840,10 @@
                           href: e-commerce-extensibility/instance-cache.md
                         - name: Otimização do CSS do módulo
                           href: e-commerce-extensibility/module-css-optimization.md
+                        - name: Otimizar imagens nas páginas de detalhes do produto
+                          href: e-commerce-extensibility/optimize-images-pdp.md
+                        - name: Otimizar imagens nas páginas de pesquisa e categoria
+                          href: e-commerce-extensibility/optimize-images-search-cat.md
                     - name: Telemetria e análise
                       items:
                         - name: Agente de log de telemetria

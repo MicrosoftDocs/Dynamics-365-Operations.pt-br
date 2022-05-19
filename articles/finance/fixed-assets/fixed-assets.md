@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "21481"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674842"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720436"
 ---
 # <a name="fixed-assets-home-page"></a>Home page de ativos fixos
 
@@ -44,7 +44,7 @@ Acesse os [planos de versão do Microsoft Dynamics 365](/dynamics365/release-pla
 
 #### <a name="blogs"></a>Blogs
 
-Você pode encontrar opiniões, notícias e outras informações no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+Você encontra opiniões, notícias e outras informações no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do Dynamics 365.
 

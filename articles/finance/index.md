@@ -1,27 +1,27 @@
 ---
 title: Home page do Finance
 description: Este tópico oferece uma lista de tópicos da Ajuda e outros recursos para o gerenciamento financeiro do Microsoft Dynamics 365 Finance.
-author: roschlom
+author: kfend
 ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "206434"
 - intro-internal
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 1018cb8c3279a27a55a415c23405571e23ab40e1
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753712"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713688"
 ---
 # <a name="finance-home-page"></a>Home page do Finance
 
@@ -33,7 +33,7 @@ Escolha uma área de recursos para saber mais a respeito.
 
 :::row:::
     :::column:::
-        - [Contas a pagar](accounts-payable/accounts-payable.md) 
+        - [Contas a Pagar](accounts-payable/accounts-payable.md) 
         - [Contas a receber](accounts-receivable/accounts-receivable.md)
         - [Arrendamento de ativos](asset-leasing/asset-leasing-homepage.md)
         - [Orçamento](budgeting/budgeting-overview.md) 
@@ -80,6 +80,6 @@ Para obter informações sobre os recursos para gerenciar as compras, o estoque 
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
-Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Finance no Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+Para cursos e treinamentos online, consulte [Dynamics 365 Finance em Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
