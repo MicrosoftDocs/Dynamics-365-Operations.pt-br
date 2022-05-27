@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902498"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717464"
 ---
 # <a name="close-the-fiscal-year"></a>Fechar o ano fiscal
 
@@ -30,49 +30,49 @@ Este procedimento aborda o processo de fechamento do exercício que transfere sa
 ## <a name="validate-year-end-close-parameters"></a>Valide os parâmetros próximos de final de ano
 1. Acesse **Painel de navegação > Módulos> Contabilidade > Configuração do razão > Parâmetros da contabilidade**.
 2. Expandir a seção **Fechamento do ano fiscal**.
-3. Selecione 'Sim' ou 'Não' para a opção **Excluir transações de fechamento de ano durante a transferência**.
+3. Selecione **Sim** ou **Não** para a opção **Excluir transações de fechamento de ano durante a transferência**.
     
-    Se o ano fiscal tiver sido fechado e o fechamento de fim de ano estiver sendo executado novamente, essa configuração é importante. Se definido para Sim, o comprovante do fechamento anterior de final de ano será excluído, e um novo comprovante será criado para todas as contas que iniciam saldos. Se definido para Não, nenhum comprovante anterior permanecerá e um novo comprovante será criada apenas para as entradas de ajuste lançadas após o fechamento do final do ano.
+Se o ano fiscal tiver sido fechado e o fechamento de fim de ano estiver sendo executado novamente, essa configuração é importante. Se definido como **Sim**, o comprovante do fechamento anterior de final de ano será excluído, e um novo comprovante será criado para todas as contas que iniciam saldos. Se definido como **Não**, nenhum comprovante anterior permanecerá, e um novo comprovante será criado apenas para as entradas de ajuste lançadas após o fechamento do final do ano.
 
-4. Selecione 'Sim' ou 'Não' para a opção **Criar transações de fechamento durante a transferência**.
+4. Selecione **Sim** ou **Não** para a opção **Criar transações de fechamento durante a transferência**.
 
-    Se definido como Sim, duas transações são criadas. Um comprovante é criado no ano fiscal que está sendo fechado para reduzir os saldos de todas as contas contábeis a zero, e um segundo comprovante é criado no próximo ano fiscal para os saldos iniciais. Se definido para Não, um único comprovante é criado no próximo ano fiscal para o início dos saldos.  
+Se definido como **Sim**, duas transações são criadas. Um comprovante é criado no ano fiscal que está sendo fechado para reduzir os saldos de todas as contas contábeis a zero, e um segundo comprovante é criado no próximo ano fiscal para os saldos iniciais. Se definido como **Não**, um único comprovante é criado no próximo ano fiscal para o início dos saldos.  
 
-5. Selecione 'Sim' ou 'Não' para a opção **Definir status de ano fiscal como permanentemente fechado**.
+5. Selecione **Sim** ou **Não** para a opção **Definir status de ano fiscal como permanentemente fechado**.
 
-    Se estiver definido para Sim, o status do ano fiscal será definido como Permanentemente fechado.  Como um ano permanentemente fechado não pode ser reaberto, é uma prática recomendada definir esta opção como não.  
+Se estiver definido como **Sim**, o status do ano fiscal será definido como Permanentemente fechado. Como um ano permanentemente fechado não pode ser reaberto, é uma prática recomendada definir esta opção como **Não**.  
 
-6. Selecione 'Sim' ou 'Não' para a opção **Número de comprovante deve ser preenchido durante o fechamento do exercício**.
+6. Selecione **Sim** ou **Não** para a opção **Número de comprovante deve ser preenchido durante o fechamento do exercício**.
 
-    Se definido como Sim, um número de comprovante deverá ser inserido manualmente durante o processo de fechamento do ano. Uma sequência numérica não será usada para gerar esse número de comprovante. É uma melhor prática defini-lo para Sim.  
+Se definido como **Sim**, um número de comprovante deverá ser inserido manualmente durante o processo de fechamento do ano. Uma sequência numérica não será usada para gerar esse número de comprovante. É uma melhor prática defini-lo para **Sim**.  
 
 7. Feche a página.
 8. Acesse **Contabilidade > Fechamento de período > Fechamento do exercício**.
 9. Clique em **Novo** para criar um modelo de fechamento do exercício.
 
-    Um modelo podem ser criados para um grupo de entidades legais em que executa o fechamento de fim de ano. Esse método pode ser reutilizado todos os anos.  
+Um modelo podem ser criados para um grupo de entidades legais em que executa o fechamento de fim de ano. Esse método pode ser reutilizado todos os anos.  
 
 10. No campo **Nome do grupo**, insira um nome do modelo de fechamento do exercício.
 11. No campo **Calendário fiscal**, selecione o ano fiscal para o qual o modelo será criado.
 
-    Apenas as entidades legais que usam o mesmo ano fiscal podem ser agrupadas no modelo de fechamento de fim de ano. Isso porque o fechamento de anos é feito por um ano fiscal, sem uma data.  
+Apenas as entidades legais que usam o mesmo ano fiscal podem ser agrupadas no modelo de fechamento de fim de ano. Isso porque o fechamento de anos é feito por um ano fiscal, sem uma data.  
 
 12. No **Painel de ação**, clique em **Salvar**.
 13. Na seção **Entidades legais**, clique em **Adicionar** para selecionar as entidades legais para este modelo.
     
-    As entidades legais podem ser adicionadas às entidades legais ou selecionando uma hierarquia organizacional.  Apenas as entidades legais com a hierarquia organizacional com o mesmo calendário fiscal selecionado serão adicionadas.  
+As entidades legais podem ser adicionadas às entidades legais ou selecionando uma hierarquia organizacional. Apenas as entidades legais com a hierarquia organizacional com o mesmo calendário fiscal selecionado serão adicionadas.  
 
 14. Selecione as entidades legais ou a hierarquia organizacional.
 15. Clique em **OK**.
-16. Selecione 'Sim' ou 'Não' em **Transferir dimensão de balanço**.
+16. Selecione **Sim** ou **Não** em **Transferir dimensão de balanço**.
 
-    É uma prática recomendada definir esta opção como Sim para Contas de balanço. Isso manterá abertas as dimensões financeiras em transações lançadas quando criar o saldo inicial para as contas de balanço. Para contas de lucros e perdas, pode optar por manter dimensões financeiras (Fechar tudo) quando os saldos serão movidos a ganhos retidos ou selecionar para que as dimensões financeiras substituir por um valor diferente de dimensão (Fechar único) Se você optar fechamento único, defina um valor de dimensão específico para cada dimensão ou mesmo escolha para deixá-la em branco.  
+É uma prática recomendada definir esta opção como **Sim** para contas de balanço. Isso manterá abertas as dimensões financeiras em transações lançadas quando criar o saldo inicial para as contas de balanço. Para contas de lucros e perdas, pode optar por manter dimensões financeiras (**Fechar tudo**) quando os saldos serão movidos a ganhos retidos ou selecionar para que as dimensões financeiras substituir por um valor diferente de dimensão (**Fechar único**). Se você optar pelo **fechamento único**, defina um valor de dimensão específico para cada dimensão ou mesmo escolha deixá-lo em branco.  
 
 17. Clique em **Salvar**.
 18. Inicie o fechamento do exercício escolhendo **Executar fechamento de ano fiscal** no **Painel de Ação**. O prazo final de ano será executado para o modelo selecionado.  
 19. Selecione tudo ou um subgrupo de entidades legais do modelo em que executa o fechamento de fim de ano.
 
-    Ao executar pela primeira vez o fechamento do exercício, para obter saldos iniciais, a maioria das organizações podem optar por executar o fechamento do exercício para todas as entidades legais no modelo. Se as entradas de ajuste são realizadas após isso, selecione executar o final do ano seguinte para apenas as entidades legais com ajustes.  
+Ao executar pela primeira vez o fechamento do exercício, para obter saldos iniciais, a maioria das organizações podem optar por executar o fechamento do exercício para todas as entidades legais no modelo. Se as entradas de ajuste são realizadas após isso, selecione executar o final do ano seguinte para apenas as entidades legais com ajustes.  
 
 20. Clique em **OK**.
 21. Selecione o ano fiscal para o qual executar o fechamento de fim de ano.

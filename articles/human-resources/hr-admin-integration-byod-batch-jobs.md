@@ -1,25 +1,24 @@
 ---
 title: Otimizar trabalhos em lote agendados de BYOD
 description: Este tópico explica como otimizar o desempenho quando estiver usando o recurso Trazer seu próprio banco de dados (BYOD) com o Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
+author: twheeloc
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2fcdc89ce65fd123b4cf845acf83070119cc3701
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067770"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717158"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Otimizar trabalhos em lote agendados de BYOD
 

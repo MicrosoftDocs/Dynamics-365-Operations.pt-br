@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerTransSettlement, LedgerTrialBalanceListPage, LedgerTrialBalanceListPageBalanceParms, LedgerTransAccount, LedgerTransSettled
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 711e2f445e043dc74cba0ee11f1ab2dc22215ff30f495e06dce1f6f3ab4a0a09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a871e379826626edbad2434b11281fce5e29e14e
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723790"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717296"
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Liquidar transações entre contas contábeis
 
@@ -28,22 +28,22 @@ Este procedimento mostra como liquidar transações entre contas contábeis e ca
 
 
 ## <a name="settle-transaction-between-ledger-accounts"></a>Liquidar transação entre contas contábeis
-1. Acesse Contabilidade > Tarefas periódicas > Liquidações do razão.
+1. Acesse **Contabilidade > Tarefas periódicas > Liquidações do razão**.
 2. Na lista, localize a transação que você deseja liquidar.
    > [!NOTE]
    > O saldo do valor deve ser zero.  
-3. Clique em Incluir.
-4. Clique em Aceitar.
+3. Clique em **Incluir**.
+4. Clique em **Aceitar**.
 
 ## <a name="cancel-a-ledger-settlement"></a>Cancelar uma liquidação do razão
 
-1. Acesse Contabilidade > Consultas e relatórios > Balancete.
-2. Clique em Parâmetros para abrir a caixa de diálogo suspensa.
-3. Clique em Atualizar.
+1. Acesse **Contabilidade > Consultas e relatórios > Balancete**.
+2. Clique em **Parâmetros** para abrir o diálogo suspensa.
+3. Clique em **Atualizar**.
 4. Na lista, localize a conta com a transação liquidada.
-5. Clique em Todas as transações.
+5. Clique em **Todas as transações**.
 6. Use um filtro para encontrar facilmente a transação na lista.
-7. Clique em Liquidações do razão.
+7. Clique em **Liquidações do razão**.
 8. Na lista, marque a linha selecionada.
 
 

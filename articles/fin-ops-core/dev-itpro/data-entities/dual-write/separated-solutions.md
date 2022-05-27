@@ -2,20 +2,20 @@
 title: Pacote de orquestração de aplicativos com gravação dupla separado
 description: O pacote de orquestração de aplicativos com gravação dupla não é mais um pacote único, mas foi separado em pacotes menores. Este tópico explica as soluções e os mapas que cada pacote contém e sua dependência em outros pacotes.
 author: RamaKrishnamoorthy
-ms.date: 11/29/2021
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063253"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716542"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Pacote de orquestração de aplicativos com gravação dupla separado
 
@@ -26,10 +26,10 @@ ms.locfileid: "8063253"
 Anteriormente, o pacote de orquestração de aplicativos com gravação dupla era um pacote único que continha as seguintes soluções:
 
 - Notas do Dynamics 365
-- Âncora Comum do Dynamics 365 Finance and Operations
-- Mapas de Entidade de Gravação Dupla do Dynamics 365 Finance
-- Aplicativo Dynamics 365 Gerenciamento de ativos
-- Dynamics 365 Gerenciamento de ativos
+- Âncora do Dynamics 365 Finance and Operations Common
+- Mapas de Entidade de Gravação Dupla do Dynamics 365 Finance and Operations
+- Aplicativo de Gerenciamento de Ativos do Dynamics 365
+- Gerenciamento de Ativos do Dynamics 365
 - HCM comum
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
@@ -38,7 +38,7 @@ Anteriormente, o pacote de orquestração de aplicativos com gravação dupla er
 - Taxas de Câmbio
 - Field Service Common
 
-Como era um pacote único, ele criou uma situação de "tudo ou nada" para os clientes. No entanto, a Microsoft agora o separou em pacotes menores. Portanto, o cliente pode selecionar apenas os pacotes para as soluções necessárias. Por exemplo, se você é cliente do Microsoft Dynamics 365 Supply Chain Management e não precisa de integração com o Dynamics 365 Human Resources, notas e gerenciamento de ativos, você pode excluir essas soluções daquelas que estão instaladas. Como as versões de nome de solução subjacente, editor e mapa permanecem as mesmas, essa alteração não interrompe nada. Instalações existentes são atualizadas.
+Como era um pacote único, ele criou uma situação de "tudo ou nada" para os clientes. No entanto, a Microsoft agora o separou em pacotes menores. Portanto, os clientes podem selecionar apenas os pacotes para as soluções necessárias. Por exemplo, se você é cliente do Microsoft Dynamics 365 Supply Chain Management e não precisa de integração com o Dynamics 365 Human Resources, notas e gerenciamento de ativos, você pode excluir essas soluções daquelas que estão instaladas. Como as versões de nome de solução subjacente, editor e mapa permanecem as mesmas, essa alteração não interrompe nada. Instalações existentes são atualizadas.
 
 ![Pacote separado.](media/separated-package-1.png)
 
@@ -186,7 +186,7 @@ O pacote do Supply Chain com gravação dupla depende dos três pacotes a seguir
 
 ## <a name="dual-write-finance"></a>Finance com gravação dupla
 
-O pacote do Finance com gravação dupla contém as soluções e os mapas necessários para sincronizar dados do Dynamics 365 Finance. Ele contém as quatro soluções a seguir.
+O pacote Finance com gravação dupla contém as soluções e os mapas necessários para sincronizar dados do Dynamics 365 Finance. Ele contém as quatro soluções a seguir.
 
 | Nome exclusivo                            | Nome para exibição                               |
 |----------------------------------------|-------------------------------------------|
@@ -300,3 +300,47 @@ O Project Operations dependem dos pacotes a seguir. Portanto, você deve instala
 - Pacote do Supply Chain com gravação dupla
 - Pacote do Gerenciamento de ativos com gravação dupla
 - Pacote do Human Resources com gravação dupla
+
+## <a name="dual-write-party-and-global-address-book-solutions"></a>Soluções de catálogo de endereços global e de entidade de gravação dupla
+
+O pacote de catálogo de endereços global e de entidade de gravação dupla contém as soluções e mapas a seguir necessários para sincronizar dados de catálogo de endereços global e entidade de sincronização. 
+
+| Nome exclusivo                       | Nome para exibição                            |
+|-----------------------------------|-----------------------------------------|
+| Participante                             | Participante                                   |
+| Dynamics365GABExtended            | Dynamics 365 GAB Extended               |
+| Dynamics365GABDualWriteEntityMaps | Mapas de Entidade de Gravação Dupla do Dynamics 365 GAB |
+| Dynamics365GABParty_Anchor        | Dynamics 365 GAB e Entidade              |
+
+Os seguintes mapas estão disponíveis neste pacote.
+
+| Aplicativos do Finance and Operations | Aplicativos do Customer Engagement | 
+|-----------------------------|--------------------------|
+| Participantes do CDS | msdyn_parties | 
+| Localizações de endereço postal do CDS | msdyn_postaladdresscollections | 
+| Histórico de endereço postal do CDS V2 | msdyn_postaladdresses | 
+| Localizações de endereço postal do participante do CDS | msdyn_partypostaladdresses | 
+| Contatos do participante V3 | msdyn_partyelectronicaddresses | 
+| Clientes V3 | contas | 
+| Clientes V3 | contatos | 
+| Fornecedores V2 | msdyn_vendors | 
+| Títulos da pessoa de contato | msdyn_salescontactpersontitles | 
+| Fechamentos complementares | msdyn_complimentaryclosings | 
+| Saudações | msdyn_salutations | 
+| Funções de tomada de decisão | msdyn_decisionmakingroles | 
+| Funções de trabalho de emprego | msdyn_employmentjobfunctions | 
+| Níveis de fidelidade | msdyn_loyaltylevels | 
+| Tipos de caracteres pessoais | msdyn_personalcharactertypes | 
+| Contatos V2 | msdyn_contactforparties | 
+| Cabeçalho de cotação de venda CDS | cotações | 
+| Cabeçalhos de ordens de venda CDS | salesorders | 
+| Cabeçalhos de fatura de venda V2 | faturas | 
+| Funções de endereço CDS | msdyn_addressroles |
+
+**Informações sobre dependência**
+
+As soluções de catálogo de endereços global e entidade de gravação dupla dependem dos três pacotes a seguir. Portanto, você deverá instalar esses pacotes antes de instalar o pacote de soluções de catálogo de endereços global e entidade de gravação dupla.
+
+- Pacote de núcleos de aplicativos com gravação dupla
+- Pacote do Finance com gravação dupla
+- Pacote do Supply Chain com gravação dupla

@@ -1,25 +1,24 @@
 ---
 title: Visão geral de MyLeaveRequests
-description: A entidade MyLeaveRequests no Microsoft Dynamics 365 Human Resources fornece a lista de solicitações de licença no sistema, com escopo (limitado) para as solicitações acessíveis ao usuário atual que consulta a entidade.
-author: andreabichsel
+description: A entidade MyLeaveRequests no Microsoft Dynamics 365 Human Resources fornece a lista de Solicitações de Licença.
+author: twheeloc
 ms.date: 02/03/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 41ef8c6fc0e896e7f2cefd94801abab610083b81
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 20cc53ec3bcf38444ccf75f81e28d5efd9fc4537
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070845"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717045"
 ---
 # <a name="myleaverequests-overview"></a>Visão geral de MyLeaveRequests
 

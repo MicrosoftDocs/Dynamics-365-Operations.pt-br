@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d91ef244f8dd48baf65f5633357a7d81a68f84621b20d39d4e0ee771283a2bab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741348"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693462"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources 5 de abril de 2021
 
@@ -72,7 +71,7 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 | Recurso | Detalhes |
 | --- | --- |
 | As habilidades inseridas por um gerente para os funcionários podem ser aprovadas automaticamente por um fluxo de trabalho | Em breve. |
-| Atualização da plataforma 10.0.17 (41) | A atualização da plataforma 10.0.17 está agendada para começar a ser implementada na próxima versão, em 19 de abril de 2021. Para obter mais informações, consulte [Atualizações de plataforma para a versão 10.0.17 de aplicativos do Finance and Operations (abril de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
+| Atualização da plataforma 10.0.17 (41) | A atualização da plataforma 10.0.17 está agendada para começar a ser implementada na próxima versão, em 19 de abril de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.17 dos aplicativos de finanças e operações (abril de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
 
 Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2021 ciclo de lançamentos 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

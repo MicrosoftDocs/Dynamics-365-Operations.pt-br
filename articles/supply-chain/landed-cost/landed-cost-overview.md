@@ -1,24 +1,23 @@
 ---
 title: Módulo de custo de entrega
 description: O módulo de custo de entrega ajuda as empresas a simplificar as operações de remessa de entrada, permitindo que os usuários concluam o controle financeiro e logístico sobre o frete importado, do fabricante ao depósito.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: aa6f3baf6e6d980ac3c15e2045d1fcdef08ec296
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570371"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694617"
 ---
 # <a name="landed-cost-module"></a>Módulo de custo de entrega
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9552e518855711781c905514cae1cc25d33718c6
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533560"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722231"
 ---
 # <a name="update-process"></a>Atualizar processo
 
@@ -38,7 +37,7 @@ As atualizações são lançadas regularmente para todos os ambientes. O Human R
 
 As atualizações do Human Resources são aplicadas a todos os ambientes automaticamente. O Human Resources oferece dois tipos de versão:
 
-- **Atualizações de serviço**: atualizações ocorrem a cada duas semanas e incluem correções de bugs e novos recursos. As atualizações de serviço também incluem atualizações de Plataforma aplicáveis quando são lançadas. Para ter uma ideia de quando as atualizações de Plataforma serão lançadas, consulte [Tabela 3: versões da plataforma](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). As atualizações quinzenais têm uma distribuição global em etapas entre regiões. Para obter mais informações sobre atualizações quinzenais, consulte [Novidades ou alterações do Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Atualizações de serviço**: atualizações ocorrem a cada duas semanas e incluem correções de bugs e novos recursos. As atualizações de serviço também incluem atualizações de plataforma aplicáveis quando são lançadas. Para obter mais informações sobre versões da plataforma, consulte [Novidades ou alterações em Atualizações de plataforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). As atualizações quinzenais têm uma distribuição global em etapas entre regiões. Para obter mais informações sobre atualizações quinzenais, consulte [Novidades ou alterações do Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Todos os data centers compatíveis são atualizados a cada duas semanas, salvo indicação em contrário. As regiões EUA, Austrália, Europa, Reino Unido, Ásia e Canadá estão inclusas nas atualizações quinzenais. 
 

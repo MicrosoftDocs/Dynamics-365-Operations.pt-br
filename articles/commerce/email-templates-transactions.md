@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919492"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722510"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Criar modelos de email para eventos transacionais
 
@@ -64,8 +64,8 @@ O tipo de notificação de remessa concluída oferece suporte aos espaços reser
 | ------------------- | ------- |
 | `pickupstorename`     | O nome da loja em que a ordem está disponível para retirada. |
 | `pickupstoreaddress`  | O endereço da loja em que a ordem está disponível para retirada. |
-| `pickupstorehourfrom` | O horário de abertura da loja de retirada. |
-| `pickupstorehourto`   | O horário de fechamento da loja de retirada. |
+| `pickupstoreopenfrom` | O horário de abertura da loja de retirada. |
+| `pickupstoreopento` | O horário de fechamento da loja de retirada. |
 | `pickupchannelid`     | A ID do canal de armazenamento da loja de retirada. |
 | `packingslipid`      | A ID da guia de remessa da ordem que será retirada. |
 | `confirmationid`      | A ID da confirmação de ordem da ordem que será retirada. (Às vezes, essa ID é referida como ID de referência do canal.) |
@@ -102,7 +102,7 @@ O tipo de notificação de emissão de cartão-presente oferece suporte aos segu
 | Nome do espaço reservado      | Finalidade |
 | --------------------- | ------- |
 | `giftcardnumber`        | O número do cartão-presente para produtos do tipo de cartão-presente. |
-| `giftcardbalance`       | O saldo do cartão-presente para produtos do tipo de cartão-presente. |
+| `availablebalance` | O saldo restante disponível no cartão-presente. |
 | `giftcardmessage`       | A mensagem do cartão-presente para produtos do tipo de cartão-presente. |
 | `giftcardpin`         | O PIN (número de identificação pessoal) do cartão-presente para produtos do tipo de cartão-presente. (Este espaço reservado é específico de cartões-presente externos.) |
 | `giftcardexpiration`    | A data de vencimento do cartão-presente para produtos do tipo de cartão-presente. (Este espaço reservado é específico de cartões-presente externos.) |

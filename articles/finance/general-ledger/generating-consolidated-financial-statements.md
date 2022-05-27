@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 10f8754c4156893034117a4d449d464754eacafb0c0f6725c36709632af730ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727350"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716513"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Gerar demonstrativos financeiros consolidados
 
@@ -90,7 +90,7 @@ Se usar contas, dimensões ou ambos, o Relatório financeiro permite descartar a
 Uma empresa pode possuir apenas uma porcentagem de outra empresa. Nessa situação, quando você está produzindo um relatório consolidado, é importante que você contabilize apenas a porcentagem que a empresa possui. O Relatório financeiro tem várias maneiras de apresentar o interesse minoritário, dependendo da preferência do usuário. Uma delas é usar um percentual de acúmulo na definição de hierarquia organizacional. Outra maneira é mostrar a participação minoritária como uma linha separada em um relatório.
 
 ### <a name="using-the-reporting-tree-definition"></a>Usando a definição de hierarquia organizacional
-Na definição de hierarquia organizacional, insira o percentual de participação na coluna **Porcentagem de acúmulo** (coluna H), conforme mostrado na ilustração a seguir. Quando o relatório for gerado, esse percentual será usado para calcular o valor consolidado. Neste exemplo, a Contoso tem apenas 80% da Contoso Alemanha. Você pode inserir **80** ou **,8** na coluna **Porcentagem de acúmulo** e 80% será acumulado no nível consolidado.
+Na definição de hierarquia organizacional, insira o percentual de participação na coluna **Porcentagem de acúmulo** (coluna H), conforme mostrado na ilustração a seguir. Quando o relatório for gerado, esse percentual será usado para calcular o valor consolidado. Neste exemplo, a Contoso possui apenas 80% da Contoso Alemanha. Você pode inserir **80** ou **,8** na coluna **Porcentagem de acúmulo** e 80% será acumulado no nível consolidado.
 
 > [!NOTE]
 > Você pode aplicar essa porcentagem de participação a qualquer unidade organizacional, não apenas no nível da empresa. 

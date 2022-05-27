@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735342"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694414"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources de 22 de junho de 2021
 
@@ -83,7 +82,7 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 
 | Recurso | Detalhes |
 | --- | --- |
-| Atualização da plataforma 10.0.19 (43) | A atualização da plataforma 10.0.19 está agendada para começar a ser implementada na versão de serviço, em 28 de junho de 2021. Para obter mais informações, consulte [Atualizações de plataforma para a versão 10.0.19 dos aplicativos do Finance and Operations (junho de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Atualização da plataforma 10.0.19 (43) | A atualização da plataforma 10.0.19 está agendada para começar a ser implementada na versão de serviço, em 28 de junho de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.19 dos aplicativos de Finanças e Operações (junho de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Opção Exibição de anos de serviço | Este recurso oferece a opção de usar datas diferentes para calcular os anos de serviço exibidos no formulário de **Entrada de funcionário simplificada** e no formulário **Pessoas**.  Isso estará disponível nos parâmetros de Recursos Humanos. |
 |  Habilitar um gerente de ausência para gerenciar a licença | [Habilitar um gerente de ausência para gerenciar a licença](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Anexos de mandato para tipos de licenças específicas | Esse recurso permite que os administradores exijam que sejam adicionados anexos ao enviar solicitações de licença para tipos específicos de licença. |

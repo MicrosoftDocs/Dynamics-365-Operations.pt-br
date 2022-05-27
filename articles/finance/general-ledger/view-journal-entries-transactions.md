@@ -1,6 +1,6 @@
 ---
-title: Visualizar entradas e transações de transações
-description: Este artigo explica as várias formas com as quais você pode exibir entradas de diário e transações.
+title: Exibir entradas de diário e transações
+description: Este tópico explica as várias formas com as quais você pode exibir entradas de diário e transações.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerTransVoucher
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 13031
 ms.assetid: 281c7ea6-4dfd-4d1f-994f-c361ee299dbe
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 673d61868d863568ae7613552d95e3fbadd66d2b4072d71315ab43660a8d1866
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4e33b1516e780c55f753b32ac5ddd50b6f9560c
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731443"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717548"
 ---
-# <a name="view-journal-entries-and-transactions"></a>Visualizar entradas e transações de transações
+# <a name="view-journal-entries-and-transactions"></a>Exibir entradas de diário e transações
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo explica as várias formas com as quais você pode exibir entradas de diário e transações. 
+Este tópico explica as várias formas com as quais você pode exibir entradas de diário e transações. 
 
 Os usuários que desejam exibir diários e transações têm várias formas de acessar os dados. Podem aproveitar as vantagens das páginas de consulta que oferecem a busca detalhada, ou podem usar várias opções do relatório na razão.
 

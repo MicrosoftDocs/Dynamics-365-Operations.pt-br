@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-26
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 810511c42cd690579d8c8b6ebcc17b0cf7fcb9eb2b999822dc2226fabd127cc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e124655ca96e34e53723ea2608227661034d58b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771506"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694701"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-26-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources – 26 de julho de 2021
 
@@ -42,7 +41,7 @@ Os seguintes recursos estão geralmente disponíveis nesta versão.
 
 | Recurso | Liberar planos | Documentação |
 | --- | --- | --- |
-| Update 10.0.20 para plataforma | -- | [Atualizações de plataforma para a versão 10.0.20 dos aplicativos do Finance and Operations (agosto de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20) |
+| Update 10.0.20 para plataforma | -- | [Atualizações de plataforma para a versão 10.0.20 dos aplicativos de Finanças e Operações (agosto de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20) |
 
 ### <a name="bug-fixes"></a>Correções de bug
 

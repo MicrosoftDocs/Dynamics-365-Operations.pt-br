@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775161"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711966"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelos de plano de orçamento para Excel
 
@@ -55,7 +55,7 @@ Você pode revisar a configuração do layout e ajustá-la quando necessário.
 O modelo do Excel conterá todos os elementos do layout do documento de plano de orçamento, no qual a coluna **Disponível em planilha** é definida como Verdadeira. Não é possível sobrepor elementos no modelo do Excel. Por exemplo, se o layout contiver as colunas Solicitação Q1, Solicitação Q2, Solicitação Q3 e Solicitação Q4 e uma coluna com o total de solicitações representando a soma de todas as 4 colunas trimestrais, apenas as colunas trimestrais ou a coluna com o total estarão disponíveis para serem usadas no modelo do Excel. O arquivo do Excel pode atualizar a sobreposição de colunas durante a atualização, já que os dados na tabela poderiam ficar desatualizados e se tornar imprecisos.
 
 > [!NOTE] 
-> Para evitar possíveis problemas com a exibição e a edição de dados do plano de orçamento usando o Excel, o mesmo usuário deve estar conectado ao Microsoft Dynamics 365 Finance e ao Conector de Dados do Suplemento do Office do Microsoft Dynamics.
+> Para evitar possíveis problemas com a exibição e a edição de dados de plano de orçamento usando o Excel, o mesmo usuário deve estar conectado ao Microsoft Dynamics 365 Finance e ao Conector de Dados do Suplemento do Office do Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Adicionar um cabeçalho ao modelo de documento de plano de orçamento
 Para adicionar informações de cabeçalho, selecione a linha superior no arquivo do Excel e insira linhas vazias. Clique em **Design** no **Conector de Dados** para adicionar campos de cabeçalho ao arquivo do Excel.
@@ -79,7 +79,7 @@ O grupo de campos selecionado exibe a coluna que está disponível no modelo. Cl
 [![Adicione e insira a coluna.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Para definir a fórmula, crie a fórmula na planilha e depois copie-a na janela **Design**. Uma tabela limitada do Finance and Operations normalmente será denominada "AXTable1". Por exemplo, para resumir as colunas Solicitação Q1 : Solicitação Q4 na planilha, a fórmula = AxTable1\[Solicitação Q1\]+AxTable1\[Solicitação Q2\]+AxTable1\[Solicitação Q3\]+AxTable1\[Solicitação Q4\].
+> Para definir a fórmula, crie a fórmula na planilha e depois copie-a na janela **Design**. Uma tabela vinculada do Finance and Operations geralmente será nomeada como "AXTable1". Por exemplo, para resumir as colunas Solicitação Q1 : Solicitação Q4 na planilha, a fórmula = AxTable1\[Solicitação Q1\]+AxTable1\[Solicitação Q2\]+AxTable1\[Solicitação Q3\]+AxTable1\[Solicitação Q4\].
 
 Repita essas etapas para inserir a coluna **Ajuste**. Use a fórmula = AxTable1\[Total da solicitações\]\*$I$1 para essa coluna. Isso usará o valor na célula I1 e multiplicará os valores na coluna **Total de solicitações** para calcular os valores de ajuste.
 

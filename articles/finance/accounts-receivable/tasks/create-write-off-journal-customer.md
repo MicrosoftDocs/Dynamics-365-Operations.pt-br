@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e810badf9b43a3b0e57390b05247113021e26b6a0242cf29022274307c5fd56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771791"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713661"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Criar um diário de baixa para um cliente
 
@@ -74,8 +74,8 @@ Esta guia de tarefa mostrará como configurar parâmetros de baixas contábeis e
 6. Feche a página.
 
 ## <a name="write-off-a-customer-balance-from-the-customer-page"></a>Dar baixa no saldo de um cliente na página do cliente
-1. Acesse **Contas recebíveis > Clientes > Todos os clientes**.
-2. Selecione uma conta de cliente. Por exemplo, selecione US-001 (Contoso Retail San Diego).
+1. Vá para **Contas recebíveis > Clientes > Todos os clientes**.
+2. Selecione uma conta de cliente. Por exemplo, selecione US-001 (Contoso Retail de São Diego).
 3. No **Painel de Ações**, clique em **Cobrar**.
 4. Clique em **Dar baixa**.
 5. Clique em **OK**.

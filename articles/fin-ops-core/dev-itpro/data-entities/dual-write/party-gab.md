@@ -2,19 +2,19 @@
 title: Catálogo de endereços global e dos participantes
 description: Este tópico descreve o recurso Catálogo de endereços global e de participantes de gravação dupla.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407756"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717436"
 ---
 # <a name="party-and-global-address-book"></a>Catálogo de endereços global e de participantes
 
@@ -139,7 +139,7 @@ A grade inclui as seguintes colunas:
 
 Você pode usar o botão **Novo Endereço Eletrônico** acima da grade para criar o número de endereços desejados.
 
-Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximos lançamentos, todos os campos de endereço eletrônico e postal serão removidos de outras guias, por exemplo, as guias **Resumo** e **Detalhes**. Os detalhes de contato exibidos na guia **Detalhes** são cópias somente leitura do endereço eletrônico principal, como telefone principal, email principal, telefone principal, fax principal e ID do Twitter principal. Durante o processo de qualificação de clientes potenciais, você pode fornecer um telefone comercial e um número do telefone celular. O telefone comercial é considerado o telefone principal se **IsMobile=No** e o número do telefone celular é considerado o telefone secundário se **IsMobile=Yes**.
+Durante o processo de qualificação de clientes potenciais, você pode fornecer um telefone comercial e um número do telefone celular. O número de telefone comercial é considerado o número de telefone principal se **IsMobile=No** e o número de telefone celular é considerado o número de telefone secundário se **IsMobile=Yes**.
 
 > [!TIP]
 > Use as guias **Endereços** e **Endereços Eletrônicos** nos formulários de **Conta** e **Contato** para gerenciar os endereços postal e eletrônico. Isso garante que os dados de endereço sejam sincronizados com os aplicativos de Finanças e Operações.
@@ -148,7 +148,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
 
 1. Abra o ambiente do aplicativo de participação do cliente.
 
-2. Instale a versão mais recente (2.2.2.60 ou posterior) da [solução de orquestração de aplicativos de gravação dupla](https://aka.ms/dual-write-app).
+2. Instale todas as soluções de pré-requisito, conforme descrito em [Pacote de orquestração de aplicativos com gravação dupla separado](separated-solutions.md).
 
 3. Instale [Soluções de gravação dupla de catálogo de endereços global e de participante](https://aka.ms/dual-write-gab).
 
@@ -165,8 +165,8 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
 
     Mapa | Atualize para esta versão | Alterações
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Este é um novo mapa adicionado como parte desta versão.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | Este é um novo mapa adicionado como parte desta versão.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | Este é um novo mapa adicionado como parte desta versão.
     `Customers V3 (accounts)` | 1.0.0.5 |Remoção de `PartyNumber` e de outros campos relacionados ao participante, como os campos de nome, detalhes pessoais, endereço postal e endereço de contato eletrônico.
     `Customer V3 (contacts)` | 1.0.0.5 | Remoção de `PartyNumber` e de outros campos relacionados ao participante, como os campos de nome, detalhes pessoais, endereço postal e endereço de contato eletrônico.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Remoção de `PartyNumber` e de outros campos relacionados ao participante, como os campos de nome, detalhes pessoais, endereço postal e endereço de contato eletrônico.
@@ -174,16 +174,17 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Substituição da pessoa de contato pela referência `ContactforParty`.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | Substituição da pessoa de contato pela referência `ContactforParty`.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Este é um novo mapa adicionado como parte desta versão.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Este é um novo mapa adicionado como parte desta versão.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | Este é um novo mapa adicionado como parte desta versão.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
 
 8. Antes de executar os mapas acima, você deve atualizar as chaves de integração manualmente, conforme descrito nas etapas a seguir. Selecione **Salvar**.
 
@@ -251,6 +252,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
     [Cabeçalho de cotação de venda CDS](mapping-reference.md#215) | cotações
     [Cabeçalhos de ordens de venda CDS](mapping-reference.md#217) | salesorders
     [Cabeçalhos de fatura de venda V2](mapping-reference.md#118) | faturas
+    [Funções de endereço CDS](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
 > O mapa `CDS Contacts V2 (contacts)` é o mapa interrompido na etapa 1. Ao tentar executar outros mapas, esses dois mapas podem aparecer na lista de dependentes. Não execute esses mapas.
@@ -258,7 +260,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
 > Se a solução de catálogo de endereços global e de participantes estiver instalada, você deverá desabilitar o plug-in denominado `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Se você desinstalar a solução de catálogo de endereços global e de participantes, deverá reativar o plug-in.
 >
 > O campo `msdyn_*partynumber` (um campo de texto de linha única) incluído nas tabelas **Conta**, **Contato** e **Fornecedor** não devem ser usadas no futuro. O nome da etiqueta tem um prefixo **(Preterido)** para fins de clareza. Em vez disso, use o campo **msdyn_partyid**. O campo é uma pesquisa na tabela **msdyn_party**.
-
+>
 > Nome da Tabela | Campo antigo | Novo campo
 > --------|-------|--------
 > Conta | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Um conjunto de mapas de tabelas funcionam juntos para a interação do participa
 | [Cabeçalhos de fatura de venda V2](mapping-reference.md#118) | faturas |
 | [Saudações](mapping-reference.md#228) | msdyn\_salutations |
 | [Fornecedores V2](mapping-reference.md#202) | msdyn\_vendors |
+| [Funções de endereço CDS](mapping-reference.md#301) |msdyn\_addressroles|
 
 Para obter mais informações, consulte [Referência de mapeamento de gravação dupla](mapping-reference.md).
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Funções de endereço como uma lista suspensa de seleção múltipla
+Um endereço postal ou um endereço eletrônico pode servir a mais de um propósito. Por exemplo, um endereço postal pode servir tanto como endereço de cobrança quanto como endereço de entrega. Nesses casos, um usuário pode selecionar **Fatura** e **Entrega** na lista suspensa, conforme mostrado na ilustração a seguir. 
+
+![Lista suspensa Finalidade/Função.](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
 + Em aplicativos de Finanças e Operações, quando você cria um cliente junto com o endereço e o salva, o endereço talvez não seja sincronizado com a tabela **Endereço**. Isso ocorre devido a um problema de sequenciamento de plataforma de gravação dupla. Para solucionar o problema, crie o cliente primeiro e salve-o. Em seguida, adicione o endereço.
 + Em aplicativos de Finanças e Operações, quando um registro de cliente tem um endereço principal e você cria um novo contato para esse cliente, o registro de contato herda um endereço principal do registro de cliente associado. Isso ocorre para o contato do fornecedor. O Dataverse no momento não dá suporte a esse comportamento. Se a gravação dupla estiver habilitada, os contatos de clientes herdados com um endereço principal do aplicativo de Finanças e Operações serão sincronizados com o Dataverse junto com o endereço.
-+ Os endereços eletrônicos definidos na guia endereço eletrônico dos formulários **Conta**, **Contato** e **Fornecedor** são obtidos da tabela `msdyn_partyelectronicaddress`. Essas informações não fluem para as transações associadas, como ordem de venda, cotação e ordem de compra. Pretendemos corrigir esse problema em uma versão incremental. Os dados existentes nos campos de endereço eletrônico nos registros de conta e contato continuarão a funcionar em transações como ordem de venda, cotação e ordem de compra.
 + Em aplicativos de Finanças e Operações, você pode criar um registro de contato do formulário **Adicionar Contato**. Quando você tenta criar um novo contato no formulário **Exibir Contato**, a ação falha. Este é um problema conhecido.
 
     ![Problema conhecido com Adicionar Contato.](media/party-gab-contact-issue.png)
 
-+ A **sincronização inicial** não dá suporte aos campos de tempo **Disponível de** e **Disponível até** em **ContactForParty** porque DIXF converte o valor em uma cadeia de caracteres em vez de um inteiro. A conversão dispara o erro `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Quando um endereço postal é usado por mais de um motivo (por exemplo, endereço de comunicação comercial e endereço de cobrança), ele deve aparecer como `Business;Invoice`, conforme mostrado na imagem a seguir. Se você adicionar um espaço entre os valores, obterá um erro.
-
-    ![Problema conhecido com o endereço.](media/party-gab-address-issue.png)
-
++ A **sincronização inicial** não dá suporte aos campos de tempo **Disponível de** e **Disponível até** em **ContactForParty** porque DIXF converte o valor em uma cadeia de caracteres em vez de um inteiro. A conversão dispara o erro `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`.
 + Não é possível inserir um endereço postal com data posterior usando um aplicativo de Finanças e Operações com gravação dupla porque o Dataverse não dá suporte à efetivação de data. Se você inserir um endereço postal com data futura usando um aplicativo de Finanças e Operações, ele será totalmente sincronizado com o Dataverse e você verá logo o endereço na interface do usuário. Todas as atualizações deste registro resultarão em um erro, pois ele tem data futura e não atual no aplicativo de Finanças e Operações.

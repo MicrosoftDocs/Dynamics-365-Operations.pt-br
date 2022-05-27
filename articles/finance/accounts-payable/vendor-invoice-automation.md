@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722758"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716384"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automação de fatura para documentos digitalizados
 
@@ -32,7 +32,7 @@ As organizações que desejam agilizar seus processos de Contas a Pagar (AP) ger
 
 A solução de automação de fatura permite uma interface padrão que pode aceitar metadados de fatura para o cabeçalho da fatura e linhas de fatura, e também os anexos aplicáveis ​​à fatura. Qualquer sistema externo que possa gerar artefatos compatíveis esta interface poderá enviar o feed para o processamento automático de faturas e anexos.
 
-A ilustração a seguir mostra um exemplo de cenário de integração em que a Contoso se associou com um provedor de serviços de OCR para o processamento de fatura de fornecedor. Os fornecedores da Contoso enviam faturas ao provedor de serviços por email. Através do processamento de OCR, o provedor de serviços gera metadados de fatura (cabeçalho e/ou linhas) e uma imagem digitalizada da fatura. Uma camada de integração transforma esses artefatos para que possam ser consumidos.
+A ilustração a seguir mostra um exemplo de cenário de integração onde a Contoso se associou com um provedor de serviços de OCR para processamento de fatura de fornecedor. Os fornecedores da Contoso enviam faturas ao provedor de serviços por e-mail. Através do processamento de OCR, o provedor de serviços gera metadados de fatura (cabeçalho e/ou linhas) e uma imagem digitalizada da fatura. Uma camada de integração transforma esses artefatos para que possam ser consumidos.
 
 ![Cenário de integração de amostra.](media/vendor_invoice_automation_01.png)
 
@@ -58,7 +58,7 @@ Um pacote de dados é a unidade de trabalho que deve ser enviada para que cabeç
 
 O anexo do documento de fatura do fornecedor é uma nova entidade de dados que é introduzida como parte desse recurso. A entidade do cabeçalho da fatura de fornecedor foi modificada para que ele suporte anexos. A entidade da linha de fatura do fornecedor não foi modificada para esse recurso.
 
-Para obter informações detalhadas sobre pacotes de dados, consulte [Visão geral de gerenciamento de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Para obter informações sobre como criar pacotes de dados usando o espaço de trabalho de gerenciamento de dados, consulte [Processar e consumir pacotes de dados na solução de aplicativos do Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Para obter informações detalhadas sobre pacotes de dados, consulte [Visão geral de gerenciamento de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Para obter informações sobre como criar pacotes de dados usando o espaço de trabalho de gerenciamento de dados, consulte [Processar e consumir pacotes de dados na solução de aplicativos de finanças e operações do Dynamics 365](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Para gerar rapidamente dados de teste que incluem faturas e anexos, siga estas etapas.
 

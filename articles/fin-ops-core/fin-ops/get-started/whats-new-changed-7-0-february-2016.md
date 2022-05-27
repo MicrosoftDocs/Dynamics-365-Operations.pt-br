@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757210"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711310"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novidades ou alterações no Dynamics AX 7.0 (fevereiro de 2016)
 
@@ -969,7 +969,7 @@ Há um aprimoramento da instalação do componente do cliente "de baixo contato"
 </tr>
 <tr>
 <td>Monitore a saúde do sistema e faça um diagnóstico dos erros e problemas</td>
-<td>Esta funcionalidade requer <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack para Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Esta funcionalidade requer <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58205">System Center 2012 Management Pack para Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>O monitoramento e diagnóstico de componentes de varejo agora é disponibilizado por meio do painel <strong>Informações operacionais</strong> no LCS.</td>
 <td>O painel <strong>Informações operacionais</strong> é um portal de monitoramento baseado em nuvem que substitui a necessidade de instalar a infraestrutura do System Center Operations Manager (SCOM)</td>
 </tr>
@@ -1028,7 +1028,7 @@ Não foram adicionados novos recursos.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Home page de Novidades ou alterações no Finance and Operations](whats-new-changed.md)
+[Novidades ou alterações na home page do Finance and Operations](whats-new-changed.md)
 
 [Novos guias de tarefas (fevereiro de 2016)](new-task-guides-available-february-2016.md)
 

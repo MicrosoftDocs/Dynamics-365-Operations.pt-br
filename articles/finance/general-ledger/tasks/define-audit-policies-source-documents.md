@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722662"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713772"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Definir políticas de auditoria para documentos de origem
 
@@ -39,9 +39,9 @@ Este tópico explica como configurar e executar regras de diretiva de auditoria.
 11. Selecione **Novo**.
 12. No campo **Nome**, digite um valor.
 13. Expanda a seção **Organizações de política**.
-14. Na árvore, selecione **Contoso Entertainment System USA** e, em seguida, **Adicionar**.
-15. Na árvore, selecione **Contoso Consulting USA** e, em seguida, **Adicionar**.
-16. Na árvore, selecione **Contoso Retail USA** e, em seguida, **Adicionar**.
+14. Na árvore, selecione **Contoso Entertainment System USA** e **Adicionar**.
+15. Na árvore, selecione **Contoso Consulting USA** e **Adicionar**.
+16. Na árvore, selecione **Contoso Retail USA** e **Adicionar**.
 17. Recolha a seção **Organizações de política**.
 18. Expanda a seção **Regras de política**.
 19. Na lista, localize e selecione as regras de diretiva que foram criadas anteriormente.

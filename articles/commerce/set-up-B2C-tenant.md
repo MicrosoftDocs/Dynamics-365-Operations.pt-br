@@ -2,7 +2,7 @@
 title: Configurar um locatário B2C do Commerce
 description: Este tópico descreve como configurar os locatários business-to-consumer (B2C) do Azure Active Directory (Azure AD) para a autenticação do site de usuário no Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 02/11/2022
+ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109877"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714303"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar um locatário B2C do Commerce
 
@@ -137,9 +137,9 @@ Você pode optar por usar os fluxos de usuário padrão fornecidos pelo Azure AD
 
 Para personalizar as páginas de política de usuário com as páginas criadas no Dynamics 365 Commerce, consulte [Configurar páginas personalizadas para logons de usuário](custom-pages-user-logins.md). Para obter informações adicionais, consulte [Personalizar a interface de experiências de usuário no B2C do Azure Active Directory](/azure/active-directory-b2c/tutorial-customize-ui).
 
-### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Criar uma política fluxo de usuário de inscrição e logon
+### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Criar uma política fluxo de usuário de inscrição e entrada
 
-Para criar uma política de fluxo de usuário de inscrição e logon, siga estas etapas.
+Para criar uma política de fluxo de usuário de inscrição e entrada, siga estas etapas.
 
 1. No portal do Azure, selecione **Fluxos de usuário (políticas)** no painel de navegação esquerdo.
 1. Na página do **B2C do Azure AD – Fluxos de usuário (políticas)**, selecione **Novo Fluxo de Usuário**.
@@ -159,7 +159,7 @@ Para criar uma política de fluxo de usuário de inscrição e logon, siga estas
 
 1. Selecione **Criar**.
 
-A imagem a seguir é um exemplo do fluxo de usuário de inscrição e logon do B2C do Azure AD.
+A imagem a seguir é um exemplo do fluxo de usuário de inscrição e entrada do Azure AD B2C.
 
 ![Configurações da política de Inscrição e Logon.](./media/B2CImage_11.png)
 
@@ -239,15 +239,15 @@ Para adicionar e configurar um provedor de identidade social, siga estas etapas.
 
 1. No portal do Azure, navegue até **Provedores de Identidade**.
 1. Selecione **Adicionar**. A tela **Adicionar provedor de identidade** será exibida.
-1. Em **Nome**, insira o nome a ser exibido para os usuários na tela de logon.
+1. Em **Nome**, insira o nome a ser exibido para os usuários na tela de entrada.
 1. Em **Tipo de provedor de identidade**, selecione um provedor de identidade na lista.
 1. Selecione **OK**.
 1. Selecione **Configurar este provedor de identidade** para acessar a tela **Configurar provedor de identidade social**.
 1. Em **ID do Cliente**, insira o ID do cliente obtido na configuração do aplicativo do provedor de identidade.
 1. Em **Segredo do cliente**, insira o segredo do cliente obtido na configuração do aplicativo do provedor de identidade.
-1. Anexe o fluxo de usuário para as políticas de inscrição e logon:
+1. Anexe o fluxo de usuário para as políticas de inscrição/entrada:
 1. Acesse **B2C do Azure AD – Fluxos de usuário (políticas) \> {sua política de inscrição e logon} \> Provedores de identidade**.
-1. Para anexar a política de fluxo de usuário de inscrição/logon, selecione os provedores de identidade configurados para a sua conta. Para testá-los, selecione **Executar fluxo de usuário** para cada provedor de identidade. Uma nova guia será exibida na página de logon mostrando a caixa de seleção do novo provedor de identidade.
+1. Para anexar a política de fluxo de usuário de inscrição/entrada, selecione os provedores de identidade configurados para a sua conta. Para testá-los, selecione **Executar fluxo de usuário** para cada provedor de identidade. Uma nova guia será exibida na página de logon mostrando a caixa de seleção do novo provedor de identidade.
 
 A imagem a seguir mostra exemplos das telas **Adicionar provedor de identidade** e **Configurar o provedor de identidade social** no B2C do Azure AD.
 
@@ -332,27 +332,28 @@ Para adicionar as informações do aplicativo do locatário do Azure AD B2C ao C
 
 1. Faça login como administrador no construtor de sites do Commerce no seu ambiente.
 1. No painel de navegação esquerdo, selecione **Configurações de Locatário** para expandi-lo.
-1. Em **Configurações do Locatário**, selecione **Configurações do B2C**. 
-1. Na janela principal ao lado de **Aplicativos B2C**, selecione **Gerenciar**. (Se o locatário aparecer na lista de Aplicativos B2C, ele já foi adicionado por um administrador. Verifique se os itens na etapa 6 abaixo correspondem ao Aplicativo B2C.)
-1. Selecione **Adicionar Aplicativo B2C**.
+1. Em **Configurações de Locatário**, selecione **Configuração de autenticação do site**. 
+1. Na janela principal ao lado de **Perfis de autenticação no site**, selecione **Gerenciar**. (Se o locatário aparecer na lista de perfis de autenticação no site, ele já foi adicionado por um administrador. Verifique se os itens na etapa 6 abaixo correspondem aos da sua configuração B2C pretendida. Também é possível criar um novo perfil usando os locatários ou aplicativos do Azure AD B2C semelhantes para contabilizar diferenças mínimas, como diferentes IDs de política de usuário).
+1. Selecione **Adicionar perfil de autenticação de site**.
 1. Insira os seguintes itens obrigatórios no formulário exibido usando valores do locatário e aplicativo B2C. Os campos que não são obrigatórios (sem um asterisco) podem ser deixados em branco.
 
     - **Nome do Aplicativo**: O nome do Aplicativo B2C, por exemplo, "Fabrikam B2C".
     - **Nome do locatário**: O nome de seu locatário B2C (por exemple, use "fabrikam" se o domínio aparecer como "fabrikam.onmicrosoft.com" para o locatário B2C). 
     - **ID da Política de Esquecer Senha**: A ID da política de fluxo de usuário de esquecer senha, por exemplo, "B2C_1_PasswordReset".
-    - **ID da Política de Inscrição e Logon**: A ID da política do fluxo de usuário de inscrição e logon, por exemplo "B2C_1_signup_signin".
+    - **ID da Política de Inscrição e Entrada**: a ID da política do fluxo de usuário de inscrição e entrada, por exemplo "B2C_1_signup_signin".
     - **GUID do Cliente**: A ID do aplicativo B2C, por exemplo "22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6".
     - **ID da Política de Editar Perfil**: A ID da política do fluxo de usuário de edição de perfil, por exemplo "B2C_1A_ProfileEdit".
 
 1. Selecione **OK**. Agora você verá o nome do aplicativo B2C aparecer na lista.
 1. Selecione **Salvar** para salvar as alterações.
 
+O campo **Domínio personalizado de logon** opcional só deverá ser usado se você estiver configurando um domínio personalizado para o locatário do Azure AD B2C. Para obter detalhes adicionais e considerações sobre o uso do campo **Domínio personalizado de logon**, consulte as [Informações adicionais sobre B2C](#additional-b2c-information) abaixo.
+
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Associar o aplicativo B2C ao site e ao canal
 
 > [!WARNING]
-> Se o site já estiver associado a um aplicativo B2C, alterar para outro aplicativo B2C removerá as referências atuais estabelecidas para usuários já inscritos neste ambiente. Se for alterado, todas as credenciais associadas ao aplicativo B2C atualmente atribuído não estarão disponíveis para os usuários. 
-> 
-> Somente atualize o aplicativo B2C se estiver configurando o aplicativo B2C do canal pela primeira vez ou se quiser que os usuários se inscrevam novamente com novas credenciais neste canal com o novo aplicativo do B2C. Tenha cautela ao associar canais aos aplicativos B2C e nomeie os aplicativos de forma clara. Se um canal não estiver associado a um aplicativo B2C nas etapas abaixo, os usuários que fizerem logon nesse canal para o seu site serão inseridos no aplicativo B2C exibido como **padrão** na lista **Configurações do Locatário \> Configurações do B2C** de aplicativos B2C.
+> - Se o site já estiver associado a um aplicativo B2C, alterar para outro aplicativo B2C removerá as referências atuais estabelecidas para usuários já inscritos neste ambiente. Se for alterado, todas as credenciais associadas ao aplicativo B2C atualmente atribuído não estarão disponíveis para os usuários. 
+> - Somente atualize o aplicativo B2C se estiver configurando o aplicativo B2C do canal pela primeira vez ou se quiser que os usuários se inscrevam novamente com novas credenciais neste canal com o novo aplicativo B2C. Tenha cautela ao associar canais aos aplicativos B2C e nomeie os aplicativos de forma clara. Se um canal não estiver associado a um aplicativo B2C nas etapas abaixo, os usuários que fizerem logon nesse canal para o seu site serão inseridos no aplicativo B2C exibido como **padrão** na lista **Configurações do Locatário \> Configurações do B2C** de aplicativos B2C.
 
 Para associar o aplicativo B2C ao site e ao canal, siga estas etapas.
 
@@ -378,6 +379,23 @@ Para obter informações adicionais sobre como personalizar fluxos de interaçõ
 ### <a name="secondary-admin"></a>Administrador secundário
 
 Uma conta de administrador ideal secundária pode ser adicionada à seção **Usuários** do locatário B2C. Pode ser uma conta direta ou uma conta geral. Caso precise compartilhar uma conta entre os recursos da equipe, uma conta comum também poderá ser criada. Devido à confidencialidade dos dados armazenados no B2C do Azure AD, uma conta comum deverá ser monitorada rigorosamente de acordo com as práticas de segurança da empresa.
+
+### <a name="set-up-a-custom-sign-in-domain"></a>Configurar um domínio de entrada personalizado
+
+O Azure AD B2C permite configurar um domínio de entrada personalizado para o locatário do Azure AD B2C. Para obter instruções, consulte [Habilitar domínios personalizados para o Azure Active Directory B2C](/azure/active-directory-b2c/custom-domain). 
+
+Se você usar um domínio de entrada personalizado, o domínio deverá ser inserido no construtor de sites do Commerce.
+
+Para inserir um domínio de entrada personalizado no construtor de sites, siga estas etapas.
+
+1. No canto superior direito do construtor de sites, selecione o seletor de sites e, em seguida, selecione **Gerenciar sites**.
+1. No painel de navegação esquerdo, selecione **Configurações de locatário \> Configuração de autenticação no site**.
+1. Na seção **Perfis de autenticação no site**, selecione **Gerenciar**.
+1. No submenu à direita, selecione o botão **Editar** (símbolo de lápis) próximo ao perfil de autenticação no site para o qual você deseja inserir um domínio personalizado.
+1. Na caixa de diálogo **Editar perfil de autenticação no site**, em **Domínio personalizado de entrada**, insira o seu domínio de entrada personalizado (por exemplo, "login.fabrikam.com").
+
+> [!WARNING]
+> Quando você atualiza para um domínio personalizado para o locatário do Azure AD B2C, a alteração afeta os detalhes do emissor do locatário para o token gerado. Os detalhes do emissor incluirão então o domínio personalizado em vez do domínio padrão fornecido pelo Azure AD B2C. Uma configuração de **Emissor** diferente no Commerce Headquarters (**Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados do Commerce \> Provedores de Identidade**) altera a interação do sistema com os usuários do site, potencialmente criando um novo registro de cliente se um usuário estiver autenticando no novo emissor. Todas as alterações de domínio personalizadas devem ser testadas completamente antes de passarem para o domínio personalizado em um ambiente ativo do Azure AD B2C.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

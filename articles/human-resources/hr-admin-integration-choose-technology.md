@@ -1,6 +1,6 @@
 ---
 title: Escolher uma tecnologia de integração de dados
-description: Este tópico fornece informações sobre a integração com dados gerenciados por Human Resources.
+description: Este tópico fornece informações sobre a integração com dados gerenciados pelo RH.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065032"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717129"
 ---
 # <a name="choose-a-data-integration-technology"></a>Escolher uma tecnologia de integração de dados
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065032"
 
 
 
-Este tópico fornece informações sobre a integração com dados gerenciados pelo Dynamics 365 Human Resources. Ele descreve diferentes tecnologias de integração para ajudá-lo a decidir quais tecnologias atendem melhor às suas necessidades.
+Este tópico fornece informações para integração com dados gerenciados pelo Dynamics 365 Human Resources. Ele descreve diferentes tecnologias de integração para ajudá-lo a decidir quais tecnologias atendem melhor às suas necessidades.
 
 ## <a name="data-integration-background"></a>Plano de fundo da integração de dados
 
@@ -128,7 +127,7 @@ O Suplemento do Excel é adequado para importações/exportações de dados ad h
 
 Você pode usar o [serviço Integrador de dados](/powerapps/administrator/data-integrator) para integrar dados para e do Dataverse. O Integrador de Dados permite que você defina projetos de integração (geralmente com base em modelos predefinidos que os desenvolvedores de aplicativos ajustaram para integrações específicas). Você pode agendar projetos de integração para execução automática em um plano recorrente ou para execução manual.
 
-Os projetos de integradores de dados são apropriados para integrações de lote do Dataverse. Elas são uma ótima opção para integrações entre a família de aplicativos do Dynamics 365. Por exemplo, a Microsoft fornece um modelo do Integrador de Dados para integrar dados do Human Resources ao Dynamics 365 Finance. Você pode obter mais informações sobre o modelo em [Integração de Dynamics 365 Human Resources para Dynamics 365 Finance](hr-admin-integration-finance.md).
+Os projetos de integradores de dados são apropriados para integrações de lote do Dataverse. Elas são uma ótima opção para integrações entre a família de aplicativos do Dynamics 365. Por exemplo, a Microsoft fornece um modelo do Integrador de Dados para integrar dados do Human Resources ao Dynamics 365 Finance. Você pode obter mais informações sobre o modelo em [Integração do Dynamics 365 Human Resources para o Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 

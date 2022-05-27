@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722686"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722426"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Configurar descrições padrão para lançamento automático
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722686"
 Este tópico explica como configurar o texto padrão que é usado para descrever entradas de contabilidade lançadas automaticamente na contabilidade. Você pode configurar o texto padrão de descrição usando o texto livre ou selecionando variáveis fixas.
 
 > [!NOTE]
-> Para determinados tipos de transação em alguns países ou regiões, também é possível incluir o texto dos campos no banco de dados Microsoft Dynamics AX que estão relacionados a esses tipos de transação. Para obter uma lista de tipos de transação, além de países e regiões, consulte a seção [Opcional: adicionar texto às descrições padrão](#optional-add-other-text-to-default-descriptions) posteriormente neste tópico.
+> Para determinados tipos de transação em alguns países ou regiões, também é possível incluir o texto dos campos que estão relacionados a esses tipos de transação. Para obter uma lista de tipos de transação, além de países e regiões, consulte a seção [Opcional: adicionar texto às descrições padrão](#optional-add-other-text-to-default-descriptions) posteriormente neste tópico.
 
 ## <a name="set-up-default-descriptions"></a>Configurar descrições padrão
 

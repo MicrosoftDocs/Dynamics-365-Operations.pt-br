@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2add53b4b014cb65caacff03bf175078d2b70d8f
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485898"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690572"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources 6 de setembro de 2021
 
@@ -77,7 +76,7 @@ Para obter uma lista completa de recursos planejados e suas versões agendadas, 
 
 | Recurso | Detalhes |
 |---|---|
-| Atualização da plataforma 10.0.21 (45) | A implementação da atualização da plataforma 10.0.21 está agendada para começar na versão de serviço, em 4 de outubro de 2021. Para obter mais informações, consulte [Atualizações de plataforma para a versão 10.0.21 dos aplicativos do Finance and Operations (Outubro de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Atualização da plataforma 10.0.21 (45) | A implementação da atualização da plataforma 10.0.21 está agendada para começar na versão de serviço, em 4 de outubro de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.21 dos aplicativos de Finanças e Operações (outubro de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 | Demonstrativo de benefícios | Declaração de benefícios para exibir as eleições de benefícios atuais de um funcionário. Para obter mais informações, consulte [Demonstrativo de benefícios](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/benefits-summary-statement) no documento de ciclo de lançamentos. |
 
 ## <a name="see-also"></a>Consulte também

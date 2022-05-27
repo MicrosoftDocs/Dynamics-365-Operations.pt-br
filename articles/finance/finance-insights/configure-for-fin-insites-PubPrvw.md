@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 ROBOTS: noindex,nofollow
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061745"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711594"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuração do Finance Insights - versão 10.0.20 e posteriores
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061745"
 
 
 
-O Finance Insights combina a funcionalidade do Microsoft Dynamics 365 Finance com o Dataverse, o Azure e o AI Builder para fornecer ferramentas de previsão importantes para sua organização. Este tópico explica como configurar o Dynamics 365 Finance versão 10.0.20 para que o seu sistema possa usar os recursos disponíveis no Finance Insights.
+O Finance Insights combina a funcionalidade do Microsoft Dynamics 365 Finance com o Dataverse, o Azure e o AI Builder para fornecer ferramentas de previsão importantes para sua organização. Este tópico explica como configurar a versão 10.0.20 do Dynamics 365 Finance para que o seu sistema possa usar os recursos disponíveis no Finance Insights.
 
 > [!NOTE]
 > As etapas de configuração que são descritas neste tópico aplicam-se somente ao Finance versão 10.0.20 e posterior. 'Para configurar o Finance Insights nas versões 10.0.19 e anteriores, consulte [Configuração para o Finance Insights - versões até 10.0.19](configure-for-fin-insites.md).

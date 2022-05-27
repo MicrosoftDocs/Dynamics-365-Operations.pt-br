@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b20c45952d2c0c28a1b785fd92bf47cfb25251fa3a3308d14130ad0f1c78305d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762058"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713560"
 ---
 # <a name="dual-currency"></a>Moeda dupla
 
@@ -199,7 +199,7 @@ Além disso, foram feitas alterações importantes no processo de depreciação.
     
 ### <a name="consolidations"></a>Consolidações
     
-A funcionalidade introduzida no Dynamics 365 Finance versão 10.0.5 (outubro de 2019) permite, por meio do gerenciamento de recursos, mais flexibilidade de consolidação e moeda dupla. Para habilitá-la, acesse o espaço de trabalho **Gerenciamento de recursos** e selecione **Habilitar funcionalidade de moeda dupla na consolidação da Contabilidade**.
+A funcionalidade introduzida na versão 10.0.5 (outubro de 2019) do Dynamics 365 Finance permite, por meio do gerenciamento de recursos, mais flexibilidade de consolidação e moeda dupla. Para habilitá-la, acesse o espaço de trabalho **Gerenciamento de recursos** e selecione **Habilitar funcionalidade de moeda dupla na consolidação da Contabilidade**.
 
 Na consolidação da Contabilidade, uma nova opção foi adicionada para consolidar os valores da moeda contábil ou de relatório das empresas de origem. Se a moeda contábil ou de relatório for a mesma que a moeda contábil ou de relatório na empresa de consolidação, os valores serão copiados diretamente em vez de convertidos.
 

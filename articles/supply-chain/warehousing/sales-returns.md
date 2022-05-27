@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565270"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695553"
 ---
 # <a name="sales-returns"></a>Devoluções de vendas
 
@@ -76,7 +76,6 @@ Ao criar uma ordem de devolução, as informações da tabela a seguir devem est
 | Número de ADM         | A ID atribuída à ordem de devolução              | O número ADM é usado como uma chave alternativa ao longo do processo da ordem de devolução. O número ADM atribuído é baseado na sequência numérica da ADM, configurada na página **Parâmetros de contas a receber**.                                                                                                                              |
 | Prazo final           | A última data em que um item pode ser devolvido               | O valor padrão é calculado como a data atual mais o período de validade. Por exemplo, se uma devolução for válida por 90 dias a partir da data em que a ordem de devolução foi criada, e a ordem foi criada em 1º de Maio, o valor no campo é **30-Julho**. O período de validade é definido na página **Parâmetros de contas a receber**. |
 | Código de motivo de devolução | O motivo do cliente para devolução do produto          | O código do motivo é selecionado na lista de códigos de motivos definidos pelo usuário. Você pode atualizar esse campo a qualquer momento.                                                                                                                                                                                                                                    |
-
 ### <a name="create-return-order-lines"></a>Criar linhas da ordem de devolução
 
 Após concluir o cabeçalho de devolução, você pode criar linhas de devolução usando um dos seguintes métodos:
@@ -84,7 +83,8 @@ Após concluir o cabeçalho de devolução, você pode criar linhas de devoluç�
 -   Inserir manualmente os detalhes do item, a quantidade, e outras informações para cada linha de devolução.
 -   Criar uma linha de devolução usando a função **Encontrar ordem de venda**. Recomenda-se usar esta função ao criar uma ordem de devolução. A função **Encontrar ordem de venda** estabelece uma referência a partir da linha de devolução para a linha faturada da ordem de venda, e recupera detalhes da linha como número do item, quantidade, preço, desconto e valores de custo, a partir da linha de venda. A referência ajuda a garantir que, quando um produto for devolvido à empresa, ele será avaliado com o mesmo custo unitário com o qual foi vendido. A referência também verifica se ordens de devolução não serão criadas para quantidades que excedam a quantidade vendida na fatura.
 
->[Observação!] Linhas de devolução que possuem uma referência a uma ordem de venda são tratadas como correções, ou inversões, da venda. Para obter mais informações, consulte a seção "Lançar no livro razão", posteriormente neste tópico.
+>[!NOTE] 
+>Linhas de devolução que possuem uma referência a uma ordem de venda são tratadas como correções, ou inversões, da venda. Para obter mais informações, consulte a seção "Lançar no livro razão", posteriormente neste tópico.
 
 ### <a name="charges"></a>Encargos
 
@@ -189,8 +189,10 @@ Durante o processo de entrada, devoluções são integradas ao processo geral de
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Identificar produtos na lista de Resumo de entradas.
 
-A página **Resumo de entradas** lista todas as próximas chegadas planejadas. 
->[Observação!] Entradas de ordens de devolução devem ser processadas separadamente em relação a outros tipos de transações de entrada. Após identificar uma encomenda na página **Resumo de entradas** (por exemplo, utilizando o documento ADM acompanhante), no Painel de Ação, clique em **Iniciar entrada** para criar e inicializar um Diário de entrada que corresponda com a entrada.
+A página **Resumo de entradas** lista todas as próximas chegadas planejadas.
+
+>[!NOTE] 
+>Entradas de ordens de devolução devem ser processadas separadamente em relação a outros tipos de transações de entrada. Após identificar uma encomenda na página **Resumo de entradas** (por exemplo, utilizando o documento ADM acompanhante), no Painel de Ação, clique em **Iniciar entrada** para criar e inicializar um Diário de entrada que corresponda com a entrada.
 
 ### <a name="edit-the-arrival-journal"></a>Editar o Diário de entrada
 
@@ -232,7 +234,8 @@ Se você enviar um item de substituição para o cliente, e utilizar a ação de
 
 O item substituto será entregue usando uma ordem de venda independente, a ordem de venda de substituição. Essa ordem de venda é criada quando a guia de remessa para a ordem de devolução é gerada. O cabeçalho da ordem usa informações do cliente referenciadas no cabeçalho da ordem de devolução. As informações da linha são coletadas das informações inseridas na página **Item de substituição**. A página **Item de substituição** deve ser preenchida para linhas que possuem ações de disposição iniciadas pela palavra "substituir". No entanto, nem a quantidade nem a identidade do item de substituição é validada ou limitada. Esse comportamento permite casos em que o cliente deseja o mesmo item mas com uma configuração ou um tamanho diferente, além de casos em que os clientes desejam um item completamente diferente. Por padrão, um item idêntico é inserido na página **Item de substituição**. No entanto, você pode selecionar um item diferente, desde que a função tenha sido configurada. 
 
->[Observação!] Você pode editar e excluir a ordem de venda de substituição após sua criação.
+>[!NOTE] 
+>Você pode editar e excluir a ordem de venda de substituição após sua criação.
 
 ## <a name="generate-a-packing-slip"></a>Gerar uma guia de remessa
 Antes que os itens devolvidos possam ser recebidos no estoque, você deve atualizar a guia de remessa para a ordem a qual os itens pertencem. Assim como o processo de atualização da fatura é a atualização da transação financeira, o processo de atualização da guia de remessa é a atualização física do registro do estoque. Em outras palavras, esse processo confirma as alterações do estoque. No caso de devoluções, as etapas atribuídas à ação de disposição são implementadas durante a atualização da guia de remessa. Ao gerar a guia de remessa, os seguintes eventos ocorrem:
@@ -253,8 +256,10 @@ Embora a página **Ordem de devolução** contenha as informações e ações ne
 
 ### <a name="credit-correction"></a>Correção de crédito
 
-Como parte do processo de faturamento, verifique se todos os encargos diversos estão corretos. Para fazer com que os lançamentos no livro razão se tornem correções (Storno), considere usar a opção **Correção de crédito** na aba **Outros** da página **Lançar fatura** quando lançar a nota de crédito/fatura. 
->[Observação!] Por padrão, a opção **Correção de crédito** é ativada se a opção **Nota de crédito como correção** na página **Parâmetros de contas a receber** foi habilitada. No entanto, recomendamos que você não lance devoluções com o Storno.
+Como parte do processo de faturamento, verifique se todos os encargos diversos estão corretos. Para fazer com que os lançamentos no livro razão se tornem correções (Storno), considere usar a opção **Correção de crédito** na aba **Outros** da página **Lançar fatura** quando lançar a nota de crédito/fatura.
+
+> [!NOTE]
+> Por padrão, a opção **Correção de crédito** é ativada se a opção **Nota de crédito como correção** na página **Parâmetros de contas a receber** foi habilitada. No entanto, recomendamos que você não lance devoluções com o Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Criar ordens de devolução intercompanhia
 Ordens de devolução podem ser concluídas entre duas empresas dentro da organização. Os seguintes cenários são suportados:
@@ -308,7 +313,8 @@ A ordem de devolução não faz referência a uma fatura de cliente. O item devo
 
 ![Ordem de devolução não faz referência a uma fatura de cliente.](./media/SalesReturn09.png)  
 
->[Observação!] O preço mestre do item é usado como valor padrão para o parâmetro **Preço de custo da devolução**. O preço padrão difere do preço de custo no momento da saída de estoque. Portanto, a implicação é que uma perda de 3 foi sofrida. Além disso, a ordem de devolução não inclui o desconto dado ao cliente na ordem de compra. Portanto, ocorre um crédito em excesso.
+> [!NOTE]
+> O preço mestre do item é usado como valor padrão para o parâmetro **Preço de custo da devolução**. O preço padrão difere do preço de custo no momento da saída de estoque. Portanto, a implicação é que uma perda de 3 foi sofrida. Além disso, a ordem de devolução não inclui o desconto dado ao cliente na ordem de compra. Portanto, ocorre um crédito em excesso.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Exemplo 2: Correção de crédito está selecionada para a ordem de devolução
 
@@ -316,7 +322,8 @@ O exemplo 2 é igual ao exemplo 1, mas o parâmetro **Correção de crédito** �
 
 ![Ordem de devolução em que a correção de crédito está selecionada.](./media/SalesReturn10.png)  
 
->[Observação!] Os lançamentos no livro razão são inseridos como correções negativas.
+>[!NOTE] 
+>Os lançamentos no livro razão são inseridos como correções negativas.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Exemplo 3: A linha da ordem de devolução é criada utilizando a função Encontrar ordem de venda
 
@@ -324,7 +331,8 @@ Nesse exemplo, a linha da ordem de devolução é criada utilizando a função *
 
 ![Linha da ordem de devolução criada utilizando Encontrar ordem de venda.](./media/SalesReturn11.png)  
 
->[Observação!] **Desconto** e **Preço de custo da devolução** estão definidos corretamente. Portanto, ocorre uma inversão exata da fatura de cliente.
+> [!NOTE]
+> **Desconto** e **Preço de custo da devolução** foram definidos corretamente. Portanto, ocorre uma inversão exata da fatura de cliente.
 
 
 

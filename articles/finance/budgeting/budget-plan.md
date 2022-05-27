@@ -1,6 +1,6 @@
 ---
-title: Plano de orçamento
-description: O objetivo deste laboratório é apresentar uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 Finance na área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.
+title: Planejamento de orçamento
+description: O objetivo deste laboratório é apresentar uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 Finance na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.
 author: panolte
 ms.date: 06/25/2018
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 65ebfddb1baf39e20c22d3ed9bb26dbb33765e20
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595301"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711994"
 ---
-# <a name="budget-planning"></a>Plano de orçamento
+# <a name="budget-planning"></a>Planejamento de orçamento
 
 [!include [banner](../includes/banner.md)]
 
-O objetivo deste laboratório é apresentar uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 Finance na área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório se concentra especificamente nos seguintes processos ou tarefas de negócios:
+O objetivo deste laboratório é apresentar uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 Finance na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório se concentra especificamente nos seguintes processos ou tarefas de negócios:
 - Criando a hierarquia organizacional para o planejamento de orçamento e configurando a segurança do usuário
 - Definindo cenários do plano de orçamento, colunas do plano de orçamento, layouts e modelos do Excel
 - Criando e ativando o processo de planejamento de orçamento
