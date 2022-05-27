@@ -1,23 +1,23 @@
 ---
 title: Catálogo de aprendizagem para usuários do Dynamics 365 Supply Chain Management
 description: Encontre todas as opções de treinamento para usuários do Dynamics 365 Supply Chain Management.
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe547f6e224a072301a4d846f1a2867b70c86da3
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a8324fe183efd956fa39ddd97f562e4c33630580
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402657"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673176"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Catálogo de aprendizagem para usuários do Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 |---------|-------------|--------|--------|
 | [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Quer aprender mais sobre aplicativos de negócios? Talvez você não saiba onde começar com Microsoft Dynamics 365 e aplicativos do Power Platform? Saiba como o poder dos aplicativos comerciais pode ajudar a transformar seus negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 8 horas |
 | [Conceitos básicos do Dynamics 365 e do Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Quer aprender mais sobre aplicativos de negócios? Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5.5 horas |
-| [Introdução aos aplicativos do Finance and Operations](/learn/paths/get-started-finance-operations/) | Aprenda como os aplicativos do Finance and Operations oferecem suporte de negócios para gerenciar sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e informadas. Na primeira etapa de sua carreira trabalhando com os aplicativos do Finance and Operations, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
+| [Introdução aos aplicativos de Finanças e Operações](/learn/paths/get-started-finance-operations/) | Aprender como os aplicativos de Finanças e Operações dão suporte para que as empresas gerenciem sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e conscientes. Na primeira etapa de sua carreira trabalhando com aplicativos de Finanças e Operações, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
 | [Introdução ao gerenciamento de ativos para Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | O Gerenciamento de Ativos é um módulo para gerenciar ativos e trabalhos de manutenção no Dynamics 365 Supply Chain Management. O Gerenciamento de Ativos permite gerenciar com eficácia e realizar tarefas relacionadas ao gerenciamento e à manutenção de muitos tipos de equipamentos na sua empresa; por exemplo, computadores, equipamentos de produção e veículos. O Gerenciamento de Ativos dá suporte a soluções em várias indústrias. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 1 hora |
 | [Introdução ao Suplemento de Gerenciamento de Alterações de Engenharia para Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | O Dynamics 365 Supply Chain Management capacita funcionários e organizações a obter uma visão unificada de estoque, depósito, fabricação, serviço e logística com análise preditiva que transforma dados em insights para dar suporte a melhores decisões estratégicas. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
 | [Introdução ao Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Com o Dynamics 365 Intelligent Order Management, os clientes podem gerenciar a orquestração das ordens até o atendimento. Essas funcionalidades permitem que as organizações orquestrem fluxos de ordens em diferentes plataformas e aplicativos. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 4 horas |
@@ -39,10 +39,10 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 
 ## <a name="core-platform-knowledge"></a>Informações da plataforma principal<a name="core-platform-knowledge"></a>
 
-| Conteúdo | descrição | Formatar | Extensão |
+| Conteúdo | Descrição | Formatar | Extensão |
 |---------|-------------|--------|--------|
-| [Configurar sua organização nos aplicativos do Finance and Operations](/learn/paths/configure-your-organization-finance-ops/) | Como um consultor funcional que trabalha com os aplicativos do Finance and Operations, você deve entender como configurar uma organização para o seu cliente. Este caminho de aprendizado mostra, entre outras tarefas, como configurar entidades legais, implementar configurações de segurança, personalizar a interface de usuário para usuários, projetar e criar aplicativos móveis e implementar integrações comuns. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 12 horas |
-| [Configurar e trabalhar com análise e relatórios nos aplicativos do Finance and Operations](/learn/paths/configure-analytics-reporting-finance-operations/) | Os líderes de negócios pode tomar decisões importantes na empresa se tiverem uma visão exata dos dados financeiros e operacionais subjacentes. Um usuário comercial também pode configurar e usar a ferramenta de relatório eletrônico sem uma única linha de código, para adotar novos requisitos reguladores e gerar documentos comerciais no formato necessário para trocar informações eletronicamente com órgãos governamentais, bancos e terceiros. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4 horas |
+| [Configurar sua organização nos aplicativos de finanças e operações](/learn/paths/configure-your-organization-finance-ops/) | Como um consultor funcional que trabalha com os aplicativos de finanças e operações, você deve entender como configurar uma organização para o seu cliente. Este caminho de aprendizado mostra, entre outras tarefas, como configurar entidades legais, implementar configurações de segurança, personalizar a interface de usuário para usuários, projetar e criar aplicativos móveis e implementar integrações comuns. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 12 horas |
+| [Configurar e trabalhar com análises e relatórios em aplicativos de finanças e operações](/learn/paths/configure-analytics-reporting-finance-operations/) | Os líderes de negócios pode tomar decisões importantes na empresa se tiverem uma visão exata dos dados financeiros e operacionais subjacentes. Um usuário comercial também pode configurar e usar a ferramenta de relatório eletrônico sem uma única linha de código, para adotar novos requisitos reguladores e gerar documentos comerciais no formato necessário para trocar informações eletronicamente com órgãos governamentais, bancos e terceiros. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4 horas |
 
 ## <a name="supply-chain-management"></a>Gerenciamento da cadeia de fornecimento<a name="supply-chain-management"></a>
 

@@ -1,7 +1,7 @@
 ---
 title: Reabastecimento com kanbans de retirada
 description: Este tópico descreve como o kanban de retirada é usado para o reabastecimento de material para atividades de fabricação.
-author: johanhoffmann
+author: perlynne
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46fa6a833cf5f12a01a19b8bada0066d446e3f9a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742575"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674719"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimento com kanbans de retirada
 

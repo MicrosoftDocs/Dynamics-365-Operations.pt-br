@@ -1,7 +1,7 @@
 ---
 title: Aprovar fornecedores para produtos específicos
 description: Este procedimento mostra como aprovar fornecedores de produto específico.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4c48bfbcc3fb64bae66fe3cfef1d55d15049bb9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5092012f27dd03343410d30d15cae11ad20ce052
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575426"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670143"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Aprovar fornecedores para produtos específicos
 

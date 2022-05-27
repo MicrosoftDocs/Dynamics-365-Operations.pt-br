@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407785"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688364"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Atualizar para o modelo de catálogo de endereços global e de participantes
 
@@ -281,7 +281,7 @@ Esta seção descreve a configuração necessária antes de executar os modelos 
 
     ![Executando os modelos de Endereço postal do participante e de Endereço eletrônico do participante.](media/ADF-7.png)
 
-10. Para atualizar o aplicativo Finanças e operações com esses dados, você deve converter os arquivos .csv em uma pasta de trabalho do Excel e [importá-los para o aplicativo](/data-entities/data-import-export-job). Como alternativa, se a importação de CSV funcionar para você, você poderá importar os arquivos .csv diretamente. Essa etapa pode levar algumas horas para ser concluída, dependendo do volume.
+10. Para atualizar o aplicativo Finanças e operações com esses dados, você deve converter os arquivos .csv em uma pasta de trabalho do Excel e [importá-los para o aplicativo](../data-import-export-job.md). Como alternativa, se a importação de CSV funcionar para você, você poderá importar os arquivos .csv diretamente. Essa etapa pode levar algumas horas para ser concluída, dependendo do volume.
 
     ![Importação com êxito.](media/ADF-8.png)
 

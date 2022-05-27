@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 79c7e294739156680f620b13852ac5b7a1dedd46
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: bb5219971934d99003fd2090b25dd992716166ac
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565606"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679578"
 ---
 # <a name="sped-ecd"></a>SPED ECD
 
@@ -119,7 +119,7 @@ Para gerar e validar o arquivo de texto para o demonstrativo SPED ECD, siga esta
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Gerar a obrigação de imposto Sintegra](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/bra-parameters-tax/articles/financials/localizations/latam-bra-set-up-parameters-for-tax-statements.md)
+[Gerar a obrigação de imposto Sintegra](/dynamicsax-2012/appuser-itpro/bra-generate-the-sintegra-tax-statement)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
 title: Catálogo de aprendizagem para tomadores de decisões de negócios considerando o Dynamics 365 Supply Chain Management
 description: FinEncontre todas as opções de treinamento para BDMs e TDMs considerando o Dynamics 365 Supply Chain Management.
-author: margoc
+author: kamaybac
 ms.date: 07/27/2020
 ms.topic: article
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 856a53c18c95aea4fdeee397f125be9f33f8fe38
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: f5c175fb0b087a6b970ab8e2e8f87f75c1aa3845
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402240"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671326"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>Catálogo de aprendizagem para tomadores de decisões de negócios considerando o Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 |---------|-------------|--------|--------|
 | [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Quer aprender mais sobre aplicativos de negócios? Talvez você não saiba onde começar com Microsoft Dynamics 365 e aplicativos do Power Platform? Saiba como o poder dos aplicativos comerciais pode ajudar a transformar seus negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 7 horas |
 | [Conceitos básicos do Dynamics 365 e do Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Quer aprender mais sobre aplicativos de negócios? Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5.5 horas |
-| [Introdução aos aplicativos do Finance and Operations](/learn/paths/get-started-finance-operations/) | Aprenda como os aplicativos do Finance and Operations oferecem suporte de negócios para gerenciar sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e informadas. Na primeira etapa de sua carreira trabalhando com os aplicativos do Finance and Operations, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
+| [Introdução aos aplicativos de Finanças e Operações](/learn/paths/get-started-finance-operations/) | Aprender como os aplicativos de Finanças e Operações dão suporte para que as empresas gerenciem sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e conscientes. Na primeira etapa de sua carreira trabalhando com aplicativos de Finanças e Operações, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
 | [Curso MB-900T01-A: Conceitos básicos do Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Este curso apresentará ao aprendiz as funcionalidades e o valor comercial do Dynamics 365. Ele abrangerá os aplicativos do Dynamics 365, o Power Platform, conceitos de nuvem, o modelo de segurança e considerações de licenciamento. | Treinamento presencial ou online com instrutor. O preço varia de acordo com a região e o parceiro | 1 dia |
 | [Introdução ao gerenciamento de ativos para Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | O Gerenciamento de Ativos é um módulo para gerenciar ativos e trabalhos de manutenção no Dynamics 365 Supply Chain Management. O Gerenciamento de Ativos permite gerenciar com eficácia e realizar tarefas relacionadas ao gerenciamento e à manutenção de muitos tipos de equipamentos na sua empresa; por exemplo, computadores, equipamentos de produção e veículos. O Gerenciamento de Ativos dá suporte a soluções em várias indústrias. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 1 hora |
 | [Introdução ao Suplemento de Gerenciamento de Alterações de Engenharia para Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | O Dynamics 365 Supply Chain Management capacita funcionários e organizações a obter uma visão unificada de estoque, depósito, fabricação, serviço e logística com análise preditiva que transforma dados em insights para dar suporte a melhores decisões estratégicas. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |

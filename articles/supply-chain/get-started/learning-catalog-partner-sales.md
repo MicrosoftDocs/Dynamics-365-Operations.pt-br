@@ -1,23 +1,23 @@
 ---
 title: Catálogo de aprendizagem para funções de marketing e vendas para parceiros Microsoft do Dynamics 365 Supply Chain Management
 description: Encontre todas as opções de treinamento para pessoas nas funções de vendas e marketing de parceiros da Microsoft que trabalham com o Dynamics 365 Supply Chain Management.
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e806be95947988f6a612ddbc1efb0b72cf971806
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 7c25acef2a46abc0481e2e38f40d5c990901090f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402314"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671298"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Catálogo de aprendizagem para funções de marketing e vendas para parceiros Microsoft do Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 |---------|-------------|--------|--------|
 | [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Quer aprender mais sobre aplicativos de negócios? Talvez você não saiba onde começar com Microsoft Dynamics 365 e aplicativos do Power Platform? Saiba como o poder dos aplicativos comerciais pode ajudar a transformar seus negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 7 horas |
 | [Conceitos básicos do Dynamics 365 e do Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Quer aprender mais sobre aplicativos de negócios? Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5.5 horas |
-| [Introdução aos aplicativos do Finance and Operations](/learn/paths/get-started-finance-operations/) | Aprenda como os aplicativos do Finance and Operations oferecem suporte de negócios para gerenciar sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e informadas. Na primeira etapa de sua carreira trabalhando com os aplicativos do Finance and Operations, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
+| [Introdução aos aplicativos de Finanças e Operações](/learn/paths/get-started-finance-operations/) | Aprender como os aplicativos de Finanças e Operações dão suporte para que as empresas gerenciem sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e conscientes. Na primeira etapa de sua carreira trabalhando com aplicativos de Finanças e Operações, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
 | [Curso MB-900T01-A: Conceitos básicos do Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Este curso apresentará ao aprendiz as funcionalidades e o valor comercial do Dynamics 365. Ele abrangerá os aplicativos do Dynamics 365, o Power Platform, conceitos de nuvem, o modelo de segurança e considerações de licenciamento. | Treinamento online ou presencial com instrutor; o preço varia de acordo com a região e o parceiro | 1 dia |
 
 ## <a name="exam"></a>Exame<a name="exam"></a>

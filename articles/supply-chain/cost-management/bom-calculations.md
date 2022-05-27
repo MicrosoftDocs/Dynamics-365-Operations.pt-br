@@ -1,7 +1,7 @@
 ---
 title: Cálculos de BOM
 description: Os cálculos de preço de venda e de acúmulo de custo são conhecidos como cálculos de lista de materiais (BOM), e você os inicia na página Cálculos. Este tópico fornece informações sobre cálculos de BOM.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 2a3939d092bcba00aa9dc63c0fe7546beed2041d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0a71a17efbca3945c5a1010cf7d523a85420e8e2
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575936"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674579"
 ---
 # <a name="bom-calculations"></a>Cálculos de BOM
 

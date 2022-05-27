@@ -1,7 +1,7 @@
 ---
 title: Visão geral de devoluções de cliente
 description: Crie e use códigos de motivo de devolução e códigos de disposição para dar suporte ao processo de devolução de produtos.
-author: kamaybac
+author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f0231cf33c9b422adc08e7244915ab8235b18ca
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5fd9c2f71b8275428f1460595432ca41d7c77005
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983760"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677160"
 ---
 # <a name="customer-returns-overview"></a>Visão geral de devoluções de cliente
 

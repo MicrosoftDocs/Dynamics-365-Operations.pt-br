@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4ebe5a6ae19d00b94247381c700ff21d31910fcac1968ab4f8a673f89ddd2f0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c01d00e7ede44c20e64fc4a8cd8646201caa3992
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782626"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686789"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources – 12 de julho de 2021
 
@@ -81,7 +80,7 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 
 | Recurso | Detalhes |
 | --- | --- |
-| Atualização da plataforma 10.0.20 (44) | A atualização da plataforma 10.0.20 está agendada para começar a ser implementada na versão de serviço, em 26 de julho de 2021. Para obter mais informações, consulte [Atualizações de plataforma para a versão 10.0.20 dos aplicativos do Finance and Operations (agosto de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
+| Atualização da plataforma 10.0.20 (44) | A atualização da plataforma 10.0.20 está agendada para começar a ser implementada na versão de serviço, em 26 de julho de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.20 dos aplicativos de Finanças e Operações (agosto de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
 
 Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2021 ciclo de lançamentos 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

@@ -1,7 +1,7 @@
 ---
 title: Criar uma ordem de compra repetida
 description: Este tópico mostra como criar uma ordem de compra (PO) da repetição copiando linhas de um documento de ordem mais adiantado da compra a uma PO nova ou a uma PO existente.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3af29594326501359e4722b92d6c5235cf25af9c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: be4eca824794b8d45c7a6f40cb68aff7c4a53cd0
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569352"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671103"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Criar uma ordem de compra repetida
 

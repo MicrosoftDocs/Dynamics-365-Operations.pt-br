@@ -1,7 +1,7 @@
 ---
 title: Receber entregas parciais de itens devolvidos
 description: As entregas parciais são definidas em termos de linhas de ordem de devolução, não nas remessas de ordem de devolução.
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db02356afe06244f062f4e7c67a5db0a36900469
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6c0e27e3a5cb6be36a1d69190ce1b01ecada48a6
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566158"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677104"
 ---
 # <a name="receive-partial-deliveries-of-returned-items"></a>Receber entregas parciais de itens devolvidos    
 

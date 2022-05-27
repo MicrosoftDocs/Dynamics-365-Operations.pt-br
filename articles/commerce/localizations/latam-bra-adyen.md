@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 9224193f66e123678fd6296f4a072e63d4d38e50
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 5b90f6de52e4368fc0093ca0f7c5fe05749fb901
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614002"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688899"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-in-commerce-pos-for-brazil"></a>Dynamics 365 Payment Connector para Adyen no PDV do Commerce para o Brasil
 

@@ -1,7 +1,7 @@
 ---
 title: Visão geral dos catálogos de compras
 description: Este artigo descreve, em um alto nível, como os profissionais de compras podem configurar e manter os catálogos de aquisições. Os catálogos de compras definem os itens e os serviços que os funcionários da empresa podem solicitar para uso interno.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efe0541859822b4c6404f2833ae38e07b79dd634
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bd267cbbe7767faab538cacad26636ff1f37a551
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984286"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672000"
 ---
 # <a name="procurement-catalogs-overview"></a>Visão geral dos catálogos de compras
 

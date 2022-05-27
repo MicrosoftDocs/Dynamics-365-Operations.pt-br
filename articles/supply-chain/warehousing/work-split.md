@@ -1,7 +1,7 @@
 ---
 title: Divisão do trabalho
 description: Este tópico fornece informações sobre a funcionalidade de divisão do trabalho. Essa funcionalidade permite dividir grandes ordens de serviço em várias ordens de serviço menores que você pode atribuir a vários funcionários do depósito. Dessa forma, o mesmo trabalho pode ser separado simultaneamente por vários funcionários do depósito.
-author: mirzaab
+author: Mirzaab
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: b9914958684d552f0b45ddca641238124ade3454
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778248"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669450"
 ---
 # <a name="work-split"></a>Divisão do trabalho
 
