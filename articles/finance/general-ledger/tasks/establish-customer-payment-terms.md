@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766943"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716961"
 ---
 # <a name="establish-customer-payment-terms"></a>Estabelecer condições de pagamento de cliente
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766943"
 
 Este procedimento define uma configuração de desconto à vista e a data de vencimento. Este guia de tarefa usa a empresa demo USMF.
 
-1. Acesse **Painel de Navegação > Módulos > Contas a receber > Configuração de pagamentos > Dias de pagamento**. A configuração das **Condições de pagamento** será compartilhada para **Contas a receber** e **Contas a pagar**. Se você define o no módulo, estarão disponíveis em outro módulo também. Para este guia de tarefas, eu configurei todas as condições de pagamento em **Contas a receber**.
+1. Acesse **Painel de Navegação > Módulos > Contas a receber > Configuração de pagamentos > Dias de pagamento**. A configuração das **Condições de pagamento** será compartilhada para **Contas a receber** e **Contas a pagar**. Se você define o no módulo, estarão disponíveis em outro módulo também. Para este guia de tarefas, configuramos todas as condições de pagamento em **Contas a receber**.
 2. Clique em **Novo**. Crie um dia de pagamento se as condições de pagamento exigem um determinado dia da semana (segunda-feira, terça-feira, etc.) ou uma data específica do mês (5º, 10º, etc.). 
 3. No campo **Dia de pagamento**, insira uma ID.
 4. No campo **Descrição**, insira uma descrição do dia de pagamento.

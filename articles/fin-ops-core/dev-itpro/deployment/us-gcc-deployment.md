@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Finance e Dynamics 365 Supply Chain Management na Nuvem da Comunidade Governamental dos EUA (GCC)
+title: Dynamics 365 Finance, Supply Chain Management e Commerce na GCC (Nuvem da Comunidade Governamental) nos EUA
 description: Este tópico fornece informações sobre os produtos Microsoft Dynamics 365 US Government que estão disponíveis para entidades governamentais e particulares qualificadas.
 author: hasaid
 ms.date: 11/12/2021
@@ -9,14 +9,14 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 204bf1886ff7f7393fba5713a54f305274f540d0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062277"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693298"
 ---
-# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance e Dynamics 365 Supply Chain Management na Nuvem da Comunidade Governamental dos EUA (GCC)
+# <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management e Commerce na GCC (Nuvem da Comunidade Governamental) nos EUA
 
 [!include [banner](../includes/banner.md)]
 
@@ -54,7 +54,7 @@ Alguns recursos não estarão disponíveis para implantação na GCC ou não est
 
 ### <a name="are-dynamics-365-finance-and-dynamics-365-supply-chain-management-supported-in-gcc-high"></a>O Dynamics 365 Finance e o Dynamics 365 Supply Chain Management têm suporte na GCC-High?
 
-Não. O Dynamics 365 Finance e o Dynamics 365 Supply Chain Management têm suporte somente na GCC.
+Não. O Dynamics 365 Finance e o Dynamics 365 Supply Chain Management têm suporte somente no GCC.
 
 ### <a name="can-i-use-public-azure-devops-with-finance-and-supply-chain-management-in-gcc"></a>Posso usar o Azure DevOps público com o Finance e o Supply Chain Management na GCC?
 

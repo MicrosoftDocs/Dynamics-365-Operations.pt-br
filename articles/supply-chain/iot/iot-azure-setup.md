@@ -1,25 +1,25 @@
 ---
 title: Configurar recursos do Azure para Inteligência de IoT
 description: Este tópico explica como criar e configurar os recursos do Microsoft Azure necessários para a Inteligência de IOT.
-author: tonyafehr
+author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d50458be9196206978a8d146ecd5b8c2a0a1fa8c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7099604caa33b2a74252b48ac4eec6bc4c28ef51
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782838"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673120"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurar recursos do Azure para Inteligência de IoT
 

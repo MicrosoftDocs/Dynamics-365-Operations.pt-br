@@ -2,7 +2,7 @@
 title: Atualizações regulatórias
 description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649119"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711904"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -29,11 +29,11 @@ Atualizações regulatórias são recursos implementados para oferecer suporte a
 
 A Microsoft se esforça para implementar novos requisitos regulatórios o mais cedo possível. A data de entrega real depende da data de anúncio da legislação, da disponibilidade dos detalhes da requisição por parte das autoridades locais, da disponibilidade de ferramentas de validação e do tamanho e da complexidade das alterações.
 
-Nós planejamos entregar atualizações regulatórias em atualizações do serviço One Version que são liberadas a tempo para os clientes atualizarem e se prepararem para a data de aplicação (no caso de atualizações regulatórias transacionais) ou para o primeiro prazo de relatórios obrigatórios (no caso de atualizações regulatórias de relatórios.) Os clientes e parceiros podem visualizar as novas atualizações regulatórias no PEAP (Preview Early Adoption Program, prévia do programa de adoção antecipada).
+Nós planejamos entregar atualizações regulatórias em atualizações do serviço One Version que são liberadas a tempo para os clientes atualizarem e se prepararem para a data de aplicação (no caso de atualizações regulatórias transacionais) ou para o primeiro prazo de relatórios obrigatórios (no caso de atualizações regulatórias de relatórios.) Os clientes e parceiros podem visualizar as novas atualizações regulatórias na versão preliminar do pacote fornecido para cada atualização de serviço.
 
 Em caso de datas de anúncio tardias, do atraso na disponibilidade dos detalhes da requisição ou de ferramentas de validação ou se houver alterações excepcionalmente grandes e complexas, pode não ser possível disponibilizar uma atualização regulatória até a data de disponibilidade geral de uma atualização mensal. Nesses casos, a atualização regulatória será enviada como hot fixes para atualizações mensais disponíveis relevantes.
 
-Atualizações regulatórias que são liberadas como parte da atualização mensal são indicadas apenas pela versão de lançamento. Atualizações regulatórias que são entregues como hot fixes ou como parte de uma prévia do lançamento podem ser identificadas por meio das abreviações HF e PEAP, respectivamente. 
+Atualizações regulatórias que são liberadas como parte da atualização mensal são indicadas apenas pela versão de lançamento. Atualizações regulatórias que são entregues como hot fixes ou como parte de uma prévia do lançamento podem ser identificadas por meio das abreviações HF e Versão Preliminar, respectivamente. 
 
 Para obter informações sobre os planos de atualizações regulatórias mais recentes, consulte a tabela a seguir.   
 

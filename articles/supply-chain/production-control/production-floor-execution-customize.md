@@ -2,7 +2,7 @@
 title: Personalizar a interface de execução de piso de produção
 description: Este tópico explica como estender formulários atuais ou criar novos formulários e botões para a interface de execução de piso de produção.
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066537"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712933"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Personalizar a interface de execução de piso de produção
 
@@ -60,7 +60,7 @@ Quando você tiver concluído, o botão novo (ação) será listado automaticame
 1. Crie uma extensão denominada `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, em que o método `getMainMenuItemsList` é estendido, adicionando o novo item de menu à lista. O código a seguir mostra um exemplo.
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Adicionar controles de data e hora a um formulário ou diálogo
+
+Esta seção mostra como adicionar controles de data e hora a um formulário ou diálogo. Os controles de data e hora amigáveis permitem que os trabalhadores especifiquem datas e horas. As capturas de tela a seguir mostram como os controles normalmente aparecem na página. O controle de tempo oferece versões de 12 horas e 24 horas; a versão mostrada seguirá a preferência definida para a conta de usuário sob a qual a interface está sendo executada.
+
+![Exemplo de controle de data.](media/pfe-customize-date-control.png "Exemplo de controle de data")
+
+![Exemplo de controle de tempo com o relógio de 12 horas.](media/pfe-customize-time-control-12h.png "Exemplo de controle de tempo com o relógio de 12 horas")
+
+![Exemplo de controle de tempo com o relógio de 24 horas.](media/pfe-customize-time-control-24h.png "Exemplo de controle de tempo com o relógio de 24 horas")
+
+O procedimento a seguir mostra um exemplo de como adicionar controles de data e hora a um formulário.
+
+1. Adicione um controlador ao formulário para cada controle de data e hora que o formulário deverá conter. (O número de controladores deve ser igual ao número de controles de data e hora no formulário).
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. Declarar as variáveis necessárias (do tipo `utcdatetime`).
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. Crie métodos nos quais o datetime será atualizado pelos controladores de data/hora. O exemplo a seguir mostra tal método.
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. Configure o comportamento de cada controlador de datetime e conecte cada controlador do teclado numérico a uma parte do formulário de teclado numérico. O exemplo a seguir mostra como configurar dados para controles de data inicial e hora inicial. Você pode adicionar um código semelhante para controles de data final e hora final (não mostrado).
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    Se precisar somente de um controle de data, você poderá ignorar a configuração do controle de tempo e, em vez disso, configurar o controle de data conforme mostrado no exemplo a seguir:
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

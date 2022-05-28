@@ -2,25 +2,25 @@
 title: Avaliar o modelo de previsão de pagamento inicial do cliente
 description: Este tópico descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969103"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677944"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Avaliar o modelo de previsão de pagamento inicial do cliente
 
@@ -93,6 +93,6 @@ Depois de compreender melhor os resultados do seu primeiro modelo, talvez você 
 
 ## <a name="for-more-information"></a>Para obter mais informações
 
-Para obter mais informações sobre como avaliar modelos de previsão, [Resultados de modelos de aprendizado de máquina](/confusion-matrix.md)
+Para obter mais informações sobre como avaliar modelos de previsão, [Resultados de modelos de aprendizado de máquina](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

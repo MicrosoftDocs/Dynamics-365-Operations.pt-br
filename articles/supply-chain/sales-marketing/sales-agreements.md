@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982500"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694358"
 ---
 # <a name="sales-agreements-overview"></a>Visão geral de contratos de venda
 
@@ -36,7 +36,8 @@ O período de validade de um contrato de venda é definido pelos campos **Data d
 
 Você pode criar uma ordem de venda diretamente de um contrato de venda usando a ação **Liberar ordem**. Como alternativa, você pode selecionar um contrato de venda efetivo quando estiver fazendo pedidos (consulte a seção “Aplicando contratos de venda no processo de ordem” deste artigo).  
 
-> [Observação!] Em versões anteriores, os contratos de venda são conhecidos como ordens de venda amplas.
+> [!NOTE] 
+> Em versões anteriores, os contratos de venda são conhecidos como ordens de venda amplas.
 
 ## <a name="commitment-types"></a>Tipos de compromisso
 Cada linha de um contrato de venda expressa um compromisso de vender algo. Geralmente, há duas categorias de compromisso:

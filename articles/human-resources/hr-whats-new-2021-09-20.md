@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f4fc4768f8c96678b216709f78af6d3ddfd4132
-ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
+ms.openlocfilehash: a3fd8705c7735cb3c0945f71651fafa767a7addf
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2021
-ms.locfileid: "7556924"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691572"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-20-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources 20 de setembro de 2021
 
@@ -84,7 +83,7 @@ Para obter uma lista completa de recursos planejados e suas versões agendadas, 
 
 | Recurso | Detalhes |
 |---|---|
-| Atualização da plataforma 10.0.21 (45) | A implementação da atualização da plataforma 10.0.21 está agendada para começar na versão de serviço, em 4 de outubro de 2021. Para obter mais informações, consulte [Atualizações de plataforma para a versão 10.0.21 dos aplicativos do Finance and Operations (Outubro de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Atualização da plataforma 10.0.21 (45) | A implementação da atualização da plataforma 10.0.21 está agendada para começar na versão de serviço, em 4 de outubro de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.21 dos aplicativos de Finanças e Operações (outubro de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 |Exibição de diários de desempenho de subordinados por extensão | Esse recurso ficará habilitado por padrão na próxima distribuição. |
 
 

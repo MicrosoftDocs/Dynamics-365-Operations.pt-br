@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649091"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695378"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Adicionar campos de dados na integração de imposto usando uma extensão
 
@@ -383,7 +382,7 @@ Para criar o projeto com êxito, adicione os seguintes modelos de referência à
 
 Depois de concluir as etapas anteriores, você pode validar suas alterações.
 
-1. Em Finanças, vá para **Contas a pagar** e adicione **&debug=vs%2CconfirmExit&** à URL. Por exemplo, https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. O último **&** é essencial.
+1. Em Finanças, vá para **Contas a pagar** e adicione **&debug=vs%2CconfirmExit&** à URL. Por exemplo, `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. O último **&** é essencial.
 2. Abra a página **Ordem de compra** e selecione **Novo** para criar uma ordem de compra.
 3. Defina o valor para o campo personalizado e selecione **Impostos**. Um arquivo de solução de problemas com prefixo, **TaxServiceTroubleshootingLog** será baixado automaticamente. Esse arquivo contém as informações da transação lançadas no serviço Cálculo de Imposto. 
 4. Verifique se o campo personalizado adicionado está presente na seção **JSON de entrada de cálculo do serviço de imposto** e se o valor está correto. Se o valor não estiver correto, verifique as etapas neste documento.

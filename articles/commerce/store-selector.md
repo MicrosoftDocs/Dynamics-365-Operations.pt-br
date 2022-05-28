@@ -3,7 +3,7 @@ title: Módulo de seletor de loja
 description: Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772147"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710771"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
@@ -59,6 +59,16 @@ Para inserir os valores de latitude e longitude da localização de uma loja na 
     ![Exemplo de configuração de latitude e longitude para uma loja na matriz.](./media/Store-latitude-longitude.png)
 
 1. No Painel de ações, selecione **Salvar**. 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>Ocultar um armazenamento no módulo seletor de lojas
+
+Algumas lojas de um grupo de atendimento podem não ser locais de retirada válidos. Para garantir que apenas locais de retirada válidos apareçam como opções no módulo do seletor de lojas, siga estas etapas no Commerce headquarters.
+
+1. Vá para **Retail e Commerce \> Configuração do Commerce \> Grupos de atendimento \> Todas as lojas**.
+1. No Painel de Ações, selecione **Editar**.
+1. Em **Configuração**, para cada loja que não seja um local de retirada válido, desmarque a caixa de seleção **É Local de Retirada**.
+1. No Painel de ações, selecione **Salvar**.
+1. Execute o trabalho de agenda de distribuição **Configuração do canal** 1070,
 
 ## <a name="bing-maps-integration"></a>Integração do Bing Maps
 

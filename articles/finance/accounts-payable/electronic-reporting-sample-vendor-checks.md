@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2e1aa349b505713d0502aa90ddd5c3caff1f083c
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595170"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734534"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Amostra de relatório eletrônico para cheques de fornecedores
 
@@ -30,7 +30,7 @@ Você pode usar o ER (relatório eletrônico) para formatar cheques de fornecedo
 
 Você sempre deve acessar a biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS) e exibir a lista atual de arquivos disponíveis que têm um tipo de ativo de **Configuração de GER**. A seção a seguir, "O que eu tenho que configurar?", inclui um link para um tópico que explica como criar um repositório LCS que possibilita a você revisar as configurações disponíveis e importar as configurações selecionadas.
 
-O Microsoft Dynamics 365 Finance inclui um formato de exemplo no qual o cheque está na parte superior, seguido de duas seções de remessa. Também inclui um formato de amostra no qual o cheque está no meio, entre duas seções de remessa. Esses formatos de amostra correspondem aos formatos Deluxe Business Checks.
+O Microsoft Dynamics 365 Finance inclui um formato de exemplo no qual a marca de verificação está na parte superior, seguido por duas seções de remessa. Também inclui um formato de amostra no qual o cheque está no meio, entre duas seções de remessa. Esses formatos de amostra correspondem aos formatos Deluxe Business Checks.
 
 ## <a name="what-do-i-have-to-set-up"></a>O que eu tenho que configurar?
 

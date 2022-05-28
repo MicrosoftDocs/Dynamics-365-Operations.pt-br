@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223234
 ms.assetid: 4c66a231-aed2-48b5-9727-b3eb4fe6e6aa
 ms.search.region: global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7654f748fb0cfc70d76718f03a235c5d4d13a908
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728022"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735454"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão
 
@@ -33,12 +33,12 @@ Se for uma empresa e global obedecer os requisitos legais de contabilidade, voc�
 ## <a name="map-cost-element-dimension-members-to-a-common-format"></a>Mapear membros da dimensão do elemento de custo estimado em um formato comum
 O exemplo a seguir mostra como é, como controlador de custo previsto, pode criar uma nova dimensão de elemento de custo estimado na contabilização de custo previsto que os membros da dimensão do elemento de custo previsto de mapas de gráfico. de E contracheques. estrutura de contas e de plano francês estrutura de contas na comum conjunto de elementos de custo previsto de membros. Você pode usar a comum definida de membros da dimensão do elemento de custo estimado para analisar dados de custo previsto de duas entidades legais em um motivo de contabilização de custo previsto.
 
-| Fonte: plano de contas dos EUA                                          | Fonte: plano de contas Francês                                          | Novo comum definido de membros da dimensão do elemento de custo previsto                        |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Fonte: plano de contas dos EUA          | Fonte: plano de contas Francês           | Novo comum definido de membros da dimensão do elemento de custo previsto                        |
+|------------------------------------|----------------------------------------------|-------------------------------------------------------------------------|
 | Membros importados dimensão de elemento de custo previsto plano de contas dos EUA | Membros importados dimensão de elemento de custo previsto do gráfico de contas Francês. | Mapeamento de membros franceses e dos EUA e dimensão de elemento de custo previsto a um conjunto comuns |
-| 5001: vendas                                                           | 5001: Vendas e propaganda                                               | 5000: Vendas e propaganda                                             |
-| 5030: Publicidade                                                     | 6390: Compra de estoque\*                                                    | 7000: Limpeza de despesas                                                 |
-| 7001: Limpeza de despesas                                               | 7001: Despesa de viagens                                                      | 7001: Despesa de viagens                                                   |
+| 5001: vendas                   | 5001: Vendas e propaganda                      | 5000: Vendas e propaganda                               |
+| 5030: Publicidade             | 6390: Compra de estoque\*                          | 7000: Limpeza de despesas                                   |
+| 7001: Limpeza de despesas              | 7001: Despesa de viagens                     | 7001: Despesa de viagens                                                   |
 
 \*O membro francês dimensão de elemento de custo previsto de compra de estoque não é mapeado.
 

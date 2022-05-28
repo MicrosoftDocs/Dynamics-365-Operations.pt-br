@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087208"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710211"
 ---
 # <a name="task-management"></a>Gerenciamento de tarefas
 
@@ -57,18 +56,14 @@ A guia **Desligamento** contém uma lista de funcionários que estão saindo da 
 A guia **Transições** contém uma lista de **Todas as tarefas** que mostra todas as tarefas de todos os funcionários que mudarão as posições ou que alteraram recentemente as posições. Há também uma lista de tarefas vencidas e uma lista de tarefas atribuídas ao usuário atual.
 
 Em todas as três guias, os assistentes de RH e os gerentes podem concluir as seguintes atividades:
-
-- Aplicar uma lista de verificação a um funcionário.
-- Atualizar o status de uma tarefa.
-- Reatribuir uma tarefa.
-- Atualizar a data de vencimento de uma tarefa.
+- Aplicar uma lista de verificação a um funcionário
+- Atualizar o status de uma tarefa
+- Reatribuir uma tarefa
+- Atualizar a data de vencimento de uma tarefa
 
 > [!NOTE]
 > Por padrão, a guia **Integração** mostra os funcionários que foram contratados nos últimos sete dias. Para alterar essa configuração, na página **Parâmetros de recursos humanos**, na guia **Geral**, no campo **Contratações recentes**, digite um período. As informações na lista **Contratações recentes** podem ser mostradas para um número específico de dias, meses ou anos. Por exemplo, para exibir a lista de funcionários contratados nos últimos 14 dias, defina o campo **Período** como **14** e o campo **Unidade** como **Dias**.
->
-> Na página **Parâmetros de recursos humanos**, você também pode atualizar o intervalo de datas das listas de funcionários que estão saindo e que saíram da empresa que são mostrados na guia **Desligamento**.
->
-> Essas configurações também se aplicam ao espaço de trabalho **Gerenciamento de pessoal**.
+> Na página **Parâmetros de recursos humanos**, você também pode atualizar o intervalo de datas das listas de funcionários que estão saindo e que saíram da empresa que são mostrados na guia **Desligamento**. Essas configurações também se aplicam ao espaço de trabalho **Gerenciamento de pessoal**.
 
 ## <a name="setting-up-tasks"></a>Configurando tarefas
 
@@ -188,6 +183,13 @@ Também é possível aplicar uma lista de verificação a um funcionário abrind
 ## <a name="completing-tasks"></a>Concluindo tarefas
 
 Na página **Autoatendimento para funcionários** um funcionário pode exibir todas as tarefas atribuídas a elas. Para cada tarefa atribuída, os valores de **Tarefa**, **Descrição**, **Instruções** e **Pessoa de contato** são mostrados. Além disso, para cada tarefa, o funcionário pode abrir a página da Web externa associada ou a página associada no aplicativo Dynamics 365.
+
+As tarefas também podem ser exibidas no painel padrão. Para exibir tarefas no painel padrão:
+1. Vá para **Opções do usuário – Preferências – Gerenciamento de Tarefas** 
+2. Defina a opção **Exibir tarefas no painel padrão** como **Ativado**.  
+
+>[!Note] 
+>O recurso **Gerenciamento de tarefas** deve ser ativado em **Gerenciamento de recursos** para que a opção seja exibida em **Opções do usuário**.
 
 As tarefas podem ser marcadas como **Em andamento**, **Canceladas** ou **Concluídas**. Se uma tarefa foi atribuída a um grupo, ela será marcada como **Concluída** quando uma pessoa do grupo concluí-la.
 

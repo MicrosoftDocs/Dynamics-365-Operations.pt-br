@@ -1,6 +1,6 @@
 ---
 title: Relatórios financeiros de balanço
-description: Este artigo descreve os relatórios padrão para balanços. Também mostra os blocos de construção associados a esses relatórios.
+description: Este tópico descreve os relatórios padrão para balanços. Também mostra os blocos de construção associados a esses relatórios.
 author: jcart1106
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,32 +8,32 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 276e877db42361282ad2bf4a01dd971ec02e2af7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734505"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734295"
 ---
 # <a name="balance-sheet-financial-reports"></a>Relatórios financeiros de balanço
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve os relatórios padrão para balanços. Também mostra os blocos de construção associados a esses relatórios. 
+Este tópico descreve os relatórios padrão para balanços. Também mostra os blocos de construção associados a esses relatórios. 
 
 ## <a name="default-balance-sheet-reports"></a>Relatórios do balanço padrão
 
 Há dois relatórios do balanço padrão. Em um relatório, as seções são empilhadas. No outro relatório, as seções estão lado a lado.
 
 | Relatório padrão                       | O que ele faz                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|----------------------------------------------------------------------------------------------|
 | Balanço - Padrão              | Fornece uma exibição do cargo financeiro da organização para o ano.                                                                 |
 | Balanço Lado a Lado – Padrão | Fornece uma exibição do cargo financeiro da organização para o ano. Os ativos e passivos e o capital próprio do acionista estão lado a lado. |
 

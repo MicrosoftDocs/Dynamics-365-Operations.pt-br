@@ -1,26 +1,26 @@
 ---
 title: Dados externos em previsões de fluxo de caixa
 description: Este tópico descreve as etapas de configuração que devem ser concluídas para que os dados externos sejam inseridos ou importados para previsões de fluxo de caixa.
-author: rcarlson
+author: RyanCCarlson2
 ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: rcarlson
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23342114c25cd1b59d47aa7ce63f09de029fa690
-ms.sourcegitcommit: 465c84eb5cdc211692e2ae09b45d1400f9a315ee
+ms.openlocfilehash: f7fac80b7ad0fde273fbd33aa5df146e569be46e
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8314690"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713716"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>Dados externos em previsões de fluxo de caixa
 

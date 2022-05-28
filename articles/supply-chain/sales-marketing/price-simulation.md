@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d206654dcb7964ac2ed9aa9ccf7cec709e1bd38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580495"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689668"
 ---
 # <a name="price-simulation"></a>Simulação de preço
 
@@ -32,7 +32,8 @@ Uma simulação de preço para uma cotação mostra um novo valor total, com bas
 
 Uma simulação de preço não altera o preço da cotação. Se a simulação de preço for aplicada a uma cotação inteira, ela será tratada como um desconto especial no cabeçalho da cotação. Se a simulação de preço for aplicada a itens específicos, ela será tratada como um desconto especial nas linhas de cotação. O preço de venda unitário em uma linha de cotação criada não é alterado quando uma simulação de preço é aplicada. Em vez disso, um percentual de desconto correspondente à redução de preço da linha da cotação é aplicado. Quando uma simulação de preço é aplicada, o preço de venda unitário e o percentual de desconto são transferidos para a linha ou para o cabeçalho da cotação.  
 
->[Observação!] Ao executar uma simulação de preço, somente a moeda de venda atual é usada para criar a simulação. Entretanto, ao exibir os totais da cotação, você verá uma combinação da moeda da empresa e da moeda de venda.  
+>[!NOTE]
+>Ao executar uma simulação de preço, somente a moeda de venda atual é usada para criar a simulação. Entretanto, ao exibir os totais da cotação, você verá uma combinação da moeda da empresa e da moeda de venda.  
 
 Os itens complementares que são adicionados às linhas de cotação podem desencadear descontos de linha e descontos combinados. Eles também podem desencadear descontos totais que modificam as margens e os índices de contribuição das linhas de cotação e de desconto total.  
 

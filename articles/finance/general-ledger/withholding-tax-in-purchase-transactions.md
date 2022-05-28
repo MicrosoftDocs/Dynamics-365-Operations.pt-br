@@ -1,26 +1,26 @@
 ---
 title: Imposto retido na fonte em transações de compra
 description: Para fornecedores que são responsáveis por retenção de imposto na fonte, você pode atribuir o **Grupo de imposto retido na fonte** padrão na página **Todos os fornecedores**.
-author: roschlom
+author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: a1d1ddf108e5e79ca7684ecc26df1c016a0362bbec43868c7dfed6970a097a76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c2220159cef31bf3343bcf39325c7a0ff3e0cf47
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731419"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727192"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Imposto retido na fonte em transações de compra
 

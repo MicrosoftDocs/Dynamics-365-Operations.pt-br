@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d37b1a9869cc130786d0e8fde68184e04c881bad1f64c86943174213025db82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765659"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722129"
 ---
 # <a name="process-ledger-allocation-journal"></a>Processar diário de alocação do razão
 
@@ -26,7 +26,7 @@ ms.locfileid: "6765659"
 
 Este tópico explica como processar uma solicitação de alocação. Use a página Processar solicitação de alocação para criar um diário de alocação que possa ser revisto e aprovado antes do lançamento na Contabilidade ou que possa ser lançado diretamente na Contabilidade. Antes de criar um diário de alocações, deve haver pelo menos uma regra de alocação do razão ativa. Esta tarefa usa a empresa de demonstração USMF.
 
-1. No painel de navegação, Acesse **Módulos > Contabilidade > Alocações > Processar solicitação de alocação**.
+1. No painel de navegação, Acesse **Contabilidade > Alocações > Processar solicitação de alocação**.
 2. No campo **Regra**, selecione o registro desejado no menu suspenso.
 3. No campo **A partir da data**, insira uma data.
 

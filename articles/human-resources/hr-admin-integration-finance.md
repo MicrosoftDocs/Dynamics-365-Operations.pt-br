@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065007"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687522"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar a integração com o Finance
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065007"
 
 
 
-Para integrar o Dynamics 365 Human Resources com Dynamics 365 Finance, você pode usar o modelo Human Resources para Finance no [Integrador de Dados](/powerapps/administrator/data-integrator). O modelo de Human Resources para Finance permite o fluxo de dados para trabalhos, posições e trabalhadores. O modelo permite que os dados fluam de Human Resources para Finance, mas não permite que os dados fluam de Finance para Human Resources.
+Para integrar o Dynamics 365 Human Resources com o Dynamics 365 Finance, você pode usar o modelo Human Resources para Finance no [Integrador de Dados](/powerapps/administrator/data-integrator). O modelo de Human Resources para Finance permite o fluxo de dados para trabalhos, posições e trabalhadores. O modelo permite que os dados fluam de Human Resources para Finance, mas não permite que os dados fluam de Finance para Human Resources.
 
 ![Integração do Human Resources ao fluxo de integração do Finance.](./media/hr-admin-integration-finance-flow.png)
 
@@ -47,7 +46,7 @@ A solução Human Resources para Finance fornece os seguintes tipos de sincroniz
 A solução de integração requer as seguintes versões de Human Resources e Finance: 
 
 - Dynamics 365 Human Resources em Dataverse
-- Dynamics 365 Finance versão 7.2 e posterior
+- Dynamics 365 Finance versão 7.2 ou posterior
 
 ## <a name="template-and-tasks"></a>Modelo e tarefas
 
@@ -248,7 +247,7 @@ Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as enti
 
 A integração de Human Resources ao Finance tenta coincidir registros com base na ID. Se os registros forem correspondidos, o Integrador de dados substitui os dados no Finance com os valores no Human Resources. No entanto, um problema pode ocorrer se logicamente esses registros forem diferentes e a mesma ID tiver sido gerada tanto em Human Resources ou Finance com base na sequência numérica respectiva.
 
-Esse problema pode acontecer com **Trabalhador**, que usa **Número pessoal** para realizar a correspondência e **Posições**. Os trabalhos não usam sequências numéricas. Como resultado, se a mesma ID de trabalho existir em Human Resources e Finance, as informações de recursos humanos substituem as informações de Dynamics 365 Finance. 
+Esse problema pode acontecer com **Trabalhador**, que usa **Número pessoal** para realizar a correspondência e **Posições**. Os trabalhos não usam sequências numéricas. Como resultado, se a mesma ID de trabalho existir em Human Resources e Finance, as informações de recursos humanos substituem as informações do Dynamics 365 Finance. 
 
 Para evitar problemas com IDs duplicadas, você pode adicionar um prefixo na [sequência numérica](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) ou definir um número inicial na sequência numérica que está além do intervalo do outro sistema. 
 

@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5539d8531dc5de273d80419135c9bcc224c8e8f0
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 4bab754afa5b35c34c6e1e5087d9268321b75bd0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402609"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688873"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Catálogo de aprendizagem para consultores funcionais do Dynamics 365 Commerce
 
@@ -28,11 +27,11 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 
 Para consultores funcionais, nossa pesquisa de análise de tarefas de trabalho mostrou que todos devem compreender o conjunto de conteúdo principal, bem como uma área de domínio.
 
-Para obter treinamento sobre recursos compartilhados com outros aplicativos Finance and Operations, consulte o [Catálogo de Aprendizagem do Dynamics 365 Finance](../../finance/get-started/learning-catalog-functional-consultant.md).
+Para obter treinamento sobre recursos compartilhados com outros aplicativos de finanças e operações, consulte o [Catálogo de aprendizagem do Dynamics 365 Finance](../../finance/get-started/learning-catalog-functional-consultant.md).
 
 ## <a name="get-started"></a>Iniciado<a name="get-started"></a>
 
-| Conteúdo| descrição  | Formatar  | Extensão  |
+| Conteúdo| Descrição  | Formatar  | Extensão  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
 | [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Começaremos esta experiência de aprendizado demostrando como a transformação digital e os aplicativos de negócios podem transformar a sua empresa. Discutiremos como o Dynamics 365 e o Power Platform o ajudam a tomar decisões informadas com base nas necessidades e nas metas da sua organização, em quatro blocos de construção de transformação digital—moderno, unificado, inteligente e adaptável. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 6.5 horas |
 | [Introdução ao Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/) | O Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja, no call center e digitais. Dynamics 365 Commerce permite criar a fidelidade com a marca por meio de envolvimentos de cliente personalizados, aumentar renda com produtividade de funcionário aprimorada, otimizar operações para reduzir custos e impulsionar eficiência de cadeia de fornecimento, e por fim entregando melhores desfechos comerciais. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |

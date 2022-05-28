@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625352"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710853"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -144,7 +143,7 @@ Use as seguintes orientações ao determinar para qual ambiente do Power Apps o 
 6. Recursos de gravação dupla para a integração de dados de Recursos Humanos com o ambiente do Power Apps só poderão ser usados se a opção **Habilitar aplicativos do Dynamics 365** estiver selecionada para o ambiente. Consulte a [Home page da gravação dupla](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) para obter mais informações sobre gravação dupla.
 
     > [!NOTE]
-    > A opção **Habilitar aplicativos do Dynamics 365** deve ser selecionada quando o ambiente do Power Apps é criado. Se a opção não estiver selecionada no momento do provisionamento, não será possível usar a gravação dupla para integrar dados entre o Dynamics 365 Human Resources e o ambiente Power Apps ou instalar aplicativos do Dynamics 365, como o Dynamics 365 Sales e o Field Service, no ambiente. Esta opção não é reversível. Para obter mais informações, consulte [Algumas considerações importantes ao criar um novo ambiente](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) no site de documentação do Power Platform.
+    > A opção **Habilitar aplicativos do Dynamics 365** deve ser selecionada quando o ambiente do Power Apps é criado. Se a opção não estiver selecionada no momento do provisionamento, não será possível usar a gravação dupla para integrar dados entre o Dynamics 365 Human Resources e o ambiente Power Apps ou instalar aplicativos do Dynamics 365, como o Dynamics 365 Sales e o Field Service, no ambiente. Esta opção não é reversível. Para obter mais informações, consulte [Algumas considerações importantes ao criar um novo ambiente](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) no site de documentação do Power Platform.
 
 7. Depois de determinar o ambiente correto a ser usado, você poderá continuar com o processo de provisionamento. 
 

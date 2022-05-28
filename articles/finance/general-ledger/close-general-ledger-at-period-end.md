@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f83ea7a870c52884030125736809ead02b264aef1dcd654f6ff94dab0fbb2004
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739993"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717520"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Fechar a contabilidade no fim do período
 
@@ -28,7 +28,7 @@ ms.locfileid: "6739993"
 
 Este tópico descreve as tarefas geralmente concluídas durante a realização de um fechamento periódico de contabilidade. 
 
-Na contabilidade, é possível concluir os procedimentos de fechamento por um período ou por um ano. Os processos de fechamento preparam o sistema para um novo período. Para preparar o sistema para um novo ano, você deve executar o processo do fechamento de final de ano. Cada organização possui processos e etapas diferentes que ela executa para o final de um período. Veja a seguir algumas etapas opcionais para o fim do período:
+Na contabilidade, é possível concluir os procedimentos de fechamento por um período ou por um ano. Os processos de fechamento preparam o sistema para um novo período. Para se preparar para um novo ano, você deve executar o processo do fechamento de final de ano. Cada organização possui processos e etapas diferentes que ela executa para o final de um período. Veja a seguir algumas etapas opcionais para o fim do período:
 
 -   Conclua todas as tarefas para todos os outros módulos, como Contas a receber, Contas a pagar e Inventário.
 -   Verifique se todo todos os diários foram lançados.
@@ -41,7 +41,7 @@ Na contabilidade, é possível concluir os procedimentos de fechamento por um pe
 -   Gere o demonstrativo financeiro do final do período usando o relatório financeiro.
 -   Defina períodos do razão para **Em espera**, de modo que não haja novos lançamentos. Também é possível restringir um período para um grupo de usuários específico durante as atividades de fim de período, para um melhor controle. Não é recomendável definir períodos para **Fechado de forma permanente**, pois não é possível reabrir um período que foi fechado.
 
-O espaço de trabalho financeiro de fechamento de período pode ser usado para organizar e controlar as tarefas necessárias para diversos processos de fechamento de período. 
+O espaço de trabalho de **fechamento de período financeiro** pode ser usado para organizar e controlar as tarefas necessárias para diversos processos de fechamento de período. 
 
 
 Para obter mais informações, consulte os seguintes tópicos:

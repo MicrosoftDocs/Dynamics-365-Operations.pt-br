@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fadad34be31f6522654bc3af47a4f71695dcc5fea7f0b3e760ff26d79d88eb4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722502"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685732"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources 19 de abril de 2021
 
@@ -42,7 +41,7 @@ Os seguintes recursos estão geralmente disponíveis nesta versão.
 
 | Recurso | Liberar planos | Documentação |
 | --- | --- | --- |
-| Atualização da plataforma 10.0.17 (41) | -- | [Atualizações de plataforma para a versão 10.0.17 de aplicativos do Finance and Operations (abril de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| Atualização da plataforma 10.0.17 (41) | -- | [Atualizações de plataforma para a versão 10.0.17 dos aplicativos de finanças e operações (abril de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 | Suporte a campos personalizados em formulários de Gerenciamento de Benefícios | [Suporte a campo personalizado em gerenciamento de benefícios](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management)| [Visão geral do gerenciamento de benefícios](hr-benefits-management-overview.md)|
 
 ### <a name="bug-fixes"></a>Correções de bug
@@ -78,7 +77,7 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 | Recurso | Detalhes |
 | --- | --- |
 | As habilidades inseridas por um gerente para os funcionários podem ser aprovadas automaticamente por um fluxo de trabalho | Em breve. |
-| Atualização da plataforma 10.0.18 (42) | A atualização da plataforma 10.0.18 está agendada para começar a ser implementada na versão de serviço, em 17 de maio de 2021. Para obter mais informações, consulte [Atualizações de plataforma para a versão 10.0.18 dos aplicativos do Finance and Operations (maio de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Atualização da plataforma 10.0.18 (42) | A atualização da plataforma 10.0.18 está agendada para começar a ser implementada na versão de serviço, em 17 de maio de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.18 dos aplicativos de Finanças e Operações (maio de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Suporte a campo personalizado em Regras de qualificação de gerenciamento de benefícios  | [Suporte a campos personalizados para processamento de qualificação](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2021 ciclo de lançamentos 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
