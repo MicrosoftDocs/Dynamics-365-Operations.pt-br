@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
+ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392902"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "8756953"
 ---
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 
 [!include [banner](../includes/banner.md)]
 
-Uma **fatura de cliente para uma ordem de venda** é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente. Esse tipo de fatura de cliente é criado com base em uma ordem de venda, que inclui linhas de ordem e números de item. Os números de item são especificados e lançados no razão. As entradas no diário-razão auxiliar não estão disponíveis para uma fatura de cliente de uma ordem de venda. Para obter mais informações, consulte [Criar faturas de ordem de venda](tasks/create-sales-order-invoices.md).
+Uma **Fatura de cliente para uma ordem de venda** é uma nota que está relacionada a uma venda e que uma organização fornece a um cliente. Esse tipo de fatura de cliente é criado com base em uma ordem de venda, que inclui linhas de ordem e números de item. Os números de item são especificados e lançados no razão. As entradas no diário-razão auxiliar não estão disponíveis para uma fatura de cliente de uma ordem de venda. Para obter mais informações, consulte [Criar faturas de ordem de venda](tasks/create-sales-order-invoices.md).
 
-Uma **fatura de texto livre** não está relacionada a uma ordem de venda. Ela contém linhas de ordem que incluem contas contábeis, descrições de texto livre e um valor de venda que você insere. Não é possível inserir um número de item neste tipo de fatura. Você deverá inserir as informações apropriadas de impostos sobre vendas. Uma conta principal para a venda é indicada em cada linha da fatura, que você pode distribuir para diversas contas contáveis clicando em **Distribuir valores** na página **Fatura de texto livre**. Além disso, o saldo do cliente é lançado na conta resumo do perfil de lançamento usado para a fatura de texto livre.
+Uma **Fatura de texto livre** não está relacionada a uma ordem de venda. Ela contém linhas de ordem que incluem contas contábeis, descrições de texto livre e um valor de venda que você insere. Não é possível inserir um número de item neste tipo de fatura. Você deverá inserir as informações apropriadas de impostos sobre vendas. Uma conta principal para a venda é indicada em cada linha da fatura, que você pode distribuir para diversas contas contáveis clicando em **Distribuir valores** na página **Fatura de texto livre**. Além disso, o saldo do cliente é lançado na conta resumo do perfil de lançamento usado para a fatura de texto livre.
 
-Para obter mais informações, consulte: 
+Para obter mais informações, consulte:
 
 [Criar faturas de texto livre](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -41,7 +41,10 @@ Para obter mais informações, consulte:
 [Gerar e lançar faturas de texto livre recorrentes](tasks/post-recurring-free-text-invoices.md)
 
 
-Uma **fatura pro forma** é uma fatura preparada como uma previsão dos valores da fatura real antes de a fatura ser lançada. Você pode imprimir uma fatura pro forma de uma fatura de cliente de uma ordem de venda ou de uma fatura de texto livre.
+Uma **Fatura pro forma** é uma fatura preparada como uma previsão dos valores da fatura real antes de a fatura ser lançada. Você pode imprimir uma **Fatura pro forma** de uma fatura de cliente de uma ordem de venda ou de uma fatura de texto livre. 
+
+>[!NOTE]
+> No caso de uma interrupção do sistema durante o processo de fatura pro forma, uma fatura pro forma forma pode se tornar órfã. Uma fatura pro forma órfã pode ser excluída com a execução do trabalho periódico de **Excluir faturas pro forma manualmente**. Acesse **Vendas e marketing > Tarefas periódicas > limpar > Excluir faturas pro forma manualmente**.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Usar entidades de dados de fatura de cliente de ordem de venda
 Você pode usar entidades de dados para importar e exportar informações sobre uma fatura de cliente para uma ordem de venda. Há entidades diferentes para as informações no cabeçalho da fatura de venda e nas linhas da fatura de venda.
@@ -70,7 +73,7 @@ Você pode exibir o status da ordem de venda na página de listagem **Todas as o
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-packing-slips-and-the-date"></a>Lançar e imprimir faturas de cliente individuais com base em guias de remessa e data
 Use este processo quando uma ou mais guias de remessa tiverem sido lançadas para a ordem de venda. A fatura de cliente baseia-se nessas guias de remessa e reflete as quantidades nelas indicadas. As informações financeiras da fatura baseiam-se nas que são inseridas quando você lança essa nota. 
 
-Você pode criar uma fatura de cliente com base nos itens de linha da guia de remessa que foram remetidos até a data, mesmo que todos os itens de determinada ordem de venda ainda não tenham sido remetidos. Você poderá fazer isso, por exemplo, se a sua entidade legal emitir uma fatura por cliente por mês cobrindo todas as entregas remetidas durante esse mês. Cada guia de remessa representa uma entrega parcial ou completa dos itens da ordem de venda. 
+Você pode criar uma fatura de cliente com base nos itens de linha da guia de remessa que foram remetidos até a data, mesmo que todos os itens de determinada ordem de venda não tenham sido remetidos. Você poderá fazer isso, por exemplo, se a sua entidade legal emitir uma fatura por cliente por mês cobrindo todas as entregas remetidas durante esse mês. Cada guia de remessa representa uma entrega parcial ou completa dos itens da ordem de venda. 
 
 Quando você lança a fatura, a quantidade **A faturar** de cada item é atualizada com o total das quantidades entregues das guias de remessa selecionadas. Se a quantidade **A faturar** e a quantidade **A entregar** de todos os itens na ordem de venda for 0 (zero), o status da ordem de venda é alterado para **Faturado**. Se a quantidade **A faturar** for diferente de 0 (zero), o status da ordem de venda permanece inalterado, e faturas adicionais podem ser inseridas para ela. 
 
@@ -83,8 +86,13 @@ Use este processo quando uma ou mais ordens de venda estiverem prontas para sere
 
 Você pode selecionar várias faturas na página de listagem **Ordem de venda** e, em seguida, usar a função **Gerar faturas** para consolidá-las. Na página **Lançamento de fatura**, você pode alterar a configuração **Ordem resumida** para resumir por número de ordem (onde houver diversas guias de remessa para uma única ordem de venda) ou por valor de fatura (onde houver diversas ordens de venda para uma única conta de fatura). Use o botão **Organizar** para consolidar as ordens de venda em faturas únicas, com base nas configurações de **Ordem resumida**.
 
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Dividir faturas de ordem de venda por informações de site e entrega
+Você pode configurar a divisão de faturas de clientes de ordens de venda por site ou por endereço de entrega na guia **Atualização resumida** da página **Parâmetros de contas a receber**. 
+ - Selecione a opção **Dividir com base no site da fatura** para criar uma fatura por site ao lançar. 
+ - Escolha a opção **Dividir com base nas informações de entrega da fatura** para produzir uma fatura por endereço de entrega de linha da ordem de venda ao lançar. 
+
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Lançar na Conta de receita para linhas de ordem de venda que não têm preço
-Você terá a opção de atualizar a conta de **Receita** na **Contabilidade** para as linhas de ordem de venda que não têm preço. Para configurar ou exibir essas informações, acesse o parâmetro **Lançar na Conta de receita para linhas de fatura de ordem de venda com preço zero** na guia **Razão e imposto** da página **Parâmetros de contas a receber**. (**Contas a receber > Configuração > Parâmetros de contas a receber**). Selecione **Sim** para atualizar a conta de **Receita** das linhas da fatura da ordem de venda que não têm preço. Uma conta de receita é definida na página do parâmetro **Lançamento de estoque**, na guia definição de conta da **Ordem de venda**. Se esta opção não for selecionada, as linhas que não tiverem informações de preço não serão lançadas na conta de **Receita**.
+Você terá a opção de atualizar a conta de **Receita** na **Contabilidade** para as linhas de ordem de venda que não têm preço. Para configurar ou exibir essas informações, acesse o parâmetro **Lançar na Conta de receita para linhas de fatura de ordem de venda com preço zero** na guia **Razão e imposto** da página **Parâmetros de contas a receber**. (**Contas a receber > Configuração > Parâmetros de contas a receber**). Selecione **Sim** para atualizar a conta de **Receita** das linhas da fatura da ordem de venda que não têm preço. Uma conta de receita é definida na página do parâmetro **Lançamento de estoque**, na guia de definição de conta da **Ordem de venda**. Se esta opção não for selecionada, as linhas que não tiverem informações de preço não serão lançadas na conta de **Receita**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Configurações adicionais que alteram o comportamento dos lançamentos
 Os seguintes campos alteram o comportamento do processo de lançamento.
@@ -152,7 +160,7 @@ Os seguintes campos alteram o comportamento do processo de lançamento.
 <td>Verificar limite de crédito</td>
 <td>Selecione as informações que devem ser analisadas quando uma verificação de limite de crédito for realizada.
 <ul>
-<li><strong>Nenhum</strong> – não existem requisitos para a verificação do limite de crédito.</li>
+<li><strong>Nenhum</strong>: não existem requisitos para a verificação do limite de crédito.</li>
 <li><strong>Saldo</strong> – o limite de crédito é comparado ao saldo do cliente.</li>
 <li><strong>Saldo + guia de remessa ou recebimento de produtos</strong> – O limite de crédito é verificado em relação ao saldo do cliente e entregas.</li>
 <li><strong>Saldo+tudo</strong> – o limite de crédito é verificado em relação ao saldo do cliente, entregas e ordens abertas.</li>

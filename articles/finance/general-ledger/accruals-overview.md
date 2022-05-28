@@ -1,6 +1,6 @@
 ---
-title: Visão geral das competências
-description: Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações.
+title: Visão geral de competências
+description: Este tópico descreve competências, e fornece informações sobre como configurá-las e criar transações.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14131"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc3234c1a64155e1d0ad53cb7008d91847f7af7d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985278"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735222"
 ---
-# <a name="accruals-overview"></a>Visão geral das competências
+# <a name="accruals-overview"></a>Visão geral de competências
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações.
+Este tópico descreve competências, e fornece informações sobre como configurá-las e criar transações.
 
 As competências são usadas em regime de competência para rastrear a receita que é reconhecida no período em que é gerada, não quando o pagamento é recebido e para rastrear as despesas (custo) que são reconhecidas quando ocorrem, não quando o pagamento é efetuado.
 

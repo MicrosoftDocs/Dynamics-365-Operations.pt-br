@@ -1,7 +1,7 @@
 ---
 title: Categorias de custo usadas em roteiros de produção
 description: Este artigo oferece informações sobre as categorias de custo que se aplicam aos ambientes de fabricação que usam o roteiro.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 78153
 ms.assetid: a3fdc76c-0a27-4723-b1c7-4322f707d89e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca4c0c9cecb79366cdd41069cb6c96f01b44a2094f4caf57077c391beb6ac106
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f36154467f7d392f9bb77bf907807d8acc4f61ff
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779653"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679517"
 ---
 # <a name="cost-categories-used-in-production-routing"></a>Categorias de custo usadas em roteiros de produção
 

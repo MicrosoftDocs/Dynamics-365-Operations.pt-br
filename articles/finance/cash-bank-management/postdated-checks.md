@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f5c4d641a3d3ccc326ee56ce7bd05c891b3fa8a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 33de0d5180962f52ddb0770f8729ed147d144e6d
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595453"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722845"
 ---
 # <a name="postdated-checks"></a>Cheques pós-datados
 
@@ -28,7 +28,7 @@ ms.locfileid: "7595453"
 
 Este artigo fornece informações sobre o suporte para cheques pré-datados. Cheques pós-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada.
 
-O Dynamics 365 Finance oferece suporte ao ciclo completo de gerenciamento de cheques pré-datados em Contas a Receber e em Contas a Pagar, como mostra a tabela a seguir.
+O Dynamics 365 Finance oferece suporte ao ciclo completo de gerenciamento de cheques pré-datados em Contas a receber e em Contas a pagar, como mostra a tabela a seguir.
 <table>
 <colgroup>
 <col width="50%" />

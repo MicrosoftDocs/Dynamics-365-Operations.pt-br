@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 190eb7e437af7edd8eee97b8f2b7601254cbd240
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68aa401487a74b9fcd186ec6cbdb268cdb41168c
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066409"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743476"
 ---
 # <a name="employees-select-plans-by-using-employee-self-service-optional"></a>Os funcionários selecionam usando o Autoatendimento para funcionários (opcional)
 
@@ -35,11 +34,11 @@ Para acessar seus benefícios para registro, o funcionário acessa o **Autoatend
 Na página **Auto-atendimento de benefícios**, os planos de benefícios são agrupados por tipo de plano. Para exibir os planos de benefícios em um tipo de plano, o funcionário deve selecionar um bloco na página **Benefícios do funcionário**. O funcionário verá somente os benefícios para os quais está qualificado.
 
 > [!IMPORTANT]
-> Para que um tipo de plano possa ser exibido em **Autoatendimento para funcionários**, ele deve ser configurado. Para obter mais informações, consulte [Configurar o Autoatendimento para funcionários](/hr-benefits-setup-employee-self-service.md).
+> Para que um tipo de plano possa ser exibido em **Autoatendimento para funcionários**, ele deve ser configurado. Para obter mais informações, consulte [Configurar o Autoatendimento para funcionários](/dynamics365/human-resources/hr-benefits-setup-employee-self-service).
 
 Dependendo do tipo de plano, uma ou mais vantagens podem ser selecionadas para registro. Por exemplo, um tipo de plano médico pode ser configurado para limitar o funcionário a um plano médico. Um tipo de plano de seguro de vida pode permitir que o funcionário selecione vários planos de seguro de vida.
 
-Depois que o funcionário decidir em qual plano se inscrever, talvez seja necessário selecionar dependentes. Se o funcionário selecionou uma opção de cobertura que é **Funcionário +1**, **Funcionário + filho** ou **Família**, dependentes deverão ser selecionados. Para obter mais informações sobre opções de cobertura, consulte [Criar opções de cobertura](/hr-benefits-setup-coverage-options.md).
+Depois que o funcionário decidir em qual plano se inscrever, talvez seja necessário selecionar dependentes. Se o funcionário selecionou uma opção de cobertura que é **Funcionário +1**, **Funcionário + filho** ou **Família**, dependentes deverão ser selecionados. Para obter mais informações sobre opções de cobertura, consulte [Criar opções de cobertura](/dynamics365/human-resources/hr-benefits-setup-coverage-options).
 
 Para selecionar um plano de benefícios, o funcionário deve selecionar o botão de reticências (**...**) ou **Adicionar ao carrinho**. Depois que o funcionário terminar de adicionar todas as seleções de benefícios ao carrinho, ele deve selecionar **Exibir carrinho**. Em seguida, o funcionário é direcionado para a página **Planos**, na qual é possível exibir os planos de benefícios selecionados e renunciados.
 

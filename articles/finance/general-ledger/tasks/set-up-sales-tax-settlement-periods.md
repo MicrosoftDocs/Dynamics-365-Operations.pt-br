@@ -1,6 +1,6 @@
 ---
 title: Configurar períodos de liquidação do imposto
-description: Este tópico explica como configurar períodos de liquidação de imposto no Dynamics 365 Finance.
+description: Este tópico explica como configurar períodos de liquidação de códigos de imposto no Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732948"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735804"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Configurar períodos de liquidação do imposto
 
@@ -28,7 +28,7 @@ Este tópico explica como configurar períodos de liquidação do imposto. Perí
 
 Esta tarefa usa a empresa de demonstração USMF.
 
-1. No painel de navegação, acesse **Módulos > Imposto > Impostos indiretos > Impostos > Períodos de liquidação de imposto**.
+1. Vá para **Imposto > Impostos indiretos > Imposto > Períodos de liquidação de imposto**.
 2. Selecione **Novo**.
 3. No campo de **Período de liquidação**, digite um valor.
 4. No campo **Descrição**, digite um valor.

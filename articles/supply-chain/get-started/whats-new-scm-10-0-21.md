@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075290"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739377"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.21 (outubro de 2021)
 
@@ -130,7 +130,7 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 | Planejamento Mestre | [Exibir histórico e logs de planejamento](../master-planning/planning-optimization/plan-history-logs.md) |
 | Gerenciamento de depósito | [Estratégias de embalagem do contêiner](../warehousing/container-packing-strategy-overview.md) |
 | Gerenciamento de depósito | [Cenários de exemplo de contagem cíclica](../warehousing/cycle-counting-scenarios.md) |
-| Gerenciamento de depósito | [Importar ASNs de entrada por meio da entidade de dados v2](../warehousing/import-asn-v2-data-entity.md) |
+| Gerenciamento de depósito | [Importar ASNs de entrada por meio da entidade de dados V3](../warehousing/import-asn-data-entity.md) |
 | Gerenciamento de depósito | [Separação em excesso para ordens de venda e ordens de transferência](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Gerenciamento de depósito | [Agendar impressão de etiqueta o ciclo durante o ciclo](../warehousing/configure-task-based-wave-label-printing.md) |
 | Gerenciamento de depósito | [O que há de novo ou mudou no aplicativo móvel Warehouse Management](../warehousing/whats-new-wma.md) |

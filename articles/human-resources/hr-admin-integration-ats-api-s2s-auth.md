@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064913"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743531"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Autenticação de servidor para servidor para a API de integração ATS
 
@@ -89,7 +89,7 @@ Para a nova função, o acesso apropriado deve ser atribuído a, no mínimo, as 
 
 A segunda etapa é garantir que o aplicativo receba as permissões apropriadas para os dados de Recursos Humanos ao associá-lo a um usuário no aplicativo de Recursos Humanos. Para um usuário de aplicativo, as chamadas de servidor para servidor por meio de tabelas virtuais do Dataverse são feitas no contexto da identidade do usuário (aplicativo) no Dataverse que está invocando a ação. Em seguida, o serviço de adaptador de tabelas virtuais pesquisa o usuário associado nos Recursos Humanos e executa a consulta no contexto desse usuário. Isso significa que um usuário deve ser criado nos Recursos Humanos com as funções corretas atribuídas a fim de fornecer acesso aos dados que o aplicativo de integração precisará.
 
-Também será necessário atribuir as permissões corretas ao usuário de Recursos Humanos para usar dados de Recursos Humanos. A função **Candidatura de recrutamento** (HcmRecruitingIntegrator) está disponível com privilégios para as entidades primárias necessárias à integração com os dados de recrutamento. Esta função pode ser atribuída ao usuário do aplicativo na página **Usuários** para conceder o acesso apropriado aos dados. Para obter mais informações sobre as funções de segurança de Recursos Humanos, consulte [Segurança baseada em função](/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Também será necessário atribuir as permissões corretas ao usuário de Recursos Humanos para usar dados de Recursos Humanos. A função **Candidatura de recrutamento** (HcmRecruitingIntegrator) está disponível com privilégios para as entidades primárias necessárias à integração com os dados de recrutamento. Esta função pode ser atribuída ao usuário do aplicativo na página **Usuários** para conceder o acesso apropriado aos dados. Para obter mais informações sobre as funções de segurança de Recursos Humanos, consulte [Segurança baseada em função](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>Configurar o novo usuário com as permissões apropriadas
 

@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a00e20569f05730296ef611938a94b73ebb7f6f5
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075441"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735308"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Inserir dados do candidato e da solicitação de emprego manualmente
 
-> [!IMPORTANT]
-> A funcionalidade mencionada neste tópico está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
+> [!NOTE]
+> A funcionalidade de recrutamento neste tópico será referida como Projetos de recrutamento e se concentra em candidatos, solicitações de emprego e projetos de recrutamento.  
 
 
 Este procedimento mostra como manter manualmente as informações sobre os candidatos e a solicitação de emprego. Você pode inserir e manter as informações pessoais, as datas e os horários de entrevista, as referências, as competências e as solicitações de acomodação para candidatos. Você também pode atualizar o status das ordens de candidatos de emprego e criar cartas ou mensagens de email para comunicar-se com os candidatos. Quando você criar um registro do candidato, um registro para o candidato é criado no catálogo de endereços global. A empresa de dados de demonstração **USMF** foi usada para criar este procedimento.

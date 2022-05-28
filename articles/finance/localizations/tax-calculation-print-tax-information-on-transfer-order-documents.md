@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 174cbd85139db5cee75481041fb721dc7646ab66
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913593"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687461"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Imprimir informações de imposto sobre documentos de ordem de transferência
 
@@ -39,7 +38,7 @@ Para configurar esses dados, você deverá concluir as etapas principais a segui
 
 1. [Habilitar e configurar o recurso de imposto para ordens de transferência](tasks/Tax-feature-support-for-transfer-order.md).
 2. [Criar e configurar vários números de registro de imposto para uma entidade legal](emea-multiple-vat-registration-numbers.md).
-3. Configure o código de isenção, a descrição, as diretivas de imposto e o código de impressão em códigos de imposto. Nesse exemplo, três códigos de imposto são criados e sincronizados no Microsoft Dynamics 365 Finance: **Isento de NL**, **BE-RC-21** e **BE-RC+21**.
+3. Configure o código de isenção, a descrição, as diretivas de imposto e o código de impressão em códigos de imposto. Neste exemplo, três códigos de imposto são criados e sincronizados no Microsoft Dynamics 365 Finance: **Isento de NL**, **BE-RC-21** e **BE-RC+21**.
 
     1. No Finance, acesse **Imposto** \> **Configuração** \> **Imposto** \> **Códigos de isenção de imposto**.
     2. Selecione **Editar** e insira uma descrição para o código de isenção **EC**. Por exemplo, insira **Remessas de EC isentas de imposto com número de registro de imposto**.

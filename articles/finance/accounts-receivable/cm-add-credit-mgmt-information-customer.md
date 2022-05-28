@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753961"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734447"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Adicionar informações de gerenciamento de crédito de clientes
 
@@ -32,7 +32,7 @@ Você pode adicionar os detalhes do cliente na FastTab **Crédito e cobranças**
 1. Defina a opção **Limite de crédito ilimitado** como **Sim** se o cliente não tiver de ser limitado por nenhum teste de limite de crédito.
 2. Defina a opção **Excluir do gerenciamento de crédito** como **Sim** para excluir o cliente das as ações que geralmente ocorrem durante os processos de gerenciamento de crédito.
 3. Selecione o grupo de gerenciamento de crédito para o cliente.
-4. Para calcular o limite de crédito na moeda do cliente, no campo **Limite de crédito na moeda do cliente**, insira o limite de crédito. O limite de crédito na moeda da empresa será convertido usando as taxas de câmbio definidas pelo tipo de taxa de câmbio de limite de crédito selecionado nos parâmetros de gerenciamento de crédito.
+4. Para calcular o limite de crédito na moeda do cliente, no campo **Limite de crédito na moeda do cliente**, insira o limite de crédito. O limite de crédito na moeda da empresa será convertido usando as taxas de câmbio definidas pelo tipo de taxa de câmbio de limite de crédito selecionado nos **parâmetros de gerenciamento de crédito**.
 5. No campo **Data da última revisão**, insira a data em que o limite de crédito do cliente foi revisto pela última vez por um gerente de crédito.
 6. No campo **Data da próxima revisão programada**, insira a data em que o cliente está programado para revisão e atualização de crédito.
 7. No campo **Limite de crédito qualificado**, insira o limite de crédito mais alto que pode ser atribuído ao cliente com base na revisão de seu histórico de crédito. O limite de crédito qualificado pode ser diferente do limite de crédito mostrado na FastTab **Crédito e cobranças**.
@@ -46,7 +46,8 @@ Você pode adicionar os detalhes do cliente na FastTab **Crédito e cobranças**
 15. No campo **Cliente desde**, insira a data em que as primeiras transações do cliente foram processadas. Essas informações são usadas quando são criadas pontuações de risco.
 16. Insira notas que a equipe de crédito possa usar para avaliar ainda mais a confiabilidade de crédito do cliente.
 
-Observe que algumas das informações mostradas na página **Cliente** são criadas por outro processo:
+> [!Note] 
+> Algumas das informações mostradas na página **Cliente** são criadas por outro processo:
 
 - O campo **Data de vencimento de limite de crédito** mostra a data em que o limite de crédito vai vencer. Se você não definir este campo, o limite de crédito do cliente não vencerá.
 - O campo **Data de limite de crédito** mostra a data em que o limite de crédito foi criado. Este campo é atualizado sempre que o limite de crédito é ajustado.

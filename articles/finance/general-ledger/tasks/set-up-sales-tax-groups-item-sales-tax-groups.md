@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c3bf881f0f11d6d21d5f2e9d3132c2bea00b982411c9c5d76ae617b00a69fda
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c461c3d3e9b073b186e68ff1b0453fafe5da80e7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739326"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734857"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Configurar grupos de impostos e grupos de impostos do item
 
 [!include [banner](../../includes/banner.md)]
 
-Esta tarefa de registro mostra a instalação do imposto sobre vendas e grupos de impostos sobre vendas do item. Os grupos de imposto são grupos de códigos de imposto associados a clientes e fornecedores. Eles também são associados a contas contábeis para transações que não são lançadas para um fornecedor ou cliente específico.  Os grupos de impostos sobre vendas do item são grupos de códigos de impostos sobre vendas associados aos recursos de produtos.  Os impostos aplicáveis a uma transação específica são determinados pelos códigos de imposto incluídos no grupo de impostos e no grupo de impostos do item da transação.  Os impostos poderão ser calculados somente se um grupo de impostos e um grupo de impostos do item estiverem selecionados para cada transação cujo imposto precisar ser calculado ou registrado.  
+Esta tarefa de registro mostra a instalação do imposto sobre vendas e grupos de impostos sobre vendas do item. Os grupos de imposto são grupos de códigos de imposto associados a clientes e fornecedores. Eles também são associados a contas contábeis para transações que não são lançadas para um fornecedor ou cliente específico. Os grupos de impostos sobre vendas do item são grupos de códigos de impostos sobre vendas associados aos recursos de produtos. Os impostos aplicáveis a uma transação específica são determinados pelos códigos de imposto incluídos no grupo de impostos e no grupo de impostos do item da transação. Os impostos poderão ser calculados somente se um grupo de impostos e um grupo de impostos do item estiverem selecionados para cada transação cujo imposto precisar ser calculado ou registrado.  
 
 1. Acesse **Painel de navegação > Módulos > Imposto > Impostos indiretos > Imposto > Grupos de imposto**.
 2. Clique em **Novo**.

@@ -1,7 +1,7 @@
 ---
 title: Antes de comprar
 description: Orientações passo a passo que você poderá usar quando estiver considerando a compra do Dynamics 365 Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce.
-author: ShellyBakke
+author: sericks007
 ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.custom: 21761
 ms.search.region: Global
-ms.author: smiller
+ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874575"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713266"
 ---
 # <a name="before-you-buy"></a>Antes de comprar
 
@@ -28,11 +28,11 @@ Novo no Dynamics 365 Finance, Dynamics 365 Supply Chain Management ou Dynamics 3
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Etapa um: Teste gratuitamente o Finance and Operations por 30 dias
 
-Você pode testar o Dynamics 365 for Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce por 30 dias por meio de uma assinatura de email simples. A versão de avaliação dos aplicativos do Finance and Operations inclui guias de tarefas de introdução que contêm instruções passo a passo para você ver cenários específicos em ação. O produto está disponível para os cenários de exploração e de exercícios, mas não pode ser personalizado. Dados de demonstração são incluídos para facilitar o uso do produto e tornar a experiência mais significativa. Um lembrete por email será enviado 3 dias antes da expiração da versão de avaliação. Para mais detalhes, consulte [Inscrever-se em assinaturas de versão preliminar](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+Você pode testar o Dynamics 365 for Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce por 30 dias por meio de uma assinatura de email simples. A versão de avaliação dos aplicativos de finanças e operações inclui guias de tarefas de introdução que fornecem instruções passo a passo que permitem a exibição de cenários específicos em ação. O produto está disponível para os cenários de exploração e de exercícios, mas não pode ser personalizado. Dados de demonstração são incluídos para facilitar o uso do produto e tornar a experiência mais significativa. Um lembrete por email será enviado 3 dias antes da expiração da versão de avaliação. Para mais detalhes, consulte [Inscrever-se em assinaturas de versão preliminar](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Etapa dois: Escolher uma opção de implantação
 
-Agora você pode implantar aplicativos do Finance and Operations na nuvem ou local. As implantações na nuvem oferecem um serviço ERP que é totalmente gerenciado pela Microsoft, enquanto as implantações locais são gerenciadas localmente em um centro de dados de cliente.
+Agora você pode implantar os aplicativos de finanças e operações na nuvem ou local. As implantações na nuvem oferecem um serviço ERP que é totalmente gerenciado pela Microsoft, enquanto as implantações locais são gerenciadas localmente em um centro de dados de cliente.
 
 As seguintes considerações devem ser executadas quando você escolhe locais como uma opção de implantação:
 
@@ -62,13 +62,13 @@ Um provedor de soluções na nuvem da Microsoft pode trabalhar em estreita colab
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Comprar por meio de um parceiro do Dynamics (localmente)
 
-Você deve trabalhar com um parceiro para comprar o Finance and Operations (local). Para obter mais informações, consulte [Comprar o Finance + Operations (local)](purchase-on-premises.md).
+É preciso trabalhar com um parceiro para comprar o Finance and Operations local. Para obter mais informações, consulte [Comprar o Finance + Operations (local)](purchase-on-premises.md).
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Comprar por meio do licenciamento por volume (na nuvem ou local)
 
 Se sua empresa tiver 250 ou mais usuários do Dynamics 365, pode ser que você esteja interessado em um [Contrato de licenciamento por volume](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
-No licenciamento por volume, os aplicativos do Finance and Operations estão disponíveis por meio de:
+No licenciamento por volume, os aplicativos de finanças e operações estão disponíveis por meio de:
 
 - Enterprise Agreement
 - Subscrição do Enterprise Agreement

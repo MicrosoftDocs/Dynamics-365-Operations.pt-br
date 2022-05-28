@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779947"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734419"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779947"
 A contabilização de custos permite obter informações sobre como o fluxo de custo se relaciona os produtos e serviços fornecidos em uma organização. Para ver a transparência de custo, é importante obter a alocação de custo entre objetos de custo de acordo com uma base adequada à alocação. Por padrão, a alocação de custo é obtida para o elemento de custo previsto principal, que é desejado em algumas situações, mas há algumas implicações que devem ser consideradas.
 
 -   Os objetos de custo auxiliares terminarão com saldo zero para o elemento de custo principal após o cálculo de custos indiretos.
-
 -   O volume de entradas de custos geradas por cálculo de custos indiretos pode ser muito alto.
-
 -   Não é possível rastrear o fluxo de custo entre objetos de custo.
 
 Para evitar estas implicações, a contabilização de custos permite configurar a alocação de custo para ajustar-se nos requisitos de geração de relatórios gerenciais da organização. Este tópico discute como você pode determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066591"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733970"
 ---
 # <a name="recruit-job-candidates"></a>Recrutar candidatos ao trabalho
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066591"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-O Dynamics 365 Human Resources ajuda a gerenciar solicitações de recrutamento. Ele também ajuda você a fazer a transição completa de candidatos ao trabalho para funcionários. Se a sua organização usar um aplicativo de recrutamento separado, o processo de recrutamento poderá incluir as seguintes etapas:
+O Dynamics 365 Human Resources ajuda a gerenciar solicitações de recrutamento. Ele também ajuda você a fazer a transição completa de candidatos ao trabalho para funcionários. Se a sua organização usar um aplicativo de recrutamento separado, o processo de recrutamento poderá incluir as seguintes etapas:<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - Insira sua solicitação de recrutamento no Human Resources.
 - Receba indicações de candidatos no Human Resources do aplicativo de recrutamento.
@@ -38,17 +37,22 @@ O Dynamics 365 Human Resources ajuda a gerenciar solicitações de recrutamento.
 Se não estiver usando um aplicativo de recrutamento separado, você também poderá gerenciar candidatos manualmente no Human Resources.
 
 > [!NOTE]
-> Se você for um administrador ou desenvolvedor e quiser integrar o Human Resources com um aplicativo de recrutamento de terceiros, consulte [Configurar integração do Dataverse](hr-admin-integration-common-data-service.md) e [Configurar tabelas virtuais do Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
+> Se você for um administrador ou desenvolvedor e quiser integrar o Human Resources com um aplicativo de recrutamento de terceiros, vá até [Configurar integração do Dataverse](hr-admin-integration-common-data-service.md) e [Configurar tabelas virtuais do Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Também é possível encontrar aplicativos de integração de recrutamento no [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-## <a name="enable-recruiting-requests"></a>Habilitar solicitações de recrutamento
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Habilitar solicitações de recrutamento na infraestrutura mesclada
 
-Se você deseja enviar solicitações de recrutamento no Human Resources, primeiro habilite a funcionalidade em **Parâmetros compartilhados de recursos humanos**.
+Se você quiser enviar solicitações de recrutamento no recrutamento do HR, primeiro habilite os recursos **Experiência do usuário de HR** e **Gerenciamento do processo de recrutamento**.
 
-1. No espaço de trabalho **Gerenciamento de pessoal**, selecione **Links**.
-2. Em **Configuração**, selecione **Parâmetros compartilhados de recursos humanos**.
-3. Na guia **Recrutamento**, em **Recrutamento**, defina **Habilitar solicitações de recrutamento** como **Sim**.
+Depois que os recursos estiverem ativados, selecione a funcionalidade com as seguintes etapas: 
+1. Vá até **Recursos humanos** > **Configuração** > **Parâmetros de recursos humanos**.
+2. Na guia  **Recrutamento** , defina o campo **Recrutamento desabilitado** como **Não**.
+3. Na lista suspensa **Experiência em recrutamento**, selecione **Recrutamento do HR**.   
+
+> [!Note] 
+> Após a seleção de **Recrutamento do HR**, **Projetos de recrutamento** (herdados) serão somente leitura. 
+
 
 ## <a name="add-a-recruiting-request-location"></a>Adicionar um local de solicitação de recrutamento
 
@@ -60,8 +64,8 @@ Se a sua organização tiver vários locais, você poderá adicioná-los de form
 
     ![Adicionar um local de solicitação de recrutamento.](./media/hr-recruit-0a-add-location.png)
 
-4. No campo **Descrição**, insira uma descrição do local.
-5. Em **Local**, selecione **Adicionar**. Se a caixa de diálogo **Novo endereço** aparecer, insira o endereço do local.
+4. Para **Descrição**, insira uma descrição do local.
+5. Em **Local**, selecione **Adicionar**. Se a caixa de diálogo **Novo endereço** aparecer, insira o endereço do local.<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![Inserir endereço.](./media/hr-recruit-0b-address.png)
 
@@ -83,7 +87,7 @@ Os gerentes podem enviar solicitações de recrutamento no Human Resources. Se v
     ![Concluir a solicitação de recrutamento.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Selecione **Continuar**. A solicitação de recrutamento do seu cargo é exibida.
-6. Em **Geral**, selecione um recrutador na lista suspensa **Recrutador** e selecione um local no menu suspenso **Localização da solicitação de recrutamento**.
+6. Em **Geral**, selecione um recrutador na lista suspensa **Recrutador** e selecione um local na lista suspensa **Localização da solicitação de recrutamento**.
 7. Em **Trabalho**, altere as informações conforme necessário e selecione **Criar detalhes do trabalho**.
 
     ![Criar detalhes do trabalho.](./media/hr-recruit-3-create-details-from-job.png)
@@ -91,17 +95,17 @@ Os gerentes podem enviar solicitações de recrutamento no Human Resources. Se v
     O restante da solicitação de recrutamento será preenchido com as informações padrão para o trabalho inserido.
 
 8. Em **Descrição externa**, insira uma descrição de trabalho externa.
-9. Em **Posições**, selecione **Adicionar** e selecione um cargo para essa solicitação de recrutamento.
+9. Em **Posições**, selecione **Adicionar** e selecione um cargo para essa solicitação de recrutamento.<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![Adicionar uma posição.](./media/hr-recruit-4-select-position.png)
 
 10. Em **Habilidades**, selecione **Adicionar** e, depois, uma habilidade.
-11. Em **Requisitos de formação educacional**, selecione **Adicionar** e, depois, selecione os valores das **Educação** e **Nível de formação educacional**.
+11. Em **Requisitos de formação educacional**, selecione **Adicionar** e, depois, selecione os valores dos menus suspensos **Educação** e **Nível de formação educacional**.
 
     ![Adicionar requisitos educacionais.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Em **Comentário**, adicione comentários, conforme necessário.
-13. Em **Remuneração**, selecione um nível no menu suspenso **Nível** e ajuste **Limite baixo**, **Ponto de controle** e **Limite alto**, conforme necessário.
+13. Em **Remuneração**, selecione um nível na lista suspensa **Nível** e ajuste **Limite baixo**, **Ponto de controle** e **Limite alto**, conforme necessário.
 14. Quando sua solicitação de recrutamento for concluída e você estiver pronto para iniciar o processo de recrutamento, selecione **Ativar** na barra de menus.
 
     ![Ativar solicitação de recrutamento.](./media/hr-recruit-6-activate-recruit-request.png)

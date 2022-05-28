@@ -7,7 +7,6 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "221024"
 - intro-internal
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fa4d90d568697526adeef52443a01c3251696bf4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984737"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735713"
 ---
 # <a name="performance-management"></a>Gerenciamento de desempenho
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários.  
+O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários.
 
 Conforme mostrado no diagrama a seguir, há três páginas usadas para gerenciar o processo:
 
@@ -35,7 +34,7 @@ Conforme mostrado no diagrama a seguir, há três páginas usadas para gerenciar
 -   Metas
 -   Avaliação dos resultados
 
-O diagrama a seguir mostra como os componentes principais do gerenciamento de desempenho estão relacionados entre si. [![Visão geral do processo de desempenho.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+O diagrama a seguir mostra como os componentes principais do gerenciamento de desempenho estão relacionados entre si. <!--note from editor: This alt text should describe the relationship among the boxes so a reader with low vision will understand. This will require using the :::image type="complex"::: tag and a long description. -->[![Visão geral do processo de desempenho.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Diário de desempenho
 
@@ -57,7 +56,7 @@ Você também pode vincular o diário de desempenho a um site externo armazenand
 
 ### <a name="send-feedback"></a>Enviar comentários
 
-O diário de desempenho contém um recurso adicional, **Enviar comentários**. Ao clicar em **Enviar comentário**, você pode selecionar um funcionário e fornecer comentários a ele por email. A mensagem é enviada ao funcionário que está recebendo o comentário, ao gerente desse funcionário, ao funcionário que está enviando o comentário e ao gerente desse funcionário. Uma entrada no diário de desempenho é criada para cada pessoa que recebe a mensagem do comentário.
+O diário de desempenho contém um recurso adicional, **Enviar comentários**. Ao selecionar **Enviar comentário**, você pode escolher um funcionário e fornecer comentários a ele por email. A mensagem é enviada ao funcionário em relação ao qual os comentários estão relacionados<!--note from editor: Suggested-->, o gerente desse funcionário, o funcionário que está enviando os comentários e o gerente desse funcionário. Uma entrada no diário de desempenho é criada para cada pessoa que recebe a mensagem do comentário.
 
 ## <a name="goals"></a>Metas
 
@@ -72,11 +71,11 @@ Uma meta básica deve incluir as seguintes informações:
 
 Você também pode especificar uma categoria de meta para ajudar a organizá-las. Os gerentes também verão o nome da pessoa a quem a meta está atribuída. 
 
-Se tiver instruções mais detalhadas para uma meta, você poderá criar tópicos de meta. Esses tópicos incluem um título e uma descrição. Você pode incluir quantos tópicos forem necessários para ajudar a garantir que os detalhes da meta estejam claros para o funcionário e para o gerente. Os funcionários e os gerentes também podem inserir comentários sobre o progresso das metas. 
+Se tiver instruções mais detalhadas para uma meta, você poderá criar tópicos de meta. Esses tópicos incluem um título e uma descrição. Você pode incluir quantos tópicos forem necessários para ajudar a garantir que os detalhes da meta estejam claros para o funcionário e para o gerente. O funcionário e o gerente também podem inserir comentários sobre o andamento das metas. 
 
 As metas geralmente têm resultados mensuráveis. Você pode adicionar medidas para monitorar os resultados da meta de destino e os resultados reais. Se a medida for uma meta de longo prazo, você poderá marcar a medida usando a opção **Alongar meta**. 
 
-Seu diário de desempenho conterá as atividades que fornecem mais informações a seu gerente sobre como você alcançou a meta. Se você vinculou um diário de desempenho à meta, ele aparecerá na seção **Atividades** dessa meta. Você também pode adicionar um novo diário de desempenho a partir da página **Metas de desempenho**. O diário de desempenho será automaticamente vinculado à meta. 
+Seu diário de desempenho descreverá<!--note from editor: Suggested.--> as atividades que fornecem mais informações a seu gerente sobre como você alcançou a meta. Se você vinculou um diário de desempenho à meta, ele aparecerá na seção **Atividades** dessa meta. Você também pode adicionar um novo diário de desempenho a partir da página **Metas de desempenho**. O diário de desempenho será automaticamente vinculado à meta. 
 
 Se você quiser anexar um documento à meta, como um certificado de conclusão, poderá anexá-lo na seção **Anexos** da página **Metas de desempenho**. É fornecido um visualizador de documentos para que você possa exibir rapidamente o conteúdo de qualquer documento anexado. 
 
@@ -84,9 +83,9 @@ Você pode criar um modelo a partir de uma meta e depois usar o modelo para cria
 
 ## <a name="performance-reviews"></a>Revisões de desempenho
 
-As revisões de desempenho são conhecidas mais formalmente como discussões. Elas agora são flexíveis o suficiente para dar suporte a comentários contínuos, planos de desenvolvimento e revisões mais formais. Você pode criar rapidamente pequenas reuniões para duas pessoas, como uma reunião particular ou pode criar uma revisão mais complexa que corresponda ao processo de revisão da empresa. 
+As revisões de desempenho são conhecidas mais formalmente como discussões. Elas agora são flexíveis o suficiente para dar suporte a comentários contínuos, planos de desenvolvimento e revisões mais formais. Você pode criar rapidamente pequenas reuniões para duas pessoas<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> ou você pode criar uma revisão mais complexa que corresponda ao processo de revisão de sua empresa. 
 
-Uma reunião, como uma individual, é uma revisão simples e requer um nome curto, uma descrição mais longa do conteúdo da reunião e a data em que ocorrerá, além do período de revisão que está sendo discutido. Os gerentes também verão o nome da pessoa para quem a revisão foi criada. 
+Uma reunião, como uma individual, é uma revisão simples que requer um nome curto, uma descrição mais longa do conteúdo da reunião e a data em que ocorrerá, além do período de revisão que está sendo discutido. Os gerentes também verão o nome da pessoa para quem a revisão foi criada. 
 
 Para revisões mais detalhadas, você pode obter as metas ativas e as concluídas e inserir comentários sobre elas. Todas as atividades e medidas do diário de desempenho que estão relacionadas a uma meta serão exibidas na revisão. Depois que a revisão for finalizada, um instantâneo das medidas será armazenado para manter o histórico desses itens no momento da revisão. 
 
@@ -97,7 +96,7 @@ Você pode criar novas revisões baseadas nos modelos que você criou. Por exemp
 Para imprimir revisões, selecione o botão **Imprimir revisão**. Se você não vir o botão na página **Revisão**, certifique-se de ter habilitado o recurso no espaço de trabalho **Gerenciamento de recursos**. Para obter mais informações sobre o Gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
-> A capacidade de imprimir revisões de desempenho só está disponível em Recursos Humanos. Não está disponível no Dynamics 365 Finance.
+> A capacidade de imprimir revisões de desempenho só está disponível em Recursos Humanos. Ele não está disponível no Dynamics 365 Finance
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Componentes que podem ser incluídos em revisões de desempenho
 
@@ -105,7 +104,7 @@ Você poderá incluir vários tipos de informações em revisões de desempenho.
 
 ### <a name="review-detail"></a>Detalhes da revisão
 
-Você pode obter suas metas nos detalhes da revisão e fazer comentários sobre elas. Você também pode configurar competências e fazer comentários sobre elas.
+Você pode extrair suas metas nos detalhes da revisão e fazer comentários sobre elas. Você também pode configurar competências e fazer comentários sobre elas.<!--note from editor: Suggested, in the spirit of using the fewest words to say the same thing.-->
 
 ### <a name="measurements"></a>Medições
 
@@ -115,13 +114,13 @@ Você pode obter suas metas nos detalhes da revisão e fazer comentários sobre 
 
 Você pode mostrar itens do diário de desempenho que estejam relacionados à revisão. Você também pode adicionar um diário de desempenho que será automaticamente vinculado à revisão.
 
-### <a name="ratings"></a>Classificações
+### <a name="ratings"></a>Avaliações
 
 Você pode aplicar uma classificação a qualquer meta ou competência que esteja na revisão. É possível definir os modelos de classificação para cada revisão. Os padrões para as classificações estão na página **Parâmetros compartilhados de recursos humanos**, em **Desempenho**.
 
 ### <a name="sign-offs"></a>Aprovações
 
-O funcionário e/ou o gerente serão listados na revisão com base nos parâmetros da revisão que você definiu. As revisões podem ser necessárias ou opcionais. Assim que todas as aprovações forem feitas, a revisão será marcada com o status de **Concluída**.
+O funcionário e/ou o gerente serão listados na revisão com base nos parâmetros da revisão que você definiu. As revisões podem ser necessárias ou opcionais. Após<!--note from editor: Via Writing Style Guide.--> todas as aprovações forem feitas, a revisão será marcada com o status de **Concluída**.
 
 ### <a name="attachments"></a>Anexos
 
@@ -129,33 +128,33 @@ Você pode anexar um documento à uma revisão na seção **Anexos** da página 
 
 ## <a name="workflow-for-performance-management"></a>Fluxo de trabalho para o gerenciamento de desempenho
 
-Você pode usar o fluxo de trabalho de revisão do trabalhador para controlar a aprovação de uma revisão. Você também pode optar por ignorar o fluxo de trabalho automatizado e alterar manualmente o status da revisão, que permite criar documentos mais simples, como uma revisão individual, sem precisar usar o processo de fluxo de trabalho. O acesso a uma revisão é controlado pelo status dela.
+Você pode usar o fluxo de trabalho de revisão do trabalhador para controlar a aprovação de uma revisão. Você também pode optar por ignorar o fluxo de trabalho automatizado e alterar manualmente o status da revisão, que permite criar documentos mais simples, como uma revisão individual, sem precisar usar o processo de fluxo de trabalho. O acesso a uma revisão é controlado pelo status dela, da seguinte forma:<!--note from editor: Suggested as an intro to the list.-->
 
 1.  Quando a revisão é criada, ela é definida como **Não iniciada**. A revisão é editável por qualquer pessoa.
 
-2.  Assim que o funcionário pressionar o botão **Iniciar revisão**, a revisão será definida como **Em andamento**. O funcionário então começa a adicionar conteúdo. A partir daí, o gerente não poderá mais exibir o documento de revisão.
+2.  Depois que o funcionário selecionar **Iniciar revisão**, a revisão será definida como **Em andamento**. O funcionário então começa a adicionar conteúdo. A partir daí, o gerente não poderá mais exibir o documento de revisão.
 
 3.  O funcionário altera o status para **Pronto para Revisão**.
 
 4.  O gerente pode adicionar comentários e classificações. Neste momento, somente o gerente poderá ver a revisão.
 
-5.  O gerente altera o status para **Revisão Final**, para que o gerente e o funcionário possam ver a revisão e conversar sobre ela. Você pode especificar nos parâmetros se a revisão pode ou não ser editada a partir desse ponto. Esta etapa também é opcional se o gerente deseja apenas compartilhar a revisão com funcionário e marcá-la como **Concluída** quando terminarem.
+5.  O gerente altera o status para **Revisão Final**, para que o gerente e o funcionário possam ver a revisão e conversar sobre ela. Você pode especificar nos parâmetros se a revisão pode ser editada a partir desse ponto. Esta etapa também é opcional se o gerente deseja apenas compartilhar a revisão com funcionário e marcá-la como **Concluída** quando terminarem.
 
 6.  Depois que as aprovações forem concluídas, o status será alterado para **Concluída**. Neste momento, a revisão não poderá ser alterada.
 
 O fluxo de trabalho de revisão do trabalhador tem dois elementos:
 
-1.  Aprovar revisão. Adicione este elemento para controlar a alteração do status de **Em andamento** para **Pronto para Revisão**. Altere a atribuição para usar a hierarquia administrativa em que o nível de gerente de Employee.line seja = 1.
+1.  Aprovar revisão. Adicione este elemento para controlar a alteração do status de **Em andamento** para **Pronto para Revisão**. Altere a atribuição para usar a hierarquia administrativa em que **o nível de gerente de Employee.line seja = 1**.<!--note from editor: Edit assumes that this is a UI string. -->
 
-2.  Revisão final. Adicione este elemento para controlar a alteração do status de **Pronto para Revisão** para **Revisão Final**. Modifica a atribuição para usar a hierarquia administrativa onde o nível do gerente de Employee.line = 1 se desejar que o gerente aprove a revisão final. Altere a atribuição para Fluxo de trabalho do usuário se você quiser que o funcionário aprove-a. Se quiser que o gerente e o funcionário aprovem a revisão, adicione as duas etapas ao fluxo de trabalho e faça a atribuição apropriada para cada etapa na ordem que você quiser que as aprovações sigam.
+2.  Revisão final. Adicione este elemento para controlar a alteração do status de **Pronto para Revisão** para **Revisão Final**. Modifica a atribuição para usar a hierarquia administrativa onde **o nível do gerente de Employee.line = 1** se desejar que o gerente aprove a revisão final. Altere a atribuição para **Fluxo de trabalho do usuário** se você quiser que o funcionário aprove-a. Se quiser que o gerente e o funcionário aprovem a revisão, adicione as duas etapas ao fluxo de trabalho e faça a atribuição apropriada para cada etapa na ordem que você quiser que as aprovações sigam.<!--note from editor: I like this, so succinct.-->
 
-## <a name="setup"></a>Configurar
+## <a name="setup"></a>Configuração
 
-Há três páginas que ajudam a definir as informações necessárias para concluir o processo de desempenho: **Medidas**, **Tipos de origem do diário de desempenho** e **Tipos de revisão**.
+Três páginas<!--note from editor: Suggested, to avoid "there are" (via Writing Style Guide).--> ajudam a definir as informações necessárias para concluir o processo de desempenho: **Medidas**, **Tipos de origem do diário de desempenho** e **Tipos de revisão**.
 
 ### <a name="measurements"></a>Medições
 
-A página **Medidas** permite que você crie as medidas padrão que serão usadas nas páginas **Metas de desempenho** e **Revisões**. Você pode criar medidas que sejam datas, valores, quantidades, porcentagens ou medições baseadas em um modelo de classificação.
+Use a página **Medidas** para<!--note from editor: Via Writing Style Guide, https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=35221--> criar as medidas padrão que serão usadas nas páginas **Metas de desempenho** e **Revisões**. Você pode criar medidas que sejam datas, valores, quantidades, porcentagens ou medições baseadas em um modelo de classificação.
 
 ### <a name="performance-journal-source-types"></a>Tipos de origem do diário de desempenho
 

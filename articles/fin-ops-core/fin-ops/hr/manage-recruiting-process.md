@@ -1,31 +1,31 @@
 ---
 title: Gerenciar processos de recrutamento
 description: Este tópico descreve um conceito que os recrutadores podem usar para rastrear as etapas em um processo de recrutamento.
-author: andreabichsel
+author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075466"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735364"
 ---
 # <a name="manage-recruiting-processes"></a>Gerenciar processos de recrutamento
 
 > [!IMPORTANT]
-> A funcionalidade mencionada neste tópico está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
+> A funcionalidade de recrutamento neste tópico será referida como Projetos de recrutamento e se concentra em candidatos, solicitações de emprego e projetos de recrutamento. 
 
 
 Este tópico descreve um conceito que os recrutadores podem usar para controlar as etapas em um processo de recrutamento, incluindo os esforços para anunciar posições em aberto e para recrutar candidatos, rastrear informações sobre o candidato e sobre a solicitação de emprego, entrevistar candidatos e selecionar um ou mais candidatos para preencher as vagas em sua organização.

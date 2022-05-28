@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38b7371ab668eb76801fbe7f15894609a846bbd8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734418"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687659"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Configurar funcionários de manutenção preferenciais
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Durante o agendamento da ordem de serviço, você pode criar uma preferência em relação a qual funcionário de manutenção ou grupo de funcionários está alocado para concluir a ordem de serviço. O uso dessa funcionalidade é opcional, mas pode ajudá-lo a escolher o funcionário de manutenção mais qualificado para concluir um trabalho, com base nas habilidades e competências do funcionário. Apenas os funcionários de manutenção disponíveis no momento do agendamento serão agendados. Se uma configuração preferencial do funcionário de manutenção corresponder a uma ordem de serviço durante o agendamento, mas o funcionário de manutenção estiver alocado para outros trabalhos, a ordem de serviço será agendada para outro funcionário de manutenção disponível.
 
@@ -51,13 +49,15 @@ Quanto mais seleções você fizer no mesmo registro, mais específica será sua
 
 3. Comece criando um funcionário de manutenção ou grupo de funcionários "padrão". Isso significa que você só faz uma seleção no campo **Grupo de funcionários de manutenção preferenciais** ou **Funcionário de manutenção preferencial**. Na captura de tela abaixo, é exibido um exemplo no primeiro registro em que "Solicitações" está selecionado como **Grupo de funcionários de manutenção preferencial**.
 
-    [!NOTE] A configuração padrão será usada durante o agendamento da ordem de serviço caso nenhuma outra combinação mais específica corresponda ao conteúdo da ordem de serviço.
+    > [!NOTE]
+    > A configuração padrão será usada durante o agendamento da ordem de serviço caso nenhuma outra combinação mais específica corresponda ao conteúdo da ordem de serviço.
 
 4. Repita a etapa 2 para criar um novo registro. Faça seleções necessárias, dependendo do nível de detalhe do funcionário ou grupo de funcionários preferenciais. 
 
     *Exemplo:* na captura de tela a seguir, no sexto registro, o funcionário de manutenção Shawn Richardson foi selecionado como funcionário preferencial. Ele será selecionado automaticamente durante o agendamento de uma ordem de serviço que inclua o ativo "CH-BP1-03-02" e o tipo de trabalho de manutenção "Avaliação de instalações", se ele estiver disponível no horário agendado.
 
-    [!NOTE] Geralmente, quando um funcionário de manutenção preferencial é selecionado durante o agendamento da ordem de serviço, o Gerenciamento de Ativos passa por todos os registros de **Funcionários de manutenção preferenciais** verifica a existência uma correspondência possível, verificando sempre a combinação mais específica primeiro. Se nenhuma correspondência for encontrada, o registro "padrão" com uma seleção no campo **Grupo de funcionários de manutenção preferenciais** ou o campo **Funcionário de manutenção preferencial** é usado.
+    > [!NOTE]
+    > Geralmente, quando um funcionário de manutenção preferencial é selecionado durante o agendamento da ordem de serviço, o Gerenciamento de Ativos passa por todos os registros de **Funcionários de manutenção preferenciais** verifica a existência uma correspondência possível, verificando sempre a combinação mais específica primeiro. Se nenhuma correspondência for encontrada, o registro "padrão" com uma seleção no campo **Grupo de funcionários de manutenção preferenciais** ou o campo **Funcionário de manutenção preferencial** é usado.
 
 ![Figura 1.](media/02-work-order-scheduling.png)
 

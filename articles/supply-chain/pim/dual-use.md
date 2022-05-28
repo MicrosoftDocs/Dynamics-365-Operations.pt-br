@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570744"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736023"
 ---
 # <a name="dual-use-goods"></a>Mercadorias de uso duplo
 
@@ -34,7 +34,7 @@ Considere o cenário a seguir:
 2. A página **Detalhes do produto liberado** do produto X-100 indica que ele é uma mercadoria de uso duplo. Juntos, o código, a categoria, o grupo e o regime indicam a classificação do controle de exportações à qual o produto pertence.
 3. A página **Certificados de uso duplo** inclui um certificado para o produto X-100 quando ele é enviado à França. Esse certificado expira em 1º de janeiro de 2020.
 4. Em 17 de junho de 2020, você cria uma ordem de venda para uma empresa de cliente sediada na França e a ordem inclui o produto X-100.
-5. Quando você salva a ordem de venda, o sistema determina as seguintes informações:
+5. Quando você confirma a ordem de venda, o sistema determina as seguintes informações:
 
     1. A ordem inclui algum produto que seja uma mercadoria de uso duplo?
     2. Se a ordem incluir mercadorias de uso duplo, o país de destino exigirá certificados de uso duplo?

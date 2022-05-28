@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5062cfc7ce47a2356c72462da805e8d0d6a756
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714626"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727780"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definições da árvore de relatórios em relatórios financeiros
 
@@ -101,7 +101,7 @@ Quando usa uma árvore de relatório, você pode agregar valores de unidades de 
     > Especificar dimensões para unidades filho e unidades pai pode causar a duplicação de dados no relatório.
 
 - As unidades de relatório que contêm dimensões na árvore de relatório correspondem às dimensões que são usadas nas definições de linha e coluna. A combinação de dimensões determina os valores retornados para essa unidade. Por exemplo, no exemplo 2 posteriormente neste artigo, as linhas 6 e 7 devolvem valores apenas para departamentos 00 e 01, respectivamente.
-- Os valores das unidades de relatório pai que não contêm dimensões na árvore do relatório são determinados a partir do relatório de unidade filho e acumulam o valor para a unidade pai especificada. Por exemplo, se a unidade pai (consulte Contoso EUA no exemplo 2 de exemplos de acúmulo de dados) tiver duas unidades filho (022 e 023) e não contiver dimensões, será gerado um relatório para cada filho e o pai. O total de pai é a soma dos dois valores filho.
+- Os valores das unidades de relatório pai que não contêm dimensões na árvore do relatório são determinados a partir do relatório de unidade filho e acumulam o valor para a unidade pai especificada. Por exemplo, se a unidade pai (consulte Contoso EUA no exemplo 2 dos exemplos de acúmulo de dados) tiver duas unidades filhos (022 e 023) e não contiver dimensões, será gerado um relatório para cada filho e o pai. O total de pai é a soma dos dois valores filho.
 
 ### <a name="manage-reporting-units"></a>Gerenciar unidades de relatório
 
@@ -165,18 +165,18 @@ Você pode impedir que certos usuários e grupos acessem uma unidade de relatór
 
 Aqui está a estrutura das unidades de relatório na árvore de relatórios a seguir:
 
-- A unidade de relatório da Contoso Japão é uma unidade pai das unidades filho de Vendas da Contoso Japão e de Consultoria da Contoso Japão.
-- A unidade de divisão de Vendas da Contoso Japão é uma unidade filho da unidade Contoso Japão e uma unidade pai das unidades de Vendas Locais e de Vendas de Auto.
+- A unidade de emissão de relatórios de Contoso Japão é uma unidade pai das unidades filho de Contoso Japão vendas e consultoria da Contoso Japão.
+- A unidade de divisão de Vendas Contoso Japão é uma unidade filho da unidade Contoso Japão e uma unidade pai nas unidades de Vendas Locais e de Vendas de Auto.
 - As unidades de relatório de detalhe de nível inferior (Vendas locais, vendas de auto, serviços do cliente e operações) representam departamentos nos dados financeiros. Essas unidades de relatório estão na área sombreada do diagrama.
 - As unidades de resumo de nível superior resumem informações das unidades de detalhes.
 
-[![Estrutura de Relatório de Resumo da Contoso - Exemplo 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Estrutura de Relatório de Resumo da Contoso – Exemplo 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Estrutura da unidade de relatório - Exemplo 2
 
 O diagrama a seguir mostra uma árvore de relatório que exibe uma estrutura organizacional que é dividida pela função de negócios.
 
-[![Estrutura de Relatório de Resumo da Contoso - Exemplo 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Estrutura de Relatório de Resumo da Contoso – Exemplo 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Exemplo da caixa de diálogo Inserir Unidades de Relatório de Dimensões
 

@@ -2,7 +2,7 @@
 title: Domínios no Dynamics 365 Commerce
 description: Este tópico descreve como os domínios são tratados no Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733982"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737337"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domínios no Dynamics 365 Commerce
 
@@ -28,6 +28,9 @@ ms.locfileid: "6733982"
 Este tópico descreve como os domínios são tratados no Microsoft Dynamics 365 Commerce.
 
 Os domínios são endereços da Web usados para navegar até sites do Dynamics 365 Commerce em um navegador da Web. Você controla o gerenciamento do seu domínio com um provedor DNS (Servidor de Nomes de Domínio) escolhido. Os domínios são referenciados no construtor de sites do Dynamics 365 Commerce para coordenar como um site será acessado quando publicado. Este tópico examina como os domínios são tratados e referenciados ao longo do ciclo de vida de desenvolvimento e lançamento de sites do Commerce.
+
+> [!NOTE]
+> A partir de 6 de maio de 2022, todos os ambientes criados no Dynamics 365 Commerce serão provisionados com o domínio `.dynamics365commerce.ms`, substituindo o padrão anterior de `.commerce.dynamics.com`. Ambientes existentes provisionados com o domínio `.commerce.dynamics.com` continuarão funcionando.
 
 ## <a name="provisioning-and-supported-host-names"></a>Provisionamento e nomes de host com suporte
 
@@ -44,7 +47,7 @@ Você pode criar uma solicitação de serviço para adicionar outros domínios a
 
 ## <a name="commerce-generated-urls"></a>URLs geradas pelo Commerce
 
-Ao provisionar um ambiente de comércio eletrônico do Dynamics 365 Commerce, o Commerce gerará uma URL que será o endereço funcional do ambiente. Essa URL é referenciada no link do site de comércio eletrônico mostrado no LCS depois que o ambiente é provisionado. Uma URL gerada pelo Commerce está no formato `https://<e-commerce tenant name>.commerce.dynamics.com`, em que o nome do locatário de comércio eletrônico é o nome inserido no LCS para o ambiente do Commerce.
+Ao provisionar um ambiente de comércio eletrônico do Dynamics 365 Commerce, o Commerce gerará uma URL que será o endereço funcional do ambiente. Essa URL é referenciada no link do site de comércio eletrônico mostrado no LCS depois que o ambiente é provisionado. Uma URL gerada pelo Commerce está no formato `https://<e-commerce tenant name>.dynamics365commerce.ms`, em que o nome do locatário de comércio eletrônico é o nome inserido no LCS para o ambiente do Commerce.
 
 Você também pode usar nomes de host de sites de produção em um ambiente de área restrita. Essa opção é ideal para copiar um site de um ambiente de área restrita para produção.
 
@@ -67,11 +70,11 @@ A caixa **Caminho** pode ser deixada em branco ou outra cadeia de caracteres de 
 
 Por exemplo, se você tiver um site no construtor de sites chamado "fabrikam" em um locatário de comércio eletrônico chamado "xyz" e configurar o site com um caminho em branco, poderá acessar o conteúdo do site publicado em um navegador da Web acessando diretamente a URL base gerada pelo Commerce:
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 Como alternativa, se tivesse adicionado um caminho de "fabrikam" durante a configuração do mesmo site, você acessaria o conteúdo do site publicado em um navegador da Web usando a seguinte URL:
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>Páginas e URLs
 
@@ -92,16 +95,16 @@ Os valores dos nomes de host com suporte estão disponíveis para serem associad
 Ao trabalhar com sites no construtor de sites, se houver dois sites configurados com dois domínios diferentes, você poderá acrescentar o atributo **?domain=** à sua URL funcional para acessar o conteúdo do site publicado em um navegador.
 
 Por exemplo, o ambiente "xyz" foi provisionado e dois sites foram criados e associados no construtor de sites: um com o domínio `www.fabrikam.com` e outro com o domínio `www.constoso.com`. Cada site foi configurado usando um caminho em branco. Esses dois sites puderam então ser acessados em um navegador da Web da seguinte maneira usando o atributo **?domain=**:
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Quando uma cadeia de caracteres de consulta de domínio não é fornecida em um ambiente com vários domínios fornecidos, o Commerce usa o primeiro domínio fornecido. Por exemplo, se o caminho "fabrikam" foi fornecido primeiro durante a configuração do site, a URL `https://xyz.commerce.dynamics.com` pode ser usada para acessar o conteúdo do site publicado para `www.fabrikam.com`.
+Quando uma cadeia de caracteres de consulta de domínio não é fornecida em um ambiente com vários domínios fornecidos, o Commerce usa o primeiro domínio fornecido. Por exemplo, se o caminho "fabrikam" foi fornecido primeiro durante a configuração do site, a URL `https://xyz.dynamics365commerce.ms` pode ser usada para acessar o conteúdo do site publicado para `www.fabrikam.com`.
 
 ## <a name="traffic-forwarding-in-production"></a>Encaminhamento de tráfego na produção
 
-Você pode simular vários domínios usando parâmetros de cadeias de caracteres de consulta de domínio no próprio ponto de extremidade commerce.dynamics.com. No entanto, quando você precisar ficar ativo na produção, deverá encaminhar o tráfego do seu domínio personalizado para o ponto de extremidade `<e-commerce tenant name>.commerce.dynamics.com`.
+Você pode simular vários domínios usando parâmetros de cadeias de caracteres de consulta de domínio no próprio ponto de extremidade commerce.dynamics.com. No entanto, quando você precisar ficar ativo na produção, deverá encaminhar o tráfego do seu domínio personalizado para o ponto de extremidade `<e-commerce tenant name>.dynamics365commerce.ms`.
 
-O ponto de extremidade `<e-commerce tenant name>.commerce.dynamics.com` não oferece suporte a protocolos SSL de domínios personalizados, portanto, você deve configurar esses domínios usando um serviço de front door ou uma CDN (rede de distribuição de conteúdo). 
+O ponto de extremidade `<e-commerce tenant name>.dynamics365commerce.ms` não oferece suporte a protocolos SSL de domínios personalizados, portanto, você deve configurar esses domínios usando um serviço de front door ou uma CDN (rede de distribuição de conteúdo). 
 
 Para configurar domínios personalizados usando um serviço de front door ou uma CDN, você tem duas opções:
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921190"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734148"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Criar uma sequência de cartas de cobrança
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921190"
 
 Use este procedimento para criar uma sequência de cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
 
-1. No Painel de navegação, Acesse **Módulos > Crédito e coleções > Configuração > Configurar sequência de cartas de cobrança**.
+1. Vá para **Crédito e coleções > Configuração > Configurar sequência de carta de coleção**.
 2. Clique em **Novo**.
 3. No campo **Sequência de cartas de cobrança**, insira uma ID de sequência que representará a sequência. Será usada ao configurar um perfil de lançamento.
-4. No campo **Descrição**, digite um valor.  As condições de pagamento são opcionais. Se você inserir um valor aqui, a nota fiscal da taxa de carta de cobrança usará essas condições de pagamento em vez das condições de pagamento estocadas com o cliente.  
+4. No campo **Descrição**, digite um valor. As condições de pagamento são opcionais. Se você inserir um valor aqui, a nota fiscal da taxa de carta de cobrança usará essas condições de pagamento em vez das condições de pagamento estocadas com o cliente.  
 5. No campo **Código da carta de cobrança**, selecione o código para a primeira carta de cobrança a ser enviada. A primeira carta de cobrança é criada de acordo com a data de vencimento na fatura, o valor inserido para o período de carência no campo Dias nessa linha e outras informações inseridas nessa linha.  
 6. No campo **Descrição**, digite um valor. 
 7. A moeda padrão do valor é a moeda da entidade legal. O código da moeda pode ser diferente da moeda da nota fiscal.   
@@ -52,9 +52,9 @@ Use este procedimento para criar uma sequência de cartas de cobrança. Esta tar
 22. Na lista, clique no link na linha selecionada.
 23. No campo **Saldo atrasado mínimo**, insira um número.
 24. No campo **Dias**, insira um número.
-25. Marque a caixa de seleção **Bloquear** para que o cliente não receba mais entregas e faturas. Para desbloquear a conta, selecione **Não** no campo Faturamento e entrega em espera na página Clientes.  
+25. Marque a caixa de seleção **Bloquear** para que o cliente não receba mais entregas e faturas. Para desbloquear a conta, selecione **Não** no campo **Faturamento e entrega em espera** na página **Clientes**.  
 26. Expanda a Guia Rápida **Nota**.
-27. Digite o texto a ser exibido na carta de cobrança para o código de carta de cobrança selecionado. Você pode traduzir esse texto nos vários idiomas usando o menu das traduções acima da caixa da nota.  
+27. Digite o texto a ser exibido na carta de cobrança para o código de carta de cobrança selecionado. Você pode traduzir esse texto nos vários idiomas usando o menu **Traduções** acima da caixa da nota.  
 
 
 

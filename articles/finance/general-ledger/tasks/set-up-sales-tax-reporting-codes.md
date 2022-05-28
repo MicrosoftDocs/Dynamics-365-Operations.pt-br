@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728736"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734829"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Configurar códigos de relatório de imposto
 
 [!include [banner](../../includes/banner.md)]
 
-Os Códigos de relatório de imposto fazem referência a um número listado um relatório de imposto. Eles são usados em layouts de relatório específicos de um país/região. Eles também são usados no relatório Pagamento de imposto por código. Esse relatório mostra os valores de imposto para um período de liquidação resumido para cada código de relatório. Depois que você criar os Códigos de relatórios de imposto, poderá fazer referência a eles nas Guias Rápidas Configuração de relatório, que podem ser acessadas na página **Código de imposto**. 
+Os **Códigos de relatório de imposto** fazem referência a um número listado um relatório de imposto. Eles são usados em layouts de relatório específicos de um país/região. Eles também são usados no relatório Pagamento de imposto por código. Esse relatório mostra os valores de imposto para um período de liquidação resumido para cada código de relatório. Depois que você criar os **Códigos de relatórios de imposto**, poderá fazer referência a eles nas Guias Rápidas **Configuração de relatório**, que podem ser acessadas na página **Código de imposto**. 
 
 Este registro usa a empresa de dados de demonstração DEMF.
 

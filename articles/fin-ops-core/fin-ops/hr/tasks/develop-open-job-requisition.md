@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e3287fc824f2f7eb725b11c990a1c457d45439f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 364117133cb7a868e613088b14a33869fd9fedb1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075140"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735336"
 ---
 # <a name="develop-and-open-job-requisition"></a>Desenvolver e abrir requisição de trabalho aberta
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> A funcionalidade mencionada neste tópico está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
+> A funcionalidade de recrutamento neste tópico será referida como Projetos de recrutamento e se concentra em candidatos, solicitações de emprego e projetos de recrutamento.  
 
 
 Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento. Para cada projeto de recrutamento, você pode configurar informações, como o trabalho para o qual você está fazendo o recrutamento, o nome do recrutador, o status do projeto e o departamento onde o será feito o trabalho. Depois de criar um projeto de recrutamento, você poderá criar um anúncio de emprego para o projeto, publicar o anúncio de emprego na página **Autoatendimento do funcionário**, associar solicitações de emprego ao projeto e rastrear atividades para aquele projeto. A empresa de dados de demonstração **USMF** foi usada para criar este procedimento.

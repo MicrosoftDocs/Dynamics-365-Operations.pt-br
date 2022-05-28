@@ -13,20 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075364"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734650"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Contratar candidato por meio de recrutamento
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> A funcionalidade mencionada neste tópico está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
-
+> A funcionalidade de recrutamento neste tópico será referida como Projetos de recrutamento e se concentra em candidatos, solicitações de emprego e projetos de recrutamento.  
 
 Este procedimento permite que um recruta contrate um candidato que envia uma solicitação de emprego em um projeto de recrutamento específico. Ao contratar um candidato em um projeto de recrutamento, um novo registro de trabalhador será criado e o registro do candidato terá um status **Empregado**. A empresa de dados de demonstração **USMF** foi usada para criar este procedimento.
 

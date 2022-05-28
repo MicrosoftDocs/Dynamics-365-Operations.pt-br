@@ -1,6 +1,6 @@
 ---
-title: Visão geral da transferência de crédito SEPA
-description: Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito.
+title: Visão geral de transferência de crédito SEPA
+description: Este tópico fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "11124"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc37dde8829abdd26a224adbd788538834f4d320
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984018"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734506"
 ---
-# <a name="sepa-credit-transfer-overview"></a>Visão geral da transferência de crédito SEPA
+# <a name="sepa-credit-transfer-overview"></a>Visão geral de transferência de crédito SEPA
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito.
+Este tópico fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito.
 
 ## <a name="what-is-a-credit-transfer-message"></a>O que é uma mensagem de transferência de crédito?
 A mensagem de transferência de crédito é uma solicitação que um participante iniciante (empresa) envia para mover fundos da conta a um credor. Há muitas implementações específicas de país/região e banco de mensagens de transferência de crédito. Algumas são utilizadas dentro de um país/região, e outras estão se tornando padrão. Um padrão global bem estabelecido é o ISO 20022 e suas mensagens de iniciação, como a transferência de crédito. A ilustração a seguir mostra as relações e a cobertura para as mensagens de transferência de crédito selecionadas. 
@@ -50,7 +50,7 @@ O EPC, que consiste em bancos europeus, desenvolve as estruturas comerciais e t�
 Uma transferência de crédito de SEPA é um pagamento de uma empresa ou pessoa para outra empresa ou pessoa. Os pagamentos devem estar em euros, e devem incluir o número de conta bancária internacional (IBAN) e o código (BIC) do banco para ambas as partes. (BIC também é conhecido como código Society for Worldwide Interbank Financial Telecommunication \[SWIFT\].) Além disso, os custos da transação devem ser compartilhados entre os participantes. As transferências de crédito que ocorrem entre as partes devem usar arquivos XML que estejam de acordo com os padrões de processamento de pagamento ISO 20022 e o formato XML, conforme especificado pelo EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Como uma transferência de crédito é implementada?
-O formato de pagamento de transferência de crédito para países europeus é implementado usando os recursos ER (Relatórios Eletrônicos) e Métodos de pagamento no Microsoft Dynamics 365 Finance. Alguns formatos de transferência de crédito usados em outras regiões não usam a estrutura de pagamento herdada. Entre muitos outros formatos, existem dize formatos de arquivo de transferência de crédito ISO 20022 disponíveis. Esses formatos de exportação estão em conformidade com o padrão ISO 20022 XML do SEPA. São usados para gerar transferências de pagamento de uma moeda diferente do euro para países/regiões onde são usados e pagamentos em euro conforme especificado na versão 8.2 da Regulamentação do Esquema de Transferência de Crédito do SEPA que a EPC publica. Antes que você possa implementar a transferência de crédito, você deve entrar em contato com o banco para obter o software que é necessário para carregar arquivos eletrônicos da operação bancária. Você usará esse software para transferir os arquivos XML que contém ordens de pagamento para seu banco.
+O formato de pagamento de transferência de crédito para países europeus é implementado usando os recursos de relatórios eletrônicos (ER) e métodos de pagamento no Microsoft Dynamics 365 Finance. Alguns formatos de transferência de crédito usados em outras regiões não usam a estrutura de pagamento herdada. Entre muitos outros formatos, existem dize formatos de arquivo de transferência de crédito ISO 20022 disponíveis. Esses formatos de exportação estão em conformidade com o padrão ISO 20022 XML do SEPA. São usados para gerar transferências de pagamento de uma moeda diferente do euro para países/regiões onde são usados e pagamentos em euro conforme especificado na versão 8.2 da Regulamentação do Esquema de Transferência de Crédito do SEPA que a EPC publica. Antes que você possa implementar a transferência de crédito, você deve entrar em contato com o banco para obter o software que é necessário para carregar arquivos eletrônicos da operação bancária. Você usará esse software para transferir os arquivos XML que contém ordens de pagamento para seu banco.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Quais formatos de transferência de crédito são aceitos atualmente?
 Você sempre deve ir para a biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS) e exibir a lista mais atualizada de arquivos disponíveis que possuem um tipo de ativo de **Configuração GER**. A seção a seguir, "O que eu tenho que configurar?", fornece um link para o tópico que explica como criar uma loja de LCS para revisar as configurações disponíveis e as configurações de importação.

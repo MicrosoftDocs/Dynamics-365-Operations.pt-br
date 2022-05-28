@@ -1,7 +1,7 @@
 ---
 title: Configurar e manter colaboração de fornecedor
 description: Este tópico explica como configurar a colaboração do fornecedor no Dynamics 365 Supply Chain Management. Também explica como provisionar novos usuários de colaboração do fornecedor e gerenciar as funções de segurança para esses usuários.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651933"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677552"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Configurar e manter colaboração de fornecedor
 
@@ -31,7 +31,7 @@ A interface de colaboração do fornecedor expõe um conjunto limitado de inform
 Este tópico explica como configurar a colaboração do fornecedor no Dynamics 365 Supply Chain Management. Também explica como configurar um fluxo de trabalho para provisionar novos usuários de colaboração do fornecedor e como gerenciar as funções de segurança para esses usuários.
 
 > [!NOTE]
-> As informações sobre a configuração de funções de segurança para colaboração do fornecedor aplicam-se somente à versão atual do Finance and Operations. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre permissões de usuário para o portal Fornecedor no Microsoft Dynamics AX, consulte [Segurança de usuário do portal Fornecedor](configure-security-vendor-portal-users.md).
+> As informações sobre a configuração de funções de segurança para colaboração do fornecedor aplicam-se somente à versão atual do aplicativo de finanças e operações. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre permissões de usuário para o portal Fornecedor no Microsoft Dynamics AX, consulte [Segurança de usuário do portal Fornecedor](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Configurar funções de segurança de colaboração do fornecedor
 

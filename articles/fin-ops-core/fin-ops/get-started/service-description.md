@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656793"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740642"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrição de serviço para aplicativos de finanças e operações
 
@@ -265,7 +265,7 @@ O administrador de locatários do cliente pode acessar instâncias de produção
 |---|---|---|
 | **Não produção**<br>Área restrita de Camada 1 | Um ambiente de não produção que os clientes implantam para fins de desenvolvimento, demonstração ou treinamento. | Uma área restrita de Camada 1 (também conhecida como um ambiente hospedado em nuvem) é uma VM gerenciada pelo cliente que é implantada na assinatura do Azure do cliente do LCS. Como é uma VM na assinatura do Azure do cliente, o cliente tem acesso administrativo total ao ambiente por meio da Área de Trabalho Remota. |
 | **Não produção**<br>Área restrita de Camada 2 (ou superior) | Um ambiente de não produção que os clientes implantam para testes de aceitação de usuários, testes de integração, treinamento, preparo ou qualquer outro cenário de pré-produção. | As áreas restritas de Camada 2 e superior são implantadas na assinatura do SaaS de Finanças e Operações. O acesso aos bancos de dados SQL do Azure associados ao ambiente de não produção é concedido por meio do [acesso just-in-time](../../dev-itpro/database/database-just-in-time-jit-access.md). O acesso à Área de Trabalho Remota não está disponível. |
-| **Produção** | Um ambiente de produção é implantado quando o projeto está [pronto para a ativação inicial](/imp-lifecycle/environment-planning.md#production-system-readiness). | Os ambientes de produção são implantados na assinatura do SaaS. Todo o acesso é feito por meio do navegador, de pontos de extremidade de serviço ou do LCS. |
+| **Produção** | Um ambiente de produção é implantado quando o projeto está [pronto para a ativação inicial](../imp-lifecycle/environment-planning.md#production-system-readiness). | Os ambientes de produção são implantados na assinatura do SaaS. Todo o acesso é feito por meio do navegador, de pontos de extremidade de serviço ou do LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Acesso administrativo da Microsoft
 
@@ -286,7 +286,7 @@ A Microsoft investiu em um conjunto de ferramentas extensivo para monitorar e di
 |---|---|
 | <ul><li>Monitorar a disponibilidade do serviço.</li><li>Monitorar e alertar continuamente as métricas e os watchdogs de integridade para componentes críticos como o AOS (Servidor de Objetos de Aplicativo), Lote, DIXF (Estrutura de Importação/Exportação de Dados), Commerce e Management Reporter.</li><li>Monitorar a degradação de desempenho causada por serviços de infraestrutura (como o Azure Active Directory \[Azure AD\] e SQL do Azure).</li><li>Se a Microsoft determinar que um único processo ou trabalho em lotes está causando aberrações, esse processo ou trabalho será encerrado após a comunicação com o cliente.</li></ul> | <ul><li>Monitore alterações nas configurações e nas extensões dos aplicativos que podem causar problemas funcionais e de desempenho.</li><li>Os erros do aplicativo devem ser diagnosticados com as ferramentas de monitoramento. Use essas ferramentas para diagnosticar aberrações de desempenho relatados pelo usuário.</li><li>Informe a Microsoft se houver uma carga esperada no sistema além do uso de pico projetado.</li><li>Se o serviço aplicável não estiver disponível na instância de produção, o cliente poderá usar o LCS para relatar uma [interrupção da produção](../../dev-itpro/lifecycle-services/report-production-outage.md).</li></ul> |
 
-Ao enviar solicitações de suporte online, por meio de LCS, os clientes permitem que a Microsoft forneça especialização técnica rápida e profunda da maneira mais eficiente e efetiva. Embora haja uma opção telefônica disponível, ela só deverá ser usada se a opção online não estiver disponível. Para obter mais informações, consulte [Opções de suporte telefônico](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support).
+Ao enviar solicitações de suporte online, por meio de LCS, os clientes permitem que a Microsoft forneça especialização técnica rápida e profunda da maneira mais eficiente e efetiva. Embora haja uma opção telefônica disponível, ela só deverá ser usada se a opção online não estiver disponível. Para obter mais informações, consulte [Opções de suporte telefônico](/power-platform/admin/support-overview?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json#is-there-a-phone-number-i-can-call-to-contact-support).
 
 ## <a name="incident-management"></a>Gerenciamento de incidentes
 
