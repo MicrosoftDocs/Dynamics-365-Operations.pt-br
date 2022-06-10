@@ -3,7 +3,7 @@ title: Módulo de seletor de loja
 description: Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/04/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710771"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780630"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
@@ -135,26 +135,29 @@ O modo **Retirar na loja** pode ser usado somente em PDPs e páginas de carrinho
 Para configurar o módulo de seletor de loja a fim de mostrar as lojas disponíveis na página de localizações, conforme a ilustração exibida anteriormente nesse tópico, siga estas etapas.
 
 1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
-1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo de marketing** e selecione **OK**.
+1. Na caixa de diálogo **Novo modelo**, em **Nome do modelo**, insira **Modelo de marketing** e selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
-1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de marketing**. Em **Nome da página**, insira **Localizações de lojas** e selecione **OK**.
-1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
-1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner com 2 colunas** e, depois, **OK**.
+1. Na caixa de diálogo **Criar uma nova página**, em **Nome da página**, insira **Localização das lojas** e selecione **Avançar**.
+1. Em **Escolher um modelo**, selecione o **Modelo de marketing** que você criou e escolha **Avançar**.
+1. Em **Escolher um layout**, selecione um layout de página (por exemplo, **Layout flexível**) e selecione **Avançar**.
+1. Em **Revisar e concluir**, revise a configuração da página. Se você precisar editar as informações da página, selecione **Voltar**. Se as informações da página estiverem corretas, selecione **Criar página**. 
+1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Contêiner com 2 colunas** e, depois, **OK**.
 1. No painel de propriedades do módulo, defina o valor de **Largura** como **Preencher Contêiner**.
 1. Defina o valor de **Configuração da coluna da porta de exibição extra pequena** como **100%**.
 1. Defina o valor de **Configuração da coluna da porta de exibição pequena** como **100%**.
 1. Defina o valor de **Configuração da coluna da porta de exibição média** como **33% 67%**.
 1. Defina o valor de **Configuração da coluna da porta de exibição grande** como **33% 67%**.
-1. No slot **Contêiner com 2 colunas**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Seletor de loja** e, depois, **OK**.
+1. No slot **Contêiner com 2 colunas**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Seletor de loja** e, depois, **OK**.
 1. No painel de propriedades do módulo, defina o valor de **Modo** como **Localizar lojas**.
 1. Defina o valor de **Raio de pesquisa** em milhas.
 1. Defina as outras propriedades, como **Definir como loja preferida**, **Exibir todas as lojas** e **Habilitar a sugestão automática**, conforme necessário.
-1. No slot **Contêiner com 2 colunas**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Mapa** e, depois, **OK**.
+1. No slot **Contêiner com 2 colunas**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Mapa** e, depois, **OK**.
 1. No painel de propriedades do módulo, defina as propriedades adicionais conforme necessário.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
  

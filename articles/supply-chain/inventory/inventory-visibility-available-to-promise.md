@@ -2,7 +2,7 @@
 title: Programações de alterações disponíveis e disponível para promessa da Visibilidade de Estoque
 description: Este tópico descreve como programar as alterações disponíveis futuras e calcular as quantidades de (ATP) disponível-para-promessa.
 author: yufeihuang
-ms.date: 03/04/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7ce868871f093fd734a466bb8a06c5782bf83302
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
+ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525875"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763243"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Programações de alterações disponíveis e disponível para promessa da Visibilidade de Estoque
 
@@ -24,7 +24,7 @@ ms.locfileid: "8525875"
 
 Este tópico descreve como configurar o recurso *programação de alteração disponível* para programar alterações futuras disponíveis e calcular quantidades disponíveis para promessa (ATP). ATP é a quantidade de um item que está disponível e pode ser prometida a um cliente no próximo período. O uso deste cálculo pode aumentar bastante o recurso de atendimento da ordem.
 
-Para muitos fabricantes, varejistas ou vendedores, não é suficiente apenas saber o que está disponível no momento. Eles devem ter visibilidade total da disponibilidade futura. Essa disponibilidade futura deve considerar o futuro, a demanda futura e ATP.
+Para muitos fabricantes, varejistas ou vendedores, não basta saber o que está disponível no momento. Eles devem ter visibilidade total da disponibilidade futura. Essa disponibilidade futura deve considerar o futuro, a demanda futura e ATP.
 
 ## <a name="enable-and-set-up-the-features"></a><a name="setup"></a>Habilitar e configurar os recursos
 
@@ -32,9 +32,12 @@ Para usar a ATP, você deve configurar uma ou mais medidas calculadas para calcu
 
 ### <a name="set-up-calculated-measures-for-atp-quantities"></a>Configurar medidas calculadas para quantidades de ATP
 
-A *medida calculada de ATP* é aquela calculada predefinida que normalmente é usada para localizar a quantidade disponível que está atualmente em andamento. A soma das suas quantidades do modificador de adição é a quantidade de suprimento, e a soma de suas quantidades do modificador de subtração é a quantidade de demanda.
+A *medida calculada de ATP* é aquela calculada predefinida que normalmente é usada para localizar a quantidade disponível que está atualmente em andamento. A *quantidade de suprimentos* é a soma das quantidades das medidas físicas com um tipo de modificador de *adição* e a *quantidade de demanda* é a soma de quantidades das medidas físicas com um tipo de modificador de *subtração*.
 
-Você pode adicionar várias medidas calculadas para calcular as quantidades de ATP. No entanto, o número total de modificadores em todas as medidas calculadas de ATP deve ser menor do que nove.
+Você pode adicionar várias medidas calculadas para calcular várias quantidades de ATP. Mas, o número total de medidas físicas distintas em todas as medidas calculadas de ATP deve ser menor do que nove.
+
+> [!IMPORTANT]
+> Uma medida calculada é uma composição de medidas físicas. Sua fórmula pode incluir somente medidas físicas sem duplicatas, não medidas calculadas.
 
 Por exemplo, é possível configurar a seguinte medida calculada:
 
@@ -43,6 +46,12 @@ Por exemplo, é possível configurar a seguinte medida calculada:
 A soma (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) representa o suprimento e a soma (*ReservPhysical* + *SoftReservePhysical* + *Outbound*) representa a demanda. Portanto, a medida calculada pode ser compreendida da seguinte maneira:
 
 **Disponível em estoque** = *Suprimento* – *Demanda*
+
+Você pode adicionar outra medida calculada para calcular a quantidade de ATP **física disponível**.
+
+**Física disponível** = (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) – (*Outbound*)
+
+Há oito medidas físicas distintas entre essas duas medidas calculadas de ATP: *PhysicalInvent*, *OnHand*, *Unrestricted*, *QualityInspection*, *Inbound*, *ReservPhysical*, *SoftReservePhysical*, e *Outbound*.
 
 Para obter mais informações sobre medidas calculadas, consulte [Medidas calculadas](inventory-visibility-configuration.md#calculated-measures).
 
@@ -80,7 +89,7 @@ Por exemplo, é necessário fazer um pedido de 10 bicicletas e esperar que ele c
 
 Quando você consulta a Visibilidade de Estoque para quantidades disponíveis e de ATP, ela retorna as informações a seguir para cada dia no período programado:
 
-- **Data** – a data à qual o resultado se aplica.
+- **Data** – a data à qual o resultado se aplica. O fuso horário é Tempo Universal Coordenado (UTC).
 - **Quantidade disponível** – a quantidade disponível real da data especificada. Esse cálculo é feito de acordo com a medida calculada de ATP que está configurada para a Visibilidade de Estoque.
 - **Fornecimento programado** – a soma de todas as quantidades de entrada programadas que não se tornaram fisicamente disponíveis para consumo imediato ou remessa a partir da data especificada.
 - **Demanda programada** – a soma de todas as quantidades de saída programadas que não foram consumidas ou remetidas a partir da data especificada.
@@ -108,79 +117,79 @@ Os resultados neste exemplo mostram um valor *disponível projetado*. Esse valor
 
     | Data | Disponível | Fornecimento programado | Demanda programada | Disponível projetado | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 01/02/2022 | 20 | | 3 | 17 | 17 |
-    | 02/02/2022 | 20 | | | 17 | 17 |
-    | 03/02/2022 | 20 | | | 17 | 17 |
-    | 04/02/2022 | 20 | | | 17 | 17 |
-    | 05/02/2022 | 20 | | | 17 | 17 |
-    | 06/02/2022 | 20 | | | 17 | 17 |
-    | 07/02/2022 | 20 | | | 17 | 17 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | | | 17 | 17 |
+    | 2022-02-04 | 20 | | | 17 | 17 |
+    | 2022-02-05 | 20 | | | 17 | 17 |
+    | 2022-02-06 | 20 | | | 17 | 17 |
+    | 2022-02-07 | 20 | | | 17 | 17 |
 
 1. Na data atual (1º de fevereiro de 2022), você envia uma quantidade de fornecimento programada de 10 para 3 de fevereiro de 2022. A tabela a seguir mostra o resultado.
 
     | Data | Disponível | Fornecimento programado | Demanda programada | Disponível projetado | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 01/02/2022 | 20 | | 3 | 17 | 17 |
-    | 02/02/2022 | 20 | | | 17 | 17 |
-    | 03/02/2022 | 20 | 10 | | 27 | 27 |
-    | 04/02/2022 | 20 | | | 27 | 27 |
-    | 05/02/2022 | 20 | | | 27 | 27 |
-    | 06/02/2022 | 20 | | | 27 | 27 |
-    | 07/02/2022 | 20 | | | 27 | 27 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | 10 | | 27 | 27 |
+    | 2022-02-04 | 20 | | | 27 | 27 |
+    | 2022-02-05 | 20 | | | 27 | 27 |
+    | 2022-02-06 | 20 | | | 27 | 27 |
+    | 2022-02-07 | 20 | | | 27 | 27 |
 
 1. Na data atual (1º de fevereiro de 2022), você envia as seguintes alterações de quantidade programadas:
 
     - Quantidade de demanda 15 para 4 de fevereiro de 2022
     - Quantidade de suprimento 1 para 5 de fevereiro de 2022
-    - Quantidade de demanda 3 para 6 de fevereiro de 2022
+    - Quantidade de suprimento 3 para 6 de fevereiro de 2022
 
     A tabela a seguir mostra o resultado.
 
     | Data | Disponível | Fornecimento programado | Demanda programada | Disponível projetado | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 01/02/2022 | 20 | | 3 | 17 | 12 |
-    | 02/02/2022 | 20 | | | 17 | 12 |
-    | 03/02/2022 | 20 | 10 | | 27 | 12 |
-    | 04/02/2022 | 20 | | 15 | 12 | 12 |
-    | 05/02/2022 | 20 | 1 | | 13 | 13 |
-    | 06/02/2022 | 20 | 3 | | 16 | 16 |
-    | 07/02/2022 | 20 | | | 16 | 16 |
+    | 2022-02-01 | 20 | | 3 | 17 | 12 |
+    | 2022-02-02 | 20 | | | 17 | 12 |
+    | 2022-02-03 | 20 | 10 | | 27 | 12 |
+    | 2022-02-04 | 20 | | 15 | 12 | 12 |
+    | 2022-02-05 | 20 | 1 | | 13 | 13 |
+    | 2022-02-06 | 20 | 3 | | 16 | 16 |
+    | 2022-02-07 | 20 | | | 16 | 16 |
 
 1. Na data atual (1º de fevereiro de 2022), você remete a quantidade de demanda programada de 3. Portanto, você deve confirmar a alteração para que ela seja refletida na sua quantidade disponível real. Para confirmar a alteração, você envia um evento de alteração disponível que tem uma quantidade de saída de 3. Em seguida, você deve reverter a alteração programada, enviando uma programação de alteração disponível que tem uma quantidade de saída de -3. A tabela a seguir mostra o resultado.
 
     | Data | Disponível | Fornecimento programado | Demanda programada | Disponível projetado | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 01/02/2022 | 17 | | 0 | 17 | 12 |
-    | 02/02/2022 | 17 | | | 17 | 12 |
-    | 03/02/2022 | 17 | 10 | | 27 | 12 |
-    | 04/02/2022 | 17 | | 15 | 12 | 12 |
-    | 05/02/2022 | 17 | 1 | | 13 | 13 |
-    | 06/02/2022 | 17 | 3 | | 16 | 16 |
-    | 07/02/2022 | 17 | | | 16 | 16 |
+    | 2022-02-01 | 17 | | 0 | 17 | 12 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
 
 1. No dia seguinte (2 de fevereiro de 2022), o período da programação passa para frente em um dia. A tabela a seguir mostra o resultado.
 
     | Data | Disponível | Fornecimento programado | Demanda programada | Disponível projetado | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 02/02/2022 | 17 | | | 17 | 12 |
-    | 03/02/2022 | 17 | 10 | | 27 | 12 |
-    | 04/02/2022 | 17 | | 15 | 12 | 12 |
-    | 05/02/2022 | 17 | 1 | | 13 | 13 |
-    | 06/02/2022 | 17 | 3 | | 16 | 16 |
-    | 07/02/2022 | 17 | | | 16 | 16 |
-    | 08/02/2022 | 17 | | | 16 | 16 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
+    | 2022-02-08 | 17 | | | 16 | 16 |
 
 1. No entanto, dois dias depois (4 de fevereiro de 2022), a quantidade de fornecimento de 10 programada para 3 de fevereiro ainda não foi recebida. A tabela a seguir mostra o resultado.
 
     | Data | Disponível | Fornecimento programado | Demanda programada | Disponível projetado | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 04/02/2022 | 17 | | 15 | 2 | 2 |
-    | 05/02/2022 | 17 | 1 | | 3 | 3 |
-    | 06/02/2022 | 17 | 3 | | 6 | 6 |
-    | 07/02/2022 | 17 | | | 6 | 6 |
-    | 08/02/2022 | 17 | | | 6 | 6 |
-    | 09/02/2022 | 17 | | | 6 | 6 |
-    | 10/02/2022 | 17 | | | 6 | 6 |
+    | 2022-02-04 | 17 | | 15 | 2 | 2 |
+    | 2022-02-05 | 17 | 1 | | 3 | 3 |
+    | 2022-02-06 | 17 | 3 | | 6 | 6 |
+    | 2022-02-07 | 17 | | | 6 | 6 |
+    | 2022-02-08 | 17 | | | 6 | 6 |
+    | 2022-02-09 | 17 | | | 6 | 6 |
+    | 2022-02-10 | 17 | | | 6 | 6 |
 
     Como você pode ver, as alterações disponíveis (mas não confirmadas) programadas não afetam a quantidade disponível real.
 
@@ -190,8 +199,8 @@ Você pode usar as seguintes URLs da API (interface de programação de aplicati
 
 | Caminho | Método | Descrição |
 | --- | --- | --- |
-| `/api/environment/{environmentId}/on-hand/changeschedule` | `POST` | Criar um alteração disponível programada. |
-| `/api/environment/{environmentId}/on-hand/changeschedule/bulk` | `POST` | Criar várias alterações disponíveis programadas. |
+| `/api/environment/{environmentId}/onhand/changeschedule` | `POST` | Criar um alteração disponível programada. |
+| `/api/environment/{environmentId}/onhand/changeschedule/bulk` | `POST` | Criar várias alterações disponíveis programadas. |
 | `/api/environment/{environmentId}/onhand` | `POST` | Criar um evento de alteração disponível. |
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Criar vários eventos de alteração. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Consultar usando o método `POST`. |
@@ -199,31 +208,46 @@ Você pode usar as seguintes URLs da API (interface de programação de aplicati
 
 Para obter mais informações, consulte [APIs públicas de Visibilidade de Estoque](inventory-visibility-api.md).
 
-### <a name="submit-on-hand-change-schedules"></a>Enviar programações de alterações disponíveis
+### <a name="create-one-on-hand-change-schedule"></a>Criar uma agenda de alterações disponíveis
 
-As programações de alteração disponíveis são feitas pelo envio de uma solicitação `POST` para a URL de serviço de Visibilidade de Estoque relevante (consulte a seção [Enviar programações de alteração, eventos de alteração e consultas ATP por meio da API](#api-urls)). Você também pode enviar solicitações em massa.
+Uma agenda de alterações disponíveis é criada, enviando uma solicitação `POST` para a URL de serviço de Visibilidade de Estoque relevante (consulte a seção [Enviar agendas de alterações, eventos de alterações e consultas ATP por meio da API](#api-urls)). Você também pode enviar solicitações em massa.
 
-Para enviar uma programação de alteração disponível, o corpo da solicitação deve conter uma ID da organização, uma ID do produto, uma data programada e as quantidades por data. A data planejada deve estar entre a data atual e o final do período de programação atual.
+Uma agenda de alterações disponíveis poderá ser criada apenas se a data agendada estiver entre a data atual e o final do período de programação atual. O formato de data/hora deve ser *ano-mês-dia* (por exemplo, **2022-02-01**). O formato de hora deve ser exato somente no dia.
 
-#### <a name="example-request-body-that-contains-a-single-update"></a>Exemplo de corpo de solicitação que contém uma única atualização
+Esta API cria uma única agenda de alterações disponíveis.
 
-O exemplo a seguir mostra um corpo de solicitação que contém uma única atualização.
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantitiesByDate: {
+            [datetime:datetime]: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+    }
+```
+
+O exemplo a seguir mostra o conteúdo do corpo de exemplo sem `dimensionDataSource`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -232,38 +256,60 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "ColorId": "Red",
-        "SizeId": "Small"
+        "SizeId&quot;: &quot;Small"
     },
     "quantitiesByDate":
     {
-        "2022/02/01": // today
+        "2022-02-01": // today
         {
             "pos":{
-                "inbound": 10,
-            },
-        },
-    },
+                "inbound": 10
+            }
+        }
+    }
 }
 ```
 
-#### <a name="example-request-body-that-contains-multiple-bulk-updates"></a>Exemplo de corpo de solicitação que contém várias atualizações (em massa)
+### <a name="create-multiple-on-hand-change-schedules"></a>Criar várias agendas de alterações disponíveis
 
-O exemplo a seguir mostra um corpo de solicitação que contém várias atualizações (em massa).
+Essa API pode criar vários registros ao mesmo tempo. As únicas diferenças entre esta API e a API de evento único são os valores `Path` e `Body`. Para essa API, `Body` fornece uma matriz de registros. O número máximo de registros é 512. Portanto, a API em massa de alterações disponíveis agendada pode dar suporte a até 512 alterações agendadas ao mesmo tempo.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantitiesByDate: {
+                [datetime:datetime]: {
+                    [dataSourceName:string]: {
+                        [key:string]: number,
+                    },
+                },
+            },
+        },
+        ...
+    ]
+```
+
+O exemplo a seguir mostra o conteúdo do corpo de exemplo.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule/bulk
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
 [
     {
         "id": "id-bike-0001",
@@ -273,67 +319,51 @@ Authorization: "Bearer {access_token}"
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/01": // today
+            "2022-02-01": // today
             {
                 "pos":{
-                    "inbound": 10,
-                },
-            },
-        },
+                    "inbound": 10
+                }
+            }
+        }
     },
     {
-        "id": "id-bike-0002",
+        "id": "id-car-0002",
         "organizationId": "usmf",
         "productId": "Car",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/05":
+            "2022-02-05":
             {
                 "pos":{
-                    "outbound": 10,
-                },
-            },
-        },
+                    "outbound": 10
+                }
+            }
+        }
     }
 ]
 ```
 
-### <a name="submit-on-hand-change-events"></a>Enviar eventos de alteração disponíveis
+### <a name="create-on-hand-change-events"></a>Criar eventos de alteração disponíveis
 
 Os eventos de alteração disponíveis são feitos pelo envio de uma solicitação `POST` para a URL de serviço de Visibilidade de Estoque relevante (consulte a seção [Enviar programações de alteração, eventos de alteração e consultas ATP por meio da API](#api-urls)). Você também pode enviar solicitações em massa.
 
 > [!NOTE]
-> Os eventos de alteração disponíveis não são exclusivos da funcionalidade ATP, mas fazem parte da API de Visibilidade de Estoque padrão. Este exemplo foi incluído porque os eventos são relevantes ao trabalhar com ATP. Os eventos de alteração disponíveis se assemelham a reservas de alteração disponíveis, mas as mensagens de evento devem ser enviadas para uma URL de API diferente e os eventos usam `quantities`, em vez de `quantityByDate` no corpo da mensagem. Para obter mais informações sobre os eventos de alteração disponíveis e outros recursos da API de Visibilidade de Estoque, consulte [APIs públicas de Visibilidade de Estoque](inventory-visibility-api.md).
-
-Para enviar um evento de alteração disponível, o corpo da solicitação deve conter uma ID da organização, uma ID do produto, uma data programada e as quantidades por data. A data planejada deve estar entre a data atual e o final do período de programação atual.
+> Os eventos de alteração disponíveis não são exclusivos da funcionalidade ATP, mas fazem parte da API de Visibilidade de Estoque padrão. Este exemplo foi incluído porque os eventos são relevantes ao trabalhar com ATP. Os eventos de alteração disponíveis se assemelham a reservas de alteração disponíveis, mas as mensagens de evento devem ser enviadas para uma URL de API diferente e os eventos usam `quantities`, em vez de `quantityByDate` no corpo da mensagem. Para obter mais informações sobre os eventos de alteração disponíveis e outros recursos da API de Visibilidade de Estoque, consulte [APIs públicas de Visibilidade de Estoque](inventory-visibility-api.md#create-one-onhand-change-event).
 
 O exemplo a seguir mostra um corpo de solicitação que contém um evento de alteração disponível único.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -342,7 +372,7 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "SizeId": "Big",
-        "ColorId": "Red",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -362,46 +392,71 @@ Na sua solicitação, defina `QueryATP` como *verdadeiro* se quiser consultar al
 - Se você estiver enviando a solicitação usando o método `POST`, defina este parâmetro no corpo da solicitação.
 
 > [!NOTE]
-> Independentemente de o parâmetro `returnNegative` ser definido como *verdadeiro* ou *falso* no corpo da solicitação, o resultado incluirá valores negativos quando você consultar as alterações disponíveis e os resultados de ATP programados. Esses valores negativos serão incluídos porque, se somente as ordens de demanda forem planejadas ou se as quantidades de fornecimento forem menores do que as quantidades de demanda, as quantidades de alterações disponíveis planejadas serão negativas. Se valores negativos não foram incluídos, os resultados ficarão confusos. Para obter mais informações sobre essa opção e como ela funciona para outros tipos de consultas, consulte [APIs públicas de Visibilidade de Estoque](inventory-visibility-api.md).
+> Independentemente de o parâmetro `returnNegative` ser definido como *verdadeiro* ou *falso* no corpo da solicitação, o resultado incluirá valores negativos quando você consultar as alterações disponíveis e os resultados de ATP programados. Esses valores negativos serão incluídos porque, se somente as ordens de demanda forem planejadas ou se as quantidades de fornecimento forem menores do que as quantidades de demanda, as quantidades de alterações disponíveis planejadas serão negativas. Se valores negativos não foram incluídos, os resultados ficarão confusos. Para obter mais informações sobre essa opção e como ela funciona para outros tipos de consultas, consulte [APIs públicas de Visibilidade de Estoque](inventory-visibility-api.md#query-with-post-method).
 
-### <a name="post-method-example"></a>Exemplo do método POST
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
 
 O exemplo a seguir mostra como criar um corpo de solicitação que possa ser enviado para a Visibilidade de Estoque usando o método `POST`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/indexquery
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
         "siteId": ["1"],
-        "LocationId": ["11"],
+        "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true,
-    "QueryATP":true,
+    "QueryATP":true
 }
 ```
 
 ### <a name="get-method-example"></a>Exemplo do método GET
 
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
 O exemplo a seguir mostra como criar uma URL de solicitação como uma solicitação `GET`.
 
 ```txt
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
 ```
 
 O resultado desta solicitação `GET` é exatamente igual ao resultado da solicitação `POST` no exemplo anterior.

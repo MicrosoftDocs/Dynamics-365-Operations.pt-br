@@ -2,7 +2,7 @@
 title: Espaço de trabalho móvel de estoque disponível
 description: Este tópico fornece informações sobre a área de trabalho móvel de estoque disponível. Este espaço de trabalho o ajuda a obter informações móveis para estoque reservado e disponível a qualquer hora e em qualquer lugar.
 author: yufeihuang
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,23 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e67e16acc8ed72d571e9010131723038c8586a9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b380da99b02fe9b7cd834eabac3498ee3b8e54a4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573888"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811456"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Espaço de trabalho móvel de estoque disponível
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel de **Estoque disponível**. Este espaço de trabalho ajuda você a obter informações sobre estoque reservado e disponível a qualquer hora e em qualquer lugar.
 
-Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Finance and Operations.
+Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel de finanças e operações (Dynamics 365).
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 Geralmente, as empresas têm várias remessas e vários recebimentos de estoque a cada dia. Esses movimentos alteram constantemente o status disponível do estoque. O espaço de trabalho móvel de **Estoque disponível** permite ver o status de estoque disponível entre empresas, para que você possa obter as informações mais recentes sobre dados de estoque no dispositivo móvel de sua escolha. Independentemente de trabalhar no depósito, em compras, em vendas, na fabricação ou no gerenciamento ou ter outras funções, você pode acessar os dados de estoque disponível a qualquer momento e em qualquer lugar. 
 
 O espaço de trabalho móvel fornece uma exibição instantânea do status disponível através de recursos. Isso permite exibir o estoque disponível pelas instalações, reservas de material atual e estoque disponível não reservado. Também é possível inserir números de item para consultar o estoque disponível e executar uma pesquisa filtrada de produtos ou variantes disponíveis. 
@@ -93,7 +94,7 @@ Se a Platform update 3 ou posterior tiver sido implantada para sua organização
 
 ## <a name="download-and-install-the-mobile-app"></a>Baixa e instala o aplicativo móvel.
 
-Baixe e instale o aplicativo móvel Finance and Operations:
+Baixe e instale o aplicativo móvel de finanças e operações (Dynamics 365):
 
 -   [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

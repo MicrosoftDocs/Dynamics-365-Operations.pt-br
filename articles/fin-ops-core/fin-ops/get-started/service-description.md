@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740642"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758759"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrição de serviço para aplicativos de finanças e operações
 
@@ -132,9 +132,9 @@ Esta seção descreve alguns eventos de ambiente e gerenciamento de dados típic
 
 O LCS fornece [ferramentas de autoatendimento](../../dev-itpro/deployment/infrastructure-stack.md) e [operações de movimentação de banco de dados](../../dev-itpro/database/dbmovement-operations.md) que são usadas para executar tarefas de gerenciamento de dados e ambiente. Veja alguns exemplos:
 
-**Evento:** [Solicitação de uma instância de produção](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Evento:** [Solicitação de uma instância de produção](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Conclua a [lista de verificação de ativação](../imp-lifecycle/prepare-go-live.md) e envie-a para a equipe do [Microsoft FastTrack](/dynamics365/fasttrack/).
+- Conclua a [Revisão de preparação para ativação](../imp-lifecycle/prepare-go-live.md) e envie-a para a equipe do [Microsoft FastTrack](/dynamics365/fasttrack/).
 - Conclua o [avaliador de Assinatura do LCS](../../dev-itpro/lifecycle-services/subscription-estimator.md) antes de solicitar uma instância de produção.
 - Conclua todas as tarefas de implementação especificadas na [metodologia do LCS](../../dev-itpro/lifecycle-services/create-methodology.md).
 

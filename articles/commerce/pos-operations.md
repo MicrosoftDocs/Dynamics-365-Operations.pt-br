@@ -2,7 +2,7 @@
 title: Operações de ponto de venda (PDV) online e offline
 description: Este tópico fornece detalhes sobre as operações de ponto de venda (PDV) no Dynamics 365 Commerce. Ele especifica em que ponto do aplicativo as operações podem ser invocadas, e se estão disponíveis no modo offline.
 author: jblucher
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc281a691b34731fb0b5986222b41b436912c782
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740673"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811193"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -44,7 +44,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 > [!NOTE]
 > As operações listadas a seguir se aplicam à versão mais recente do Commerce. Algumas operações podem ter mudado ou podem não estar disponíveis nas versões anteriores.
 
-| ID   | Operação                                         | Descrição                                                                                                                                                                                                    | Operação de usuário?    | Tela de transação | Tela de boas-vindas | Disponível offline? | Específico de localidade |
+| ID   | Operação                                         | Descrição                                                                                                                                                                                                    | Operações do usuário    | Tela de transação | Tela de boas-vindas | Disponível offline? | Específico de localidade |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Venda do produto                                      | Adicionar um produto especificado à transação.                                                                                                                                                                    | Sim            | Sim                | Sim            | Sim               | Número              |
 | 101  | Verificação de preço                                       | Procure o preço de um produto específico.                                                                                                                                        | Sim            | Sim                | Sim            | Sim               | Número              |
@@ -273,11 +273,11 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 1219 | Abrir URL no PDV                                   | Abra uma URL configurada pelo administrador no PDV.                                                                                                                                                                           | Sim            | Sim                | Sim            | Sim               | Número              |
 | 1220 | Gerenciar cofre                                       | Gerencie o Cofre para diferentes caixas registradoras.                                                                                                                                                                       | Sim            | Sim                | Sim            | Sim               | Número              |
 | 1221 | Transações Suspensas Anuladas                       | Transações suspensas anuladas.                                                                                                                                                                               | Sim            | Sim                | Sim            | Sim               | Número              |
-| 1300 | Ignorar registro fiscal                          | Ignore o registro fiscal.                                                                                                                                                                                       | Sim            | Sim                | Sim            | Sim               | Sim             |
-| 1301 | Marcar evento fiscal registrado                      |  Marque o evento fiscal como registrado.                                                                                                                                                                                  | Sim            | Sim                | Sim            | Sim               | Sim             |
-| 1302 | Concluir processo de registro fiscal              | Conclua o processo de registro fiscal.                                                                                                                                                                           | Sim            | Sim                | Sim            | Sim               | Sim             |
-| 1303 | Ignorar erro de verificação de integridade                           | Ignore o erro de verificação de integridade.                                                                                                                                                                                        | Sim            | Sim                | Sim            | Sim               | Sim             |
-| 1304 |  Adiar o registro fiscal                     | Adie o registro fiscal.                                                                                                                                                                                  | Sim            | Sim                | Sim            | Sim               | Sim             |
+| 1300 | Ignorar registro fiscal                          | Ignore o registro fiscal.                                                                                                                                                                                       | Número            | Número                | Número            | Sim               | Número             |
+| 1301 | Marcar evento fiscal registrado                      |  Marque o evento fiscal como registrado.                                                                                                                                                                                  | Número            | Número                | Número            | Sim               | Número             |
+| 1302 | Concluir processo de registro fiscal              | Conclua o processo de registro fiscal.                                                                                                                                                                           | Número            | Número                | Sim            | Sim               | Sim             |
+| 1303 | Ignorar erro de verificação de integridade                           | Ignore o erro de verificação de integridade.                                                                                                                                                                                        | Sim            | Sim                | Sim            | Sim               | Número             |
+| 1304 |  Adiar o registro fiscal                     | Adie o registro fiscal.                                                                                                                                                                                  | Número            | Número                | Número            | Sim               | Número             |
 | 1400 | Gerenciar listas de verificação e tarefas                       | Gerencie a lista de verificação e as tarefas do funcionário.                                                                                                                                                                        | Número             | Número                 | Sim            | Número                | Número              |
 | 2000 | Gerenciamento de agenda                               | Ainda não há suporte para esta operação.                                                                                                                                                                           | Sim            | Sim                | Sim            | Não                | Não              |
 | 2001 | Solicitações de agenda                                 | Ainda não há suporte para esta operação.                                                                                                                                                                           | Sim            | Sim                | Sim            | Número                | Número              |

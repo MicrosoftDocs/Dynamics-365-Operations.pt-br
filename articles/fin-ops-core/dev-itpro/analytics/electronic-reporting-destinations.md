@@ -2,7 +2,7 @@
 title: Destinos de Relatório eletrônico (ER)
 description: Este tópico fornece informações sobre o gerenciamento de destinos de relatório eletrônico, os tipos de destinos com suporte e considerações de segurança.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647084"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780450"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de Relatório eletrônico (ER)
 
@@ -45,7 +45,7 @@ Se preferir,, você pode instalar um dos seguintes pré-requisitos. Entretanto, 
 - Versão 7.0.1 do aplicativo Microsoft Dynamics AX (maio de 2016)
 - [Hotfix do aplicativo de gerenciamento de destino de relatório eletrônico](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-Também existe um tipo de destino [Impressão](er-destination-type-print.md). Para usá-lo, você deve instalar o Microsoft Dynamics 365 Finance versão 10.0.9 (abril de 2020).
+Também existe um tipo de destino [Impressão](er-destination-type-print.md). Para usá-lo, você precisa instalar o Microsoft Dynamics 365 Finance versão 10.0.9 (abril de 2020).
 
 ## <a name="overview"></a>Visão geral
 
@@ -173,11 +173,11 @@ Nas versões do Finance **antes da versão 10.0.18**, a opção de conversão do
 
 ### <a name="limitations"></a>Limitações
 
-A opção de conversão em PDF só está disponível para implantações em nuvem.
+A partir do Finance **versão 10.0.9**, a opção de conversão em PDF só está disponível para implantações em nuvem. A partir do Finance versão **10.0.27**, a opção de conversão em PDF está disponível para implantações locais com [conectividade da Internet](../user-interface/client-disconnected.md) habilitada.
 
 O documento PDF produzido pode ter um número máximo de 300 páginas.
 
-No Finance **versão 10.0.9**, apenas a orientação de página paisagem tem suporte no documento PDF produzido de uma saída do Excel. No Finance **versão 10.0.10 (maio de 2020) e posterior**, você pode [especificar orientação de página](#SelectPdfPageOrientation) do documento PDF produzido a partir de um Excel enquanto você configura um destino de ER.
+A partir do Finance **versão 10.0.9**, apenas a orientação de página paisagem tem suporte no documento PDF produzido de uma saída do Excel. A partir do Finance **versão 10.0.10**, você pode [especificar a orientação de página](#SelectPdfPageOrientation) do documento PDF produzido a partir de uma saída do Excel enquanto você configura um destino de ER.
 
 Somente as fontes de sistema comuns do sistema operacional Windows são usadas para converter uma saída que não contém fontes incorporadas.
 

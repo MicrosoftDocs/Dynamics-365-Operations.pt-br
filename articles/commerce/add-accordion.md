@@ -2,7 +2,7 @@
 title: Módulo de acordeão
 description: Este tópico abrange os módulos de acordeão e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e17476d745da6f498b4f3ed90d55b0d13a0264b6
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719518"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780680"
 ---
 # <a name="accordion-module"></a>Módulo de Accordion
 
@@ -38,7 +38,7 @@ A imagem a seguir mostra um exemplo de um módulo de acordeão usado para organi
 
 ## <a name="accordion-module-properties"></a>Propriedades do módulo de acordeão
 
-| Nome da propriedade | Valores | descrição |
+| Nome da propriedade | Valores | Descrição |
 |---------------|--------|-------------|
 | Título | Texto | Esta propriedade especifica um cabeçalho de texto opcional para o módulo de acordeão. |
 | Expandir Tudo | **Verdadeiro** ou **Falso** | Se o valor estiver definido como **verdadeiro**, a funcionalidade expandir/recolher será ativada para que todos os itens no módulo de acordeão possam ser expandidos e recolhidos. |
@@ -56,18 +56,18 @@ A imagem a seguir mostra um exemplo de um módulo de acordeão usado para organi
 Para adicionar um módulo de acordeão a uma página perguntas frequentes e definir suas propriedades no assistente para criação de sites, siga as etapas a seguir.
 
 1. Acesse **Páginas** e use o modelo de marketing da Fabrikam (ou qualquer modelo que não tenha restrições) para criar uma nova página denominada **Perguntas frequentes de loja**.
-1. No slot **Principal** da **Página padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
-1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Acordeão** e, depois, **OK**.
+1. No slot **Principal** da **Página padrão**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Acordeão** e, depois, **OK**.
 1. No painel de propriedades do módulo de acordeão, selecione **Título** ao lado do símbolo de lápis.
 1. Na caixa de diálogo **Título**, em **Texto do título**, digite **Perguntas frequentes**. Em seguida, selecione **OK**.
 1. No painel de propriedades do módulo de acordeão, marque a caixa de seleção **Mostrar expandir tudo** e, no campo **Estilo de interação**, selecione **Independente**.
-1. No slot **Acordeão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Item do acordeão** e, depois, **OK**.
+1. No slot **Acordeão**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Item de acordeão** e, depois, **OK**.
 1. No painel de propriedades do módulo de item do acordeão, em **Título**, digite o texto do título (por exemplo, **Como os retornos funcionam?**).
-1. No slot **Item do acordeão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Bloco de texto** e, depois, **OK**.
+1. No slot **Item do acordeão**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Bloco de texto** e, depois, **OK**.
 1. No painel de propriedades do módulo bloco de texto, insira um parágrafo de texto (por exemplo, **As devoluções devem ser processadas via call center. Contate 1-800-FABRIKAM para devoluções. Os produtos têm uma política de devolução de 30 dias. As devoluções devem ser iniciadas neste intervalo de tempo.**).
 1. No slot **Acordeão**, adicione mais alguns módulos de item do acordeão. Em cada módulo de item do acordeão, adicione um módulo de bloco de texto que tenha conteúdo.
 1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página. A página mostrará um módulo de acordeão que tem o conteúdo adicionado.

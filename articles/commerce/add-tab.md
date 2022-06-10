@@ -2,7 +2,7 @@
 title: Módulo de guia
 description: Este tópico abrange os módulos de guia e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 104fb57cfdcd96a0da50899c0eac576074282017
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723278"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780605"
 ---
 # <a name="tab-module"></a>Módulo de guia
 
@@ -38,7 +38,7 @@ A imagem a seguir mostra um exemplo de um módulo de guia em uma página de site
 
 ## <a name="tab-module-properties"></a>Propriedades do módulo de guia
 
-| Nome da propriedade | Valores | descrição |
+| Nome da propriedade | Valores | Descrição |
 |---------------|--------|-------------|
 | Título | Texto | Esta propriedade especifica um cabeçalho de texto opcional para o módulo de guia. |
 | Índice da Guia Ativo | Número | Esta propriedade especifica a guia que deve estar ativa por padrão quando uma página é carregada. Se nenhum valor for fornecido, o primeiro item da guia ficará ativo por padrão. |
@@ -54,17 +54,17 @@ A imagem a seguir mostra um exemplo de um módulo de guia em uma página de site
 Para adicionar um módulo de guia a uma página e definir as propriedades, siga estas etapas.
 
 1. Use o modelo de marketing da Fabrikam (ou qualquer modelo que não tenha restrições) para criar uma nova página denominada **Página Armazenar políticas**.
-1. No slot **Principal** da **Página padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
-1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Guia** e, depois, **OK**.
+1. No slot **Principal** da **Página padrão**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Guia** e, depois, **OK**.
 1. No painel de propriedades do módulo de guia, selecione **Título** ao lado do símbolo de lápis.
 1. Na caixa de diálogo **Título**, em **Texto do Título**, insira o texto do título (por exemplo, **Políticas**). Em seguida, selecione **OK**.
-1. No slot **Guia**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Item da guia** e, depois, **OK**.
+1. No slot **Guia**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Item da guia** e, depois, **OK**.
 1. No painel de propriedades do módulo de item de guia, em **Título**, digite o texto do título (por exemplo, **Entrega**).
-1. No slot **Item de guia**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Bloco de texto** e, depois, **OK**.
+1. No slot **Item da guia**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Bloco de texto** e, depois, **OK**.
 1. No painel de propriedades do módulo de bloco de texto, em **Texto rico**, insira um parágrafo de texto.
 1. No slot **Guia**, adicione mais alguns módulos de itens de guia com títulos. Em cada módulo de item de guia, adicione um módulo de bloco de texto que tenha conteúdo.
 1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página. A página mostrará um módulo de guia que contém módulos de itens de guia com o conteúdo adicionado.

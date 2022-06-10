@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469887"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809085"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migração para a Otimização de Planejamento para o planejamento mestre
 
@@ -63,7 +63,7 @@ No momento, as exceções da migração para a Otimização de Planejamento só 
 
 Depois que os recursos necessários forem disponibilizados, a Microsoft fornecerá um período de carência até a expiração da exceção. O administrador do ambiente será informado quando os recursos necessários estiverem disponíveis e o período de carência tiver começado.
 
-O fluxograma abaixo resume as informações fornecidas neste tópico para que você possa decidir rapidamente se deve solicitar uma exceção. Se precisar solicitar uma exceção, preencha e envie a [Questionário de exceção e migração do plano de otimização](https://go.microsoft.com/fwlink/?linkid=2144962).
+O fluxograma abaixo resume as informações fornecidas neste tópico para que você possa decidir rapidamente se deve solicitar uma exceção. Se precisar solicitar uma exceção, preencha e envie a [Questionário de exceção e migração do plano de otimização](https://go.microsoft.com/fwlink/?linkid=2144962). O grupo de produtos é responsável por avaliar e aprovar cada solicitação de exceção; portanto, envie sua solicitação diretamente ao grupo de produtos usando o link fornecido e não crie um tíquete de suporte para ela. Se sua solicitação for rejeitada, não crie um tíquete de suporte porque o Suporte da Microsoft não pode reavaliar ou conceder exceções.
 
 ![Fluxograma de exceção.](media/exception-diagram.png "Fluxograma de exceção")
 

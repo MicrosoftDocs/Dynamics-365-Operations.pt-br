@@ -2,7 +2,7 @@
 title: Pesquisa de produto e de cliente no ponto de venda (PDV)
 description: Este tópico fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700080"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806418"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
@@ -106,6 +106,8 @@ Para definir os critérios de pesquisa como atalhos, o administrador deve abrir 
 > Se você adicionar muitos atalhos, o menu suspenso na barra de pesquisa no PDV se tornará confuso e a experiência de pesquisa do funcionário poderá ser afetada. Recomendamos que você adicione somente o número de atalhos que precisar.
 
 O campo **Ordem de exibição** determina a ordem em que os atalhos são exibidos no PDV. Os critérios que são mostrados são propriedades prontas para uso que o algoritmo de pesquisa do cliente usa para pesquisar clientes. Entretanto, os parceiros podem adicionar propriedades personalizadas como atalhos de pesquisa. Para adicionar propriedades personalizadas como atalhos de pesquisa, o administrador do sistema deve aumentar a enumeração extensível que é usada para os critérios de pesquisa do cliente e, em seguida, marcar as propriedades personalizadas do parceiro como atalhos. Os parceiros são responsáveis por gravar o código para localizar os resultados quando seus atalhos personalizados são usados para pesquisas.
+
+Traduções para atalhos são necessárias se você quiser que os atalhos sejam renderizados no PDV. Se o idioma do seu canal for diferente do idioma padrão do sistema, você deverá definir a tradução para cada atalho no idioma esperado. Você pode definir traduções selecionando **Traduzir** para cada atalho. 
 
 > [!NOTE]
 > Uma propriedade personalizada que é adicionada à enumeração não afeta o algoritmo de pesquisa do cliente padrão. Em outras palavras, o algoritmo de pesquisa do cliente não pesquisará a propriedade personalizada. Os usuários podem usar uma propriedade personalizado somente para pesquisas se essa propriedade personalizada for adicionada como um atalho, ou se o algoritmo de pesquisa padrão for substituído.

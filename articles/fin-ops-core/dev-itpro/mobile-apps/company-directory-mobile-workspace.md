@@ -2,7 +2,7 @@
 title: Espaço de trabalho móvel do diretório da empresa
 description: Este tópico fornece informações sobre o espaço de trabalho móvel do diretório da empresa, que permite exibir e contatar outros funcionários em sua organização.
 author: jcart1106
-ms.date: 09/17/2019
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b754e46f194f60cc70d02367d4cca2a382821191
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720639"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811529"
 ---
 # <a name="company-directory-mobile-workspace"></a>Espaço de trabalho móvel do diretório da empresa
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel **diretório da empresa**. Este espaço de trabalho permite que os usuários exibam e entrem em contato com outros funcionários em sua organização.
 
 Este espaço de trabalho móvel pode ser usado com o aplicativo móvel Finance and Operations.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 O espaço de trabalho móvel **Diretório da empresa** permite que os usuários executem estas tarefas:
 
 - Exibir uma lista de funcionários na organização.
@@ -54,7 +55,7 @@ Antes de usar este espaço de trabalho móvel, os seguintes pré-requisitos deve
 </ul>
 </td>
 <td>Administrador do sistema</td>
-<td>Se você ainda não tem um aplicativo do Finance and Operations implantado na sua organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Human Resources ainda não está implantado na organização, o administrador do sistema pode acessar uma versão de avaliação na <a href="https://dynamics.microsoft.com/human-resources/overview/">página da Web do Human Resources</a>.
+<td>Se ainda não tiver um aplicativo do Finance and Operations implantado na sua organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Human Resources ainda não está implantado na organização, o administrador do sistema pode acessar uma versão de avaliação na <a href="https://dynamics.microsoft.com/human-resources/overview/">página da Web do Human Resources</a>.
 </td>
 </tr>
 <tr class="even">

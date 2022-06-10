@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 13768988fcb2b1485753b29b3562c20ee6ba35c7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1c6d0952b98334dc0c0a2e780a7c6f54a7811185
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687747"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811732"
 ---
 # <a name="tax-calculation-overview"></a>Visão geral do Cálculo de Imposto
 
@@ -142,6 +142,11 @@ As seguintes transações são compatíveis na versão 10.0.26:
 
 - Diários Gerais
 - Diário de faturas de fornecedores
+
+As seguintes transações são compatíveis na versão 10.0.28: 
+
+- Diário de pagamentos do fornecedor
+- Diário de pagamentos do cliente
 
 ## <a name="supported-countriesregions"></a>Países/regiões com suporte
 

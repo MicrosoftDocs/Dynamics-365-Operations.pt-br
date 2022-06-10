@@ -2,35 +2,32 @@
 title: Criar páginas de comércio eletrônico dinâmicas com base nos parâmetros da URL
 description: Este tópico descreve como configurar uma página de comércio eletrônico do Microsoft Dynamics 365 Commerce que pode fornecer conteúdo dinâmico, com base em parâmetros de URL.
 author: StuHarg
-ms.date: 01/28/2021
+ms.date: 05/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ROBOTS: ''
-audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 348fdb30f4d0104e80bea5235c1e337b9f977311
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694331"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811022"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Criar páginas de comércio eletrônico dinâmicas com base nos parâmetros da URL
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico descreve como configurar uma página de comércio eletrônico do Microsoft Dynamics 365 Commerce que pode fornecer conteúdo dinâmico, com base em parâmetros de URL.
 
-Uma página de comércio eletrônico pode ser configurada para fornecer conteúdo diferente, com base em um segmento no caminho da URL. Portanto, a página é conhecida como uma página dinâmica. O segmento é usado como um parâmetro para recuperar o conteúdo da página. Por exemplo, uma página denominada **visualizador\_de blog** é criada e associada à URL `https://fabrikam.com/blog`. Essa página pode ser usada para mostrar conteúdo diferente, com base no último segmento do caminho da URL. Por exemplo, o último segmento na URL `https://fabrikam.com/blog/article-1` é o **artigo-1**.
+Uma página de comércio eletrônico pode ser configurada para fornecer conteúdo diferente, com base em um segmento no caminho da URL. Portanto, a página é conhecida como uma página dinâmica. O segmento é usado como um parâmetro para recuperar o conteúdo da página. Por exemplo, uma página criada no construtor de sites e nomeada **blog\_viewer** é mapeada para a URL `https://fabrikam.com/blog`. Essa página pode ser usada para mostrar conteúdo diferente, com base no último segmento do caminho da URL. Por exemplo, o último segmento na URL `https://fabrikam.com/blog/article-1` é o **artigo-1**.
 
-As páginas personalizadas separadas que substituem a página dinâmica também podem ser associadas a segmentos no caminho da URL. Por exemplo, uma página denominada **resumo\_de blog** é criada e associada à URL `https://fabrikam.com/blog/about-this-blog`. Quando essa URL é solicitada, a página **resumo\_do blog** que é associada ao parâmetro **/about-this-blog** é retornada, em vez da página **visualizador\_do blog**.
+Também é possível substituir um segmento de URL parametrizada por uma página do construtor de sites. Por exemplo, uma página criada no construtor de sites e nomeada **blog\_summary** pode ser mapeada para a URL `https://fabrikam.com/blog/about-this-blog`. Quando a URL `https://fabrikam.com/blog` é solicitada com o segmento `/about-this-blog` na extremidade, o conteúdo da página **blog\_summary** é retornado em vez do segmento `/about-this-blog` que está sendo interpretado como um parâmetro a ser usado pela página `https://fabrikam.com/blog`. 
+
+Ao selecionar nomes para os parâmetros a serem passados para a página dinâmica, o nome da página dinâmica que aparece na URL (`/blog` no exemplo acima) não pode ser usado como um nome de parâmetro ou uma substring de um nome de parâmetro. 
 
 > [!NOTE]
 > A funcionalidade para hospedar, recuperar e mostrar o conteúdo da página dinâmica é implementada usando um módulo personalizado. Para obter mais informações, consulte [Extensibilidade de canal online](e-commerce-extensibility/overview.md).
@@ -60,7 +57,7 @@ Para configurar o roteiro para a página dinâmica no assistente para criação 
 1. Em **Caminhos de URL parametrizada**, selecione **Adicionar** e insira o caminho da URL inserido ao criar a URL (neste exemplo, **/blog**).
 1. Selecione **Salvar e publicar**.
 
-Depois que o roteiro for configurado, todas as solicitações ao caminho de URL parametrizada retornarão a página associada a essa URL. Se alguma solicitação contiver um segmento adicional, a página associada será devolvida e o conteúdo da página será recuperado usando o segmento como um parâmetro. Por exemplo, `https://fabrikam.com/blog/article-1` retornará a página **resumo de\_blog** e o conteúdo da página será recuperado usando o parâmetro **/article-1**.
+Depois que o roteiro for configurado, todas as solicitações ao caminho de URL parametrizada retornarão a página associada a essa URL. Se alguma solicitação contiver um segmento adicional, a página associada será devolvida e o conteúdo da página será recuperado usando o segmento como um parâmetro. Por exemplo, `https://fabrikam.com/blog/article-1` retornará a página `https://fabrikam.com/blog`, exibindo o conteúdo que é recuperado usando o parâmetro **/article-1**.
 
 ## <a name="override-a-parameterized-url-with-a-custom-page"></a>Substituir uma URL parametrizada por uma página personalizada
 

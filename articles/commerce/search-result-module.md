@@ -2,7 +2,7 @@
 title: Módulo de resultados de pesquisa
 description: Este tópico abrange os módulos de resultados de pesquisa e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/21/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644917"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780909"
 ---
 # <a name="search-results-module"></a>Módulo de resultados de pesquisa
 
@@ -65,23 +65,26 @@ O módulo de resultados de pesquisa oferece suporte ao [módulo de exibição r�
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Adicionar um módulo de resultados de pesquisa a uma página de categoria
 
-Para adicionar um módulo de resultados de pesquisa a uma página de categoria, siga estas etapas.
+Para adicionar um módulo de resultados de pesquisa a uma página de categoria no construtor de sites, siga estas etapas.
 
 1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo modelo**, digite o nome **Resultados de pesquisa** e selecione **OK**.
 1. No slot **Corpo**, selecione as reticências (...) e, depois, **Adicionar módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Página Padrão** e, depois, **OK**.
 1. No slot **Principal** do módulo **Página padrão**, selecione as reticências (...) e, em seguida, **Adicionar módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. No slot **Contêiner**, selecione as reticências (...) e, depois, **Adicionar módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Trilha de navegação** e, depois, **OK**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Trilha** e, depois, **OK**.
 1. No painel de propriedades **Trilha de navegação**, digite o valor **1** para **Mínimo ocorrer**.
 1. No slot **Contêiner**, selecione as reticências (...) e, depois, **Adicionar módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Resultados de pesquisa** e, depois, **OK**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Resultados da pesquisa** e, depois, **OK**.
 1. No painel **Propriedades de resultados da pesquisa**, digite o valor **1** para **Mínimo ocorrer** e, em seguida, defina outras propriedades necessárias para o módulo de resultados da pesquisa. Ao definir essas propriedades no modelo, você garante que todas as personalizações em uma página de categoria específica incluam automaticamente essas configurações.
 1. Selecione **Concluir edição** e depois selecione **Publicar** para publicar o modelo.
 1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
-1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Resultados de pesquisa** que você criou, digite **Página da categoria** para **Nome da página** e selecione **OK**. Como todos os valores são definidos no modelo, a página está pronta para ser publicada.
+1. Na caixa de diálogo **Criar uma nova página**, em **Nome da página**, insira **Página da categoria** e selecione **Avançar**.
+1. Em **Escolher um modelo**, selecione o módulo **Resultados da pesquisa** que você criou e escolha **Avançar**.
+1. Em **Escolher um layout**, selecione um layout de página (por exemplo, **Layout flexível**) e selecione **Avançar**.
+1. Em **Revisar e concluir**, revise a configuração da página. Se você precisar editar as informações da página, selecione **Voltar**. Se as informações da página estiverem corretas, selecione **Criar página**.
 1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Habilitar o reconhecimento de estoque para o módulo de resultados de pesquisa
@@ -102,7 +105,7 @@ A pesquisa de produtos com reconhecimento de estoque usa atributos de produto pa
 
 Para criar atributos de produto dedicados para oferecer suporte ao módulo de resultados de pesquisa com reconhecimento de estoque, siga estas etapas:
 
-1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Produtos e estoque**.
+1. No Headquarters, acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Produtos e estoque**.
 1. Selecione e abra **Preencher atributos de produto com nível de estoque**.
 1. Na caixa de diálogo, insira as seguintes informações:
 
@@ -116,11 +119,11 @@ Para criar atributos de produto dedicados para oferecer suporte ao módulo de re
 
 Para configurar os atributos do produto para um canal online, siga estas etapas: 
 
-1. Acesse **Varejo e Comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
-2. Selecione um canal online para habilitar o módulo de resultados de pesquisa com reconhecimento de estoque.
-3. Selecione e abra um grupo de atributos associado e, em seguida, adicione o atributo de produto recém-criado a ele.
-4. Para as versões do Commerce anteriores à 10.0.27, selecione **Definir metadados de atributo**, selecione o atributo de produto recém-adicionado e, em seguida, ative as opções **Mostrar atributo no canal**, **Recuperável**, **Pode ser refinado** e **Pode ser consultado**.
-5. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de Distribuição** e execute o trabalho **1150 (Catálogo)**. Se você agendar o trabalho **Preencher atributos de produto com nível de estoque** com um processo em lote recomendamos que você também agende o trabalho 1150 como um processo em lote que seja executado na mesma frequência.
+1. No Headquarters, acesse **Varejo e Comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
+1. Selecione um canal online para habilitar o módulo de resultados de pesquisa com reconhecimento de estoque.
+1. Selecione e abra um grupo de atributos associado e, em seguida, adicione o atributo de produto recém-criado a ele.
+1. Para as versões do Commerce anteriores à 10.0.27, selecione **Definir metadados de atributo**, selecione o atributo de produto recém-adicionado e, em seguida, ative as opções **Mostrar atributo no canal**, **Recuperável**, **Pode ser refinado** e **Pode ser consultado**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de Distribuição** e execute o trabalho **1150 (Catálogo)**. Se você agendar o trabalho **Preencher atributos de produto com nível de estoque** com um processo em lote recomendamos que você também agende o trabalho 1150 como um processo em lote que seja executado na mesma frequência.
 
 > [!NOTE]
 > Para os produtos mostrados no módulo de resultados da pesquisa, o nível de estoque é exibido no nível do produto mestre, e não no nível de grade individual. Ele tem apenas dois valores possíveis: "disponível" e "esgotado". O rótulo real para o valor é recuperado da definição do [perfil de nível de estoque](inventory-buffers-levels.md). Um produto mestre só é considerado fora do estoque quando todas as suas variantes estão fora do estoque.

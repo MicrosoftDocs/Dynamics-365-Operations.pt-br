@@ -2,19 +2,19 @@
 title: Ocultar informações de separação de impostos em resumos de ordens
 description: Este tópico descreve como ocultar informações de separação de impostos em resumos de ordens em páginas de carrinho, finalização de compra, confirmação de ordem e detalhes da ordem no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 04/21/2022
+ms.date: 05/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: 9890b5cd92f8c07e6feabb26f4fdd076cb7a02bc
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9a0bff7afaa10e49ec05f18e2b0fae7a19b5e8af
+ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645211"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8767805"
 ---
 # <a name="hide-tax-breakup-information-in-order-summaries"></a>Ocultar informações de separação de impostos em resumos de ordens
 
@@ -46,6 +46,9 @@ Para mostrar informações de separação de impostos nos resumos de ordens, mar
 A ilustração a seguir mostra a caixa de seleção **Mostrar separação de impostos no resumo da ordem** destacada e selecionada no criador de sites.
 
 ![A opção Mostrar separação de impostos no resumo da ordem no criador de sites.](media/prices-include-sales-tax-e-Commerce-site-settings.png)
+
+> [!NOTE]
+> Se você personalizou os módulos de resumo de ordem e não deseja herdar a funcionalidade "ocultar as informações de separação de impostos em resumos de ordens" no Commerce versão 10.0.27 ou posterior, consulte [O subtotal do resumo de ordem não inclui impostos sobre encargos ao usar módulos de resumo de ordem personalizados](troubleshoot/summary-taxes-custom-modules-10.0.27.md#resolution).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

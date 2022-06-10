@@ -2,7 +2,7 @@
 title: Exibir e atualizar dados da entidade com o Excel
 description: Este tópico explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464927"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762615"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Exibir e atualizar dados da entidade com o Excel 
 
@@ -110,7 +110,7 @@ Você pode usar o criador para ajustar as colunas que são automaticamente adici
 5. Se você adicionou um campo (coluna), selecione **Atualizar** para obter um conjunto de dados atualizados.
 
 ## <a name="change-the-publish-batch-size"></a>Alterar o tamanho do lote de publicação
-Quando os usuários publicam alterações em registros de dados usando o suplemento do Excel, as atualizações são enviadas em lotes. O tamanho padrão do lote de publicação é de 100 linhas. Na versão 10.0.17 e posterior, o recurso **Permitir configuração do tamanho do lote de publicação no suplemento do Excel** oferece controle flexível sobre o tamanho do lote de publicação.
+Quando os usuários publicam alterações em registros de dados usando o suplemento do Excel, as atualizações são enviadas em lotes. O tamanho do lote de publicação padrão (e máximo) é de 100 linhas; porém, o recurso **Permitir configuração do tamanho do lote de publicação no suplemento do Excel** oferece flexibilidade para reduzir o tamanho do lote de publicação, especialmente se você estiver vendo tempos limite ao tentar publicar atualizações do Excel.
 
 Os administradores do sistema podem especificar um limite de tamanho do lote de publicação em todo o sistema para pastas de trabalho "Abrir no Excel" configurando o campo **Limite do lote de publicação** na seção **Parâmetros do aplicativo** da página **Parâmetros do aplicativo Office**.
 

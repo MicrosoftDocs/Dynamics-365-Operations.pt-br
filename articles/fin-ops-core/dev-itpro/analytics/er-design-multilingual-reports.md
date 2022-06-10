@@ -2,7 +2,7 @@
 title: Projetar relatórios multilíngues em Relatórios eletrônicos
 description: Este tópico explica como você pode usar etiquetas de Relatório eletrônico (ER) para criar e gerar relatórios multilíngues.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313682"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811597"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Projetar relatórios multilíngues em Relatórios eletrônicos
 
@@ -46,7 +46,7 @@ Você pode configurar recursos dependentes do idioma como etiquetas de ER. Em se
 
 As etiquetas de ER podem ser configuradas em cada [configuração](general-electronic-reporting.md#Configuration) de ER que contém componentes diferentes. As etiquetas podem ser mantidas independentemente da lógica configurada dos modelos de dados de ER, dos mapeamentos de modelo de ER e dos componentes de formato de ER.
 
-Cada etiqueta de ER é identificada por uma ID exclusiva no escopo da configuração ER que contém essa etiqueta. Cada etiqueta pode conter texto para cada idioma com suporte na instância atual do Microsoft Dynamics 365 Finance. Esses idiomas com suporte incluem os idiomas das personalizações implantadas.
+Cada etiqueta de ER é identificada por uma ID exclusiva no escopo da configuração ER que contém essa etiqueta. Cada etiqueta pode conter texto para cada idioma com suporte na instância atual do Microsoft Microsoft Dynamics 365 Finance. Esses idiomas com suporte incluem os idiomas das personalizações implantadas.
 
 ## <a name="entry"></a>Entrada
 
@@ -81,7 +81,7 @@ Quando um modelo de dados de ER é configurado dessa forma, seu conteúdo será 
 
 ### <a name="model-mapping-component"></a>Componente de mapeamento de modelos
 
-Como o mapeamento do modelo de ER se baseia em um modelo de dados de ER, as etiquetas dos elementos do modelo de dados referenciados são exibidas no idioma preferencial do usuário no designer de mapeamento do modelo. A ilustração a seguir mostra como o significado do campo **PurchaseOrder** é explicado no mapeamento do modelo editável usando a etiqueta do atributo **Descrição** que foi adicionado ao modelo de dados configurado. Observe que essa etiqueta é apresentada no idioma preferencial do usuário (DE-AT, neste exemplo).
+Como o mapeamento do modelo de ER se baseia em um modelo de dados de ER, as etiquetas dos elementos do modelo de dados referenciados aparecem no idioma preferencial do usuário no designer de mapeamento do modelo. A ilustração a seguir mostra como o significado do campo **PurchaseOrder** é explicado no mapeamento do modelo editável usando a etiqueta do atributo **Descrição** que foi adicionado ao modelo de dados configurado. Observe que essa etiqueta é apresentada no idioma preferencial do usuário (DE-AT, neste exemplo).
 
 ![Layout do designer de mapeamento de modelo de ER para um usuário com DE-AT definido como o idioma preferencial.](./media/er-multilingual-labels-show-mapping.png)
 
@@ -89,7 +89,7 @@ Quando o atributo **Etiqueta** da fonte de dados **Parâmetro de entrada do usu�
 
 ### <a name="format-component"></a>Componente de formato
 
-Ao configurar um formato de ER, você poderá adicionar etiquetas de ER a ele. Os atributos **Etiqueta** e **Texto da ajuda** de cada fonte de dados configurada podem ser vinculados a uma etiqueta de ER adicionada ao formato de ER. Os atributos **Etiqueta** e **Descrição** de cada <a id="LinkFormatEnum"></a>valor de enumeração de formato também podem ser vinculados a uma etiqueta de ER que pode ser acessada desde o formato de ER editável.
+Ao configurar um formato de ER, você poderá adicionar etiquetas de ER a ele. Os atributos **Etiqueta** e **Texto da ajuda** de cada fonte de dados configurada podem ser vinculados a uma etiqueta de ER adicionada ao formato de ER. Os atributos **Etiqueta** e **Descrição** de cada <a id="LinkFormatEnum"></a>valor de enumeração de formato também podem ser vinculados a uma etiqueta de ER acessável do formato de ER editável.
 
 > [!NOTE]
 > Você também pode vincular esses atributos a uma etiqueta de ER do modelo de dados de ER pai que reutiliza as etiquetas do modelo em todos os formatos de ER configurados para esse modelo de dados de ER.
@@ -217,6 +217,11 @@ As etiquetas traduzidas serão importadas para a configuração ER selecionada. 
 As etiquetas de um componente de ER que podem ser editadas são mantidas, juntamente com outro conteúdo para o componente, na versão apropriada de uma configuração ER.
 
 Etiquetas de um componente ER base podem ser referenciadas em uma versão derivada do componente de ER que você cria para apresentar suas modificações.
+
+> [!TIP]
+> Ao criar uma solução ER, você pode derivar seu próprio componente de [modelo de dados](er-overview-components.md#data-model-component) ER do componente fornecido. Neste modelo de dados derivado, você pode apresentar suas próprias etiquetas de ER e usá-las em todos os formatos ER que usarão o modelo de dados como a fonte de dados. É possível derivar seu próprio componente de formato [ER](er-overview-components.md#format-component) do que é fornecido, selecionando o modelo de dados ER derivado, em vez do modelo fornecido. Na versão 10.0.28 e posterior, você pode habilitar o recurso **Acesso aprimorado a etiquetas de um modelo de dados ER ascendente** para acessar etiquetas de um modelo de dados ER ascendente em componentes de formato ER derivados, mesmo quando o modelo de dados ER selecionado para o componente ER derivado é diferente do usado no componente ER de base.
+>
+> Quando o mesmo nome de etiqueta é usado no componente derivado e nos componentes ascendentes, a tradução dessa etiqueta é usada como a mais relevante.
 
 Atribuição de etiqueta de controles de versão de ER para qualquer atributo em um componente de ER. As alterações na atribuição de etiqueta são registradas na lista de alterações (delta) de um componente de ER editável que foi criado como uma versão derivada do componente de ER fornecido. Essas alterações serão validadas quando uma versão derivada for baseada novamente em uma nova versão base.
 

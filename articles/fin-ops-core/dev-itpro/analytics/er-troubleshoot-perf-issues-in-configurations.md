@@ -2,7 +2,7 @@
 title: Solução de problemas de desempenho nas configurações ER
 description: Este tópico explica como encontrar e corrigir problemas de desempenho nas configurações de Relatórios Eletrônicos (ER).
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744377"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811670"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Solução de problemas de desempenho nas configurações ER
 
@@ -55,7 +55,7 @@ O tempo de execução pode depender de fatores imprevisíveis, como outras taref
 
 Prepare um pequeno exemplo ou colete vários rastreamentos durante partes aleatórias da geração de relatórios.
 
-Em seguida, no [Analisador de Rastreamento](#trace-parser), faça uma análise padrão de baixo para cima e responda às seguintes perguntas:
+No [Analisador de rastreamento](#trace-parser), faça uma análise padrão ascendente e responda às seguintes perguntas:
 
 - Quais são os principais métodos em termos de consumo de tempo?
 - Que parte do tempo global esses métodos usam?
@@ -82,7 +82,7 @@ Em seguida, abra o rastreamento no designer de mapeamento de modelo de ER, e vej
 
 - O número de consultas e registros obtidos corresponde à quantidade total de dados? Por exemplo, se um documento tem 10 linhas, as estatísticas mostram que o relatório extrai 10 linhas ou 1.000 linhas? Se você tiver um número significativo de registros obtidos, considere uma das seguintes correções:
 
-    - [Use a função **FILTER** em vez da função **WHERE**](#filter) para processar dados no lado do SQL Server.
+    - [Use a função **FILTER** em vez da função **WHERE**](#filter) para processar dados no lado do Microsoft SQL Server.
     - Use o armazenamento em cache para evitar obter os mesmos dados.
     - [Use funções dos dados coletados](#collected-data) para evitar obter os mesmos dados para resumo.
 
@@ -191,6 +191,10 @@ Há algumas limitações para essa abordagem. Você deve ter acesso administrati
 
 Embora o armazenamento em cache reduza a quantidade de tempo necessário para obter dados novamente, isso tem um custo de memória. Use o armazenamento em cache nos casos em que a quantidade de dados obtidos não seja muito grande. Para obter mais informações e um exemplo que mostre como usar o armazenamento em cache, consulte [Melhorar o mapeamento do modelo com base em informações do rastreamento de execução](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace).
 
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a>Reduzir o volume de dados obtidos
+
+Você pode reduzir o consumo de memória para armazenamento em cache limitando o número de campos nos registros de uma tabela de aplicação que você busca no runtime. Nesse caso, você obterá somente os valores de campo de uma tabela de aplicação necessária no mapeamento do modelo ER. Outros campos dessa tabela não serão obtidos. Portanto, o volume de memória necessário para armazenar em cache os registros obtidos é reduzido. Para obter mais informações, consulte [Melhorar o desempenho de soluções ER, reduzindo o número de campos de tabela obtidos no runtime](er-reduce-fetched-fields-number.md).
+
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Usar um campo calculado armazenamento em cache e parametrizado
 
 Às vezes, os valores devem ser pesquisados repetidamente. Exemplos incluem nomes de contas e números de contas. Para ajudar a economizar tempo, você pode criar um campo calculado que tenha parâmetros no nível superior e, em seguida, adicionar o campo ao armazenamento em cache.
@@ -218,4 +222,4 @@ O ER pode consumir dados das seguintes fontes:
 - Classes (fontes de dados de **objetos** e **classes**)
 - Tabelas (fontes de dados de **tabelas** e **registros de tabela**)
 
-A [API de ER](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) também fornece uma maneira de enviar dados pré-calculados a partir do código de chamada. O pacote de aplicativos contém vários exemplos dessa abordagem.
+A [API (interface de programação de aplicativo) de ER](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) também fornece uma maneira de enviar dados pré-calculados a partir do código de chamada. O pacote de aplicativos contém vários exemplos dessa abordagem.

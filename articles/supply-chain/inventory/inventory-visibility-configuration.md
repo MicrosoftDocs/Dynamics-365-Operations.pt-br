@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547778"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786828"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Visibilidade de Estoque
 
@@ -60,7 +60,7 @@ O Suplemento de Visibilidade de Estoque adiciona vários recursos novos à sua i
 
 Se você não souber o ponto de extremidade de serviço de Visibilidade de Estoque correto, abra a página **Configuração** no Power Apps e selecione **Mostrar Ponto de Extremidade de Serviço** no canto superior direito. A página mostrará o ponto de extremidade de serviço correto.
 
-## <a name="data-source-configuration"></a>Configuração de fonte de dados
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configuração de fonte de dados
 
 Cada fonte de dados representa um sistema de onde vêm seus dados. Exemplos de nomes de fonte de dados incluem `fno` (que significa aplicativos de finanças e operações do "Dynamics 365") e `pos` (que significa "ponto de venda"). Por padrão, o Supply Chain Management é configurado como uma fonte de dados padrão (`fno`) no Visibilidade de Estoque.
 
@@ -109,7 +109,7 @@ O objetivo da configuração da dimensão é padronizar a integração de vário
 | Diversos | `VersionId` |
 | Estoque (personalizado) | `InventDimension1` a `InventDimension12` |
 | Extensão | `ExtendedDimension1` a `ExtendedDimension8` |
-| System | `Empty` |
+| Sistema | `Empty` |
 
 > [!NOTE]
 > Os tipos de dimensão listados na tabela anterior são apenas para referência. Você não precisa defini-los no Visibilidade de Estoque.
@@ -141,7 +141,7 @@ Para adicionar mapeamentos de dimensão, siga estas etapas.
 
 Por exemplo, se a sua fonte de dados incluir uma dimensão de cor do produto, você poderá mapeá-la para a dimensão base `ColorId` a fim de adicionar uma dimensão personalizada `ProductColor` à fonte de dados `exterchannel`. Em seguida, ela será mapeada para a dimensão base `ColorId`.
 
-### <a name="physical-measures"></a>Medidas físicas
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Medidas físicas
 
 Quando uma fonte de dados lança uma alteração de estoque em Visibilidade de Estoque, ela lança essa alteração usando *medidas físicas*. As medidas físicas modificam a quantidade e refletem o status do estoque. Você pode definir suas próprias medidas físicas, com base em seus requisitos. As consultas podem ser baseadas nas medidas físicas.
 
@@ -175,6 +175,9 @@ Se a fonte de dados for o Supply Chain Management, você não precisará recriar
 ### <a name="calculated-measures"></a>Medidas calculadas
 
 Você pode usar Visibilidade de Estoque para consultar tanto as medidas físicas de estoque como as *medidas calculadas personalizadas*. As medidas calculadas fornecem uma fórmula de cálculo personalizada que consiste em uma combinação de medidas físicas. Essa funcionalidade permite definir um conjunto de medidas físicas que serão adicionadas e/ou um conjunto de medidas físicas que serão subtraídas para formar a medida personalizada.
+
+> [!IMPORTANT]
+> Uma medida calculada é uma composição de medidas físicas. Sua fórmula pode incluir somente medidas físicas sem duplicatas, não medidas calculadas.
 
 A configuração permite que você defina um conjunto de modificadores adicionados ou subtraídos para obter a quantidade de saída agregada total.
 
@@ -297,7 +300,7 @@ A solução inclui essa configuração de partição por padrão. Portanto, *voc
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Configuração de hierarquia de índice de produtos
 
-Na maioria das vezes, a consulta de estoque disponível não será apenas no nível "total" mais alto. Em vez disso, talvez você também queira ver os resultados agregados com base nas dimensões do estoque.
+Na maioria das vezes, a consulta de estoque disponível não será apenas no nível "total" mais alto. Em vez disso, talvez você deseje ver os resultados agregados com base nas dimensões do estoque.
 
 O Visibilidade de Estoque fornece flexibilidade, permitindo que você configure _índices_. Esses índices são baseados em uma dimensão ou combinação de dimensões. Um índice consiste em um *número do conjunto*, uma *dimensão* e uma *hierarquia*, conforme definido na tabela a seguir.
 

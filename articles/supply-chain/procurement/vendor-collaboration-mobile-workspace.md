@@ -2,7 +2,7 @@
 title: Espaço de trabalho móvel de colaboração de fornecedores
 description: Este tópico fornece informações sobre a área de trabalho móvel de colaboração de fornecedor. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
 author: GalynaFedorova
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,23 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670094"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811704"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espaço de trabalho móvel de colaboração de fornecedores
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel **Colaboração de fornecedor**. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
 
-Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Finance and Operations.
+Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel de finanças e operações (Dynamics 365).
 
-## <a name="overview"></a>Visão Geral 
+## <a name="overview"></a>Visão geral 
 O espaço de trabalho móvel **Colaboração do fornecedor** mantém os fornecedores informados sobre novas ordens de compra para que eles possam ver e responder a ordens de compra no cliente Web. 
 
 >[!NOTE]
@@ -109,7 +110,7 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de p
 
 ## <a name="download-and-install-the-mobile-app"></a>Baixa e instala o aplicativo móvel.
 
-Baixe e instale o aplicativo móvel Finance and Operations:
+Baixe e instale o aplicativo móvel de finanças e operações (Dynamics 365):
 
 -   [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -2,7 +2,7 @@
 title: Designer de fórmulas no relatório eletrônico (ER)
 description: Este tópico fornece informações sobre como usar o designer de fórmulas no relatório eletrônico (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777395"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782194"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer de fórmulas no relatório eletrônico (ER)
 
@@ -41,7 +41,8 @@ Você pode abrir a página **Designer de fórmulas** quando executar qualquer um
 - Associar itens da fonte de dados a componentes do modelo de dados.
 - Associar itens da fonte de dados a componentes do formato.
 - Concluir a manutenção dos campos calculados que fazem parte das fontes de dados.
-- Definir as condições de visibilidade dos parâmetros de entrada de usuário.
+- Definir as condições de visibilidade e editabilidade dos parâmetros de entrada de usuário.
+- Definir os valores padrão dos parâmetros de entrada de usuário.
 - Criar as transformações de um formato.
 - Definir as condições de habilitação dos componentes do formato.
 - Definir os nomes de arquivo para os componentes do ARQUIVO do formato.

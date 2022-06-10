@@ -2,7 +2,7 @@
 title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645125"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811410"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -134,7 +134,7 @@ Na guia **Mapeamento** do designer de operação do ER, você pode configurar a 
 - Se uma expressão da propriedade **Habilitado** estiver configurada para retornar **Falso** no tempo de execução e se esse intervalo não representar as linhas ou colunas inteiras, o intervalo apropriado não será preenchido no documento gerado.
 - Se uma expressão da propriedade **Habilitado** estiver configurada para retornar **Falso** no tempo de execução e se esse intervalo representar as linhas ou colunas inteiras, o documento gerado conterá essas linhas e colunas como linhas e colunas ocultas.
 
-### <a name="resizing"></a>Alinhamento
+### <a name="resizing"></a>Redimensionamento
 
 Você pode configurar o modelo do Excel para usar células para apresentar dados textuais. Para garantir que todo o texto em uma célula fique visível em um documento gerado, você pode configurar essa célula para quebrar automaticamente o texto dentro dela. Você também poderá configurar a linha que contém essa célula para ajustar automaticamente a altura se o texto disposto não estiver totalmente visível. Para obter mais informações, consulte a seção "Quebrar texto automaticamente em uma célula" em [Corrigir dados cortados em células](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
 
@@ -288,6 +288,16 @@ Você pode selecionar **Atualizar do Excel** na guia **Importar** do Painel de A
 
 ![Opção Criar elemento de formato de planilha do Excel na caixa de diálogo Atualizar do Excel.](./media/er-excel-format-update-template.png)
 
+Na versão 10.0.28 e posterior, você pode usar a opção **Atualizar elementos do formato do Cabeçalho e do Rodapé do Excel**.
+
+- Quando você definir esta opção como **Não**, os elementos do cabeçalho e do rodapé do Excel permanecerão inalterados, mesmo que os cabeçalhos ou os rodapés correspondentes tenham sido atualizados nas planilhas do modelo importado no formato de pasta de trabalho do Excel.
+- Quando você definir esta opção como **Sim**, os elementos do cabeçalho e do rodapé do Excel serão alterados quando os cabeçalhos ou os rodapés correspondentes forem atualizados nas planilhas do modelo importado no formato de pasta de trabalho do Excel.
+
+    - Se a estrutura de um cabeçalho ou rodapé de uma planilha não tiver sido alterada, ou se tiver sido anexada, a estrutura do elemento de formato correspondente no cabeçalho ou rodapé do Excel será atualizada. Associações de elementos de formato aninhados neste elemento de formato de cabeçalho ou rodapé do Excel serão preservadas.
+    - Se a estrutura de um cabeçalho ou rodapé de planilha tiver sido alterada, a estrutura do elemento de formato correspondente no cabeçalho ou rodapé do Excel será recriada. Associações de elementos de formato aninhados neste elemento de formato de cabeçalho ou rodapé do Excel serão removidas.
+
+![Atualize a opção Elementos do formato do Cabeçalho e do Rodapé do Excel na caixa de diálogo Atualizar do Excel.](./media/er-excel-format-update-template2.png)
+
 Para saber mais sobre esse recurso, siga as etapas em [Modificar formatos de relatório eletrônico reaplicando modelos do Excel](modify-electronic-reporting-format-reapply-excel-template.md).
 
 ## <a name="validate-an-er-format"></a>Validar um formato ER
@@ -355,7 +365,7 @@ Quando um documento de saída é gerado em um formato de pasta de trabalho do Mi
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Exemplo 2: Corrigir o problema de EPPlus de células mescladas
 
-Você pode executar um formato de ER para gerar um documento de saída em um formato de pasta de trabalho do Excel. Quando o recurso **Habilitar uso da biblioteca de EPPlus em estrutura eletrônica de relatórios** estiver habilitado no workspace **Gerenciamento de recursos**, a [biblioteca de EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) será usada para gerar a saída do Excel. No entanto, devido ao [comportamento do Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) conhecido e a uma limitação da biblioteca de EPPlus, você pode encontrar a seguinte exceção: "Não é possível excluir/substituir células mescladas. Um intervalo é mesclado parcialmente com o outro intervalo mesclado." Para saber qual tipo de modelos do Excel podem causar essa exceção e como você pode corrigir o problema, conclua o exemplo a seguir.
+Você pode executar um formato de ER para gerar um documento de saída em um formato de pasta de trabalho do Excel. Quando o recurso **Habilitar uso da biblioteca de EPPlus em estrutura eletrônica de relatórios** estiver habilitado no workspace **Gerenciamento de recursos**, a [biblioteca de EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) será usada para gerar a saída do Excel. No entanto, devido ao [comportamento do Excel](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) conhecido e a uma limitação da biblioteca de EPPlus, você pode encontrar a seguinte exceção: "Não é possível excluir/substituir células mescladas. Um intervalo é mesclado parcialmente com o outro intervalo mesclado." Para saber qual tipo de modelos do Excel podem causar essa exceção e como você pode corrigir o problema, conclua o exemplo a seguir.
 
 1. No aplicativo de área de trabalho do Excel, crie uma nova pasta de trabalho do Excel.
 2. Na planilha **Sheet1**, adicione o nome **ReportTitle** para a célula **A2**.

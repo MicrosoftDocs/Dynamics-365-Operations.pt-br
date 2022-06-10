@@ -2,7 +2,7 @@
 title: Módulo de galeria de mídia
 description: Este tópico abrange os módulos de galeria de mídia e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 08/02/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733188"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780859"
 ---
 # <a name="media-gallery-module"></a>Módulo de galeria de mídia
 
@@ -78,18 +78,21 @@ Quando a origem da imagem é derivada do contexto da página, a ID do produto da
 Para adicionar um módulo de galeria de mídia a uma página de marketing, siga estas etapas:
 
 1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
-1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo de marketing** e selecione **OK**.
-1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
-1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. Na caixa de diálogo **Novo modelo**, em **Nome do modelo**, insira **Modelo de marketing** e selecione **OK**.
+1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Página Padrão** e, depois, **OK**.
+1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
-1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de marketing**. Em **Nome da página**, insira **Página de galeria de mídia** e selecione **OK**.
-1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
-1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Galeria de mídia** e, depois, **OK**.
+1. Na caixa de diálogo **Criar uma nova página**, em **Nome da página**, insira **Página de galeria de mídia** e selecione **Avançar**.
+1. Em **Escolher um modelo**, selecione o **Modelo de marketing** que você criou e, depois, selecione **Avançar**.
+1. Em **Escolher um layout**, selecione um layout de página (por exemplo, **Layout flexível**) e selecione **Avançar**.
+1. Em **Revisar e concluir**, revise a configuração da página. Se você precisar editar as informações da página, selecione **Voltar**. Se as informações da página estiverem corretas, selecione **Criar página**. 
+1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Galeria de mídia** e, depois, **OK**.
 1. No painel de propriedades do módulo de galeria de mídia, em **Origem da imagem**, selecione **Productid**. Em seguida, no campo **ID do produto**, insira uma ID do produto.
 1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página. Você poderá ver as imagens do produto em uma exibição de galeria.
 1. Para usar somente imagens organizadas, no painel de propriedades, em **Origem da imagem**, selecione **Productid**. Em seguida, em **Imagens**, selecione **Adicionar uma imagem** quantas vez for necessário para adicionar imagens da Biblioteca de Mídia.

@@ -2,19 +2,19 @@
 title: Criar catálogos do Commerce para sites B2B
 description: Este tópico descreve como criar catálogos do Commerce para sites B2B (business-to-business) do Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 868f6bbeefeb1698bb136d52c09cebf293c95731
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656825"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782828"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Criar catálogos do Commerce para sites B2B
 
@@ -24,7 +24,7 @@ ms.locfileid: "8656825"
 Este tópico descreve como criar catálogos de produtos do Commerce para sites B2B (business-to-business) do Microsoft Dynamics 365 Commerce. Para obter respostas a perguntas frequentes sobre catálogos do Commerce para sites B2B, consulte [Perguntas frequentes sobre Catálogos do Commerce para B2B](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Este tópico se aplica ao Dynamics 365 Commerce versão 10.0.26 e a versões posteriores.
+> Este tópico se aplica ao Dynamics 365 Commerce versão 10.0.27 e a versões posteriores.
 
 Você pode usar catálogos do Commerce para identificar os produtos que deseja oferecer em suas lojas online B2B. Quando você cria um catálogo, identifica as lojas online em que os produtos são oferecidos, adiciona os produtos desejados e melhora as ofertas de produtos adicionando detalhes das mercadorias. Você pode criar vários catálogos para as lojas online B2B.
 
@@ -42,7 +42,7 @@ Os catálogos de produtos do Commerce permitem definir as seguintes informaçõe
 - **Grupos de preços** – você pode configurar preços e promoções específicos para um determinado catálogo. Esse recurso é o principal motivo para definir um catálogo para um canal B2B. Os grupos de preços dos catálogos permitem que as organizações disponibilizem produtos para as organizações B2B pretendidas e apliquem seus preços e descontos preferenciais. Os clientes B2B que fazem pedidos de um catálogo configurado podem se beneficiar de preços e promoções especiais após entrarem em um site B2B do Commerce. Para configurar preços específicos do catálogo, selecione **Grupos de preços** na guia **Catálogos** para vincular um ou mais grupos de preços ao catálogo. Todos os contratos comerciais, diários de ajuste de preço e descontos avançados que forem vinculados ao mesmo grupo de preços serão aplicados quando os clientes fizerem pedidos usando este catálogo. (Os descontos avançados incluem os descontos de limite, quantidade e compra combinada.) Para obter mais informações sobre grupos de preços, consulte [Grupos de preços](price-management.md#price-groups).
 
 > [!NOTE]
-> Este recurso está disponível a partir da versão 10.0.26 do Dynamics 365 Commerce. Para definir configurações específicas do catálogo, como hierarquia de navegação e hierarquia de clientes, na matriz do Commerce, abra o espaço de trabalho **Gerenciamento de recursos** (**Administração do sistema \> Espaços de trabalho \> Gerenciamento de recursos**), habilite o recurso **Habilitar o uso de vários catálogos em canais de varejo** e execute o trabalho **1110 CDX**.
+> Este recurso está disponível a partir da versão 10.0.27 do Dynamics 365 Commerce. Para definir configurações específicas do catálogo, como hierarquia de navegação e hierarquia de clientes, na matriz do Commerce, abra o espaço de trabalho **Gerenciamento de recursos** (**Administração do sistema \> Espaços de trabalho \> Gerenciamento de recursos**), habilite o recurso **Habilitar o uso de vários catálogos em canais de varejo** e execute o trabalho **1110 CDX**.
 
 ## <a name="catalog-process-flow"></a>Fluxo do processo do catálogo
 

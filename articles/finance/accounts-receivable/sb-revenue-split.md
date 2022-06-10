@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5c2eb6c8e18770eb149c445f662ab7a90aad81a7
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660446"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770144"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Modelos de divisão de receita na Cobrança de assinatura
 
@@ -99,3 +99,54 @@ Para criar uma agenda de cobrança que tenha um item configurado para divisão d
 > - Os itens filhos são inseridos automaticamente na linha de ordem de venda ou da agenda de cobrança.
 >
 > Se a opção **Criar divisão de receita automaticamente** estiver definida como **Não**, o comportamento será conforme explicado anteriormente.
+
+## <a name="additional-revenue-split-information"></a>Informações adicionais sobre divisão de receita
+
+Ao adicionar um item que faz parte de uma divisão de receita, observe as seguintes informações: 
+
+- O valor pai não pode ser adiado.
+- Os valores de data de início, data de término, quantidade, unidade, local e depósito de itens filho são baseados no item pai. Esses valores não podem ser alterados para os itens filho. Todas as alterações devem ser feitas no item pai. 
+- O método de precificação é **Simples** e não pode ser alterado.
+- Os itens filho podem ser adicionados ou removidos.
+- Os itens pai e filho devem usar o mesmo grupo de itens. 
+- Os itens filho podem ter uma das seguintes configurações:
+
+    - Os campos **Frequência de cobrança** e **Intervalos de cobrança** são definidos com o mesmo valor do item pai. 
+    - O campo **Frequência da cobrança** está definido como **Uma vez**. Nesse caso, o campo **Intervalos de cobrança** é definido automaticamente como **1**. 
+
+- A soma dos valores líquidos dos itens filho é igual ao valor pai. Se o método de alocação for **Valores zero**, tanto a soma dos valores do item filho quanto o valor pai serão 0 (zero). 
+
+    > [!NOTE]
+    > Se o método de alocação for **Valor pai zero**, a soma (diferente de zero) dos itens filho não será igual ao valor pai, que é 0 (zero). Esse método de alocação é usado para fins internos, para que os funcionários possam ver os itens filho. Contudo, os clientes só podem ver o item pai.
+
+- Se o tipo de organização de vários elementos (MEA) do pedido de vendas for **Único**, a linha de transação de alocação de receita de vários elementos correspondente será criada quando os itens pai e filho forem adicionados. 
+- Se o método de alocação para uma divisão de receita for **Valores iguais** e o valor pai for alterado, os valores serão recalculados para todas as linhas filho. 
+- Para uma divisão de receita em que o método de alocação é **Valor variável**, ocorre o seguinte comportamento:
+
+    - O valor líquido do item pai aparece na coluna **Valor pai**. Esse valor pode ser editado de forma. Contudo, o preço unitário, o valor líquido e o desconto são 0 (zero) e não podem ser editados.
+    - O preço unitário dos itens filho é 0 (zero). É possível editar o preço unitário ou o valor líquido. Quando você edita um valor, o outro valor é atualizado automaticamente.
+
+- Para uma divisão de receita em que o método de alocação é **Porcentagem**, ocorre o seguinte comportamento:
+
+    - O valor líquido do item pai aparece na coluna **Valor pai**. Esse valor pode ser editado de forma. Contudo, o preço unitário, o valor líquido e o desconto são 0 (zero) e não podem ser editados. 
+    - O valor líquido de itens filho é calculado como *Porcentagem* &times; *Valor pai*.
+
+- Para uma divisão de receita em que o método de alocação é **Valor igual**, ocorre o seguinte comportamento:
+
+    - O valor líquido do item pai aparece na coluna **Valor pai**. Esse valor pode ser editado de forma. Contudo, o preço unitário, o valor líquido e o desconto são 0 (zero) e não podem ser editados. 
+    - O valor líquido de itens filho é calculado dividindo o valor pai em partes iguais entre todos os itens filho. 
+    - Se os itens filho forem removidos ou adicionados, o valor líquido e os preços unitários serão recalculados para que todas as linhas filho tenham valores iguais. 
+    - Se o valor pai não puder ser dividido igualmente, o valor líquido e o preço unitário do último item filho podem ser ligeiramente maiores ou menores do que o valor líquido e o preço unitário dos outros itens filho. 
+
+- Para uma divisão de receita em que o método de alocação é **Valor zero**, ocorre o seguinte comportamento:
+
+    - O preço unitário, o valor líquido e o desconto podem ser editados. O valor pai é 0 (zero) e não pode ser editado. 
+    - Os valores de quantidade, unidade, local e depósito de itens filho são baseados no item pai. Não é possível alterar esses valores para os itens filho. Todas as alterações devem ser feitas no item pai. 
+    - O preço unitário e o preço líquido dos itens filho são 0 (zero) e não podem ser editados. 
+
+- Para uma divisão de receita em que o método de alocação é **Valor pai zero**, ocorre o seguinte comportamento:
+
+    - O preço unitário, o valor pai e o valor líquido do item pai são 0 (zero).
+    - Em uma agenda de cobrança, as linhas filho aparecem como se tivessem sido adicionadas manualmente e todos os valores são atualizados com base no grupo de agenda de cobrança selecionado. Esses valores podem ser editados. Em itens filho, você pode acessar as opções **Escalonamento e desconto** e **Preço avançado** usando os campos **Quantidade inserida**, **Preço unitário**, **Desconto** e **Valor líquido** em **Exibir detalhes de cobrança**. 
+    - Em um pedido de venda, as linhas filho têm um desconto e uma porcentagem de desconto de 0 (zero). 
+    - A frequência de cobrança dos itens pai e filho pode ser alterada e cada linha pode ter uma frequência diferente. Contudo, o item pai é atualizado automaticamente para que use a frequência menor entre suas linhas filho. Por exemplo, uma divisão de receita tem dois itens filho, um dos quais usa a frequência de cobrança **Mensal** e o outro usa a frequência de cobrança **Anual**. Nesse caso, a frequência de cobrança do item pai é atualizada para **Mensal**.

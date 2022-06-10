@@ -2,7 +2,7 @@
 title: Espaço de trabalho móvel das ordens de venda
 description: Este tópico fornece informações sobre a área de trabalho móvel de ordens de vendas. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar.
 author: Henrikan
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,23 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 3a746ae5d7f0c6ca2fd8e69a23114cfcaa24b16b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: be9fd32f5f5d80bb9bce5f0de7e4ff92d6f5d28f
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674999"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811557"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Espaço de trabalho móvel das ordens de venda
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel de **Ordens de venda**. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar. 
 
-Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Finance and Operations.
+Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel de finanças e operações (Dynamics 365).
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 A área de trabalho móvel **Ordens de venda** permite exibir informações detalhadas sobre cada ordem de venda. Essas informações incluem o status da ordem, as informações de contato do cliente e informações de contato do tomador da ordem. O espaço de trabalho móvel **Ordens de venda** fornece uma visualização instantânea das ordens de venda. Você pode exibir todas as ordens de vendas, exibir as ordens de venda por cliente ou exibir informações sobre uma ordem de venda específica. 
 
 O espaço de trabalho móvel oferece duas visualizações para ajudá-lo a analisar as ordens de venda em profundidade.
@@ -117,7 +118,7 @@ Se o Dynamics 365 for Operations versão 1611 com a atualização de plataforma 
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Baixa e instala o aplicativo móvel.
-Baixe e instale o aplicativo móvel Finance and Operations:
+Baixe e instale o aplicativo móvel de finanças e operações (Dynamics 365):
 
 -   [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

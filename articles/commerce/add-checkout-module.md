@@ -2,7 +2,7 @@
 title: Módulo de finalização da compra
 description: Este tópico descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 author: anupamar-ms
-ms.date: 08/31/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715497"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780505"
 ---
 # <a name="checkout-module"></a>Módulo de finalização da compra
 
@@ -39,7 +39,7 @@ A imagem a seguir mostra um exemplo de um módulo de finalização da compra da 
 
 Um módulo de finalização de compra mostra um resumo do pedido e fornece a funcionalidade para a realização de um pedido. Para coletar todas as informações de cliente necessárias antes que um pedido possa ser feito, os módulos adicionais devem ser adicionados ao módulo de finalização de compra. Portanto, os varejistas têm a flexibilidade de adicionar módulos personalizados ao fluxo de finalização de compra ou a excluir módulos, de acordo com suas necessidades.
 
-| Nome da propriedade | Valores | descrição |
+| Nome da propriedade | Valores | Descrição |
 |----------------|--------|-------------|
 | Título da finalização da compra | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um cabeçalho para o módulo de finalização da compra. |
 | Título do resumo da ordem | Texto do título | Um cabeçalho para a seção de resumo do pedido do módulo. |
@@ -91,14 +91,14 @@ A maioria das informações de finalização da compra, como endereço e método
 Para adicionar um módulo de finalização da compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
 1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Finalização da compra**.
+1. Na caixa de diálogo **Selecionar fragmento**, selecione o módulo **Finalizar compra**.
 1. Em **Nome do fragmento**, digite o nome **Fragmento de finalização da compra** e selecione **OK**.
 1. Selecione o slot **Módulo de finalização da compra**.
 1. No painel de propriedades à direita, selecione o símbolo de lápis, digite o texto do título no campo e, em seguida, selecione o símbolo de marca de seleção.
-1. No slot **Informações de finalização da compra**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione os módulos **Endereço de remessa**, **Opções de entrega**, **Contêiner de seção de finalização da compra** e **Informações de contato** e, depois, selecione **OK**.
-1. No slot **Contêiner da seção de finalização da compra**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione os módulos **Cartão-presente**, **Fidelidade**, and **Pagamento** e, depois, selecione **OK**. Dessa forma, verifique se todos os métodos de pagamento aparecem juntos em uma seção.
+1. No slot **Informações de finalização da compra**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione os módulos **Endereço de remessa**, **Opções de entrega**, **Contêiner de seção de finalização da compra** e **Informações de contato** e, depois, selecione **OK**.
+1. No slot **Contêiner da seção de finalização da compra**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione os módulos **Cartão-presente**, **Fidelidade** e **Pagamento** e, depois, selecione **OK**. Dessa forma, verifique se todos os métodos de pagamento aparecem juntos em uma seção.
 1. No slot **Termos e condições**, adicione um módulo de **Termos e condições de finalização da compra**, se necessário. No painel de propriedades do módulo, configure o texto dos termos e condições conforme apropriado.
 1. Selecione **Salvar** e, depois, **Visualizar** para visualizar o fragmento. Alguns módulos que não tem um contexto de carrinho talvez não sejam renderizados na visualização.
 1. Selecione **Concluir edição** para fazer check-in do fragmento e, depois, selecione **Publicar** para publicá-lo.

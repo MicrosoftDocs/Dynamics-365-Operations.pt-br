@@ -2,7 +2,7 @@
 title: Módulo de trilha de navegação
 description: Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109722"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780325"
 ---
 # <a name="breadcrumb-module"></a>Módulo de trilha de navegação
 
@@ -52,7 +52,7 @@ O módulo de trilha de navegação depende da configuração de **Tipo de exibi�
 
 ## <a name="breadcrumb-module-properties"></a>Propriedades do módulo de trilha de navegação
 
-| Nome da propriedade | Valores | descrição |
+| Nome da propriedade | Valores | Descrição |
 |---------------|--------|-------------|
 | Raiz | Texto ou link| Essa propriedade opcional especifica o texto do link e um destino de link para a raiz do site de trilha de navegação. Se essa propriedade não estiver configurada, nenhuma raiz será definida. |
 | Link de trilha de navegação | Vínculo | Esta propriedade opcional especificará links para uma trilha de navegação configurada manualmente se esses links forem necessários. Os links aparecem na ordem em que estão listados. |
@@ -63,12 +63,12 @@ Para adicionar um módulo de trilha de navegação a um PDP e definir as proprie
 
 1. Acesse **Configurações do Site \> Extensões**. Depois, para a configuração **Tipo de exibição de trilha de navegação em PDP**, selecione **Mostrar hierarquia de categoria**.
 1. Acesse **Modelos** e selecione o modelo PDP.
-1. No slot **Contêiner** que contém o módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Trilha de navegação** e, depois, **OK**.
+1. No slot **Contêiner** que contém o módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Trilha** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Acesse **Páginas** e abra um PDP que utilize o modelo PDP. Se ainda não existir um PDP, crie um.
-1. No slot **Contêiner** que contém o módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Trilha de navegação** e, depois, **OK**.
+1. No slot **Contêiner** que contém o módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Trilha** e, depois, **OK**.
 1. No painel de propriedades do slot **Trilha de navegação**, em **Raiz**, selecione **Texto do link**.
 1. Na caixa de diálogo **Vincular texto**, digite **Início** e, em **Destino do link**, selecione **Adicionar um link**.
 1. Na caixa de diálogo **Adicionar um link**, selecione um link para a raiz da trilha de navegação, e selecione **OK**.

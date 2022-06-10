@@ -2,19 +2,19 @@
 title: Aprimoramentos na funcionalidade de postagem de demonstrativo
 description: Este tópico descreve as melhorias feitas no recurso de postagem do demonstrativo.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649010"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770131"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Aprimoramentos na funcionalidade de postagem de demonstrativo
 
@@ -151,6 +151,9 @@ A exibição de transações agregadas fornece os seguintes benefícios:
 - O usuário tem a visibilidade de como as transações são agregadas.
 - O usuário tem uma trilha de auditoria concluída, das transações, ordens de venda, a notas fiscais de vendas. Essa trilha de auditoria não está disponível no recurso herdado de lançamento do demonstrativo.
 - O arquivo XML agregado facilita a identificação de problemas durante a criação e faturamento da ordem de venda.
+
+> [!NOTE]
+> Quando as transações são agregadas, o membro da equipe atribuído à transação não está mais disponível no **Relatório de vendas da equipe principal**, o que significa que o **Relatório de vendas da equipe principal** não mostrará todas as transações. Recomendamos que você não use o **Relatório de vendas da equipe principal** com transações agregadas.
 
 ### <a name="journal-vouchers"></a>Comprovantes de diário
 

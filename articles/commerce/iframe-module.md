@@ -1,8 +1,8 @@
 ---
-title: Módulo iframe
-description: Este tópico abrange o módulo iframe e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
+title: Módulo iFrame
+description: Este tópico abrange o módulo iFrame e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/04/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754005"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780225"
 ---
-# <a name="iframe-module"></a>Módulo Iframe
+# <a name="iframe-module"></a>Módulo iFrame
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange o módulo iframe e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
+Este tópico abrange o módulo iFrame e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 
-Um módulo iframe fornece um iframe (quadro embutido) que hospeda o conteúdo externo em um site. Por exemplo, ele pode ser usado para hospedar um vídeo do YouTube ou visualizador de arquivos de vídeo de PDF em qualquer página do site. 
+Um módulo iFrame fornece um iframe (quadro embutido) que hospeda o conteúdo externo em um site. Por exemplo, ele pode ser usado para hospedar um vídeo do YouTube ou visualizador de arquivos de vídeo de PDF em qualquer página do site. 
 
-Um módulo iframe requer uma URL de destino. Em seguida, ele hospeda o conteúdo da página de destino dentro de um elemento do **iframe** de HTML. As URLs externas devem estar na lista de permissões pelas diretivas do CSP (política de segurança de conteúdo) do site. Para conteúdo iframe, as URLs devem ser permitidas usando a diretiva **ancestral do quadro**. Para obter mais informações, consulte [Gerenciar a Política de Segurança de Conteúdo (CSP)](manage-csp.md).
+Um módulo iframe requer uma URL de destino. Em seguida, ele hospeda o conteúdo da página de destino dentro de um elemento do **iFrame** de HTML. As URLs externas devem estar na lista de permissões pelas diretivas do CSP (política de segurança de conteúdo) do site. Para conteúdo iframe, as URLs devem ser permitidas usando a diretiva **ancestral do quadro**. Para obter mais informações, consulte [Gerenciar a Política de Segurança de Conteúdo (CSP)](manage-csp.md).
 
 > [!NOTE]
 > O módulo iframe está disponível na versão 10.0.13 do Dynamics 365 Commerce.
@@ -41,27 +41,30 @@ A imagem a seguir mostra exemplos de módulos iframe que demonstram vídeos exte
 
 ## <a name="iframe-module-properties"></a>Propriedades do módulo iframe
 
-| Nome da propriedade             | Alíquota                 | descrição |
+| Nome da propriedade             | Alíquota                 | Descrição |
 |---------------------------|-----------------------|-------------|
 | Título | Texto | O título do módulo. |
 | URL de Destino | URL | A URL que está hospedada no módulo. |
 | Altura | Número ou porcentagem | A altura do módulo, em pixels ou como uma porcentagem. Por exemplo, o valor **100** será tratado como um número de pixels e o valor **100%** será tratado como uma porcentagem. |
 | Etiqueta aria | Texto | Uma etiqueta acessível por Rich Internet Applications (ARIA) pode ser definida para fins de acessibilidade. |
 
-## <a name="add-an-iframe-module-to-a-page"></a>Adicionar um módulo iframe a uma página
+## <a name="add-an-iframe-module-to-a-page"></a>Adicionar um módulo iFrame a uma página
 
-Para adicionar um módulo iframe a uma página para mostrar um vídeo externo, siga estas etapas.
+Para adicionar um módulo iFrame a uma página para mostrar um vídeo externo, siga estas etapas.
 
 1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
-1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo de marketing** e selecione **OK**.
+1. Na caixa de diálogo **Novo modelo**, em **Nome do modelo**, insira **Modelo de marketing** e selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
-1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de marketing**. Em **Nome da página**, informe **página de Marketing** e, em seguida, selecione **OK**.
-1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. Na caixa de diálogo **Criar uma nova página**, em **Nome da página**, insira **Página de marketing** e, depois, selecione **Avançar**.
+1. Em **Escolher um modelo**, selecione o **Modelo de marketing** que você criou e, depois, selecione **Avançar**.
+1. Em **Escolher um layout**, selecione um layout de página (por exemplo, **Layout flexível**) e selecione **Avançar**.
+1. Em **Revisar e concluir**, revise a configuração da página. Se você precisar editar as informações da página, selecione **Voltar**. Se as informações da página estiverem corretas, selecione **Criar página**. 
+1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. No painel de propriedades do módulo, defina o valor de **Largura** como **Preencher Contêiner**.
-1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **iframe** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar módulo**.
+1. Na caixa de diálogo **Selecionar módulos**, selecione o módulo **iFrame** e, depois, **OK**.
 1. No painel propriedades do módulo, defina o valor **URL de Destino** como uma URL externa para um vídeo.
 1. Defina outras propriedades, como **Título** e **Altura**, conforme necessário.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
