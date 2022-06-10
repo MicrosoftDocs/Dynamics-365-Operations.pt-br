@@ -12,6 +12,8 @@
               items:
                 - name: Novidades ou alterações na home page do Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28 (julho de 2022)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (julho de 2022)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (maio de 2022)
@@ -1300,13 +1302,17 @@
               items:
                 - name: Criar páginas de resposta personalizadas para erros do código de status 4xx/5xx
                   href: build-pages-400-500-errors.md
-        - name: Fraud Protection
+            - name: Integração do serviço
+              items:
+                - name: Integrar o Customer Voice às páginas do site de comércio eletrônico
+                  href: customer-voice-integration.md
+        - name: Proteção contra fraude
           items:
             - name: Integração do Dynamics 365 Fraud Protection com o Dynamics 365 Commerce
               href: dev-itpro/DFP.md
-        - name: Comércio eletrônico entre empresas
+        - name: Comércio eletrônico B2B
           items:
-            - name: Configurar um site de comércio eletrônico entre empresas
+            - name: Configurar um site de comércio eletrônico B2B
               href: b2b/set-up-b2b-site.md
             - name: Gerenciar parceiros comerciais B2B usando hierarquias do cliente
               href: b2b/partners-customer-hierarchies.md
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Usar fontes de dados de COLETA DE DADOS nos formatos ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Usar fontes de dados de USER INPUT PARAMETER para especificar parâmetros para um relatório que você deseja gerar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Depurar fontes de dados
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar modelos de dados
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Simulação do estado conectado durante o desenvolvimento local
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: Configurar a transferência de autenticação da API da Web usando Azure Active Directory B2C
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: Configurar propriedades do módulo para serem mostradas com base no contexto
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: Globalizar módulos usando a classe CultureInfoFormatter
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: O refinador de classificações é exibido em resultados da pesquisa e páginas da categoria quando a solução de classificações e opiniões não está habilitada
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: Subtotal do resumo da ordem não inclui impostos sobre encargos durante o uso de módulos de resumo de ordem personalizados
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Gerenciamento de clientes
               items:
                 - name: O email de boas-vindas não é enviado quando clientes são criados
