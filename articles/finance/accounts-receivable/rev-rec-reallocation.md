@@ -1,6 +1,6 @@
 ---
 title: Realocação de reconhecimento de receita
-description: Este tópico fornece informações sobre a realocação, que permite que as organizações recalculem os preços de receita quando os termos de uma venda contratual são alterados. Ele inclui links para outros tópicos que descrevem como reconhecer a receita em vários cenários.
+description: Este artigo fornece informações sobre a realocação, que permite que as organizações recalculem os preços de receita quando os termos de uma venda contratual são alterados. Ele inclui links para outros tópicos que descrevem como reconhecer a receita em vários cenários.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903410"
 ---
 # <a name="revenue-recognition-reallocation"></a>Realocação de reconhecimento de receita
 
@@ -58,7 +58,7 @@ Um parâmetro afeta o processo de realocação.
 
 Como a realocação pode ser feita em uma ordem de venda que esteja faturada parcial ou totalmente, qualquer entrada contábil anterior para a fatura deve ser corrigida usando os preços de receita novos e realocados. Essa correção é feita com a reversão da entrada contábil da fatura original e o lançamento de uma nova entrada contábil baseada nos preços de receita realocados.
 
-Cada organização deve decidir se a correção deve atualizar somente a Contabilidade ou se ela também deve atualizar Contas a receber. A decisão tomada determina a configuração apropriada da opção **Lançar correções de fatura em Contas a receber** na guia **Reconhecimento de receita** da página **Parâmetros da contabilidade** (**Reconhecimento de receita \> Configurar \> Parâmetros da contabilidade**). A configuração apropriada depende do cenário específico. Para obter mais informações sobre possíveis cenários, use os links na seção [Cenários para realocação](#scenarios-for-reallocation) posteriormente neste tópico.
+Cada organização deve decidir se a correção deve atualizar somente a Contabilidade ou se ela também deve atualizar Contas a receber. A decisão tomada determina a configuração apropriada da opção **Lançar correções de fatura em Contas a receber** na guia **Reconhecimento de receita** da página **Parâmetros da contabilidade** (**Reconhecimento de receita \> Configurar \> Parâmetros da contabilidade**). A configuração apropriada depende do cenário específico. Para obter mais informações sobre possíveis cenários, use os links na seção [Cenários para realocação](#scenarios-for-reallocation) posteriormente neste artigo.
 
 [![Guia Reconhecimento de receita na página Parâmetros da contabilidade.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
@@ -90,7 +90,7 @@ Para iniciar o processo de realocação, selecione **Realocar o preço com as no
 
 [![Página Realocar o preço com novas linhas da ordem.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-A grade superior da página **Realocar o preço com novas linhas da ordem** é chamada **Vendas**. Ela lista as ordens de venda para o cliente. Selecione as ordens de venda que devem ser realocadas. Se uma ordem de venda tiver uma ID de realocação, ela já foi marcada para realocação por outro usuário. Se uma ou mais ordens de venda foram alocadas anteriormente e devem ser incluídas em outra realocação, a realocação dessas ordens de venda deve ser desfeita primeiro. Elas poderão então ser incluídas em uma nova realocação. Para obter mais informações detalhadas, consulte as seções [Desfazer uma realocação](#undo-a-reallocation) e [Realocar várias vezes](#reallocate-multiple-times) neste tópico.
+A grade superior da página **Realocar o preço com novas linhas da ordem** é chamada **Vendas**. Ela lista as ordens de venda para o cliente. Selecione as ordens de venda que devem ser realocadas. Se uma ordem de venda tiver uma ID de realocação, ela já foi marcada para realocação por outro usuário. Se uma ou mais ordens de venda foram alocadas anteriormente e devem ser incluídas em outra realocação, a realocação dessas ordens de venda deve ser desfeita primeiro. Elas poderão então ser incluídas em uma nova realocação. Para obter mais informações detalhadas, consulte as seções [Desfazer uma realocação](#undo-a-reallocation) e [Realocar várias vezes](#reallocate-multiple-times) neste artigo.
 
 A grade inferior na página é chamada **Linhas**. Depois que selecionar uma ou mais ordens de venda na grade de **Vendas**, a grade de **Linhas** mostrará as linhas da ordem de venda. Selecione as linhas da ordem de venda que devem ser realocadas. Se você selecionou somente uma ordem de venda, as linhas na mesma ordem de venda deverão ser realocadas. Essa situação pode ocorrer quando uma das linhas da ordem de venda foi faturada anteriormente e uma nova linha foi adicionada ou quando uma linha existente foi removida ou cancelada. Se uma linha foi removida, ela não aparecerá na grade. Portanto, ela não pode ser selecionada. No entanto, ela ainda será considerada quando o processo de realocação for executado.
 

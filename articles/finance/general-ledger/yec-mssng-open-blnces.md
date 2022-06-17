@@ -1,6 +1,6 @@
 ---
 title: Saldos iniciais ausentes do fechamento do exercício
-description: Este tópico explica por que os saldos iniciais podem estar ausentes no fechamento de um exercício e como recriar esses saldos, se eles estiverem ausentes.
+description: Este artigo explica por que os saldos iniciais podem estar ausentes no fechamento de um exercício e como recriar esses saldos, se eles estiverem ausentes.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894838"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Saldos iniciais ausentes do fechamento do exercício
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica por que os saldos iniciais podem estar ausentes no fechamento de um exercício e como recriar esses saldos, se eles estiverem ausentes.
+Este artigo explica por que os saldos iniciais podem estar ausentes no fechamento de um exercício e como recriar esses saldos, se eles estiverem ausentes.
 
 ### <a name="symptom"></a>Sintoma
 
@@ -36,7 +36,7 @@ Veja os itens que devem ser verificados se você tiver fechado um exercício na 
 
 Se o campo **Desfazer fechamento anterior** estiver definido como **Sim**, o fechamento do exercício anterior para o mesmo ano fiscal será revertido. Ao executar um processo para reverter o fechamento do exercício, todas as entradas de saldo de fechamento e de saldo inicial serão excluídas, como se o fechamento do exercício nunca tivesse sido executado. Os comprovantes também serão excluídos. O processo de fechamento do exercício não será executado de forma automática novamente. Você deverá iniciar o processo novamente, desta vez atualizando a opção **Desfazer fechamento anterior** para **Não**.
 
-Esse cenário é abordado no tópico Perguntas frequentes sobre fechamento do exercício. Para obter mais informações, consulte [Perguntas frequentes sobre fechamento do exercício](faq-year-end-activities.md).
+Esse cenário é abordado no artigo Perguntas frequentes sobre fechamento do exercício. Para obter mais informações, consulte [Perguntas frequentes sobre atividades do exercício](faq-year-end-activities.md).
 
 ### <a name="symptom"></a>Sintoma
 

@@ -1,6 +1,6 @@
 ---
-title: Alterar a moeda de relatóriou ou contábil
-description: Este tópico explica como alterar a moeda de relatóriou ou contábil, ou adicionar uma moeda de relatório à configuração de um razão.
+title: Alterar a moeda de relatório ou contábil
+description: Este artigo explica como alterar a moeda de relatório ou contábil, ou adicionar uma moeda de relatório à configuração de um razão.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904604"
 ---
-# <a name="change-the-accounting-or-reporting-currency"></a>Alterar a moeda de relatóriou ou contábil
+# <a name="change-the-accounting-or-reporting-currency"></a>Alterar a moeda de relatório ou contábil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como alterar a moeda de relatóriou ou contábil, ou adicionar uma moeda de relatório à configuração de um razão.
+Este artigo explica como alterar a moeda de relatório ou contábil, ou adicionar uma moeda de relatório à configuração de um razão.
 
 ## <a name="symptom"></a>Sintoma
 
-Você deseja alterar a moeda de relatóriou ou contábil, ou adicionar uma moeda de relatório à configuração do razão. Isso geralmente ocorre nos seguintes cenários:
+Você deseja alterar a moeda de relatório ou contábil, ou adicionar uma moeda de relatório à configuração do razão. Isso geralmente ocorre nos seguintes cenários:
 
-- A moeda de relatóriou ou contábil incorreta foi especificada quando uma entidade legal foi configurada. Agora, você deseja alterar essa moeda.
+- A moeda de relatório ou contábil incorreta foi especificada quando uma entidade legal foi configurada. Agora, você deseja alterar essa moeda.
 - Uma moeda de relatório foi especificada quando uma entidade legal foi configurada, mas a organização agora deseja remover a moeda de relatório.
 - A organização está atualizando ou migrando para o Microsoft Dynamics 365 Finance e deseja alterar a moeda de relatório ou contábil.
 
@@ -40,7 +40,7 @@ Uma organização que não utilizou anteriormente o recurso de moeda dupla desej
 
 ## <a name="resolution"></a>Resolução
 
-A consideração mais importante é se alguma transação (real ou de orçamento) foi lançada na entidade legal para a configuração do razão. **Não é possível alterar a moeda de relatóriou ou contábil, ou adicionar uma moeda de relatório, caso alguma transação (real ou de orçamento) tenha sido lançada na entidade legal.** Siga as etapas em uma das seguintes seções, dependendo se as transações tiverem sido lançadas.
+A consideração mais importante é se alguma transação (real ou de orçamento) foi lançada na entidade legal para a configuração do razão. **Não é possível alterar a moeda de relatório ou contábil, ou adicionar uma moeda de relatório, caso alguma transação (real ou de orçamento) tenha sido lançada na entidade legal.** Siga as etapas em uma das seguintes seções, dependendo se as transações tiverem sido lançadas.
 
 ### <a name="no-transactions-have-been-posted"></a>Nenhuma transação foi lançada
 
@@ -73,8 +73,8 @@ Siga estas etapas para copiar os dados de configuração e os dados mestre da en
 10. Na área **Entidades selecionadas**, selecione **Adicionar modelo**.
 11. Selecione os modelos a serem usados. Os modelos sugeridos para uma nova entidade legal incluem **025 – Contabilidade** e **Finanças**. Recomendamos que você examine todos os outros modelos disponíveis para determinar se algum deles se aplica a seus requisitos.
 12. Selecione **Copiar na entidade legal** para iniciar um processo em lote que criará as entidades selecionadas e as copiará para a entidade legal de destino.
-13. Depois que o processo for concluído, mas antes que qualquer transação seja lançada, acesse o razão e atualize as moedas contábeis e de relatório, conforme descrito anteriormente neste tópico.
+13. Depois que o processo for concluído, mas antes que qualquer transação seja lançada, acesse o razão e atualize as moedas contábeis e de relatório, conforme descrito anteriormente neste artigo.
 
-Se você criou uma entidade legal para que pudesse alterar a moeda de relatóriou ou contábil, verifique se os saldos iniciais foram traduzidos das moedas da entidade legal antiga para as novas moedas.
+Se você criou uma entidade legal para que pudesse alterar a moeda de relatório ou contábil, verifique se os saldos iniciais foram traduzidos das moedas da entidade legal antiga para as novas moedas.
 
 Para assistir a um vídeo que mostra as etapas anteriores, consulte [Copiar na entidade legal](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017).

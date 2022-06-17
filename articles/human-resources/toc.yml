@@ -8,8 +8,10 @@
           items:
             - name: Novidades ou alterações nos aplicativos de Finanças e Operações
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: Novidades ou alterações no Human Resources
+            - name: Novidades ou mudanças no Human Resources
               items:
+                - name: Human Resources 10.0.28 (infraestrutura mesclada)
+                  href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27 (infraestrutura mesclada)
                   href: ./get-started/hr-whats-new-changed-10-0-27.md
                 - name: Human Resources 10.0.26 (infraestrutura mesclada)

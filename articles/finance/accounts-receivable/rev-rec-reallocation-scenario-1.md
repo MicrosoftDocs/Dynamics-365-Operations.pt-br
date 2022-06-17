@@ -1,6 +1,6 @@
 ---
-title: Realocação de reconhecimento de receita — cenário 1
-description: Este tópico passa por um cenário de realocação em que duas ordens de venda são inseridas, mas só são confirmadas. O mesmo cenário produzirá resultados semelhantes, se houver mais de duas ordens de venda em um estado confirmado.
+title: Realocação de reconhecimento de receita – cenário 1
+description: Este artigo passa por um cenário de realocação em que duas ordens de venda são inseridas, mas só são confirmadas. O mesmo cenário produzirá resultados semelhantes, se houver mais de duas ordens de venda em um estado confirmado.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cd094840e16a0ab19e234148e4ef40c454315d96
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 597c83388937cff689748889eff29d6be1b8341a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876258"
 ---
-# <a name="revenue-recognition-reallocation--scenario-1"></a>Realocação de reconhecimento de receita — cenário 1
+# <a name="revenue-recognition-reallocation--scenario-1"></a>Realocação de reconhecimento de receita – cenário 1
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico passa por um cenário de realocação em que duas ordens de venda são inseridas, mas só são confirmadas. O mesmo cenário produzirá resultados semelhantes, se houver mais de duas ordens de venda em um estado confirmado.
+Este artigo passa por um cenário de realocação em que duas ordens de venda são inseridas, mas só são confirmadas. O mesmo cenário produzirá resultados semelhantes, se houver mais de duas ordens de venda em um estado confirmado.
 
 Para este cenário, a opção **Lançar correções de fatura em Contas a receber** é definida como **Não** na guia **Reconhecimento de receita** da página **Parâmetros da contabilidade** (**Reconhecimento de receita \> Configurar \> Parâmetros da contabilidade**).
 

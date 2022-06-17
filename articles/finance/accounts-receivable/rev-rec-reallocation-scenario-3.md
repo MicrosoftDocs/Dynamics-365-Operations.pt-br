@@ -1,6 +1,6 @@
 ---
 title: Realocação de reconhecimento de receita – cenário 3
-description: Este tópico abrange um cenário de realocação em que uma nova linha é adicionada a uma ordem de venda existente faturada. Quando um novo item é adicionado a um contrato, ele pode ser adicionado a uma nova ordem de venda ou à ordem de venda existente.
+description: Este artigo abrange um cenário de realocação em que uma nova linha é adicionada a uma ordem de venda existente faturada. Quando um novo item é adicionado a um contrato, ele pode ser adicionado a uma nova ordem de venda ou à ordem de venda existente.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904806"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Realocação de reconhecimento de receita – cenário 3
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico abrange um cenário de realocação em que uma nova linha é adicionada a uma ordem de venda existente faturada. Quando um novo item é adicionado a um contrato, ele pode ser adicionado a uma nova ordem de venda ou à ordem de venda existente. Este cenário também mostra o que ocorre quando Contas a receber é atualizado por causa da realocação.
+Este artigo abrange um cenário de realocação em que uma nova linha é adicionada a uma ordem de venda existente faturada. Quando um novo item é adicionado a um contrato, ele pode ser adicionado a uma nova ordem de venda ou à ordem de venda existente. Este cenário também mostra o que ocorre quando Contas a receber é atualizado por causa da realocação.
 
 Para este cenário, a opção **Lançar correções de fatura em Contas a receber** é definida como **Sim** na guia **Reconhecimento de receita** da página **Parâmetros da contabilidade** (**Reconhecimento de receita \> Configurar \> Parâmetros da contabilidade**).
 

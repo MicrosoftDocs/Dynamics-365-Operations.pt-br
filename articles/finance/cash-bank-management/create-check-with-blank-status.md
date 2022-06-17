@@ -1,6 +1,6 @@
 ---
 title: Criar cheques que tenham status Em Branco
-description: Este tópico explica como criar cheques em branco para uma conta bancária.
+description: Este artigo explica como criar cheques em branco para uma conta bancária.
 author: abruer
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b3a0fbb26f135e567bf6af7b2f10b39a28be4c9e
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 834e11e0e359521c674e2b6fd78c93dcb23961a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861434"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Criar cheques que tenham status Em Branco
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como criar cheques em branco. Por exemplo, pode criar um cheque em branco para registrar que um cheque foi danificado e não pode ser usado para pagamento.
+Este artigo explica como criar cheques em branco. Por exemplo, pode criar um cheque em branco para registrar que um cheque foi danificado e não pode ser usado para pagamento.
 
 Na página **Cheques**, você executa tarefas de manutenção para os cheques. Por exemplo, você pode criar novos números de cheque e excluir cheques. Você também pode criar cheques com o status **Em Branco**. Depois que os cheques em branco forem criados, eles não poderão ser excluídos ou reutilizadas no sistema.
 

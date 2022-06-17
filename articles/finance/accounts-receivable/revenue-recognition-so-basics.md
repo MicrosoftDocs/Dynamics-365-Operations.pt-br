@@ -1,6 +1,6 @@
 ---
 title: Reconhecimento de receita em ordens de venda
-description: Este tópico descreve a funcionalidade básica para reconhecer receitas em ordens de venda e faturas. O reconhecimento de receita está disponível na ordem de venda e na fatura correspondente criada com a ordem de venda.
+description: Este artigo descreve a funcionalidade básica para reconhecer receitas em ordens de venda e faturas. O reconhecimento de receita está disponível na ordem de venda e na fatura correspondente criada com a ordem de venda.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725474"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899947"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Reconhecimento de receita em ordens de venda
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725474"
 > [!NOTE]
 > O recurso Reconhecimento de receita não pode ser ativado por meio do Gerenciamento de recursos. No momento, você deve usar as chaves de configuração para ativá-lo.
 
-Este tópico descreve a funcionalidade básica para reconhecer receitas em ordens de venda e faturas. O reconhecimento de receita está disponível em uma ordem de venda e na fatura correspondente criada com a ordem de venda. A ordem de venda também pode ser criada com um projeto de Tempo e materiais.
+Este artigo descreve a funcionalidade básica para reconhecer receitas em ordens de venda e faturas. O reconhecimento de receita está disponível em uma ordem de venda e na fatura correspondente criada com a ordem de venda. A ordem de venda também pode ser criada com um projeto de Tempo e materiais.
 
 > [!NOTE]
-> Nas ilustrações deste tópico, colunas foram ocultadas ou adicionadas às grades para melhorar a apresentação de conceitos. Portanto, as páginas e os dados nas ilustrações podem ser diferentes daqueles que você vê no produto.
+> Nas ilustrações deste artigo, colunas foram ocultadas ou adicionadas às grades para melhorar a apresentação de conceitos. Portanto, as páginas e os dados nas ilustrações podem ser diferentes daqueles que você vê no produto.
 
 ## <a name="enter-a-sales-order"></a>Inserir uma ordem de venda
 

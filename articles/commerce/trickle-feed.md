@@ -1,6 +1,6 @@
 ---
 title: Criação de ordens baseadas em um fluxo constante para transações de loja de varejo
-description: Este tópico descreve a criação de ordens baseadas em um fluxo constante para transações de loja no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve a criação de ordens baseadas em um fluxo constante para transações de loja no Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 01/11/2021
 ms.topic: index-page
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0f0ee361df8c565761e79f5b0ecf519c149f2ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873240"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Criação de ordens baseadas em um fluxo constante para transações de loja de varejo
 

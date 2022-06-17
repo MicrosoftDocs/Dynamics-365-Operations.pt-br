@@ -58,8 +58,10 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
                 - name: Aplicar atualizações a implantações locais
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar atualizações do serviço
+                - name: Configurar atualizações de serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: Pré-serviço e pós-serviço
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: Pausar atualizações do serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Receber notificações sobre atualizações do serviço
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Opções de cálculo do valor total e do intervalo para códigos de imposto
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Cálculo de imposto e arredondamento
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: Cálculo de imposto nas linhas do diário geral
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Calcular e ajustar imposto na fatura de fornecedor
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Intrastat estoniano
                   href: localizations/emea-est-intrastat.md
+                - name: Lista de vendas da UE
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Europa
               items:
                 - name: Visão geral da Europa
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Relatórios de imposto para a Hungria
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Intrastat húngaro
+                  href: localizations/emea-hun-intrastat.md
                 - name: Cálculos de imposto adiados
                   href: localizations/emea-hun-deferred-vat.md
             - name: Islândia
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Intrastat letão
                   href: localizations/emea-lva-intrastat.md
+                - name: Lista de vendas da UE
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Lituânia
               items:
                 - name: Visão geral da Lituânia
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Configurar documentos de transferência para movimentação de mercadorias dentro de uma empresa
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: Lista de vendas da UE
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Malásia
               items:
                 - name: Visão geral da Malásia
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Solucionar problemas de desempenho nas configurações ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Reduzir o número de campos de tabela que são obtidos no tempo de execução
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: Gerenciamento de documentos comerciais (BDM)
                   items:
                     - name: Visão geral do BDM

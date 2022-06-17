@@ -1,6 +1,6 @@
 ---
-title: Configuração de custo para gerenciamento de ordem distribuído (GOD)
-description: Este tópico descreve a funcionalidade de configuração de custo para o gerenciamento de ordem distribuído (GOD) do Dynamics 365 Commerce.
+title: Configuração de custo para gerenciamento de ordem distribuído (DOM)
+description: Este artigo descreve a funcionalidade de configuração de custo para o gerenciamento de ordem distribuído (DOM) do Dynamics 365 Commerce.
 author: josaw1
 ms.date: 12/05/2018
 ms.topic: index-page
@@ -15,24 +15,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba4e24052599d431de88d00236a4a99899ca413c136f4627e69c8937541dac03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aaff8f627adcd00be174a0b5f7bd398300cfef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862008"
 ---
-# <a name="cost-configuration-for-distributed-order-management-dom"></a>Configuração de custo para gerenciamento de ordem distribuído (GOD)
+# <a name="cost-configuration-for-distributed-order-management-dom"></a>Configuração de custo para gerenciamento de ordem distribuído (DOM)
 
 [!include [banner](../includes/banner.md)]
 
 As organizações consideram vários componentes de custo para determinar o local ideal do qual atender uma ordem. Alguns desses componentes de custo são os custos de remessa, os custos de manutenção e os custos de embalagem. Uma combinação desses custos é calculada para determinar o local de atendimento.
 
-Quando a primeira iteração do gerenciamento de ordem distribuído (GOD) no Dynamics 365 Commerce otimizou a atribuição de ordens para os locais de atendimento, somente a distância foi fatorada. Embora a distância possa ser correlacionada com o custo, não é o mesmo que o custo. Por exemplo, um método de remessa de entrega em 24 horas custa mais que a remessa em três ou sete três dias para a mesma distância.
+Quando a primeira iteração do gerenciamento de ordem distribuído (DOM) no Dynamics 365 Commerce otimizou a atribuição de ordens para os locais de atendimento, somente a distância foi fatorada. Embora a distância possa ser correlacionada com o custo, não é o mesmo que o custo. Por exemplo, um método de remessa de entrega em 24 horas custa mais que a remessa em três ou sete três dias para a mesma distância.
 
 O recurso de configuração de custo permite que os varejistas definam e configurem componentes de custo adicionais de que serão calculados e fatorados para determinar o local ideal para atender linhas da ordem.
 
-Quando os componentes de custo são configurados, o agente de resolução do GOD usa somente essas definições de custo para determinar o local ideal para o atendimento da ordem. Ele não considera o componente de distância como custo. No entanto, se nenhum componente de custo for configurado, o agente de resolução do GOD usará o componente de distância como um custo para determinar o local ideal para o atendimento da ordem.
+Quando os componentes de custo são configurados, o agente de resolução do DOM usa somente essas definições de custo para determinar o local ideal para o atendimento da ordem. Ele não considera o componente de distância como custo. No entanto, se nenhum componente de custo for configurado, o agente de resolução do DOM usará o componente de distância como um custo para determinar o local ideal para o atendimento da ordem.
 
 ## <a name="set-up-cost-components"></a>Configurar componentes de custo
 
@@ -72,7 +72,7 @@ Ambos os tipos de componente de custo oferecem suporte a várias bases de cálcu
 
 ### <a name="shipping-cost-component-type"></a>Tipo de componente de custo de remessa
 
-Esta seção explica como configurar cada combinação do tipo de componente de custo **Remessa** e uma base de cálculo para os custos de remessa. Ele também explica como o agente de resolução do GOD usa cada combinação.
+Esta seção explica como configurar cada combinação do tipo de componente de custo **Remessa** e uma base de cálculo para os custos de remessa. Ele também explica como o agente de resolução do DOM usa cada combinação.
 
 #### <a name="cost-component-type--shipping-and-calculation-basis--simple"></a>Tipo de componente de custo = Remessa e Base de cálculo = Simples
 
@@ -83,7 +83,7 @@ Você deve configurar os seguintes campos para essa combinação:
 - **Fator de custo** — insira um identificador exclusivo para o fator de custo.
 - **Descrição** — insira o nome e a descrição do fator de custo.
 - **Data inicial** e **Data final** — você pode usar esses campos para limitar o fator de custo para um intervalo de datas específico. Se você deixar esses campos em branco, o fator de custo será válido por um período indefinido.
-- **Ativo** — indicar se o fator de custo está ativo. O GOD considera somente os fatores de custo ativos associados com o perfil de atendimento.
+- **Ativo** — indicar se o fator de custo está ativo. O DOM considera somente os fatores de custo ativos associados com o perfil de atendimento.
 - **Empresa** — especifique a entidade legal para a qual o fator de custo está configurado. Todas as linhas dos critérios de cálculo devem estar para a mesma entidade legal.
 - **Modos de entrega** — especifique os modos de entrega para os quais o custo está configurado.
 - **Tipo de cálculo** — especifique como o custo deve ser calculado para um modo de entrega específico. Há suporte para dois tipos de cálculo:
@@ -103,7 +103,7 @@ Você deve configurar os seguintes campos para essa combinação:
 - **Descrição** — insira o nome e a descrição do fator de custo.
 - **Custo padrão**— especifique o custo que deve ser usado para um modo de entrega se a distância entre o endereço de entrega e o local não estiver em nenhuma das distâncias em camadas para o modo de entrega.
 - **Data inicial** e **Data final** — você pode usar esses campos para limitar o fator de custo para um intervalo de datas específico. Se você deixar esses campos em branco, o fator de custo será válido por um período indefinido.
-- **Ativo** — indicar se o fator de custo está ativo. O GOD considera somente os fatores de custo ativos associados com o perfil de atendimento.
+- **Ativo** — indicar se o fator de custo está ativo. O DOM considera somente os fatores de custo ativos associados com o perfil de atendimento.
 - **Empresa** — especifique a entidade legal para a qual o fator de custo está configurado. Todas as linhas dos critérios de cálculo devem estar para a mesma entidade legal.
 - **Modos de entrega** — especifique os modos de entrega para os quais o custo está configurado.
 - **Tipo de distância** — especifique se a definição de distância em camadas é uma distância aérea ou uma distância rodoviária.
@@ -123,7 +123,7 @@ Você deve configurar os seguintes campos para essa combinação:
 
 ### <a name="other-cost-component-type"></a>Tipo de componente de custo Outro
 
-Esta seção explica como configurar cada combinação do tipo de componente de custo **Outro** e outro tipo de custo para custos que não sejam de remessa. Ele também explica como o agente de resolução do GOD usa cada combinação.
+Esta seção explica como configurar cada combinação do tipo de componente de custo **Outro** e outro tipo de custo para custos que não sejam de remessa. Ele também explica como o agente de resolução do DOM usa cada combinação.
 
 #### <a name="cost-component-type--other-and-other-cost-type--sales-order"></a>Tipo de componente de custo = Outro e Outro tipo de custo = Ordem de venda
 
@@ -134,7 +134,7 @@ Você deve configurar os seguintes campos para essa combinação:
 - **Fator de custo** — insira um identificador exclusivo para o fator de custo.
 - **Descrição** — insira o nome e a descrição do fator de custo.
 - **Data inicial** e **Data final** — você pode usar esses campos para limitar o fator de custo para um intervalo de datas específico. Se você deixar esses campos em branco, o fator de custo será válido por um período indefinido.
-- **Ativo** — indicar se o fator de custo está ativo. O GOD considera somente os fatores de custo ativos associados com o perfil de atendimento.
+- **Ativo** — indicar se o fator de custo está ativo. O DOM considera somente os fatores de custo ativos associados com o perfil de atendimento.
 - **Custo** — especifique o valor de custo para um custo que não seja de remessa no nível da ordem de venda.
 
 #### <a name="cost-component-type--other-and-other-cost-type--sales-line"></a>Tipo de componente de custo = Outro e Outro tipo de custo = Linha de venda
@@ -146,7 +146,7 @@ Você deve configurar os seguintes campos para essa combinação:
 - **Fator de custo** — insira um identificador exclusivo para o fator de custo.
 - **Descrição** — insira o nome e a descrição do fator de custo.
 - **Data inicial** e **Data final** — você pode usar esses campos para limitar o fator de custo para um intervalo de datas específico. Se você deixar esses campos em branco, o fator de custo será válido por um período indefinido.
-- **Ativo** — indicar se o fator de custo está ativo. O GOD considera somente os fatores de custo ativos associados com o perfil de atendimento.
+- **Ativo** — indicar se o fator de custo está ativo. O DOM considera somente os fatores de custo ativos associados com o perfil de atendimento.
 - **Custo** — especifique o valor do custo para um custo que não seja de remessa no nível da linha da ordem de venda.
 
 #### <a name="cost-component-type--other-and-other-cost-type--location"></a>Tipo de componente de custo = Outro e Outro tipo de custo = Local
@@ -158,7 +158,7 @@ Você deve configurar os seguintes campos para essa combinação:
 - **Fator de custo** — insira um identificador exclusivo para o fator de custo.
 - **Descrição** — insira o nome e a descrição do fator de custo.
 - **Data inicial** e **Data final** — você pode usar esses campos para limitar o fator de custo para um intervalo de datas específico. Se você deixar esses campos em branco, o fator de custo será válido por um período indefinido.
-- **Ativo** — indicar se o fator de custo está ativo. O GOD considera somente os fatores de custo ativos associados com o perfil de atendimento.
+- **Ativo** — indicar se o fator de custo está ativo. O DOM considera somente os fatores de custo ativos associados com o perfil de atendimento.
 - **Grupo de atendimento** — especifique o grupo de locais para o qual o custo que não seja de remessa está definido.
 - **Local de atendimento** — especifique o local para o qual o custo que não seja de remessa está definido.
 
@@ -168,7 +168,7 @@ Você deve configurar os seguintes campos para essa combinação:
 - **Custo** — especifique o valor do custo para um custo que não seja de remessa no nível do grupo de atendimento ou no nível do local de atendimento.
 
 > [!IMPORTANT]
-> Para que o GOD considere esses custos quando for executado, você deverá adicionar o fator de custo ao perfil de atendimento relevante.
+> Para que o DOM considere esses custos quando for executado, você deverá adicionar o fator de custo ao perfil de atendimento relevante.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

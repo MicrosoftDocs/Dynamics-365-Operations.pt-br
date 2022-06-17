@@ -1,6 +1,6 @@
 ---
 title: Configuração do reconhecimento de receita
-description: Este tópico descreve as opções de configuração para o reconhecimento de receita e as implicações referentes a elas.
+description: Este artigo descreve as opções de configuração para o reconhecimento de receita e as implicações referentes a elas.
 author: kweekley
 ms.date: 04/28/2022
 ms.topic: index-page
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 86690af303eb87335c980bd7dae3ae34ce06a2a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900003"
 ---
 # <a name="revenue-recognition-setup"></a>Configuração do reconhecimento de receita
 [!include [banner](../includes/banner.md)]
 
-Um novo módulo **Reconhecimento de receita** foi adicionado e inclui itens de menu para todas as configurações necessárias. Este tópico descreve as opções de configuração e as implicações referentes a elas.
+Um novo módulo **Reconhecimento de receita** foi adicionado e inclui itens de menu para todas as configurações necessárias. Este artigo descreve as opções de configuração e as implicações referentes a elas.
 
 > [!NOTE]
 > O recurso Reconhecimento de receita agora está habilitado por padrão pelo Gerenciamento de recursos. Se a sua organização não usar esse recurso, você poderá desativá-lo no espaço de trabalho **Gerenciamento de recursos**.

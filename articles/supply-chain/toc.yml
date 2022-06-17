@@ -58,8 +58,10 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aplicar atualizações a implantações locais
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurar atualizações do serviço
+                - name: Configurar atualizações de serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Pré-serviço e pós-serviço
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pausar atualizações do serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Receber notificações sobre atualizações do serviço
@@ -1529,6 +1531,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Solucionar problemas de desempenho nas configurações ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Reduzir o número de campos de tabela que são obtidos no tempo de execução
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Gerenciamento de documentos comerciais (BDM)
                   items:
                     - name: Visão geral do BDM

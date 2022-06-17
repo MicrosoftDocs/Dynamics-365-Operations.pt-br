@@ -1,6 +1,6 @@
 ---
 title: Recursos de globalização
-description: Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades e ofertas específicas de país/região.
+description: Este artigo inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades e ofertas específicas de país/região.
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866527"
 ---
 # <a name="globalization-resources"></a>Recursos de globalização
 
 ## <a name="local-and-regional-deployments"></a>Implantações locais ou regionais
 Caso suas regulamentações governamentais exijam que os dados sejam armazenados ou fornecidos de uma forma diferente daquela exigida por outros países/regiões, talvez você deva considerar certos requisitos de país/região durante a implantação. Considere os seguintes recursos que possam ser relevantes para você:
 
-[Aplicativos do Finance and Operations operados pela 21Vianet na China](../deployment/china-local-deployment.md)
+[Aplicativos de finanças e operações operados pela 21Vianet na China](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Recursos regulatórios e de localização
 
 [!include [banner](../includes/banner.md)]
 
-Os aplicativos do Finance and Operations incluem funcionalidade para países/regiões documentadas no [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/dynamics_365_international_availability_deck). Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. 
+Os aplicativos de finanças e operações incluem funcionalidade para países/regiões documentadas no [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/dynamics_365_international_availability_deck). Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. 
 
-Este tópico inclui lista de recursos que podem ajudar a fazer o seguinte: 
+Este artigo inclui lista de recursos que podem ajudar a fazer o seguinte: 
 - Aprender mais sobre como desenvolver soluções específicas para o país/região.
 - Obter atualizações específicas sobre país/região.
 - Enviar e examinar alertas regulatórios.
@@ -62,8 +62,8 @@ Os recursos a seguir fornecem informações sobre recursos de localização novo
 #### <a name="dynamics-365-release-plans"></a>Planos de versão do Dynamics 365
 Os [planos de versão do Dynamics 365](/business-applications-release-notes/) fornecem descrições dos recursos novos e aprimorados que são planejados para os aplicativos de negócios do Dynamics 365 e para as plataformas de aplicativos. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Novidades dos aplicativos do Finance and Operations
-A [home page Novidades ou alterações no Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) lista os recursos que estão incluídos em versões específicas dos aplicativos do Finance and Operations.
+#### <a name="finance-and-operations-apps-whats-new"></a>Novidades dos aplicativos de finanças e operações
+A [home page Novidades ou alterações no Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) lista os recursos que estão incluídos em versões específicas dos aplicativos de finanças e operações.
 
 ### <a name="electronic-reporting"></a>Relatório eletrônico
 A ferramenta ER (Relatório eletrônico) permite configurar formatos para documentos eletrônicos de acordo com os requisitos legais de vários países/regiões. O ER permite gerenciar esses formatos durante seu ciclo de vida. Para obter mais informações, confira um dos tópicos a seguir:

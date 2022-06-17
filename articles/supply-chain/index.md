@@ -1,6 +1,6 @@
 ---
 title: Home page do Supply Chain Management
-description: Esta página oferece uma lista de tópicos de ajuda e outros recursos do Supply Chain Management.
+description: Esta página oferece uma lista de artigos de ajuda e outros recursos do Supply Chain Management.
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879066"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page do Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma lista de tópicos de ajuda e outros recursos no Dynamics 365 Supply Chain Management.
+Este artigo fornece uma lista de artigos de ajuda e outros recursos no Dynamics 365 Supply Chain Management.
 
 ## <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
 
@@ -52,7 +52,7 @@ Escolha uma área de recursos para saber mais a respeito.
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Para obter mais informações sobre o Dynamics 365 Finance, acesse a [página inicial do Finance](../finance/index.md).
+Para obter mais informações sobre o Dynamics 365 Finance, acesse a [ home page do Finance](../finance/index.md).
 
 ## <a name="videos"></a>Vídeos
 
@@ -93,7 +93,7 @@ As gravações de conferência técnica a seguir abordam a funcionalidade do ger
 
 ## <a name="blogs"></a>Blogs
 
-Há muitos tópicos sobre gerenciamento da cadeia de suprimentos e de fabricação no [Blog da equipe de P&D de fabricação do Dynamics AX](/archive/blogs/axmfg/) e no [Supply Chain Management no Blog da equipe de P&D do Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). A maioria desses tópicos foi escrita para a versão anterior, mas os mesmos conceitos ainda se aplicam e os procedimentos são semelhantes na versão atual.
+Há muitos artigos sobre gerenciamento da cadeia de fornecedores e da fabricação no [Blog da equipe de P&D de fabricação do Dynamics AX](/archive/blogs/axmfg/) e no [Blog da equipe de P&D do Supply Chain Management no Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). A maioria desses tópicos foi escrita para a versão anterior, mas os mesmos conceitos ainda se aplicam e os procedimentos são semelhantes na versão atual.
 
 ## <a name="white-papers"></a>White papers
 

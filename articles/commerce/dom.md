@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de ordem distribuído (DOM)
-description: Este tópico descreve a funcionalidade Gerenciamento de ordem distribuído (DOM) do Dynamics 365 Commerce.
+description: Este artigo descreve a funcionalidade Gerenciamento de ordem distribuído (DOM) do Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878502"
 ---
 # <a name="distributed-order-management-dom"></a>Gerenciamento de ordem distribuído (DOM)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve a funcionalidade Gerenciamento de ordem distribuído (DOM) do Microsoft Dynamics 365 Commerce.
+Este artigo descreve a funcionalidade Gerenciamento de ordem distribuído (DOM) do Microsoft Dynamics 365 Commerce.
 
 O DOM é uma solução de otimização de processamento de ordens de omnicanal que ajuda a maximizar o processamento de ordens em uma rede de cadeia de fornecimento. DOM ajuda você a garantir que os produtos sejam entregues aos clientes nas quantidades corretas, das fontes certas e no momento adequado. O DOM também pode ajudar você a maximizar lucros, minimizar custos e atender a requisitos de nível de serviço.
 

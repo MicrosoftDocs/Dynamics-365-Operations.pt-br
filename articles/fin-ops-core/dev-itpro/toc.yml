@@ -410,6 +410,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Configurar o aplicativo de armazenagem para implantações locais
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: Habilitar o RSAT em ambientes de Finance + Operations (on-premises)
+                      href: deployment/onprem-rsat-configuration.md
                     - name: Instalar dispositivos de impressora de rede em ambientes locais
                       href: analytics/install-network-printer-onprem.md
                     - name: Diagnósticos locais
@@ -490,7 +492,7 @@
                   href: deployment/deployment-options-geo.md
                 - name: GCC (nuvem da Comunidade governamental dos EUA)
                   href: deployment/us-gcc-deployment.md
-                - name: Operado pela 21Vianet na China
+                - name: China – Operado pela 21Vianet
                   href: deployment/china-local-deployment.md
         - name: Desenvolver e personalizar
           items:
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Tutorial da extensão do Azure DevOps (versão preliminar pública)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: Extensão do Dynamics 365 Translation Service Visual Studio Code (versão preliminar pública)
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: Integração do Microsoft Power Platform
           items:
             - name: Visão geral

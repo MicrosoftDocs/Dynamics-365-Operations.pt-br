@@ -1,6 +1,6 @@
 ---
-title: Fluxo de trabalho de cliente
-description: Este tópico fornece informações sobre o fluxo de trabalho de cliente. Você altera campos específicos de um cliente e envia essas alterações para aprovação usando o fluxo de trabalho antes que elas sejam adicionadas ao cliente.
+title: Fluxo de trabalho do cliente
+description: Este artigo fornece informações sobre o fluxo de trabalho de cliente. Você altera campos específicos de um cliente e envia essas alterações para aprovação usando o fluxo de trabalho antes que elas sejam adicionadas ao cliente.
 author: abruer
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ccea0de202ec2f5ab706cb2110110fc9ffdc03ee
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 883e77b5480a52201673e58a641c7180009a129c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864415"
 ---
-# <a name="customer-workflow"></a>Fluxo de trabalho de cliente
+# <a name="customer-workflow"></a>Fluxo de trabalho do cliente
 
 [!include [banner](../includes/banner.md)]
 

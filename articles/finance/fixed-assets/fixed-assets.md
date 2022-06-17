@@ -1,6 +1,6 @@
 ---
 title: Home page de ativos fixos
-description: Este tópico fornece acesso a recursos que podem ajudar você a usar ativos fixos para o Microsoft Dynamics 365 Finance.
+description: Este artigo fornece acesso a recursos que podem ajudar você a usar ativos fixos para o Microsoft Dynamics 365 Finance.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880806"
 ---
 # <a name="fixed-assets-home-page"></a>Home page de ativos fixos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece acesso a recursos que podem ajudar você a usar ativos fixos para o Microsoft Dynamics 365 Finance. Os ativos fixos são itens de valor pertencentes a um indivíduo ou a uma organização. Os itens incluem imóveis, veículos, terrenos e equipamentos. 
+Este artigo fornece acesso a recursos que podem ajudar você a usar ativos fixos para o Microsoft Dynamics 365 Finance. Os ativos fixos são itens de valor pertencentes a um indivíduo ou a uma organização. Os itens incluem imóveis, veículos, terrenos e equipamentos. 
 
 É possível configurar e inserir informações de aquisição de ativos fixos e, em seguida, gerenciá-los, depreciando-os e definindo um limite de capitalização para determinar a depreciação. Você pode calcular os ajustes dos ativos fixos e também aliená-los. Quando você usa a Contabilidade com Ativos fixos, pode exibir o valor atual de todos os ativos fixos. A forma como os ativos fixos são manipulados deve corresponder aos padrões internacionais de contabilidade e à legislação de contabilidade de cada país/região. Entre as necessidades pode haver regras para o registro de transações de aquisição e de alienação, depreciação, durações, valorização e desvalorização dos ativos fixos. A funcionalidade de Ativos fixos incorpora muitos desses padrões e regras.
 

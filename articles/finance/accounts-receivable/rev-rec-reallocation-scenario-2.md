@@ -1,6 +1,6 @@
 ---
 title: Realocação de reconhecimento de receita – cenário 2
-description: Este tópico aborda um cenário de realocação em que duas ordens de venda são inseridas e o cliente adiciona um item ao contrato depois que a primeira ordem de venda foi faturada. Quando um novo item é adicionado a um contrato, ele pode ser adicionado a uma nova ordem de venda ou à ordem de venda existente.
+description: Este artigo aborda um cenário de realocação em que duas ordens de venda são inseridas e o cliente adiciona um item ao contrato depois que a primeira ordem de venda foi faturada. Quando um novo item é adicionado a um contrato, ele pode ser adicionado a uma nova ordem de venda ou à ordem de venda existente.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4026b8c69e51cb33c64bcf71a62a13b28b86bd49
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: dec8dba9848b77e5c0a1007102789c8f88185fbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904834"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Realocação de reconhecimento de receita – cenário 2
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico aborda um cenário de realocação em que duas ordens de venda são inseridas e o cliente adiciona um item ao contrato depois que a primeira ordem de venda foi faturada. Quando um novo item é adicionado a um contrato, ele pode ser adicionado a uma nova ordem de venda ou à ordem de venda existente.
+Este artigo aborda um cenário de realocação em que duas ordens de venda são inseridas e o cliente adiciona um item ao contrato depois que a primeira ordem de venda foi faturada. Quando um novo item é adicionado a um contrato, ele pode ser adicionado a uma nova ordem de venda ou à ordem de venda existente.
 
 Para este cenário, a opção **Lançar correções de fatura em Contas a receber** é definida como **Não** na guia **Reconhecimento de receita** da página **Parâmetros da contabilidade** (**Reconhecimento de receita \> Configurar \> Parâmetros da contabilidade**).
 

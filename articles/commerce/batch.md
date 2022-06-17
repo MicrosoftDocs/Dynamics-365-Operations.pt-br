@@ -1,6 +1,6 @@
 ---
 title: Manuseio aprimorado de itens de lote rastreados
-description: Este tópico descreve os itens de lote aprimorados rastreados durante o processo de lançamento de demonstrativo no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve os itens de lote aprimorados rastreados durante o processo de lançamento de demonstrativo no Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485774"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881868"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Manuseio aprimorado de itens de lote rastreados
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve os itens de lote aprimorados rastreados durante o processo de lançamento de demonstrativo no Microsoft Dynamics 365 Commerce.
+Este artigo descreve os itens de lote aprimorados rastreados durante o processo de lançamento de demonstrativo no Microsoft Dynamics 365 Commerce.
 
 No ponto de venda (PDV) do Dynamics 365 Commerce, os números de lote não podem ser capturados para itens de lote rastreados no momento da venda. No entanto, para configurações específicas, quando as vendas lançadas na matriz do Commerce por meio de ordens de cliente ou lançamento de demonstrativo, o Commerce espera que existam números de lote válidos para itens de lote rastreados e que eles sejam usados durante o processo de faturamento.
 

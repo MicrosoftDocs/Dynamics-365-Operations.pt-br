@@ -1,6 +1,6 @@
 ---
 title: Home page de Contas a pagar
-description: Este tópico oferece uma visão geral de contas a pagar.
+description: Este artigo oferece uma visão geral de contas a pagar.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595277"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946088"
 ---
 # <a name="accounts-payable-home-page"></a>Home page de Contas a pagar
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece uma visão geral de contas a pagar. 
+Este artigo oferece uma visão geral de contas a pagar. 
 
 Você pode inserir faturas de fornecedor manualmente ou recebê-las eletronicamente por uma entidade de dados. Depois que as faturas são lançadas ou recebidas, você pode revisar e aprovar as faturas usando um diário de aprovação de faturas ou a página **Fatura de fornecedor**. Você pode usar a conciliação de faturas, as políticas de faturas de fornecedor e o fluxo de trabalho para automatizar o processo de revisão, para que as faturas que atenderem a certos critérios sejam aprovadas automaticamente, e as faturas restantes sejam sinalizadas para revisão por um usuário autorizado.
 
@@ -126,7 +126,7 @@ Acesse os [planos de versão do Microsoft Dynamics 365](/dynamics365/release-pla
 
 #### <a name="blogs"></a>Blogs
 
-Você pode encontrar opiniões, notícias e outras informações sobre Contas a pagar e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/financials).
+Você pode encontrar opiniões, notícias, além de informações sobre contas a pagar e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)e no [blog de finanças do Microsoft Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do Dynamics 365.
 

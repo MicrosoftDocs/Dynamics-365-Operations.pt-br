@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes sobre atividades do exercício
-description: Este tópico lista perguntas que podem surgir ao fechar um ano, e as respostas que podem ajudar nas atividades de fechamento do exercício.
+description: Este artigo lista perguntas que podem surgir ao fechar um ano, e as respostas que podem ajudar nas atividades de fechamento do exercício.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865730"
 ---
 # <a name="year-end-activities-faq"></a>Perguntas frequentes sobre atividades do exercício 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista perguntas que podem surgir ao fechar um ano, e as respostas que podem ajudar nas atividades de fechamento do exercício. As informações neste tópico se concentram principalmente em perguntas relativas a atividades de fechamento do exercício para a contabilidade e contas a pagar.
+Este artigo lista perguntas que podem surgir ao fechar um ano, e as respostas que podem ajudar nas atividades de fechamento do exercício. As informações neste artigo se concentram principalmente em perguntas relativas a atividades de fechamento do exercício para a contabilidade e contas a pagar.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Aprimoramentos do exercício da contabilidade 
 A versão 10.0.20 introduziu um aprimoramento no fechamento do exercício, que é habilitado por padrão a partir da versão 10.0.25. Se a sua organização usa uma versão anterior à 10.0.25, recomendamos habilitar esse recurso antes de começar o processo de fechamento do exercício. Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho Gerenciamento de recursos para verificar o status do recurso e ativá-lo se necessário. Lá, o recurso está listado da seguinte maneira:
@@ -75,7 +75,7 @@ Os conjuntos de dimensões desnecessários também afetam o trabalho em lotes **
 [![Conjuntos de dimensões financeiras.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Configuração do modelo de fechamento do exercício
-O modelo de fechamento do exercício permite que as organizações selecionem o nível de dimensão financeira a ser mantido ao transferir saldos de lucros e perdas para ganhos retidos. As configurações permitem que uma organização mantenha as dimensões financeiras detalhadas (**Fechar tudo**) ao mover os saldos para ganhos retidos ou optar por resumir os valores para um único valor de dimensão (**Fechar um**). Isso pode ser definido para cada dimensão financeira. Para obter mais informações sobre essas configurações, consulte o tópico [Fechamento do exercício](year-end-close.md).
+O modelo de fechamento do exercício permite que as organizações selecionem o nível de dimensão financeira a ser mantido ao transferir saldos de lucros e perdas para ganhos retidos. As configurações permitem que uma organização mantenha as dimensões financeiras detalhadas (**Fechar tudo**) ao mover os saldos para ganhos retidos ou optar por resumir os valores para um único valor de dimensão (**Fechar um**). Isso pode ser definido para cada dimensão financeira. Para obter mais informações sobre essas configurações, consulte o artigo [Fechamento do exercício](year-end-close.md).
 
 Recomendamos que você avalie os requisitos da sua organização e, se possível, feche o número máximo de dimensões usando a opção **Fechar um** exercício para melhorar o desempenho. Ao fazer o fechamento para um único valor de dimensão (que também pode ser um valor em branco), o sistema calcula menos detalhes ao determinar os saldos das entradas da conta de ganhos retidos.
 

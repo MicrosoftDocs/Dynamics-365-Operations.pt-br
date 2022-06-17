@@ -56,8 +56,10 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Aplicar atualizações a implantações locais
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurar atualizações do serviço
+                - name: Configurar atualizações de serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Pré-serviço e pós-serviço
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: Pausar atualizações do serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Receber notificações sobre atualizações do serviço
@@ -254,7 +256,7 @@
                       href: CDX-package-sort.md
                 - name: Arquitetura do Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Modernização da pilha de tecnologia do Commerce (white paper)
+                - name: Modernização da pilha de tecnologia na loja do Commerce (white paper)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Implementação e solução de problemas offline do Commerce
                   href: dev-itpro/implementation-considerations-offline.md
@@ -280,7 +282,7 @@
                   href: set-up-activation-accounts-validate-devices-hq.md
                 - name: Ativação de dispositivo do PDV
                   href: dev-itpro/retail-device-activation.md
-                - name: Ajudar a proteger o PDV em Nuvem em ambientes compartilhados
+                - name: Ajudar a proteger o Cloud POS em ambientes compartilhados
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Instalação e configuração do Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
@@ -394,6 +396,8 @@
                   items:
                     - name: Aplicativo Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Migra o Modern POS para o Store Commerce
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Orientações para implementação de gerenciamento de dispositivos
                       href: implementation-considerations-devices.md
                     - name: Escolher entre o Store Commerce e o Cloud POS
@@ -422,7 +426,7 @@
                       href: charge-send.md
                     - name: Ocultar modos de entrega sem transportadora da caixa de diálogo de remessa do PDV
                       href: hide-non-carrier-modes.md
-                    - name: Gravador de tarefas e Ajuda para MPOS e PDV em Nuvem
+                    - name: Gravador de tarefas e Ajuda para MPOS e Cloud POS
                       href: task-recorder-retail-pos.md
                     - name: Periféricos de hardware
                       items:
@@ -472,7 +476,7 @@
                       items:
                         - name: 'Configurar, instalar e ativar o MPOS'
                           href: retail-modern-pos-device-activation.md
-                        - name: Configurar a funcionalidade de logon estendido para MPOS e PDV em Nuvem
+                        - name: Configurar a funcionalidade de logon estendido para MPOS e Cloud POS
                           href: extended-logon.md
                         - name: Gerenciar contas de ativação e dispositivos de validação
                           href: set-up-activation-accounts-validate-devices-hq.md
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: Solucionar problemas de desempenho nas configurações ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Reduzir o número de campos de tabela que são obtidos no tempo de execução
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: Gerenciamento de documentos comerciais (BDM)
                   items:
                     - name: Visão geral do BDM
@@ -2476,7 +2482,9 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Migração do SDK do Retail antigo
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
-                    - name: Modernização da pilha de tecnologia do Commerce (white paper)
+                    - name: 'APIs, classes e métodos obsoletos e removidos'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
+                    - name: Modernização da pilha de tecnologia na loja do Commerce (white paper)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Configuração do ambiente
                   items:
@@ -2560,11 +2568,13 @@
                   items:
                     - name: Criar um pacote de extensão do Cloud Scale Unit
                       href: dev-itpro/CSU-packaging.md
+                    - name: Mesclar pacotes de extensão de Cloud Scale Unit para implantação
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: Remover extensões do Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
               items:
-                - name: Visão geral
+                - name: Visão Geral
                   items:
                     - name: Visão geral da extensão de PDV
                       href: dev-itpro/pos-extension/pos-extension-overview.md
@@ -2908,6 +2918,14 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: Solução de problemas
           items:
+            - name: Store Commerce
+              items:
+                - name: Problemas de configuração e instalação
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: Problemas de desempenho
+                  href: troubleshoot/store-commerce-performance.md
+                - name: Problemas de extensão
+                  href: troubleshoot/store-commerce-extensions.md
             - name: Processamento de ordens
               items:
                 - name: O tipo de pagamento deve ser um erro de cartão de crédito
