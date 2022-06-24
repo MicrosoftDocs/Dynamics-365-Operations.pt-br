@@ -1,6 +1,6 @@
 ---
 title: Visão geral da integração com o Microsoft Dynamics 365 Field Service
-description: Este tópico fornece uma visão geral da Integração com o Microsoft Dynamics 365 Field Service.
+description: Este artigo fornece uma visão geral da Integração ao Microsoft Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: b0427d33ac39d34bccc302e58bb84e1ad4c3598c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888431"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Visão geral da integração com o Microsoft Dynamics 365 Field Service
 

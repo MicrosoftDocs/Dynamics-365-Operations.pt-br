@@ -1,6 +1,6 @@
 ---
-title: Habilitar recomendações de "descrição de comprar itens semelhantes"
-description: Este tópico descreve como habilitar recomendações de produto "descrição de comprar itens semelhantes" no Microsoft Dynamics 365 Commerce.
+title: Habilitar recomendações de "comprar por descrição semelhante"
+description: Este artigo descreve como habilitar recomendações de produto "descrição de comprar itens semelhantes" no Microsoft Dynamics 365 Commerce.
 author: bsokolov
 ms.date: 01/13/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 733b21870f9dd7ffa42fce3bccf669a59d633b14
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b935731b24f96753c814e3b496ffeeb7a92d9cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851999"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Habilitar recomendações de "comprar por descrição semelhante"
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como habilitar recomendações de produto "descrição de comprar itens semelhantes" no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como habilitar recomendações de produto "descrição de comprar itens semelhantes" no Microsoft Dynamics 365 Commerce.
 
 O recurso de recomendações de "descrição de comprar itens semelhantes" no Dynamics 365 Commerce usa inteligência artificial e machine learning (IA-ML) para fornecer recomendações de produtos que tenham descrições semelhantes ao que o cliente está pesquisando. Ao disponibilizar as recomendações de "descrição de comprar itens semelhantes" para todos os canais de varejo no Commerce, os varejistas podem ajudar os clientes a encontrar o que desejam com facilidade.
 
@@ -50,12 +50,12 @@ As recomendações de produto têm suporte somente para clientes do Commerce que
 
 Antes que as recomendações de "descrição de comprar itens semelhantes" possam ser exibidas para os clientes, você deve atender aos seguintes pré-requisitos:
 
-- [Habilite recomendações de produtos](enable-product-recommendations.md) na sede do Commerce.
+- [Habilite recomendações de produtos](enable-product-recommendations.md) no Commerce headquarters.
 - Confirme se o servidor de mídia oferece suporte a chamadas HTTPS.
 
 ### <a name="turn-on-the-shop-similar-description-recommendations-feature"></a>Ativar o recurso "descrição de comprar itens semelhantes"
 
-Para ativar o recurso de recomendações de "descrição de comprar itens semelhantes" na sede do Commerce, siga estas etapas:
+Para ativar o recurso de recomendações de "descrição de comprar itens semelhantes" no Commerce headquarters, siga estas etapas:
 
 1. No espaço de trabalho **Gerenciamento de recursos**, na lista de recursos disponíveis, procure e selecione a **Descrição de comprar itens semelhantes**.
 1. No painel à direita, selecione **Habilitar**.
@@ -67,7 +67,7 @@ Para ativar o recurso de recomendações de "descrição de comprar itens semelh
 
 ## <a name="add-a-shop-similar-description-button-to-product-details-pages"></a>Adicionar um botão Descrição de comprar itens semelhantes a páginas de detalhes do produto
 
-Depois que você ativar o recurso de recomendações de "Descrição de comprar itens semelhantes" na matriz do Commerce, você pode adicionar um botão **Descrição de comprar itens semelhantes** à caixa de compra em qualquer página de detalhes do produto (PDP). Um cliente que selecionar esse botão será levado a uma página dedicada de **Descrição de comprar itens semelhantes** que mostra produtos visualmente semelhantes. O cliente poderá usar seletores para filtrar ainda mais os produtos.
+Depois que você ativar o recurso de recomendações de "Descrição de comprar itens semelhantes" no Commerce headquarters, você pode adicionar um botão **Descrição de comprar itens semelhantes** à caixa de compra em qualquer página de detalhes do produto (PDP). Um cliente que selecionar esse botão será levado a uma página dedicada de **Descrição de comprar itens semelhantes** que mostra produtos visualmente semelhantes. O cliente poderá usar seletores para filtrar ainda mais os produtos.
 
 Para adicionar um botão **Descrição de comprar itens semelhantes** a uma PDP usando o construtor de sites do Commerce, siga estas etapas:
 

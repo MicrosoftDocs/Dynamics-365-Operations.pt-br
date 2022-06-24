@@ -1,6 +1,6 @@
 ---
-title: Criar uma requisição que use um RFQ
-description: Este tópico explica como adicionar o preço e a informação do vendedor a uma requisição da compra de um processo do RFQ.
+title: Criar uma requisição que use uma RFQ
+description: Este artigo explica como adicionar o preço e a informação do vendedor a uma requisição da compra de um processo do RFQ.
 author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78092205c1a1d149b4dc202e085871d1fe46c4ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5ecde250e3517464611b68fe3c960bfbfdf06319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846001"
 ---
-# <a name="create-a-requisition-that-uses-an-rfq"></a>Criar uma requisição que use um RFQ
+# <a name="create-a-requisition-that-uses-an-rfq"></a>Criar uma requisição que use uma RFQ
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como adicionar o preço e a informação do vendedor a uma requisição da compra de um processo do RFQ. O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF, e você entrar como um Admin para terminar todas as etapas. As tarefas neste guia seriam feitas tipicamente por profissionais da obtenção.
+Este artigo explica como adicionar o preço e a informação do vendedor a uma requisição da compra de um processo do RFQ. O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF, e você entrar como um Admin para terminar todas as etapas. As tarefas neste guia seriam feitas tipicamente por profissionais da obtenção.
 
 
 ## <a name="create-a-requisition"></a>Criar um requisito

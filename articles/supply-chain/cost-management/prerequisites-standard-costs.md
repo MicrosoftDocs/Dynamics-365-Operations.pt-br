@@ -1,6 +1,6 @@
 ---
 title: Visão geral de pré-requisitos de custos padrão
-description: Esse tópico descreve as etapas básicas para usar custos padrão.
+description: Esse artigo descreve as etapas básicas para usar custos padrão.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895776"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Visão geral de pré-requisitos de custos padrão
 
 [!include [banner](../includes/banner.md)]
 
-Esse tópico descreve as etapas básicas para usar custos padrão. As etapas subsequentes dependem das operações da empresa. Por exemplo, as etapas diferem para um ambiente de não fabricação, um ambiente de fabricação que não usa roteiros e um ambiente de fabricação que usa roteiros. 
+Esse artigo descreve as etapas básicas para usar custos padrão. As etapas subsequentes dependem das operações da empresa. Por exemplo, as etapas diferem para um ambiente de não fabricação, um ambiente de fabricação que não usa roteiros e um ambiente de fabricação que usa roteiros. 
 
 Para configurar custos padrão, siga estas etapas.
 
@@ -65,7 +65,7 @@ Use a página **Configuração de versão de avaliação de custo** para criar u
 Os clientes que desejarem alterar os itens existentes para um modelo de estoque de custo padrão devem usar a página **Conversões em custo padrão**.
 
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Visão geral de conversão de custo padrão](standard-cost-conversion-overview.md)
 

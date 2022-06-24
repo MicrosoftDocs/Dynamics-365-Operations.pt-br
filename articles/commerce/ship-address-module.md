@@ -1,6 +1,6 @@
 ---
-title: módulo de endereço de remessa
-description: Este tópico abrange o módulo de endereço de remessa e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
+title: Módulo de endereço de remessa
+description: Este artigo abrange o módulo de endereço de remessa e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 02/11/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30e639b7ba1c0caaf72fa66d13f80d04c2e861c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882187"
 ---
 # <a name="shipping-address-module"></a>Módulo de endereço de remessa
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve o módulo de endereço de remessa e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
+Este artigo descreve o módulo de endereço de remessa e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 
 O módulo de endereço de remessa permite que os clientes adicionem ou selecionem o endereço de remessa para uma ordem durante o o fluxo de finalização de compra. Se o cliente estiver conectado, quaisquer endereços que foram salvos anteriormente para esse cliente serão exibidos e o cliente poderá selecionar entre eles. O cliente também pode adicionar um novo endereço. O módulo de endereço de remessa é usado para todos os itens em uma ordem que exija remessa.
 
-Os formatos de endereço de remessa podem ser definidos na sede do Commerce para cada país ou região, e o módulo de endereço de remessa reforça as regras específicas do país/região.
+Os formatos de endereço de remessa podem ser definidos no Commerce headquarters para cada país ou região, e o módulo de endereço de remessa reforça as regras específicas do país/região.
 
 Quando os clientes inserem um endereço de remessa durante o fluxo de finalização de compra, eles têm a opção de salvar o endereço como o endereço principal. Esta opção é exibida somente se o cliente estiver conectado.
 

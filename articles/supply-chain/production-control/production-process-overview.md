@@ -1,6 +1,6 @@
 ---
 title: Visão geral do processo de produção
-description: Este tópico fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro.
+description: Este artigo fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro.
 author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8ebf0418a7d8b93e2ac58f90a686c63fd859355
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852205"
 ---
 # <a name="production-process-overview"></a>Visão geral do processo de produção
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro.
+Este artigo fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro.
 
 A produção de produtos, um processo que também é conhecido como o ciclo de vida de produção, segue etapas específicas necessárias para concluir a fabricação de um item. O ciclo de vida começa com a criação da ordem de produção, da ordem de lote ou do kanban. Termina com um item fabricado, acabado, pronto para o cliente ou para outra fase da produção. Cada etapa do ciclo de vida exige diferentes tipos de informações para executar o processo. Conforme cada etapa é concluída, a ordem de produção, ordem de lote ou kanban mostra uma alteração no status da produção. Diferentes tipos de produtos processos exigem processos de fabricação diferentes.
 

@@ -1,8 +1,8 @@
 ---
 title: Instalar o Suplemento Visibilidade de Estoque
-description: Este tópico descreve como instalar o Suplemento Visibilidade de Estoque para Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo descreve como instalar o Suplemento Visibilidade de Estoque para Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895689"
 ---
-# <a name="install-and-set-up-inventory-visibility"></a>Instalar e configurar Visibilidade de Estoque
+# <a name="install-and-set-up-inventory-visibility"></a>Instalar e configurar Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
+Este artigo descreve como instalar o Suplemento Visibilidade de Estoque para Microsoft Dynamics 365 Supply Chain Management.
 
-Este tópico descreve como instalar o Suplemento Visibilidade de Estoque para Microsoft Dynamics 365 Supply Chain Management.
+Você deve usar o Microsoft Dynamics LCS (Lifecycle Services) para instalar o Suplemento Visibilidade de Estoque. O LCS é um portal de colaboração que fornece um ambiente e um conjunto de serviços regularmente atualizados que ajudam a gerenciar o ciclo de vida dos seus aplicativos do Finance and Operations. Para obter mais informações, consulte [Recursos do Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-Você deve usar o Microsoft Dynamics LCS (Lifecycle Services) para instalar o Suplemento Visibilidade de Estoque. O LCS é um portal de colaboração que fornece um ambiente e um conjunto de serviços regularmente atualizados que ajudam a gerenciar o ciclo de vida dos seus aplicativos do Finance and Operations.
-
-Para obter mais informações, consulte [Recursos do Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+> [!TIP]
+> Recomendamos que você ingresse no grupo de usuários do Suplemento de Visibilidade de Estoque, no qual é possível encontrar guias úteis, obter nossas atualizações mais recentes e postar perguntas que possam ser obtidas usando a Visibilidade de Estoque. Para entrar, envie um email para a equipe de produto da Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) e inclua sua ID de ambiente do Supply Chain Management.
 
 ## <a name="inventory-visibility-prerequisites"></a>Pré-requisitos de Visibilidade de Estoque
 
@@ -44,6 +44,9 @@ Caso tenha alguma dúvida sobre esses pré-requisitos, entre em contato com a eq
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Instalar o Suplemento Visibilidade de Estoque
 
 Antes de instalar o suplemento, registre um aplicativo e adicione um segredo de cliente ao Azure Active Directory (Azure AD) em sua assinatura do Azure. Para obter instruções, consulte [Registrar um aplicativo](/azure/active-directory/develop/quickstart-register-app) e [Adicionar um segredo de cliente](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Anote os valores de **ID do aplicativo (cliente)**, **Segredo do cliente** e **ID do locatário**, porque você precisará deles mais tarde.
+
+> [!IMPORTANT]
+> Se você tiver mais de um ambiente LCS, crie um aplicativo Azure AD diferente para cada ambiente. Se você usar a mesma ID de aplicativo e ID de locatário para instalar o Suplemento de Visibilidade de Estoque para ambientes diferentes, ocorrerá uma saída de token para ambientes mais antigos. Como resultado, somente a última instalação será válida.
 
 Depois de registrar um aplicativo e adicionar um segredo de cliente ao Azure AD, siga estas etapas para instalar o Suplemento Visibilidade de Estoque.
 
@@ -72,11 +75,18 @@ Depois de registrar um aplicativo e adicionar um segredo de cliente ao Azure AD,
 1. Selecione **Instalar**. O status do suplemento é mostrado como **Instalando**. Quando a instalação for concluída, atualize a página. O status deve mudar para **Instalado**.
 1. No Dataverse, selecione a seção **Aplicativos** na navegação à esquerda e verifique se o Power Apps **Visibilidade de Estoque** foi instalado com êxito. Se a seção **Aplicativos** não existir, entre em contato com a equipe de produto do Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
-> [!TIP]
-> Recomendamos que você ingresse no grupo de usuários do Suplemento de Visibilidade de Estoque, no qual é possível encontrar guias úteis, obter nossas atualizações mais recentes e postar perguntas que possam ser obtidas usando a Visibilidade de Estoque. Para entrar, envie um email para a equipe de produto da Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) e inclua sua ID de ambiente do Supply Chain Management.
-
-> [!IMPORTANT]
-> Se você tiver mais de um ambiente LCS, crie um aplicativo Azure AD diferente para cada ambiente. Se você usar a mesma ID de aplicativo e ID de locatário para instalar o Suplemento de Visibilidade de Estoque para ambientes diferentes, ocorrerá uma saída de token para ambientes mais antigos. Somente o último que foi instalado será válido.
+> [!NOTE]
+> Se levar mais de uma hora para instalar a partir da página LCS, sua conta de usuário provavelmente não terá permissão para instalar soluções no ambiente do Dataverse. Siga estas etapas para resolver o problema:
+>
+> 1. Cancele o processo de instalação do suplemento de Visibilidade de Estoque na página LCS.
+> 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) e certifique-se de que a conta de usuário que você deseja usar para instalar o suplemento tenha a licença do "Plano do Dynamics 365 Unified Operations" atribuída a ela. Atribua a licença, se necessário.
+> 1. Entre no [centro de administração do Power Platform](https://admin.powerplatform.microsoft.com) usando a conta de usuário relevante. Depois, instale o suplemento de visibilidade de estoque executando as seguintes etapas:
+>     1. Selecione o ambiente em que deseja instalar o suplemento.
+>     1. Selecione **Aplicativos do Dynamics 365**.
+>     1. Selecione **Instalar aplicativo**.
+>     1. Selecione **Visibilidade de Estoque**
+>
+> 1. Após a conclusão da instalação, volte para a página LCS e tente novamente reinstalar o complemento **Visibilidade de Estoque**.
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Desinstalar o suplemento Visibilidade de Estoque
 

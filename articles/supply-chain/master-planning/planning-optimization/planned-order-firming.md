@@ -1,6 +1,6 @@
 ---
 title: Confirmar ordens planejadas
-description: Este tópico explica como confirmar ordens planejadas. Quando as ordens planejadas forem confirmadas, elas se tornarão ordens de compra, ordens de transferência ou ordens de produção reais.
+description: Este artigo explica como confirmar ordens planejadas. Quando as ordens planejadas forem confirmadas, elas se tornarão ordens de compra, ordens de transferência ou ordens de produção reais.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857508"
 ---
 # <a name="firm-planned-orders"></a>Confirmar ordens planejadas
 
@@ -29,11 +29,11 @@ Há três métodos para confirmar ordens planejadas:
 - **Confirmação automática** – defina um limite de tempo de confirmação padrão para grupos de cobertura, itens individuais e combinações de itens e planos mestre. Em seguida, durante as execuções do planejamento mestre, as ordens planejadas serão confirmadas automaticamente se a data da ordem estiver no limite de tempo especificado para a confirmação.
 - **Confirmação baseada em consulta** – defina uma consulta para selecionar ordens planejadas com base em suas propriedades. Você pode configurar um trabalho em lotes para executar a consulta e confirmar ordens correspondentes em uma agenda regular.
 
-Este tópico descreve cada método em detalhes.
+Este artigo descreve cada método em detalhes.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Habilite os recursos descritos neste tópico
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Habilitar os recursos descritos neste artigo
 
-A maioria dos recursos de ordem planejada estão disponíveis em todas as instalações padrão do Microsoft Dynamics 365 Supply Chain Management que usam a Otimização do Planejamento. No entanto, alguns dos recursos descritos neste tópico devem estar habilitados no gerenciamento de recursos para que você possa usá-los.
+A maioria dos recursos de ordem planejada estão disponíveis em todas as instalações padrão do Microsoft Dynamics 365 Supply Chain Management que usam a Otimização do Planejamento. No entanto, alguns dos recursos descritos neste artigo devem estar habilitados no gerenciamento de recursos para que você possa usá-los.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Ativar ou desativar a confirmação paralelizada de ordens planejadas
 
@@ -97,7 +97,7 @@ A confirmação automática permite que você confirme ordens planejadas como pa
 > As ordens derivadas (ou seja, ordens de compra do subcontratado) que forem confirmadas terão um status *Em revisão* se o controle de alterações estiver ativado.
 
 > [!IMPORTANT]
-> Para que o recurso descrito nesta seção possa ser usado com otimização de planejamento, o [recurso *Confirmação automática para otimização de planejamento*](#enable-features) deve estar ativado no sistema, conforme descrito no início deste tópico. A confirmação automática sempre pode ser usada com o mecanismo de planejamento mestre interno.
+> Para que o recurso descrito nesta seção possa ser usado com otimização de planejamento, o [recurso *Confirmação automática para otimização de planejamento*](#enable-features) deve estar ativado no sistema, conforme descrito no início deste artigo. A confirmação automática sempre pode ser usada com o mecanismo de planejamento mestre interno.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Confirmação automática com otimização de planejamento x o mecanismo de planejamento interno
 
@@ -130,7 +130,7 @@ A confirmação baseada em consulta permite planejar a confirmação com base em
 Você pode combinar a confirmação automática com a confirmação baseada em consulta. Por exemplo, um trabalho de confirmação baseado em consulta tem um limite de tempo de avanço maior do que o limite de tempo para uma configuração de cobertura de confirmação automática correspondente. Portanto, o trabalho de confirmação baseado em consulta processará as ordens planejadas antes do disparo da confirmação automática. Você pode aproveitar esse comportamento para agendar ordens para fornecedores específicos de forma diferente das ordens de produtos semelhantes de outros fornecedores.
 
 > [!IMPORTANT]
-> Para que o recurso descrito nesta seção possa ser usado, o [recurso *Confirmação de ordem planejada com filtragem*](#enable-features) deve ser ativado no sistema, conforme descrito no início deste tópico.
+> Para que o recurso descrito nesta seção possa ser usado, o [recurso *Confirmação de ordem planejada com filtragem*](#enable-features) deve ser ativado no sistema, conforme descrito no início deste artigo.
 
 Para confirmar uma ordem planejada usando o processo de confirmação baseado em consulta, siga estas etapas.
 

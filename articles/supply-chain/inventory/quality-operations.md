@@ -1,6 +1,6 @@
 ---
 title: Operações para não conformidades
-description: Este tópico descreve como criar e usar operações para não conformidades.
+description: Este artigo descreve como criar e usar operações para não conformidades.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35619454af8b1cb1b7d383d393362f58d9dd0ea6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2e63156dd2b230da7f1ea89e2c2006c1b4f3eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847981"
 ---
 # <a name="operations-for-nonconformances"></a>Operações para não conformidades
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar e usar operações para não conformidades.
+Este artigo descreve como criar e usar operações para não conformidades.
 
 Use a página **Operações** para definir classificações do trabalho que pode ser realizado para uma não conformidade aprovada. Ao atribuir uma operação relacionada a uma não conformidade, é possível fornecer detalhes como o material associado, as horas de trabalho e os encargos necessários para executar a operação. O sistema usa essas informações para calcular um custo estimado para a operação. As informações detalhadas e os custos estimados são para referência apenas. As operações relacionadas para qualidade diferem das operações que podem ser definidas para um roteiro de produção.
 

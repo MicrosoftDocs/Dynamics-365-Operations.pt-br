@@ -1,6 +1,6 @@
 ---
 title: Demonstrativos de varejo
-description: Este tópico descreve como os demonstrativos são criados e lançados.
+description: Este artigo descreve como os demonstrativos são criados e lançados.
 author: ashishmsft
 ms.date: 04/04/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0717c1198171f411e3c52233200ecfcc213dc13f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738687"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878448"
 ---
 # <a name="retail-statements"></a>Demonstrativos de varejo
 
 [!include [banner](includes/banner.md)]
 
-No Dynamics 365 Commerce, o processo de lançamento de demonstrativo é usado para registrar contabilmente as transações que ocorrem no ponto de venda (PDV) da nuvem ou Modern POS (MPOS). O processos de lançamentos de demonstrativos usa a agenda de distribuição para receber um conjunto de transações PDV no cliente das sedes (HQ). Os parâmetros definidos nas páginas **Parâmetros do Commerce** e **Lojas** são usados para selecionar as transações que são recebidas em demonstrativos individuais.
+No Dynamics 365 Commerce, o processo de lançamento de demonstrativo é usado para registrar contabilmente as transações que ocorrem no ponto de venda (PDV) da nuvem ou Modern POS (MPOS). O processos de lançamentos de demonstrativos usa a agenda de distribuição para receber um conjunto de transações PDV no cliente do headquarters (HQ). Os parâmetros definidos nas páginas **Parâmetros do Commerce** e **Lojas** são usados para selecionar as transações que são recebidas em demonstrativos individuais.
 
 A ilustração a seguir mostra o processo de lançamento do demonstrativo. Nesse processo, as transações que são registradas no PDV são transmitidas para o cliente usando o agendador do Commerce. Depois que o cliente receber as transações, você poderá criar, calcular e lançar o demonstrativo de transação para a loja.
 

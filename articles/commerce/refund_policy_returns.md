@@ -1,6 +1,6 @@
 ---
 title: Criar e atualizar uma política de devolução e reembolso para um canal
-description: Este tópico explica como configurar uma política de devoluções e reembolsos para um canal.
+description: Este artigo explica como configurar uma política de devoluções e reembolsos para um canal.
 author: ShalabhjainMSFT
 ms.date: 07/13/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
-ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
+ms.openlocfilehash: 54dd19134aea68f73de51086fbaa096961447b62
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7388924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873295"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Criar e atualizar uma política de devolução e reembolso para um canal
 
@@ -27,7 +27,7 @@ ms.locfileid: "7388924"
 
 A política de devolução de canal no Dynamics 365 Commerce permite que os varejistas definam os encargos nos quais os meios de pagamento possam ser permitidos para processar uma devolução em um dispositivo de ponto de venda (PDV).  
 
-Este tópico descreve as etapas para configurar uma política de devoluções e reembolsos para um canal.
+Este artigo descreve as etapas para configurar uma política de devoluções e reembolsos para um canal.
 
 No momento, o escopo da política está limitado à definição de meios de pagamento que possam ser permitidos para um canal. A lista "permitido" baseia-se nos métodos de pagamento usados para fazer a compra. Por exemplo:
 
@@ -36,7 +36,7 @@ No momento, o escopo da política está limitado à definição de meios de paga
 
 ## <a name="enable-return-policy"></a>Habilitar política de devolução
 
-Para habilitar a funcionalidade de política de devolução de canais na matriz do Commerce, siga estas etapas:
+Para habilitar a funcionalidade de política de devolução de canais no Commerce headquarters, siga estas etapas:
 
 1. Acesse o espaço de trabalho **Gerenciamento de Recursos** no Dynamics 365 Commerce.
 1. Procure o recurso **Habilitar políticas de devolução de canal** na lista de nomes de recursos.

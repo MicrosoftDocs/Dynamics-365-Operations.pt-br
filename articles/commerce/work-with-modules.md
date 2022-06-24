@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com módulos
-description: Este tópico descreve como e quando usar os módulos no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como e quando usar os módulos no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860183"
 ---
 # <a name="work-with-modules"></a>Trabalhar com módulos
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como e quando usar os módulos no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como e quando usar os módulos no Microsoft Dynamics 365 Commerce.
 
 Módulos são blocos de construção lógicos que compõem a estrutura da sua página e têm vários objetivos e escopos. Alguns módulos são contêineres de alto nível e seu único objetivo é manter e organizar outros módulos (módulos filhos). Outros módulos, como um módulo simples de posicionamento de imagem, têm uma finalidade muito específica. Outros módulos, como um módulo de carrossel, estão em algum lugar entre essas duas categorias.
 
@@ -151,7 +151,7 @@ Para configurar um módulo de contêiner em uma página, siga estas etapas.
 
 1. Selecione um módulo de contêiner em sua página (por exemplo, um carrossel ou um módulo fluido do contêiner).
 1. No painel de propriedades à direita, expanda os controles aninhados selecionando os cabeçalhos e defina quaisquer valores de controle necessários.
-1. No painel de estrutura de tópicos à esquerda, selecione o botão de reticências ao lado do nome do contêiner ou de quaisquer slots dentro do contêiner e, em seguida, selecione **Adicionar Módulo**. Em seguida, adicione os módulos filho ao contêiner selecionado. Para obter mais informações, consulte a seção [Trabalhar com módulos](#add-a-module) anterior nesse tópico.
+1. No painel de estrutura de tópicos à esquerda, selecione o botão de reticências ao lado do nome do contêiner ou de quaisquer slots dentro do contêiner e, em seguida, selecione **Adicionar Módulo**. Em seguida, adicione os módulos filho ao contêiner selecionado. Para obter mais informações, consulte a seção [Trabalhar com módulos](#add-a-module) anterior nesse artigo.
 1. Se vários módulos filho existirem como irmãos um contêiner pai, poderá alterar a ordem de exibição no contêiner pai. Selecione o botão de reticências para um módulo, e use os botões de seta para cima e a seta para baixo.
 
 ## <a name="additional-resources"></a>Recursos adicionais

@@ -1,6 +1,6 @@
 ---
 title: Planejamento mestre com previsões de demanda
-description: Este tópico explica como incluir previsões de demanda durante planejamento mestre com Otimização de Planejamento.
+description: Este artigo explica como incluir previsões de demanda durante o planejamento mestre com Otimização de Planejamento.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878980"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planejamento mestre com previsões de demanda
 
@@ -42,7 +42,7 @@ Para configurar um plano mestre de forma que inclua uma previsão de demanda, si
 
     - **Modelo de previsão** – selecione o modelo de previsão a ser aplicado. Esse modelo será considerado quando uma sugestão de fornecimento for gerada para o plano mestre atual.
     - **Incluir previsão de demanda** – defina esta opção como *Sim* para incluir a previsão de demanda no plano mestre atual. Se você defini-la como *Não*, as transações de previsão de demanda não serão incluídas no plano mestre.
-    - **Método usado para reduzir requisitos de previsão** – selecione o método que deve ser usado para reduzir requisitos de previsão. Para obter mais informações, consulte a seção [Chaves de redução da previsão](#reduction-keys) mais adiante neste tópico.
+    - **Método usado para reduzir requisitos de previsão** – selecione o método que deve ser usado para reduzir requisitos de previsão. Para obter mais informações, consulte a seção [Chaves de redução da previsão](#reduction-keys) mais adiante neste artigo.
 
 1. Na FastTab **Limite de tempo em dias**, você pode definir os seguintes campos para especificar o período de inclusão da previsão de demanda durante:
 
@@ -61,7 +61,7 @@ Para configurar um grupo de cobertura para que inclua uma previsão de demanda, 
 1. Na FastTab **Outro**, defina os seguintes campos:
 
     - **Limite de tempo do plano de previsão** – insira o número de dias (a partir da data de hoje) para o qual a previsão de demanda deve ser aplicada. Esse valor pode ser substituído usando a opção **Plano de previsão** no plano mestre, conforme descrito na seção anterior.
-    - **Chave de redução** – selecione a chave de redução a ser aplicada. Para obter mais informações, consulte as seções [Criar e configurar uma chave de redução de previsão](#create-reduction-key) e [Usar uma chave de redução](#use-reduction-key) mais adiante neste tópico.
+    - **Chave de redução** – selecione a chave de redução a ser aplicada. Para obter mais informações, consulte as seções [Criar e configurar uma chave de redução de previsão](#create-reduction-key) e [Usar uma chave de redução](#use-reduction-key) mais adiante neste artigo.
     - **Reduzir previsão por** – para planos mestre em que o campo **Método usado para reduzir requisitos de previsão** está definido como *Transações - chave de redução* ou *Transações - período dinâmico*, especifique quais transações devem reduzir a previsão. Selecione um dos seguintes valores:
 
         - **Todas as transações** – todas as transações devem reduzir a previsão.

@@ -1,6 +1,6 @@
 ---
 title: Dias negativos e dias negativos dinâmicos
-description: Este tópico fornece informações sobre dias negativos e dias negativos dinâmicos, e como você pode usá-los em seus negócios.
+description: Este artigo fornece informações sobre dias negativos e dias negativos dinâmicos, e como você pode usá-los em seus negócios.
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846117"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Dias negativos e dias negativos dinâmicos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre dias negativos e dias negativos dinâmicos, e como você pode usá-los em seus negócios. O *limite de tempo de dias negativos* representa o número de dias que você está disposto a esperar antes de solicitar um novo reabastecimento quando houver estoque negativo.
+Este artigo fornece informações sobre dias negativos e dias negativos dinâmicos, e como você pode usá-los em seus negócios. O *limite de tempo de dias negativos* representa o número de dias que você está disposto a esperar antes de solicitar um novo reabastecimento quando houver estoque negativo.
 
-Neste tópico você obterá as seguintes informações:
+Neste artigo você obterá as seguintes informações:
 
 - Como as ordens planejadas são criadas
 - A correlação entre o limite de tempo de dias negativos e o prazo de entrega do item
 - Como o limite de tempo de dias negativos dinâmico é calculado e como o prazo de entrega do item é fatorado no cálculo
 - Como interpretar as [sugestões para melhorar o tempo de execução do planejamento de requisições de materiais (MRP) (planejamento mestre)](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx) relacionadas aos dias negativos
 
-Este tópico usa três cenários hipotéticos para ajudá-lo a entender essas informações. A diferença entre os cenários é o ponto em que você obtém a demanda: antes, durante ou após o período do prazo de entrega do item.
+Este artigo usa três cenários hipotéticos para ajudá-lo a entender essas informações. A diferença entre os cenários é o ponto em que você obtém a demanda: antes, durante ou após o período do prazo de entrega do item.
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>Cenário 1: Você obtém demanda antes do período do prazo de entrega do item
 
@@ -93,7 +93,7 @@ A ilustração a seguir mostra uma exibição gráfica do que ocorre neste caso.
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Caso E: Use os dois dias negativos que são mais do que o prazo de entrega do item e o limite de tempo de dias negativos dinâmicos
 
-Se você definir os dias negativos como um número que é maior que o prazo de entrega do item e também usar o limite de tempo de dias negativos dinâmicos, o limite de tempo de dias negativos dinâmico será 6 + 6 + 0 = 12 dias. Essa abordagem pode produzir um limite de tempo muito longo no qual o MRP deve procurar resultados. Para obter informações sobre como o caso E está relacionado a uma situação em que você define os dias negativos como um limite de tempo longo, consulte a seção [Conclusão](#conclusion) deste tópico.
+Se você definir os dias negativos como um número que é maior que o prazo de entrega do item e também usar o limite de tempo de dias negativos dinâmicos, o limite de tempo de dias negativos dinâmico será 6 + 6 + 0 = 12 dias. Essa abordagem pode produzir um limite de tempo muito longo no qual o MRP deve procurar resultados. Para obter informações sobre como o caso E está relacionado a uma situação em que você define os dias negativos como um limite de tempo longo, consulte a seção [Conclusão](#conclusion) deste artigo.
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>Cenário 2: Você obtém demanda durante o período do prazo de entrega do item
 
@@ -142,7 +142,7 @@ Se você definir os dias negativos como **0** (zero) e usar somente o limite de 
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Caso E: Use os dois dias negativos que são mais do que o prazo de entrega do item e o limite de tempo de dias negativos dinâmicos
 
-Se você definir os dias negativos como um número que é maior que o prazo de entrega do item e também usar o limite de tempo de dias negativos dinâmicos, o limite de tempo de dias negativos dinâmico será 6 + 6 - 4 = 8 dias. Essa abordagem pode produzir um limite de tempo muito longo no qual o MRP deve procurar resultados. Para obter informações sobre como o caso E está relacionado a uma situação em que você define os dias negativos como um limite de tempo longo, consulte a seção [Conclusão](#conclusion) deste tópico.
+Se você definir os dias negativos como um número que é maior que o prazo de entrega do item e também usar o limite de tempo de dias negativos dinâmicos, o limite de tempo de dias negativos dinâmico será 6 + 6 - 4 = 8 dias. Essa abordagem pode produzir um limite de tempo muito longo no qual o MRP deve procurar resultados. Para obter informações sobre como o caso E está relacionado a uma situação em que você define os dias negativos como um limite de tempo longo, consulte a seção [Conclusão](#conclusion) deste artigo.
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>Cenário 3: Você obtém demanda depois do período do prazo de entrega do item
 
@@ -204,7 +204,7 @@ Este caso é igual ao caso E dos cenários 1 e 2. Basicamente terá os mesmos e 
 
 ## <a name="conclusion"></a>Conclusão
 
-Como os três cenários mostram neste tópico, é aconselhável definir os dias negativos como um número que seja maior do que o prazo de entrega de itens no grupo de cobertura. Também é recomendável usar somente dias negativos dinâmicos e definir os dias negativos como o número de dias que você está disposto a esperar antes de solicitar um novo reabastecimento quando tiver um estoque negativo (em outras palavras, o número de dias que você está disposto a atrasar ainda mais a demanda). Além disso, os itens no mesmo grupo de cobertura devem ter prazos de entrega semelhantes.
+Como os três cenários mostram neste artigo, é aconselhável definir os dias negativos como um número que seja maior do que o prazo de entrega de itens no grupo de cobertura. Também é recomendável usar somente dias negativos dinâmicos e definir os dias negativos como o número de dias que você está disposto a esperar antes de solicitar um novo reabastecimento quando tiver um estoque negativo (em outras palavras, o número de dias que você está disposto a atrasar ainda mais a demanda). Além disso, os itens no mesmo grupo de cobertura devem ter prazos de entrega semelhantes.
 
 Se você definir os dias negativos como **0** (zero) e não usar dias negativos dinâmicos, o MRP sempre criará uma nova ordem planejada para atender à demanda. Nessa situação, é importante que você trabalhe com mensagens de ação para assegurar que você não empilha o estoque.
 

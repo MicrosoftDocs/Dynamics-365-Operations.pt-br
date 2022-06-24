@@ -1,6 +1,6 @@
 ---
 title: Gerenciar deduções usando a bancada de dedução
-description: Este tópico descreve como usar a bancada de dedução de forma que seja possível processar pagamentos de clientes que incluem deduções.
+description: Este artigo descreve como usar o workbench de dedução de forma que seja possível processar pagamentos de clientes que incluem deduções.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873598"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Gerenciar deduções usando a bancada de dedução
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como usar a bancada de dedução de forma que seja possível processar pagamentos de clientes que incluem deduções.
+Este artigo descreve como usar o workbench de dedução de forma que seja possível processar pagamentos de clientes que incluem deduções.
 
 Um cliente que tem direito a um reembolso pode decidir não aguardar o pagamento do reembolso. Em vez disso, o cliente pode enviar um pagamento que inclui a dedução do valor do reembolso. Para lidar com esse tipo de transação, é possível usar a bancada de dedução para corresponder as deduções e abrir as transações de crédito, dividir deduções, negar deduções e dar baixa em deduções.
 
 > [!NOTE]
-> A bancada de dedução faz parte da funcionalidade de vendas e marketing do Microsoft Dynamics 365 Supply Chain Management há muito tempo. No entanto, agora ele foi aprimorado para que também funcione com o módulo **Gerenciamento de reembolsos** mais recente. Este tópico descreve como usar recursos antigos e recursos de gerenciamento de reembolsos da bancada de dedução. No entanto, se você não [tiver ativado o módulo **Gerenciamento de reembolsos** para seu sistema](rebate-management-enable.md), algumas das funcionalidades descritas aqui não estarão disponíveis para você.
+> A bancada de dedução faz parte da funcionalidade de vendas e marketing do Microsoft Dynamics 365 Supply Chain Management há muito tempo. No entanto, agora ele foi aprimorado para que também funcione com o módulo **Gerenciamento de reembolsos** mais recente. Este artigo descreve como usar recursos antigos e recursos de gerenciamento de reembolsos do workbench de dedução. No entanto, se você não [tiver ativado o módulo **Gerenciamento de reembolsos** para seu sistema](rebate-management-enable.md), algumas das funcionalidades descritas aqui não estarão disponíveis para você.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -159,11 +159,11 @@ Para criar uma nova dedução na bancada de dedução, siga estas etapas.
         - *Com base na quantidade* – Uma ordem de venda negativa ou uma ordem de devolução será criada.
 
     - **Data da declaração** – Selecione a data da declaração. O valor padrão é a data atual.
-    - **Motivo da declaração** – Selecione o código de motivo que se aplica à dedução atual. A base da declaração selecionada afeta as opções que se apliquem. Para obter mais informações sobre como criar e configurar os motivos da declaração que estão disponíveis para seleção aqui, consulte a [seção criar motivos ](#deduction-reasons)de dedução anteriormente neste tópico.
+    - **Motivo da declaração** – Selecione o código de motivo que se aplica à dedução atual. A base da declaração selecionada afeta as opções que se apliquem. Para obter mais informações sobre como criar e configurar os motivos da declaração que estão disponíveis para seleção aqui, consulte a seção [Criar motivos da dedução](#deduction-reasons) anteriormente neste artigo.
     - **Notas** – Adicione notas que se apliquem. Quando a declaração for aprovada, o aprovador poderá editar ou adicionar as notas da declaração.
     - **Criar diário de declarações** – Defina esta opção para especificar se o diário de declarações deve ser criado quando a declaração ou dedução é criada:
 
-        - *Sim* – O sistema criará e lançará um diário geral usando o diário de declaração configurado na página **Parâmetros de contas a receber**. (Para obter mais informações, consulte a seção [Configurar contas a receber e deduções](#accounts-receivable-deductions), abordada anteriormente neste tópico.) Quando uma fatura é anexada à declaração, o diário de declarações é usado para reduzir o saldo da fatura aplicável. Se a declaração for rejeitada posteriormente, o diário de declarações e as liquidações (se uma fatura anexada) serão revertidos.
+        - *Sim* – O sistema criará e lançará um diário geral usando o diário de declaração configurado na página **Parâmetros de contas a receber**. (Para obter mais informações, consulte a seção [Configurar contas a receber e deduções](#accounts-receivable-deductions), abordada anteriormente neste artigo.) Quando uma fatura é anexada à declaração, o diário de declarações é usado para reduzir o saldo da fatura aplicável. Se a declaração for rejeitada posteriormente, o diário de declarações e as liquidações (se uma fatura anexada) serão revertidos.
         - *Não* – Nenhum diário de declarações é criado neste momento. Ele será criado quando a solicitação for aprovada. Uma fatura ainda pode ser anexada à nova declaração, mesmo que um diário de declaração não seja criado. No entanto, a liquidação não poderá ser feita sem o diário de declarações.
 
 1. Selecione **OK**.
@@ -197,11 +197,11 @@ O processo de criação de uma dedução a partir de uma liquidação de cliente
         - *Com base na quantidade* – Uma ordem de venda negativa ou uma ordem de devolução será criada.
 
     - **Data da declaração** – Selecione a data da declaração. O valor padrão é a data atual.
-    - **Motivo da declaração** – Selecione o código de motivo que se aplica à dedução atual. A base da declaração selecionada afeta as opções que se apliquem. Para obter mais informações sobre como criar e configurar os motivos da declaração que estão disponíveis para seleção aqui, consulte a [seção criar motivos ](#deduction-reasons)de dedução anteriormente neste tópico.
+    - **Motivo da declaração** – Selecione o código de motivo que se aplica à dedução atual. A base da declaração selecionada afeta as opções que se apliquem. Para obter mais informações sobre como criar e configurar os motivos da declaração que estão disponíveis para seleção aqui, consulte a seção [Criar motivos da dedução](#deduction-reasons) anteriormente neste artigo.
     - **Notas** – Adicione notas que se apliquem. Quando a declaração for aprovada, o aprovador poderá editar ou adicionar as notas da declaração.
     - **Criar diário de declarações** – Defina esta opção para especificar se o diário de declarações deve ser criado quando a declaração ou dedução é criada:
 
-        - *Sim* – O sistema criará e lançará um diário geral usando o diário de declaração configurado na página **Parâmetros de contas a receber**. (Para obter mais informações, consulte a seção [Configurar contas a receber e deduções](#accounts-receivable-deductions), abordada anteriormente neste tópico.) Quando uma fatura é anexada à declaração, o diário de declarações é usado para reduzir o saldo da fatura aplicável. Se a declaração for rejeitada posteriormente, o diário de declarações e as liquidações (se uma fatura anexada) serão revertidos.
+        - *Sim* – O sistema criará e lançará um diário geral usando o diário de declaração configurado na página **Parâmetros de contas a receber**. (Para obter mais informações, consulte a seção [Configurar contas a receber e deduções](#accounts-receivable-deductions), abordada anteriormente neste artigo.) Quando uma fatura é anexada à declaração, o diário de declarações é usado para reduzir o saldo da fatura aplicável. Se a declaração for rejeitada posteriormente, o diário de declarações e as liquidações (se uma fatura anexada) serão revertidos.
         - *Não* – Nenhum diário de declarações é criado neste momento. Ele será criado quando a solicitação for aprovada. Uma fatura ainda pode ser anexada à nova declaração, mesmo que um diário de declaração não seja criado. No entanto, a liquidação não poderá ser feita sem o diário de declarações.
 
 1. Selecione **OK**.
@@ -235,11 +235,11 @@ O processo de criação de uma dedução a partir de uma página de cliente é s
         - *Com base na quantidade* – Uma ordem de venda negativa ou uma ordem de devolução será criada.
 
     - **Data da declaração** – Selecione a data da declaração. O valor padrão é a data atual.
-    - **Motivo da declaração** – Selecione o código de motivo que se aplica à dedução atual. A base da declaração selecionada afeta as opções que se apliquem. Para obter mais informações sobre como criar e configurar os motivos da declaração que estão disponíveis para seleção aqui, consulte a [seção criar motivos ](#deduction-reasons)de dedução anteriormente neste tópico.
+    - **Motivo da declaração** – Selecione o código de motivo que se aplica à dedução atual. A base da declaração selecionada afeta as opções que se apliquem. Para obter mais informações sobre como criar e configurar os motivos da declaração que estão disponíveis para seleção aqui, consulte a seção [Criar motivos da dedução](#deduction-reasons) anteriormente neste artigo.
     - **Notas** – Adicione notas que se apliquem. Quando a declaração for aprovada, o aprovador poderá editar ou adicionar as notas da declaração.
     - **Criar diário de declarações** – Defina esta opção para especificar se o diário de declarações deve ser criado quando a declaração ou dedução é criada:
 
-        - *Sim* – O sistema criará e lançará um diário geral usando o diário de declaração configurado na página **Parâmetros de contas a receber**. (Para obter mais informações, consulte a seção [Configurar contas a receber e deduções](#accounts-receivable-deductions), abordada anteriormente neste tópico.) Quando uma fatura é anexada à declaração, o diário de declarações é usado para reduzir o saldo da fatura aplicável. Se a declaração for rejeitada posteriormente, o diário de declarações e as liquidações (se uma fatura anexada) serão revertidos.
+        - *Sim* – O sistema criará e lançará um diário geral usando o diário de declaração configurado na página **Parâmetros de contas a receber**. (Para obter mais informações, consulte a seção [Configurar contas a receber e deduções](#accounts-receivable-deductions), abordada anteriormente neste artigo.) Quando uma fatura é anexada à declaração, o diário de declarações é usado para reduzir o saldo da fatura aplicável. Se a declaração for rejeitada posteriormente, o diário de declarações e as liquidações (se uma fatura anexada) serão revertidos.
         - *Não* – Nenhum diário de declarações é criado neste momento. Ele será criado quando a solicitação for aprovada. Uma fatura ainda pode ser anexada à nova declaração, mesmo que um diário de declaração não seja criado. No entanto, a liquidação não poderá ser feita sem o diário de declarações.
 
 1. Selecione **OK**.
@@ -280,7 +280,7 @@ Para corresponder a dedução a um crédito, siga estas etapas.
 1. No Painel de Ação, selecione **Manter \> Corresponder**. O sistema corresponde a dedução ao crédito. Se um saldo permanecer na dedução, ele será mostrado no campo **Valor restante** na guia **Deduções**.
 
     > [!NOTE]
-    > Para deduções que foram criadas usando o comando **Nova dedução** na bancada de dedução, liquidação de cliente ou página de cliente, o comando **Manter \> Corresponder** só estará disponível se o campo **Status da declaração** estiver definido como *Aceito*. Este comando pode ser usado para fazer a correspondência manual entre a transação baseada em preço ou em quantidade ao crédito associado na seção **Transações abertas**. Esse crédito é criado quando a dedução é aprovada (usando o comando **Manter \> Aprovar dedução**) ou quando está anexada a um crédito existente, conforme descrito na seção [Créditos criados fora do processo de aprovação de dedução](#credits-outside-approval) posteriormente neste tópico. As tarefas periódicas *Liquidar deduções aprovadas* (**Venda de marketing \> Tarefas periódicas \> Liquidar deduções aprovadas**) também podem ser usadas para corresponder automaticamente deduções e créditos que têm valores correspondentes de **ID de dedução**.
+    > Para deduções que foram criadas usando o comando **Nova dedução** na bancada de dedução, liquidação de cliente ou página de cliente, o comando **Manter \> Corresponder** só estará disponível se o campo **Status da declaração** estiver definido como *Aceito*. Este comando pode ser usado para fazer a correspondência manual entre a transação baseada em preço ou em quantidade ao crédito associado na seção **Transações abertas**. Esse crédito é criado quando a dedução é aprovada (usando o comando **Manter \> Aprovar dedução**) ou quando está anexada a um crédito existente, conforme descrito na seção [Créditos criados fora do processo de aprovação de dedução](#credits-outside-approval) posteriormente neste artigo. As tarefas periódicas *Liquidar deduções aprovadas* (**Venda de marketing \> Tarefas periódicas \> Liquidar deduções aprovadas**) também podem ser usadas para corresponder automaticamente deduções e créditos que têm valores correspondentes de **ID de dedução**.
 
 ### <a name="split-a-deduction"></a>Dividir uma dedução
 

@@ -1,6 +1,6 @@
 ---
 title: Planejamento intercompanhia
-description: Este tópico descreve o planejamento intercompanhia e explica como configurar o planejamento intercompanhia com a Otimização de Planejamento no Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo descreve o planejamento intercompanhia e explica como configurar o planejamento intercompanhia com a Otimização de Planejamento no Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: de9f9679bfaf9491c6b69c11448306627c8a42f9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850660"
 ---
 # <a name="intercompany-planning"></a>Planejamento intercompanhia
 
@@ -29,9 +29,9 @@ ms.locfileid: "8468486"
 
 Para algumas organizações, as operações de logística dependem de outras entidades legais (empresas) na organização. Essas operações são tratadas com o uso de vendas e compras intercompanhia, pois cada entidade legal tem um plano de contas separado.
 
-Este tópico descreve o planejamento intercompanhia e explica como configurar o planejamento intercompanhia com a Otimização de Planejamento no Microsoft Dynamics 365 Supply Chain Management.
+Este artigo descreve o planejamento intercompanhia e explica como configurar o planejamento intercompanhia com a Otimização de Planejamento no Microsoft Dynamics 365 Supply Chain Management.
 
-Este tópico usa os seguintes termos importantes intercompanhia:
+Este artigo usa os seguintes termos importantes intercompanhia:
 
 - **Upstream** – uma referência relativa em uma empresa ou cadeia de fornecimento. Ele indica movimento na direção do fornecedor de matérias-primas.
 - **Downstream** – uma referência relativa em uma empresa ou cadeia de fornecimento. Ele indica movimento na direção do cliente.

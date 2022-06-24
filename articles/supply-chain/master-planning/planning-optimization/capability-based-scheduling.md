@@ -1,6 +1,6 @@
 ---
 title: Agendamento com seleção de recursos com base na capacidade
-description: Este tópico descreve a seleção de recursos durante o agendamento de capacidade infinita quando você especifica capacidades como requisitos de recursos para uma operação.
+description: Este artigo descreve a seleção de recursos durante o agendamento de capacidade infinita quando você especifica capacidades como requisitos de recursos para uma operação.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d1ecdfdbdd605fca953e799ec3f6a82d244bc9f7
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847952"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Agendamento com seleção de recursos com base na capacidade
 
 [!include [banner](../../includes/banner.md)]
 
-Ao especificar os requisitos de recursos para uma operação de um roteiro de produção, você define o que é necessário para executar essa operação. Por exemplo, uma operação pode exigir um recurso específico ou um grupo de recursos ou uma combinação de habilidades ou capacidades. Este tópico descreve a seleção de recursos durante o agendamento de capacidade infinita quando você especifica capacidades como requisitos de recursos para uma operação.
+Ao especificar os requisitos de recursos para uma operação de um roteiro de produção, você define o que é necessário para executar essa operação. Por exemplo, uma operação pode exigir um recurso específico ou um grupo de recursos ou uma combinação de habilidades ou capacidades. Este artigo descreve a seleção de recursos durante o agendamento de capacidade infinita quando você especifica capacidades como requisitos de recursos para uma operação.
 
 ## <a name="turn-on-the-capability-based-scheduling-feature"></a>Ativar o recurso de agendamento com base em recursos
 

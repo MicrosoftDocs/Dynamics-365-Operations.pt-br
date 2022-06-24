@@ -1,6 +1,6 @@
 ---
 title: Configurar a integração fiscal para canais do Commerce
-description: Este tópico fornece diretrizes para configurar a funcionalidade de integração fiscal para canais do Commerce.
+description: Este artigo fornece diretrizes para configurar a funcionalidade de integração fiscal para canais do Commerce.
 author: EvgenyPopovMBS
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,21 +9,21 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 13bdbcc2d52846b8b5d04773c986cd3a4a59e7b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889390"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurar a integração fiscal para canais do Commerce
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-Este tópico fornece diretrizes para configurar a funcionalidade de integração fiscal para canais do Commerce. Para obter mais informações sobre a integração fiscal, consulte [Visão geral da integração fiscal dos canais do Commerce](fiscal-integration-for-retail-channel.md).
+Este artigo fornece diretrizes para configurar a funcionalidade de integração fiscal para canais do Commerce. Para obter mais informações sobre a integração fiscal, consulte [Visão geral da integração fiscal dos canais do Commerce](fiscal-integration-for-retail-channel.md).
 
-## <a name="enable-features-in-commerce-headquarters"></a>Habilitar recursos na sede do Commerce
+## <a name="enable-features-in-commerce-headquarters"></a>Habilitar recursos no Commerce headquarters
 
 Para habilitar recursos relacionados à funcionalidade de integração fiscal para canais do Commerce, siga estas etapas:
 
@@ -199,7 +199,7 @@ Você pode selecionar registros em que registros fiscais são proibidos; por exe
 
 Para configurar registros com restrições de registro fiscal, siga estas etapas.
 
-1. Na sede do Commerce, vá para **Varejo e Comércio \> Configuração de canal \> Integração fiscal \> Processos de registro fiscal**.
+1. No Commerce headquarters, vá para **Varejo e Comércio \> Configuração de canal \> Integração fiscal \> Processos de registro fiscal**.
 1. Selecione o processo obrigatório.
 1. Selecione a guia **Terminais de PDV com restrições de processo fiscal**.
 1. Adicione registros com restrições de processo fiscal, conforme necessário.

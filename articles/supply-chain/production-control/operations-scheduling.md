@@ -1,6 +1,6 @@
 ---
 title: Plano de operações
-description: Este tópico fornece informações sobre agendamento de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
+description: Este artigo fornece informações sobre agendamento de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
 author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7b9ae31b288831d2f3b85bf1996206221e0bdbbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871881"
 ---
 # <a name="operations-scheduling"></a>Plano de operações
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre agendamento de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
+Este artigo fornece informações sobre agendamento de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
 
 Você pode planejar a produção no nível de operação e o nível do profissional. Diferente do agendamento de trabalho, o agendamento de operações não expande as operações para a rota de produção em trabalhos. Se desejar incluir mais detalhes no agendamento, como informações sobre a capacidade atual, você pode executar o agendamento de trabalho após a execução de agendamento de operações. Você também pode executar um agendamento de trabalho apenas. O agendamento de trabalho é o plano de trabalhos individuais no chão de fábrica e normalmente ocorre em uma prazo imediato ou a curto prazo.
 

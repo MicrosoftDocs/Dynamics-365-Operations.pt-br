@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management
-description: Este tópico aponta para tópicos que descrevem os recursos novos e alterados em cada versão do Dynamics 365 Supply Chain Management.
+description: Este artigo aponta para artigos que descrevem os recursos novos e alterados em cada versão do Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893429"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812962"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>Versões do Dynamics 365 Supply Chain Management
 
-Para ver o que há de novo ou alterado em cada versão do Dynamics 365 Supply Chain Management, consulte os seguintes tópicos.
+Para ver o que há de novo ou alterado em cada versão do Dynamics 365 Supply Chain Management, consulte os seguintes artigos.
 
 | Versão | Número da compilação | Disponibilidade de atualização automática | Saiba mais |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Para ver o que há de novo ou alterado em cada versão do Dynamics 365 Supply Ch
 
 ## <a name="releases-before-november-2019"></a>Lançamentos antes de novembro de 2019
 
-Para ver o que há de novo ou alterado em versões antes de novembro de 2019, consulte os seguintes tópicos.
+Para ver o que há de novo ou alterado em versões antes de novembro de 2019, consulte os seguintes artigos.
 
 | Liberar | Versão | Número da compilação | Disponibilidade | Saiba mais |
 |---|---|---|---|---|

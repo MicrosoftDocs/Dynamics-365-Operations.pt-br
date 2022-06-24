@@ -1,6 +1,6 @@
 ---
 title: Plano de fornecimento
-description: Este tópico fornece informações sobre a página Plano de fornecimento e seus recursos.
+description: Este artigo fornece informações sobre a página Plano de fornecimento e seus recursos.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851729"
 ---
 # <a name="supply-schedule"></a>Plano de fornecimento
 
@@ -28,7 +28,7 @@ A página **Plano de fornecimento** mostra uma visão geral abrangente de fornec
 
 Você pode abrir a página **Plano de fornecimento** de uma das seguintes maneiras:
 
-- Acesse **Planejamento mestre \> Planejamento mestre \> Plano de fornecimento**. Na caixa de diálogo **Modificar filtro**, especifique o plano e o produto que você está procurando inserindo valores de filtro nos campos fornecidos. (No restante deste tópico, a coleção de valores de filtro que você insere é conhecida como "o filtro" ou "o filtro atual"). Quando terminar, selecione **OK**.
+- Acesse **Planejamento mestre \> Planejamento mestre \> Plano de fornecimento**. Na caixa de diálogo **Modificar filtro**, especifique o plano e o produto que você está procurando inserindo valores de filtro nos campos fornecidos. (No restante deste artigo, a coleção de valores de filtro que você insere é conhecida como "o filtro" ou "o filtro atual"). Quando terminar, selecione **OK**.
 - Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**. Selecione ou abra um produto. Depois, no Painel de Ações, na guia **Plano**, no grupo **Exibir**, selecione **Plano de fornecimento**.
 - Acesse **Planejamento mestre \> Configuração \> Previsão de demanda \> Chaves de alocação de itens**. Selecione uma chave de alocação de itens usada como uma família de produtos. Depois, no Painel de Ações, selecione **Plano de fornecimento**.
 - Acesse **Planejamento mestre \> Planejamento mestre \> Ordens planejadas**. Selecione ou abra uma ordem planejada. Depois, no Painel de Ações, na guia **Exibir**, no grupo **Exibir**, selecione **Plano de fornecimento**.

@@ -1,6 +1,6 @@
 ---
 title: Estados e transações de ciclo de vida do produto
-description: Este tópico explica como você pode controlar quais transações são permitidas para cada estado do ciclo de vida conforme um produto de engenharia passa pelo seu ciclo de vida.
+description: Este artigo explica como você pode controlar quais transações são permitidas para cada estado do ciclo de vida conforme um produto de engenharia passa pelo seu ciclo de vida.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867946"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Estados e transações de ciclo de vida do produto
 
@@ -37,7 +37,7 @@ Para trabalhar com estados do ciclo de vida de produtos, Acesse **Gerenciamento 
 - Para excluir um estado de ciclo de vida existente, selecione-o no painel de lista e, em seguida, selecione **Excluir** no Painel de ações.
 
 > [!NOTE]
-> Os produtos de engenharia usam os mesmos estados de ciclo de vida do produto que os produtos padrão (não-engenharia). Você também pode abrir a página **Estado de ciclo de vida do produto** descrita neste tópico acessando **Gerenciamento de informações de produto \> Configurações \> Estado de ciclo de vida do produto**. Para obter mais informações sobre estados de ciclo de vida do produto, para produtos de engenharia e produtos padrão, consulte [Visão geral do estado do ciclo de vida do produto](../pim/product-lifecycle.md).
+> Os produtos de engenharia usam os mesmos estados de ciclo de vida do produto que os produtos padrão (não-engenharia). Você também pode abrir a página **Estado de ciclo de vida do produto** descrita neste artigo acessando **Gerenciamento de informações de produto \> Configurações \> Estado de ciclo de vida do produto**. Para obter mais informações sobre estados de ciclo de vida do produto, para produtos de engenharia e produtos padrão, consulte [Visão geral do estado do ciclo de vida do produto](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>Cabeçalho
 

@@ -1,6 +1,6 @@
 ---
 title: Personalizar emails transacionais por modo de entrega
-description: Este tópico descreve como configurar modelos de email personalizados para tipos específicos de notificação e modos de entrega no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como configurar modelos de email personalizados para tipos específicos de notificação e modos de entrega no Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f16bc23e3527f57bd61d73e92506946067c6eeb9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850295"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Personalizar emails transacionais por modo de entrega
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como configurar modelos de email personalizados para tipos específicos de notificação e modos de entrega no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como configurar modelos de email personalizados para tipos específicos de notificação e modos de entrega no Microsoft Dynamics 365 Commerce.
 
 Agora, os emails transacionais podem ser personalizados para uma combinação de um tipo de notificação (por exemplo, **Ordem criada**, **Ordem embalada** ou **Ordem faturada**) e um modo de entrega (por exemplo, à noite, retirada na loja ou retirada em frente à loja). Os emails transacionais personalizados permitem que os varejistas forneçam aos clientes experiências de atendimento personalizadas para o modo de entrega da ordem. Por exemplo, o evento "ordem embalada" pode ser personalizado de forma que forneça instruções de retirada em frente à loja para clientes que optam por retirada em frente à loja. Como alternativa, ele pode fornecer informações da operadora de remessa e de entrega para clientes que optam por ordem enviada.
 
 > [!NOTE]
-> Para usar a funcionalidade para emails transacionais personalizados, primeiro você deve ativar o recurso **Personalizar modelos de email transacional por modo de entrega**, acessando **Espaços de trabalho \> Gerenciamento de recursos** na sede do Commerce.
+> Para usar a funcionalidade para emails transacionais personalizados, primeiro você deve ativar o recurso **Personalizar modelos de email transacional por modo de entrega**, acessando **Espaços de trabalho \> Gerenciamento de recursos** no Commerce headquarters.
 
 Os emails podem ser personalizados por modo de entrega para os seguintes tipos de notificação:
 
@@ -48,7 +48,7 @@ Os emails podem ser personalizados por modo de entrega para os seguintes tipos d
 
 Para esse procedimento, a suposição é que você já tenha criado novos modelos de email personalizados e os adicionou à página **Modelos de email da organização**. Para obter informações sobre como criar e carregar modelos de email, consulte [Criar modelos de email para eventos transacionais](email-templates-transactions.md).
 
-Para configurar modelos de email para modos de entrega específicos na sede do Commerce, siga estas etapas.
+Para configurar modelos de email para modos de entrega específicos no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Perfil de notificação por email do Commerce**.
 1. Em **Configurações de notificação de eventos de varejo**, selecione um tipo de notificação existente.

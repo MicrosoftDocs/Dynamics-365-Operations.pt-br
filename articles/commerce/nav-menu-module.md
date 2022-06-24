@@ -1,6 +1,6 @@
 ---
-title: Módulo do menu de navegação
-description: Este tópico abrange os módulos do menu de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+title: Módulos de menu de navegação
+description: Este artigo abrange os módulos do menu de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 1af1fc03ead21150415295d83d292afe0110e5bd
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d2ac2bcf4324f2386c97fbf264c076062e6f304c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109673"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852736"
 ---
 # <a name="navigation-menu-module"></a>Módulos de menu de navegação
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos do menu de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos do menu de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
-A finalidade principal dos módulos do menu de navegação é permitir que os usuários do site naveguem por produtos e páginas do site de acordo com a hierarquia de navegação de canal definida na matriz do Dynamics 365 Commerce. Os itens configurados em um módulo de menu de navegação aparecem como uma navegação de cabeçalho de site. Os módulos do menu de navegação também dão suporte a itens de menu estático que se vinculam a outras páginas em um site de comércio eletrônico.
+A finalidade principal dos módulos do menu de navegação é permitir que os usuários do site naveguem por produtos e páginas do site de acordo com a hierarquia de navegação de canal definida no Dynamics 365 Commerce headquarters. Os itens configurados em um módulo de menu de navegação aparecem como uma navegação de cabeçalho de site. Os módulos do menu de navegação também dão suporte a itens de menu estático que se vinculam a outras páginas em um site de comércio eletrônico.
 
 O módulo do menu de navegação pode ser adicionado ao módulo de cabeçalho de uma página. Por padrão, no tema Fabrikam, o menu de navegação mostra dois níveis. Por padrão, no tema Início, o menu de navegação mostra três níveis. Para alterar para o número de níveis, é necessário ter uma extensão de exibição no tema.
 
@@ -39,8 +39,8 @@ A ilustração a seguir mostra um exemplo de um menu de navegação para o site 
 
 | Nome da propriedade             | Alíquota                 | descrição |
 |---------------------------|-----------------------|-------------|
-| Origem                  | **Varejo**, **Criação manual**, **Varejo e criação manual** | O valor **Varejo** permite que a hierarquia de navegação de canal da matriz do Commerce seja exibida no menu de navegação. O valor **Criação manual** permite que os itens de menu estático sejam organizados. O valor **Criação manual e de varejo** permite uma combinação de ambos. |
-| Mostrar imagens da categoria | **Verdadeiro** ou **Falso**    | Quando habilitada, essa propriedade exibe imagens de categoria no menu de navegação, conforme definido na matriz do Commerce para cada categoria. Adicionado ao Commerce Release 10.0.14. |
+| Origem                  | **Varejo**, **Criação manual**, **Varejo e criação manual** | O valor **Varejo** permite que a hierarquia de navegação de canal do Commerce headquarters seja exibida no menu de navegação. O valor **Criação manual** permite que os itens de menu estático sejam organizados. O valor **Criação manual e de varejo** permite uma combinação de ambos. |
+| Mostrar imagens da categoria | **Verdadeiro** ou **Falso**    | Quando habilitada, essa propriedade exibe imagens de categoria no menu de navegação, conforme definido no Commerce headquarters para cada categoria. Adicionado ao Commerce Release 10.0.14. |
 | Mostrar imagens promocionais | **Verdadeiro** ou **Falso** | Quando esta propriedade é habilitada, as promoções podem ser configuradas usando imagens, links e texto. Essa propriedade foi adicionada na versão 10.0.17 do Commerce. |
 |Adicionar conteúdo promocional da categoria | Texto, imagem ou link | Quando a propriedade **Mostrar imagens promocionais** é habilitada, você pode adicionar texto, uma imagem ou um link como conteúdo promocional no menu de navegação. |
 | Habilitar menu de navegação de vários níveis | **Verdadeiro** ou **Falso** | Quando esta propriedade estiver habilitada, o menu de navegação poderá mostrar vários níveis da hierarquia de navegação. Este recurso está disponível nas versão 10.0.15 do Commerce. |

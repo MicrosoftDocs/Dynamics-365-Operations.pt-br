@@ -1,6 +1,6 @@
 ---
 title: Módulo de carrinho
-description: Este tópico abrange os módulos de carrinho e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange os módulos de carrinho e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 962710f7b65c8d26b301b5034a89fc25476b6e0f
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: c4023857f13830449eaa19f8513799ece97729d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866047"
 ---
 # <a name="cart-module"></a>Módulo de carrinho
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de carrinho e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos de carrinho e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 
 Um módulo de carrinho mostra os itens que foram adicionados ao carrinho antes de o cliente prosseguir para finalizar a compra. O módulo também mostra um resumo da ordem e permite que o cliente aplique ou remova códigos promocionais.
 
@@ -64,7 +64,7 @@ As seguintes configurações de módulo de carrinho podem ser definidas em **Con
 - **Voltar para compra** – Esta propriedade é usada para especificar o roteiro do link **Voltar para compra**. O roteiro pode ser configurado no nível do site, permitindo que os varejistas retornem o cliente para a Home Page ou qualquer outra página no site.
 
 > [!IMPORTANT]
-> No Dynamics 365 Commerce versão 10.0.14 e posterior, os itens no carrinho são agregados com base nas configurações definidas no perfil de funcionalidade online da loja online na sede do Commerce. Para obter mais informações sobre como criar um perfil de funcionalidade online e definir as propriedades necessárias para agregação, consulte [Criar um perfil de funcionalidade online](online-functionality-profile.md).
+> No Dynamics 365 Commerce versão 10.0.14 e posterior, os itens no carrinho são agregados com base nas configurações definidas no perfil de funcionalidade online da loja online no Commerce headquarters. Para obter mais informações sobre como criar um perfil de funcionalidade online e definir as propriedades necessárias para agregação, consulte [Criar um perfil de funcionalidade online](online-functionality-profile.md).
 
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
 

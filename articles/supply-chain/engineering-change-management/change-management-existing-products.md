@@ -1,6 +1,6 @@
 ---
 title: Habilitar gerenciamento de modificações em produtos existentes
-description: Este tópico explica como você pode habilitar o gerenciamento de alterações para produtos existentes. Ele também descreve casos em que a capacidade de habilitar o gerenciamento de alterações é limitada.
+description: Este artigo explica como você pode habilitar o gerenciamento de alterações para produtos existentes. Ele também descreve casos em que a capacidade de habilitar o gerenciamento de alterações é limitada.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893458"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Habilitar gerenciamento de modificações em produtos existentes
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como você pode habilitar o gerenciamento de alterações para produtos existentes. Ele também descreve casos em que a capacidade de habilitar o gerenciamento de alterações é limitada.
+Este artigo explica como você pode habilitar o gerenciamento de alterações para produtos existentes. Ele também descreve casos em que a capacidade de habilitar o gerenciamento de alterações é limitada.
 
 Ao habilitar o gerenciamento de alterações para um produto existente, você pode criar versões desse produto e rastrear as alterações feitas a ele durante toda a sua vida. Portanto, você pode rastrear essas alterações usando ordens de alteração. Para habilitar o gerenciamento de alterações, você deve converter os produtos relevantes em *itens de engenharia* (também conhecidos como produtos de engenharia). Os produtos de engenharia são produtos com versão e que são gerenciados por meio do gerenciamento de alterações. Um assistente é fornecido para orientar você durante o processo de conversão.
 
 ## <a name="turn-this-feature-on-or-off"></a>Ativar ou desativar este recurso
 
-A funcionalidade descrita neste tópico requer que os recursos *Gerenciamento de Alterações de Engenharia* e *Habilitar gerenciamento de modificações em produtos existentes* estejam ativados no sistema. Para obter detalhes sobre como ativar ou desativar esses recursos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
+A funcionalidade descrita neste artigo requer que os recursos *Gerenciamento de Alterações de Engenharia* e *Habilitar gerenciamento de modificações em produtos existentes* estejam ativados no sistema. Para obter detalhes sobre como ativar ou desativar esses recursos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Restrições e limitações
 
@@ -38,7 +38,7 @@ Nem todos os tipos de produtos podem ser convertidos em todos os outros tipos. A
 - Quando você converte um produto em um produto de engenharia, ele continua sendo um *produto*. Ele não se torna um *produto mestre*.
 - Quando você converte um produto mestre que tenha um conjunto específico de dimensões, essas dimensões são mantidas após a alteração. Por exemplo, se você converter um produto mestre que tenha a dimensão de tamanho, ele manterá a dimensão de tamanho.
 
-Portanto, se tiver um produto distinto, você poderá alterá-lo somente para um produto de engenharia que não rastreie a dimensão do produto nas transações (ou seja, a dimensão da versão não seja usada). Consulte as seções restantes deste tópico para obter mais informações sobre esses problemas.
+Portanto, se tiver um produto distinto, você poderá alterá-lo somente para um produto de engenharia que não rastreie a dimensão do produto nas transações (ou seja, a dimensão da versão não seja usada). Consulte as seções restantes deste artigo para obter mais informações sobre esses problemas.
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>Preparar para conversão criando todas as categorias de produtos de engenharia necessárias
 
@@ -81,7 +81,7 @@ Siga estas etapas para executar o assistente para **Converter em produto de enge
 
     - **Número do produto** — o número do produto.
     - **Nome do produto** — o nome do produto.
-    - **Categoria de engenharia** — selecione a categoria de produto de engenharia à qual o produto deve pertencer após a conversão. Uma categoria apropriada já deve existir para cada produto, como foi explicado na seção anterior deste tópico. Você deve atribuir uma categoria a cada produto.
+    - **Categoria de engenharia** — selecione a categoria de produto de engenharia à qual o produto deve pertencer após a conversão. Uma categoria apropriada já deve existir para cada produto, como foi explicado na seção anterior deste artigo. Você deve atribuir uma categoria a cada produto.
     - **Versão** — insira a versão do produto a ser atribuída ao produto após a conversão. Por exemplo, você pode selecionar um número que caiba na sequência numérica que a categoria já usa. Cada versão de engenharia armazena os dados relevantes da engenharia que são específicos dessa versão. Para obter mais informações, consulte [Versões de engenharia e categorias de produto de engenharia](engineering-versions-product-category.md).
     - **Estado do ciclo de vida do produto** — selecione o estado do ciclo de vida do produto em que o produto deve estar após a conversão. O estado do ciclo de vida do produto permite que você controle quais transações são permitidas para uma determinada versão da engenharia. Para obter mais informações, consulte [Estados e transações de ciclo de vida do produto](product-lifecycle-state-transactions.md).
     - **Tem BOM** — uma caixa de seleção marcada indica que o produto tem uma BOM. A configuração desta caixa de seleção pode ajudar você a decidir como definir a caixa de seleção **A BOM atual será parte do produto de engenharia**.

@@ -1,6 +1,6 @@
 ---
 title: Diretrizes de implantação para o exemplo de integração da impressora fiscal da Itália (herdado)
-description: Este tópico fornece diretrizes para a implantação do exemplo de integração da impressora fiscal da Itália do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece diretrizes para a implantação do exemplo de integração da impressora fiscal da Itália do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 617e97272fb4bd7cea0958958ae99648bb847b56
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848889"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Diretrizes de implantação para o exemplo de integração da impressora fiscal da Itália (herdado)
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico fornece diretrizes para a implantação do exemplo de integração da impressora fiscal da Itália do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce em uma máquina virtual de desenvolvedor (VM) no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre este exemplo de integração fiscal, consulte [Exemplo de integração da impressora fiscal da Itália](emea-ita-fpi-sample.md). 
+Este artigo fornece diretrizes para a implantação do exemplo de integração da impressora fiscal da Itália do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce em uma máquina virtual de desenvolvedor (VM) no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre este exemplo de integração fiscal, consulte [Exemplo de integração da impressora fiscal da Itália](emea-ita-fpi-sample.md). 
 
-O exemplo de integração fiscal da Itália faz parte do SDK do Retail. Para obter informações sobre como instalar e usar o SDK, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Este exemplo consiste em extensões para o Commerce Runtime (CRT) e a estação de hardware. Para executar este exemplo, você deve modificar e criar os projetos do CRT e estação de hardware. É recomendável usar um SDK não modificado do Retail para fazer as alterações descritas neste tópico. Também é recomendável usar um sistema de controle do código-fonte, como o Azure DevOps, onde nenhum arquivo foi alterado ainda.
+O exemplo de integração fiscal da Itália faz parte do SDK do Retail. Para obter informações sobre como instalar e usar o SDK, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Este exemplo consiste em extensões para o Commerce Runtime (CRT) e a estação de hardware. Para executar este exemplo, você deve modificar e criar os projetos do CRT e estação de hardware. É recomendável usar um SDK não modificado do Retail para fazer as alterações descritas neste artigo. Também é recomendável usar um sistema de controle do código-fonte, como o Azure DevOps, onde nenhum arquivo foi alterado ainda.
 
 ## <a name="development-environment"></a>Ambiente de desenvolvimento
 
@@ -86,7 +86,7 @@ Os componentes de extensão da estação de hardware são incluídos no SDK do R
 
 Para criar pacotes implantáveis que contenham componentes do Commerce e aplicar esses pacotes em um ambiente de produção, siga estas etapas.
 
-1. Conclua as etapas descritas na seção [Ambiente de desenvolvimento](#development-environment) anteriormente neste tópico.
+1. Conclua as etapas descritas na seção [Ambiente de desenvolvimento](#development-environment) anteriormente neste artigo.
 2. Faça as alterações a seguir nos arquivos de configuração do pacote na pasta **RetailSdk\\Assets**:
 
     1. Nos arquivos de configuração **commerceruntime.ext.config** e **CommerceRuntime.MPOSOffline.Ext.config**, adicione a seguinte linha à seção **composição**.
@@ -168,7 +168,7 @@ Para obter mais informações sobre o design da solução de integração fiscal
 
 O manipulador de solicitações **DocumentProviderEpsonFP90III** é o ponto de entrada para a solicitação gerar documentos da impressora fiscal.
 
-O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce Headquarters.
+O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -177,7 +177,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração está localizados na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações para que o provedor de documentos seja configurado na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+O arquivo de configuração está localizados na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações para que o provedor de documentos seja configurado no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
 
 - Mapeamento dos códigos IVA
 - Mapeamento das alíquotas do IVA
@@ -195,7 +195,7 @@ A extensão da estação de hardware é **HardwareStation.Extension.EpsonFP90III
 
 O manipulador de solicitações **EpsonFP90IIISample** é o ponto de entrada para o manuseio de solicitações ao dispositivo periférico fiscal.
 
-O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce Headquarters.
+O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -205,7 +205,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração está localizados na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações para que o conector seja configurado na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+O arquivo de configuração está localizados na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações para que o conector seja configurado no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
 
 - **Endereço do ponto de extremidade** – A URL da impressora.
 - **Sincronização de data e hora** – Um valor que especifica se a data e a hora da impressora devem ser sincronizadas com a estação de hardware conectada.

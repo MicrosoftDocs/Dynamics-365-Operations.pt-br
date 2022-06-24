@@ -1,6 +1,6 @@
 ---
 title: Associar um site do Dynamics 365 Commerce a um canal online
-description: Este tópico explica como associar seu site do Microsoft Dynamics 365 Commerce a uma ou mais lojas online.
+description: Este artigo explica como associar seu site do Microsoft Dynamics 365 Commerce a uma ou mais lojas online.
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878664"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Associar um site do Dynamics 365 Commerce a um canal online
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como associar seu site do Microsoft Dynamics 365 Commerce a uma ou mais lojas online. 
+Este artigo explica como associar seu site do Microsoft Dynamics 365 Commerce a uma ou mais lojas online. 
 
 Após provisionar o ambiente de comércio eletrônico do Dynamics 365 Commerce usando o portal do Microsoft Dynamics Lifecycle Services (LCS), você estará pronto para estabelecer seu primeiro site de comércio eletrônico. Como parte da criação inicial do site, você associa o site a um armazenamento online criado anteriormente. Esta etapa associa o site a um canal online e permite que o site mostre a hierarquia de navegação, produtos, categorias, preços, opções de envio e tudo mais que você definiu no armazenamento online.
 

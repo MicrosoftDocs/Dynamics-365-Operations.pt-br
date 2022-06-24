@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893110"
 ---
 # <a name="zone-threshold-replenishment"></a>Reabastecimento de limite de zona
 
@@ -45,7 +45,7 @@ Para que você possa usar o recurso *Reabastecimento de limite de zona*, ele dev
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Configurar reabastecimento baseado em zona
 
-Para configurar o reabastecimento baseado em zona, você deve configurar várias partes do sistema. Esta seção apresenta as várias configurações e fornece os valores de dados de demonstração que você poderá inserir se desejar trabalhar no cenário no final deste tópico.
+Para configurar o reabastecimento baseado em zona, você deve configurar várias partes do sistema. Esta seção apresenta as várias configurações e fornece os valores de dados de demonstração que você poderá inserir se desejar trabalhar no cenário no final deste artigo.
 
 ### <a name="set-up-directive-codes"></a>Configurar códigos de diretiva
 
@@ -57,7 +57,7 @@ Para exibir ou editar códigos de diretiva, Acesse **Gerenciamento de depósito 
 
 #### <a name="prepare-demo-data-directive-codes"></a>Preparar códigos de diretiva de dados de demonstração
 
-Este exemplo mostra como preparar um código de diretiva. Se pretende trabalhar no cenário no final deste tópico, use os valores de dados de demonstração fornecidos aqui. Caso contrário, use seus próprios valores.
+Este exemplo mostra como preparar um código de diretiva. Se pretende trabalhar no cenário no final deste artigo, use os valores de dados de demonstração fornecidos aqui. Caso contrário, use seus próprios valores.
 
 1. Selecione a entidade legal **USMF** para trabalhar com os dados de demonstração.
 1. Acesse **Gerenciamento de depósito \> Configuração \> Códigos de diretiva**.
@@ -79,7 +79,7 @@ Um modelo de reabastecimento é um conjunto de regras que controlam como e quand
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Preparar um modelo de reabastecimento de dados de demonstração
 
-Este exemplo mostra como preparar um modelo de reabastecimento. Se pretende trabalhar no cenário no final deste tópico, use os valores de dados de demonstração fornecidos aqui. Caso contrário, use seus próprios valores.
+Este exemplo mostra como preparar um modelo de reabastecimento. Se pretende trabalhar no cenário no final deste artigo, use os valores de dados de demonstração fornecidos aqui. Caso contrário, use seus próprios valores.
 
 1. Selecione a entidade legal **USMF** para trabalhar com os dados de demonstração.
 1. Acesse **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento**.
@@ -144,7 +144,7 @@ Para obter exemplos que mostram como usar as configurações para criar as diret
 
 #### <a name="prepare-demo-data-location-directives"></a>Preparar diretivas de localização de dados de demonstração
 
-Para preparar dados de demonstração de forma que possam ser usados no cenário no final deste tópico, você deve criar duas diretivas de localização: uma para separação e outra para colocação.
+Para preparar dados de demonstração de forma que possam ser usados no cenário no final deste artigo, você deve criar duas diretivas de localização: uma para separação e outra para colocação.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Criar uma diretiva de separação de reabastecimento
 
@@ -258,7 +258,7 @@ Esta seção fornece um cenário de exemplo que mostra como trabalhar com o recu
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Preparar os dados de exemplo necessários para o cenário de exemplo
 
-Antes de começar a trabalhar no cenário, você deve ativar os dados de exemplo e configurar o recurso conforme descrito nesta seção e na seção anterior deste tópico.
+Antes de começar a trabalhar no cenário, você deve ativar os dados de exemplo e configurar o recurso conforme descrito nesta seção e na seção anterior deste artigo.
 
 #### <a name="use-the-usmf-legal-entity"></a>Usar a entidade legal USMF
 
@@ -266,7 +266,7 @@ Para trabalhar no cenário usando os registros e valores de exemplo especificado
 
 #### <a name="prepare-additional-sample-data"></a>Preparar dados de exemplo adicionais
 
-Depois de selecionar a entidade legal **USMF**, inclua os dados de exemplo adicionais necessários, conforme descrito na seção [Configurar reabastecimento baseado em zona](#setup) abordada antes neste tópico.
+Depois de selecionar a entidade legal **USMF**, inclua os dados de exemplo adicionais necessários, conforme descrito na seção [Configurar reabastecimento baseado em zona](#setup) abordada antes neste artigo.
 
 #### <a name="check-your-on-hand-inventory"></a>Verifique seu estoque disponível
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar um item de menu do dispositivo móvel para registrar itens recebidos
-description: Este tópico tem como foco a configuração de um item de menu de dispositivo móvel.
+description: Este artigo tem como foco a configuração de um item de menu de dispositivo móvel.
 author: Mirzaab
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 410a70294e5a417950ed5332ec5fdd7da321a31d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b59a78ef98215bec7610fe17ed56e6fc287004c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882305"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Configurar um item de menu do dispositivo móvel para registrar itens recebidos
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico tem como foco a configuração de um item de menu de dispositivo móvel. Esse item de menu é usado para registro do recibo de itens encomendados por meio de ordens de compra. 
+Este artigo tem como foco a configuração de um item de menu de dispositivo móvel. Esse item de menu é usado para registro do recibo de itens encomendados por meio de ordens de compra. 
 
 Você pode usar este guia na empresa USMF de dados de demonstração. Esse procedimento é destinado ao gerente do depósito.
 

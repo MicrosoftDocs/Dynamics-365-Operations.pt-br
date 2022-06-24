@@ -1,6 +1,6 @@
 ---
 title: Processar reembolsos desvinculados com o Dynamics 365 Commerce Payment Connector para Adyen
-description: Este tópico descreve como funcionam os reembolsos desvinculados quando o Microsoft Dynamics365 Payment Connector para Adyen é usado.
+description: Este artigo descreve como funcionam os reembolsos desvinculados quando o Microsoft Dynamics 365 Payment Connector para Adyen é usado.
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885188"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>Processar reembolsos desvinculados com o Dynamics 365 Commerce Payment Connector para Adyen
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como funcionam os reembolsos desvinculados quando o [Microsoft Dynamics 365 Payment Connector para Adyen](adyen-connector.md) é usado. Ele também revisa a capacidade de processar um reembolso com base em um novo método de pagamento no POS (ponto de venda) ou no Call Center.
+Este artigo descreve como funcionam os reembolsos desvinculados quando o [Microsoft Dynamics 365 Payment Connector for Adyen](adyen-connector.md) é usado. Ele também revisa a capacidade de processar um reembolso com base em um novo método de pagamento no POS (ponto de venda) ou no Call Center.
 
 O Dynamics 365 Payment Connector para Adyen oferece suporte à capacidade de processar reembolsos usando um método de pagamento diferente do usado para a transação original. Embora seja recomendável usar [reembolsos vinculados](linked-refunds.md) para processar um reembolso com base no método de pagamento de origem fornecido, é necessário usar um método diferente para os reembolsos em algumas situações. Por exemplo, o cartão usado para o pagamento original pode estar vencido ou perdido, ou pode ter sido cancelado pelo usuário.
 
@@ -41,9 +41,9 @@ O Dynamics 365 Commerce oferece suporte a reembolsos de transações que foram a
 
 ## <a name="enable-unlinked-refunds-functionality"></a>Habilitar a funcionalidade de reembolsos não vinculados
 
-Para habilitar a funcionalidade de reembolsos não vinculados na matriz do Commerce, siga estas etapas:
+Para habilitar a funcionalidade de reembolsos não vinculados no Commerce headquarters, siga estas etapas:
 
-1. Vá para **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados com o comércio**.
+1. Vá para **Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados com o comércio**.
 1. Na guia **Pagamentos de omnicanal**, defina a opção **Usar pagamentos de omnicanal** como **Sim**.
 
 ### <a name="supported-payment-method-variants"></a>Grades de formas de pagamento com suporte
@@ -96,7 +96,7 @@ Quando um reembolso não vinculado é processado em uma ordem no call center, um
 
 #### <a name="set-up-an-administrator-override-pin-for-call-center"></a>Configurar um PIN de substituição de administrador para call center
 
-Para configurar um PIN de substituição de administrador para call center na matriz do Commerce, siga estas etapas.
+Para configurar um PIN de substituição de administrador para call center no Commerce headquarters, siga estas etapas.
 
 1. Vá para **Varejo e Comércio \> Configuração do canal \> Configuração do call center**, ou procure "Permissões de substituição".
 1. Selecione a função para permitir o processamento de reembolsos não vinculados.

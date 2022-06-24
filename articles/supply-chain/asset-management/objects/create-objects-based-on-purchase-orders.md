@@ -1,6 +1,6 @@
 ---
 title: Crie ativos com base em ordens de compra
-description: Este tópico explica como criar uma lista de itens de ativo que pode ser usada como base para a criação de ativos para trabalhos de manutenção em Gerenciamento de Ativos.
+description: Este artigo explica como criar uma lista de itens de ativo que pode ser usada como base para a criação de ativos para trabalhos de manutenção em Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893690"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Crie ativos com base em ordens de compra
 
@@ -28,7 +28,7 @@ ms.locfileid: "6754098"
 
  
 
-Este tópico explica como criar uma lista de itens de ativo que pode ser usada como base para a criação de ativos para trabalhos de manutenção em Gerenciamento de Ativos. Com base nos itens de ativos, você pode exibir uma lista das linhas de ordem de compra criadas nesses itens. O objetivo dessa funcionalidade é criar facilmente um ativo em Gerenciamento de Ativos com base em uma ordem de compra.
+Este artigo explica como criar uma lista de itens de ativo que pode ser usada como base para a criação de ativos para trabalhos de manutenção em Gerenciamento de Ativos. Com base nos itens de ativos, você pode exibir uma lista das linhas de ordem de compra criadas nesses itens. O objetivo dessa funcionalidade é criar facilmente um ativo em Gerenciamento de Ativos com base em uma ordem de compra.
 
 Primeiro, você configura os itens a serem usados para a criação de ativos de uma ordem de compra em **Itens de ativo**. Após criar uma linha de ordem de compra, você cria os ativos em **Ativos pendentes**. É possível decidir em que estágio da ordem de compra o ativo deve ser criado.
 

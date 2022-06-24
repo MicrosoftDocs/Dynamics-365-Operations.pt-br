@@ -1,6 +1,6 @@
 ---
 title: Visão geral da integração fiscal de canais do Commerce
-description: Este tópico fornece uma visão geral dos recursos de integração fiscal disponíveis no Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral dos recursos de integração fiscal disponíveis no Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 00c68155088ff2aabbe2fe0c4f431b665aebcd0a
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ea1de0791a0eaffa2a8b1ac57143bdfd753f855b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884835"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Visão geral da integração fiscal de canais do Commerce
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico é uma visão geral dos recursos de integração fiscal disponíveis no Dynamics 365 Commerce. 
+Este artigo é uma visão geral dos recursos de integração fiscal disponíveis no Dynamics 365 Commerce. 
 
 A integração fiscal inclui a integração a vários serviços e dispositivos fiscais que permitem o registro fiscal de vendas de acordo com as leis fiscais locais, destinadas a impedir fraudes fiscais no setor de varejo. Estes são alguns cenários típicos que podem ser cobertos usando a integração fiscal:
 
@@ -140,7 +140,7 @@ Se houver falha na verificação de integridade, o PDV exibirá a caixa de diál
 
 Quando o registro fiscal de um evento ou uma transação é bem-sucedido, uma transação fiscal é criada no banco de dados do canal e vinculada ao evento ou à transação original. Da mesma forma, se a opção **Ignorar** ou **Marcar como registrado** for selecionada para um registro fiscal com falha, essas informações serão armazenadas em uma transação fiscal. Uma transação fiscal armazena a resposta fiscal do serviço ou dispositivo fiscal. Se o processo de registro fiscal consistir em várias etapas, uma transação fiscal será criada para cada etapa do processo que resultou em um registro com êxito ou falha.
 
-As transações fiscais são transferidas para o Headquarters pelo *trabalho P* com as transações. Na FastTab **Transações fiscais** da página **Transações da loja**, você pode ver as transações fiscais vinculadas às transações.
+As transações fiscais são transferidas para o headquarters pelo *trabalho P* com as transações. Na FastTab **Transações fiscais** da página **Transações da loja**, você pode ver as transações fiscais vinculadas às transações.
 
 Uma transação fiscal armazena os seguintes detalhes:
 

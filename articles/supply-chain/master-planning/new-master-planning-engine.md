@@ -1,6 +1,6 @@
 ---
-title: Migração para a Otimização de Planejamento para o planejamento mestre
-description: Este tópico fornece informações sobre o novo mecanismo de planejamento mestre, a Otimização de Planejamento, e a migração do mecanismo existente.
+title: Migração do planejamento mestre para Otimização de Planejamento
+description: Este artigo fornece informações sobre o novo mecanismo de planejamento mestre, a Otimização de Planejamento, e a migração do mecanismo existente.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846088"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migração para a Otimização de Planejamento para o planejamento mestre
 
 [!include [banner](../includes/banner.md)]
 
-O mecanismo de planejamento mestre interno está programado para se tornar obsoleto (preterido). Ele está sendo substituído pelo Suplemento Otimização de Planejamento para Microsoft Dynamics 365 Supply Chain Management. Este tópico fornece informações sobre o impacto em implantações novas e existentes. Ele inclui informações sobre as ações necessárias.
+O mecanismo de planejamento mestre interno está programado para se tornar obsoleto (preterido). Ele está sendo substituído pelo Suplemento Otimização de Planejamento para Microsoft Dynamics 365 Supply Chain Management. Este artigo fornece informações sobre o impacto em implantações novas e existentes. Ele inclui informações sobre as ações necessárias.
 
 A Otimização de Planejamento permite que os cálculos do planejamento mestre ocorram fora do Supply Chain Management e de seu banco de dados SQL do Azure. Os benefícios associados à Otimização de Planejamento incluem desempenho aprimorado e impacto minimizado no banco de dados SQL durante as execuções do planejamento mestre. Como execuções de planejamento rápido podem ser feitas mesmo durante o horário de expediente, os planejadores podem reagir imediatamente à demanda ou às alterações de parâmetro.
 
@@ -63,7 +63,7 @@ No momento, as exceções da migração para a Otimização de Planejamento só 
 
 Depois que os recursos necessários forem disponibilizados, a Microsoft fornecerá um período de carência até a expiração da exceção. O administrador do ambiente será informado quando os recursos necessários estiverem disponíveis e o período de carência tiver começado.
 
-O fluxograma abaixo resume as informações fornecidas neste tópico para que você possa decidir rapidamente se deve solicitar uma exceção. Se precisar solicitar uma exceção, preencha e envie a [Questionário de exceção e migração do plano de otimização](https://go.microsoft.com/fwlink/?linkid=2144962). O grupo de produtos é responsável por avaliar e aprovar cada solicitação de exceção; portanto, envie sua solicitação diretamente ao grupo de produtos usando o link fornecido e não crie um tíquete de suporte para ela. Se sua solicitação for rejeitada, não crie um tíquete de suporte porque o Suporte da Microsoft não pode reavaliar ou conceder exceções.
+O fluxograma abaixo resume as informações fornecidas neste artigo para que você possa decidir rapidamente se deve solicitar uma exceção. Se precisar solicitar uma exceção, preencha e envie a [Questionário de exceção e migração do plano de otimização](https://go.microsoft.com/fwlink/?linkid=2144962). O grupo de produtos é responsável por avaliar e aprovar cada solicitação de exceção; portanto, envie sua solicitação diretamente ao grupo de produtos usando o link fornecido e não crie um tíquete de suporte para ela. Se sua solicitação for rejeitada, não crie um tíquete de suporte porque o Suporte da Microsoft não pode reavaliar ou conceder exceções.
 
 ![Fluxograma de exceção.](media/exception-diagram.png "Fluxograma de exceção")
 

@@ -1,7 +1,7 @@
 ---
 title: Configurar planejamento mestre
-description: Este tópico descreve várias estratégias e parâmetros importantes que são usados para configurar o planejamento mestre.
-author: ChristianRytt
+description: Este artigo descreve várias estratégias e parâmetros importantes que são usados para configurar o planejamento mestre.
+author: t-benebo
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 6d33fd53dd088ae4c6b4680d2604f783a3e1a5a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: effdefcf8326babaa89d7de4b28a86bbef7280f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888547"
 ---
 # <a name="set-up-master-planning"></a>Configurar planejamento mestre
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve várias estratégias e parâmetros importantes que são usados para configurar o planejamento mestre. Inclui uma visão geral de tipos de planos usados pelo planejamento mestre e explica qual estratégia do plano deve ser usada, dependendo dos seus requisitos de negócios. Também descreve os parâmetros principais que afetam o plano e explica como esses parâmetros influenciam as ordens planejadas que são sugeridas.
+Este artigo descreve várias estratégias e parâmetros importantes que são usados para configurar o planejamento mestre. Inclui uma visão geral de tipos de planos usados pelo planejamento mestre e explica qual estratégia do plano deve ser usada, dependendo dos seus requisitos de negócios. Também descreve os parâmetros principais que afetam o plano e explica como esses parâmetros influenciam as ordens planejadas que são sugeridas.
 
 ## <a name="types-of-master-plans"></a>Tipos de planos mestre
 

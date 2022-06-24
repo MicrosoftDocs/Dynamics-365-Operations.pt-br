@@ -1,6 +1,6 @@
 ---
 title: Gerenciar atributos e grupos de atributos
-description: Este tópico descreve como usar atributos para fornecer uma forma de descrever um produto e suas características por meio de campos definidos pelo usuário.
+description: Este artigo descreve como usar atributos para fornecer uma forma de descrever um produto e suas características por meio de campos definidos pelo usuário.
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876655"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gerenciar atributos e grupos de atributos
 
@@ -85,7 +85,7 @@ Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifi
 
 Os *Metadados de atributo* permitem selecionar opções para especificar como os atributos de cada produto devem se comportar. Por exemplo, você pode especificar se os atributos são obrigatórios, se podem ser usados para pesquisas e como filtro.
 
-Para produtos, as configurações de metadados de atributo podem ser substituídas no nível do canal. Esse recurso será discutido posteriormente neste tópico.
+Para produtos, as configurações de metadados de atributo podem ser substituídas no nível do canal. Esse recurso será discutido posteriormente neste artigo.
 
 Como você pode observar, a página **Atributos** inclui as opções relacionadas a metadados de atributo. Em **Atribuir metadados para PDV**, uma opção chamada **Pode ser refinado** afeta o comportamento dos valores de atributo no ponto de venda (PDV) ou a forma como o sistema trata esses valores de atributo. Somente atributos para os quais você define a opção **Pode ser refinado** como **Sim** aparecerão para refinamento ou filtragem de produtos no PDV.
 

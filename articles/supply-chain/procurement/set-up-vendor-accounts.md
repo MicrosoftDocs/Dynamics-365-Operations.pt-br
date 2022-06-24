@@ -1,6 +1,6 @@
 ---
 title: Configurar contas de fornecedor
-description: Este tópico descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor.
+description: Este artigo descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor.
 author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d1ddf126305f39a35f61b9a98da1c6bce29372cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875265"
 ---
 # <a name="set-up-vendor-accounts"></a>Configurar contas de fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor.
+Este artigo descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor.
 
 Ao criar uma conta de fornecedor, insira informações sobre o fornecedor. Essas informações são usadas para inserir dados automaticamente nos documentos e rastrear as atividades que envolvem o fornecedor. Por exemplo, você pode configurar as seguintes informações para um fornecedor:
 

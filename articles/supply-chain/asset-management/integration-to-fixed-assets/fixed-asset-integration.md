@@ -1,6 +1,6 @@
 ---
 title: Integrar gerenciamento de ativos com ativos fixos
-description: Este tópico explica como integrar os módulos de gerenciamento de ativos e ativos fixos, de forma que você possa vincular ativos fixos com ativos de manutenção.
+description: Este artigo explica como integrar os módulos Gerenciamento de ativos e Ativos fixos, de forma que você possa vincular ativos fixos aos ativos de manutenção.
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874207"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Integrar gerenciamento de ativos com ativos fixos
 
@@ -26,7 +26,7 @@ ms.locfileid: "7567574"
 Ao integrar os módulos de **gerenciamento de ativos** e **ativos fixos**, você pode vincular ativos fixos com ativos de manutenção. Usuários de ativos fixos podem criar um ativo de manutenção a partir de um ativo fixo novo ou existente, e os usuários de gerenciamento de ativos podem associar um ativo de manutenção a um ativo fixo existente. Esse recurso também torna mais fácil para os usuários de ativos fixos exibirem os custos lançados a partir de ordens de trabalho para ativos de manutenção relacionados.
 
 > [!NOTE]
-> Neste tópico, *ativos de manutenção* refere-se a ativos do módulo **Gerenciamento de ativos** e *ativos fixos* refere-se aos ativos do módulo **Ativos fixos**.
+> Neste artigo, *ativos de manutenção* refere-se a ativos do módulo **Gerenciamento de ativos** e *ativos fixos* refere-se aos ativos do módulo **Ativos fixos**.
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>Definir um local padrão para novos ativos de manutenção que são criados a partir de ativos fixos (opcional)
 

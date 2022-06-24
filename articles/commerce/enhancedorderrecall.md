@@ -1,6 +1,6 @@
 ---
 title: Cancelar operação de ordem no PDV
-description: Este tópico explica recursos disponíveis para aprimorar as páginas de cancelamento de ordens no PDV.
+description: Este artigo explica recursos disponíveis para aprimorar as páginas de cancelamento de ordens no PDV.
 author: hhainesms
 ms.date: 03/12/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 43d6b2e4e5d923b16b02337432fc5259f66c0bf1a8ba1dbf311fb76cb3f085e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869453"
 ---
 # <a name="recall-order-operation-in-pos"></a>Cancelar operação de ordem no PDV
 
@@ -25,7 +25,7 @@ ms.locfileid: "6737595"
 
 A operação **Cancelar ordem** no ponto de venda (PDV) do Commerce oferece recursos atualizados de pesquisa e filtragem de ordens e informações específicas da ordem. Este recurso está disponível nas versões 10.0.15 e posterior do Commerce.
 
-Para habilitar essa funcionalidade, ative a **Operação Cancelar ordem aprimorada no PDV** no espaço de trabalho **Gerenciamento de recursos** do Commerce Headquarters. Depois de habilitar o recurso, será recomendável atualizar os [layouts de tela](pos-screen-layouts.md) no PDV para aproveitar alguns dos recursos alterados.
+Para habilitar essa funcionalidade, ative a **Operação Cancelar ordem aprimorada no PDV** no espaço de trabalho **Gerenciamento de recursos** do Commerce headquarters. Depois de habilitar o recurso, será recomendável atualizar os [layouts de tela](pos-screen-layouts.md) no PDV para aproveitar alguns dos recursos alterados.
 
 A configuração do botão da operação **Cancelar ordem** permite que as organizações implantem a operação com uma exibição predefinida.
 

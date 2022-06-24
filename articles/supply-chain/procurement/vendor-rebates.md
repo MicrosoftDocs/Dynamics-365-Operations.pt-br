@@ -1,6 +1,6 @@
 ---
 title: Reembolsos de fornecedor
-description: Este tópico fornece uma visão geral das tarefas mais comuns que você pode querer executar ao trabalhar com reembolsos de fornecedor. Os reembolsos de fornecedor ajudam as empresas a gerenciar melhor seus programas de reembolsos do fornecedor, automatizando as tarefas que são necessárias para administrar, rastrear e solicitar reembolsos que são obtidos.
+description: Este artigo fornece uma visão geral das tarefas mais comuns que você pode querer executar ao trabalhar com reembolsos de fornecedor. Os reembolsos de fornecedor ajudam as empresas a gerenciar melhor seus programas de reembolsos do fornecedor, automatizando as tarefas que são necessárias para administrar, rastrear e solicitar reembolsos que são obtidos.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890789"
 ---
 # <a name="vendor-rebates"></a>Reembolsos de fornecedor
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672952"
 
 Os reembolsos de fornecedor ajudam as empresas a gerenciar melhor seus programas de reembolsos do fornecedor, automatizando as tarefas que são necessárias para administrar, rastrear e solicitar reembolsos que são obtidos.
 
-Este tópico fornece uma visão geral das tarefas mais comuns que você pode querer executar ao trabalhar com reembolsos de fornecedor. A visão geral abrange as seguintes tarefas:
+Este artigo fornece uma visão geral das tarefas mais comuns que você pode querer executar ao trabalhar com reembolsos de fornecedor. A visão geral abrange as seguintes tarefas:
 
 - Revisar detalhes de um contrato de reembolso.
 - Identificar as ordens que qualificam reembolsos e gerenciar as solicitações de reembolso.
@@ -34,7 +34,7 @@ Este tópico fornece uma visão geral das tarefas mais comuns que você pode que
 
 ## <a name="audience-and-purpose"></a>Público-alvo e finalidade
 
-As informações deste tópico são direcionadas para tomadores de decisão de negócios das empresas, em posições como gerente da compra, diretor financeiro (CFO) e gerente de contabilidade que têm as seguintes responsabilidades:
+As informações deste artigo são direcionadas para tomadores de decisão de negócios das empresas, em posições como gerente da compra, diretor financeiro (CFO) e gerente de contabilidade que têm as seguintes responsabilidades:
 
 - Negociar preço, desconto e contratos de reembolso com o fornecedor.
 - Gerenciar a equipe que processa as solicitações de reembolso e coleta pagamentos.

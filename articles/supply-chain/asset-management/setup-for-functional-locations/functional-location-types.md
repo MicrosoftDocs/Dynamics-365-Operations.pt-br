@@ -1,6 +1,6 @@
 ---
-title: Tipos de locais funcionais
-description: Este tópico descreve como criar tipos de locais funcionais em Gerenciamento de Ativos.
+title: Tipos de local funcional
+description: Este artigo descreve como criar tipos de local funcional em Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879211"
 ---
-# <a name="functional-location-types"></a>Tipos de locais funcionais
+# <a name="functional-location-types"></a>Tipos de local funcional
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Este tópico descreve como criar tipos de locais funcionais em Gerenciamento de Ativos. Os tipos de locais funcionais são usados para gerenciar requisitos para locais funcionais, incluindo como ativos são instalados em um local funcional. Você pode configurar tipos de ativo, planos de manutenção, atributos de locais funcionais e requisitos de atributos de ativo para serem usados em um local funcional que utilize o tipo de local funcional específico. Quando você cria um local funcional, o tipo de local funcional é obrigatório.
+Este artigo descreve como criar tipos de local funcional em Gerenciamento de Ativos. Os tipos de locais funcionais são usados para gerenciar requisitos para locais funcionais, incluindo como ativos são instalados em um local funcional. Você pode configurar tipos de ativo, planos de manutenção, atributos de locais funcionais e requisitos de atributos de ativo para serem usados em um local funcional que utilize o tipo de local funcional específico. Quando você cria um local funcional, o tipo de local funcional é obrigatório.
 
 >[!NOTE] 
 >Para trabalhar com locais funcionais, você deve criar um local funcional padrão a ser usado apenas com a finalidade de criação de novos ativos. Para esse local funcional padrão, você deve criar um tipo de local funcional padrão que seja realmente simples e permita que vários ativos sejam instalados no local funcional padrão. Consulte [Criar locais funcionais](../functional-locations/create-functional-locations.md) para obter mais informações sobre como configurar locais funcionais.

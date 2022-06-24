@@ -1,6 +1,6 @@
 ---
-title: Gestão de qualidade para processos de depósito
-description: Este tópico fornece informações sobre o recurso Gestão de qualidade para processos de depósito. Ele amplia os recursos de gerenciamento da qualidade e permite que os usuários integrem controles de amostragem de item ao processo de recebimento do depósito, usando o gerenciamento avançado de depósito.
+title: Gerenciamento de qualidade para processos de depósito
+description: Este artigo fornece informações sobre o recurso Gestão de qualidade para processos de depósito. Ele amplia os recursos de gerenciamento da qualidade e permite que os usuários integrem controles de amostragem de item ao processo de recebimento do depósito, usando o gerenciamento avançado de depósito.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857827"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestão de qualidade para processos de depósito
 
@@ -69,7 +69,7 @@ Antes que o trabalho de depósito possa ser gerado automaticamente para mover o 
 1. Para cada tipo de ordem de serviço, configure diretivas de localização que apliquem os locais de controle de qualidade corretos para os quais o estoque deve ser movido. Após a conclusão do controle de qualidade, a diretiva de localização do tipo de ordem de serviço _Ordem de qualidade_ garante que um novo local de destino seja selecionado para que o estoque possa ser movido para fora do local de controle de qualidade.
 1. Configure os itens de menu relevantes do dispositivo móvel para apoiar a movimentação do estoque recebido para o local do controle de qualidade e a movimentação do estoque que passa ou falha no controle de qualidade do local de controle de qualidade para um novo local.
 
-Para um exemplo passo a passo que mostra como concluir essa configuração, consulte o [cenário de exemplo](#example-scenario) no final deste tópico.
+Para um exemplo passo a passo que mostra como concluir essa configuração, consulte o [cenário de exemplo](#example-scenario) no final deste artigo.
 
 ## <a name="enable-a-warehouse-for-quality-management"></a>Habilitar um depósito para gerenciamento da qualidade
 
@@ -188,7 +188,7 @@ O valor **Tipo de referência** para os seguintes exemplos é _Compra_ e o valor
 | Carregar | Placa de licença completa | Sim _(bloqueado/não editável)_ | <p>Local: Sim</p><p>Placa de licença: Sim _(bloqueado/não editável)_</p> | Sim | 3 | <p>**Dois itens:**</p><ul><li>**Quantidade da linha de ordem para o item A: 120 EA (4 paletes)**</li><li>**Quantidade da linha de ordem para o item B: 90 EA (3 paletes)**</li></ul><p>**Uma carga, duas linhas de carga com cada linha de ordem**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP1<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP2<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP3<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP4<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item B, 30 EA, LP5<p>Trabalho de amostragem de item de qualidade para 30 EA</p><p>Ordem de qualidade 1 para 30 EA</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item B, 30 EA, LP6<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 30 EA, LP7<p>Trabalho de ordem de compra para 30 EA (armazenamento)</p></li></ol> |
 | Carregar | Porcentagem = 10 | Sim _(bloqueado/não editável)_ | <p>Local: Não</p><p>Placa de licença: Não</p> | Não | Não Aplicável | <p>**Quantidade da linha da ordem: 100 EA**</p><p>**Nenhuma carga é criada. O escopo da ordem é aplicado.**</p><ol><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 50 EA, LP1<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 EA (armazenamento)</p></li><li>Registrar o recebimento no aplicativo móvel do Gerenciamento de Depósito para item A, 50 EA, LP2<p>Trabalho de amostragem de item de qualidade para 5 EA</p><p>Ordem de qualidade 1 para 5 EA</p><p>Trabalho de ordem de compra para 45 EA (armazenamento)</p></li></ol> |
 
-Quando um trabalhador valida uma das ordens de qualidade mostradas na tabela anterior, o sistema gera automaticamente o trabalho da ordem de qualidade para mover o estoque do local do controle de qualidade para o local definido na diretiva de localização para o tipo de ordem de serviço _Ordem de qualidade_. Você pode configurar qualquer local para esse fim, como um local de devolução ou armazenamento, dependendo do resultado do teste da ordem de qualidade. Para obter um exemplo dessa configuração, consulte o [exemplo de cenário](#example-scenario) no final de esta seção.
+Quando um trabalhador valida uma das ordens de qualidade mostradas na tabela anterior, o sistema gera automaticamente o trabalho da ordem de qualidade para mover o estoque do local do controle de qualidade para o local definido na diretiva de localização para o tipo de ordem de serviço _Ordem de qualidade_. Você pode configurar qualquer local para esse fim, como um local de devolução ou armazenamento, dependendo do resultado do teste da ordem de qualidade. Para obter um exemplo dessa configuração, consulte o [exemplo de cenário](#example-scenario) no final deste artigo.
 
 É possível reabrir uma ordem de qualidade que já foi validada, desde que o trabalho da ordem de qualidade relacionada à movimentação do estoque do local do controle de qualidade não tenha um valor **Status de trabalho** de *Fechado* ou *Em andamento*.
 

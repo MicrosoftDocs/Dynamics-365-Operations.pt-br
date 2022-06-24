@@ -1,6 +1,6 @@
 ---
 title: Criar um conhecimento de embarque
-description: Este tópico descreve como criar um conhecimento de embarque ao usar processos de gerenciamento de depósito.
+description: Este artigo descreve como criar um conhecimento de embarque ao usar processos do Warehouse Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2051583ae1606c9e4c099c2029807ca04d9d076
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34e84fee13dcff574f1700ba2b8f577f4c401cbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885773"
 ---
 # <a name="create-a-bill-of-lading"></a>Criar um conhecimento de embarque
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar um conhecimento de embarque ao usar processos de gerenciamento de depósito.  
+Este artigo descreve como criar um conhecimento de embarque ao usar processos do Warehouse Management.  
 
 Um conhecimento de embarque é um documento legal entre a empresa que envia os itens e a transportadora. O documento acompanha os itens enviados, e serve como um recibo de remessa quando os itens são entregues no destino. Se você estiver usando o gerenciamento de depósito, há duas maneiras de gerar um conhecimento de embarque:
 

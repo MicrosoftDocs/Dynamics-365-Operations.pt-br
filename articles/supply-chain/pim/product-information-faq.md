@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes sobre gerenciamento de informações de produtos
-description: Este tópico fornece respostas a perguntas frequentes (FAQs) sobre a funcionalidade de gerenciamento de informações do produto do Supply Chain Management.
+description: Este artigo fornece respostas a perguntas frequentes (FAQs) sobre a funcionalidade de gerenciamento de informações do produto do Supply Chain Management.
 author: t-benebo
 ms.date: 06/03/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a2be2d0a113081649c2f5e549dd46c0e6b95ae1d
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: b8767df25f0c42b6ee72692aac4e08032828a90d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885918"
 ---
 # <a name="product-information-management-faq"></a>Perguntas frequentes sobre gerenciamento de informações de produtos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece respostas a perguntas frequentes (FAQs) sobre a funcionalidade de gerenciamento de informações do produto do Supply Chain Management.
+Este artigo fornece respostas a perguntas frequentes (FAQs) sobre a funcionalidade de gerenciamento de informações do produto do Supply Chain Management.
 
 ## <a name="can-i-change-the-item-number-of-a-released-product"></a>Posso alterar o número do item de um produto liberado?
 

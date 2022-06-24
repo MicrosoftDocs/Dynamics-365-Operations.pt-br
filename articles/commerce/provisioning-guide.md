@@ -1,6 +1,6 @@
 ---
 title: Provisionar um ambiente de avaliação do Dynamics 365 Commerce
-description: Este tópico explica como provisionar um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
+description: Este artigo explica como provisionar um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 12/17/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52a263d1ab833eb688b1049cd4e8c584e8c9a94d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868900"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Provisionar um ambiente de avaliação do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como provisionar um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
+Este artigo explica como provisionar um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 
-Antes de começar, recomendamos que você faça uma verificação rápida deste tópico para ter uma ideia do que o processo requer.
+Antes de começar, recomendamos que você faça uma verificação rápida deste artigo para ter uma ideia do que o processo requer.
 
 > [!NOTE]
 > Os ambientes de avaliação do Commerce não estão disponíveis para o público geral e são concedidos a parceiros e clientes por solicitação. Para obter mais informações, fale com o contato do seu parceiro Microsoft.
 
-Para provisionar um ambiente de avaliação do Commerce com êxito, você deve criar um projeto que tenha um nome e um tipo de produto específicos. O ambiente e o Commerce Scale Unit (CSU) também têm alguns parâmetros específicos que você deve usar quando espera provisionar o comércio eletrônico posteriormente. As instruções neste tópico descrevem todas as etapas que são necessárias para concluir o provisionamento e os parâmetros que devem ser usados.
+Para provisionar um ambiente de avaliação do Commerce com êxito, você deve criar um projeto que tenha um nome e um tipo de produto específicos. O ambiente e o Commerce Scale Unit (CSU) também têm alguns parâmetros específicos que você deve usar quando espera provisionar o comércio eletrônico posteriormente. As instruções neste artigo descrevem todas as etapas que são necessárias para concluir o provisionamento e os parâmetros que devem ser usados.
 
 Após o provisionamento bem-sucedido do ambiente de avaliação do Commerce, você deve concluir algumas etapas de pós-provisionamento para prepará-lo para uso. Algumas etapas são opcionais, dependendo dos aspectos do sistema você deseja avaliar. Você sempre poderá concluir as etapas opcionais posteriormente.
 
@@ -128,15 +128,15 @@ Se não conseguir encontrar o link **Gerenciar** na exibição de detalhes do am
 
 A seguinte mensagem de erro pode ser exibida durante o processo de implantação:
 
-> Os ambientes de avaliação (demonstração/teste) precisam registrar o aplicativo conector da unidade de escala \<application ID\> na matriz.
+> Os ambientes de avaliação (demonstração/teste) precisam registrar o aplicativo conector da unidade de escala \<application ID\> no headquarters.
 
-Se a inicialização da CSU falhar e você receber essa mensagem de erro, anote a ID do aplicativo, que é um identificador global exclusivo (GUID), e siga as etapas na próxima seção para registrar o aplicativo de implantação da CSU na matriz do Commerce.
+Se a inicialização da CSU falhar e você receber essa mensagem de erro, anote a ID do aplicativo, que é um identificador global exclusivo (GUID), e siga as etapas na próxima seção para registrar o aplicativo de implantação da CSU no Commerce headquarters.
 
-### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Registrar o aplicativo de implantação da CSU na matriz do Commerce (se necessário)
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Registrar o aplicativo de implantação da CSU no Commerce headquarters (se necessário)
 
-Para registrar o aplicativo de implantação da CSU na matriz do Commerce, siga estas etapas.
+Para registrar o aplicativo de implantação da CSU no Commerce headquarters, siga estas etapas.
 
-1. Na matriz do Commerce, acesse **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
+1. No Commerce headquarters, acesse **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
 1. Na coluna **ID do cliente**, insira a ID do aplicativo na mensagem de erro de inicialização da CSU recebida.
 1. Na coluna **Nome**, digite qualquer texto descritivo (por exemplo, **CSU Aval**).
 1. Na coluna **ID de usuário**, digite **RetailServiceAccount**.

@@ -1,6 +1,6 @@
 ---
 title: Atendimento da ordem na loja
-description: Este tópico fornece uma visão geral do atendimento da ordem da loja.
+description: Este artigo fornece uma visão geral do atendimento da ordem da loja.
 author: BrianShook
 ms.date: 10/30/2017
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854969"
 ---
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
 

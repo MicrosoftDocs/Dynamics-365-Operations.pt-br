@@ -1,6 +1,6 @@
 ---
 title: Criação de ordens de serviço
-description: Este tópico explica como criar ordens de serviço no Gerenciamento de Ativos.
+description: Este artigo explica como criar ordens de serviço no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891195"
 ---
 # <a name="creating-work-orders"></a>Criação de ordens de serviço
 
@@ -60,7 +60,7 @@ Para criar ordens de trabalho baseadas na sua agenda de manutenção, siga estas
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Agrupar linhas de ordem de serviço que são criadas automaticamente enquanto um agendamento de manutenção é executado
 
-Esse recurso permite definir regras para agrupar linhas de ordem de serviço em uma única ordem de serviço quando o sistema é configurado para gerar ordens de serviço automaticamente, com base em um agendamento de manutenção. Antes, as ordens de serviço geradas automaticamente podiam conter apenas uma linha. No entanto, agora você pode agrupar ordens de serviço com base, por exemplo, no ativo, tipo de ativo ou local funcional. (As ordens de serviço criadas manualmente já podem ser agrupadas dessa forma, conforme descrito na seção anterior deste tópico.)
+Esse recurso permite definir regras para agrupar linhas de ordem de serviço em uma única ordem de serviço quando o sistema é configurado para gerar ordens de serviço automaticamente, com base em um agendamento de manutenção. Antes, as ordens de serviço geradas automaticamente podiam conter apenas uma linha. No entanto, agora você pode agrupar ordens de serviço com base, por exemplo, no ativo, tipo de ativo ou local funcional. (As ordens de serviço criadas manualmente já podem ser agrupadas dessa forma, conforme descrito na seção anterior deste artigo.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Habilitar agrupamento para ordens de serviço geradas automaticamente
 

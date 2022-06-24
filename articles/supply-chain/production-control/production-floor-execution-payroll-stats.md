@@ -1,6 +1,6 @@
 ---
 title: Mostrar saldos de férias na interface de execução de piso de produção
-description: Este tópico fornece um cenário de exemplo que mostra como configurar o Microsoft Dynamics 365 Supply Chain Management de forma que ele use estatísticas de folha de pagamento para fornecer aos trabalhadores uma visão geral do seu saldo de férias para o ano atual.
+description: Este artigo fornece um cenário de exemplo que mostra como configurar o Microsoft Dynamics 365 Supply Chain Management de forma que ele use estatísticas de folha de pagamento para fornecer aos trabalhadores uma visão geral do seu saldo de férias para o ano atual.
 author: johanhoffmann
 ms.date: 04/22/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-04-22
 ms.dyn365.ops.version: 10.0.XX
-ms.openlocfilehash: a97858c72b0be50609cee552bd0635e2d68ea478
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2a6b6f52bfa7539b7c9bb5841536b0d564d0274c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852263"
 ---
 # <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Mostrar saldos de férias na interface de execução de piso de produção
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece um cenário de exemplo que mostra como configurar o Microsoft Dynamics 365 Supply Chain Management de forma que ele use estatísticas de folha de pagamento para fornecer a cada trabalhador uma visão geral do seu saldo de férias para o ano atual. Os trabalhadores poderão ver seu saldo de férias na caixa de diálogo **Meu dia** na interface de execução de piso de produção.
+Este artigo fornece um cenário de exemplo que mostra como configurar o Microsoft Dynamics 365 Supply Chain Management de forma que ele use estatísticas de folha de pagamento para fornecer a cada trabalhador uma visão geral do seu saldo de férias para o ano atual. Os trabalhadores poderão ver seu saldo de férias na caixa de diálogo **Meu dia** na interface de execução de piso de produção.
 
 Esse cenário usa a Lei de férias dinamarquesa, em que o ano de férias vai de 1º de setembro a 31 de agosto. Neste cenário, sua empresa contratou um novo trabalhador e concede a esse trabalhador um saldo de 10 dias de férias para o restante do ano de férias atual.
 

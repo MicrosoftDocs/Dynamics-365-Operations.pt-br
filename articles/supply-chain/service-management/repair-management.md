@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969224f48cdb1f12b48b9f5d839d7c88168e87d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7026453bf3a0eda2b9bc4d8538150974bd6aa634
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847894"
 ---
 # <a name="repair-management"></a>Gerenciamento de reparos       
 
@@ -97,7 +97,7 @@ Quando um problema de reparo é resolvido, você pode fechar a linha de reparo. 
 
 ## <a name="close-a-repair-line-for-a-resolved-issue"></a>Fechar uma linha de reparo para um problema resolvido
 
-1.  Abra o formulário **Linhas de reparo**. Siga o procedimento descrito anteriormente neste tópico para criar uma linha de reparo.
+1.  Abra o formulário **Linhas de reparo**. Siga o procedimento descrito anteriormente neste artigo para criar uma linha de reparo.
 
 2.  Selecione a linha de reparo com o problema que você deseja fechar.
 

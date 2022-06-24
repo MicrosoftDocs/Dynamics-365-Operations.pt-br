@@ -1,6 +1,6 @@
 ---
 title: Ordens planejadas simplificadas
-description: Este tópico descreve como você pode exibir, gerenciar e confirmar ordens planejadas usando a página Ordens planejadas simplificadas.
+description: Este artigo descreve como você pode exibir, gerenciar e confirmar ordens planejadas usando a página Ordens planejadas simplificadas.
 author: t-benebo
 ms.date: 01/24/2022
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b039aa5481b835d3523b86c4ea88afff6a96ba8b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5f207fa1edb11d05910e22732cf54e100e4e3489
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887360"
 ---
 # <a name="planned-orders-simplified"></a>Ordens planejadas simplificadas
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como você pode exibir, gerenciar e confirmar ordens planejadas usando a página **Ordens planejadas simplificadas**.
+Este artigo descreve como você pode exibir, gerenciar e confirmar ordens planejadas usando a página **Ordens planejadas simplificadas**.
 
 A página **Ordens planejadas simplificadas** é uma versão simplificada da página **Ordens planejadas**. Ela oferece menos opções, mas é mais rápido trabalhar, quando tudo o que você tem a fazer é revisar, aprovar e confirmar suas ordens planejadas.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Ative este recurso para o seu sistema
 
-Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Ordens planejadas simplificadas*.
+Se o sistema ainda não incluir os recursos descritos neste artigo, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Ordens planejadas simplificadas*.
 
 ## <a name="view-manage-and-firm-planned-orders"></a>Exibir, gerenciar e confirmar ordens planejadas
 

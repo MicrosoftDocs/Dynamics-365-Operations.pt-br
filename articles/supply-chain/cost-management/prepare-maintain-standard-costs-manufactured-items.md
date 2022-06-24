@@ -1,6 +1,6 @@
 ---
 title: Preparar para manter custos padrão para itens fabricados
-description: Este tópico descreve as estapas de preparação para manter custos para itens fabricados.
+description: Este artigo descreve as etapas de preparação para manter custos para itens fabricados.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d42f61bcd44e89f0563c8f7450a1cdd6fd0e3ce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 423da8022faf8066c5aa524c49c5071d0871de04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886005"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Preparar para manter custos padrão para itens fabricados
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as estapas de preparação para manter custos para itens fabricados. As etapas para itens fabricados diferem levemente das etapas para itens comprados.
+Este artigo descreve as etapas de preparação para manter custos para itens fabricados. As etapas para itens fabricados diferem levemente das etapas para itens comprados.
 
 As diretivas atribuídas aos itens fabricados podem afetar os cálculos de custo para os itens pai fabricados. Para se preparar para manter custos para itens fabricados, siga estas etapas.
 
@@ -63,7 +63,7 @@ As diretivas atribuídas aos itens fabricados podem afetar os cálculos de custo
 
 Se desejar usar informações de roteiro para avaliação de custo, etapas de preparação adicionais serão necessárias. Por exemplo, as categorias de custo que são atribuídas às operações de roteiro devem estar corretas e completas.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Amortizar custos constantes para um item fabricado](amortize-constant-costs-manufactured-item.md)
 

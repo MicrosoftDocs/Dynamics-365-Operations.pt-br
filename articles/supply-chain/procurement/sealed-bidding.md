@@ -1,6 +1,6 @@
 ---
 title: lances lacrados para RFQs
-description: Este tópico descreve como configurar lances lacrados para manter as respostas de lance de fornecedor em segredo até que eles sejam abertos pela equipe de compra.
+description: Este artigo descreve como configurar lances lacrados para manter as respostas de lance de fornecedor em segredo até que eles sejam abertos pela equipe de compra.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890876"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>lances lacrados para RFQs
 
@@ -148,7 +148,7 @@ O processo de criação de um caso de RFQ para lances lacrados é quase igual ao
 As ocorrências de RFQ para lances lacrados devem ter um valor **Tipo de lance** de *Lacrado*. Há três maneiras de atribuir esse valor a um caso de RFQ:
 
 - Defina o valor diretamente no caso de RFQ após criá-lo.
-- Defina o lance lacrado como o tipo de lance padrão para todos os casos de RFQ nos Parâmetros de aquisição e fornecimento. (Consulte a seção [Definir o tipo de lance padrão](#set-default-bid-type) anteriormente neste tópico.)
+- Defina o lance lacrado como o tipo de lance padrão para todos os casos de RFQ nos Parâmetros de aquisição e fornecimento. (Consulte a seção [Definir o tipo de lance padrão](#set-default-bid-type) anteriormente neste artigo.)
 - Ao criar um novo caso de RFQ, selecione um tipo de solicitação que esteja configurado para lances lacrados. (Consulte a seção [Definir o tipo de lance padrão](#set-default-bid-type).)
 
 Em lances lacrados, o valor **Data e hora de vencimento** do caso de RFQ estabelece quando os lances enviados podem ser abertos. O valor **Data e hora de vencimento** em cada linha corresponderão ao valor no cabeçalho.

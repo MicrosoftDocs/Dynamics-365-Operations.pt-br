@@ -1,6 +1,6 @@
 ---
 title: Configurar valores de dimensão de produto para serem exibidos como amostras
-description: Este tópico descreve como configurar valores de dimensão de produto como amostras no Microsoft Dynamics 365 Commerce headquarters.
+description: Este artigo descreve como configurar valores de dimensão de produto como amostras no Microsoft Dynamics 365 Commerce headquarters.
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892643"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurar valores de dimensão de produto para serem exibidos como amostras
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como configurar valores de dimensão de produto como amostras no Microsoft Dynamics 365 Commerce headquarters. Para obter informações sobre dimensões do produto, consulte [Dimensões do produto](../../supply-chain/pim/product-dimensions.md).
+Este artigo descreve como configurar valores de dimensão de produto como amostras no Microsoft Dynamics 365 Commerce headquarters. Para obter informações sobre dimensões do produto, consulte [Dimensões do produto](../../supply-chain/pim/product-dimensions.md).
 
 O Dynamics 365 Commerce oferece suporte ao uso de dimensões de tamanho, estilo e cor para representar grades de produtos. As dimensões do produto têm nomes amigáveis que são mostrados nas páginas de detalhes do produto (PDPs) para que as grades de produto possam ser selecionadas. Exemplos desses nomes amigáveis são "Pequeno", "Médio" e "Grande" para tamanhos e "Preto" e "Marrom" para cores. No entanto, se um produto oferecer suporte a várias variações, várias seleções são necessárias para exibir a imagem de cada grade de produto. Portanto, pode ser lento e tedioso para os clientes procurarem e selecionarem grades de produtos.
 
@@ -44,17 +44,17 @@ A ilustração a seguir mostra um exemplo em que cores aparecem como amostras em
 
 ![Exemplo de cores mostradas como amostras em uma página da lista de resultados de pesquisa.](../dev-itpro/media/swatch_searchresults.PNG)
 
-## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Habilitar as dimensões de exibição como um recurso de amostras no Commerce Headquarters
+## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Habilitar as dimensões de exibição como um recurso de amostras no Commerce headquarters
 
-Para habilitar o recurso Exibir dimensões como amostras no Commerce Headquarters, Acesse **Espaços de trabalho \> Gerenciamento de recursos** e ative o recurso **Habilitar um mecanismo para representar dimensões como amostra**. Quando esse sinalizador de recursos é habilitado, três novos campos são adicionados para cada dimensão nas tabelas apropriadas no Commerce Headquarters: **Hexcode**, **URL** (para imagens) e **RefinerGroup**.
+Para habilitar o recurso Exibir dimensões como amostras no Commerce headquarters, Acesse **Espaços de trabalho \> Gerenciamento de recursos** e ative o recurso **Habilitar um mecanismo para representar dimensões como amostra**. Quando esse sinalizador de recursos é habilitado, três novos campos são adicionados para cada dimensão nas tabelas apropriadas no Commerce headquarters: **Hexcode**, **URL** (para imagens) e **RefinerGroup**.
 
-## <a name="configure-dimension-values-in-commerce-headquarters"></a>Configurar valores de dimensão no Commerce Headquarters
+## <a name="configure-dimension-values-in-commerce-headquarters"></a>Configurar valores de dimensão no Commerce headquarters
 
-O recurso Exibir dimensões como amostras tem suporte para dimensões de tamanho, estilo e cor. Código hexadecimal e valores da URL de imagem para as dimensões apropriadas podem ser especificados no Commerce Headquarters. Por padrão, se os valores de código hexadecimal e URL da imagem não forem fornecidos para uma dimensão, o sistema mostrará o texto do nome amigável da dimensão.
+O recurso Exibir dimensões como amostras tem suporte para dimensões de tamanho, estilo e cor. Código hexadecimal e valores da URL de imagem para as dimensões apropriadas podem ser especificados no Commerce headquarters. Por padrão, se os valores de código hexadecimal e URL da imagem não forem fornecidos para uma dimensão, o sistema mostrará o texto do nome amigável da dimensão.
 
 A configuração pode ser realizada em qualquer um dos seguintes níveis:
 
-- **Dimensão** – no Commerce Headquarters, abra a página de uma dimensão pesquisando **Cor**, **Tamanho** ou **Estilo**. Em cada página, uma grade lista os valores de dimensão. Você pode gerenciar os valores de ordem de exibição, código hexadecimal e URL da imagem. A ilustração a seguir mostra uma configuração de exemplo da página **Cores**.
+- **Dimensão** – no Commerce headquarters, abra a página de uma dimensão pesquisando **Cor**, **Tamanho** ou **Estilo**. Em cada página, uma grade lista os valores de dimensão. Você pode gerenciar os valores de ordem de exibição, código hexadecimal e URL da imagem. A ilustração a seguir mostra uma configuração de exemplo da página **Cores**.
 
     ![Exemplo de configuração de dimensão na página Cores.](../dev-itpro/media/swatch_Color.PNG)
 
@@ -71,7 +71,7 @@ A configuração pode ser realizada em qualquer um dos seguintes níveis:
 
 ## <a name="configure-dimension-values-by-using-hex-codes"></a>Configurar valores de dimensão usando códigos hexadecimais
 
-Para a maioria das dimensões de cor, um valor de cor de código hexadecimal deve ser fornecido em páginas de dimensão no Commerce Headquarters. Por exemplo, a cor preta deve ter um valor de código hexadecimal de **#00000**. Quando o Commerce processa uma página do site, o código hexadecimal é representado por uma amostra colorida.
+Para a maioria das dimensões de cor, um valor de cor de código hexadecimal deve ser fornecido em páginas de dimensão no Commerce headquarters. Por exemplo, a cor preta deve ter um valor de código hexadecimal de **#00000**. Quando o Commerce processa uma página do site, o código hexadecimal é representado por uma amostra colorida.
 
 A ilustração a seguir mostra um exemplo no qual as dimensões de cores são configuradas usando valores de código hexadecimal.
 
@@ -81,7 +81,7 @@ A ilustração a seguir mostra um exemplo no qual as dimensões de cores são co
 
 Algumas dimensões de cor representam padrões, não cores sólidas. Por exemplo, uma dimensão de cor pode ser descrita como 'leopard'. Nesses casos, você pode representar mais efetivamente as dimensões de cor usando imagens publicadas, em vez de códigos hexadecimais para amostras.
 
-Você deve carregar cada imagem para o construtor de sites do Commerce e publicá-la. Em seguida, insira a URL de imagem para a imagem publicada nas páginas de dimensão apropriadas no Commerce Headquarters. Se uma dimensão tiver sido selecionada para exibição como uma amostra, mas um código hexadecimal não estiver definido, o Commerce fará uma pesquisa de imagem ao renderizar a página. Se a pesquisa de imagem falhar, o Commerce mostrará o texto do nome amigável da dimensão.
+Você deve carregar cada imagem para o construtor de sites do Commerce e publicá-la. Em seguida, insira a URL de imagem para a imagem publicada nas páginas de dimensão apropriadas no Commerce headquarters. Se uma dimensão tiver sido selecionada para exibição como uma amostra, mas um código hexadecimal não estiver definido, o Commerce fará uma pesquisa de imagem ao renderizar a página. Se a pesquisa de imagem falhar, o Commerce mostrará o texto do nome amigável da dimensão.
 
 A ilustração a seguir mostra um exemplo no qual os URLs da imagem são usados para a configuração na página **Cores**.
 
@@ -107,13 +107,13 @@ Ao definir um código hexadecimal ou URL de imagem para um valor de dimensão, v
 
 Por exemplo, se os valores de dimensão de cor forem "azul", "xadrez azul", azul desbotado" e "azul escuro", cada valor é mapeado para um código hexadecimal ou URL de imagem diferente. Portanto, cada valor aparecerá como uma cor diferente em PDPs e cartões de produto para os produtos apropriados. No entanto, se você mapear todos esses valores de dimensão de cor para um valor de **RefinerGroup** de **Azul**, uma pesquisa de produtos "azul" gerará resultados de pesquisa da página da lista para produtos que têm valores de cor da dimensão de "azul", "xadrez azul," "azul desbotado" e "azul escuro".
 
-O exemplo na ilustração a seguir mostra o relacionamento entre as propriedades de **Cor** e **RefinerGroup** no Commerce Headquarters.
+O exemplo na ilustração a seguir mostra o relacionamento entre as propriedades de **Cor** e **RefinerGroup** no Commerce headquarters.
 
 ![Exemplo de gerenciamento de grupos do refinador.](../dev-itpro/media/swatch_refiner_group.png)
 
 ## <a name="manage-images-in-commerce-site-builder"></a>Gerenciar imagens no construtor de sites do Commerce
 
-Se as URLs de imagem forem usadas para qualquer valor de dimensão, as imagens correspondentes deverão ser carregadas no construtor de sites do Commerce. A localização de cada imagem deve corresponder ao nome do arquivo e ao caminho da pasta definidos para a imagem no Commerce Headquarters. Os arquivos de imagem devem ser carregados para as localizações de categoria apropriadas no construtor de sites. Por exemplo, imagens coloridas devem ser carregadas na pasta da categoria **Cor**. Para obter mais informações sobre como carregar imagens no construtor de sites, consulte [Carregar imagens](../dam-upload-images.md).
+Se as URLs de imagem forem usadas para qualquer valor de dimensão, as imagens correspondentes deverão ser carregadas no construtor de sites do Commerce. A localização de cada imagem deve corresponder ao nome do arquivo e ao caminho da pasta definidos para a imagem no Commerce headquarters. Os arquivos de imagem devem ser carregados para as localizações de categoria apropriadas no construtor de sites. Por exemplo, imagens coloridas devem ser carregadas na pasta da categoria **Cor**. Para obter mais informações sobre como carregar imagens no construtor de sites, consulte [Carregar imagens](../dam-upload-images.md).
 
 A ilustração a seguir mostra um exemplo onde a caixa de diálogo **Carregar arquivos** está sendo usada para carregar imagens na biblioteca de mídia do construtor de sites. Ele realça as categorias **Tamanho**, **Cor** e **Estilo** que estão disponíveis para seleção.
 
@@ -121,7 +121,7 @@ A ilustração a seguir mostra um exemplo onde a caixa de diálogo **Carregar ar
 
 ## <a name="enable-swatch-display-on-e-commerce-site-pages"></a>Habilitar exibição de amostra nas páginas do site de comércio eletrônico
 
-Antes que as amostras possam aparecer nas páginas do site de comércio eletrônico que exigem seleção de dimensão, como PDPs e páginas de listagem, você deve definir configurações de site de dimensão no Commerce Headquarters. Para obter mais informações, consulte [Aplicar configurações do site para dimensões](../dimension-settings.md).
+Antes que as amostras possam aparecer nas páginas do site de comércio eletrônico que exigem seleção de dimensão, como PDPs e páginas de listagem, você deve definir configurações de site de dimensão no Commerce headquarters. Para obter mais informações, consulte [Aplicar configurações do site para dimensões](../dimension-settings.md).
 
 Além disso, você deve habilitar a propriedade **Incluir atributos de produtos em resultados de pesquisa** para módulos de resultados de pesquisa. Se o seu site usar páginas personalizadas de categoria, você deve atualizar os módulos de resultados de pesquisa usados nessas páginas, de forma que a propriedade **Incluir atributos de produto em resultados de pesquisa** esteja habilitada. Para obter mais informações, consulte [Módulo de resultados de pesquisa](../search-result-module.md).
 

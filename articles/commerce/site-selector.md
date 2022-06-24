@@ -1,6 +1,6 @@
 ---
 title: Módulo de seletor de sites
-description: Este tópico abrange o módulo de seletor de sites e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange o módulo de seletor de sites e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/04/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef7753658f878fdf76c6a6beb82ce54e9c12e212
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884594"
 ---
 # <a name="site-picker-module"></a>Módulo de seletor de sites
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange o módulo de seletor de sites e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange o módulo de seletor de sites e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 
 Quando uma empresa tem sites diferentes em mercados, regiões e locais, os usuários do site precisam de uma maneira fácil de alternar entre sites e selecionar o site de compras preferido. Para acomodar esse cenário, o módulo de seletor de sites permite que os usuários naveguem por vários sites. Uma selecionadora de site também é recomendável quando [a detecção geográfica e o redirecionamento](geo-detection-redirection.md) foram implementados para seu site de comércio eletrônico, de forma que os clientes tenham uma forma de substituir a preferência do site que eles indicam usando o módulo de [seletor de país/região](country-region-picker-module.md). 
 

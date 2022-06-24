@@ -1,6 +1,6 @@
 ---
 title: Processar estrutura de guia
-description: Este tópico fornece informações sobre a estrutura do guia de processos para os desenvolvedores que estão estendendo nossos processos móveis de depósito em X++.
+description: Este artigo fornece informações sobre a estrutura do guia de processos para os desenvolvedores que estão estendendo nossos processos móveis de depósito em X++.
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860425"
 ---
 # <a name="process-guide-framework"></a>Processar estrutura de guia
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre a estrutura do guia de processos para os desenvolvedores que estão estendendo os processos móveis de depósito em X++. Os processos móveis de depósito são extensíveis como resultado de serem divididos em etapas pequenas. A criação da lógica de negócios e da interface de usuário de cada etapa foi extraída para classes individuais, o que permite a extensibilidade.
+Este artigo fornece informações sobre a estrutura do guia de processos para os desenvolvedores que estão estendendo os processos móveis de depósito em X++. Os processos móveis de depósito são extensíveis como resultado de serem divididos em etapas pequenas. A criação da lógica de negócios e da interface de usuário de cada etapa foi extraída para classes individuais, o que permite a extensibilidade.
 
 ## <a name="overview-of-the-existing-design"></a>Visão geral do design existente
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> Você pode encontrar o mesmo código-fonte para os métodos X++ neste tópico usando o Explorador de Aplicativos. Filtre o nome da classe, clique com o botão direito do mouse no nome da classe e selecione **Exibir código**.
+> Você pode encontrar o mesmo código-fonte para os métodos X++ neste artigo usando o Explorador de Aplicativos. Filtre o nome da classe, clique com o botão direito do mouse no nome da classe e selecione **Exibir código**.
 
 ### <a name="step-3-start-the-production-order"></a>Etapa 3: Iniciar a ordem de produção
 
@@ -421,7 +421,7 @@ Ao fazer isso, ele solicita que a etapa crie uma classe de ação para o nome pa
 
 ### <a name="summary"></a>Resumo
 
-Para resumir tudo o que foi explicado neste tópico, aqui está um resumo abrangente do código necessário para o processo:
+Para resumir tudo o que foi explicado neste artigo, aqui está um resumo abrangente do código necessário para o processo:
 
 1.  **ProdProcessGuideProductionStartController**
 
@@ -570,7 +570,7 @@ Para resumir tudo o que foi explicado neste tópico, aqui está um resumo abrang
         ```
 
         > [!NOTE]
-        > O método **generateItemInfoForProdId()**, que é usado para gerar os rótulos de informações do item, foi excluído deste tópico. Esse método consulta algumas tabelas para obter ID do item, descrição e dimensões. Se você quiser uma compreensão melhor de **generateItemInfoForProdId()**, examine o código-fonte.
+        > O método **generateItemInfoForProdId()**, que é usado para gerar os rótulos de informações do item, foi excluído deste artigo. Esse método consulta algumas tabelas para obter ID do item, descrição e dimensões. Se você quiser uma compreensão melhor de **generateItemInfoForProdId()**, examine o código-fonte.
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 
@@ -605,7 +605,7 @@ Para resumir tudo o que foi explicado neste tópico, aqui está um resumo abrang
 
 ### <a name="extending-a-business-process"></a>Estender um processo empresarial
 
-Até agora, este tópico destacou como criar um novo processo usando a estrutura **ProcessGuide**. Nesta seção final, você verá alguns exemplos de como esse processo empresarial pode ser estendido.
+Até agora, este artigo destacou como criar um novo processo usando a estrutura **ProcessGuide**. Nesta seção final, você verá alguns exemplos de como esse processo empresarial pode ser estendido.
 
 ### <a name="add-a-step-in-a-flow-using-processguidenavigationagentdefault"></a>Adicionar uma etapa em um fluxo (usando ProcessGuideNavigationAgentDefault)
 

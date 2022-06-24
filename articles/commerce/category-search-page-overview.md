@@ -1,6 +1,6 @@
 ---
 title: Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa
-description: Este tópico fornece uma visão geral da página de aterrissagem de categoria padrão e da página de resultados de pesquisa no Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral da página de aterrissagem de categoria padrão e da página de resultados de pesquisa no Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881843"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral da página de aterrissagem de categoria padrão e da página de resultados de pesquisa no comércio online do Microsoft Dynamics 365 Commerce.
+Este artigo fornece uma visão geral da página de aterrissagem de categoria padrão e da página de resultados de pesquisa no comércio eletrônico do Microsoft Dynamics 365 Commerce.
 
 ## <a name="default-category-landing-page"></a>Página de aterrissagem da categoria padrão
 
@@ -32,7 +32,7 @@ A página de aterrissagem de categoria padrão é a página para a qual os usuá
 
 ![Página de aterrissagem da categoria padrão.](./media/SimpleCategoryLandingDressCategory.png)
 
-Na parte superior da página está um cabeçalho que mostra todas as categorias de produtos e outras páginas que o gerente de mercadoria categorizou. A configuração é feita como parte da configuração da hierarquia de navegação de canal. Na parte inferior da página está um rodapé que inclui links rápidos para várias tópicos que podem despertar o interesse de um cliente.
+Na parte superior da página está um cabeçalho que mostra todas as categorias de produtos e outras páginas que o gerente de mercadoria categorizou. A configuração é feita como parte da configuração da hierarquia de navegação de canal. Na parte inferior da página está um rodapé que inclui links rápidos para várias artigos que podem despertar o interesse de um cliente.
 
 Os componentes a seguir são essenciais para uma categoria:
 

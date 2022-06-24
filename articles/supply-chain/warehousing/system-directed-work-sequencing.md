@@ -1,6 +1,6 @@
 ---
 title: Sequenciamento do trabalho direcionado pelo sistema
-description: Este tópico fornece informações sobre o sequenciamento de trabalho direcionado pelo sistema. Essa funcionalidade permite classificar e filtrar as ordens de serviço que o sistema apresenta a usuários para execução. Ela é útil em cenários que exigem critérios adicionais para direcionar o processo de separação de depósito.
+description: Este artigo fornece informações sobre o sequenciamento de trabalho direcionado pelo sistema. Essa funcionalidade permite classificar e filtrar as ordens de serviço que o sistema apresenta a usuários para execução. Ela é útil em cenários que exigem critérios adicionais para direcionar o processo de separação de depósito.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849116"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenciamento do trabalho direcionado pelo sistema
 
@@ -44,7 +44,7 @@ Para que você possa usar o sequenciamento de trabalho direcionado pelo sistema,
 
 ### <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
 
-Para trabalhar com o cenário usando os valores apresentados neste tópico, você deve trabalhar em um sistema em que os dados de demonstração padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF**. O cenário usa o depósito *51* dos dados de demonstração.
+Para trabalhar com o cenário usando os valores apresentados neste artigo, você deve trabalhar em um sistema em que os dados de demonstração padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF**. O cenário usa o depósito *51* dos dados de demonstração.
 
 > [!IMPORTANT]
 > Antes de liberar as ordens para o depósito, verifique se os locais de separação têm estoque suficiente para todos os itens nas ordens.

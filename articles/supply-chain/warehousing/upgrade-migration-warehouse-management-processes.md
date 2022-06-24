@@ -1,6 +1,6 @@
 ---
 title: Atualizar o gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Supply Chain Management
-description: Este tópico fornece uma visão geral das opções de migração de gerenciamento do produto e de depósito.
+description: Este artigo fornece uma visão geral das opções de migração de gerenciamento do produto e de depósito.
 author: perlynne
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857073"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Atualizar o gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral do processo de upgrade do Microsoft Dynamics AX 2012 R3, executando o módulo WMSII, para o Supply Chain Management.
+Este artigo fornece uma visão geral do processo de upgrade do Microsoft Dynamics AX 2012 R3, executando o módulo WMSII, para o Supply Chain Management.
 
 O Supply Chain Management não oferece mais suporte ao módulo herdado **WMSII** do Microsoft Dynamics AX 2012. Em vez disso, você pode usar o módulo **Gerenciamento de depósito**. No módulo de WMSII, dimensões de estoque do local e da ID do palete podem ser selecionados para o estoque financeiro, porém, a dimensão de estoque da ID do palete não pode ser usada para o estoque financeiro no Supply Chain Management.
 

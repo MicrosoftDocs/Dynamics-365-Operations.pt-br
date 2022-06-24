@@ -1,6 +1,6 @@
 ---
 title: Alterar a ordem de classificação das entidades de venda
-description: Este tópico explica os conceitos relacionados ao controle da ordem de exibição de várias entidades relacionadas a merchandising no Dynamics 365 Commerce.
+description: Este artigo explica os conceitos relacionados ao controle da ordem de exibição de várias entidades relacionadas a merchandising no Dynamics 365 Commerce.
 author: josaw1
 ms.date: 08/05/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847645"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alterar a ordem de classificação das entidades de venda
 
@@ -29,13 +29,13 @@ ms.locfileid: "7779533"
 
 Os varejistas consideram a descoberta de produtos a principal ferramenta para a interação com os clientes em todos os canais. Várias funcionalidades podem ajudar os clientes a descobrir facilmente os produtos. Por exemplo, eles podem procurar categorias, pesquisar e filtrar.
 
-Este tópico explica os conceitos relacionados ao controle da ordem de exibição de várias entidades relacionadas a merchandising. Também explica como alterar a ordem de classificação.
+Este artigo explica os conceitos relacionados ao controle da ordem de exibição de várias entidades relacionadas a merchandising. Também explica como alterar a ordem de classificação.
 
 ## <a name="overview"></a>Visão Geral
 
 O suporte para classificação de várias entidades relacionadas a merchandising foi melhorado. Atualmente, esse suporte está melhor alinhado aos cenários de clientes existentes que antes requeriam extensões dos parceiros de implementação.
 
-Nas versões do Retail anteriores à versão 10.0.5, a ordem de classificação das categorias na hierarquia de navegação era alfabética. A nova funcionalidade de ordem de classificação personalizada permite que os gerentes de merchandising configurem a ordem de classificação para várias entidades relacionadas a merchandising em todos os clientes usuários finais. Esses clientes incluem matriz e call centers.
+Nas versões do Retail anteriores à versão 10.0.5, a ordem de classificação das categorias na hierarquia de navegação era alfabética. A nova funcionalidade de ordem de classificação personalizada permite que os gerentes de merchandising configurem a ordem de classificação para várias entidades relacionadas a merchandising em todos os clientes usuários finais. Esses clientes incluem o headquarters (HQ) e os call centers.
 
 ## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a>Configurar a ordem de exibição para categorias na hierarquia de produtos
 

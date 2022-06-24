@@ -1,6 +1,6 @@
 ---
 title: Módulo de pesquisa de ordem
-description: Este tópico abrange o módulo de pesquisa de ordem e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange o módulo de pesquisa de ordem e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869421"
 ---
 # <a name="order-lookup-module"></a>Módulo de pesquisa de ordem
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange o módulo de pesquisa de ordem e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
+Este artigo abrange o módulo de pesquisa de ordem e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 
 O módulo de pesquisa de ordem fornece um formulário que os clientes podem usar para pesquisar ordens colocadas em um site de comércio eletrônico. Ele é usado como parte do recurso [Habilitar pesquisa de ordem para finalização de compra do convidado](order-lookup-guest.md). O módulo de pesquisa de ordem pode ser usado para procurar ordens que foram enviadas por meio de um site de comércio eletrônico, do ponto de venda do varejo (PDV) ou de um call center. O formulário pode recuperar ordens que foram enviadas por usuários convidados e por usuários registrados.
 

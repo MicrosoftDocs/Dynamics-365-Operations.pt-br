@@ -1,6 +1,6 @@
 ---
 title: Espaço de trabalho móvel de estoque disponível
-description: Este tópico fornece informações sobre a área de trabalho móvel de estoque disponível. Este espaço de trabalho o ajuda a obter informações móveis para estoque reservado e disponível a qualquer hora e em qualquer lugar.
+description: Este artigo fornece informações sobre a área de trabalho móvel de estoque disponível. Este espaço de trabalho o ajuda a obter informações móveis para estoque reservado e disponível a qualquer hora e em qualquer lugar.
 author: yufeihuang
 ms.date: 05/24/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b380da99b02fe9b7cd834eabac3498ee3b8e54a4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859420"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Espaço de trabalho móvel de estoque disponível
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Este tópico fornece informações sobre a área de trabalho móvel de **Estoque disponível**. Este espaço de trabalho ajuda você a obter informações sobre estoque reservado e disponível a qualquer hora e em qualquer lugar.
+Este artigo fornece informações sobre a área de trabalho móvel de **estoque disponível**. Este espaço de trabalho ajuda você a obter informações sobre estoque reservado e disponível a qualquer hora e em qualquer lugar.
 
 Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel de finanças e operações (Dynamics 365).
 
