@@ -1,6 +1,6 @@
 ---
 title: Datas de fatura de fornecedor
-description: Este tópico descreve as datas exibidas nas faturas de fornecedor. Também explica como configurar o sistema para que ele ajuste automaticamente a data de lançamento.
+description: Este artigo descreve as datas exibidas nas faturas de fornecedor. Também explica como configurar o sistema para que ele ajuste automaticamente a data de lançamento.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876402"
 ---
 # <a name="vendor-invoice-dates"></a>Datas de fatura de fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as datas exibidas nas faturas de fornecedor. Também explica como configurar o sistema para que ele ajuste automaticamente a data de lançamento.
+Este artigo descreve as datas exibidas nas faturas de fornecedor. Também explica como configurar o sistema para que ele ajuste automaticamente a data de lançamento.
 
 Na página **Fatura de fornecedor pendente detalhada**, o cabeçalho da fatura mostra quatro datas: a data de recebimento da fatura, a data da fatura, a data de lançamento e a data de conclusão. Quando uma fatura de fornecedor é criada, as seguintes datas são inseridas por padrão:
 
@@ -37,7 +37,7 @@ Na página **Fatura de fornecedor pendente detalhada**, o cabeçalho da fatura m
 
 Às vezes, uma fatura de fornecedor pode estar em um estado pendente por muito tempo após o fechamento do período. Quando estiver pronta para o lançamento, a data de lançamento antiga do período de lançamento passado ainda será usada. No entanto, esse período foi fechado agora. Portanto, um auxiliar de AP (Contas a pagar) deve alterar manualmente todas as datas de lançamento para o novo período de lançamento para todas as faturas pendentes que foram criadas anteriormente.
 
-O recurso descrito neste tópico permite que você configure o sistema de forma que ele ajuste automaticamente a data de lançamento de acordo com as necessidades comerciais.
+O recurso descrito neste artigo permite que você configure o sistema de forma que ele ajuste automaticamente a data de lançamento de acordo com as necessidades comerciais.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Parâmetro para ajustar automaticamente a data de lançamento da fatura do fornecedor
 

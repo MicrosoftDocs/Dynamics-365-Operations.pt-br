@@ -1,8 +1,8 @@
 ---
 title: Sistema de mensagens eletrônicas
-description: Este tópico contém uma visão geral e informações de configuração de mensagens eletrônicas no Microsoft Dynamics 365 Finance.
+description: Este artigo contém uma visão geral e informações de configuração de mensagens eletrônicas no Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934674"
 ---
-# <a name="electronic-messaging"></a>Mensagens eletrônicas
+# <a name="electronic-messaging"></a>Sistema de mensagens eletrônicas
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral e as informações de configuração para a funcionalidade **Mensagens eletrônicas** (EM).
+Este artigo fornece uma visão geral e as informações de configuração para a funcionalidade **Mensagens eletrônicas** (EM).
 
 Recentemente, as instituições governamentais e as autoridades legislativas de vários países e regiões do mundo implementaram requisitos de relatório para as empresas registradas nesses países ou regiões. A finalidade de requisitos é habilitar os dados que devem ser obtidos das empresas no formato eletrônico, diretamente dos sistemas onde foram contabilizados, armazenados e processados.
 
@@ -58,6 +58,16 @@ A funcionalidade de EM dá suporte aos seguintes cenários:
 - Armazene e analise todas as informações de log relacionadas a ações executadas para uma mensagem ou um item de mensagem.
 - Controle o processamento entre vários status de mensagens e status de itens de mensagem.
 
+## <a name="security-privileges"></a>Privilégios de segurança
+
+Os privilégios de segurança a seguir estão disponíveis para mensagens eletrônicas.
+
+| Privilégios de segurança           | Nível de acesso | Associação |
+|------------------------------|--------------|-------------|
+| Manter mensagens eletrônicas | Esse privilégio concede acesso total à funcionalidade de EM. Se você tiver esse privilégio, poderá configurar mensagens eletrônicas e executar todo o processamento. | Esse privilégio está incluído na obrigação de segurança **Manter transações de imposto**. Essa obrigação, por sua vez, é incluída na função de segurança **Contador**. |
+| Exibir mensagens eletrônicas     | Esse privilégio concede acesso somente leitura à funcionalidade de EM. Se você tiver esse privilégio, poderá exibir as configurações de mensagens eletrônicas e as mensagens. No entanto, não é possível configurar nem executar nada. | Esse privilégio está incluído na obrigação de segurança **Consultar no status de transação do imposto**. Essa obrigação, por sua vez, é incluída nas seguintes funções de segurança.<ul><li>Gerenciador de cobranças</li><li>Auxiliar de contas a receber</li><li>Gerente de contas a receber</li><li>Contador tributário</li><li>Contador</li><li>Gerente de contabilidade</li><li>Supervisor de contabilidade</li><li>Gerente de vendas</li><li>Auxiliar de contas a pagar</li></ul> |
+| Operar mensagens eletrônicas  | Esse privilégio fornece acesso somente às páginas **Mensagens eletrônicas** e **Itens de mensagens eletrônicas**. Se você tiver esse privilégio, poderá executar todo o processamento chamado nessas páginas. | Esse privilégio está incluído na obrigação de segurança **Operar mensagens eletrônicas**. Essa obrigação, por sua vez, é incluída na função de segurança **Operador de mensagens eletrônicas**. |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Recursos regulatórios específicos do país/região para os quais a funcionalidade de EM oferece suporte
 
 A tabela a seguir fornece informações sobre alguns recursos regulatórios específicos de país/região para os quais a funcionalidade de EM oferece suporte.
@@ -66,7 +76,7 @@ A tabela a seguir fornece informações sobre alguns recursos regulatórios espe
 |-------------|--------------|------------------------|
 | Espanha       | [Fornecimento imediato de informações sobre IVA (Suministro Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | Hungria     | [Sistema de faturamento online](../localizations/emea-hun-online-invoicing.md) | |
-| Reino Unido | [Declaração de impostos digital (MTD) - Envio da declaração IVA](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: imposto digital do Reino Unido - Declaração de IVA no Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| Reino Unido | [Declaração de impostos digital (MTD) - Envio da declaração IVA](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: imposto digital do Reino Unido - declaração de IVA no Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | Lituânia   | [Relatórios i.SAF](../localizations/emea-ltu-isaf.md) | |
 | Polônia      | [Declaração de IVA com registros (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: registros de auditoria de IVA SAF/JPK](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | Países Baixos | [Declaração de IVA para os Países Baixos](../localizations/emea-nl-vat-declaration-netherlands.md) | |
@@ -78,7 +88,13 @@ A tabela a seguir fornece informações sobre alguns recursos regulatórios espe
 | Rússia      | [Declaração de imposto avaliado](../localizations/rus-assessed-tax-declaration.md) | |
 | Rússia      | [Declaração de imposto sobre transporte](../localizations/rus-transport-tax-declaration.md) | |
 | Rússia      | [Declaração de imposto territorial](../localizations/rus-land-tax-declaration.md) | |
-
+| Noruega      | [Restituição de IVA com envio direto para Altinn](../localizations/emea-nor-vat-return.md) | [Novo retorno de IVA com envio direto para Altinn no Dynamics 365 Finance](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| França      | [Declaração de IVA (França)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| Áustria     | [Declaração de IVA (Áustria)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| Alemanha     | [Declaração de IVA (Alemanha)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| Países Baixos | [Declaração de IVA para os Países Baixos](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| Suécia      | [Declaração de IVA (Suécia)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| Suíça | [Declaração de IVA (Suíça)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: Intrastat francês
-description: Este tópico contém informações sobre a declaração Intrastat na França.
+description: Este artigo contém informações sobre a declaração Intrastat na França.
 author: anasyash
 ms.date: 07/9/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d38576e1c6b40242d5c6313fb06f08e170b4466
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887843"
 ---
 # <a name="french-intrastat"></a>Intrastat francês
 
@@ -97,7 +97,7 @@ A tabela também indica o nível de relatório do campo. O campo pode ser **4** 
     3. Na Guia Rápida **Hierarquia de código de mercadoria**, no campo **Hierarquia de categoria**, selecione **Intrastat**.
     4. Na Guia Rápida **Geral**, no campo **Código de transação**, selecione o código usado para as transferências de mercadorias.
     5. No campo **Nota de crédito**, selecione o código usado para devoluções de mercadorias.
-    6. No campo **Nível de obrigação para exportação**, insira o nível de detalhe do relatório de exportação. O nível selecionado afeta as linhas mostradas no relatório. Para obter mais informações, consulte as tabelas o início deste tópico.
+    6. No campo **Nível de obrigação para exportação**, insira o nível de detalhe do relatório de exportação. O nível selecionado afeta as linhas mostradas no relatório. Para obter mais informações, consulte as tabelas o início deste artigo.
 
 3. Vá para **Administração da organização** > **Organizações** > **Entidades legais**, selecione sua empresa e siga estas etapas:
 

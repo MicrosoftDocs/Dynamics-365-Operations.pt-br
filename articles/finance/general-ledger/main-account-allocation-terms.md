@@ -1,6 +1,6 @@
 ---
 title: Condições de Alocação
-description: Este tópico fornece informações sobre o uso de condições de alocação em uma conta principal.
+description: Este artigo fornece informações sobre o uso de condições de alocação em uma conta principal.
 author: rachel-profitt
 ms.date: 06/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab3f797505e2c3d7521d3af5c231f5985e6efaa5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d62c0cc79c9d61e0ebb1c2c62a345ad47412d0d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859817"
 ---
 # <a name="allocation-terms"></a>Condições de Alocação
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre o uso de condições de alocação em uma conta principal. Os termos de alocação são usados para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
+Este artigo fornece informações sobre o uso de condições de alocação em uma conta principal. Os termos de alocação são usados para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
 
 Cada condição de alocação que você cria em uma conta principal define a porcentagem de um comprovante a ser alocada de uma conta principal de origem única e uma combinação de dimensões financeiras. Além disso, você define a conta principal de destino e as dimensões financeiras nas quais o valor será alocado. 
 

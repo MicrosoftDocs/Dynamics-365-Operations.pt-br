@@ -1,6 +1,6 @@
 ---
-title: Criar pagamentos de fornecedor usando uma proposta de pagamento
-description: Este tópico oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam.
+title: Criar pagamentos de fornecedores usando uma proposta de pagamento
+description: Este artigo oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam.
 author: abruer
 ms.date: 04/04/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845364"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Criar pagamentos de fornecedores usando uma proposta de pagamento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam. Com frequência, as propostas de pagamento são usadas para criar pagamentos de fornecedor, já que a consulta de proposta de pagamento pode ser usada para selecionar rapidamente as faturas de fornecedor para pagamento com base em critérios como a data de vencimento e o desconto à vista. 
+Este artigo oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam. Com frequência, as propostas de pagamento são usadas para criar pagamentos de fornecedor, já que a consulta de proposta de pagamento pode ser usada para selecionar rapidamente as faturas de fornecedor para pagamento com base em critérios como a data de vencimento e o desconto à vista. 
 
 Com frequência, a organização usa propostas de pagamento para criar pagamentos de fornecedor, já que a consulta de proposta de pagamento pode ser usada para selecionar rapidamente as faturas de fornecedor para pagamento com base na data de vencimento, no desconto à vista e em outros critérios. 
 

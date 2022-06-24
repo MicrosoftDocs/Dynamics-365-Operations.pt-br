@@ -1,6 +1,6 @@
 ---
 title: Planejar seu plano de contas local
-description: Este tópico fornece informações que ajudarão você a planejar o plano de contas quando tiver requisitos de requisitos estatutários/locais para sua organização.
+description: Este artigo fornece informações que ajudarão você a planejar o plano de contas quando tiver requisitos de requisitos estatutários/locais para sua organização.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798287"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946235"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Planejar seu plano de contas local
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações que o ajudarão a planejar o plano de contas quando sua organização incluir entidades legais que devem atender requisitos para localidades específicas em que fazem negócios. Este tópico usa os seguintes termos para descrever os planos de contas:
+Este artigo fornece informações que o ajudarão a planejar o plano de contas quando sua organização incluir entidades legais que devem atender requisitos para localidades específicas em que fazem negócios. Este artigo usa os seguintes termos para descrever os planos de contas:
 
 - **Global** – o plano de contas que a organização usa globalmente. Na maioria dos casos, você se consolidará neste plano de contas.
 - **Local** – um plano de contas que as entidades legais em um país ou região específico usam.

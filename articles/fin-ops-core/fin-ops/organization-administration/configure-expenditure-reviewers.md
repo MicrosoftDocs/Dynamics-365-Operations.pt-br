@@ -1,6 +1,6 @@
 ---
 title: Configurar revisores de despesas
-description: Este tópico descreve como usar os revisores de despesas para selecionar dinamicamente o usuário para o qual uma tarefa de fluxo de trabalho, aprovação ou decisão manual é atribuída.
+description: Este artigo descreve como usar os revisores de despesas para selecionar dinamicamente o usuário para o qual uma tarefa de fluxo de trabalho, aprovação ou decisão manual é atribuída.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070137"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863213"
 ---
 # <a name="configure-expenditure-reviewers"></a>Configurar revisores de despesas
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ Quando a ordem de compra for criada, o campo **Projeto** deverá ser especificad
 
 ## <a name="set-up-expenditure-reviewers"></a>Configurar revisores de despesas
 
-Este exemplo mostra como você configura um revisor de despesas de requisição de ordem. Para configurar outros tipos de revisores de despesas, substitua o caminho de navegação da etapa 1 pelo caminho apropriado da tabela na seção [Tipos de revisores de despesas](configure-expenditure-reviewers.md#types-of-expenditure-reviewers), anterior a este tópico.
+Este exemplo mostra como você configura um revisor de despesas de requisição de ordem. Para configurar outros tipos de revisores de despesas, substitua o caminho de navegação da etapa 1 pelo caminho apropriado da tabela na seção [Tipos de revisores de despesas](configure-expenditure-reviewers.md#types-of-expenditure-reviewers), anterior a este artigo.
 
 1. Acesse **Aquisição e fornecimento \> Configuração \> Políticas \> Revisores de despesas de requisições de compra**.
 2. Na página **Revisores de despesas de requisições de compra**, selecione **Novo**.

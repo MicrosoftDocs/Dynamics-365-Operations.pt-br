@@ -1,6 +1,6 @@
 ---
 title: Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil
-description: Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.
+description: Esse artigo mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.
 author: sndray
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6cd9ec68f061d9d6298c13bb25bad8349cd710b549774776998e18e08102c584
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b8e5b133663ce7cb4555a19ae3eacd372f3e8be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862945"
 ---
 # <a name="journals-generated-during-the-electronic-payment-return-process-for-brazil"></a>Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.
+Esse artigo mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.
 
 É possível fazer pagamentos eletrônicos pela transferência de arquivos entre uma entidade legal e um banco. Primeiro, você gera e envia arquivos de remessa eletrônica para o banco. Depois, após o banco processar os arquivos exportados, é possível importar um arquivo de devolução do banco. O arquivo de devolução contém informações sobre a aceitação de uma fatura, junto com o número de pagamento fornecido pelo banco, ou informações sobre os pagamentos recebidos de um cliente ou pagos a um fornecedor. Ao importar um arquivo de devolução, o status dos pagamentos é atualizado no campo **Status de pagamento** na página **Transferências de pagamento**. O novo status depende do relacionamento entre os códigos de ocorrência de devolução bancária no arquivo de devolução e os códigos de ocorrência de devolução no Dynamics 365 Finance. Ao lançar os pagamentos para os quais o arquivo de devolução é importado, somente os pagamentos que possuem um status **Aprovado** são lançados. Esses pagamentos podem ser lançados para o mesmo diário de pagamento ou para vários diários de pagamento.
 

@@ -1,6 +1,6 @@
 ---
 title: Inserir aplicativos de terceiros
-description: Este tópico explica como inserir aplicativos de terceiros para aumentar a funcionalidade do produto.
+description: Este artigo explica como inserir aplicativos de terceiros para aumentar a funcionalidade do produto.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868598"
 ---
 # <a name="embed-third-party-apps"></a>Inserir aplicativos de terceiros
 
 [!include [banner](../includes/banner.md)]
 
-Muitos clientes usam vários aplicativos para executar negócios. Alguns desses aplicativos são aplicativos Web de terceiros que funcionam junto com aplicativos do Finance and Operations. Para fornecer uma experiência de usuário mais uniforme, você pode usar o recurso **Aplicativos de página completa** para inserir diretamente os aplicativos de terceiros em aplicativos do Finance and Operations (desde que os aplicativos de terceiros permitam serem inseridos). Dessa forma, os usuários podem acessar os sites e os aplicativos necessários sem precisar alternar guias ou janelas.
+Muitos clientes usam vários aplicativos para executar negócios. Alguns desses aplicativos são aplicativos Web de terceiros que funcionam junto com aplicativos de finanças e operações. Para fornecer uma experiência de usuário mais uniforme, você pode usar o recurso (Versão preliminar) **Aplicativos de página completa** para inserir diretamente os aplicativos de terceiros em aplicativos de finanças e operações (desde que os aplicativos de terceiros permitam serem inseridos). Dessa forma, os usuários podem acessar os sites e os aplicativos necessários sem precisar alternar guias ou janelas.
 
-Antes de inserir aplicativos de terceiros no produto, você deve ativar o recurso **Aplicativos de página completa** no gerenciamento de Recursos. Você pode usar um dos métodos a seguir para inserir um aplicativo ou site de terceiros. Esses métodos são análogos aos métodos usados para inserir aplicativos de tela do Microsoft Power Apps em aplicativos do Finance and Operations.
+Antes de inserir aplicativos de terceiros no produto, você deve ativar o recurso **Aplicativos de página completa** no gerenciamento de Recursos. Você pode usar um dos métodos a seguir para inserir um aplicativo ou site de terceiros. Esses métodos são análogos aos métodos usados para inserir aplicativos de tela do Microsoft Power Apps em aplicativos de finanças e operações.
 
 - Insira o aplicativo ou o site em uma página existente como uma nova página de guia (guia dinâmica, Guia Rápida, folha ou seção de espaço de trabalho).
 - Crie uma nova experiência de página inteira para o aplicativo ou o site no painel.
@@ -53,14 +53,14 @@ Use este procedimento se desejar complementar uma página existente no sistema c
     > - O aplicativo ou o site deve estar configurado para permitir que ele próprio seja inserido.
 
 6. Selecione **Salvar** para inserir o aplicativo na página. O aplicativo é adicionado como a última guia ou seção no grupo.
-7. Confirme se o aplicativo aparece como esperado. Se o aplicativo não for renderizado, consulte a seção [Solução de problemas](#troubleshooting) mais adiante neste tópico.
+7. Confirme se o aplicativo aparece como esperado. Se o aplicativo não for renderizado, consulte a seção [Solução de problemas](#troubleshooting) mais adiante neste artigo.
 8. Abra o seletor de exibição e selecione **Salvar** (se o aplicativo for associado à exibição atual) ou **Salvar como** (para salvar o aplicativo em uma exibição diferente).
 
     Se a página não tiver um seletor de exibição (por exemplo, se a página for uma caixa de diálogo ou um espaço de trabalho), você poderá ignorar esta etapa.
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Insira um site como uma experiência de página inteira do painel
 
-Use este procedimento se o aplicativo que você deseja inserir não estiver relacionado a uma página existente ou se você quiser apenas uma experiência de página inteira para o aplicativo dentro do aplicativo do Finance and Operations.
+Use este procedimento se o aplicativo que você deseja inserir não estiver relacionado a uma página existente ou se quiser apenas uma experiência de página inteira de aplicativo no aplicativo de finanças e operações.
 
 1. Abra o painel.
 2. Selecione e segure (ou clique com o botão direito do mouse) no painel, selecione **Personalizar** e, depois, **Adicionar uma página**.
@@ -75,7 +75,7 @@ Use este procedimento se o aplicativo que você deseja inserir não estiver rela
     > - O aplicativo ou o site deve estar configurado para permitir que ele próprio seja inserido.
 
 5. Selecione **Salvar** para adicionar o aplicativo ao painel como um novo bloco.
-6. Selecione o novo bloco no painel e confirme que o aplicativo aparece como esperado. Se o aplicativo não estiver sendo renderizado, consulte a seção [Solução de problemas](#troubleshooting) mais adiante neste tópico.
+6. Selecione o novo bloco no painel e confirme que o aplicativo aparece como esperado. Se o aplicativo não estiver sendo renderizado, consulte a seção [Solução de problemas](#troubleshooting) mais adiante neste artigo.
 
 ## <a name="sharing-embedded-apps"></a>Compartilhar aplicativos inseridos
 
@@ -89,7 +89,7 @@ Depois de inserir um aplicativo usando um dos métodos descritos nas seções an
 
 ## <a name="viewing-embedded-apps"></a>Exibir aplicativos inseridos
 
-Para exibir um aplicativo inserido em uma página em aplicativos do Finance and Operations, abra a página que tem o aplicativo inserido. Lembre-se de que, em algumas páginas, aplicativos inseridos podem ser acessados usando o botão **Power Apps** no Painel de Ações padrão. Eles podem aparecer diretamente na página como uma nova guia, Guia Rápida, folha ou uma nova seção em um espaço de trabalho.
+Para exibir um aplicativo inserido em uma página em aplicativos de finanças e operações, abra a página que tem o aplicativo inserido. Lembre-se de que, em algumas páginas, aplicativos inseridos podem ser acessados usando o botão **Power Apps** no Painel de Ações padrão. Eles podem aparecer diretamente na página como uma nova guia, Guia Rápida, folha ou uma nova seção em um espaço de trabalho.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Editar ou remover aplicativos inseridos
 
@@ -126,6 +126,6 @@ Se um site não for renderizado corretamente após ser inserido em um aplicativo
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Desenvolvedor] Modelar um site em um formulário
 
-Embora este tópico foque a inserção de aplicativos ou sites de terceiros por meio de personalização, os desenvolvedores também podem inseri-los em um formulário usando a experiência de desenvolvimento do Visual Studio. Basta adicionar um controle **WebsiteHostControl** ao formulário. As propriedades de metadados disponíveis para o controle fornecem os mesmos recursos que a experiência de personalização.
+Embora este artigo foque a inserção de aplicativos ou sites de terceiros por meio de personalização, os desenvolvedores também podem inseri-los em um formulário usando a experiência de desenvolvimento do Visual Studio. Basta adicionar um controle **WebsiteHostControl** ao formulário. As propriedades de metadados disponíveis para o controle fornecem os mesmos recursos que a experiência de personalização.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

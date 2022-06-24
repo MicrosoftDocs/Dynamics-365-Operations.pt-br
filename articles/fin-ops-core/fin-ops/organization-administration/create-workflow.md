@@ -1,6 +1,6 @@
 ---
 title: Visão geral de criação de fluxos de trabalho
-description: Este tópico explica como criar um fluxo de trabalho.
+description: Este artigo explica como criar um fluxo de trabalho.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864476"
 ---
 # <a name="create-workflows-overview"></a>Visão geral de criação de fluxos de trabalho
 
@@ -31,7 +31,7 @@ ms.locfileid: "8067949"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tópico explica como criar um fluxo de trabalho.
+Este artigo explica como criar um fluxo de trabalho.
 
 ## <a name="open-the-workflow-editor"></a>Abrir o editor de fluxo de trabalho
 
@@ -56,7 +56,7 @@ Execute as etapas abaixo para configurar as propriedades do fluxo de trabalho.
 
 1. Clique na tela para garantir que nenhum elemento do fluxo de trabalho esteja selecionado.
 2. Clique em **Propriedades** para abrir a página **Propriedades** para o fluxo de trabalho.
-3. Siga os procedimentos no tópico [Configurar propriedades do fluxo de trabalho](configure-workflow-properties.md).
+3. Siga os procedimentos no artigo [Configurar propriedades do fluxo de trabalho](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Configurar os elementos do fluxo de trabalho
 

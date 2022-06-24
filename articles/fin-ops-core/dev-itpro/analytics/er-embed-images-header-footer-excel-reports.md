@@ -1,6 +1,6 @@
 ---
 title: Criar um formato de ER para gerar um relatório no formato Excel com imagens incorporadas em cabeçalhos ou rodapés de página
-description: Este tópico explica como usar Relatórios eletrônicos (ER) para gerar documentos comerciais que têm imagens e formas incorporadas em cabeçalhos ou rodapés de página.
+description: Este artigo explica como usar Relatórios eletrônicos (ER) para gerar documentos comerciais que têm imagens e formas incorporadas em cabeçalhos ou rodapés de página.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854833"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Criar um formato de ER para gerar um relatório no formato Excel com imagens incorporadas em cabeçalhos ou rodapés de página
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico explica como um usuário que tem a função de Administrador do Sistema ou de Consultor Funcional de Relatório Eletrônico pode executar estas tarefas:
+Este artigo explica como um usuário que tem a função de Administrador do Sistema ou de Consultor Funcional de Relatório Eletrônico pode executar estas tarefas:
 
 - Configurar parâmetros para a [estrutura de relatórios eletrônicos (ER)](general-electronic-reporting.md).
 - [Configurações](general-electronic-reporting.md#Configuration) de importação de ER que são [fornecidas](general-electronic-reporting.md#Provider) pela Microsoft e usadas para gerar [faturas de texto livre](../../../finance/accounts-receivable/create-free-text-invoice-new.md), com base em um [modelo](er-fillable-excel.md#excel-file-component) no formato Microsoft Excel.
 - Crie uma versão [personalizada (derivada)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) de uma configuração do formato de ER padrão fornecida pela Microsoft.
 - Modifique a configuração de formato ER personalizado para que ela gere um relatório de fatura de texto livre que tenha uma imagem de logotipo da empresa no rodapé.
 
-Os procedimentos deste tópico podem ser concluídos na empresa **USMF**. Nenhum código é necessário. Antes de começar, baixe e salve o seguinte arquivo:
+Os procedimentos deste artigo podem ser concluídos na empresa **USMF**. Nenhum código é necessário. Antes de começar, baixe e salve o seguinte arquivo:
 
 | descrição        | Nome do arquivo |
 |--------------------|-----------|

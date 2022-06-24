@@ -1,6 +1,6 @@
 ---
 title: Solução de problemas gerais
-description: Este tópico fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse.
+description: Este artigo fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de finanças e operações e o Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853645"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -22,14 +22,14 @@ ms.locfileid: "8614085"
 
 
 
-Este tópico fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse.
+Este artigo fornece informações gerais de solução de problemas para a integração de gravação dupla entre aplicativos de finanças e operações e o Dataverse.
 
 > [!IMPORTANT]
-> Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
+> Alguns dos problemas que este artigo aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite e exiba o log de rastreamento de plug-in no Dataverse para exibir detalhes do erro
 
-Os logs de rastreamento podem ser úteis ao solucionar problemas de sincronização ao vivo de gravação dupla entre Finance & Operations e Dataverse. Os logs podem fornecer detalhes específicos às equipes que oferecem suporte técnico e de engenharia para o Dynamics 365. Este artigo aborda como habilitar logs de rastreamento e como exibi-los. Os logs de rastreamento são gerenciados na página Configurações do Dynamics 365 e exigem privilégios de nível de administrador para alteração e exibição. 
+Os logs de rastreamento podem ser úteis ao solucionar problemas de sincronização ao vivo de gravação dupla entre finanças e operações e o Dataverse. Os logs podem fornecer detalhes específicos às equipes que oferecem suporte técnico e de engenharia para o Dynamics 365. Este artigo aborda como habilitar logs de rastreamento e como exibi-los. Os logs de rastreamento são gerenciados na página Configurações do Dynamics 365 e exigem privilégios de nível de administrador para alteração e exibição. 
 
 **Função necessária para ativar o log de rastreamento e erros de exibição**: administrador do sistema
 
@@ -59,10 +59,10 @@ Você pode copiar o conteúdo dos logs de rastreamento e colá-los em outro apli
 
 **Função necessária para exibir os erros:** administrador do sistema
 
-Os erros de gravação dupla originados no Dataverse podem aparecer no aplicativo de Finanças e Operações. Para habilitar o registro detalhado de erros ao seguir estas etapas:
+Os erros de gravação dupla originados no Dataverse podem aparecer no aplicativo de finanças e operações. Para habilitar o registro detalhado de erros ao seguir estas etapas:
 
-1. Para todas as configurações de projeto em aplicativos de Finanças e Operações, há um sinalizador **IsDebugMode** na tabela **DualWriteProjectConfiguration**.
-2. Abra a tabela **DualWriteProjectConfiguration** usando um suplemento do Excel. Para usar o suplemento, habilite o modo de design no suplemento do Excel no Finance and Operations e adicione o **DualWriteProjectConfiguration** à planilha. Para obter mais informações, consulte [Exibir e atualizar dados da entidade com o Excel](../../office-integration/use-excel-add-in.md).
+1. Para todas as configurações de projeto em aplicativos de finanças e operações, há um sinalizador **IsDebugMode** na tabela **DualWriteProjectConfiguration**.
+2. Abra a tabela **DualWriteProjectConfiguration** usando um suplemento do Excel. Para usar o suplemento, habilite o modo de design no complemento do Excel no Finance and Operations e adicione o **DualWriteProjectConfiguration** à planilha. Para obter mais informações, consulte [Exibir e atualizar dados da entidade com o Excel](../../office-integration/use-excel-add-in.md).
 3. Defina **Isdebugmode** como **Sim** no projeto.
 4. Execute o cenário que está gerando erros.
 5. Os logs detalhados são armazenados na tabela **DualWriteErrorLog**.
@@ -109,11 +109,11 @@ Primeira opção:
 1.  Navegue até Configurações -> Permissões de site -> Cookies e dados do site.
 2.  Desative "Bloquear cookies de terceiros".  
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular e vincular outro ambiente do Dataverse a partir de um aplicativo de Finanças e Operações
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular e vincular outro ambiente do Dataverse a partir de um aplicativo de finanças e operações
 
-**Função necessária para desvincular o ambiente**: administrador do sistema para aplicativo de Finanças e Operações ou o Dataverse.
+**Função necessária para desvincular o ambiente**: administrador do sistema para aplicativo de finanças e operações ou o Dataverse.
 
-1. Entre no aplicativo de Finanças e Operações.
+1. Entre no aplicativo de finanças e operações.
 2. Acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**.
 3. Selecione todos os mapeamentos em execução e selecione **Parar**.
 4. Selecione **Desvincular ambiente**.

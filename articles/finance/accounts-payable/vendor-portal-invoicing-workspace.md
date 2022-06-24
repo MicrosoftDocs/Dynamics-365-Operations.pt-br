@@ -1,6 +1,6 @@
 ---
 title: Espaço de trabalho de faturamento de colaboração do fornecedor
-description: Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho.
+description: Este artigo explica como é possível exibir faturas de fornecedor e enviar faturas no espaço de trabalho Faturamento da colaboração de fornecedores.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1d9415b7118efb06099b775f68ce7ca9fb6673ed
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 9ef4204e0be437b50af047704e07600653c877c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896540"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento de colaboração do fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como podem exibir faturas de fornecedor e enviar faturas no espaço de trabalho **Faturamento da colaboração de fornecedores**.
+Este artigo explica como é possível exibir faturas de fornecedor e enviar faturas no espaço de trabalho **Faturamento da colaboração de fornecedores**.
 
 O espaço de trabalho **Faturamento de colaboração de fornecedor** pode ser usado para exibir informações de fatura de fornecedor e enviar faturas ao sistema usando recursos de fluxo de trabalho.
 

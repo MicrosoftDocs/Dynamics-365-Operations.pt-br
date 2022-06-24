@@ -1,6 +1,6 @@
 ---
 title: Configurar parâmetros compartilhados
-description: Este tópico explica como configurar Parâmetros de recursos humanos entre entidades legais.
+description: Este artigo explica como configurar parâmetros de Recursos humanos entre entidades legais.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c0d8dbca302d90cc402feb4715a6fcc2b935d8b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906172"
 ---
 # <a name="configure-shared-parameters"></a>Configurar parâmetros compartilhados
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Você deve configurar parâmetros compartilhados para os registros compartilhados entre empresas, como registros de **Posição**. Este tópico explica como configurar Parâmetros de recursos humanos entre entidades legais.
+Você deve configurar parâmetros compartilhados para os registros compartilhados entre empresas, como registros de **Posição**. Este artigo explica como configurar parâmetros de Recursos humanos entre entidades legais.
 
 Alguns tipos de registros, como os registros de **Posição**, são compartilhados entre empresas. Para esses registros, é necessário configurar parâmetros compartilhados. Por exemplo, a página **Parâmetros compartilhados de recursos humanos** é usada para configurar parâmetros de recursos humanos entre entidades legais. 
 

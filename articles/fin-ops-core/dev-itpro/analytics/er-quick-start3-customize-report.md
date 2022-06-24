@@ -1,6 +1,6 @@
 ---
 title: Personalizar configurações do relatório eletrônico para gerar um documento eletrônico
-description: Este tópico explica como personalizar as configurações do relatório eletrônico (ER) fornecido pela Microsoft usadas para gerar um documento eletrônico personalizado.
+description: Este artigo explica como personalizar as configurações do relatório eletrônico (ER) fornecido pela Microsoft usadas para gerar um documento eletrônico personalizado.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854688"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personalizar configurações do relatório eletrônico para gerar um documento eletrônico
 
@@ -30,11 +30,11 @@ ms.locfileid: "8661648"
 
 A [estrutura do relatório eletrônico (ER)](general-electronic-reporting.md) permite carregar as [configurações](general-electronic-reporting.md#Configuration) do ER que a Microsoft fornece na instância do Microsoft Dynamics 365 Finance. Dessa forma, as configurações fornecidas pela Microsoft podem servir como a solução de ER usada para gerar faturas eletrônicas de clientes. É possível usar essa solução de ER para configurar a sua solução de ER para acessar os campos do banco de dados personalizado e gerar faturas eletrônicas de acordo com suas necessidades específicas, sem precisar editar o código-fonte.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
-No exemplo deste tópico, é necessário especificar um código de identificação de imposto federal como um novo atributo personalizado de cada cliente que você faturar eletronicamente. Portanto, é necessário personalizar a estrutura da fatura usada atualmente, adicionando um novo item que deve ser preenchido com o código de imposto em cada fatura eletrônica gerada.
+No exemplo deste artigo, é necessário especificar um código de identificação de imposto federal como um novo atributo personalizado de cada cliente que você faturar eletronicamente. Portanto, é necessário personalizar a estrutura da fatura usada atualmente, adicionando um novo item que deve ser preenchido com o código de imposto em cada fatura eletrônica gerada.
 
-Os procedimentos descritos neste tópico explicam como um usuário que tem a função de Administrador do Sistema, Desenvolvedor de Relatórios Eletrônicos ou de Consultor Funcional de Relatório Eletrônico pode executar as seguintes tarefas na instância do Finance:
+Os procedimentos descritos neste artigo explicam como um usuário que tem a função de Administrador do Sistema, Desenvolvedor de Relatórios Eletrônicos ou de Consultor Funcional de Relatório Eletrônico pode executar as seguintes tarefas na instância do Finance:
 
 - [Configurar o conjunto mínimo de parâmetros de ER necessários para iniciar o uso da estrutura de ER](#ConfigureER).
 - [Importar as versões iniciais das configurações de ER padrão fornecidas para gerar faturas eletrônicas](#ImportERConfigurations1).

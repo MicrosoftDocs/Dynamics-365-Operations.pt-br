@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877675"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Restringir a edição de informações pessoais
 
@@ -29,7 +29,7 @@ ms.locfileid: "8695862"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-Este tópico descreve como restringir a edição de detalhes do contato por funcionários no Dynamics 365 Human Resources. Talvez você queira evitar que os funcionários editem certos detalhes do contato, como local de negócios ou endereço de email.
+Este artigo descreve como restringir a edição de detalhes do contato por funcionários no Dynamics 365 Human Resources. Talvez você queira evitar que os funcionários editem certos detalhes do contato, como local de negócios ou endereço de email.
 
 > [!NOTE]
 > Para usar esse recurso, você deve primeiro habilitar **(Versão preliminar) Restringir a adição ou edição de informações de endereço e contato por funcionários para fins de seleção** no Gerenciamento de recursos. Para obter mais informações sobre como habilitar os recursos de visualização, consulte [Gerenciar recursos](hr-admin-manage-features.md).<br><br>![Habilitar recursos de visualização.](./media/hr-employee-self-service-restrict-enable.png)

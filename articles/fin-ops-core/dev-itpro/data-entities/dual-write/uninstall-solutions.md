@@ -1,6 +1,6 @@
 ---
 title: Desinstalar soluções de orquestração de aplicativos com gravação dupla
-description: Este tópico descreve como desinstalar as soluções de orquestração de aplicativos com gravação dupla.
+description: Este artigo descreve como desinstalar as soluções de orquestração de aplicativos com gravação dupla.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2022-01-21
-ms.openlocfilehash: 781b2cb19a563d5712fa65718c93bfdc242f0c4a
-ms.sourcegitcommit: abfaef124c8747827d6f297821f01f1f6fbca6b7
+ms.openlocfilehash: 676802ddabac69db4947cf806e9103f67cece3de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870364"
 ---
 # <a name="uninstall-dual-write-application-orchestration-solutions"></a>Desinstalar soluções de orquestração de aplicativos com gravação dupla
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como desinstalar as soluções de orquestração de aplicativos com gravação dupla.
+Este artigo descreve como desinstalar as soluções de orquestração de aplicativos com gravação dupla.
 
 Alguns clientes instalam acidentalmente o pacote de orquestração de aplicativos com gravação dupla que instala várias soluções no ambiente do Microsoft Dataverse. A instalação das soluções estranhas no pacote pode causar problemas inesperados e indesejados.
 

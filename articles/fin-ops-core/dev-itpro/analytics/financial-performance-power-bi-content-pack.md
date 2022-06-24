@@ -1,6 +1,6 @@
 ---
 title: Solução de desempenho financeiro do PowerBI.com
-description: Este tópico descreve a solução de desempenho financeiro do PowerBI.com.
+description: Este artigo descreve a solução de desempenho financeiro do PowerBI.com.
 author: kweekley
 ms.date: 05/09/2018
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910405"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solução de desempenho financeiro do PowerBI.com
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Esta solução do PowerBI.com foi preterida, como documentado em [Recursos removidos ou preteridos do Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Esta solução de PowerBI.com foi substituída como documentado em [Recursos removidos ou preteridos do Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Este tópico descreve a solução de **Desempenho financeiro** do PowerBI.com. Ele descreve o painel e os relatórios incluídos, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar a solução.
+Este artigo descreve a solução de **desempenho financeiro** do PowerBI.com. Ele descreve o painel e os relatórios incluídos, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar a solução.
 
 ## <a name="main-account-setup"></a>Configuração da conta principal
 Como as organizações querem que os valores de passivos e receitas apareçam como valores positivos nos relatórios, é importante a instalação de contas principais. Para que as contas principais apareçam como os valores positivos, o tipo de conta principal deve ser definido como **Passivo** ou **Receita**. Quando esses tipos de conta forem usados, os relatórios no Power BI reverterão os sinais e mostrarão os valores como positivos.

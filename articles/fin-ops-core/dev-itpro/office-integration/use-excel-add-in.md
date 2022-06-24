@@ -1,6 +1,6 @@
 ---
 title: Exibir e atualizar dados da entidade com o Excel
-description: Este tópico explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics.
+description: Este artigo explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics.
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862145"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Exibir e atualizar dados da entidade com o Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762615"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Este tópico explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics. Para abrir os dados da entidade, você pode iniciar pelo Excel ou pelos aplicativos de Finanças e Operações.
+Este artigo explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics. Para abrir os dados da entidade, você pode iniciar pelo Excel ou pelos aplicativos de Finanças e Operações.
 
 Ao abrir os dados da entidade no Excel, é possível visualizar e editar facilmente os dados utilizando o suplemento do Excel. Esse suplemento requer o Microsoft Excel 2016 ou posterior.
 

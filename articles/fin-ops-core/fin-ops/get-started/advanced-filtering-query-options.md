@@ -1,6 +1,6 @@
 ---
-title: Sintaxe avançada de filtragem e consulta
-description: Este tópico descreve as opções de filtragem e consulta para a caixa de diálogo Filtro/Classificação Avançada e o operador correspondências no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
+title: Opções avançadas de filtragem e sintaxe de consulta
+description: Este artigo descreve as opções de filtragem e consulta para a caixa de diálogo Filtro/Classificação Avançada e o operador correspondências no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
 author: jasongre
 ms.date: 03/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856908"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintaxe avançada de filtragem e consulta
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070000"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tópico descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador **correspondências** no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
+Este artigo descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador **correspondências** no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
 
 ## <a name="advanced-query-syntax"></a>Sintaxe de consulta avançada
 

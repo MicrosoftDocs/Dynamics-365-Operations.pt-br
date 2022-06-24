@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources 22 de outubro de 2020
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 22 de outubro de 2020.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 22 de outubro de 2020.
 author: jcart1106
 ms.date: 10/22/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862791"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources 22 de outubro de 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8063509"
 
 
 
-Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
+Este artigo descreve os recursos novos, alterados ou que serão lançados em breve no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
 Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -50,9 +50,9 @@ Os seguintes recursos estão geralmente disponíveis nesta versão.
 As seguintes correções de bug estão incluídas nessa versão.
 
 > [!NOTE]
-> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este tópico para incluir correções de bugs feitas no build após a publicação inicial deste tópico.
+> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este artigo para incluir correções de bugs feitas no build após a publicação inicial deste artigo.
 
-| Número do problema| Problema  | descrição|
+| Número do problema| Problema  | Descrição|
 | --- | --- | --- |
 | 437922 | A importação de horas de FMLA usando a entidade DMF resulta em um erro somente leitura. | O uso da entidade Horas de FMLA para importar horas associadas a um caso de FMLA falhou. Adicionamos lógica para garantir que as horas importadas não ultrapassem as horas restantes para o caso. |
 | 512019 | Valor incorreto de **Último postergar**. | Na página **Folga**, a alteração de **A partir da data** para o primeiro dia do próximo período fiscal exibiu um valor de **Último postergar** para o tipo **Licença anual**. Agora ele exibe o valor correto. |

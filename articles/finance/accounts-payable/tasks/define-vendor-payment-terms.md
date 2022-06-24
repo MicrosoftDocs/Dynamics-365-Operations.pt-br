@@ -1,6 +1,6 @@
 ---
 title: Definir condições de pagamento de fornecedor
-description: Este tópico explica como configurar condições de pagamento para faturas de fornecedor.
+description: Este artigo explica como configurar condições de pagamento para faturas de fornecedor.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2199c12e92d631d3eb058637c48b53335d779f2d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: a676856ed43bf1b78684eac0682e0fdef9c84083
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906461"
 ---
 # <a name="define-vendor-payment-terms"></a>Definir condições de pagamento de fornecedor
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como configurar condições de pagamento para faturas de fornecedor. Esta tarefa usa a empresa de demonstração USMF.
+Este artigo explica como configurar condições de pagamento para faturas de fornecedor. Esta tarefa usa a empresa de demonstração USMF.
 
 1. Acesse **Painel de navegação > Módulos > Contas a pagar > Configuração de pagamento > Condições de pagamento**.
 2. Selecione **Novo**. A página **Condições de pagamento** é usada para definir como a data de vencimento será calculada. Não é usada para definir como a data de desconto à vista será calculada.  

@@ -1,6 +1,6 @@
 ---
 title: Configurar sequências numéricas individualmente
-description: Este tópico explica como configurar sequências numéricas individualmente.
+description: Este artigo explica como configurar sequências numéricas individualmente.
 author: SunilGarg
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b95a639c593c0f126a9aa1dd50434838d09ef746
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 7be72d348957c5c6494958276b2baa9c67d63c58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904978"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Configurar sequências numéricas individualmente
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como configurar sequências numéricas individualmente. Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem. Um registro de transação ou de dados mestres que exige um identificador é conhecido como referência. Antes de criar novos registros para referência, é necessário configurar uma sequência numérica e associá-la à referência. É possível configurar todas as sequências numéricas necessárias ao mesmo tempo, usando o assistente **Configurar sequências numéricas**, ou você pode criar ou modificar sequências de número individuais usando a página **Sequências numéricas**.
+Este artigo explica como configurar sequências numéricas individualmente. Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem. Um registro de transação ou de dados mestres que exige um identificador é conhecido como referência. Antes de criar novos registros para referência, é necessário configurar uma sequência numérica e associá-la à referência. É possível configurar todas as sequências numéricas necessárias ao mesmo tempo, usando o assistente **Configurar sequências numéricas**, ou você pode criar ou modificar sequências de número individuais usando a página **Sequências numéricas**.
 
 1. Acesse **Painel de navegação > Módulos > Administração da organização > Sequências numéricas > Sequências numéricas**.
 2. Selecionar **Sequência numérica**.

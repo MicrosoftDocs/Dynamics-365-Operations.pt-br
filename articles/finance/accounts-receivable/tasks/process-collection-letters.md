@@ -1,6 +1,6 @@
 ---
 title: Processar cartas de cobrança
-description: Este tópico mostra como criar, imprimir e lançar cartas de cobrança.
+description: Este artigo mostra como criar, imprimir e lançar cartas de cobrança.
 author: ShivamPandey-msft
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 005ed8fcb6c3c6f985f1cfa9c0a78675173fb208
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: fbca4acf30e2c58d8bb615d659b883b574a12aa7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909117"
 ---
 # <a name="process-collection-letters"></a>Processar cartas de cobrança
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico mostra como criar, imprimir e lançar cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
+Este artigo mostra como criar, imprimir e lançar cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
 
 ## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>Configurar uma sequência de carta de cobrança no perfil de lançamento
 1. Acesse **Painel de navegação > Módulos > Crédito e coleções > Configuração > Perfis de lançamentos de cliente**.

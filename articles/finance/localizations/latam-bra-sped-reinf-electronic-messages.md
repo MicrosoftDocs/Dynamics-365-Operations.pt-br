@@ -1,6 +1,6 @@
 ---
 title: Definir mensagens eletrônicas para eventos do SPED-Reinf
-description: Este tópico explica como configurar mensagens eletrônicas para eventos SPED-Reinf para o Brasil.
+description: Este artigo explica como configurar mensagens eletrônicas para eventos SPED-Reinf para o Brasil.
 author: sndray
 ms.date: 04/09/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a2ffa73613bd90438b5b59a0f9da906b4bf118c77e2e82a387a0ebfec76f2b16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d38637a0b368b476dd816df6e0b5f1549d935a99
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879460"
 ---
 # <a name="set-up-electronic-messages-for-sped-reinf-events"></a>Definir mensagens eletrônicas para eventos do SPED-Reinf
 

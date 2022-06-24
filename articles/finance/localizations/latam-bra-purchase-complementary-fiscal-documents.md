@@ -1,6 +1,6 @@
 ---
 title: Notas fiscais de compra complementares do Brasil
-description: Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira.
+description: Este artigo descreve o conceito de uma fatura complementar de compras da localização brasileira.
 author: sndray
 ms.date: 08/08/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8febea89364f2c1f2dd37b8a2801d56489a612818b88244472dc97710d1f3a05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 137e2b96479a6a9f3347266fc1a73182ea55a254
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908912"
 ---
 # <a name="purchase-complementary-fiscal-documents-for-brazil"></a>Notas fiscais de compra complementares do Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira.
+Este artigo descreve o conceito de uma fatura complementar de compras da localização brasileira.
 
 ## <a name="overview"></a>Visão Geral
 

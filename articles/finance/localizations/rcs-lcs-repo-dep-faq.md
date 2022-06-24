@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - Suspensão do armazenamento do Lifecycle Services (LCS)
-description: Este tópico fornece informações sobre a suspensão do armazenamento do Microsoft Dynamics Lifecycle Services (LCS) que foi planejada como parte da distribuição do repositório global do Regulatory Configuration Service (RCS).
+description: Este artigo fornece informações sobre a suspensão do armazenamento do Microsoft Dynamics Lifecycle Services (LCS) que foi planejada como parte da distribuição do repositório global do Regulatory Configuration Service (RCS).
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849721"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) - Suspensão do armazenamento do Lifecycle Services (LCS)
 
@@ -85,7 +85,7 @@ O RCS usa o conceito de um *aplicativo conectado*. Um aplicativo conectado forma
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Há outros exemplos que mostram a configuração e o gerenciamento?
 
-Não há exemplos, mas você pode concluir as etapas mencionadas neste tópico para migrar suas configurações para o repositório Global do RCS.
+Não há exemplos, mas você pode concluir as etapas mencionadas neste artigo para migrar suas configurações para o repositório Global do RCS.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>O RCS é um pré-requisito para configurar Relatórios eletrônicos?
 

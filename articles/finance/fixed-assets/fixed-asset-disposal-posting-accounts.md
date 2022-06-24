@@ -1,6 +1,6 @@
 ---
 title: Contas de lançamento de alienação de ativo fixo
-description: Este tópico explica como configurar contas de lançamento de Contabilidade para descartar ativos.
+description: Este artigo explica como configurar contas de lançamento de contabilidade para descartar ativos.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8501bbb0fc47fb52e100d9086054db4831dae178
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1272cdb16396d24b5495f023e7b9fe3dee341507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871323"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>Contas de lançamento de alienação de ativo fixo
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar contas de lançamento de Contabilidade ao descartar ativos.
+Este artigo explica como configurar contas de lançamento de Contabilidade ao descartar ativos.
 
 Para configurar as contas de lançamento de Contabilidade para uso quando estiver descartando um ativo, selecione **Descarte - venda** e **Descarte - sucateamento** nas guias rápidas **Contas contábeis** na página **Perfis de lançamento de ativos fixos**.
 

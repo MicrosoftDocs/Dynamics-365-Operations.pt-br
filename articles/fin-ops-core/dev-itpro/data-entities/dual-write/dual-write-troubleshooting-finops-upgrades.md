@@ -1,6 +1,6 @@
 ---
-title: Solucionar problemas de atualizações de aplicativos do Finance and Operations
-description: Este tópico fornece informações sobre como solucionar problemas relativos a atualizações de aplicativos de Finanças e Operações.
+title: Solucionar problemas de atualizações de aplicativos de finanças e operações
+description: Este artigo fornece informações sobre como solucionar problemas relativos a atualizações de aplicativos de finanças e operações.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 954268b03be2be90f67dc9b7756f33215856864a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882132"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas de atualizações de aplicativos do Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas de atualizações de aplicativos de finanças e operações
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,16 +24,16 @@ ms.locfileid: "8062816"
 
 
 
-Este tópico fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas relativos a atualizações de aplicativos de Finanças e Operações.
+Este artigo fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de finanças e operações e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas relativos a atualizações de aplicativos de finanças e operações.
 
 > [!IMPORTANT]
-> Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
+> Alguns dos problemas que este artigo aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
 
 ## <a name="database-synchronization-errors"></a>Sincronização de erros de banco de dados
 
 **Função necessária para corrigir o problema:** administrador do sistema
 
-Você pode receber uma mensagem de erro semelhante à seguinte ao tentar usar a tabela **DualWriteProjectConfiguration** para atualizar um aplicativo de Finanças e Operações para atualização de plataforma 30.
+Você pode receber uma mensagem de erro semelhante à seguinte ao tentar usar a tabela **DualWriteProjectConfiguration** para atualizar um aplicativo de finanças e operações para atualização de plataforma 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -43,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 Para corrigir o problema, siga estas etapas.
 
-1. Entre na máquina virtual (VM) para o aplicativo de Finanças e Operações.
+1. Entre na máquina virtual (VM) para o aplicativo de finanças e operações.
 2. Abra Visual Studio como um administrador e abra a AOT (árvore de objetos de aplicativo).
 3. Procure **DualWriteProjectConfiguration**.
 4. No AOT, clique com o botão direito em **DualWriteProjectConfiguration** e selecione **Adicionar ao novo projeto**. Selecione **OK** para criar o novo projeto que usa opções padrão.
@@ -67,7 +67,7 @@ Para corrigir o problema, primeiro siga estas etapas para verificar se as coluna
 
 1. Entre na VM para o aplicativo de Finanças e Operações.
 2. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione o bloco **Parâmetros de estrutura** e, em seguida, na guia **Configurações da tabela**, selecione **Atualizar lista de tabelas** para atualizar as tabelas.
-3. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione a guia **Tabelas de dados** e certifique-se de que a tabela esteja listada. Se a tabela não estiver listada, entre na VM para o aplicativo de Finanças e Operações e certifique-se de que a tabela esteja disponível.
+3. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione a guia **Tabelas de dados** e certifique-se de que a tabela esteja listada. Se a tabela não estiver listada, entre na VM para o aplicativo de finanças e operações e certifique-se de que a tabela esteja disponível.
 4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo de Finanças e Operações.
 5. Selecione **Atualizar lista de tabelas** para preencher automaticamente as colunas nos mapeamentos de tabela.
 

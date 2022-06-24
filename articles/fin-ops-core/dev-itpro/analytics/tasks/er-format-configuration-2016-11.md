@@ -1,6 +1,6 @@
 ---
 title: ER Criar uma configuração de formato (Novembro de 2016)
-description: Este tópico explica como criar uma configuração de formato para relatórios eletrônicos (ER).
+description: Este artigo explica como criar uma configuração de formato para relatórios eletrônicos (ER).
 author: NickSelin
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902644"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Criar uma configuração de formato (Novembro de 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de formato para Relatório eletrônico (RE). Esta configuração de formato irá definir o formato de documentos eletrônicos que são usados para processar pagamentos. Neste exemplo, você criará uma configuração de formato para a empresa de exemplo, Litware, Inc. Para concluir essas etapas, você deve primeiro concluir as etapas no procedimento "Mapear modelo para as fontes de dados selecionadas".
+Este artigo explica como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de formato para Relatório eletrônico (ER). Esta configuração de formato irá definir o formato de documentos eletrônicos que são usados para processar pagamentos. Neste exemplo, você criará uma configuração de formato para a empresa de exemplo, Litware, Inc. Para concluir essas etapas, você deve primeiro concluir as etapas no procedimento "Mapear modelo para as fontes de dados selecionadas".
 
 
 ## <a name="create-a-new-format-configuration"></a>Criar uma nova configuração de formato

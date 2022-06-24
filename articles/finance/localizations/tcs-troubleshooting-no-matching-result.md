@@ -1,6 +1,6 @@
 ---
-title: Não foi possível encontrar nenhum resultado correspondente
-description: Este tópico explica como solucionar o erro "Não foi possível encontrar nenhum resultado correspondente" no serviço Cálculo de Imposto.
+title: Nenhum resultado correspondente encontrado
+description: Este artigo explica como solucionar o erro "Não foi possível encontrar nenhum resultado correspondente" no serviço Cálculo de Imposto.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: c1a343b0b74645d40b0a2582749968cc0a56afd7
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: d3bbc76741fdd018d1b2987538b8de7f6d92ee53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845134"
 ---
-# <a name="no-matching-result-could-be-found"></a>Não foi possível encontrar nenhum resultado correspondente
+# <a name="no-matching-result-could-be-found"></a>Nenhum resultado correspondente encontrado
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica as etapas de solução de problemas que podem ser executadas se você receber um erro "Não foi possível encontrar nenhum resultado correspondente" no serviço Cálculo de Imposto.
+Este artigo explica as etapas de solução de problemas que podem ser executadas se você receber um erro "Não foi possível encontrar nenhum resultado correspondente" no serviço Cálculo de Imposto.
 
 ## <a name="symptom"></a>Sintoma
 

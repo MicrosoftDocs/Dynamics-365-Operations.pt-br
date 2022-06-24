@@ -1,6 +1,6 @@
 ---
-title: Recalcular custos de substituição e valores segurados para grupos de ativos fixos
-description: Este tópico explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
+title: Recalcular os custos e valores segurados para grupos de ativos fixos
+description: Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
 author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e01e0241117dc69cafb67aeb3f1d10249fe143a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3b461438ca3fef36e69100379e84f4c0d402e53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853457"
 ---
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalcular custos de substituição e valores segurados para grupos de ativos fixos
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalcular os custos e valores segurados para grupos de ativos fixos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
+Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
 
 Periodicamente, você pode ser notificado que o custo para substituir ou segurar ativos fixos específicos foi alterado. Por exemplo, seu gerente pode informar que a inflação foi de 3 por cento no ano passado, então você terá de aumentar o custo de substituição em 3 por cento para todos os ativos fixos. 
 

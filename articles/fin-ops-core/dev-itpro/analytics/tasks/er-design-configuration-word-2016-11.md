@@ -1,6 +1,6 @@
 ---
 title: Reutilizar configurações de ER com modelos do Excel para gerar relatórios no formatos Word
-description: Este tópico descreve como os formatos de relatório criados para gerar relatórios como pastas de trabalho do Excel podem ser configurados para gerar relatórios como documentos do Word.
+description: Este artigo descreve como os formatos de relatório criados para gerar relatórios como pastas de trabalho do Excel podem ser configurados para gerar relatórios como documentos do Word.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910376"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Reutilizar configurações de ER com modelos do Excel para gerar relatórios no formatos Word
 
@@ -43,7 +43,7 @@ Esses procedimentos são para um recurso que foi adicionado no Dynamics 365 for 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Selecionar a configuração de relatório de ER existente
 
-1. No Dynamics 365 Finance, Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. No Dynamics 365 Finance, acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Verifique se o provedor de configuração **Litware, Inc.** está selecionado como **Ativo**. Se não estiver, siga as etapas no guia de tarefas [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
 3. Selecione **Configurações de relatórios**. Você reutilizará a configuração de ER existente que foi criada para gerar a saída de relatório no formato OPENXML.
 4. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento** e selecione **Exemplo de relatório de planilha**.

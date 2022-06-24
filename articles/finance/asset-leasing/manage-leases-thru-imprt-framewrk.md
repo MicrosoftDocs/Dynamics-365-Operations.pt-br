@@ -1,6 +1,6 @@
 ---
 title: Gerenciar arrendamentos por meio da estrutura de importação de arrendamento
-description: Este tópico explica como usar a Estrutura de importação de arrendamento para ajustar vários arrendamentos ao mesmo tempo.
+description: Este artigo explica como usar a Estrutura de importação de arrendamento para ajustar vários arrendamentos ao mesmo tempo.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8cf81ccf61e62ac49e6cb90d13ca5fe50147cc76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894954"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Gerenciar arrendamentos por meio da estrutura de importação de arrendamento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como usar a Estrutura de importação de arrendamento para ajustar vários arrendamentos em uma etapa. Ao usar esse recurso, você poderá poupar tempo e também garantir ajustes mais precisos, reduzindo a probabilidade de erro humano. Além disso, esse recurso pode conectar o Microsoft Dynamics 365 Finance a entidades de dados externas para carregar dados com eficiência.
+Este artigo explica como usar a Estrutura de importação de arrendamento para ajustar vários arrendamentos em uma etapa. Ao usar esse recurso, você poderá poupar tempo e também garantir ajustes mais precisos, reduzindo a probabilidade de erro humano. Além disso, esse recurso pode conectar o Microsoft Dynamics 365 Finance a entidades de dados externas para carregar dados com eficiência.
 
 As seguintes entidades de dados podem ser usadas para integrar o Arrendamento de ativos a sistemas externos:
 

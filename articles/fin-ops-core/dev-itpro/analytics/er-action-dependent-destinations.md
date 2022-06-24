@@ -1,6 +1,6 @@
 ---
 title: Configurar destinos de ER dependentes da ação
-description: Este tópico explica como configurar destinos dependentes da ação para um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída.
+description: Este artigo explica como configurar destinos dependentes da ação para um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída.
 author: NickSelin
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: b7dfd92fd9e256298c13dcbde4b6da3f07d250d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876824"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de ER dependentes da ação
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323970"
 
 Você pode configurar [destinos](electronic-reporting-destinations.md) para cada componente de saída (pasta ou arquivo) de uma [configuração](general-electronic-reporting.md#Configuration) de formato de [Relatório Eletrônico (ER)](general-electronic-reporting.md) usada para gerar um documento de saída. Os usuários que executam um formato de ER deste tipo e que têm direitos de acesso apropriados também podem alterar as configurações de destino configuradas no tempo de execução.
 
-No Microsoft Dynamics 365 Finance **versão 10.0.17 e posterior**, um formato de ER pode ser executado ao [provisionar](er-apis-app10-0-17.md) um código de ação executado pelo usuário executando o formato de ER. Por exemplo, no módulo **Contas a receber**, nas configurações de gerenciamento de impressão, você pode selecionar um formato de ER que gera um documento comercial específico, como uma fatura de texto livre. Em seguida, você poderá selecionar **Exibir** para exibir a fatura ou a **Impressão** e enviá-la para uma impressora. Se uma ação do usuário for aprovada para o formato de ER em execução no tempo de execução, você poderá configurar diferentes destinos de ER para diferentes ações do usuário. Este tópico explica como configurar destinos de ER para este tipo de formato de ER.
+No Microsoft Microsoft Dynamics 365 Finance **versão 10.0.17 e posterior**, um formato de ER pode ser executado ao [provisionar](er-apis-app10-0-17.md) um código de ação executado pelo usuário executando o formato de ER. Por exemplo, no módulo **Contas a receber**, nas configurações de gerenciamento de impressão, você pode selecionar um formato de ER que gera um documento comercial específico, como uma fatura de texto livre. Em seguida, você poderá selecionar **Exibir** para exibir a fatura ou a **Impressão** e enviá-la para uma impressora. Se uma ação do usuário for aprovada para o formato de ER em execução no tempo de execução, você poderá configurar diferentes destinos de ER para diferentes ações do usuário. Este artigo explica como configurar destinos de ER para este tipo de formato de ER.
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Disponibilizar destinos de ER dependentes da ação
 
@@ -82,7 +82,7 @@ A ilustração a seguir mostra como é possível obter o mesmo resultado configu
 
 Quando um formato de ER é executado, se as ações do usuário foram provisionadas pelos usuários que têm as [permissões apropriadas](electronic-reporting-destinations.md#security-considerations) para alterar as configurações de destino configuradas no runtime, uma caixa de diálogo será exibida, oferecendo a opção de alterar as configurações de destino definidas. Esta caixa de diálogo é opcional e sua aparência depende de como foi implementada a chamada que a estrutura de ER faz para executar um formato de ER. Se esta caixa de diálogo for exibida, os destinos de ER nela serão habilitados de acordo com a ação do usuário fornecida.
 
-A ilustração a seguir mostra um exemplo da caixa de diálogo **Destinos de formato de relatório eletrônico** que aparece quando uma fatura de texto livre é [lançada](../../../finance/accounts-receivable/create-free-text-invoice-new.md) e o formato **Fatura de texto livre (Excel)** é executado para gerar este documento, caso a ação **Impressora** tenha sido configurada e os destinos de ER tenham sido definidos para esse formato, conforme mostrado anteriormente neste tópico.
+A ilustração a seguir mostra um exemplo da caixa de diálogo **Destinos de formato de relatório eletrônico** que aparece quando uma fatura de texto livre é [lançada](../../../finance/accounts-receivable/create-free-text-invoice-new.md) e o formato **Fatura de texto livre (Excel)** é executado para gerar este documento, caso a ação **Impressora** tenha sido configurada e os destinos de ER tenham sido definidos para esse formato, conforme mostrado anteriormente neste artigo.
 
 ![Caixa de diálogo que dá a opção de alterar os destinos de ER configurados iniciais para o formato de ER em execução.](./media/er-destination-action-dependent-02.gif)
 

@@ -1,6 +1,6 @@
 ---
 title: Agenda de índice de preços ao consumidor
-description: Este tópico explica como criar a lista de agendas de índice de preços do consumidor (IDC) obtidas na Internet para ajudar a determinar o encargo de escalonamento na cobrança de assinatura.
+description: Este artigo explica como criar a lista de agendas de índice de preços do consumidor (IDC) obtidas na Internet para ajudar a determinar o encargo de escalonamento na cobrança de assinatura.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f08b79ee00baab3713d9ccc24a7595b1de7a7768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904863"
 ---
 # <a name="consumer-price-index-schedule"></a>Agenda de índice de preços ao consumidor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como criar, excluir, revisar e processar agendas de índices de preço do consumidor (IDC). Uma agenda de IDC pode ser usada para determinar os preços de bens de consumo e serviços que você adiciona como linhas de plano de cobrança. A agenda de IDC pode ser usada com a definição de preços de escalonamento e de descontos em uma programação de cobrança ou pode ser processada manualmente para atualizar os valores de cobrança nos planos de cobrança. Você pode inserir manualmente agendas de IDC ou importá-las usando a entidade composta de agenda de IDC.
+Este artigo explica como criar, excluir, revisar e processar agendas de índices de preço do consumidor (IDC). Uma agenda de IDC pode ser usada para determinar os preços de bens de consumo e serviços que você adiciona como linhas de plano de cobrança. A agenda de IDC pode ser usada com a definição de preços de escalonamento e de descontos em uma programação de cobrança ou pode ser processada manualmente para atualizar os valores de cobrança nos planos de cobrança. Você pode inserir manualmente agendas de IDC ou importá-las usando a entidade composta de agenda de IDC.
 
 Para adicionar uma agenda de IDC, siga estas etapas.
 

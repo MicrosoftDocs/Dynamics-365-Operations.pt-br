@@ -1,6 +1,6 @@
 ---
 title: Registro adiado de documentos NFC-e emitidos no modo de contingência offline
-description: Este tópico dá uma visão geral da funcionalidade para o registro adiado de documentos NFC-e que são emitidos no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce no modo de contingência.
+description: Este artigo dá uma visão geral da funcionalidade para o registro adiado de documentos NFC-e que são emitidos no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce no modo de contingência.
 author: akviklis
 manager: annbe
 ms.date: 06/10/2021
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9d82d5c7b9db0eecddf3fc0d8872bae184e7d93
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: e33be017b6459c67c73348b4ad58c3a45a521b54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903637"
 ---
 # <a name="postponed-registration-of-nfc-e-documents-issued-in-offline-contingency-mode"></a>Registro adiado de documentos NFC-e emitidos no modo de contingência offline
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico dá uma visão geral da funcionalidade para o registro adiado de documentos NFC-e (Nota Fiscal do Consumidor eletrônica) que são emitidos no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce no modo de contingência.
+Este artigo dá uma visão geral da funcionalidade para o registro adiado de documentos NFC-e (Nota Fiscal do Consumidor eletrônica) que são emitidos no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce no modo de contingência.
 
 O modo de contingência offline NFC-e deve ser usado quando a conexão à Internet de uma loja não estiver disponível, ou quando o serviço de autorização da SEFAZ (Secretaria de Estado de Fazenda) estiver desativado. No modo de contingência offline, o PDV gera documentos NFC-e localmente. Esses documentos são encaminhados à SEFAZ posteriormente.
 

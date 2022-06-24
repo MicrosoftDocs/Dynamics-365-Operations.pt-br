@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fec85e63b0c3c2875a153c55b1fd30a2c55d5fd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0bea974750a6ac62d8ddeea5d9d4457f4846cb79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891628"
 ---
 # <a name="set-up-sepa-direct-debit-mandate"></a>Configurar carta de ordem de débito direto SEPA
 
 [!include [banner](../includes/banner.md)]
 
-Um débito direto de SEPA (Área Única de Pagamentos em Euros) permite que um credor colete fundos da conta bancária de um cliente, desde que um mandato assinado tenha sido concedido pelo cliente ao credor. O cliente assina um mandato que autoriza o credor a cobrar um pagamento e a instruir o banco do cliente para pagar a cobrança. Este tópico está organizado para mostrar o processo de criação de mandatos de débito direto da SEPA.
+Um débito direto de SEPA (Área Única de Pagamentos em Euros) permite que um credor colete fundos da conta bancária de um cliente, desde que um mandato assinado tenha sido concedido pelo cliente ao credor. O cliente assina um mandato que autoriza o credor a cobrar um pagamento e a instruir o banco do cliente para pagar a cobrança. Este artigo está organizado para mostrar o processo de criação de mandatos de débito direto da SEPA.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes de começar.

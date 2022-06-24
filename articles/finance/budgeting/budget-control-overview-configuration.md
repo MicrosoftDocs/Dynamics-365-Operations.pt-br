@@ -1,6 +1,6 @@
 ---
 title: Visão geral de controle de orçamento
-description: Este tópico apresenta um recurso de controle de orçamento e oferece informações para ajudar você a configurar o controle de orçamento para otimizar o gerenciamento dos recursos financeiros da organização.
+description: Este artigo apresenta um recurso de controle de orçamento e oferece informações para ajudar você a configurar o controle de orçamento para otimizar o gerenciamento de recursos financeiros da organização.
 author: panolte
 ms.date: 03/28/2022
 ms.topic: overview
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36ecacc621b4ecb8cc71e42b7a306c4494f625a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 27eb31919937e7f43a785616b547e3d6952eaaf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711254"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898288"
 ---
 # <a name="budget-control-overview"></a>Visão geral de controle de orçamento
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico apresenta um recurso de controle de orçamento e oferece informações para ajudar você a configurar o controle de orçamento para otimizar o gerenciamento dos recursos financeiros da organização.
+Este artigo apresenta um recurso de controle de orçamento e oferece informações para ajudar você a configurar o controle de orçamento para otimizar o gerenciamento de recursos financeiros da organização.
 
 O controle de orçamento oferece suporte ao gerenciamento dos recursos financeiros de uma organização por meio do plano de contas, de fluxos de trabalho, grupos de usuários, documentos de origem e diários, cálculo configurável de fundos disponíveis, ciclos orçamentários e limites. Quando os controles estão em vigor, uma organização pode planejar, medir, gerenciar e prever os recursos financeiros ao longo do ano fiscal. 
 

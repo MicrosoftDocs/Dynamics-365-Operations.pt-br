@@ -1,6 +1,6 @@
 ---
 title: Gerar demonstrativos financeiros consolidados
-description: Este tópico descreve os vários cenários em que você pode gerar demonstrativos financeiros consolidados.
+description: Este artigo descreve os vários cenários em que você pode gerar demonstrativos financeiros consolidados.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846789"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Gerar demonstrativos financeiros consolidados
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os vários cenários em que você pode gerar demonstrativos financeiros consolidados.
+Este artigo descreve os vários cenários em que você pode gerar demonstrativos financeiros consolidados.
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>Consolidações de nível único e de vários níveis em entidades legais
 O método mais simples de consolidação por meio de relatórios financeiros é usar as hierarquias organizacionais para agregar dados em empresas com o mesmo plano de contas e os mesmos períodos fiscais. Aqui estão as etapas de alto nível para consolidação por meio de uma hierarquia organizacional.
@@ -153,7 +153,7 @@ A ilustração a seguir mostra as opções na definição de relatório que perm
 ![Número de período de definição de relatório de opções.](./media/options-report-definition-period-number.png "Número de período de definição de relatório de opções")
 
 ## <a name="business-unit-consolidations"></a>Consolidações da unidade de negócios
-Este tópico se concentrou no uso de definições de hierarquia organizacional e hierarquias da organização no Relatório financeiro para fins de consolidação. Você também pode usar a hierarquia organizacional para criar relatórios de consolidação de unidades de negócios, como relatórios sobre vendas ou operações em todo o mundo. Esses relatórios são um requisito comum. Para criá-los, selecione uma empresa e uma dimensão para cada unidade na qual deseja realizar a consolidação. Por exemplo, na ilustração a seguir, o acúmulo da unidade de negócios é realizado pela repetição de cada empresa na coluna **Empresa** (coluna A) e pela identificação de um grupo de valores de dimensão do departamento por empresa na coluna **Dimensões** (coluna D).
+Este artigo se concentrou no uso de definições de hierarquia organizacional e hierarquias da organização no Relatório financeiro para fins de consolidação. Você também pode usar a hierarquia organizacional para criar relatórios de consolidação de unidades de negócios, como relatórios sobre vendas ou operações em todo o mundo. Esses relatórios são um requisito comum. Para criá-los, selecione uma empresa e uma dimensão para cada unidade na qual deseja realizar a consolidação. Por exemplo, na ilustração a seguir, o acúmulo da unidade de negócios é realizado pela repetição de cada empresa na coluna **Empresa** (coluna A) e pela identificação de um grupo de valores de dimensão do departamento por empresa na coluna **Dimensões** (coluna D).
 
 ![Relatórios de consolidação da unidade de negócios.](./media/business-unit-consolidation-reports.png "Relatórios de consolidação da unidade de negócios")
 
@@ -218,7 +218,7 @@ Para obter valores convertidos corretamente quando moedas são usadas, o Relató
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-Para obter mais informações sobre consolidação e conversão de moeda, consulte o tópico principal deste tópico, [Visão geral de consolidações financeiras e conversão de moeda](./financial-consolidations-currency-translation.md).
+Para obter mais informações sobre consolidação e conversão de moeda, consulte o artigo principal deste artigo, [Visão geral de consolidações financeiras e conversão de moeda](./financial-consolidations-currency-translation.md).
 
 Para obter mais informações sobre como inserir detalhes de consolidações online, consulte [Consolidações financeiras online](./consolidate-online.md).
 

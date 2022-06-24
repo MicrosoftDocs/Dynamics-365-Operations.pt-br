@@ -1,6 +1,6 @@
 ---
 title: Lista de recursos de impostos vazia nos parâmetros de Cálculo de imposto
-description: Este tópico explica como solucionar um problema no qual a lista de recursos de imposto na página Parâmetros de cálculo de imposto está vazia.
+description: Este artigo explica como solucionar um problema no qual a lista de recursos de imposto na página Parâmetros de cálculo de imposto está vazia.
 author: wangchen
 ms.date: 03/04/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 0d9286ec313a270da86181ff80ddfd690a757c9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612279"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869942"
 ---
 # <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Lista de recursos de impostos vazia nos parâmetros de Cálculo de imposto
 
@@ -46,7 +46,7 @@ Para encontrar a ID de locatário do ambiente do Finance, siga as mesmas etapas 
 
 ## <a name="resolution"></a>Resolução
 
-Se as duas IDs de locatários forem diferentes, você encontrará o problema descrito neste tópico. Se elas forem iguais, você encontrará um problema não relacionado. Nesse caso, é recomendável contactar o Suporte da Microsoft.
+Se as duas IDs de locatários forem diferentes, você encontrará o problema descrito neste artigo. Se elas forem iguais, você encontrará um problema não relacionado. Nesse caso, é recomendável contactar o Suporte da Microsoft.
 
 ### <a name="solution-1"></a>Solução 1
 

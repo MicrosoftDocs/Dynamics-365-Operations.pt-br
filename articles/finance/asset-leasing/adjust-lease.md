@@ -1,6 +1,6 @@
 ---
 title: Ajustar arrendamentos
-description: O tópico explica como ajustar um arrendamento. O ajuste pode ser necessário, se os prazos de arrendamento forem modificados, o arrendamento for estendido ou outras circunstâncias são alteradas.
+description: O artigo explica como ajustar um arrendamento. O ajuste pode ser necessário, se os prazos de arrendamento forem modificados, o arrendamento for estendido ou outras circunstâncias são alteradas.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898317"
 ---
 # <a name="adjust-leases"></a>Ajustar arrendamentos
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-O tópico explica como ajustar um arrendamento. O ajuste pode ser necessário, se os prazos de arrendamento forem modificados, o arrendamento for estendido ou outras circunstâncias são alteradas. O arrendamento de ativo está em conformidade com a orientação do Tópico 842 da Codificação de Padrões Contábeis (ASC 842) e do Padrão Internacional de Relatórios Financeiros 16 (IFRS 16) fornecem informações sobre modificações de arrendamento. O 842-20-15-1 ASC define uma modificação de arrendamento como qualquer alteração nos termos e condições de um contrato que causa uma alteração no escopo de, ou a consideração, de um arrendamento. O parágrafo 39 do IFRS 16 afirma que um arrendatário deve reavaliar a responsabilidade com arrendamento de forma que reflita as alterações feitas nos pagamentos do arrendamento.
+O artigo explica como ajustar um arrendamento. O ajuste pode ser necessário, se os prazos de arrendamento forem modificados, o arrendamento for estendido ou outras circunstâncias são alteradas. O arrendamento de ativo está em conformidade com a orientação do Tópico 842 da Codificação de Padrões Contábeis (ASC 842) e do Padrão Internacional de Relatórios Financeiros 16 (IFRS 16) fornecem informações sobre modificações de arrendamento. O 842-20-15-1 ASC define uma modificação de arrendamento como qualquer alteração nos termos e condições de um contrato que causa uma alteração no escopo de, ou a consideração, de um arrendamento. O parágrafo 39 do IFRS 16 afirma que um arrendatário deve reavaliar a responsabilidade com arrendamento de forma que reflita as alterações feitas nos pagamentos do arrendamento.
 
 Para organizações que aderem a ASC 842 ou IFRS 16, um arrendamento é remedido para refletir uma alteração no valor presente dos pagamentos de arrendamento mínimos futuros (PVFMLP). Se o PVFMLP aumentar, a entrada de diário criada será um débito à conta de ativo de direito de uso (DDU) e um crédito na conta de responsabilidade com arrendamento para a diferença entre o novo PVFMLP e o PVFMLP anterior. Se o PVFMLP diminuir, a entrada de diário será um débito para a conta de responsabilidade com arrendamento e um crédito para a conta de ativo DDU da diferença.
 

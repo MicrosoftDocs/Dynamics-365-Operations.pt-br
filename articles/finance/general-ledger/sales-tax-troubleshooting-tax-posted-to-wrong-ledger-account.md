@@ -1,6 +1,6 @@
 ---
 title: O imposto é lançado na conta contábil errada no comprovante
-description: Este tópico fornece informações sobre como solucionar problemas que podem ajudar quando o imposto é lançado na conta contábil errada no comprovante.
+description: Este artigo fornece informações sobre como solucionar problemas que podem ajudar quando o imposto é lançado na conta contábil errada no comprovante.
 author: qire
 ms.date: 04/12/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9c9f3fc63374b185a795977566cf73c8c29ee5d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5eb0f7d0196ac52a87d61cba6b9cd438708eff73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846731"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>O imposto é lançado na conta contábil errada no comprovante
 
 [!include [banner](../includes/banner.md)]
 
-Durante o lançamento, o imposto pode ser lançado na conta contábil errada no comprovante. Para solucionar esse problema, siga as etapas nas seguintes seções, conforme necessário. Os exemplos neste tópico usam uma ordem de venda como documento comercial.
+Durante o lançamento, o imposto pode ser lançado na conta contábil errada no comprovante. Para solucionar esse problema, siga as etapas nas seguintes seções, conforme necessário. Os exemplos neste artigo usam uma ordem de venda como documento comercial.
 
 ## <a name="find-the-tax-code-of-the-incorrectly-posted-tax-transaction"></a>Localizar o código de imposto da transação de imposto lançada incorretamente
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar taxas de pagamento para pagamentos de autoridade TDS
-description: Este tópico explica como configurar taxas de pagamento que são cobradas para pagamentos de autoridade de Imposto Deduzido na Origem (TDS).
+description: Este artigo explica como configurar taxas de pagamento que são cobradas para pagamentos de autoridade de Imposto Deduzido na Origem (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 290606201eff7aee985983603e7895a8a59233ac
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 598d4c07d9f96fb5ae58c3929bab353a6d57615f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845209"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Configurar taxas de pagamento para pagamentos de autoridade TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar taxas de pagamento que são cobradas para pagamentos de autoridade de Imposto Deduzido na Origem (TDS).
+Este artigo explica como configurar taxas de pagamento que são cobradas para pagamentos de autoridade de Imposto Deduzido na Origem (TDS).
 
 1. Acesse **Contas a pagar \> Configurar pagamento \> Taxa de pagamento**.
 

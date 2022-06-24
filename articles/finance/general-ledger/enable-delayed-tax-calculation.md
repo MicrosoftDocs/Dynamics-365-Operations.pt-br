@@ -1,6 +1,6 @@
 ---
 title: Habilitar o cálculo de impostos atrasados nos diários
-description: Este tópico explica como ativar o recurso Cálculo de impostos atrasados para ajudar a melhorar o desempenho dos cálculos de impostos quando o número de linhas do diário é muito grande.
+description: Este artigo explica como ativar o recurso Cálculo de impostos atrasados para ajudar a melhorar o desempenho dos cálculos de impostos quando o número de linhas do diário é muito grande.
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fddb6d3a9850b8f2f88f813f9591006637c7e535
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887909"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Habilitar o cálculo de impostos atrasados nos diários
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico explica como você pode adiar o cálculo do imposto sobre vendas nos diários. Esse recurso ajuda a melhorar o desempenho dos cálculos de impostos quando existem muitas linhas do diário.
+Este artigo explica como você pode adiar o cálculo do imposto sobre vendas nos diários. Esse recurso ajuda a melhorar o desempenho dos cálculos de impostos quando existem muitas linhas do diário.
 
 Por padrão, os valores do imposto sobre vendas nas linhas do diário são calculados sempre que os campos relacionados ao imposto são atualizados. Esses campos incluem os campos para grupos de impostos e grupos de impostos sobre itens. Qualquer atualização em uma linha do diário faz com que os valores dos impostos sejam recalculados para todas as linhas do diário. Embora esse comportamento ajude o usuário a ver os valores dos impostos calculados em tempo real, também poderá afetar o desempenho se o número de linhas do diário for muito grande.
 

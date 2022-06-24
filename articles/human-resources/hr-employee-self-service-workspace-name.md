@@ -1,6 +1,6 @@
 ---
 title: Alterar o nome do espaço de trabalho Autoatendimento para funcionários
-description: Este tópico descreve como alterar o nome de exibição do espaço de trabalho Autoatendimento para funcionários no Dynamics 365 Human Resources.
+description: Este artigo descreve como alterar o nome de exibição do espaço de trabalho Autoatendimento para funcionários no Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e45c8a86e4b6fd81c95d2ac085280f294d93cdfe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8f0ee9981d1c02e0fb114976955d406ba74afb0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886121"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>Alterar o nome do espaço de trabalho Autoatendimento para funcionários
 

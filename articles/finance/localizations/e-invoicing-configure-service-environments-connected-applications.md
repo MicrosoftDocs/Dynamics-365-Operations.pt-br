@@ -1,6 +1,6 @@
 ---
 title: Configurar ambientes de serviço e aplicativos conectados
-description: Este tópico fornece informações sobre como configurar os ambientes de serviço e os aplicativos conectados.
+description: Este artigo fornece informações sobre como configurar os ambientes de serviço e os aplicativos conectados.
 author: dkalyuzh
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c3366e75b4a6d3f33a1aac9e444236d9ae57c829
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: c1bb3f784148f04c01223ac4e280a18bacfe0e51
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853212"
 ---
 # <a name="configure-service-environments-and-connected-applications"></a>Configurar ambientes de serviço e aplicativos conectados
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre como configurar os ambientes de serviço e os aplicativos conectados. Este processo tem três etapas. A etapa 1 é obrigatória, e as etapas 2 e 3 são opcionais.
+Este artigo fornece informações sobre como configurar os ambientes de serviço e os aplicativos conectados. Este processo tem três etapas. A etapa 1 é obrigatória, e as etapas 2 e 3 são opcionais.
 
 ## <a name="step-1-create-a-service-environment"></a>Etapa 1: criar um ambiente de serviço
 

@@ -1,6 +1,6 @@
 ---
 title: Exibições salvas
-description: Este tópico descreve como usar os recursos de exibições salvas.
+description: Este artigo descreve como usar os recursos de exibições salvas.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845403"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
@@ -196,7 +196,7 @@ Para a lista de todas as exibições publicadas da página, o seguinte conjunto 
 
 ## <a name="managing-views-globally"></a>Como gerenciar exibições globalmente
 
-Embora alguns recursos de gerenciamento sejam reproduzidos em todas as páginas, como indicado neste tópico, os **administradores do sistema** e os **administradores da exibição salva** podem gerenciar as exibições de forma mais holística para o sistema por meio da página **Personalização**. Em particular, essa página tem as seguintes seções e recursos: 
+Embora alguns recursos de gerenciamento sejam reproduzidos em todas as páginas, como indicado neste artigo, os **administradores do sistema** e os **administradores da exibição salva** podem gerenciar as exibições de forma mais holística para o sistema por meio da página **Personalização**. Em particular, essa página tem as seguintes seções e recursos: 
 
 - **Exibições publicadas** – essa seção lista todas as exibições que foram publicadas para sua organização. A partir daqui, você pode republicar uma exibição depois de ajustar as funções de segurança ou entidades legais de destino da exibição. Você também pode exportar, excluir ou cancelar a publicação de exibições. Você pode usar a ação **Salvar como pessoal** para criar uma cópia pessoal de uma exibição, de forma que possa atualizá-la ou entender melhor seu conteúdo. 
 - **Exibições não publicadas** – esta seção lista todas as exibições da organização no sistema que não estão publicadas no momento. Essas exibições geralmente entram no sistema por meio do recurso de importação. Você pode publicar, exportar ou excluir essas exibições. A ação **Publicação rápida** adicionada à versão 10.0.12 permite que várias exibições desta seção sejam publicadas em uma ação, usando as configurações de direito de acesso e entidade legal existentes. Você pode usar a ação **Salvar como pessoal** para criar cópias pessoais dessas exibições, de forma que possa entender melhor seu conteúdo.

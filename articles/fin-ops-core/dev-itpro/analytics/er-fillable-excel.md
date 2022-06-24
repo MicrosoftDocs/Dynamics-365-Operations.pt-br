@@ -1,6 +1,6 @@
 ---
 title: Criar uma configuração para gerar documentos no formato Excel
-description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
+description: Este artigo descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854804"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811410"
 
 Você pode criar uma configuração de formato de [relatório eletrônico (ER)](general-electronic-reporting.md) que tem um componente de formato de ER que pode ser configurado para gerar um documento de saída em um formato de pasta de trabalho do Microsoft Excel. Componentes de formato ER específicos devem ser usados com essa finalidade.
 
-Para saber mais sobre esse recurso, siga as etapas no tópico, [Criar uma configuração para gerar relatórios no formato OPENXML](tasks/er-design-reports-openxml-2016-11.md).
+Para saber mais sobre esse recurso, siga as etapas no artigo, [Criar uma configuração para gerar relatórios no formato OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="add-a-new-er-format"></a>Adicionar um novo formato ER
 
@@ -263,7 +263,7 @@ Para um único componente **Planilha**, você pode adicionar vários componentes
 
 No componente **Rodapé** adicionado, adicione os componentes aninhados necessários de **Texto\\Cadeia de Caracteres**, **Texto\\DateTime**, ou outro tipo. Configure as associações para esses componentes para especificar como o rodapé da página será preenchido.
 
-Você também pode usar [códigos de formatação](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especiais para formatar corretamente o conteúdo de um rodapé gerado. Para saber como usar essa abordagem, siga as etapas no [Exemplo 1](#example-1), posteriormente neste tópico.
+Você também pode usar [códigos de formatação](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especiais para formatar corretamente o conteúdo de um rodapé gerado. Para saber como usar essa abordagem, siga as etapas no [Exemplo 1](#example-1), mais adiante neste artigo.
 
 > [!NOTE]
 > Ao configurar os formatos de ER, certifique-se de considerar o [limite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) do Excel e o número máximo de caracteres para um único cabeçalho ou rodapé.

@@ -1,6 +1,6 @@
 ---
 title: Definições de lançamento
-description: Este tópico fornece informações sobre definições de lançamento, e como definir e vinculá-las. Para tipos de lançamento e documentos com suporte, você pode usar definições de lançamento em vez de perfis de lançamento para classificar as contas principais e as dimensões financeiras em entradas contábeis.
+description: Este artigo fornece informações sobre definições de lançamento, e como definir e vinculá-las. Para tipos de lançamento e documentos com suporte, você pode usar definições de lançamento em vez de perfis de lançamento para classificar as contas principais e as dimensões financeiras em entradas contábeis.
 author: kweekley
 ms.date: 09/03/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 056300768aa0bc5e1981e1d43de03fabba21a5fa
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f60506e039623ae7a97f6b4e835f751da15ac0c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898139"
 ---
 # <a name="posting-definitions"></a>Definições de lançamento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre definições de lançamento, e como definir e vinculá-las.
+Este artigo fornece informações sobre definições de lançamento, e como definir e vinculá-las.
 Para tipos de lançamento e documentos com suporte, você pode usar definições de lançamento em vez de perfis de lançamento para classificar as contas principais e as dimensões financeiras em entradas contábeis. Você pode exibir os documentos e os tipos de lançamento com suporte na página **Definições de lançamento de transação**. 
 
 Para começar a usar definições de lançamento, selecione a opção **Usar definições de lançamento** na página **Parâmetros de contabilidade**. Mesmo quando você usa definições de lançamento, ainda deve definir perfis de lançamento para as entradas de origem e os tipos de lançamento e os documentos sem suporte. 

@@ -1,6 +1,6 @@
 ---
 title: Questionários
-description: Este tópico fornece informações gerais sobre questionários e leva a informações mais detalhadas.
+description: Este artigo fornece informações gerais sobre questionários e leva a informações mais detalhadas.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: efe0ac953e5c1cb04044256e799ecfc07cf3eebe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: de38bcbfc89479d6b643ca5ee256c38c88fa7f69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897883"
 ---
 # <a name="questionnaires"></a>Questionários
 
@@ -28,7 +28,7 @@ ms.locfileid: "8690740"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico fornece informações gerais sobre questionários e leva a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados. 
+Este artigo fornece informações gerais sobre questionários e leva a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados. 
 
 Você pode personalizar um questionário de acordo com as suas necessidades específicas usando diversos recursos disponíveis no Microsoft Dynamics 365 Finance. Eis alguns exemplos de como os questionários podem ser usados:
 
@@ -40,11 +40,11 @@ Você pode personalizar um questionário de acordo com as suas necessidades espe
 
 A tabela a seguir fornece links para informações sobre as tarefas do questionário central. Clique nos links para obter mais informações.
 
-| Tópico| Descrição|
+| Artigo | Descrição|
 |------|------------|
-| [Criar um questionário](hr-learning-design-questionnaires.md) | Este tópico fornece informações sobre como criar um questionário. O processo de criação envolve a configuração de pré-requisitos, respostas e perguntas, e a combinação deles em um questionário. |
-| [Distribuir e agendar questionários](hr-learning-distribute-questionnaires.md) | Este tópico fornece informações sobre como distribuir um questionário aos participantes e como preencher questionários. |
-| [Exibir e avaliar os resultados de um questionário](hr-learning-evaluate-questionnaire-results.md) | Este tópico fornece informações sobre como avaliar resultados de questionários preenchidos. |
+| [Criar um questionário](hr-learning-design-questionnaires.md) | Este artigo fornece informações sobre como criar um questionário. O processo de criação envolve a configuração de pré-requisitos, respostas e perguntas, e a combinação deles em um questionário. |
+| [Distribuir e agendar questionários](hr-learning-distribute-questionnaires.md) | Este artigo fornece informações sobre como distribuir um questionário aos participantes e como preencher questionários. |
+| [Exibir e avaliar os resultados de um questionário](hr-learning-evaluate-questionnaire-results.md) | Este artigo fornece informações sobre como avaliar resultados de questionários preenchidos. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

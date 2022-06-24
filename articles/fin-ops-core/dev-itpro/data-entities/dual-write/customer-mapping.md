@@ -1,6 +1,6 @@
 ---
 title: Cliente mestre integrado
-description: Este tópico descreve a integração de dados do cliente entre o Finance and Operations e o Dataverse.
+description: Este artigo descreve a integração de dados do cliente entre o Finance and Operations e o Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 41e4b6c192b6125a144e4d5ef952ba0975821d44
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890446"
 ---
 # <a name="integrated-customer-master"></a>Cliente mestre integrado
 
@@ -42,7 +42,7 @@ Quando um contato não comercializável participar de uma cotação ou processo 
 
 Os dados do cliente incluem todas as informações sobre ele, como o grupo de clientes, os endereços, as informações de contato, o perfil do pagamento, o perfil da fatura e o status de fidelidade. Diversos mapas de tabelas trabalham juntos durante a interação de dados do cliente, conforme mostrado na tabela a seguir.
 
-Aplicativos do Finance and Operations | Aplicativos do Customer Engagement         | descrição
+Aplicativos do Finance and Operations | Aplicativos do Customer Engagement         | Descrição
 ----------------------------|---------------------------------|------------
 [Contatos do CDS V2](mapping-reference.md#115) | contatos | Este modelo sincroniza todas as informações de contato principais, secundárias e terciárias de clientes e fornecedores.
 [Grupos de clientes](mapping-reference.md#126) | msdyn_customergroups | Este modelo sincroniza informações do grupo de clientes.

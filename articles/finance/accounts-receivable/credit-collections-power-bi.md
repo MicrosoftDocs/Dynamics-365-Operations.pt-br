@@ -1,6 +1,6 @@
 ---
 title: Conteúdo de gerenciamento de crédito e cobranças do Power BI
-description: Este tópico descreve o que está incluído no conteúdo de gerenciamento de crédito e cobranças do Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
+description: Este artigo descreve o que está incluído no conteúdo de gerenciamento de crédito e cobranças do Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 author: ShivamPandey-msft
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 291eeddf754ef86bf7eb8f534ac36b1151e39b3a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 350c7ff2f0fa93d4ff99e2a11b9418413854a076
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889922"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Conteúdo de gerenciamento de crédito e cobranças do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo **Gerenciamento de crédito e cobranças** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
+Este artigo descreve o que está incluído no conteúdo de **Gerenciamento de crédito e cobranças** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O conteúdo de **Gerenciamento de crédito e cobranças** do Power BI foi criado para gerentes de crédito e cobranças e auxiliares de cobrança. Ele fornece as métricas de cobrança e de crédito chave, como vendas diárias pendentes, saldo atrasado, exposição de crédito e clientes que estão acima de seus limites de crédito. Ele usa dados transacionais e fornece exibições agregadas de crédito e cobranças entre todas as empresas. Também fornece uma divisão pela empresa, grupo de clientes e o cliente.
 

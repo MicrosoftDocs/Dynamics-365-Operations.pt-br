@@ -1,6 +1,6 @@
 ---
 title: Conteúdo do Power BI Desempenho de depósito
-description: Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de depósito.
+description: Este artigo descreve o que está incluído no conteúdo do Power BI Desempenho de depósito.
 author: Mirzaab
 ms.date: 12/18/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: db56d1bd26f27987f00126ac1a6434cf36691fbf594cab3dd1260ed5251480a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d43cef4970cdf180d0db39086220def56b08f280
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851912"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Conteúdo do Power BI Desempenho de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo do **Desempenho de depósito** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
+Este artigo descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de depósito**. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 

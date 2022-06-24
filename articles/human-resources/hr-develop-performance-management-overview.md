@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735713"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848184"
 ---
 # <a name="performance-management"></a>Gerenciamento de desempenho
 
@@ -79,9 +79,9 @@ Seu diário de desempenho descreverá<!--note from editor: Suggested.--> as ativ
 
 Se você quiser anexar um documento à meta, como um certificado de conclusão, poderá anexá-lo na seção **Anexos** da página **Metas de desempenho**. É fornecido um visualizador de documentos para que você possa exibir rapidamente o conteúdo de qualquer documento anexado. 
 
-Você pode criar um modelo a partir de uma meta e depois usar o modelo para criar novas metas baseadas nele. Quando você cria um modelo a partir de uma meta, a descrição, os tópicos e as medidas de destino são salvos. No entanto, as medidas, as datas de conclusão e os comentários do tópico são removidos.
+Você pode criar um modelo a partir de uma meta e depois usar o modelo para criar novas metas baseadas nele. Quando você cria um modelo a partir de uma meta, a descrição, os tópicos e as medidas de destino são salvos. No entanto, as medidas reais, as datas de conclusão e os comentários do artigo são removidos.
 
-## <a name="performance-reviews"></a>Revisões de desempenho
+## <a name="performance-reviews"></a>Avaliações de desempenho
 
 As revisões de desempenho são conhecidas mais formalmente como discussões. Elas agora são flexíveis o suficiente para dar suporte a comentários contínuos, planos de desenvolvimento e revisões mais formais. Você pode criar rapidamente pequenas reuniões para duas pessoas<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> ou você pode criar uma revisão mais complexa que corresponda ao processo de revisão de sua empresa. 
 

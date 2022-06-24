@@ -1,6 +1,6 @@
 ---
 title: Configurar liquidação
-description: Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este tópico descreve os parâmetros usados para pagamento de contas a pagar e contas a receber.
+description: Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este artigo descreve os parâmetros usados para pagamento de contas a pagar e contas a receber.
 author: kweekley
 ms.date: 05/16/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 978c99ddd3e56e6699ab128a154a5594685d5956
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 14ed2999a9ad8ffc64815ca3f8b1556aad27ae48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910190"
 ---
 # <a name="configure-settlement"></a>Configurar liquidação
 
 [!include [banner](../includes/banner.md)]
 
-Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este tópico descreve os parâmetros usados para pagamento de contas a pagar e contas a receber. 
+Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este artigo descreve os parâmetros usados para pagamento de contas a pagar e contas a receber. 
 
 Os parâmetros a seguir afetam como as liquidações são processadas no Microsoft Dynamics 365 Finance. A liquidação é o processo de liquidar uma fatura em relação a um pagamento ou nota de crédito. Esses parâmetros estão alocados na área **Liquidação** das páginas **Parâmetros de contas a receber** e das páginas **Parâmetros das contas a pagar**.
 

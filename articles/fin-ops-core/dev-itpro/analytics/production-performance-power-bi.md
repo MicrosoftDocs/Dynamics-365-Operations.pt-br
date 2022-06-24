@@ -1,6 +1,6 @@
 ---
 title: Conteúdo de desempenho da produção do Power BI
-description: Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de produção.
+description: Este artigo descreve o que está incluído no conteúdo do Power BI Desempenho de produção.
 author: AndersGirke
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881451"
 ---
 # <a name="production-performance-power-bi-content"></a>Conteúdo de desempenho da produção do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo de **Desempenho de produção** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
+Este artigo descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de produção**. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -63,7 +63,7 @@ Os seguintes dados são usados para as páginas de relatório no conteúdo do Po
 
 A tabela a seguir mostra as principais medidas agregadas que são usadas como base do conteúdo do Power BI.
 
-| Entidade                   | Principais medidas agregadas  | Fonte de dados para aplicativos do Finance and Operations | Campo              |
+| Entidade                   | Principais medidas agregadas  | Fonte de dados para os aplicativos do Finance and Operations | Campo              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

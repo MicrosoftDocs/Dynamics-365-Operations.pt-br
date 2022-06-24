@@ -1,6 +1,6 @@
 ---
-title: Calendários, anos e períodos fiscais
-description: Este tópico discute calendários fiscais, períodos fiscais e anos e como utilizá-los para a pessoa jurídica, ativos fixos e o orçamento.
+title: Calendários fiscais, anos fiscais e períodos
+description: Este artigo discute calendários fiscais, períodos fiscais e anos e como utilizá-los para a pessoa jurídica, ativos fixos e o orçamento.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a1583df4650d0b36ecc2cb0d3e2d3a410aa807ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909088"
 ---
-# <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendários, anos e períodos fiscais
+# <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendários fiscais, anos fiscais e períodos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico discute calendários fiscais, períodos fiscais e anos e como utilizá-los para a pessoa jurídica, ativos fixos e o orçamento.
+Este artigo discute calendários fiscais, períodos fiscais e anos e como utilizá-los para a pessoa jurídica, ativos fixos e o orçamento.
 
 Os calendários fiscais fornecem uma estrutura para a atividade financeira de uma organização. Cada calendário fiscal contém um ou mais anos fiscais, e cada ano fiscal contém vários períodos. Os calendários fiscais podem ser baseados no ano calendário de 1º de janeiro a 31 de dezembro, ou qualquer data selecionada. Por exemplo, algumas organizações selecionam um calendário fiscal que começa em 1º de julho de um ano e termina em 30 de junho do ano seguinte. 
 

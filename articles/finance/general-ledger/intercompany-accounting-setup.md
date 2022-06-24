@@ -1,6 +1,6 @@
 ---
-title: Configuração de contabilidade intercompanhia
-description: Este tópico explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento.
+title: Configuração da contabilidade de intercompanhia
+description: Este artigo explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c9914d9fff3407d8d469fe2ed27a9bfd6b26a50
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 309c121c1ef4b3814d676cad6f3c2b6826b59843
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871207"
 ---
-# <a name="intercompany-accounting-setup"></a>Configuração de contabilidade intercompanhia
+# <a name="intercompany-accounting-setup"></a>Configuração da contabilidade de intercompanhia
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento.
+Este artigo explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento.
 
 Os diários intercompanhia podem ser criados em vários cenários, como para diários, diários de fatura de fornecedor, alocações do razão e pagamentos centralizados. Para habilitar estes cenários, você deve configurar a contabilidade intercompanhia.
 

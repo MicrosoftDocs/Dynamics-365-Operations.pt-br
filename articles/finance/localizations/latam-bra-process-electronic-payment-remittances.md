@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f85eb5e8092637b1da7547f44d4949a8a936f5c00921a2ae34c01e6b9a7d8509
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f93b6baaab6d9826f6ae8f40a2f5477ac835345e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865466"
 ---
 # <a name="process-electronic-payment-remittances"></a>Processar remessas de pagamento eletrônico
 

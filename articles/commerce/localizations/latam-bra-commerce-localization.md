@@ -1,6 +1,6 @@
 ---
 title: Localização do Commerce para o Brasil
-description: Este tópico fornece uma visão geral da localização do Microsoft Dynamics 365 Commerce para o Brasil.
+description: Este artigo fornece uma visão geral da localização do Microsoft Dynamics 365 Commerce para o Brasil.
 author: akviklis
 ms.date: 11/22/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: baabdeeaea9d44e5e9e836b5387a6ba7acf54f1a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1491f64f092b64a28b3337b7327881a27a75657b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848884"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 
 [!Include[banner](../includes/banner.md)]
 
-Este tópico descreve o escopo da funcionalidade do Microsoft Dynamics 365 Commerce específico do Brasil. Ele inclui informações sobre os recursos e a funcionalidade que foram criados para tratar impostos federais específicos, de varejo, contábeis, financeiros ou estatutários ou regulamentações que geralmente afetam as empresas de varejo no Brasil no escopo da [Localização brasileira](../../finance/localizations/latam-bra-scope.md#brazilian-localization-strategy).
+Este artigo descreve o escopo da funcionalidade do Microsoft Dynamics 365 Commerce específico do Brasil. Ele inclui informações sobre os recursos e a funcionalidade que foram criados para tratar impostos federais específicos, de varejo, contábeis, financeiros ou estatutários ou regulamentações que geralmente afetam as empresas de varejo no Brasil no escopo da [Localização brasileira](../../finance/localizations/latam-bra-scope.md#brazilian-localization-strategy).
 
 O Commerce não atende a todas as leis, regulamentos ou requisitos comerciais no Brasil. As leis e regulamentos variam na maneira que afetam as organizações. Para obter mais informações, consulte o [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/dynamics_365_international_availability_deck).
 

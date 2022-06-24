@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644449"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860154"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644449"
 Para criar e gerenciar trabalhos de importação e de exportação de dados, use o espaço de trabalho **Gerenciamento de dados**. Por padrão, o processo de importação e exportação criar uma tabela de preparo para cada entidade no banco de dados de destino. As tabelas de preparo permitem verificar, limpar ou converter dados antes de movê-los.
 
 > [!NOTE]
-> Este tópico pressupõe que você está familiarizado com as [entidades de dados](data-entities.md).
+> Este artigo pressupõe que você está familiarizado com as [entidades de dados](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Processo de importação/exportação de dados
 Seguem as etapas para importar ou exportar dados.
@@ -48,7 +48,7 @@ Seguem as etapas para importar ou exportar dados.
 5. Validar se o trabalho foi executado conforme esperado, examinando o histórico de trabalho.
 6. Limpar as tabelas de preparo.
 
-As seções restantes deste tópico fornecem mais detalhes sobre cada etapa do processo.
+As seções restantes deste artigo fornecem mais detalhes sobre cada etapa do processo.
 
 > [!NOTE]
 > Para atualizar o Formulário de exportação/importação de dados para ver o progresso mais recente, use o ícone de atualização do formulário. A atualização do navegador não é recomendada porque interromperá qualquer trabalho de exportação/importação que não for executado em lotes.

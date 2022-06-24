@@ -1,6 +1,6 @@
 ---
 title: Usar o serviço de faturamento eletrônico para importar faturas de fornecedor
-description: Este tópico fornece informações sobre como importar faturas de fornecedor usando o serviço de Faturamento eletrônico.
+description: Este artigo fornece informações sobre como importar faturas de fornecedor usando o serviço de faturamento eletrônico.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865574"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Usar o serviço de faturamento eletrônico para importar faturas de fornecedor
 
@@ -30,7 +30,7 @@ ms.locfileid: "7983814"
 
 [!include [banner](../includes/preview-banner.md)]
 
-Este tópico fornece informações que ajudarão você na introdução às faturas de vendedor de importação usando o serviço de Faturamento eletrônico. Ele guia você pelas etapas de configuração no Regulatory Configuration Services (RCS), Dynamics 365 Finance e Dynamics 365 Supply Chain Management que você precisa seguir para receber faturas eletrônicas dos fornecedores.
+Este artigo fornece informações que ajudarão você na introdução às faturas de vendedor de importação usando o serviço de faturamento eletrônico. Ele guia você pelas etapas de configuração no Regulatory Configuration Services (RCS), Dynamics 365 Finance e Dynamics 365 Supply Chain Management que você precisa seguir para receber faturas eletrônicas dos fornecedores.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Configurar importação de fatura de fornecedor no RCS
 Para configurar a importação de fatura de fornecedor no RCS, siga estas etapas:

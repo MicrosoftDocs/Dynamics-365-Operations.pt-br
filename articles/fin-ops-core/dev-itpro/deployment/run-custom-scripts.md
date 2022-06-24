@@ -1,6 +1,6 @@
 ---
 title: Executar scripts X + + personalizados com tempo de inatividade zero
-description: Este tópico descreve como carregar e executar pacotes implantáveis que contêm scripts X + + personalizados sem precisar suspender o sistema.
+description: Este artigo descreve como carregar e executar pacotes implantáveis que contêm scripts X + + personalizados sem precisar suspender o sistema.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867319"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Executar scripts X + + personalizados com tempo de inatividade zero
 
@@ -122,7 +122,7 @@ Use os seguintes procedimentos para carregar e executar um script.
 
 1. No seu aplicativo de Finanças e Operações, vá para **Administração do sistema \> Tarefas periódicas \> Banco de dados \> Scripts personalizados**.
 1. Selecione **Carregar**.
-1. Selecione o pacote implantado criado, conforme descrito anteriormente neste tópico. Será solicitado que você especifique a finalidade do script.
+1. Selecione o pacote implantável criado, conforme descrito anteriormente neste artigo. Será solicitado que você especifique a finalidade do script.
 1. Agora, o script deve ser aprovado por um usuário diferente do usuário que o carregou. O aprovador deve seguir estas etapas:
 
     1. Vá para **Administração do sistema \> Periódico \> Banco de dados \> Scripts personalizados**.

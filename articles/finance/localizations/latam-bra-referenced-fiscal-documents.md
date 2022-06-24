@@ -1,6 +1,6 @@
 ---
 title: Notas fiscais referenciadas para o Brasil
-description: Este tópico fornece uma visão geral de notas fiscais referenciadas usadas no Brasil.
+description: Este artigo fornece uma visão geral de notas fiscais referenciadas usadas no Brasil.
 author: sndray
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a8a86a1b2184155cf21f5e98ce6e3eb7228db525cd3b80f37ed8903e58767607
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d41cbac627dfd38927e14ddef654ab3d97ba006d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720484"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880596"
 ---
 # <a name="referenced-fiscal-documents-for-brazil"></a>Notas fiscais referenciadas para o Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral de notas fiscais referenciadas usadas no Brasil.
+Este artigo fornece uma visão geral de notas fiscais referenciadas usadas no Brasil.
 
 Em algumas situações, uma nota fiscal deve incluir informações de outra nota fiscal. Você pode anexar informações para uma nota fiscal referenciada de duas maneiras:
 

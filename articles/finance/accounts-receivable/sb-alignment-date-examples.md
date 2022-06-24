@@ -1,6 +1,6 @@
 ---
 title: Cenários de data de alinhamento
-description: Este tópico fornece exemplos que mostram como as datas de alinhamento funcionam na cobrança de assinatura.
+description: Este artigo fornece exemplos que mostram como as datas de alinhamento funcionam na cobrança de assinatura.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 102e3a104be5be287f914172160e95aff65d0b18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872605"
 ---
 # <a name="alignment-date-scenarios"></a>Cenários de data de alinhamento
 
-Este tópico fornece exemplos que mostram como as datas de alinhamento funcionam na cobrança de assinatura.
+Este artigo fornece exemplos que mostram como as datas de alinhamento funcionam na cobrança de assinatura.
 
 Para esses exemplos, um detalhe de cobrança para uma agenda de cobrança tem uma data de alinhamento de 31 de outubro de 2019. O primeiro detalhe de cobrança para a linha termina em 31 de outubro de 2019 e é rateado adequadamente. A linha é renovada automaticamente com data de início da renovação de 11 de novembro.
 

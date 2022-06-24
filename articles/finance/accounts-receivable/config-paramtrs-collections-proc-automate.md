@@ -1,6 +1,6 @@
 ---
 title: Configurar parâmetros para a automação do processo de cobranças
-description: Este tópico descreve os parâmetros que afetam os processos de cobrança automatizados e fornece orientação para defini-los, de forma que o processo automatizado reflita suas intenções e expectativas.
+description: Este artigo descreve os parâmetros que afetam os processos de cobrança automatizados e fornece orientação para defini-los, de forma que o processo automatizado reflita suas intenções e expectativas.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734386"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900032"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>Configurar parâmetros para a automação do processo de cobranças
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os parâmetros que afetam os processos de cobrança automatizados e fornece orientação para defini-los, de forma que o processo automatizado reflita suas intenções e expectativas. Para obter informações sobre como automatizar processos de cobrança, consulte [Automação do processo de cobranças](collections-process-automate.md).
+Este artigo descreve os parâmetros que afetam os processos de cobrança automatizados e fornece orientação para defini-los, de forma que o processo automatizado reflita suas intenções e expectativas. Para obter informações sobre como automatizar processos de cobrança, consulte [Automação do processo de cobranças](collections-process-automate.md).
 
 ## <a name="general"></a>Geral
 Insira um número na **Porcentagem de clientes por tarefa em lotes** para determinar o número de tarefas de lote por processo de automação. Defina **Lançar Cartas de cobrança automaticamente** como **Sim**, dessa forma, o tipo de ação de carta de cobrança lançará a carta durante a automação. Defina **Criar atividades para automação** como **Sim** para criar e fechar atividades para tipos de ação não atividades a fim de exibir todas as etapas automatizadas feitas em uma conta. Defina o número de dias que o histórico de cobrança é armazenado no **histórico Dias para manter a automação do processo de cobranças**. Quando uma fatura alcançar a última etapa do processo de cobrança, ela não será usada para criar futuros tipos de ação de automação do processo, se **a etapa Excluir fatura depois de ativar o último processo** estiver definida como **Sim**. A próxima fatura mais antiga determina a próxima etapa de automação do processo para garantir que as ações de automação do processo de cobrança continuem. 

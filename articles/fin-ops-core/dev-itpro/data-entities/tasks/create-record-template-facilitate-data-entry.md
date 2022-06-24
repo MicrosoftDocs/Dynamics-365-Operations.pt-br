@@ -1,6 +1,6 @@
 ---
 title: Criar um modelo de registro para facilitar a entrada de dados
-description: Este tópico demonstra como criar um modelo de registro para que os valores de campo usados frequentemente não tenham que ser inseridos explicitamente para cada novo registro.
+description: Este artigo demonstra como criar um modelo de registro para que os valores de campo usados frequentemente não tenham que ser inseridos explicitamente para cada novo registro.
 author: margoc
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72ffb6458ca3b10415d75fc835677ed2fa03e4197978ab648f2b244248f45058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43bbc790d0e3145ffc9d7cb9dda7b8b3f7048e23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880186"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Criar um modelo de registro para facilitar a entrada de dados
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico demonstra como criar um modelo de registro para que os valores de campo usados frequentemente não tenham que ser inseridos explicitamente para cada novo registro. Neste procedimento, você criará um novo registro para novos laptops que devem ser adicionados aos ativos fixos. Este procedimento usa a empresa exemplo USMF.
+Este artigo demonstra como criar um modelo de registro para que os valores de campo usados frequentemente não tenham que ser inseridos explicitamente para cada novo registro. Neste procedimento, você criará um novo registro para novos laptops que devem ser adicionados aos ativos fixos. Este procedimento usa a empresa exemplo USMF.
 
 1. No Painel de Navegação, Acesse **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
 2. Selecione **Novo**.

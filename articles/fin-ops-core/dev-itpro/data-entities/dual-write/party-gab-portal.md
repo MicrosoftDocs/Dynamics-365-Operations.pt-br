@@ -1,6 +1,6 @@
 ---
 title: Usando os portais do Microsoft Power Apps com o modelo de dados de participantes
-description: Este tópico descreve as alterações nas funções Web para os portais do Microsoft Power Apps devido ao modelo de dados do participante em gravação dupla.
+description: Este artigo descreve as alterações nas funções Web para os portais do Microsoft Power Apps devido ao modelo de dados do participante em gravação dupla.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898936"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Usando os portais do Microsoft Power Apps com o modelo de dados de participantes
 
@@ -24,7 +24,7 @@ ms.locfileid: "8060911"
 
 A versão 2.0.999.0 da solução de orquestração de aplicativos de gravação dupla e posterior inclui alterações no modelo de dados para o participante e para o catálogo de endereços global das tabelas Conta e Contato. As alterações permitem relacionamentos muitos para muitos que oferecem suporte a cenários comerciais avançados. Essas alterações não são compatíveis com as funções Web do portal, incluindo o portal do cliente, que são enviadas prontas ou que já estavam no seu ambiente antes de instalar a gravação dupla. Para que as funções Web funcionem conforme o esperado, é necessário criar funções Web usando o novo modelo de dados. 
 
-Em resumo, a forma como as tabelas interagem mudou, mas as permissões de tabela no portal do cliente não mudaram. Este tópico explica como criar funções Web que funcionam com o novo modelo de dados avançado.
+Em resumo, a forma como as tabelas interagem mudou, mas as permissões de tabela no portal do cliente não mudaram. Este artigo explica como criar funções Web que funcionam com o novo modelo de dados avançado.
 
 Este diagrama mostra a relação da tabela **sem** o modelo de dados do catálogo de endereços global e do participante:
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar a importação avançada de reconciliação bancária usando Relatórios Eletrônicos
-description: Este tópico explica como usar Relatórios Eletrônicos para configurar o processo de importação de reconciliação bancária avançada.
+description: Este artigo explica como usar Relatório eletrônico para configurar o processo de importação de reconciliação bancária avançada.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889110"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Configurar a importação avançada de reconciliação bancária usando Relatórios Eletrônicos
 
 [!include [banner](../includes/banner.md)]
 
-O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 Finance. Este tópico explica como configurar a funcionalidade de importação para seus extratos bancários. A configuração de importação de extrato bancário varia de acordo com o formato do seu extrato bancário eletrônico. O Microsoft Dynamics 365 Finance oferece suporte a três formatos de extrato bancário: ISO20022, MT940 e BAI2. 
+O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 Finance. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários. A configuração de importação de extrato bancário varia de acordo com o formato do seu extrato bancário eletrônico. O Microsoft Dynamics 365 Finance oferece suporte a três formatos de extrato bancário: ISO20022, MT940 e BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Definir a configuração do Relatório eletrônico
 
 1. Acesse **Espaços de trabalho \> Relatório eletrônico**.
 2. No bloco do provedor de configuração da **Microsoft**, selecione **Repositórios**.
-3. Selecione **Global** e, depois, **Abrir**.
+3. Selecione **Global** e, em seguida, selecione **Abrir**.
 4. Se for necessário estabelecer uma conexão com o repositório, selecione o link azul na caixa de diálogo.
 5. Na lista configuração, localize o **Modelo de extrato bancário \> Modelo de extrato bancário de BAI2**.
 6. Selecione o formato **BAI2**.

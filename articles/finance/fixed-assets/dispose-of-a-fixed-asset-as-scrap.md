@@ -1,6 +1,6 @@
 ---
 title: Descartar um ativo fixo como sucata
-description: O tópico descreve o processo de eliminação de transações de um ativo fixo que foi descartado como sucata.
+description: O artigo descreve o processo de eliminação de transações de um ativo fixo que foi descartado como sucata.
 author: moaamer
 ms.date: 08/14/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: c30837da84bff67bbab80ff5116135e2533a867d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 6564314c70de1880e437c3c493689f12d96d91ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855423"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Descartar um ativo fixo como sucata
 
 [!include [banner](../includes/banner.md)]
 
-O tópico descreve o processo de eliminação de transações de um ativo fixo que foi descartado como sucata. Os tipos de transação que podem ser eliminados incluem transações depreciação acumulada e aquisição de um ativo, além de outras transações de ativos fixos. A eliminação dessas transações afeta as contas de balanço, como contas de ajuste de aquisição, ajuste de depreciação, reavaliação, valorização e desvalorização.
+O artigo descreve o processo de eliminação de transações de um ativo fixo que foi descartado como sucata. Os tipos de transação que podem ser eliminados incluem transações depreciação acumulada e aquisição de um ativo, além de outras transações de ativos fixos. A eliminação dessas transações afeta as contas de balanço, como contas de ajuste de aquisição, ajuste de depreciação, reavaliação, valorização e desvalorização.
 
 | Transação                                         | Débito (Dr.) | Crédito (Cr.) |
 |-----------------------------------------------------|-------------|--------------|

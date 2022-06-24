@@ -1,6 +1,6 @@
 ---
 title: Depreciação da vida útil linear restante
-description: Este tópico oferece uma visão geral do Método de depreciação linear com base na vida útil restante.
+description: Este artigo oferece uma visão geral do método Vida útil linear restante.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726687"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853428"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Depreciação da vida útil linear restante
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece uma visão geral do Método de depreciação linear com base na vida útil restante.
+Este artigo oferece uma visão geral do método Vida útil linear restante.
 
 Quando você configura um perfil de depreciação de ativo fixo e seleciona **Vida útil linear restante** no campo **Método**, na página **Perfis de depreciação**, a depreciação de ativos fixos atribuídos ao perfil de depreciação se baseia na vida útil restante do ativo. O valor de depreciação geralmente é igual em cada período de depreciação. Para configurar uma depreciação depreciação restante da vida útil linear, você também deve selecionar opções no campo **Ano de depreciação** e no campo **Frequência do período** na página **Perfis de depreciação**. As opções disponíveis no campo **Frequência do período** variam, dependendo do valor selecionado no campo **Ano de depreciação**.
 
@@ -35,7 +35,7 @@ Você pode selecionar **Calendário** ou **Fiscal** no campo **Ano de depreciaç
 
 ### <a name="calendar"></a>Calendário
 
-Se você selecionar **Calendário** no campo **_Depreciação anual_*_, um ano de 1º de janeiro a 31 de dezembro será considerado, mesmo que você tenha definido o calendário fiscal de outra maneira. A opção* _Calendário** atualiza a base de depreciação em 1º de janeiro de cada ano. Normalmente, a base de depreciação é o valor líquido contábil menos o valor residual. No exemplo a seguir deste tópico, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. Se você selecionar **Calendário** como o ano de depreciação, as seguintes opções ficarão disponíveis no campo **Frequência do período**:
+Se você selecionar **Calendário** no campo **_Depreciação anual_*_, um ano de 1º de janeiro a 31 de dezembro será considerado, mesmo que você tenha definido o calendário fiscal de outra maneira. A opção* _Calendário** atualiza a base de depreciação em 1º de janeiro de cada ano. Normalmente, a base de depreciação é o valor líquido contábil menos o valor residual. No exemplo a seguir deste artigo, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. Se você selecionar **Calendário** como o ano de depreciação, as seguintes opções ficarão disponíveis no campo **Frequência do período**:
 
 - **Anual** lança um valor em 31 de dezembro.
 - **Mensal** lança um valor mensal ao final de cada mês do calendário.

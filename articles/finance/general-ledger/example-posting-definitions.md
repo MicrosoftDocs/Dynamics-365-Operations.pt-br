@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722539"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865762"
 ---
 # <a name="posting-definition-examples"></a>Exemplos de definições de lançamento
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722539"
 
 Este artigo oferece exemplos que mostram como as definições de lançamento são usadas para ônus de ordem de compra e apropriações de orçamento.
 
-Antes que você leu este tópico, você deve estar familiarizado com as definições de lançamento e as definições de lançamento da transação. Para obter informações, consulte [Definições de lançamento](posting-definitions.md). Os exemplos a seguir podem ser configurados na página **Definições de lançamento**. Cada exemplo contém estas seções:
+Antes de ler este tópico, você deve estar familiarizado com as definições de lançamento e as definições de lançamento da transação. Para obter informações, consulte [Definições de lançamento](posting-definitions.md). Os exemplos a seguir podem ser configurados na página **Definições de lançamento**. Cada exemplo contém estas seções:
 
 -   Definição dos critérios de correspondência lançamento –
 -   definição de lançamento – entradas gerados

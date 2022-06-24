@@ -1,6 +1,6 @@
 ---
 title: Configurar códigos de imposto
-description: Este tópico explica como configurar códigos de imposto no Dynamics 365 Finance.
+description: Este artigo explica como configurar códigos de imposto no Dynamics 365 Finance.
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b12133583f40cc17cb85f6dbd86697592af25caf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858458"
 ---
 # <a name="set-up-sales-tax-codes"></a>Configurar códigos de imposto
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como configurar códigos de imposto. Códigos de imposto são criados para cada imposto ou direito indireto que a entidade legal é obrigada a calcular, arrecadar e pagar às autoridades de imposto sobre vendas.
+Este artigo explica como configurar códigos de imposto. Códigos de imposto são criados para cada imposto ou direito indireto que a entidade legal é obrigada a calcular, arrecadar e pagar às autoridades de imposto sobre vendas.
 
 Esta tarefa usa a empresa de demonstração USMF.
 

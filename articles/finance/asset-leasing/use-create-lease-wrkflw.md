@@ -1,6 +1,6 @@
 ---
 title: Usar fluxos de trabalho de aprovação de arrendamento
-description: Este tópico explica como usar fluxos de trabalho para aprovar arrendamentos de ativos e como rastrear o status e o histórico dos fluxos de trabalho.
+description: Este artigo explica como usar fluxos de trabalho para aprovar arrendamentos de ativos e como rastrear o status e o histórico dos fluxos de trabalho.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906432"
 ---
 # <a name="use-lease-approval-workflows"></a>Usar fluxos de trabalho de aprovação de arrendamento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como usar fluxos de trabalho para aprovar arrendamentos de ativos e como rastrear o status e o histórico dos fluxos de trabalho. Os fluxos de trabalho ajudam a proporcionar consistência ao gerenciamento de aprovações de arrendamento, fornecendo um conjunto padrão de etapas de aprovação e atribuindo usuários específicos que aprovem cada etapa do processo. Um aprovador pode aprovar um arrendamento, rejeitá-lo, solicitar uma alteração nele ou atribuí-lo a outro usuário para aprovação. Os fluxos de trabalho também podem trazer mais visibilidade para o processo de aprovação, permitindo que você controle o status e o histórico. Além disso, é possível exibir uma lista de trabalho centralizada que liste as tarefas e aprovações atribuídas a aprovadores específicos.
+Este artigo explica como usar fluxos de trabalho para aprovar arrendamentos de ativos e como rastrear o status e o histórico dos fluxos de trabalho. Os fluxos de trabalho ajudam a proporcionar consistência ao gerenciamento de aprovações de arrendamento, fornecendo um conjunto padrão de etapas de aprovação e atribuindo usuários específicos que aprovem cada etapa do processo. Um aprovador pode aprovar um arrendamento, rejeitá-lo, solicitar uma alteração nele ou atribuí-lo a outro usuário para aprovação. Os fluxos de trabalho também podem trazer mais visibilidade para o processo de aprovação, permitindo que você controle o status e o histórico. Além disso, é possível exibir uma lista de trabalho centralizada que liste as tarefas e aprovações atribuídas a aprovadores específicos.
 
 Antes de usar esse procedimento, certifique-se de que pelo menos o fluxo de trabalho de aprovação de arrendamento tenha sido criado. Se não houver nenhum fluxo de trabalho, crie um. Para obter informações sobre como configurar um fluxo de trabalho, consulte [Configurar fluxos de trabalho de aprovação de arrendamento](set-up-lease-wrkflw.md).
 

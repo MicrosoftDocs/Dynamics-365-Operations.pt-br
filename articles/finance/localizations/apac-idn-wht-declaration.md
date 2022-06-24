@@ -1,6 +1,6 @@
 ---
 title: Relatório de imposto retido na fonte para a Indonésia
-description: Este tópico explica como configurar e gerar o relatório de imposto retido na fonte para a Indonésia.
+description: Este artigo explica como configurar e gerar o relatório de imposto retido na fonte para a Indonésia.
 author: sndray
 ms.date: 12/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2021-12-02
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6cf2f9240ea747054578c52343af34b15c250f38
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 8acd9442ff4f0b7c19e3b4fcf211acce002e43d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883171"
 ---
 # <a name="withholding-tax-report-for-indonesia-id-00005"></a>Relatório de imposto retido na fonte para a Indonésia (ID-00005)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar e gerar o arquivo de retenção de imposto de PPH que as entidades legais na Indonésia usam para relatar transações de retenção no aplicativo e-Bupot.
+Este artigo explica como configurar e gerar o arquivo de retenção de imposto de PPH que as entidades legais na Indonésia usam para relatar transações de retenção no aplicativo e-Bupot.
 
 A DGT (autoridade de imposto da Indonésia) determina que os empresários tributáveis (PKP) registrados no artigo 23 e/ou o artigo 26 do KPP Pratama como retenções de imposto/coletores de imposto de renda (PPh) devem relatar eletronicamente o artigo 23 e 26 de restituição de imposto de renda usando o aplicativo e-Bupot. 
 

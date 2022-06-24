@@ -1,6 +1,6 @@
 ---
 title: Suporte e renovações
-description: Este tópico explica como configurar e usar o processo de suporte e renovação em ordens de venda para criar uma agenda de cobrança para itens de renovação.
+description: Este artigo explica como configurar e usar o processo de suporte e renovação em ordens de venda para criar uma agenda de cobrança para itens de renovação.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 7de74f2b12e8e7201663ba78d936131b301b1ff9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b40e0136883d909755480a3ce101627297bd9ffb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896511"
 ---
 # <a name="support-and-renewals"></a>Suporte e renovações 
 
-Este tópico explica como inserir itens de suporte ou itens de renovação ao inserir ordens de venda. Esses itens são usados para calcular o valor de encargos para o contrato de suporte original e/ou o valor de renovação que é usado quando uma agenda cobrança é criada na cobrança de assinatura. Por exemplo, sua empresa vende um servidor para um cliente e você oferece uma assinatura de backup pelo primeiro ano e a opção de renovar a assinatura todos os anos. O *item de suporte* é a assinatura do primeiro ano e o *item de renovação* é a renovação para cada ano sucessivo.
+Este artigo explica como inserir itens de suporte ou itens de renovação ao inserir ordens de venda. Esses itens são usados para calcular o valor de encargos para o contrato de suporte original e/ou o valor de renovação que é usado quando uma agenda cobrança é criada na cobrança de assinatura. Por exemplo, sua empresa vende um servidor para um cliente e você oferece uma assinatura de backup pelo primeiro ano e a opção de renovar a assinatura todos os anos. O *item de suporte* é a assinatura do primeiro ano e o *item de renovação* é a renovação para cada ano sucessivo.
 
 Você pode inserir informações sobre o contrato de suporte, o contrato de renovação ou ambos. Ao inserir as informações do contrato de suporte, somente o item de suporte é adicionado à ordem de venda. Ao inserir as informações de contrato de renovação, o item de renovação é usado para criar uma agenda de cobrança.
 

@@ -1,6 +1,6 @@
 ---
 title: Faturamento eletrônico para o Egito
-description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
+description: Este artigo fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904402"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Faturamento eletrônico para o Egito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito. Ele orienta você pelas etapas de configuração que dependem do país/região para o Regulatory Configuration Service (RCS). Essas etapas complementam as etapas descritas em [Configuração do Faturamento eletrônico](e-invoicing-set-up-overview.md).
+Este artigo fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito. Ele orienta você pelas etapas de configuração que dependem do país/região para o Regulatory Configuration Service (RCS). Essas etapas complementam as etapas descritas em [Configuração do Faturamento eletrônico](e-invoicing-set-up-overview.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de começar os procedimentos neste tópico, conclua os seguintes pré-requisitos:
+Antes de começar os procedimentos neste artigo, conclua os seguintes pré-requisitos:
 
 - Familiarize-se com o faturamento eletrônico, conforme descrito na [Visão geral do faturamento eletrônico](e-invoicing-service-overview.md).
 - Inscreva-se no RCS e configure o Faturamento Eletrônico. Para obter mais informações, consulte os seguintes tópicos:

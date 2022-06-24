@@ -1,6 +1,6 @@
 ---
 title: Número de registros por diário
-description: Este tópico descreve o relacionamento entre diários e registros de ativos quando você cria uma aquisição de ativo fixo ou proposta de depreciação por meio de um trabalho em lotes. Você pode definir o número máximo de registros incluídos para cada aquisição e para depreciação.
+description: Este artigo descreve o relacionamento entre diários e registros de ativos quando você cria uma aquisição de ativo fixo ou proposta de depreciação por meio de um trabalho em lotes. Você pode definir o número máximo de registros incluídos para cada aquisição e para depreciação.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e37d40c30d784eea5ba097447f2b2e69920830a
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2dbd50963cf13f00e09b82e884cd8ebc0b67d424
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883319"
 ---
 # <a name="number-of-books-per-journal"></a>Número de registros por diário
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o relacionamento entre diários e registros de ativos quando você cria uma aquisição de ativo fixo ou proposta de depreciação por meio de um trabalho em lotes. Você pode definir o número máximo de registros incluídos para cada aquisição e para depreciação usando os campos da seção **Número de registros por diário** na guia **Geral** da página **Parâmetros de ativos fixos** (**Ativos fixos \> Configuração \> Parâmetros de ativos fixos**). Esses campos permitem que você distribua o número de registros de ativos por diário de aquisição e diário de depreciação.
+Este artigo descreve o relacionamento entre diários e registros de ativos quando você cria uma aquisição de ativo fixo ou proposta de depreciação por meio de um trabalho em lotes. Você pode definir o número máximo de registros incluídos para cada aquisição e para depreciação usando os campos da seção **Número de registros por diário** na guia **Geral** da página **Parâmetros de ativos fixos** (**Ativos fixos \> Configuração \> Parâmetros de ativos fixos**). Esses campos permitem que você distribua o número de registros de ativos por diário de aquisição e diário de depreciação.
 
 Para uma proposta de aquisição, o valor padrão é de pelo menos 10.000 registros. Para uma proposta de depreciação, o valor padrão é de pelo menos 2.000 registros.
 

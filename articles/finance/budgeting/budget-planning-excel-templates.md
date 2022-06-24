@@ -1,6 +1,6 @@
 ---
 title: Modelos de plano de orçamento para Excel
-description: Este tópico descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento.
+description: Este artigo descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872489"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelos de plano de orçamento para Excel
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento.
+Este artigo descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento.
 
-Este tópico mostra como criar modelos do Excel que serão usados com planos de orçamento por meio do conjunto de dados de demonstração padrão e do logon de usuário Administrador. Para obter mais informações sobre planejamento de orçamento, consulte [Visão geral do planejamento de orçamento.](budget-planning-overview-configuration.md). Você também pode acompanhar o tutorial [Planejamento de orçamento](budget-plan.md) para aprender os princípios básicos de configuração e uso de módulos.
+Este artigo mostra como criar modelos do Excel que serão usados com planos de orçamento por meio do conjunto de dados de demonstração padrão e do logon de usuário Administrador. Para obter mais informações sobre planejamento de orçamento, consulte [Visão geral do planejamento de orçamento.](budget-planning-overview-configuration.md). Você também pode acompanhar o tutorial [Planejamento de orçamento](budget-plan.md) para aprender os princípios básicos de configuração e uso de módulos.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Gerar uma planilha usando o layout de documento de plano de orçamento
 
-Documentos de plano de orçamento podem ser exibidos e editados com um ou vários layouts. Cada layout pode ter um modelo de documento de plano de orçamento associado para exibir e editar os dados do plano de orçamento em uma planilha do Excel. Neste tópico, um modelo de documento de plano de orçamento será gerado por meio de uma configuração de layout existente. 
+Documentos de plano de orçamento podem ser exibidos e editados com um ou vários layouts. Cada layout pode ter um modelo de documento de plano de orçamento associado para exibir e editar os dados do plano de orçamento em uma planilha do Excel. Neste artigo, um modelo de documento de plano de orçamento será gerado por meio de uma configuração de layout existente. 
 
 1. Abra a **Lista de planos de orçamento** (**Orçamento** &gt; **Planos de orçamento**). 
 2. Clique em **Novo** para criar um novo documento de plano de orçamento. 

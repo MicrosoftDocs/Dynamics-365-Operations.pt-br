@@ -1,6 +1,6 @@
 ---
 title: Criar planos de remuneração variável
-description: Este tópico descreve os componentes que devem ser configurados antes de usar uma remuneração variável e inscrever um funcionário em um plano de remuneração variável.
+description: Este artigo descreve os componentes que devem ser configurados antes de usar uma remuneração variável e inscrever um funcionário em um plano de remuneração variável.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 589990c48d115266b57589f905de20572e76a040
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853064"
 ---
 # <a name="create-variable-compensation-plans"></a>Criar planos de remuneração variável
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688647"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-A remuneração variável compõe o pagamento irregular de um funcionário, como bônus ou prêmios de estoque. Este tópico explica como configurar os componentes necessários para a remuneração variável e inscrever um funcionário em um plano de remuneração variável.
+A remuneração variável compõe o pagamento irregular de um funcionário, como bônus ou prêmios de estoque. Este artigo explica como configurar os componentes necessários para a remuneração variável e inscrever um funcionário em um plano de remuneração variável.
 
 O cálculo de valores de remuneração variável para os funcionários pode se basear em vários fatores, como o desempenho do funcionário, o nível de remuneração de um funcionário e o desempenho do departamento.
 

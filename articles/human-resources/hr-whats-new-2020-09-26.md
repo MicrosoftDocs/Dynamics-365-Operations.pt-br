@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources 26 de setembro de 2020
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 26 de setembro de 2020.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 26 de setembro de 2020.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874236"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources 26 de setembro de 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061375"
 
 
 
-Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
+Este artigo descreve os recursos novos, alterados ou que serão lançados em breve no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
 Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -46,9 +46,9 @@ O seguinte recurso está geralmente disponível nesta versão:
 As seguintes correções de bug estão incluídas nessa versão.
 
 > [!NOTE]
-> Nosso objetivo é obter essas informações para você o mais rápido possível. Este tópico poderá ser atualizado para incluir correções de bugs feitas no build após a publicação inicial deste tópico.
+> Nosso objetivo é obter essas informações para você o mais rápido possível. Este artigo poderá ser atualizado para incluir correções de bugs feitas no build após a publicação inicial deste artigo.
 
-| Número do problema | Problema | descrição |
+| Número do problema | Problema | Descrição |
 | --- | --- | --- |
 | 469495 | Atualizar grade e caixa de diálogo de dimensões financeiras padrão | A grade e caixa de diálogo de dimensões financeiras é atualizada por meio do Human Resources. |
 | 474887 | Item de trabalho de solicitação de licença abre o link errado em uma decisão manual | Quando uma configuração de fluxo de trabalho contém uma decisão manual, a navegação para a solicitação de licença de **Itens de trabalho atribuídos a mim** abre o link errado, mostrando um formulário em branco ou uma solicitação de licença criada pelo usuário atual, em vez do atribuído a ele para a decisão manual. |

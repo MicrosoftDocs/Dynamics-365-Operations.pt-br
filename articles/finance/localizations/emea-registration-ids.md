@@ -1,6 +1,6 @@
 ---
 title: IDs de Registro
-description: Este tópico fornece informações sobre configuração e uso das IDs de registro.
+description: Este artigo fornece informações sobre configuração e uso das IDs de registro.
 author: ShylaThompson
 ms.date: 11/08/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 379cf78ece388f738fad8121d5b0adb4434d7905
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883065"
 ---
 # <a name="registration-ids"></a>IDs de Registro
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre configuração e uso das IDs de registro.
+Este artigo fornece informações sobre configuração e uso das IDs de registro.
 
-Muitos países e regiões possuem requisitos e regulamentações diferentes para registrar números de inscrição ou IDs. Este tópico fornece uma visão geral das configurações necessárias e o processamento de tipos de registro suportados para os participantes de países/regiões diferentes da Europa. Todos os países/regiões têm os requisitos de suporte a várias funcionalidades específicas do país relacionadas aos números de registro fornecidos pelos diferentes órgãos estaduais. Os exemplos de números de registro incluem, Cadastro de Pessoas Físicas (CPF), Número de Identificação do Imposto (TIN) e Identificação europeia de IVA (ID de IVA da UE). Este recurso fornece a estrutura unificada para todos os países em todas as regiões, considerando requisitos específicos de país e de alguns países europeus. As seções a seguir descrevem o fluxo geral de informações usadas para configurar e processar IDs de registro.
+Muitos países e regiões possuem requisitos e regulamentações diferentes para registrar números de inscrição ou IDs. Este artigo fornece uma visão geral das configurações necessárias e o processamento de tipos de registro suportados para os participantes de países/regiões diferentes da Europa. Todos os países/regiões têm os requisitos de suporte a várias funcionalidades específicas do país relacionadas aos números de registro fornecidos pelos diferentes órgãos estaduais. Os exemplos de números de registro incluem, Cadastro de Pessoas Físicas (CPF), Número de Identificação do Imposto (TIN) e Identificação europeia de IVA (ID de IVA da UE). Este recurso fornece a estrutura unificada para todos os países em todas as regiões, considerando requisitos específicos de país e de alguns países europeus. As seções a seguir descrevem o fluxo geral de informações usadas para configurar e processar IDs de registro.
 
 ## <a name="registration-type-creation"></a>Criação de tipos de registro
 Antes de inserir a ID de registro, é necessário configurar os tipos de registros para os diferentes tipos de números de registro ao qual cada participante está sujeito. Vá até a página **Administração da organização** &gt; **Catálogo de endereços global** &gt; **Tipos de registro** &gt; **Tipos de registro**  para criar e gerenciar tipos de registros para fornecedores, clientes, trabalhadores e entidades legais em diferentes países/regiões.
@@ -51,7 +51,7 @@ A categoria de registro é o identificador de registro do país/região aprovado
 |-----------------------|----------------|
 | Tipo de registro     | O tipo de registro em determinado país/região.|
 | Restrito a         | O tipo de restrição que se aplica ao tipo de registro de imposto: Nenhum, pessoa, organização.|
-| Categoria de registro | O identificador exclusivo do registro aprovado para uso no país. A lista completa de categorias com suporte é mostrada posteriormente neste tópico. |
+| Categoria de registro | O identificador exclusivo do registro aprovado para uso no país. A lista completa de categorias com suporte é mostrada posteriormente neste artigo. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Insira IDs de registro para registros de catálogo de endereços global
 

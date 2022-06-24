@@ -1,6 +1,6 @@
 ---
-title: Numerar documentos e comprovantes cronologicamente
-description: Este tópico explica como configurar e usar números cronológicos para documentos aplicáveis e comprovantes relacionados.
+title: Numeração de documentos e comprovantes cronologicamente
+description: Este artigo explica como configurar e usar números cronológicos para documentos aplicáveis e comprovantes relacionados.
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6baf307406982e8f72acc0d02f047dbc7c63a5ed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692663"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876373"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numerar documentos e comprovantes cronologicamente
 
 [!include [banner](../includes/banner.md)]
 
 
-Em alguns países, há um requisito legal para numerar documentos e comprovantes relacionados em ordem cronológica. A cronologia deve ter suporte de períodos. Todos os números pertencentes a períodos anteriores devem ser menores que os números pertencentes a períodos posteriores. Para atender a esse requisito, a funcionalidade de numeração cronológica foi implementada. Este tópico explica como configurar e usar números cronológicos para documentos aplicáveis e comprovantes relacionados.
+Em alguns países, há um requisito legal para numerar documentos e comprovantes relacionados em ordem cronológica. A cronologia deve ter suporte de períodos. Todos os números pertencentes a períodos anteriores devem ser menores que os números pertencentes a períodos posteriores. Para atender a esse requisito, a funcionalidade de numeração cronológica foi implementada. Este artigo explica como configurar e usar números cronológicos para documentos aplicáveis e comprovantes relacionados.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

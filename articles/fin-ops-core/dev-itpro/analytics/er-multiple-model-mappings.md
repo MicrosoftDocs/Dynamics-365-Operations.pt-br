@@ -1,6 +1,6 @@
 ---
 title: Gerenciar vários mapeamentos derivados para uma única raiz de modelo
-description: Este tópico explica como gerenciar vários mapeamentos derivados que foram configurados para uma única raiz de modelo.
+description: Este artigo explica como gerenciar vários mapeamentos derivados que foram configurados para uma única raiz de modelo.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892469"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gerenciar vários mapeamentos derivados para uma única raiz de modelo
 
@@ -32,9 +32,9 @@ Os componentes de mapeamento do modelo de ER podem residir nas [configurações]
 
 Muitos provedores de configuração podem oferecer configurações de mapeamento de modelos de ER para o mesmo modelo de dados de ER. Essas configurações de mapeamento de modelos podem conter componentes de mapeamento para diferentes definições raiz. Você pode usar um mapeamento de modelo para uma definição raiz oferecida por um [provedor](general-electronic-reporting.md#Provider) e usar um mapeamento de modelo para outra definição raiz oferecida por outro provedor.
 
-Os procedimentos deste tópico explicam como gerenciar várias configurações de mapeamento de modelos de ER de um modelo de dados de ER quando eles contêm componentes de mapeamento de modelos diferentes configurados para a mesma definição raiz. 
+Os procedimentos deste artigo explicam como gerenciar várias configurações de mapeamento de modelos de ER de um modelo de dados de ER quando eles contêm componentes de mapeamento de modelos diferentes configurados para a mesma definição raiz. 
 
-Para concluir os procedimentos deste tópico, você deve ter a função de Administrador do sistema ou Desenvolvedor de relatório eletrônico.
+Para concluir os procedimentos deste artigo, você deve ter a função de Administrador do sistema ou Desenvolvedor de relatório eletrônico.
 
 Todos os procedimentos a seguir podem ser feitos na empresa USMF. Nenhum código é necessário.
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar o faturamento eletrônico
-description: Este tópico fornece uma visão geral do processo para preparar e configurar o faturamento eletrônico.
+description: Este artigo fornece uma visão geral do processo para preparar e configurar o faturamento eletrônico.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883109"
 ---
 # <a name="electronic-invoicing-setup"></a>Configurar o faturamento eletrônico
 
 [!include [banner](../includes/banner.md)]
 
-O tópico fornece uma visão geral do processo para preparar e configurar o faturamento eletrônico. Você deve concluir as etapas de configuração na ordem especificada aqui. Se uma etapa for obrigatória, mas você a ignorar, o recurso não funcionará corretamente e várias falhas ocorrerão durante as etapas subsequentes ou quando você usar o recurso. 
+O artigo fornece uma visão geral do processo para preparar e configurar o faturamento eletrônico. Você deve concluir as etapas de configuração na ordem especificada aqui. Se uma etapa for obrigatória, mas você a ignorar, o recurso não funcionará corretamente e várias falhas ocorrerão durante as etapas subsequentes ou quando você usar o recurso. 
 
 Antes de começar, verifique se todos os componentes principais estão configurados corretamente, se você se inscreveu no Regulatory Configuration Service (RCS) e tem uma instância do RCS e se o suplemento de faturamento eletrônico está instalado no ambiente do Microsoft Dynamics 365 Finance ou do Dynamics 365 Supply Chain Management. Para obter mais informações, consulte [Inscrição e instalação do Faturamento eletrônico](e-invoicing-install-add-in-microservices-lcs.md).
 

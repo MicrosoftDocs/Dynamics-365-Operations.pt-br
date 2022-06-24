@@ -1,6 +1,6 @@
 ---
 title: Funcionário da folha de pagamento
-description: Este tópico fornece detalhes e um exemplo de consulta da entidade Funcionário da folha de pagamento no Dynamics 365 Human Resources.
+description: Este artigo fornece detalhes e um exemplo de consulta da entidade Funcionário da folha de pagamento no Dynamics 365 Human Resources.
 author: jcart
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e853a8a5730d397f253c8ce3a330794594dfd907
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b07fbc76b997600b2c076c00a63d1f6d865326d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872200"
 ---
 # <a name="payroll-employee"></a>Funcionário da folha de pagamento
 
@@ -27,7 +27,7 @@ ms.locfileid: "8068475"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico descreve a entidade Funcionário da folha de pagamento para o Dynamics 365 Human Resources.
+Este artigo descreve a entidade Funcionário da folha de pagamento para o Dynamics 365 Human Resources.
 
 Nome físico: mshr_payrollemployeeentity.
 

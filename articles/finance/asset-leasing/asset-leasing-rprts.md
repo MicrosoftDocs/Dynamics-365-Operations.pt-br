@@ -1,6 +1,6 @@
 ---
 title: Relatórios de arrendamento de ativos
-description: Este tópico lista e descreve brevemente os relatórios disponíveis para arrendamento de ativos.
+description: Este artigo lista e descreve brevemente os relatórios disponíveis para arrendamento de ativos.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856702"
 ---
 # <a name="asset-leasing-reports"></a>Relatórios de arrendamento de ativos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista e descreve brevemente os relatórios disponíveis para arrendamento de ativos. A maioria dos relatórios é exibida ao concluir essas etapas ou etapas que são muito semelhantes, conforme observados. 
+Este artigo lista e descreve brevemente os relatórios disponíveis para arrendamento de ativos. A maioria dos relatórios é exibida ao concluir essas etapas ou etapas que são muito semelhantes, conforme observados. 
 
 - Para exibir a maioria dos relatórios de arrendamento de ativos, Acesse **Arrendamento de ativos > consultas e relatórios > relatórios de arrendamento** e selecione um relatório para exibir. Para os relatórios que exigem um caminho de seleção diferente, as etapas para abrir o relatório são incluídas na descrição desse relatório. 
 - Quando você seleciona um relatório para imprimir, é aberta uma página de parâmetros que permite filtrar as informações incluídas no relatório. Insira os critérios de filtragem e selecione **OK** para gerar o relatório. O relatório gerado mostrará as informações que estão nos filtros especificados.

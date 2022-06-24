@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas de configuração do Finance Insights
-description: Este tópico lista problemas que podem ocorrer ao usar os recursos da Finance insights. Ele também explica como corrigir esses problemas.
+description: Este artigo lista problemas que podem ocorrer ao usar os recursos do Finance Insights. Ele também explica como corrigir esses problemas.
 author: panolte
 ms.date: 02/11/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846905"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Solucionar problemas de configuração do Finance Insights
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista problemas que podem ocorrer ao usar os recursos da Finance insights. Ele também explica como corrigir esses problemas.
+Este artigo lista problemas que podem ocorrer ao usar os recursos do Finance Insights. Ele também explica como corrigir esses problemas.
 
 ## <a name="symptom-why-cant-i-map-the-customer-payment-insights-data-integration-template-destination-column"></a>Sintoma: por que não consigo mapear a coluna destino do modelo de integração de dados de insights de pagamento do cliente?
 
@@ -121,4 +121,4 @@ O recurso **Proposta de orçamento** exige um mínimo de três anos de orçament
 
 ### <a name="resolution"></a>Resolução
 
-O ambiente atingiu o limite máximo de tabela de Serviços do Data Lake. Para obter mais informações sobre o limite, consulte a seção **Habilitar alterações de dados quase em tempo real** do tópico [Visão geral da Exportação para o Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).
+O ambiente atingiu o limite máximo de tabela de Serviços do Data Lake. Para obter mais informações sobre o limite, consulte a seção **Habilitar alterações de dados quase em tempo real** do artigo [Visão geral da Exportação para o Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).

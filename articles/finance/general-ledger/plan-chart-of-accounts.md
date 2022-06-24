@@ -1,6 +1,6 @@
 ---
-title: ​Planejar seu plano de contas​
-description: Este tópico fornece informações que o ajudarão a planejar o plano de contas para sua organização.
+title: Planejar seu plano de contas
+description: Este artigo fornece informações as quais o ajudarão a planejar o plano de contas para sua organização.
 author: aprilolson
 ms.date: 04/02/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734276a736cfdb91ec3a129c83dae1c0a6d3955
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853338"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Planejar seu plano de contas
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações que o ajudarão a planejar o plano de contas para sua organização.
+Este artigo fornece informações as quais o ajudarão a planejar o plano de contas para sua organização.
 
 Para rastrear e manter as informações financeiras em uma organização, você pode configurar um plano de contas. Um plano de contas é um conjunto de contas que definem uma estrutura financeira. Para rastrear outras transações nessas contas, você pode adicionar segmentos. Esses segmentos são conhecidos como dimensões financeiras. Por exemplo, uma conta de despesas pode incluir as dimensões financeiras denominadas Departamento, Centro de custos e Finalidade. As regras definidas pelo usuário determinam como as dimensões financeiras são anexadas às contas principais e às outras dimensões financeiras, e também como as transações podem ser inseridas. Essas regras definidas pelo usuário são conhecidas como estruturas de conta e regras avançadas.
 

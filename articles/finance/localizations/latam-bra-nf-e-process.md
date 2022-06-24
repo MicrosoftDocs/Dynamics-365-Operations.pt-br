@@ -1,6 +1,6 @@
 ---
 title: Visão geral do processo de NF-e do Brasil
-description: Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
+description: Este artigo fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
 author: sndray
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b56ea99cdfccb77f1d71277d1cbafcbca411af55
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 536664b2b651c54aa76631f6f3d81fa3bfe050d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902999"
 ---
 # <a name="brazil-nf-e-process-overview"></a>Visão geral do processo de NF-e do Brasil 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
+Este artigo fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
 
 Você pode usar uma Nota Fiscal eletrônica (NF-e) para registrar a movimentação de itens e serviços entre dois participantes. Você pode gerar uma NF-e de qualquer uma das seguintes notas fiscais:
 

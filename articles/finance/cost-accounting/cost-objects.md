@@ -1,6 +1,6 @@
 ---
 title: Dimensões de objeto de custo
-description: Quando você a analisar custos, dimensões de usar elementos de custo estimado para determinar onde os custos a interno. Use dimensões de objeto de custo para determinar onde atribua custos. Este tópico fornece informações sobre dimensões de objeto de custo.
+description: Quando você a analisar custos, dimensões de usar elementos de custo estimado para determinar onde os custos a interno. Use dimensões de objeto de custo para determinar onde atribua custos. Este artigo fornece informações sobre dimensões de objeto de custo.
 author: AndersGirke
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf9ebda3ab362112c9354595b7d554355b30f118
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3ee481b9dafe202e0a850a31b6ab036d52a20547
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874628"
 ---
 # <a name="cost-object-dimensions"></a>Dimensões de objeto de custo
 
 [!include [banner](../includes/banner.md)]
 
-Quando você a analisar custos, dimensões de usar elementos de custo estimado para determinar onde os custos a interno. Use dimensões de objeto de custo para determinar onde atribua custos. Este tópico fornece informações sobre dimensões de objeto de custo.
+Quando você a analisar custos, dimensões de usar elementos de custo estimado para determinar onde os custos a interno. Use dimensões de objeto de custo para determinar onde atribua custos. Este artigo fornece informações sobre dimensões de objeto de custo.
 
 Um objeto de custo previsto pode ser qualquer tipo de objeto ao qual você deseja prever, alocar custos, ou os para medir diretamente. Os objetos de custo previsto típicos incluem produto, recursos, projetos, departamentos, centros de custo, e regiões em. O gerenciamento usa objetos de custo para quantificar custos e realizar análises de lucratividade.
 

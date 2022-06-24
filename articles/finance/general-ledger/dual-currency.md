@@ -1,6 +1,6 @@
 ---
 title: Moeda dupla
-description: Este tópico fornece informações sobre moeda dupla, em que a moeda de relatório é usada como uma segunda moeda contábil para o Microsoft Dynamics 365 Finance.
+description: Este artigo fornece informações sobre moeda dupla, em que a moeda de relatório é usada como uma segunda moeda contábil para o Microsoft Dynamics 365 Finance.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906345"
 ---
 # <a name="dual-currency"></a>Moeda dupla
 
@@ -36,7 +36,7 @@ Além disso, diversos módulos foram aprimorados para rastrear, relatar e usar a
 - Ativos fixos 
 - Consolidações
 
-Após um upgrade, você deve completar etapas específicas para o Gerenciamento de caixa e de bancos e Ativos fixos. Portanto, leia e entenda as seções relevantes deste tópico.
+Após um upgrade, você deve completar etapas específicas para o Gerenciamento de caixa e de bancos e Ativos fixos. Portanto, leia e entenda as seções relevantes deste artigo.
 
 ## <a name="posting-process"></a>Processo de lançamento
 
@@ -93,7 +93,7 @@ As seguintes alterações adicionais foram efetuadas no módulo **Contabilidade*
 - Um tipo de taxa de câmbio separado para a moeda de relatório pode ser definido no razão. Se uma organização não quiser usar um tipo de taxa de câmbio diferente, você poderá deixar o campo do tipo de taxa de câmbio para a moeda de relatório em branco. Como alternativa, você pode selecionar o mesmo tipo de taxa de câmbio usado para a moeda contábil. Se você deixar o campo em branco, o sistema usará o tipo de taxa de câmbio para a moeda contábil.
 - Um novo diário, o Diário de ajuste de moeda de relatório, permite que os ajustes sejam lançados nas contas contábeis somente na moeda de relatório. O diário permite o lançamento somente nas contas contábeis. Ele não dá suporte a intercompanhia, e a moeda deve ser a moeda de relatório da entidade legal onde o diário é lançado. Quando o diário é lançado, os valores na moeda da transação e na moeda contábil são 0 (zero) e o valor na moeda de relatório é lançado com o valor inserido na transação. Como a maneira como a moeda de relatório é usada nos módulos **Contas a pagar**, **Contas a receber** e **Ativos fixos** foi alterada, esse diário poderá ser usado para ajustes depois de um upgrade. Para obter exemplos que mostram como esse diário pode ser usado, consulte as seções sobre aqueles módulos.
 - O processo de alocação de período foi atualizado de modo que alocasse valores nas moedas de transação, contábil e de relatório. Anteriormente, os valores eram alocados nas moedas da transação e contábil, e então o valor na moeda contábil era convertido na moeda de relatório. Esse comportamento poderia fazer com qeu um saldo permanecesse na conta contábil na moeda de relatório. Agora, quando os valores são calculados e usados na entrada contábil, não ocorre a conversão.
-- O processo para a reavaliação de moeda estrangeira já reavaliou valores na moeda de relatório. Entretanto, o valor na moeda de relatório agora é calculado por meio do valor na moeda da transação, como descrito na seção [Processo de lançamento](#posting-process) anteriormente neste tópico.
+- O processo para a reavaliação de moeda estrangeira já reavaliou valores na moeda de relatório. Entretanto, o valor na moeda de relatório agora é calculado por meio do valor na moeda da transação, como descrito na seção [Processo de lançamento](#posting-process) anteriormente neste artigo.
 - Muitos relatórios e consultas na Contabilidade já tinham a moeda de relatório, mas alguns não. Um exemplo é a página de listagem **Balancete**. Essa página de listagem inclui agora colunas para a moeda contábil e a moeda de relatório. Observe que as colunas da moeda de relatório estarão ocultas se a moeda contábil e a moeda de relatório forem iguais, ou se nenhuma moeda de relatório tiver sido definida no razão.
 
 ### <a name="financial-reporting"></a>Relatório financeiro

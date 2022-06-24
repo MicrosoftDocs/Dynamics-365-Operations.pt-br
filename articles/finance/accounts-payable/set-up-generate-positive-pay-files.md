@@ -1,6 +1,6 @@
 ---
 title: Configurar e gerar arquivos de pagamento positivo
-description: Este tópico explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo.
+description: Este artigo explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo.
 author: panolte
 ms.date: 03/06/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: eb5a9595ea1a93a9b15348eb1b291d744f660d40
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6b3cff1029b02aaabef2ea9795ab9912f20f1129
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871410"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Configurar e gerar arquivos de pagamento positivo
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo. 
+Este artigo explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo. 
 
 Configure o pagamento positivo para gerar uma lista eletrônica de cheques que é fornecida ao banco. Então, quando o cheque é apresentado ao banco, o banco o compara à lista de cheques. Se o cheque corresponder a um cheque na lista, o banco o liberará. Se o cheque não corresponder a um cheque na lista, o banco o reterá para revisão.
 

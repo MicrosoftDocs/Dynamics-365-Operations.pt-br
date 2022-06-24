@@ -1,6 +1,6 @@
 ---
 title: ER Projetar modelo de dados de domínio específico
-description: Este tópico descreve como criar uma nova configuração de Relatório Eletrônico (ER) que contém um modelo de dados para documentos de pagamento eletrônico.
+description: Este artigo descreve como criar uma nova configuração de Relatório Eletrônico (ER) que contém um modelo de dados para documentos de pagamento eletrônico.
 author: NickSelin
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16d76d243779f83646f14418a12c9c895fdf043451d82bd7062289be6cd8014a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c923ed6ec817d1f4ae6cd956c06b2156a6a61311
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728713"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908432"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Projetar modelo de dados de domínio específico
 

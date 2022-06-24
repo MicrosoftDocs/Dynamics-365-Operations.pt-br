@@ -1,6 +1,6 @@
 ---
 title: Obtenha um desconto maior do que o calculado para um pagamento de fornecedor
-description: Este tópico percorre um cenário onde um desconto à vista é dado para um valor maior do que o desconto originalmente disponível na fatura. Esse cenário que pode ocorrer se uma organização firmar um contrato com o fornecedor para pagar um valor menor na fatura.
+description: Este artigo percorre um cenário onde um desconto à vista é dado para um valor maior do que o desconto originalmente disponível na fatura. Esse cenário que pode ocorrer se uma organização firmar um contrato com o fornecedor para pagar um valor menor na fatura.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd8fd2fcbc56a91c0bcabfd2fc51e9ff62fe3994
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: df8f1aa7e0af3a44ec49d84b6ca095a484834c14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888054"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Obtenha um desconto maior do que o calculado para um pagamento de fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico percorre um cenário onde um desconto à vista é dado para um valor maior do que o desconto originalmente disponível na fatura. Esse cenário que pode ocorrer se uma organização firmar um contrato com o fornecedor para pagar um valor menor na fatura. 
+Este artigo percorre um cenário onde um desconto à vista é dado para um valor maior do que o desconto originalmente disponível na fatura. Esse cenário que pode ocorrer se uma organização firmar um contrato com o fornecedor para pagar um valor menor na fatura. 
 
 O fornecedor 3051 oferece à Fabrikam um desconto à vista de 4% se uma fatura for paga em sete dias. Em 29 de junho, Amanda insere uma fatura de 1.000,00. O fornecedor deixa Amanda obter um desconto de 60,00 em vez de o desconto padrão de 40,00 disponível para a fatura. Amanda registra um pagamento único usando o diário de pagamentos Contas a pagar. Ela entra no fornecedor para o pagamento e abre a página **Liquidar transações**. Ela marca a fatura e altera o valor no campo **Valor do desconto à vista** para **60,00**.
 

@@ -1,6 +1,6 @@
 ---
 title: Receita não faturada
-description: Este tópico explica como configurar items e contas para usar o recurso de receita não faturada na Cobrança de assinatura.
+description: Este artigo explica como configurar itens e contas para usar o recurso de receita não faturada na Cobrança de assinatura.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a70786291822a85ec41c98ab8ce706f2ad79b08d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879672"
 ---
 # <a name="unbilled-revenue"></a>Receita não faturada
 
-Este tópico descreve o recurso de receita não faturada que permite incluir os valores de todas as agendas de cobrança no balanço. Esses valores são incluídos em uma conta de receita não faturada e em uma contrapartida de receita não faturada, e o contrato é cobrado em prestações.
+Este artigo descreve o recurso de receita não faturada que permite incluir os valores de todas as agendas de cobrança no balanço. Esses valores são incluídos em uma conta de receita não faturada e em uma contrapartida de receita não faturada, e o contrato é cobrado em prestações.
 
 ## <a name="set-up-unbilled-revenue"></a>Configurar receita não faturada
 

@@ -1,6 +1,6 @@
 ---
 title: Conjuntos de dimensões financeiras
-description: Este tópico descreve os conjuntos de dimensões financeiras e fornece algumas dicas para otimizar o uso.
+description: Este artigo descreve os conjuntos de dimensões financeiras e fornece algumas dicas para otimizar o uso.
 author: yukonpeegs
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c583a2a89b45b59ea76ffd8e38b6206c9ca9ed41
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3d4c15504b2ad128493e1bafa36aed271c2ab6dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864271"
 ---
 # <a name="financial-dimension-sets"></a>Conjuntos de dimensões financeiras
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os conjuntos de dimensões financeiras e fornece algumas dicas para otimizar o uso.
+Este artigo descreve os conjuntos de dimensões financeiras e fornece algumas dicas para otimizar o uso.
 
 Um conjunto de dimensões é uma lista ordenada de dimensões financeiras que podem ser usadas para resumir os dados da contabilidade de forma definida pelo usuário. Um uso principal de conjuntos de dimensões é definir um balancete.
 

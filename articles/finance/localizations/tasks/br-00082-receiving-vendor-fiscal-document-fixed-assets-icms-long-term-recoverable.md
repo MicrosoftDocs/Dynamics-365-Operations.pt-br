@@ -1,6 +1,6 @@
 ---
 title: Receber notas fiscais de fornecedor (ativos fixos - ICMS recuperável de longo prazo) (Brasil)
-description: Este tópico explica como lançar uma nota fiscal recebida da aquisição de ativos fixos e recuperar os impostos ICMS.
+description: Este artigo explica como lançar um documento fiscal recebido da aquisição de ativos fixos e recuperar os impostos ICMS.
 author: sndray
 ms.date: 06/24/2017
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24e34cf52df7ff6bd8248401d93ead480270986b
-ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
+ms.openlocfilehash: de49d0b4f688cbad15d5a80224a3c7cbece5633d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7601439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896167"
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---icms-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - ICMS recuperável de longo prazo) (Brasil)
 

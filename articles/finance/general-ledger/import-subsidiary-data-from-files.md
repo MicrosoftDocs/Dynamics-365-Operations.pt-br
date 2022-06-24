@@ -1,6 +1,6 @@
 ---
 title: Importar dados da subsidiária de arquivos
-description: Este tópico explica como preparar dados de sistemas externos para que possam ser importados para o Microsoft Dynamics 365 Finance.
+description: Este artigo explica como preparar dados de sistemas externos para que possam ser importados para o Microsoft Dynamics 365 Finance.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846760"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importar dados da subsidiária de arquivos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como preparar dados de sistemas externos para que possam ser importados para o Microsoft Dynamics 365 Finance. Use a página **Consolidar com importação** (**Consolidações \> Consolidar com importação**) para preparar a transferência de dados da subsidiária dos sistemas externos.
+Este artigo explica como preparar dados de sistemas externos para que possam ser importados para o Microsoft Dynamics 365 Finance. Use a página **Consolidar com importação** (**Consolidações \> Consolidar com importação**) para preparar a transferência de dados da subsidiária dos sistemas externos.
 
 1. Crie uma entidade legal subsidiária para a consolidação. Para obter informações sobre como criar entidades legais, consulte [Criar uma entidade legal](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Para obter mais informações, consulte [Preparar uma entidade legal para uso no processo de consolidação](prepare-company-for-consolidation.md) e [Configurar uma entidade legal subsidiária para consolidação](set-up-subsidiary-company-for-consolidation.md).
 

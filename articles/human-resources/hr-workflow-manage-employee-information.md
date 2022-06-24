@@ -1,6 +1,6 @@
 ---
 title: Usar fluxos de trabalho para gerenciar informações de funcionários
-description: Este tópico explica como você pode usar fluxos de trabalho para gerenciar informações de funcionários.
+description: Este artigo explica como você pode usar fluxos de trabalho para gerenciar informações de funcionários.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c416a82976bc39464006325f02f1af4d2f32ea4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908791"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Usar fluxos de trabalho para gerenciar informações de funcionários
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691516"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico explica como você pode usar o recurso de fluxo de trabalho para recursos humanos para gerenciar informações de funcionários. Por exemplo, você pode associar um fluxo de trabalho a uma posição e configurar um fluxo de trabalho de aprovação que é iniciado quando os funcionários alteram seu registro.
+Este artigo explica como você pode usar o recurso de fluxo de trabalho para recursos humanos para gerenciar informações de funcionários. Por exemplo, você pode associar um fluxo de trabalho a uma posição e configurar um fluxo de trabalho de aprovação que é iniciado quando os funcionários alteram seu registro.
 
 A capacidade de fluxo de trabalho para Recursos Humanos fornece vários fluxos de trabalho para gerenciar atividades de recursos humanos. Além disso, várias opções estão disponíveis para que você possa modificar fluxos de trabalho específicos e associá-los a uma hierarquia de relatórios. Os fluxos de trabalho estão disponíveis para ajudar a gerenciar alterações a vários tipos de informações de funcionários. Você pode associar um fluxo de trabalho a uma posição. Em seguida, se os funcionários alterarem o registro do funcionário, será iniciado um fluxo de trabalho que requer aprovação antes que as novas informações sejam salvas. Os fluxos de trabalho são predefinidos para os seguintes tipos de informações para ajudá-lo a gerenciar com eficiência as alterações e manter os dados dos funcionários precisos:
 

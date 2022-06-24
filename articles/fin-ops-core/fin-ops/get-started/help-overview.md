@@ -1,6 +1,6 @@
 ---
 title: Sistema de ajuda (contém vídeo)
-description: Este tópico fornece uma visão geral do sistema da Ajuda para aplicativos de finanças e operações.
+description: Este artigo fornece uma visão geral do sistema da Ajuda para aplicativos de finanças e operações.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898359"
 ---
 # <a name="help-system"></a>Sistema de ajuda
 
@@ -70,7 +70,7 @@ Alternativamente, você pode assinar um RSS feed por aplicativo:
 
 ### <a name="leave-us-feedback"></a>Deixe seus comentários
 
-Se você tiver dúvidas ou comentários sobre um tópico, deixe-nos um comentário na parte inferior da página.
+Se você tiver dúvidas ou comentários sobre um artigo, deixe-nos um comentário na parte inferior da página.
 
 1. Selecione **Comentários** para acessar os comentários na parte inferior da página. Em seguida, selecione **Comentários sobre o produto** ou **Entre para fazer comentários sobre a documentação**.
 
@@ -83,7 +83,7 @@ Se você tiver dúvidas ou comentários sobre um tópico, deixe-nos um comentár
 
 ## <a name="contribute-to-the-documentation"></a>Colabore com a documentação
 
-Você pode colaborar e fazer edições na documentação. Para começar, selecione o botão **Editar** (símbolo de lápis) em um tópico. O vídeo a seguir mostra como você pode colaborar com a nossa documentação.
+Você pode colaborar e fazer edições na documentação. Para começar, selecione o botão **Editar** (símbolo de lápis) em um artigo. O vídeo a seguir mostra como você pode colaborar com a nossa documentação.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Para obter mais informações, consulte o [Guia de colaborador de docs](/contrib
 
 Um guia de tarefa é uma experiência controlada, guiada, interativa que irá guiá-lo durante as etapas de uma tarefa, ou processo comercial. Você pode abrir (executar) um guia de tarefa através do painel de **Ajuda**. Quando você selecionar pela primeira vez um guia de tarefas, o painel de **Ajuda** exibirá as instruções passo a passo para a tarefa. Os guias de tarefas localizados estão disponíveis.
 
-A Microsoft lançou bibliotecas de guias de tarefas para versões do produto na versão de dezembro de 2017 do Dynamics 365 for Finance and Operations. A seção [Acessando guias de tarefas através do painel de Ajuda](#accessing-task-guides-from-the-help-pane) deste tópico explica como localizar as guias de tarefas corretas para o seu produto.
+A Microsoft lançou bibliotecas de guias de tarefas para versões do produto na versão de dezembro de 2017 do Dynamics 365 for Finance and Operations. A seção [Acessando guias de tarefas pelo painel de Ajuda](#accessing-task-guides-from-the-help-pane) deste artigo explica como localizar as guias de tarefas corretas para o seu produto.
 
 ![Exibição de leitura do Guia de tarefas.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ Para acessar o conteúdo da ajuda, selecione o botão de **Ajuda** (**?**) e, de
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Acessando tópicos de Ajuda através do painel de Ajuda
 
-No painel de **Ajuda**, você pode acessar tópicos que se aplicam ao cliente. Ao abrir o painel de **Ajuda** pela primeira vez, a guia **Ajuda** mostra os tópicos que se aplicam à página em que você se encontra. Se nenhum tópico for encontrado, você poderá inserir palavras-chave para refinar a pesquisa. Quando você seleciona um tópico no painel de **Ajuda**, ele é aberto em uma nova guia no navegador.
+No painel de **Ajuda**, você pode acessar tópicos que se aplicam ao cliente. Ao abrir o painel de **Ajuda** pela primeira vez, a guia **Ajuda** mostra os tópicos que se aplicam à página em que você se encontra. Se nenhum tópico for encontrado, você poderá inserir palavras-chave para refinar a pesquisa. Quando você seleciona um artigo no painel de **Ajuda**, ele é aberto em uma nova guia no navegador.
 
 > [!IMPORTANT]
 > Esta seção não se aplica ao Dynamics 365 Human Resources. O sistema de Ajuda do Human Resources é automaticamente conectado às guias de tarefas do produto. Além disso, não é possível criar guias de tarefas personalizadas para o Human Resources.

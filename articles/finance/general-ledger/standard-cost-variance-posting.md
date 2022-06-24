@@ -1,6 +1,6 @@
 ---
 title: Lançamento de variação de custo padrão
-description: Este tópico fornece informações sobre como configurar o lançamento de perfis para cálculo de custo padrão.
+description: Este artigo fornece informações sobre como configurar o lançamento de perfis para cálculo de custo padrão.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: bc4f1bd7c1bf7a8f214f20460b10d371d8f3c790
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: e7b2d04f32b75dbd1354b3ef74a41ea1b6469c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894867"
 ---
 # <a name="standard-cost-variance-posting"></a>Lançamento de variação de custo padrão
 
-Ao usar o custo padrão para um ou mais produtos em sua organização, você deve configurar os [pré-requisitos de custo padrão](/supply-chain/cost-management/prerequisites-standard-costs.md). Este tópico explica as contas de lançamento necessárias para a etapa 3 dos pré-requisitos, "Atribuir contas contábeis a lançamentos de itens relacionados a variações de custo padrão".
+Ao usar o custo padrão para um ou mais produtos em sua organização, você deve configurar os [pré-requisitos de custo padrão](/supply-chain/cost-management/prerequisites-standard-costs.md). Este artigo explica as contas de lançamento necessárias para a etapa 3 dos pré-requisitos, "Atribuir contas contábeis a lançamentos de itens relacionados a variações de custo padrão".
 
 Diferentes tipos de variações podem ocorrer para compras e ordens de produção. Para obter exemplos de variações de produção, consulte [Fontes comuns de variações de produção](/supply-chain/cost-management/common-sources-of-production-variances.md). As variações de preço do pedido de compra ocorrem quando você usa o custo padrão para um item comprado e há uma diferença entre o custo padrão do produto e o valor faturado no pedido de compra.
 

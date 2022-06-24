@@ -1,6 +1,6 @@
 ---
 title: Descontinuar configurações no repositório Global do RCS
-description: Este tópico descreve como descontinuar as configurações no repositório global RCS.
+description: Este artigo descreve como descontinuar as configurações no repositório global RCS.
 author: JaneA07
 ms.date: 02/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4121f45a95e1712f21390c317af532662846a0fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894801"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Descontinuar configurações no repositório Global do RCS
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como descontinuar a configuração no repositório global RCS. Anteriormente, só foi possível excluir as configurações que não eram mais necessárias. No entanto, agora você pode marcar uma configuração liberada como **Descontinuada** no repositório Global do RCS. Com essa funcionalidade, você também pode fazer o seguinte: 
+Este artigo descreve como descontinuar configurações no repositório global RCS. Anteriormente, só foi possível excluir as configurações que não eram mais necessárias. No entanto, agora você pode marcar uma configuração liberada como **Descontinuada** no repositório Global do RCS. Com essa funcionalidade, você também pode fazer o seguinte: 
  
  - Fornecer notificações antecipadas quando uma configuração for planejada para ser descontinuada.
  - Inclua detalhes aplicáveis sobre a configuração de substituição.

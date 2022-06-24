@@ -1,6 +1,6 @@
 ---
 title: Configurar grupos de impostos do item
-description: Este tópico explica como configurar grupos de impostos do item no serviço de Cálculo de Imposto.
+description: Este artigo explica como configurar grupos de impostos do item no serviço Cálculo de Imposto.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 88dd8e2fd9d4d4e5172dcc7b1bd27a70a2f59f03
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3bc705bc8173ad2bc8ef883e6dc80b0a187314ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846453"
 ---
 # <a name="set-up-item-tax-groups"></a>Configurar grupos de impostos do item
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar grupos de impostos do item no serviço de Cálculo de Imposto. Ele também explica como configurar a matriz da regra de aplicabilidade do grupo de impostos do item e como configurar linhas na matriz.
+Este artigo explica como configurar grupos de impostos do item no serviço Cálculo de Imposto. Ele também explica como configurar a matriz da regra de aplicabilidade do grupo de impostos do item e como configurar linhas na matriz.
 
-O conceito de grupos de impostos do item no serviço de Cálculo de Imposto é semelhante ao conceito de grupos de impostos do item no Microsoft Dynamics 365 Finance. Eles são grupos de códigos de imposto. O serviço de Cálculo de Imposto usa a interseção de um grupo de impostos e um grupo de impostos de item para determinar os códigos de imposto.
+O conceito de grupos de impostos do item no serviço Cálculo de Imposto é semelhante ao conceito de grupos de impostos do item no Microsoft Dynamics 365 Finance. Eles são grupos de códigos de imposto. O serviço de Cálculo de Imposto usa a interseção de um grupo de impostos e um grupo de impostos de item para determinar os códigos de imposto.
 
 > [!IMPORTANT]
 > A configuração dos grupos de impostos do item no serviço de Cálculo de Imposto é agnóstica à entidade legal. Você pode concluir essa configuração no RCS (Regulatory Configuration Service) somente uma vez. Quando você habilitar o serviço de Cálculo de Imposto no Finance, os grupos de impostos do item serão sincronizados automaticamente com a entidade legal selecionada.

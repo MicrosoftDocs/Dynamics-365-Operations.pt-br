@@ -1,6 +1,6 @@
 ---
 title: Sincronizar a configuração de imposto do Serviço de Cálculo de Imposto com o Dynamics 365 Finance
-description: Este tópico explica como sincronizar dados mestre de configuração de imposto do Serviço de Cálculo de Imposto com o Microsoft Dynamics 365 Finance.
+description: Este artigo explica como sincronizar dados mestre de configuração de imposto do Serviço de Cálculo de Imposto com o Microsoft Dynamics 365 Finance.
 author: wangchen
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a9c11a6f5946d56b9e58a02c37f18adec155661
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b017a19834998e1c493b0a38c1b50accd8c7e630
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853147"
 ---
 # <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Sincronizar a configuração de imposto do Serviço de Cálculo de Imposto com o Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como sincronizar dados mestre de configuração de imposto do Serviço de Cálculo de Imposto com o Microsoft Dynamics 365 Finance.
+Este artigo explica como sincronizar dados mestre de configuração de imposto do Serviço de Cálculo de Imposto com o Microsoft Dynamics 365 Finance.
 
 Depois que você concluir as etapas de configuração necessárias em [Introdução ao cálculo de imposto](global-get-started-with-tax-calculation-service.md), os dados de configuração de imposto a seguir serão sincronizados automaticamente entre o Serviço de Cálculo de Imposto e o Finance.
 

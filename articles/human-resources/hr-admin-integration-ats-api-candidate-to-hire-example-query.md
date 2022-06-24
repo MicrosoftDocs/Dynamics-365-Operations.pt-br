@@ -1,6 +1,6 @@
 ---
 title: Exemplo de consulta de candidato a ser contratado
-description: Este tópico fornece um exemplo de consulta da entidade de candidato a ser contratado no Dynamics 365 Human Resources.
+description: Este artigo fornece um exemplo de consulta da entidade Candidato a ser contratado no Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2dd744665d4f0b6c64f4ee45a01c237081018514
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848332"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>Exemplo de consulta de candidato a ser contratado
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069212"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico fornece um exemplo de consulta da entidade de candidato a ser contratado no Dynamics 365 Human Resources.
+Este artigo fornece um exemplo de consulta da entidade Candidato a ser contratado no Dynamics 365 Human Resources.
 
-Este tópico fornece um exemplo demonstrando como você pode usar *inserções profundas* para criar todos os detalhes de um novo registro de candidato em uma única operação de API. Para obter mais informações sobre inserções profundas, consulte [Criar registros de entidades relacionadas em uma operação](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+Este artigo fornece um exemplo demonstrando como você pode usar *inserções profundas* para criar todos os detalhes de um novo registro de candidato em uma única operação de API. Para obter mais informações sobre inserções profundas, consulte [Criar registros de entidades relacionadas em uma operação](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 A entidade **mshr_hcmcandidatetohireentity** é única devido à sua relação com a entidade **mshr_dirpersonentity**. Muitas das propriedades em **mshr_hcmcandidatetohireentity** (por exemplo, **mshr_firstname**, **mshr_lastname** e **mshr_birthdate**) derivam do registro **mshr_dirpersonentity**. Se você lançar um novo registro de candidato em **mshr_hcmcandidatetohireentity** sem usar inserções profundas, poderá definir valores para essas propriedades diretamente no registro **mshr_hcmcandidatetohireentity**. O registro **mshr_dirpersonentity associado** é criado implicitamente com os valores definidos para as propriedades. Em seguida, você pode criar outros registros de entidades relacionadas (como habilidades ou educação) como chamadas separadas da API.
 

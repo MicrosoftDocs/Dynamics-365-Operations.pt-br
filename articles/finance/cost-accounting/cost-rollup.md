@@ -1,6 +1,6 @@
 ---
-title: Política de acúmulo de custos e cálculo de custos indiretos
-description: Este tópico fornece informações sobre como determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.
+title: ​Política de acúmulo de custos e cálculo de custos indiretos​
+description: Este artigo fornece informações sobre como determinar o nível correto de elementos de custo secundários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874599"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 
@@ -33,7 +33,7 @@ A contabilização de custos permite obter informações sobre como o fluxo de c
 -   O volume de entradas de custos geradas por cálculo de custos indiretos pode ser muito alto.
 -   Não é possível rastrear o fluxo de custo entre objetos de custo.
 
-Para evitar estas implicações, a contabilização de custos permite configurar a alocação de custo para ajustar-se nos requisitos de geração de relatórios gerenciais da organização. Este tópico discute como você pode determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.
+Para evitar estas implicações, a contabilização de custos permite configurar a alocação de custo para ajustar-se nos requisitos de geração de relatórios gerenciais da organização. Este artigo discute como você pode determinar o nível correto de elementos de custo secundários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.
 
 > [!NOTE]
 > Você pode alterar as configurações, se os requisitos de relatórios forem alterados.
@@ -46,7 +46,7 @@ Suponha que uma organização tem a seguinte estrutura com 4 centros de custo.
 
 **Dimensão de objeto de custo**
 
-| Centros de custos | descrição          |
+| Centros de custos | Descrição          |
 |--------------|-----------|
 | CC001        | HR        |
 | CC002        | Finanças   |
@@ -55,9 +55,9 @@ Suponha que uma organização tem a seguinte estrutura com 4 centros de custo.
 
 **Dimensão do elemento de custo**
 
-| Elementos de custo | descrição | Tipo    |
+| Elementos de custo | Descrição | Tipo    |
 |---------------|-------------|---------|
-| 1001          | eletricidade | Principal |
+| 1001          | Eletricidade | Principal |
 | 1002          | Salários    | Principal |
 | 1003          | Publicidade | Principal |
 
@@ -110,7 +110,7 @@ Depois que as entradas da contabilidade são processadas, o saldo de entrada de 
 
 **Dimensão estatística**
 
-| Elementos estatísticos |    descrição   |
+| Elementos estatísticos |    Descrição   |
 |----------------------|------------------|
 | SE-1                 | Serviços de RH      |
 | SE-2                 | Serviços financeiros |
@@ -119,7 +119,7 @@ O objeto de custo CC001 HR está contribuindo com serviços a vários objetos de
 
 Os serviços de RH são consumidos pela seguinte distribuição de magnitude.
 
-| Objeto de custo | descrição |   Serviços de RH |
+| Objeto de custo | Descrição |   Serviços de RH |
 |-------------|-------------|----|
 | CC002       | Finanças     | 35 |
 | CC003       | Montagem    | 55 |
@@ -129,14 +129,14 @@ O objeto de custo CC002 Finanças está contribuindo para vários objetos de cus
 
 Os serviços Financeiros são consumidos pela seguinte distribuição de magnitude.
 
-| Objeto de custo |   descrição    |  Serviços financeiros   |
+| Objeto de custo |   Descrição    |  Serviços financeiros   |
 |-------------|------------------|----|
 | CC003       | Montagem         | 65 |
 | CC004       | Embalagem        | 35 |
 
 As políticas de alocação de custo podem ser configuradas como segue.
 
-| Nome da política | descrição     | Hierarquia da dimensão de objeto de custo | Dimensão estatística | Dimensão do elemento de custo |
+| Nome da política | Descrição     | Hierarquia da dimensão de objeto de custo | Dimensão estatística | Dimensão do elemento de custo |
 |-------------|-----------------|---------------------------------|-----------------------|------------------------|
 | 2017        | Alocação de custos | Organização                    | Elementos estatísticos  | Elementos de custo          |
 
@@ -155,7 +155,7 @@ Os membros da dimensão do elemento de custo podem ser configurados como segue.
 
 | Elementos de custo | Tipo          |     &nbsp;    |
 |---------------|---------------|---------------|
-| 1001          | eletricidade   | Principal       |
+| 1001          | Eletricidade   | Principal       |
 | 1002          | Salários      | Principal       |
 | 1003          | Publicidade   | Principal       |
 | **SC-CC001**  | **RH**        | **Secundário** |
@@ -184,7 +184,7 @@ Crie **Política de acúmulo de custo** na qual cada centro de custos é mapeado
 
 **Política de acúmulo de custo**
 
-| Nome da política | descrição | Hierarquia da dimensão de objeto de custo | Hierarquia da dimensão de elemento de custo |
+| Nome da política | Descrição | Hierarquia da dimensão de objeto de custo | Hierarquia da dimensão de elemento de custo |
 |-------------|-------------|---------------------------------|----------------------------------|
 | 2017        | Fluxo de custo   | Organização                    | Demonstrativo de lucros e perdas          |
 
@@ -203,13 +203,13 @@ Crie **Política de acúmulo de custo** na qual cada centro de custos é mapeado
 
 | Diário | Tipo de diário            | Período do calendário fiscal | Ano | Período | Versão       |
 |---------|-------------------------|------------------------|------|--------|---------------|
-| 00002   | Diário de alocação de custos | fiscal                 | 2017    | Período 1 | Cálculo de custos gerais indiretos / 01-02-2017 11:51:00 PM / Razão/2017 / Período 1 |
+| 00002   | Diário de alocação de custos | Fiscal                 | 2017    | Período 1 | Cálculo de custos gerais indiretos / 01-02-2017 11:51:00 PM / Razão/2017 / Período 1 |
 
 O sistema então aplicará **Política de acúmulo de custo** quando criar as **Entradas de diário para saldo do objeto de custo**.
 
 **Entradas de diário para saldo do objeto de custo**
 
-| Data contábil | Objeto de custo | descrição  | Elemento de custo | descrição |  Valor |
+| Data contábil | Objeto de custo | Descrição  | Elemento de custo | Descrição |  Valor |
 |-----------------|-------------|--------------|----------|-----------|-----------|
 | 31/01/2017      | CC001       | RH           | SC-CC001 | RH        | 10.100,00 |
 | 31/01/2017      | CC002       | Finanças      | SC-CC002 | Finanças   | 17.735,00 |
@@ -225,16 +225,16 @@ A página **Detalhes da entrada de diário de saldo de custo do objeto de custo*
 
 **Detalhes da entrada de diário de saldo de custo do objeto de custo**
 
-| Membro de dimensão do elemento de custo | descrição |  Valor   |
+| Membro de dimensão do elemento de custo | Descrição |  Valor   |
 |-------------------------------|-------------|-----------|
-| 1001                          | eletricidade | 200.000    |
+| 1001                          | Eletricidade | 200.000    |
 | 1002                          | Salários    | 10.000,00 |
 | 1003                          | Publicidade | 4.000,00  |
 | SC-CC001                      | RH          | 3.535,00  |
 
 **Entradas de custo geradas por cálculo de custos indiretos**
 
-| Objeto de custo | descrição  | Elemento de custo   | descrição  |        Valor     |       Data contábil     |
+| Objeto de custo | Descrição  | Elemento de custo   | Descrição  |        Valor     |       Data contábil     |
 |-------------|--------------|----------|-----------------|-------------|------------|
 | CC001       | RH           | SC-CC001 | RH              | 10.100,00 de \- | 31/01/2017 |
 | CC002       | Finanças      | SC-CC001 | RH              | 3.535,00    | 31/01/2017 |

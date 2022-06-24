@@ -1,6 +1,6 @@
 ---
 title: Declaração de IVA (Dinamarca)
-description: Este tópico descreve como configurar e gerar uma declaração de IVA (imposto sobre valor agregado) antecipada para a Dinamarca.
+description: Este artigo descreve como configurar e gerar uma declaração de IVA (imposto sobre valor agregado) antecipada para a Dinamarca.
 author: anasyash
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d4a1185fa3c3b059744018b6e4e195de07126c9
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: 666dc96cb169ab28ac3938299a3f245e3b4511ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862989"
 ---
 # <a name="vat-declaration-denmark"></a>Declaração de IVA (Dinamarca)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar a declaração de IVA (imposto sobre valor agregado) para a Dinamarca e visualizá-la no Microsoft Excel.
+Este artigo descreve como configurar a declaração de IVA (imposto sobre valor agregado) para a Dinamarca e visualizá-la no Microsoft Excel.
 
 Para gerar automaticamente o relatório, crie primeiramente códigos de impostos suficientes para manter uma contabilização de IVA separada para cada caixa na declaração de IVA antecipada. Além disso, nos parâmetros específicos do aplicativo do formato de relatório eletrônico (ER) para a declaração de IVA antecipada, associe os códigos de imposto com o resultado da pesquisa para as caixas na declaração de IVA.
 
-Para a Dinamarca, você deve configurar a **Pesquisa de campos de relatório**. Para obter mais informações sobre como configurar parâmetros específicos do aplicativo, consulte a seção [Configurar parâmetros específicos do aplicativo para campos de declaração de IVA](#set-up-application-specific-parameters) posteriormente neste tópico.
+Para a Dinamarca, você deve configurar a **Pesquisa de campos de relatório**. Para obter mais informações sobre como configurar parâmetros específicos do aplicativo, consulte a seção [Configurar parâmetros específicos do aplicativo para campos de declaração de IVA](#set-up-application-specific-parameters) mais adiante neste artigo.
 
 Na tabela a seguir, a coluna "Resultado da pesquisa" mostra o resultado da pesquisa pré-configurado para uma linha de declaração de IVA específica no formato da declaração de IVA. Use essas informações para associar corretamente os códigos de imposto ao resultado da pesquisa e com a linha da declaração de IVA.
 
@@ -124,7 +124,7 @@ Siga estas etapas para definir quais códigos de impostos geram quais caixas na 
 
     | Campo                  | Descrição                                                                                                                                                                                                                                                                                                          |
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Resultado da pesquisa          | Selecione o valor do campo do relatório. Para obter mais informações sobre os valores e suas atribuições às linhas da declaração de IVA, consulte a seção [visão geral da declaração de IVA](#vat-declaration-overview) anteriormente contida neste tópico.                                                                                               |
+    | Resultado da pesquisa          | Selecione o valor do campo do relatório. Para obter mais informações sobre os valores e suas atribuições às linhas da declaração de IVA, consulte a seção [visão geral da declaração de IVA](#vat-declaration-overview) anteriormente contida neste artigo.                                                                                               |
     | Código do imposto               | Selecione o código do imposto a ser associado ao campo do relatório. As transações de imposto lançadas que usam o código de imposto selecionado serão coletadas na caixa de declaração apropriada. Recomendamos que você separe os códigos de impostos de tal forma que um código de imposto gera valores em apenas uma caixa de declaração. |
     | Classificador de transação | Se você criou códigos de impostos suficientes para determinar uma caixa de declaração, selecione **\*Não em branco\***. Se você não criou códigos de imposto suficientes para que um código de imposto gere valores em apenas uma caixa de declaração, você pode configurar um classificador de transação. Os seguintes classificadores de transação a seguir estão disponíveis:</br>-   **Compra**</br>-   **PurchaseExempt** (compra isenta de impostos)</br>-   **PurchaseReverseCharge** (imposto a receber de um encargo revertido de compra)</br>-   **Vendas**</br>-   **SalesExempt** (venda isenta de impostos)</br>-   **SalesReverseCharge** (imposto sobre o encargo revertido de compra ou um encargo revertido de venda)</br>-   **Imposto sobre o uso**. </br>Para cada classificador de transação, também está disponível um classificador para a nota de crédito. Por exemplo, um desses classificadores é **PurchaseCreditNote** (nota de crédito de compra).</br>Certifique-se de criar duas linhas para cada código de imposto: um que tenha o valor do classificador da transação e um que tenha o classificador da transação para o valor da nota de crédito. |
 
@@ -212,7 +212,7 @@ O pacote de dados contém configurações de mensagens eletrônicas usadas para 
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Gerar uma declaração de IVA de mensagens eletrônicas
 
-Ao usar mensagens eletrônicas para gerar o relatório, você pode coletar dados de impostos de várias entidades legais. Para obter mais informações, consulte a seção [Executar uma declaração de IVA para várias entidades legais](#run-vat-declaration) posteriormente neste tópico.
+Ao usar mensagens eletrônicas para gerar o relatório, você pode coletar dados de impostos de várias entidades legais. Para obter mais informações, consulte a seção [Executar uma declaração de IVA para várias entidades legais](#run-vat-declaration) mais adiante neste artigo.
 
 O procedimento a seguir aplica-se ao exemplo de processamento de mensagens eletrônicas que você importou anteriormente da Biblioteca de ativos compartilhados do LCS.
 
@@ -224,12 +224,12 @@ O procedimento a seguir aplica-se ao exemplo de processamento de mensagens eletr
    > [!NOTE]
    > As etapas 5 a 7 são opcionais.
 
-5. Opcional: na FastTab **Mensagens**, selecione **Coletar dados** e, em seguida, selecione **OK**. Os pagamentos de impostos que foram gerados anteriormente são adicionados à mensagem. Para obter mais informações, consulte a seção [Liquidar e lançar imposto](#settle-and-post-sales-tax) anteriormente neste tópico. Se pular esta etapa, você ainda poderá gerar uma declaração de IVA usando o campo **Versão da declaração de imposto** na caixa de diálogo **Declaração**.
+5. Opcional: na FastTab **Mensagens**, selecione **Coletar dados** e, em seguida, selecione **OK**. Os pagamentos de impostos que foram gerados anteriormente são adicionados à mensagem. Para obter mais informações, consulte a seção [Liquidar e lançar imposto](#settle-and-post-sales-tax) anteriormente neste artigo. Se pular esta etapa, você ainda poderá gerar uma declaração de IVA usando o campo **Versão da declaração de imposto** na caixa de diálogo **Declaração**.
 6. Opcional: na FastTab **Itens de mensagem**, revise os pagamentos de impostos que são transferidos para processamento. Por padrão, todos os pagamentos de impostos do período selecionado que não foram incluídos em outras mensagens do mesmo processamento são incluídos.
 7. Opcional: selecione **Documento original** para revisar os pagamentos de impostos ou selecione **Excluir** para excluir pagamentos de impostos do processamento. Se pular esta etapa, você ainda poderá gerar uma declaração de IVA usando o campo **Versão da declaração de imposto** na caixa de diálogo **Declaração**.
 8. Na FastTab **Mensagens**, selecione **Atualizar status**. Na caixa de diálogo **Atualizar status**, selecione **Pronto para gerar** e, em seguida, selecione **OK**. Verifique se o status da mensagem foi alterado para **Pronto para gerar**.
 9. Selecione **Gerar relatório**. Para visualizar os valores da declaração de IVA, na caixa de diálogo **Executar processamento**, selecione **Visualizar relatório** e, em seguida, selecione **OK**.
-10. Na caixa de diálogo **Parâmetros de relatório eletrônico**, defina os campos, conforme descrito na seção [Visualizar a declaração de IVA no Excel a partir do Relatório de imposto para a tarefa periódica do período de liquidação](#preview-vat-excel), anteriormente neste tópico, e, em seguida, selecione **OK**.
+10. Na caixa de diálogo **Parâmetros de relatório eletrônico**, defina os campos, conforme descrito na seção [Visualizar a declaração de IVA no Excel a partir do Relatório de imposto para a tarefa periódica do período de liquidação](#preview-vat-excel), anteriormente neste artigo e, depois, selecione **OK**.
 11. Selecione o botão **Anexos** (símbolo de clipe de papel) no canto superior direito da página, e selecione **Abrir** para abrir o arquivo. Revise os valores no documento no Excel.
 
 ## <a name="run-a-vat-declaration-for-multiple-legal-entities"></a><a name="run-vat-declaration"></a>Execute uma declaração IVA para várias entidades legais

@@ -1,6 +1,6 @@
 ---
 title: Registrar depreciação de ativo de direito de uso (versão preliminar)
-description: Este tópico explica como criar a entrada de diário para a amortização necessária para arrendamentos reconhecidos no balanço de uma organização.
+description: Este artigo explica como criar a entrada de diário para a amortização necessária para arrendamentos reconhecidos no balanço de uma organização.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebac6c8d008babec93061071414579eec3a73223
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903266"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Registrar depreciação de ativo de direito de uso (versão preliminar)
 
@@ -28,13 +28,13 @@ ms.locfileid: "8727696"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Para arrendamentos reconhecidos no balanço de uma organização, o ativo de direito de uso (DDU) é amortizado mensalmente. Este tópico explica como criar a entrada de diário para a amortização. A amortização debita da conta contábil de despesas e credita na conta contábil de depreciação acumulada, com base na configuração do seu perfil de lançamento e do tipo de arrendamento. Essas entradas podem ser criadas para cada arrendamento ou podem ser criadas para vários arrendamentos usando a funcionalidade de diário de lote.
+Para arrendamentos reconhecidos no balanço de uma organização, o ativo de direito de uso (DDU) é amortizado mensalmente. Este artigo explica como criar a entrada de diário para a amortização. A amortização debita da conta contábil de despesas e credita na conta contábil de depreciação acumulada, com base na configuração do seu perfil de lançamento e do tipo de arrendamento. Essas entradas podem ser criadas para cada arrendamento ou podem ser criadas para vários arrendamentos usando a funcionalidade de diário de lote.
 
 ## <a name="asset-depreciation-schedule"></a>Agenda de depreciação de ativos
 
 1. Na página **Resumo do arrendamento** , selecione um arrendamento. Em seguida, selecione **Registros \> Agenda de depreciação de ativos** para abrir a página **Agenda de depreciação de ativos**.
 
-    A entrada do diário de despesas da depreciação de ativos DDU baseia-se no valor da coluna **Despesa de Depreciação**. Para obter um exemplo de diretrizes para conformidade com o padrão contábil, consulte a seção [Cálculo de despesa de amortização de ativos DDU para arrendamentos mercantis](#calculation-of-rou-asset-amortization-expense-for-finance-leases) posteriormente neste tópico.
+    A entrada do diário de despesas da depreciação de ativos DDU baseia-se no valor da coluna **Despesa de Depreciação**. Para obter um exemplo de diretrizes para conformidade com o padrão contábil, consulte a seção [Cálculo de despesa de amortização de ativos DDU para arrendamentos mercantis](#calculation-of-rou-asset-amortization-expense-for-finance-leases) posteriormente neste artigo.
     
 2. Selecione o período de depreciação e, em seguida, selecione **Criar diário**. Você recebe uma mensagem que indica que o diário que será usado para registrar a depreciação foi criado.
 3. Selecione **Diários \> Diários de arrendamento de ativos** para abrir a página **Diário de arrendamento de ativos**, onde você pode exibir a entrada de diário de despesas de depreciação que foi criada.

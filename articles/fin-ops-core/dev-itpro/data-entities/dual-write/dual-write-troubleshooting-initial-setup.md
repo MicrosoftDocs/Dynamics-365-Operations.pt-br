@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas durante a configuração inicial
-description: Este tópico fornece informações sobre como solucionar problemas que podem ocorrer durante a configuração inicial da integração de gravação dupla.
+description: Este artigo fornece informações sobre como solucionar problemas que podem ocorrer durante a configuração inicial da integração de gravação dupla.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882074"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
@@ -22,20 +22,20 @@ ms.locfileid: "8061458"
 
 
 
-Este tópico fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem ocorrer durante a configuração inicial da integração de gravação dupla.
+Este artigo fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de finanças e operações e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem ocorrer durante a configuração inicial da integração de gravação dupla.
 
 > [!IMPORTANT]
-> Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
+> Alguns dos problemas que este artigo aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Não é possível vincular um aplicativo de Finanças e Operações ao Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Não é possível vincular um aplicativo de finanças e operações ao Dataverse
 
-**Função necessária para configurar a gravação dupla**: administrador do sistema em aplicativos de Finanças e Operações e no Dataverse.
+**Função necessária para configurar a gravação dupla**: administrador do sistema em aplicativos de finanças e operações e no Dataverse.
 
 Erros na página **Configurar link para Dataverse** geralmente são causados por configuração incompleta ou problemas de permissão. Verifique se toda a verificação de integridade foi aprovada na página **Configurar link para Dataverse**, conforme mostrado na ilustração a seguir. Não é possível vincular a dupla gravação, a menos que toda a verificação de integridade seja aprovada.
 
 ![Verificação bem-sucedida de integridade.](media/health_check.png)
 
-Você deve ter credenciais de administração de locatário do Azure AD para vincular os ambientes do Finance and Operations e do Dataverse. Depois de vincular os ambientes, os usuários podem fazer login usando suas credenciais de conta e atualizar um mapa de tabela existente.
+Você deve ter credenciais de administração de locatário do Azure AD para vincular os ambientes de finanças e operações e do Dataverse. Depois de vincular os ambientes, os usuários podem fazer login usando suas credenciais de conta e atualizar um mapa de tabela existente.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Encontre o limite para o número de tabelas legais ou empresas que podem ser vinculadas para gravação dupla
 
@@ -55,7 +55,7 @@ A gravação dupla não oferece suporte a várias entidades legais/empresas com 
 
 Para desbloquear o cliente, remova os registros duplicados da tabela **cdm_company** no Dataverse. Além disso, se a tabela **cdm_company** tiver registros com nome em branco, remova ou corrija esses registros.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Erro ao abrir a página Gravação dupla em aplicativos de Finanças e Operações
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Erro ao abrir a página Gravação dupla em aplicativos de finanças e operações
 
 Você poderá receber a seguinte mensagem de erro quando tentar vincular um ambiente do Dataverse para gravação dupla:
 
@@ -70,7 +70,7 @@ Este erro ocorre quando a etapa de consentimento do aplicativo não é concluíd
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Selecione **Aceitar** como consentimento. Você está fornecendo o consentimento para instalar o aplicativo (com `id=33976c19-1db5-4c02-810e-c243db79efde`) no seu locatário.
-+ Este aplicativo é necessário para o Dataverse se comunicar com aplicativos de Finanças e Operações.
++ Este aplicativo é necessário para o Dataverse se comunicar com aplicativos de finanças e operações.
 
     ![Solução de problemas durante a configuração inicial.](media/Initial-sync-setup-troubleshooting-1.png)
 
@@ -81,7 +81,7 @@ Este erro ocorre quando a etapa de consentimento do aplicativo não é concluíd
 
 Você poderá receber a seguinte mensagem de erro:
 
-*O ambiente de aplicativos de Finanças e Operações \*\*\*.cloudax.dynamics.com não é detectável.*
+*O ambiente de aplicativos de finanças e operações \*\*\*.cloudax.dynamics.com não é detectável.*
 
 Há duas coisas que podem fazer com que um ambiente não seja detectável:
 

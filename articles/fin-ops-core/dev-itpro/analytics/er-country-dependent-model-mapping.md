@@ -1,6 +1,6 @@
 ---
-title: Configurar mapeamentos de modelo de ER dependente do contexto do país
-description: Este tópico explica como você pode configurar os mapeamentos modelo de ER de forma que dependam do contexto de país/região da entidade legal que controla seu uso.
+title: Configurar mapeamentos do modelo ER dependente do contexto do país
+description: Este artigo explica como você pode configurar os mapeamentos modelo de ER de forma que dependam do contexto de país/região da entidade legal que controla seu uso.
 author: NickSelin
 ms.date: 11/11/2019
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883865"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurar mapeamentos de modelo de ER dependente do contexto do país
 
 [!include[banner](../includes/banner.md)]
 
-Você pode configurar mapeamentos de modelo de ER (Relatórios eletrônicos) para que eles implementem um modelo de dados de ER genérico mas que sejam específicos do Dynamics 365 Finance. Este tópico explica como projetar vários mapeamentos de modelo de ER para um modelo de dados de ER para controlar como eles são usados por formatos de ER correspondentes executados de empresas com contextos diferentes de país/região.
+Você pode configurar mapeamentos de modelo de ER (Relatórios eletrônicos) para que eles implementem um modelo de dados de ER genérico mas que sejam específicos do Dynamics 365 Finance. Este artigo explica como projetar vários mapeamentos de modelo de ER para um modelo de dados de ER para controlar como eles são usados por formatos de ER correspondentes executados de empresas com contextos diferentes de país/região.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Para concluir os exemplos neste tópico, você deve ter o seguinte acesso:
+Para concluir os exemplos neste artigo, você deve ter o seguinte acesso:
 
 - Acesso ao Finance para uma das seguintes funções:
     - Desenvolvedor de relatório eletrônico
@@ -42,11 +42,11 @@ Para concluir os exemplos neste tópico, você deve ter o seguinte acesso:
     - Consultor funcional de relatório eletrônico
     - Administrador do sistema
 
-Algumas etapas deste tópico exigem a execução de um formato de ER. Em alguns casos, a execução de um formato de ER é afetada pelo contexto de país/região da empresa a que você está conectado atualmente. Você poderá executar um formato de ER na instância de RCS atual se a empresa com o contexto de país/região necessário disponível no RCS. Caso contrário, você deverá fazer upload de uma versão concluída do mapeamento de modelo de ER e as configurações de formato de ER que usam o modelo de dados de ER para sua instância do Finance, e então execute o formato de ER nessa instância do Finance. Para obter informações sobre como importar as configurações que residem no RCS para uma instância do Finance, consulte [Importar configurações do RCS](rcs-download-configurations.md).
+Algumas etapas deste artigo exigem a execução de um formato de ER. Em alguns casos, a execução de um formato de ER é afetada pelo contexto de país/região da empresa a que você está conectado atualmente. Você poderá executar um formato de ER na instância de RCS atual se a empresa com o contexto de país/região necessário disponível no RCS. Caso contrário, você deverá fazer upload de uma versão concluída do mapeamento de modelo de ER e as configurações de formato de ER que usam o modelo de dados de ER para sua instância do Finance, e então execute o formato de ER nessa instância do Finance. Para obter informações sobre como importar as configurações que residem no RCS para uma instância do Finance, consulte [Importar configurações do RCS](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Caso de mapeamento de modelo único
 
-Siga as etapas no [Apêndice 1](#appendix1) deste tópico para projetar os componentes de ER necessários. Agora você tem o mapeamento de modelo **Mapeamento (Geral)** que contém o mapeamento do modelo para a definição **Ponto de entrada 1**.
+Siga as etapas no [Apêndice 1](#appendix1) deste artigo para projetar os componentes de ER necessários. Agora você tem o mapeamento de modelo **Mapeamento (Geral)** que contém o mapeamento do modelo para a definição **Ponto de entrada 1**.
 
 ![Configurações de ER, Formatar para aprender a configuração de mapeamentos.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -59,7 +59,7 @@ Observe que o navegador se oferece para baixar o arquivo de texto gerado pelo fo
 
 ## <a name="multiple-shared-model-mappings-case"></a>Caso de vários mapeamentos do modelo compartilhado
 
-Siga as etapas no [Apêndice 2](#appendix2) deste tópico para projetar os componentes de ER necessários. Agora você tem as configurações de mapeamento do modelo **Mapeamento (Geral)** e **Mapeamento (Geral)**, cada uma com o mapeamento do modelo para a definição **Ponto de entrada 1**.
+Siga as etapas no [Apêndice 2](#appendix2) deste artigo para projetar os componentes de ER necessários. Agora você tem as configurações de mapeamento do modelo **Mapeamento (Geral)** e **Mapeamento (Geral)**, cada uma com o mapeamento do modelo para a definição **Ponto de entrada 1**.
 
 ![Configurações de ER, Configuração personalizada geral de mapeamento.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -97,7 +97,7 @@ Observe que a execução do formato de ER selecionado obteve êxito. O navegador
 
 ## <a name="multiple-mixed-model-mappings-case"></a>Caso de vários mapeamentos do modelo misturados
 
-Siga as etapas no [Apêndice 3](#appendix3) deste tópico para projetar os componentes de ER necessários. Agora você tem as configurações **Mapeamento (Geral)**, **Mapeamento (Geral) personalizado** e **Mapeamento (FR) mapeamento de modelo** que contêm o mapeamento do modelo para a definição **Ponto de entrada 1**.
+Siga as etapas no [Apêndice 3](#appendix3) deste artigo para projetar os componentes de ER necessários. Agora você tem as configurações **Mapeamento (Geral)**, **Mapeamento (Geral) personalizado** e **Mapeamento (FR) mapeamento de modelo** que contêm o mapeamento do modelo para a definição **Ponto de entrada 1**.
 
 Observe que a versão 1 do mapeamento do modelo **Mapeamento (FR)** será configurada de forma que se aplique somente aos formatos de ER do modelo **Modelo para aprender mapeamentos modelagem** que são executados em empresas do Finance com o contexto do país/região francês.
 
@@ -138,10 +138,10 @@ Observe que a execução do formato de ER selecionado obteve êxito. O navegador
 
 Como você viu, a seleção de um mapeamento do modelo para a execução de um formato de ER funciona da seguinte maneira:
 
-- A definição de mapeamento do modelo que um formato de ER usa é especificada (**Ponto de entrada 1** nos exemplos deste tópico).
-- Todas as configurações de mapeamentos que contêm um mapeamento com a definição especificada, e se isso satisfizer quaisquer restrições de contexto de país/região configuradas, potencialmente podem ser usadas para executar o formato de ER (**Mapeamento (Geral)**, **Mapeamento (Geral) personalizado** e **Mapeamento (FR)** nos exemplos deste tópico).
-- Qualquer mapeamento do modelo padrão com restrições do contexto de país/região tem a prioridade mais alta para seleção (**Mapeamento (FR)** nos exemplos deste tópico).
-- Qualquer mapeamento do modelo padrão que não tenha restrições do contexto de país/região tem a próxima prioridade mais alta para seleção (**Mapeamento (Geral)** personalizado nos exemplos deste tópico).
+- A definição de mapeamento do modelo que um formato de ER usa é especificada (**Ponto de entrada 1** nos exemplos deste artigo).
+- Todas as configurações de mapeamentos que contêm um mapeamento com a definição especificada, e se isso satisfizer quaisquer restrições de contexto de país/região configuradas, potencialmente podem ser usadas para executar o formato de ER (**Mapeamento (Geral)**, **Mapeamento (Geral) personalizado** e **Mapeamento (FR)** nos exemplos deste artigo).
+- Qualquer mapeamento do modelo padrão com restrições do contexto de país/região tem a prioridade mais alta para seleção (**Mapeamento (FR)** nos exemplos deste artigo).
+- Qualquer mapeamento do modelo padrão que não tenha restrições do contexto de país/região tem a próxima prioridade mais alta para seleção (**Mapeamento (Geral)** personalizado nos exemplos deste artigo).
 - Qualquer mapeamento do modelo que tenha restrições do contexto de país/região tem a prioridade mais alta para a seleção de um mapeamento do modelo que não tenha restrições do contexto de país/região.
 
 A tabela a seguir fornece informações sobre os resultados de seleção de mapeamento do modelo para todos os casos possíveis para as configurações de mapeamento do modelo:

@@ -1,6 +1,6 @@
 ---
-title: Fechar contas a receber
-description: O tópico a seguir lista as páginas que oferecem suporte ao processo empresarial de fechamento de Contas a receber.
+title: Fechar Contas a receber
+description: O artigo a seguir lista as páginas que dão suporte ao processo comercial de processamento de fechamento de Contas a receber.
 author: ShivamPandey-msft
 ms.date: 10/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab68c9def44664a0f9fcb5226c6e5a8efb2f519
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 27c73c4fef561bc6d6640d4d20dec05b2ca68f1c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855452"
 ---
 # <a name="close-accounts-receivable"></a>Fechar contas a receber
 

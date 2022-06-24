@@ -1,6 +1,6 @@
 ---
 title: Registrar números de certificados recuperáveis de TDS
-description: Este tópico explica como usar a página Certificados recuperáveis para registrar os números e datas dos certificados de Imposto Deduzido na Origem (TDS) recebidos de um fornecedor, cliente ou razão específico.
+description: Este artigo explica como usar a página Certificados recuperáveis para registrar os números e datas dos certificados de Imposto Deduzido na Origem (TDS) recebidos de um fornecedor, cliente ou razão específico.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5d62f560fe58a5fb7bd158bed9bcb111d75c7f00
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 513412e292167795fad9d80b68e6e5e14dbd13c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853246"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Registrar números de certificados recuperáveis de TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como usar a página **Certificados recuperáveis** para registrar os números e datas dos certificados de Imposto Deduzido na Origem (TDS) recebidos de um fornecedor, cliente ou razão específico. Para atualizar os números e datas dos certificados do TDS que são registrados para transações TDS nesta página, use a página **Atualizar certificado** (**Contabilidade \> Periódico \> Imposto retido na fonte \> Atualizar certificado**). Depois de terminar de atualizar os números dos certificados do TDS, feche-os.
+Este artigo explica como usar a página **Certificados recuperáveis** para registrar os números e datas dos certificados de Imposto Deduzido na Origem (TDS) recebidos de um fornecedor, cliente ou razão específico. Para atualizar os números e datas dos certificados do TDS que são registrados para transações TDS nesta página, use a página **Atualizar certificado** (**Contabilidade \> Periódico \> Imposto retido na fonte \> Atualizar certificado**). Depois de terminar de atualizar os números dos certificados do TDS, feche-os.
 
 Siga estas etapas para registrar os números e datas dos certificados do TDS.
 

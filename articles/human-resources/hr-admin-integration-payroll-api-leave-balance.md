@@ -1,6 +1,6 @@
 ---
-title: Saldo de licença
-description: Este tópico fornece detalhes e um exemplo de consulta da entidade de saldo de licença no Dynamics 365 Human Resources.
+title: Saldo de licenças
+description: Este artigo fornece detalhes e um exemplo de consulta da entidade de saldo de licença no Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d26d9624ae8d99b208f77d12137262983499c51
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4792c316b8b7af3e86b097029eb281af4a10d113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899691"
 ---
-# <a name="leave-balance"></a>Saldo de licença
+# <a name="leave-balance"></a>Saldo de licenças
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico descreve a entidade saldo de licença para o Dynamics 365 Human Resources.
+Este artigo descreve a entidade saldo de licença para o Dynamics 365 Human Resources.
 
-### <a name="description"></a>descrição
+### <a name="description"></a>Descrição
 
 Esta entidade fornece o tipo de saldo por licença para um determinado funcionário.
 

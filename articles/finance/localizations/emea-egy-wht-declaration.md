@@ -1,6 +1,6 @@
 ---
 title: Declaração de imposto retido na fonte para o Egito
-description: Este tópico explica como configurar e gerar as declarações de imposto retido na fonte para o Egito.
+description: Este artigo explica como configurar e gerar as declarações de imposto retido na fonte para o Egito.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907677"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Declaração de imposto retido na fonte para o Egito (EG-00005)
 
 [!include[banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
 
-## <a name="overview"></a>Visão Geral
-Este tópico explica como configurar e gerar a declaração de imposto retido na fonte e os formulários de declaração de imposto retido na fonte 41 e 11 para entidades legais no Egito 
+## <a name="overview"></a>Visão geral
+Este artigo explica como configurar e gerar a declaração de imposto retido na fonte e os formulários de declaração de imposto retido na fonte 41 e 11 para entidades legais no Egito 
 
 Todas as entidades egípcias devem preparar o formulário 41, que resume todos os impostos que são retidos de fornecedores locais e provedores de serviço. Além do formulário 41, o formulário 11 deve ser gerado para detalhar todos os impostos retidos de fornecedores estrangeiros. 
 
@@ -58,7 +58,7 @@ Para obter mais informações sobre como importar configurações de Relatório 
 
 A implementação dos formulários de declaração WHT para o Egito baseia-se em configurações de Relatório eletrônico (ER). Para obter mais informações sobre os recursos e conceitos de relatórios configuráveis, consulte [Relatórios eletrônicos](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Para ambientes de produção e de teste de aceitação de usuários (UAT), siga as instruções no tópico [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Para ambientes de produção e de teste de aceitação de usuários (UAT), siga as instruções no artigo [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Para gerar as Declarações de retenção em uma entidade legal egípcia, é necessário carregar as seguintes configurações:
 

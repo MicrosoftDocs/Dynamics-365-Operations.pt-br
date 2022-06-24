@@ -1,6 +1,6 @@
 ---
-title: ​Visão geral do upgrade do registro de depreciações​
-description: Este tópico descreve o recurso do livro atual em Ativos fixos. Esse recurso baseia-se na funcionalidade anterior de modelo de valor que estava disponível em versões anteriores, mas também inclui todas as funcionalidade fornecidas anteriormente somente em registros de depreciação.
+title: Visão geral do upgrade do registro de depreciações
+description: Este artigo descreve o recurso do livro atual em Ativos fixos. Esse recurso baseia-se na funcionalidade anterior de modelo de valor que estava disponível em versões anteriores, mas também inclui todas as funcionalidade fornecidas anteriormente somente em registros de depreciação.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b43c499928988e98cae63b85f528b8a71e042cc7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 784ec32ae886ef7ea9342b085f893eeeec761961
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855481"
 ---
-# <a name="depreciation-book-upgrade-overview"></a>​Visão geral do upgrade do registro de depreciações​
+# <a name="depreciation-book-upgrade-overview"></a>Visão geral do upgrade do registro de depreciações
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o recurso do livro atual em Ativos fixos. Esse recurso baseia-se na funcionalidade anterior de modelo de valor que estava disponível em versões anteriores, mas também inclui todas as funcionalidade fornecidas anteriormente somente em registros de depreciação. A funcionalidade de modelo de valor e registro de depreciação foram mescladas em um único conceito que é conhecido como registro. A funcionalidade do livro permite usar um único conjunto de páginas, consultas e relatórios para todos os processos de ativos fixos de sua organização. Este tópico fornece algumas informações a serem consideradas antes da atualização. 
+Este artigo descreve o recurso do livro atual em Ativos fixos. Esse recurso baseia-se na funcionalidade anterior de modelo de valor que estava disponível em versões anteriores, mas também inclui todas as funcionalidade fornecidas anteriormente somente em registros de depreciação. A funcionalidade de modelo de valor e registro de depreciação foram mescladas em um único conceito que é conhecido como registro. A funcionalidade do livro permite usar um único conjunto de páginas, consultas e relatórios para todos os processos de ativos fixos de sua organização. Este artigo fornece algumas informações a serem consideradas antes da atualização. 
 
 O processo de atualização moverá suas configurações existentes e todas as transações existentes para a nova estrutura de registro. Os métodos de depreciação são permanecerá como momento, como um registro que lançar na contabilidade. Os registros de depreciação serão movidos para um registro que tenha a opção Lançar na contabilidade definida como Não. Os nomes de diário de registro de depreciações serão movidos a um nome de diário da contabilidade com o nível de lançamento definido como Nenhum. As transações do livro de depreciações serão movidas para as transações de ativo fixo.
 

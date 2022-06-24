@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 228c891e8c29cf4309856b90139d0b88805a9812
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886150"
 ---
 # <a name="process-compensation"></a>Processar remuneração
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693854"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-O processamento de remuneração permite calcular novos valores de remuneração básica para seus funcionários com base em ajustes de capital, metas de aumento de mérito e desempenho. Este tópico aborda o fluxo básico de processamento de remuneração para planos de compensação fixa sem ter em conta o desempenho de um funcionário.
+O processamento de remuneração permite calcular novos valores de remuneração básica para seus funcionários com base em ajustes de capital, metas de aumento de mérito e desempenho. Este artigo aborda o fluxo básico de processamento de remuneração para planos de remuneração fixa sem considerar o desempenho de um funcionário.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Planeje os novos montantes e orçamentos de remuneração
 Para dar aos funcionários um aumento de mérito, você deve configurar um orçamento de aumento fixo para cada um dos Departamentos: **Gerenciamento de remuneração** > **Links** > **Metas de aumento de mérito**. (Como alternativa, você pode abrir esta página por meio do Departamento: **Organização** > **Departamentos**). Você pode especificar se os funcionários de certo sindicato ou local devem obter uma porcentagem diferente de aumento. Os campos **Orçamento** e **Moeda** são informativos e podem ser usados ​​para anotar um valor em moeda para o orçamento.
@@ -41,7 +41,7 @@ A data **Pontual** do evento de processo é usado apenas para processar determin
 
 Depois que os parâmetros do evento do processo forem salvos, você poderá clicar no botão **Configuração** para selecionar os planos a serem incluídos quando o processo for executado e quais ações de remuneração fixa devem ser tomadas para cada plano.
 
-Clique no botão **Adicionar** na guia **Planos** para adicionar um plano de remuneração ao evento de processo. As colunas **Usar outro aproveitamento**, **Fator de aproveitamento**, e **Descrição do aproveitamento** são usadas apenas para planos de remuneração variável e não serão abordadas neste tópico.
+Clique no botão **Adicionar** na guia **Planos** para adicionar um plano de remuneração ao evento de processo. As colunas **Usar outro aproveitamento**, **Fator de aproveitamento**, e **Descrição do aproveitamento** são usadas apenas para planos de remuneração variável e não serão abordadas neste artigo.
 
 Salve o registro e clique no botão **Adicionar** na guia **Ações** para adicionar ações de remuneração fixa ao plano selecionado. Use a opção **Habilitar recomendação** para inserir um valor diferente do aumento de diretriz calculado para a ação. Para calcular uma ação que se baseie no resultado da ação anterior para vincular várias ações de remuneração, marque a opção **Usar resultado anterior**. As ações de remuneração fixa são tipos de lógica de remuneração às quais você pode dar nomes descritivos. Para os planos **Grade** e **Band**, você só pode adicionar ações de remuneração fixa que são dos seguintes tipos:
 

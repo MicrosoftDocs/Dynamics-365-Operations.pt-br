@@ -1,6 +1,6 @@
 ---
 title: Melhorar o modelo de previsão
-description: Este tópico descreve recursos que podem ser usados para melhorar o desempenho de modelos de previsão.
+description: Este artigo descreve recursos que podem ser usados para melhorar o desempenho de modelos de previsão.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 96ba1653ea1f9a5ac1037e9ecc7e85c86a6f31c7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: cb725f4e8f7b9dd81077f5c85059a024f3146092
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846876"
 ---
 # <a name="improve-the-prediction-model"></a>Melhorar o modelo de previsão
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve recursos que podem ser usados para melhorar o desempenho de modelos de previsão. Comece a melhorar seu modelo no espaço de trabalho **Previsões de pagamento de cliente** no Microsoft Dynamics 365 Finance. As etapas de melhoria são concluídas no AI Builder.
+Este artigo descreve recursos que podem ser usados para melhorar o desempenho de modelos de previsão. Comece a melhorar seu modelo no espaço de trabalho **Previsões de pagamento de cliente** no Microsoft Dynamics 365 Finance. As etapas de melhoria são concluídas no AI Builder.
 
 ## <a name="select-historical-outcomes"></a>Selecionar resultados históricos
 

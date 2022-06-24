@@ -1,6 +1,6 @@
 ---
 title: Pesquisa de formato estendido de ER (Relatório eletrônico)
-description: Este tópico descreve como uma referência de formato de ER pode ser configurada na pesquisa de formato de ER quando o formato necessário é armazenado no Repositório global.
+description: Este artigo descreve como uma referência de formato de ER pode ser configurada na pesquisa de formato de ER quando o formato necessário é armazenado no Repositório global.
 author: NickSelin
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2b69ba1b3b27f447b58cf98b1140a481b01b735a
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: ae544b8ed4e280ffcaf58d893056a4bf5169e379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901638"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Permitir que os usuários configurem uma referência de formato de ER consultando um formato no Repositório global
 
 [!include [banner](../includes/banner.md)]
 
-Você pode usar a estrutura do [Relatório Eletrônico (ER)](general-electronic-reporting.md) para configurar formatos de documentos de saída de acordo com os requisitos legais de diversos países/regiões. Também é possível usar a estrutura de ER a fim de configurar formatos para analisar documentos de entrada e usar as informações desses documentos para acrescentar ou atualizar dados de aplicativo. Cada um desses formatos pode ser usado na instância do seu Dynamics 365 Finance para manipular documentos comerciais de entrada ou saída como parte de um determinado processo de negócios.
+Você pode usar a estrutura do [Relatório Eletrônico (ER)](general-electronic-reporting.md) para configurar formatos de documentos de saída de acordo com os requisitos legais de diversos países/regiões. Também é possível usar a estrutura de ER a fim de configurar formatos para analisar documentos de entrada e usar as informações desses documentos para acrescentar ou atualizar dados de aplicativo. Cada um desses formatos pode ser usado na instância do Dynamics 365 Finance para manipular documentos comerciais de entrada ou saída como parte de um determinado processo de negócios.
 
 Normalmente, você deve especificar o formato ER que deve ser usado em um determinado processo de negócios. Para isso, selecione um único formato de ER em um campo de pesquisa configurado como parte dos parâmetros específicos do processo de negócios. Esses campos de pesquisa geralmente são implementados usando a API apropriada da estrutura de ER. Para obter mais informações, consulte [API da estrutura de ER – código para exibir uma pesquisa de mapeamento de formato](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 

@@ -1,6 +1,6 @@
 ---
 title: Reduzir ativos de direito de uso ao valor recuperável
-description: Este tópico descreve a funcionalidade que registra uma redução ao valor recuperável e ajusta o plano de depreciação de ativo de um arrendamento operacional do Tópico 842 da Codificação de Padrões Contábeis (ASC 842).
+description: Este artigo descreve a funcionalidade que registra uma redução ao valor recuperável e ajusta o plano de depreciação de ativo de um arrendamento operacional do Tópico 842 da ASC 842 (Codificação de Padrões Contábeis).
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894103"
 ---
 # <a name="impair-right-of-use-assets"></a>Reduzir ativos de direito de uso ao valor recuperável
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Se um valor de transporte do ativo de direito de uso (DDU) não for recuperável, talvez seja necessário testar se o ativo teve redução ao valor recuperável. Se você determinar que o ativo teve redução ao valor recuperável, o Arrendamento de ativos poderá registrar a redução ao valor recuperável e ajustar a agenda de depreciação de forma adequada. Este tópico descreve a funcionalidade que registra a redução ao valor recuperável e ajusta o plano de depreciação de ativo de um arrendamento operacional do Tópico 842 da Codificação de Padrões Contábeis (ASC 842). O mesmo método também se aplica a arrendamentos do Padrão Internacional de Relatórios Financeiros 16 (IFRS 16).
+Se um valor de transporte do ativo de direito de uso (DDU) não for recuperável, talvez seja necessário testar se o ativo teve redução ao valor recuperável. Se você determinar que o ativo teve redução ao valor recuperável, o Arrendamento de ativos poderá registrar a redução ao valor recuperável e ajustar a agenda de depreciação de forma adequada. Este artigo descreve a funcionalidade que registra a redução ao valor recuperável e ajusta o plano de depreciação de ativo de um arrendamento operacional do Tópico 842 da ASC 842 (Codificação de Padrões Contábeis). O mesmo método também se aplica a arrendamentos do Padrão Internacional de Relatórios Financeiros 16 (IFRS 16).
 
 O saldo restante do ativo DDU será amortizado linearmente para o número de períodos restantes, independentemente de o arrendamento ter sido classificado como um arrendamento mercantil sob o IFRS 16 ou um arrendamento operacional sob o ASC 842.
 
@@ -83,7 +83,7 @@ As tabelas a seguir mostram os valores definidos nas guias **Geral** e **Linhas 
 
 ### <a name="steps"></a>Etapas
 
-1. Depois de criar o arrendamento conforme descrito anteriormente neste tópico, Acesse o registro de arrendamento e confirme a agenda de pagamento. Em seguida, lance a entrada do diário de reconhecimento inicial. O ativo DDU inicial e a responsabilidade com arrendamento devem ser US$ 70.235,81. Para este exemplo, o arrendamento foi classificado como um arrendamento operacional sob o ASC 842.
+1. Depois de criar o arrendamento conforme descrito anteriormente neste artigo, acesse o registro de arrendamento e confirme a agenda de pagamento. Em seguida, lance a entrada do diário de reconhecimento inicial. O ativo DDU inicial e a responsabilidade com arrendamento devem ser US$ 70.235,81. Para este exemplo, o arrendamento foi classificado como um arrendamento operacional sob o ASC 842.
 2. Execute o processo de diário de lotes três vezes para simular a passagem de três anos para pagamentos de arrendamento, despesas de juros e despesas de depreciação.
 3. Depois de concluir a execução de todos os três trabalhos em lote, volte para o registro de arrendamento e abra as tabelas responsabilidade e transações de ativo para exibir o valor atual de carregamento do ativo DDU e da responsabilidade com arrendamento. Depois de três anos, o valor da obrigação deve ser de aproximadamente US$ -53.893,00 e o valor do ativo deve ser de aproximadamente US$ 53.893,00. 
 

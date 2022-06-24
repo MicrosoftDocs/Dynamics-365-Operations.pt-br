@@ -1,6 +1,6 @@
 ---
 title: Instalar o suplemento para microsserviços no Lifecycle Services
-description: Este tópico explica como instalar o suplemento de Faturamento eletrônico no Microsoft Dynamics Lifecycle Services (LCS).
+description: Este artigo explica como instalar o suplemento de Faturamento eletrônico no Microsoft Dynamics Lifecycle Services (LCS).
 author: dkalyuzh
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a575f3e26489607dc2143ba05c941240969a0feb
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 26f92262eff07ded3e894ee5513dd8dbaa6f94a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849795"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Instalar o suplemento para microsserviços no Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
-A autenticação no serviço de faturamento eletrônico requer que você registre seu ambiente do Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management na plataforma de serviços instalando o suplemento para o seu ambiente nos serviços de Microsoft Dynamics Lifecycle Services (LCS).
+A autenticação no serviço de faturamento eletrônico requer que você registre seu ambiente do Microsoft Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management na plataforma de serviços instalando o suplemento para o seu ambiente nos serviços de Microsoft Dynamics Lifecycle Services (LCS).
 
 Para registrar um ambiente, siga estas etapas.
 

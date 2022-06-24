@@ -1,6 +1,6 @@
 ---
 title: Introdução ao arrendamento de ativos
-description: Este tópico descreve o recurso Arrendamento de ativos e percorre as etapas para criar um arrendamento de ativos e exibir informações para esses arrendamentos.
+description: Este artigo descreve o recurso Arrendamento de ativos e percorre as etapas para criar um arrendamento de ativos e exibir informações para esses arrendamentos.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: df4343031b3b116318f798f31adb4d1f6bed1db9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895128"
 ---
 # <a name="asset-leasing-get-started"></a>Introdução ao arrendamento de ativos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o recurso Arrendamento de ativos e percorre as etapas para criar um arrendamento de ativos e exibir informações para esses arrendamentos. O tópico também define a terminologia usada na interface do usuário e na documentação. O arrendamento de ativos é um recurso avançado para gerenciar, rastrear e automatizar transações financeiras do locatário para ativos arrendados no Microsoft Dynamics 365 Finance. O arrendamento de ativos está em conformidade com padrões internacionais de contabilidade (IFRS 16) e padrões de GAAP dos EUA (ASC 842). O arrendamento de ativos captura e processa informações sobre os arrendamentos e ajuda a gerar entradas de diário durante o ciclo de vida da concessão das entradas de reconhecimento inicial, de diário mensal, para deficiências e encerramento da concessão. O arrendamento de ativos se integra perfeitamente a outros componentes do Dynamics 365 Finance, incluindo Ativos fixos, Contas a pagar e Contabilidade.
+Este artigo descreve o recurso Arrendamento de ativos e percorre as etapas para criar um arrendamento de ativos e exibir informações para esses arrendamentos. O artigo também define a terminologia usada na interface do usuário e na documentação. O arrendamento de ativos é um recurso avançado para gerenciar, rastrear e automatizar transações financeiras do locatário para ativos arrendados no Microsoft Dynamics 365 Finance. O arrendamento de ativos está em conformidade com padrões internacionais de contabilidade (IFRS 16) e padrões de GAAP dos EUA (ASC 842). O arrendamento de ativos captura e processa informações sobre os arrendamentos e ajuda a gerar entradas de diário durante o ciclo de vida da concessão das entradas de reconhecimento inicial, de diário mensal, para deficiências e encerramento da concessão. O arrendamento de ativos se integra perfeitamente a outros componentes do Dynamics 365 Finance, incluindo Ativos fixos, Contas a pagar e Contabilidade.
 
 Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho **Gerenciamento de recursos** para verificar o status do recurso e ativá-lo, se necessário. No espaço de trabalho **Gerenciamento de recursos**, localize e selecione o recurso denominado **Arrendamento de ativos** e clique no botão **Habilitar agora**.
 

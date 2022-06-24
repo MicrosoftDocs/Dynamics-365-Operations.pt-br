@@ -1,6 +1,6 @@
 ---
 title: Função VALUEINLARGE do ER
-description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) VALUEINLARGE é usada.
+description: Este artigo fornece informações sobre como a função de relatório eletrônico (ER) VALUEINLARGE é usada.
 author: NickSelin
 ms.date: 08/17/2020
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 57b2246631b31cce10d086da29e76b729059a64aa6a3c2d8cf864dd70085dbfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 977c1cd7dac75781677461b288bc8e5e79d13e6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888135"
 ---
 # <a name="valueinlarge-er-function"></a>Função VALUEINLARGE do ER
 
 [!include [banner](../includes/banner.md)]
 
-A função `VALUEINLARGE` determina se a entrada especificada do tipo *Int64* ou *Inteiro* corresponde a qualquer valor de um item especificado na lista especificada. A função retorna um valor *Booliano* de **TRUE** se a entrada especificada corresponder ao resultado da execução da expressão especificada para pelo menos um registro da lista especificada. Caso contrário, ela retorna um valor *Booliano* de **FALSE**. Para compreender a diferença com a função `VALUEIN`, consulte a seção [Observação de uso](#usage_note) posteriormente neste tópico.
+A função `VALUEINLARGE` determina se a entrada especificada do tipo *Int64* ou *Inteiro* corresponde a qualquer valor de um item especificado na lista especificada. A função retorna um valor *Booliano* de **TRUE** se a entrada especificada corresponder ao resultado da execução da expressão especificada para pelo menos um registro da lista especificada. Caso contrário, ela retorna um valor *Booliano* de **FALSE**. Para compreender a diferença com a função `VALUEIN`, consulte a seção [Observação de uso](#usage_note) posteriormente neste artigo.
 
 ## <a name="syntax"></a>Sintaxe
 

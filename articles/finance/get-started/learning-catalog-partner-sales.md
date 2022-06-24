@@ -1,6 +1,6 @@
 ---
-title: Catálogo de aprendizagem para funções de marketing e vendas para parceiros da Microsoft do Dynamics 365 Finance
-description: Encontre todas as opções de treinamento para pessoas nas funções de vendas e marketing de parceiros da Microsoft que trabalham com o Dynamics 365 Finance.
+title: Catálogo de aprendizagem para funções de marketing e vendas do Microsoft Partner para o Dynamics 365 Finance
+description: Encontre todas as opções de treinamento para pessoas nas funções de vendas e marketing do Microsoft Partner que trabalham com o Dynamics 365 Finance.
 author: margoc
 ms.topic: article
 ms.date: 07/27/2020
@@ -12,14 +12,14 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 219380f2fe44caa56869da05317cbeb4377cc8be7336d01cd65dc5c7eda05442
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e49b63bf7c88b40010967a7f8c1de571e6d7485
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845248"
 ---
-# <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Catálogo de aprendizagem para funções de marketing e vendas para parceiros da Microsoft do Dynamics 365 Finance
+# <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Catálogo de aprendizagem para funções de marketing e vendas do Microsoft Partner para o Dynamics 365 Finance
 
 Você é responsável por ajudar seus clientes a adquirirem a solução certa?
 
@@ -31,7 +31,7 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 |-------------|-----------------|-------------|------------|
 | [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Quer aprender mais sobre aplicativos de negócios? Talvez você não saiba onde começar com Microsoft Dynamics 365 e aplicativos do Power Platform? Saiba como o poder dos aplicativos comerciais pode ajudar a transformar seus negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 7 horas |
 | [Conceitos básicos do Dynamics 365 e do Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Quer aprender mais sobre aplicativos de negócios? Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5.5 horas |
-| [Introdução aos aplicativos do Finance and Operations](/learn/paths/get-started-finance-operations/) | Aprenda como os aplicativos do Finance and Operations oferecem suporte de negócios para gerenciar sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e informadas. Na primeira etapa de sua carreira trabalhando com os aplicativos do Finance and Operations, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
+| [Introdução aos aplicativos de Finanças e Operações](/learn/paths/get-started-finance-operations/) | Aprender como os aplicativos de Finanças e Operações dão suporte para que as empresas gerenciem sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e conscientes. Na primeira etapa de sua carreira trabalhando com aplicativos de Finanças e Operações, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
 | [Introdução ao Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | O Dynamics 365 Finance permite que os usuários de negócios se adaptem a ambientes comerciais que mudam rapidamente. Fornece às empresas tudo que elas precisam para controlar as finanças e gerenciar fundos com informações precisas, a qualquer momento para fins de planejamento, e ajuda as empresas a ficarem atualizadas com ferramentas analíticas. Como a parte financeira é a essência de qualquer negócio, é importante conhecer os recursos do Dynamics 365 Finance. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 1 hora |
 | [Curso MB-900T01-A: Conceitos básicos do Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Este curso apresentará ao aprendiz as funcionalidades e o valor comercial do Dynamics 365. Ele abrangerá os aplicativos do Dynamics 365, o Power Platform, conceitos de nuvem, o modelo de segurança e considerações de licenciamento. | Treinamento online ou presencial com instrutor; o preço varia de acordo com a região e o parceiro | 1 dia |
 

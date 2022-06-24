@@ -1,6 +1,6 @@
 ---
 title: Reembolsar clientes
-description: Este tópico explica como criar transações de reembolso para um grupo de clientes.
+description: Este artigo explica como criar transações de reembolso para um grupo de clientes.
 author: JodiChristiansen
 ms.date: 09/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d464dd23d70e1a340211eb83828550d807a543
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 892b089edb16ba560f588c086d37faafdf16958d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891772"
 ---
 # <a name="reimburse-customers"></a>Reembolsar clientes
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como criar transações de reembolso para um grupo de clientes. Se um cliente tiver um saldo de crédito, é possível reembolsar o cliente para o valor do saldo. 
+Este artigo explica como criar transações de reembolso para um grupo de clientes. Se um cliente tiver um saldo de crédito, é possível reembolsar o cliente para o valor do saldo. 
 
 A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes de começar.
 

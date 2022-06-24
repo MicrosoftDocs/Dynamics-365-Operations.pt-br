@@ -1,6 +1,6 @@
 ---
-title: Criar uma nova solução ER para imprimir etiquetas ZPL
-description: Este tópico explica como criar uma nova solução de relatório eletrônico (ER) para imprimir etiquetas ZPL (Linguagem de Programação Zebra).
+title: Criar uma solução ER para imprimir etiquetas ZPL
+description: Este artigo explica como criar uma nova solução de relatório eletrônico (ER) para imprimir etiquetas ZPL (Linguagem de Programação Zebra).
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845705"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Criar uma nova solução ER para imprimir etiquetas ZPL
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Criar uma solução ER para imprimir etiquetas ZPL
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico explica como um usuário no administrador do sistema, no desenvolvedor de relatórios eletrônicos ou na função consultor funcional de relatórios eletrônicos pode configurar parâmetros da estrutura [Relatório Eletrônico (ER)](general-electronic-reporting.md), criar as [configurações](general-electronic-reporting.md#Configuration) de ER necessárias de uma nova solução ER para acessar os dados do sistema de gerenciamento de depósito e gerar etiquetas de localização de depósito personalizado no formato da Linguagem de Programação Zebra (ZPL) II. Essas etapas podem ser concluídas na empresa **USRT**.
+Este artigo explica como um usuário no administrador do sistema, no desenvolvedor de relatórios eletrônicos ou na função consultor funcional de relatórios eletrônicos pode configurar parâmetros da estrutura [Relatório Eletrônico (ER)](general-electronic-reporting.md), criar as [configurações](general-electronic-reporting.md#Configuration) de ER necessárias de uma nova solução ER para acessar os dados do sistema de gerenciamento de depósito e gerar etiquetas de localização de depósito personalizado no formato da Linguagem de Programação Zebra (ZPL) II. Essas etapas podem ser concluídas na empresa **USRT**.
 
 ## <a name="business-scenario"></a>Cenário de negócios
 

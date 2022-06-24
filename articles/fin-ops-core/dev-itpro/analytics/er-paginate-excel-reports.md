@@ -1,6 +1,6 @@
 ---
 title: Criar um formato de ER para paginar documentos gerados no Excel
-description: Este tópico explica como criar um formato de Relatório eletrônico (ER) que pagina um documento gerado no Microsoft Excel.
+description: Este artigo explica como criar um formato de Relatório eletrônico (ER) que pagina um documento gerado no Microsoft Excel.
 author: NickSelin
 ms.date: 09/14/2021
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: ce29225c4bce24adc2abefc3d3d6f20774852af4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909268"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Criar um formato de ER para paginar documentos gerados no Excel
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como um usuário na função de Administrador do Sistema ou de Consultor Funcional de Relatório Eletrônico pode configurar um formato de [Relatório eletrônico (ER)](general-electronic-reporting.md) para gerar documentos de saída no Microsoft Excel e gerenciar a paginação de documentos.
+Este artigo explica como um usuário na função de Administrador do Sistema ou de Consultor Funcional de Relatório Eletrônico pode configurar um formato de [Relatório eletrônico (ER)](general-electronic-reporting.md) para gerar documentos de saída no Microsoft Excel e gerenciar a paginação de documentos.
 
 Neste exemplo, você modificará o formato de ER fornecido pela Microsoft, que é usado para imprimir o relatório de controle quando a declaração de Intrastat é [gerada](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md). Este relatório permite observar transações Intrastat relatadas. Suas modificações permitirão que você gerencie a paginação dos relatórios de controle que são gerados.
 
-Os procedimentos deste tópico podem ser concluídos na empresa **DEMF**. Nenhum código é necessário. Antes de começar, baixe e salve os seguintes arquivos.
+Os procedimentos deste artigo podem ser concluídos na empresa **DEMF**. Nenhum código é necessário. Antes de começar, baixe e salve os seguintes arquivos.
 
 | descrição       | Nome do arquivo |
 |-------------------|-----------| 
@@ -165,7 +165,7 @@ Em seguida, use o formato de ER personalizado para gerar o relatório de control
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>Repita a substituição do modelo atual do Excel no formato de ER personalizado
 
-1. Siga as etapas na seção [Substituir o modelo do Excel atual formato de ER personalizado](#replace-template) deste tópico. No entanto, na etapa 7, selecione o arquivo **ERIntrastatReportDemo2. xlsx**.
+1. Siga as etapas na seção [Substituir o modelo do Excel atual formato de ER personalizado](#replace-template) deste artigo. No entanto, na etapa 7, selecione o arquivo **ERIntrastatReportDemo2. xlsx**.
 2. Na página **Designer de formato**, expanda **Intrastat**.
 3. Nomeie os componentes de formato do [Intervalo](er-fillable-excel.md#range-component) que foram adicionados ao formato de ER editável para sincronizar a estrutura com a estrutura do modelo do Excel aplicado:
 
@@ -406,7 +406,7 @@ Para alterar a visibilidade, atualize a propriedade **Habilitada** do **Cabeçal
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>Gerar um relatório de controle da declaração de Intrastat (atualizado)
 
-1. Certifique-se de que você tem 24 transações na página **Intrastat**. Repita as etapas na seção [Gerar relatório de controle de declaração Intrastat](#generate-intrastat-control-report) deste tópico para gerar e revisar o relatório de controle.
+1. Certifique-se de que você tem 24 transações na página **Intrastat**. Repita as etapas na seção [Gerar relatório de controle de declaração Intrastat](#generate-intrastat-control-report) deste artigo para gerar e revisar o relatório de controle.
 
     Todas as transações são apresentadas na primeira página. Os totais de página e os contadores são iguais aos totais e contadores do relatório. O intervalo do cabeçalho da página na primeira página porque o cabeçalho do relatório já contém títulos das colunas. O cabeçalho e o rodapé da página estão ocultos na segunda página porque essa página não contém transações.
 

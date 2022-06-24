@@ -1,6 +1,6 @@
 ---
 title: Falha no lançamento do diário devido ao desequilíbrio
-description: Este tópico explica por que débitos e créditos podem não ser equilibrados em transações de comprovante, de forma que as transações não podem ser iniciadas. O tópico também inclui etapas para corrigir o problema.
+description: Este artigo explica por que débitos e créditos podem não ser equilibrados em transações de comprovante, de forma que as transações não podem ser iniciadas. O artigo também inclui etapas para corrigir o problema.
 author: kweekley
 ms.date: 08/03/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 07408e608496dcc19562b866449b3b27f5f80edd
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f5afded3d5c42f8dab465b668e4c1fcdaed8c215
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861319"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Falha no lançamento do diário devido ao desequilíbrio
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica por que débitos e créditos podem não ser equilibrados em transações de comprovante, de forma que as transações não podem ser iniciadas. O tópico também inclui etapas para corrigir o problema.
+Este artigo explica por que débitos e créditos podem não ser equilibrados em transações de comprovante, de forma que as transações não podem ser iniciadas. O artigo também inclui etapas para corrigir o problema.
 
 ## <a name="symptom"></a>Sintoma
 

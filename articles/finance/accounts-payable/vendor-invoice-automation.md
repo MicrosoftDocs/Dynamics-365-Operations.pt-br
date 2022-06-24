@@ -1,6 +1,6 @@
 ---
 title: Automação de fatura para documentos digitalizados
-description: Este tópico explica os recursos disponíveis para a automação ponta a ponta de notas fiscais de fornecedor, até mesmo notas fiscais que incluem anexos.
+description: Este artigo explica os recursos disponíveis para a automação ponta a ponta de notas fiscais de fornecedor, até mesmo notas fiscais que incluem anexos.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883406"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automação de fatura para documentos digitalizados
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica as entidades de dados disponíveis para a automação completa de faturas de fornecedor, incluindo faturas com anexos.
+Este artigo explica as entidades de dados disponíveis para a automação completa de faturas de fornecedor, incluindo faturas com anexos.
 
 As organizações que desejam agilizar seus processos de Contas a Pagar (AP) geralmente identificam o processamento da fatura como uma das principais áreas de processo que devem ser mais eficientes. Em muitos casos, essas organizações descarregam o processamento de faturas em papel para um provedor de serviços de reconhecimento óptico de caracteres (OCR) de terceiros. Eles então recebem metadados de fatura legíveis por máquina, juntamente com uma imagem digitalizada de cada fatura. Para ajudar com a automação, uma solução de "última milha" foi construída para permitir o consumo desses artefatos no sistema de faturamento. Agora, esta automação de "última milha" é habilitada e pronta para uso, por meio de uma solução de automação de fatura.
 
@@ -46,7 +46,7 @@ A pegada de solução consiste nos seguintes componentes:
 + Processamento de exceção para faturas
 + Um visualizador de anexo lado a lado nas faturas
 
-O restante deste tópico fornece descrições detalhadas desses componentes da solução.
+O restante deste artigo fornece descrições detalhadas desses componentes da solução.
 
 ## <a name="data-entities"></a>Entidades de dados
 

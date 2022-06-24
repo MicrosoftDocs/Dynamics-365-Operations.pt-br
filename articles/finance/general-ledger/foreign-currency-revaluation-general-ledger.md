@@ -1,6 +1,6 @@
 ---
-title: Reavaliação de moeda estrangeira da Contabilidade
-description: 'Este tópico fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário.'
+title: Reavaliação de moeda estrangeira para contabilidade
+description: 'Este artigo fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário.'
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904518"
 ---
-# <a name="foreign-currency-revaluation-for-general-ledger"></a>Reavaliação de moeda estrangeira da Contabilidade
+# <a name="foreign-currency-revaluation-for-general-ledger"></a>Reavaliação de moeda estrangeira para contabilidade
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário. 
+Este artigo fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário. 
 
 Como parte de um fechamento, às convenções de contabilidade exigem saldos de conta contábil em moedas estrangeiras ser reavaliado os usando tipos de taxa de câmbio diferente (atual, o histórico, médio, etc.). Por exemplo, uma convenção contábil de ativos e as responsabilidades sejam reavaliados a taxa de câmbio atual, em ativos fixos a taxa de câmbio histórica, e lucros e contas de perdas na média mensal. A reavaliação de moeda estrangeira contábil pode ser usado para reavaliar o balanço e as contas de lucros e perdas. 
 

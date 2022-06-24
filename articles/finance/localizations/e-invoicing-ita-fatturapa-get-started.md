@@ -1,6 +1,6 @@
 ---
 title: Configurar a integração direta do FatturaPA com SDI
-description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico da Itália e configurar a integração direta do FatturaPA italiano com o sistema do Exchange (SDI).
+description: Este artigo fornece informações que ajudarão você a começar a usar o Faturamento eletrônico da Itália e configurar a integração direta do FatturaPA italiano com o sistema do Exchange (SDI).
 author: abaryshnikov
 ms.date: 01/15/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853182"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Configurar a integração direta do FatturaPA com SDI
 
@@ -24,23 +24,23 @@ ms.locfileid: "7984794"
 > [!IMPORTANT]
 > O Faturamento eletrônico para a Itália talvez não ofereça suporte no momento a todas as funções disponíveis para faturas eletrônicas no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 
-Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico italiano no Finance e no Supply Chain Management. Ele o orienta você pelas etapas de configuração que dependem do país/região para os Regulatory Configuration Services (RCS). Essas etapas complementam as etapas descritas em [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+Este artigo fornece informações que ajudarão você a começar a usar o Faturamento eletrônico italiano no Finance e no Supply Chain Management. Ele o orienta você pelas etapas de configuração que dependem do país/região para os Regulatory Configuration Services (RCS). Essas etapas complementam as etapas descritas em [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de concluir as etapas deste tópico, os pré-requisitos a seguir devem ser atendidos:
+Antes de concluir as etapas deste artigo, os pré-requisitos a seguir devem ser atendidos:
 
 - Conclua as etapas em [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
-- Importe o recurso de faturamento eletrônico **FatturaPA italiano (IT)** no RCS do repositório global. Para obter mais informações, consulte a seção [Importar um recurso de faturamento eletrônico do provedor de configuração da Microsoft](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) do tópico mencionado anteriormente "Introdução ao Faturamento eletrônico".
-- Adicione links dos certificados necessários ao ambiente de serviço. Os certificados necessários incluem o certificado de assinatura digital, o certificado de autoridade de certificação (CA) e o certificado de clientes. Para obter mais informações, consulte a seção [Criar segredo de certificado digital](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) do tópico "Introdução à administração do serviço de Faturamento eletrônico".
+- Importe o recurso de faturamento eletrônico **FatturaPA italiano (IT)** no RCS do repositório global. Para obter mais informações, consulte a seção [Importar um recurso de faturamento eletrônico do provedor de configuração da Microsoft](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) do artigo mencionado anteriormente "Introdução ao Faturamento eletrônico".
+- Adicione links dos certificados necessários ao ambiente de serviço. Os certificados necessários incluem o certificado de assinatura digital, o certificado de autoridade de certificação (CA) e o certificado de clientes. Para obter mais informações, consulte a seção [Criar segredo de certificado digital](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) do artigo "Introdução à administração do serviço de Faturamento eletrônico".
 
 ## <a name="country-specific-configuration-for-the-italian-fatturapa-it-electronic-invoicing-feature"></a>Configuração específica de país para o recurso Faturamento eletrônico do FatturaPA italiano (IT)
 
 Conclua os procedimentos a seguir antes de implantar a configuração do aplicativo no aplicativo Finance ou Supply Chain Management conectado.
 
-Esta seção complementa a seção [Configuração específica do país da configuração do aplicativo](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) no tópico "Introdução ao Faturamento eletrônico".
+Esta seção complementa a seção [Configuração específica do país da configuração do aplicativo](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) no artigo "Introdução ao Faturamento eletrônico".
 
-### <a name="create-a-new-feature"></a>Criar um novo recurso
+### <a name="create-a-new-feature"></a>Criar um recurso
 
 1. Entre no RCS.
 2. No espaço de trabalho do **Relatório eletrônico**, na seção **Provedores de configuração**, marque o provedor de configuração de sua empresa como ativo.
@@ -87,8 +87,8 @@ Esta seção complementa a seção [Configuração específica do país da confi
 
 ### <a name="deploy-the-feature"></a>Implantar o recurso
 
-1. Conclua, publique e implante o recurso para o ambiente de serviço. Para obter mais informações, consulte a seção [Implantar o recurso de Faturamento eletrônico no ambiente de serviço](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) do tópico "Introdução ao Faturamento eletrônico".
-2. Implante o recurso no aplicativo conectado. Para obter mais informações, consulte a seção [Implantar o recurso de Faturamento eletrônico no aplicativo conectado](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) do tópico "Introdução ao Faturamento eletrônico".
+1. Conclua, publique e implante o recurso para o ambiente de serviço. Para obter mais informações, consulte a seção [Implantar o recurso de Faturamento eletrônico no ambiente de serviço](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) do artigo "Introdução ao faturamento eletrônico".
+2. Implante o recurso no aplicativo conectado. Para obter mais informações, consulte a seção [Implantar o recurso de Faturamento eletrônico no aplicativo conectado](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) do artigo "Introdução ao faturamento eletrônico".
 
 ### <a name="set-up-finance"></a>Configurar o Finance
 

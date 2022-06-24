@@ -1,6 +1,6 @@
 ---
 title: Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce
-description: Este tópico descreve como lançar documentos fiscais brasileiros por meio de demonstrativos de varejo no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como lançar documentos fiscais brasileiros por meio de demonstrativos de varejo no Microsoft Dynamics 365 Commerce.
 author: akviklis
 manager: annbe
 ms.date: 06/10/2021
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 086a130bdebef3f34676a7a436dba9abb35a3c3e
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: cbd7a66802d6ffbd8d2f4463e0d2e1e2e93f94e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845823"
 ---
 # <a name="post-brazilian-fiscal-documents-via-retail-statements-in-commerce-headquarters"></a>Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce 
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve como lançar documentos fiscais brasileiros por meio de demonstrativos de varejo no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como lançar documentos fiscais brasileiros por meio de demonstrativos de varejo no Microsoft Dynamics 365 Commerce.
 
 Depois de executar o P-jobs e lançar um demonstrativo de varejo, os documentos fiscais NFC-e (Nota Fiscal do Consumidor eletrônico) que foram emitidos através dos terminais do Ponto de Venda (PDV) do Commerce podem ser visualizados na página **Visualizar mensagem XML** na sede do Commerce.
 

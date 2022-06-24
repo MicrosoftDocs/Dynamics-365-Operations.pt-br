@@ -1,6 +1,6 @@
 ---
 title: Escolher uma tecnologia de integração de dados
-description: Este tópico fornece informações sobre a integração com dados gerenciados pelo RH.
+description: Este artigo fornece informações sobre a integração A dados gerenciados por Human Resources.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887780"
 ---
 # <a name="choose-a-data-integration-technology"></a>Escolher uma tecnologia de integração de dados
 
@@ -30,7 +30,7 @@ ms.locfileid: "8717129"
 
 
 
-Este tópico fornece informações para integração com dados gerenciados pelo Dynamics 365 Human Resources. Ele descreve diferentes tecnologias de integração para ajudá-lo a decidir quais tecnologias atendem melhor às suas necessidades.
+Este artigo fornece informações para integração a dados gerenciados pelo Dynamics 365 Human Resources. Ele descreve diferentes tecnologias de integração para ajudá-lo a decidir quais tecnologias atendem melhor às suas necessidades.
 
 ## <a name="data-integration-background"></a>Plano de fundo da integração de dados
 

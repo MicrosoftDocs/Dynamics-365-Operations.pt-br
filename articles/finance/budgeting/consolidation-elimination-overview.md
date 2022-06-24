@@ -1,6 +1,6 @@
 ---
-title: Visão geral de consolidação de eliminação
-description: Este tópico fornece informações gerais sobre o processo de consolidação e de eliminação. Inclui as respostas às perguntas frequentes.
+title: Visão geral de consolidação e da eliminação
+description: Este artigo fornece informações gerais sobre o processo de consolidação e de eliminação. Inclui as respostas às perguntas frequentes.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871381"
 ---
-# <a name="consolidation-and-elimination-overview"></a>Visão geral de consolidação de eliminação
+# <a name="consolidation-and-elimination-overview"></a>Visão geral de consolidação e da eliminação
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações gerais sobre o processo de consolidação e de eliminação. Inclui as respostas às perguntas frequentes.
+Este artigo fornece informações gerais sobre o processo de consolidação e de eliminação. Inclui as respostas às perguntas frequentes.
 
 Ao consolidar os dados, os resultados financeiros de várias empresas subsidiárias são combinados em resultados de uma única empresa consolidada. As subsidiárias podem estar em versões ou em sistemas diferentes, podem não ser propriedade exclusiva e podem usar ocorrências diferentes. Há várias opções para consolidar os dados:
 

@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (06 de agosto 2020)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 06 de agosto de 2020.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 6 de agosto de 2020.
 author: andreabichsel
 ms.date: 08/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a8058c1acdde20a1b48130fa1e8b75aa415bafce
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 89fb22b97582e50cbb1d9929ece20786ab0d6267
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902879"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (06 de agosto 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691964"
 
 
 
-Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3444. Os números entre parênteses em alguns títulos referem-se aos números de suporte do LCS para referência.
+Este artigo descreve os recursos novos ou alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3444. Os números entre parênteses em alguns títulos referem-se aos números de suporte do LCS para referência.
 
 ## <a name="platform-update-1001236-is-now-available"></a>A atualização de plataforma 10.0.12(36) agora está disponível
 

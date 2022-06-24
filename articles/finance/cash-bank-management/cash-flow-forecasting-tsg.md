@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas de configuração de previsão de fluxo de caixa
-description: Este tópico oferece respostas para dúvidas que você possa ter ao configurar a previsão de fluxo de caixa. Ele aborda perguntas frequentes sobre a configuração de fluxo de caixa, atualizações para fluxo de caixa e fluxo de caixa do Power BI.
+description: Este artigo oferece respostas para possíveis dúvidas ao configurar a previsão de fluxo de caixa. Ele aborda perguntas frequentes sobre a configuração de fluxo de caixa, atualizações para fluxo de caixa e fluxo de caixa do Power BI.
 author: panolte
 ms.date: 03/23/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e2b5a8df84ff5159a85526251a6367857afa1808
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0e3438bc07fde28d5d9d2d5b3d83bbe70692c0bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878060"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Solucionar problemas de configuração de previsão de fluxo de caixa
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece respostas para dúvidas que você possa ter ao configurar a previsão de fluxo de caixa. Ele aborda perguntas frequentes sobre a configuração de fluxo de caixa, atualizações para fluxo de caixa e fluxo de caixa do Power BI.
+Este artigo oferece respostas para possíveis dúvidas ao configurar a previsão de fluxo de caixa. Ele aborda perguntas frequentes sobre a configuração de fluxo de caixa, atualizações para fluxo de caixa e fluxo de caixa do Power BI.
 
 ## <a name="why-is-cash-flow-shown-for-only-one-legal-entity"></a>Por que o fluxo de caixa é mostrado para uma única entidade legal?
 

@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) — Recursos de globalização
-description: Este tópico explica como usar o Microsoft Regulatory Configuration Services (RCS) e o Repositório global para criar e usar Recursos de globalização.
+description: Este artigo explica como usar o Microsoft Regulatory Configuration Services (RCS) e o Repositório global para criar e usar Recursos de globalização.
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888884"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Service (RCS) — Recursos de globalização
 
@@ -40,7 +40,7 @@ Antes de concluir os procedimentos, você deverá concluir as etapas relacionada
 - Acessar uma instância RCS.
 - Criar e ativar um provedor de configuração. Para obter mais informações, consulte [Criar provedores de configuração e marcá-los como ativos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Na sua instância de aplicativos do Finance and Operations, siga estas etapas.
+Na sua instância do aplicativo de finanças e operações, siga as etapas a seguir.
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Se não tiver o ambiente do RCS provisionado para sua empresa, selecione **Regulatory services – Configuração** e siga as instruções para provisionar um.
@@ -64,7 +64,7 @@ Para usar um Recurso de globalização, primeiro você deverá importá-lo do Re
 
 ## <a name="access-globalization-features"></a>Acessar Recursos de globalização
 
-1. Verifique se o recurso **Recursos de globalização** está ativado no Gerenciamento de recursos conforme descrito anteriormente neste tópico.
+1. Verifique se o recurso **Recursos de globalização** está ativado no Gerenciamento de recursos, conforme descrito anteriormente neste artigo.
 2. Abra o novo espaço de trabalho **Recursos de Globalização** e, em seguida, em **Recursos**, selecione o bloco **Faturamento eletrônico**.
 
     ![Espaço de trabalho Recursos Globais.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ As ações a seguir estão disponíveis para configurações:
 - **Exibir** – exiba as configurações de recursos subjacentes que não exigem atualização.
 - **Editar** – cria uma versão de rascunho de uma configuração selecionada para que você possa editar o formato ou o mapeamento de formato no Designer de formatação.
 - **Excluir** – exclui uma configuração selecionada do recurso.
-- **Alterar base** – baseie o recurso novamente. Para obter mais informações, consulte a seção [Trocar base de Recursos de globalização derivados](#rebase) posteriormente neste tópico.
+- **Alterar base** – baseie o recurso novamente. Para obter mais informações, consulte a seção [Trocar base de Recursos de globalização derivados](#rebase) posteriormente neste artigo.
 
 ### <a name="setups"></a>Configurações
 
@@ -182,7 +182,7 @@ As ações a seguir estão disponíveis para configurações de recurso:
 
 As ações a seguir estão disponíveis para ambientes:
 
-- **Habilitar** – para uma versão do recurso selecionada, selecione um ambiente publicado e selecione uma data **Início da vigência** quando ela deverá estar disponível. Para obter mais informações, consulte a seção [Configurar ambientes para habilitação](#configureenvironment) posteriormente neste tópico.
+- **Habilitar** – para uma versão do recurso selecionada, selecione um ambiente publicado e selecione uma data **Início da vigência** quando ela deverá estar disponível. Para obter mais informações, consulte a seção [Configurar ambientes para habilitação](#configureenvironment) posteriormente neste artigo.
 - **Cancelar** – remova um ambiente para uma configuração de recurso.
 
 ### <a name="organizations"></a>Organizações

@@ -1,6 +1,6 @@
 ---
 title: Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil
-description: Este tópico dá uma visão geral da funcionalidade de cancelamento e devolução para documentos NFC-e no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce para o Brasil.
+description: Este artigo dá uma visão geral da funcionalidade de cancelamento e devolução para documentos NFC-e no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce para o Brasil.
 author: akviklis
 manager: annbe
 ms.date: 12/03/2021
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 74bec38c7d4302bee71ee20ff24531d924925d83
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 6562b21ace3844b0a49fd071677af8ad084bb306
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856950"
 ---
 # <a name="cancellation-and-return-of-nfc-e-documents-in-commerce-pos-for-brazil"></a>Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico dá uma visão geral da funcionalidade de cancelamento e devolução para documentos NFC-e (Nota Fiscal do Consumidor eletrônica) no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce para o Brasil.
+Este artigo dá uma visão geral da funcionalidade de cancelamento e devolução para documentos NFC-e (Nota Fiscal do Consumidor eletrônica) no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce para o Brasil.
 
 A funcionalidade do Commerce para o Brasil permite o cancelamento e a devolução das vendas que foram emitidas por meio de documentos NFC-e. Os formatos de documentos NFC-e baseiam-se nas normas técnicas nacionais para documentos fiscais eletrônicos. Essas normas também incluem um formato para eventos de cancelamento e NF-e (Nota Fiscal eletrônica) modelo 55 para devoluções.
 

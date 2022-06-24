@@ -1,6 +1,6 @@
 ---
 title: Configurar descrições padrão para lançamento automático
-description: Este tópico explica como configurar o texto padrão que é usado para descrever entradas de contabilidade lançadas automaticamente na contabilidade. Você pode configurar o texto padrão de descrição usando o texto livre ou selecionando variáveis fixas.
+description: Este artigo explica como configurar o texto padrão que é usado para descrever entradas de contabilidade lançadas automaticamente na contabilidade. Você pode configurar o texto padrão de descrição usando o texto livre ou selecionando variáveis fixas.
 author: aprilolson
 ms.date: 07/23/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 71982a7d5b1bb08d3e238646ea0b15f17260bdcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904489"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Configurar descrições padrão para lançamento automático
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o texto padrão que é usado para descrever entradas de contabilidade lançadas automaticamente na contabilidade. Você pode configurar o texto padrão de descrição usando o texto livre ou selecionando variáveis fixas.
+Este artigo explica como configurar o texto padrão que é usado para descrever entradas de contabilidade lançadas automaticamente na contabilidade. Você pode configurar o texto padrão de descrição usando o texto livre ou selecionando variáveis fixas.
 
 > [!NOTE]
-> Para determinados tipos de transação em alguns países ou regiões, também é possível incluir o texto dos campos que estão relacionados a esses tipos de transação. Para obter uma lista de tipos de transação, além de países e regiões, consulte a seção [Opcional: adicionar texto às descrições padrão](#optional-add-other-text-to-default-descriptions) posteriormente neste tópico.
+> Para determinados tipos de transação em alguns países ou regiões, também é possível incluir o texto dos campos que estão relacionados a esses tipos de transação. Para obter uma lista de tipos de transação, além de países e regiões, consulte a seção [Opcional: adicionar texto às descrições padrão](#optional-add-other-text-to-default-descriptions) posteriormente neste artigo.
 
 ## <a name="set-up-default-descriptions"></a>Configurar descrições padrão
 
@@ -78,7 +78,7 @@ Essa opção está disponível somente para os seguintes países e regiões:
 
 ### <a name="add-text-to-default-descriptions"></a>Adicionar texto às descrições padrão
 
-Depois de concluir as etapas na seção [Definir descrições padrão](#set-up-default-descriptions), anteriormente neste tópico, siga estas etapas para adicionar outro texto para as descrições padrão.
+Depois de concluir as etapas na seção [Definir descrições padrão](#set-up-default-descriptions), anteriormente neste artigo, siga estas etapas para adicionar outro texto para as descrições padrão.
 
 1. Na Guia Rápida **Parâmetros**, selecione **Adicionar**.
 2. No campo **Tabela de referência**, selecione a tabela de banco de dados da qual os dados de parâmetros serão adicionados à descrição.

@@ -1,6 +1,6 @@
 ---
 title: Parâmetros de cobrança de contrato recorrentes
-description: Este tópico explica como configurar os valores padrão para agendas de cobrança que são criadas na cobrança do contrato recorrente. Também explica como criar grupos de agenda de cobrança.
+description: Este artigo explica como configurar os valores padrão para agendas de cobrança que são criadas na cobrança do contrato recorrente. Também explica como criar grupos de agenda de cobrança.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 19fe77ade0523aa7fd6382266457fd739df46d75
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903324"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Parâmetros de cobrança de contrato recorrentes
 
@@ -27,7 +27,7 @@ Use a página **Parâmetros de cobrança de contrato recorrentes** para configur
 
 ## <a name="general-tab"></a>Guia Geral
 
-1. Na página **Parâmetros de cobrança de contrato recorrente**, na guia **Geral**, no campo **Grupo de agenda de cobrança**, selecione um grupo da agenda de cobrança. Para obter informações sobre como configurar grupos de agenda de cobrança, consulte a seção [Grupos de agenda de cobrança](#set-up-billing-schedule-groups) a seguir neste tópico.
+1. Na página **Parâmetros de cobrança de contrato recorrente**, na guia **Geral**, no campo **Grupo de agenda de cobrança**, selecione um grupo da agenda de cobrança. Para obter informações sobre como configurar grupos de agenda de cobrança, consulte a seção [Grupos de agenda de cobrança](#set-up-billing-schedule-groups) a seguir neste artigo.
 2. No campo **Tipo de encerramento**, selecione como a fatura final será calculada quando uma agenda de cobrança for encerrada:
 
     - **Ajustar agenda** – interrompe a agenda de cobrança na data de demissão, altera o status da agenda para **Última cobrança** e ajusta a agenda de adiamento associada, revertendo o valor que não deve mais ser reconhecido. Se a data de início da cobrança for posterior à data de encerramento, os períodos de cobrança restantes serão removidos.

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Payment Connector para Adyen no PDV do Commerce para o Brasil
-description: Este tópico fornece uma visão geral do Microsoft Dynamics 365 Payment Connector para a funcionalidade de Adyen no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce para o Brasil.
+title: Dynamics 365 Payment Connector para Adyen no Commerce POS para o Brasil
+description: Este artigo fornece uma visão geral do Microsoft Dynamics 365 Payment Connector para a funcionalidade de Adyen no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce para o Brasil.
 author: akviklis
 ms.date: 03/04/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 5b90f6de52e4368fc0093ca0f7c5fe05749fb901
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a7400d2f81650abcb66ef2b44eb6480adb37173c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881750"
 ---
-# <a name="dynamics-365-payment-connector-for-adyen-in-commerce-pos-for-brazil"></a>Dynamics 365 Payment Connector para Adyen no PDV do Commerce para o Brasil
+# <a name="dynamics-365-payment-connector-for-adyen-in-commerce-pos-for-brazil"></a>Dynamics 365 Payment Connector para Adyen no Commerce POS para o Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral do Microsoft Dynamics 365 Payment Connector para a funcionalidade de Adyen no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce para o Brasil.
+Este artigo fornece uma visão geral do Microsoft Dynamics 365 Payment Connector para a funcionalidade de Adyen no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce para o Brasil.
 
 O Dynamics 365 Payment Connector para Adyen é um conector de pagamento pronto para uso que oferece suporte a vários instrumentos de pagamento globalmente.
 

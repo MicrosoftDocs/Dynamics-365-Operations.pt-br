@@ -1,6 +1,6 @@
 ---
 title: Tarefas periódicas de gerenciamento de crédito
-description: Este tópico descreve as tarefas periódicas que são parte do processo de gerenciamento dos limites de crédito de clientes.
+description: Este artigo descreve as tarefas periódicas que são parte do processo de gerenciamento dos limites de crédito de clientes.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 53b7cd00b3287f18ba65391842ac259ab2434b86
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9ad72463acba301f7fc931f9fe316a9a9758922e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887996"
 ---
 # <a name="periodic-credit-management-tasks"></a>Tarefas periódicas de gerenciamento de crédito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as tarefas periódicas que são parte do processo de gerenciamento dos limites de crédito de clientes.
+Este artigo descreve as tarefas periódicas que são parte do processo de gerenciamento dos limites de crédito de clientes.
 
 ## <a name="update-risk-scores"></a>Atualizar pontuações de risco
 

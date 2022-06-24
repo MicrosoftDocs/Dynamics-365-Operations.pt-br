@@ -1,6 +1,6 @@
 ---
 title: Serviços de globalização do Dynamics 365
-description: Este tópico oferece uma visão geral de serviços de globalização do Microsoft Dynamics 365.
+description: Este artigo oferece uma visão geral de serviços de globalização do Microsoft Dynamics 365.
 author: JaneA07
 ms.date: 04/12/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1dfe88bf6eb0cf479f8febd8a599b165b71d932d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9f449bed7eac8d6eb38e62e6eda816f31cff80c2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879468"
 ---
 # <a name="dynamics-365-globalization-services"></a>Serviços de globalização do Dynamics 365
 
@@ -40,8 +40,8 @@ Esses serviços de globalização fornecem integração imediata com os serviço
 |----------------|-----|----------------------|---------------------------|
 | Dynamics 365 Finance | Sim | Sim | Sim | 
 | Dynamics 365 Supply Chain Management | Sim | Sim | Sim | 
-| Dynamics 365 Project Operations | Sim | Sim | Não Aplicável | 
-| Dynamics 365 Commerce | Sim | Não Aplicável | Não Aplicável | 
+| Dynamics 365 Project Operations | Sim | Sim | Não aplicável | 
+| Dynamics 365 Commerce | Sim | Não aplicável | Não Aplicável | 
 
 > [!NOTE]
 > Devido a diferenças na disponibilidade das localizações geográficas do Azure (áreas geográficas) para RCS, a configuração desse serviço pode fazer com que dados do cliente sejam transferidos para fora da área geográfica selecionada para o serviço online do Dynamics 365 aplicável. Para obter mais informações, consulte [Dynamics 365 e Power Platform: disponibilidade, local de dados, idioma e localização](https://aka.ms/rcs/D365Productavailabilityguide).

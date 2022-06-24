@@ -1,6 +1,6 @@
 ---
 title: Configurar categorias de conta principal
-description: Este tópico explica como configurar as categorias da conta principal no Dynamics 365 Finance.
+description: Este artigo explica como configurar as categorias da conta principal no Dynamics 365 Finance.
 author: aprilolson
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb41f1b7200363f8846c406d5c20338f6ea242bd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c48011c9988bdca694851476540db574efef7909
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879553"
 ---
 # <a name="set-up-main-account-categories"></a>Configurar categorias de conta principal
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como configurar as categorias da conta principal. Categorias de conta principal são usadas para os relatórios padrão em relatórios financeiros e no Power BI. Categorias de conta principal que são criadas por padrão podem ser renomeadas, mas não excluídas. Categorias de conta adicional podem ser criadas e usadas para fins de relatório e análise. Este tópico usa a empresa de demonstração USMF.
+Este artigo explica como configurar as categorias da conta principal. Categorias de conta principal são usadas para os relatórios padrão em relatórios financeiros e no Power BI. Categorias de conta principal que são criadas por padrão podem ser renomeadas, mas não excluídas. Categorias de conta adicional podem ser criadas e usadas para fins de relatório e análise. Este artigo usa a empresa de demonstração USMF.
 
 ## <a name="create-a-main-account-category"></a>Criar uma categoria de conta principal
 1. No painel de navegação, acesse **Módulos > Contabilidade >Plano de contas > Contas > Categorias de conta principal**.

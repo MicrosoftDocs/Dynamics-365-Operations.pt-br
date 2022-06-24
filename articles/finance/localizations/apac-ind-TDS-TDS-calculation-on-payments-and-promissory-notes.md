@@ -1,6 +1,6 @@
 ---
 title: Cálculo de TDS para pagamentos e notas promissórias
-description: Este tópico fornece informações de referência sobre as diferentes transações de pagamento nas quais o imposto deduzido na fonte (TDS) é calculado.
+description: Este artigo fornece informações de referência sobre as diferentes transações de pagamento nas quais o imposto deduzido na fonte (TDS) é calculado.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f38a8c4b0416abb10bfdaf95c3379e964e9a41e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: f5e9447924a17b96b7a4a5cdd1ef1547145d6ea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726452"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906308"
 ---
 # <a name="tds-calculation-on-payments-and-promissory-notes"></a>Cálculo de TDS para pagamentos e notas promissórias
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações de referência sobre as diferentes transações de pagamento nas quais o imposto deduzido na fonte (TDS) é calculado.
+Este artigo fornece informações de referência sobre as diferentes transações de pagamento nas quais o imposto deduzido na fonte (TDS) é calculado.
 
 | Nº de série | Tipo de transação | Valor da transação | Nome da página e caminho | Tipo de conta e tipo de contrapartida |
 |---------------|------------------|--------------------|--------------------|--------------------------------------|

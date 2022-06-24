@@ -1,6 +1,6 @@
 ---
 title: Suporte a moeda dupla para imposto
-description: Este tópico explica como estender o recurso de contabilidade de duas moedas no domínio do imposto e o impacto no cálculo e no lançamento do imposto
+description: Este artigo explica como estender o recurso de contabilidade de duas moedas no domínio do imposto e o impacto no cálculo e no lançamento do imposto
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909030"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Suporte a moeda dupla para imposto
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como estender a contabilidade de moeda dupla para impostos e o impacto para cálculos, lançamentos e liquidações do imposto.
+Este artigo explica como estender a contabilidade de moeda dupla para impostos e o impacto para cálculos, lançamentos e liquidações do imposto.
 
 O recurso de moeda dupla do Dynamics 365 Finance foi introduzido na versão 8.1 (outubro de 2018). Ele altera a maneira como as entradas de contabilidade na moeda de relatório são calculadas.
 
@@ -89,7 +89,7 @@ Esse recurso se aplica apenas a novas transações. Em transações fiscais já 
 
 Para evitar o cenário anterior, recomendamos alterar esse valor do parâmetro em um novo período de liquidação de imposto (limpo) que não contenha transações fiscais não definidas. Para alterar esse valor no meio de um período de liquidação de impostos, execute o programa "Liquidar e lançar imposto" para o período atual de liquidação de impostos antes de alterar esse valor de parâmetro.
 
-Este recurso adicionará entradas contábeis que esclarecem ganhos e perdas de trocas de moedas. As entradas serão feitas nas contas de lucros e perdas de ajuste de moeda realizadas quando a reavaliação for feita durante a liquidação do imposto sobre vendas. Para obter mais informações, consulte a seção [Saldo automático de liquidação de imposto na moeda de relatório](#tax-settlement-auto-balance-in-reporting-currency) posteriormente neste tópico.
+Este recurso adicionará entradas contábeis que esclarecem ganhos e perdas de trocas de moedas. As entradas serão feitas nas contas de lucros e perdas de ajuste de moeda realizadas quando a reavaliação for feita durante a liquidação do imposto sobre vendas. Para obter mais informações, consulte a seção [Saldo automático de liquidação de imposto na moeda de relatório](#tax-settlement-auto-balance-in-reporting-currency) mais adiante neste artigo.
 
 > [!NOTE]
 > Durante a liquidação, as informações de dimensões financeiras são tiradas de contas de impostos sobre vendas, que são contas de balanço e inseridas em contas de lucros e perdas de ajuste de moeda, que são contas de demonstrativo de lucros e perdas. Como as restrições ao valor das dimensões financeiras diferem entre contas de balanço e contas de demonstrativo de lucros e perdas, um erro pode ocorrer durante o processo de liquidação e lançamento de imposto sobre vendas. Para evitar ter que modificar estruturas de conta, você pode ativar a recurso "Preencher dimensões financeiras para o ajuste de moeda realizado de lucros/perdas para liquidação de imposto sobre vendas". Este recurso forçará a derivação de dimensões financeiras para contas de lucros/perdas de ajuste de moeda. 

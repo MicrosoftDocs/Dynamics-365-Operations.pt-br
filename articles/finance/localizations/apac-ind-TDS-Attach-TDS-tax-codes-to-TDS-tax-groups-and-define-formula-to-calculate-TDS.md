@@ -1,6 +1,6 @@
 ---
 title: Anexar os códigos de imposto TDS aos grupos de impostos TDS e definir a fórmula para calcular o TDS
-description: Este tópico explica como configurar grupos de impostos TDS (Imposto Deduzido na Fonte) e anexar códigos de imposto TDS aos grupos de impostos TDS. Para calcular o TDS para um grupo de impostos TDS, você deve definir a fórmula para os códigos de impostos TDS que estão anexados a ele.
+description: Este artigo explica como configurar grupos de impostos TDS (Imposto Deduzido na Fonte) e anexar códigos de imposto TDS aos grupos de impostos TDS. Para calcular o TDS para um grupo de impostos TDS, você deve definir a fórmula para os códigos de impostos TDS que estão anexados a ele.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1326f95c297887213ecfb572a2437867d964925
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 3607e44bdcf7a32b156e6b4639ef907aa923cadc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853304"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Anexar os códigos de imposto TDS aos grupos de impostos TDS e definir a fórmula para calcular o TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar grupos de impostos TDS (Imposto Deduzido na Fonte) e anexar códigos de imposto TDS aos grupos de impostos TDS. Para calcular o TDS para um grupo de impostos TDS, você deve definir a fórmula para os códigos de impostos TDS que estão anexados a ele.
+Este artigo explica como configurar grupos de impostos TDS (Imposto Deduzido na Fonte) e anexar códigos de imposto TDS aos grupos de impostos TDS. Para calcular o TDS para um grupo de impostos TDS, você deve definir a fórmula para os códigos de impostos TDS que estão anexados a ele.
 
 Siga estas etapas para configurar um grupo de impostos TDS, anexar códigos de impostos TDS a ele e definir a fórmula para calcular o TDS.
 

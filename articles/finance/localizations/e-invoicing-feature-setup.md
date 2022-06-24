@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com configurações de recursos
-description: Este tópico explica como configurar os recursos de Faturamento eletrônico.
+description: Este artigo explica como configurar os recursos de faturamento eletrônico.
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41ffc9c7009291a55392e50c5e490d3288d122bc
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 23466a53bb8ba597503aaa12d41395fc82b9f14e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904315"
 ---
 # <a name="work-with-feature-setups"></a>Trabalhar com configurações de recursos
 
@@ -46,7 +46,7 @@ As informações de configuração são combinadas no conceito de *configuraçã
 6. Se você selecionou a opção **Configuração personalizada** na última etapa, digite um nome e uma descrição do item de configuração do recurso e, em seguida, no grupo de campos **Tipo de configuração**, selecione uma das seguintes opções:
 
     - **Pipeline de processamento** – Selecione esta opção para gerar e processar documentos eletrônicos de saída. Para esse tipo de configuração, o sistema cria uma lista de pipeline de processamento vazia, uma seção vazia para regras de aplicabilidade e um conjunto de variáveis padrão. Não será possível trabalhar com os canais para documentos eletrônicos de entrada.
-    - **Canal de dados** – Selecione esta opção para configurar o processo de recebimento de documentos eletrônicos de entrada de um dos canais definidos e transferência deles diretamente para o Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management sem ações adicionais. Para esse tipo de configuração, o sistema cria uma lista predefinida de parâmetros para os canais de dados, uma seção vazia para regras de aplicabilidade e um conjunto de variáveis padrão. Não será possível adicionar ações ao pipeline de processamento.
+    - **Canal de dados** – selecione esta opção para configurar o processo de recebimento de documentos eletrônicos de entrada de um dos canais definidos e transferência deles diretamente para o Microsoft Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management sem ações adicionais. Para esse tipo de configuração, o sistema cria uma lista predefinida de parâmetros para os canais de dados, uma seção vazia para regras de aplicabilidade e um conjunto de variáveis padrão. Não será possível adicionar ações ao pipeline de processamento.
     - **Canal de dados e pipeline de processamento** – Esse tipo de configuração é semelhante ao tipo **Canal de dados**. No entanto, antes que um documento eletrônico de entrada seja passado para o Finance ou Supply Chain Management, você pode configurar ações adicionais no pipeline de processamento.
 
 7. Se você selecionou a opção **Canal de dados** ou **Canal de dados e processamento de pipeline** na última etapa, no campo **Selecionar canal de dados**, você deve selecionar o canal com o qual ocorrerá a integração.

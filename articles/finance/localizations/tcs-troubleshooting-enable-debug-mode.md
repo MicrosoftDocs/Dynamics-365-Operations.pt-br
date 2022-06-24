@@ -1,6 +1,6 @@
 ---
-title: Habilitar modo de depuração no serviço de cálculo de imposto
-description: Este tópico explica como habilitar o modo de depuração no serviço de cálculo de imposto para investigar problemas.
+title: Habilitar modo de depuração no serviço de Cálculo de Imposto
+description: Este artigo explica como habilitar o modo de depuração no serviço Cálculo de Imposto para investigar problemas.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2f526a2341c7ef682209ed979fe686e31ad62a37
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887767"
 ---
-# <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Habilitar modo de depuração no serviço de cálculo de imposto
+# <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Habilitar modo de depuração no serviço de Cálculo de Imposto
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como habilitar o modo de depuração no serviço de cálculo de imposto para investigar problemas.
+Este artigo explica como habilitar o modo de depuração no serviço Cálculo de Imposto para investigar problemas.
 
 1. Adicione **&debug=vs%2CconfirmExit&** à URL do AOS (Servidor de Objetos de Aplicativo) e, em seguida, atualize a página.
 2. Quando você seleciona **Impostos** para calcular o imposto, um arquivo de texto chamado **TaxServiceTroubleshootingLog.txt** é aberto. O arquivo **TaxServiceTroubleshootingLog.txt** contém **TaxableDocument** e o parâmetro de cálculo. Esses resultados são retornados do serviço de imposto e das informações de exceção para a solução de problemas.

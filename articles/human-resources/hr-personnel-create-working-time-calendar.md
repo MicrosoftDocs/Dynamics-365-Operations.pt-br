@@ -1,6 +1,6 @@
 ---
 title: Criar calendários e gerar horários de trabalho
-description: Os calendários descrevem a capacidade e os horários de trabalho dos recursos de operações. Este tópico explica como definir um calendário de trabalho com base no modelo de horário de trabalho.
+description: Os calendários descrevem a capacidade e os horários de trabalho dos recursos de operações. Este artigo explica como definir um calendário de trabalho com base no modelo de horário de trabalho.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: business-process
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b49b5393448bc501abd1b96123b64c034d7cc67
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 811f49307a8ae44bbee9906cb40a3ca31101f52b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846319"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Criar calendários e gerar horários de trabalho
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> A funcionalidade mencionada neste tópico está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
+> A funcionalidade mencionada neste artigo está disponível atualmente para clientes do Human Resources na infraestrutura do Finance.  
 
 
-Os calendários descrevem a capacidade e os horários de trabalho dos recursos de operações. Este tópico explica como definir um calendário de trabalho com base no modelo de horário de trabalho. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
+Os calendários descrevem a capacidade e os horários de trabalho dos recursos de operações. Este artigo explica como definir um calendário de trabalho com base no modelo de horário de trabalho. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 
 1. Na home page, selecione **Gerenciamento do ciclo de vida de recurso**.
 2. Selecione **Calendários**.

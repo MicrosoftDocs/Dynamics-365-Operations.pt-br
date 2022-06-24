@@ -1,6 +1,6 @@
 ---
 title: Configurar contas de lançamento de arrendamento
-description: Este tópico lista as contas de lançamento necessárias Transações de arrendamento de ativo e explica como definir contas de lançamento na página Parâmetros de lançamento de arrendamento.
+description: Este artigo lista as contas de lançamento necessárias para Transações de arrendamento de ativo e explica como definir contas de lançamento na página Parâmetros de lançamento de arrendamento.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 147d8cd93f9664039b2004b878dcaff96c8b6ce6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726368"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859904"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Configurar contas de lançamento de arrendamento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista as contas de lançamento necessárias Transações de arrendamento de ativo e explica como definir contas de lançamento na página **Parâmetros de lançamento de arrendamento**.
+Este artigo lista as contas de lançamento necessárias para Transações de arrendamento de ativo e explica como definir contas de lançamento na página **Parâmetros de lançamento de arrendamento**.
 
 Para obedecer ao Tópico 842 da Codificação de Padrões Contábeis (ASC 842) e ao Padrão Internacional de Relatórios Financeiros 16 (IFRS 16), talvez você precise criar contas no seu plano de contas. No entanto, as contas que você cria para atender aos padrões ASC e IFRS não são contas de ativos fixos. Sob o ASC 842, um ativo de direito de uso (DDU) é registrado para arrendamentos mercantis e operacionais. Esses arrendamentos são separados dos ativos fixos. (Ainda é possível manter um ativo DDU usando Ativos fixos).
 

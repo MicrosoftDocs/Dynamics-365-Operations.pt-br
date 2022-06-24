@@ -1,6 +1,6 @@
 ---
 title: Insira a conta e as combinações de dimensões (controle segmentado de entradas)
-description: Este tópico descreve como inserir a conta e as combinações de dimensões ou contas contábeis. A experiência de entrada é também conhecida como o controle segmentado de entrada.
+description: Este artigo descreve como inserir a conta e as combinações de dimensões ou contas contábeis. A experiência de entrada é também conhecida como o controle segmentado de entrada.
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 779c455cb842fda941ce716eb644b9e3020f5e90
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8bbe36bc42ca501cf3ff48aa4951a3959ea8056a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861348"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Insira a conta e as combinações de dimensões (controle segmentado de entradas)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como inserir a conta e as combinações de dimensões ou contas contábeis. A experiência de entrada é também conhecida como o controle segmentado de entrada.
+Este artigo descreve como inserir a conta e as combinações de dimensões ou contas contábeis. A experiência de entrada é também conhecida como o controle segmentado de entrada.
 
 Os usuários inserem as combinações de conta e dimensão em várias páginas como páginas para diários gerais, orçamento e definições de lançamentos. A conta válida e as combinações de dimensão dependem das estruturas de conta que são atribuídas ao razão e as regras avançadas que são atribuídas às estruturas da conta. Quando os usuários inserem combinações, eles podem digitar manualmente os valores ou aproveitar uma experiência rica de pesquisa. Quando entrar no campo, você poderá começar a digitar e pesquisar o valor e a descrição. Por exemplo, se você digitar 180 será pesquisado qualquer valor que inicie com essa combinação numérica. Ou é possível digitar Dinheiro e será pesquisado qualquer valor que tenha uma descrição que começa com Pagamento à vista. Você também pode usar um curinga, como \*Pagamento à vista ou \*180 para pesquisar se o valor ou descrição contém os critérios de pesquisa. 
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar livros fiscais
-description: Este tópico explica como configurar eventos SPED-Reinf usando Livros fiscais no Microsoft Dynamics 365 Finance para o Brasil.
+description: Este artigo explica como configurar eventos SPED-Reinf usando Livros fiscais no Microsoft Dynamics 365 Finance para o Brasil.
 author: sndray
 ms.date: 05/26/2021
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9462d70b30595570b556efb1ee4e782e2c7e35a81edc83181f159bef508f1dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 799077d83d64827871a8cbf3c05895947fc64039
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855256"
 ---
 # <a name="set-up-fiscal-books"></a>Configurar livros fiscais
 
-Este tópico explica como configurar o módulo **Livros fiscais** para gerar e emitir eventos para as autoridades fiscais. 
+Este artigo explica como configurar o módulo **Livros fiscais** para gerar e emitir eventos para as autoridades fiscais. 
 
 ## <a name="set-up-service-types"></a>Configurar tipos de serviço
 

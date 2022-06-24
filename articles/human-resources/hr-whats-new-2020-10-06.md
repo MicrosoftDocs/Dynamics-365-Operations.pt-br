@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (6 de outubro de 2020)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 6 de outubro de 2020.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 6 de outubro de 2020.
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887708"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (6 de outubro de 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062970"
 
 
 
-Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
+Este artigo descreve os recursos novos, alterados ou que serão lançados em breve no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
 Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -48,9 +48,9 @@ O seguinte recurso está geralmente disponível nesta versão.
 As seguintes correções de bug estão incluídas nessa versão.
 
 >[!NOTE]
-> Nosso objetivo é obter essas informações para você o mais rápido possível. Este tópico poderá ser atualizado para incluir correções de bugs feitas no build após a publicação inicial deste tópico.
+> Nosso objetivo é obter essas informações para você o mais rápido possível. Este artigo poderá ser atualizado para incluir correções de bugs feitas no build após a publicação inicial deste artigo.
 
-| Número do problema | Problema | descrição |
+| Número do problema | Problema | Descrição |
 | --- | --- | --- |
 | 448806 | **Tipo de Identificação Padrão** é exportado como **RecID** nos parâmetros do HCM | Essa alteração na entidade de parâmetros do Human Resources adiciona uma coluna adicional que exibe o **Tipo de Identificação Padrão**. |
 | 492923 | Os registros de tarefas não estão sendo salvos no Lifecycle Services (LCS) | Agora, as gravações de tarefas podem ser salvas no LCS. |

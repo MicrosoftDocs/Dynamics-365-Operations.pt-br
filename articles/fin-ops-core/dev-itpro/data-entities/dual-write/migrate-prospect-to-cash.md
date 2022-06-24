@@ -1,6 +1,6 @@
 ---
-title: Migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
-description: Este tópico descreve como migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla.
+title: Migrar dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
+description: Este artigo descreve como migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla.
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894256"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrar dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
 
 [!include [banner](../../includes/banner.md)]
 
-A solução Cliente potencial ao pagamento à vista disponível para o Integrador de dados não é compatível com a gravação dupla. O motivo para isso é o índice msdynce_AccountNumber na tabela de contas que veio como parte da solução do Cliente potencial ao pagamento à vista. Se esse índice existir, você não poderá criar o mesmo número de conta de cliente em duas entidades legais diferentes. Você pode optar por iniciar o novo com a gravação dupla, migrando os dados do Cliente potencial ao pagamento à vista do Integrador de dados para gravação dupla ou pode instalar a última versão "dorman" da solução do Cliente potencial ao pagamento à vista. Este tópico abranges as essas duas abordagens.
+A solução Cliente potencial ao pagamento à vista disponível para o Integrador de dados não é compatível com a gravação dupla. O motivo para isso é o índice msdynce_AccountNumber na tabela de contas que veio como parte da solução do Cliente potencial ao pagamento à vista. Se esse índice existir, você não poderá criar o mesmo número de conta de cliente em duas entidades legais diferentes. Você pode optar por iniciar o novo com a gravação dupla, migrando os dados do Cliente potencial ao pagamento à vista do Integrador de dados para gravação dupla ou pode instalar a última versão "dorman" da solução do Cliente potencial ao pagamento à vista. Este artigo abranges as essas duas abordagens.
 
 ## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Instale a última versão "dorman" da solução do Cliente potencial ao pagamento à vista do Integrador de Dados
 
@@ -50,7 +50,7 @@ Para migrar os dados de Cliente potencial ao pagamento à vista do Integrador de
 5. Crie uma conexão de gravação dupla entre o aplicativo de Finanças e Operações e o aplicativo de engajamento do cliente para uma ou mais entidades legais.
 6. Habilite mapas de tabela de gravação dupla e execute a sincronização inicial dos dados de referência necessários. (Para obter mais informações, consulte [Considerações para sincronização inicial](initial-sync-guidance.md).) Os exemplos de dados necessários incluem grupos de clientes, condições e planos de pagamento. Não habilite mapas de gravação dupla em tabelas que exigem inicialização, como as tabelas de conta, cotação, linha de cotação, ordem e de linha de ordem.
 7. No aplicativo Customer Engagement, acesse **Configurações Avançadas \> Configurações do Sistema \> Gerenciamento de Dados \> Regras de detecção de duplicidades** e desabilite todas as regras.
-8. Inicialize as tabelas listadas na etapa 2. Para obter instruções, consulte as outras seções deste tópico.
+8. Inicialize as tabelas listadas na etapa 2. Para obter instruções, consulte as outras seções deste artigo.
 9. Abra o aplicativo de Finanças e Operações e habilite os mapas de tabela, como os mapas de tabela de contas, cotação, linha de cotação e linha de ordem. Depois, execute a sincronização inicial. (Para obter mais informações, consulte [Considerações para sincronização inicial](initial-sync-guidance.md).) Este processo sincronizará todas as informações adicionais do aplicativo de Finanças e Operações, como status de processamento, endereços de envio e cobrança, locais e depósitos.
 
 ## <a name="account-table"></a>Tabela de contas
@@ -98,7 +98,7 @@ Como os dados da tabela **Produtos** são projetados para fluir do aplicativo de
 
 ## <a name="quote-and-quote-product-tables"></a>Tabelas de Cotação e Produto da cotação
 
-Para a tabela **Cotação**, siga as instruções na seção [Tabela de ordens](#order-table) anterior neste tópico. Para a tabela **Produto da cotação**, siga as instruções na seção [Tabela de produtos da ordem](#order-products-table).
+Para a tabela **Cotação**, siga as instruções na seção [Tabela de ordens](#order-table) anterior neste artigo. Para a tabela **Produto da cotação**, siga as instruções na seção [Tabela de produtos da ordem](#order-products-table).
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

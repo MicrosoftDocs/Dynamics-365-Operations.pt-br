@@ -1,6 +1,6 @@
 ---
 title: Usar as fontes de dados JOIN nos mapeamentos do modelo de ER para obter dados de várias tabelas de aplicativos
-description: Este tópico explica como você pode usar fontes de dados do tipo JOIN no relatório eletrônico (ER).
+description: Este artigo explica como você pode usar fontes de dados do tipo JOIN no relatório eletrônico (ER).
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845503"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar as fontes de dados JOIN para obter dados de várias tabelas de aplicativos nos mapeamentos do modelo de relatório eletrônico (ER)
 
@@ -40,15 +40,15 @@ Na fonte de dados **Join** configurada, quando todas as fontes de dados são do 
 > [!NOTE]
 > Ainda não há suporte para o uso da função **VALUEIN** em expressões de ER que especificam condições para inclusão de registros em fontes de dados do tipo Join. Visite a página [Designer de fórmulas em relatórios eletrônicos](general-electronic-reporting-formula-designer.md) para obter mais detalhes sobre essa função.
 
-Para saber mais sobre este recurso, conclua o exemplo neste tópico.
+Para saber mais sobre este recurso, conclua o exemplo neste artigo.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Exemplo: use fontes de dados JOIN em mapeamentos do modelo de ER
 
-As etapas a seguir explicam como o administrador do sistema ou o desenvolvedor de relatórios eletrônicos pode configurar um mapeamento de modelo de relatórios eletrônicos (ER) para obter dados de várias tabelas de aplicativos de uma só vez usando fontes de dados do tipo **Join** para melhorar o desempenho do acesso a dados. Essas etapas podem ser executadas em qualquer empresa do Dynamics 365 Finance ou Regulatory Configuration Services (RCS).
+As etapas a seguir explicam como o administrador do sistema ou o desenvolvedor de relatórios eletrônicos pode configurar um mapeamento de modelo de relatórios eletrônicos (ER) para obter dados de várias tabelas de aplicativos de uma só vez usando fontes de dados do tipo **Join** para melhorar o desempenho do acesso a dados. Essas etapas podem ser executadas para qualquer empresa do Dynamics 365 Finance ou de Regulatory Configuration Services (RCS).
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
-Para concluir os exemplos neste tópico, você deve ter acesso a um dos itens a seguir, dependendo de qual serviço é usado para concluir estas etapas:
+Para concluir os exemplos neste artigo, você deve ter acesso a um dos itens a seguir, dependendo de qual serviço é usado para concluir estas etapas:
 
 **Acesso ao Finance para uma das seguintes funções:**
 
@@ -257,7 +257,7 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
 ## <a name="limitations"></a>Limitações
 
-Como você pode ver no exemplo deste tópico, a fonte de dados **JOIN** pode ser criada a partir de várias fontes de dados que descrevem os conjuntos individuais dos registros que devem ser incluídos eventualmente. Você pode configurar essas fontes de dados usando a função de ER [FILTER](er-functions-list-filter.md) integrada. Ao configurar a fonte de dados de forma que ela seja chamada além da fonte de dados **JOIN**, você pode usar intervalos da empresa como parte da condição para a seleção de dados. A implementação inicial da fonte de dados **JOIN** não oferece suporte a fontes de dados deste tipo. Por exemplo, ao chamar uma fonte de dados baseada em [FILTER](er-functions-list-filter.md) no escopo de execução de uma fonte de dados **JOIN**, se a fonte de dados chamada contiver intervalos da empresa como parte da condição para a seleção de dados, ocorrerá uma exceção.
+Como você pode ver no exemplo deste artigo, a fonte de dados **JOIN** pode ser criada a partir de várias fontes de dados que descrevem os conjuntos individuais dos registros que devem ser incluídos eventualmente. Você pode configurar essas fontes de dados usando a função de ER [FILTER](er-functions-list-filter.md) integrada. Ao configurar a fonte de dados de forma que ela seja chamada além da fonte de dados **JOIN**, você pode usar intervalos da empresa como parte da condição para a seleção de dados. A implementação inicial da fonte de dados **JOIN** não oferece suporte a fontes de dados deste tipo. Por exemplo, ao chamar uma fonte de dados baseada em [FILTER](er-functions-list-filter.md) no escopo de execução de uma fonte de dados **JOIN**, se a fonte de dados chamada contiver intervalos da empresa como parte da condição para a seleção de dados, ocorrerá uma exceção.
 
 Na versão 10.0.12 do Microsoft Dynamics 365 Finance (agosto de 2020), você pode usar intervalos da empresa como parte da condição para a seleção de dados em fontes de dados baseadas em [FILTER](er-functions-list-filter.md) que são chamados dentro do escopo de execução de uma fonte de dados **JOIN**. Devido às limitações do construtor de [consulta](../dev-ref/xpp-library-objects.md#query-object-model) de aplicativos, os intervalos da empresa têm suporte apenas para a primeira fonte de dados de uma fonte de dados **JOIN**.
 

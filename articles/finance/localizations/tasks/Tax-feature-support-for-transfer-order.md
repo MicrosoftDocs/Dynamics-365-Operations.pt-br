@@ -1,6 +1,6 @@
 ---
-title: Suporte ao recurso de imposto para a ordens de transferência
-description: Este tópico explica o novo suporte a recursos de imposto para ordens de transferência usando o serviço de cálculo de imposto.
+title: Suporte a recursos de imposto para ordens de transferência
+description: Este artigo explica o novo suporte a recursos de imposto para ordens de transferência usando o serviço de cálculo de imposto.
 author: Kai-Cloud
 ms.date: 10/13/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869971"
 ---
-# <a name="tax-feature-support-for-transfer-orders"></a>Suporte ao recurso de imposto para a ordens de transferência
+# <a name="tax-feature-support-for-transfer-orders"></a>Suporte a recursos de imposto para ordens de transferência
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece informações sobre cálculo de impostos e integração de lançamento em ordens de transferência. Essa funcionalidade permite que você defina o cálculo e o lançamento de impostos em ordens de transferência para transferências de estoque. Sob as regulamentações de imposto sobre valor agregado (IVA) da União Europeia (UE), as transferências de estoque são consideradas de fornecimento e aquisição interna na comunidade.
+Este artigo fornece informações sobre cálculo de impostos e integração de lançamento em ordens de transferência. Essa funcionalidade permite que você defina o cálculo e o lançamento de impostos em ordens de transferência para transferências de estoque. Sob as regulamentações de imposto sobre valor agregado (IVA) da União Europeia (UE), as transferências de estoque são consideradas de fornecimento e aquisição interna na comunidade.
 
 Para configurar e usar esse recurso, você deve seguir três etapas principais:
 

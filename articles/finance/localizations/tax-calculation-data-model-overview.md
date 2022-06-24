@@ -1,6 +1,6 @@
 ---
-title: Modelo de dados de cálculo de impostos
-description: Este tópico fornece informações sobre o modelo de dados de imposto e sobre como os valores de campo de cada modelo de dados são determinados pelo contexto das transações de cálculo de imposto.
+title: Modelo de dados de cálculo de imposto
+description: Este artigo fornece informações sobre o modelo de dados de imposto e sobre como os valores de campo de cada modelo de dados são determinados pelo contexto das transações de cálculo de imposto.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859685"
 ---
-# <a name="tax-calculation-data-model"></a>Modelo de dados de cálculo de impostos
+# <a name="tax-calculation-data-model"></a>Modelo de dados de cálculo de imposto
 
-Este tópico fornece informações sobre o modelo de dados de imposto e sobre como os valores de campo de cada modelo de dados de imposto são determinados nas transações de cálculo de imposto.
+Este artigo fornece informações sobre o modelo de dados de imposto e sobre como os valores de campo de cada modelo de dados de imposto são determinados nas transações de cálculo de imposto.
 
 O *modelo de dados de imposto* é composto de campos que são necessários para cálculos de imposto. A Microsoft fornece o *modelo de dados de cálculo de impostos*, que inclui os campos de cabeçalho e os campos de linha dos documentos de transação nos aplicativos Finanças e operações. Os campos definidos no modelo de dados de cálculo de impostos são as colunas disponíveis das tabelas de regras de aplicabilidade na configuração da configuração do recurso de cálculo de imposto.
 
@@ -99,7 +99,7 @@ Os modelos de dados de trinta-dois podem ser incluídos como campos no cabeçalh
 | Remeter para província/estado          | <ul><li>**Ordem de venda:**<ol><li>Cabeçalho &gt; Endereço de entrega &gt; Estado</li></ol></li><li>**Ordem de compra:**<ol><li>Cabeçalho &gt; Endereço de entrega &gt; Estado</li></ol></li><li>**Ordem de transferência – Remeter:**<ol><li>Cabeçalho &gt; Depósito de destino &gt; Endereço primário &gt; Estado</li><li>Cabeçalho &gt; Local de destino &gt; Endereço primário &gt; Estado</li></ol></li><li>**Ordem de transferência – Receber:**<ol><li>Cabeçalho &gt; Depósito de destino &gt; Endereço primário &gt; Estado</li><li>Cabeçalho &gt; Local de destino &gt; Endereço primário &gt; Estado</li></ol></li><li>**Solicitação de cotação:**<ol><li>Cabeçalho &gt; Endereço de entrega &gt; Estado</li></ol></li><li>**Cotação de venda:**<ol><li>Cabeçalho &gt; Endereço de entrega &gt; estado</li></ol></li><li>**Fatura de texto livre:**<ol><li>Cabeçalho &gt; Conta do cliente &gt; Endereço de entrega padrão &gt; Estado</li><li>Cabeçalho &gt; Conta do cliente &gt; Endereço primário &gt; Estado</li></ol></li><li>**Diário (cliente):**<ol><li>Conta de cliente &gt; Endereço de entrega padrão &gt; Estado</li><li>Conta de cliente &gt; Endereço primário &gt; Estado</li></ol></li><li>**Diário (fornecedor):**<ol><li>Entidade legal &gt; Endereço de entrega padrão &gt; Estado</li><li>Entidade legal &gt; Endereço primário &gt; Estado</li></ol></li></ul> |
 | Remeter para CEP                 | <ul><li>**Ordem de venda:**<ol><li>Cabeçalho &gt; Endereço de entrega &gt; CEP/código postal</li></ol></li><li>**Ordem de compra:**<ol><li>Cabeçalho &gt; Endereço de entrega &gt; CEP/código postal</li></ol></li><li>**Ordem de transferência – Remeter:**<ol><li>Cabeçalho &gt; Depósito de destino &gt; Endereço primário &gt; CEP/código postal</li><li>Cabeçalho &gt; Local de destino &gt; Endereço primário &gt; CEP/código postal</li></ol></li><li>**Ordem de transferência – Receber:**<ol><li>Cabeçalho &gt; Depósito de destino &gt; Endereço primário &gt; CEP/código postal</li><li>Cabeçalho &gt; Local de destino &gt; Endereço primário &gt; CEP/código postal</li></ol></li><li>**Solicitação de cotação:**<ol><li>Cabeçalho &gt; Endereço de entrega &gt; CEP/código postal</li></ol></li><li>**Cotação de venda:**<ol><li>Cabeçalho &gt; Endereço de entrega &gt; CEP/código postal</li></ol></li><li>**Fatura de texto livre:**<ol><li>Cabeçalho &gt; Conta do cliente &gt; Endereço de entrega padrão &gt; CEP/código postal</li><li>Cabeçalho &gt; Conta do cliente &gt; Endereço primário &gt; CEP/código postal</li></ol></li><li>**Diário (cliente):**<ol><li>Conta de cliente &gt; Endereço de entrega padrão &gt; CEP/código postal</li><li>Conta de cliente &gt; Endereço primário &gt; CEP/código postal</li></ol></li><li>**Diário (fornecedor):**<ol><li>Entidade legal &gt; Endereço de entrega padrão &gt; CEP/código postal</li><li>Entidade legal &gt; Endereço primário &gt; CEP/código postal</li></ol></li></ul> |
 | Local                             | <ul><li>**Ordem de venda:** local</li><li>**Ordem de compra:** local</li><li>**Ordem de transferência - Remeter:** local do Depósito de origem</li><li>**Ordem de transferência - Receber:** local do Depósito de destino</li><li>**Solicitação de cotação:** local</li><li>**Cotação de venda:** local</li></ul> |
-| Direção de imposto                    | <ul><li>**Ordem de venda:** saída</li><li>**Ordem de compra:** entrada</li><li>**Ordem de transferência - Remeter:** saída</li><li>**Ordem de transferência – Receber:** entrada</li><li>**Requisição de compra:** entrada</li><li>**Solicitação de cotação:** entrada</li><li>**Cotação de venda:** saída</li><li>**Fatura de texto livre:** saída</li></ul> |
+| Direção de imposto                    | <ul><li>**Ordem de venda:** saída</li><li>**Ordem de compra:** entrada</li><li>**Ordem de transferência - Remeter:** saída</li><li>**Ordem de transferência – Receber:** entrada</li><li>**Requisição de compra:** entrada</li><li>**Solicitação de cotação:** entrada</li><li>**Cotação de venda:** saída</li><li>**Fatura de texto livre:** saída</li><li>**Diário:** Saída</li></ul> |
 | Conta de Fornecedor                   | <ul><li>**Ordem de compra:** conta do fornecedor</li><li>**Diário (fornecedor):** conta de fornecedor</li></ul> |
 | Conta de fatura de fornecedor           | <ul><li>**Ordem de compra:** conta da fatura</li><li>**Diário (fornecedor):**<ol><li>Fornecedor mestre &gt; Conta de fatura</li><li>Conta de Fornecedor</li></ol></li></ul> |
 | Depósito                        | <ul><li>**Ordem de venda:** depósito</li><li>**Ordem de compra:** depósito</li><li>**Ordem de transferência - Remeter:** depósito de origem</li><li>**Ordem de transferência - Receber:** depósito de destino</li><li>**Solicitação de cotação:** depósito</li><li>**Cotação de venda:** depósito</li></ul> |

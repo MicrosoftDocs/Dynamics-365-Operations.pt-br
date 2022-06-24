@@ -1,6 +1,6 @@
 ---
 title: Criar avaliações de desempenho
-description: Este tópico explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão.
+description: Este artigo explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão.
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67a001926c0d5021d952f9b678ec128c68511a8f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ae2de087f4e345ba826ddbe8a65f917476bd6894
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872171"
 ---
 # <a name="create-performance-reviews"></a>Criar avaliações de desempenho
 
@@ -27,7 +27,7 @@ ms.locfileid: "8696030"
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-Este tópico explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF.
+Este artigo explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF.
 
 1. Na página inicial, selecione o espaço de trabalho **Autoatendimento para funcionários**.
 2. Selecione **Nova revisão** para criar uma revisão.

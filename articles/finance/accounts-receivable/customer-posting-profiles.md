@@ -1,6 +1,6 @@
 ---
 title: Perfis de lançamentos de cliente
-description: Este tópico descreve perfis de lançamento o cliente, que controla o lançamento de transações do cliente para a contabilidade.
+description: Este artigo descreve perfis de lançamento o cliente, que controla o lançamento de transações do cliente para a contabilidade.
 author: JodiChristiansen
 ms.date: 12/22/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ed5ab24e37c75222080bd242aa72a39ecb476bf
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891685"
 ---
 # <a name="customer-posting-profiles"></a>Perfis de lançamentos de cliente
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve perfis de lançamento o cliente, que controla o lançamento de transações do cliente para a contabilidade.
+Este artigo descreve perfis de lançamento o cliente, que controla o lançamento de transações do cliente para a contabilidade.
 
 ## <a name="customer-posting-profiles"></a>Perfis de lançamentos de cliente
 

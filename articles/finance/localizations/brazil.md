@@ -1,6 +1,6 @@
 ---
-title: Visão geral de Brasil
-description: Este tópico fornece links para recursos de documentação do Microsoft Dynamics 365 Finance para o Brasil.
+title: Visão geral do Brasil
+description: Este artigo fornece links para recursos de documentação do Microsoft Dynamics 365 Finance para o Brasil.
 author: kfend
 ms.date: 01/20/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 939616c5ae8a8464c5df823c6b65d5b6ed3e0749
-ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.openlocfilehash: 4a9e70c4bb72a0207f8929cdd5cbf892eea3a477
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "8016112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845201"
 ---
-# <a name="brazil-overview"></a>Visão geral de Brasil
+# <a name="brazil-overview"></a>Visão geral do Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico inclui informações e links para recursos que podem ajudar você a configurar entidades legais com endereço principal no Brasil. 
+Este artigo inclui informações e links para recursos que podem ajudar você a configurar entidades legais com endereço principal no Brasil. 
   
 - [Livros fiscais](latam-bra-fiscal-books.md)
   - [Configurar livros fiscais](latam-bra-configure-fiscal-books.md)

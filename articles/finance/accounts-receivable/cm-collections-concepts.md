@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858514"
 ---
 # <a name="collections-management-key-concepts"></a>Principais conceitos de gerenciamento de cobranças
 
@@ -34,7 +34,7 @@ Antes de começar a configurar ou trabalhar com cobranças, você deve entender 
 - Transações de baixa podem ser criadas em uma única etapa.
 - Pagamentos NSF (insuficiência de fundos) podem ser processados em uma única etapa.
 
-Este tópico descreve cada conceito.
+Este artigo descreve cada conceito.
 
 ## <a name="customer-aging-snapshots"></a>Instantâneo de classificação por vencimento de cliente 
 
@@ -86,7 +86,7 @@ O Painel de Ação contém os botões que permitem ver informações relacionada
 
 Você pode cancelar, restabelecer ou estornar notas de juros completas ou as taxas e os juros de transação que fazem parte das notas de juros. Na guia **Coletar** do Painel de Ação da página de lista **Todos os clientes**, selecione **Nota de juros**, **Juros da transação** ou **Taxa**.
 
-Esses ajustes afetam somente as notas de juros e os juros e as taxas que elas incluem. Para obter informações sobre como dar baixa de todos os encargos devidos por um cliente, consulte a seção [Criar transações de baixa](#creating-write-off-transactions) deste tópico.
+Esses ajustes afetam somente as notas de juros e os juros e as taxas que elas incluem. Para obter informações sobre como dar baixa de todos os encargos devidos por um cliente, consulte a seção [Criar transações de baixa](#creating-write-off-transactions) deste artigo.
 
 Para obter mais informações, consulte Criar um código de juros com um intervalo e Processar juros.
 

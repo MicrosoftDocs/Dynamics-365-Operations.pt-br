@@ -1,6 +1,6 @@
 ---
 title: Visão geral de processos automatizados de faturas de fornecedor
-description: Este tópico descreve o recurso para automatizar o processamento de faturas de fornecedores e os benefícios do uso de um processo automatizado.
+description: Este artigo descreve o recurso para automatizar o processamento de faturas de fornecedores e os benefícios do uso de um processo automatizado.
 author: abruer
 ms.date: 02/12/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: d2c629ed2d064a3350ec8ffe53940098d12ab0b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883435"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Visão geral de processos automatizados de faturas de fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o recurso para automatizar o processamento de faturas de fornecedores e os benefícios do uso de um processo automatizado. Esse recurso consiste em recursos ativados no Gerenciamento de recursos. Esses recursos se aplicam somente a faturas de fornecedor, não a faturas que são processadas usando a página **Diário de fatura** ou **Diário de registro de fatura**.
+Este artigo descreve o recurso para automatizar o processamento de faturas de fornecedores e os benefícios do uso de um processo automatizado. Esse recurso consiste em recursos ativados no Gerenciamento de recursos. Esses recursos se aplicam somente a faturas de fornecedor, não a faturas que são processadas usando a página **Diário de fatura** ou **Diário de registro de fatura**.
 
 Com frequência, as organizações trabalham com terceiros para processar faturas em papel usando um provedor de serviços de reconhecimento óptico de caracteres (OCR). O provedor de serviços retorna metadados da fatura legíveis para computadores. Para ajudar na automação, os recursos de automação de Contas a pagar permitem que você consuma esses artefatos de Contas a pagar.
 

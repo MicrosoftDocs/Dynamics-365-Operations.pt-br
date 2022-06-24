@@ -1,6 +1,6 @@
 ---
 title: Resultados de modelos de machine learning
-description: Este tópico discute as matrizes de confusão, os problemas de classificação e a acurácia nos modelos ML (aprendizado de máquina). O objetivo é aprimorar sua compreensão da acurácia em resultados de previsão de ML.
+description: Este artigo discute as matrizes de confusão, os problemas de classificação e a acurácia nos modelos ML (aprendizado de máquina). O objetivo é aprimorar sua compreensão da acurácia em resultados de previsão de ML.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910161"
 ---
 # <a name="results-of-machine-learning-models"></a>Resultados de modelos de machine learning
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico discute as matrizes de confusão, os problemas de classificação e a acurácia nos modelos ML (aprendizado de máquina). O objetivo é aprimorar sua compreensão da acurácia em resultados de previsão de ML. O público-alvo inclui engenheiros, analistas e gerentes que desejam criar conhecimentos e habilidades em ciência de dados.
+Este artigo discute as matrizes de confusão, os problemas de classificação e a acurácia nos modelos ML (aprendizado de máquina). O objetivo é aprimorar sua compreensão da acurácia em resultados de previsão de ML. O público-alvo inclui engenheiros, analistas e gerentes que desejam criar conhecimentos e habilidades em ciência de dados.
 
 ## <a name="confusion-matrix"></a>Matriz de confusão
 Depois que um problema de ML é treinado em um conjunto de dados históricos, ele é testado usando dados que são retidos a partir do processo de treinamento. Dessa forma, você pode comparar as previsões do modelo treinado com os valores reais. A matriz de confusão fornece um meio de avaliar o êxito de um problema de classificação e onde ele comete erros (ou seja, onde ele se torna "confuso").
@@ -73,16 +73,16 @@ A acurácia é uma ferramenta importante para a comunicação com especialistas 
 
 Para o cenário de previsão de pagamento, você pode definir uma meta para o modelo ML que inclui fatores em diferentes comportamentos de pagamento. A meta é que o modelo deve melhorar em uma suposição ingênua reduzindo o número de respostas incorretas em pelo menos 50%. Em outras palavras, você quer uma acurácia alvo que divide o diferente entre a acurácia de uma suposição ingênua e 100%.
 
-A tabela a seguir resume esse princípio para as matrizes de confusão neste tópico.
+A tabela a seguir resume esse princípio para as matrizes de confusão neste artigo.
 
-| Modelo   | Suposição ingênua | Alvo | Acurácia do modelo | A meta foi cumprida?                                          |
+| Modelo   | Suposição ingênua | Destino | Acurácia do modelo | A meta foi cumprida?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
 | Modelo 1 | 0,50        | 0,75   | 0,73           | Quase. Esse modelo melhora consideravelmente a estimativa. |
 | Modelo 2 | 0,80        | 0,90   | 0,83           | Nº É necessário melhorar.                              |
 
 ## <a name="classification-f1-accuracy"></a>Acurácia f da classificação
 
-A consideração final neste tópico é uma medida mais avançada da classificação de desempenho de ML, conhecida como acurácia f.
+A consideração final neste artigo é uma medida mais avançada da classificação de desempenho de ML, conhecida como acurácia f.
 
 Para que a acurácia f possa ser definida, duas métricas adicionais devem ser introduzidas: precisão e revocação. A precisão indica o número total de previsões especificadas como positivas que são atribuídas corretamente. Essa métrica também é conhecida como valor de previsão positivo. Revocação é o número total de casos positivos reais que foram previstos corretamente. Essa métrica também é conhecida como sensibilidade.
 
@@ -97,7 +97,7 @@ A medida f combina precisão e revocação. O resultado é a média harmônica d
 
 - F = 2 × (precisão × revocação) ÷ (precisão + revocação)
 
-Vejamos um exemplo concreto. Anteriormente neste tópico, havia um exemplo de um modelo que previa se um animal era um cachorro ou um gato. A ilustração é repetida aqui.
+Vejamos um exemplo concreto. Anteriormente neste artigo, havia um exemplo de um modelo que previa se um animal era um cachorro ou um gato. A ilustração é repetida aqui.
 
 [![Exemplo de previsão de espécies (repetido).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Como você pode ver, o valor F encontra-se entre os valores de precisão e revoc
 
 Embora a acurácia f não seja tão fácil de entender, ela adiciona nuances ao número de acurácia básica. Ele também pode ajudar com conjuntos de dados não equilibrados, conforme mostra a seguinte discussão.
 
-A seção [Acurácia do modelo](#model-accuracy) deste tópico comparou as duas matrizes de confusão a seguir. Embora o primeiro modelo tenha a acurácia menor, ele foi considerado um modelo mais útil, pois mostrou mais melhorias do que a estimativa padrão de um pagamento dentro do prazo.
+A seção [Acurácia do modelo](#model-accuracy) deste artigo comparou as duas matrizes de confusão a seguir. Embora o primeiro modelo tenha a acurácia menor, ele foi considerado um modelo mais útil, pois mostrou mais melhorias do que a estimativa padrão de um pagamento dentro do prazo.
 
 ![Exemplo de previsão de pagamento versus dados reais.](media/payment-prediction-matrix.png)
 

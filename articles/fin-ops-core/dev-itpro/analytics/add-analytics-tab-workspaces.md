@@ -1,6 +1,6 @@
 ---
 title: Adicionar análise a espaços de trabalho usando o Power BI Embedded
-description: Este tópico mostra como incorporar um relatório do Power BI na guia Análise de um espaço de trabalho.
+description: Este artigo mostra como incorporar um relatório do Power BI na guia Análise de um espaço de trabalho.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884539"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Adicionar análise a espaços de trabalho usando o Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Este recurso tem suporte no Finance and Operations (versões 7.2 e posterior).
+> Este recurso é compatível com o Finance and Operations (versão 7.2 e posterior).
 
 ## <a name="introduction"></a>Introdução
-Este tópico mostra como incorporar um relatório do Microsoft Power BI na guia **Análise** de um espaço de trabalho. No exemplo dado aqui, estenderemos o espaço de trabalho **Gerenciamento de reservas** no aplicativo de Gerenciamento de Frota para incorporar um espaço de trabalho analítico em uma guia **Análise**.
+Este artigo mostra como inserir um relatório do Microsoft Power BI na guia **Análise** de um espaço de trabalho. No exemplo dado aqui, estenderemos o espaço de trabalho **Gerenciamento de reservas** no aplicativo de Gerenciamento de Frota para incorporar um espaço de trabalho analítico em uma guia **Análise**.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 + Acesso a um ambiente de desenvolvedor que executa a atualização 8 da plataforma ou posterior.

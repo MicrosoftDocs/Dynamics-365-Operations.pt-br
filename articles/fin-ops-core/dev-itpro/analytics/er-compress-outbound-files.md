@@ -1,6 +1,6 @@
 ---
 title: Compactar documentos grandes que são gerados em relatórios eletrônicos
-description: Este tópico explica como compactar grandes documentos gerados por um formato de relatório eletrônico (ER).
+description: Este artigo explica como compactar grandes documentos gerados por um formato de relatório eletrônico (ER).
 author: NickSelin
 ms.date: 09/11/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4995879717e715f8ebadb6a80e00949df7545c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864797"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Compactar documentos grandes que são gerados em relatórios eletrônicos 
 
@@ -33,7 +33,7 @@ Ao configurar uma solução, é possível ajustar o formato ER no designer de op
 > [!NOTE]
 > A compactação de arquivos exige uma porcentagem adicional de uso da CPU.
 
-Para obter mais informações sobre essa abordagem, conclua o exemplo neste tópico.
+Para obter mais informações sobre essa abordagem, conclua o exemplo neste artigo.
 
 ## <a name="example-compress-an-outbound-document"></a>Exemplo: compactar um documento de saída
 
@@ -41,7 +41,7 @@ Este exemplo mostra como um usuário atribuído à função **Administrador do s
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
-Antes de concluir os procedimentos deste tópico, as etapas a seguir devem ser concluídas.
+Antes de concluir os procedimentos deste artigo, as etapas a seguir devem ser concluídas.
 
 1. [Ativar um provedor de configuração](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [Importar o exemplo de configurações de ER](er-defer-xml-element.md#import-the-sample-er-configurations).

@@ -1,6 +1,6 @@
 ---
 title: Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas
-description: Este tópico descreve como criar configurações de relatório para gerar documentos eletrônicos que contenham imagens incorporadas. (Parte 1 - Configurar parâmetros).
+description: Este artigo descreve como criar configurações de relatório para gerar documentos eletrônicos que contenham imagens incorporadas. (Parte 1 - Configurar parâmetros).
 author: NickSelin
 ms.date: 06/13/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f209fcbac310dffb654f7830a4d4b12fa95d7a461b681864b8c9b547f4a4986c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 365debc2713a7e3ef56b294bade07352fc2089b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886604"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas
 

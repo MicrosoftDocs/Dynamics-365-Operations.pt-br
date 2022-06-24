@@ -1,6 +1,6 @@
 ---
 title: Gerar linhas de faturas ao importar faturas de fornecedor
-description: Este tópico descreve a funcionalidade para gerar automaticamente linhas de fatura em faturas de fornecedor quando as faturas forem importadas.
+description: Este artigo descreve a funcionalidade para gerar automaticamente linhas de fatura em faturas de fornecedor quando as faturas forem importadas.
 author: sunfzam
 ms.date: 09/10/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e452bda02c814b78c4bb48140b07f0113ab4a571
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903497"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Gerar linhas de faturas ao importar faturas de fornecedor
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico descreve a funcionalidade para gerar automaticamente linhas de fatura em faturas de fornecedor quando as faturas forem importadas.
+Este artigo descreve a funcionalidade para gerar automaticamente linhas de fatura em faturas de fornecedor quando as faturas forem importadas.
 
 Às vezes, as faturas de fornecedor contêm informações limitadas, como informações de destinatário e subtotais. No entanto, elas não contêm informações para itens de linha. Quando você importa faturas, as linhas de fatura serão geradas automaticamente, com base nas informações da ordem de compra correspondente.
 
@@ -42,7 +42,7 @@ Para habilitar a criação automática de linhas de fatura, siga estas etapas.
 
 ## <a name="data-entity-changes"></a>Alterações da entidade de dados
 
-Para dar suporte à funcionalidade descrita neste tópico, a entidade de dados **Cabeçalho da fatura de fornecedor** foi aprimorada. Três campos foram adicionados:
+Para dar suporte à funcionalidade descrita neste artigo, a entidade de dados **Cabeçalho da fatura de fornecedor** foi aprimorada. Três campos foram adicionados:
 
 - **HeaderOnlyImport** – este campo deve ser definido como **Sim** para gerar linhas para os cabeçalhos de fatura.
 - **PurchIdRange** – a lista de números de ordens de compra. Os números de nota fiscal podem ser um intervalo, como **INV0001..INV0009** (onde dois pontos separam o início e o fim do intervalo) ou valores discretos, como **INV0001, INV0003, INV0006**. Todas as ordens de compra devem pertencer à mesma conta de fornecedor no cabeçalho da fatura. Caso contrário, a seguinte mensagem de erro será exibida: "Falha ao gerar linhas de fatura. As ordens de compra têm contas de fornecedor diferentes."

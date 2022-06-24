@@ -1,6 +1,6 @@
 ---
 title: Adiamentos de receita e despesa em Cobrança de assinatura
-description: Este tópico explica como configurar adiamentos de receita e despesa na Cobrança de assinatura.
+description: Este artigo explica como configurar adiamentos de receita e despesa na Cobrança de assinatura.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 209afd08c0c7e3cbd63ed95613b1d1dec94856f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908086"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Adiamentos de receita e despesa em Cobrança de assinatura
 
-Este tópico explica como configurar e usar adiamentos de receita e despesa na Cobrança de assinatura. As agendas de adiamento sempre se baseiam em e dependem de um documento de origem subjacente ou de uma agenda de cobrança. Como são criadas com base em valores padrão, não podem ser inseridas ou criadas separadamente.
+Este artigo explica como configurar e usar adiamentos de receita e despesa na Cobrança de assinatura. As agendas de adiamento sempre se baseiam em e dependem de um documento de origem subjacente ou de uma agenda de cobrança. Como são criadas com base em valores padrão, não podem ser inseridas ou criadas separadamente.
 
 O processo de configuração e uso de adiamentos de receitas e de despesas ocorre em várias páginas:
 

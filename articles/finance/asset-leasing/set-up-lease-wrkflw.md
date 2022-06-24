@@ -1,6 +1,6 @@
 ---
 title: Configurar fluxos de trabalho de aprovação de arrendamento
-description: O tópico explica como configurar um fluxo de trabalho de aprovação que será executado quando um novo arrendamento for criado.
+description: O artigo explica como configurar um fluxo de trabalho de aprovação que será executado quando um novo arrendamento for criado.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f7781fcb643d678fed528af947efb01911899f54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0162e559f8aaec248cfb9042b0152788536c9fc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870268"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Configurar fluxos de trabalho de aprovação de arrendamento
 
 [!include [banner](../includes/banner.md)]
 
-O tópico explica como configurar um fluxo de trabalho de aprovação que será executado quando um novo arrendamento for criado. Para obter informações sobre como usar o fluxo de trabalho, consulte [Usar fluxos de trabalho de aprovação de arrendamento](use-create-lease-wrkflw.md). 
+O artigo explica como configurar um fluxo de trabalho de aprovação que será executado quando um novo arrendamento for criado. Para obter informações sobre como usar o fluxo de trabalho, consulte [Usar fluxos de trabalho de aprovação de arrendamento](use-create-lease-wrkflw.md). 
 
 1. Acesse **Arrendamento de ativo \> Configuração \> Fluxo de trabalho de arrendamento**.
 2. Na página **Fluxo de trabalho de arrendamento**, selecione **Novo**.

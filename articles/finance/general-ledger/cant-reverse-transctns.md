@@ -1,6 +1,6 @@
 ---
 title: Por que não é possível reverter esta transação?
-description: Este tópico descreve os diferentes motivos pelos quais as transações não podem ser revertidas. Ele também lista soluções para esse problema.
+description: Este artigo descreve os diferentes motivos pelos quais as transações não podem ser revertidas. Ele também lista soluções para esse problema.
 author: kweekley
 ms.date: 07/21/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9a8b26584b1a9b82440583db693cd14daa580e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876172"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Por que não é possível reverter esta transação?
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os diferentes motivos pelos quais as transações não podem ser revertidas. Ele também lista soluções para esse problema.
+Este artigo descreve os diferentes motivos pelos quais as transações não podem ser revertidas. Ele também lista soluções para esse problema.
 
 ## <a name="symptom"></a>Sintoma
 
@@ -35,14 +35,14 @@ As organizações podem encontrar situações em que devem reverter uma transaç
 
 ## <a name="resolution"></a>Resolução
 
-As transações precisam atender a critérios específicos para que possam ser revertidas. As seções restantes deste tópico fornecem a validação para cada módulo. Embora este tópico se concentre nas transações no Microsoft Dynamics 365 Finance, alguns dos conceitos e validação podem ser aplicados a outros aplicativos, como o Dynamics 365 Supply Chain Management.
+As transações precisam atender a critérios específicos para que possam ser revertidas. As seções restantes deste artigo fornecem a validação para cada módulo. Embora este artigo se concentre em transações no Microsoft Dynamics 365 Finance, alguns dos conceitos e validação podem ser aplicados a outros aplicativos, como o Dynamics 365 Supply Chain Management.
 
 Além disso, o local em que uma transação é revertida pode afetar a capacidade de reversão dela. Por exemplo, um pagamento de fornecedor que é lançado como um cheque pode ser revertido somente na seção **Cheques** na página de transação das contas bancárias. Não é possível revertê-lo na página **Transações de comprovante** na Contabilidade.
 
 Se o recurso **Reversão em massa para vários documentos** (também conhecido como recurso Reversão em massa) estiver ativado na área de trabalho **Gerenciamento de recursos**, ele afetará a quantidade de transações que podem ser revertidas e onde elas podem ser revertidas. Este recurso oferece dois benefícios quando está ativado:
 
 - Para alguns tipos de transação, mais de uma transação por vez pode ser selecionada e revertida no diário em que foi lançada ou na página **Transações de comprovante**. No entanto, as transações individuais tinham que ser reversíveis antes da ativação do recurso. Antes da introdução desse recurso, as transações precisavam ser revertidas uma por vez.
-- *Algumas* transações do diário-razão auxiliar podem ser revertidas do diário (diário geral) ou da página **Transações de comprovante**. Elas não precisam ser revertidas da página do diário-razão auxiliar. Por exemplo, um diário de fatura de fornecedor anteriormente podia ser revertido somente na página **Transações do fornecedor**. No entanto, agora ele pode ser revertido também na Contabilidade, no diário ou na página **Transações de comprovante**. Cada seção deste tópico explica os tipos de transações aos quais esse benefício não se aplica.
+- *Algumas* transações do diário-razão auxiliar podem ser revertidas do diário (diário geral) ou da página **Transações de comprovante**. Elas não precisam ser revertidas da página do diário-razão auxiliar. Por exemplo, um diário de fatura de fornecedor anteriormente podia ser revertido somente na página **Transações do fornecedor**. No entanto, agora ele pode ser revertido também na Contabilidade, no diário ou na página **Transações de comprovante**. Cada seção deste artigo explica os tipos de transações aos quais esse benefício não se aplica.
 
 O recurso Reversão em massa **não** habilita mais tipos de transação para reversão. Se um tipo de transação não podia ser revertido anteriormente, ele ainda não poderá ser revertido após a ativação do recurso. Por exemplo, não é possível reverter as faturas de fornecedor da ordem de compra, mesmo que o recurso Reversão em massa esteja ativado.
 
@@ -189,7 +189,7 @@ Não é possível reverter estes tipos de transação:
 
 Vários tipos de transação atualizam os diários-razão auxiliares de contas a receber. Os exemplos incluem faturas de clientes de ordens de venda, faturas de clientes que são inseridas através do diário geral, faturas de texto livre, pagamentos de clientes e baixas.
 
-Se o recurso Reversão em massa estiver desativado, as transações poderão ser revertidas individualmente na página **Transações do cliente** para faturas, ou na página **Contas bancárias** para depósitos em cheque. Para obter informações sobre como reverter um pagamento, consulte a seção [Gerenciamento de caixa e de bancos](cant-reverse-transctns.md#cash-and-bank-management) posteriormente neste tópico.
+Se o recurso Reversão em massa estiver desativado, as transações poderão ser revertidas individualmente na página **Transações do cliente** para faturas, ou na página **Contas bancárias** para depósitos em cheque. Para obter informações sobre como reverter um pagamento, consulte a seção [Gerenciamento de caixa e de bancos](cant-reverse-transctns.md#cash-and-bank-management) posteriormente neste artigo.
 
 Se o recurso Reversão em massa estiver ativado, uma ou mais transações de contas a receber também poderão ser revertidas na página **Transações de comprovante** e no diário em que elas foram lançadas. No entanto, os depósitos ainda podem ser revertidos somente na conta bancária, e as faturas de texto livre podem ser revertidas somente na página de origem (se o recurso que permite correções estiver ativado). Além disso, as transações de cliente ainda não podem ser revertidas na página **Transações para \<main account\>** do razão. No entanto, elas podem ser revertidas na página **Transações de comprovante**.
 

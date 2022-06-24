@@ -1,6 +1,6 @@
 ---
-title: depreciação com declínio de 125%
-description: Este tópico apresenta uma visão geral do método de depreciação de redução de 125% do saldo.
+title: depreciação com redução de 125% do saldo
+description: Este artigo apresenta uma visão geral do método de depreciação com redução de 125% do saldo.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 756048d1627731af2e1eb7a23a9dcc2756583526
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d197ae75ded6033aeeeb87b041ee3e9e3c6b3a0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856673"
 ---
-# <a name="125-percent-reducing-balance-depreciation"></a>depreciação com declínio de 125%
+# <a name="125-percent-reducing-balance-depreciation"></a>depreciação com redução de 125% do saldo
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico apresenta uma visão geral do método de depreciação de redução de 125% do saldo.
+Este artigo apresenta uma visão geral do método de depreciação com redução de 125% do saldo.
 
 Ao configurar um perfil de depreciação de ativos fixos e selecionar **declínio de 125%** no campo **Método** na página **Perfis de depreciação**, os ativos fixos que são atribuídos ao perfil de depreciação são depreciados pela mesma porcentagem em cada período de depreciação. Essa porcentagem é calculada com base na vida útil do ativo. Por exemplo, se um ativo tiver uma vida útil de cinco anos, será calculada uma porcentagem de 25% (125 ÷ 5).
 
@@ -41,7 +41,7 @@ Sua seleção determinará as opções disponíveis no campo **Frequência do pe
 
 Você pode optar por manter o valor padrão no campo **Ano de depreciação**, **Calendário**. 
 
-A opção **Calendário** atualiza a base de depreciação em 1º de janeiro de cada ano. Normalmente, a base de depreciação é o valor líquido contábil menos o valor de sucata. Nos exemplos a seguir deste tópico, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. 
+A opção **Calendário** atualiza a base de depreciação em 1º de janeiro de cada ano. Normalmente, a base de depreciação é o valor líquido contábil menos o valor de sucata. Nos exemplos a seguir deste artigo, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. 
 
 Se você selecionar **Calendário** como o ano de depreciação, as seguintes opções ficarão disponíveis no campo **Frequência do período**:
 
@@ -51,7 +51,7 @@ Se você selecionar **Calendário** como o ano de depreciação, as seguintes op
 -   **Semestral** lança um valor semestral no final de cada semestre do calendário (30 de junho e 31 de dezembro).
 -   **Diário** lança o valor de depreciação do método de depreciação diária usando uma transação para cada dia.
 
-### <a name="fiscal"></a>fiscal
+### <a name="fiscal"></a>Fiscal
 
 Se você selecionar **Fiscal** no campo **Ano de depreciação**, a depreciação com declínio de 125% será calculada com base no ano fiscal especificado para o registro de depreciação, ou para o calendário fiscal selecionado na página **Razão**. Os calendários fiscais são configurados na página **Calendários fiscais**. 
 
@@ -67,7 +67,7 @@ Se você selecionar **Fiscal** como o ano de depreciação, as opções a seguir
 | &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Custo de Aquisição               | 11.000 |
-| valor residual                  | 1.000  |
+| Valor residual                  | 1.000  |
 | Base de depreciação              | 10.000 |
 | Anos de vida útil             | 5      |
 | porcentagem de depreciação | 25%    |

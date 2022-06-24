@@ -1,6 +1,6 @@
 ---
 title: " Cancelar notas fiscais do fornecedor"
-description: Este tópico fornece informações sobre como cancelar uma nota fiscal do fornecedor para o Brasil.
+description: Este artigo fornece informações sobre como cancelar uma nota fiscal do fornecedor para o Brasil.
 author: kfend
 ms.date: 06/05/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: fb4240347e2e99d1642042f8d6b85e789ed77956
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 973dbdbdfa7e10ee5fcebac1b105f9217c5c1d2a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880605"
 ---
 # <a name="cancel-vendor-fiscal-documents"></a> Cancelar notas fiscais do fornecedor
 [!include [banner](../includes/banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes de um comprovante
-description: Esse tópico responde perguntas frequentes sobre a funcionalidade de um comprovante. Um comprovante único para diários financeiros (diário geral, diário de ativo fixo, diário de pagamentos do fornecedor etc) permite que você insira várias transações do razão auxiliar no contexto de apenas um comprovante.
+description: Esse artigo responde perguntas frequentes sobre a funcionalidade de um comprovante. Um comprovante único para diários financeiros (diário geral, diário de ativo fixo, diário de pagamentos do fornecedor etc) permite que você insira várias transações do razão auxiliar no contexto de apenas um comprovante.
 author: kweekley
 ms.date: 11/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: beab87ad569a6009fb4a42fd19681b64dcb0bb1e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: e7eedfd4b2914000e8fd85d977b071f44545a058
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859785"
 ---
 # <a name="one-voucher-faq"></a>Perguntas frequentes de um comprovante
 
 [!include [banner](../includes/banner.md)]
 
-Esse tópico responde perguntas frequentes sobre a funcionalidade de um comprovante. Um comprovante de diários financeiros permite inserir várias transações do diário-razão auxiliar no contexto de um único comprovante. Os diários que você pode incluir nesse comprovante podem ser diários gerais, diários de ativos fixos e diários de pagamentos do fornecedor, entre outros.
+Esse artigo responde perguntas frequentes sobre a funcionalidade de um comprovante. Um comprovante de diários financeiros permite inserir várias transações do diário-razão auxiliar no contexto de um único comprovante. Os diários que você pode incluir nesse comprovante podem ser diários gerais, diários de ativos fixos e diários de pagamentos do fornecedor, entre outros.
 
 ## <a name="when-will-the-one-voucher-functionality-be-deprecated"></a>Quando a funcionalidade de um comprovante será preterida?
 

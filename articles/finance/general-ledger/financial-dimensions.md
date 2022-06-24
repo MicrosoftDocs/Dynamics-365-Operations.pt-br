@@ -1,6 +1,6 @@
 ---
 title: Dimensões financeiras
-description: Este tópico descreve os vários tipos de dimensões financeiras e como elas são configuradas.
+description: Este artigo descreve os vários tipos de dimensões financeiras e como elas são configuradas.
 author: aprilolson
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1360139a06909c1df922570f6e577d1d310b1c48
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849979"
 ---
 # <a name="financial-dimensions"></a>Dimensões financeiras
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica os vários tipos de dimensões financeiras e como elas são configuradas.
+Este artigo explica os vários tipos de dimensões financeiras e como elas são configuradas.
 
 Use a página **Dimensões financeiras** para criar as dimensões financeiras que você pode usar como segmentos de conta para os gráficos de contas. Há dois tipos de dimensões financeiras: as dimensões personalizadas e as dimensões apoiadas por entidade. As dimensões personalizadas são compartilhadas pelas entidades legais, e os valores são inseridos e mantidos por usuários. Para as dimensões apoiadas por entidade, os valores são definidos em outro lugar no sistema, como em entidades das Lojas ou de Clientes. Algumas dimensões apoiadas por entidade são compartilhadas entre entidades legais, enquanto outras dimensões apoiadas por entidade são específicas da empresa.
 

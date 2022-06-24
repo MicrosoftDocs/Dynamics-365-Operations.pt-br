@@ -1,6 +1,6 @@
 ---
 title: SPED-Reinf (Brasil)
-description: Este tópico fornece informações sobre como usar os Livros fiscais e a estrutura de mensagem eletrônica para configurar eventos do SPED-Reinf.
+description: Este artigo fornece informações sobre como usar os Livros fiscais e a estrutura de mensagem eletrônica para configurar eventos do SPED-Reinf.
 author: sndray
 ms.date: 04/09/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9dd2f11c47c71ba39171e85d9edd343650094df3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 70a96d95827ef91a0b30554ac6ef90127bd9b98e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896223"
 ---
 # <a name="sped-reinf-brazil"></a>SPED-Reinf (Brasil) 
 
@@ -30,12 +30,12 @@ A declaração consiste em um grupo de eventos. Esses eventos devem ser entregue
 
 A declaração é considerada válida depois que o recebimento é confirmado e o conteúdo dos arquivos é validado.
 
-O Microsoft Dynamics 365 Finance permite a geração de eventos do SPED-Reinf por meio do módulo **Livros fiscais** e a estrutura de registro de relatórios Aprovisionamento imediato de informações (SII). Você pode trocar mensagens XML para cada evento que a autoridade fiscal exigir.
+O Microsoft Dynamics 365 Finance permite a geração de eventos do SPED-Reinf por meio do módulo **Livros fiscais** e a estrutura de registro de relatórios Provisionamento imediato de informações (SII). Você pode trocar mensagens XML para cada evento que a autoridade fiscal exigir.
 
 ## <a name="support-scope"></a>Escopo de suporte
 
 - **Versões do SPED-Reinf com suporte:** 1.4 e 1.5.1.
-- **Versões do produto com suporte:** Microsoft Dynamics AX 2012 R3 e Dynamics 365 Finance.
+- **Versões de produto com suporte:** Microsoft Dynamics AX 2012 R3 e Dynamics 365 Finance.
 - A procuração eletrônica não tem suporte.
 
 ## <a name="table-of-events"></a>Tabela de eventos

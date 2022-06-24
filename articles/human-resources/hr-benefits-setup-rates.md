@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868149"
 ---
 # <a name="configure-rates"></a>Configurar taxas
 
@@ -47,7 +47,7 @@ Use taxas para determinar o quanto funcionários e empregadores pagam por cada b
    | **Efetivação** | A data em que a taxa entra em vigor. A data atual do sistema é o valor padrão. Esta data deve ser igual ou anterior ao período do benefício. Uma boa prática é definir esta data como a data do plano de benefícios. |
    | **Vencimento** | A data final da taxa. 12/31/2154 (que representa nunca) é o valor padrão. |
    | **Usar camadas** |  Use este campo se você tiver uma lógica que deve ser usada para determinar uma taxa. Por exemplo, se uma taxa deve aumentar com base na idade, selecione um valor aqui. Selecione **Camada única** para uma taxa de benefício de camada única ou **Camada dupla** para uma taxa de benefício de camada dupla. Um exemplo de camada dupla é uma camada baseada no sexo e na idade. Depois de selecionar um valor, selecione **Ações** e, em seguida, selecione **Taxas de camadas**. Se você tiver uma taxa fixa que não muda, deixe este campo em branco. |
-   | **Frequência de pagamento** | Especifique a frequência de pagamento da taxa de prêmio de benefício ao provedor de benefícios. As taxas inseridas na página descrita posteriormente neste tópico se basearão na frequência de pagamento que você especificar aqui. Por exemplo, se você inserir **Mensalmente** neste campo e inserir uma taxa de funcionário de **US$ 100**, pressupõe-se que o benefício custará ao funcionário US$ 100 por mês. No entanto, um funcionário pode ser pago duas vezes por mês, com base na frequência de pagamento de benefícios definida no registro do funcionário. Nesse caso, quando o funcionário se inscreve no **Autoatendimento para funcionários**, o valor que ele paga será de US$ 50, pois a taxa que o **Autoatendimento para funcionários** mostra é baseada na frequência de pagamento do funcionário. |
+   | **Frequência de pagamento** | Especifique a frequência de pagamento da taxa de prêmio de benefício ao provedor de benefícios. As taxas inseridas na página descrita posteriormente neste artigo se basearão na frequência de pagamento que você especificar aqui. Por exemplo, se você inserir **Mensalmente** neste campo e inserir uma taxa de funcionário de **US$ 100**, pressupõe-se que o benefício custará ao funcionário US$ 100 por mês. No entanto, um funcionário pode ser pago duas vezes por mês, com base na frequência de pagamento de benefícios definida no registro do funcionário. Nesse caso, quando o funcionário se inscreve no **Autoatendimento para funcionários**, o valor que ele paga será de US$ 50, pois a taxa que o **Autoatendimento para funcionários** mostra é baseada na frequência de pagamento do funcionário. |
    | **Arredondamento da taxa de frequência de pagamento** | Os métodos para arredondar a taxa são: Padrão, Truncado, Normal, Para Baixo e Para Cima. </br></br><ul><li>**Padrão** – Sempre arredondar. Por exemplo, 10,611 será arredondado para 10,62. -10,231 será arredondado para -10,23. </li><li>**Truncado** – Sempre arredondar para baixo. Por exemplo, 10,619 será arredondado para 10,61. -10,231 será arredondado para -10,24. </li><li>**Normal** – Os valores decimais que terminam em 5 ou superior serão arredondados em diferença de zero. Os valores decimais que terminam em 4 ou menos serão arredondados de encontro a zero. Por exemplo, 10,615 será arredondado para 10,62. -10,235 será arredondado para -10,24. 10,614 será arredondado para 10,61. -10,234 será arredondado para -10,23. </li><li>**Para baixo** – Arredondar em direção a zero. Por exemplo, 10,619 será arredondado para 10,61. -10,231 será arredondado para -10,23. </li><li>**Para cima** – Arredondar em diferença de zero. Por exemplo, 10,619 será arredondado para 10,62. -10,231 será arredondado para -10,24. |
    | **Valor do funcionário não fumante** | O valor que o provedor de benefícios cobra de um funcionário não fumante. Esse é o valor que o empregador paga ao fornecedor de benefícios e deve se basear na frequência de pagamento para a configuração de taxa. |
    | **Valor do empregador não fumante** | O valor que o provedor de benefícios cobra de um funcionário não fumante. Este é o valor que o empregador paga ao fornecedor de benefícios e deve se basear na frequência de pagamento para a configuração de taxa. |

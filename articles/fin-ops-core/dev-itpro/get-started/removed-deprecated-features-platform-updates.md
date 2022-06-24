@@ -1,6 +1,6 @@
 ---
-title: Recursos de plataforma removidos ou obsoletos
-description: Este tópico descreve os recursos que foram removidos ou planejados para remoção em atualizações de plataforma de aplicativos de finanças e operações.
+title: Recursos de Platform removidos ou preteridos
+description: Este artigo descreve os recursos que foram removidos ou planejados para remoção em atualizações de plataforma de aplicativos de finanças e operações.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
+ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811236"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945790"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de Platform removidos ou preteridos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os recursos que foram removidos ou planejados para remoção em atualizações de plataforma de aplicativos de finanças e operações.
+Este artigo descreve os recursos que foram removidos ou planejados para remoção em atualizações de plataforma de aplicativos de finanças e operações.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
@@ -40,7 +40,7 @@ Informações detalhadas sobre objetos em aplicativos de Finanças e Operações
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Estamos substituindo o aplicativo e a plataforma móveis de finanças e operações (Dynamics 365) para consolidar em uma única plataforma móvel, que é o Power Apps. |
-| **Substituída por outro recurso?**   | Sim, as experiências para dispositivos móveis sobre os dados do aplicativo de finanças e operações podem ser criadas com a integração da Power Platform. Consulte [Como criar experiências para dispositivos móveis](../power-platform/build-mobile-experiences.md) para obter mais detalhes. |
+| **Substituída por outro recurso?**   | Sim, as experiências para dispositivos móveis sobre os dados do aplicativo de finanças e operações podem ser criadas com a integração da Power Platform. Consulte a [postagem no blog](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) e [Criando experiências móveis](../power-platform/build-mobile-experiences.md) para obter mais detalhes. |
 | **Áreas afetadas do produto**         | Aplicativos do Finance and Operations |
 | **Opção de implantação**              | Todos |
 | **Status**                         | Preterido. A data de término do suporte está prevista para outubro de 2024. |

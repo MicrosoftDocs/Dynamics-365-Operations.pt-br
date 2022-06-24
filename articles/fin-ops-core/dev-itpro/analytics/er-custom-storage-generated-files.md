@@ -1,6 +1,6 @@
 ---
 title: Especificar locais de armazenamento personalizado para os documentos gerados
-description: Este tópico explica como estender a lista de locais de armazenamento para documentos gerados pelos formatos de Relatório eletrônico (ER).
+description: Este artigo explica como estender a lista de locais de armazenamento para documentos gerados pelos formatos de Relatório eletrônico (ER).
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898846"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Especificar locais de armazenamento personalizado para os documentos gerados
 
 [!include[banner](../includes/banner.md)]
 
-A interface de programação de aplicativos (API) da estrutura de relatórios eletrônicos (ER) permite estender a lista de locais de armazenamento para documentos gerados pelos formatos ER. Este tópico explica como adicionar um local de armazenamento personalizado para documentos gerados delegando a tarefa de criar destinos de ER ao alocador de destino padrão e, em seguida, implementando uma classe personalizada que tem sua própria lógica de destino.
+A interface de programação de aplicativos (API) da estrutura de relatórios eletrônicos (ER) permite estender a lista de locais de armazenamento para documentos gerados pelos formatos ER. Este artigo explica como adicionar um local de armazenamento personalizado para documentos gerados delegando a tarefa de criar destinos de ER ao alocador de destino padrão e, em seguida, implementando uma classe personalizada que tem sua própria lógica de destino.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -35,7 +35,7 @@ Implante uma topologia que dê suporte à compilação contínua. Para obter mai
 
 Você também deve ter acesso ao ambiente de desenvolvimento para essa topologia.
 
-Todas as tarefas deste tópico podem ser concluídas na empresa **USMF**.
+Todas as tarefas deste artigo podem ser concluídas na empresa **USMF**.
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>Importar o formato de ER de roll forward de ativo fixo
 

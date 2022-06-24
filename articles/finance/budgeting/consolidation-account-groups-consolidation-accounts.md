@@ -1,6 +1,6 @@
 ---
-title: Grupos de contas de consolidação e contas adicionais de consolidação
-description: Este tópico fornece informações sobre grupos de contas de consolidação e contas de consolidação adicionais e explica como eles são usados.
+title: Grupos de conta de consolidação e contas de consolidação adicionais
+description: Este artigo fornece informações sobre grupos de contas de consolidação e contas de consolidação adicionais e explica como eles são usados.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5ca7a50fcac53f1636da15b2d7977174b087ac25
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 9e66190fe0bab24545bf19eba59facded63ee197
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882010"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Grupos de conta de consolidação e contas de consolidação adicionais
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre grupos de contas de consolidação e contas de consolidação adicionais e explica como eles são usados.
+Este artigo fornece informações sobre grupos de contas de consolidação e contas de consolidação adicionais e explica como eles são usados.
 
 ## <a name="consolidation-account-groups"></a>Grupos de contas de consolidação
 

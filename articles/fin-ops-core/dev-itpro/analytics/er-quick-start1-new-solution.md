@@ -1,6 +1,6 @@
 ---
 title: Criar uma nova solução ER para imprimir um relatório personalizado
-description: Este tópico explica como criar uma solução de relatório eletrônico (ER) para imprimir um relatório personalizado.
+description: Este artigo explica como criar uma solução de relatório eletrônico (ER) para imprimir um relatório personalizado.
 author: NickSelin
 ms.date: 08/10/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847478"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Criar uma nova solução ER para imprimir um relatório personalizado
 
@@ -292,7 +292,7 @@ O status da versão 1 dessa configuração é alterado de **Rascunho** para **Co
 Para obter mais informações sobre como usar versões para configurações de ER, consulte [Visão geral de relatório eletrônico (ER)](general-electronic-reporting.md#component-versioning).
 
 > [!NOTE]
-> O modelo de dados configurado é sua representação abstrata do domínio comercial de **Questionário** e não contém relações para artefatos que são específicos do Microsoft Dynamics 365 Finance.
+> O modelo de dados configurado é sua representação abstrata do domínio comercial de **Questionário** e não contém relações para artefatos que são específicos do Microsoft Microsoft Dynamics 365 Finance.
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Criar um mapeamento de modelo para o modelo de dados configurado
 

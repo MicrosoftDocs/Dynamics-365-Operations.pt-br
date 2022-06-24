@@ -1,6 +1,6 @@
 ---
 title: Espaços de trabalho móveis disponíveis
-description: Este tópico lista os espaços de trabalho móveis disponíveis para uso.
+description: Este artigo lista os espaços de trabalho móveis disponíveis para uso.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4398bd8cf944ef11a0463d937aeaa3b5cc109142
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 79abd22bab9ec88358fa039060a67006fc53cb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8810994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868630"
 ---
 # <a name="available-mobile-workspaces"></a>Espaços de trabalho móveis disponíveis
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Este tópico lista os espaços de trabalho móveis disponíveis para uso com o aplicativo móvel de finanças e operações (Dynamics 365). A tabela abaixo indica o plano de substituição para cada um desses espaços de trabalho móveis em termos de se uma experiência de substituição está planejada ou não.  
+Este artigo lista os espaços de trabalho móveis disponíveis para uso com o aplicativo móvel de finanças e operações (Dynamics 365). A tabela abaixo indica o plano de substituição para cada um desses espaços de trabalho móveis em termos de se uma experiência de substituição está planejada ou não.  
 
 
 | Espaço de trabalho móvel     | Descrição   | Plano de substituição   |

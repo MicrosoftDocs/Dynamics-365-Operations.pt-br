@@ -1,6 +1,6 @@
 ---
 title: Adicionar tipos de valor de pagamento
-description: Este tópico explica como configurar tipos de valor de pagamento em Arrendamento de ativos.
+description: Este artigo explica como configurar tipos de valor de pagamento em Arrendamento de ativos.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 037afa458277a3a07bcb937c6ec4d961d0dd5ca9
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 03fc903e6cfe78ef2fed7e3a0744a8f809f6892d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891599"
 ---
 # <a name="add-payment-amount-types"></a>Adicionar tipos de valor de pagamento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar tipos de valor de pagamento em Arrendamento de ativos. Dessa forma, você pode discriminar o valor do pagamento de arrendamento em vez de adicionar o valor total da soma nas linhas do plano de pagamento.
+Este artigo descreve como configurar tipos de valor de pagamento em Arrendamento de ativos. Dessa forma, você pode discriminar o valor do pagamento de arrendamento em vez de adicionar o valor total da soma nas linhas do plano de pagamento.
 
 Para adicionar tipos de valor de pagamento, siga estas etapas.
 

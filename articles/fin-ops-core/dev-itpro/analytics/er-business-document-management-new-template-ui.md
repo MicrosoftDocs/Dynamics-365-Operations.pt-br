@@ -1,6 +1,6 @@
 ---
 title: Interface do usuário no estilo do Microsoft Office no Gerenciamento de documentos comerciais (contém vídeo)
-description: Este tópico explica como usar a nova interface de usuário no recurso Gerenciamento de documentos comerciais da estrutura do relatório eletrônico (ER).
+description: Este artigo explica como usar a nova interface de usuário no recurso Gerenciamento de documentos comerciais da estrutura do relatório eletrônico (ER).
 author: v-anamir
 ms.date: 01/05/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e33830e2147d92ad5ee53ad11da55a50613b8ef9
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074732"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892215"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Interface do usuário no estilo do Microsoft Office no Gerenciamento de documentos comerciais
 
@@ -32,7 +32,7 @@ A nova interface de usuário (IU) está mais clara e mais confortável para uso.
 
 Você pode usar o botão **Novo documento** no espaço de trabalho **Gerenciamento de documentos comerciais** para criar e editar um modelo em uma [configuração](general-electronic-reporting.md#Configuration) no formato de [Relatório Eletrônico (ER)](general-electronic-reporting.md), fornecido por outro provedor e localizado na atual instância do Finance, ou para carregar um novo modelo de uma pasta de trabalho do Excel. Além disso, na versão 10.0.25 e posterior, você pode usar o botão **Novo documento** para criar e editar um modelo em uma configuração de formato ER armazenada no [Repositório global](general-electronic-reporting.md#Repository).
 
-Nos exemplos deste tópico, o provedor ativo é Contoso e você o usa para criar um modelo que se baseia em um modelo fornecido pela Microsoft. Outra opção é criar um modelo carregando seu próprio modelo no formato Excel.
+Nos exemplos deste artigo, o provedor ativo é Contoso e você o usa para criar um modelo que se baseia em um modelo fornecido pela Microsoft. Outra opção é criar um modelo carregando seu próprio modelo no formato Excel.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 

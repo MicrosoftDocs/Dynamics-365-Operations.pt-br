@@ -1,6 +1,6 @@
 ---
-title: Configurar destinos de ER de registro de gerenciamento de impressão específicos
-description: Este tópico explica como configurar destinos específicos de registro de gerenciamento de impressão de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída.
+title: Configurar destinos de ER específicos do registro de gerenciamento de impressão
+description: Este artigo explica como configurar destinos específicos de registro de gerenciamento de impressão de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872703"
 ---
-# <a name="configure-print-management-record-specific-er-destinations"></a>Configurar destinos de ER de registro de gerenciamento de impressão específicos
+# <a name="configure-print-management-record-specific-er-destinations"></a>Configurar destinos de ER específicos do registro de gerenciamento de impressão
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como um usuário que tem a função de Administrador do Sistema ou de Funcionário de Contas a Receber pode executar as seguintes tarefas:
+Este artigo explica como um usuário que tem a função de Administrador do Sistema ou de Funcionário de Contas a Receber pode executar as seguintes tarefas:
 
 - Configurar destinos denominados [Relatório eletrônico (ER)](general-electronic-reporting.md) para uma solução de ER que gera faturas de texto livre.
 - Atribua um destino de ER a um único registro de [gerenciamento de impressão](document-reporting-services.md).

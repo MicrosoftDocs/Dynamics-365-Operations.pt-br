@@ -1,6 +1,6 @@
 ---
 title: Provisionar o Human Resources
-description: Este tópico explica o processo de provisionar um novo ambiente de produção para o Microsoft Dynamics 365 Human Resources.
+description: Este artigo explica o processo de provisionar um novo ambiente de produção para o Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 01/07/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858233"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -27,13 +27,13 @@ ms.locfileid: "8710853"
 
 
 
-Este tópico explica o processo de provisionar um novo ambiente de produção para o Microsoft Dynamics 365 Human Resources. 
+Este artigo explica o processo de provisionar um novo ambiente de produção para o Microsoft Dynamics 365 Human Resources. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
 Antes de começar o provisionamento de um novo ambiente de produção, os seguintes pré-requisitos devem estar em vigor:
 
-- Você adquiriu o Human Resources por meio de um Provedor de Soluções na Nuvem (CSP) ou de um contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Human Resources e não puder concluir as etapas deste tópico, entre em contato com o Suporte.
+- Você adquiriu o Human Resources por meio de um Provedor de Soluções na Nuvem (CSP) ou de um contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Human Resources e não puder concluir as etapas deste artigo, entre em contato com o Suporte.
 
 - O administrador global deve ter entrado no [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) e criado um novo projeto Human Resources. 
 

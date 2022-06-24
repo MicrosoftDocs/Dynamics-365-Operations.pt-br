@@ -1,6 +1,6 @@
 ---
 title: Configurar a integração com o Finance
-description: Este tópico descreve a integração entre o Dynamics 365 Human Resources e o Dynamics 365 Finance.
+description: Este artigo descreve a integração entre o Dynamics 365 Human Resources e o Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8be7cbf92c11036d334516116f0895c426380954
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875848"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar a integração com o Finance
 

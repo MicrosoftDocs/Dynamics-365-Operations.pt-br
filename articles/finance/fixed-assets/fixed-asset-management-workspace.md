@@ -1,6 +1,6 @@
 ---
 title: Espaço de trabalho de gerenciamento de ativos fixos
-description: Este tópico fornece informações sobre o Espaço de trabalho de gerenciamento de ativos fixos Este espaço de trabalho mostra informações relacionadas a ativos fixos inseridos no sistema. Inclui uma exibição resumida e uma exibição de análise.
+description: Este artigo fornece informações sobre o Espaço de trabalho de gerenciamento de ativos fixos Este espaço de trabalho mostra informações relacionadas a ativos fixos inseridos no sistema. Inclui uma exibição resumida e uma exibição de análise.
 author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 37f9f6be2fa3594b96313f4f72b96b52ca798c6a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 95b45a91cd201a6d3a4817c315053e98a7693e05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894045"
 ---
 # <a name="fixed-asset-management-workspace"></a>Espaço de trabalho de gerenciamento de ativos fixos
 

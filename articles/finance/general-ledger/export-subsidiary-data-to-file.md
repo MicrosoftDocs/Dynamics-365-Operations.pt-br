@@ -1,6 +1,6 @@
 ---
 title: Exportar dados da subsidiária para arquivos
-description: Este tópico explica como preparar a exportação de dados do Microsoft Dynamics 365 Finance e, depois, importá-los para uma entidade legal consolidada.
+description: Este artigo explica como preparar a exportação de dados do Microsoft Dynamics 365 Finance e, depois, importá-los para uma entidade legal consolidada.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4df59938def317ad6ebc837104e20c4efa05005f
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876143"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Exportar dados da subsidiária para arquivos
 

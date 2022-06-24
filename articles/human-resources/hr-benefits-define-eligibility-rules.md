@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: c5ddb55ef24aff455262769153553b0227be3bdf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4781a00ae63bb2d27df0610a1886cc43e52798f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861179"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>Definir regras e políticas de qualificação para o benefício
 
@@ -26,7 +26,7 @@ ms.locfileid: "8691853"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico explica como criar regras e políticas de qualificação para o benefício e atribuir regras a benefícios.  
+Este artigo explica como criar regras e políticas de qualificação para o benefício e atribuir regras a benefícios.  
 
 ## <a name="create-benefit-eligibility-policy-rule-type"></a>Crie tipos de regras de política de qualificação para benefícios
 

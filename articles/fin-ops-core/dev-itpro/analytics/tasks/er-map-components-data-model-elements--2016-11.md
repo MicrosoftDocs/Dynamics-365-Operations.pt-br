@@ -1,6 +1,6 @@
 ---
 title: ER Componentes do mapa do formato criado para elementos do modelo de dados (Novembro de 2016)
-description: Este tópico descreve como mapear elementos de modelo de dados para componentes da configuração de relatório eletrônico (ER) criada.
+description: Este artigo descreve como mapear elementos de modelo de dados para componentes da configuração de relatório eletrônico (ER) criada.
 author: NickSelin
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ae4b3123660d123fc5c06cbe0a69d5c66d306252ec2a117a1e6045505022f5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dc201832c10d9432f478d5d411c8ffe010807a70
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895295"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Componentes do mapa do formato criado para elementos do modelo de dados (Novembro de 2016)
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar Mensagens eletrônicas
-description: Este tópico fornece informações sobre como configurar a funcionalidade Mensagens eletrônicas (EM).
+description: Este artigo fornece informações sobre como configurar a funcionalidade Mensagens eletrônicas (EM).
 author: liza-golub
 ms.date: 11/18/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874541"
 ---
 # <a name="set-up-electronic-messages"></a>Configurar Mensagens eletrônicas
 
@@ -66,7 +66,7 @@ A tabela a seguir descreve os campos da página **Status de mensagens**.
 |---------------------|-------------|
 | Status da Mensagem      | Insira um nome exclusivo para o status da mensagem. Os status de mensagens são usados para caracterizar o estado de uma mensagem eletrônica a cada momento. O nome que você inserir será exibido na página **Mensagens eletrônicas** e em um log relacionado às mensagens eletrônicas. |
 | Descrição         | Insira uma descrição do status da mensagem. |
-| Tipo de resposta       | Selecione o tipo de resposta para o status da mensagem. Algumas ações em um processamento podem produzir mais de um tipo de resposta. Por exemplo, uma ação do tipo **Serviço Web** pode produzir respostas do tipo **Executado com êxito** ou do tipo **Erro técnico**, dependendo do resultado da execução. Nesse caso, defina os status da mensagem para os dois tipos de resposta. Para obter mais informações sobre tipos de ação e os tipos de resposta relacionados a elas, consulte os [Tipos de ação de processamento de mensagens](#action-types). |
+| Tipo de resposta       | Selecione o tipo de resposta para o status da mensagem. Algumas ações em um processamento podem produzir mais de um tipo de resposta. Por exemplo, uma ação do tipo **Serviço Web** pode produzir respostas do tipo **Executado com êxito** ou do tipo **Erro técnico**, dependendo do resultado da execução. Nesse caso, defina os status da mensagem para os dois tipos de resposta. Para obter mais informações sobre tipos de ação e os tipos de resposta relacionados a elas, consulte a seção [Tipos de ação de processamento de mensagens](#action-types) neste artigo. |
 | Status de item de mensagem | Ocasionalmente, o status de uma mensagem eletrônica deve influenciar o status dos itens relacionados à mensagem. Selecione um status do item de mensagem neste campo para associá-lo com o status da mensagem. |
 | Permitir exclusão        | Marque esta caixa de seleção se os usuários puderem excluir mensagens eletrônicas com este status na página **Mensagens eletrônicas** . |
 
@@ -240,7 +240,7 @@ As tabelas a seguir descrevem os campos da página **Ações de processamento de
 
 | Campo                                     | descrição |
 |-------------------------------------------|-------------|
-| Tipo de ação                               | Selecione o tipo de ação. Para obter informações sobre as opções disponíveis, consulte a seção [Tipos de ação de processamento de mensagens](#action-types) posteriormente neste tópico. |
+| Tipo de ação                               | Selecione o tipo de ação. Para obter informações sobre as opções disponíveis, consulte a seção [Tipos de ação de processamento de mensagens](#action-types) posteriormente neste artigo. |
 | Mapeamento de formato                            | Selecione o formato de ER a ser chamado para a ação. Esse campo só está disponível para ações dos tipos **Exportação de relatórios eletrônicos**, **Importação de relatórios eletrônicos** e **Mensagem de exportação de relatórios eletrônicos** . |
 | Mapeamento do formato para caminho da URL               | Selecione o formato de ER a ser chamado para a ação. Esse formato é usado para compor o caminho do endereço da URL que será adicionado ao endereço de Internet básico especificado para o servidor Web selecionado. Esse campo só está disponível para ações do tipo **Serviço Web**. |
 | Tipo de item de mensagem                         | Selecione o tipo de registros para os quais a ação deve ser avaliada. Este campo está disponível para ações dos tipos **Nível de execução do item da mensagem**, **Exportação de relatório eletrônico**, **Importação de relatório eletrônico**, **Serviço Web** e outros tipos. Se deixar esse campo em branco, todos os tipos de item da mensagem definidos para o processamento de mensagens são avaliados. |

@@ -1,6 +1,6 @@
 ---
 title: Adicionar novos campos a um modelo de documento comercial no Microsoft Excel
-description: Este tópico fornece informações sobre como adicionar novos campos a um modelo de documento comercial no Microsoft Excel usando o recurso de gerenciamento de documentos comerciais.
+description: Este artigo fornece informações sobre como adicionar novos campos a um modelo de documento comercial no Microsoft Excel usando o recurso de gerenciamento de documentos comerciais.
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869392"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Adicionar novos campos a um modelo de documento comercial no Microsoft Excel
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767233"
 
 Você pode adicionar novos campos a um modelo usado para gerar documentos comerciais no formato do Microsoft Excel. Esses campos podem ser adicionados como espaços reservados que são utilizados para preencher os documentos gerados com as informações necessárias ao aplicativo. Para cada campo adicionado, você também pode especificar uma associação às fontes de dados para especificar quais dados do aplicativo serão inseridos no campo quando o modelo é usado para gerar documentos comerciais.
 
-Para saber mais sobre este recurso, conclua o exemplo neste tópico. Esse exemplo mostra como atualizar um modelo para preencher os campos nos formulários de fatura de texto livre que são gerados.
+Para saber mais sobre este recurso, conclua o exemplo neste artigo. Esse exemplo mostra como atualizar um modelo para preencher os campos nos formulários de fatura de texto livre que são gerados.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Configurar o Gerenciamento de documentos comerciais para editar modelos
 
 Como o BDM (Gerenciamento de documentos comerciais) foi criado com base na estrutura [Visão geral de ER (Relatórios eletrônicos)](general-electronic-reporting.md), você deve configurar os parâmetros necessários de ER e BDM antes de poder iniciar o trabalho com o BDM.
 
 1.  Entre na instância do Microsoft Dynamics 365 Finance como o administrador de sistema.
-2.  Conclua as etapas a seguir do exemplo no tópico [Visão geral do Gerenciamento de documentos comerciais](er-business-document-management.md):
+2.  Conclua as etapas a seguir do exemplo no artigo [Visão geral do Gerenciamento de documentos comerciais](er-business-document-management.md):
 
     1.  Configure os parâmetros de ER.
     2.  Ative o BDM.
@@ -61,7 +61,7 @@ Para obter mais informações sobre como importar configurações de ER, consult
 
 3.  Na grade, selecione o modelo **Fatura de texto livre (Excel)**.
 4.  No painel direito, selecione **Novo modelo** para criar um novo modelo baseado no modelo selecionado.
-5.  No campo **Título** , digite **Fatura de texto livre (Excel) Contoso** como o título do novo modelo.
+5.  No campo **Título** , insira **Fatura de texto livre (Excel) Contoso** como o título do novo modelo.
 6.  Selecione **OK** para confirmar o início do processo de edição.
 
 A página do editor de modelo de BDM aparece. Você pode usar o Microsoft 365 para editar o modelo online selecionado no controle inserido.

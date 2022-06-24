@@ -1,6 +1,6 @@
 ---
-title: Atualizar para o modelo de catálogo de endereços global e de participantes
-description: Este tópico descreve como atualizar dados de gravação dupla para o modelo de catálogo de endereços global e do participante.
+title: Fazer upgrade para o modelo de catálogo de endereços global e de participantes
+description: Este artigo descreve como atualizar dados de gravação dupla para o modelo de catálogo de endereços global e do participante.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895266"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Atualizar para o modelo de catálogo de endereços global e de participantes
 
@@ -40,7 +40,7 @@ No final do processo, são gerados os arquivos de valores separados por vírgula
 | ImportFONewPostalAddress.csv | Esse arquivo ajuda a criar novos registros de **Endereço postal** no aplicativo Finanças e operações. |
 | ImportFONewElectronicAddress.csv | Esse arquivo ajuda a criar novos registros de **Endereço eletrônico** no aplicativo Finanças e operações. |
 
-Este tópico explica como usar os modelos do Data Factory e atualizar seus dados. Se não tiver nenhuma personalização, você poderá usar os modelos no estado em que se encontram. No entanto, se tiver personalizações para dados de **Conta**, **Contato** e **Fornecedor**, você deverá modificar os modelos conforme descrito no tópico.
+Este artigo explica como usar os modelos do Data Factory e atualizar seus dados. Se não tiver nenhuma personalização, você poderá usar os modelos no estado em que se encontram. No entanto, se tiver personalizações para dados de **Conta**, **Contato** e **Fornecedor**, você deverá modificar os modelos conforme descrito no artigo.
 
 > [!IMPORTANT]
 > Há instruções especiais para executar os modelos de Endereço postal do participante e de Endereço eletrônico do participante. Você deve executar o modelo de Participante primeiro, em seguida, o modelo de Endereço postal do participante e, por fim, o modelo de Endereço eletrônico do participante. Cada modelo foi criado para ser importado em um data factory separado.

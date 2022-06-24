@@ -1,6 +1,6 @@
 ---
-title: ​Configurar sequências numéricas usando um assistente​
-description: Este tópico explica como configurar todas as sequências numéricas necessárias ao mesmo tempo usando um assistente.
+title: Configurar sequências numéricas usando um assistente
+description: Este artigo explica como configurar todas as sequências numéricas necessárias ao mesmo tempo usando um assistente.
 author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: cae739aad1166eee1abebe3c0adc7939bca55bc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847053"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>​Configurar sequências numéricas usando um assistente​
 
 [!include [banner](../../includes/banner.md)]
 
-Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem. Um registro de transação ou de dados mestres que exige um identificador é conhecido como referência. Antes de criar novos registros para referência, é necessário configurar uma sequência numérica e associá-la à referência. Este tópico explica como configurar todas as sequências numéricas necessárias ao mesmo tempo usando um assistente. A empresa de dados demo usada para criar este procedimento é USMF.
+Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem. Um registro de transação ou de dados mestres que exige um identificador é conhecido como referência. Antes de criar novos registros para referência, é necessário configurar uma sequência numérica e associá-la à referência. Este artigo explica como configurar todas as sequências numéricas necessárias ao mesmo tempo usando um assistente. A empresa de dados demo usada para criar este procedimento é USMF.
 
 1. Acesse **Navegação > Módulos > Administração da organização > Sequências numéricas > Sequências numéricas**.
 2. Selecione **Gerar**.

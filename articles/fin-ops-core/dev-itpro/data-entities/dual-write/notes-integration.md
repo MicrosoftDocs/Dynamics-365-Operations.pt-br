@@ -1,6 +1,6 @@
 ---
 title: Integração da nota
-description: Este tópico descreve a integração de dados da nota em gravação dupla.
+description: Este artigo descreve a integração de dados da nota em gravação dupla.
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876705"
 ---
 # <a name="note-integration"></a>Integração da nota
 
@@ -22,7 +22,7 @@ ms.locfileid: "8062766"
 
 
 
-Durante processos comerciais, os usuários do Microsoft Dynamics 365 geralmente coletam informações sobre seus clientes. Essas informações são registradas como atividades e notas. Este tópico descreve a integração de dados da nota em gravação dupla.
+Durante processos comerciais, os usuários do Microsoft Dynamics 365 geralmente coletam informações sobre seus clientes. Essas informações são registradas como atividades e notas. Este artigo descreve a integração de dados da nota em gravação dupla.
 
 As informações do cliente podem ser classificadas das seguintes maneiras:
 

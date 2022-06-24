@@ -1,6 +1,6 @@
 ---
-title: Fechar a contabilidade no fim do período
-description: Este tópico descreve as tarefas geralmente concluídas durante a realização de um fechamento periódico de contabilidade.
+title: Fechar a contabilidade ao final do período
+description: Este artigo descreve as tarefas geralmente concluídas durante a realização de um fechamento periódico de contabilidade.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 42a5df1cd1a73462c93012b26f9b9b5c1631f2ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878031"
 ---
-# <a name="close-the-general-ledger-at-period-end"></a>Fechar a contabilidade no fim do período
+# <a name="close-the-general-ledger-at-period-end"></a>Fechar a contabilidade ao final do período
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as tarefas geralmente concluídas durante a realização de um fechamento periódico de contabilidade. 
+Este artigo descreve as tarefas geralmente concluídas durante a realização de um fechamento periódico de contabilidade. 
 
 Na contabilidade, é possível concluir os procedimentos de fechamento por um período ou por um ano. Os processos de fechamento preparam o sistema para um novo período. Para se preparar para um novo ano, você deve executar o processo do fechamento de final de ano. Cada organização possui processos e etapas diferentes que ela executa para o final de um período. Veja a seguir algumas etapas opcionais para o fim do período:
 

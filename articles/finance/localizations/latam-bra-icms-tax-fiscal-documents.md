@@ -1,6 +1,6 @@
 ---
 title: Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
-description: Este tópico explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las.
+description: Este artigo explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las.
 author: sndray
 ms.date: 08/08/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e07ea18ac3e0f48ccac80714f1741e53b3477ee212bad245c30314429849151
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4f6458a6b801ed69a5d5274514c6d274af3a3e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880599"
 ---
 # <a name="icms-tax-fiscal-documents-for-brazil"></a>Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las.
+Este artigo explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las.
 
 No Brasil, alguns tipos de notas fiscais não têm efeito em fornecedores, clientes ou saldos de estoque. Esses documentos fiscais permitem que entidades legais insiram ajustes fiscais, transfiram entre outras subsidiárias e recuperem impostos em prestações durante um período. Para registrar essas operações na entidade legal, notas fiscais específicas devem ser geradas que afetam o relatório de Contabilidade e os livros fiscais.
 
@@ -85,7 +85,7 @@ ICMS recuperável, longo prazo (conta diferida)
 
 **Saldo de Ativo de longo prazo** (conta diferida): R$ 9.000,00
 
-**Ajuste de ICMS do mês** **Finance and Operations: emissão de uma nota fiscal de entrada**
+**Ajuste de ICMS do mês** **Finance and Operations: Emissão de uma Nota fiscal de entrada**
 
 Conta de ICMS recuperável
 

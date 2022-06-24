@@ -1,6 +1,6 @@
 ---
-title: Valor de arredondamento de cálculos de depreciação
-description: Este tópico discute o campo Arredondar depreciação, encontrado nas páginas da Configuração de registro.
+title: Valor de arredondamento para cálculos de depreciação
+description: Este artigo discute o campo Arredondar depreciação, encontrado nas páginas no registro de depreciações.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98d6a21bea4688d6f258a98eab174485ceee2cfc
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a93842f7cca483df89188695c945edf77e118cef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870094"
 ---
-# <a name="round-off-amount-for-depreciation-calculations"></a>Valor de arredondamento de cálculos de depreciação
+# <a name="round-off-amount-for-depreciation-calculations"></a>Valor de arredondamento para cálculos de depreciação
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico discute o campo **Arredondar depreciação**, encontrado nas páginas da **Configuração de registro**.
+Este artigo discute o campo **Arredondar depreciação**, encontrado nas páginas **Configuração de registro**.
 
 Montantes de amortização arredondados são definidos para cada livro. Os valores de depreciação arredondados são usados no perfil de depreciação de ativo fixo que mostra a depreciação e o valor futuro do ativo fixo, e também nas propostas de depreciação. Insira o menor valor de depreciação que é permitido para o registro. 
 

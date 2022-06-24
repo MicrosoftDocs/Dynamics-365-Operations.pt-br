@@ -1,6 +1,6 @@
 ---
 title: Criar expressões de ER para chamar métodos de classe de aplicativo
-description: Este tópico descreve como reutilizar a lógica de aplicativo existente em configurações de ER (relatório eletrônico) chamando métodos necessários de classes de aplicativos.
+description: Este artigo descreve como reutilizar a lógica de aplicativo existente em configurações de ER (relatório eletrônico) chamando métodos necessários de classes de aplicativos.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: business-process
@@ -12,30 +12,30 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
-ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7751697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883615"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Criar expressões de ER para chamar métodos de classe de aplicativo
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como reutilizar a lógica de aplicativo existente nas configurações do [Relatório eletrônico (ER)](../general-electronic-reporting.md) chamando métodos necessários de classes de aplicativos em expressões de ER. Os valores de argumentos para classes de chamada podem ser definidos dinamicamente no runtime. Por exemplo, os valores podem ser baseados nas informações do documento de análise para garantir sua correção.
+Este artigo descreve como reutilizar a lógica de aplicativo existente nas configurações do [Relatório eletrônico (ER)](../general-electronic-reporting.md) chamando métodos necessários de classes de aplicativos em expressões de ER. Os valores de argumentos para classes de chamada podem ser definidos dinamicamente no runtime. Por exemplo, os valores podem ser baseados nas informações do documento de análise para garantir sua correção.
 
-Por exemplo, neste tópico, você criará um processo que analisa extratos bancários de entrada para uma atualização de dados do aplicativo. Você receberá os extratos bancários de entrada como arquivos de texto (.txt) que contêm códigos IBAN (International Bank Account Number). Como parte do processo de importação de extratos bancários, você precisa validar a exatidão do código IBAN usando a lógica que já está disponível.
+Por exemplo, neste artigo, você criará um processo que analisa extratos bancários de entrada para uma atualização de dados do aplicativo. Você receberá os extratos bancários de entrada como arquivos de texto (.txt) que contêm códigos IBAN (International Bank Account Number). Como parte do processo de importação de extratos bancários, você precisa validar a exatidão do código IBAN usando a lógica que já está disponível.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Os procedimentos neste tópico destinam-se a usuários aos quais foi atribuída a função de **Administrador do sistema** ou **Desenvolvedor de relatório eletrônico**.
+Os procedimentos neste artigo destinam-se a usuários aos quais foi atribuída a função de **Administrador do sistema** ou **Desenvolvedor de relatório eletrônico**.
 
 Os procedimentos podem ser concluídos usando qualquer conjunto de dados.
 
 Para concluí-los, você deve baixar e salvar o seguinte arquivo: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
 
-Neste tópico, você criará as configurações do ER necessárias para a empresa de exemplo, Litware, Inc. Portanto, antes de concluir os procedimentos deste tópico, você deve seguir estas etapas.
+Neste artigo, você criará as configurações do ER necessárias para a empresa de exemplo, Litware, Inc. Portanto, antes de concluir os procedimentos deste artigo, você deve seguir estas etapas.
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações da localização**, verifique se o provedor de configuração da empresa de exemplo **Litware, Inc.** está disponível e marcado como ativo. Se não visualizar este provedor de configuração, você deve primeiro concluir as etapas em [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).

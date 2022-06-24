@@ -1,6 +1,6 @@
 ---
-title: Recursos removidos ou obsoletos do Dynamics 365 Finance
-description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Finance.
+title: Recursos removidos ou preteridos no Dynamics 365 Finance
+description: Este artigo descreve os recursos que já foram removidos ou foram planejados para remoção do Dynamics 365 Finance.
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846644"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou obsoletos do Dynamics 365 Finance
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou preteridos no Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Finance.
+Este artigo descreve os recursos que já foram removidos ou foram planejados para remoção do Dynamics 365 Finance.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
@@ -129,7 +129,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Substituído pelo novo repositório global do RCS (serviço de configuração regulatória) |
 | **Substituída por outro recurso?**   | Sim |
-| **Áreas afetadas do produto**         | Dynamics 365 Finance, produtos do Supply Chain Management e Project Operations|
+| **Áreas afetadas do produto**         | Produtos do Dynamics 365 Finance, Supply Chain Management e Project Operations|
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: em 1º de abril de 2022, planejamos não oferecer mais suporte ao repositório do Microsoft Dynamics Lifecycle Services (LCS) como uma opção de armazenamento para configurações de relatório eletrônico (ER). As novas configurações do Microsoft ER serão publicadas para download exclusivamente no repositório global. O repositório global pode ser acessado de produtos e RCS do Dynamics 365. Para obter mais informações, consulte [Importar configurações do ER a partir de RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) e [Regulatory Configuration Service - Suspensão do armazenamento de Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md). |
 

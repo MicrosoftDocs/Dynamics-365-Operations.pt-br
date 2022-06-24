@@ -1,6 +1,6 @@
 ---
 title: Orientações sobre configuração da gravação dupla
-description: Este tópico descreve os cenários com suporte para configuração de gravação dupla.
+description: Este artigo descreve os cenários com suporte para configuração de gravação dupla.
 author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a0d1b4e1f093874a8fd37cf7aadb331cd1e7adc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873139"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Orientações sobre configuração da gravação dupla
 
@@ -78,11 +78,11 @@ Para sincronizar os dados existentes do Dataverse com o aplicativo de Finanças 
 3. [Inicialize](bootstrap-company-data.md) os dados do Dataverse usando o código de uma empresa da Organização Internacional de Normalização (ISO) com três letras.
 4. Execute a funcionalidade **Sincronização inicial** para as tabelas das quais você deseja sincronizar dados.
 
-Para obter links para um exemplo e uma abordagem alternativa, consulte a seção [Exemplo](#example) posteriormente neste tópico.
+Para obter links para um exemplo e uma abordagem alternativa, consulte a seção [Exemplo](#example) posteriormente neste artigo.
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Uma nova instância de aplicativo de Finanças e Operações com dados e uma nova instância de aplicativo do Customer Engagement
 
-Para configurar uma conexão de gravação dupla entre uma nova instância de um aplicativo de Finanças e Operações com dados e uma nova instância de um aplicativo do Customer Engagement, siga as etapas na seção [Uma nova instância de aplicativo de Finanças e Operações e uma nova instância de aplicativo do Customer Engagement](#new-new), anteriormente neste tópico. Quando a configuração da conexão estiver concluída, para sincronizar os dados com o aplicativo do Customer Engagement, siga estas etapas.
+Para configurar uma conexão de gravação dupla entre uma nova instância de um aplicativo de Finanças e Operações com dados e uma nova instância de um aplicativo do Customer Engagement, siga as etapas na seção [Uma nova instância de aplicativo de Finanças e Operações e uma nova instância de aplicativo do Customer Engagement](#new-new), anteriormente neste artigo. Quando a configuração da conexão estiver concluída, para sincronizar os dados com o aplicativo do Customer Engagement, siga estas etapas.
 
 1. Abra o aplicativo de Finanças e Operações na página do LCS, entre e acesse **Gerenciamento de dados \> Gravação dupla**.
 2. Execute a funcionalidade **Sincronização inicial** para as tabelas das quais você deseja sincronizar dados.
@@ -91,7 +91,7 @@ Para obter links para um exemplo e uma abordagem alternativa, consulte a seção
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Uma nova instância de aplicativo de Finanças e Operações com dados e uma instância existente de aplicativo do Customer Engagement
 
-Para configurar uma conexão de gravação dupla entre uma nova instância de um aplicativo de Finanças e Operações com dados e uma instância existente de um aplicativo do Customer Engagement, siga as etapas na seção [Uma nova instância de aplicativo de Finanças e Operações e uma instância existente de aplicativo do Customer Engagement](#new-existing), anteriormente neste tópico. Quando a configuração da conexão estiver concluída, para sincronizar os dados com o aplicativo do Customer Engagement, siga estas etapas.
+Para configurar uma conexão de gravação dupla entre uma nova instância de um aplicativo de Finanças e Operações com dados e uma instância existente de um aplicativo do Customer Engagement, siga as etapas na seção [Uma nova instância de aplicativo de Finanças e Operações e uma instância existente de aplicativo do Customer Engagement](#new-existing), anteriormente neste artigo. Quando a configuração da conexão estiver concluída, para sincronizar os dados com o aplicativo do Customer Engagement, siga estas etapas.
 
 1. Abra o aplicativo de Finanças e Operações na página do LCS, entre e acesse **Gerenciamento de dados \> Gravação dupla**.
 2. Execute a funcionalidade **Sincronização inicial** para as tabelas das quais você deseja sincronizar dados.

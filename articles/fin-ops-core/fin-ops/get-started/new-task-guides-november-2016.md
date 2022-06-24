@@ -1,6 +1,6 @@
 ---
 title: Guias de tarefas novos ou atualizados (novembro de 2016)
-description: Este tópico lista as Guias de tarefas novas ou atualizadas que foram lançadas para a Biblioteca Unificada APQC (novembro de 2016 - todos idiomas) para o Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada.
+description: Este artigo lista as Guias de tarefas novas ou atualizadas que foram lançadas para a Biblioteca Unificada APQC (novembro de 2016 - todos idiomas) para o Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3836456f8d4ba8aba95e90563f8bdb27fc547e09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886575"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Guias de tarefas novos ou atualizados (novembro de 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista as Guias de tarefas novas ou atualizadas que foram lançadas para a Biblioteca Unificada APQC (novembro de 2016 - todos idiomas) para o Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada.
+Este artigo lista as Guias de tarefas novas ou atualizadas que foram lançadas para a Biblioteca Unificada APQC (novembro de 2016 – todos idiomas) para o Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada.
 
-A Biblioteca Unificada APQC (novembro de 2016 - todos os idiomas) contém as Guias de tarefas que devem ser usadas para Ajuda com a atualização 3 da plataforma do Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations, a atualização 2 da plataforma do Microsoft Dynamics AX a atualização 3 de maio de 2016 do Dynamics AX e a versão de fevereiro de 2016 do Microsoft Dynamics AX. Para mais informações sobre essas versões, consulte a [home page Novidades ou alterações do Finance and Operations](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema da Ajuda à uma biblioteca de Guia de tarefas, consulte [Sistema da Ajuda](help-overview.md).
+A Biblioteca Unificada APQC (novembro de 2016 - todos os idiomas) contém as Guias de tarefas que devem ser usadas para Ajuda com a atualização 3 da plataforma do Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations, a atualização 2 da plataforma do Microsoft Dynamics AX a atualização 3 de maio de 2016 do Dynamics AX e a versão de fevereiro de 2016 do Microsoft Dynamics AX. Para obter mais informações sobre essas versões, consulte [Novidades ou alterações na home page do Finance and Operations](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema da Ajuda à uma biblioteca de Guia de tarefas, consulte [Sistema da Ajuda](help-overview.md).
 
 > [!NOTE]
 > Um asterisco (\*) ao lado do título de uma linha de Modelador de processo de negócios (BPM) indica que a guia de tarefas para esse processo de negócios foi criado para a atualização de novembro de 2016 do Dynamics 365 for Operations e não tem suporte em versões anteriores do Microsoft Dynamics AX.

@@ -1,6 +1,6 @@
 ---
 title: Melhorar rastreamento dos resultados dos relatórios de ER gerados para comparar com valores de linha de base
-description: Este tópico descreve melhorias no recurso de linha de base ER no Microsoft Dynamics 365 for Finance and Operations versão 10.0.3 (junho de 2019).
+description: Este artigo descreve melhorias no recurso de linha de base ER no Microsoft Dynamics 365 for Finance and Operations versão 10.0.3 (junho de 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847391"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Melhorar rastreamento dos resultados dos relatórios de ER gerados para comparar com valores de linha de base
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve o primeiro conjunto de melhorias feitas no recurso de linha de base da estrutura ER (relatório eletrônico). Essas melhorias estão disponíveis no Microsoft Dynamics 365 for Finance and Operations versão 10.0.3 (junho de 2019) e posterior.
+Este artigo descreve o primeiro conjunto de melhorias feitas no recurso de linha de base da estrutura ER (relatório eletrônico). Essas melhorias estão disponíveis no Microsoft Dynamics 365 for Finance and Operations versão 10.0.3 (junho de 2019) e posterior.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Automatize a configuração de regras de linha de base
 
-O tópico [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md) explica como configurar a estrutura de ER para coletar informações sobre definições de formato de ER e avaliar os resultados dessas execuções. O exemplo neste tópico mostra as etapas que devem ser concluídas.
+O artigo [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md) explica como configurar a estrutura de ER para coletar informações sobre definições de formato de ER e avaliar os resultados dessas execuções. O exemplo neste artigo mostra as etapas que devem ser concluídas.
 
 Estas são algumas das etapas:
 
@@ -45,7 +45,7 @@ Estas são algumas das etapas:
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Exemplo: automatize a configuração de regras de linha de base
 
-Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas do exemplo no tópico [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md) na seção "Adicione uma nova linha base para formato de ER criado".
+Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas do exemplo no artigo [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md) na seção "Adicione uma nova linha base para formato de ER criado".
 
 ### <a name="review-added-baseline"></a>Examine a linha de base adicionada
 
@@ -80,7 +80,7 @@ A linha de base foi adicionada para o formato selecionado **Formatar para aprend
 
 ### <a name="run-the-format"></a>Execute o formato
 
-Agora você está pronto para concluir as etapas restantes no exemplo do tópico [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md), começando pela seção "Execute o formato de ER criado e verifique o log para analisar os resultados".
+Agora você está pronto para concluir as etapas restantes no exemplo do artigo [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md), começando pela seção "Execute o formato de ER criado e verifique o log para analisar os resultados".
 
 > [!NOTE]
 > Quando você excluir a regra automaticamente adicionada na Guia Rápida **Linhas de base**, o anexo referenciado não será excluído automaticamente.
@@ -91,7 +91,7 @@ Quando um formato de ER foi criado para conter informações que são alteradas 
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Exemplo: configure a linha de base de forma que ela constantemente ignore partes alteradas da saída de ER
 
-Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas no exemplo do tópico [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md).
+Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas no exemplo do artigo [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md).
 
 ### <a name="modify-a-configured-er-format"></a>Modifique o formato de um ER configurado
 
@@ -142,7 +142,7 @@ O componente de formato de ER selecionado foi adicionado à lista de componentes
 
 ### <a name="make-a-new-baseline-rule"></a>Crie uma nova regra de linha de base
 
-Siga as etapas da seção "Exemplo: automatize a configuração de regras de linha de base" apresentada antes neste tópico. Uma notificação avisa que o arquivo de saída foi gerado usando configurações de linha de base e que houve uma substituição forçada das associações de formato.
+Siga as etapas da seção "Exemplo: automatize a configuração de regras de linha de base" apresentada antes neste artigo. Uma notificação avisa que o arquivo de saída foi gerado usando configurações de linha de base e que houve uma substituição forçada das associações de formato.
 
 ![Notificação da página Configurações.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Captura de tela da notificação na página Configurações")
 

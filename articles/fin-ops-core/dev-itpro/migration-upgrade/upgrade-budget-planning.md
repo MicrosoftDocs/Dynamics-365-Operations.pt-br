@@ -1,6 +1,6 @@
 ---
 title: Upgrade de planejamento de orçamento
-description: Este tópico explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.
+description: Este artigo explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890396"
 ---
 # <a name="upgrade-budget-planning"></a>Atualizar planejamento de orçamento
 
 [!include [banner](../includes/banner.md)]
 
-Há diferenças significativas no planejamento do orçamento entre o Microsoft Dynamics AX 2012 e o Dynamics 365 Finance. Alguns recursos não foram atualizados e, portanto, não requerem reconfiguração. Este tópico explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.  
+Há diferenças significativas no planejamento do orçamento entre o Microsoft Dynamics AX 2012 e o Dynamics 365 Finance. Alguns recursos não foram atualizados e, portanto, não requerem reconfiguração. Este artigo explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.  
 
-O planejamento de orçamento no Finance tem vários aprimoramentos que não estavam disponíveis no Dynamics AX 2012. Este tópico explica as alterações a serem feitas pelos clientes que estão realizando a atualização. Também indica os novos recursos que devem ser considerados no processo de atualização. Por causa da extensão das alterações, os planos de orçamento existentes não poderão ser abertos até que sejam realizadas as alterações descritas neste tópico. No entanto, os relatórios devem continuar a funcionar e não requerem alterações adicionais.
+O planejamento de orçamento no Finance tem vários aprimoramentos que não estavam disponíveis no Dynamics AX 2012. Este artigo explica as alterações a serem feitas pelos clientes que estão realizando a atualização. Também indica os novos recursos que devem ser considerados no processo de atualização. Por causa da extensão das alterações, os planos de orçamento existentes não poderão ser abertos até que sejam realizadas as alterações descritas neste artigo. No entanto, os relatórios devem continuar a funcionar e não requerem alterações adicionais.
 
 ## <a name="overview-of-changes"></a>Visão geral das alterações
-Alterações significativas foram realizadas no Orçamento do Finance and Operations. Essas alterações devem fazer com que o planejamento de orçamento seja mais fácil de configurar e mais reutilizável, de modo a reduzir a configuração e manutenção anual. As seguintes áreas no AX 2012 não existem mais no Finance:
+Alterações significativas foram realizadas no orçamento do Finance and Operations. Essas alterações devem fazer com que o planejamento de orçamento seja mais fácil de configurar e mais reutilizável, de modo a reduzir a configuração e manutenção anual. As seguintes áreas no AX 2012 não existem mais no Finance:
 
 -   Modelos de plano de orçamento (configuração de planejamento de orçamento)
 -   Pastas de plano de orçamento (configuração de planejamento de orçamento)
@@ -47,7 +47,7 @@ As colunas são um novo conceito que substitui partes do modelo do Excel e campo
 
 ### <a name="layouts"></a>Layouts
 
-Os layouts são um novo conceito que substitui o modelo do Excel. Os layouts contêm as colunas que definem quais períodos e dados de orçamento ou valores reais devem ser mostrados. Os layouts também são compartilhados entre o cliente e o suplemento do Excel. Sendo assim, a experiência do usuário ao inserir ou exibir dados no cliente do Finance and Operations é melhor do que a experiência do usuário no AX 2012. Para inserir dados no cliente do Finance, você não estará mais limitado a exibir e inserir um único cenário em uma exibição de transação. Em vez disso, uma exibição de comparação permite exibir e inserir facilmente valores para vários períodos e contas ao mesmo tempo. Os layouts também podem ser definidos para que você possa inserir e exibir a moeda, comentários e outros dados opcionais. Os layouts também permitem definir quais dimensões contábeis e descrições de dimensão devem ser exibidas. Além disso, os layouts incorporam restrições ao cenário para definir quais colunas em um modelo podem ser editadas e quais colunas devem estar disponíveis no Excel. Após a definição de um layout, um modelo é gerado para ele. Esse modelo, por sua vez, cria o modelo correspondente do Excel. Com isso, você pode editar o modelo do Excel para incorporar mais fórmulas e formatações e, depois, carregá-lo novamente. Os layouts são atribuídos a cada regra de fase na página **Processo de planejamento de orçamento**. Portanto, os layouts substituem os modelos, que foram atribuídos e usados de forma semelhante.
+Os layouts são um novo conceito que substitui o modelo do Excel. Os layouts contêm as colunas que definem quais períodos e dados de orçamento ou valores reais devem ser mostrados. Os layouts também são compartilhados entre o cliente e o suplemento do Excel. Sendo assim, a experiência do usuário ao inserir ou exibir dados no cliente Finance and Operations é melhor que a experiência do usuário no AX 2012. Para inserir dados no cliente do Finance, você não estará mais limitado a exibir e inserir um único cenário em uma exibição de transação. Em vez disso, uma exibição de comparação permite exibir e inserir facilmente valores para vários períodos e contas ao mesmo tempo. Os layouts também podem ser definidos para que você possa inserir e exibir a moeda, comentários e outros dados opcionais. Os layouts também permitem definir quais dimensões contábeis e descrições de dimensão devem ser exibidas. Além disso, os layouts incorporam restrições ao cenário para definir quais colunas em um modelo podem ser editadas e quais colunas devem estar disponíveis no Excel. Após a definição de um layout, um modelo é gerado para ele. Esse modelo, por sua vez, cria o modelo correspondente do Excel. Com isso, você pode editar o modelo do Excel para incorporar mais fórmulas e formatações e, depois, carregá-lo novamente. Os layouts são atribuídos a cada regra de fase na página **Processo de planejamento de orçamento**. Portanto, os layouts substituem os modelos, que foram atribuídos e usados de forma semelhante.
 
 ### <a name="budget-planning-processes"></a>Processos de planejamento de orçamento
 
@@ -58,7 +58,7 @@ Os processos de planejamento de orçamento são basicamente os mesmos do AX 2012
 No AX 2012, os documentos de justificativa foram salvos em uma pasta de anexos. Nenhum documento de justificativa anterior é atualizado. Agora os documentos de justificativa são armazenados no banco de dados. Se for preciso salvar essas informações na versão atualizada, carregue os documentos de justificativa finais de cada plano como anexo usando o botão **Justificativa** no Painel de Ação. No AX 2012, as planilhas do Excel de cada plano de orçamento foram criadas com base no modelo. No Finance, todos os planos abrem uma cópia do layout. No entanto, nenhuma alteração no arquivo do Excel é salva. Todas as fórmulas ou informações de apoio usadas por plano devem ser adicionadas por meio de comentários, documento de justificativa ou algum outro processo suplementar.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Configuração do ambiente atualizado no AX 2012
-Para ajudar a determinar como configurar o sistema atualizado, o exemplo a seguir usa um processo de orçamento atualizado de dados de demonstração do AX 2012. Os dados de configuração padrão das colunas foram criados para ajudar no processo de atualização. É possível atualizar ou excluir esses dados padrão caso eles não atendam a seus requisitos de configuração. **Observação:** há novos campos obrigatórios que não serão definidos no sistema. Se você ficar preso em uma página, como a **Configuração de planejamento de orçamento**, e não conseguir sair, é possível fechar o navegador e depois reabri-lo em uma página diferente para inserir os detalhes na ordem correta. Há campos obrigatórios que ainda não estão definidos. Portanto, podem ocorrer problemas até que tudo esteja configurado e todos os campos obrigatórios tenham sido definidos. Este tópico explica como definir esses campos, conforme necessário. Veja aqui alguns desses campos obrigatórios:
+Para ajudar a determinar como configurar o sistema atualizado, o exemplo a seguir usa um processo de orçamento atualizado de dados de demonstração do AX 2012. Os dados de configuração padrão das colunas foram criados para ajudar no processo de atualização. É possível atualizar ou excluir esses dados padrão caso eles não atendam a seus requisitos de configuração. **Observação:** há novos campos obrigatórios que não serão definidos no sistema. Se você ficar preso em uma página, como a **Configuração de planejamento de orçamento**, e não conseguir sair, é possível fechar o navegador e depois reabri-lo em uma página diferente para inserir os detalhes na ordem correta. Há campos obrigatórios que ainda não estão definidos. Portanto, podem ocorrer problemas até que tudo esteja configurado e todos os campos obrigatórios tenham sido definidos. Este artigo explica como definir esses campos, conforme necessário. Veja aqui alguns desses campos obrigatórios:
 
 -   Página **Processo de planejamento de orçamento**: campo **Estrutura da conta padrão**
 -   Página **Processo de planejamento de orçamento**: campo **Layout** na Guia Rápida **Layouts e regras da fase de planejamento de orçamento**
@@ -69,7 +69,7 @@ Para ajudar a determinar como configurar o sistema atualizado, o exemplo a segui
    -   Cenários do plano de orçamento: valores reais, linha de base, solicitação de orçamento, orçamento aprovado
    -   Linhas de plano de orçamento para todos os cenários em 2017 e valores reais para 2017 e 2016
 
-   As colunas a seguir serão criadas no Finance and Operations:
+   As seguintes colunas serão criadas no Finanças e Operações:
 
    | Nome da coluna    | Cenário do plano de orçamento | Período de tempo da coluna | Compensação anual |
    |----------------|----------------------|--------------------|-------------|

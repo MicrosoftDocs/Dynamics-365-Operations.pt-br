@@ -1,6 +1,6 @@
 ---
 title: Posição de caixa
-description: Este tópico descreve como o recurso de previsão de fluxo de caixa prevê a posição de pagamento à vista de uma organização para horários específicos. Também descreve as opções disponíveis para mostrar previsões para períodos diferentes.
+description: Este artigo descreve como o recurso Previsão de fluxo de caixa prevê a posição de pagamento à vista de uma organização para horários específicos. Também descreve as opções disponíveis para mostrar previsões para períodos diferentes.
 author: ShivamPandey-msft
 ms.date: 12/21/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1c6d394cb192a88316beb2e8746b558eb8dd184b
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 7581142348d91b3a37cc75cf801e7bfc098cd604
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870239"
 ---
 # <a name="cash-position"></a>Posição de caixa
 

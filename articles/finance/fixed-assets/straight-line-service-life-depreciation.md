@@ -1,6 +1,6 @@
 ---
 title: Depreciação de vida útil linear
-description: Este tópico oferece uma visão geral do Método de depreciação linear com base na vida útil.
+description: Este artigo oferece uma visão geral do Método de depreciação linear com base na vida útil.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896453"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Depreciação de vida útil linear
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece uma visão geral do Método de depreciação linear com base na vida útil.
+Este artigo oferece uma visão geral do Método de depreciação linear com base na vida útil.
 
 Quando você configura um perfil de depreciação de ativo fixo e seleciona Vida útil linear no campo Método, na página Perfis de depreciação, os ativos com esse perfil de depreciação atribuído serão depreciados com base na vida útil total do ativo. Esse geralmente é o mesmo valor de depreciação em cada período de depreciação. 
 
@@ -41,7 +41,7 @@ Você pode selecionar Calendário ou Fiscal no campo Ano de depreciação na pá
 
 Se você selecionar Calendário, será considerado um ano de 1º de janeiro a 31 de dezembro, mesmo que você tenha definido o calendário fiscal de forma diferente. 
 
-A opção Calendário atualiza a base da depreciação que, normalmente é o valor líquido contábil menos o valor residual, no dia 1º de janeiro de cada ano. Nos exemplos a seguir deste tópico, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. 
+A opção Calendário atualiza a base da depreciação que, normalmente é o valor líquido contábil menos o valor residual, no dia 1º de janeiro de cada ano. Nos exemplos a seguir deste artigo, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. 
 
 Caso selecione Calendário, você terá estas opções no campo Frequência do período, que define as datas e os valores de lançamento acumulado da depreciação durante todo o ano civil.
 - Anualmente lança um valor em 31 de dezembro.

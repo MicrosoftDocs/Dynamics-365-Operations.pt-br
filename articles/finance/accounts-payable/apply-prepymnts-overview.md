@@ -1,6 +1,6 @@
 ---
 title: Aplicar automaticamente os pagamentos antecipados para faturas de fornecedores
-description: Este tópico descreve a capacidade de aplicar automaticamente pagamentos antecipados às faturas de fornecedores.
+description: Este artigo descreve a capacidade de aplicar automaticamente pagamentos antecipados às faturas de fornecedores.
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900061"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Aplicar automaticamente às faturas de fornecedores
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a capacidade de aplicar automaticamente pagamentos antecipados às faturas de fornecedores. Um pagamento antecipado pode ser criado para uma ordem de compra como parte de um contrato de compra. Depois que uma fatura de fornecedor é recebida, o pagamento antecipado pode ser usado para liquidar as contas a pagar da fatura de fornecedor. O novo recurso permite que o sistema use automaticamente números de ordem de compra em uma fatura de fornecedor para procurar pagamentos antecipados correspondentes quando a fatura de fornecedor é importada.
+Este artigo descreve a capacidade de aplicar automaticamente pagamentos antecipados às faturas de fornecedores. Um pagamento antecipado pode ser criado para uma ordem de compra como parte de um contrato de compra. Depois que uma fatura de fornecedor é recebida, o pagamento antecipado pode ser usado para liquidar as contas a pagar da fatura de fornecedor. O novo recurso permite que o sistema use automaticamente números de ordem de compra em uma fatura de fornecedor para procurar pagamentos antecipados correspondentes quando a fatura de fornecedor é importada.
 
 Se os pagamentos antecipados forem encontrados e puderem ser aplicados, as linhas serão adicionadas às linhas da fatura existente para aplicar os pagamentos antecipados. As linhas de pagamento antecipado nunca são consideradas durante o processo de conciliação de faturas.
 

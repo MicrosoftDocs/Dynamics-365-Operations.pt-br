@@ -1,6 +1,6 @@
 ---
 title: Configurar descrições padrão para o lançamento de documentos fiscais de imposto
-description: Este tópico explica como configurar descrições padrão para transações de comprovante lançadas de documentos fiscais de imposto.
+description: Este artigo explica como configurar descrições padrão para transações de comprovante lançadas de documentos fiscais de imposto.
 author: gionoder
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: gionoder
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 0faae8455ae50f573a7e4bd6e0f2a0434fd18efb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 282107d402bf47ff2c3b4756dbcd50ca8c456afc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896226"
 ---
 # <a name="set-up-default-descriptions-for-posting-of-tax-fiscal-documents"></a>Configurar descrições padrão para o lançamento de documentos fiscais de imposto
 

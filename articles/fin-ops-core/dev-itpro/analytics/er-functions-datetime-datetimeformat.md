@@ -1,6 +1,6 @@
 ---
 title: Função DATETIMEFORMAT ER
-description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) DATETIMEFORMAT é usada.
+description: Este artigo fornece informações sobre como a função de relatório eletrônico (ER) DATETIMEFORMAT é usada.
 author: NickSelin
 ms.date: 09/08/2021
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1add2ccb348a9b518e0121be1184fbf6a684a0df
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 693ec465b56a1c7fbd9828c9e972da8a3e3fc6d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896782"
 ---
 # <a name="datetimeformat-er-function"></a>Função DATETIMEFORMAT ER
 

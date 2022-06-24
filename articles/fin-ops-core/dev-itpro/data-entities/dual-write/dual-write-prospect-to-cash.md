@@ -1,6 +1,6 @@
 ---
 title: Cliente potencial com pagamento à vista em gravação dupla
-description: Este tópico fornece informações sobre o cliente potencial com pagamento à vista em gravação dupla.
+description: Este artigo fornece informações sobre o cliente potencial com pagamento à vista em gravação dupla.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860099"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
@@ -29,7 +29,7 @@ Nas interfaces de aplicativo, você pode acessar os status de processamento e as
 Para obter informações sobre a integração entre cliente e contato, consulte [Cliente mestre integrado](customer-mapping.md). Para obter mais informações sobre a integração de produtos, consulte [Experiência unificada de produtos](product-mapping.md).
 
 > [!NOTE]
-> No Dynamics 365 Sales, um cliente potencial e um cliente real referem-se a um registro na tabela **Contas** em que a coluna **RelationshipType** é **Cliente potencial** ou **Cliente**. Se a lógica comercial incluir um processo de qualificação de **Conta**, no qual o registro **Conta** é criado e qualificado como um cliente potencial primeiro, o registro só é sincronizado com o aplicativo do Finance and Operations quando ele for um cliente (`RelationshipType=Customer`). Se quiser que a linha **Conta** seja sincronizada como um cliente potencial, você precisará de um mapa personalizado para integrar os dados do cliente potencial.
+> No Dynamics 365 Sales, um cliente potencial e um cliente real referem-se a um registro na tabela **Contas** em que a coluna **RelationshipType** é **Cliente potencial** ou **Cliente**. Se a lógica comercial incluir um processo de qualificação de **Conta**, no qual o registro **Conta** é criado e qualificado como um cliente potencial primeiro, o registro só é sincronizado com o aplicativo Finance and Operations quando ele for um cliente (`RelationshipType=Customer`). Se quiser que a linha **Conta** seja sincronizada como um cliente potencial, você precisará de um mapa personalizado para integrar os dados do cliente potencial.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
@@ -111,7 +111,7 @@ As faturas de vendas são criadas no Supply Chain Management e sincronizadas no 
 
 O item Do cliente potencial ao pagamento à vista inclui um conjunto de mapas de entidades centrais que trabalham juntos durante a interação de dados, conforme mostrado na tabela a seguir.
 
-| Aplicativos Finance and Operations | Aplicativos do Customer Engagement | descrição |
+| Aplicativos do Finance and Operations | Aplicativos do Customer Engagement | Descrição |
 |-----------------------------|-----------------------------------|-------------|
 [Todos os produtos](mapping-reference.md#138) | msdyn_globalproducts | |
 [Clientes V3](mapping-reference.md#101) | contas | |
@@ -122,7 +122,7 @@ O item Do cliente potencial ao pagamento à vista inclui um conjunto de mapas de
 [Cabeçalho de cotação de venda CDS](mapping-reference.md#215) | cotações | |
 [Linhas de cotação de venda do CDS](mapping-reference.md#214) | quotedetails | |
 [Produtos liberados V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Cabeçalhos de fatura de venda V2](mapping-reference.md#118) | faturas | A tabela de cabeçalhos da fatura de venda V2 no aplicativo do Finance and Operations contém faturas para ordens de venda e faturas de texto livre. Um filtro é aplicado no Dataverse para a gravação dupla, que filtrará qualquer documento de fatura de texto livre. |
+[Cabeçalhos de fatura de venda V2](mapping-reference.md#118) | faturas | A tabela de cabeçalhos da fatura de venda V2 no aplicativo Finance and Operations contém faturas para ordens de venda e faturas de texto livre. Um filtro é aplicado no Dataverse para a gravação dupla, que filtrará qualquer documento de fatura de texto livre. |
 [Linhas da fatura de venda V2](mapping-reference.md#117) | invoicedetails | |
 [Códigos de origem de ordem de venda](mapping-reference.md#186) | msdyn_salesorderorigins | |
 

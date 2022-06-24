@@ -1,6 +1,6 @@
 ---
-title: Opções de cálculo do valor total e do intervalo para códigos de impostos
-description: Este tópico explica as opções para o campo Método de cálculo em códigos de imposto e como o imposto é calculado para intervalos e valores inteiros.
+title: Opções de cálculo de intervalo e valor total para códigos de imposto
+description: Este artigo explica as opções para o campo Método de cálculo em códigos de imposto e como o imposto é calculado para intervalos e valores inteiros.
 author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874451"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opções de cálculo do valor total e do intervalo para códigos de impostos
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opções de cálculo de intervalo e valor total para códigos de imposto
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica as opções para o campo **Método de cálculo** em códigos de imposto e como o imposto é calculado para intervalos e valores inteiros.
+Este artigo explica as opções para o campo **Método de cálculo** em códigos de imposto e como o imposto é calculado para intervalos e valores inteiros.
 
 Você pode configurar um código de imposto a ser calculado com base em um valor inteiro ou em um intervalo de valores. Na página **Códigos de imposto**, use o campo **Método de cálculo** na Guia Rápida **Cálculo** para selecionar o método de cálculo para um código de imposto.
 - Valor total - a taxa de imposto é aplicada ao valor tributável total.

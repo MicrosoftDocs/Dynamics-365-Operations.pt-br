@@ -1,6 +1,6 @@
 ---
 title: Lista de funções ER na categoria de lista
-description: Este tópico fornece informações sobre as funções de lista que são compatíveis no relatório eletrônico (ER).
+description: Este artigo fornece informações sobre as funções de lista que são compatíveis no relatório eletrônico (ER).
 author: NickSelin
 ms.date: 04/01/2020
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0d9f83a1750ff51d76716147f5d16e96c0fb415608256a5dcc7524a1f2bd2f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869045"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Lista de funções ER na categoria de lista
 
 [!include [banner](../includes/banner.md)]
 
-As funções de lista de relatório eletrônico (ER) podem ser usadas para extrair informações de e executar operações em, fontes de dados dos tipos de dados *Lista de registros* e *Contêiner (registro)*. Este tópico fornece um resumo dessas funções.
+As funções de lista de relatório eletrônico (ER) podem ser usadas para extrair informações de e executar operações em, fontes de dados dos tipos de dados *Lista de registros* e *Contêiner (registro)*. Este artigo fornece um resumo dessas funções.
 
 ## <a name="list-of-supported-functions"></a>Lista de funções com suporte
 

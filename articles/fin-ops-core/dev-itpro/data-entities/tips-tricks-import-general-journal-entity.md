@@ -1,6 +1,6 @@
 ---
 title: Importar comprovantes usando a entidade Diário geral
-description: Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral.
+description: Este artigo fornece dicas para importar dados para o diário geral usando entidade Diário geral.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867601"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importar comprovantes usando a entidade Diário geral
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065061"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral.
+Este artigo fornece dicas para importar dados para o diário geral usando entidade Diário geral.
 
 Você pode usar a entidade de diário geral para importar somente os comprovantes que têm um tipo de conta ou contrapartida de **Razão**, **Cliente**, **Fornecedor** ou **Banco**. O voucher pode ser digitado como uma linha, usando o campo **Conta** e o campo **Contrapartida**, ou como um comprovante de várias linhas, onde somente o campo **Conta** é usado (e **Contrapartida** é deixado em branco em cada linha). A entidade do diário geral não suporta cada tipo de conta. Em vez disso, existem outras entidades para cenários onde diferentes combinações de tipos de conta são necessárias. Por exemplo, para importar uma transação de projeto, use a entidade do diário de despesas do projeto. Cada entidade foi projetada para oferecer suporte a cenários específicos. Isso significa que campos adicionais podem estar disponíveis nas entidades para esses cenários. Contudo, campos adicionais podem não estar disponíveis em entidades para diferentes cenários.
 

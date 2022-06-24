@@ -1,20 +1,20 @@
 ---
 title: Códigos de erro para a verificação de integridade do mapa de tabelas
-description: Este tópico descreve os códigos de erro para a verificação de integridade do mapa de tabela.
-author: nhelgren
-ms.date: 10/04/2021
+description: Este artigo descreve os códigos de erro para a verificação de integridade do mapa de tabela.
+author: RamaKrishnamoorthy
+ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
-ms.author: nhelgren
+ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884073"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Códigos de erro para a verificação de integridade do mapa de tabelas
 
@@ -22,7 +22,7 @@ ms.locfileid: "8061269"
 
 
 
-Este tópico descreve os códigos de erro para a verificação de integridade do mapa de tabela.
+Este artigo descreve os códigos de erro para a verificação de integridade do mapa de tabela.
 
 ## <a name="error-100"></a>Erro 100
 
@@ -32,13 +32,13 @@ O recurso requer atualizações de plataforma para a versão 10.0.19 ou posterio
 
 ## <a name="error-400"></a>Erro 400
 
-A mensagem de erro é "Não foram encontrados dados de registro de eventos de negócios para a entidade \{Finance and Operations UniqueEntityName\} o que significa que o mapa não está em execução ou que todos os mapeamentos de campos são unidirecionais."
+A mensagem de erro é "Não foram encontrados dados de registro de eventos de negócios para a entidade \{UniqueEntityName de finanças e operações\} o que significa que o mapa não está em execução ou que todos os mapeamentos de campos são unidirecionais."
 
 ## <a name="error-500"></a>Erro 500
 
-A mensagem de erro é "Nenhuma configuração de projeto encontrada para o projeto \{nome do projeto\}. Isso pode ocorrer em decorrência de o projeto não estar habilitado ou todos os mapeamentos de campos serem unidirecionais de engajamento do cliente para Finanças e Operações."
+A mensagem de erro é "Nenhuma configuração de projeto encontrada para o projeto \{nome do projeto\}. Isso pode ocorrer em decorrência de o projeto não estar habilitado ou todos os mapeamentos de campos serem unidirecionais de engajamento do cliente para finanças e operações."
 
-Verifique os mapeamentos para o mapa de tabelas. Se eles forem unidirecionais de aplicativos de engajamento do cliente para aplicativos de Finanças e Operações, nenhum tráfego será gerado para sincronização dinâmica de aplicativos de Finanças e Operações para o Dataverse.
+Verifique os mapeamentos para o mapa de tabelas. Se eles forem unidirecionais de aplicativos do Customer Engagement para aplicativos de finanças e operações, nenhum tráfego será gerado para sincronização dinâmica de aplicativos de finanças e operações para o Dataverse.
 
 ## <a name="error-900"></a>Erro 900
 
@@ -79,5 +79,20 @@ select * from <EntityName> where <filter criteria for the records> on SQL.
 A mensagem de erro é "A tabela: \{datasourceTable.Key.subscribedTableName\} for entity \{datasourceTable.Key.entityName\} é rastreada para a entidade \{origTableToEntityMaps.EntityName\}. As mesmas tabelas rastreadas para várias entidades podem afetar o desempenho do sistema para transações de sincronização dinâmica".
 
 Se a mesma tabela for controlada por várias entidades, qualquer alteração na tabela irá disparar uma avaliação de gravação dupla para as entidades vinculadas. Embora as cláusulas de filtro enviem somente os registros válidos, a avaliação poderá causar um problema de desempenho se houver consultas de longa duração ou planos de consulta não otimizados. Esse problema pode não ser evitável da perspectiva comercial. No entanto, se houver muitas tabelas de interseção em várias entidades, considere a simplificação da entidade ou a verificação de otimizações para consultas a entidades.
+
+## <a name="error-1800"></a>Erro 1800
+A mensagem de erro é, "Fonte de dados: {} para a entidade CustCustomerV3Entity inclui um valor de intervalo. O registro de entrada que faz upsert do Dataverse para finanças e operações pode ser afetado por valores de intervalo na entidade. Teste atualizações de registros do Dataverse para finanças e operações com registros que não correspondam aos critérios de filtro para validar suas configurações."
+
+Se houver um intervalo especificado na entidade em aplicativos de finanças e operações, a sincronização de entrada de aplicativos do Dataverse para finanças e operações deverá ser testada para o comportamento de atualização nos registros que não correspondem a este critério de intervalo. Qualquer registro que não seja compatível com o intervalo será tratado como uma operação de inserção pela entidade. Se houver um registro existente na tabela subjacente, a inserção falhará. É recomendável testar esse caso de uso para todos os cenários antes de implantá-lo na produção.
+
+## <a name="error-1900"></a>Erro 1900
+A mensagem de erro é "Entidade: contém {} fontes de dados que não estão sendo rastreadas para gravação dupla de saída. Isso pode afetar o desempenho das consultas de sincronização dinâmica. Remodele a entidade em finanças e operações para remover fontes de dados e tabelas não usadas ou implementar getEntityRecordIdsImpactedByTableChange para otimizar as consultas em tempo de execução.
+
+Se houver várias fontes de dados que não estiverem sendo usadas para rastreamento na sincronização dinâmica real dos aplicativos de finanças e operações, há uma possibilidade de que o desempenho da entidade possa afetar a sincronização dinâmica. Para otimizar as tabelas rastreadas, use o método getEntityRecordIdsImpactedByTableChange.
+
+## <a name="error-5000"></a>Erro 5000
+A mensagem de erro é: "Os plug-ins síncronos são registrados para eventos de gerenciamento de dados para contas de entidade. Eles podem afetar o desempenho da importação da sincronização dinâmica e sincronização inicial no Dataverse. Para obter melhor desempenho, altere os plug-ins para processamento assíncrono. Lista de plug-ins registrados {}."
+
+Os plug-ins síncronos em uma entidade do Dataverse podem afetar o desempenho da sincronização inicial e da sincronização dinâmica, uma vez que adicionam dados ao carregamento da transação. A abordagem recomendada é desativar os plug-ins ou torná-los assíncronos se estiver enfrentando tempos de carregamento lentos na sincronização inicial ou sincronização dinâmica para uma entidade específica.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Suporte a chamadas parametrizadas de modelos de dados de ER
-description: Este tópico explica como implementar chamadas parametrizadas de modelos de dados de Relatório Eletrônico (ER).
+description: Este artigo explica como implementar chamadas parametrizadas de modelos de dados de Relatório Eletrônico (ER).
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884247"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>Suporte a chamadas parametrizadas de modelos de dados de ER
 
@@ -160,7 +160,7 @@ Você pode especificar cada parâmetro de um campo de modelo de dados para o qua
 > [!NOTE]
 > Não há suporte ao valor padrão do parâmetro de um campo de modelo de dados. Se você adicionar um parâmetro a um campo em um modelo de dados e a versão do modelo de dados já tiver sido lançada e publicada, será necessário [trocar a base](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) de todos os mapeamentos e formatos de modelos correspondentes para a nova versão deste modelo, pois essa alteração de modelo de dados não é compatível com versões anteriores.
 
-Você pode configurar campos parametrizados de modelo de dados para fazer chamadas de mapeamento de modelo com formato específico. Essa abordagem pode ajudar a reduzir o número de mapeamentos de modelo que devem ser configurados para vários formatos de um único modelo de dados. Você também pode usar essa abordagem para melhorar o desempenho de execução dos formatos e reduzir o tempo necessário para gerar documentos comerciais. Para saber mais sobre este recurso, conclua o exemplo neste tópico.
+Você pode configurar campos parametrizados de modelo de dados para fazer chamadas de mapeamento de modelo com formato específico. Essa abordagem pode ajudar a reduzir o número de mapeamentos de modelo que devem ser configurados para vários formatos de um único modelo de dados. Você também pode usar essa abordagem para melhorar o desempenho de execução dos formatos e reduzir o tempo necessário para gerar documentos comerciais. Para saber mais sobre este recurso, conclua o exemplo neste artigo.
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>Exemplo: usar chamadas parametrizadas de modelos de dados de ER
 
@@ -201,7 +201,7 @@ No momento, o modelo foi projetado para expor somente as transações de imposto
 
 ### <a name="design-a-model-mapping-for-the-configured-data-model"></a>Criar um mapeamento de modelo para o modelo de dados configurado
 
-Como usuário na função de Desenvolvedor de Relatório Eletrônico, você deve criar uma nova configuração de ER que contenha um componente de mapeamento de modelo para o modelo de dados de Exemplo de auditoria. Esse componente implementa o modelo de dados configurado para o Microsoft Dynamics 365 Finance e é específico desse aplicativo. Você deve configurar o componente de mapeamento de modelos para especificar os objetos de aplicativo que devem ser usados para preencher o modelo de dados configurado com os dados do aplicativo no tempo de execução. Para concluir essa tarefa, você deve compreender como a estrutura de dados do domínio comercial de imposto é implementada no Finance.
+Como usuário na função de Desenvolvedor de Relatório Eletrônico, você deve criar uma nova configuração de ER que contenha um componente de mapeamento de modelo para o modelo de dados de Exemplo de auditoria. Este componente implementa o modelo de dados configurado para o Microsoft Dynamics 365 Finance e é específico desse aplicativo. Você deve configurar o componente de mapeamento de modelos para especificar os objetos de aplicativo que devem ser usados para preencher o modelo de dados configurado com os dados do aplicativo no tempo de execução. Para concluir essa tarefa, você deve compreender como a estrutura de dados do domínio comercial de imposto é implementada no Finance.
 
 Siga estas etapas para importar o mapeamento de modelo necessário de um arquivo XML fornecido pela Microsoft.
 

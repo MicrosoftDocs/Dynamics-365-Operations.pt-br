@@ -1,6 +1,6 @@
 ---
 title: Parâmetros de integração da folha de pagamento
-description: Este tópico descreve os parâmetros de integração da folha de pagamento do Dynamics 365 Human Resources.
+description: Este artigo descreve os parâmetros de integração da folha de pagamento do Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-17
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37d4dc52e7fe5ddd95f43d98267db819a275bd92
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7d784909fc8c5fa05557566b62b19802cd2acece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896087"
 ---
 # <a name="payroll-integration-parameters"></a>Parâmetros de integração da folha de pagamento
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069848"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Para poder usar a integração de folha de pagamento do Dynamics 365 Human Resources, você deve configurar os parâmetros descritos neste tópico.
+Para poder usar a integração de folha de pagamento do Dynamics 365 Human Resources, você deve configurar os parâmetros descritos neste artigo.
 
 ## <a name="enable-payroll-address"></a>Habilitar endereço da folha de pagamento
 

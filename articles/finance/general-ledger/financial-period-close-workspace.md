@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81ec9b988cee7023c343df1fa8c86858eb0cfe58
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865702"
 ---
 # <a name="financial-period-close-workspace"></a>Espaço de trabalho de fechamento do período financeiro
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral do espaço de trabalho **Final do período financeiro** e a configuração associada.
+Este artigo fornece uma visão geral do espaço de **Fechamento do período financeiro** e a configuração associada.
 
 Espaço de trabalho de fechamento do período financeiro
 

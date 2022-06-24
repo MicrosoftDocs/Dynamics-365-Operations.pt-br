@@ -1,6 +1,6 @@
 ---
 title: Visão geral da Europa
-description: Este tópico fornece links para recursos de documentação do Microsoft Dynamics 365 Finance para a Europa.
+description: Este artigo fornece links para recursos de documentação do Microsoft Dynamics 365 Finance para a Europa.
 author: kfend
 ms.date: 01/15/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 9a9fd88bde02d8ea4f6eeda5e8785366ec0d8e85
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856508"
 ---
 # <a name="europe-overview"></a>Visão geral da Europa
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico inclui informações e links para recursos que podem ajudar você a configurar entidades legais com endereço principal na Europa. 
+Este artigo inclui informações e links para recursos que podem ajudar você a configurar entidades legais com endereço principal na Europa. 
 
 - [Visão geral de titulares avançados](emea-advance-holders.md)
  - [Transações de titulares avançadas](emea-advance-holders-transactions.md)

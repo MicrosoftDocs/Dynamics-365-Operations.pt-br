@@ -1,6 +1,6 @@
 ---
 title: Criar documentação ou treinamento com o Gravador de tarefas
-description: Este tópico explica o que são o Gravador de tarefas e os guias de tarefas, como criar gravações e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda.
+description: Este artigo explica o que são o Gravador de tarefas e os guias de tarefas, como criar gravações e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda.
 author: josaw1
 ms.date: 03/24/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b556003edf2fe186f6b095e538f142fcf5a0bba5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891804"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Criar documentação ou treinamento com o Gravador de tarefas
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070517"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tópico explica o que são o gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda.
+Este artigo explica o que são o gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda.
 
 > [!IMPORTANT]
 > Você pode registrar suas próprias guias de tarefa para o Dynamics 365 Human Resources, mas não é possível salvá-las em uma biblioteca Modelador de Processo de Negócios (BPM) ou abri-las no painel Ajuda neste momento. Você pode salvá-las localmente ou em um local da rede e, em seguida, abrir e repeti-las usando o Gravador de tarefas. 

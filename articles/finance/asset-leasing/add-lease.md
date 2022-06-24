@@ -1,6 +1,6 @@
 ---
 title: Adicionar ou copiar arrendamentos (Versão preliminar)
-description: Este tópico descreve como criar um novo arrendamento inserindo informações sobre arrendamento de ativos ou copiando informações de um arrendamento existente.
+description: Este artigo descreve como criar um novo arrendamento inserindo informações sobre arrendamento de ativos ou copiando informações de um arrendamento existente.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880922"
 ---
 # <a name="add-or-copy-leases-preview"></a>Adicionar ou copiar arrendamentos (Versão preliminar)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como criar um arrendamento do zero no arrendamento do ativo e também como criar um arrendamento copiando um arrendamento existente. O processo de criação de um arrendamento a partir do zero envolve a inserção de informações para o novo arrendamento e, em seguida, a criação de um plano de arrendamento. Depois que pelo menos um arrendamento for configurado, talvez seja mais fácil copiar as informações de um arrendamento existente e editar essas informações, conforme necessário para criar um novo arrendamento.
+Este artigo explica como criar um arrendamento do zero no arrendamento do ativo e também como criar um arrendamento copiando um arrendamento existente. O processo de criação de um arrendamento a partir do zero envolve a inserção de informações para o novo arrendamento e, em seguida, a criação de um plano de arrendamento. Depois que pelo menos um arrendamento for configurado, talvez seja mais fácil copiar as informações de um arrendamento existente e editar essas informações, conforme necessário para criar um novo arrendamento.
 
 ## <a name="create-a-lease"></a>Criar um arrendamento
 

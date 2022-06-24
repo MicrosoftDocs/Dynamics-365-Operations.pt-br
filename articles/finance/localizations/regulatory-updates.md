@@ -1,6 +1,6 @@
 ---
 title: Atualizações regulatórias
-description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 Finance.
+description: Este artigo fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 Finance.
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904271"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista as atualizações regulatórias planejadas e liberadas em localizações compatíveis para o Dynamics 365 Finance. Os cronogramas de entrega podem mudar e a funcionalidade projetada pode ser diferente ou não ser liberada. Para obter mais informações, leia a [política da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Este artigo lista as atualizações regulatórias planejadas e liberadas em localizações compatíveis para o Dynamics 365 Finance. Os cronogramas de entrega podem mudar e a funcionalidade projetada pode ser diferente ou não ser liberada. Para obter mais informações, leia a [política da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre recursos planejados ou lançados específicos de um país, consulte os [Planos de liberação da versão do Dynamics 365 e do Power Platform](/business-applications-release-notes/index).
 

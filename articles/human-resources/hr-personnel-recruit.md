@@ -1,6 +1,6 @@
 ---
 title: Recrutar candidatos ao trabalho
-description: Este tópico descreve como recrutar candidatos no Dynamics 365 Human Resources.
+description: Este artigo descreve como recrutar candidatos no Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879240"
 ---
 # <a name="recruit-job-candidates"></a>Recrutar candidatos ao trabalho
 
@@ -47,11 +47,12 @@ Se você quiser enviar solicitações de recrutamento no recrutamento do HR, pri
 
 Depois que os recursos estiverem ativados, selecione a funcionalidade com as seguintes etapas: 
 1. Vá até **Recursos humanos** > **Configuração** > **Parâmetros de recursos humanos**.
-2. Na guia  **Recrutamento** , defina o campo **Recrutamento desabilitado** como **Não**.
-3. Na lista suspensa **Experiência em recrutamento**, selecione **Recrutamento do HR**.   
+2. Na guia  **Recrutamento** , defina o campo **Recrutamento habilitado** como **Sim**.
+3. Na lista suspensa **Experiência em recrutamento**, selecione **Recrutamento do HR**.  
+4. Clique em **Salvar**. 
 
 > [!Note] 
-> Após a seleção de **Recrutamento do HR**, **Projetos de recrutamento** (herdados) serão somente leitura. 
+> Após a seleção de **Recrutamento do HR**, **Projetos de recrutamento** (herdados) não estarão disponíveis. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>Adicionar um local de solicitação de recrutamento

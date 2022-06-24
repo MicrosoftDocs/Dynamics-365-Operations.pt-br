@@ -1,6 +1,6 @@
 ---
 title: Recursos de acessibilidade
-description: Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências.
+description: Este artigo descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências.
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881041"
 ---
 # <a name="accessibility-features"></a>Recursos de acessibilidade
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071049"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências a usar este aplicativo. Por exemplo, há recursos para pessoas que usam tecnologias assistivas visuais, como o Narrador do Microsoft Windows.
+Este artigo descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências a usar este aplicativo. Por exemplo, há recursos para pessoas que usam tecnologias assistivas visuais, como o Narrador do Microsoft Windows.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Acesso exclusivo pelo teclado e Narrador do Windows
 
@@ -49,7 +49,7 @@ Para obter mais informações, consulte [Pesquisa de navegação](navigation-sea
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>Pesquisa de ação para usuários exclusivos do teclado ou para entradas de dados sem erro
 
-Cada ação que é fornecida em uma página pode ser acessada de um teclado pela sequência de tabulação. Informações sobre a sequência de tabulação serão fornecidas posteriormente neste tópico. Para executar ações de forma mais direta, você pode usar a funcionalidade de pesquisa de ação.
+Cada ação que é fornecida em uma página pode ser acessada de um teclado pela sequência de tabulação. Informações sobre a sequência de tabulação serão fornecidas posteriormente neste artigo. Para executar ações de forma mais direta, você pode usar a funcionalidade de pesquisa de ação.
 
 ### <a name="example"></a>Exemplo
 

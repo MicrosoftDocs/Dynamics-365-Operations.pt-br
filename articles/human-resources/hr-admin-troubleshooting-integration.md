@@ -1,6 +1,6 @@
 ---
 title: Integração com Perguntas frequentes do Finance
-description: Este tópico explica quais dados são sincronizados em uma de integração do Human Resources com o Finance.
+description: Este artigo explica quais dados são sincronizados em uma de integração do Human Resources com o Finance.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879269"
 ---
 # <a name="integration-with-finance-faq"></a>Integração com Perguntas frequentes do Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "8693994"
 
 
 
-Esse tópico responde perguntas comuns associadas a quais dados são sincronizados quando o Dynamics 365 Human Resources é integrado ao Dynamics 365 Finance.
+Esse artigo responde a perguntas comuns associadas a quais dados são sincronizados quando o Dynamics 365 Human Resources é integrado ao Dynamics 365 Finance.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>É possível editar o usuário do aplicativo Dynamics 365 Talent no Power Apps?
 

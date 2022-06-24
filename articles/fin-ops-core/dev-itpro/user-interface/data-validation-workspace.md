@@ -12,12 +12,12 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860029"
 ---
 # <a name="data-validation-checklist-workspace"></a>Espaço de trabalho da lista de verificação de validação de dados
 
@@ -26,7 +26,7 @@ ms.locfileid: "8070818"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tópico fornece uma visão geral do **espaço de trabalho Lista de verificação de validação** e da configuração associada.
+Este artigo fornece uma visão geral do **espaço de trabalho Lista de verificação de validação** e da configuração associada.
 
 O espaço de trabalho da **Lista de verificação de validação de dados** permite acompanhar processos de validação de dados entre empresas, áreas e pessoas. A lista de verificação pode ser usada durante uma nova implementação, após uma atualização ou após uma migração. Dependendo de sua exibição do espaço de trabalho da **Lista de verificação de validação de dados**, você verá todas as tarefas e status de um projeto de validação de dados, ou apenas as tarefas atribuídas a você.
 

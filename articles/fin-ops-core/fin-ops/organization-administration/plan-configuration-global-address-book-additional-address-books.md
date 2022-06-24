@@ -1,6 +1,6 @@
 ---
-title: Plano para o catálogo de endereços global e outros catálogos de endereços
-description: Este tópico descreve as considerações e as decisões que você deve tomar durante o processo de planejamento.
+title: Plano do catálogo de endereços global e outros catálogos de endereços
+description: Este artigo descreve as considerações e as decisões que você deve tomar durante o processo de planejamento.
 author: msftbrking
 ms.date: 01/13/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 288c96d8c877f5e3b3101080294b2f6cdeb39882
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863149"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Plano do catálogo de endereços global e outros catálogos de endereços
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as considerações e as alterações que você deve fazer durante o processo de planejamento, antes de definir e configurar o catálogo de endereços global e todos os catálogos de endereços adicionais. Algumas das alterações exigem que você confirme as alterações que foram feitas para outras áreas do produto, como a hierarquia organizacional.
+Este artigo descreve as considerações e as decisões que deve tomar durante o processo de planejamento, antes de definir e configurar o catálogo de endereços global e todos os catálogos de endereços adicionais. Algumas das alterações exigem que você confirme as alterações que foram feitas para outras áreas do produto, como a hierarquia organizacional.
 
 ## <a name="global-address-book"></a>Catálogo de endereços global
 

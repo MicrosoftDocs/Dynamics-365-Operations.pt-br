@@ -1,6 +1,6 @@
 ---
 title: Criar um plano de benefícios
-description: Este tópico mostra como configurar planos de benefícios no Dynamics 365 Human Resources.
+description: Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 90d4399cce227cfec09a12e02f2e56618a656473
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7815657c4bf3f79d1a04333027cc51b496fe1820
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909807"
 ---
 # <a name="create-a-benefit-plan"></a>Criar um plano de benefícios
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694554"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico mostra como configurar planos de benefícios no Dynamics 365 Human Resources.
+Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human Resources.
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 

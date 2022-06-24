@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: fa7a519b87bd5933b8b672f9f9b3e230fd7f2eb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896395"
 ---
 # <a name="one-voucher"></a>Um comprovante
 
@@ -37,7 +37,7 @@ A funcionalidade existente para diários financeiros (diário geral, diário de 
     [![Linha única.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
-    > A definição de Um comprovante **não** cobre casos onde nomes de diários são definidos como **Apenas um número de comprovante**, mas o usuário insere um comprovante que inclui apenas tipos de contas contábeis. Neste tópico, 'Um comprovante' significa que há um comprovante que contém mais de um fornecedor, cliente, banco, ativo fixo ou projeto.
+    > A definição de Um comprovante **não** cobre casos onde nomes de diários são definidos como **Apenas um número de comprovante**, mas o usuário insere um comprovante que inclui apenas tipos de contas contábeis. Neste artigo, 'Um comprovante' significa que há um comprovante que contém mais de um fornecedor, cliente, banco, ativo fixo ou projeto.
 
 - Entre em um comprovante combinado onde não haja contrapartida.
 
@@ -63,16 +63,16 @@ Em seguida, você gera o relatório **Despesas por fornecedor** no espaço de tr
 
 Por causa dos problemas que podem ocorrer quando Um comprovante único é usado, essa funcionalidade no final será preterida. Porém, como há lacunas funcionais que dependem dessa funcionalidade, a substituição não ocorrerá toda de uma vez. Em vez disso, usaremos a seguinte agenda:
 
-- **Versão da primavera de 2018** – a funcionalidade foi desativada por padrão por meio do parâmetro **Permitir várias transações em um comprovante** na guia **Geral** da página **Parâmetros da contabilidade**. Porém, você poderá reativá-la se sua organização tiver um cenário que esteja em uma das lacunas funcionais de negócios listadas posteriormente neste tópico.
+- **Versão da primavera de 2018** – a funcionalidade foi desativada por padrão por meio do parâmetro **Permitir várias transações em um comprovante** na guia **Geral** da página **Parâmetros da contabilidade**. Porém, você poderá reativá-la se sua organização tiver um cenário que esteja em uma das lacunas funcionais de negócios listadas posteriormente neste artigo.
 
-    - Se o cenário comercial não exigir um comprovante, recomendamos que você deixe a funcionalidade desativada. Se você usá-lo apesar de existir outra solução, a Microsoft não corrigirá "bugs" nas áreas identificadas mais adiante neste tópico.
+    - Se o cenário comercial não exigir um comprovante, recomendamos que você deixe a funcionalidade desativada. Se você usá-lo apesar de existir outra solução, a Microsoft não corrigirá "bugs" nas áreas identificadas mais adiante neste artigo.
     - É recomendável que você pare de usar um comprovante para integrações, a menos que você precise da funcionalidade para uma das lacunas funcionais documentadas.
 
 - **Versões posteriores** – vários requisitos comerciais podem ser atendidos somente usando um comprovante. A Microsoft deve garantir que todos os requisitos comerciais identificados ainda possam ser atendidos no sistema depois que a funcionalidade for preterida. Portanto, novos recursos provavelmente precisarão ser adicionados para preencher as lacunas funcionais. A Microsoft não pode fornecer uma solução específica, pois cada lacuna de recursos é diferente e deve ser avaliada com base nos requisitos comerciais. Algumas lacunas funcionais provavelmente serão substituídas por recursos que ajudam a atender a necessidades comerciais específicas. No entanto, outras lacunas podem ser preenchidas continuando a permitir a entrada em um diário, como quando um comprovante é usado, mas aperfeiçoando o sistema para rastrear mais detalhes, conforme necessário.
 
 Depois que todas as lacunas funcionais forem preenchidas, a Microsoft comunicará que o recurso será preterido. No entanto, a substituição não será efetiva pelo menos um ano após a comunicação. Embora a Microsoft não possa fornecer uma estimativa sobre quando a funcionalidade de um comprovante será preterida, ela provavelmente terá, pelo menos, dois anos antes que a substituição ocorra. A política da Microsoft é deixar pelo menos 12 meses entre o anúncio da funcionalidade preterida e a substituição real, de forma que os clientes e os ISVs (fornecedores independentes de software) tenham tempo de reagir à alteração. Por exemplo, uma organização pode precisar atualizar processos comerciais, entidades e integrações.
 
-A substituição de um comprovante é uma alteração significativa que será amplamente comunicada. Como parte dessa comunicação, a Microsoft atualizará este tópico, lançará uma postagem de blog no blog do Microsoft Dynamics 365 Finance, atualizará o tópico "Recursos removidos ou obsoletos", comunicará a alteração nas conferências apropriadas da Microsoft e assim por diante.
+A substituição de um comprovante é uma alteração significativa que será amplamente comunicada. Como parte dessa comunicação, a Microsoft atualizará este artigo, lançará uma postagem de blog no blog do Microsoft Dynamics 365 Finance, atualizará o artigo "Recursos removidos ou obsoletos", comunicará a alteração nas conferências apropriadas da Microsoft e assim por diante.
 
 ## <a name="why-use-one-voucher"></a>Por que usar Um comprovante único?
 

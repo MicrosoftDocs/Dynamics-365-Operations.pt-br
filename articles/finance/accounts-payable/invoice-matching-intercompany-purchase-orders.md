@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879730"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliação de faturas e ordens de compra intercompanhia
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109959"
 
 A entidade legal da compra envolvida em uma transação de comércio intercompanhia pode ser configurada para usar a conciliação de faturas de contas a pagar. Quando o campo **Lançar fatura com discrepâncias** na página **Parâmetros de contas a pagar** estiver definido como **Exigir aprovação**, a validação de conciliação de faturas será executada. Nesse caso, os requisitos de lançamento para o comércio intercompanhia e a conciliação de faturas de contas a pagar devem ser atendidos para que as faturas de fornecedor intercompanhia sejam lançadas.
 
-Os exemplos neste tópico usam a seguinte configuração de comércio intercompanhia:
+Os exemplos neste artigo usam a seguinte configuração de comércio intercompanhia:
 -   Fabrikam Compras é a entidade legal de compra.
 -   Fabrikam Vendas é a entidade legal de venda.
 -   O cliente 4020 existe na Fabrikam Vendas.

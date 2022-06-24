@@ -1,6 +1,6 @@
 ---
 title: Configurar códigos de imposto
-description: Este tópico explica como configurar códigos de imposto no Serviço de Cálculo de Imposto.
+description: Este artigo explica como configurar códigos de imposto no Serviço de Cálculo de Imposto.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 8bdb194e7d8b704d1e58d3c25bf2e1f6bff1ba00
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 1bc250716763ce9d8e25c8850c8a3676bf65fb0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862918"
 ---
 # <a name="set-up-tax-codes"></a>Configurar códigos de imposto
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar códigos de imposto no serviço de Cálculo de Imposto. Ele inclui a configuração de um cenário simples para fazer com que o código de imposto funcione e informações sobre alguns recursos avançados do código de imposto para cenários complexos.
+Este artigo explica como configurar códigos de imposto no serviço de Cálculo de Imposto. Ele inclui a configuração de um cenário simples para fazer com que o código de imposto funcione e informações sobre alguns recursos avançados do código de imposto para cenários complexos.
 
 > [!IMPORTANT]
 > A configuração dos códigos de imposto no Serviço de Cálculo de Imposto é agnóstica à entidade legal. Você pode concluir essa configuração no RCS (Regulatory Configuration Service) somente uma vez. Os códigos de imposto são sincronizados automaticamente com o Microsoft Dynamics 365 Finance quando você habilita o serviço de Cálculo de Imposto para uma entidade legal selecionada no Finance.

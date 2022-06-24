@@ -1,6 +1,6 @@
 ---
 title: Visão geral dos livros fiscais do Brasil
-description: Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED.
+description: Este artigo fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED.
 author: sndray
 ms.date: 07/25/2019
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: caac898030f7016eae64fae432ca044d4177b089
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3a0b433ac6607975d05182bb6feeef34eed06bd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893955"
 ---
 # <a name="brazil-fiscal-books-overview"></a>Visão geral dos livros fiscais do Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED. 
+Este artigo fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED. 
 
 O SPED (Public Digital Bookkeeping System) ou Sistema Público de Escrituração Digital fornece informações detalhadas sobre os documentos fiscais que estão relacionados a serviços e mercadorias, cálculos de lucros, operações logísticas e transações financeiras. O SPED é dividido em três projetos: documentos eletrônicos, livros fiscais e livros contábeis. Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED. Aqui estão os livros fiscais:
 

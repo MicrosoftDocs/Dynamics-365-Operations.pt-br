@@ -1,6 +1,6 @@
 ---
-title: NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
-description: Este tópico fornece informações sobre as vantagens e isenções de imposto ICMS em notas fiscais para o Brasil.
+title: NT2019.001 — regras de benefícios e isenções fiscais para NF-e/NFC-e
+description: Este artigo fornece informações sobre as vantagens e isenções de imposto ICMS em documentos fiscais para o Brasil.
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 309ad74a5fa00ca94d4edab54eb98338044eb6b3fc61d8a86dae5a5dea720351
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d57183b6b68810ecfe4675e2f9a2e79e4825a51
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877921"
 ---
 # <a name="nt2019001---tax-benefits-and-exemptions-rules-for-nf-enfc-e"></a>NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
 
@@ -35,7 +35,7 @@ Para obter mais informações sobre as regras e exceções de compatibilidade, c
 Nota técnica NT 2019.001 também inclui informações detalhadas sobre a adoção das regras por cada estado.
 
 > [!NOTE]
-> O conceito, a configuração e o uso de benefícios e isenções de imposto no contexto da localização brasileira não estão no escopo deste tópico. Para obter mais informações, consulte a [visão geral de impostos do Brasil](latam-bra-calculate-taxes.md).
+> O conceito, a configuração e o uso de benefícios e isenções de imposto no contexto da localização brasileira não estão no escopo deste artigo. Para obter mais informações, consulte a [visão geral de impostos do Brasil](latam-bra-calculate-taxes.md).
 
 ## <a name="feature-overview"></a>Visão geral do recurso
 

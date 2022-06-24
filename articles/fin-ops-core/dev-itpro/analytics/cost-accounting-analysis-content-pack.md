@@ -1,6 +1,6 @@
 ---
 title: Conteúdo de análise de contabilização de custos do Power BI
-description: Este tópico descreve o que está incluído no conteúdo de análise de contabilização de custos do Power BI.
+description: Este artigo descreve o que está incluído no conteúdo de análise de contabilização de custos do Power BI.
 author: AndersGirke
 ms.date: 10/02/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5e595c910e237481b8124cb2a0333697344b9ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876882"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo de análise de contabilização de custos do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo de **Análise de contabilização de custos** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
+Este artigo descreve o que está incluído no conteúdo de **Análise de contabilização de custos** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O conteúdo de **Análise de contabilização de custos** do Power BI destina-se a controladores de custos ou a qualquer pessoa responsável por realizar o controle de custos de uma organização. Ele inclui as principais métricas, como custo, magnitude e taxa de custo por custo real, custo de orçamento e custo de orçamento flexível. Ele usa dados de transação do módulo **Contabilização de custos** e fornece uma visão agregada dos custos de toda a organização em uma moeda de relatório. Os gerentes podem filtrar os dados por objetos de custo para realizar o controle de custos de suas unidades organizacionais, mesmo que a organização possa ter várias entidades legais.
 

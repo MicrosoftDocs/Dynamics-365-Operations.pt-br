@@ -1,6 +1,6 @@
 ---
-title: Armazenamento em backup de modelos de ER
-description: Este tópico explica como usar o armazenamento de backup de relatórios eletrônicos (ER) para a recuperação de modelos.
+title: Armazenamento em backup de modelos ER
+description: Este artigo explica como usar o armazenamento de backup de relatórios eletrônicos (ER) para a recuperação de modelos.
 author: NickSelin
 ms.date: 04/29/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880383"
 ---
 # <a name="backup-storage-of-er-templates"></a>Armazenamento em backup de modelos de ER
 

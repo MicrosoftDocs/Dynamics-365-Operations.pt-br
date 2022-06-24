@@ -1,6 +1,6 @@
 ---
 title: Eventos SPED-Reinf
-description: Este tópico explica como configurar eventos SPED-Reinf usando Livros fiscais e a estrutura de registro de relatórios SII.
+description: Este artigo explica como configurar eventos SPED-Reinf usando Livros fiscais e a estrutura de registro de relatórios SII.
 author: sndray
 ms.date: 05/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 475e872a95e544c477063e1850bed2523fc3e2b5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c10c3c5e35cb6a9d40f8ee3494523607109dd73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906223"
 ---
 # <a name="sped-reinf-events"></a>Eventos SPED-Reinf
 
@@ -264,7 +264,7 @@ O evento envia quatro tipos de valores para o banco de dados do governo:
 - **Retenção suspensa** – O valor do tipo de imposto INSS Retido suspenso.
 - **Retenção adicional suspensa** – O valor suspenso da variação do tipo de imposto INSS que está vinculado à linha da nota fiscal.
 
-Quando uma suspensão de valores ocorrer, o processo administrativo ou de ações legais associado deve ser especificado no evento para corroborar ou explicar os motivos da suspensão. Insira essa informação manualmente nos campos **Valor de retenção** e **Valor adicional de retenção** na página **Processo administrativo e judicial** que foi descrita neste tópico.
+Quando uma suspensão de valores ocorrer, o processo administrativo ou de ações legais associado deve ser especificado no evento para corroborar ou explicar os motivos da suspensão. Insira essa informação manualmente nos campos **Valor da retenção** e **Valor adicional de retenção** na página **Processo administrativo e judicial** que foi descrita neste artigo.
 
 O evento R-2010 usa o conceito de fechamento. Depois que esse evento for fechado, o serviço Web recusará quaisquer novas entradas ou modificações nele, a menos que seja reaberto manualmente.
 

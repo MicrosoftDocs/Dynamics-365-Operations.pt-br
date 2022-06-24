@@ -1,6 +1,6 @@
 ---
 title: Tutorial Configurar e instalar a Regression Suite Automation Tool
-description: Este tópico é um tutorial que mostra como configurar e instalar a Regression Suite Automation Tool (RSAT).
+description: Este artigo é um tutorial que mostra como configurar e instalar a Regression Suite Automation Tool (RSAT).
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858580"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Tutorial Configurar e instalar a Regression Suite Automation Tool
 
-Este tópico é um tutorial que o ajuda a configurar e iniciar a RSAT e as ferramentas associadas usando a RSAT.
+Este artigo é um tutorial que o ajuda a configurar e iniciar a RSAT e as ferramentas associadas usando a RSAT.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -111,7 +111,7 @@ Neste tutorial você usará o Modelador de Processo de Negócios (BPM) do LCS pa
 
 ## <a name="configure-the-lcs-project"></a>Configurar o projeto LCS
 
-É necessário um projeto do Lifecycle Services (LCS) para sua biblioteca de teste mestre. O Modelador de processo de negócios (BPM) de LCS é usado como a biblioteca mestre para seus casos de teste. O BPM é usado para gerenciar e distribuir bibliotecas de teste em projetos de LCS. Por exemplo, um parceiro Microsoft ou fornecedor de software independente (ISV) que cria bibliotecas de testes irá liberar casos de testes na forma de bibliotecas BPM. No BPM, os casos de teste são organizados por processo comercial. O BPM não define a ordem de execução ou frequência de aprovação de seu teste. Esses detalhes são gerenciados no Azure DevOps, conforme descrito posteriormente neste tópico.  
+É necessário um projeto do Lifecycle Services (LCS) para sua biblioteca de teste mestre. O Modelador de processo de negócios (BPM) de LCS é usado como a biblioteca mestre para seus casos de teste. O BPM é usado para gerenciar e distribuir bibliotecas de teste em projetos de LCS. Por exemplo, um parceiro Microsoft ou fornecedor de software independente (ISV) que cria bibliotecas de testes irá liberar casos de testes na forma de bibliotecas BPM. No BPM, os casos de teste são organizados por processo comercial. O BPM não define a ordem de execução ou frequência de aprovação de seu teste. Esses detalhes são gerenciados no Azure DevOps, conforme descrito posteriormente neste artigo.  
 
 Para o projeto de LCS, você pode usar uma implementação do cliente existente ou um projeto do parceiro.
 

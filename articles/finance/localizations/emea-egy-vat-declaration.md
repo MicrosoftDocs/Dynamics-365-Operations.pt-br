@@ -1,6 +1,6 @@
 ---
 title: Declaração de IVA para o Egito
-description: Este tópico explica como configurar e gerar o formulário de devolução de IVA para o Egito.
+description: Este artigo explica como configurar e gerar o formulário de devolução de IVA para o Egito.
 author: sndray
 ms.date: 06/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870025"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Declaração de IVA para o Egito (EG-00002)
 
@@ -26,7 +26,7 @@ ms.locfileid: "7403939"
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico explica como configurar e gerar o formulário de devolução de IVA e os livros de vendas e de compras para entidades legais no Egito.
+Este artigo explica como configurar e gerar o formulário de devolução de IVA e os livros de vendas e de compras para entidades legais no Egito.
 
 O formulário de devolução de IVA para Egito é o documento oficial que resume o valor total de imposto IVA de saída devido, o valor de imposto IVA de entrada total recuperável e a obrigação do valor de imposto IVA relacionado. O formulário é usado para todos os tipos de contribuintes e deve ser preenchido manualmente por meio do portal da autoridade de imposto. O formulário de devolução de IVA normalmente é mencionado como o perfil de devolução de IVA.
 

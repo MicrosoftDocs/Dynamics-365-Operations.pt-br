@@ -1,6 +1,6 @@
 ---
-title: Exibir entradas de diário e transações
-description: Este tópico explica as várias formas com as quais você pode exibir entradas de diário e transações.
+title: Visualizar entradas e transações de transações
+description: Este artigo explica as várias formas com as quais você pode exibir entradas de diário e transações.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4e33b1516e780c55f753b32ac5ddd50b6f9560c
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8549df3fcf65769768e3f7dd41c4d7275a1911b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907853"
 ---
-# <a name="view-journal-entries-and-transactions"></a>Exibir entradas de diário e transações
+# <a name="view-journal-entries-and-transactions"></a>Visualizar entradas e transações de transações
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica as várias formas com as quais você pode exibir entradas de diário e transações. 
+Este artigo explica as várias formas com as quais você pode exibir entradas de diário e transações. 
 
 Os usuários que desejam exibir diários e transações têm várias formas de acessar os dados. Podem aproveitar as vantagens das páginas de consulta que oferecem a busca detalhada, ou podem usar várias opções do relatório na razão.
 

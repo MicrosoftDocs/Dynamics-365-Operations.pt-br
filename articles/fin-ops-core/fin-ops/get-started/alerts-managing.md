@@ -1,6 +1,6 @@
 ---
-title: Processamento de lotes de alertas
-description: Este tópico fornece informações sobre o processamento em lotes de alertas.
+title: Processamento em lotes de alertas
+description: Este artigo fornece informações sobre o processamento em lotes de alertas.
 author: RichdiMSFT
 ms.date: 08/24/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 0ec2a9bd925ccd7dc7c6a8251629bf565ece2268
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: ba17ebe1bdd95b8780b99b8f82b566bf527aca89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860058"
 ---
 # <a name="batch-processing-of-alerts"></a>Processamento em lotes de alertas
 

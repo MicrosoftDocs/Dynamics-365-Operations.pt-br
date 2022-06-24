@@ -1,6 +1,6 @@
 ---
 title: NT 2020.006 – plataforma digital de vendas intermediárias para NF-e
-description: Este tópico explica como marcar vendas digitais intermediárias para NF-e.
+description: Este artigo explica como marcar vendas digitais intermediárias para NF-e.
 author: gionoder
 ms.date: 07/27/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 5602ad3450bf17639922b664d16e27602f3b35411612ded14e37ab7aadaba8f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c3f51379591927fec5b2793625ccf7e151a70713
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861248"
 ---
 # <a name="nt2020006--intermediary-sales-digital-platform-for-nf-e"></a>NT 2020.006 – plataforma digital de vendas intermediárias para NF-e
 
@@ -27,7 +27,7 @@ Uma venda pode ocorrer mesmo quando o cliente não está fisicamente presente. E
 
 Esse recurso oferece suporte a cenários em que uma plataforma ou um mercado digital são de propriedade ou licenciados pelo emissor da nota fiscal.
 
-## <a name="enable-the-technical-note-in-dynamics-365-finance-and-dynamics-365-supply-chain-management"></a>Habilite a nota técnica no Dynamics 365 Finance e no Dynamics 365 Supply Chain Management
+## <a name="enable-the-technical-note-in-dynamics-365-finance-and-dynamics-365-supply-chain-management"></a>Habilitar a nota técnica no Dynamics 365 Finance e Dynamics 365 Supply Chain Management
 
 1. Entre na sua instância do Microsoft Dynamics 365 Finance ou do Dynamics 365 Supply Chain Management.
 2. Acesse **Administração da organização** \> **Organizações** \> **Estabelecimentos fiscais** \> **Estabelecimentos fiscais**.

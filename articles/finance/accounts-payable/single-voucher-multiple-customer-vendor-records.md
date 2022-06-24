@@ -1,6 +1,6 @@
 ---
-title: Comprovante único com vários registros de cliente ou de fornecedor
-description: Este tópico fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras do Microsoft Dynamics 365 Finance, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação.
+title: Comprovante único com vários registros de clientes ou de fornecedores
+description: Este artigo fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras do Microsoft Dynamics 365 Finance, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889081"
 ---
-# <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Comprovante único com vários registros de cliente ou de fornecedor
+# <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Comprovante único com vários registros de clientes ou de fornecedores
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação. 
+Este artigo fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação. 
 
 Alguns exemplos comuns em que um comprovante é usado para vários clientes ou fornecedores incluem a transferência de saldo entre clientes e a remuneração de saldos entre clientes e fornecedores na mesma organização. 
 
@@ -35,7 +35,7 @@ Um comprovante que contenha mais de um cliente ou fornecedor pode ser inserido u
 -   Usar um comprovante de várias linhas, em que não haja nenhuma conta contábil de compensação, com mais de um cliente ou fornecedor.
 -   Inserir um comprovante com a conta e a contrapartida como sendo fornecedor/fornecedor, cliente/cliente, fornecedor/cliente, ou cliente/fornecedor.
 
-Este tópico mostra como a liquidação será processada quando um comprovante com vários registros de cliente ou de fornecedor é lançado. Adicionalmente, este tópico fornece soluções alternativas para ajudar você a entender como evitar usar um comprovante com vários clientes ou fornecedores. Particularmente, há exemplos que ilustram dois cenários comuns de liquidação que são afetados pelo uso de um comprovante com vários clientes ou fornecedores:
+Este artigo mostra como a liquidação será processada quando um comprovante com vários registros de cliente ou de fornecedor é lançado. Além disso, este artigo fornece soluções alternativas para ajudar você a entender como evitar usar um comprovante com vários clientes ou fornecedores. Particularmente, há exemplos que ilustram dois cenários comuns de liquidação que são afetados pelo uso de um comprovante com vários clientes ou fornecedores:
 
 -   A contabilização de descontos à vista
 -   A contabilização de reavaliações

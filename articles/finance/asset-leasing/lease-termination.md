@@ -1,6 +1,6 @@
 ---
 title: Proposta de rescisão do arrendamento
-description: Este tópico explica como propor a rescisão de um arrendamento.
+description: Este artigo explica como propor a rescisão de um arrendamento.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879643"
 ---
 # <a name="propose-a-lease-for-termination"></a>Propor a rescisão de um arrendamento
 
 [!include [banner](../includes/banner.md)]
 
-Se um arrendamento for encerrado antecipadamente, o arrendamento de ativos poderá registrar uma entrada de diário de finalização para dar baixa na responsabilidade com arrendamento, do ativo de direito de uso (DDU) e da depreciação acumulada, bem como registrar um ganho ou perda. O processo de rescisão antecipada encerra um arrendamento e os registros de arrendamento associados. Ele não encerra os registros de arrendamento individuais. Este tópico descreve a funcionalidade que permite propor a rescisão de um arrendamento e processar a entrada do diário de rescisão de arrendamento.
+Se um arrendamento for encerrado antecipadamente, o arrendamento de ativos poderá registrar uma entrada de diário de finalização para dar baixa na responsabilidade com arrendamento, do ativo de direito de uso (DDU) e da depreciação acumulada, bem como registrar um ganho ou perda. O processo de rescisão antecipada encerra um arrendamento e os registros de arrendamento associados. Ele não encerra os registros de arrendamento individuais. Este artigo descreve a funcionalidade que permite propor a rescisão de um arrendamento e processar a entrada do diário de rescisão de arrendamento.
 
 Se um arrendamento não for classificado como arrendamento de tratamento de arrendamento diferido e não for associado a um ativo fixo, a concessão de ativo produzirá a seguinte entrada de diário de rescisão.
 
@@ -121,7 +121,7 @@ As tabelas a seguir mostram os valores definidos nas guias **Geral** e **Linhas 
 
 ### <a name="steps-for-terminating-the-lease"></a>Etapas para rescindir o arrendamento
 
-1. Depois de criar o arrendamento conforme descrito anteriormente neste tópico, Acesse o registro de arrendamento e confirme a agenda de pagamento. Em seguida, lance a entrada do diário de reconhecimento inicial. O ativo DDU inicial é de US$ 71.235,81 e a responsabilidade com arrendamento deve ser de US$ 70.235,81. Para este exemplo, o arrendamento foi classificado como um arrendamento operacional sob o ASC 842 (Tópico 842 da Codificação de Padrões Contábeis).
+1. Depois de criar o arrendamento conforme descrito anteriormente neste artigo, acesse o registro de arrendamento e confirme a agenda de pagamento. Em seguida, lance a entrada do diário de reconhecimento inicial. O ativo DDU inicial é de US$ 71.235,81 e a responsabilidade com arrendamento deve ser de US$ 70.235,81. Para este exemplo, o arrendamento foi classificado como um arrendamento operacional sob o ASC 842 (Tópico 842 da Codificação de Padrões Contábeis).
 2. Execute o processo de diário de lotes três vezes para simular a passagem de três anos para pagamentos de arrendamento, despesas de juros e despesas de depreciação.
 3. Ao concluir a execução de todos os três trabalhos em lote, volte para o registro de arrendamento e abra as tabelas de transações Responsabilidade e Ativo para exibir o valor atual de carregamento do ativo DDU e a responsabilidade com arrendamento. Depois de três anos, o valor da obrigação deve ser de aproximadamente US$ -53.893,00 e o valor do ativo deve ser de aproximadamente US$ 54.593,00.
 

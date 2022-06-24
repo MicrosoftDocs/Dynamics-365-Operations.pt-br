@@ -1,6 +1,6 @@
 ---
 title: Nota fiscal eletrônica para serviços do Brasil
-description: Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço.
+description: Este artigo oferece uma visão geral da nota fiscal eletrônica de serviço.
 author: sndray
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3143f7fb1d53b7d0d8d8a1aa7a032a04fa53ca58fa29e81201a722c04f34d923
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b64ccfb494f8d0560134af4b78517fd53dc7472
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868279"
 ---
 # <a name="service-electronic-fiscal-document-for-brazil"></a>Nota fiscal eletrônica para serviços do Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço.
+Este artigo oferece uma visão geral da nota fiscal eletrônica de serviço.
 
 Quando uma nota fiscal for sobre serviços no Brasil, regras diferentes serão aplicadas a uma nota fiscal eletrônica comum. O modelo de uma nota fiscal de serviços no Brasil é SE e inclui os impostos ISS, PIS e COFINS. 
 

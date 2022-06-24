@@ -1,6 +1,6 @@
 ---
 title: Criar um ativo fixo
-description: Este tópico explica como criar um novo registro de ativo fixo na página de listagem Ativo fixo.
+description: Este artigo explica como criar um novo registro de ativo fixo na página de listagem Ativo fixo.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714275"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868479"
 ---
 # <a name="create-a-fixed-asset"></a>Criar um ativo fixo
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como criar um novo registro de ativo fixo na página de listagem **Ativo fixo**.
+Este artigo explica como criar um novo registro de ativo fixo na página de listagem **Ativo fixo**.
 
 O sistema atribui o número do ativo, com base na sequência numérica atribuída ao grupo de ativos fixos. Se você usar o modelo de ativo fixo para importar ativos por meio do suplemento do Microsoft Excel ou se usar outro trabalho de importação, o sistema criará automaticamente registros de ativo fixo e incrementará o número do ativo.
 

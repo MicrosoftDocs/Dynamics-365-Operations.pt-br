@@ -1,6 +1,6 @@
 ---
 title: Lançamento de ordem de compra
-description: Este tópico descreve a guia Ordem de compra da página Perfis de lançamento de estoque.
+description: Este artigo descreve a guia Ordem de compra da página Perfis de lançamento de estoque.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 4b36ab9da22da7d4f3e62bd2d2aba2a2ec80e60f
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8802977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849921"
 ---
 # <a name="purchase-order-posting"></a>Lançamento de ordem de compra
 
@@ -125,7 +125,7 @@ As requisições de compra e as confirmações de pedidos de compra também pode
 
 ## <a name="procurement-category-posting"></a>Lançamento de categoria de compras
 
-Como uma alternativa à configuração do lançamento de estoque para todos os itens, um grupo de itens ou um único item, você pode configurar categorias e controlar o lançamento contábil por categorias de compras. Para obter mais informações sobre como configurar categorias e atribuí-las a produtos, acesse [Exemplo de configuração de perfil de lançamento](#sample-posting-profile-configuration) anteriormente neste tópico.
+Como uma alternativa à configuração do lançamento de estoque para todos os itens, um grupo de itens ou um único item, você pode configurar categorias e controlar o lançamento contábil por categorias de compras. Para obter mais informações sobre como configurar categorias e atribuí-las a produtos, acesse [Exemplo de configuração de perfil de lançamento](#sample-posting-profile-configuration) anteriormente neste artigo.
 
 Ao usar categorias com pedidos de compra ou faturas de fornecedores, a hierarquia de categorias precisa ser atribuída ao tipo **Hierarquia de categorias de compras** na página **Atribuições de função de hierarquia de categoria**.
 

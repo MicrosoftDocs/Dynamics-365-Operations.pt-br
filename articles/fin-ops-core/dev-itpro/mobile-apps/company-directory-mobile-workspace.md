@@ -1,6 +1,6 @@
 ---
 title: Espaço de trabalho móvel do diretório da empresa
-description: Este tópico fornece informações sobre o espaço de trabalho móvel do diretório da empresa, que permite exibir e contatar outros funcionários em sua organização.
+description: Este artigo fornece informações sobre o espaço de trabalho móvel do diretório da empresa, que permite exibir e contatar outros funcionários em sua organização.
 author: jcart1106
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b754e46f194f60cc70d02367d4cca2a382821191
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 8e8e6adc2c72b6e3ab567723ac01055ea8d7292e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868717"
 ---
 # <a name="company-directory-mobile-workspace"></a>Espaço de trabalho móvel do diretório da empresa
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Este tópico fornece informações sobre a área de trabalho móvel **diretório da empresa**. Este espaço de trabalho permite que os usuários exibam e entrem em contato com outros funcionários em sua organização.
+Este artigo fornece informações sobre a área de trabalho móvel **diretório da empresa**. Este espaço de trabalho permite que os usuários exibam e entrem em contato com outros funcionários em sua organização.
 
 Este espaço de trabalho móvel pode ser usado com o aplicativo móvel Finance and Operations.
 

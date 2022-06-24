@@ -1,6 +1,6 @@
 ---
 title: Configurar e gerar arquivos de pagamento positivos usando Relatório eletrônico
-description: Este tópico explica como configurar o pagamento positivo usando o Relatório eletrônico.
+description: Este artigo explica como configurar o pagamento positivo usando o Relatório eletrônico.
 author: panolte
 ms.date: 03/20/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc2f17d62b429b599d5ac5f2a521819275d36b64
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 491048c7274ba6bb52e0a4b7a6ea5cd0f5ff4741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878208"
 ---
 # <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Configurar arquivos de pagamento positivos usando o Relatório eletrônico
 
-Este tópico explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo usando relatórios eletrônicos.
+Este artigo explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo usando relatórios eletrônicos.
 
 > [!NOTE] 
 > Antes de usar a função **Gerar arquivo de pagamento positivo do banco**, primeiro você precisará atualizar a lista de entidades.

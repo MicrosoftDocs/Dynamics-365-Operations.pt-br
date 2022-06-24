@@ -1,6 +1,6 @@
 ---
 title: Avaliar o modelo de previsão de pagamento inicial do cliente
-description: Este tópico descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
+description: Este artigo descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
 author: ShivamPandey-msft
 ms.date: 05/02/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: fcdf276505cf58267a38e9d6174a155ad307653b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846992"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Avaliar o modelo de previsão de pagamento inicial do cliente
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como avaliar um modelo de previsão depois de ter ativado o Finance Insights e gerado e treinado seu primeiro modelo. Este tópico aborda modelos para prever pagamentos de cliente. Ele descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
+Este artigo explica como avaliar um modelo de previsão depois de ter ativado o Finance Insights e gerado e treinado seu primeiro modelo. Este artigo aborda modelos para prever pagamentos de cliente. Ele descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
 
 ## <a name="getting-details-about-the-model"></a>Obter detalhes sobre o modelo
 

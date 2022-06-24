@@ -1,6 +1,6 @@
 ---
 title: ​Direitos de acesso de controladores de objeto de custo
-description: Este tópico fornece informações sobre direitos de acesso para controladores do objeto de custo.
+description: Este artigo fornece informações sobre direitos de acesso para controladores do objeto de custo.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903179"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>​Direitos de acesso de controladores de objeto de custo
 
@@ -38,7 +38,7 @@ Existem quatro funções exclusivas na contabilização de custos.
 | Contador de custos   | Operations   |
 | Controlador do objeto de custo  | Membros da equipe |
 
-Este tópico explica como atribuir a função **Controlador do objeto de custo** a um gerente.
+Este artigo explica como atribuir a função **Controlador do objeto de custo** a um gerente.
 
 Quando a função **Controlador do objeto de custo** for designada a um gerente, ele poderá executar as seguintes tarefas:
 
@@ -95,7 +95,7 @@ As configurações da hierarquia da lista de acesso são usadas para controlar o
 
 > [!IMPORTANT]
 > - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança em nível de linha no Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - Esta seção mostra os pré-requisitos que devem estar em vigor para usar o espaço de trabalho **Controle de custos**.
+> - Este artigo mostra os pré-requisitos que devem estar em vigor para usar o espaço de trabalho **Controle de custos**.
 
 Recursos adicionais
 

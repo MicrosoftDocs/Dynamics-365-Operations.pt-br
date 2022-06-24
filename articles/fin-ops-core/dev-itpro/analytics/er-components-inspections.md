@@ -1,6 +1,6 @@
 ---
 title: Inspecionar o componente de ER configurado para evitar problemas de runtime
-description: Este tópico explica como inspecionar os componentes de Relatório Eletrônico (ER) configurados para evitar problemas de runtime.
+description: Este artigo explica como inspecionar os componentes de Relatório Eletrônico (ER) configurados para evitar problemas de runtime.
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864826"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
@@ -30,7 +30,7 @@ Cada componente de [mapeamento de modelo](er-overview-components.md#model-mappin
 
 Por padrão, a validação é aplicada automaticamente nos seguintes casos para uma configuração de ER que contém os componentes de ER mencionados acima:
 
-- Ao [importar](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) uma nova [versão](general-electronic-reporting.md#component-versioning) de uma configuração de ER para sua instância do Microsoft Dynamics 365 Finance.
+- Ao [importar](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) uma nova [versão](general-electronic-reporting.md#component-versioning) de uma configuração de ER para a instância do Microsoft Dynamics 365 Finance.
 - Ao alterar o [status](general-electronic-reporting.md#component-versioning) da configuração de ER editável de **Rascunho** para **Concluída**.
 - Ao [trocar a base](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) de uma configuração de ER editável aplicando uma nova versão base.
 
@@ -80,7 +80,7 @@ O ER usa as seguintes categorias para agrupar inspeções de verificação de co
 
 ## <a name="list-of-inspections"></a>Lista de inspeções
 
-A tabela a seguir fornece uma visão geral das inspeções fornecidas pelo ER. Para obter mais informações sobre essas inspeções, use os links na primeira coluna para acessar as seções relevantes deste tópico. Essas seções explicam os tipos de componentes para os quais o ER fornece inspeções e como você pode reconfigurar componentes de ER para ajudar a evitar problemas.
+A tabela a seguir fornece uma visão geral das inspeções fornecidas pelo ER. Para obter mais informações sobre essas inspeções, use os links na primeira coluna para acessar as seções relevantes deste artigo. Essas seções explicam os tipos de componentes para os quais o ER fornece inspeções e como você pode reconfigurar componentes de ER para ajudar a evitar problemas.
 
 <table>
 <thead>

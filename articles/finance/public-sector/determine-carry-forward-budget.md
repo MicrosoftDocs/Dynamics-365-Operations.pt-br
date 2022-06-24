@@ -1,6 +1,6 @@
 ---
 title: Atualizar o orçamento postergado após reduções em ordens de compra e faturas
-description: Este tópico descreve como controlar o que acontece com o orçamento postergado quando as ordens de compra são canceladas ou reduzidas, e quando as faturas são reduzidas.
+description: Este artigo descreve como controlar o que acontece com o orçamento postergado quando as ordens de compra são canceladas ou reduzidas, e quando as faturas são reduzidas.
 author: TaylorVH
 ms.date: 02/11/2022
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2022-02-01
-ms.openlocfilehash: 3b0f06b8d5a38252fc8ff6662f3d454adffffe60
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 7f0ef0ffdf697609e811f754b4378b1f7a81c494
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8802975"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897948"
 ---
 # <a name="update-the-carry-forward-budget-after-reductions-in-purchase-orders-and-invoices"></a>Atualizar o orçamento postergado após reduções em ordens de compra e faturas
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico descreve como controlar o que acontece com o orçamento postergado quando as ordens de compra são canceladas ou reduzidas, e quando as faturas são reduzidas.
+Este artigo descreve como controlar o que acontece com o orçamento postergado quando as ordens de compra são canceladas ou reduzidas, e quando as faturas são reduzidas.
 
 Para obter informações sobre o processamento do exercício de ordens de compra, consulte [Processamento do exercício de ordens de compra](/dynamicsax-2012/appuser-itpro/process-purchase-orders-at-year-end).
 

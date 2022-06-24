@@ -1,6 +1,6 @@
 ---
-title: Configurar políticas de fatura de fornecedor
-description: Este tópico explica como configurar políticas de fatura de fornecedor.
+title: Configurar políticas de fatura de fornecedores
+description: Este artigo explica como configurar políticas de fatura de fornecedor.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904720"
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Configurar políticas de fatura de fornecedor
+# <a name="set-up-vendor-invoice-policies"></a>Configurar políticas de fatura de fornecedores
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como configurar políticas de fatura de fornecedor. As políticas de fatura de fornecedor são executadas quando você lança uma fatura de fornecedor usando a página **Fatura do fornecedor** e quando você abre a página **Violações de política** da fatura de fornecedor. Você também pode configurar o fluxo de trabalho da fatura do fornecedor para executar as políticas de fatura do fornecedor todas as vezes que você enviar uma fatura para o fluxo de trabalho. 
+Este artigo explica como configurar políticas de fatura de fornecedor. As políticas de fatura de fornecedor são executadas quando você lança uma fatura de fornecedor usando a página **Fatura do fornecedor** e quando você abre a página **Violações de política** da fatura de fornecedor. Você também pode configurar o fluxo de trabalho da fatura do fornecedor para executar as políticas de fatura do fornecedor todas as vezes que você enviar uma fatura para o fluxo de trabalho. 
 
 - As políticas de fatura do fornecedor não se aplicam às faturas que foram criadas no registro de fatura ou no diário de faturas.  
 - A validação de conciliação de fatura não usa as políticas da fatura do fornecedor, mas é configurada na página **Parâmetros de contas a pagar**.  

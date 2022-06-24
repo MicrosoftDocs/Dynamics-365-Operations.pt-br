@@ -1,6 +1,6 @@
 ---
-title: Visão geral de liquidação
-description: Este tópico oferece informações gerais sobre o processo de liquidação. Descreve quais tipos de transação podem ser liquidados e o tempo e o processo para a liquidação. Também descreve os resultados do processo de liquidação.
+title: Visão geral da liquidação
+description: Este artigo oferece informações gerais sobre o processo de liquidação. Descreve quais tipos de transação podem ser liquidados e o tempo e o processo para a liquidação. Também descreve os resultados do processo de liquidação.
 author: panolte
 ms.date: 07/30/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e1992019570129461f3ecdd5479a87bafd8aeacb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a495a71a95032a0022cbab2783f356db48ee349d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887938"
 ---
 # <a name="settlement-overview"></a>Visão geral de liquidação
 
@@ -30,7 +30,7 @@ ms.locfileid: "8724887"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Este tópico oferece informações gerais sobre o processo de liquidação. Descreve quais tipos de transação podem ser liquidados e o tempo e o processo para a liquidação. Também descreve os resultados do processo de liquidação.
+Este artigo oferece informações gerais sobre o processo de liquidação. Descreve quais tipos de transação podem ser liquidados e o tempo e o processo para a liquidação. Também descreve os resultados do processo de liquidação.
 
 Durante a liquidação, as transações de um documento são aplicadas a transações em outro documento para aumentar ou diminuir o saldo de cada documento. Por exemplo, um pagamento pode ser aplicado a uma fatura. Vários tipos de transações podem ser resolvidos, em momentos diferentes e através de métodos diferentes. O processo de liquidação também pode gerar novas transações.
 

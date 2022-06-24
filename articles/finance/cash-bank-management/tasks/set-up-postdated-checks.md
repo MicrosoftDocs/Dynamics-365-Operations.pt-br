@@ -1,6 +1,6 @@
 ---
 title: Configurar cheques pré-datados
-description: Este tópico explica como especificar se deseja lançar entradas de diário para cheques pré-datados e quais diários de lançamento a serem usados para limpar as entradas e os pagamentos de fornecedores.
+description: Este artigo explica como especificar se deseja lançar entradas de diário para cheques pré-datados e quais diários de lançamento a serem usados para limpar as entradas e os pagamentos de fornecedores.
 author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 645b474b8b4bd13cd47bef404cda002e6b29a1ba
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e045648230aba7965ed68fbc499f73e077caceed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870297"
 ---
 # <a name="set-up-postdated-checks"></a>Configurar cheques pré-datados
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como especificar se deseja lançar entradas de diário para cheques pré-datados e quais diários de lançamento a serem usados para limpar as entradas e os pagamentos de fornecedores. Também é possível especificar as contas de compensação para cheques emitidos, cheques recebidos, e a retenção de imposto. Cheques pré-datados que são emitidos com a finalidade de realizar e receber pagamentos em uma data futura. É possível especificar se o cheque deve ser refletido nos registros de contabilidade antes da data de vencimento.
+Este artigo explica como especificar se deseja lançar entradas de diário para cheques pré-datados e quais diários de lançamento a serem usados para limpar as entradas e os pagamentos de fornecedores. Também é possível especificar as contas de compensação para cheques emitidos, cheques recebidos, e a retenção de imposto. Cheques pré-datados que são emitidos com a finalidade de realizar e receber pagamentos em uma data futura. É possível especificar se o cheque deve ser refletido nos registros de contabilidade antes da data de vencimento.
 
 
 

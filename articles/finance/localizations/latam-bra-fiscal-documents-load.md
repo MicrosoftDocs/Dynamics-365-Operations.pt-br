@@ -1,6 +1,6 @@
 ---
 title: Gerar documentos fiscais para uma carga
-description: Este tópico explica como gerar gerar documentos fiscais para uma carga do Brasil.
+description: Este artigo explica como gerar documentos fiscais para uma carga do Brasil.
 author: ShylaThompson
 ms.date: 06/05/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 32294eee0b7aba01810ee0acbef0ff621506c4644955b48a7322eda2d980d6d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49344de9403d0187e0cf49939b2078408774affe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879463"
 ---
 # <a name="generate-fiscal-documents-for-a-load"></a>Gerar documentos fiscais para uma carga 
 
@@ -26,7 +26,7 @@ ms.locfileid: "6744921"
 Você pode criar uma carga que contém várias linhas de carga. Cada linha de carga é criada para uma quantidade específica de itens de uma linha de ordem de venda. Você pode criar uma ou mais linhas de carga ou cargas para uma ou mais linhas da ordem de venda ou para ordens de venda.
 
 > [!NOTE]
-> Este tópico se aplica aos recursos do módulo **Gerenciamento de transporte**. Não se aplica aos recursos do módulo de Gerenciamento de estoque.
+> Este artigo se aplica aos recursos do módulo **Gerenciamento de transporte**. Não se aplica aos recursos do módulo de Gerenciamento de estoque.
 
 Você pode gerar um ou mais documentos fiscais para uma carga, dependendo das ordens de venda na qual a carga foi criada. A quantidade em uma linha de documento fiscal é a quantidade de retirada da linha de carga, não a quantidade da linha de ordem de venda.
 
@@ -69,7 +69,7 @@ O exemplo a seguir mostra como você pode criar linhas de cargas e cargas para l
     1. Um documento fiscal é gerado para o cliente C1 que contém uma linha de documento fiscal para 20 unidades do item A.
     2. Um documento fiscal é gerado para o cliente C2 que contém uma linha de documento fiscal para 50 unidades do item C.
 
-Siga as etapas deste tópico para gerar documentos fiscais para uma carga.
+Siga as etapas deste artigo para gerar documentos fiscais para uma carga.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

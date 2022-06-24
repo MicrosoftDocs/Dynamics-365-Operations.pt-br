@@ -1,6 +1,6 @@
 ---
 title: ER Projetar uma configuração para gerar relatórios no formato OPENXML (Novembro de 2016)
-description: Este tópico descreve como criar uma nova configuração de relatório eletrônico (ER) que contém um modelo para gerar documentos de pagamento eletrônico no formato OPENXML.
+description: Este artigo descreve como criar uma nova configuração de relatório eletrônico (ER) que contém um modelo para gerar documentos de pagamento eletrônico no formato OPENXML.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b2325a5389e0bfe1efff17e5cd117ad8dbcd65d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908403"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Projetar uma configuração para gerar relatórios no formato OPENXML (Novembro de 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de Relatório Eletrônico (RE) que contem um modelo para gerar os documentos eletrônicos no formato OPENXML. Essa configuração será usada para processar pagamentos do fornecedor.
+Este artigo explica como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de Relatório Eletrônico (ER) que contem um modelo para gerar os documentos eletrônicos no formato OPENXML. Essa configuração será usada para processar pagamentos do fornecedor.
 
 Neste exemplo, você criará uma configuração para a empresa de exemplo, Litware, Inc. Estas etapas podem ser executadas na empresa GBSI.
 

@@ -1,6 +1,6 @@
 ---
-title: Adicionar campos de dados na integração de imposto usando extensões
-description: Este tópico explica como usar as extensões X++ para adicionar campos de dados na integração de imposto.
+title: Adicionar campos de dados à integração de imposto usando extensões
+description: Este artigo explica como usar as extensões X++ para adicionar campos de dados na integração de imposto.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871039"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Adicionar campos de dados na integração de imposto usando uma extensão
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico explica como usar as extensões X++ para adicionar campos de dados na integração de imposto. Esses campos podem ser estendidos para o modelo de dados de imposto do serviço de imposto e usados para determinar códigos de imposto. Para obter mais informações, consulte [Adicionar campos de dados em configurações de imposto](tax-service-add-data-fields-tax-configurations.md).
+Este artigo explica como usar as extensões X++ para adicionar campos de dados na integração de imposto. Esses campos podem ser estendidos para o modelo de dados de imposto do serviço de imposto e usados para determinar códigos de imposto. Para obter mais informações, consulte [Adicionar campos de dados em configurações de imposto](tax-service-add-data-fields-tax-configurations.md).
 
 ## <a name="data-model"></a>Modelo de dados
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 Nesse código, `_destination` é o objeto wrapper usado para gerar a solicitação e `_source` é o objeto `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> Defina o nome do campo usado no na solicitação como **private const str**. A cadeia de caracteres deve ser exatamente a mesma que o nome do nó (e não da etiqueta) adicionado no tópico [Adicionar campos de dados em configurações de imposto](tax-service-add-data-fields-tax-configurations.md).
+> Defina o nome do campo usado no na solicitação como **private const str**. A cadeia de caracteres deve ser exatamente a mesma que o nome do nó (e não da etiqueta) adicionado no artigo [Adicionar campos de dados em configurações de imposto](tax-service-add-data-fields-tax-configurations.md).
 > 
 > Defina o campo no método **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** usando o método **SetField**. O tipo de dados do segundo parâmetro deve ser **string**. Se o tipo de dados não for **cadeia de caracteres**, converta-o.
 > Se o tipo de dados for **tipo de enumeração** X++, recomendamos que você use o método **enum2Symbol** para converter o valor da enumeração em uma cadeia de caracteres. O valor da enumeração adicionado na configuração de imposto deve ser exatamente igual ao nome da enumeração. Veja a seguir uma lista de diferenças entre o valor da enumeração, a etiqueta e o nome.

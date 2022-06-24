@@ -1,6 +1,6 @@
 ---
 title: Configurar as experiências de suporte para aplicativos de Finanças e Operações
-description: Este tópico fornece informações sobre os componentes do sistema de ajuda para alguns aplicativos do Microsoft Dynamics 365.
+description: Este artigo fornece informações sobre os componentes do Sistema de ajuda para alguns aplicativos do Microsoft Dynamics 365.
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900119"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar as experiências de suporte para aplicativos de Finanças e Operações
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070999"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Neste tópico, você encontrará uma visão geral dos componentes do sistema de ajuda para aplicativos de Finanças e Operações, como Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce, e Dynamics 365 Human Resources. O tópico também explica como conectar esses componentes e fornece um resumo do processo para criar ajuda personalizada.
+Neste artigo, você encontrará uma visão geral dos componentes do Sistema de ajuda para aplicativos de finanças e operações, como Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Human Resources. O artigo também explica como conectar esses componentes e fornece um resumo do processo para criar Ajuda personalizada.
 
 ## <a name="help-architecture"></a>Arquitetura de ajuda
 

@@ -1,8 +1,8 @@
 ---
 title: Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo calculado
-description: Este tópico fornece informações sobre como usar o tipo Campo calculado de fontes de dados de ER.
+description: Este artigo fornece informações sobre como usar o tipo Campo calculado de fontes de dados de ER.
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934695"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo calculado
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como você pode criar uma fonte de dados relatório eletrônico (ER) usando o tipo **Campo calculado**. Essa fonte de dados pode conter uma expressão de ER que, quando executada, pode ser controlada pelos valores de argumentos do parâmetro configurados em uma associação que chama essa fonte de dados. Ao configurar chamadas parametrizadas dessa fonte de dados, você pode reutilizar uma única fonte de dados em muitas associações, o que reduz o número total de fontes de dados que devem ser configuradas em mapeamentos de modelos de ER ou em formatos de ER. Isso também simplifica o componente de ER configurado, o que reduz os custos de manutenção e os custos de utilização por outros consumidores.
+Este artigo explica como você pode criar uma fonte de dados relatório eletrônico (ER) usando o tipo **Campo calculado**. Essa fonte de dados pode conter uma expressão de ER que, quando executada, pode ser controlada pelos valores de argumentos do parâmetro configurados em uma associação que chama essa fonte de dados. Ao configurar chamadas parametrizadas dessa fonte de dados, você pode reutilizar uma única fonte de dados em muitas associações, o que reduz o número total de fontes de dados que devem ser configuradas em mapeamentos de modelos de ER ou em formatos de ER. Isso também simplifica o componente de ER configurado, o que reduz os custos de manutenção e os custos de utilização por outros consumidores.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Para concluir os exemplos neste tópico, você deve ter o seguinte acesso:
+Para concluir os exemplos neste artigo, você deve ter o seguinte acesso:
 
 - Acesso a uma destas funções:
 
@@ -46,10 +46,10 @@ Você também deve baixar e armazenar localmente os arquivos a seguir.
 
 | **Conteúdo**                           | **Nome do arquivo**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Configuração do modelo de dados de ER de exemplo    | [Modelo para conhecer chamadas parametrizadas.versão.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| Configuração de metadados de ER de exemplo      | [Metadados para conhecer chamadas parametrizadas.versão.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| Configuração do mapeamento do modelo de ER de exemplo | [Mapeamento para conhecer chamadas parametrizadas.versão.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuração de formato de ER de exemplo        | [Formato para conhecer chamadas parametrizadas.versão.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Configuração do modelo de dados de ER de exemplo    | [Modelo para conhecer chamadas parametrizadas.versão.1.xml](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| Configuração de metadados de ER de exemplo      | [Metadados para conhecer chamadas parametrizadas.versão.1.xml](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Configuração do mapeamento do modelo de ER de exemplo | [Mapeamento para conhecer chamadas parametrizadas.versão.1.1.xml](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Configuração de formato de ER de exemplo        | [Formato para conhecer chamadas parametrizadas.versão.1.1.xml](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Entrar em sua instância do RCS
 Neste exemplo, você criará uma configuração para a empresa de exemplo, Litware, Inc. Primeiro, no RCS, você deve concluir as etapas do procedimento [Criar provedores configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md):
@@ -84,7 +84,7 @@ Neste exemplo, você criará uma configuração para a empresa de exemplo, Litwa
             - Soma dos valores do imposto.
             - Valor mínimo da taxas de impostos aplicada.
 
-    O mapeamento de modelos nesta configuração implementa o modelo de dados de base para qualquer formato de ER criado para esse modelo e executado no Finance and Operations. Consequentemente, o conteúdo das fontes de dados **Imposto** e **Gr** é exposto para formatos de ER, como fontes de dados abstratos.
+    O mapeamento de modelos nesta configuração implementa o modelo de dados de base para qualquer dos formatos de ER criados para esse modelo e executados no Finance and Operations. Consequentemente, o conteúdo das fontes de dados **Imposto** e **Gr** é exposto para formatos de ER, como fontes de dados abstratos.
 
     ![Página do Designer de mapeamento de modelos mostrando as fontes de dados Imposto e Gr.](media/er-calculated-field-type-01.png)
 
@@ -306,7 +306,7 @@ Quando um campo calculado parametrizado retorna um registro, você precisa dar s
 Você pode executar os formatos de ER inicial e aprimorados para garantir que os campos calculados parametrizados funcionam corretamente.
 
 ### <a name="import-er-configurations"></a>Importar configurações de ER
-Você pode importar configurações revisadas do RCS usando o repositório de ER do tipo **RCS**. Se você já passou pelas etapas do tópico [Importar configurações de ER (Relatórios eletrônicos) do RCS (Regulatory Configuration Service)](rcs-download-configurations.md), use o repositório de ER configurado para importar as configurações discutidas anteriormente neste tópico para o seu ambiente. Caso contrário, siga estas etapas:
+Você pode importar configurações revisadas do RCS usando o repositório de ER do tipo **RCS**. Se você já passou pelas etapas do artigo [Importar configurações de ER (Relatórios eletrônicos) do RCS (Regulatory Configuration Services)](rcs-download-configurations.md), use o repositório de ER configurado para importar as configurações discutidas anteriormente neste artigo para o seu ambiente. Caso contrário, siga estas etapas:
 
 1. Selecione a empresa **DEMF** e, no painel padrão, selecione **Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.

@@ -1,6 +1,6 @@
 ---
 title: Dimensões financeiras e lançamento
-description: Ao planejar e configurar seu plano de contas, você deve considerar como os diversos componentes funcionarão em conjunto quando você lançar um documento ou um diário. Esses componentes incluem estruturas de conta, regras avançadas e dimensões fixas e de balanceamento. Este tópico explica o que cada componente é e como eles funcionam em conjunto.
+description: Ao planejar e configurar seu plano de contas, você deve considerar como os diversos componentes funcionarão em conjunto quando você lançar um documento ou um diário. Esses componentes incluem estruturas de conta, regras avançadas e dimensões fixas e de balanceamento. Este artigo explica o que cada componente é e como eles funcionam em conjunto.
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910103"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensões financeiras e lançamento 
 
 [!include [banner](../includes/banner.md)]
 
-Ao planejar e configurar seu plano de contas, você deve considerar como os diversos componentes funcionarão em conjunto quando você lançar um documento ou um diário. Esses componentes incluem estruturas de conta, regras avançadas e dimensões fixas e de balanceamento. Este tópico explica o que cada componente é e como eles funcionam em conjunto.
+Ao planejar e configurar seu plano de contas, você deve considerar como os diversos componentes funcionarão em conjunto quando você lançar um documento ou um diário. Esses componentes incluem estruturas de conta, regras avançadas e dimensões fixas e de balanceamento. Este artigo explica o que cada componente é e como eles funcionam em conjunto.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Plano de contas e componentes de dimensão financeira
 
@@ -46,7 +46,7 @@ Opcionalmente, você pode definir uma dimensão financeira de balanço. Na pági
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Dimensões financeiras padrão/fixas na conta principal
 
-As dimensões padrão vêm de vários locais, como registros mestres (por exemplo, registros de cliente ou fornecedor), cabeçalhos de documento e da conta principal. Este tópico se concentra nas dimensões padrão na conta principal por entidade legal. É possível definir se uma conta principal tem um valor **Não fixa** ou **Fixa** para cada dimensão financeira usada em todas as estruturas de conta do razão. Se uma dimensão financeira estiver definida como **Não fixa**, ela usará um valor padrão, mas esse valor poderá ser substituído. Esse comportamento aplica-se a todos os valores padrão no sistema, até os valores padrão que vêm de registros mestres. Se uma dimensão financeira estiver definida como um valor **Fixa**, esse valor sempre será aplicado, não importa se ele veio de um valor padrão ou se o usuário o inseriu.
+As dimensões padrão vêm de vários locais, como registros mestres (por exemplo, registros de cliente ou fornecedor), cabeçalhos de documento e da conta principal. Este artigo se concentra nas dimensões padrão na conta principal por entidade legal. É possível definir se uma conta principal tem um valor **Não fixa** ou **Fixa** para cada dimensão financeira usada em todas as estruturas de conta do razão. Se uma dimensão financeira estiver definida como **Não fixa**, ela usará um valor padrão, mas esse valor poderá ser substituído. Esse comportamento aplica-se a todos os valores padrão no sistema, até os valores padrão que vêm de registros mestres. Se uma dimensão financeira estiver definida como um valor **Fixa**, esse valor sempre será aplicado, não importa se ele veio de um valor padrão ou se o usuário o inseriu.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Ordem em que as dimensões padrão são aplicadas durante o lançamento
 

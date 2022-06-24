@@ -1,6 +1,6 @@
 ---
-title: Criar regras para o Optimization advisor
-description: Este tópico discute como adicionar novas regras ao Optimization advisor.
+title: Criar regras para o Assistente de otimização
+description: Este artigo discute como adicionar novas regras ao Optimization advisor.
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734655"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850895"
 ---
-# <a name="create-rules-for-optimization-advisor"></a>Criar regras para o Optimization advisor
+# <a name="create-rules-for-optimization-advisor"></a>Criar regras para o Assistente de otimização
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como criar novas regras para o **Optimization advisor**. Por exemplo, você pode criar uma nova regra que identifique quais casos de solicitação de cotações (RFQ) possuem um título vazio. Usar títulos em casos facilita sua identificação e pesquisa. Embora relativamente simples, esse exemplo mostra o que pode ser obtido com regras de otimização. 
+Este artigo explica como criar novas regras para o **Assistente de otimização**. Por exemplo, você pode criar uma nova regra que identifique quais casos de solicitação de cotações (RFQ) possuem um título vazio. Usar títulos em casos facilita sua identificação e pesquisa. Embora relativamente simples, esse exemplo mostra o que pode ser obtido com regras de otimização. 
 
 Uma *regra* é uma verificação em dados de aplicativo. Se a condição que a regra avalia é atendida, oportunidades de otimizar processos ou melhorar dados são criadas. É possível agir em relação às oportunidades e, opcionalmente, o impacto das ações pode ser medido. 
 

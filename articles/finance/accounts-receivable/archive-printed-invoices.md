@@ -1,6 +1,6 @@
 ---
 title: Arquivar faturas de clientes impressas com números de hash
-description: Este tópico explica como habilitar o arquivamento para armazenar faturas de clientes impressas com números de hash.
+description: Este artigo explica como habilitar o arquivamento para armazenar faturas de clientes impressas com números de hash.
 author: ilkond
 ms.date: 09/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 44caf44097a433b8848b17688430ca88a4b3f51b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3f19968b4f4cf76a48ac5485e915785e9be5c7db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909175"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Arquivar faturas de clientes impressas com números de hash
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695264"
 
 Em alguns países, há um requisito legal de armazenar números de hash calculados no sistema juntamente com impressões de alguns documentos. Os números de hash podem ser usados para relatar autoridades e durante auditorias.
 
-Este tópico explica como configurar o arquivamento a fim de armazenar faturas de clientes impressas com números de hash.
+Este artigo explica como configurar o arquivamento a fim de armazenar faturas de clientes impressas com números de hash.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

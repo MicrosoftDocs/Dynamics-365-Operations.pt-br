@@ -1,6 +1,6 @@
 ---
 title: Emitir notas fiscais de crédito de imposto ICMS (Brasil)
-description: Este tópico explica como criar uma nota fiscal de transferência e gerar uma nota fiscal eletrônica (NF-e).
+description: Este artigo explica como criar uma nota fiscal de transferência e gerar uma nota fiscal eletrônica (NF-e).
 author: sndray
 ms.date: 06/24/2017
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b766c8b286ecb7e2d7f0de5f83d6156aef42048
-ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
+ms.openlocfilehash: c3903b195aac0635c60ff75c0e9f84b325ab9339
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7601518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861242"
 ---
 # <a name="issue-icms-tax-credit-fiscal-documents-brazil"></a>Emitir notas fiscais de crédito de imposto ICMS (Brasil)
 

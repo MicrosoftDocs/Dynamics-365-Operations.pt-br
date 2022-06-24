@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881952"
 ---
 # <a name="finance-insights-home-page"></a>Home page do Finance Insights
 
@@ -43,7 +43,7 @@ Esta seção lista os requisitos para o uso do Finance insights. Sempre que poss
 
 ### <a name="version-requirements"></a>Requisitos da versão
 
-Este tópico se aplica ao Microsoft Dynamics 365 Finance versão 10.0.21 e posterior.
+Este artigo se aplica ao Microsoft Dynamics 365 Finance versão 10.0.21 e a versões posteriores.
 
 ### <a name="license-requirements"></a>Requisitos para licenciamento
 

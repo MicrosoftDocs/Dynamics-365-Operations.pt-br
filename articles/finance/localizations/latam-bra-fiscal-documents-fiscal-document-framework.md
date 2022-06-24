@@ -1,6 +1,6 @@
 ---
 title: Notas fiscais e suas estruturas para o Brasil
-description: Este tópico descreve as notas fiscais do Brasil.
+description: Este artigo descreve as notas fiscais do Brasil.
 author: sndray
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 77ed97d2bb9feb9ae966ba041c1429e4e5166a220a9f71ec7bc411384218151e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a65f73ea8dfbd3e624e5f18b23fbfd999f3472c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896220"
 ---
 # <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as notas fiscais do Brasil.
+Este artigo descreve as notas fiscais do Brasil.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Nota fiscal é um documento legal que registra a transferência de propriedade de um item ou serviço fornecido por um estabelecimento fiscal (emissor) para uma pessoa ou outro estabelecimento fiscal (cliente, fornecedor, subsidiária ou filial). Uma nota fiscal é usada para registrar impostos. Cada estabelecimento fiscal emite e recebe notas fiscais para todas as transações, incluindo vendas, compras, ajustes de impostos e transferências de item ou ativo. As notas fiscais podem ser geradas usando os seguintes formatos:
 -   Nota fiscal impressa – a nota fiscal é impressa em papel.

@@ -1,6 +1,6 @@
 ---
 title: Escopo da localização brasileira
-description: Este tópico descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis no Brasil.
+description: Este artigo descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis no Brasil.
 author: sndray
 ms.date: 11/22/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: cf9181601a014b61a19298fb5eb8f8286606b18d
-ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
+ms.openlocfilehash: b57513697f9a7df1354e075085bf817b1ad29c96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7862789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899794"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis do Brasil que a Microsoft incluiu no Microsoft Dynamics 365 Finance para o Brasil. 
+Este artigo descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis do Brasil que a Microsoft incluiu no Microsoft Dynamics 365 Finance para o Brasil. 
 
-De uma forma geral, a Microsoft investe recursos significativos na extensão das funcionalidades dos processos de negócios do Dynamics 365 Finance, desenvolvendo recursos e funcionalidades para abordar requisitos regulatórios específicos de natureza tributária, contábil ou financeira em países ou regiões onde ela disponibiliza o Microsoft Dynamics para o público geral.
+De uma forma geral, a Microsoft investe recursos significativos na extensão das funcionalidades do processo de negócios do Dynamics 365 Finance, desenvolvendo recursos e funcionalidades para tratar os requisitos regulamentares tributários, contábeis ou financeiros em países ou regiões onde a Microsoft disponibiliza o Microsoft Dynamics para o público geral.
 
 O software ajuda organizações a realizarem operações de negócios enquanto cumprem leis, regulamentos e práticas comerciais comuns específicos ao país/região na execução de suas atividades diárias. Esse software inclui recursos e funcionalidades elaborados para atender a leis federais, regulamentos tributários, contábeis ou financeiros que normalmente afetam os negócios no Brasil.
 
@@ -50,17 +50,17 @@ Os parceiros de canal ou clientes são os únicos responsáveis por qualquer con
 
 Em geral, a estratégia da Microsoft para atender a requerimentos tributários, financeiros, contábeis ou legais no Brasil consiste em fornecer localizações para o Microsoft Dynamics que fazem o seguinte:
 
-- Implementam os requisitos tributários federais detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope) deste tópico.
+- Implementam os requisitos tributários federais detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope) deste artigo.
 - Implementam os requisitos estaduais ou regionais detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope), para os seguintes estados: São Paulo (SP), Rio de Janeiro (RJ), Paraná (PR), Santa Catarina (SC) e Rio Grande do Sul (RS).
-- Fornecem novos recursos regulatórios específicos, por meio de configurações ou do desenvolvimento de nova funcionalidade, para implementar os requisitos federais, estaduais ou regionais que estão detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope), de acordo com as regras de negócios especificadas neste tópico e no roteiro do Microsoft Dynamics no [Portal de localização do Microsoft Dynamics](/dynamics/s-e/).
+- Fornecem novos recursos regulatórios específicos, por meio de configurações ou do desenvolvimento de nova funcionalidade, para implementar os requisitos federais, estaduais ou regionais que estão detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope), de acordo com as regras de negócios especificadas neste artigo e no roteiro do Microsoft Dynamics no [Portal de localização do Microsoft Dynamics](/dynamics/s-e/).
 - Fornecem novos recursos regulatórios específicos no service pack mais recente disponível, ou em um novo service pack, para versões suportadas do Microsoft Dynamics.
 - Aplicam padrões nacionais e funcionalidades competitivos que a Microsoft, a seu critério exclusivo, determinar necessários ou apropriados com base nas necessidades comerciais da região.
 - Não se concentram nos requisitos de negócios, segmentos, verticais, regiões ou grandes empresas específicos, mesmo quando esses requisitos são exigidos por leis, normas ou regulamentos nos níveis federal, estadual ou municipal.
 - Não incluem requisitos municipais, exceto aqueles que são detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope).
 
-Há leis e requisitos específicos que estão fora do escopo do Microsoft Dynamics. Para obter uma lista, consulte a seção [Fora do escopo](#out-of-scope) deste tópico.
+Há leis e requisitos específicos que estão fora do escopo do Microsoft Dynamics. Para obter uma lista, consulte a seção [Fora do escopo](#out-of-scope) deste artigo.
 
-A localização brasileira desenvolvida pela Microsoft para o Microsoft Dynamics está limitada aos recursos e funcionalidades descritos neste tópico. Portanto, o Microsoft Dynamics deve ser analisado pelos clientes potenciais ou por um profissional da área tributária, como um auditor contábil ou fiscal, uma firma de direito tributário ou firmas de consultoria tributária, para que avaliem se a funcionalidade é adequada para atender às necessidades comerciais do cliente, ou se são necessárias soluções personalizadas.
+A localização brasileira desenvolvida pela Microsoft para o Microsoft Dynamics está limitada aos recursos e funcionalidades descritos neste artigo. Portanto, o Microsoft Dynamics deve ser analisado pelos clientes potenciais ou por um profissional da área tributária, como um auditor contábil ou fiscal, uma firma de direito tributário ou firmas de consultoria tributária, para que avaliem se a funcionalidade é adequada para atender às necessidades comerciais do cliente, ou se são necessárias soluções personalizadas.
 
 ## <a name="brazilian-localization-scope"></a>Escopo da localização brasileira
 
@@ -68,11 +68,11 @@ A interface do usuário (IU) e a Ajuda online do Microsoft Dynamics estão tradu
 
 O escopo da localização do Microsoft Dynamics disponível no Brasil se restringe a cálculo de impostos, transações contábeis, emissão/recebimento de notas fiscais e emissão de cupons fiscais nos quatro seguintes cenários: compras a pagar, da cotação ao pagamento à vista, comércio e relatório regulatório/legal.
 
-As funcionalidades que a Microsoft fornece e às quais oferece suporte como parte da localização do Microsoft Dynamics para o Brasil são listadas na seção [Recursos da localização para o Brasil](#brazilian-localization-features) deste tópico. Os detalhes sobre cada uma das funcionalidades podem ser encontrados na Ajuda do Microsoft Dynamics, bem como nos white papers publicados no [Portal de Localização do Microsoft Dynamics](/dynamics/s-e/).
+As funcionalidades que a Microsoft fornece e às quais oferece suporte como parte da localização do Microsoft Dynamics para o Brasil são listadas na seção [Recursos da localização para o Brasil](#brazilian-localization-features) deste artigo. Os detalhes sobre cada uma das funcionalidades podem ser encontrados na Ajuda do Microsoft Dynamics, bem como nos white papers publicados no [Portal de Localização do Microsoft Dynamics](/dynamics/s-e/).
 
 ## <a name="market-availability"></a>Disponibilidade no mercado
 
-A Microsoft visa fornecer funcionalidades regulatórias com tempo suficiente para instalação. Para implementar os requisitos de relatórios tributários, contábeis, financeiros ou regulatórios/legais que geralmente afetam a maioria das empresas no Brasil, a Microsoft pretende divulgar atualizações tributárias e regulatórias que contenham alterações exigidas antes da data de vigência ou de outra data obrigatória pela autoridade governamental aplicável no nível federal ou estadual (mas apenas para os estados identificados na seção [Estratégia de localização para o Brasil](#brazilian-localization-strategy) deste tópico), de modo que nossos parceiros de canal tenham tempo suficiente para atualizar as soluções de seus clientes. Internamente, chamamos essa data de *data exigida pelo mercado* (MRD, market required date).
+A Microsoft visa fornecer funcionalidades regulatórias com tempo suficiente para instalação. Para implementar os requisitos de relatórios tributários, contábeis, financeiros ou regulatórios/legais que geralmente afetam a maioria das empresas no Brasil, a Microsoft pretende divulgar atualizações tributárias e regulatórias que contenham alterações exigidas antes da data de vigência ou de outra data obrigatória pela autoridade governamental aplicável no nível federal ou estadual (mas apenas para os estados identificados na seção [Estratégia de localização para o Brasil](#brazilian-localization-strategy) deste artigo), de modo que nossos parceiros de canal tenham tempo suficiente para atualizar as soluções de seus clientes. Internamente, chamamos essa data de *data exigida pelo mercado* (MRD, market required date).
 
 A Microsoft se esforça para atender a suas MRDs e às datas determinadas pela autoridade apropriada do governo. Entretanto, vários fatores podem afetar a entrega oportuna de atualizações tributárias ou regulatórias. Eis alguns exemplos:
 
@@ -244,7 +244,7 @@ As seções a seguir listam os recursos que são específicos do Brasil. As seç
 | Cálculo de imposto de acordo com a configuração do Commerce Headquarters | Sim | Sim |
 | Integração de impressora fiscal para impressoras Daruma, nos modelos FS600, FS700 (H, L e M), FS800i, Mach 1, Mach 2 e Mach 3 | Sim | Não |
 | Integração de impressora fiscal para impressoras Bematech, nos modelos MP2100 FI TH FI e MP4200 TH FI II | Sim | Não |
-| Requisitos legais de PDV de acordo com a lei PAF-ECF "ATO COTEPE/ICMS N° 9" de 2013, exceto para as atividades de varejo identificadas como fora do escopo na seção [Fora do escopo](#out-of-scope) deste tópico | Sim | Não |
+| Requisitos legais de PDV de acordo com a lei PAF-ECF "ATO COTEPE/ICMS N° 9" de 2013, exceto para as atividades de varejo identificadas como fora do escopo na seção [Fora do escopo](#out-of-scope) deste artigo | Sim | Número |
 | Requisitos legais de PDV de acordo com a lei PAF-ECF "ATO COTEPE/ICMS N° 46" de 2014, exceto para as atividades de varejo identificadas como fora do escopo na seção [Fora do escopo](#out-of-scope) | Sim | Não |
 | Exibição de impostos aproximados em recibos fiscais | Sim | Não |
 | Exibir impostos aproximados no DANFE/CF-e-SAT | Sim | Sim |
@@ -305,7 +305,7 @@ As seções a seguir listam os recursos que são específicos do Brasil. As seç
 | Gerar um arquivo de texto e suporte para empresas definidas como Perfil A <br> As versões de layout disponíveis incluem o código de layout 15 e anterior | Sim | Sim |
 | Suporte para os seguintes registros para empresas definidas como Perfil A:<br>- Block 0: 0000-0001-0002-0005-0015-0100-0150-0190-0200-0210-0220-0300-0305-0400-0450-0460-0500-0600-0990 <br>- Bloco C: C001-C100-C101-C110-C111-C113-C114-C120-C130-C140-C141-C160-C170-C172-C180-C185-C190-C191-C195-C400-C405-C410-C420-C460-C470-C490-C500(incoming)-C590 (incoming)-C990 <br>- Bloco D (somente para notas fiscais de entrada): D001-D100-D190-D195-D500-D590-D990 <br>- Bloco E: E001-E100-E110-E111-E116-E200-E210-E220-E250-E300-E310-E311-E312-E313-E316-E500-E510-E520-E530-E990 <br>- Bloco G: G001-G110-G125-G126-G130-G140-G990 <br>- Bloco H: H001-H005-H010-H020-H030-H990. Observação: o H005 e os registros relacionados são compatíveis apenas com o código de razão = 01, 05 para o estado RS e 06. <br>- Bloco K: K001-K100-K200-k220-K230-K235-K260-K265-K270-K275-K280-K290-K291-K292-K990 <br>- Bloco 1: 1001-1010-1250-12251990 <br>- Bloco 1900-1910-1920-1921-1923-1926-1990 apenas para o estado do Rio Grande do Sul | Sim | Sim |
 | Resolução 13/2019 e Portaria SUCIEF 55/2019-RJ | Sim | Sim |
-| **Fora do escopo**: SPED Fiscal com requisitos específicos do estado/região, conforme descrito na seção [Estratégia de localização para o Brasil](#brazilian-localization-strategy) deste tópico; e as empresas categorizadas como Perfil B e Perfil C. | Sim | Sim |
+| **Fora do escopo**: SPED Fiscal com requisitos específicos do estado/região, conforme descrito na seção [Estratégia de localização para o Brasil](#brazilian-localization-strategy) deste artigo; e as empresas categorizadas como Perfil B e Perfil C. | Sim | Sim |
 
 ### <a name="portaria-cat-422018---sp"></a>Portaria CAT 42/2018-SP
 
@@ -380,8 +380,8 @@ Algumas funcionalidades do Microsoft Dynamics que estão disponíveis em outros 
 Os seguintes requisitos de cálculo de impostos estão fora do escopo da localização para o Brasil:
 
 - Modo de tributação *Simples Nacional* ou *Super Simples*
-- Modo de tributação *Regime especial* (consulte a seção [Observações](#notes) deste tópico)
-- Requisitos de estados ou regiões diferentes dos estados/regiões descritos na seção [Estratégia da localização para o Brasil](#brazilian-localization-strategy) deste tópico.
+- Modo de tributação *Regime especial* (consulte a seção [Observações](#notes) deste artigo)
+- Requisitos de estados ou regiões diferentes dos estados/regiões descritos na seção [Estratégia da localização para o Brasil](#brazilian-localization-strategy) deste artigo
 - Requisitos de agências ou autarquias regulatórias, como SUFRAMA, ANVISA ou ANATEL
 
 ### <a name="modules"></a>Módulos
@@ -458,15 +458,15 @@ Os seguintes recursos e funcionalidades estão fora do escopo da localização p
 Os seguintes requisitos de relatórios de impostos estão fora do escopo para livros ficais da localização brasileira:
 
 - Uma versão dos livros fiscais para impressão. O *AJUSTE SINIEF 2*, de 3 de abril de 2009, tornou obsoleta a exigência de livros impressos
-- SPED Fiscal com requisitos específicos dos estados ou regiões descritos na seção [Estratégia da localização para o Brasil](#brazilian-localization-strategy) deste tópico.
+- SPED Fiscal com requisitos específicos dos estados ou regiões descritos na seção [Estratégia da localização para o Brasil](#brazilian-localization-strategy) deste artigo
 - Modo de tributação *Simples Nacional* ou *Super Simples*
-- Modo de tributação *Regime especial* (consulte a seção [Observações](#notes) deste tópico)
+- Modo de tributação *Regime especial* (consulte a seção [Observações](#notes) deste artigo)
 - Requisitos de estados ou regiões diferentes dos estados/regiões descritos na seção [Estratégia da localização para o Brasil](#brazilian-localization-strategy).
 - Requisitos de agências ou autarquias regulatórias, como SUFRAMA, ANVISA e ANATEL
 - IN86
 - GIA para outros estados fora de São Paulo
-- Atualização de dados para livros fiscais do AX 2009 para o AX 2012 R3 e o Finance and Operations
-- Atualização de dados de notas fiscais do AX 2009 para o AX 2012 R3 e o Finance and Operations
+- Atualização dos dados dos livros fiscais do AX 2009 para AX 2012 R3 e o Finance and Operations
+- Atualização das notas fiscais do AX 2009 para AX 2012 R3 e o Finance and Operations
 
 ## <a name="references"></a>Referências
 

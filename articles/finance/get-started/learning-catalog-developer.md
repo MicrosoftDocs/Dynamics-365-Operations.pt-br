@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 866db1307484fd35949e87d02ca17ef0555bb654
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 729fc6a1172d651a24cc0a3bff765b09263e3cd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903089"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Catálogo de aprendizagem para desenvolvedores do Dynamics 365 Finance
 
@@ -47,7 +47,7 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 | [Finance and Operations: Estender o Dynamics 365 for Finance and Operations com o PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Compreender a simplicidade do Microsoft PowerApps e como ele pode se integrar ao Dynamics 365 for Finance and Operations para transformar negócios digitalmente e aumentar a produtividade do usuário. | Gravação gratuita de uma webconferência | 43 minutos |
 | [Finance And Operations: Extensibilidade (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Forneceremos uma visão geral e a atualização sobre os planos de extensibilidade da Microsoft. Discutiremos em detalhe as várias formas de extensão de uma solução, analisando profundamente os recursos de extensibilidade de metadados, bem como a capacidade de aumentar e estender código, incluindo o recurso Cadeia de Comando potente. | Gravação gratuita de uma webconferência | 50 minutos |
 | [Instalar o Visual Studio Team Services (VSTS) (VIR782PAL)](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | Este Tech Talk apresentará as etapas necessárias para configurar uma instância e um projeto do VSTS e para conectar ao projeto de implementação do LCS para a configuração de ambiente de desenvolvimento/teste. | Gravação gratuita de uma webconferência | 41 minutos |
-| [Integrador de Dados do Dataverse (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Junte-se a nós para esta conversa técnica sobre os recursos do Integrador de Dados do Dataverse. Abordaremos as opções de integração entre o Dynamics 365 Customer Engagement e o Dynamics 365 Finance and Operations, assim como a integração com outras soluções de terceiros. | Gravação gratuita de uma webconferência | 61 minutos |
+| [Integrador de Dados do Dataverse (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Junte-se a nós para esta conversa técnica sobre os recursos do Integrador de Dados do Dataverse. Abordaremos as opções de integração entre o Dynamics 365 Customer Engagement e os aplicativos de finanças e operações do Dynamics 365, assim como a integração a outras soluções de terceiros. | Gravação gratuita de uma webconferência | 61 minutos |
 | [Integração entre o Dynamics 365 for Sales e o Dynamics 365 for Finance and Operations via Dataverse (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Neste Tech Talk, apresentaremos o cenário de integração conhecido como Cliente potencial ao pagamento à vista, com atividades de vendas e marketing no Dynamics 365 for Sales e de atendimento no Dynamics 365 for Finance and Operations. Também examinaremos o Integrador de dados e como modificar a integração. | Gravação gratuita de uma webconferência | 54 minutos |
 | [Gerenciamento de dados (DYN757PAL2)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Participe deste Tech Talk sobre Gerenciamento de Dados. Conheça as opções disponíveis e os cenários para os quais elas são recomendadas. Abordaremos a estrutura do gerenciamento de dados, os modelos, a cópia de banco de dados, o compartilhamento de dados entre empresas e as considerações de desempenho. | Gravação gratuita de uma webconferência | 58 minutos |
 | [Ferramentas de integração do Azure para Dynamics 365 for Finance and Operations (DYN386PAL)](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | Este Tech Talk abordará os tipos de ferramentas que podem ser considerados durante a integração ao Dynamics 365 for Finance and Operations e quando escolher cada ferramenta de integração. A sessão também apresentará alguns dos cenários de integração orquestrados usando serviços de integração do Azure. | Gravação gratuita de uma webconferência | 63 minutos |

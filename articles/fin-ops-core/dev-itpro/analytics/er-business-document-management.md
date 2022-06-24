@@ -1,6 +1,6 @@
 ---
 title: Visão geral de gerenciamento de documentos comerciais
-description: Este tópico fornece informações sobre como usar o recurso de gerenciamento de documentos comerciais da estrutura de ER.
+description: Este artigo fornece informações sobre como usar o recurso de gerenciamento de documentos comerciais da estrutura de ER.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903607"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
 
@@ -50,7 +50,7 @@ Para ver uma lista completa de todos os relatórios planejados para a versão de
 
 Mais relatórios serão disponibilizados em versões futuras. Notificações especiais sobre relatórios adicionais serão enviadas separadamente. Para saber como revisar a lista de relatórios disponíveis no momento, consulte a seção [Lista de configurações de ER que foram lançadas no Finance para dar suporte a documentos comerciais configuráveis](#list-of-configurations-cbd) abaixo.
 
-Para saber mais sobre este recurso, conclua o exemplo neste tópico.
+Para saber mais sobre este recurso, conclua o exemplo neste artigo.
 
 ## <a name="configure-er-parameters"></a>Configurar parâmetros de ER
 
@@ -231,7 +231,7 @@ Os usuários comerciais podem acessar os modelos de documentos comerciais para e
 - Usuários atribuídos à função **Administrador do sistema**.
 - Usuários atribuídos a qualquer função configurada para executar a obrigação **Gerenciar modelos de documento comercial** (nome da AOT **ERBDManageTemplates**).
 
-Use o procedimento a seguir para editar modelos de fatura de texto livre no espaço de trabalho Gerenciamento de documentos comerciais. Antes de concluir esse procedimento, você precisa ter concluído todos os procedimentos anteriores neste tópico.
+Use o procedimento a seguir para editar modelos de fatura de texto livre no espaço de trabalho Gerenciamento de documentos comerciais. Antes de concluir esse procedimento, você precisa ter concluído todos os procedimentos anteriores neste artigo.
 
 1. Entre como um usuário com acesso ao espaço de trabalho Gerenciamento de documentos comerciais.
 2. Abra o espaço de trabalho Gerenciamento de documentos comerciais.

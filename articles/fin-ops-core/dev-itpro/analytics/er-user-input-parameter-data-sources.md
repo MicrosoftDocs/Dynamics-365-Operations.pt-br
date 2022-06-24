@@ -1,6 +1,6 @@
 ---
 title: Usar fontes de dados de PARÂMETRO DE ENTRADA DO USUÁRIO para especificar parâmetros para um relatório
-description: Este tópico explica como usar fontes de dados de PARÂMETRO DE ENTRADA DO USUÁRIO para especificar parâmetros para relatórios gerados por você.
+description: Este artigo explica como usar fontes de dados de PARÂMETRO DE ENTRADA DO USUÁRIO para especificar parâmetros para relatórios gerados por você.
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872962"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>Usar fontes de dados de PARÂMETRO DE ENTRADA DO USUÁRIO para especificar parâmetros para um relatório
 
 [!include[banner](../includes/banner.md)]
 
-Ao criar os componentes [Relatório Eletrônico](general-electronic-reporting.md) (ER) [mapeamento de modelo](er-overview-components.md#model-mapping-component) e [formato](er-overview-components.md#format-component) ER, você pode usar fontes de dados de um tipo *PARÂMETRO DE ENTRADA DO USUÁRIO* para obter os valores necessários que podem ser especificados nos campos de entrada de dados na caixa de diálogo no runtime, antes de começar a execução de um formato ER. Este tópico descreve as fontes de dados de *PARÂMETRO DE ENTRADA DO USUÁRIO* que têm suporte no momento.
+Ao criar os componentes [Relatório Eletrônico](general-electronic-reporting.md) (ER) [mapeamento de modelo](er-overview-components.md#model-mapping-component) e [formato](er-overview-components.md#format-component) ER, você pode usar fontes de dados de um tipo *PARÂMETRO DE ENTRADA DO USUÁRIO* para obter os valores necessários que podem ser especificados nos campos de entrada de dados na caixa de diálogo no runtime, antes de começar a execução de um formato ER. Este artigo descreve as fontes de dados de *PARÂMETRO DE ENTRADA DO USUÁRIO* que têm suporte no momento.
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a>Propriedades obrigatórias
 

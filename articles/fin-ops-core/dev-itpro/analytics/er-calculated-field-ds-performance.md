@@ -1,6 +1,6 @@
 ---
 title: Melhorar o desempenho de soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados
-description: Este tópico explica como você pode melhorar o desempenho das soluções de relatório eletrônico (ER) adicionando fontes de dados de CAMPO CALCULADO parametrizado.
+description: Este artigo explica como você pode melhorar o desempenho das soluções de relatório eletrônico (ER) adicionando fontes de dados de CAMPO CALCULADO parametrizado.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850104"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Melhorar o desempenho de soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como você pode usar [rastreamentos de desempenho](trace-execution-er-troubleshoot-perf.md) de formatos de [relatório eletrônico (ER)](general-electronic-reporting.md) que são executados e, em seguida, usar as informações desses rastreamentos para ajudar a melhorar o desempenho, configurando uma fonte de dados de **Campo calculado** parametrizado.
+Este artigo explica como você pode usar [rastreamentos de desempenho](trace-execution-er-troubleshoot-perf.md) de formatos de [relatório eletrônico (ER)](general-electronic-reporting.md) que são executados e, em seguida, usar as informações desses rastreamentos para ajudar a melhorar o desempenho, configurando uma fonte de dados de **Campo calculado** parametrizado.
 
 Como parte do processo de designar configurações ER para gerar documentos comerciais, você define o método usado para recuperar dados do aplicativo e inseri-los na saída gerada. Ao criar uma fonte de dados ER do tipo **Campo calculado** parametrizado, você pode reduzir o número de chamadas de banco do dados e reduzir bastante o tempo e o custo envolvidos na coleta dos detalhes da execução de formato ER.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-- Para concluir os exemplos deste tópico, você deve ter acesso a uma das seguintes [funções](../sysadmin/tasks/assign-users-security-roles.md):
+- Para concluir os exemplos deste artigo, você deve ter acesso a uma das seguintes [funções](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Desenvolvedor de relatório eletrônico
     - Consultor funcional de relatório eletrônico
     - Administrador do sistema
 
 - A empresa deve ser definida como **DEMF**.
-- Siga as etapas no [Apêndice 1](#appendix1) deste tópico para baixar os componentes da solução de exemplo do Microsoft ER necessários para concluir os exemplos deste tópico.
-- Siga as etapas no [Apêndice 2](#appendix2) deste tópico para configurar o conjunto mínimo de parâmetros ER necessários para usar a estrutura ER para ajudar a melhorar o desempenho da solução ER de exemplo da Microsoft.
+- Siga as etapas no [Apêndice 1](#appendix1) deste artigo para baixar os componentes da solução de exemplo do Microsoft ER necessários para concluir os exemplos deste artigo.
+- Siga as etapas no [Apêndice 2](#appendix2) deste artigo para configurar o conjunto mínimo de parâmetros ER necessários para usar a estrutura ER para ajudar a melhorar o desempenho da solução ER de exemplo da Microsoft.
 
 ## <a name="import-the-sample-er-solution"></a>Importar a solução ER de exemplo
 
@@ -48,7 +48,7 @@ Imagine que você precise criar uma solução ER para gerar um novo relatório q
 A primeira etapa é importar a solução ER de exemplo para gerar um relatório de transações de fornecedor.
 
 1. Entre na instância do Microsoft Dynamics 365 Finance que foi provisionada para sua empresa.
-2. Neste tópico, você criará e modificará configurações para a empresa de exemplo **Litware, Inc.**. Verifique se esse provedor de configuração foi adicionado à instância do Finance e marcado como ativo. Para obter mais informações, consulte [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Neste artigo, você criará e modificará configurações para a empresa exemplo **Litware, Inc.**. Verifique se esse provedor de configuração foi adicionado à instância do Finance e marcado como ativo. Para obter mais informações, consulte [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. No espaço de trabalho **Relatório eletrônico**, selecione o bloco **Configurações de relatórios**.
 4. Na página **Configurações**, importe as configurações ER que você baixou como um pré-requisito para o Finance, na seguinte ordem: modelo de dados, mapeamento de modelo, formato. Para cada configuração, siga estas etapas:
 
@@ -220,7 +220,7 @@ Siga estas etapas para usar o cache e uma fonte de dados do tipo **Campo calcula
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Executar a solução de ER modificada para rastrear a execução
 
-Repita as etapas na seção [Executar o formato de ER](#run-format) anterior neste tópico para gerar um novo rastreio de desempenho.
+Repita as etapas na seção [Executar o formato de ER](#run-format) anteriormente neste artigo para gerar um novo rastreamento de desempenho.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>Use o rastreamento de desempenho para analisar ajustes do mapeamento de modelo 
 

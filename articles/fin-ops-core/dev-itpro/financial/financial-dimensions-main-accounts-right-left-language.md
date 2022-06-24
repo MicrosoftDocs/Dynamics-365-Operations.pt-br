@@ -1,6 +1,6 @@
 ---
 title: Dimensões financeiras e contas principais em idiomas da direita para a esquerda
-description: Este tópico descreve as decisões que você deve tomar ao usar um idioma da direita para a esquerda, e você deve configurar dimensões financeiras e contas principais.
+description: Este artigo descreve as decisões que você deve tomar ao usar um idioma da direita para a esquerda, e você deve configurar dimensões financeiras e contas principais.
 author: RyanCCarlson2
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: rcarlson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5de2e0e6e56651487ebd36e3594eb378ce6154ea
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b1e2c0ef5cd405232332847078c70af42f056e17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866750"
 ---
-# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Dimensões financeiras e contas principais de idiomas da direita para a esquerda
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Dimensões financeiras e contas principais em idiomas da direita para a esquerda
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve algumas das decisões de implementação que devem ser considerados ao usar um idioma da direita para a esquerda, e você deve configurar dimensões financeiras e contas principais.
+Este artigo descreve algumas das decisões de implementação que devem ser considerados ao usar um idioma da direita para a esquerda, e você deve configurar dimensões financeiras e contas principais.
 
 Dimensões financeiras e contas são componentes-chave principais da fase de planejamento para uma implementação. Após dimensões financeiras e contas principais serem criadas no sistema, elas são usadas nas páginas **Configurar estruturas de conta**, **Estruturas de regra avançada** e **Configuração de dimensão financeira para integração de aplicativos**. A ordem definida nas páginas é usada no sistema para a entrada de dados e o consumo. Em alguns locais no sistema, dimensões financeiras e contas principais são exibidas em dois campos separados. Em outros locais, como diários, dimensões financeiras e contas principais, aparecem como uma única cadeia de caracteres.
 

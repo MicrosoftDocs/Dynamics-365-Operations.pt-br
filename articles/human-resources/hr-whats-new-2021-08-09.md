@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (9 de agosto 2021)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 9 de agosto de 2021.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 9 de agosto de 2021.
 author: marcelbf
 ms.date: 08/09/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ad1397084dd3eb210065fe6d8c20c5b8253cd206
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882856"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources (9 de agosto 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Microsoft Dynamics 365 Human Resources.
+Este artigo descreve os recursos novos, alterados ou que serão lançados em breve no Microsoft Dynamics 365 Human Resources.
 
 Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
@@ -40,9 +40,9 @@ Esta versão inclui os novos recursos e correções de bugs a seguir. As altera�
 As seguintes correções de bug estão incluídas nessa versão.
 
 > [!NOTE]
-> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este tópico para incluir correções de bugs feitas no build após a publicação inicial deste tópico.
+> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este artigo para incluir correções de bugs feitas no build após a publicação inicial deste artigo.
 
-| Número do problema | Problema | descrição |
+| Número do problema | Problema | Descrição |
 | --- | --- | --- |
 | 558385 | O design padrão não é selecionado quando a opção **Selecionar os representantes de seleção automática** está ativada para os representantes padrão. | Esse problema está corrigido agora. Vários representantes padrão são automaticamente selecionados em planos elegíveis quando a opção **Seleção automática de representantes** na página **Parâmetros compartilhados de recursos humanos** está ativada. |
 | 589617 | Na página **Folga**, os saldos **Disponível para compra** e **Disponível para venda** estão em branco quando o acesso é restrito a uma empresa específica. | Esse problema está corrigido agora. A página **Folga**, mostra os saldos **Disponível para compra** e **Disponível para venda** corretos quando o usuário é restrito a uma empresa específica. |

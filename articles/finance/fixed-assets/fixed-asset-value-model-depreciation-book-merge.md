@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9d937211c049b2ec4ac06ac6eddce7fd9bcb5b0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f4f06b7916fb2eeed802b2dce95edfce448dcd97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880835"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Modelo de valor de ativo fixo e mesclagem de registro de depreciações
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o recurso do livro atual em Ativos fixos. Esse recurso baseia-se na funcionalidade anterior de modelo de valor que estava disponível em versões anteriores, mas também inclui todas as funcionalidade fornecidas anteriormente somente em registros de depreciação.
+Este artigo descreve o recurso do livro atual em Ativos fixos. Esse recurso baseia-se na funcionalidade anterior de modelo de valor que estava disponível em versões anteriores, mas também inclui todas as funcionalidade fornecidas anteriormente somente em registros de depreciação.
 
-A funcionalidade do livro permite usar um único conjunto de páginas, consultas e relatórios para todos os processos de ativos fixos de sua organização. As tabelas deste tópico descrevem a funcionalidade anterior de registro de depreciação e modelo de valor com a funcionalidade atual para registros.
+A funcionalidade do livro permite usar um único conjunto de páginas, consultas e relatórios para todos os processos de ativos fixos de sua organização. As tabelas deste artigo descrevem a funcionalidade anterior de registro de depreciação e modelo de valor com a funcionalidade atual para registros.
 
 ## <a name="setup"></a>Configuração
 Por padrão, lançar registros de contabilidade (GL) e sub-razão de ativo fixo. Os registros têm uma nova opção **Lançar à contabilidade** que leva você a desabilitar os lançamentos na Contabilidade e lançar apenas na sub-razão de Ativo fixo. Essa funcionalidade é parecida com o comportamento anterior de lançamento de registro de depreciação. A configuração de nomes de diário possui um nível de lançamento nomeado Nenhum. Este nível de lançamento foi adicionado especificamente para transações de ativo fixo. Para lançar transações em registros que não são de Contabilidade, você deverá usar um nome de diário com o nível de lançamento definido como **Nenhum**.

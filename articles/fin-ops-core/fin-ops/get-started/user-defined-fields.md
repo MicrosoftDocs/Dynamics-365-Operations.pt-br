@@ -1,6 +1,6 @@
 ---
 title: Criar e trabalhar com campos personalizados
-description: Este tópico mostra como criar campos personalizados por meio da interface do usuário para adequar o aplicativo à sua empresa.
+description: Este artigo mostra como criar campos personalizados por meio da interface do usuário para adequar o aplicativo à sua empresa.
 author: jasongre
 ms.date: 05/24/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 2ab1c402d99c1d9b7d7dc06e64c93fe43c5a1e9f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fdb4d0065bd12fc721ce55314c0a46fe8d17c6ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847118"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Criar e trabalhar com campos personalizados
 

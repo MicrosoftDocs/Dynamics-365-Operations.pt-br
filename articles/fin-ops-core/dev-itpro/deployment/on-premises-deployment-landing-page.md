@@ -1,6 +1,6 @@
 ---
-title: Home page Implantação local
-description: Este tópico fornece informações e vincula a conteúdo sobre implantações locais.
+title: Home page de Implantação local
+description: Este artigo fornece informações e vincula a conteúdo sobre implantações locais.
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867402"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page de Implantação local
 
 [!include [banner](../includes/banner.md)]
 
-Você pode implantar o Dynamics 365 Finance + Operations (on-premises). Quando você escolhe um tipo da implantação local, os requisitos de sistema, o dimensionamento do hardware e a funcionalidade diferem de uma implantação de nuvem. Este tópico fornece links para conteúdo que contém informações específicas de implantações locais.
+Você pode implantar o Dynamics 365 Finance + Operations (on-premises). Quando você escolhe um tipo da implantação local, os requisitos de sistema, o dimensionamento do hardware e a funcionalidade diferem de uma implantação de nuvem. Este artigo fornece links para conteúdo que contém informações específicas de implantações locais.
 
 ## <a name="get-started"></a>Comece a usar
 - [Visão geral da Implantação local](on-premises-overview.md)

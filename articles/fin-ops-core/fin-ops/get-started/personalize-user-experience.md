@@ -1,8 +1,8 @@
 ---
 title: Personalizar a experiência do usuário
-description: Este tópico explica como você pode personalizar o aplicativo.
+description: Este artigo explica como você pode personalizar o aplicativo.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602979"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845432"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -28,7 +28,7 @@ ms.locfileid: "8602979"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tópico explica como você pode personalizar o aplicativo e aborda os seguintes assuntos: 
+Este artigo explica como você pode personalizar o aplicativo e aborda os seguintes assuntos: 
 
 - **Opções de todo o sistema** — essas opções de personalização são feitas em uma página de configuração e estão disponíveis para todos os usuários. Os exemplos incluem um tema de cores e o fuso horário. 
 - **Acesso restrito à personalização** — nesse nível de acesso, as ações do usuário associadas ao uso comum da página são salvas automaticamente pelo aplicativo e restauradas na próxima vez que você acessar a página. Por exemplo, o aplicativo armazenará a largura das colunas de grade, se você ajustá-las, e o estado expandido ou recolhido das Guias Rápidas. 
@@ -58,7 +58,7 @@ Veja uma lista das ações que são consideradas uso comum de página e estão c
 
 - **Larguras de colunas de grade** – você pode ajustar a largura de uma coluna em uma grade ao selecionar a barra de dimensionamento à esquerda ou à direita do cabeçalho da coluna e deslizá-la para a esquerda ou a direita até a largura de coluna desejada. O aplicativo armazena a largura que você define para uma coluna. Na próxima vez que você abrir a página, a coluna será redimensionada para essa largura.
 - **Totais rodapé e da coluna de grade** — *(disponível somente quando o novo controle de grade estiver habilitado)* você pode decidir se um total deve ou não ser mostrado na parte inferior de qualquer coluna numérica em uma grade, bem como se o rodapé da grade deve ficar visível. O aplicativo armazena essas preferências e as aplica na próxima vez que você abrir a página. Para obter mais informações, consulte [Recursos de grade](grid-capabilities.md). 
-- **Guias Rápidas** – algumas páginas têm seções expansíveis conhecidas como *Guias Rápidas*. O aplicativo armazena informações sobre as Guias Rápidas que você expandiu ou recolheu. Na próxima vez que você abrir a página, as mesmas Guias Rápidas serão expandidas ou recolhidas, com base em sua última interação na página. Em alguns casos, você pode ajudar a melhorar o desempenho do sistema recolhendo uma Guia Rápida, pois o aplicativo não precisa recuperar as informações das Guias Rápidas até que elas sejam expandidas. Conforme explicado mais adiante neste tópico, também é possível alterar a ordem das Guias Rápidas em uma página.
+- **Guias Rápidas** – algumas páginas têm seções expansíveis conhecidas como *Guias Rápidas*. O aplicativo armazena informações sobre as Guias Rápidas que você expandiu ou recolheu. Na próxima vez que você abrir a página, as mesmas Guias Rápidas serão expandidas ou recolhidas, com base em sua última interação na página. Em alguns casos, você pode ajudar a melhorar o desempenho do sistema recolhendo uma Guia Rápida, pois o aplicativo não precisa recuperar as informações das Guias Rápidas até que elas sejam expandidas. Conforme explicado mais adiante neste artigo, também é possível alterar a ordem das Guias Rápidas em uma página.
 - **Quadros de Fatos** — algumas páginas têm um painel **Informações relacionadas** que exibe informações somente leitura relacionadas ao assunto atual da página. Cada seção no painel **Informações relacionadas** é conhecida como um *Quadro de Fatos*. Você pode expandir ou recolher o painel **Informações relacionadas** e também pode expandir ou recolher Quadros de Fatos individuais. O aplicativo armazena essas preferências. Na próxima vez que você abrir a página, o painel **Informações relacionadas** e o Quadro de Fatos individual estarão expandidos ou recolhidos, de acordo com sua última interação na página. Em alguns casos, você pode ajudar a melhorar o desempenho do sistema recolhendo o painel **Informações relacionadas** ou um Quadro de Fatos, pois o aplicativo não precisa recuperar as informações de Quadros de Fatos até que eles sejam expandidos.
 - **Painéis de ações** – um *Painel de ações* aparece na parte superior da maioria das páginas. O Painel de ações contém botões para muitas das ações que você pode executar na página atual. Esses botões costumam ser organizados em guias. É possível *fixar* todo o Painel de Ações aberto ou deixá-lo recolhido por padrão. Na próxima vez que abrir a página, o Painel de Ações estará aberto ou recolhido, de acordo com sua última interação na página. Se você fixou o Painel de Ações aberto, a última guia que você estava usando será exibida.
 - **Filtros Rápidos** – um *Filtro Rápido* aparecerá acima de muitas grades. O Filtro Rápido permite filtrar a grade, com base em uma única coluna selecionada. O aplicativo armazena a coluna em que você filtrou. Na próxima vez que você abrir a página, a grade usará a mesma coluna para a filtragem por padrão. No entanto, você ainda poderá selecionar uma coluna diferente com a qual filtrar a grade.
@@ -173,14 +173,14 @@ A partir da versão 10.0.26, o recurso **Permitir que usuários selecionem e alt
 
 ### <a name="personalizing-your-dashboard"></a>Como personalizar seu painel
 
-Geralmente, o painel é a primeira página que você vê ao abrir o aplicativo. Ele pode ser personalizado como qualquer outra página no sistema, usando-se os mesmos mecanismos descritos anteriormente neste tópico. 
+Geralmente, o painel é a primeira página que você vê ao abrir o aplicativo. Ele pode ser personalizado como qualquer outra página no sistema, usando-se os mesmos mecanismos descritos anteriormente neste artigo. 
 
 > [!WARNING]
 > No momento, quando você oculta o conteúdo no painel, é importante que você direcione diretamente um bloco, não o espaço ao redor dele. Se você ocultar o grupo ao redor de um bloco, pode haver resultados inesperados se mais blocos forem adicionados posteriormente ou se o sistema for alternado para um idioma diferente.
 
 Um recurso de personalização exclusivo disponível no painel é a possibilidade de adicionar blocos. 
 
-- Se o recurso **Aplicativos de página inteira** estiver desativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um espaço de trabalho**. Um novo bloco do espaço de trabalho será criado na parte inferior do painel. Você poderá renomear esse novo bloco do espaço de trabalho como desejar. Você também poderá adicionar listas, blocos e links ao espaço de trabalho, conforme descrito na seção [Adicionando blocos, listas e links a um espaço de trabalho](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) deste tópico.
+- Se o recurso **Aplicativos de página inteira** estiver desativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um espaço de trabalho**. Um novo bloco do espaço de trabalho será criado na parte inferior do painel. Você poderá renomear esse novo bloco do espaço de trabalho como desejar. Você também poderá adicionar listas, blocos e links ao espaço de trabalho, conforme descrito na seção [Adicionando blocos, listas e links a um espaço de trabalho](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) deste artigo.
 - Se o recurso **Aplicativos de página inteira** estiver ativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um aplicativo**. Na caixa de diálogo, selecione se você deseja adicionar um bloco para um novo espaço de trabalho ou um bloco que tenha conteúdo do Power Apps ou de um site. Em seguida, siga as etapas para configurar a opção selecionada. Um novo bloco será criado na parte inferior do painel. Para obter mais informações sobre como adicionar, editar, excluir e compartilhar esses aplicativos inseridos, consulte [Inserir aplicativos de tela do Power Apps](embed-power-apps.md) e [Inserir aplicativos de terceiros](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Como compartilhar personalizações
@@ -236,7 +236,7 @@ Outra maneira de compartilhar personalizações é por meio de exportação e im
 
 #### <a name="export"></a>Exportar
 
-Em geral, você pode exportar uma de suas próprias exibições ou personalizações, abrindo a página apropriada, abrindo a barra de ferramentas **Personalização** e selecionando **Exportar**. Para obter mais informações sobre a barra de ferramentas, consulte a seção [Barra de ferramentas Personalização](#personalization-toolbar) anteriormente neste tópico. Como alternativa, se as [exibições salvas](saved-views.md) estiverem habilitadas, você poderá acessar **Configurações \> Usar opções \> Personalização** para exibir uma lista de todas as suas personalizações no sistema. Deste ponto, você pode selecionar as exibições ou personalizações a serem exportadas e, depois, selecionar **Exportar**.
+Em geral, você pode exportar uma de suas próprias exibições ou personalizações, abrindo a página apropriada, abrindo a barra de ferramentas **Personalização** e selecionando **Exportar**. Para obter mais informações sobre a barra de ferramentas, consulte a seção [Barra de ferramentas Personalização](#personalization-toolbar) anteriormente neste artigo. Como alternativa, se as [exibições salvas](saved-views.md) estiverem habilitadas, você poderá acessar **Configurações \> Usar opções \> Personalização** para exibir uma lista de todas as suas personalizações no sistema. Deste ponto, você pode selecionar as exibições ou personalizações a serem exportadas e, depois, selecionar **Exportar**.
 
 Além disso, os administradores podem exportar personalizações de outros usuários seguindo essas etapas.
 
@@ -277,7 +277,7 @@ Se as exibições salvas não estiverem habilitadas, siga estas etapas.
 
 A página **Personalização** é o hub central para o gerenciamento de personalizações em um nível organizacional. O conteúdo e os recursos desta página dependem se o recurso **Exibições salvas** estiver ativado ou não.
 
-Para os clientes que tenham o recurso **Exibições salvas** ativado, consulte a seção "Gerenciando exibições globalmente" no tópico [Exibições salvas](saved-views.md).
+Para os clientes que tenham o recurso **Exibições salvas** ativado, consulte a seção "Gerenciando exibições globalmente" no artigo [Exibições salvas](saved-views.md).
 
 Para os clientes que ainda não ativaram o recurso [Exibições salvas](saved-views.md), essa página tem quatro guias:
 
@@ -285,6 +285,9 @@ Para os clientes que ainda não ativaram o recurso [Exibições salvas](saved-vi
 - **Limpar** – você pode limpar todas as personalizações de uma página ou espaço de trabalho para um ou mais usuários. Primeiro, selecione uma página ou espaço de trabalho para ver uma lista de usuários que personalizaram essa página ou espaço de trabalho. Em seguida, selecione os usuários que devem ter as personalizações dessa página ou espaço de trabalho desmarcadas e selecione **Limpar**. Todas as personalizações que os usuários selecionados aplicaram à página ou ao espaço de trabalho selecionado serão excluídas. Essa ação não pode ser desfeita. Entretanto, se uma personalização tiver sido salva para a página ou o espaço de trabalho, essa personalização poderá ser reimportada.
 - **Usuários** – Selecione um usuário para ver a lista de páginas que ele personalizou. Você pode habilitar ou desabilitar a capacidade de o usuário selecionado utilizar personalizações para páginas específicas ou para todo o sistema. Também é possível importar, exportar ou limpar uma personalização para o usuário. Além disso, você pode redefinir o recurso de textos explicativos para o usuário. Nesse caso, se o usuário tiver ignorado anteriormente qualquer janela pop-up que apresentava novos recursos, ela será exibida novamente na próxima vez que ele encontrar esses recursos.
 - **Sistema** – É possível desativar temporariamente as personalizações de todos os usuários no sistema. Nesse caso, todas as personalizações são excluídas para todos os usuários e todas as páginas são redefinidos para seu estado padrão. Se, mais tarde, você ativar novamente a personalização, todas as personalizações serão reaplicadas. Também é possível excluir permanentemente todas as personalizações de todos os usuários do sistema. Não é possível recuperar as personalizações que foram excluídas. Portanto, antes de executar essa tarefa, verifique se você exportou todas as personalizações de que talvez precise posteriormente.
+
+### <a name="service-updates-and-personalization"></a>Atualizações e personalização de serviço
+Os dados de personalização não precisam ser limpos nem redefinidos ao passar para uma nova versão do produto. Personalizações e dados de exibições salvas continuarão funcionando entre atualizações. As exceções a isso incluem alterações no próprio formulário que invalidam uma personalização (como um controle removido) ou alterações na consulta base do formulário que alteram sua subárvore de fonte de dados, de forma que ela não coincida mais com a subárvore da fonte de dados associada à consulta de exibição.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalizar dimensões de estoque
 

@@ -1,6 +1,6 @@
 ---
 title: Importar uma configuração do Lifecycle Services
-description: Este tópico descreve como importar uma nova versão de uma configuração de relatório eletrônico (ER) do Microsoft Dynamics Lifecycle Services (LCS).
+description: Este artigo descreve como importar uma nova versão de uma configuração de relatório eletrônico (ER) do Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886662"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Importar uma configuração do Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como um usuário na função de Administrador do sistema ou Desenvolvedor de relatório eletrônico pode importar uma nova versão de uma [configuração do Relatório eletrônico (ER)](../general-electronic-reporting.md#Configuration) a partir da [biblioteca Ativo em nível de projeto](../../lifecycle-services/asset-library.md) no Microsoft Dynamics Lifecycle Services (LCS).
+Este artigo explica como um usuário na função de Administrador do sistema ou Desenvolvedor de relatório eletrônico pode importar uma nova versão de uma [configuração do Relatório eletrônico (ER)](../general-electronic-reporting.md#Configuration) a partir da [biblioteca Ativo em nível de projeto](../../lifecycle-services/asset-library.md) no Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!IMPORTANT]
 > O uso do LCS como repositório de armazenamento para configurações de ER está sendo [preterido](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Para mais informações, consulte [Regulatory Configuration Service (RCS) - Suspensão do armazenamento do Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -49,7 +49,7 @@ Neste exemplo, você selecionará a versão desejada da configuração de ER e a
 
 1. Na página **Configurações**, na árvore de configurações, selecione **Configuração do modelo de exemplo**.
 
-    Você criou a primeira versão de uma configuração do modelo de dados de exemplo e publicou-a no LCS ao concluir as etapas em [Carregar uma configuração no Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). Nesse procedimento, você excluirá esta versão da configuração ER. Você importará essa versão do LCS mais adiante neste tópico.
+    Você criou a primeira versão de uma configuração do modelo de dados de exemplo e publicou-a no LCS ao concluir as etapas em [Carregar uma configuração no Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). Nesse procedimento, você excluirá esta versão da configuração ER. Você importará essa versão do LCS mais adiante neste artigo.
 
 2. Na lista, localize e selecione o registro desejado.
 

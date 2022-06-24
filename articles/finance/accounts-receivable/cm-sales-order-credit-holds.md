@@ -1,6 +1,6 @@
 ---
 title: Retenções de crédito de ordens de venda
-description: Este tópico descreve a configuração das regras usadas para colocar uma ordem de venda em bloqueio de crédito.
+description: Este artigo descreve a configuração das regras usadas para colocar uma ordem de venda em bloqueio de crédito.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856818"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Retenções de crédito de ordens de venda
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico descreve a configuração das regras usadas para colocar uma ordem de venda em bloqueio de crédito. As regras de bloqueio de gerenciamento de crédito podem ser aplicadas a um cliente individual ou a um grupo de clientes. As regras de bloqueio definem respostas para as seguintes circunstâncias:
+Este artigo descreve a configuração das regras usadas para colocar uma ordem de venda em bloqueio de crédito. As regras de bloqueio de gerenciamento de crédito podem ser aplicadas a um cliente individual ou a um grupo de clientes. As regras de bloqueio definem respostas para as seguintes circunstâncias:
 
 1. Número de dias de atraso
 2. Status da conta

@@ -1,6 +1,6 @@
 ---
 title: Criar códigos de encargos
-description: Este tópico explica como configurar códigos de encargos para Contas a pagar e Contas a receber.
+description: Este artigo explica como configurar códigos de encargos para Contas a pagar e Contas a receber.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866073"
 ---
 # <a name="create-charges-codes"></a>Criar códigos de encargos
 
-Este tópico explica como configurar códigos de encargos para Contas a pagar e Contas a receber. Se a sua organização exigir que os valores de venda ou de compra sejam acompanhados além dos itens de linha em uma ordem de venda ou de compra, você poderá usar os códigos de encargos diversos para essa finalidade. Por exemplo, é possível pagar o frete e o seguro em uma ordem de compra, e esses valores são especificados separadamente na ordem de compra. Nesse caso, você pode especificar se os valores serão lançados em contas de despesas ou adicionados ao custo dos itens.
+Este artigo explica como configurar códigos de encargos para Contas a pagar e Contas a receber. Se a sua organização exigir que os valores de venda ou de compra sejam acompanhados além dos itens de linha em uma ordem de venda ou de compra, você poderá usar os códigos de encargos diversos para essa finalidade. Por exemplo, é possível pagar o frete e o seguro em uma ordem de compra, e esses valores são especificados separadamente na ordem de compra. Nesse caso, você pode especificar se os valores serão lançados em contas de despesas ou adicionados ao custo dos itens.
 
 ## <a name="set-up-charges-codes-for-accounts-receivable"></a>Configurar códigos de encargos para Contas a receber
 

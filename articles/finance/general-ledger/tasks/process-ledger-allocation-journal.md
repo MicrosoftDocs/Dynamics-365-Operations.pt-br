@@ -1,6 +1,6 @@
 ---
 title: Processar diário de alocação do razão
-description: Este tópico explica como processar uma solicitação de alocação no Dynamics 365 Finance.
+description: Este artigo explica como processar uma solicitação de alocação no Dynamics 365 Finance.
 author: aprilolson
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: b86f8f5d090d624e812d9e7e6c0bc0212e5e9716
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902419"
 ---
 # <a name="process-ledger-allocation-journal"></a>Processar diário de alocação do razão
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como processar uma solicitação de alocação. Use a página Processar solicitação de alocação para criar um diário de alocação que possa ser revisto e aprovado antes do lançamento na Contabilidade ou que possa ser lançado diretamente na Contabilidade. Antes de criar um diário de alocações, deve haver pelo menos uma regra de alocação do razão ativa. Esta tarefa usa a empresa de demonstração USMF.
+Este artigo explica como processar uma solicitação de alocação. Use a página Processar solicitação de alocação para criar um diário de alocação que possa ser revisto e aprovado antes do lançamento na Contabilidade ou que possa ser lançado diretamente na Contabilidade. Antes de criar um diário de alocações, deve haver pelo menos uma regra de alocação do razão ativa. Esta tarefa usa a empresa de demonstração USMF.
 
 1. No painel de navegação, Acesse **Contabilidade > Alocações > Processar solicitação de alocação**.
 2. No campo **Regra**, selecione o registro desejado no menu suspenso.

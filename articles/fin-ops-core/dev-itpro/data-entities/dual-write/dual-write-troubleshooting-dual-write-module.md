@@ -1,6 +1,6 @@
 ---
-title: Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
-description: Este tópico fornece informações sobre solução de problemas que podem ajudá-lo a corrigir problemas no módulo de dupla gravação em aplicativos de Finanças e Operações.
+title: Solucionar problemas de gravação dupla em aplicativos de finanças e operações
+description: Este artigo fornece informações sobre solução de problemas que podem ajudá-lo a corrigir problemas no módulo de dupla gravação em aplicativos de finanças e operações.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864562"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de gravação dupla em aplicativos de finanças e operações
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Este tópico fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse. Especificamente, ele fornece informações que podem ajudá-lo a corrigir problemas no módulo de **dupla gravação** em aplicativos de Finanças e Operações.
+Este artigo fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de finanças e operações e o Dataverse. Especificamente, ele fornece informações que podem ajudá-lo a corrigir problemas no módulo de **dupla gravação** em aplicativos de finanças e operações.
 
 > [!IMPORTANT]
-> Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
+> Alguns dos problemas que este artigo aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Não é possível carregar o módulo de gravação dupla em um aplicativo de Finanças e Operações
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Não é possível carregar o módulo de gravação dupla em um aplicativo de finanças e operações
 
 Se você não conseguir abrir a página **Gravação dupla** selecionando o bloco **Gravação dupla** no espaço de trabalho **Gerenciamento de dados**, o serviço de integração de dados está provavelmente desligado. Crie um tíquete de suporte para solicitar uma reinicialização do serviço de integração de dados.
 
@@ -49,7 +49,7 @@ Para corrigir o problema, faça login usando uma janela InPrivate no Microsoft E
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Erro ao vincular o ambiente para dupla gravação ou adicionar um novo mapeamento de tabela
 
-**Função necessária para corrigir o problema**: administrador do sistema em aplicativos de Finanças e Operações ou no Dataverse.
+**Função necessária para corrigir o problema**: administrador do sistema em aplicativos de finanças e operações ou no Dataverse.
 
 Você pode encontrar o seguinte erro ao vincular ou criar mapas:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Este erro poderá ocorrer se você não tiver permissões suficientes para vincular duas gravações ou criar mapas. Esse erro também pode ocorrer se o ambiente do Dataverse foi redefinido sem desvincular a gravação dupla. Qualquer usuário com a função de administrador do sistema em aplicativos de Finanças e Operações e no Dataverse pode vincular os ambientes. Somente o usuário que configurou a conexão de gravação dupla poderá adicionar novos mapas de tabela. Após a configuração, qualquer usuário com a função de administrador do sistema poderá monitorar o status e editar os mapeamentos.
+Este erro poderá ocorrer se você não tiver permissões suficientes para vincular duas gravações ou criar mapas. Esse erro também pode ocorrer se o ambiente do Dataverse foi redefinido sem desvincular a gravação dupla. Qualquer usuário com a função de administrador do sistema em aplicativos de finanças e operações e no Dataverse pode vincular os ambientes. Somente o usuário que configurou a conexão de gravação dupla poderá adicionar novos mapas de tabela. Após a configuração, qualquer usuário com a função de administrador do sistema poderá monitorar o status e editar os mapeamentos.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Erro ao interromper o mapeamento de tabela
 

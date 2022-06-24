@@ -1,6 +1,6 @@
 ---
 title: Limite e limite de exceção
-description: Este tópico descreve o limite e os limites de exceção para Imposto Deduzido na Origem (TDS).
+description: Este artigo descreve o limite e os limites de exceção para Imposto Deduzido na Origem (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726006"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877926"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>Limite e limite de exceção
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o limite e os limites de exceção para Imposto Deduzido na Origem (TDS). O TDS em faturas e pagamentos é sempre calculado considerando-se o limite de limite e o limite de exceção definidos para os componentes de imposto TDS na página **Componentes de imposto retido na fonte**. Os componentes de imposto de TDS são anexados a códigos de imposto de TDS, incluídos nos grupos de impostos de TDS. Os grupos de impostos de TDS estão associados a fornecedores e clientes para calcular TDS no nível de fatura ou de pagamento.
+Este artigo descreve o limite e os limites de exceção para Imposto Deduzido na Origem (TDS). O TDS em faturas e pagamentos é sempre calculado considerando-se o limite de limite e o limite de exceção definidos para os componentes de imposto TDS na página **Componentes de imposto retido na fonte**. Os componentes de imposto de TDS são anexados a códigos de imposto de TDS, incluídos nos grupos de impostos de TDS. Os grupos de impostos de TDS estão associados a fornecedores e clientes para calcular TDS no nível de fatura ou de pagamento.
 
 O TDS é calculado se o valor de uma transação ou as transações cumulativas lançadas com um grupo de TDS específico para um fornecedor exceder o limite especificado na página **Componentes de imposto retido na fonte**. O TDS não será calculado até que o valor cumulativo da transação exceda o limite especificado.
 

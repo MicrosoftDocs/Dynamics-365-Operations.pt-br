@@ -1,6 +1,6 @@
 ---
 title: Visão geral de Relatório eletrônico (ER)
-description: Este tópico oferece uma visão geral da ferramenta ER. Ele descreve os principais conceitos, os cenários com suporte e os formatos que fazem parte da solução.
+description: Este artigo oferece uma visão geral da ferramenta ER. Ele descreve os principais conceitos, os cenários com suporte e os formatos que fazem parte da solução.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869247"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visão geral de Relatório eletrônico (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece uma visão geral da ferramenta ER (Relatório eletrônico). Ele inclui informações sobre os principais conceitos, os cenários com suporte do ER e uma lista de formatos projetados e liberados como parte da solução ER.
+Este artigo fornece uma visão geral da ferramenta ER (Relatório Eletrônico). Ele inclui informações sobre os principais conceitos, os cenários com suporte do ER e uma lista de formatos projetados e liberados como parte da solução ER.
 
 O ER é uma ferramenta configurável que ajuda a criar e a manter pagamentos e relatórios eletrônicos regulatórios. Ele se baseia nos três conceitos a seguir:
 

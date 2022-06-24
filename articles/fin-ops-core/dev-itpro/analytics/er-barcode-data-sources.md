@@ -1,6 +1,6 @@
 ---
 title: Usar fontes de dados de Códigos de Barras para gerar imagens de código de barras
-description: Este tópico explica como usar fontes de dados de Códigos de Barras para gerar imagens de código de barras.
+description: Este artigo explica como usar fontes de dados de Códigos de Barras para gerar imagens de código de barras.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880302"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Usar fontes de dados de Códigos de Barras para gerar imagens de código de barras
 
@@ -77,7 +77,7 @@ Ao configurar uma fonte de dados de **Código de barras**, você poderá definir
 >
 > Ao associar uma fonte de dados de **Código de Barras** a um elemento de célula em um formato, e o elemento de célula representa um controle de conteúdo do Word ou uma imagem do Excel, a fonte de dados é apresentada na associação como uma função que tem um único parâmetro do tipo **Cadeia de Caracteres**. Você deve usar esse parâmetro para especificar o texto que deve ser transformado em uma imagem de código de barras e ler quando um código de barras gerado é verificado.
 
-Para obter mais informações sobre esse recurso, conclua os exemplos neste tópico.
+Para obter mais informações sobre esse recurso, conclua os exemplos neste artigo.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Exemplo: gerar um cheque de pagamento que contenha um código de barras que codifique o valor a pagar
 
@@ -112,7 +112,7 @@ Para concluir este exemplo, você deve ter acesso à empresa USMF no Finance par
 - Consultor funcional de relatório eletrônico
 - Administrador do sistema
 
-Se você ainda não tiver concluído o exemplo no tópico [Inserir imagens e formas em documentos gerados usando o ER](electronic-reporting-embed-images-shapes.md), baixe as configurações a seguir do exemplo da solução ER.
+Se você ainda não tiver concluído o exemplo no artigo [Inserir imagens e formas em documentos gerados usando o ER](electronic-reporting-embed-images-shapes.md), baixe as configurações a seguir do exemplo da solução ER.
 
 | Descrição do conteúdo         | Nome do arquivo                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Além disso, baixe o seguinte arquivo do Excel que contém o modelo modificado p
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Ativar um provedor de configuração
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
-2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o [provedor de configuração](general-electronic-reporting.md#Provider) para a empresa de exemplo **Litware, Inc.** está listado e marcado como ativo. Se esse provedor de configuração não estiver listado, ou se ele não estiver marcado como ativo, siga as etapas no tópico [Criar um provedor de configuração e marcá-lo como ativo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o [provedor de configuração](general-electronic-reporting.md#Provider) para a empresa de exemplo **Litware, Inc.** está listado e marcado como ativo. Se esse provedor de configuração não estiver listado, ou se ele não estiver marcado como ativo, siga as etapas no artigo [Criar um provedor de configuração e marcá-lo como ativo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Configuração da empresa de exemplo a ser ativada na página Configurações de localização.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ A versão de rascunho do formato selecionado é marcada como disponível para us
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>Converter o cheque gerado em um PDF
 
-Conforme descrito no tópico [Gerar formulários de impressão FTI](er-generate-printable-fti-forms.md#finland), você pode usar uma fonte especial para produzir códigos de barras em um documento gerado. Nesse caso, as transformações adicionais do documento gerado podem depender da disponibilidade dessa fonte no ambiente de transformação. Por exemplo, se você tentar converter um documento em formato PDF ou visualizá-lo em um ambiente onde a fonte está faltando, os códigos de barras não serão renderizados corretamente.
+Conforme descrito no artigo [Gerar formulários de impressão FTI](er-generate-printable-fti-forms.md#finland), você pode usar uma fonte especial para produzir códigos de barras em um documento gerado. Nesse caso, as transformações adicionais do documento gerado podem depender da disponibilidade dessa fonte no ambiente de transformação. Por exemplo, se você tentar converter um documento em formato PDF ou visualizá-lo em um ambiente onde a fonte está faltando, os códigos de barras não serão renderizados corretamente.
 
 No entanto, quando você usa a fonte de dado **Código de Barras** para produzir códigos de barras, a renderização desses códigos de barras não dependerá de nenhuma fonte. Portanto, você pode converter facilmente documentos que contêm os códigos de barras no formato PDF. A ilustração a seguir mostra a visualização de um cheque de pagamento gerado que foi [convertido](electronic-reporting-destinations.md#OutputConversionToPDF) em PDF, com base na configuração do [destino](electronic-reporting-destinations.md) de ER configurado.
 

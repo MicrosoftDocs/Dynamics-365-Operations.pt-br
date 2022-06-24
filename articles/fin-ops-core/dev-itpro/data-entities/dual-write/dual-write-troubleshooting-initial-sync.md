@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas durante a sincronização inicial
-description: Este tópico fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem acontecer durante a sincronização inicial.
+description: Este artigo fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem acontecer durante a sincronização inicial.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892347"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante a sincronização inicial
 
@@ -22,12 +22,12 @@ ms.locfileid: "8063049"
 
 
 
-Este tópico fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de Finanças e Operações e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem acontecer durante a sincronização inicial.
+Este artigo fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de finanças e operações e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem acontecer durante a sincronização inicial.
 
 > [!IMPORTANT]
-> Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
+> Alguns dos problemas que este artigo aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Verifique erros de sincronização inicial em um aplicativo de Finanças e Operações
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Verifique erros de sincronização inicial em um aplicativo de finanças e operações
 
 Depois de habilitar os modelos de mapeamento, o status dos mapas deve estar em **Execução**. Se o status **Não estiver em execução**, ocorrerão erros durante a sincronização inicial. Para exibir os erros, selecione a guia **Detalhes de sincronização inicial** na página **Gravação dupla**.
 
@@ -63,7 +63,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 Se esse erro ocorrer consistentemente e você não puder concluir a sincronização inicial, siga estas etapas para corrigir o problema.
 
-1. Entre na máquina virtual (VM) para o aplicativo de Finanças e Operações.
+1. Entre na máquina virtual (VM) para o aplicativo de finanças e operações.
 2. Abra o console de gerenciamento da Microsoft.
 3. No painel **Serviços**, verifique se o serviço de estrutura de importação/exportação de dados do Microsoft Dynamics 365 está em execução. Reinicie-o se ele tiver sido interrompido, pois a sincronização inicial requer essa ação.
 
@@ -75,7 +75,7 @@ A seguinte mensagem de erro pode ser exibida durante sincronização inicial:
 
 Para corrigir o problema, siga estas etapas.
 
-1. Entre no aplicativo de Finanças e Operações.
+1. Entre no aplicativo de finanças e operações.
 2. Na página **aplicativo do Azure Active Directory**, exclua o cliente **DtAppID** e, em seguida, adicione-o novamente.
 
 ![Cliente DtAppID na lista de aplicativos do Azure AD.](media/aad_applications.png)
@@ -102,7 +102,7 @@ Eis alguns exemplos:
 
 Se alguma linha na tabela do fornecedor tiver valores nas colunas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**, siga estas etapas para concluir a sincronização inicial.
 
-1. No aplicativo de Finanças e Operações, exclua as colunas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** do mapeamento e salve o mapeamento.
+1. No aplicativo de finanças e operações, exclua as colunas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** do mapeamento e salve o mapeamento.
 
     1. Na página de mapeamento de gravação dupla para **Fornecedores V2 (msdyn\_vendors)**, na guia **Mapeamentos de tabela**, no filtro esquerdo, selecione **Finance and Operations apps.Vendors V2**. No filtro direito, selecione **Sales.Vendor**.
     2. Procure **primarycontactperson** para encontrar a coluna de origem **PrimaryContactPersonId**.
@@ -201,7 +201,7 @@ Se alguma linha na tabela cliente tiver valores nas colunas **ContactPersonID** 
 
     A sincronização inicial das linhas está concluída.
 
-8. No aplicativo de Finanças e Operações, habilite o controle de alterações para a tabela **Clientes V3**.
+8. No aplicativo de finanças e operações, habilite o controle de alterações para a tabela **Clientes V3**.
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Falhas de sincronização inicial em mapas com mais de 10 campos de pesquisa
 
@@ -227,7 +227,7 @@ A seguinte mensagem de erro pode ser exibida ao tentar executar a sincronizaçã
 
 *O número do participante não foi encontrado no Dataverse.*
 
-Há um conjunto de intervalos em **DirPartyCDSEntity** em aplicativos de Finanças e Operações que filtram participantes do tipo **Pessoa** e **Organização**. Como resultado, uma sincronização inicial dos participantes do mapeamento **CD – msdyn_parties** não poderá sincronizar participantes de outros tipos, incluindo a **Entidade Legal** e a **Unidade Operacional**. Quando a sincronização inicial for executada para os **Endereços postais de participante de CDs (msdyn_partypostaladdresses)** ou **Contatos do participante v3 (msdyn_partyelectronicaddresses)**, você poderá receber o erro.
+Há um conjunto de intervalos em **DirPartyCDSEntity** em aplicativos de finanças e operações que filtram participantes do tipo **Pessoa** e **Organização**. Como resultado, uma sincronização inicial dos participantes do mapeamento **CD – msdyn_parties** não poderá sincronizar participantes de outros tipos, incluindo a **Entidade Legal** e a **Unidade Operacional**. Quando a sincronização inicial for executada para os **Endereços postais de participante de CDs (msdyn_partypostaladdresses)** ou **Contatos do participante v3 (msdyn_partyelectronicaddresses)**, você poderá receber o erro.
 
 Estamos trabalhando em uma correção para remover o intervalo de tipo de participante da entidade Finance and Operations, de forma que participantes de todos os tipos possam sincronizar o Dataverse com êxito.
 

@@ -1,6 +1,6 @@
 ---
 title: Atribuir funções de usuário de arrendamento
-description: Este tópico descreve as funções de segurança usadas no Arrendamento de ativos. Também explica como atribuir usuários a essas funções.
+description: Este artigo descreve as funções de segurança usadas no Arrendamento de ativos. Também explica como atribuir usuários a essas funções.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1a9e7772448314e0c3fd101576c07a5b6508270f
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 38c859d64742d582d0709506d83600ea26a21147
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878121"
 ---
 # <a name="assign-lease-user-roles"></a>Atribuir funções de usuário de arrendamento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as funções de segurança usadas no Arrendamento de ativos. Também explica como atribuir usuários a essas funções.
+Este artigo descreve as funções de segurança usadas no Arrendamento de ativos. Também explica como atribuir usuários a essas funções.
 
 Três funções de usuário diferenciam o acesso no Arrendamento de ativos. Uma função é apropriada para manter arrendamentos, uma é apropriada para exibir arrendamentos e uma é apropriada para realizar as obrigações de um auxiliar de arrendamento. Cada função tem permissões específicas para todas as páginas de arrendamento e permite que os usuários exibam, criem, editem ou excluam arrendamentos de acordo com suas tarefas.
 

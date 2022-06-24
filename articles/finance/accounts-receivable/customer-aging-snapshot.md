@@ -1,6 +1,6 @@
 ---
 title: 'Instantâneo de classificação por vencimento de cliente '
-description: Este tópico fornece informações sobre os instantâneos de classificação por vencimento de cliente. Um instantâneo de classificação por vencimento calcula os saldos classificados por vencimento de um grupo de clientes em determinado momento.
+description: Este artigo fornece informações sobre os instantâneos de classificação por vencimento de cliente. Um instantâneo de classificação por vencimento calcula os saldos classificados por vencimento de um grupo de clientes em determinado momento.
 author: JodiChristiansen
 ms.date: 05/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54db3e53cd31936ce80f0cdf1147535216d0d4b4
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c1a83f2648b52e436d19a11862e58dc33313f341
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902563"
 ---
 # <a name="customer-aging-snapshots"></a>Instantâneo de classificação por vencimento de cliente 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre os instantâneos de classificação por vencimento de cliente. Um instantâneo de classificação por vencimento calcula os saldos classificados por vencimento de um grupo de clientes em determinado momento. Você pode criar registros de instantâneos de classificação por vencimento para todos os clientes ou para os clientes de um grupo de clientes.
+Este artigo fornece informações sobre os instantâneos de classificação por vencimento de cliente. Um instantâneo de classificação por vencimento calcula os saldos classificados por vencimento de um grupo de clientes em determinado momento. Você pode criar registros de instantâneos de classificação por vencimento para todos os clientes ou para os clientes de um grupo de clientes.
 
 As informações dos instantâneos de classificação por vencimento aparecem na página de listagem **Saldos classificados por vencimento** e na página **Cobranças**. Você deve criar um instantâneo de classificação por vencimento antes de usar a página de listagem **Saldos classificados por vencimento**. A página de listagem lista somente clientes para os quais um instantâneo de classificação por vencimento foi criado.
 

@@ -1,6 +1,6 @@
 ---
 title: Razão integrado
-description: Este tópico descreve a integração de dados do razão entre o Finance and Operations e outros aplicativos do Dynamics 365 usando o Dataverse.
+description: Este artigo descreve a integração de dados do razão entre os aplicativos de finanças e operações e outros aplicativos do Dynamics 365 usando o Dataverse.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847179"
 ---
 # <a name="integrated-ledger"></a>Razão integrado
 
@@ -22,7 +22,7 @@ ms.locfileid: "8063638"
 
 
 
-Em um aplicativo de negócios, os dados do razão definem a configuração principal relacionada ao modo como a empresa faz negócios. Por exemplo, os dados do razão descrevem o ano fiscal seguido pela empresa, as moedas usadas nas transações e as contas que ela utiliza. Este tópico descreve a integração desses dados financeiros principais.
+Em um aplicativo de negócios, os dados do razão definem a configuração principal relacionada ao modo como a empresa faz negócios. Por exemplo, os dados do razão descrevem o ano fiscal seguido pela empresa, as moedas usadas nas transações e as contas que ela utiliza. Este artigo descreve a integração desses dados financeiros principais.
 
 ## <a name="templates"></a>Modelos
 

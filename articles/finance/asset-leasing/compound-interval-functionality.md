@@ -1,6 +1,6 @@
 ---
 title: Funcionalidade com intervalo de composição
-description: Este tópico fornece informações que ajudarão você a escolher entre os intervalos de composição mensal, trimestral, semestral e anual.
+description: Este artigo fornece informações que ajudarão você a escolher entre os intervalos de composição mensal, trimestral, semestral e anual.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886396"
 ---
 # <a name="compounding-interval-functionality"></a>Funcionalidade com intervalo de composição
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico fornece informações que ajudarão você a escolher entre os intervalos de composição mensal, trimestral, semestral e anual. A funcionalidade de intervalo de composição é usada para determinar o número de períodos de composição por ano em uma agenda de pagamento de arrendamento. Cada um dos quatro exemplos neste tópico mostra como será a aparência de uma agenda de pagamento de arrendamento para um intervalo diferente.
+Este artigo fornece informações que ajudarão você a escolher entre os intervalos de composição mensal, trimestral, semestral e anual. A funcionalidade de intervalo de composição é usada para determinar o número de períodos de composição por ano em uma agenda de pagamento de arrendamento. Cada um dos quatro exemplos neste artigo mostra como será a aparência de uma agenda de pagamento de arrendamento para um intervalo diferente.
 
 Não é possível selecionar um intervalo de composição que seja menos frequente do que a frequência de pagamento de arrendamento. Por exemplo, um intervalo de composição trimestral não pode ser usado com uma frequência de pagamento mensal e um intervalo de composição anual não pode ser usado com uma frequência de pagamento semestral. Se você tentar selecionar um intervalo de composição que seja menos frequente do que a frequência de pagamento de arrendamento, você receberá uma mensagem de erro.
 
 > [!NOTE]
-> Em todos os quatro exemplos deste tópico, o intervalo de composição coincide com a frequência de pagamento.
+> Nos quatro exemplos deste artigo, o intervalo de composição coincide com a frequência de pagamento.
 
 ## <a name="examples"></a>Exemplos
 

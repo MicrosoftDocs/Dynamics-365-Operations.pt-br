@@ -1,6 +1,6 @@
 ---
 title: Parâmetros para entidades legais no Brasil
-description: Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações.
+description: Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este artigo explica como definir os parâmetros para especificar estas informações.
 author: sndray
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2f1f09f22f3bf8bb1b11d9869954f9be2aa090cb2a033ede0903e75ba1b72974
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7e8bbc0658d7d95b1bc2091a3cef566bb036494
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717449"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907669"
 ---
 # <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações.
+Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este artigo explica como definir os parâmetros para especificar estas informações.
 
 ## <a name="brazilian-legal-entity-overview"></a>Visão geral da entidade legal brasileira
 

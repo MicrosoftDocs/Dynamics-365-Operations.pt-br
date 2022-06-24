@@ -1,6 +1,6 @@
 ---
 title: Dados-chave de fatura em contas a pagar usando um diário de aprovações
-description: Este tópico explica como usar o registro de fatura para criar faturas e usar no diário de aprovações para atualizar as contas de despesas.
+description: Este artigo explica como usar o registro de fatura para criar faturas e usar no diário de aprovações para atualizar as contas de despesas.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ce66a4b92f26bcec0849accad3878aef2b2f658
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: afe1471949bbf892f4e28ed3bea830ee491a517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909204"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Dados-chave de fatura em contas a pagar usando um diário de aprovações
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como usar o registro de fatura para criar faturas e usar no diário de aprovações para atualizar as contas de despesas.
+Este artigo explica como usar o registro de fatura para criar faturas e usar no diário de aprovações para atualizar as contas de despesas.
 
 ## <a name="create-and-post-and-invoice"></a>Criar e lançar e faturar
 1. No painel de navegação, Acesse **Módulos > Contas a pagar > Faturas > Registro de faturas**.

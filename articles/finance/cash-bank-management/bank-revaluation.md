@@ -1,6 +1,6 @@
 ---
 title: Reavaliação de moeda estrangeira do banco
-description: Este tópico fornece uma visão geral do processo de reavaliação bancária de moeda estrangeira. Ele inclui informações sobre a configuração, a execução do processo, os cálculos do processo e a reversão das transações de reavaliação.
+description: Este artigo fornece uma visão geral do processo de reavaliação bancária de moeda estrangeira. Ele inclui informações sobre a configuração, a execução do processo, os cálculos do processo e a reversão das transações de reavaliação.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711193"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863091"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Reavaliação de moeda estrangeira do banco
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico fornece uma visão geral do processo de reavaliação bancária de moeda estrangeira. Ele explica como configurar e executar o processo e fornece informações sobre os cálculos do processo. Ele também explica a reversão das transações de reavaliação se a reversão for necessária.
+Este artigo fornece uma visão geral do processo de reavaliação bancária de moeda estrangeira. Ele explica como configurar e executar o processo e fornece informações sobre os cálculos do processo. Ele também explica a reversão das transações de reavaliação se a reversão for necessária.
 
 Como parte de um fechamento, as convenções de contabilidade exigem que os saldos de contas bancárias em moedas estrangeiras sejam reavaliados usando diferentes tipos de taxa de câmbio (atual, histórico, médio e assim por diante). O recurso de reavaliação bancária de moeda estrangeira pode ser usado para reavaliar uma ou mais contas bancárias. O recurso também é um recurso global. Portanto, em uma única página, você pode reavaliar bancos em todas as entidades legais às quais você tem acesso.
 

@@ -1,6 +1,6 @@
 ---
 title: Criar um pagamento de imposto retido na fonte
-description: O procedimento de trabalho de pagamento de imposto retido na fonte liquida os saldos de imposto retido na fonte de Contas a pagar em contas de imposto retido na fonte e os desloca para a conta de liquidação de imposto retido na fonte por determinado período. Este tópico lista as etapas para a configuração de um pagamento de imposto retido na fonte.
+description: O procedimento de trabalho de pagamento de imposto retido na fonte liquida os saldos de imposto retido na fonte de Contas a pagar em contas de imposto retido na fonte e os desloca para a conta de liquidação de imposto retido na fonte por determinado período. Este artigo lista as etapas para a configuração de um pagamento de imposto retido na fonte.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 2b374d7aeab4d066b0894dde8f542c2f807d1ef9
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 3d3619137ccb909eed31af3793c6cf2773cc9886
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855394"
 ---
 # <a name="create-a-withholding-tax-payment"></a>Criar um pagamento de imposto retido na fonte
 
-O procedimento de trabalho de pagamento de imposto retido na fonte liquida os saldos de imposto retido na fonte de Contas a pagar em contas de imposto retido na fonte e os desloca para a conta de liquidação de imposto retido na fonte por determinado período. Este tópico lista as etapas para a configuração de um pagamento de imposto retido na fonte.
+O procedimento de trabalho de pagamento de imposto retido na fonte liquida os saldos de imposto retido na fonte de Contas a pagar em contas de imposto retido na fonte e os desloca para a conta de liquidação de imposto retido na fonte por determinado período. Este artigo lista as etapas para a configuração de um pagamento de imposto retido na fonte.
 
 > [!NOTE] 
 > A contrapartida de imposto retido na fonte (de contas a receber) não é levada em conta quando é calculado um pagamento de imposto retido na fonte.

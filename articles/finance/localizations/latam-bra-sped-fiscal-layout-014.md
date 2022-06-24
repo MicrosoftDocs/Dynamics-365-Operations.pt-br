@@ -1,6 +1,6 @@
 ---
 title: SPED fiscal ICMS-IPI layout 014
-description: Este tópico explica como configurar e gerar o layout de demonstrativo 014 do SPED fiscal.
+description: Este artigo explica como configurar e gerar o layout de demonstrativo 014 do SPED fiscal.
 author: sndray
 ms.date: 01/21/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37b913236f12b357b5f2b51dc2dfd84122cb700f9a44e662329d9ed431d0547c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e28bb7b2682164a40e8da98ea966b5004e6a4b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906226"
 ---
 # <a name="sped-fiscal-icms-ipi-layout-014"></a>SPED fiscal ICMS-IPI layout 014 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar e gerar o layout de demonstrativo 014 do SPED fiscal. Este layout é aplicável a partir de janeiro de 2020, no guia prático, **EFD-ICMS/IPI – versão 3.0.3**.
+Este artigo explica como configurar e gerar o layout de demonstrativo 014 do SPED fiscal. Este layout é aplicável a partir de janeiro de 2020, no guia prático, **EFD-ICMS/IPI – versão 3.0.3**.
 
 Para exibir o novo layout, Acesse **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais** \> **SPED Fiscal** \> **Parâmetros do SPED Fiscal** \> **Versão do layout**.
 

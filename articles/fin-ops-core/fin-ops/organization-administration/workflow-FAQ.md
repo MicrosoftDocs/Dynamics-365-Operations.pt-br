@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes sobre fluxo de trabalho
-description: Esse tópico responde perguntas frequentes sobre o sistema de fluxo de trabalho.
+description: Esse artigo responde perguntas frequentes sobre o sistema de fluxo de trabalho.
 author: ChrisGarty
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
-ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.openlocfilehash: a72fd141bb1178a3a83385c512d1a655064d5b00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896569"
 ---
 # <a name="workflow-faq"></a>Perguntas frequentes sobre fluxo de trabalho
 
@@ -26,7 +26,7 @@ ms.locfileid: "8370871"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Esse tópico responde perguntas frequentes sobre o sistema de fluxo de trabalho.
+Esse artigo responde perguntas frequentes sobre o sistema de fluxo de trabalho.
 
 ## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a>Por que várias notificações são recebidas quando um item de trabalho é rejeitado?
 Quando um item de trabalho é rejeitado, esse item de trabalho é concluído como anulado. Outro item de trabalho é criado e atribuído ao originador. Isso significa que há uma notificação para o originador do item de trabalho rejeitado, e uma notificação separada para o usuário atribuído ao novo item de trabalho com "alteração solicitada". 

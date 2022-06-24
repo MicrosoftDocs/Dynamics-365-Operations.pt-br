@@ -1,6 +1,6 @@
 ---
 title: Arquivos fiscais SPED
-description: Este tópico explica como configurar e gerar arquivos de exportação SPED para o Brasil.
+description: Este artigo explica como configurar e gerar arquivos de exportação SPED para o Brasil.
 author: ShylaThompson
 ms.date: 08/27/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3637aa049b1ed4061dfccf559b632afb4a01e80936a7838ac707d2e528534bd1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e2002f21b14e3cce71820c66c2a294ff7872cd0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893946"
 ---
 # <a name="sped-fiscal-files"></a>Arquivos fiscais SPED 
 

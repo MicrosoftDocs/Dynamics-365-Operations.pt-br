@@ -1,6 +1,6 @@
 ---
 title: Gerenciar a validação da conta do IBAN (número de conta bancária internacional)
-description: Este tópico explica como gerenciar a validação da conta do IBAN (número de conta bancária internacional).
+description: Este artigo explica como gerenciar a validação da conta do IBAN (Número de Conta Bancária Internacional).
 author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 3d825e8699fbe10e080cd85f15d3d86f8c780f15
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880889"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Gerenciar a validação da conta do IBAN (número de conta bancária internacional)
 

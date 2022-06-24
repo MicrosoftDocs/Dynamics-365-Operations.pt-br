@@ -1,6 +1,6 @@
 ---
 title: Notas fiscais complementares de vendas para o Brasil
-description: Este tópico descreve a fatura complementar de vendas da localização brasileira.
+description: Este artigo descreve a fatura complementar de vendas da localização brasileira.
 author: sndray
 ms.date: 08/08/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d045778c61d0babc3b4d3820c338b88ddcab54ceb3b546d5a72c2a1181e0ece4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91c0259cc6483f115a7e1e4700bbf9e6a0e8e64d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889784"
 ---
 # <a name="sales-complementary-fiscal-documents-for-brazil"></a>Notas fiscais complementares de vendas para o Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a fatura complementar de vendas da localização brasileira.
+Este artigo descreve a fatura complementar de vendas da localização brasileira.
 
 ## <a name="overview"></a>Visão Geral
 

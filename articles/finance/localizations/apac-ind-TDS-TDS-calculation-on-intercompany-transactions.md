@@ -1,6 +1,6 @@
 ---
 title: Cálculo do TDS em transações entre empresas
-description: Este tópico descreve o processo usado para calcular o Imposto Deduzido na Origem (TDS) em transações entre empresas em fases.
+description: Este artigo descreve o processo usado para calcular o Imposto Deduzido na Origem (TDS) em transações entre empresas em fases.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 381b00c64e3e3a09a245c82cbe1f1599986a49aa
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c27bea997804f2c5eff6be2b20064b272ccd062f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888963"
 ---
 # <a name="tds-calculation-on-intercompany-transactions"></a>Cálculo do TDS em transações entre empresas
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o processo usado para calcular o Imposto Deduzido na Origem (TDS) em transações entre empresas em fases.
+Este artigo descreve o processo usado para calcular o Imposto Deduzido na Origem (TDS) em transações entre empresas em fases.
 
 Quando uma ordem de compra ou venda entre empresas é criada, o grupo de TDS padrão definido para o cliente ou fornecedor é usado para calcular o valor do TDS. O valor do TDS é lançado nas contas a recuperar ou a pagar após o lançamento da fatura.
 

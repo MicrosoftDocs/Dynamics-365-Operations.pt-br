@@ -1,6 +1,6 @@
 ---
 title: Exibir os pagamentos e as transações de TDS lançados por um período de liquidação de TDS
-description: Este tópico explica como exibir os pagamentos e transações do Imposto Deduzido na Origem (TDS) que foram lançados para um período de liquidação.
+description: Este artigo explica como exibir os pagamentos e transações do Imposto Deduzido na Origem (TDS) que foram lançados para um período de liquidação.
 author: kailiang
 ms.date: 03/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6f8c97d1f42af6c073e45c88237d59699a32fc7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c441b6f26636ef1f18e3910a201d02feb4350f33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898049"
 ---
 # <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>Exibir os pagamentos e as transações de TDS lançados por um período de liquidação de TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como exibir os pagamentos e transações do Imposto Deduzido na Origem (TDS) que foram lançados para um período de liquidação.
+Este artigo explica como exibir os pagamentos e transações do Imposto Deduzido na Origem (TDS) que foram lançados para um período de liquidação.
 
 1. Acesse **Imposto \> Impostos indiretos \> Imposto retido na fonte \> Períodos de liquidação de imposto retido na fonte**.
 

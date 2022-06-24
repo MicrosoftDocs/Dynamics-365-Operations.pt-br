@@ -1,6 +1,6 @@
 ---
 title: Pacote de orquestração de aplicativos com gravação dupla separado
-description: O pacote de orquestração de aplicativos com gravação dupla não é mais um pacote único, mas foi separado em pacotes menores. Este tópico explica as soluções e os mapas que cada pacote contém e sua dependência em outros pacotes.
+description: O pacote de orquestração de aplicativos com gravação dupla não é mais um pacote único, mas foi separado em pacotes menores. Este artigo explica as soluções e os mapas que cada pacote contém e sua dependência em outros pacotes.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716542"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874802"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Pacote de orquestração de aplicativos com gravação dupla separado
 
@@ -42,7 +42,7 @@ Como era um pacote único, ele criou uma situação de "tudo ou nada" para os cl
 
 ![Pacote separado.](media/separated-package-1.png)
 
-Este tópico explica as soluções e os mapas que cada pacote contém e sua dependência em outros pacotes.
+Este artigo explica as soluções e os mapas que cada pacote contém e sua dependência em outros pacotes.
 
 ## <a name="dual-write-application-core"></a>Núcleo de aplicativos com gravação dupla
 

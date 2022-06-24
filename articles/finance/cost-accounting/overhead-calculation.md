@@ -1,6 +1,6 @@
 ---
 title: Cálculo de custos indiretos
-description: Este tópico descreve processos comuns para calcular e alocar os custos gerais indiretos.
+description: Este artigo descreve processos comuns para calcular e alocar os custos gerais indiretos.
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881981"
 ---
 # <a name="overhead-calculation"></a>Cálculo de custos indiretos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve processos comuns para calcular e alocar os custos gerais indiretos.
+Este artigo descreve processos comuns para calcular e alocar os custos gerais indiretos.
 
 ## <a name="term-definition"></a>Definição de termo
 
@@ -1333,10 +1333,10 @@ Elemento de custo | Objeto de custo<br>CC099 | Objeto de custo<br>CC001 | Objeto
 10001 Eletricidade | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10,00 | 7,770.57 | 2,189.43 | 10,000.00 |
 Não classificado | 0,00 |  |  |  |  |  |  |  |  |  |
 Custo fixo | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Custo variável | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+Custo variável | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30.00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> Esse tópico mostra como um elemento de custo principal, 10001 Eletricidade flui pelos objetos de custo. Portanto, esse custo geral indireto é alocado no nível mais baixo na organização. Em outras palavras, os objetos de custo no nível mais baixo assumem o custo. Se você exigir um fluxo visual de custo entre objetos de custo, é possível usar as regras de política de acúmulo de custos para visualizar o fluxo de custo. Para obter mais informações, consulte [Política de acúmulo de custo e cálculo de custos indiretos](cost-rollup.md).
+> Este artigo mostra como um elemento de custo principal, 10001 Eletricidade flui pelos objetos de custo. Portanto, esse custo geral indireto é alocado no nível mais baixo na organização. Em outras palavras, os objetos de custo no nível mais baixo assumem o custo. Se você exigir um fluxo visual de custo entre objetos de custo, é possível usar as regras de política de acúmulo de custos para visualizar o fluxo de custo. Para obter mais informações, consulte [Política de acúmulo de custo e cálculo de custos indiretos](cost-rollup.md).
 
 
 

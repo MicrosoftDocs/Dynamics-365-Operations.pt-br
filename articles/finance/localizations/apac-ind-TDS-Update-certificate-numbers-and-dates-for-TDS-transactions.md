@@ -1,6 +1,6 @@
 ---
 title: Atualizar números e datas de certificado para transações de TDS
-description: Este tópico explica como atualizar os números e datas do certificado recuperável que foram registrados para contas de fornecedor, cliente e razão para Imposto Deduzido na Origem (TDS).
+description: Este artigo explica como atualizar os números e datas do certificado recuperável que foram registrados para contas de fornecedor, cliente e razão para Imposto Deduzido na Origem (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f8b5713e8ce3f9e9c89b8b3bc6ea84fe1f0fa54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 147a27261a4a282550f0bacede78c9edd38b4fe6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904431"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Atualizar números e datas de certificado para transações de TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como atualizar os números e datas do certificado recuperável que foram registrados para contas de fornecedor, cliente e razão para Imposto Deduzido na Origem (TDS). Você pode exibir os certificados para transações de TDS na página **Certificados recuperáveis**. Você pode atualizar os certificados usando a página **Atualizar Certificados**.
+Este artigo explica como atualizar os números e datas do certificado recuperável que foram registrados para contas de fornecedor, cliente e razão para Imposto Deduzido na Origem (TDS). Você pode exibir os certificados para transações de TDS na página **Certificados recuperáveis**. Você pode atualizar os certificados usando a página **Atualizar Certificados**.
 
 Siga estas etapas para atualizar os números e datas dos certificados para transações de TDS.
 

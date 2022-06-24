@@ -1,6 +1,6 @@
 ---
 title: Bases de alocação
-description: Este tópico fornece informações sobre bases de alocação. As bases de alocação são componentes-chave na contabilização de custo e são mais usadas para alocar custos gerais indiretos.
+description: Este artigo fornece informações sobre bases de alocação. As bases de alocação são componentes-chave na contabilização de custo e são mais usadas para alocar custos gerais indiretos.
 author: AndersGirke
 ms.date: 05/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb50fe7d258bdd56529bc5d0ef55dae309d3edec
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 138a1a101610fc0f18ef3d8d2d3d336e5a48a1da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894074"
 ---
 # <a name="allocation-bases"></a>Bases de alocação 
 
@@ -174,7 +174,7 @@ A contabilização de custo suporta uma coleção de medições estatísticas us
 - Ferramenta de Importação/exportação do gerenciamento de dados
 - Medidas estatísticas
 
-Para obter as medições estatísticas do sistema, um modelo do provedor de medidas estatísticas é necessário. Para obter mais informações, consulte o modelo do provedor de medidas estatísticas. (Adicionará um link após este tópico ser gravado.)
+Para obter as medições estatísticas do sistema, um modelo do provedor de medidas estatísticas é necessário. Para obter mais informações, consulte o modelo do provedor de medidas estatísticas. (Adicionará um link após este artigo ser gravado.)
 
 **Modelos de provedor de medidas estatísticas**
 

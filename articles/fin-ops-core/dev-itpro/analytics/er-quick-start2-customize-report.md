@@ -1,6 +1,6 @@
 ---
-title: Ajustar um formato de ER para gerar um documento eletrônico personalizado
-description: Este tópico explica como ajustar um formato de relatório eletrônico (ER) fornecido pela Microsoft para gerar um documento eletrônico personalizado.
+title: Ajustar um formato ER para gerar um documento eletrônico personalizado
+description: Este artigo explica como ajustar um formato de relatório eletrônico (ER) fornecido pela Microsoft para gerar um documento eletrônico personalizado.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886781"
 ---
-# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajustar um formato de ER para gerar um documento eletrônico personalizado
+# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajustar um formato ER para gerar um documento eletrônico personalizado
 
 [!include[banner](../includes/banner.md)]
 
-Os procedimentos descritos neste tópico explicam como um usuário que tem a função de Administrador do Sistema ou de Consultor Funcional de Relatório Eletrônico pode executar estas tarefas:
+Os procedimentos descritos neste artigo explicam como um usuário que tem a função de Administrador do Sistema ou de Consultor Funcional de Relatório Eletrônico pode executar estas tarefas:
 
 - Configurar parâmetros para a [estrutura de relatórios eletrônicos (ER)](general-electronic-reporting.md).
 - Importar as configurações de ER fornecidas pela Microsoft e utilizadas para gerar um arquivo de pagamento enquanto um [pagamento de fornecedor](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md) está sendo processado.

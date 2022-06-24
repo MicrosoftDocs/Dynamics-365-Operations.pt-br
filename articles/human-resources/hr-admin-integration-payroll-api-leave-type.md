@@ -1,6 +1,6 @@
 ---
 title: Tipo de licença
-description: Este tópico fornece detalhes e um exemplo de consulta da entidade de tipo de licença no Dynamics 365 Human Resources.
+description: Este artigo fornece detalhes e um exemplo de consulta da entidade de tipo de licença no Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dced58e6e9f6c20578e4582e4cf39162622713e7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6e7905989df92e943b86f86194c87dcb2a7b1446
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893776"
 ---
 # <a name="leave-type"></a>Tipo de licença
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069898"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico descreve a entidade tipo de licença para o Dynamics 365 Human Resources.
+Este artigo descreve a entidade de tipo de licença para o Dynamics 365 Human Resources.
 
-### <a name="description"></a>descrição
+### <a name="description"></a>Descrição
 
 Esta entidade fornece informações sobre um tipo de licença determinado.
 

@@ -1,6 +1,6 @@
 ---
-title: ​Perguntas frequentes sobre ativação​
-description: Este tópico lista as perguntas frequentes sobre como ativar um projeto de implementação do Dynamics 365 Human Resources.
+title: Perguntas frequentes sobre o Go Live
+description: Este artigo lista as perguntas frequentes sobre como ativar um projeto de implementação do Dynamics 365 Human Resources.
 author: rachel-profitt
 ms.date: 10/13/2020
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5b0f58c7ebf03466805d20806316f6f1c32e4a4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dfb2434b0d0573f2edab228fcca77ee653d751a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853093"
 ---
-# <a name="go-live-faq"></a>​Perguntas frequentes sobre ativação​ 
+# <a name="go-live-faq"></a>Perguntas frequentes sobre o Go Live 
 
 
 [!INCLUDE [PEAP](../includes/peap-2.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "8695350"
 
 
 
-Este tópico lista as perguntas frequentes sobre como ativar um projeto de implementação do Dynamics 365 Human Resources. 
+Este artigo lista as perguntas frequentes sobre como ativar um projeto de implementação do Dynamics 365 Human Resources. 
 
 ## <a name="when-can-i-configure-and-request-my-production-environment"></a>Quando posso configurar e solicitar meu ambiente de produção? 
 

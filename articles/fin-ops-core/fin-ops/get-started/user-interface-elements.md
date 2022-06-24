@@ -1,6 +1,6 @@
 ---
 title: Elementos da interface do usuário
-description: Este tópico descreve os elementos da interface do usuário (IU) usados no aplicativo.
+description: Este artigo descreve os elementos da interface do usuário usados no aplicativo.
 author: tlefor
 ms.date: 08/09/2019
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 60f5abfe009b45adc5ae5f064f1b5c367f2844f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906490"
 ---
 # <a name="user-interface-elements"></a>Elementos da interface do usuário
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tópico descreve os elementos da interface do usuário (IU) usados no aplicativo. Para que os usuários possam navegar na interface, é importante saber os nomes e funções dos elementos que constituem a interface.
+Este artigo descreve os elementos da interface do usuário usados no aplicativo. Para que os usuários possam navegar na interface, é importante saber os nomes e funções dos elementos que constituem a interface.
 
 ## <a name="overview"></a>Visão Geral
 

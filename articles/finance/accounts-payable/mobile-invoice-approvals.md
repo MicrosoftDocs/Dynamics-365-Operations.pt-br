@@ -1,42 +1,42 @@
 ---
 title: Aprovações de fatura móvel
-description: Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis tirando aprovações da fatura de fornecedor do celular como um caso de uso.
+description: Este artigo tem como objetivo fornecer uma abordagem prática para criar cenários móveis tirando aprovações da fatura de fornecedor do celular como um caso de uso.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737346"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946264"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprovações de fatura móvel
 
 [!include [banner](../includes/banner.md)]
 
-Os recursos móveis permitem que um usuário corporativo crie experiências móveis. Para cenários avançados, a plataforma também permite que os desenvolvedores estendam as funcionalidades que desejam. A maneira mais eficaz de aprender alguns dos novos conceitos em dispositivo móvel é passar pelo processo de desenvolvimento de alguns cenários. Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis tirando aprovações da fatura de fornecedor do celular como um caso de uso. Esse tópico deve ajudá-lo a criar outras variações de cenários e também pode ser aplicado a outros cenários que não são relacionados a faturas de fornecedor.
+Os recursos móveis permitem que um usuário corporativo crie experiências móveis. Para cenários avançados, a plataforma também permite que os desenvolvedores estendam as funcionalidades que desejam. A maneira mais eficaz de aprender alguns dos novos conceitos em dispositivo móvel é passar pelo processo de desenvolvimento de alguns cenários. Este artigo tem como objetivo fornecer uma abordagem prática para criar cenários móveis tirando aprovações da fatura de fornecedor do celular como um caso de uso. Esse artigo deve ajudá-lo a criar outras variações de cenários e também pode ser aplicado a outros cenários que não são relacionados a faturas de fornecedor.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-| Pré-requisito                                                                                            | descrição                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pré-requisito                                                                                            | Descrição                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Pré-leitura do manual móvel                                                                                |[Plataforma móvel](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Um ambiente com a versão 1611 e a Platform update 3 (novembro de 2016)                   |
 | Instalar hotfix KB 3204341.                                                                              | O gravador de tarefas pode registrar erroneamente dois comandos Fechar para caixas de diálogo suspensas; isso está incluído na Platform update 3 (atualização de novembro de 2016). |
 | Instalar hotfix KB 3207800.                                                                              | Este hotfix habilita a exibição de anexos no cliente móvel; isso está incluído na Platform update 3 (atualização de novembro de 2016).           |
 | Instalar hotfix KB 3208224.                                                                              | Código do aplicativo para o aplicativo móvel de aprovação de fatura de fornecedor; isso está incluído na versão 7.0.1 (maio de 2016).                          |
-| Um dispositivo Android, iOS ou Windows que tenha o aplicativo móvel instalado. | Procurar pelo aplicativo na loja de aplicativo apropriada.                                                                                                                     |
+| Um dispositivo Android, iOS ou Windows que tenha o aplicativo móvel instalado. | Procurar pelo aplicativo na loja de aplicativo apropriada.                            |
 
 ## <a name="introduction"></a>Apresentação
 Aprovações móveis para faturas de fornecedor exigem os três hotfixes mencionados na seção "Pré-requisitos". Esses hotfixes não fornecem um espaço de trabalho para as aprovações de fatura. Para saber o que é um espaço de trabalho no contexto de dispositivo móvel, leia o manual do dispositivo mencionado na seção “Pré-requisitos”. O espaço de trabalho das aprovações de fatura deve ser criado. 
@@ -51,15 +51,15 @@ Cada organização orquestra e define seu processo comercial para faturas de for
     -   As faturas também têm distribuições contábeis no cabeçalho da fatura? Em caso afirmativo, essas distribuições contábeis devem estar disponíveis no dispositivo?
 
     > [!NOTE]
-    > Este tópico explica como não editar distribuições contábeis, porque essa funcionalidade não é suportada atualmente para cenários móveis.
+    > Este artigo explica como não editar distribuições contábeis, porque essa funcionalidade não é suportada atualmente para cenários móveis.
 
 -   Os usuários desejarão consultar anexos da fatura no dispositivo?
 
-O design da experiência móvel para aprovações de fatura será diferente, dependendo das respostas a essas perguntas. O objetivo é otimizar a experiência de usuário do processo comercial no celular em uma organização. No restante deste tópico, olharemos duas variações de cenário baseadas em diferentes respostas às perguntas acima. 
+O design da experiência móvel para aprovações de fatura será diferente, dependendo das respostas a essas perguntas. O objetivo é otimizar a experiência de usuário do processo comercial no celular em uma organização. No restante deste artigo, olharemos duas variações de cenário baseadas em diferentes respostas às perguntas acima. 
 
 Como regra geral, ao trabalhar com o designer móvel, certifique-se de “publicar” as alterações para evitar perda de atualizações.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Como criar um cenário simples de aprovação de fatura para a Contoso
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Como criar um cenário simples de aprovação de fatura para Contoso
 <table>
 <colgroup>
 <col width="50%" />

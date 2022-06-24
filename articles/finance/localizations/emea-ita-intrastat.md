@@ -1,6 +1,6 @@
 ---
-title: Intrastat italiana
-description: Este tópico contém informações sobre o relatório Intrastat na Itália.
+title: Intrastat italiano
+description: Este artigo contém informações sobre o relatório Intrastat na Itália.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874353"
 ---
 # <a name="italian-intrastat"></a>Intrastat italiana
 
@@ -631,7 +631,7 @@ Siga estas etapas para configurar as opções específicas de italiano para que 
 
     Para obter mais informações, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2. No Dynamics 365 Finance, acesse **Imposto** > **Configuração** > **Parâmetros de comércio estrangeiro**.
+2. No Dynamics 365 Finance, vá para **Imposto** > **Configuração** > **Parâmetros de comércio exterior**.
 3. Na guia **Intrastat**, na Guia Rápida **Geral**, configure os seguintes campos:
 
     - **Região de origem/destino**: selecione a região da sua empresa. Esta região será usada em envios.
@@ -650,7 +650,7 @@ Siga estas etapas para configurar as opções específicas de italiano para que 
 6. Na Guia Rápida **Valor estatístico**, defina a opção **Imprimir e exportar dados estatísticos** como **Sim**, se necessário. Essa configuração ativa a transferência da seção estatística. A seção estatística consiste em dados sobre pesos, unidades adicionais, valores estatísticos, condições de entrega, programações de entrega, modos de transporte e regiões de origem.
 
     > [!NOTE]
-    > No caso de uma declaração trimestral, o relatório Intrastat não inclui a seção estatística nem as informações sobre termos de entrega e modos de transporte. Para obter mais informações, consulte a tabela na seção [Visão geral](#overview) deste tópico.
+    > No caso de uma declaração trimestral, o relatório Intrastat não inclui a seção estatística nem as informações sobre termos de entrega e modos de transporte. Para obter mais informações, consulte a tabela na seção [Visão geral](#overview) deste artigo.
 
 7. Na guia **Propriedades de país/região**, indique todos os países ou regiões com os quais sua organização faz negócios. Em cada país ou região, defina os seguintes campos:
 

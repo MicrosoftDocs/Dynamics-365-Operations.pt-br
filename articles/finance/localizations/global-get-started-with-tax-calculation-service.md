@@ -1,6 +1,6 @@
 ---
 title: Introdução ao Cálculo de Imposto
-description: Este tópico explica como configurar o Cálculo de Imposto.
+description: Este artigo explica como configurar o Cálculo de Imposto.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855270"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introdução ao Cálculo de Imposto
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre como começar a usar o Cálculo de Imposto. As seções neste tópico guiam você pelas etapas de design e configuração de alto nível no Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance e no Dynamics 365 Supply Chain Management. 
+Este artigo fornece informações sobre como começar a usar o Cálculo de Imposto. As seções neste artigo guiam você pelas etapas de design e configuração de alto nível no Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance e no Dynamics 365 Supply Chain Management. 
 
 A configuração consiste em três etapas principais.
 
@@ -77,11 +77,11 @@ Depois de concluir essas etapas, as configurações a seguir são sincronizadas 
 - Grupos de impostos
 - Grupos de impostos do item
 
-As seções restantes neste tópico fornecem etapas de configuração mais detalhadas.
+As seções restantes neste artigo fornecem etapas de configuração mais detalhadas.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de poder concluir os procedimentos restantes neste tópico, os seguintes pré-requisitos devem ser atendidos:<!--TO HERE-->
+Antes de poder concluir os procedimentos restantes neste artigo, os seguintes pré-requisitos devem ser atendidos:<!--TO HERE-->
 
 - Você deve ter acesso à conta do LCS e deve ter um projeto do LCS implantado com ambiente com Camada 2 ou superior que executa o Dynamics 365 versão 10.0.21 ou posterior.
 - Você deve criar um ambiente de RCS para sua organização e deve ter acesso à sua conta. Para obter mais informações sobre como criar um ambiente de RCS, consulte [Visão geral do Regulatory Configuration Service](rcs-overview.md).
@@ -212,7 +212,7 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     | Vendas            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]
-    > Se o grupo de impostos sobre vendas padrão nas linhas do documento tributável estiver correto, deixe esta matriz em branco. Para obter mais informações, consulte a seção [Design de runtime](#runtime) neste tópico.
+    > Se o grupo de impostos sobre vendas padrão nas linhas do documento tributável estiver correto, deixe esta matriz em branco. Para obter mais informações, consulte a seção [Design de runtime](#runtime) neste artigo.
 
 22. Na guia **Aplicabilidade do grupo de impostos do item**, selecione as colunas necessárias para determinar o código do imposto correto e selecione **Adicionar**. Insira ou selecione os valores de cada coluna. O campo **Grupo de impostos** será a saída dessa matriz. Se essa guia não estiver configurada, será usado o grupo de impostos do item na linha da transação.
 
@@ -224,7 +224,7 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     | D0003     | Reduzido        |
 
     > [!NOTE]
-    > Se o grupo de impostos sobre vendas de itens padrão nas linhas do documento tributável estiver correto, deixe esta matriz em branco. Para obter mais informações, consulte a seção [Design de runtime](#runtime) neste tópico.
+    > Se o grupo de impostos sobre vendas de itens padrão nas linhas do documento tributável estiver correto, deixe esta matriz em branco. Para obter mais informações, consulte a seção [Design de runtime](#runtime) neste artigo.
 
     Para obter mais informações sobre como os códigos de impostos são determinados no Cálculo do Imposto, consulte [Grupo de impostos e lógica de determinação do grupo de impostos do item](global-sales-tax-group-determination.md).
 
@@ -243,7 +243,7 @@ A configuração nesta seção é realizada pela entidade legal. É necessário 
 2. Na guia **Geral**, defina os seguintes campos:
 
     - **Habilitar Serviço de Cálculo de Imposto** – marque esta caixa de seleção para habilitar o Cálculo de Imposto da entidade legal. Se ele não estiver habilitado para a entidade legal atual, a entidade legal continuará usando o mecanismo de imposto existente para determinar e calcular o imposto.
-    - **Configuração do recurso** – selecione uma configuração e versão de recurso de imposto publicado da entidade legal. Para obter mais informações sobre como configurar e concluir um recurso de imposto publicado, consulte a versão anterior deste tópico.
+    - **Configuração do recurso** – selecione uma configuração e versão de recurso de imposto publicado da entidade legal. Para obter mais informações sobre como configurar e concluir um recurso de imposto publicado, consulte a versão anterior deste artigo.
     - **Processo Comercial** – Selecione os processos comerciais a serem habilitados.
 
 3. Na guia **Cálculo**, defina a regra de arredondamento esperada para a entidade legal. Para obter mais informações sobre a lógica de arredondamento, consulte [Regras de arredondamento de cálculo de imposto](https://go.microsoft.com/fwlink/?linkid=2166988).

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa58a7b072b75fe5a58f6d04bd6426f2958f1f8
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901274"
 ---
 # <a name="ledger-allocation-rules"></a>Regras de alocação do razão
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece informações gerais sobre as regras de alocação do razão. Ele descreve os diversos componentes dessas regras de alocação e os métodos de alocação que podem ser usados para eles.
+Este artigo oferece informações gerais sobre as regras de alocação do razão. Ele descreve os diversos componentes dessas regras de alocação e os métodos de alocação que podem ser usados para eles.
 
 As regras de alocação do razão são usadas para calcular e gerar automaticamente os diários de alocação e entradas de conta da alocação dos saldos ou valores fixos do razão. Os métodos de alocação podem ser fixos ou variáveis. Os seguintes métodos de alocação podem ser usados para regras de alocação do razão:
 

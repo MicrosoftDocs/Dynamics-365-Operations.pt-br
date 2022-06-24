@@ -1,6 +1,6 @@
 ---
 title: Habilitar pesquisa de dados mestres para configuração de cálculo de imposto
-description: Este tópico explica como configurar e habilitar o recurso de pesquisa de dados mestres do cálculo de imposto.
+description: Este artigo explica como configurar e habilitar o recurso de pesquisa de dados mestres do cálculo de imposto.
 author: kai-cloud
 ms.date: 11/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d9c234781e55fbf7f29eec14666c939d5d60e2fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879399"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Habilitar pesquisa de dados mestres para configuração de cálculo de imposto 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar e habilitar o recurso de pesquisa de dados mestres do cálculo de imposto. Uma lista suspensa está disponível para selecionar valores na configuração do cálculo de imposto para campos como **Entidade legal**, **Conta de fornecedor**, **Código do item** e **Prazo de entrega**. Esses valores são provenientes do ambiente conectado do Microsoft Dynamics 365 Finance usando a fonte de dados do Microsoft Dataverse.
+Este artigo explica como configurar e habilitar o recurso de pesquisa de dados mestres do cálculo de imposto. Uma lista suspensa está disponível para selecionar valores na configuração do cálculo de imposto para campos como **Entidade legal**, **Conta de fornecedor**, **Código do item** e **Prazo de entrega**. Esses valores são provenientes do ambiente conectado do Microsoft Dynamics 365 Finance usando a fonte de dados do Microsoft Dataverse.
 
 > [!NOTE] 
 > A funcionalidade de pesquisa de dados mestres do cálculo de imposto é opcional. É possível ignorar as etapas a seguir se você desabilitar o recurso **Suporte à fonte de dados do Serviço de Imposto do Dataverse** no RCS (Regulatory Configuration Service). No entanto, nesse caso, a lista suspensa não estará disponível na configuração de cálculo de imposto.

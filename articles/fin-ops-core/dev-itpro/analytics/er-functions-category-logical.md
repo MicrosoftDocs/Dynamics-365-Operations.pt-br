@@ -1,6 +1,6 @@
 ---
 title: Lista de funções ER na categoria lógica
-description: Este tópico fornece informações sobre as funções lógicas que são compatíveis no relatório eletrônico (ER).
+description: Este artigo fornece informações sobre as funções lógicas que são compatíveis no relatório eletrônico (ER).
 author: NickSelin
 ms.date: 02/11/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43cbecf80ff70dac058977932c3a0bb03662cd98a88c68407051bdc584609d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2361fa0df3fe60813e75c772134299ad948f3582
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888181"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Lista de funções ER na categoria lógica
 
 [!include [banner](../includes/banner.md)]
 
-As funções lógicas relatório eletrônico (ER) podem ser usadas para trabalhar com valores lógicos a fim de executar mais de uma comparação em uma única expressão ou testar várias condições. Este tópico fornece um resumo dessas funções.
+As funções lógicas relatório eletrônico (ER) podem ser usadas para trabalhar com valores lógicos a fim de executar mais de uma comparação em uma única expressão ou testar várias condições. Este artigo fornece um resumo dessas funções.
 
 ## <a name="list-of-supported-functions"></a>Lista de funções com suporte
 

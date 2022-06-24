@@ -1,6 +1,6 @@
 ---
 title: Processar alocações
-description: Este tópico fornece informações sobre alocações, as opções para processá-las no Microsoft Dynamics 365 Finance e como elas podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
+description: Este artigo fornece informações sobre alocações, as opções para processá-las no Microsoft Dynamics 365 Finance e como elas podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d300654269ef0ad52140f160f918707397c843ad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 0629b32d39f4d74ec37eebe92b92e0b186b5fce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877973"
 ---
-# <a name="process-allocations"></a>Processar alocações
+# <a name="process-allocations"></a>​Processar alocações​
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre alocações, as opções para processá-las e como elas podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
+Este artigo fornece informações sobre alocações, opções para processamento e como elas podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Elas ajudam a garantir que as despesas ou as receitas sejam cobradas no objeto correto na contabilidade.
 
 Os seguintes recursos oferecem suporte a esse processo:
 

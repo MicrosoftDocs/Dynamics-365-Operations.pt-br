@@ -1,6 +1,6 @@
 ---
 title: Conteúdo de análise de gastos em compras do Power BI
-description: Este tópico descreve o que está incluído no conteúdo do Power BI de análise de gastos da compra.
+description: Este artigo descreve o que está incluído no conteúdo do Power BI de análise de gastos da compra.
 author: FrankDahl
 ms.date: 04/24/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a40d4f39a7119def9ed0393d4ced2be1f7e801a5c1c3f984b002e5224299915a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08937d36be27f7b21ab50473715cc155e4fd0c9e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892730"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Conteúdo de análise de gastos em compras do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo **Análise de gastos em compras** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
+Este artigo descreve o que está incluído no conteúdo do Microsoft Power BI de **Análise de gastos da compra**. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 

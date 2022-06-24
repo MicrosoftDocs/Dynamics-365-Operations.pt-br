@@ -1,6 +1,6 @@
 ---
-title: Adiar a execução de elementos de sequência nos formatos de ER
-description: Este tópico explica como adiar a execução de um elemento de sequência em um formato de ER (Relatório eletrônico).
+title: Adiar a execução de elementos de sequência nos formatos ER
+description: Este artigo explica como adiar a execução de um elemento de sequência em um formato de ER (Relatório eletrônico).
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 5d4c5395c87c7bdc874f277a691e84081f68742d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880217"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Adiar a execução de elementos de sequência nos formatos de ER
 
@@ -32,7 +32,7 @@ Você pode usar o Designer de operações da estrutura do [Relatório Eletrônic
 
 Ao ativar a opção <a name="DeferredSequenceExecution"></a>**Execução adiada** para um elemento de formato de sequência no formato configurado, você pode adiar (postergar) a execução desse elemento. Nesse caso, o elemento não será executado até que todos os outros elementos de seu pai tenham sido executados.
 
-Para saber mais sobre este recurso, conclua o exemplo neste tópico.
+Para saber mais sobre este recurso, conclua o exemplo neste artigo.
 
 ## <a name="limitations"></a>Limitações
 
@@ -53,7 +53,7 @@ Para concluir este exemplo, você deve ter acesso à empresa **USMF** no Finance
 - Consultor funcional de relatório eletrônico
 - Administrador do sistema
 
-Se você ainda não tiver concluído o exemplo no tópico [Adiar a execução de elementos XML nos formatos de ER](er-defer-xml-element.md#Example), baixe as [configurações](general-electronic-reporting.md#Configuration) a seguir do exemplo da solução ER.
+Se você ainda não tiver concluído o exemplo no artigo [Adiar a execução de elementos XML nos formatos de ER](er-defer-xml-element.md#Example), baixe as [configurações](general-electronic-reporting.md#Configuration) a seguir do exemplo da solução ER.
 
 | Descrição do conteúdo            | Nome do arquivo |
 |--------------------------------|-----------|
@@ -93,7 +93,7 @@ Antes de começar, você também deve baixar e salvar a configuração a seguir 
 ### <a name="activate-a-configurations-provider"></a>Ativar um provedor de configurações
 
 1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
-2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o [provedor de configuração](general-electronic-reporting.md#Provider) para a empresa de exemplo Litware, Inc. (`http://www.litware.com`) está listado e marcado como ativo. Se esse provedor de configuração não estiver listado, ou se ele não estiver marcado como ativo, siga as etapas no tópico [Criar um provedor de configuração e marcá-lo como ativo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o [provedor de configuração](general-electronic-reporting.md#Provider) para a empresa de exemplo Litware, Inc. (`http://www.litware.com`) está listado e marcado como ativo. Se esse provedor de configuração não estiver listado, ou se ele não estiver marcado como ativo, siga as etapas no artigo [Criar um provedor de configuração e marcá-lo como ativo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![A empresa de exemplo Litware, Inc. na página Configurações de localização.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 

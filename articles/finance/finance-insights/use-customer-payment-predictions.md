@@ -1,6 +1,6 @@
 ---
 title: Usar Previsões de pagamento do cliente
-description: Este tópico percorre os pré-requisitos e as amplas etapas necessárias para usar uma versão de avaliação do Finance Insights.
+description: Este artigo percorre os pré-requisitos e as amplas etapas necessárias para usar uma versão de avaliação do Finance Insights.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740614"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901392"
 ---
 # <a name="use-customer-payment-predictions"></a>Usar Previsões de pagamento do cliente
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como usar as Previsões de pagamento do cliente. Antes de usar esse recurso, conclua as etapas de configuração para ele. Para obter mais informações, consulte [Habilitar previsões de pagamento do cliente](enable-cust-paymnt-prediction.md).
+Este artigo explica como usar as Previsões de pagamento do cliente. Antes de usar esse recurso, conclua as etapas de configuração para ele. Para obter mais informações, consulte [Habilitar previsões de pagamento do cliente](enable-cust-paymnt-prediction.md).
 
 Você pode exibir as previsões de pagamento do cliente no espaço de trabalho **Gerenciar crédito e cobranças do cliente** e em duas novas páginas de lista: **Previsões de pagamento de transação** e **Previsões de pagamento do cliente**.
 

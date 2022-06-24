@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources 8 de março de 2021
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 8 de março de 2021.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 8 de março de 2021.
 author: marcelbf
 ms.date: 03/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7b1e616f9bc72ab1f30f69671c673241096f3276
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9280e85f9701573717c4115b4d752ed11be4862e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868044"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-08-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources 08 de março de 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources.
+Este artigo descreve os recursos novos, alterados ou que serão lançados em breve no Dynamics 365 Human Resources.
 
 Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Os seguintes recursos estão geralmente disponíveis nesta versão.
 As seguintes correções de bug estão incluídas nessa versão.
 
 > [!NOTE]
-> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este tópico para incluir correções de bugs feitas no build após a publicação inicial deste tópico.
+> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este artigo para incluir correções de bugs feitas no build após a publicação inicial deste artigo.
 
-| Número do problema | Problema |  descrição |
+| Número do problema | Problema |  Descrição |
 | --- | --- | --- |
 | 486611 | A licença de ausência é mostrada no calendário de licenças quando **Desabilitar licença em todos os calendários** está habilitado | Se **Desabilitar licença em todos os calendários** estiver habilitado, as informações de licença não serão mais exibidas quando o recurso Aprimoramentos do calendário de licença e ausência estiver habilitado.|
 | 508972 | A entidade Transação bancária de licença e ausência não tem validação de registro | Ao usar a entidade Transação bancária de licença e ausência, os funcionários não inscritos em um plano não poderão mais ser importados. |

@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources de 22 de junho de 2021
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 22 de junho de 2021.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 22 de junho de 2021.
 author: marcelbf
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: aacb605374d99a3c0bad3438c89e33a04a4d7faf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897767"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources de 22 de junho de 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources.
+Este artigo descreve os recursos novos, alterados ou que serão lançados em breve no Dynamics 365 Human Resources.
 
 Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
@@ -51,9 +51,9 @@ Os seguintes recursos estão geralmente disponíveis nesta versão.
 As seguintes correções de bug estão incluídas nessa versão.
 
 > [!NOTE]
-> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este tópico para incluir correções de bugs feitas no build após a publicação inicial deste tópico.
+> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este artigo para incluir correções de bugs feitas no build após a publicação inicial deste artigo.
 
-| Número do problema | Problema |  descrição |
+| Número do problema | Problema |  Descrição |
 | --- | --- | --- |
 | 583052 | O usuário que recebe feedback é capaz de editar o feedback recebido | Quando um funcionário que recebe feedback em um diário de desempenho selecionar **Adicionar link externo**, o formulário ficará editável, permitindo que o funcionário edite o feedback de desempenho que recebeu. |
 | 522281 | Se você selecionar o número de funcionários nos blocos da estrutura de remuneração no Gerenciamento de remuneração, isso gerará resultados incorretos| Ao detalhar os planos de remuneração no espaço de trabalho de remuneração, o número correto de funcionários agora é exibido. |

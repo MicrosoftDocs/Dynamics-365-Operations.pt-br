@@ -1,6 +1,6 @@
 ---
 title: Como configurar dimensões financeiras de saldo?
-description: Este tópico descreve as opções para configurar e usar o recurso Dimensão financeira de balanceamento.
+description: Este artigo descreve as opções para configurar e usar o recurso Dimensão financeira de balanceamento.
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878002"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>Como configurar dimensões financeiras de saldo?
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as opções para configurar e usar o recurso Dimensão financeira de balanceamento.
+Este artigo descreve as opções para configurar e usar o recurso Dimensão financeira de balanceamento.
 
 ## <a name="symptom"></a>Sintoma
 
-Há duas opções para configurar dimensões financeiras de saldo. A primeira opção é usar o campo **Dimensão financeira de balanceamento** na página de configuração **Razão** (**Contabilidade \> Configuração do razão \> Razão**). A segunda opção é usar o campo **Exigir a dimensão a ser balanceada** na página **Dimensões financeiras** (**Contabilidade > Plano de contas \> Dimensões \> Dimensões financeiras**). Este tópico explica a diferença entre essas duas opções.
+Há duas opções para configurar dimensões financeiras de saldo. A primeira opção é usar o campo **Dimensão financeira de balanceamento** na página de configuração **Razão** (**Contabilidade \> Configuração do razão \> Razão**). A segunda opção é usar o campo **Exigir a dimensão a ser balanceada** na página **Dimensões financeiras** (**Contabilidade > Plano de contas \> Dimensões \> Dimensões financeiras**). Este artigo explica a diferença entre essas duas opções.
 
 ## <a name="resolution"></a>Resolução
 

@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources para 2 de dezembro de 2020
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 2 de dezembro de 2020.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 2 de dezembro de 2020.
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848097"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources para 2 de dezembro de 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources.
+Este artigo descreve os recursos novos, alterados ou que serão lançados em breve no Dynamics 365 Human Resources.
 
 Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
@@ -52,9 +52,9 @@ Os seguintes recursos estão geralmente disponíveis nesta versão.
 As seguintes correções de bug estão incluídas nessa versão.
 
 > [!NOTE]
-> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este tópico para incluir correções de bugs feitas no build após a publicação inicial deste tópico.
+> Nosso objetivo é obter essas informações o mais rápido possível. Podemos atualizar este artigo para incluir correções de bugs feitas no build após a publicação inicial deste artigo.
 
-| Número do problema | Problema | descrição |
+| Número do problema | Problema | Descrição |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult deve incluir datetime usado no processamento. | O resultado do processamento de BenefitEligibity agora inclui o datetimestamp do último processamento, que estava faltando antes. |
 | 526903 | O registro de benefícios falha para planos com dependentes quando a **Seleção automática de representantes** está ativada em **Parâmetros compartilhados de recursos humanos**. | Corrigido o problema em que o registro de benefício estava falhando para dependentes quando a opção **Seleção automática de representantes** foi ativada para representantes padrão. |

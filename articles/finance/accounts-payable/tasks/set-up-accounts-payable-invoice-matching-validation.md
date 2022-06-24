@@ -1,6 +1,6 @@
 ---
-title: Configurar a Validação da conciliação de faturas de contas a pagar
-description: Este tópico fornece informações sobre como configurar a validação na Conciliação de faturas de contas a pagar.
+title: Configurar a validação de conciliação de faturas de Contas a pagar
+description: Este artigo fornece informações sobre como configurar a validação na Conciliação de faturas de contas a pagar.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904949"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurar a Validação da conciliação de faturas de contas a pagar
 
@@ -44,7 +44,7 @@ Quatro tipos de validação de conciliação diferentes estão disponíveis.
 5. Marque ou desmarque a caixa de seleção **Conciliar totais de fatura** para coincidir os totais de faturas atuais com os totais esperados.
     * Selecione se um ícone será exibido se uma discrepância da conciliação de faturas exceder a tolerância. Você pode exibir o ícone quando uma discrepância positiva exceder a tolerância ou quando uma discrepância positiva ou negativa exceder a tolerância.  
     * Por exemplo, a tolerância é 5 e o valor total da fatura da ordem de compra é 100,00. Portanto, um ícone de conciliação do preço será exibido se o valor total da fatura na fatura exceder 105,00. Se você selecionar **Se maior que ou menor que a tolerância**, um ícone também será mostrado se o valor da fatura for menor que 95,00.  
-6. No campo **Porcentagem de tolerância de totais de fatura**, insira a variação de porcentagem que seja aceitável. Este é o valor padrão da empresa. Esse valor pode ser substituído para fornecedores específicos, usando a página **Tolerâncias de totais de fatura**. Para obter informações sobre como substituir a porcentagem de tolerância de totais de faturas para um fornecedor específico, consulte “Configure a tolerância de conciliação de totais de faturas de fornecedores” mais adiante neste tópico.
+6. No campo **Porcentagem de tolerância de totais de fatura**, insira a variação de porcentagem que seja aceitável. Este é o valor padrão da empresa. Esse valor pode ser substituído para fornecedores específicos, usando a página **Tolerâncias de totais de fatura**. Para obter informações sobre como substituir a porcentagem de tolerância de totais de faturas para um fornecedor específico, consulte a seção “Configurar a tolerância de conciliação de totais de faturas de fornecedores” mais adiante neste artigo.
 7. Defina **Conciliação de preço e quantidade**.
 8. No campo **Política de conciliação de linha**, selecione um valor a ser usado como a política padrão para a entidade legal com a qual você está trabalhando. **Não necessário** significa que não há verificação de preços de linha de fatura individual para preço de ordem de compra ou quantidades de fatura para quantidades de guia de remessa necessárias. **Conciliação dupla** significa que a verificação das linhas da fatura é necessária, mas apenas a ordem de compra e documentos da fatura do fornecedor estão envolvidos na verificação. O recebimento de produtos não é faturado nas validações de conciliação. **Conciliação tripla** significa que o preço unitário líquido da fatura será comparado ao preço unitário líquido da ordem de compra correspondente e a quantidade de recebimento do produto correspondente será comparada à quantidade da fatura.
 9. Para permitir que um nível diferente de conciliação seja aplicado a um item, fornecedor, combinação de fornecedor e item ou linha da ordem de compra, selecione um valor no campo **Permitir a substituição da política de conciliação**. A política de conciliação da entidade legal pode ser sobrescrita por um fornecedor, item ou combinação de fornecedor e item específicos na página de **Política de conciliação**.

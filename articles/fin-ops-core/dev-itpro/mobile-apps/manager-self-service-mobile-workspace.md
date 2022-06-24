@@ -1,6 +1,6 @@
 ---
 title: Meu espaço de trabalho móvel em equipe
-description: Este tópico fornece informações sobre o meu espaço de trabalho móvel em equipe, que permite aos gerentes visualizar os seus subordinados diretos e a sua equipe estendida.
+description: Este artigo fornece informações sobre o espaço de trabalho móvel Minha equipe, que permite aos gerentes visualizar os seus subordinados diretos e a sua equipe estendida.
 author: ShielaSogge
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868688"
 ---
 # <a name="my-team-mobile-workspace"></a>Meu espaço de trabalho móvel em equipe
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Este tópico fornece informações sobre a área de trabalho móvel **Minha equipe**. Esse espaço de trabalho permite que gerentes visualizem os seus subordinados diretos e a sua equipe estendida. Eles também podem enviar elogios a indivíduos em sua cadeia de subordinação.
+Este artigo fornece informações sobre a área de trabalho móvel **Minha equipe**. Esse espaço de trabalho permite que gerentes visualizem os seus subordinados diretos e a sua equipe estendida. Eles também podem enviar elogios a indivíduos em sua cadeia de subordinação.
 
 Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Finance and Operations.
 

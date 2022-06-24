@@ -1,6 +1,6 @@
 ---
 title: Visão geral do gerenciamento de recursos
-description: Este tópico descreve o Gerenciamento de recursos e como você pode usá-lo.
+description: Este artigo descreve o Gerenciamento de recursos e como você pode usá-lo.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850041"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -41,7 +41,7 @@ A lista recursos inclui as seguintes informações:
 - **Status** — Um símbolo indica se um recurso está ativado (marca de seleção) ou desativado (em branco), se está agendado para ser ativado (relógio), se é obrigatório (cadeado), se exige atenção antes de ser ativado (símbolo de aviso) ou se não pode ser ativado (X). A configuração exibida é usada para todas as entidades legais. Observe que, mesmo quando um recurso for ativado, ele ainda será controlado pela segurança. Portanto, o recurso estará disponível somente para os usuários que tiverem acesso a ele com base na função de segurança. Ele também estará disponível somente em entidades legais às quais o usuário tem acesso.
 - **Data da habilitação** – A data em que o recurso foi ativado ou está agendado para ser ativado.
 - **Recurso adicionado** — a data em que o recurso foi adicionado ao ambiente. Essa data é inserida automaticamente quando você atualiza seu ambiente durante ciclos mensais de lançamento.
-- **Estado do recurso** – O estado de ciclo de vida atual do recurso: **Versão prévia**, **Liberado** (mostrado como em branco), **Ativado por padrão** e **Obrigatório**. Os estados serão abordados em mais detalhes posteriormente neste tópico. 
+- **Estado do recurso** – O estado de ciclo de vida atual do recurso: **Versão prévia**, **Liberado** (mostrado como em branco), **Ativado por padrão** e **Obrigatório**. Os estados serão abordados em mais detalhes posteriormente neste artigo. 
 - **Módulo** — o módulo que é afetado pelo novo recurso.
 
 > [!NOTE]
@@ -72,7 +72,7 @@ A coluna **Estado do recurso** desses recursos fica em branco. Os recursos inici
 
 ### <a name="on-by-default-features-optional"></a>Recursos ativados por padrão (opcionais)
 
-Os recursos atualizados para **Ativado por padrão** são ativados por padrão, mas podem ser desabilitados. Depois que os recursos que podem ser desabilitados ficarem no estado **Liberado** durante pelo menos seis meses, deverão passar para esse estado na próxima versão principal. Os recursos que fazem a transição para o estado **Ativado por padrão** devem ser anunciados no tópico [Novidades](../whats-new-changed.md) da versão. A atualização é iniciada pela equipe proprietária do produto.
+Os recursos atualizados para **Ativado por padrão** são ativados por padrão, mas podem ser desabilitados. Depois que os recursos que podem ser desabilitados ficarem no estado **Liberado** durante pelo menos seis meses, deverão passar para esse estado na próxima versão principal. Os recursos que fazem a transição para o estado **Ativado por padrão** devem ser anunciados no artigo [Novidades](../whats-new-changed.md) da versão. A atualização é iniciada pela equipe proprietária do produto.
 
 > [!NOTE]
 > Como esses recursos serão habilitados automaticamente, é importante determinar se a organização está pronta para adotá-los ou se é preciso mais tempo. Nesse caso, pode ser necessário desabilitar esses recursos temporariamente. Observe que a transição de um recurso para **Ativado por padrão** geralmente é feita na versão principal antes que ele seja planejado para se tornar **Obrigatório**. Nesse momento, você não terá a opção de desabilitar o recurso. 

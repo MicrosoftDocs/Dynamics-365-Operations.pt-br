@@ -1,6 +1,6 @@
 ---
 title: Adquirir ativos por meio de compra
-description: Este tópico descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de aquisições e de ajuste de aquisições para ativos fixos.
+description: Este artigo descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de aquisições e de ajuste de aquisições para ativos fixos.
 author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b654dbf97f8d91e0a3233803ee182b1383ad317d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac25114fe8036a474d637e9ad9ede5e46b50d92e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891570"
 ---
 # <a name="acquire-assets-through-procurement"></a>Adquirir ativos por meio de compra
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de aquisições e de ajuste de aquisições para ativos fixos. Uma linha de compras criará um ativo, independentemente da quantidade na linha de compras. Se precisar criar vários ativos fixos, você deverá criar várias linhas de compras.
+Este artigo descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de aquisições e de ajuste de aquisições para ativos fixos. Uma linha de compras criará um ativo, independentemente da quantidade na linha de compras. Se precisar criar vários ativos fixos, você deverá criar várias linhas de compras.
 
  Os seguintes métodos estão disponíveis para integrar Ativos fixos e Contas a pagar, e você deve usar o mesmo método para todos os ativos fixos:
 -   Crie manualmente um ativo fixo antes de adicionar o número do ativo fixo à linha na ordem de compra ou na fatura de fornecedor. Uma transação de aquisição é lançada automaticamente para o ativo quando você lança a fatura de fornecedor. Esse é o método padrão.
@@ -38,7 +38,7 @@ Selecione um dos primeiros dois métodos se você preferir criar ativos fixos ma
 
 Se você cria ativos fixos manualmente ou usa uma abordagem mais flexível, também deve decidir se uma transação de aquisição só pode ser lançada em Ativos fixos ou se pode ser lançada ao lançar uma fatura de fornecedor. Algumas organizações preferem que os usuários criem aquisições e transações de aquisição manualmente nos Ativos fixos usando entradas de diário ou propostas manuais. 
 
-Este tópico discute os detalhes de cada método.
+Este artigo discute os detalhes de cada método.
 
 ## <a name="methods-for-manually-creating-fixed-assets"></a>Métodos para criar ativos fixos manualmente
 Quando você lança uma fatura de fornecedor com um número de ativo fixo inserido nas linhas, se a opção Permitir aquisição de ativo de Compras estiver selecionada na página Parâmetros de ativos fixos, a aquisição será lançada automaticamente e o status do ativo será alterado para Aberto. 

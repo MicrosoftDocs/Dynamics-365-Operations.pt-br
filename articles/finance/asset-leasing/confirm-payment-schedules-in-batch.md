@@ -1,6 +1,6 @@
 ---
 title: Confirmar Agendamentos de pagamento de arrendamento de ativo em um lote
-description: Este tópico explica como confirmar vários agendamentos de pagamento em um lote.
+description: Este artigo explica como confirmar vários agendamentos de pagamento em um lote.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c19ac162c5e4c62c2440a0f16111c8cd69748e92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd75e22f6407d6bc25a78c1dfeacf70022238e94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895041"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>Confirmar Agendamentos de pagamento de arrendamento de ativo em um lote
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como confirmar vários agendamentos de pagamento em um lote. Os planos de pagamento são confirmados em uma base de arrendamento ou por meio do processo de lote de confirmação. Uma entrada de diário pode ser lançada somente em um arrendamento com um plano de pagamento confirmado. A confirmação do plano de pagamento serve como uma aprovação final das informações financeiras para o arrendamento. Todas as alterações futuras feitas nas informações financeiras para o arrendamento, tais como pagamentos e o prazo do arrendamento, constituem um ajuste de arrendamento e devem ser processadas dessa forma.
+Este artigo explica como confirmar vários agendamentos de pagamento em um lote. Os planos de pagamento são confirmados em uma base de arrendamento ou por meio do processo de lote de confirmação. Uma entrada de diário pode ser lançada somente em um arrendamento com um plano de pagamento confirmado. A confirmação do plano de pagamento serve como uma aprovação final das informações financeiras para o arrendamento. Todas as alterações futuras feitas nas informações financeiras para o arrendamento, tais como pagamentos e o prazo do arrendamento, constituem um ajuste de arrendamento e devem ser processadas dessa forma.
 
 Para confirmar vários planos de pagamento, siga estas etapas.
 

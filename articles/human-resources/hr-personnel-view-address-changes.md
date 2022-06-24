@@ -1,6 +1,6 @@
 ---
 title: Exibir e gerenciar alterações de endereço
-description: Este tópico explica como você pode exibir e gerenciar alterações de endereço no Dynamics 365 Human Resources.
+description: Este artigo explica como você pode exibir e gerenciar alterações de endereço no Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899575"
 ---
 # <a name="view-and-manage-address-changes"></a>Exibir e gerenciar alterações de endereço
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695834"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico explica como você pode exibir e gerenciar alterações de endereço na página **Editar detalhes pessoais** (que você abre no espaço de trabalho **Autoatendimento para funcionários**) na página de detalhes **Trabalhador** no Dynamics 365 Human Resources.
+Este artigo explica como você pode exibir e gerenciar alterações de endereço na página **Editar detalhes pessoais** (que você abre no espaço de trabalho **Autoatendimento para funcionários**) na página de detalhes **Trabalhador** no Dynamics 365 Human Resources.
 
 Muitas organizações desejam que os funcionários gerenciem seus próprios detalhes pessoais por meio de uma experiência de autoatendimento. Você pode permitir que os usuários atualizem endereços no espaço de trabalho **Autoatendimento de funcionários**. É possível monitorar essas alterações no espaço de trabalho **Gerenciamento de pessoal**. Para usar esse recurso, você deve especificar o número de dias que deseja exibir alterações na página **Parâmetros de recursos humanos**.
 

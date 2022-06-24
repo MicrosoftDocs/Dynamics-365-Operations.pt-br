@@ -1,6 +1,6 @@
 ---
 title: Descrições padrão obrigatórias para lançamento de transações bancárias
-description: Este tópico explica como configurar descrições obrigatórias para transações de reconciliação de conta bancária.
+description: Este artigo explica como configurar descrições obrigatórias para transações de reconciliação de conta bancária.
 author: gionoder
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: gionoder
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 16b273418e944fa8c82db2536f40aa0d0cc72c7c
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 273b59e0126566b89442e29c5cff7019aa967e85
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907666"
 ---
 # <a name="mandatory-default-descriptions-for-posting-of-bank-transactions"></a>Descrições padrão obrigatórias para lançamento de transações bancárias
 

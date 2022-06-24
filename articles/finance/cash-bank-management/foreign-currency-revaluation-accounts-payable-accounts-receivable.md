@@ -1,6 +1,6 @@
 ---
 title: Reavaliação de moeda para contas a pagar e contas a receber
-description: Este tópico fornece informações sobre o processo de reavaliação de moeda estrangeira que você executa para atualizar o valor de transações em aberto no Contas a pagar e Contas a receber.
+description: Este artigo oferece informações sobre o processo de reavaliação de moeda estrangeira executado para atualizar o valor de transação abertas em Contas a pagar e em Contas a receber.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906374"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Reavaliação de moeda para contas a pagar e contas a receber
 
 [!include [banner](../includes/banner.md)]
 
-As flutuações nas taxas de câmbio fazem com que o valor teórico (valor contábil) de transações abertas em moedas estrangeiras varie ao longo do tempo. Este tópico fornece informações sobre o processo de reavaliação de moeda estrangeira que você executa para atualizar o valor de transações em aberto no Contas a pagar e Contas a receber. 
+As flutuações nas taxas de câmbio fazem com que o valor teórico (valor contábil) de transações abertas em moedas estrangeiras varie ao longo do tempo. Este artigo oferece informações sobre o processo de reavaliação de moeda estrangeira executado para atualizar o valor de transação abertas em Contas a pagar e em Contas a receber. 
 
 O valor teórico, ou valor contábil, de transações de fornecedor abertas em moedas estrangeiras varia ao longo do tempo por causa de flutuações em taxas de câmbio. Para atualizar o valor de transação abertas em Contas a pagar e em Contas a receber, execute o processo de reavaliação de moeda estrangeira. A reavaliação de moeda estrangeira pode ser executada para Contas a pagar e Contas a receber. O processo usa uma nova taxa de câmbio para reavaliar valores abertos, ou valores não liquidados, em uma data especificada. As diferenças entre as quantias originais lançadas e as quantias reavaliadas causarão lucro ou perda não realizada para cada transação aberta. Os sub-razões de Contas a pagar e de Contas a receber são então atualizados para refletirem o lucro ou a perda não realizado, e uma entrada contábil é lançada na Contabilidade.
 

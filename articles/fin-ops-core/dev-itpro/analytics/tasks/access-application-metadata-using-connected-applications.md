@@ -1,6 +1,6 @@
 ---
 title: Acessar metadados do aplicativo usando aplicativos conectados
-description: As etapas deste tópico explicam como um usuário do Regulatory Configuration Service (RCS) pode criar um novo mapeamento de modelo de relatório eletrônico (ER) usando os metadados.
+description: As etapas deste artigo explicam como um usuário do Regulatory Configuration Service (RCS) pode criar um novo mapeamento de modelo de relatório eletrônico usando metadados.
 author: NickSelin
 ms.date: 06/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d99ca41a9a24ef8ac0fe31e703cad79d41216fa726fa1d354ac19db90706954
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 330683da986a551a9694833655122768d30499b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906758"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Acessar metadados do aplicativo usando aplicativos conectados
 
 [!include [banner](../../includes/banner.md)]
 
-As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelo de relatório eletrônico (ER) por meio de metadados do Finance and Operations. Os metadados do aplicativo serão acessados online usando o aplicativo conectado de RCS. O mapeamento de modelo ER de exemplo será configurado para acessar transações de comércio exterior. Para concluir estas etapas, no RCS, primeiro conclua as etapas do tópico [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Se você não concluiu as etapas do tópico [Acessar metadados do aplicativo usando a configuração do ER](access-application-metadata-er-configuration.md), faça download de [Exemplos de relatórios eletrônicos](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) e salve as seguintes configurações de ER: Metadados de comércio exterior.xml; Modelo de comércio exterior.xml; Mapeamento de comércio exterior.xml e conclua as etapas no procedimento.
+As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelos de relatório eletrônico (ER) por meio dos metadados de Finance and Operations. Os metadados do aplicativo serão acessados online usando o aplicativo conectado de RCS. O mapeamento de modelo ER de exemplo será configurado para acessar transações de comércio exterior. Para concluir estas etapas, no RCS, primeiro conclua as etapas do artigo [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Se você não concluiu as etapas do artigo [Acessar metadados do aplicativo usando a configuração do ER](access-application-metadata-er-configuration.md), faça download de [Exemplos de relatórios eletrônicos](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) e salve as seguintes configurações de ER: Metadados de comércio exterior.xml; Modelo de comércio exterior.xml; Mapeamento de comércio exterior.xml e conclua as etapas no procedimento.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 1. Acesse **Todos os espaços de trabalho** > **Relatório eletrônico**. 

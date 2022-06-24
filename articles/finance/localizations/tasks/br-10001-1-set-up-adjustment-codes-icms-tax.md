@@ -12,18 +12,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3670d9284ae9b3f5570a91ac9e9e91b6ba271b1c5c767c645f745d6aa38a2a12
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 55e975db53995c715437831ad04f82b554bf127f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718195"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894718"
 ---
 # <a name="set-up-adjustment-codes-for-icms-tax-brazil"></a>Configurar códigos de ajuste para imposto ICMS (Brasil)
 
 [!include [banner](../../includes/banner.md)]
 
-No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED), o registro C197 inclui informações sobre ajustes do Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em notas fiscais. Esses ajustes pode ocorrer devidos a um adiamento, suspensão, diferencial de alíquotas, antecipação, e outras situações de exceção do imposto ICMS. Os ajustes exigem um código de ajuste. Utilize esse procedimento para configurar códigos de ajuste. Este tópico usa a empresa de demonstração BRMF.
+No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED), o registro C197 inclui informações sobre ajustes do Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em notas fiscais. Esses ajustes pode ocorrer devidos a um adiamento, suspensão, diferencial de alíquotas, antecipação, e outras situações de exceção do imposto ICMS. Os ajustes exigem um código de ajuste. Utilize esse procedimento para configurar códigos de ajuste. Este artigo usa a empresa de demonstração BRMF.
 
 1. Acesse **Livros fiscais** > **Configuração** > **Códigos de ajuste de imposto** > **Códigos de ajuste de ICMS, ICMS-ST e ICMS-DIF**.
 2. Selecione **Novo** e no campo **Identificação**, digite um valor.

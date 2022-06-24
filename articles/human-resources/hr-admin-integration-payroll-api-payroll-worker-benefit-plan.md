@@ -1,6 +1,6 @@
 ---
 title: Plano de benefícios do trabalhador em folha de pagamento
-description: Este tópico fornece detalhes e um exemplo de consulta da entidade Plano de benefícios do trabalhador em folha de pagamento no Dynamics 365 Human Resources.
+description: Este artigo fornece detalhes e um exemplo de consulta da entidade Plano de benefícios do trabalhador em folha de pagamento no Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 07/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ade1c789716ea5f559a73c8551b7c1adf030b806
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: ef45855d9e60131ac065ae6e2769b71ae3f69537
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902275"
 ---
 # <a name="payroll-worker-benefit-plan"></a>Plano de benefícios do trabalhador em folha de pagamento
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533786"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico descreve a entidade Plano de benefícios do trabalhador em folha de pagamento para o Dynamics 365 Human Resources.
+Este artigo descreve a entidade Plano de benefícios do trabalhador em folha de pagamento para o Dynamics 365 Human Resources.
 
 Nome físico: mshr_payrollworkerbenefitplanentities.
 

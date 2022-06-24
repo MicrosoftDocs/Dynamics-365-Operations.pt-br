@@ -1,6 +1,6 @@
 ---
-title: Faturamento do projeto
-description: Este tópico fornece uma visão geral de faturamento de projeto para projetos por tempo e material e para projetos de preço fixo. Contém informações sobre propostas de nota fiscal (nota fiscal preliminar), controle de notas fiscais, faturamento por conta, faturamento de fornecedor e notas de crédito.
+title: Faturamento de projeto
+description: Este artigo fornece uma visão geral do projeto que fatura por tempo e projetos de preço fixo material. Contém informações sobre propostas de nota fiscal (nota fiscal preliminar), controle de notas fiscais, faturamento por conta, faturamento de fornecedor e notas de crédito.
 author: TaylorVH
 ms.date: 07/10/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: bdb5c9162ab85632c8780a737df0998e4cd34f0c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4af44127d80c943ed9cebeac21d7e9c8372910f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861666"
 ---
-# <a name="project-invoicing"></a>Faturamento do projeto
+# <a name="project-invoicing"></a>Faturamento de projeto
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral de faturamento de projeto para projetos por tempo e material e para projetos de preço fixo. Contém informações sobre propostas de nota fiscal (nota fiscal preliminar), controle de notas fiscais, faturamento por conta, faturamento de fornecedor e notas de crédito.
+Este artigo fornece uma visão geral do projeto que fatura por tempo e projetos de preço fixo material. Contém informações sobre propostas de nota fiscal (nota fiscal preliminar), controle de notas fiscais, faturamento por conta, faturamento de fornecedor e notas de crédito.
 
 O tipo de projeto determina qual procedimento de faturamento deve ser aplicado. Apenas os dois tipos de projeto externos, por tempo e material e de preço fixo, podem ser faturados. Os projetos por tempo e material e de preço fixo são sempre anexados a um contrato de projeto.
 

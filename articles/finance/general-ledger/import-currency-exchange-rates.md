@@ -1,6 +1,6 @@
 ---
 title: Importar taxas de câmbio de moeda
-description: Este tópico fornece informações sobre os requisitos para importar taxas de referência de câmbio estrangeiras que são publicadas por provedores de taxa de câmbio.
+description: Este artigo fornece informações sobre os requisitos para importar taxas de referência de câmbio estrangeiras que são publicadas por provedores de taxa de câmbio.
 author: EvgenyPopovMBS
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f96622132be3c8a404f3f4e9c34f3ac5085a4fdc007ecb627d06a95d7c80932b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 27f9b06646d9ce948a6b4528c38c5df9784b24b2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894925"
 ---
 # <a name="import-currency-exchange-rates"></a>Importar taxas de câmbio de moeda
 
 [!include [banner](../includes/banner.md)]
 
-Se uma entidade legal tiver recebido faturas em moedas estrangeiras, a moeda estrangeira deverá ser convertida em moeda local. Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias. Este tópico fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia.
+Se uma entidade legal tiver recebido faturas em moedas estrangeiras, a moeda estrangeira deverá ser convertida em moeda local. Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias. Este artigo fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia.
 
 As seções a seguir descrevem o fluxo de informações usadas para configurar e processar a importação de taxas de câmbio.
 

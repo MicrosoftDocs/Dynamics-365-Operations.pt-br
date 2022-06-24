@@ -1,6 +1,6 @@
 ---
 title: Visão geral de planejamento de orçamento
-description: Este tópico descreve o planejamento de orçamento. Ele também contém informações que podem ajudar você a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento.
+description: Este artigo descreve o planejamento de orçamento. Ele também contém informações que podem ajudar você a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853544"
 ---
 # <a name="budget-planning-overview"></a>Visão geral de planejamento de orçamento
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o planejamento de orçamento. Ele também contém informações que podem ajudar você a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento.
+Este artigo descreve o planejamento de orçamento. Ele também contém informações que podem ajudar você a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento.
 
 ## <a name="overview-of-budget-planning"></a>Visão geral do planejamento de orçamento
 
@@ -91,7 +91,7 @@ Um fluxo de trabalho do planejamento de orçamento consiste em um conjunto de es
 
 Você cria um fluxo de trabalho do planejamento na seção **Estágios do fluxo de trabalho** da página **Configuração do plano de orçamento**. Nele, é possível selecionar os estágios e o fluxo de trabalho do orçamento que será usado e definir configurações adicionais.
 
-Uma boa prática é criar um fluxo de trabalho do planejamento de orçamento para cada nível da hierarquia do orçamento. Em seguida, atribua um fluxo de trabalho do orçamento que contém os elementos que correspondem aos estágios no fluxo de trabalho do orçamento. No esquema do exemplo que aparece neste tópico, um fluxo de trabalho do planejamento de orçamento será criado para os departamentos de venda e outro deve ser criado para a matriz. Um fluxo de trabalho de orçamento move os planos de orçamento pelos estágios.
+Uma boa prática é criar um fluxo de trabalho do planejamento de orçamento para cada nível da hierarquia do orçamento. Em seguida, atribua um fluxo de trabalho do orçamento que contém os elementos que correspondem aos estágios no fluxo de trabalho do orçamento. No esquema do exemplo que aparece neste artigo, um fluxo de trabalho do planejamento de orçamento será criado para os departamentos de venda e outro deve ser criado para a matriz. Um fluxo de trabalho de orçamento move os planos de orçamento pelos estágios.
 
 Você cria um fluxo de trabalho do orçamento para o plano na página **Fluxos de trabalho do orçamento**. O processo se parece com o processo para criar outros fluxos de trabalho. A ilustração a seguir mostra um exemplo de um fluxo de trabalho da matriz.
 
@@ -141,7 +141,7 @@ As alocações do estágio são usadas para alocar automaticamente as linhas do 
 
 Ao configurar uma alocação de estágio, você associa o fluxo de trabalho e o estágio do planejamento de orçamento à agenda de alocação. O fluxo de trabalho do planejamento de orçamento deve estar associado a um fluxo de trabalho de orçamento que use a tarefa de fluxo de trabalho automatizada **Alocação de fase do planejamento de orçamento**. Quando o fluxo de trabalho atingir o estágio especificado, a alocação ocorrerá automaticamente. Essa tarefa automatizada pode ser usada para criar linhas do plano de orçamento em um novo cenário.
 
-No esquema do exemplo anteriormente exibido neste tópico, uma alocação será executada para transferir valores de um plano de orçamento e os cenários no estágio da linha de "base" da matriz para outro plano de orçamento e os cenários no estágio "Estimativa" dos departamentos de vendas. A ilustração a seguir mostra a seção relevante do esquema de exemplo.
+No esquema do exemplo anteriormente exibido neste artigo, uma alocação será executada para transferir valores de um plano de orçamento e os cenários no estágio da linha de "base" da matriz para outro plano de orçamento e os cenários no estágio "Estimativa" dos departamentos de vendas. A ilustração a seguir mostra a seção relevante do esquema de exemplo.
 
 [![Alocação do estágio.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

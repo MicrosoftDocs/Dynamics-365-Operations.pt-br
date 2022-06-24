@@ -1,6 +1,6 @@
 ---
 title: Configurar e processar pagamentos de transição
-description: Este tópico explica como configurar e processar pagamentos de transição de clientes. O pagamento de transição é lançado no livro-razão em duas etapas.
+description: Este artigo explica como configurar e processar pagamentos de transição de clientes. O pagamento de transição é lançado no livro-razão em duas etapas.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca93d99ce04e607b137a2755d507022a33ab1be8
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887967"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>Configurar e processar pagamentos de transição
 
@@ -28,7 +28,7 @@ ms.locfileid: "8734181"
 
 O pagamento de transição é lançado no livro-razão em duas etapas. Normalmente, essa abordagem é usada quando o método de pagamento é definido como **Banco**, e você deve lançar transações para a conta bancária somente quando a transação for compensada pelo banco. No entanto, você também pode usá-la para uma conta do livro-razão. Nesse caso, o sistema move o valor de uma conta principal para outra quando o lançamento de transição é processado.
 
-Você pode criar pagamentos de transição a partir de contas a pagar ou contas a receber. Embora este tópico explique como configurar o lançamento de transições para contas a receber, as etapas para transações de contas a pagar são semelhantes.
+Você pode criar pagamentos de transição a partir de contas a pagar ou contas a receber. Embora este artigo explique como configurar o lançamento de transições para contas a receber, as etapas para transações de contas a pagar são semelhantes.
 
 ## <a name="set-up-bridging-posting"></a>Configurar lançamento de transição
 

@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes sobre redefinições do data mart
-description: Este tópico fornece respostas a algumas perguntas frequentes sobre redefinições do data mart.
+description: Este artigo fornece respostas a algumas perguntas frequentes sobre redefinições do data mart.
 author: jinniew
 ms.date: 03/21/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892382"
 ---
 # <a name="data-mart-resets-faq"></a>Perguntas frequentes sobre redefinições do data mart
 
-Este tópico fornece respostas a algumas perguntas frequentes sobre redefinições do data mart. Uma redefinição do data mart pode ser um processo demorado e, dependendo das circunstâncias, pode não ser a solução necessária. Portanto, este tópico inclui informações sobre as circunstâncias em que uma redefinição do data mart pode ajudar e também quando é improvável que isso ajude.
+Este artigo fornece respostas a algumas perguntas frequentes sobre redefinições do data mart. Uma redefinição do data mart pode ser um processo demorado e, dependendo das circunstâncias, pode não ser a solução necessária. Portanto, este artigo inclui informações sobre as circunstâncias em que uma redefinição do data mart pode ajudar e também quando é improvável que isso ajude.
 
 ## <a name="what-is-a-data-mart-reset"></a>O que é uma redefinição de data mart?
 

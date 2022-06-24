@@ -1,6 +1,6 @@
 ---
 title: Regras de eliminação
-description: Este tópico fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações.
+description: Este artigo fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864300"
 ---
 # <a name="elimination-rules"></a>Regras de eliminação
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações.
+Este artigo fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações.
 
 As transações de eliminação são necessárias quando uma entidade legal principal faz negócios com uma ou mais entidades legais subsidiárias e usa relatórios financeiros consolidados. Os demonstrativos financeiros consolidados devem incluir somente transações que ocorrem entre a organização consolidada e outras entidades fora das organizações. Portanto, as transações entre as entidade legais que fazem parte da mesma organização devem ser removidas, ou eliminadas, da contabilidade, de forma que não apareçam em relatórios financeiros. Há várias formas de relatar eliminações:
 
@@ -34,7 +34,7 @@ As transações de eliminação são necessárias quando uma entidade legal prin
 -   Os relatórios financeiros podem ser usados para mostrar as contas e dimensões de eliminações em uma linha ou em uma coluna específica.
 -   Uma entidade legal independente podem ser usada para lançar entradas manuais de transação para rastrear eliminações.
 
-Este tópico se concentra nas regras de eliminação processadas em uma empresa de consolidação ou de eliminação. Você pode configurar regras de eliminação para criar transações de eliminação em uma entidade legal que é especificada como a entidade legal de destino para eliminações ou a entidade legal de eliminação. Essas entidade legal de destino são conhecidas como a pessoa jurídica de eliminação. Os diários de eliminação podem ser integrados durante o processo de consolidação ou usando uma proposta de diário de eliminação. Antes de configurar as regras de eliminação, você deve se familiarizar com os seguintes termos:
+Este artigo se concentra nas regras de eliminação processadas em uma empresa de consolidação ou de eliminação. Você pode configurar regras de eliminação para criar transações de eliminação em uma entidade legal que é especificada como a entidade legal de destino para eliminações ou a entidade legal de eliminação. Essas entidade legal de destino são conhecidas como a pessoa jurídica de eliminação. Os diários de eliminação podem ser integrados durante o processo de consolidação ou usando uma proposta de diário de eliminação. Antes de configurar as regras de eliminação, você deve se familiarizar com os seguintes termos:
 
 -   **Entidade legal de origem** – a entidade legal em que os valores que estão sendo eliminados foram lançados.
 -   **Entidade legal de destino** – a entidade legal em que as regras de eliminação são lançadas.

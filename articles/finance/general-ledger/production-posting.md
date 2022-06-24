@@ -1,6 +1,6 @@
 ---
 title: Lançamento de pedido de produção
-description: Este tópico fornece informações sobre diferentes tipos de lançamento de pedido de produção.
+description: Este artigo fornece informações sobre diferentes tipos de lançamento de pedido de produção.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup, ProdGroup, WrkCtrTable, WrkCtrRe
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: cd1b6c49e59f9480fd831ad5ff143033ca09792c
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: d41725325a82b24c1e5aa6bd2c1a5322f3078ace
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8802976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879614"
 ---
 # <a name="production-postings"></a>Lançamentos de produção
 
-Este tópico fornece informações sobre diferentes tipos de lançamento no processo de pedido de produção.
+Este artigo fornece informações sobre diferentes tipos de lançamento no processo de pedido de produção.
 
 
 ## <a name="material-consumption"></a>Consumo de materiais

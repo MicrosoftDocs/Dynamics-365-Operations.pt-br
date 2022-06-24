@@ -1,6 +1,6 @@
 ---
 title: Reduzir depreciação por declínio após uma divisão
-description: Este tópico descreve o método usado em Ativos fixos para calcular a depreciação depois que um ativo é dividido usando o método por declínio.
+description: Este artigo descreve o método usado em Ativos fixos para calcular a depreciação depois que um ativo é dividido usando o método por declínio.
 author: moaamer
 ms.date: 11/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 35637ac1484121232c3571d1a26132a86d69e366
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 539967a9a73da91f6b49c1bb89f404267ae0a804
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883290"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Reduzir depreciação por declínio após uma divisão
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o método usado em Ativos fixos para calcular a depreciação depois que um ativo é dividido para outro ativo usando o método por declínio. O ano de depreciação configurado no registro de ativos é o ano fiscal. Para obter mais informações, consulte [Depreciação por declínio](reduce-balance-depreciation.md) e [Dividir um ativo fixo](tasks/split-fixed-asset.md).
+Este artigo descreve o método usado em Ativos fixos para calcular a depreciação depois que um ativo é dividido para outro ativo usando o método por declínio. O ano de depreciação configurado no registro de ativos é o ano fiscal. Para obter mais informações, consulte [Depreciação por declínio](reduce-balance-depreciation.md) e [Dividir um ativo fixo](tasks/split-fixed-asset.md).
 
 Se você dividir um ativo fixo durante um período fiscal posterior ao período em que o ativo foi adquirido, a depreciação de saldo reduzida contará como o valor líquido contábil (NBV) do ativo para o ano anterior. Também serão contabilizadas as transações de ajuste de aquisição e depreciação que foram geradas da transação que dividiu o ativo. Esse comportamento supõe que o ativo foi adquirido em um ano fiscal e dividido em um ano fiscal posterior. O valor que deve ser depreciado para o ativo original após a divisão reflete o NBV do ativo antes da divisão do ativo, e a transação de ajuste de aquisição e depreciação lançada para a divisão.
 

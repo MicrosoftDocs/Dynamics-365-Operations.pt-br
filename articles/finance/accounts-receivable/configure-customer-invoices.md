@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
-ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
+ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "8756953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876315"
 ---
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 
@@ -32,12 +32,9 @@ Uma **Fatura de texto livre** não está relacionada a uma ordem de venda. Ela c
 
 Para obter mais informações, consulte:
 
-[Criar faturas de texto livre](../accounts-receivable/create-free-text-invoice-new.md)
-
+[Criar faturas de texto](../accounts-receivable/create-free-text-invoice-new.md)
 [Criar um modelo de fatura de texto livre](../accounts-receivable/create-free-text-invoice-template-new.md)
-
-[Atribuir um modelo de fatura de texto livre a um cliente](tasks/assign-free-text-invoice-template-customer.md)
-
+[Atribuir modelo de fatura de texto a um cliente](tasks/assign-free-text-invoice-template-customer.md)
 [Gerar e lançar faturas de texto livre recorrentes](tasks/post-recurring-free-text-invoices.md)
 
 
@@ -91,8 +88,8 @@ Você pode configurar a divisão de faturas de clientes de ordens de venda por s
  - Selecione a opção **Dividir com base no site da fatura** para criar uma fatura por site ao lançar. 
  - Escolha a opção **Dividir com base nas informações de entrega da fatura** para produzir uma fatura por endereço de entrega de linha da ordem de venda ao lançar. 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Lançar na Conta de receita para linhas de ordem de venda que não têm preço
-Você terá a opção de atualizar a conta de **Receita** na **Contabilidade** para as linhas de ordem de venda que não têm preço. Para configurar ou exibir essas informações, acesse o parâmetro **Lançar na Conta de receita para linhas de fatura de ordem de venda com preço zero** na guia **Razão e imposto** da página **Parâmetros de contas a receber**. (**Contas a receber > Configuração > Parâmetros de contas a receber**). Selecione **Sim** para atualizar a conta de **Receita** das linhas da fatura da ordem de venda que não têm preço. Uma conta de receita é definida na página do parâmetro **Lançamento de estoque**, na guia de definição de conta da **Ordem de venda**. Se esta opção não for selecionada, as linhas que não tiverem informações de preço não serão lançadas na conta de **Receita**.
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Lançar na Conta de receita para linhas de ordem de venda sem preço e sem custo
+Você terá a opção de atualizar a conta de **Receita** na **Contabilidade** para linhas de ordem de venda sem preço e sem custo. Para configurar ou exibir essas informações, acesse o parâmetro **Lançar na Conta de receita para linhas de fatura de ordem de venda e custo zero** na guia **Razão e imposto** da página **Parâmetros de contas a receber**. (**Contas a receber > Configuração > Parâmetros de contas a receber**). Selecione **Sim** para atualizar a conta de **Receita** de linhas da fatura da ordem de venda sem preço e sem custo. Se esta opção for selecionada, o comprovante conterá 0,00 entradas para os tipos de lançamento **Saldo do cliente** e **Receita**. Uma conta de receita é definida na página do parâmetro **Lançamento de estoque**, na guia de definição de conta **Ordem de venda**. Se esta opção não for selecionada, as linhas sem informações de preço ou custo não serão lançadas na conta de **Receita**. O comprovante conterá uma entrada 0,00 para o tipo de lançamento **Saldo do cliente**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Configurações adicionais que alteram o comportamento dos lançamentos
 Os seguintes campos alteram o comportamento do processo de lançamento.

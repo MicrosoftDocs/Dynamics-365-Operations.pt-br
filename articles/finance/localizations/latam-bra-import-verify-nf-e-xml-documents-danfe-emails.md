@@ -1,6 +1,6 @@
 ---
 title: Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil
-description: Este tópico fornece informações sobre como importar e verificar os documentos XML de Nota fiscal eletrônica (NF-e) e o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) que você recebeu.
+description: Este artigo fornece informações sobre como importar e verificar os documentos XML de Nota fiscal eletrônica (NF-e) e o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) que você recebeu.
 author: sndray
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a716b5a61ff613fa3fe0a6f26ffa08fc8a9f7794e944e99428ebf774f8e14e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5093a8994f1dbbab0ede486ff1f8d53d4240d974
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872359"
 ---
 # <a name="import-and-verify-nf-e-xml-documents-and-danfe-files-for-brazil"></a>Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre como importar e verificar os documentos XML de Nota fiscal eletrônica (NF-e) e o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) que você recebeu.
+Este artigo fornece informações sobre como importar e verificar os documentos XML de Nota fiscal eletrônica (NF-e) e o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) que você recebeu.
 
 Você pode realizar as seguintes tarefas para configurar os documentos XML de Nota fiscal eletrônica (NF-e) e os arquivos do Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) que você recebe por e-mail:
 

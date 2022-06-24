@@ -1,6 +1,6 @@
 ---
 title: Fazer referência a faturas originais em notas de crédito (faturas do fornecedor)
-description: Este tópico descreve como criar uma referência a uma fatura original ao criar uma nota de crédito.
+description: Este artigo descreve como criar uma referência a uma fatura original ao criar uma nota de crédito.
 author: v-oloski
 ms.date: 09/28/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 698a23a98f027014c89073203e6d9dfa5539a2f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e05dddf056d86513d86ea925349f60ca25f191ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901479"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>Fazer referência a faturas originais em notas de crédito (faturas do fornecedor)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar uma referência a uma fatura original ao criar uma nota de crédito.
+Este artigo descreve como criar uma referência a uma fatura original ao criar uma nota de crédito.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
 No espaço de trabalho **Gerenciamento de recursos**, habilite o recurso **Habilitar faturamento de crédito para faturas do fornecedor**. Para obter mais informações, consulte [Visão geral do Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-A funcionalidade descrita neste tópico aplica-se aos seguintes documentos comerciais.
+A funcionalidade descrita neste artigo aplica-se aos documentos comerciais a seguir.
 
 **Contas a pagar:**
 

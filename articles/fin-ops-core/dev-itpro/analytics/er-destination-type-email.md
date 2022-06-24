@@ -1,6 +1,6 @@
 ---
 title: Tipo de destino de ER do email
-description: Este tópico explica como configurar um destino de email para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
+description: Este artigo explica como configurar um destino de email para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845647"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER do email
 
@@ -162,7 +162,7 @@ A ilustração a seguir mostra a estrutura de um formato ER configurado para pro
 
 [![Estrutura de um formato ER que gera documentos de saída.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-A ilustração a seguir mostra o processo, conforme descrito neste tópico, agrupando componentes individuais e habilitando o destino **Email** para o novo grupo, de forma que uma nota de carta de cobrança seja enviada junto com as faturas de cliente apropriadas como anexos de email.
+A ilustração a seguir mostra o processo, conforme descrito neste artigo, agrupando componentes individuais e habilitando o destino **Email** para o novo grupo, de forma que uma nota de carta de cobrança seja enviada junto com as faturas de cliente apropriadas como anexos de email.
 
 [![Agrupar componentes individuais e habilitar o destino do email.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

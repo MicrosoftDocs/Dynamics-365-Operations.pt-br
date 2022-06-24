@@ -1,6 +1,6 @@
 ---
 title: Fechamento do exercício
-description: Este tópico descreve a configuração e as etapas necessárias para executar o processo de fechamento do exercício da contabilidade.
+description: Este artigo descreve a configuração e as etapas necessárias para executar o processo de fechamento do exercício da contabilidade.
 author: kweekley
 ms.date: 12/06/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883203"
 ---
-# <a name="year-end-close"></a>Fechamento anual
+# <a name="year-end-close"></a>Fechamento do exercício
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a configuração e as etapas necessárias para executar o processo de fechamento anual da contabilidade.
+Este artigo descreve a configuração e as etapas necessárias para executar o processo de fechamento do exercício da contabilidade.
 
 Ao final de um ano fiscal, é necessário executar o processo de fechamento anual para transferir saldos de abertura para o próximo ano. A maioria das organizações executarão o processo de fechamento anual diversas vezes. A primeira execução move os saldos para o novo ano fiscal. O processo pode então ser executado novamente, quantas vezes forem necessárias, para mover os saldos de entradas de ajuste para o novo ano fiscal.
 

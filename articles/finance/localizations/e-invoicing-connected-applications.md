@@ -1,6 +1,6 @@
 ---
 title: Aplicativos conectados
-description: Este tópico explica como configurar aplicativos conectados no faturamento eletrônico.
+description: Este artigo explica como configurar aplicativos conectados no faturamento eletrônico.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59b67589139c0ce332716acf998825c6a024bded
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 7a0a9c19009c49b80ca8c182c31592c1a713a2aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906277"
 ---
 # <a name="connected-applications"></a>Aplicativos conectados
 
 [!include [banner](../includes/banner.md)]
 
-Os aplicativos conectados são as instâncias do Microsoft Dynamics 365 Finance and Dynamics 365 Supply Chain Management que você pode querer alcançar por meio do Regulatory Configuration Service (RCS). Por meio dos aplicativos conectados, você pode configurar parte do recurso de globalização no Finance ou no Supply Chain Management para que todo o cenário de faturamento eletrônico funcione.
+Os aplicativos conectados são as instâncias do Microsoft Microsoft Dynamics 365 Finance e do Dynamics 365 Supply Chain Management que você pode querer alcançar por meio do Regulatory Configuration Service (RCS). Por meio dos aplicativos conectados, você pode configurar parte do recurso de globalização no Finance ou no Supply Chain Management para que todo o cenário de faturamento eletrônico funcione.
 
 Ao implantar seu recurso de globalização, as informações de configuração aplicáveis ao seu aplicativo Finance or Supply Chain Management podem ser publicadas diretamente do RCS para o aplicativo conectado apropriado.
 

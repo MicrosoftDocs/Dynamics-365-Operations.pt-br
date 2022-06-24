@@ -1,6 +1,6 @@
 ---
 title: Calcular TDS em faturas usando diários
-description: Este tópico lista as etapas para calcular o Imposto Deduzido na Origem (TDS) nos diários.
+description: Este artigo lista as etapas para calcular o Imposto Deduzido na Origem (TDS) nos diários.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f98caf92c49c229a11dd29d54e22106329e2401
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d9217029a38aa41e42a236d3cfa39993b1bcee4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863023"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>Calcular TDS em faturas usando diários
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista as etapas para calcular o Imposto Deduzido na Origem (TDS) nos diários.
+Este artigo lista as etapas para calcular o Imposto Deduzido na Origem (TDS) nos diários.
 
 Comece abrindo a página **Diários gerais** (**Contabilidade > Entradas de diário > Diários gerais**).
 

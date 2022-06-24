@@ -1,6 +1,6 @@
 ---
 title: Processar exemplo de cartas de cobrança
-description: Este tópico percorre um exemplo que mostra o processo de criação, impressão e lançamento de cartas de cobrança.
+description: Este artigo percorre um exemplo que mostra o processo de criação, impressão e lançamento de cartas de cobrança.
 author: JodiChristiansen
 ms.date: 02/03/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1bb1889e9450685f7b6a5000e2ef81d1a65f1b51
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908144"
 ---
 # <a name="process-collection-letters-example"></a>Processar exemplo de cartas de cobrança
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico percorre um exemplo que mostra o processo de criação, impressão e lançamento de cartas de cobrança. O exemplo se baseia na opção **Ignorar pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** em Crédito e cobranças. Ele usa os dados da empresa de demonstração de USMF e um novo cliente, EUA-045.
+Este artigo percorre um exemplo que mostra o processo de criação, impressão e lançamento de cartas de cobrança. O exemplo se baseia na opção **Ignorar pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** em Crédito e cobranças. Ele usa os dados da empresa de demonstração de USMF e um novo cliente, EUA-045.
 
 Para começar, Acesse **Clientes de contas \> a receber \> Todos os clientes**, selecione **Novo** e insira as informações necessárias para criar um cliente US-045.
 

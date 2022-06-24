@@ -1,6 +1,6 @@
 ---
-title: Visão geral do Imposto Deduzido na Origem (TDS) da Índia
-description: Este tópico fornece informações detalhadas sobre o Imposto Deduzido na Origem (TDS) da Índia. A documentação do TDS aborda a funcionalidade desse recurso.
+title: Visão geral do imposto retido na fonte (TDS) da Índia
+description: Este artigo fornece informações detalhadas sobre o Imposto Deduzido na Origem (TDS) da Índia. A documentação do TDS aborda a funcionalidade desse recurso.
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896273"
 ---
-# <a name="indian-tax-deducted-at-source-tds-overview"></a>Visão geral do Imposto Deduzido na Origem (TDS) da Índia
+# <a name="indian-tax-deducted-at-source-tds-overview"></a>Visão geral do imposto retido na fonte (TDS) da Índia
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações detalhadas sobre o Imposto Deduzido na Origem (TDS) da Índia.
+Este artigo fornece informações detalhadas sobre o Imposto Deduzido na Origem (TDS) da Índia.
 
 A documentação do TDS aborda a funcionalidade desse recurso. Também explica como fazer a configuração básica do TDS, calcular o TDS nas transações, concluir o processo de liquidação do TDS, registrar os números dos certificados do TDS e gerar consultas do TDS, declarações do TDS e certificados do TDS. A documentação inclui os seguintes tópicos:
 

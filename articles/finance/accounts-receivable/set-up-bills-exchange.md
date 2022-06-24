@@ -1,6 +1,6 @@
 ---
 title: Configurar letras de câmbio
-description: Este tópico descreve as etapas para configurar as letras de câmbio.
+description: Este artigo descreve as etapas para configurar as letras de câmbio.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6a9d04500ffe5b93c7a95c5cac9b4270e208dde9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874715"
 ---
 # <a name="set-up-bills-of-exchange"></a>Configurar letras de câmbio
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as etapas para configurar as letras de câmbio.
+Este artigo descreve as etapas para configurar as letras de câmbio.
 
 Uma letra de câmbio é uma ordem por escrito ou eletrônica de um fornecedor especificando que outra parte, normalmente um banco, deve pagar um valor declarado para a empresa. Quando uma letra de câmbio é usada como pagamento para uma nota fiscal de ordem de venda ou nota fiscal de texto livre, você credita a conta de cliente. Esse crédito é segurado pela letra de câmbio até o cliente pagar a letra de câmbio para o banco. A nota fiscal para a letra de câmbio será tipicamente liquidada na data de vencimento. Ao receber uma notificação do banco de que a letra de câmbio foi liquidada, você pode fechar a letra de câmbio. Você pode emitir uma letra de câmbio através do seu banco em qualquer uma das seguintes ocasiões:
 

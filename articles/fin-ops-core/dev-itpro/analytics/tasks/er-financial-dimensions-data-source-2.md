@@ -1,6 +1,6 @@
 ---
 title: ER Usar dimensões financeiras como uma fonte de dados (Parte 2 - Mapeamento de modelo)
-description: Este tópico descreve como configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER. (Parte 2)
+description: Este artigo descreve como configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER. (Parte 2)
 author: NickSelin
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: d228ee9d393cab1c5c1592ca6570cdc91992c38c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878332"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 2 - Mapeamento de modelo)
 
@@ -94,7 +94,7 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "ER 
 25. Na árvore, selecione "LedgerJournal\<Relações\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Conta principal e dimensões".
 26. Na árvore, selecione 'Diário\Transação\Dados de dimensões'.
 27. Clique em Associar.
-!Página Designer de mapeamento de modelos, guia Mapeamento, árvore Fontes de dados.](../media/er-financial-dimensions-guides-model-mapping3.png)
+!Página Designer de mapeamento de modelo, guia Mapeamento, árvore Fontes de dados.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Na árvore, selecione "LedgerJournal\<Relações\LedgerJournalTrans\Débito(AmountCurDebit)".
 29. Na árvore, selecione 'Diário\Transações\Débito'.
 30. Clique em Associar.

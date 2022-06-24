@@ -1,6 +1,6 @@
 ---
 title: Conteúdo de gerenciamento de custos do Power BI
-description: Este tópico descreve o que está incluído no conteúdo de gerenciamento de custos do Power BI.
+description: Este artigo descreve o que está incluído no conteúdo de gerenciamento de custos do Power BI.
 author: ShylaThompson
 ms.date: 03/16/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876853"
 ---
 # <a name="cost-management-power-bi-content"></a>Conteúdo de gerenciamento de custos do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O conteúdo de **Gerenciamento de custos** do Microsoft Power BI destina-se a contadores de estoque ou às pessoas da organização responsáveis ou interessadas pelo status do estoque ou do WIP (trabalho em andamento) ou ainda a pessoas que sejam responsáveis ou tenham interesse na análise de variações de custo padrão.
 
@@ -168,7 +168,7 @@ Os dados do aplicativo são usados para preencher as páginas do relatório no c
 
 As principais medidas agregadas dos objetos a seguir são usadas como base do conteúdo do Power BI.
 
-| Objeto                          | Principais medidas agregadas | Fonte de dados para o Finance and Operations | Campo               |
+| Objeto                          | Principais medidas agregadas | A fonte de dados para o Finance and Operations | Campo               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Valor                     | CostObjectStatementCache               | Valor              |
 | CostObjectStatementCacheMonthly | Quantidade                   | CostObjectStatementCache               | Qtd.                 |

@@ -1,6 +1,6 @@
 ---
 title: Imprimir informações de imposto sobre documentos de ordem de transferência
-description: Este tópico explica como as informações de imposto determinadas pelo serviço de cálculo de imposto podem ser impressas em documentos de ordem de transferência.
+description: Este artigo explica como as informações de imposto determinadas pelo serviço de cálculo de imposto podem ser impressas em documentos de ordem de transferência.
 author: Kai-Cloud
 ms.date: 10/15/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca7a610162c539a0ecd74cf9e663f08ea80a7e44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687461"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855192"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Imprimir informações de imposto sobre documentos de ordem de transferência
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como imprimir informações sobre impostos em documentos de ordem de transferência. Você pode imprimir o documento de fatura pro forma de uma ordem de transferência para transferências de estoque que são consideradas de fornecimento dentro da Comunidade e de aquisições da Comunidade sob as regulamentações da UE (União Europeia) e do IVA (imposto sobre valor agregado). 
+Este artigo explica como imprimir informações sobre impostos em documentos de ordem de transferência. Você pode imprimir o documento de fatura pro forma de uma ordem de transferência para transferências de estoque que são consideradas de fornecimento dentro da Comunidade e de aquisições da Comunidade sob as regulamentações da UE (União Europeia) e do IVA (imposto sobre valor agregado). 
 
 Os seguintes dados relevantes de imposto são adicionados aos documentos da ordem de transferência:
 

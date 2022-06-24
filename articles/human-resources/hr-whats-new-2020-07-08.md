@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (08 de julho de 2020)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 8 de julho de 2020.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 8 de julho de 2020.
 author: andreabichsel
 ms.date: 07/08/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37e22dcfb89349186526cf87d5f2a82bb86c48b1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c07646b70d07fbcd6f5aac897f79df7d159266af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693547"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848126"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (8 de julho de 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693547"
 
 
 
-Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3382. Os números entre parênteses em alguns títulos referem-se aos números de suporte do LCS para referência.
+Este artigo descreve os recursos novos ou alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3382. Os números entre parênteses em alguns títulos referem-se aos números de suporte do LCS para referência.
 
 ## <a name="database-logging"></a>Log de banco de dados
 

@@ -1,6 +1,6 @@
 ---
 title: Armazenamento dos dados de classificação por vencimento do cliente
-description: Este tópico descreve o processo de uso do armazenamento externo para dados de classificação por vencimento do cliente. Você pode executar o processo de armazenamento de dados de classificação por vencimento do Cliente para disponibilizar a saída para exportação para um sistema externo.
+description: Este artigo descreve o processo de uso do armazenamento externo para dados de classificação por vencimento do cliente. Você pode executar o processo de armazenamento de dados de classificação por vencimento do Cliente para disponibilizar a saída para exportação para um sistema externo.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d7a66485cc9a538f5c3999009b6dbe295d7a5b9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735511"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894132"
 ---
 # <a name="customer-aging-data-storage"></a>Armazenamento dos dados de classificação por vencimento do cliente
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o processo de uso do armazenamento externo para dados de classificação por vencimento do cliente. Na Microsoft Dynamics 365 Finance, você pode executar o processo de **armazenamento de dados de classificação por vencimento do Cliente** para disponibilizar a saída para exportação para um sistema externo. Quando você executa o processo, as mesmas opções de relatório de classificação por vencimento disponíveis no sistema estarão disponíveis para os sistemas externos. Os detalhes sempre são incluídos nos dados exportados.
+Este artigo descreve o processo de uso do armazenamento externo para dados de classificação por vencimento do cliente. Na Microsoft Dynamics 365 Finance, você pode executar o processo de **armazenamento de dados de classificação por vencimento do Cliente** para disponibilizar a saída para exportação para um sistema externo. Quando você executa o processo, as mesmas opções de relatório de classificação por vencimento disponíveis no sistema estarão disponíveis para os sistemas externos. Os detalhes sempre são incluídos nos dados exportados.
 
 Pode ser útil disponibilizar os dados de classificação por vencimento do cliente para um sistema externo para armazenamento em casos nos quais a saída contém muitos clientes e/ou várias transações. Se o relatório existente de **Classificação por vencimento do Cliente** expirar porque há muitos dados a serem impressos, esse recurso oferecerá uma forma alternativa de obter os mesmos dados.
 

@@ -1,6 +1,6 @@
 ---
 title: Visão geral de consolidações financeiras e conversão de moeda
-description: Este tópico descreve as consolidações financeiras e a conversão de moeda na contabilidade.
+description: Este artigo descreve as consolidações financeiras e a conversão de moeda na contabilidade.
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846847"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visão geral de consolidações financeiras e conversão de moeda
 
 [!include [banner](../includes/banner.md)]
 
-Esse tópico orienta você sobre a abordagem que o Microsoft Dynamics 365 Finance e os relatórios financeiros usam para consolidações. Ele descreve cenários que envolvem relatórios, agregação, eliminação e interesses minoritários de várias empresas. Ele também explica como lidar com situações especiais, como cenários em que entidades legais têm diferentes períodos fiscais ou diferentes planos de contas.
+Este artigo orienta você sobre a abordagem que o Microsoft Dynamics 365 Finance e o Financial Reporting usam para consolidações. Ele descreve cenários que envolvem relatórios, agregação, eliminação e interesses minoritários de várias empresas. Ele também explica como lidar com situações especiais, como cenários em que entidades legais têm diferentes períodos fiscais ou diferentes planos de contas.
 
-Este tópico foi escrito para usuários e consultores funcionais e presume que os leitores tenham um entendimento geral do Finance e de relatórios financeiros. A configuração básica não é abordada.
+Este artigo foi escrito para usuários e consultores funcionais e presume que os leitores tenham um entendimento geral do Finance e do Financial Reporting. A configuração básica não é abordada.
 
 > [!NOTE]
-> O termo *entidade legal* é usado no Finance e o termo *empresa* é usado em Relatórios financeiros. Ambos os termos são usados neste tópico. Contudo, para os fins deste tópico, seus significados são os mesmos.
+> O termo *entidade legal* é usado no Finance e o termo *empresa* é usado em Relatórios financeiros. Ambos os termos são usados neste artigo. Contudo, para fins deste artigo, seus significados são os mesmos.
 
 ## <a name="audience"></a>Público-alvo
-Este tópico é destinado a usuários de finanças e contabilidade e consultores de aplicativos que desejam usar o Finance and Operations e Relatório financeiro para consolidar dados de várias empresas e várias moedas.
+Este artigo é destinado a usuários de finanças e contabilidade e consultores de aplicativos que desejam usar o Finance and Operations e Relatório financeiro para consolidar dados de várias empresas e várias moedas.
 
 ## <a name="approach"></a>Abordagem
 O Finance usa uma entidade legal separada para processar uma consolidação. Ele permite a consolidação de instância única, mas fornece uma opção para trazer dados de outras fontes. O processo de consolidação deve ser executado sempre que forem realizadas alterações nas entidades legais de origem.

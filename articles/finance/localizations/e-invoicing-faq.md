@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes sobre faturamento eletrônico
-description: Este tópico fornece informações relativas a perguntas frequentes sobre faturamento eletrônico.
+description: Este artigo fornece informações relativas a perguntas frequentes sobre faturamento eletrônico.
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904344"
 ---
 # <a name="electronic-invoicing-faq"></a>Perguntas frequentes sobre Faturamento Eletrônico
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece respostas a perguntas frequentes sobre serviço de faturamento eletrônico. O faturamento eletrônico estende os recursos de faturamento eletrônico que existem no Dynamics 365 Finance, no Dynamics 365 Supply Chain Management e no Dynamics 365 Project Operations. 
+Este artigo fornece respostas a perguntas frequentes sobre serviço de faturamento eletrônico. O faturamento eletrônico estende os recursos de faturamento eletrônico que existem no Dynamics 365 Finance, no Dynamics 365 Supply Chain Management e no Dynamics 365 Project Operations. 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>O que é importante sobre o faturamento eletrônico e por que deve ser importante para minha organização?
 

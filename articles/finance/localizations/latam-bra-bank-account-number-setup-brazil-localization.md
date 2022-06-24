@@ -1,6 +1,6 @@
 ---
 title: Configurar números de conta bancária para o Brasil
-description: Este tópico explica como configurar números de conta bancária para a localização brasileira.
+description: Este artigo explica como configurar números de conta bancária para a localização brasileira.
 author: gionoder
 ms.date: 01/20/2022
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: gionoder
 ms.search.validFrom: 2022-01-20
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1782dea573c104b9b977d9bdeb4e9043be82eb51
-ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.openlocfilehash: b6becccb08ba42e8bfb75f91881cbffd6c028411
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "8016152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880608"
 ---
 # <a name="set-up-bank-account-numbers-for-brazil"></a>Configurar números de conta bancária para o Brasil
 

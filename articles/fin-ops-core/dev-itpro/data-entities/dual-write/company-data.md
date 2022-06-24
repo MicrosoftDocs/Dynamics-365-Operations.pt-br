@@ -1,6 +1,6 @@
 ---
 title: Conceito de empresa no Dataverse
-description: Este tópico descreve a integração de dados de empresa entre o Finance and Operations e o Dataverse.
+description: Este artigo descreve a integração de dados de empresa entre o Finance and Operations e o Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873168"
 ---
 # <a name="company-concept-in-dataverse"></a>Conceito de empresa no Dataverse
 
@@ -49,7 +49,7 @@ Devido a essa configuração, qualquer linha relacionada à empresa USMF será p
 
 Conforme mostrado na ilustração anterior, este mapeamento 1:1 entre unidade de negócios, empresa e equipe é apenas um ponto de partida. Neste exemplo, uma nova unidade de negócios “Europa” é criada manualmente no Dataverse como o pai de DEMF e ESMF. Essa nova unidade de negócios raiz não está relacionada à gravação dupla. No entanto, ela pode ser usada para dar aos membros da equipe de "Vendas BRL" acesso à dados de conta em DEMF e ESMF, definindo a visibilidade de dados como **BU pai/filho** na função de segurança associada.
 
-Um tópico final para discutir é como a gravação dupla determina à qual equipe proprietária deve-se atribuir linhas. Esse comportamento é controlado pela coluna **Equipe proprietária padrão** da linha cdm\_Company. Quando uma linha cdm\_Company estiver habilitada para gravação dupla, um plug-in criará automaticamente a unidade de negócios associada e a equipe proprietária (se ainda não existir) e definirá a coluna **Equipe proprietária padrão**. O administrador pode alterar esta coluna para um valor diferente. No entanto, o administrador não pode desmarcar a coluna desde se a tabela estiver habilitada para gravação dupla.
+Um artigo final para discutir é como a gravação dupla determina à qual equipe proprietária deve-se atribuir linhas. Esse comportamento é controlado pela coluna **Equipe proprietária padrão** da linha cdm\_Company. Quando uma linha cdm\_Company estiver habilitada para gravação dupla, um plug-in criará automaticamente a unidade de negócios associada e a equipe proprietária (se ainda não existir) e definirá a coluna **Equipe proprietária padrão**. O administrador pode alterar esta coluna para um valor diferente. No entanto, o administrador não pode desmarcar a coluna desde se a tabela estiver habilitada para gravação dupla.
 
 > [!div class="mx-imgBorder"]
 ![Coluna da equipe proprietária padrão.](media/dual-write-default-owning-team.jpg)

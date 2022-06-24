@@ -1,6 +1,6 @@
 ---
 title: Convenções de arrendamento de ativos
-description: Este tópico descreve convenções ativos arrendados.
+description: Este artigo descreve convenções para ativos arrendados.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e0aabce46e47079b754b8ac674b205cf00b5e26
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f2f0e21b20a969c0847ce3a6eb167287c1d7ee3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898259"
 ---
 # <a name="asset-leasing-conventions"></a>Convenções de arrendamento de ativos
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico descreve convenções ativos arrendados. As convenções de arrendamento são usadas para determinar a data de início de um registro de arrendamento. Se a convenção de arrendamento estiver definida como **Nenhum**, a data de início será a mesma que a data inicial do arrendamento (ou seja, o valor do campo **Data de início do arrendamento**). Se a convenção de arrendamento for definida como **Mês completo**, a data de início será o primeiro dia do mês em que a data inicial do arrendamento cairá.
+Este artigo descreve convenções para ativos arrendados. As convenções de arrendamento são usadas para determinar a data de início de um registro de arrendamento. Se a convenção de arrendamento estiver definida como **Nenhum**, a data de início será a mesma que a data inicial do arrendamento (ou seja, o valor do campo **Data de início do arrendamento**). Se a convenção de arrendamento for definida como **Mês completo**, a data de início será o primeiro dia do mês em que a data inicial do arrendamento cairá.
 
 A data de início determina a data inicial do período para as agendas de amortização de passivos e depreciação de ativos. Despesas de juros e despesas de depreciação são lançadas na data de término do período das agendas correspondentes. A entrada de diário de reconhecimento e ajuste inicial é lançada na data de início.
 

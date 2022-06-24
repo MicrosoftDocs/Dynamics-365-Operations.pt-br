@@ -1,6 +1,6 @@
 ---
-title: Visão geral de transferência de crédito SEPA
-description: Este tópico fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores.
+title: Visão geral da transferência de crédito SEPA
+description: Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871439"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Visão geral de transferência de crédito SEPA
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito.
+Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O artigo também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito.
 
 ## <a name="what-is-a-credit-transfer-message"></a>O que é uma mensagem de transferência de crédito?
 A mensagem de transferência de crédito é uma solicitação que um participante iniciante (empresa) envia para mover fundos da conta a um credor. Há muitas implementações específicas de país/região e banco de mensagens de transferência de crédito. Algumas são utilizadas dentro de um país/região, e outras estão se tornando padrão. Um padrão global bem estabelecido é o ISO 20022 e suas mensagens de iniciação, como a transferência de crédito. A ilustração a seguir mostra as relações e a cobertura para as mensagens de transferência de crédito selecionadas. 
@@ -53,7 +53,7 @@ Uma transferência de crédito de SEPA é um pagamento de uma empresa ou pessoa 
 O formato de pagamento de transferência de crédito para países europeus é implementado usando os recursos de relatórios eletrônicos (ER) e métodos de pagamento no Microsoft Dynamics 365 Finance. Alguns formatos de transferência de crédito usados em outras regiões não usam a estrutura de pagamento herdada. Entre muitos outros formatos, existem dize formatos de arquivo de transferência de crédito ISO 20022 disponíveis. Esses formatos de exportação estão em conformidade com o padrão ISO 20022 XML do SEPA. São usados para gerar transferências de pagamento de uma moeda diferente do euro para países/regiões onde são usados e pagamentos em euro conforme especificado na versão 8.2 da Regulamentação do Esquema de Transferência de Crédito do SEPA que a EPC publica. Antes que você possa implementar a transferência de crédito, você deve entrar em contato com o banco para obter o software que é necessário para carregar arquivos eletrônicos da operação bancária. Você usará esse software para transferir os arquivos XML que contém ordens de pagamento para seu banco.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Quais formatos de transferência de crédito são aceitos atualmente?
-Você sempre deve ir para a biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS) e exibir a lista mais atualizada de arquivos disponíveis que possuem um tipo de ativo de **Configuração GER**. A seção a seguir, "O que eu tenho que configurar?", fornece um link para o tópico que explica como criar uma loja de LCS para revisar as configurações disponíveis e as configurações de importação.
+Você sempre deve ir para a biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS) e exibir a lista mais atualizada de arquivos disponíveis que possuem um tipo de ativo de **Configuração GER**. A seção a seguir, "O que eu tenho que configurar?", fornece um link para o assunto que explica como criar uma loja de LCS para revisar as configurações disponíveis e as configurações de importação.
 
 ## <a name="what-do-i-have-to-set-up"></a>O que eu tenho que configurar?
 -   Antes de criar arquivos de transferência de crédito, pelo menos uma configuração ativa da transferência de crédito deve ser importada para suas configurações eletrônicas. Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).

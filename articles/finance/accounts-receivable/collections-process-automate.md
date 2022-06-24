@@ -1,6 +1,6 @@
 ---
 title: Automação do processo de cobranças
-description: Este tópico descreve a configuração de estratégias do processo de cobranças que identificam automaticamente as faturas de cliente que exigem um lembrete por email, uma atividade de cobrança (como um telefonema) ou uma carta de cobrança a ser enviada ao cliente.
+description: Este artigo descreve a configuração de estratégias do processo de cobranças que identificam automaticamente as faturas de cliente que exigem um lembrete por email, uma atividade de cobrança (como um telefonema) ou uma carta de cobrança a ser enviada ao cliente.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486860"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946137"
 ---
 # <a name="collections-process-automation"></a>Automação do processo de cobranças
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a configuração de estratégias do processo de cobranças que identificam automaticamente as faturas de cliente que exigem um lembrete por email, uma atividade de cobrança (como um telefonema) ou uma carta de cobrança a ser enviada ao cliente. 
+Este artigo descreve a configuração de estratégias do processo de cobranças que identificam automaticamente as faturas de cliente que exigem um lembrete por email, uma atividade de cobrança (como um telefonema) ou uma carta de cobrança a ser enviada ao cliente. 
 
 Geralmente as organizações gastam uma quantidade significativa de tempo pesquisando relatórios de saldo antigos, contas de clientes e faturas em aberto para saber quais clientes devem ser contatados sobre uma fatura em aberto ou um saldo de conta. Essa pesquisa tira tempo do agente de cobrança que seria gasto na comunicação com os clientes para cobrar saldos vencidos ou resolver contestações de faturas. A automação do processo de cobranças permite configurar uma abordagem baseada em estratégias para o processo de cobrança. Isso ajuda a aplicar as atividades de cobrança consistentemente, fornecendo lembretes por email personalizados ou processo programado para enviar cartas de cobrança. 
 

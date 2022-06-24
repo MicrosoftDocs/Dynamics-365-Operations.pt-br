@@ -1,6 +1,6 @@
 ---
 title: Registrar os números dos certificados de concessão de TDS
-description: Este tópico explica como registrar os números de certificados de concessão do Imposto Deduzido na Origem (Tax Deducted at Source, TDS) que são emitidos para os fornecedores.
+description: Este artigo explica como registrar os números de certificados de concessão do Imposto Deduzido na Origem (Tax Deducted at Source, TDS) que são emitidos para os fornecedores.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 994ddbb4666c326d237d53d529ba126f42d48595
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 116bc5c4b4f5f0b95d05dc73f2a012fbbc065bf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846603"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>Registrar os números dos certificados de concessão de TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como registrar os números de certificados de concessão do Imposto Deduzido na Origem (Tax Deducted at Source, TDS) que são emitidos para os fornecedores.
+Este artigo explica como registrar os números de certificados de concessão do Imposto Deduzido na Origem (Tax Deducted at Source, TDS) que são emitidos para os fornecedores.
 
 1. Acesse **Imposto \> Impostos indiretos \> Imposto retido na fonte \> Concessões de imposto retido na fonte**.
 2. No campo **Tipo de imposto**, selecione **TDS** para registrar os certificados de concessão para o tipo de imposto TDS.

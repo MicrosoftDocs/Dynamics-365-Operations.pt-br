@@ -1,6 +1,6 @@
 ---
 title: Importar notas fiscais do Brasil
-description: Este tópico descreve a funcionalidade para notas fiscais de importação direta disponível da localização brasileira.
+description: Este artigo descreve a funcionalidade para notas fiscais de importação direta disponível da localização brasileira.
 author: sndray
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9eebea1205e9e7d34a4ada0dbeaf98b31a46e9ac88559aa4e2cf231f7660d2d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 341c02219ef9a9cfefd5b75d1048fc18f9a1e4f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855259"
 ---
 # <a name="import-fiscal-documents-for-brazil"></a>Importar notas fiscais do Brasil
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a funcionalidade para notas fiscais de importação direta disponível da localização brasileira.
+Este artigo descreve a funcionalidade para notas fiscais de importação direta disponível da localização brasileira.
 
 Você pode emitir uma nota fiscal de importação direta quando cria uma ordem de compra para importar itens de um fornecedor estrangeiro. Uma nota fiscal de importação registra informações de trânsito sobre os itens que você importa. A nota fiscal de importação é usada para liberar os itens das tarifas alfandegárias e validar a entrada dos itens no depósito da entidade legal. É necessário especificar as informações da declaração de importação (o número de adição e o número da declaração de importação) para uma ordem de compra que é emitida para importar itens de um fornecedor estrangeiro antes de lançar a ordem de compra. Um documento fiscal de importação direta inclui as seguintes informações:
 

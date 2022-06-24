@@ -1,6 +1,6 @@
 ---
 title: Introdução ao Faturamento eletrônico para o Brasil
-description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Brasil no Finance e no Supply Chain Management.
+description: Este artigo fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Brasil no Finance e no Supply Chain Management.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846574"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Introdução ao Faturamento eletrônico para o Brasil 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Brasil. O tópico guia você pelas etapas de configuração que dependem do país para o Regulatory Configuration Services (RCS) e complementam as etapas descritas em [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+Este artigo fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Brasil. O artigo guia você pelas etapas de configuração que dependem do país para o Regulatory Configuration Services (RCS) e complementam as etapas descritas no artigo [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Configuração específica de país para o recurso Faturamento eletrônico de NF-e brasileira (BR)
 
 Alguns dos parâmetros do recurso **Faturamento eletrônico da NF-e (BR) brasileira** são publicados com valores padrão. Revise os valores e, se necessário, atualize-os para refletir melhor sua operação de negócios antes de implantar o recurso Faturamento eletrônico no ambiente de serviço.
 
-Esta seção complementa a seção **recurso Configuração específica do país para Faturamento eletrônico** no tópico [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+Esta seção complementa a seção **recurso Configuração específica do país para Faturamento eletrônico** no artigo [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
 
 1. No RCS, na seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Faturamento eletrônico**.
 2. Na página **Recursos do Faturamento eletrônico**, verifique se o recurso **Faturamento eletrônico de NF-e (BR) brasileira** que você criou foi selecionado.
@@ -51,7 +53,7 @@ Esta seção complementa a seção **recurso Configuração específica do país
 
 Conclua estas etapas antes de implantar a configuração do aplicativo no aplicativo Finance ou Supply Chain Management conectado.
 
-Esta seção complementa a seção **Configuração específica do país da configuração do aplicativo** no tópico [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+Esta seção complementa a seção **Configuração específica do país da configuração do aplicativo** no artigo [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
 
 1. No RCS, na seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Faturamento eletrônico**.
 2. Na página **Recursos do Faturamento eletrônico**, verifique se o recurso Faturamento eletrônico de **NF-e (BR) brasileira** foi selecionado.
@@ -71,7 +73,7 @@ Esta seção complementa a seção **Configuração específica do país da conf
 
 Alguns dos parâmetros do recurso **Faturamento eletrônico da NF-e brasileira ABRASF de Curitiba (BR)** são publicados com valores padrão. Revise e, se necessário, atualize os valores para atender melhor às necessidades da operação de negócios antes de implantar o recurso Faturamento eletrônico no ambiente de serviço.
 
-Esta seção complementa a seção **recurso Configuração específica do país para Faturamento eletrônico** no tópico [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+Esta seção complementa a seção **recurso Configuração específica do país para Faturamento eletrônico** no artigo [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
 
 1. No RCS, na seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Faturamento eletrônico**.
 2. Na página **Recursos do Faturamento eletrônico**, verifique se o recurso Faturamento eletrônico de **NFS-e brasileira e ABRASF de Curitiba (BR)** que você criou foi selecionado.
@@ -96,7 +98,7 @@ Esta seção complementa a seção **recurso Configuração específica do país
 
 Conclua estas etapas antes de implantar a configuração do aplicativo no aplicativo Finance ou Supply Chain Management conectado.
 
-Esta seção complementa a seção **Configuração específica do país da configuração do aplicativo** no tópico [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
+Esta seção complementa a seção **Configuração específica do país da configuração do aplicativo** no artigo [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
 
 1. No RCS, na seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Faturamento eletrônico**.
 2. Na página **Recursos do Faturamento eletrônico**, verifique se o recurso Faturamento eletrônico de **NFS-e brasileira e ABRASF de Curitiba (BR)** foi selecionado.

@@ -1,6 +1,6 @@
 ---
 title: Configurar, criar e gerenciar custos de absorção
-description: Este tópico fornece informações sobre como configurar, criar e gerenciar custos de absorção para o Brasil.
+description: Este artigo fornece informações sobre como configurar, criar e gerenciar custos de absorção para o Brasil.
 author: ShylaThompson
 ms.date: 09/13/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1b9198772762ce3a9cafedbabfac5b4924c8dfcb8440195115a4ef5f8548c073
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b335ecfe77016ad20390fc83d158815f0b57ff19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889781"
 ---
 # <a name="set-up-create-and-manage-absorption-costs"></a>Configurar, criar e gerenciar custos de absorção 
 

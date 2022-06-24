@@ -1,6 +1,6 @@
 ---
 title: Home page de arrendamento de ativos
-description: Este tópico fornece uma visão geral da documentação de arrendamento de ativos e links para tópicos específicos.
+description: Este artigo fornece uma visão geral da documentação de arrendamento de ativos e links para tópicos específicos.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889139"
 ---
 # <a name="asset-leasing-home-page"></a>Home page de arrendamento de ativos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista os tópicos da ajuda que estão disponíveis para arrendamento de ativos e inclui links para tópicos específicos. 
+Este artigo lista os tópicos da ajuda que estão disponíveis para arrendamento de ativos e inclui links para tópicos específicos. 
 
 O arrendamento de ativos é um recurso avançado para gerenciar, rastrear e automatizar transações financeiras do locatário para ativos arrendados no Microsoft Dynamics 365 Finance. O arrendamento de ativos está em conformidade com padrões internacionais de contabilidade (IFRS 16) e padrões de GAAP dos EUA (ASC 842). O arrendamento de ativos captura e processa informações sobre os arrendamentos e ajuda a gerar entradas de diário durante o ciclo de vida da concessão das entradas de reconhecimento inicial, de diário mensal, para deficiências e encerramento da concessão.
 
 Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho **Gerenciamento de recursos** para verificar o status do recurso e ativá-lo, se necessário. No espaço de trabalho **Gerenciamento de recursos**, localize e selecione o recurso denominado **Arrendamento de ativos** e clique no botão **Habilitar agora**.
 
 ## <a name="asset-leasing-topics"></a>Tópicos de arrendamento de ativos
-O tópico a seguir está disponível para ajudar a configurar e usar o arrendamento de ativos. 
+O artigo a seguir está disponível para ajudar a configurar e usar o arrendamento de ativos. 
 
- - [Introdução ao arrendamento do ativo](asset-leasing-quick-start.md) - Este tópico descreve os recursos gerais de arrendamento de ativos e lista e define os termos usados no software e na documentação.
+ - [Introdução ao arrendamento de ativos](asset-leasing-quick-start.md) - este artigo descreve os recursos gerais de arrendamento de ativos, além de listar e definir os termos usados no software e na documentação.
  
  ### <a name="set-up-asset-leasing"></a>Configurar arrendamento de ativos
  Esse grupo de tópicos pode ajudá-lo a configurar o arrendamento de ativos de uma forma ideal para a situação comercial de sua organização.  
@@ -77,7 +77,7 @@ Este grupo de tópicos descreve o processo para adicionar arrendamentos, criar f
  - [Gerenciar arrendamento por meio da estrutura de importação de arrendamento](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Relatórios de arrendamento de ativo
-Este tópico descreve os relatórios disponíveis para arrendamentos de ativo. 
+Este artigo descreve os relatórios disponíveis para arrendamentos de ativo. 
 
  - [Relatórios de arrendamento de ativos](asset-leasing-rprts.md)
  

@@ -1,6 +1,6 @@
 ---
 title: Visão geral do gerenciamento de benefícios
-description: Este tópico fornece uma visão geral do recurso de gerenciamento de Benefícios no Dynamics 365 Human Resources.
+description: Este artigo fornece uma visão geral do recurso Gerenciamento de benefícios no Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901137"
 ---
 # <a name="benefits-management-overview"></a>Visão geral do gerenciamento de benefícios
 
@@ -44,7 +44,7 @@ Se deseja acessar os dados de demonstração, será necessário implementar nova
 
 ## <a name="enable-benefits-management"></a>Habilitar o Gerenciamento de benefícios
 
-Este tópico descreve como acionar os recursos no Human Resources. Ele também explica quais recursos existentes no Human Resources são substituídos pelo Gerenciamento de benefícios e quais recursos são desabilitados após ativar o Gerenciamento de benefícios.
+Este artigo descreve como acionar os recursos no Human Resources. Ele também explica quais recursos existentes no Human Resources são substituídos pelo Gerenciamento de benefícios e quais recursos são desabilitados após ativar o Gerenciamento de benefícios.
 
 > [!IMPORTANT]
 > Depois de habilitar o gerenciamento de benefícios em um ambiente de **Produção** você pode desativá-lo. É recomendável habilitar e testar o gerenciamento de benefícios em um ambiente de **Área restrita** antes de ativá-lo em um ambiente de **Produção**. Há diferenças significativas entre a funcionalidade de benefício herdada e a nova funcionalidade de gerenciamento de benefícios que exigem configuração adicional e devem ser testadas antes de serem colocadas em produção.

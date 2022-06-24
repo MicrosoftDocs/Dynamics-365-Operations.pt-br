@@ -1,6 +1,6 @@
 ---
 title: Referências a faturas originais em notas de crédito
-description: Este tópico explica como configurar e imprimir os números de fatura originais nas notas de crédito relacionadas.
+description: Este artigo explica como configurar e imprimir os números de fatura originais nas notas de crédito relacionadas.
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861521"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Referências a faturas originais em notas de crédito
 
 [!include [banner](../includes/banner.md)]
 
 
-Em alguns países e regiões, há um requisito legal de que notas de crédito impressas incluem referências às faturas originais. Este tópico explica como configurar e imprimir os números de fatura originais nas notas de crédito relacionadas.
+Em alguns países e regiões, há um requisito legal de que notas de crédito impressas incluem referências às faturas originais. Este artigo explica como configurar e imprimir os números de fatura originais nas notas de crédito relacionadas.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
 - No espaço de trabalho **Gerenciamento de recursos**, ative o recurso **Layout de faturamento de crédito para vendas e relatórios de faturas de projetos**. Para obter mais informações, consulte [Visão geral do Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Os formatos imprimíveis dos documentos necessários devem ser configurados no gerenciamento de impressão.
 
-A funcionalidade descrita neste tópico aplica-se aos seguintes documentos:
+A funcionalidade descrita neste artigo aplica-se aos seguintes documentos:
 
 **Contas a receber**
 

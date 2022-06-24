@@ -1,6 +1,6 @@
 ---
 title: Liquidação e priorização automáticas
-description: Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
+description: Este artigo descreve como transações serão liquidadas se você selecionar a Liquidação automática na página Parâmetros de contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855510"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Liquidação e priorização automáticas
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
+Este artigo descreve como transações serão liquidadas se você selecionar a Liquidação automática na página Parâmetros de contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
 
 Você tem duas opções quando liquida pagamentos com faturas e outras transações. Você pode selecionar manualmente as transações a serem liquidadas ou o sistema pode selecioná-las automaticamente usando a funcionalidade de liquidação automática. Você também pode personalizar como as liquidações automáticas são processadas usando a opção **Priorizar liquidação**. Todas essas opções são parte dos parâmetros de liquidação que são definidos na página **Parâmetros de contas a receber**. O modo como as transações são liquidadas automaticamente pode ser diferente, dependendo do método usado para a liquidação automática. Os seguintes métodos estão disponíveis:
 

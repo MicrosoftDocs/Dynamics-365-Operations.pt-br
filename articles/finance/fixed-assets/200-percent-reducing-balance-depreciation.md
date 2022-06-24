@@ -1,6 +1,6 @@
 ---
-title: Depreciação com declínio de 200%
-description: Este tópico apresenta uma visão geral do método de depreciação de redução de 200% do saldo.
+title: Depreciação com redução de 200% do saldo
+description: Este artigo apresenta uma visão geral do método de depreciação com redução de 200% do saldo.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 831a99246f0a2d5f223e3624aace1c218c3c4ff4
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 7abcf26f3e658e8a6f451f26240890d183547982
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870152"
 ---
-# <a name="200-percent-reducing-balance-depreciation"></a>Depreciação com declínio de 200%
+# <a name="200-percent-reducing-balance-depreciation"></a>Depreciação com redução de 200% do saldo
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico apresenta uma visão geral do método de depreciação de redução de 200% do saldo.
+Este artigo apresenta uma visão geral do método de depreciação com redução de 200% do saldo.
 
 Ao configurar um perfil de depreciação de ativos fixos e selecionar **declínio de 200%** no campo **Método** na página **Perfis de depreciação**, os ativos fixos que são atribuídos ao perfil de depreciação são depreciados pela mesma porcentagem em cada período de depreciação. A porcentagem é calculada com base na vida útil do ativo. Por exemplo, se um ativo tiver uma vida útil de cinco anos, será calculada uma porcentagem de 40% (200%/5). 
 
@@ -43,7 +43,7 @@ Sua seleção determinará as opções disponíveis no campo **Frequência do pe
 
 Você pode optar por manter o valor padrão no campo **Ano de depreciação**, **Calendário**. 
 
-A opção **Calendário** atualiza a base de depreciação em 1º de janeiro de cada ano. Normalmente, a depreciação é o valor líquido contábil menos o valor de sucata. Nos exemplos a seguir deste tópico, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. 
+A opção **Calendário** atualiza a base de depreciação em 1º de janeiro de cada ano. Normalmente, a depreciação é o valor líquido contábil menos o valor de sucata. Nos exemplos a seguir deste artigo, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. 
 
 Se você selecionar **Calendário** como o ano de depreciação, as seguintes opções ficarão disponíveis no campo **Frequência do período**:
 
@@ -53,7 +53,7 @@ Se você selecionar **Calendário** como o ano de depreciação, as seguintes op
 -   **Semestral** lança um valor semestral no final de cada semestre do calendário (30 de junho e 31 de dezembro).
 -   **Diário** lança o valor de depreciação do método de depreciação diária usando uma transação para cada dia.
 
-### <a name="fiscal"></a>fiscal
+### <a name="fiscal"></a>Fiscal
 
 Se você selecionar **Fiscal** no campo **Ano de depreciação**, a depreciação com declínio de 200% será calculada com base no ano fiscal especificado para o registro de depreciação, ou para o calendário fiscal selecionado na página **Razão**. Os calendários fiscais são configurados na página **Calendários fiscais**. 
 
@@ -68,15 +68,15 @@ Quando **Fiscal** for selecionado como o ano de depreciação, as seguintes opç
 
 | &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
-| Custo de Aquisição               | 11.000 |
-| valor residual                  | 1.000 |
+| Custo de aquisição               | 11.000 |
+| Valor residual                  | 1.000 |
 | Base de depreciação              | 10.000 |
 | Anos de vida útil             | 5      |
-| porcentagem de depreciação | 40%    |
+| Porcentagem de depreciação anual | 40%    |
 
 O método por declínio de 200% divide 200% pelos anos de vida útil. Essa porcentagem será multiplicada pelo valor líquido contábil do ativo para determinar o valor da depreciação anual.
 
-| Período | Cálculo do valor de depreciação anual | Valor Contábil             | Valor líquido contábil no final do ano |
+| Período | Cálculo do valor de depreciação anual | Valor contábil             | Valor líquido contábil no final do ano |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
 | Ano 1 | (11.000 – 1.000) × 40% = 4.000                | 11.000 – 4.000 = 7.000 | 11.000 – 1.000 – 4.000 = 6.000        |
 | Ano 2 | 6.000 × 40% = 2.400                           | 7.000 – 2.400 = 4.600  | 6.000 – 2.400 = 3.600                 |

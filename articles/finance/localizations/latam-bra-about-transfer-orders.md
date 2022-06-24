@@ -1,6 +1,6 @@
 ---
 title: Ordens de transferência (Brasil)
-description: Este tópico fornece informações sobre as ordens de transferência do Brasil.
+description: Este artigo fornece informações sobre as ordens de transferência do Brasil.
 author: ShylaThompson
 ms.date: 09/13/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: e52736c6a4d14cc86fb1ef150d4e8a63513dc618
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: db7f830168950a55b9cfe7a9968c73a9612e2d1d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880611"
 ---
 # <a name="transfer-orders-brazil"></a>Ordens de transferência (Brasil)
 

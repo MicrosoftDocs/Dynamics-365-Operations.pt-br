@@ -1,6 +1,6 @@
 ---
 title: Configure informações sobre grupo TDS, PANs e TANs para fornecedores e clientes
-description: Este tópico explica como configurar informações sobre grupos de Imposto Deduzido na Origem (TDS), número de conta permanente (PAN) e número de conta de imposto (TAN) para fornecedores e clientes.
+description: Este artigo explica como configurar informações sobre grupo de Imposto Deduzido na Origem (TDS), número de conta permanente (PAN) e número de conta de imposto (TAN) para fornecedores e clientes.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 83ec532e95bde553c3a339e2ca103ebaacdb52ae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1a29f59e380360b6f828dcddbe84cad229b42d17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859756"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Configuração de informações do grupo TDS, PAN e TAN para fornecedores e clientes
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar informações sobre grupos de Imposto Deduzido na Origem (TDS), número de conta permanente (PAN) e número de conta de imposto (TAN) para fornecedores e clientes.
+Este artigo explica como configurar informações sobre grupo de Imposto Deduzido na Origem (TDS), número de conta permanente (PAN) e número de conta de imposto (TAN) para fornecedores e clientes.
 
 1. Acesse **Contas a pagar \> Fornecedores \> Todos os fornecedores** ou **Contas a receber \> Clientes \> Todos os clientes**.
 

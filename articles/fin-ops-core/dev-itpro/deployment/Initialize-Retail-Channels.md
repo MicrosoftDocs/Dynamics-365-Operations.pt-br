@@ -1,8 +1,8 @@
 ---
 title: Inicializar a Commerce Scale Unit (nuvem)
-description: Este tópico explica como inicializar a Commerce Scale Unit (nuvem) no Microsoft Dynamics 365 Commerce.
+description: Este artigo explica como inicializar a Commerce Scale Unit (nuvem) no Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
-ms.date: 02/04/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,18 +11,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 84e70515accde161e7efa36755edec68d26be952
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092204"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942842"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Inicializar a Commerce Scale Unit (nuvem)
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico explica como inicializar a Commerce Scale Unit (nuvem) no Microsoft Dynamics 365 Commerce.
+Este artigo explica como inicializar a Commerce Scale Unit (nuvem) no Microsoft Dynamics 365 Commerce.
 
 Se você estiver usando uma área restrita ou ambiente de produção de nível 2 que tenha a versão do aplicativo 8.1.2. x ou posterior, você deve inicializar a Commerce Scale Unit (nuvem) antes de poder usar a funcionalidade de canal de varejo para operações de ponto de venda (PDV) ou de comércio eletrônico que usam o Retail Server na nuvem. A inicialização implantará uma Commerce Scale Unit (nuvem).
 
@@ -49,32 +49,34 @@ Se você estiver usando uma área restrita ou ambiente de produção de nível 2
 ## <a name="region-availability"></a>Disponibilidade da região
 A Commerce Scale Unit está disponível para implantação nas seguintes regiões.
 
-| Localização global | Região              | Disponibilidade        |
-|-----------------|---------------------|---------------------|
-| AMÉRICAS        | Leste dos EUA             | Geralmente disponível |
-| AMÉRICAS        | Leste dos EUA 2           | Geralmente disponível |
-| AMÉRICAS        | Norte Central dos EUA    | Geralmente disponível |
-| AMÉRICAS        | Central Sul dos EUA    | Geralmente disponível |
-| AMÉRICAS        | EUA Central          | Geralmente disponível |
-| AMÉRICAS        | Oeste dos EUA             | Geralmente disponível |
-| AMÉRICAS        | Oeste dos EUA 2           | Geralmente disponível |
-| AMÉRICAS        | Canadá Central      | Capacidade limitada    |
-| AMÉRICAS        | Leste do Canadá         | Capacidade limitada    |
-| AMÉRICAS        | Centro-Oeste dos EUA     | Capacidade limitada    |
-| APAC            | Leste da Austrália      | Geralmente disponível |
-| APAC            | Sudeste da Ásia      | Geralmente disponível |
-| APAC            | Leste do Japão          | Geralmente disponível |
-| APAC            | Oeste do Japão          | Geralmente disponível |
-| APAC            | Sudeste da Austrália | Capacidade limitada    |
-| APAC            | Leste da Ásia           | Capacidade limitada    |
-| APAC            | Sul da Índia         | Capacidade limitada    |
-| APAC            | Índia Central       | Capacidade limitada    |
-| EMEA            | Oeste da Europa         | Geralmente disponível |
-| EMEA            | Norte da Europa        | Geralmente disponível |
-| EMEA            | Sul do Reino Unido            | Capacidade limitada    |
-| EMEA            | Oeste do Reino Unido             | Capacidade limitada    |
+| Localização global | Região              | Disponibilidade        | Comentários                  |
+|-----------------|---------------------|---------------------|---------------------------|
+| AMÉRICAS        | Leste dos EUA             | Geralmente disponível |                           |
+| AMÉRICAS        | Leste dos EUA 2           | Geralmente disponível |                           |
+| AMÉRICAS        | Norte Central dos EUA    | Capacidade limitada    |                           |
+| AMÉRICAS        | Central Sul dos EUA    | Capacidade limitada    |                           |
+| AMÉRICAS        | EUA Central          | Geralmente disponível |                           |
+| AMÉRICAS        | Oeste dos EUA             | Geralmente disponível |                           |
+| AMÉRICAS        | Oeste dos EUA 2           | Geralmente disponível |                           |
+| AMÉRICAS        | Canadá Central      | Capacidade limitada    |                           |
+| AMÉRICAS        | Leste do Canadá         | Capacidade limitada    |                           |
+| AMÉRICAS        | Centro-Oeste dos EUA     | Capacidade limitada    |                           |
+| APAC            | Leste da Austrália      | Geralmente disponível |                           |
+| APAC            | Sudeste da Ásia      | Capacidade restrita | Nenhuma implantação permitida    |
+| APAC            | Leste do Japão          | Geralmente disponível |                           |
+| APAC            | Oeste do Japão          | Geralmente disponível |                           |
+| APAC            | Sudeste da Austrália | Geralmente disponível |                           |
+| APAC            | Leste da Ásia           | Capacidade limitada    |                           |
+| APAC            | Sul da Índia         | Capacidade restrita | Nenhuma implantação permitida    |
+| APAC            | Índia Central       | Capacidade limitada    | Requer processo de aprovação |
+| EMEA            | Oeste da Europa         | Geralmente disponível |                           |
+| EMEA            | Norte da Europa        | Geralmente disponível |                           |
+| EMEA            | Sul do Reino Unido            | Capacidade limitada    |                           |
+| EMEA            | Oeste do Reino Unido             | Capacidade limitada    |                           |
+| Suíça     | Norte da Suíça   | Capacidade limitada    | Requer processo de aprovação |
+| EAU             | Norte do EAU           | Capacidade limitada    | Requer processo de aprovação |
 
-A capacidade de implantação em regiões com capacidade limitada é extremamente restrita. As solicitações de implantação são avaliadas de acordo com cada caso. Se você tiver uma necessidade comercial convincente para implantação em regiões com capacidade limitada, poderá arquivar uma solicitação de suporte a ser adicionada à lista de espera.
+A capacidade de implantação em regiões com capacidade limitada é extremamente restrita. As solicitações de implantação são avaliadas de acordo com cada caso. Se houver uma necessidade comercial convincente para implantação em regiões com capacidade limitada, você poderá registrar uma solicitação de suporte a ser adicionada à lista de espera. As áreas restritas por capacidade não permitem a implantação da Commerce Scale Unit neste momento. 
 
 ![Mapa mostrando a disponibilidade da região.](media/Commerce-Scale-Unit-Region-Availability.png "Mapa exibindo a disponibilidade da região")
 

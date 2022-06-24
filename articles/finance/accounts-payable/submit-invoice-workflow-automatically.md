@@ -1,6 +1,6 @@
 ---
 title: Enviar faturas para o sistema do fluxo de trabalho e conciliar as linhas de recebimento de produtos
-description: Este tópico explica o processo de envio de faturas de fornecedor para o sistema de fluxo de trabalho e a conciliação automática das linhas de recebimento de produtos lançadas para faturas de fornecedor.
+description: Este artigo explica o processo de envio de faturas de fornecedor para o sistema de fluxo de trabalho e a conciliação automática das linhas de recebimento de produtos lançadas para faturas de fornecedor.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861608"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Enviar faturas para o sistema do fluxo de trabalho e conciliar as linhas de recebimento de produtos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica o processo de envio de faturas de fornecedor para o sistema de fluxo de trabalho e a conciliação automática das linhas de recebimento de produtos lançadas para faturas de fornecedor.
+Este artigo explica o processo de envio de faturas de fornecedor para o sistema de fluxo de trabalho e a conciliação automática das linhas de recebimento de produtos lançadas para faturas de fornecedor.
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>Enviando faturas de fornecedor importadas para o sistema de fluxo de trabalho e conciliando linhas de recebimento de produtos lançadas para linhas de fatura de fornecedor pendentes
 

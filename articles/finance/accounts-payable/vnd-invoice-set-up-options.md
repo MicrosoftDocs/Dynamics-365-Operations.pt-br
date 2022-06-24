@@ -1,6 +1,6 @@
 ---
 title: Configurar opções para automação de fatura de fornecedor (Versão preliminar)
-description: Este tópico descreve as opções disponíveis para definir e configurar a automação de fatura de fornecedor.
+description: Este artigo descreve as opções disponíveis para definir e configurar a automação de fatura de fornecedor.
 author: sunfzam
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86ad68b3dc08bf2c57ab5f9bc6c65bc37c0901e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182428"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874831"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Configurar opções para automação de fatura de fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as opções disponíveis para definir e configurar a automação de fatura de fornecedor. Os recursos de automação de fatura usam os seguintes tipos de parâmetros de configuração:
+Este artigo descreve as opções disponíveis para definir e configurar a automação de fatura de fornecedor. Os recursos de automação de fatura usam os seguintes tipos de parâmetros de configuração:
 
 - Parâmetros para aplicar automaticamente pagamentos antecipados em faturas importadas.
 - Parâmetros para enviar faturas de fornecedor importadas para o sistema de fluxo de trabalho e conciliar linhas de recebimento de produtos lançadas para linhas de fatura de fornecedor pendentes.

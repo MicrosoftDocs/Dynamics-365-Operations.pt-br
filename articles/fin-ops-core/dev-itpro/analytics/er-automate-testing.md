@@ -1,6 +1,6 @@
 ---
-title: Automatize testes com relatórios eletrônicos
-description: Este tópico explica como você pode usar o recurso de linha de base da estrutura de relatório eletrônico (ER) para automatizar os testes de funcionalidades.
+title: Automatizar testes com Relatório eletrônico
+description: Este artigo explica como você pode usar o recurso de linha de base da estrutura de relatório eletrônico (ER) para automatizar os testes de funcionalidades.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749791"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892759"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizar testes com Relatório eletrônico
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico explica como você pode usar a estrutura de relatório eletrônico (ER) para automatizar os testes de algumas funcionalidades. O exemplo neste tópico mostra como automatizar os testes de processamento de pagamentos de fornecedor.
+Este artigo explica como você pode usar a estrutura de relatório eletrônico (ER) para automatizar os testes de algumas funcionalidades. O exemplo neste artigo mostra como automatizar os testes de processamento de pagamentos de fornecedor.
 
 O aplicativo usa a estrutura de ER para gerar arquivos de pagamento e os documentos correspondentes durante o processamento de pagamentos de fornecedor. A estrutura ER consiste em um modelo de dados, mapeamentos de modelo e componentes de formato que dão suporte ao processamento de pagamentos de diferentes tipos de pagamento e à geração de documentos em diversos formatos. Esses componentes podem ser baixados do Microsoft Dynamics Lifecycle Services (LCS) e importados para instância.
 
@@ -54,15 +54,15 @@ Os usuários avançados funcionais podem realizar testes de aceitação e integr
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de concluir as tarefas neste tópico, você precisa preencher os seguintes pré-requisitos:
+Antes de concluir as tarefas neste artigo, você precisa preencher os seguintes pré-requisitos:
 
 - Implantar uma topologia que dê suporte à automação de testes. Você precisa ter acesso à instância dessa topologia para a função de **Administrador do sistema**. Essa topologia deve conter os dados de demonstração que serão usados neste exemplo. Para obter mais informações, consulte [Implantar e usar um ambiente que dê suporte à contínua automação de compilações e testes](../perf-test/continuous-build-test-automation.md).
-- Para executar automaticamente a aceitação de usuário e testes de integração, você deve instalar o RSAT topologia que está usando e configurá-lo da forma apropriada. Para obter informações sobre como instalar e configurar o RSAT para trabalhar com aplicativos do Finance and Operations e Azure DevOps, consulte [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Preste atenção nos pré-requisitos para usar a ferramenta. A ilustração a seguir mostra um exemplo das configurações do RSAT. O retângulo azul inclui os parâmetros que especificam o acesso ao Azure DevOps. O retângulo verde inclui os parâmetros que especificam o acesso à instância.
+- Para executar automaticamente a aceitação de usuário e testes de integração, você deve instalar o RSAT topologia que está usando e configurá-lo da forma apropriada. Para obter informações sobre como instalar e configurar o RSAT e configurá-lo para trabalhar com aplicativos do Finance and Operations e o Azure DevOps, consulte [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Preste atenção nos pré-requisitos para usar a ferramenta. A ilustração a seguir mostra um exemplo das configurações do RSAT. O retângulo azul inclui os parâmetros que especificam o acesso ao Azure DevOps. O retângulo verde inclui os parâmetros que especificam o acesso à instância.
 
     ![Configurações de RSAT.](media/GER-Configure.png "Captura de tela da caixa de diálogo Configurações do RSAT")
 
 - Para organizar casos de teste em pacotes para ajudar a garantir a sequência de execução correta, de modo que você possa coletar logs de execuções de teste para gerar mais relatórios e fazer investigações, você precisa ter acesso ao Azure DevOps, partindo da topologia implantada.
-- Para concluir o exemplo neste tópico, é recomendável baixar [Uso do ER para testes do RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Este arquivo zip contém as seguintes guias de tarefas:
+- Para concluir o exemplo neste artigo, é recomendável baixar [Uso do ER para testes do RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Este arquivo zip contém as seguintes guias de tarefas:
 
     | Conteúdo                                           | Nome e local do arquivo |
     |---------------------------------------------------|------------------------|

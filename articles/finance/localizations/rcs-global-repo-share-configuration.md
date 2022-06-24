@@ -1,6 +1,6 @@
 ---
 title: Compartilhar configurações de ER no RCS/Repositório global com organizações externas
-description: Este tópico explica como compartilhar as configurações de relatório eletrônico (ER) no Microsoft Regulatory Configuration Services/o Repositório global diretamente com organizações externas.
+description: Este artigo explica como compartilhar as configurações de relatório eletrônico (ER) no Microsoft Regulatory Configuration Services/o Repositório global diretamente com organizações externas.
 author: JaneA07
 ms.date: 05/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ee7feef83ffa458e7cbd238d37a0f343d1a202f48002da67823df024bb609d02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888913"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Compartilhar as configurações de relatório eletrônico (ER) no Regulatory Configuration Services/Repositório global diretamente com organizações externas
 
@@ -36,7 +36,7 @@ Os procedimentos a seguir explicam como um usuário RCS pode compartilhar uma ve
 
 Você também deve verificar se um ambiente RCS foi provisionado para sua empresa.
 
-1. Em um aplicativo do Finance and Operations, acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Em um aplicativo Finance and Operations, vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Se não tiver o ambiente do RCS provisionado para sua empresa, clique no link externo **Regulatory services – Configuração** e siga as instruções para provisionar um.
 
 Se um ambiente RCS já foi provisionado para sua empresa, use a URL da página para acessá-lo, selecionando a opção de entrada.
@@ -67,7 +67,7 @@ Depois que uma configuração é criada no provedor de configuração, você pod
 
     ![Compartilhar versão de configuração com caixa de diálogo de organização externa.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
-A configuração é compartilhada com a organização externa e está disponível para aquela organização no repositório global. A partir daí, ele pode ser importado para a instância da organização do RCS ou para suas instâncias de aplicativos do Finance and Operations.
+A configuração é compartilhada com a organização externa e está disponível para aquela organização no repositório global. A partir daí, ele pode ser importado para a instância da organização do RCS ou para suas instâncias de aplicativos de finanças e operações.
 
 6. Para cancelar o compartilhamento uma configuração que já tenha sido compartilhada com uma organização externa, selecione a configuração e clique em **Cancelar compartilhamento** e selecione **OK**
 

@@ -1,6 +1,6 @@
 ---
 title: Convenções de depreciação de ativos fixos
-description: Este tópico descreve as convenções de depreciação de ativos fixos.
+description: Este artigo descreve as convenções de depreciação de ativos fixos.
 author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e151d20fbfb9aa8fca9afc5be4f112b3de13cc7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 6d791461a344611437e77514e47dd5dd9b7ddb10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858381"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Convenções de depreciação de ativos fixos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as convenções de depreciação de ativos fixos. As convenções de depreciação são usadas para determinar quando e como a depreciação é calculada para o ano em que o ativo é adquirido e o ano em que o ativo fixo é descartado.
+Este artigo descreve as convenções de depreciação de ativos fixos. As convenções de depreciação são usadas para determinar quando e como a depreciação é calculada para o ano em que o ativo é adquirido e o ano em que o ativo fixo é descartado.
 
 As convenções de depreciação podem ser atribuídas à configuração de um registro de grupo de ativos fixos. Para exibir ou atribuir a convenção de depreciação, na área de instalação de ativos fixos, selecione os grupos de **Ativos fixos**. Selecione o botão **Registros**. Nesse caso, as convenções de depreciação atribuídas são usadas como valores padrão quando os registros de ativos fixos são criados. As convenções de depreciação também podem ser definidas em registro de ativo fixo individual. Para fazer isso, selecione **Registros** na área de instalação de ativos fixos e selecione o botão **Grupos de ativos fixos**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37698133a959792338abcc2abd75b6fa654177f6
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846945"
 ---
 # <a name="cash-discounts"></a>Descontos à vista
 
@@ -30,7 +30,7 @@ Os descontos à vista são configurados compartilhados para contas a pagar e con
 
 ## <a name="cash-discounts"></a>Descontos à vista
 
-Os descontos à vista para clientes ou fornecedores podem ser criados na página Descontos à vista. Você pode definir, usando o campo Próximo código de desconto, uma série de descontos à vista que se sucedem à medida que as datas de vencimento de desconto à vista anteriores se aproxima. Para obter mais informações, consulte “exemplo: série de descontos à vista” posteriormente neste tópico. Se a fatura, a transação de crédito (um pagamento ou uma nota de crédito), ou ambos forem inseridos em uma moeda diferente da moeda contábil da entidade legal, o desconto à vista é calculado usando a taxa de câmbio baseada na data de pagamento ou nota de crédito. Se a fatura e o documento de crédito forem inseridos em pessoas jurídicas diferentes, e se as moedas contábeis para a pessoa jurídica forem diferentes, a taxa de câmbio será a mesma da pessoa jurídica da fatura, a partir da data do documento de crédito. Para obter mais informações, consulte “exemplo: taxas de câmbio para descontos à vista” posteriormente neste tópico.
+Os descontos à vista para clientes ou fornecedores podem ser criados na página Descontos à vista. Você pode definir, usando o campo Próximo código de desconto, uma série de descontos à vista que se sucedem à medida que as datas de vencimento de desconto à vista anteriores se aproxima. Para obter mais informações, consulte “exemplo: série de descontos à vista” mais adiante neste artigo. Se a fatura, a transação de crédito (um pagamento ou uma nota de crédito), ou ambos forem inseridos em uma moeda diferente da moeda contábil da entidade legal, o desconto à vista é calculado usando a taxa de câmbio baseada na data de pagamento ou nota de crédito. Se a fatura e o documento de crédito forem inseridos em pessoas jurídicas diferentes, e se as moedas contábeis para a pessoa jurídica forem diferentes, a taxa de câmbio será a mesma da pessoa jurídica da fatura, a partir da data do documento de crédito. Para obter mais informações, consulte “Exemplo: taxas de câmbio para descontos à vista” mais adiante neste tópico.
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Usando o padrão da ordem de conta principal do desconto à vista
 

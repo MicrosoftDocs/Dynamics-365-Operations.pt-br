@@ -1,6 +1,6 @@
 ---
 title: Preparar uma entidade legal para o processo de consolidação
-description: Durante uma consolidação, você reúne transações de vários conjuntos de contas de entidade legal em um único conjunto de contas de entidade legal. Este tópico explica como preparar uma entidade legal para uma consolidação.
+description: Durante uma consolidação, você reúne transações de vários conjuntos de contas de entidade legal em um único conjunto de contas de entidade legal. Este artigo explica como preparar uma entidade legal para uma consolidação.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894016"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Preparar uma entidade legal para o processo de consolidação
 
 [!include [banner](../includes/banner.md)]
 
-Durante uma consolidação, você reúne transações de vários conjuntos de contas de entidade legal em um único conjunto de contas de entidade legal. Este tópico explica como preparar uma entidade legal para uma consolidação.
+Durante uma consolidação, você reúne transações de vários conjuntos de contas de entidade legal em um único conjunto de contas de entidade legal. Este artigo explica como preparar uma entidade legal para uma consolidação.
 
 > [!NOTE]
 > É recomendável usar o Management Reporter para Microsoft Dynamics 365 Finance para combinar os resultados financeiros para várias entidades legais em um formato consolidado. O Management Reporter permite criar relatórios financeiros consolidados nas entidades legais, usar o Excel para importar dados de consolidação de outras fontes e traduzir os valores em qualquer número de moedas de relatório sem a necessidade de executar o processo de consolidação no Dynamics 365 Finance.
