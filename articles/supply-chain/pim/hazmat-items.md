@@ -1,6 +1,6 @@
 ---
 title: Materiais perigosos em produtos, ordens, remessas e cargas
-description: Este tópico explica como definir propriedades de materiais perigosos para produtos liberados, como colocar limites de estoque em itens perigosos e como incluir materiais perigosos em uma ordem de venda, remessa ou carga.
+description: Este artigo explica como definir propriedades de materiais perigosos para produtos liberados, como colocar limites de estoque em itens perigosos e como incluir materiais perigosos em uma ordem de venda, remessa ou carga.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860686"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Materiais perigosos em produtos, ordens, remessas e cargas
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como definir propriedades de materiais perigosos para produtos liberados, como colocar limites de estoque em itens perigosos e como incluir materiais perigosos em uma ordem de venda, remessa ou carga.
+Este artigo explica como definir propriedades de materiais perigosos para produtos liberados, como colocar limites de estoque em itens perigosos e como incluir materiais perigosos em uma ordem de venda, remessa ou carga.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Definir especificações de materiais perigosos para produtos
 
@@ -109,11 +109,11 @@ Esta é uma chave para a fórmula:
 - *&lt;UnitConversion&gt;* é um fator de conversão para converter entre a unidade usada na quantidade de linha de carga e a unidade especificada para um produto no campo **Unidade** da FastTab **Gerenciamento de material**.
 - *&lt;Multiplier&gt;* é o multiplicador especificado para um produto no campo **Multiplicador** na FastTab **Gerenciamento de material**.
 
-Essa pontuação é relatada para cada linha de carga que contém um produto em que esses valores são especificados. Para obter mais informações, consulte as seções [Remessas que incluem materiais perigosos](#hazmat-shipments) e [Cargas que incluem materiais perigosos](#hazmat-loads) mais adiante neste tópico.
+Essa pontuação é relatada para cada linha de carga que contém um produto em que esses valores são especificados. Para obter mais informações, consulte as seções [Remessas que incluem materiais perigosos](#hazmat-shipments) e [Cargas que incluem materiais perigosos](#hazmat-loads) mais adiante neste artigo.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Como o peso de materiais perigosos é calculado
 
-Cargas e linhas de carga que contêm produtos em que a opção **Quantidade limitada** na FastTab **Gerenciamento de material** é definida como **Sim** incluem o peso total de materiais perigosos, conforme descrito nas seções [Remessas que incluem materiais perigosos](#hazmat-shipments) e [Cargas que incluem materiais perigosos](#hazmat-loads) mais adiante neste tópico. O peso de materiais perigosos é calculado por meio da seguinte fórmula:
+Cargas e linhas de carga que contêm produtos em que a opção **Quantidade limitada** na FastTab **Gerenciamento de material** é definida como **Sim** incluem o peso total de materiais perigosos, conforme descrito nas seções [Remessas que incluem materiais perigosos](#hazmat-shipments) e [Cargas que incluem materiais perigosos](#hazmat-loads) mais adiante neste artigo. O peso de materiais perigosos é calculado por meio da seguinte fórmula:
 
 Peso de materiais perigosos = *&lt;LineQty&gt;* × *&lt;ProductWeight&gt;* × *&lt;UnitConversion&gt;*
 

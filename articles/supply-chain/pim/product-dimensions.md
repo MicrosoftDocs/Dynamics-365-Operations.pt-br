@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867917"
 ---
 # <a name="product-dimensions"></a>Dimensões do produto
 
@@ -47,7 +47,7 @@ Os valores de dimensão do produto para as dimensões de tamanho, cor e estilo p
 
 Os valores de dimensão do produto para a dimensão de configuração, geralmente, são criados usando o Configurador de produtos ou o Configurador baseado em dimensão. 
 
-Geralmente, as versões do produto são criadas para versões específicas à medida que o produto evolui durante seu ciclo de vida. As versões do produto são abordadas em detalhes mais adiante neste tópico.
+Geralmente, as versões do produto são criadas para versões específicas à medida que o produto evolui durante seu ciclo de vida. As versões do produto são abordadas em detalhes mais adiante neste artigo.
 
 As dimensões do produto também podem ser criadas e mantidas na página **Dimensões do produto**, que podem ser acessadas dos seguintes locais:
 

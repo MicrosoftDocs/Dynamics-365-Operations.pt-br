@@ -1,6 +1,6 @@
 ---
 title: Criar estilo para a interface de execução de piso de produção
-description: O tópico explica como configurar controles de formulário para que os estilos padrão da execução de piso de produção sejam aplicados a eles.
+description: O artigo explica como configurar controles de formulário para que os estilos padrão da execução de piso de produção sejam aplicados a eles.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859130"
 ---
 # <a name="style-the-production-floor-execution-interface"></a>Criar estilo para a interface de execução de piso de produção
 
 [!include [banner](../includes/banner.md)]
 
-O tópico explica como configurar controles de formulário para que os estilos padrão da execução de piso de produção sejam aplicados a eles.
+O artigo explica como configurar controles de formulário para que os estilos padrão da execução de piso de produção sejam aplicados a eles.
 
 ## <a name="forms-and-dialogs"></a>Formulários e caixas de diálogo
 
@@ -31,7 +31,7 @@ Os estilos podem ser aplicados a um formulário ou caixa de diálogo somente se 
 - Se o formulário precisar ser semelhante ao formulário de progresso do relatório existente, o nome do formulário ou da caixa de diálogo deverá começar com `JmgProductionFloorExecutionCustomInputDialog`.
 - O formulário ou caixa de diálogo pode conter uma parte do formulário de detalhes. Para aplicar estilos, o nome da parte do formulário de detalhes deve começar com `JmgProductionFloorExecutionCustomDetailsDialog`.
 - Se o formulário ou caixa de diálogo precisar ter uma exibição simples, o nome da exibição simples deverá começar com `JmgProductionFloorExecutionCustomDialog`. Exemplos de formulários que têm uma exibição simples incluem o formulário de início e o formulário de atividades indiretas.
-- Todos os controles da caixa de diálogo devem ser configurados conforme descrito neste tópico.
+- Todos os controles da caixa de diálogo devem ser configurados conforme descrito neste artigo.
 
 > [!IMPORTANT]
 > Os recursos mencionados nos dois primeiros marcadores desta lista exigem o Supply Chain Management versão 10.0.19 ou posterior.

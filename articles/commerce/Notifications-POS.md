@@ -1,6 +1,6 @@
 ---
 title: Mostrar notificações de ordem no ponto de venda (PDV)
-description: Este tópico descreve como habilitar notificações de ordem no ponto de venda e a estrutura de notificação.
+description: Este artigo descreve como habilitar notificações de ordem no ponto de venda e a estrutura de notificação.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853945"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificações de ordem no ponto de venda (PDV)
 
@@ -65,10 +65,10 @@ Para as notificações de atendimento da ordem e cancelamento da ordem, conforme
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Habilitar conteúdo ao vivo nos botões do PDV
 
-Os botões do PDV agora podem mostrar uma contagem para ajudar os trabalhadores a determinar facilmente quais tarefas exigem a sua atenção imediata. Para mostrar esse número em um botão do PDV, você deve concluir a configuração de notificação descrita anteriormente neste tópico (isto é, você deve habilitar as notificações para uma operação, configurar um intervalo de notificação e atualizar o grupo de permissões de PDV para o trabalhador). Além disso, você deve abrir o designer da grade de botões, exibir as propriedades do botão e marcar a caixa de seleção **Habilitar conteúdo ao vivo**. No campo **Alinhamento de conteúdo**, você pode selecionar se a contagem será exibida no canto superior direito do botão (**Superior direito**) ou no centro (**Centralizado**).
+Os botões do PDV agora podem mostrar uma contagem para ajudar os trabalhadores a determinar facilmente quais tarefas exigem a sua atenção imediata. Para mostrar esse número em um botão do PDV, você deve concluir a configuração de notificação descrita anteriormente neste artigo (isto é, você deve habilitar as notificações para uma operação, configurar um intervalo de notificação e atualizar o grupo de permissões de PDV para o trabalhador). Além disso, você deve abrir o designer da grade de botões, exibir as propriedades do botão e marcar a caixa de seleção **Habilitar conteúdo ao vivo**. No campo **Alinhamento de conteúdo**, você pode selecionar se a contagem será exibida no canto superior direito do botão (**Superior direito**) ou no centro (**Centralizado**).
 
 > [!NOTE]
-> O conteúdo ao vivo poderá ser habilitado para operações somente se a caixa de seleção **Habilitar notificações** tiver sido selecionada para elas na página **Operações de PDV**, conforme descrito anteriormente neste tópico.
+> O conteúdo ao vivo poderá ser habilitado para operações somente se a caixa de seleção **Habilitar notificações** tiver sido selecionada para elas na página **Operações de PDV**, conforme descrito anteriormente neste artigo.
 
 A ilustração a seguir mostra as configurações de conteúdo ao vivo no designer da grade de botões.
 

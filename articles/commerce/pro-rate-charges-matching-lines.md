@@ -1,6 +1,6 @@
 ---
-title: Realizar rateio de alterações de cabeçalho para linhas de vendas correspondentes
-description: Este tópico descreve recursos adicionais para calcular e aplicar encargos automáticos dos pedidos de canal do Commerce usando o recurso de encargos automáticos avançado.
+title: Ratear encargos do cabeçalho para as linhas de vendas correspondentes
+description: Este artigo descreve recursos adicionais para calcular e aplicar encargos automáticos dos pedidos de canal do Commerce usando o recurso de encargos automáticos avançado.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886923"
 ---
-# <a name="prorate-header-charges-to-matching-sales-lines"></a>Realizar rateio de alterações de cabeçalho para linhas de vendas correspondentes
+# <a name="prorate-header-charges-to-matching-sales-lines"></a>Ratear encargos do cabeçalho para as linhas de vendas correspondentes
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve a funcionalidade para agrupar encargos automáticos em nível de cabeçalho e realizar rateio dela para as linhas de venda do Commerce. Esta funcionalidade ficará disponível para transações criadas no ponto de venda (POS) na versão 10.0.1 do Retail e vendas criadas em um call center na versão 10.0.2 do Retail.
+Este artigo descreve a funcionalidade para agrupar encargos automáticos em nível de cabeçalho e realizar rateio dela para as linhas de venda do Commerce. Esta funcionalidade ficará disponível para transações criadas no ponto de venda (POS) na versão 10.0.1 do Retail e vendas criadas em um call center na versão 10.0.2 do Retail.
 
 Esta funcionalidade só estará disponível se o recurso [encargos automáticos avançados](/dynamics365/unified-operations/retail/omni-auto-charges) estiver ativado usando a opção na página **Parâmetros do Commerce**. Além disso, o método de cálculo avançado para encargos automáticos pode ser aplicado apenas a ordens de venda de varejo criadas por meio de canais de comércio (o PDV, um call center, e a plataforma do Dynamics e-Commerce).
 

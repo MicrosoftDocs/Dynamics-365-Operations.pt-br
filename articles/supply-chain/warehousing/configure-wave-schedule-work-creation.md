@@ -1,6 +1,6 @@
 ---
 title: Agendar a criação de trabalho durante o ciclo
-description: Este tópico descreve como configurar e usar o método de processamento Agendar ciclo de criação de trabalho.
+description: Este artigo descreve como configurar e usar o método de processamento Agendar ciclo de criação de trabalho.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852060"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Agendar a criação de trabalho durante o ciclo
 
@@ -30,7 +30,7 @@ Quando a funcionalidade estiver habilitada, o trabalho planejado será criado au
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>Ativar os recursos de criação de trabalho agendado no gerenciamento de recursos
 
-Para usar os recursos descritos neste tópico, eles devem ser ativados para o seu sistema. Use o espaço de trabalho [Gerenciamento de recurso](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os seguintes recursos na seguinte ordem:
+Para usar os recursos descritos neste artigo, eles devem ser ativados para o seu sistema. Use o espaço de trabalho [Gerenciamento de recurso](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os seguintes recursos na seguinte ordem:
 
 1. **Bloqueio de trabalho em toda a organização** - necessário para a configuração manual e automática da criação de trabalho agendado. (Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, é ativado por padrão e não pode ser desativado novamente.)
 1. **Agendar criação de trabalho** - necessário para a configuração manual e automática da criação de trabalho agendado.

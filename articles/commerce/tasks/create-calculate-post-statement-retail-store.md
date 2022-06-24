@@ -1,6 +1,6 @@
 ---
 title: Criar, calcular e lançar demonstrativos para uma loja de varejo
-description: Este tópico descreve as etapas manuais para criar, calcular e lançar um demonstrativo para uma loja.
+description: Este artigo descreve as etapas manuais para criar, calcular e lançar um demonstrativo para uma loja.
 author: jashanno
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a3d82daed16c1b37d10653f04c1dc473cd5c5abc3a6443972da6e8ecf9820f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 740857e6a902e21588855eef5e36cac68e560898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873269"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Criar, calcular e lançar demonstrativos para uma loja de varejo
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as etapas manuais para criar, calcular e lançar um demonstrativo para uma loja. Há também os trabalhos em lotes que podem ser configurados para as mesmas tarefas. As etapas para configurar e executar os trabalhos em lote podem ser encontradas em outros tópicos. Para realizar este procedimento, você deve ter transações que foram executadas no PDV e inseridas no Dynamics 365 Commerce. Esta gravação usa a empresa USRT nos dados de demonstração.
+Este artigo descreve as etapas manuais para criar, calcular e lançar um demonstrativo para uma loja. Há também os trabalhos em lotes que podem ser configurados para as mesmas tarefas. As etapas para configurar e executar os trabalhos em lote podem ser encontradas em outros artigos. Para realizar este procedimento, você deve ter transações que foram executadas no PDV e inseridas no Dynamics 365 Commerce. Esta gravação usa a empresa USRT nos dados de demonstração.
 
 1. Selecione **Finanças da loja** na home page.
 2. Selecione **Novo demonstrativo**.

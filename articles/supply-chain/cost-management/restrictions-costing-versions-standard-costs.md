@@ -1,6 +1,6 @@
 ---
 title: Restrições em versões de avaliação de custo para custos padrão
-description: Este tópico descreve as restrições que se aplicam a uma versão de avaliação de custo para custos padrão.
+description: Este artigo descreve as restrições que se aplicam a uma versão de avaliação de custo para custos padrão.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11bf14b2926fd4ff053697bef8b7dad781948a2c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8c5c00ae8952e2c80d97d039271a6f5c63e9a72f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672196"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867975"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Restrições em versões de avaliação de custo para custos padrão
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as restrições que se aplicam a uma versão de avaliação de custo para custos padrão. 
+Este artigo descreve as restrições que se aplicam a uma versão de avaliação de custo para custos padrão. 
 
 As restrições a seguir ajudam a garantir a aderência aos princípios de avaliação de custo padrão:
 
@@ -37,9 +37,9 @@ As restrições a seguir ajudam a garantir a aderência aos princípios de avali
 
 -  Os cálculos de BOM devem ser feitos em um modo de detalhamento de nível único.
 
-Os dados de custo de item para custos padrão podem ser copiados em outra versão do custo que contenha os custos padrão ou planejados. Porém, os dados de custo de item para os custos planejados não podem ser copiados para uma versão de custo que contenha custos padrão porque as restrições listadas anteriormente neste tópico não se aplicam aos custos planejados.
+Os dados de custo de item para custos padrão podem ser copiados em outra versão do custo que contenha os custos padrão ou planejados. Porém, os dados de custo de item para os custos planejados não podem ser copiados para uma versão de custo que contenha custos padrão porque as restrições listadas anteriormente neste artigo não se aplicam aos custos planejados.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Visão geral de versões de avaliação de custo](costing-versions.md)
 

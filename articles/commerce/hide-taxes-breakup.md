@@ -1,6 +1,6 @@
 ---
-title: Ocultar informações de separação de impostos em resumos de ordens
-description: Este tópico descreve como ocultar informações de separação de impostos em resumos de ordens em páginas de carrinho, finalização de compra, confirmação de ordem e detalhes da ordem no Microsoft Dynamics 365 Commerce.
+title: Ocultar informações de divisão de imposto em resumos de ordens
+description: Este artigo descreve como ocultar informações de separação de impostos em resumos de ordens em páginas de carrinho, finalização de compra, confirmação de ordem e detalhes da ordem no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: 9a0bff7afaa10e49ec05f18e2b0fae7a19b5e8af
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: fe1f6c5875444f4f91ee1dfb01b3fdaa527c52e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881781"
 ---
-# <a name="hide-tax-breakup-information-in-order-summaries"></a>Ocultar informações de separação de impostos em resumos de ordens
+# <a name="hide-tax-breakup-information-in-order-summaries"></a>Ocultar informações de divisão de imposto em resumos de ordens
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tópico descreve como ocultar informações de separação de impostos em resumos de ordens em páginas de carrinho, finalização de compra, confirmação de ordem e detalhes da ordem no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como ocultar informações de separação de impostos em resumos de ordens em páginas de carrinho, finalização de compra, confirmação de ordem e detalhes da ordem no Microsoft Dynamics 365 Commerce.
 
 Por padrão, o Dynamics 365 Commerce mostra informações de separação de impostos em resumos de ordens em páginas de carrinho, finalização de compra, confirmação de ordem e detalhes da ordem. A partir do Commerce versão 10.0.27, o criador de sites do Commerce inclui uma opção que permite ocultar as informações de separação de impostos nos resumos de ordens.
 
@@ -30,7 +30,7 @@ A ilustração a seguir mostra um exemplo de dois resumos de ordens. O primeiro 
 ![Exemplos de carrinhos em que as informações de separação de impostos são exibidas e ocultas.](media/prices-include-sales-tax-e-Commerce.png)
 
 > [!NOTE]
-> - A opção de ocultar informações de separação de impostos em resumos de ordens está disponível somente quando a opção **Os preços incluem o imposto** para o canal de comércio eletrônico está definida como **Sim** na matriz do Commerce, em **Varejo e Comércio \> Canais \> Lojas \> Todas as Lojas**. 
+> - A opção de ocultar informações de separação de impostos em resumos de ordens está disponível somente quando a opção **Os preços incluem o imposto** para o canal de comércio eletrônico está definida como **Sim** no Commerce headquarters, em **Varejo e Comércio \> Canais \> Lojas \> Todas as Lojas**. 
 > - Por padrão, a opção **Mostrar separação de impostos no resumo da ordem** está habilitada no criador de sites.
 
 ## <a name="hide-tax-breakup-information-in-order-summaries"></a>Ocultar informações de separação de impostos em resumos de ordens

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850631"
 ---
 # <a name="product-lifecycle-state-overview"></a>Visão geral do estado do ciclo de vida do produto
 
@@ -74,7 +74,7 @@ Os estados do ciclo de vida do produto não são compatíveis com entidades de d
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Localizar produtos e grades de produto obsoletos
 
-Você poderá executar uma análise de simulação para localizar produtos ou grades de produtos liberados obsoletos e atualizar o status do ciclo de vida do produto. Para localizar, produtos obsoletos, consulte [Localizar grades de produto obsoletos e atribuir um estado do ciclo de vida do produto](tasks/obsolete-product-variants.md). Este tópico mostra como localizar produtos ou grades de produtos liberados obsoletos e como associar um estado do ciclo de vida do produto aos produtos obsoletos. Também mostra como exibir os resultados de simulação e avaliar quantos produtos e grades de produto serão associadas a um novo estado do ciclo de vida de produto ao executar a atualização sem simulação.  
+Você poderá executar uma análise de simulação para localizar produtos ou grades de produtos liberados obsoletos e atualizar o status do ciclo de vida do produto. Para localizar, produtos obsoletos, consulte [Localizar grades de produto obsoletos e atribuir um estado do ciclo de vida do produto](tasks/obsolete-product-variants.md). Este artigo mostra como localizar produtos ou grades de produtos liberados obsoletos e como associar um estado do ciclo de vida do produto aos produtos obsoletos. Também mostra como exibir os resultados de simulação e avaliar quantos produtos e grades de produto serão associadas a um novo estado do ciclo de vida de produto ao executar a atualização sem simulação.  
 
 Ao executar a análise em um modo de simulação, os produtos e as grades de produto identificadas como obsoletos são exibidos em um formulário específico, no qual podem ser facilmente revisados. A análise pesquisa transações e dados mestres específicos para identificar produtos que não têm demanda dentro de um período variável e nenhum dado mestre que pode resultar em demanda. Os novos produtos lançados em um período de variáveis podem ser excluídos da análise. Quando a simulação de análise retornar o resultado esperado, o usuário pode executar a análise e definir um novo estado do ciclo de vida do produto a todos os produtos identificados como obsoletos pela análise.  
 
@@ -97,7 +97,7 @@ Use os seguintes critérios para selecionar e atualizar os produtos e grades de 
 - Nenhuma linha do contrato de compra ou venda ativa ou futura para o produto ou grade do produto.
 - O produto ou grade do produto não é usada em uma BOM associada a uma versão da BOM não aprovada expirada para um produto ou grade que esteja ativo(a) para planejamento.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 - [Criar um novo estado do ciclo de vida do produto](tasks/new-product-lifecycle-state.md)
 - [Criar um estado do ciclo de vida do produto padrão](tasks/default-product-lifecycle-state.md)

@@ -1,6 +1,6 @@
 ---
 title: Catálogos do call center
-description: Este tópico descreve a funcionalidade específica de call center para catálogos no Dynamics 365 Commerce.
+description: Este artigo descreve a funcionalidade específica de call center para catálogos no Dynamics 365 Commerce.
 author: josaw1
 ms.date: 05/15/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11af3c889e7e40e13f4aa8b3db97f544fbd20229
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884047"
 ---
 # <a name="call-center-catalogs"></a>Catálogos do call center
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve a funcionalidade específica de call center vinculada a recursos de catálogo no Dynamics 365 Commerce.
+Este artigo descreve a funcionalidade específica de call center vinculada a recursos de catálogo no Dynamics 365 Commerce.
 
 Os recursos de catálogo disponíveis no Commerce podem ser usados para várias finalidades. Os recursos de catálogo foram inicialmente criados para oferecer suporte a integrações de comércio eletrônico de terceiros. A configuração de catálogo permitiu às empresas a criação de um agrupamento de produtos e atributos que podem ser publicados externamente para o consumo por uma solução de comércio eletrônico de terceiros.
 
@@ -49,7 +49,7 @@ Clique no nó superior da hierarquia do catálogo para retornar à exibição do
 
 Antes do catálogo ficar disponível para uso, ele deve ser publicado. Clique em **Validar catálogo** no menu **Catálogos** para processar a validação. Esta ação é necessária e validará se a configuração necessário é precisa. Clique em **Exibir resultados** para ver os detalhes da validação. Se forem encontrados erros, você deverá corrigir os dados e executar a validação novamente até que ela seja aprovada.
 
-Depois que a validação for confirmada, clique em **Fluxo de trabalho** no menu para iniciar o fluxo de trabalho de aprovação. Clique em **Enviar** no menu **Fluxo de Trabalho** para executar o processo. Configure as etapas e os usuários autorizados para o fluxo de trabalho em **Varejo e Comércio** \> **Configuração da sede** \> **Fluxos de trabalho de comércio**. O fluxo de trabalho definirá as etapas necessárias para obter o catálogo com um status **Aprovado** . Quando o catálogo estiver com um status **Aprovado** , clique na opção **Publicar** no menu **Catálogos** para concluir o processo. Depois do catálogo estiver em um status **Publicado** , ele poderá ser usado na entrada de ordem do call center e nos processo de envio do catálogo.
+Depois que a validação for confirmada, clique em **Fluxo de trabalho** no menu para iniciar o fluxo de trabalho de aprovação. Clique em **Enviar** no menu **Fluxo de Trabalho** para executar o processo. Configure as etapas e os usuários autorizados para o fluxo de trabalho em **Varejo e Comércio** \> **Configuração do headquarters** \> **Fluxos de trabalho de comércio**. O fluxo de trabalho definirá as etapas necessárias para obter o catálogo com um status **Aprovado** . Quando o catálogo estiver com um status **Aprovado** , clique na opção **Publicar** no menu **Catálogos** para concluir o processo. Depois do catálogo estiver em um status **Publicado** , ele poderá ser usado na entrada de ordem do call center e nos processo de envio do catálogo.
 
 ## <a name="use-catalogs-to-drive-sales-order-pricing-and-promotions"></a>Use catálogos para impulsionar preços e promoções de ordem de venda
 

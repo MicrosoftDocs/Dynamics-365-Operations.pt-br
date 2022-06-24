@@ -1,6 +1,6 @@
 ---
-title: Definir limites de quantidade de produto para sites de comércio eletrônico B2B
-description: Este tópico descreve como definir os limites da quantidade de produtos para sites de comércio eletrônico B2B.
+title: Definir limites de quantidade de produtos para sites de comércio eletrônico entre empresas
+description: Este artigo descreve como definir os limites da quantidade de produtos para sites de comércio eletrônico B2B.
 author: josaw1
 ms.date: 01/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 18dc138693dc9fb0e8cf8727de77b5f8584cde79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 034441f8f712c676dbcc89f0009361d0a4a65721
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876996"
 ---
-# <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Definir limites de quantidade de produto para sites de comércio eletrônico B2B
+# <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Definir limites de quantidade de produtos para sites de comércio eletrônico entre empresas
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como definir os limites da quantidade de produtos para sites de comércio eletrônico B2B.
+Este artigo descreve como definir os limites da quantidade de produtos para sites de comércio eletrônico B2B.
 
 A maioria dos produtos tem uma unidade de medida que define seu agrupamento. O agrupamento afeta a forma como os produtos podem ser vendidos. Alguns produtos podem ter um agrupamento adicional para quantidades. Esse agrupamento determina se os produtos podem ser vendidos como unidades individuais ou múltiplos e se há um limite mínimo ou máximo de quantidade de ordens que deve ser seguido.
 
@@ -37,9 +37,9 @@ Muitos revendedores fornecem a opção de ordens de cliente (também conhecidas 
 - Um cliente deseja retirar produtos de uma loja ou local que é diferente da loja ou local no qual ele comprou esses produtos. No entanto, os padrões de embalagem para os armazenamentos são diferentes dos padrões de embalagem para distribuição de vendas online.
 - Um cliente quer comprar um produto de edição limitada que tem uma quantidade máxima de itens que podem ser comprados.
 
-## <a name="turn-on-the-default-order-settings-feature-in-commerce-headquarters"></a>Ativar o recurso de configurações de ordem padrão na matriz do Commerce
+## <a name="turn-on-the-default-order-settings-feature-in-commerce-headquarters"></a>Ativar o recurso de configurações de ordem padrão no Commerce headquarters
 
-Para poder definir limites de quantidade do produto, o recurso de configurações de ordem padrão deve ser ativado na matriz do Commerce.
+Para poder definir limites de quantidade do produto, o recurso de configurações de ordem padrão deve ser ativado no Commerce headquarters.
 
 Siga estas etapas para ativar o recurso de configurações de ordem padrão.
 

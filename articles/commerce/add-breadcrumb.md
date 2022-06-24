@@ -1,6 +1,6 @@
 ---
 title: Módulo de trilha de navegação
-description: Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange os módulos de trilha de navegação e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 5f28fa563398773fb714576c3a80d65aec91cee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862272"
 ---
 # <a name="breadcrumb-module"></a>Módulo de trilha de navegação
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos de trilha de navegação e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 
 Os módulos de trilha de navegação são usados para fornecer navegação secundária em páginas do site. Em geral, são mostradas na parte superior de uma página, abaixo do cabeçalho. Embora os módulos de trilha de navegação possam ser adicionados a qualquer página, eles costumam ser usados em páginas de detalhes do produto (PDPs), para mostrar a hierarquia de categoria de produtos e fornecer uma maneira rápida de se movimentar em um site. Um módulo de trilha de navegação também pode ser usado para mostrar um link "Voltar para resultados" quando os usuários abrem um PDP de uma página de pesquisa ou de listagem. Dessa forma, os usuários podem retornar rapidamente à página de listagem filtrada para continuar comprando.
 

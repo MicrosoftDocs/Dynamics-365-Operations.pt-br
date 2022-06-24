@@ -1,6 +1,6 @@
 ---
 title: Módulo de consentimento de cookie
-description: Este tópico abrange os módulos de consentimento de cookies e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange os módulos de consentimento de cookies e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 43f18a0963d84d486c8077bde1dad50fdd4fe85beb95dc8b22ae2f3ee724ba0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 514f54ea6ff05dc3e0885f21af176453dd604848
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878574"
 ---
 # <a name="cookie-consent-module"></a>Módulo de consentimento de cookie
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de consentimento de cookies e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos de consentimento de cookies e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
 O módulo de consentimento de cookie solicita que os usuários do site forneçam explicitamente o consentimento para permitir cookies para qualquer recurso ou módulo que rastreie os cookies do navegador. O consentimento é necessário na primeira vez que um usuário navega por um site em uma nova sessão do navegador. Quando o consentimento é recebido, ele é rastreado e não é solicitado novamente. Para obter mais informações, consulte [Conformidade do cookie](cookie-compliance.md).
 

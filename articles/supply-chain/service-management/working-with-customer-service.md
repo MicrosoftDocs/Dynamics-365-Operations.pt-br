@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd8ba10441c1300c913827122c09741c58a42973
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: af1e443078b6a7832388b38f2b99a438af461ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677048"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844285"
 ---
 # <a name="work-with-customer-service-overview"></a>Visão geral sobre trabalhar com o atendimento ao cliente
 
@@ -41,7 +41,7 @@ O atendimento ao cliente inclui as seguintes funcionalidades:
 
   - Contratos de nível de serviço que dão suporte a uma base de clientes diferenciada
 
-Os tópicos dessa seção fornecem uma visão geral do processo comercial de atendimento ao cliente e de cada componente do processo comercial. Também listam os formulários associados a cada componente do processo comercial, e discutem as tarefas associadas a cada componente do processo comercial.
+Os artigos dessa seção fornecem uma visão geral do processo de negócios de Atendimento ao cliente e de cada componente do processo de negócios. Também listam os formulários associados a cada componente do processo comercial, e discutem as tarefas associadas a cada componente do processo comercial.
 
 
 

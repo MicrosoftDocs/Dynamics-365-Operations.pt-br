@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e35a6b7da4ead8ab6f007ef8800ed8a05b1c513
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 09a808c91ece25a9a40f662e0aca2c504246fc0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854490"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Categorias de custo usadas no Controle de produção e na Contabilidade e gerenciamento do projeto
 
@@ -31,7 +31,7 @@ Alguns tipos de trabalho de produção podem ser aplicados a estimativas de temp
 
 Alguns tipos de trabalho de produção podem ser aplicados a estimativas de tempo de projeto e a relatórios. Nesse caso, uma categoria de custo é necessária para fins de produção e de projeto. Quando uma categoria de custo é usada na produção e em projetos, as informações adicionais relacionadas ao projeto devem ser definidas. Por exemplo, os custos horários associados a projetos podem ser diferentes dos custos horários associados à produção. Você pode usar a página **Categorias de custo** para definir uma categoria de custo usada no Controle de produção e na Contabilidade e gerenciamento do projeto. 
 
-**Observação:** A contabilização de custos tem uma página **Categorias de projeto**, mas esta página não está relacionada à funcionalidade descrita neste tópico. Quando você usa uma categoria de custo nos projetos, a página **Categorias de custo** tem guias adicionais que mostram informações adicionais relacionadas ao projeto. Essas informações incluem o grupo de categorias, a propriedade de linha e as contas contábeis atribuídas à categoria de custo.
+**Observação:** A contabilização de custos tem uma página **Categorias de projeto**, mas esta página não está relacionada à funcionalidade descrita neste artigo. Quando você usa uma categoria de custo nos projetos, a página **Categorias de custo** tem guias adicionais que mostram informações adicionais relacionadas ao projeto. Essas informações incluem o grupo de categorias, a propriedade de linha e as contas contábeis atribuídas à categoria de custo.
 
 -   A categoria de custo deve ser atribuída a um grupo de categorias que suporte o tipo de transação **Horas**.
 -   A propriedade de linha indica as informações padrão sobre como o tempo informado poderá ser cobrado para um projeto.

@@ -1,6 +1,6 @@
 ---
 title: Classificação por vencimento de separação de estoque de diretiva de localização
-description: Este tópico explica como usar as estratégias de diretiva de localização primeiro a entrar, primeiro a sair (FIFO) e último a entrar, primeiro a sair (LIFO) durante a separação.
+description: Este artigo explica como usar as estratégias de diretiva de localização primeiro a entrar, primeiro a sair (FIFO) e último a entrar, primeiro a sair (LIFO) durante a separação.
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885686"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Classificação por vencimento de separação de estoque de diretiva de localização
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como usar as estratégias de diretiva de localização primeiro a entrar, primeiro a sair (FIFO) e último a entrar, primeiro a sair (LIFO) durante a separação. Essas estratégias trabalham em conjunto com as datas de classificação por vencimento registradas para os locais a serem rastreados quando o estoque entra pela primeira vez no depósito. O recurso *Classificação por vencimento de separação de estoque de diretiva de localização* usa a data na localização para determinar a classificação por vencimento. O recurso *Status da localização do depósito* atualiza a data na localização com base na data da placa de licença.
+Este artigo explica como usar as estratégias de diretiva de localização primeiro a entrar, primeiro a sair (FIFO) e último a entrar, primeiro a sair (LIFO) durante a separação. Essas estratégias trabalham em conjunto com as datas de classificação por vencimento registradas para os locais a serem rastreados quando o estoque entra pela primeira vez no depósito. O recurso *Classificação por vencimento de separação de estoque de diretiva de localização* usa a data na localização para determinar a classificação por vencimento. O recurso *Status da localização do depósito* atualiza a data na localização com base na data da placa de licença.
 
 Você pode usar as estratégias FIFO e LIFO para enviar itens rastreados por lote e itens não rastreados por lote, com base na data em que o estoque deu entrada no depósito. Esse recurso pode ser especialmente útil para estoque não rastreado por lote, no qual uma data de vencimento não está disponível para ser usada para classificação.
 

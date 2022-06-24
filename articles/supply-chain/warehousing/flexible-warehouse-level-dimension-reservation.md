@@ -1,6 +1,6 @@
 ---
-title: Política de reserva de dimensão no nível de depósito flexível
-description: Este tópico descreve a política de reserva de estoque que permite às empresas que vendem produtos rastreados por lote e executam suas logísticas como operações habilitadas para WMS reservem lotes específicos para ordens de venda do cliente, mesmo que a hierarquia de reservas associada aos produtos não permita a reserva de lotes específicos.
+title: Política flexível de reserva de dimensão no nível de depósito
+description: Este artigo descreve a política de reserva de estoque que permite às empresas que vendem produtos rastreados por lote e executam suas logísticas como operações habilitadas para WMS reservem lotes específicos para ordens de venda do cliente, mesmo que a hierarquia de reservas associada aos produtos não permita a reserva de lotes específicos.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885802"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política flexível de reserva de dimensão no nível de depósito
 
@@ -28,7 +28,7 @@ Quando uma hierarquia de reservas de estoque do tipo *Abaixo do lote\[local\]* e
 
 De forma semelhante, as placas de licença específicas não podem ser reservadas para produtos em ordens de venda quando esses produtos são associados à hierarquia de reserva padrão.
 
-Este tópico descreve a política de reserva de estoque que permite a essas empresas reservar lotes específicos ou placas de licença, mesmo quando os produtos são associados a uma hierarquia de reservas *Abaixo do lote\[local\]*.
+Este artigo descreve a política de reserva de estoque que permite a essas empresas reservar lotes específicos ou placas de licença, mesmo quando os produtos são associados a uma hierarquia de reservas *Abaixo do lote\[local\]*.
 
 ## <a name="inventory-reservation-hierarchy"></a>Hierarquia de reservas de estoque
 

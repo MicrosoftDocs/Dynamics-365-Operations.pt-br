@@ -1,6 +1,6 @@
 ---
 title: Ordens de qualidade
-description: Este tópico descreve como criar ordens de qualidade de forma manual ou automática e como trabalhar com elas para realizar inspeções e registrar resultados de testes no Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo descreve como criar ordens de qualidade de forma manual ou automática e como trabalhar com elas para realizar inspeções e registrar resultados de testes no Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857769"
 ---
 # <a name="quality-orders"></a>Ordens de qualidade
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar ordens de qualidade de forma manual ou automática e como trabalhar com elas para realizar inspeções e registrar resultados de testes no Microsoft Dynamics 365 Supply Chain Management.
+Este artigo descreve como criar ordens de qualidade de forma manual ou automática e como trabalhar com elas para realizar inspeções e registrar resultados de testes no Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="automatically-created-quality-orders"></a>Ordens de qualidade criadas automaticamente
 
@@ -39,7 +39,7 @@ Para criar uma ordem de qualidade manualmente, siga estas etapas.
 
 1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Selecione **Novo**.
-1. Na caixa de diálogo **Ordens de qualidade**, no campo **Tipo de referência**, selecione a referência de estoque à qual sua ordem de qualidade será relacionada. Para obter uma descrição dos tipos de referência disponíveis para seleção, consulte a seção [Tipos de referência de ordem de qualidade](#ref-types) posteriormente neste tópico.
+1. Na caixa de diálogo **Ordens de qualidade**, no campo **Tipo de referência**, selecione a referência de estoque à qual sua ordem de qualidade será relacionada. Para obter uma descrição dos tipos de referência disponíveis para seleção, consulte a seção [Tipos de referência de ordem de qualidade](#ref-types) posteriormente neste artigo.
 
     > [!NOTE]
     > O estoque relacionado à referência selecionada deve estar disponível. Se não houver estoque disponível para a combinação do tipo de referência, da quantidade e das dimensões de estoque selecionados, você receberá uma mensagem de erro.
@@ -88,7 +88,7 @@ Você pode usar a página de ordens de qualidade para criar manualmente uma nova
 
 ### <a name="from-the-quality-orders-page"></a>Na página Ordens de qualidade
 
-Para criar ordens de qualidade manualmente e exibir todas as ordens de qualidade existentes, Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**. As seções restantes deste tópico fornecem mais informações sobre como trabalhar com a página **Ordens de qualidade**.
+Para criar ordens de qualidade manualmente e exibir todas as ordens de qualidade existentes, Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**. As seções restantes deste artigo fornecem mais informações sobre como trabalhar com a página **Ordens de qualidade**.
 
 ### <a name="from-sales-orders"></a>Nas ordens de venda
 

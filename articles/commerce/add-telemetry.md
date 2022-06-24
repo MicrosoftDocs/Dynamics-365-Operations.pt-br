@@ -1,6 +1,6 @@
 ---
 title: Adicionar o código de script a páginas do site para oferecer suporte à telemetria
-description: Este tópico descreve como adicionar código de script do cliente às páginas do site para oferecer suporte à coleção de telemetria do cliente.
+description: Este artigo descreve como adicionar código de script do cliente às páginas do site para dar suporte à coleção de telemetria do cliente.
 author: bicyclingfool
 ms.date: 09/29/2020
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 262216ee99d52e3d53f5f5dae663104bb79757c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852832"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Adicionar o código de script a páginas do site para oferecer suporte à telemetria
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como adicionar código de script do cliente às páginas do site para oferecer suporte à coleção de telemetria do cliente.
+Este artigo descreve como adicionar código de script do cliente às páginas do site para dar suporte à coleção de telemetria do cliente.
 
 A análise da Web é uma ferramenta essencial quando você deseja entender como seus clientes interagem com seu site e tomar decisões que ajudarão a otimizar a experiência para obter a conversão máxima. Muitos pacotes de análise da Web estão disponíveis para ajudar você a atingir esses objetivos, como Google Analytics, Clicky, Moz Analytics e KISSMetrics. A maioria dos pacotes de análise da Web exige que você adicione o código de script do cliente no elemento **\<head\>** do HTML para todas as páginas do seu site.
 
 > [!NOTE]
-> As instruções neste tópico também se aplicam a outras funcionalidades personalizadas do cliente que o Microsoft Dynamics 365 Commerce não oferece nativamente.
+> As instruções neste artigo também se aplicam a outras funcionalidades personalizadas do cliente que o Microsoft Dynamics 365 Commerce não oferece nativamente.
 
 ## <a name="create-a-reusable-fragment-for-your-script-code"></a>Criar um fragmento reutilizável para o seu código de script
 

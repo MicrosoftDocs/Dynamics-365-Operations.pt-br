@@ -1,6 +1,6 @@
 ---
 title: Ordens de cliente no ponto de venda (PDV)
-description: Este tópico fornece informações sobre ordens de cliente no ponto de venda (PDV). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação.
+description: Este artigo fornece informações sobre ordens de cliente no ponto de venda (PDV). Ordens de cliente também são conhecidas como ordens especiais O artigo inclui uma discussão sobre parâmetros relacionados e fluxos de transação.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850373"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordens de cliente no ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre como criar e gerenciar ordens de cliente no aplicativo do ponto de venda (PDV). As ordens de cliente podem ser usadas para capturar vendas nas quais os compradores desejam retirar os produtos em uma data posterior, retirar os produtos em um local diferente ou receber os itens. 
+Este artigo fornece informações sobre como criar e gerenciar ordens de cliente no aplicativo do ponto de venda (PDV). As ordens de cliente podem ser usadas para capturar vendas nas quais os compradores desejam retirar os produtos em uma data posterior, retirar os produtos em um local diferente ou receber os itens. 
 
 Em um mundo de canal omni de comércio, muitos varejistas oferecem a opção de ordens de cliente, ou ordens especiais, para cumprir vários requisitos de produto e atendimento. Estes são alguns dos cenários típicos:
 
@@ -40,11 +40,11 @@ Em um mundo de canal omni de comércio, muitos varejistas oferecem a opção de 
 Os varejistas podem usar ordens de cliente para minimizar perdas de venda que, de outra forma, poderiam ser causadas por faltas de estoque, já que a mercadoria pode ser entregue ou retirada em um horário ou local diferente.
 
 ## <a name="set-up-customer-orders"></a>Configurar ordens de cliente
-Antes de tentar usar a funcionalidade de ordem de cliente no PDV, conclua todas as configurações necessárias na sede do Commerce.
+Antes de tentar usar a funcionalidade de ordem de cliente no PDV, conclua todas as configurações necessárias no Commerce headquarters.
 
 ### <a name="configure-modes-of-delivery"></a>Configurar modos de entrega
 
-Para usar ordens de cliente, você deve configurar os modos de entrega que o canal de loja pode usar. Você deve definir pelo menos um modo de entrega que possa ser usado quando as linhas de ordem forem remetidas a um cliente de uma loja. Você também deve definir pelo menos um modo de entrega de retirada que possa ser usado quando as linhas de ordem forem retiradas na loja. Os modos de entrega são definidos na página **Modos de entrega** na sede do Commerce. Para obter mais informações sobre como configurar modos de entrega para canais do Commerce, consulte [Definir modos de entrega](./configure-call-center-delivery.md#define-delivery-modes).
+Para usar ordens de cliente, você deve configurar os modos de entrega que o canal de loja pode usar. Você deve definir pelo menos um modo de entrega que possa ser usado quando as linhas de ordem forem remetidas a um cliente de uma loja. Você também deve definir pelo menos um modo de entrega de retirada que possa ser usado quando as linhas de ordem forem retiradas na loja. Os modos de entrega são definidos na página **Modos de entrega** no Commerce headquarters. Para obter mais informações sobre como configurar modos de entrega para canais do Commerce, consulte [Definir modos de entrega](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Página Modos de entrega.](media/customer-order-modes-of-delivery.png)
 
@@ -59,7 +59,7 @@ A partir da versão 10.0.12 do Commerce, as organizações podem definir se as c
 
 ### <a name="configure-channel-settings"></a>Definir configurações de canal
 
-Ao trabalhar com ordens de cliente no PDV, você deve considerar algumas das configurações do canal de loja. Essas configurações são encontradas na página **Lojas** na sede do Commerce.
+Ao trabalhar com ordens de cliente no PDV, você deve considerar algumas das configurações do canal de loja. Essas configurações são encontradas na página **Lojas** no Commerce headquarters.
 
 - **Depósito** – este campo indica o depósito que será usado ao decrementar o estoque para ordens de retirada de caixa e de cliente ligadas a este armazenamento. Como prática recomendada, incentivamos o uso de depósitos exclusivos para cada canal de armazenamento, a fim de evitar problemas da lógica comercial conflitantes em todos os armazenamentos.
 - **Depósito de Remessa** – este campo indica o depósito que será usado ao decrementar o estoque para ordens de cliente a serem remetidas do armazenamento selecionado. Se o recurso **Capacidade para especificar locais como "Remessa" ou "Retirada" no Grupo de atendimento** foi habilitado no seu ambiente, os usuários de PDV podem escolher um depósito específico a ser remetido no PDV, em vez de escolher um armazenamento de remessa. Portanto, quando esse recurso está habilitado, o depósito de remessa não é usado, pois o usuário selecionará o depósito específico para remeter a ordem quando a ordem for criada.
@@ -71,7 +71,7 @@ Ao trabalhar com ordens de cliente no PDV, você deve considerar algumas das con
 
 ### <a name="set-up-customer-order-parameters"></a>Configurar parâmetros de ordens de cliente
 
-Antes de tentar criar ordens de cliente no PDV, você deve configurar os parâmetros adequados na sede do Commerce. Esses parâmetros podem ser encontrados na guia **Ordens de cliente** da página **Parâmetros do Commerce**.
+Antes de tentar criar ordens de cliente no PDV, você deve configurar os parâmetros adequados no Commerce headquarters. Esses parâmetros podem ser encontrados na guia **Ordens de cliente** da página **Parâmetros do Commerce**.
 
 - **Tipo de ordem padrão** – Você pode especificar o tipo de ordem atribuído por padrão a ordens de cliente criadas no PDV. Essas ordens de cliente podem ser ordens de venda ou ordens de cotação. Independentemente do tipo de ordem padrão, os usuários ainda podem criar ordens de venda e ordens de cliente no PDV.
 - **Percentual de depósito padrão** – Especifique o percentual do valor total da ordem que o cliente deve pagar como depósito antes que ela possa ser confirmada. Dependendo de seus privilégios, os associados da loja poderão substituir o valor usando a operação **Substituição de depósito** no PDV, se essa operação estiver configurada para o layout da tela de transação.
@@ -130,10 +130,10 @@ Verifique se o [layout de tela](./pos-screen-layouts.md) do PDV está configurad
 As ordens de varejo criadas no canal de loja ou online podem ser canceladas e editadas por meio do PDV, conforme necessário.
 
 > [!IMPORTANT]
-> Nem todas as ordens de varejo podem ser editadas por meio do aplicativo de PDV. As ordens criadas em um canal de call center não poderão ser editadas por meio do PDV se a configuração [Habilitar conclusão de ordem](./set-up-order-processing-options.md#enable-order-completion) estiver ativada para o canal de call center. Para garantir o processamento correto dos pagamentos, as ordens originadas em um canal de call center e que usam a funcionalidade Habilitar conclusão de ordem devem ser editadas por meio do aplicativo de call center na sede do Commerce.
+> Nem todas as ordens de varejo podem ser editadas por meio do aplicativo de PDV. As ordens criadas em um canal de call center não poderão ser editadas por meio do PDV se a configuração [Habilitar conclusão de ordem](./set-up-order-processing-options.md#enable-order-completion) estiver ativada para o canal de call center. Para garantir o processamento correto dos pagamentos, as ordens originadas em um canal de call center e que usam a funcionalidade Habilitar conclusão de ordem devem ser editadas por meio do aplicativo de call center no Commerce headquarters.
 
 > [!NOTE]
-> Recomendamos que você não edite ordens e cotações no PDV que sejam criadas por um usuário que não seja do call center no Commerce Headquarters. Essas ordens e cotações não usam o mecanismo de preço do Commerce. Portanto, se forem editadas no PDV, o mecanismo de preço do Commerce alterará o preço delas.
+> Recomendamos que você não edite ordens e cotações no PDV que sejam criadas por um usuário que não seja do call center no Commerce headquarters. Essas ordens e cotações não usam o mecanismo de preço do Commerce. Portanto, se forem editadas no PDV, o mecanismo de preço do Commerce alterará o preço delas.
 
 
 Na versão 10.0.17 e posterior, os usuários podem editar ordens qualificadas por meio do aplicativo de PDV, mesmo que a ordem seja parcialmente preenchida. No entanto, as ordens faturadas integralmente ainda não podem ser editadas por meio do PDV. Para habilitar esse recurso, ative o recurso **Editar ordens parcialmente atendidas no Ponto de Venda** no espaço de trabalho **Gerenciamento de recursos**. Se esse recurso não estiver habilitado, ou se você estiver usando a versão 10.0.16 ou anterior, os usuários só poderão editar ordens de cliente em PDV se a ordem estiver totalmente aberta. Se o recurso estiver habilitado, você poderá limitar as lojas que podem editar ordens preenchidas parcialmente. A opção para desativar esse recurso para lojas específicas pode ser configurada por meio do **Perfil de funcionalidade** na FastTab **Geral**.
@@ -183,10 +183,10 @@ As ordens de cliente podem ser criadas no PDV em modo síncrono ou assíncrono. 
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Habilitar ordens de cliente para serem criadas em modo assíncrono
 
-1. Na sede do Commerce, na página **Perfis de funcionalidade**, selecione o perfil de funcionalidade que corresponde à loja que você deseja configurar.
+1. No Commerce headquarters, na página **Perfis de funcionalidade**, selecione o perfil de funcionalidade que corresponde à loja que você deseja configurar.
 2. Na Guia Rápida **Geral**, defina a opção **Criar ordem do cliente no modo assíncrono** como **Sim**.
 
-Quando a opção **Criar ordem do cliente no modo assíncrono** é definida como **Sim**, as ordens de cliente sempre são criadas no modo assíncrono, mesmo se o Retail Transaction Service (RTS) está disponível. Se você definir essa opção como **Não**, as ordens de cliente sempre serão criadas em modo síncrono por meio de RTS. Quando as ordens de cliente são criadas no modo assíncrono, elas são retiradas e criadas como transações de varejo na sede do Commerce com base nos trabalhos de pull (P) do Commerce. As ordens de venda correspondentes para as transações de varejo são criadas quando **Sincronizar ordens** é executado manualmente ou por meio de um processo em lote.
+Quando a opção **Criar ordem do cliente no modo assíncrono** é definida como **Sim**, as ordens de cliente sempre são criadas no modo assíncrono, mesmo se o Retail Transaction Service (RTS) está disponível. Se você definir essa opção como **Não**, as ordens de cliente sempre serão criadas em modo síncrono por meio de RTS. Quando as ordens de cliente são criadas no modo assíncrono, elas são retiradas e criadas como transações de varejo no Commerce headquarters com base nos trabalhos de pull (P) do Commerce. As ordens de venda correspondentes para as transações de varejo são criadas quando **Sincronizar ordens** é executado manualmente ou por meio de um processo em lote.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

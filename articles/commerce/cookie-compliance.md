@@ -1,6 +1,6 @@
 ---
 title: Compatível com cookies
-description: Este tópico descreve considerações sobre conformidade de cookies e as políticas padrão incluídas no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve considerações sobre conformidade de cookies e as políticas padrão incluídas no Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 03/10/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
-ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
+ms.openlocfilehash: 6a96ba21f1872b41156768fb7277933e68a16d90
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "8403138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863530"
 ---
 # <a name="cookie-compliance"></a>Compatível com cookies
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve considerações sobre conformidade de cookies e as políticas padrão incluídas no Microsoft Dynamics 365 Commerce.
+Este artigo descreve considerações sobre conformidade de cookies e as políticas padrão incluídas no Microsoft Dynamics 365 Commerce.
 
 A privacidade é um fator importante ao rastrear tecnologias que afetem clientes de comércio eletrônico. Por causa dos padrões de conformidade de privacidade, como a norma de proteção de dados gerais (GDPR) na União Europeia (UE), as diretrizes de privacidade eletrônica devem ser consideradas para qualquer site ativo hoje. Como muitos sites de comércio eletrônico são globalmente acessíveis por padrão, é importante que você revise os padrões de conformidade para seu site de comércio eletrônico.
 

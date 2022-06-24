@@ -1,6 +1,6 @@
 ---
 title: Sincronizar ordens de serviço no Field Service com ordens de venda no Supply Chain Management
-description: Este tópico discute os modelos e as tarefas subjacentes usados para sincronizar ordens de serviço no Field Service com ordens de venda no Supply Chain Management.
+description: Este artigo discute os modelos e as tarefas subjacentes usados para sincronizar ordens de serviço no Field Service com ordens de venda no Supply Chain Management.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860512"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizar ordens de serviço no Field Service com ordens de venda no Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061300"
 
 
 
-Este tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar ordens de trabalho no Dynamics 365 Field Service com ordens de venda no Dynamics 365 Supply Chain Management.
+Este artigo discute os modelos e as tarefas subjacentes que são usados para sincronizar ordens de trabalho no Dynamics 365 Field Service com ordens de venda no Dynamics 365 Supply Chain Management.
 
 [![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,7 +165,7 @@ Para manter o controle das ordens de venda que são originárias de ordens de se
 
 Por padrão, o mapeamento seleciona a origem de venda para o tipo de origem de vendas **Integração de ordem de trabalho** para todas as ordens de venda criadas da partir de ordens de trabalho. Esse comportamento pode ser útil quando você trabalha com a ordem de venda no Supply Chain Management. Você deve certificar-se de que as ordens de venda que são originárias das ordens de trabalho não sejam sincronizadas de volta com o Field Service como ordens de trabalho.
 
-Para obter detalhes sobre como criar a configuração correta para a origem de venda no Supply Chain Management, consulte a seção "Pré-condições e configuração de mapeamento" deste tópico.
+Para obter detalhes sobre como criar a configuração correta para a origem de venda no Supply Chain Management, consulte a seção "Pré-condições e configuração de mapeamento" deste artigo.
 
 ### <a name="status"></a>Status
 

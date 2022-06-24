@@ -1,6 +1,6 @@
 ---
 title: Pesquisa de produto e de cliente no ponto de venda (PDV)
-description: Este tópico fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 ms.date: 05/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
-ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
+ms.openlocfilehash: 5f2d8162c810f63dc889a03d33fd111de69783de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8806418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858991"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
@@ -78,7 +78,7 @@ Entre essas propriedades, o nome fornece a maior flexibilidade para pesquisas de
 
 Por padrão, uma pesquisa de cliente é feita em catálogos de endereços do cliente associados ao armazenamento. Este tipo de pesquisa é conhecido como *pesquisa local do cliente*. Porém, os funcionários também podem pesquisar os clientes globalmente. Em outras palavras, eles podem pesquisar nos armazenamentos da empresa e em outras entidades legais. Este tipo de pesquisa é conhecido como *pesquisa remota do cliente*.
 
-Para pesquisar globalmente, os funcionários podem selecionar o botão **Resultados de filtragem** na parte inferior da página e selecionar a opção **Pesquisa todos os armazenamentos**, conforme mostra a ilustração que segue. Nesse caso, não são retornados apenas os clientes. Todos os tipos de participantes que fazem parte do catálogo de endereços da sede também são retornados. Esses participantes incluem trabalhadores, fornecedores, contatos e concorrentes.
+Para pesquisar globalmente, os funcionários podem selecionar o botão **Resultados de filtragem** na parte inferior da página e selecionar a opção **Pesquisa todos os armazenamentos**, conforme mostra a ilustração que segue. Nesse caso, não são retornados apenas os clientes. Todos os tipos de participantes que fazem parte do catálogo de endereços do headquarters também são retornados. Esses participantes incluem trabalhadores, fornecedores, contatos e concorrentes.
 
 > [!NOTE]
 > Um número mínimo de quatro caracteres deve ser inserido para uma pesquisa remota de cliente para retornar os resultados.
@@ -112,24 +112,24 @@ Traduções para atalhos são necessárias se você quiser que os atalhos sejam 
 > [!NOTE]
 > Uma propriedade personalizada que é adicionada à enumeração não afeta o algoritmo de pesquisa do cliente padrão. Em outras palavras, o algoritmo de pesquisa do cliente não pesquisará a propriedade personalizada. Os usuários podem usar uma propriedade personalizado somente para pesquisas se essa propriedade personalizada for adicionada como um atalho, ou se o algoritmo de pesquisa padrão for substituído.
 
-Os varejistas também podem definir o modo de pesquisa de cliente padrão no PDV para **Pesquisar todas as lojas**. Esta configuração pode ser útil em cenários em que os clientes criados fora do PDV podem ser pesquisados imediatamente (por exemplo, mesmo antes do trabalho de distribuição ser executado.) Para isso, o varejista deve ativar a opção **Modo de pesquisa de cliente padrão** no perfil da funcionalidade PDV. Depois de definida como **Sim**, cada tentativa de pesquisa de cliente executará uma chamada em tempo real para a sede.
+Os varejistas também podem definir o modo de pesquisa de cliente padrão no PDV para **Pesquisar todas as lojas**. Esta configuração pode ser útil em cenários em que os clientes criados fora do PDV podem ser pesquisados imediatamente (por exemplo, mesmo antes do trabalho de distribuição ser executado.) Para isso, o varejista deve ativar a opção **Modo de pesquisa de cliente padrão** no perfil da funcionalidade PDV. Depois de definida como **Sim**, cada tentativa de pesquisa de cliente executará uma chamada em tempo real para o headquarters.
 
 Para ajudar a evitar problemas inesperados de desempenho, essa configuração está oculta por trás do sinalizador de liberação de versões de pré-lançamento denominada **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Assim, para mostrar a configuração de **Modo de pesquisa de cliente padrão** na interface de usuário, o varejista deve criar um tíquete de suporte para o teste de aceitação de usuário (UAT) e ambientes de produção. Depois do tíquete ser recebido, a equipe da engenharia trabalhará com o varejista para garantir que ele faça testes nos ambientes de não produção para avaliar o desempenho e a implementação de otimizações necessárias.
 
 ## <a name="cloud-powered-customer-search"></a>Pesquisa do cliente habilitada para a nuvem
 
-A demonstração pública do recurso de pesquisa do cliente usando o serviço de Pesquisa Cognitiva do Azure foi lançada como parte da versão 10.0.18 do Commerce. Além das melhorias de desempenho, os usuários do serviço também se beneficiam de recursos avançados de refinamento e relevância. As melhorias de desempenho são evidentes principalmente quando o recurso de pesquisa global ("Pesquisar todas as lojas") do PDV é usado. Isso ocorre porque os resultados da pesquisa são buscados no índice de pesquisa do Azure, e não consultados nos dados da matriz do Commerce. 
+A demonstração pública do recurso de pesquisa do cliente usando o serviço de Pesquisa Cognitiva do Azure foi lançada como parte da versão 10.0.18 do Commerce. Além das melhorias de desempenho, os usuários do serviço também se beneficiam de recursos avançados de refinamento e relevância. As melhorias de desempenho são evidentes principalmente quando o recurso de pesquisa global ("Pesquisar todas as lojas") do PDV é usado. Isso ocorre porque os resultados da pesquisa são buscados no índice de pesquisa do Azure, e não consultados nos dados do Commerce headquarters. 
 
 ### <a name="enable-the-cloud-powered-search-feature"></a>Habilitar o recurso de pesquisa habilitada para a nuvem
 
 > [!NOTE]
-> É necessário que tanto a matriz do Commerce quanto a Commerce Scale Unit sejam atualizados para a versão 10.0.18. Não é necessário atualizar o PDV.
+> É necessário que tanto o Commerce headquarters quanto a Commerce Scale Unit sejam atualizados para a versão 10.0.18. Não é necessário atualizar o PDV.
 
-Para habilitar o recurso de recurso de pesquisa habilitada para a nuvem na matriz do Commerce, siga estas etapas.
+Para habilitar o recurso de recurso de pesquisa habilitada para a nuvem no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
 1. Localize e selecione o recurso **Pesquisa do cliente habilitada para a nuvem (visualização)** e, em seguida, selecione **Habilitar agora**.
-1. Acesse **Varejo e Comércio > Configuração da matriz > Agendador do Commerce > Inicializar agendador do Commerce** e selecione **OK** para exibir a nova tarefa **1010_CustomerSearch** no formulário **Agenda de distribuição**.
+1. Acesse **Varejo e Comércio > Configuração do headquarters > Agendador do Commerce > Inicializar agendador do Commerce** e selecione **OK** para exibir a nova tarefa **1010_CustomerSearch** no formulário **Agenda de distribuição**.
 1. Acesse **Varejo e Comércio > TI de Varejo e Comércio > Agenda de distribuição**.
 1. Execute o trabalho **1010_CustomerSearch**. Este trabalho publica a data para o índice de pesquisa do Azure. Quando a publicação do índice for concluída, o status do trabalho será definido como **Aplicado**.
 1. Depois que o status do trabalho **1010_CustomerSearch** for definido como **Aplicado**, execute o trabalho **1110 - Configuração global** para atualizar os canais de PDV do recurso mais recente habilitado no **Gerenciamento de recursos**.
@@ -142,8 +142,8 @@ Para habilitar o recurso de recurso de pesquisa habilitada para a nuvem na matri
 
 A lista a seguir mostra como a funcionalidade de pesquisa habilitada para a nuvem é diferente da funcionalidade de pesquisa existente. 
 
-- Os clientes criados e editados na matriz do Commerce são enviados para o índice de pesquisa do Azure quando o trabalho **1010_CustomerSearch** é executado. Essas atualizações levam, no mínimo, 15 a 20 minutos para atualizar o índice. Os usuários do PDV poderão procurar novos clientes (ou pesquisar com base nas informações atualizadas) de cerca de 15 a 20 minutos depois que as atualizações ocorrerem na matriz do Commerce. Se o processo comercial exigir que os clientes criados na matriz do Commerce sejam pesquisados imediatamente no PDV, isso pode não ser o serviço certo para você.
-- Novos clientes criados no PDV são enviados para o índice de pesquisa do Azure da Commerce Scale Unit e são pesquisados imediatamente em qualquer loja. No entanto, se o recurso de criação de cliente assíncrono estiver ativado, os novos registros de clientes não serão publicados no índice de pesquisa do Azure do Commerce Scale Unit e não poderão ser pesquisados do PDV até que as informações do cliente sejam sincronizadas com a matriz do Commerce e as IDs do cliente sejam geradas para clientes assíncronos. O trabalho **1010_CustomerSearch** será então capaz de enviar os registros de cliente assíncrono para o índice de pesquisa do Azure. Em média, haverá cerca de 30 minutos para que clientes assíncronos recém-criados possam ser pesquisados no PDV. Essa estimativa pressupõe que os trabalhos **1010_CustomerSearch**, **P-Job** e **Sincronizar clientes e parceiros comerciais do modo assíncrono** estão programados para serem executados a cada 15 minutos.
+- Os clientes criados e editados no Commerce headquarters são enviados para o índice de pesquisa do Azure quando o trabalho **1010_CustomerSearch** é executado. Essas atualizações levam, no mínimo, 15 a 20 minutos para atualizar o índice. Os usuários do PDV poderão procurar novos clientes (ou pesquisar com base nas informações atualizadas) de cerca de 15 a 20 minutos depois que as atualizações ocorrerem no Commerce headquarters. Se o processo comercial exigir que os clientes criados no Commerce headquarters sejam pesquisados imediatamente no PDV, isso pode não ser o serviço certo para você.
+- Novos clientes criados no PDV são enviados para o índice de pesquisa do Azure da Commerce Scale Unit e são pesquisados imediatamente em qualquer loja. No entanto, se o recurso de criação de cliente assíncrono estiver ativado, os novos registros de clientes não serão publicados no índice de pesquisa do Azure do Commerce Scale Unit e não poderão ser pesquisados do PDV até que as informações do cliente sejam sincronizadas com o Commerce headquarters e as IDs do cliente sejam geradas para clientes assíncronos. O trabalho **1010_CustomerSearch** será então capaz de enviar os registros de cliente assíncrono para o índice de pesquisa do Azure. Em média, haverá cerca de 30 minutos para que clientes assíncronos recém-criados possam ser pesquisados no PDV. Essa estimativa pressupõe que os trabalhos **1010_CustomerSearch**, **P-Job** e **Sincronizar clientes e parceiros comerciais do modo assíncrono** estão programados para serem executados a cada 15 minutos.
 - A pesquisa habilitada para a nuvem também pesquisa os emails secundários e os números de telefone dos clientes, mas os resultados de pesquisa do cliente exibem somente o número de telefone principal e o endereço de email principal dos clientes. À primeira vista, pode parecer que resultados de pesquisa irrelevantes foram devolvidos, mas verificar o número de telefone e o email secundário de um cliente nos resultados da pesquisa podem ajudar a verificar se a palavra-chave pesquisada resultou em uma correspondência do cliente. Para evitar essa confusão, há planos de melhorar a página de resultados da pesquisa para que os usuários saibam por que um resultado de pesquisa foi devolvido.
 - A necessidade de pesquisa usando pelo menos 4 caracteres em uma pesquisa global ("Pesquisar todas as lojas") não é aplicável a este serviço.
 

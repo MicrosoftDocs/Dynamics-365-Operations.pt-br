@@ -1,6 +1,6 @@
 ---
-title: Módulo do vale-presente
-description: Este tópico abrange os módulos de cartão-presente e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+title: Módulo de cartão-presente
+description: Este artigo abrange os módulos de cartão-presente e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cc3d51b9891469b8bb0fa38ae2bcd0b27eee56f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869481"
 ---
 # <a name="gift-card-module"></a>Módulo de cartão-presente
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de cartão-presente e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos de cartão-presente e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
 Os módulos de cartão-presente podem ser usados em módulos de finalização de compra para aceitar cartões-presente, uma forma comum de pagamento usada para transações de comércio eletrônico. O módulo de cartão-presente oferece suporte a cartões-presente Dynamics 365, SVS e Givex. Os cartões-presente SVS e Givex são resgatados por meio do provedor de pagamentos Adyen. Para obter mais informações sobre suporte a cartões-presente externos, como SVS e Givex, consulte [Suporte a cartões-presente externos](./dev-itpro/gift-card.md).
 
@@ -55,7 +55,7 @@ A imagem a seguir mostra um exemplo de um módulo de cartão-presente em uma pá
     - PIN e data de vencimento 
     - Nenhuma
 
-- **Habilitar para usuários convidados**: quando esta propriedade estiver habilitada, os usuários convidados podem resgatar ou consultar os saldos nos vales-presentes. Esta propriedade requer que o acesso anônimo (convidado) a vales-presentes seja habilitado no Commerce Headquarters. Para obter mais informações, consulte [Habilitar pagamentos de vale-presente para finalização do convidado](#enable-gift-card-payments-for-guest-checkout).
+- **Habilitar para usuários convidados**: quando esta propriedade estiver habilitada, os usuários convidados podem resgatar ou consultar os saldos nos vales-presentes. Esta propriedade requer que o acesso anônimo (convidado) a vales-presentes seja habilitado no Commerce headquarters. Para obter mais informações, consulte [Habilitar pagamentos de vale-presente para finalização do convidado](#enable-gift-card-payments-for-guest-checkout).
 
 > [!IMPORTANT]
 > A propriedade **Habilitar para usuários convidados** está disponível a partir da versão 10.0.21 do Commerce. Ela requer que o pacote de biblioteca do módulo da versão 9.31 do Commerce esteja instalado.
@@ -82,7 +82,7 @@ Por padrão, os cartões de presente internos não são otimizados para uso em l
 
 Por padrão, os pagamentos de vale-presente são habilitados para finalização de compra de convidado (anônimo). Para habilitá-los, siga estas etapas.
 
-1. No Commerce headquarters, Acesse **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
+1. No Commerce headquarters, acesse **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
 1. Selecione e segure (ou clique com o botão direito do mouse) no cabeçalho da grade e, em seguida, selecione **Inserir colunas**.
 1. Na caixa de diálogo **Inserir colunas**, marque a caixa de seleção **AllowAnonymousAccess**.
 1. Selecione **Atualizar**.

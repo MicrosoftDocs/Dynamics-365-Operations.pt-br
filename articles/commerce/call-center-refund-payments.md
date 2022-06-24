@@ -1,6 +1,6 @@
 ---
 title: Reembolsar processamento de pagamentos em call centers
-description: Este tópico explica como os reembolsos de pagamentos são gerados por call centers quando devoluções são criadas ou quando ordens ou linhas de ordem são canceladas.
+description: Este artigo explica como os reembolsos de pagamentos são gerados por call centers quando devoluções são criadas ou quando ordens ou linhas de ordem são canceladas.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880105"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Reembolsar processamento de pagamentos em call centers
 
-Este tópico explica como os reembolsos de pagamentos são gerados por call centers quando devoluções são criadas ou quando ordens ou linhas de ordem são canceladas.
+Este artigo explica como os reembolsos de pagamentos são gerados por call centers quando devoluções são criadas ou quando ordens ou linhas de ordem são canceladas.
 
-Um usuário que cria uma ordem de devolução para um cliente como um usuário do call center na sede do Microsoft Dynamics 365 Commerce usa a página **Ordem de devolução** para criar a autorização para devolução de materiais (RMA) inicial. A RMA define os produtos que o cliente deseja devolver ou trocar e cria uma ordem de venda de devolução vinculada que tem um tipo de **ordem devolvida**. A ordem devolvida vinculada é usada para rastrear o lançamento do estoque devolvido e notas de crédito ou reembolsos de pagamento que são lançados.
+Um usuário que cria uma ordem de devolução para um cliente como um usuário do call center no Microsoft Dynamics 365 Commerce headquarters usa a página **Ordem de devolução** para criar a autorização para devolução de materiais (RMA) inicial. A RMA define os produtos que o cliente deseja devolver ou trocar e cria uma ordem de venda de devolução vinculada que tem um tipo de **ordem devolvida**. A ordem devolvida vinculada é usada para rastrear o lançamento do estoque devolvido e notas de crédito ou reembolsos de pagamento que são lançados.
 
 Se a opção **Habilitar conclusão de ordem** estiver definida como **Sim** para o canal de call center, o usuário do call center que cria a RMA deverá executar o fluxo de processamento da conclusão da ordem, selecionando **Concluir** na página **Ordem de devolução**. A função **Concluir** fornece um resumo de reembolso calculado que descreve o valor de reembolsos vencidos. Além disso, quando ele é configurado corretamente, cria sistematicamente uma linha de pagamento de reembolso na ordem devolvida.
 
@@ -54,7 +54,7 @@ A ilustração a seguir mostra o campo **Método de pagamento** na guia **RMA/de
 ![Campo Método de pagamento na guia RMA/devolução da página Parâmetros de call center.](media/callcenterrefundparameters.png)
 
 > [!NOTE]
-> As regras de processamento de reembolso descritas anteriormente também se aplicam a ordens ou linhas de ordem que um usuário de call center cancela na sede do Commerce. Se o cancelamento de uma ordem ou linhas de ordem específicas gerarem pagamentos excedente, as mesmas regras serão usadas para gerar linhas de pagamento de reembolso.
+> As regras de processamento de reembolso descritas anteriormente também se aplicam a ordens ou linhas de ordem que um usuário de call center cancela no Commerce headquarters. Se o cancelamento de uma ordem ou linhas de ordem específicas gerarem pagamentos excedente, as mesmas regras serão usadas para gerar linhas de pagamento de reembolso.
 
 Normalmente, uma ordem de devolução passa por um processo padrão, no qual o estoque é recebido (ou descartado), uma guia de remessa é lançada na ordem de devolução e um processo de lançamento de fatura é executado para a ordem de venda de devolução. A ordem de venda de devolução é vinculada e gerada sistematicamente como parte do processo de criação da ordem de devolução. Em cenários típicos, os reembolsos de pagamento não são emitidos para clientes até que a fatura da ordem de venda de devolução seja lançada.
 
@@ -92,11 +92,11 @@ Uma configuração **Sim** para a opção **Aplicar crédito** será aplicável 
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Substituições de pagamento para devoluções de call center
 
-Embora a lógica do call center determine sistematicamente o método de pagamento de reembolso da maneira descrita anteriormente neste tópico, os usuários às vezes podem desejar substituir esses pagamentos. Por exemplo, um usuário pode editar ou remover as linhas de pagamento de reembolso existentes e aplicar novas linhas de pagamento. Os pagamentos de reembolso calculados pelo sistema só podem ser alterados por usuários que tenham as permissões de substituição corretas. Essas permissões podem ser configuradas na página **Substituir permissões** no Retail e Commerce. Para fazer uma substituição de pagamento de reembolso, o usuário deve estar vinculado a uma função de segurança em que a opção **Permitir pagamento alternativo** está definida como **Sim** na página **Substituir permissões**.
+Embora a lógica do call center determine sistematicamente o método de pagamento de reembolso da maneira descrita anteriormente neste artigo, os usuários às vezes podem desejar substituir esses pagamentos. Por exemplo, um usuário pode editar ou remover as linhas de pagamento de reembolso existentes e aplicar novas linhas de pagamento. Os pagamentos de reembolso calculados pelo sistema só podem ser alterados por usuários que tenham as permissões de substituição corretas. Essas permissões podem ser configuradas na página **Substituir permissões** no Retail e Commerce. Para fazer uma substituição de pagamento de reembolso, o usuário deve estar vinculado a uma função de segurança em que a opção **Permitir pagamento alternativo** está definida como **Sim** na página **Substituir permissões**.
 
 ![Opção Permitir pagamento alternativo na página Substituir permissões.](media/overridepermissions.png)
 
-Como alternativa, uma organização pode definir a opção **Permitir substituição de pagamento** como **Sim** na guia **RMA/devolução** da página **Parâmetros de call center**. Nesse caso, um código de substituição de segurança deve ser selecionado no campo **Código de Substituição de Segurança**. O código de substituição de segurança é um código alfanumérico que deve ser gerenciado externamente, pois os usuários não podem exibi-lo na sede do Commerce após defini-lo. O código de substituição de segurança deve ser conhecido por poucas pessoas confiáveis em uma organização. Quando a opção **Permitir substituição de pagamento** estiver definida como **Sim**, se algum usuário sem as permissões de função corretas tentar alterar o método de pagamento em uma ordem de devolução, ele terá a opção de inserir o código de substituição de segurança. Se ele não souber esse código ou se um gerente ou um supervisor não puder inseri-lo na página, ele não poderá substituir o método de pagamento de devolução.
+Como alternativa, uma organização pode definir a opção **Permitir substituição de pagamento** como **Sim** na guia **RMA/devolução** da página **Parâmetros de call center**. Nesse caso, um código de substituição de segurança deve ser selecionado no campo **Código de Substituição de Segurança**. O código de substituição de segurança é um código alfanumérico que deve ser gerenciado externamente, pois os usuários não podem exibi-lo no Commerce headquarters após defini-lo. O código de substituição de segurança deve ser conhecido por poucas pessoas confiáveis em uma organização. Quando a opção **Permitir substituição de pagamento** estiver definida como **Sim**, se algum usuário sem as permissões de função corretas tentar alterar o método de pagamento em uma ordem de devolução, ele terá a opção de inserir o código de substituição de segurança. Se ele não souber esse código ou se um gerente ou um supervisor não puder inseri-lo na página, ele não poderá substituir o método de pagamento de devolução.
 
 > [!NOTE]
 > Se o código de substituição de segurança for perdido ou esquecido, a organização precisará redefini-lo. Para isso, ela deverá definir um novo código de substituição de segurança no campo **Código de Substituição de Segurança** na guia **RMA/devolução** da página **Parâmetros de call center**.

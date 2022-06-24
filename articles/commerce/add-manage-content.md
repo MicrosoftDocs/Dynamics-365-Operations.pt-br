@@ -1,6 +1,6 @@
 ---
 title: Maneiras de adicionar conteúdo
-description: Este tópico apresenta uma visão geral e links selecionados que ensinam onde e como começar a gerenciar conteúdo usando o conjunto de ferramentas de criação para Web do construtor de sites do Microsoft Dynamics 365 Commerce.
+description: Este artigo apresenta uma visão geral e links selecionados que ensinam onde e como começar a gerenciar conteúdo usando o conjunto de ferramentas de criação para Web do construtor de sites do Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f01de31e4eca1266066b4fcf1c92b429bfc71c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871745"
 ---
 # <a name="ways-to-add-content"></a>Maneiras de adicionar conteúdo
 
 [!include [banner](includes/banner.md)]
 
-Este tópico apresenta uma visão geral e links para a documentação sobre como gerenciar conteúdo usando o conjunto de ferramentas de criação para Web do construtor de sites do Microsoft Dynamics 365 Commerce.
+Este artigo apresenta uma visão geral e links para a documentação sobre como gerenciar conteúdo usando o conjunto de ferramentas de criação para Web do construtor de sites do Microsoft Dynamics 365 Commerce.
 
 Há várias formas de alterar a aparência e o conteúdo do seu site. Dependendo do nível necessário de personalização, muitas dessas alterações podem ser implementadas por não desenvolvedores no assistente para criação de sites, o conjunto de ferramentas de criação para Web incluído no Dynamics 365 Commerce. O assistente para criação de sites permite criar modelos, selecionar temas e escolher e configurar módulos sem escrever código. Em contraste, são necessárias habilidades de desenvolvimento para criar um tema ou módulo, porque o kit de desenvolvimento de software (software development kit, SDK) de comércio eletrônico e o fluxo de trabalho de implantação do Microsoft Dynamics Lifecycle Services (LCS) devem ser usados.
 
-Os tópicos a seguir são bons pontos de partida para começar a entender como adicionar e gerenciar conteúdo de site. A maioria dos tópicos listados se concentram em áreas do seu site que não exigem um desenvolvedor. Parte deles abordam a edição básica de conteúdo, enquanto outros se concentram nas tarefas de administrador do site. Cada um desses tópicos indicará tarefas específicas que podem exigir trabalho no SDK. Cada tópico pressupõe que você já provisionou um site e recebeu acesso ao conjunto de ferramentas do assistente para criação de sites.
+Os artigos a seguir são bons pontos de partida para começar a entender como adicionar e gerenciar conteúdo de site. A maioria dos artigos listados se concentram em áreas do seu site que não exigem um desenvolvedor. Parte deles abordam a edição básica de conteúdo, enquanto outros se concentram nas tarefas de administrador do site. Cada um desses artigos indicará tarefas específicas que podem exigir trabalho no SDK. Cada artigo pressupõe que você já provisionou um site e recebeu acesso ao conjunto de ferramentas do assistente para criação de sites.
 
-Para começar, selecione um dos tópicos a seguir.
+Para começar, selecione um dos artigos a seguir.
 
 - Para se familiarizar com a terminologia de gerenciamento de conteúdo usada no assistente para criação de sites e nesta documentação, consulte [Glossário de modelo de página](page-elements-overview.md).
 - Para entender como os módulos funcionam dentro de fluxos de trabalho de gerenciamento de conteúdo, consulte [Trabalhar com módulos](work-with-modules.md).

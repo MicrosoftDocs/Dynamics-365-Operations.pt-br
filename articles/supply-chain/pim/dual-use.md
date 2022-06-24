@@ -1,6 +1,6 @@
 ---
 title: Mercadorias de uso duplo
-description: Este tópico explica como monitorar produtos identificados como mercadorias de uso duplo, armazenar números de certificado para cada país de destino e produto relevante e imprimir números de certificado válidos em faturas, guias de remessa e/ou ordens de venda relevantes.
+description: Este artigo explica como monitorar produtos identificados como mercadorias de uso duplo, armazenar números de certificado para cada país de destino e produto relevante e imprimir números de certificado válidos em faturas, guias de remessa e/ou ordens de venda relevantes.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878893"
 ---
 # <a name="dual-use-goods"></a>Mercadorias de uso duplo
 
@@ -42,7 +42,7 @@ Considere o cenário a seguir:
 
 6. A ordem inclui o produto X-100, o produto está sendo enviado à França e existe um certificado francês para ele. No entanto, o certificado expirou. Portanto, você recebe a seguinte mensagem de aviso: "Os certificados de uso duplo de um ou mais itens de uso duplo nesta ordem de venda não são válidos. Deseja continuar com a confirmação?"
 
-Este tópico explica como definir todas as configurações necessárias para configurar mercadorias de uso duplo e oferecer suporte a esse cenário.
+Este artigo explica como definir todas as configurações necessárias para configurar mercadorias de uso duplo e oferecer suporte a esse cenário.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Definir requisitos de uso duplo para cada país relevante
 

@@ -1,6 +1,6 @@
 ---
 title: Visão geral da pesquisa habilitada para a nuvem
-description: Este tópico fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 02/28/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850347"
 ---
 # <a name="cloud-powered-search-overview"></a>Visão geral da pesquisa habilitada para a nuvem
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.
+Este artigo fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.
 
 A descoberta de produto ajuda a garantir que clientes podem encontrar produtos rápido e facilmente navegando em categorias, pesquisa e filtros. Os varejistas consideram a descoberta de produtos uma ferramenta principal para a interação do cliente pelos canais da plataforma Cloud Scale Unit (CSU), como comércio eletrônico e ponto de venda (PDV).
 

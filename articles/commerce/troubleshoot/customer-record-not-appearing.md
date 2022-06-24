@@ -1,6 +1,6 @@
 ---
-title: Os registros de clientes não aparecem no Commerce Headquarters
-description: Este tópico fornece orientações de solução de problemas que podem ajudar quando os registros de clientes não aparecem imediatamente no Commerce Headquarters.
+title: Os registros do cliente não aparecem no Commerce headquarters
+description: Este artigo fornece orientações de solução de problemas que podem ajudar quando os registros do cliente não aparecem imediatamente no Commerce headquarters.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,31 +15,31 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f551f94cec71ba7d740756c383b55741e9f8d42e20e63846ea6242383dc3ba32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5cdc96c9829be4d34e9346b2c99d300c2349bc41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876536"
 ---
-# <a name="customer-records-dont-appear-in-commerce-headquarters"></a>Os registros de clientes não aparecem no Commerce Headquarters
+# <a name="customer-records-dont-appear-in-commerce-headquarters"></a>Os registros do cliente não aparecem no Commerce headquarters
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece orientações de solução de problemas que podem ajudar quando os registros de clientes não aparecem imediatamente no Commerce Headquarters.
+Este artigo fornece orientações de solução de problemas que podem ajudar quando os registros do cliente não aparecem imediatamente no Commerce headquarters.
 
 ## <a name="description"></a>descrição
 
-Quando você cria um novo registro de cliente usando o fluxo de inscrição na vitrine de comércio eletrônico, o registro do cliente correspondente não aparece imediatamente no Commerce Headquarters.
+Quando você cria um novo registro do cliente usando o fluxo de inscrição na vitrine de comércio eletrônico, o registro do cliente correspondente não aparece imediatamente no Commerce headquarters.
 
 ## <a name="resolution"></a>Resolução
 
 ### <a name="disable-customer-creation-in-async-mode"></a>Desabilitar a criação de clientes no modo assíncrono
 
 > [!IMPORTANT]
-> Se você desabilitar a criação assíncrona de clientes, o desempenho do sistema poderá ser afetado, pois a criação de cada registro produzirá uma solicitação em tempo real para o Commerce Headquarters. Além disso, se o Commerce Headquarters estiver inoperante (por exemplo, durante os fluxos de serviço), todos os novos fluxos de criação de clientes produzirão erros.
+> Se você desabilitar a criação assíncrona de clientes, o desempenho do sistema poderá ser afetado, pois a criação de cada registro produzirá uma solicitação em tempo real para o Commerce headquarters. Além disso, se o Commerce headquarters estiver inoperante (por exemplo, durante os fluxos de serviço), todos os novos fluxos de criação de clientes produzirão erros.
 
-Para desabilitar a criação de clientes no modo assíncrono no Commerce Headquarters, siga estas etapas.
+Para desabilitar a criação de clientes no modo assíncrono no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Varejo e Comércio \> Configuração de canal \> Configuração da loja online \> Perfis de funcionalidade**.
 1. Se ainda não estiver usando um perfil de funcionalidade para seu canal online, crie um.

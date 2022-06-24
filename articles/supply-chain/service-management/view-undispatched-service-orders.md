@@ -1,6 +1,6 @@
 ---
 title: Exibir ordens de serviço não-expedidas
-description: Este tópico descreve como exibir as atividades em uma ordem de serviço que não têm um trabalhador de uma equipe de expedição atribuído a ela.
+description: Este artigo descreve como exibir as atividades em uma ordem de serviço que não têm um trabalhador de uma equipe de expedição atribuído a ela.
 author: sorenva
 ms.date: 05/07/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8d33e04f85a298bb303f58f763357247e1fdaf3
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c0c70f2aefc4d9613663fa91e7f613dc98f6ae2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877498"
 ---
 # <a name="view-undispatched-service-orders"></a>Exibir ordens de serviço não-expedidas 
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico descreve como exibir as atividades em uma ordem de serviço que não têm um trabalhador de uma equipe de expedição atribuído a ela.
+Este artigo descreve como exibir as atividades em uma ordem de serviço que não têm um trabalhador de uma equipe de expedição atribuído a ela.
 
 1.  Clique em **Gerenciamento de serviço** \> **Periódico** \> **Quadro de expedição**.
 

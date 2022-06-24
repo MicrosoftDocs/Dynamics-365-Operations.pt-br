@@ -1,6 +1,6 @@
 ---
-title: Acordos de gerenciamento de reembolso
-description: Este tópico descreve como criar acordos de gerenciamento de reembolso. Os acordos são usados para controlar diferentes métodos e bases para calcular reembolsos e royalties. Eles incluem regras para inclusões e exclusões.
+title: Negociações de gerenciamento de reembolsos
+description: Este artigo descreve como criar acordos de gerenciamento de reembolso. Os acordos são usados para controlar diferentes métodos e bases para calcular reembolsos e royalties. Eles incluem regras para inclusões e exclusões.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 76cdbf21cfbc0db7b363d0fbf60a1ecd0046efc1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851584"
 ---
 # <a name="rebate-management-deals"></a>Acordos de gerenciamento de reembolso
 
 [!include [banner](../includes/banner.md)]
 
-Os acordos de gerenciamento de reembolso são usados para controlar diferentes métodos e bases para calcular reembolsos e royalties. Eles incluem regras para inclusões e exclusões. Há três tipos de acordos de gerenciamento de reembolso: reembolsos de clientes, royalties de clientes e reembolsos de fornecedores. Os três tipos usam configurações semelhantes. Este tópico indica onde há diferenças.
+Os acordos de gerenciamento de reembolso são usados para controlar diferentes métodos e bases para calcular reembolsos e royalties. Eles incluem regras para inclusões e exclusões. Há três tipos de acordos de gerenciamento de reembolso: reembolsos de clientes, royalties de clientes e reembolsos de fornecedores. Os três tipos usam configurações semelhantes. Este artigo indica onde há diferenças.
 
 ## <a name="create-a-deal"></a>Crie um acordo
 
@@ -118,7 +118,7 @@ A guia **Geral** na FastTab **Detalhes de gerenciamento de reembolso** permite c
 
 | Campo | Descrição |
 |---|---|
-| Método de cálculo | Selecione o método a ser usado quando a linha de negócio selecionada for combinada com outras linhas de negócio (*Em etapas*, *Cumulativa*, *Contínua* ou *Total*). O valor deste campo pode afetar drasticamente o resultado dos cálculos de reembolso. Para obter uma descrição completa de cada método e exemplos que mostrem como ele afeta o cálculo do reembolso, consulte a seção [Métodos de cálculo para linhas de negócio](#calc-methods) mais adiante neste tópico. |
+| Método de cálculo | Selecione o método a ser usado quando a linha de negócio selecionada for combinada com outras linhas de negócio (*Em etapas*, *Cumulativa*, *Contínua* ou *Total*). O valor deste campo pode afetar drasticamente o resultado dos cálculos de reembolso. Para obter uma descrição completa de cada método e exemplos que mostrem como ele afeta o cálculo do reembolso, consulte a seção [Métodos de cálculo para linhas de negócio](#calc-methods) mais adiante neste artigo. |
 | Base | Selecione se o reembolso é aplicado com base na quantidade (ou seja, o número total de unidades que são compradas ou vendidas) ou no valor (ou seja, o preço total dos mercadorias compradas ou vendidas). |
 | Tipo de transação | <p>Selecione o ponto no processo quando o cálculo deverá ocorrer:</p><ul><li>*Ordem* – use a quantidade ou o valor encomendado como a base do cálculo.</li><li>*Entregues* – use a quantidade ou o valor entregue como a base do cálculo.</li><li>*Fatura* – use a quantidade ou o valor faturado como a base do cálculo.</li></ul> |
 | Unidade | Se você selecionou *Quantidade* no campo **Base**, selecione a unidade na qual a quantidade deve ser especificada. |

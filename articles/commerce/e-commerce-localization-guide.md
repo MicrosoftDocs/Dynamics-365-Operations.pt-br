@@ -1,6 +1,6 @@
 ---
 title: Guia de localização de comércio eletrônico do Dynamics 365 Commerce
-description: Este tópico descreve como localizar um site de comércio eletrônico do Microsoft Dynamics 365 Commerce em idiomas adicionais e como configurar o site para oferecer suporte a vários canais.
+description: Este artigo descreve como localizar um site de comércio eletrônico do Microsoft Dynamics 365 Commerce em idiomas adicionais e como configurar o site para oferecer suporte a vários canais.
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873375"
 ---
 # <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Guia de localização de comércio eletrônico do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como localizar um site de comércio eletrônico do Microsoft Dynamics 365 Commerce em idiomas adicionais e como configurar o site para oferecer suporte a vários canais, além de abranger os conceitos e a terminologia relacionados ao processo.
+Este artigo descreve como localizar um site de comércio eletrônico do Microsoft Dynamics 365 Commerce em idiomas adicionais e como configurar o site para oferecer suporte a vários canais, além de abranger os conceitos e a terminologia relacionados ao processo.
 
 Os recursos de comércio eletrônico no Dynamics 365 Commerce foram criados para habilitar experiências online que podem ser adaptadas a países/regiões e idiomas específicos, mas ao mesmo tempo permitindo a reutilização máxima de modelos, páginas, conteúdo e mídia. Você também pode criar um site básico e expandir para novos mercados adicionando suporte para países/regiões e idiomas adicionais ao longo do tempo.
 
@@ -60,14 +60,14 @@ Os domínios são estabelecidos quando você configura o site de comércio eletr
 #### <a name="channel"></a>Canal
 
 - Os canais (também conhecidos como lojas) definem as formas de pagamento, grupos de preços, hierarquias de produtos, sortimentos e produtos para uma vitrine de comércio eletrônico online.
-- Os canais são definidos, configurados e publicados na matriz do Dynamics 365 Commerce.
-- O criador de sites pode detectar as lojas online que foram configuradas na matriz do Commerce e estão disponíveis para serem mapeadas para um site.
+- Os canais são definidos, configurados e publicados no Dynamics 365 Commerce headquarters.
+- O criador de sites pode detectar as lojas online que foram configuradas no Commerce headquarters e estão disponíveis para serem mapeadas para um site.
 
 Para obter mais informações sobre os canais, consulte [Visão geral dos canais](channels-overview.md). Para obter mais informações sobre como configurar um canal online, consulte [Configurar um canal online](channel-setup-online.md).
 
 #### <a name="locale"></a>Localidade
 
-- A localidade é o identificador real usado ao entregar arquivos XLIFF (XML Localization Interchange File Format) para localização. As localidades são definidas e publicadas para cada canal na matriz do Commerce. Para obter informações sobre como configurar idiomas e canais no criador de sites, consulte a próxima seção.
+- A localidade é o identificador real usado ao entregar arquivos XLIFF (XML Localization Interchange File Format) para localização. As localidades são definidas e publicadas para cada canal no Commerce headquarters. Para obter informações sobre como configurar idiomas e canais no criador de sites, consulte a próxima seção.
 - A mesma localidade pode ser mapeada para vários canais. Dessa forma, um idioma comum pode ser oferecido em vários mercados.
 
 ## <a name="configure-languages-and-channels-for-your-e-commerce-site"></a>Configurar idiomas e canais para o site de comércio eletrônico
@@ -79,7 +79,7 @@ Nessa configuração, os clientes e parceiros normalmente desenvolvem todos os a
 ![Site de comércio eletrônico do Dynamics 365 Commerce pronto para uso](media/loc-guide-1.png)
 
 > [!NOTE]
-> Você pode configurar o site de demonstração da Fabrikam para um idioma adicional para que o desenvolvimento de conteúdo possa ser feito nesse idioma. Para obter informações sobre como adicionar um novo idioma a um site e um canal, consulte a seção [Configurar um idioma adicional para o site](#configure-an-additional-language-for-your-site) posteriormente neste tópico.
+> Você pode configurar o site de demonstração da Fabrikam para um idioma adicional para que o desenvolvimento de conteúdo possa ser feito nesse idioma. Para obter informações sobre como adicionar um novo idioma a um site e um canal, consulte a seção [Configurar um idioma adicional para o site](#configure-an-additional-language-for-your-site) posteriormente neste artigo.
 
 No entanto, o sistema de gerenciamento de conteúdo (CMS) e o modelo de página para sites de comércio eletrônico do Dynamics 365 Commerce foram criados para permitir a expansão em novos mercados e localidades. Portanto, por meio de um único site de comércio eletrônico, é possível gerenciar os ativos de uma loja online que abrange vários mercados e idiomas.
 
@@ -89,14 +89,14 @@ No entanto, o sistema de gerenciamento de conteúdo (CMS) e o modelo de página 
 
 O processo de configuração de um novo idioma para um site de comércio eletrônico tem três etapas.
 
-#### <a name="step-1-add-the-language-to-your-channel-online-store-in-commerce-headquarters"></a>Etapa 1: Adicionar o idioma ao canal (loja online) na matriz do Commerce
+#### <a name="step-1-add-the-language-to-your-channel-online-store-in-commerce-headquarters"></a>Etapa 1: Adicionar o idioma ao canal (loja online) no Commerce headquarters
 
-1. Na matriz do Commerce, vá para o canal ao qual deseja adicionar o novo idioma. Para encontrar a lista de canais que você configurou na matriz do Commerce, acesse **Varejo e Comércio \> Canais \> Lojas online**.
+1. No Commerce headquarters, vá para o canal ao qual deseja adicionar o novo idioma. Para encontrar a lista de canais que você configurou no Commerce headquarters, acesse **Varejo e Comércio \> Canais \> Lojas online**.
 1. Abra a loja online mapeada para o site selecionando seu valor de **ID do Canal de Varejo**. Você pode verificar a loja online mapeada para o site abrindo a página de configuração do site **Canais** no criador de sites do Commerce e olhando o nome da loja online na coluna **Canais**. 
 1. Na guia rápida **Idiomas**, selecione **Adicionar**. No campo **Idioma**, selecione o código de localidade para o novo idioma. Selecione **Salvar**.
 1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição** e execute o trabalho **Configuração do canal 1070**. Quando a execução do trabalho terminar, você poderá passar para a etapa 2 e adicionar o idioma a um canal do site no criador de sites.
 
-![Guia rápida Idiomas de uma loja online na matriz do Commerce](media/loc-guide-3.png)
+![Guia rápida Idiomas de uma loja online no Commerce headquarters](media/loc-guide-3.png)
 
 #### <a name="step-2-add-the-language-to-a-channel-in-site-builder"></a>Etapa 2: Adicionar o idioma a um canal no criador de sites
 
@@ -105,7 +105,7 @@ Para adicionar um idioma a um canal no criador de sites, siga estas etapas.
 1. No criador de sites do Commerce, abra o site e abra a página **Canais** nas configurações do site.
 1. Selecione o nome do canal ao qual você deseja adicionar o idioma.
 1. No painel à direita, selecione **Adicionar uma localidade**.
-1. Na caixa de diálogo **Adicionar uma localidade**, em **Adicionar uma localidade**, selecione a localidade do idioma adicionado anteriormente ao canal na matriz do Commerce.
+1. Na caixa de diálogo **Adicionar uma localidade**, em **Adicionar uma localidade**, selecione a localidade do idioma adicionado anteriormente ao canal no Commerce headquarters.
 1. Selecione o domínio e o caminho que os clientes solicitarão para exibir o site neste canal e neste idioma.
 1. Se você quiser que o idioma seja o idioma padrão para exibição, criação e atualização das páginas e fragmentos do criador de sites, marque a caixa de seleção **Usar como idioma padrão de criação de canal**. 
     > [!NOTE]
@@ -117,13 +117,13 @@ Para adicionar um idioma a um canal no criador de sites, siga estas etapas.
 
 Quando você retornar ao modo de exibição **Páginas** no criador de sites do Commerce, o novo idioma estará disponível no seletor de canal e localidade no canto superior direito. Agora é possível criar versões localizadas das páginas no idioma base.
 
-O processo de localização do conteúdo de páginas e fragmentos é abordado na seção [Localizar conteúdo de site de comércio eletrônico](#localize-e-commerce-site-content) posteriormente neste tópico.
+O processo de localização do conteúdo de páginas e fragmentos é abordado na seção [Localizar conteúdo de site de comércio eletrônico](#localize-e-commerce-site-content) posteriormente neste artigo.
 
 ### <a name="configure-a-new-channel-for-your-site"></a>Configurar um novo canal para o site
 
-Os sites de comércio eletrônico do Dynamics 365 Commerce podem fornecer experiências definidas em vários canais online configurados na matriz do Commerce. Um site usa vários canais para mostrar aos clientes uma configuração exclusiva de formas de pagamento, grupos de preços, hierarquias de produtos, sortimentos e um conjunto de produtos. Geralmente, um canal é usado para configurar essas dimensões de acordo com as necessidades e preferências da experiência associada a países/regiões individuais. No entanto, essa abordagem é uma decisão comercial do cliente. Ela não é um requisito.
+Os sites de comércio eletrônico do Dynamics 365 Commerce podem fornecer experiências definidas em vários canais online configurados no Commerce headquarters. Um site usa vários canais para mostrar aos clientes uma configuração exclusiva de formas de pagamento, grupos de preços, hierarquias de produtos, sortimentos e um conjunto de produtos. Geralmente, um canal é usado para configurar essas dimensões de acordo com as necessidades e preferências da experiência associada a países/regiões individuais. No entanto, essa abordagem é uma decisão comercial do cliente. Ela não é um requisito.
 
-Os pré-requisitos e as tarefas associadas à configuração de um canal (loja online) não fazem parte do escopo deste documento. Para obter mais informações sobre como configurar um canal online na matriz do Commerce, consulte [Noções básicas da configuração de canal](channels-overview.md#channel-setup-basics). Para obter informações sobre as etapas e os requisitos específicos para canais online, consulte [Configurar um canal online](channel-setup-online.md).
+Os pré-requisitos e as tarefas associadas à configuração de um canal (loja online) não fazem parte do escopo deste documento. Para obter mais informações sobre como configurar um canal online no Commerce headquarters, consulte [Noções básicas da configuração de canal](channels-overview.md#channel-setup-basics). Para obter informações sobre as etapas e os requisitos específicos para canais online, consulte [Configurar um canal online](channel-setup-online.md).
 
 Para adicionar um canal ao site no criador de sites, siga estas etapas.
 
@@ -156,7 +156,7 @@ Os seguintes ativos do site de comércio eletrônico podem ser localizados no cr
 
 Todas as novas páginas, fragmentos e ativos de mídia são criados no contexto do canal e do idioma selecionados no momento no seletor de canal e localidade. Geralmente, esse idioma é seu "idioma base", desde que você não tenha configurado outros idiomas ou canais. Em sites nos quais vários canais e idiomas são configurados, o "idioma base" é definido pelo canal e pela localidade que você definiu como padrão na página **Canais** nas configurações do site.
 
-As etapas para localizar conteúdo para páginas, fragmentos e ativos de mídia são semelhantes. Exceções e diferenças serão indicadas nas seções a seguir. No entanto, as etapas para localizar o conteúdo do módulo são diferentes. Para obter mais informações, consulte a seção [Localizar módulos](#localize-modules) posteriormente neste tópico.
+As etapas para localizar conteúdo para páginas, fragmentos e ativos de mídia são semelhantes. Exceções e diferenças serão indicadas nas seções a seguir. No entanto, as etapas para localizar o conteúdo do módulo são diferentes. Para obter mais informações, consulte a seção [Localizar módulos](#localize-modules) posteriormente neste artigo.
 
 #### <a name="step-1-export-an-xliff-file"></a>Etapa 1: Exportar um arquivo XLIFF
 

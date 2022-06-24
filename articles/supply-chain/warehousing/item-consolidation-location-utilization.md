@@ -1,6 +1,6 @@
 ---
-title: Consolidação de itens - utilização do local
-description: Este tópico fornece informações sobre a funcionalidade que facilita para os gerentes de depósito exibir e filtrar a utilização volumétrica de locais no depósito. Os gerentes podem selecionar locais e criar um trabalho de movimentação de estoque diretamente na página Consolidação de Itens para consolidar itens e, assim, fazer melhor uso do espaço do depósito.
+title: Consolidação do item — utilização do local
+description: Este artigo fornece informações sobre a funcionalidade que facilita para os gerentes de depósito exibir e filtrar a utilização volumétrica de locais no depósito. Os gerentes podem selecionar locais e criar um trabalho de movimentação de estoque diretamente na página Consolidação de Itens para consolidar itens e, assim, fazer melhor uso do espaço do depósito.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849174"
 ---
-# <a name="item-consolidation---location-utilization"></a>Consolidação de itens - utilização do local
+# <a name="item-consolidation---location-utilization"></a>Consolidação do item — utilização do local
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre a funcionalidade que facilita para os gerentes de depósito exibir e filtrar a utilização volumétrica de locais no depósito. Os gerentes podem selecionar locais e criar um trabalho de movimentação de estoque diretamente na página **Consolidação de Itens** para consolidar itens e, assim, fazer melhor uso do espaço do depósito.
+Este artigo fornece informações sobre a funcionalidade que facilita para os gerentes de depósito exibir e filtrar a utilização volumétrica de locais no depósito. Os gerentes podem selecionar locais e criar um trabalho de movimentação de estoque diretamente na página **Consolidação de Itens** para consolidar itens e, assim, fazer melhor uso do espaço do depósito.
 
 ## <a name="turn-on-the-features"></a>Ativar os recursos
 
-Para poder usar os recursos descritos neste tópico, você deve ativá-los no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status dos recursos e ativá-los se necessário. Ative os dois recursos a seguir, na ordem em que aparecem listados. (Os dois recursos são para o módulo **Gerenciamento de depósito**.)
+Para poder usar os recursos descritos neste artigo, você deve ativá-los no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status dos recursos e ativá-los se necessário. Ative os dois recursos a seguir, na ordem em que aparecem listados. (Os dois recursos são para o módulo **Gerenciamento de depósito**.)
 
 1. Status da localização do depósito
 2. Utilização do local de consolidação do item
@@ -51,7 +51,7 @@ Esses campos permitem que os gerentes de depósito tenham uma visão geral melho
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Configurar a consolidação de itens e a utilização do local
 
-Esta seção descreve como preparar o sistema para usar a consolidação de itens e a utilização do local. Os procedimentos usam valores de exemplo dos dados de demonstração padrão. Se você pretende trabalhar no cenário de exemplo fornecido mais adiante neste tópico, selecione a entidade legal **USMF** (que contém os dados de demonstração padrão) e crie cada registro descrito nesta seção. Se você não planeja trabalhar no cenário de exemplo, os valores fornecidos aqui podem ser considerados exemplos dos tipos de configuração que você deve executar para usar os recursos.
+Esta seção descreve como preparar o sistema para usar a consolidação de itens e a utilização do local. Os procedimentos usam valores de exemplo dos dados de demonstração padrão. Se você pretende trabalhar no cenário de exemplo fornecido mais adiante neste artigo, selecione a entidade legal **USMF** (que contém os dados de demonstração padrão) e crie cada registro descrito nesta seção. Se você não planeja trabalhar no cenário de exemplo, os valores fornecidos aqui podem ser considerados exemplos dos tipos de configuração que você deve executar para usar os recursos.
 
 ### <a name="released-product"></a>Produto liberado
 

@@ -1,6 +1,6 @@
 ---
 title: Alterar ordens intercompanhia
-description: Este tópico explica a funcionalidade de alteração de ordens intercompanhia
+description: Este artigo explica a funcionalidade de alteração de ordens intercompanhia
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 10efc397c64833785f286983987fd05854a69c0f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f139678fbb59b9132ece1ab758e141ec7cdb7a19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852176"
 ---
 # <a name="change-intercompany-orders"></a>Alterar ordens intercompanhia
 

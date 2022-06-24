@@ -1,6 +1,6 @@
 ---
 title: Criar páginas de comércio eletrônico dinâmicas com base nos parâmetros da URL
-description: Este tópico descreve como configurar uma página de comércio eletrônico do Microsoft Dynamics 365 Commerce que pode fornecer conteúdo dinâmico, com base em parâmetros de URL.
+description: Este artigo descreve como configurar uma página de comércio eletrônico do Microsoft Dynamics 365 Commerce que pode fornecer conteúdo dinâmico, com base em parâmetros de URL.
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884654"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Criar páginas de comércio eletrônico dinâmicas com base nos parâmetros da URL
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tópico descreve como configurar uma página de comércio eletrônico do Microsoft Dynamics 365 Commerce que pode fornecer conteúdo dinâmico, com base em parâmetros de URL.
+Este artigo descreve como configurar uma página de comércio eletrônico do Microsoft Dynamics 365 Commerce que pode fornecer conteúdo dinâmico, com base em parâmetros de URL.
 
 Uma página de comércio eletrônico pode ser configurada para fornecer conteúdo diferente, com base em um segmento no caminho da URL. Portanto, a página é conhecida como uma página dinâmica. O segmento é usado como um parâmetro para recuperar o conteúdo da página. Por exemplo, uma página criada no construtor de sites e nomeada **blog\_viewer** é mapeada para a URL `https://fabrikam.com/blog`. Essa página pode ser usada para mostrar conteúdo diferente, com base no último segmento do caminho da URL. Por exemplo, o último segmento na URL `https://fabrikam.com/blog/article-1` é o **artigo-1**.
 

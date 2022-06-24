@@ -1,6 +1,6 @@
 ---
 title: Configuração do projeto da ordem de serviço
-description: Este tópico explica a configuração de projeto de ordem de serviço no Gerenciamento de Ativos.
+description: Este artigo explica a configuração de projeto de ordem de serviço no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31d8f42eb5753ea2656d502d2670a6cf7683c0f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874120"
 ---
 # <a name="work-order-project-setup"></a>Configuração do projeto da ordem de serviço
 
@@ -80,7 +80,7 @@ A configuração permite a integração completa com o módulo **Gerenciamento e
 ![Página de configuração do projeto das ordens de serviço, Adicionar ordem de serviço.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
-> Sempre que uma linha de ordem de serviço for criada, o Gerenciamento de Ativos pesquisa um grupo de projetos que deverá ser relacionado ao projeto de trabalho de ordem de serviço. A pesquisa baseia-se na configuração descrita neste tópico. Todos os grupos de projetos têm um tipo de projeto relacionado. Os grupos de projetos com o tipo de projeto **Tempo e material** ou **Preço fixo** são válidos somente para ativos relacionados a uma conta de cliente.
+> Sempre que uma linha de ordem de serviço for criada, o Gerenciamento de Ativos pesquisa um grupo de projetos que deverá ser relacionado ao projeto de trabalho de ordem de serviço. A pesquisa baseia-se na configuração descrita neste artigo. Todos os grupos de projetos têm um tipo de projeto relacionado. Os grupos de projetos com o tipo de projeto **Tempo e material** ou **Preço fixo** são válidos somente para ativos relacionados a uma conta de cliente.
 >
 > Para projetos principais e grupos de projetos, quando o sistema seleciona o projeto de ordem de serviço ou o grupo de projetos disponíveis, a seleção baseia-se nos registros criados usando o procedimento anterior. O Gerenciamento de Ativos repassa os registros relacionados ao projeto de ordem de serviço para verificar se há uma possível correspondência. Ele sempre verifica a combinação mais específica primeiro. Ou seja, para o projeto principal de ordem de serviço, o Gerenciamento de Ativos primeiro verifica se há uma possível correspondência para o campo **Ativo**. Se nenhuma correspondência for encontrada, ele verificará se há uma correspondência para o campo **Tipo de ativo**. Se nenhuma correspondência for encontrada, ele verificará se há uma correspondência para o campo **Local funcional** e assim em diante. Como você pode perceber no layout da página **Configuração de projeto de ordem de serviço**, esse comportamento significa que, para encontrar a combinação mais específica, o Gerenciamento de Ativos verifica cada registro da direita para a esquerda em busca de uma correspondência. Se nenhuma correspondência for encontrada, o registro padrão onde somente uma ID do projeto está selecionada será usado. O processo para encontrar o grupo de projetos relacionado é semelhante. O Gerenciamento de Ativos primeiro verifica se há uma possível correspondência para o campo **Ativo** e, em seguida, o campo **Tipo de ativo** e depois o campo **Tipo de ordem de serviço**. Se nenhuma correspondência for encontrada, o registro padrão onde somente um grupo de projetos está selecionado será usado.
 

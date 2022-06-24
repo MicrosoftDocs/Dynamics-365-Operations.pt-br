@@ -1,6 +1,6 @@
 ---
 title: Carregar e fornecer arquivos estáticos
-description: Este tópico descreve como carregar um arquivo estático no assistente para construtor de sites do Microsoft Dynamics 365 Commerce e como criar uma URL personalizada e um nome de arquivo que podem ser usados para solicitar esse arquivo.
+description: Este artigo descreve como carregar um arquivo estático no construtor de sites do Microsoft Dynamics 365 Commerce e como criar uma URL personalizada e um nome de arquivo que podem ser usados para solicitar esse arquivo.
 author: StuHarg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885313"
 ---
 # <a name="upload-and-serve-static-files"></a>Carregar e fornecer arquivos estáticos
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como carregar um arquivo estático no assistente para construtor de sites do Microsoft Dynamics 365 Commerce e como criar uma URL personalizada e um nome de arquivo que podem ser usados para solicitar esse arquivo.
+Este artigo descreve como carregar um arquivo estático no construtor de sites do Microsoft Dynamics 365 Commerce e como criar uma URL personalizada e um nome de arquivo que podem ser usados para solicitar esse arquivo.
 
-Alguns conectores de terceiros exigem que um arquivo seja hospedado e fornecido usando o site de comércio eletrônico. Esses conectores esperam que o arquivo seja retornado por solicitações a um caminho de URL de retorno de chamada e nome de arquivo específicos. Portanto, este tópico explica como carregar e fornecer um arquivo estático que possui uma URL e um nome de arquivo definidos pelo usuário em um site de comércio eletrônico do Dynamics 365 Commerce.
+Alguns conectores de terceiros exigem que um arquivo seja hospedado e fornecido usando o site de comércio eletrônico. Esses conectores esperam que o arquivo seja retornado por solicitações a um caminho de URL de retorno de chamada e nome de arquivo específicos. Portanto, este artigo explica como carregar e fornecer um arquivo estático que possui uma URL e um nome de arquivo definidos pelo usuário em um site de comércio eletrônico do Dynamics 365 Commerce.
 
 ## <a name="create-a-site-url-that-returns-a-static-file"></a>Criar uma URL de site que retorne um arquivo estático
 
@@ -86,7 +86,7 @@ Depois que uma URL é criada, seu caminho não pode ser alterado. Se você preci
 
 Para alterar o caminho do URL, siga estas etapas:
 
-1. Para criar uma nova URL e mapeá-la para o arquivo existente ou outro recurso, siga as instruções na seção [Criar uma URL de site que retorna um arquivo estático](#create-a-site-url-that-returns-a-static-file) anteriormente neste tópico.
+1. Para criar uma nova URL e mapeá-la para o arquivo existente ou outro recurso, siga as instruções na seção [Criar uma URL de site que retorna um arquivo estático](#create-a-site-url-that-returns-a-static-file) anteriormente neste artigo.
 1. Selecione a novo URL e selecione **Publicar** na barra de comandos. A nova URL é publicada.
 1. Para cancelar a publicação da URL antiga, selecione-a e depois escolha **Cancelar publicação** na barra de comandos. Agora é possível excluir a URL antiga, se desejar.
 

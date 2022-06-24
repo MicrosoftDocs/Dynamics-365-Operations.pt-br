@@ -1,6 +1,6 @@
 ---
 title: Programações de alterações disponíveis e disponível para promessa da Visibilidade de Estoque
-description: Este tópico descreve como programar as alterações disponíveis futuras e calcular as quantidades de (ATP) disponível-para-promessa.
+description: Este artigo descreve como programar as alterações disponíveis futuras e calcular as quantidades de (ATP) disponível-para-promessa.
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856183"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Programações de alterações disponíveis e disponível para promessa da Visibilidade de Estoque
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar o recurso *programação de alteração disponível* para programar alterações futuras disponíveis e calcular quantidades disponíveis para promessa (ATP). ATP é a quantidade de um item que está disponível e pode ser prometida a um cliente no próximo período. O uso deste cálculo pode aumentar bastante o recurso de atendimento da ordem.
+Este artigo descreve como configurar o recurso *programação de alteração disponível* para programar alterações futuras disponíveis e calcular quantidades disponíveis para promessa (ATP). ATP é a quantidade de um item que está disponível e pode ser prometida a um cliente no próximo período. O uso deste cálculo pode aumentar bastante o recurso de atendimento da ordem.
 
 Para muitos fabricantes, varejistas ou vendedores, não basta saber o que está disponível no momento. Eles devem ter visibilidade total da disponibilidade futura. Essa disponibilidade futura deve considerar o futuro, a demanda futura e ATP.
 

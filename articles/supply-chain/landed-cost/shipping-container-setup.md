@@ -1,6 +1,6 @@
 ---
 title: Contêineres de remessa
-description: Este tópico descreve como configurar contêineres de remessa para o módulo Custo de entrega.
+description: Este artigo descreve como configurar contêineres de remessa para o módulo Custo de entrega.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 96710cf2b5a2e39f9492aadb0ba6f3241f0666f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 345f815a4f85db30db18aba3f8a4d41835c2e3f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860832"
 ---
 # <a name="shipping-container-setup"></a>Configuração de contêineres de remessa
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como configurar contêineres de remessa para o módulo **Custo de entrega**.
+Este artigo descreve como configurar contêineres de remessa para o módulo **Custo de entrega**.
 
 ## <a name="set-up-shipping-container-types"></a><a id="shipping-container-types"></a>Configurar tipos de contêineres de remessa
 
@@ -53,7 +53,7 @@ Para trabalhar com contêineres de remessa, Acesse **Custo de entrega \> Configu
 | Campo | descrição |
 |---|---|
 | Contêiner de remessa | Insira um nome/número de identificação exclusivo para o contêiner de remessa. |
-| Tipo de contêiner de remessa | Selecione o tipo de contêiner de remessa. Para obter mais informações, consulte a seção [Configurar tipos de contêineres de remessa](#shipping-container-types) anteriormente neste tópico. |
+| Tipo de contêiner de remessa | Selecione o tipo de contêiner de remessa. Para obter mais informações, consulte a seção [Configurar tipos de contêineres de remessa](#shipping-container-types) anteriormente neste artigo. |
 
 > [!NOTE]
 > - A configuração de contêineres de remessa é opcional. Normalmente, ela será usada somente se a empresa tiver seus próprios contêineres de remessa ou reutilizar os mesmos contêineres de remessa com frequência.

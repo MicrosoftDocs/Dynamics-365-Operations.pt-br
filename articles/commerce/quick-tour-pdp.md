@@ -1,6 +1,6 @@
 ---
 title: Visão geral das páginas de detalhes do produto
-description: Este tópico fornece uma visão geral das páginas de detalhes do produto (PDPs) no Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral das páginas de detalhes do produto (PDPs) no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884276"
 ---
 # <a name="product-details-pages-overview"></a>Visão geral das páginas de detalhes do produto
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral das páginas de detalhes do produto (PDPs) no Microsoft Dynamics 365 Commerce.
+Este artigo fornece uma visão geral das páginas de detalhes do produto (PDPs) no Microsoft Dynamics 365 Commerce.
 
 Uma PDP fornece informações detalhadas sobre um produto e permite que os clientes selecionem opções de produtos, como tamanho, estilo e cor. Uma PDP deve mostrar todas as informações do produto que um cliente precisa para tomar uma decisão de compra.
 
@@ -35,7 +35,7 @@ A ilustração a seguir mostra um exemplo de uma PDP.
 
 ## <a name="header-and-footer-modules"></a>Módulos de cabeçalho e rodapé
 
-A parte superior de uma PDP possui um cabeçalho que mostra todas as categorias de produtos e outras páginas pelas quais o varejista deseja que os clientes naveguem. A parte inferior da página possui um rodapé que contém links rápidos para vários tópicos que podem interessar aos clientes.
+A parte superior de uma PDP possui um cabeçalho que mostra todas as categorias de produtos e outras páginas pelas quais o varejista deseja que os clientes naveguem. A parte inferior da página possui um rodapé que contém links rápidos para vários artigos que podem interessar aos clientes.
 
 ## <a name="buy-box-module"></a>Módulo de caixa de compra
 

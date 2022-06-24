@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes sobre o custo de estoque
-description: Este tópico fornece respostas a algumas perguntas frequentes sobre custo de estoque no Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo fornece respostas a algumas perguntas frequentes sobre custo de estoque no Microsoft Dynamics 365 Supply Chain Management.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809279"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850834"
 ---
 # <a name="inventory-costing-faq"></a>Perguntas frequentes sobre o custo de estoque
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece respostas a algumas perguntas frequentes sobre custo de estoque no Microsoft Dynamics 365 Supply Chain Management.
+Este artigo fornece respostas a algumas perguntas frequentes sobre custo de estoque no Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Fechamento, ajuste e recálculo de estoque
 
@@ -359,7 +359,7 @@ Recomendamos que você monitore frequentemente e corrija o estoque negativo quan
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>Tenho que criar um item se meu estoque ficar negativo e usar a média móvel?
 
-Não. Se a sua organização permitir que o estoque fique fisicamente negativo e você estiver usando a média móvel como seu modelo de estoque, o sistema usará a sequência de custos de fallback atribuída na página **Parâmetros de gerenciamento de estoque e depósito** para determinar como o custo será atribuído às suas saídas. Em geral, recomendamos que você evite permitir que seu estoque fique fisicamente negativo. Para obter mais informações, consulte outras perguntas na seção [Estoque negativo](#negative-inventory) deste tópico.
+Não. Se a sua organização permitir que o estoque fique fisicamente negativo e você estiver usando a média móvel como seu modelo de estoque, o sistema usará a sequência de custos de fallback atribuída na página **Parâmetros de gerenciamento de estoque e depósito** para determinar como o custo será atribuído às suas saídas. Em geral, recomendamos que você evite permitir que seu estoque fique fisicamente negativo. Para obter mais informações, consulte outras perguntas na seção [Estoque negativo](#negative-inventory) deste artigo.
 
 ## <a name="not-stocked-products"></a>Produtos não estocados
 
@@ -433,7 +433,7 @@ Se houver uma diferença de preço entre o lançamento de uma atualização fís
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Quando uso a média móvel, o que acontecerá se houver uma saída antes do recebimento?
 
-Normalmente, talvez haja uma saída antes do recebimento porque você permite que o estoque fique negativo para o grupo de modelos de item ou porque a saída tem data retroativa. Para obter mais informações, consulte a seção [Estoque negativo](#negative-inventory) deste tópico.
+Normalmente, talvez haja uma saída antes do recebimento porque você permite que o estoque fique negativo para o grupo de modelos de item ou porque a saída tem data retroativa. Para obter mais informações, consulte a seção [Estoque negativo](#negative-inventory) deste artigo.
 
 Se você está fazendo transações com data retroativa, recomendamos que você considere cuidadosamente seu processo empresarial e suas operações para determinar se há uma maneira de evitar esse cenário. Se você fizer uma transação com data retroativa para um item que usa média móvel, o sistema atribuirá a média móvel atual à transação. As saídas posteriores não serão ajustadas. Para obter mais informações sobre média móvel com transações com data retroativa, consulte [Média móvel](moving-average.md).
 

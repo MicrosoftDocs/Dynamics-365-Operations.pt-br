@@ -1,6 +1,6 @@
 ---
 title: Fluxos de trabalho de acordos de gerenciamento de reembolso
-description: Este tópico explica como configurar um fluxo de trabalho de Acordo de gerenciamento de reembolso para aprovar e ativar acordos.
+description: Este artigo explica como configurar um fluxo de trabalho de Acordo de gerenciamento de reembolso para aprovar e ativar acordos.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2b1611ff7877efc4a2f98b8f84a1ef91971902ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869507"
 ---
 # <a name="rebate-management-deal-workflows"></a>Fluxos de trabalho de acordos de gerenciamento de reembolso
 
@@ -35,7 +35,7 @@ Os usuários não podem aprovar negociações manualmente. O fluxo de trabalho d
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Criar e gerenciar fluxos de trabalho de Acordo de gerenciamento de reembolso
 
-Para trabalhar com fluxos de trabalho de Acordo de gerenciamento de reembolso, acesse **Gerenciamento de reembolso \> Configuração \> Fluxos de trabalho de gerenciamento de reembolso**. Aqui você pode exibir, criar e atualizar fluxos de trabalho, conforme necessário. Só é possível ativar um fluxo de trabalho deste tipo de cada vez. Para obter mais informações sobre fluxos de trabalho, como trabalhar com a página **Fluxos de trabalho de gerenciamento de reembolso** e como criar fluxos de trabalho, consulte [Visão geral do sistema de fluxo de trabalho](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) e os tópicos relacionados.
+Para trabalhar com fluxos de trabalho de Acordo de gerenciamento de reembolso, acesse **Gerenciamento de reembolso \> Configuração \> Fluxos de trabalho de gerenciamento de reembolso**. Aqui você pode exibir, criar e atualizar fluxos de trabalho, conforme necessário. Só é possível ativar um fluxo de trabalho deste tipo de cada vez. Para obter mais informações sobre fluxos de trabalho, como trabalhar com a página **Fluxos de trabalho de gerenciamento de reembolso** e como criar fluxos de trabalho, consulte [Visão geral do sistema de fluxo de trabalho](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) e os artigos relacionados.
 
 ## <a name="use-a-workflow-to-activate-a-deal"></a>Use um fluxo de trabalho para ativar um acordo
 

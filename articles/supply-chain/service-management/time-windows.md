@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857e9e023aa5648a06ae564936f06c491ea7cefc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ccbb9cf71ff1df7aa336deb5bf9d7dacb8004134
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862385"
 ---
 # <a name="time-windows"></a>Janelas de horas  
 
@@ -38,7 +38,7 @@ As janelas de tempo definem até que ponto uma linha de ordem de serviço pode s
 
 Se uma janela de tempo não for especificada para uma linha de contrato de serviço, a linha da ordem de serviço que deriva do contrato deverá ser executada na data exata em que foi programada inicialmente.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Criar janelas de horas](create-time-windows.md)
 

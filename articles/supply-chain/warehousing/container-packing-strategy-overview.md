@@ -1,6 +1,6 @@
 ---
 title: Estratégias de embalagem de contêineres
-description: Este tópico descreve as diferenças entre as estratégias de embalagem de contêineres e fornece exemplos.
+description: Este artigo descreve as diferenças entre as estratégias de embalagem de contêineres e fornece exemplos.
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862356"
 ---
 # <a name="container-packing-strategies"></a>Estratégias de embalagem de contêineres
 
 [!include [banner](../includes/banner.md)]
 
-Uma *estratégia de embalagem de contêineres* é uma estratégia que você pode usar para definir alocações de itens entre contêineres. Este tópico explica as diferenças entre as estratégias *Embalar em todos os contêineres abertos* e *Embalar somente no contêiner atual*.
+Uma *estratégia de embalagem de contêineres* é uma estratégia que você pode usar para definir alocações de itens entre contêineres. Este artigo explica as diferenças entre as estratégias *Embalar em todos os contêineres abertos* e *Embalar somente no contêiner atual*.
 
 - **Embalar em todos os contêineres abertos** – O sistema deve verificar todos os contêineres abertos que já foram criados durante o ciclo de transporte em contêiner, para garantir que o item caberá em um deles. Durante a embalagem, o sistema verifica cada item para determinar se ele caberá em algum dos contêineres criados anteriormente. Se o item não couber em um contêiner existente, o sistema cria um novo contêiner e continua até terminar de embalar todo o pedido.
 

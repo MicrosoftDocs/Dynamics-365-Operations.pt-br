@@ -1,6 +1,6 @@
 ---
 title: Mostrar descontos no PDV
-description: Este tópico explica como o Microsoft Dynamics 365 Commerce ajuda os representantes de vendas a aprender sobre promoções e como elas podem ser usadas para vendas cruzadas e vendas adicionais.
+description: Este artigo explica como o Microsoft Dynamics 365 Commerce ajuda os representantes de vendas a aprender sobre promoções e como elas podem ser usadas para vendas cruzadas e vendas adicionais.
 author: ShalabhjainMSFT
 ms.date: 07/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3ec16c5051088ed2777309899b26094e8d67743
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878531"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrar descontos em PDV
 
 [!include [banner](includes/banner.md)]
 
-As promoções exercem um papel importante na motivação de clientes que estão fazendo decisões de compra. Por exemplo, os feriados podem gerar o maior número de vendas para varejistas, pois todo o mercado de varejo é inundado com promoções e descontos atraentes. Se os associados da loja souberem e entenderem as promoções disponíveis, eles poderão aproveitar facilmente as promoções para realizar venda adicional e venda cruzada de itens. Este tópico explica como o Microsoft Dynamics 365 Commerce ajuda os representantes de vendas a aprender sobre promoções e como elas podem ser usadas para vendas cruzadas e vendas adicionais.
+As promoções exercem um papel importante na motivação de clientes que estão fazendo decisões de compra. Por exemplo, os feriados podem gerar o maior número de vendas para varejistas, pois todo o mercado de varejo é inundado com promoções e descontos atraentes. Se os associados da loja souberem e entenderem as promoções disponíveis, eles poderão aproveitar facilmente as promoções para realizar venda adicional e venda cruzada de itens. Este artigo explica como o Microsoft Dynamics 365 Commerce ajuda os representantes de vendas a aprender sobre promoções e como elas podem ser usadas para vendas cruzadas e vendas adicionais.
 
 ## <a name="learn-about-store-discounts"></a>Aprender sobre descontos de armazenamento
 

@@ -1,6 +1,6 @@
 ---
 title: Reconciliar frete no gerenciamento de transporte
-description: Este tópico descreve o processo de reconciliação de frete.
+description: Este artigo descreve o processo de reconciliação de frete.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520a0fc78a136b416c943cfb72db1b2be7d2ed0c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ff29de62de12e8ca8bea0f374921a51b5819222e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844213"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Reconciliar frete no gerenciamento de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o processo de reconciliação de frete.
+Este artigo descreve o processo de reconciliação de frete.
 
 Reconciliação de frete pode ser feita manualmente, ou pode ser configurada para ocorrer automaticamente. Para usar a reconciliação automática de frete, você deve configurar um mestre de auditoria em que você possa definir os critérios que determinam quais listas de frete são comparadas automaticamente.
 

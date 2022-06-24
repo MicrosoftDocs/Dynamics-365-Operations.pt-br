@@ -1,6 +1,6 @@
 ---
 title: Verificação de integridade para serviços e periféricos PDV
-description: Este tópico fornece uma visão geral da operação de verificação de integridade no ponto de venda (PDV).
+description: Este artigo fornece uma visão geral da operação de verificação de integridade no ponto de venda (PDV).
 author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 44fd4b6246d3d7947527416c2b8b447bd64f179f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863312"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Verificação de integridade para serviços e periféricos PDV
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve a operação de verificação de integridade no ponto de venda (PDV).
+Este artigo descreve a operação de verificação de integridade no ponto de venda (PDV).
 
 ## <a name="overview"></a>Visão Geral
 
@@ -39,11 +39,11 @@ As versões 10.0.10 e posteriores do Microsoft Dynamics 365 Commerce incluem uma
 | Termo | descrição |
 |---|---|
 | Periférico | Qualquer dispositivo que o aplicativo PDV use para facilitar transações e outras operações no armazenamento. Exemplos incluem caixa registradora, scanners de código de barras e terminais de pagamento. |
-| Serviço | Neste tópico, um serviço é um aplicativo auxiliar do qual o aplicativo PDV depende para realizar transações e operações diárias. Exemplos incluem aplicativos que ajudam com cálculos de impostos ou remessas. |
+| Serviço | Neste artigo, um serviço é um aplicativo auxiliar do qual o aplicativo PDV depende para realizar transações e operações diárias. Exemplos incluem aplicativos que ajudam com cálculos de impostos ou remessas. |
 
 ## <a name="health-check-operation"></a>Operação de verificação de integridade
 
-A operação de verificação de integridade é a operação 717 na página **Operações de PDV** nas sedes de comércio. Ele pode ser usado enquanto o PDV estiver no modo não sacador. No entanto, uma estação de hardware deve estar ativa.
+A operação de verificação de integridade é a operação 717 na página **Operações de PDV** no Commerce headquarters. Ele pode ser usado enquanto o PDV estiver no modo não sacador. No entanto, uma estação de hardware deve estar ativa.
 
 Por padrão, a verificação de integridade testa somente os dispositivos que estão configurados no perfil de hardware para a estação de hardware ativa no momento de uma registradora. Se um registro usar várias estações de hardware durante um dia, para realizar verificações de integridade para todas elas, ele deve se conectar a uma estação de hardware por vez. Não há verificação de integridade no nível de armazenamento. No entanto, é possível que esse tipo de verificação possa ser feito por meio da extensibilidade do Commerce Server.
 

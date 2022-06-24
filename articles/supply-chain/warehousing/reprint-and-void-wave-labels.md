@@ -1,6 +1,6 @@
 ---
-title: Reimprimir e anular etiquetas de onda
-description: Este tópico explica como anular e reimprimir etiquetas de onda existentes.
+title: Reimprimir e anular etiquetas de ciclo
+description: Este artigo explica como anular e reimprimir etiquetas de onda existentes.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871823"
 ---
-# <a name="reprint-and-void-wave-labels"></a>Reimprimir e anular etiquetas de onda
+# <a name="reprint-and-void-wave-labels"></a>Reimprimir e anular etiquetas de ciclo
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como gerenciar etiquetas geradas pelo processamento de ondas. (Para obter uma descrição detalhada e instruções de configuração, consulte [Configurar a impressão de etiquetas de onda](../warehousing/configure-wave-label-printing.md) .)
+Este artigo explica como gerenciar etiquetas geradas pelo processamento de ondas. (Para obter uma descrição detalhada e instruções de configuração, consulte [Configurar a impressão de etiquetas de onda](../warehousing/configure-wave-label-printing.md) .)
 
 Você pode reimprimir etiquetas de onda a qualquer momento. Por exemplo, talvez você precise imprimir uma única etiqueta se uma etiqueta existente foi perdida ou danificada. Como alternativa, um funcionário ou supervisor de depósito pode ter que reimprimir um rolo inteiro de etiquetas se o número e/ou a composição de uma série inteira de etiquetas de onda for alterada (por exemplo, devido a escassez de estoque ou outros motivos). Geralmente, mesmo que somente o número de caixas tenha sido alterado, o rolo todo deve ser reimpresso para manter o número total preciso na seção "Caixa X de Y" de cada etiqueta.
 
@@ -32,10 +32,10 @@ O recurso de reimpressão de etiquetas de onda oferece suporte às seguintes fun
 - Anular etiquetas e reimprimi-las simultaneamente. (A capacidade de anular etiquetas é incorporada a cenários de separação insuficiente, por exemplo.)
 - Limpar o histórico de etiquetas de onda.
 
-Este tópico apresenta um conjunto de cenários que mostram, por meio de exemplos, como trabalhar com o recurso de reimpressão de etiquetas de ondas.
+Este artigo apresenta um conjunto de cenários que mostram, por meio de exemplos, como trabalhar com o recurso de reimpressão de etiquetas de ondas.
 
 > [!IMPORTANT]
-> Para trabalhar nos cenários apresentados neste tópico, você deve primeiramente ativar e configurar os recursos de impressão de onda relevantes, conforme descrito em [Configurar a impressão de etiquetas de onda](../warehousing/configure-wave-label-printing.md). Vários cenários neste tópico também exigem que você trabalhe primeiro com os cenários neste tópico para gerar os dados de exemplo de pré-requisito.
+> Para trabalhar nos cenários apresentados neste artigo, você deve primeiramente ativar e configurar os recursos de impressão de onda relevantes, conforme descrito em [Configurar a impressão de etiquetas de onda](../warehousing/configure-wave-label-printing.md). Vários cenários neste artigo também exigem que você trabalhe primeiro com os cenários neste artigo para gerar os dados de exemplo de pré-requisito.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Cenário 1: reimprimir etiquetas por meio do cliente Web
 

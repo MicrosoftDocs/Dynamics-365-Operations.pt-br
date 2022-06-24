@@ -1,6 +1,6 @@
 ---
 title: Contar estoque em um depósito
-description: Este tópico descreve o processo de criação e lançamento de um diário de contagem de estoque para que um item específico em um local do depósito seja contabilizado.
+description: Este artigo descreve o processo de criação e lançamento de um diário de contagem de estoque para que um item específico em um local do depósito seja contabilizado.
 author: yufeihuang
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7dd3788d3cbf80bfba373f5b6ce9d2e0ca0c07
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7c8712b88867dc4be48bbdb4b905993e3ccbc73f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870627"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Contar estoque em um depósito
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve o processo de criação e lançamento de um diário de contagem de estoque para que um item específico em um local do depósito seja contabilizado. O procedimento é aplicado à funcionalidade de "armazenamento básico", disponível no módulo Gerenciamento de estoque, não à funcionalidade de armazenamento que está disponível no módulo Gerenciamento de depósito. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Se estiver usando seus próprios dados, certifique-se de que os produtos e localizações estão configurados e que você criou um nome de diário de estoque para diários de contagem. A contagem de estoque costuma ser realizada por um funcionário de depósito.
+Este artigo descreve o processo de criação e lançamento de um diário de contagem de estoque para que um item específico em um local do depósito seja contabilizado. O procedimento é aplicado à funcionalidade de "armazenamento básico", disponível no módulo Gerenciamento de estoque, não à funcionalidade de armazenamento que está disponível no módulo Gerenciamento de depósito. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Se estiver usando seus próprios dados, certifique-se de que os produtos e localizações estão configurados e que você criou um nome de diário de estoque para diários de contagem. A contagem de estoque costuma ser realizada por um funcionário de depósito.
 
 
 ## <a name="create-an-inventory-counting-journal"></a>Criar diário de contagem de estoque

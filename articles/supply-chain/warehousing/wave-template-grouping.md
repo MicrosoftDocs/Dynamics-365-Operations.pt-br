@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851236"
 ---
 # <a name="wave-template-grouping"></a>Agrupamento de modelos de onda
 
@@ -41,7 +41,7 @@ Para você usar o recurso *Agrupamento de modelos de onda*, ele deve estar ativa
 Para disponibilizar o agrupamento de modelos de onda, siga estas etapas para configurar o [modelo de onda](tasks/configure-wave-processing.md).
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
-1. No painel esquerdo, selecione o modelo de onda a ser configurado. Se você estiver se preparando para trabalhar no cenário mais adiante neste tópico usando dados de demonstração, selecione o modelo **Padrão de remessa 62**.
+1. No painel esquerdo, selecione o modelo de onda a ser configurado. Se você estiver se preparando para trabalhar no cenário mais adiante neste artigo usando dados de demonstração, selecione o modelo **Padrão de remessa 62**.
 1. Selecione **Editar** para colocar a página no modo de edição.
 1. Na FastTab **Geral**, defina os seguintes valores:
 
@@ -84,7 +84,7 @@ Você também pode usar este cenário como orientação para usar o recurso ao t
 
 Este cenário mostra como usar o agrupamento de modelos de onda para criar automaticamente várias ondas, com base em critérios de agrupamento definidos em um modelo de onda. Neste cenário, o modelo de onda é configurado no sistema para criar uma onda por serviço de operadora.
 
-Antes de começar, prepare o modelo de onda, conforme descrito na seção [Definir um modelo de onda para usar o agrupamento de modelos de onda](#set-up-template) anteriormente neste tópico. Se você estiver trabalhando com dados de demonstração para esse cenário, utilize os valores de dados de demonstração sugeridos no procedimento. Essa configuração agrupará suas ondas de acordo com o serviço da operadora definido para cada ordem de venda.
+Antes de começar, prepare o modelo de onda, conforme descrito na seção [Definir um modelo de onda para usar o agrupamento de modelos de onda](#set-up-template) anteriormente neste artigo. Se você estiver trabalhando com dados de demonstração para esse cenário, utilize os valores de dados de demonstração sugeridos no procedimento. Essa configuração agrupará suas ondas de acordo com o serviço da operadora definido para cada ordem de venda.
 
 #### <a name="create-sales-order-1"></a>Criar ordem de venda 1
 

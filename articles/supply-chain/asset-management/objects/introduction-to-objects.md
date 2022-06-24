@@ -1,6 +1,6 @@
 ---
 title: Introdução aos ativos
-description: Este tópico oferece uma visão geral de ativos em Gerenciamento de Ativos.
+description: Este artigo oferece uma visão geral de ativos em Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874178"
 ---
 # <a name="introduction-to-assets"></a>Introdução aos ativos
 
@@ -30,9 +30,9 @@ ms.locfileid: "6767499"
 
  
 
-Este tópico oferece uma visão geral de ativos em Gerenciamento de Ativos. Um *ativo* é qualquer tipo de equipamento, como uma máquina ou parte da máquina, que exige manutenção, serviço ou reparo.
+Este artigo oferece uma visão geral de ativos em Gerenciamento de Ativos. Um *ativo* é qualquer tipo de equipamento, como uma máquina ou parte da máquina, que exige manutenção, serviço ou reparo.
 
-Um ativo é atualizado automaticamente com informações relacionadas. Por exemplo, essas informações relacionadas podem ser relativas a ordens de serviço novas ou atualizadas. Você pode criar ativos usando o item de menu **Todos os ativos** ou o item de menu **Ativos pendentes**. Este tópico explica como criar ativos usando o item de menu **Todos os ativos**. Para obter informações sobre como criar ativos usando o item de menu **Ativos pendentes**, consulte [Criar ativos com base em ordens de compra](../objects/create-objects-based-on-purchase-orders.md).
+Um ativo é atualizado automaticamente com informações relacionadas. Por exemplo, essas informações relacionadas podem ser relativas a ordens de serviço novas ou atualizadas. Você pode criar ativos usando o item de menu **Todos os ativos** ou o item de menu **Ativos pendentes**. Este artigo explica como criar ativos usando o item de menu **Todos os ativos**. Para obter informações sobre como criar ativos usando o item de menu **Ativos pendentes**, consulte [Criar ativos com base em ordens de compra](../objects/create-objects-based-on-purchase-orders.md).
 
 ## <a name="all-assets"></a>Todos os ativos
 

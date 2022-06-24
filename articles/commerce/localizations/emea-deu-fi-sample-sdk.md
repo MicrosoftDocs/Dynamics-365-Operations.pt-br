@@ -1,6 +1,6 @@
 ---
 title: Diretrizes de implantação para o exemplo de integração do serviço de registro fiscal da Alemanha (herdado)
-description: Este tópico fornece diretrizes para a implantação do exemplo de integração fiscal da Alemanha do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece diretrizes para a implantação do exemplo de integração fiscal da Alemanha do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c49e6cedcce1d336486e9fbcc0620bcdf455cc9d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 9f6ecc715e10538806998459b7fd837648494ad7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845828"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Diretrizes de implantação para o exemplo de integração do serviço de registro fiscal da Alemanha (herdado)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece diretrizes para a implantação do exemplo de integração do serviço de registro fiscal da Alemanha do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce em uma máquina virtual de desenvolvedor (VM) no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre este exemplo de integração fiscal, consulte [Exemplo de integração fiscal da Alemanha](emea-deu-fi-sample.md). 
+Este artigo fornece diretrizes para a implantação do exemplo de integração do serviço de registro fiscal da Alemanha do kit de desenvolvimento de software (SDK) do Retail do Microsoft Dynamics 365 Commerce em uma máquina virtual de desenvolvedor (VM) no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre este exemplo de integração fiscal, consulte [Exemplo de integração fiscal da Alemanha](emea-deu-fi-sample.md). 
 
-O exemplo de integração fiscal da Alemanha faz parte do SDK do Retail. Para obter informações sobre como instalar e usar o SDK, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Este exemplo consiste em extensões para o Commerce Runtime (CRT) e a estação de hardware. Para executar este exemplo, você deve modificar e criar os projetos do CRT e estação de hardware. É recomendável usar um SDK não modificado do Retail para fazer as alterações descritas neste tópico. Também é recomendável usar um sistema de controle do código-fonte, como o Azure DevOps, onde nenhum arquivo foi alterado ainda.
+O exemplo de integração fiscal da Alemanha faz parte do SDK do Retail. Para obter informações sobre como instalar e usar o SDK, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Este exemplo consiste em extensões para o Commerce Runtime (CRT) e a estação de hardware. Para executar este exemplo, você deve modificar e criar os projetos do CRT e estação de hardware. É recomendável usar um SDK não modificado do Retail para fazer as alterações descritas neste artigo. Também é recomendável usar um sistema de controle do código-fonte, como o Azure DevOps, onde nenhum arquivo foi alterado ainda.
 
 ## <a name="development-environment"></a>Ambiente de desenvolvimento
 
@@ -194,7 +194,7 @@ A extensão do CRT é **Runtime.Extensions.DocumentProvider.EFRSample**. Para ob
 
 #### <a name="request-handler"></a>Manipulador de solicitações
 
-Existe um manipulador de solicitações para o provedor de documentos, **DocumentProviderEFRFiscalDEU**. Esse manipulador é usado para gerar documentos fiscais para o serviço de registro fiscal. Ele é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce Headquarters.
+Existe um manipulador de solicitações para o provedor de documentos, **DocumentProviderEFRFiscalDEU**. Esse manipulador é usado para gerar documentos fiscais para o serviço de registro fiscal. Ele é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -203,7 +203,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração **DocumentProviderFiscalEFRSampleGermany** está localizado na pasta **Configuração** do projeto de extensão. A finalidade deste arquivo é habilitar as configurações para que o provedor de documentos seja configurado na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
+O arquivo de configuração **DocumentProviderFiscalEFRSampleGermany** está localizado na pasta **Configuração** do projeto de extensão. A finalidade deste arquivo é habilitar as configurações para que o provedor de documentos seja configurado no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
 
 As seguintes configurações são adicionadas:
 
@@ -221,7 +221,7 @@ A extensão da estação de hardware é **HardwareStation.Extension.EFRSample**.
 
 #### <a name="request-handler"></a>Manipulador de solicitações
 
-O manipulador de solicitações **EFRHandler** é o ponto de entrada para o manuseio de solicitações ao serviço de registro fiscal. Esse manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce Headquarters.
+O manipulador de solicitações **EFRHandler** é o ponto de entrada para o manuseio de solicitações ao serviço de registro fiscal. Esse manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -231,7 +231,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração está localizados na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
+O arquivo de configuração está localizados na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
 
 As seguintes configurações são adicionadas:
 
@@ -245,7 +245,7 @@ A finalidade da extensão do conector fiscal PDV é comunicar-se com o serviço 
 
 #### <a name="fiscal-connector-factory"></a>Fábrica do conector fiscal
 
-A fábrica do conector fiscal mapeia o nome do conector para a implementação do conector fiscal e está localizada no arquivo **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. O nome do conector deve corresponder ao nome do conector fiscal especificado na sede do Commerce.
+A fábrica do conector fiscal mapeia o nome do conector para a implementação do conector fiscal e está localizada no arquivo **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. O nome do conector deve corresponder ao nome do conector fiscal especificado no Commerce headquarters.
 
 #### <a name="efr-fiscal-connector"></a>Conector fiscal EFR
 
@@ -257,7 +257,7 @@ O conector fiscal EFR está localizado no arquivo **Pos.Extension\\Connectors\\E
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração está localizado na pasta **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+O arquivo de configuração está localizado na pasta **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
 
 - **Endereço do ponto de extremidade** – A URL do serviço de registro fiscal.
 - **Tempo limite** – O período, em milissegundos, que o conector aguardará por uma resposta do serviço de registro fiscal.

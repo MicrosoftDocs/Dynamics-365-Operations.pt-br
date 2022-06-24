@@ -1,6 +1,6 @@
 ---
 title: Configurar um locatário B2C do Commerce
-description: Este tópico descreve como configurar os locatários business-to-consumer (B2C) do Azure Active Directory (Azure AD) para a autenticação do site de usuário no Dynamics 365 Commerce.
+description: Este artigo descreve como configurar os locatários business-to-consumer (B2C) do Azure Active Directory (Azure AD) para a autenticação do site de usuário no Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853732"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar um locatário B2C do Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como configurar os locatários business-to-consumer (B2C) do Azure Active Directory (Azure AD) para a autenticação do site de usuário no Dynamics 365 Commerce.
+Este artigo descreve como configurar os locatários business-to-consumer (B2C) do Azure Active Directory (Azure AD) para a autenticação do site de usuário no Dynamics 365 Commerce.
 
 O Dynamics 365 Commerce usa o B2C do Azure AD para oferecer suporte aos fluxos de credenciais e autenticação de usuário. Um usuário pode se inscrever, acessar e redefinir a senha por meio desses fluxos. O B2C do Azure AD armazena informações confidenciais de autenticação do usuário, como nome de usuário e senha. O registro de usuário no locatário B2C armazenará um registro de conta local B2C ou um registro de provedor de identidade social B2C. Esses registros de B2C serão vinculados ao registro do cliente no ambiente do Commerce.
 
@@ -42,7 +42,7 @@ O Dynamics 365 Commerce usa o B2C do Azure AD para oferecer suporte aos fluxos d
 
 Antes de começar, verifique se o seu ambiente do Dynamics 365 Commerce e o canal de comércio eletrônico estão configurados adequadamente ao atender aos pré-requisitos a seguir.
 
-- Defina o valor de **AllowAnonymousAccess** de operações POS como "1" no Commerce Headquarters:
+- Defina o valor de **AllowAnonymousAccess** de operações POS como "1" no Commerce headquarters:
     1. Acesse **Operações de PDV**.
     1. Na grade de operações, clique com o botão direito do mouse e selecione **Personalizar**.
     1. Selecione **Adicionar um campo**.
@@ -50,8 +50,8 @@ Antes de começar, verifique se o seu ambiente do Dynamics 365 Commerce e o cana
     1. Selecione **Atualizar**.
     1. Para a operação de "adição de Cliente" **612**, altere **AllowAnonymousAccess** para "1."
     1. Execute o trabalho **1090 (Registradoras)**.
-- Defina o atributo **Manual** da conta de cliente de sequência numérica como **Não** no Commerce Headquarters:
-    1. Acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros de Contas a receber**.
+- Defina o atributo **Manual** da conta de cliente de sequência numérica como **Não** no Commerce headquarters:
+    1. Acesse **Retail e Commerce \> Configuração do headquarters \> Parâmetros \> Parâmetros de Contas a receber**.
     1. Selecione **Sequências numéricas**.
     1. Na linha **Conta do cliente**, clique duas vezes no valor de **Código de sequência numérica**.
     1. Na Guia Rápida **Geral** da sequência numérica, defina **Manual** como **Não**.
@@ -272,7 +272,7 @@ Para atualizar o headquarters com as novas informações do B2C do Azure AD, sig
 
 1. No Commerce, Acesse **Parâmetros Compartilhados do Commerce** e selecione **Provedores de Identidade** no menu esquerdo.
 1. Em **Provedores de Identidade**, faça o seguinte:
-    1. Na caixa **Emissor**, insira a cadeia de caracteres do emissor do provedor de identidade. Para encontrar a cadeia de caracteres do seu emissor, consulte [Obter cadeia de caracteres do emissor para a configuração da sede](#obtain-issuer-string-for-headquarters-setup) abaixo.
+    1. Na caixa **Emissor**, insira a cadeia de caracteres do emissor do provedor de identidade. Para encontrar a cadeia de caracteres do seu emissor, consulte [Obter cadeia de caracteres do emissor para a configuração do headquarters](#obtain-issuer-string-for-headquarters-setup) abaixo.
     1. Na caixa **Nome**, insira um nome para o registro do emissor.
     1. Na caixa **Tipo**, insira **B2C do Azure AD (id_token)**.
 1. Em **Partes Confiáveis**, com o item do provedor de identidade do B2C acima selecionado, faça o seguinte:
@@ -284,7 +284,7 @@ Para atualizar o headquarters com as novas informações do B2C do Azure AD, sig
 1. No menu de navegação à esquerda da página **Agendas de distribuição**, selecione o trabalho **1110 Configuração global**.
 1. No painel de ação, selecione **Executar Agora**.
 
-### <a name="obtain-issuer-string-for-headquarters-setup"></a>Obter cadeia de caracteres do emissor para a configuração da sede
+### <a name="obtain-issuer-string-for-headquarters-setup"></a>Obter cadeia de caracteres do emissor para a configuração do headquarters
 
 Para obter a cadeia de caracteres do emissor do provedor de identidade, siga estas etapas.
 
@@ -395,7 +395,7 @@ Para inserir um domínio de entrada personalizado no construtor de sites, siga e
 1. Na caixa de diálogo **Editar perfil de autenticação no site**, em **Domínio personalizado de entrada**, insira o seu domínio de entrada personalizado (por exemplo, "login.fabrikam.com").
 
 > [!WARNING]
-> Quando você atualiza para um domínio personalizado para o locatário do Azure AD B2C, a alteração afeta os detalhes do emissor do locatário para o token gerado. Os detalhes do emissor incluirão então o domínio personalizado em vez do domínio padrão fornecido pelo Azure AD B2C. Uma configuração de **Emissor** diferente no Commerce Headquarters (**Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados do Commerce \> Provedores de Identidade**) altera a interação do sistema com os usuários do site, potencialmente criando um novo registro de cliente se um usuário estiver autenticando no novo emissor. Todas as alterações de domínio personalizadas devem ser testadas completamente antes de passarem para o domínio personalizado em um ambiente ativo do Azure AD B2C.
+> Quando você atualiza para um domínio personalizado para o locatário do Azure AD B2C, a alteração afeta os detalhes do emissor do locatário para o token gerado. Os detalhes do emissor incluirão então o domínio personalizado em vez do domínio padrão fornecido pelo Azure AD B2C. Uma configuração de **Emissor** diferente no Commerce headquarters (**Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados do Commerce \> Provedores de Identidade**) altera a interação do sistema com os usuários do site, potencialmente criando um novo registro de cliente se um usuário estiver autenticando no novo emissor. Todas as alterações de domínio personalizadas devem ser testadas completamente antes de passarem para o domínio personalizado em um ambiente ativo do Azure AD B2C.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

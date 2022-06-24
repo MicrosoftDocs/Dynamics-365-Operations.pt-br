@@ -1,6 +1,6 @@
 ---
 title: Estratégia do agente de resolução para configuração de produto
-description: Este tópico descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
+description: Este artigo descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
 author: t-benebo
 ms.date: 02/19/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852350"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estratégia do agente de resolução para configuração de produto
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
+Este artigo descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
 
 O conceito de estratégias do agente de resolução foi apresentado pela primeira vez na atualização cumulativa 7 (CU7) do Microsoft Dynamics AX 2012 R2. Foi estendido na atualização cumulativa 8 (CU8) do Microsoft Dynamics AX 2012 R3 e do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.
 

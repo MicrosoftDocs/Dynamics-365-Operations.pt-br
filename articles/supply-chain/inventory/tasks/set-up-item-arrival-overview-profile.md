@@ -1,6 +1,6 @@
 ---
 title: Configurar um perfil de visão geral de entradas de item
-description: Esse tópico se concentra na configuração de um perfil de visão geral de entradas.
+description: Este artigo se concentra na configuração de um perfil de visão geral de entradas.
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,18 +15,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871997"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Configurar um perfil de visão geral de entradas de item
 
 [!include [banner](../../includes/banner.md)]
 
-Esse tópico se concentra na configuração de um perfil de visão geral de entradas. O perfil de visão geral de entradas é um conjunto de regras que serão aplicadas quando a página de Visão geral de entradas for aberta por um usuário. Você pode usar este procedimento na empresa USMF de dados de demonstração. Este procedimento será geralmente executado por um auxiliar de recebimento.
+Este artigo se concentra na configuração de um perfil de visão geral de entradas. O perfil de visão geral de entradas é um conjunto de regras que serão aplicadas quando a página de Visão geral de entradas for aberta por um usuário. Você pode usar este procedimento na empresa USMF de dados de demonstração. Este procedimento será geralmente executado por um auxiliar de recebimento.
 
 1. No painel de navegação, Acesse **Módulos > Gerenciamento de estoque > Configuração > Distribuição > Perfis de visão geral de entrada**.
 2. Selecione **Novo**. Considerando que você quase sempre irá trabalhar no mesmo depósito descarregando cargas de caminhões, você deve criar uma visão geral das chegadas para simplificar o processo de registro de itens recebidos.  

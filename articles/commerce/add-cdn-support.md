@@ -1,6 +1,6 @@
 ---
-title: Adicionar suporte para uma rede de entrega de conteúdo (CDN)
-description: Este tópico descreve como adicionar uma rede de entrega de conteúdo (CDN) ao ambiente do Microsoft Dynamics 365 Commerce.
+title: Adicionar suporte para uma rede de distribuição de conteúdo (CDN)
+description: Este artigo descreve como adicionar uma rede de distribuição de conteúdo (CDN) ao ambiente do Microsoft Dynamics 365 Commerce.
 author: brianshook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855867"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Adicionar suporte para uma rede de distribuição de conteúdo (CDN)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como adicionar uma rede de entrega de conteúdo (CDN) ao ambiente do Microsoft Dynamics 365 Commerce.
+Este artigo descreve como adicionar uma rede de distribuição de conteúdo (CDN) ao ambiente do Microsoft Dynamics 365 Commerce.
 
 Ao configurar um ambiente de comércio eletrônico no Dynamics 365 Commerce, você pode configurá-lo para funcionar com o serviço de CDN. 
 
@@ -60,7 +60,7 @@ O processo de instalação da CDN consiste nas etapas gerais a seguir:
 
 ### <a name="add-a-front-end-host"></a>Adicionar um host de front-end
 
-Qualquer serviço de CDN pode ser usado, mas, por exemplo, neste tópico, o Azure Front Door Service é usado. 
+Qualquer serviço de CDN pode ser usado, mas, por exemplo, neste artigo, o Azure Front Door Service é usado. 
 
 Para obter informações sobre como configurar o Azure Front Door Service, consulte [Início Rápido: Crie um Front Door para um aplicativo Web global altamente disponível](/azure/frontdoor/quickstart-create-front-door).
 
@@ -101,7 +101,7 @@ Para configurar uma regra de roteamento no Azure Front Door Service, siga estas 
 
 
 > [!WARNING]
-> Se o domínio que você usar já estiver ativo e ao vivo, crie um tíquete de suporte do bloco **Suporte** no [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) para obter ajuda para as próximas etapas. Para obter mais informações, consulte [Obter suporte para aplicativos do Finance and Operations ou Lifecycle Services (LCs)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+> Se o domínio que você usar já estiver ativo e ao vivo, crie um tíquete de suporte do bloco **Suporte** no [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) para obter ajuda para as próximas etapas. Para obter mais informações, consulte [Obter suporte para os aplicativos de finanças e operações ou o Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 Se o domínio for novo e não for um domínio dinâmico pré-existente, você poderá adicionar seu domínio personalizado à configuração do Azure Front Door Service. Isso permitirá que o tráfego da Web direcione ao seu site por meio da instância do Azure Front Door. Para adicionar o domínio personalizado (por exemplo, `www.fabrikam.com`), você deve configurar um nome canônico (CNAME) para o domínio.
 

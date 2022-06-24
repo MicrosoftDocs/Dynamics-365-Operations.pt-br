@@ -1,6 +1,6 @@
 ---
 title: Códigos de motivo de contagem de estoque
-description: Este tópico descreve como configurar e aplicar códigos de motivo para tarefas de contagem.
+description: Este artigo descreve como configurar e aplicar códigos de motivo para tarefas de contagem.
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857102"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Códigos de motivo de contagem de estoque
 
@@ -42,7 +42,7 @@ Antes de você configurar o sistema, recomendamos que você defina uma estratég
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Ativar recursos de código de motivo no seu sistema
 
-Se você não vir todos os recursos descritos neste tópico no seu sistema, provavelmente precisará ativar o recurso *Ajustes de lançamento disponível usando códigos de motivo configuráveis associados a contrapartidas*. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Se você não vir todos os recursos descritos neste artigo no seu sistema, provavelmente precisará ativar o recurso *Ajustes de lançamento disponível usando códigos de motivo configuráveis associados a contrapartidas*. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de depósito*
 - **Nome do recurso:** *Ajustes de lançamento disponível usando códigos de motivo configuráveis associados a contrapartidas*
@@ -111,7 +111,7 @@ Para configurar os códigos de motivo para contagem, siga estas etapas.
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Configurar grupos de código de motivo para contagem
 
-Os *Grupos de códigos de motivo para contagem* podem ser usados como parte dos itens de menu *Ajuste de entrada* e *Ajuste de saída* no aplicativo móvel Warehouse Management para limitar a lista de códigos de motivo para contagem. (Para obter mais informações sobre grupos de código de motivo para contagem, consulte a seção [Configurar itens de menu do dispositivo móvel para ajuste de saída e de entrada](#setup-adjustment-in-out) posteriormente neste tópico.)
+Os *Grupos de códigos de motivo para contagem* podem ser usados como parte dos itens de menu *Ajuste de entrada* e *Ajuste de saída* no aplicativo móvel Warehouse Management para limitar a lista de códigos de motivo para contagem. (Para obter mais informações sobre grupos de código de motivo para contagem, consulte a seção [Configurar itens de menu do dispositivo móvel para ajuste de saída e de entrada](#setup-adjustment-in-out) posteriormente neste artigo.)
 
 1. Acesse **Gerenciamento de estoque** \> **Configuração** \> **Estoque** \> **Grupos de código de motivos para contagem**.
 1. No Painel de Ações, selecione **Novo** para adicionar um grupo.
@@ -174,7 +174,7 @@ Para configurar um item de menu do dispositivo móvel para ajuste de entrada e d
         - *Ocultar* – Não mostra o código de motivo.
 
     - **Editar código de motivo para contagem** - Defina esta opção como *Sim* para permitir que o trabalhador edite o código de motivo quando ele for mostrado no dispositivo móvel durante a contagem. Defina-o como *Não* para impedir que o trabalhador edite o código.
-    - **Grupo de códigos de motivo para contagem** – Selecione um grupo de códigos de motivo se quiser limitar a lista de opções que é apresentada aos trabalhadores. Para obter informações sobre como configurar grupos de códigos de motivo, consulte a seção [Configurar grupos de códigos de motivo para contagem](#reason-groups) anteriormente neste tópico. 
+    - **Grupo de códigos de motivo para contagem** – Selecione um grupo de códigos de motivo se quiser limitar a lista de opções que é apresentada aos trabalhadores. Para obter informações sobre como configurar grupos de códigos de motivo, consulte a seção [Configurar grupos de códigos de motivo para contagem](#reason-groups) anteriormente neste artigo. 
 
 > [!NOTE]
 > Quando você atribui um grupo de códigos de motivo para contagem aos itens de menu *Ajuste de entrada* e *Ajuste de saída* em que a opção **Usar guia de processos** esteja definida como *Sim*, você pode obter uma lista limitada dos códigos de motivo para contagem como parte do processamento no aplicativo móvel Warehouse Management.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103654"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863640"
 ---
 # <a name="putaway-clusters"></a>Clusters de armazenamento
 
@@ -27,7 +27,7 @@ Os clusters de armazenamento oferecem uma forma de separar várias chapas de lic
 
 ## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Ativar ou desativar o recurso de cluster de armazenamento
 
-Para usar a funcionalidade descrita neste tópico, o recurso *Armazenamento de cluster* deve estar ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Armazenamento de cluster* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar a funcionalidade descrita neste artigo, o recurso *Armazenamento de cluster* deve estar ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Armazenamento de cluster* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Configuração do cenário de exemplo
 

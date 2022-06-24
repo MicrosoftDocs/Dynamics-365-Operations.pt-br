@@ -1,6 +1,6 @@
 ---
 title: Classes de carga parcial (LTL)
-description: Este tópico explica o que são classes de carga parcial (LTL) e descreve como configurá-las no Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo explica o que são classes de carga parcial (LTL) e descreve como configurá-las no Microsoft Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857189"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>Classes de carga parcial (LTL)
 
@@ -33,7 +33,7 @@ Este recurso permite usar o seu sistema para executar as seguintes tarefas:
 - Determine os requisitos de embalagem para cada classe LTL, verificando os padrões internacionais da LTL. Dessa forma, você garante que os produtos serão bem protegidos e enviados com segurança.
 - Obtenha estimativas de remessa precisas, com base na classe de frete LTL para cada produto.
 
-Este tópico descreve como criar classes LTL no Microsoft Dynamics 365 Supply Chain Management.
+Este artigo descreve como criar classes LTL no Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="create-an-ltl-class"></a>Criar uma classe LTL
 

@@ -1,6 +1,6 @@
 ---
 title: Assine o arquivo MPOS .appx com um certificado de assinatura de código
-description: Este tópico explica como assinar o MPOS com um certificado de autenticação de código.
+description: Este artigo explica como assinar o MPOS com um certificado de autenticação de código.
 author: mugunthanm
 ms.date: 05/27/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 7e998514081cad1c7302aacb1cd74373f896f2d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865960"
 ---
 # <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Assine o arquivo MPOS .appx com um certificado de assinatura de código
 

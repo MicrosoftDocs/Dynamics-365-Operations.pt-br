@@ -1,6 +1,6 @@
 ---
 title: Pagamento com base em registros
-description: Este tópico explica como o pagamento é calculado com base em registros de trabalhador.
+description: Este artigo explica como o pagamento é calculado com base em registros de trabalhador.
 author: johanhoffmann
 ms.date: 03/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 729e2f6c7c2dac598154b342244ab3d8eccaf4d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715713"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844370"
 ---
 # <a name="pay-based-on-registrations"></a>Pagamento com base em registros
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica, detalhadamente, como o pagamento é calculado com base em registros de trabalhador. Ele inclui exemplos para mostram como as várias combinações de opções de configuração disponíveis para o cálculo afetam o resultado. Estas são algumas das áreas que serão abordadas:
+Este artigo explica, detalhadamente, como o pagamento é calculado com base em registros de trabalhador. Ele inclui exemplos para mostram como as várias combinações de opções de configuração disponíveis para o cálculo afetam o resultado. Estas são algumas das áreas que serão abordadas:
 
 - Horário flexível
 - Hora extra

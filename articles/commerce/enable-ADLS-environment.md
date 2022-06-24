@@ -1,6 +1,6 @@
 ---
 title: Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
-description: Este tópico fornece instruções sobre como conectar uma solução do Azure Data Lake Storage Gen2 a um Repositório de entidades do ambiente do Dynamics 365 Commerce. Esta é uma etapa obrigatória para habilitar as recomendações do produto.
+description: Este artigo fornece instruções sobre como conectar uma solução do Azure Data Lake Storage Gen2 a um Repositório de entidades do ambiente do Dynamics 365 Commerce. Esta é uma etapa obrigatória para habilitar as recomendações do produto.
 author: bebeale
 ms.date: 08/31/2020
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 6e0c84dd6b173a111b70a8adb6036be946149f7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885162"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece instruções sobre como conectar uma solução do Azure Data Lake Storage Gen2 a um Repositório de entidades do ambiente do Dynamics 365 Commerce. Esta é uma etapa obrigatória para habilitar as recomendações do produto.
+Este artigo fornece instruções sobre como conectar uma solução do Azure Data Lake Storage Gen2 a um Repositório de entidades do ambiente do Dynamics 365 Commerce. Esta é uma etapa obrigatória para habilitar as recomendações do produto.
 
 Na solução Dynamics 365 Commerce, os dados necessários para recomendações, produtos e transações de computação são agregados no Repositório de entidades do ambiente. Para tornar esses dados acessíveis a outros serviços do Dynamics 365, como análises de dados, business intelligence e recomendações personalizadas, é necessário conectar o ambiente a uma solução Azure Data Lake Storage Gen2 de propriedade do cliente.
 
-Depois que as etapas acima tiverem sido concluídas, todos os dados do cliente no Repositório de entidades do ambiente serão automaticamente espelhados na solução Azure Data Lake Storage Gen2 do cliente. Quando os recursos de recomendações são habilitados por meio do espaço de trabalho Gerenciamento de recursos na matriz do Commerce, a pilha de recomendações receberá acesso à mesma solução Azure Data Lake Storage Gen2.
+Depois que as etapas acima tiverem sido concluídas, todos os dados do cliente no Repositório de entidades do ambiente serão automaticamente espelhados na solução Azure Data Lake Storage Gen2 do cliente. Quando os recursos de recomendações são habilitados por meio do espaço de trabalho Gerenciamento de recursos no Commerce headquarters, a pilha de recomendações receberá acesso à mesma solução Azure Data Lake Storage Gen2.
 
 Durante todo o processo, os dados dos clientes permanecem protegidos e sob controle deles.
 

@@ -1,6 +1,6 @@
 ---
 title: Parâmetros de data e hora usados pela Otimização de Planejamento
-description: Este tópico fornece informações sobre os parâmetros de data e hora que a Otimização de Planejamento usa durante a operação.
+description: Este artigo fornece informações sobre os parâmetros de data e hora que a Otimização de Planejamento usa durante a operação.
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0708404f286253449e0400fc65680e903f6d1e9b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885889"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Parâmetros de data e hora usados pela Otimização de Planejamento
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece informações sobre os parâmetros de data e hora que a Otimização de Planejamento usa durante a operação.
+Este artigo fornece informações sobre os parâmetros de data e hora que a Otimização de Planejamento usa durante a operação.
 
 Enquanto o mecanismo interno de planejamento mestre usa datas de transação em todos os cálculos, a Otimização de Planejamento funciona com valores de data e hora convertidos em datas. Essa diferença no comportamento pode levar a situações em que, por exemplo, as transações de previsão criadas à meia-noite no dia em que o planejamento mestre é executado não sejam incluídas porque a Otimização de Planejamento considera que elas foram criadas antes da data atual.
 

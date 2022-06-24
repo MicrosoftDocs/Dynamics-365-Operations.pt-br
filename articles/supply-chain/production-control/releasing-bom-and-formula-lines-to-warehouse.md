@@ -1,6 +1,6 @@
 ---
 title: Liberar linhas de BOM e fórmula para o depósito
-description: Este tópico descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito.
+description: Este artigo descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53e3a943dbd6cf982101f42ed8f94b7e0f46597c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860599"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar linhas de BOM e fórmula para o depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito. Quando você libera uma linha da BOM e da fórmula para o depósito, o sistema determina primeiro se o material já está disponível no local de entrada de produção no chão de fábrica em que o material será consumido para o processo de produção.
+Este artigo descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito. Quando você libera uma linha da BOM e da fórmula para o depósito, o sistema determina primeiro se o material já está disponível no local de entrada de produção no chão de fábrica em que o material será consumido para o processo de produção.
 
 - Se o material estiver disponível no local de entrada de produção, é separado desse local imediatamente após o sinal ser fornecido para a liberação do material para o depósito.
 - Se o material não estiver disponível no local de entrada de produção, a liberação do material indique que o material deve ser movido de locais do depósito para o local de entrada de produção. O material é movido através do trabalho de depósito para separação de matérias-primas. Portanto, os processos de depósito para a separação de matérias-primas deverão ser configurados. Para obter mais informações, consulte [Visão geral de reabastecimento](../warehousing/replenishment.md) e [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](../warehousing/control-warehouse-location-directives.md).

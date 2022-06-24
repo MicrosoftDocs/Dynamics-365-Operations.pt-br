@@ -1,6 +1,6 @@
 ---
-title: Exibir ativo
-description: Este tópico descreve a exibição de ativos no Asset Management.
+title: Exibição do ativo
+description: Este artigo descreve a exibição de ativos no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882711"
 ---
-# <a name="asset-view"></a>Exibir ativo
+# <a name="asset-view"></a>Exibição do ativo
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Este tópico descreve a exibição de ativos no Asset Management. A página **Exibição de ativos** mostra os ativos e locais funcionais em uma exibição de árvore. Portanto, você pode obter com facilidade uma visão geral das relações de ativos a locais funcionais. Além disso, você pode exibir informações detalhadas sobre locais funcionais, ativos e listas de materiais (BOMs) relacionadas. Você também pode obter uma rápida visão geral de solicitações de manutenção ativa e ordens de serviço relacionadas a um ativo.
+Este artigo descreve a exibição de ativos no Gerenciamento de Ativos. A página **Exibição de ativos** mostra os ativos e locais funcionais em uma exibição de árvore. Portanto, você pode obter com facilidade uma visão geral das relações de ativos a locais funcionais. Além disso, você pode exibir informações detalhadas sobre locais funcionais, ativos e listas de materiais (BOMs) relacionadas. Você também pode obter uma rápida visão geral de solicitações de manutenção ativa e ordens de serviço relacionadas a um ativo.
 
 1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Exibição de ativos**.
 2. Para alterar a exibição mostrada na página, selecione um novo valor no campo **Exibir**.

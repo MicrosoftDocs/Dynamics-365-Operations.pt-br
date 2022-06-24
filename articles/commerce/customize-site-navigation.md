@@ -1,6 +1,6 @@
 ---
 title: Personalizar a navegação do site
-description: Este tópico descreve como criar uma hierarquia online personalizada de navegação para organizar seus produtos para procurar no site do Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como criar uma hierarquia online personalizada de navegação para organizar seus produtos para procurar no site do Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60aaae397501269be55f5ef75e4314b4e1f0b252
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863452"
 ---
 # <a name="customize-site-navigation"></a>Personalizar a navegação do site
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar uma hierarquia online personalizada de navegação para organizar seus produtos para procurar no site do Microsoft Dynamics 365 Commerce.
+Este artigo descreve como criar uma hierarquia online personalizada de navegação para organizar seus produtos para procurar no site do Microsoft Dynamics 365 Commerce.
 
 As lojas online normalmente permitem que os clientes descubram e naveguem entre produtos por meio de categorias de produto. Este recurso é normalmente fornecido por guias na parte superior da página ou na barra de navegação à esquerda. No Dynamics 365 Commerce, você pode criar e gerenciar uma estrutura hierárquica de navegação da categoria e os produtos que estão incluídos nas várias categorias.
 

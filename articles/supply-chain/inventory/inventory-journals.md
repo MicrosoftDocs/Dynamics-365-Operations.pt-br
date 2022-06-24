@@ -1,6 +1,6 @@
 ---
 title: Diários de estoque
-description: Este tópico descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico.
+description: Este artigo descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico.
 author: yufeihuang
 ms.date: 04/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9370e495bf16ed638646843faaf0ff599fe1abc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c0ac9146c44b08698f8f9d15a3610bf0b7cea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849406"
 ---
 # <a name="inventory-journals"></a>Diários de estoque
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico.
+Este artigo descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico.
 
 Os diários de estoque no Supply Chain Management são usados para lançar transações físicas do estoque de vários tipos, como lançamento de emissões e recebimentos, movimentações de estoque, criação de listas de materiais (BOMs) e reconciliação de estoque físico. Todos esses diários de estoque são usados de forma semelhante, mas são divididos em tipos diferentes.
 

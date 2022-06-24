@@ -1,6 +1,6 @@
 ---
 title: Criar um mecanismo de gerenciamento de transporte
-description: Este tópico descreve como criar um novo mecanismo de gerenciamento de transporte no Dynamics 365 Supply Chain Management.
+description: Este artigo descreve como criar um novo mecanismo de gerenciamento de transporte no Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857247"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Criar um mecanismo de gerenciamento de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar um novo mecanismo de gerenciamento de transporte no Dynamics 365 Supply Chain Management. 
+Este artigo descreve como criar um novo mecanismo de gerenciamento de transporte no Dynamics 365 Supply Chain Management. 
 
 Os mecanismos de gerenciamento de transporte (TMS) definem a lógica usada para gerar e processar taxas de transporte no Gerenciamento de transporte. O Supply Chain Management oferece vários tipos diferentes de mecanismos que calculam parâmetros diferentes, como taxas, tempos em trânsito e o número de zonas que percorridas durante o transporte. Este artigo explica como usar o ambiente de desenvolvimento do Microsoft Visual Studio em conjunto com ferramentas de desenvolvimento do Supply Chain Management para criar e implantar um novo mecanismo de TMS e como configurar o mecanismo em Operações. Para obter mais informações sobre os mecanismos, consulte o artigo [mecanismos de gerenciamento de transporte ](transportation-management-engines.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Processamento de cargas de entrada das ordens de compra no depósito
-description: Este tópico descreve o processamento de cargas de entrada das ordens de compra no depósito.
+description: Este artigo descreve o processamento de cargas de entrada das ordens de compra no depósito.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855922"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o processamento de cargas de entrada das ordens de compra no depósito.
+Este artigo descreve o processamento de cargas de entrada das ordens de compra no depósito.
 
 Para cada carga de entrada, seu sistema já deve incluir uma ordem de venda relacionada e talvez também contenha uma especificação de carga e/ou plano de transporte relacionados. Para obter mais informações sobre como criar e gerenciar cargas de entrada, consulte [Processo comercial: Planejando o transporte para cargas de entrada](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
@@ -209,7 +209,7 @@ A tabela a seguir resume os efeitos da configuração **Permitir vários recebim
 | Sim | Nenhuma atualização | _Recebida_, se a quantidade total de carga registrada for igual ou superior à quantidade de carga | |
 | Sim | Nenhuma atualização | _Remetida_ ou _Em processamento_, se a quantidade total de carga registrada for inferior à quantidade de carga | |
 
-Depois que o campo **Status da carga** é definido como _Recebida_, não é possível fazer mais lançamentos de recebimento de produtos para essa carga. Entretanto, o funcionário pode registrar a quantidade restante da ordem na carga recebida nas condições a seguir. (Para obter mais informações, consulte a seção [Recebimento de carga em excesso](#load-over-receiving) anterior nesse tópico.)
+Depois que o campo **Status da carga** é definido como _Recebida_, não é possível fazer mais lançamentos de recebimento de produtos para essa carga. Entretanto, o funcionário pode registrar a quantidade restante da ordem na carga recebida nas condições a seguir. (Para obter mais informações, consulte a seção [Recebimento de carga em excesso](#load-over-receiving) anterior neste artigo.)
 
 - A versão do Supply Chain Management é anterior à versão 10.0.11.
 - O recurso _Excesso no recebimento de quantidades de carga_ está ativado e o campo **Excesso no recebimento de quantidade da linha de carga** no item de menu do dispositivo móvel em relação à ação de recebimento de itens de carga está definido como _Permitir_.

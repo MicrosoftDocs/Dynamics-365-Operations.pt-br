@@ -1,6 +1,6 @@
 ---
 title: Processamento de mercadorias em trânsito
-description: Este tópico descreve como trabalhar com ordens de mercadorias em trânsito. Quando uma ordem ou viagem é configurada para usar o processamento de mercadorias em trânsito, as mercadorias podem ser faturadas antes de serem recebidas no depósito para consumo.
+description: Este artigo descreve como trabalhar com ordens de mercadorias em trânsito. Quando uma ordem ou viagem é configurada para usar o processamento de mercadorias em trânsito, as mercadorias podem ser faturadas antes de serem recebidas no depósito para consumo.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854374"
 ---
 # <a name="goods-in-transit-processing"></a>Processamento de mercadorias em trânsito
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como trabalhar com ordens de mercadorias em trânsito. Esse tipo de ordem é usado somente pelo módulo de **Custo de entrega**. Quando uma ordem ou viagem é configurada para usar o processamento de mercadorias em trânsito, não é necessário aguardar até as mercadorias serem recebidas no depósito para faturá-las. Em vez disso, as mercadorias são faturadas quando deixam o depósito ou a porta de origem do fornecedor, e os custos financeiros são reconhecidos quando a viagem começa. Essa funcionalidade permite que você se aproprie corretamente do estoque, pois as mercadorias sempre se tornam a propriedade da sua organização quando deixam a porta de remessa.
+Este artigo descreve como trabalhar com ordens de mercadorias em trânsito. Esse tipo de ordem é usado somente pelo módulo de **Custo de entrega**. Quando uma ordem ou viagem é configurada para usar o processamento de mercadorias em trânsito, não é necessário aguardar até as mercadorias serem recebidas no depósito para faturá-las. Em vez disso, as mercadorias são faturadas quando deixam o depósito ou a porta de origem do fornecedor, e os custos financeiros são reconhecidos quando a viagem começa. Essa funcionalidade permite que você se aproprie corretamente do estoque, pois as mercadorias sempre se tornam a propriedade da sua organização quando deixam a porta de remessa.
 
 Quando as ordens de mercadorias em trânsito são usadas, os itens atualizados financeiramente são recebidos em um depósito provisório conhecido como um depósito de mercadorias em trânsito. As mercadorias permanecem neste depósito até que possam ser recebidas no depósito de destino final (ou seja, o depósito definido na linha de compra). Elas não podem ser removidas manualmente.
 

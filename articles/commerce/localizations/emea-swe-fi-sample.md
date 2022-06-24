@@ -1,6 +1,6 @@
 ---
 title: Exemplo de integração da unidade de controle para a Suécia
-description: Este tópico fornece uma visão geral do exemplo de integração fiscal da Suécia no Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral do exemplo de integração fiscal da Suécia no Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885393"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Exemplo de integração da unidade de controle para a Suécia
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral do exemplo de integração fiscal da Suécia no Microsoft Dynamics 365 Commerce.
+Este artigo fornece uma visão geral do exemplo de integração fiscal da Suécia no Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Este exemplo de funcionalidade de integração fiscal substitui o [exemplo anterior de integração do PDV com unidades de controle da Suécia ](retail-sdk-control-unit-sample.md). O exemplo anterior não se beneficia da [estrutura de integração fiscal](./fiscal-integration-for-retail-channel.md) e ficará obsoleto em atualizações posteriores. Para obter informações sobre como migrar do exemplo anterior para o que corresponde ao Dynamics 365 Commerce versão **10.0.22 e anterior**, consulte [Migrar do exemplo de integração anterior](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample).
@@ -83,7 +83,7 @@ Na página **Campos personalizados**, adicione os seguintes registros para os ca
 
 Para cada formato de recibo necessário, altere o valor do campo **Comportamento de impressão** para **Sempre imprimir**.
 
-No designer de formato de recibo, adicione os seguintes campos personalizados à seção **Rodapé**. Os nomes de campo correspondem aos textos do idioma que você definiu na seção anterior deste tópico.
+No designer de formato de recibo, adicione os seguintes campos personalizados à seção **Rodapé**. Os nomes de campo correspondem aos textos do idioma que você definiu na seção anterior deste artigo.
 
 - **Código de controle do registro** – Este campo imprime o código de controle.
 - **Registrar dispositivo** – Este campo imprime o número de fabricação da unidade de controle.
@@ -108,7 +108,7 @@ Conclua as etapas de integração fiscal conforme descritas em [Configurar a int
 
 ### <a name="set-up-the-registration-process"></a>Configurar o processo de registro fiscal
 
-Para habilitar o processo de registro, siga estas etapas para configurar a sede do Commerce. Para obter mais informações, consulte [Configurar a integração fiscal dos canais do Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Para habilitar o processo de registro, siga estas etapas para configurar o Commerce headquarters. Para obter mais informações, consulte [Configurar a integração fiscal dos canais do Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
 1. Baixe arquivos de configuração para o provedor de documentos fiscais e o conector fiscal:
 
@@ -126,7 +126,7 @@ Para habilitar o processo de registro, siga estas etapas para configurar a sede 
     > 
     > O suporte para o novo pacote independente e o modelo de extensão para os exemplo de integração fiscal está planejado para versões posteriores.
 
-1. Vá para **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados com o comércio**. Na guia **Geral**, defina a opção **Habilitar integração fiscal** como **Sim**.
+1. Vá para **Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados com o comércio**. Na guia **Geral**, defina a opção **Habilitar integração fiscal** como **Sim**.
 1. Acesse **Retail e Commerce \> Configuração de canal \> Integração fiscal \> Provedores de documentos fiscais** e carregue o arquivo do provedor de documentos fiscais baixado anteriormente.
 1. Acesse **Retail e Commerce \> Configuração de canal \> Integração fiscal \> Conectores fiscais** e carregue o arquivo de configuração do conector fiscal baixado anteriormente.
 1. Acesse **Varejo e Comércio \> Configuração de canal \> Integração fiscal \> Perfis funcionais do conector**. Crie um novo perfil funcional do conector. Selecione o provedor de documentos e o conector carregados anteriormente. Atualize as [configurações de mapeamento de dados](#default-data-mapping) conforme necessário.
@@ -151,7 +151,7 @@ O mapeamento de dados padrão a seguir é incluído na configuração do provedo
 
     - *1* e *2* são códigos de IVA específicos de dispositivos.
     - Ponto e vírgula (;) será usado como separador.
-    - *code1* e *code2* são códigos de impostos sobre vendas configurados no Commerce Headquarters. Você deve modificar o mapeamento de exemplo de acordo com os códigos de imposto que são configurados no seu aplicativo.
+    - *code1* e *code2* são códigos de impostos sobre vendas configurados no Commerce headquarters. Você deve modificar o mapeamento de exemplo de acordo com os códigos de imposto que são configurados no seu aplicativo.
 
     As unidades de controle dão suporte a até quatro códigos de IVA diferentes. Portanto, o mapeamento de código de IVA pode ser configurado da seguinte maneira:
 
@@ -231,7 +231,7 @@ A finalidade da extensão que é um provedor de documentos fiscais é gerar docu
 
 Há um único manipulador de solicitações **DocumentProviderCleanCash** para o provedor de documentos. Esse manipulador é usado para gerar documentos fiscais para a unidade de controle.
 
-Esse manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce Headquarters.
+Esse manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -240,7 +240,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração do provedor de documentos fiscais está em **src\\FiscalIntegration\\CleanCash\\CommerceRuntime\\DocumentProvider.CleanCashSample\\Configuration\\DocumentProviderFiscalCleanCashSample.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade deste arquivo é habilitar as configurações para que o provedor de documentos seja configurado na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
+O arquivo de configuração do provedor de documentos fiscais está em **src\\FiscalIntegration\\CleanCash\\CommerceRuntime\\DocumentProvider.CleanCashSample\\Configuration\\DocumentProviderFiscalCleanCashSample.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade deste arquivo é habilitar as configurações para que o provedor de documentos seja configurado no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
 
 ### <a name="hardware-station-extension-design"></a>Design de extensão de estação de hardware
 
@@ -250,7 +250,7 @@ A finalidade da extensão que é um conector fiscal é comunicar-se com a unidad
 
 O manipulador de solicitações **CleanCashHandler** é o ponto de entrada para o manuseio de solicitações à unidade de controle.
 
-O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce Headquarters.
+O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -260,6 +260,6 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração para o conector fiscal está em **src\\FiscalIntegration\\CleanCash\\HardwareStation\\Connector.CleanCashSample\\Configuration\\ConnectorCleanCashSample.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
+O arquivo de configuração para o conector fiscal está em **src\\FiscalIntegration\\CleanCash\\HardwareStation\\Connector.CleanCashSample\\Configuration\\ConnectorCleanCashSample.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

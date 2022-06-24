@@ -1,6 +1,6 @@
 ---
 title: Implantar unidades de escala de borda em hardware personalizado usando LBD
-description: Este tópico explica como provisionar unidades de escala de borda local usando o hardware e a implantação personalizados que se baseiam em dados comerciais locais (LBD).
+description: Este artigo explica como provisionar unidades de escala de borda local usando o hardware e a implantação personalizados que se baseiam em dados comerciais locais (LBD).
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882740"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Implantar unidades de escala de borda em hardware personalizado usando LBD
 
@@ -27,7 +27,7 @@ As unidades de escala de borda desempenham uma função importante na topologia 
 
 As unidades de escala de borda podem ser implantadas criando-se um [ambiente local](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) de dados comerciais locais (LBD) e, em seguida, configurando-o para funcionar como uma unidade de escala na sua topologia híbrida distribuída para o gerenciamento da cadeia de fornecedores. Isso é obtido associando o ambiente LBD local a um ambiente do Supply Chain Management nuvem, que foi configurado para funcionar como um hub.  
 
-Este tópico descreve como configurar um ambiente LBD local como uma unidade de escala de borda e depois associá-lo a um hub.
+Este artigo descreve como configurar um ambiente LBD local como uma unidade de escala de borda e depois associá-lo a um hub.
 
 ## <a name="infrastructure-considerations"></a>Considerações sobre infraestrutura
 
@@ -44,21 +44,21 @@ Aqui está uma visão geral das etapas de implantação.
 
 1. **Configure e implante um ambiente LBD com um banco de dados *vazio*.**
 
-    Use o LCS para implantar o ambiente LBD com a topologia mais recente e um banco de dados vazio. Para obter mais informações, consulte a seção [Configurar e implantar um ambiente LBD com um banco de dados vazio](#set-up-deploy) posteriormente neste tópico. Você deve usar a versão 10.0.21 ou posterior do Supply Chain Management em ambientes de hub e da unidade de escala.
+    Use o LCS para implantar o ambiente LBD com a topologia mais recente e um banco de dados vazio. Para obter mais informações, consulte a seção [Configurar e implantar um ambiente LBD com um banco de dados vazio](#set-up-deploy) posteriormente neste artigo. Você deve usar a versão 10.0.21 ou posterior do Supply Chain Management em ambientes de hub e da unidade de escala.
 
 1. **Carregue pacotes de destino em ativos de projeto LBD no LCS.**
 
-    Prepare aplicativos, plataformas e pacotes de personalização usados no hub e na unidade de escala de borda. Para obter mais informações, consulte a seção [Carregar pacotes de destino em ativos de projeto LBD no LCS](#upload-packages) posteriormente neste tópico.
+    Prepare aplicativos, plataformas e pacotes de personalização usados no hub e na unidade de escala de borda. Para obter mais informações, consulte a seção [Carregar pacotes de destino em ativos de projeto LBD no LCS](#upload-packages) posteriormente neste artigo.
 
 1. **Faça a manutenção do ambiente LBD com os pacotes de destino.**
 
-    Essa etapa garante que os mesmos builds e personalizações sejam implantados no hub e no spoke. Para obter mais informações, consulte a seção [Fazer a manutenção do ambiente LBD com os pacotes de destino](#service-target-packages) posteriormente neste tópico.
+    Essa etapa garante que os mesmos builds e personalizações sejam implantados no hub e no spoke. Para obter mais informações, consulte a seção [Fazer a manutenção do ambiente LBD com os pacotes de destino](#service-target-packages) posteriormente neste artigo.
 
 1. **Conclua a configuração da unidade de escala e a atribuição de carga de trabalho.**
 
-    Para obter mais informações, consulte a seção [Atribuir sua unidade de escala de borda LBD a um hub](#assign-edge-to-hub) posteriormente neste tópico.
+    Para obter mais informações, consulte a seção [Atribuir sua unidade de escala de borda LBD a um hub](#assign-edge-to-hub) posteriormente neste artigo.
 
-As seções restantes deste tópico fornecem mais detalhes sobre como concluir essas etapas.
+As seções restantes deste artigo fornecem mais detalhes sobre como concluir essas etapas.
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Configurar e implantar um ambiente LBD com um banco de dados vazio
 
@@ -67,7 +67,7 @@ Esta etapa cria um ambiente LBD funcional. No entanto, o ambiente não tem neces
 1. Siga as instruções em [Configurar e implantar ambientes locais (Platform update 41 e posterior)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Você deve usar a versão 10.0.21 ou posterior do Supply Chain Management em ambientes de hub e da unidade de escala. Além disso, você deve usar a versão 2.12.0 ou posterior dos scripts de infraestrutura. 
 
     > [!IMPORTANT]
-    > Leia o restante desta seção **antes** de concluir as etapas deste tópico.
+    > Leia o restante desta seção **antes** de concluir as etapas deste artigo.
 
 1. Antes de descrever a configuração no arquivo infrastructure\\ConfigTemplate.xml, execute o seguinte script:
 

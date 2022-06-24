@@ -1,6 +1,6 @@
 ---
 title: Implantar um novo locatário de comércio eletrônico
-description: Este tópico descreve como implantar um novo site de comércio eletrônico do Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS).
+description: Este artigo descreve como implantar um novo site de comércio eletrônico do Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aee33a6322ada6de142ecf5b70ba81213ffb085
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883995"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Implantar um novo locatário de comércio eletrônico
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como implantar um novo site de comércio eletrônico do Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS).
+Este artigo descreve como implantar um novo site de comércio eletrônico do Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS).
 
 Microsoft Dynamics Lifecycle Services (LCS) é um espaço de trabalho colaborativo baseado em nuvem que parceiros e clientes podem usar para gerenciar seus produtos e ambientes, exibir as informações mais recentes de produtos e serviços do Microsoft Dynamics, e criar, rastrear e navegar em incidentes de suporte. Os recursos de gerenciamento de comércio eletrônico são integrados no LCS.
 

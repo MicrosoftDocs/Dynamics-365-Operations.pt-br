@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e98884c1c12d40b2b8c0989e2dd5ca4a3738f3f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f7c99e56751230a7b8881dc55c1d460674cc6f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850471"
 ---
 # <a name="service-templates"></a>Modelos de Serviço
 
@@ -52,7 +52,7 @@ Quando você copia linhas de um modelo para ordens ou contratos de serviço, os 
 
 É mais fácil determinar as linhas do modelo de serviço que você deseja copiar agrupando os modelos com nomes que indiquem o seu uso.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Copiar linhas de modelos de serviço](copy-service-template-lines.md)
 

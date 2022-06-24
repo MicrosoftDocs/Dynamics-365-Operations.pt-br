@@ -1,6 +1,6 @@
 ---
 title: Configuração de custos automáticos
-description: Este tópico descreve como configurar regras de custo para vários níveis de viagem de entrada. Com base nessas regras, o sistema calcula os custos e os adiciona automaticamente. Portanto, os usuários não precisam adicionar os custos manualmente.
+description: Este artigo descreve como configurar regras de custo para vários níveis de viagem de entrada. Com base nessas regras, o sistema calcula os custos e os adiciona automaticamente. Portanto, os usuários não precisam adicionar os custos manualmente.
 author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea788ea8d21c4cb6511188e937166bc3df3cd45a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 02c78789fc7531c267cee936fa30a395e6d0b62f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852379"
 ---
 # <a name="auto-costs-setup"></a>Configuração de custos automáticos
 
@@ -26,7 +26,7 @@ ms.locfileid: "8695322"
 
 Você pode usar a página **Custos automáticos** para configurar regras de custo para várias áreas de custo (como viagens, contêineres de remessa, fólios, ordens de compra, itens ou linhas da ordem de transferência). Com base nas regras e nos campos que os usuários selecionam ao criarem registros para uma das áreas de custo, o sistema calcula os custos e os adiciona automaticamente. Portanto, os usuários não precisam adicionar os custos manualmente.
 
-Para trabalhar com custos automáticos, acesse **Custo de entrega \> Configuração de custos \> Custos automáticos**. Em seguida, configure as regras de custo automático conforme descrito no restante deste tópico.
+Para trabalhar com custos automáticos, acesse **Custo de entrega \> Configuração de custos \> Custos automáticos**. Em seguida, configure as regras de custo automático conforme descrito no restante deste artigo.
 
 ## <a name="work-with-cost-areas"></a>Trabalhar com áreas de custo
 

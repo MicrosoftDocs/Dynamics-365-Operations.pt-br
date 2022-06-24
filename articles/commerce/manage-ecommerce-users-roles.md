@@ -1,6 +1,6 @@
 ---
 title: Gerenciar usuários e funções de comércio eletrônico
-description: Este tópico explica como conceder aos usuários acesso ao ambiente de criação de seu site do Microsoft Dynamics 365 Commerce .
+description: Este artigo explica como conceder aos usuários acesso ao ambiente de criação de seu site do Microsoft Dynamics 365 Commerce .
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac4342e4439db229997d9d4a0ad32f3664a795b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868952"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Gerenciar usuários e funções de comércio eletrônico
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como conceder aos usuários acesso ao ambiente de criação de seu site do Microsoft Dynamics 365 Commerce .
+Este artigo explica como conceder aos usuários acesso ao ambiente de criação de seu site do Microsoft Dynamics 365 Commerce .
 
 Para ajudar a controlar o acesso do usuário e conceder permissão aos usuários para executar tarefas específicas, o ambiente de criação do site usa grupos de segurança que você cria no Microsoft Azure Active Directory (Azure AD). Você primeiro atribui um grupo de segurança novo ou existente do Azure AD a cada função no ambiente de criação. Você concede ou revoga permissões para usuários individuais, adicionando esses usuários a um grupo de segurança apropriado ou removendo-os de um grupo de segurança.
 
@@ -50,7 +50,7 @@ Ao provisionar o Dynamics 365 Commerce no ambiente do Microsoft Dynamics Lifecyc
 
 ## <a name="administrator-role"></a>Função de Administrador
 
-Quando você cria um novo site no Comércio, você deve fornecer um grupo de segurança para a função de **Administrador** . Consulte a tabela anterior neste tópico para obter uma visão geral das permissões que essa função concede.
+Quando você cria um novo site no Comércio, você deve fornecer um grupo de segurança para a função de **Administrador** . Consulte a tabela anterior neste artigo para obter uma visão geral das permissões que essa função concede.
 
 ## <a name="add-or-update-security-groups"></a>Adicionar ou atualizar grupos de segurança
 

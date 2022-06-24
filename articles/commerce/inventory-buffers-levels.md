@@ -1,6 +1,6 @@
 ---
 title: Configurar buffers de estoque e níveis de estoque
-description: Este tópico explica como configurar buffers de estoque e níveis de estoque que determinam mensagens de disponibilidade de estoque em sites do Microsoft Dynamics 365 Commerce.
+description: Este artigo explica como configurar buffers de estoque e níveis de estoque que determinam mensagens de disponibilidade de estoque em sites do Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 06/01/2020
 ms.topic: article
@@ -12,26 +12,26 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acfe71f7fb55f1bc701297bb3949e91d6450d9e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853784"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurar buffers de estoque e níveis de estoque
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como configurar buffers de estoque e níveis de estoque que determinam as mensagens sobre disponibilidade de estoque em sites do Microsoft Dynamics 365 Commerce.
+Este artigo explica como configurar buffers de estoque e níveis de estoque que determinam as mensagens sobre disponibilidade de estoque em sites do Microsoft Dynamics 365 Commerce.
 
-A sede do Dynamics 365 Commerce contém dados de estoque e vários canais, como aplicativos de ponto de venda (PDV), lojas de comércio eletrônico e outros aplicativos integrados personalizados que recebem e empurram o estoque de forma assíncrona. Portanto, os valores de estoque disponíveis obtidos por meio da página de estoque disponível na sede do Commerce, por meio da interface de usuário do PDV (IU) e por APIs de disponibilidade de estoque de comércio eletrônico nem sempre são 100% precisos em tempo real.
+O Dynamics 365 Commerce headquarters contém dados de estoque e vários canais, como aplicativos de ponto de venda (PDV), lojas de comércio eletrônico e outros aplicativos integrados personalizados que recebem e empurram o estoque de forma assíncrona. Portanto, os valores de estoque disponíveis obtidos por meio da página de estoque disponível no Commerce headquarters, por meio da interface de usuário do PDV (IU) e por APIs de disponibilidade de estoque de comércio eletrônico nem sempre são 100% precisos em tempo real.
 
 Em vez de mostrar valores de estoque reais em lojas de comércio eletrônico, muitos varejistas preferem apenas mostrar as mensagens sobre o status de disponibilidade do estoque (por exemplo, "Disponível" ou "Esgotado") para informar aos clientes se um item está disponível para compra ou potencialmente esgotado. Para essa abordagem, os buffers de estoque e os níveis de estoque que determinam as mensagens de disponibilidade de estoque devem ser disponibilizados e configurados.
 
 ## <a name="prerequisite-turn-on-the-inventory-buffers-and-inventory-levels-feature"></a>Pré-requisito: Ativar o recurso de buffers de estoque e níveis de estoque
 
-O recurso para buffers de estoque e níveis de estoque é controlado pelo gerenciamento de recursos na sede do Commerce. Para ativar o recurso, siga estas etapas.
+O recurso para buffers de estoque e níveis de estoque é controlado pelo gerenciamento de recursos no Commerce headquarters. Para ativar o recurso, siga estas etapas.
 
 1. Acesse **Administrador do sistema** \> **Espaços de trabalho** \> **Gerenciamento de recursos**.
 1. Procure o recurso **Habilitar buffers de estoque e níveis de estoque**, selecione sua linha e, em seguida, selecione **Habilitar agora**.
@@ -125,7 +125,7 @@ Para sincronizar as configurações de buffers de estoque com os canais, siga es
 
 ## <a name="use-inventory-buffers-and-inventory-levels-in-e-commerce-scenario"></a>Usar buffers de estoque e níveis de estoque no cenário de comércio eletrônico
 
-O construtor de sites do Commerce usa os recursos do nível de estoque e de buffer de estoque na sede do Commerce para determinar a disponibilidade de estoque em sites de comércio eletrônico. Para obter mais informações, consulte [aplicar configurações de estoque](inventory-settings.md).
+O construtor de sites do Commerce usa os recursos do nível de estoque e de buffer de estoque no Commerce headquarters para determinar a disponibilidade de estoque em sites de comércio eletrônico. Para obter mais informações, consulte [aplicar configurações de estoque](inventory-settings.md).
 
 Como alternativa, se você integrar com uma solução de comércio eletrônico de terceiros, poderá usar as APIs **GetEstimatedAvailability** e **GetEstimatedProductWarehouseAvailability** para mostrar a disponibilidade do estoque para um produto no cenário de comércio eletrônico. Para obter mais informações sobre essas APIs, consulte [Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md).
 
@@ -133,7 +133,7 @@ A introdução de buffers de estoque e níveis de estoque permite que essas APIs
 
 Para configurar a resposta das APIs de disponibilidade do produto, siga estas etapas.
 
-1. Acesse **Retail e Commerce** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros do Commerce**.
+1. Acesse **Retail e Commerce** \> **Configuração do headquarters** \> **Parâmetros** \> **Parâmetros do Commerce**.
 1. Na seção **Estoque de loja**, na guia **Estoque**, no campo **APIs de disponibilidade do produto para comércio eletrônico**, selecione um valor.
 1. Para aplicar as configurações aos canais, execute o trabalho de agendamento de distribuição **1110** (**Configuração global**).
 

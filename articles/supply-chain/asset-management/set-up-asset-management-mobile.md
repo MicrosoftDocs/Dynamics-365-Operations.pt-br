@@ -1,6 +1,6 @@
 ---
 title: Configurar o espaço de trabalho móvel Gerenciamento de ativos
-description: Este tópico descreve como configurar o Microsoft Dynamics 365 Supply Chain Management e o aplicativo móvel de finanças e operações (Dynamics 365) para executar um espaço de trabalho móvel Gerenciamento de ativos que os trabalhadores podem usar para realizar tarefas de gerenciamento de ativos.
+description: Este artigo descreve como configurar o Microsoft Dynamics 365 Supply Chain Management e o aplicativo móvel de finanças e operações (Dynamics 365) para executar um espaço de trabalho móvel Gerenciamento de ativos que os trabalhadores podem usar para realizar tarefas de gerenciamento de ativos.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870832"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurar o espaço de trabalho móvel Gerenciamento de ativos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar o Microsoft Dynamics 365 Supply Chain Management e o aplicativo móvel de finanças e operações (Dynamics 365) para executar um espaço de trabalho móvel **Gerenciamento de ativos** que os trabalhadores podem usar para realizar tarefas de gerenciamento de ativos.
+Este artigo descreve como configurar o Microsoft Dynamics 365 Supply Chain Management e o aplicativo móvel de finanças e operações (Dynamics 365) para executar um espaço de trabalho móvel **Gerenciamento de ativos** que os trabalhadores podem usar para realizar tarefas de gerenciamento de ativos.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Configurar usuários de funcionários de manutenção no Supply Chain Management
 

@@ -1,6 +1,6 @@
 ---
-title: Adicionar recomendações à tela de transação
-description: Este tópico descreve como adicionar um controle de recomendações à tela de transação em um dispositivo do ponto de venda (PDV) usando o designer de layout de tela no Microsoft Dynamics 365 Commerce.
+title: Adicionar recomendações à tela de transações
+description: Este artigo descreve como adicionar um controle de recomendações à tela de transação em um dispositivo do ponto de venda (PDV) usando o designer de layout de tela no Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4748ade8d6693666b58cbded2123d3449d191509
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862063"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Adicionar recomendações à tela de transações
 
 [!include [banner](includes/banner.md)]
 
 
-Este tópico descreve como adicionar um controle de recomendações à tela de transação em um dispositivo do ponto de venda (PDV) usando o designer de layout de tela no Microsoft Dynamics 365 Commerce. Para obter mais informações sobre recomendações de produtos, leia as  [recomendações de produtos na documentação do PDV](product.md).
+Este artigo descreve como adicionar um controle de recomendações à tela de transação em um dispositivo do ponto de venda (PDV) usando o designer de layout de tela no Microsoft Dynamics 365 Commerce. Para obter mais informações sobre recomendações de produtos, leia as  [recomendações de produtos na documentação do PDV](product.md).
 
 
 Você pode exibir as recomendações de produtos no dispositivo do PDV ao usar o Commerce. Para exibir recomendações de produto, é necessário adicionar um controle à tela de transação usando o designer do layout da tela. 

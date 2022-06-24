@@ -1,6 +1,6 @@
 ---
 title: Exemplo de integração da impressora fiscal para a Polônia
-description: Este tópico fornece uma visão geral do exemplo de integração fiscal da Polônia no Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral do exemplo de integração fiscal da Polônia no Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876940"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Exemplo de integração da impressora fiscal para a Polônia
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral do exemplo de integração fiscal da Polônia no Microsoft Dynamics 365 Commerce.
+Este artigo fornece uma visão geral do exemplo de integração fiscal da Polônia no Microsoft Dynamics 365 Commerce.
 
 A funcionalidade do Dynamics 365 Commerce para a Polônia inclui um exemplo de integração do ponto de venda (PDV) a uma impressora fiscal. O exemplo estende a [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md) e oferece suporte ao protocolo POSNET THERMAL HD 2.02 para impressoras fiscais da [Posnet Polska S.A.](https://www.posnet.com.pl) O exemplo permite a comunicação com uma impressora fiscal conectada por meio de uma porta COM usando um driver de software nativo. Ele foi implementado e testado usando um emulador de software que a Posnet forneceu para a impressora fiscal Posnet Thermal HD FV EJ. O exemplo é fornecido na forma de código-fonte e faz parte do kit de desenvolvimento de software (SDK) do Retail.
 
@@ -114,7 +114,7 @@ Conclua as etapas de integração fiscal conforme descritas em [Configurar a int
 
 ### <a name="set-up-the-registration-process"></a>Configurar o processo de registro fiscal
 
-Para habilitar o processo de registro, siga estas etapas para configurar a sede do Commerce. Para obter mais informações, consulte [Configurar a integração fiscal dos canais do Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Para habilitar o processo de registro, siga estas etapas para configurar o Commerce headquarters. Para obter mais informações, consulte [Configurar a integração fiscal dos canais do Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
 1. Baixe arquivos de configuração para o provedor de documentos fiscais e o conector fiscal:
 
@@ -132,7 +132,7 @@ Para habilitar o processo de registro, siga estas etapas para configurar a sede 
     > 
     > O suporte para o novo pacote independente e o modelo de extensão para os exemplo de integração fiscal está planejado para versões posteriores.
 
-1. Vá para **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados com o comércio**. Na guia **Geral**, defina a opção **Habilitar integração fiscal** como **Sim**.
+1. Vá para **Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados com o comércio**. Na guia **Geral**, defina a opção **Habilitar integração fiscal** como **Sim**.
 1. Acesse **Retail e Commerce \> Configuração de canal \> Integração fiscal \> Provedores de documentos fiscais** e carregue o arquivo do provedor de documentos fiscais baixado anteriormente.
 1. Acesse **Retail e Commerce \> Configuração de canal \> Integração fiscal \> Conectores fiscais** e carregue o arquivo de configuração do conector fiscal baixado anteriormente.
 1. Acesse **Varejo e Comércio \> Configuração de canal \> Integração fiscal \> Perfis funcionais do conector**. Crie um novo perfil funcional do conector. Selecione o provedor de documentos e o conector carregados anteriormente. Atualize as [configurações de mapeamento de dados](#default-data-mapping) conforme necessário.
@@ -233,7 +233,7 @@ A finalidade da extensão que é um provedor de documentos fiscais é gerar docu
 
 O manipulador de solicitações **DocumentProviderPosnetProtocol** é o ponto de entrada para a solicitação gerar documentos da impressora fiscal.
 
-O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce Headquarters.
+O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -242,7 +242,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração do provedor de documentos fiscais está em **src\\FiscalIntegration\\Posnet\\CommerceRuntime\\DocumentProvider.PosnetSample\\Configuration\\DocumentProviderPosnetSample.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do provedor de documentos fiscais a ser configurado na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
+O arquivo de configuração do provedor de documentos fiscais está em **src\\FiscalIntegration\\Posnet\\CommerceRuntime\\DocumentProvider.PosnetSample\\Configuration\\DocumentProviderPosnetSample.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do provedor de documentos fiscais a ser configurado no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
 
 ### <a name="hardware-station-extension-design"></a>Design de extensão de estação de hardware
 
@@ -252,7 +252,7 @@ A finalidade da extensão que é um conector fiscal é comunicar-se com a impres
 
 O manipulador de solicitações **FiscalPrinterHandler** é o ponto de entrada para o manuseio da solicitação ao dispositivo periférico fiscal.
 
-O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce Headquarters.
+O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -262,6 +262,6 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração do conector fiscal está em **src\\FiscalIntegration\\Posnet\\HardwareStation\\ThermalDeviceSample\\Configuration\\ConnectorPosnetThermalFVEJ.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
+O arquivo de configuração do conector fiscal está em **src\\FiscalIntegration\\Posnet\\HardwareStation\\ThermalDeviceSample\\Configuration\\ConnectorPosnetThermalFVEJ.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

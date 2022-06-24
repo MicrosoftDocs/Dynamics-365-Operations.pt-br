@@ -1,6 +1,6 @@
 ---
 title: Distribuição integrada planejada
-description: Este tópico descreve a distribuição integrada planejada avançada, na qual a quantidade de estoque necessária para uma ordem é direcionada diretamente do recebimento ou da criação para a área de preparo ou doca de saída correta. Todo o estoque restante da origem de entrada é direcionado para o local de armazenamento correto por meio do processo normal de armazenamento.
+description: Este artigo descreve a distribuição integrada planejada avançada, na qual a quantidade de estoque necessária para uma ordem é direcionada diretamente do recebimento ou da criação para a área de preparo ou doca de saída correta. Todo o estoque restante da origem de entrada é direcionado para o local de armazenamento correto por meio do processo normal de armazenamento.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863669"
 ---
 # <a name="planned-cross-docking"></a>Distribuição integrada planejada
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a distribuição integrada planejada avançada. A distribuição integrada é um processo de depósito no qual a quantidade de estoque necessária para uma ordem é direcionada diretamente do recebimento ou da criação para a área de preparo ou doca de saída correta. Todo o estoque restante da origem de entrada é direcionado para o local de armazenamento correto por meio do processo normal de armazenamento.
+Este artigo descreve a distribuição integrada planejada avançada. A distribuição integrada é um processo de depósito no qual a quantidade de estoque necessária para uma ordem é direcionada diretamente do recebimento ou da criação para a área de preparo ou doca de saída correta. Todo o estoque restante da origem de entrada é direcionado para o local de armazenamento correto por meio do processo normal de armazenamento.
 
 A distribuição integrada permite aos trabalhadores ignorar o armazenamento de entrada e a separação de saída de um estoque que já esteja marcado para uma ordem de saída. Portanto, o número de vezes que o estoque é tocado é minimizado, sempre que possível. Além disso, como há menos interação com o sistema, a economia de tempo e espaço no chão de fábrica do depósito aumenta.
 
@@ -37,7 +37,7 @@ No momento do recebimento da ordem de entrada, a configuração da distribuiçã
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Ativar os recursos de distribuição integrada planejada
 
-Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative os seguintes recursos nesta ordem:
+Se o sistema ainda não incluir os recursos descritos neste artigo, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative os seguintes recursos nesta ordem:
 
 1. *Distribuição integrada planejada*
 1. *Modelos de distribuição integrada com diretivas de localização*

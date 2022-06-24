@@ -1,6 +1,6 @@
 ---
 title: Perfis de certificado definidos pelo usuário para lojas de varejo
-description: Este tópico fornece uma visão geral sobre como os certificados são usados em lojas de varejo.
+description: Este artigo fornece uma visão geral sobre como os certificados são usados em lojas de varejo.
 author: josaw
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b40c74efa56a6e18af907e000554b9ab269bb31
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873020"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perfis de certificado definidos pelo usuário para lojas de varejo
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
-Este tópico fornece uma visão geral dos perfis de certificado disponíveis no Microsoft Dynamics 365 Commerce. Essa funcionalidade estende o recurso [Gerenciar segredos para canais de varejo](../dev-itpro/manage-secrets.md) adicionando suporte a certificados locais.
+Este artigo fornece uma visão geral dos perfis de certificado disponíveis no Microsoft Dynamics 365 Commerce. Essa funcionalidade estende o recurso [Gerenciar segredos para canais de varejo](../dev-itpro/manage-secrets.md) adicionando suporte a certificados locais.
 
 Enquanto o ponto de venda (PDV) estiver sendo executado no modo offline, ele não poderá acessar os certificados armazenados no cofre de chaves. Em vez disso, o certificado local deve ser usado. Os seguintes recursos têm suporte:
 

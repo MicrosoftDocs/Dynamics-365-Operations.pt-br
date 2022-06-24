@@ -1,6 +1,6 @@
 ---
-title: ​Colaboração de fornecedores com clientes​
-description: Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com OCs e para monitorar o estoque em consignação.
+title: Colaboração de fornecedores com clientes
+description: Este artigo descreve como você pode usar a colaboração do fornecedor para trabalhar com OCs e para monitorar o estoque em consignação.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859159"
 ---
-# <a name="vendor-collaboration-with-customers"></a>​Colaboração de fornecedores com clientes​
+# <a name="vendor-collaboration-with-customers"></a>Colaboração de fornecedores com clientes
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 Supply Chain Management. Os fornecedores podem concluir uma série de processos de negócios dos espaços de trabalho a seguir:
+Este artigo descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 Supply Chain Management. Os fornecedores podem concluir uma série de processos de negócios dos espaços de trabalho a seguir:
 
 - **Confirmação de ordem de compra** – Monitora e responde às ordens de compra (OCs).
 - **Lance do fornecedor** – Exibe solicitações de quotações (RFQs) e as responde inserindo lances.
 - **Informações de fornecedor** – Exibe e atualiza dados mestre do fornecedor.
-- **Faturamento** – Trabalha com faturas. Este tópico não cobre o espaço de trabalho **Faturamento**. Para obter mais informações sobre este espaço de trabalho, consulte [Espaço de trabalho de faturamento da colaboração de fornecedores](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Faturamento** – Trabalha com faturas. Este artigo não cobre o espaço de trabalho **Faturamento**. Para obter mais informações sobre este espaço de trabalho, consulte [Espaço de trabalho de faturamento da colaboração de fornecedores](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Os fornecedores também podem monitoram informações sobre o estoque em consignação.
 
@@ -47,9 +47,9 @@ Há três listas no espaço de trabalho **Confirmação de ordem de compra**:
 
 Você pode usar os seguintes páginas para trabalhar com OCs:
 
-- **Ordens de compra para revisão** – Esta página contém as mesmas informações que a lista **Ordens de compra para revisão** no espaço de trabalho. Consulte a descrição anterior neste tópico.
+- **Ordens de compra para revisão** – Esta página contém as mesmas informações que a lista **Ordens de compra para revisão** no espaço de trabalho. Consulte a descrição anterior neste artigo.
 - **Histórico de confirmação de fornecedor da ordem de compra** – Esta página todas as OCs e todas as versões das OCs que foram enviadas ao fornecedor. Também contém todas as respostas que foram devolvidas do fornecedor.
-- **Ordens de compra confirmadas em aberto** Esta página contém as mesmas informações que a lista **Ordem de compra confirmada em aberta** no espaço de trabalho. Consulte a descrição anterior neste tópico.
+- **Ordens de compra confirmadas em aberto** Esta página contém as mesmas informações que a lista **Ordem de compra confirmada em aberta** no espaço de trabalho. Consulte a descrição anterior neste artigo.
 - **Todas as ordens de compra confirmadas** – Esta página contém todas as OCs que foram confirmadas. As OCs desta página têm as OCs onde os produtos ou serviços foram recebidos. Você pode usar esta lista para monitorar as OCs para as quais você pode enviar faturas.
 
 ### <a name="responding-to-pos"></a>Respondendo OCs

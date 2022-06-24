@@ -1,6 +1,6 @@
 ---
-title: Direcionamento de dispositivo, mercado e geolocalização
-description: Este tópico descreve como criar, editar e gerenciar públicos-alvo e destinos no construtor de sites do Microsoft Dynamics 365 Commerce usando informações de dispositivo, mercado e geolocalização.
+title: Segmentação de dispositivo, mercado e geolocalização
+description: Este artigo descreve como criar, editar e gerenciar públicos-alvo e destinos no construtor de sites do Microsoft Dynamics 365 Commerce usando informações de dispositivo, mercado e geolocalização.
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090685"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881648"
 ---
-# <a name="device-market-and-geolocation-targeting"></a>Direcionamento de dispositivo, mercado e geolocalização
+# <a name="device-market-and-geolocation-targeting"></a>Segmentação de dispositivo, mercado e geolocalização
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar, editar e gerenciar públicos-alvo e destinos no construtor de sites do Microsoft Dynamics 365 Commerce usando informações de dispositivo, mercado e geolocalização.
+Este artigo descreve como criar, editar e gerenciar públicos-alvo e destinos no construtor de sites do Microsoft Dynamics 365 Commerce usando informações de dispositivo, mercado e geolocalização.
 
 O Dynamics 365 Commerce permite personalizar variações do conteúdo da sua página (conhecidas como *destinos*) para grupos específicos de clientes (conhecidos como *públicos-alvo*) para ajudar a aumentar a participação e a satisfação do usuário. Você pode criar um público-alvo ou um destino primeiro. No entanto, para uma experiência de direcionamento bem-sucedida, é preciso ter esses dois componentes.
 

@@ -1,6 +1,6 @@
 ---
 title: Sincronizar ordens de serviço com projetos do Field Service com o Supply Chain Management
-description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ordens de trabalho com um número de projeto do Dynamics 365 Field Service para o Dynamics 365 Supply Chain Management.
+description: Este artigo discute os modelos e as tarefas subjacentes usadas para sincronizar ordens de serviço com um número de projeto do Dynamics 365 Field Service para o Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a43a7f7e900205bdb23fb9a35ca1518369683a42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860483"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Sincronizar ordens de serviço com projetos do Field Service com o Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ordens de trabalho com um número de projeto do Dynamics 365 Field Service para o Dynamics 365 Supply Chain Management.
+Este artigo discute os modelos e as tarefas subjacentes usadas para sincronizar ordens de serviço com um número de projeto do Dynamics 365 Field Service para o Dynamics 365 Supply Chain Management.
 
 [![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 O modelo **Ordens de serviço com projeto (Field Service para Supply Chain Management)** usado é baseado no modelo **Ordens de serviço (Field Service para Supply Chain Management)**. Para obter mais informações, consulte [Sincronizar ordens de serviço no Field Service com ordens de venda no Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
-Este tópico descreve apenas as diferenças entre os dois métodos:
+Este artigo descreve apenas as diferenças entre os dois modelos:
 - **Ordens de serviço com projeto (Field Service para Supply Chain Management)**
 - **Ordens de serviço (Field Service para Supply Chain Management)**
 

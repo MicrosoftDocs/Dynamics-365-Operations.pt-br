@@ -1,6 +1,6 @@
 ---
 title: Gerenciar parceiros de negócios B2B usando hierarquias do cliente
-description: Este tópico descreve como usar hierarquias de clientes para gerenciar parceiros de negócios para sites de comércio eletrônico entre empresas (B2B) do Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como usar hierarquias de clientes para gerenciar parceiros de negócios para sites de comércio eletrônico entre empresas (B2B) do Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864972"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>Gerenciar parceiros de negócios B2B usando hierarquias do cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como usar hierarquias de clientes para gerenciar parceiros de negócios para sites de comércio eletrônico entre empresas (B2B) do Microsoft Dynamics 365 Commerce.
+Este artigo descreve como usar hierarquias de clientes para gerenciar parceiros de negócios para sites de comércio eletrônico entre empresas (B2B) do Microsoft Dynamics 365 Commerce.
 
-Na sede do Commerce, uma entidade *hierarquia do cliente* é usada para representar as organizações parceiras de negócios que usarão seu site de comércio eletrônico B2B. Antes de começar a usar hierarquias de cliente para gerenciar parceiros de negócios, habilite os recursos de comércio eletrônico B2B na sede do Commerce e defina uma sequência numérica para a hierarquia do cliente.
+No Commerce headquarters, uma entidade *hierarquia do cliente* é usada para representar as organizações parceiras de negócios que usarão seu site de comércio eletrônico B2B. Antes de começar a usar hierarquias de cliente para gerenciar parceiros de negócios, habilite os recursos de comércio eletrônico B2B no Commerce headquarters e defina uma sequência numérica para a hierarquia do cliente.
 
-## <a name="enable-the-b2b-e-commerce-feature-in-commerce-headquarters"></a>Habilitar recurso de comércio eletrônico B2B na sede do Commerce
+## <a name="enable-the-b2b-e-commerce-feature-in-commerce-headquarters"></a>Habilitar recurso de comércio eletrônico B2B no Commerce headquarters
 
-Para usar os recursos de comércio eletrônico B2B, primeiro ative o recurso **Habilitar o uso de recursos de comércio eletrônico B2B** na sede do Commerce.
+Para usar os recursos de comércio eletrônico B2B, primeiro ative o recurso **Habilitar o uso de recursos de comércio eletrônico B2B** no Commerce headquarters.
 
 1. Acesse **Espaços de trabalho \> Gerenciamento de recursos**.
 1. Na guia **Tudo**, use a caixa de filtro para procurar **Módulo: varejo e comércio**.
@@ -41,18 +41,18 @@ Para usar os recursos de comércio eletrônico B2B, primeiro ative o recurso **H
 
 As sequências numéricas são usadas para gerar identificadores exclusivos legíveis para registros de dados mestres e registros de transações que exigem identificadores. Você deve definir uma sequência numérica que será usada para gerar a ID da hierarquia do cliente. Para obter mais informações sobre sequências numéricas, consulte [Visão geral de sequências numéricas](/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview).
 
-Para definir uma sequência numérica para a hierarquia do cliente na sede do Commerce, siga estas etapas.
+Para definir uma sequência numérica para a hierarquia do cliente no Commerce headquarters, siga estas etapas.
 
-1. Acesse **Varejo e comércio \> Configuração da sede \> Sequências numéricas \> Sequências numéricas**.
+1. Acesse **Varejo e comércio \> Configuração do headquarters \> Sequências numéricas \> Sequências numéricas**.
 1. Crie uma nova sequência numérica ou selecione uma existente para reutilizá-la.
-1. Vá para **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados com o comércio**.
+1. Vá para **Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados com o comércio**.
 1. Na guia **Sequências numéricas**, adicione a sequência numérica criada ou selecionada antes da referência de **ID da hierarquia do cliente**.
 
 ![A sequência numérica adicionada à referência de ID da hierarquia do cliente.](../media/NumberSequenceCustHierarchy.png)
 
 ## <a name="how-the-approval-process-works"></a>Como funciona o processo de aprovação
 
-Quando um parceiro de negócios solicita o ingresso em um site de comércio eletrônico B2B, o sistema salva a solicitação como um *cliente potencial*. Uma pessoa da sede do Commerce, como um gerente de operações de varejo, pode aprovar ou rejeitar solicitações de parceiros. Para obter mais informações sobre como gerenciar solicitações de parceiros de negócios e aprovações de clientes potenciais, consulte [Gerenciar usuários de parceiros de negócios em sites de comércio eletrônico B2B](manage-b2b-users.md).
+Quando um parceiro de negócios solicita o ingresso em um site de comércio eletrônico B2B, o sistema salva a solicitação como um *cliente potencial*. Uma pessoa do Commerce headquarters, como um gerente de operações de varejo, pode aprovar ou rejeitar solicitações de parceiros. Para obter mais informações sobre como gerenciar solicitações de parceiros de negócios e aprovações de clientes potenciais, consulte [Gerenciar usuários de parceiros de negócios em sites de comércio eletrônico B2B](manage-b2b-users.md).
 
 Quando um cliente potencial é aprovado, o sistema cria dois registros novos de cliente:
 
@@ -80,9 +80,9 @@ Para determinar se um cliente está associado a uma hierarquia de cliente, abra 
 
 ![Exemplo da seção B2B na FastTab Varejo de um registro de cliente, em que o cliente é associado a uma hierarquia e especificado como um administrador.](../media/CustomerHierarchyMapping2.png)
 
-Na maioria dos casos, os valores de propriedade de todos os registros de cliente em uma hierarquia devem coincidir. Por exemplo, como todos os usuários parceiros comerciais devem obter preços semelhantes para produtos, seu grupo de preços e configurações associadas devem coincidir. No entanto, o sistema não impõe essa consistência. Portanto, os usuários da sede do Commerce relevantes são responsáveis por garantir que os valores de propriedade e as configurações correspondam a todos os clientes em determinada hierarquia.
+Na maioria dos casos, os valores de propriedade de todos os registros de cliente em uma hierarquia devem coincidir. Por exemplo, como todos os usuários parceiros comerciais devem obter preços semelhantes para produtos, seu grupo de preços e configurações associadas devem coincidir. No entanto, o sistema não impõe essa consistência. Portanto, os usuários do Commerce headquarters relevantes são responsáveis por garantir que os valores de propriedade e as configurações correspondam a todos os clientes em determinada hierarquia.
 
-Os usuários da sede do Commerce podem inspecionar valores de propriedade de todos os registros de clientes em uma hierarquia em um modo de exibição lado a lado. Como mostra a ilustração a seguir, você pode usar a opção **Geral** na lista suspensa na FastTab **Hierarquia** e selecionar uma seção do registro de cliente para mostrar as propriedades relacionadas. Os usuários podem editar os valores de propriedade diretamente neste modo de exibição. Para copiar todos os valores de um registro de cliente administrador para todos os usuários, selecione **Substituir** na FastTab **Hierarquia**.
+Os usuários do Commerce headquarters podem inspecionar valores de propriedade de todos os registros de clientes em uma hierarquia em um modo de exibição lado a lado. Como mostra a ilustração a seguir, você pode usar a opção **Geral** na lista suspensa na FastTab **Hierarquia** e selecionar uma seção do registro de cliente para mostrar as propriedades relacionadas. Os usuários podem editar os valores de propriedade diretamente neste modo de exibição. Para copiar todos os valores de um registro de cliente administrador para todos os usuários, selecione **Substituir** na FastTab **Hierarquia**.
 
 ![Exemplo de um registro de hierarquia de cliente, mostrando o botão Substituir e a opção na lista suspensa.](../media/HierarchyDetails2.png)
 

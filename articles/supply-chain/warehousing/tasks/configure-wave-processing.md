@@ -1,6 +1,6 @@
 ---
 title: Exemplo de Configuração de processamento de ciclo
-description: Este tópico fornece um exemplo como configurar os critérios que determinam que trabalho será gerado para um depósito quando um ciclo for processado, e se os ciclos são processados manual ou automaticamente.
+description: Este artigo fornece um exemplo como configurar os critérios que determinam que trabalho será gerado para um depósito quando um ciclo for processado, e se os ciclos são processados manual ou automaticamente.
 author: Mirzaab
 ms.date: 03/17/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39c3fecf9250ee89c22003d5dff4ea662c3042e3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860338"
 ---
 # <a name="configure-wave-processing-example"></a>Exemplo de Configuração de processamento de ciclo
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece um exemplo como configurar os critérios que determinam que trabalho será gerado para um depósito quando um ciclo for processado, e se os ciclos são processados manual ou automaticamente. Você especifica os critérios configurando modelos e consultas de onda que correspondam a uma onda com linhas liberadas em ordens de venda, ordens de produção ou ordens kanban.
+Este artigo fornece um exemplo como configurar os critérios que determinam que trabalho será gerado para um depósito quando um ciclo for processado, e se os ciclos são processados manual ou automaticamente. Você especifica os critérios configurando modelos e consultas de onda que correspondam a uma onda com linhas liberadas em ordens de venda, ordens de produção ou ordens kanban.
 
 ## <a name="enable-sample-data"></a>Habilitar dados de exemplo
 

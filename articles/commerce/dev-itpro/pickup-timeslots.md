@@ -1,6 +1,6 @@
 ---
 title: Criar e atualizar os intervalos de tempo para retirada pelo cliente
-description: Este tópico descreve como criar, configurar e atualizar os intervalos de tempo para retirada pelo cliente na sede do Commerce.
+description: Este artigo descreve como criar, configurar e atualizar os intervalos de tempo para retirada pelo cliente no Commerce headquarters.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882224"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Criar e atualizar os intervalos de tempo para retirada pelo cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como criar, configurar e atualizar os intervalos de tempo para retirada pelo cliente na sede do Commerce.
+Este artigo descreve como criar, configurar e atualizar os intervalos de tempo para retirada pelo cliente no Commerce headquarters.
 
 O recurso de intervalos de tempo fornece aos varejistas uma forma de definir um intervalo de tempo para os itens para os quais o modo de entrega de retirada pelo cliente está ativado. Os intervalos de tempo permitem que os varejistas definam os dias e os horários em que as ordens podem ser retiradas em uma loja. Os varejistas também podem definir o número de ordens que podem ser retiradas durante um determinado período. Dessa forma, eles podem limitar o número de ordens que podem ser retiradas em um determinado dia e em um determinado horário. O resultado é uma experiência de melhor qualidade para seus clientes.
 
@@ -64,15 +64,15 @@ Um intervalo de tempo é definido usando as propriedades a seguir:
 
 Somente um modelo de intervalo de tempo pode ser configurado por canal. Esses canais incluem lojas físicas, call centers, dispositivos móveis e sites e-Commerce.
 
-## <a name="configure-the-time-slot-feature-in-commerce-headquarters"></a>Configurar o recurso de intervalos de tempo na sede do Commerce
+## <a name="configure-the-time-slot-feature-in-commerce-headquarters"></a>Configurar o recurso de intervalos de tempo no Commerce headquarters
 
-Os intervalos de tempo devem ser definidos para cada modo de entrega de retirada na sede do Commerce, de forma que os canais de ponto de venda (PDV) e comércio eletrônico possam referenciá-los.
+Os intervalos de tempo devem ser definidos para cada modo de entrega de retirada no Commerce headquarters, de forma que os canais de ponto de venda (PDV) e comércio eletrônico possam referenciá-los.
 
 - Somente um modelo de intervalo de tempo pode ser associado a cada loja ou canal.
 - Cada intervalo de tempo criado deve ser exclusivo para cada modo de entrega em cada modelo.
 - Depois que o recurso de intervalos de tempo for configurado, o calendário de intervalos de tempo ficará disponível para as lojas ou os grupos de lojas selecionados. Ele também ficará visível no PDV, para referência.
 
-Para configurar o recurso de intervalos de tempo na sede do Commerce, siga estas etapas.
+Para configurar o recurso de intervalos de tempo no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Commerce** \> **Configuração de canal** \> **Intervalo de tempo para retirada na loja**.
 1. Selecione **Novo** para criar um novo modelo de intervalo de tempo. Para usar um modelo existente, selecione o modelo no painel esquerdo.

@@ -1,6 +1,6 @@
 ---
 title: Versões de engenharia e categorias de produtos de engenharia
-description: Este tópico fornece informações sobre o conceito de versões de engenharia. As versões de engenharia garantem que os diferentes estados de um produto e seus dados sejam mantidos atuais e claros, e que possam ser visualizados no sistema.
+description: Este artigo fornece informações sobre o conceito de versões de engenharia. As versões de engenharia garantem que os diferentes estados de um produto e seus dados sejam mantidos atuais e claros, e que possam ser visualizados no sistema.
 author: t-benebo
 ms.date: 04/07/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
-ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.openlocfilehash: a98ead81a61ceac2ed721848847164f76e758f80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8553352"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872055"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versões de engenharia e categorias de produtos de engenharia
 
@@ -60,7 +60,7 @@ Observe que um produto de engenharia só pode estar em uma ordem de alteração 
 
 ## <a name="track-versions-in-transactions"></a>Rastrear versões em transações
 
-Quando você usa o gerenciamento de alterações de engenharia, os dados mestre do produto sempre incluem uma ou mais versões de engenharia. Na configuração de produtos de engenharia, você pode escolher se a versão de engenharia também faz parte das *transações logísticas*. (Para obter mais informações, consulte a seção [Configurar categorias de produtos de engenharia](#product-category) mais adiante neste tópico.) Se o impacto logístico for relevante, ele será diferente por produto e por empresa. Às vezes, somente a versão mais recente de um produto é usada. Portanto, quando você apresentar uma nova versão, a versão anterior não poderá mais ser usada. Em outros casos, a versão anterior é necessária em transações logísticas para superar os seguintes desafios:
+Quando você usa o gerenciamento de alterações de engenharia, os dados mestre do produto sempre incluem uma ou mais versões de engenharia. Na configuração de produtos de engenharia, você pode escolher se a versão de engenharia também faz parte das *transações logísticas*. (Para obter mais informações, consulte a seção [Configurar categorias de produtos de engenharia](#product-category) mais adiante neste artigo.) Se o impacto logístico for relevante, ele será diferente por produto e por empresa. Às vezes, somente a versão mais recente de um produto é usada. Portanto, quando você apresentar uma nova versão, a versão anterior não poderá mais ser usada. Em outros casos, a versão anterior é necessária em transações logísticas para superar os seguintes desafios:
 
 - O departamento de logística deve enviar duas peças de um produto para um cliente. Nesse caso, você deve decidir se deseja ou permite que duas versões diferentes sejam enviadas.
 - Depois, será descoberto que ocorreu um problema e que ele está relacionado a uma alteração específica. Nesse caso, talvez seja benéfico determinar exatamente qual versão foi enviada em cada ordem.
@@ -118,7 +118,7 @@ Defina os campos a seguir na FastTab **Detalhes** de uma categoria de produto de
 | Grupo de dimensões do produto | A configuração **Rastrear versões em transações** ajuda a selecionar o grupo de dimensões do produto. Se você tiver especificado que deseja rastrear a versão em transações, serão mostrados os grupos de dimensões do produto em que a dimensão *versão* será usada. Caso contrário, só serão mostrados grupos de dimensões do produto em que a dimensão *versão* não é usada. |
 | Estado do ciclo de vida do produto | Configure o estado de ciclo de vida do produto padrão que um produto de engenharia deve ter ao ser criado pela primeira vez. Para obter mais informações, consulte [Estados e transações de ciclo de vida do produto](product-lifecycle-state-transactions.md). |
 | Regra de número de versão | Selecione a regra do número de versão que se aplica à categoria:<ul><li>**Manual** – você escolhe o número da versão para cada nova versão.</li><li>**Automático** – o sistema define o número da versão com base em um formato definido por você. Ao configurar o formato, use um sinal numérico (\#) para representar um dígito e qualquer outro caractere para representar um valor constante. Por exemplo, se você definir o formato como *V-\#\#*, a primeira versão será "V-01", a segunda versão será "V-02" e assim por diante.</li><li>**Lista** – o sistema recebe o próximo número de uma lista predefinida de valores personalizados definidos por você.</li></ul> |
-| Impor efetividade | Selecione se as datas de efetividade das versões de engenharia devem ser contíguas ou se podem existir lacunas e sobreposições. Esta configuração afeta a forma como você pode usar os campos **Efetivo a partir de** e **Efetivo até** para cada versão de engenharia em que a categoria se aplica.<ul><li>Se esta opção for definida como *Sim*, um valor **Efetivo a partir de** deverá ser especificado a cada versão; sobreposições e lacunas não serão permitidas entre versões. O intervalo de datas para cada versão de engenharia é conectado diretamente às versões anteriores e posteriores da engenharia, caso existam. Neste cenário, a versão mais recente é sempre usada e as versões mais antigas não são mais usadas.</li><li>Se esta opção estiver definida como **Não**, não haverá restrições nos campos de data de efetividade para versões de engenharia; sobreposições e lacunas são permitidas. Neste cenário, várias versões podem estar ativas ao mesmo tempo e você pode trabalhar com qualquer versão ativa.</li></ul><p>Esta opção também afeta BOMs e roteiros que estão conectados a uma versão do produto. Para obter mais informações, consulte a seção [Conectar BOMs e roteiros a versões de engenharia](#boms-routes) mais adiante neste tópico.</p> |
+| Impor efetividade | Selecione se as datas de efetividade das versões de engenharia devem ser contíguas ou se podem existir lacunas e sobreposições. Esta configuração afeta a forma como você pode usar os campos **Efetivo a partir de** e **Efetivo até** para cada versão de engenharia em que a categoria se aplica.<ul><li>Se esta opção for definida como *Sim*, um valor **Efetivo a partir de** deverá ser especificado a cada versão; sobreposições e lacunas não serão permitidas entre versões. O intervalo de datas para cada versão de engenharia é conectado diretamente às versões anteriores e posteriores da engenharia, caso existam. Neste cenário, a versão mais recente é sempre usada e as versões mais antigas não são mais usadas.</li><li>Se esta opção estiver definida como **Não**, não haverá restrições nos campos de data de efetividade para versões de engenharia; sobreposições e lacunas são permitidas. Neste cenário, várias versões podem estar ativas ao mesmo tempo e você pode trabalhar com qualquer versão ativa.</li></ul><p>Esta opção também afeta BOMs e roteiros que estão conectados a uma versão do produto. Para obter mais informações, consulte a seção [Conectar BOMs e roteiros a versões de engenharia](#boms-routes) mais adiante neste artigo.</p> |
 | Usar nomenclatura da regra de número | Defina esta opção como *Sim* para habilitar regras para definir um número de produto usando sequências numéricas, nomes e valores de atributos de engenharia e constantes de texto como segmentos. Para criar ou modificar regras, selecione o botão **Editar**. |
 | Usar nomenclatura da regra de nome | Defina esta opção como *Sim* para habilitar regras para definir um nome usando os nomes de atributos de engenharia, valores de atributos de engenharia e constantes de texto como segmentos. Para criar ou modificar regras, selecione o botão **Editar**. |
 | Usar nomenclatura da regra de descrição | Defina esta opção como *Sim* para habilitar regras para definir a descrição usando os nomes de atributos de engenharia, valores de atributos de engenharia e constantes de texto como segmentos. Para criar ou modificar regras, selecione o botão **Editar**. |

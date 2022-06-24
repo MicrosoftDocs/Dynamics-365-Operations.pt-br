@@ -1,6 +1,6 @@
 ---
 title: Módulo de pagamento
-description: Este tópico abrange o módulo do pagamento e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange o módulo do pagamento e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/12/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: a89ca5dd4f46611e75faccd3213028750fa48d35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850266"
 ---
 # <a name="payment-module"></a>Módulo de pagamento
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange o módulo do pagamento e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
+Este artigo abrange o módulo do pagamento e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 
 O módulo de pagamento permite que clientes paguem por pedidos usando cartões de crédito ou de débito. A integração de pagamento para este módulo é fornecida pelo Conector de Pagamento do Dynamics 365 para Adyen. Para obter mais informações sobre como configurar o conector de pagamento, consulte [Conector de Pagamento do Dynamics 365 para Adyen](dev-itpro/adyen-connector.md).  
 
@@ -39,7 +39,7 @@ O módulo de pagamento também permite que os clientes conectados salvem informa
 
 O módulo de pagamento cobre todos os encargos de ordem que ainda não foram cobertos por pontos de fidelidade ou um vale-presente. Se o total de uma ordem for totalmente abrangido por pontos de fidelidade ou créditos de vale-presente, o módulo de pagamento ficará oculto e o cliente poderá fazer o pedido sem ele.
 
-O conector de pagamento de Adyen também dá suporte à Autenticação de Cliente Forte (SCA). Parte da Diretiva de Serviços de Pagamento Revisada (PSD2) da União Europeia (UE) exige que os compradores online sejam autenticados fora da experiência de compra online quando usarem um método de pagamento eletrônico. Durante o fluxo de finalização de compra, os clientes são redirecionados para o site do banco e, após a autenticação, são redirecionados de volta para o fluxo de finalização de compra do Commerce. Durante esse redirecionamento, as informações que um cliente inseriu ao longo do fluxo de finalização de compra (por exemplo, endereço de remessa, opções de entrega, informações do vale-presente e informações de fidelidade) serão mantidas. Para ativar o recurso Conector de pagamento Adyen, o conector de pagamento deverá ser configurado para o SCA na sede do Commerce. Para obter mais informações, consulte [Autenticação de Cliente Forte usando Adyen](adyen_redirect.md). Esse recurso foi habilitado no Commerce versão 10.0.12.
+O conector de pagamento de Adyen também dá suporte à Autenticação de Cliente Forte (SCA). Parte da Diretiva de Serviços de Pagamento Revisada (PSD2) da União Europeia (UE) exige que os compradores online sejam autenticados fora da experiência de compra online quando usarem um método de pagamento eletrônico. Durante o fluxo de finalização de compra, os clientes são redirecionados para o site do banco e, após a autenticação, são redirecionados de volta para o fluxo de finalização de compra do Commerce. Durante esse redirecionamento, as informações que um cliente inseriu ao longo do fluxo de finalização de compra (por exemplo, endereço de remessa, opções de entrega, informações do vale-presente e informações de fidelidade) serão mantidas. Para ativar o recurso Conector de pagamento Adyen, o conector de pagamento deverá ser configurado para o SCA no Commerce headquarters. Para obter mais informações, consulte [Autenticação de Cliente Forte usando Adyen](adyen_redirect.md). Esse recurso foi habilitado no Commerce versão 10.0.12.
 
 > [!NOTE]
 > Para o conector de pagamento da Adyen, o módulo iframe no módulo de pagamento só poderá ser renderizado se você adicionar a URL da Adyen à lista de permissões do seu site. Para concluir esta etapa, adicione **\*.adyen.com** às diretivas **child-src**, **connect-src**, **img-src**, **script-src** e **style-src** da política de segurança de conteúdo do seu site. Para obter mais informações, consulte [Gerenciar a Política de Segurança de Conteúdo](manage-csp.md). 
@@ -77,8 +77,8 @@ A ilustração a seguir mostra um exemplo do iFrame do PayPal invocado usando o 
 |Usar ID do Conector| **Verdadeiro** ou **Falso** | Use esta propriedade se vários conectores de pagamentos estiverem configurados para o site. Se for **True**, os conectores precisarão usar a ID do conector para a correlação de pagamento.|
 |Usar o código de idioma definido para o navegador para o iFrame|  **Verdadeiro** ou **Falso** | (Adyen apenas) Se for **True**, o Adyen iFrame irá renderizar o idioma com base no contexto do navegador do usuário do site, em vez de usar o código de idioma do canal do Commerce configurado para o site. Adicionado ao Commerce Release 10.0.27.|
 
-A ilustração a seguir mostra um exemplo do valor **Tipos de meio de pagamento com suporte** definido como "PayPal" na configuração do conector de pagamento na sede do Commerce.
-![Exemplo de tipos de meio de pagamento com suporte na sede do Commerce.](./media/ecommerce-paymenttendertypes.png)
+A ilustração a seguir mostra um exemplo do valor **Tipos de meio de pagamento com suporte** definido como "PayPal" na configuração do conector de pagamento no Commerce headquarters.
+![Exemplo de tipos de meio de pagamento com suporte no Commerce headquarters.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Endereço para cobrança
 
@@ -86,7 +86,7 @@ Um módulo de endereço de cobrança poderá ser usado na página de finalizaç�
 
 Para usar um módulo de endereço de cobrança na página de finalização de compra quando o módulo de pagamento estiver integrado ao conector de pagamento Adyen, defina a propriedade **Mostrar endereço de cobrança** como **Falso** para que um módulo de endereço de cobrança dedicado possa ser usado em vez do endereço de cobrança Adyen padrão. Nesse caso, o autor do site deve incluir um módulo de endereço de cobrança na página de finalização de compra. O conector de pagamento Adyen também permite usar o endereço de remessa como endereço de cobrança a fim de minimizar o número de etapas para o usuário do site.
 
-Semelhante aos módulos de pagamento, uma propriedade **Tipos de meio de pagamento com suporte** foi adicionada ao módulo de endereço de cobrança no Commerce versão 10.0.14. O valor dessa propriedade deve ser idêntico ao valor fornecido no módulo de pagamento para garantir que funcionem juntos. Para o conector de pagamento Adyen, o módulo de pagamento e o módulo de endereço de cobrança devem deixar esse valor em branco (o estado padrão). Para o conector PayPal, não é necessário um módulo de endereço de cobrança dedicado. Para outros tipos de conectores de pagamento, a cadeia de caracteres deve ser fornecida conforme configurado na sede do Commerce.
+Semelhante aos módulos de pagamento, uma propriedade **Tipos de meio de pagamento com suporte** foi adicionada ao módulo de endereço de cobrança no Commerce versão 10.0.14. O valor dessa propriedade deve ser idêntico ao valor fornecido no módulo de pagamento para garantir que funcionem juntos. Para o conector de pagamento Adyen, o módulo de pagamento e o módulo de endereço de cobrança devem deixar esse valor em branco (o estado padrão). Para o conector PayPal, não é necessário um módulo de endereço de cobrança dedicado. Para outros tipos de conectores de pagamento, a cadeia de caracteres deve ser fornecida conforme configurado no Commerce headquarters.
 
 ## <a name="add-a-payment-module-to-a-checkout-page-and-set-the-required-properties"></a>Adicionar um módulo de pagamento para uma página de check-out e definir as propriedades necessárias
 
@@ -109,7 +109,7 @@ Se os conectores de pagamento Adyen e PayPal forem usados para o seu site, siga 
     1. Marque a caixa de seleção da propriedade **Usar ID do conector**.
 
 > [!NOTE]
-> Ao configurar os conectores Adyen e PayPal para serem usados juntos, a configuração do **Dynamics 365 Payment Connector para Adyen** deve estar na primeira posição na configuração do conector de **Contas de pagamento** do canal online no Commerce Headquarters. Para confirmar ou alterar a ordem de conector, vá para **Lojas Online** e selecione o canal do site. Em seguida, na guia **Configurar**, na Guia Rápida **Contas de pagamento**, em **Conector**, verifique se a configuração do **Dynamics 365 Payment Connector para Adyen** está na primeira posição (ou seja, na linha superior) e se a configuração do **Dynamics 365 Payment Connector para PayPal** está na segunda linha. Adicione ou remova conectores, conforme necessário, para reordenar.
+> Ao configurar os conectores Adyen e PayPal para serem usados juntos, a configuração do **Dynamics 365 Payment Connector para Adyen** deve estar na primeira posição na configuração do conector de **Contas de pagamento** do canal online no Commerce headquarters. Para confirmar ou alterar a ordem de conector, vá para **Lojas Online** e selecione o canal do site. Em seguida, na guia **Configurar**, na Guia Rápida **Contas de pagamento**, em **Conector**, verifique se a configuração do **Dynamics 365 Payment Connector para Adyen** está na primeira posição (ou seja, na linha superior) e se a configuração do **Dynamics 365 Payment Connector para PayPal** está na segunda linha. Adicione ou remova conectores, conforme necessário, para reordenar.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -1,6 +1,6 @@
 ---
 title: Lista de estoque disponível
-description: Este tópico descreve como usar a página de listagem disponível para inspecionar os detalhes do estoque disponível. Ele mostra algumas das maneiras pelas quais as várias opções de filtragem e classificação funcionam juntas e como essas opções podem produzir resultados inesperados, às vezes quando são combinadas.
+description: Este artigo descreve como usar a página de listagem disponível para inspecionar os detalhes do estoque disponível. Ele mostra algumas das maneiras pelas quais as várias opções de filtragem e classificação funcionam juntas e como essas opções podem produzir resultados inesperados, às vezes quando são combinadas.
 author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5747ae985e1791de8ddd93b678c2449a4a1802da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879038"
 ---
 # <a name="inventory-on-hand-list"></a>Lista de estoque disponível
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como usar a página de **listagem disponível** para inspecionar os detalhes do estoque disponível. Ele mostra algumas das maneiras pelas quais as várias opções de filtragem e classificação funcionam juntas e como essas opções podem produzir resultados inesperados, às vezes quando são combinadas.
+Este artigo descreve como usar a página de **listagem disponível** para inspecionar os detalhes do estoque disponível. Ele mostra algumas das maneiras pelas quais as várias opções de filtragem e classificação funcionam juntas e como essas opções podem produzir resultados inesperados, às vezes quando são combinadas.
 
 ## <a name="query-your-on-hand-inventory"></a>Consulte seu estoque disponível
 
@@ -35,9 +35,9 @@ A página **Listagem disponível** é atualizada automaticamente quando as trans
 Use as seguintes ferramentas para localizar o conjunto de produtos que você está procurando:
 
 - No painel de ações, selecione [**Dimensões**](#dimensions) para abrir uma caixa de diálogo na qual é possível adicionar ou remover colunas que são mostradas na grade **disponível**.
-- No painel [**Filtros**](#filters-pane), insira valores para campos específicos para mostrar somente os registros que correspondam a esses valores. Observe que os filtros definidos aqui se aplicam a tabelas de origem que podem ser agregadas posteriormente, de acordo com as dimensões que você selecionou para serem mostradas. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste tópico.
+- No painel [**Filtros**](#filters-pane), insira valores para campos específicos para mostrar somente os registros que correspondam a esses valores. Observe que os filtros definidos aqui se aplicam a tabelas de origem que podem ser agregadas posteriormente, de acordo com as dimensões que você selecionou para serem mostradas. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste artigo.
 - No painel **Filtros**, selecione **Aplicar** para gerar a lista de estoque disponível correspondente na grade **Disponível**.
-- Na grade **Disponível** selecione qualquer cabeçalho de coluna para classificar ou filtrar por valores nessa coluna. Um filtro rápido na parte superior da grade fornece opções de filtragem adicionais. Esses filtros se aplicam aos resultados, não às tabelas de origem. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste tópico.
+- Na grade **Disponível** selecione qualquer cabeçalho de coluna para classificar ou filtrar por valores nessa coluna. Um filtro rápido na parte superior da grade fornece opções de filtragem adicionais. Esses filtros se aplicam aos resultados, não às tabelas de origem. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste artigo.
 
 Para cada item correspondente, a grade **Disponível** fornece as seguintes colunas de informações de estoque.
 
@@ -64,7 +64,7 @@ Use o painel **Filtros** para filtrar a lista de estoque disponível para que el
 > [!IMPORTANT]
 > A página **Listagem disponível** é montada em uma tabela de estoque disponível detalhada que inclui todas as dimensões disponíveis. No entanto, a lista nesta página é um resumo. Portanto, é possível combinar linhas da tabela de origem, agregando valores de acordo com as dimensões que são mostradas.
 >
-> Os filtros definidos no painel **Filtros** se aplicam à tabela de origem, não à lista agregada. Esse comportamento pode, às vezes, produzir resultados inesperados. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste tópico.
+> Os filtros definidos no painel **Filtros** se aplicam à tabela de origem, não à lista agregada. Esse comportamento pode, às vezes, produzir resultados inesperados. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste artigo.
 > 
 > No entanto, os [filtros fornecidos na grade](#grid-filters) *se* aplicam à lista agregada. Esses filtros incluem filtro rápido na parte superior da grade e o filtro para cada título de coluna.
 
@@ -75,7 +75,7 @@ Você pode modificar o conjunto de filtros disponíveis no painel **Filtros** se
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Selecionar quais dimensões serão mostradas
 
-As dimensões informam mais sobre cada item na lista de estoque disponível e fornecem mais formas de classificar e filtrar a lista. As dimensões selecionadas para serem mostradas também afetam a forma como as linhas são agregadas na página **Listagem disponível**. Essa agregação, por sua vez, pode afetar como as linhas das tabelas de origem são combinadas nos resultados exibidos. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste tópico.
+As dimensões informam mais sobre cada item na lista de estoque disponível e fornecem mais formas de classificar e filtrar a lista. As dimensões selecionadas para serem mostradas também afetam a forma como as linhas são agregadas na página **Listagem disponível**. Essa agregação, por sua vez, pode afetar como as linhas das tabelas de origem são combinadas nos resultados exibidos. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste artigo.
 
 Para personalizar a seleção de dimensões de estoque mostradas, siga estas etapas.
 
@@ -89,7 +89,7 @@ Para personalizar a seleção de dimensões de estoque mostradas, siga estas eta
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtrar na saída da lista de estoque disponível
 
-Você pode selecionar qualquer título da coluna na grade **Disponível** para classificar ou filtrar por valores dessa coluna. Um filtro rápido na parte superior da grade fornece opções de filtragem adicionais. Esses filtros se aplicam aos resultados, não às tabelas de origem. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste tópico.
+Você pode selecionar qualquer título da coluna na grade **Disponível** para classificar ou filtrar por valores dessa coluna. Um filtro rápido na parte superior da grade fornece opções de filtragem adicionais. Esses filtros se aplicam aos resultados, não às tabelas de origem. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste artigo.
 
 > [!NOTE]
 > Você não pode filtrar e classificar por todas as colunas. A maioria das colunas de quantidade não inclui controles de classificação e filtragem, pois são campos calculados. A coluna **Na ordem** é uma exceção.

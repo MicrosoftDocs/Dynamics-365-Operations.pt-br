@@ -1,6 +1,6 @@
 ---
 title: Funcionários de manutenção e grupos de trabalhadores
-description: Este tópico explica os funcionários de manutenção e os grupos de trabalhadores no Gerenciamento de ativos.
+description: Este artigo explica os funcionários de manutenção e os grupos de trabalhadores no Gerenciamento de ativos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860889"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Funcionários de manutenção e grupos de trabalhadores
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750115"
 
  
 
-Este tópico explica os funcionários de manutenção e os grupos de trabalhadores no Gerenciamento de ativos. No Gerenciamento de ativos, você pode conectar funcionários de manutenção a locais funcionais. (Para obter mais informações sobre locais funcionais, consulte [Criar locais funcionais](../functional-locations/create-functional-locations.md).) Esta funcionalidade pode ser útil se, por exemplo, você estiver agendando um trabalho de manutenção em um computador que localizado em um local funcional 01 e quiser alocar funcionários de manutenção do mesmo local para executar o trabalho.
+Este artigo explica os funcionários de manutenção e os grupos de trabalhadores no Gerenciamento de ativos. No Gerenciamento de ativos, você pode conectar funcionários de manutenção a locais funcionais. (Para obter mais informações sobre locais funcionais, consulte [Criar locais funcionais](../functional-locations/create-functional-locations.md).) Esta funcionalidade pode ser útil se, por exemplo, você estiver agendando um trabalho de manutenção em um computador que localizado em um local funcional 01 e quiser alocar funcionários de manutenção do mesmo local para executar o trabalho.
 
 Você também pode criar grupos de funcionários de manutenção e associar funcionários de manutenção a eles. Essa funcionalidade será útil quando você fizer o agendamento de ordem de serviço simples e quiser agendar um grupo de funcionários de manutenção em uma ordem de serviço. Você pode usar os funcionários de manutenção e os grupos de funcionários de manutenção para configurar funcionários de manutenção preferenciais e funcionários de manutenção responsáveis. 
 

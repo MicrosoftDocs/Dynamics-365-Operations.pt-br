@@ -1,6 +1,6 @@
 ---
 title: Preços de venda com base em atributo para a configuração de produtos baseada em restrição
-description: Este tópico descreve como criar modelos de preço de venda com preços de venda com base em componentes e atributos em vez de na lista física de materiais e no roteiro.
+description: Este artigo descreve como criar modelos de preço de venda com preços de venda baseados em componentes e atributos, e não na lista física de materiais e no roteiro.
 author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 456c7399f981e41ea452f1a6a8e30e9e12e0be54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577447"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857451"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Preços de venda com base em atributo para a configuração de produtos baseada em restrição
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar modelos de preço de venda com preços de venda com base em componentes e atributos em vez de na lista física de materiais e no roteiro. É possível criar vários modelos de preço de venda para cada modelo de configuração de produto.
+Este artigo descreve como criar modelos de preço de venda com preços de venda baseados em componentes e atributos, e não na lista física de materiais e no roteiro. É possível criar vários modelos de preço de venda para cada modelo de configuração de produto.
 
 ## <a name="set-relevant-product-information-management-parameters"></a>Defina parâmetros relevantes de gerenciamento de informações do produto
 

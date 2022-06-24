@@ -1,6 +1,6 @@
 ---
 title: Criar um catálogo de compras
-description: Este tópico explica como criar um catálogo de compras.
+description: Este artigo explica como criar um catálogo de compras.
 author: GalynaFedorova
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e94f2ef23a3c4020f46138a10fcdf84552451515
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8e35e8c5b5c93fa9aac914f04e7ea658748cb052
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869536"
 ---
 # <a name="create-a-procurement-catalog"></a>Criar um catálogo de compras
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como criar um catálogo de compras. Essa tarefa é tipicamente realizada por um profissional de aquisição. Você também aprenderá como os empregados podem usar o catálogo quando criam uma requisição. Antes de criar um catálogo, deve haver uma hierarquia da categoria da obtenção em seu sistema. A hierarquia é herdada pelo catálogo novo, junto com todos os produtos que estão na hierarquia. Você pode usar este guia na empresa USMF dos dados do programa demonstrativo onde a hierarquia da categoria da obtenção está disponível, assim como os exemplos usados nas etapas de procedimento.
+Este artigo explica como criar um catálogo de compras. Essa tarefa é tipicamente realizada por um profissional de aquisição. Você também aprenderá como os empregados podem usar o catálogo quando criam uma requisição. Antes de criar um catálogo, deve haver uma hierarquia da categoria da obtenção em seu sistema. A hierarquia é herdada pelo catálogo novo, junto com todos os produtos que estão na hierarquia. Você pode usar este guia na empresa USMF dos dados do programa demonstrativo onde a hierarquia da categoria da obtenção está disponível, assim como os exemplos usados nas etapas de procedimento.
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Assegure-se de que uma hierarquia da categoria da obtenção exista

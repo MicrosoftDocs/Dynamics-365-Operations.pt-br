@@ -1,6 +1,6 @@
 ---
 title: Configurar um modelo de trabalho para ordens de compra
-description: Este tópico descreve como configurar um modelo de trabalho simples que será usado no armazenamento dos itens recebidos.
+description: Este artigo descreve como configurar um modelo de trabalho simples que será usado no armazenamento dos itens recebidos.
 author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ee6bc896a979c326001e1596e4a463753005fabf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877353"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Configurar um modelo de trabalho para ordens de compra
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como configurar um modelo de trabalho simples que será usado no armazenamento dos itens recebidos. Modelos de trabalho determinam o conjunto de instruções apresentadas ao trabalhador do depósito em um dispositivo móvel ao mover itens da área de recebimento. Você pode usar esse procedimento com os dados mencionados na empresa de dados de demonstração USMF. Antes de iniciar este guia, crie uma ID de grupo de trabalho. Neste exemplo, uma ID de grupo de trabalho chamada na Entrada é usada. Esse procedimento é destinado ao gerente do depósito.
+Este artigo descreve como configurar um modelo de trabalho simples que será usado no armazenamento dos itens recebidos. Modelos de trabalho determinam o conjunto de instruções apresentadas ao trabalhador do depósito em um dispositivo móvel ao mover itens da área de recebimento. Você pode usar esse procedimento com os dados mencionados na empresa de dados de demonstração USMF. Antes de iniciar este guia, crie uma ID de grupo de trabalho. Neste exemplo, uma ID de grupo de trabalho chamada na Entrada é usada. Esse procedimento é destinado ao gerente do depósito.
 
 1. No painel de navegação, Acesse **Módulos > Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**.
 2. No campo **Tipo de ordem de trabalho**, selecione **Ordens de compra**.

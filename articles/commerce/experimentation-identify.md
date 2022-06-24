@@ -1,6 +1,6 @@
 ---
 title: Identificar uma hipótese e determinar as métricas para um experimento
-description: Este tópico descreve como identificar a hipótese e métricas de sucesso para um experimento que será executado em um site de comércio eletrônico no Dynamics 365 Commerce.
+description: Este artigo descreve como identificar a hipótese e métricas de sucesso para um experimento que será executado em um site de comércio eletrônico no Dynamics 365 Commerce.
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a143f00eedc2ddb3b54f05f2475a616609af8d5a7b8a4d19d0bbcb021290dfd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b6bdf160522fc93e841ec2f8a4542ff80d8f67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852777"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Identificar uma hipótese e determinar as métricas de sucesso para um experimento
-A primeira fase no ciclo de vida de experimentação inclui a identificação da hipótese de fazer experimentos e determinar as métricas que você rastreará para avaliar o êxito. O diagrama a seguir mostra todas as etapas envolvidas na [configuração e na execução de um experimento](experimentation-overview.md) em um site de comércio eletrônico no Dynamics 365 Commerce. Etapas adicionais são abordadas em tópicos separados. 
+A primeira fase no ciclo de vida de experimentação inclui a identificação da hipótese de fazer experimentos e determinar as métricas que você rastreará para avaliar o êxito. O diagrama a seguir mostra todas as etapas envolvidas na [configuração e na execução de um experimento](experimentation-overview.md) em um site de comércio eletrônico no Dynamics 365 Commerce. Etapas adicionais são abordadas em artigos separados. 
 
 [ ![Usuário de teste de experimentação - Identificar.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 

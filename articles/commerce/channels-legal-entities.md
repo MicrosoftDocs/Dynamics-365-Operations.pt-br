@@ -1,6 +1,6 @@
 ---
 title: Criar entidades legais
-description: Este tópico descreve como criar entidades legais no Microsoft Dynamics 365 Commerce, que devem ser criadas e configuradas antes da criação de canais.
+description: Este artigo descreve como criar entidades legais no Microsoft Dynamics 365 Commerce, que devem ser criadas e configuradas antes da criação de canais.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c9812a828cb159400c6388f02f10e00694aa64ad
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 160dd82298705eab9edecb9d30d051382b6b4471
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847697"
 ---
 # <a name="create-legal-entities"></a>Criar entidades legais
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar entidades legais no Microsoft Dynamics 365 Commerce, que devem ser criadas e configuradas antes da criação de canais.
+Este artigo descreve como criar entidades legais no Microsoft Dynamics 365 Commerce, que devem ser criadas e configuradas antes da criação de canais.
 
 Uma entidade legal é uma organização que tem uma estrutura legal registrada ou legislada. As entidades legais podem participar de contratos legais e são obrigadas a preparar demonstrativos que registram seu desempenho.
 
@@ -37,7 +37,7 @@ Ao criar um canal, você deve especificar a qual entidade legal ele pertence.
 
 Para criar uma nova entidade legal no Dynamics 365 Commerce, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Configuração da sede \> Entidades legais**.
+1. No painel de navegação, Acesse **Módulos \> Configuração do headquarters \> Entidades legais**.
 1. No painel de ação, selecione **Novo**. O painel **Nova entidade legal** é exibido à direita.
 1. No campo **Nome**, insira um valor.
 1. No campo **Empresa**, insira um valor.

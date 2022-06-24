@@ -1,6 +1,6 @@
 ---
 title: Usar o diário de estoque de segurança para atualizar a cobertura mínima para os itens
-description: Este tópico descreve como usar o diário de estoque de segurança para atualizar a quantidade de estoque de segurança para itens calculando propostas de cobertura mínimas com base nas transações históricas.
+description: Este artigo descreve como usar o diário de estoque de segurança para atualizar a quantidade de estoque de segurança para itens calculando propostas de cobertura mínimas com base nas transações históricas.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851758"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Usar o diário de estoque de segurança para atualizar a cobertura mínima para os itens
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468528"
 
 O estoque de segurança indica uma quantidade adicional de um item que é mantido em estoque para ajudar a reduzir o risco de que o item fique esgotado. O estoque de segurança é usado como um estoque de reserva se as ordens de venda chegarem, mas o fornecedor não conseguir atender à data de remessa solicitada do cliente.
 
-Este tópico descreve como usar o diário de estoque de segurança para calcular propostas de cobertura mínima baseadas em transações históricas e, em seguida, atualizar a cobertura do item com as propostas.
+Este artigo descreve como usar o diário de estoque de segurança para calcular propostas de cobertura mínima baseadas em transações históricas e, em seguida, atualizar a cobertura do item com as propostas.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Visão geral do uso da cobertura mínima
 
@@ -43,7 +43,7 @@ O valor **Mínimo** pode ser definido de três maneiras:
 
 Os diários de estoque de segurança são usados para calcular uma quantidade mínima proposta com base no uso histórico de um item, seja para fins mínimos/máximos ou para fins do plano de estoque. O uso histórico representa todas as transações de saída durante um período especificado. Essas transações de saída incluem transações de ordem de venda e ajustes de estoque. Os cálculos também identificam o impacto da quantidade mínima proposta de valor de estoque e a alteração no valor de estoque em comparação com as quantidades mínimas atuais.
 
-Cada linha do diário de estoque de segurança representa um item e suas dimensões de cobertura. Essas linhas do diário são criadas e exibidas na página **Linhas de diário de estoque de segurança** (**Planejamento mestre \> Planejamento mestre \> Executar \> Cálculo de estoque de segurança**). O processo empresarial para usar os diários de estoque de segurança para calcular as quantidades mínimas propostas é descrito posteriormente neste tópico.
+Cada linha do diário de estoque de segurança representa um item e suas dimensões de cobertura. Essas linhas do diário são criadas e exibidas na página **Linhas de diário de estoque de segurança** (**Planejamento mestre \> Planejamento mestre \> Executar \> Cálculo de estoque de segurança**). O processo empresarial para usar os diários de estoque de segurança para calcular as quantidades mínimas propostas é descrito posteriormente neste artigo.
 
 O planejador usa um diário de estoque de segurança para calcular as quantidades mínimas propostas para itens selecionados, com base no uso histórico durante períodos selecionados. Os mínimos propostos podem ser substituídos manualmente, conforme necessário, e você pode revisar o possível impacto dos mínimos propostos sobre o valor de estoque. Quando o diário é lançado, as quantidades mínimas associadas na cobertura de item são atualizadas automaticamente.
 
@@ -89,7 +89,7 @@ Siga estas etapas para gerar linhas de diário automaticamente.
 
     - **Data inicial** – selecione a data inicial do período no qual as saídas devem ser incluídas no cálculo.
     - **Data final** – selecione a data de término do período no qual as saídas devem ser incluídas esse cálculo. Deve haver pelo menos dois meses entre as datas inicial e final.
-    - **Calcular desvio padrão** – defina esta opção como *Sim* para calcular o desvio padrão. Você deve definir esta opção como *Sim* para usar a opção **Usar nível de serviço** ao calcular a proposta (conforme descrito posteriormente neste tópico).
+    - **Calcular desvio padrão** – defina esta opção como *Sim* para calcular o desvio padrão. Você deve definir esta opção como *Sim* para usar a opção **Usar nível de serviço** ao calcular a proposta (conforme descrito posteriormente neste artigo).
 
 1. Na Guia Rápida **Registros a serem incluídos**, você pode configurar filtros e restrições para definir quais itens são incluídos. (Por exemplo, é possível filtrar pelo valor do **Grupo de cobertura**.) Selecione **Filtrar** para abrir uma caixa de diálogo padrão do editor de consultas na qual você pode definir critérios de seleção, critérios de classificação e junções. Os campos funcionam da mesma forma que em outros tipos de consultas no Microsoft Dynamics 365 Supply Chain Management.
 1. Na Guia Rápida **Executar em segundo plano**, selecione se o trabalho deve ser executado no modo de lote e/ou configure uma agenda recorrente. Os campos funcionam da mesma forma que em outros tipos de [trabalhos em segundo plano](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) no Supply Chain Management.
@@ -110,7 +110,7 @@ Esta etapa calcula o mínimo proposto para cada linha de diário e o possível i
 Os cálculos exibidos não afetarão os valores de quantidade mínima real para cada produto até que você selecione **Lançar** no Painel de Ações. Nesse momento, os valores de **Nova quantidade mínima** serão aplicados a cada produto.
 
 1. Acesse **Planejamento mestre \> Planejamento mestre \> Executar \> Cálculo de estoque de segurança**.
-1. Abra o diário para o qual calcular uma proposta. Como alternativa, crie um diário conforme descrito anteriormente neste tópico.
+1. Abra o diário para o qual calcular uma proposta. Como alternativa, crie um diário conforme descrito anteriormente neste artigo.
 1. Na Guia Rápida **Linhas do diário**, selecione **Calcular proposta** na barra de ferramentas. (Não é necessário selecionar linhas.)
 1. Na caixa de diálogo **Calcular proposta de nível de estoque mínimo**, defina os seguintes campos:
 

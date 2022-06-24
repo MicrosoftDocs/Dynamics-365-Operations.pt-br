@@ -1,6 +1,6 @@
 ---
 title: Diretrizes de implantação para o exemplo de integração da impressora fiscal para a Polônia (herdado)
-description: Este tópico fornece diretrizes para a implantação do exemplo de integração da impressora fiscal para a Polônia do kit de desenvolvimento de software do Microsoft Dynamics 365 Commerce Retail (SDK).
+description: Este artigo fornece diretrizes para a implantação do exemplo de integração da impressora fiscal para a Polônia do kit de desenvolvimento de software do Microsoft Dynamics 365 Commerce Retail (SDK).
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 3de7559838a8d8caf64993a468f06ba2d50fff46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076979"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851148"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Diretrizes de implantação para o exemplo de integração da impressora fiscal para a Polônia (herdado)
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico fornece diretrizes para a implantação do exemplo de integração da impressora fiscal para a Polônia do kit de desenvolvimento de software do Microsoft Dynamics 365 Commerce Retail em uma máquina virtual de desenvolvedor (VM) em Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre este exemplo de integração fiscal, consulte [Exemplo de integração da impressora fiscal para a Polônia](emea-pol-fpi-sample.md). 
+Este artigo fornece diretrizes para a implantação do exemplo de integração da impressora fiscal para a Polônia do kit de desenvolvimento de software do Microsoft Dynamics 365 Commerce Retail em uma máquina virtual de desenvolvedor (VM) em Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre este exemplo de integração fiscal, consulte [Exemplo de integração da impressora fiscal para a Polônia](emea-pol-fpi-sample.md). 
 
-O exemplo de integração fiscal para a Polônia faz parte do SDK do Retail. Para obter informações sobre como instalar e usar o SDK, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Este exemplo consiste em extensões para o Commerce Runtime (CRT) e a estação de hardware. Para executar este exemplo, você deve modificar e criar os projetos do CRT e estação de hardware. É recomendável usar um SDK não modificado do Retail para fazer as alterações descritas neste tópico. Também é recomendável usar um sistema de controle do código-fonte, como o Azure DevOps, onde nenhum arquivo foi alterado ainda.
+O exemplo de integração fiscal para a Polônia faz parte do SDK do Retail. Para obter informações sobre como instalar e usar o SDK, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Este exemplo consiste em extensões para o Commerce Runtime (CRT) e a estação de hardware. Para executar este exemplo, você deve modificar e criar os projetos do CRT e estação de hardware. É recomendável usar um SDK não modificado do Retail para fazer as alterações descritas neste artigo. Também é recomendável usar um sistema de controle do código-fonte, como o Azure DevOps, onde nenhum arquivo foi alterado ainda.
 
 ## <a name="development-environment"></a>Ambiente de desenvolvimento
 
@@ -130,7 +130,7 @@ Para obter mais informações sobre o design da solução de integração fiscal
 
 O manipulador de solicitações **DocumentProviderPosnetProtocol** é o ponto de entrada para a solicitação gerar documentos da impressora fiscal.
 
-O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce Headquarters.
+O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -139,7 +139,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração está na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações para que o provedor de documentos seja configurado na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+O arquivo de configuração está na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações para que o provedor de documentos seja configurado no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
 
 - Mapeamento das alíquotas do IVA
 - Mapeamento do tipo de meio de pagamento
@@ -155,7 +155,7 @@ A extensão da estação de hardware é **HardwareStation.Extension.PosnetTherma
 
 O manipulador de solicitações **FiscalPrinterHandler** é o ponto de entrada para o manuseio da solicitação ao dispositivo periférico fiscal.
 
-O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce Headquarters.
+O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -165,7 +165,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração está localizados na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações para que o conector seja configurado na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+O arquivo de configuração está localizados na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações para que o conector seja configurado no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
 
 - **Cadeia de conexão** – Uma cadeia de caracteres que descreve os detalhes da conexão com o dispositivo em um formato compatível com o driver. Para obter mais informações, consulte a documentação do driver POSNET.
 - **Sincronização de data e hora** – Um valor que especifica se a data e a hora da impressora devem ser sincronizadas com a estação de hardware conectada.

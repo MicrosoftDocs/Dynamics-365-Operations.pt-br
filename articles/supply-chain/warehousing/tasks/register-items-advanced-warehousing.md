@@ -1,6 +1,6 @@
 ---
 title: Registrar itens para um item habilitado de depósito avançado usando um diário de entrada de item
-description: Este tópico apresenta um cenário que mostra como registrar itens usando o diário de entrada de itens quando você estiver usando processos de gerenciamento de depósito avançado.
+description: Este artigo apresenta um cenário que mostra como registrar itens usando o diário de entrada de itens quando você estiver usando processos de gerenciamento de depósito avançado.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863611"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrar itens para um item habilitado de depósito avançado usando um diário de entrada de item
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico apresenta um cenário que mostra como registrar itens usando o diário de entrada de itens quando você estiver usando processos de gerenciamento de depósito avançado. Normalmente isso é feito por um vendedor de remessa.
+Este artigo apresenta um cenário que mostra como registrar itens usando o diário de entrada de itens quando você estiver usando processos de gerenciamento de depósito avançado. Normalmente isso é feito por um vendedor de remessa.
 
 ## <a name="enable-sample-data"></a>Habilitar dados de exemplo
 
-Para trabalhar neste cenário usando os exemplos de registros e valores especificados neste tópico, você deve usar um sistema em que os dados de demonstração padrão são instalados e deve selecionar a entidade legal *USMF* antes de começar.
+Para trabalhar neste cenário usando os exemplos de registros e valores especificados neste artigo, você deve usar um sistema em que os dados de demonstração padrão são instalados e deve selecionar a entidade legal *USMF* antes de começar.
 
 Você pode trabalhar por meio desse cenário substituindo valores de seus próprios dados desde que tenha os seguintes dados disponíveis:
 

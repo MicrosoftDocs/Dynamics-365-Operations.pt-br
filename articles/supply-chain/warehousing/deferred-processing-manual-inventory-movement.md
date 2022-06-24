@@ -1,6 +1,6 @@
 ---
 title: Processamento adiado de movimento de estoque manual
-description: Este tópico descreve como usar o processamento adiado do movimento de estoque manual no Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo descreve como usar o processamento adiado do movimento de estoque manual no Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863727"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Processamento adiado de movimento de estoque manual
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como usar o processamento adiado do movimento de estoque manual no Microsoft Dynamics 365 Supply Chain Management.
+Este artigo descreve como usar o processamento adiado do movimento de estoque manual no Microsoft Dynamics 365 Supply Chain Management.
 
 O processamento adiado permite que trabalhadores de depósito continuem a fazer outros trabalhos enquanto uma operação colocada é processada em segundo plano. O processamento adiado é útil quando o servidor pode ter aumentos ocasionais ou não planejados no tempo de processamento e o tempo de processamento maior pode afetar a produtividade do trabalhador. O tipo de trabalho *movimento de estoque* foi agora adicionado ao conjunto de tipos de trabalho que esse recurso suporta.
 

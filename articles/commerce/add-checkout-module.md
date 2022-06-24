@@ -1,6 +1,6 @@
 ---
 title: Módulo de finalização da compra
-description: Este tópico descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
+description: Este artigo descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a30d56d7edf967a3afab7442338dd9f480ef7fd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869019"
 ---
 # <a name="checkout-module"></a>Módulo de finalização da compra
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
+Este artigo descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 
 Um módulo de finalização da compra é um contêiner especial que hospeda todos os módulos necessários para criar um pedido. Apresenta um fluxo passo a passo que um cliente usa para inserir todas as informações relevantes para fazer uma compra. Ele captura o endereço de remessa, o método de remessa e as informações de cobrança. Ele também fornece um resumo do pedido e outras informações relacionadas a um pedido do cliente.
 
@@ -44,7 +44,7 @@ Um módulo de finalização de compra mostra um resumo do pedido e fornece a fun
 | Título da finalização da compra | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um cabeçalho para o módulo de finalização da compra. |
 | Título do resumo da ordem | Texto do título | Um cabeçalho para a seção de resumo do pedido do módulo. |
 | Título dos itens de linha do carrinho | Texto do título | Um título para os itens da linha do carrinho que são mostrados no módulo de finalização da compra. |
-| Mostrar encargos de remessa no item de linha | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **True**, os encargos de remessa aplicáveis para itens de linha serão mostrados nas linhas do carrinho. Se o recurso **Encargo de cabeçalho sem rateio** for ativado no Commerce Headquarters, o encargo de remessa será aplicado no nível do cabeçalho, não no nível da linha. Esse recurso foi adicionado no Commerce versão 10.0.13. |
+| Mostrar encargos de remessa no item de linha | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **True**, os encargos de remessa aplicáveis para itens de linha serão mostrados nas linhas do carrinho. Se o recurso **Encargo de cabeçalho sem rateio** for ativado no Commerce headquarters, o encargo de remessa será aplicado no nível do cabeçalho, não no nível da linha. Esse recurso foi adicionado no Commerce versão 10.0.13. |
 
 ## <a name="modules-that-can-be-used-in-the-checkout-module"></a>Módulos que podem ser usados no módulo de finalização da compra
 

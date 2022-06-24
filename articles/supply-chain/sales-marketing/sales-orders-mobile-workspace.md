@@ -1,6 +1,6 @@
 ---
 title: Espaço de trabalho móvel das ordens de venda
-description: Este tópico fornece informações sobre a área de trabalho móvel de ordens de vendas. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar.
+description: Este artigo fornece informações sobre a área de trabalho móvel de ordens de vendas. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar.
 author: Henrikan
 ms.date: 05/24/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: be9fd32f5f5d80bb9bce5f0de7e4ff92d6f5d28f
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: fc04a90c0c071508c9ebee57862a029de0e58f9a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844754"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Espaço de trabalho móvel das ordens de venda
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Este tópico fornece informações sobre a área de trabalho móvel de **Ordens de venda**. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar. 
+Este artigo fornece informações sobre a área de trabalho móvel de **ordens de vendas**. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar. 
 
 Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel de finanças e operações (Dynamics 365).
 

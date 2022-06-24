@@ -1,6 +1,6 @@
 ---
 title: Configurações do aplicativo de ponto de venda (PDV) e de idioma do usuário
-description: Este tópico descreve como alterar as configurações de idioma no Modern POS (MPOS) e PDV em Nuvem.
+description: Este artigo descreve como alterar as configurações de idioma no Modern POS (MPOS) e PDV em Nuvem.
 author: jblucher
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15490885b5ce366edbab669893f3c3e36585f308
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863338"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Configurações do aplicativo de ponto de venda (PDV) e de idioma do usuário
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como alterar as configurações de idioma no Modern POS (MPOS) e PDV em Nuvem.
+Este artigo descreve como alterar as configurações de idioma no Modern POS (MPOS) e PDV em Nuvem.
 
 ## <a name="overview"></a>Visão geral
 O Modern POS (MPOS) e o PDV em Nuvem dão suporte a ambientes em que configurações de idioma e traduções podem variar entre as configurações de loja e de usuário. Por exemplo, a loja pode estar localizada em uma região onde o inglês é mais comum para seus clientes, mas alguns trabalhadores preferem usar o aplicativo com as traduções em francês.

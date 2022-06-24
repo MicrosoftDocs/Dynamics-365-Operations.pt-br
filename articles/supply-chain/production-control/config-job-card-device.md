@@ -1,6 +1,6 @@
 ---
-title: Configurar o cartão de trabalho para dispositivos
-description: Este tópico descreve as várias opções para configurar o dispositivo de ficha de trabalho.
+title: Configurar a ficha de trabalho para dispositivos
+description: Este artigo descreve as várias opções para configurar o dispositivo de ficha de trabalho.
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860715"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurar o cartão de trabalho para dispositivos
 
 [!include [banner](../includes/banner.md)]
 
-O dispositivo de ficha de trabalho é usado pelos funcionários de chão de fábrica para registrar o trabalho diário; por exemplo, quando os trabalhos são iniciados, relatar comentários sobre trabalhos, registrar atividades indiretas e relatar a ausência. Esses registros são a base para controlar o progresso e o custo em ordens de produção e para calcular a base para o pagamento dos trabalhadores. Este tópico descreve as várias opções para configurar dispositivos de ficha de trabalho.
+O dispositivo de ficha de trabalho é usado pelos funcionários de chão de fábrica para registrar o trabalho diário; por exemplo, quando os trabalhos são iniciados, relatar comentários sobre trabalhos, registrar atividades indiretas e relatar a ausência. Esses registros são a base para controlar o progresso e o custo em ordens de produção e para calcular a base para o pagamento dos trabalhadores. Este artigo descreve as várias opções para configurar dispositivos de ficha de trabalho.
 
 ## <a name="enable-new-features-in-feature-management"></a>Habilitar novos recursos no gerenciamento de recursos
 
-Algumas das configurações descritas neste tópico devem ser habilitadas no sistema para que elas possam ser disponibilizadas para você. Use a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar qualquer ou todos os recursos a seguir, conforme a necessidade.
+Algumas das configurações descritas neste artigo devem ser habilitadas no sistema para que elas possam ser disponibilizadas para você. Use a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar qualquer ou todos os recursos a seguir, conforme a necessidade.
 
 ### <a name="generate-license-plate"></a>Gerar placa de licença
 

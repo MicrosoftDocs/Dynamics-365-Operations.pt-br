@@ -1,6 +1,6 @@
 ---
 title: Roteiros e operações
-description: Este tópico fornece informações sobre roteiros e operações.
+description: Este artigo fornece informações sobre roteiros e operações.
 author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: 103c7007cd002c5953d096ff6001a93c4936b702
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856009"
 ---
 # <a name="routes-and-operations"></a>Roteiros e operações
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre roteiros e operações. Um roteiro define o processo para produção de um produto ou grade de produto. Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas. Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado.
+Este artigo fornece informações sobre roteiros e operações. Um roteiro define o processo para produção de um produto ou grade de produto. Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas. Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado.
 
 ## <a name="overview"></a>Visão Geral
 

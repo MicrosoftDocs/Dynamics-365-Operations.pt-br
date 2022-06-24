@@ -1,6 +1,6 @@
 ---
 title: Configurar um canal de call center
-description: Este tópico descreve como criar um novo canal de call center no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como criar um novo canal de call center no Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 03/13/2020
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 219c84eb9a8c3b53467ed48c13775106c82dac63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864946"
 ---
 # <a name="set-up-a-call-center-channel"></a>Configurar um canal de call center
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar um novo canal de call center no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como criar um novo canal de call center no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 
 No Dynamics 365 Commerce, o call center é um tipo de canal do Commerce que pode ser definido no aplicativo. Definir um canal para as entidades de call center permite que o sistema vincule dados e padrões de processamento de ordens específicos a ordens de venda. Embora uma empresa possa definir vários canais de call center no Commerce, é importante observar que um usuário individual pode estar vinculado apenas a um canal de call center. 
@@ -101,13 +101,13 @@ A imagem a seguir mostra um exemplo de modo de entrega.
 
 ### <a name="set-up-channel-users"></a>Configurar usuários do canal
 
-Para criar uma ordem de venda que esteja vinculada ao canal de call center da sede do Commerce, o usuário que criar a ordem de venda deverá estar vinculada ao canal de call center. O usuário não poderá vincular manualmente uma ordem de venda criada na sede do Commerce ao canal de call center. O link é sistemático e baseado no usuário e no relacionamento do usuário com o canal de call center. Um usuário pode estar vinculado apenas a um canal de call center.
+Para criar uma ordem de venda que esteja vinculada ao canal de call center do Commerce headquarters, o usuário que criar o pedido de venda deverá estar vinculada ao canal de call center. O usuário não poderá vincular manualmente um pedido de venda criada no Commerce headquarters ao canal de call center. O link é sistemático e baseado no usuário e no relacionamento do usuário com o canal de call center. Um usuário pode estar vinculado apenas a um canal de call center.
 
 1. No painel de ação, selecione a guia **Canal** e, depois, **Usuários do canal**.
 1. No painel de ação, selecione **Novo**.
 1. Escolha uma **ID do Usuário** existente na lista de seleção suspensa para vincular esse usuário ao canal de call center
 
-Depois que a configuração do usuário do canal for concluída e o usuário criar uma ordem de venda na sede do Commerce, a ordem do cliente será vinculada ao canal de call center associado. Quaisquer configurações desse canal serão aplicadas sistematicamente à ordem de venda. Um usuário pode confirmar a qual canal de call center a ordem de venda está vinculada, visualizando a referência do nome do canal no cabeçalho da ordem de venda.
+Depois que a configuração do usuário do canal for concluída e o usuário criar um pedido de venda no Commerce headquarters, o pedido de venda será vinculado ao canal de call center associado. Quaisquer configurações desse canal serão aplicadas sistematicamente à ordem de venda. Um usuário pode confirmar a qual canal de call center a ordem de venda está vinculada, visualizando a referência do nome do canal no cabeçalho da ordem de venda.
 
 
 ### <a name="set-up-price-groups"></a>Configurar grupos de preços

@@ -1,6 +1,6 @@
 ---
 title: Colocar ordens de sites B2B rapidamente
-description: Este tópico descreve os recursos do Microsoft Dynamics 365 Commerce que permitem que os usuários de sites business-to-business (B2B) coloquem ordens repetidas e em massa.
+description: Este artigo descreve os recursos do Microsoft Dynamics 365 Commerce que permitem que os usuários de sites business-to-business (B2B) coloquem ordens repetidas e em massa.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b13fb49c49b0a540b192f4dd0f3a847fb5dd8a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881352"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>Colocar ordens de sites B2B rapidamente
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve os recursos do Microsoft Dynamics 365 Commerce que permitem que os usuários de sites business-to-business (B2B) coloquem ordens repetidas e em massa.
+Este artigo descreve os recursos do Microsoft Dynamics 365 Commerce que permitem que os usuários de sites business-to-business (B2B) coloquem ordens repetidas e em massa.
 
 Os sites de comércio eletrônico B2B do Dynamics 365 Commerce permitem que os usuários executem operações padrão, como descobrir novos produtos por meio de pesquisa e navegação, exibir detalhes do produto, adicionar itens ao carrinho e finalizar compra. No entanto, enquanto os clientes dos sites business-to-consumer (B2C) geralmente encomendam itens em pequenas quantidades e os encomendam apenas uma vez, os clientes B2B normalmente encomendam itens em grandes quantidades e os encomendam novamente várias vezes. Como esses clientes geralmente sabem exatamente quais itens desejam comprar, eles geralmente ignoram a fase de descoberta de produtos e avançam diretamente para a encomenda. Para atender às necessidades desses clientes, os sites de comércio eletrônico B2B do Commerce fornecem vários recursos que ajudam a colocar ordens rapidamente.
 
@@ -65,4 +65,4 @@ A ilustração a seguir mostra um exemplo do histórico de ordens de um usuário
 
 ![Encomendar novamente no histórico de ordens.](../media/Reorder.png)
 
-Este tópico descreveu apenas algumas maneiras pelas quais os sites B2B do Commerce ajudam os usuários a encontrar, encomendar e encomendar de novo os produtos desejados com rapidez. Mais recursos estão em desenvolvimento para simplificar ainda mais o processo de captura de ordens em massa.
+Este artigo descreveu apenas algumas maneiras pelas quais os sites B2B do Commerce ajudam os usuários a encontrar, encomendar e encomendar de novo os produtos desejados com rapidez. Mais recursos estão em desenvolvimento para simplificar ainda mais o processo de captura de ordens em massa.

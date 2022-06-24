@@ -1,6 +1,6 @@
 ---
 title: Sincronizar produtos diretamente do Supply Chain Management com produtos do Sales
-description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos do Dynamics 365 Supply Chain Management para o Dynamics 365 Sales.
+description: Este artigo discute os modelos e as tarefas subjacentes usadas para sincronizar produtos do Dynamics 365 Supply Chain Management para o Dynamics 365 Sales.
 author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5195368f3de12c7e361905c3cca442067e39e000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855951"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Sincronizar produtos diretamente do Supply Chain Management com produtos do Sales
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062454"
 > [!NOTE]
 > Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Microsoft Dataverse para Aplicativos](/powerapps/administrator/data-integrator).
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos diretamente do Dynamics 365 Supply Chain Management para o Dynamics 365 Sales.
+Este artigo discute os modelos e as tarefas subjacentes usadas para sincronizar produtos diretamente do Dynamics 365 Supply Chain Management para o Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 
@@ -107,7 +107,7 @@ A ilustração a seguir mostra um exemplo de um mapeamento de modelo na Integra�
 ![Mapeamento de modelos no Integrador de dados.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [De cliente potencial ao pagamento à vista](prospect-to-cash.md)
 

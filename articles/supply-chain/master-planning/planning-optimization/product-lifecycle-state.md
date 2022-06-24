@@ -1,6 +1,6 @@
 ---
 title: Excluir produtos que têm estados específicos do ciclo de vida do produto
-description: Este tópico explica como excluir produtos com base no estado do ciclo de vida ao usar a funcionalidade de otimização de planejamento.
+description: Este artigo explica como excluir produtos com base no estado do ciclo de vida ao usar a funcionalidade de otimização de planejamento.
 author: t-benebo
 ms.date: 11/13/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: cdc1d47a4d12515e82e5feb55c5d473476e36873
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 6bf6f1d9a82200240f55c387396d9d70dfa6dfc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469188"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873830"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>Excluir produtos que têm estados específicos do ciclo de vida do produto
 

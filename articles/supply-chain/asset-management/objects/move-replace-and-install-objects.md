@@ -1,6 +1,6 @@
 ---
 title: Mover, substituir e instalar ativos
-description: Este tópico explica como mover, substituir e instalar ativos no Asset Management.
+description: Este artigo explica como mover, substituir e instalar ativos no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872113"
 ---
 # <a name="move-replace-and-install-assets"></a>Mover, substituir e instalar ativos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769626"
 
  
 
-Este tópico explica como mover, substituir e instalar ativos no Asset Management. Você pode criar ativos individuais sem relações com outros ativos, ou pode criar uma estrutura de ativos com um ativo pai (ativo de nível superior) e ativos secundários relacionados (subativos). No Asset Management, há três abordagens para mover e alterar o local de um ativo:
+Este artigo explica como mover, substituir e instalar ativos no Gerenciamento de Ativos. Você pode criar ativos individuais sem relações com outros ativos, ou pode criar uma estrutura de ativos com um ativo pai (ativo de nível superior) e ativos secundários relacionados (subativos). No Asset Management, há três abordagens para mover e alterar o local de um ativo:
 
 - **Mover** – mova um ativo para outra estrutura de ativos ou para outro local na mesma estrutura de ativos.
 - **Substituir** – remova temporariamente um ativo de uma estrutura de ativos para que ele possa ser reparado ou reformado, e então adicione o ativo reformado de volta à estrutura de ativos. Como alternativa, substitua permanentemente um ativo usado por um novo ativo.
@@ -42,7 +42,7 @@ Este tópico explica como mover, substituir e instalar ativos no Asset Managemen
 Use a função **Mover ativo** para mover um ativo para outra estrutura de ativos ou para outro local na mesma estrutura de ativos. Você também pode mover um ativo para fora da estrutura de ativos para que ele se torne um ativo autônomo sem nenhuma relação de estrutura.
 
 > [!NOTE]
-> Não use essa função se os ativos estiverem sendo reparados ou substituídos temporariamente. Em seu lugar, use a funcionalidade **Substituir ativo**, que será descrita posteriormente neste tópico.
+> Não use essa função se os ativos estiverem sendo reparados ou substituídos temporariamente. Em seu lugar, use a funcionalidade **Substituir ativo**, que será descrita posteriormente neste artigo.
 
 1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**.
 2. Na lista, selecione o ativo a ser movido. Se o ativo tiver ativos secundários, você também os moverá.

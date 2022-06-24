@@ -1,6 +1,6 @@
 ---
 title: Encargos para operações de não conformidade
-description: Este tópico descreve como criar encargos de qualidade que possam ser usados com operações para uma não conformidade.
+description: Este artigo descreve como criar encargos de qualidade que possam ser usados com operações para uma não conformidade.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac3306f3f9215ab03f408b8026f335dcf496515a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29520afca07adee49846d1be987685a1ece8283c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850718"
 ---
 # <a name="charges-for-nonconformance-operations"></a>Encargos para operações de não conformidade
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar encargos de qualidade que possam ser usados com operações para uma não conformidade.
+Este artigo descreve como criar encargos de qualidade que possam ser usados com operações para uma não conformidade.
 
 Use a página **Encargos de qualidade** para definir os tipos de encargos que podem ser adicionados a operações para uma não conformidade. Os encargos permitem acompanhar detalhes sobre taxas ou encargos que você deve a um cliente por produtos que não estão em conformidade ou que um fornecedor deve a você por produtos que não estão em conformidade recebidos. Você também pode usar encargos para rastrear os custos necessários para que fornecedores ou serviços externos executem uma operação.
 

@@ -1,6 +1,6 @@
 ---
 title: Identificadores do produto
-description: Este tópico fornece informações sobre os vários tipos de identificadores de produtos e explica como adicioná-los aos dados de produtos.
+description: Este artigo fornece informações sobre os vários tipos de identificadores de produtos e explica como adicioná-los aos dados de produtos.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851700"
 ---
 # <a name="product-identifiers"></a>Identificadores do produto
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063332"
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre os vários tipos de identificadores de produtos e explica como adicioná-los aos dados de produtos.
+Este artigo fornece informações sobre os vários tipos de identificadores de produtos e explica como adicioná-los aos dados de produtos.
 
 Ao trabalhar com produtos no chão de fábrica ou em um depósito no Microsoft Dynamics ERP ou no Microsoft Dynamics CRM, você deve ter uma boa estratégia para identificar esses produtos e grades de produtos.
 
@@ -125,7 +125,7 @@ Infelizmente, não há nenhuma funcionalidade padrão que permite pesquisar prod
 | Produtos V2 | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Dependendo das configurações da entidade e da sequência numérica do número do produto, o número do produto pode ser criado automaticamente no momento da importação. |
 | Variantes de produtos | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Dependendo do modelo de nomenclatura de produtos, o número do produto pode ser criado automaticamente no momento da importação. No entanto, você pode importar qualquer número de produto exclusivo, e esse número de produto não precisa seguir a estrutura dos modelos de nomenclatura de produtos. |
 | Traduções do produto | Nome do produto, descrição do produto | Nome do produto, descrição do produto | Essa entidade substitui qualquer idioma. Quando o nome ou a descrição do idioma principal de uma entidade legal são substituídos, o nome e a descrição do produto são alterados. |
-| Criação de produtos liberados V2 | Número do item, número do produto, nome de pesquisa do item| Número do item, número do produto, nome de pesquisa do item, nome de pesquisa do produto, nome do produto | Essa entidade pode ser um desafio quando sequências numéricas são usadas durante a criação de novos produtos liberados. Tanto a sequência numérica **Número do item** quanto a sequência numérica **Número do produto** têm uma influência. No entanto, a sequência numérica **Número do item** é por entidade legal, enquanto a sequência numérica **Número do produto** é global. Portanto, não é recomendável usar a sequência numérica **Número do item** ao implantar novos produtos liberados. Obviamente, quando a entidade é usada para liberar um produto existente, o número do produto deve ser fornecido na entidade. Para obter mais informações, consulte a seção “Sequências numéricas do item e do produto” neste tópico. |
+| Criação de produtos liberados V2 | Número do item, número do produto, nome de pesquisa do item| Número do item, número do produto, nome de pesquisa do item, nome de pesquisa do produto, nome do produto | Essa entidade pode ser um desafio quando sequências numéricas são usadas durante a criação de novos produtos liberados. Tanto a sequência numérica **Número do item** quanto a sequência numérica **Número do produto** têm uma influência. No entanto, a sequência numérica **Número do item** é por entidade legal, enquanto a sequência numérica **Número do produto** é global. Portanto, não é recomendável usar a sequência numérica **Número do item** ao implantar novos produtos liberados. Obviamente, quando a entidade é usada para liberar um produto existente, o número do produto deve ser fornecido na entidade. Para obter mais informações, consulte a seção “Sequências numéricas do item e do produto” neste artigo. |
 | Grades de produtos liberadas | Número do item, dimensões do produto, número do produto | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto, dimensões do produto | Assim como a entidade **Grades de produtos**, essa entidade pode ser usada para criar novos produtos que seguem o modelo de nomenclatura de produtos ou usam seus próprios números de produto para a grade. |
 | Descrição de itens externos para clientes | Número de item do cliente, nome de item do cliente, descrição do cliente, conta de cliente | Número de item do cliente, nome de item do cliente, descrição do cliente, conta de cliente | Um grupo de clientes (por exemplo, uma associação de compradores) pode ser agregado em um grupo usando a entidade **Grupos de clientes para descrição de item externo**. |
 | Descrição de itens externos para fornecedores | Número de item do fornecedor, nome de item do fornecedor, descrição do fornecedor, conta de fornecedor | Número de item do fornecedor, nome de item do fornecedor, descrição do fornecedor, conta de fornecedor | Um grupo de fornecedores (por exemplo, uma associação de vendas ou organização da indústria) pode ser agregado em um grupo usando a entidade **Grupos de fornecedores para descrição de item externo**. |
@@ -184,7 +184,7 @@ Siga estas etapas para configurar o ambiente.
 
 Agora você pode usar as entidades de dados **Entidade de identificador de Common Data Service de entidade de produto**, **Código de identificador de entidade Produto** e **Escopo de identificador de entidade Produto** para exportar os identificadores para qualquer sistema de destino.
 
-## <a name="related-topic"></a>Tópico relacionado
+## <a name="related-article"></a>Artigo relacionado
 
 [Procurar produtos e grades de produtos durante uma entrada de ordem](search-products-product-variants.md)
 

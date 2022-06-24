@@ -1,6 +1,6 @@
 ---
 title: Planejamento de produção
-description: Este tópico descreve o planejamento de produção e explica como modificar as ordens de produção planejadas usando a Otimização de Planejamento.
+description: Este artigo descreve o planejamento de produção e explica como modificar as ordens de produção planejadas usando a Otimização de Planejamento.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469048"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873772"
 ---
 # <a name="production-planning"></a>Planejamento de produção
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469048"
 
 A Otimização de Planejamento oferece suporte a vários cenários de produção. Se você estiver migrando do mecanismo de planejamento principal integrado já existente, é importante estar ciente de alteração no comportamento.
 
-O vídeo a seguir apresenta uma breve introdução a alguns dos conceitos abordados neste tópico: [Dynamics 365 Supply Chain Management: aprimoramentos na Otimização de Planejamento](https://youtu.be/u1pcmZuZBTw).
+O vídeo a seguir apresenta uma breve introdução a alguns dos conceitos abordados neste artigo: [Dynamics 365 Supply Chain Management: aprimoramentos na Otimização de Planejamento](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Ative este recurso para o seu sistema
 
-Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Ordens de produção planejadas usando a Otimização de Planejamento*.
+Se o sistema ainda não incluir os recursos descritos neste artigo, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Ordens de produção planejadas usando a Otimização de Planejamento*.
 
 ## <a name="planned-production-orders"></a>Ordens de Produção Planejadas
 
@@ -65,7 +65,7 @@ Se você quiser alterar as informações em uma ordem planejada e ver o impacto 
 2. Aprove a ordem planejada.
 3. Execute o planejamento mestre.
 
-Ao executar o planejamento mestre, você não deverá usar filtros se ordens de produção planejadas forem incluídas. Para obter mais informações, consulte a seção [Filtros](#filters) posteriormente neste tópico.
+Ao executar o planejamento mestre, você não deverá usar filtros se ordens de produção planejadas forem incluídas. Para obter mais informações, consulte a seção [Filtros](#filters) posteriormente neste artigo.
 
 > [!NOTE]
 > Se a data de entrega da ordem planejada for alterada para uma data posterior, a demanda poderá ser vinculada a uma nova ordem planejada. Esse comportamento ocorre quando a nova data de fornecimento causa um atraso para a demanda vinculada, mas, de acordo com as configurações de prazo de entrega, o atraso pode ser evitado.

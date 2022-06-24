@@ -1,6 +1,6 @@
 ---
 title: Cancelar a coleta de eventos da atividade Web
-description: Este tópico explica como você pode permitir que os visitantes do seu site recusem a coleta de eventos de atividade da Web no Microsoft Dynamics 365 Commerce.
+description: Este artigo explica como você pode permitir que os visitantes do seu site recusem a coleta de eventos de atividade da Web no Microsoft Dynamics 365 Commerce.
 author: aamiral
 ms.date: 05/15/2020
 ms.topic: article
@@ -14,17 +14,17 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d71a184b541f243ccc23914ac2e7c663e5ba61be0a27cf8d41e368fe6a384b9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78d3f795820eb36d1a81fb28875456e7471f8971
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878390"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Cancelar a coleta de eventos da atividade Web
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como você pode permitir que os clientes optem por cancelar a coleção de evento de atividade da Web no Microsoft Dynamics 365 Commerce.
+Este artigo explica como você pode permitir que os clientes optem por cancelar a coleção de evento de atividade da Web no Microsoft Dynamics 365 Commerce.
 
 O Dynamics 365 Commerce permite que os administradores de sites analisem a atividade da Web de usuários de seus sites de comércio eletrônico. Dessa forma, eles podem compreender melhor como os sites são usados e podem otimizar os sites para proporcionar uma experiência de usuário aprimorada e atender a objetivos comerciais.
 
@@ -37,7 +37,7 @@ Os administradores podem implementar uma experiência de recusa de três maneira
 
 No gerenciamento de contas no Commerce headquarters (HQ), os administradores podem recusar em nome de usuários.
 
-1. Nos cliente das sedes (HQ), na página **Todos os clientes**, procure e selecione um cliente.
+1. Nos cliente do HQ, na página **Todos os clientes**, procure e selecione um cliente.
 1. Na página de detalhes do cliente, na Guia Rápida **Varejo**, na seção **Privacidade**, defina a opção **Não rastrear atividade da Web** como **Sim**.
 
     ![Configurações de privacidade.](media/Disablepersonalizationpart2.png)

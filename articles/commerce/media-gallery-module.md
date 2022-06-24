@@ -1,6 +1,6 @@
 ---
 title: Módulo de galeria de mídia
-description: Este tópico abrange os módulos de galeria de mídia e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange os módulos de galeria de mídia e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 73eba2c39f9ebf1e4092545565b8cbf2db75cfb5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881726"
 ---
 # <a name="media-gallery-module"></a>Módulo de galeria de mídia
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de galeria de mídia e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos de galeria de mídia e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
 Os módulos de galeria de mídia mostram uma ou mais imagens em uma exibição da galeria. Os módulos de galeria de mídia oferecem suporte a imagens em miniatura, que podem ser organizadas horizontalmente (como uma linha abaixo da imagem) ou verticalmente (como uma coluna ao lado da imagem). Os módulos de galeria de mídia também fornecem recursos que permitem que as imagens sejam ampliadas (aumentadas) ou exibidas no modo de tela inteira. Para ser renderizada em um módulo de galeria de mídia, uma imagem deve estar disponível na Biblioteca de Mídia do construtor de sites do Commerce. No momento, os módulos de galeria de mídia oferecem suporte somente a imagens.
 
-No modo padrão, um módulo de galeria de mídia usa a ID do produto disponível no contexto da página de uma página de detalhes do produto (PDP) para renderizar as imagens de produto correspondentes. Um caminho de arquivo de mídia deve ser definido para todos os produtos na sede do Commerce. Em seguida, as imagens devem ser carregadas na Biblioteca de Mídia do construtor de sites de acordo com o caminho do arquivo definido para os produtos na sede do Commerce. Essas imagens incluem imagens de produtos e de variantes de produto. Para obter mais informações sobre como carregar imagens na Biblioteca de Mídia do construtor de sites, consulte [Carregar imagens](dam-upload-images.md).
+No modo padrão, um módulo de galeria de mídia usa a ID do produto disponível no contexto da página de uma página de detalhes do produto (PDP) para renderizar as imagens de produto correspondentes. Um caminho de arquivo de mídia deve ser definido para todos os produtos no Commerce headquarters. Em seguida, as imagens devem ser carregadas na Biblioteca de Mídia do construtor de sites de acordo com o caminho do arquivo definido para os produtos no Commerce headquarters. Essas imagens incluem imagens de produtos e de variantes de produto. Para obter mais informações sobre como carregar imagens na Biblioteca de Mídia do construtor de sites, consulte [Carregar imagens](dam-upload-images.md).
 
 Como alternativa, um módulo de galeria de mídia pode hospedar um conjunto de imagens totalmente organizado em uma página da galeria de imagens, em que não haja nenhuma dependência na ID do produto ou no contexto da página. Nesse caso, as imagens devem ser carregadas na Biblioteca de Mídia do construtor de sites e especificadas no site construtor de sites.
 

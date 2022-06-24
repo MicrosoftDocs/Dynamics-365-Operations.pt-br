@@ -1,6 +1,6 @@
 ---
 title: Página inicial de compras
-description: Este tópico oferece uma lista de tópicos da Ajuda e outros recursos disponíveis para Compras e fornecimento.
+description: Este artigo oferece uma lista de artigos da Ajuda e outros recursos disponíveis para Compras e fornecimento.
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885860"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de compras
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico oferece uma lista de tópicos da Ajuda e outros recursos disponíveis para Compras e fornecimento.
+Este artigo oferece uma lista de artigos da Ajuda e outros recursos disponíveis para Compras e fornecimento.
 
 A aquisição e o fornecimento abrangem todas as etapas, desde a identificação da necessidade de produtos e serviços até a aquisição do produto, o recebimento, o faturamento e o processamento do pagamento a fornecedores. Os processos de aquisição podem ser configurados de acordo com as necessidades dos negócios, por meio da definição de políticas e fluxos de trabalho. Para informações gerais, [Compras e visão geral de fornecimento](procurement-sourcing-overview.md). Recursos adicionais estão listados abaixo.
 

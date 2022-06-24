@@ -1,6 +1,6 @@
 ---
 title: Pré-requisitos de configuração de canal
-description: Este tópico apresenta uma visão geral dos pré-requisitos de configuração de canais no Microsoft Dynamics 365 Commerce.
+description: Este artigo apresenta uma visão geral dos pré-requisitos de configuração de canais no Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 02/21/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ad8911df00fde4675d4d9b52fcdd52ff58d4983b177316a7606de277328226b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 84b176ed07de8dd0828ba02cdbefd7a3795d984b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884924"
 ---
 # <a name="channel-setup-prerequisites"></a>Pré-requisitos de configuração de canal
 
 [!include [banner](includes/banner.md)]
 
-Este tópico apresenta uma visão geral dos pré-requisitos de configuração de canal no Microsoft Dynamics 365 Commerce.
+Este artigo apresenta uma visão geral dos pré-requisitos de configuração de canal no Microsoft Dynamics 365 Commerce.
 
 Para que um canal do Dynamics 365 Commerce possa ser criado, é preciso concluir várias tarefas de pré-requisito. As listas de tarefas de pré-requisito a seguir estão organizadas por tipo de canal.
 

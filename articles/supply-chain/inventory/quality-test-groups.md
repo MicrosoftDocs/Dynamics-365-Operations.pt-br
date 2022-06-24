@@ -1,6 +1,6 @@
 ---
 title: Grupos de teste de gerenciamento de qualidade
-description: Este tópico descreve como criar grupos de teste para que vários testes possam ser usados com ordens de qualidade no Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo descreve como criar grupos de teste para que vários testes possam ser usados com ordens de qualidade no Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5619be4a0724556bf0c51dcaa3adcc3725f10706
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: e7722bc92d8c2bf52d6a798a93f07af44037d4e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857683"
 ---
 # <a name="quality-management-test-groups"></a>Grupos de teste de gerenciamento de qualidade
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar grupos de teste para que vários testes possam ser usados com ordens de qualidade no Microsoft Dynamics 365 Supply Chain Management.
+Este artigo descreve como criar grupos de teste para que vários testes possam ser usados com ordens de qualidade no Microsoft Dynamics 365 Supply Chain Management.
 
 Use a página **Grupos de teste** para configurar, editar e exibir grupos de teste e os testes individuais atribuídos a eles. A parte superior da página mostra os grupos de teste e a parte inferior mostra os testes atribuídos a um grupo de teste selecionado.
 

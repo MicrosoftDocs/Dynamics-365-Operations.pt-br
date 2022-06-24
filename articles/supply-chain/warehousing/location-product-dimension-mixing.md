@@ -1,6 +1,6 @@
 ---
 title: Combinação de dimensões do produto de localização
-description: Este tópico fornece informações sobre a combinação de dimensões do produto de localização. Essa funcionalidade do perfil de localização ajuda a melhorar o gerenciamento de localização quando grades de produtos ou produtos que têm dimensões são usados, como na indústria da moda. Ela permite decidir se configurações, cores, estilos e tamanhos podem ser combinados para um perfil de localização específico ou se apenas uma dessas dimensões ou uma combinação delas podem ser colocadas no mesmo local.
+description: Este artigo fornece informações sobre a combinação de dimensões do produto de localização. Essa funcionalidade do perfil de localização ajuda a melhorar o gerenciamento de localização quando grades de produtos ou produtos que têm dimensões são usados, como na indústria da moda. Ela permite decidir se configurações, cores, estilos e tamanhos podem ser combinados para um perfil de localização específico ou se apenas uma dessas dimensões ou uma combinação delas podem ser colocadas no mesmo local.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9daf6061d56ef004753114aaffa8eb580cea1186
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885715"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinação de dimensões do produto de localização
 
@@ -28,7 +28,7 @@ A combinação de dimensões do produto de localização é uma funcionalidade d
 
 ## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Ativar ou desativar o recurso Combinação de dimensões do produto de localização
 
-Para usar a funcionalidade descrita neste tópico, o recurso *Combinação de dimensões do produto de localização* deve estar ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade pesquisando o recurso *Combinação de dimensões do produto de localização* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar a funcionalidade descrita neste artigo, o recurso *Combinação de dimensões do produto de localização* deve estar ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade pesquisando o recurso *Combinação de dimensões do produto de localização* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Configuração
 
@@ -44,7 +44,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
     > [!NOTE]
     > Você só poderá definir essa opção como *Sim* se a opção **Permitir itens mistos** estiver definida como *Não*.
 
-1. Na FastTab **Combinação de dimensões do produto permitida**, defina a opção **Tamanho** como *Sim*. No cenário descrito neste tópico, a combinação pode ser feita somente para produtos com dimensões de **Tamanho** diferentes. No entanto, outras opções também estão disponíveis.
+1. Na FastTab **Combinação de dimensões do produto permitida**, defina a opção **Tamanho** como *Sim*. No cenário descrito neste artigo, a combinação pode ser feita somente para produtos com dimensões de **Tamanho** diferentes. No entanto, outras opções também estão disponíveis.
 1. Selecione **Salvar**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Criar um novo produto mestre e grades de produtos

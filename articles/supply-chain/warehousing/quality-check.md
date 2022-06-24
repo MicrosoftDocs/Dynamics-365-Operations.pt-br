@@ -1,6 +1,6 @@
 ---
 title: Verificação de qualidade
-description: Este tópico fornece informações sobre o recurso Verificação de qualidade. Este recurso permite que os trabalhadores de depósito​ façam verificações por amostragem para saber a qualidade ao receberem itens para a área de doca de entrada.
+description: Este artigo fornece informações sobre o recurso Verificação de qualidade. Este recurso permite que os trabalhadores de depósito​ façam verificações por amostragem para saber a qualidade ao receberem itens para a área de doca de entrada.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855047"
 ---
 # <a name="quality-check"></a>Verificação de qualidade
 
@@ -41,11 +41,11 @@ Esse processo também pode ser configurado de forma que todas as placas de licen
 
 ## <a name="turn-the-quality-check-feature-on-or-off"></a>Ativar ou desativar o recurso Verificação de qualidade
 
-Para usar a funcionalidade descrita neste tópico, o recurso *Verificação de qualidade* deve estar ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Verificação de qualidade* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar a funcionalidade descrita neste artigo, o recurso *Verificação de qualidade* deve estar ativado para o sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Verificação de qualidade* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurar o recurso para o cenário de exemplo
 
-Esta seção fornece diretrizes e um exemplo que mostra como configurar o recurso *Verificação de qualidade* e preparar dados de exemplo para o cenário de exemplo fornecido mais adiante neste tópico.
+Esta seção fornece diretrizes e um exemplo que mostra como configurar o recurso *Verificação de qualidade* e preparar dados de exemplo para o cenário de exemplo fornecido mais adiante neste artigo.
 
 ### <a name="make-sample-data-available"></a>Disponibilizar dados de exemplo
 
@@ -270,7 +270,7 @@ Configure um item de menu para que os dispositivos móveis possam executar a fun
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Cenário de exemplo
 
-Após disponibilizar todos os dados de exemplo descritos anteriormente e configurá-los, você poderá trabalhar neste cenário para testar o recurso *Verificação de qualidade*. Os valores que são mostrados neste cenário pressupõem que você está trabalhando com os dados de demonstração padrão, que você selecionou a entidade legal **USMF** e preparou os registros de exemplo descritos anteriormente neste tópico. Esse cenário também serve como exemplo para mostrar como o recurso pode ser usado em uma configuração de produção.
+Após disponibilizar todos os dados de exemplo descritos anteriormente e configurá-los, você poderá trabalhar neste cenário para testar o recurso *Verificação de qualidade*. Os valores que são mostrados neste cenário pressupõem que você está trabalhando com os dados de demonstração padrão, que você selecionou a entidade legal **USMF** e preparou os registros de exemplo descritos anteriormente neste artigo. Esse cenário também serve como exemplo para mostrar como o recurso pode ser usado em uma configuração de produção.
 
 ### <a name="create-a-purchase-order"></a>Criar uma ordem de compra
 
@@ -357,7 +357,7 @@ Neste cenário, o palete 2 será rejeitado.
 
 Você acabou de concluir a verificação de qualidade e criou uma ordem de qualidade para o palete rejeitado. Para exibir a ordem que foi criada, Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 
-O teste da ordem de qualidade pode ser processado agora. O teste de qualidade não é abordado neste tópico.
+O teste da ordem de qualidade pode ser processado agora. O teste de qualidade não é abordado neste artigo.
 
 Para obter mais informações sobre o gerenciamento de qualidade, consulte [Visão geral do gerenciamento de qualidade](../inventory/enable-quality-management.md)
 

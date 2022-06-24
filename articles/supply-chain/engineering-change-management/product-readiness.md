@@ -1,6 +1,6 @@
 ---
 title: Preparação do produto
-description: Este tópico explica como você pode usar as verificações de preparação para garantir que os dados mestre necessários sejam preenchidos para um produto antes de usá-los em transações.
+description: Este artigo explica como você pode usar as verificações de prontidão para garantir que os dados mestre necessários sejam preenchidos para um produto antes de usá-los em transações.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a8e76d5fc786b6f4cac7cd0430399ca3ad13a7bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856212"
 ---
 # <a name="product-readiness"></a>Preparação do produto
 
@@ -61,7 +61,7 @@ Se uma *versão* de engenharia for criada para um produto, o sistema verifica se
 - A versão de engenharia está definida como inativa para bloquear o uso do produto.
 
 > [!NOTE]
-> Você também pode configurar políticas de verificação de preparação para produtos padrão (não de engenharia). Para obter mais informações, consulte a seção [Verificações de preparação em produtos padrão](#standard-products) posteriormente neste tópico.
+> Você também pode configurar políticas de verificação de preparação para produtos padrão (não de engenharia). Para obter mais informações, consulte a seção [Verificações de preparação em produtos padrão](#standard-products) posteriormente neste artigo.
 
 ## <a name="view-readiness-checks"></a>Exibir verificações de preparação
 
@@ -151,7 +151,7 @@ Para cada linha adicionada, defina os campos a seguir.
 | Empresa | Se você definir o campo **Executar em** como *Uma única empresa*, selecione a empresa. |
 | Tipo do proprietário | Selecione se as verificações de preparação que a linha gera devem ser atribuídas a uma pessoa ou a uma equipe. |
 | Proprietário | Selecione se as verificações de preparação que a linha gera devem ser atribuídas a uma pessoa ou a uma equipe. |
-| Questionário | Selecione o questionário que deve ser usado para a lista de verificação. A lista de verificação é uma lista de verificação local na empresa na qual a verificação de preparação está concluída. O sistema deve ser capaz de avaliar se a lista de verificação foi respondida corretamente. Portanto, a lista de verificação deve ser configurada de forma que uma avaliação seja feita com base nas respostas corretas. Para obter mais informações sobre como criar questionários, consulte [Usando questionários](/dynamicsax-2012/appuser-itpro/using-questionnaires) e os tópicos relacionados. |
+| Questionário | Selecione o questionário que deve ser usado para a lista de verificação. A lista de verificação é uma lista de verificação local na empresa na qual a verificação de preparação está concluída. O sistema deve ser capaz de avaliar se a lista de verificação foi respondida corretamente. Portanto, a lista de verificação deve ser configurada de forma que uma avaliação seja feita com base nas respostas corretas. Para obter mais informações sobre como criar questionários, consulte [Usando questionários](/dynamicsax-2012/appuser-itpro/using-questionnaires) e os artigos relacionados. |
 | Aprovação automática | Os registros de verificação de prontidão incluem uma caixa de seleção **Aprovado** que indica o status da aprovação. Marque a caixa de seleção **Aprovação automática** para verificações que devem ser definidas como aprovados imediatamente após o usuário atribuído concluí-los. Desmarque esta caixa de seleção para exigir aprovação explícita como uma etapa extra. |
 | Obrigatório | Marque esta caixa de seleção para os cheques que devem ser concluídos pelo usuário atribuído. As verificações obrigatórias não podem ser ignoradas. |
 
@@ -159,7 +159,7 @@ Para cada linha adicionada, defina os campos a seguir.
 
 ## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Atribuir políticas de preparação para produtos padrão e de engenharia
 
-Ao criar um produto com base em uma categoria de engenharia, você cria um *produto liberado* e um *produto compartilhado* relacionado. A forma como as políticas de preparação são resolvidas para um produto lançado depende de o recurso *Verificações de preparação do produto* estar ativado no sistema (consulte a seção [Verificações de preparação em produtos padrão](#standard-products) neste tópico para obter detalhes sobre esse recurso e como ativá-lo ou desativá-lo).
+Ao criar um produto com base em uma categoria de engenharia, você cria um *produto liberado* e um *produto compartilhado* relacionado. A forma como as políticas de preparação são resolvidas para um produto lançado depende de o recurso *Verificações de preparação do produto* estar ativado no sistema (consulte a seção [Verificações de preparação em produtos padrão](#standard-products) neste artigo para obter detalhes sobre esse recurso e como ativá-lo ou desativá-lo).
 
 - Quando o recurso *Verificações de preparação do produto* é *desativado* em seu sistema, a política de preparação é definida e exibida apenas em registros de [categoria de engenharia](engineering-versions-product-category.md). Para saber qual política se aplica a um produto lançado, o sistema verifica o campo **Política de preparo de produtos** para a categoria de engenharia relacionada. Você pode alterar a política de preparação para um produto existente editando a categoria de engenharia relacionada (não o produto compartilhado).
 - Quando o recurso *Verificações de preparação do produto* é *ativado*, ele adiciona um campo **Política de preparo de produtos** à página **Produto** (onde os produtos compartilhados são configurados) e à página **Produto liberado** (onde o valor é somente leitura e é obtido do produto compartilhado relacionado). O sistema encontra a política de preparação para um produto liberado verificando o produto compartilhado relacionado. Quando você usa uma categoria de engenharia para criar um produto de engenharia, o sistema cria um produto compartilhado e um produto liberado e copia qualquer configuração de **Política de preparo de produtos** da categoria de engenharia para o novo produto compartilhado. Você pode então alterar a política de preparação para um produto existente editando o produto compartilhado relacionado (não a categoria de engenharia liberada).
@@ -188,14 +188,14 @@ Esse recurso requer que os recursos *Gerenciamento de Alterações de Engenharia
 
 ### <a name="create-readiness-policies-for-standard-products"></a>Criar políticas de preparação para produtos padrão
 
-Você cria políticas de preparação para produtos padrão, assim como faz para produtos de engenharia. Veja as informações anteriores neste tópico.
+Você cria políticas de preparação para produtos padrão, assim como faz para produtos de engenharia. Veja as informações anteriores neste artigo.
 
 ### <a name="assign-readiness-policies-to-standard-products"></a>Atribuir políticas de preparação para produtos padrão
 
-Para atribuir uma política de preparação a um produto padrão, abra o produto compartilhado relacionado e defina o campo **Política de preparo de produtos** para o nome da política que deve ser aplicada. Para obter mais informações, consulte a seção [Atribuir políticas de preparação para produtos padrão e de engenharia](#assign-policy), anteriormente neste tópico.
+Para atribuir uma política de preparação a um produto padrão, abra o produto compartilhado relacionado e defina o campo **Política de preparo de produtos** para o nome da política que deve ser aplicada. Para obter mais informações, consulte a seção [Atribuir políticas de preparação para produtos padrão e de engenharia](#assign-policy), anteriormente neste artigo.
 
 ### <a name="view-and-process-readiness-checks-on-standard-products"></a>Exibir e processar verificações de preparação em produtos padrão
 
-Quando esse recurso está ativado, você exibe e processa verificações de preparação para produtos padrão da mesma forma que faz para produtos de engenharia. Veja as informações anteriores neste tópico.
+Quando esse recurso está ativado, você exibe e processa verificações de preparação para produtos padrão da mesma forma que faz para produtos de engenharia. Veja as informações anteriores neste artigo.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

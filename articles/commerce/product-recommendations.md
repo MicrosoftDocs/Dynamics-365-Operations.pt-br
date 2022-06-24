@@ -1,6 +1,6 @@
 ---
-title: Visão geral de recomendações de produtos
-description: Este tópico fornece informações gerais sobre as recomendações do produto. As recomendações de produtos permitem que os clientes encontrem com facilidade e rapidez os produtos que desejam e até produtos que não pretendiam comprar originalmente.
+title: Visão geral das recomendações de produtos
+description: Este artigo fornece informações gerais sobre as recomendações do produto. As recomendações de produtos permitem que os clientes encontrem com facilidade e rapidez os produtos que desejam e até produtos que não pretendiam comprar originalmente.
 author: Moonma
 ms.date: 05/26/2020
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7824de50a65370ef4f2f23b9c8e926f9bec2fcc3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2cb62638e89dd9cd7c01739244d808f664b3f3b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867723"
 ---
 # <a name="product-recommendations-overview"></a>Visão geral das recomendações de produtos
 

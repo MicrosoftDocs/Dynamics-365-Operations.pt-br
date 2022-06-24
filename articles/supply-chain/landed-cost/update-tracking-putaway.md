@@ -1,6 +1,6 @@
 ---
 title: Atualizar rastreamento a ser armazenado
-description: Este tópico descreve como configurar e executar o acompanhamento de atualizações para a tarefa periódica de armazenamento.
+description: Este artigo descreve como configurar e executar o Acompanhamento de atualizações para a tarefa periódica de armazenamento.
 author: Weijiesa
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f02ba71b4eb32551cebc6cf160f0285eac8ae7ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b36fe5a9828ea018881f08b8af27d77cdf0babc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882595"
 ---
 # <a name="update-tracking-for-put-away"></a>Atualizar rastreamento a ser armazenado
 

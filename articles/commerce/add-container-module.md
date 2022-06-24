@@ -1,6 +1,6 @@
 ---
 title: Módulo de contêiner
-description: Este tópico abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa4bf7523acee06e91f0ebb983dd8777dec4bac5
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4406b6ee998f3094e5a8a36d4f721839ffb427e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867831"
 ---
 # <a name="container-module"></a>Módulo de contêiner
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
 Um módulo de contêiner é um módulo dentro do qual outros módulos são hospedados. O objetivo principal de um módulo de contêiner é definir, por meio das suas propriedades definidas para isso, o layout dos módulos contidos nele. Por exemplo, esses módulos podem aparecer lado a lado em um layout de duas colunas, três colunas, quatro colunas ou seis colunas. Eles também podem ser limitados à largura do contêiner ou podem preencher a tela. Um cabeçalho também pode ser adicionado a cada módulo de contêiner.
 

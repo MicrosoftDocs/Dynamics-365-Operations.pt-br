@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849348"
 ---
 # <a name="purchase-requisition-workflow"></a>fluxo de trabalho de requisição de compra
 
@@ -89,7 +89,7 @@ Neste exemplo, o processo de fluxo de trabalho para as linhas de requisição de
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Configurando um fluxo de trabalho para requisições de compra
 Para rotear uma requisição de compra para revisão, você deverá configurar os processos de fluxo de trabalho da requisição de compra. O processo de fluxo de trabalho definido por você controla a interação entre o usuário que solicitou os itens (o solicitante) e o revisor e aprovador no fluxo de trabalho. O roteiro da requisição de compra depende das condições especificadas na configuração do fluxo de trabalho. Por exemplo, essas condições determinam quando a requisição de compra será enviada, o usuário ou a função para a qual ela deve ser enviada e as ações que os usuários podem executar.  
 
-Os exemplos deste tópico mostram como uma requisição de compra pode ser encaminhada através de um fluxo de trabalho como um único documento ou como linhas de requisição de compra individuais. Você também pode configurar um fluxo de trabalho para requisições de compra que refletem a revisão de controle interno das requisições de compra definidas para sua organização.  
+Os exemplos deste artigo mostram como uma requisição de compra pode ser encaminhada através de um fluxo de trabalho como um único documento ou como linhas de requisição de compra individuais. Você também pode configurar um fluxo de trabalho para requisições de compra que refletem a revisão de controle interno das requisições de compra definidas para sua organização.  
 
 Os participantes ou os revisores aos quais uma tarefa foi atribuída em um fluxo de trabalho podem ser membros de um grupo de usuários específico, usuários que têm uma função de segurança específica, usuários que estejam associados ao emissor em uma hierarquia administrativa ou usuários nomeados ou usuários que tenham responsabilidades específicas de despesas.
 

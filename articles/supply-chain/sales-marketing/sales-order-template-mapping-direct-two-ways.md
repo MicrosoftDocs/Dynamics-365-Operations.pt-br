@@ -1,6 +1,6 @@
 ---
 title: Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management
-description: O tópico discute os modelos e as tarefas subjacentes que são usados para executar a sincronização de ordens de venda diretamente entre o Dynamics 365 Sales e o Dynamics 365 Supply Chain Management.
+description: O artigo discute os modelos e as tarefas subjacentes que são usados para executar a sincronização de ordens de venda diretamente entre o Dynamics 365 Sales e o Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 63a9be9bedabe1f15ad8db583151aa7fa480473b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854142"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061509"
 
 
 
-O tópico discute os modelos e as tarefas subjacentes que são usados para executar a sincronização de ordens de venda diretamente entre o Dynamics 365 Sales e o Dynamics 365 Supply Chain Management.
+O artigo discute os modelos e as tarefas subjacentes que são usados para executar a sincronização de ordens de venda diretamente entre o Dynamics 365 Sales e o Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 
@@ -203,7 +203,7 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 [![Mapeamento de modelos na integração de dados, ordens de venda (Sales para Supply Chain Management) – Direto: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [De cliente potencial ao pagamento à vista](prospect-to-cash.md)
 

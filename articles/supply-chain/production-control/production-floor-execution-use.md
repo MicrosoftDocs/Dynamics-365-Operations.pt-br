@@ -1,6 +1,6 @@
 ---
 title: Como os trabalhadores usam a interface de execução de piso de produção
-description: Este tópico descreve como usar a interface de execução de piso de produção do ponto de vista de um trabalhador.
+description: Este artigo descreve como usar a interface de execução de piso de produção do ponto de vista de um trabalhador.
 author: johanhoffmann
 ms.date: 01/24/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860657"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Como os trabalhadores usam a interface de execução de piso de produção
 
@@ -34,7 +34,7 @@ Depois que o dispositivo tiver sido preparado, a página de entrada aparecerá n
 
 ![Página de entrada de interface de execução de piso de produção.](media/pfei-sign-in-page.png "Página de entrada de interface de execução de piso de produção")
 
-As seções restantes deste tópico descrevem como os funcionários interagem com a interface.
+As seções restantes deste artigo descrevem como os funcionários interagem com a interface.
 
 ## <a name="all-jobs-tab"></a>Guia Todos os trabalhos
 

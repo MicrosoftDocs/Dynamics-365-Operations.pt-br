@@ -1,6 +1,6 @@
 ---
 title: Ordens de quarentena
-description: Este tópico descreve como usar ordens de quarentena para bloquear o estoque.
+description: Este artigo descreve como usar ordens de quarentena para bloquear o estoque.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf0ec8f9f4d862724cb8ab72b48771ed68eaf39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3ee1ba338d90c6ee9cdc37948061f518040ae1a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568774"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869652"
 ---
 # <a name="quarantine-orders"></a>Ordens de quarentena
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como usar ordens de quarentena para bloquear o estoque.
+Este artigo descreve como usar ordens de quarentena para bloquear o estoque.
 
 As ordens de quarentena permitem bloquear o estoque. Por exemplo, talvez você deseje quarentena itens por motivos de controle de qualidade. Estoque que ficou em quarentena transferido para um depósito de quarentena.
 

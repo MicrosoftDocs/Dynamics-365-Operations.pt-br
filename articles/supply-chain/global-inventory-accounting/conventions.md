@@ -1,6 +1,6 @@
 ---
 title: Convenções
-description: Este tópico descreve como configurar convenções para estabelecer como os custos devem ser contabilizados na Contabilidade de estoque global.
+description: Este artigo descreve como configurar convenções para estabelecer como os custos devem ser contabilizados na Contabilidade de estoque global.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4919d8fcab76741175bad6ea090eea61d4146fa8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 0055757a0d012896232de58330ee142f702e4ed1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875384"
 ---
 # <a name="conventions"></a>Convenções
 

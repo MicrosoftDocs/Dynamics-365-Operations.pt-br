@@ -1,6 +1,6 @@
 ---
 title: Agendar ordens de serviço
-description: Este tópico explica como agendar ordens de serviço no Gerenciamento de Ativo.
+description: Este artigo explica como agendar ordens de serviço no Gerenciamento de Ativo.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845044"
 ---
 # <a name="schedule-work-orders"></a>Agendar ordens de serviço
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718050"
 
  
 
-Este tópico explica como agendar ordens de serviço no Gerenciamento de Ativo. 
+Este artigo explica como agendar ordens de serviço no Gerenciamento de Ativo. 
 
 O número necessário de horas para uma ordem de serviço é definido pela soma das horas previstas menos as horas lançadas. Se mais tempo for necessário, a previsão deve ser ajustada de acordo. Em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**, você pode exibir ou editar previsões em uma ordem de serviço selecionando ordem de serviço e clicando em **Previsão** na guia **Ordem de serviço**. Quando ordens de serviço foram criadas e estimadas, a próxima etapa para concluir ordens de serviço é alocar os funcionários de manutenção necessários e ferramentas.
 

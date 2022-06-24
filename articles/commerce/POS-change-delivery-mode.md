@@ -1,6 +1,6 @@
 ---
 title: Alterar modo de entrega no PDV
-description: Este tópico descreve como configurar e usar o modo de alteração da operação de entrega no PDV.
+description: Este artigo descreve como configurar e usar o modo de alteração da operação de entrega no PDV.
 author: hhainesms
 ms.date: 03/01/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 583f568164d0de70e22998bf5ded5f4616b00bd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855812"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Alterar modo de entrega no PDV
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como configurar e usar a funcionalidade "Alterar modo de entrega" no ambiente de ponto de venda (PDV). 
+Este artigo descreve como configurar e usar a funcionalidade "Alterar modo de entrega" no ambiente de ponto de venda (PDV). 
 
 Nas versões 10.0.10 e posteriores do Dynamics 365 Commerce, a operação **Alterar modo de entrega** (647) está disponível para ser adicionado aos layouts de tela de PDV.
 

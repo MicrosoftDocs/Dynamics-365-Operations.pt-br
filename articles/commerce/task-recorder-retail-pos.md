@@ -1,6 +1,6 @@
 ---
 title: Gravador de tarefa e Ajuda do Retail Modern POS (MPOS) e Cloud POS
-description: Este tópico descreve como utilizar o Gravador de tarefas no Retail Modern POS e no Cloud POS.
+description: Este artigo descreve como utilizar o Gravador de tarefas no Retail Modern POS e no Cloud POS.
 author: mugunthanm
 ms.date: 06/19/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847591"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Gravador de tarefa e Ajuda do Retail Modern POS (MPOS) e Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como utilizar o Gravador de tarefas no Retail Modern POS e no Cloud POS.
+Este artigo descreve como utilizar o Gravador de tarefas no Retail Modern POS e no Cloud POS.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O Gravador de tarefas do Retail Modern POS ou do PDV em Nuvem é uma nova solução que foi criada com foco na alta capacidade de resposta. Ele oferece uma API (interface de programa aplicativo) flexível para extensibilidade e integração direta com os registros dos consumidores do processo de negócios. Além disso, a integração do Gravador de tarefas com a ferramenta BPM (Modelador de processo de negócios) no Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) foi apresentada. Portanto, os usuários podem continuar a gerar diagramas sofisticados de processo de negócios a partir de gravações para analisar e projetar seus aplicativos.
 
@@ -139,7 +139,7 @@ Para mostrar suas próprias gravações de tarefas personalizadas no painel da A
 
 [![Botão Ajuda.](./media/help.jpg)](./media/help.jpg)
 
-Quando você clicar em uma Guia de tarefas nos resultados da pesquisa, poderá exibir as etapas como um tópico da Ajuda ou exportar as etapas para um documento do Word.
+Quando você clicar em uma Guia de tarefas nos resultados da pesquisa, poderá exibir as etapas como um artigo da Ajuda ou exportar as etapas para um documento do Word.
 
 > [!NOTE]
 > A ajuda no Retail Modern POS e Cloud POS não exibirá guias de tarefas de acordo com o formulário em que você está ou a operação que está fazendo. É necessário digitar o nome do processo na caixa de pesquisa e clique em **Pesquisar**.

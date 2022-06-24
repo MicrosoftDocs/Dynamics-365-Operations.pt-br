@@ -1,6 +1,6 @@
 ---
 title: Adicionar página de política de privacidade
-description: Este tópico descreve como adicionar uma página de política de privacidade ao seu site no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como adicionar uma página de política de privacidade ao seu site no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: faf2072a5c53aa84f0de2e6d2478557bf96b7832e3433ad4cba971bc3f6e5880
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f220ee5502f269299d2af253d7790e503668c0ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871693"
 ---
 # <a name="add-a-privacy-policy-page"></a>Adicionar página de política de privacidade
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como adicionar uma página de política de privacidade ao seu site no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como adicionar uma página de política de privacidade ao seu site no Microsoft Dynamics 365 Commerce.
 
 A conformidade com privacidade inclui medidas organizacionais que informam os usuários do site sobre como os dados são coletados e manipulados. Os usuários podem então decidir como querem que seus dados pessoais sejam manuseados e podem tomar a ação apropriada.
 

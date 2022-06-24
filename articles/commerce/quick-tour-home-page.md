@@ -1,6 +1,6 @@
 ---
 title: Visão geral da página inicial
-description: Este tópico fornece uma visão geral da home page no Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral da home page no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844663"
 ---
 # <a name="home-page-overview"></a>Visão geral da página inicial
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral da home page no Microsoft Dynamics 365 Commerce.
+Este artigo fornece uma visão geral da home page no Microsoft Dynamics 365 Commerce.
 
 A home page é página padrão para a qual os compradores vão quando visitam um site de comércio eletrônico. Normalmente, esta página apresenta produtos e promoções com uma combinação de módulos de marketing. A home page deve ser sofisticada, com imagens e texto para manter os compradores envolvidos.
 
@@ -33,7 +33,7 @@ A ilustração a seguir mostra um exemplo de uma home page que é criada com a b
 
 ![Exemplo de uma home page.](./media/Homepage2.PNG)
 
-A parte superior da home page possui um cabeçalho que mostra todas as categorias de produtos e outras páginas que o varejista deseja que os clientes procurem. A parte inferior da home page possui um rodapé que contém links rápidos para vários tópicos que podem interessar aos clientes.
+A parte superior da home page possui um cabeçalho que mostra todas as categorias de produtos e outras páginas que o varejista deseja que os clientes procurem. A parte inferior da home page possui um rodapé que contém links rápidos para vários artigos que podem interessar aos clientes.
 
 A seção principal da página inicial pode destacar produtos, categorias ou promoções usando vários módulos do Dynamics 365 Commerce:
 
@@ -49,8 +49,8 @@ A seção principal da página inicial pode destacar produtos, categorias ou pro
 
     ![Exemplos de módulos de recursos.](./media/Feature.PNG)
 
-- **Bloco** – Um layout de bloco de um módulo de bloco de conteúdo é usado para apresentar vários produtos ou categoria de produtos usando uma combinação de imagens e de texto em um layout com várias colunas. Na ilustração de uma home page exibida anteriormente neste tópico, layout de bloco é usado para a renderização de três colunas dos itens **Compras Femininas**, **Compras Masculinas** e **Compra de Acessórios**.
-- **Player de vídeo** – Um módulo de player de vídeo pode ser usado para mostrar o conteúdo de vídeo na home page. A ilustração de uma home page que apareceu anteriormente neste tópico tem um módulo de player de vídeo.
+- **Bloco** – Um layout de bloco de um módulo de bloco de conteúdo é usado para apresentar vários produtos ou categoria de produtos usando uma combinação de imagens e de texto em um layout com várias colunas. Na ilustração de uma home page exibida anteriormente neste artigo, layout de bloco é usado para a renderização de três colunas dos itens **Compras Femininas**, **Compras Masculinas** e **Compra de Acessórios**.
+- **Player de vídeo** – Um módulo de player de vídeo pode ser usado para mostrar o conteúdo de vídeo na home page. A ilustração de uma home page que apareceu anteriormente neste artigo tem um módulo de player de vídeo.
 - **Bloco de texto** – Um bloco de conteúdo sofisticado pode ser usado para mostrar o conteúdo do texto na home page com um layout de uma única coluna ou várias colunas.
 - **Recomendações de produto** – Os módulos de recomendações de produto são usados para exibir listas como, **Novo**, **Mais Populares** e **Mais Vendidos** na home page. Essas listas mostram produtos com base nas tendências de compras e podem ser geradas por algoritmo ou selecionadas manualmente. Elas ajudam os clientes a descobrirem rapidamente os principais produtos e, em seguida, continuarem comprando.
 

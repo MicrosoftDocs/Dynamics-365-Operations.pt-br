@@ -1,6 +1,6 @@
 ---
-title: Visão geral do módulo de gerenciamento de reembolso
-description: Este tópico fornece uma visão geral do módulo de gerenciamento de reembolso para o Microsoft Dynamics 365 Supply Chain Management.
+title: Visão geral do módulo de gerenciamento de reembolsos
+description: Este artigo fornece uma visão geral do módulo de gerenciamento de reembolso para o Microsoft Dynamics 365 Supply Chain Management.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 13c40566f0842360cd730b0578b665fa3646344d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cfba391536559ed3a967d0aafe2e352486777dda
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873627"
 ---
 # <a name="rebate-management-module-overview"></a>Visão geral do módulo de gerenciamento de reembolso
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar lojas online
-description: Este artigo fornece links para tópicos que ajudarão você a configurar e gerenciar centralmente uma loja online.
+description: Este artigo fornece links para artigos que ajudarão você a configurar e gerenciar centralmente uma loja online.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734095"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861870"
 ---
 # <a name="configure-online-stores"></a>Configurar lojas online
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece links para tópicos que ajudarão você a configurar e gerenciar centralmente uma loja online.
+Este artigo fornece links para artigos que ajudarão você a configurar e gerenciar centralmente uma loja online.
 
-Os tópicos listados na tabela a seguir ajudam a configurar os componentes do Commerce e a loja on-line no cliente.
+Os artigos listados na tabela a seguir ajudam a configurar os componentes do Commerce e a loja online no cliente.
 
 ## <a name="configure-an-online-store"></a>Configurar uma loja online
 
-| Tarefa                                                | Detalhes                                                                                                                                                                                                                                                                                                                                                   | Tópicos                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Tarefa                                                | Detalhes                                                                                                                                                                                                                                                                                                                                                   | Artigos                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configure os componentes.                        | Configure e mantenha as informações de operações de comércio. Essas informações incluem lojas, impostos, produtos, vales-presentes, promoções e descontos.                                                                                                                                                                                                          | [Configurando e mantendo Retail](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) (conteúdo do TechNet para Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
 | Configure uma hierarquia de navegação de canal.    | Crie uma hierarquia de categoria de navegação de canal para configurar uma estrutura de categoria para os produtos que você oferece em uma loja online. Defina a hierarquia de categoria e atribua os produtos, os grupos de atributos de produto e os valores de atributo às categorias. Em seguida, atribua a hierarquia de categoria a uma loja online.                            | [Configurar uma hierarquia de varejo](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (conteúdo do TechNet para AX 2012)</br> [Configurar atributos e tipos de atributo](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) (conteúdo do TechNet para AX 2012)</br> [Configurar grupos de atributo de varejo](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (conteúdo do TechNet para AX 2012) |
@@ -41,7 +41,7 @@ Os tópicos listados na tabela a seguir ajudam a configurar os componentes do Co
 
 ## <a name="configure-online-store-products"></a>Configurar produtos de loja online
 
-| Tarefa                                 | Detalhes                                                                                                                                           | Tópicos                                                                                                                                                                                                                                                                            |
+| Tarefa                                 | Detalhes                                                                                                                                           | Artigos                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Adicione sortimentos à loja online. | Adicione as classificações que incluem os produtos oferecidos por você em uma loja online.                                                                  | [Configurar uma loja online](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (conteúdo do TechNet para AX 2012)                                                                                                                                              |
 | Gerencie os catálogos.                     | Use catálogos de produtos para identificar os produtos que deseja oferecer em suas lojas.                                                              | [Principais tarefas: criar catálogos de produtos de varejo](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) (conteúdo do TechNet para AX 2012)                                                                                                                           |
@@ -52,7 +52,7 @@ Os tópicos listados na tabela a seguir ajudam a configurar os componentes do Co
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Configurar troca de dados entre o Commerce e a loja online
 
-| Tarefa                                 | Detalhes                                                                                                                               | Tópicos                                                                                                                                                                                                                                                                                  |
+| Tarefa                                 | Detalhes                                                                                                                               | Artigos                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configure os perfis de integração do canal. | Os perfis permitem que os componentes se comuniquem. Configure os perfis antes de definir as configurações de troca de dados. | [Configurar um perfil do Real-time Service](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) (conteúdo do TechNet para AX 2012)</br> [Configurar um perfil de canal](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) (conteúdo do TechNet para AX 2012) |
 

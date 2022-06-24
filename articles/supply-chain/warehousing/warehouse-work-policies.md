@@ -1,6 +1,6 @@
 ---
 title: Políticas de trabalho
-description: Este tópico explica como configurar políticas de trabalho.
+description: Este artigo explica como configurar políticas de trabalho.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855838"
 ---
 # <a name="work-policies"></a>Políticas de trabalho
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o sistema e o aplicativo móvel Gerenciamento de Depósito para que eles ofereçam suporte a políticas de trabalho. Você pode usar essa funcionalidade para registrar rapidamente o estoque, sem criar o trabalho de armazenamento ao receber ordens de compra ou de transferência ou ao concluir processos de fabricação. Este tópico fornece informações gerais. Para obter informações detalhadas relacionadas ao recebimento da placa de licença, consulte [Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito](warehousing-mobile-device-app-license-plate-receiving.md).
+Este artigo explica como configurar o sistema e o aplicativo móvel Warehouse Management para que eles ofereçam suporte a políticas de trabalho. Você pode usar essa funcionalidade para registrar rapidamente o estoque, sem criar o trabalho de armazenamento ao receber ordens de compra ou de transferência ou ao concluir processos de fabricação. Este artigo fornece informações gerais. Para obter informações detalhadas relacionadas ao recebimento da placa de licença, consulte [Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Uma política de trabalho controla se o trabalho de depósito é criado quando um item fabricado é relatado como concluído ou quando as mercadorias são recebidas usando o aplicativo móvel Gerenciamento de Depósito. Configure cada política de trabalho definindo as condições em que ela se aplica: os tipos e os processos de ordem de trabalho, a localização de estoque e (opcionalmente) os produtos. Por exemplo, uma ordem de compra para o produto *A0001* deve ser recebida no local *RECV* no depósito *24*. Posteriormente, o produto é consumido em outro processo no local *RECV*. Nesse caso, você pode configurar uma política de trabalho para impedir que trabalho de armazenamento seja criado quando um trabalhador relatar o produto *A0001* como recebido no local *RECV*.
 
@@ -35,7 +35,7 @@ Uma política de trabalho controla se o trabalho de depósito é criado quando u
 
 ## <a name="activate-the-features-in-your-system"></a>Ativar os recursos no sistema
 
-Para disponibilizar toda a funcionalidade descrita neste tópico no sistema, ative estes dois recursos no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Para disponibilizar toda a funcionalidade descrita neste artigo no sistema, ative estes dois recursos no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Aprimoramentos de recebimento da placa de licença
 - Aprimoramentos da política de trabalho para trabalho de entrada

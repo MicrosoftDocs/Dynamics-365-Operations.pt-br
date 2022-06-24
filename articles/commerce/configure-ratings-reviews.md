@@ -1,6 +1,6 @@
 ---
 title: Configurar classificações e opiniões
-description: Este tópico descreve como configurar seu site comercial online para mostrar avaliações de cliente e opiniões no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como configurar seu site de comércio eletrônico para mostrar avaliações de cliente e opiniões no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/17/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 56325eb0d6298f3b30316e104a4b3913ef860366
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862246"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configurar classificações e opiniões
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como configurar seu site comercial online para mostrar avaliações de cliente e opiniões no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como configurar seu site de comércio eletrônico para mostrar avaliações de cliente e opiniões no Microsoft Dynamics 365 Commerce.
 
 As avaliações e opiniões sobre sites comerciais online ajudam os clientes a aprenderem sobre produtos antes de realizarem uma decisão de compra, mostrando a eles o que os clientes pensam sobre esses produtos. Para sites de comércio online, avaliações e opiniões também são um mecanismo para coletar feedback de clientes sobre produtos. 
 

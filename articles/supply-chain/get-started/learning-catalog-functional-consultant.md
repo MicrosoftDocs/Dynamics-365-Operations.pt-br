@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851874"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Catálogo de aprendizagem para consultores funcionais do Dynamics 365 Supply Chain Management
 
@@ -68,7 +68,7 @@ Para consultores funcionais, nossa pesquisa de análise de tarefas de trabalho m
 | [Curso MB-300T01-A: principais recursos comuns do Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Este curso abrange os principais recursos comuns do Microsoft Dynamics 365 for Finance and Operations. | Treinamento presencial ou online com instrutor. O preço varia de acordo com a região e o parceiro | 1 dia |
 | [Curso MB-300T02-A: configuração principal no Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Este curso abrange as principais tarefas de configuração do Microsoft Dynamics 365 for Finance and Operations. | Treinamento presencial ou online com instrutor. O preço varia de acordo com a região e o parceiro | 1 dia |
 | [Curso MB-300T03-A: migração de dados e preparação do go-live com o Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | Este curso discute a migração de dados e preparação de ir- Live para Microsoft Dynamics 365 for Finance and Operations. | Treinamento presencial ou online com instrutor. O preço varia de acordo com a região e o parceiro | 1 dia |
-| [Home page do Implementation Lifecycle](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Estes tópicos descrevem os programas, as ferramentas e processos disponíveis relacionados ao ciclo de vida da implementação do projeto do Microsoft Dynamics 365 for Finance and Operations. | Documentação | |
+| [Home page do Implementation Lifecycle](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Estes artigos descrevem os programas, as ferramentas e processos disponíveis relacionados ao ciclo de vida da implementação do projeto do Microsoft Dynamics 365 for Finance and Operations. | Documentação | |
 
 ## <a name="migration-and-upgrade"></a>Migração e upgrade<a name="migration"></a>
 
@@ -105,7 +105,7 @@ Para consultores funcionais, nossa pesquisa de análise de tarefas de trabalho m
 | [Aplicativo móvel de depósito (VIR816PAL)](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | Este Tech Talk abordará o sistema de armazenamento avançado no Dynamics 365 for Operations e o que está previsto para a sua interface móvel. Examinaremos o novo aplicativo móvel e compará-lo ao WMDP herdado. Aprenderemos o que é necessário para instalar, configurar e operar este aplicativo móvel e como ele poderá ser usado nas implementações. | Gravação gratuita de uma webconferência | 54 minutos |
 | [Colaboração do fornecedor (DYN327PAL)](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | Este Tech Talk fornecerá instruções do recurso Colaboração do fornecedor, incluindo o Consumo de resposta do recurso Fornecedor incluso na versão de julho. | Gravação gratuita de uma webconferência | 58 minutos |
 | [Item e processo de migração de depósito para usar o gerenciamento de depósito avançado (DYN316PAL)](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | Nesse Tech Talk, ensinaremos a migrar configurações e itens do depósito existentes com transações em aberto para o gerenciamento de armazenamento avançado usando os novos recursos para alterar o grupo de dimensão de armazenamento de itens e permitir que os depósitos usem os processos de gerenciamento de depósito avançado. | Gravação gratuita de uma webconferência | 54 minutos |
-| [Home page do Gerenciamento da cadeia de fornecedores](/dynamics365/unified-operations/supply-chain/) | Este tópico oferece uma lista de tópicos da Ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations. | Documentação | |
+| [Home page do Gerenciamento da cadeia de fornecedores](/dynamics365/unified-operations/supply-chain/) | Este artigo oferece uma lista de artigos da Ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations. | Documentação | |
 | [Reabastecimento de demanda para seleção de material cru (DYN333PAL2)](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | Este TechTalk abrangerá a separação de matéria-prima e o reabastecimento da demanda de separação de matéria-prima. | Gravação gratuita de uma webconferência | 38 minutos |
 | [Curso MB-330T01-A: configurar e usar o gerenciamento da cadeia de fornecedores no Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | Este curso abrange a configuração e o uso do gerenciamento da cadeia de fornecedores no Dynamics 365 for Finance and Operations. | Treinamento presencial ou online com instrutor. O preço varia de acordo com a região e o parceiro | 2 dias |
 | [Curso MB-330T02-A: usar gerenciamento de qualidade, comércio intercompanhia e planejamento mestre no Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | Este curso mostra como usar o gerenciamento de qualidade, o comércio intercompanhia e o planejamento mestre no Dynamics 365 for Finance and Operations. | Treinamento presencial ou online com instrutor. O preço varia de acordo com a região e o parceiro | 1 dia |

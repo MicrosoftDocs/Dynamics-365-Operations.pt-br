@@ -1,6 +1,6 @@
 ---
 title: Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização
-description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
+description: Este artigo descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
 author: perlynne
 ms.date: 10/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65675d8a99d023176e3e66e92cd3d634750bdb0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877411"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
+Este artigo descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
 
 As instruções recebidas pelos funcionários do depósito em um dispositivo móvel são determinadas pelos modelos de trabalho do Dynamics 365 Supply Chain Management que você configura para definir os vários processos e tarefas do depósito. Os modelos de trabalho determinam como o trabalho será executado em cada processo de depósito. Ao vincular uma diretiva de localização a modelos de trabalho, você garantirá que o trabalho ocorrerá em áreas específicas dos depósitos.
 
@@ -73,7 +73,7 @@ As diretivas de localização determinam *onde* itens devem ser coletados e *ond
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - Vídeo: [Detalhamento da configuração de gerenciamento de depósito](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Tópico de ajuda: [Trabalhar com diretivas de localização](create-location-directive.md)
+- Artigo de ajuda: [Trabalhar com diretivas de localização](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

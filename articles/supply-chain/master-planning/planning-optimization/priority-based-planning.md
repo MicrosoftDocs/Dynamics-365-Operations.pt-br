@@ -1,6 +1,6 @@
 ---
 title: Planejamento baseado em prioridade
-description: Este tópico descreve o recurso de planejamento baseado em prioridade do Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo descreve o recurso de planejamento baseado em prioridade do Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873801"
 ---
 # <a name="priority-based-planning"></a>Planejamento baseado em prioridade
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve o recurso de planejamento baseado em prioridade do Microsoft Dynamics 365 Supply Chain Management. O recurso adiciona o suporte para planejamento orientado por demanda, que é uma etapa do planejamento de requisitos de material (DDMRP) por demanda. O planejamento baseado em prioridade permite que a Otimização do Planejamento gere ordens planejadas que são controladas por prioridades de planejamento em vez de datas de requisito.
+Este artigo descreve o recurso de planejamento baseado em prioridade do Microsoft Dynamics 365 Supply Chain Management. O recurso adiciona o suporte para planejamento orientado por demanda, que é uma etapa do planejamento de requisitos de material (DDMRP) por demanda. O planejamento baseado em prioridade permite que a Otimização do Planejamento gere ordens planejadas que são controladas por prioridades de planejamento em vez de datas de requisito.
 
 O planejamento baseado em prioridade permite priorizar as ordens de reabastecimento para garantir que a demanda urgente seja priorizada em relação à demanda menos importante. Por exemplo, uma ordem de reabastecimento de estoque será priorizada em uma ordem de reabastecimento de reabastecimento padrão. O sistema pode dividir automaticamente ordens maiores em ordens menores separadas em que as linhas da ordem são agrupadas por prioridade. Em seguida, ele pode processar todas as ordens de alta prioridade primeiro.
 

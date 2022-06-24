@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de preços de vendas para varejo
-description: Este tópico descreve os conceitos para criar e gerenciar os preços de venda do Dynamics 365 Commerce.
+description: Este artigo descreve os conceitos para criar e gerenciar os preços de venda do Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 ms.date: 07/28/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16c948e6e14309f4e340bf622fac42b14e6ee591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887001"
 ---
-# <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas de varejo
+# <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas para varejo
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre o processo de criação e gerenciamento de preços de venda do Dynamics 365 Commerce. Ele concentra-se nos conceitos que estão envolvidos neste processo e nos efeitos das várias opções de configuração para preços de venda.
+Este artigo fornece informações sobre o processo de criação e gerenciamento de preços de venda do Dynamics 365 Commerce. Ele concentra-se nos conceitos que estão envolvidos neste processo e nos efeitos das várias opções de configuração para preços de venda.
 
 ## <a name="terminology"></a>Terminologia
 
-Os seguintes termos são usados neste tópico.
+Os seguintes termos são usados neste artigo.
 
 | Termo | Definição, uso e observações |
 |---|---|
-| Preço | O valor de uma única unidade de venda do produto em um cliente do ponto de venda (PDV) ou em uma ordem de venda. Neste tópico, o termo *preço* sempre se refere ao preço de venda, não ao preço do estoque ou ao preço de custo. |
+| Preço | O valor de uma única unidade de venda do produto em um cliente do ponto de venda (PDV) ou em uma ordem de venda. Neste artigo, o termo *preço* sempre se refere ao preço de venda, não ao preço do estoque ou ao preço de custo. |
 | Preço base | O preço definido no campo **Preço** em um produto liberado. |
 | Preço do contrato comercial | O preço definido em um produto ou em uma variante usando um contrato comercial do tipo **Preço (vendas)**. |
-| Melhor preço | Quando mais de um preço ou desconto puder ser aplicado a um produto, refere-se ao valor do preço menor e/ou o valor do desconto maior que produz o menor valor líquido possível que o cliente deve pagar. Neste tópico, o conceito de melhor preço é sempre indicado como “o melhor preço.” Este melhor preço é diferente e não deve ser confundido com o valor de enumeração **Melhor preço** para um modo de concorrência de desconto. |
+| Melhor preço | Quando mais de um preço ou desconto puder ser aplicado a um produto, refere-se ao valor do preço menor e/ou o valor do desconto maior que produz o menor valor líquido possível que o cliente deve pagar. Neste artigo, o conceito de melhor preço é sempre indicado como “o melhor preço.” Este melhor preço é diferente e não deve ser confundido com o valor de enumeração **Melhor preço** para um modo de concorrência de desconto. |
 
 ## <a name="price-groups"></a>Grupos de preços
 
@@ -97,7 +97,7 @@ Para usar a prioridade do preço para preços, é necessário atribuir uma prior
 
 O recurso de prioridade de preço foi introduzido para oferecer suporte ao cenário no qual um varejista deseja aplicar preços mais alto em um conjunto específico de lojas. Por exemplo, um varejista definiu preços regionais para a costa leste dos Estados Unidos, mas quer preços mais altos para alguns produtos das lojas de Nova York porque é mais caro vender alguns produtos na cidades e/ou porque o mercado local suporta um preço mais alto.
 
-Conforme descrito na seção "Melhor preço" deste tópico, o mecanismo de precificação geralmente seleciona o menor dos dois preços. Portanto, o varejista geralmente evita usar o maior dos dois preços em uma loja que tem os dois grupos de preços na costa leste e em Nova York. Para resolver esse problema antes de o recurso de prioridade de preço ser introduzido, o varejista teve que definir preços para cada produto duas vezes, e não atribuir os dois grupos de preços. Como alternativa, o varejista teve que criar grupos de preço adicional para isolar produtos com um preço mais alto de produtos com preços usuais, mais baixo.
+Conforme descrito na seção "Melhor preço" deste artigo, o mecanismo de precificação geralmente seleciona o menor dos dois preços. Portanto, o varejista geralmente evita usar o maior dos dois preços em uma loja que tem os dois grupos de preços na costa leste e em Nova York. Para resolver esse problema antes de o recurso de prioridade de preço ser introduzido, o varejista teve que definir preços para cada produto duas vezes, e não atribuir os dois grupos de preços. Como alternativa, o varejista teve que criar grupos de preço adicional para isolar produtos com um preço mais alto de produtos com preços usuais, mais baixo.
 
 Entretanto, o recurso de prioridade de preços permite que o varejista crie uma prioridade de preços para preços de loja que seja maior do que a prioridade do preço para preços regionais. Como alternativa, o varejista pode criar uma prioridade de preços apenas para preços de loja e deixar os preços regionais na prioridade padrão de definição de preços, que é 0 (zero). As duas configurações ajudam a garantir que os preços de loja sempre serão usados antes de preços regionais.
 
@@ -151,7 +151,7 @@ Usando o diário de contrato comercial, você pode criar contratos comerciais de
 
 Um contrato comercial do preço de venda de **Tabela** é para um cliente único que é definido diretamente no contrato comercial. Esse cenário não é um cenário típico de business-to-consumer (B2C). Porém, se ocorrer, o mecanismo do preço usa os contratos comerciais da **Tabela** ao determinar o preço.
 
-Um contrato comercial do preço de venda **Grupo** é o tipo que é mais frequentemente usado em conjunto. Fora do Commerce, os contratos comerciais do preço de vendas **Grupo** são para o grupo de clientes simples. Porém, no Commerce, o conceito de um grupo de clientes foi estendido, de forma que é um grupo do preço mais genérico. Um grupo de preço pode ser vinculado a um canal, uma afiliação, a um programa de fidelidade, ou um catálogo. Para informações detalhadas sobre grupos de preços, consulte a seção “Grupos de preços” anteriormente neste tópico.
+Um contrato comercial do preço de venda **Grupo** é o tipo que é mais frequentemente usado em conjunto. Fora do Commerce, os contratos comerciais do preço de vendas **Grupo** são para o grupo de clientes simples. Porém, no Commerce, o conceito de um grupo de clientes foi estendido, de forma que é um grupo do preço mais genérico. Um grupo de preço pode ser vinculado a um canal, uma afiliação, a um programa de fidelidade, ou um catálogo. Para informações detalhadas sobre grupos de preços, consulte a seção “Grupos de preços” anteriormente neste artigo.
 
 > [!NOTE]
 > Um preço do contrato comercial sempre é usado antes do preço base.

@@ -1,6 +1,6 @@
 ---
 title: Gerenciar classificações e opiniões
-description: Este tópico explica como gerenciar classificações e opiniões no construtor de site do Microsoft Dynamics 365 Commerce.
+description: Este artigo explica como gerenciar classificações e opiniões no construtor de site do Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881314"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gerenciar classificações e opiniões
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como gerenciar classificações e opiniões no construtor de site do Microsoft Dynamics 365 Commerce.
+Este artigo explica como gerenciar classificações e opiniões no construtor de site do Microsoft Dynamics 365 Commerce.
 
 O Dynamics 365 Commerce usa o Serviço Cognitivo do Microsoft Azure para moderar automaticamente o texto da opinião, redigindo palavras profanas. Além disso, os moderadores podem usar o construtor de site do Dynamics 365 Commerce para implementar as seguintes tarefas manuais:
 

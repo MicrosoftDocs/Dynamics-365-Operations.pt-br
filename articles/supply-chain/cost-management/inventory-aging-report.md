@@ -1,6 +1,6 @@
 ---
 title: Exemplos e lógica de relatório de classificação por vencimento de estoque
-description: Este tópico apresenta alguns exemplos que mostram como interpretar os resultados de um relatório de classificação por vencimento de estoque.
+description: Este artigo apresenta alguns exemplos que mostram como interpretar os resultados de um relatório de classificação por vencimento de estoque.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848010"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Exemplos e lógica de relatório de classificação por vencimento de estoque
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico apresenta alguns exemplos que mostram como interpretar os resultados de um relatório de **classificação por vencimento de estoque**. Este relatório categoriza os valores de estoque e quantidade disponíveis para um item ou grupo de itens selecionado em vários buckets de período. Este tópico também mostra a lógica interna do relatório.
+Este artigo apresenta alguns exemplos que mostram como interpretar os resultados de um relatório de **classificação por vencimento de estoque**. Este relatório categoriza os valores de estoque e quantidade disponíveis para um item ou grupo de itens selecionado em vários buckets de período. Este artigo também mostra a lógica interna do relatório.
 
-Os exemplos neste tópico mostram resultados que são apresentados em um relatório **Classificação por vencimento de estoque** padrão. No entanto, em geral, recomendamos que você use a versão de [Armazenamento do relatório de classificação por vencimento de estoque](inventory-aging-report-storage.md) desse relatório, especialmente quando houver vários itens e depósitos que devem ser processados. A classificação por vencimento de estoque salva cada relatório gerado, mostra os resultados como uma página interativa e um gráfico e permite exportar qualquer relatório salvo.
+Os exemplos neste artigo mostram resultados que são apresentados em um relatório **Classificação por vencimento de estoque** padrão. No entanto, em geral, recomendamos que você use a versão de [Armazenamento do relatório de classificação por vencimento de estoque](inventory-aging-report-storage.md) desse relatório, especialmente quando houver vários itens e depósitos que devem ser processados. A classificação por vencimento de estoque salva cada relatório gerado, mostra os resultados como uma página interativa e um gráfico e permite exportar qualquer relatório salvo.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Dados de exemplo usados nestes exemplos
 
-Os exemplos neste tópico se baseiam nos dados de exemplo de transação de estoque descritos nesta seção.
+Os exemplos neste artigo se baseiam nos dados de exemplo de transação de estoque descritos nesta seção.
 
 ### <a name="storage-dimension-setup"></a>Configuração de dimensão de armazenamento
 

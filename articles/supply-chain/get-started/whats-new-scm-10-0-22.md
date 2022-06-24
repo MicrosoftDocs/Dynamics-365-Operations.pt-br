@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.22 (Novembro de 2021)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.22.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.22.
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 53f1670454ef505e61e96b16990d913473b46bf4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849493"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.22 (Novembro de 2021)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.22. Esta versão tem um número de compilação de 10.0.995 e está disponível da seguinte maneira:
+Este artigo lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.22. Esta versão tem um número de compilação de 10.0.995 e está disponível da seguinte maneira:
 
 - **Versão preliminar:** setembro de 2021
 - **Disponibilidade geral da versão (autoatualização):** outubro de 2021
@@ -29,7 +29,7 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
-A tabela a seguir lista os recursos incluídos nesta versão. A coluna *Recurso* fornece links para o [plano de lançamento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), no qual é possível ver as datas de lançamento oficiais de cada recurso. A coluna *Mais informações* fornece mais detalhes e/ou links para documentação relacionada. Para determinar como ativar um recurso, consulte a coluna *Habilitado por*. Para obter mais informações sobre como usar o gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Podemos atualizar este tópico para incluir recursos inseridos no build após a publicação inicial deste tópico.
+A tabela a seguir lista os recursos incluídos nesta versão. A coluna *Recurso* fornece links para o [plano de lançamento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), no qual é possível ver as datas de lançamento oficiais de cada recurso. A coluna *Mais informações* fornece mais detalhes e/ou links para documentação relacionada. Para determinar como ativar um recurso, consulte a coluna *Habilitado por*. Para obter mais informações sobre como usar o gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Podemos atualizar este artigo para incluir recursos inseridos no build após a publicação inicial deste artigo.
 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---|---|---|---|
@@ -47,9 +47,9 @@ A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. 
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 
-Recentemente, adicionamos ou atualizamos significativamente os seguintes tópicos de ajuda. Esses tópicos não estão necessariamente relacionados aos novos recursos que foram adicionados a essa versão, conforme listado na seção anterior. No entanto, eles podem ajudar você a aproveitar mais os recursos existentes.
+Recentemente, adicionamos ou atualizamos significativamente os seguintes artigos de ajuda: Esses artigos não estão necessariamente relacionados aos novos recursos que foram adicionados a essa versão, conforme listado na seção anterior. No entanto, eles podem ajudar você a aproveitar mais os recursos existentes.
 
-| Área de recursos | Tópicos novos ou atualizados |
+| Área de recursos | Artigos novos ou atualizados |
 |---|---|
 | Gerenciamento de alteração de engenharia | [Visão geral do gerenciamento de alterações de engenharia](../engineering-change-management/product-engineering-overview.md) agora lista todos os recursos opcionais relacionados disponíveis no gerenciamento de recursos |
 | Planejamento Mestre | [Configuração da previsão de demanda](../master-planning/demand-forecasting-setup.md) |
@@ -58,9 +58,9 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para os aplicativos do Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.22 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.22 dos aplicativos do Finance and Operations (novembro de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.22 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.22 dos aplicativos Finanças e operações (novembro de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 
@@ -74,12 +74,12 @@ Confira [Dynamics 365 e nuvens do setor: plano 2 do ciclo de lançamentos de 202
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 
-O tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
+O artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
 
-Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
+Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
 
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
 

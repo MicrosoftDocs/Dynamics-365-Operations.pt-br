@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de estoque de loja
-description: Este tópico descreve os tipos de documentos que você pode usar para gerenciar estoque.
+description: Este artigo descreve os tipos de documentos que você pode usar para gerenciar o estoque.
 author: BrianShook
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a4a8f517ebb6fd4ce291b5d28ae22db62a832251
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 68670426251f539a187e03250d21bf00d1e18acb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881596"
 ---
 # <a name="commerce-inventory-management"></a>Gerenciamento de estoque do Commerce
 
@@ -37,7 +37,7 @@ Os aplicativos do Commerce em execução na CSU não oferece suporte às seguint
 Os aplicativos do Commerce em execução na CSU não oferecem suporte para as seguintes dimensões de rastreamento:
 - Dimensão de proprietário
 
-- O aplicativo PDV (ponto de venda) pode oferecer suporte limitado para as seguintes dimensões. O PDV pode inserir automaticamente algumas das dimensões nas transações de estoque, com base na configuração do depósito ou configuração de loja. No entanto, as dimensões não terão suporte completo no PDV como têm suporte se uma transação de venda for inserida manualmente na matriz do Commerce. 
+- O aplicativo PDV (ponto de venda) pode oferecer suporte limitado para as seguintes dimensões. O PDV pode inserir automaticamente algumas das dimensões nas transações de estoque, com base na configuração do depósito ou configuração de loja. No entanto, as dimensões não terão suporte completo no PDV como têm suporte se uma transação de venda for inserida manualmente no Commerce headquarters. 
 
 - **Local do depósito** – quando eles usam as novas operações de PDV [Operação de entrada](./pos-inbound-inventory-operation.md) e [Operação de saída](./pos-outbound-inventory-operation.md), os usuários podem selecionar uma localização de estoque de depósito para receber ou enviar itens da ordem de transferência de saída. Se usarem a operação **Separação e recebimento** obsoletas, o suporte a gerenciamento de local limitado estará disponível para o recebimento e a remessa de transferências de saída. Esse suporte só estará disponível se a opção **Usar processo de gerenciamento de depósito** estiver ativada para o item e para o depósito de armazenamento. Uma localização de estoque não pode ser usada no momento com a operação **Contagem de estoque** ou de **Pesquisa de estoque**.
 
@@ -50,21 +50,21 @@ Os aplicativos do Commerce em execução na CSU não oferecem suporte para as se
 - **Status de estoque** – Para itens que usam o processo de gerenciamento de depósito e requerem um status de estoque, esse campo de status não pode ser definido ou alterado com a solicitação de PDV. O status de estoque padrão definido na configuração de depósito de armazenamento é usado quando os itens são recebidos em estoque.
 
 > [!NOTE]
-> Todas as organizações devem testar configurações do item usando os aplicativos do Commerce em ambientes de desenvolvimento ou de teste de implantarem essas configurações de item para ambientes de produção. Teste seus itens usando-os para executar transações de vendas de caixa-e-transporte regulares no PDV e criar ordens de cliente (se aplicável) usando o PDV, Call Center ou comércio eletrônico para validá-los como totalmente compatíveis. Você também deve testar o cumprimento de PDV e os processos de estoque (como as operações de recebimento de estoque e de cumprimento de ordens) antes de implantar novas configurações de itens, para garantir que o aplicativo de PDV possa oferecer suporte a elas. O teste deve incluir a execução de um processo completo de lançamento do demonstrativo/ordem no seu ambiente de teste e a verificação de que nenhum problema de lançamento ocorre quando as ordens desses itens são criadas e lançadas na matriz do Commerce.
+> Todas as organizações devem testar configurações do item usando os aplicativos do Commerce em ambientes de desenvolvimento ou de teste de implantarem essas configurações de item para ambientes de produção. Teste seus itens usando-os para executar transações de vendas de caixa-e-transporte regulares no PDV e criar ordens de cliente (se aplicável) usando o PDV, Call Center ou comércio eletrônico para validá-los como totalmente compatíveis. Você também deve testar o cumprimento de PDV e os processos de estoque (como as operações de recebimento de estoque e de cumprimento de ordens) antes de implantar novas configurações de itens, para garantir que o aplicativo de PDV possa oferecer suporte a elas. O teste deve incluir a execução de um processo completo de lançamento do demonstrativo/ordem no seu ambiente de teste e a verificação de que nenhum problema de lançamento ocorre quando as ordens desses itens são criadas e lançadas no Commerce headquarters.
 >
 > Se os itens forem configurados de uma forma incompatível com os aplicativos do Commerce e o teste apropriado não for feito, podem ocorrer falhas de dados que não são facilmente corrigidas ou talvez não possam ser corrigidas.
 
 ## <a name="purchase-orders"></a>Ordens de Compra
 
-As ordens de compra são criadas no Commerce Headquarters. SSe o depósito da loja incluído no cabeçalho da ordem de compra ou em linhas de ordem de compra, as linhas podem ser recebidas na loja usando a operação [Operação de entrada](./pos-inbound-inventory-operation.md) no PDV. 
+As ordens de compra são criadas no Commerce headquarters. SSe o depósito da loja incluído no cabeçalho da ordem de compra ou em linhas de ordem de compra, as linhas podem ser recebidas na loja usando a operação [Operação de entrada](./pos-inbound-inventory-operation.md) no PDV. 
 
 ## <a name="transfer-orders"></a>Ordens de transferência
 
-As ordens de transferência podem ser criadas no Commerce Headquarters ou por meio da operação [Operação de entrada](./pos-inbound-inventory-operation.md) ou operação [Operação de saída](./pos-outbound-inventory-operation.md) no PDV. Use a operação de PDV **Operação de entrada** para criar uma solicitação de ordem de transferência para que o estoque seja enviado para o armazenamento de outro depósito ou local de armazenamento. Use a operação de PDV **Operação de saída** para criar uma solicitação de ordem de transferência para que o estoque enviado da loja a outro depósito ou local de loja. Depois que uma ordem de transferência para um armazenamento é criada, essa loja pode gerenciar o recebimento de estoque para a ordem de transferência por meio da operação **Operação de entrada** no PDV. Se o armazenamento estiver enviando um estoque para outro local, a operação **Operação de de saída** no PDV será usada para gerenciar o processo de remessa de saída do armazenamento.
+As ordens de transferência podem ser criadas no Commerce headquarters ou por meio da operação [Operação de entrada](./pos-inbound-inventory-operation.md) ou operação [Operação de saída](./pos-outbound-inventory-operation.md) no PDV. Use a operação de PDV **Operação de entrada** para criar uma solicitação de ordem de transferência para que o estoque seja enviado para o armazenamento de outro depósito ou local de armazenamento. Use a operação de PDV **Operação de saída** para criar uma solicitação de ordem de transferência para que o estoque enviado da loja a outro depósito ou local de loja. Depois que uma ordem de transferência para um armazenamento é criada, essa loja pode gerenciar o recebimento de estoque para a ordem de transferência por meio da operação **Operação de entrada** no PDV. Se o armazenamento estiver enviando um estoque para outro local, a operação **Operação de de saída** no PDV será usada para gerenciar o processo de remessa de saída do armazenamento.
 
 ## <a name="stock-counts"></a>Contagens de estoque
 
-Contagens de estoque podem ser agendadas ou não agendadas. As contagens de estoque programadas são criadas por meio do Commerce Headquarters criando um documento de diário de contagem vinculado ao depósito da loja. Este diário especifica os itens que devem ser contados. Em seguida, o armazenamento pode acessar esses diários de contagem predefinidos e agir neles usando a operação **Contagem de estoque** no PDV. Os usuários do armazenamento iniciam uma contagem de estoque não programada conforme necessário quando usam a operação **Contagem de estoque** no PDV. Diferente das contagens de estoque agendadas, as contagens de estoque não agendadas não têm uma lista predefinida de itens. Quando uma contagem de estoque de qualquer tipo é concluída no PDV, ela é confirmada e enviada para a matriz. Na matriz, a contagem deve ser validada e lançada no Commerce Headquarters como uma etapa separada.
+Contagens de estoque podem ser agendadas ou não agendadas. As contagens de estoque programadas são criadas por meio do Commerce headquarters criando um documento de diário de contagem vinculado ao depósito da loja. Este diário especifica os itens que devem ser contados. Em seguida, o armazenamento pode acessar esses diários de contagem predefinidos e agir neles usando a operação **Contagem de estoque** no PDV. Os usuários do armazenamento iniciam uma contagem de estoque não programada conforme necessário quando usam a operação **Contagem de estoque** no PDV. Diferente das contagens de estoque agendadas, as contagens de estoque não agendadas não têm uma lista predefinida de itens. Quando uma contagem de estoque de qualquer tipo é concluída no PDV, ela é confirmada e enviada para a matriz. Na matriz, a contagem deve ser validada e lançada no Commerce headquarters como uma etapa separada.
 
 ## <a name="inventory-lookup"></a>Pesquisa de estoque
 

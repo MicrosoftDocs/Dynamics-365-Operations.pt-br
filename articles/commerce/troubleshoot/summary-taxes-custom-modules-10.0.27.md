@@ -1,6 +1,6 @@
 ---
-title: O subtotal do resumo do pedido não inclui impostos sobre cobranças ao usar módulos personalizados de resumo do pedido
-description: Este tópico fornece orientação de solução de problemas que podem ajudar quando você usa módulos de resumo de pedidos personalizados e o subtotal de resumo de pedidos não inclui impostos sobre cobranças no cenário "o preço inclui imposto sobre vendas".
+title: Subtotal do resumo da ordem não inclui impostos sobre encargos durante o uso de módulos de resumo de ordem personalizados
+description: Este artigo fornece orientação de solução de problemas que podem ajudar quando você usa módulos de resumo de ordens personalizados e o subtotal de resumo de ordens não inclui impostos sobre cobranças no cenário "o preço inclui imposto sobre vendas".
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,16 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-04-22
-ms.openlocfilehash: 1a47561a3ac984bc554b5b93546592237c16cf18
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 260dcb6bc1585615195e32adfcd1da6bfbca294e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848828"
 ---
-# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>O subtotal do resumo do pedido não inclui impostos sobre cobranças ao usar módulos personalizados de resumo do pedido
+# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Subtotal do resumo da ordem não inclui impostos sobre encargos durante o uso de módulos de resumo de ordem personalizados
 
-Este tópico fornece orientação de solução de problemas que podem ajudar quando você usa módulos de resumo de pedidos personalizados e o subtotal de resumo de pedidos não inclui impostos sobre cobranças no cenário "o preço inclui imposto sobre vendas".
+Este artigo fornece orientação de solução de problemas que podem ajudar quando você usa módulos de resumo de ordens personalizados e o subtotal de resumo de ordens não inclui impostos sobre cobranças no cenário "o preço inclui imposto sobre vendas".
 
 ## <a name="description"></a>Descrição
 
@@ -43,7 +43,7 @@ Ao reverter para o comportamento de resumo do pedido anterior (antes da versão 
 
 Para reverter para o comportamento de resumo do pedido anterior, siga estas etapas.
 
-1. No Commerce Headquarters, abra a página de parâmetros do Commerce (**Varejo e Comércio \> Configuração do Headquarters \> Parâmetros \> Parâmetros do Commerce**).
+1. No Commerce headquarters, abra a página de parâmetros do Commerce (**Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros do Commerce**).
 1. No painel de navegação esquerdo, selecione **Parâmetros de configuração**.
 1. Adicione os seguintes parâmetros de configuração e defina o valor de cada um como **true**:
 

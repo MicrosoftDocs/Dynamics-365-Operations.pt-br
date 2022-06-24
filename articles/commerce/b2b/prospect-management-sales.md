@@ -1,6 +1,6 @@
 ---
 title: Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B usando o Dynamics 365 Sales
-description: Este tópico descreve como usar o Microsoft Dynamics 365 Sales para gerenciar as aprovações de parceiros comerciais para os sites de venda entre empresas (B2B) do Dynamics 365 Commerce.
+description: Este artigo descreve como usar o Microsoft Dynamics 365 Sales para gerenciar as aprovações de parceiros comerciais para os sites de venda entre empresas (B2B) do Dynamics 365 Commerce.
 author: shajain
 ms.date: 2/16/2022
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ac4aa15f2c6e7f557105254c2c8ce743a9466985
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878612"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B usando o Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como usar o Microsoft Dynamics 365 Sales para gerenciar as aprovações de parceiros comerciais para os sites de venda entre empresas (B2B) do Dynamics 365 Commerce. As organizações que já investiram na solução do Dynamics 365 Sales podem usar seus conceitos de cliente potencial e de oportunidade para o processo de aprovação de parceiros de comércio eletrônico B2B.
+Este artigo descreve como usar o Microsoft Dynamics 365 Sales para gerenciar as aprovações de parceiros comerciais para os sites de venda entre empresas (B2B) do Dynamics 365 Commerce. As organizações que já investiram na solução do Dynamics 365 Sales podem usar seus conceitos de cliente potencial e de oportunidade para o processo de aprovação de parceiros de comércio eletrônico B2B.
 
 Para obter informações detalhadas sobre o processo de aprovação de parceiro comercial B2B, consulte [Gerenciar usuários de parceiros comerciais em sites de comércio eletrônico B2B](manage-b2b-users.md).
 
-Parceiros comerciais potenciais podem iniciar o processo de integração para um site de comércio eletrônico B2B enviando uma solicitação de integração por meio de um link no site B2B. Depois que a solicitação é enviada e os trabalhos relevantes (como **P-0001** e **Sincronizar solicitações de ordens e canais**) são executados no Commerce Headquarters, a solicitação de integração é salva na página **Todos os clientes potenciais** do Commerce Headquarters. O processo de aprovação do parceiro comercial pode ser concluído no Sales.
+Parceiros comerciais potenciais podem iniciar o processo de integração para um site de comércio eletrônico B2B enviando uma solicitação de integração por meio de um link no site B2B. Depois que a solicitação é enviada e os trabalhos relevantes (como **P-0001** e **Sincronizar solicitações de ordens e canais**) são executados no Commerce headquarters, a solicitação de integração é salva na página **Todos os clientes potenciais** do Commerce headquarters. O processo de aprovação do parceiro comercial pode ser concluído no Sales.
 
 Depois que a integração entre o Sales e o Commerce for habilitada, a criação de um parceiro comercial potencial no Commerce provocará a geração de um *cliente potencial* no Sales.
 

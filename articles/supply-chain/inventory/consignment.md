@@ -1,6 +1,6 @@
 ---
-title: Configurar consignação
-description: Este tópico explica como usar os processos de estoque de entrada de consignação.
+title: Configurando consignação
+description: Este artigo explica como usar os processos de estoque de entrada de consignação.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872026"
 ---
-# <a name="set-up-consignment"></a>Configurar consignação
+# <a name="set-up-consignment"></a>Configurando consignação
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como usar os processos de estoque de entrada de consignação.
+Este artigo explica como usar os processos de estoque de entrada de consignação.
 
-Estoque em consignação é o estoque a que pertence a um fornecedor, mas está armazenado em seu site. Quando estiver pronto para consumir ou usar o estoque, você obterá sobre a propriedade de estoque. Este tópico inclui informações sobre como receber fisicamente o estoque de propriedade do fornecedor disponível sem a necessidade de criar transações de contabilidade, como iniciar um processo de produção no qual o estoque de propriedade do fornecedor possa ser fisicamente reservado e como alterar a propriedade de matérias-primas para processar o consumo como parte do processo de ordem de produção. Há também quaisquer informações sobre como monitorar fornecedores podem o consumo do estoque usando a interface de colaboração de fornecedor.
+Estoque em consignação é o estoque a que pertence a um fornecedor, mas está armazenado em seu site. Quando estiver pronto para consumir ou usar o estoque, você obterá sobre a propriedade de estoque. Este artigo inclui informações sobre como receber fisicamente o estoque de propriedade do fornecedor disponível sem a necessidade de criar transações de contabilidade, como iniciar um processo de produção no qual o estoque de propriedade do fornecedor possa ser fisicamente reservado. e como alterar a propriedade de matérias-primas para processar o consumo como parte do processo de ordem de produção. Há também quaisquer informações sobre como monitorar fornecedores podem o consumo do estoque usando a interface de colaboração de fornecedor.
 
 ## <a name="overview-of-the-consignment-process"></a>Visão geral do processo de consignação
 

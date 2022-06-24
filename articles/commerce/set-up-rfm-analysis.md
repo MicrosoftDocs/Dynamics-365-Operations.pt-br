@@ -1,6 +1,6 @@
 ---
-title: Configurar análise de Recência, Frequência e Valor Monetário (RFM)
-description: Este tópico explica como configurar uma análise de Recência, Frequência e Valor Monetário (RFM) dos clientes.
+title: Configurar análise de recência, frequência e valor monetário (RFM)
+description: Este artigo explica como configurar uma análise de Recência, Frequência e Valor Monetário (RFM) dos clientes.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 153759ac6b70235b79c080e934819536c2861371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850162"
 ---
-# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Configurar análise de Recência, Frequência e Valor Monetário (RFM)
+# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Configurar análise de recência, frequência e valor monetário (RFM)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como configurar uma análise de Recência, Frequência e Valor Monetário (RFM) dos clientes.
+Este artigo explica como configurar uma análise de Recência, Frequência e Valor Monetário (RFM) dos clientes.
 
 A análise de Recência, Frequência e Valor Monetário (RFM) é uma ferramenta de marketing que a organização pode usar para avaliar os dados gerados pelas compras dos clientes. Depois de configurar a análise RFM, os clientes são atribuídos a uma contagem de RFM calculada quando eles fazem compras. A contagem de RFM pode ser uma previsão de três dígitos ou um número agregado, dependendo de como sua organização configurou a análise RFM. Veja como a classificação funciona, se a sua organização usar uma classificação de três dígitos para a contagem:
 

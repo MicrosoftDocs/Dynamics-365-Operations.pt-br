@@ -1,6 +1,6 @@
 ---
 title: Parâmetros de lançamento do Commerce
-description: Este tópico descreve os parâmetros específicos do lançamento de transações financeiras e físicas no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve os parâmetros específicos do lançamento de transações financeiras e físicas no Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: 1b49c893567d39f05e16cefee47407a424b7e139
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 10ea650b7c5c0cad7e1a3d7556c073aecef06036
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887105"
 ---
 # <a name="commerce-posting-parameters"></a>Parâmetros de lançamento do Commerce
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tópico descreve os parâmetros específicos do lançamento de transações financeiras e físicas no Microsoft Dynamics 365 Commerce. Os parâmetros de lançamento do Commerce estão localizados na matriz do Commerce em **Varejo e Comércio \> Configuração da matriz \> Parâmetros \> Parâmetros do Commerce \> Lançamentos**.
+Este artigo descreve os parâmetros específicos do lançamento de transações financeiras e físicas no Microsoft Dynamics 365 Commerce. Os parâmetros de lançamento estão localizados no Commerce headquarters em **Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros do Commerce \> Lançamentos**.
 
 ## <a name="periodic-discount-parameters"></a>Parâmetros de desconto periódico
 
@@ -30,7 +30,7 @@ A tabela a seguir lista os parâmetros de desconto periódicos específicos para
 | Parâmetro | Descrição |
 |-----------|-------------|
 | Lançar desconto periódico | Esta opção controla se as ofertas periódicas são lançadas nas contas contábeis. Os descontos periódicos incluem descontos de compra combinada, descontos por quantidade e ofertas de desconto. Quando este parâmetro é habilitado, os campos adicionais podem ser definidos na seção **Descontos periódicos**. |
-| Tipo de conta contábil | <p>Selecione o tipo de conta usado para lançar descontos periódicos:</p><ul><li>**Padrão** – o sistema não usa os campos relacionados a descontos nesta página. Ele usa as contas definidas na página **Lançamento** na matriz do Commerce (**Gerenciamento de estoque \> Configuração \> Lançamentos \> Formulários de lançamento**).</li><li>**Periódico** – o sistema usa as contas de desconto do Commerce especificadas pelos campos relacionados ao desconto nesta página. Se você selecionar essa opção, será necessário especificar a conta contábil (GL) para cada tipo de oferta (desconto, compra combinada, quantidade e limite). Ao configurar cada desconto, você pode definir uma conta. Quando o recurso de lançamento de conta de desconto é usado na página de configuração de desconto, uma entrada de débito e uma entrada de crédito adicionais são feitas para reclassificar o lançamento de desconto da conta contábil de desconto do Commerce para a conta contábil de desconto. Para obter mais informações, consulte [Descontos de varejo](retail-discounts-overview.md).</li></ul> |
+| Tipo de conta contábil | <p>Selecione o tipo de conta usado para lançar descontos periódicos:</p><ul><li>**Padrão** – o sistema não usa os campos relacionados a descontos nesta página. Ele usa as contas definidas na página **Lançamento** na Commerce headquarters (**Gerenciamento de estoque \> Configuração \> Lançamentos \> Formulários de lançamento**).</li><li>**Periódico** – o sistema usa as contas de desconto do Commerce especificadas pelos campos relacionados ao desconto nesta página. Se você selecionar essa opção, será necessário especificar a conta contábil (GL) para cada tipo de oferta (desconto, compra combinada, quantidade e limite). Ao configurar cada desconto, você pode definir uma conta. Quando o recurso de lançamento de conta de desconto é usado na página de configuração de desconto, uma entrada de débito e uma entrada de crédito adicionais são feitas para reclassificar o lançamento de desconto da conta contábil de desconto do Commerce para a conta contábil de desconto. Para obter mais informações, consulte [Descontos de varejo](retail-discounts-overview.md).</li></ul> |
 | Lançar desconto de código de informação | Esta opção não é mais usada na solução padrão do Commerce e será preterida. |
 | Lançar desconto periódico das ordens | Esta opção controla se os descontos periódicos de varejo são lançados no razão para pedidos de clientes e pedidos de call center. |
 
@@ -71,7 +71,7 @@ A tabela a seguir lista os valores recomendados para os parâmetros na tabela an
 |-----------|-------------------|---------|
 | Número máximo de lançamentos paralelos de demonstrativos | <p>Defina esse parâmetro como o número de tarefas em lotes disponíveis para o grupo de lotes que está executando o trabalho do **Demonstrativo**.</p><p>**Regra geral:** multiplique o número de servidores virtuais do Servidor de Objetos de Aplicativo (AOS) pelo número de tarefas em lotes disponíveis por servidor virtual do AOS.</p> | Esse parâmetro não é aplicável quando o recurso **Demonstrativos de varejo - Fluxo constante** estiver habilitado. |
 | Máximo de threads para o processamento de ordens por demonstrativo | Comece a testar valores em **4**. Normalmente, o valor não deve exceder **8**. | Esse parâmetro define o número de threads usados para criar e lançar ordens de venda. Ele representa o número de threads disponíveis para lançamento por demonstrativo. |
-| Máximo de linhas de transação incluídas em agregação | Comece a testar valores em **1000**. Dependendo da configuração da matriz do Commerce, ordens menores podem ser mais benéficas para o desempenho. | Esse parâmetro define o número de linhas que são incluídas em cada ordem de venda durante o lançamento do demonstrativo. Depois que esse número for atingido, as linhas serão divididas em uma nova ordem. O número de linhas de vendas não será exatamente igual ao número especificado porque a divisão ocorre no nível da ordem de venda. No entanto, o número será próximo do número definido. Esse parâmetro é usado para gerar ordens de venda para transações de varejo que não têm um cliente nomeado. |
+| Máximo de linhas de transação incluídas em agregação | Comece a testar valores em **1000**. Dependendo da configuração do Commerce headquarters, ordens menores podem ser mais benéficas para o desempenho. | Esse parâmetro define o número de linhas que são incluídas em cada ordem de venda durante o lançamento do demonstrativo. Depois que esse número for atingido, as linhas serão divididas em uma nova ordem. O número de linhas de vendas não será exatamente igual ao número especificado porque a divisão ocorre no nível da ordem de venda. No entanto, o número será próximo do número definido. Esse parâmetro é usado para gerar ordens de venda para transações de varejo que não têm um cliente nomeado. |
 | Número máximo de threads para validar transações de loja | É recomendável definir esse parâmetro como **4** e aumentá-lo somente se não obtiver um desempenho aceitável. O número de threads que esse processo usa não pode exceder o número de processadores disponíveis para o servidor de lote. Se o número de threads for muito alto, o processamento em lotes poderá ser afetado. | Esse parâmetro controla o número de transações que podem ser validadas ao mesmo tempo para uma determinada loja. |
 
 > [!NOTE]
@@ -96,7 +96,7 @@ A tabela a seguir lista os parâmetros de demonstrativo específicos para o lan�
 | Parâmetro | Descrição |
 |-----------|-------------|
 | Reservar estoque durante o cálculo | Quando este parâmetro é habilitado, o cálculo do demonstrativo reserva temporariamente o estoque até o demonstrativo seja lançado. Esse parâmetro é desabilitado por padrão para ajudar a melhorar o desempenho do cálculo do demonstrativo. As informações de estoque atualizadas podem ser calculadas usando o trabalho em lote **Lançar estoque**. Lembre-se de que o trabalho em lote de estoque **Lançar** não é mais usado quando a criação de ordens baseada em um [fluxo constante](trickle-feed.md) para transações de loja de varejo está habilitada. |
-| É necessário desabilitar a contagem | Este sinalizador desabilita a contagem durante o lançamento na matriz do Commerce. |
+| É necessário desabilitar a contagem | Este sinalizador desabilita a contagem durante o lançamento no Commerce headquarters. |
 | Recalcular dimensões financeiras no erro | Quando esse parâmetro está habilitado, as dimensões financeiras podem ser reavaliadas em lançamentos de demonstrativo subsequentes se o lançamento de demonstrativo falhar. |
 | Usar as dimensões financeiras da loja de devolução | Quando esse parâmetro é habilitado, podem ser criadas ordens de venda de devolução vinculadas que usam as dimensões financeiras da loja em vez das dimensões financeiras da transação original. |
 | Desvincular devoluções | Quando esse parâmetro é habilitado, o demonstrativo pode criar devoluções de vendas não lançadas como devoluções cegas. Esse parâmetro é desabilitado por padrão e recomenda-se mantê-lo desabilitado. |

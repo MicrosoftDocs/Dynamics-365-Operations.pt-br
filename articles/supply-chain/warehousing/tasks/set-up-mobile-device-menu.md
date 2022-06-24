@@ -1,6 +1,6 @@
 ---
 title: Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo Ordem de compra
-description: Este tópico mostra como estabelecer um item de menu do dispositivo móvel.
+description: Este artigo mostra como estabelecer um item de menu do dispositivo móvel.
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882276"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo Ordem de compra
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico mostra como estabelecer um item de menu do dispositivo móvel. Neste exemplo, o item de menu é usado para realizar trabalho do tipo Ordem de compra. A classe de trabalho associada ao item de menu determina qual trabalho é válido. Você pode usar este guia na empresa USMF de dados de demonstração. Esse procedimento geralmente é realizado por um gerente de depósito.
+Este artigo mostra como estabelecer um item de menu do dispositivo móvel. Neste exemplo, o item de menu é usado para realizar trabalho do tipo Ordem de compra. A classe de trabalho associada ao item de menu determina qual trabalho é válido. Você pode usar este guia na empresa USMF de dados de demonstração. Esse procedimento geralmente é realizado por um gerente de depósito.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Criar um item de menu de dispositivo móvel

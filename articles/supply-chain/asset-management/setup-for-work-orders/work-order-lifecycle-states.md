@@ -1,6 +1,6 @@
 ---
 title: Estados de ciclo de vida da ordem de serviço
-description: Este tópico explica os estados de ciclo de vida da ordem de serviço no Gerenciamento de Ativos.
+description: Este artigo explica os estados de ciclo de vida da ordem de serviço no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860860"
 ---
 # <a name="work-order-lifecycle-states"></a>Estados de ciclo de vida da ordem de serviço
 
@@ -69,7 +69,7 @@ A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Ag
 
     Na Guia Rápida **Detalhes**, o campo **Modelos de ciclo de vida** mostra o número de modelos de ciclo de vida de ordem de serviço que usam esse estado de ciclo de vida.
 
-8. Na Guia Rápida **Geral**, na seção **Ordem de serviço**, selecione as funções que devem estar disponíveis para esse estado de ciclo de vida definindo as opções relevantes como **Sim**. Para obter descrições das opções, consulte a tabela anterior deste tópico.
+8. Na Guia Rápida **Geral**, na seção **Ordem de serviço**, selecione as funções que devem estar disponíveis para esse estado de ciclo de vida definindo as opções relevantes como **Sim**. Para obter descrições das opções, consulte a tabela anterior deste artigo.
 9. Na seção **Projeto**, no campo **Estágio**, selecione o estágio do projeto que deve estar relacionado a esse estado de ciclo de vida.
 10. Na seção **Projeto**, defina a opção **Fechar atividades** como **Sim** se atividades do projeto que estão relacionadas a cada trabalho da ordem de serviço deverão ser fechadas automaticamente quando a ordem de serviço estiver nesse estado de ciclo de vida.
 
@@ -77,7 +77,7 @@ A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Ag
     > Para encontrar o número da atividade do projeto relacionada a um trabalho da ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço**, **Ordens de serviço ativas** ou **Minhas ordens de serviço ativas**. Abra a ordem de serviço e selecione o trabalho da ordem de serviço. O número da atividade é exibido no campo **Número da atividade** na seção **Projeto** na guia **Geral** da Guia Rápida **Detalhes da linha**.
 
 11. Na seção **Previsão**, defina a opção **Copiar previsão de horas**, **Copiar previsão de item** e/ou **Copiar previsão de despesas** como **Sim** se as previsões do projeto da ordem de serviço devem ser copiadas automaticamente nos diários de ordens de serviço quando a ordem de serviço estiver neste estado de ciclo de vida.
-12. Na seção **Agenda**, defina uma das opções como **Sim** se o status da agenda para os trabalhos da ordem de serviço for atualizado quando a ordem de serviço estiver neste estado de ciclo de vida. Para obter descrições das opções **Pronto**, **Iniciar**, **Encerrar** e **Excluir linhas da agenda**, consulte a tabela anterior deste tópico.
+12. Na seção **Agenda**, defina uma das opções como **Sim** se o status da agenda para os trabalhos da ordem de serviço for atualizado quando a ordem de serviço estiver neste estado de ciclo de vida. Para obter descrições das opções **Pronto**, **Iniciar**, **Encerrar** e **Excluir linhas da agenda**, consulte a tabela anterior deste artigo.
 
     > [!NOTE]
     > Para exibir linhas da agenda que estão relacionadas a trabalhos da ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço**, **Ordens de serviço ativas** ou **Minhas ordens de serviço ativas**. Abra a ordem de serviço, selecione o trabalho da ordem de serviço na Guia Rápida **Trabalhos da ordem de serviço** e exiba as informações relacionadas na Guia Rápida **Detalhes da linha**. O campo **Status** na guia **Agenda** mostra o status do trabalho da ordem de serviço. O campo **Status** pode ser definido como os seguintes valores: **Agendado**, **Pronto**, **Iniciado**, **Parado** e **Encerrado**.

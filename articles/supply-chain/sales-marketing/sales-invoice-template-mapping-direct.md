@@ -1,6 +1,6 @@
 ---
 title: Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Supply Chain Management para o Sales
-description: Este tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de fatura de venda diretamente do Dynamics 365 Supply Chain Management para o Dynamics 365 Sales.
+description: Este artigo discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de fatura de venda diretamente do Dynamics 365 Supply Chain Management para o Dynamics 365 Sales.
 author: Henrikan
 ms.date: 10/26/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: de4bdd07127b65321540543040192eb7811850da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862530"
 ---
-# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizar cabeçalhos e linhas de fatura de venda diretamente do Finance and Operations com o Sales
+# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Finance and Operations para o Sales
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de fatura de venda diretamente do Dynamics 365 Supply Chain Management para o Dynamics 365 Sales.
+Este artigo discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de fatura de venda diretamente do Dynamics 365 Supply Chain Management para o Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 
@@ -124,7 +124,7 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [De cliente potencial ao pagamento à vista](prospect-to-cash.md)
 

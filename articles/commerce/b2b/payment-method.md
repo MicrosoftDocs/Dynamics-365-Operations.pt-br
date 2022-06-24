@@ -1,6 +1,6 @@
 ---
-title: Configurar o método de pagamento da conta do cliente para sites de comércio eletrônico B2B
-description: Este tópico descreve como configurar a forma de pagamento da conta de cliente no Microsoft Dynamics 365 Commerce. Ele também mostra como os limites de crédito afetam a captura de pagamento por conta nos sites de comércio eletrônico entre empresas (B2B).
+title: Configurar a forma de pagamento da conta do cliente para sites de comércio eletrônico entre empresas
+description: Este artigo descreve como configurar a forma de pagamento da conta de cliente no Microsoft Dynamics 365 Commerce. Ele também mostra como os limites de crédito afetam a captura de pagamento por conta nos sites de comércio eletrônico entre empresas (B2B).
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,26 +14,26 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689628"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878638"
 ---
-# <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurar o método de pagamento da conta do cliente para sites de comércio eletrônico B2B
+# <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurar a forma de pagamento da conta do cliente para sites de comércio eletrônico entre empresas
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como configurar a forma de pagamento da conta de cliente no Microsoft Dynamics 365 Commerce. Ele também mostra como os limites de crédito afetam a captura de pagamento por conta nos sites de comércio eletrônico entre empresas (B2B).
+Este artigo descreve como configurar a forma de pagamento da conta de cliente no Microsoft Dynamics 365 Commerce. Ele também mostra como os limites de crédito afetam a captura de pagamento por conta nos sites de comércio eletrônico entre empresas (B2B).
 
 Os varejistas podem aceitar vários tipos de pagamento em troca de produtos e serviços vendidos em um canal de comércio eletrônico. Cada tipo de pagamento que o varejista aceita deve ser configurado no Dynamics 365 Commerce quando o sistema for configurado. A forma de pagamento da conta do cliente (ou "por conta") deve ter suporte em sites de comércio eletrônico B2B. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-1. Adicione o método de pagamento da conta do cliente na sede do Commerce.
+1. Adicione o método de pagamento da conta do cliente no Commerce headquarters.
 2. Associe o método de pagamento da conta do cliente ao canal de comércio eletrônico.
-3. Verifique se a propriedade **Permitir por conta** está habilitada para o cliente em **Varejo e Comércio \> Clientes \> Todos os clientes \> Padrões de pagamentos** no Commerce Headquarters.
+3. Verifique se a propriedade **Permitir por conta** está habilitada para o cliente em **Varejo e Comércio \> Clientes \> Todos os clientes \> Padrões de pagamentos** no Commerce headquarters.
 
     > [!NOTE]
     > Se todos os clientes tiverem permissão para ativar a forma de pagamento por conta, você poderá definir a propriedade **Permitir por conta** como **Sim** para o cliente padrão do canal associado ao site B2B. 
@@ -68,9 +68,9 @@ Para confirmar que o método de pagamento da conta do cliente foi ativado e publ
 
 ## <a name="work-with-credit-limits"></a>Trabalhar com limites de crédito
 
-Quando os recursos de pagamentos de contas de clientes são ativados no site B2B, as organizações normalmente querem mostrar informações sobre limites de crédito e saldos de limite de crédito durante o processo de captura da ordem. O limite de crédito de um cliente é definido pela propriedade **Limite de crédito** na guia rápida **Crédito e cobranças** do registro de cliente no Commerce Headquarters. No entanto, em cenários B2B, uma ordem de um cliente geralmente deve ser faturada para a conta da organização à qual o cliente pertence. Portanto, você deve definir a propriedade **Conta de faturamento** na guia rápida **Fatura e entrega** do registro do cliente para a ID da conta de cliente da organização. Depois, quando o cliente fizer uma ordem no site B2B, ela será faturada para a organização. O site B2B também usará o limite de crédito da organização em vez do limite de crédito definido no registro do cliente.
+Quando os recursos de pagamentos de contas de clientes são ativados no site B2B, as organizações normalmente querem mostrar informações sobre limites de crédito e saldos de limite de crédito durante o processo de captura da ordem. O limite de crédito de um cliente é definido pela propriedade **Limite de crédito** na guia rápida **Crédito e cobranças** do registro de cliente no Commerce headquarters. No entanto, em cenários B2B, uma ordem de um cliente geralmente deve ser faturada para a conta da organização à qual o cliente pertence. Portanto, você deve definir a propriedade **Conta de faturamento** na guia rápida **Fatura e entrega** do registro do cliente para a ID da conta de cliente da organização. Depois, quando o cliente fizer uma ordem no site B2B, ela será faturada para a organização. O site B2B também usará o limite de crédito da organização em vez do limite de crédito definido no registro do cliente.
 
-O cálculo e o saldo do limite de crédito mostrados no site B2B dependem da configuração da propriedade do **Tipo de limite de crédito** no Commerce Headquarters. A localização dessa propriedade varia, dependendo se o recurso **Gerenciamento de crédito** está habilitado no espaço de trabalho **Gerenciamento de recursos**:
+O cálculo e o saldo do limite de crédito mostrados no site B2B dependem da configuração da propriedade do **Tipo de limite de crédito** no Commerce headquarters. A localização dessa propriedade varia, dependendo se o recurso **Gerenciamento de crédito** está habilitado no espaço de trabalho **Gerenciamento de recursos**:
 
 - Se o recurso **Gerenciamento de crédito** estiver habilitado, a propriedade estará na guia rápida **Limites de crédito** em **Créditos e cobranças \> Configuração \>Parâmetros de crédito e cobrança \> Crédito**. 
 - Se o recurso **Gerenciamento de crédito**, a propriedade estará em **Avaliação de crédito** em **Contas a receber \> Configuração \> Parâmetros de contas a receber \> Avaliação de crédito**.

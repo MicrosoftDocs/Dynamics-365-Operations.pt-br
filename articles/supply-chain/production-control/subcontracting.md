@@ -1,6 +1,6 @@
 ---
 title: Subcontratação
-description: Esse tópico o ajudará a criar um passo a passo da subcontratação na fabricação no Dynamics 365 Supply Chain Management.
+description: Esse artigo o ajudará a criar um passo a passo da subcontratação na fabricação no Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 09/28/2018
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4c4ef554406c727cc410f8dca5f41264be01060b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ef8f30e934ece4a148c6f5259d74f8f67799999d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854167"
 ---
 # <a name="subcontracting"></a>Subcontratação
 
 [!include [banner](../includes/banner.md)]
 
-Esse tópico o ajudará a criar um passo a passo da subcontratação de fabricação no Microsoft Dynamics 365 Supply Chain Management. A primeira parte desse tópico descreve a configuração dos dados. A segunda parte fornece orientações sobre as etapas do passo a passo.
+Esse artigo o ajudará a criar um passo a passo da subcontratação de fabricação no Microsoft Dynamics 365 Supply Chain Management. A primeira parte desse artigo descreve a configuração dos dados. A segunda parte fornece orientações sobre as etapas do passo a passo.
 
 ## <a name="target-audience"></a>Público-alvo
 
-Neste tópico, você saberá como configurar a subcontratação de fabricação. Você usará os dados existentes na entidade legal de HQUS para fazer a configuração básica de um fluxo de atividade a subcontratação. Os dados de demonstração na entidade legal de HQUS incluem os parâmetros de configuração que foram predefinidos para oferecer suporte nas etapas do passo a passo. Embora o passo a passo aborde problemas encontrados e desafios importantes para várias funções, ele podem ser concluído pelo administrador do sistema.
+Neste artigo, você saberá como configurar a subcontratação de fabricação. Você usará os dados existentes na entidade legal de HQUS para fazer a configuração básica de um fluxo de atividade a subcontratação. Os dados de demonstração na entidade legal de HQUS incluem os parâmetros de configuração que foram predefinidos para oferecer suporte nas etapas do passo a passo. Embora o passo a passo aborde problemas encontrados e desafios importantes para várias funções, ele podem ser concluído pelo administrador do sistema.
 
 ## <a name="demo-scenario"></a>Cenário de demonstração
 

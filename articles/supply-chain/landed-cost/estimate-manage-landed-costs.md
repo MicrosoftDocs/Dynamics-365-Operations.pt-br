@@ -1,6 +1,6 @@
 ---
 title: Estimar e gerenciar custos de entrega
-description: O sistema usa a configuração de custo automático para determinar uma estimativa do custo de entrega. Este tópico explica como é possível definir vários cenários para fornecer uma estimativa mais precisa.
+description: O sistema usa a configuração de custo automático para determinar uma estimativa do custo de entrega. Este artigo explica como é possível definir vários cenários para fornecer uma estimativa mais precisa.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696197"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854431"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Estimar e gerenciar custos de entrega
 
@@ -50,7 +50,7 @@ A tabela a seguir descreve os campos disponíveis para cada modelo.
 
 Use a caixa de diálogo **Estimativa de custo** para gerar uma nova estimativa de custo baseada em um modelo de custo selecionado, um conjunto de itens selecionado e outros detalhes de um percurso. Essas configurações são usadas para determinar os custos de entrega estimados de mercadorias. Essas estimativas de custo são usadas principalmente para trabalhar com itens de custo padrão. Ao adicionar os custos de entrega estimados ao custo padrão de mercadorias no estoque, você deve testar transações de variação reduzida quando as mercadorias são adicionadas a uma viagem, pois o custo padrão refletirá as estimativas desses custos de entrega.
 
-Para abrir a caixa de diálogo **Estimativa de custo**, acesse **Custo de entrega \> Tarefas periódicas \> Estimativa de custo**. Defina os campos que são descritos nas subseções a seguir. Finalmente, selecione **OK** para criar a estimativa. A página **Estimativa de custo** (**Custo de entrega \> Consultas \> Estimativas de custo**) aparece e mostra sua nova estimativa, conforme descrito posteriormente neste tópico.
+Para abrir a caixa de diálogo **Estimativa de custo**, acesse **Custo de entrega \> Tarefas periódicas \> Estimativa de custo**. Defina os campos que são descritos nas subseções a seguir. Finalmente, selecione **OK** para criar a estimativa. A página **Estimativa de custo** (**Custo de entrega \> Consultas \> Estimativas de custo**) aparece e mostra sua nova estimativa, conforme descrito posteriormente neste artigo.
 
 ### <a name="settings-on-the-parameters-tab"></a>Configurações na guia Parâmetros
 
@@ -91,7 +91,7 @@ Para exibir ou ajustar o volume e/ou detalhes de peso de um item, selecione o it
 
 ## <a name="manage-estimated-costs"></a>Gerenciar custos estimados
 
-Para exibir e editar as estimativas de custo criadas, acesse **Custo de entrega \> Consultas \> Estimativas de custo**. Na página **Estimativas de custo**, o painel de lista à esquerda mostra todas as estimativas de custo atuais. Você pode usar os botões no Painel de Ações para trabalhar com uma estimativa selecionada. Observe que não é possível criar uma nova estimativa de custo na página **Estimativas de custo**. Em vez disso, use a caixa de diálogo **Estimativa de custo** (**Custo de entrega \> Tarefas periódicas \> Estimativa de custo**), conforme descrito anteriormente neste tópico.
+Para exibir e editar as estimativas de custo criadas, acesse **Custo de entrega \> Consultas \> Estimativas de custo**. Na página **Estimativas de custo**, o painel de lista à esquerda mostra todas as estimativas de custo atuais. Você pode usar os botões no Painel de Ações para trabalhar com uma estimativa selecionada. Observe que não é possível criar uma nova estimativa de custo na página **Estimativas de custo**. Em vez disso, use a caixa de diálogo **Estimativa de custo** (**Custo de entrega \> Tarefas periódicas \> Estimativa de custo**), conforme descrito anteriormente neste artigo.
 
 A página **Estimativas de custo** mostra como cada custo estimado foi derivado. Ela também mostra o custo de entrega estimado para cada item. Você pode modificar uma estimativa de custo alterando o preço de custo e/ou a moeda associada a várias mercadorias. Também é possível modificar os custos de viagem associados nos níveis de viagem e de contêiner. Ao usar esta página para modificar os custos, você será solicitado a recalcular os custos estimados para os itens na estimativa de custo. Quando estiver pronto, você poderá usar as estimativas para atualizar o preço de custo dos itens no modelo de custo.
 

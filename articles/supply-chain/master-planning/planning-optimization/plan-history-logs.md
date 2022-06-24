@@ -1,8 +1,8 @@
 ---
 title: Exibir logs de histórico de plano e de planejamento
-description: Este tópico explica como exibir o histórico de trabalhos de planejamento disparados pela funcionalidade Otimização de Planejamento.
+description: Este artigo explica como exibir o histórico de trabalhos de planejamento disparados pela funcionalidade Otimização de Planejamento.
 author: t-benebo
-ms.date: 10/30/2019
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9b4cba4dd94eb198e770d152d4f759a706065dee
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863930"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Exibir logs de histórico de plano e de planejamento
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como exibir o histórico de trabalhos de planejamento disparados pela funcionalidade Otimização de Planejamento no Microsoft Dynamics 365 Supply Chain Management.
+Este artigo explica como exibir o histórico de trabalhos de planejamento disparados pela funcionalidade Otimização de Planejamento no Microsoft Dynamics 365 Supply Chain Management.
 
 Para exibir o histórico de um plano, abra o plano em **Planejamento mestre** \> **Configuração** \> **Planos** \> **Planos mestres** e selecione **Histórico**. O histórico lista todos os trabalhos do plano selecionado. A lista inclui os trabalhos concluídos e ativos.
 
-O histórico dos trabalhos para execuções de planejamento mestre da Otimização de Planejamento mantém apenas até 60 registros por plano mestre. Sempre que você executa um novo cálculo de planejamento mestre, o registro histórico mais antigo desse plano é excluído.
+O sistema mantém no máximo 60 registros de histórico por plano mestre e exclui registros com mais de 30 dias. Toda vez que você executa um novo cálculo de planejamento mestre, o sistema adiciona um novo registro de histórico e depois limpa os registros mais antigos conforme necessário.
 
 Além de verificar a hora inicial e o status de trabalhos, você pode exibir o log para um determinado trabalho. O log inclui informações e avisos adicionais. Nem todos os trabalhos têm um log. Para exibir o log para um trabalho, selecione **Log**. As entradas de registro só são armazenadas por 30 dias após a data de término do trabalho, depois disso, são automaticamente excluídas.
 

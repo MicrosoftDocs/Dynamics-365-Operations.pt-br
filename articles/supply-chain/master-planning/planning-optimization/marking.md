@@ -1,6 +1,6 @@
 ---
-title: Marcação de estoque com a Otimização de Planejamento
-description: Este tópico fornece informações sobre as opções disponíveis para marcar estoque em ordens confirmadas ao usar a Otimização de Planejamento.
+title: Marca de estoque com a Otimização de Planejamento
+description: Este artigo fornece informações sobre as opções disponíveis para marcar estoque em ordens confirmadas ao usar a Otimização de Planejamento.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8d06527d125837b056729574517ca5ed6738fcff
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844457"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Marcação de estoque com a Otimização de Planejamento
+# <a name="inventory-marking-with-planning-optimization"></a>Marca de estoque com a Otimização de Planejamento
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece informações sobre as opções disponíveis para marcar estoque em ordens confirmadas ao usar a Otimização de Planejamento.
+Este artigo fornece informações sobre as opções disponíveis para marcar estoque em ordens confirmadas ao usar a Otimização de Planejamento.
 
 A *marcação* é usada para vincular fornecimento e demanda. Ela é semelhante à *vinculação*, que indica como o planejamento mestre espera cobrir a demanda. Do ponto de vista de planejamento, a principal diferença é que a marcação é mais permanente do que a vinculação.
 

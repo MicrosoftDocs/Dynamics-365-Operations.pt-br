@@ -1,8 +1,8 @@
 ---
-title: Alocação de estoque de visibilidade de estoque
-description: Este tópico explica como configurar e usar o recurso alocação de estoque, que permite separar o estoque dedicado para garantir que você possa atender a canais ou clientes mais rentáveis.
+title: Alocação de estoque do Inventory Visibility
+description: Este artigo explica como configurar e usar o recurso alocação de estoque, que permite separar o estoque dedicado para garantir que você possa atender a canais ou clientes mais rentáveis.
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852495"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Alocação de estoque de visibilidade de estoque
 
@@ -98,7 +98,7 @@ Estas são as medidas calculadas iniciais:
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Adicionar outras medidas físicas à medida calculada disponível para alocar
 
-Para usar a alocação, você deve configurar a medida calculada de disponível para alocar (`@iv`.`@available_to_allocate`). Por exemplo, você tem a fonte de dados `fno` e a medida `onordered`, a fonte de dados `pos` e a medida `inbound`, e deseja fazer a alocação no que há disponível para a soma de `fno.onordered` e `pos.inbound`. Nesse caso, `@iv.@available_to_allocate` deve conter `pos.inbound` e `fno.onordered` na fórmula. Este é um exemplo:
+Para usar a alocação, você deve configurar a medida calculada de disponível para alocar (`@iv.@available_to_allocate`). Por exemplo, você tem a fonte de dados `fno` e a medida `onordered`, a fonte de dados `pos` e a medida `inbound`, e deseja fazer a alocação no que há disponível para a soma de `fno.onordered` e `pos.inbound`. Nesse caso, `@iv.@available_to_allocate` deve conter `pos.inbound` e `fno.onordered` na fórmula. Este é um exemplo:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
 
@@ -110,11 +110,12 @@ Defina os nomes de grupos na página **Configuração do Power App de Visibilida
 
 Por exemplo, se você usar quatro nomes de grupos e defini-los como \[`channel`, `customerGroup`, `region`, `orderType`\], os nomes serão válidos para solicitações relativas à alocação quando você chamar a API de atualização de configuração.
 
-### <a name="allcoation-using-tips"></a>Alocação usando dicas
+### <a name="allocation-using-tips"></a>Alocação usando dicas
 
-- Para cada produto, a função de alocação deve ser usada no mesmo nível de dimensão, de acordo com a hierarquia de índice do produto definida na [configuração da hierarquia do índice do produto](inventory-visibility-configuration.md#index-configuration). Por exemplo, a hierarquia de índice é Site, Local, Cor, Tamanho. Se você alocar uma quantidade para um produto em nível de Site, Local, Cor. Na próxima vez em que você alocar, também faça em nível de Site, Local, Cor. Se você usar o nível Site, Local, Cor, Tamanho ou o nível Site, Local, os dados não serão consistentes.
+- Para cada produto, a função de alocação deve ser usada no mesmo *nível de dimensão*, de acordo com a hierarquia de índice do produto definida na [configuração da hierarquia do índice do produto](inventory-visibility-configuration.md#index-configuration). Por exemplo, suponha que sua hierarquia de índice seja \[`Site`, `Location`, `Color`, `Size`\]. Se você alocar alguma quantidade para um produto no nível de dimensão \[`Site`, `Location`, `Color`\], na próxima vez que você quiser alocar este produto, você também deve alocar no mesmo nível, \[`Site`, `Location`, `Color`\]. Se você usar o nível \[`Site`, `Location`, `Color`, `Size`\] or \[`Site`, `Location`\], os dados serão inconsistentes.
 - A alteração do nome do grupo de alocação não afetará os dados salvos no serviço.
 - A alocação deverá ocorrer depois que o produto tiver a quantidade disponível positiva.
+- Para alocar produtos de um grupo de *nível de alocação* alto para um subgrupo, use a API `Reallocate`. Por exemplo, você tem uma hierarquia de grupos de alocação \[`channel`, `customerGroup`, `region`, `orderType`\] e deseja alocar algum produto do grupo de alocação \[Online, VIP\] para o subgrupo de alocação \[Online, VIP, EU\], use a API `Reallocate` para mover a quantidade. Se você usar a API `Allocate`, ela alocará a quantidade do pool comum virtual.
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a>Usar a API de alocação
 

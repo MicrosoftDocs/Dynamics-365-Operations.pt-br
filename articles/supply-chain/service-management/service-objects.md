@@ -1,6 +1,6 @@
 ---
 title: Visão geral de objetos de serviço
-description: Este tópico fornece uma visão geral de como trabalhar com objetos de serviço.
+description: Este artigo fornece uma visão geral de como trabalhar com objetos de serviço.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cef4cf1222c4c66991069da72e3e6f5a7040153
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8150a94677fe38f4caa6f3e0b5fb5d1be5972eaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862401"
 ---
 # <a name="service-objects-overview"></a>Visão geral de objetos de serviço
 
@@ -39,7 +39,7 @@ Os objetos de serviço são os ativos e os produtos de um cliente para o qual vo
 
 A empresa A mantém os registros financeiros de várias pequenas empresas. Um dos clientes da Empresa A é a equipe de futebol local, para a qual a Empresa A faz a escrituração contábil semanal e a auditoria anual das contas do clube. Essas contas são configuradas no formulário Objetos de serviço e são especificadas como objeto no contrato de serviço. Há duas linhas de contrato de serviço para o objeto. A linha 1 é a escrituração contábil semanal com um intervalo semanal atribuído à linha, e a linha 2 é a auditoria anual com um intervalo anual atribuído a ela.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Criar objetos de serviço](create-service-objects.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Classificar um produto usando hierarquias de categoria
-description: Este tópico descreve como classificar um produto usando hierarquias de categorias.
+description: Este artigo descreve como classificar um produto usando hierarquias de categorias.
 author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857a9e69e63216f22a4e75d9606ef6ceb77f1dbc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29b1d7dc66e50822694a20235be096431e228ce6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862617"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Classificar um produto usando hierarquias de categoria
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como classificar um produto usando hierarquias de categorias. Use as hierarquias de categoria para classificar produtos para exportação, compras, vendas ou para outras finalidades. Essa tarefa geralmente é realizada por um gerente de produto. O exemplo usa o número de produto M0009 na empresa de dados de demonstração USMF.
+Este artigo descreve como classificar um produto usando hierarquias de categorias. Use as hierarquias de categoria para classificar produtos para exportação, compras, vendas ou para outras finalidades. Essa tarefa geralmente é realizada por um gerente de produto. O exemplo usa o número de produto M0009 na empresa de dados de demonstração USMF.
 
 1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Na lista, localize e selecione o registro desejado.

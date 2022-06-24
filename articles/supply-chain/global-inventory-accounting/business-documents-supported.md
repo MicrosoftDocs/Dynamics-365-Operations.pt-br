@@ -1,6 +1,6 @@
 ---
 title: Documentos de negócios compatíveis com a Contabilidade de estoque global
-description: Este tópico lista os documentos de negócios que são compatíveis com a Contabilidade de estoque global. Ele também fornece um exemplo detalhado para documentos de ordem de compra.
+description: Este artigo lista os documentos de negócios que são compatíveis com a Contabilidade de estoque global. Ele também fornece um exemplo detalhado para documentos de ordem de compra.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875413"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Documentos de negócios compatíveis com a Contabilidade de estoque global
 
@@ -32,7 +32,7 @@ Há dois tipos de documentos de negócios:
 - **Documentos que possuem um diário** – Esses documentos incluem recibo do produto, fatura de compra, guia de remessa e fatura de venda.
 - **Documentos que não possuem um diário** – Esses documentos incluem documentos de contagem, movimentação e ajuste de inventário.
 
-Posteriormente neste tópico, as ordens de compra serão usadas como exemplo para ilustrar o processo.
+Posteriormente neste artigo, as ordens de compra serão usadas como exemplo para ilustrar o processo.
 
 A tabela a seguir lista os documentos que a versão atual permite.
 

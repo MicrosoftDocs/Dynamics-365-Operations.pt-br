@@ -1,6 +1,6 @@
 ---
 title: Configurar e trabalhar com alertas de fraude de call center
-description: Este tópico explica como configurar regras para alertar representantes de atendimento ao cliente sobre informações potencialmente fraudulentas quando as ordens são processadas. Você também pode especificar os códigos que são usados para colocar ordens suspeitas automaticamente ou manualmente em espera.
+description: Este artigo explica como configurar regras para alertar representantes de atendimento ao cliente sobre informações potencialmente fraudulentas quando as ordens são processadas. Você também pode especificar os códigos que são usados para colocar ordens suspeitas automaticamente ou manualmente em espera.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885339"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Configurar e trabalhar com alertas de fraude de call center
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como configurar critérios e regras para colocar ordens de venda potencialmente fraudulentas em espera para revisão adicional. O recurso de verificação de fraude é usado para determinar a validade das informações em uma ordem de venda. Se as informações na ordem de venda parecem ser questionáveis, com base em critérios e regras de fraude de uma organização, a ordem pode ser colocada em espera para revisão adicional. Nesse caso, não é possível liberar a ordem para o depósito para o processamento até que o bloqueio seja liberado.
+Este artigo explica como configurar critérios e regras para colocar ordens de venda potencialmente fraudulentas em espera para revisão adicional. O recurso de verificação de fraude é usado para determinar a validade das informações em uma ordem de venda. Se as informações na ordem de venda parecem ser questionáveis, com base em critérios e regras de fraude de uma organização, a ordem pode ser colocada em espera para revisão adicional. Nesse caso, não é possível liberar a ordem para o depósito para o processamento até que o bloqueio seja liberado.
 
 > [!NOTE]
 > Esse recurso pode ser usado somente com o processamento de ordens de vendas para o canal de call center do Commerce.

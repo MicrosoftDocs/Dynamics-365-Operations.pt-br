@@ -1,6 +1,6 @@
 ---
 title: Configurar um depósito usando um modelo de configuração de depósito
-description: Este tópico explica como configurar um depósito usando um modelo de configuração de depósito.
+description: Este artigo explica como configurar um depósito usando um modelo de configuração de depósito.
 author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856096"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Configurar um depósito usando um modelo de configuração de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar um depósito usando um modelo de configuração de depósito. Há vários modelos predefinidos de configuração que você pode usar. Para obter informações sobre como usar esses modelos, consulte [Modelos de dados de configuração](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+Este artigo explica como configurar um depósito usando um modelo de configuração de depósito. Há vários modelos predefinidos de configuração que você pode usar. Para obter informações sobre como usar esses modelos, consulte [Modelos de dados de configuração](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Cenários onde os modelos de configuração podem ser úteis
 
@@ -38,7 +38,7 @@ Os modelos de configuração podem ser úteis em vários cenários. Eis alguns e
 - Você quer preparar rapidamente uma demonstração de funcionalidade de depósito.
 - Você quer que os itens e depósitos existentes usem a funcionalidade no Gerenciamento de depósito, em vez da funcionalidade no gerenciamento de estoque.
 
-Esse tópico concentra-se no primeiro desses cenários. Ele mostra como é possível usar um modelo de configuração para copiar uma definição de configuração de um ambiente de teste para um ambiente de produção.
+Esse artigo concentra-se no primeiro desses cenários. Ele mostra como é possível usar um modelo de configuração para copiar uma definição de configuração de um ambiente de teste para um ambiente de produção.
 
 ## <a name="copy-a-configuration-setup-from-a-test-environment-to-a-production-environment"></a>Copiar uma definição de configuração de um ambiente de teste para um ambiente de produção
 
@@ -92,7 +92,7 @@ O log **Exibir execução** fornece informações detalhadas sobre cada entidade
 
 Para saber mais sobre como usar o modelo de depósito para copiar a configuração de um depósito de uma empresa para uma nova empresa na mesma a instância, assista a este vídeo de 3 minutos de duração no YouTube sobre [como usar o modelo de depósito para copiar a configuração no Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
-## <a name="related-topic"></a>Tópico relacionado
+## <a name="related-article"></a>Artigo relacionado
 
 [Modelos de dados de configuração](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 

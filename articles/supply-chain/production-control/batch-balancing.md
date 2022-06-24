@@ -1,6 +1,6 @@
 ---
 title: Balanceamento de lote
-description: Este tópico descreve o processo de balanceamento de lote.
+description: Este artigo descreve o processo de balanceamento de lote.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856038"
 ---
 # <a name="batch-balancing"></a>Balanceamento de lote
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como o processo de balanceamento de lote é suportado.
+Este artigo descreve como o processo de balanceamento de lote é suportado.
 
 Para obter mais informações, assista ao [vídeo sobre balanceamento de lote](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
@@ -149,7 +149,7 @@ A quantidade balanceada do excipiente é calculada como a diferença entre o tam
 O processo de balanceamento de lote é executado da página **Balanceamento de lote**.
 Selecione **Gerenciamento de custo \> Ordens de lote** e, em seguida, na guia **Processo**, selecione **Balanceamento de lote**. O balanceamento de lote está disponível para ordens de lote que possuam um status **Iniciado**.
 
-Em geral, o balanceamento de lote pode ser aplicado a ordens de lote se a fórmula tiver pelo menos uma linha de fórmula em que o **Tipo de princípio** seja *Ativo*. (Para conhecer a exceção a essa regra, consulte a seção “Ordens de lote não aplicáveis ao balanceamento de lote” posteriormente neste tópico.)
+Em geral, o balanceamento de lote pode ser aplicado a ordens de lote se a fórmula tiver pelo menos uma linha de fórmula em que o **Tipo de princípio** seja *Ativo*. (Para conhecer a exceção a essa regra, consulte a seção “Ordens de lote não aplicáveis ao balanceamento de lote” posteriormente neste artigo.)
 
 O processo de balanceamento de lote pode ser dividido em dois subprocessos:
 

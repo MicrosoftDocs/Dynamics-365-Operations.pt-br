@@ -1,6 +1,6 @@
 ---
-title: Configurar definição de preços com base no atributo para os produtos configuráveis
-description: Este tópico explica como configurar preços baseados em atributos.
+title: Configurar definição de preços com base no atributo para produtos configuráveis
+description: Este artigo explica como configurar preços baseados em atributos.
 author: t-benebo
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4acd7b423396124dd1059602f5aa6460ec5e259
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec16a0a8078cddd433c99592aa4a7474cf923aec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849377"
 ---
-# <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Configurar definição de preços com base no atributo para os produtos configuráveis
+# <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Configurar definição de preços com base no atributo para produtos configuráveis
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como configurar preços baseados em atributos. Como pré-requisito, você deve ter um modelo de configuração de produto com um ou vários componentes e atributos. Este exemplo usa o modelo de produto do Palestrante de avançado na empresa de dados demo USMF. Normalmente, um gerente de produto usa este procedimento.
+Este artigo explica como configurar preços baseados em atributos. Como pré-requisito, você deve ter um modelo de configuração de produto com um ou vários componentes e atributos. Este exemplo usa o modelo de produto do Palestrante de avançado na empresa de dados demo USMF. Normalmente, um gerente de produto usa este procedimento.
 
 
 ## <a name="create-a-new-price-model"></a>Criar um novo modelo de preço

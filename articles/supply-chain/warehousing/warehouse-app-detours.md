@@ -1,6 +1,6 @@
 ---
 title: Configurar desvios para as etapas nos itens de menu do dispositivo móvel
-description: Este tópico descreve como configurar desvios para itens de menu de modo que os trabalhadores possam estacionar a tarefa atual, executar outra tarefa e retornar à tarefa original sem perder nenhuma informação.
+description: Este artigo descreve como configurar desvios para itens de menu de modo que os trabalhadores possam estacionar a tarefa atual, executar outra tarefa e retornar à tarefa original sem perder nenhuma informação.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863582"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurar desvios para as etapas nos itens de menu do dispositivo móvel
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Os recursos descritos neste tópico se aplicam apenas ao novo aplicativo móvel Warehouse Management. Eles não afetam o antigo aplicativo de depósito, que foi preterido.
+> Os recursos descritos neste artigo se aplicam apenas ao novo aplicativo móvel do Warehouse Management. Eles não afetam o antigo aplicativo de depósito, que foi preterido.
 
-Este tópico descreve como configurar desvios para itens de menu de modo que os trabalhadores possam "estacionar" a tarefa atual, executar outra tarefa e retornar à tarefa original sem perder nenhuma informação.
+Este artigo descreve como configurar desvios para itens de menu de modo que os trabalhadores possam "pausar" a tarefa atual, executar outra tarefa e retornar à tarefa original sem perder nenhuma informação.
 
 Um desvio é um item de menu separado que pode ser aberto a partir de uma etapa em uma tarefa principal. No final do desvio, o trabalhador será devolvido para o local de onde eles saíram da tarefa principal. Durante a configuração, você especifica o item de menu que deve atuar como desvio. Você também seleciona quais valores de campo da tarefa principal devem ser encaminhados automaticamente (copiados) para o desvio e inseridos ali. Portanto, você deve entender onde no fluxo de tarefas deseja que o desvio esteja disponível para trabalhadores. Você também deve garantir que as informações que devem ser copiadas para o desvio estão disponíveis para essa etapa do fluxo de tarefas.
 
@@ -46,7 +46,7 @@ Antes de configurar os desvios para etapas em itens de menu de dispositivo móve
     - **Módulo:** *Gerenciamento de depósito*
     - **Nome do recurso:** *desvios do aplicativo do Warehouse Management*
 
-    Esse recurso é o descrito neste tópico.
+    Esse recurso é o descrito neste artigo.
 
 1. Atualize os nomes de campo no aplicativo móvel do Warehouse Management acessando **Warehouse management \> Configuração \> Dispositivo móvel \> Nomes de campo do aplicativo do Warehouse** e selecionando **Criar configuração padrão**. Para obter mais informações, consulte [Configurar campos para o aplicativo móvel Warehouse Management](configure-app-field-names-priorities-warehouse.md).
 1. Repita a etapa anterior para cada entidade legal (empresa) em que você usa o aplicativo móvel do Warehouse Management.
@@ -57,7 +57,7 @@ Use o procedimento a seguir para configurar um desvio de uma substituição espe
 
 1. Crie uma substituição específica do menu para o menu e a etapa relevantes conforme descrito em [Personalizar títulos e instruções de etapas para o aplicativo móvel do Warehouse Management](mobile-app-titles-instructions.md).
 1. Encontre a combinação de valores de **ID da Etapa** e **Nome do item de menu** que deseja editar e então selecione o valor na coluna **ID da Etapa**.
-1. Na página exibida, na Guia Rápida **Desvios disponíveis (itens de menu)**, você pode especificar o item de menu que deve atuar como desvio. Você também seleciona quais valores de campo da tarefa principal devem ser copiados automaticamente de e para o desvio. Para obter exemplos que mostrem como usar essas configurações, consulte os cenários posteriormente neste tópico.
+1. Na página exibida, na Guia Rápida **Desvios disponíveis (itens de menu)**, você pode especificar o item de menu que deve atuar como desvio. Você também seleciona quais valores de campo da tarefa principal devem ser copiados automaticamente de e para o desvio. Para obter exemplos que mostrem como usar essas configurações, consulte os cenários posteriormente neste artigo.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Cenário de exemplo 1: Separação de vendas em que uma consulta de localização atua como desvio
 

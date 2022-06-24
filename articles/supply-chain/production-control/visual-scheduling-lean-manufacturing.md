@@ -1,6 +1,6 @@
 ---
 title: Agendamento visual para lean manufacturing
-description: Este tópico fornece informações sobre o quadro de programação kanban, que o planejador de produção pode usar para controlar e otimizar o plano da produção de trabalhos kanban.
+description: Este artigo fornece informações sobre o quadro de programação kanban, que o planejador de produção pode usar para controlar e otimizar o plano da produção de trabalhos kanban.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875178"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Agendamento visual para lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre o quadro de programação kanban, que o planejador de produção pode usar para controlar e otimizar o plano da produção de trabalhos kanban.
+Este artigo fornece informações sobre o quadro de programação kanban, que o planejador de produção pode usar para controlar e otimizar o plano da produção de trabalhos kanban.
 
-Este tópico fornece informações sobre o quadro de programação kanban, que o planejador de produção pode usar para controlar e otimizar o plano da produção de trabalhos kanban.
+Este artigo fornece informações sobre o quadro de programação kanban, que o planejador de produção pode usar para controlar e otimizar o plano da produção de trabalhos kanban.
 
 O quadro de programação kanban permite que o planejador de produção controle e otimize o plano da produção de trabalhos kanban. Ele torna o fluxo de trabalhos kanban transparente e fornece ao planejador de produção uma ferramenta que otimiza e ajusta o plano da produção da célula de trabalho de lean manufacturing.
 

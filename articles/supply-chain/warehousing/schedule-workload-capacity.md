@@ -1,6 +1,6 @@
 ---
 title: Agendar a capacidade da carga de trabalho
-description: Este tópico explica como definir e planejar a capacidade de carga de trabalho para trabalhadores em um depósito ou para um depósito completo.
+description: Este artigo explica como definir e planejar a capacidade de carga de trabalho para trabalhadores em um depósito ou para um depósito completo.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f66eb1b2f35d19aba0f4f8f2804577a62ac14e79
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: bce77798867b373d955320b94c845430d83b5369
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860367"
 ---
 # <a name="schedule-workload-capacity"></a>Agendar capacidade da carga de trabalho
 

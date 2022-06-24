@@ -1,6 +1,6 @@
 ---
 title: Encargos automáticos avançados de omnicanal
-description: Este tópico descreve recursos para gerenciar outras cobranças de pedido para pedidos do canal Commerce usando recursos avançados de cobrança automática.
+description: Este artigo descreve recursos para gerenciar outras cobranças de pedido para pedidos do canal Commerce usando recursos avançados de cobrança automática.
 author: hhaines
 ms.date: 03/24/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851122"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omnicanal
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre a configuração e a implementação de recursos avançados da encargos disponíveis na versão 10.0 do Dynamics 365 for Retail.
+Este artigo fornece informações sobre a configuração e a implementação de recursos avançados da encargos disponíveis na versão 10.0 do Dynamics 365 for Retail.
 
 Quando os recursos avançados de encargos diversos forem habilitados, as ordens criadas em qualquer canal do Commerce suportado (ponto de venda, (PDV) call center e online) podem ter a vantagem das configurações de [encargos automáticos](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) definidas no aplicativo ERP para o cabeçalho e encargos relacionados a linha-nível.
 
@@ -41,7 +41,7 @@ Com o recurso avançado de encargos automáticos, os usuários do PDV podem ter 
 
 ## <a name="enable-advanced-auto-charges"></a>Habilitar cobranças automáticas avançadas
 
-Na página **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**, Acesse a guia **Ordens do cliente**. Na guia rápida **Encargos**, defina **Usar Encargos Automáticos Avançados** como **Sim**.
+Na página **Retail e Commerce \> Configuração do headquarters \> Parâmetros \> Parâmetros do Commerce**, Acesse a guia **Ordens do cliente**. Na guia rápida **Encargos**, defina **Usar Encargos Automáticos Avançados** como **Sim**.
 
 ![Parâmetro de Encargos automáticos avançados.](media/advancedchargesparameter.png)
 

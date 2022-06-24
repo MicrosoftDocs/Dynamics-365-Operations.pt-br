@@ -1,6 +1,6 @@
 ---
 title: Adicionar um logotipo
-description: Este tópico descreve como adicionar um logotipo ao seu site no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como adicionar um logotipo ao seu site no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 624cd6f7000f5038b9996eb94caf79719d07f99f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871771"
 ---
 # <a name="add-a-logo"></a>Adicionar um logotipo
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como adicionar um logotipo ao seu site no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como adicionar um logotipo ao seu site no Microsoft Dynamics 365 Commerce.
 
 Quando você cria seu site, uma das primeiras coisas que você provavelmente fará é adicionar o logotipo da empresa ou da marca ao cabeçalho do site. A biblioteca de módulos online do Dynamics 365 Commerce fornece um módulo que facilita essa tarefa.
 
-Você pode adicionar um logotipo diretamente a um modelo, layout ou página. Dessa forma, você pode alterar facilmente o logotipo que aparece em páginas ou grupos de páginas específicos. No entanto, este tópico cobre o cenário mais frequente, no qual você adiciona seu logotipo a um fragmento de cabeçalho que pode ser reutilizado em todas as páginas do seu site.
+Você pode adicionar um logotipo diretamente a um modelo, layout ou página. Dessa forma, você pode alterar facilmente o logotipo que aparece em páginas ou grupos de páginas específicos. No entanto, este artigo cobre o cenário mais frequente, no qual você adiciona seu logotipo a um fragmento de cabeçalho que pode ser reutilizado em todas as páginas do seu site.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

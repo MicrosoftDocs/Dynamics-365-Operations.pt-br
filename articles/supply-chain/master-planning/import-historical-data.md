@@ -1,6 +1,6 @@
 ---
 title: Importar dados históricos para previsões de demanda
-description: Para obter previsões de demanda precisas, você precisará dos dados históricos de demanda por item ou por chave de alocação de item. Este tópico explica como usar entidades de dados para importar dados históricos de demanda de qualquer sistema, de forma que você tenha um histórico de dados de previsão de demanda mais amplo.
+description: Para obter previsões de demanda precisas, você precisará dos dados históricos de demanda por item ou por chave de alocação de item. Este artigo explica como usar entidades de dados para importar dados históricos de demanda de qualquer sistema, de forma que você tenha um histórico de dados de previsão de demanda mais amplo.
 author: t-benebo
 ms.date: 05/10/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c52d27d6e3aa8a20d6cc1dc81e4ade981c6a8091
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e36ea72322c31f7e0ea3377b474cd148d78bdd3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877585"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Importar dados históricos para previsões de demanda
 
@@ -37,7 +37,7 @@ No espaço de trabalho **Gerenciamento de dados**, você pode ter uma visão ger
 
 Para usar a entidade de dados, você deverá ter um arquivo do Microsoft Excel ou um arquivo de valores separados por vírgulas (CSV) que contenha os dados históricos de demanda. O exemplo a seguir mostra como importar os dados de um arquivo CSV.
 
-Para obter mais informações sobre como importar dados, incluindo como limpar dados após uma importação, consulte [Visão geral sobre trabalhos de importação de dados e exportação](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) e os tópicos relacionados.
+Para obter mais informações sobre como importar dados, incluindo como limpar dados após uma importação, consulte [Visão geral sobre trabalhos de importação de dados e exportação](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) e os artigos relacionados.
 
 Veja também [Gerar uma previsão estatística](generate-statistical-baseline-forecast.md).
 

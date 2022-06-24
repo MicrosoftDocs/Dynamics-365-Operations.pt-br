@@ -1,6 +1,6 @@
 ---
 title: Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
-description: Este tópico explica como configurar recursos opcionais para um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
+description: Este artigo explica como configurar recursos opcionais para um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861905"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como configurar recursos opcionais para um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
+Este artigo explica como configurar recursos opcionais para um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -57,7 +57,7 @@ Se quiser avaliar os recursos transacionais de email, os seguintes pré-requisit
 
 ### <a name="update-the-media-base-url"></a>Atualize a URL base da mídia
 
-1. Entre na sede do Commerce.
+1. Entre no Commerce headquarters.
 1. Use o menu à esquerda, Acesse **Módulos \> Varejo e comércio \> Configuração do Canal \> Perfis do canal**.
 1. Selecione **Editar**.
 1. Em **Propriedades do perfil**, substitua o valor da propriedade da **URL Base do Servidor de Mídia** com a URL Base de Mídia que você criou anteriormente.
@@ -71,8 +71,8 @@ Se quiser avaliar os recursos transacionais de email, os seguintes pré-requisit
 > [!NOTE]
 > Observe que o servidor SMTP ou o serviço de email digitado aqui deve estar acessível na assinatura do Azure que você está usando para o ambiente.
 
-1. Entre na sede do Commerce.
-1. Use o menu à esquerda para acessar **Módulos \> Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros de email**.
+1. Entre no Commerce headquarters.
+1. Use o menu à esquerda para acessar **Módulos \> Retail e Commerce \> Configuração do headquarters \> Parâmetros \> Parâmetros de email**.
 1. Na guia **Configurações de SMTP**, no campo **Servidor de email de saída**, insira o FQDN ou o endereço IP do servidor SMTP ou serviço de email.
 1. No campo **Número da porta SMTP**, insira o número da porta. (Se você não estiver usando Secure Sockets Layer \[SSL\], o número da porta padrão é **25**.)
 1. Se a autenticação for necessária, insira os valores nos campos **Nome de usuário** e **Senha**.
@@ -86,8 +86,8 @@ Se quiser avaliar os recursos transacionais de email, os seguintes pré-requisit
 
 Para cada evento transacional para o qual você deseja enviar emails, você deve atualizar o modelo de email com um endereço de email do remetente válido.
 
-1. Entre na sede do Commerce.
-1. Use o menu à esquerda para acessar **Módulos \> Retail e Commerce \> Configuração da sede \> Parâmetros \> Modelos de email da organização**.
+1. Entre no Commerce headquarters.
+1. Use o menu à esquerda para acessar **Módulos \> Retail e Commerce \> Configuração do headquarters \> Parâmetros \> Modelos de email da organização**.
 1. Selecione **Mostrar lista**.
 1. Para cada modelo na lista, siga estas etapas:
 
@@ -108,7 +108,7 @@ Você pode desejar personalizar os modelos de email para que eles usem imagens d
     - Empacotar modelo de ordem
     - Separar modelo de ordem
 
-1. Personalizar os modelos usando um texto ou editor HTML. Consulte a lista de [tokens compatíveis](#supported-tokens-in-the-email-template) posteriormente neste tópico.
+1. Personalizar os modelos usando um texto ou editor HTML. Consulte a lista de [tokens compatíveis](#supported-tokens-in-the-email-template) posteriormente neste artigo.
 1. Entre no Commerce.
 1. Use o menu à esquerda para acessar **Módulos \> Administração da organização \> Configurar \> Modelos de email da organização**.
 1. Expanda a lista à esquerda para consultar todos os modelos.

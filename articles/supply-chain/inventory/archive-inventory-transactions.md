@@ -1,6 +1,6 @@
 ---
 title: Arquivo-morto de transações de estoque
-description: Este tópico descreve como arquivar dados de transações de estoque para ajudar a melhorar o desempenho do sistema.
+description: Este artigo descreve como arquivar dados de transações de estoque para ajudar a melhorar o desempenho do sistema.
 author: yufeihuang
 ms.date: 05/10/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: c63cdee862e2e22649a3eb58ae37597741770e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874091"
 ---
 # <a name="archive-inventory-transactions"></a>Arquivo-morto de transações de estoque
 
 [!include [banner](../../includes/banner.md)]
 
-Com o tempo, a tabela de transações de estoque (`InventTrans`) continuará a crescer e consumir mais espaço no banco de dados. Portanto, as consultas feitas na tabela ficarão mais lentas gradualmente. Este tópico descreve como você pode usar o recurso *Arquivo-morto de transações de estoque* para arquivar dados sobre transações de estoque para ajudar a melhorar o desempenho do sistema.
+Com o tempo, a tabela de transações de estoque (`InventTrans`) continuará a crescer e consumir mais espaço no banco de dados. Portanto, as consultas feitas na tabela ficarão mais lentas gradualmente. Este artigo descreve como você pode usar o recurso *Arquivo-morto de transações de estoque* para arquivar dados sobre transações de estoque para ajudar a melhorar o desempenho do sistema.
 
 > [!NOTE]
 > Somente as transações de estoque atualizadas financeiramente podem ser arquivadas em um período contábil fechado selecionado. Para serem arquivados, as transações de estoque de saída atualizadas financeiramente devem ter um status de saída de *Vendido*, e as transações de estoque de entrada devem ter um status de recebimento de *Comprado*.
@@ -35,7 +35,7 @@ Se uma combinação de `itemId` e `inventDimId` contiver somente uma transação
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
 
-Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Arquivo-morto de transações de estoque*. Observe que esse recurso não pode ser desabilitado após ter sido habilitado.
+Se o sistema ainda não incluir os recursos descritos neste artigo, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Arquivo-morto de transações de estoque*. Observe que esse recurso não pode ser desabilitado após ter sido habilitado.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Itens a serem considerados antes de arquivar transações de estoque
 

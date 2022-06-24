@@ -1,6 +1,6 @@
 ---
 title: Aplicar configurações de unidade de medida
-description: Este tópico abrange as configurações de unidade de medida e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange as configurações de unidade de medida e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca95bd31af8f244f60f12120bc6df121f48cc7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884806"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Aplicar configurações de unidade de medida
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange as configurações de unidade de medida e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
+Este artigo abrange as configurações de unidade de medida e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 
-Um produto pode ser vendido em unidades diferentes, como "cada", "par" e "dúzia". Na matriz do Commerce, a unidade de medida de venda pode ser definida para um produto e mostrada em um site de comércio eletrônico. Por exemplo, se um varejista vender um produto individualmente e em dúzias, as unidades de medida disponíveis poderão ser mostradas junto com outras informações do produto.
+Um produto pode ser vendido em unidades diferentes, como "cada", "par" e "dúzia". No Commerce headquarters, a unidade de medida de venda pode ser definida para um produto e mostrada em um site de comércio eletrônico. Por exemplo, se um varejista vender um produto individualmente e em dúzias, as unidades de medida disponíveis poderão ser mostradas junto com outras informações do produto.
 
-No exemplo da ilustração a seguir, uma unidade de medida de venda de **ea** (cada) foi configurada para um produto na matriz do Commerce.
+No exemplo da ilustração a seguir, uma unidade de medida de venda de **ea** (cada) foi configurada para um produto no Commerce headquarters.
 
-![Exemplo de um produto configurado com uma unidade de medida na matriz do Commerce.](./media/Productunit-headquarters.PNG)
+![Exemplo de um produto configurado com uma unidade de medida no Commerce headquarters.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > O suporte para a aplicação e a exibição da unidade de medida está disponível a partir do Commerce versão 10.0.19.

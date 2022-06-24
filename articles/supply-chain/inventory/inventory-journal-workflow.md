@@ -1,6 +1,6 @@
 ---
 title: Fluxos de trabalho de aprovação de diário de estoque
-description: Este tópico descreve como configurar e usar fluxos de trabalho de aprovação do diário do estoque para vários tipos de transações de estoque físico. Os fluxos de trabalho de diários de estoque ajudam a garantir que somente diários de estoque aprovados possam ser lançados em transações.
+description: Este artigo descreve como configurar e usar fluxos de trabalho de aprovação do diário do estoque para vários tipos de transações de estoque físico. Os fluxos de trabalho de diários de estoque ajudam a garantir que somente diários de estoque aprovados possam ser lançados em transações.
 author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873975"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Fluxos de trabalho de aprovação de diário de estoque
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar e usar fluxos de trabalho de aprovação de diário de estoque para transações de estoque físico de vários tipos, como saídas e recebimentos, movimentos de estoque, listas de materiais (BOMs) e reconciliação de estoque físico. Os fluxos de trabalho de diários de estoque ajudam a garantir que somente diários de estoque aprovados possam ser lançados em transações.
+Este artigo descreve como configurar e usar fluxos de trabalho de aprovação de diário de estoque para transações de estoque físico de vários tipos, como saídas e recebimentos, movimentos de estoque, listas de materiais (BOMs) e reconciliação de estoque físico. Os fluxos de trabalho de diários de estoque ajudam a garantir que somente diários de estoque aprovados possam ser lançados em transações.
 
 > [!NOTE]
 > Os fluxos de trabalho de aprovação de diário de estoque se aplicam somente a transações registradas usando o módulo gerenciamento de estoque. Eles não funcionam com diários de estoque iniciados do módulo de gerenciamento de depósito.

@@ -1,6 +1,6 @@
 ---
 title: Adicionar um favicon
-description: Este tópico explica como adicionar um favicon ao seu site.
+description: Este artigo explica como adicionar um favicon ao seu site.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855786"
 ---
 # <a name="add-a-favicon"></a>Adicionar um favicon
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como adicionar um favicon ao seu site.
+Este artigo explica como adicionar um favicon ao seu site.
 
 Um favicon é um pequeno arquivo gráfico que é mostrado em uma guia do navegador da Web, na barra de endereços, no histórico de navegação e em indicadores ou favoritos, entre outros lugares. Recomendamos que você adicione um favicon ao seu site, porque ele representa e reforça sua marca e ajuda a distinguir seu site de outros sites visitados por seus clientes.
 
-Embora você possa adicionar vários favoritos de vários tamanhos e tipos de arquivo ao seu site, este tópico mostra como adicionar um único favorito. No entanto, o mesmo processo e local são usados para adicionar mais favicons.
+Embora você possa adicionar vários favicons de vários tamanhos e tipos de arquivo ao seu site, este artigo mostra como adicionar um único favicon. No entanto, o mesmo processo e local são usados para adicionar mais favicons.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Carregar um favicon na coleção de ativos do seu site
 

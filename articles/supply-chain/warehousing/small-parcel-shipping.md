@@ -1,6 +1,6 @@
 ---
 title: Remessa de pacotes pequenos
-description: Este tópico fornece informações sobre o recurso SPS (remessa de pacotes pequenos). Esse recurso permite que o Microsoft Dynamics 365 Supply Chain Management envie detalhes sobre um contêiner embalado para a transportadora e, em seguida, receba dessa transportadora uma etiqueta de remessa, uma taxa de remessa e um número de rastreamento.
+description: Este artigo fornece informações sobre o recurso SPS (remessa de pacotes pequenos). Esse recurso permite que o Microsoft Dynamics 365 Supply Chain Management envie detalhes sobre um contêiner embalado para a transportadora e, em seguida, receba dessa transportadora uma etiqueta de remessa, uma taxa de remessa e um número de rastreamento.
 author: Mirzaab
 ms.date: 01/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e8e2bda39b9de241d17fcf3cb9acce2b8015efd2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855893"
 ---
 # <a name="small-parcel-shipping"></a>Remessa de pacotes pequenos
 
@@ -54,7 +54,7 @@ Siga estas etapas para obter o mecanismo de taxa de demonstração.
 
 #### <a name="create-and-deploy-functional-rate-engines"></a>Criar e implantar mecanismos de taxa funcionais
 
-Para obter informações sobre como criar e implantar mecanismos de taxa funcionais para que possam ser usados em um ambiente de produção ou de teste, consulte os seguintes tópicos:
+Para obter informações sobre como criar e implantar mecanismos de taxa funcionais para que possam ser usados em um ambiente de produção ou de teste, consulte os seguintes artigos:
 
 - [​Criar um novo mecanismo de gerenciamento de transporte​](../transportation/create-new-transportation-management-engine.md)
 - [Configurar mecanismos de gerenciamento de transporte](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
@@ -77,7 +77,7 @@ Depois de criar e implantar um mecanismo de taxa na SPS, siga estas etapas para 
 
 ## <a name="example-scenario"></a>Cenário de exemplo
 
-Este cenário de exemplo mostra como configurar e usar a SPS depois de preparar o sistema, conforme descrito anteriormente neste tópico. Ele usa o mecanismo de taxa de demonstração mencionado anteriormente.
+Este cenário de exemplo mostra como configurar e usar a SPS depois de preparar o sistema, conforme descrito anteriormente neste artigo. Ele usa o mecanismo de taxa de demonstração mencionado anteriormente.
 
 ### <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
 
@@ -147,7 +147,7 @@ Siga estas etapas para configurar uma conta de serviço de transportadora.
 
 Siga estas etapas para configurar uma política de embalagem de contêiner.
 
-1. Se você ainda não configurou uma definição de impressora ZPL, use o aplicativo Agente de Roteamento de Documentos para configurá-la. Para obter mais informações, consulte [Visão geral da impressão de documentos](../../fin-ops-core/dev-itpro/analytics/print-documents.md) e tópicos relacionados.
+1. Se você ainda não configurou uma definição de impressora ZPL, use o aplicativo Agente de Roteamento de Documentos para configurá-la. Para obter mais informações, consulte [Visão geral da impressão de documentos](../../fin-ops-core/dev-itpro/analytics/print-documents.md) e artigos relacionados.
 1. Acesse **Gerenciamento de depósito \> Configuração \> Contêineres \> Políticas de embalagem de contêiner**.
 1. No Painel de Ações, selecione **Novo** para adicionar uma política de embalagem de contêiner.
 1. No cabeçalho da nova política, defina os seguintes valores:

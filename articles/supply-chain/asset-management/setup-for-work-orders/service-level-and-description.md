@@ -1,6 +1,6 @@
 ---
 title: Nível e descrição de serviço
-description: Este tópico explica nível de serviço e descrição no Gerenciamento de Ativos.
+description: Este artigo explica nível de serviço e descrição no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 753ad36b1d01d1ce0594f477cf863ca0e4a1ac75
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879182"
 ---
 # <a name="service-level-and-description"></a>Nível e descrição de serviço
 

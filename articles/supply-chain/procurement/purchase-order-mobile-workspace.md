@@ -1,6 +1,6 @@
 ---
 title: Área de trabalho móvel para aprovação de ordem de compra
-description: Este tópico fornece informações sobre a área de trabalho móvel de aprovação do pedido de compra, que permite visualizar pedidos e responder a eles através de ações. Por exemplo, você pode aprovar ou rejeitar uma ordem de compra.
+description: Este artigo fornece informações sobre a área de trabalho móvel de aprovação do pedido de compra, que permite visualizar pedidos e responder a eles através de ações. Por exemplo, você pode aprovar ou rejeitar uma ordem de compra.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b0bdcb2f6db95ae061e786365d22cdf74643d09e
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 224d3ce5c9163e95de817a3446a57f07c85df757
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863843"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Área de trabalho móvel para aprovação de ordem de compra
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Este tópico fornece informações sobre a área de trabalho móvel de **Aprovação de ordem de compra**. Esta área de trabalho permite que você veja pedidos e responda através de ações. Por exemplo, você pode aprovar ou rejeitar uma ordem de compra.
+Este artigo fornece informações sobre a área de trabalho móvel de **Aprovação de ordem de compra**. Esta área de trabalho permite que você veja pedidos e responda através de ações. Por exemplo, você pode aprovar ou rejeitar uma ordem de compra.
  
 ## <a name="overview"></a>Visão Geral 
 As ordens de compra que exigem aprovação passam por um fluxo de trabalho de aprovação. O fluxo de trabalho pode incluir várias etapas que exigem que uma ou mais pessoas ajam. Por exemplo, uma pessoa pode ter que completar uma tarefa ou aprovar a ordem de compra. 

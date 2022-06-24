@@ -1,6 +1,6 @@
 ---
 title: Cálculo de atraso do preço exato e cálculo de desconto para melhorar o desempenho
-description: Este tópico descreve a capacidade de cálculo de atraso do preço que está disponível no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce e no Call Center.
+description: Este artigo descreve a capacidade de cálculo de atraso do preço que está disponível no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce e no Call Center.
 author: boycezhu
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 8c4264c3a4c71e6aab0e1ef8d7d8cfffad065a46
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6926c288a91dbe66b6ffc2e6c06f866d3ebd7652
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845888"
 ---
 # <a name="delay-exact-price-and-discount-calculation-for-improved-performance"></a>Cálculo de atraso do preço exato e cálculo de desconto para melhorar o desempenho
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve a capacidade de cálculo de atraso do preço que está disponível no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce e no Call Center.
+Este artigo descreve a capacidade de cálculo de atraso do preço que está disponível no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce e no Call Center.
 
 O Dynamics 365 Commerce oferece suporte à criação de descontos combinados que são aplicados quando várias linhas de venda de uma ordem de venda ou cotação de venda são combinadas. Esses descontos incluem descontos de compra combinada e de correspondência, de limite e de quantidade.
 
@@ -34,7 +34,7 @@ A capacidade de atrasar o cálculo de preço e desconto está disponível há mu
 
 Para habilitar cálculo de preço e desconto atrasados para PDV, siga estas etapas.
 
-1. No Commerce Headquarters, vá para o perfil de funcionalidade associado ao armazenamento físico.
+1. No Commerce headquarters, vá para o perfil de funcionalidade associado ao armazenamento físico.
 1. Na Guia Rápida **Valor**, habilite a configuração **Calcular manualmente descontos de vários itens**.
 1. Abra o designer do layout de tela para os registros nos quais o cálculo atrasado deve ser habilitado.
 1. Adicione um botão para a operação **Calcular total** para a grade de botões desejada.
@@ -46,7 +46,7 @@ Agora, quando os itens são adicionados a uma transação, os descontos combinad
 
 Para habilitar cálculo de preço e desconto atrasados para call center, siga estas etapas.
 
-1. Na matriz do Commerce, vá para **Espaços de trabalho \> Gerenciamento de recursos**.
+1. No Commerce headquarters, vá para **Espaços de trabalho \> Gerenciamento de recursos**.
 1. Habilite o recurso **Impedir o cálculo de preço não intencional para ordens comerciais**. Este recurso é um pré-requisito para a capacidade de cálculo de preço e desconto atrasado.
 
     > [!NOTE]

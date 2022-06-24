@@ -1,6 +1,6 @@
 ---
 title: Integração com sistemas de execução de fabricação de terceiros
-description: Este tópico explica como você pode integrar o Microsoft Dynamics 365 Supply Chain Management com um sistema de execução de fabricação de terceiros (MES).
+description: Este artigo explica como você pode integrar o Microsoft Dynamics 365 Supply Chain Management com um sistema de execução de fabricação de terceiros (MES).
 author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860628"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integração com sistemas de execução de fabricação de terceiros
 
@@ -238,7 +238,7 @@ Para a mensagem *finalizar ordem de produção*, o valor `_messageType` é `Prod
 
 ## <a name="other-production-information"></a>Outras informações de produção
 
-As mensagens suportam ações ou eventos que ocorrem no chão de fábrica. Elas são processadas usando a estrutura de integração MES descrita neste tópico. O design supõe que outras informações de referência a serem compartilhadas com o MES (como informações relacionadas ao produto ou a lista de materiais ou o roteiro (com os horários de configuração e configuração específicos) usados em uma ordem de produção específica) serão recuperadas do sistema usando [entidades de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) via transferência de arquivo ou OData.
+As mensagens suportam ações ou eventos que ocorrem no chão de fábrica. Elas são processadas usando a estrutura de integração MES descrita neste artigo. O design supõe que outras informações de referência a serem compartilhadas com o MES (como informações relacionadas ao produto ou a lista de materiais ou o roteiro (com os horários de configuração e configuração específicos) usados em uma ordem de produção específica) serão recuperadas do sistema usando [entidades de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) via transferência de arquivo ou OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Receber comentários sobre o estado de uma mensagem
 
@@ -251,7 +251,7 @@ Após o MES enviar uma mensagem para o Supply Chain Management, talvez seja rele
 
 Nesses casos, você pode aproveitar o recurso de alerta padrão no Supply Chain Management. Para obter informações sobre como alertas padrão funcionam, consulte os seguintes recursos:
 
-- Tópico da ajuda: [Visão geral de alertas](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- Artigo da ajuda: [Visão geral de alertas](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - Vídeo: [Opções de regras de alerta no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Por exemplo, você pode configurar os seguintes alertas para fornecer comentários sobre o estado de uma mensagem:

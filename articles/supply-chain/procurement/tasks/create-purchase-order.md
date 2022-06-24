@@ -1,6 +1,6 @@
 ---
-title: Criar uma ordem de compra
-description: Este tópico mostra como criar uma ordem de compra manualmente.
+title: Crie uma ordem de compra
+description: Este artigo mostra como criar uma ordem de compra manualmente.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2fd627b9874b3e3f7aad71fb2970ddcc333a608
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a04a9f4a512a307efecb19703cd3df638ba5ff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856067"
 ---
-# <a name="create-a-purchase-order"></a>Criar uma ordem de compra
+# <a name="create-a-purchase-order"></a>Crie uma ordem de compra
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico mostra como criar uma ordem de compra manualmente. É mais comum para ordens de compra serem criadas automaticamente como resultado de um planejamento mestre, entrega direta e outros processos. As ordens de compra geralmente são criadas com um agente de compra. O exemplo mostrado aqui pode ser usado na empresa de dados de demonstração USMF usando os valores que são sugeridos nas notas para várias etapas.
+Este artigo mostra como criar uma ordem de compra manualmente. É mais comum para ordens de compra serem criadas automaticamente como resultado de um planejamento mestre, entrega direta e outros processos. As ordens de compra geralmente são criadas com um agente de compra. O exemplo mostrado aqui pode ser usado na empresa de dados de demonstração USMF usando os valores que são sugeridos nas notas para várias etapas.
 
 
 ## <a name="create-the-purchase-order-header"></a>Criar o cabeçalho da ordem de compra
