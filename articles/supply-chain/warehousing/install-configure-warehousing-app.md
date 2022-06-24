@@ -1,6 +1,6 @@
 ---
 title: Instalar e conectar o aplicativo de depósito
-description: Este tópico explica como instalar o aplicativo de depósito em cada um dos seus dispositivos móveis e configurá-lo para se conectar ao ambiente do Microsoft Dynamics 365 Supply Chain Management. Você pode configurar os dispositivos manualmente ou importar as configurações de conexão usando um arquivo ou digitalizando um código QR.
+description: Este artigo explica como instalar o aplicativo de depósito em cada um dos seus dispositivos móveis e configurá-lo para se conectar ao ambiente do Microsoft Dynamics 365 Supply Chain Management. Você pode configurar os dispositivos manualmente ou importar as configurações de conexão usando um arquivo ou digitalizando um código QR.
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885744"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar e conectar o aplicativo de depósito
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Este tópico descreve como configurar o aplicativo de depósito antigo (que agora está obsoleto). Se você estiver procurando informações de como configurar o novo aplicativo móvel de gerenciamento de depósito, consulte [instalar e conectar o aplicativo móvel de gerenciamento de depósito](install-configure-warehouse-management-app.md).
+> Este artigo descreve como configurar o aplicativo de depósito antigo (que agora está obsoleto). Se você estiver procurando informações de como configurar o novo aplicativo móvel de gerenciamento de depósito, consulte [instalar e conectar o aplicativo móvel de gerenciamento de depósito](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Este tópico descreve como configurar o aplicativo de depósito para implantações na nuvem. Se estiver buscando informações sobre como configurar o aplicativo de depósito para implantações locais, consulte [Depósito para implantações locais](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Este artigo descreve como configurar o aplicativo de depósito para implantações na nuvem. Se estiver buscando informações sobre como configurar o aplicativo de depósito para implantações locais, consulte [Depósito para implantações locais](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 O aplicativo de depósito está disponível na Google Play Store e na Microsoft Store. Ele é fornecido como um componente autônomo. Portanto, você deve baixá-lo em cada dispositivo e configurá-lo para se conectar ao ambiente do Microsoft Dynamics 365 Supply Chain Management.
 
-Este tópico explica como instalar o aplicativo de depósito em cada um dos seus dispositivos móveis e configurá-lo para se conectar ao ambiente do Supply Chain Management . Você pode configurar os dispositivos manualmente ou importar as configurações de conexão usando um arquivo ou digitalizando um código QR.
+Este artigo explica como instalar o aplicativo de depósito em cada um dos seus dispositivos móveis e configurá-lo para se conectar ao ambiente do Supply Chain Management . Você pode configurar os dispositivos manualmente ou importar as configurações de conexão usando um arquivo ou digitalizando um código QR.
 
 ## <a name="system-requirements"></a>Requisitos do sistema
 
@@ -76,11 +76,11 @@ Para permitir que o aplicativo de depósito interaja com um determinado servidor
 
     ![Assistente Registrar um aplicativo.](media/app-connect-azure-register-wizard.png "Assistente Registrar um aplicativo")
 
-1. O novo registro de aplicativo é aberto. Anote o valor da **ID do aplicativo (cliente)**, porque você precisará dele mais tarde. A ID será mencionada posteriormente neste tópico como *ID do cliente*.
+1. O novo registro de aplicativo é aberto. Anote o valor da **ID do aplicativo (cliente)**, porque você precisará dele mais tarde. A ID será mencionada posteriormente neste artigo como *ID do cliente*.
 
     ![ID do aplicativo (cliente).](media/app-connect-azure-app-id.png "ID do aplicativo (cliente)")
 
-1. Clique na lista **Gerenciar**, selecione **Certificado e segredos**. Em seguida, selecione um dos seguintes botões, dependendo de como deseja configurar o aplicativo para autenticação. (Para obter mais informações, consulte a seção [Autenticar usando um certificado ou segredo do cliente](#authenticate) posteriormente neste tópico.)
+1. Clique na lista **Gerenciar**, selecione **Certificado e segredos**. Em seguida, selecione um dos seguintes botões, dependendo de como deseja configurar o aplicativo para autenticação. (Para obter mais informações, consulte a seção [Autenticar usando um certificado ou segredo do cliente](#authenticate) posteriormente neste artigo.)
 
     - **Carregar certificado** – carregar um certificado para usá-lo como segredo. Recomendamos essa abordagem porque é mais segura e porque também pode ser automatizada de modo mais completo. Se você estiver executando o aplicativo de depósito em dispositivos Windows, anote o valor de **Impressão digital** exibido depois que você carrega o certificado. Você precisará desse valor ao configurar o certificado em dispositivos Windows.
     - **Novo segredo do cliente** – crie uma chave inserindo uma descrição de chave e uma duração na seção **Senhas** e depois clique em **Adicionar**. Faça uma cópia da chave e armazene-a com segurança.
@@ -90,7 +90,7 @@ Para permitir que o aplicativo de depósito interaja com um determinado servidor
 Para obter mais informações sobre como configurar os aplicativos de serviço no Azure AD, consulte os seguintes recursos:
 
 - Para obter instruções que mostram como usar o Windows PowerShell para configurar aplicativos de serviço Web no Azure AD, consulte [Como: usar o Azure PowerShell para criar uma entidade de serviço com um certificado](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Para obter detalhes completos sobre como criar manualmente um aplicativo de serviço Web no Azure AD, consulte os seguintes tópicos:
+- Para obter detalhes completos sobre como criar manualmente um aplicativo de serviço Web no Azure AD, consulte os seguintes artigos:
 
     - [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app)
     - [Como: Usar o portal para criar um aplicativo do Azure AD e uma entidade de serviço que possa acessar recursos](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Para habilitar o Supply Chain Management para usar o aplicativo do Azure AD, sig
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticar usando um certificado ou segredo do cliente
 
-A autenticação com o Azure AD fornece uma forma segura de conectar um dispositivo móvel ao Supply Chain Management. Você pode autenticar usando um certificado ou um segredo do cliente. Caso pretenda importar configurações de conexão, recomendamos usar um certificado em vez de um segredo do cliente. Como o segredo do cliente deve sempre ser armazenado com segurança, não é possível importá-lo de um arquivo de configurações de conexão ou de um código QR, conforme descrito posteriormente neste tópico.
+A autenticação com o Azure AD fornece uma forma segura de conectar um dispositivo móvel ao Supply Chain Management. Você pode autenticar usando um certificado ou um segredo do cliente. Caso pretenda importar configurações de conexão, recomendamos usar um certificado em vez de um segredo do cliente. Como o segredo do cliente deve sempre ser armazenado com segurança, não é possível importá-lo de um arquivo de configurações de conexão ou de um código QR, conforme descrito posteriormente neste artigo.
 
 Os certificados podem ser usados como segredos para comprovar a identidade do aplicativo quando um token for solicitado. A parte pública do certificado é carregada no registro de aplicativos no portal do Azure, enquanto o certificado completo deve ser implantado em cada dispositivo no qual o aplicativo de depósito está instalado. A sua organização é responsável por gerenciar o certificado em termos de rotação, e assim por diante. Você pode usar certificados autoassinados, mas deve sempre usar certificados não exportáveis.
 

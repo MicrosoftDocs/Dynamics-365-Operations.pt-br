@@ -1,6 +1,6 @@
 ---
 title: Relatar como concluído no dispositivo de ficha de trabalho
-description: Este tópico descreve como configurar o sistema para que os usuários de um dispositivo de ficha de trabalho possam relatar produtos concluídos de uma ordem de produção para o estoque.
+description: Este artigo descreve como configurar o sistema para que os usuários de um dispositivo de ficha de trabalho possam relatar produtos concluídos de uma ordem de produção para o estoque.
 author: johanhoffmann
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857363"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Relatar como concluído no dispositivo de ficha de trabalho
 
 [!include [banner](../includes/banner.md)]
 
-Os trabalhadores usam a página **Andamento do relatório** no dispositivo de ficha de trabalho para relatar quantidades que foram concluídas para um trabalho de produção. Este tópico descreve como configurar várias opções que estabelecem como os trabalhadores podem gerar relatórios de conclusão usando esta página e o que acontece em seguida. As opções incluem:
+Os trabalhadores usam a página **Andamento do relatório** no dispositivo de ficha de trabalho para relatar quantidades que foram concluídas para um trabalho de produção. Este artigo descreve como configurar várias opções que estabelecem como os trabalhadores podem gerar relatórios de conclusão usando esta página e o que acontece em seguida. As opções incluem:
 
 - Controlar se e como as quantidades relatadas como concluídas são adicionadas ao estoque.
 - Controle se e como os números de lote são gerados e aplicados ao gerar relatórios de conclusão.

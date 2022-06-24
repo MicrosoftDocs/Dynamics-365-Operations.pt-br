@@ -1,6 +1,6 @@
 ---
 title: Faça ajustes manuais para a previsão estatística
-description: Este tópico explica como é possível fazer ajustes manuais em uma previsão de linha de base e exibir os detalhes da previsão.
+description: Este artigo explica como é possível fazer ajustes manuais em uma previsão estatística e exibir os detalhes da previsão.
 author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19b6bf742bb395de41bfbf1e50ca9df68f416367
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e602e6d46f928fd5376a6a6d4f94bb4a726d92b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844957"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Faça ajustes manuais para a previsão estatística
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como é possível fazer ajustes manuais em uma previsão de linha de base e exibir os detalhes da previsão. 
+Este artigo explica como é possível fazer ajustes manuais em uma previsão estatística e exibir os detalhes da previsão. 
 
 Antes de fazer ajustes manuais, é importante que você compreenda alguns conceitos em várias páginas.
 

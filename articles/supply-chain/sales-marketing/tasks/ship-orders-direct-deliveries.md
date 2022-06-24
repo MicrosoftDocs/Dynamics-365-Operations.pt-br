@@ -1,6 +1,6 @@
 ---
 title: Enviar ordens como entregas diretas
-description: Este tópico demonstra como criar uma entrega direta para uma ordem de venda.
+description: Este artigo demonstra como criar uma entrega direta para uma ordem de venda.
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875149"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Enviar ordens como entregas diretas
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Você usa a entrega direta quando quiser enviar mercadorias para o cliente diretamente do fornecedor, em vez de enviá-las para seu próprio depósito primeiro. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Para concluir com êxito a segunda subtarefa “Criar entregas diretas de bancada”, certifique-se de que o item que você escolhe na ordem de venda tem um Fornecedor padrão especificado na Guia Rápida Compra do mestre do produto Liberado.
+Este artigo demonstra como criar uma entrega direta para uma ordem de venda. Você usa a entrega direta quando quiser enviar mercadorias para o cliente diretamente do fornecedor, em vez de enviá-las para seu próprio depósito primeiro. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Para concluir com êxito a segunda subtarefa “Criar entregas diretas de bancada”, certifique-se de que o item que você escolhe na ordem de venda tem um Fornecedor padrão especificado na Guia Rápida Compra do mestre do produto Liberado.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Defina uma ordem individual para a entrega direta
 1. Acesse **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.

@@ -1,6 +1,6 @@
 ---
 title: Previsões de estoque
-description: Este tópico descreve a funcionalidade de previsão de fornecimento e demanda que pode ser usada para criar previsões de estoque no Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo descreve a funcionalidade de previsão de fornecimento e demanda que pode ser usada para criar previsões de estoque no Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844515"
 ---
 # <a name="inventory-forecasts"></a>Previsões de estoque
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como visualizar e criar previsões de estoque. Você pode criar e visualizar linhas de previsão de fornecimento e demanda para itens, grupos de itens, chaves de alocação de itens, contas de clientes, grupos de clientes, contas de fornecedores e grupos de fornecedores.
+Este artigo descreve como visualizar e criar previsões de estoque. Você pode criar e visualizar linhas de previsão de fornecimento e demanda para itens, grupos de itens, chaves de alocação de itens, contas de clientes, grupos de clientes, contas de fornecedores e grupos de fornecedores.
 
 Para cada linha de previsão, você pode selecionar o modelo de previsão que é usado. Em seguida, é possível especificar o item ou o grupo de itens, mais a quantidade ou o valor da transação. Você também pode definir um cronograma para alocar a quantidade de previsão.
 
@@ -60,7 +60,7 @@ Como a tabela da etapa 1 mostra, existem diferentes maneiras de acessar as pági
     Dependendo da sua seleção, a página **Previsão de fornecimento** ou **Previsão de demanda** será exibida. Ela mostra todas as linhas de previsão existentes para o registro selecionado antes da abertura da página.
 
 1. No Painel de Ações, selecione **Novo** para adicionar uma linha de previsão à grade na parte superior da página.
-1. Na nova linha, no campo **Modelo**, selecione o modelo de previsão a ser usado. Em seguida, insira outros detalhes conforme necessário, como item, grupo de itens, conta ou grupo de cliente ou fornecedor, quantidade de itens ou valor total da transação. Para obter detalhes completos sobre os campos disponíveis nas páginas **Previsão de fornecimento** e **Previsão de demanda**, consulte as seções posteriores neste tópico.
+1. Na nova linha, no campo **Modelo**, selecione o modelo de previsão a ser usado. Em seguida, insira outros detalhes conforme necessário, como item, grupo de itens, conta ou grupo de cliente ou fornecedor, quantidade de itens ou valor total da transação. Para obter detalhes completos sobre os campos disponíveis nas páginas **Previsão de fornecimento** e **Previsão de demanda**, consulte as seções posteriores neste artigo.
 1. Para distribuir a previsão durante o período, na guia **Visão geral**, selecione **Alocar previsão** na barra de ferramentas.
 1. Na grade **Alocação**, revise o horizonte e os intervalos de tempo usados para distribuir as quantidades de previsão.
 
@@ -68,7 +68,7 @@ Como a tabela da etapa 1 mostra, existem diferentes maneiras de acessar as pági
 
 A previsão de fornecimento permite criar um plano para itens que devem ser comprados. Ele informa aos funcionários de compras e fornecimento o que eles devem encomendar.
 
-Você pode inserir uma previsão de fornecimento por item, grupo de itens, chave de alocação de item, fornecedor e grupo de fornecedores. Para obter informações sobre todas as maneiras de abrir a página **Previsão de fornecimento** para várias entidades e registros, consulte a seção [Exibir e inserir manualmente as linhas de previsão](#manual-entry) anteriormente neste tópico.
+Você pode inserir uma previsão de fornecimento por item, grupo de itens, chave de alocação de item, fornecedor e grupo de fornecedores. Para obter informações sobre todas as maneiras de abrir a página **Previsão de fornecimento** para várias entidades e registros, consulte a seção [Exibir e inserir manualmente as linhas de previsão](#manual-entry) anteriormente neste artigo.
 
 A parte superior da página **Previsão de fornecimento** fornece uma grade de linhas de previsão de fornecimento e um conjunto de guias que você pode usar para exibir e definir mais informações sobre uma linha de previsão selecionada. A parte inferior da página fornece uma grade de **Alocação**.
 
@@ -94,9 +94,9 @@ A tabela a seguir descreve os comandos disponíveis na barra de ferramentas da g
 
 | Comando | descrição |
 |---|---|
-| Alocar previsão | Se você estiver usando um método de alocação, gere as linhas da agenda individuais para a transação de previsão. A quantidade da linha é distribuída por data (de acordo com os intervalos de tempo selecionados), a quantidade e o valor para todo o horizonte de tempo. (Consulte a seção [Alocar previsão](#allocate-forecast) posteriormente neste tópico.) |
-| Atualização em massa | Abra a página **Editar transações de previsão**. (Consulte a seção [Transações de previsão de atualização em massa](#bulk-update) posteriormente neste tópico.) |
-| Previsão de Estoque | Abra uma exibição da página **Previsão de estoque** filtrada para a combinação de item/modelo selecionada. (Consulte a seção [Previsão de estoque](#inventory-forecast) posteriormente neste tópico.) |
+| Alocar previsão | Se você estiver usando um método de alocação, gere as linhas da agenda individuais para a transação de previsão. A quantidade da linha é distribuída por data (de acordo com os intervalos de tempo selecionados), a quantidade e o valor para todo o horizonte de tempo. (Consulte a seção [Alocar previsão](#allocate-forecast) posteriormente neste artigo.) |
+| Atualização em massa | Abra a página **Editar transações de previsão**. (Consulte a seção [Transações de previsão de atualização em massa](#bulk-update) posteriormente neste artigo.) |
+| Previsão de Estoque | Abra uma exibição da página **Previsão de estoque** filtrada para a combinação de item/modelo selecionada. (Consulte a seção [Previsão de estoque](#inventory-forecast) posteriormente neste artigo.) |
 | Criar requisição de itens | Abra uma caixa de diálogo na qual é possível criar requisições de itens, ordens de venda ou linhas de diário de itens para transações de previsão relacionadas ao projeto. Embora este comando esteja disponível para as linhas de previsão de fornecimento e de demanda, ele não pode ser usado na página **Previsão de fornecimento**. |
 
 ### <a name="the-overview-tab-on-the-supply-forecast-page"></a>A guia Visão geral na página Previsão de fornecimento
@@ -173,7 +173,7 @@ Se você estiver usando uma chave de alocação de itens ou se tiver inserido um
 
 A previsão de demanda permite que você insira ou gere demanda para um cliente. Ela ajuda os funcionários de vendas e marketing a informar os funcionários do planejamento mestre sobre a demanda esperada durante o próximo período de previsão.
 
-Você pode inserir uma previsão de demanda por item, grupo de itens, chave de alocação de item, cliente e grupo de clientes. Para obter informações sobre todas as maneiras de abrir a página **Previsão de demanda** para várias entidades e registros, consulte a seção [Exibir e inserir manualmente as linhas de previsão](#manual-entry) anteriormente neste tópico.
+Você pode inserir uma previsão de demanda por item, grupo de itens, chave de alocação de item, cliente e grupo de clientes. Para obter informações sobre todas as maneiras de abrir a página **Previsão de demanda** para várias entidades e registros, consulte a seção [Exibir e inserir manualmente as linhas de previsão](#manual-entry) anteriormente neste artigo.
 
 A parte superior da página **Previsão de demanda** fornece uma grade de linhas de previsão de demanda e um conjunto de guias que você pode usar para exibir e definir mais informações sobre uma linha de previsão selecionada. A parte inferior da página fornece uma grade de **Alocação**.
 
@@ -201,9 +201,9 @@ A tabela a seguir descreve os comandos disponíveis na barra de ferramentas da g
 
 | Comando | descrição |
 |---|---|
-| Alocar previsão | Se você estiver usando um método de alocação, gere as linhas da agenda individuais para a transação de previsão. A quantidade da linha é distribuída por data (de acordo com os intervalos de tempo selecionados), a quantidade e o valor para todo o horizonte de tempo. (Consulte a seção [Alocar previsão](#allocate-forecast) posteriormente neste tópico.)|
-| Atualização em massa | Abra a página **Editar transações de previsão**. (Consulte a seção [Transações de previsão de atualização em massa](#bulk-update) posteriormente neste tópico.) |
-| Previsão de Estoque | Abra uma exibição da página **Previsão de estoque** filtrada para a combinação de item/modelo selecionada. (Consulte a seção [Previsão de estoque](#inventory-forecast) posteriormente neste tópico.) |
+| Alocar previsão | Se você estiver usando um método de alocação, gere as linhas da agenda individuais para a transação de previsão. A quantidade da linha é distribuída por data (de acordo com os intervalos de tempo selecionados), a quantidade e o valor para todo o horizonte de tempo. (Consulte a seção [Alocar previsão](#allocate-forecast) posteriormente neste artigo.)|
+| Atualização em massa | Abra a página **Editar transações de previsão**. (Consulte a seção [Transações de previsão de atualização em massa](#bulk-update) posteriormente neste artigo.) |
+| Previsão de Estoque | Abra uma exibição da página **Previsão de estoque** filtrada para a combinação de item/modelo selecionada. (Consulte a seção [Previsão de estoque](#inventory-forecast) posteriormente neste artigo.) |
 | Criar requisição de itens | Abra uma caixa de diálogo na qual é possível criar requisições de itens, ordens de venda ou linhas de diário de itens para transações de previsão relacionadas ao projeto. |
 
 ### <a name="the-overview-tab-on-the-demand-forecast-page"></a>A guia Visão geral na página Previsão de demanda
@@ -296,7 +296,7 @@ A guia **Dimensões de estoque** mostra todos os valores de dimensão de estoque
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>A grade Alocação na página Previsão de demanda
 
-Se você estiver usando uma chave de alocação de itens ou se tiver inserido uma previsão de item para um ou mais períodos futuros, poderá alocar a previsão selecionando **Alocar previsão** na barra de ferramentas da guia **Visão geral**. A quantidade será distribuída na forma indicada pelas linhas na grade **Alocação**. (Consulte a seção [Alocar previsão](#allocate-forecast) posteriormente neste tópico.)
+Se você estiver usando uma chave de alocação de itens ou se tiver inserido uma previsão de item para um ou mais períodos futuros, poderá alocar a previsão selecionando **Alocar previsão** na barra de ferramentas da guia **Visão geral**. A quantidade será distribuída na forma indicada pelas linhas na grade **Alocação**. (Consulte a seção [Alocar previsão](#allocate-forecast) posteriormente neste artigo.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Previsão de Estoque
 

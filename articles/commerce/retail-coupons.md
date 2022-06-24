@@ -1,6 +1,6 @@
 ---
 title: Configurar cupons para vendas de varejo
-description: Este tópico fornece uma visão geral de cupons e explica como defini-los no Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral de cupons e explica como defini-los no Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
-ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.openlocfilehash: 72ad7b527662bb863069b633d64eea41fee67d44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7603114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891923"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar cupons para vendas de varejo
 
@@ -78,7 +78,7 @@ Antes de configurar um cupom, você deve configurar o código da barra de cupom 
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>O efeito das atualizações parciais nos cupons
 
-A funcionalidade de cupom abrange vários recursos distintos. O Commerce Headquarters (HQ) e o canal podem ser parcialmente atualizados em todos os componentes. Portanto, é importante que você entenda como as atualizações parciais afetam a funcionalidade do cupom como um todo.
+A funcionalidade de cupom abrange vários recursos distintos. O Commerce headquarters (HQ) e o canal podem ser parcialmente atualizados em todos os componentes. Portanto, é importante que você entenda como as atualizações parciais afetam a funcionalidade do cupom como um todo.
 
 - **O HQ é atualizado parcialmente, mas o Commerce Scale Unit e o PDV não serão atualizados.** Em uma atualização do HQ, as páginas de cupom e desconto são atualizadas, e o mecanismo de preço comercial também é atualizado. Se apenas um desses dois componentes for atualizado, algumas páginas do Commerce não coincidirão com os dados de cálculo do preço. Portanto, cálculos de desconto inesperado ou erros inesperados podem ocorrer durante cálculos de desconto.
 - **O HQ é atualizado, mas o Commerce Scale Unit e o PDV não serão atualizados (N-1).** Como nem todas as lojas podem ser atualizadas ao mesmo tempo, recomendamos que você atualize o HQ antes de atualizar as lojas. No cenário N-1, novas funcionalidades relacionadas a cupons não estarão disponíveis em lojas que ainda não tiverem sido atualizadas. Por exemplo, a funcionalidade do cupom apresenta linhas a serem "excluídas". Se você usar linhas de exclusão em um desconto, elas não serão aplicadas a uma loja que esteja executando uma versão anterior.

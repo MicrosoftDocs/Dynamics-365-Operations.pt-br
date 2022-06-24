@@ -1,6 +1,6 @@
 ---
-title: Parâmetros de gerenciamento de reembolso
-description: Este tópico descreve a página Parâmetros de gerenciamento de reembolso. Esta página contém configurações que afetam o lançamento, as atualizações de status, as sequências numéricas e outros comportamentos.
+title: Parâmetros de gerenciamento de reembolsos
+description: Este artigo descreve a página Parâmetros de gerenciamento de reembolso. Esta página contém configurações que afetam o lançamento, as atualizações de status, as sequências numéricas e outros comportamentos.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8f5c9734b2480329eed246bcbbfe3bd6e9991e0b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895515"
 ---
 # <a name="rebate-management-parameters"></a>Parâmetros de gerenciamento de reembolso
 
@@ -45,9 +45,9 @@ A tabela a seguir descreve os campos disponíveis na guia **Gerenciamento de ree
 
 ## <a name="number-sequences-tab"></a>Guia Sequências numéricas
 
-Use a guia **Sequências numéricas** na página **Parâmetros de gerenciamento de reembolso** para atribuir códigos de sequência numérica às diferentes sequências numéricas usadas pelo Gerenciamento de reembolso. A tabela a seguir descreve a finalidade de cada uma dessas sequências numéricas. Para obter mais informações sobre sequências numéricas, consulte [Visão geral de sequências numéricas](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) e os tópicos relacionados.
+Use a guia **Sequências numéricas** na página **Parâmetros de gerenciamento de reembolso** para atribuir códigos de sequência numérica às diferentes sequências numéricas usadas pelo Gerenciamento de reembolso. A tabela a seguir descreve a finalidade de cada uma dessas sequências numéricas. Para obter mais informações sobre sequências numéricas, consulte [Visão geral de sequências numéricas](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) e os artigos relacionados.
 
-| Demonstrativo | descrição |
+| Demonstrativo | Descrição |
 |---|---|
 | Negociação de gerenciamento de reembolsos | A sequência numérica atribui um valor de chave exclusivo a cada acordo de reembolso. Essa chave é usada quando acordos são criados. |
 | Número de gerenciamento de reembolsos | A sequência numérica atribui um valor de chave exclusivo a cada reembolso. Essa chave é usada para identificar relações de reembolso. |

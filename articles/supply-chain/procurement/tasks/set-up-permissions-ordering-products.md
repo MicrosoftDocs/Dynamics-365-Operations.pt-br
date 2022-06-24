@@ -1,6 +1,6 @@
 ---
 title: Configurar permissões para solicitar produtos em nome de qualquer outra pessoa
-description: Este tópico explica como conceder a trabalhadores a permissão para preparar requisições da compra em nome de outros trabalhadores.
+description: Este artigo explica como conceder a trabalhadores a permissão para preparar requisições da compra em nome de outros trabalhadores.
 author: GalynaFedorova
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1313ca01686e55d802716adf335e77ffeb1ece34
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3053f28fdf97637b1da5f644f64676bfd10fb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854200"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Configurar permissões para solicitar produtos em nome de qualquer outra pessoa
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como conceder a trabalhadores a permissão para preparar requisições da compra em nome de outros trabalhadores. Ou seja, um "preparador" de requisição de compra pode criar uma requisição para outro "solicitante". O procedimento também mostra como conceder permissões a um trabalhador para pedir itens e serviços em diferentes entidades legais ou unidades operacionais. Geralmente, essas tarefas são realizadas por um gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
+Este artigo explica como conceder a trabalhadores a permissão para preparar requisições da compra em nome de outros trabalhadores. Ou seja, um "preparador" de requisição de compra pode criar uma requisição para outro "solicitante". O procedimento também mostra como conceder permissões a um trabalhador para pedir itens e serviços em diferentes entidades legais ou unidades operacionais. Geralmente, essas tarefas são realizadas por um gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>Conceda permissões para inserir requisições de compra em nome de outro trabalhador

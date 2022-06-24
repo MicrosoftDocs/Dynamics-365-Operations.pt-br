@@ -1,6 +1,6 @@
 ---
 title: Gerenciar usuários de colaboração do fornecedor
-description: Este tópico descreve como você pode solicitar o provisionamento de novos usuários de colaboração do fornecedor e como adicionar novos contatos de colaboração do fornecedor.
+description: Este artigo descreve como você pode solicitar o provisionamento de novos usuários de colaboração do fornecedor e como adicionar novos contatos de colaboração do fornecedor.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 515d995641f5bbe976643a38c26a46f7d8a115dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 823e92cadc36659264a70132ed1390c7bcf8bc5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852292"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gerenciar usuários de colaboração do fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como você pode solicitar o provisionamento de novos usuários de colaboração do fornecedor e como adicionar novos contatos de colaboração do fornecedor. 
+Este artigo descreve como você pode solicitar o provisionamento de novos usuários de colaboração do fornecedor e como adicionar novos contatos de colaboração do fornecedor. 
 
-A interface de colaboração do fornecedor no Dynamics 365 Supply Chain Management expõe informações sobre ordens de compra, faturas e estoque de consignação para fornecedores externos. Você pode criar novos contatos de colaboração de fornecedor e solicitar que os novos usuários sejam provisionados se você estiver trabalhando com um fornecedor externo com a função de segurança **Administrador do fornecedor (externo)** ou permissões semelhantes. Você também pode executar essas tarefas se estiver trabalhando como um profissional de compras. Neste tópico, essa função se refere a um profissional de compras que esteja trabalhando na empresa responsável pela instância do Supply Chain Management. Para obter mais informações sobre como usar a colaboração de fornecedor se você for um fornecedor externo, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+A interface de colaboração do fornecedor no Dynamics 365 Supply Chain Management expõe informações sobre ordens de compra, faturas e estoque de consignação para fornecedores externos. Você pode criar novos contatos de colaboração de fornecedor e solicitar que os novos usuários sejam provisionados se você estiver trabalhando com um fornecedor externo com a função de segurança **Administrador do fornecedor (externo)** ou permissões semelhantes. Você também pode executar essas tarefas se estiver trabalhando como um profissional de compras. Neste artigo, essa função se refere a um profissional de compras que esteja trabalhando na empresa responsável pela instância do Supply Chain Management. Para obter mais informações sobre como usar a colaboração de fornecedor se você for um fornecedor externo, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Para obter mais informações sobre como usar a colaboração de fornecedor se você for um profissional de compras, consulte [Colaboração do fornecedor com fornecedores externos](vendor-collaboration-work-external-vendors.md).
 

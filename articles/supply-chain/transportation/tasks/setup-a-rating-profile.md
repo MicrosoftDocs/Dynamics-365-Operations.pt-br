@@ -1,6 +1,6 @@
 ---
 title: Perfis de classificação
-description: Este tópico descreve como configurar dados para perfis de classificação.
+description: Este artigo descreve como configurar dados para perfis de classificação.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850457"
 ---
 # <a name="rating-profiles"></a>Perfis de classificação
 
@@ -56,7 +56,7 @@ Na página **Perfis de classificação**, você pode revisar todos os perfis de 
 1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
 1. Selecione uma transportadora na lista.
 1. Na FastTab **Perfis de classificação**, selecione **Novo** para criar um perfil de classificação.
-1. Defina os campos para o novo perfil de classificação. Esses campos correspondem aos campos da página **Perfis de classificação**, conforme descrito na seção anterior deste tópico.
+1. Defina os campos para o novo perfil de classificação. Esses campos correspondem aos campos da página **Perfis de classificação**, conforme descrito na seção anterior deste artigo.
 
 > [!NOTE]
 > Os perfis criados na página **Transportadoras** também são exibidos na página **Perfis de classificação**.

@@ -1,6 +1,6 @@
 ---
 title: Periféricos
-description: Este tópico explica os conceitos relacionados aos periféricos do Commerce.
+description: Este artigo explica os conceitos relacionados aos periféricos do Commerce.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880072"
 ---
 # <a name="peripherals"></a>Periféricos
 
 [!include[banner](includes/banner.md)]
 
-Este tópico explica os conceitos relacionados aos periféricos da loja. Descreve as várias formas que os periféricos podem ser conectados ao ponto de venda (PDV) e os componentes responsáveis por gerenciar a conexão com o PDV.
+Este artigo explica os conceitos relacionados aos periféricos da loja. Descreve as várias formas que os periféricos podem ser conectados ao ponto de venda (PDV) e os componentes responsáveis por gerenciar a conexão com o PDV.
 
 ## <a name="concepts"></a>Conceitos
 
@@ -55,7 +55,7 @@ O Modern POS para Android é uma versão baseada em Android do programa Modern P
 
 ### <a name="pos-peripherals"></a>Periféricos de PDV
 
-Os periféricos de PDV são dispositivos suportados explicitamente para funções de PDV. Esses periféricos normalmente são divididos em classes específicas. Para obter mais informações sobre essas classes, consulte a seção "Classes de dispositivo" deste tópico.
+Os periféricos de PDV são dispositivos suportados explicitamente para funções de PDV. Esses periféricos normalmente são divididos em classes específicas. Para obter mais informações sobre essas classes, consulte a seção "Classes de dispositivo" deste artigo.
 
 ### <a name="hardware-station"></a>Estação de hardware
 
@@ -794,7 +794,7 @@ Você também pode usar outros provedores de pagamento com o Dynamics 365 Commer
 
 **Solução:** Um dos seguintes fatores podem causar este problema:
 
--   A estação de hardware não foi configurada corretamente na sede. Para obter mais informações, consulte [Configurar e instalar a estação de hardware do Retail](retail-hardware-station-configuration-installation.md#troubleshooting). 
+-   A estação de hardware não foi configurada corretamente no headquarters. Para obter mais informações, consulte [Configurar e instalar a estação de hardware do Retail](retail-hardware-station-configuration-installation.md#troubleshooting). 
 -   Os trabalhos não foram executados para atualizar a configuração de canal. Neste caso, execute o trabalho 1070 para a configuração de canal.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>O PDV moderno não reflete as novas configurações da caixa registradora.

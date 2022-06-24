@@ -1,6 +1,6 @@
 ---
 title: Introdução a locais funcionais
-description: Este tópico oferece uma visão geral de locais funcionais em Gerenciamento de Ativos.
+description: Este artigo oferece uma visão geral de locais funcionais em Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0cb76a05f0f19d3e57d1f79751e8bc5870b3c331aa4d1c37ec8dfde0a3c6d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767542"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882827"
 ---
 # <a name="introduction-to-functional-locations"></a>Introdução a locais funcionais
 
@@ -30,7 +30,7 @@ ms.locfileid: "6767542"
 
  
 
-Este tópico oferece uma visão geral de locais funcionais em Gerenciamento de Ativos. Os locais funcionais são elementos de uma estrutura técnica, como unidades funcionais em um sistema. Os locais funcionais são criados hierarquicamente e você instala ativos neles. A configuração de locais funcionais na sua empresa depende dos requisitos da empresa.
+Este artigo oferece uma visão geral de locais funcionais em Gerenciamento de Ativos. Os locais funcionais são elementos de uma estrutura técnica, como unidades funcionais em um sistema. Os locais funcionais são criados hierarquicamente e você instala ativos neles. A configuração de locais funcionais na sua empresa depende dos requisitos da empresa.
 
 Estes são alguns exemplos de como você pode usar locais funcionais:
 

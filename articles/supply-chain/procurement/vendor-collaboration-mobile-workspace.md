@@ -1,6 +1,6 @@
 ---
-title: Espaço de trabalho móvel de colaboração de fornecedores
-description: Este tópico fornece informações sobre a área de trabalho móvel de colaboração de fornecedor. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
+title: Espaço de trabalho móvel de colaboração de fornecedor
+description: Este artigo fornece informações sobre a área de trabalho móvel de colaboração do Fornecedor. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851642"
 ---
-# <a name="vendor-collaboration-mobile-workspace"></a>Espaço de trabalho móvel de colaboração de fornecedores
+# <a name="vendor-collaboration-mobile-workspace"></a>Espaço de trabalho móvel de colaboração de fornecedor
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Este tópico fornece informações sobre a área de trabalho móvel **Colaboração de fornecedor**. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
+Este artigo fornece informações sobre a área de trabalho móvel **Colaboração do fornecedor**. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
 
 Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel de finanças e operações (Dynamics 365).
 
@@ -97,7 +97,7 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de p
 </tr>
 <tr class="even">
 <td>O usuário do fornecedor deve ter acesso à interface da web de colaboração do fornecedor no cliente da web e deve configurar um usuário de colaboração do fornecedor.</td><td>Profissionais de compras e o administrador do sistema</td>
-<td>Siga as etapas nos tópicos a seguir para configurar e trabalhar com a interface da Web de colaboração do fornecedor.
+<td>Siga as etapas nos artigos a seguir para configurar e trabalhar com a interface da Web de colaboração do fornecedor.
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Use a colaboração do fornecedor para trabalhar com fornecedores externos</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gerenciar usuários de colaboração do fornecedor</a></li>

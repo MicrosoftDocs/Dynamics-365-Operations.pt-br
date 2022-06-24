@@ -1,6 +1,6 @@
 ---
 title: Devoluções de vendas
-description: Este tópico fornece informações sobre o processo para ordens de devolução. Ele Inclui informações sobre devoluções do cliente e o seu efeito na avaliação de custo e nas quantidades de estoque disponíveis.
+description: Este artigo fornece informações sobre o processo para ordens de devolução. Ele Inclui informações sobre devoluções do cliente e o seu efeito na avaliação de custo e nas quantidades de estoque disponíveis.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860396"
 ---
 # <a name="sales-returns"></a>Devoluções de vendas
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre o processo para ordens de devolução. Ele Inclui informações sobre devoluções do cliente e o seu efeito na avaliação de custo e nas quantidades de estoque disponíveis.
+Este artigo fornece informações sobre o processo para ordens de devolução. Ele Inclui informações sobre devoluções do cliente e o seu efeito na avaliação de custo e nas quantidades de estoque disponíveis.
 
 Os clientes podem devolver itens por diversos motivos. Por exemplo, um item pode apresentar defeito ou pode não ter atingido as expectativas do cliente. O processo de devolução se inicia quando um cliente emite uma solicitação para devolução de um item. Assim que a solicitação do cliente é recebida, uma ordem de devolução é criada.
 
@@ -84,7 +84,7 @@ Após concluir o cabeçalho de devolução, você pode criar linhas de devoluç�
 -   Criar uma linha de devolução usando a função **Encontrar ordem de venda**. Recomenda-se usar esta função ao criar uma ordem de devolução. A função **Encontrar ordem de venda** estabelece uma referência a partir da linha de devolução para a linha faturada da ordem de venda, e recupera detalhes da linha como número do item, quantidade, preço, desconto e valores de custo, a partir da linha de venda. A referência ajuda a garantir que, quando um produto for devolvido à empresa, ele será avaliado com o mesmo custo unitário com o qual foi vendido. A referência também verifica se ordens de devolução não serão criadas para quantidades que excedam a quantidade vendida na fatura.
 
 >[!NOTE] 
->Linhas de devolução que possuem uma referência a uma ordem de venda são tratadas como correções, ou inversões, da venda. Para obter mais informações, consulte a seção "Lançar no livro razão", posteriormente neste tópico.
+>Linhas de devolução que possuem uma referência a uma ordem de venda são tratadas como correções, ou inversões, da venda. Para obter mais informações, consulte a seção "Lançar no livro razão", posteriormente neste artigo.
 
 ### <a name="charges"></a>Encargos
 
@@ -179,7 +179,7 @@ Antes que seja possível retornar itens devolvidos fisicamente ao estoque com a 
 
 [![Processo de entrada.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-O processo possui várias outras variações que não são abordadas nesse tópico. Estas são algumas das variações:
+O processo possui várias outras variações que não são abordadas nesse artigo. Estas são algumas das variações:
 
 -   Não use a lista **Resumo de entrada** para criar um Diário de entrada. Em vez disso, crie manualmente o Diário de entrada. Ordens de devolução terão **Ordem de venda** como referência.
 -   Se estiver usando o Gerenciamento de depósito, crie o transporte de paletes. A linha de devolução terá o status **Chegou** durante o transporte de paletes.

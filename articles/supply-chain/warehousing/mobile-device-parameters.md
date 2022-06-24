@@ -1,6 +1,6 @@
 ---
 title: Parâmetros de dispositivo móvel global
-description: Este tópico explica como definir configurações de dispositivo móvel na página Parâmetros do gerenciamento de depósito.
+description: Este artigo explica como definir configurações de dispositivo móvel na página Parâmetros do gerenciamento de depósito.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847749"
 ---
 # <a name="global-mobile-device-parameters"></a>Parâmetros de dispositivo móvel global
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar parâmetros globais do gerenciamento de depósito que afetam a forma como o sistema interage com dispositivos móveis.
+Este artigo explica como configurar parâmetros globais do gerenciamento de depósito que afetam a forma como o sistema interage com dispositivos móveis.
 
 Para obter mais informações sobre como configurar trabalhadores de depósito, consulte [Gerenciar trabalhador de depósito](manage-warehouse-workers.md). Para obter mais informações sobre o tratamento da placa de licença em dispositivos móveis, consulte [Recebimento da placa de licença por meio do aplicativo móvel Warehouse Management](warehousing-mobile-device-app-license-plate-receiving.md). Para obter mais informações sobre os processos de contagem de ciclo, consulte [Contagem de ciclos](cycle-counting.md) e [Cenários de exemplo de contagem de ciclos](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>Abra a página Parâmetros do gerenciamento de depósito
 
-Para abrir a página **Parâmetros do gerenciamento de depósito**, acesse **Gerenciamento de depósito \> Configuração \> Parâmetros do gerenciamento de depósito**. Em seguida, você pode definir os campos relacionados ao trabalho do dispositivo móvel, conforme descrito na próxima seção deste tópico.
+Para abrir a página **Parâmetros do gerenciamento de depósito**, acesse **Gerenciamento de depósito \> Configuração \> Parâmetros do gerenciamento de depósito**. Em seguida, você pode definir os campos relacionados ao trabalho do dispositivo móvel, conforme descrito na próxima seção deste artigo.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Guia Rápida de dispositivo móvel na guia Geral
 

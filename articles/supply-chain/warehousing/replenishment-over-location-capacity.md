@@ -1,6 +1,6 @@
 ---
 title: Reabastecimento sobre a capacidade do local
-description: Este tópico fornece informações sobre o recurso Reabastecimento sobre a capacidade do local. Este recurso habilita a criação de todo o trabalho de reabastecimento que será necessário para o dia e gerencia a disponibilidade desse trabalho de reabastecimento para garantir que o local de separação não fique sem estoque nem acima da capacidade.
+description: Este artigo fornece informações sobre o recurso Reabastecimento sobre a capacidade do local. Este recurso habilita a criação de todo o trabalho de reabastecimento que será necessário para o dia e gerencia a disponibilidade desse trabalho de reabastecimento para garantir que o local de separação não fique sem estoque nem acima da capacidade.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899227"
 ---
 # <a name="replenishment-over-location-capacity"></a>Reabastecimento sobre a capacidade do local
 
@@ -37,7 +37,7 @@ Para disponibilizar este recurso, ative os seguintes recursos no [gerenciamento 
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurar o recurso para o cenário de exemplo
 
-Esta seção fornece diretrizes e um exemplo que mostra como configurar este recurso e preparar dados de exemplo para o cenário de exemplo fornecido mais adiante neste tópico.
+Esta seção fornece diretrizes e um exemplo que mostra como configurar este recurso e preparar dados de exemplo para o cenário de exemplo fornecido mais adiante neste artigo.
 
 ### <a name="enable-sample-data"></a>Habilitar dados de exemplo
 
@@ -145,7 +145,7 @@ Modelos de reabastecimento são um conjunto de regras que controlam como e quand
 
 ## <a name="example-scenario"></a>Cenário de exemplo
 
-Após disponibilizar todos os dados de exemplo descritos anteriormente e configurá-los, você poderá trabalhar neste cenário para testar o recurso *Reabastecimento sobre a capacidade do local*. Os valores que são mostrados neste cenário pressupõem que você está trabalhando com os dados de demonstração padrão, que você selecionou a entidade legal **USMF** e preparou os registros de exemplo descritos anteriormente neste tópico. Esse cenário também serve como exemplo para mostrar como o recurso pode ser usado em uma configuração de produção.
+Após disponibilizar todos os dados de exemplo descritos anteriormente e configurá-los, você poderá trabalhar neste cenário para testar o recurso *Reabastecimento sobre a capacidade do local*. Os valores que são mostrados neste cenário pressupõem que você está trabalhando com os dados de demonstração padrão, que você selecionou a entidade legal **USMF** e preparou os registros de exemplo descritos anteriormente neste artigo. Esse cenário também serve como exemplo para mostrar como o recurso pode ser usado em uma configuração de produção.
 
 ### <a name="create-replenishment-work"></a>Criar trabalho de reabastecimento
 

@@ -1,6 +1,6 @@
 ---
 title: Criação e processamento de ciclo
-description: Este tópico descreve como criar, processar, e liberar manualmente um ciclo para criar o trabalho de separação para uma carga, remessa, ordem de produção ou ordem kanban.
+description: Este artigo descreve como criar, processar, e liberar manualmente um ciclo para criar o trabalho de separação para uma carga, remessa, ordem de produção ou ordem kanban.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349285f089ecab00c4c1c0a0315c4223314e3e79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851265"
 ---
 # <a name="wave-creation-and-processing"></a>Criação e processamento de ciclo
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar, processar, e liberar manualmente um ciclo para criar o trabalho de separação para uma carga, remessa, ordem de produção ou ordem kanban. É possível criar ciclos para os seguintes tipos de ordens:
+Este artigo descreve como criar, processar, e liberar manualmente um ciclo para criar o trabalho de separação para uma carga, remessa, ordem de produção ou ordem kanban. É possível criar ciclos para os seguintes tipos de ordens:
 
 - **Ordens de venda** – use ciclos de remessa para incluir as linhas das ordens de venda. Quando uma ordem de venda é liberada para o depósito, as linhas da ordem de venda podem ser incluídas no ciclo.
 - **Ordens de produção** – use ondas de produção para incluir as linhas da BOM (lista de materiais) do produto.

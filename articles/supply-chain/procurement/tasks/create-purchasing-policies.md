@@ -1,6 +1,6 @@
 ---
 title: Criar políticas de compras
-description: Este tópico mostra como criar políticas de compra para alinhar com seus processos de negócios de compra.
+description: Este artigo mostra como criar políticas de compra para alinhar com seus processos de negócios de compra.
 author: GalynaFedorova
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f51c88506044359787257ba0e0a6668213a170d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 011705723466d746fa5b23c5499d03a548f133f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878835"
 ---
 # <a name="create-purchasing-policies"></a>Criar políticas de compras
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico mostra como criar políticas de compra para alinhar com seus processos de negócios de compra. Para que você possa criar políticas de compras, você deve configurar os parâmetros da política de compras. É possível criar, alterar e aposentar uma política de compra, mas você não pode suprimir uma política de compra. Normalmente essa procedimento é realizado por um Gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
+Este artigo mostra como criar políticas de compra para alinhar com seus processos de negócios de compra. Para que você possa criar políticas de compras, você deve configurar os parâmetros da política de compras. É possível criar, alterar e aposentar uma política de compra, mas você não pode suprimir uma política de compra. Normalmente essa procedimento é realizado por um Gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
 
 
 ## <a name="set-up-policy-parameters"></a>Configurar parâmetros de política

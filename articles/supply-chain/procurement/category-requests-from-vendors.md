@@ -1,6 +1,6 @@
 ---
 title: Solicitações de categoria de fornecedores
-description: Este tópico descreve como os fornecedores podem solicitar categorias de compras para sua conta. Também descreve o processo de aprovação que é preenchido pelos agentes de compras.
+description: Este artigo descreve como os fornecedores podem solicitar categorias de compras para sua conta. Também descreve o processo de aprovação que é preenchido pelos agentes de compras.
 author: GalynaFedorova
 ms.date: 04/19/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9874151a5d82cc3441741489065877b78bab7bf5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8deded1b7f908bcadf705cf992b2d97618bc28b6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863873"
 ---
 # <a name="category-requests-from-vendors"></a>Solicitações de categoria de fornecedores
 

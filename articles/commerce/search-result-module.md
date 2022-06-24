@@ -1,6 +1,6 @@
 ---
 title: Módulo de resultados de pesquisa
-description: Este tópico abrange os módulos de resultados de pesquisa e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange os módulos de resultados de pesquisa e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: d026de098ec182e3f7631c1c19e54b3b36db341f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886949"
 ---
 # <a name="search-results-module"></a>Módulo de resultados de pesquisa
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tópico abrange os módulos de resultados de pesquisa e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos de resultados de pesquisa e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
 O módulo de resultados da pesquisa retorna resultados de pesquisa de produtos e uma lista de refinadores aplicáveis para os produtos. Os módulos de resultados de pesquisa em sites do Dynamics 365 Commerce podem ser usados para processar páginas para os seguintes cenários:
 
@@ -105,7 +105,7 @@ A pesquisa de produtos com reconhecimento de estoque usa atributos de produto pa
 
 Para criar atributos de produto dedicados para oferecer suporte ao módulo de resultados de pesquisa com reconhecimento de estoque, siga estas etapas:
 
-1. No Headquarters, acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Produtos e estoque**.
+1. No headquarters, acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Produtos e estoque**.
 1. Selecione e abra **Preencher atributos de produto com nível de estoque**.
 1. Na caixa de diálogo, insira as seguintes informações:
 
@@ -115,11 +115,11 @@ Para criar atributos de produto dedicados para oferecer suporte ao módulo de re
 1. Execute o trabalho em segundo plano. Como o estoque do produto muda com constância em um ambiente de omnicanal, é altamente recomendável que você agende esse trabalho como um processo em lote.
 
 > [!NOTE]
-> Para um cálculo de nível de estoque consistente nas páginas e módulos no seu site de comércio eletrônico, certifique-se de selecionar o mesmo tipo de quantidade para a configuração **Disponibilidade de estoque com base em** na sede do Commerce e na configuração **Nível de estoque com base em** no construtor de sites do Commerce. Para obter mais informações sobre configurações de estoque no construtor de sites, consulte [Aplicar configurações de estoque](inventory-settings.md).
+> Para um cálculo de nível de estoque consistente nas páginas e módulos no seu site de comércio eletrônico, certifique-se de selecionar o mesmo tipo de quantidade para a configuração **Disponibilidade de estoque com base em** no Commerce headquarters e na configuração **Nível de estoque com base em** no construtor de sites do Commerce. Para obter mais informações sobre configurações de estoque no construtor de sites, consulte [Aplicar configurações de estoque](inventory-settings.md).
 
 Para configurar os atributos do produto para um canal online, siga estas etapas: 
 
-1. No Headquarters, acesse **Varejo e Comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
+1. No headquarters, acesse **Varejo e Comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
 1. Selecione um canal online para habilitar o módulo de resultados de pesquisa com reconhecimento de estoque.
 1. Selecione e abra um grupo de atributos associado e, em seguida, adicione o atributo de produto recém-criado a ele.
 1. Para as versões do Commerce anteriores à 10.0.27, selecione **Definir metadados de atributo**, selecione o atributo de produto recém-adicionado e, em seguida, ative as opções **Mostrar atributo no canal**, **Recuperável**, **Pode ser refinado** e **Pode ser consultado**.

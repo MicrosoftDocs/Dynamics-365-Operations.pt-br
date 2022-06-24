@@ -1,6 +1,6 @@
 ---
 title: Criar uma nova hierarquia de produtos
-description: Este tópico descreve como criar uma nova hierarquia de produtos no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como criar uma nova hierarquia de produtos no Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 68f6bc5b30cd4d7f7eea05233348b10608a4d6e63d4b8508bdb2088f88c445dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 25cfd81e9163ae2da3cb916c88040204f31dc389
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887027"
 ---
 # <a name="create-a-new-product-hierarchy"></a>Criar uma nova hierarquia de produtos
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar uma nova hierarquia de produtos no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como criar uma nova hierarquia de produtos no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O Dynamics 365 Commerce oferece suporte a vários canais de varejo. Esses canais de varejo incluem lojas online, call centers e lojas de varejo (também chamadas de lojas tradicionais). Cada canal de loja de varejo pode ter seus próprios métodos de pagamento, grupos de preços, terminais de pontos de venda (PDV), contas de receita e despesa e equipe. Você deve configurar todos esses elementos para poder criar um canal de loja de varejo. 
 

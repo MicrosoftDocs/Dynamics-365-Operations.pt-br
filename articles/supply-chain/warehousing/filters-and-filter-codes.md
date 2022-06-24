@@ -1,6 +1,6 @@
 ---
 title: Configurar filtros de produto para transações de depósito
-description: Este tópico descreve como configurar filtros de produto e códigos de filtros para categorizar itens de estoque em um depósito. Também é possível usar filtros para especificar quais clientes podem solicitar um item específico e quais itens podem ser comprados de um fornecedor específico.
+description: Este artigo descreve como configurar filtros de produto e códigos de filtros para categorizar itens de estoque em um depósito. Também é possível usar filtros para especificar quais clientes podem solicitar um item específico e quais itens podem ser comprados de um fornecedor específico.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850428"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurar filtros de produto para transações de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar filtros de produto e códigos de filtros para categorizar itens de estoque em um depósito. Também é possível usar filtros para especificar quais clientes podem solicitar um item específico e quais itens podem ser comprados de um fornecedor específico.
+Este artigo descreve como configurar filtros de produto e códigos de filtros para categorizar itens de estoque em um depósito. Também é possível usar filtros para especificar quais clientes podem solicitar um item específico e quais itens podem ser comprados de um fornecedor específico.
 
 Além disso, é possível configurar e usar filtros de produto para organizar automaticamente os itens de estoque em um depósito e combinar itens filtrados em grupos de filtros. Os filtros podem ser usados para colocar itens em categorias para processos de manuseio, compra e venda. Pode ser interessante agrupar itens ou separá-los um do outro quando a forma como são manuseados é baseada em restrições de peso ou de manuseio. Você também pode especificar para quais clientes ou fornecedores um item pode ser comprado ou vendido.
 
@@ -48,7 +48,7 @@ Os filtros de produto fornecem até 10 características de **Título do filtro**
 
     ![Configurar um filtro de produto.](media/Product_Filters10.png "Configurar um filtro de produto")
 
-1. No campo **Descrição**, insira um nome para o código. Por exemplo, o *código 2* pode representar fornecedores. Em seguida, você poderá criar um filtro de produto para um fornecedor ou grupo de fornecedores específico. Para obter mais informações, consulte a seção [Configurar códigos de filtro de fornecedor](#vendor-product-filters) posteriormente neste tópico.
+1. No campo **Descrição**, insira um nome para o código. Por exemplo, o *código 2* pode representar fornecedores. Em seguida, você poderá criar um filtro de produto para um fornecedor ou grupo de fornecedores específico. Para obter mais informações, consulte a seção [Configurar códigos de filtro de fornecedor](#vendor-product-filters) posteriormente neste artigo.
 
     ![Conjunto de filtros de produto.](media/Product_Filters.png "Conjunto de filtros de produto")
 

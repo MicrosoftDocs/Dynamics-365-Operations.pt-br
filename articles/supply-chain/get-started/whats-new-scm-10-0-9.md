@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.9 (Abril de 2020)
-description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.9.
+description: Este artigo descreve os recursos novos ou alterados no Dynamics 365 Supply Chain Management 10.0.9.
 author: kamaybac
 ms.date: 02/19/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a1f1f83fbf4b7280aec579b17c96e8d9fc59e39bcea5d6d5d7366397cf8f2875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 421f17402a2f3b37a9ccce9d747e2c0ec865ee39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854461"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.9 (Abril de 2020)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão prévia 10.0.9. Esta versão tem um número de compilação de 10.0.383 e está disponível da seguinte maneira:
+Este artigo lista recursos novos ou alterados na versão preliminar do Microsoft Dynamics 365 Supply Chain Management 10.0.9. Esta versão tem um número de compilação de 10.0.383 e está disponível da seguinte maneira:
 
 - **Versão prévia:** Fevereiro de 2020
 - **Disponibilidade geral (autoatualização):** Março de 2020
@@ -33,7 +33,7 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
-Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. Alguns desses recursos também podem ter sido incluídos em uma versão incremental anterior, mas não foram anunciados em um tópico *Novidades* anterior, portanto, foram adicionados aqui. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
+Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. Alguns desses recursos também podem ter sido incluídos em uma versão incremental anterior, mas não foram anunciados em um artigo *Novidades* anterior, portanto, foram adicionados aqui. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
 - [Criação de carga avançada durante um ciclo](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Para obter mais informações, consulte [Criação de carga avançada durante um ciclo](../warehousing/advanced-load-building-during-wave.md).
 
@@ -113,12 +113,12 @@ Confira o [Dynamics 365: plano do ciclo de lançamentos 1 de 2020](/dynamics365-
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 
-O tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
+O artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
 
-Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
+Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
 
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
 

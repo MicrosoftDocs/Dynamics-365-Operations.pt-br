@@ -1,6 +1,6 @@
 ---
 title: Visão geral de gerenciamento de transporte
-description: Este tópico mostra uma visão geral da funcionalidade de gerenciamento de transporte no Supply Chain Management.
+description: Este artigo mostra uma visão geral da funcionalidade de gerenciamento de transporte no Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897448"
 ---
 # <a name="transportation-management-overview"></a>Visão geral de gerenciamento de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico mostra uma visão geral da funcionalidade de gerenciamento de transporte no Supply Chain Management.
+Este artigo mostra uma visão geral da funcionalidade de gerenciamento de transporte no Supply Chain Management.
 
 O gerenciamento de transporte permite que você gerencie o transporte de sua empresa e também permite que você identifique soluções de fornecedor e de roteiro para ordens de entrada e de saída. Por exemplo, você pode identificar o roteiro mais rápido ou a taxa menos dispendiosa para uma remessa. A tabela a seguir descreve os principais cenários para o uso do Gerenciamento de transporte.
 

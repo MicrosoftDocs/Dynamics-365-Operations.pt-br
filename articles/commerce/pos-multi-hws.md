@@ -1,6 +1,6 @@
 ---
 title: Terminais de pagamento dedicados e solicitações para uma impressora e caixa registradora
-description: Este tópico fornece informações sobre o recurso para ter um terminal de pagamento dedicado e solicita que o usuário selecione uma caixa registradora e uma impressora de recibo.
+description: Este artigo fornece informações sobre o recurso para ter um terminal de pagamento dedicado e solicita que o usuário selecione uma caixa registradora e uma impressora de recibo.
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874912"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminais de pagamento dedicados e solicitações para uma impressora e caixa registradora
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre o recurso para ter um terminal de pagamento dedicado e solicita que o usuário selecione uma caixa registradora e uma impressora de recibo.
+Este artigo fornece informações sobre o recurso para ter um terminal de pagamento dedicado e solicita que o usuário selecione uma caixa registradora e uma impressora de recibo.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -46,7 +46,7 @@ O Microsoft Dynamics 365 Commerce oferece suporte a essas tendências habilitand
 
 ## <a name="supported-pos-clients-and-devices"></a>Clientes e dispositivos de PDV com suporte
 
-A funcionalidade descrita neste tópico é compatível com os clientes de PDV Modern POS para Windows e o Modern POS para Android.
+A funcionalidade descrita neste artigo é compatível com os clientes de PDV Modern POS para Windows e o Modern POS para Android.
 
 Essa funcionalidade oferece suporte a terminais de pagamento e impressoras de recibo habilitados para rede. Você pode fornecer suporte à caixa registradora conectando a caixa registradora à impressora de recibo habilitada para rede por meio da porta d/k.
 

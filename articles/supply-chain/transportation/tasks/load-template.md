@@ -1,6 +1,6 @@
 ---
 title: Modelos de carga
-description: Este tópico descreve como configurar modelos de carga e como associar um modelo de carga a uma nova carga.
+description: Este artigo descreve como configurar modelos de carga e como associar um modelo de carga a uma nova carga.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d33e4c71680947316b540d2aef7a7220305f2054
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 47b4925c528b64b835ce3e88659ee6ab0572eb2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844170"
 ---
 # <a name="load-templates"></a>Modelos de carga
 
@@ -27,7 +27,7 @@ ms.locfileid: "8674635"
 
 Ao criar uma carga, você pode atribuir um modelo de carga. O modelo de carga contém informações sobre equipamentos e medidas como altura, largura, profundidade e volume da carga.
 
-Este tópico descreve como configurar modelos de carga e como associar um modelo de carga a uma nova carga.
+Este artigo descreve como configurar modelos de carga e como associar um modelo de carga a uma nova carga.
 
 ## <a name="set-up-a-load-template"></a>Configurar um modelo de carga
 

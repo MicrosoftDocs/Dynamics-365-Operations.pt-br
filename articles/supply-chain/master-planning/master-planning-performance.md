@@ -1,7 +1,7 @@
 ---
-title: Aumentar o desempenho de planejamento mestre
-description: Este tópico explica as várias opções que podem ajudar a melhorar o desempenho do planejamento mestre ou a solução de problemas.
-author: ChristianRytt
+title: Melhorar o desempenho do planejamento mestre
+description: Este artigo explica as várias opções que podem ajudar a melhorar o desempenho do planejamento mestre ou a solução de problemas.
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897593"
 ---
-# <a name="improve-master-planning-performance"></a>Melhorar o desempenho de planejamento mestre
+# <a name="improve-master-planning-performance"></a>Melhorar o desempenho do planejamento mestre
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica as várias opções que podem ajudar a melhorar o desempenho do planejamento mestre ou a solução de problemas. Inclui informações sobre os parâmetros e definições e também sobre configurações e ações recomendadas. Também contém um resumo de todos os parâmetros importantes que você deve considerar quando tiver trabalhos de planejamento mestre de execução longa.
+Este artigo explica as várias opções que podem ajudar a melhorar o desempenho do planejamento mestre ou a solução de problemas. Inclui informações sobre os parâmetros e definições e também sobre configurações e ações recomendadas. Também contém um resumo de todos os parâmetros importantes que você deve considerar quando tiver trabalhos de planejamento mestre de execução longa.
 
-Este tópico é criado para os administradores de sistema ou usuários de TI que têm a capacidade de resolver problemas. Também é destinado aos planejadores de suprimento ou de produção porque tem informações sobre parâmetros que estão relacionados às necessidades de planejamento comercial. 
+Este artigo é criado para os administradores de sistema ou usuários de TI que têm a capacidade de resolver problemas. Também é destinado aos planejadores de suprimento ou de produção porque tem informações sobre parâmetros que estão relacionados às necessidades de planejamento comercial. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Parâmetros relacionados ao desempenho do planejamento mestre
 
@@ -151,9 +151,9 @@ Antes de iniciar a etapa de cobertura, há uma etapa de pré-implementação dur
 ## <a name="performance-checklist-summary"></a>Resumo da lista de verificação de desempenho
 
 - **Número de threads** – Defina para um valor maior que **0** (zero).
-- **Números de tarefas no pacote de tarefas do auxiliar** – Defina para um valor que seja maior que **0** (zero). (Use as fórmulas fornecidas anteriormente neste tópico).
+- **Números de tarefas no pacote de tarefas do auxiliar** – Defina para um valor que seja maior que **0** (zero). (Use as fórmulas fornecidas anteriormente neste artigo).
 - **Uso do cache** – Defina como **Máximo**, a menos que seu sistema esteja com pouca memória.
-- **Número de ordens em pacote de confirmação** – Defina um valor maior que **0** (zero). (Use a fórmula fornecida anteriormente neste tópico).
+- **Número de ordens em pacote de confirmação** – Defina um valor maior que **0** (zero). (Use a fórmula fornecida anteriormente neste artigo).
 - **Limites de tempo** – Ajuste às suas necessidades comerciais.
 - **Ações e futuros** – Desative ações e futuros, caso não os utilize.
 - **Uma rotina pesada de cada vez** – Não execute o planejamento mestre junto com outra rotina pesada.

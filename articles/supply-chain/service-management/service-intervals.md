@@ -1,6 +1,6 @@
 ---
 title: Intervalos de serviço
-description: Este tópico fornece uma visão geral de como trabalhar com intervalos de serviço. O intervalo do contrato de serviço indica a frequência com a qual as linhas de ordem de serviço são criadas para linhas de contrato de serviço quando você cria ordens de serviço automaticamente.
+description: Este artigo fornece uma visão geral de como trabalhar com intervalos de serviço. O intervalo do contrato de serviço indica a frequência com a qual as linhas de ordem de serviço são criadas para linhas de contrato de serviço quando você cria ordens de serviço automaticamente.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df15340a82bf36f67baa7195e2e318a4216d2c56
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 62708258ac3dca9ac03b44efdc96e3bfd643a255
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675617"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887215"
 ---
 # <a name="service-intervals"></a>Intervalos de serviço
 
@@ -87,7 +87,7 @@ Como não há agrupamento na ordem de serviço (definido pela opção **Por cont
 
 Três linhas de ordem de serviço foram criadas nesse intervalo de tempo que você especificou na caixa de diálogo **Criar ordens de serviço**. Você pode visualizar as linhas da ordem de serviço na página **Contratos de serviço** (**Painel de Ação** \> guia **Entregar** \>botão **Exibir** ).
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Configurar intervalos de serviço](set-up-service-intervals.md)  
 

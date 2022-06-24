@@ -1,6 +1,6 @@
 ---
-title: APIs públicas de Visibilidade de Estoque
-description: Este tópico descreve as APIs públicas fornecidas pela visibilidade do Estoque.
+title: APIs públicas do Inventory Visibility
+description: Este artigo descreve as APIs públicas fornecidas pela visibilidade do Estoque.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902014"
 ---
-# <a name="inventory-visibility-public-apis"></a>APIs públicas de Visibilidade de Estoque
+# <a name="inventory-visibility-public-apis"></a>APIs públicas do Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico descreve as APIs públicas fornecidas pela visibilidade do Estoque.
+Este artigo descreve as APIs públicas fornecidas pela visibilidade do Estoque.
 
 A API REST pública do Suplemento Visibilidade de Estoque apresenta vários pontos de extremidade específicos para integração. Ela oferece suporte a quatro tipos de interação principais:
 
@@ -160,7 +160,7 @@ Para obter um token de serviço de segurança, siga estas etapas.
    ```
 
 > [!IMPORTANT]
-> Ao usar a coleção de solicitações *Postman* para chamar APIs públicas de Visibilidade de Estoque, você deverá adicionar um token de portador a cada solicitação. Para localizar o token de portador, selecione a guia **Autorização** na URL da solicitação, selecione o tipo **Token de Portador** e copie o token de acesso obtido na última etapa. Nas seções posteriores deste tópico, `$access_token` será usado para representar o token buscado na última etapa.
+> Ao usar a coleção de solicitações *Postman* para chamar APIs públicas de Visibilidade de Estoque, você deverá adicionar um token de portador a cada solicitação. Para localizar o token de portador, selecione a guia **Autorização** na URL da solicitação, selecione o tipo **Token de Portador** e copie o token de acesso obtido na última etapa. Nas seções posteriores deste artigo, `$access_token` será usado para representar o token buscado na última etapa.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Criar eventos de alteração disponíveis
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-O exemplo a seguir mostra o conteúdo do corpo de exemplo. O comportamento dessa API difere do comportamento das APIs descritas na seção [Criar eventos de alteração disponíveis](#create-onhand-change-event), anteriormente neste tópico. Neste exemplo, a quantidade do produto *Camiseta* será definida como 1.
+O exemplo a seguir mostra o conteúdo do corpo de exemplo. O comportamento dessa API difere do comportamento das APIs descritas na seção [Criar eventos de alteração disponíveis](#create-onhand-change-event), anteriormente neste artigo. Neste exemplo, a quantidade do produto *Camiseta* será definida como 1.
 
 ```json
 [

@@ -1,6 +1,6 @@
 ---
 title: Configurar funcionários de manutenção preferenciais
-description: Este tópico explica como configurar funcionários de manutenção preferidos no Gerenciamento de Ativos.
+description: Este artigo explica como configurar funcionários de manutenção preferidos no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 38b7371ab668eb76801fbe7f15894609a846bbd8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 72f545b952e72412fc05239ed90e2cbbf2c11437
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846232"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Configurar funcionários de manutenção preferenciais
 

@@ -1,6 +1,6 @@
 ---
 title: Monitorar e gerenciar a inteligência IoT
-description: Este tópico explica como monitorar e gerenciar a Inteligência de IoT.
+description: Este artigo explica como monitorar e gerenciar a Inteligência de IoT.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e078f1895b44ca388b75f5cd3d19e0e8f7c36630
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a640b523adac619377e19d670f932d4d85cfb6a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852408"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>Monitorar e gerenciar a inteligência IoT
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como monitorar e gerenciar a Inteligência de IoT.
+Este artigo explica como monitorar e gerenciar a Inteligência de IoT.
 
 ## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a>Monitorar cenários no Microsoft Dynamics 365 Supply Chain Management
 
@@ -54,7 +54,7 @@ Quando um cenário está em execução, essas alterações são proibidas:
 
 ## <a name="simulation-options"></a>Opções de simulação
 
-Você pode simular os sinais da máquina de fábrica. Para obter mais informações, consulte esses tópicos:
+Você pode simular os sinais da máquina de fábrica. Para obter mais informações, consulte estes artigos:
 
 + [Conectar IoT DevKit AZ3166 ao Hub IoT do Azure](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Conectar simulador online Raspberry Pi ao Hub IoT do Azure (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)

@@ -1,6 +1,6 @@
 ---
 title: Criar locais funcionais
-description: Este tópico explica como criar um local funcional em Gerenciamento de Ativos.
+description: Este artigo explica como criar um local funcional em Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869710"
 ---
 # <a name="create-functional-locations"></a>Criar locais funcionais
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767523"
 
  
 
-Este tópico explica como criar um local funcional em Gerenciamento de Ativos.
+Este artigo explica como criar um local funcional em Gerenciamento de Ativos.
 
 Quando você criar uma estrutura de local funcional, note que, após criar um local funcional, você não poderá movê-lo da localização original. Isso significa que é necessário considerar cuidadosamente a estrutura dos seus locais funcionais antes de iniciar a criação delas em Gerenciamento de Ativos. Se você lamenta um local funcional, pode excluí-lo, desde que ele ainda não esteja em uso.
 

@@ -1,6 +1,6 @@
 ---
 title: Aprimoramentos na funcionalidade de postagem de demonstrativo
-description: Este tópico descreve as melhorias feitas no recurso de postagem do demonstrativo.
+description: Este artigo descreve as melhorias feitas no recurso de postagem do demonstrativo.
 author: analpert
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886897"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Aprimoramentos na funcionalidade de postagem de demonstrativo
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve o primeiro conjunto das melhorias feitas no recurso de postagem do demonstrativo. As melhorias estão disponíveis no Microsoft Dynamics 365 for Finance and Operations 7.3.2.
+Este artigo descreve o primeiro conjunto das melhorias feitas no recurso de postagem do demonstrativo. As melhorias estão disponíveis no Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
 ## <a name="activation"></a>Ativação
 
@@ -185,8 +185,8 @@ Além disso, melhorias finais que os usuários podem ver foram feitas no recurso
 - Recomendamos que você ative o estoque físico negativo no grupo de modelo de item, para que você tenha uma experiência de lançamento perfeita. Em algumas situações, demonstrativos negativos não conseguirão ser lançados a menos que houvesse um estoque físico negativo. Por exemplo, em tese, se houver apenas uma unidade de um item em estoque e ela for uma transação de venda e uma transação de devolução do item, a transação deverá ser capaz ser lançada se o estoque negativo estiver ativado. Porém, como o processo de postagem de demonstrativo recebe a transação de vendas e a transação de devolução em uma única ordem de cliente, não há garantia de que a linha de vendas será lançada primeiro, acompanhada por linha de devolução. Portanto, erros podem ocorrer. Se o estoque negativo for ativado neste cenário, a postagem da transação não é afetada negativamente e o sistema refletirá corretamente o estoque.
 - Recomenda-se usar a agregação enquanto você calcula e lança demonstrativos. Portanto, as seguintes configurações são recomendadas para alguns dos parâmetros de agregação:
 
-    - Acesse **Varejo e Comércio** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de comércio**. Depois, na guia **Lançamento**, na Guia Rápida **Atualização de estoque**, no campo **Nível de detalhes**, selecione **Resumo**.
-    - Acesse **Varejo e Comércio** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de comércio**. Em seguida, na guia **Lançamento**, na guia Rápida **Agregação**, defina a opção **Transações de comprovante** como **Sim**.
+    - Acesse **Varejo e Comércio** \> **Configuração do headquarters** \> **Parâmetros** \> **Parâmetros de comércio**. Depois, na guia **Lançamento**, na Guia Rápida **Atualização de estoque**, no campo **Nível de detalhes**, selecione **Resumo**.
+    - Acesse **Varejo e Comércio** \> **Configuração do headquarters** \> **Parâmetros** \> **Parâmetros de comércio**. Em seguida, na guia **Lançamento**, na guia Rápida **Agregação**, defina a opção **Transações de comprovante** como **Sim**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

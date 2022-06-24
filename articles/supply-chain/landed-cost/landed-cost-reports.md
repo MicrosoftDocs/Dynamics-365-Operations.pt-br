@@ -1,6 +1,6 @@
 ---
 title: Relatórios de custo de entrega
-description: Este tópico descreve como localizar e usar os vários tipos de relatórios que estão disponíveis para o módulo de custo de entrega.
+description: Este artigo descreve como localizar e usar os vários tipos de relatórios que estão disponíveis para o módulo de custo de entrega.
 author: Weijiesa
 ms.date: 02/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-02-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2ffe3f6b3bf43cca066a1ecd14947bd111adaad6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 836d6b538b32d818ed3b825000d004b005ce95d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905940"
 ---
 # <a name="landed-cost-reports"></a>Relatórios de custo de entrega
 

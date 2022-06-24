@@ -1,6 +1,6 @@
 ---
 title: Interface de equipamento de manuseio de materiais (MHAX)
-description: Este tópico descreve como configurar a interface de equipamento de manuseio de materiais (MHAX) para que você possa se conectar a sistemas de manuseio de materiais (MH) físicos externos.
+description: Este artigo descreve como configurar a interface de equipamento de manuseio de materiais (MHAX) para que você possa se conectar a sistemas de manuseio de materiais (MH) físicos externos.
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907077"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interface de equipamento de manuseio de materiais (MHAX)
 
@@ -88,7 +88,7 @@ Para criar uma assinatura, acesse **Interface de equipamento de manuseio de mate
 
 Uma consulta pode ser associada a cada assinatura. Esta consulta filtra as linhas e os cabeçalhos de trabalho para limitar ainda mais o trabalho que usará a assinatura para gerar eventos. Para adicionar uma consulta a uma assinatura, marque a caixa de seleção **Executar consulta** da assinatura relevante na página **Assinaturas** e selecione **Editar consulta** no Painel de Ações. O editor de consulta do Supply Chain Management padrão é exibido.
 
-Além disso, a assinatura inclui um *mapa de assinatura* que mapeia campos do cabeçalho ou da linha do trabalho para alguns ou todos os 10 campos de dados livres do evento de saída, conforme necessário. Para retornar informações para o serviço de MHAX, você normalmente incluirá a ID do registro da linha de trabalho ou a *ID do par de linhas do trabalho*. (A ID do par de linhas de trabalho é uma nova propriedade que permite que o sistema use um único comando de retorno para processar as linhas de separação e colocação.) Os campos restantes dependem do caso de uso. Alguns exemplos são fornecidos posteriormente neste tópico.
+Além disso, a assinatura inclui um *mapa de assinatura* que mapeia campos do cabeçalho ou da linha do trabalho para alguns ou todos os 10 campos de dados livres do evento de saída, conforme necessário. Para retornar informações para o serviço de MHAX, você normalmente incluirá a ID do registro da linha de trabalho ou a *ID do par de linhas do trabalho*. (A ID do par de linhas de trabalho é uma nova propriedade que permite que o sistema use um único comando de retorno para processar as linhas de separação e colocação.) Os campos restantes dependem do caso de uso. Alguns exemplos são fornecidos posteriormente neste artigo.
 
 Para configurar um mapa de assinatura, selecione a assinatura relevante na página **Assinaturas** e, depois, selecione **Mapa de assinatura** no Painel de Ações. Na caixa de diálogo **Mapa da assinatura** exibida, você pode atribuir uma tabela e um campo para cada campo de dados disponível, conforme necessário.
 
@@ -161,7 +161,7 @@ Se a ID do par de linhas de trabalho for fornecida, todas as linhas de trabalho 
 
 As linhas de separação das localizações controladas por placa de licença exigem que o **data03** especifique a placa de licença da qual escolher, independentemente das linhas estarem marcadas pela ID do registro da linha de trabalho ou ID do par de linhas de trabalho. O campo **data04** deve especificar a placa de licença de destino do cabeçalho do trabalho para a escolha.
 
-As linhas de colocação não aceitam mais informações. Eles são executados com base apenas na localização da linha de trabalho atual e na placa de licença de destino do trabalho. Se a colocação deve ser feita em um local diferente, altere a localização da linha de trabalho conforme descrito na seção [Eventos de substituição](#override-events) posteriormente neste tópico.
+As linhas de colocação não aceitam mais informações. Eles são executados com base apenas na localização da linha de trabalho atual e na placa de licença de destino do trabalho. Se a colocação deve ser feita em um local diferente, altere a localização da linha de trabalho conforme descrito na seção [Eventos de substituição](#override-events) posteriormente neste artigo.
 
 As linhas de trabalho personalizadas não exigem, ou oferecem suporte, a informações adicionais no evento de entrada.
 
@@ -220,7 +220,7 @@ Subsequentemente, a fila de entrada começará a ficar cheia de itens de fila qu
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Obtenha uma visão geral rápida usando o gerenciador de filas
 
-Para obter uma visão geral rápida de toda atividade relacionada às filas de entrada e saída, acesse **Interface de equipamento de manuseio de materiais \> Espaços de trabalho \> Gerenciador de filas**. A página **Gerenciador de filas** fornece um conjunto de guias e blocos que você pode usar para monitorar e explorar suas filas. Também fornece links úteis para a maioria das outras páginas mencionadas neste tópico.
+Para obter uma visão geral rápida de toda atividade relacionada às filas de entrada e saída, acesse **Interface de equipamento de manuseio de materiais \> Espaços de trabalho \> Gerenciador de filas**. A página **Gerenciador de filas** fornece um conjunto de guias e blocos que você pode usar para monitorar e explorar suas filas. Também fornece links úteis para a maioria das outras páginas mencionadas neste artigo.
 
 ## <a name="connect-to-the-mhax-service"></a>Conectar ao serviço do MHAX
 

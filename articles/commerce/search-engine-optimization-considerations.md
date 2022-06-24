@@ -1,6 +1,6 @@
 ---
 title: Considerações de otimização do mecanismo de pesquisa (SEO) para seu site
-description: Este tópico abrange considerações de otimização do mecanismo de pesquisa (SEO) para seu site desde o desenvolvimento até a produção.
+description: Este artigo abrange considerações de otimização do mecanismo de pesquisa (SEO) para seu site desde o desenvolvimento até a produção.
 author: psimolin
 ms.date: 05/25/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
-ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
+ms.openlocfilehash: 6747df3c56fb05248210f78ebf2176a56ce78329
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8806395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896892"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Considerações de otimização do mecanismo de pesquisa (SEO) para seu site
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange considerações de otimização do mecanismo de pesquisa (SEO) para seu site desde o desenvolvimento até a produção.
+Este artigo abrange considerações de otimização do mecanismo de pesquisa (SEO) para seu site desde o desenvolvimento até a produção.
 
 ## <a name="a-site-that-is-under-development"></a>Um site que está em desenvolvimento
 

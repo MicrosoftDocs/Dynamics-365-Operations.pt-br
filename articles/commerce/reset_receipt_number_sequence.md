@@ -1,6 +1,6 @@
 ---
 title: Redefinir números de recibo
-description: Este tópico descreve como redefinir os números de recibo usados para várias ações em uma data desejada (por exemplo, o ano fiscal ou o ano civil).
+description: Este artigo descreve como redefinir os números de recibo usados para várias ações em uma data desejada (por exemplo, o ano fiscal ou o ano civil).
 author: ShalabhjainMSFT
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dc9f3f977e04866562781d9768141a4a96166f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858847"
 ---
 # <a name="reset-receipt-numbers"></a>Redefinir números de recibo 
 
@@ -30,7 +30,7 @@ ms.locfileid: "6733860"
 > [!NOTE]
 > Será necessário selecionar a propriedade **Sequência independente** para todos os tipos de recibos no perfil de funcionalidade antes de usar este recurso. Além disso, o fuso horário do sistema do dispositivo, no qual o PDV está sendo usado, deve corresponder ao fuso horário da loja correspondente. Devido a essas limitações, recomendamos que você não use este recurso na produção enquanto trabalhamos para corrigir esses problemas em uma versão futura. 
 
-Os varejistas geram números de recibo para várias ações na loja, como transações cash and carry, transações de devolução, ordens de cliente, cotações e pagamentos. Embora os varejistas definam seus próprios formatos de recibo, alguns países ou regiões têm regulamentos que colocam restrições nesses formatos de recibo. Por exemplo, esses regulamentos podem limitar o número de caracteres no recebimento, exigir números de recibo consecutivos, restringir alguns caracteres especiais ou exigir a redefinição de números de recibo no início do ano. O Microsoft Dynamics 365 Commerce torna o processo de gerenciar números de recibo muito flexível, para ajudar os varejistas a cumprirem requisitos de regulamentação. Este tópico explica como usar a funcionalidade para redefinir números de recibo.
+Os varejistas geram números de recibo para várias ações na loja, como transações cash and carry, transações de devolução, ordens de cliente, cotações e pagamentos. Embora os varejistas definam seus próprios formatos de recibo, alguns países ou regiões têm regulamentos que colocam restrições nesses formatos de recibo. Por exemplo, esses regulamentos podem limitar o número de caracteres no recebimento, exigir números de recibo consecutivos, restringir alguns caracteres especiais ou exigir a redefinição de números de recibo no início do ano. O Microsoft Dynamics 365 Commerce torna o processo de gerenciar números de recibo muito flexível, para ajudar os varejistas a cumprirem requisitos de regulamentação. Este artigo explica como usar a funcionalidade para redefinir números de recibo.
 
 No Commerce, os formatos de recibo podem ser alfanuméricos. Você pode colocar conteúdo estático e conteúdo dinâmico neles. O conteúdo estático inclui caracteres alfabéticos, números e caracteres especiais. O conteúdo dinâmico inclui um ou mais caracteres que representam informações como o número da loja, o número do terminal, a data, o mês, o ano e as sequências numéricas que são incrementadas automaticamente. Os formatos são definidos na seção **Numeração do recibo** do perfil de funcionalidade. A tabela a seguir descreve os caracteres que representam o conteúdo dinâmico.
 

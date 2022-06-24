@@ -1,6 +1,6 @@
 ---
-title: Perguntas frequentes sobre Catálogos do Commerce para B2B
-description: Este tópico fornece respostas a perguntas frequentes sobre os catálogos do Microsoft Dynamics 365 Commerce.
+title: Perguntas frequentes sobre catálogos do Commerce para B2B
+description: Este artigo fornece respostas a perguntas frequentes sobre os catálogos do Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,23 +9,23 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 0cd11b4469e4dbd1205ace785fe857f6c6001480
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849032"
 ---
-# <a name="commerce-catalogs-for-b2b-faq"></a>Perguntas frequentes sobre Catálogos do Commerce para B2B
+# <a name="commerce-catalogs-for-b2b-faq"></a>Perguntas frequentes sobre catálogos do Commerce para B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tópico fornece respostas a perguntas frequentes sobre os [catálogos B2B (entre empresas)](catalogs-b2b-sites.md) do Microsoft Dynamics 365 Commerce.
+Este artigo fornece respostas a perguntas frequentes sobre os [catálogos B2B (entre empresas)](catalogs-b2b-sites.md) do Microsoft Dynamics 365 Commerce.
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Por que não posso configurar uma hierarquia de navegação específica do catálogo ou ver uma opção para associar uma hierarquia de cliente?
 
-Certifique-se de que o recurso **Habilitar o uso de vários catálogos em canais de varejo** está habilitado no espaço de trabalho **Gerenciamento de recursos** na matriz do Commerce. Além disso, certifique-se de que seu ambiente esteja usando a versão 10.0.27 ou posterior do Commerce.
+Certifique-se de que o recurso **Habilitar o uso de vários catálogos em canais de varejo** está habilitado no espaço de trabalho **Gerenciamento de recursos** no Commerce headquarters. Além disso, certifique-se de que seu ambiente esteja usando a versão 10.0.27 ou posterior do Commerce.
 
 ## <a name="can-i-view-the-catalog-specific-hierarchy-and-enrich-category-pages-in-commerce-site-builder"></a>Posso exibir a hierarquia específica do catálogo e enriquecer as páginas de categoria no criador de sites do Commerce?
 

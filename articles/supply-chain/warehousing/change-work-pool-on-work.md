@@ -1,6 +1,6 @@
 ---
 title: Alterar pool de trabalho no trabalho
-description: Este tópico explica como você pode usar o botão Alterar pool de trabalho para itens de trabalho a fim de alterar o pool de trabalho do trabalho existente.
+description: Este artigo explica como você pode usar o botão Alterar pool de trabalho para itens de trabalho a fim de alterar o pool de trabalho do trabalho existente.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900612"
 ---
 # <a name="change-work-pool-on-work"></a>Alterar pool de trabalho no trabalho
 
@@ -34,14 +34,14 @@ A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Configurar o recurso Alterar pool de trabalho no trabalho
 
-Para usar este recurso, você deve ter alguns pools de trabalho configurados. Você também pode configurar seus modelos de trabalho para que eles atribuam um pool automaticamente. Se você quiser trabalhar no cenário de exemplo apresentado mais adiante neste tópico, configure o sistema conforme descrito nesta seção.
+Para usar este recurso, você deve ter alguns pools de trabalho configurados. Você também pode configurar seus modelos de trabalho para que eles atribuam um pool automaticamente. Se você quiser trabalhar no cenário de exemplo apresentado mais adiante neste artigo, configure o sistema conforme descrito nesta seção.
 
 ### <a name="set-up-work-pools"></a>Configurar pools de trabalho
 
 Os pools de trabalho permitem organizar itens de trabalho por tipo. Para trabalhar com o recurso *Alterar pool de trabalho no trabalho*, você deve ter pelo menos dois pools de trabalho disponíveis. Para exibir e adicionar pools de trabalho, siga estas etapas.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Pools de trabalho**.
-1. Se você estiver trabalhando com dados de demonstração da empresa **USMF** e for trabalhar no cenário de exemplo posteriormente neste tópico, adicione dois pools de trabalho com as seguintes configurações:
+1. Se você estiver trabalhando com dados de demonstração da empresa **USMF** e for trabalhar no cenário de exemplo posteriormente neste artigo, adicione dois pools de trabalho com as seguintes configurações:
 
     - Pool de trabalho 1:
 
@@ -57,7 +57,7 @@ Os pools de trabalho permitem organizar itens de trabalho por tipo. Para trabalh
 
 ### <a name="set-up-work-templates"></a>Configurar modelos de trabalho
 
-Para cada um dos modelos de trabalho, você pode definir um pool de trabalho padrão, conforme necessário. Para cada modelo relevante, você atribui um pool de trabalho na coluna **ID do pool de trabalho**. Nesse caso, todos os itens de trabalho gerados por meio de um determinado modelo herdam automaticamente o pool de trabalho atribuído. Se você estiver trabalhando com os dados de demonstração da empresa **USMF** e for trabalhar no cenário de exemplo posteriormente neste tópico, siga estas etapas.
+Para cada um dos modelos de trabalho, você pode definir um pool de trabalho padrão, conforme necessário. Para cada modelo relevante, você atribui um pool de trabalho na coluna **ID do pool de trabalho**. Nesse caso, todos os itens de trabalho gerados por meio de um determinado modelo herdam automaticamente o pool de trabalho atribuído. Se você estiver trabalhando com os dados de demonstração da empresa **USMF** e for trabalhar no cenário de exemplo posteriormente neste artigo, siga estas etapas.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. No Painel de Ação, selecione **Editar** para colocar a página no modo de edição.
@@ -70,7 +70,7 @@ Para cada um dos modelos de trabalho, você pode definir um pool de trabalho pad
 
 ## <a name="example-scenario"></a>Cenário de exemplo
 
-Este cenário mostra como alterar o fluxo de processamento de um item de trabalho existente alterando seu pool de trabalho. Ele usa dados de demonstração da empresa **USMF** e as configurações que foram sugeridas anteriormente neste tópico.
+Este cenário mostra como alterar o fluxo de processamento de um item de trabalho existente alterando seu pool de trabalho. Ele usa dados de demonstração da empresa **USMF** e as configurações que foram sugeridas anteriormente neste artigo.
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Criar uma ordem de venda e liberá-la para o depósito
 

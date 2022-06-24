@@ -1,6 +1,6 @@
 ---
 title: Impacto da extensibilidade de catálogos do Commerce para personalizações B2B
-description: Este tópico descreve o impacto da extensibilidade do recurso Catálogos do Commerce para B2B no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve o impacto da extensibilidade do recurso Catálogos do Commerce para B2B no Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849006"
 ---
 # <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Impacto da extensibilidade de catálogos do Commerce para personalizações B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tópico descreve o impacto da extensibilidade do recurso **Catálogos do Commerce para B2B** no Microsoft Dynamics 365 Commerce.
+Este artigo descreve o impacto da extensibilidade do recurso **Catálogos do Commerce para B2B** no Microsoft Dynamics 365 Commerce.
 
 Se estiver interessado em estender o contexto do catálogo para cenários personalizados, talvez suas personalizações precisem ser atualizadas. Esta atualização segue o processo padrão que os clientes devem seguir, pois suas personalizações podem não oferecer suporte automático aos últimos recursos após a realização de atualizações. Se as suas personalizações incluírem qualquer novo recurso ou correção de bugs nas experiências, recomendamos que você atualize o código de personalização apropriadamente. Esta atualização se assemelha às alterações que a Microsoft pode ter feito no código principal.
 

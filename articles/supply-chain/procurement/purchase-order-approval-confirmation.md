@@ -1,6 +1,6 @@
 ---
 title: Aprovar e confirmar ordens de compra
-description: Este tópico descreve os status pelos quais uma ordem de compra passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
+description: Este artigo descreve os status pelos quais uma ordem de compra passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38a486c604dc761dcaf12b839d8b9b89b5e0414
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907367"
 ---
-# <a name="approve-and-confirm-purchase-orders"></a>​Aprovar e confirmar ordens de compra​
+# <a name="approve-and-confirm-purchase-orders"></a>Aprovar e confirmar ordens de compra
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os status pelos quais uma ordem de compra (OC) passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
+Este artigo descreve os status pelos quais uma ordem de compra (OC) passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
 
 Depois de criar uma ordem de compra (OC), ela terá que passar por um processo de aprovação. Depois que o fornecedor tiver concordado com a ordem, a ordem de compra é definida como um status de **Confirmado**.
 

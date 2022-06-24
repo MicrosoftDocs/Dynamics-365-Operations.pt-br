@@ -1,6 +1,6 @@
 ---
 title: Layout de roteiro de documentos para etiquetas de placa de licença
-description: Este tópico descreve como usar métodos de formatação para imprimir valores em etiquetas.
+description: Este artigo descreve como usar métodos de formatação para imprimir valores em etiquetas.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847865"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout de roteiro de documentos para etiquetas de placa de licença
 
@@ -53,7 +53,7 @@ Várias ferramentas de geração de etiquetas amplamente disponíveis podem ajud
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Ative este recurso para o seu sistema
 
-Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Layouts de etiqueta da placa de licença aprimorados*. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado.)
+Se o sistema ainda não incluir os recursos descritos neste artigo, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Layouts de etiqueta da placa de licença aprimorados*. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado.)
 
 ## <a name="custom-number-formats"></a>Formatos de número personalizados
 
@@ -129,7 +129,7 @@ Você pode imprimir de um método de exibição usando o formato a seguir.
 $DisplayMethod()$
 ```
 
-Você pode combinar esse formato com outros tipos que foram descritos anteriormente neste tópico. Por exemplo, você tem um método de exibição denominado `DisplayListOfItemsNumbers()` e deseja imprimir o primeiro número de item desse método. Nesse caso, você pode usar o código a seguir.
+Você pode combinar esse formato com outros tipos que foram descritos anteriormente neste artigo. Por exemplo, você tem um método de exibição denominado `DisplayListOfItemsNumbers()` e deseja imprimir o primeiro número de item desse método. Nesse caso, você pode usar o código a seguir.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

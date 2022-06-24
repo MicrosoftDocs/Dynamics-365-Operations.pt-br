@@ -1,6 +1,6 @@
 ---
 title: Exemplo de integração de serviços de registro fiscal para a Alemanha
-description: Este tópico fornece uma visão geral do exemplo de integração fiscal da Alemanha no Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral do exemplo de integração fiscal da Alemanha no Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867749"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Exemplo de integração de serviços de registro fiscal para a Alemanha
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral do exemplo de integração fiscal da Alemanha no Microsoft Dynamics 365 Commerce.
+Este artigo fornece uma visão geral do exemplo de integração fiscal da Alemanha no Microsoft Dynamics 365 Commerce.
 
 Para atender aos requisitos fiscais locais para caixas registradoras na Alemanha, a funcionalidade do Microsoft Dynamics 365 Commerce da Alemanha inclui um exemplo de integração do ponto de venda (PDV) com um serviço de registro fiscal externo. O exemplo amplia a [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md). Ele é baseado na solução [EFR (Registro fiscal eletrônico)](https://www.efsta.eu/de/fiskalloesungen/deutschland)do [EFSTA](https://www.efsta.eu/de/) e permite a comunicação com o serviço de EFR por meio do protocolo HTTPS. O serviço de EFR deve ser hospedado na estação de hardware do Retail ou em um computador separado que pode ser conectado da estação de hardware. O exemplo é fornecido na forma de código-fonte e faz parte do kit de desenvolvimento de software (SDK) do Retail.
 
@@ -271,7 +271,7 @@ Conclua as etapas de integração fiscal conforme descritas em [Configurar a int
 
 ### <a name="set-up-the-registration-process"></a>Configurar o processo de registro fiscal
 
-Para habilitar o processo de registro, siga estas etapas para configurar a sede do Commerce. Para obter mais informações, consulte [Configurar a integração fiscal dos canais do Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Para habilitar o processo de registro, siga estas etapas para configurar o Commerce headquarters. Para obter mais informações, consulte [Configurar a integração fiscal dos canais do Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
 1. Baixe arquivos de configuração para o provedor de documentos fiscais e o conector fiscal:
 
@@ -289,7 +289,7 @@ Para habilitar o processo de registro, siga estas etapas para configurar a sede 
     > 
     > O suporte para o novo pacote independente e o modelo de extensão para os exemplo de integração fiscal está planejado para versões posteriores.
 
-1. Vá para **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados com o comércio**. Na guia **Geral**, defina a opção **Habilitar integração fiscal** como **Sim**.
+1. Vá para **Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados com o comércio**. Na guia **Geral**, defina a opção **Habilitar integração fiscal** como **Sim**.
 1. Acesse **Retail e Commerce \> Configuração de canal \> Integração fiscal \> Provedores de documentos fiscais** e carregue o arquivo do provedor de documentos fiscais baixado anteriormente.
 1. Acesse **Retail e Commerce \> Configuração de canal \> Integração fiscal \> Conectores fiscais** e carregue o arquivo de configuração do conector fiscal baixado anteriormente.
 1. Acesse **Varejo e Comércio \> Configuração de canal \> Integração fiscal \> Perfis funcionais do conector**. Crie um novo perfil funcional do conector. Selecione o provedor de documentos e o conector carregados anteriormente. Atualize as [configurações de mapeamento de dados](#default-data-mapping) conforme necessário.
@@ -436,7 +436,7 @@ A finalidade da extensão que é um provedor de documentos fiscais é gerar docu
 
 #### <a name="request-handler"></a>Manipulador de solicitações
 
-Existe um manipulador de solicitações para o provedor de documentos, **DocumentProviderEFRFiscalDEU**. Esse manipulador é usado para gerar documentos fiscais para o serviço de registro fiscal. Ele é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce Headquarters.
+Existe um manipulador de solicitações para o provedor de documentos, **DocumentProviderEFRFiscalDEU**. Esse manipulador é usado para gerar documentos fiscais para o serviço de registro fiscal. Ele é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -445,7 +445,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração para o provedor de documentos fiscais está em **src\\FiscalIntegration\\Efr\\Configurations\\DocumentProviders\\DocumentProviderFiscalEFRSampleGermany.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do provedor de documentos fiscais a ser configurado na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
+O arquivo de configuração para o provedor de documentos fiscais está em **src\\FiscalIntegration\\Efr\\Configurations\\DocumentProviders\\DocumentProviderFiscalEFRSampleGermany.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do provedor de documentos fiscais a ser configurado no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
 
 ### <a name="hardware-station-extension-design"></a>Design de extensão de estação de hardware
 
@@ -455,7 +455,7 @@ A extensão da estação de hardware é **HardwareStation.Extension.EFRSample**.
 
 #### <a name="request-handler"></a>Manipulador de solicitações
 
-O manipulador de solicitações **EFRHandler** é o ponto de entrada para o manuseio de solicitações ao serviço de registro fiscal. Esse manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce Headquarters.
+O manipulador de solicitações **EFRHandler** é o ponto de entrada para o manuseio de solicitações ao serviço de registro fiscal. Esse manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -465,7 +465,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração para o conector fiscal está em **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
+O arquivo de configuração para o conector fiscal está em **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** no repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal.
 
 ### <a name="pos-fiscal-connector-extension-design"></a>Design de extensão do conector fiscal PDV
 
@@ -473,7 +473,7 @@ A finalidade da extensão do conector fiscal PDV é comunicar-se com o serviço 
 
 #### <a name="fiscal-connector-factory"></a>Fábrica do conector fiscal
 
-A fábrica do conector fiscal mapeia o nome do conector para a implementação do conector fiscal e está localizada no arquivo **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. O nome do conector deve corresponder ao nome do conector fiscal especificado na sede do Commerce.
+A fábrica do conector fiscal mapeia o nome do conector para a implementação do conector fiscal e está localizada no arquivo **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. O nome do conector deve corresponder ao nome do conector fiscal especificado no Commerce headquarters.
 
 #### <a name="efr-fiscal-connector"></a>Conector fiscal EFR
 
@@ -485,7 +485,7 @@ O conector fiscal EFR está localizado no arquivo **Pos.Extension\\Connectors\\E
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração está localizado na pasta **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+O arquivo de configuração está localizado na pasta **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
 
 - **Endereço do ponto de extremidade** – A URL do serviço de registro fiscal.
 - **Tempo limite** – O período, em milissegundos, que o conector aguardará por uma resposta do serviço de registro fiscal.

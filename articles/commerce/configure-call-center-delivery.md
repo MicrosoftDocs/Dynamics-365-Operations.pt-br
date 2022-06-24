@@ -1,6 +1,6 @@
 ---
 title: Configurar modos de entrega e encargos do call center
-description: Este tópico descreve como configurar modos de entrega e encargos para uma ordem do call center no Dynamics 365 Commerce.
+description: Este artigo descreve como configurar modos de entrega e encargos para uma ordem do call center no Dynamics 365 Commerce.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888289"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos de entrega e encargos do call center
 
@@ -35,7 +35,7 @@ O Commerce tem recursos que permitem aos usuários limitar os modos de entrega q
 
 Antes de especificar quais modos de entrega podem ser usados para as ordens do call center e definir as regras e encargos associados, você deve definir os modos de entrega. Acesse **Vendas e marketing \> Configuração \> Distribuição \> Modos de entrega**. Selecione **Novo** para criar um novo modo de entrega. Como alternativa, selecione um modo de entrega existente na lista e, em seguida, selecione **Editar** para fazer alterações.
 
-No campo **Modo de entrega**, você pode inserir qualquer combinação de caracteres alfanuméricos, com base nos seus requisitos de negócios. Em seguida, você usar o campo **Descrição** para fornecer contexto adicional. Os campos **Grupo de encargos** e **Expedir** são opcionais e serão explicados em mais detalhes posteriormente neste tópico.
+No campo **Modo de entrega**, você pode inserir qualquer combinação de caracteres alfanuméricos, com base nos seus requisitos de negócios. Em seguida, você usar o campo **Descrição** para fornecer contexto adicional. Os campos **Grupo de encargos** e **Expedir** são opcionais e serão explicados em mais detalhes posteriormente neste artigo.
 
 Na FastTab **Canais de comércio** adicione qualquer canal que deve ter permissão para usar o modo de entrega quando transações de vendas forem criadas nesse canal.
 

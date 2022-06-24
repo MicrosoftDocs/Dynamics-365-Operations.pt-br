@@ -1,6 +1,6 @@
 ---
 title: Recursos e funcionalidades de acessibilidade
-description: Este tópico fornece informações sobre os recursos de acessibilidade e funcionalidades no Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece informações sobre os recursos de acessibilidade e funcionalidades no Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f4e73ebaf6dc3fc6eb97f69df8545c9ab9fa9df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853893"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Recursos e funcionalidades de acessibilidade
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre os recursos de acessibilidade e funcionalidades no Microsoft Dynamics 365 Commerce.
+Este artigo fornece informações sobre os recursos de acessibilidade e funcionalidades no Microsoft Dynamics 365 Commerce.
 
 Recursos de acessibilidade e funcionalidades fornecem os meios funcionais para todos os usuários acessarem e executarem ações para que possam atingir suas metas. Essa variedade de usuários pode exigir ferramentas de assistência para audição, visão, mobilidade ou neurodiversidade.
 
 Vários recursos do Dynamics 365 Commerce permitem que você crie seu site para que ele inclua funcionalidades auxiliares. Ao criar o site, você deve considerar as áreas de funcionalidade de acessibilidade mencionadas no [Microsoft Accessibility Center](https://www.microsoft.com/accessibility). 
 
-Este tópico descreve algumas áreas adicionais de funcionalidade de acessibilidade que você deve considerar ao usar Dynamics 365 Commerce.
+Este artigo descreve algumas áreas adicionais de funcionalidade de acessibilidade que você deve considerar ao usar Dynamics 365 Commerce.
 
 ## <a name="image-alt-text"></a>Imagem de texto alt
 

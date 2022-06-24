@@ -1,6 +1,6 @@
 ---
 title: Enviar ordens de venda sem armazenamento
-description: Este tópico explica como atualizar uma ordem de venda quando produtos são enviados ao cliente.
+description: Este artigo explica como atualizar uma ordem de venda quando produtos são enviados ao cliente.
 author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e21bcdef22caf4f4d97ba7dd36ebf1a6e6e055
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c0144be929045b385c58dd29f6241330fc1092f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862472"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Enviar ordens de venda sem armazenamento
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como atualizar uma ordem de venda quando produtos são enviados ao cliente. Este guia é aplicável ao fluxo de realizações que não está definido para o gerenciamento de depósito (sem armazenamento básico ou avançado) e, portanto, não requer separação de produtos que serão registrados antes da remessa. Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração. Em ambos os casos, antes de começar esta tarefa, crie uma ordem de venda para um produto inventariado com uma quantidade maior que 1. Para evitar um erro de lançamento, você precisa verificar se a quantidade disponível do produto no site e o depósito que você selecionou na ordem abrangem a quantidade da ordem.
+Este artigo explica como atualizar uma ordem de venda quando produtos são enviados ao cliente. Este guia é aplicável ao fluxo de realizações que não está definido para o gerenciamento de depósito (sem armazenamento básico ou avançado) e, portanto, não requer separação de produtos que serão registrados antes da remessa. Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração. Em ambos os casos, antes de começar esta tarefa, crie uma ordem de venda para um produto inventariado com uma quantidade maior que 1. Para evitar um erro de lançamento, você precisa verificar se a quantidade disponível do produto no site e o depósito que você selecionou na ordem abrangem a quantidade da ordem.
 
 ## <a name="post-packing-slip-for-an-order"></a>Lançar guia de remessa para uma ordem
 1. No painel de navegação, acesse **Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.

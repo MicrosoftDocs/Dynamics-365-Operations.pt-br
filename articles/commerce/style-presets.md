@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com predefinições de estilo
-description: Este tópico descreve como trabalhar com predefinições de estilo de site no construtor de sites do Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como trabalhar com predefinições de estilo de site no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0a06052ab29502c57a2ad5a25e5bec870585ef4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900351"
 ---
 # <a name="work-with-style-presets"></a>Trabalhar com predefinições de estilo
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como trabalhar com predefinições de estilo de site no construtor de sites do Microsoft Dynamics 365 Commerce.
+Este artigo descreve como trabalhar com predefinições de estilo de site no construtor de sites do Microsoft Dynamics 365 Commerce.
 
 Uma predefinição de estilo é um conjunto armazenado de todos os valores de estilo que pode ser criado no tema de um site. Ele pode ser usado para alterar imediatamente a aparência de um site do construtor de sites. As predefinições de estilo permitem que o criador de sites do Commerce altere, visualize e ative rapidamente um conjunto de valores de estilo no site sem a necessidade de usar folhas de estilo em cascata (CSS) ou implantar temas. Estilos de fonte, estilos de botão e cores de site são exemplos típicos de variáveis de estilo que podem ser gerenciadas por meio de predefinições de estilo.
 

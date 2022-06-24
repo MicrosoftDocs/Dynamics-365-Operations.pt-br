@@ -1,6 +1,6 @@
 ---
 title: Módulo de seletor de loja
-description: Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 05/18/2022
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881674"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 
 Os clientes podem usar o módulo de seletor de loja para retirar um produto em uma loja selecionada após realizarem uma compra online. Na versão 10.0.13 do Commerce, o módulo de seletor de loja também inclui recursos que podem exibir uma página **Localizar uma loja** que mostra as lojas próximas.
 
@@ -39,24 +39,24 @@ O módulo de seletor de loja permite que os usuários insiram um local (cidade, 
 - Um módulo de seletor de loja pode ser usado na página de um carrinho para selecionar uma loja onde será feita a retirada.
 - Um módulo de seletor de loja pode ser usado em uma página autônoma que mostra todas as lojas disponíveis.
 
-## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Configuração do grupo de atendimento na matriz do Commerce
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Configuração do grupo de atendimento no Commerce headquarters
 
-Para que o seletor de loja exiba os armazenamentos disponíveis, o grupo de atendimento deve ser configurado no na matriz do Commerce. Para obter mais informações, consulte [Configurar grupos de atendimento](customer-orders-overview.md#set-up-fulfillment-groups).
+Para que o seletor de loja exiba os armazenamentos disponíveis, o grupo de atendimento deve ser configurado no no Commerce headquarters. Para obter mais informações, consulte [Configurar grupos de atendimento](customer-orders-overview.md#set-up-fulfillment-groups).
 
-Além disso, para cada loja no grupo de atendimento, a latitude e a longitude do local de armazenamento devem ser definidas na matriz.
+Além disso, para cada loja no grupo de atendimento, a latitude e a longitude do local de armazenamento devem ser definidas no headquarters.
 
-Para inserir os valores de latitude e longitude da localização de uma loja na matriz do Commerce, siga estas etapas.
+Para inserir os valores de latitude e longitude da localização de uma loja no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Gerenciamento do estoque \> Configuração \> Detalhamento do estoque**.
 1. Selecione a localização do depósito no painel à esquerda.
 1. Na Guia Rápida **Endereços**, selecione **Avançado**.
 
-    ![Exemplo de informações da loja na matriz.](./media/Store-address.png)
+    ![Exemplo de informações da loja no headquarters.](./media/Store-address.png)
 
 1. No Painel de Ações, selecione **Editar**.
 1. Na Guia Rápida **Geral**, insira valores de **Latitude** e **Longitude**.
 
-    ![Exemplo de configuração de latitude e longitude para uma loja na matriz.](./media/Store-latitude-longitude.png)
+    ![Exemplo de configuração de latitude e longitude para uma loja no headquarters.](./media/Store-latitude-longitude.png)
 
 1. No Painel de ações, selecione **Salvar**. 
 
@@ -72,7 +72,7 @@ Algumas lojas de um grupo de atendimento podem não ser locais de retirada váli
 
 ## <a name="bing-maps-integration"></a>Integração do Bing Maps
 
-O módulo de seletor de loja é integrado às [interfaces de programação de aplicativo (APIs) REST do Bing Maps](/bingmaps/rest-services/) para usar os recursos de Geocodificação e Sugestão Automática do Bing. Uma chave de API do Bing Maps é necessária e deve ser adicionada à página de parâmetros compartilhados na Sede do Commerce. A API de Geocodificação é usada para converter um local em valores de latitude e longitude. A integração com a API de Sugestão Automática é usada para mostrar sugestões de pesquisa quando os usuários inserem locais no campo de pesquisa.
+O módulo de seletor de loja é integrado às [interfaces de programação de aplicativo (APIs) REST do Bing Maps](/bingmaps/rest-services/) para usar os recursos de Geocodificação e Sugestão Automática do Bing. Uma chave de API do Bing Maps é necessária e deve ser adicionada à página de parâmetros compartilhados no Commerce headquarters. A API de Geocodificação é usada para converter um local em valores de latitude e longitude. A integração com a API de Sugestão Automática é usada para mostrar sugestões de pesquisa quando os usuários inserem locais no campo de pesquisa.
 
 Para a API REST da Sugestão Automática, é necessário garantir que as seguintes URLs sejam permitidas de acordo com a política de segurança de conteúdo (CSP) do site. Essa configuração é executada na criação de site do Commerce, adicionando as URLs permitidas às várias diretivas da CSP do site (por exemplo, **img-src**). Para obter mais informações, consulte [Política de segurança de conteúdo](manage-csp.md). 
 
@@ -132,7 +132,7 @@ O modo **Retirar na loja** pode ser usado somente em PDPs e páginas de carrinho
 - Para obter informações sobre como adicionar um módulo de seletor de loja a um módulo de caixa de compra, consulte [Módulo de caixa de compra](add-buy-box.md). 
 - Para obter informações sobre como adicionar um módulo de seletor de loja a um módulo de carrinho, consulte [Módulo de carrinho](add-cart-module.md)
 
-Para configurar o módulo de seletor de loja a fim de mostrar as lojas disponíveis na página de localizações, conforme a ilustração exibida anteriormente nesse tópico, siga estas etapas.
+Para configurar o módulo de seletor de loja a fim de mostrar as lojas disponíveis na página de localizações, conforme a ilustração exibida anteriormente nesse artigo, siga estas etapas.
 
 1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo modelo**, em **Nome do modelo**, insira **Modelo de marketing** e selecione **OK**.

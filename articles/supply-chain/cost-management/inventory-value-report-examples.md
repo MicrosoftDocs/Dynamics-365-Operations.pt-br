@@ -1,6 +1,6 @@
 ---
 title: Exemplos e lógica de relatório de valor de estoque
-description: Este tópico fornece alguns exemplos de resultados que são apresentados em cada tipo de relatório de valor de estoque. Os relatórios de valor de estoque fornecem detalhes sobre as quantidades e os valores físicos e financeiros de estoque.
+description: Este artigo fornece alguns exemplos de resultados que são apresentados em cada tipo de relatório de valor de estoque. Os relatórios de valor de estoque fornecem detalhes sobre as quantidades e os valores físicos e financeiros de estoque.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6c6387be5204fde6ebc7a4983567801900974af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877643"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Exemplos e lógica de relatório de valor de estoque
 
 [!include [banner](../includes/banner.md)]
 
-Os relatórios de valor de estoque fornecem detalhes sobre as quantidades e os valores físicos e financeiros de estoque. Este tópico fornece alguns exemplos de resultados que são apresentados em cada tipo de relatório de valor de estoque.
+Os relatórios de valor de estoque fornecem detalhes sobre as quantidades e os valores físicos e financeiros de estoque. Este artigo fornece alguns exemplos de resultados que são apresentados em cada tipo de relatório de valor de estoque.
 
 Para obter mais informações sobre como gerar e usar cada tipo de relatório de valor de estoque, consulte [Relatórios de valor de estoque](inventory-value-report-storage.md).
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Dados de exemplo usados nestes exemplos
 
-Os exemplos neste tópico se baseiam nos dados de exemplo de transação de estoque descritos nesta seção.
+Os exemplos neste artigo se baseiam nos dados de exemplo de transação de estoque descritos nesta seção.
 
 ### <a name="storage-dimension-setup"></a>Configuração de dimensão de armazenamento
 
@@ -70,7 +70,7 @@ O sistema de exemplo inclui uma configuração de relatório de valor de estoque
 
 ## <a name="inventory-value-report-example-1"></a>Exemplo de relatório de valor de estoque 1
 
-A tabela e as ilustrações a seguir mostram os resultados ao usar os dados de exemplo e a configuração do relatório descritos anteriormente neste tópico.
+A tabela e as ilustrações a seguir mostram os resultados ao usar os dados de exemplo e a configuração do relatório descritos anteriormente neste artigo.
 
 | Tipo de recurso | Recurso | Site | Demonstrativo | Estoque: quantidade financeira | Estoque: valor financeiro | Estoque: quantidade física lançada | Estoque: valor físico lançado | Estoque: quantidade | Estoque: valor | Custo unitário médio |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -91,7 +91,7 @@ A ilustração a seguir mostra o relatório **Armazenamento de relatórios de va
 
 ## <a name="inventory-value-report-example-2"></a>Exemplo de relatório de valor de estoque 2
 
-A tabela e as ilustrações a seguir mostram os resultados quando você usa os dados de exemplo descritos anteriormente neste tópico, mas altera o valor do campo **Nível** para *Transações* na configuração do relatório e define o campo **Data inicial** como *15 de março* quando você executa o relatório.
+A tabela e as ilustrações a seguir mostram os resultados quando você usa os dados de exemplo descritos anteriormente neste artigo, mas altera o valor do campo **Nível** para *Transações* na configuração do relatório e define o campo **Data inicial** como *15 de março* quando você executa o relatório.
 
 | Tipo de recurso | Recurso | Site | Data | Número | Demonstrativo | Estoque: quantidade financeira | Estoque: valor financeiro | Estoque: quantidade física lançada | Estoque: valor físico lançado | Estoque: quantidade | Estoque: valor |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -127,7 +127,7 @@ As subseções a seguir mostram os relatórios de valor de estoque que são gera
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>Exemplo 3 quando o nível Totais é usado
 
-A tabela a seguir mostra os resultados ao usar os dados de exemplo e a configuração do relatório descritos anteriormente neste tópico. (Na configuração do relatório, o campo **Nível** está definido como *Totais*.)
+A tabela a seguir mostra os resultados ao usar os dados de exemplo e a configuração do relatório descritos anteriormente neste artigo. (Na configuração do relatório, o campo **Nível** está definido como *Totais*.)
 
 | Tipo de recurso | Recurso | Site | Demonstrativo | Estoque: quantidade financeira | Estoque: valor financeiro | Estoque: quantidade física lançada | Estoque: valor físico lançado | Estoque: quantidade | Estoque: valor | Custo unitário médio |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@ A tabela a seguir mostra os resultados ao usar os dados de exemplo e a configura
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>Exemplo 3 quando o nível Transações é usado
 
-A tabela a seguir mostra os resultados quando você usa os dados de exemplo descritos anteriormente neste tópico, mas altera o valor do campo **Nível** para *Transações* na configuração do relatório.
+A tabela a seguir mostra os resultados quando você usa os dados de exemplo descritos anteriormente neste artigo, mas altera o valor do campo **Nível** para *Transações* na configuração do relatório.
 
 | Tipo de recurso | Recurso | Site | Data | Número | Demonstrativo | Estoque: quantidade financeira | Estoque: valor financeiro | Estoque: quantidade física lançada | Estoque: valor físico lançado | Estoque: quantidade | Estoque: valor |
 |---|---|---|---|---|---|---|---|---|---|---|---|

@@ -1,6 +1,6 @@
 ---
 title: Módulo de recurso interativo
-description: Este tópico abrange os módulos de recurso interativos e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange os módulos de recurso interativos e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3ab325189812289390740e31fd673ee9892f9759
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: deee7c35cfc4293480fda74665429121b71bbfab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898510"
 ---
 # <a name="interactive-feature-module"></a>Módulo de recurso interativo
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de recurso interativos e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos de recurso interativos e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
 Os módulos de recursos interativos são módulos do tipo mosaico que podem ser usados para comercializar várias categorias de produtos ou marcas de produto usando uma combinação de imagens e texto. Por exemplo, um varejista pode adicionar um módulo de recurso interativo à página inicial de um site de comércio eletrônico para promover as principais categorias de vendas. O módulo de recurso interativo é semelhante ao módulo de lista de blocos, mas tem um layout diferente e uma funcionalidade de interação diferente.
 
-Cada módulo de recurso interativo é um conjunto de módulos de itens de recursos interativos. Cada item de módulo de recurso é baseado em dados do sistema de gerenciamento de conteúdo (CMS). Ele não depende de outros módulos ou dados da matriz do Commerce. O módulo de recurso interativo pode ser colocado a qualquer página do site em que um varejista queira divulgar ou promover algo (por exemplo, produtos, categorias ou marcas).
+Cada módulo de recurso interativo é um conjunto de módulos de itens de recursos interativos. Cada item de módulo de recurso é baseado em dados do sistema de gerenciamento de conteúdo (CMS). Ele não depende de outros módulos ou dados do Commerce headquarters. O módulo de recurso interativo pode ser colocado a qualquer página do site em que um varejista queira divulgar ou promover algo (por exemplo, produtos, categorias ou marcas).
 
 > [!IMPORTANT]
 > - O módulo de recurso interativo está disponível a partir da versão 10.0.20 do Dynamics 365 Commerce.

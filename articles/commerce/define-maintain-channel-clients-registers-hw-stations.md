@@ -1,6 +1,6 @@
 ---
 title: Conectar periféricos ao ponto de venda (PDV)
-description: O tópico aborda como conectar periféricos ao seu Retail POS.
+description: Este artigo aborda como conectar periféricos ao seu Retail POS.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897099"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos ao ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
 
-O tópico aborda como conectar periféricos ao seu Retail POS.
+Este artigo aborda como conectar periféricos ao seu Retail POS.
 
 > [!NOTE]
 > Para obter instruções de instalação específicas, consulte [Configurar e instalar Retail Hardware Station](retail-hardware-station-configuration-installation.md) e [Configurar, instalar e ativar o Modern POS (MPOS)](retail-modern-pos-device-activation.md).
@@ -54,7 +54,7 @@ Os MPOS é um aplicativo de cliente de POS que está instalado no Windows 8.1 ou
 
 #### <a name="cloud-pos"></a>PDV em Nuvem
 
-O PDV em nuvem é um PDV com base no navegador. Como ele é executado no navegador, o PDV em nuvem não requer Windows 8.1 ou um sistema operacional posterior baseado em PC. Se o tipo de aplicativo **PDV em Nuvem do Retail** for mapeado para um dispositivo específico no Headquarters, esse dispositivo poderá ser usado pelo navegador sem a necessidade de baixar ou instalar um pacote. Nuvem POS requer uma estação de hardware para usar hardware além de digitalização do código de barras do teclado com base.
+O PDV em nuvem é um PDV com base no navegador. Como ele é executado no navegador, o PDV em nuvem não requer Windows 8.1 ou um sistema operacional posterior baseado em PC. Se o tipo de aplicativo **PDV em Nuvem do Retail** for mapeado para um dispositivo específico no headquarters, esse dispositivo poderá ser usado pelo navegador sem a necessidade de baixar ou instalar um pacote. Nuvem POS requer uma estação de hardware para usar hardware além de digitalização do código de barras do teclado com base.
 
 ### <a name="hardware-profile"></a>Perfil de hardware
 
@@ -96,7 +96,7 @@ Nesse cenário, uma estação de hardware independente é compartilhada entre cl
 
 Em seguida, forneça uma descrição que ajudará o caixa identificar a estação de hardware. No campo **Nome do host**, digite a URL do host de máquina no seguinte formato: `https://<MachineName:Port>/HardwareStation`. (Substitua **&lt;MachineName:Port&gt;** pelo nome de máquina real da estação de hardware.) Para uma estação de hardware independente, também é necessário especificar a transferência eletrônica de fundos (TEF) ID do terminal. Este valor identifica o terminal de TEF que é conectado à estação de hardware quando o conector de pagamento se comunica com o provedor de pagamentos. 
 
-Em seguida, na máquina que hospedará a estação de hardware, vá para o canal no Headquarters e selecione a estação de hardware. Em seguida, selecione **Download** para baixar o instalador de estação de hardware e instale a estação de hardware. Para mais informações sobre como instalar a estação de hardware, consulte [Configurar e instalar a estação de hardware do Retail](retail-hardware-station-configuration-installation.md). 
+Em seguida, na máquina que hospedará a estação de hardware, vá para o canal no headquarters e selecione a estação de hardware. Em seguida, selecione **Download** para baixar o instalador de estação de hardware e instale a estação de hardware. Para mais informações sobre como instalar a estação de hardware, consulte [Configurar e instalar a estação de hardware do Retail](retail-hardware-station-configuration-installation.md). 
 
 Em seguida, dos MPOS ou POS de nuvem, use a operação **Selecionar estação de hardware** para selecionar estação de hardware que foi instalada anteriormente. Selecione **Par** para estabelecer uma relação de segurança entre o POS e a estação de hardware. Essa etapa deve ser concluída uma vez para cada combinação de um POS e uma estação de hardware. 
 
@@ -157,7 +157,7 @@ Os perfis de recibo são atribuídos diretamente às impressoras por meio do per
 
 #### <a name="hardware-profiles"></a>Perfis de hardware
 
-Perfis de hardware são explicados como um componente de configuração do cliente neste tópico. Os perfis de hardware são atribuídos diretamente ao terminal de PDV ou a uma estação de hardware compartilhada e são usados para especificar os tipos de dispositivos usados por um determinado terminal de PDV ou estação de hardware. Perfis de hardware também são usados para especificar as configurações de TEF que são usadas para se comunicar com o SDK do pagamento.
+Perfis de hardware são explicados como um componente de configuração do cliente neste artigo. Os perfis de hardware são atribuídos diretamente ao terminal de PDV ou a uma estação de hardware compartilhada e são usados para especificar os tipos de dispositivos usados por um determinado terminal de PDV ou estação de hardware. Perfis de hardware também são usados para especificar as configurações de TEF que são usadas para se comunicar com o SDK do pagamento.
 
 #### <a name="visual-profiles"></a>Perfis visuais
 
@@ -181,7 +181,7 @@ Dispositivos são explicados neste artigo. Eles são usados para gerenciar a ati
 
 - **Pendente** – o dispositivo está pronto para ser ativado.
 - **Ativado** – o dispositivo foi ativado.
-- **Desativado** – O dispositivo foi desativado no Headquarters ou por meio do PDV.
+- **Desativado** – O dispositivo foi desativado no headquarters ou por meio do PDV.
 - **Desativado** – o dispositivo foi desativado.
 
 Informações adicionais relacionadas à ativação incluem o trabalhador que alterou o status de ativação do dispositivo, um carimbo de data/hora a ativação, e se a configuração do dispositivo foi validada.

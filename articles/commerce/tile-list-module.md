@@ -1,6 +1,6 @@
 ---
 title: Módulo de lista de blocos
-description: Este tópico abrange os módulos de lista de blocos e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange os módulos de lista de blocos e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905389"
 ---
 # <a name="tile-list-module"></a>Módulo de lista de blocos
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de lista de blocos e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+Este artigo abrange os módulos de lista de blocos e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
 Um módulo de lista de blocos é uma coleção de peças em um carrossel. Ele é usado para comercializar categorias de produtos ou marcas de produto por meio de imagens e texto. Por exemplo, um varejista pode adicionar um módulo de lista de blocos à página inicial de um site de comércio eletrônico para promover todas as principais categorias de vendas.
 
-O módulo de lista de blocos é baseado em dados do sistema de gerenciamento de conteúdo (CMS). Ele não depende de outros módulos ou dados da matriz do Commerce. O módulo de lista de blocos pode ser colocado a qualquer página do site em que um varejista queira divulgar ou promover algo (por exemplo, produtos, categorias ou marcas).
+O módulo de lista de blocos é baseado em dados do sistema de gerenciamento de conteúdo (CMS). Ele não depende de outros módulos ou dados do Commerce headquarters. O módulo de lista de blocos pode ser colocado a qualquer página do site em que um varejista queira divulgar ou promover algo (por exemplo, produtos, categorias ou marcas).
 
 A ilustração a seguir mostra um exemplo de um módulo de lista de blocos e módulos de blocos na página inicial do Adventure Works.
 

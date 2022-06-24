@@ -1,6 +1,6 @@
 ---
 title: Habilitar notificações de check-in do cliente no ponto de venda (PDV)
-description: Este tópico descreve como habilitar notificações de check-in do cliente no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como habilitar notificações de check-in do cliente no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885136"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Habilitar notificações de check-in do cliente no ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como habilitar notificações de check-in do cliente no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
+Este artigo descreve como habilitar notificações de check-in do cliente no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
 
 Em emails "ordem pronta para retirada", as organizações podem fornecer um link ou botão que permita aos clientes notificar a loja em que estão no local e aguardar que o pacote seja trazido para eles. Em seguida, os clientes recebem uma confirmação de check-in e a loja recebe uma notificação como uma tarefa no aplicativo de PDV. Essa tarefa serve como um aviso para que um representante de vendas forneça a ordem ao veículo do cliente. Portanto, o cliente não precisa inserir a loja.
 
@@ -36,7 +36,7 @@ O fluxo de trabalho de check-in do cliente também pode ser configurado para col
 
 Quando o recurso de check-in do cliente é ativado, o Commerce gera uma ID de confirmação de ordem (também conhecida como ID de referência do canal). Ele também gera IDs de confirmação de ordens para ordens criadas por meio de canais de ponto de venda (PDV) ou de call center. 
 
-Para ativar o recurso de check-in de cliente na sede do Commerce, siga estas etapas.
+Para ativar o recurso de check-in de cliente no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Espaços de trabalho \> Gerenciamento de recursos**.
 2. Procure o recurso **Gerar um formato de ID de referência de canal consistente entre canais**. 
@@ -70,7 +70,7 @@ Para testar o recurso de check-in do cliente, siga estas etapas.
 1. Insira a página, mas não a publique.
 1. Adicione o link a seguir a um modelo de email que é chamado pelo tipo de notificação de conclusão de embalagem para um modo de entrega de retirada. Para obter mais informações, consulte [Criar modelos de email para eventos transacionais](email-templates-transactions.md).
 
-    - **Para ambientes de pré-produção (UAT):** Adicione o trecho de código na seção [Configurar o modelo de email transacional](#configure-the-transactional-email-template) anteriormente neste tópico.
+    - **Para ambientes de pré-produção (UAT):** Adicione o trecho de código na seção [Configurar o modelo de email transacional](#configure-the-transactional-email-template) anteriormente neste artigo.
     - **Para ambientes de produção:** Adicione o seguinte código comentado para que os clientes existentes não sejam afetados.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`

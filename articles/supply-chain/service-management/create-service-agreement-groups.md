@@ -1,6 +1,6 @@
 ---
 title: Criar grupos de contrato de serviço
-description: Este tópico fornece um procedimento que mostra como criar grupos de contratos de serviço.
+description: Este artigo fornece um procedimento que mostra como criar grupos de contratos de serviço.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b849de86f5c2cb89d584df607a4d7662606fa9d6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9d94dfe38a6aef765bb1089908827275c00b3dc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889476"
 ---
 # <a name="create-service-agreement-groups"></a>Criar grupos de contrato de serviço 
 
@@ -37,7 +37,7 @@ Os grupos de contratos de serviço são úteis para classificar e filtrar contra
 > [!NOTE]
 > Caso um grupo de contratos de serviço seja definido no campo **Grupo de contratos de serviço** da página **Parâmetros de gerenciamento de serviços**, o programa irá sugerir esse grupo para todos os novos contratos de serviços que você criar.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Visão geral de contrato de serviço](service-agreement-groups.md)
 

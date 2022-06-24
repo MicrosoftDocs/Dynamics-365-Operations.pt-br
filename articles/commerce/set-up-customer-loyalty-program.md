@@ -1,6 +1,6 @@
 ---
 title: Visão geral de fidelidade
-description: Este tópico descreve os recursos de fidelidade no Dynamics 365 Commerce e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
+description: Este artigo descreve os recursos de fidelidade no Dynamics 365 Commerce e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
 author: scott-tucker
 ms.date: 07/21/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 667c30e52bae34f8ddfdc7b74f271d08612ac594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883894"
 ---
 # <a name="loyalty-overview"></a>Visão geral de fidelidade
 
 [!include [banner](includes/banner.md)]
 
-Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por suas interações com a marca do varejista. No Dynamics 365 Commerce, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de comércio. Este tópico descreve os recursos de fidelidade no Commerce e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas de fidelidade.
+Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por suas interações com a marca do varejista. No Dynamics 365 Commerce, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de comércio. Este artigo descreve os recursos de fidelidade no Commerce e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas de fidelidade.
 
 Você pode configurar o programa de fidelidade de modo que ele tenha as opções a seguir.
 

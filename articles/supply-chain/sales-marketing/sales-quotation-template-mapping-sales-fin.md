@@ -1,6 +1,6 @@
 ---
 title: Sincronizar cabeçalhos e linhas da cotação de venda diretamente do Sales para o Supply Chain Management
-description: O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas da cotação de venda diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
+description: O artigo discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas da cotação de venda diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 362b6c290b1784d05e42ecb650911cc51aa8478a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 440b0a6fd2d297027cf3cab548c611544450269a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061975"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854113"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizar cabeçalhos e linhas da cotação de venda diretamente do Sales para o Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061975"
 
 
 
-O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas da cotação de venda diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
+O artigo discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas da cotação de venda diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Microsoft Dataverse para Aplicativos](/powerapps/administrator/data-integrator).
@@ -136,7 +136,7 @@ As seguintes ilustrações mostram um exemplo de um mapeamento de modelos no int
 
 ![Mapeamento de modelos no integrador de dados: QuoteLine.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [De cliente potencial ao pagamento à vista](prospect-to-cash.md)
 

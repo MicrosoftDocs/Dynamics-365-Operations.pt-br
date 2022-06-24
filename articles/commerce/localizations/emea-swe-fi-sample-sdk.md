@@ -1,6 +1,6 @@
 ---
 title: Diretrizes de implantação do exemplo de integração da unidade de controle da Suécia (herdado)
-description: Este tópico fornece diretrizes para a implantação do exemplo de integração da unidade de controle da Suécia do (SDK) do Retail
+description: Este artigo fornece diretrizes para a implantação do exemplo de integração da unidade de controle da Suécia do (SDK) do Retail
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870538"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Diretrizes de implantação do exemplo de integração da unidade de controle da Suécia (herdado)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece diretrizes para a implantação do exemplo de integração da unidade de controle da Suécia do kit de desenvolvimento de software (SDK) do Retail em uma máquina virtual de desenvolvedor (VM) no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre este exemplo de integração fiscal, consulte [Exemplo de integração da unidade de controle da Suécia](emea-swe-fi-sample.md). 
+Este artigo fornece diretrizes para a implantação do exemplo de integração da unidade de controle da Suécia do kit de desenvolvimento de software (SDK) do Retail em uma máquina virtual de desenvolvedor (VM) no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre este exemplo de integração fiscal, consulte [Exemplo de integração da unidade de controle da Suécia](emea-swe-fi-sample.md). 
 
-O exemplo de integração fiscal para a Suécia faz parte do SDK do Retail. Para obter informações sobre como instalar e usar o SDK, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Este exemplo consiste em extensões para o Commerce Runtime (CRT), estação de hardware e ponto de venda (PDV). Para executar este exemplo, você deve modificar e criar os projetos do CRT, estação de hardware e PDV. É recomendável usar um SDK não modificado do Retail para fazer as alterações descritas neste tópico. Também é recomendável usar um sistema de controle do código-fonte, como o Azure DevOps, onde nenhum arquivo foi alterado ainda.
+O exemplo de integração fiscal para a Suécia faz parte do SDK do Retail. Para obter informações sobre como instalar e usar o SDK, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Este exemplo consiste em extensões para o Commerce Runtime (CRT), estação de hardware e ponto de venda (PDV). Para executar este exemplo, você deve modificar e criar os projetos do CRT, estação de hardware e PDV. É recomendável usar um SDK não modificado do Retail para fazer as alterações descritas neste artigo. Também é recomendável usar um sistema de controle do código-fonte, como o Azure DevOps, onde nenhum arquivo foi alterado ainda.
 
 ## <a name="development-environment"></a>Ambiente de desenvolvimento
 
@@ -199,7 +199,7 @@ Para obter mais informações sobre o design da solução de integração fiscal
 
 Há um único manipulador de solicitações **DocumentProviderCleanCash** para o provedor de documentos. Esse manipulador é usado para gerar documentos fiscais para a unidade de controle.
 
-Esse manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce Headquarters.
+Esse manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do provedor do documento do conector especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -208,7 +208,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração **DocumentProviderFiscalCleanCashSample** está na pasta **Configuração** do projeto de extensão. A finalidade deste arquivo é habilitar as configurações para que o provedor de documentos seja configurado na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+O arquivo de configuração **DocumentProviderFiscalCleanCashSample** está na pasta **Configuração** do projeto de extensão. A finalidade deste arquivo é habilitar as configurações para que o provedor de documentos seja configurado no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
 
 - Mapeamento dos códigos IVA
 
@@ -222,7 +222,7 @@ A extensão da estação de hardware é **HardwareStation.Extension.CleanCashSam
 
 O manipulador de solicitações **CleanCashHandler** é o ponto de entrada para o manuseio de solicitações à unidade de controle.
 
-O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce Headquarters.
+O manipulador é herdado da interface **INamedRequestHandler**. O método **HandlerName** é responsável por retornar o nome do manipulador. O nome do manipulador deve corresponder ao nome do conector fiscal especificado no Commerce headquarters.
 
 O conector oferece suporte às seguintes solicitações:
 
@@ -232,7 +232,7 @@ O conector oferece suporte às seguintes solicitações:
 
 #### <a name="configuration"></a>Configuração
 
-O arquivo de configuração está na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas na sede do Commerce. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
+O arquivo de configuração está na pasta **Configuração** do projeto de extensão. A finalidade do arquivo é habilitar as configurações do conector fiscal para que sejam definidas no Commerce headquarters. O formato de arquivo é alinhado com os requisitos para a configuração de integração fiscal. As seguintes configurações são adicionadas:
 
 - **Cadeia de conexões** – As configurações de conexão da unidade de controle.
 - **Tempo limite** – O período, em milissegundos, que o driver aguardará por uma resposta da unidade de controle.
@@ -243,13 +243,13 @@ Se você estiver usando o [exemplo anterior de integração do PDV com unidades 
 
 ### <a name="migration-process"></a>Processo de migração
 
-A migração do exemplo de integração anterior para o da unidade de controle atual deve se basear no conceito de atualização gradual. Em outras palavras, todos os componentes do Commerce Scale Unit e do Commerce Headquarters já devem estar atualizados antes de você começar a atualizar os componentes do PDV e da estação de hardware.
+A migração do exemplo de integração anterior para o da unidade de controle atual deve se basear no conceito de atualização gradual. Em outras palavras, todos os componentes do Commerce Scale Unit e do Commerce headquarters já devem estar atualizados antes de você começar a atualizar os componentes do PDV e da estação de hardware.
 
 Para ajudar a evitar uma situação em que um evento ou uma transação é assinada duas vezes (ou seja, ela é assinada pela extensão anterior e pela extensão atual) ou em que um evento ou uma transação não pode ser assinada por causa da configuração ausente, recomendamos que você desative todos os dispositivos de PDV e da estação de hardware que usam o exemplo anterior e, depois, atualizá-los simultaneamente. Essa atualização simultânea pode ser feita, por exemplo, a cada armazenamento atualizando o perfil de funcionalidade do armazenamento e do perfil de hardware da estação de hardware.
 
 O processo de migração deve consistir nas etapas a seguir.
 
-1. Atualize os componentes do Commerce Headquarters.
+1. Atualize os componentes do Commerce headquarters.
 1. Atualize os componentes do Commerce Scale Unit e habilite as extensões do exemplo atual.
 1. Verifique se todas as transações offline foram sincronizadas a partir de dispositivos MPOS habilitados para offline.
 1. Desative todos os dispositivos que usam os componentes do exemplo anterior.
@@ -257,7 +257,7 @@ O processo de migração deve consistir nas etapas a seguir.
 1. Atualize os componentes do PDV e da estação de hardware, desabilite as extensões que fazem parte do exemplo anterior e habilite as extensões do exemplo atual.
 
     > [!NOTE]
-    > Dependendo do tipo de ambiente, você pode encontrar mais detalhes técnicos sobre o processo de migração nas seções [Migração em um ambiente de desenvolvimento](#migration-in-a-development-environment) ou [Migração em um ambiente de produção](#migration-in-a-production-environment) deste tópico.
+    > Dependendo do tipo de ambiente, você pode encontrar mais detalhes técnicos sobre o processo de migração nas seções [Migração em um ambiente de desenvolvimento](#migration-in-a-development-environment) ou [Migração em um ambiente de produção](#migration-in-a-production-environment) deste artigo.
 
 ### <a name="migration-in-a-development-environment"></a>Migração em um ambiente de desenvolvimento
 

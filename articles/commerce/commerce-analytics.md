@@ -1,6 +1,6 @@
 ---
 title: Commerce Analytics (Versão preliminar)
-description: Este tópico explica como instalar e usar o recurso de análise no Microsoft Dynamics 365 Commerce.
+description: Este artigo explica como instalar e usar o recurso de análise no Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 02/24/2022
 audience: Application user
@@ -8,18 +8,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: 9ffa0affa0b80af65dd2aa37ef2fe969752ae332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8549998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887157"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce Analytics (Versão preliminar)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como instalar o Commerce Analytics (Versão preliminar), o recurso de análise funcional incluído no Microsoft Dynamics 365 Commerce.
+Este artigo explica como instalar o Commerce Analytics (versão preliminar), o recurso de análise funcional incluído no Microsoft Dynamics 365 Commerce.
 
 ## <a name="commerce-analytics-preview-live-demo"></a>Demonstração ao vivo do Commerce Analytics (Versão preliminar)
 
@@ -372,7 +372,7 @@ Envie o [formulário de ingestão de Versão preliminar do Commerce Analytics (V
 > [!IMPORTANT]
 > Ao configurar o suplemento Exportar para o Data Lake, desmarque a caixa de seleção **Alterações de dados em tempo real** na página de configuração do suplemento Exportar para o Data Lake a fim de garantir que as alterações de dados em tempo real não estejam habilitadas. O recurso **Alterações de dados em tempo real** está em versão prévia e não é compatível com o Commerce Analytics no momento. Se você habilitar o recurso, o Commerce Analytics não poderá processar seus dados no Data Lake e a maioria dos relatórios do Power BI não mostrará dados.
 
-O Commerce Analytics (versão preliminar) depende do recurso Exportação para Data Lake para exportar dados do Commerce Headquarters para o Data Lake e manter os dados atualizados. Antes de configurar o Commerce Analytics (Versão preliminar), habilite e configure a Exportação para o Data Lake seguindo as etapas em [Configurar a exportação para o Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
+O Commerce Analytics (versão preliminar) depende do recurso Exportação para Data Lake para exportar dados do Commerce headquarters para o Data Lake e manter os dados atualizados. Antes de configurar o Commerce Analytics (Versão preliminar), habilite e configure a Exportação para o Data Lake seguindo as etapas em [Configurar a exportação para o Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
 Ao configurar o suplemento Exportar para o Data Lake, anote as informações a seguir, pois você terá que digitá-las posteriormente:
 

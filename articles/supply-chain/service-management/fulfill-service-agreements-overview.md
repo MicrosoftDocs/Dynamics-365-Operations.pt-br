@@ -1,6 +1,6 @@
 ---
-title: Preencher contratos de serviço – visão geral
-description: Esse tópico fornece uma visão geral das tarefas para preencher contratos de serviço.
+title: Visão geral do cumprimento de contratos de serviço
+description: Este artigo fornece uma visão geral das tarefas para preencher contratos de serviço.
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677188"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852089"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Preencher contratos de serviço – visão geral
+# <a name="fulfill-service-agreements-overview"></a>Visão geral do cumprimento de contratos de serviço
 
 [!include [banner](../includes/banner.md)]
 
-Esse tópico fornece uma visão geral das tarefas para preencher contratos de serviço. O tópico também lista os formulários associados a cada componente do processo comercial e descreve as tarefas associadas a cada componente do processo comercial.
+Este artigo fornece uma visão geral das tarefas para preencher contratos de serviço. O artigo também lista os formulários associados a cada componente do processo empresarial e descreve as tarefas associadas a cada componente do processo empresarial.
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>Formulários para os componentes do processo comercial de preenchimento de contratos de serviço
 

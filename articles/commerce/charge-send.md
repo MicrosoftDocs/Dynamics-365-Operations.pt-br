@@ -1,6 +1,6 @@
 ---
 title: Enviar pedidos de outra loja usando o recurso Envio de encargos
-description: Este tópico descreve o recurso de Envio de encargo.
+description: Este artigo descreve o recurso Envio de encargo.
 author: ashishmsft
 ms.date: 10/10/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8c9c435c9ef8f692551a216d72a76f8a71b4ce6dc03dc6b13c23364a0aa81662
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d73a21bfe9a284bd6e222e73bb0250648912b230
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863504"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Enviar pedidos de outra loja usando o recurso Envio de encargos
 
@@ -38,7 +38,7 @@ O recurso Envio de encargos usa as seguintes operações de PDV: Remeter todos o
 
 A capacidade de selecionar endereços "remeter para" permanece inalterada.
 
-Os métodos de remessa que podem ser usados para atender à linha da ordem se baseiam na configuração de modos válidos de entrega para produtos e endereços. Como as regras sobre modos de entrega válidos são mantidas somente no Headquarters (HQ), o cliente de PDV faz uma chamada em tempo real para buscar os modos de entrega válidos para uma linha de remessa.
+Os métodos de remessa que podem ser usados para atender à linha da ordem se baseiam na configuração de modos válidos de entrega para produtos e endereços. Como as regras sobre modos de entrega válidos são mantidas somente no headquarters (HQ), o cliente de PDV faz uma chamada em tempo real para buscar os modos de entrega válidos para uma linha de remessa.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

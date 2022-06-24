@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 106da56ed1de7d9e555cfdd63f19687d7e17599a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862559"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>​Configurações de ordem padrão para dimensões e grades de produtos​
 
@@ -38,7 +38,7 @@ Para definir as configurações da ordem padrão de um produto, siga estas etapa
     - Na guia **Plano**, no grupo **Configurações da ordem**, selecione **Configurações padrão da ordem**.
     - Na guia **Gerenciar estoque**, no grupo **Configurações da ordem**, selecione **Configurações padrão da ordem**.
 
-1. Defina as configurações conforme descrito no restante deste tópico.
+1. Defina as configurações conforme descrito no restante deste artigo.
 
 ## <a name="default-order-settings"></a>Configurações Padrão da Ordem
 

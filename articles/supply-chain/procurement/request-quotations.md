@@ -1,6 +1,6 @@
 ---
 title: Visão geral de solicitações de cotação (RFQs)
-description: Este tópico fornece uma visão geral das solicitações de cotação (RFQs). As organizações emitem RFQs quando desejam receber ofertas competitivas de vários fornecedores para os itens ou serviços que eles compram.
+description: Este artigo fornece uma visão geral das solicitações de cotação (RFQs). As organizações emitem RFQs quando desejam receber ofertas competitivas de vários fornecedores para os itens ou serviços que eles compram.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895573"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visão geral de solicitações de cotação (RFQs)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral das solicitações de cotação (RFQs). As organizações emitem RFQs quando desejam receber ofertas competitivas de vários fornecedores para os itens ou serviços que eles compram. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar.
+Este artigo fornece uma visão geral das solicitações de cotação (RFQs). As organizações emitem RFQs quando desejam receber ofertas competitivas de vários fornecedores para os itens ou serviços que eles compram. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar.
 Você também pode solicitar que os fornecedores especifiquem caso haja encargos incidentais, como custos de remessa, ou quaisquer descontos para grandes pedidos ou pagamento antecipado da fatura do fornecedor.
 
 O processo de RFQ consiste nas seguintes tarefas:
@@ -45,7 +45,7 @@ Você pode criar um caso de RFQ de ordens planejadas, de uma requisição de com
 
 Após preparar o caso de RFQ e adicionar fornecedores, selecione **Enviar** (**Enviar e publicar** para o setor público) no caso de RFQ. Um diário de RFQ é gerado para cada fornecedor para o qual você enviou a RFQ. Você pode definir as configurações de impressão para a ação de envio de forma que seja impresso um relatório para cada fornecedor em um arquivo ou que seja enviado um relatório para o endereço de e-mail de cada fornecedor. Além disso, você pode usar o diário de RFQ de cada fornecedor para gerar um relatório que você pode enviar ou reenviar a um fornecedor posteriormente. Você também pode configurar a ação Enviar, de forma que ela gere uma planilha de respostas que o fornecedor pode preencher.
 
-Este tópico abrange o processo para tratar RFQ quando a colaboração do fornecedor não for usada. Se o sistema estiver configurado para a colaboração do fornecedor, os fornecedores poderão inserir lances diretamente no Supply Chain Management. Para obter mais informações, consulte [Colaboração de fornecedores com clientes](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).
+Este artigo abrange o processo para tratar RFQ quando a colaboração do fornecedor não for usada. Se o sistema estiver configurado para a colaboração do fornecedor, os fornecedores poderão inserir lances diretamente no Supply Chain Management. Para obter mais informações, consulte [Colaboração de fornecedores com clientes](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).
 
 Se tiver que alterar uma RFQ após enviá-la, você poderá enviá-la novamente para os fornecedores quando tiver terminado usando as duas ações de alteração: Criar e Finalizar.
 
@@ -59,7 +59,7 @@ Após escolher um lance ou número de linhas em um lance, você poderá aceitar 
 
 Um caso de RFQ tem dois status: o mais alto e o mais baixo. Você pode visualizar o status na página de listagem para **Todas as solicitações de cotação**. O status mais baixo é a fase menos avançada de qualquer linha no caso de RFQ, e o status mais alto é a fase mais avançada de qualquer linha no caso de RFQ. Por exemplo, se um caso de RFQ com três linhas é enviado para dois fornecedores, há duas RFQs com três linhas cada. Todas as linhas são **Enviado**. Agora, um lance é inserido de um dos fornecedores, e as linhas de RFQ obtêm o status **Recebido**. Isso significa que, das três linhas no caso de RFQ, todas elas são **Enviado** para uma RFQ e **Recebido** para outra RFQ. O status mais baixo será **Enviado,** e o mais alto é **Recebido**.
 
-Esses status serão descritos em mais detalhes posteriormente neste tópico.
+Esses status serão descritos em mais detalhes posteriormente neste artigo.
 
 ## <a name="setting-up-rfq-functionality"></a>Configurando a funcionalidade de RFQ
 

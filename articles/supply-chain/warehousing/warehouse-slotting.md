@@ -1,6 +1,6 @@
 ---
 title: Slots de depósito
-description: Este tópico fornece informações sobre slots de depósito. Os slots de depósito permitem consolidar a demanda por item e unidade de medida de ordens com um status de Encomendado, Reservado ou Liberado. Eles ajudam os gerentes de depósito a planejar de forma inteligente os locais de separação antes de liberar as ordens para o depósito e criar um trabalho de separação.
+description: Este artigo fornece informações sobre slots de depósito. Os slots de depósito permitem consolidar a demanda por item e unidade de medida de ordens com um status de Encomendado, Reservado ou Liberado. Eles ajudam os gerentes de depósito a planejar de forma inteligente os locais de separação antes de liberar as ordens para o depósito e criar um trabalho de separação.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897245"
 ---
 # <a name="warehouse-slotting"></a>Slots de depósito
 
@@ -156,7 +156,7 @@ Para cada modelo de ordem de venda criado, siga estas etapas para adicionar uma 
 
     - **Nível da Unidade de Medida:** _EaBoxPl_
 
-        Este campo define as unidades de medida de demanda que são válidas para a linha. (Para obter mais informações, consulte a seção [Configurar níveis de unidade de medida para slots](#unit-tiers) anteriormente neste tópico.)
+        Este campo define as unidades de medida de demanda que são válidas para a linha. (Para obter mais informações, consulte a seção [Configurar níveis de unidade de medida para slots](#unit-tiers) anteriormente neste artigo.)
 
     - **Atribuir critérios de slot:** _Considerar quantidade_
 

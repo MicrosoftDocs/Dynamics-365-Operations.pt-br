@@ -1,7 +1,7 @@
 ---
 title: Calendários e planejamento mestre
-description: Este tópico fornece uma visão geral de calendários de cadeia de suprimentos e como afetam o planejamento mestre.
-author: ChristianRytt
+description: Este artigo fornece uma visão geral de calendários de cadeia de suprimentos e como eles afetam o planejamento mestre.
+author: t-benebo
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c22a77e73573b4e27a81f80debf67242b95c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890963"
 ---
 # <a name="calendars-and-master-planning"></a>Calendários e planejamento mestre
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral de calendários de cadeia de suprimentos e como afetam o planejamento mestre.  Os calendários diferentes usados no mecanismo de planejamento mestre são explicados, incluindo como afetam as datas de remessa e recebimento em ordens planejadas. Finalmente, são fornecidas recomendações referentes à atribuição, ao uso e à atualização dos calendários.
+Este artigo fornece uma visão geral de calendários de cadeia de suprimentos e como eles afetam o planejamento mestre.  Os calendários diferentes usados no mecanismo de planejamento mestre são explicados, incluindo como afetam as datas de remessa e recebimento em ordens planejadas. Finalmente, são fornecidas recomendações referentes à atribuição, ao uso e à atualização dos calendários.
 
 ## <a name="definition-of-a-calendar"></a>Definição de um calendário.
 

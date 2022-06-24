@@ -1,6 +1,6 @@
 ---
 title: Configurar políticas de consolidação de remessa
-description: Este tópico explica como configurar políticas de consolidação de remessa padrão e personalizadas.
+description: Este artigo explica como configurar políticas de consolidação de remessa padrão e personalizadas.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845914"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar políticas de consolidação de remessa
 
@@ -26,12 +26,12 @@ ms.locfileid: "8672560"
 
 O processo de consolidação de remessa que usa políticas de consolidação de remessa permite a consolidação de remessa automatizada durante a liberação automatizada e manual para o depósito. Depois de ativar esse recurso, você deve configurar as políticas iniciais. Se nenhuma política estiver configurada, cada linha de venda gerará uma remessa separada com uma única linha de carga.
 
-Os cenários apresentados neste tópico mostram como configurar políticas de consolidação de remessa padrão e personalizadas.
+Os cenários apresentados neste artigo mostram como configurar políticas de consolidação de remessa padrão e personalizadas.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Ative o recurso de políticas de consolidação de remessa
 
 > [!IMPORTANT]
-> No [primeiro cenário](#scenario-1) descrito neste tópico, primeiro você configurará um depósito para que use o recurso de consolidação de remessa anterior. Em seguida, você criará as políticas de consolidação de remessa disponíveis. Dessa forma, você pode perceber como o cenário de atualização funciona. Se você pretende usar um ambiente de dados de demonstração para passar pelo primeiro cenário, não ative o recurso antes de concluir o cenário.
+> No [primeiro cenário](#scenario-1) descrito neste artigo, primeiro você configurará um depósito para que use o recurso de consolidação de remessa anterior. Em seguida, você criará as políticas de consolidação de remessa disponíveis. Dessa forma, você pode perceber como o cenário de atualização funciona. Se você pretende usar um ambiente de dados de demonstração para passar pelo primeiro cenário, não ative o recurso antes de concluir o cenário.
 
 Antes de usar o recurso *Políticas de consolidação de remessa*, você deve ativá-lo no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
@@ -40,7 +40,7 @@ Antes de usar o recurso *Políticas de consolidação de remessa*, você deve at
 
 ## <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
 
-Cada cenário neste tópico faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como **USMF** antes de começar.
+Cada cenário neste artigo faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como **USMF** antes de começar.
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Cenário 1: configurar políticas de consolidação de remessa padrão
 
@@ -339,7 +339,7 @@ Você criou todas as suas políticas e agora deve estabelecer a ordem em que ela
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Exemplos de cenários de como usar políticas de consolidação de remessa
 
-Os cenários a seguir ilustram como você pode usar as políticas de consolidação de remessa criadas durante a leitura deste tópico. Cada cenário explica o processo de consolidação de uma remessa que usa políticas de consolidação de remessa durante a liberação automatizada ou manual para o depósito:
+Os cenários a seguir ilustram como você pode usar as políticas de consolidação de remessa criadas durante a leitura deste artigo. Cada cenário explica o processo de consolidação de uma remessa que usa políticas de consolidação de remessa durante a liberação automatizada ou manual para o depósito:
 
 - Cenário 1: [Consolidar remessas quando são liberadas para o depósito usando a liberação automática de ordens de venda](../warehousing/consolidate-shipments-automatic.md)
 - Cenário 2: [Consolidar remessas quando a política de consolidação de remessa for substituída da página Liberar para depósito](../warehousing/consolidate-shipments-release-to-warehouse-override.md)

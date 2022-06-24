@@ -1,6 +1,6 @@
 ---
 title: Criar relacionamentos de objeto de serviço
-description: Este tópico descreve como criar relações de objeto de serviço para um contrato de serviço e uma ordem de serviço.
+description: Este artigo descreve como criar relações de objeto de serviço para um contrato de serviço e uma ordem de serviço.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4178132b03cd146aacbcbb8bf8e1e774a161726c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890644"
 ---
 # <a name="create-service-object-relations"></a>Criar relacionamentos de objeto de serviço 
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico descreve como criar relações de objeto de serviço para um contrato de serviço e uma ordem de serviço. Ao criar uma relação de objeto de serviço, você associa o objeto de serviço a um contrato de serviço ou à ordem de serviço. Quando um cliente solicita o serviço para um item que é um objeto de serviço, você pode selecionar o objeto de serviço na lista de relações de objeto de serviço.
+Este artigo descreve como criar relações de objeto de serviço para um contrato de serviço e uma ordem de serviço. Ao criar uma relação de objeto de serviço, você associa o objeto de serviço a um contrato de serviço ou à ordem de serviço. Quando um cliente solicita o serviço para um item que é um objeto de serviço, você pode selecionar o objeto de serviço na lista de relações de objeto de serviço.
 
 ## <a name="create-a-service-object-relation-for-a-service-agreement"></a>Criar uma relação de objeto de serviço para um contrato de serviço
 

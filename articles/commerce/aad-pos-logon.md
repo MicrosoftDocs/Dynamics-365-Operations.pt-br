@@ -1,6 +1,6 @@
 ---
 title: Configurar autenticação do Azure Active Directory para entrada de PDV
-description: Este tópico explica como configurar o Azure Active Directory como o método de autenticação no ponto de venda do Microsoft Dynamics 365 Commerce.
+description: Este artigo explica como configurar o Azure Active Directory como o método de autenticação no ponto de venda do Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853919"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Configurar autenticação do Azure Active Directory para entrada de PDV
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como configurar o Azure Active Directory (Azure AD) como o método de autenticação no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
+Este artigo explica como configurar o Azure Active Directory (Azure AD) como o método de autenticação no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
 
-Os varejistas que usam o Dynamics 365 Commerce junto com outros serviços em nuvem da Microsoft, como o Microsoft Azure, Microsoft 365 e Microsoft Teams geralmente querem usar o Azure AD para o gerenciamento centralizado de credenciais de usuário para uma experiência de entrada segura e perfeita entre aplicativos. Para usar a autenticação do Azure AD para PDV do Commerce, primeiro você deve configurar o Azure AD como o método de autenticação no Commerce Headquarters.
+Os varejistas que usam o Dynamics 365 Commerce com outros serviços Microsoft Cloud Service, como o Microsoft Azure, Microsoft 365 e Microsoft Teams geralmente querem usar o Azure AD para o gerenciamento centralizado de credenciais de usuário para uma experiência de entrada segura e perfeita entre aplicativos. Para usar a autenticação do Azure AD para PDV do Commerce, primeiro você deve configurar o Azure AD como o método de autenticação no Commerce headquarters.
 
 ## <a name="configure-pos-authentication-method"></a>Configurar método de autenticação do PDV
 
@@ -48,9 +48,9 @@ Para configurar o método de autenticação do PDV no Commerce headquarters, sig
 
 ## <a name="associate-azure-ad-accounts-with-pos-users"></a>Associar contas do Azure AD a usuários do PDV
 
-Para usar o Azure AD como o método de autenticação de PDV, você deve associar contas do Azure AD a usuários de PDV no Commerce Headquarters. 
+Para usar o Azure AD como o método de autenticação de PDV, você deve associar contas do Azure AD a usuários de PDV no Commerce headquarters. 
 
-Para associar contas do Azure AD a usuários do PDV no Commerce Headquarters, siga estas etapas.
+Para associar contas do Azure AD a usuários do PDV no Commerce headquarters, siga estas etapas.
     
 1. Acesse **Varejo e Comércio > Funcionários > Trabalhadores** e abra um registro de trabalhador.
 1. No Painel de Ações, selecione a guia **Commerce**, em **Identidade externa**, selecione **Associar identidade existente**. 
@@ -62,7 +62,7 @@ Após as etapas de configuração acima, os campos **Alias**, **UPN** e **Subide
 Você deve executar o trabalho **1060 (Equipe)** no **Varejo e Comércio > TI de Varejo e Comércio > Agenda de distribuição** para sincronizar o usuário PDV mais recente e os dados da conta do Azure AD para o canal.
 
 > [!NOTE]
-> Como prática recomendada, depois que as informações do trabalhador, como senha, permissão de PDV, conta associada do Azure AD ou catálogo de endereços do funcionário forem atualizadas no Commerce Headquarters, é altamente recomendável executar o trabalho **1060 (Equipe)** para sincronizar as informações mais recentes do trabalhador com o canal. O cliente PDV pode buscar os dados corretos para a autenticação de usuário e verificações de autorização.
+> Como prática recomendada, depois que as informações do trabalhador, como senha, permissão de PDV, conta associada do Azure AD ou catálogo de endereços do funcionário forem atualizadas no Commerce headquarters, é altamente recomendável executar o trabalho **1060 (Equipe)** para sincronizar as informações mais recentes do trabalhador com o canal. O cliente PDV pode buscar os dados corretos para a autenticação de usuário e verificações de autorização.
 
 ## <a name="pos-lock-register-and-sign-out-with-azure-ad-authentication"></a>Registro e inscrição de bloqueio de PDV com autenticação do Azure AD
 

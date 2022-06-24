@@ -1,6 +1,6 @@
 ---
 title: Criar um perfil de funcionalidade online
-description: Este tópico descreve como criar um perfil de funcionalidade online no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como criar um perfil de funcionalidade online no Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 686bc6440c31f3a4d729f2d92e3e57a1cc7b641f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895417"
 ---
 # <a name="create-an-online-functionality-profile"></a>Criar um perfil de funcionalidade online
 
 [!include [banner](includes/banner.md)]
 
-Este tópico apresenta uma visão geral da configuração de um perfil de funcionalidade online para o Microsoft Dynamics 365 Commerce.
+Este artigo apresenta uma visão geral da configuração de um perfil de funcionalidade online para o Microsoft Dynamics 365 Commerce.
 
 O perfil de funcionalidade online fornece várias configurações usadas em canais online. Cada canal online deve especificar um perfil de funcionalidade online.
 
 ## <a name="create-an-online-functionality-profile"></a>Criar um perfil de funcionalidade online
 
-O procedimento a seguir explica como criar um perfil de funcionalidade online no aplicativo da sede do Commerce.
+O procedimento a seguir explica como criar um perfil de funcionalidade online no aplicativo do Commerce headquarters.
 
 1. No painel de navegação, Acesse **Módulos \> Configuração de canal \> Configuração de loja online \> Perfis de funcionalidade**.
 1. No painel de ação, selecione **Novo**.

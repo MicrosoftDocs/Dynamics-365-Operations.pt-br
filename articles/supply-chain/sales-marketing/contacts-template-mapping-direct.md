@@ -1,6 +1,6 @@
 ---
 title: Sincronizar contatos diretamente do Sales com contatos ou clientes do Supply Chain Management
-description: Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar entidades de Contato (Contatos) e Contato (Clientes) entre o Dynamics 365 Sales e o Dynamics 365 Supply Chain Management.
+description: Este artigo aborda os modelos e as tarefas subjacentes usados para sincronizar as entidades Contato (Contatos) e Contato (Clientes) diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4ddb91c34816791d8eca80e4798eb46c1b496439
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857334"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizar contatos diretamente do Sales com contatos ou clientes do Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062506"
 > [!NOTE]
 > Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Microsoft Dataverse para Aplicativos](/powerapps/administrator/data-integrator).
 
-Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar entidades de Contato (Contatos) e Contato (Clientes) diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
+Este artigo aborda os modelos e as tarefas subjacentes usados para sincronizar as entidades Contato (Contatos) e Contato (Clientes) diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 
@@ -126,7 +126,7 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 ![Mapeamento do modelo Contato para cliente no Integrador de dados.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [De cliente potencial ao pagamento à vista](prospect-to-cash.md)
 

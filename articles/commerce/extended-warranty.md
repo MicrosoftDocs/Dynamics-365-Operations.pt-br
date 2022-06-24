@@ -1,6 +1,6 @@
 ---
 title: Criar e configurar garantias estendidas
-description: Este tópico abrange as garantias estendidas e descreve como criá-las e configurá-las no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange as garantias estendidas e descreve como criá-las e configurá-las no Microsoft Dynamics 365 Commerce.
 author: sijoshi
 ms.date: 06/08/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 772dc1fdda7c34448ffa946237f717e657df6d83d8fda9336049e79d19ed1af0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ed9851a9609e8a87ae0ffadc5cdd20c03fa17ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886975"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Criar e configurar garantias estendidas
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange as garantias estendidas e descreve como criá-las e configurá-las no Microsoft Dynamics 365 Commerce.
+Este artigo abrange as garantias estendidas e descreve como criá-las e configurá-las no Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -169,9 +169,9 @@ A ilustração a seguir mostra um exemplo do recurso para adicionar um item de g
 
 ## <a name="process-warranty-transactions"></a>Processar transações de garantia
 
-Quando as garantias são vendidas em transações cash and carry, depois que as transações são lançadas na sede do Commerce, os usuários comerciais podem executar o trabalho **Processar transações de garantia** para processar as transações de garantia e criar políticas de garantia.
+Quando as garantias são vendidas em transações cash and carry, depois que as transações são lançadas no Commerce headquarters, os usuários comerciais podem executar o trabalho **Processar transações de garantia** para processar as transações de garantia e criar políticas de garantia.
 
-Para processar as transações de garantia na sede do Commerce, siga estas etapas:
+Para processar as transações de garantia no Commerce headquarters, siga estas etapas:
 
 1. Acesse **Varejo e Comércio \> Produtos e categorias \> Garantia \> Processar transações de garantia**.
 1. Na caixa de diálogo **Escolher nós da organização**, no campo **Hierarquia organizacional**, selecione um valor.
@@ -197,7 +197,7 @@ Quando uma garantia estendida é vendida, uma entidade de política de garantia 
 > [!NOTE]
 > As propriedades da política de garantia são geradas automaticamente quando as entidades da política de garantia são criadas. No momento, elas não podem ser configuradas ou editadas manualmente.
 
-A tabela a seguir descreve as propriedades da política de garantia e seus valores. Na sede do Commerce, a tabela do banco de dados é chamada WARRANTYPOLICY.
+A tabela a seguir descreve as propriedades da política de garantia e seus valores. No Commerce headquarters, a tabela do banco de dados é chamada WARRANTYPOLICY.
 
 | Nome da propriedade | Alíquota | descrição |
 |---------------|-------|-------------|
@@ -223,7 +223,7 @@ Verifique se o item de garantia está classificado para o canal. Verifique tamb�
 
 **Quando tento adicionar uma garantia a uma transação existente e inserir o número do recibo da ordem do cliente, por que não vejo nenhum item de linha de transação?**
 
-Os recibos só poderão ser encontrados se um trabalho pull (trabalho P) for executado para carregar os recibos na sede do Commerce. Para executar o trabalho P, acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**, selecione o trabalho **P-0001** e selecione **Executar agora**.
+Os recibos só poderão ser encontrados se um trabalho pull (trabalho P) for executado para carregar os recibos no Commerce headquarters. Para executar o trabalho P, acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**, selecione o trabalho **P-0001** e selecione **Executar agora**.
 
 **Por que o recurso de garantia é aplicável somente a produtos serializados?**
 

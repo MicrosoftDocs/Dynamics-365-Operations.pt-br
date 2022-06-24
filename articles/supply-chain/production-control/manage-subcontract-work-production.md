@@ -1,6 +1,6 @@
 ---
 title: Gerenciar trabalhos de subcontratação na produção
-description: Este tópico explica como operações subcontratadas são gerenciadas no Dynamics 365 Supply Chain Management. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
+description: Este artigo explica como operações subcontratadas são gerenciadas no Dynamics 365 Supply Chain Management. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e80efc751ccf9243163d23ed48fd17923326f89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a0021d409f9f4a9b36effbd80a99766812572d5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863785"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gerenciar trabalhos de subcontratação na produção
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como operações subcontratadas são gerenciadas no Dynamics 365 Supply Chain Management. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
+Este artigo explica como operações subcontratadas são gerenciadas no Dynamics 365 Supply Chain Management. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
 
 Nos [processos de produção](production-process-overview.md), o trabalho pode ser feito por recursos que de propriedade ou administrados por fornecedores. Normalmente, os recursos de fornecedor são usados para nivelar a demanda adicional periódica que ultrapassa a capacidade disponível de recursos próprios da empresa. O fornecedor também pode oferecer [recursos](resource-capabilities.md) específicos ou recursos com preço mais baixo.  
 
@@ -63,7 +63,7 @@ Quando essa configuração é usada, uma ordem de compra é criada para o produt
 Uma ordem de produção pode ter muitas operações, e cada operação pode ser alocada a um fornecedor diferente. Portanto, uma ordem de produção ponta a ponta pode disparar várias ordens de compra.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Subcontratação de atividades do fluxo de produção
-A solução [lean manufacturing](lean-manufacturing-overview.md) modela o trabalho de subcontratação como um serviço que está relacionado a uma atividade de um [fluxo de produção](tasks/create-production-flow-version.md) (tópico do Guia de tarefas). Portanto, este tipo de subcontratação também é mencionado como [subcontratação baseada em atividade.](activity-based-subcontracting.md) Um tipo de grupo de custo especial, **Terceirização direta**, foi introduzido e os serviços de subcontratação não fazem parte da BOM de mercadorias acabadas. Quando você usa o lean manufacturing, todas as atividades são definidas pelos kanbans que podem ser relacionados a uma ou várias atividades do fluxo de produção. Até agora, essa explicação parece como uma explicação das ordens de produção. Entretanto, enquanto as ordens de produção devem sempre terminar com um produto acabado, você pode criar kanbans para fornecer um produto semiacabado. Você não precisa introduzir um novo produto e o nível de BOM.  
+A solução [lean manufacturing](lean-manufacturing-overview.md) modela o trabalho de subcontratação como um serviço que está relacionado a uma atividade de um [fluxo de produção](tasks/create-production-flow-version.md) (artigo do Guia de tarefas). Portanto, este tipo de subcontratação também é mencionado como [subcontratação baseada em atividade.](activity-based-subcontracting.md) Um tipo de grupo de custo especial, **Terceirização direta**, foi introduzido e os serviços de subcontratação não fazem parte da BOM de mercadorias acabadas. Quando você usa o lean manufacturing, todas as atividades são definidas pelos kanbans que podem ser relacionados a uma ou várias atividades do fluxo de produção. Até agora, essa explicação parece como uma explicação das ordens de produção. Entretanto, enquanto as ordens de produção devem sempre terminar com um produto acabado, você pode criar kanbans para fornecer um produto semiacabado. Você não precisa introduzir um novo produto e o nível de BOM.  
 
 Como as regras kanban podem ser muito dinâmica, é possível modelar diferentes variantes de fornecimento para o mesmo produto em um fluxo de produção. Quando você usa a subcontratação de lean manufacturing, o fluxo material e o fluxo financeiro são separados restritamente. Todo o fluxo de material é representado por atividades kanban. As ordens de compra dos produtos de serviço e os lançamentos de recebimentos desses serviços podem ser automatizados com base no status de trabalhos kanban no fluxo de produção. Os trabalhos kanban podem ser iniciados e concluídos antes mesmo de as ordens de compra serem criadas. Os documentos da subcontratação (ordem de compra e recebimento de compra do serviço) podem ser agregados por período e por serviço. Portanto, o número de documentos e de linhas de compra pode ser mantido pequeno, mesmo em operações altamente repetitivas onde fornecedores fornecem serviços subcontratados em um fluxo único.
 

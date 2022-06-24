@@ -1,6 +1,6 @@
 ---
-title: Configure seu nome de domínio
-description: Este tópico explica como configurar um nome de domínio para um site comercial online do Microsoft Dynamics 365.
+title: Configurar seu nome de domínio
+description: Este artigo explica como configurar um nome de domínio para um site de comércio eletrônico do Microsoft Dynamics 365.
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9718effc776c64b2912a01972ad986eb332196a4477a952672fb147eaaf400c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 00c75581ba08979dfbc784f949c30b9bf78d44c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892122"
 ---
-# <a name="configure-your-domain-name"></a>Configure seu nome de domínio
+# <a name="configure-your-domain-name"></a>Configurar seu nome de domínio
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como configurar um nome de domínio para um site comercial online do Microsoft Dynamics 365. 
+Este artigo explica como configurar um nome de domínio para um site de comércio eletrônico do Microsoft Dynamics 365. 
 
 ## <a name="add-domains-during-e-commerce-initialization"></a>Adicionar domínios durante a inicialização do comércio eletrônico
 

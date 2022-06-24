@@ -1,6 +1,6 @@
 ---
 title: Separação em excesso para ordens de venda e ordens de transferência
-description: Este tópico explica como habilitar a separação em excesso para ordens de venda e ordens de transferência.
+description: Este artigo explica como habilitar a separação em excesso para ordens de venda e ordens de transferência.
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897274"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>Separação em excesso para ordens de venda e ordens de transferência
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico apresenta um cenário que mostra como habilitar um trabalhador específico ou todos os trabalhadores para realizarem separação em excesso. O processo de separação em excesso permite a separação em excesso controlada durante o trabalho de separação.
+Este artigo apresenta um cenário que mostra como habilitar um trabalhador específico ou todos os trabalhadores para realizarem separação em excesso. O processo de separação em excesso permite a separação em excesso controlada durante o trabalho de separação.
 
 A separação em excesso do depósito é um conceito simples. O sistema permite que os trabalhadores escolham mais itens do que o especificado para uma ordem. No entanto, ele ainda considera o limite de entrega excedente definido no nível da linha para a ordem de transferência ou para a ordem de venda. Se esse limite for excedido, o aplicativo Warehouse Management notificará os trabalhadores que estão excedendo o limite de entrega excedente.
 
@@ -41,11 +41,11 @@ O recurso de separação em excesso pode ajudar os trabalhadores a poupar tempo 
 > [!IMPORTANT]
 > O recurso de separação em excesso se aplica apenas a separação e processamento de ordem de venda e de ordem de transferência. O reabastecimento não oferece suporte à separação em excesso. Quando o trabalho de reabastecimento é executado, o sistema não permite que os usuários façam a separação em excesso.
 
-Este tópico apresenta um cenário que mostra como configurar e usar o recurso de separação em excesso.
+Este artigo apresenta um cenário que mostra como configurar e usar o recurso de separação em excesso.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Pré-requisitos do cenário: disponibilizar dados de demonstração
 
-O cenário neste tópico faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como *USMF* antes de começar.
+O cenário neste artigo faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como *USMF* antes de começar.
 
 ## <a name="scenario-setup"></a>Configuração de cenário
 

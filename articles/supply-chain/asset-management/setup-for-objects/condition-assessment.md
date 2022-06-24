@@ -1,6 +1,6 @@
 ---
-title: Avaliação de condição
-description: Este tópico explica como criar um modelo de avaliação de condição e um registro em um ativo no Gerenciamento de Ativos.
+title: Avaliação de condições
+description: Este artigo explica como criar um modelo de avaliação de condição e um registro em um ativo no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cced322dd2f213d8e6025d853edc8472618989b61de7139b28ba1c6bffd3ad2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872084"
 ---
-# <a name="condition-assessment"></a>Avaliação de condição
+# <a name="condition-assessment"></a>Avaliação de condições
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Este tópico explica como criar um modelo de avaliação de condição e um registro em um ativo no Gerenciamento de Ativos. A avaliação da condição é executada em intervalos regulares e a finalidade principal é criar e manter dados de condição em ativos. Sob uma perspectiva de manutenção preventiva, é importante monitorar informações como a condição atual e o tempo de vida útil restante. Além disso, se você realizar a avaliação da condição em intervalos regulares, poderá monitorar e comparar condições nas máquinas da sua fábrica.
+Este artigo explica como criar um modelo de avaliação de condição e um registro em um ativo no Gerenciamento de Ativos. A avaliação da condição é executada em intervalos regulares e a finalidade principal é criar e manter dados de condição em ativos. Sob uma perspectiva de manutenção preventiva, é importante monitorar informações como a condição atual e o tempo de vida útil restante. Além disso, se você realizar a avaliação da condição em intervalos regulares, poderá monitorar e comparar condições nas máquinas da sua fábrica.
 
 A avaliação da condição pode ser usada para medir e monitorar muitas condições no seu equipamento. Exemplo: você pode medir vibrações em suas máquinas. Após registrar medidas de vibração em Gerenciamento de Ativos em vários tipos de equipamento, você poderá procurar a avaliação recém-registrada e exibir medidas de vibração.
 

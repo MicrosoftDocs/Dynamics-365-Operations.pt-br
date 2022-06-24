@@ -1,6 +1,6 @@
 ---
 title: Detalhes da transação de estoque
-description: Este tópico fornece uma visão geral da página de detalhes de transações que mostra detalhes de uma transação de estoque selecionada.
+description: Este artigo fornece uma visão geral da página de detalhes de transações que mostra detalhes de uma transação de estoque selecionada.
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859377"
 ---
 # <a name="inventory-transaction-details"></a>Detalhes da transação de estoque
 
@@ -36,8 +36,8 @@ A página **Detalhes da transação** é dividida em várias guias rápidas. A t
 
 | FastTab | Descrição |
 |---|---|
-| Geral | Esta guia rápida mostra informações básicas sobre a transação de estoque selecionada. Além dos campos que aparecem na página **Transações de estoque**, ela inclui os campos adicionais descritos posteriormente neste tópico. |
-| Atualizações | Esta guia rápida mostra informações relacionadas aos aspectos físicos, financeiros e de liquidação da transação de estoque selecionada. Dependendo do status atual da transação, alguns campos podem ficar em branco. Entretanto, esses campos serão definidos automaticamente quando as transações forem lançadas. Além dos campos que aparecem na página **Transações de estoque**, esta guia rápida inclui os campos adicionais descritos posteriormente neste tópico. |
+| Geral | Esta guia rápida mostra informações básicas sobre a transação de estoque selecionada. Além dos campos que aparecem na página **Transações de estoque**, ela inclui os campos adicionais descritos posteriormente neste artigo. |
+| Atualizações | Esta guia rápida mostra informações relacionadas aos aspectos físicos, financeiros e de liquidação da transação de estoque selecionada. Dependendo do status atual da transação, alguns campos podem ficar em branco. Entretanto, esses campos serão definidos automaticamente quando as transações forem lançadas. Além dos campos que aparecem na página **Transações de estoque**, esta guia rápida inclui os campos adicionais descritos posteriormente neste artigo. |
 | Lançamentos do razão | Esta guia rápida mostra o tipo de lançamento e a conta contábil usados para a atualização física, atualização financeira, receita física, encargos físicos, receita financeira e encargos financeiros relacionados à transação de estoque selecionada. |
 | Referências | Esta guia rápida mostra informações adicionais sobre a transação de origem que criou a transação de estoque selecionada. Por exemplo, essas informações podem incluir detalhes da ordem de compra ou ordem de venda. |
 | Informações Relacionadas | Esta guia rápida mostra informações adicionais sobre a transação de estoque selecionada. Esses campos podem não ser definidos se você não estiver usando alguns recursos, como categorias de compras ou projetos. |

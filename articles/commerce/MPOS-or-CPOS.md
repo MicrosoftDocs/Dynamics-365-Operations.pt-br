@@ -1,6 +1,6 @@
 ---
 title: Escolher entre o Store Commerce e o Cloud POS
-description: Este tópico explica as principais diferenças entre o Store Commerce e o Cloud POS e descreve vários fatores que os varejistas que implementam o Dynamics 365 Commerce devem considerar para fazer a melhor escolha de acordo com suas necessidades.
+description: Este artigo explica as principais diferenças entre o Store Commerce e o Cloud POS e descreve vários fatores que os varejistas que implementam o Dynamics 365 Commerce devem considerar para fazer a melhor escolha de acordo com suas necessidades.
 author: jblucher
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629281"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853997"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Escolher entre o Store Commerce e o Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica as principais diferenças entre o Store Commerce e o Cloud POS e descreve vários fatores que os varejistas que implementam o Dynamics 365 Commerce devem considerar para fazer a melhor escolha de acordo com suas necessidades. Este tópico oferece orientação, dicas e experiência adicional de implementadores sobre fatores que devem ser considerados ao implantar o Dynamics 365 Commerce. Ao examinar e seguir essas orientações como parte do processo de implantação, os implementadores poderão evitar problemas que possam afetar o desempenho e a satisfação do usuário.
+Este artigo explica as principais diferenças entre o Store Commerce e o Cloud POS e descreve vários fatores que os varejistas que implementam o Dynamics 365 Commerce devem considerar para fazer a melhor escolha de acordo com suas necessidades. Este tópico oferece orientação, dicas e experiência adicional de implementadores sobre fatores que devem ser considerados ao implantar o Dynamics 365 Commerce. Ao examinar e seguir essas orientações como parte do processo de implantação, os implementadores poderão evitar problemas que possam afetar o desempenho e a satisfação do usuário.
 
 ## <a name="insights"></a>Insights
 
@@ -44,7 +44,7 @@ O Commerce oferece suporte às seguintes opções de PDV:
 Em todos os casos, o POS (Store Commerce e CPOS) compartilha o mesmo código básico de aplicativo. Este ponto é importante pelos seguintes motivos:
 
 - A interface do usuário (IU) é consistente, independentemente da plataforma ou do fator forma.
-- A maioria das capacidades funcionais é a mesma, independentemente da plataforma ou do fator forma. No entanto, há alguns diferenças importantes. Essas diferenças serão observadas neste tópico.
+- A maioria das capacidades funcionais é a mesma, independentemente da plataforma ou do fator forma. No entanto, há alguns diferenças importantes. Essas diferenças serão observadas neste artigo.
 - Em cada loja, as variações de PDV podem ser combinadas e executadas simultaneamente. Por exemplo, para seus registros principais, um varejista pode usar o Store Commerce em computadores que executam o Windows. No entanto, o varejista pode complementar esses registros com terminais baseados em navegador ou dispositivos móveis.
 - As personalizações e extensões podem ser usadas facilmente entre as plataformas e os fatores forma. Como o código básico do aplicativo é compartilhado, a maioria da personalizações pode ser implementada apenas um vez.
 

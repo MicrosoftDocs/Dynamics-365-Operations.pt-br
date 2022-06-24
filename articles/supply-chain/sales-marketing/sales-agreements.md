@@ -1,6 +1,6 @@
 ---
 title: Visão geral de contratos de venda
-description: Este tópico fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos.
+description: Este artigo fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos.
 author: Henrikan
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3e84b8be597870deea3beaf1bdc4a98021b7f135
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903830"
 ---
 # <a name="sales-agreements-overview"></a>Visão geral de contratos de venda
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos.
+Este artigo fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos.
 
 Um contrato de venda é um contrato que confirma que o cliente compra produtos ao longo do tempo em uma quantidade específica ou para um valor específico, em troca de preços promocionais especiais, descontos especiais, e outras condições especiais, como o pagamento e condições de entrega. Os preços e os descontos do contrato de venda substituem os preços e os descontos que declarados em qualquer contrato comercial que possa existir.  
 

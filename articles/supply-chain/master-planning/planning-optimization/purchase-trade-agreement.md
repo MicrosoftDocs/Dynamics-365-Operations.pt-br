@@ -1,6 +1,6 @@
 ---
 title: Planejamento mestre com contratos comerciais de compra
-description: Este tópico descreve como a otimização do planejamento pode encontrar o fornecedor e/ou prazo de entrega para uma ordem planejada, com base no melhor preço ou prazo de entrega encontrado nos contratos comerciais de compra.
+description: Este artigo descreve como a otimização do planejamento pode encontrar o fornecedor e/ou prazo de entrega para uma ordem planejada, com base no melhor preço ou prazo de entrega encontrado nos contratos comerciais de compra.
 author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873743"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planejamento mestre com contratos comerciais de compra
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como a otimização do planejamento pode encontrar o fornecedor e/ou prazo de entrega para uma ordem planejada, com base no melhor preço ou prazo de entrega encontrado entre todos os contratos comerciais de compra especificados para um determinado produto.
+Este artigo descreve como a otimização do planejamento pode encontrar o fornecedor e/ou prazo de entrega para uma ordem planejada, com base no melhor preço ou prazo de entrega encontrado entre todos os contratos comerciais de compra especificados para um determinado produto.
 
 ## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Ativar os Contratos comerciais de compra para o recurso Otimização de Planejamento
 

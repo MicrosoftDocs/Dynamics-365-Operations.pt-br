@@ -1,6 +1,6 @@
 ---
-title: Estados do ciclo de vida de locais funcionais
-description: Este tópico descreve como configurar estados de local funcional e modelos de ciclo de vida em Gerenciamento de Ativos.
+title: Estados de ciclo de vida do local funcional
+description: Este artigo descreve como configurar estados de local funcional e modelos de ciclo de vida em Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934653"
 ---
-# <a name="functional-location-lifecycle-states"></a>Estados do ciclo de vida de locais funcionais
+# <a name="functional-location-lifecycle-states"></a>Estados de ciclo de vida do local funcional
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Este tópico descreve como configurar estados de ciclo de vida de local funcional e modelos de ciclo de vida em Gerenciamento de Ativos. Os estados de ciclo de vida de local funcional definem os estados pelos quais um local funcional pode passar; por exemplo, criado, ativo e concluído. Você pode exibir todos os locais funcionais, independentemente do estado do ciclo de vida, na página de lista **Todos os locais funcionais**. Você pode alterar o estado de um local funcional selecionando-o na página **Todos os locais funcionais** e selecionando **Atualizar o estado do local funcional**.
+Este artigo descreve como configurar estados de ciclo de vida de local funcional e modelos de ciclo de vida em Gerenciamento de Ativos. Os estados de ciclo de vida de local funcional definem os estados pelos quais um local funcional pode passar; por exemplo, criado, ativo e concluído. Você pode exibir todos os locais funcionais, independentemente do estado do ciclo de vida, na página de lista **Todos os locais funcionais**. Você pode alterar o estado de um local funcional selecionando-o na página **Todos os locais funcionais** e selecionando **Atualizar o estado do local funcional**.
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>Configurar estados de ciclo de vida do local funcional
 
@@ -39,6 +39,7 @@ Este tópico descreve como configurar estados de ciclo de vida de local funciona
 5. Selecione "Sim" no botão de alternância **Criar ativos** se for possível criar automaticamente um ativo com o mesmo nome do local funcional e instalá-lo no local funcional nesse estado.  
 >[!NOTE]
 >Este botão de alternância está relacionado ao campo **Tipo de ativo** na Guia Rápida **Geral** no formulário **Tipos de locais funcionais** (**Gerenciamento de ativos** > **Configuração** > **Locais funcionais** > **Tipos de locais funcionais**).
+
 6. Selecione "Sim" no botão de alternância **Renomear local** se for possível alterar o nome do local funcional nesse estado.
 7. Selecione "Sim" no botão de alternância **Novos sublocais** se for possível adicionar novos sublocais ao local funcional nesse estado.
 8. Selecione "Sim" no botão de alternância **Instalar ativos** se for possível instalar ativos no local funcional nesse estado.

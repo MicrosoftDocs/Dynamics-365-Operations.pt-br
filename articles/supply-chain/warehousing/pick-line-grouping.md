@@ -1,6 +1,6 @@
 ---
 title: Agrupamento de linhas de separação
-description: Este tópico oferece uma visão geral de agrupamento de linhas de separação.
+description: Este artigo oferece uma visão geral de agrupamento de linhas de separação.
 author: Mirzaab
 ms.date: 12/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9e6cbf0f520f0f30c01cefba03689e9c119f2cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890615"
 ---
 # <a name="pick-line-grouping"></a>Agrupamento de linhas de separação
 
@@ -116,7 +116,7 @@ Antes de configurar o agrupamento de linhas de separação, você deve criar alg
     - **Item M9201:** *3* cada
     - **Item M9202:** *9* cada
 
-1. Antes de liberar as ordens para o depósito, você deve verificar se os locais de separação têm estoque suficiente para todos os itens em todas as ordens. Revise a configuração **Diretiva de localização** para determinar quais locais de separação são usadas para separação da ordem de venda. Se você estiver usando o ambiente de dados de demonstração da Contoso para o depósito *51*, confirme se há estoque disponível.
+1. Antes de liberar as ordens para o depósito, você deve verificar se os locais de separação têm estoque suficiente para todos os itens em todas as ordens. Revise a configuração **Diretiva de localização** para determinar quais locais de separação são usadas para separação da ordem de venda. Se estiver usando o ambiente de dados de demonstração da Contoso para o depósito *51*, confirme se há estoque disponível.
 
     Agora reserve o estoque para cada linha.
 

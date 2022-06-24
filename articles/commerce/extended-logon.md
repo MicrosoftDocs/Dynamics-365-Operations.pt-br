@@ -1,6 +1,6 @@
 ---
 title: Configurar e usar o recurso de logon estendido
-description: Este tópico descreve como configurar e usar o recurso de logon estendido do aplicativo de ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como configurar e usar o recurso de logon estendido do aplicativo de ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
 author: boycez
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
-ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
+ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8491430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884302"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>Configurar e usar o recurso de logon estendido
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como configurar e usar o recurso de logon estendido do aplicativo de ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
+Este artigo descreve como configurar e usar o recurso de logon estendido do aplicativo de ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
 
 O Cloud POS (CPOS) e o Modern POS (MPOS) fornecem um recurso de logon estendido que permite que os funcionários da loja de varejo entrem no aplicativo POS digitalizando um código de barras ou passando um cartão usando um leitor de tarja magnética (MSR).
 

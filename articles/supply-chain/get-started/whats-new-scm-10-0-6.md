@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.6 (Novembro de 2019)
-description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.6.
+description: Este artigo descreve os recursos novos ou alterados no Dynamics 365 Supply Chain Management 10.0.6.
 author: kamaybac
 ms.date: 10/28/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 87bcda25b89135e052a5a883b816ea0bb430479a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8c97e4e5544c49d2e6a13b34061abfbf50e2932a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844428"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.6 (Novembro de 2019)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.6. Esta versão tem um número de compilação de 10.0.234. Embora a data de disponibilidade geral seja em novembro, os novos recursos estão disponíveis para o lançamento antecipado em outubro. Para obter mais informações sobre a versão 10.0.6, consulte [Recursos adicionais](whats-new-scm-10-0-6.md#additional-resources).
+Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.6. Esta versão tem um número de compilação de 10.0.234. Embora a data de disponibilidade geral seja em novembro, os novos recursos estão disponíveis para o lançamento antecipado em outubro. Para obter mais informações sobre a versão 10.0.6, consulte [Recursos adicionais](whats-new-scm-10-0-6.md#additional-resources).
 
 ## <a name="product-configuration-models-v2-data-entity"></a>Entidade de dados V2 de modelos de configuração de produto
 
@@ -60,12 +60,12 @@ Confira o [Dynamics 365: plano do ciclo de lançamentos 2 de 2019](/dynamics365-
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 
-O tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
+O artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
 
-Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
+Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
 
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
 

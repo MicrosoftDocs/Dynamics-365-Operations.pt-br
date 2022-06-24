@@ -1,6 +1,6 @@
 ---
 title: BOMs de Ativos
-description: Este tópico descreve listas de materiais (BOMs) de ativos no Asset Management.
+description: Este artigo descreve listas de materiais (BOMs) de ativos no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882769"
 ---
 # <a name="asset-boms"></a>BOMs de Ativos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751976"
 
  
 
-Este tópico descreve listas de materiais (BOMs) de ativos no Asset Management. A **BOM de ativos** mostra uma lista de todos os itens (partes sobressalentes e outros itens) usados em um ativo durante toda sua vida útil. Quando você criar um novo ativo, considere a configuração de uma BOM de ativos como parte do procedimento de instalação. Assim, você pode controlar o histórico de itens do ativo desde a data de criação.
+Este artigo descreve listas de materiais (BOMs) de ativos no Gerenciamento de Ativos. A **BOM de ativos** mostra uma lista de todos os itens (partes sobressalentes e outros itens) usados em um ativo durante toda sua vida útil. Quando você criar um novo ativo, considere a configuração de uma BOM de ativos como parte do procedimento de instalação. Assim, você pode controlar o histórico de itens do ativo desde a data de criação.
 
 Depois de concluir um trabalho de manutenção, e depois que o consumo de item tiver sido registrado em uma ordem de serviço, você poderá acompanhar o consumo de peças sobressalentes e de outros itens usados no ativo. Essa funcionalidade permite manter um registro completo de consumo de itens para todos os ativos. Por exemplo, você pode usar o registro para monitorar se uma peça sobressalente específica é substituída com frequência, ou para controlar as partes sobressalentes ou outros itens usados no momento em um ativo.
 

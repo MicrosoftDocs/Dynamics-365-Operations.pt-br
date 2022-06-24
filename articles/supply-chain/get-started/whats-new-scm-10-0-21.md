@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.21 (outubro de 2021)
-description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.21.
+description: Este artigo descreve os recursos novos ou alterados no Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 10/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: a78b4c37bfca9fedbd46cd8a16b47bd4444fbfee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8739377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849522"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.21 (outubro de 2021)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.21. Esta versão tem um número de compilação de 10.0.960 e está disponível da seguinte maneira:
+Este artigo lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.21. Esta versão tem um número de compilação de 10.0.960 e está disponível da seguinte maneira:
 
 - **Versão preliminar de teste:** agosto de 2021
 - **Disponibilidade geral da versão (atualização automática):** setembro de 2021
@@ -119,9 +119,9 @@ A tabela a seguir lista os recursos ativados por padrão na versão 10.0.21. A m
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 
-Recentemente, adicionamos ou atualizamos significativamente os seguintes tópicos de ajuda. Eles não estão necessariamente relacionados aos novos recursos adicionados para esta versão, conforme listado na seção anterior, mas podem ajudar você a obter mais dos recursos existentes.
+Recentemente, adicionamos ou atualizamos significativamente os seguintes artigos de ajuda: Eles não estão necessariamente relacionados aos novos recursos adicionados para esta versão, conforme listado na seção anterior, mas podem ajudar você a obter mais dos recursos existentes.
 
-| Área de recursos | Tópicos novos ou atualizados |
+| Área de recursos | Artigos novos ou atualizados |
 |---|---|
 | Planejamento Mestre | [Previsões de estoque](../master-planning/inventory-forecast.md) |
 | Planejamento Mestre | [Parâmetros não usados pela Otimização de Planejamento](../master-planning/planning-optimization/not-used-parameters.md) |
@@ -153,12 +153,12 @@ Confira [Dynamics 365 e nuvens do setor: plano 2 do ciclo de lançamentos de 202
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 
-O tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
+O artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
 
-Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
+Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
 
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
 
