@@ -1,6 +1,6 @@
 ---
 title: Mapear armazenamentos e equipes, se houver equipes pré-existentes no Microsoft Teams
-description: Este tópico aborda como mapear armazenamentos e equipes correspondentes no Dynamics 365 Commerce headquarters, se a sua organização já tiver criado equipes no Microsoft Teams antes da integração do Commerce.
+description: Este artigo aborda como mapear armazenamentos e equipes correspondentes no Dynamics 365 Commerce headquarters, se a sua organização já tiver criado equipes no Microsoft Teams antes da integração do Commerce.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aafeaa1da3c3dab5d76a6bfcee06db34a6afba91
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cb18affd0df59dc986602a684a3fe3d418644fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902728"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Mapear armazenamentos e equipes, se houver equipes pré-existentes no Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-Este tópico aborda como mapear armazenamentos e equipes correspondentes no Dynamics 365 Commerce headquarters, se a sua organização já tiver criado equipes no Microsoft Teams antes da integração do Commerce.
+Este artigo aborda como mapear armazenamentos e equipes correspondentes no Dynamics 365 Commerce headquarters, se a sua organização já tiver criado equipes no Microsoft Teams antes da integração do Commerce.
 
 Sua organização pode ter equipes criadas para alguns ou todos os armazenamentos antes da integração do Dynamics 365 Commerce e do Microsoft Teams. Se esse for o caso, para estabelecer a sincronização de tarefas entre o Commerce POS e Microsoft Teams você deve fornecer o mapeamento de armazenamentos e a equipe correspondente no Commerce headquarters.
 
-## <a name="map-stores-and-corresponding-teams-in-commerce-headquarters"></a>Mapear armazenamentos e equipes correspondentes no Commerce Headquarters 
+## <a name="map-stores-and-corresponding-teams-in-commerce-headquarters"></a>Mapear armazenamentos e equipes correspondentes no Commerce headquarters 
 
-Para mapear armazenamentos e equipes correspondentes no Commerce Headquarters, siga estas etapas.
+Para mapear armazenamentos e equipes correspondentes no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Administração de Sistema \> Espaço de trabalho \> Gerenciamento de dados**.
 1. Selecione **Exportar**. 

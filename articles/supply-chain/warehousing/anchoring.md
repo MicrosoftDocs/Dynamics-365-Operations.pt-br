@@ -1,6 +1,6 @@
 ---
 title: Ancoragem
-description: Este tópico explica como habilitar e usar a ancoragem.
+description: Este artigo explica como habilitar e usar a ancoragem.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903801"
 ---
 # <a name="anchoring"></a>Ancoragem
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece detalhes sobre o processo de ancoragem. Ele descreve a configuração necessária e a lógica executada quando um trabalhador de depósito altera o local de preparo ou o local de carregamento.
+Este artigo fornece detalhes sobre o processo de ancoragem. Ele descreve a configuração necessária e a lógica executada quando um trabalhador de depósito altera o local de preparo ou o local de carregamento.
 
 O recurso de ancoragem permite substituir o local de preparo ou de carregamento. Todas as colocações abertas serão direcionadas para o novo local de preparo ou de carregamento que você especificar.
 
@@ -36,11 +36,11 @@ Você configura a ancoragem para itens de menu de dispositivo móvel usando a op
 > [!IMPORTANT]
 > O local para aberturas subsequentes serão alteradas somente nas linhas de trabalho geradas a partir da mesma linha de modelo de trabalho. Em outras palavras, o sistema irá ancorar as linhas de colocação originadas na mesma linha de modelo de trabalho.
 
-Este tópico fornece um cenário que mostra como a ancoragem funciona. Durante o cenário, você criará um conjunto de ordens de venda e as liberará para o depósito. Em seguida, você substituirá o local de preparo sugerido e verificará se todo o trabalho de armazenamento restante foi direcionado para o novo local.
+Este artigo fornece um cenário que mostra como a ancoragem funciona. Durante o cenário, você criará um conjunto de ordens de venda e as liberará para o depósito. Em seguida, você substituirá o local de preparo sugerido e verificará se todo o trabalho de armazenamento restante foi direcionado para o novo local.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Pré-requisitos do cenário: disponibilizar dados de demonstração
 
-O cenário neste tópico faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como *USMF* antes de começar.
+O cenário neste artigo faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como *USMF* antes de começar.
 
 ## <a name="scenario-setup"></a>Configuração de cenário
 

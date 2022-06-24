@@ -1,6 +1,6 @@
 ---
 title: Criar contratos de serviço
-description: Este tópico descreve como usar os recursos em Gerenciamento de serviços e os módulos de Gerenciamento e contabilidade de projetos para criar contratos de serviço.
+description: Este artigo descreve como usar os recursos em Gerenciamento de serviços e os módulos de Gerenciamento e contabilidade de projetos para criar contratos de serviço.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901753"
 ---
 # <a name="create-service-agreements"></a>Criar contratos de serviço
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como usar os recursos em Gerenciamento de serviços e os módulos de Gerenciamento e contabilidade de projetos para criar contratos de serviço.
+Este artigo descreve como usar os recursos em Gerenciamento de serviços e os módulos de Gerenciamento e contabilidade de projetos para criar contratos de serviço.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Criar um contrato de serviço em Gerenciamento de serviços
 
@@ -51,10 +51,10 @@ Este tópico descreve como usar os recursos em Gerenciamento de serviços e os m
 2. Selecione **Todos os projetos**.
 3. Selecione o projeto na lista.
 4. No **Painel de Ações**, selecione **Gerenciar**. No grupo de ação **Novo**, selecione **Serviço** e **Contrato de serviço**.
-5. Siga as etapas na seção intitulada **Crie um contrato de serviço** como descrito anteriormente neste tópico para entrar nas referências de projeto.
+5. Siga as etapas na seção intitulada **Criar um contrato de serviço** como descrito anteriormente neste artigo para entrar nas referências de projeto.
 
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Visão geral de desenvolvimento e estabelecimento de contratos de serviço](service-agreements.md)
 

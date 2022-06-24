@@ -1,6 +1,6 @@
 ---
 title: Ativos de vários níveis
-description: Este tópico explica como criar e excluir ativos de vários níveis.
+description: Este artigo explica como criar e excluir ativos de vários níveis.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908762"
 ---
 # <a name="multi-level-assets"></a>Ativos de vários níveis
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769602"
 
  
 
-Este tópico explica como criar e excluir ativos de vários níveis. É possível criar ativos e subativos relacionados em uma estrutura de árvore hierárquica. Dessa forma, você pode mostrar as relações e dependências entre os ativos. Os trabalhos de manutenção podem ser relacionados a todos os níveis da estrutura de árvore. Também é possível criar estatísticas para um nível individual ou como uma soma de todos os níveis do ativo.
+Este artigo explica como criar e excluir ativos de vários níveis. É possível criar ativos e subativos relacionados em uma estrutura de árvore hierárquica. Dessa forma, você pode mostrar as relações e dependências entre os ativos. Os trabalhos de manutenção podem ser relacionados a todos os níveis da estrutura de árvore. Também é possível criar estatísticas para um nível individual ou como uma soma de todos os níveis do ativo.
 
 Na página da lista **Todos os ativos** (**Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos**), a coluna **Ativo** lista os ativos em ordem hierárquica. A coluna **Responsável** mostra o responsável relacionado. Além disso, se os ativos e subativos já tiverem sido criados, a seção **Árvore de ativos** no painel **Informações relacionadas** mostrará os ativos em uma estrutura de árvore.
 

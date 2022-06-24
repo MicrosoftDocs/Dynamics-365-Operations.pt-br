@@ -1,6 +1,6 @@
 ---
 title: Gerar um plano restrito
-description: Este tópico explica como criar um plano que leve em consideração restrições de materiais e de capacidade.
+description: Este artigo explica como criar um plano que leve em consideração restrições de materiais e de capacidade.
 author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8372f4e35b34ff66ef55c0961b867a1aff7a5e6
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 65884d556724cd6132fe328e95a5bec78885c174
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904004"
 ---
 # <a name="generate-a-constrained-plan"></a>Gerar um plano restrito
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como criar um plano que leve em consideração restrições de materiais e de capacidade. O plano garante que a fabricação não seja iniciada antes dos materiais estarem disponíveis e os recursos e não estarem reservados. 
+Este artigo explica como criar um plano que leve em consideração restrições de materiais e de capacidade. O plano garante que a fabricação não seja iniciada antes dos materiais estarem disponíveis e os recursos e não estarem reservados. 
 
 A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento é criado para o planejador de produção.
 

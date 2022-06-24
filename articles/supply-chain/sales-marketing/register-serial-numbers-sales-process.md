@@ -1,6 +1,6 @@
 ---
-title: Como trabalhar com itens serializados
-description: Este tópico explica como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.
+title: Trabalhar com itens serializados
+description: Este artigo explica como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.
 author: Henrikan
 ms.date: 10/31/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89e9ab547d13e68ead88d76f9922d14fde4beb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901840"
 ---
-# <a name="working-with-serialized-items"></a>Como trabalhar com itens serializados
+# <a name="working-with-serialized-items"></a>Trabalhar com itens serializados
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.
+Este artigo explica como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.
 
 Muitas empresas desejam apenas capturar números de série para fins de serviço e de garantia, e não precisam manter os números de série no estoque do recebimento até a saída. Nessas situações, é possível registrar os números de série nas guias de remessa ou nas faturas quando o produto for vendido. Se os produtos forem devolvidos, você poderá rastrear um produto até uma fatura para determinar se vendeu o produto e se as obrigações de serviço ou de garantia estão válidas.
 

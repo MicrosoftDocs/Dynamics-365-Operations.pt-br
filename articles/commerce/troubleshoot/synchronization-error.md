@@ -1,6 +1,6 @@
 ---
 title: Erro de sincronização da ordem relacionado ao serviço de pagamento padrão
-description: Este tópico fornece orientações de solução de problemas que podem ajudar a corrigir um erro que pode ocorrer quando uma ordem online é sincronizada.
+description: Este artigo fornece orientações de solução de problemas que podem ajudar a corrigir um erro que pode ocorrer quando uma ordem online é sincronizada.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6f8e0ea7675ffc5cbada36207422b410234e33afcaec90636e90e573a90ac484
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49d16c39fdcee0a22d1cabe14cd9b6d124d6f04d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715227"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901667"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Erro de sincronização da ordem relacionado ao serviço de pagamento padrão
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece orientações de solução de problemas que podem ajudar a corrigir um erro que pode ocorrer quando uma ordem online é sincronizada.
+Este artigo fornece orientações de solução de problemas que podem ajudar a corrigir um erro que pode ocorrer quando uma ordem online é sincronizada.
 
 ## <a name="description"></a>descrição
 
@@ -36,9 +36,9 @@ Ao sincronizar uma ordem online, você recebe a seguinte mensagem de erro: "deve
 
 ## <a name="resolution"></a>Resolução
 
-### <a name="confirm-or-set-the-default-payment-service-in-commerce-headquarters"></a>Confirmar ou definir o serviço de pagamento padrão na matriz do Commerce
+### <a name="confirm-or-set-the-default-payment-service-in-commerce-headquarters"></a>Confirmar ou definir o serviço de pagamento padrão no Commerce headquarters
 
-Para confirmar ou definir o serviço de pagamento padrão na matriz do Commerce, siga estas etapas.
+Para confirmar ou definir o serviço de pagamento padrão no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Contas a receber \> Configuração de pagamento \> Serviços de pagamento**.
 1. Verifique se a opção **Processador padrão para novos cartões de crédito** está definida como **Sim** para um serviço de pagamento.

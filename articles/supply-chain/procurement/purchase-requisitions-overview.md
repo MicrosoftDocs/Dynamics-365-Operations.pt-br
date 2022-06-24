@@ -1,6 +1,6 @@
 ---
 title: Visualização geral da requisição de compra
-description: Este tópico descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
+description: Este artigo descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6524229800233d1bfdf54a11afc122990eed9d3
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a7430e18779dc2c37f74e6d25c95836f4fbc435d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905737"
 ---
 # <a name="purchase-requisition-overview"></a>Visualização geral da requisição de compra
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
+Este artigo descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
 
 Dependendo da configuração da sua organização, você poderá criar requisições de compra para os produtos consumidos pela organização. Uma requisição de compra é um documento interno que autoriza o departamento de Compras a comprar produtos.  
 

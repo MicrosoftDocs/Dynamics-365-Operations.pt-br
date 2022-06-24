@@ -1,6 +1,6 @@
 ---
 title: Remessa da versão automática para a distribuição integrada
-description: Este tópico descreve uma estratégia de distribuição integrada que permite liberar automaticamente uma ordem de demanda para o depósito quando a ordem de produção que fornece a quantidade de demanda é relatado como concluído, para que a quantidade seja movido diretamente do local de saída de produção local de saída.
+description: Este artigo descreve uma estratégia de distribuição integrada que permite liberar automaticamente uma ordem de demanda para o depósito quando a ordem de produção que fornece a quantidade de demanda é relatado como concluído, para que a quantidade seja movida diretamente do local de saída de produção local de saída.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903772"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Remessa da versão automática para a distribuição integrada
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve uma estratégia de distribuição integrada que permite liberar automaticamente uma ordem de demanda para o depósito quando a ordem de produção que fornece a quantidade de demanda é relatado como concluído. Dessa forma, a quantidade necessária para o preenchimento da ordem de demanda é movida diretamente do local de saída de produção local de saída.
+Este artigo descreve uma estratégia de distribuição integrada que permite liberar automaticamente uma ordem de demanda para o depósito quando a ordem de produção que fornece a quantidade de demanda é relatada como concluído. Dessa forma, a quantidade necessária para o preenchimento da ordem de demanda é movida diretamente do local de saída de produção local de saída.
 
 A distribuição integrada é um fluxo de manuseio de depósito na quantidade necessária para preencher uma ordem de saída seja direcionada para a doca de saída ou área de remessa de ordem do local onde a ordem de entrada foi recebida. A ordem de entrada pode ser uma ordem de compra, ordem de transferência ou ordem de produção. Considerando que o recurso Distribuição integrada avançada dá suporte a todas as ordens de fornecimento e demanda, e que exige que a demanda de saída seja liberada antes de a oportunidade de distribuição integrada ser identificada, o recurso Remessa de liberação automática tem estas características:
 

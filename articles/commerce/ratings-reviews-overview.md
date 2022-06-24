@@ -1,6 +1,6 @@
 ---
 title: Visão geral de classificações e opiniões
-description: Este tópico abrange classificações e opiniões no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange classificações e opiniões no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/01/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9fff5100dd1bebdd19fb7306980e98ca84027acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898901"
 ---
 # <a name="ratings-and-reviews-overview"></a>Visão geral de classificações e opiniões
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange classificações e opiniões no Microsoft Dynamics 365 Commerce.
+Este artigo abrange classificações e opiniões no Microsoft Dynamics 365 Commerce.
 
 As classificações e opiniões são importantes para clientes de comércio eletrônico que querem saber como os outros clientes identificam um produto. Elas também podem auxiliar na decisões de compra dos consumidores. No Dynamics 365 Commerce, a solução de classificações e opiniões permite que os varejistas capturem dos clientes as classificações e as opiniões sobre o produto. Os varejistas podem mostrar a média das classificações e revisar informações no site de comércio eletrônico.
 

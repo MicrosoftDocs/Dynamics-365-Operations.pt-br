@@ -1,6 +1,6 @@
 ---
 title: Criar modelos de email para eventos transacionais
-description: Este tópico descreve como criar, carregar e configurar modelos de email para eventos transacionais no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como criar, carregar e configurar modelos de email para eventos transacionais no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910541"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Criar modelos de email para eventos transacionais
 
 [!include [banner](includes/banner.md)]
 
 
-Este tópico descreve como criar, carregar e configurar modelos de email para eventos transacionais no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como criar, carregar e configurar modelos de email para eventos transacionais no Microsoft Dynamics 365 Commerce.
 
-O Dynamics 365 Commerce fornece uma solução pronta para o envio de emails que alertam clientes sobre eventos transacionais. Por exemplo, os emails podem ser enviados quando uma ordem é feita, quando está pronta para retirada ou quando for enviada. Este tópico descreve as etapas para criar, carregar e configurar os modelos de email usados para enviar emails transacionais.
+O Dynamics 365 Commerce fornece uma solução pronta para o envio de emails que alertam clientes sobre eventos transacionais. Por exemplo, os emails podem ser enviados quando uma ordem é feita, quando está pronta para retirada ou quando for enviada. Este artigo descreve as etapas para criar, carregar e configurar os modelos de email usados para enviar emails transacionais.
 
 ## <a name="notification-types"></a>Tipos de notificação
 
@@ -38,25 +38,25 @@ O Dynamics 365 Commerce oferece suporte aos seguintes tipos de notificação:
 
 ### <a name="order-created"></a>Ordem criada
 
-O tipo de notificação *ordem criada* é disparado quando uma nova ordem de venda é criada na matriz do Commerce.
+O tipo de notificação *ordem criada* é disparado quando uma nova ordem de venda é criada no Commerce headquarters.
 
 > [!NOTE]
 > O tipo de notificação de ordem criada não é disparado para transações cash and carry que ocorrem em um terminal de ponto de venda (PDV). Nesse caso, um recibo enviado por email e/ou impresso é gerado. Para obter mais informações, consulte [Enviar recibos por email no Modern POS (MPOS)](email-receipts.md).
 
 ### <a name="order-confirmed"></a>Ordem confirmada
 
-O tipo de notificação *ordem confirmada* é disparado quando um documento de confirmação da ordem é gerado para uma ordem de venda na matriz do Commerce.
+O tipo de notificação *ordem confirmada* é disparado quando um documento de confirmação da ordem é gerado para uma ordem de venda no Commerce headquarters.
 
 ### <a name="picking-completed"></a>Separação concluída
 
-O tipo de notificação *separação concluída* é disparado quando uma lista de separação de uma ordem é marcada como concluída na matriz do Commerce.
+O tipo de notificação *separação concluída* é disparado quando uma lista de separação de uma ordem é marcada como concluída no Commerce headquarters.
 
 > [!NOTE]
 > O tipo de notificação de separação concluída não é disparado quando um item é marcado como separado em um terminal de PDV.
 
 ### <a name="packing-completed"></a>Remessa concluída
 
-O tipo de notificação *remessa concluída* é disparado quando uma guia de remessa de uma ordem é marcada como concluída na matriz do Commerce em um terminal de PDV.
+O tipo de notificação *remessa concluída* é disparado quando uma guia de remessa de uma ordem é marcada como concluída no Commerce headquarters em um terminal de PDV.
 
 O tipo de notificação de remessa concluída oferece suporte aos espaços reservados para email adicionais a seguir para facilitar a "ordem pronta para retirada" e a funcionalidade de pesquisa de ordens de emails transacionais.
 
@@ -88,14 +88,14 @@ O tipo de notificação *ordem enviada* é disparado quando uma ordem com um mod
 
 ### <a name="order-invoiced"></a>Ordem faturada
 
-O tipo de notificação *ordem faturada* é disparado quando uma ordem é faturada no PDV ou na matriz do Commerce.
+O tipo de notificação *ordem faturada* é disparado quando uma ordem é faturada no PDV ou no Commerce headquarters.
 
 ### <a name="issue-gift-card"></a>Emitir cartão-presente
 
 O tipo de notificação *emitir cartão-presente* é disparado quando uma ordem de venda que contém um produto do tipo de cartão-presente é faturada.
 
 > [!NOTE]
-> O email de notificação de emissão de cartão-presente é enviado ao destinatário do cartão-presente. O destinatário do cartão-presente é especificado na matriz do Commerce, em uma linha da ordem de venda individual na guia **Remessa** em **Detalhes da linha**. Ele pode ser especificado manualmente ou de forma programática.
+> O email de notificação de emissão de cartão-presente é enviado ao destinatário do cartão-presente. O destinatário do cartão-presente é especificado no Commerce headquarters, em uma linha da ordem de venda individual na guia **Remessa** em **Detalhes da linha**. Ele pode ser especificado manualmente ou de forma programática.
 
 O tipo de notificação de emissão de cartão-presente oferece suporte aos seguintes espaços reservados adicionais:
 
@@ -113,15 +113,15 @@ Para obter mais informações sobre vales-presentes, consulte [Vales-presente di
 
 ### <a name="order-cancellation"></a>Cancelamento da ordem
 
-O tipo de notificação *cancelamento da ordem* é disparado quando uma ordem é cancelada na matriz do Commerce.
+O tipo de notificação *cancelamento da ordem* é disparado quando uma ordem é cancelada no Commerce headquarters.
 
 ### <a name="customer-created"></a>Cliente criado
 
-O tipo de notificação *cliente criado* é disparado quando uma entidade de cliente é criada na matriz do Commerce.
+O tipo de notificação *cliente criado* é disparado quando uma entidade de cliente é criada no Commerce headquarters.
 
 ### <a name="b2b-prospect-approved"></a>Cliente potencial B2B aprovado
 
-O tipo de notificação *cliente potencial B2B aprovado* é disparado quando uma solicitação de integração de um cliente potencial é aprovada na matriz do Commerce. Para obter mais informações sobre como aprovar ou rejeitar clientes potenciais B2B, consulte [Configurar o usuário administrador para um novo parceiro comercial](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
+O tipo de notificação *cliente potencial B2B aprovado* é disparado quando uma solicitação de integração de um cliente potencial é aprovada no Commerce headquarters. Para obter mais informações sobre como aprovar ou rejeitar clientes potenciais B2B, consulte [Configurar o usuário administrador para um novo parceiro comercial](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
 
 O tipo de notificação de aprovação de cliente potencial B2B oferece suporte aos seguintes espaços reservados adicionais:
 
@@ -138,7 +138,7 @@ O tipo de notificação de aprovação de cliente potencial B2B oferece suporte 
 
 ### <a name="b2b-prospect-rejected"></a>Cliente potencial B2B rejeitado
 
-O tipo de notificação *cliente potencial B2B rejeitado* é disparado quando uma solicitação de integração de um cliente potencial é rejeitada na matriz do Commerce. Para obter mais informações sobre como aprovar ou rejeitar clientes potenciais B2B, consulte [Configurar o usuário administrador para um novo parceiro comercial](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
+O tipo de notificação *cliente potencial B2B rejeitado* é disparado quando uma solicitação de integração de um cliente potencial é rejeitada no Commerce headquarters. Para obter mais informações sobre como aprovar ou rejeitar clientes potenciais B2B, consulte [Configurar o usuário administrador para um novo parceiro comercial](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
 
 O tipo de notificação de rejeição de cliente potencial B2B oferece suporte aos seguintes espaços reservados adicionais:
 
@@ -154,7 +154,7 @@ Para poder mapear um evento transacional específico para um modelo de email, vo
 
 Para criar um modelo de email, siga estas etapas.
 
-1. No Commerce Headquarters, acesse **Varejo e Comércio \> Configuração do Headquarters \> Modelos de email da organização** ou **Administração da organização \> Configuração \> Modelos de email da organização**.
+1. No Commerce headquarters, acesse **Varejo e Comércio \> Configuração do headquarters \> Modelos de email da organização** ou **Administração da organização \> Configuração \> Modelos de email da organização**.
 1. Selecione **Novo**.
 1. Em **Geral**, defina os seguintes campos:
 
@@ -306,7 +306,7 @@ Depois de criar e testar o HTML para o corpo da mensagem, ele deverá ser carreg
 
 Para carregar um HTML de modelo de email novo ou editado, siga estas etapas.
 
-1. Em Commerce Headquarters, Acesse **Varejo e Comércio \> Configuração da sede \> Modelos de email da organização**.
+1. Em Commerce headquarters, acesse **Varejo e Comércio \> Configuração do headquarters \> Modelos de email da organização**.
 1. Selecione a linha do idioma para o qual você deseja adicionar ou substituir o HTML. Outra opção é selecionar **Novo** para criar uma linha para um novo idioma.
 1. Selecione **Editar**.
 1. Na caixa de diálogo exibida, selecione **Navegar**. Navegue até o documento HTML a ser carregado, selecione-o e, depois, selecione **Abrir**.

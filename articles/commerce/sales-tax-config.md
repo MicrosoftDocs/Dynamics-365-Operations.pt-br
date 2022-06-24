@@ -1,6 +1,6 @@
 ---
 title: Configurar o imposto para ordens online
-description: Este tópico fornece uma visão geral da seleção do grupo de impostos para diferentes tipos de ordens online no Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral da seleção do grupo de impostos para diferentes tipos de ordens online no Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 5801bbfb5b5850cb4c9ae06140bff5adca9b368febdc06d69c538fc49f9ee40a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac9fefe68663d76b3461d3209530976f66b113ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906877"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Configurar o imposto para ordens online
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral da seleção de grupos de impostos para diferentes tipos de pedidos online usando configurações de imposto baseadas em destino ou em conta de cliente. 
+Este artigo fornece uma visão geral da seleção de grupos de impostos para diferentes tipos de pedidos online usando configurações de imposto baseadas em destino ou em conta de cliente. 
 
 Seu canal de comércio eletrônico pode oferecer suporte a opções como entrega ou retirada para pedidos online. A aplicabilidade do imposto é baseada na opção selecionada por seus clientes online. 
 
@@ -44,7 +44,7 @@ Para linhas de pedidos com retirada na loja ou retirada em frente à loja especi
 
 ## <a name="customer-account-based-taxes-for-online-orders"></a>Impostos baseados na conta de cliente para pedidos online
 
-Pode haver um cenário comercial no qual você deseja definir um grupo de impostos sobre uma conta de cliente específica na matriz do Commerce. Há dois locais na matriz nos quais é possível definir o imposto sobre uma conta de cliente. Para acessá-los, primeiro é necessário acessar uma página de informações do cliente em **Varejo e comércio \> Clientes \> Todos os clientes** e selecionando um cliente.
+Pode haver um cenário comercial no qual você deseja definir um grupo de impostos sobre uma conta de cliente específica no Commerce headquarters. Há dois locais no headquarters nos quais é possível definir o imposto sobre uma conta de cliente. Para acessá-los, primeiro é necessário acessar uma página de informações do cliente em **Varejo e comércio \> Clientes \> Todos os clientes** e selecionando um cliente.
 
 Os dois locais nos quais é possível definir o imposto sobre uma conta de cliente são:
 
@@ -58,7 +58,7 @@ Os dois locais nos quais é possível definir o imposto sobre uma conta de clien
 
 A tabela abaixo explica se os impostos baseados no destino ou os impostos baseados na conta do cliente são aplicados para pedidos online. 
 
-| Tipo de cliente | Endereço de entrega                   | Cliente > Fatura e a entrega > Grupo de impostos? | Endereço da conta do cliente na matriz? | Endereço do cliente > Avançado > Geral > Grupo de impostos?                                              | Grupo de impostos aplicado      |
+| Tipo de cliente | Endereço de entrega                   | Cliente > Fatura e a entrega > Grupo de impostos? | Endereço da conta do cliente no headquarters? | Endereço do cliente > Avançado > Geral > Grupo de impostos?                                              | Grupo de impostos aplicado      |
 |---------------|------------------------------------|-----------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------|
 | Convidado         | Manhattan, NY                      | Não (em branco)                                                | Não (em branco)                              | Não (em branco)                                                                                                   | NY (impostos baseados em destino) |
 | Conectado     | Austin, TX                          | Não (em branco)                                             | Sim                               | Nenhuma<br/><br/>Novo endereço adicionado pelo canal online.                                                            | TX (impostos baseados em destino) |

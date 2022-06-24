@@ -1,6 +1,6 @@
 ---
-title: Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito
-description: Este tópico explica como configurar o aplicativo móvel Gerenciamento de Depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
+title: Recebimento da placa de licença pelo aplicativo móvel Warehouse Management
+description: Este artigo explica como configurar o aplicativo móvel Warehouse Management para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906990"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recebimento da placa de licença pelo aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o aplicativo móvel Gerenciamento de Depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
+Este tópico explica como configurar o aplicativo móvel Warehouse Management para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
 
 Você pode usar esta funcionalidade para registrar rapidamente o recebimento de um estoque de entrada relacionado a um aviso de embarque (ASN). O sistema automaticamente cria um ASN quando os processos de gerenciamento do depósito forem usados para remeter uma ordem de transferência. Para o processo da ordem de compra, um ASN pode ser registrado manualmente ou importado automaticamente usando um processo de entidade de dados do ASN de entrada.
 

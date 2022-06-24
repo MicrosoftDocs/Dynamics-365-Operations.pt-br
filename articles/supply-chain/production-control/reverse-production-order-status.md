@@ -1,6 +1,6 @@
 ---
-title: Reverter status de ordem de produção
-description: Este tópico descreve como reverter o status da ordem de produção.
+title: Reverter o status da ordem de produção
+description: Este artigo descreve como reverter o status da ordem de produção.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903946"
 ---
-# <a name="reverse-the-production-order-status"></a>Reverter status de ordem de produção
+# <a name="reverse-the-production-order-status"></a>Reverter o status da ordem de produção
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como reverter o status da ordem de produção. 
+Este artigo descreve como reverter o status da ordem de produção. 
 
 Reverter o status de uma ordem de produção leva a própria ordem, além de todas as operações associadas aos roteiros, de volta a uma etapa anterior no ciclo de vida da produção. Por exemplo, uma ordem de produção tem um status **Agendado** e você altera o status de volta para **Criado**. Neste caso, o sistema primeiro deve alterar o status para **Estimado**, que é o status que precede imediatamente o status **Agendado**. Em seguida, ele pode alterar o status para o status desejado, **Criado**. **Observação:** Se sua ordem atingiu o status **Relatar como concluído**, você ainda pode revertê-la para um status anterior. No entanto, você deve reexecutar a previsão e o agendamento de operações, o agendamento de trabalho, ou ambos, para atualizar as informações na ordem. Esta etapa é necessária porque todas as reservas do consumo de itens restantes e do consumo de recurso das operações também devem ser redefinidas. O restante deste artigo explica o que ocorre quando você reverte o status de uma ordem de produção das seguintes maneiras:
 

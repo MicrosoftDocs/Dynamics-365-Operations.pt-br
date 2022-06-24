@@ -1,6 +1,6 @@
 ---
 title: Sincronizar classificações de produto no Dynamics 365 Commerce
-description: Este tópico descreve como sincronizar classificações do produto no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como sincronizar classificações do produto no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909326"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Sincronizar classificações de produto no Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como sincronizar classificações do produto no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como sincronizar classificações do produto no Microsoft Dynamics 365 Commerce.
 
 Para consumir classificações de produtos em omnicanais, como no ponto de venda (PDV) e em call centers, as classificações de produtos do serviço de classificações e opiniões devem ser importadas para o banco de dados do canal do Commerce. Quando as classificações de produtos são disponibilizadas nos omnicanais, elas podem ajudar os clientes indiretamente durante suas interações com os representantes de vendas.
 
-Este tópico descreve as seguintes tarefas:
+Este artigo descreve as seguintes tarefas:
 
 1. Configurar **Tarefa de sincronização de classificações de produtos** como um trabalho em lotes para sincronizar classificações de produtos do **Serviço de classificações e opiniões**.
 1. Verifique se o trabalho em lotes para sincronização da classificação do produto foi bem-sucedido.
@@ -45,14 +45,14 @@ Este tópico descreve as seguintes tarefas:
 
 Para inicializar o agendador do Commerce, siga estas etapas.
 
-1. Acesse **Retail e Commerce \> Configuração do Headquarters \> Agendador do Commerce \> Inicializar agendador do Commerce** Como alternativa, procure "Inicializar agendador do Commerce".
+1. Acesse **Retail e Commerce \> Configuração do headquarters \> Agendador do Commerce \> Inicializar agendador do Commerce** Como alternativa, procure "Inicializar agendador do Commerce".
 1. Na caixa de diálogo **Inicializar agendador do Commerce**, certifique-se de que a opção **Excluir configuração existente** esteja definida como **Não** e, em seguida, selecione **OK**.
 
 ### <a name="verify-the-retailproductrating-subjob"></a>Verifique o subtrabalho RetailProductRating
 
 Para verificar se o subtrabalho **RetailProductRating** existe, siga estas etapas.
 
-1. Acesse **Retail e Commerce \> Configuração do Headquarters \> Agendador do Commerce \> Subtrabalhos do agendador**. Como alternativa, procure por "Subtrabalhos do agendador".
+1. Acesse **Retail e Commerce \> Configuração do headquarters \> Agendador do Commerce \> Subtrabalhos do agendador**. Como alternativa, procure por "Subtrabalhos do agendador".
 1. Na lista de subtrabalhos, localize ou procure o subtrabalho **RetailProductRating** .
 
 A ilustração a seguir mostra um exemplo dos detalhes do subtrabalho no Commerce.
@@ -62,7 +62,7 @@ A ilustração a seguir mostra um exemplo dos detalhes do subtrabalho no Commerc
 > [!NOTE]
 > Se você não encontrar o subtrabalho **RetailProductRating**, talvez você já tenha executado o trabalho **Sincronizar classificações de produto** e o trabalho **1040 CDX** antes de inicializar o agendador do Commerce. Neste caso, siga estas etapas para executar o trabalho **Sincronização de dados completa**.
 
-> 1. Acesse **Retail e Commerce \> Configuração do Headquarters \> Agendador do Commerce \> Banco de dados do canal**. Como alternativa, procure por "Banco de dados do canal".
+> 1. Acesse **Retail e Commerce \> Configuração do headquarters \> Agendador do Commerce \> Banco de dados do canal**. Como alternativa, procure por "Banco de dados do canal".
 > 1. Selecione o base de dados do canal para sincronizar.
 > 1. No painel de ações, selecione **Sincronização de dados completa**.
 > 1. Na caixa de diálogo suspensa **Selecionar uma agenda de distribuição** , selecione **1040 - produtos**, e **OK**.
@@ -72,7 +72,7 @@ A ilustração a seguir mostra um exemplo dos detalhes do subtrabalho no Commerc
 
 Para importar classificações de produto no Commerce do serviço de classificações e opiniões, siga estas etapas.
 
-1. Acesse **Retail e Commerce \> Configuração do Headquarters \> Agendador do Commerce \> Sincronizar trabalho de classificações de produto**. Como alternativa, procure por "Sincronizar trabalho de classificações do produto".
+1. Acesse **Retail e Commerce \> Configuração do headquarters \> Agendador do Commerce \> Sincronizar trabalho de classificações de produto**. Como alternativa, procure por "Sincronizar trabalho de classificações do produto".
 1. Na caixa de diálogo **Obter classificações do produto**, na Guia Rápida **Executar em segundo plano**, selecione **Recorrência**.
 1. Na caixa de diálogo **Definir recorrência** , configure um padrão de recorrência. (O valor sugerido é duas horas.) Não agende uma recorrência inferior a de uma hora.
 1. Selecione **OK**.
@@ -101,7 +101,7 @@ A solução de classificações e opiniões no Dynamics 365 Commerce é uma solu
 
 Para ativar as classificações do produto no PDV, siga estas etapas.
 
-1. Acesse **Retail e Commerce \> Configuração do Headquarters \> Parâmetros \> Parâmetros do Commerce**. Como alternativa, procure "Parâmetros do Commerce".
+1. Acesse **Retail e Commerce \> Configuração do headquarters \> Parâmetros \> Parâmetros do Commerce**. Como alternativa, procure "Parâmetros do Commerce".
 1. Na guia **Configurar parâmetros** , selecione **Novo**.
 1. Insira um nome como **RatingsAndReviews.EnableProductRatingsForRetailStores** e defina o valor para **verdadeiro**.
 1. Selecione **Salvar**.

@@ -1,6 +1,6 @@
 ---
 title: Layouts de tela de dados de demonstração no Modern POS (MPOS) e no PDV em Nuvem
-description: Este tópico fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Dynamics 365 Commerce.
+description: Este artigo fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897216"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Layouts de tela de dados de demonstração no Modern POS (MPOS) e no PDV em Nuvem
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Dynamics 365 Commerce.
+Este artigo fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão geral
 
-Os layouts de tela de exemplo incluídos nos dados de demonstração do Commerce fornecem conteúdo que é otimizado para vários segmentos de varejo, funções de trabalho de lojas e dispositivos. Um único layout pode conter vários tamanhos de layout e combinações de grades de botões, para garantir a cobertura à medida que trabalhadores de lojas se movem entre estações e dispositivos. Este tópico destaca as diferenças entre os layouts, as operações oferecidas e as experiências em geral que eles propiciam.
+Os layouts de tela de exemplo incluídos nos dados de demonstração do Commerce fornecem conteúdo que é otimizado para vários segmentos de varejo, funções de trabalho de lojas e dispositivos. Um único layout pode conter vários tamanhos de layout e combinações de grades de botões, para garantir a cobertura à medida que trabalhadores de lojas se movem entre estações e dispositivos. Este artigo destaca as diferenças entre os layouts, as operações oferecidas e as experiências em geral que eles propiciam.
 
 ![Layouts de dados de demonstração entre dispositivos.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -52,8 +52,8 @@ As IDs do layout de tela podem ter no máximo 10 caracteres. A ID é uma cadeia 
 | Carta | Empresa         |
 |--------|-----------------|
 | A      | Adventure Works |
-| S      | Fabrikam        |
-| E      | Contoso         |
+| F      | Fabrikam        |
+| C      | Contoso         |
 
 ### <a name="layout-version"></a>Versão do layout
 

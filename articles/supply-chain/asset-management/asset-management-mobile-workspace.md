@@ -1,6 +1,6 @@
 ---
 title: Usar o espaço de trabalho móvel de gerenciamento de ativos
-description: Este tópico fornece informações sobre o espaço de trabalho móvel Gerenciamento de ativos.
+description: Este artigo fornece informações sobre o espaço de trabalho móvel Gerenciamento de ativos.
 author: johanhoffmann
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d7e68cbe1132547fea5c72458a93b1a449a67c86
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902130"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Usar o espaço de trabalho móvel de gerenciamento de ativos
 
 [!include [banner](../../includes/banner.md)]
 [!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Este tópico fornece informações sobre o espaço de trabalho móvel **Gerenciamento de ativos**. Este espaço de trabalho permite aos usuários visualizar e criar solicitações de manutenção e ordens de serviço. Os usuários também podem visualizar os trabalhos de ordens de serviço atribuídos em uma exibição de calendário ou de lista. Os ativos e os locais funcionais também podem ser visualizados e pesquisados.
+Este artigo fornece informações sobre o espaço de trabalho móvel **Gerenciamento de ativos**. Este espaço de trabalho permite aos usuários visualizar e criar solicitações de manutenção e ordens de serviço. Os usuários também podem visualizar os trabalhos de ordens de serviço atribuídos em uma exibição de calendário ou de lista. Os ativos e os locais funcionais também podem ser visualizados e pesquisados.
 
 ## <a name="overview"></a>Visão Geral
 

@@ -1,6 +1,6 @@
 ---
 title: Impressão de etiqueta do ciclo
-description: Este tópico descreve a impressão de etiquetas de onda e explica como configurá-la.
+description: Este artigo descreve a impressão de etiquetas de ciclo e explica como configurá-la.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901811"
 ---
 # <a name="wave-label-printing"></a>Impressão de etiqueta do ciclo
 
@@ -49,7 +49,7 @@ A impressão de etiquetas de onda oferece os seguintes aprimoramentos:
 Esses aprimoramentos tornam mais eficiente a etiquetagem de caixas antes da paletização. Eles são especialmente benéficos para empresas que enviam para grandes varejistas que automaticamente confirmam os recebimentos de ordens digitalizando cada caixa de forma separada.
 
 > [!NOTE]
-> Você pode implementar os cenários de configuração descritos neste tópico separadamente ou em combinação, dependendo dos seus requisitos comerciais. Você pode criar vários modelos de etiqueta de onda que funcionam em sequência (conforme ilustrado no cenário 3). Por exemplo, você pode usar o cenário 1 para imprimir etiquetas de caixa e o cenário 2 para imprimir etiquetas de palete (se os paletes no estoque variarem em tamanho e composição).
+> Você pode implementar os cenários de configuração descritos neste artigo separadamente ou em combinação, dependendo dos seus requisitos comerciais. Você pode criar vários modelos de etiqueta de onda que funcionam em sequência (conforme ilustrado no cenário 3). Por exemplo, você pode usar o cenário 1 para imprimir etiquetas de caixa e o cenário 2 para imprimir etiquetas de palete (se os paletes no estoque variarem em tamanho e composição).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Ativar o recurso Impressão de etiquetas de onda
 

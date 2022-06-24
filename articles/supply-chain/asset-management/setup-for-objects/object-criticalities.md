@@ -1,6 +1,6 @@
 ---
 title: Tipo de severidade do ativo
-description: O tópico explica os tipos de severidade de ativos no Asset Management.
+description: O artigo explica os tipos de severidade de ativos no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899488"
 ---
 # <a name="asset-criticality-types"></a>Tipo de severidade do ativo
 
@@ -28,7 +28,7 @@ ms.locfileid: "6776911"
 
  
 
-O tópico explica os tipos de severidade de ativos no Asset Management. A severidade de ativos está relacionada aos ativos e é transferida para as ordens de serviço. Não pode ser alterada em uma ordem de serviço. A severidade de ativos é usada para calcular a severidade da ordem de serviço durante seu agendamento. Em outras palavras, é usada para calcular até onde um trabalho de manutenção em um ativo afeta a agenda de produção e a produtividade da empresa. Para obter mais informações sobre a instalação relacionadas ao cálculo de pontuações de classificação para o agendamento da ordem de serviço, consulte [Parâmetros do Asset Management](../setup-for-objects/enterprise-asset-management-parameters.md).
+O artigo explica os tipos de severidade de ativos no Gerenciamento de Ativos. A severidade de ativos está relacionada aos ativos e é transferida para as ordens de serviço. Não pode ser alterada em uma ordem de serviço. A severidade de ativos é usada para calcular a severidade da ordem de serviço durante seu agendamento. Em outras palavras, é usada para calcular até onde um trabalho de manutenção em um ativo afeta a agenda de produção e a produtividade da empresa. Para obter mais informações sobre a instalação relacionadas ao cálculo de pontuações de classificação para o agendamento da ordem de serviço, consulte [Parâmetros do Asset Management](../setup-for-objects/enterprise-asset-management-parameters.md).
 
 Para configurar a severidade, primeiro você cria os tipos de severidade que devem ser usados na configuração do ativo. Então, você configura as severidades de ativo.
 

@@ -1,6 +1,6 @@
 ---
 title: Colaboração de fornecedores com fornecedores externos
-description: Este tópico explica como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação.
+description: Este artigo explica como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907280"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboração de fornecedores com fornecedores externos
 
 [!include [banner](../includes/banner.md)]
 
-O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 Supply Chain Management. Ele permite que os fornecedores trabalhem com ordens de compra (OCs), faturas, informações de estoque de consignação e solicitações de cotação (RFQs), e também os permitem acessar parte dos dados mestre de fornecedor. Este tópico explica como você pode colaborar com fornecedores externos que usam a interface de colaboração do fornecedor para trabalhar com OCs, RFQs e estoque de consignação. Ele também explica como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC.
+O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 Supply Chain Management. Ele permite que os fornecedores trabalhem com ordens de compra (OCs), faturas, informações de estoque de consignação e solicitações de cotação (RFQs), e também os permitem acessar parte dos dados mestre de fornecedor. Este artigo explica como você pode colaborar com fornecedores externos que usam a interface de colaboração do fornecedor para trabalhar com OCs, RFQs e estoque de consignação. Ele também explica como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC.
 
 Para saber mais sobre o que os fornecedores externos podem fazer na interface de colaboração do fornecedor, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> As informações sobre a colaboração de fornecedor neste tópico se aplicam apenas à versão atual do Supply Chain Management. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
+> As informações sobre a colaboração de fornecedor neste artigo se aplicam apenas à versão atual do Supply Chain Management. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
 
 Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
@@ -112,7 +112,7 @@ A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão ex
 <li>Substituir um item.</li>
 </ul>
 O fornecedor não pode alterar as informações sobre preços e os encargos. Entretanto, o fornecedor pode sugerir essas alterações usando notas.</td>
-<td>A resposta do fornecedor é registrada como <strong>Aceita com alterações</strong>, e o status da PO permanece <strong>Em revisão externa</strong>. Os status mostram os tipos de alterações que o fornecedor sugeriu. Para obter informações sobre o consumo automático das alterações, consulte a seção &quot;Atualizar a OC quando um fornecedor sugerir mudanças&quot; posteriormente neste tópico. </td>
+<td>A resposta do fornecedor é registrada como <strong>Aceita com alterações</strong>, e o status da PO permanece <strong>Em revisão externa</strong>. Os status mostram os tipos de alterações que o fornecedor sugeriu. Para obter informações sobre o consumo automático das alterações, consulte a seção &quot;Atualizar a OC quando um fornecedor sugerir mudanças&quot; posteriormente neste artigo. </td>
 </tr>
 </tbody>
 </table>

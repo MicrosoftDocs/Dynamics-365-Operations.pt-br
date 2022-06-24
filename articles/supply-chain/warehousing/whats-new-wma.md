@@ -1,6 +1,6 @@
 ---
-title: O que há de novo ou mudou no aplicativo móvel Warehouse Management
-description: Este tópico lista os recursos novos e alterados para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+title: Novidades ou alterações no aplicativo móvel Warehouse Management
+description: Este artigo lista os recursos novos e alterados para cada versão lançada do aplicativo móvel do Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661815"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945713"
 ---
-# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>O que há de novo ou mudou no aplicativo móvel Warehouse Management
+# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novidades ou alterações no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+Este artigo lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel do Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>Versão 2.0.24.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Páginas de scanner aperfeiçoadas para habilitar a opção de digitalização nas páginas de **Detalhes**.
+- Gestos aprimorados, como a tela tocar/encostar.
+- Problemas de desempenho aprimorados do Android.
+- Posicionamento fixo de vários cabeçalhos para permitir que mais cartões sejam exibidos na página de **Consulta**.
+- Uma rolagem aprimorada para que a paginação de rolagem seja habilitada.
+- Impressão longa adicionada para exibir texto adicional na página de **Consulta**.
+- Informações do ID do dispositivo ausentes corrigidas para Android.
+- Maior estabilidade.
+- Otimizado o layout do logon.
+- Adicionado gesto de deslizar para a direita para fechar as páginas pop-up da caixa de diálogo no teclado numérico, na página **Detalhes** e nas páginas de entrada.
 
 ## <a name="version-20220"></a>Versão 2.0.22.0
 

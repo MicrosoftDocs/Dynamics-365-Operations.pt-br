@@ -1,6 +1,6 @@
 ---
 title: Medidas de ativos
-description: O tópico explica como criar a medida de ativos no Gerenciamento de Ativos.
+description: O artigo explica como criar a medida de ativos no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bcef89265697c1898b7d61a0b0ae6331ce1c851
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909662"
 ---
 # <a name="counters"></a>Contadores
 
 [!include [banner](../../includes/banner.md)]
 
-O tópico explica como criar a tipos de contador no Gerenciamento de Ativos. Os tipos de contador são usados para fazer registros de contador em ativos, por exemplo, em relação ao número de horas de produção ou à quantidade produzida no ativo. Os tipos de ativos são relacionados aos tipos de contador. Isso significa que um contador só poderá ser usada em um ativo se o contador estiver configurado no tipo de ativo usado no ativo.
+O artigo explica como criar a tipos de contador no Gerenciamento de Ativos. Os tipos de contador são usados para fazer registros de contador em ativos, por exemplo, em relação ao número de horas de produção ou à quantidade produzida no ativo. Os tipos de ativos são relacionados aos tipos de contador. Isso significa que um contador só poderá ser usada em um ativo se o contador estiver configurado no tipo de ativo usado no ativo.
 
 Para efetuar registros de contador, primeiro crie os tipos de contador que você deseja usar em **Contadores**. Em seguida, você pode criar registros de contador em ativos em **Contadores**. 
 

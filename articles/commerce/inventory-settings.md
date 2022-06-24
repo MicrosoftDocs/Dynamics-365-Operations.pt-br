@@ -1,6 +1,6 @@
 ---
 title: Aplicar configurações de estoque
-description: Este tópico abrange as configurações de estoque e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange as configurações de estoque e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/15/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: df1d1283a7692336906550169bc77104a9118779
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909548"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configurações de estoque
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange as configurações de estoque e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
+Este artigo abrange as configurações de estoque e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 
 As configurações de estoque especificam se o estoque deverá ser verificado antes que os produtos sejam adicionados ao carrinho. Eles também definem as mensagens de merchandising relacionadas ao estoque, como "Em estoque" e "Apenas alguns restantes". Essas configurações garantem que um produto não seja comprado se estiver esgotado.
 
@@ -51,7 +51,7 @@ No Commerce, as configurações de estoque são definidas em **Configurações d
     > [!IMPORTANT] 
     > A configuração **Nível de estoque para vários depósitos** está disponível a partir do Commerce versão 10.0.19. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Configurações de estoque para páginas de lista de produtos** – essa configuração define como os produtos fora de estoque são mostrados em listas de produtos renderizadas por coleção de produtos e módulos de resultados de pesquisa. Os valores disponíveis são **Exibidos em ordem com outros produtos**, **Ocultar produtos fora de estoque da lista** e **Exibir produtos fora de estoque no final da lista**. Para usar essa configuração, primeiro você precisa definir algumas configurações de pré-requisitos no Commerce Headquarters. Para obter mais informações, consulte [Habilitar o reconhecimento de estoque para o módulo de resultados de pesquisa](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Configurações de estoque para páginas de lista de produtos** – essa configuração define como os produtos fora de estoque são mostrados em listas de produtos renderizadas por coleção de produtos e módulos de resultados de pesquisa. Os valores disponíveis são **Exibidos em ordem com outros produtos**, **Ocultar produtos fora de estoque da lista** e **Exibir produtos fora de estoque no final da lista**. Para usar essa configuração, primeiro você precisa definir algumas configurações de pré-requisitos no Commerce headquarters. Para obter mais informações, consulte [Habilitar o reconhecimento de estoque para o módulo de resultados de pesquisa](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
 
     > [!IMPORTANT] 
     > A configuração **Configurações de estoque para páginas de listagem de produtos** está disponível a partir do Commerce versão 10.0.20. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
